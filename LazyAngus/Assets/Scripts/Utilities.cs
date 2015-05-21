@@ -13,6 +13,22 @@ using System.Collections;
 
 public static class Utilities
 {
+	private static bool isTouchDevice = false;
+	private static bool initializedIsTouchDevice = false;
+
+
+	public static bool GetIsTouchDevice() {
+		if (!Utilities.initializedIsTouchDevice) {
+			if (Application.platform == RuntimePlatform.IPhonePlayer) {
+				Utilities.isTouchDevice = true;
+			} else {
+				Utilities.isTouchDevice = false;
+			}
+		}
+		return Utilities.isTouchDevice;
+	}
+
+
 	public static GameController GetGameController() {
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		GameController gameController = null;
@@ -36,5 +52,71 @@ public static class Utilities
 		}
 		return playerController;
 	}
+
+	public static bool GetClickStarted(out Vector3 clickPosition) {
+		bool clickStarted;
+		if (GetIsTouchDevice ()) {
+			clickStarted = (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began);
+			if (clickStarted) {
+				clickPosition = Input.GetTouch (0).position;
+			} else {
+				clickPosition = Vector3.forward;
+			}
+		} else {
+			clickStarted = (Input.GetMouseButtonDown (0));
+			clickPosition = Input.mousePosition;
+		}
+		return clickStarted;
+	}
+
+	
+	public static bool GetClickEnded(out Vector3 clickPosition) {
+		bool clickEnded;
+		if (GetIsTouchDevice ()) {
+			clickEnded = (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Ended);
+			if (clickEnded) {
+				clickPosition = Input.GetTouch (0).position;
+			} else {
+				clickPosition = Vector3.forward;
+			}
+		} else {
+			clickEnded = (Input.GetMouseButtonUp (0));
+			clickPosition = Input.mousePosition;
+		}
+		return clickEnded;
+	}
+
+	public static bool GetClickPosition(out Vector3 clickPosition) {
+		bool isClicked;
+		if (GetIsTouchDevice ()) {
+			isClicked = (Input.touchCount > 0);
+			if (isClicked) {
+				clickPosition = Input.GetTouch (0).position;
+			} else {
+				clickPosition = Vector3.forward;
+			}
+		} else {
+			isClicked = (Input.GetMouseButton (0));
+			if (isClicked) {
+				clickPosition = Input.mousePosition;
+			} else {
+				clickPosition = Vector3.forward;
+			}
+		}
+		return isClicked;
+	}
+
+
+	public static float GetYAngle(Vector3 vector) {
+		vector.y = 0;
+		float angle = Vector3.Angle (Vector3.forward, vector);
+		if (vector.x < 0) {
+			return -angle;
+		} else {
+			return angle;
+		}
+	} 
 }
+
+
 

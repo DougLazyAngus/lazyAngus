@@ -2,15 +2,21 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-	public GameObject rightPaw;
-	public GameObject leftPaw;
-
 	public Material viewMaterial;
 
 	private float swipeAngleRange = 30.0f;
 
 	private Mesh viewMesh;
 	private float viewRadius = 10.0f;
+
+	private bool dragging = false;
+
+	// When I start dragging on cat butt, dragAnchor = cat coords of touched
+	// point on butt.  Flatten y value to 0.
+	private Vector3 dragAnchorCat;
+	// When I start dragging on cat butt, dragAngleAngle = angle from 
+	// cat fwd (0, 0, 1) to dragAnchorOnCat.
+	private float dragAnchorAngleCat;
 
 	// Use this for initialization
 	void Start () {
@@ -60,17 +66,42 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		if (dragging) {
+			UpdateDrag ();
+		}
 	}
-	
-	public void	HandlePlaneTap(RaycastHit hitPoint) {
+
+	void UpdateDrag() {
+		Vector3 clickPositionScreen;
+		bool isClicked = Utilities.GetClickPosition (out clickPositionScreen);
+		if (!isClicked) {
+			dragging = false;
+			return;
+		}
+
+		Debug.Log ("Dragging x:" + clickPositionScreen.x + 
+		           " y:" + clickPositionScreen.y);
+		Vector3 clickPositionWorld = Camera.main.ScreenToWorldPoint (clickPositionScreen);
+		Vector3 clickPositionCat = transform.InverseTransformPoint (clickPositionWorld);
+
+
+		float clickAngleCat = Utilities.GetYAngle (clickPositionCat);
+
+		transform.Rotate (new Vector3(0.0f, clickAngleCat - dragAnchorAngleCat, 0.0f));
+	}
+
+	public void HandleTurnClickStart(RaycastHit hitPoint) {
+		dragging = true;
+		dragAnchorCat = transform.InverseTransformPoint(hitPoint.point);
+		dragAnchorCat.y = 0.0f;
+		dragAnchorAngleCat = Utilities.GetYAngle (dragAnchorCat);
+	}  
+
+	public void	HandleSlapClickStart(RaycastHit hitPoint) {
 
 		Vector3 transformedPoint = transform.InverseTransformPoint (hitPoint.point);
 
-		float angle = Vector3.Angle (Vector3.forward, transformedPoint);
-		if (transformedPoint.x < 0) {
-			angle = -angle;
-		}
+		float angle = Utilities.GetYAngle (transformedPoint);
 
 		if (angle > swipeAngleRange ) {
 			Debug.Log ("Right");
@@ -80,4 +111,12 @@ public class PlayerController : MonoBehaviour {
 			transform.Rotate (new Vector3(0.0f, angle, 0.0f));
 		}
 	}
+
+	void OnApplicationFocus(bool focusStatus) {
+		if (!focusStatus) {
+			dragging = false;
+		}
+	}
+		
 }
+		

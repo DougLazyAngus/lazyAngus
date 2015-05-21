@@ -3,7 +3,6 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
-	private bool isTouchDevice = false;
 	private int killScore;
 	private int exitScore;
 
@@ -24,11 +23,6 @@ public class GameController : MonoBehaviour {
 	private int UserInteractionsLayerBitmask = (1 << 9);
 
 	void Awake() {
-		if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			isTouchDevice = true;
-		} else {
-			isTouchDevice = false;
-		}
 	}
 
 
@@ -51,29 +45,22 @@ public class GameController : MonoBehaviour {
 	void HandleUserInput() {
 		RaycastHit hitPoint = default(RaycastHit);
 
-		if (CheckForTap(ref hitPoint)) {
-			HandleTap (hitPoint);
+		if (CheckForClickStart(ref hitPoint)) {
+			HandleClickStart (hitPoint);
 		}
 	}
 
-	bool CheckForTap(ref RaycastHit hitPoint) {
-		bool clickDetected;
-		Vector3 touchPosition;
+	bool CheckForClickStart(ref RaycastHit hitPoint) {
+		Vector3 clickPosition;
 		
 		// Detect click and calculate touch position
-		if (isTouchDevice) {
-			clickDetected = (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began);
-			touchPosition = Input.GetTouch(0).position;
-		} else {
-			clickDetected = (Input.GetMouseButtonDown(0));
-			touchPosition = Input.mousePosition;
-		}
-		
-		if (!clickDetected) {
- 			return false;
-		}
+		bool clickStarted = Utilities.GetClickStarted (out clickPosition);
 
-		Ray ray = Camera.main.ScreenPointToRay (touchPosition);
+		if (!clickStarted) {
+ 			return false;
+		}  
+
+		Ray ray = Camera.main.ScreenPointToRay (clickPosition);
 
 		if (Physics.Raycast (ray, out hitPoint, 200.0f, UserInteractionsLayerBitmask)) {
 			return true;
@@ -82,12 +69,13 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	void HandleTap(RaycastHit hitPoint) {
-		if (hitPoint.collider.tag == "Player") {
-			Debug.Log ("Tapped Player");
+	void HandleClickStart(RaycastHit hitPoint) {
+		if (hitPoint.collider.tag == "CatButt") {
+			Debug.Log ("Tapped CatButt");
+			playerController.HandleTurnClickStart(hitPoint);
 		} else if (hitPoint.collider.tag == "Plane") {
 			Debug.Log ("Tapped Plane");
-			playerController.HandlePlaneTap(hitPoint);
+			playerController.HandleSlapClickStart(hitPoint);
 		} else {
 			Debug.Log ("Tapped something else");
 		}
