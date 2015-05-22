@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour {
 	private int UserInteractionsLayerBitmask = (1 << 9);
 
 	void Awake() {
+		Physics.IgnoreLayerCollision (8, 9, true);
 	}
 
 

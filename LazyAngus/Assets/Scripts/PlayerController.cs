@@ -4,10 +4,13 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 	public Material viewMaterial;
 
-	private float swipeAngleRange = 30.0f;
+	public GameObject rightPawGameObject;
+	public GameObject leftPawGameObject;
+
+	public float swipeAngleRange = 45.0f;
+	public float viewRadius = 100.0f;
 
 	private Mesh viewMesh;
-	private float viewRadius = 10.0f;
 
 	private bool dragging = false;
 
@@ -92,23 +95,29 @@ public class PlayerController : MonoBehaviour {
 
 	public void HandleTurnClickStart(RaycastHit hitPoint) {
 		dragging = true;
+
 		dragAnchorCat = transform.InverseTransformPoint(hitPoint.point);
 		dragAnchorCat.y = 0.0f;
 		dragAnchorAngleCat = Utilities.GetYAngle (dragAnchorCat);
+
+		rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
+		leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 	}  
 
 	public void	HandleSlapClickStart(RaycastHit hitPoint) {
 
-		Vector3 transformedPoint = transform.InverseTransformPoint (hitPoint.point);
+		Vector3 swipeLocationCat = transform.InverseTransformPoint (hitPoint.point);
 
-		float angle = Utilities.GetYAngle (transformedPoint);
+		float angle = Utilities.GetYAngle (swipeLocationCat);
 
-		if (angle > swipeAngleRange ) {
-			Debug.Log ("Right");
-			transform.Rotate (new Vector3(0.0f, angle, 0.0f));
-		} else if (angle < -swipeAngleRange) {
-			Debug.Log ("Left");
-			transform.Rotate (new Vector3(0.0f, angle, 0.0f));
+		GameObject paw = null;
+		if (angle >= 0 && angle <= swipeAngleRange) {
+			paw = rightPawGameObject;
+		} else if (angle < 0 && angle >= -swipeAngleRange) {
+			paw = leftPawGameObject;
+		}
+		if (paw) {
+			paw.GetComponent<PawController>().Swipe (swipeLocationCat);
 		}
 	}
 

@@ -128,6 +128,10 @@ public class MouseMove : MonoBehaviour {
 	}
 
 
+	public void OnMouseSwiped() {
+		Object.Destroy(this.gameObject);
+	}
+
 	void SetAltMaterial(Material material) {
 		foreach (Transform t in transform) {
 			if (t.gameObject && t.gameObject.tag == "MouseBall" && 
