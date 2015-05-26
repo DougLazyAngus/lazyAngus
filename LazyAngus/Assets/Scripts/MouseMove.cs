@@ -17,15 +17,11 @@ public class MouseMove : MonoBehaviour {
 	};
 
 
-	public float speed;
-	public float circlingRadius;
-	public bool isClockwise;
-
 	private float mouseAngle;
 	private float mouseRadius;
 
-	public float startAngle;
-	public float endAngle;
+	private float startAngle;
+	private float endAngle;
 
 	public static float startMouseRadius = 7.0f;
 
@@ -37,20 +33,22 @@ public class MouseMove : MonoBehaviour {
 	public Material altMaterial01;
 	public Material altMaterial02;
 
+	public float minCirclingRadius = 3.0f;
+	public float maxCirclingRadius = 4.5f;
+	public float minSpeed = 0.7f;
+	public float maxSpeed = 1.3f;
+
+	public float endAngleSkew = 20.0f;
+	public int mouseHomeIndex;
+
+
+	private float circlingRadius;
+	private float speed;
+	private bool isClockwise;
 
 	// Use this for initialization
 	void Start () {
 		gameController = Utilities.GetGameController ();
-
-		if (isClockwise) {
-			while (endAngle <= startAngle) {
-				endAngle += 360.0f;
-			}
-		} else {
-			while (startAngle <= endAngle) {
-				startAngle += 360.0f;
-			}
-		}
 
 		mouseAngle = startAngle;
 		phase = PhaseType.ENTERING_PHASE;
@@ -126,12 +124,7 @@ public class MouseMove : MonoBehaviour {
 	
 		PositionMouse ();
 	}
-
-
-	public void OnMouseSwiped() {
-		Object.Destroy(this.gameObject);
-	}
-
+	
 	void SetAltMaterial(Material material) {
 		foreach (Transform t in transform) {
 			if (t.gameObject && t.gameObject.tag == "MouseBall" && 
@@ -141,17 +134,51 @@ public class MouseMove : MonoBehaviour {
 		}
 	}
 
+	//------------------------------------------
+	// 
+	// Public functions
+	//
+	//------------------------------------------
+	public void RandomizeSetup() {
+		this.mouseHomeIndex = Random.Range (0, 4);
+		this.startAngle = this.mouseHomeIndex * 90.0f;
+		
+		int orientation = Random.Range (0, 2);
+		this.isClockwise = (orientation != 0);
+		
+		if (this.isClockwise) {
+			this.endAngle = this.startAngle + 360.0f - this.endAngleSkew;
+		} else {
+			this.endAngle = this.startAngle + this.endAngleSkew;
+			this.startAngle += 360.0f;
+		}	
+		
+		this.circlingRadius = Random.Range (minCirclingRadius, maxCirclingRadius);
+		
+		int mtAsInt = Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);
+		
+		this.SetMouseType((MouseMove.MouseType)mtAsInt);
+	}
+	
+	
+	public void OnMouseSwiped() {
+		Object.Destroy(this.gameObject);
+	}
+
 	public void SetMouseType(MouseType mt) {
 		mouseType = mt;
 		
 		switch (mouseType) {
 		case MouseType.MOUSE_TYPE_FAST:
-			speed = speed * 1.3f;
+			speed = maxSpeed;
 			SetAltMaterial(altMaterial01);
 			break;
 		case MouseType.MOUSE_TYPE_SLOW:
-			speed = speed * 0.7f;
+			speed = minSpeed;
 			SetAltMaterial(altMaterial02);
+			break;
+		case MouseType.MOUSE_TYPE_MEDIUM:
+			speed = (maxSpeed + minSpeed)/2;
 			break;
 		}
 	}

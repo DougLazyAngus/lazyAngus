@@ -1,22 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-	private int killScore;
-	private int exitScore;
+	private int score;
+	private int[] exitScores;
 
-	public GUIText killScoreText;
-	public GUIText exitScoreText;
+	public Text scoreText;
+	public Text gameOverText;
+	public Text[] exitScoreTexts;
+	public Button againButton;
 
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
 
-	public float minCirclingRadius = 0.3f;
-	public float maxCirclingRadius = 4.5f;
+	public float maxExitsPerHole = 5;
 
 	public GameObject mouse;
+
+	private bool gameOver;
 
 	private PlayerController playerController;
 
@@ -24,13 +28,26 @@ public class GameController : MonoBehaviour {
 
 	void Awake() {
 		Physics.IgnoreLayerCollision (8, 9, true);
+		exitScores = new int[4];
+	
+		againButton.gameObject.SetActive (false);
+		gameOverText.gameObject.SetActive (false);
 	}
 
+	
+	public void RestartGame() {
+		Application.LoadLevel (Application.loadedLevel);
+	}
 
 	void Start() {
-		killScore = exitScore = 0;
-		UpdateExitScore ();
-		UpdateKillScore ();
+		score = 0;
+		gameOver = false;
+
+		for (int i = 0; i < 4; i++) {
+			exitScores[i] = 0;
+			UpdateExitScore(i);
+		}
+		UpdateScore ();
 
 		playerController = Utilities.GetPlayerController();
 
@@ -40,7 +57,9 @@ public class GameController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		HandleUserInput ();
+		if (!gameOver) {
+			HandleUserInput ();
+		}
 	}
 
 	void HandleUserInput() {
@@ -82,64 +101,78 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	IEnumerator SpawnMice() {
+		yield return new WaitForSeconds (startWait);
+		
+		while (!gameOver) {
+			GameObject mouseObject;
+			
+			mouseObject = Instantiate (mouse, 
+			                           new Vector3 (0, 0, 0),
+			                           Quaternion.identity) as GameObject;
+			MouseMove mouseMove = mouseObject.GetComponent<MouseMove> ();
+			mouseMove.RandomizeSetup();
+			
+			float spawnWait = Random.Range (minSpawnWait, maxSpawnWait);
+			yield return new WaitForSeconds (spawnWait);
+		}
+		Debug.Log ("All Done!");
+	}
+	
+
 	//------------------------------
 	//
 	// Score keeping
 	//
 	//------------------------------
-	public void OnMouseExit(MouseMove mouse) {
-		exitScore += 1;
-		UpdateExitScore ();
+	void UpdateExitScore(int index) {
+		exitScoreTexts[index].text = "" + exitScores[index] + "/" + maxExitsPerHole;
 	}
 	
-	public void OnMouseKilled(MouseMove mouse) {
-		killScore += 1;
-		UpdateKillScore ();
-	}
-	
-	void UpdateExitScore() {
-		exitScoreText.text = "Escaped: " + exitScore;
-	}
-	
-	void UpdateKillScore() {
-		killScoreText.text = "Killed: " + killScore;
+	void UpdateScore() {
+		scoreText.text = "Score: " + score;
 	}
 
-
-	IEnumerator SpawnMice() {
-		yield return new WaitForSeconds (startWait);
-
-		while (true) {
-			GameObject mouseObject;
-
-			mouseObject = Instantiate (mouse, 
-			                           new Vector3 (0, 0, 0),
-			                           Quaternion.identity) as GameObject;
-			MouseMove mouseMove = mouseObject.GetComponent<MouseMove> ();
-
-			int entry = Random.Range (0, 4);
-			float startAngle = entry * 90.0f;
-			mouseMove.startAngle = startAngle;
-
-			int orientation = Random.Range (0, 2);
-			mouseMove.isClockwise = (orientation != 0);
-
-			mouseMove.circlingRadius = Random.Range (minCirclingRadius, maxCirclingRadius);
-
-			if (mouseMove.isClockwise) {
-				mouseMove.endAngle = mouseMove.startAngle - 30;
-			} else {
-				mouseMove.endAngle = mouseMove.startAngle + 30;
-			}	
-
-			int mtAsInt = Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);
-			MouseMove.MouseType mouseType = (MouseMove.MouseType)mtAsInt;
-
-			mouseMove.SetMouseType(mouseType);
-	
-			float spawnWait = Random.Range (minSpawnWait, maxSpawnWait);
-
-			yield return new WaitForSeconds (spawnWait);
+	void CheckForGameEnd() {
+		bool isGameOver = this.IsGameOver ();
+		if (isGameOver) {
+			HandleGameOver ();
+			return;
 		}
 	}
+
+	void HandleGameOver() {
+		gameOver = true;
+		gameOverText.gameObject.SetActive (true);
+		scoreText.gameObject.SetActive (false);
+		againButton.gameObject.SetActive (true);
+
+		gameOverText.text = "Score: " + score;
+	}
+	
+	bool IsGameOver() {
+		for (int i = 0; i < 4; i++) {
+			if (exitScores [i] >= maxExitsPerHole) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	//------------------------------------
+	// 
+	// Public functions
+	//
+	//------------------------------------
+	 public void OnMouseExit(MouseMove mouse) {
+		exitScores[mouse.mouseHomeIndex] += 1;
+		UpdateExitScore (mouse.mouseHomeIndex);
+		this.CheckForGameEnd ();
+	}	
+
+	public void OnMouseKilled(MouseMove mouse) {
+		score += 1;
+		UpdateScore ();
+	}
+	
 }
