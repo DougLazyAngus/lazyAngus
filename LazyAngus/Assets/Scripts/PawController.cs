@@ -16,7 +16,9 @@ public class PawController : MonoBehaviour {
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public float swipeSpeed = 7.0f;
+	public float swipeInitialSpeed = 1.0f;
+	public float swipeFinalSpeed = 7.0f;
+	public float swipeAcceleration = 20.0f;
 	public float swipeInitialPause = 0.3f;
 	public float swipeExtendedPause = 0.1f;
 
@@ -24,6 +26,7 @@ public class PawController : MonoBehaviour {
 	public Material dangerFurRef;
 
 	private Collider model;
+	private float swipeSpeed;
 
 	void Start() {
 		swipePhase = SwipePhase.SWIPE_NONE;
@@ -35,6 +38,7 @@ public class PawController : MonoBehaviour {
 		Rigidbody rb = GetComponentInChildren<Rigidbody> ();
 		rb.freezeRotation = true;
 		rb.constraints = RigidbodyConstraints.FreezeAll;
+		swipeSpeed = 0;
 	}
 
 	void Update() {
@@ -44,11 +48,13 @@ public class PawController : MonoBehaviour {
 			float timeNow = Time.time;
 			if (timeNow - pauseStarted > swipeInitialPause) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
+				swipeSpeed = swipeInitialSpeed;
 			}
 			break;
 		}
 		case SwipePhase.SWIPE_EXTENDING:
 		{
+			UpdateSpeed();
 			if (MoveTowards (swipeLocationCat)) {
 				SetPhase(SwipePhase.SWIPE_EXTENDED_PAUSE);
 			}
@@ -64,13 +70,25 @@ public class PawController : MonoBehaviour {
 			}
 		case SwipePhase.SWIPE_RETRACTING:
 			{
-				if (MoveTowards (homeLocationCat)) {
+			swipeSpeed = swipeFinalSpeed;
+			if (MoveTowards (homeLocationCat)) {
 					SetPhase(SwipePhase.SWIPE_NONE);
 				}
 				break;
 			}
 		}
 
+	}
+
+	void UpdateSpeed() {
+		float acceleration = swipeAcceleration;
+
+		if (acceleration != 0.0f) {
+			float deltaTime = Time.deltaTime;
+			float vChange = deltaTime * acceleration;
+			swipeSpeed += vChange;
+			swipeSpeed = Mathf.Clamp (swipeSpeed, swipeInitialSpeed, swipeFinalSpeed);
+		}
 	}
 
 	void SetPhase(SwipePhase phase) {

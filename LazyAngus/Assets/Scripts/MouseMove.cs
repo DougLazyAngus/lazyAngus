@@ -35,6 +35,8 @@ public class MouseMove : MonoBehaviour {
 
 	public float minCirclingRadius = 3.0f;
 	public float maxCirclingRadius = 4.5f;
+	public int numTracks = 3;
+
 	public float minSpeed = 0.7f;
 	public float maxSpeed = 1.3f;
 
@@ -153,8 +155,12 @@ public class MouseMove : MonoBehaviour {
 			this.startAngle += 360.0f;
 		}	
 		
-		this.circlingRadius = Random.Range (minCirclingRadius, maxCirclingRadius);
-		
+		int track = Random.Range (0, numTracks);
+		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
+		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
+
+		this.circlingRadius = minCirclingRadius + extraRadius;
+
 		int mtAsInt = Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);
 		
 		this.SetMouseType((MouseMove.MouseType)mtAsInt);
