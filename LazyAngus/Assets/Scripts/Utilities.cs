@@ -28,7 +28,12 @@ public static class Utilities
 		return Utilities.isTouchDevice;
 	}
 
-
+	
+	public static GameObject GetCanvasGameObject() {
+		GameObject canvasObject = GameObject.FindWithTag ("Canvas");
+		return canvasObject;
+	}
+	
 	public static GameController GetGameController() {
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		GameController gameController = null;

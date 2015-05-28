@@ -116,7 +116,6 @@ public class GameController : MonoBehaviour {
 			float spawnWait = Random.Range (minSpawnWait, maxSpawnWait);
 			yield return new WaitForSeconds (spawnWait);
 		}
-		Debug.Log ("All Done!");
 	}
 	
 
@@ -145,6 +144,10 @@ public class GameController : MonoBehaviour {
 		gameOver = true;
 		gameOverText.gameObject.SetActive (true);
 		scoreText.gameObject.SetActive (false);
+		for (int i = 0; i < 4; i++) {
+			exitScoreTexts [i].gameObject.SetActive (false);
+		}
+
 		againButton.gameObject.SetActive (true);
 
 		gameOverText.text = "Score: " + score;

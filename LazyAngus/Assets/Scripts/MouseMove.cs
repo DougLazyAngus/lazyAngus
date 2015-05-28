@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 
 public class MouseMove : MonoBehaviour {
 	enum PhaseType {
@@ -16,13 +16,17 @@ public class MouseMove : MonoBehaviour {
 		NUM_MOUSE_TYPES,
 	};
 
-
 	private float mouseAngle;
-	private float mouseRadius;
-
 	private float startAngle;
 	private float endAngle;
+	public float endAngleSkew = 20.0f;
+	private int durationIndex;
 
+	private float mouseRadius;
+	private float circlingRadius;
+	public float minCirclingRadius = 3.0f;
+	public float maxCirclingRadius = 4.5f;
+	public int numTracks = 3;
 	public static float startMouseRadius = 7.0f;
 
 	private PhaseType phase;
@@ -32,22 +36,21 @@ public class MouseMove : MonoBehaviour {
 
 	public Material altMaterial01;
 	public Material altMaterial02;
-
-	public float minCirclingRadius = 3.0f;
-	public float maxCirclingRadius = 4.5f;
-	public int numTracks = 3;
-
+	
+	private float speed;
 	public float minSpeed = 0.7f;
 	public float maxSpeed = 1.3f;
-
-	public float endAngleSkew = 20.0f;
+	
 	public int mouseHomeIndex;
-
-
-	private float circlingRadius;
-	private float speed;
+	
 	private bool isClockwise;
 
+	public GameObject sliderProtoype;
+	private Slider sliderInstance;
+	
+	public Vector2 hudOffset;
+
+	
 	// Use this for initialization
 	void Start () {
 		gameController = Utilities.GetGameController ();
@@ -56,8 +59,35 @@ public class MouseMove : MonoBehaviour {
 		phase = PhaseType.ENTERING_PHASE;
 		mouseRadius = startMouseRadius; 
 
+		MakeSlider ();
+
 		PositionMouse ();
 	}
+
+	void MakeSlider() {
+		GameObject sliderGameObject;
+		sliderGameObject = Instantiate (sliderProtoype, 
+		                            new Vector3 (0, 0, 0),
+		                                Quaternion.identity) as GameObject;
+		UIFollower uiFollower = sliderGameObject.GetComponent<UIFollower> ();
+		uiFollower.parentTransform = gameObject.transform;
+		uiFollower.offset = hudOffset;
+
+		GameObject canvas = Utilities.GetCanvasGameObject ();
+		sliderGameObject.transform.SetParent (canvas.transform);
+
+		sliderInstance = sliderGameObject.GetComponent<Slider> ();
+
+		TweakableSlider ts = sliderGameObject.GetComponent<TweakableSlider> ();
+		if (durationIndex == 0) {
+			ts.fill.color = new Color(1.0f, 0.0f, 0.0f);
+		} else if (durationIndex == 1) {
+			ts.fill.color = new Color(1.0f, 0.5f, 0.0f);
+		} else {
+			ts.fill.color = new Color(1.0f, 1.0f, 0.0f);
+		}
+	}
+
 
 	void PositionMouse() {
 		float x = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngle);
@@ -65,19 +95,45 @@ public class MouseMove : MonoBehaviour {
 
 		float finalAngle = mouseAngle;
 		float adjustment = 0.0f;
+
+		float fractionFinished = 0.0f;
+
 		switch (phase) {
 		case PhaseType.ENTERING_PHASE:
 			adjustment = 180.0f;
 			break;
 		case PhaseType.RUNNING_PHASE:
 			adjustment = isClockwise ? 90.0f : -90.0f;
+			fractionFinished = Mathf.Abs(mouseAngle - startAngle)/Mathf.Abs(startAngle - endAngle);
+			break;
+		case PhaseType.LEAVING_PHASE:
+			fractionFinished = 1.0f;
 			break;
 		}
 
 		finalAngle += adjustment;
 
+		sliderInstance.value = fractionFinished;
+
 		transform.rotation = Quaternion.Euler (0.0f, finalAngle, 0.0f);
 		transform.position = new Vector3 (x, 0.0f, z);
+	
+		UpdateSlider ();
+	}
+
+	void UpdateSlider() {		
+		float fractionFinished = 0.0f;
+		
+		switch (phase) {
+		case PhaseType.RUNNING_PHASE:
+			fractionFinished = Mathf.Abs(mouseAngle - startAngle)/Mathf.Abs(startAngle - endAngle);
+			break;
+		case PhaseType.LEAVING_PHASE:
+			fractionFinished = 1.0f;
+			break;
+		}
+
+		sliderInstance.value = fractionFinished;
 	}
 
 	// Update is called once per frame
@@ -118,8 +174,7 @@ public class MouseMove : MonoBehaviour {
 			mouseRadius += deltaTime * speed;
 			if (mouseRadius >= startMouseRadius) {
 				gameController.OnMouseExit(this);
-				Object.Destroy(this.gameObject);
-
+				CleanupSelf();
 			}
 			break;
 		}
@@ -136,25 +191,33 @@ public class MouseMove : MonoBehaviour {
 		}
 	}
 
-	//------------------------------------------
+	void CleanupSelf() {
+		Object.Destroy (sliderInstance.gameObject);
+		Object.Destroy(this.gameObject);
+	}
+		
+		//------------------------------------------
 	// 
 	// Public functions
 	//
 	//------------------------------------------
 	public void RandomizeSetup() {
-		this.mouseHomeIndex = Random.Range (0, 4);
-		this.startAngle = this.mouseHomeIndex * 90.0f;
+		mouseHomeIndex = Random.Range (0, 4);
+		startAngle = mouseHomeIndex * 90.0f;
 		
+		durationIndex = Random.Range (0, 3);
+		float endAngleDelta = 135.0f + durationIndex * 90.0f;
+
 		int orientation = Random.Range (0, 2);
-		this.isClockwise = (orientation != 0);
+		isClockwise = (orientation != 0);
 		
-		if (this.isClockwise) {
-			this.endAngle = this.startAngle + 360.0f - this.endAngleSkew;
+		if (isClockwise) {
+			endAngle = startAngle + endAngleDelta;
 		} else {
-			this.endAngle = this.startAngle + this.endAngleSkew;
-			this.startAngle += 360.0f;
+			startAngle += 360.0f;
+			endAngle = startAngle - endAngleDelta;
 		}	
-		
+
 		int track = Random.Range (0, numTracks);
 		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
 		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
@@ -168,7 +231,7 @@ public class MouseMove : MonoBehaviour {
 	
 	
 	public void OnMouseSwiped() {
-		Object.Destroy(this.gameObject);
+		CleanupSelf ();
 	}
 
 	public void SetMouseType(MouseType mt) {
