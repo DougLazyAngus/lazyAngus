@@ -8,11 +8,10 @@ public class DestroyByCollision : MonoBehaviour {
 			return;
 		}
 
-		GameObject parentGameObject = other.gameObject.transform.parent.gameObject;
-		MouseMove mouse = parentGameObject.GetComponent <MouseMove>();
+		MouseMove mouseMove = Utilities.FindComponentInAncestor<MouseMove> (other.gameObject);
 
 		GameController gameController = Utilities.GetGameController ();
-		mouse.OnMouseSwiped ();
-		gameController.OnMouseKilled (mouse);
+		mouseMove.OnKilled ();
+		gameController.OnMouseKilled (mouseMove);
 	}
 }

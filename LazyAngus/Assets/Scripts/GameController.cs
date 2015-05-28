@@ -5,19 +5,16 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour {
 
 	private int score;
-	private int[] exitScores;
 
 	public Text scoreText;
 	public Text gameOverText;
-	public Text[] exitScoreTexts;
 	public Button againButton;
 
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
-
-	public float maxExitsPerHole = 5;
-
+	public MouseHole[] mouseHoles;
+	
 	public GameObject mouse;
 
 	private bool gameOver;
@@ -28,7 +25,6 @@ public class GameController : MonoBehaviour {
 
 	void Awake() {
 		Physics.IgnoreLayerCollision (8, 9, true);
-		exitScores = new int[4];
 	
 		againButton.gameObject.SetActive (false);
 		gameOverText.gameObject.SetActive (false);
@@ -43,10 +39,6 @@ public class GameController : MonoBehaviour {
 		score = 0;
 		gameOver = false;
 
-		for (int i = 0; i < 4; i++) {
-			exitScores[i] = 0;
-			UpdateExitScore(i);
-		}
 		UpdateScore ();
 
 		playerController = Utilities.GetPlayerController();
@@ -124,10 +116,6 @@ public class GameController : MonoBehaviour {
 	// Score keeping
 	//
 	//------------------------------
-	void UpdateExitScore(int index) {
-		exitScoreTexts[index].text = "" + exitScores[index] + "/" + maxExitsPerHole;
-	}
-	
 	void UpdateScore() {
 		scoreText.text = "Score: " + score;
 	}
@@ -144,9 +132,6 @@ public class GameController : MonoBehaviour {
 		gameOver = true;
 		gameOverText.gameObject.SetActive (true);
 		scoreText.gameObject.SetActive (false);
-		for (int i = 0; i < 4; i++) {
-			exitScoreTexts [i].gameObject.SetActive (false);
-		}
 
 		againButton.gameObject.SetActive (true);
 
@@ -155,7 +140,7 @@ public class GameController : MonoBehaviour {
 	
 	bool IsGameOver() {
 		for (int i = 0; i < 4; i++) {
-			if (exitScores [i] >= maxExitsPerHole) {
+			if (mouseHoles [i].IsFull()) {
 				return true;
 			}
 		}
@@ -168,8 +153,6 @@ public class GameController : MonoBehaviour {
 	//
 	//------------------------------------
 	 public void OnMouseExit(MouseMove mouse) {
-		exitScores[mouse.mouseHomeIndex] += 1;
-		UpdateExitScore (mouse.mouseHomeIndex);
 		this.CheckForGameEnd ();
 	}	
 

@@ -121,6 +121,28 @@ public static class Utilities
 			return angle;
 		}
 	} 
+
+	public static GameObject FindChildWithTag(GameObject gameObject, string tag) {
+		for(int i = 0; i < gameObject.transform.childCount; i++){
+			Transform child = gameObject.transform.GetChild(i);
+			if(child.gameObject.tag == tag){
+				return child.gameObject;
+			}
+		}
+		return null;
+	}
+
+	public static T FindComponentInAncestor<T>(GameObject gameObject) {
+		T component = gameObject.GetComponent<T> ();
+		if (component != null) {
+			return component;
+		}
+		Transform parent = gameObject.transform.parent;
+		if (!parent || !parent.gameObject) {
+			return default(T);
+		}
+		return FindComponentInAncestor<T> (parent.gameObject);
+	}
 }
 
 
