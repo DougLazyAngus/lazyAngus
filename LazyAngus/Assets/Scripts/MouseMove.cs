@@ -15,36 +15,37 @@ public class MouseMove : MonoBehaviour {
 		MOUSE_TYPE_FAST,
 		NUM_MOUSE_TYPES,
 	};
-
+	
 	private float mouseAngle;
 	private float startAngle;
 	private float endAngle;
 
 	private float mouseRadius;
 	private float circlingRadius;
-	public float minCirclingRadius = 3.0f;
-	public float maxCirclingRadius = 4.5f;
-	public int numTracks = 3;
-	public static float startMouseRadius = 7.0f;
-
+	
 	private MovementPhaseType phase;
 
 	private MouseType mouseType;
 
-	public Material altMaterial01;
-	public Material altMaterial02;
-	
 	private float speed;
-	public float minSpeed = 0.7f;
-	public float maxSpeed = 1.3f;
-	
-	public int mouseHomeIndex;
-	
-	private bool isClockwise;
 
-	private Slider sliderInstance;	
+	public static float minCirclingRadius = 3.0f;
+	public static float maxCirclingRadius = 4.5f;
+	public static int numTracks = 3;
+	public static float startMouseRadius = 7.0f;
+	public static float minSpeed = 0.7f;
+	public static float maxSpeed = 1.3f;
+
+	public static Material altMaterial01;
+	public static Material altMaterial02;
 
 	public GameObject[] mouseBalls;
+
+	private bool isClockwise;
+
+	private Slider sliderInstance;
+	private TweakableSlider tweakableSlider;
+
 
 	
 	// Use this for initialization
@@ -70,8 +71,7 @@ public class MouseMove : MonoBehaviour {
 
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();
 
-		TweakableSlider ts = sliderGameObject.GetComponent<TweakableSlider> ();
-		ts.fill.color = new Color(1.0f, 0.0f, 0.0f);
+		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
 	}
 
 
@@ -118,6 +118,15 @@ public class MouseMove : MonoBehaviour {
 			fractionFinished = 1.0f;
 			break;
 		}
+
+		Color color;
+		if (fractionFinished < 0.5) {
+			color = Color.Lerp (Color.green, Color.yellow, fractionFinished * 2f);
+		} else {
+			color = Color.Lerp (Color.yellow, Color.red, fractionFinished * 2f - 1f);
+		}
+
+		tweakableSlider.fill.color = color;
 
 		sliderInstance.value = fractionFinished;
 	}
@@ -176,35 +185,12 @@ public class MouseMove : MonoBehaviour {
 		Object.Destroy(this.gameObject);
 	}
 		
-		//------------------------------------------
+	//------------------------------------------
 	// 
 	// Public functions
 	//
 	//------------------------------------------
-	public void RandomizeSetup() {
-		mouseHomeIndex = Random.Range (0, 4);
-		startAngle = mouseHomeIndex * 90.0f;
 
-		int orientation = Random.Range (0, 2);
-		isClockwise = (orientation != 0);
-		
-		if (isClockwise) {
-			endAngle = startAngle + 360.0f;
-		} else {
-			endAngle = startAngle;
-			startAngle += 360.0f;
-		}	
-
-		int track = Random.Range (0, numTracks);
-		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
-		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
-
-		this.circlingRadius = minCirclingRadius + extraRadius;
-
-		int mtAsInt = Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);
-		
-		this.SetMouseType((MouseMove.MouseType)mtAsInt);
-	}
 	
 	
 	public void OnKilled() {
@@ -231,9 +217,59 @@ public class MouseMove : MonoBehaviour {
 			speed = (maxSpeed + minSpeed)/2;
 			break;
 		}
+		int mtAsInt = (int)mouseType;
+
+		Vector3 scale = transform.localScale;
+		float newScale = 1.0f + 0.15f * mtAsInt;
+		scale *= newScale;
+		transform.localScale = scale;
 	}
 
 	public MovementPhaseType GetMousePhase() {
 		return phase;
+	}
+
+	public void SetupMouse(MouseMove.MouseType mouseType,
+	                       MouseHole.MouseHoleLocation originHole,
+	                       bool isClockwise, 
+	                       int track) {
+		this.isClockwise = isClockwise;
+
+		startAngle = (float)originHole * MouseHole.angleBetweenHoles;
+
+		float extraRadiusFraction = (float)track/(float)(MouseMove.numTracks - 1);
+		float extraRadius = (MouseMove.maxCirclingRadius - MouseMove.minCirclingRadius) * extraRadiusFraction;
+		
+		circlingRadius = MouseMove.minCirclingRadius + extraRadius;
+		
+		this.SetMouseType(mouseType);
+
+		float angleDistance = ((int)mouseType + 2) * MouseHole.angleBetweenHoles;
+
+		if (isClockwise) {
+			endAngle = startAngle + angleDistance;
+		} else {
+			endAngle = startAngle - angleDistance;
+			if (endAngle < 0) {
+				startAngle += 360.0f;
+				endAngle += 360.0f;
+			}
+		}	
+	}
+
+	public void RandomizeSetup() {
+		MouseMove.MouseType mouseType = 
+			(MouseMove.MouseType)Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);		
+		MouseHole.MouseHoleLocation originHole =
+			(MouseHole.MouseHoleLocation)Random.Range (0, 
+			                                           (int)MouseHole.MouseHoleLocation.NUM_HOLE_TYPES);
+
+		isClockwise = (Random.Range (0, 2) != 0);
+		int track = Random.Range (0, MouseMove.numTracks);
+
+		SetupMouse (mouseType, 
+		            originHole, 
+		            isClockwise, 
+		            track);
 	}
 }

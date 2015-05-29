@@ -14,8 +14,6 @@ public class GameController : MonoBehaviour {
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
 	public MouseHole[] mouseHoles;
-	
-	public GameObject mouse;
 
 	private bool gameOver;
 
@@ -42,9 +40,6 @@ public class GameController : MonoBehaviour {
 		UpdateScore ();
 
 		playerController = Utilities.GetPlayerController();
-
-		StartCoroutine(SpawnMice());
-
 	}
 
 	// Update is called once per frame
@@ -92,24 +87,6 @@ public class GameController : MonoBehaviour {
 			Debug.Log ("Tapped something else");
 		}
 	}
-
-	IEnumerator SpawnMice() {
-		yield return new WaitForSeconds (startWait);
-		
-		while (!gameOver) {
-			GameObject mouseObject;
-			
-			mouseObject = Instantiate (mouse, 
-			                           new Vector3 (0, 0, 0),
-			                           Quaternion.identity) as GameObject;
-			MouseMove mouseMove = mouseObject.GetComponent<MouseMove> ();
-			mouseMove.RandomizeSetup();
-			
-			float spawnWait = Random.Range (minSpawnWait, maxSpawnWait);
-			yield return new WaitForSeconds (spawnWait);
-		}
-	}
-	
 
 	//------------------------------
 	//

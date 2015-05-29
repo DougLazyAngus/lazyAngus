@@ -8,10 +8,12 @@ public class DistortForEffect : MonoBehaviour {
 	public float distortTime;
 	public float distortScale;
 	public Transform thingToScale;
+	public Vector3 originalScale;
 
 	// Use this for initialization
 	void Start () {
-		distorting = false;	
+		distorting = false;
+		originalScale = thingToScale.localScale;
 	}
 
 	public void Distort() {
@@ -21,7 +23,7 @@ public class DistortForEffect : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!distorting) {
+		if (!distorting) {  
 			return;
 		}
 
@@ -38,6 +40,8 @@ public class DistortForEffect : MonoBehaviour {
 			scale = 1.0f + phase * amplitude * distortScale;
 		}
 
-		thingToScale.localScale = new Vector3 (scale, scale, scale);
+		thingToScale.localScale = new Vector3 (scale * originalScale.x,
+		                                       scale * originalScale.y,
+		                                       scale * originalScale.z);
 	}
 }

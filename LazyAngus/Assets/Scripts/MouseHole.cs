@@ -5,6 +5,18 @@ using UnityEngine.UI;
 public class MouseHole : MonoBehaviour {
 	public int maxSavedMice = 5;
 
+	public enum MouseHoleLocation {
+		NORTH = 0,
+		EAST,
+		SOUTH,
+		WEST,
+		NUM_HOLE_TYPES,
+	};
+	
+	public MouseHoleLocation mouseHoleLocation;
+
+	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_HOLE_TYPES);
+
 	private Slider sliderInstance;	
 
 	private int savedMouseCount;
