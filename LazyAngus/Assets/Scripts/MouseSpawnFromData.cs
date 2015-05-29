@@ -6,7 +6,7 @@ using System.Linq;
 public class MouseSpawnFromData : MonoBehaviour {
 
 	int randomSeed;
-	float initialSpawnDelta;
+	public float initialSpawnDelta = 1f;
 
 	List<ExplicitMouseDesc> miceDesc;
 	float nextSpawnTime;
@@ -25,7 +25,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 	}
 
 	void MaybeProduceNextMouse(float timeNow) {
-		if (miceDesc.Count == 0) {
+		if (miceDesc == null || miceDesc.Count == 0) {
 			return;
 		}
 
@@ -60,14 +60,11 @@ public class MouseSpawnFromData : MonoBehaviour {
 		return (miceDesc.Count == 0);
 	}
 
-	public void ConfigureWithData(int randomSeed, 
-		                           float initialSpawnDelta,
+	public void ConfigureWithData(List<ExplicitMouseDesc> explicitMice, 
+	                              int randomSeed, 
 	                              int[] miceByType,
-	                         	  float avgPause,
-	                              List<ExplicitMouseDesc> explicitMice,
-	                              float explicitMicePause) {
+	                         	  float avgPause) {
 		this.randomSeed = randomSeed;
-		this.initialSpawnDelta = initialSpawnDelta;
 
 		if (explicitMice == null) {
 			miceDesc = new List<ExplicitMouseDesc>();
@@ -101,7 +98,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 			emd.mouseType = (MouseMove.MouseType)listOfTypes [i];
 			emd.isClockwise = (Random.Range (0, 1) != 0);
 
-			emd.mouseHoleLocation = RandomEnum(MouseHole.MouseHoleLocation);
+			emd.mouseHoleLocation = MouseHole.GetRandomHoleLocation();
 
 			emd.track = Random.Range (0, (int)MouseMove.numTracks);
 			emd.delayToNextMouse = Random.Range (0.5f * avgPause, 

@@ -1,54 +1,73 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+
 
 public class GameController : MonoBehaviour {
 
-	private int score;
+	public enum GamePhaseType {
+		GAME_PHASE_NULL = 0,
+		GAME_PHASE_WELCOME,
+		GAME_PHASE_LEVEL_PLAY,
+		GAME_PHASE_LEVEL_END,
+		GAME_PHASE_GAME_OVER,
+		GAME_PHASE_PENDING,
+	};
 
-	public Text scoreText;
-	public Text gameOverText;
-	public Button againButton;
+	private int score;
 
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
 	public MouseHole[] mouseHoles;
-
-	private bool gameOver;
-
+	
 	private PlayerController playerController;
+	private MouseSpawnFromData mouseSpawnFromData;
 
+	public GameObject welcomeUIGameObject;
+	public GameObject levelEndUIGameObject;
+	public GameObject gameOverUIGameObject;
+
+	private int gameLevel;
 	private int UserInteractionsLayerBitmask = (1 << 9);
+
+	private GamePhaseType gamePhase;
+	private GamePhaseType pendingPhase;
+	private float pendingPhaseTimeout;
+
+	public static float pendingPause = 1f;
+
+	public Text scoreText;
 
 	void Awake() {
 		Physics.IgnoreLayerCollision (8, 9, true);
-	
-		againButton.gameObject.SetActive (false);
-		gameOverText.gameObject.SetActive (false);
 	}
 
-	
-	public void RestartGame() {
-		Application.LoadLevel (Application.loadedLevel);
-	}
 
 	void Start() {
 		score = 0;
-		gameOver = false;
+		gamePhase = GamePhaseType.GAME_PHASE_NULL;
 
 		UpdateScore ();
+		playerController = Utilities.GetPlayerController ();
+		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 
-		playerController = Utilities.GetPlayerController();
+		TransitionToPhase (GamePhaseType.GAME_PHASE_WELCOME);
+
+		gameLevel = 0;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (!gameOver) {
+		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY || 
+		    gamePhase == GamePhaseType.GAME_PHASE_PENDING) {
 			HandleUserInput ();
 		}
 	}
-
+	
 	void HandleUserInput() {
 		RaycastHit hitPoint = default(RaycastHit);
 
@@ -88,6 +107,73 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	void CheckForPhaseTransition() {
+		if (gamePhase == GamePhaseType.GAME_PHASE_PENDING) {
+			if (pendingPhaseTimeout > Time.time) {
+				TransitionToPhase (pendingPhase);
+			}
+		} else if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			bool isGameOver = this.IsGameLost ();
+			if (isGameOver) {
+				pendingPhase = GamePhaseType.GAME_PHASE_GAME_OVER;
+				TransitionToPhase (GamePhaseType.GAME_PHASE_PENDING);
+				return;
+			}
+
+			if (mouseSpawnFromData.FinishedWithCurrentSet () && 
+				MouseMove.activeMouseCount == 0) {
+				pendingPhase = GamePhaseType.GAME_PHASE_LEVEL_END;
+				TransitionToPhase (GamePhaseType.GAME_PHASE_PENDING);
+			}
+		}
+	}
+
+	void EnqueueMiceForLevel() {
+		// A few by hand, then just programmatic.
+		List<ExplicitMouseDesc> explicitMice = LevelConfig.GetExplicitConfigForLevel (gameLevel);
+		int[] miceByType = LevelConfig.GetMiceByTypeForLevel (gameLevel);
+
+		mouseSpawnFromData.ConfigureWithData (explicitMice,
+		                                     gameLevel, 
+		                                     miceByType, 
+		                                     1f); 
+	}
+
+	
+	public void TransitionToPhase(GamePhaseType newPhase) {
+		if (!IsLegalTransition (gamePhase, newPhase)) {
+			// FIXME(dbanks)
+			// Throw an error.
+			return;
+		}
+		
+		gamePhase = newPhase;
+
+		switch (gamePhase) {
+		case GamePhaseType.GAME_PHASE_WELCOME:
+			Instantiate (welcomeUIGameObject, new Vector3(0, 0, 0), 
+			                             Quaternion.identity);
+			break;
+		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+			gameLevel += 1;
+			EnqueueMiceForLevel ();
+			break;
+		case GamePhaseType.GAME_PHASE_PENDING:
+			pendingPhaseTimeout = Time.time + pendingPause;
+			break;
+		case GamePhaseType.GAME_PHASE_LEVEL_END:
+			Instantiate (levelEndUIGameObject, new Vector3(0, 0, 0), 
+			                             Quaternion.identity);
+			break;
+		case GamePhaseType.GAME_PHASE_GAME_OVER:
+			Instantiate (gameOverUIGameObject, new Vector3(0, 0, 0), 
+			                             Quaternion.identity);
+			scoreText.gameObject.SetActive (false);
+			break;
+		}		
+	}
+	
+
 	//------------------------------
 	//
 	// Score keeping
@@ -97,25 +183,11 @@ public class GameController : MonoBehaviour {
 		scoreText.text = "Score: " + score;
 	}
 
-	void CheckForGameEnd() {
-		bool isGameOver = this.IsGameOver ();
-		if (isGameOver) {
-			HandleGameOver ();
-			return;
-		}
+	public int GetScore() {
+		return score;
 	}
 
-	void HandleGameOver() {
-		gameOver = true;
-		gameOverText.gameObject.SetActive (true);
-		scoreText.gameObject.SetActive (false);
-
-		againButton.gameObject.SetActive (true);
-
-		gameOverText.text = "Score: " + score;
-	}
-	
-	bool IsGameOver() {
+	bool IsGameLost() {
 		for (int i = 0; i < 4; i++) {
 			if (mouseHoles [i].IsFull()) {
 				return true;
@@ -130,12 +202,31 @@ public class GameController : MonoBehaviour {
 	//
 	//------------------------------------
 	 public void OnMouseExit(MouseMove mouse) {
-		this.CheckForGameEnd ();
+		CheckForPhaseTransition ();
 	}	
 
 	public void OnMouseKilled(MouseMove mouse) {
 		score += 1;
 		UpdateScore ();
+		CheckForPhaseTransition ();
+	}
+
+	bool IsLegalTransition(GamePhaseType oldPhase, 
+	                       GamePhaseType newPhase) {
+		switch (oldPhase) {
+		case GamePhaseType.GAME_PHASE_NULL:
+			return (newPhase == GamePhaseType.GAME_PHASE_WELCOME);
+		case GamePhaseType.GAME_PHASE_WELCOME:
+			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+			return (newPhase == GamePhaseType.GAME_PHASE_PENDING);
+		case GamePhaseType.GAME_PHASE_PENDING:
+			return (newPhase == GamePhaseType.GAME_PHASE_GAME_OVER || 
+			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_END);
+		case GamePhaseType.GAME_PHASE_LEVEL_END:
+			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		}
+		return false;
 	}
 	
 }

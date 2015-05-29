@@ -7,13 +7,14 @@ public class MouseMove : MonoBehaviour {
 		ENTERING_PHASE = 0,
 		RUNNING_PHASE, 
 		LEAVING_PHASE,
+		NUM_TYPES,
 	};
 
 	public enum MouseType {
 		MOUSE_TYPE_SLOW = 0,
 		MOUSE_TYPE_MEDIUM,
 		MOUSE_TYPE_FAST,
-		NUM_MOUSE_TYPES,
+		NUM_TYPES,
 	};
 	
 	private float mouseAngle;
@@ -46,13 +47,19 @@ public class MouseMove : MonoBehaviour {
 	private Slider sliderInstance;
 	private TweakableSlider tweakableSlider;
 
+	public static int activeMouseCount = 0;
 
+	
+	public static MouseType GetRandomMouseType () {
+		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
+	}
 	
 	// Use this for initialization
 	void Start () {
 		mouseAngle = startAngle;
 		phase = MovementPhaseType.ENTERING_PHASE;
 		mouseRadius = startMouseRadius; 
+		activeMouseCount += 1;
 
 		MakeSlider ();
 
@@ -183,6 +190,7 @@ public class MouseMove : MonoBehaviour {
 	void CleanupSelf() {
 		Object.Destroy (sliderInstance.gameObject);
 		Object.Destroy(this.gameObject);
+		activeMouseCount--;
 	}
 		
 	//------------------------------------------
@@ -244,7 +252,8 @@ public class MouseMove : MonoBehaviour {
 		
 		this.SetMouseType(mouseType);
 
-		float angleDistance = ((int)mouseType + 2) * MouseHole.angleBetweenHoles;
+		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 1) * 
+		                       MouseHole.angleBetweenHoles);
 
 		if (isClockwise) {
 			endAngle = startAngle + angleDistance;
@@ -255,21 +264,5 @@ public class MouseMove : MonoBehaviour {
 				endAngle += 360.0f;
 			}
 		}	
-	}
-
-	public void RandomizeSetup() {
-		MouseMove.MouseType mouseType = 
-			(MouseMove.MouseType)Random.Range (0, (int)MouseMove.MouseType.NUM_MOUSE_TYPES);		
-		MouseHole.MouseHoleLocation originHole =
-			(MouseHole.MouseHoleLocation)Random.Range (0, 
-			                                           (int)MouseHole.MouseHoleLocation.NUM_HOLE_TYPES);
-
-		isClockwise = (Random.Range (0, 2) != 0);
-		int track = Random.Range (0, MouseMove.numTracks);
-
-		SetupMouse (mouseType, 
-		            originHole, 
-		            isClockwise, 
-		            track);
 	}
 }

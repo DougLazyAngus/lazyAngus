@@ -10,12 +10,12 @@ public class MouseHole : MonoBehaviour {
 		EAST,
 		SOUTH,
 		WEST,
-		NUM_HOLE_TYPES,
+		NUM_TYPES,
 	};
 	
 	public MouseHoleLocation mouseHoleLocation;
 
-	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_HOLE_TYPES);
+	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_TYPES);
 
 	private Slider sliderInstance;	
 
@@ -74,5 +74,9 @@ public class MouseHole : MonoBehaviour {
 
 	public bool IsFull() {
 		return savedMouseCount >= maxSavedMice;
+	}
+
+	public static MouseHoleLocation GetRandomHoleLocation () {
+		return (MouseHoleLocation)Random.Range (0, (int)MouseHoleLocation.NUM_TYPES);
 	}
 }
