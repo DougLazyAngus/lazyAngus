@@ -21,7 +21,7 @@ public class MouseMove : MonoBehaviour {
 	private float startAngle;
 	private float endAngle;
 
-	private float mouseRadius;
+	private float mouseRadius;  
 	private float circlingRadius;
 	
 	private MovementPhaseType phase;
@@ -30,17 +30,26 @@ public class MouseMove : MonoBehaviour {
 
 	private float speed;
 
-	public static float minCirclingRadius = 3.0f;
-	public static float maxCirclingRadius = 4.5f;
-	public static int numTracks = 3;
-	public static float startMouseRadius = 7.0f;
-	public static float minSpeed = 0.7f;
-	public static float maxSpeed = 1.3f;
-
-	public static Material altMaterial01;
-	public static Material altMaterial02;
 
 	public GameObject[] mouseBalls;
+
+	/*
+	 * These could/should all be static but I can't set them in the 
+	 * flippin' inpsector
+	 */
+	public float minCirclingRadius = 3.0f;
+	public float maxCirclingRadius = 4.5f;
+	public float startMouseRadius = 7.0f;
+	public float minSpeed = 0.7f;
+	public float maxSpeed = 1.3f;
+	
+	public Material altMaterial01;
+	public Material altMaterial02;
+	/*
+	 * End anger section.
+	 */
+
+	public static int numTracks = 3;
 
 	private bool isClockwise;
 
@@ -49,7 +58,6 @@ public class MouseMove : MonoBehaviour {
 
 	public static int activeMouseCount = 0;
 
-	
 	public static MouseType GetRandomMouseType () {
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
 	}
@@ -190,8 +198,12 @@ public class MouseMove : MonoBehaviour {
 	void CleanupSelf() {
 		Object.Destroy (sliderInstance.gameObject);
 		Object.Destroy(this.gameObject);
+	}
+
+ 	void OnDestroy() {
 		activeMouseCount--;
 	}
+
 		
 	//------------------------------------------
 	// 
@@ -215,13 +227,13 @@ public class MouseMove : MonoBehaviour {
 		switch (mouseType) {
 		case MouseType.MOUSE_TYPE_FAST:
 			speed = maxSpeed;
-			SetAltMaterial(altMaterial01);
+			SetAltMaterial(altMaterial02);
 			break;
 		case MouseType.MOUSE_TYPE_SLOW:
 			speed = minSpeed;
-			SetAltMaterial(altMaterial02);
 			break;
 		case MouseType.MOUSE_TYPE_MEDIUM:
+			SetAltMaterial(altMaterial01);
 			speed = (maxSpeed + minSpeed)/2;
 			break;
 		}
@@ -245,10 +257,10 @@ public class MouseMove : MonoBehaviour {
 
 		startAngle = (float)originHole * MouseHole.angleBetweenHoles;
 
-		float extraRadiusFraction = (float)track/(float)(MouseMove.numTracks - 1);
-		float extraRadius = (MouseMove.maxCirclingRadius - MouseMove.minCirclingRadius) * extraRadiusFraction;
+		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
+		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
 		
-		circlingRadius = MouseMove.minCirclingRadius + extraRadius;
+		circlingRadius = minCirclingRadius + extraRadius;
 		
 		this.SetMouseType(mouseType);
 

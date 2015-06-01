@@ -8,6 +8,9 @@ using System.Linq;
 
 public class GameController : MonoBehaviour {
 
+	public delegate void ScoreChangedEventHandler();
+	public event ScoreChangedEventHandler ScoreChanged;
+
 	public enum GamePhaseType {
 		GAME_PHASE_NULL = 0,
 		GAME_PHASE_WELCOME,
@@ -29,6 +32,7 @@ public class GameController : MonoBehaviour {
 
 	public GameObject welcomeUIGameObject;
 	public GameObject levelEndUIGameObject;
+	public GameObject levelPlayUIGameObject;
 	public GameObject gameOverUIGameObject;
 
 	private int gameLevel;
@@ -39,19 +43,17 @@ public class GameController : MonoBehaviour {
 	private float pendingPhaseTimeout;
 
 	public static float pendingPause = 1f;
-
-	public Text scoreText;
-
+	
 	void Awake() {
-		Physics.IgnoreLayerCollision (8, 9, true);
+		Physics.IgnoreLayerCollision (8, 9, true);	
 	}
 
 
 	void Start() {
-		score = 0;
+		SetScore (0);
+
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
 
-		UpdateScore ();
 		playerController = Utilities.GetPlayerController ();
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 
@@ -146,29 +148,54 @@ public class GameController : MonoBehaviour {
 			// Throw an error.
 			return;
 		}
-		
+
+
 		gamePhase = newPhase;
 
 		switch (gamePhase) {
 		case GamePhaseType.GAME_PHASE_WELCOME:
+			welcomeUIGameObject.SetActive (true);
+			levelPlayUIGameObject.SetActive (false);
+			levelEndUIGameObject.SetActive (false);
+			gameOverUIGameObject.SetActive (false);
+
 			Instantiate (welcomeUIGameObject, new Vector3(0, 0, 0), 
 			                             Quaternion.identity);
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+			welcomeUIGameObject.SetActive (false);
+			levelPlayUIGameObject.SetActive (true);
+			levelEndUIGameObject.SetActive (false);
+			gameOverUIGameObject.SetActive (false);
+
 			gameLevel += 1;
 			EnqueueMiceForLevel ();
 			break;
 		case GamePhaseType.GAME_PHASE_PENDING:
+			welcomeUIGameObject.SetActive (false);
+			levelPlayUIGameObject.SetActive (true);
+			levelEndUIGameObject.SetActive (false);
+			gameOverUIGameObject.SetActive (false);
+
 			pendingPhaseTimeout = Time.time + pendingPause;
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_END:
+			welcomeUIGameObject.SetActive (false);
+			levelPlayUIGameObject.SetActive (true);
+			levelEndUIGameObject.SetActive (true);
+			gameOverUIGameObject.SetActive (false);
+
 			Instantiate (levelEndUIGameObject, new Vector3(0, 0, 0), 
 			                             Quaternion.identity);
 			break;
 		case GamePhaseType.GAME_PHASE_GAME_OVER:
+			welcomeUIGameObject.SetActive (false);
+			levelPlayUIGameObject.SetActive (false);
+			levelEndUIGameObject.SetActive (false);
+			gameOverUIGameObject.SetActive (true);
+
 			Instantiate (gameOverUIGameObject, new Vector3(0, 0, 0), 
 			                             Quaternion.identity);
-			scoreText.gameObject.SetActive (false);
 			break;
 		}		
 	}
@@ -179,10 +206,6 @@ public class GameController : MonoBehaviour {
 	// Score keeping
 	//
 	//------------------------------
-	void UpdateScore() {
-		scoreText.text = "Score: " + score;
-	}
-
 	public int GetScore() {
 		return score;
 	}
@@ -196,6 +219,14 @@ public class GameController : MonoBehaviour {
 		return false;
 	}
 
+	void SetScore(int newScore) {
+		score = newScore;
+		if (ScoreChanged != null) {
+			ScoreChanged ();
+		}
+	}
+
+
 	//------------------------------------
 	// 
 	// Public functions
@@ -206,8 +237,7 @@ public class GameController : MonoBehaviour {
 	}	
 
 	public void OnMouseKilled(MouseMove mouse) {
-		score += 1;
-		UpdateScore ();
+		SetScore (score + 1);
 		CheckForPhaseTransition ();
 	}
 

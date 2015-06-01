@@ -10,13 +10,21 @@ public class LevelConfig {
 	}
 
 	public static int[] GetMiceByTypeForLevel (int gameLevel) {
-		// Levels 1, nothing.
+		int[] level1Mice = {2, 0, 0};
+		int[] level2Mice = {3, 3, 0};
+		int[] level3Mice = {4, 4, 4};
+
 		if (gameLevel == 1) {
-			int[] empty = {};
-			return empty;
+			return level1Mice;
+		}
+		if (gameLevel == 2) {
+			return level2Mice;
+		}
+		if (gameLevel == 3) {
+			return level3Mice;
 		}
 
-		int[] retVal = {2, 2, 2};
+		int[] retVal = {gameLevel + 3, gameLevel +3, gameLevel + 3};
 		return retVal;
 	}	
 }
