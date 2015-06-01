@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour {
 			return;
 		}
 
-		Debug.Log ("Dragging x:" + clickPositionScreen.x + 
-		           " y:" + clickPositionScreen.y);
 		Vector3 clickPositionWorld = Camera.main.ScreenToWorldPoint (clickPositionScreen);
 		Vector3 clickPositionCat = transform.InverseTransformPoint (clickPositionWorld);
 

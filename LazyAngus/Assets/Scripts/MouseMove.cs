@@ -17,9 +17,9 @@ public class MouseMove : MonoBehaviour {
 		NUM_TYPES,
 	};
 	
-	private float mouseAngle;
-	private float startAngle;
-	private float endAngle;
+	private float mouseAngleDeg;
+	private float startAngleDeg;
+	private float endAngleDeg;
 
 	private float mouseRadius;  
 	private float circlingRadius;
@@ -28,7 +28,7 @@ public class MouseMove : MonoBehaviour {
 
 	private MouseType mouseType;
 
-	private float speed;
+	private float speedM;
 
 
 	public GameObject[] mouseBalls;
@@ -40,8 +40,9 @@ public class MouseMove : MonoBehaviour {
 	public float minCirclingRadius = 3.0f;
 	public float maxCirclingRadius = 4.5f;
 	public float startMouseRadius = 7.0f;
-	public float minSpeed = 0.7f;
-	public float maxSpeed = 1.3f;
+
+	public float minSpeedM = 1.4f;
+	public float maxSpeedM = 2.6f;
 	
 	public Material altMaterial01;
 	public Material altMaterial02;
@@ -64,7 +65,7 @@ public class MouseMove : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		mouseAngle = startAngle;
+		mouseAngleDeg = startAngleDeg;
 		phase = MovementPhaseType.ENTERING_PHASE;
 		mouseRadius = startMouseRadius; 
 		activeMouseCount += 1;
@@ -91,32 +92,25 @@ public class MouseMove : MonoBehaviour {
 
 
 	void PositionMouse() {
-		float x = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngle);
-		float z = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngle);
+		float x = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngleDeg);
+		float z = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngleDeg);
 
-		float finalAngle = mouseAngle;
-		float adjustment = 0.0f;
+		float finalAngleDeg = mouseAngleDeg;
+		float adjustmentDeg = 0.0f;
 
-		float fractionFinished = 0.0f;
 
 		switch (phase) {
 		case MovementPhaseType.ENTERING_PHASE:
-			adjustment = 180.0f;
+			adjustmentDeg = 180.0f;
 			break;
 		case MovementPhaseType.RUNNING_PHASE:
-			adjustment = isClockwise ? 90.0f : -90.0f;
-			fractionFinished = Mathf.Abs(mouseAngle - startAngle)/Mathf.Abs(startAngle - endAngle);
-			break;
-		case MovementPhaseType.LEAVING_PHASE:
-			fractionFinished = 1.0f;
+			adjustmentDeg = isClockwise ? 90.0f : -90.0f;
 			break;
 		}
 
-		finalAngle += adjustment;
+		finalAngleDeg += adjustmentDeg;
 
-		sliderInstance.value = fractionFinished;
-
-		transform.rotation = Quaternion.Euler (0.0f, finalAngle, 0.0f);
+		transform.rotation = Quaternion.Euler (0.0f, finalAngleDeg, 0.0f);
 		transform.position = new Vector3 (x, 0.0f, z);
 	
 		UpdateSlider ();
@@ -127,7 +121,8 @@ public class MouseMove : MonoBehaviour {
 		
 		switch (phase) {
 		case MovementPhaseType.RUNNING_PHASE:
-			fractionFinished = Mathf.Abs(mouseAngle - startAngle)/Mathf.Abs(startAngle - endAngle);
+			fractionFinished = Mathf.Abs(mouseAngleDeg - startAngleDeg)/
+				Mathf.Abs(startAngleDeg - endAngleDeg);
 			break;
 		case MovementPhaseType.LEAVING_PHASE:
 			fractionFinished = 1.0f;
@@ -146,42 +141,45 @@ public class MouseMove : MonoBehaviour {
 		sliderInstance.value = fractionFinished;
 	}
 
-	// Update is called once per frame
 	void FixedUpdate () {
 		float deltaTime = Time.deltaTime;
 
 		switch (phase) {
 		case MovementPhaseType.ENTERING_PHASE:
-			mouseRadius -= deltaTime * speed;
+			mouseRadius -= deltaTime * speedM;
 			if (mouseRadius <= circlingRadius) {
 				mouseRadius = circlingRadius;  
 				phase = MovementPhaseType.RUNNING_PHASE;
 			}
 			break;
 		case MovementPhaseType.RUNNING_PHASE: {
-			float angleDelta = (speed * Time.deltaTime / mouseRadius) * Mathf.Rad2Deg;
+			float distanceDelta = speedM * Time.deltaTime;
+			float angleDeltaRad = distanceDelta/mouseRadius;
+			float angleDeltaDeg = angleDeltaRad * Mathf.Rad2Deg;
+
 			if (isClockwise) {
-				mouseAngle += angleDelta;
+				mouseAngleDeg += angleDeltaDeg;
 			} else {
-				mouseAngle -= angleDelta;
+				mouseAngleDeg -= angleDeltaDeg;
 			}
 
 			if (isClockwise) {
-				if (mouseAngle >= endAngle) {
-					mouseAngle = endAngle;
+				if (mouseAngleDeg >= endAngleDeg) {
+					mouseAngleDeg = endAngleDeg;
 					phase = MovementPhaseType.LEAVING_PHASE;
 				} 
 			} else {
-				if (mouseAngle <= endAngle) {
-					mouseAngle = endAngle;
+				if (mouseAngleDeg <= endAngleDeg) {
+					mouseAngleDeg = endAngleDeg;
 					phase = MovementPhaseType.LEAVING_PHASE;
 				}
 			}
 
 			break;
 		}
+
 		case MovementPhaseType.LEAVING_PHASE:
-			mouseRadius += deltaTime * speed;
+			mouseRadius += deltaTime * speedM;
 			break;
 		}
 	
@@ -194,13 +192,9 @@ public class MouseMove : MonoBehaviour {
 			mouseBall.GetComponent<Renderer> ().material = material;
 		}
 	}
-
-	void CleanupSelf() {
-		Object.Destroy (sliderInstance.gameObject);
-		Object.Destroy(this.gameObject);
-	}
-
+	
  	void OnDestroy() {
+		Object.Destroy (sliderInstance.gameObject);
 		activeMouseCount--;
 	}
 
@@ -210,31 +204,28 @@ public class MouseMove : MonoBehaviour {
 	// Public functions
 	//
 	//------------------------------------------
-
-	
-	
 	public void OnKilled() {
-		CleanupSelf ();
+		Object.Destroy (this.gameObject);
 	}
 
 	public void OnSafeExit() {
-		CleanupSelf ();
+		Object.Destroy (this.gameObject);
 	}
 
 	public void SetMouseType(MouseType mt) {
 		mouseType = mt;
-		
+		   
 		switch (mouseType) {
 		case MouseType.MOUSE_TYPE_FAST:
-			speed = maxSpeed;
+			speedM = maxSpeedM;
 			SetAltMaterial(altMaterial02);
 			break;
 		case MouseType.MOUSE_TYPE_SLOW:
-			speed = minSpeed;
+			speedM = minSpeedM;
 			break;
 		case MouseType.MOUSE_TYPE_MEDIUM:
 			SetAltMaterial(altMaterial01);
-			speed = (maxSpeed + minSpeed)/2;
+			speedM = (maxSpeedM + minSpeedM)/2;
 			break;
 		}
 		int mtAsInt = (int)mouseType;
@@ -255,7 +246,7 @@ public class MouseMove : MonoBehaviour {
 	                       int track) {
 		this.isClockwise = isClockwise;
 
-		startAngle = (float)originHole * MouseHole.angleBetweenHoles;
+		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
 
 		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
 		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
@@ -268,12 +259,12 @@ public class MouseMove : MonoBehaviour {
 		                       MouseHole.angleBetweenHoles);
 
 		if (isClockwise) {
-			endAngle = startAngle + angleDistance;
+			endAngleDeg = startAngleDeg + angleDistance;
 		} else {
-			endAngle = startAngle - angleDistance;
-			if (endAngle < 0) {
-				startAngle += 360.0f;
-				endAngle += 360.0f;
+			endAngleDeg = startAngleDeg - angleDistance;
+			if (endAngleDeg < 0) {
+				startAngleDeg += 360.0f;
+				endAngleDeg += 360.0f;
 			}
 		}	
 	}
