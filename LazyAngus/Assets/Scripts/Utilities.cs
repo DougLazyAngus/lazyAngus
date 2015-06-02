@@ -48,6 +48,18 @@ public class Utilities
 		return gameController;
 	}
 
+	public static CrossSceneState GetCrossSceneState() {
+		GameObject crossSceneStateObject = GameObject.FindWithTag ("CrossSceneState");
+		CrossSceneState crossSceneState = null;
+		if (crossSceneStateObject != null) {
+			crossSceneState = crossSceneStateObject.GetComponent<CrossSceneState>();
+		}
+		if (crossSceneState == null) {
+			Debug.Log ("Cannot find 'CrossSceneState' script");
+		}
+		return crossSceneState;
+	}
+
 	public static PlayerController GetPlayerController() {
 		GameObject playerObject = GameObject.FindWithTag ("Player");
 		PlayerController playerController = null;
@@ -152,6 +164,15 @@ public class Utilities
 			int randomIndex = Random.Range (i, list.Count);
 			list [i] = list [randomIndex];
 			list [randomIndex] = temp;
+		}
+	}
+
+	public static Color TrafficLightColorLerp (float fractionFinished) {
+		fractionFinished = Mathf.Clamp (fractionFinished, 0f, 1f);
+		if (fractionFinished < 0.5f) {
+			return Color.Lerp (Color.green, Color.yellow, fractionFinished * 2f);
+		} else {
+			return Color.Lerp (Color.yellow, Color.red, fractionFinished * 2f - 1f);
 		}
 	}
 }

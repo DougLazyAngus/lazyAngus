@@ -59,9 +59,14 @@ public class GameController : MonoBehaviour {
 		playerController = Utilities.GetPlayerController ();
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 
-		TransitionToPhase (GamePhaseType.GAME_PHASE_WELCOME);
-
 		gameLevel = 0;
+
+		CrossSceneState css = Utilities.GetCrossSceneState ();
+		if (css.didWelcome) {
+			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		} else {
+			TransitionToPhase (GamePhaseType.GAME_PHASE_WELCOME);
+		}
 	}
 
 	// Update is called once per frame
@@ -77,6 +82,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	void HandleUserInput() {
+		if (gamePhase != GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			return;
+		}
+
 		RaycastHit hitPoint = default(RaycastHit);
 
 		if (CheckForClickStart(ref hitPoint)) {
@@ -105,10 +114,8 @@ public class GameController : MonoBehaviour {
 
 	void HandleClickStart(RaycastHit hitPoint) {
 		if (hitPoint.collider.tag == "CatButt") {
-			Debug.Log ("Tapped CatButt");
 			playerController.HandleTurnClickStart(hitPoint);
 		} else if (hitPoint.collider.tag == "Plane") {
-			Debug.Log ("Tapped Plane");
 			playerController.HandleSlapClickStart(hitPoint);
 		} else {
 			Debug.Log ("Tapped something else");
@@ -129,8 +136,11 @@ public class GameController : MonoBehaviour {
 				TransitionToPhase (pendingPhase);
 			}
 		} else if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
-			bool isGameOver = this.IsGameLost ();
-			if (isGameOver) {
+			MouseHole doomedMouseHole = this.FindDoomedMouseHole ();
+
+			if (doomedMouseHole != null) {
+				doomedMouseHole.DoDoomedBoxFX();
+
 				pendingPhase = GamePhaseType.GAME_PHASE_GAME_OVER;
 				TransitionToPhase (GamePhaseType.GAME_PHASE_PENDING);
 				return;
@@ -156,6 +166,47 @@ public class GameController : MonoBehaviour {
 		                                     1f); 
 	}
 
+	bool IsLegalTransition(GamePhaseType oldPhase, 
+	                       GamePhaseType newPhase) {
+		switch (oldPhase) {
+		case GamePhaseType.GAME_PHASE_NULL:
+			return (newPhase == GamePhaseType.GAME_PHASE_WELCOME || 
+			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		case GamePhaseType.GAME_PHASE_WELCOME:
+			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+			return (newPhase == GamePhaseType.GAME_PHASE_PENDING);
+		case GamePhaseType.GAME_PHASE_PENDING:
+			return (newPhase == GamePhaseType.GAME_PHASE_GAME_OVER || 
+			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_END);
+		case GamePhaseType.GAME_PHASE_LEVEL_END:
+			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		}
+		return false;
+	}
+
+	MouseHole FindDoomedMouseHole() {
+		for (int i = 0; i < 4; i++) {
+			if (mouseHoles [i].IsFull()) {
+				return mouseHoles[i];
+			}
+		}
+		return null;
+	}
+
+	void SetScore(int newScore) {
+		score = newScore;
+		if (ScoreChanged != null) {
+			ScoreChanged ();
+		}
+	}
+
+
+	//------------------------------------
+	// 
+	// Public functions
+	//
+	//------------------------------------
 	
 	public void TransitionToPhase(GamePhaseType newPhase) {
 		if (!IsLegalTransition (gamePhase, newPhase)) {
@@ -163,23 +214,27 @@ public class GameController : MonoBehaviour {
 			// Throw an error.
 			return;
 		}
-
-
+		
+		
 		gamePhase = newPhase;
-
+		
 		switch (gamePhase) {
-		case GamePhaseType.GAME_PHASE_WELCOME:
+		case GamePhaseType.GAME_PHASE_WELCOME: {
 			welcomeUIGameObject.SetActive (true);
 			levelPlayUIGameObject.SetActive (false);
 			levelEndUIGameObject.SetActive (false);
 			gameOverUIGameObject.SetActive (false);
+			
+			CrossSceneState css = Utilities.GetCrossSceneState();
+			css.didWelcome = true;
 			break;
+		}
 		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
 			welcomeUIGameObject.SetActive (false);
 			levelPlayUIGameObject.SetActive (true);
 			levelEndUIGameObject.SetActive (false);
 			gameOverUIGameObject.SetActive (false);
-
+			
 			gameLevel += 1;
 			EnqueueMiceForLevel ();
 			break;
@@ -188,7 +243,7 @@ public class GameController : MonoBehaviour {
 			levelPlayUIGameObject.SetActive (true);
 			levelEndUIGameObject.SetActive (false);
 			gameOverUIGameObject.SetActive (false);
-
+			
 			StartCoroutine(SetupPendingPhase());
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_END:
@@ -205,64 +260,25 @@ public class GameController : MonoBehaviour {
 			break;
 		}		
 	}
-	
 
-	//------------------------------
-	//
-	// Score keeping
-	//
-	//------------------------------
 	public int GetScore() {
 		return score;
 	}
-
-	bool IsGameLost() {
-		for (int i = 0; i < 4; i++) {
-			if (mouseHoles [i].IsFull()) {
-				return true;
-			}
-		}
-		return false;
+	
+	public GamePhaseType GetGamePhase() {
+		return gamePhase;
 	}
 
-	void SetScore(int newScore) {
-		score = newScore;
-		if (ScoreChanged != null) {
-			ScoreChanged ();
+    public void OnMouseExit(MouseMove mouse) {
+		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			shouldCheckForPhaseTransition = true;
 		}
-	}
-
-
-	//------------------------------------
-	// 
-	// Public functions
-	//
-	//------------------------------------
-	 public void OnMouseExit(MouseMove mouse) {
-		shouldCheckForPhaseTransition = true;
 	}	
 
 	public void OnMouseKilled(MouseMove mouse) {
-		SetScore (score + 1);
-		shouldCheckForPhaseTransition = true;
-	}
-
-	bool IsLegalTransition(GamePhaseType oldPhase, 
-	                       GamePhaseType newPhase) {
-		switch (oldPhase) {
-		case GamePhaseType.GAME_PHASE_NULL:
-			return (newPhase == GamePhaseType.GAME_PHASE_WELCOME);
-		case GamePhaseType.GAME_PHASE_WELCOME:
-			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
-		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
-			return (newPhase == GamePhaseType.GAME_PHASE_PENDING);
-		case GamePhaseType.GAME_PHASE_PENDING:
-			return (newPhase == GamePhaseType.GAME_PHASE_GAME_OVER || 
-			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_END);
-		case GamePhaseType.GAME_PHASE_LEVEL_END:
-			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			SetScore (score + 1);
+			shouldCheckForPhaseTransition = true;
 		}
-		return false;
 	}
-	
 }

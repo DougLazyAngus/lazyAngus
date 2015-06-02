@@ -129,12 +129,7 @@ public class MouseMove : MonoBehaviour {
 			break;
 		}
 
-		Color color;
-		if (fractionFinished < 0.5) {
-			color = Color.Lerp (Color.green, Color.yellow, fractionFinished * 2f);
-		} else {
-			color = Color.Lerp (Color.yellow, Color.red, fractionFinished * 2f - 1f);
-		}
+		Color color = Utilities.TrafficLightColorLerp (fractionFinished);
 
 		tweakableSlider.fill.color = color;
 
@@ -194,7 +189,9 @@ public class MouseMove : MonoBehaviour {
 	}
 	
  	void OnDestroy() {
-		Object.Destroy (sliderInstance.gameObject);
+		if (sliderInstance != null) {
+			Object.Destroy (sliderInstance.gameObject);
+		}
 		activeMouseCount--;
 	}
 
@@ -255,7 +252,7 @@ public class MouseMove : MonoBehaviour {
 		
 		this.SetMouseType(mouseType);
 
-		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 1) * 
+		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 2) * 
 		                       MouseHole.angleBetweenHoles);
 
 		if (isClockwise) {

@@ -5,10 +5,11 @@ public class DistortForEffect : MonoBehaviour {
 	bool distorting;
 	float startDistortTime;
 
-	public float distortTime;
-	public float distortScale;
+	public float distortPeriod = 0.3f;
+	public float distortScale = 1f;
 	public Transform thingToScale;
-	public Vector3 originalScale;
+
+	private Vector3 originalScale;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +18,16 @@ public class DistortForEffect : MonoBehaviour {
 	}
 
 	public void Distort() {
+		if (distorting) {
+			return;
+		}
 		startDistortTime = Time.time;
 		distorting = true;
+	}
+
+	public void Cancel() {
+		distorting = false;
+		thingToScale.localScale = originalScale;
 	}
 
 	// Update is called once per frame
@@ -31,12 +40,12 @@ public class DistortForEffect : MonoBehaviour {
 		float timeDelta = timeNow - startDistortTime;
 
 		float scale;
-		if (timeDelta > distortTime) {
+		if (timeDelta > distortPeriod) {
 			scale = 1.0f;
 			distorting = false;
 		} else {
-			float phase = Mathf.Sin (timeDelta * 2f * Mathf.PI / distortTime);
-			float amplitude = Mathf.Cos (timeDelta * 0.5f * Mathf.PI / distortTime);
+			float phase = Mathf.Sin (timeDelta * 2f * Mathf.PI / distortPeriod);
+			float amplitude = Mathf.Cos (timeDelta * 0.5f * Mathf.PI / distortPeriod);
 			scale = 1.0f + phase * amplitude * distortScale;
 		}
 

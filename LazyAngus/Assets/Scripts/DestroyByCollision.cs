@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class DestroyByCollision : MonoBehaviour {
-
 	void OnTriggerStay(Collider other) {
 		if (other.tag != "MouseBall") {
 			return;

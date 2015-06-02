@@ -20,12 +20,17 @@ public class MouseHole : MonoBehaviour {
 	private Slider sliderInstance;	
 
 	private int savedMouseCount;
+
 	private DistortForEffect distortForEffect;
+	private ThrobForEffect throbForEffect;
+	private TweakableSlider tweakableSlider;
 
 	// Use this for initialization
 	void Start () {
 		savedMouseCount = 0;
 		distortForEffect = gameObject.GetComponent<DistortForEffect> ();
+		throbForEffect = gameObject.GetComponent<ThrobForEffect> ();
+
 		MakeSlider ();
 		UpdateSlider ();
 	}
@@ -42,34 +47,44 @@ public class MouseHole : MonoBehaviour {
 		
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();
 		
-		TweakableSlider ts = sliderGameObject.GetComponent<TweakableSlider> ();
-		ts.fill.color = new Color(1.0f, 0.0f, 0.0f);
+		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
 	}
 	
 	void DoSavedMouseFX() {
 		distortForEffect.Distort ();
 	}
 
-	void CountSavedMouse(MouseMove mouse) {
-		savedMouseCount++;
-		UpdateSlider ();
+	public void DoDoomedBoxFX() {
+		distortForEffect.Cancel ();
+		throbForEffect.SetThrobbing (true);
+	}
+
+	bool CountSavedMouse(MouseMove mouse) {
+		// We can never have more than max.
+		if (savedMouseCount < maxSavedMice) {
+			savedMouseCount++;
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	void UpdateSlider() {		
 		float fractionFinished = (float)savedMouseCount / (float)maxSavedMice;
 		sliderInstance.value = fractionFinished;
+		tweakableSlider.fill.color =
+			Utilities.TrafficLightColorLerp ((float)savedMouseCount / (float)(maxSavedMice - 1));
 	}
 
 	public void SaveMouse(MouseMove mouse) {
 		mouse.OnSafeExit ();	
 		
-		CountSavedMouse (mouse);
-		DoSavedMouseFX ();
-		
-		GameController gameController = Utilities.GetGameController ();
-		gameController.OnMouseExit (mouse);
-		
-		UpdateSlider ();
+		if (CountSavedMouse (mouse)) {
+			GameController gameController = Utilities.GetGameController ();
+			gameController.OnMouseExit (mouse);		
+			UpdateSlider ();
+			DoSavedMouseFX ();
+		}
 	}
 
 	public bool IsFull() {
