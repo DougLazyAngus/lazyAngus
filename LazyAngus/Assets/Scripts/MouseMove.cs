@@ -252,7 +252,7 @@ public class MouseMove : MonoBehaviour {
 		
 		this.SetMouseType(mouseType);
 
-		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 2) * 
+		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType) * 
 		                       MouseHole.angleBetweenHoles);
 
 		if (isClockwise) {

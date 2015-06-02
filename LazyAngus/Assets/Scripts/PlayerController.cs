@@ -64,11 +64,16 @@ public class PlayerController : MonoBehaviour {
 		float angle = Utilities.GetYAngle (swipeLocationCat);
 
 		GameObject paw = null;
-		if (angle >= 0 && angle <= coneOfView.swipeAngleRange) {
-			paw = rightPawGameObject;
-		} else if (angle < 0 && angle >= -coneOfView.swipeAngleRange) {
-			paw = leftPawGameObject;
+		if (swipeLocationCat.magnitude <= coneOfView.viewRadius) {
+			if (angle >= 0 && 
+				angle <= coneOfView.swipeAngleRange / 2) {
+				paw = rightPawGameObject;
+			} else if (angle < 0 && 
+				angle >= -coneOfView.swipeAngleRange / 2) {
+				paw = leftPawGameObject;
+			}
 		}
+
 		if (paw) {
 			paw.GetComponent<PawController>().Swipe (swipeLocationCat);
 		}
