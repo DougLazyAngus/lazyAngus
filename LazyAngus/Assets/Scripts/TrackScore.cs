@@ -14,20 +14,24 @@ public class TrackScore : MonoBehaviour {
 	void Start () {
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 		gc = Utilities.GetGameController ();
-		gc.ScoreChanged += new GameController.ScoreChangedEventHandler (UpdateScoreText);
+		gc.ScoreChanged += new GameController.ScoreChangedEventHandler (DynamicUpdateScoreText);
 		registeredForEvents = true;
-		UpdateScoreText ();
+		SetScoreText ();
 	}
 
 	void OnDestroy() {
 		if (registeredForEvents) {
-			gc.ScoreChanged -= new GameController.ScoreChangedEventHandler (UpdateScoreText);
+			gc.ScoreChanged -= new GameController.ScoreChangedEventHandler (DynamicUpdateScoreText);
 		}
 	}
 
+	void SetScoreText() {
+		scoreText.text = "Kills: " + gc.GetScore ();
+	}
+
 	// Update is called once per frame
-	void UpdateScoreText () {
-		scoreText.text = "Kills: " +gc.GetScore ();
+	void DynamicUpdateScoreText () {
+		SetScoreText ();
 		distortForEffect.Distort ();
 	}
 }

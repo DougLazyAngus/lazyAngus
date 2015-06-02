@@ -50,7 +50,6 @@ public class GameController : MonoBehaviour {
 		Physics.IgnoreLayerCollision (8, 9, true);	
 	}
 
-
 	void Start() {
 		SetScore (0);
 
@@ -59,7 +58,7 @@ public class GameController : MonoBehaviour {
 		playerController = Utilities.GetPlayerController ();
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 
-		gameLevel = 0;
+		gameLevel = 1;
 
 		CrossSceneState css = Utilities.GetCrossSceneState ();
 		if (css.didWelcome) {
@@ -235,7 +234,6 @@ public class GameController : MonoBehaviour {
 			levelEndUIGameObject.SetActive (false);
 			gameOverUIGameObject.SetActive (false);
 			
-			gameLevel += 1;
 			EnqueueMiceForLevel ();
 			break;
 		case GamePhaseType.GAME_PHASE_PENDING:
@@ -247,6 +245,8 @@ public class GameController : MonoBehaviour {
 			StartCoroutine(SetupPendingPhase());
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_END:
+			gameLevel += 1;
+
 			welcomeUIGameObject.SetActive (false);
 			levelPlayUIGameObject.SetActive (true);
 			levelEndUIGameObject.SetActive (true);
@@ -281,4 +281,10 @@ public class GameController : MonoBehaviour {
 			shouldCheckForPhaseTransition = true;
 		}
 	}
+
+	public void DebugSetGameLevel(int gameLevel) {
+		this.gameLevel = gameLevel;
+	}
+	
+
 }
