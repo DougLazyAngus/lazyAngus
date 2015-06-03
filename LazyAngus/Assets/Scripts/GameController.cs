@@ -11,6 +11,9 @@ public class GameController : MonoBehaviour {
 	public delegate void ScoreChangedEventHandler();
 	public event ScoreChangedEventHandler ScoreChanged;
 
+	public delegate void TreatsChangedEventHandler();
+	public event TreatsChangedEventHandler TreatsChanged;
+
 	public enum GamePhaseType {
 		GAME_PHASE_NULL = 0,
 		GAME_PHASE_WELCOME,
@@ -21,6 +24,7 @@ public class GameController : MonoBehaviour {
 	};
 
 	private int score;
+	private int treats;
 
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
@@ -52,6 +56,7 @@ public class GameController : MonoBehaviour {
 
 	void Start() {
 		SetScore (0);
+		SetTreats (0);
 
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
 
@@ -200,6 +205,12 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	void SetTreats(int newTreats) {
+		treats = newTreats;
+		if (TreatsChanged != null) {
+			TreatsChanged ();
+		}
+	}
 
 	//------------------------------------
 	// 
@@ -244,14 +255,18 @@ public class GameController : MonoBehaviour {
 			
 			StartCoroutine(SetupPendingPhase());
 			break;
-		case GamePhaseType.GAME_PHASE_LEVEL_END:
+		case GamePhaseType.GAME_PHASE_LEVEL_END: {
 			gameLevel += 1;
 
 			welcomeUIGameObject.SetActive (false);
 			levelPlayUIGameObject.SetActive (true);
 			levelEndUIGameObject.SetActive (true);
 			gameOverUIGameObject.SetActive (false);
+
+			LevelEndConfig levelEndConfig = levelEndUIGameObject.GetComponent<LevelEndConfig>();
+			levelEndConfig.ConfigureForLevel(gameLevel);
 			break;
+		}
 		case GamePhaseType.GAME_PHASE_GAME_OVER:
 			welcomeUIGameObject.SetActive (false);
 			levelPlayUIGameObject.SetActive (false);
@@ -264,7 +279,11 @@ public class GameController : MonoBehaviour {
 	public int GetScore() {
 		return score;
 	}
-	
+
+	public int GetTreats() {
+		return treats;
+	}
+
 	public GamePhaseType GetGamePhase() {
 		return gamePhase;
 	}
@@ -285,6 +304,16 @@ public class GameController : MonoBehaviour {
 	public void DebugSetGameLevel(int gameLevel) {
 		this.gameLevel = gameLevel;
 	}
-	
 
+	public void LogKillsPerSwipe(int killsPerSwipe) {
+		// Multiple kills earn you treats.
+		if (killsPerSwipe <= 0) {
+			return;
+		}
+
+		int treatsEarned = (killsPerSwipe - 1) * (killsPerSwipe - 1);
+		if (treatsEarned > 0) {
+			SetTreats (treats + treatsEarned);
+		}
+	}
 }

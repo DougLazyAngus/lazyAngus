@@ -3,38 +3,38 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class TrackScore : MonoBehaviour {
-
-	private Text scoreText;
+public class TrackTreats : MonoBehaviour {
+	
+	private Text treatsText;
 	private DistortForEffect distortForEffect;
-
+	
 	private GameController gc;
 	private bool registeredForEvents;
-
+	
 	// Use this for initialization
 	void Start () {
-		scoreText = this.gameObject.GetComponent<Text> ();
+		treatsText = this.gameObject.GetComponent<Text> ();
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
-
+		
 		gc = Utilities.GetGameController ();
-		gc.ScoreChanged += new GameController.ScoreChangedEventHandler (DynamicUpdateScoreText);
+		gc.TreatsChanged += new GameController.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		registeredForEvents = true;
-		SetScoreText ();
+		SetTreatsText ();
 	}
-
+	
 	void OnDestroy() {
 		if (registeredForEvents) {
-			gc.ScoreChanged -= new GameController.ScoreChangedEventHandler (DynamicUpdateScoreText);
+			gc.TreatsChanged -= new GameController.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		}
 	}
-
-	void SetScoreText() {
-		scoreText.text = "Kills: " + gc.GetScore ();
+	
+	void SetTreatsText() {
+		treatsText.text = "Treats: " + gc.GetTreats ();
 	}
-
+	
 	// Update is called once per frame
-	void DynamicUpdateScoreText () {
-		SetScoreText ();
+	void DynamicUpdateTreatsText () {
+		SetTreatsText ();
 		distortForEffect.Distort ();
 	}
 }

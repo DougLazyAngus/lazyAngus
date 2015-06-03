@@ -28,7 +28,12 @@ public class PawController : MonoBehaviour {
 	private Collider model;
 	private float swipeSpeed;
 
+	private int killsThisSwipe;
+	private GameController gameController;
+
 	void Start() {
+		gameController = Utilities.GetGameController ();
+
 		swipePhase = SwipePhase.SWIPE_NONE;
 		homeLocationCat = transform.localPosition;
 		
@@ -64,8 +69,8 @@ public class PawController : MonoBehaviour {
 			{
 				float timeNow = Time.time;
 				if (timeNow - pauseStarted > swipeExtendedPause) {
-				SetPhase(SwipePhase.SWIPE_RETRACTING);
-			}
+					SetPhase(SwipePhase.SWIPE_RETRACTING);
+				}
 				break;
 			}
 		case SwipePhase.SWIPE_RETRACTING:
@@ -91,13 +96,20 @@ public class PawController : MonoBehaviour {
 		}
 	}
 
-	void SetPhase(SwipePhase phase) {
-		swipePhase = phase;
-		if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE || 
-			swipePhase == SwipePhase.SWIPE_INITIAL_PAUSE) {
+	void SetPhase(SwipePhase newPhase) {
+		SwipePhase oldPhase = swipePhase;
+		swipePhase = newPhase;
+
+		if (oldPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+			gameController.LogKillsPerSwipe(killsThisSwipe);
+			killsThisSwipe = 0;
+		}
+
+		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE || 
+		    newPhase == SwipePhase.SWIPE_INITIAL_PAUSE) {
 			pauseStarted = Time.time;
 		}
-		if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
 			model.isTrigger = true;
 			SetMaterial(dangerFurRef);
 		} else {
@@ -139,5 +151,9 @@ public class PawController : MonoBehaviour {
 
 	public void CancelSwipe() {
 		SetPhase(SwipePhase.SWIPE_RETRACTING);
+	}
+
+	public void CountKill(MouseMove mouseMove) {
+		killsThisSwipe += 1;
 	}
 }
