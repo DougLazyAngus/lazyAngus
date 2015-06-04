@@ -2,6 +2,9 @@
 using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
+
+	public int[] debugInitialBoosts;
+
 	private int gameScore;
 	private int treatCount;
 
@@ -25,6 +28,12 @@ public class PlayerStats : MonoBehaviour {
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
 			availableBoostCount [i] = purchasedBoostCount [i] = 0;
+		}
+
+		if (debugInitialBoosts != null && debugInitialBoosts.Length == (int)BoostConfig.BoostType.NUM_TYPES) {
+			for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
+				availableBoostCount [i] = debugInitialBoosts[i];
+			}
 		}
 	}
 

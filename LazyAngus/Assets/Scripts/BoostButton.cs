@@ -29,25 +29,28 @@ public class BoostButton : MonoBehaviour {
 	private GameController gameController;
 
 	private int priceInTreats;
+	public float scale = 1.0f;
 
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	private bool started;
 
-	public void ConfigureForType(BoostConfig.BoostType bType) {
-		boostType = bType;
-
+	void Awake() {
 		rectTransform = GetComponent<RectTransform> ();	
-		rectTransform.localScale = new Vector3 (1f, 1f, 1f);
+		rectTransform.localScale = new Vector3 (scale, scale, 1f);
 
 		playerStats = Utilities.GetPlayerStats ();
 		boostConfig = Utilities.GetBoostConfig ();
 		gameController = Utilities.GetGameController ();
+	}
+	
+	public void ConfigureForType(BoostConfig.BoostType bType) {
+		boostType = bType;
+
+		rectTransform.localScale = new Vector3 (scale, scale, 1f);
+
 		button = gameObject.GetComponent<Button> ();		
 
 		Image image = gameObject.GetComponent<Image> ();
-		image.sprite = boostConfig.GetSpriteForType (bType);
+		image.sprite = boostConfig.GetSpriteForType (boostType);
 
 		buttonText.text = boostConfig.GetTitleForType (boostType);
 
@@ -85,9 +88,6 @@ public class BoostButton : MonoBehaviour {
 		restrictionText.gameObject.SetActive(false);
 		buttonText.gameObject.SetActive(false);
 
-		int levelLock = boostConfig.GetLevelLock (boostType);
-		int gameLevel = gameController.GetGameLevel ();
-		
 		if (playerStats.GetAvailableBoostCount(boostType) > 0) {
 			button.gameObject.SetActive (true);
 			countText.gameObject.SetActive (true);
@@ -99,11 +99,11 @@ public class BoostButton : MonoBehaviour {
 	}
 	
 	public float GetWidth() {
-		return rectTransform.rect.width;
+		return rectTransform.rect.width * scale;
 	}
 	
 	public float GetHeight() {
-		return rectTransform.rect.height;
+		return rectTransform.rect.height * scale;
 	}
 
 	public BoostConfig.BoostType GetBoostType() {
