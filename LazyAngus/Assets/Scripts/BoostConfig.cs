@@ -75,4 +75,7 @@ public class BoostConfig : MonoBehaviour {
 			return 1000;
 		}
 	}
+
+	public void ExecuteBoost(BoostType bType) {
+	}
 }

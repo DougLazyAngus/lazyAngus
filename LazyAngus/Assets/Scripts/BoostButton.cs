@@ -3,11 +3,23 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class PurchaseBoostButton : MonoBehaviour {
+public class BoostButton : MonoBehaviour {
+	public enum BoostButtonMode {
+		BOOST_BUTTON_MODE_USE = 0,
+		BOOST_BUTTON_MODE_BUY,
+
+		NUM_TYPES,
+	}
+
+	public BoostButtonMode mode;
+
 	public float width = 100f;
+
+	private Button button;
 	public Text buttonText;
 	public Text countText;
 	public Text restrictionText;
+
 
 	private BoostConfig.BoostType boostType;
 
@@ -15,7 +27,6 @@ public class PurchaseBoostButton : MonoBehaviour {
 	private PlayerStats playerStats;
 	private BoostConfig boostConfig;
 	private GameController gameController;
-	private Button button;
 
 	private int priceInTreats;
 
@@ -44,8 +55,20 @@ public class PurchaseBoostButton : MonoBehaviour {
 	} 
 
 	public void RefreshButton() {
+		if (mode == BoostButtonMode.BOOST_BUTTON_MODE_BUY) {
+			RefreshForBuy ();
+		} else {
+			RefreshForUse ();
+		}
+	}
+
+	public void RefreshForBuy() {
+		restrictionText.gameObject.SetActive(true);
+		buttonText.gameObject.SetActive(true);
+
 		int levelLock = boostConfig.GetLevelLock (boostType);
 		int gameLevel = gameController.GetGameLevel ();
+
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
 			button.interactable = false;
@@ -58,6 +81,23 @@ public class PurchaseBoostButton : MonoBehaviour {
 		}
 	}
 
+	public void RefreshForUse() {
+		restrictionText.gameObject.SetActive(false);
+		buttonText.gameObject.SetActive(false);
+
+		int levelLock = boostConfig.GetLevelLock (boostType);
+		int gameLevel = gameController.GetGameLevel ();
+		
+		if (playerStats.GetAvailableBoostCount(boostType) > 0) {
+			button.gameObject.SetActive (true);
+			countText.gameObject.SetActive (true);
+			countText.text = "x " + playerStats.GetAvailableBoostCount(boostType);
+		} else {
+			button.gameObject.SetActive (false);
+			countText.gameObject.SetActive (false);
+		}
+	}
+	
 	public float GetWidth() {
 		return rectTransform.rect.width;
 	}
@@ -66,11 +106,7 @@ public class PurchaseBoostButton : MonoBehaviour {
 		return rectTransform.rect.height;
 	}
 
-	public void BuyBoost() {
-		int price = boostConfig.GetCurrentPriceForBoost (boostType);
-		if (playerStats.CanAfford (price)) {
-			playerStats.AddBoost (boostType);
-			playerStats.SpendTreats (price);
-		}
+	public BoostConfig.BoostType GetBoostType() {
+		return boostType;
 	}
 }

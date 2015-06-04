@@ -31,6 +31,10 @@ public class GameController : MonoBehaviour {
 	public GameObject gameOverUIGameObject;
 
 	private int gameLevel;
+	public delegate void GameLevelChangedEventHandler();
+	public event GameLevelChangedEventHandler GameLevelChanged;
+
+
 	private int UserInteractionsLayerBitmask = (1 << 9);
 
 	private GamePhaseType gamePhase;
@@ -41,7 +45,6 @@ public class GameController : MonoBehaviour {
 
 	private bool shouldCheckForPhaseTransition = false;
 
-	private LevelEndConfig levelEndConfig;
 	private PlayerStats playerStats;
 
 	void Awake() {
@@ -51,7 +54,6 @@ public class GameController : MonoBehaviour {
 		playerStats = Utilities.GetPlayerStats ();
 
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
-		levelEndConfig = levelEndUIGameObject.GetComponent<LevelEndConfig>();
 
 	}
 
@@ -222,7 +224,6 @@ public class GameController : MonoBehaviour {
 			levelPlayUIGameObject.SetActive (false);
 			levelEndUIGameObject.SetActive (true);
 			gameOverUIGameObject.SetActive (false);
-			levelEndConfig.ConfigureForLevel(gameLevel);
 
 			CrossSceneState css = Utilities.GetCrossSceneState();
 			css.didWelcome = true;
@@ -252,7 +253,6 @@ public class GameController : MonoBehaviour {
 			levelEndUIGameObject.SetActive (true);
 			gameOverUIGameObject.SetActive (false);
 
-			levelEndConfig.ConfigureForLevel(gameLevel);
 			break;
 		}
 		case GamePhaseType.GAME_PHASE_GAME_OVER:
@@ -287,6 +287,9 @@ public class GameController : MonoBehaviour {
 
 	public void DebugSetGameLevel(int gameLevel) {
 		this.gameLevel = gameLevel;
+		if (GameLevelChanged != null) {
+			GameLevelChanged ();
+		}
 	}
 
 	public void LogKillsPerSwipe(int killsPerSwipe) {

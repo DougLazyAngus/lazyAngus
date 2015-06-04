@@ -13,17 +13,23 @@ public class PlayerStats : MonoBehaviour {
 	
 	public delegate void TreatsChangedEventHandler();
 	public event TreatsChangedEventHandler TreatsChanged;
+	
+	public delegate void BoostsChangedEventHandler();
+	public event BoostsChangedEventHandler BoostsChanged;
 
-	// Use this for initialization
-	void Start () {
+	void Awake() {
 		gameScore = 0;
 		treatCount = 1;
-
+		
 		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
 			availableBoostCount [i] = purchasedBoostCount [i] = 0;
 		}
+	}
+
+	// Use this for initialization
+	void Start () {
 	}	
 
 	public void IncrementScore(int increment) {
@@ -79,6 +85,7 @@ public class PlayerStats : MonoBehaviour {
 		int index = (int)bType;
 		return purchasedBoostCount[index];
 	}
+
 	public int GetAvailableBoostCount(BoostConfig.BoostType bType) {
 		int index = (int)bType;
 		return availableBoostCount[index];
@@ -88,5 +95,23 @@ public class PlayerStats : MonoBehaviour {
 		int index = (int)bType;
 		purchasedBoostCount[index] += 1;
 		availableBoostCount[index] += 1;
+		
+		if (BoostsChanged != null) {
+			BoostsChanged ();
+		}
+	}
+
+	public void RemoveBoost(BoostConfig.BoostType bType) {
+		int index = (int)bType;
+		if (availableBoostCount [index] < 1) {
+			availableBoostCount[index] = 0;
+			return;
+		}
+
+		availableBoostCount[index] -= 1;
+		
+		if (BoostsChanged != null) {
+			BoostsChanged ();
+		}
 	}
 }
