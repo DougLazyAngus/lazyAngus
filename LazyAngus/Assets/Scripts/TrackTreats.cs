@@ -8,7 +8,7 @@ public class TrackTreats : MonoBehaviour {
 	private Text treatsText;
 	private DistortForEffect distortForEffect;
 	
-	private GameController gc;
+	private PlayerStats playerStats;
 	private bool registeredForEvents;
 	
 	// Use this for initialization
@@ -16,20 +16,20 @@ public class TrackTreats : MonoBehaviour {
 		treatsText = this.gameObject.GetComponent<Text> ();
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 		
-		gc = Utilities.GetGameController ();
-		gc.TreatsChanged += new GameController.TreatsChangedEventHandler (DynamicUpdateTreatsText);
+		playerStats = Utilities.GetPlayerStats ();
+		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		registeredForEvents = true;
 		SetTreatsText ();
 	}
 	
 	void OnDestroy() {
 		if (registeredForEvents) {
-			gc.TreatsChanged -= new GameController.TreatsChangedEventHandler (DynamicUpdateTreatsText);
+			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		}
 	}
 	
 	void SetTreatsText() {
-		treatsText.text = "Treats: " + gc.GetTreats ();
+		treatsText.text = "$: " + playerStats.GetTreats ();
 	}
 	
 	// Update is called once per frame

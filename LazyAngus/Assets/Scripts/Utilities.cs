@@ -36,6 +36,30 @@ public class Utilities
 		return canvasObject;
 	}
 	
+	public static PlayerStats GetPlayerStats() {
+		GameObject playerStatsObject = GameObject.FindWithTag ("PlayerStats");
+		PlayerStats playerStats = null;
+		if (playerStatsObject != null) {
+			playerStats = playerStatsObject.GetComponent<PlayerStats>();
+		}
+		if (playerStats == null) {
+			Debug.Log ("Cannot find 'PlayerStats' script");
+		}
+		return playerStats;
+	}
+	
+	public static BoostConfig GetBoostConfig() {
+		GameObject boostConfigObject = GameObject.FindWithTag ("BoostConfig");
+		BoostConfig boostConfig = null;
+		if (boostConfigObject != null) {
+			boostConfig = boostConfigObject.GetComponent<BoostConfig>();
+		}
+		if (boostConfig == null) {
+			Debug.Log ("Cannot find 'BoostConfig' script");
+		}
+		return boostConfig;
+	}
+
 	public static GameController GetGameController() {
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		GameController gameController = null;

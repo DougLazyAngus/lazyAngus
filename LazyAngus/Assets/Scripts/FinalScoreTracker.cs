@@ -8,7 +8,7 @@ public class FinalScoreTracker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GameController gc = Utilities.GetGameController ();
-		finalScoreText.text = "Final Score: " + gc.GetScore ();
+		PlayerStats ps = Utilities.GetPlayerStats ();
+		finalScoreText.text = "Final Score: " + ps.GetScore ();
 	}
 }

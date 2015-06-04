@@ -7,13 +7,7 @@ using System.Linq;
 
 
 public class GameController : MonoBehaviour {
-
-	public delegate void ScoreChangedEventHandler();
-	public event ScoreChangedEventHandler ScoreChanged;
-
-	public delegate void TreatsChangedEventHandler();
-	public event TreatsChangedEventHandler TreatsChanged;
-
+	
 	public enum GamePhaseType {
 		GAME_PHASE_NULL = 0,
 		GAME_PHASE_WELCOME,
@@ -22,9 +16,6 @@ public class GameController : MonoBehaviour {
 		GAME_PHASE_GAME_OVER,
 		GAME_PHASE_PENDING,
 	};
-
-	private int score;
-	private int treats;
 
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
@@ -49,20 +40,23 @@ public class GameController : MonoBehaviour {
 	public float pendingPause = 1f;
 
 	private bool shouldCheckForPhaseTransition = false;
-	
+
+	private LevelEndConfig levelEndConfig;
+	private PlayerStats playerStats;
+
 	void Awake() {
 		Physics.IgnoreLayerCollision (8, 9, true);	
+
+		playerController = Utilities.GetPlayerController ();
+		playerStats = Utilities.GetPlayerStats ();
+
+		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
+		levelEndConfig = levelEndUIGameObject.GetComponent<LevelEndConfig>();
+
 	}
 
 	void Start() {
-		SetScore (0);
-		SetTreats (0);
-
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
-
-		playerController = Utilities.GetPlayerController ();
-		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
-
 		gameLevel = 1;
 
 		CrossSceneState css = Utilities.GetCrossSceneState ();
@@ -197,20 +191,7 @@ public class GameController : MonoBehaviour {
 		}
 		return null;
 	}
-
-	void SetScore(int newScore) {
-		score = newScore;
-		if (ScoreChanged != null) {
-			ScoreChanged ();
-		}
-	}
-
-	void SetTreats(int newTreats) {
-		treats = newTreats;
-		if (TreatsChanged != null) {
-			TreatsChanged ();
-		}
-	}
+	
 
 	//------------------------------------
 	// 
@@ -230,11 +211,19 @@ public class GameController : MonoBehaviour {
 		
 		switch (gamePhase) {
 		case GamePhaseType.GAME_PHASE_WELCOME: {
+			/*
+			 * FIXME(dbanks) undo
 			welcomeUIGameObject.SetActive (true);
 			levelPlayUIGameObject.SetActive (false);
 			levelEndUIGameObject.SetActive (false);
 			gameOverUIGameObject.SetActive (false);
-			
+			*/
+			welcomeUIGameObject.SetActive (false);
+			levelPlayUIGameObject.SetActive (false);
+			levelEndUIGameObject.SetActive (true);
+			gameOverUIGameObject.SetActive (false);
+			levelEndConfig.ConfigureForLevel(gameLevel);
+
 			CrossSceneState css = Utilities.GetCrossSceneState();
 			css.didWelcome = true;
 			break;
@@ -263,7 +252,6 @@ public class GameController : MonoBehaviour {
 			levelEndUIGameObject.SetActive (true);
 			gameOverUIGameObject.SetActive (false);
 
-			LevelEndConfig levelEndConfig = levelEndUIGameObject.GetComponent<LevelEndConfig>();
 			levelEndConfig.ConfigureForLevel(gameLevel);
 			break;
 		}
@@ -275,15 +263,7 @@ public class GameController : MonoBehaviour {
 			break;
 		}		
 	}
-
-	public int GetScore() {
-		return score;
-	}
-
-	public int GetTreats() {
-		return treats;
-	}
-
+	
 	public GamePhaseType GetGamePhase() {
 		return gamePhase;
 	}
@@ -296,9 +276,13 @@ public class GameController : MonoBehaviour {
 
 	public void OnMouseKilled(MouseMove mouse) {
 		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
-			SetScore (score + 1);
+			playerStats.IncrementScore (1);
 			shouldCheckForPhaseTransition = true;
 		}
+	}
+
+	public int GetGameLevel() {
+		return gameLevel;
 	}
 
 	public void DebugSetGameLevel(int gameLevel) {
@@ -313,7 +297,7 @@ public class GameController : MonoBehaviour {
 
 		int treatsEarned = (killsPerSwipe - 1) * (killsPerSwipe - 1);
 		if (treatsEarned > 0) {
-			SetTreats (treats + treatsEarned);
+			playerStats.EarnTreats(treatsEarned);
 		}
 	}
 }
