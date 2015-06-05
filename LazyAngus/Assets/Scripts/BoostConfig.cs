@@ -2,24 +2,47 @@
 using System.Collections;
 
 public class BoostConfig : MonoBehaviour {
+	public enum BoostType {
+		BOOST_TYPE_FREEZE = 0,
+		BOOST_TYPE_ENERGY,
+		BOOST_TYPE_BOMB,
+		
+		NUM_TYPES,
+	};
+
 	public Sprite freezeSprite;
 	public Sprite energySprite;
 	public Sprite bombSprite;
 
 	private PlayerStats playerStats;
+	
+	public delegate void BoostActiveEventHandler();
+	public event BoostActiveEventHandler BoostActive;
 
-	public enum BoostType {
-		BOOST_TYPE_FREEZE = 0,
-		BOOST_TYPE_ENERGY,
-		BOOST_TYPE_BOMB,
+	public float freezeTime = 3.0f;
 
-		NUM_TYPES,
-	};
+	public float energyTime = 7.0f;
+	public float energyMultiplier = 3.0f;
 
+	public float bombTime = 1f;
+
+	public static BoostConfig instance { get; private set; }
+
+	public BoostType activeBoost { get; private set; }
+
+	IEnumerator activePause;
+
+	private float activeBoostStartTime;
+	private float activeBoostEndTime;
+
+	void Awake() {
+		instance = this;
+		activeBoost = BoostType.NUM_TYPES;
+	}
 
 	// Use this for initialization
 	void Start () {
-		playerStats = Utilities.GetPlayerStats ();
+		playerStats = PlayerStats.instance;
 	}
 	
 	// Update is called once per frame
@@ -76,6 +99,79 @@ public class BoostConfig : MonoBehaviour {
 		}
 	}
 
+	public void CancelBoosts() {
+		if (activeBoost == BoostType.NUM_TYPES) {
+			return;
+		}
+
+		CleanupActiveBoost ();
+	}
+
 	public void ExecuteBoost(BoostType bType) {
+		// If something's active, ignore.
+		if (activeBoost != BoostType.NUM_TYPES) {
+			return;
+		}
+		// If you're trying to 'execute' null type, ignore.
+		if (bType == BoostType.NUM_TYPES) {
+			return;
+		}
+
+		// Make sure nothing else is going.
+		CleanupActiveBoost ();
+
+		float pauseTime = 0;
+		switch (bType) {
+		case BoostType.BOOST_TYPE_BOMB:
+			pauseTime = bombTime;
+			break;
+		case BoostType.BOOST_TYPE_ENERGY:
+			pauseTime = energyTime;
+			break;
+		case BoostType.BOOST_TYPE_FREEZE:
+			pauseTime = freezeTime;
+			break;
+		}
+
+		activeBoost = bType;
+		activeBoostStartTime = Time.time;
+		activeBoostEndTime = activeBoostStartTime + pauseTime;
+		
+		if (BoostActive != null) {
+			BoostActive ();
+		}
+
+		activePause = WaitThenCleanup (pauseTime);
+
+		StartCoroutine(activePause);
+	}
+
+	IEnumerator WaitThenCleanup(float pauseTime) {
+		yield return new WaitForSeconds (pauseTime);
+		activePause = null;
+		CleanupActiveBoost ();
+	}
+
+	void CleanupActiveBoost() {
+		if (activePause != null) {
+			StopCoroutine (activePause);
+			activePause = null;
+		}
+
+		activeBoost = BoostType.NUM_TYPES;
+		activeBoostStartTime = activeBoostEndTime = 0;
+
+		if (BoostActive != null) {
+			BoostActive ();
+		}
+	}
+
+	public float GetActiveBoostFractionUsed() {
+		return (Time.time - activeBoostStartTime)/
+			(activeBoostEndTime - activeBoostStartTime);
+	}
+	
+	public bool IsBoostActive() {
+		return (activeBoost != BoostType.NUM_TYPES);
 	}
 }

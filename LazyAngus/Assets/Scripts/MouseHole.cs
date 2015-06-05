@@ -80,7 +80,7 @@ public class MouseHole : MonoBehaviour {
 		mouse.OnSafeExit ();	
 		
 		if (CountSavedMouse (mouse)) {
-			GameController gameController = Utilities.GetGameController ();
+			GameController gameController = GameController.instance;
 			gameController.OnMouseExit (mouse);		
 			UpdateSlider ();
 			DoSavedMouseFX ();

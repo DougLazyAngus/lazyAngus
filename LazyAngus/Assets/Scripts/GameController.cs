@@ -46,22 +46,28 @@ public class GameController : MonoBehaviour {
 	private bool shouldCheckForPhaseTransition = false;
 
 	private PlayerStats playerStats;
+	private BoostConfig boostConfig;
+
+	public static GameController instance { get; private set; }
 
 	void Awake() {
-		Physics.IgnoreLayerCollision (8, 9, true);	
+		instance = this;
 
-		playerController = Utilities.GetPlayerController ();
-		playerStats = Utilities.GetPlayerStats ();
+		Physics.IgnoreLayerCollision (8, 9, true);	
 
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 
 	}
 
 	void Start() {
+		boostConfig = BoostConfig.instance;
+		playerController = PlayerController.instance;
+		playerStats = PlayerStats.instance;
+		CrossSceneState css = CrossSceneState.instance;
+
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
 		gameLevel = 1;
 
-		CrossSceneState css = Utilities.GetCrossSceneState ();
 		if (css.didWelcome) {
 			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		} else {
@@ -156,14 +162,16 @@ public class GameController : MonoBehaviour {
 	}
 
 	void EnqueueMiceForLevel() {
+		LevelConfig lc = LevelConfig.instance;
 		// A few by hand, then just programmatic.
-		List<ExplicitMouseDesc> explicitMice = LevelConfig.GetExplicitConfigForLevel (gameLevel);
-		int[] miceByType = LevelConfig.GetMiceByTypeForLevel (gameLevel);
+		List<ExplicitMouseDesc> explicitMice = lc.GetExplicitConfigForLevel (gameLevel);
+		int[] miceByType = lc.GetMiceByTypeForLevel (gameLevel);
+		float[] timeRanges = lc.GetTimeRanges (gameLevel);
 
 		mouseSpawnFromData.ConfigureWithData (explicitMice,
-		                                     gameLevel, 
-		                                     miceByType, 
-		                                     1f); 
+		                                      gameLevel, 
+		                                      miceByType, 
+		                                      timeRanges); 
 	}
 
 	bool IsLegalTransition(GamePhaseType oldPhase, 
@@ -208,7 +216,13 @@ public class GameController : MonoBehaviour {
 			return;
 		}
 		
-		
+		switch (gamePhase) {
+		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+			// Leaving play.  Kill active boosts.
+			boostConfig.CancelBoosts ();
+			break;
+		}
+
 		gamePhase = newPhase;
 		
 		switch (gamePhase) {
@@ -225,7 +239,7 @@ public class GameController : MonoBehaviour {
 			levelEndUIGameObject.SetActive (true);
 			gameOverUIGameObject.SetActive (false);
 
-			CrossSceneState css = Utilities.GetCrossSceneState();
+			CrossSceneState css = CrossSceneState.instance;
 			css.didWelcome = true;
 			break;
 		}

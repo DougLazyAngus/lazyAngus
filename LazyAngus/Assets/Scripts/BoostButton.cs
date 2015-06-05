@@ -37,9 +37,9 @@ public class BoostButton : MonoBehaviour {
 		rectTransform = GetComponent<RectTransform> ();	
 		rectTransform.localScale = new Vector3 (scale, scale, 1f);
 
-		playerStats = Utilities.GetPlayerStats ();
-		boostConfig = Utilities.GetBoostConfig ();
-		gameController = Utilities.GetGameController ();
+		playerStats = PlayerStats.instance;
+		boostConfig = BoostConfig.instance;
+		gameController = GameController.instance;
 	}
 	
 	public void ConfigureForType(BoostConfig.BoostType bType) {
@@ -92,6 +92,7 @@ public class BoostButton : MonoBehaviour {
 			button.gameObject.SetActive (true);
 			countText.gameObject.SetActive (true);
 			countText.text = "x " + playerStats.GetAvailableBoostCount(boostType);
+			button.interactable = !boostConfig.IsBoostActive();
 		} else {
 			button.gameObject.SetActive (false);
 			countText.gameObject.SetActive (false);

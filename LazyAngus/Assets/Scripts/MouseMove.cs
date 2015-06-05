@@ -29,8 +29,7 @@ public class MouseMove : MonoBehaviour {
 	private MouseType mouseType;
 
 	private float speedM;
-
-
+	
 	public GameObject[] mouseBalls;
 
 	/*

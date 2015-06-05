@@ -28,8 +28,8 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 		treatsTextDirty = false;
 		levelTextDirty = false;
 
-		playerStats = Utilities.GetPlayerStats ();
-		gameController = Utilities.GetGameController ();
+		playerStats = PlayerStats.instance;
+		gameController = GameController.instance;
 
 		RegisterForEvents ();
 

@@ -7,8 +7,8 @@ public class UseBoost : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		boostConfig = Utilities.GetBoostConfig ();
-		playerStats = Utilities.GetPlayerStats ();
+		boostConfig = BoostConfig.instance;
+		playerStats = PlayerStats.instance;
 	}
 	
 	// Update is called once per frame

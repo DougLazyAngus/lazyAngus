@@ -15,7 +15,13 @@ public class PlayerController : MonoBehaviour {
 	// cat fwd (0, 0, 1) to dragAnchorOnCat.
 	private float dragAnchorAngleCat;
 
+	public static PlayerController instance { get; private set; }
+
 	ConeOfViewRenderer coneOfView;
+
+	void Awake() {
+		instance = this;
+	}
 
 	// Use this for initialization
 	void Start () {

@@ -29,71 +29,10 @@ public class Utilities
 		}
 		return Utilities.isTouchDevice;
 	}
-
 	
 	public static GameObject GetCanvasGameObject() {
 		GameObject canvasObject = GameObject.FindWithTag ("Canvas");
 		return canvasObject;
-	}
-	
-	public static PlayerStats GetPlayerStats() {
-		GameObject playerStatsObject = GameObject.FindWithTag ("PlayerStats");
-		PlayerStats playerStats = null;
-		if (playerStatsObject != null) {
-			playerStats = playerStatsObject.GetComponent<PlayerStats>();
-		}
-		if (playerStats == null) {
-			Debug.Log ("Cannot find 'PlayerStats' script");
-		}
-		return playerStats;
-	}
-	
-	public static BoostConfig GetBoostConfig() {
-		GameObject boostConfigObject = GameObject.FindWithTag ("BoostConfig");
-		BoostConfig boostConfig = null;
-		if (boostConfigObject != null) {
-			boostConfig = boostConfigObject.GetComponent<BoostConfig>();
-		}
-		if (boostConfig == null) {
-			Debug.Log ("Cannot find 'BoostConfig' script");
-		}
-		return boostConfig;
-	}
-
-	public static GameController GetGameController() {
-		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
-		GameController gameController = null;
-		if (gameControllerObject != null) {
-			gameController = gameControllerObject.GetComponent<GameController>();
-		}
-		if (gameController == null) {
-			Debug.Log ("Cannot find 'GameController' script");
-		}
-		return gameController;
-	}
-
-	public static CrossSceneState GetCrossSceneState() {
-		GameObject crossSceneStateObject = GameObject.FindWithTag ("CrossSceneState");
-		CrossSceneState crossSceneState = null;
-		if (crossSceneStateObject != null) {
-			crossSceneState = crossSceneStateObject.GetComponent<CrossSceneState>();
-		}
-		if (crossSceneState == null) {
-			Debug.Log ("Cannot find 'CrossSceneState' script");
-		}
-		return crossSceneState;
-	}
-
-	public static PlayerController GetPlayerController() {
-		GameObject playerObject = GameObject.FindWithTag ("Player");
-		PlayerController playerController = null;
-		if (playerObject != null) {
-			playerController = playerObject.GetComponent<PlayerController>();
-		}
-		if (playerController == null) {
-			Debug.Log ("Cannot find 'PlayerController' script");
-		}
-		return playerController;
 	}
 
 	public static bool GetClickStarted(out Vector3 clickPosition) {

@@ -13,10 +13,11 @@ public class TrackTreats : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		playerStats = PlayerStats.instance;
+
 		treatsText = this.gameObject.GetComponent<Text> ();
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 		
-		playerStats = Utilities.GetPlayerStats ();
 		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		registeredForEvents = true;
 		SetTreatsText ();

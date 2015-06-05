@@ -20,7 +20,11 @@ public class PlayerStats : MonoBehaviour {
 	public delegate void BoostsChangedEventHandler();
 	public event BoostsChangedEventHandler BoostsChanged;
 
+	public static PlayerStats instance { get; private set; }
+
 	void Awake() {
+		instance = this;
+
 		gameScore = 0;
 		treatCount = 1;
 		

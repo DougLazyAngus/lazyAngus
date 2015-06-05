@@ -13,10 +13,12 @@ public class TrackScore : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		playerStats = PlayerStats.instance;
+
 		scoreText = this.gameObject.GetComponent<Text> ();
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 
-		playerStats = Utilities.GetPlayerStats ();
+
 		playerStats.ScoreChanged += new PlayerStats.ScoreChangedEventHandler (DynamicUpdateScoreText);
 		registeredForEvents = true;
 		SetScoreText ();

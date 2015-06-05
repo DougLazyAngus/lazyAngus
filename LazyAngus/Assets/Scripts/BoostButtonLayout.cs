@@ -8,7 +8,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	public float boostButtonSpacing = 0f;
 	public float boostButtonYOffset = 60f;
 	public GameObject boostButtonPrototype;
-
+	
 	private List<BoostButton> boostButtons;
 	private bool registeredForEvents;
 
@@ -18,24 +18,29 @@ public class BoostButtonLayout : MonoBehaviour {
 
 	private PlayerStats playerStats;
 	private GameController gameController;
+	private BoostConfig boostConfig;
 
 	private bool started;
 
 	void Awake() {
 		registeredForEvents = false;
 		boostButtonsDirty = false;
-		playerStats = Utilities.GetPlayerStats ();
-		gameController = Utilities.GetGameController ();
+
 		started = false;
 	}
 
 	void Start () {
+		playerStats = PlayerStats.instance;
+		gameController = GameController.instance;
+		boostConfig = BoostConfig.instance;
+
 		RegisterForEvents ();
 
 		AddBoostButtons ();
 		LayoutBoostButtons ();
 
 		RefreshBoostButtons ();
+
 		started = true;
 	}
 
@@ -53,7 +58,11 @@ public class BoostButtonLayout : MonoBehaviour {
 	void RegisterForEvents() {
 		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 		playerStats.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
+
 		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+
 		registeredForEvents = true;
 	}
 
@@ -62,6 +71,7 @@ public class BoostButtonLayout : MonoBehaviour {
 			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
 			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
 
@@ -77,6 +87,10 @@ public class BoostButtonLayout : MonoBehaviour {
 	}
 
 	void OnBoostsChanged() {
+		boostButtonsDirty = true;
+	}
+
+	void OnBoostUsageChanged() {
 		boostButtonsDirty = true;
 	}
 
@@ -138,5 +152,13 @@ public class BoostButtonLayout : MonoBehaviour {
 		foreach (BoostButton bb in boostButtons) {
 			bb.RefreshButton ();
 		}
+	}
+
+	public BoostButton GetButtonForBoost(BoostConfig.BoostType boostType) {
+		if (boostType == BoostConfig.BoostType.NUM_TYPES) {
+			return null;
+		}
+		int index = (int)boostType;
+		return boostButtons [index];
 	}
 }

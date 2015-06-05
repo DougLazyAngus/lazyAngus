@@ -16,9 +16,8 @@ public class PawController : MonoBehaviour {
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public float swipeInitialSpeed = 1.0f;
-	public float swipeFinalSpeed = 7.0f;
-	public float swipeAcceleration = 20.0f;
+	public float baseSwipeSpeed = 7.0f;
+	
 	public float swipeInitialPause = 0.3f;
 	public float swipeExtendedPause = 0.1f;
 
@@ -31,8 +30,16 @@ public class PawController : MonoBehaviour {
 	private int killsThisSwipe;
 	private GameController gameController;
 
+	bool registeredForEvents;
+	BoostConfig boostConfig;
+
+	void Awake() {
+		registeredForEvents = false;
+	}
+
 	void Start() {
-		gameController = Utilities.GetGameController ();
+		gameController = GameController.instance;
+		boostConfig = BoostConfig.instance;
 
 		swipePhase = SwipePhase.SWIPE_NONE;
 		homeLocationCat = transform.localPosition;
@@ -43,7 +50,29 @@ public class PawController : MonoBehaviour {
 		Rigidbody rb = GetComponentInChildren<Rigidbody> ();
 		rb.freezeRotation = true;
 		rb.constraints = RigidbodyConstraints.FreezeAll;
-		swipeSpeed = 0;
+		swipeSpeed = baseSwipeSpeed;
+
+		RegisterForEvents ();
+	}
+
+	void OnDestroy() {
+		UnregisterForEvents ();
+	}
+
+	void RegisterForEvents() {
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+	}
+
+	void UnregisterForEvents() {
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+	}
+
+	void OnBoostActivationChanged() {
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_ENERGY) {
+			swipeSpeed = boostConfig.energyMultiplier * baseSwipeSpeed;
+		} else {
+			swipeSpeed = baseSwipeSpeed;
+		}
 	}
 
 	void Update() {
@@ -53,13 +82,11 @@ public class PawController : MonoBehaviour {
 			float timeNow = Time.time;
 			if (timeNow - pauseStarted > swipeInitialPause) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
-				swipeSpeed = swipeInitialSpeed;
 			}
 			break;
 		}
 		case SwipePhase.SWIPE_EXTENDING:
 		{
-			UpdateSpeed();
 			if (MoveTowards (swipeLocationCat)) {
 				SetPhase(SwipePhase.SWIPE_EXTENDED_PAUSE);
 			}
@@ -73,29 +100,14 @@ public class PawController : MonoBehaviour {
 				}
 				break;
 			}
-		case SwipePhase.SWIPE_RETRACTING:
-			{
-			swipeSpeed = swipeFinalSpeed;
+		case SwipePhase.SWIPE_RETRACTING: 
 			if (MoveTowards (homeLocationCat)) {
-					SetPhase(SwipePhase.SWIPE_NONE);
-				}
-				break;
+				SetPhase(SwipePhase.SWIPE_NONE);
 			}
-		}
-
-	}
-
-	void UpdateSpeed() {
-		float acceleration = swipeAcceleration;
-
-		if (acceleration != 0.0f) {
-			float deltaTime = Time.deltaTime;
-			float vChange = deltaTime * acceleration;
-			swipeSpeed += vChange;
-			swipeSpeed = Mathf.Clamp (swipeSpeed, swipeInitialSpeed, swipeFinalSpeed);
+			break;
 		}
 	}
-
+	
 	void SetPhase(SwipePhase newPhase) {
 		SwipePhase oldPhase = swipePhase;
 		swipePhase = newPhase;

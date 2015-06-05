@@ -6,8 +6,8 @@ public class BuyBoost : MonoBehaviour {
 	private PlayerStats playerStats;
 
 	void Start() {
-		boostConfig = Utilities.GetBoostConfig ();
-		playerStats = Utilities.GetPlayerStats ();
+		boostConfig = BoostConfig.instance;
+		playerStats = PlayerStats.instance;
 	}
 
 	public void Buy() {

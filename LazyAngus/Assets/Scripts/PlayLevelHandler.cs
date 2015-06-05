@@ -6,7 +6,7 @@ public class PlayLevelHandler : MonoBehaviour {
 	GameController gameController;
 
 	public void Start() {
-		gameController = Utilities.GetGameController ();
+		gameController = GameController.instance;
 	}
 
 	public void Play() {
