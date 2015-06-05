@@ -15,16 +15,10 @@ public class BoostConfig : MonoBehaviour {
 	public Sprite bombSprite;
 
 	private PlayerStats playerStats;
+	private TweakableParams tweakableParams;
 	
 	public delegate void BoostActiveEventHandler();
 	public event BoostActiveEventHandler BoostActive;
-
-	public float freezeTime = 3.0f;
-
-	public float energyTime = 7.0f;
-	public float energyMultiplier = 3.0f;
-
-	public float bombTime = 1f;
 
 	public static BoostConfig instance { get; private set; }
 
@@ -43,6 +37,7 @@ public class BoostConfig : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		playerStats = PlayerStats.instance;
+		tweakableParams = TweakableParams.instance;
 	}
 	
 	// Update is called once per frame
@@ -123,13 +118,13 @@ public class BoostConfig : MonoBehaviour {
 		float pauseTime = 0;
 		switch (bType) {
 		case BoostType.BOOST_TYPE_BOMB:
-			pauseTime = bombTime;
+			pauseTime = tweakableParams.bombBoostTime;
 			break;
 		case BoostType.BOOST_TYPE_ENERGY:
-			pauseTime = energyTime;
+			pauseTime = tweakableParams.energyBoostTime;
 			break;
 		case BoostType.BOOST_TYPE_FREEZE:
-			pauseTime = freezeTime;
+			pauseTime = tweakableParams.freezeBoostTime;
 			break;
 		}
 

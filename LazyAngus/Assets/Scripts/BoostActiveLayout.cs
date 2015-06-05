@@ -14,14 +14,11 @@ public class BoostActiveLayout : MonoBehaviour {
 	private bool treatsTextDirty;
 	private bool levelTextDirty;
 	
-	private PlayerStats playerStats;
-	private GameController gameController;
 	private BoostConfig boostConfig;
 	
 	private bool started;
 	
 	private Slider sliderInstance;
-	private TweakableSlider tweakableSlider;
 	private bool sliderDirty;
 	
 	void Awake() {
@@ -32,8 +29,6 @@ public class BoostActiveLayout : MonoBehaviour {
 	}
 	
 	void Start () {
-		playerStats = PlayerStats.instance;
-		gameController = GameController.instance;
 		boostConfig = BoostConfig.instance;
 		
 		RegisterForEvents ();
@@ -88,7 +83,6 @@ public class BoostActiveLayout : MonoBehaviour {
 		sliderGameObject.transform.SetParent (gameObject.transform);
 
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();		
-		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
 	}
 
 	void RefreshSlider() {

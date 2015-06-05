@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
 	public static PlayerController instance { get; private set; }
 
 	ConeOfViewRenderer coneOfView;
+	TweakableParams tweakableParams;
 
 	void Awake() {
 		instance = this;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		tweakableParams = TweakableParams.instance;
 		coneOfView = coneOfViewGameObject.GetComponent<ConeOfViewRenderer> ();
 	}
 
@@ -70,12 +72,12 @@ public class PlayerController : MonoBehaviour {
 		float angle = Utilities.GetYAngle (swipeLocationCat);
 
 		GameObject paw = null;
-		if (swipeLocationCat.magnitude <= coneOfView.viewRadius) {
+		if (swipeLocationCat.magnitude <= tweakableParams.swipeRadius) {
 			if (angle >= 0 && 
-				angle <= coneOfView.swipeAngleRange / 2) {
+				angle <= coneOfView.actualAngleRange / 2) {
 				paw = rightPawGameObject;
 			} else if (angle < 0 && 
-				angle >= -coneOfView.swipeAngleRange / 2) {
+			           angle >= -coneOfView.actualAngleRange / 2) {
 				paw = leftPawGameObject;
 			}
 		}

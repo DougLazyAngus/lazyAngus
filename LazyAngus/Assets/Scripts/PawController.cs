@@ -16,11 +16,6 @@ public class PawController : MonoBehaviour {
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public float baseSwipeSpeed = 7.0f;
-	
-	public float swipeInitialPause = 0.3f;
-	public float swipeExtendedPause = 0.1f;
-
 	public Material normalFurRef;
 	public Material dangerFurRef;
 
@@ -32,6 +27,7 @@ public class PawController : MonoBehaviour {
 
 	bool registeredForEvents;
 	BoostConfig boostConfig;
+	TweakableParams tweakableParams;
 
 	void Awake() {
 		registeredForEvents = false;
@@ -40,6 +36,7 @@ public class PawController : MonoBehaviour {
 	void Start() {
 		gameController = GameController.instance;
 		boostConfig = BoostConfig.instance;
+		tweakableParams = TweakableParams.instance;
 
 		swipePhase = SwipePhase.SWIPE_NONE;
 		homeLocationCat = transform.localPosition;
@@ -50,7 +47,7 @@ public class PawController : MonoBehaviour {
 		Rigidbody rb = GetComponentInChildren<Rigidbody> ();
 		rb.freezeRotation = true;
 		rb.constraints = RigidbodyConstraints.FreezeAll;
-		swipeSpeed = baseSwipeSpeed;
+		swipeSpeed = tweakableParams.baseSwipeSpeed;
 
 		RegisterForEvents ();
 	}
@@ -61,17 +58,21 @@ public class PawController : MonoBehaviour {
 
 	void RegisterForEvents() {
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		registeredForEvents = true;
 	}
 
 	void UnregisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		if (registeredForEvents) {
+			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		}
 	}
 
 	void OnBoostActivationChanged() {
 		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_ENERGY) {
-			swipeSpeed = boostConfig.energyMultiplier * baseSwipeSpeed;
+			swipeSpeed = (tweakableParams.energyBoostSwipeSpeedMultiplier * 
+			              tweakableParams.baseSwipeSpeed);
 		} else {
-			swipeSpeed = baseSwipeSpeed;
+			swipeSpeed = tweakableParams.baseSwipeSpeed;
 		}
 	}
 
@@ -80,7 +81,7 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.SWIPE_INITIAL_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - pauseStarted > swipeInitialPause) {
+			if (timeNow - pauseStarted > tweakableParams.swipeInitialPause) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
 			}
 			break;
@@ -95,7 +96,7 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.SWIPE_EXTENDED_PAUSE:
 			{
 				float timeNow = Time.time;
-				if (timeNow - pauseStarted > swipeExtendedPause) {
+			if (timeNow - pauseStarted > tweakableParams.swipeInitialPause) {
 					SetPhase(SwipePhase.SWIPE_RETRACTING);
 				}
 				break;

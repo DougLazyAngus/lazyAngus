@@ -28,8 +28,9 @@ public class MouseMove : MonoBehaviour {
 
 	private MouseType mouseType;
 
-	private float speedM;
-	
+	private float baseSpeedM;
+	private float actualSpeedM;
+
 	public GameObject[] mouseBalls;
 
 	/*
@@ -57,11 +58,21 @@ public class MouseMove : MonoBehaviour {
 	private TweakableSlider tweakableSlider;
 
 	public static int activeMouseCount = 0;
+	bool registeredForEvents;
+
+	TweakableParams tweakableParams;
+	BoostConfig boostConfig;
 
 	public static MouseType GetRandomMouseType () {
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
 	}
-	
+
+	void Awake() {
+		registeredForEvents = false;
+		tweakableParams = TweakableParams.instance;
+		boostConfig = BoostConfig.instance;
+	}
+
 	// Use this for initialization
 	void Start () {
 		mouseAngleDeg = startAngleDeg;
@@ -72,8 +83,41 @@ public class MouseMove : MonoBehaviour {
 		MakeSlider ();
 
 		PositionMouse ();
+		RegisterForEvents ();
 	}
 	
+	void OnDestroy() {
+		UnregisterForEvents ();
+		if (sliderInstance != null) {
+			Object.Destroy (sliderInstance.gameObject);
+		}
+		activeMouseCount--;
+	}
+	
+	void RegisterForEvents() {
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		registeredForEvents = true;
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		}
+	}
+
+
+	void OnBoostActivationChanged () {
+		SetActualSpeed ();
+	}
+
+	void SetActualSpeed () {
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FREEZE) {
+			actualSpeedM = baseSpeedM * tweakableParams.freezeBoostMouseSpeedMultipler;
+		} else {
+			actualSpeedM = baseSpeedM;
+		}
+	}
+
 	void MakeSlider() {
 		GameObject sliderGameObject = Utilities.FindChildWithTag(gameObject, 
 		                                                         "TrackingProgressBar");
@@ -140,14 +184,14 @@ public class MouseMove : MonoBehaviour {
 
 		switch (phase) {
 		case MovementPhaseType.ENTERING_PHASE:
-			mouseRadius -= deltaTime * speedM;
+			mouseRadius -= deltaTime * actualSpeedM;
 			if (mouseRadius <= circlingRadius) {
 				mouseRadius = circlingRadius;  
 				phase = MovementPhaseType.RUNNING_PHASE;
 			}
 			break;
 		case MovementPhaseType.RUNNING_PHASE: {
-			float distanceDelta = speedM * Time.deltaTime;
+			float distanceDelta = actualSpeedM * Time.deltaTime;
 			float angleDeltaRad = distanceDelta/mouseRadius;
 			float angleDeltaDeg = angleDeltaRad * Mathf.Rad2Deg;
 
@@ -173,7 +217,7 @@ public class MouseMove : MonoBehaviour {
 		}
 
 		case MovementPhaseType.LEAVING_PHASE:
-			mouseRadius += deltaTime * speedM;
+			mouseRadius += deltaTime * actualSpeedM;
 			break;
 		}
 	
@@ -187,13 +231,6 @@ public class MouseMove : MonoBehaviour {
 		}
 	}
 	
- 	void OnDestroy() {
-		if (sliderInstance != null) {
-			Object.Destroy (sliderInstance.gameObject);
-		}
-		activeMouseCount--;
-	}
-
 		
 	//------------------------------------------
 	// 
@@ -213,17 +250,19 @@ public class MouseMove : MonoBehaviour {
 		   
 		switch (mouseType) {
 		case MouseType.MOUSE_TYPE_FAST:
-			speedM = maxSpeedM;
+			baseSpeedM = maxSpeedM;
 			SetAltMaterial(altMaterial02);
 			break;
 		case MouseType.MOUSE_TYPE_SLOW:
-			speedM = minSpeedM;
+			baseSpeedM = minSpeedM;
 			break;
 		case MouseType.MOUSE_TYPE_MEDIUM:
 			SetAltMaterial(altMaterial01);
-			speedM = (maxSpeedM + minSpeedM)/2;
+			baseSpeedM = (maxSpeedM + minSpeedM)/2;
 			break;
 		}
+		actualSpeedM = baseSpeedM;
+
 		int mtAsInt = (int)mouseType;
 
 		Vector3 scale = transform.localScale;
