@@ -141,6 +141,8 @@ public class PawController : MonoBehaviour {
 	}
 
 	bool MoveTowards(Vector3 targetLocation) {
+		targetLocation.y = 0.0f;
+
 		Vector3 currrentLocation = transform.localPosition;
 		Vector3 direction = targetLocation - currrentLocation;
 		float deltaTime = Time.deltaTime;
