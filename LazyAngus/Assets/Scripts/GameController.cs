@@ -227,17 +227,17 @@ public class GameController : MonoBehaviour {
 		
 		switch (gamePhase) {
 		case GamePhaseType.GAME_PHASE_WELCOME: {
-			/*
-			 * FIXME(dbanks) undo
-			welcomeUIGameObject.SetActive (true);
-			levelPlayUIGameObject.SetActive (false);
-			levelEndUIGameObject.SetActive (false);
-			gameOverUIGameObject.SetActive (false);
-			*/
-			welcomeUIGameObject.SetActive (false);
-			levelPlayUIGameObject.SetActive (false);
-			levelEndUIGameObject.SetActive (true);
-			gameOverUIGameObject.SetActive (false);
+			if (DebugConfig.instance.isDebug) {
+				welcomeUIGameObject.SetActive (false);
+				levelPlayUIGameObject.SetActive (false);
+				levelEndUIGameObject.SetActive (true);
+				gameOverUIGameObject.SetActive (false);
+			} else {
+				welcomeUIGameObject.SetActive (true);
+				levelPlayUIGameObject.SetActive (false);
+				levelEndUIGameObject.SetActive (false);
+				gameOverUIGameObject.SetActive (false);
+			}
 
 			CrossSceneState css = CrossSceneState.instance;
 			css.didWelcome = true;

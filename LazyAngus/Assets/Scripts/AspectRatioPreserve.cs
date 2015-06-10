@@ -20,7 +20,7 @@ public class AspectRatioPreserve : MonoBehaviour {
 		// obtain camera component so we can modify its viewport
 		Camera camera = GetComponent<Camera>();
 		
-		// if scaled height is less than current height, add letterbox
+		// if scaled height is less than current height, add pillarbox
 		if (scaleheight < 1.0f)
 		{  
 			Rect rect = camera.rect;  
@@ -32,8 +32,9 @@ public class AspectRatioPreserve : MonoBehaviour {
 			
 			camera.rect = rect;
 		}
-		else // add pillarbox
+		else 
 		{
+			// add letterbox
 			float scalewidth = 1.0f / scaleheight;
 			
 			Rect rect = camera.rect;

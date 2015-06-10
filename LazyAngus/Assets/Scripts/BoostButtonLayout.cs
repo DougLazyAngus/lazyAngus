@@ -5,10 +5,10 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class BoostButtonLayout : MonoBehaviour {
-	public float boostButtonSpacing = 0f;
-	public float boostButtonYOffset = 60f;
+	public float boostButtonYOffset;
 	public GameObject boostButtonPrototype;
-	
+	public Canvas containingCanvas;
+
 	private List<BoostButton> boostButtons;
 	private bool registeredForEvents;
 
@@ -21,7 +21,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	private BoostConfig boostConfig;
 
 	private bool started;
-
+	
 	void Awake() {
 		registeredForEvents = false;
 		boostButtonsDirty = false;
@@ -117,26 +117,24 @@ public class BoostButtonLayout : MonoBehaviour {
 	}
 	
 	void LayoutBoostButtons() {
-		float totalWidth = 0f;
+		float canvasWidth = containingCanvas.pixelRect.width / containingCanvas.scaleFactor; 
+
+		float totalButtonWidth = 0f;
 		bool first = true;
 		foreach (BoostButton pbb in boostButtons) {
-			if (!first) {
-				totalWidth += boostButtonSpacing;
-			}
-			first = false;
-			totalWidth += pbb.GetWidth();
+			totalButtonWidth += pbb.GetWidth();
 		}
 
-		float leftEdge = -totalWidth / 2;
+		float leftoverSpace = canvasWidth - totalButtonWidth;
+		float margin = leftoverSpace / (boostButtons.Count + 1);
+
+		float leftEdge = -canvasWidth / 2;
 		float buttonXOffset;
 
 		first = true;
 
 		foreach (BoostButton pbb in boostButtons) {
-			if (!first) {
-				leftEdge += boostButtonSpacing;
-			}
-			first = false;
+			leftEdge += margin;
 
 			buttonXOffset = leftEdge + pbb.GetWidth()/2;
 

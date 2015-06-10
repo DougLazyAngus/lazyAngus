@@ -20,6 +20,7 @@ public class BoostActiveLayout : MonoBehaviour {
 	
 	private Slider sliderInstance;
 	private bool sliderDirty;
+	public Canvas containingCanvas;
 	
 	void Awake() {
 		registeredForEvents = false;
@@ -79,10 +80,10 @@ public class BoostActiveLayout : MonoBehaviour {
 		GameObject sliderGameObject  = Instantiate (sliderPrototype, 
 		                                            new Vector3(0, 0, 0),
 		                                            Quaternion.identity) as GameObject;
-		
-		sliderGameObject.transform.SetParent (gameObject.transform);
-
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();		
+
+
+		sliderGameObject.transform.SetParent (gameObject.transform, false);
 	}
 
 	void RefreshSlider() {
@@ -90,13 +91,16 @@ public class BoostActiveLayout : MonoBehaviour {
 			BoostButtonLayout bbl = gameObject.GetComponent<BoostButtonLayout>();
 			
 			sliderInstance.gameObject.SetActive (true);
-			// Position slider  top of the corresponding button.
-			BoostButton bb = bbl.GetButtonForBoost(boostConfig.activeBoost);
-			RectTransform sliderInstanceRectTransform = sliderInstance.gameObject.GetComponent<RectTransform>();
-			RectTransform buttonRectTransform = bb.gameObject.GetComponent<RectTransform>();
-			sliderInstanceRectTransform.anchoredPosition3D = buttonRectTransform.anchoredPosition3D;
 
+			BoostButton bb = bbl.GetButtonForBoost(boostConfig.activeBoost);
+
+			RectTransform buttonRectTransform = bb.gameObject.GetComponent<RectTransform>();
 			sliderInstance.gameObject.transform.SetAsLastSibling ();
+
+			RectTransform sliderInstanceRectTransform = sliderInstance.gameObject.GetComponent<RectTransform>();
+			sliderInstanceRectTransform.anchoredPosition3D = buttonRectTransform.anchoredPosition3D;
+			sliderInstanceRectTransform.localScale = new Vector3(1f, 1f, 1f);
+			sliderInstanceRectTransform.rotation = Quaternion.identity;
 		} else {
 			sliderInstance.gameObject.SetActive (false);
 		}

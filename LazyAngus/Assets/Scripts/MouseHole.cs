@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class MouseHole : MonoBehaviour {
 	public int maxSavedMice = 5;
+	public Vector3 progressBarOffset;
 
 	public enum MouseHoleLocation {
 		NORTH = 0,
@@ -25,6 +26,8 @@ public class MouseHole : MonoBehaviour {
 	private ThrobForEffect throbForEffect;
 	private TweakableSlider tweakableSlider;
 
+	public GameObject trackingStatusBarPrototype;
+
 	// Use this for initialization
 	void Start () {
 		savedMouseCount = 0;
@@ -36,18 +39,15 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	void MakeSlider() {
-		GameObject sliderGameObject = Utilities.FindChildWithTag(gameObject, 
-		                                                         "TrackingProgressBar");
-		
-		UIFollower uiFollower = sliderGameObject.GetComponent<UIFollower> ();
-		uiFollower.parentTransform = gameObject.transform;
+		GameObject sliderGameObject = Instantiate (trackingStatusBarPrototype, 
+		                                           new Vector3 (0, 0, 0),
+		                                           Quaternion.identity) as GameObject;
+		WorldObjectFollower woFollower = sliderGameObject.GetComponent<WorldObjectFollower> ();
+		woFollower.SetObjectToFollow (gameObject, progressBarOffset);
 
-		GameObject canvas = Utilities.GetCanvasGameObject ();
-		sliderGameObject.transform.SetParent (canvas.transform);
-		
-		sliderInstance = sliderGameObject.GetComponent<Slider> ();
-		
+		sliderInstance = sliderGameObject.GetComponent<Slider> ();		
 		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
+
 	}
 	
 	void DoSavedMouseFX() {

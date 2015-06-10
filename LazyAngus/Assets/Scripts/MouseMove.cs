@@ -46,11 +46,14 @@ public class MouseMove : MonoBehaviour {
 	
 	public Material altMaterial01;
 	public Material altMaterial02;
+
+	public GameObject trackingStatusBarPrototype;
 	/*
 	 * End anger section.
 	 */
 
 	public static int numTracks = 3;
+	public Vector3 progressBarOffset;
 
 	private bool isClockwise;
 
@@ -79,6 +82,8 @@ public class MouseMove : MonoBehaviour {
 		phase = MovementPhaseType.ENTERING_PHASE;
 		mouseRadius = startMouseRadius; 
 		activeMouseCount += 1;
+
+		SetActualSpeed ();
 
 		MakeSlider ();
 
@@ -119,18 +124,15 @@ public class MouseMove : MonoBehaviour {
 	}
 
 	void MakeSlider() {
-		GameObject sliderGameObject = Utilities.FindChildWithTag(gameObject, 
-		                                                         "TrackingProgressBar");
-
-		UIFollower uiFollower = sliderGameObject.GetComponent<UIFollower> ();
-		uiFollower.parentTransform = gameObject.transform;
-
-		GameObject canvas = Utilities.GetCanvasGameObject ();
-		sliderGameObject.transform.SetParent (canvas.transform);
+		GameObject sliderGameObject = Instantiate (trackingStatusBarPrototype, 
+		                                           new Vector3 (0, 0, 0),
+		                                           Quaternion.identity) as GameObject;
+		WorldObjectFollower woFollower = sliderGameObject.GetComponent<WorldObjectFollower> ();
+		woFollower.SetObjectToFollow (gameObject, progressBarOffset);
 
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();
-
 		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
+		sliderInstance.gameObject.SetActive (false);
 	}
 
 
@@ -188,6 +190,7 @@ public class MouseMove : MonoBehaviour {
 			if (mouseRadius <= circlingRadius) {
 				mouseRadius = circlingRadius;  
 				phase = MovementPhaseType.RUNNING_PHASE;
+				sliderInstance.gameObject.SetActive (true);
 			}
 			break;
 		case MovementPhaseType.RUNNING_PHASE: {
@@ -261,7 +264,6 @@ public class MouseMove : MonoBehaviour {
 			baseSpeedM = (maxSpeedM + minSpeedM)/2;
 			break;
 		}
-		actualSpeedM = baseSpeedM;
 
 		int mtAsInt = (int)mouseType;
 
