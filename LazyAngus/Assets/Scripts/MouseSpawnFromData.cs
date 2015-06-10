@@ -101,7 +101,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 		for (int i = 0; i < listOfTypes.Count; i++) {
 			ExplicitMouseDesc emd;
 			emd.mouseType = (MouseMove.MouseType)listOfTypes [i];
-			emd.isClockwise = (Random.Range (0, 1) != 0);
+			emd.isClockwise = (Random.Range (0, 2) != 0);
 
 			emd.mouseHoleLocation = MouseHole.GetRandomHoleLocation();
 

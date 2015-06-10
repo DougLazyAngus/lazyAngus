@@ -60,6 +60,7 @@ public class BoostButtonLayout : MonoBehaviour {
 		playerStats.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
 
 		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+		gameController.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 
@@ -70,7 +71,10 @@ public class BoostButtonLayout : MonoBehaviour {
 		if (registeredForEvents) {
 			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
+
 			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			gameController.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);
+
 			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
@@ -85,7 +89,11 @@ public class BoostButtonLayout : MonoBehaviour {
 	void OnGameLevelChanged() {
 		boostButtonsDirty = true;
 	}
-
+	
+	void OnGamePhaseChanged() {
+		boostButtonsDirty = true;
+	}
+	
 	void OnBoostsChanged() {
 		boostButtonsDirty = true;
 	}

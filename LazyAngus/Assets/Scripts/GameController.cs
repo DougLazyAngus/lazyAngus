@@ -22,7 +22,6 @@ public class GameController : MonoBehaviour {
 	public float maxSpawnWait = 1.0f;
 	public MouseHole[] mouseHoles;
 	
-	private PlayerController playerController;
 	private MouseSpawnFromData mouseSpawnFromData;
 
 	public GameObject welcomeUIGameObject;
@@ -30,14 +29,15 @@ public class GameController : MonoBehaviour {
 	public GameObject levelPlayUIGameObject;
 	public GameObject gameOverUIGameObject;
 
-	private int gameLevel;
 	public delegate void GameLevelChangedEventHandler();
 	public event GameLevelChangedEventHandler GameLevelChanged;
 
+	public delegate void GamePhaseChangedEventHandler();
+	public event GamePhaseChangedEventHandler GamePhaseChanged;
 
-	private int UserInteractionsLayerBitmask = (1 << 9);
+	public int gameLevel { get; private set; }
+	public GamePhaseType gamePhase  { get; private set; }
 
-	private GamePhaseType gamePhase;
 	private GamePhaseType pendingPhase;
 	private float pendingPhaseTimeout;
 
@@ -61,7 +61,6 @@ public class GameController : MonoBehaviour {
 
 	void Start() {
 		boostConfig = BoostConfig.instance;
-		playerController = PlayerController.instance;
 		playerStats = PlayerStats.instance;
 		CrossSceneState css = CrossSceneState.instance;
 
@@ -77,54 +76,8 @@ public class GameController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY || 
-			gamePhase == GamePhaseType.GAME_PHASE_PENDING) {
-			HandleUserInput ();
-		}
-
 		if (shouldCheckForPhaseTransition) {
 			CheckForPhaseTransition ();
-		}
-	}
-
-	void HandleUserInput() {
-		if (gamePhase != GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
-			return;
-		}
-
-		RaycastHit hitPoint = default(RaycastHit);
-
-		if (CheckForClickStart(ref hitPoint)) {
-			HandleClickStart (hitPoint);
-		}
-	}
-
-	bool CheckForClickStart(ref RaycastHit hitPoint) {
-		Vector3 clickPosition;
-		
-		// Detect click and calculate touch position
-		bool clickStarted = Utilities.GetClickStarted (out clickPosition);
-
-		if (!clickStarted) {
- 			return false;
-		}  
-
-		Ray ray = Camera.main.ScreenPointToRay (clickPosition);
-
-		if (Physics.Raycast (ray, out hitPoint, 200.0f, UserInteractionsLayerBitmask)) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	void HandleClickStart(RaycastHit hitPoint) {
-		if (hitPoint.collider.tag == "CatButt") {
-			playerController.HandleTurnClickStart(hitPoint);
-		} else if (hitPoint.collider.tag == "Plane") {
-			playerController.HandleSlapClickStart(hitPoint);
-		} else {
-			Debug.Log ("Tapped something else");
 		}
 	}
 
@@ -276,10 +229,16 @@ public class GameController : MonoBehaviour {
 			gameOverUIGameObject.SetActive (true);
 			break;
 		}		
+
+		if (GamePhaseChanged != null) {
+			GamePhaseChanged ();
+		}
 	}
-	
-	public GamePhaseType GetGamePhase() {
-		return gamePhase;
+
+	public void OnMousePoisoned(MouseMove mouse) {
+		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			shouldCheckForPhaseTransition = true;
+		}
 	}
 
     public void OnMouseExit(MouseMove mouse) {
@@ -293,10 +252,6 @@ public class GameController : MonoBehaviour {
 			playerStats.IncrementScore (1);
 			shouldCheckForPhaseTransition = true;
 		}
-	}
-
-	public int GetGameLevel() {
-		return gameLevel;
 	}
 
 	public void DebugSetGameLevel(int gameLevel) {

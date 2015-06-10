@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour {
 
 	void UpdateDrag() {
 		Vector3 clickPositionScreen;
-		bool isClicked = Utilities.GetClickPosition (out clickPositionScreen);
+		bool isClicked = InputHandler.instance.GetWorldClickPosition (out clickPositionScreen);
 
 		if (!isClicked) {
 			bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
@@ -100,23 +100,28 @@ public class PlayerController : MonoBehaviour {
 	public void	HandleSlapClickStart(RaycastHit hitPoint) {
 
 		Vector3 swipeLocationCat = transform.InverseTransformPoint (hitPoint.point);
-		float angle = Utilities.GetYAngle (swipeLocationCat);
 
+		// If outside of reach radius, ignore altogether.
+		if (swipeLocationCat.magnitude > tweakableParams.swipeRadius) {
+			return;
+		}
+
+		// Is this a slap for right paw, left paw, or neither?
+		float angle = Utilities.GetYAngle (swipeLocationCat);
 		GameObject paw = null;
-		if (swipeLocationCat.magnitude <= tweakableParams.swipeRadius) {
-			if (angle >= 0 && 
-				angle <= coneOfView.actualAngleRange / 2) {
-				paw = rightPawGameObject;
-			} else if (angle < 0 && 
-			           angle >= -coneOfView.actualAngleRange / 2) {
-				paw = leftPawGameObject;
-			}
+		if (angle >= 0 && 
+			angle <= coneOfView.actualAngleRange / 2) {
+			paw = rightPawGameObject;
+		} else if (angle < 0 && 
+		           angle >= -coneOfView.actualAngleRange / 2) {
+			paw = leftPawGameObject;
 		}
 
 		if (paw) {
+			// If for a paw, do the slap.
 			paw.GetComponent<PawController> ().Swipe (swipeLocationCat);
 		} else {
-			// Turn to face this location.
+			// Otherwise start turning to face this location.
 			currentTurnAngleDegrees = transform.rotation.eulerAngles.y;
 			targetTurnAngleDegrees = angle + currentTurnAngleDegrees;
 			bodyMovement = BodyMovementType.BODY_MOVEMENT_TURNING;

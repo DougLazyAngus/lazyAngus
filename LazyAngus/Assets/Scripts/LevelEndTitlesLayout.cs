@@ -79,8 +79,7 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	}
 
 	void UpdateLevelText() {
-		int gameLevel = gameController.GetGameLevel ();
-		readyText.text = "Prepare for Wave " + gameLevel + "!!!";
+		readyText.text = "Prepare for Wave " + gameController.gameLevel + "!!!";
 	}
 
 	void OnGameLevelChanged() {

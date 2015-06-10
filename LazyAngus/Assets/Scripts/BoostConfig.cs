@@ -16,6 +16,7 @@ public class BoostConfig : MonoBehaviour {
 
 	private PlayerStats playerStats;
 	private TweakableParams tweakableParams;
+	private GameController gameController;
 	
 	public delegate void BoostActiveEventHandler();
 	public event BoostActiveEventHandler BoostActive;
@@ -38,6 +39,7 @@ public class BoostConfig : MonoBehaviour {
 	void Start () {
 		playerStats = PlayerStats.instance;
 		tweakableParams = TweakableParams.instance;
+		gameController = GameController.instance;
 	}
 	
 	// Update is called once per frame
@@ -107,8 +109,14 @@ public class BoostConfig : MonoBehaviour {
 		if (activeBoost != BoostType.NUM_TYPES) {
 			return;
 		}
+
 		// If you're trying to 'execute' null type, ignore.
 		if (bType == BoostType.NUM_TYPES) {
+			return;
+		}
+
+		// If we're not in play mode, no dice.
+		if (gameController.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
 			return;
 		}
 

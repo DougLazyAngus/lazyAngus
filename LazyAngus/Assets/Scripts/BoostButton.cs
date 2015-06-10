@@ -70,7 +70,7 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(true);
 
 		int levelLock = boostConfig.GetLevelLock (boostType);
-		int gameLevel = gameController.GetGameLevel ();
+		int gameLevel = gameController.gameLevel;
 
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
@@ -92,7 +92,9 @@ public class BoostButton : MonoBehaviour {
 			button.gameObject.SetActive (true);
 			countText.gameObject.SetActive (true);
 			countText.text = "x " + playerStats.GetAvailableBoostCount(boostType);
-			button.interactable = !boostConfig.IsBoostActive();
+
+			button.interactable = (!boostConfig.IsBoostActive() && 
+			                       gameController.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		} else {
 			button.gameObject.SetActive (false);
 			countText.gameObject.SetActive (false);

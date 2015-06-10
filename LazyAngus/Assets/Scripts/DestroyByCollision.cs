@@ -15,6 +15,5 @@ public class DestroyByCollision : MonoBehaviour {
 		mouseMove.OnKilled ();
 		pawController.CountKill (mouseMove);
 		GameController.instance.OnMouseKilled (mouseMove);
-
 	}
 }

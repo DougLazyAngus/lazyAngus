@@ -264,6 +264,7 @@ public class MouseMove : MonoBehaviour {
 
 	private void DieFromPoison() {
 		this.OnKilled ();
+		GameController.instance.OnMousePoisoned (this);
 	}
 
 	//------------------------------------------
