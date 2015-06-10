@@ -54,6 +54,10 @@ public class MouseHole : MonoBehaviour {
 		distortForEffect.Distort ();
 	}
 
+	void DoClearedHoleFX() {
+		distortForEffect.Distort ();
+	}
+	
 	public void DoDoomedBoxFX() {
 		distortForEffect.Cancel ();
 		throbForEffect.SetThrobbing (true);
@@ -74,6 +78,15 @@ public class MouseHole : MonoBehaviour {
 		sliderInstance.value = fractionFinished;
 		tweakableSlider.fill.color =
 			Utilities.TrafficLightColorLerp ((float)savedMouseCount / (float)(maxSavedMice - 1));
+	}
+
+	public void ClearMice() {
+		if (savedMouseCount == 0) {
+			return;
+		}
+		savedMouseCount = 0;
+		UpdateSlider ();
+		DoClearedHoleFX ();
 	}
 
 	public void SaveMouse(MouseMove mouse) {

@@ -120,7 +120,7 @@ public class BoostButtonLayout : MonoBehaviour {
 		float canvasWidth = containingCanvas.pixelRect.width / containingCanvas.scaleFactor; 
 
 		float totalButtonWidth = 0f;
-		bool first = true;
+
 		foreach (BoostButton pbb in boostButtons) {
 			totalButtonWidth += pbb.GetWidth();
 		}
@@ -130,8 +130,6 @@ public class BoostButtonLayout : MonoBehaviour {
 
 		float leftEdge = -canvasWidth / 2;
 		float buttonXOffset;
-
-		first = true;
 
 		foreach (BoostButton pbb in boostButtons) {
 			leftEdge += margin;

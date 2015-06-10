@@ -63,7 +63,7 @@ public class PawController : MonoBehaviour {
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		}
 	}
 

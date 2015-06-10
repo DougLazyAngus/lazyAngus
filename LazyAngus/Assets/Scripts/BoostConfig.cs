@@ -5,7 +5,7 @@ public class BoostConfig : MonoBehaviour {
 	public enum BoostType {
 		BOOST_TYPE_FREEZE = 0,
 		BOOST_TYPE_ENERGY,
-		BOOST_TYPE_BOMB,
+		BOOST_TYPE_POISON,
 		
 		NUM_TYPES,
 	};
@@ -53,7 +53,7 @@ public class BoostConfig : MonoBehaviour {
 			return freezeSprite;
 		case BoostType.BOOST_TYPE_ENERGY:
 			return energySprite;
-		case BoostType.BOOST_TYPE_BOMB:
+		case BoostType.BOOST_TYPE_POISON:
 			return bombSprite;
 		default:
 			return null;
@@ -66,7 +66,7 @@ public class BoostConfig : MonoBehaviour {
 			return "Freeze Time";
 		case BoostType.BOOST_TYPE_ENERGY:
 			return "Fast Paws";
-		case BoostType.BOOST_TYPE_BOMB:
+		case BoostType.BOOST_TYPE_POISON:
 			return "Poison";
 		default:
 			return null;
@@ -87,7 +87,7 @@ public class BoostConfig : MonoBehaviour {
 			return 1;
 		case BoostType.BOOST_TYPE_ENERGY:
 			return 4;
-		case BoostType.BOOST_TYPE_BOMB:
+		case BoostType.BOOST_TYPE_POISON:
 			return 9;
 		default:
 			return 1000;
@@ -117,7 +117,7 @@ public class BoostConfig : MonoBehaviour {
 
 		float pauseTime = 0;
 		switch (bType) {
-		case BoostType.BOOST_TYPE_BOMB:
+		case BoostType.BOOST_TYPE_POISON:
 			pauseTime = tweakableParams.bombBoostTime;
 			break;
 		case BoostType.BOOST_TYPE_ENERGY:

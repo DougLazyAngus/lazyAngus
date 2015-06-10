@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SaveMouseOnCollision : MonoBehaviour {
+public class OnMouseEntersHole : MonoBehaviour {
 	public MouseHole mouseHole;
 
 	// Use this for initialization
@@ -26,6 +26,11 @@ public class SaveMouseOnCollision : MonoBehaviour {
 			return;
 		}
 
-		mouseHole.SaveMouse(mouseMove);
+		if (mouseMove.isPoisoned) {
+			mouseHole.ClearMice();
+			mouseMove.OnKilled ();
+		} else {
+			mouseHole.SaveMouse (mouseMove);
+		}
 	}
 }

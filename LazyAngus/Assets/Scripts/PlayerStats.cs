@@ -2,11 +2,7 @@
 using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
-
-	public int[] debugInitialBoosts;
-
-	public int debugInitialTreatCount = 10;
-
+	
 	private int gameScore;
 	private int treatCount;
 
@@ -28,11 +24,7 @@ public class PlayerStats : MonoBehaviour {
 		instance = this;
 
 		gameScore = 0;
-		if (DebugConfig.instance.isDebug) {
-			treatCount = debugInitialTreatCount;
-		} else {
-			treatCount = 0;
-		}		
+		treatCount = 0;
 
 		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
@@ -40,11 +32,10 @@ public class PlayerStats : MonoBehaviour {
 			availableBoostCount [i] = purchasedBoostCount [i] = 0;
 		}
 
-		if (DebugConfig.instance.isDebug && 
-		    debugInitialBoosts != null
-		    && debugInitialBoosts.Length == (int)BoostConfig.BoostType.NUM_TYPES) {
+		if (DebugConfig.instance.isDebug) {
+			treatCount = DebugConfig.instance.initialMoney;
 			for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
-				availableBoostCount [i] = debugInitialBoosts[i];
+				availableBoostCount [i] = DebugConfig.instance.initialBoosts;
 			}
 		}
 	}

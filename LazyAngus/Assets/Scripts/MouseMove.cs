@@ -30,7 +30,7 @@ public class MouseMove : MonoBehaviour {
 
 	private float baseSpeedM;
 	private float actualSpeedM;
-
+	
 	public GameObject[] mouseBalls;
 
 	/*
@@ -44,8 +44,8 @@ public class MouseMove : MonoBehaviour {
 	public float minSpeedM = 1.4f;
 	public float maxSpeedM = 2.6f;
 	
-	public Material altMaterial01;
-	public Material altMaterial02;
+	public Material[] baseMaterials;
+	public Material[] poisonMaterials;
 
 	public GameObject trackingStatusBarPrototype;
 	/*
@@ -66,6 +66,8 @@ public class MouseMove : MonoBehaviour {
 	TweakableParams tweakableParams;
 	BoostConfig boostConfig;
 
+	public bool isPoisoned { get; private set;}
+
 	public static MouseType GetRandomMouseType () {
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
 	}
@@ -83,7 +85,8 @@ public class MouseMove : MonoBehaviour {
 		mouseRadius = startMouseRadius; 
 		activeMouseCount += 1;
 
-		SetActualSpeed ();
+		UpdateSpeed ();
+		UpdatePoisonedState ();
 
 		MakeSlider ();
 
@@ -106,20 +109,41 @@ public class MouseMove : MonoBehaviour {
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		}
 	}
 
 
 	void OnBoostActivationChanged () {
-		SetActualSpeed ();
+		UpdateSpeed ();
+		UpdatePoisonedState ();
 	}
 
-	void SetActualSpeed () {
+	void UpdateSpeed () {
 		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FREEZE) {
 			actualSpeedM = baseSpeedM * tweakableParams.freezeBoostMouseSpeedMultipler;
 		} else {
 			actualSpeedM = baseSpeedM;
+		}
+	}
+
+	void UpdatePoisonedState() {
+		Material material;
+		int index = (int)mouseType;
+
+		bool wasPoisoned = isPoisoned;
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_POISON) {
+			material = poisonMaterials[index];
+			isPoisoned = true;
+		} else {
+			isPoisoned = false;
+			material = baseMaterials[index];
+		}
+
+		if (!isPoisoned && wasPoisoned) {
+			DieFromPoison();
+		} else {
+			SetMaterial (material);
 		}
 	}
 
@@ -227,19 +251,28 @@ public class MouseMove : MonoBehaviour {
 		PositionMouse ();
 	}
 	
-	void SetAltMaterial(Material material) {
+	void SetMaterial(Material material) {
 		for (int i = 0; i < mouseBalls.Length; i++) {
 			GameObject mouseBall = mouseBalls [i];
-			mouseBall.GetComponent<Renderer> ().material = material;
+			Renderer r = mouseBall.GetComponent<Renderer>();
+			if (r) {
+				r.material = material;
+			}
 		}
 	}
 	
-		
+
+	private void DieFromPoison() {
+		this.OnKilled ();
+	}
+
 	//------------------------------------------
 	// 
 	// Public functions
 	//
 	//------------------------------------------
+
+
 	public void OnKilled() {
 		Object.Destroy (this.gameObject);
 	}
@@ -254,13 +287,11 @@ public class MouseMove : MonoBehaviour {
 		switch (mouseType) {
 		case MouseType.MOUSE_TYPE_FAST:
 			baseSpeedM = maxSpeedM;
-			SetAltMaterial(altMaterial02);
 			break;
 		case MouseType.MOUSE_TYPE_SLOW:
 			baseSpeedM = minSpeedM;
 			break;
 		case MouseType.MOUSE_TYPE_MEDIUM:
-			SetAltMaterial(altMaterial01);
 			baseSpeedM = (maxSpeedM + minSpeedM)/2;
 			break;
 		}
