@@ -2,11 +2,20 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
+	enum BodyMovementType {
+		BODY_MOVEMENT_STILL = 0,
+		BODY_MOVEMENT_TURNING,
+		BODY_MOVEMENT_DRAGGING,
+	};
+
 	public GameObject rightPawGameObject;
 	public GameObject leftPawGameObject;
 	public GameObject coneOfViewGameObject;
+	
+	private BodyMovementType bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 
-	private bool dragging = false;
+	private float targetTurnAngleDegrees;
+	private float currentTurnAngleDegrees;
 
 	// When I start dragging on cat butt, dragAnchor = cat coords of touched
 	// point on butt.  Flatten y value to 0.
@@ -32,22 +41,45 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (dragging) {
+		switch (bodyMovement) {
+		case BodyMovementType.BODY_MOVEMENT_DRAGGING:
 			UpdateDrag ();
+			break;
+		case BodyMovementType.BODY_MOVEMENT_TURNING:
+			UpdateTurn ();
+			break;
 		}
+	}
+
+	void UpdateTurn() {
+		if (currentTurnAngleDegrees < targetTurnAngleDegrees) {
+			currentTurnAngleDegrees += TweakableParams.instance.turnVelocityDegrees * Time.deltaTime;
+			if (currentTurnAngleDegrees > targetTurnAngleDegrees) {
+				currentTurnAngleDegrees = targetTurnAngleDegrees;
+				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+			}
+		} else {
+			currentTurnAngleDegrees -= TweakableParams.instance.turnVelocityDegrees * Time.deltaTime;
+			if (currentTurnAngleDegrees < targetTurnAngleDegrees) {
+				currentTurnAngleDegrees = targetTurnAngleDegrees;
+				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+			}
+		}
+		transform.rotation = Quaternion.Euler (0, currentTurnAngleDegrees, 0);
+
 	}
 
 	void UpdateDrag() {
 		Vector3 clickPositionScreen;
 		bool isClicked = Utilities.GetClickPosition (out clickPositionScreen);
+
 		if (!isClicked) {
-			dragging = false;
+			bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 			return;
 		}
 
 		Vector3 clickPositionWorld = Camera.main.ScreenToWorldPoint (clickPositionScreen);
 		Vector3 clickPositionCat = transform.InverseTransformPoint (clickPositionWorld);
-
 
 		float clickAngleCat = Utilities.GetYAngle (clickPositionCat);
 
@@ -55,7 +87,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void HandleTurnClickStart(RaycastHit hitPoint) {
-		dragging = true;
+		bodyMovement = BodyMovementType.BODY_MOVEMENT_DRAGGING;
 
 		dragAnchorCat = transform.InverseTransformPoint(hitPoint.point);
 		dragAnchorCat.y = 0.0f;
@@ -68,7 +100,6 @@ public class PlayerController : MonoBehaviour {
 	public void	HandleSlapClickStart(RaycastHit hitPoint) {
 
 		Vector3 swipeLocationCat = transform.InverseTransformPoint (hitPoint.point);
-
 		float angle = Utilities.GetYAngle (swipeLocationCat);
 
 		GameObject paw = null;
@@ -83,13 +114,21 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (paw) {
-			paw.GetComponent<PawController>().Swipe (swipeLocationCat);
+			paw.GetComponent<PawController> ().Swipe (swipeLocationCat);
+		} else {
+			// Turn to face this location.
+			currentTurnAngleDegrees = transform.rotation.eulerAngles.y;
+			targetTurnAngleDegrees = angle + currentTurnAngleDegrees;
+			bodyMovement = BodyMovementType.BODY_MOVEMENT_TURNING;
+
+			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
+			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 		}
 	}
 
 	void OnApplicationFocus(bool focusStatus) {
 		if (!focusStatus) {
-			dragging = false;
+			bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 		}
 	}
 		

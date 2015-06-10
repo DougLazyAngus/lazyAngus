@@ -11,7 +11,7 @@ public class TweakableParams : MonoBehaviour {
 	public float energyBoostSwipeSpeedMultiplier = 3.0f;
 	public float energyBoostAngleMultiplier = 1.3333f;
 
-	public float bombBoostTime = 1f;
+	public float poisonBoostTime = 1f;
 	
 	// Player swipe params.
 	public float baseSwipeSpeed = 7.0f;	
@@ -22,6 +22,8 @@ public class TweakableParams : MonoBehaviour {
 	// Player view params.
 	public float baseSwipeAngleRange = 90.0f;
 
+	// Player Turn params
+	public float turnVelocityDegrees = 180f;
 
 	public static TweakableParams instance { get; private set; }
 	

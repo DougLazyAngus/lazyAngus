@@ -118,7 +118,7 @@ public class BoostConfig : MonoBehaviour {
 		float pauseTime = 0;
 		switch (bType) {
 		case BoostType.BOOST_TYPE_POISON:
-			pauseTime = tweakableParams.bombBoostTime;
+			pauseTime = tweakableParams.poisonBoostTime;
 			break;
 		case BoostType.BOOST_TYPE_ENERGY:
 			pauseTime = tweakableParams.energyBoostTime;
