@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour {
 				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 			}
 		}
-		transform.rotation = Quaternion.Euler (0, currentTurnAngleDegrees, 0);
+		transform.rotation = Quaternion.Euler (0, 0, currentTurnAngleDegrees);
 
 	}
 
@@ -81,17 +81,17 @@ public class PlayerController : MonoBehaviour {
 		Vector3 clickPositionWorld = Camera.main.ScreenToWorldPoint (clickPositionScreen);
 		Vector3 clickPositionCat = transform.InverseTransformPoint (clickPositionWorld);
 
-		float clickAngleCat = Utilities.GetYAngle (clickPositionCat);
+		float clickAngleCat = Utilities.GetZAngle (clickPositionCat);
 
-		transform.Rotate (new Vector3(0.0f, clickAngleCat - dragAnchorAngleCat, 0.0f));
+		transform.Rotate (new Vector3(0.0f, 0.0f, clickAngleCat - dragAnchorAngleCat));
 	}
 
-	public void HandleTurnClickStart(RaycastHit hitPoint) {
+	public void HandleDragClickStart(RaycastHit hitPoint) {
 		bodyMovement = BodyMovementType.BODY_MOVEMENT_DRAGGING;
 
 		dragAnchorCat = transform.InverseTransformPoint(hitPoint.point);
-		dragAnchorCat.y = 0.0f;
-		dragAnchorAngleCat = Utilities.GetYAngle (dragAnchorCat);
+		dragAnchorCat.z = 0.0f;
+		dragAnchorAngleCat = Utilities.GetZAngle (dragAnchorCat);
 
 		rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 		leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
@@ -107,14 +107,14 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		// Is this a slap for right paw, left paw, or neither?
-		float angle = Utilities.GetYAngle (swipeLocationCat);
+		float angle = Utilities.GetZAngle (swipeLocationCat);
 		GameObject paw = null;
 		if (angle >= 0 && 
 			angle <= coneOfView.actualAngleRange / 2) {
-			paw = rightPawGameObject;
+			paw = leftPawGameObject;
 		} else if (angle < 0 && 
 		           angle >= -coneOfView.actualAngleRange / 2) {
-			paw = leftPawGameObject;
+			paw = rightPawGameObject;
 		}
 
 		if (paw) {
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour {
 			paw.GetComponent<PawController> ().Swipe (swipeLocationCat);
 		} else {
 			// Otherwise start turning to face this location.
-			currentTurnAngleDegrees = transform.rotation.eulerAngles.y;
+			currentTurnAngleDegrees = transform.rotation.eulerAngles.z;
 			targetTurnAngleDegrees = angle + currentTurnAngleDegrees;
 			bodyMovement = BodyMovementType.BODY_MOVEMENT_TURNING;
 
@@ -133,7 +133,9 @@ public class PlayerController : MonoBehaviour {
 
 	void OnApplicationFocus(bool focusStatus) {
 		if (!focusStatus) {
-			bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+			if (!DebugConfig.instance.isDebug) {
+				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+			}
 		}
 	}
 		

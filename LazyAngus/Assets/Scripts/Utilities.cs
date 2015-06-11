@@ -15,10 +15,10 @@ using System.Linq;
 
 public class Utilities
 {
-	public static float GetYAngle(Vector3 vector) {
-		vector.y = 0;
-		float angle = Vector3.Angle (Vector3.forward, vector);
-		if (vector.x < 0) {
+	public static float GetZAngle(Vector3 vector) {
+		vector.z = 0;
+		float angle = Vector3.Angle (Vector3.right, vector);
+		if (vector.y < 0) {
 			return -angle;
 		} else {
 			return angle;

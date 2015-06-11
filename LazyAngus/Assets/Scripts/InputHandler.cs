@@ -73,8 +73,10 @@ public class InputHandler : MonoBehaviour {
 	
 	void HandleClickStart(RaycastHit hitPoint) {
 		if (hitPoint.collider.tag == "CatButt") {
-			playerController.HandleTurnClickStart(hitPoint);
+			Debug.Log ("clicked CatButt");
+			playerController.HandleDragClickStart(hitPoint);
 		} else if (hitPoint.collider.tag == "Plane") {
+			Debug.Log ("clicked Plane");
 			playerController.HandleSlapClickStart(hitPoint);
 		}
 	}

@@ -163,8 +163,8 @@ public class MouseMove : MonoBehaviour {
 
 
 	void PositionMouse() {
-		float x = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngleDeg);
-		float z = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngleDeg);
+		float y = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngleDeg);
+		float x = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngleDeg);
 
 		float finalAngleDeg = mouseAngleDeg;
 		float adjustmentDeg = 0.0f;
@@ -181,8 +181,8 @@ public class MouseMove : MonoBehaviour {
 
 		finalAngleDeg += adjustmentDeg;
 
-		transform.rotation = Quaternion.Euler (0.0f, finalAngleDeg, 0.0f);
-		transform.position = new Vector3 (x, 0.0f, z);
+		transform.rotation = Quaternion.Euler (0.0f, 0.0f, finalAngleDeg);
+		transform.position = new Vector3 (x, y, 0);
 	
 		UpdateSlider ();
 	}

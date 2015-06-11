@@ -72,16 +72,16 @@ public class ConeOfViewRenderer : MonoBehaviour {
 		float angle;
 		for (int i = 0; i < numTriangles + 1; i++) {
 			angle = -angleRange / 2 + i * angleIncrementDeg;
-			vertices [i + 1].x = Mathf.Sin (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
-			vertices [i + 1].z = Mathf.Cos (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
-			vertices [i + 1].y = 0f;
+			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
+			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
+			vertices [i + 1].z = 0f;
 		}
 
 		int [] triangles = new int[numTriangles * 3];
 		for (int i = 0; i < numTriangles; i++) {
 			triangles [i * 3] = 0;
-			triangles [i * 3 + 1] = i + 1;
-			triangles [i * 3 + 2] = i + 2;
+			triangles [i * 3 + 1] = i + 2;
+			triangles [i * 3 + 2] = i + 1;
 		}
 			
 		viewMesh.vertices = vertices;
