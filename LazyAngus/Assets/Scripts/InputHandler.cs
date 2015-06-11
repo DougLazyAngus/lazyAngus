@@ -76,8 +76,6 @@ public class InputHandler : MonoBehaviour {
 			playerController.HandleTurnClickStart(hitPoint);
 		} else if (hitPoint.collider.tag == "Plane") {
 			playerController.HandleSlapClickStart(hitPoint);
-		} else {
-			Debug.Log ("Tapped something else");
 		}
 	}
 
