@@ -41,7 +41,7 @@ public class QuasiRandomGenerator<T>
 		return retval;
 	}
 
-	private void RefreshValues() {
+	public void RefreshValues() {
 		values = RandomizeDistrubiton ();
 	}
 }

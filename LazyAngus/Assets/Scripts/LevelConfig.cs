@@ -4,21 +4,26 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class LevelConfig : MonoBehaviour {
-	public float paradeWavePause = 4f;
-	public float distWavePause = 2f;
-	public float spoutWavePause = 3f;
 
 	public float paradePause = 0.1f;
+	public int minParadeMice = 2;
+	public int maxParadeMice = 4;
+	public float paradeEndPause = 4f;
 
-	public int minDistributedWaveMice = 3;
-	public int maxDistributedWaveMice = 7;
+	public int minDistributedMice = 3;
+	public int maxDistributedMice = 7;
+	public float[] distributedPauseDist;
+	public float distributedEndPause = 2f;
 
 	public float minSpoutPause = 0.2f;
 	public float maxSpoutPause = 1.1f;
+	public float spoutEndPause = 3f;
 
 	public int minSpoutMice = 6;
 	public int maxSpoutMice = 10;
-	
+
+	public int superSpeedMiceLevel = 7;
+
 	private QuasiRandomGenerator<MouseHole.MouseHoleLocation> mouseHoleGenerator;
 	private QuasiRandomGenerator<int> trackGenerator;
 	
@@ -118,14 +123,38 @@ public class LevelConfig : MonoBehaviour {
 	}
 	
 	MouseMove.MouseType[] GetMouseDistributionForLevel(int gameLevel) {
-		return new MouseMove.MouseType[] {
-			MouseMove.MouseType.MOUSE_TYPE_FAST,
-			MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-			MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-			MouseMove.MouseType.MOUSE_TYPE_SLOW,
-			MouseMove.MouseType.MOUSE_TYPE_SLOW,
-			MouseMove.MouseType.MOUSE_TYPE_SLOW,
-		};
+		if (gameLevel < superSpeedMiceLevel) {
+			return new MouseMove.MouseType[] {
+				MouseMove.MouseType.MOUSE_TYPE_FAST,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+			};
+		} else {
+			return new MouseMove.MouseType[] {
+				MouseMove.MouseType.MOUSE_TYPE_SUPERFAST,
+				MouseMove.MouseType.MOUSE_TYPE_FAST,
+				MouseMove.MouseType.MOUSE_TYPE_FAST,
+				MouseMove.MouseType.MOUSE_TYPE_FAST,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+			};
+		}
 	}
 	
 	List<WaveType> GetWaveTypesForLevel(int gameLevel) {
@@ -157,8 +186,8 @@ public class LevelConfig : MonoBehaviour {
 	List<ExplicitMouseDesc> GenerateDistributedWaveForLevel (QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator,
 	                                                         int gameLevel) {
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
-		int count = Random.Range (minDistributedWaveMice, 
-		                          maxDistributedWaveMice + 1);
+		int count = Random.Range (minDistributedMice, 
+		                          maxDistributedMice + 1);
 
 		for (int i = 0; i < count; i++) {
 			float pause = distributedPauseGenerator.GetNextValue ();
@@ -168,7 +197,7 @@ public class LevelConfig : MonoBehaviour {
 			int track = trackGenerator.GetNextValue ();
 
 			if (i == count-1) {
-				pause = distWavePause;
+				pause = distributedEndPause;
 			}
 
 			AddMouse (ref retVal, 
@@ -187,16 +216,17 @@ public class LevelConfig : MonoBehaviour {
 
 		bool isClockwise = (Random.Range (0, 2) == 0);
 
-		List<MouseHole.MouseHoleLocation> locs = mouseHoleGenerator.RandomizeDistrubiton ();
+		mouseHoleGenerator.RefreshValues ();
+		int count = Random.Range (minParadeMice, maxParadeMice + 1);
 
-		foreach (MouseHole.MouseHoleLocation location in locs) {
-
+		for (int i = 0; i < count; i++) {
 			float pause = paradePause;
 			MouseMove.MouseType mType = mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
-			
-			if (retVal.Count == locs.Count-1) {
-				pause = paradeWavePause;
+			MouseHole.MouseHoleLocation location = mouseHoleGenerator.GetNextValue();
+
+			if (retVal.Count == count-1) {
+				pause = paradeEndPause;
 			}
 			
 			AddMouse (ref retVal, 
@@ -210,20 +240,22 @@ public class LevelConfig : MonoBehaviour {
 	}
 	
 	List<ExplicitMouseDesc> GenerateSpoutWaveForLevel (QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator,
-	                                                         int gameLevel) {
+	                                                   int gameLevel) {
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
 		int count = Random.Range (minSpoutMice, 
 		                          maxSpoutMice + 1);
 		
 		MouseHole.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
+		bool isClockwise = (Random.Range (0, 2) == 0);
+
 		for (int i = 0; i < count; i++) {
+
 			float pause = Random.Range (minSpoutPause, maxSpoutPause);
-			bool isClockwise = (Random.Range (0, 2) == 0);
 			MouseMove.MouseType mType = mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
 			
 			if (i == count-1) {
-				pause = spoutWavePause;
+				pause = spoutEndPause;
 			}
 			
 			AddMouse (ref retVal, 
@@ -347,15 +379,6 @@ public class LevelConfig : MonoBehaviour {
 		}
 		trackGenerator = new QuasiRandomGenerator<int> (trackDist);
 		
-		float[] distributedPauseDist = new float[] {
-			0.5f,
-			1f,
-			1f,
-			1f,
-			2f,
-			3f,
-			4f,
-		};
 		distributedPauseGenerator = new QuasiRandomGenerator<float> (distributedPauseDist);
 	}
 

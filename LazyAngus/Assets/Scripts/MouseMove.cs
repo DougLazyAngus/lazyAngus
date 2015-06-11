@@ -14,6 +14,7 @@ public class MouseMove : MonoBehaviour {
 		MOUSE_TYPE_SLOW = 0,
 		MOUSE_TYPE_MEDIUM,
 		MOUSE_TYPE_FAST,
+		MOUSE_TYPE_SUPERFAST,
 		NUM_TYPES,
 	};
 	
@@ -43,6 +44,8 @@ public class MouseMove : MonoBehaviour {
 
 	public float minSpeedM = 1.4f;
 	public float maxSpeedM = 2.6f;
+
+	public float superSpeedM = 4.0f;
 	
 	public Material[] baseMaterials;
 	public Material[] poisonMaterials;
@@ -285,6 +288,9 @@ public class MouseMove : MonoBehaviour {
 		mouseType = mt;
 		   
 		switch (mouseType) {
+		case MouseType.MOUSE_TYPE_SUPERFAST:
+			baseSpeedM = superSpeedM;
+			break;
 		case MouseType.MOUSE_TYPE_FAST:
 			baseSpeedM = maxSpeedM;
 			break;
@@ -299,7 +305,15 @@ public class MouseMove : MonoBehaviour {
 		int mtAsInt = (int)mouseType;
 
 		Vector3 scale = transform.localScale;
-		float newScale = 1.0f + 0.15f * mtAsInt;
+
+
+		float newScale;
+		if (mouseType == MouseType.MOUSE_TYPE_SUPERFAST) {
+			newScale = 1.0f;
+		} else {
+			newScale = 1.0f + 0.13f * mtAsInt;
+		}
+
 		scale *= newScale;
 		transform.localScale = scale;
 	}
@@ -323,8 +337,8 @@ public class MouseMove : MonoBehaviour {
 		
 		this.SetMouseType(mouseType);
 
-		float angleDistance = (((int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType) * 
-		                       MouseHole.angleBetweenHoles);
+		int numSections = (int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
+		float angleDistance = numSections * MouseHole.angleBetweenHoles;
 
 		if (isClockwise) {
 			endAngleDeg = startAngleDeg + angleDistance;
