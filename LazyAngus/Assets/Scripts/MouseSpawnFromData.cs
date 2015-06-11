@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class MouseSpawnFromData : MonoBehaviour {
-
-	int randomSeed;
 	public float initialSpawnDelta = 1f;
 
 	public float minRandomDelay = 0f;
@@ -63,6 +61,15 @@ public class MouseSpawnFromData : MonoBehaviour {
 		return (miceDesc.Count == 0);
 	}
 
+	public void Clear() {
+		miceDesc = new List<ExplicitMouseDesc>();
+	}
+
+	public void AddMice(List<ExplicitMouseDesc> explicitMice) {
+		miceDesc.AddRange (explicitMice);
+	}
+
+	/*
 	public void ConfigureWithData(List<ExplicitMouseDesc> explicitMice, 
 	                              int randomSeed, 
 	                              int[] miceByType,
@@ -83,6 +90,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 	}
 
+
 	List<ExplicitMouseDesc> GenerateRandomMiceDescs(int[] miceByType, 
 	                                                float[] timeRanges) {
 		Random.seed = randomSeed;
@@ -94,7 +102,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 				listOfTypes.Add (i);
 			}
 		}
-		Utilities.ShuffleList<int> (listOfTypes);
+		Utilities.ShuffleList<int> (ref listOfTypes);
 
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
 
@@ -111,4 +119,5 @@ public class MouseSpawnFromData : MonoBehaviour {
 		}
 		return retVal;
 	}
+	*/
 }

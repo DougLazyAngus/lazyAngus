@@ -115,16 +115,27 @@ public class GameController : MonoBehaviour {
 	}
 
 	void EnqueueMiceForLevel() {
+		mouseSpawnFromData.Clear ();
+
 		LevelConfig lc = LevelConfig.instance;
+
 		// A few by hand, then just programmatic.
-		List<ExplicitMouseDesc> explicitMice = lc.GetExplicitConfigForLevel (gameLevel);
+		List<ExplicitMouseDesc> explicitMice = lc.GetExplicitMiceForLevel (gameLevel);
+		mouseSpawnFromData.AddMice (explicitMice);
+
+		List<ExplicitMouseDesc> generatedMice = lc.GenerateMiceForLevel (gameLevel);
+		mouseSpawnFromData.AddMice (generatedMice);
+
+		/*
 		int[] miceByType = lc.GetMiceByTypeForLevel (gameLevel);
 		float[] timeRanges = lc.GetTimeRanges (gameLevel);
+
 
 		mouseSpawnFromData.ConfigureWithData (explicitMice,
 		                                      gameLevel, 
 		                                      miceByType, 
 		                                      timeRanges); 
+		                                      */
 	}
 
 	bool IsLegalTransition(GamePhaseType oldPhase, 

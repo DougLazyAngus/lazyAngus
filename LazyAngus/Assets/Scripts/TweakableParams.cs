@@ -24,9 +24,12 @@ public class TweakableParams : MonoBehaviour {
 
 	// Player Turn params
 	public float turnVelocityDegrees = 180f;
+	
+	// Mouse track params.
+	public int numTracks = 3;
 
 	public static TweakableParams instance { get; private set; }
-	
+
 	void Awake() {
 		instance = this;
 	}

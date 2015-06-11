@@ -47,7 +47,7 @@ public class Utilities
 		return FindComponentInAncestor<T> (parent.gameObject);
 	}
 
-	public static void ShuffleList<T>(List<T> list) {
+	public static void ShuffleList<T>(ref List<T> list) {
 		for (int i = 0; i < list.Count; i++) {
 			T temp = list [i];
 			int randomIndex = Random.Range (i, list.Count);

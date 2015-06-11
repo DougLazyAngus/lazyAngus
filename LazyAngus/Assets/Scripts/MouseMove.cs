@@ -52,7 +52,6 @@ public class MouseMove : MonoBehaviour {
 	 * End anger section.
 	 */
 
-	public static int numTracks = 3;
 	public Vector3 progressBarOffset;
 
 	private bool isClockwise;
@@ -317,7 +316,7 @@ public class MouseMove : MonoBehaviour {
 
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
 
-		float extraRadiusFraction = (float)track/(float)(numTracks - 1);
+		float extraRadiusFraction = (float)track/(float)(TweakableParams.instance.numTracks - 1);
 		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
 		
 		circlingRadius = minCirclingRadius + extraRadius;
