@@ -31,8 +31,6 @@ public class MouseMove : MonoBehaviour {
 
 	private float baseSpeedM;
 	private float actualSpeedM;
-	
-	public GameObject[] mouseBalls;
 
 	/*
 	 * These could/should all be static but I can't set them in the 
@@ -46,9 +44,14 @@ public class MouseMove : MonoBehaviour {
 	public float maxSpeedM = 2.6f;
 
 	public float superSpeedM = 4.0f;
-	
-	public Material[] baseMaterials;
-	public Material[] poisonMaterials;
+
+	public SpriteRenderer spriteRenderer;
+
+	public Sprite[] baseSprites;
+
+	public Color poisonedColor;
+
+	public bool dead { get; private set; }
 
 	public GameObject trackingStatusBarPrototype;
 	/*
@@ -78,6 +81,7 @@ public class MouseMove : MonoBehaviour {
 		registeredForEvents = false;
 		tweakableParams = TweakableParams.instance;
 		boostConfig = BoostConfig.instance;
+		dead = false;
 	}
 
 	// Use this for initialization
@@ -130,22 +134,18 @@ public class MouseMove : MonoBehaviour {
 	}
 
 	void UpdatePoisonedState() {
-		Material material;
-		int index = (int)mouseType;
-
 		bool wasPoisoned = isPoisoned;
+
 		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_POISON) {
-			material = poisonMaterials[index];
+			spriteRenderer.color = Color.green;
 			isPoisoned = true;
 		} else {
+			spriteRenderer.color = Color.white;
 			isPoisoned = false;
-			material = baseMaterials[index];
 		}
 
 		if (!isPoisoned && wasPoisoned) {
 			DieFromPoison();
-		} else {
-			SetMaterial (material);
 		}
 	}
 
@@ -252,17 +252,6 @@ public class MouseMove : MonoBehaviour {
 	
 		PositionMouse ();
 	}
-	
-	void SetMaterial(Material material) {
-		for (int i = 0; i < mouseBalls.Length; i++) {
-			GameObject mouseBall = mouseBalls [i];
-			Renderer r = mouseBall.GetComponent<Renderer>();
-			if (r) {
-				r.material = material;
-			}
-		}
-	}
-	
 
 	private void DieFromPoison() {
 		this.OnKilled ();
@@ -277,6 +266,7 @@ public class MouseMove : MonoBehaviour {
 
 
 	public void OnKilled() {
+		dead = true;
 		Object.Destroy (this.gameObject);
 	}
 
@@ -316,6 +306,8 @@ public class MouseMove : MonoBehaviour {
 
 		scale *= newScale;
 		transform.localScale = scale;
+
+		spriteRenderer.sprite = baseSprites [mtAsInt];
 	}
 
 	public MovementPhaseType GetMousePhase() {

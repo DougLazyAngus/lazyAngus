@@ -16,10 +16,10 @@ public class PawController : MonoBehaviour {
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public Material normalFurRef;
-	public Material dangerFurRef;
+	public GameObject normalPaw;
+	public GameObject dangerPaw;
 
-	private Collider model;
+	private Collider2D model;
 	private float swipeSpeed;
 
 	private int killsThisSwipe;
@@ -41,12 +41,10 @@ public class PawController : MonoBehaviour {
 		swipePhase = SwipePhase.SWIPE_NONE;
 		homeLocationCat = transform.localPosition;
 		
-		model = GetComponentInChildren<Collider> ();
+		model = GetComponentInChildren<Collider2D> ();
 		model.isTrigger = false;
 		
-		Rigidbody rb = GetComponentInChildren<Rigidbody> ();
-		rb.freezeRotation = true;
-		rb.constraints = RigidbodyConstraints.FreezeAll;
+		Rigidbody2D rb = GetComponentInChildren<Rigidbody2D> ();
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
 
 		RegisterForEvents ();
@@ -124,10 +122,12 @@ public class PawController : MonoBehaviour {
 		}
 		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
 			model.isTrigger = true;
-			SetMaterial(dangerFurRef);
+			dangerPaw.SetActive(true);
+			normalPaw.SetActive(false);
 		} else {
 			model.isTrigger = false;
-			SetMaterial(normalFurRef);
+			normalPaw.SetActive(true);
+			dangerPaw.SetActive(false);
 		}
 	}
 

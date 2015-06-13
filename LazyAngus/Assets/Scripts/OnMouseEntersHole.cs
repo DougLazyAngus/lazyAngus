@@ -12,8 +12,8 @@ public class OnMouseEntersHole : MonoBehaviour {
 	void Update () {
 	}
 
-	void OnTriggerEnter(Collider other) {
-		if (other.tag != "MouseBall") {
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.tag != "MouseCollider") {
 			return;
 		}
 

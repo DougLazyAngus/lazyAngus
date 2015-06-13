@@ -86,10 +86,10 @@ public class PlayerController : MonoBehaviour {
 		transform.Rotate (new Vector3(0.0f, 0.0f, clickAngleCat - dragAnchorAngleCat));
 	}
 
-	public void HandleDragClickStart(RaycastHit hitPoint) {
+	public void HandleDragClickStart(Vector2 worldPoint2d) {
 		bodyMovement = BodyMovementType.BODY_MOVEMENT_DRAGGING;
 
-		dragAnchorCat = transform.InverseTransformPoint(hitPoint.point);
+		dragAnchorCat = transform.InverseTransformPoint(worldPoint2d);
 		dragAnchorCat.z = 0.0f;
 		dragAnchorAngleCat = Utilities.GetZAngle (dragAnchorCat);
 
@@ -97,9 +97,9 @@ public class PlayerController : MonoBehaviour {
 		leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 	}  
 
-	public void	HandleSlapClickStart(RaycastHit hitPoint) {
+	public void	HandleSlapClickStart(Vector2 worldPoint2d) {
 
-		Vector3 swipeLocationCat = transform.InverseTransformPoint (hitPoint.point);
+		Vector3 swipeLocationCat = transform.InverseTransformPoint (worldPoint2d);
 
 		// If outside of reach radius, ignore altogether.
 		if (swipeLocationCat.magnitude > tweakableParams.swipeRadius) {

@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour {
 	void Awake() {
 		instance = this;
 
-		Physics.IgnoreLayerCollision (8, 9, true);	
+		Physics2D.IgnoreLayerCollision (8, 9, true);	
 
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 

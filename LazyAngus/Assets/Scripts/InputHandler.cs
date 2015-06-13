@@ -38,46 +38,48 @@ public class InputHandler : MonoBehaviour {
 			return;
 		}
 
-		RaycastHit hitPoint = default(RaycastHit);
-		
-		if (CheckForWorldClickStart(ref hitPoint)) {
-			HandleClickStart (hitPoint);
+		Vector3 worldPoint = new Vector3(0, 0, 0);
+		Collider2D collider = CheckForWorldClickStart (ref worldPoint);
+		if (collider != null) {
+			HandleClickStart (collider, worldPoint);
 		}
 	}
 
 	
-	bool CheckForWorldClickStart(ref RaycastHit hitPoint) {
+	Collider2D CheckForWorldClickStart(ref Vector3 worldPoint) {
 		Vector3 clickPosition;
 		
 		// Detect click and calculate touch position
 		bool clickStarted = GetWorldClickStarted (out clickPosition);
 		
 		if (!clickStarted) {
-			return false;
+			return null;
 		}  
-		
-		Ray worldRay = worldCamera.ScreenPointToRay (clickPosition);
-		Ray uxRay = uxCamera.ScreenPointToRay (clickPosition);
 
-		if (Physics.Raycast(uxRay, out hitPoint, 200f, UserInteractionsLayerBitmask)) {
-			// Nope, we did not click on the world, we clicked on UX.
-			return false;
+
+		Vector3 uxPoint = uxCamera.ScreenToWorldPoint (clickPosition);
+		if (Physics2D.OverlapPoint (uxPoint, UserInteractionsLayerBitmask)) {
+			// We clicked on ux.
+			return null;
 		}
 
-		if (Physics.Raycast (worldRay, out hitPoint, 200.0f, UserInteractionsLayerBitmask)) {
-			return true;
+		worldPoint = worldCamera.ScreenToWorldPoint (clickPosition);
+		Collider2D collider = Physics2D.OverlapPoint (worldPoint, UserInteractionsLayerBitmask);
+		if (collider) {
+			return collider;
 		}
 
-		return false;
+		return null;
 	}
 	
-	void HandleClickStart(RaycastHit hitPoint) {
-		if (hitPoint.collider.tag == "CatButt") {
+	void HandleClickStart(Collider2D collider, Vector3 worldPoint) {
+		Vector2 worldPoint2d = worldPoint;
+		if (collider.tag == "CatButt") {
 			Debug.Log ("clicked CatButt");
-			playerController.HandleDragClickStart(hitPoint);
-		} else if (hitPoint.collider.tag == "Plane") {
+			playerController.HandleDragClickStart(worldPoint2d);
+		} else if (collider.tag == "Plane") {
 			Debug.Log ("clicked Plane");
-			playerController.HandleSlapClickStart(hitPoint);
+			playerController.HandleSlapClickStart(worldPoint2d);
 		}
 	}
 
