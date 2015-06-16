@@ -23,7 +23,7 @@ public class FinalScoreTracker : MonoBehaviour {
 			if (personalBest <= finalScore) {
 				personalBestText.text = "New High Score!"; 
 			} else {
-				personalBestText.text = "Best Score: " + personalBest; 
+				personalBestText.text = "High Score: " + personalBest; 
 			}
 		}
 
