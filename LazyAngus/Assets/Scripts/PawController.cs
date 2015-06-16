@@ -44,9 +44,7 @@ public class PawController : MonoBehaviour {
 		model = GetComponentInChildren<Collider2D> ();
 		model.isTrigger = false;
 		
-		Rigidbody2D rb = GetComponentInChildren<Rigidbody2D> ();
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
-
 		RegisterForEvents ();
 	}
 

@@ -67,6 +67,7 @@ public class GameController : MonoBehaviour {
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
 		gameLevel = 1;
 
+
 		if (css.didWelcome) {
 			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		} else {

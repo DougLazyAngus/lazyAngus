@@ -28,6 +28,9 @@ public class TweakableParams : MonoBehaviour {
 	// Mouse track params.
 	public int numTracks = 3;
 
+	// Mouse hole params.
+	public int maxMicePerHole = 5;
+
 	public static TweakableParams instance { get; private set; }
 
 	void Awake() {

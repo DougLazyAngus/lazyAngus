@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class MouseHole : MonoBehaviour {
-	public int maxSavedMice = 5;
 	public Vector3 progressBarOffset;
 
 	public enum MouseHoleLocation {
@@ -65,7 +64,7 @@ public class MouseHole : MonoBehaviour {
 
 	bool CountSavedMouse(MouseMove mouse) {
 		// We can never have more than max.
-		if (savedMouseCount < maxSavedMice) {
+		if (savedMouseCount < TweakableParams.instance.maxMicePerHole) {
 			savedMouseCount++;
 			return true;
 		} else {
@@ -74,10 +73,10 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	void UpdateSlider() {		
-		float fractionFinished = (float)savedMouseCount / (float)maxSavedMice;
+		float fractionFinished = (float)savedMouseCount / (float)TweakableParams.instance.maxMicePerHole;
 		sliderInstance.value = fractionFinished;
 		tweakableSlider.fill.color =
-			Utilities.TrafficLightColorLerp ((float)savedMouseCount / (float)(maxSavedMice - 1));
+			Utilities.TrafficLightColorLerp ((float)savedMouseCount / (float)(TweakableParams.instance.maxMicePerHole - 1));
 	}
 
 	public void ClearMice() {
@@ -101,7 +100,7 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	public bool IsFull() {
-		return savedMouseCount >= maxSavedMice;
+		return savedMouseCount >= TweakableParams.instance.maxMicePerHole;
 	}
 
 	public static MouseHoleLocation GetRandomHoleLocation () {
