@@ -7,7 +7,7 @@ using SimpleJSON;
 public class PersistentStorage : MonoBehaviour {
 	public static PersistentStorage instance;
 	public static string valueStoreFilePath = "valuestore.txt";
-
+	
 	private JSONNode storedValues;
 
 
@@ -27,10 +27,6 @@ public class PersistentStorage : MonoBehaviour {
 	}
 
 	string ReadFileAsText(string path) {
-		if (false) {
-			return "";
-		}
-
 		path = FullPathFromPartialPath(path);
 		if (!System.IO.File.Exists (path)) {
 			return "";
@@ -40,10 +36,6 @@ public class PersistentStorage : MonoBehaviour {
 	}
 
 	void WriteTextToFile(string path, string text) {
-		if (false) {
-			return;
-		}
-		string debugDir = System.IO.Directory.GetCurrentDirectory ();
 		path = FullPathFromPartialPath(path);
 		System.IO.File.WriteAllText (path, text);
 	}

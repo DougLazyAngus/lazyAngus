@@ -20,6 +20,8 @@ public class PlayerStats : MonoBehaviour {
 
 	public static PlayerStats instance { get; private set; }
 
+	public const string highScoreName = "highScore";
+
 	void Awake() {
 		instance = this;
 
@@ -125,5 +127,13 @@ public class PlayerStats : MonoBehaviour {
 		if (BoostsChanged != null) {
 			BoostsChanged ();
 		}
+	}
+
+	public int GetHighScore() {
+		return PersistentStorage.instance.GetIntValue (highScoreName, 0);
+	}
+
+	public void SetHighScore(int highScore) {
+		PersistentStorage.instance.SetIntValue (highScoreName, highScore);
 	}
 }

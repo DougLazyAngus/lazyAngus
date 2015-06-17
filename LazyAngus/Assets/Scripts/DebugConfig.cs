@@ -14,22 +14,7 @@ public class DebugConfig : MonoBehaviour {
 	}
 
 	void Start() {
-		if (isDebug) {
-			TestPersistentStorage ();
-		}
 	}
 
 
-	void TestPersistentStorage() {
-		int testValue;
-
-		testValue = PersistentStorage.instance.GetIntValue ("debug_fudge", 0);
-		PersistentStorage.instance.SetIntValue ("debug_fudge", 22);
-		testValue = PersistentStorage.instance.GetIntValue ("debug_fudge", 0);
-		PersistentStorage.instance.SetIntValue ("debug_candy", 33);
-		testValue = PersistentStorage.instance.GetIntValue ("debug_fudge", 0);
-		testValue = PersistentStorage.instance.GetIntValue ("debug_candy", 0);
-		PersistentStorage.instance.SetIntValue ("debug_candy", 100);
-		testValue = PersistentStorage.instance.GetIntValue ("debug_candy", 0);
-	}
 }

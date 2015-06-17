@@ -7,13 +7,16 @@ public class FinalScoreTracker : MonoBehaviour {
 	public Text personalBestText;
 	public Text finalScoreText;
 
+	public Button fbButton;
+	public Button twitterButton;
+
 	// Use this for initialization
 	void Start () {
-		int personalBest = PersistentStorage.instance.GetIntValue ("personalBest", 0);
+		int personalBest = PlayerStats.instance.GetHighScore ();
 		int finalScore = PlayerStats.instance.GetScore ();
 
 		if (finalScore > personalBest) {
-			PersistentStorage.instance.SetIntValue ("personalBest", finalScore);
+			PlayerStats.instance.SetHighScore (finalScore);
 		}
 
 		if (personalBest == 0) {
@@ -28,5 +31,13 @@ public class FinalScoreTracker : MonoBehaviour {
 		}
 
 		finalScoreText.text = "Final Score: " + finalScore;
+		
+		fbButton.onClick.AddListener(() => { 
+			FacebookSharing.instance.ShareScore(finalScore);
+		});
+		
+		twitterButton.onClick.AddListener(() => { 
+			TwitterSharing.instance.ShareScore(finalScore);
+		});
 	}
 }

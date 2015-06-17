@@ -15,6 +15,9 @@ using System.Linq;
 
 public class Utilities
 {
+	public const string appImageURL = "http://pixabay.com/static/uploads/photo/2012/05/07/03/24/baby-47809_640.png";
+	public const string appURL = "http://lazyangus.com";
+
 	public static float GetZAngle(Vector3 vector) {
 		vector.z = 0;
 		float angle = Vector3.Angle (Vector3.right, vector);
@@ -62,6 +65,25 @@ public class Utilities
 			return Color.Lerp (Color.green, Color.yellow, fractionFinished * 2f);
 		} else {
 			return Color.Lerp (Color.yellow, Color.red, fractionFinished * 2f - 1f);
+		}
+	}
+	
+	public static string GetShareTitleForScore(int score) {
+		int highScore = PlayerStats.instance.GetHighScore ();
+		if (highScore == score) {
+			return "New High Score!";
+		} else {
+			return "New Score!";
+		}
+		
+	}
+	
+	public static string GetShareMessageForScore(int score) {
+		int highScore = PlayerStats.instance.GetHighScore ();
+		if (highScore == score) {
+			return "I got a new High Score of " + score + " in Lazy Angus!"; 
+		} else {
+			return "I scored " + score + " in Lazy Angus!"; 
 		}
 	}
 }
