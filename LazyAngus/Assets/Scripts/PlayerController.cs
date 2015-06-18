@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour {
 		transform.rotation = Quaternion.Euler (0, 0, currentTurnAngleDegrees);
 
 	}
-
+	
 	void UpdateDrag() {
 		Vector3 clickPositionScreen;
 		bool isClicked = InputHandler.instance.GetWorldClickPosition (out clickPositionScreen);

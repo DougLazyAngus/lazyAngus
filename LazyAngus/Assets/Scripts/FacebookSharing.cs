@@ -27,7 +27,7 @@ public class FacebookSharing : MonoBehaviour {
 
 	private void OnInitComplete()
 	{
-		Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
+ 		Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
 	}
 	
 	private void OnHideUnity(bool isGameShown)
@@ -50,6 +50,7 @@ public class FacebookSharing : MonoBehaviour {
 			ShareScoreInternal (scoreToShare);
 		}
 	}
+		
 
 	private void ShareScoreInternal(int score) {
 		string title = Utilities.GetShareTitleForScore (score);
@@ -69,7 +70,7 @@ public class FacebookSharing : MonoBehaviour {
 		        OnFeedFinished);
 	}
 
-	private void OnFeedFinished(FBResult result) {
+  private void OnFeedFinished(FBResult result) {
 		Debug.Log ("Posted...");
 	}
 }

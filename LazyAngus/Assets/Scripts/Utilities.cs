@@ -86,6 +86,17 @@ public class Utilities
 			return "I scored " + score + " in Lazy Angus!"; 
 		}
 	}
+
+	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL) {
+		PauseManager.instance.ExpectPause ();
+		Application.OpenURL (appURL);
+		yield return new WaitForSeconds (1f);
+		if (!PauseManager.instance.ConfirmExpectedPause ()) {
+			Application.OpenURL (webURL);
+		}
+		PauseManager.instance.ClearExpectedPause();
+	}
+
 }
 
 

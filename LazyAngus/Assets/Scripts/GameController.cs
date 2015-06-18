@@ -49,7 +49,7 @@ public class GameController : MonoBehaviour {
 	private BoostConfig boostConfig;
 
 	public static GameController instance { get; private set; }
-
+	
 	void Awake() {
 		instance = this;
 
