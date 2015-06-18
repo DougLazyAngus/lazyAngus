@@ -8,6 +8,18 @@ public class PlayLevelHandler : MonoBehaviour {
 	}
 
 	public void Play() {
+
+		if (DebugConfig.instance.debugFBShare) {
+			FacebookSharing.instance.ShareScore (24);
+			return;
+		}  
+
+		if (DebugConfig.instance.debugTwitterShare) {
+			TwitterSharing.instance.ShareScore (25);
+			return;
+		} 
+
+
 		int debugLevel = secretUI.GetSuggestedLevel ();
 		if (debugLevel > 0) {
 			GameController.instance.DebugSetGameLevel (debugLevel);

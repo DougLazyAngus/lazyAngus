@@ -9,15 +9,17 @@ public class FacebookSharing : MonoBehaviour {
 	public static FacebookSharing instance;
 	private int scoreToShare;
 
-
-
+	const string Address = "http://www.facebook.com/dialog/feed";
+	const string AppID = "853535184714876";
+	const string AppLaunch = "fb://publish/profile/me";
+	public Texture2D lazyAngusIcon;
+	
 	void Awake() {
 		instance = this;
 	}
 
 	// Use this for initialization
 	void Start () {
-		FB.Init (OnInitComplete, OnHideUnity);
 	}
 	
 	// Update is called once per frame
@@ -36,13 +38,32 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
 	public void ShareScore(int score) {
-		if (!FB.IsLoggedIn) {
-			scoreToShare = score;
-			FB.Login ("publish_actions", LoginCallback);
-			return;
+		if (DebugConfig.instance.useLibrariesForFB) {
+			ShareScoreThroughLibraries (score);
 		} else {
-			ShareScoreInternal (score);
+			ShareScoreThroughURLs (score);
 		}
+	}
+
+	public void ShareScoreThroughLibraries(int score) {
+		string message = Utilities.GetShareMessageForScore (score);
+		SPShareUtility.FacebookShare(message, lazyAngusIcon);
+	}
+
+	public void ShareScoreThroughURLs(int score) {
+		string args = "?app_id=" + AppID +
+			"&link=" + WWW.EscapeURL(Utilities.appURL) +
+				"&name=" + WWW.EscapeURL("Lazy Angus") +
+				"&caption=" + WWW.EscapeURL(Utilities.GetShareTitleForScore(score)) + 
+				"&description=" + WWW.EscapeURL(Utilities.GetShareMessageForScore(score)) + 
+				"&picture=" + WWW.EscapeURL(Utilities.appImageURL) + 
+				"&redirect_uri=" + WWW.EscapeURL ("http://facebook.com");
+		string webURL = Address + args;
+		string appURL = AppLaunch + args;
+		Debug.Log ("facebook web url = \n" + webURL);
+		Debug.Log ("facebook app url = \n" + appURL);
+
+		StartCoroutine(Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 
 	private void LoginCallback(FBResult result) {
@@ -59,15 +80,15 @@ public class FacebookSharing : MonoBehaviour {
 		FB.Feed (null, 
 		         Utilities.appURL, 
 		         "Lazy Angus",
-		        title, 
+		         title, 
 		         message,
 		         Utilities.appImageURL, 
-		        null, 
-		        null, 
-		        null, 
-		        null, 
-		        null, 
-		        OnFeedFinished);
+		         null, 
+		         null, 
+		         null, 
+		         null, 
+		         null, 
+		         OnFeedFinished);
 	}
 
   private void OnFeedFinished(FBResult result) {

@@ -12,13 +12,10 @@ public class TwitterSharing : MonoBehaviour {
 	public static TwitterSharing instance;
 	public Texture2D lazyAngusIcon;
 
-	private int scoreToShare;
-
 	void Awake() {
 		instance = this;
 		SPTwitter.instance.Init ();
-
-		
+				
 		SPTwitter.instance.addEventListener(TwitterEvents.POST_FAILED,  OnPostFailed);
 		SPTwitter.instance.addEventListener(TwitterEvents.POST_SUCCEEDED,  OnPost);
 		SPTwitter.instance.addEventListener(TwitterEvents.AUTHENTICATION_FAILED, onAuthFailed);
@@ -40,7 +37,6 @@ public class TwitterSharing : MonoBehaviour {
 	
 	void onAuthSucceeded() {
 		Debug.Log ("auth succeeded");
-		InternalShareScore(scoreToShare);
 	}
 
 	// Use this for initialization
@@ -53,24 +49,28 @@ public class TwitterSharing : MonoBehaviour {
 	}
 	
 	public void ShareScore(int score) {
+		if (DebugConfig.instance.useLibrariesForTwitter) {
+			ShareScoreThroughLibraries(score);
+		} else {
+			ShareScoreThroughURLs(score);
+		}
+	}
+
+	public void ShareScoreThroughURLs(int score) {
 		string message = Utilities.GetShareMessageForScore (score);
 		Application.OpenURL (AppLaunch + "?message=" + WWW.EscapeURL (message));
-
+		
 		string webURL = Address + "?text=" + WWW.EscapeURL (message) + 
 			"&url=" + WWW.EscapeURL (Utilities.appURL) +
-				"&hashtags=LazyAngus";
-
+			"&hashtags=LazyAngus";
+		
 		message = message + " " + Utilities.appURL + " #LazyAngus";
 		string appURL = AppLaunch + "?text=" + WWW.EscapeURL (message);
-
+		
 		StartCoroutine (Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 
-	public void OnDataLoaded() {
-		InternalShareScore (scoreToShare);
-	}
-
-	public void InternalShareScore(int score) {
+	public void ShareScoreThroughLibraries(int score) {
 		string message = Utilities.GetShareMessageForScore (score);
 		SPTwitter.instance.PostWithAuthCheck (message, lazyAngusIcon);
 	}

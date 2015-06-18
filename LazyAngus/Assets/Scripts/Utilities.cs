@@ -87,14 +87,32 @@ public class Utilities
 		}
 	}
 
-	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL) {
-		PauseManager.instance.ExpectPause ();
-		Application.OpenURL (appURL);
-		yield return new WaitForSeconds (1f);
-		if (!PauseManager.instance.ConfirmExpectedPause ()) {
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public bool CanLaunchURL(string url);
+
+	private static void LaunchAppOrWebOnIOS(string appURL, string webURL) {
+		if (CanLaunchURL (appURL)) {
+			Debug.Log ("Can open appURL");
+			Application.OpenURL (appURL);
+		} else {
+			Debug.Log ("Can't open appURL");
 			Application.OpenURL (webURL);
 		}
-		PauseManager.instance.ClearExpectedPause();
+	}
+
+	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL) {
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			LaunchAppOrWebOnIOS(appURL, webURL);
+			yield return new WaitForSeconds (0.001f);
+		} else {
+			PauseManager.instance.ExpectPause ();
+			Application.OpenURL (appURL);
+			yield return new WaitForSeconds (1f);
+			if (!PauseManager.instance.ConfirmExpectedPause ()) {
+				Application.OpenURL (webURL);
+			}
+			PauseManager.instance.ClearExpectedPause();
+		}
 	}
 
 }
