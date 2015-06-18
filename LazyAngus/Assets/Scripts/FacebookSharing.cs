@@ -16,6 +16,8 @@ public class FacebookSharing : MonoBehaviour {
 	
 	void Awake() {
 		instance = this;
+		FB.Init (OnInitComplete);
+
 	}
 
 	// Use this for initialization
@@ -46,20 +48,28 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
 	public void ShareScoreThroughLibraries(int score) {
-		string message = Utilities.GetShareMessageForScore (score);
-		SPShareUtility.FacebookShare(message, lazyAngusIcon);
+		if (!FB.IsLoggedIn) {
+			scoreToShare = score;
+			FB.Login ("publish_actions", LoginCallback);
+		} else {
+			ShareScoreInternal (score);
+		}
 	}
 
 	public void ShareScoreThroughURLs(int score) {
 		string args = "?app_id=" + AppID +
 			"&link=" + WWW.EscapeURL(Utilities.appURL) +
-				"&name=" + WWW.EscapeURL("Lazy Angus") +
-				"&caption=" + WWW.EscapeURL(Utilities.GetShareTitleForScore(score)) + 
-				"&description=" + WWW.EscapeURL(Utilities.GetShareMessageForScore(score)) + 
-				"&picture=" + WWW.EscapeURL(Utilities.appImageURL) + 
-				"&redirect_uri=" + WWW.EscapeURL ("http://facebook.com");
+			"&name=" + WWW.EscapeURL("Lazy Angus") +
+			"&caption=" + WWW.EscapeURL(Utilities.GetShareTitleForScore(score)) + 
+			"&description=" + WWW.EscapeURL(Utilities.GetShareMessageForScore(score)) + 
+			"&picture=" + WWW.EscapeURL(Utilities.appImageURL) + 
+			"&redirect_uri=" + WWW.EscapeURL ("http://facebook.com");
 		string webURL = Address + args;
+
+		args = "?text=" + WWW.EscapeURL (Utilities.GetShareMessageForScore (score)) + 
+			"&picture=" + WWW.EscapeURL (Utilities.appImageURL);
 		string appURL = AppLaunch + args;
+
 		Debug.Log ("facebook web url = \n" + webURL);
 		Debug.Log ("facebook app url = \n" + appURL);
 
