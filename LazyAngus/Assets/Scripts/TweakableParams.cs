@@ -31,7 +31,40 @@ public class TweakableParams : MonoBehaviour {
 	// Mouse hole params.
 	public int maxMicePerHole = 5;
 
+	// Initial money and boosts.
+	public int initialMoney = 0;
+	public int initialBoosts = 0;
+
+	public int debugInitialMoney = 100;
+	public int debugInitialBoosts = 5;
+	public int debugMaxMicePerHole = 100;
+
+
 	public static TweakableParams instance { get; private set; }
+
+	public int GetInitialMoney() {
+		if (DebugConfig.instance.isDebug) {
+			return debugInitialMoney;
+		} else {
+			return initialMoney;
+		}
+	}
+	
+	public int GetInitialBoosts() {
+		if (DebugConfig.instance.isDebug) {
+			return debugInitialBoosts;
+		} else {
+			return initialBoosts;
+		}
+	}
+	
+	public int GetMaxMicePerHole() {
+		if (DebugConfig.instance.isDebug) {
+			return debugMaxMicePerHole;
+		} else {
+			return maxMicePerHole;
+		}
+	}
 
 	void Awake() {
 		instance = this;

@@ -26,19 +26,14 @@ public class PlayerStats : MonoBehaviour {
 		instance = this;
 
 		gameScore = 0;
-		treatCount = 0;
+		treatCount = TweakableParams.instance.GetInitialMoney();
 
-		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
-		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
-			availableBoostCount [i] = purchasedBoostCount [i] = 0;
-		}
+		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 
-		if (DebugConfig.instance.isDebug) {
-			treatCount = DebugConfig.instance.initialMoney;
-			for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
-				availableBoostCount [i] = DebugConfig.instance.initialBoosts;
-			}
+		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
+			purchasedBoostCount[i] = 0;
+			availableBoostCount [i] = TweakableParams.instance.GetInitialBoosts();
 		}
 	}
 

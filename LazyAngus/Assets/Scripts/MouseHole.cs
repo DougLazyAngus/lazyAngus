@@ -64,7 +64,7 @@ public class MouseHole : MonoBehaviour {
 
 	bool CountSavedMouse(MouseMove mouse) {
 		// We can never have more than max.
-		if (savedMouseCount < TweakableParams.instance.maxMicePerHole) {
+		if (savedMouseCount < TweakableParams.instance.GetMaxMicePerHole()) {
 			savedMouseCount++;
 			return true;
 		} else {
@@ -73,10 +73,12 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	void UpdateSlider() {		
-		float fractionFinished = (float)savedMouseCount / (float)TweakableParams.instance.maxMicePerHole;
+		float fractionFinished = (float)savedMouseCount /
+			(float)TweakableParams.instance.GetMaxMicePerHole();
 		sliderInstance.value = fractionFinished;
 		tweakableSlider.fill.color =
-			Utilities.TrafficLightColorLerp ((float)savedMouseCount / (float)(TweakableParams.instance.maxMicePerHole - 1));
+			Utilities.TrafficLightColorLerp ((float)savedMouseCount /
+			                                 (float)(TweakableParams.instance.GetMaxMicePerHole() - 1));
 	}
 
 	public void ClearMice() {
@@ -100,7 +102,7 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	public bool IsFull() {
-		return savedMouseCount >= TweakableParams.instance.maxMicePerHole;
+		return savedMouseCount >= TweakableParams.instance.GetMaxMicePerHole();
 	}
 
 	public static MouseHoleLocation GetRandomHoleLocation () {

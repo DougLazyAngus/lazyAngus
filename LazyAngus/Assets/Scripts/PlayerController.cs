@@ -10,8 +10,9 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject rightPawGameObject;
 	public GameObject leftPawGameObject;
-	public GameObject coneOfViewGameObject;
-	
+	public ConeOfViewRenderer coneOfView;
+	public HeadMovement headMovement;
+
 	private BodyMovementType bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 
 	private float targetTurnAngleDegrees;
@@ -26,7 +27,6 @@ public class PlayerController : MonoBehaviour {
 
 	public static PlayerController instance { get; private set; }
 
-	ConeOfViewRenderer coneOfView;
 	TweakableParams tweakableParams;
 
 	void Awake() {
@@ -36,7 +36,6 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		tweakableParams = TweakableParams.instance;
-		coneOfView = coneOfViewGameObject.GetComponent<ConeOfViewRenderer> ();
 	}
 
 	// Update is called once per frame
@@ -129,6 +128,10 @@ public class PlayerController : MonoBehaviour {
 			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 		}
+
+		headMovement.LookTowards (swipeLocationCat);
+
+
 	}
 
 	void OnApplicationFocus(bool focusStatus) {

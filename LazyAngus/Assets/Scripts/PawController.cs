@@ -18,7 +18,6 @@ public class PawController : MonoBehaviour {
 
 	public GameObject normalPawSpriteGameObject;
 	public GameObject dangerPawSpriteGameObject;
-	public GameObject pawColliderGameObject;
 
 	private Collider2D model;
 	private float swipeSpeed;
@@ -30,8 +29,8 @@ public class PawController : MonoBehaviour {
 	BoostConfig boostConfig;
 	TweakableParams tweakableParams;
 
-	public Transform shoulderJointCatTransform;
 	public Transform pawHomeCatTransform;
+	public Transform shoulderJointCatTransform;
 
 	void Awake() {
 		registeredForEvents = false;
@@ -49,10 +48,11 @@ public class PawController : MonoBehaviour {
 		
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
 
-		pawColliderGameObject.transform.localPosition = pawHomeCatTransform.localPosition;
+		transform.localPosition = pawHomeCatTransform.localPosition;
 
 		RegisterForEvents ();
 		UpdatePawDangerState ();
+		UpdateArmRotation ();
 	}
 
 	void OnDestroy() {
@@ -91,7 +91,7 @@ public class PawController : MonoBehaviour {
 		}
 		case SwipePhase.SWIPE_EXTENDING:
 		{
-			if (MoveTowards (swipeLocationCat)) {
+			if (MovePawTowards (swipeLocationCat)) {
 				SetPhase(SwipePhase.SWIPE_EXTENDED_PAUSE);
 			}
 			break;
@@ -105,7 +105,7 @@ public class PawController : MonoBehaviour {
 				break;
 			}
 		case SwipePhase.SWIPE_RETRACTING: 
-			if (MoveTowards (pawHomeCatTransform.localPosition)) {
+			if (MovePawTowards (pawHomeCatTransform.localPosition)) {
 				SetPhase(SwipePhase.SWIPE_NONE);
 			}
 			break;
@@ -141,22 +141,39 @@ public class PawController : MonoBehaviour {
 		}
 	}
 
-	bool MoveTowards(Vector3 targetLocation) {
-		targetLocation.z = 0.0f;
+	bool MovePawTowards(Vector3 targetLocationCat) {
+		targetLocationCat.z = 0.0f;
 
-		Vector3 currrentLocation = pawColliderGameObject.transform.localPosition;
-		Vector3 direction = targetLocation - currrentLocation;
+		Vector3 pawLocationCat = transform.localPosition;
+
+
+		Vector3 directionCat = targetLocationCat - pawLocationCat;
 		float deltaTime = Time.deltaTime;
 		float moveDistance = swipeSpeed * deltaTime;
-		float actualDistance = direction.magnitude;
+		float actualDistance = directionCat.magnitude;
+
+		Vector3 newPawLocationCat;
+		bool doneMoving;
+
 		if (actualDistance < moveDistance) {
-			pawColliderGameObject.transform.localPosition = targetLocation;
-			return true;
+			newPawLocationCat = targetLocationCat;
+			doneMoving = true;
 		} else {
-			Vector3 moveDelta = direction * moveDistance / actualDistance;
-			pawColliderGameObject.transform.localPosition = pawColliderGameObject.transform.localPosition + moveDelta;
-			return false;
+			Vector3 moveDelta = directionCat * moveDistance / actualDistance;
+			newPawLocationCat = pawLocationCat + moveDelta;
+			doneMoving = false;
 		}
+
+		transform.localPosition = newPawLocationCat;
+		UpdateArmRotation ();
+		return doneMoving;
+	}
+
+
+	void UpdateArmRotation() {
+		Vector3 shoulderToPaw = transform.localPosition - shoulderJointCatTransform.localPosition;
+		float rotateRadians = Mathf.Atan2(shoulderToPaw.y, shoulderToPaw.x);
+		transform.localRotation = Quaternion.Euler (0f, 0f, rotateRadians * Mathf.Rad2Deg);
 	}
 
 	public void Swipe(Vector3 location) {
