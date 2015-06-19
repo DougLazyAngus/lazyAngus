@@ -11,34 +11,12 @@ public class TwitterSharing : MonoBehaviour {
 
 	public static TwitterSharing instance;
 	public Texture2D lazyAngusIcon;
-
+	
 	void Awake() {
 		instance = this;
 		SPTwitter.instance.Init ();
-				
-		SPTwitter.instance.addEventListener(TwitterEvents.POST_FAILED,  OnPostFailed);
-		SPTwitter.instance.addEventListener(TwitterEvents.POST_SUCCEEDED,  OnPost);
-		SPTwitter.instance.addEventListener(TwitterEvents.AUTHENTICATION_FAILED, onAuthFailed);
-		SPTwitter.instance.addEventListener(TwitterEvents.AUTHENTICATION_SUCCEEDED, onAuthSucceeded);
-
 	}
 	
-	void OnPostFailed() {
-		Debug.Log ("Post failed");
-	}
-	
-	void OnPost() {
-		Debug.Log ("Post succeeded");
-	}
-	
-	void onAuthFailed() {
-		Debug.Log ("auth failed");
-	}
-	
-	void onAuthSucceeded() {
-		Debug.Log ("auth succeeded");
-	}
-
 	// Use this for initialization
 	void Start () {
 	}
@@ -49,17 +27,19 @@ public class TwitterSharing : MonoBehaviour {
 	}
 	
 	public void ShareScore(int score) {
-		if (DebugConfig.instance.useLibrariesForTwitter) {
-			ShareScoreThroughLibraries(score);
+		Debug.Log ("TwitterSharing.ShareScore");
+		// If twitter authorized, use libraries, else use urls.
+		if (SPTwitter.instance.IsAuthed) {
+			ShareScoreInternal (score);
 		} else {
-			ShareScoreThroughURLs(score);
+			ShareScoreThroughURLs (score);
 		}
 	}
 
 	public void ShareScoreThroughURLs(int score) {
+		Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
 		string message = Utilities.GetShareMessageForScore (score);
-		Application.OpenURL (AppLaunch + "?message=" + WWW.EscapeURL (message));
-		
+
 		string webURL = Address + "?text=" + WWW.EscapeURL (message) + 
 			"&url=" + WWW.EscapeURL (Utilities.appURL) +
 			"&hashtags=LazyAngus";
@@ -70,8 +50,9 @@ public class TwitterSharing : MonoBehaviour {
 		StartCoroutine (Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 
-	public void ShareScoreThroughLibraries(int score) {
+	private void ShareScoreInternal(int score) {
+		Debug.Log ("TwitterSharing.ShareScoreInternal");
 		string message = Utilities.GetShareMessageForScore (score);
-		SPTwitter.instance.PostWithAuthCheck (message, lazyAngusIcon);
+		SPTwitter.instance.Post (message, lazyAngusIcon);
 	}
 }

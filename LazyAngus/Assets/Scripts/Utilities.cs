@@ -16,7 +16,7 @@ using System.Linq;
 public class Utilities
 {
 	public const string appImageURL = "http://pixabay.com/static/uploads/photo/2012/05/07/03/24/baby-47809_640.png";
-	public const string appURL = "http://lazyangus.com";
+	public const string appURL = "http://www.lazyangus.com/";
 
 	public static float GetZAngle(Vector3 vector) {
 		vector.z = 0;
@@ -89,6 +89,15 @@ public class Utilities
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public bool CanLaunchURL(string url);
+
+
+	private static bool AppCanLaunchURL(string url) {
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			return CanLaunchURL (appURL);
+		} else {
+			return true;
+		}
+	}
 
 	private static void LaunchAppOrWebOnIOS(string appURL, string webURL) {
 		if (CanLaunchURL (appURL)) {

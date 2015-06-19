@@ -40,22 +40,22 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
 	public void ShareScore(int score) {
-		if (DebugConfig.instance.useLibrariesForFB) {
-			ShareScoreThroughLibraries (score);
-		} else {
-			ShareScoreThroughURLs (score);
-		}
+		ShareScoreThroughLibraries (score);
 	}
 
 	public void ShareScoreThroughLibraries(int score) {
+		Debug.Log ("FacebookSharing.ShareScoreThroughLibraries");
 		if (!FB.IsLoggedIn) {
 			scoreToShare = score;
+			Debug.Log ("Calling FB.Login");
 			FB.Login ("publish_actions", LoginCallback);
 		} else {
 			ShareScoreInternal (score);
 		}
 	}
 
+	// FIXME(dbanks)
+	// Deprecated.
 	public void ShareScoreThroughURLs(int score) {
 		string args = "?app_id=" + AppID +
 			"&link=" + WWW.EscapeURL(Utilities.appURL) +
@@ -77,6 +77,7 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
 	private void LoginCallback(FBResult result) {
+		Debug.Log ("FacebookSharing.LoginCallback");
 		if (FB.IsLoggedIn) {
 			ShareScoreInternal (scoreToShare);
 		}
@@ -84,9 +85,15 @@ public class FacebookSharing : MonoBehaviour {
 		
 
 	private void ShareScoreInternal(int score) {
+		Debug.Log ("FacebookSharing.ShareScoreInternal");
+
 		string title = Utilities.GetShareTitleForScore (score);
 		string message = Utilities.GetShareMessageForScore (score);
 
+		Debug.Log ("title = " + title);
+		Debug.Log ("message = " + message);
+
+		Debug.Log ("Calling FB.Feed");
 		FB.Feed (null, 
 		         Utilities.appURL, 
 		         "Lazy Angus",
@@ -102,6 +109,7 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
   private void OnFeedFinished(FBResult result) {
+		Debug.Log ("FacebookSharing.OnFeedFinished");
 		Debug.Log ("Posted...");
 	}
 }
