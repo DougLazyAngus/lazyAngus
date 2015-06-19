@@ -12,12 +12,13 @@ public class PawController : MonoBehaviour {
 	};
 
 	private Vector3 swipeLocationCat;
-	private Vector3 homeLocationCat;
+
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public GameObject normalPaw;
-	public GameObject dangerPaw;
+	public GameObject normalPawSpriteGameObject;
+	public GameObject dangerPawSpriteGameObject;
+	public GameObject pawColliderGameObject;
 
 	private Collider2D model;
 	private float swipeSpeed;
@@ -29,6 +30,9 @@ public class PawController : MonoBehaviour {
 	BoostConfig boostConfig;
 	TweakableParams tweakableParams;
 
+	public Transform shoulderJointCatTransform;
+	public Transform pawHomeCatTransform;
+
 	void Awake() {
 		registeredForEvents = false;
 	}
@@ -39,13 +43,16 @@ public class PawController : MonoBehaviour {
 		tweakableParams = TweakableParams.instance;
 
 		swipePhase = SwipePhase.SWIPE_NONE;
-		homeLocationCat = transform.localPosition;
-		
+
 		model = GetComponentInChildren<Collider2D> ();
 		model.isTrigger = false;
 		
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
+
+		pawColliderGameObject.transform.localPosition = pawHomeCatTransform.localPosition;
+
 		RegisterForEvents ();
+		UpdatePawDangerState ();
 	}
 
 	void OnDestroy() {
@@ -98,7 +105,7 @@ public class PawController : MonoBehaviour {
 				break;
 			}
 		case SwipePhase.SWIPE_RETRACTING: 
-			if (MoveTowards (homeLocationCat)) {
+			if (MoveTowards (pawHomeCatTransform.localPosition)) {
 				SetPhase(SwipePhase.SWIPE_NONE);
 			}
 			break;
@@ -110,48 +117,44 @@ public class PawController : MonoBehaviour {
 		swipePhase = newPhase;
 
 		if (oldPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-			gameController.LogKillsPerSwipe(killsThisSwipe);
+			gameController.LogKillsPerSwipe (killsThisSwipe);
 			killsThisSwipe = 0;
 		}
 
 		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE || 
-		    newPhase == SwipePhase.SWIPE_INITIAL_PAUSE) {
+			newPhase == SwipePhase.SWIPE_INITIAL_PAUSE) {
 			pauseStarted = Time.time;
 		}
-		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-			model.isTrigger = true;
-			dangerPaw.SetActive(true);
-			normalPaw.SetActive(false);
-		} else {
-			model.isTrigger = false;
-			normalPaw.SetActive(true);
-			dangerPaw.SetActive(false);
-		}
+
+		UpdatePawDangerState ();
 	}
 
-	void SetMaterial(Material material) {
-		foreach (Transform t in transform) {
-			if (t.gameObject && 
-			    t.gameObject.GetComponent<Renderer>()) {
-				t.gameObject.GetComponent<Renderer>().material = material;
-			}
+	void UpdatePawDangerState() {
+		if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+			model.isTrigger = true;
+			dangerPawSpriteGameObject.SetActive(true);
+			normalPawSpriteGameObject.SetActive(false);
+		} else {
+			model.isTrigger = false;
+			normalPawSpriteGameObject.SetActive(true);
+			dangerPawSpriteGameObject.SetActive(false);
 		}
 	}
 
 	bool MoveTowards(Vector3 targetLocation) {
 		targetLocation.z = 0.0f;
 
-		Vector3 currrentLocation = transform.localPosition;
+		Vector3 currrentLocation = pawColliderGameObject.transform.localPosition;
 		Vector3 direction = targetLocation - currrentLocation;
 		float deltaTime = Time.deltaTime;
 		float moveDistance = swipeSpeed * deltaTime;
 		float actualDistance = direction.magnitude;
 		if (actualDistance < moveDistance) {
-			transform.localPosition = targetLocation;
+			pawColliderGameObject.transform.localPosition = targetLocation;
 			return true;
 		} else {
 			Vector3 moveDelta = direction * moveDistance / actualDistance;
-			transform.localPosition = transform.localPosition + moveDelta;
+			pawColliderGameObject.transform.localPosition = pawColliderGameObject.transform.localPosition + moveDelta;
 			return false;
 		}
 	}
