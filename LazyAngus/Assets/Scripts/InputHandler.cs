@@ -38,6 +38,10 @@ public class InputHandler : MonoBehaviour {
 			return;
 		}
 
+		if (TimeController.instance.paused) {
+			return;
+		}
+
 		Vector3 worldPoint = new Vector3(0, 0, 0);
 		Collider2D collider = CheckForWorldClickStart (ref worldPoint);
 		if (collider != null) {

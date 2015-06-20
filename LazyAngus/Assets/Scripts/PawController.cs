@@ -25,7 +25,7 @@ public class PawController : MonoBehaviour {
 	private int killsThisSwipe;
 	private GameController gameController;
 
-	bool registeredForEvents;
+	bool registerdForEvents;
 	BoostConfig boostConfig;
 	TweakableParams tweakableParams;
 
@@ -33,7 +33,7 @@ public class PawController : MonoBehaviour {
 	public Transform shoulderJointCatTransform;
 
 	void Awake() {
-		registeredForEvents = false;
+		registerdForEvents = false;
 	}
 
 	void Start() {
@@ -61,11 +61,11 @@ public class PawController : MonoBehaviour {
 
 	void RegisterForEvents() {
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
-		registeredForEvents = true;
+		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		}
 	}

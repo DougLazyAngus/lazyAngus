@@ -10,7 +10,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	public Canvas containingCanvas;
 
 	private List<BoostButton> boostButtons;
-	private bool registeredForEvents;
+	private bool registerdForEvents;
 
 	private bool boostButtonsDirty;
 	private bool treatsTextDirty;
@@ -23,7 +23,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	private bool started;
 	
 	void Awake() {
-		registeredForEvents = false;
+		registerdForEvents = false;
 		boostButtonsDirty = false;
 
 		started = false;
@@ -64,11 +64,11 @@ public class BoostButtonLayout : MonoBehaviour {
 
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 
-		registeredForEvents = true;
+		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
 

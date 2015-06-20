@@ -27,7 +27,7 @@ public class MouseMove : MonoBehaviour {
 	
 	private MovementPhaseType phase;
 
-	private MouseType mouseType;
+	public MouseType mouseType { get; private set; }
 
 	private float baseSpeedM;
 	private float actualSpeedM;
@@ -66,7 +66,9 @@ public class MouseMove : MonoBehaviour {
 	private TweakableSlider tweakableSlider;
 
 	public static int activeMouseCount = 0;
-	bool registeredForEvents;
+	bool registerdForEvents;
+
+	public GameObject deadMousePrototype;
 
 	TweakableParams tweakableParams;
 	BoostConfig boostConfig;
@@ -78,7 +80,7 @@ public class MouseMove : MonoBehaviour {
 	}
 
 	void Awake() {
-		registeredForEvents = false;
+		registerdForEvents = false;
 		tweakableParams = TweakableParams.instance;
 		boostConfig = BoostConfig.instance;
 		dead = false;
@@ -110,11 +112,11 @@ public class MouseMove : MonoBehaviour {
 	
 	void RegisterForEvents() {
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
-		registeredForEvents = true;
+		registerdForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		}
 	}
@@ -266,6 +268,12 @@ public class MouseMove : MonoBehaviour {
 
 
 	public void OnKilled() {
+		GameObject deadMouseObject = Instantiate (deadMousePrototype, 
+		                                    new Vector3 (0, 0, 0),
+		                                    Quaternion.identity) as GameObject;
+		DeadMouse deadMouse = deadMouseObject.GetComponent<DeadMouse> ();
+		deadMouse.Configure (this);
+
 		dead = true;
 		Object.Destroy (this.gameObject);
 	}
@@ -274,7 +282,7 @@ public class MouseMove : MonoBehaviour {
 		Object.Destroy (this.gameObject);
 	}
 
-	public void SetMouseType(MouseType mt) {
+	void SetMouseType(MouseType mt) {
 		mouseType = mt;
 		   
 		switch (mouseType) {

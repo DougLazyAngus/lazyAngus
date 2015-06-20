@@ -9,7 +9,7 @@ public class TrackTreats : MonoBehaviour {
 	private DistortForEffect distortForEffect;
 	
 	private PlayerStats playerStats;
-	private bool registeredForEvents;
+	private bool registerdForEvents;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,12 +19,12 @@ public class TrackTreats : MonoBehaviour {
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 		
 		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
-		registeredForEvents = true;
+		registerdForEvents = true;
 		SetTreatsText ();
 	}
 	
 	void OnDestroy() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
 		}
 	}

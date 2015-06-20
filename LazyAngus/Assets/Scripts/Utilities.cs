@@ -114,13 +114,8 @@ public class Utilities
 			LaunchAppOrWebOnIOS(appURL, webURL);
 			yield return new WaitForSeconds (0.001f);
 		} else {
-			PauseManager.instance.ExpectPause ();
-			Application.OpenURL (appURL);
-			yield return new WaitForSeconds (1f);
-			if (!PauseManager.instance.ConfirmExpectedPause ()) {
-				Application.OpenURL (webURL);
-			}
-			PauseManager.instance.ClearExpectedPause();
+			// FIXME(dbanks)
+			// No good solution yet.
 		}
 	}
 

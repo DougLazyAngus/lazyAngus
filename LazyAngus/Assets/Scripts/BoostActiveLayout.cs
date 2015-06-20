@@ -8,7 +8,7 @@ using System.Collections.Generic;
 public class BoostActiveLayout : MonoBehaviour {
 	public GameObject sliderPrototype;
 	
-	private bool registeredForEvents;
+	private bool registerdForEvents;
 	
 	private bool boostButtonsDirty;
 	private bool treatsTextDirty;
@@ -23,7 +23,7 @@ public class BoostActiveLayout : MonoBehaviour {
 	public Canvas containingCanvas;
 	
 	void Awake() {
-		registeredForEvents = false;
+		registerdForEvents = false;
 		sliderDirty = false;
 		
 		started = false;
@@ -55,11 +55,11 @@ public class BoostActiveLayout : MonoBehaviour {
 	void RegisterForEvents() {
 		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		
-		registeredForEvents = true;
+		registerdForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}

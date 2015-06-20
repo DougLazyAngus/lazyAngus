@@ -9,7 +9,7 @@ public class TrackScore : MonoBehaviour {
 	private DistortForEffect distortForEffect;
 
 	private PlayerStats playerStats;
-	private bool registeredForEvents;
+	private bool registerdForEvents;
 
 	// Use this for initialization
 	void Start () {
@@ -20,12 +20,12 @@ public class TrackScore : MonoBehaviour {
 
 
 		playerStats.ScoreChanged += new PlayerStats.ScoreChangedEventHandler (DynamicUpdateScoreText);
-		registeredForEvents = true;
+		registerdForEvents = true;
 		SetScoreText ();
 	}
 
 	void OnDestroy() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			playerStats.ScoreChanged -= new PlayerStats.ScoreChangedEventHandler (DynamicUpdateScoreText);
 		}
 	}

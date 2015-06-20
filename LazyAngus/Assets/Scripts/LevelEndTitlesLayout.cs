@@ -8,7 +8,7 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	public Text readyText;
 	public Text treatsText;
 
-	private bool registeredForEvents;
+	private bool registerdForEvents;
 	private DistortForEffect distortForEffect;
 
 	private bool treatsTextDirty;
@@ -21,7 +21,7 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void Awake() {
 		started = false;
-		registeredForEvents = false;
+		registerdForEvents = false;
 	}
 
 	void Start () {
@@ -56,11 +56,11 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	void RegisterForEvents() {
 		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-		registeredForEvents = true;
+		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
-		if (registeredForEvents) {
+		if (registerdForEvents) {
 			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
 		}
