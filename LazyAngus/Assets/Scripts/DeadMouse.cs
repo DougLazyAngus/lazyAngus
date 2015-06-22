@@ -10,7 +10,7 @@ public class DeadMouse : MonoBehaviour {
 
 	bool initialized = false;
 	float startTime;
-
+	public float deadMouseZ = -1.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -43,9 +43,13 @@ public class DeadMouse : MonoBehaviour {
 		initialized = true;
 		int typeAsIndex = (int)parentMouse.mouseType;
 		spriteRenderer.sprite = baseSprites [typeAsIndex];
-		transform.position = parentMouse.gameObject.transform.position;
+		Vector3 tmpP = parentMouse.gameObject.transform.position;
+		tmpP.z = deadMouseZ;
+
+		transform.position = tmpP;
 		transform.rotation = parentMouse.gameObject.transform.rotation;
 		transform.localScale = parentMouse.gameObject.transform.localScale;
+
 		startTime = Time.time;
 	}
 }

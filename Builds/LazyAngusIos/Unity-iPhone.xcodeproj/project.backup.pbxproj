@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0E0342259186D2F6D7CB3785 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA845A99EF06937630C8E21 /* libiPhone-lib.a */; };
 		16224F63AE55B097791E188A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A4B24B870DEE879FBF161 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
 		1B2D44E9AA6DB545315A6372 /* Assembly-CSharp-firstpass.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = BD284FCBA960F673A7C745B6 /* Assembly-CSharp-firstpass.dll.s */; };
-		1BF64C2A878A9DEF6FB90E92 /* LaunchScreenImage-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F984451892B4D808656B6601 /* LaunchScreenImage-Portrait.png */; };
 		1D1643F8ADC2657989A7615C /* UnityEngine.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 9A7C45D7A7FA21C407809970 /* UnityEngine.dll.s */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		24464E5EA04E3EAA11654F8F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5949D39611755D41A665CD /* libsqlite3.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -76,16 +74,18 @@
 		8ADCE38B19C87177006F04F6 /* CameraCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCE38A19C87177006F04F6 /* CameraCapture.mm */; };
 		8AF7755D1799329100341121 /* LifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A292A9817992CE100409BA4 /* LifeCycleListener.mm */; };
 		8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7755F17997D1300341121 /* AppDelegateListener.mm */; };
+		A6A242F1B0435BABD9419087 /* LaunchScreenImage-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 5384476C81B04A074AE9B600 /* LaunchScreenImage-Landscape.png */; };
+		A90240EDB2AEEC516E1EB200 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C24A828614CD809C1FE25C /* libiPhone-lib.a */; };
 		AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */; };
 		AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */; };
 		BA2049F09182C4387806EBE3 /* FacebookSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9F4B9BB47986C62459B5D3 /* FacebookSDK.a */; };
 		BA95492BA120EF1C6FA9B004 /* mscorlib.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 38AA4D65BDB45A2A40A0EBC4 /* mscorlib.dll.s */; };
-		BF344ECA9C760BFC918CF4A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C249368101681121478466 /* LaunchScreen.xib */; };
 		C5DF42F0985E5068EAF97E2F /* System.Core.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = CA894CDE895C2273FE8DBCFB /* System.Core.dll.s */; };
 		C70C4893AB5193315F0467E1 /* ICSharpCode.SharpZipLib.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 27084733B4579E3CEBD8F3F2 /* ICSharpCode.SharpZipLib.dll.s */; };
 		CD0F47C4BB5179E673474C38 /* FacebookSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9F4B9BB47986C62459B5D3 /* FacebookSDK.a */; };
 		D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */; };
+		DBAD431BB47A883951C86DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E604EAEBCBBA2F2A9880F8A /* LaunchScreen.xib */; };
 		E53C40D892C5E0346213010F /* Assembly-CSharp.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 12B64813AA14D82D41C80020 /* Assembly-CSharp.dll.s */; };
 		EC4A454186E28BBD49F9EF32 /* System.Xml.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = A4D54B1B924931EBB01D6959 /* System.Xml.dll.s */; };
 		ECC84710876643554051745F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CE4A04B8DEEC49AC9FB98B /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -94,7 +94,7 @@
 		F28C4A79BF5A68B957EF51EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32334F8F97D816F169431647 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F45840CE83DB8E578D5C4D63 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5949D39611755D41A665CD /* libsqlite3.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F5BD4EE1AA09245E29541C01 /* ISNDataConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E499AAC0C7F6292C9FCD1 /* ISNDataConvertor.m */; };
-		F8A44E97849D313966739FE8 /* LaunchScreenImage-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 085247CF89386A0335BDEB86 /* LaunchScreenImage-Landscape.png */; };
+		F8C3473C932EC0519EA11958 /* LaunchScreenImage-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 175B4C6FAE7CB671FD118834 /* LaunchScreenImage-Portrait.png */; };
 		FC85CCBB16C3ED8000BAF7C7 /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC85CCB916C3ED8000BAF7C7 /* CrashReporter.mm */; };
 /* End PBXBuildFile section */
 
@@ -111,11 +111,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03C249368101681121478466 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		085247CF89386A0335BDEB86 /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = SOURCE_ROOT; };
 		08B24F75137BFDFA00FBA309 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		0C5E499AAC0C7F6292C9FCD1 /* ISNDataConvertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ISNDataConvertor.m; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/ISNDataConvertor.m; sourceTree = "<absolute>"; };
 		12B64813AA14D82D41C80020 /* Assembly-CSharp.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "Assembly-CSharp.dll.s"; path = "Libraries/Assembly-CSharp.dll.s"; sourceTree = SOURCE_ROOT; };
+		12C24A828614CD809C1FE25C /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/Trampoline/Libraries/libiPhone-lib.a"; sourceTree = "<absolute>"; };
+		175B4C6FAE7CB671FD118834 /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = SOURCE_ROOT; };
 		1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalHelper.mm; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* lazyangus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazyangus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +130,7 @@
 		38AA4D65BDB45A2A40A0EBC4 /* mscorlib.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = mscorlib.dll.s; path = Libraries/mscorlib.dll.s; sourceTree = SOURCE_ROOT; };
 		42064F088AACCBCB2D863EF3 /* FbUnityInterface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FbUnityInterface.mm; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/Facebook/Editor/iOS/FbUnityInterface.mm; sourceTree = "<absolute>"; };
 		52E740CDB7DCCA620CED17A9 /* System.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.dll.s; path = Libraries/System.dll.s; sourceTree = SOURCE_ROOT; };
+		5384476C81B04A074AE9B600 /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = SOURCE_ROOT; };
 		54AF46378B8D5ABD35BFE325 /* IOSInstaPlugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IOSInstaPlugin.mm; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/IOSInstaPlugin.mm; sourceTree = "<absolute>"; };
 		5623C57317FDCB0800090B9E /* lazyangus.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lazyangus.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
@@ -220,6 +221,7 @@
 		8AF7755E17997D1300341121 /* AppDelegateListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateListener.h; sourceTree = "<group>"; };
 		8AF7755F17997D1300341121 /* AppDelegateListener.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateListener.mm; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E604EAEBCBBA2F2A9880F8A /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		9A7C45D7A7FA21C407809970 /* UnityEngine.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = UnityEngine.dll.s; path = Libraries/UnityEngine.dll.s; sourceTree = SOURCE_ROOT; };
 		A14A4B24B870DEE879FBF161 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A4D54B1B924931EBB01D6959 /* System.Xml.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.Xml.dll.s; path = Libraries/System.Xml.dll.s; sourceTree = SOURCE_ROOT; };
@@ -227,7 +229,6 @@
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		AAFE69D019F187C200638316 /* UnityViewControllerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityViewControllerListener.h; sourceTree = "<group>"; };
 		AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityViewControllerListener.mm; sourceTree = "<group>"; };
-		ACA845A99EF06937630C8E21 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/Trampoline/Libraries/libiPhone-lib.a"; sourceTree = "<absolute>"; };
 		B8C446E3B1F5FDF999C49BF9 /* IOSInstaPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOSInstaPlugin.h; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/IOSInstaPlugin.h; sourceTree = "<absolute>"; };
 		BA414BFDA961113D88D19881 /* IOSTwitterPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOSTwitterPlugin.h; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/IOSTwitterPlugin.h; sourceTree = "<absolute>"; };
 		BD284FCBA960F673A7C745B6 /* Assembly-CSharp-firstpass.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "Assembly-CSharp-firstpass.dll.s"; path = "Libraries/Assembly-CSharp-firstpass.dll.s"; sourceTree = SOURCE_ROOT; };
@@ -241,7 +242,6 @@
 		E2634921AB35AFB49EBA3989 /* ISNDataConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISNDataConvertor.h; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/ISNDataConvertor.h; sourceTree = "<absolute>"; };
 		E8CE4A04B8DEEC49AC9FB98B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		F91940EF86E9C2D742A2F0B1 /* SocialGate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SocialGate.mm; path = /Users/douglasbanks/lazyAngus/LazyAngus/Assets/plugins/StansAssets/IOS/SocialGate.mm; sourceTree = "<absolute>"; };
-		F984451892B4D808656B6601 /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = SOURCE_ROOT; };
 		FC3D7EBE16D2621600D1BD0D /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
 		FC85CCB916C3ED8000BAF7C7 /* CrashReporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CrashReporter.mm; sourceTree = "<group>"; };
 		FC85CCBA16C3ED8000BAF7C7 /* PLCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashReporter.h; sourceTree = "<group>"; };
@@ -274,7 +274,7 @@
 				ECC84710876643554051745F /* Accounts.framework in Frameworks */,
 				43784D6CB499F893B97335B9 /* Social.framework in Frameworks */,
 				F28C4A79BF5A68B957EF51EE /* Security.framework in Frameworks */,
-				0E0342259186D2F6D7CB3785 /* libiPhone-lib.a in Frameworks */,
+				A90240EDB2AEEC516E1EB200 /* libiPhone-lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +343,9 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				83B2574E0E63025400468741 /* libiconv.2.dylib */,
-				03C249368101681121478466 /* LaunchScreen.xib */,
-				F984451892B4D808656B6601 /* LaunchScreenImage-Portrait.png */,
-				085247CF89386A0335BDEB86 /* LaunchScreenImage-Landscape.png */,
+				8E604EAEBCBBA2F2A9880F8A /* LaunchScreen.xib */,
+				175B4C6FAE7CB671FD118834 /* LaunchScreenImage-Portrait.png */,
+				5384476C81B04A074AE9B600 /* LaunchScreenImage-Landscape.png */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -551,7 +551,7 @@
 				38AA4D65BDB45A2A40A0EBC4 /* mscorlib.dll.s */,
 				926649BAADA6B002BC7859E8 /* plugins */,
 				0AEC4F7AA336268EF3A88B32 /* Facebook */,
-				ACA845A99EF06937630C8E21 /* libiPhone-lib.a */,
+				12C24A828614CD809C1FE25C /* libiPhone-lib.a */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -634,9 +634,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
-				BF344ECA9C760BFC918CF4A2 /* LaunchScreen.xib in Resources */,
-				1BF64C2A878A9DEF6FB90E92 /* LaunchScreenImage-Portrait.png in Resources */,
-				F8A44E97849D313966739FE8 /* LaunchScreenImage-Landscape.png in Resources */,
+				DBAD431BB47A883951C86DD5 /* LaunchScreen.xib in Resources */,
+				F8C3473C932EC0519EA11958 /* LaunchScreenImage-Portrait.png in Resources */,
+				A6A242F1B0435BABD9419087 /* LaunchScreenImage-Landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
