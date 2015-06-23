@@ -118,7 +118,6 @@ public class Utilities
 			// No good solution yet.
 		}
 	}
-
 }
 
 

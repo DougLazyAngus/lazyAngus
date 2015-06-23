@@ -121,11 +121,8 @@ public class GameController : MonoBehaviour {
 		LevelConfig lc = LevelConfig.instance;
 
 		// A few by hand, then just programmatic.
-		List<ExplicitMouseDesc> explicitMice = lc.GetExplicitMiceForLevel (gameLevel);
-		mouseSpawnFromData.AddMice (explicitMice);
-
-		List<ExplicitMouseDesc> generatedMice = lc.GenerateMiceForLevel (gameLevel);
-		mouseSpawnFromData.AddMice (generatedMice);
+		LevelDescription ld = lc.GetLevelDescription (gameLevel);
+		mouseSpawnFromData.AddMice (ld.explicitMouseDesc);
 
 		/*
 		int[] miceByType = lc.GetMiceByTypeForLevel (gameLevel);

@@ -5,19 +5,21 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class LevelEndTitlesLayout : MonoBehaviour {
-	public Text readyText;
-	public Text treatsText;
+	public Text waveTitleText;
+	public Text waveCountText;
+	public Text waveSpecialText;
+	public Text scoreText;
 
 	private bool registerdForEvents;
 	private DistortForEffect distortForEffect;
-
-	private bool treatsTextDirty;
-	private bool levelTextDirty;
 
 	private PlayerStats playerStats;
 	private GameController gameController;
 
 	private bool started;
+
+	private bool scoreDirty;
+	private bool waveDirty;
 
 	void Awake() {
 		started = false;
@@ -25,18 +27,15 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	}
 
 	void Start () {
-		treatsTextDirty = false;
-		levelTextDirty = false;
+		scoreDirty = waveDirty = false;
 
 		playerStats = PlayerStats.instance;
 		gameController = GameController.instance;
 
 		RegisterForEvents ();
 
-		distortForEffect = treatsText.GetComponent<DistortForEffect> ();
-
-		SetTreatsText ();
-		UpdateLevelText ();
+		SetScoreText ();
+		SetWaveTexts ();
 		started = true;
 	}
 
@@ -48,54 +47,52 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 		if (!started) {
 			return;
 		}
-		SetTreatsText ();
-		UpdateLevelText ();
+		SetScoreText ();
+		SetWaveTexts ();
 	}
 
 
 	void RegisterForEvents() {
-		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+		playerStats.ScoreChanged += new PlayerStats.ScoreChangedEventHandler (OnScoreChanged);
 		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
 		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			playerStats.ScoreChanged -= new PlayerStats.ScoreChangedEventHandler (OnScoreChanged);
 			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
 		}
 	}
 
 
 	void Update() {
-		if (treatsTextDirty) {
-			UpdateTreatsText ();
-			treatsTextDirty = false;
+		if (scoreDirty) {
+			SetScoreText ();
 		}
-		if (levelTextDirty) {
-			UpdateLevelText ();
-			levelTextDirty = false;
+		if (waveDirty) {
+			SetWaveTexts ();
 		}
 	}
 
-	void UpdateLevelText() {
-		readyText.text = "Prepare for Wave " + gameController.gameLevel + "!!!";
+	void SetWaveTexts() {
+		waveDirty = false;
+		waveTitleText.text = "Wave " + gameController.gameLevel;
+
+		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameController.gameLevel);
+		waveCountText.text = ld.explicitMouseDesc.Count + " mice";
+		waveSpecialText.text = ld.specialText;
 	}
 
 	void OnGameLevelChanged() {
-		levelTextDirty = true;
+		waveDirty = true;
 	}
 
-	void OnTreatsChanged() {
-		treatsTextDirty = true;
+	void OnScoreChanged() {
+		scoreDirty = true;
 	}
 
-	void UpdateTreatsText() {
-		SetTreatsText ();
-		distortForEffect.Distort ();
-	}
-
-	void SetTreatsText() {
-		treatsText.text = "$" + playerStats.GetTreats ();
+	void SetScoreText() {
+		scoreText.text = "Score: " + playerStats.GetScore ();
 	}
 }
