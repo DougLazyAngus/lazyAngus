@@ -65,8 +65,8 @@ public class GameController : MonoBehaviour {
 		CrossSceneState css = CrossSceneState.instance;
 
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
-		gameLevel = 1;
 
+		SetGameLevel (1);
 
 		if (css.didWelcome) {
 			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
@@ -222,7 +222,7 @@ public class GameController : MonoBehaviour {
 			StartCoroutine(SetupPendingPhase());
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_END: {
-			gameLevel += 1;
+			SetGameLevel (gameLevel + 1);
 
 			welcomeUIGameObject.SetActive (false);
 			levelPlayUIGameObject.SetActive (true);
@@ -263,7 +263,7 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	public void DebugSetGameLevel(int gameLevel) {
+	public void SetGameLevel(int gameLevel) {
 		this.gameLevel = gameLevel;
 		if (GameLevelChanged != null) {
 			GameLevelChanged ();

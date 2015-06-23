@@ -22,7 +22,7 @@ public class PlayLevelHandler : MonoBehaviour {
 
 		int debugLevel = secretUI.GetSuggestedLevel ();
 		if (debugLevel > 0) {
-			GameController.instance.DebugSetGameLevel (debugLevel);
+			GameController.instance.SetGameLevel (debugLevel);
 		}
 		secretUI.ClearSuggestedLevel ();
 

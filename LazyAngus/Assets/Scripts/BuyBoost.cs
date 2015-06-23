@@ -10,13 +10,18 @@ public class BuyBoost : MonoBehaviour {
 		playerStats = PlayerStats.instance;
 	}
 
-	public void Buy() {
+	public void BuyAndUse() {
 		BoostButton button = gameObject.GetComponent<BoostButton>();
+		BoostConfig.BoostType boostType = button.GetBoostType ();
 
-		int price = boostConfig.GetCurrentPriceForBoost (button.GetBoostType());
+		int price = boostConfig.GetCurrentPriceForBoost (boostType);
+
 		if (playerStats.CanAfford (price)) {
-			playerStats.AddBoost (button.GetBoostType());
+			playerStats.AddBoost (boostType);
 			playerStats.SpendTreats (price);
+
+			playerStats.RemoveBoost (boostType);			
+			boostConfig.ExecuteBoost (boostType);
 		}
 	}
 }

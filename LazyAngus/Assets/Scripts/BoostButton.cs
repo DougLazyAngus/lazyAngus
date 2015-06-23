@@ -7,6 +7,7 @@ public class BoostButton : MonoBehaviour {
 	public enum BoostButtonMode {
 		BOOST_BUTTON_MODE_USE = 0,
 		BOOST_BUTTON_MODE_BUY,
+		BOOST_BUTTON_MODE_BUY_AND_USE,
 
 		NUM_TYPES,
 	}
@@ -58,11 +59,22 @@ public class BoostButton : MonoBehaviour {
 	} 
 
 	public void RefreshButton() {
-		if (mode == BoostButtonMode.BOOST_BUTTON_MODE_BUY) {
+		switch (mode) {
+		case BoostButtonMode.BOOST_BUTTON_MODE_BUY:
 			RefreshForBuy ();
-		} else {
+			break;
+		case BoostButtonMode.BOOST_BUTTON_MODE_USE:
 			RefreshForUse ();
+			break;
+		default:
+			RefreshForBuyAndUse ();
+			break;
 		}
+	}
+
+	public void RefreshForBuyAndUse() {
+		// Right now, same as buy.
+		RefreshForBuy ();
 	}
 
 	public void RefreshForBuy() {
