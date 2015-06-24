@@ -24,8 +24,14 @@ public class DestroyByCollision : MonoBehaviour {
 			return;
 		}
 
-		mouseMove.OnKilled ();
-		pawController.CountKill (mouseMove);
-		GameController.instance.OnMouseKilled (mouseMove);
+		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS) {
+			if (!mouseMove.isPoisoned) {
+				mouseMove.SetPoisoned();
+			}
+		} else {
+			mouseMove.OnKilled ();
+			pawController.CountKill (mouseMove);
+			GameController.instance.OnMouseKilled (mouseMove);
+		}
 	}
 }

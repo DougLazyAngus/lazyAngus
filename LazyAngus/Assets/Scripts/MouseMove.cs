@@ -92,7 +92,6 @@ public class MouseMove : MonoBehaviour {
 		activeMouseCount += 1;
 
 		UpdateSpeed ();
-		UpdatePoisonedState ();
 
 		MakeSlider ();
 
@@ -122,21 +121,17 @@ public class MouseMove : MonoBehaviour {
 
 	void OnBoostActivationChanged () {
 		UpdateSpeed ();
-		UpdatePoisonedState ();
 	}
 
 	void UpdateSpeed () {
 		actualSpeedM = baseSpeedM;
 	}
 
-	void UpdatePoisonedState() {
-		if (isPoisoned) {
-			spriteRenderer.color = Color.green;
-		} else {
-			spriteRenderer.color = Color.white;
-		}
+	public void SetPoisoned() {
+		isPoisoned = true;
+		spriteRenderer.color = poisonedColor;
 	}
-
+	
 	void MakeSlider() {
 		GameObject sliderGameObject = Instantiate (trackingStatusBarPrototype, 
 		                                           new Vector3 (0, 0, 0),
@@ -240,17 +235,6 @@ public class MouseMove : MonoBehaviour {
 	
 		PositionMouse ();
 	}
-
-	private void DieFromPoison() {
-		this.OnKilled ();
-		GameController.instance.OnMousePoisoned (this);
-	}
-
-	//------------------------------------------
-	// 
-	// Public functions
-	//
-	//------------------------------------------
 
 
 	public void OnKilled() {
