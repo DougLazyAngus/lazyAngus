@@ -19,7 +19,12 @@ public class PawController : MonoBehaviour {
 	public GameObject normalPawSpriteGameObject;
 	public GameObject dangerPawSpriteGameObject;
 
-	private Collider2D model;
+	public GameObject bigPawSpriteGameObject;
+	public GameObject bigDangerPawSpriteGameObject;
+
+	public Collider2D normalCollider;
+	public Collider2D bigCollider;
+
 	private float swipeSpeed;
 
 	private int killsThisSwipe;
@@ -43,15 +48,12 @@ public class PawController : MonoBehaviour {
 
 		swipePhase = SwipePhase.SWIPE_NONE;
 
-		model = GetComponentInChildren<Collider2D> ();
-		model.isTrigger = false;
-		
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
 
 		transform.localPosition = pawHomeCatTransform.localPosition;
 
 		RegisterForEvents ();
-		UpdatePawDangerState ();
+		UpdatePawState ();
 		UpdateArmRotation ();
 	}
 
@@ -76,6 +78,10 @@ public class PawController : MonoBehaviour {
 			              tweakableParams.baseSwipeSpeed);
 		} else {
 			swipeSpeed = tweakableParams.baseSwipeSpeed;
+		}
+
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+			UpdatePawState();
 		}
 	}
 
@@ -126,18 +132,39 @@ public class PawController : MonoBehaviour {
 			pauseStarted = Time.time;
 		}
 
-		UpdatePawDangerState ();
+		UpdatePawState ();
 	}
 
-	void UpdatePawDangerState() {
-		if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-			model.isTrigger = true;
-			dangerPawSpriteGameObject.SetActive(true);
-			normalPawSpriteGameObject.SetActive(false);
+	void UpdatePawState() {
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+			dangerPawSpriteGameObject.SetActive (false);
+			normalCollider.gameObject.SetActive (false);
+
+			bigCollider.gameObject.SetActive (true);
+
+			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+				bigDangerPawSpriteGameObject.SetActive (true);
+				bigPawSpriteGameObject.SetActive (false);
+				bigCollider.isTrigger = true;
+			} else {
+				bigDangerPawSpriteGameObject.SetActive (false);
+				bigPawSpriteGameObject.SetActive (true);
+				bigCollider.isTrigger = false;
+			}
 		} else {
-			model.isTrigger = false;
-			normalPawSpriteGameObject.SetActive(true);
-			dangerPawSpriteGameObject.SetActive(false);
+			bigDangerPawSpriteGameObject.SetActive (false);
+			bigPawSpriteGameObject.SetActive (false);
+			bigCollider.gameObject.SetActive (false);
+			
+			normalCollider.gameObject.SetActive (true);
+			
+			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+				dangerPawSpriteGameObject.SetActive (true);
+				normalCollider.isTrigger = true;
+			} else {
+				dangerPawSpriteGameObject.SetActive (false);
+				normalCollider.isTrigger = false;
+			}
 		}
 	}
 

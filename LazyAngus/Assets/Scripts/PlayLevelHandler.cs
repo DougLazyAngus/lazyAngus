@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class PlayLevelHandler : MonoBehaviour {
-	public SecretUI secretUI;
-
 	public void Start() {
 	}
 
@@ -20,11 +18,11 @@ public class PlayLevelHandler : MonoBehaviour {
 		} 
 
 
-		int debugLevel = secretUI.GetSuggestedLevel ();
+		int debugLevel = SecretUI.instance.GetSuggestedLevel ();
 		if (debugLevel > 0) {
 			GameController.instance.SetGameLevel (debugLevel);
 		}
-		secretUI.ClearSuggestedLevel ();
+		SecretUI.instance.ClearSuggestedLevel ();
 
 		GameController.instance.TransitionToPhase (GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 	}

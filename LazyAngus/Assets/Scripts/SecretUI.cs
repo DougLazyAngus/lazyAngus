@@ -8,10 +8,14 @@ public class SecretUI : MonoBehaviour {
 	public InputField inputField;
 	public CanvasGroup canvasGroup;
 	bool uiIsVisible;
+	public static SecretUI instance;
+
+	void Awake() {
+		instance = this;
+	}
 
 	// Use this for initialization
 	void Start () {	
-		canvasGroup = gameObject.GetComponent<CanvasGroup> ();
 		uiIsVisible = false;
 		UpdateVisibility ();
 	}
