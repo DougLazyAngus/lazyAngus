@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public sealed class FB : ScriptableObject
-{   
+{
     public static InitDelegate OnInitComplete;
     public static HideUnityDelegate OnHideUnity;
 
@@ -81,11 +81,11 @@ public sealed class FB : ScriptableObject
 
     #region Init
     /// <summary>
-    /// This is the preferred way to call FB.Init().    It will take the facebook app id specified in your "Facebook" 
+    /// This is the preferred way to call FB.Init().    It will take the facebook app id specified in your "Facebook"
     /// => "Edit Settings" menu when it is called.
     /// </summary>
     /// <param name="onInitComplete">
-    /// Delegate is called when FB.Init() finished initializing everything. By passing in a delegate you can find 
+    /// Delegate is called when FB.Init() finished initializing everything. By passing in a delegate you can find
     /// out when you can safely call the other methods.
     /// </param>
     /// <param name="onHideUnity">A delegate to invoke when unity is hidden.</param>

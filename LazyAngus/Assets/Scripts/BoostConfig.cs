@@ -3,16 +3,16 @@ using System.Collections;
 
 public class BoostConfig : MonoBehaviour {
 	public enum BoostType {
-		BOOST_TYPE_FREEZE = 0,
-		BOOST_TYPE_ENERGY,
-		BOOST_TYPE_POISON,
-		
+		BOOST_TYPE_FAST_PAWS = 0,
+		BOOST_TYPE_GOOD_EYES,
+		BOOST_TYPE_BIG_PAWS,
+		BOOST_TYPE_POISON_PAWS,
+		BOOST_TYPE_FART,
+
 		NUM_TYPES,
 	};
 
-	public Sprite freezeSprite;
-	public Sprite energySprite;
-	public Sprite bombSprite;
+	public Sprite[] sprites;
 
 	private PlayerStats playerStats;
 	private TweakableParams tweakableParams;
@@ -48,28 +48,22 @@ public class BoostConfig : MonoBehaviour {
 	}
 
 	public Sprite GetSpriteForType(BoostType bType) {
-		// FIXME(dbanks)
-		// I want to make this more object oriented, not sure how to do that.
-		switch (bType) {
-		case BoostType.BOOST_TYPE_FREEZE:
-			return freezeSprite;
-		case BoostType.BOOST_TYPE_ENERGY:
-			return energySprite;
-		case BoostType.BOOST_TYPE_POISON:
-			return bombSprite;
-		default:
-			return null;
-		}
+		int index = (int)bType;
+		return sprites [index];
 	}
 
 	public string GetTitleForType(BoostType bType) {
 		switch (bType) {
-		case BoostType.BOOST_TYPE_FREEZE:
-			return "Freeze Time";
-		case BoostType.BOOST_TYPE_ENERGY:
+		case BoostType.BOOST_TYPE_FAST_PAWS:
 			return "Fast Paws";
-		case BoostType.BOOST_TYPE_POISON:
-			return "Poison";
+		case BoostType.BOOST_TYPE_GOOD_EYES:
+			return "Super Sight";
+		case BoostType.BOOST_TYPE_BIG_PAWS:
+			return "Big Paws";
+		case BoostType.BOOST_TYPE_POISON_PAWS:
+			return "Poison Paws";
+		case BoostType.BOOST_TYPE_FART:
+			return "Farts";
 		default:
 			return null;
 		}
@@ -82,18 +76,37 @@ public class BoostConfig : MonoBehaviour {
 		return (numBought + 1) * (numBought + 2)/2;
 	}
 
-
+	
 	public int GetLevelLock(BoostType bType) {
 		switch (bType) {
-		case BoostType.BOOST_TYPE_FREEZE:
-			return 1;
-		case BoostType.BOOST_TYPE_ENERGY:
-			return 4;
-		case BoostType.BOOST_TYPE_POISON:
-			return 9;
-		default:
-			return 1000;
+		case BoostType.BOOST_TYPE_FAST_PAWS:
+			return 2;
+		case BoostType.BOOST_TYPE_GOOD_EYES:
+			return 5;
+		case BoostType.BOOST_TYPE_BIG_PAWS:
+			return 8;
+		case BoostType.BOOST_TYPE_POISON_PAWS:
+			return 11;
+		case BoostType.BOOST_TYPE_FART:
+			return 14;
 		}
+		return 0;
+	}
+
+	public float GetBoostTime(BoostType bType) {
+		switch (bType) {
+		case BoostType.BOOST_TYPE_FAST_PAWS:
+			return tweakableParams.fastPawsBoostTime;
+		case BoostType.BOOST_TYPE_GOOD_EYES:
+			return tweakableParams.goodEyesBoostTime;
+		case BoostType.BOOST_TYPE_BIG_PAWS:
+			return tweakableParams.bigPawsBoostTime;
+		case BoostType.BOOST_TYPE_POISON_PAWS:
+			return tweakableParams.poisonPawsBoostTime;
+		case BoostType.BOOST_TYPE_FART:
+			return tweakableParams.fartBoostTime;
+		}
+		return 10.0f;
 	}
 
 	public void CancelBoosts() {
@@ -123,18 +136,7 @@ public class BoostConfig : MonoBehaviour {
 		// Make sure nothing else is going.
 		CleanupActiveBoost ();
 
-		float pauseTime = 0;
-		switch (bType) {
-		case BoostType.BOOST_TYPE_POISON:
-			pauseTime = tweakableParams.poisonBoostTime;
-			break;
-		case BoostType.BOOST_TYPE_ENERGY:
-			pauseTime = tweakableParams.energyBoostTime;
-			break;
-		case BoostType.BOOST_TYPE_FREEZE:
-			pauseTime = tweakableParams.freezeBoostTime;
-			break;
-		}
+		float pauseTime = GetBoostTime (bType);
 
 		activeBoost = bType;
 		activeBoostStartTime = Time.time;

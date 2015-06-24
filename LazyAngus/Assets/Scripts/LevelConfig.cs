@@ -13,11 +13,13 @@ public class LevelDescription {
 	public string specialText;
 	public List<ExplicitMouseDesc> explicitMouseDesc;
 	public int growMouseHoles;
+	public Sprite sprite;
 
 	public LevelDescription() {
 		growMouseHoles = 0;
 		specialText = "";
 		explicitMouseDesc = new List<ExplicitMouseDesc> ();
+		sprite = null;
 	}
 }
 
@@ -48,6 +50,8 @@ public class LevelConfig : MonoBehaviour {
 	private QuasiRandomGenerator<float> distributedPauseGenerator;
 
 	private Dictionary<int, LevelDescription> levelDescMap;
+	
+	public Sprite[] catFoodSprites;
 
 	enum WaveType {
 		// Quasi-random, no two mice out of one hole same time.
@@ -133,8 +137,8 @@ public class LevelConfig : MonoBehaviour {
 		case 2:
 			{
 				// Six slow mice,  different directions, still long pauses.
-				ld.specialText = "Kitty treats help Angus move faster!";
-
+				ld.specialText = "Cat food helps Angus move faster!";
+				ld.sprite = catFoodSprites[(int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS];
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
@@ -238,7 +242,8 @@ public class LevelConfig : MonoBehaviour {
 
 		case 5:
 			{
-				ld.specialText = "This new kitty treat helps Angus see better!";
+				ld.specialText = "This cat food helps Angus see better!";
+				ld.sprite = catFoodSprites[(int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES];
 
 				// Eight mice, two medium.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.EAST,

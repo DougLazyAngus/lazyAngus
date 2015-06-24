@@ -50,9 +50,9 @@ public class ConeOfViewRenderer : MonoBehaviour {
 	}		
 
 	void OnBoostUsageChanged() {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_ENERGY) {
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
 			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange * 
-			                             tweakableParams.energyBoostAngleMultiplier);
+			                             tweakableParams.goodEyesAngleMultiplier);
 		} else {
 			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange);
 		}

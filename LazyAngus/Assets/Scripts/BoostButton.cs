@@ -14,8 +14,6 @@ public class BoostButton : MonoBehaviour {
 
 	public BoostButtonMode mode;
 
-	public float width = 100f;
-
 	private Button button;
 	public Text buttonText;
 	public Text countText;
@@ -73,13 +71,36 @@ public class BoostButton : MonoBehaviour {
 	}
 
 	public void RefreshForBuyAndUse() {
-		// Right now, same as buy.
-		RefreshForBuy ();
+		restrictionText.gameObject.SetActive(true);
+		buttonText.gameObject.SetActive(false);
+		countText.gameObject.SetActive(false);
+
+		int levelLock = boostConfig.GetLevelLock (boostType);
+		int gameLevel = gameController.gameLevel;
+		
+		if (gameLevel < levelLock) {
+			restrictionText.text = "Wave " + levelLock;
+			button.interactable = false;
+			countText.text = "";
+		} else {
+			priceInTreats = boostConfig.GetCurrentPriceForBoost (boostType);
+			restrictionText.text = "$ " + priceInTreats;
+			button.interactable = (playerStats.CanAfford (priceInTreats) && 
+			                       !boostConfig.IsBoostActive () && 
+			                       gameController.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		}
+
+		if (!button.interactable) {
+			restrictionText.fontStyle = FontStyle.Italic;
+		} else {
+			restrictionText.fontStyle = FontStyle.Normal;
+		}
 	}
 
 	public void RefreshForBuy() {
 		restrictionText.gameObject.SetActive(true);
 		buttonText.gameObject.SetActive(true);
+		countText.gameObject.SetActive(true);
 
 		int levelLock = boostConfig.GetLevelLock (boostType);
 		int gameLevel = gameController.gameLevel;
@@ -99,6 +120,7 @@ public class BoostButton : MonoBehaviour {
 	public void RefreshForUse() {
 		restrictionText.gameObject.SetActive(false);
 		buttonText.gameObject.SetActive(false);
+		countText.gameObject.SetActive(true);
 
 		if (playerStats.GetAvailableBoostCount(boostType) > 0) {
 			button.gameObject.SetActive (true);

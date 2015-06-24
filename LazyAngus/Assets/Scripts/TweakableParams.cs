@@ -4,15 +4,19 @@ using System.Collections;
 public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
-	public float freezeBoostTime = 3.0f;
-	public float freezeBoostMouseSpeedMultipler = 0.1f;
-	
-	public float energyBoostTime = 7.0f;
-	public float energyBoostSwipeSpeedMultiplier = 3.0f;
-	public float energyBoostAngleMultiplier = 1.3333f;
+	public float fastPawsBoostTime = 7.0f;
+	public float fastPawsSwipeSpeedMultiplier = 3.0f;
 
-	public float poisonBoostTime = 1f;
-	
+	public float goodEyesBoostTime = 7.0f;
+	public float goodEyesAngleMultiplier = 1.3333f;
+
+	public float bigPawsBoostTime = 7.0f;
+	public float bigPawsMultiplier = 2.0f;
+
+	public float poisonPawsBoostTime = 3.5f;
+
+	public float fartBoostTime = 7.0f;
+
 	// Player swipe params.
 	public float baseSwipeSpeed = 7.0f;	
 	public float swipeInitialPause = 0.3f;
@@ -32,14 +36,13 @@ public class TweakableParams : MonoBehaviour {
 	public int maxMicePerHole = 5;
 
 	// Initial money and boosts.
-	public int initialMoney = 0;
+	public int initialMoney = 1;
 	public int initialBoosts = 0;
 
 	public int debugInitialMoney = 100;
 	public int debugInitialBoosts = 5;
 	public int debugMaxMicePerHole = 100;
-
-
+	
 	public static TweakableParams instance { get; private set; }
 
 	public int GetInitialMoney() {

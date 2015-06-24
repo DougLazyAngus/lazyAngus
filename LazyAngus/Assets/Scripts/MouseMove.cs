@@ -70,7 +70,6 @@ public class MouseMove : MonoBehaviour {
 
 	public GameObject deadMousePrototype;
 
-	TweakableParams tweakableParams;
 	BoostConfig boostConfig;
 
 	public bool isPoisoned { get; private set;}
@@ -81,7 +80,6 @@ public class MouseMove : MonoBehaviour {
 
 	void Awake() {
 		registerdForEvents = false;
-		tweakableParams = TweakableParams.instance;
 		boostConfig = BoostConfig.instance;
 		dead = false;
 	}
@@ -128,26 +126,14 @@ public class MouseMove : MonoBehaviour {
 	}
 
 	void UpdateSpeed () {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FREEZE) {
-			actualSpeedM = baseSpeedM * tweakableParams.freezeBoostMouseSpeedMultipler;
-		} else {
-			actualSpeedM = baseSpeedM;
-		}
+		actualSpeedM = baseSpeedM;
 	}
 
 	void UpdatePoisonedState() {
-		bool wasPoisoned = isPoisoned;
-
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_POISON) {
+		if (isPoisoned) {
 			spriteRenderer.color = Color.green;
-			isPoisoned = true;
 		} else {
 			spriteRenderer.color = Color.white;
-			isPoisoned = false;
-		}
-
-		if (!isPoisoned && wasPoisoned) {
-			DieFromPoison();
 		}
 	}
 

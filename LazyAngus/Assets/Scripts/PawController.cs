@@ -71,8 +71,8 @@ public class PawController : MonoBehaviour {
 	}
 
 	void OnBoostActivationChanged() {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_ENERGY) {
-			swipeSpeed = (tweakableParams.energyBoostSwipeSpeedMultiplier * 
+		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+			swipeSpeed = (tweakableParams.fastPawsSwipeSpeedMultiplier * 
 			              tweakableParams.baseSwipeSpeed);
 		} else {
 			swipeSpeed = tweakableParams.baseSwipeSpeed;
