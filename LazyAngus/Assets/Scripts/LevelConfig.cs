@@ -203,8 +203,8 @@ public class LevelConfig : MonoBehaviour {
 		case 4:
 			{
 				ld.specialText = "Get ready for faster mice!";
-				ld.sprite = BoostConfig.instance.GetIntroImageForType(
-					BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
+				ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType(
+					MouseConfig.MouseType.MOUSE_TYPE_MEDIUM);
 
 				// Eight mice, two medium.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
@@ -285,7 +285,9 @@ public class LevelConfig : MonoBehaviour {
 		case 6:
 			{
 				ld.specialText = "Here comes the fastest mouse yet!";
-			
+				ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType(
+					MouseConfig.MouseType.MOUSE_TYPE_FAST);
+
 				// ten mice, two medium, two fast.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
@@ -354,7 +356,9 @@ public class LevelConfig : MonoBehaviour {
 		case 9:
 		{
 			ld.specialText = "Watch out for the super speedster mouse!";
-			
+			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType(
+				MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST);
+
 			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
 			break;
 		}

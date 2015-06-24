@@ -28,6 +28,8 @@ public class MouseConfig : MonoBehaviour {
 	public float superSpeedM = 4.0f;
 
 	public Sprite[] baseSprites;	
+	public Sprite[] introSprites;
+
 	public Color poisonedColor;
 
 	public Vector3 progressBarOffset;
@@ -41,5 +43,13 @@ public class MouseConfig : MonoBehaviour {
 
 	public MouseType GetRandomMouseType () {
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
+	}
+	
+	public Sprite GetSpriteForMouseType(MouseType mt) {
+		return baseSprites[(int)mt];
+	}
+	
+	public Sprite GetIntroSpriteForMouseType(MouseType mt) {
+		return introSprites[(int)mt];
 	}
 }
