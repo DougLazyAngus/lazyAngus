@@ -12,10 +12,9 @@ public class BoostConfig : MonoBehaviour {
 		NUM_TYPES,
 	};
 
-	public Sprite[] sprites;
+	private BoostDesc[] boostDescs;
 
 	private PlayerStats playerStats;
-	private TweakableParams tweakableParams;
 	private GameController gameController;
 	
 	public delegate void BoostActiveEventHandler();
@@ -33,12 +32,53 @@ public class BoostConfig : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		activeBoost = BoostType.NUM_TYPES;
+
+		LoadBoostDescs ();
 	}
+
+	void LoadBoostDescs() {
+		boostDescs = new BoostDesc[(int)BoostType.NUM_TYPES];
+
+		boostDescs [(int)BoostType.BOOST_TYPE_FAST_PAWS] = new BoostDesc (
+			"Fast Paws", 
+			"energy_can", 
+			"energy_can", 
+			7.0f, 
+			2);
+
+		boostDescs [(int)BoostType.BOOST_TYPE_GOOD_EYES] = new BoostDesc (
+			"Super Sight", 
+			"glasses_can", 
+			"glasses_can", 
+			7.0f, 
+			5);
+
+		boostDescs [(int)BoostType.BOOST_TYPE_BIG_PAWS] = new BoostDesc (
+			"Big Paws", 
+			"big_paws_can", 
+			"big_paws_can", 
+			7.0f, 
+			8);
+
+		boostDescs [(int)BoostType.BOOST_TYPE_POISON_PAWS] = new BoostDesc (
+			"Poison Paws", 
+			"poison_paw_can", 
+			"poison_paw_can", 
+			7.0f, 
+			11);
+
+		boostDescs [(int)BoostType.BOOST_TYPE_FART] = new BoostDesc (
+			"Farts", 
+			"fart_can", 
+			"fart_can", 
+			7.0f, 
+			14);
+	}
+
 
 	// Use this for initialization
 	void Start () {
 		playerStats = PlayerStats.instance;
-		tweakableParams = TweakableParams.instance;
 		gameController = GameController.instance;
 	}
 	
@@ -46,27 +86,20 @@ public class BoostConfig : MonoBehaviour {
 	void Update () {
 	
 	}
-
-	public Sprite GetSpriteForType(BoostType bType) {
+	
+	public Sprite GetButtonImageForType(BoostType bType) {
 		int index = (int)bType;
-		return sprites [index];
+		return boostDescs [index].buttonImage;
+	}
+	
+	public Sprite GetIntroImageForType(BoostType bType) {
+		int index = (int)bType;
+		return boostDescs [index].introScreenImage;
 	}
 
 	public string GetTitleForType(BoostType bType) {
-		switch (bType) {
-		case BoostType.BOOST_TYPE_FAST_PAWS:
-			return "Fast Paws";
-		case BoostType.BOOST_TYPE_GOOD_EYES:
-			return "Super Sight";
-		case BoostType.BOOST_TYPE_BIG_PAWS:
-			return "Big Paws";
-		case BoostType.BOOST_TYPE_POISON_PAWS:
-			return "Poison Paws";
-		case BoostType.BOOST_TYPE_FART:
-			return "Farts";
-		default:
-			return null;
-		}
+		int index = (int)bType;
+		return boostDescs [index].boostName;
 	}
 
 
@@ -78,35 +111,13 @@ public class BoostConfig : MonoBehaviour {
 
 	
 	public int GetLevelLock(BoostType bType) {
-		switch (bType) {
-		case BoostType.BOOST_TYPE_FAST_PAWS:
-			return 2;
-		case BoostType.BOOST_TYPE_GOOD_EYES:
-			return 5;
-		case BoostType.BOOST_TYPE_BIG_PAWS:
-			return 8;
-		case BoostType.BOOST_TYPE_POISON_PAWS:
-			return 11;
-		case BoostType.BOOST_TYPE_FART:
-			return 14;
-		}
-		return 0;
+		int index = (int)bType;
+		return boostDescs [index].levelLock;
 	}
 
 	public float GetBoostTime(BoostType bType) {
-		switch (bType) {
-		case BoostType.BOOST_TYPE_FAST_PAWS:
-			return tweakableParams.fastPawsBoostTime;
-		case BoostType.BOOST_TYPE_GOOD_EYES:
-			return tweakableParams.goodEyesBoostTime;
-		case BoostType.BOOST_TYPE_BIG_PAWS:
-			return tweakableParams.bigPawsBoostTime;
-		case BoostType.BOOST_TYPE_POISON_PAWS:
-			return tweakableParams.poisonPawsBoostTime;
-		case BoostType.BOOST_TYPE_FART:
-			return tweakableParams.fartBoostTime;
-		}
-		return 10.0f;
+		int index = (int)bType;
+		return boostDescs [index].effectiveTime;
 	}
 
 	public void CancelBoosts() {

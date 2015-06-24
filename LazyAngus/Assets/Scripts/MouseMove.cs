@@ -3,21 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class MouseMove : MonoBehaviour {
-	public enum MovementPhaseType {
-		ENTERING_PHASE = 0,
-		RUNNING_PHASE, 
-		LEAVING_PHASE,
-		NUM_TYPES,
-	};
-
-	public enum MouseType {
-		MOUSE_TYPE_SLOW = 0,
-		MOUSE_TYPE_MEDIUM,
-		MOUSE_TYPE_FAST,
-		MOUSE_TYPE_SUPERFAST,
-		NUM_TYPES,
-	};
-	
 	private float mouseAngleDeg;
 	private float startAngleDeg;
 	private float endAngleDeg;
@@ -25,41 +10,19 @@ public class MouseMove : MonoBehaviour {
 	private float mouseRadius;  
 	private float circlingRadius;
 	
-	private MovementPhaseType phase;
+	private MouseConfig.MovementPhaseType phase;
 
-	public MouseType mouseType { get; private set; }
+	public MouseConfig.MouseType mouseType { get; private set; }
 
 	private float baseSpeedM;
 	private float actualSpeedM;
-
-	/*
-	 * These could/should all be static but I can't set them in the 
-	 * flippin' inpsector
-	 */
-	public float minCirclingRadius = 3.0f;
-	public float maxCirclingRadius = 4.5f;
-	public float startMouseRadius = 7.0f;
-
-	public float minSpeedM = 1.4f;
-	public float maxSpeedM = 2.6f;
-
-	public float superSpeedM = 4.0f;
-
+	
 	public SpriteRenderer spriteRenderer;
-
-	public Sprite[] baseSprites;
-
-	public Color poisonedColor;
-
+	
 	public bool dead { get; private set; }
 
 	public GameObject trackingStatusBarPrototype;
-	/*
-	 * End anger section.
-	 */
-
-	public Vector3 progressBarOffset;
-
+	
 	private bool isClockwise;
 
 	private Slider sliderInstance;
@@ -68,27 +31,18 @@ public class MouseMove : MonoBehaviour {
 	public static int activeMouseCount = 0;
 	bool registerdForEvents;
 
-	public GameObject deadMousePrototype;
-
-	BoostConfig boostConfig;
-
 	public bool isPoisoned { get; private set;}
-
-	public static MouseType GetRandomMouseType () {
-		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
-	}
 
 	void Awake() {
 		registerdForEvents = false;
-		boostConfig = BoostConfig.instance;
 		dead = false;
 	}
 
 	// Use this for initialization
 	void Start () {
 		mouseAngleDeg = startAngleDeg;
-		phase = MovementPhaseType.ENTERING_PHASE;
-		mouseRadius = startMouseRadius; 
+		phase = MouseConfig.MovementPhaseType.ENTERING_PHASE;
+		mouseRadius = MouseConfig.instance.startMouseRadius; 
 		activeMouseCount += 1;
 
 		UpdateSpeed ();
@@ -108,13 +62,13 @@ public class MouseMove : MonoBehaviour {
 	}
 	
 	void RegisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		registerdForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
 		}
 	}
 
@@ -129,7 +83,7 @@ public class MouseMove : MonoBehaviour {
 
 	public void SetPoisoned() {
 		isPoisoned = true;
-		spriteRenderer.color = poisonedColor;
+		spriteRenderer.color = MouseConfig.instance.poisonedColor;
 	}
 	
 	void MakeSlider() {
@@ -137,7 +91,7 @@ public class MouseMove : MonoBehaviour {
 		                                           new Vector3 (0, 0, 0),
 		                                           Quaternion.identity) as GameObject;
 		WorldObjectFollower woFollower = sliderGameObject.GetComponent<WorldObjectFollower> ();
-		woFollower.SetObjectToFollow (gameObject, progressBarOffset);
+		woFollower.SetObjectToFollow (gameObject, MouseConfig.instance.progressBarOffset);
 
 		sliderInstance = sliderGameObject.GetComponent<Slider> ();
 		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
@@ -154,10 +108,10 @@ public class MouseMove : MonoBehaviour {
 
 
 		switch (phase) {
-		case MovementPhaseType.ENTERING_PHASE:
+		case MouseConfig.MovementPhaseType.ENTERING_PHASE:
 			adjustmentDeg = 180.0f;
 			break;
-		case MovementPhaseType.RUNNING_PHASE:
+		case MouseConfig.MovementPhaseType.RUNNING_PHASE:
 			adjustmentDeg = isClockwise ? 90.0f : -90.0f;
 			break;
 		}
@@ -174,11 +128,11 @@ public class MouseMove : MonoBehaviour {
 		float fractionFinished = 0.0f;
 		
 		switch (phase) {
-		case MovementPhaseType.RUNNING_PHASE:
+		case MouseConfig.MovementPhaseType.RUNNING_PHASE:
 			fractionFinished = Mathf.Abs(mouseAngleDeg - startAngleDeg)/
 				Mathf.Abs(startAngleDeg - endAngleDeg);
 			break;
-		case MovementPhaseType.LEAVING_PHASE:
+		case MouseConfig.MovementPhaseType.LEAVING_PHASE:
 			fractionFinished = 1.0f;
 			break;
 		}
@@ -194,15 +148,15 @@ public class MouseMove : MonoBehaviour {
 		float deltaTime = Time.deltaTime;
 
 		switch (phase) {
-		case MovementPhaseType.ENTERING_PHASE:
+		case MouseConfig.MovementPhaseType.ENTERING_PHASE:
 			mouseRadius -= deltaTime * actualSpeedM;
 			if (mouseRadius <= circlingRadius) {
 				mouseRadius = circlingRadius;  
-				phase = MovementPhaseType.RUNNING_PHASE;
+				phase = MouseConfig.MovementPhaseType.RUNNING_PHASE;
 				sliderInstance.gameObject.SetActive (true);
 			}
 			break;
-		case MovementPhaseType.RUNNING_PHASE: {
+		case MouseConfig.MovementPhaseType.RUNNING_PHASE: {
 			float distanceDelta = actualSpeedM * Time.deltaTime;
 			float angleDeltaRad = distanceDelta/mouseRadius;
 			float angleDeltaDeg = angleDeltaRad * Mathf.Rad2Deg;
@@ -216,19 +170,19 @@ public class MouseMove : MonoBehaviour {
 			if (isClockwise) {
 				if (mouseAngleDeg >= endAngleDeg) {
 					mouseAngleDeg = endAngleDeg;
-					phase = MovementPhaseType.LEAVING_PHASE;
+					phase = MouseConfig.MovementPhaseType.LEAVING_PHASE;
 				} 
 			} else {
 				if (mouseAngleDeg <= endAngleDeg) {
 					mouseAngleDeg = endAngleDeg;
-					phase = MovementPhaseType.LEAVING_PHASE;
+					phase = MouseConfig.MovementPhaseType.LEAVING_PHASE;
 				}
 			}
 
 			break;
 		}
 
-		case MovementPhaseType.LEAVING_PHASE:
+		case MouseConfig.MovementPhaseType.LEAVING_PHASE:
 			mouseRadius += deltaTime * actualSpeedM;
 			break;
 		}
@@ -238,7 +192,7 @@ public class MouseMove : MonoBehaviour {
 
 
 	public void OnKilled() {
-		GameObject deadMouseObject = Instantiate (deadMousePrototype, 
+		GameObject deadMouseObject = Instantiate (MouseConfig.instance.deadMousePrototype, 
 		                                    new Vector3 (0, 0, 0),
 		                                    Quaternion.identity) as GameObject;
 		DeadMouse deadMouse = deadMouseObject.GetComponent<DeadMouse> ();
@@ -252,21 +206,21 @@ public class MouseMove : MonoBehaviour {
 		Object.Destroy (this.gameObject);
 	}
 
-	void SetMouseType(MouseType mt) {
+	void SetMouseType(MouseConfig.MouseType mt) {
 		mouseType = mt;
 		   
 		switch (mouseType) {
-		case MouseType.MOUSE_TYPE_SUPERFAST:
-			baseSpeedM = superSpeedM;
+		case MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST:
+			baseSpeedM = MouseConfig.instance.superSpeedM;
 			break;
-		case MouseType.MOUSE_TYPE_FAST:
-			baseSpeedM = maxSpeedM;
+		case MouseConfig.MouseType.MOUSE_TYPE_FAST:
+			baseSpeedM = MouseConfig.instance.maxSpeedM;
 			break;
-		case MouseType.MOUSE_TYPE_SLOW:
-			baseSpeedM = minSpeedM;
+		case MouseConfig.MouseType.MOUSE_TYPE_SLOW:
+			baseSpeedM = MouseConfig.instance.minSpeedM;
 			break;
-		case MouseType.MOUSE_TYPE_MEDIUM:
-			baseSpeedM = (maxSpeedM + minSpeedM)/2;
+		case MouseConfig.MouseType.MOUSE_TYPE_MEDIUM:
+			baseSpeedM = (MouseConfig.instance.maxSpeedM + MouseConfig.instance.minSpeedM)/2;
 			break;
 		}
 
@@ -276,7 +230,7 @@ public class MouseMove : MonoBehaviour {
 
 
 		float newScale;
-		if (mouseType == MouseType.MOUSE_TYPE_SUPERFAST) {
+		if (mouseType == MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST) {
 			newScale = 1.0f;
 		} else {
 			newScale = 1.0f + 0.13f * mtAsInt;
@@ -285,14 +239,14 @@ public class MouseMove : MonoBehaviour {
 		scale *= newScale;
 		transform.localScale = scale;
 
-		spriteRenderer.sprite = baseSprites [mtAsInt];
+		spriteRenderer.sprite = MouseConfig.instance.baseSprites [mtAsInt];
 	}
 
-	public MovementPhaseType GetMousePhase() {
+	public MouseConfig.MovementPhaseType GetMousePhase() {
 		return phase;
 	}
 
-	public void SetupMouse(MouseMove.MouseType mouseType,
+	public void SetupMouse(MouseConfig.MouseType mouseType,
 	                       MouseHole.MouseHoleLocation originHole,
 	                       bool isClockwise, 
 	                       int track) {
@@ -301,9 +255,10 @@ public class MouseMove : MonoBehaviour {
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
 
 		float extraRadiusFraction = (float)track/(float)(TweakableParams.instance.numTracks - 1);
-		float extraRadius = (maxCirclingRadius - minCirclingRadius) * extraRadiusFraction;
+		float extraRadius = (MouseConfig.instance.maxCirclingRadius -
+		                     MouseConfig.instance.minCirclingRadius) * extraRadiusFraction;
 		
-		circlingRadius = minCirclingRadius + extraRadius;
+		circlingRadius = MouseConfig.instance.minCirclingRadius + extraRadius;
 		
 		this.SetMouseType(mouseType);
 

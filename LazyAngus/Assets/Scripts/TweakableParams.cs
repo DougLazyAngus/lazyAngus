@@ -4,19 +4,12 @@ using System.Collections;
 public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
-	public float fastPawsBoostTime = 7.0f;
 	public float fastPawsSwipeSpeedMultiplier = 3.0f;
 
-	public float goodEyesBoostTime = 7.0f;
 	public float goodEyesAngleMultiplier = 1.3333f;
 
-	public float bigPawsBoostTime = 7.0f;
 	public float bigPawsMultiplier = 2.0f;
-
-	public float poisonPawsBoostTime = 3.5f;
-
-	public float fartBoostTime = 7.0f;
-
+	
 	// Player swipe params.
 	public float baseSwipeSpeed = 7.0f;	
 	public float swipeInitialPause = 0.3f;

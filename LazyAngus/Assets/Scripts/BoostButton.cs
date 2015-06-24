@@ -49,7 +49,7 @@ public class BoostButton : MonoBehaviour {
 		button = gameObject.GetComponent<Button> ();		
 
 		Image image = gameObject.GetComponent<Image> ();
-		image.sprite = boostConfig.GetSpriteForType (boostType);
+		image.sprite = boostConfig.GetButtonImageForType (boostType);
 
 		buttonText.text = boostConfig.GetTitleForType (boostType);
 

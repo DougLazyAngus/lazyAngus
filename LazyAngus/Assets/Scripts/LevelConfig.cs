@@ -51,8 +51,6 @@ public class LevelConfig : MonoBehaviour {
 
 	private Dictionary<int, LevelDescription> levelDescMap;
 	
-	public Sprite[] catFoodSprites;
-
 	enum WaveType {
 		// Quasi-random, no two mice out of one hole same time.
 		WAVE_TYPE_DISTRIBUTED = 0, 
@@ -83,7 +81,7 @@ public class LevelConfig : MonoBehaviour {
 	                        float pause,
 	                        bool isClockwise, 
 	                        MouseHole.MouseHoleLocation location, 
-	                        MouseMove.MouseType mType, 
+	                        MouseConfig.MouseType mType, 
 	                        int track) {
 		ExplicitMouseDesc emd;
 
@@ -117,19 +115,19 @@ public class LevelConfig : MonoBehaviour {
 				// Four slow mice, all same direction, long pauses.
 				ld.specialText = "";
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 				break;
 			}
@@ -138,29 +136,30 @@ public class LevelConfig : MonoBehaviour {
 			{
 				// Six slow mice,  different directions, still long pauses.
 				ld.specialText = "Cat food helps Angus move faster!";
-				ld.sprite = catFoodSprites[(int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS];
+				ld.sprite = BoostConfig.instance.GetIntroImageForType(
+					BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 				break;
 			}
@@ -175,27 +174,27 @@ public class LevelConfig : MonoBehaviour {
 					LevelDescription.WEST_BIT);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, true, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.5f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 				break;
 			}
@@ -204,38 +203,40 @@ public class LevelConfig : MonoBehaviour {
 		case 4:
 			{
 				ld.specialText = "Get ready for faster mice!";
+				ld.sprite = BoostConfig.instance.GetIntroImageForType(
+					BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 
 				// Eight mice, two medium.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.1f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.1f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      1);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.5f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);	
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      2);	
 				break;
 			}
@@ -243,39 +244,40 @@ public class LevelConfig : MonoBehaviour {
 		case 5:
 			{
 				ld.specialText = "This cat food helps Angus see better!";
-				ld.sprite = catFoodSprites[(int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES];
+				ld.sprite = BoostConfig.instance.GetIntroImageForType(
+					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
 				// Eight mice, two medium.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, false, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      0);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);	
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 				break;
 			}
@@ -286,43 +288,43 @@ public class LevelConfig : MonoBehaviour {
 			
 				// ten mice, two medium, two fast.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_FAST, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_FAST, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);		
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      2);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      0);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			                      2);	
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseMove.MouseType.MOUSE_TYPE_FAST, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_FAST, 
 			                      1);
 			
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);	
 				break;
 			}
@@ -341,12 +343,43 @@ public class LevelConfig : MonoBehaviour {
 			
 		case 8:
 		{
-			ld.specialText = "Watch out for the super speedster mouse!";
+			ld.specialText = "Try new Giant Paws cat food!";
+			ld.sprite = BoostConfig.instance.GetIntroImageForType(
+				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel, false);
 			break;
 		}
 			
+		case 9:
+		{
+			ld.specialText = "Watch out for the super speedster mouse!";
+			
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			break;
+		}
+						
+		case 11:
+		{
+			ld.specialText = "Introducing.... Poison Paws cat food!";
+			ld.sprite = BoostConfig.instance.GetIntroImageForType(
+				BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
+			
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			break;
+		}
+
+			
+		case 14:
+		{
+			ld.specialText = "Farty cat food... Yum!";
+			ld.sprite = BoostConfig.instance.GetIntroImageForType(
+				BoostConfig.BoostType.BOOST_TYPE_FART);
+			
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			break;
+		}
+
 		default:
 			ld.specialText = "";
 			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
@@ -364,10 +397,10 @@ public class LevelConfig : MonoBehaviour {
 		QuasiRandomGenerator<WaveType> waveTypeGenerator = 
 			new QuasiRandomGenerator<WaveType> (waveDistribution);
 		
-		MouseMove.MouseType[] mouseDistribution = GetMouseDistributionForLevel (gameLevel, 
+		MouseConfig.MouseType[] mouseDistribution = GetMouseDistributionForLevel (gameLevel, 
 		                                                                        allowSuperSpeedy);
-		QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator = 
-			new QuasiRandomGenerator<MouseMove.MouseType> (mouseDistribution);
+		QuasiRandomGenerator<MouseConfig.MouseType> mouseTypeGenerator = 
+			new QuasiRandomGenerator<MouseConfig.MouseType> (mouseDistribution);
 
 		// One wave per two levels.
 		for (int i = 0; i < gameLevel/2; i++) {
@@ -407,39 +440,39 @@ public class LevelConfig : MonoBehaviour {
 
 	}
 	
-	MouseMove.MouseType[] GetMouseDistributionForLevel(int gameLevel, bool allowSuperSpeedy) {
+	MouseConfig.MouseType[] GetMouseDistributionForLevel(int gameLevel, bool allowSuperSpeedy) {
 		if (!allowSuperSpeedy) {
-			return new MouseMove.MouseType[] {
-				MouseMove.MouseType.MOUSE_TYPE_FAST,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+			return new MouseConfig.MouseType[] {
+				MouseConfig.MouseType.MOUSE_TYPE_FAST,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
 			};
 		} else {
-			return new MouseMove.MouseType[] {
-				MouseMove.MouseType.MOUSE_TYPE_SUPERFAST,
-				MouseMove.MouseType.MOUSE_TYPE_FAST,
-				MouseMove.MouseType.MOUSE_TYPE_FAST,
-				MouseMove.MouseType.MOUSE_TYPE_FAST,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_MEDIUM,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
-				MouseMove.MouseType.MOUSE_TYPE_SLOW,
+			return new MouseConfig.MouseType[] {
+				MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST,
+				MouseConfig.MouseType.MOUSE_TYPE_FAST,
+				MouseConfig.MouseType.MOUSE_TYPE_FAST,
+				MouseConfig.MouseType.MOUSE_TYPE_FAST,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_MEDIUM,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
+				MouseConfig.MouseType.MOUSE_TYPE_SLOW,
 			};
 		}
 	}
@@ -455,7 +488,7 @@ public class LevelConfig : MonoBehaviour {
 	}
 
 	List<ExplicitMouseDesc> GenerateWaveForLevel (WaveType wt, 
-	                                              QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator,
+	                                              QuasiRandomGenerator<MouseConfig.MouseType> mouseTypeGenerator,
 	                                              int gameLevel) {
 		switch (wt) {
 		case WaveType.WAVE_TYPE_DISTRIBUTED:
@@ -468,7 +501,7 @@ public class LevelConfig : MonoBehaviour {
 	}
 	
 	List<ExplicitMouseDesc> GenerateDistributedWave(
-			QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator) {
+			QuasiRandomGenerator<MouseConfig.MouseType> mouseTypeGenerator) {
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
 		int count = Random.Range (minDistributedMice, 
 		                          maxDistributedMice + 1);
@@ -477,7 +510,7 @@ public class LevelConfig : MonoBehaviour {
 			float pause = distributedPauseGenerator.GetNextValue ();
 			bool isClockwise = (Random.Range (0, 2) == 0);
 			MouseHole.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
-			MouseMove.MouseType mType = mouseTypeGenerator.GetNextValue ();
+			MouseConfig.MouseType mType = mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
 
 			if (i == count-1) {
@@ -495,7 +528,7 @@ public class LevelConfig : MonoBehaviour {
 	}
 	
 	List<ExplicitMouseDesc> GenerateParadeWave (
-			QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator) {
+			QuasiRandomGenerator<MouseConfig.MouseType> mouseTypeGenerator) {
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
 
 		bool isClockwise = (Random.Range (0, 2) == 0);
@@ -505,7 +538,7 @@ public class LevelConfig : MonoBehaviour {
 
 		for (int i = 0; i < count; i++) {
 			float pause = paradePause;
-			MouseMove.MouseType mType = mouseTypeGenerator.GetNextValue ();
+			MouseConfig.MouseType mType = mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
 			MouseHole.MouseHoleLocation location = mouseHoleGenerator.GetNextValue();
 
@@ -524,7 +557,7 @@ public class LevelConfig : MonoBehaviour {
 	}
 	
 	List<ExplicitMouseDesc> GenerateSpoutWave (
-			QuasiRandomGenerator<MouseMove.MouseType> mouseTypeGenerator) {
+			QuasiRandomGenerator<MouseConfig.MouseType> mouseTypeGenerator) {
 		List<ExplicitMouseDesc> retVal = new List<ExplicitMouseDesc> ();
 		int count = Random.Range (minSpoutMice, 
 		                          maxSpoutMice + 1);
@@ -535,7 +568,7 @@ public class LevelConfig : MonoBehaviour {
 		for (int i = 0; i < count; i++) {
 
 			float pause = Random.Range (minSpoutPause, maxSpoutPause);
-			MouseMove.MouseType mType = mouseTypeGenerator.GetNextValue ();
+			MouseConfig.MouseType mType = mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
 			
 			if (i == count-1) {
@@ -563,27 +596,27 @@ public class LevelConfig : MonoBehaviour {
 		if (gameLevel == 2) {
 			// Six slow mice, a bit more random.
 			AddExplicitMouseDesc (ref retVal, 3.0f, false, MouseHole.MouseHoleLocation.WEST,
-			         MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			         MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         1);
 			
 			AddExplicitMouseDesc (ref retVal, 3.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         2);
 			
 			AddExplicitMouseDesc (ref retVal, 2.0f, false, MouseHole.MouseHoleLocation.EAST,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         0);
 			
 			AddExplicitMouseDesc (ref retVal, 1.0f, true, MouseHole.MouseHoleLocation.WEST,
-			         MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			         MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         1);
 			
 			AddExplicitMouseDesc (ref retVal, 0.1f, false, MouseHole.MouseHoleLocation.EAST,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         2);
 			
 			AddExplicitMouseDesc (ref retVal, 2.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			         0);
 			return retVal;
 		} 
@@ -591,39 +624,39 @@ public class LevelConfig : MonoBehaviour {
 		if (gameLevel == 3) {
 			// 
 			AddExplicitMouseDesc (ref retVal, 0.5f, false, MouseHole.MouseHoleLocation.SOUTH,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			          2);
 			
 			AddExplicitMouseDesc (ref retVal, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			          MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			          MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			          1);
 			
 			AddExplicitMouseDesc (ref retVal, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			          0);
 			
 			AddExplicitMouseDesc (ref retVal, 2.0f, true, MouseHole.MouseHoleLocation.WEST,
-			          MouseMove.MouseType.MOUSE_TYPE_FAST, 
+			          MouseConfig.MouseType.MOUSE_TYPE_FAST, 
 			          2);
 			
 			AddExplicitMouseDesc (ref retVal, 0.1f, false, MouseHole.MouseHoleLocation.SOUTH,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			          1);
 			
 			AddExplicitMouseDesc (ref retVal, 4.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			          MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			          MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			          0);
 			
 			AddExplicitMouseDesc (ref retVal, 3.0f, false, MouseHole.MouseHoleLocation.WEST,
-			          MouseMove.MouseType.MOUSE_TYPE_MEDIUM, 
+			          MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
 			          2);
 
 			AddExplicitMouseDesc (ref retVal, 2.0f, true, MouseHole.MouseHoleLocation.WEST,
-			          MouseMove.MouseType.MOUSE_TYPE_FAST, 
+			          MouseConfig.MouseType.MOUSE_TYPE_FAST, 
 			          1);
 			
 			AddExplicitMouseDesc (ref retVal, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
-			          MouseMove.MouseType.MOUSE_TYPE_SLOW, 
+			          MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			          0);
 		} 
 		return retVal;

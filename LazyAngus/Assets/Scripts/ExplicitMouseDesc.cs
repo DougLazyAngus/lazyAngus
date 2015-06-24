@@ -13,7 +13,7 @@ using System.Collections;
 public struct ExplicitMouseDesc
 {
 	// Type of mouse.
-	public MouseMove.MouseType mouseType;
+	public MouseConfig.MouseType mouseType;
 	// Entry point.
 	public MouseHole.MouseHoleLocation mouseHoleLocation;
 	// orientation.
