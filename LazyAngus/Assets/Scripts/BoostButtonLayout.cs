@@ -10,6 +10,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	public Canvas containingCanvas;
 
 	private List<BoostButton> boostButtons;
+	private GameObject[] boostButtonGameObjects;
 	private bool registerdForEvents;
 
 	private bool boostButtonsDirty;
@@ -108,6 +109,7 @@ public class BoostButtonLayout : MonoBehaviour {
 
 	void AddBoostButtons() {
 		boostButtons = new List<BoostButton> ();
+		boostButtonGameObjects = new GameObject[(int)BoostConfig.BoostType.NUM_TYPES];
 		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
 			AddBoostButtonForType ((BoostConfig.BoostType)i);
 		}
@@ -122,34 +124,15 @@ public class BoostButtonLayout : MonoBehaviour {
 
 		bb.ConfigureForType (bType);
 		boostButtons.Add (bb);
+
+		boostButtonGameObjects [(int)bType] = bb.gameObject;
 	}
 	
 	void LayoutBoostButtons() {
-		float canvasWidth = containingCanvas.pixelRect.width / containingCanvas.scaleFactor; 
-
-		float totalButtonWidth = 0f;
-
-		foreach (BoostButton pbb in boostButtons) {
-			totalButtonWidth += pbb.GetWidth();
-		}
-
-		float leftoverSpace = canvasWidth - totalButtonWidth;
-		float margin = leftoverSpace / (boostButtons.Count + 1);
-
-		float leftEdge = -canvasWidth / 2;
-		float buttonXOffset;
-
-		foreach (BoostButton pbb in boostButtons) {
-			leftEdge += margin;
-
-			buttonXOffset = leftEdge + pbb.GetWidth()/2;
-
-			RectTransform rt = pbb.GetComponent<RectTransform>();
-			Vector2 position = new Vector2(buttonXOffset, boostButtonYOffset);
-
-			rt.anchoredPosition = position;
-			leftEdge += pbb.GetWidth ();
-		}
+		float containingWidth = containingCanvas.pixelRect.width / containingCanvas.scaleFactor;
+		Utilities.SpaceHorizontally (containingWidth, 
+		                             boostButtonGameObjects, 
+		                             boostButtonYOffset);
 	}
 
 	void RefreshBoostButtons() {

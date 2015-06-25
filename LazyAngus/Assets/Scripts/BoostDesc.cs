@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class BoostDesc {
-	public Sprite buttonImage;
-	public Sprite introScreenImage;
+	public Sprite buttonSprite;
+	public Sprite introScreenSprite;
 
 	public float effectiveTime;
 	public string boostName;
@@ -17,10 +17,10 @@ public class BoostDesc {
 		string path;
 
 		path = "Textures/Boosts/" + buttonImageName;
-		this.buttonImage = Resources.Load<UnityEngine.Sprite>(path);
+		this.buttonSprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		path = "Textures/BoostIntros/" + introScreenImageName;
-		this.introScreenImage = Resources.Load<UnityEngine.Sprite>(path);
+		this.introScreenSprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		this.effectiveTime = effectiveTime;
 		this.boostName = boostName;

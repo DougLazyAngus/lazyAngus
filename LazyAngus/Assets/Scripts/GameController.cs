@@ -115,13 +115,23 @@ public class GameController : MonoBehaviour {
 		shouldCheckForPhaseTransition = false;
 	}
 
+	void MaybeIncrementMouseHoleCapacity() {
+		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
+		if (ld.growMouseHoles != 0) {
+			for (int i = 0; i < (int)MouseHole.MouseHoleLocation.NUM_TYPES; i++) {
+				int mask = (1 << i);
+				if ((mask & ld.growMouseHoles) != 0) {
+					mouseHoles [i].SetCapacity (mouseHoles [i].GetCapacity () + 1);
+				}
+			}
+		}
+	}
+
 	void EnqueueMiceForLevel() {
 		mouseSpawnFromData.Clear ();
 
-		LevelConfig lc = LevelConfig.instance;
-
 		// A few by hand, then just programmatic.
-		LevelDescription ld = lc.GetLevelDescription (gameLevel);
+		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
 		mouseSpawnFromData.AddMice (ld.explicitMouseDesc);
 
 		/*
@@ -212,6 +222,7 @@ public class GameController : MonoBehaviour {
 			gameOverUIGameObject.SetActive (false);
 			
 			EnqueueMiceForLevel ();
+			MaybeIncrementMouseHoleCapacity();
 			break;
 		case GamePhaseType.GAME_PHASE_PENDING:
 			welcomeUIGameObject.SetActive (false);

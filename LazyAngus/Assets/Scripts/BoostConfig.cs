@@ -89,12 +89,12 @@ public class BoostConfig : MonoBehaviour {
 	
 	public Sprite GetButtonImageForType(BoostType bType) {
 		int index = (int)bType;
-		return boostDescs [index].buttonImage;
+		return boostDescs [index].buttonSprite;
 	}
 	
 	public Sprite GetIntroImageForType(BoostType bType) {
 		int index = (int)bType;
-		return boostDescs [index].introScreenImage;
+		return boostDescs [index].introScreenSprite;
 	}
 
 	public string GetTitleForType(BoostType bType) {

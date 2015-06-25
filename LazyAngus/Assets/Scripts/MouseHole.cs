@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class MouseHole : MonoBehaviour {
-	public Vector3 progressBarOffset;
+	public Vector3 meterOffset;
 
 	public enum MouseHoleLocation {
 		NORTH = 0,
@@ -21,50 +21,46 @@ public class MouseHole : MonoBehaviour {
 
 	private int savedMouseCount;
 
-	private DistortForEffect distortForEffect;
 	private ThrobForEffect throbForEffect;
-	private TweakableSlider tweakableSlider;
+	
+	public delegate void MousePopChangedEventHandler();
+	public event MousePopChangedEventHandler MousePopChanged;
+	
+	public delegate void CapacityChangedEventHandler();
+	public event CapacityChangedEventHandler CapacityChanged;
 
-	public GameObject trackingStatusBarPrototype;
+	public GameObject holeMeterPrototype;
+	private int capacity;
 
 	// Use this for initialization
 	void Start () {
 		savedMouseCount = 0;
-		distortForEffect = gameObject.GetComponent<DistortForEffect> ();
 		throbForEffect = gameObject.GetComponent<ThrobForEffect> ();
+		capacity = TweakableParams.instance.initialMicePerHole;
 
-		MakeSlider ();
-		UpdateSlider ();
+		MakeHoleMeter ();
 	}
 
-	void MakeSlider() {
-		GameObject sliderGameObject = Instantiate (trackingStatusBarPrototype, 
-		                                           new Vector3 (0, 0, 0),
-		                                           Quaternion.identity) as GameObject;
-		WorldObjectFollower woFollower = sliderGameObject.GetComponent<WorldObjectFollower> ();
-		woFollower.SetObjectToFollow (gameObject, progressBarOffset);
+	void MakeHoleMeter() {
+		GameObject holeMeterGameObject = Instantiate (holeMeterPrototype, 
+		                                              new Vector3 (0, 0, 0),
+		                                              Quaternion.identity) as GameObject;
+		HoleMeter holeMeter = holeMeterGameObject.GetComponent<HoleMeter> ();
+		holeMeter.TrackHole (this);
 
-		sliderInstance = sliderGameObject.GetComponent<Slider> ();		
-		tweakableSlider = sliderGameObject.GetComponent<TweakableSlider> ();
-
-	}
-	
-	void DoSavedMouseFX() {
-		distortForEffect.Distort ();
-	}
-
-	void DoClearedHoleFX() {
-		distortForEffect.Distort ();
+		WorldObjectFollower wof = holeMeterGameObject.GetComponent<WorldObjectFollower> ();
+		wof.SetObjectToFollow (this.gameObject, 
+		                       meterOffset, 
+		                       false);
 	}
 	
 	public void DoDoomedBoxFX() {
-		distortForEffect.Cancel ();
 		throbForEffect.SetThrobbing (true);
 	}
 
 	bool CountSavedMouse(MouseMove mouse) {
 		// We can never have more than max.
-		if (savedMouseCount < TweakableParams.instance.GetMaxMicePerHole()) {
+		if (savedMouseCount < capacity) {
 			savedMouseCount++;
 			return true;
 		} else {
@@ -72,40 +68,48 @@ public class MouseHole : MonoBehaviour {
 		}
 	}
 
-	void UpdateSlider() {		
-		float fractionFinished = (float)savedMouseCount /
-			(float)TweakableParams.instance.GetMaxMicePerHole();
-		sliderInstance.value = fractionFinished;
-		tweakableSlider.fill.color =
-			Utilities.TrafficLightColorLerp ((float)savedMouseCount /
-			                                 (float)(TweakableParams.instance.GetMaxMicePerHole() - 1));
-	}
-
 	public void ClearMice() {
 		if (savedMouseCount == 0) {
 			return;
 		}
+
 		savedMouseCount = 0;
-		UpdateSlider ();
-		DoClearedHoleFX ();
+
+		if (MousePopChanged != null) {
+			MousePopChanged();
+		}
 	}
 
 	public void SaveMouse(MouseMove mouse) {
 		mouse.OnSafeExit ();	
 		
 		if (CountSavedMouse (mouse)) {
-			GameController gameController = GameController.instance;
-			gameController.OnMouseExit (mouse);		
-			UpdateSlider ();
-			DoSavedMouseFX ();
+			if (MousePopChanged != null) {
+				MousePopChanged();
+			}
+
+			GameController.instance.OnMouseExit (mouse);		
 		}
 	}
 
 	public bool IsFull() {
-		return savedMouseCount >= TweakableParams.instance.GetMaxMicePerHole();
+		return savedMouseCount >= capacity;
 	}
 
-	public static MouseHoleLocation GetRandomHoleLocation () {
-		return (MouseHoleLocation)Random.Range (0, (int)MouseHoleLocation.NUM_TYPES);
+	public int GetPopulation() {
+		return savedMouseCount;
+	}
+
+	public int GetCapacity() {
+		return capacity;
+	}
+
+	public void SetCapacity(int newCapacity) {
+		if (capacity != newCapacity) {
+			capacity = newCapacity;
+			if (CapacityChanged != null) {
+				CapacityChanged ();
+			}
+		}
 	}
 }

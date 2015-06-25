@@ -26,7 +26,7 @@ public class TweakableParams : MonoBehaviour {
 	public int numTracks = 3;
 
 	// Mouse hole params.
-	public int maxMicePerHole = 5;
+	public int initialMicePerHole = 2;
 
 	// Initial money and boosts.
 	public int initialMoney = 1;
@@ -51,14 +51,6 @@ public class TweakableParams : MonoBehaviour {
 			return debugInitialBoosts;
 		} else {
 			return initialBoosts;
-		}
-	}
-	
-	public int GetMaxMicePerHole() {
-		if (DebugConfig.instance.isDebug) {
-			return debugMaxMicePerHole;
-		} else {
-			return maxMicePerHole;
 		}
 	}
 

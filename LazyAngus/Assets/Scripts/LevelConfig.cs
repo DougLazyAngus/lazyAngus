@@ -168,12 +168,16 @@ public class LevelConfig : MonoBehaviour {
 			{
 				// Six slow mice,  different directions, short pauses.
 				ld.specialText = "The mouse holes are growing!";
-				ld.growMouseHoles = (LevelDescription.NORTH_BIT | 
-					LevelDescription.EAST_BIT | 
-					LevelDescription.SOUTH_BIT | 
-					LevelDescription.WEST_BIT);
+				ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");
+
+			ld.growMouseHoles = (LevelDescription.NORTH_BIT | 
+			                     LevelDescription.EAST_BIT | 
+			                     LevelDescription.SOUTH_BIT | 
+			                     LevelDescription.WEST_BIT);
 			
-				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+//			ld.growMouseHoles = (LevelDescription.NORTH_BIT);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      1);
 			
@@ -334,6 +338,8 @@ public class LevelConfig : MonoBehaviour {
 		case 7:
 		{
 			ld.specialText = "The mouse holes are growing again!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");
+
 			ld.growMouseHoles = (LevelDescription.NORTH_BIT | 
 			                     LevelDescription.EAST_BIT | 
 			                     LevelDescription.SOUTH_BIT | 

@@ -32,10 +32,21 @@ public class SecretUI : MonoBehaviour {
 	void Update () {	
 		if (!inputField.isFocused && uiIsVisible) {
 			uiIsVisible = false;
+
+			MaybeApplySuggestedLevel();
+
 			UpdateVisibility ();
 		} else if (inputField.isFocused && !uiIsVisible) {
 			uiIsVisible = true;
 			UpdateVisibility ();
+		}
+	}
+	
+	void MaybeApplySuggestedLevel() {
+		int suggestedLevel = GetSuggestedLevel ();
+		if (suggestedLevel > 0) {
+			GameController.instance.SetGameLevel (suggestedLevel);
+			SecretUI.instance.ClearSuggestedLevel ();
 		}
 	}
 

@@ -118,6 +118,46 @@ public class Utilities
 			// No good solution yet.
 		}
 	}
+
+	public static void SpaceHorizontally(float containingWidth, 
+	                                     GameObject[] objects, 
+	                                     float yOffset, 
+	                                     float yWiggle = 0f) {
+		float canvasWidth = containingWidth; 
+		
+		float totalObjectWidth = 0f;
+		
+		foreach (GameObject go in objects) {
+			totalObjectWidth += go.GetComponent<RectTransform>().rect.width;
+		}
+		
+		float leftoverSpace = canvasWidth - totalObjectWidth;
+		float margin = leftoverSpace / (objects.Length + 1);
+		
+		float leftEdge = -canvasWidth / 2;
+		float objectXOffset;
+
+		float wiggle = 0f;
+		if (margin <= 0f) {
+			wiggle = yWiggle;
+		}
+
+		foreach (GameObject go in objects) {
+			RectTransform rt = go.GetComponent<RectTransform>();
+			float objectWidth = rt.rect.width;
+
+			leftEdge += margin;
+			
+			objectXOffset = leftEdge + objectWidth/2;
+			
+			Vector2 position = new Vector2(objectXOffset, yOffset + wiggle);
+			wiggle = -wiggle;
+			
+			rt.anchoredPosition = position;
+			leftEdge += objectWidth;
+		}
+
+	}
 }
 
 
