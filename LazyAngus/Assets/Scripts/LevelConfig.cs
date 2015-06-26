@@ -337,15 +337,11 @@ public class LevelConfig : MonoBehaviour {
 
 		case 7:
 		{
-			ld.specialText = "The mouse holes are growing again!";
+			ld.specialText = "Some mouse holes are getting bigger!";
 			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");
 
 			ld.growMouseHoles = (LevelDescription.NORTH_BIT | 
-			                     LevelDescription.EAST_BIT | 
-			                     LevelDescription.SOUTH_BIT | 
-			                     LevelDescription.WEST_BIT);
-			
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel, false);
+			                     LevelDescription.SOUTH_BIT);
 			break;
 		}
 			
@@ -354,8 +350,6 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Try new Giant Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
-
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel, false);
 			break;
 		}
 			
@@ -364,8 +358,16 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Watch out for the super speedster mouse!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType(
 				MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST);
+			break;
+		}
 
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+		case 10:
+		{
+			ld.specialText = "Some mouse holes are getting bigger!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");
+			
+			ld.growMouseHoles = (LevelDescription.EAST_BIT | 
+			                     LevelDescription.WEST_BIT);
 			break;
 		}
 						
@@ -374,27 +376,125 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Introducing.... Poison Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
-			
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
 			break;
 		}
 
+			
+		case 13:
+		{
+			ld.specialText = "One mouse hole is growing!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");			
+			ld.growMouseHoles = (LevelDescription.EAST_BIT);
+			
+			break;
+		}
 			
 		case 14:
 		{
 			ld.specialText = "Farty cat food... Yum!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_FART);
+			break;
+		}
 			
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			
+		case 15:
+		{
+			ld.specialText = "Here comes trouble....";
+			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType(
+				MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.2f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.4f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      2);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.0f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.1f, true, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.5f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.2f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      0);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.3f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      2);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.1f, true, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      1);	
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 0.1f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 1.5f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST, 
+			                      0);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.2f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MOUSE_TYPE_MEDIUM, 
+			                      1);
+			
 			break;
 		}
 
-		default:
-			ld.specialText = "";
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+		case 16:
+		{
+			ld.specialText = "Another mouse hole expands!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");			
+			ld.growMouseHoles = (LevelDescription.WEST_BIT);
+			
 			break;
 		}
+			
+		case 19:
+		{
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");			
+			ld.growMouseHoles = (LevelDescription.NORTH_BIT);
+			
+			break;
+		}
+			
+		case 22:
+		{
+			ld.specialText = "A little more room for mice!";
+			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");			
+			ld.growMouseHoles = (LevelDescription.SOUTH_BIT);
+			
+			break;
+		}
+
+
+		default:
+			break;
+		}
+
+		if (ld.explicitMouseDesc.Count == 0) {
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+		}
+
 		return ld;
 	}
 
