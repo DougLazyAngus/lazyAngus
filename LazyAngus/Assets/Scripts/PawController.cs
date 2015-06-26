@@ -36,6 +36,7 @@ public class PawController : MonoBehaviour {
 
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
+	float pawHomeCatTransformMagnitude;
 
 	void Awake() {
 		registerdForEvents = false;
@@ -49,6 +50,11 @@ public class PawController : MonoBehaviour {
 		swipePhase = SwipePhase.SWIPE_NONE;
 
 		swipeSpeed = tweakableParams.baseSwipeSpeed;
+
+		Vector3 localHomePos = pawHomeCatTransform.position;
+		localHomePos.z = 0f;
+		pawHomeCatTransform.position = localHomePos;
+		pawHomeCatTransformMagnitude = pawHomeCatTransform.position.magnitude;
 
 		transform.localPosition = pawHomeCatTransform.localPosition;
 
@@ -170,6 +176,12 @@ public class PawController : MonoBehaviour {
 
 	bool MovePawTowards(Vector3 targetLocationCat) {
 		targetLocationCat.z = 0.0f;
+		// This should never be closer to the cat than the home pos itself.  If so, just 
+		// ignore.
+		float targetLocationCatMagnitude = targetLocationCat.magnitude;
+		if (targetLocationCatMagnitude < pawHomeCatTransformMagnitude) {
+			return true;
+		}
 
 		Vector3 pawLocationCat = transform.localPosition;
 
