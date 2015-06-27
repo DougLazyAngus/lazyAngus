@@ -72,7 +72,8 @@ public class BoostActiveLayout : MonoBehaviour {
 		MaybeUpdateSliderProgress ();
 	}
 	
-	void OnBoostUsageChanged() {
+	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
+	                         BoostConfig.BoostType oldType) {
 		sliderDirty = true;
 	}
 

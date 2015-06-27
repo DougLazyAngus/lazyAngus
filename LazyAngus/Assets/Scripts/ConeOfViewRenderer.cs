@@ -49,11 +49,12 @@ public class ConeOfViewRenderer : MonoBehaviour {
 		}
 	}		
 
-	void OnBoostUsageChanged() {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
+	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
+	                         BoostConfig.BoostType oldType) {
+		if (newType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
 			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange * 
 			                             tweakableParams.goodEyesAngleMultiplier);
-		} else {
+		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
 			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange);
 		}
 	}

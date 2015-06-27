@@ -11,32 +11,17 @@ public class BoostButtonLayout : MonoBehaviour {
 
 	private List<BoostButton> boostButtons;
 	private GameObject[] boostButtonGameObjects;
-	private bool registerdForEvents;
-
-	private bool boostButtonsDirty;
+  
 	private bool treatsTextDirty;
 	private bool levelTextDirty;
-
-	private PlayerStats playerStats;
-	private GameController gameController;
-	private BoostConfig boostConfig;
-
+	
 	private bool started;
 	
 	void Awake() {
-		registerdForEvents = false;
-		boostButtonsDirty = false;
-
 		started = false;
 	}
 
 	void Start () {
-		playerStats = PlayerStats.instance;
-		gameController = GameController.instance;
-		boostConfig = BoostConfig.instance;
-
-		RegisterForEvents ();
-
 		AddBoostButtons ();
 		LayoutBoostButtons ();
 
@@ -49,64 +34,8 @@ public class BoostButtonLayout : MonoBehaviour {
 		if (!started) {
 			return;
 		}
-		RefreshBoostButtons ();
-	}
-
-	void OnDestroy() {
-		UnregisterForEvents ();
-	}
-
-	void RegisterForEvents() {
-		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
-		playerStats.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
-
-		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-		gameController.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
-
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
-
-		registerdForEvents = true;
-	}
-
-	void UnregisterForEvents() {
-		if (registerdForEvents) {
-			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
-			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);
-
-			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-			gameController.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);
-
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
-		}
-	}
-
-	void Update() {
-		if (boostButtonsDirty) {
-			RefreshBoostButtons ();
-			boostButtonsDirty = false;
-		}
-	}
-
-	void OnGameLevelChanged() {
-		boostButtonsDirty = true;
 	}
 	
-	void OnGamePhaseChanged() {
-		boostButtonsDirty = true;
-	}
-	
-	void OnBoostsChanged() {
-		boostButtonsDirty = true;
-	}
-
-	void OnBoostUsageChanged() {
-		boostButtonsDirty = true;
-	}
-
-	void OnTreatsChanged() {
-		boostButtonsDirty = true;
-	}
-
 	void AddBoostButtons() {
 		boostButtons = new List<BoostButton> ();
 		boostButtonGameObjects = new GameObject[(int)BoostConfig.BoostType.NUM_TYPES];

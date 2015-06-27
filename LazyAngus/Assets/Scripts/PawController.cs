@@ -68,25 +68,27 @@ public class PawController : MonoBehaviour {
 	}
 
 	void RegisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
 
-	void OnBoostActivationChanged() {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
+	                         BoostConfig.BoostType oldType) {
+		if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
 			swipeSpeed = (tweakableParams.fastPawsSwipeSpeedMultiplier * 
 			              tweakableParams.baseSwipeSpeed);
-		} else {
+		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
 			swipeSpeed = tweakableParams.baseSwipeSpeed;
 		}
 
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+		if (newType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS || 
+		    oldType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			UpdatePawState();
 		}
 	}

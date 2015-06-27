@@ -15,11 +15,14 @@ public class LevelDescription {
 	public int growMouseHoles;
 	public Sprite sprite;
 
+	public BoostConfig.BoostType unlockedBoostType;
+
 	public LevelDescription() {
 		growMouseHoles = 0;
 		specialText = "";
 		explicitMouseDesc = new List<ExplicitMouseDesc> ();
 		sprite = null;
+		unlockedBoostType = BoostConfig.BoostType.NUM_TYPES;
 	}
 }
 
@@ -108,6 +111,7 @@ public class LevelConfig : MonoBehaviour {
 	LevelDescription MakeLevelDescription(int gameLevel) {
 		LevelDescription ld = new LevelDescription ();
 		ld.explicitMouseDesc = new List<ExplicitMouseDesc> ();
+		bool allowSuperSpeedy = true;
 
 		switch (gameLevel) {
 		case 1:
@@ -138,6 +142,8 @@ public class LevelConfig : MonoBehaviour {
 				ld.specialText = "Cat food helps Angus move faster!";
 				ld.sprite = BoostConfig.instance.GetIntroImageForType(
 					BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
+				ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS;
+
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 
 			                      2);
@@ -250,6 +256,7 @@ public class LevelConfig : MonoBehaviour {
 				ld.specialText = "This cat food helps Angus see better!";
 				ld.sprite = BoostConfig.instance.GetIntroImageForType(
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
+				ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES;
 
 				// Eight mice, two medium.
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 2.0f, false, MouseHole.MouseHoleLocation.EAST,
@@ -339,9 +346,10 @@ public class LevelConfig : MonoBehaviour {
 		{
 			ld.specialText = "Some mouse holes are getting bigger!";
 			ld.sprite = Resources.Load<UnityEngine.Sprite>("Textures/cheese");
-
 			ld.growMouseHoles = (LevelDescription.NORTH_BIT | 
 			                     LevelDescription.SOUTH_BIT);
+			allowSuperSpeedy = false;
+
 			break;
 		}
 			
@@ -350,6 +358,9 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Try new Giant Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
+			ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS;
+			allowSuperSpeedy = false;
+
 			break;
 		}
 			
@@ -376,6 +387,7 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Introducing.... Poison Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
+			ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS;
 			break;
 		}
 
@@ -394,6 +406,7 @@ public class LevelConfig : MonoBehaviour {
 			ld.specialText = "Farty cat food... Yum!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType(
 				BoostConfig.BoostType.BOOST_TYPE_FART);
+			ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_FART;
 			break;
 		}
 			
@@ -492,7 +505,7 @@ public class LevelConfig : MonoBehaviour {
 		}
 
 		if (ld.explicitMouseDesc.Count == 0) {
-			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel);
+			ld.explicitMouseDesc = GenerateMiceForLevel (gameLevel, allowSuperSpeedy);
 		}
 
 		return ld;

@@ -27,15 +27,54 @@ public class BoostButton : MonoBehaviour {
 	private GameController gameController;
 
 	private int priceInTreats;
-
-	private bool started;
+	private bool registeredForEvents;
+	
+	private bool buttonDirty;
 
 	void Awake() {
 		playerStats = PlayerStats.instance;
 		boostConfig = BoostConfig.instance;
 		gameController = GameController.instance;
 	}
-	
+
+	void Start() {
+		RegisterForEvents();
+		buttonDirty = false;
+
+		CheckForLevelUnlockEffects ();
+	}
+
+	void Update() {
+		if (buttonDirty) {
+			RefreshButton ();
+		}
+	}
+
+	void RegisterForEvents() {
+		if (!registeredForEvents) {
+			registeredForEvents = true;
+			playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			playerStats.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
+			gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			gameController.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+		}
+	}
+
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
+			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			gameController.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);			
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+		}
+	}
+
+	void OnDestroy() {
+		UnregisterForEvents ();
+	}
+
 	public void ConfigureForType(BoostConfig.BoostType bType) {
 		boostType = bType;
 
@@ -131,4 +170,49 @@ public class BoostButton : MonoBehaviour {
 	public BoostConfig.BoostType GetBoostType() {
 		return boostType;
 	}
+
+	void OnGameLevelChanged() {
+		buttonDirty = true;
+	}
+	
+	void OnGamePhaseChanged() {
+		buttonDirty = true;
+
+		CheckForLevelUnlockEffects ();
+	}
+
+	void CheckForLevelUnlockEffects() {
+		if (GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY && 
+		    GameController.instance.gameLevel == BoostConfig.instance.GetLevelLock (boostType)) {
+			// Wait, then wiggle.
+			StartCoroutine(TriggerDistortionEffect ());
+		}
+
+	}
+	
+	void OnBoostsChanged() {
+		buttonDirty = true;
+	}
+	
+	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
+	                         BoostConfig.BoostType oldType) {
+		buttonDirty = true;
+	}
+	
+	void OnTreatsChanged() {
+		buttonDirty = true;
+	}
+
+	void OnBoostUnlocked(BoostConfig.BoostType bType) {
+		if (bType == boostType) {
+			// Give a bounce effect.
+			GetComponent<DistortForEffect>().Distort();
+		}
+	}
+
+	IEnumerator TriggerDistortionEffect() {
+		yield return new WaitForSeconds (0.25f); 
+		GetComponent<DistortForEffect>().Distort();
+	}
+
 }

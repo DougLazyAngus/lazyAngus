@@ -3,8 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class PausePlayToggle : MonoBehaviour {
-	public Text pausePlayButtonText;
+	public Image pausePlayButtonImage;
 	public GameObject overlay;
+	public Sprite pauseSprite;
+	public Sprite playSprite;
 
 	bool registeredForEvents;
 
@@ -38,10 +40,10 @@ public class PausePlayToggle : MonoBehaviour {
 	// Update is called once per frame
 	void UpdateUX () {
 		if (TimeController.instance.paused) {
-			pausePlayButtonText.text = "Play";
+			pausePlayButtonImage.sprite = playSprite;
 			overlay.SetActive (true);
 		} else {
-			pausePlayButtonText.text = "Pause";
+			pausePlayButtonImage.sprite = pauseSprite;
 			overlay.SetActive (false);
 		}
 	}

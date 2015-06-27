@@ -17,7 +17,8 @@ public class BoostConfig : MonoBehaviour {
 	private PlayerStats playerStats;
 	private GameController gameController;
 	
-	public delegate void BoostActiveEventHandler();
+	public delegate void BoostActiveEventHandler(BoostConfig.BoostType newBoostType, 
+	                                             BoostConfig.BoostType oldBoostType);
 	public event BoostActiveEventHandler BoostActive;
 
 	public static BoostConfig instance { get; private set; }
@@ -149,12 +150,13 @@ public class BoostConfig : MonoBehaviour {
 
 		float pauseTime = GetBoostTime (bType);
 
+		BoostType oldType = activeBoost;
 		activeBoost = bType;
 		activeBoostStartTime = Time.time;
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
 		
 		if (BoostActive != null) {
-			BoostActive ();
+			BoostActive (activeBoost, oldType);
 		}
 
 		activePause = WaitThenCleanup (pauseTime);
@@ -174,11 +176,12 @@ public class BoostConfig : MonoBehaviour {
 			activePause = null;
 		}
 
+		BoostType oldType = activeBoost;
 		activeBoost = BoostType.NUM_TYPES;
 		activeBoostStartTime = activeBoostEndTime = 0;
 
 		if (BoostActive != null) {
-			BoostActive ();
+			BoostActive (activeBoost, oldType);
 		}
 	}
 

@@ -31,10 +31,10 @@ public class GameController : MonoBehaviour {
 
 	public delegate void GameLevelChangedEventHandler();
 	public event GameLevelChangedEventHandler GameLevelChanged;
-
+	
 	public delegate void GamePhaseChangedEventHandler();
 	public event GamePhaseChangedEventHandler GamePhaseChanged;
-
+	
 	public int gameLevel { get; private set; }
 	public GamePhaseType gamePhase  { get; private set; }
 

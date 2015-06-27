@@ -29,12 +29,10 @@ public class MouseMove : MonoBehaviour {
 	private TweakableSlider tweakableSlider;
 
 	public static int activeMouseCount = 0;
-	bool registerdForEvents;
 
 	public bool isPoisoned { get; private set;}
 
 	void Awake() {
-		registerdForEvents = false;
 		dead = false;
 	}
 
@@ -44,42 +42,20 @@ public class MouseMove : MonoBehaviour {
 		phase = MouseConfig.MovementPhaseType.ENTERING_PHASE;
 		mouseRadius = MouseConfig.instance.startMouseRadius; 
 		activeMouseCount += 1;
-
-		UpdateSpeed ();
+		actualSpeedM = baseSpeedM;
 
 		MakeSlider ();
 
 		PositionMouse ();
-		RegisterForEvents ();
 	}
 	
 	void OnDestroy() {
-		UnregisterForEvents ();
 		if (sliderInstance != null) {
 			Object.Destroy (sliderInstance.gameObject);
 		}
 		activeMouseCount--;
 	}
-	
-	void RegisterForEvents() {
-		BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
-		registerdForEvents = true;
-	}
-	
-	void UnregisterForEvents() {
-		if (registerdForEvents) {
-			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostActivationChanged);
-		}
-	}
 
-
-	void OnBoostActivationChanged () {
-		UpdateSpeed ();
-	}
-
-	void UpdateSpeed () {
-		actualSpeedM = baseSpeedM;
-	}
 
 	public void SetPoisoned() {
 		isPoisoned = true;

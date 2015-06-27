@@ -14,6 +14,10 @@ public class DistortForEffect : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		distorting = false;
+		if (thingToScale == null) {
+			thingToScale = gameObject.transform;
+		}
+
 		originalScale = thingToScale.localScale;
 	}
 

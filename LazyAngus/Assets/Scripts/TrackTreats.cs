@@ -30,7 +30,7 @@ public class TrackTreats : MonoBehaviour {
 	}
 	
 	void SetTreatsText() {
-		treatsText.text = "$: " + playerStats.GetTreats ();
+		treatsText.text = "$" + playerStats.GetTreats ();
 	}
 	
 	// Update is called once per frame
