@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
 		BODY_MOVEMENT_DRAGGING,
 	};
 
+	public const float startCatAngle = 45f;
+
 	public GameObject rightPawGameObject;
 	public GameObject leftPawGameObject;
 	public ConeOfViewRenderer coneOfView;
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour {
 	public static PlayerController instance { get; private set; }
 
 	TweakableParams tweakableParams;
+	bool registeredForEvents;
 
 	void Awake() {
 		instance = this;
@@ -35,7 +38,41 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		RegisterForEvents ();
 		tweakableParams = TweakableParams.instance;
+		Reset ();
+	}
+
+	void OnDestroy() {
+		UnregisterForEvents ();
+	}
+
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GameController.instance.GameInstanceChanged +=
+			new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GameInstanceChanged -=
+				new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+		}
+	}
+
+	void OnInstanceChanged() {
+		Reset ();
+	}
+
+
+	void Reset() {
+		bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+		currentTurnAngleDegrees = startCatAngle;
+		targetTurnAngleDegrees = currentTurnAngleDegrees;
+		transform.rotation = Quaternion.Euler (0, 0, currentTurnAngleDegrees);
 	}
 
 	// Update is called once per frame

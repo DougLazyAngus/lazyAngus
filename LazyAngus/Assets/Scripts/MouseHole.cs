@@ -16,9 +16,7 @@ public class MouseHole : MonoBehaviour {
 	public MouseHoleLocation mouseHoleLocation;
 
 	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_TYPES);
-
-	private Slider sliderInstance;	
-
+	
 	private int savedMouseCount;
 
 	private ThrobForEffect throbForEffect;
@@ -30,15 +28,57 @@ public class MouseHole : MonoBehaviour {
 	public event CapacityChangedEventHandler CapacityChanged;
 
 	public GameObject holeMeterPrototype;
-	private int capacity;
+
+	int capacity;
+	bool registeredForEvents;
 
 	// Use this for initialization
 	void Start () {
-		savedMouseCount = 0;
-		throbForEffect = gameObject.GetComponent<ThrobForEffect> ();
-		capacity = TweakableParams.instance.initialMicePerHole;
+		RegisterForEvents ();
 
+		throbForEffect = gameObject.GetComponent<ThrobForEffect> ();
 		MakeHoleMeter ();
+
+		Reset ();
+	}
+
+	void OnDestroy() {
+		UnregisterForEvents ();
+	}
+
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GameController.instance.GameInstanceChanged +=
+			new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GameInstanceChanged -=
+				new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+		}
+	}
+
+
+	void OnInstanceChanged() {
+		Reset ();
+	}
+
+	void Reset() {
+		savedMouseCount = 0;
+		capacity = TweakableParams.instance.initialMicePerHole;
+		throbForEffect.SetThrobbing (false);
+
+		if (MousePopChanged != null) {
+			MousePopChanged ();
+		}
+
+		if (CapacityChanged != null) {
+			CapacityChanged ();
+		}
 	}
 
 	void MakeHoleMeter() {

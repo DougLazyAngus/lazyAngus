@@ -3,6 +3,7 @@ using System.Collections;
 
 public class RestartGameHandler : MonoBehaviour {
 	public void RestartGame() {
-		Application.LoadLevel (Application.loadedLevel);
+		GameController.instance.RestartGame ();
+//		Application.LoadLevel (Application.loadedLevel);
 	}
 }

@@ -22,24 +22,42 @@ public class PlayerStats : MonoBehaviour {
 
 	public const string highScoreName = "highScore";
 
+	bool registeredForEvents;
+
 	void Awake() {
 		instance = this;
-
-		gameScore = 0;
-		treatCount = TweakableParams.instance.GetInitialMoney();
-
-		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
-		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
-
-		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
-			purchasedBoostCount[i] = 0;
-			availableBoostCount [i] = TweakableParams.instance.GetInitialBoosts();
-		}
+		Reset ();
 	}
 
 	// Use this for initialization
 	void Start () {
+		RegisterForEvents ();
 	}	
+
+	void OnDestroy() {
+		UnregisterForEvents();
+	}
+
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GameController.instance.GameInstanceChanged +=
+			new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GameInstanceChanged -=
+				new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+		}
+	}
+
+
+	void OnInstanceChanged() {
+		Reset ();
+	}
 
 	public void IncrementScore(int increment) {
 		if (increment == 0) {
@@ -50,6 +68,29 @@ public class PlayerStats : MonoBehaviour {
 
 		if (ScoreChanged != null) {
 			ScoreChanged ();
+		}
+	}
+
+	public void Reset() {
+		gameScore = 0;
+		treatCount = TweakableParams.instance.GetInitialMoney();
+		
+		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
+		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
+		
+		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
+			purchasedBoostCount[i] = 0;
+			availableBoostCount [i] = TweakableParams.instance.GetInitialBoosts();
+		}
+
+		if (TreatsChanged != null) {
+			TreatsChanged ();
+		}
+		if (ScoreChanged != null) {
+			ScoreChanged ();
+		}
+		if (BoostsChanged != null) {
+			BoostsChanged ();
 		}
 	}
 

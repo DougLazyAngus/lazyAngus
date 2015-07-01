@@ -5,16 +5,27 @@ using System.Linq;
 
 public class MouseSpawnFromData : MonoBehaviour {
 	public float initialSpawnDelta = 1f;
+	public static MouseSpawnFromData instance;
+
+	public delegate void MouseSpawnEventHandler();
+	public event MouseSpawnEventHandler MouseSpawn;
+	
 
 	public float minRandomDelay = 0f;
 	public float maxRandomDelay = 4f;
+
+	public int miceSpawned {get; private set;}
 
 	List<ExplicitMouseDesc> miceDesc;
 	float nextSpawnTime;
 
 	public GameObject mousePrototype;
-	
-	// Use this for initialization
+
+
+	void Awake() {
+		instance = this;
+	}
+
 	void Start () {
 		nextSpawnTime = Time.time + initialSpawnDelta;
 	}
@@ -55,6 +66,11 @@ public class MouseSpawnFromData : MonoBehaviour {
 		                     emd.mouseHoleLocation,
 		                     emd.isClockwise,
 		                     emd.track);
+
+		miceSpawned += 1;
+		if (MouseSpawn != null) {
+			MouseSpawn ();
+		}
 	}
 
 	public bool FinishedWithCurrentSet() {
@@ -63,6 +79,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 	public void Clear() {
 		miceDesc = new List<ExplicitMouseDesc>();
+		miceSpawned = 0;
 	}
 
 	public void AddMice(List<ExplicitMouseDesc> explicitMice) {

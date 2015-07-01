@@ -28,10 +28,13 @@ public class GameController : MonoBehaviour {
 	public GameObject levelEndUIGameObject;
 	public GameObject levelPlayUIGameObject;
 	public GameObject gameOverUIGameObject;
-
+	
+	public delegate void GameInstanceChangedEventHandler();
+	public event GameInstanceChangedEventHandler GameInstanceChanged;
+	
 	public delegate void GameLevelChangedEventHandler();
 	public event GameLevelChangedEventHandler GameLevelChanged;
-	
+
 	public delegate void GamePhaseChangedEventHandler();
 	public event GamePhaseChangedEventHandler GamePhaseChanged;
 	
@@ -62,16 +65,22 @@ public class GameController : MonoBehaviour {
 	void Start() {
 		boostConfig = BoostConfig.instance;
 		playerStats = PlayerStats.instance;
-		CrossSceneState css = CrossSceneState.instance;
 
+		RestartGame();
+	}
+
+	public void RestartGame() {
 		gamePhase = GamePhaseType.GAME_PHASE_NULL;
-
 		SetGameLevel (1);
-
-		if (css.didWelcome) {
+		
+		if (CrossSceneState.instance.didWelcome) {
 			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		} else {
 			TransitionToPhase (GamePhaseType.GAME_PHASE_WELCOME);
+		}
+
+		if (GameInstanceChanged != null) {
+			GameInstanceChanged ();
 		}
 	}
 
