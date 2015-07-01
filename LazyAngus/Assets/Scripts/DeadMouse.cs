@@ -12,9 +12,12 @@ public class DeadMouse : MonoBehaviour {
 	float startTime;
 	public float deadMouseZ = -1.0f;
 
+	public AudioSource[] audioSources;
+
 	// Use this for initialization
 	void Start () {
-		
+		int index = Random.Range (0, audioSources.Length);
+		audioSources [index].PlayDelayed (0.2f);
 	}
 	
 	// Update is called once per frame

@@ -37,6 +37,8 @@ public class PawController : MonoBehaviour {
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
 	float pawHomeCatTransformMagnitude;
+	
+	public AudioSource [] audioSources;
 
 	void Awake() {
 		registerdForEvents = false;
@@ -140,7 +142,16 @@ public class PawController : MonoBehaviour {
 			pauseStarted = Time.time;
 		}
 
+		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+			PlayRandomSound ();
+		}
+
 		UpdatePawState ();
+	}
+
+	void PlayRandomSound() {
+		int index = Random.Range (0, audioSources.Length);
+		audioSources [index].Play ();
 	}
 
 	void UpdatePawState() {

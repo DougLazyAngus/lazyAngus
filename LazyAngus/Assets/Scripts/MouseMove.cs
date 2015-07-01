@@ -31,7 +31,7 @@ public class MouseMove : MonoBehaviour {
 	public static int activeMouseCount = 0;
 
 	public bool isPoisoned { get; private set;}
-
+	
 	void Awake() {
 		dead = false;
 	}
