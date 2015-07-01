@@ -1,0 +1,85 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>
+struct ReadOnlyCollection_1_t3980;
+// System.Net.Cookie
+struct Cookie_t1462;
+// System.Object
+struct Object_t;
+// System.Collections.Generic.IList`1<System.Net.Cookie>
+struct IList_1_t1664;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t21;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t3979;
+// System.Collections.Generic.IEnumerator`1<System.Net.Cookie>
+struct IEnumerator_1_t4552;
+
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::.ctor(System.Collections.Generic.IList`1<T>)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
+#include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
+#define ReadOnlyCollection_1__ctor_m27032(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t3980 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m16563_gshared)(__this, ___list, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.ICollection<T>.Add(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m27033(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t3980 *, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m16564_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.ICollection<T>.Clear()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m27034(__this, method) (( void (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m16565_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m27035(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m16566_gshared)(__this, ___index, ___item, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.ICollection<T>.Remove(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m27036(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m16567_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m27037(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m16568_gshared)(__this, ___index, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m27038(__this, ___index, method) (( Cookie_t1462 * (*) (ReadOnlyCollection_1_t3980 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m16569_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m27039(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m16570_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m27040(__this, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m16571_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m27041(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t3980 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m16572_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IEnumerable.GetEnumerator()
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m27042(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m16573_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.Add(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m27043(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3980 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m16574_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.Clear()
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m27044(__this, method) (( void (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m16575_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.Contains(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m27045(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m16576_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.IndexOf(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m27046(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3980 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m16577_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m27047(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m16578_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.Remove(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m27048(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t3980 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m16579_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m27049(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m16580_gshared)(__this, ___index, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.ICollection.get_IsSynchronized()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m27050(__this, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m16581_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.ICollection.get_SyncRoot()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m27051(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m16582_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.get_IsFixedSize()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m27052(__this, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m16583_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m27053(__this, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m16584_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m27054(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t3980 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m16585_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m27055(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3980 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m16586_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::Contains(T)
+#define ReadOnlyCollection_1_Contains_m27056(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t3980 *, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m16587_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::CopyTo(T[],System.Int32)
+#define ReadOnlyCollection_1_CopyTo_m27057(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t3980 *, CookieU5BU5D_t3979*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m16588_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::GetEnumerator()
+#define ReadOnlyCollection_1_GetEnumerator_m27058(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m16589_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::IndexOf(T)
+#define ReadOnlyCollection_1_IndexOf_m27059(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3980 *, Cookie_t1462 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m16590_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::get_Count()
+#define ReadOnlyCollection_1_get_Count_m27060(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t3980 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m16591_gshared)(__this, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::get_Item(System.Int32)
+#define ReadOnlyCollection_1_get_Item_m27061(__this, ___index, method) (( Cookie_t1462 * (*) (ReadOnlyCollection_1_t3980 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m16592_gshared)(__this, ___index, method)

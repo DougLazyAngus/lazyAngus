@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="BuyAndUseBoost">
+			<method name="BuyAndUse"/>
+		</type>
+		<type fullname="PlayLevelHandler">
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+		<type fullname="RestartGameHandler">
+			<method name="RestartGame"/>
+		</type>
+		<type fullname="PausePlayToggle">
+			<method name="TogglePausePlay"/>
+		</type>
+	</assembly>
+</linker>
