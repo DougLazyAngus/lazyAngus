@@ -61,6 +61,23 @@ public class PersistentStorage : MonoBehaviour {
 			return Convert.ToInt32(storedValue);
 		}
 	}
+	
+	public void SetBoolValue(string name, bool value) {
+		SetIntValue (name, value ? 1 : 0);
+	}
+	
+	public bool GetBoolValue(string name, bool defaultValue) {
+		if (storedValues == null) {
+			return defaultValue;
+		}
+		
+		string storedValue = storedValues [name];
+		if (storedValue == null) {
+			return defaultValue;
+		} else {
+			return (Convert.ToInt32(storedValue) != 0);
+		}
+	}
 
 	void SaveValueStore() {
 		string serializedValues = storedValues.ToString ();

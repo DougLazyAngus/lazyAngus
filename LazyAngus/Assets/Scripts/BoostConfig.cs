@@ -157,7 +157,9 @@ public class BoostConfig : MonoBehaviour {
 		activeBoostStartTime = Time.time;
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
 
-		startAudioSource.Play ();
+		if (!SoundController.instance.soundMuted) {
+			startAudioSource.Play ();
+		}
 
 		if (BoostActive != null) {
 			BoostActive (activeBoost, oldType);

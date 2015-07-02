@@ -17,7 +17,9 @@ public class DeadMouse : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int index = Random.Range (0, audioSources.Length);
-		audioSources [index].PlayDelayed (0.2f);
+		if (!SoundController.instance.soundMuted) {
+			audioSources [index].PlayDelayed (0.2f);
+		}
 	}
 	
 	// Update is called once per frame

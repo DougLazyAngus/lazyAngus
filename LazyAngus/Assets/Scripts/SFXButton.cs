@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class SoundButton : MonoBehaviour {
+public class SFXButton : MonoBehaviour {
 	bool registeredForEvents;
 
 	Sprite soundOnSprite;

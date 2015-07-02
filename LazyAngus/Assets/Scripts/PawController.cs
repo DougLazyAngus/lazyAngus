@@ -151,7 +151,10 @@ public class PawController : MonoBehaviour {
 
 	void PlayRandomSound() {
 		int index = Random.Range (0, audioSources.Length);
-		audioSources [index].Play ();
+		if (!SoundController.instance.soundMuted) {
+			audioSources [index].Play ();
+		
+		}
 	}
 
 	void UpdatePawState() {
