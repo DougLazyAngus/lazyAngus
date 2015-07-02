@@ -21,21 +21,11 @@ public class BoostButton : MonoBehaviour {
 
 
 	private BoostConfig.BoostType boostType;
-
-	private PlayerStats playerStats;
-	private BoostConfig boostConfig;
-	private GameController gameController;
-
+	
 	private int priceInTreats;
 	private bool registeredForEvents;
 	
 	private bool buttonDirty;
-
-	void Awake() {
-		playerStats = PlayerStats.instance;
-		boostConfig = BoostConfig.instance;
-		gameController = GameController.instance;
-	}
 
 	void Start() {
 		RegisterForEvents();
@@ -53,21 +43,21 @@ public class BoostButton : MonoBehaviour {
 	void RegisterForEvents() {
 		if (!registeredForEvents) {
 			registeredForEvents = true;
-			playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
-			playerStats.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
-			gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-			gameController.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
-			boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+			PlayerStats.instance.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			PlayerStats.instance.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
+			GameController.instance.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GameController.instance.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
-			playerStats.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
-			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-			gameController.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);			
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+			PlayerStats.instance.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			PlayerStats.instance.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
+			GameController.instance.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GameController.instance.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);			
+			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
 
@@ -81,9 +71,9 @@ public class BoostButton : MonoBehaviour {
 		button = gameObject.GetComponent<Button> ();		
 
 		Image image = gameObject.GetComponent<Image> ();
-		image.sprite = boostConfig.GetButtonImageForType (boostType);
+		image.sprite = BoostConfig.instance.GetButtonImageForType (boostType);
 
-		buttonText.text = boostConfig.GetTitleForType (boostType);
+		buttonText.text = BoostConfig.instance.GetTitleForType (boostType);
 
 		RefreshButton ();
 	} 
@@ -107,19 +97,19 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(false);
 		countText.gameObject.SetActive(false);
 
-		int levelLock = boostConfig.GetLevelLock (boostType);
-		int gameLevel = gameController.gameLevel;
+		int levelLock = BoostConfig.instance.GetLevelLock (boostType);
+		int gameLevel = GameController.instance.gameLevel;
 		
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
 			button.interactable = false;
 			countText.text = "";
 		} else {
-			priceInTreats = boostConfig.GetCurrentPriceForBoost (boostType);
+			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
 			restrictionText.text = "$ " + priceInTreats;
-			button.interactable = (playerStats.CanAfford (priceInTreats) && 
-			                       !boostConfig.IsBoostActive () && 
-			                       gameController.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+			button.interactable = (PlayerStats.instance.CanAfford (priceInTreats) && 
+			                       !BoostConfig.instance.IsBoostActive () && 
+			                       GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		}
 
 		if (!button.interactable) {
@@ -134,18 +124,18 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(true);
 		countText.gameObject.SetActive(true);
 
-		int levelLock = boostConfig.GetLevelLock (boostType);
-		int gameLevel = gameController.gameLevel;
+		int levelLock = BoostConfig.instance.GetLevelLock (boostType);
+		int gameLevel = GameController.instance.gameLevel;
 
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
 			button.interactable = false;
 			countText.text = "";
 		} else {
-			priceInTreats = boostConfig.GetCurrentPriceForBoost (boostType);
-			button.interactable = playerStats.CanAfford (priceInTreats);
+			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
+			button.interactable = PlayerStats.instance.CanAfford (priceInTreats);
 			restrictionText.text = "$ " + priceInTreats;
-			countText.text = "x " + playerStats.GetAvailableBoostCount(boostType);
+			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 		}
 	}
 
@@ -154,13 +144,13 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(false);
 		countText.gameObject.SetActive(true);
 
-		if (playerStats.GetAvailableBoostCount(boostType) > 0) {
+		if (PlayerStats.instance.GetAvailableBoostCount(boostType) > 0) {
 			button.gameObject.SetActive (true);
 			countText.gameObject.SetActive (true);
-			countText.text = "x " + playerStats.GetAvailableBoostCount(boostType);
+			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 
-			button.interactable = (!boostConfig.IsBoostActive() && 
-			                       gameController.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+			button.interactable = (!BoostConfig.instance.IsBoostActive() && 
+			                       GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
 		} else {
 			button.gameObject.SetActive (false);
 			countText.gameObject.SetActive (false);

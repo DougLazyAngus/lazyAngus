@@ -17,6 +17,15 @@ public class GameController : MonoBehaviour {
 		GAME_PHASE_PENDING,
 	};
 
+	public enum GameUIsType {
+		WELCOME,
+		LEVEL_END,
+		LEVEL_PLAY,
+		GAME_END,
+
+		NUM_TYPES,
+	}
+
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
@@ -52,14 +61,26 @@ public class GameController : MonoBehaviour {
 	private BoostConfig boostConfig;
 
 	public static GameController instance { get; private set; }
-	
+
+	GameUI [] gameUIs;
+
 	void Awake() {
 		instance = this;
 
 		Physics2D.IgnoreLayerCollision (8, 9, true);	
 
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
+		gameUIs = new GameUI[(int)GameUIsType.NUM_TYPES];
 
+		welcomeUIGameObject.SetActive (true);
+		levelPlayUIGameObject.SetActive (true);
+		levelEndUIGameObject.SetActive (true);
+		gameOverUIGameObject.SetActive (true);
+
+		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
 	}
 
 	void Start() {
@@ -209,15 +230,9 @@ public class GameController : MonoBehaviour {
 		switch (gamePhase) {
 		case GamePhaseType.GAME_PHASE_WELCOME: {
 			if (DebugConfig.instance.isDebug) {
-				welcomeUIGameObject.SetActive (false);
-				levelPlayUIGameObject.SetActive (false);
-				levelEndUIGameObject.SetActive (true);
-				gameOverUIGameObject.SetActive (false);
+				SetActiveUI(GameUIsType.LEVEL_END);
 			} else {
-				welcomeUIGameObject.SetActive (true);
-				levelPlayUIGameObject.SetActive (false);
-				levelEndUIGameObject.SetActive (false);
-				gameOverUIGameObject.SetActive (false);
+				SetActiveUI(GameUIsType.WELCOME);
 			}
 
 			CrossSceneState css = CrossSceneState.instance;
@@ -225,42 +240,37 @@ public class GameController : MonoBehaviour {
 			break;
 		}
 		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
-			welcomeUIGameObject.SetActive (false);
-			levelPlayUIGameObject.SetActive (true);
-			levelEndUIGameObject.SetActive (false);
-			gameOverUIGameObject.SetActive (false);
-			
+			SetActiveUI(GameUIsType.LEVEL_PLAY);
+
 			EnqueueMiceForLevel ();
 			MaybeIncrementMouseHoleCapacity();
 			break;
 		case GamePhaseType.GAME_PHASE_PENDING:
-			welcomeUIGameObject.SetActive (false);
-			levelPlayUIGameObject.SetActive (true);
-			levelEndUIGameObject.SetActive (false);
-			gameOverUIGameObject.SetActive (false);
-			
+			SetActiveUI(GameUIsType.LEVEL_PLAY);
+
 			StartCoroutine(SetupPendingPhase());
 			break;
 		case GamePhaseType.GAME_PHASE_LEVEL_END: {
 			SetGameLevel (gameLevel + 1);
 
-			welcomeUIGameObject.SetActive (false);
-			levelPlayUIGameObject.SetActive (true);
-			levelEndUIGameObject.SetActive (true);
-			gameOverUIGameObject.SetActive (false);
+			SetActiveUI(GameUIsType.LEVEL_END);
 
 			break;
 		}
 		case GamePhaseType.GAME_PHASE_GAME_OVER:
-			welcomeUIGameObject.SetActive (false);
-			levelPlayUIGameObject.SetActive (false);
-			levelEndUIGameObject.SetActive (false);
-			gameOverUIGameObject.SetActive (true);
+			SetActiveUI(GameUIsType.GAME_END);
 			break;
 		}		
 
 		if (GamePhaseChanged != null) {
 			GamePhaseChanged ();
+		}
+	}
+
+	public void SetActiveUI(GameUIsType uiType) {
+		for (int i = 0; i < (int)GameUIsType.NUM_TYPES; i++) {
+			GameUI gameUI = gameUIs [i];
+			gameUI.SetUIActive (i == (int)uiType);
 		}
 	}
 

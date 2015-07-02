@@ -30,6 +30,8 @@ public class BoostConfig : MonoBehaviour {
 	private float activeBoostStartTime;
 	private float activeBoostEndTime;
 
+	public AudioSource startAudioSource;
+
 	void Awake() {
 		instance = this;
 		activeBoost = BoostType.NUM_TYPES;
@@ -154,7 +156,9 @@ public class BoostConfig : MonoBehaviour {
 		activeBoost = bType;
 		activeBoostStartTime = Time.time;
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
-		
+
+		startAudioSource.Play ();
+
 		if (BoostActive != null) {
 			BoostActive (activeBoost, oldType);
 		}
