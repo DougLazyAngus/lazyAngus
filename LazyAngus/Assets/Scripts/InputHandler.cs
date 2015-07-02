@@ -8,8 +8,6 @@ public class InputHandler : MonoBehaviour {
 
 	public Camera worldCamera;
 	public Camera uxCamera;
-	public GameController gameController;
-	public PlayerController playerController;
 
 	public bool isTouchDevice { get; private set; }
 
@@ -34,7 +32,7 @@ public class InputHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (gameController.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
 			return;
 		}
 
@@ -80,10 +78,10 @@ public class InputHandler : MonoBehaviour {
 		Vector2 worldPoint2d = worldPoint;
 		if (collider.tag == "CatButt") {
 			Debug.Log ("clicked CatButt");
-			playerController.HandleDragClickStart(worldPoint2d);
+			PlayerController.instance.HandleDragClickStart(worldPoint2d);
 		} else if (collider.tag == "Plane") {
 			Debug.Log ("clicked Plane");
-			playerController.HandleSlapClickStart(worldPoint2d);
+			PlayerController.instance.HandleSlapClickStart(worldPoint2d);
 		}
 	}
 
