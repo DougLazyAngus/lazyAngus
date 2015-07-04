@@ -151,7 +151,7 @@ public class PawController : MonoBehaviour {
 
 	void PlayRandomSound() {
 		int index = Random.Range (0, audioSources.Length);
-		if (!SoundController.instance.soundMuted) {
+		if (!SoundController.instance.sfxMuted) {
 			audioSources [index].Play ();
 		
 		}
@@ -191,6 +191,11 @@ public class PawController : MonoBehaviour {
 	}
 
 	bool MovePawTowards(Vector3 targetLocationCat) {
+		int foo = 5;
+		if (TimeController.instance.paused) {
+			foo = foo * foo;
+		}
+
 		targetLocationCat.z = 0.0f;
 		// This should never be closer to the cat than the home pos itself.  If so, just 
 		// ignore.

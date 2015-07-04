@@ -17,11 +17,6 @@ public class MouseSpawnTracker : MonoBehaviour {
 	void OnDestroy() {
 		UnregisterForEvents ();
 	}
-
-	// Update is called once per frame
-	void Update () {
-	
-	}
 	
 	void RegisterForEvents() {
 		if (registeredForEvents) {
@@ -55,7 +50,7 @@ public class MouseSpawnTracker : MonoBehaviour {
 	void UpdateLevelConfig() {
 		int gameLevel = GameController.instance.gameLevel;
 		if (gameLevel > 0) {
-			LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
+			LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 			miceThisLevel = ld.explicitMouseDesc.Count;
 		} else { 
 			miceThisLevel = 1;

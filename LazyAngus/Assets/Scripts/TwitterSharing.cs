@@ -17,15 +17,6 @@ public class TwitterSharing : MonoBehaviour {
 		SPTwitter.instance.Init ();
 	}
 	
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-	
 	public void ShareScore(int score) {
 		Debug.Log ("TwitterSharing.ShareScore");
 		// If twitter authorized, use libraries, else use urls.

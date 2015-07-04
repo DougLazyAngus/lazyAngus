@@ -17,7 +17,7 @@ public class DeadMouse : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int index = Random.Range (0, audioSources.Length);
-		if (!SoundController.instance.soundMuted) {
+		if (!SoundController.instance.sfxMuted) {
 			audioSources [index].PlayDelayed (0.2f);
 		}
 	}

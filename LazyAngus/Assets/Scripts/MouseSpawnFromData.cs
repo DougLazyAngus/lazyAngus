@@ -20,20 +20,49 @@ public class MouseSpawnFromData : MonoBehaviour {
 	float nextSpawnTime;
 
 	public GameObject mousePrototype;
-
+	bool registeredForEvents = false;
 
 	void Awake() {
 		instance = this;
 	}
 
 	void Start () {
-		nextSpawnTime = Time.time + initialSpawnDelta;
+		RegisterForEvents ();
 	}
 	
+	void OnDestroy() {
+		UnregisterForEvents ();
+	}
+	
+	void RegisterForEvents() {
+		GameController.instance.GamePhaseChanged +=
+			new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+		
+		registeredForEvents = true;
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GamePhaseChanged -=
+				new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+		}
+	}	
+
+
+	void OnPhaseChanged() {
+		if (GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			Clear ();
+		} else { 
+			nextSpawnTime = Time.time + initialSpawnDelta;
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
-		float timeNow = Time.time;
-		MaybeProduceNextMouse (timeNow);
+		if (GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+			float timeNow = Time.time;
+			MaybeProduceNextMouse (timeNow);
+		}
 	}
 
 	void MaybeProduceNextMouse(float timeNow) {

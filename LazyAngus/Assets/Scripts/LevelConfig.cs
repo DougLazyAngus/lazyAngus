@@ -15,6 +15,9 @@ public class LevelDescription {
 	public int growMouseHoles;
 	public Sprite sprite;
 
+	public TipConfig tipConfig;
+	public float tipPause;
+
 	public BoostConfig.BoostType unlockedBoostType;
 
 	public LevelDescription() {
@@ -96,6 +99,11 @@ public class LevelConfig : MonoBehaviour {
 		retVal.Add (emd);
 	}
 
+	public LevelDescription GetCurrentLevelDescription() {
+		int level = GameController.instance.gameLevel;
+		return GetLevelDescription (level);
+	}
+
 	public LevelDescription GetLevelDescription(int gameLevel) {
 		LevelDescription ld;
 		if (levelDescMap.ContainsKey (gameLevel)) {
@@ -143,6 +151,11 @@ public class LevelConfig : MonoBehaviour {
 				ld.sprite = BoostConfig.instance.GetIntroImageForType(
 					BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 				ld.unlockedBoostType = BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS;
+
+				ld.tipConfig = new TipConfig("multikill", 
+			                             "Earn money for cat food by killing two mice at once!", 
+			                             new Vector2(0, 0));
+				ld.tipPause = 2.0f;
 
 				AddExplicitMouseDesc (ref ld.explicitMouseDesc, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MOUSE_TYPE_SLOW, 

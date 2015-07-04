@@ -19,11 +19,7 @@ public class HoleMeter : MonoBehaviour {
 	void Start () {
 		registerdForEvents = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 
 	public void TrackHole(MouseHole mh) {
 		mouseHole = mh;

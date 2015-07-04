@@ -22,10 +22,6 @@ public class PersistentStorage : MonoBehaviour {
 		LoadValueStore ();
 	}
 
-	// Use this for initialization
-	void Start () {	
-	}
-
 	string ReadFileAsText(string path) {
 		path = FullPathFromPartialPath(path);
 		if (!System.IO.File.Exists (path)) {
@@ -38,10 +34,6 @@ public class PersistentStorage : MonoBehaviour {
 	void WriteTextToFile(string path, string text) {
 		path = FullPathFromPartialPath(path);
 		System.IO.File.WriteAllText (path, text);
-	}
-	
-	// Update is called once per frame
-	void Update () {	
 	}
 
 	public void SetIntValue(string name, int value) {

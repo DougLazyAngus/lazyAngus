@@ -40,7 +40,7 @@ public class SFXSilencer: MonoBehaviour {
 		for (int i = 0; i < transform.childCount; i++)
 		{
 			GameObject go = transform.GetChild(i).gameObject;
-			go.SetActive(!SoundController.instance.soundMuted);
+			go.SetActive(!SoundController.instance.sfxMuted);
 		}
 	}
 }

@@ -31,13 +31,16 @@ public class MouseMove : MonoBehaviour {
 	public static int activeMouseCount = 0;
 
 	public bool isPoisoned { get; private set;}
-	
+
+	bool registeredForEvents;
+
 	void Awake() {
 		dead = false;
 	}
 
 	// Use this for initialization
 	void Start () {
+		RegisterForEvents ();
 		mouseAngleDeg = startAngleDeg;
 		phase = MouseConfig.MovementPhaseType.ENTERING_PHASE;
 		mouseRadius = MouseConfig.instance.startMouseRadius; 
@@ -50,12 +53,36 @@ public class MouseMove : MonoBehaviour {
 	}
 	
 	void OnDestroy() {
+		UnregisterForEvents ();
 		if (sliderInstance != null) {
 			Object.Destroy (sliderInstance.gameObject);
 		}
 		activeMouseCount--;
 	}
 
+	
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GameController.instance.GamePhaseChanged +=
+			new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GamePhaseChanged -=
+				new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		}
+	}
+
+	void OnGamePhaseChanged() {
+		if (GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY && 
+			GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_PENDING) {
+			Object.Destroy (gameObject);
+		}
+	}
 
 	public void SetPoisoned() {
 		isPoisoned = true;

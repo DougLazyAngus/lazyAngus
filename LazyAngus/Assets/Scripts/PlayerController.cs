@@ -31,9 +31,16 @@ public class PlayerController : MonoBehaviour {
 
 	TweakableParams tweakableParams;
 	bool registeredForEvents;
+	
+	public TipConfig turningTip;
+	public float turningTipPause;
 
 	void Awake() {
 		instance = this;
+
+		turningTip = new TipConfig("turning", 
+		                           "Drag my body to turn me faster!", 
+		                           new Vector2(0f, 0f));
 	}
 
 	// Use this for initialization
@@ -164,6 +171,10 @@ public class PlayerController : MonoBehaviour {
 
 			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
+
+
+			TipController.instance.EnqueueTip(turningTip, 
+			                                  turningTipPause);
 		}
 
 		headMovement.LookTowards (swipeLocationCat);

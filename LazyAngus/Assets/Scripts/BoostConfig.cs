@@ -31,7 +31,7 @@ public class BoostConfig : MonoBehaviour {
 	private float activeBoostEndTime;
 
 	public AudioSource startAudioSource;
-
+	
 	void Awake() {
 		instance = this;
 		activeBoost = BoostType.NUM_TYPES;
@@ -84,11 +84,7 @@ public class BoostConfig : MonoBehaviour {
 		playerStats = PlayerStats.instance;
 		gameController = GameController.instance;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 	
 	public Sprite GetButtonImageForType(BoostType bType) {
 		int index = (int)bType;
@@ -157,7 +153,7 @@ public class BoostConfig : MonoBehaviour {
 		activeBoostStartTime = Time.time;
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
 
-		if (!SoundController.instance.soundMuted) {
+		if (!SoundController.instance.sfxMuted) {
 			startAudioSource.Play ();
 		}
 

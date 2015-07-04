@@ -52,7 +52,7 @@ public class SFXButton : MonoBehaviour {
 
 	// Update is called once per frame
 	void UpdateButtonImage () {
-		if (SoundController.instance.soundMuted) {
+		if (SoundController.instance.sfxMuted) {
 			buttonImage.sprite = soundOffSprite;
 		} else {
 			buttonImage.sprite = soundOnSprite;

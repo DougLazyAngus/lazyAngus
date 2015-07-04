@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class MouseHole : MonoBehaviour {
 	public Vector3 meterOffset;
+	public AudioSource safeMouseAudioSource;
 
 	public enum MouseHoleLocation {
 		NORTH = 0,
@@ -29,8 +30,16 @@ public class MouseHole : MonoBehaviour {
 
 	public GameObject holeMeterPrototype;
 
+	public TipConfig mouseHoleTip;
+
 	int capacity;
 	bool registeredForEvents;
+
+	void Awake() {
+		mouseHoleTip = new TipConfig ("mousehole", 
+		                             "A mouse got away from you!\nDon't let that happen again!", 
+		                             new Vector2 (0f, 0f));
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -122,8 +131,13 @@ public class MouseHole : MonoBehaviour {
 
 	public void SaveMouse(MouseMove mouse) {
 		mouse.OnSafeExit ();	
-		
+
 		if (CountSavedMouse (mouse)) {
+			if (!SoundController.instance.sfxMuted) {
+				safeMouseAudioSource.Play ();
+			}
+
+			TipController.instance.MaybeShowTip (mouseHoleTip);
 			if (MousePopChanged != null) {
 				MousePopChanged();
 			}

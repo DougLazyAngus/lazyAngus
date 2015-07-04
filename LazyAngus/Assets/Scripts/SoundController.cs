@@ -7,7 +7,7 @@ public class SoundController : MonoBehaviour {
 	public const string musicValueName = "musicMuted";
 
 	public static SoundController instance;
-	public bool soundMuted { get; private set;}
+	public bool sfxMuted { get; private set;}
 	public bool musicMuted { get; private set;}
 	
 	public delegate void SoundMuteChangedEventHandler();
@@ -23,7 +23,7 @@ public class SoundController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		soundMuted = PersistentStorage.instance.GetBoolValue (sfxValueName, false);
+		sfxMuted = PersistentStorage.instance.GetBoolValue (sfxValueName, false);
 		musicMuted = PersistentStorage.instance.GetBoolValue (musicValueName, false);
 		if (SoundMuteChanged != null) {
 			SoundMuteChanged ();
@@ -32,14 +32,11 @@ public class SoundController : MonoBehaviour {
 			MusicMuteChanged ();
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {	
-	}
+
 	
 	public void ToggleSoundsMuted() {
-		soundMuted = !soundMuted;
-		PersistentStorage.instance.SetBoolValue(sfxValueName, soundMuted);
+		sfxMuted = !sfxMuted;
+		PersistentStorage.instance.SetBoolValue(sfxValueName, sfxMuted);
 		if (SoundMuteChanged != null) {
 			SoundMuteChanged ();
 		}

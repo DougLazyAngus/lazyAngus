@@ -1,28 +1,22 @@
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using System.Collections;
 
-public class PausePlayToggle : MonoBehaviour {
-	public Image pausePlayButtonImage;
-
-	public Sprite pauseSprite;
-	public Sprite playSprite;
+public class PausedOverlay : MonoBehaviour {
+	public GameObject overlay;
+	public static PausedOverlay instance;
 
 	bool registeredForEvents;
-
+	
 	void Awake() {
+		instance = this;
 		registeredForEvents = false;
 	}
-
+	
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();
 		UpdateUX ();
-	}
-
-	void OnDestroy() {
-		UnregisterForEvents ();
-	}
+	}	
 	
 	void RegisterForEvents() {
 		TimeController.instance.PauseChanged += new TimeController.PauseChangedEventHandler (OnPauseChanged);
@@ -43,17 +37,9 @@ public class PausePlayToggle : MonoBehaviour {
 	// Update is called once per frame
 	void UpdateUX () {
 		if (TimeController.instance.paused) {
-			pausePlayButtonImage.sprite = playSprite;
+			overlay.SetActive (true);
 		} else {
-			pausePlayButtonImage.sprite = pauseSprite;
-		}
-	}
-
-	public void TogglePausePlay() {
-		if (TimeController.instance.paused) {
-			TimeController.instance.UnPauseTime ();
-		} else {
-			TimeController.instance.PauseTime ();
+			overlay.SetActive (false);
 		}
 	}
 }
