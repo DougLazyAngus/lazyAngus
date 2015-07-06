@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour {
 	public ConeOfViewRenderer coneOfView;
 	public HeadMovement headMovement;
 
+	public GameObject fartPuffPrototype;
+	public GameObject butthole;
+
 	private BodyMovementType bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 
 	private float targetTurnAngleDegrees;
@@ -34,6 +37,10 @@ public class PlayerController : MonoBehaviour {
 	
 	public TipConfig turningTip;
 	public float turningTipPause;
+
+	float lastFartTime;
+
+	public float fartPause;
 
 	void Awake() {
 		instance = this;
@@ -61,12 +68,16 @@ public class PlayerController : MonoBehaviour {
 		registeredForEvents = true;
 		GameController.instance.GameInstanceChanged +=
 			new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+		BoostConfig.instance.BoostActive +=
+			new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GameController.instance.GameInstanceChanged -=
 				new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+			BoostConfig.instance.BoostActive -=
+				new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 		}
 	}
 
@@ -74,6 +85,12 @@ public class PlayerController : MonoBehaviour {
 		Reset ();
 	}
 
+	void OnBoostActive(BoostConfig.BoostType newType, 
+	                   BoostConfig.BoostType oldType) {
+		if (newType == BoostConfig.BoostType.BOOST_TYPE_FART) {
+			MakeFartPuff();
+		}
+	}
 
 	void Reset() {
 		bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
@@ -84,6 +101,8 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		MaybeMakeFartPuff ();
+
 		switch (bodyMovement) {
 		case BodyMovementType.BODY_MOVEMENT_DRAGGING:
 			UpdateDrag ();
@@ -188,7 +207,22 @@ public class PlayerController : MonoBehaviour {
 				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 			}
 		}
-	}
+	}  
 		
+	void MaybeMakeFartPuff() {
+		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_FART && 
+			Time.time > lastFartTime + fartPause) {
+			MakeFartPuff ();
+		}
+	}
+
+	void MakeFartPuff() {
+		GameObject fartPuffObject = Instantiate (fartPuffPrototype, 
+		                                   butthole.transform.position,
+		                                   Quaternion.identity) as GameObject;
+		FartPuff fartPuff = fartPuffObject.GetComponent<FartPuff> ();
+		fartPuff.SetDirection (transform.rotation * Vector3.left);
+		lastFartTime = Time.time;
+	}
 }
 		
