@@ -9,7 +9,10 @@ public class TweakableParams : MonoBehaviour {
 	public float goodEyesAngleMultiplier = 1.3333f;
 
 	public float bigPawsMultiplier = 2.0f;
-	
+
+	public float fartSlothMultiplier = 0.3f;
+
+
 	// Player swipe params.
 	public float baseSwipeSpeed = 7.0f;	
 	public float swipeInitialPause = 0.3f;
@@ -34,7 +37,7 @@ public class TweakableParams : MonoBehaviour {
 
 	public int debugInitialMoney = 100;
 	public int debugInitialBoosts = 5;
-	public int debugMaxMicePerHole = 100;
+	public int debugInitialMicePerHole = 6;
 	
 	public static TweakableParams instance { get; private set; }
 
@@ -51,6 +54,14 @@ public class TweakableParams : MonoBehaviour {
 			return debugInitialBoosts;
 		} else {
 			return initialBoosts;
+		}
+	}
+	
+	public int GetInitialMicePerHole() {
+		if (DebugConfig.instance.isDebug) {
+			return debugInitialMicePerHole;
+		} else {
+			return initialMicePerHole;
 		}
 	}
 

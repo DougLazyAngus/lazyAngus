@@ -31,6 +31,7 @@ public class MouseMove : MonoBehaviour {
 	public static int activeMouseCount = 0;
 
 	public bool isPoisoned { get; private set;}
+	public bool isFartedUpon { get; private set; }
 
 	bool registeredForEvents;
 
@@ -82,6 +83,11 @@ public class MouseMove : MonoBehaviour {
 			GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_PENDING) {
 			Object.Destroy (gameObject);
 		}
+	}
+
+	public void OnFartedUpon() {
+		actualSpeedM = baseSpeedM * TweakableParams.instance.fartSlothMultiplier;
+		spriteRenderer.color = MouseConfig.instance.fartedUponColor;
 	}
 
 	public void SetPoisoned() {

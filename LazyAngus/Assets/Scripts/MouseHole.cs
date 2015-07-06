@@ -78,7 +78,7 @@ public class MouseHole : MonoBehaviour {
 
 	void Reset() {
 		savedMouseCount = 0;
-		capacity = TweakableParams.instance.initialMicePerHole;
+		capacity = TweakableParams.instance.GetInitialMicePerHole();
 		throbForEffect.SetThrobbing (false);
 
 		if (MousePopChanged != null) {

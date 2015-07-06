@@ -31,6 +31,7 @@ public class MouseConfig : MonoBehaviour {
 	public Sprite[] introSprites;
 
 	public Color poisonedColor;
+	public Color fartedUponColor;
 
 	public Vector3 progressBarOffset;
 	public GameObject deadMousePrototype;

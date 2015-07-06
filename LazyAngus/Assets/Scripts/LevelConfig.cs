@@ -717,6 +717,7 @@ public class LevelConfig : MonoBehaviour {
 			          location, 
 			          mType, 
 			          track);
+			isClockwise = !isClockwise;
 		}
 		return retVal;
 	}
