@@ -12,20 +12,20 @@ struct Object_t;
 struct String_t;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m16809_gshared (KeyValuePair_2_t40 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m16809(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m16809_gshared)(__this, ___key, ___value, method)
+extern "C" void KeyValuePair_2__ctor_m16957_gshared (KeyValuePair_2_t40 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m16957(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m16957_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
-extern "C" Object_t * KeyValuePair_2_get_Key_m16810_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m16810(__this, method) (( Object_t * (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_get_Key_m16810_gshared)(__this, method)
+extern "C" Object_t * KeyValuePair_2_get_Key_m16958_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m16958(__this, method) (( Object_t * (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_get_Key_m16958_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m16811_gshared (KeyValuePair_2_t40 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m16811(__this, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m16811_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Key_m16959_gshared (KeyValuePair_2_t40 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m16959(__this, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m16959_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
-extern "C" Object_t * KeyValuePair_2_get_Value_m16812_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m16812(__this, method) (( Object_t * (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_get_Value_m16812_gshared)(__this, method)
+extern "C" Object_t * KeyValuePair_2_get_Value_m16960_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m16960(__this, method) (( Object_t * (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_get_Value_m16960_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m16813_gshared (KeyValuePair_2_t40 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m16813(__this, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m16813_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Value_m16961_gshared (KeyValuePair_2_t40 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m16961(__this, ___value, method) (( void (*) (KeyValuePair_2_t40 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m16961_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m16814_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m16814(__this, method) (( String_t* (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_ToString_m16814_gshared)(__this, method)
+extern "C" String_t* KeyValuePair_2_ToString_m16962_gshared (KeyValuePair_2_t40 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m16962(__this, method) (( String_t* (*) (KeyValuePair_2_t40 *, const MethodInfo*))KeyValuePair_2_ToString_m16962_gshared)(__this, method)

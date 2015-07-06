@@ -9,12 +9,12 @@ struct AN_GMSQuestsEventsProxy_t100;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t485;
+struct ObjectU5BU5D_t509;
 
 // System.Void AN_GMSQuestsEventsProxy::.ctor()
 extern "C" void AN_GMSQuestsEventsProxy__ctor_m497 (AN_GMSQuestsEventsProxy_t100 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSQuestsEventsProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GMSQuestsEventsProxy_CallActivityFunction_m498 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t485* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSQuestsEventsProxy_CallActivityFunction_m498 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t509* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSQuestsEventsProxy::sumbitEvent(System.String,System.Int32)
 extern "C" void AN_GMSQuestsEventsProxy_sumbitEvent_m499 (Object_t * __this /* static, unused */, String_t* ___eventId, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSQuestsEventsProxy::loadEvents()

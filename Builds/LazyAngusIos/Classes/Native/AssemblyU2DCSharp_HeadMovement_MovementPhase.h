@@ -5,7 +5,7 @@
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
 // HeadMovement/MovementPhase
-struct  MovementPhase_t423 
+struct  MovementPhase_t430 
 {
 	// System.Int32 HeadMovement/MovementPhase::value__
 	int32_t ___value___1;

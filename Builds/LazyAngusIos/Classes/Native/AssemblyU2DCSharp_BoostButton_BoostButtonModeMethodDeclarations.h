@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // BoostButton/BoostButtonMode
-struct BoostButtonMode_t377;
+struct BoostButtonMode_t376;
 

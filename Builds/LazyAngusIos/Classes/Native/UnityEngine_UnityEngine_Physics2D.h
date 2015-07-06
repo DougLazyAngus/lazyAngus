@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t1040;
+struct List_1_t1062;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Physics2D
-struct  Physics2D_t590  : public Object_t
+struct  Physics2D_t613  : public Object_t
 {
 };
-struct Physics2D_t590_StaticFields{
+struct Physics2D_t613_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> UnityEngine.Physics2D::m_LastDisabledRigidbody2D
-	List_1_t1040 * ___m_LastDisabledRigidbody2D_0;
+	List_1_t1062 * ___m_LastDisabledRigidbody2D_0;
 };

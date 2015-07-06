@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.CharacterClass
-struct CharacterClass_t1645;
+struct CharacterClass_t1667;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t1677;
+struct ICompiler_t1699;
 // System.Text.RegularExpressions.Category
 #include "System_System_Text_RegularExpressions_Category.h"
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Boolean,System.Boolean)
-extern "C" void CharacterClass__ctor_m8227 (CharacterClass_t1645 * __this, bool ___negate, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass__ctor_m8375 (CharacterClass_t1667 * __this, bool ___negate, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Text.RegularExpressions.Category,System.Boolean)
-extern "C" void CharacterClass__ctor_m8228 (CharacterClass_t1645 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass__ctor_m8376 (CharacterClass_t1667 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.cctor()
-extern "C" void CharacterClass__cctor_m8229 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass__cctor_m8377 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCategory(System.Text.RegularExpressions.Category,System.Boolean)
-extern "C" void CharacterClass_AddCategory_m8230 (CharacterClass_t1645 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass_AddCategory_m8378 (CharacterClass_t1667 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCharacter(System.Char)
-extern "C" void CharacterClass_AddCharacter_m8231 (CharacterClass_t1645 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass_AddCharacter_m8379 (CharacterClass_t1667 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddRange(System.Char,System.Char)
-extern "C" void CharacterClass_AddRange_m8232 (CharacterClass_t1645 * __this, uint16_t ___lo, uint16_t ___hi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass_AddRange_m8380 (CharacterClass_t1667 * __this, uint16_t ___lo, uint16_t ___hi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void CharacterClass_Compile_m8233 (CharacterClass_t1645 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass_Compile_m8381 (CharacterClass_t1667 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::GetWidth(System.Int32&,System.Int32&)
-extern "C" void CharacterClass_GetWidth_m8234 (CharacterClass_t1645 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharacterClass_GetWidth_m8382 (CharacterClass_t1667 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.CharacterClass::IsComplex()
-extern "C" bool CharacterClass_IsComplex_m8235 (CharacterClass_t1645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CharacterClass_IsComplex_m8383 (CharacterClass_t1667 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Text.RegularExpressions.Syntax.CharacterClass::GetIntervalCost(System.Text.RegularExpressions.Interval)
-extern "C" double CharacterClass_GetIntervalCost_m8236 (Object_t * __this /* static, unused */, Interval_t1621  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double CharacterClass_GetIntervalCost_m8384 (Object_t * __this /* static, unused */, Interval_t1643  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;

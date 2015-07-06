@@ -5,7 +5,7 @@ struct String_t;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDNotationDeclaration
-struct  DTDNotationDeclaration_t1974  : public DTDNode_t1960
+struct  DTDNotationDeclaration_t1996  : public DTDNode_t1982
 {
 	// System.String Mono.Xml.DTDNotationDeclaration::name
 	String_t* ___name_5;

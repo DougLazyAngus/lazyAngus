@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Text
-struct Text_t381;
+struct Text_t380;
 // DistortForEffect
-struct DistortForEffect_t411;
+struct DistortForEffect_t413;
 // PlayerStats
-struct PlayerStats_t382;
+struct PlayerStats_t391;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TrackScore
-struct  TrackScore_t471  : public MonoBehaviour_t67
+struct  TrackScore_t493  : public MonoBehaviour_t67
 {
 	// UnityEngine.UI.Text TrackScore::scoreText
-	Text_t381 * ___scoreText_2;
+	Text_t380 * ___scoreText_2;
 	// DistortForEffect TrackScore::distortForEffect
-	DistortForEffect_t411 * ___distortForEffect_3;
+	DistortForEffect_t413 * ___distortForEffect_3;
 	// PlayerStats TrackScore::playerStats
-	PlayerStats_t382 * ___playerStats_4;
+	PlayerStats_t391 * ___playerStats_4;
 	// System.Boolean TrackScore::registerdForEvents
 	bool ___registerdForEvents_5;
 };

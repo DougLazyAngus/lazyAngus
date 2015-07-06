@@ -10,7 +10,7 @@
 struct  Enumerator_t267 
 {
 	// System.Collections.Generic.RBTree/NodeEnumerator System.Collections.Generic.SortedDictionary`2/Enumerator<System.String,System.String>::host
-	NodeEnumerator_t1389  ___host_0;
+	NodeEnumerator_t1411  ___host_0;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Enumerator<System.String,System.String>::current
 	KeyValuePair_2_t234  ___current_1;
 };

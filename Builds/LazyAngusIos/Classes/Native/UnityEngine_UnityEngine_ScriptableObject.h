@@ -3,7 +3,7 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.ScriptableObject
-struct  ScriptableObject_t111  : public Object_t504
+struct  ScriptableObject_t111  : public Object_t528
 {
 };
 // Native definition for marshalling of: UnityEngine.ScriptableObject

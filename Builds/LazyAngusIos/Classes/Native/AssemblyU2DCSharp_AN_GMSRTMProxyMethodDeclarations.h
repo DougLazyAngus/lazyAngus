@@ -9,16 +9,16 @@ struct AN_GMSRTMProxy_t101;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t485;
+struct ObjectU5BU5D_t509;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Int32[]
-struct Int32U5BU5D_t462;
+struct Int32U5BU5D_t476;
 
 // System.Void AN_GMSRTMProxy::.ctor()
 extern "C" void AN_GMSRTMProxy__ctor_m504 (AN_GMSRTMProxy_t101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GMSRTMProxy_CallActivityFunction_m505 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t485* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSRTMProxy_CallActivityFunction_m505 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t509* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::RTMFindMatch(System.Int32,System.Int32,System.String[])
 extern "C" void AN_GMSRTMProxy_RTMFindMatch_m506 (Object_t * __this /* static, unused */, int32_t ___minPlayers, int32_t ___maxPlayers, StringU5BU5D_t45* ___pIds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::sendDataToAll(System.String,System.Int32)
@@ -52,7 +52,7 @@ extern "C" void AN_GMSRTMProxy_CancelMatch_m520 (Object_t * __this /* static, un
 // System.Void AN_GMSRTMProxy::DismissMatch(System.String)
 extern "C" void AN_GMSRTMProxy_DismissMatch_m521 (Object_t * __this /* static, unused */, String_t* ___matchId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_FinishMatch(System.String,System.String,System.String[],System.Int32[],System.Int32[],System.Int32[])
-extern "C" void AN_GMSRTMProxy_TBM_FinishMatch_m522 (Object_t * __this /* static, unused */, String_t* ___matchId, String_t* ___matchData, StringU5BU5D_t45* ___pIds, Int32U5BU5D_t462* ___results, Int32U5BU5D_t462* ___placing, Int32U5BU5D_t462* ___versions, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSRTMProxy_TBM_FinishMatch_m522 (Object_t * __this /* static, unused */, String_t* ___matchId, String_t* ___matchData, StringU5BU5D_t45* ___pIds, Int32U5BU5D_t476* ___results, Int32U5BU5D_t476* ___placing, Int32U5BU5D_t476* ___versions, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_LeaveMatch(System.String)
 extern "C" void AN_GMSRTMProxy_TBM_LeaveMatch_m523 (Object_t * __this /* static, unused */, String_t* ___matchId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_LeaveMatchDuringTurn(System.String,System.String)
@@ -60,7 +60,7 @@ extern "C" void AN_GMSRTMProxy_TBM_LeaveMatchDuringTurn_m524 (Object_t * __this 
 // System.Void AN_GMSRTMProxy::TBM_LoadMatchInfo(System.String)
 extern "C" void AN_GMSRTMProxy_TBM_LoadMatchInfo_m525 (Object_t * __this /* static, unused */, String_t* ___matchId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_LoadMatchesInfo(System.Int32,System.Int32[])
-extern "C" void AN_GMSRTMProxy_TBM_LoadMatchesInfo_m526 (Object_t * __this /* static, unused */, int32_t ___invitationSortOrder, Int32U5BU5D_t462* ___matchTurnStatuses, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSRTMProxy_TBM_LoadMatchesInfo_m526 (Object_t * __this /* static, unused */, int32_t ___invitationSortOrder, Int32U5BU5D_t476* ___matchTurnStatuses, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_LoadAllMatchesInfo(System.Int32)
 extern "C" void AN_GMSRTMProxy_TBM_LoadAllMatchesInfo_m527 (Object_t * __this /* static, unused */, int32_t ___invitationSortOrder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_Rematch(System.String)
@@ -70,7 +70,7 @@ extern "C" void AN_GMSRTMProxy_TBM_RegisterMatchUpdateListener_m529 (Object_t * 
 // System.Void AN_GMSRTMProxy::TBM_UnregisterMatchUpdateListener()
 extern "C" void AN_GMSRTMProxy_TBM_UnregisterMatchUpdateListener_m530 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_TakeTrun(System.String,System.String,System.String,System.String[],System.Int32[],System.Int32[],System.Int32[])
-extern "C" void AN_GMSRTMProxy_TBM_TakeTrun_m531 (Object_t * __this /* static, unused */, String_t* ___matchId, String_t* ___matchData, String_t* ___pendingParticipantId, StringU5BU5D_t45* ___pIds, Int32U5BU5D_t462* ___results, Int32U5BU5D_t462* ___placing, Int32U5BU5D_t462* ___versions, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSRTMProxy_TBM_TakeTrun_m531 (Object_t * __this /* static, unused */, String_t* ___matchId, String_t* ___matchData, String_t* ___pendingParticipantId, StringU5BU5D_t45* ___pIds, Int32U5BU5D_t476* ___results, Int32U5BU5D_t476* ___placing, Int32U5BU5D_t476* ___versions, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::StartSelectOpponentsView(System.Int32,System.Int32,System.Boolean)
 extern "C" void AN_GMSRTMProxy_StartSelectOpponentsView_m532 (Object_t * __this /* static, unused */, int32_t ___minPlayers, int32_t ___maxPlayers, bool ___allowAutomatch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::TBM_ShowInbox()

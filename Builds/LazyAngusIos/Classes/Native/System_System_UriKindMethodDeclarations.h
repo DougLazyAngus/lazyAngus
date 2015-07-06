@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UriKind
-struct UriKind_t1654;
+struct UriKind_t1676;
 

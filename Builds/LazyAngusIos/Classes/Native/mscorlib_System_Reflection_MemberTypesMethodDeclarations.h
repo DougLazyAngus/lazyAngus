@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MemberTypes
-struct MemberTypes_t2407;
+struct MemberTypes_t2429;
 

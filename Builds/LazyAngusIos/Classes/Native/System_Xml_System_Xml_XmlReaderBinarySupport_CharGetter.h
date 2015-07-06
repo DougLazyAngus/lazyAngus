@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t512;
+struct CharU5BU5D_t536;
 // System.IAsyncResult
-struct IAsyncResult_t388;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t389;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Int32
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.XmlReaderBinarySupport/CharGetter
-struct  CharGetter_t2035  : public MulticastDelegate_t391
+struct  CharGetter_t2057  : public MulticastDelegate_t388
 {
 };

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdEntities
-struct XsdEntities_t1893;
+struct XsdEntities_t1915;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdEntities::.ctor()
-extern "C" void XsdEntities__ctor_m8973 (XsdEntities_t1893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdEntities__ctor_m9121 (XsdEntities_t1915 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntities::get_TokenizedType()
-extern "C" int32_t XsdEntities_get_TokenizedType_m8974 (XsdEntities_t1893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdEntities_get_TokenizedType_m9122 (XsdEntities_t1915 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

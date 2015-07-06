@@ -7,7 +7,7 @@ struct Texture2D_t65;
 // FacebookProfileImageSize
 #include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
 // System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct  KeyValuePair_2_t3462 
+struct  KeyValuePair_2_t3484 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>::key
 	int32_t ___key_0;

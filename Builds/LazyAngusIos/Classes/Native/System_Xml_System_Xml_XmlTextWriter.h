@@ -1,25 +1,25 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t531;
+struct Encoding_t555;
 // System.Char[]
-struct CharU5BU5D_t512;
+struct CharU5BU5D_t536;
 // System.IO.Stream
 struct Stream_t24;
 // System.IO.TextWriter
-struct TextWriter_t1700;
+struct TextWriter_t1722;
 // System.IO.StringWriter
-struct StringWriter_t2053;
+struct StringWriter_t2075;
 // System.String
 struct String_t;
 // System.Xml.XmlNamespaceManager
-struct XmlNamespaceManager_t2017;
+struct XmlNamespaceManager_t2039;
 // System.Xml.XmlTextWriter/XmlNodeInfo[]
-struct XmlNodeInfoU5BU5D_t2054;
+struct XmlNodeInfoU5BU5D_t2076;
 // System.Collections.Stack
-struct Stack_t1171;
+struct Stack_t1193;
 // System.Collections.ArrayList
-struct ArrayList_t1404;
+struct ArrayList_t1426;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t154;
 // System.Xml.XmlWriter
@@ -35,16 +35,16 @@ struct Dictionary_2_t154;
 // System.Xml.NamespaceHandling
 #include "System_Xml_System_Xml_NamespaceHandling.h"
 // System.Xml.XmlTextWriter
-struct  XmlTextWriter_t2055  : public XmlWriter_t2056
+struct  XmlTextWriter_t2077  : public XmlWriter_t2078
 {
 	// System.IO.Stream System.Xml.XmlTextWriter::base_stream
 	Stream_t24 * ___base_stream_3;
 	// System.IO.TextWriter System.Xml.XmlTextWriter::source
-	TextWriter_t1700 * ___source_4;
+	TextWriter_t1722 * ___source_4;
 	// System.IO.TextWriter System.Xml.XmlTextWriter::writer
-	TextWriter_t1700 * ___writer_5;
+	TextWriter_t1722 * ___writer_5;
 	// System.IO.StringWriter System.Xml.XmlTextWriter::preserver
-	StringWriter_t2053 * ___preserver_6;
+	StringWriter_t2075 * ___preserver_6;
 	// System.String System.Xml.XmlTextWriter::preserved_name
 	String_t* ___preserved_name_7;
 	// System.Boolean System.Xml.XmlTextWriter::is_preserved_xmlns
@@ -70,15 +70,15 @@ struct  XmlTextWriter_t2055  : public XmlWriter_t2056
 	// System.Xml.XmlNodeType System.Xml.XmlTextWriter::node_state
 	int32_t ___node_state_18;
 	// System.Xml.XmlNamespaceManager System.Xml.XmlTextWriter::nsmanager
-	XmlNamespaceManager_t2017 * ___nsmanager_19;
+	XmlNamespaceManager_t2039 * ___nsmanager_19;
 	// System.Int32 System.Xml.XmlTextWriter::open_count
 	int32_t ___open_count_20;
 	// System.Xml.XmlTextWriter/XmlNodeInfo[] System.Xml.XmlTextWriter::elements
-	XmlNodeInfoU5BU5D_t2054* ___elements_21;
+	XmlNodeInfoU5BU5D_t2076* ___elements_21;
 	// System.Collections.Stack System.Xml.XmlTextWriter::new_local_namespaces
-	Stack_t1171 * ___new_local_namespaces_22;
+	Stack_t1193 * ___new_local_namespaces_22;
 	// System.Collections.ArrayList System.Xml.XmlTextWriter::explicit_nsdecls
-	ArrayList_t1404 * ___explicit_nsdecls_23;
+	ArrayList_t1426 * ___explicit_nsdecls_23;
 	// System.Xml.NamespaceHandling System.Xml.XmlTextWriter::namespace_handling
 	int32_t ___namespace_handling_24;
 	// System.Boolean System.Xml.XmlTextWriter::indent
@@ -98,13 +98,13 @@ struct  XmlTextWriter_t2055  : public XmlWriter_t2056
 	// System.Boolean System.Xml.XmlTextWriter::v2
 	bool ___v2_32;
 };
-struct XmlTextWriter_t2055_StaticFields{
+struct XmlTextWriter_t2077_StaticFields{
 	// System.Text.Encoding System.Xml.XmlTextWriter::unmarked_utf8encoding
-	Encoding_t531 * ___unmarked_utf8encoding_0;
+	Encoding_t555 * ___unmarked_utf8encoding_0;
 	// System.Char[] System.Xml.XmlTextWriter::escaped_text_chars
-	CharU5BU5D_t512* ___escaped_text_chars_1;
+	CharU5BU5D_t536* ___escaped_text_chars_1;
 	// System.Char[] System.Xml.XmlTextWriter::escaped_attr_chars
-	CharU5BU5D_t512* ___escaped_attr_chars_2;
+	CharU5BU5D_t536* ___escaped_attr_chars_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlTextWriter::<>f__switch$map53
 	Dictionary_2_t154 * ___U3CU3Ef__switchU24map53_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlTextWriter::<>f__switch$map54

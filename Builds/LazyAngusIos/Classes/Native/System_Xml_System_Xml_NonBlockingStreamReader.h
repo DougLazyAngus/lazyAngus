@@ -3,11 +3,11 @@
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Char[]
-struct CharU5BU5D_t512;
+struct CharU5BU5D_t536;
 // System.Text.Encoding
-struct Encoding_t531;
+struct Encoding_t555;
 // System.Text.Decoder
-struct Decoder_t2011;
+struct Decoder_t2033;
 // System.IO.Stream
 struct Stream_t24;
 // System.Text.StringBuilder
@@ -15,12 +15,12 @@ struct StringBuilder_t192;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.Xml.NonBlockingStreamReader
-struct  NonBlockingStreamReader_t2010  : public TextReader_t2012
+struct  NonBlockingStreamReader_t2032  : public TextReader_t2034
 {
 	// System.Byte[] System.Xml.NonBlockingStreamReader::input_buffer
 	ByteU5BU5D_t36* ___input_buffer_1;
 	// System.Char[] System.Xml.NonBlockingStreamReader::decoded_buffer
-	CharU5BU5D_t512* ___decoded_buffer_2;
+	CharU5BU5D_t536* ___decoded_buffer_2;
 	// System.Int32 System.Xml.NonBlockingStreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.Xml.NonBlockingStreamReader::pos
@@ -28,9 +28,9 @@ struct  NonBlockingStreamReader_t2010  : public TextReader_t2012
 	// System.Int32 System.Xml.NonBlockingStreamReader::buffer_size
 	int32_t ___buffer_size_5;
 	// System.Text.Encoding System.Xml.NonBlockingStreamReader::encoding
-	Encoding_t531 * ___encoding_6;
+	Encoding_t555 * ___encoding_6;
 	// System.Text.Decoder System.Xml.NonBlockingStreamReader::decoder
-	Decoder_t2011 * ___decoder_7;
+	Decoder_t2033 * ___decoder_7;
 	// System.IO.Stream System.Xml.NonBlockingStreamReader::base_stream
 	Stream_t24 * ___base_stream_8;
 	// System.Boolean System.Xml.NonBlockingStreamReader::mayBlock

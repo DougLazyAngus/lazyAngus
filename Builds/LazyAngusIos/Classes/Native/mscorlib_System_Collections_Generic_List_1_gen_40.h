@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UILineInfo[]
-struct UILineInfoU5BU5D_t1183;
+struct UILineInfoU5BU5D_t1205;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct  List_1_t1062  : public Object_t
+struct  List_1_t1084  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_items
-	UILineInfoU5BU5D_t1183* ____items_1;
+	UILineInfoU5BU5D_t1205* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1062_StaticFields{
+struct List_1_t1084_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::EmptyArray
-	UILineInfoU5BU5D_t1183* ___EmptyArray_4;
+	UILineInfoU5BU5D_t1205* ___EmptyArray_4;
 };

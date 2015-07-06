@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.GregorianCalendar
-struct GregorianCalendar_t2342;
+struct GregorianCalendar_t2364;
 // System.Int32[]
-struct Int32U5BU5D_t462;
+struct Int32U5BU5D_t476;
 // System.Globalization.GregorianCalendarTypes
 #include "mscorlib_System_Globalization_GregorianCalendarTypes.h"
 // System.DateTime
@@ -16,20 +16,20 @@ struct Int32U5BU5D_t462;
 #include "mscorlib_System_DayOfWeek.h"
 
 // System.Void System.Globalization.GregorianCalendar::.ctor(System.Globalization.GregorianCalendarTypes)
-extern "C" void GregorianCalendar__ctor_m12702 (GregorianCalendar_t2342 * __this, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GregorianCalendar__ctor_m12850 (GregorianCalendar_t2364 * __this, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.GregorianCalendar::.ctor()
-extern "C" void GregorianCalendar__ctor_m12703 (GregorianCalendar_t2342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GregorianCalendar__ctor_m12851 (GregorianCalendar_t2364 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.GregorianCalendar::get_Eras()
-extern "C" Int32U5BU5D_t462* GregorianCalendar_get_Eras_m12704 (GregorianCalendar_t2342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t476* GregorianCalendar_get_Eras_m12852 (GregorianCalendar_t2364 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.GregorianCalendar::set_CalendarType(System.Globalization.GregorianCalendarTypes)
-extern "C" void GregorianCalendar_set_CalendarType_m12705 (GregorianCalendar_t2342 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GregorianCalendar_set_CalendarType_m12853 (GregorianCalendar_t2364 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.GregorianCalendar::GetDayOfMonth(System.DateTime)
-extern "C" int32_t GregorianCalendar_GetDayOfMonth_m12706 (GregorianCalendar_t2342 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GregorianCalendar_GetDayOfMonth_m12854 (GregorianCalendar_t2364 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DayOfWeek System.Globalization.GregorianCalendar::GetDayOfWeek(System.DateTime)
-extern "C" int32_t GregorianCalendar_GetDayOfWeek_m12707 (GregorianCalendar_t2342 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GregorianCalendar_GetDayOfWeek_m12855 (GregorianCalendar_t2364 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.GregorianCalendar::GetEra(System.DateTime)
-extern "C" int32_t GregorianCalendar_GetEra_m12708 (GregorianCalendar_t2342 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GregorianCalendar_GetEra_m12856 (GregorianCalendar_t2364 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.GregorianCalendar::GetMonth(System.DateTime)
-extern "C" int32_t GregorianCalendar_GetMonth_m12709 (GregorianCalendar_t2342 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GregorianCalendar_GetMonth_m12857 (GregorianCalendar_t2364 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.GregorianCalendar::GetYear(System.DateTime)
-extern "C" int32_t GregorianCalendar_GetYear_m12710 (GregorianCalendar_t2342 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GregorianCalendar_GetYear_m12858 (GregorianCalendar_t2364 * __this, DateTime_t219  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

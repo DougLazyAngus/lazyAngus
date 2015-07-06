@@ -3,18 +3,18 @@
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.SByte[]
-struct SByteU5BU5D_t2632;
+struct SByteU5BU5D_t2654;
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.UTF7Encoding
-struct  UTF7Encoding_t2633  : public Encoding_t531
+struct  UTF7Encoding_t2655  : public Encoding_t555
 {
 	// System.Boolean System.Text.UTF7Encoding::allowOptionals
 	bool ___allowOptionals_28;
 };
-struct UTF7Encoding_t2633_StaticFields{
+struct UTF7Encoding_t2655_StaticFields{
 	// System.Byte[] System.Text.UTF7Encoding::encodingRules
 	ByteU5BU5D_t36* ___encodingRules_29;
 	// System.SByte[] System.Text.UTF7Encoding::base64Values
-	SByteU5BU5D_t2632* ___base64Values_30;
+	SByteU5BU5D_t2654* ___base64Values_30;
 };

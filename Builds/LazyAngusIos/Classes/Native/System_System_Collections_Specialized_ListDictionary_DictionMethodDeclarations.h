@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Specialized.ListDictionary/DictionaryNode
-struct DictionaryNode_t1394;
+struct DictionaryNode_t1416;
 // System.Object
 struct Object_t;
 
 // System.Void System.Collections.Specialized.ListDictionary/DictionaryNode::.ctor(System.Object,System.Object,System.Collections.Specialized.ListDictionary/DictionaryNode)
-extern "C" void DictionaryNode__ctor_m6611 (DictionaryNode_t1394 * __this, Object_t * ___key, Object_t * ___value, DictionaryNode_t1394 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryNode__ctor_m6759 (DictionaryNode_t1416 * __this, Object_t * ___key, Object_t * ___value, DictionaryNode_t1416 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

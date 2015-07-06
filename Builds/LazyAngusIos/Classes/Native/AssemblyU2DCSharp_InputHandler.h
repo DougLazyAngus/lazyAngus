@@ -1,36 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t428;
-// GameController
-struct GameController_t383;
-// PlayerController
-struct PlayerController_t429;
+struct Camera_t435;
 // InputHandler
-struct InputHandler_t430;
+struct InputHandler_t436;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // InputHandler
-struct  InputHandler_t430  : public MonoBehaviour_t67
+struct  InputHandler_t436  : public MonoBehaviour_t67
 {
 	// UnityEngine.Camera InputHandler::worldCamera
-	Camera_t428 * ___worldCamera_4;
+	Camera_t435 * ___worldCamera_4;
 	// UnityEngine.Camera InputHandler::uxCamera
-	Camera_t428 * ___uxCamera_5;
-	// GameController InputHandler::gameController
-	GameController_t383 * ___gameController_6;
-	// PlayerController InputHandler::playerController
-	PlayerController_t429 * ___playerController_7;
+	Camera_t435 * ___uxCamera_5;
 	// System.Int32 InputHandler::UserInteractionsLayerBitmask
-	int32_t ___UserInteractionsLayerBitmask_8;
+	int32_t ___UserInteractionsLayerBitmask_6;
 	// System.Boolean InputHandler::<isTouchDevice>k__BackingField
-	bool ___U3CisTouchDeviceU3Ek__BackingField_9;
+	bool ___U3CisTouchDeviceU3Ek__BackingField_7;
 };
-struct InputHandler_t430_StaticFields{
+struct InputHandler_t436_StaticFields{
 	// System.Int32 InputHandler::UserInteractionsLayerBit
 	int32_t ___UserInteractionsLayerBit_2;
 	// System.Int32 InputHandler::UILayerBit
 	int32_t ___UILayerBit_3;
 	// InputHandler InputHandler::<instance>k__BackingField
-	InputHandler_t430 * ___U3CinstanceU3Ek__BackingField_10;
+	InputHandler_t436 * ___U3CinstanceU3Ek__BackingField_8;
 };

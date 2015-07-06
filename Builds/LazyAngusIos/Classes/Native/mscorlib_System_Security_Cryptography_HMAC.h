@@ -3,22 +3,22 @@
 // System.String
 struct String_t;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t1472;
+struct HashAlgorithm_t1494;
 // Mono.Security.Cryptography.BlockProcessor
-struct BlockProcessor_t2265;
+struct BlockProcessor_t2287;
 // System.Security.Cryptography.KeyedHashAlgorithm
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
 // System.Security.Cryptography.HMAC
-struct  HMAC_t2193  : public KeyedHashAlgorithm_t2126
+struct  HMAC_t2215  : public KeyedHashAlgorithm_t2148
 {
 	// System.Boolean System.Security.Cryptography.HMAC::_disposed
 	bool ____disposed_5;
 	// System.String System.Security.Cryptography.HMAC::_hashName
 	String_t* ____hashName_6;
 	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.HMAC::_algo
-	HashAlgorithm_t1472 * ____algo_7;
+	HashAlgorithm_t1494 * ____algo_7;
 	// Mono.Security.Cryptography.BlockProcessor System.Security.Cryptography.HMAC::_block
-	BlockProcessor_t2265 * ____block_8;
+	BlockProcessor_t2287 * ____block_8;
 	// System.Int32 System.Security.Cryptography.HMAC::_blockSizeValue
 	int32_t ____blockSizeValue_9;
 };

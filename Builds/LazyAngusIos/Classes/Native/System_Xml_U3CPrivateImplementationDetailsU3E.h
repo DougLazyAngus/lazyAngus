@@ -11,22 +11,22 @@
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "System_Xml_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2.h"
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t2064  : public Object_t
+struct  U3CPrivateImplementationDetailsU3E_t2086  : public Object_t
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t2064_StaticFields{
+struct U3CPrivateImplementationDetailsU3E_t2086_StaticFields{
 	// <PrivateImplementationDetails>/$ArrayType$8 <PrivateImplementationDetails>::$$field-23
-	U24ArrayTypeU248_t2061  ___U24U24fieldU2D23_0;
+	U24ArrayTypeU248_t2083  ___U24U24fieldU2D23_0;
 	// <PrivateImplementationDetails>/$ArrayType$8 <PrivateImplementationDetails>::$$field-26
-	U24ArrayTypeU248_t2061  ___U24U24fieldU2D26_1;
+	U24ArrayTypeU248_t2083  ___U24U24fieldU2D26_1;
 	// <PrivateImplementationDetails>/$ArrayType$256 <PrivateImplementationDetails>::$$field-27
-	U24ArrayTypeU24256_t2062  ___U24U24fieldU2D27_2;
+	U24ArrayTypeU24256_t2084  ___U24U24fieldU2D27_2;
 	// <PrivateImplementationDetails>/$ArrayType$256 <PrivateImplementationDetails>::$$field-28
-	U24ArrayTypeU24256_t2062  ___U24U24fieldU2D28_3;
+	U24ArrayTypeU24256_t2084  ___U24U24fieldU2D28_3;
 	// <PrivateImplementationDetails>/$ArrayType$1280 <PrivateImplementationDetails>::$$field-29
-	U24ArrayTypeU241280_t2063  ___U24U24fieldU2D29_4;
+	U24ArrayTypeU241280_t2085  ___U24U24fieldU2D29_4;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-43
-	U24ArrayTypeU2412_t2060  ___U24U24fieldU2D43_5;
+	U24ArrayTypeU2412_t2082  ___U24U24fieldU2D43_5;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-44
-	U24ArrayTypeU2412_t2060  ___U24U24fieldU2D44_6;
+	U24ArrayTypeU2412_t2082  ___U24U24fieldU2D44_6;
 };

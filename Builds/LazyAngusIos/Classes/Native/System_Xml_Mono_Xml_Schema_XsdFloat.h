@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdFloat
-struct  XsdFloat_t1909  : public XsdAnySimpleType_t1877
+struct  XsdFloat_t1931  : public XsdAnySimpleType_t1899
 {
 };

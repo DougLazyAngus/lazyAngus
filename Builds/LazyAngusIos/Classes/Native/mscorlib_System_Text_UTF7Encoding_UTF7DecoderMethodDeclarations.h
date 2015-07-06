@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.UTF7Encoding/UTF7Decoder
-struct UTF7Decoder_t2631;
+struct UTF7Decoder_t2653;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Char[]
-struct CharU5BU5D_t512;
+struct CharU5BU5D_t536;
 
 // System.Void System.Text.UTF7Encoding/UTF7Decoder::.ctor()
-extern "C" void UTF7Decoder__ctor_m14596 (UTF7Decoder_t2631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF7Decoder__ctor_m14744 (UTF7Decoder_t2653 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding/UTF7Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF7Decoder_GetChars_m14597 (UTF7Decoder_t2631 * __this, ByteU5BU5D_t36* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t512* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Decoder_GetChars_m14745 (UTF7Decoder_t2653 * __this, ByteU5BU5D_t36* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t536* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

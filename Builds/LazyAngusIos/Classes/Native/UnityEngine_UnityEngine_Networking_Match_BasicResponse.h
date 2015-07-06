@@ -3,6 +3,6 @@
 // UnityEngine.Networking.Match.Response
 #include "UnityEngine_UnityEngine_Networking_Match_Response.h"
 // UnityEngine.Networking.Match.BasicResponse
-struct  BasicResponse_t1067  : public Response_t1066
+struct  BasicResponse_t1089  : public Response_t1088
 {
 };

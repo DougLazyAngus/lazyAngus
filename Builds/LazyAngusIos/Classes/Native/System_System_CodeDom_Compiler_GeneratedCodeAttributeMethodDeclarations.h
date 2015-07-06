@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.CodeDom.Compiler.GeneratedCodeAttribute
-struct GeneratedCodeAttribute_t1258;
+struct GeneratedCodeAttribute_t1280;
 // System.String
 struct String_t;
 
 // System.Void System.CodeDom.Compiler.GeneratedCodeAttribute::.ctor(System.String,System.String)
-extern "C" void GeneratedCodeAttribute__ctor_m6385 (GeneratedCodeAttribute_t1258 * __this, String_t* ___tool, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GeneratedCodeAttribute__ctor_m6533 (GeneratedCodeAttribute_t1280 * __this, String_t* ___tool, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

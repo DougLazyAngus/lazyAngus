@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AN_ActivityTemplate>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__1.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,AN_ActivityTemplate>
-struct  Enumerator_t517 
+struct  Enumerator_t541 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,AN_ActivityTemplate>::host_enumerator
-	Enumerator_t516  ___host_enumerator_0;
+	Enumerator_t540  ___host_enumerator_0;
 };

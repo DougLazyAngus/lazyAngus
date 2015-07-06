@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Replacements.RemotingServices
-struct RemotingServices_t2083;
+struct RemotingServices_t2105;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t2084;
+struct IMessageSink_t2106;
 // System.String
 struct String_t;
 // System.Object
@@ -15,9 +15,9 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.Object[]
-struct ObjectU5BU5D_t485;
+struct ObjectU5BU5D_t509;
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10081 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10229 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m10082 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t485* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m10230 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t509* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

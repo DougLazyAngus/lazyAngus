@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.LayerMask
-struct LayerMask_t685;
+struct LayerMask_t708;
 // System.String
 struct String_t;
 // System.String[]
@@ -14,16 +14,16 @@ struct StringU5BU5D_t45;
 #include "UnityEngine_UnityEngine_LayerMask.h"
 
 // System.Int32 UnityEngine.LayerMask::get_value()
-extern "C" int32_t LayerMask_get_value_m4863 (LayerMask_t685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayerMask_get_value_m5009 (LayerMask_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.LayerMask::set_value(System.Int32)
-extern "C" void LayerMask_set_value_m4864 (LayerMask_t685 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayerMask_set_value_m5010 (LayerMask_t708 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.LayerMask::LayerToName(System.Int32)
-extern "C" String_t* LayerMask_LayerToName_m4865 (Object_t * __this /* static, unused */, int32_t ___layer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* LayerMask_LayerToName_m5011 (Object_t * __this /* static, unused */, int32_t ___layer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.LayerMask::NameToLayer(System.String)
-extern "C" int32_t LayerMask_NameToLayer_m4866 (Object_t * __this /* static, unused */, String_t* ___layerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayerMask_NameToLayer_m5012 (Object_t * __this /* static, unused */, String_t* ___layerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.LayerMask::GetMask(System.String[])
-extern "C" int32_t LayerMask_GetMask_m4867 (Object_t * __this /* static, unused */, StringU5BU5D_t45* ___layerNames, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayerMask_GetMask_m5013 (Object_t * __this /* static, unused */, StringU5BU5D_t45* ___layerNames, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.LayerMask::op_Implicit(UnityEngine.LayerMask)
-extern "C" int32_t LayerMask_op_Implicit_m4339 (Object_t * __this /* static, unused */, LayerMask_t685  ___mask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayerMask_op_Implicit_m4488 (Object_t * __this /* static, unused */, LayerMask_t708  ___mask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.LayerMask UnityEngine.LayerMask::op_Implicit(System.Int32)
-extern "C" LayerMask_t685  LayerMask_op_Implicit_m4337 (Object_t * __this /* static, unused */, int32_t ___intVal, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" LayerMask_t708  LayerMask_op_Implicit_m4486 (Object_t * __this /* static, unused */, int32_t ___intVal, const MethodInfo* method) IL2CPP_METHOD_ATTR;

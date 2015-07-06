@@ -3,6 +3,6 @@
 // UnityEngine.Renderer
 #include "UnityEngine_UnityEngine_Renderer.h"
 // UnityEngine.MeshRenderer
-struct  MeshRenderer_t582  : public Renderer_t495
+struct  MeshRenderer_t605  : public Renderer_t519
 {
 };

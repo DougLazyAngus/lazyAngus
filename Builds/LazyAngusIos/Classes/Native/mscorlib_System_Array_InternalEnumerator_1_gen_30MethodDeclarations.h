@@ -4,24 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>
-struct InternalEnumerator_1_t3710;
+// System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>
+struct InternalEnumerator_1_t3673;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// UnityEngine.UI.InputField/ContentType
-#include "UnityEngine_UI_UnityEngine_UI_InputField_ContentType.h"
+// UnityEngine.RaycastHit
+#include "UnityEngine_UnityEngine_RaycastHit.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Int32>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_2MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m23584(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3710 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16639_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23585(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3710 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16640_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>::Dispose()
-#define InternalEnumerator_1_Dispose_m23586(__this, method) (( void (*) (InternalEnumerator_1_t3710 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16641_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m23587(__this, method) (( bool (*) (InternalEnumerator_1_t3710 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16642_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.UI.InputField/ContentType>::get_Current()
-#define InternalEnumerator_1_get_Current_m23588(__this, method) (( int32_t (*) (InternalEnumerator_1_t3710 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16643_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m22767_gshared (InternalEnumerator_1_t3673 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m22767(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3673 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22767_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22768_gshared (InternalEnumerator_1_t3673 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22768(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3673 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22768_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m22769_gshared (InternalEnumerator_1_t3673 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m22769(__this, method) (( void (*) (InternalEnumerator_1_t3673 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22769_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m22770_gshared (InternalEnumerator_1_t3673 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m22770(__this, method) (( bool (*) (InternalEnumerator_1_t3673 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22770_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.RaycastHit>::get_Current()
+extern "C" RaycastHit_t580  InternalEnumerator_1_get_Current_m22771_gshared (InternalEnumerator_1_t3673 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m22771(__this, method) (( RaycastHit_t580  (*) (InternalEnumerator_1_t3673 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22771_gshared)(__this, method)

@@ -4,27 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>
-struct InternalEnumerator_1_t3648;
+// System.Array/InternalEnumerator`1<MouseConfig/MouseType>
+struct InternalEnumerator_1_t3599;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// UnityEngine.RaycastHit2D
-#include "UnityEngine_UnityEngine_RaycastHit2D.h"
+// MouseConfig/MouseType
+#include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m22601_gshared (InternalEnumerator_1_t3648 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m22601(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3648 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22601_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22602_gshared (InternalEnumerator_1_t3648 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22602(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3648 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22602_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m22603_gshared (InternalEnumerator_1_t3648 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m22603(__this, method) (( void (*) (InternalEnumerator_1_t3648 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22603_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m22604_gshared (InternalEnumerator_1_t3648 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m22604(__this, method) (( bool (*) (InternalEnumerator_1_t3648 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22604_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::get_Current()
-extern "C" RaycastHit2D_t847  InternalEnumerator_1_get_Current_m22605_gshared (InternalEnumerator_1_t3648 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m22605(__this, method) (( RaycastHit2D_t847  (*) (InternalEnumerator_1_t3648 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22605_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<MouseConfig/MouseType>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Int32>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_2MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m21554(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3599 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16787_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<MouseConfig/MouseType>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21555(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3599 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16788_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<MouseConfig/MouseType>::Dispose()
+#define InternalEnumerator_1_Dispose_m21556(__this, method) (( void (*) (InternalEnumerator_1_t3599 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16789_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<MouseConfig/MouseType>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m21557(__this, method) (( bool (*) (InternalEnumerator_1_t3599 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16790_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<MouseConfig/MouseType>::get_Current()
+#define InternalEnumerator_1_get_Current_m21558(__this, method) (( int32_t (*) (InternalEnumerator_1_t3599 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16791_gshared)(__this, method)

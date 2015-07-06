@@ -5,7 +5,7 @@ struct String_t;
 // System.Text.RegularExpressions.Syntax.Group
 #include "System_System_Text_RegularExpressions_Syntax_Group.h"
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct  CapturingGroup_t1632  : public Group_t1630
+struct  CapturingGroup_t1654  : public Group_t1652
 {
 	// System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::gid
 	int32_t ___gid_1;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct EnvoyTerminatorSink_t2480;
+struct EnvoyTerminatorSink_t2502;
 
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.ctor()
-extern "C" void EnvoyTerminatorSink__ctor_m13706 (EnvoyTerminatorSink_t2480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyTerminatorSink__ctor_m13854 (EnvoyTerminatorSink_t2502 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.cctor()
-extern "C" void EnvoyTerminatorSink__cctor_m13707 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyTerminatorSink__cctor_m13855 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

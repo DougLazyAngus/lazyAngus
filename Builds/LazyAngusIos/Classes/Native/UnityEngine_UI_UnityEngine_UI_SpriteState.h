@@ -5,7 +5,7 @@ struct Sprite_t394;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.UI.SpriteState
-struct  SpriteState_t760 
+struct  SpriteState_t783 
 {
 	// UnityEngine.Sprite UnityEngine.UI.SpriteState::m_HighlightedSprite
 	Sprite_t394 * ___m_HighlightedSprite_0;

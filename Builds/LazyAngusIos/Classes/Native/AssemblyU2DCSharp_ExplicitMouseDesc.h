@@ -7,7 +7,7 @@
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // ExplicitMouseDesc
-struct  ExplicitMouseDesc_t413 
+struct  ExplicitMouseDesc_t415 
 {
 	// MouseConfig/MouseType ExplicitMouseDesc::mouseType
 	int32_t ___mouseType_0;
@@ -21,7 +21,7 @@ struct  ExplicitMouseDesc_t413
 	float ___delayToNextMouse_4;
 };
 // Native definition for marshalling of: ExplicitMouseDesc
-struct ExplicitMouseDesc_t413_marshaled
+struct ExplicitMouseDesc_t415_marshaled
 {
 	int32_t ___mouseType_0;
 	int32_t ___mouseHoleLocation_1;

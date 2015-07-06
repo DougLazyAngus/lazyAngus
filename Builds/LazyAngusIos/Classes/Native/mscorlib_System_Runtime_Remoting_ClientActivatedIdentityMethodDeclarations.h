@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.ClientActivatedIdentity
-struct ClientActivatedIdentity_t2511;
+struct ClientActivatedIdentity_t2533;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t1538;
+struct MarshalByRefObject_t1560;
 
 // System.MarshalByRefObject System.Runtime.Remoting.ClientActivatedIdentity::GetServerObject()
-extern "C" MarshalByRefObject_t1538 * ClientActivatedIdentity_GetServerObject_m13884 (ClientActivatedIdentity_t2511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t1560 * ClientActivatedIdentity_GetServerObject_m14032 (ClientActivatedIdentity_t2533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

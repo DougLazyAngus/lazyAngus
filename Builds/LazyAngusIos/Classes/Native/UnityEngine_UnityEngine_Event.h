@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Event
-struct Event_t577;
-struct Event_t577_marshaled;
+struct Event_t600;
+struct Event_t600_marshaled;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t154;
 // System.Object
@@ -10,21 +10,21 @@ struct Dictionary_2_t154;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.Event
-struct  Event_t577  : public Object_t
+struct  Event_t600  : public Object_t
 {
 	// System.IntPtr UnityEngine.Event::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
-struct Event_t577_StaticFields{
+struct Event_t600_StaticFields{
 	// UnityEngine.Event UnityEngine.Event::s_Current
-	Event_t577 * ___s_Current_1;
+	Event_t600 * ___s_Current_1;
 	// UnityEngine.Event UnityEngine.Event::s_MasterEvent
-	Event_t577 * ___s_MasterEvent_2;
+	Event_t600 * ___s_MasterEvent_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> UnityEngine.Event::<>f__switch$map0
 	Dictionary_2_t154 * ___U3CU3Ef__switchU24map0_3;
 };
 // Native definition for marshalling of: UnityEngine.Event
-struct Event_t577_marshaled
+struct Event_t600_marshaled
 {
 	IntPtr_t ___m_Ptr_0;
 };

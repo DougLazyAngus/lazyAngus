@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Globalization.Unicode.TailoringInfo
-struct  TailoringInfo_t2237  : public Object_t
+struct  TailoringInfo_t2259  : public Object_t
 {
 	// System.Int32 Mono.Globalization.Unicode.TailoringInfo::LCID
 	int32_t ___LCID_0;

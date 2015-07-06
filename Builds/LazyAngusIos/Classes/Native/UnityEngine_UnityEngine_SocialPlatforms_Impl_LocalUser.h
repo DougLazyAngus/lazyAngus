@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t1130;
+struct IUserProfileU5BU5D_t1152;
 // UnityEngine.SocialPlatforms.Impl.UserProfile
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserProfile.h"
 // UnityEngine.SocialPlatforms.Impl.LocalUser
-struct  LocalUser_t969  : public UserProfile_t1131
+struct  LocalUser_t991  : public UserProfile_t1153
 {
 	// UnityEngine.SocialPlatforms.IUserProfile[] UnityEngine.SocialPlatforms.Impl.LocalUser::m_Friends
-	IUserProfileU5BU5D_t1130* ___m_Friends_5;
+	IUserProfileU5BU5D_t1152* ___m_Friends_5;
 	// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::m_Authenticated
 	bool ___m_Authenticated_6;
 	// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::m_Underage

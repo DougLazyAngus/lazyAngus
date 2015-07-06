@@ -3,6 +3,6 @@
 // System.Collections.ArrayList/FixedSizeArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_FixedSizeArrayListWrap.h"
 // System.Collections.ArrayList/ReadOnlyArrayListWrapper
-struct  ReadOnlyArrayListWrapper_t2306  : public FixedSizeArrayListWrapper_t2305
+struct  ReadOnlyArrayListWrapper_t2328  : public FixedSizeArrayListWrapper_t2327
 {
 };

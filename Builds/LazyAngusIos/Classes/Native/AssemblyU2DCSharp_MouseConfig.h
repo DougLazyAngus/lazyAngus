@@ -5,7 +5,7 @@ struct SpriteU5BU5D_t405;
 // UnityEngine.GameObject
 struct GameObject_t284;
 // MouseConfig
-struct MouseConfig_t445;
+struct MouseConfig_t452;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Color
@@ -13,7 +13,7 @@ struct MouseConfig_t445;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseConfig
-struct  MouseConfig_t445  : public MonoBehaviour_t67
+struct  MouseConfig_t452  : public MonoBehaviour_t67
 {
 	// System.Single MouseConfig::minCirclingRadius
 	float ___minCirclingRadius_2;
@@ -34,11 +34,11 @@ struct  MouseConfig_t445  : public MonoBehaviour_t67
 	// UnityEngine.Color MouseConfig::poisonedColor
 	Color_t257  ___poisonedColor_10;
 	// UnityEngine.Vector3 MouseConfig::progressBarOffset
-	Vector3_t412  ___progressBarOffset_11;
+	Vector3_t414  ___progressBarOffset_11;
 	// UnityEngine.GameObject MouseConfig::deadMousePrototype
 	GameObject_t284 * ___deadMousePrototype_12;
 };
-struct MouseConfig_t445_StaticFields{
+struct MouseConfig_t452_StaticFields{
 	// MouseConfig MouseConfig::instance
-	MouseConfig_t445 * ___instance_13;
+	MouseConfig_t452 * ___instance_13;
 };

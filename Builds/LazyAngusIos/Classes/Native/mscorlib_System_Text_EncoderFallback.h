@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.EncoderFallback
-struct EncoderFallback_t2621;
+struct EncoderFallback_t2643;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.EncoderFallback
-struct  EncoderFallback_t2621  : public Object_t
+struct  EncoderFallback_t2643  : public Object_t
 {
 };
-struct EncoderFallback_t2621_StaticFields{
+struct EncoderFallback_t2643_StaticFields{
 	// System.Text.EncoderFallback System.Text.EncoderFallback::exception_fallback
-	EncoderFallback_t2621 * ___exception_fallback_0;
+	EncoderFallback_t2643 * ___exception_fallback_0;
 	// System.Text.EncoderFallback System.Text.EncoderFallback::replacement_fallback
-	EncoderFallback_t2621 * ___replacement_fallback_1;
+	EncoderFallback_t2643 * ___replacement_fallback_1;
 	// System.Text.EncoderFallback System.Text.EncoderFallback::standard_safe_fallback
-	EncoderFallback_t2621 * ___standard_safe_fallback_2;
+	EncoderFallback_t2643 * ___standard_safe_fallback_2;
 };

@@ -1,4 +1,4 @@
-//Generated on : 7/1/2015 12:36:53 PM
+//Generated on : 7/6/2015 9:54:52 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -23,6 +23,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
 
+		//System.Void UnityEngine.Animator::SetIntegerString(System.String,System.Int32)
+		void Register_UnityEngine_Animator_SetIntegerString();
+		Register_UnityEngine_Animator_SetIntegerString();
+
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
@@ -46,10 +50,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Application::get_isWebPlayer()
 		void Register_UnityEngine_Application_get_isWebPlayer();
 		Register_UnityEngine_Application_get_isWebPlayer();
-
-		//System.Int32 UnityEngine.Application::get_loadedLevel()
-		void Register_UnityEngine_Application_get_loadedLevel();
-		Register_UnityEngine_Application_get_loadedLevel();
 
 		//System.String UnityEngine.Application::get_loadedLevelName()
 		void Register_UnityEngine_Application_get_loadedLevelName();
@@ -114,6 +114,18 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.AsyncOperation
 
 	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Boolean UnityEngine.AudioSource::get_isPlaying()
+		void Register_UnityEngine_AudioSource_get_isPlaying();
+		Register_UnityEngine_AudioSource_get_isPlaying();
+
+		//System.Void UnityEngine.AudioSource::Play(System.UInt64)
+		void Register_UnityEngine_AudioSource_Play();
+		Register_UnityEngine_AudioSource_Play();
+
+		//System.Void UnityEngine.AudioSource::PlayDelayed(System.Single)
+		void Register_UnityEngine_AudioSource_PlayDelayed();
+		Register_UnityEngine_AudioSource_PlayDelayed();
 
 		//System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
 		void Register_UnityEngine_AudioSource_PlayOneShot();
@@ -902,6 +914,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Input::get_touchCount()
 		void Register_UnityEngine_Input_get_touchCount();
 		Register_UnityEngine_Input_get_touchCount();
+
+		//System.Single UnityEngine.Input::GetAxis(System.String)
+		void Register_UnityEngine_Input_GetAxis();
+		Register_UnityEngine_Input_GetAxis();
 
 		//System.Single UnityEngine.Input::GetAxisRaw(System.String)
 		void Register_UnityEngine_Input_GetAxisRaw();

@@ -3,6 +3,6 @@
 // Mono.Security.Protocol.Tls.RecordProtocol
 #include "Mono_Security_Mono_Security_Protocol_Tls_RecordProtocol.h"
 // Mono.Security.Protocol.Tls.ClientRecordProtocol
-struct  ClientRecordProtocol_t2138  : public RecordProtocol_t2139
+struct  ClientRecordProtocol_t2160  : public RecordProtocol_t2161
 {
 };

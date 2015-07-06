@@ -9,12 +9,12 @@ struct AN_SocialSharingProxy_t107;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t485;
+struct ObjectU5BU5D_t509;
 
 // System.Void AN_SocialSharingProxy::.ctor()
 extern "C" void AN_SocialSharingProxy__ctor_m569 (AN_SocialSharingProxy_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_SocialSharingProxy_CallActivityFunction_m570 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t485* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_SocialSharingProxy_CallActivityFunction_m570 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t509* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::StartShareIntent(System.String,System.String,System.String,System.String)
 extern "C" void AN_SocialSharingProxy_StartShareIntent_m571 (Object_t * __this /* static, unused */, String_t* ___caption, String_t* ___message, String_t* ___subject, String_t* ___filters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::StartShareIntent(System.String,System.String,System.String,System.String,System.String)

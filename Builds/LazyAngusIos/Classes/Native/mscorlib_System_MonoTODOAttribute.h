@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.MonoTODOAttribute
-struct  MonoTODOAttribute_t2229  : public Attribute_t343
+struct  MonoTODOAttribute_t2251  : public Attribute_t343
 {
 	// System.String System.MonoTODOAttribute::comment
 	String_t* ___comment_0;

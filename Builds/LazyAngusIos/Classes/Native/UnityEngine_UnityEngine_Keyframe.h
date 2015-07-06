@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Keyframe
-struct  Keyframe_t1052 
+struct  Keyframe_t1074 
 {
 	// System.Single UnityEngine.Keyframe::m_Time
 	float ___m_Time_0;

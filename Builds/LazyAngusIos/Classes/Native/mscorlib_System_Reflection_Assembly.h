@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly/ResolveEventHolder
-struct ResolveEventHolder_t2394;
+struct ResolveEventHolder_t2416;
 // System.Security.Policy.Evidence
-struct Evidence_t2395;
+struct Evidence_t2417;
 // System.Security.PermissionSet
-struct PermissionSet_t2396;
+struct PermissionSet_t2418;
 // System.String
 struct String_t;
 // System.Object
@@ -13,24 +13,24 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Reflection.Assembly
-struct  Assembly_t563  : public Object_t
+struct  Assembly_t586  : public Object_t
 {
 	// System.IntPtr System.Reflection.Assembly::_mono_assembly
 	IntPtr_t ____mono_assembly_0;
 	// System.Reflection.Assembly/ResolveEventHolder System.Reflection.Assembly::resolve_event_holder
-	ResolveEventHolder_t2394 * ___resolve_event_holder_1;
+	ResolveEventHolder_t2416 * ___resolve_event_holder_1;
 	// System.Security.Policy.Evidence System.Reflection.Assembly::_evidence
-	Evidence_t2395 * ____evidence_2;
+	Evidence_t2417 * ____evidence_2;
 	// System.Security.PermissionSet System.Reflection.Assembly::_minimum
-	PermissionSet_t2396 * ____minimum_3;
+	PermissionSet_t2418 * ____minimum_3;
 	// System.Security.PermissionSet System.Reflection.Assembly::_optional
-	PermissionSet_t2396 * ____optional_4;
+	PermissionSet_t2418 * ____optional_4;
 	// System.Security.PermissionSet System.Reflection.Assembly::_refuse
-	PermissionSet_t2396 * ____refuse_5;
+	PermissionSet_t2418 * ____refuse_5;
 	// System.Security.PermissionSet System.Reflection.Assembly::_granted
-	PermissionSet_t2396 * ____granted_6;
+	PermissionSet_t2418 * ____granted_6;
 	// System.Security.PermissionSet System.Reflection.Assembly::_denied
-	PermissionSet_t2396 * ____denied_7;
+	PermissionSet_t2418 * ____denied_7;
 	// System.Boolean System.Reflection.Assembly::fromByteArray
 	bool ___fromByteArray_8;
 	// System.String System.Reflection.Assembly::assemblyName

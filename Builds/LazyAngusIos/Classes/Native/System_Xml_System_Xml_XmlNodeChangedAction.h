@@ -5,7 +5,7 @@
 // System.Xml.XmlNodeChangedAction
 #include "System_Xml_System_Xml_XmlNodeChangedAction.h"
 // System.Xml.XmlNodeChangedAction
-struct  XmlNodeChangedAction_t2021 
+struct  XmlNodeChangedAction_t2043 
 {
 	// System.Int32 System.Xml.XmlNodeChangedAction::value__
 	int32_t ___value___1;

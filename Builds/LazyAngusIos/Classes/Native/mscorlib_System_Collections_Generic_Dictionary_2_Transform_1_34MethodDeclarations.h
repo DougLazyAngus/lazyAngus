@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>
-struct Transform_1_t3694;
+struct Transform_1_t3718;
 // System.Object
 struct Object_t;
 // UnityEngine.Canvas
-struct Canvas_t375;
+struct Canvas_t374;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t860;
+struct IndexedSet_1_t882;
 // System.IAsyncResult
-struct IAsyncResult_t388;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t389;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Collections.DictionaryEntry
@@ -24,10 +24,10 @@ struct AsyncCallback_t389;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_0MethodDeclarations.h"
-#define Transform_1__ctor_m23413(__this, ___object, ___method, method) (( void (*) (Transform_1_t3694 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m16879_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m23571(__this, ___object, ___method, method) (( void (*) (Transform_1_t3718 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m17027_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m23414(__this, ___key, ___value, method) (( DictionaryEntry_t1663  (*) (Transform_1_t3694 *, Canvas_t375 *, IndexedSet_1_t860 *, const MethodInfo*))Transform_1_Invoke_m16880_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m23572(__this, ___key, ___value, method) (( DictionaryEntry_t1685  (*) (Transform_1_t3718 *, Canvas_t374 *, IndexedSet_1_t882 *, const MethodInfo*))Transform_1_Invoke_m17028_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m23415(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t3694 *, Canvas_t375 *, IndexedSet_1_t860 *, AsyncCallback_t389 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m16881_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m23573(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t3718 *, Canvas_t374 *, IndexedSet_1_t882 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m17029_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m23416(__this, ___result, method) (( DictionaryEntry_t1663  (*) (Transform_1_t3694 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m16882_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m23574(__this, ___result, method) (( DictionaryEntry_t1685  (*) (Transform_1_t3718 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m17030_gshared)(__this, ___result, method)

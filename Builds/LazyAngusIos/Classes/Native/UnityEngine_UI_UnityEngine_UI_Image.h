@@ -3,7 +3,7 @@
 // UnityEngine.Sprite
 struct Sprite_t394;
 // UnityEngine.Vector2[]
-struct Vector2U5BU5D_t722;
+struct Vector2U5BU5D_t745;
 // UnityEngine.UI.MaskableGraphic
 #include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic.h"
 // UnityEngine.UI.Image/Type
@@ -11,7 +11,7 @@ struct Vector2U5BU5D_t722;
 // UnityEngine.UI.Image/FillMethod
 #include "UnityEngine_UI_UnityEngine_UI_Image_FillMethod.h"
 // UnityEngine.UI.Image
-struct  Image_t441  : public MaskableGraphic_t723
+struct  Image_t448  : public MaskableGraphic_t746
 {
 	// UnityEngine.Sprite UnityEngine.UI.Image::m_Sprite
 	Sprite_t394 * ___m_Sprite_23;
@@ -34,13 +34,13 @@ struct  Image_t441  : public MaskableGraphic_t723
 	// System.Single UnityEngine.UI.Image::m_EventAlphaThreshold
 	float ___m_EventAlphaThreshold_32;
 };
-struct Image_t441_StaticFields{
+struct Image_t448_StaticFields{
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_VertScratch
-	Vector2U5BU5D_t722* ___s_VertScratch_33;
+	Vector2U5BU5D_t745* ___s_VertScratch_33;
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_UVScratch
-	Vector2U5BU5D_t722* ___s_UVScratch_34;
+	Vector2U5BU5D_t745* ___s_UVScratch_34;
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_Xy
-	Vector2U5BU5D_t722* ___s_Xy_35;
+	Vector2U5BU5D_t745* ___s_Xy_35;
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_Uv
-	Vector2U5BU5D_t722* ___s_Uv_36;
+	Vector2U5BU5D_t745* ___s_Uv_36;
 };

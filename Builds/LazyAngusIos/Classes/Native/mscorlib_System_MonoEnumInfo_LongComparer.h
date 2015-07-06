@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoEnumInfo/LongComparer
-struct  LongComparer_t2679  : public Object_t
+struct  LongComparer_t2701  : public Object_t
 {
 };

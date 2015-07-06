@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.Animator
-struct  Animator_t834  : public Behaviour_t882
+struct  Animator_t495  : public Behaviour_t904
 {
 };

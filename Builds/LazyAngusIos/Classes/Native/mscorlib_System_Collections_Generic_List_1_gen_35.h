@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
-struct GcLeaderboardU5BU5D_t3763;
+struct GcLeaderboardU5BU5D_t3787;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  List_1_t970  : public Object_t
+struct  List_1_t992  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_items
-	GcLeaderboardU5BU5D_t3763* ____items_1;
+	GcLeaderboardU5BU5D_t3787* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_version
 	int32_t ____version_3;
 };
-struct List_1_t970_StaticFields{
+struct List_1_t992_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EmptyArray
-	GcLeaderboardU5BU5D_t3763* ___EmptyArray_4;
+	GcLeaderboardU5BU5D_t3787* ___EmptyArray_4;
 };

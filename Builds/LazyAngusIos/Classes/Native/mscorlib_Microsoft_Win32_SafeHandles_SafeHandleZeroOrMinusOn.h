@@ -3,6 +3,6 @@
 // System.Runtime.InteropServices.SafeHandle
 #include "mscorlib_System_Runtime_InteropServices_SafeHandle.h"
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-struct  SafeHandleZeroOrMinusOneIsInvalid_t2231  : public SafeHandle_t2232
+struct  SafeHandleZeroOrMinusOneIsInvalid_t2253  : public SafeHandle_t2254
 {
 };

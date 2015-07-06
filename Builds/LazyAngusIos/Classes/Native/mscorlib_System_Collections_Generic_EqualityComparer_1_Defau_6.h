@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_6.h"
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UILineInfo>
-struct  DefaultComparer_t3818  : public EqualityComparer_1_t3817
+struct  DefaultComparer_t3842  : public EqualityComparer_1_t3841
 {
 };

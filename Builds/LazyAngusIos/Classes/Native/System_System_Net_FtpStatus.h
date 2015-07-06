@@ -7,7 +7,7 @@ struct String_t;
 // System.Net.FtpStatusCode
 #include "System_System_Net_FtpStatusCode.h"
 // System.Net.FtpStatus
-struct  FtpStatus_t1494  : public Object_t
+struct  FtpStatus_t1516  : public Object_t
 {
 	// System.Net.FtpStatusCode System.Net.FtpStatus::statusCode
 	int32_t ___statusCode_0;

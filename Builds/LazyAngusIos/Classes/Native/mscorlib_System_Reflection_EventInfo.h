@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.EventInfo/AddEventAdapter
-struct AddEventAdapter_t2404;
+struct AddEventAdapter_t2426;
 // System.Reflection.MemberInfo
 #include "mscorlib_System_Reflection_MemberInfo.h"
 // System.Reflection.EventInfo
 struct  EventInfo_t  : public MemberInfo_t
 {
 	// System.Reflection.EventInfo/AddEventAdapter System.Reflection.EventInfo::cached_add_event
-	AddEventAdapter_t2404 * ___cached_add_event_0;
+	AddEventAdapter_t2426 * ___cached_add_event_0;
 };

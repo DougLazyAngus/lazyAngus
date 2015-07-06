@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<BoostDesc>
-struct InternalEnumerator_1_t3527;
+struct InternalEnumerator_1_t3549;
 // System.Object
 struct Object_t;
 // BoostDesc
@@ -16,12 +16,12 @@ struct Array_t;
 // System.Void System.Array/InternalEnumerator`1<BoostDesc>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m20721(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3527 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16454_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m20869(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3549 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16602_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<BoostDesc>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20722(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3527 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16455_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20870(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3549 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16603_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<BoostDesc>::Dispose()
-#define InternalEnumerator_1_Dispose_m20723(__this, method) (( void (*) (InternalEnumerator_1_t3527 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16456_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m20871(__this, method) (( void (*) (InternalEnumerator_1_t3549 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16604_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<BoostDesc>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m20724(__this, method) (( bool (*) (InternalEnumerator_1_t3527 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16457_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m20872(__this, method) (( bool (*) (InternalEnumerator_1_t3549 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16605_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<BoostDesc>::get_Current()
-#define InternalEnumerator_1_get_Current_m20725(__this, method) (( BoostDesc_t395 * (*) (InternalEnumerator_1_t3527 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16458_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m20873(__this, method) (( BoostDesc_t395 * (*) (InternalEnumerator_1_t3549 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16606_gshared)(__this, method)

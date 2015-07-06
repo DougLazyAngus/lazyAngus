@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileOptions
-struct FileOptions_t2354;
+struct FileOptions_t2376;
 

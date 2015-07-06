@@ -4,27 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.Rect>
-struct InternalEnumerator_1_t3773;
+// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>
+struct InternalEnumerator_1_t3795;
 // System.Object
 struct Object_t;
+// UnityEngine.SocialPlatforms.Impl.Score
+struct Score_t1156;
 // System.Array
 struct Array_t;
-// UnityEngine.Rect
-#include "UnityEngine_UnityEngine_Rect.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.Rect>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m24343_gshared (InternalEnumerator_1_t3773 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m24343(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3773 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m24343_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.Rect>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24344_gshared (InternalEnumerator_1_t3773 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24344(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3773 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24344_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.Rect>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m24345_gshared (InternalEnumerator_1_t3773 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m24345(__this, method) (( void (*) (InternalEnumerator_1_t3773 *, const MethodInfo*))InternalEnumerator_1_Dispose_m24345_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Rect>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m24346_gshared (InternalEnumerator_1_t3773 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m24346(__this, method) (( bool (*) (InternalEnumerator_1_t3773 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m24346_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.Rect>::get_Current()
-extern "C" Rect_t496  InternalEnumerator_1_get_Current_m24347_gshared (InternalEnumerator_1_t3773 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m24347(__this, method) (( Rect_t496  (*) (InternalEnumerator_1_t3773 *, const MethodInfo*))InternalEnumerator_1_get_Current_m24347_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m24491(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3795 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16602_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24492(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3795 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16603_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>::Dispose()
+#define InternalEnumerator_1_Dispose_m24493(__this, method) (( void (*) (InternalEnumerator_1_t3795 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16604_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m24494(__this, method) (( bool (*) (InternalEnumerator_1_t3795 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16605_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Score>::get_Current()
+#define InternalEnumerator_1_get_Current_m24495(__this, method) (( Score_t1156 * (*) (InternalEnumerator_1_t3795 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16606_gshared)(__this, method)

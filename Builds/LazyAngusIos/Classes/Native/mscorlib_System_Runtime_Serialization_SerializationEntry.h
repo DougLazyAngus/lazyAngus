@@ -9,7 +9,7 @@ struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Runtime.Serialization.SerializationEntry
-struct  SerializationEntry_t2547 
+struct  SerializationEntry_t2569 
 {
 	// System.String System.Runtime.Serialization.SerializationEntry::name
 	String_t* ___name_0;

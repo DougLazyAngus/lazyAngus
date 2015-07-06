@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Math.Prime.PrimalityTests
-struct  PrimalityTests_t2258  : public Object_t
+struct  PrimalityTests_t2280  : public Object_t
 {
 };

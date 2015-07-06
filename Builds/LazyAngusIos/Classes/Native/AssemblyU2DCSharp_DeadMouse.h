@@ -4,10 +4,12 @@
 struct SpriteRenderer_t404;
 // UnityEngine.Sprite[]
 struct SpriteU5BU5D_t405;
+// UnityEngine.AudioSource[]
+struct AudioSourceU5BU5D_t406;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DeadMouse
-struct  DeadMouse_t406  : public MonoBehaviour_t67
+struct  DeadMouse_t407  : public MonoBehaviour_t67
 {
 	// UnityEngine.SpriteRenderer DeadMouse::spriteRenderer
 	SpriteRenderer_t404 * ___spriteRenderer_2;
@@ -23,4 +25,6 @@ struct  DeadMouse_t406  : public MonoBehaviour_t67
 	float ___startTime_7;
 	// System.Single DeadMouse::deadMouseZ
 	float ___deadMouseZ_8;
+	// UnityEngine.AudioSource[] DeadMouse::audioSources
+	AudioSourceU5BU5D_t406* ___audioSources_9;
 };

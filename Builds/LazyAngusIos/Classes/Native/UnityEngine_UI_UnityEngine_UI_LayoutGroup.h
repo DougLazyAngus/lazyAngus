@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectOffset
-struct RectOffset_t501;
+struct RectOffset_t525;
 // UnityEngine.RectTransform
-struct RectTransform_t477;
+struct RectTransform_t501;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t792;
+struct List_1_t815;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.TextAnchor
@@ -15,16 +15,16 @@ struct List_1_t792;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UI.LayoutGroup
-struct  LayoutGroup_t788  : public UIBehaviour_t634
+struct  LayoutGroup_t811  : public UIBehaviour_t657
 {
 	// UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::m_Padding
-	RectOffset_t501 * ___m_Padding_2;
+	RectOffset_t525 * ___m_Padding_2;
 	// UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::m_ChildAlignment
 	int32_t ___m_ChildAlignment_3;
 	// UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::m_Rect
-	RectTransform_t477 * ___m_Rect_4;
+	RectTransform_t501 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.LayoutGroup::m_Tracker
-	DrivenRectTransformTracker_t751  ___m_Tracker_5;
+	DrivenRectTransformTracker_t774  ___m_Tracker_5;
 	// UnityEngine.Vector2 UnityEngine.UI.LayoutGroup::m_TotalMinSize
 	Vector2_t68  ___m_TotalMinSize_6;
 	// UnityEngine.Vector2 UnityEngine.UI.LayoutGroup::m_TotalPreferredSize
@@ -32,5 +32,5 @@ struct  LayoutGroup_t788  : public UIBehaviour_t634
 	// UnityEngine.Vector2 UnityEngine.UI.LayoutGroup::m_TotalFlexibleSize
 	Vector2_t68  ___m_TotalFlexibleSize_8;
 	// System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::m_RectChildren
-	List_1_t792 * ___m_RectChildren_9;
+	List_1_t815 * ___m_RectChildren_9;
 };

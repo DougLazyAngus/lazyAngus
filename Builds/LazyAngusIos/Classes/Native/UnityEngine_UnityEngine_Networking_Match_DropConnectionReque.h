@@ -7,7 +7,7 @@
 // UnityEngine.Networking.Types.NodeID
 #include "UnityEngine_UnityEngine_Networking_Types_NodeID.h"
 // UnityEngine.Networking.Match.DropConnectionRequest
-struct  DropConnectionRequest_t1074  : public Request_t1064
+struct  DropConnectionRequest_t1096  : public Request_t1086
 {
 	// UnityEngine.Networking.Types.NetworkID UnityEngine.Networking.Match.DropConnectionRequest::<networkId>k__BackingField
 	uint64_t ___U3CnetworkIdU3Ek__BackingField_4;

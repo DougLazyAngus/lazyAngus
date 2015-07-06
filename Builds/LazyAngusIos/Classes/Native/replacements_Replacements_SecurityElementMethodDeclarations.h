@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Replacements.SecurityElement
-struct SecurityElement_t2082;
+struct SecurityElement_t2104;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 
 // System.String Replacements.SecurityElement::ToString(System.Object)
-extern "C" String_t* SecurityElement_ToString_m10080 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityElement_ToString_m10228 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

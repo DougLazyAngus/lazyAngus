@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Shader
-struct Shader_t1016;
+struct Shader_t1038;
 // System.String
 struct String_t;
 
 // System.Int32 UnityEngine.Shader::PropertyToID(System.String)
-extern "C" int32_t Shader_PropertyToID_m5425 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Shader_PropertyToID_m5571 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

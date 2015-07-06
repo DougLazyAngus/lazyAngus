@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.AppDomain
-struct AppDomain_t2608;
+struct AppDomain_t2630;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Security.PermissionSet
-struct PermissionSet_t2396;
+struct PermissionSet_t2418;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Security.SecurityFrame
-struct  SecurityFrame_t2610 
+struct  SecurityFrame_t2632 
 {
 	// System.AppDomain System.Security.SecurityFrame::_domain
-	AppDomain_t2608 * ____domain_0;
+	AppDomain_t2630 * ____domain_0;
 	// System.Reflection.MethodInfo System.Security.SecurityFrame::_method
 	MethodInfo_t * ____method_1;
 	// System.Security.PermissionSet System.Security.SecurityFrame::_assert
-	PermissionSet_t2396 * ____assert_2;
+	PermissionSet_t2418 * ____assert_2;
 	// System.Security.PermissionSet System.Security.SecurityFrame::_deny
-	PermissionSet_t2396 * ____deny_3;
+	PermissionSet_t2418 * ____deny_3;
 	// System.Security.PermissionSet System.Security.SecurityFrame::_permitonly
-	PermissionSet_t2396 * ____permitonly_4;
+	PermissionSet_t2418 * ____permitonly_4;
 };

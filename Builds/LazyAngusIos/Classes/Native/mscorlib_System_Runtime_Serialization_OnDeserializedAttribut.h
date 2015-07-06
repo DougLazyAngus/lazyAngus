@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.Serialization.OnDeserializedAttribute
-struct  OnDeserializedAttribute_t2541  : public Attribute_t343
+struct  OnDeserializedAttribute_t2563  : public Attribute_t343
 {
 };

@@ -5,7 +5,7 @@
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // PlayerController/BodyMovementType
-struct  BodyMovementType_t458 
+struct  BodyMovementType_t471 
 {
 	// System.Int32 PlayerController/BodyMovementType::value__
 	int32_t ___value___1;

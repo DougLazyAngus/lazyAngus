@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.OidCollection
-struct OidCollection_t1568;
+struct OidCollection_t1590;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t154;
 // System.Security.Cryptography.X509Certificates.X509Extension
@@ -9,14 +9,14 @@ struct Dictionary_2_t154;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
-struct  X509EnhancedKeyUsageExtension_t1570  : public X509Extension_t1552
+struct  X509EnhancedKeyUsageExtension_t1592  : public X509Extension_t1574
 {
 	// System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::_enhKeyUsage
-	OidCollection_t1568 * ____enhKeyUsage_4;
+	OidCollection_t1590 * ____enhKeyUsage_4;
 	// System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::_status
 	int32_t ____status_5;
 };
-struct X509EnhancedKeyUsageExtension_t1570_StaticFields{
+struct X509EnhancedKeyUsageExtension_t1592_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::<>f__switch$mapE
 	Dictionary_2_t154 * ___U3CU3Ef__switchU24mapE_6;
 };

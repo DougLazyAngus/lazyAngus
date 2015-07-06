@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1391;
+struct Hashtable_t1413;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
-struct  CrossAppDomainSink_t2466  : public Object_t
+struct  CrossAppDomainSink_t2488  : public Object_t
 {
 	// System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainSink::_domainID
 	int32_t ____domainID_2;
 };
-struct CrossAppDomainSink_t2466_StaticFields{
+struct CrossAppDomainSink_t2488_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.Channels.CrossAppDomainSink::s_sinks
-	Hashtable_t1391 * ___s_sinks_0;
+	Hashtable_t1413 * ___s_sinks_0;
 	// System.Reflection.MethodInfo System.Runtime.Remoting.Channels.CrossAppDomainSink::processMessageMethod
 	MethodInfo_t * ___processMessageMethod_1;
 };

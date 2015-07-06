@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t2284;
+struct X509Certificate_t2306;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
@@ -9,10 +9,10 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct  X509Certificate_t1521  : public Object_t
+struct  X509Certificate_t1543  : public Object_t
 {
 	// Mono.Security.X509.X509Certificate System.Security.Cryptography.X509Certificates.X509Certificate::x509
-	X509Certificate_t2284 * ___x509_0;
+	X509Certificate_t2306 * ___x509_0;
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509Certificate::hideDates
 	bool ___hideDates_1;
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509Certificate::cachedCertificateHash

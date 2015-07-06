@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.PointerEventData/InputButton
-struct InputButton_t668;
+struct InputButton_t691;
 

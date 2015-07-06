@@ -9,7 +9,7 @@ struct String_t;
 // UnityEngine.Networking.Types.NodeID
 #include "UnityEngine_UnityEngine_Networking_Types_NodeID.h"
 // UnityEngine.Networking.Match.CreateMatchResponse
-struct  CreateMatchResponse_t1070  : public BasicResponse_t1067
+struct  CreateMatchResponse_t1092  : public BasicResponse_t1089
 {
 	// System.String UnityEngine.Networking.Match.CreateMatchResponse::<address>k__BackingField
 	String_t* ___U3CaddressU3Ek__BackingField_2;

@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.MemberAccessException
-struct  MemberAccessException_t2686  : public SystemException_t1679
+struct  MemberAccessException_t2708  : public SystemException_t1701
 {
 };

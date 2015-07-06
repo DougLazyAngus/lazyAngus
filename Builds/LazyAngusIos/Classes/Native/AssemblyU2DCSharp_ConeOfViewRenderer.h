@@ -7,7 +7,7 @@ struct Material_t400;
 // TweakableParams
 struct TweakableParams_t401;
 // BoostConfig
-struct BoostConfig_t373;
+struct BoostConfig_t372;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ConeOfViewRenderer
@@ -22,7 +22,7 @@ struct  ConeOfViewRenderer_t402  : public MonoBehaviour_t67
 	// TweakableParams ConeOfViewRenderer::tweakableParams
 	TweakableParams_t401 * ___tweakableParams_5;
 	// BoostConfig ConeOfViewRenderer::boostConfig
-	BoostConfig_t373 * ___boostConfig_6;
+	BoostConfig_t372 * ___boostConfig_6;
 	// System.Boolean ConeOfViewRenderer::registeredForEvents
 	bool ___registeredForEvents_7;
 	// System.Single ConeOfViewRenderer::<actualAngleRange>k__BackingField

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Mutex
-struct Mutex_t2468;
+struct Mutex_t2490;
 // System.Threading.Thread
-struct Thread_t1445;
+struct Thread_t1467;
 // System.Runtime.Remoting.Contexts.ContextAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttribute.h"
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
-struct  SynchronizationAttribute_t2469  : public ContextAttribute_t2460
+struct  SynchronizationAttribute_t2491  : public ContextAttribute_t2482
 {
 	// System.Boolean System.Runtime.Remoting.Contexts.SynchronizationAttribute::_bReEntrant
 	bool ____bReEntrant_1;
@@ -16,7 +16,7 @@ struct  SynchronizationAttribute_t2469  : public ContextAttribute_t2460
 	// System.Int32 System.Runtime.Remoting.Contexts.SynchronizationAttribute::_lockCount
 	int32_t ____lockCount_3;
 	// System.Threading.Mutex System.Runtime.Remoting.Contexts.SynchronizationAttribute::_mutex
-	Mutex_t2468 * ____mutex_4;
+	Mutex_t2490 * ____mutex_4;
 	// System.Threading.Thread System.Runtime.Remoting.Contexts.SynchronizationAttribute::_ownerThread
-	Thread_t1445 * ____ownerThread_5;
+	Thread_t1467 * ____ownerThread_5;
 };

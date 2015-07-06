@@ -1,27 +1,31 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseHole[]
-struct MouseHoleU5BU5D_t421;
+struct MouseHoleU5BU5D_t426;
 // MouseSpawnFromData
-struct MouseSpawnFromData_t422;
+struct MouseSpawnFromData_t427;
 // UnityEngine.GameObject
 struct GameObject_t284;
 // PlayerStats
-struct PlayerStats_t382;
+struct PlayerStats_t391;
 // BoostConfig
-struct BoostConfig_t373;
+struct BoostConfig_t372;
+// GameUI[]
+struct GameUIU5BU5D_t428;
+// GameController/GameInstanceChangedEventHandler
+struct GameInstanceChangedEventHandler_t422;
 // GameController/GameLevelChangedEventHandler
-struct GameLevelChangedEventHandler_t418;
+struct GameLevelChangedEventHandler_t423;
 // GameController/GamePhaseChangedEventHandler
-struct GamePhaseChangedEventHandler_t419;
+struct GamePhaseChangedEventHandler_t424;
 // GameController
-struct GameController_t383;
+struct GameController_t392;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GameController/GamePhaseType
 #include "AssemblyU2DCSharp_GameController_GamePhaseType.h"
 // GameController
-struct  GameController_t383  : public MonoBehaviour_t67
+struct  GameController_t392  : public MonoBehaviour_t67
 {
 	// System.Single GameController::startWait
 	float ___startWait_2;
@@ -30,9 +34,9 @@ struct  GameController_t383  : public MonoBehaviour_t67
 	// System.Single GameController::maxSpawnWait
 	float ___maxSpawnWait_4;
 	// MouseHole[] GameController::mouseHoles
-	MouseHoleU5BU5D_t421* ___mouseHoles_5;
+	MouseHoleU5BU5D_t426* ___mouseHoles_5;
 	// MouseSpawnFromData GameController::mouseSpawnFromData
-	MouseSpawnFromData_t422 * ___mouseSpawnFromData_6;
+	MouseSpawnFromData_t427 * ___mouseSpawnFromData_6;
 	// UnityEngine.GameObject GameController::welcomeUIGameObject
 	GameObject_t284 * ___welcomeUIGameObject_7;
 	// UnityEngine.GameObject GameController::levelEndUIGameObject
@@ -50,19 +54,23 @@ struct  GameController_t383  : public MonoBehaviour_t67
 	// System.Boolean GameController::shouldCheckForPhaseTransition
 	bool ___shouldCheckForPhaseTransition_14;
 	// PlayerStats GameController::playerStats
-	PlayerStats_t382 * ___playerStats_15;
+	PlayerStats_t391 * ___playerStats_15;
 	// BoostConfig GameController::boostConfig
-	BoostConfig_t373 * ___boostConfig_16;
+	BoostConfig_t372 * ___boostConfig_16;
+	// GameUI[] GameController::gameUIs
+	GameUIU5BU5D_t428* ___gameUIs_17;
+	// GameController/GameInstanceChangedEventHandler GameController::GameInstanceChanged
+	GameInstanceChangedEventHandler_t422 * ___GameInstanceChanged_18;
 	// GameController/GameLevelChangedEventHandler GameController::GameLevelChanged
-	GameLevelChangedEventHandler_t418 * ___GameLevelChanged_17;
+	GameLevelChangedEventHandler_t423 * ___GameLevelChanged_19;
 	// GameController/GamePhaseChangedEventHandler GameController::GamePhaseChanged
-	GamePhaseChangedEventHandler_t419 * ___GamePhaseChanged_18;
+	GamePhaseChangedEventHandler_t424 * ___GamePhaseChanged_20;
 	// System.Int32 GameController::<gameLevel>k__BackingField
-	int32_t ___U3CgameLevelU3Ek__BackingField_19;
+	int32_t ___U3CgameLevelU3Ek__BackingField_21;
 	// GameController/GamePhaseType GameController::<gamePhase>k__BackingField
-	int32_t ___U3CgamePhaseU3Ek__BackingField_20;
+	int32_t ___U3CgamePhaseU3Ek__BackingField_22;
 };
-struct GameController_t383_StaticFields{
+struct GameController_t392_StaticFields{
 	// GameController GameController::<instance>k__BackingField
-	GameController_t383 * ___U3CinstanceU3Ek__BackingField_21;
+	GameController_t392 * ___U3CinstanceU3Ek__BackingField_23;
 };

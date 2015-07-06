@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DateTimeKind
-struct DateTimeKind_t2667;
+struct DateTimeKind_t2689;
 

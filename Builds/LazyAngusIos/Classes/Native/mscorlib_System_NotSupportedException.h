@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.NotSupportedException
-struct  NotSupportedException_t26  : public SystemException_t1679
+struct  NotSupportedException_t26  : public SystemException_t1701
 {
 };

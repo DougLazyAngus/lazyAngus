@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CanvasScaler/ScaleMode
-struct ScaleMode_t778;
+struct ScaleMode_t801;
 

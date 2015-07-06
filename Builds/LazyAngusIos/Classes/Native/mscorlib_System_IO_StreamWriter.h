@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t531;
+struct Encoding_t555;
 // System.IO.Stream
 struct Stream_t24;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Char[]
-struct CharU5BU5D_t512;
+struct CharU5BU5D_t536;
 // System.IO.StreamWriter
-struct StreamWriter_t2073;
+struct StreamWriter_t2095;
 // System.IO.TextWriter
 #include "mscorlib_System_IO_TextWriter.h"
 // System.IO.StreamWriter
-struct  StreamWriter_t2073  : public TextWriter_t1700
+struct  StreamWriter_t2095  : public TextWriter_t1722
 {
 	// System.Text.Encoding System.IO.StreamWriter::internalEncoding
-	Encoding_t531 * ___internalEncoding_3;
+	Encoding_t555 * ___internalEncoding_3;
 	// System.IO.Stream System.IO.StreamWriter::internalStream
 	Stream_t24 * ___internalStream_4;
 	// System.Boolean System.IO.StreamWriter::iflush
@@ -26,7 +26,7 @@ struct  StreamWriter_t2073  : public TextWriter_t1700
 	// System.Int32 System.IO.StreamWriter::byte_pos
 	int32_t ___byte_pos_7;
 	// System.Char[] System.IO.StreamWriter::decode_buf
-	CharU5BU5D_t512* ___decode_buf_8;
+	CharU5BU5D_t536* ___decode_buf_8;
 	// System.Int32 System.IO.StreamWriter::decode_pos
 	int32_t ___decode_pos_9;
 	// System.Boolean System.IO.StreamWriter::DisposedAlready
@@ -34,7 +34,7 @@ struct  StreamWriter_t2073  : public TextWriter_t1700
 	// System.Boolean System.IO.StreamWriter::preamble_done
 	bool ___preamble_done_11;
 };
-struct StreamWriter_t2073_StaticFields{
+struct StreamWriter_t2095_StaticFields{
 	// System.IO.StreamWriter System.IO.StreamWriter::Null
-	StreamWriter_t2073 * ___Null_12;
+	StreamWriter_t2095 * ___Null_12;
 };

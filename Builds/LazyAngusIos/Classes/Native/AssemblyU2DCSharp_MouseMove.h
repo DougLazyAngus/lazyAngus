@@ -5,9 +5,9 @@ struct SpriteRenderer_t404;
 // UnityEngine.GameObject
 struct GameObject_t284;
 // UnityEngine.UI.Slider
-struct Slider_t374;
+struct Slider_t373;
 // TweakableSlider
-struct TweakableSlider_t450;
+struct TweakableSlider_t457;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseConfig/MovementPhaseType
@@ -15,7 +15,7 @@ struct TweakableSlider_t450;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // MouseMove
-struct  MouseMove_t451  : public MonoBehaviour_t67
+struct  MouseMove_t458  : public MonoBehaviour_t67
 {
 	// System.Single MouseMove::mouseAngleDeg
 	float ___mouseAngleDeg_2;
@@ -40,17 +40,19 @@ struct  MouseMove_t451  : public MonoBehaviour_t67
 	// System.Boolean MouseMove::isClockwise
 	bool ___isClockwise_12;
 	// UnityEngine.UI.Slider MouseMove::sliderInstance
-	Slider_t374 * ___sliderInstance_13;
+	Slider_t373 * ___sliderInstance_13;
 	// TweakableSlider MouseMove::tweakableSlider
-	TweakableSlider_t450 * ___tweakableSlider_14;
+	TweakableSlider_t457 * ___tweakableSlider_14;
+	// System.Boolean MouseMove::registeredForEvents
+	bool ___registeredForEvents_16;
 	// MouseConfig/MouseType MouseMove::<mouseType>k__BackingField
-	int32_t ___U3CmouseTypeU3Ek__BackingField_16;
+	int32_t ___U3CmouseTypeU3Ek__BackingField_17;
 	// System.Boolean MouseMove::<dead>k__BackingField
-	bool ___U3CdeadU3Ek__BackingField_17;
+	bool ___U3CdeadU3Ek__BackingField_18;
 	// System.Boolean MouseMove::<isPoisoned>k__BackingField
-	bool ___U3CisPoisonedU3Ek__BackingField_18;
+	bool ___U3CisPoisonedU3Ek__BackingField_19;
 };
-struct MouseMove_t451_StaticFields{
+struct MouseMove_t458_StaticFields{
 	// System.Int32 MouseMove::activeMouseCount
 	int32_t ___activeMouseCount_15;
 };

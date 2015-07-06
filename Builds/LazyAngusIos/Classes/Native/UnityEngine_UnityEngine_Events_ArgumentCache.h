@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Object
-struct Object_t504;
-struct Object_t504_marshaled;
+struct Object_t528;
+struct Object_t528_marshaled;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Events.ArgumentCache
-struct  ArgumentCache_t1156  : public Object_t
+struct  ArgumentCache_t1178  : public Object_t
 {
 	// UnityEngine.Object UnityEngine.Events.ArgumentCache::m_ObjectArgument
-	Object_t504 * ___m_ObjectArgument_0;
+	Object_t528 * ___m_ObjectArgument_0;
 	// System.String UnityEngine.Events.ArgumentCache::m_ObjectArgumentAssemblyTypeName
 	String_t* ___m_ObjectArgumentAssemblyTypeName_1;
 	// System.Int32 UnityEngine.Events.ArgumentCache::m_IntArgument

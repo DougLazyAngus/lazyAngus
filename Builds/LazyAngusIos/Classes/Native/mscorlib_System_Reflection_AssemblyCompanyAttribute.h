@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Reflection.AssemblyCompanyAttribute
-struct  AssemblyCompanyAttribute_t887  : public Attribute_t343
+struct  AssemblyCompanyAttribute_t909  : public Attribute_t343
 {
 	// System.String System.Reflection.AssemblyCompanyAttribute::name
 	String_t* ___name_0;

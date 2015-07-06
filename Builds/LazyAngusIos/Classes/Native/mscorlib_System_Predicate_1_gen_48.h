@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Networking.Match.MatchDesc
-struct MatchDesc_t1078;
+struct MatchDesc_t1100;
 // System.IAsyncResult
-struct IAsyncResult_t388;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t389;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.Networking.Match.MatchDesc>
-struct  Predicate_1_t3854  : public MulticastDelegate_t391
+struct  Predicate_1_t3878  : public MulticastDelegate_t388
 {
 };

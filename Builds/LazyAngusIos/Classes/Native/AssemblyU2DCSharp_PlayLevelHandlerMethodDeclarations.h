@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PlayLevelHandler
-struct PlayLevelHandler_t457;
+struct PlayLevelHandler_t470;
 
 // System.Void PlayLevelHandler::.ctor()
-extern "C" void PlayLevelHandler__ctor_m2133 (PlayLevelHandler_t457 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayLevelHandler__ctor_m2203 (PlayLevelHandler_t470 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayLevelHandler::Start()
-extern "C" void PlayLevelHandler_Start_m2134 (PlayLevelHandler_t457 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayLevelHandler_Start_m2204 (PlayLevelHandler_t470 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayLevelHandler::Play()
-extern "C" void PlayLevelHandler_Play_m2135 (PlayLevelHandler_t457 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayLevelHandler_Play_m2205 (PlayLevelHandler_t470 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

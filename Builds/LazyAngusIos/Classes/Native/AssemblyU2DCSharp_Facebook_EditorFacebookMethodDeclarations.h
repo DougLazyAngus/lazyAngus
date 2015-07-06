@@ -19,7 +19,7 @@ struct OGActionType_t349;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t487;
+struct List_1_t511;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
 struct Dictionary_2_t74;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
@@ -46,11 +46,11 @@ extern "C" void EditorFacebook_Login_m1662 (EditorFacebook_t356 * __this, String
 // System.Void Facebook.EditorFacebook::Logout()
 extern "C" void EditorFacebook_Logout_m1663 (EditorFacebook_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void EditorFacebook_AppRequest_m1664 (EditorFacebook_t356 * __this, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, StringU5BU5D_t45* ___to, List_1_t487 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t493  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EditorFacebook_AppRequest_m1664 (EditorFacebook_t356 * __this, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, StringU5BU5D_t45* ___to, List_1_t511 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t517  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::FeedRequest(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
 extern "C" void EditorFacebook_FeedRequest_m1665 (EditorFacebook_t356 * __this, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, Dictionary_2_t74 * ___properties, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void EditorFacebook_Pay_m1666 (EditorFacebook_t356 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t493  ___quantityMin, Nullable_1_t493  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EditorFacebook_Pay_m1666 (EditorFacebook_t356 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t517  ___quantityMin, Nullable_1_t517  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern "C" void EditorFacebook_GameGroupCreate_m1667 (EditorFacebook_t356 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
@@ -62,7 +62,7 @@ extern "C" void EditorFacebook_ActivateApp_m1670 (EditorFacebook_t356 * __this, 
 // System.Void Facebook.EditorFacebook::GetDeepLink(Facebook.FacebookDelegate)
 extern "C" void EditorFacebook_GetDeepLink_m1671 (EditorFacebook_t356 * __this, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void EditorFacebook_AppEventsLogEvent_m1672 (EditorFacebook_t356 * __this, String_t* ___logEvent, Nullable_1_t494  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EditorFacebook_AppEventsLogEvent_m1672 (EditorFacebook_t356 * __this, String_t* ___logEvent, Nullable_1_t518  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern "C" void EditorFacebook_AppEventsLogPurchase_m1673 (EditorFacebook_t356 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t244 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.EditorFacebook::MockLoginCallback(FBResult)

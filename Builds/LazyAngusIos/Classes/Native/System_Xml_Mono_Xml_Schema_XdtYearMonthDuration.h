@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdDuration
 #include "System_Xml_Mono_Xml_Schema_XsdDuration.h"
 // Mono.Xml.Schema.XdtYearMonthDuration
-struct  XdtYearMonthDuration_t1918  : public XsdDuration_t1916
+struct  XdtYearMonthDuration_t1940  : public XsdDuration_t1938
 {
 };

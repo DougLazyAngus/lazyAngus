@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.DisallowMultipleComponent
-struct  DisallowMultipleComponent_t905  : public Attribute_t343
+struct  DisallowMultipleComponent_t927  : public Attribute_t343
 {
 };

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Diagnostics.DebuggerStepThroughAttribute
-struct  DebuggerStepThroughAttribute_t2329  : public Attribute_t343
+struct  DebuggerStepThroughAttribute_t2351  : public Attribute_t343
 {
 };

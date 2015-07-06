@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyDelaySignAttribute
-struct AssemblyDelaySignAttribute_t1728;
+struct AssemblyDelaySignAttribute_t1750;
 
 // System.Void System.Reflection.AssemblyDelaySignAttribute::.ctor(System.Boolean)
-extern "C" void AssemblyDelaySignAttribute__ctor_m8627 (AssemblyDelaySignAttribute_t1728 * __this, bool ___delaySign, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDelaySignAttribute__ctor_m8775 (AssemblyDelaySignAttribute_t1750 * __this, bool ___delaySign, const MethodInfo* method) IL2CPP_METHOD_ATTR;

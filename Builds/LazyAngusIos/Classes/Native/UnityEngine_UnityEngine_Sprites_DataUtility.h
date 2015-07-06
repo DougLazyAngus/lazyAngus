@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Sprites.DataUtility
-struct  DataUtility_t1018  : public Object_t
+struct  DataUtility_t1040  : public Object_t
 {
 };

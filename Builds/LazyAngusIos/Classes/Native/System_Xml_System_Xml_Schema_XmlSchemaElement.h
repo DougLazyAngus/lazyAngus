@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticle.h"
 // System.Xml.Schema.XmlSchemaElement
-struct  XmlSchemaElement_t1931  : public XmlSchemaParticle_t1932
+struct  XmlSchemaElement_t1953  : public XmlSchemaParticle_t1954
 {
 };

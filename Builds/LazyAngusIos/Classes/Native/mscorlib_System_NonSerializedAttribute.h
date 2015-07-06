@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.NonSerializedAttribute
-struct  NonSerializedAttribute_t2701  : public Attribute_t343
+struct  NonSerializedAttribute_t2723  : public Attribute_t343
 {
 };

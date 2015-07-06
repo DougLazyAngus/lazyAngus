@@ -5,39 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUILayoutGroup
-struct GUILayoutGroup_t986;
+struct GUILayoutGroup_t1008;
 // UnityEngine.RectOffset
-struct RectOffset_t501;
+struct RectOffset_t525;
 // UnityEngine.GUILayoutOption[]
-struct GUILayoutOptionU5BU5D_t502;
+struct GUILayoutOptionU5BU5D_t526;
 // UnityEngine.GUIStyle
 struct GUIStyle_t64;
 // UnityEngine.GUILayoutEntry
-struct GUILayoutEntry_t989;
+struct GUILayoutEntry_t1011;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.GUILayoutGroup::.ctor()
-extern "C" void GUILayoutGroup__ctor_m5082 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup__ctor_m5228 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectOffset UnityEngine.GUILayoutGroup::get_margin()
-extern "C" RectOffset_t501 * GUILayoutGroup_get_margin_m5083 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectOffset_t525 * GUILayoutGroup_get_margin_m5229 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::ApplyOptions(UnityEngine.GUILayoutOption[])
-extern "C" void GUILayoutGroup_ApplyOptions_m5084 (GUILayoutGroup_t986 * __this, GUILayoutOptionU5BU5D_t502* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_ApplyOptions_m5230 (GUILayoutGroup_t1008 * __this, GUILayoutOptionU5BU5D_t526* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::ApplyStyleSettings(UnityEngine.GUIStyle)
-extern "C" void GUILayoutGroup_ApplyStyleSettings_m5085 (GUILayoutGroup_t986 * __this, GUIStyle_t64 * ___style, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_ApplyStyleSettings_m5231 (GUILayoutGroup_t1008 * __this, GUIStyle_t64 * ___style, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::ResetCursor()
-extern "C" void GUILayoutGroup_ResetCursor_m5086 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_ResetCursor_m5232 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUILayoutEntry UnityEngine.GUILayoutGroup::GetNext()
-extern "C" GUILayoutEntry_t989 * GUILayoutGroup_GetNext_m5087 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUILayoutEntry_t1011 * GUILayoutGroup_GetNext_m5233 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::Add(UnityEngine.GUILayoutEntry)
-extern "C" void GUILayoutGroup_Add_m5088 (GUILayoutGroup_t986 * __this, GUILayoutEntry_t989 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_Add_m5234 (GUILayoutGroup_t1008 * __this, GUILayoutEntry_t1011 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::CalcWidth()
-extern "C" void GUILayoutGroup_CalcWidth_m5089 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_CalcWidth_m5235 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::SetHorizontal(System.Single,System.Single)
-extern "C" void GUILayoutGroup_SetHorizontal_m5090 (GUILayoutGroup_t986 * __this, float ___x, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_SetHorizontal_m5236 (GUILayoutGroup_t1008 * __this, float ___x, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::CalcHeight()
-extern "C" void GUILayoutGroup_CalcHeight_m5091 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_CalcHeight_m5237 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUILayoutGroup::SetVertical(System.Single,System.Single)
-extern "C" void GUILayoutGroup_SetVertical_m5092 (GUILayoutGroup_t986 * __this, float ___y, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutGroup_SetVertical_m5238 (GUILayoutGroup_t1008 * __this, float ___y, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GUILayoutGroup::ToString()
-extern "C" String_t* GUILayoutGroup_ToString_m5093 (GUILayoutGroup_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GUILayoutGroup_ToString_m5239 (GUILayoutGroup_t1008 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

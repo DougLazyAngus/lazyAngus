@@ -3,10 +3,10 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Mathf
-struct  Mathf_t585 
+struct  Mathf_t608 
 {
 };
-struct Mathf_t585_StaticFields{
+struct Mathf_t608_StaticFields{
 	// System.Single UnityEngine.Mathf::Epsilon
 	float ___Epsilon_0;
 };

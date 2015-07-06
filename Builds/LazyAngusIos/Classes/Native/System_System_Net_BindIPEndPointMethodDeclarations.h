@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.BindIPEndPoint
-struct BindIPEndPoint_t1522;
+struct BindIPEndPoint_t1544;
 // System.Object
 struct Object_t;
 // System.Net.IPEndPoint
-struct IPEndPoint_t1501;
+struct IPEndPoint_t1523;
 // System.Net.ServicePoint
-struct ServicePoint_t1497;
+struct ServicePoint_t1519;
 // System.IAsyncResult
-struct IAsyncResult_t388;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t389;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Net.BindIPEndPoint::.ctor(System.Object,System.IntPtr)
-extern "C" void BindIPEndPoint__ctor_m8338 (BindIPEndPoint_t1522 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BindIPEndPoint__ctor_m8486 (BindIPEndPoint_t1544 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPEndPoint System.Net.BindIPEndPoint::Invoke(System.Net.ServicePoint,System.Net.IPEndPoint,System.Int32)
-extern "C" IPEndPoint_t1501 * BindIPEndPoint_Invoke_m8339 (BindIPEndPoint_t1522 * __this, ServicePoint_t1497 * ___servicePoint, IPEndPoint_t1501 * ___remoteEndPoint, int32_t ___retryCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" IPEndPoint_t1501 * pinvoke_delegate_wrapper_BindIPEndPoint_t1522(Il2CppObject* delegate, ServicePoint_t1497 * ___servicePoint, IPEndPoint_t1501 * ___remoteEndPoint, int32_t ___retryCount);
+extern "C" IPEndPoint_t1523 * BindIPEndPoint_Invoke_m8487 (BindIPEndPoint_t1544 * __this, ServicePoint_t1519 * ___servicePoint, IPEndPoint_t1523 * ___remoteEndPoint, int32_t ___retryCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPEndPoint_t1523 * pinvoke_delegate_wrapper_BindIPEndPoint_t1544(Il2CppObject* delegate, ServicePoint_t1519 * ___servicePoint, IPEndPoint_t1523 * ___remoteEndPoint, int32_t ___retryCount);
 // System.IAsyncResult System.Net.BindIPEndPoint::BeginInvoke(System.Net.ServicePoint,System.Net.IPEndPoint,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * BindIPEndPoint_BeginInvoke_m8340 (BindIPEndPoint_t1522 * __this, ServicePoint_t1497 * ___servicePoint, IPEndPoint_t1501 * ___remoteEndPoint, int32_t ___retryCount, AsyncCallback_t389 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * BindIPEndPoint_BeginInvoke_m8488 (BindIPEndPoint_t1544 * __this, ServicePoint_t1519 * ___servicePoint, IPEndPoint_t1523 * ___remoteEndPoint, int32_t ___retryCount, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPEndPoint System.Net.BindIPEndPoint::EndInvoke(System.IAsyncResult)
-extern "C" IPEndPoint_t1501 * BindIPEndPoint_EndInvoke_m8341 (BindIPEndPoint_t1522 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPEndPoint_t1523 * BindIPEndPoint_EndInvoke_m8489 (BindIPEndPoint_t1544 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct String_t;
 // System.Text.RegularExpressions.Syntax.Expression
 #include "System_System_Text_RegularExpressions_Syntax_Expression.h"
 // System.Text.RegularExpressions.Syntax.Literal
-struct  Literal_t1638  : public Expression_t1628
+struct  Literal_t1660  : public Expression_t1650
 {
 	// System.String System.Text.RegularExpressions.Syntax.Literal::str
 	String_t* ___str_0;

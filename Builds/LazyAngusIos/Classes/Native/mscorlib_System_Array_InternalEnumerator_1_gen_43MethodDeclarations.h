@@ -4,24 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.GUIContent>
-struct InternalEnumerator_1_t3772;
+// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>
+struct InternalEnumerator_1_t3794;
 // System.Object
 struct Object_t;
-// UnityEngine.GUIContent
-struct GUIContent_t576;
 // System.Array
 struct Array_t;
+// UnityEngine.SocialPlatforms.GameCenter.GcScoreData
+#include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcScoreDa.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m24338(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3772 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16454_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24339(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3772 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16455_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::Dispose()
-#define InternalEnumerator_1_Dispose_m24340(__this, method) (( void (*) (InternalEnumerator_1_t3772 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16456_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m24341(__this, method) (( bool (*) (InternalEnumerator_1_t3772 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16457_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::get_Current()
-#define InternalEnumerator_1_get_Current_m24342(__this, method) (( GUIContent_t576 * (*) (InternalEnumerator_1_t3772 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16458_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m24486_gshared (InternalEnumerator_1_t3794 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m24486(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3794 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m24486_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24487_gshared (InternalEnumerator_1_t3794 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24487(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3794 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24487_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m24488_gshared (InternalEnumerator_1_t3794 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m24488(__this, method) (( void (*) (InternalEnumerator_1_t3794 *, const MethodInfo*))InternalEnumerator_1_Dispose_m24488_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m24489_gshared (InternalEnumerator_1_t3794 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m24489(__this, method) (( bool (*) (InternalEnumerator_1_t3794 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m24489_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::get_Current()
+extern "C" GcScoreData_t1143  InternalEnumerator_1_get_Current_m24490_gshared (InternalEnumerator_1_t3794 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m24490(__this, method) (( GcScoreData_t1143  (*) (InternalEnumerator_1_t3794 *, const MethodInfo*))InternalEnumerator_1_get_Current_m24490_gshared)(__this, method)

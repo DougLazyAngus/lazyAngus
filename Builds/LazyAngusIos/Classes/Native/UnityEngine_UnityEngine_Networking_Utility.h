@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Random
-struct Random_t1086;
+struct Random_t1108;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-struct Dictionary_2_t1087;
+struct Dictionary_2_t1109;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Networking.Types.AppID
 #include "UnityEngine_UnityEngine_Networking_Types_AppID.h"
 // UnityEngine.Networking.Utility
-struct  Utility_t1088  : public Object_t
+struct  Utility_t1110  : public Object_t
 {
 };
-struct Utility_t1088_StaticFields{
+struct Utility_t1110_StaticFields{
 	// System.Random UnityEngine.Networking.Utility::s_randomGenerator
-	Random_t1086 * ___s_randomGenerator_0;
+	Random_t1108 * ___s_randomGenerator_0;
 	// System.Boolean UnityEngine.Networking.Utility::s_useRandomSourceID
 	bool ___s_useRandomSourceID_1;
 	// System.Int32 UnityEngine.Networking.Utility::s_randomSourceComponent
@@ -22,5 +22,5 @@ struct Utility_t1088_StaticFields{
 	// UnityEngine.Networking.Types.AppID UnityEngine.Networking.Utility::s_programAppID
 	uint64_t ___s_programAppID_3;
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken> UnityEngine.Networking.Utility::s_dictTokens
-	Dictionary_2_t1087 * ___s_dictTokens_4;
+	Dictionary_2_t1109 * ___s_dictTokens_4;
 };

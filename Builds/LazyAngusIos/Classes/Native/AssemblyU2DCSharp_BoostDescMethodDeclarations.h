@@ -10,4 +10,4 @@ struct BoostDesc_t395;
 struct String_t;
 
 // System.Void BoostDesc::.ctor(System.String,System.String,System.String,System.Single,System.Int32)
-extern "C" void BoostDesc__ctor_m1862 (BoostDesc_t395 * __this, String_t* ___boostName, String_t* ___buttonImageName, String_t* ___introScreenImageName, float ___effectiveTime, int32_t ___levelLock, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostDesc__ctor_m1857 (BoostDesc_t395 * __this, String_t* ___boostName, String_t* ___buttonImageName, String_t* ___introScreenImageName, float ___effectiveTime, int32_t ___levelLock, const MethodInfo* method) IL2CPP_METHOD_ATTR;

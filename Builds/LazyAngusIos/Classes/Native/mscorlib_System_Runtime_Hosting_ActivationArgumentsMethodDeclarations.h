@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Hosting.ActivationArguments
-struct ActivationArguments_t2438;
+struct ActivationArguments_t2460;
 

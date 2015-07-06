@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.GlobalProxySelection
-struct GlobalProxySelection_t1502;
+struct GlobalProxySelection_t1524;
 // System.Net.IWebProxy
-struct IWebProxy_t1481;
+struct IWebProxy_t1503;
 
 // System.Net.IWebProxy System.Net.GlobalProxySelection::get_Select()
-extern "C" Object_t * GlobalProxySelection_get_Select_m7230 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GlobalProxySelection_get_Select_m7378 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

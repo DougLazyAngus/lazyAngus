@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Resources
-struct  Resources_t581  : public Object_t
+struct  Resources_t604  : public Object_t
 {
 };

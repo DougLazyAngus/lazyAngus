@@ -3,7 +3,7 @@
 // System.IO.Stream
 struct Stream_t24;
 // System.IO.Compression.DeflateStream/UnmanagedReadOrWrite
-struct UnmanagedReadOrWrite_t1414;
+struct UnmanagedReadOrWrite_t1436;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.IO.Stream
@@ -15,7 +15,7 @@ struct ByteU5BU5D_t36;
 // System.Runtime.InteropServices.GCHandle
 #include "mscorlib_System_Runtime_InteropServices_GCHandle.h"
 // System.IO.Compression.DeflateStream
-struct  DeflateStream_t1417  : public Stream_t24
+struct  DeflateStream_t1439  : public Stream_t24
 {
 	// System.IO.Stream System.IO.Compression.DeflateStream::base_stream
 	Stream_t24 * ___base_stream_1;
@@ -26,11 +26,11 @@ struct  DeflateStream_t1417  : public Stream_t24
 	// System.Boolean System.IO.Compression.DeflateStream::disposed
 	bool ___disposed_4;
 	// System.IO.Compression.DeflateStream/UnmanagedReadOrWrite System.IO.Compression.DeflateStream::feeder
-	UnmanagedReadOrWrite_t1414 * ___feeder_5;
+	UnmanagedReadOrWrite_t1436 * ___feeder_5;
 	// System.IntPtr System.IO.Compression.DeflateStream::z_stream
 	IntPtr_t ___z_stream_6;
 	// System.Byte[] System.IO.Compression.DeflateStream::io_buffer
 	ByteU5BU5D_t36* ___io_buffer_7;
 	// System.Runtime.InteropServices.GCHandle System.IO.Compression.DeflateStream::data
-	GCHandle_t1418  ___data_8;
+	GCHandle_t1440  ___data_8;
 };

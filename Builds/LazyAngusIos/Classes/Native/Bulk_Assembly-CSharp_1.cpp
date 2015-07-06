@@ -306,7 +306,7 @@ extern "C" void Parser__ctor_m741 (Parser_t191 * __this, String_t* ___jsonString
 		Object__ctor_m160(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___jsonString;
 		StringReader_t190 * L_1 = (StringReader_t190 *)il2cpp_codegen_object_new (StringReader_t190_il2cpp_TypeInfo_var);
-		StringReader__ctor_m2409(L_1, L_0, /*hidden argument*/NULL);
+		StringReader__ctor_m2549(L_1, L_0, /*hidden argument*/NULL);
 		__this->___json_2 = L_1;
 		return;
 	}
@@ -407,14 +407,14 @@ extern "C" void Parser_Dispose_m743 (Parser_t191 * __this, const MethodInfo* met
 }
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> ANMiniJSON.Json/Parser::ParseObject()
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" Dictionary_2_t244 * Parser_ParseObject_m744 (Parser_t191 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
@@ -422,7 +422,7 @@ extern "C" Dictionary_2_t244 * Parser_ParseObject_m744 (Parser_t191 * __this, co
 	int32_t V_2 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		StringReader_t190 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -521,25 +521,25 @@ IL_007b:
 	}
 }
 // System.Collections.Generic.List`1<System.Object> ANMiniJSON.Json/Parser::ParseArray()
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2341_MethodInfo_var;
-extern "C" List_1_t487 * Parser_ParseArray_m745 (Parser_t191 * __this, const MethodInfo* method)
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2481_MethodInfo_var;
+extern "C" List_1_t511 * Parser_ParseArray_m745 (Parser_t191 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
-		List_1__ctor_m2341_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483682);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1__ctor_m2481_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483682);
 		s_Il2CppMethodIntialized = true;
 	}
-	List_1_t487 * V_0 = {0};
+	List_1_t511 * V_0 = {0};
 	bool V_1 = false;
 	int32_t V_2 = {0};
 	Object_t * V_3 = {0};
 	int32_t V_4 = {0};
 	{
-		List_1_t487 * L_0 = (List_1_t487 *)il2cpp_codegen_object_new (List_1_t487_il2cpp_TypeInfo_var);
-		List_1__ctor_m2341(L_0, /*hidden argument*/List_1__ctor_m2341_MethodInfo_var);
+		List_1_t511 * L_0 = (List_1_t511 *)il2cpp_codegen_object_new (List_1_t511_il2cpp_TypeInfo_var);
+		List_1__ctor_m2481(L_0, /*hidden argument*/List_1__ctor_m2481_MethodInfo_var);
 		V_0 = L_0;
 		StringReader_t190 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -583,7 +583,7 @@ IL_0038:
 
 IL_0044:
 	{
-		return (List_1_t487 *)NULL;
+		return (List_1_t511 *)NULL;
 	}
 
 IL_0046:
@@ -602,7 +602,7 @@ IL_0052:
 		int32_t L_6 = V_2;
 		Object_t * L_7 = Parser_ParseByToken_m747(__this, L_6, /*hidden argument*/NULL);
 		V_3 = L_7;
-		List_1_t487 * L_8 = V_0;
+		List_1_t511 * L_8 = V_0;
 		Object_t * L_9 = V_3;
 		NullCheck(L_8);
 		VirtActionInvoker1< Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Object>::Add(!0) */, L_8, L_9);
@@ -618,7 +618,7 @@ IL_0066:
 		}
 	}
 	{
-		List_1_t487 * L_11 = V_0;
+		List_1_t511 * L_11 = V_0;
 		return L_11;
 	}
 }
@@ -718,7 +718,7 @@ IL_0049:
 
 IL_0050:
 	{
-		List_1_t487 * L_5 = Parser_ParseArray_m745(__this, /*hidden argument*/NULL);
+		List_1_t511 * L_5 = Parser_ParseArray_m745(__this, /*hidden argument*/NULL);
 		return L_5;
 	}
 
@@ -767,7 +767,7 @@ extern "C" String_t* Parser_ParseString_m748 (Parser_t191 * __this, const Method
 	uint16_t V_6 = 0x0;
 	{
 		StringBuilder_t192 * L_0 = (StringBuilder_t192 *)il2cpp_codegen_object_new (StringBuilder_t192_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m2410(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m2550(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		StringReader_t190 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -921,7 +921,7 @@ IL_00d7:
 		StringBuilder_t192 * L_18 = V_0;
 		uint16_t L_19 = V_1;
 		NullCheck(L_18);
-		StringBuilder_Append_m2411(L_18, L_19, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_18, L_19, /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -929,7 +929,7 @@ IL_00e4:
 	{
 		StringBuilder_t192 * L_20 = V_0;
 		NullCheck(L_20);
-		StringBuilder_Append_m2411(L_20, 8, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_20, 8, /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -937,7 +937,7 @@ IL_00f1:
 	{
 		StringBuilder_t192 * L_21 = V_0;
 		NullCheck(L_21);
-		StringBuilder_Append_m2411(L_21, ((int32_t)12), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_21, ((int32_t)12), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -945,7 +945,7 @@ IL_00ff:
 	{
 		StringBuilder_t192 * L_22 = V_0;
 		NullCheck(L_22);
-		StringBuilder_Append_m2411(L_22, ((int32_t)10), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_22, ((int32_t)10), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -953,7 +953,7 @@ IL_010d:
 	{
 		StringBuilder_t192 * L_23 = V_0;
 		NullCheck(L_23);
-		StringBuilder_Append_m2411(L_23, ((int32_t)13), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_23, ((int32_t)13), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -961,14 +961,14 @@ IL_011b:
 	{
 		StringBuilder_t192 * L_24 = V_0;
 		NullCheck(L_24);
-		StringBuilder_Append_m2411(L_24, ((int32_t)9), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_24, ((int32_t)9), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
 IL_0129:
 	{
 		StringBuilder_t192 * L_25 = (StringBuilder_t192 *)il2cpp_codegen_object_new (StringBuilder_t192_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m2410(L_25, /*hidden argument*/NULL);
+		StringBuilder__ctor_m2550(L_25, /*hidden argument*/NULL);
 		V_3 = L_25;
 		V_4 = 0;
 		goto IL_014a;
@@ -979,7 +979,7 @@ IL_0137:
 		StringBuilder_t192 * L_26 = V_3;
 		uint16_t L_27 = Parser_get_NextChar_m752(__this, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		StringBuilder_Append_m2411(L_26, L_27, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_26, L_27, /*hidden argument*/NULL);
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)((int32_t)L_28+(int32_t)1));
 	}
@@ -998,9 +998,9 @@ IL_014a:
 		NullCheck(L_31);
 		String_t* L_32 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Text.StringBuilder::ToString() */, L_31);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		int32_t L_33 = Convert_ToInt32_m2412(NULL /*static, unused*/, L_32, ((int32_t)16), /*hidden argument*/NULL);
+		int32_t L_33 = Convert_ToInt32_m2552(NULL /*static, unused*/, L_32, ((int32_t)16), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		StringBuilder_Append_m2411(L_30, (((uint16_t)L_33)), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_30, (((uint16_t)L_33)), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -1014,7 +1014,7 @@ IL_0171:
 		StringBuilder_t192 * L_34 = V_0;
 		uint16_t L_35 = V_1;
 		NullCheck(L_34);
-		StringBuilder_Append_m2411(L_34, L_35, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_34, L_35, /*hidden argument*/NULL);
 		goto IL_017e;
 	}
 
@@ -1036,14 +1036,14 @@ IL_0184:
 	}
 }
 // System.Object ANMiniJSON.Json/Parser::ParseNumber()
-extern TypeInfo* Int64_t526_il2cpp_TypeInfo_var;
+extern TypeInfo* Int64_t550_il2cpp_TypeInfo_var;
 extern TypeInfo* Double_t60_il2cpp_TypeInfo_var;
 extern "C" Object_t * Parser_ParseNumber_m749 (Parser_t191 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Int64_t526_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
+		Int64_t550_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
 		Double_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(60);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1055,7 +1055,7 @@ extern "C" Object_t * Parser_ParseNumber_m749 (Parser_t191 * __this, const Metho
 		V_0 = L_0;
 		String_t* L_1 = V_0;
 		NullCheck(L_1);
-		int32_t L_2 = String_IndexOf_m2413(L_1, ((int32_t)46), /*hidden argument*/NULL);
+		int32_t L_2 = String_IndexOf_m2553(L_1, ((int32_t)46), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
 		{
 			goto IL_0025;
@@ -1063,10 +1063,10 @@ extern "C" Object_t * Parser_ParseNumber_m749 (Parser_t191 * __this, const Metho
 	}
 	{
 		String_t* L_3 = V_0;
-		Int64_TryParse_m2414(NULL /*static, unused*/, L_3, (&V_1), /*hidden argument*/NULL);
+		Int64_TryParse_m2554(NULL /*static, unused*/, L_3, (&V_1), /*hidden argument*/NULL);
 		int64_t L_4 = V_1;
 		int64_t L_5 = L_4;
-		Object_t * L_6 = Box(Int64_t526_il2cpp_TypeInfo_var, &L_5);
+		Object_t * L_6 = Box(Int64_t550_il2cpp_TypeInfo_var, &L_5);
 		return L_6;
 	}
 
@@ -1108,7 +1108,7 @@ IL_0027:
 	{
 		uint16_t L_3 = Parser_get_PeekChar_m751(__this, /*hidden argument*/NULL);
 		NullCheck((String_t*) &_stringLiteral314);
-		int32_t L_4 = String_IndexOf_m2413((String_t*) &_stringLiteral314, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = String_IndexOf_m2553((String_t*) &_stringLiteral314, L_3, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
 			goto IL_0005;
@@ -1135,7 +1135,7 @@ extern "C" uint16_t Parser_get_PeekChar_m751 (Parser_t191 * __this, const Method
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.StringReader::Peek() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		uint16_t L_2 = Convert_ToChar_m2415(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = Convert_ToChar_m2555(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -1154,7 +1154,7 @@ extern "C" uint16_t Parser_get_NextChar_m752 (Parser_t191 * __this, const Method
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 System.IO.StringReader::Read() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		uint16_t L_2 = Convert_ToChar_m2415(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = Convert_ToChar_m2555(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -1171,7 +1171,7 @@ extern "C" String_t* Parser_get_NextWord_m753 (Parser_t191 * __this, const Metho
 	StringBuilder_t192 * V_0 = {0};
 	{
 		StringBuilder_t192 * L_0 = (StringBuilder_t192 *)il2cpp_codegen_object_new (StringBuilder_t192_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m2410(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m2550(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_002e;
 	}
@@ -1181,7 +1181,7 @@ IL_000b:
 		StringBuilder_t192 * L_1 = V_0;
 		uint16_t L_2 = Parser_get_NextChar_m752(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		StringBuilder_Append_m2411(L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_1, L_2, /*hidden argument*/NULL);
 		StringReader_t190 * L_3 = (__this->___json_2);
 		NullCheck(L_3);
 		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.StringReader::Peek() */, L_3);
@@ -1198,7 +1198,7 @@ IL_002e:
 	{
 		uint16_t L_5 = Parser_get_PeekChar_m751(__this, /*hidden argument*/NULL);
 		NullCheck((String_t*) &_stringLiteral312);
-		int32_t L_6 = String_IndexOf_m2413((String_t*) &_stringLiteral312, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_IndexOf_m2553((String_t*) &_stringLiteral312, L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) == ((int32_t)(-1))))
 		{
 			goto IL_000b;
@@ -1216,7 +1216,7 @@ IL_0044:
 // ANMiniJSON.Json/Parser/TOKEN ANMiniJSON.Json/Parser::get_NextToken()
 extern TypeInfo* Parser_t191_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t154_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2416_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2556_MethodInfo_var;
 extern "C" int32_t Parser_get_NextToken_m754 (Parser_t191 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -1224,7 +1224,7 @@ extern "C" int32_t Parser_get_NextToken_m754 (Parser_t191 * __this, const Method
 	{
 		Parser_t191_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(156);
 		Dictionary_2_t154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(138);
-		Dictionary_2__ctor_m2416_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
+		Dictionary_2__ctor_m2556_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = 0x0;
@@ -1463,7 +1463,7 @@ IL_00f2:
 	}
 	{
 		Dictionary_2_t154 * L_14 = (Dictionary_2_t154 *)il2cpp_codegen_object_new (Dictionary_2_t154_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2416(L_14, 3, /*hidden argument*/Dictionary_2__ctor_m2416_MethodInfo_var);
+		Dictionary_2__ctor_m2556(L_14, 3, /*hidden argument*/Dictionary_2__ctor_m2556_MethodInfo_var);
 		V_4 = L_14;
 		Dictionary_2_t154 * L_15 = V_4;
 		NullCheck(L_15);
@@ -1565,7 +1565,7 @@ extern "C" void Serializer__ctor_m755 (Serializer_t193 * __this, const MethodInf
 	{
 		Object__ctor_m160(__this, /*hidden argument*/NULL);
 		StringBuilder_t192 * L_0 = (StringBuilder_t192 *)il2cpp_codegen_object_new (StringBuilder_t192_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m2410(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m2550(L_0, /*hidden argument*/NULL);
 		__this->___builder_0 = L_0;
 		return;
 	}
@@ -1600,8 +1600,8 @@ extern "C" String_t* Serializer_Serialize_m756 (Object_t * __this /* static, unu
 // System.Void ANMiniJSON.Json/Serializer::SerializeValue(System.Object)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t29_il2cpp_TypeInfo_var;
-extern TypeInfo* IList_t489_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IList_t513_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t30_il2cpp_TypeInfo_var;
 extern "C" void Serializer_SerializeValue_m757 (Serializer_t193 * __this, Object_t * ___value, const MethodInfo* method)
 {
@@ -1610,8 +1610,8 @@ extern "C" void Serializer_SerializeValue_m757 (Serializer_t193 * __this, Object
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Boolean_t29_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(10);
-		IList_t489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(159);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IList_t513_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(159);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		Char_t30_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1628,7 +1628,7 @@ extern "C" void Serializer_SerializeValue_m757 (Serializer_t193 * __this, Object
 	{
 		StringBuilder_t192 * L_1 = (__this->___builder_0);
 		NullCheck(L_1);
-		StringBuilder_Append_m2417(L_1, (String_t*) &_stringLiteral313, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_1, (String_t*) &_stringLiteral313, /*hidden argument*/NULL);
 		goto IL_00b1;
 	}
 
@@ -1662,16 +1662,16 @@ IL_0035:
 		NullCheck(L_7);
 		String_t* L_8 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_7);
 		NullCheck(L_8);
-		String_t* L_9 = String_ToLower_m2418(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_ToLower_m2558(L_8, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		StringBuilder_Append_m2417(L_6, L_9, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_6, L_9, /*hidden argument*/NULL);
 		goto IL_00b1;
 	}
 
 IL_005c:
 	{
 		Object_t * L_10 = ___value;
-		Object_t * L_11 = ((Object_t *)IsInst(L_10, IList_t489_il2cpp_TypeInfo_var));
+		Object_t * L_11 = ((Object_t *)IsInst(L_10, IList_t513_il2cpp_TypeInfo_var));
 		V_0 = L_11;
 		if (!L_11)
 		{
@@ -1687,7 +1687,7 @@ IL_005c:
 IL_0075:
 	{
 		Object_t * L_13 = ___value;
-		Object_t * L_14 = ((Object_t *)IsInst(L_13, IDictionary_t488_il2cpp_TypeInfo_var));
+		Object_t * L_14 = ((Object_t *)IsInst(L_13, IDictionary_t512_il2cpp_TypeInfo_var));
 		V_1 = L_14;
 		if (!L_14)
 		{
@@ -1728,7 +1728,7 @@ IL_00b1:
 	}
 }
 // System.Void ANMiniJSON.Json/Serializer::SerializeObject(System.Collections.IDictionary)
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t21_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
@@ -1737,7 +1737,7 @@ extern "C" void Serializer_SerializeObject_m758 (Serializer_t193 * __this, Objec
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		IEnumerable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(54);
 		IEnumerator_t21_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
@@ -1757,10 +1757,10 @@ extern "C" void Serializer_SerializeObject_m758 (Serializer_t193 * __this, Objec
 		V_0 = 1;
 		StringBuilder_t192 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m2411(L_0, ((int32_t)123), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_0, ((int32_t)123), /*hidden argument*/NULL);
 		Object_t * L_1 = ___obj;
 		NullCheck(L_1);
-		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(2 /* System.Collections.ICollection System.Collections.IDictionary::get_Keys() */, IDictionary_t488_il2cpp_TypeInfo_var, L_1);
+		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(2 /* System.Collections.ICollection System.Collections.IDictionary::get_Keys() */, IDictionary_t512_il2cpp_TypeInfo_var, L_1);
 		NullCheck(L_2);
 		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t58_il2cpp_TypeInfo_var, L_2);
 		V_2 = L_3;
@@ -1790,7 +1790,7 @@ IL_002e:
 		{
 			StringBuilder_t192 * L_7 = (__this->___builder_0);
 			NullCheck(L_7);
-			StringBuilder_Append_m2411(L_7, ((int32_t)44), /*hidden argument*/NULL);
+			StringBuilder_Append_m2551(L_7, ((int32_t)44), /*hidden argument*/NULL);
 		}
 
 IL_003c:
@@ -1801,11 +1801,11 @@ IL_003c:
 			Serializer_SerializeString_m760(__this, L_9, /*hidden argument*/NULL);
 			StringBuilder_t192 * L_10 = (__this->___builder_0);
 			NullCheck(L_10);
-			StringBuilder_Append_m2411(L_10, ((int32_t)58), /*hidden argument*/NULL);
+			StringBuilder_Append_m2551(L_10, ((int32_t)58), /*hidden argument*/NULL);
 			Object_t * L_11 = ___obj;
 			Object_t * L_12 = V_1;
 			NullCheck(L_11);
-			Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_11, L_12);
+			Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_11, L_12);
 			Serializer_SerializeValue_m757(__this, L_13, /*hidden argument*/NULL);
 			V_0 = 0;
 		}
@@ -1867,7 +1867,7 @@ IL_0087:
 	{
 		StringBuilder_t192 * L_19 = (__this->___builder_0);
 		NullCheck(L_19);
-		StringBuilder_Append_m2411(L_19, ((int32_t)125), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_19, ((int32_t)125), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1898,7 +1898,7 @@ extern "C" void Serializer_SerializeArray_m759 (Serializer_t193 * __this, Object
 	{
 		StringBuilder_t192 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m2411(L_0, ((int32_t)91), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_0, ((int32_t)91), /*hidden argument*/NULL);
 		V_0 = 1;
 		Object_t * L_1 = ___anArray;
 		NullCheck(L_1);
@@ -1930,7 +1930,7 @@ IL_0029:
 		{
 			StringBuilder_t192 * L_6 = (__this->___builder_0);
 			NullCheck(L_6);
-			StringBuilder_Append_m2411(L_6, ((int32_t)44), /*hidden argument*/NULL);
+			StringBuilder_Append_m2551(L_6, ((int32_t)44), /*hidden argument*/NULL);
 		}
 
 IL_0037:
@@ -1997,7 +1997,7 @@ IL_0062:
 	{
 		StringBuilder_t192 * L_13 = (__this->___builder_0);
 		NullCheck(L_13);
-		StringBuilder_Append_m2411(L_13, ((int32_t)93), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_13, ((int32_t)93), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2013,21 +2013,21 @@ extern "C" void Serializer_SerializeString_m760 (Serializer_t193 * __this, Strin
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
-	CharU5BU5D_t512* V_0 = {0};
+	CharU5BU5D_t536* V_0 = {0};
 	uint16_t V_1 = 0x0;
-	CharU5BU5D_t512* V_2 = {0};
+	CharU5BU5D_t536* V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	uint16_t V_5 = 0x0;
 	{
 		StringBuilder_t192 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m2411(L_0, ((int32_t)34), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_0, ((int32_t)34), /*hidden argument*/NULL);
 		String_t* L_1 = ___str;
 		NullCheck(L_1);
-		CharU5BU5D_t512* L_2 = String_ToCharArray_m2419(L_1, /*hidden argument*/NULL);
+		CharU5BU5D_t536* L_2 = String_ToCharArray_m2559(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		CharU5BU5D_t512* L_3 = V_0;
+		CharU5BU5D_t536* L_3 = V_0;
 		V_2 = L_3;
 		V_3 = 0;
 		goto IL_0153;
@@ -2035,7 +2035,7 @@ extern "C" void Serializer_SerializeString_m760 (Serializer_t193 * __this, Strin
 
 IL_001e:
 	{
-		CharU5BU5D_t512* L_4 = V_2;
+		CharU5BU5D_t536* L_4 = V_2;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
@@ -2093,7 +2093,7 @@ IL_005d:
 	{
 		StringBuilder_t192 * L_11 = (__this->___builder_0);
 		NullCheck(L_11);
-		StringBuilder_Append_m2417(L_11, (String_t*) &_stringLiteral5, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_11, (String_t*) &_stringLiteral5, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2101,7 +2101,7 @@ IL_0073:
 	{
 		StringBuilder_t192 * L_12 = (__this->___builder_0);
 		NullCheck(L_12);
-		StringBuilder_Append_m2417(L_12, (String_t*) &_stringLiteral4, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_12, (String_t*) &_stringLiteral4, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2109,7 +2109,7 @@ IL_0089:
 	{
 		StringBuilder_t192 * L_13 = (__this->___builder_0);
 		NullCheck(L_13);
-		StringBuilder_Append_m2417(L_13, (String_t*) &_stringLiteral9, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_13, (String_t*) &_stringLiteral9, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2117,7 +2117,7 @@ IL_009f:
 	{
 		StringBuilder_t192 * L_14 = (__this->___builder_0);
 		NullCheck(L_14);
-		StringBuilder_Append_m2417(L_14, (String_t*) &_stringLiteral10, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_14, (String_t*) &_stringLiteral10, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2125,7 +2125,7 @@ IL_00b5:
 	{
 		StringBuilder_t192 * L_15 = (__this->___builder_0);
 		NullCheck(L_15);
-		StringBuilder_Append_m2417(L_15, (String_t*) &_stringLiteral6, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_15, (String_t*) &_stringLiteral6, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2133,7 +2133,7 @@ IL_00cb:
 	{
 		StringBuilder_t192 * L_16 = (__this->___builder_0);
 		NullCheck(L_16);
-		StringBuilder_Append_m2417(L_16, (String_t*) &_stringLiteral7, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_16, (String_t*) &_stringLiteral7, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2141,7 +2141,7 @@ IL_00e1:
 	{
 		StringBuilder_t192 * L_17 = (__this->___builder_0);
 		NullCheck(L_17);
-		StringBuilder_Append_m2417(L_17, (String_t*) &_stringLiteral8, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_17, (String_t*) &_stringLiteral8, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -2149,7 +2149,7 @@ IL_00f7:
 	{
 		uint16_t L_18 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		int32_t L_19 = Convert_ToInt32_m2420(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = Convert_ToInt32_m2560(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		V_4 = L_19;
 		int32_t L_20 = V_4;
 		if ((((int32_t)L_20) < ((int32_t)((int32_t)32))))
@@ -2168,7 +2168,7 @@ IL_00f7:
 		StringBuilder_t192 * L_22 = (__this->___builder_0);
 		uint16_t L_23 = V_1;
 		NullCheck(L_22);
-		StringBuilder_Append_m2411(L_22, L_23, /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_22, L_23, /*hidden argument*/NULL);
 		goto IL_014a;
 	}
 
@@ -2177,13 +2177,13 @@ IL_0123:
 		StringBuilder_t192 * L_24 = (__this->___builder_0);
 		int32_t L_25 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_26 = Convert_ToString_m2421(NULL /*static, unused*/, L_25, ((int32_t)16), /*hidden argument*/NULL);
+		String_t* L_26 = Convert_ToString_m2561(NULL /*static, unused*/, L_25, ((int32_t)16), /*hidden argument*/NULL);
 		NullCheck(L_26);
-		String_t* L_27 = String_PadLeft_m2422(L_26, 4, ((int32_t)48), /*hidden argument*/NULL);
+		String_t* L_27 = String_PadLeft_m2562(L_26, 4, ((int32_t)48), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_28 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral315, L_27, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		StringBuilder_Append_m2417(L_24, L_28, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_24, L_28, /*hidden argument*/NULL);
 	}
 
 IL_014a:
@@ -2200,7 +2200,7 @@ IL_014f:
 IL_0153:
 	{
 		int32_t L_30 = V_3;
-		CharU5BU5D_t512* L_31 = V_2;
+		CharU5BU5D_t536* L_31 = V_2;
 		NullCheck(L_31);
 		if ((((int32_t)L_30) < ((int32_t)(((int32_t)(((Array_t *)L_31)->max_length))))))
 		{
@@ -2210,22 +2210,22 @@ IL_0153:
 	{
 		StringBuilder_t192 * L_32 = (__this->___builder_0);
 		NullCheck(L_32);
-		StringBuilder_Append_m2411(L_32, ((int32_t)34), /*hidden argument*/NULL);
+		StringBuilder_Append_m2551(L_32, ((int32_t)34), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ANMiniJSON.Json/Serializer::SerializeOther(System.Object)
 extern TypeInfo* Single_t59_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern TypeInfo* UInt32_t532_il2cpp_TypeInfo_var;
-extern TypeInfo* Int64_t526_il2cpp_TypeInfo_var;
+extern TypeInfo* UInt32_t556_il2cpp_TypeInfo_var;
+extern TypeInfo* Int64_t550_il2cpp_TypeInfo_var;
 extern TypeInfo* Double_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* SByte_t61_il2cpp_TypeInfo_var;
-extern TypeInfo* Byte_t533_il2cpp_TypeInfo_var;
-extern TypeInfo* Int16_t534_il2cpp_TypeInfo_var;
-extern TypeInfo* UInt16_t535_il2cpp_TypeInfo_var;
-extern TypeInfo* UInt64_t536_il2cpp_TypeInfo_var;
-extern TypeInfo* Decimal_t537_il2cpp_TypeInfo_var;
+extern TypeInfo* Byte_t557_il2cpp_TypeInfo_var;
+extern TypeInfo* Int16_t558_il2cpp_TypeInfo_var;
+extern TypeInfo* UInt16_t559_il2cpp_TypeInfo_var;
+extern TypeInfo* UInt64_t560_il2cpp_TypeInfo_var;
+extern TypeInfo* Decimal_t561_il2cpp_TypeInfo_var;
 extern "C" void Serializer_SerializeOther_m761 (Serializer_t193 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2233,15 +2233,15 @@ extern "C" void Serializer_SerializeOther_m761 (Serializer_t193 * __this, Object
 	{
 		Single_t59_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		UInt32_t532_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(161);
-		Int64_t526_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
+		UInt32_t556_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(161);
+		Int64_t550_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
 		Double_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(60);
 		SByte_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(162);
-		Byte_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(146);
-		Int16_t534_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(163);
-		UInt16_t535_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(164);
-		UInt64_t536_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(165);
-		Decimal_t537_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(166);
+		Byte_t557_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(146);
+		Int16_t558_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(163);
+		UInt16_t559_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(164);
+		UInt64_t560_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(165);
+		Decimal_t561_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(166);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2260,14 +2260,14 @@ extern "C" void Serializer_SerializeOther_m761 (Serializer_t193 * __this, Object
 	}
 	{
 		Object_t * L_2 = ___value;
-		if (((Object_t *)IsInst(L_2, UInt32_t532_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_2, UInt32_t556_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
 		Object_t * L_3 = ___value;
-		if (((Object_t *)IsInst(L_3, Int64_t526_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_3, Int64_t550_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
@@ -2288,35 +2288,35 @@ extern "C" void Serializer_SerializeOther_m761 (Serializer_t193 * __this, Object
 	}
 	{
 		Object_t * L_6 = ___value;
-		if (((Object_t *)IsInst(L_6, Byte_t533_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_6, Byte_t557_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
 		Object_t * L_7 = ___value;
-		if (((Object_t *)IsInst(L_7, Int16_t534_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_7, Int16_t558_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
 		Object_t * L_8 = ___value;
-		if (((Object_t *)IsInst(L_8, UInt16_t535_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_8, UInt16_t559_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
 		Object_t * L_9 = ___value;
-		if (((Object_t *)IsInst(L_9, UInt64_t536_il2cpp_TypeInfo_var)))
+		if (((Object_t *)IsInst(L_9, UInt64_t560_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
 		Object_t * L_10 = ___value;
-		if (!((Object_t *)IsInst(L_10, Decimal_t537_il2cpp_TypeInfo_var)))
+		if (!((Object_t *)IsInst(L_10, Decimal_t561_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0090;
 		}
@@ -2329,7 +2329,7 @@ IL_0079:
 		NullCheck(L_12);
 		String_t* L_13 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_12);
 		NullCheck(L_11);
-		StringBuilder_Append_m2417(L_11, L_13, /*hidden argument*/NULL);
+		StringBuilder_Append_m2557(L_11, L_13, /*hidden argument*/NULL);
 		goto IL_009c;
 	}
 
@@ -2552,7 +2552,7 @@ IL_0021:
 		NullCheck(L_2);
 		String_t* L_3 = (L_2->____url_2);
 		WWW_t196 * L_4 = (WWW_t196 *)il2cpp_codegen_object_new (WWW_t196_il2cpp_TypeInfo_var);
-		WWW__ctor_m2423(L_4, L_3, /*hidden argument*/NULL);
+		WWW__ctor_m2563(L_4, L_3, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__0_0 = L_4;
 		WWW_t196 * L_5 = (__this->___U3CwwwU3E__0_0);
 		__this->___U24current_2 = L_5;
@@ -2564,7 +2564,7 @@ IL_004f:
 	{
 		WWW_t196 * L_6 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_6);
-		String_t* L_7 = WWW_get_error_m2424(L_6, /*hidden argument*/NULL);
+		String_t* L_7 = WWW_get_error_m2564(L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_007f;
@@ -2576,7 +2576,7 @@ IL_004f:
 		Action_1_t199 * L_9 = (L_8->___OnLoad_3);
 		WWW_t196 * L_10 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_10);
-		Texture2D_t65 * L_11 = WWW_get_texture_m2425(L_10, /*hidden argument*/NULL);
+		Texture2D_t65 * L_11 = WWW_get_texture_m2565(L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		VirtActionInvoker1< Texture2D_t65 * >::Invoke(10 /* System.Void System.Action`1<UnityEngine.Texture2D>::Invoke(!0) */, L_9, L_11);
 		goto IL_0090;
@@ -2657,18 +2657,18 @@ struct GameObject_t284;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<System.Object>()
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C" Object_t * GameObject_AddComponent_TisObject_t_m2427_gshared (GameObject_t284 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisObject_t_m2427(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+extern "C" Object_t * GameObject_AddComponent_TisObject_t_m2567_gshared (GameObject_t284 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisObject_t_m2567(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::AddComponent<WWWTextureLoader>()
 // !!0 UnityEngine.GameObject::AddComponent<WWWTextureLoader>()
-#define GameObject_AddComponent_TisWWWTextureLoader_t197_m2426(__this, method) (( WWWTextureLoader_t197 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisWWWTextureLoader_t197_m2566(__this, method) (( WWWTextureLoader_t197 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void WWWTextureLoader::.ctor()
 extern TypeInfo* WWWTextureLoader_t197_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t199_il2cpp_TypeInfo_var;
 extern const MethodInfo* WWWTextureLoader_U3COnLoadU3Em__0_m778_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2408_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2548_MethodInfo_var;
 extern "C" void WWWTextureLoader__ctor_m772 (WWWTextureLoader_t197 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2677,7 +2677,7 @@ extern "C" void WWWTextureLoader__ctor_m772 (WWWTextureLoader_t197 * __this, con
 		WWWTextureLoader_t197_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(168);
 		Action_1_t199_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(153);
 		WWWTextureLoader_U3COnLoadU3Em__0_m778_MethodInfo_var = il2cpp_codegen_method_info_from_index(86);
-		Action_1__ctor_m2408_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		Action_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
 		s_Il2CppMethodIntialized = true;
 	}
 	WWWTextureLoader_t197 * G_B2_0 = {0};
@@ -2694,7 +2694,7 @@ extern "C" void WWWTextureLoader__ctor_m772 (WWWTextureLoader_t197 * __this, con
 	{
 		IntPtr_t L_1 = { (void*)WWWTextureLoader_U3COnLoadU3Em__0_m778_MethodInfo_var };
 		Action_1_t199 * L_2 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		((WWWTextureLoader_t197_StaticFields*)WWWTextureLoader_t197_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache2_4 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -2704,7 +2704,7 @@ IL_0019:
 		Action_1_t199 * L_3 = ((WWWTextureLoader_t197_StaticFields*)WWWTextureLoader_t197_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache2_4;
 		NullCheck(G_B2_0);
 		G_B2_0->___OnLoad_3 = L_3;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2721,7 +2721,7 @@ extern "C" void WWWTextureLoader_add_OnLoad_m773 (WWWTextureLoader_t197 * __this
 	{
 		Action_1_t199 * L_0 = (__this->___OnLoad_3);
 		Action_1_t199 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Combine_m2428(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Combine_m2568(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnLoad_3 = ((Action_1_t199 *)Castclass(L_2, Action_1_t199_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -2739,28 +2739,28 @@ extern "C" void WWWTextureLoader_remove_OnLoad_m774 (WWWTextureLoader_t197 * __t
 	{
 		Action_1_t199 * L_0 = (__this->___OnLoad_3);
 		Action_1_t199 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Remove_m2429(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Remove_m2569(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnLoad_3 = ((Action_1_t199 *)Castclass(L_2, Action_1_t199_il2cpp_TypeInfo_var));
 		return;
 	}
 }
 // WWWTextureLoader WWWTextureLoader::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisWWWTextureLoader_t197_m2426_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisWWWTextureLoader_t197_m2566_MethodInfo_var;
 extern "C" WWWTextureLoader_t197 * WWWTextureLoader_Create_m775 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisWWWTextureLoader_t197_m2426_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483735);
+		GameObject_AddComponent_TisWWWTextureLoader_t197_m2566_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483735);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral316, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral316, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		WWWTextureLoader_t197 * L_1 = GameObject_AddComponent_TisWWWTextureLoader_t197_m2426(L_0, /*hidden argument*/GameObject_AddComponent_TisWWWTextureLoader_t197_m2426_MethodInfo_var);
+		WWWTextureLoader_t197 * L_1 = GameObject_AddComponent_TisWWWTextureLoader_t197_m2566(L_0, /*hidden argument*/GameObject_AddComponent_TisWWWTextureLoader_t197_m2566_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -2771,7 +2771,7 @@ extern "C" void WWWTextureLoader_LoadTexture_m776 (WWWTextureLoader_t197 * __thi
 		String_t* L_0 = ___url;
 		__this->____url_2 = L_0;
 		Object_t * L_1 = WWWTextureLoader_LoadCoroutin_m777(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3048,29 +3048,29 @@ extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t211_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t212_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2431_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2432_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m2433_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2571_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2572_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2573_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnInitCompleteActionU3Em__1_m849_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnPostingCompleteActionU3Em__2_m850_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2435_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2575_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnFocusChangedActionU3Em__3_m851_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2436_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2576_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnAuthCompleteActionU3Em__4_m852_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnPaymentCompleteActionU3Em__5_m853_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnUserDataRequestCompleteActionU3Em__6_m854_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__7_m855_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnAppRequestCompleteActionU3Em__8_m856_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2438_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2578_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnAppRequestsLoadedU3Em__9_m857_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__A_m858_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2439_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2579_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__B_m859_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__C_m860_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__D_m861_MethodInfo_var;
 extern const MethodInfo* SPFacebook_U3COnLikesListLoadedActionU3Em__E_m862_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2440_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2580_MethodInfo_var;
 extern "C" void SPFacebook__ctor_m779 (SPFacebook_t214 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3087,29 +3087,29 @@ extern "C" void SPFacebook__ctor_m779 (SPFacebook_t214 * __this, const MethodInf
 		Action_1_t211_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		Action_1_t212_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(187);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Dictionary_2__ctor_m2431_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
-		Dictionary_2__ctor_m2432_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
-		List_1__ctor_m2433_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		Dictionary_2__ctor_m2571_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
+		Dictionary_2__ctor_m2572_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
+		List_1__ctor_m2573_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
 		SPFacebook_U3COnInitCompleteActionU3Em__1_m849_MethodInfo_var = il2cpp_codegen_method_info_from_index(91);
 		SPFacebook_U3COnPostingCompleteActionU3Em__2_m850_MethodInfo_var = il2cpp_codegen_method_info_from_index(92);
-		Action_1__ctor_m2435_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483741);
+		Action_1__ctor_m2575_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483741);
 		SPFacebook_U3COnFocusChangedActionU3Em__3_m851_MethodInfo_var = il2cpp_codegen_method_info_from_index(94);
-		Action_1__ctor_m2436_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483743);
+		Action_1__ctor_m2576_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483743);
 		SPFacebook_U3COnAuthCompleteActionU3Em__4_m852_MethodInfo_var = il2cpp_codegen_method_info_from_index(96);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		SPFacebook_U3COnPaymentCompleteActionU3Em__5_m853_MethodInfo_var = il2cpp_codegen_method_info_from_index(98);
 		SPFacebook_U3COnUserDataRequestCompleteActionU3Em__6_m854_MethodInfo_var = il2cpp_codegen_method_info_from_index(99);
 		SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__7_m855_MethodInfo_var = il2cpp_codegen_method_info_from_index(100);
 		SPFacebook_U3COnAppRequestCompleteActionU3Em__8_m856_MethodInfo_var = il2cpp_codegen_method_info_from_index(101);
-		Action_1__ctor_m2438_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
+		Action_1__ctor_m2578_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
 		SPFacebook_U3COnAppRequestsLoadedU3Em__9_m857_MethodInfo_var = il2cpp_codegen_method_info_from_index(103);
 		SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__A_m858_MethodInfo_var = il2cpp_codegen_method_info_from_index(104);
-		Action_1__ctor_m2439_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483753);
+		Action_1__ctor_m2579_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483753);
 		SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__B_m859_MethodInfo_var = il2cpp_codegen_method_info_from_index(106);
 		SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__C_m860_MethodInfo_var = il2cpp_codegen_method_info_from_index(107);
 		SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__D_m861_MethodInfo_var = il2cpp_codegen_method_info_from_index(108);
 		SPFacebook_U3COnLikesListLoadedActionU3Em__E_m862_MethodInfo_var = il2cpp_codegen_method_info_from_index(109);
-		SA_Singleton_1__ctor_m2440_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483758);
+		SA_Singleton_1__ctor_m2580_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483758);
 		s_Il2CppMethodIntialized = true;
 	}
 	SPFacebook_t214 * G_B2_0 = {0};
@@ -3142,16 +3142,16 @@ extern "C" void SPFacebook__ctor_m779 (SPFacebook_t214 * __this, const MethodInf
 	SPFacebook_t214 * G_B27_0 = {0};
 	{
 		Dictionary_2_t204 * L_0 = (Dictionary_2_t204 *)il2cpp_codegen_object_new (Dictionary_2_t204_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2431(L_0, /*hidden argument*/Dictionary_2__ctor_m2431_MethodInfo_var);
+		Dictionary_2__ctor_m2571(L_0, /*hidden argument*/Dictionary_2__ctor_m2571_MethodInfo_var);
 		__this->____userScores_9 = L_0;
 		Dictionary_2_t204 * L_1 = (Dictionary_2_t204 *)il2cpp_codegen_object_new (Dictionary_2_t204_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2431(L_1, /*hidden argument*/Dictionary_2__ctor_m2431_MethodInfo_var);
+		Dictionary_2__ctor_m2571(L_1, /*hidden argument*/Dictionary_2__ctor_m2571_MethodInfo_var);
 		__this->____appScores_10 = L_1;
 		Dictionary_2_t205 * L_2 = (Dictionary_2_t205 *)il2cpp_codegen_object_new (Dictionary_2_t205_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2432(L_2, /*hidden argument*/Dictionary_2__ctor_m2432_MethodInfo_var);
+		Dictionary_2__ctor_m2572(L_2, /*hidden argument*/Dictionary_2__ctor_m2572_MethodInfo_var);
 		__this->____likes_12 = L_2;
 		List_1_t206 * L_3 = (List_1_t206 *)il2cpp_codegen_object_new (List_1_t206_il2cpp_TypeInfo_var);
-		List_1__ctor_m2433(L_3, /*hidden argument*/List_1__ctor_m2433_MethodInfo_var);
+		List_1__ctor_m2573(L_3, /*hidden argument*/List_1__ctor_m2573_MethodInfo_var);
 		__this->____AppRequests_13 = L_3;
 		Action_t207 * L_4 = ((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache18_30;
 		G_B1_0 = __this;
@@ -3164,7 +3164,7 @@ extern "C" void SPFacebook__ctor_m779 (SPFacebook_t214 * __this, const MethodInf
 	{
 		IntPtr_t L_5 = { (void*)SPFacebook_U3COnInitCompleteActionU3Em__1_m849_MethodInfo_var };
 		Action_t207 * L_6 = (Action_t207 *)il2cpp_codegen_object_new (Action_t207_il2cpp_TypeInfo_var);
-		Action__ctor_m2434(L_6, NULL, L_5, /*hidden argument*/NULL);
+		Action__ctor_m2574(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache18_30 = L_6;
 		G_B2_0 = G_B1_0;
 	}
@@ -3185,7 +3185,7 @@ IL_0045:
 	{
 		IntPtr_t L_9 = { (void*)SPFacebook_U3COnPostingCompleteActionU3Em__2_m850_MethodInfo_var };
 		Action_1_t208 * L_10 = (Action_1_t208 *)il2cpp_codegen_object_new (Action_1_t208_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2435(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2435_MethodInfo_var);
+		Action_1__ctor_m2575(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2575_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache19_31 = L_10;
 		G_B4_0 = G_B3_0;
 	}
@@ -3206,7 +3206,7 @@ IL_0068:
 	{
 		IntPtr_t L_13 = { (void*)SPFacebook_U3COnFocusChangedActionU3Em__3_m851_MethodInfo_var };
 		Action_1_t209 * L_14 = (Action_1_t209 *)il2cpp_codegen_object_new (Action_1_t209_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2436(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2436_MethodInfo_var);
+		Action_1__ctor_m2576(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2576_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1A_32 = L_14;
 		G_B6_0 = G_B5_0;
 	}
@@ -3227,7 +3227,7 @@ IL_008b:
 	{
 		IntPtr_t L_17 = { (void*)SPFacebook_U3COnAuthCompleteActionU3Em__4_m852_MethodInfo_var };
 		Action_1_t210 * L_18 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1B_33 = L_18;
 		G_B8_0 = G_B7_0;
 	}
@@ -3248,7 +3248,7 @@ IL_00ae:
 	{
 		IntPtr_t L_21 = { (void*)SPFacebook_U3COnPaymentCompleteActionU3Em__5_m853_MethodInfo_var };
 		Action_1_t210 * L_22 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1C_34 = L_22;
 		G_B10_0 = G_B9_0;
 	}
@@ -3269,7 +3269,7 @@ IL_00d1:
 	{
 		IntPtr_t L_25 = { (void*)SPFacebook_U3COnUserDataRequestCompleteActionU3Em__6_m854_MethodInfo_var };
 		Action_1_t210 * L_26 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_26, NULL, L_25, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_26, NULL, L_25, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1D_35 = L_26;
 		G_B12_0 = G_B11_0;
 	}
@@ -3290,7 +3290,7 @@ IL_00f4:
 	{
 		IntPtr_t L_29 = { (void*)SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__7_m855_MethodInfo_var };
 		Action_1_t210 * L_30 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_30, NULL, L_29, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_30, NULL, L_29, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1E_36 = L_30;
 		G_B14_0 = G_B13_0;
 	}
@@ -3311,7 +3311,7 @@ IL_0117:
 	{
 		IntPtr_t L_33 = { (void*)SPFacebook_U3COnAppRequestCompleteActionU3Em__8_m856_MethodInfo_var };
 		Action_1_t211 * L_34 = (Action_1_t211 *)il2cpp_codegen_object_new (Action_1_t211_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2438(L_34, NULL, L_33, /*hidden argument*/Action_1__ctor_m2438_MethodInfo_var);
+		Action_1__ctor_m2578(L_34, NULL, L_33, /*hidden argument*/Action_1__ctor_m2578_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1F_37 = L_34;
 		G_B16_0 = G_B15_0;
 	}
@@ -3332,7 +3332,7 @@ IL_013a:
 	{
 		IntPtr_t L_37 = { (void*)SPFacebook_U3COnAppRequestsLoadedU3Em__9_m857_MethodInfo_var };
 		Action_1_t210 * L_38 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_38, NULL, L_37, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_38, NULL, L_37, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache20_38 = L_38;
 		G_B18_0 = G_B17_0;
 	}
@@ -3353,7 +3353,7 @@ IL_015d:
 	{
 		IntPtr_t L_41 = { (void*)SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__A_m858_MethodInfo_var };
 		Action_1_t212 * L_42 = (Action_1_t212 *)il2cpp_codegen_object_new (Action_1_t212_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2439(L_42, NULL, L_41, /*hidden argument*/Action_1__ctor_m2439_MethodInfo_var);
+		Action_1__ctor_m2579(L_42, NULL, L_41, /*hidden argument*/Action_1__ctor_m2579_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache21_39 = L_42;
 		G_B20_0 = G_B19_0;
 	}
@@ -3374,7 +3374,7 @@ IL_0180:
 	{
 		IntPtr_t L_45 = { (void*)SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__B_m859_MethodInfo_var };
 		Action_1_t212 * L_46 = (Action_1_t212 *)il2cpp_codegen_object_new (Action_1_t212_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2439(L_46, NULL, L_45, /*hidden argument*/Action_1__ctor_m2439_MethodInfo_var);
+		Action_1__ctor_m2579(L_46, NULL, L_45, /*hidden argument*/Action_1__ctor_m2579_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache22_40 = L_46;
 		G_B22_0 = G_B21_0;
 	}
@@ -3395,7 +3395,7 @@ IL_01a3:
 	{
 		IntPtr_t L_49 = { (void*)SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__C_m860_MethodInfo_var };
 		Action_1_t212 * L_50 = (Action_1_t212 *)il2cpp_codegen_object_new (Action_1_t212_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2439(L_50, NULL, L_49, /*hidden argument*/Action_1__ctor_m2439_MethodInfo_var);
+		Action_1__ctor_m2579(L_50, NULL, L_49, /*hidden argument*/Action_1__ctor_m2579_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache23_41 = L_50;
 		G_B24_0 = G_B23_0;
 	}
@@ -3416,7 +3416,7 @@ IL_01c6:
 	{
 		IntPtr_t L_53 = { (void*)SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__D_m861_MethodInfo_var };
 		Action_1_t212 * L_54 = (Action_1_t212 *)il2cpp_codegen_object_new (Action_1_t212_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2439(L_54, NULL, L_53, /*hidden argument*/Action_1__ctor_m2439_MethodInfo_var);
+		Action_1__ctor_m2579(L_54, NULL, L_53, /*hidden argument*/Action_1__ctor_m2579_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache24_42 = L_54;
 		G_B26_0 = G_B25_0;
 	}
@@ -3437,7 +3437,7 @@ IL_01e9:
 	{
 		IntPtr_t L_57 = { (void*)SPFacebook_U3COnLikesListLoadedActionU3Em__E_m862_MethodInfo_var };
 		Action_1_t212 * L_58 = (Action_1_t212 *)il2cpp_codegen_object_new (Action_1_t212_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2439(L_58, NULL, L_57, /*hidden argument*/Action_1__ctor_m2439_MethodInfo_var);
+		Action_1__ctor_m2579(L_58, NULL, L_57, /*hidden argument*/Action_1__ctor_m2579_MethodInfo_var);
 		((SPFacebook_t214_StaticFields*)SPFacebook_t214_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache25_43 = L_58;
 		G_B28_0 = G_B27_0;
 	}
@@ -3448,7 +3448,7 @@ IL_020c:
 		NullCheck(G_B28_0);
 		G_B28_0->___OnLikesListLoadedAction_27 = L_59;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2440(__this, /*hidden argument*/SA_Singleton_1__ctor_m2440_MethodInfo_var);
+		SA_Singleton_1__ctor_m2580(__this, /*hidden argument*/SA_Singleton_1__ctor_m2580_MethodInfo_var);
 		return;
 	}
 }
@@ -3456,8 +3456,8 @@ IL_020c:
 extern "C" void SPFacebook_Awake_m780 (SPFacebook_t214 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3482,10 +3482,10 @@ extern "C" void SPFacebook_Init_m781 (SPFacebook_t214 * __this, const MethodInfo
 	{
 		IntPtr_t L_0 = { (void*)SPFacebook_OnInitComplete_m844_MethodInfo_var };
 		InitDelegate_t336 * L_1 = (InitDelegate_t336 *)il2cpp_codegen_object_new (InitDelegate_t336_il2cpp_TypeInfo_var);
-		InitDelegate__ctor_m2273(L_1, __this, L_0, /*hidden argument*/NULL);
+		InitDelegate__ctor_m2413(L_1, __this, L_0, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)SPFacebook_OnHideUnity_m845_MethodInfo_var };
 		HideUnityDelegate_t337 * L_3 = (HideUnityDelegate_t337 *)il2cpp_codegen_object_new (HideUnityDelegate_t337_il2cpp_TypeInfo_var);
-		HideUnityDelegate__ctor_m2281(L_3, __this, L_2, /*hidden argument*/NULL);
+		HideUnityDelegate__ctor_m2421(L_3, __this, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_Init_m1520(NULL /*static, unused*/, L_1, L_3, (String_t*)NULL, /*hidden argument*/NULL);
 		return;
@@ -3530,7 +3530,7 @@ extern "C" void SPFacebook_Login_m783 (SPFacebook_t214 * __this, String_t* ___sc
 		String_t* L_0 = ___scopes;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral317, L_0, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		bool L_2 = (__this->___IsLoginRequestSent_28);
 		if (L_2)
 		{
@@ -3538,12 +3538,12 @@ extern "C" void SPFacebook_Login_m783 (SPFacebook_t214 * __this, String_t* ___sc
 		}
 	}
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral318, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral318, /*hidden argument*/NULL);
 		__this->___IsLoginRequestSent_28 = 1;
 		String_t* L_3 = ___scopes;
 		IntPtr_t L_4 = { (void*)SPFacebook_LoginCallback_m846_MethodInfo_var };
 		FacebookDelegate_t350 * L_5 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_5, __this, L_4, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_5, __this, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_Login_m1523(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
 	}
@@ -3605,7 +3605,7 @@ extern "C" void SPFacebook_LoadUserData_m785 (SPFacebook_t214 * __this, const Me
 		HttpMethod_t365 * L_1 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)SPFacebook_UserDataCallBack_m843_MethodInfo_var };
 		FacebookDelegate_t350 * L_3 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_3, __this, L_2, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_3, __this, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1529(NULL /*static, unused*/, (String_t*) &_stringLiteral319, L_1, L_3, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		goto IL_005e;
@@ -3613,7 +3613,7 @@ extern "C" void SPFacebook_LoadUserData_m785 (SPFacebook_t214 * __this, const Me
 
 IL_002c:
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_5 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -3668,7 +3668,7 @@ extern "C" void SPFacebook_LoadFrientdsInfo_m786 (SPFacebook_t214 * __this, int3
 		HttpMethod_t365 * L_3 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_4 = { (void*)SPFacebook_FriendsDataCallBack_m840_MethodInfo_var };
 		FacebookDelegate_t350 * L_5 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_5, __this, L_4, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_5, __this, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1529(NULL /*static, unused*/, L_2, L_3, L_5, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		goto IL_006f;
@@ -3676,7 +3676,7 @@ extern "C" void SPFacebook_LoadFrientdsInfo_m786 (SPFacebook_t214 * __this, int3
 
 IL_003d:
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_7 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -3751,24 +3751,24 @@ extern "C" void SPFacebook_PostImage_m788 (SPFacebook_t214 * __this, String_t* _
 	{
 		Texture2D_t65 * L_0 = ___image;
 		NullCheck(L_0);
-		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2330(L_0, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2470(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		WWWForm_t70 * L_2 = (WWWForm_t70 *)il2cpp_codegen_object_new (WWWForm_t70_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m2331(L_2, /*hidden argument*/NULL);
+		WWWForm__ctor_m2471(L_2, /*hidden argument*/NULL);
 		V_1 = L_2;
 		WWWForm_t70 * L_3 = V_1;
 		String_t* L_4 = ___caption;
 		NullCheck(L_3);
-		WWWForm_AddField_m2333(L_3, (String_t*) &_stringLiteral55, L_4, /*hidden argument*/NULL);
+		WWWForm_AddField_m2473(L_3, (String_t*) &_stringLiteral55, L_4, /*hidden argument*/NULL);
 		WWWForm_t70 * L_5 = V_1;
 		ByteU5BU5D_t36* L_6 = V_0;
 		NullCheck(L_5);
-		WWWForm_AddBinaryData_m2332(L_5, (String_t*) &_stringLiteral122, L_6, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
+		WWWForm_AddBinaryData_m2472(L_5, (String_t*) &_stringLiteral122, L_6, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(HttpMethod_t365_il2cpp_TypeInfo_var);
 		HttpMethod_t365 * L_7 = HttpMethod_get_POST_m1748(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_8 = { (void*)SPFacebook_PostCallBack_m839_MethodInfo_var };
 		FacebookDelegate_t350 * L_9 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_9, __this, L_8, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_9, __this, L_8, /*hidden argument*/NULL);
 		WWWForm_t70 * L_10 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1530(NULL /*static, unused*/, (String_t*) &_stringLiteral125, L_7, L_9, L_10, /*hidden argument*/NULL);
@@ -3829,7 +3829,7 @@ extern "C" void SPFacebook_Post_m790 (SPFacebook_t214 * __this, String_t* ___toI
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral326, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral326, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_2 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -3865,7 +3865,7 @@ IL_0045:
 		String_t* L_18 = ___reference;
 		IntPtr_t L_19 = { (void*)SPFacebook_PostCallBack_m839_MethodInfo_var };
 		FacebookDelegate_t350 * L_20 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_20, __this, L_19, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_20, __this, L_19, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_Feed_m1528(NULL /*static, unused*/, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, (Dictionary_2_t74 *)NULL, L_20, /*hidden argument*/NULL);
 		return;
@@ -3895,7 +3895,7 @@ extern "C" void SPFacebook_SendTrunRequest_m791 (SPFacebook_t214 * __this, Strin
 	{
 		StringU5BU5D_t45* L_2 = ___to;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Join_m2442(NULL /*static, unused*/, (String_t*) &_stringLiteral300, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Join_m2582(NULL /*static, unused*/, (String_t*) &_stringLiteral300, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 	}
 
@@ -3935,7 +3935,7 @@ extern "C" void SPFacebook_SendGift_m792 (SPFacebook_t214 * __this, String_t* __
 		String_t* L_5 = ___title;
 		IntPtr_t L_6 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_7 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_7, __this, L_6, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_7, __this, L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_AppRequest_m1525(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_7, /*hidden argument*/NULL);
 		return;
@@ -3967,14 +3967,14 @@ extern "C" void SPFacebook_AskGift_m793 (SPFacebook_t214 * __this, String_t* ___
 		String_t* L_5 = ___title;
 		IntPtr_t L_6 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_7 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_7, __this, L_6, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_7, __this, L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_AppRequest_m1525(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_7, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPFacebook::SendInvite(System.String,System.String,System.String,System.String[])
-extern TypeInfo* Nullable_1_t493_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t517_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t350_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_AppRequestCallBack_m795_MethodInfo_var;
@@ -3983,25 +3983,25 @@ extern "C" void SPFacebook_SendInvite_m794 (SPFacebook_t214 * __this, String_t* 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1_t493_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
+		Nullable_1_t517_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
 		FacebookDelegate_t350_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(96);
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
 		SPFacebook_AppRequestCallBack_m795_MethodInfo_var = il2cpp_codegen_method_info_from_index(117);
 		s_Il2CppMethodIntialized = true;
 	}
-	Nullable_1_t493  V_0 = {0};
+	Nullable_1_t517  V_0 = {0};
 	{
 		String_t* L_0 = ___message;
 		StringU5BU5D_t45* L_1 = ___to;
-		Initobj (Nullable_1_t493_il2cpp_TypeInfo_var, (&V_0));
-		Nullable_1_t493  L_2 = V_0;
+		Initobj (Nullable_1_t517_il2cpp_TypeInfo_var, (&V_0));
+		Nullable_1_t517  L_2 = V_0;
 		String_t* L_3 = ___data;
 		String_t* L_4 = ___title;
 		IntPtr_t L_5 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_6 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_6, __this, L_5, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_6, __this, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
-		FB_AppRequest_m1527(NULL /*static, unused*/, L_0, L_1, (List_1_t487 *)NULL, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, L_2, L_3, L_4, L_6, /*hidden argument*/NULL);
+		FB_AppRequest_m1527(NULL /*static, unused*/, L_0, L_1, (List_1_t511 *)NULL, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, L_2, L_3, L_4, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4009,12 +4009,12 @@ extern "C" void SPFacebook_SendInvite_m794 (SPFacebook_t214 * __this, String_t* 
 extern TypeInfo* FBAppRequestResult_t220_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void SPFacebook_AppRequestCallBack_m795 (SPFacebook_t214 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4023,19 +4023,19 @@ extern "C" void SPFacebook_AppRequestCallBack_m795 (SPFacebook_t214 * __this, FB
 		FBAppRequestResult_t220_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(176);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBAppRequestResult_t220 * V_0 = {0};
 	Dictionary_2_t244 * V_1 = {0};
-	List_1_t487 * V_2 = {0};
+	List_1_t511 * V_2 = {0};
 	Object_t * V_3 = {0};
-	Enumerator_t539  V_4 = {0};
+	Enumerator_t563  V_4 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -4081,7 +4081,7 @@ extern "C" void SPFacebook_AppRequestCallBack_m795 (SPFacebook_t214 * __this, FB
 		NullCheck(L_12);
 		Object_t * L_13 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_12, (String_t*) &_stringLiteral328);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_14 = Convert_ToString_m2443(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = Convert_ToString_m2583(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		L_11->___ReuqestId_1 = L_14;
 	}
@@ -4100,10 +4100,10 @@ IL_0056:
 		Dictionary_2_t244 * L_17 = V_1;
 		NullCheck(L_17);
 		Object_t * L_18 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_17, (String_t*) &_stringLiteral75);
-		V_2 = ((List_1_t487 *)IsInst(L_18, List_1_t487_il2cpp_TypeInfo_var));
-		List_1_t487 * L_19 = V_2;
+		V_2 = ((List_1_t511 *)IsInst(L_18, List_1_t511_il2cpp_TypeInfo_var));
+		List_1_t511 * L_19 = V_2;
 		NullCheck(L_19);
-		Enumerator_t539  L_20 = List_1_GetEnumerator_m2444(L_19, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_20 = List_1_GetEnumerator_m2584(L_19, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_4 = L_20;
 	}
 
@@ -4116,21 +4116,21 @@ IL_007f:
 
 IL_0084:
 		{
-			Object_t * L_21 = Enumerator_get_Current_m2445((&V_4), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_21 = Enumerator_get_Current_m2585((&V_4), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_3 = L_21;
 			FBAppRequestResult_t220 * L_22 = V_0;
 			NullCheck(L_22);
 			List_1_t73 * L_23 = (L_22->___Recipients_2);
 			Object_t * L_24 = V_3;
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_25 = Convert_ToString_m2443(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+			String_t* L_25 = Convert_ToString_m2583(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 			NullCheck(L_23);
 			VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_23, L_25);
 		}
 
 IL_009d:
 		{
-			bool L_26 = Enumerator_MoveNext_m2446((&V_4), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_26 = Enumerator_MoveNext_m2586((&V_4), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_26)
 			{
 				goto IL_0084;
@@ -4150,9 +4150,9 @@ IL_00a9:
 
 FINALLY_00ae:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_27 = V_4;
-		Enumerator_t539  L_28 = L_27;
-		Object_t * L_29 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_28);
+		Enumerator_t563  L_27 = V_4;
+		Enumerator_t563  L_28 = L_27;
+		Object_t * L_29 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_28);
 		NullCheck(L_29);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_29);
 		IL2CPP_END_FINALLY(174)
@@ -4171,11 +4171,11 @@ IL_00bb:
 		FBAppRequestResult_t220 * L_32 = V_0;
 		NullCheck(L_31);
 		VirtActionInvoker1< FBAppRequestResult_t220 * >::Invoke(10 /* System.Void System.Action`1<FBAppRequestResult>::Invoke(!0) */, L_31, L_32);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral330, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral330, /*hidden argument*/NULL);
 		FBResult_t213 * L_33 = ___result;
 		NullCheck(L_33);
 		String_t* L_34 = FBResult_get_Text_m1556(L_33, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4220,22 +4220,22 @@ extern "C" void SPFacebook_OnAppRequestFailed_AndroidCB_m796 (SPFacebook_t214 * 
 }
 // System.Void SPFacebook::OnAppRequestCompleted_AndroidCB(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t512_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t536_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t213_il2cpp_TypeInfo_var;
 extern TypeInfo* FBAppRequestResult_t220_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2447_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2587_MethodInfo_var;
 extern "C" void SPFacebook_OnAppRequestCompleted_AndroidCB_m797 (SPFacebook_t214 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		CharU5BU5D_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(109);
+		CharU5BU5D_t536_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(109);
 		FBResult_t213_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
 		FBAppRequestResult_t220_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(176);
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
-		List_1__ctor_m2447_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483769);
+		List_1__ctor_m2587_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483769);
 		s_Il2CppMethodIntialized = true;
 	}
 	StringU5BU5D_t45* V_0 = {0};
@@ -4248,16 +4248,16 @@ extern "C" void SPFacebook_OnAppRequestCompleted_AndroidCB_m797 (SPFacebook_t214
 		String_t* L_0 = ___data;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral331, L_0, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		String_t* L_2 = ___data;
-		CharU5BU5D_t512* L_3 = ((CharU5BU5D_t512*)SZArrayNew(CharU5BU5D_t512_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t536* L_3 = ((CharU5BU5D_t536*)SZArrayNew(CharU5BU5D_t536_il2cpp_TypeInfo_var, 1));
 		NullCheck((String_t*) &_stringLiteral332);
 		uint16_t L_4 = String_get_Chars_m173((String_t*) &_stringLiteral332, 0, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_3, 0)) = (uint16_t)L_4;
 		NullCheck(L_2);
-		StringU5BU5D_t45* L_5 = String_Split_m2340(L_2, L_3, /*hidden argument*/NULL);
+		StringU5BU5D_t45* L_5 = String_Split_m2480(L_2, L_3, /*hidden argument*/NULL);
 		V_0 = L_5;
 		StringU5BU5D_t45* L_6 = V_0;
 		NullCheck(L_6);
@@ -4302,17 +4302,17 @@ extern "C" void SPFacebook_OnAppRequestCompleted_AndroidCB_m797 (SPFacebook_t214
 IL_006e:
 	{
 		String_t* L_21 = V_2;
-		CharU5BU5D_t512* L_22 = ((CharU5BU5D_t512*)SZArrayNew(CharU5BU5D_t512_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t536* L_22 = ((CharU5BU5D_t536*)SZArrayNew(CharU5BU5D_t536_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_22, 0)) = (uint16_t)((int32_t)44);
 		NullCheck(L_21);
-		StringU5BU5D_t45* L_23 = String_Split_m2340(L_21, L_22, /*hidden argument*/NULL);
+		StringU5BU5D_t45* L_23 = String_Split_m2480(L_21, L_22, /*hidden argument*/NULL);
 		V_5 = L_23;
 		FBAppRequestResult_t220 * L_24 = V_4;
 		StringU5BU5D_t45* L_25 = V_5;
 		List_1_t73 * L_26 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2447(L_26, (Object_t*)(Object_t*)L_25, /*hidden argument*/List_1__ctor_m2447_MethodInfo_var);
+		List_1__ctor_m2587(L_26, (Object_t*)(Object_t*)L_25, /*hidden argument*/List_1__ctor_m2587_MethodInfo_var);
 		NullCheck(L_24);
 		L_24->___Recipients_2 = L_26;
 		FBAppRequestResult_t220 * L_27 = V_4;
@@ -4354,7 +4354,7 @@ extern "C" void SPFacebook_AppRequest_m798 (SPFacebook_t214 * __this, String_t* 
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_2 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -4386,7 +4386,7 @@ IL_004b:
 		String_t* L_14 = ___title;
 		IntPtr_t L_15 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_16 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_16, __this, L_15, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_16, __this, L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_AppRequest_m1525(NULL /*static, unused*/, L_9, L_10, L_11, L_12, L_13, L_14, L_16, /*hidden argument*/NULL);
 		return;
@@ -4399,7 +4399,7 @@ extern TypeInfo* FBAppRequestResult_t220_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t350_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_AppRequestCallBack_m795_MethodInfo_var;
-extern "C" void SPFacebook_AppRequest_m799 (SPFacebook_t214 * __this, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, List_1_t487 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t493  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
+extern "C" void SPFacebook_AppRequest_m799 (SPFacebook_t214 * __this, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, List_1_t511 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t517  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4422,7 +4422,7 @@ extern "C" void SPFacebook_AppRequest_m799 (SPFacebook_t214 * __this, String_t* 
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_2 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -4449,14 +4449,14 @@ IL_004b:
 		String_t* L_9 = ___message;
 		OGActionType_t349 * L_10 = ___actionType;
 		String_t* L_11 = ___objectId;
-		List_1_t487 * L_12 = ___filters;
+		List_1_t511 * L_12 = ___filters;
 		StringU5BU5D_t45* L_13 = ___excludeIds;
-		Nullable_1_t493  L_14 = ___maxRecipients;
+		Nullable_1_t517  L_14 = ___maxRecipients;
 		String_t* L_15 = ___data;
 		String_t* L_16 = ___title;
 		IntPtr_t L_17 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_18 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_18, __this, L_17, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_18, __this, L_17, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_AppRequest_m1526(NULL /*static, unused*/, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_18, /*hidden argument*/NULL);
 		return;
@@ -4469,7 +4469,7 @@ extern TypeInfo* FBAppRequestResult_t220_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t350_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_AppRequestCallBack_m795_MethodInfo_var;
-extern "C" void SPFacebook_AppRequest_m800 (SPFacebook_t214 * __this, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t487 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t493  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
+extern "C" void SPFacebook_AppRequest_m800 (SPFacebook_t214 * __this, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t511 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t517  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4492,7 +4492,7 @@ extern "C" void SPFacebook_AppRequest_m800 (SPFacebook_t214 * __this, String_t* 
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral333, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_2 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -4518,14 +4518,14 @@ IL_004b:
 	{
 		String_t* L_9 = ___message;
 		StringU5BU5D_t45* L_10 = ___to;
-		List_1_t487 * L_11 = ___filters;
+		List_1_t511 * L_11 = ___filters;
 		StringU5BU5D_t45* L_12 = ___excludeIds;
-		Nullable_1_t493  L_13 = ___maxRecipients;
+		Nullable_1_t517  L_13 = ___maxRecipients;
 		String_t* L_14 = ___data;
 		String_t* L_15 = ___title;
 		IntPtr_t L_16 = { (void*)SPFacebook_AppRequestCallBack_m795_MethodInfo_var };
 		FacebookDelegate_t350 * L_17 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_17, __this, L_16, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_17, __this, L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_AppRequest_m1527(NULL /*static, unused*/, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_17, /*hidden argument*/NULL);
 		return;
@@ -4558,55 +4558,55 @@ extern "C" void SPFacebook_LoadPendingRequests_m801 (SPFacebook_t214 * __this, c
 		HttpMethod_t365 * L_2 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)SPFacebook_OnRequestsLoadComplete_m802_MethodInfo_var };
 		FacebookDelegate_t350 * L_4 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m1529(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPFacebook::OnRequestsLoadComplete(FBResult)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* FBAppRequest_t218_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern TypeInfo* SPFacebook_t214_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t154_il2cpp_TypeInfo_var;
 extern TypeInfo* FBObject_t217_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2416_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2556_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void SPFacebook_OnRequestsLoadComplete_m802 (SPFacebook_t214 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		FBAppRequest_t218_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(174);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
 		SPFacebook_t214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
 		Dictionary_2_t154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(138);
 		FBObject_t217_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(191);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Dictionary_2__ctor_m2416_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Dictionary_2__ctor_m2556_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
-	List_1_t487 * V_1 = {0};
+	List_1_t511 * V_1 = {0};
 	Object_t * V_2 = {0};
-	Enumerator_t539  V_3 = {0};
+	Enumerator_t563  V_3 = {0};
 	FBAppRequest_t218 * V_4 = {0};
 	Dictionary_2_t244 * V_5 = {0};
 	Dictionary_2_t244 * V_6 = {0};
@@ -4614,9 +4614,9 @@ extern "C" void SPFacebook_OnRequestsLoadComplete_m802 (SPFacebook_t214 * __this
 	String_t* V_8 = {0};
 	FBObject_t217 * V_9 = {0};
 	Dictionary_2_t244 * V_10 = {0};
-	List_1_t487 * V_11 = {0};
+	List_1_t511 * V_11 = {0};
 	Object_t * V_12 = {0};
-	Enumerator_t539  V_13 = {0};
+	Enumerator_t563  V_13 = {0};
 	Dictionary_2_t244 * V_14 = {0};
 	String_t* V_15 = {0};
 	Dictionary_2_t154 * V_16 = {0};
@@ -4645,13 +4645,13 @@ extern "C" void SPFacebook_OnRequestsLoadComplete_m802 (SPFacebook_t214 * __this
 		Dictionary_2_t244 * L_5 = V_0;
 		NullCheck(L_5);
 		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_5, (String_t*) &_stringLiteral52);
-		V_1 = ((List_1_t487 *)IsInst(L_6, List_1_t487_il2cpp_TypeInfo_var));
+		V_1 = ((List_1_t511 *)IsInst(L_6, List_1_t511_il2cpp_TypeInfo_var));
 		List_1_t206 * L_7 = SPFacebook_get_AppRequests_m829(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		VirtActionInvoker0::Invoke(23 /* System.Void System.Collections.Generic.List`1<FBAppRequest>::Clear() */, L_7);
-		List_1_t487 * L_8 = V_1;
+		List_1_t511 * L_8 = V_1;
 		NullCheck(L_8);
-		Enumerator_t539  L_9 = List_1_GetEnumerator_m2444(L_8, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_9 = List_1_GetEnumerator_m2584(L_8, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_3 = L_9;
 	}
 
@@ -4664,7 +4664,7 @@ IL_003f:
 
 IL_0044:
 		{
-			Object_t * L_10 = Enumerator_get_Current_m2445((&V_3), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_10 = Enumerator_get_Current_m2585((&V_3), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_2 = L_10;
 			FBAppRequest_t218 * L_11 = (FBAppRequest_t218 *)il2cpp_codegen_object_new (FBAppRequest_t218_il2cpp_TypeInfo_var);
 			FBAppRequest__ctor_m878(L_11, /*hidden argument*/NULL);
@@ -4680,7 +4680,7 @@ IL_0044:
 			NullCheck(L_16);
 			Object_t * L_17 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_16, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_18 = Convert_ToString_m2443(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+			String_t* L_18 = Convert_ToString_m2583(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 			NullCheck(L_15);
 			L_15->___ApplicationId_1 = L_18;
 			FBAppRequest_t218 * L_19 = V_4;
@@ -4712,28 +4712,28 @@ IL_00a1:
 			NullCheck(L_26);
 			Object_t * L_27 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_26, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_28 = Convert_ToString_m2443(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+			String_t* L_28 = Convert_ToString_m2583(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 			NullCheck(L_25);
 			L_25->___FromId_5 = L_28;
 			FBAppRequest_t218 * L_29 = V_4;
 			Dictionary_2_t244 * L_30 = V_7;
 			NullCheck(L_30);
 			Object_t * L_31 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_30, (String_t*) &_stringLiteral337);
-			String_t* L_32 = Convert_ToString_m2443(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+			String_t* L_32 = Convert_ToString_m2583(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 			NullCheck(L_29);
 			L_29->___FromName_6 = L_32;
 			FBAppRequest_t218 * L_33 = V_4;
 			Dictionary_2_t244 * L_34 = V_5;
 			NullCheck(L_34);
 			Object_t * L_35 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_34, (String_t*) &_stringLiteral51);
-			String_t* L_36 = Convert_ToString_m2443(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+			String_t* L_36 = Convert_ToString_m2583(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 			NullCheck(L_33);
 			L_33->___Id_0 = L_36;
 			FBAppRequest_t218 * L_37 = V_4;
 			Dictionary_2_t244 * L_38 = V_5;
 			NullCheck(L_38);
 			Object_t * L_39 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_38, (String_t*) &_stringLiteral338);
-			String_t* L_40 = Convert_ToString_m2443(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+			String_t* L_40 = Convert_ToString_m2583(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 			NullCheck(L_37);
 			FBAppRequest_SetCreatedTime_m879(L_37, L_40, /*hidden argument*/NULL);
 			Dictionary_2_t244 * L_41 = V_5;
@@ -4752,7 +4752,7 @@ IL_0125:
 			NullCheck(L_44);
 			Object_t * L_45 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_44, (String_t*) &_stringLiteral52);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_46 = Convert_ToString_m2443(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+			String_t* L_46 = Convert_ToString_m2583(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
 			NullCheck(L_43);
 			L_43->___Data_9 = L_46;
 		}
@@ -4775,7 +4775,7 @@ IL_014e:
 			NullCheck(L_50);
 			Object_t * L_51 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_50, (String_t*) &_stringLiteral55);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_52 = Convert_ToString_m2443(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
+			String_t* L_52 = Convert_ToString_m2583(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
 			NullCheck(L_49);
 			L_49->___Message_2 = L_52;
 		}
@@ -4798,7 +4798,7 @@ IL_0177:
 			NullCheck(L_56);
 			Object_t * L_57 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_56, (String_t*) &_stringLiteral55);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_58 = Convert_ToString_m2443(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
+			String_t* L_58 = Convert_ToString_m2583(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
 			NullCheck(L_55);
 			L_55->___Message_2 = L_58;
 		}
@@ -4820,7 +4820,7 @@ IL_01a0:
 			NullCheck(L_61);
 			Object_t * L_62 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_61, (String_t*) &_stringLiteral339);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_63 = Convert_ToString_m2443(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
+			String_t* L_63 = Convert_ToString_m2583(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
 			V_8 = L_63;
 			String_t* L_64 = V_8;
 			V_15 = L_64;
@@ -4843,7 +4843,7 @@ IL_01be:
 IL_01c8:
 		{
 			Dictionary_2_t154 * L_67 = (Dictionary_2_t154 *)il2cpp_codegen_object_new (Dictionary_2_t154_il2cpp_TypeInfo_var);
-			Dictionary_2__ctor_m2416(L_67, 3, /*hidden argument*/Dictionary_2__ctor_m2416_MethodInfo_var);
+			Dictionary_2__ctor_m2556(L_67, 3, /*hidden argument*/Dictionary_2__ctor_m2556_MethodInfo_var);
 			V_16 = L_67;
 			Dictionary_2_t154 * L_68 = V_16;
 			NullCheck(L_68);
@@ -4941,28 +4941,28 @@ IL_0261:
 			NullCheck(L_85);
 			Object_t * L_86 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_85, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_87 = Convert_ToString_m2443(NULL /*static, unused*/, L_86, /*hidden argument*/NULL);
+			String_t* L_87 = Convert_ToString_m2583(NULL /*static, unused*/, L_86, /*hidden argument*/NULL);
 			NullCheck(L_84);
 			L_84->___Id_0 = L_87;
 			FBObject_t217 * L_88 = V_9;
 			Dictionary_2_t244 * L_89 = V_10;
 			NullCheck(L_89);
 			Object_t * L_90 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_89, (String_t*) &_stringLiteral51);
-			String_t* L_91 = Convert_ToString_m2443(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
+			String_t* L_91 = Convert_ToString_m2583(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
 			NullCheck(L_88);
 			L_88->___Title_2 = L_91;
 			FBObject_t217 * L_92 = V_9;
 			Dictionary_2_t244 * L_93 = V_10;
 			NullCheck(L_93);
 			Object_t * L_94 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_93, (String_t*) &_stringLiteral51);
-			String_t* L_95 = Convert_ToString_m2443(NULL /*static, unused*/, L_94, /*hidden argument*/NULL);
+			String_t* L_95 = Convert_ToString_m2583(NULL /*static, unused*/, L_94, /*hidden argument*/NULL);
 			NullCheck(L_92);
 			L_92->___Type_3 = L_95;
 			FBObject_t217 * L_96 = V_9;
 			Dictionary_2_t244 * L_97 = V_10;
 			NullCheck(L_97);
 			Object_t * L_98 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_97, (String_t*) &_stringLiteral338);
-			String_t* L_99 = Convert_ToString_m2443(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
+			String_t* L_99 = Convert_ToString_m2583(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
 			NullCheck(L_96);
 			FBObject_SetCreatedTime_m886(L_96, L_99, /*hidden argument*/NULL);
 			Dictionary_2_t244 * L_100 = V_10;
@@ -4979,14 +4979,14 @@ IL_02ec:
 			Dictionary_2_t244 * L_102 = V_10;
 			NullCheck(L_102);
 			Object_t * L_103 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_102, (String_t*) &_stringLiteral122);
-			V_11 = ((List_1_t487 *)IsInst(L_103, List_1_t487_il2cpp_TypeInfo_var));
+			V_11 = ((List_1_t511 *)IsInst(L_103, List_1_t511_il2cpp_TypeInfo_var));
 			Dictionary_2_t244 * L_104 = V_10;
 			NullCheck(L_104);
 			Object_t * L_105 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_104, (String_t*) &_stringLiteral122);
-			Debug_Log_m2322(NULL /*static, unused*/, L_105, /*hidden argument*/NULL);
-			List_1_t487 * L_106 = V_11;
+			Debug_Log_m2462(NULL /*static, unused*/, L_105, /*hidden argument*/NULL);
+			List_1_t511 * L_106 = V_11;
 			NullCheck(L_106);
-			Enumerator_t539  L_107 = List_1_GetEnumerator_m2444(L_106, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+			Enumerator_t563  L_107 = List_1_GetEnumerator_m2584(L_106, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 			V_13 = L_107;
 		}
 
@@ -4999,7 +4999,7 @@ IL_0319:
 
 IL_031e:
 			{
-				Object_t * L_108 = Enumerator_get_Current_m2445((&V_13), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+				Object_t * L_108 = Enumerator_get_Current_m2585((&V_13), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 				V_12 = L_108;
 				Object_t * L_109 = V_12;
 				V_14 = ((Dictionary_2_t244 *)IsInst(L_109, Dictionary_2_t244_il2cpp_TypeInfo_var));
@@ -5008,14 +5008,14 @@ IL_031e:
 				NullCheck(L_111);
 				Object_t * L_112 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_111, (String_t*) &_stringLiteral344);
 				IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-				String_t* L_113 = Convert_ToString_m2443(NULL /*static, unused*/, L_112, /*hidden argument*/NULL);
+				String_t* L_113 = Convert_ToString_m2583(NULL /*static, unused*/, L_112, /*hidden argument*/NULL);
 				NullCheck(L_110);
 				FBObject_AddImageUrl_m887(L_110, L_113, /*hidden argument*/NULL);
 			}
 
 IL_0348:
 			{
-				bool L_114 = Enumerator_MoveNext_m2446((&V_13), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+				bool L_114 = Enumerator_MoveNext_m2586((&V_13), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 				if (L_114)
 				{
 					goto IL_031e;
@@ -5035,9 +5035,9 @@ IL_0354:
 
 FINALLY_0359:
 		{ // begin finally (depth: 2)
-			Enumerator_t539  L_115 = V_13;
-			Enumerator_t539  L_116 = L_115;
-			Object_t * L_117 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_116);
+			Enumerator_t563  L_115 = V_13;
+			Enumerator_t563  L_116 = L_115;
+			Object_t * L_117 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_116);
 			NullCheck(L_117);
 			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_117);
 			IL2CPP_END_FINALLY(857)
@@ -5066,7 +5066,7 @@ IL_036f:
 
 IL_037c:
 		{
-			bool L_122 = Enumerator_MoveNext_m2446((&V_3), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_122 = Enumerator_MoveNext_m2586((&V_3), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_122)
 			{
 				goto IL_0044;
@@ -5086,9 +5086,9 @@ IL_0388:
 
 FINALLY_038d:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_123 = V_3;
-		Enumerator_t539  L_124 = L_123;
-		Object_t * L_125 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_124);
+		Enumerator_t563  L_123 = V_3;
+		Enumerator_t563  L_124 = L_123;
+		Object_t * L_125 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_124);
 		NullCheck(L_125);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_125);
 		IL2CPP_END_FINALLY(909)
@@ -5107,20 +5107,20 @@ IL_0399:
 		int32_t L_128 = L_127;
 		Object_t * L_129 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_128);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_130 = String_Concat_m2448(NULL /*static, unused*/, (String_t*) &_stringLiteral345, L_129, (String_t*) &_stringLiteral346, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_130, /*hidden argument*/NULL);
+		String_t* L_130 = String_Concat_m2588(NULL /*static, unused*/, (String_t*) &_stringLiteral345, L_129, (String_t*) &_stringLiteral346, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_130, /*hidden argument*/NULL);
 		goto IL_03dc;
 	}
 
 IL_03c2:
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral347, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral347, /*hidden argument*/NULL);
 		FBResult_t213 * L_131 = ___result;
 		NullCheck(L_131);
 		String_t* L_132 = FBResult_get_Error_m1557(L_131, /*hidden argument*/NULL);
 		NullCheck(L_132);
 		String_t* L_133 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.String::ToString() */, L_132);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_133, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_133, /*hidden argument*/NULL);
 	}
 
 IL_03dc:
@@ -5159,7 +5159,7 @@ extern "C" void SPFacebook_LoadPlayerScores_m803 (SPFacebook_t214 * __this, cons
 		HttpMethod_t365 * L_2 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)SPFacebook_OnLoaPlayrScoresComplete_m836_MethodInfo_var };
 		FacebookDelegate_t350 * L_4 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m1529(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -5191,13 +5191,13 @@ extern "C" void SPFacebook_LoadAppScores_m804 (SPFacebook_t214 * __this, const M
 		HttpMethod_t365 * L_2 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)SPFacebook_OnAppScoresComplete_m833_MethodInfo_var };
 		FacebookDelegate_t350 * L_4 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m1529(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPFacebook::SubmitScore(System.Int32)
-extern TypeInfo* ObjectU5BU5D_t485_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t509_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
@@ -5209,7 +5209,7 @@ extern "C" void SPFacebook_SubmitScore_m805 (SPFacebook_t214 * __this, int32_t _
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ObjectU5BU5D_t485_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(90);
+		ObjectU5BU5D_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(90);
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
@@ -5221,24 +5221,24 @@ extern "C" void SPFacebook_SubmitScore_m805 (SPFacebook_t214 * __this, int32_t _
 	{
 		int32_t L_0 = ___score;
 		__this->___lastSubmitedScore_11 = L_0;
-		ObjectU5BU5D_t485* L_1 = ((ObjectU5BU5D_t485*)SZArrayNew(ObjectU5BU5D_t485_il2cpp_TypeInfo_var, 4));
+		ObjectU5BU5D_t509* L_1 = ((ObjectU5BU5D_t509*)SZArrayNew(ObjectU5BU5D_t509_il2cpp_TypeInfo_var, 4));
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral334);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)(String_t*) &_stringLiteral334;
-		ObjectU5BU5D_t485* L_2 = L_1;
+		ObjectU5BU5D_t509* L_2 = L_1;
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		String_t* L_3 = FB_get_UserId_m1515(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)L_3;
-		ObjectU5BU5D_t485* L_4 = L_2;
+		ObjectU5BU5D_t509* L_4 = L_2;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
 		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral349);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 2)) = (Object_t *)(String_t*) &_stringLiteral349;
-		ObjectU5BU5D_t485* L_5 = L_4;
+		ObjectU5BU5D_t509* L_5 = L_4;
 		int32_t L_6 = ___score;
 		int32_t L_7 = L_6;
 		Object_t * L_8 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_7);
@@ -5247,12 +5247,12 @@ extern "C" void SPFacebook_SubmitScore_m805 (SPFacebook_t214 * __this, int32_t _
 		ArrayElementTypeCheck (L_5, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 3)) = (Object_t *)L_8;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Concat_m2449(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		String_t* L_9 = String_Concat_m2589(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(HttpMethod_t365_il2cpp_TypeInfo_var);
 		HttpMethod_t365 * L_10 = HttpMethod_get_POST_m1748(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_11 = { (void*)SPFacebook_OnScoreSubmited_m832_MethodInfo_var };
 		FacebookDelegate_t350 * L_12 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_12, __this, L_11, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_12, __this, L_11, /*hidden argument*/NULL);
 		FB_API_m1529(NULL /*static, unused*/, L_9, L_10, L_12, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -5284,7 +5284,7 @@ extern "C" void SPFacebook_DeletePlayerScores_m806 (SPFacebook_t214 * __this, co
 		HttpMethod_t365 * L_2 = HttpMethod_get_DELETE_m1749(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)SPFacebook_OnScoreDeleted_m831_MethodInfo_var };
 		FacebookDelegate_t350 * L_4 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m1529(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -5307,14 +5307,14 @@ extern "C" void SPFacebook_LoadCurrentUserLikes_m807 (SPFacebook_t214 * __this, 
 	}
 }
 // System.Void SPFacebook::LoadLikes(System.String)
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_OnUserLikesResult_m830_MethodInfo_var;
 extern "C" void SPFacebook_LoadLikes_m808 (SPFacebook_t214 * __this, String_t* ___userId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		SPFacebook_OnUserLikesResult_m830_MethodInfo_var = il2cpp_codegen_method_info_from_index(127);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5324,10 +5324,10 @@ extern "C" void SPFacebook_LoadLikes_m808 (SPFacebook_t214 * __this, String_t* _
 		V_0 = L_0;
 		FBLikesRetrieveTask_t228 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)SPFacebook_OnUserLikesResult_m830_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		FBLikesRetrieveTask_t228 * L_4 = V_0;
 		String_t* L_5 = ___userId;
 		NullCheck(L_4);
@@ -5336,14 +5336,14 @@ extern "C" void SPFacebook_LoadLikes_m808 (SPFacebook_t214 * __this, String_t* _
 	}
 }
 // System.Void SPFacebook::LoadLikes(System.String,System.String)
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_OnUserLikesResult_m830_MethodInfo_var;
 extern "C" void SPFacebook_LoadLikes_m809 (SPFacebook_t214 * __this, String_t* ___userId, String_t* ___pageId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		SPFacebook_OnUserLikesResult_m830_MethodInfo_var = il2cpp_codegen_method_info_from_index(127);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5353,10 +5353,10 @@ extern "C" void SPFacebook_LoadLikes_m809 (SPFacebook_t214 * __this, String_t* _
 		V_0 = L_0;
 		FBLikesRetrieveTask_t228 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)SPFacebook_OnUserLikesResult_m830_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		FBLikesRetrieveTask_t228 * L_4 = V_0;
 		String_t* L_5 = ___userId;
 		String_t* L_6 = ___pageId;
@@ -5366,24 +5366,24 @@ extern "C" void SPFacebook_LoadLikes_m809 (SPFacebook_t214 * __this, String_t* _
 	}
 }
 // System.Void SPFacebook::Pay(System.String,System.Int32)
-extern TypeInfo* Nullable_1_t493_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t517_il2cpp_TypeInfo_var;
 extern "C" void SPFacebook_Pay_m810 (SPFacebook_t214 * __this, String_t* ___product, int32_t ___quantity, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1_t493_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
+		Nullable_1_t517_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
 		s_Il2CppMethodIntialized = true;
 	}
-	Nullable_1_t493  V_0 = {0};
-	Nullable_1_t493  V_1 = {0};
+	Nullable_1_t517  V_0 = {0};
+	Nullable_1_t517  V_1 = {0};
 	{
 		String_t* L_0 = ___product;
 		int32_t L_1 = ___quantity;
-		Initobj (Nullable_1_t493_il2cpp_TypeInfo_var, (&V_0));
-		Nullable_1_t493  L_2 = V_0;
-		Initobj (Nullable_1_t493_il2cpp_TypeInfo_var, (&V_1));
-		Nullable_1_t493  L_3 = V_1;
+		Initobj (Nullable_1_t517_il2cpp_TypeInfo_var, (&V_0));
+		Nullable_1_t517  L_2 = V_0;
+		Initobj (Nullable_1_t517_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t517  L_3 = V_1;
 		SPFacebook_Pay_m811(__this, L_0, (String_t*) &_stringLiteral76, L_1, L_2, L_3, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -5391,7 +5391,7 @@ extern "C" void SPFacebook_Pay_m810 (SPFacebook_t214 * __this, String_t* ___prod
 // System.Void SPFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String)
 extern TypeInfo* FacebookDelegate_t350_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_FBPaymentCallBack_m848_MethodInfo_var;
-extern "C" void SPFacebook_Pay_m811 (SPFacebook_t214 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t493  ___quantityMin, Nullable_1_t493  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, const MethodInfo* method)
+extern "C" void SPFacebook_Pay_m811 (SPFacebook_t214 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t517  ___quantityMin, Nullable_1_t517  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5404,14 +5404,14 @@ extern "C" void SPFacebook_Pay_m811 (SPFacebook_t214 * __this, String_t* ___prod
 		String_t* L_0 = ___product;
 		String_t* L_1 = ___action;
 		int32_t L_2 = ___quantity;
-		Nullable_1_t493  L_3 = ___quantityMin;
-		Nullable_1_t493  L_4 = ___quantityMax;
+		Nullable_1_t517  L_3 = ___quantityMin;
+		Nullable_1_t517  L_4 = ___quantityMax;
 		String_t* L_5 = ___requestId;
 		String_t* L_6 = ___pricepointId;
 		String_t* L_7 = ___testCurrency;
 		IntPtr_t L_8 = { (void*)SPFacebook_FBPaymentCallBack_m848_MethodInfo_var };
 		FacebookDelegate_t350 * L_9 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_9, __this, L_8, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_9, __this, L_8, /*hidden argument*/NULL);
 		Canvas_Pay_m1506(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_9, /*hidden argument*/NULL);
 		return;
 	}
@@ -5534,32 +5534,32 @@ IL_001e:
 	}
 }
 // System.Collections.Generic.List`1<FBLikeInfo> SPFacebook::GerUserLikesList(System.String)
-extern TypeInfo* List_1_t492_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t541_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t516_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t565_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2450_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2451_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2452_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2453_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2454_MethodInfo_var;
-extern "C" List_1_t492 * SPFacebook_GerUserLikesList_m816 (SPFacebook_t214 * __this, String_t* ___userId, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m2590_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2591_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2592_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2593_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2594_MethodInfo_var;
+extern "C" List_1_t516 * SPFacebook_GerUserLikesList_m816 (SPFacebook_t214 * __this, String_t* ___userId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t492_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
-		Enumerator_t541_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(193);
+		List_1_t516_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		Enumerator_t565_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(193);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1__ctor_m2450_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483777);
-		Dictionary_2_GetEnumerator_m2451_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483778);
-		Enumerator_get_Current_m2452_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483779);
-		KeyValuePair_2_get_Value_m2453_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483780);
-		Enumerator_MoveNext_m2454_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483781);
+		List_1__ctor_m2590_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483777);
+		Dictionary_2_GetEnumerator_m2591_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483778);
+		Enumerator_get_Current_m2592_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483779);
+		KeyValuePair_2_get_Value_m2593_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483780);
+		Enumerator_MoveNext_m2594_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483781);
 		s_Il2CppMethodIntialized = true;
 	}
-	List_1_t492 * V_0 = {0};
-	KeyValuePair_2_t540  V_1 = {0};
-	Enumerator_t541  V_2 = {0};
+	List_1_t516 * V_0 = {0};
+	KeyValuePair_2_t564  V_1 = {0};
+	Enumerator_t565  V_2 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -5567,8 +5567,8 @@ extern "C" List_1_t492 * SPFacebook_GerUserLikesList_m816 (SPFacebook_t214 * __t
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		List_1_t492 * L_0 = (List_1_t492 *)il2cpp_codegen_object_new (List_1_t492_il2cpp_TypeInfo_var);
-		List_1__ctor_m2450(L_0, /*hidden argument*/List_1__ctor_m2450_MethodInfo_var);
+		List_1_t516 * L_0 = (List_1_t516 *)il2cpp_codegen_object_new (List_1_t516_il2cpp_TypeInfo_var);
+		List_1__ctor_m2590(L_0, /*hidden argument*/List_1__ctor_m2590_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t205 * L_1 = (__this->____likes_12);
 		String_t* L_2 = ___userId;
@@ -5583,9 +5583,9 @@ extern "C" List_1_t492 * SPFacebook_GerUserLikesList_m816 (SPFacebook_t214 * __t
 		Dictionary_2_t205 * L_4 = (__this->____likes_12);
 		String_t* L_5 = ___userId;
 		NullCheck(L_4);
-		Dictionary_2_t542 * L_6 = (Dictionary_2_t542 *)VirtFuncInvoker1< Dictionary_2_t542 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_4, L_5);
+		Dictionary_2_t566 * L_6 = (Dictionary_2_t566 *)VirtFuncInvoker1< Dictionary_2_t566 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
-		Enumerator_t541  L_7 = Dictionary_2_GetEnumerator_m2451(L_6, /*hidden argument*/Dictionary_2_GetEnumerator_m2451_MethodInfo_var);
+		Enumerator_t565  L_7 = Dictionary_2_GetEnumerator_m2591(L_6, /*hidden argument*/Dictionary_2_GetEnumerator_m2591_MethodInfo_var);
 		V_2 = L_7;
 	}
 
@@ -5598,17 +5598,17 @@ IL_0029:
 
 IL_002e:
 		{
-			KeyValuePair_2_t540  L_8 = Enumerator_get_Current_m2452((&V_2), /*hidden argument*/Enumerator_get_Current_m2452_MethodInfo_var);
+			KeyValuePair_2_t564  L_8 = Enumerator_get_Current_m2592((&V_2), /*hidden argument*/Enumerator_get_Current_m2592_MethodInfo_var);
 			V_1 = L_8;
-			List_1_t492 * L_9 = V_0;
-			FBLikeInfo_t221 * L_10 = KeyValuePair_2_get_Value_m2453((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2453_MethodInfo_var);
+			List_1_t516 * L_9 = V_0;
+			FBLikeInfo_t221 * L_10 = KeyValuePair_2_get_Value_m2593((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2593_MethodInfo_var);
 			NullCheck(L_9);
 			VirtActionInvoker1< FBLikeInfo_t221 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<FBLikeInfo>::Add(!0) */, L_9, L_10);
 		}
 
 IL_0043:
 		{
-			bool L_11 = Enumerator_MoveNext_m2454((&V_2), /*hidden argument*/Enumerator_MoveNext_m2454_MethodInfo_var);
+			bool L_11 = Enumerator_MoveNext_m2594((&V_2), /*hidden argument*/Enumerator_MoveNext_m2594_MethodInfo_var);
 			if (L_11)
 			{
 				goto IL_002e;
@@ -5628,9 +5628,9 @@ IL_004f:
 
 FINALLY_0054:
 	{ // begin finally (depth: 1)
-		Enumerator_t541  L_12 = V_2;
-		Enumerator_t541  L_13 = L_12;
-		Object_t * L_14 = Box(Enumerator_t541_il2cpp_TypeInfo_var, &L_13);
+		Enumerator_t565  L_12 = V_2;
+		Enumerator_t565  L_13 = L_12;
+		Object_t * L_14 = Box(Enumerator_t565_il2cpp_TypeInfo_var, &L_13);
 		NullCheck(L_14);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_14);
 		IL2CPP_END_FINALLY(84)
@@ -5643,7 +5643,7 @@ FINALLY_0054:
 
 IL_0060:
 	{
-		List_1_t492 * L_15 = V_0;
+		List_1_t516 * L_15 = V_0;
 		return L_15;
 	}
 }
@@ -5664,7 +5664,7 @@ extern "C" bool SPFacebook_IsUserLikesPage_m817 (SPFacebook_t214 * __this, Strin
 		Dictionary_2_t205 * L_3 = (__this->____likes_12);
 		String_t* L_4 = ___userId;
 		NullCheck(L_3);
-		Dictionary_2_t542 * L_5 = (Dictionary_2_t542 *)VirtFuncInvoker1< Dictionary_2_t542 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_3, L_4);
+		Dictionary_2_t566 * L_5 = (Dictionary_2_t566 *)VirtFuncInvoker1< Dictionary_2_t566 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_3, L_4);
 		String_t* L_6 = ___pageId;
 		NullCheck(L_5);
 		bool L_7 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(33 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::ContainsKey(!0) */, L_5, L_6);
@@ -5756,31 +5756,31 @@ extern "C" Dictionary_2_t203 * SPFacebook_get_friends_m823 (SPFacebook_t214 * __
 }
 // System.Collections.Generic.List`1<System.String> SPFacebook::get_friendsIds()
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t544_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t568_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2336_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2455_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2456_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m2457_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2458_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2476_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2595_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2596_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m2597_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2598_MethodInfo_var;
 extern "C" List_1_t73 * SPFacebook_get_friendsIds_m824 (SPFacebook_t214 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
-		Enumerator_t544_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
+		Enumerator_t568_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1__ctor_m2336_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
-		Dictionary_2_GetEnumerator_m2455_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483782);
-		Enumerator_get_Current_m2456_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483783);
-		KeyValuePair_2_get_Key_m2457_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483784);
-		Enumerator_MoveNext_m2458_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483785);
+		List_1__ctor_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
+		Dictionary_2_GetEnumerator_m2595_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483782);
+		Enumerator_get_Current_m2596_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483783);
+		KeyValuePair_2_get_Key_m2597_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483784);
+		Enumerator_MoveNext_m2598_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483785);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t73 * V_0 = {0};
-	KeyValuePair_2_t543  V_1 = {0};
-	Enumerator_t544  V_2 = {0};
+	KeyValuePair_2_t567  V_1 = {0};
+	Enumerator_t568  V_2 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -5801,11 +5801,11 @@ extern "C" List_1_t73 * SPFacebook_get_friendsIds_m824 (SPFacebook_t214 * __this
 IL_000d:
 	{
 		List_1_t73 * L_1 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_1, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_1, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t203 * L_2 = (__this->____friends_7);
 		NullCheck(L_2);
-		Enumerator_t544  L_3 = Dictionary_2_GetEnumerator_m2455(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m2455_MethodInfo_var);
+		Enumerator_t568  L_3 = Dictionary_2_GetEnumerator_m2595(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m2595_MethodInfo_var);
 		V_2 = L_3;
 	}
 
@@ -5818,17 +5818,17 @@ IL_001f:
 
 IL_0024:
 		{
-			KeyValuePair_2_t543  L_4 = Enumerator_get_Current_m2456((&V_2), /*hidden argument*/Enumerator_get_Current_m2456_MethodInfo_var);
+			KeyValuePair_2_t567  L_4 = Enumerator_get_Current_m2596((&V_2), /*hidden argument*/Enumerator_get_Current_m2596_MethodInfo_var);
 			V_1 = L_4;
 			List_1_t73 * L_5 = V_0;
-			String_t* L_6 = KeyValuePair_2_get_Key_m2457((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m2457_MethodInfo_var);
+			String_t* L_6 = KeyValuePair_2_get_Key_m2597((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m2597_MethodInfo_var);
 			NullCheck(L_5);
 			VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_5, L_6);
 		}
 
 IL_0039:
 		{
-			bool L_7 = Enumerator_MoveNext_m2458((&V_2), /*hidden argument*/Enumerator_MoveNext_m2458_MethodInfo_var);
+			bool L_7 = Enumerator_MoveNext_m2598((&V_2), /*hidden argument*/Enumerator_MoveNext_m2598_MethodInfo_var);
 			if (L_7)
 			{
 				goto IL_0024;
@@ -5848,9 +5848,9 @@ IL_0045:
 
 FINALLY_004a:
 	{ // begin finally (depth: 1)
-		Enumerator_t544  L_8 = V_2;
-		Enumerator_t544  L_9 = L_8;
-		Object_t * L_10 = Box(Enumerator_t544_il2cpp_TypeInfo_var, &L_9);
+		Enumerator_t568  L_8 = V_2;
+		Enumerator_t568  L_9 = L_8;
+		Object_t * L_10 = Box(Enumerator_t568_il2cpp_TypeInfo_var, &L_9);
 		NullCheck(L_10);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_10);
 		IL2CPP_END_FINALLY(74)
@@ -5868,32 +5868,32 @@ IL_0056:
 	}
 }
 // System.Collections.Generic.List`1<FacebookUserInfo> SPFacebook::get_friendsList()
-extern TypeInfo* List_1_t490_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t544_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t514_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t568_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2459_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2455_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2456_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2460_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2458_MethodInfo_var;
-extern "C" List_1_t490 * SPFacebook_get_friendsList_m825 (SPFacebook_t214 * __this, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m2599_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2595_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2596_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2600_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2598_MethodInfo_var;
+extern "C" List_1_t514 * SPFacebook_get_friendsList_m825 (SPFacebook_t214 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t490_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
-		Enumerator_t544_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
+		List_1_t514_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
+		Enumerator_t568_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1__ctor_m2459_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483786);
-		Dictionary_2_GetEnumerator_m2455_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483782);
-		Enumerator_get_Current_m2456_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483783);
-		KeyValuePair_2_get_Value_m2460_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483787);
-		Enumerator_MoveNext_m2458_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483785);
+		List_1__ctor_m2599_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483786);
+		Dictionary_2_GetEnumerator_m2595_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483782);
+		Enumerator_get_Current_m2596_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483783);
+		KeyValuePair_2_get_Value_m2600_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483787);
+		Enumerator_MoveNext_m2598_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483785);
 		s_Il2CppMethodIntialized = true;
 	}
-	List_1_t490 * V_0 = {0};
-	KeyValuePair_2_t543  V_1 = {0};
-	Enumerator_t544  V_2 = {0};
+	List_1_t514 * V_0 = {0};
+	KeyValuePair_2_t567  V_1 = {0};
+	Enumerator_t568  V_2 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -5908,17 +5908,17 @@ extern "C" List_1_t490 * SPFacebook_get_friendsList_m825 (SPFacebook_t214 * __th
 		}
 	}
 	{
-		return (List_1_t490 *)NULL;
+		return (List_1_t514 *)NULL;
 	}
 
 IL_000d:
 	{
-		List_1_t490 * L_1 = (List_1_t490 *)il2cpp_codegen_object_new (List_1_t490_il2cpp_TypeInfo_var);
-		List_1__ctor_m2459(L_1, /*hidden argument*/List_1__ctor_m2459_MethodInfo_var);
+		List_1_t514 * L_1 = (List_1_t514 *)il2cpp_codegen_object_new (List_1_t514_il2cpp_TypeInfo_var);
+		List_1__ctor_m2599(L_1, /*hidden argument*/List_1__ctor_m2599_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t203 * L_2 = (__this->____friends_7);
 		NullCheck(L_2);
-		Enumerator_t544  L_3 = Dictionary_2_GetEnumerator_m2455(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m2455_MethodInfo_var);
+		Enumerator_t568  L_3 = Dictionary_2_GetEnumerator_m2595(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m2595_MethodInfo_var);
 		V_2 = L_3;
 	}
 
@@ -5931,17 +5931,17 @@ IL_001f:
 
 IL_0024:
 		{
-			KeyValuePair_2_t543  L_4 = Enumerator_get_Current_m2456((&V_2), /*hidden argument*/Enumerator_get_Current_m2456_MethodInfo_var);
+			KeyValuePair_2_t567  L_4 = Enumerator_get_Current_m2596((&V_2), /*hidden argument*/Enumerator_get_Current_m2596_MethodInfo_var);
 			V_1 = L_4;
-			List_1_t490 * L_5 = V_0;
-			FacebookUserInfo_t202 * L_6 = KeyValuePair_2_get_Value_m2460((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2460_MethodInfo_var);
+			List_1_t514 * L_5 = V_0;
+			FacebookUserInfo_t202 * L_6 = KeyValuePair_2_get_Value_m2600((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2600_MethodInfo_var);
 			NullCheck(L_5);
 			VirtActionInvoker1< FacebookUserInfo_t202 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<FacebookUserInfo>::Add(!0) */, L_5, L_6);
 		}
 
 IL_0039:
 		{
-			bool L_7 = Enumerator_MoveNext_m2458((&V_2), /*hidden argument*/Enumerator_MoveNext_m2458_MethodInfo_var);
+			bool L_7 = Enumerator_MoveNext_m2598((&V_2), /*hidden argument*/Enumerator_MoveNext_m2598_MethodInfo_var);
 			if (L_7)
 			{
 				goto IL_0024;
@@ -5961,9 +5961,9 @@ IL_0045:
 
 FINALLY_004a:
 	{ // begin finally (depth: 1)
-		Enumerator_t544  L_8 = V_2;
-		Enumerator_t544  L_9 = L_8;
-		Object_t * L_10 = Box(Enumerator_t544_il2cpp_TypeInfo_var, &L_9);
+		Enumerator_t568  L_8 = V_2;
+		Enumerator_t568  L_9 = L_8;
+		Object_t * L_10 = Box(Enumerator_t568_il2cpp_TypeInfo_var, &L_9);
 		NullCheck(L_10);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_10);
 		IL2CPP_END_FINALLY(74)
@@ -5976,7 +5976,7 @@ FINALLY_004a:
 
 IL_0056:
 	{
-		List_1_t490 * L_11 = V_0;
+		List_1_t514 * L_11 = V_0;
 		return L_11;
 	}
 }
@@ -5997,32 +5997,32 @@ extern "C" Dictionary_2_t204 * SPFacebook_get_appScores_m827 (SPFacebook_t214 * 
 	}
 }
 // System.Collections.Generic.List`1<FBScore> SPFacebook::get_applicationScoreList()
-extern TypeInfo* List_1_t491_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t546_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t515_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t570_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2461_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2462_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2463_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2464_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2465_MethodInfo_var;
-extern "C" List_1_t491 * SPFacebook_get_applicationScoreList_m828 (SPFacebook_t214 * __this, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m2601_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2602_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2603_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2604_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2605_MethodInfo_var;
+extern "C" List_1_t515 * SPFacebook_get_applicationScoreList_m828 (SPFacebook_t214 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t491_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(197);
-		Enumerator_t546_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
+		List_1_t515_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(197);
+		Enumerator_t570_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1__ctor_m2461_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
-		Dictionary_2_GetEnumerator_m2462_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483789);
-		Enumerator_get_Current_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483790);
-		KeyValuePair_2_get_Value_m2464_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483791);
-		Enumerator_MoveNext_m2465_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483792);
+		List_1__ctor_m2601_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
+		Dictionary_2_GetEnumerator_m2602_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483789);
+		Enumerator_get_Current_m2603_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483790);
+		KeyValuePair_2_get_Value_m2604_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483791);
+		Enumerator_MoveNext_m2605_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483792);
 		s_Il2CppMethodIntialized = true;
 	}
-	List_1_t491 * V_0 = {0};
-	KeyValuePair_2_t545  V_1 = {0};
-	Enumerator_t546  V_2 = {0};
+	List_1_t515 * V_0 = {0};
+	KeyValuePair_2_t569  V_1 = {0};
+	Enumerator_t570  V_2 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -6030,12 +6030,12 @@ extern "C" List_1_t491 * SPFacebook_get_applicationScoreList_m828 (SPFacebook_t2
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		List_1_t491 * L_0 = (List_1_t491 *)il2cpp_codegen_object_new (List_1_t491_il2cpp_TypeInfo_var);
-		List_1__ctor_m2461(L_0, /*hidden argument*/List_1__ctor_m2461_MethodInfo_var);
+		List_1_t515 * L_0 = (List_1_t515 *)il2cpp_codegen_object_new (List_1_t515_il2cpp_TypeInfo_var);
+		List_1__ctor_m2601(L_0, /*hidden argument*/List_1__ctor_m2601_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t204 * L_1 = (__this->____appScores_10);
 		NullCheck(L_1);
-		Enumerator_t546  L_2 = Dictionary_2_GetEnumerator_m2462(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m2462_MethodInfo_var);
+		Enumerator_t570  L_2 = Dictionary_2_GetEnumerator_m2602(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m2602_MethodInfo_var);
 		V_2 = L_2;
 	}
 
@@ -6048,17 +6048,17 @@ IL_0012:
 
 IL_0017:
 		{
-			KeyValuePair_2_t545  L_3 = Enumerator_get_Current_m2463((&V_2), /*hidden argument*/Enumerator_get_Current_m2463_MethodInfo_var);
+			KeyValuePair_2_t569  L_3 = Enumerator_get_Current_m2603((&V_2), /*hidden argument*/Enumerator_get_Current_m2603_MethodInfo_var);
 			V_1 = L_3;
-			List_1_t491 * L_4 = V_0;
-			FBScore_t225 * L_5 = KeyValuePair_2_get_Value_m2464((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2464_MethodInfo_var);
+			List_1_t515 * L_4 = V_0;
+			FBScore_t225 * L_5 = KeyValuePair_2_get_Value_m2604((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2604_MethodInfo_var);
 			NullCheck(L_4);
 			VirtActionInvoker1< FBScore_t225 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<FBScore>::Add(!0) */, L_4, L_5);
 		}
 
 IL_002c:
 		{
-			bool L_6 = Enumerator_MoveNext_m2465((&V_2), /*hidden argument*/Enumerator_MoveNext_m2465_MethodInfo_var);
+			bool L_6 = Enumerator_MoveNext_m2605((&V_2), /*hidden argument*/Enumerator_MoveNext_m2605_MethodInfo_var);
 			if (L_6)
 			{
 				goto IL_0017;
@@ -6078,9 +6078,9 @@ IL_0038:
 
 FINALLY_003d:
 	{ // begin finally (depth: 1)
-		Enumerator_t546  L_7 = V_2;
-		Enumerator_t546  L_8 = L_7;
-		Object_t * L_9 = Box(Enumerator_t546_il2cpp_TypeInfo_var, &L_8);
+		Enumerator_t570  L_7 = V_2;
+		Enumerator_t570  L_8 = L_7;
+		Object_t * L_9 = Box(Enumerator_t570_il2cpp_TypeInfo_var, &L_8);
 		NullCheck(L_9);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_9);
 		IL2CPP_END_FINALLY(61)
@@ -6093,7 +6093,7 @@ FINALLY_003d:
 
 IL_0049:
 	{
-		List_1_t491 * L_10 = V_0;
+		List_1_t515 * L_10 = V_0;
 		return L_10;
 	}
 }
@@ -6107,52 +6107,52 @@ extern "C" List_1_t206 * SPFacebook_get_AppRequests_m829 (SPFacebook_t214 * __th
 }
 // System.Void SPFacebook::OnUserLikesResult(UnionAssets.FLE.CEvent)
 extern TypeInfo* FBLikesRetrieveTask_t228_il2cpp_TypeInfo_var;
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t213_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
-extern TypeInfo* Dictionary_2_t542_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t566_il2cpp_TypeInfo_var;
 extern TypeInfo* FBLikeInfo_t221_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_OnUserLikesResult_m830_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2466_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2606_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void SPFacebook_OnUserLikesResult_m830 (SPFacebook_t214 * __this, CEvent_t91 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		FBLikesRetrieveTask_t228_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(199);
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		FBResult_t213_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
-		Dictionary_2_t542_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		Dictionary_2_t566_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
 		FBLikeInfo_t221_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(173);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		SPFacebook_OnUserLikesResult_m830_MethodInfo_var = il2cpp_codegen_method_info_from_index(127);
-		Dictionary_2__ctor_m2466_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483793);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		Dictionary_2__ctor_m2606_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483793);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBLikesRetrieveTask_t228 * V_0 = {0};
 	FBResult_t213 * V_1 = {0};
 	FB_APIResult_t230 * V_2 = {0};
 	Dictionary_2_t244 * V_3 = {0};
-	List_1_t487 * V_4 = {0};
-	Dictionary_2_t542 * V_5 = {0};
+	List_1_t511 * V_4 = {0};
+	Dictionary_2_t566 * V_5 = {0};
 	Object_t * V_6 = {0};
-	Enumerator_t539  V_7 = {0};
+	Enumerator_t563  V_7 = {0};
 	Dictionary_2_t244 * V_8 = {0};
 	FBLikeInfo_t221 * V_9 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
@@ -6168,10 +6168,10 @@ extern "C" void SPFacebook_OnUserLikesResult_m830 (SPFacebook_t214 * __this, CEv
 		V_0 = ((FBLikesRetrieveTask_t228 *)IsInst(L_1, FBLikesRetrieveTask_t228_il2cpp_TypeInfo_var));
 		FBLikesRetrieveTask_t228 * L_2 = V_0;
 		IntPtr_t L_3 = { (void*)SPFacebook_OnUserLikesResult_m830_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_4 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_4, __this, L_3, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_4 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_4, __this, L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(10 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_2, (String_t*) &_stringLiteral350, L_4);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(10 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_2, (String_t*) &_stringLiteral350, L_4);
 		CEvent_t91 * L_5 = ___e;
 		NullCheck(L_5);
 		Object_t * L_6 = CEvent_get_data_m412(L_5, /*hidden argument*/NULL);
@@ -6214,8 +6214,8 @@ IL_0067:
 		Dictionary_2_t244 * L_20 = V_3;
 		NullCheck(L_20);
 		Object_t * L_21 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_20, (String_t*) &_stringLiteral52);
-		V_4 = ((List_1_t487 *)IsInst(L_21, List_1_t487_il2cpp_TypeInfo_var));
-		V_5 = (Dictionary_2_t542 *)NULL;
+		V_4 = ((List_1_t511 *)IsInst(L_21, List_1_t511_il2cpp_TypeInfo_var));
+		V_5 = (Dictionary_2_t566 *)NULL;
 		Dictionary_2_t205 * L_22 = (__this->____likes_12);
 		FBLikesRetrieveTask_t228 * L_23 = V_0;
 		NullCheck(L_23);
@@ -6233,30 +6233,30 @@ IL_0067:
 		NullCheck(L_27);
 		String_t* L_28 = FBLikesRetrieveTask_get_userId_m931(L_27, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		Dictionary_2_t542 * L_29 = (Dictionary_2_t542 *)VirtFuncInvoker1< Dictionary_2_t542 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_26, L_28);
+		Dictionary_2_t566 * L_29 = (Dictionary_2_t566 *)VirtFuncInvoker1< Dictionary_2_t566 *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(!0) */, L_26, L_28);
 		V_5 = L_29;
 		goto IL_00d5;
 	}
 
 IL_00bb:
 	{
-		Dictionary_2_t542 * L_30 = (Dictionary_2_t542 *)il2cpp_codegen_object_new (Dictionary_2_t542_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2466(L_30, /*hidden argument*/Dictionary_2__ctor_m2466_MethodInfo_var);
+		Dictionary_2_t566 * L_30 = (Dictionary_2_t566 *)il2cpp_codegen_object_new (Dictionary_2_t566_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2606(L_30, /*hidden argument*/Dictionary_2__ctor_m2606_MethodInfo_var);
 		V_5 = L_30;
 		Dictionary_2_t205 * L_31 = (__this->____likes_12);
 		FBLikesRetrieveTask_t228 * L_32 = V_0;
 		NullCheck(L_32);
 		String_t* L_33 = FBLikesRetrieveTask_get_userId_m931(L_32, /*hidden argument*/NULL);
-		Dictionary_2_t542 * L_34 = V_5;
+		Dictionary_2_t566 * L_34 = V_5;
 		NullCheck(L_31);
-		VirtActionInvoker2< String_t*, Dictionary_2_t542 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Add(!0,!1) */, L_31, L_33, L_34);
+		VirtActionInvoker2< String_t*, Dictionary_2_t566 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Add(!0,!1) */, L_31, L_33, L_34);
 	}
 
 IL_00d5:
 	{
-		List_1_t487 * L_35 = V_4;
+		List_1_t511 * L_35 = V_4;
 		NullCheck(L_35);
-		Enumerator_t539  L_36 = List_1_GetEnumerator_m2444(L_35, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_36 = List_1_GetEnumerator_m2584(L_35, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_7 = L_36;
 	}
 
@@ -6269,7 +6269,7 @@ IL_00de:
 
 IL_00e3:
 		{
-			Object_t * L_37 = Enumerator_get_Current_m2445((&V_7), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_37 = Enumerator_get_Current_m2585((&V_7), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_6 = L_37;
 			Object_t * L_38 = V_6;
 			V_8 = ((Dictionary_2_t244 *)IsInst(L_38, Dictionary_2_t244_il2cpp_TypeInfo_var));
@@ -6281,24 +6281,24 @@ IL_00e3:
 			NullCheck(L_41);
 			Object_t * L_42 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_41, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_43 = Convert_ToString_m2443(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+			String_t* L_43 = Convert_ToString_m2583(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 			NullCheck(L_40);
 			L_40->___id_0 = L_43;
 			FBLikeInfo_t221 * L_44 = V_9;
 			Dictionary_2_t244 * L_45 = V_8;
 			NullCheck(L_45);
 			Object_t * L_46 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_45, (String_t*) &_stringLiteral337);
-			String_t* L_47 = Convert_ToString_m2443(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
+			String_t* L_47 = Convert_ToString_m2583(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
 			NullCheck(L_44);
 			L_44->___name_1 = L_47;
 			FBLikeInfo_t221 * L_48 = V_9;
 			Dictionary_2_t244 * L_49 = V_8;
 			NullCheck(L_49);
 			Object_t * L_50 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_49, (String_t*) &_stringLiteral130);
-			String_t* L_51 = Convert_ToString_m2443(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+			String_t* L_51 = Convert_ToString_m2583(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
 			NullCheck(L_48);
 			L_48->___category_2 = L_51;
-			Dictionary_2_t542 * L_52 = V_5;
+			Dictionary_2_t566 * L_52 = V_5;
 			FBLikeInfo_t221 * L_53 = V_9;
 			NullCheck(L_53);
 			String_t* L_54 = (L_53->___id_0);
@@ -6312,7 +6312,7 @@ IL_00e3:
 
 IL_0157:
 		{
-			Dictionary_2_t542 * L_56 = V_5;
+			Dictionary_2_t566 * L_56 = V_5;
 			FBLikeInfo_t221 * L_57 = V_9;
 			NullCheck(L_57);
 			String_t* L_58 = (L_57->___id_0);
@@ -6324,7 +6324,7 @@ IL_0157:
 
 IL_016c:
 		{
-			Dictionary_2_t542 * L_60 = V_5;
+			Dictionary_2_t566 * L_60 = V_5;
 			FBLikeInfo_t221 * L_61 = V_9;
 			NullCheck(L_61);
 			String_t* L_62 = (L_61->___id_0);
@@ -6335,7 +6335,7 @@ IL_016c:
 
 IL_017c:
 		{
-			bool L_64 = Enumerator_MoveNext_m2446((&V_7), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_64 = Enumerator_MoveNext_m2586((&V_7), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_64)
 			{
 				goto IL_00e3;
@@ -6355,9 +6355,9 @@ IL_0188:
 
 FINALLY_018d:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_65 = V_7;
-		Enumerator_t539  L_66 = L_65;
-		Object_t * L_67 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_66);
+		Enumerator_t563  L_65 = V_7;
+		Enumerator_t563  L_66 = L_65;
+		Object_t * L_67 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_66);
 		NullCheck(L_67);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_67);
 		IL2CPP_END_FINALLY(397)
@@ -6761,14 +6761,14 @@ IL_015f:
 // System.Void SPFacebook::OnAppScoresComplete(FBResult)
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* FBScore_t225_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void SPFacebook_OnAppScoresComplete_m833 (SPFacebook_t214 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -6776,21 +6776,21 @@ extern "C" void SPFacebook_OnAppScoresComplete_m833 (SPFacebook_t214 * __this, F
 	{
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		FBScore_t225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
 	Dictionary_2_t244 * V_1 = {0};
-	List_1_t487 * V_2 = {0};
+	List_1_t511 * V_2 = {0};
 	Object_t * V_3 = {0};
-	Enumerator_t539  V_4 = {0};
+	Enumerator_t563  V_4 = {0};
 	FBScore_t225 * V_5 = {0};
 	Dictionary_2_t244 * V_6 = {0};
 	Dictionary_2_t244 * V_7 = {0};
@@ -6840,10 +6840,10 @@ IL_0038:
 		Dictionary_2_t244 * L_13 = V_1;
 		NullCheck(L_13);
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_13, (String_t*) &_stringLiteral52);
-		V_2 = ((List_1_t487 *)IsInst(L_14, List_1_t487_il2cpp_TypeInfo_var));
-		List_1_t487 * L_15 = V_2;
+		V_2 = ((List_1_t511 *)IsInst(L_14, List_1_t511_il2cpp_TypeInfo_var));
+		List_1_t511 * L_15 = V_2;
 		NullCheck(L_15);
-		Enumerator_t539  L_16 = List_1_GetEnumerator_m2444(L_15, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_16 = List_1_GetEnumerator_m2584(L_15, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_4 = L_16;
 	}
 
@@ -6856,7 +6856,7 @@ IL_0062:
 
 IL_0067:
 		{
-			Object_t * L_17 = Enumerator_get_Current_m2445((&V_4), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_17 = Enumerator_get_Current_m2585((&V_4), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_3 = L_17;
 			FBScore_t225 * L_18 = (FBScore_t225 *)il2cpp_codegen_object_new (FBScore_t225_il2cpp_TypeInfo_var);
 			FBScore__ctor_m892(L_18, /*hidden argument*/NULL);
@@ -6872,21 +6872,21 @@ IL_0067:
 			NullCheck(L_23);
 			Object_t * L_24 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_23, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_25 = Convert_ToString_m2443(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+			String_t* L_25 = Convert_ToString_m2583(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 			NullCheck(L_22);
 			L_22->___UserId_0 = L_25;
 			FBScore_t225 * L_26 = V_5;
 			Dictionary_2_t244 * L_27 = V_7;
 			NullCheck(L_27);
 			Object_t * L_28 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_27, (String_t*) &_stringLiteral337);
-			String_t* L_29 = Convert_ToString_m2443(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+			String_t* L_29 = Convert_ToString_m2583(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 			NullCheck(L_26);
 			L_26->___UserName_1 = L_29;
 			FBScore_t225 * L_30 = V_5;
 			Dictionary_2_t244 * L_31 = V_6;
 			NullCheck(L_31);
 			Object_t * L_32 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_31, (String_t*) &_stringLiteral356);
-			int32_t L_33 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+			int32_t L_33 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
 			NullCheck(L_30);
 			L_30->___value_4 = L_33;
 			Dictionary_2_t244 * L_34 = V_6;
@@ -6897,14 +6897,14 @@ IL_0067:
 			Dictionary_2_t244 * L_37 = V_8;
 			NullCheck(L_37);
 			Object_t * L_38 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_37, (String_t*) &_stringLiteral51);
-			String_t* L_39 = Convert_ToString_m2443(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+			String_t* L_39 = Convert_ToString_m2583(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 			NullCheck(L_36);
 			L_36->___AppId_2 = L_39;
 			FBScore_t225 * L_40 = V_5;
 			Dictionary_2_t244 * L_41 = V_8;
 			NullCheck(L_41);
 			Object_t * L_42 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_41, (String_t*) &_stringLiteral337);
-			String_t* L_43 = Convert_ToString_m2443(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+			String_t* L_43 = Convert_ToString_m2583(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 			NullCheck(L_40);
 			L_40->___AppName_3 = L_43;
 			FBScore_t225 * L_44 = V_5;
@@ -6913,7 +6913,7 @@ IL_0067:
 
 IL_0124:
 		{
-			bool L_45 = Enumerator_MoveNext_m2446((&V_4), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_45 = Enumerator_MoveNext_m2586((&V_4), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_45)
 			{
 				goto IL_0067;
@@ -6933,9 +6933,9 @@ IL_0130:
 
 FINALLY_0135:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_46 = V_4;
-		Enumerator_t539  L_47 = L_46;
-		Object_t * L_48 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_47);
+		Enumerator_t563  L_46 = V_4;
+		Enumerator_t563  L_47 = L_46;
+		Object_t * L_48 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_47);
 		NullCheck(L_48);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_48);
 		IL2CPP_END_FINALLY(309)
@@ -7124,14 +7124,14 @@ IL_007e:
 // System.Void SPFacebook::OnLoaPlayrScoresComplete(FBResult)
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* FBScore_t225_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void SPFacebook_OnLoaPlayrScoresComplete_m836 (SPFacebook_t214 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7139,21 +7139,21 @@ extern "C" void SPFacebook_OnLoaPlayrScoresComplete_m836 (SPFacebook_t214 * __th
 	{
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		FBScore_t225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
 	Dictionary_2_t244 * V_1 = {0};
-	List_1_t487 * V_2 = {0};
+	List_1_t511 * V_2 = {0};
 	Object_t * V_3 = {0};
-	Enumerator_t539  V_4 = {0};
+	Enumerator_t563  V_4 = {0};
 	FBScore_t225 * V_5 = {0};
 	Dictionary_2_t244 * V_6 = {0};
 	Dictionary_2_t244 * V_7 = {0};
@@ -7203,10 +7203,10 @@ IL_0038:
 		Dictionary_2_t244 * L_13 = V_1;
 		NullCheck(L_13);
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_13, (String_t*) &_stringLiteral52);
-		V_2 = ((List_1_t487 *)IsInst(L_14, List_1_t487_il2cpp_TypeInfo_var));
-		List_1_t487 * L_15 = V_2;
+		V_2 = ((List_1_t511 *)IsInst(L_14, List_1_t511_il2cpp_TypeInfo_var));
+		List_1_t511 * L_15 = V_2;
 		NullCheck(L_15);
-		Enumerator_t539  L_16 = List_1_GetEnumerator_m2444(L_15, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_16 = List_1_GetEnumerator_m2584(L_15, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_4 = L_16;
 	}
 
@@ -7219,7 +7219,7 @@ IL_0062:
 
 IL_0067:
 		{
-			Object_t * L_17 = Enumerator_get_Current_m2445((&V_4), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_17 = Enumerator_get_Current_m2585((&V_4), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_3 = L_17;
 			FBScore_t225 * L_18 = (FBScore_t225 *)il2cpp_codegen_object_new (FBScore_t225_il2cpp_TypeInfo_var);
 			FBScore__ctor_m892(L_18, /*hidden argument*/NULL);
@@ -7235,21 +7235,21 @@ IL_0067:
 			NullCheck(L_23);
 			Object_t * L_24 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_23, (String_t*) &_stringLiteral51);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_25 = Convert_ToString_m2443(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+			String_t* L_25 = Convert_ToString_m2583(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 			NullCheck(L_22);
 			L_22->___UserId_0 = L_25;
 			FBScore_t225 * L_26 = V_5;
 			Dictionary_2_t244 * L_27 = V_7;
 			NullCheck(L_27);
 			Object_t * L_28 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_27, (String_t*) &_stringLiteral337);
-			String_t* L_29 = Convert_ToString_m2443(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+			String_t* L_29 = Convert_ToString_m2583(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 			NullCheck(L_26);
 			L_26->___UserName_1 = L_29;
 			FBScore_t225 * L_30 = V_5;
 			Dictionary_2_t244 * L_31 = V_6;
 			NullCheck(L_31);
 			Object_t * L_32 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_31, (String_t*) &_stringLiteral356);
-			int32_t L_33 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+			int32_t L_33 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
 			NullCheck(L_30);
 			L_30->___value_4 = L_33;
 			Dictionary_2_t244 * L_34 = V_6;
@@ -7260,14 +7260,14 @@ IL_0067:
 			Dictionary_2_t244 * L_37 = V_8;
 			NullCheck(L_37);
 			Object_t * L_38 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_37, (String_t*) &_stringLiteral51);
-			String_t* L_39 = Convert_ToString_m2443(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+			String_t* L_39 = Convert_ToString_m2583(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 			NullCheck(L_36);
 			L_36->___AppId_2 = L_39;
 			FBScore_t225 * L_40 = V_5;
 			Dictionary_2_t244 * L_41 = V_8;
 			NullCheck(L_41);
 			Object_t * L_42 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_41, (String_t*) &_stringLiteral337);
-			String_t* L_43 = Convert_ToString_m2443(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+			String_t* L_43 = Convert_ToString_m2583(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 			NullCheck(L_40);
 			L_40->___AppName_3 = L_43;
 			FBScore_t225 * L_44 = V_5;
@@ -7276,7 +7276,7 @@ IL_0067:
 
 IL_0124:
 		{
-			bool L_45 = Enumerator_MoveNext_m2446((&V_4), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_45 = Enumerator_MoveNext_m2586((&V_4), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_45)
 			{
 				goto IL_0067;
@@ -7296,9 +7296,9 @@ IL_0130:
 
 FINALLY_0135:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_46 = V_4;
-		Enumerator_t539  L_47 = L_46;
-		Object_t * L_48 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_47);
+		Enumerator_t563  L_46 = V_4;
+		Enumerator_t563  L_47 = L_46;
+		Object_t * L_48 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_47);
 		NullCheck(L_48);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_48);
 		IL2CPP_END_FINALLY(309)
@@ -7337,16 +7337,16 @@ extern "C" void SPFacebook_resultTest_m837 (SPFacebook_t214 * __this, FBResult_t
 		FBResult_t213 * L_0 = ___result;
 		NullCheck(L_0);
 		String_t* L_1 = FBResult_get_Error_m1557(L_0, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		FBResult_t213 * L_2 = ___result;
 		NullCheck(L_2);
 		String_t* L_3 = FBResult_get_Text_m1556(L_2, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPFacebook::OnScoreRequestComplete(UnionAssets.FLE.CEvent)
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPFacebook_OnScoreRequestComplete_m838_MethodInfo_var;
@@ -7355,7 +7355,7 @@ extern "C" void SPFacebook_OnScoreRequestComplete_m838 (SPFacebook_t214 * __this
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		IDispatcher_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		SPFacebook_OnScoreRequestComplete_m838_MethodInfo_var = il2cpp_codegen_method_info_from_index(146);
@@ -7367,10 +7367,10 @@ extern "C" void SPFacebook_OnScoreRequestComplete_m838 (SPFacebook_t214 * __this
 		NullCheck(L_0);
 		Object_t * L_1 = CEvent_get_dispatcher_m414(L_0, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)SPFacebook_OnScoreRequestComplete_m838_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_1, (String_t*) &_stringLiteral350, L_3);
+		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_1, (String_t*) &_stringLiteral350, L_3);
 		CEvent_t91 * L_4 = ___e;
 		NullCheck(L_4);
 		Object_t * L_5 = CEvent_get_data_m412(L_4, /*hidden argument*/NULL);
@@ -7378,7 +7378,7 @@ extern "C" void SPFacebook_OnScoreRequestComplete_m838 (SPFacebook_t214 * __this
 		FB_APIResult_t230 * L_6 = V_0;
 		NullCheck(L_6);
 		String_t* L_7 = FB_APIResult_get_responce_m943(L_6, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7406,7 +7406,7 @@ extern "C" void SPFacebook_PostCallBack_m839 (SPFacebook_t214 * __this, FBResult
 		FBResult_t213 * L_2 = ___result;
 		NullCheck(L_2);
 		String_t* L_3 = FBResult_get_Error_m1557(L_2, /*hidden argument*/NULL);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		FBResult_t213 * L_4 = ___result;
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, __this, (String_t*) &_stringLiteral327, L_4);
 		goto IL_0033;
@@ -7447,7 +7447,7 @@ extern "C" void SPFacebook_FriendsDataCallBack_m840 (SPFacebook_t214 * __this, F
 		FBResult_t213 * L_2 = ___result;
 		NullCheck(L_2);
 		String_t* L_3 = FBResult_get_Error_m1557(L_2, /*hidden argument*/NULL);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		FBResult_t213 * L_4 = ___result;
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, __this, (String_t*) &_stringLiteral325, L_4);
 		goto IL_003f;
@@ -7474,24 +7474,24 @@ IL_003f:
 }
 // System.Void SPFacebook::ParceFriendsData(System.String)
 extern TypeInfo* Dictionary_2_t203_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
-extern TypeInfo* IList_t489_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
+extern TypeInfo* IList_t513_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookUserInfo_t202_il2cpp_TypeInfo_var;
-extern TypeInfo* ICollection_t547_il2cpp_TypeInfo_var;
+extern TypeInfo* ICollection_t571_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t27_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2468_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2608_MethodInfo_var;
 extern "C" void SPFacebook_ParceFriendsData_m841 (SPFacebook_t214 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t203_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(201);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
-		IList_t489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(159);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IList_t513_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(159);
 		FacebookUserInfo_t202_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(194);
-		ICollection_t547_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(202);
+		ICollection_t571_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(202);
 		Exception_t27_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(15);
-		Dictionary_2__ctor_m2468_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483795);
+		Dictionary_2__ctor_m2608_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483795);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
@@ -7507,9 +7507,9 @@ extern "C" void SPFacebook_ParceFriendsData_m841 (SPFacebook_t214 * __this, Stri
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral360, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral360, /*hidden argument*/NULL);
 		String_t* L_0 = ___data;
-		Debug_Log_m2322(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 	}
 
 IL_0010:
@@ -7517,19 +7517,19 @@ IL_0010:
 	{ // begin try (depth: 1)
 		{
 			Dictionary_2_t203 * L_1 = (Dictionary_2_t203 *)il2cpp_codegen_object_new (Dictionary_2_t203_il2cpp_TypeInfo_var);
-			Dictionary_2__ctor_m2468(L_1, /*hidden argument*/Dictionary_2__ctor_m2468_MethodInfo_var);
+			Dictionary_2__ctor_m2608(L_1, /*hidden argument*/Dictionary_2__ctor_m2608_MethodInfo_var);
 			__this->____friends_7 = L_1;
 			String_t* L_2 = ___data;
 			Object_t * L_3 = Json_Deserialize_m762(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-			V_0 = ((Object_t *)IsInst(L_3, IDictionary_t488_il2cpp_TypeInfo_var));
+			V_0 = ((Object_t *)IsInst(L_3, IDictionary_t512_il2cpp_TypeInfo_var));
 			Object_t * L_4 = V_0;
 			NullCheck(L_4);
-			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral361);
-			V_1 = ((Object_t *)IsInst(L_5, IDictionary_t488_il2cpp_TypeInfo_var));
+			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral361);
+			V_1 = ((Object_t *)IsInst(L_5, IDictionary_t512_il2cpp_TypeInfo_var));
 			Object_t * L_6 = V_1;
 			NullCheck(L_6);
-			Object_t * L_7 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral52);
-			V_2 = ((Object_t *)IsInst(L_7, IList_t489_il2cpp_TypeInfo_var));
+			Object_t * L_7 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral52);
+			V_2 = ((Object_t *)IsInst(L_7, IList_t513_il2cpp_TypeInfo_var));
 			V_3 = 0;
 			goto IL_007b;
 		}
@@ -7539,9 +7539,9 @@ IL_0050:
 			Object_t * L_8 = V_2;
 			int32_t L_9 = V_3;
 			NullCheck(L_8);
-			Object_t * L_10 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t489_il2cpp_TypeInfo_var, L_8, L_9);
+			Object_t * L_10 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t513_il2cpp_TypeInfo_var, L_8, L_9);
 			FacebookUserInfo_t202 * L_11 = (FacebookUserInfo_t202 *)il2cpp_codegen_object_new (FacebookUserInfo_t202_il2cpp_TypeInfo_var);
-			FacebookUserInfo__ctor_m904(L_11, ((Object_t *)IsInst(L_10, IDictionary_t488_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			FacebookUserInfo__ctor_m904(L_11, ((Object_t *)IsInst(L_10, IDictionary_t512_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			V_4 = L_11;
 			Dictionary_2_t203 * L_12 = (__this->____friends_7);
 			FacebookUserInfo_t202 * L_13 = V_4;
@@ -7559,7 +7559,7 @@ IL_007b:
 			int32_t L_17 = V_3;
 			Object_t * L_18 = V_2;
 			NullCheck(L_18);
-			int32_t L_19 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t547_il2cpp_TypeInfo_var, L_18);
+			int32_t L_19 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t571_il2cpp_TypeInfo_var, L_18);
 			if ((((int32_t)L_17) < ((int32_t)L_19)))
 			{
 				goto IL_0050;
@@ -7582,11 +7582,11 @@ IL_0087:
 CATCH_008c:
 	{ // begin catch(System.Exception)
 		V_5 = ((Exception_t27 *)__exception_local);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral362, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral362, /*hidden argument*/NULL);
 		Exception_t27 * L_20 = V_5;
 		NullCheck(L_20);
 		String_t* L_21 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_20);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		goto IL_00a9;
 	} // end catch (depth: 1)
 
@@ -7602,7 +7602,7 @@ extern "C" void SPFacebook_ScoreLoadResult_m842 (SPFacebook_t214 * __this, FBRes
 		FBResult_t213 * L_0 = ___result;
 		NullCheck(L_0);
 		String_t* L_1 = FBResult_get_Text_m1556(L_0, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7629,7 +7629,7 @@ extern "C" void SPFacebook_UserDataCallBack_m843 (SPFacebook_t214 * __this, FBRe
 		FBResult_t213 * L_2 = ___result;
 		NullCheck(L_2);
 		String_t* L_3 = FBResult_get_Error_m1557(L_2, /*hidden argument*/NULL);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		FBResult_t213 * L_4 = ___result;
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, __this, (String_t*) &_stringLiteral322, L_4);
 		goto IL_0044;
@@ -7682,7 +7682,7 @@ extern "C" void SPFacebook_OnInitComplete_m844 (SPFacebook_t214 * __this, const 
 		Object_t * L_3 = Box(Boolean_t29_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m175(NULL /*static, unused*/, (String_t*) &_stringLiteral42, L_3, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7934,8 +7934,8 @@ extern "C" void SPFacebookAnalytics_ActivateApp_m863 (Object_t * __this /* stati
 // System.Void SPFacebookAnalytics::AchievedLevel(System.Int32)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_AchievedLevel_m864 (Object_t * __this /* static, unused */, int32_t ___level, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7943,15 +7943,15 @@ extern "C" void SPFacebookAnalytics_AchievedLevel_m864 (Object_t * __this /* sta
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
-	Nullable_1_t494  V_1 = {0};
+	Nullable_1_t518  V_1 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		int32_t L_2 = ___level;
@@ -7959,8 +7959,8 @@ extern "C" void SPFacebookAnalytics_AchievedLevel_m864 (Object_t * __this /* sta
 		Object_t * L_4 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_3);
 		NullCheck(L_1);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, (String_t*) &_stringLiteral370, L_4);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_1));
-		Nullable_1_t494  L_5 = V_1;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t518  L_5 = V_1;
 		Dictionary_2_t244 * L_6 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral371, L_5, L_6, /*hidden argument*/NULL);
 		return;
@@ -7969,8 +7969,8 @@ extern "C" void SPFacebookAnalytics_AchievedLevel_m864 (Object_t * __this /* sta
 // System.Void SPFacebookAnalytics::AddedPaymentInfo(System.Boolean)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_AddedPaymentInfo_m865 (Object_t * __this /* static, unused */, bool ___IsPaymentInfoAvailable, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7978,16 +7978,16 @@ extern "C" void SPFacebookAnalytics_AddedPaymentInfo_m865 (Object_t * __this /* 
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	int32_t V_1 = 0;
-	Nullable_1_t494  V_2 = {0};
+	Nullable_1_t518  V_2 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = 0;
 		bool L_1 = ___IsPaymentInfoAvailable;
@@ -8008,8 +8008,8 @@ IL_0010:
 		Object_t * L_5 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_2);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_2, (String_t*) &_stringLiteral372, L_5);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_2));
-		Nullable_1_t494  L_6 = V_2;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_2));
+		Nullable_1_t518  L_6 = V_2;
 		Dictionary_2_t244 * L_7 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral373, L_6, L_7, /*hidden argument*/NULL);
 		return;
@@ -8017,22 +8017,22 @@ IL_0010:
 }
 // System.Void SPFacebookAnalytics::AddedToCart(System.Single,System.String,System.String,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_AddedToCart_m866 (Object_t * __this /* static, unused */, float ___price, String_t* ___id, String_t* ___type, String_t* ___currency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___id;
@@ -8047,8 +8047,8 @@ extern "C" void SPFacebookAnalytics_AddedToCart_m866 (Object_t * __this /* stati
 		NullCheck(L_5);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_5, (String_t*) &_stringLiteral376, L_6);
 		float L_7 = ___price;
-		Nullable_1_t494  L_8 = {0};
-		Nullable_1__ctor_m2469(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_8 = {0};
+		Nullable_1__ctor_m2609(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_9 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral377, L_8, L_9, /*hidden argument*/NULL);
 		return;
@@ -8056,22 +8056,22 @@ extern "C" void SPFacebookAnalytics_AddedToCart_m866 (Object_t * __this /* stati
 }
 // System.Void SPFacebookAnalytics::AddedToWishlist(System.Single,System.String,System.String,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_AddedToWishlist_m867 (Object_t * __this /* static, unused */, float ___price, String_t* ___id, String_t* ___type, String_t* ___currency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___id;
@@ -8086,8 +8086,8 @@ extern "C" void SPFacebookAnalytics_AddedToWishlist_m867 (Object_t * __this /* s
 		NullCheck(L_5);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_5, (String_t*) &_stringLiteral376, L_6);
 		float L_7 = ___price;
-		Nullable_1_t494  L_8 = {0};
-		Nullable_1__ctor_m2469(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_8 = {0};
+		Nullable_1__ctor_m2609(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_9 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral378, L_8, L_9, /*hidden argument*/NULL);
 		return;
@@ -8095,30 +8095,30 @@ extern "C" void SPFacebookAnalytics_AddedToWishlist_m867 (Object_t * __this /* s
 }
 // System.Void SPFacebookAnalytics::CompletedRegistration(System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_CompletedRegistration_m868 (Object_t * __this /* static, unused */, String_t* ___RegistrationMethod, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
-	Nullable_1_t494  V_1 = {0};
+	Nullable_1_t518  V_1 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___RegistrationMethod;
 		NullCheck(L_1);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, (String_t*) &_stringLiteral379, L_2);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_1));
-		Nullable_1_t494  L_3 = V_1;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t518  L_3 = V_1;
 		Dictionary_2_t244 * L_4 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral380, L_3, L_4, /*hidden argument*/NULL);
 		return;
@@ -8127,8 +8127,8 @@ extern "C" void SPFacebookAnalytics_CompletedRegistration_m868 (Object_t * __thi
 // System.Void SPFacebookAnalytics::CompletedTutorial(System.Boolean,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_CompletedTutorial_m869 (Object_t * __this /* static, unused */, bool ___IsIsSuccsessed, String_t* ___ContentId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8136,16 +8136,16 @@ extern "C" void SPFacebookAnalytics_CompletedTutorial_m869 (Object_t * __this /*
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	int32_t V_1 = 0;
-	Nullable_1_t494  V_2 = {0};
+	Nullable_1_t518  V_2 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = 0;
 		bool L_1 = ___IsIsSuccsessed;
@@ -8170,8 +8170,8 @@ IL_0010:
 		String_t* L_7 = ___ContentId;
 		NullCheck(L_6);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_6, (String_t*) &_stringLiteral374, L_7);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_2));
-		Nullable_1_t494  L_8 = V_2;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_2));
+		Nullable_1_t518  L_8 = V_2;
 		Dictionary_2_t244 * L_9 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral382, L_8, L_9, /*hidden argument*/NULL);
 		return;
@@ -8180,8 +8180,8 @@ IL_0010:
 // System.Void SPFacebookAnalytics::InitiatedCheckout(System.Single,System.Int32,System.String,System.String,System.Boolean,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_InitiatedCheckout_m870 (Object_t * __this /* static, unused */, float ___price, int32_t ___itemsCount, String_t* ___ContentType, String_t* ___ContentId, bool ___IsPaymentInfoAvailable, String_t* ___Currency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8189,15 +8189,15 @@ extern "C" void SPFacebookAnalytics_InitiatedCheckout_m870 (Object_t * __this /*
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	int32_t V_1 = 0;
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = 0;
 		bool L_1 = ___IsPaymentInfoAvailable;
@@ -8237,8 +8237,8 @@ IL_0011:
 		NullCheck(L_14);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_14, (String_t*) &_stringLiteral376, L_15);
 		float L_16 = ___price;
-		Nullable_1_t494  L_17 = {0};
-		Nullable_1__ctor_m2469(&L_17, L_16, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_17 = {0};
+		Nullable_1__ctor_m2609(&L_17, L_16, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_18 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral384, L_17, L_18, /*hidden argument*/NULL);
 		return;
@@ -8247,8 +8247,8 @@ IL_0011:
 // System.Void SPFacebookAnalytics::Purchased(System.Single,System.Int32,System.String,System.String,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_Purchased_m871 (Object_t * __this /* static, unused */, float ___price, int32_t ___itemsCount, String_t* ___ContentType, String_t* ___ContentId, String_t* ___Currency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8256,14 +8256,14 @@ extern "C" void SPFacebookAnalytics_Purchased_m871 (Object_t * __this /* static,
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		int32_t L_2 = ___itemsCount;
@@ -8284,8 +8284,8 @@ extern "C" void SPFacebookAnalytics_Purchased_m871 (Object_t * __this /* static,
 		NullCheck(L_9);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_9, (String_t*) &_stringLiteral376, L_10);
 		float L_11 = ___price;
-		Nullable_1_t494  L_12 = {0};
-		Nullable_1__ctor_m2469(&L_12, L_11, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_12 = {0};
+		Nullable_1__ctor_m2609(&L_12, L_11, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_13 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral385, L_12, L_13, /*hidden argument*/NULL);
 		return;
@@ -8294,8 +8294,8 @@ extern "C" void SPFacebookAnalytics_Purchased_m871 (Object_t * __this /* static,
 // System.Void SPFacebookAnalytics::Rated(System.Int32,System.String,System.String,System.Int32)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_Rated_m872 (Object_t * __this /* static, unused */, int32_t ___Rating, String_t* ___ContentType, String_t* ___ContentId, int32_t ___MaxRating, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8303,14 +8303,14 @@ extern "C" void SPFacebookAnalytics_Rated_m872 (Object_t * __this /* static, unu
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___ContentType;
@@ -8327,8 +8327,8 @@ extern "C" void SPFacebookAnalytics_Rated_m872 (Object_t * __this /* static, unu
 		NullCheck(L_5);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_5, (String_t*) &_stringLiteral386, L_8);
 		int32_t L_9 = ___Rating;
-		Nullable_1_t494  L_10 = {0};
-		Nullable_1__ctor_m2469(&L_10, (((float)L_9)), /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_10 = {0};
+		Nullable_1__ctor_m2609(&L_10, (((float)L_9)), /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_11 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral387, L_10, L_11, /*hidden argument*/NULL);
 		return;
@@ -8337,8 +8337,8 @@ extern "C" void SPFacebookAnalytics_Rated_m872 (Object_t * __this /* static, unu
 // System.Void SPFacebookAnalytics::Searched(System.String,System.String,System.Boolean)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_Searched_m873 (Object_t * __this /* static, unused */, String_t* ___ContentType, String_t* ___SearchString, bool ___IsIsSuccsessed, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8346,16 +8346,16 @@ extern "C" void SPFacebookAnalytics_Searched_m873 (Object_t * __this /* static, 
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	int32_t V_1 = 0;
-	Nullable_1_t494  V_2 = {0};
+	Nullable_1_t518  V_2 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = 0;
 		bool L_1 = ___IsIsSuccsessed;
@@ -8384,8 +8384,8 @@ IL_0010:
 		Object_t * L_9 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_8);
 		NullCheck(L_6);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_6, (String_t*) &_stringLiteral381, L_9);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_2));
-		Nullable_1_t494  L_10 = V_2;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_2));
+		Nullable_1_t518  L_10 = V_2;
 		Dictionary_2_t244 * L_11 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral389, L_10, L_11, /*hidden argument*/NULL);
 		return;
@@ -8393,22 +8393,22 @@ IL_0010:
 }
 // System.Void SPFacebookAnalytics::SpentCredits(System.Single,System.String,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_SpentCredits_m874 (Object_t * __this /* static, unused */, float ___credit, String_t* ___ContentType, String_t* ___ContentId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___ContentType;
@@ -8419,8 +8419,8 @@ extern "C" void SPFacebookAnalytics_SpentCredits_m874 (Object_t * __this /* stat
 		NullCheck(L_3);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_3, (String_t*) &_stringLiteral374, L_4);
 		float L_5 = ___credit;
-		Nullable_1_t494  L_6 = {0};
-		Nullable_1__ctor_m2469(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_6 = {0};
+		Nullable_1__ctor_m2609(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_7 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral390, L_6, L_7, /*hidden argument*/NULL);
 		return;
@@ -8428,41 +8428,41 @@ extern "C" void SPFacebookAnalytics_SpentCredits_m874 (Object_t * __this /* stat
 }
 // System.Void SPFacebookAnalytics::UnlockedAchievement(System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t494_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
+extern TypeInfo* Nullable_1_t518_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_UnlockedAchievement_m875 (Object_t * __this /* static, unused */, String_t* ___Describtion, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Nullable_1_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
-	Nullable_1_t494  V_1 = {0};
+	Nullable_1_t518  V_1 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___Describtion;
 		NullCheck(L_1);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, (String_t*) &_stringLiteral78, L_2);
-		Initobj (Nullable_1_t494_il2cpp_TypeInfo_var, (&V_1));
-		Nullable_1_t494  L_3 = V_1;
+		Initobj (Nullable_1_t518_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t518  L_3 = V_1;
 		Dictionary_2_t244 * L_4 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral77, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPFacebookAnalytics::LogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void SPFacebookAnalytics_LogEvent_m876 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t494  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method)
+extern "C" void SPFacebookAnalytics_LogEvent_m876 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t518  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___logEvent;
-		Nullable_1_t494  L_1 = ___valueToSum;
+		Nullable_1_t518  L_1 = ___valueToSum;
 		Dictionary_2_t244 * L_2 = ___parameters;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
@@ -8470,22 +8470,22 @@ extern "C" void SPFacebookAnalytics_LogEvent_m876 (Object_t * __this /* static, 
 }
 // System.Void SPFacebookAnalytics::ViewedContent(System.Single,System.String,System.String,System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m2469_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2609_MethodInfo_var;
 extern "C" void SPFacebookAnalytics_ViewedContent_m877 (Object_t * __this /* static, unused */, float ___price, String_t* ___ContentType, String_t* ___ContentId, String_t* ___Currency, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		Nullable_1__ctor_m2469_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		Nullable_1__ctor_m2609_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483796);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		String_t* L_2 = ___ContentType;
@@ -8500,8 +8500,8 @@ extern "C" void SPFacebookAnalytics_ViewedContent_m877 (Object_t * __this /* sta
 		NullCheck(L_5);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_5, (String_t*) &_stringLiteral376, L_6);
 		float L_7 = ___price;
-		Nullable_1_t494  L_8 = {0};
-		Nullable_1__ctor_m2469(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2469_MethodInfo_var);
+		Nullable_1_t518  L_8 = {0};
+		Nullable_1__ctor_m2609(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m2609_MethodInfo_var);
 		Dictionary_2_t244 * L_9 = V_0;
 		AppEvents_LogEvent_m1503(NULL /*static, unused*/, (String_t*) &_stringLiteral391, L_8, L_9, /*hidden argument*/NULL);
 		return;
@@ -8522,7 +8522,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* FBAppRequest_t218_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
 extern const MethodInfo* FBAppRequest_U3COnDeleteRequestFinishedU3Em__F_m882_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void FBAppRequest__ctor_m878 (FBAppRequest_t218 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8532,7 +8532,7 @@ extern "C" void FBAppRequest__ctor_m878 (FBAppRequest_t218 * __this, const Metho
 		FBAppRequest_t218_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(174);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
 		FBAppRequest_U3COnDeleteRequestFinishedU3Em__F_m882_MethodInfo_var = il2cpp_codegen_method_info_from_index(149);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBAppRequest_t218 * G_B2_0 = {0};
@@ -8555,7 +8555,7 @@ extern "C" void FBAppRequest__ctor_m878 (FBAppRequest_t218 * __this, const Metho
 	{
 		IntPtr_t L_3 = { (void*)FBAppRequest_U3COnDeleteRequestFinishedU3Em__F_m882_MethodInfo_var };
 		Action_1_t210 * L_4 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_4, NULL, L_3, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
+		Action_1__ctor_m2577(L_4, NULL, L_3, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
 		((FBAppRequest_t218_StaticFields*)FBAppRequest_t218_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_12 = L_4;
 		G_B2_0 = G_B1_0;
 	}
@@ -8584,7 +8584,7 @@ extern "C" void FBAppRequest_SetCreatedTime_m879 (FBAppRequest_t218 * __this, St
 		__this->___CreatedTimeString_8 = L_0;
 		String_t* L_1 = ___time_string;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t219_il2cpp_TypeInfo_var);
-		DateTime_t219  L_2 = DateTime_Parse_m2470(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		DateTime_t219  L_2 = DateTime_Parse_m2610(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		__this->___CreatedTime_7 = L_2;
 		return;
 	}
@@ -8611,7 +8611,7 @@ extern "C" void FBAppRequest_Delete_m880 (FBAppRequest_t218 * __this, const Meth
 		HttpMethod_t365 * L_1 = HttpMethod_get_DELETE_m1749(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)FBAppRequest_OnDeleteActionFinish_m881_MethodInfo_var };
 		FacebookDelegate_t350 * L_3 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_3, __this, L_2, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_3, __this, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1529(NULL /*static, unused*/, L_0, L_1, L_3, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		__this->___State_4 = 1;
@@ -8659,7 +8659,7 @@ extern "C" void FBAppRequest_U3COnDeleteRequestFinishedU3Em__F_m882 (Object_t * 
 // System.Void FBAppRequestResult::.ctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2336_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2476_MethodInfo_var;
 extern "C" void FBAppRequestResult__ctor_m883 (FBAppRequestResult_t220 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8667,7 +8667,7 @@ extern "C" void FBAppRequestResult__ctor_m883 (FBAppRequestResult_t220 * __this,
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
-		List_1__ctor_m2336_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
+		List_1__ctor_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8675,7 +8675,7 @@ extern "C" void FBAppRequestResult__ctor_m883 (FBAppRequestResult_t220 * __this,
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___ReuqestId_1 = L_0;
 		List_1_t73 * L_1 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_1, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_1, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___Recipients_2 = L_1;
 		Object__ctor_m160(__this, /*hidden argument*/NULL);
 		return;
@@ -8703,19 +8703,19 @@ extern "C" void FBLikeInfo__ctor_m884 (FBLikeInfo_t221 * __this, const MethodInf
 
 // System.Void FBObject::.ctor()
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2336_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2476_MethodInfo_var;
 extern "C" void FBObject__ctor_m885 (FBObject_t217 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
-		List_1__ctor_m2336_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
+		List_1__ctor_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		List_1_t73 * L_0 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_0, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_0, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___ImageUrls_1 = L_0;
 		Object__ctor_m160(__this, /*hidden argument*/NULL);
 		return;
@@ -8736,7 +8736,7 @@ extern "C" void FBObject_SetCreatedTime_m886 (FBObject_t217 * __this, String_t* 
 		__this->___CreatedTimeString_5 = L_0;
 		String_t* L_1 = ___time_string;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t219_il2cpp_TypeInfo_var);
-		DateTime_t219  L_2 = DateTime_Parse_m2470(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		DateTime_t219  L_2 = DateTime_Parse_m2610(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		__this->___CreatedTime_4 = L_2;
 		return;
 	}
@@ -8812,7 +8812,7 @@ IL_0028:
 		NullCheck(L_7);
 		Object_t * L_8 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_7, (String_t*) &_stringLiteral51);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_9 = Convert_ToString_m2443(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = Convert_ToString_m2583(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		__this->____PostId_1 = L_9;
 		__this->____IsSucceeded_2 = 1;
 		goto IL_0071;
@@ -8831,7 +8831,7 @@ CATCH_0060:
 		Exception_t27 * L_10 = V_1;
 		NullCheck(L_10);
 		String_t* L_11 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_10);
-		Debug_Log_m2322(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		goto IL_0071;
 	} // end catch (depth: 1)
 
@@ -8899,9 +8899,9 @@ extern "C" bool FBPostResult_get_IsSucceeded_m891 (FBPostResult_t222 * __this, c
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
 extern TypeInfo* FBScore_t225_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t224_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2471_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2611_MethodInfo_var;
 extern const MethodInfo* FBScore_U3COnProfileImageLoadedU3Em__10_m902_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2472_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2612_MethodInfo_var;
 extern "C" void FBScore__ctor_m892 (FBScore_t225 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8910,16 +8910,16 @@ extern "C" void FBScore__ctor_m892 (FBScore_t225 * __this, const MethodInfo* met
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
 		FBScore_t225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Action_1_t224_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(206);
-		Dictionary_2__ctor_m2471_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
+		Dictionary_2__ctor_m2611_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
 		FBScore_U3COnProfileImageLoadedU3Em__10_m902_MethodInfo_var = il2cpp_codegen_method_info_from_index(152);
-		Action_1__ctor_m2472_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483801);
+		Action_1__ctor_m2612_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483801);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBScore_t225 * G_B2_0 = {0};
 	FBScore_t225 * G_B1_0 = {0};
 	{
 		Dictionary_2_t223 * L_0 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2471(L_0, /*hidden argument*/Dictionary_2__ctor_m2471_MethodInfo_var);
+		Dictionary_2__ctor_m2611(L_0, /*hidden argument*/Dictionary_2__ctor_m2611_MethodInfo_var);
 		__this->___profileImages_5 = L_0;
 		Action_1_t224 * L_1 = ((FBScore_t225_StaticFields*)FBScore_t225_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache7_7;
 		G_B1_0 = __this;
@@ -8932,7 +8932,7 @@ extern "C" void FBScore__ctor_m892 (FBScore_t225 * __this, const MethodInfo* met
 	{
 		IntPtr_t L_2 = { (void*)FBScore_U3COnProfileImageLoadedU3Em__10_m902_MethodInfo_var };
 		Action_1_t224 * L_3 = (Action_1_t224 *)il2cpp_codegen_object_new (Action_1_t224_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2472(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m2472_MethodInfo_var);
+		Action_1__ctor_m2612(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m2612_MethodInfo_var);
 		((FBScore_t225_StaticFields*)FBScore_t225_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache7_7 = L_3;
 		G_B2_0 = G_B1_0;
 	}
@@ -8959,7 +8959,7 @@ extern "C" void FBScore_add_OnProfileImageLoaded_m893 (FBScore_t225 * __this, Ac
 	{
 		Action_1_t224 * L_0 = (__this->___OnProfileImageLoaded_6);
 		Action_1_t224 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Combine_m2428(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Combine_m2568(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnProfileImageLoaded_6 = ((Action_1_t224 *)Castclass(L_2, Action_1_t224_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -8977,7 +8977,7 @@ extern "C" void FBScore_remove_OnProfileImageLoaded_m894 (FBScore_t225 * __this,
 	{
 		Action_1_t224 * L_0 = (__this->___OnProfileImageLoaded_6);
 		Action_1_t224 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Remove_m2429(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Remove_m2569(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnProfileImageLoaded_6 = ((Action_1_t224 *)Castclass(L_2, Action_1_t224_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -9037,7 +9037,7 @@ extern TypeInfo* FacebookProfileImageSize_t226_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t199_il2cpp_TypeInfo_var;
 extern const MethodInfo* FBScore_OnLargeImageLoaded_m899_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2408_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2548_MethodInfo_var;
 extern const MethodInfo* FBScore_OnNormalImageLoaded_m900_MethodInfo_var;
 extern const MethodInfo* FBScore_OnSmallImageLoaded_m901_MethodInfo_var;
 extern const MethodInfo* FBScore_OnSquareImageLoaded_m898_MethodInfo_var;
@@ -9050,7 +9050,7 @@ extern "C" void FBScore_LoadProfileImage_m897 (FBScore_t225 * __this, int32_t __
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Action_1_t199_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(153);
 		FBScore_OnLargeImageLoaded_m899_MethodInfo_var = il2cpp_codegen_method_info_from_index(154);
-		Action_1__ctor_m2408_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		Action_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
 		FBScore_OnNormalImageLoaded_m900_MethodInfo_var = il2cpp_codegen_method_info_from_index(155);
 		FBScore_OnSmallImageLoaded_m901_MethodInfo_var = il2cpp_codegen_method_info_from_index(156);
 		FBScore_OnSquareImageLoaded_m898_MethodInfo_var = il2cpp_codegen_method_info_from_index(157);
@@ -9061,7 +9061,7 @@ extern "C" void FBScore_LoadProfileImage_m897 (FBScore_t225 * __this, int32_t __
 	{
 		int32_t L_0 = ___size;
 		Texture2D_t65 * L_1 = FBScore_GetProfileImage_m896(__this, L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0033;
@@ -9073,7 +9073,7 @@ extern "C" void FBScore_LoadProfileImage_m897 (FBScore_t225 * __this, int32_t __
 		Object_t * L_5 = Box(FacebookProfileImageSize_t226_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = String_Concat_m175(NULL /*static, unused*/, (String_t*) &_stringLiteral395, L_5, /*hidden argument*/NULL);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		Action_1_t224 * L_7 = (__this->___OnProfileImageLoaded_6);
 		NullCheck(L_7);
 		VirtActionInvoker1< FBScore_t225 * >::Invoke(10 /* System.Void System.Action`1<FBScore>::Invoke(!0) */, L_7, __this);
@@ -9112,7 +9112,7 @@ IL_0056:
 		WWWTextureLoader_t197 * L_11 = V_0;
 		IntPtr_t L_12 = { (void*)FBScore_OnLargeImageLoaded_m899_MethodInfo_var };
 		Action_1_t199 * L_13 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_11);
 		WWWTextureLoader_add_OnLoad_m773(L_11, L_13, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9123,7 +9123,7 @@ IL_006d:
 		WWWTextureLoader_t197 * L_14 = V_0;
 		IntPtr_t L_15 = { (void*)FBScore_OnNormalImageLoaded_m900_MethodInfo_var };
 		Action_1_t199 * L_16 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_14);
 		WWWTextureLoader_add_OnLoad_m773(L_14, L_16, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9134,7 +9134,7 @@ IL_0084:
 		WWWTextureLoader_t197 * L_17 = V_0;
 		IntPtr_t L_18 = { (void*)FBScore_OnSmallImageLoaded_m901_MethodInfo_var };
 		Action_1_t199 * L_19 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_17);
 		WWWTextureLoader_add_OnLoad_m773(L_17, L_19, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9145,7 +9145,7 @@ IL_009b:
 		WWWTextureLoader_t197 * L_20 = V_0;
 		IntPtr_t L_21 = { (void*)FBScore_OnSquareImageLoaded_m898_MethodInfo_var };
 		Action_1_t199 * L_22 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_20);
 		WWWTextureLoader_add_OnLoad_m773(L_20, L_22, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9157,7 +9157,7 @@ IL_00b2:
 		String_t* L_24 = FBScore_GetProfileUrl_m895(__this, L_23, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_25 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral396, L_24, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 		WWWTextureLoader_t197 * L_26 = V_0;
 		int32_t L_27 = ___size;
 		String_t* L_28 = FBScore_GetProfileUrl_m895(__this, L_27, /*hidden argument*/NULL);
@@ -9171,7 +9171,7 @@ extern "C" void FBScore_OnSquareImageLoaded_m898 (FBScore_t225 * __this, Texture
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -9206,7 +9206,7 @@ extern "C" void FBScore_OnLargeImageLoaded_m899 (FBScore_t225 * __this, Texture2
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -9241,7 +9241,7 @@ extern "C" void FBScore_OnNormalImageLoaded_m900 (FBScore_t225 * __this, Texture
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -9276,7 +9276,7 @@ extern "C" void FBScore_OnSmallImageLoaded_m901 (FBScore_t225 * __this, Texture2
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -9338,10 +9338,10 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookUserInfo_t202_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t227_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2471_MethodInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2611_MethodInfo_var;
 extern const MethodInfo* FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2473_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2613_MethodInfo_var;
 extern "C" void FacebookUserInfo__ctor_m903 (FacebookUserInfo_t202 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9351,10 +9351,10 @@ extern "C" void FacebookUserInfo__ctor_m903 (FacebookUserInfo_t202 * __this, Str
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
 		FacebookUserInfo_t202_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(194);
 		Action_1_t227_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(207);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
-		Dictionary_2__ctor_m2471_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		Dictionary_2__ctor_m2611_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
 		FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var = il2cpp_codegen_method_info_from_index(158);
-		Action_1__ctor_m2473_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483807);
+		Action_1__ctor_m2613_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483807);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
@@ -9383,7 +9383,7 @@ extern "C" void FacebookUserInfo__ctor_m903 (FacebookUserInfo_t202 * __this, Str
 		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->____rawJSON_9 = L_9;
 		Dictionary_2_t223 * L_10 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2471(L_10, /*hidden argument*/Dictionary_2__ctor_m2471_MethodInfo_var);
+		Dictionary_2__ctor_m2611(L_10, /*hidden argument*/Dictionary_2__ctor_m2611_MethodInfo_var);
 		__this->___profileImages_11 = L_10;
 		Action_1_t227 * L_11 = ((FacebookUserInfo_t202_StaticFields*)FacebookUserInfo_t202_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_13;
 		G_B1_0 = __this;
@@ -9396,7 +9396,7 @@ extern "C" void FacebookUserInfo__ctor_m903 (FacebookUserInfo_t202 * __this, Str
 	{
 		IntPtr_t L_12 = { (void*)FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var };
 		Action_1_t227 * L_13 = (Action_1_t227 *)il2cpp_codegen_object_new (Action_1_t227_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2473(L_13, NULL, L_12, /*hidden argument*/Action_1__ctor_m2473_MethodInfo_var);
+		Action_1__ctor_m2613(L_13, NULL, L_12, /*hidden argument*/Action_1__ctor_m2613_MethodInfo_var);
 		((FacebookUserInfo_t202_StaticFields*)FacebookUserInfo_t202_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_13 = L_13;
 		G_B2_0 = G_B1_0;
 	}
@@ -9411,7 +9411,7 @@ IL_0092:
 		__this->____rawJSON_9 = L_15;
 		String_t* L_16 = (__this->____rawJSON_9);
 		Object_t * L_17 = Json_Deserialize_m762(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
-		V_0 = ((Object_t *)IsInst(L_17, IDictionary_t488_il2cpp_TypeInfo_var));
+		V_0 = ((Object_t *)IsInst(L_17, IDictionary_t512_il2cpp_TypeInfo_var));
 		Object_t * L_18 = V_0;
 		FacebookUserInfo_InitializeData_m907(__this, L_18, /*hidden argument*/NULL);
 		return;
@@ -9422,9 +9422,9 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookUserInfo_t202_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t227_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2471_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2611_MethodInfo_var;
 extern const MethodInfo* FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2473_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2613_MethodInfo_var;
 extern "C" void FacebookUserInfo__ctor_m904 (FacebookUserInfo_t202 * __this, Object_t * ___JSON, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9434,9 +9434,9 @@ extern "C" void FacebookUserInfo__ctor_m904 (FacebookUserInfo_t202 * __this, Obj
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
 		FacebookUserInfo_t202_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(194);
 		Action_1_t227_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(207);
-		Dictionary_2__ctor_m2471_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
+		Dictionary_2__ctor_m2611_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483799);
 		FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var = il2cpp_codegen_method_info_from_index(158);
-		Action_1__ctor_m2473_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483807);
+		Action_1__ctor_m2613_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483807);
 		s_Il2CppMethodIntialized = true;
 	}
 	FacebookUserInfo_t202 * G_B2_0 = {0};
@@ -9464,7 +9464,7 @@ extern "C" void FacebookUserInfo__ctor_m904 (FacebookUserInfo_t202 * __this, Obj
 		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->____rawJSON_9 = L_9;
 		Dictionary_2_t223 * L_10 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2471(L_10, /*hidden argument*/Dictionary_2__ctor_m2471_MethodInfo_var);
+		Dictionary_2__ctor_m2611(L_10, /*hidden argument*/Dictionary_2__ctor_m2611_MethodInfo_var);
 		__this->___profileImages_11 = L_10;
 		Action_1_t227 * L_11 = ((FacebookUserInfo_t202_StaticFields*)FacebookUserInfo_t202_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_13;
 		G_B1_0 = __this;
@@ -9477,7 +9477,7 @@ extern "C" void FacebookUserInfo__ctor_m904 (FacebookUserInfo_t202 * __this, Obj
 	{
 		IntPtr_t L_12 = { (void*)FacebookUserInfo_U3COnProfileImageLoadedU3Em__11_m926_MethodInfo_var };
 		Action_1_t227 * L_13 = (Action_1_t227 *)il2cpp_codegen_object_new (Action_1_t227_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2473(L_13, NULL, L_12, /*hidden argument*/Action_1__ctor_m2473_MethodInfo_var);
+		Action_1__ctor_m2613(L_13, NULL, L_12, /*hidden argument*/Action_1__ctor_m2613_MethodInfo_var);
 		((FacebookUserInfo_t202_StaticFields*)FacebookUserInfo_t202_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_13 = L_13;
 		G_B2_0 = G_B1_0;
 	}
@@ -9506,7 +9506,7 @@ extern "C" void FacebookUserInfo_add_OnProfileImageLoaded_m905 (FacebookUserInfo
 	{
 		Action_1_t227 * L_0 = (__this->___OnProfileImageLoaded_12);
 		Action_1_t227 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Combine_m2428(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Combine_m2568(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnProfileImageLoaded_12 = ((Action_1_t227 *)Castclass(L_2, Action_1_t227_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -9524,20 +9524,20 @@ extern "C" void FacebookUserInfo_remove_OnProfileImageLoaded_m906 (FacebookUserI
 	{
 		Action_1_t227 * L_0 = (__this->___OnProfileImageLoaded_12);
 		Action_1_t227 * L_1 = ___value;
-		Delegate_t538 * L_2 = Delegate_Remove_m2429(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t562 * L_2 = Delegate_Remove_m2569(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___OnProfileImageLoaded_12 = ((Action_1_t227 *)Castclass(L_2, Action_1_t227_il2cpp_TypeInfo_var));
 		return;
 	}
 }
 // System.Void FacebookUserInfo::InitializeData(System.Collections.IDictionary)
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
 extern "C" void FacebookUserInfo_InitializeData_m907 (FacebookUserInfo_t202 * __this, Object_t * ___JSON, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -9546,7 +9546,7 @@ extern "C" void FacebookUserInfo_InitializeData_m907 (FacebookUserInfo_t202 * __
 	{
 		Object_t * L_0 = ___JSON;
 		NullCheck(L_0);
-		bool L_1 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral51);
+		bool L_1 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral51);
 		if (!L_1)
 		{
 			goto IL_0026;
@@ -9555,9 +9555,9 @@ extern "C" void FacebookUserInfo_InitializeData_m907 (FacebookUserInfo_t202 * __
 	{
 		Object_t * L_2 = ___JSON;
 		NullCheck(L_2);
-		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral51);
+		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral51);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_4 = Convert_ToString_m2443(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = Convert_ToString_m2583(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		__this->____id_0 = L_4;
 	}
 
@@ -9565,7 +9565,7 @@ IL_0026:
 	{
 		Object_t * L_5 = ___JSON;
 		NullCheck(L_5);
-		bool L_6 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral337);
+		bool L_6 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral337);
 		if (!L_6)
 		{
 			goto IL_004c;
@@ -9574,9 +9574,9 @@ IL_0026:
 	{
 		Object_t * L_7 = ___JSON;
 		NullCheck(L_7);
-		Object_t * L_8 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral337);
+		Object_t * L_8 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral337);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_9 = Convert_ToString_m2443(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = Convert_ToString_m2583(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		__this->____name_1 = L_9;
 	}
 
@@ -9584,7 +9584,7 @@ IL_004c:
 	{
 		Object_t * L_10 = ___JSON;
 		NullCheck(L_10);
-		bool L_11 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_10, (String_t*) &_stringLiteral397);
+		bool L_11 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_10, (String_t*) &_stringLiteral397);
 		if (!L_11)
 		{
 			goto IL_0072;
@@ -9593,9 +9593,9 @@ IL_004c:
 	{
 		Object_t * L_12 = ___JSON;
 		NullCheck(L_12);
-		Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral397);
+		Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral397);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_14 = Convert_ToString_m2443(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = Convert_ToString_m2583(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		__this->____first_name_2 = L_14;
 	}
 
@@ -9603,7 +9603,7 @@ IL_0072:
 	{
 		Object_t * L_15 = ___JSON;
 		NullCheck(L_15);
-		bool L_16 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_15, (String_t*) &_stringLiteral398);
+		bool L_16 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_15, (String_t*) &_stringLiteral398);
 		if (!L_16)
 		{
 			goto IL_0098;
@@ -9612,9 +9612,9 @@ IL_0072:
 	{
 		Object_t * L_17 = ___JSON;
 		NullCheck(L_17);
-		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral398);
+		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral398);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_19 = Convert_ToString_m2443(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = Convert_ToString_m2583(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		__this->____last_name_3 = L_19;
 	}
 
@@ -9622,7 +9622,7 @@ IL_0098:
 	{
 		Object_t * L_20 = ___JSON;
 		NullCheck(L_20);
-		bool L_21 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral399);
+		bool L_21 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral399);
 		if (!L_21)
 		{
 			goto IL_00be;
@@ -9631,9 +9631,9 @@ IL_0098:
 	{
 		Object_t * L_22 = ___JSON;
 		NullCheck(L_22);
-		Object_t * L_23 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_22, (String_t*) &_stringLiteral399);
+		Object_t * L_23 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_22, (String_t*) &_stringLiteral399);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_24 = Convert_ToString_m2443(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		String_t* L_24 = Convert_ToString_m2583(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 		__this->____username_4 = L_24;
 	}
 
@@ -9641,7 +9641,7 @@ IL_00be:
 	{
 		Object_t * L_25 = ___JSON;
 		NullCheck(L_25);
-		bool L_26 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_25, (String_t*) &_stringLiteral400);
+		bool L_26 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_25, (String_t*) &_stringLiteral400);
 		if (!L_26)
 		{
 			goto IL_00e4;
@@ -9650,9 +9650,9 @@ IL_00be:
 	{
 		Object_t * L_27 = ___JSON;
 		NullCheck(L_27);
-		Object_t * L_28 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_27, (String_t*) &_stringLiteral400);
+		Object_t * L_28 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_27, (String_t*) &_stringLiteral400);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_29 = Convert_ToString_m2443(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		String_t* L_29 = Convert_ToString_m2583(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		__this->____profile_url_5 = L_29;
 	}
 
@@ -9660,7 +9660,7 @@ IL_00e4:
 	{
 		Object_t * L_30 = ___JSON;
 		NullCheck(L_30);
-		bool L_31 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_30, (String_t*) &_stringLiteral305);
+		bool L_31 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_30, (String_t*) &_stringLiteral305);
 		if (!L_31)
 		{
 			goto IL_010a;
@@ -9669,9 +9669,9 @@ IL_00e4:
 	{
 		Object_t * L_32 = ___JSON;
 		NullCheck(L_32);
-		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral305);
+		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral305);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_34 = Convert_ToString_m2443(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+		String_t* L_34 = Convert_ToString_m2583(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		__this->____email_6 = L_34;
 	}
 
@@ -9679,7 +9679,7 @@ IL_010a:
 	{
 		Object_t * L_35 = ___JSON;
 		NullCheck(L_35);
-		bool L_36 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral401);
+		bool L_36 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral401);
 		if (!L_36)
 		{
 			goto IL_0130;
@@ -9688,9 +9688,9 @@ IL_010a:
 	{
 		Object_t * L_37 = ___JSON;
 		NullCheck(L_37);
-		Object_t * L_38 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_37, (String_t*) &_stringLiteral401);
+		Object_t * L_38 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_37, (String_t*) &_stringLiteral401);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_39 = Convert_ToString_m2443(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+		String_t* L_39 = Convert_ToString_m2583(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 		__this->____locale_8 = L_39;
 	}
 
@@ -9698,7 +9698,7 @@ IL_0130:
 	{
 		Object_t * L_40 = ___JSON;
 		NullCheck(L_40);
-		bool L_41 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral402);
+		bool L_41 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral402);
 		if (!L_41)
 		{
 			goto IL_0167;
@@ -9707,13 +9707,13 @@ IL_0130:
 	{
 		Object_t * L_42 = ___JSON;
 		NullCheck(L_42);
-		Object_t * L_43 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_42, (String_t*) &_stringLiteral402);
-		V_0 = ((Object_t *)IsInst(L_43, IDictionary_t488_il2cpp_TypeInfo_var));
+		Object_t * L_43 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_42, (String_t*) &_stringLiteral402);
+		V_0 = ((Object_t *)IsInst(L_43, IDictionary_t512_il2cpp_TypeInfo_var));
 		Object_t * L_44 = V_0;
 		NullCheck(L_44);
-		Object_t * L_45 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_44, (String_t*) &_stringLiteral337);
+		Object_t * L_45 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_44, (String_t*) &_stringLiteral337);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_46 = Convert_ToString_m2443(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+		String_t* L_46 = Convert_ToString_m2583(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
 		__this->____location_7 = L_46;
 	}
 
@@ -9721,7 +9721,7 @@ IL_0167:
 	{
 		Object_t * L_47 = ___JSON;
 		NullCheck(L_47);
-		bool L_48 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_47, (String_t*) &_stringLiteral403);
+		bool L_48 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_47, (String_t*) &_stringLiteral403);
 		if (!L_48)
 		{
 			goto IL_01ab;
@@ -9730,9 +9730,9 @@ IL_0167:
 	{
 		Object_t * L_49 = ___JSON;
 		NullCheck(L_49);
-		Object_t * L_50 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_49, (String_t*) &_stringLiteral403);
+		Object_t * L_50 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_49, (String_t*) &_stringLiteral403);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_51 = Convert_ToString_m2443(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		String_t* L_51 = Convert_ToString_m2583(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
 		V_1 = L_51;
 		String_t* L_52 = V_1;
 		NullCheck(L_52);
@@ -9812,7 +9812,7 @@ extern TypeInfo* FacebookProfileImageSize_t226_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t199_il2cpp_TypeInfo_var;
 extern const MethodInfo* FacebookUserInfo_OnLargeImageLoaded_m923_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2408_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2548_MethodInfo_var;
 extern const MethodInfo* FacebookUserInfo_OnNormalImageLoaded_m924_MethodInfo_var;
 extern const MethodInfo* FacebookUserInfo_OnSmallImageLoaded_m925_MethodInfo_var;
 extern const MethodInfo* FacebookUserInfo_OnSquareImageLoaded_m922_MethodInfo_var;
@@ -9825,7 +9825,7 @@ extern "C" void FacebookUserInfo_LoadProfileImage_m910 (FacebookUserInfo_t202 * 
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Action_1_t199_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(153);
 		FacebookUserInfo_OnLargeImageLoaded_m923_MethodInfo_var = il2cpp_codegen_method_info_from_index(160);
-		Action_1__ctor_m2408_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		Action_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
 		FacebookUserInfo_OnNormalImageLoaded_m924_MethodInfo_var = il2cpp_codegen_method_info_from_index(161);
 		FacebookUserInfo_OnSmallImageLoaded_m925_MethodInfo_var = il2cpp_codegen_method_info_from_index(162);
 		FacebookUserInfo_OnSquareImageLoaded_m922_MethodInfo_var = il2cpp_codegen_method_info_from_index(163);
@@ -9836,7 +9836,7 @@ extern "C" void FacebookUserInfo_LoadProfileImage_m910 (FacebookUserInfo_t202 * 
 	{
 		int32_t L_0 = ___size;
 		Texture2D_t65 * L_1 = FacebookUserInfo_GetProfileImage_m909(__this, L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0033;
@@ -9848,7 +9848,7 @@ extern "C" void FacebookUserInfo_LoadProfileImage_m910 (FacebookUserInfo_t202 * 
 		Object_t * L_5 = Box(FacebookProfileImageSize_t226_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = String_Concat_m175(NULL /*static, unused*/, (String_t*) &_stringLiteral395, L_5, /*hidden argument*/NULL);
-		Debug_LogWarning_m2441(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		Action_1_t227 * L_7 = (__this->___OnProfileImageLoaded_12);
 		NullCheck(L_7);
 		VirtActionInvoker1< FacebookUserInfo_t202 * >::Invoke(10 /* System.Void System.Action`1<FacebookUserInfo>::Invoke(!0) */, L_7, __this);
@@ -9887,7 +9887,7 @@ IL_0056:
 		WWWTextureLoader_t197 * L_11 = V_0;
 		IntPtr_t L_12 = { (void*)FacebookUserInfo_OnLargeImageLoaded_m923_MethodInfo_var };
 		Action_1_t199 * L_13 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_11);
 		WWWTextureLoader_add_OnLoad_m773(L_11, L_13, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9898,7 +9898,7 @@ IL_006d:
 		WWWTextureLoader_t197 * L_14 = V_0;
 		IntPtr_t L_15 = { (void*)FacebookUserInfo_OnNormalImageLoaded_m924_MethodInfo_var };
 		Action_1_t199 * L_16 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_14);
 		WWWTextureLoader_add_OnLoad_m773(L_14, L_16, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9909,7 +9909,7 @@ IL_0084:
 		WWWTextureLoader_t197 * L_17 = V_0;
 		IntPtr_t L_18 = { (void*)FacebookUserInfo_OnSmallImageLoaded_m925_MethodInfo_var };
 		Action_1_t199 * L_19 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_17);
 		WWWTextureLoader_add_OnLoad_m773(L_17, L_19, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9920,7 +9920,7 @@ IL_009b:
 		WWWTextureLoader_t197 * L_20 = V_0;
 		IntPtr_t L_21 = { (void*)FacebookUserInfo_OnSquareImageLoaded_m922_MethodInfo_var };
 		Action_1_t199 * L_22 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_20);
 		WWWTextureLoader_add_OnLoad_m773(L_20, L_22, /*hidden argument*/NULL);
 		goto IL_00b2;
@@ -9932,7 +9932,7 @@ IL_00b2:
 		String_t* L_24 = FacebookUserInfo_GetProfileUrl_m908(__this, L_23, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_25 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral396, L_24, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 		WWWTextureLoader_t197 * L_26 = V_0;
 		int32_t L_27 = ___size;
 		String_t* L_28 = FacebookUserInfo_GetProfileUrl_m908(__this, L_27, /*hidden argument*/NULL);
@@ -10034,7 +10034,7 @@ extern "C" void FacebookUserInfo_OnSquareImageLoaded_m922 (FacebookUserInfo_t202
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -10069,7 +10069,7 @@ extern "C" void FacebookUserInfo_OnLargeImageLoaded_m923 (FacebookUserInfo_t202 
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -10104,7 +10104,7 @@ extern "C" void FacebookUserInfo_OnNormalImageLoaded_m924 (FacebookUserInfo_t202
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -10139,7 +10139,7 @@ extern "C" void FacebookUserInfo_OnSmallImageLoaded_m925 (FacebookUserInfo_t202 
 {
 	{
 		Texture2D_t65 * L_0 = ___image;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -10184,7 +10184,7 @@ struct GameObject_t284;
 struct FBLikesRetrieveTask_t228;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<FBLikesRetrieveTask>()
 // !!0 UnityEngine.GameObject::AddComponent<FBLikesRetrieveTask>()
-#define GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2474(__this, method) (( FBLikesRetrieveTask_t228 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2614(__this, method) (( FBLikesRetrieveTask_t228 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void FBLikesRetrieveTask::.ctor()
@@ -10197,21 +10197,21 @@ extern "C" void FBLikesRetrieveTask__ctor_m927 (FBLikesRetrieveTask_t228 * __thi
 }
 // FBLikesRetrieveTask FBLikesRetrieveTask::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2474_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2614_MethodInfo_var;
 extern "C" FBLikesRetrieveTask_t228 * FBLikesRetrieveTask_Create_m928 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2474_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483812);
+		GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2614_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483812);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral405, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral405, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		FBLikesRetrieveTask_t228 * L_1 = GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2474(L_0, /*hidden argument*/GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2474_MethodInfo_var);
+		FBLikesRetrieveTask_t228 * L_1 = GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2614(L_0, /*hidden argument*/GameObject_AddComponent_TisFBLikesRetrieveTask_t228_m2614_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -10243,7 +10243,7 @@ extern "C" void FBLikesRetrieveTask_LoadLikes_m929 (FBLikesRetrieveTask_t228 * _
 		HttpMethod_t365 * L_3 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_4 = { (void*)FBLikesRetrieveTask_OnUserLikesResult_m932_MethodInfo_var };
 		FacebookDelegate_t350 * L_5 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_5, __this, L_4, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_5, __this, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1529(NULL /*static, unused*/, L_2, L_3, L_5, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
@@ -10278,7 +10278,7 @@ extern "C" void FBLikesRetrieveTask_LoadLikes_m930 (FBLikesRetrieveTask_t228 * _
 		HttpMethod_t365 * L_4 = HttpMethod_get_GET_m1747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)FBLikesRetrieveTask_OnUserLikesResult_m932_MethodInfo_var };
 		FacebookDelegate_t350 * L_6 = (FacebookDelegate_t350 *)il2cpp_codegen_object_new (FacebookDelegate_t350_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m2277(L_6, __this, L_5, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m2417(L_6, __this, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		FB_API_m1529(NULL /*static, unused*/, L_3, L_4, L_6, (Dictionary_2_t80 *)NULL, /*hidden argument*/NULL);
 		return;
@@ -10298,8 +10298,8 @@ extern "C" void FBLikesRetrieveTask_OnUserLikesResult_m932 (FBLikesRetrieveTask_
 	{
 		FBResult_t213 * L_0 = ___result;
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, __this, (String_t*) &_stringLiteral350, L_0);
-		GameObject_t284 * L_1 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		GameObject_t284 * L_1 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10317,7 +10317,7 @@ struct GameObject_t284;
 struct FBPostingTask_t229;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<FBPostingTask>()
 // !!0 UnityEngine.GameObject::AddComponent<FBPostingTask>()
-#define GameObject_AddComponent_TisFBPostingTask_t229_m2476(__this, method) (( FBPostingTask_t229 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisFBPostingTask_t229_m2616(__this, method) (( FBPostingTask_t229 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void FBPostingTask::.ctor()
@@ -10356,28 +10356,28 @@ extern "C" void FBPostingTask__ctor_m933 (FBPostingTask_t229 * __this, const Met
 }
 // FBPostingTask FBPostingTask::Cretae()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisFBPostingTask_t229_m2476_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisFBPostingTask_t229_m2616_MethodInfo_var;
 extern "C" FBPostingTask_t229 * FBPostingTask_Cretae_m934 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisFBPostingTask_t229_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483814);
+		GameObject_AddComponent_TisFBPostingTask_t229_m2616_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483814);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral408, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral408, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		FBPostingTask_t229 * L_1 = GameObject_AddComponent_TisFBPostingTask_t229_m2476(L_0, /*hidden argument*/GameObject_AddComponent_TisFBPostingTask_t229_m2476_MethodInfo_var);
+		FBPostingTask_t229 * L_1 = GameObject_AddComponent_TisFBPostingTask_t229_m2616(L_0, /*hidden argument*/GameObject_AddComponent_TisFBPostingTask_t229_m2616_MethodInfo_var);
 		return L_1;
 	}
 }
 // System.Void FBPostingTask::Post(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBInited_m936_MethodInfo_var;
 extern "C" void FBPostingTask_Post_m935 (FBPostingTask_t229 * __this, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, const MethodInfo* method)
 {
@@ -10385,8 +10385,8 @@ extern "C" void FBPostingTask_Post_m935 (FBPostingTask_t229 * __this, String_t* 
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		FBPostingTask_OnFBInited_m936_MethodInfo_var = il2cpp_codegen_method_info_from_index(168);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -10410,7 +10410,7 @@ extern "C" void FBPostingTask_Post_m935 (FBPostingTask_t229 * __this, String_t* 
 		String_t* L_8 = ___reference;
 		__this->____reference_12 = L_8;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_9);
 		bool L_10 = SPFacebook_get_IsInited_m818(L_9, /*hidden argument*/NULL);
 		if (!L_10)
@@ -10426,13 +10426,13 @@ extern "C" void FBPostingTask_Post_m935 (FBPostingTask_t229 * __this, String_t* 
 IL_005f:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_12 = { (void*)FBPostingTask_OnFBInited_m936_MethodInfo_var };
-		EventHandlerFunction_t479 * L_13 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_13, __this, L_12, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_13 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_13, __this, L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_11, (String_t*) &_stringLiteral364, L_13);
-		SPFacebook_t214 * L_14 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_11, (String_t*) &_stringLiteral364, L_13);
+		SPFacebook_t214 * L_14 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_14);
 		SPFacebook_Init_m781(L_14, /*hidden argument*/NULL);
 	}
@@ -10444,8 +10444,8 @@ IL_0084:
 }
 // System.Void FBPostingTask::OnFBInited()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBInited_m936_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuth_m937_MethodInfo_var;
@@ -10455,8 +10455,8 @@ extern "C" void FBPostingTask_OnFBInited_m936 (FBPostingTask_t229 * __this, cons
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		FBPostingTask_OnFBInited_m936_MethodInfo_var = il2cpp_codegen_method_info_from_index(168);
 		FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var = il2cpp_codegen_method_info_from_index(169);
 		FBPostingTask_OnFBAuth_m937_MethodInfo_var = il2cpp_codegen_method_info_from_index(170);
@@ -10464,13 +10464,13 @@ extern "C" void FBPostingTask_OnFBInited_m936 (FBPostingTask_t229 * __this, cons
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_1 = { (void*)FBPostingTask_OnFBInited_m936_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral364, L_2);
-		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral364, L_2);
+		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_3);
 		bool L_4 = SPFacebook_get_IsLoggedIn_m819(L_3, /*hidden argument*/NULL);
 		if (!L_4)
@@ -10486,19 +10486,19 @@ extern "C" void FBPostingTask_OnFBInited_m936 (FBPostingTask_t229 * __this, cons
 IL_0035:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_6 = { (void*)FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var };
-		EventHandlerFunction_t479 * L_7 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_7, __this, L_6, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_7 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_7, __this, L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_5, (String_t*) &_stringLiteral367, L_7);
-		SPFacebook_t214 * L_8 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_5, (String_t*) &_stringLiteral367, L_7);
+		SPFacebook_t214 * L_8 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_9 = { (void*)FBPostingTask_OnFBAuth_m937_MethodInfo_var };
-		EventHandlerFunction_t479 * L_10 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_10, __this, L_9, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_10 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_10, __this, L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_8, (String_t*) &_stringLiteral366, L_10);
-		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_8, (String_t*) &_stringLiteral366, L_10);
+		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_11);
 		SPFacebook_Login_m782(L_11, /*hidden argument*/NULL);
 	}
@@ -10510,9 +10510,9 @@ IL_0075:
 }
 // System.Void FBPostingTask::OnFBAuth()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuth_m937_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnPostFailed_m940_MethodInfo_var;
@@ -10523,9 +10523,9 @@ extern "C" void FBPostingTask_OnFBAuth_m937 (FBPostingTask_t229 * __this, const 
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var = il2cpp_codegen_method_info_from_index(169);
 		FBPostingTask_OnFBAuth_m937_MethodInfo_var = il2cpp_codegen_method_info_from_index(170);
 		FBPostingTask_OnPostFailed_m940_MethodInfo_var = il2cpp_codegen_method_info_from_index(171);
@@ -10534,31 +10534,31 @@ extern "C" void FBPostingTask_OnFBAuth_m937 (FBPostingTask_t229 * __this, const 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_1 = { (void*)FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral367, L_2);
-		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral367, L_2);
+		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_4 = { (void*)FBPostingTask_OnFBAuth_m937_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
-		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
+		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_7 = { (void*)FBPostingTask_OnPostFailed_m940_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_8 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_8, __this, L_7, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_8 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_6, (String_t*) &_stringLiteral327, L_8);
-		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_6, (String_t*) &_stringLiteral327, L_8);
+		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_10 = { (void*)FBPostingTask_OnPost_m939_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_11 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_11, __this, L_10, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_11 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_11, __this, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_9, (String_t*) &_stringLiteral358, L_11);
-		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_9, (String_t*) &_stringLiteral358, L_11);
+		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		String_t* L_13 = (__this->____toId_4);
 		String_t* L_14 = (__this->____link_5);
 		String_t* L_15 = (__this->____linkName_6);
@@ -10575,10 +10575,10 @@ extern "C" void FBPostingTask_OnFBAuth_m937 (FBPostingTask_t229 * __this, const 
 }
 // System.Void FBPostingTask::OnFBAuthFailed()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t213_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var;
 extern const MethodInfo* FBPostingTask_OnFBAuth_m937_MethodInfo_var;
 extern "C" void FBPostingTask_OnFBAuthFailed_m938 (FBPostingTask_t229 * __this, const MethodInfo* method)
@@ -10587,10 +10587,10 @@ extern "C" void FBPostingTask_OnFBAuthFailed_m938 (FBPostingTask_t229 * __this, 
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		FBResult_t213_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var = il2cpp_codegen_method_info_from_index(169);
 		FBPostingTask_OnFBAuth_m937_MethodInfo_var = il2cpp_codegen_method_info_from_index(170);
 		s_Il2CppMethodIntialized = true;
@@ -10598,18 +10598,18 @@ extern "C" void FBPostingTask_OnFBAuthFailed_m938 (FBPostingTask_t229 * __this, 
 	FBResult_t213 * V_0 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_1 = { (void*)FBPostingTask_OnFBAuthFailed_m938_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral367, L_2);
-		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral367, L_2);
+		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_4 = { (void*)FBPostingTask_OnFBAuth_m937_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		FBResult_t213 * L_7 = (FBResult_t213 *)il2cpp_codegen_object_new (FBResult_t213_il2cpp_TypeInfo_var);
@@ -10758,11 +10758,11 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t233_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2481_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2482_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m2483_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2484_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2485_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2621_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2622_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m2623_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2625_MethodInfo_var;
 extern "C" bool U3CRequestU3Ec__Iterator2_MoveNext_m947 (U3CRequestU3Ec__Iterator2_t232 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -10773,11 +10773,11 @@ extern "C" bool U3CRequestU3Ec__Iterator2_MoveNext_m947 (U3CRequestU3Ec__Iterato
 		Enumerator_t233_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
-		Dictionary_2_GetEnumerator_m2481_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483821);
-		Enumerator_get_Current_m2482_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483822);
-		KeyValuePair_2_get_Key_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
-		KeyValuePair_2_get_Value_m2484_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
-		Enumerator_MoveNext_m2485_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483825);
+		Dictionary_2_GetEnumerator_m2621_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483821);
+		Enumerator_get_Current_m2622_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483822);
+		KeyValuePair_2_get_Key_m2623_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
+		KeyValuePair_2_get_Value_m2624_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
+		Enumerator_MoveNext_m2625_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483825);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -10820,12 +10820,12 @@ IL_0021:
 		NullCheck(L_6);
 		WWWForm_t70 * L_7 = (L_6->___form_8);
 		NullCheck(L_7);
-		ByteU5BU5D_t36* L_8 = WWWForm_get_data_m2478(L_7, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_8 = WWWForm_get_data_m2618(L_7, /*hidden argument*/NULL);
 		FB_GraphAPIRequest_t231 * L_9 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_9);
 		Dictionary_2_t80 * L_10 = (L_9->___Headers_7);
 		WWW_t196 * L_11 = (WWW_t196 *)il2cpp_codegen_object_new (WWW_t196_il2cpp_TypeInfo_var);
-		WWW__ctor_m2479(L_11, L_5, L_8, L_10, /*hidden argument*/NULL);
+		WWW__ctor_m2619(L_11, L_5, L_8, L_10, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__0_0 = L_11;
 		WWW_t196 * L_12 = (__this->___U3CwwwU3E__0_0);
 		__this->___U24current_4 = L_12;
@@ -10837,9 +10837,9 @@ IL_0084:
 	{
 		WWW_t196 * L_13 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_13);
-		Dictionary_2_t80 * L_14 = WWW_get_responseHeaders_m2480(L_13, /*hidden argument*/NULL);
+		Dictionary_2_t80 * L_14 = WWW_get_responseHeaders_m2620(L_13, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Enumerator_t233  L_15 = Dictionary_2_GetEnumerator_m2481(L_14, /*hidden argument*/Dictionary_2_GetEnumerator_m2481_MethodInfo_var);
+		Enumerator_t233  L_15 = Dictionary_2_GetEnumerator_m2621(L_14, /*hidden argument*/Dictionary_2_GetEnumerator_m2621_MethodInfo_var);
 		__this->___U3CU24s_30U3E__1_1 = L_15;
 	}
 
@@ -10853,21 +10853,21 @@ IL_009a:
 IL_009f:
 		{
 			Enumerator_t233 * L_16 = &(__this->___U3CU24s_30U3E__1_1);
-			KeyValuePair_2_t234  L_17 = Enumerator_get_Current_m2482(L_16, /*hidden argument*/Enumerator_get_Current_m2482_MethodInfo_var);
+			KeyValuePair_2_t234  L_17 = Enumerator_get_Current_m2622(L_16, /*hidden argument*/Enumerator_get_Current_m2622_MethodInfo_var);
 			__this->___U3CkvU3E__2_2 = L_17;
 			KeyValuePair_2_t234 * L_18 = &(__this->___U3CkvU3E__2_2);
-			String_t* L_19 = KeyValuePair_2_get_Key_m2483(L_18, /*hidden argument*/KeyValuePair_2_get_Key_m2483_MethodInfo_var);
+			String_t* L_19 = KeyValuePair_2_get_Key_m2623(L_18, /*hidden argument*/KeyValuePair_2_get_Key_m2623_MethodInfo_var);
 			KeyValuePair_2_t234 * L_20 = &(__this->___U3CkvU3E__2_2);
-			String_t* L_21 = KeyValuePair_2_get_Value_m2484(L_20, /*hidden argument*/KeyValuePair_2_get_Value_m2484_MethodInfo_var);
+			String_t* L_21 = KeyValuePair_2_get_Value_m2624(L_20, /*hidden argument*/KeyValuePair_2_get_Value_m2624_MethodInfo_var);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_22 = String_Concat_m222(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral418, L_21, /*hidden argument*/NULL);
-			Debug_Log_m2322(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+			Debug_Log_m2462(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 		}
 
 IL_00d5:
 		{
 			Enumerator_t233 * L_23 = &(__this->___U3CU24s_30U3E__1_1);
-			bool L_24 = Enumerator_MoveNext_m2485(L_23, /*hidden argument*/Enumerator_MoveNext_m2485_MethodInfo_var);
+			bool L_24 = Enumerator_MoveNext_m2625(L_23, /*hidden argument*/Enumerator_MoveNext_m2625_MethodInfo_var);
 			if (L_24)
 			{
 				goto IL_009f;
@@ -10904,7 +10904,7 @@ IL_00fb:
 	{
 		WWW_t196 * L_28 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_28);
-		String_t* L_29 = WWW_get_error_m2424(L_28, /*hidden argument*/NULL);
+		String_t* L_29 = WWW_get_error_m2564(L_28, /*hidden argument*/NULL);
 		if (L_29)
 		{
 			goto IL_0141;
@@ -10914,15 +10914,15 @@ IL_00fb:
 		FB_GraphAPIRequest_t231 * L_30 = (__this->___U3CU3Ef__this_5);
 		WWW_t196 * L_31 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_31);
-		String_t* L_32 = WWW_get_text_m2486(L_31, /*hidden argument*/NULL);
+		String_t* L_32 = WWW_get_text_m2626(L_31, /*hidden argument*/NULL);
 		FB_APIResult_t230 * L_33 = (FB_APIResult_t230 *)il2cpp_codegen_object_new (FB_APIResult_t230_il2cpp_TypeInfo_var);
 		FB_APIResult__ctor_m941(L_33, 1, L_32, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, L_30, (String_t*) &_stringLiteral350, L_33);
 		FB_GraphAPIRequest_t231 * L_34 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_34);
-		GameObject_t284 * L_35 = Component_get_gameObject_m2393(L_34, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		GameObject_t284 * L_35 = Component_get_gameObject_m2533(L_34, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 		goto IL_0172;
 	}
 
@@ -10931,15 +10931,15 @@ IL_0141:
 		FB_GraphAPIRequest_t231 * L_36 = (__this->___U3CU3Ef__this_5);
 		WWW_t196 * L_37 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_37);
-		String_t* L_38 = WWW_get_error_m2424(L_37, /*hidden argument*/NULL);
+		String_t* L_38 = WWW_get_error_m2564(L_37, /*hidden argument*/NULL);
 		FB_APIResult_t230 * L_39 = (FB_APIResult_t230 *)il2cpp_codegen_object_new (FB_APIResult_t230_il2cpp_TypeInfo_var);
 		FB_APIResult__ctor_m941(L_39, 0, L_38, /*hidden argument*/NULL);
 		NullCheck(L_36);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, L_36, (String_t*) &_stringLiteral350, L_39);
 		FB_GraphAPIRequest_t231 * L_40 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_40);
-		GameObject_t284 * L_41 = Component_get_gameObject_m2393(L_40, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
+		GameObject_t284 * L_41 = Component_get_gameObject_m2533(L_40, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
 	}
 
 IL_0172:
@@ -10992,14 +10992,14 @@ struct GameObject_t284;
 struct FB_GraphAPIRequest_t231;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<FB_GraphAPIRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<FB_GraphAPIRequest>()
-#define GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2487(__this, method) (( FB_GraphAPIRequest_t231 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2627(__this, method) (( FB_GraphAPIRequest_t231 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void FB_GraphAPIRequest::.ctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
 extern TypeInfo* WWWForm_t70_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2323_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2463_MethodInfo_var;
 extern "C" void FB_GraphAPIRequest__ctor_m950 (FB_GraphAPIRequest_t231 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11008,7 +11008,7 @@ extern "C" void FB_GraphAPIRequest__ctor_m950 (FB_GraphAPIRequest_t231 * __this,
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Dictionary_2_t80_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(101);
 		WWWForm_t70_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(104);
-		Dictionary_2__ctor_m2323_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
+		Dictionary_2__ctor_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11018,10 +11018,10 @@ extern "C" void FB_GraphAPIRequest__ctor_m950 (FB_GraphAPIRequest_t231 * __this,
 		__this->___GetParams_5 = L_0;
 		__this->___requestUrl_6 = (String_t*) &_stringLiteral410;
 		Dictionary_2_t80 * L_1 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2323(L_1, /*hidden argument*/Dictionary_2__ctor_m2323_MethodInfo_var);
+		Dictionary_2__ctor_m2463(L_1, /*hidden argument*/Dictionary_2__ctor_m2463_MethodInfo_var);
 		__this->___Headers_7 = L_1;
 		WWWForm_t70 * L_2 = (WWWForm_t70 *)il2cpp_codegen_object_new (WWWForm_t70_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m2331(L_2, /*hidden argument*/NULL);
+		WWWForm__ctor_m2471(L_2, /*hidden argument*/NULL);
 		__this->___form_8 = L_2;
 		EventDispatcher__ctor_m353(__this, /*hidden argument*/NULL);
 		return;
@@ -11029,28 +11029,28 @@ extern "C" void FB_GraphAPIRequest__ctor_m950 (FB_GraphAPIRequest_t231 * __this,
 }
 // FB_GraphAPIRequest FB_GraphAPIRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2487_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2627_MethodInfo_var;
 extern "C" FB_GraphAPIRequest_t231 * FB_GraphAPIRequest_Create_m951 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2487_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483826);
+		GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2627_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483826);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral411, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral411, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		FB_GraphAPIRequest_t231 * L_1 = GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2487(L_0, /*hidden argument*/GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2487_MethodInfo_var);
+		FB_GraphAPIRequest_t231 * L_1 = GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2627(L_0, /*hidden argument*/GameObject_AddComponent_TisFB_GraphAPIRequest_t231_m2627_MethodInfo_var);
 		return L_1;
 	}
 }
 // System.Void FB_GraphAPIRequest::Send()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_APIResult_t230_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void FB_GraphAPIRequest_Send_m952 (FB_GraphAPIRequest_t231 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11058,12 +11058,12 @@ extern "C" void FB_GraphAPIRequest_Send_m952 (FB_GraphAPIRequest_t231 * __this, 
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		FB_APIResult_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		bool L_1 = SPFacebook_get_IsLoggedIn_m819(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -11073,7 +11073,7 @@ extern "C" void FB_GraphAPIRequest_Send_m952 (FB_GraphAPIRequest_t231 * __this, 
 	}
 	{
 		Object_t * L_2 = FB_GraphAPIRequest_Request_m956(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_2, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_2, /*hidden argument*/NULL);
 		goto IL_0042;
 	}
 
@@ -11082,8 +11082,8 @@ IL_0021:
 		FB_APIResult_t230 * L_3 = (FB_APIResult_t230 *)il2cpp_codegen_object_new (FB_APIResult_t230_il2cpp_TypeInfo_var);
 		FB_APIResult__ctor_m941(L_3, 0, (String_t*) &_stringLiteral412, /*hidden argument*/NULL);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(19 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String,System.Object) */, __this, (String_t*) &_stringLiteral350, L_3);
-		GameObject_t284 * L_4 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		GameObject_t284 * L_4 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0042:
@@ -11135,7 +11135,7 @@ extern "C" void FB_GraphAPIRequest_AddParam_m955 (FB_GraphAPIRequest_t231 * __th
 		String_t* L_1 = ___name;
 		String_t* L_2 = ___value;
 		NullCheck(L_0);
-		WWWForm_AddField_m2333(L_0, L_1, L_2, /*hidden argument*/NULL);
+		WWWForm_AddField_m2473(L_0, L_1, L_2, /*hidden argument*/NULL);
 		bool L_3 = (__this->___IsFirst_4);
 		if (L_3)
 		{
@@ -11243,8 +11243,8 @@ extern TypeInfo* AndroidInstagramManager_t238_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t239_il2cpp_TypeInfo_var;
 extern const MethodInfo* AndroidInstagramManager_U3COnPostingCompleteActionU3Em__12_m963_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2489_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2629_MethodInfo_var;
 extern "C" void AndroidInstagramManager__ctor_m958 (AndroidInstagramManager_t238 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11254,8 +11254,8 @@ extern "C" void AndroidInstagramManager__ctor_m958 (AndroidInstagramManager_t238
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
 		SA_Singleton_1_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(215);
 		AndroidInstagramManager_U3COnPostingCompleteActionU3Em__12_m963_MethodInfo_var = il2cpp_codegen_method_info_from_index(179);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
-		SA_Singleton_1__ctor_m2489_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483829);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		SA_Singleton_1__ctor_m2629_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483829);
 		s_Il2CppMethodIntialized = true;
 	}
 	AndroidInstagramManager_t238 * G_B2_0 = {0};
@@ -11272,7 +11272,7 @@ extern "C" void AndroidInstagramManager__ctor_m958 (AndroidInstagramManager_t238
 	{
 		IntPtr_t L_1 = { (void*)AndroidInstagramManager_U3COnPostingCompleteActionU3Em__12_m963_MethodInfo_var };
 		Action_1_t237 * L_2 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
+		Action_1__ctor_m2628(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
 		((AndroidInstagramManager_t238_StaticFields*)AndroidInstagramManager_t238_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_7 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -11283,7 +11283,7 @@ IL_0019:
 		NullCheck(G_B2_0);
 		G_B2_0->___OnPostingCompleteAction_6 = L_3;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t239_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2489(__this, /*hidden argument*/SA_Singleton_1__ctor_m2489_MethodInfo_var);
+		SA_Singleton_1__ctor_m2629(__this, /*hidden argument*/SA_Singleton_1__ctor_m2629_MethodInfo_var);
 		return;
 	}
 }
@@ -11320,7 +11320,7 @@ extern "C" void AndroidInstagramManager_Share_m960 (AndroidInstagramManager_t238
 	{
 		Texture2D_t65 * L_0 = ___texture;
 		NullCheck(L_0);
-		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2330(L_0, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2470(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		ByteU5BU5D_t36* L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -11370,7 +11370,7 @@ extern "C" void AndroidInstagramManager_OnPostFailed_m962 (AndroidInstagramManag
 	{
 		String_t* L_0 = ___data;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m2392(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m2532(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		V_1 = 1;
 		int32_t L_2 = V_0;
@@ -11460,11 +11460,11 @@ extern TypeInfo* AndroidTwitterManager_t242_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t241_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t243_il2cpp_TypeInfo_var;
 extern const MethodInfo* AndroidTwitterManager_U3COnTwitterInitedActionU3Em__13_m988_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2490_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2630_MethodInfo_var;
 extern const MethodInfo* AndroidTwitterManager_U3COnAuthCompleteActionU3Em__14_m989_MethodInfo_var;
 extern const MethodInfo* AndroidTwitterManager_U3COnPostingCompleteActionU3Em__15_m990_MethodInfo_var;
 extern const MethodInfo* AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__16_m991_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2491_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2631_MethodInfo_var;
 extern "C" void AndroidTwitterManager__ctor_m964 (AndroidTwitterManager_t242 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11475,11 +11475,11 @@ extern "C" void AndroidTwitterManager__ctor_m964 (AndroidTwitterManager_t242 * _
 		Action_1_t241_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(218);
 		SA_Singleton_1_t243_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(219);
 		AndroidTwitterManager_U3COnTwitterInitedActionU3Em__13_m988_MethodInfo_var = il2cpp_codegen_method_info_from_index(182);
-		Action_1__ctor_m2490_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
+		Action_1__ctor_m2630_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
 		AndroidTwitterManager_U3COnAuthCompleteActionU3Em__14_m989_MethodInfo_var = il2cpp_codegen_method_info_from_index(184);
 		AndroidTwitterManager_U3COnPostingCompleteActionU3Em__15_m990_MethodInfo_var = il2cpp_codegen_method_info_from_index(185);
 		AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__16_m991_MethodInfo_var = il2cpp_codegen_method_info_from_index(186);
-		SA_Singleton_1__ctor_m2491_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483835);
+		SA_Singleton_1__ctor_m2631_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483835);
 		s_Il2CppMethodIntialized = true;
 	}
 	AndroidTwitterManager_t242 * G_B2_0 = {0};
@@ -11507,7 +11507,7 @@ extern "C" void AndroidTwitterManager__ctor_m964 (AndroidTwitterManager_t242 * _
 	{
 		IntPtr_t L_3 = { (void*)AndroidTwitterManager_U3COnTwitterInitedActionU3Em__13_m988_MethodInfo_var };
 		Action_1_t241 * L_4 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_4, NULL, L_3, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_4, NULL, L_3, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((AndroidTwitterManager_t242_StaticFields*)AndroidTwitterManager_t242_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_15 = L_4;
 		G_B2_0 = G_B1_0;
 	}
@@ -11528,7 +11528,7 @@ IL_002f:
 	{
 		IntPtr_t L_7 = { (void*)AndroidTwitterManager_U3COnAuthCompleteActionU3Em__14_m989_MethodInfo_var };
 		Action_1_t241 * L_8 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_8, NULL, L_7, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_8, NULL, L_7, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((AndroidTwitterManager_t242_StaticFields*)AndroidTwitterManager_t242_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_16 = L_8;
 		G_B4_0 = G_B3_0;
 	}
@@ -11549,7 +11549,7 @@ IL_0052:
 	{
 		IntPtr_t L_11 = { (void*)AndroidTwitterManager_U3COnPostingCompleteActionU3Em__15_m990_MethodInfo_var };
 		Action_1_t241 * L_12 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_12, NULL, L_11, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_12, NULL, L_11, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((AndroidTwitterManager_t242_StaticFields*)AndroidTwitterManager_t242_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_17 = L_12;
 		G_B6_0 = G_B5_0;
 	}
@@ -11570,7 +11570,7 @@ IL_0075:
 	{
 		IntPtr_t L_15 = { (void*)AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__16_m991_MethodInfo_var };
 		Action_1_t241 * L_16 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_16, NULL, L_15, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_16, NULL, L_15, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((AndroidTwitterManager_t242_StaticFields*)AndroidTwitterManager_t242_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_18 = L_16;
 		G_B8_0 = G_B7_0;
 	}
@@ -11581,7 +11581,7 @@ IL_0098:
 		NullCheck(G_B8_0);
 		G_B8_0->___OnUserDataRequestCompleteAction_14 = L_17;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t243_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2491(__this, /*hidden argument*/SA_Singleton_1__ctor_m2491_MethodInfo_var);
+		SA_Singleton_1__ctor_m2631(__this, /*hidden argument*/SA_Singleton_1__ctor_m2631_MethodInfo_var);
 		return;
 	}
 }
@@ -11589,8 +11589,8 @@ IL_0098:
 extern "C" void AndroidTwitterManager_Awake_m965 (AndroidTwitterManager_t242 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11689,7 +11689,7 @@ extern "C" void AndroidTwitterManager_LoadUserData_m969 (AndroidTwitterManager_t
 
 IL_0015:
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral320, /*hidden argument*/NULL);
 		TWResult_t251 * L_1 = (TWResult_t251 *)il2cpp_codegen_object_new (TWResult_t251_il2cpp_TypeInfo_var);
 		TWResult__ctor_m1008(L_1, 0, (String_t*)NULL, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -11725,7 +11725,7 @@ extern "C" void AndroidTwitterManager_Post_m970 (AndroidTwitterManager_t242 * __
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral419, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral419, /*hidden argument*/NULL);
 		TWResult_t251 * L_1 = (TWResult_t251 *)il2cpp_codegen_object_new (TWResult_t251_il2cpp_TypeInfo_var);
 		TWResult__ctor_m1008(L_1, 0, (String_t*)NULL, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -11768,7 +11768,7 @@ extern "C" void AndroidTwitterManager_Post_m971 (AndroidTwitterManager_t242 * __
 		}
 	}
 	{
-		Debug_LogWarning_m2441(NULL /*static, unused*/, (String_t*) &_stringLiteral419, /*hidden argument*/NULL);
+		Debug_LogWarning_m2581(NULL /*static, unused*/, (String_t*) &_stringLiteral419, /*hidden argument*/NULL);
 		TWResult_t251 * L_1 = (TWResult_t251 *)il2cpp_codegen_object_new (TWResult_t251_il2cpp_TypeInfo_var);
 		TWResult__ctor_m1008(L_1, 0, (String_t*)NULL, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -11785,7 +11785,7 @@ IL_0036:
 	{
 		Texture2D_t65 * L_5 = ___texture;
 		NullCheck(L_5);
-		ByteU5BU5D_t36* L_6 = Texture2D_EncodeToPNG_m2330(L_5, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_6 = Texture2D_EncodeToPNG_m2470(L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
 		ByteU5BU5D_t36* L_7 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -12062,27 +12062,27 @@ extern "C" void AndroidTwitterManager_OnUserDataLoadFailed_m986 (AndroidTwitterM
 	}
 }
 // System.Void AndroidTwitterManager::OnAuthInfoReceived(System.String)
-extern TypeInfo* CharU5BU5D_t512_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t536_il2cpp_TypeInfo_var;
 extern "C" void AndroidTwitterManager_OnAuthInfoReceived_m987 (AndroidTwitterManager_t242 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(109);
+		CharU5BU5D_t536_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(109);
 		s_Il2CppMethodIntialized = true;
 	}
 	StringU5BU5D_t45* V_0 = {0};
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral422, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral422, /*hidden argument*/NULL);
 		String_t* L_0 = ___data;
-		CharU5BU5D_t512* L_1 = ((CharU5BU5D_t512*)SZArrayNew(CharU5BU5D_t512_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t536* L_1 = ((CharU5BU5D_t536*)SZArrayNew(CharU5BU5D_t536_il2cpp_TypeInfo_var, 1));
 		NullCheck((String_t*) &_stringLiteral332);
 		uint16_t L_2 = String_get_Chars_m173((String_t*) &_stringLiteral332, 0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0)) = (uint16_t)L_2;
 		NullCheck(L_0);
-		StringU5BU5D_t45* L_3 = String_Split_m2340(L_0, L_1, /*hidden argument*/NULL);
+		StringU5BU5D_t45* L_3 = String_Split_m2480(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_3;
 		StringU5BU5D_t45* L_4 = V_0;
 		NullCheck(L_4);
@@ -12168,7 +12168,7 @@ extern "C" Object_t * U3CLoadU3Ec__Iterator3_System_Collections_IEnumerator_get_
 	}
 }
 // System.Boolean TwitterApplicationOnlyToken/<Load>c__Iterator3::MoveNext()
-extern TypeInfo* Encoding_t531_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t555_il2cpp_TypeInfo_var;
 extern TypeInfo* SocialPlatfromSettings_t110_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
@@ -12180,7 +12180,7 @@ extern "C" bool U3CLoadU3Ec__Iterator3_MoveNext_m995 (U3CLoadU3Ec__Iterator3_t24
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t531_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(151);
+		Encoding_t555_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(151);
 		SocialPlatfromSettings_t110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(134);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
@@ -12212,8 +12212,8 @@ extern "C" bool U3CLoadU3Ec__Iterator3_MoveNext_m995 (U3CLoadU3Ec__Iterator3_t24
 IL_0021:
 	{
 		__this->___U3CurlU3E__0_0 = (String_t*) &_stringLiteral424;
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t531_il2cpp_TypeInfo_var);
-		Encoding_t531 * L_2 = Encoding_get_UTF8_m2407(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t555_il2cpp_TypeInfo_var);
+		Encoding_t555 * L_2 = Encoding_get_UTF8_m2547(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SocialPlatfromSettings_t110_il2cpp_TypeInfo_var);
 		SocialPlatfromSettings_t110 * L_3 = SocialPlatfromSettings_get_Instance_m605(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
@@ -12248,20 +12248,20 @@ IL_0021:
 		NullCheck(L_16);
 		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral426, L_18);
 		WWWForm_t70 * L_19 = (WWWForm_t70 *)il2cpp_codegen_object_new (WWWForm_t70_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m2331(L_19, /*hidden argument*/NULL);
+		WWWForm__ctor_m2471(L_19, /*hidden argument*/NULL);
 		__this->___U3CformU3E__3_3 = L_19;
 		WWWForm_t70 * L_20 = (__this->___U3CformU3E__3_3);
 		NullCheck(L_20);
-		WWWForm_AddField_m2333(L_20, (String_t*) &_stringLiteral428, (String_t*) &_stringLiteral429, /*hidden argument*/NULL);
+		WWWForm_AddField_m2473(L_20, (String_t*) &_stringLiteral428, (String_t*) &_stringLiteral429, /*hidden argument*/NULL);
 		String_t* L_21 = (__this->___U3CurlU3E__0_0);
 		WWWForm_t70 * L_22 = (__this->___U3CformU3E__3_3);
 		NullCheck(L_22);
-		ByteU5BU5D_t36* L_23 = WWWForm_get_data_m2478(L_22, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_23 = WWWForm_get_data_m2618(L_22, /*hidden argument*/NULL);
 		TwitterApplicationOnlyToken_t245 * L_24 = (__this->___U3CU3Ef__this_8);
 		NullCheck(L_24);
 		Dictionary_2_t80 * L_25 = (L_24->___Headers_10);
 		WWW_t196 * L_26 = (WWW_t196 *)il2cpp_codegen_object_new (WWW_t196_il2cpp_TypeInfo_var);
-		WWW__ctor_m2479(L_26, L_21, L_23, L_25, /*hidden argument*/NULL);
+		WWW__ctor_m2619(L_26, L_21, L_23, L_25, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__4_4 = L_26;
 		WWW_t196 * L_27 = (__this->___U3CwwwU3E__4_4);
 		__this->___U24current_7 = L_27;
@@ -12273,7 +12273,7 @@ IL_0119:
 	{
 		WWW_t196 * L_28 = (__this->___U3CwwwU3E__4_4);
 		NullCheck(L_28);
-		String_t* L_29 = WWW_get_error_m2424(L_28, /*hidden argument*/NULL);
+		String_t* L_29 = WWW_get_error_m2564(L_28, /*hidden argument*/NULL);
 		if (L_29)
 		{
 			goto IL_0179;
@@ -12282,7 +12282,7 @@ IL_0119:
 	{
 		WWW_t196 * L_30 = (__this->___U3CwwwU3E__4_4);
 		NullCheck(L_30);
-		String_t* L_31 = WWW_get_text_m2486(L_30, /*hidden argument*/NULL);
+		String_t* L_31 = WWW_get_text_m2626(L_30, /*hidden argument*/NULL);
 		Object_t * L_32 = Json_Deserialize_m762(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		__this->___U3CmapU3E__5_5 = ((Dictionary_2_t244 *)IsInst(L_32, Dictionary_2_t244_il2cpp_TypeInfo_var));
 		TwitterApplicationOnlyToken_t245 * L_33 = (__this->___U3CU3Ef__this_8);
@@ -12294,7 +12294,7 @@ IL_0119:
 		TwitterApplicationOnlyToken_t245 * L_36 = (__this->___U3CU3Ef__this_8);
 		NullCheck(L_36);
 		String_t* L_37 = (L_36->____currentToken_9);
-		PlayerPrefs_SetString_m2492(NULL /*static, unused*/, (String_t*) &_stringLiteral423, L_37, /*hidden argument*/NULL);
+		PlayerPrefs_SetString_m2632(NULL /*static, unused*/, (String_t*) &_stringLiteral423, L_37, /*hidden argument*/NULL);
 	}
 
 IL_0179:
@@ -12353,8 +12353,8 @@ extern "C" void U3CLoadU3Ec__Iterator3_Reset_m997 (U3CLoadU3Ec__Iterator3_t246 *
 // System.Void TwitterApplicationOnlyToken::.ctor()
 extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t247_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2323_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2493_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2463_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2633_MethodInfo_var;
 extern "C" void TwitterApplicationOnlyToken__ctor_m998 (TwitterApplicationOnlyToken_t245 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -12362,16 +12362,16 @@ extern "C" void TwitterApplicationOnlyToken__ctor_m998 (TwitterApplicationOnlyTo
 	{
 		Dictionary_2_t80_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(101);
 		SA_Singleton_1_t247_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(222);
-		Dictionary_2__ctor_m2323_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
-		SA_Singleton_1__ctor_m2493_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483836);
+		Dictionary_2__ctor_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
+		SA_Singleton_1__ctor_m2633_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483836);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Dictionary_2_t80 * L_0 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2323(L_0, /*hidden argument*/Dictionary_2__ctor_m2323_MethodInfo_var);
+		Dictionary_2__ctor_m2463(L_0, /*hidden argument*/Dictionary_2__ctor_m2463_MethodInfo_var);
 		__this->___Headers_10 = L_0;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t247_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2493(__this, /*hidden argument*/SA_Singleton_1__ctor_m2493_MethodInfo_var);
+		SA_Singleton_1__ctor_m2633(__this, /*hidden argument*/SA_Singleton_1__ctor_m2633_MethodInfo_var);
 		return;
 	}
 }
@@ -12379,8 +12379,8 @@ extern "C" void TwitterApplicationOnlyToken__ctor_m998 (TwitterApplicationOnlyTo
 extern "C" void TwitterApplicationOnlyToken_Awake_m999 (TwitterApplicationOnlyToken_t245 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12389,7 +12389,7 @@ extern "C" void TwitterApplicationOnlyToken_RetrieveToken_m1000 (TwitterApplicat
 {
 	{
 		Object_t * L_0 = TwitterApplicationOnlyToken_Load_m1002(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12404,14 +12404,14 @@ extern "C" String_t* TwitterApplicationOnlyToken_get_currentToken_m1001 (Twitter
 		}
 	}
 	{
-		bool L_1 = PlayerPrefs_HasKey_m2494(NULL /*static, unused*/, (String_t*) &_stringLiteral423, /*hidden argument*/NULL);
+		bool L_1 = PlayerPrefs_HasKey_m2634(NULL /*static, unused*/, (String_t*) &_stringLiteral423, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
 		}
 	}
 	{
-		String_t* L_2 = PlayerPrefs_GetString_m2495(NULL /*static, unused*/, (String_t*) &_stringLiteral423, /*hidden argument*/NULL);
+		String_t* L_2 = PlayerPrefs_GetString_m2635(NULL /*static, unused*/, (String_t*) &_stringLiteral423, /*hidden argument*/NULL);
 		__this->____currentToken_9 = L_2;
 	}
 
@@ -12467,8 +12467,8 @@ extern "C" Object_t * TwitterApplicationOnlyToken_Load_m1002 (TwitterApplication
 extern TypeInfo* Dictionary_2_t248_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterDataCash_t250_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t249_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2496_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2497_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2636_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2637_MethodInfo_var;
 extern "C" void TwitterDataCash__cctor_m1003 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -12477,16 +12477,16 @@ extern "C" void TwitterDataCash__cctor_m1003 (Object_t * __this /* static, unuse
 		Dictionary_2_t248_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(225);
 		TwitterDataCash_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(226);
 		Dictionary_2_t249_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(227);
-		Dictionary_2__ctor_m2496_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483837);
-		Dictionary_2__ctor_m2497_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483838);
+		Dictionary_2__ctor_m2636_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483837);
+		Dictionary_2__ctor_m2637_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483838);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Dictionary_2_t248 * L_0 = (Dictionary_2_t248 *)il2cpp_codegen_object_new (Dictionary_2_t248_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2496(L_0, /*hidden argument*/Dictionary_2__ctor_m2496_MethodInfo_var);
+		Dictionary_2__ctor_m2636(L_0, /*hidden argument*/Dictionary_2__ctor_m2636_MethodInfo_var);
 		((TwitterDataCash_t250_StaticFields*)TwitterDataCash_t250_il2cpp_TypeInfo_var->static_fields)->___tweets_0 = L_0;
 		Dictionary_2_t249 * L_1 = (Dictionary_2_t249 *)il2cpp_codegen_object_new (Dictionary_2_t249_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2497(L_1, /*hidden argument*/Dictionary_2__ctor_m2497_MethodInfo_var);
+		Dictionary_2__ctor_m2637(L_1, /*hidden argument*/Dictionary_2__ctor_m2637_MethodInfo_var);
 		((TwitterDataCash_t250_StaticFields*)TwitterDataCash_t250_il2cpp_TypeInfo_var->static_fields)->___users_1 = L_1;
 		return;
 	}
@@ -12706,9 +12706,9 @@ extern TypeInfo* List_1_t252_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t253_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2498_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m2499_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m2336_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2638_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2639_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2476_MethodInfo_var;
 extern "C" void TW_APIRequstResult__ctor_m1011 (TW_APIRequstResult_t254 * __this, bool ___IsResSucceeded, String_t* ___resData, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -12718,20 +12718,20 @@ extern "C" void TW_APIRequstResult__ctor_m1011 (TW_APIRequstResult_t254 * __this
 		List_1_t253_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(229);
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		List_1__ctor_m2498_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
-		List_1__ctor_m2499_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483840);
-		List_1__ctor_m2336_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
+		List_1__ctor_m2638_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
+		List_1__ctor_m2639_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483840);
+		List_1__ctor_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		List_1_t252 * L_0 = (List_1_t252 *)il2cpp_codegen_object_new (List_1_t252_il2cpp_TypeInfo_var);
-		List_1__ctor_m2498(L_0, /*hidden argument*/List_1__ctor_m2498_MethodInfo_var);
+		List_1__ctor_m2638(L_0, /*hidden argument*/List_1__ctor_m2638_MethodInfo_var);
 		__this->___tweets_0 = L_0;
 		List_1_t253 * L_1 = (List_1_t253 *)il2cpp_codegen_object_new (List_1_t253_il2cpp_TypeInfo_var);
-		List_1__ctor_m2499(L_1, /*hidden argument*/List_1__ctor_m2499_MethodInfo_var);
+		List_1__ctor_m2639(L_1, /*hidden argument*/List_1__ctor_m2639_MethodInfo_var);
 		__this->___users_1 = L_1;
 		List_1_t73 * L_2 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_2, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_2, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___ids_2 = L_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -12787,14 +12787,14 @@ extern "C" void TweetTemplate__ctor_m1014 (TweetTemplate_t255 * __this, const Me
 
 
 // System.Void TwitterStatus::.ctor(System.Collections.IDictionary)
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
 extern "C" void TwitterStatus__ctor_m1015 (TwitterStatus_t256 * __this, Object_t * ___JSON, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -12805,14 +12805,14 @@ extern "C" void TwitterStatus__ctor_m1015 (TwitterStatus_t256 * __this, Object_t
 		__this->____rawJSON_0 = L_1;
 		Object_t * L_2 = ___JSON;
 		NullCheck(L_2);
-		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral431);
+		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral431);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_4 = Convert_ToString_m2443(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = Convert_ToString_m2583(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		__this->____text_1 = L_4;
 		Object_t * L_5 = ___JSON;
 		NullCheck(L_5);
-		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral432);
-		String_t* L_7 = Convert_ToString_m2443(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral432);
+		String_t* L_7 = Convert_ToString_m2583(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		__this->____geo_2 = L_7;
 		return;
 	}
@@ -12864,7 +12864,7 @@ extern "C" String_t* TwitterStatus_get_geo_m1018 (TwitterStatus_t256 * __this, c
 
 
 // System.Void TwitterUserInfo::.ctor(System.String)
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterStatus_t256_il2cpp_TypeInfo_var;
 extern "C" void TwitterUserInfo__ctor_m1019 (TwitterUserInfo_t240 * __this, String_t* ___data, const MethodInfo* method)
@@ -12872,194 +12872,194 @@ extern "C" void TwitterUserInfo__ctor_m1019 (TwitterUserInfo_t240 * __this, Stri
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
 		TwitterStatus_t256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(230);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
 	{
-		Color_t257  L_0 = Color_get_clear_m2500(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t257  L_0 = Color_get_clear_m2640(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____profile_background_color_17 = L_0;
-		Color_t257  L_1 = Color_get_clear_m2500(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t257  L_1 = Color_get_clear_m2640(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____profile_text_color_18 = L_1;
 		EventDispatcherBase__ctor_m379(__this, /*hidden argument*/NULL);
 		String_t* L_2 = ___data;
 		__this->____rawJSON_10 = L_2;
 		String_t* L_3 = (__this->____rawJSON_10);
 		Object_t * L_4 = Json_Deserialize_m762(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-		V_0 = ((Object_t *)IsInst(L_4, IDictionary_t488_il2cpp_TypeInfo_var));
+		V_0 = ((Object_t *)IsInst(L_4, IDictionary_t512_il2cpp_TypeInfo_var));
 		Object_t * L_5 = V_0;
 		NullCheck(L_5);
-		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral51);
+		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral51);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_7 = Convert_ToString_m2443(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = Convert_ToString_m2583(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		__this->____id_4 = L_7;
 		Object_t * L_8 = V_0;
 		NullCheck(L_8);
-		Object_t * L_9 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral337);
-		String_t* L_10 = Convert_ToString_m2443(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		Object_t * L_9 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral337);
+		String_t* L_10 = Convert_ToString_m2583(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		__this->____name_6 = L_10;
 		Object_t * L_11 = V_0;
 		NullCheck(L_11);
-		Object_t * L_12 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_11, (String_t*) &_stringLiteral433);
-		String_t* L_13 = Convert_ToString_m2443(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Object_t * L_12 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_11, (String_t*) &_stringLiteral433);
+		String_t* L_13 = Convert_ToString_m2583(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		__this->____description_5 = L_13;
 		Object_t * L_14 = V_0;
 		NullCheck(L_14);
-		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral434);
-		String_t* L_16 = Convert_ToString_m2443(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral434);
+		String_t* L_16 = Convert_ToString_m2583(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		__this->____screen_name_7 = L_16;
 		Object_t * L_17 = V_0;
 		NullCheck(L_17);
-		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral435);
-		String_t* L_19 = Convert_ToString_m2443(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral435);
+		String_t* L_19 = Convert_ToString_m2583(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		__this->____lang_9 = L_19;
 		Object_t * L_20 = V_0;
 		NullCheck(L_20);
-		Object_t * L_21 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral402);
-		String_t* L_22 = Convert_ToString_m2443(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		Object_t * L_21 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral402);
+		String_t* L_22 = Convert_ToString_m2583(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		__this->____location_8 = L_22;
 		Object_t * L_23 = V_0;
 		NullCheck(L_23);
-		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral436);
-		String_t* L_25 = Convert_ToString_m2443(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral436);
+		String_t* L_25 = Convert_ToString_m2583(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		__this->____profile_image_url_11 = L_25;
 		Object_t * L_26 = V_0;
 		NullCheck(L_26);
-		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral437);
-		String_t* L_28 = Convert_ToString_m2443(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral437);
+		String_t* L_28 = Convert_ToString_m2583(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 		__this->____profile_image_url_https_12 = L_28;
 		Object_t * L_29 = V_0;
 		NullCheck(L_29);
-		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral438);
-		String_t* L_31 = Convert_ToString_m2443(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral438);
+		String_t* L_31 = Convert_ToString_m2583(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 		__this->____profile_background_image_url_13 = L_31;
 		Object_t * L_32 = V_0;
 		NullCheck(L_32);
-		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral439);
-		String_t* L_34 = Convert_ToString_m2443(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral439);
+		String_t* L_34 = Convert_ToString_m2583(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		__this->____profile_background_image_url_https_14 = L_34;
 		Object_t * L_35 = V_0;
 		NullCheck(L_35);
-		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral440);
-		int32_t L_37 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral440);
+		int32_t L_37 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		__this->____friends_count_19 = L_37;
 		Object_t * L_38 = V_0;
 		NullCheck(L_38);
-		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral441);
-		int32_t L_40 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral441);
+		int32_t L_40 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 		__this->____statuses_count_20 = L_40;
 		Object_t * L_41 = V_0;
 		NullCheck(L_41);
-		Object_t * L_42 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_41, (String_t*) &_stringLiteral442);
-		String_t* L_43 = Convert_ToString_m2443(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+		Object_t * L_42 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_41, (String_t*) &_stringLiteral442);
+		String_t* L_43 = Convert_ToString_m2583(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 		Color_t257  L_44 = TwitterUserInfo_HexToColor_m1043(__this, L_43, /*hidden argument*/NULL);
 		__this->____profile_text_color_18 = L_44;
 		Object_t * L_45 = V_0;
 		NullCheck(L_45);
-		Object_t * L_46 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_45, (String_t*) &_stringLiteral443);
-		String_t* L_47 = Convert_ToString_m2443(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
+		Object_t * L_46 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_45, (String_t*) &_stringLiteral443);
+		String_t* L_47 = Convert_ToString_m2583(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
 		Color_t257  L_48 = TwitterUserInfo_HexToColor_m1043(__this, L_47, /*hidden argument*/NULL);
 		__this->____profile_background_color_17 = L_48;
 		Object_t * L_49 = V_0;
 		NullCheck(L_49);
-		Object_t * L_50 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_49, (String_t*) &_stringLiteral444);
+		Object_t * L_50 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_49, (String_t*) &_stringLiteral444);
 		TwitterStatus_t256 * L_51 = (TwitterStatus_t256 *)il2cpp_codegen_object_new (TwitterStatus_t256_il2cpp_TypeInfo_var);
-		TwitterStatus__ctor_m1015(L_51, ((Object_t *)IsInst(L_50, IDictionary_t488_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		TwitterStatus__ctor_m1015(L_51, ((Object_t *)IsInst(L_50, IDictionary_t512_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		__this->____status_21 = L_51;
 		return;
 	}
 }
 // System.Void TwitterUserInfo::.ctor(System.Collections.IDictionary)
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
 extern "C" void TwitterUserInfo__ctor_m1020 (TwitterUserInfo_t240 * __this, Object_t * ___JSON, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Color_t257  L_0 = Color_get_clear_m2500(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t257  L_0 = Color_get_clear_m2640(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____profile_background_color_17 = L_0;
-		Color_t257  L_1 = Color_get_clear_m2500(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t257  L_1 = Color_get_clear_m2640(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____profile_text_color_18 = L_1;
 		EventDispatcherBase__ctor_m379(__this, /*hidden argument*/NULL);
 		Object_t * L_2 = ___JSON;
 		NullCheck(L_2);
-		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral51);
+		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral51);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		String_t* L_4 = Convert_ToString_m2443(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = Convert_ToString_m2583(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		__this->____id_4 = L_4;
 		Object_t * L_5 = ___JSON;
 		NullCheck(L_5);
-		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral337);
-		String_t* L_7 = Convert_ToString_m2443(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral337);
+		String_t* L_7 = Convert_ToString_m2583(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		__this->____name_6 = L_7;
 		Object_t * L_8 = ___JSON;
 		NullCheck(L_8);
-		Object_t * L_9 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral433);
-		String_t* L_10 = Convert_ToString_m2443(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		Object_t * L_9 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral433);
+		String_t* L_10 = Convert_ToString_m2583(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		__this->____description_5 = L_10;
 		Object_t * L_11 = ___JSON;
 		NullCheck(L_11);
-		Object_t * L_12 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_11, (String_t*) &_stringLiteral434);
-		String_t* L_13 = Convert_ToString_m2443(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Object_t * L_12 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_11, (String_t*) &_stringLiteral434);
+		String_t* L_13 = Convert_ToString_m2583(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		__this->____screen_name_7 = L_13;
 		Object_t * L_14 = ___JSON;
 		NullCheck(L_14);
-		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral435);
-		String_t* L_16 = Convert_ToString_m2443(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral435);
+		String_t* L_16 = Convert_ToString_m2583(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		__this->____lang_9 = L_16;
 		Object_t * L_17 = ___JSON;
 		NullCheck(L_17);
-		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral402);
-		String_t* L_19 = Convert_ToString_m2443(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Object_t * L_18 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_17, (String_t*) &_stringLiteral402);
+		String_t* L_19 = Convert_ToString_m2583(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		__this->____location_8 = L_19;
 		Object_t * L_20 = ___JSON;
 		NullCheck(L_20);
-		Object_t * L_21 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral436);
-		String_t* L_22 = Convert_ToString_m2443(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		Object_t * L_21 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral436);
+		String_t* L_22 = Convert_ToString_m2583(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		__this->____profile_image_url_11 = L_22;
 		Object_t * L_23 = ___JSON;
 		NullCheck(L_23);
-		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral437);
-		String_t* L_25 = Convert_ToString_m2443(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral437);
+		String_t* L_25 = Convert_ToString_m2583(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		__this->____profile_image_url_https_12 = L_25;
 		Object_t * L_26 = ___JSON;
 		NullCheck(L_26);
-		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral438);
-		String_t* L_28 = Convert_ToString_m2443(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral438);
+		String_t* L_28 = Convert_ToString_m2583(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 		__this->____profile_background_image_url_13 = L_28;
 		Object_t * L_29 = ___JSON;
 		NullCheck(L_29);
-		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral439);
-		String_t* L_31 = Convert_ToString_m2443(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral439);
+		String_t* L_31 = Convert_ToString_m2583(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 		__this->____profile_background_image_url_https_14 = L_31;
 		Object_t * L_32 = ___JSON;
 		NullCheck(L_32);
-		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral440);
-		int32_t L_34 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+		Object_t * L_33 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_32, (String_t*) &_stringLiteral440);
+		int32_t L_34 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		__this->____friends_count_19 = L_34;
 		Object_t * L_35 = ___JSON;
 		NullCheck(L_35);
-		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral441);
-		int32_t L_37 = Convert_ToInt32_m2467(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral441);
+		int32_t L_37 = Convert_ToInt32_m2607(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		__this->____statuses_count_20 = L_37;
 		Object_t * L_38 = ___JSON;
 		NullCheck(L_38);
-		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral442);
-		String_t* L_40 = Convert_ToString_m2443(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral442);
+		String_t* L_40 = Convert_ToString_m2583(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 		Color_t257  L_41 = TwitterUserInfo_HexToColor_m1043(__this, L_40, /*hidden argument*/NULL);
 		__this->____profile_text_color_18 = L_41;
 		Object_t * L_42 = ___JSON;
 		NullCheck(L_42);
-		Object_t * L_43 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t488_il2cpp_TypeInfo_var, L_42, (String_t*) &_stringLiteral443);
-		String_t* L_44 = Convert_ToString_m2443(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
+		Object_t * L_43 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t512_il2cpp_TypeInfo_var, L_42, (String_t*) &_stringLiteral443);
+		String_t* L_44 = Convert_ToString_m2583(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
 		Color_t257  L_45 = TwitterUserInfo_HexToColor_m1043(__this, L_44, /*hidden argument*/NULL);
 		__this->____profile_background_color_17 = L_45;
 		return;
@@ -13068,7 +13068,7 @@ extern "C" void TwitterUserInfo__ctor_m1020 (TwitterUserInfo_t240 * __this, Obje
 // System.Void TwitterUserInfo::LoadProfileImage()
 extern TypeInfo* Action_1_t199_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterUserInfo_OnProfileImageLoaded_m1041_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2408_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2548_MethodInfo_var;
 extern "C" void TwitterUserInfo_LoadProfileImage_m1021 (TwitterUserInfo_t240 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13076,13 +13076,13 @@ extern "C" void TwitterUserInfo_LoadProfileImage_m1021 (TwitterUserInfo_t240 * _
 	{
 		Action_1_t199_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(153);
 		TwitterUserInfo_OnProfileImageLoaded_m1041_MethodInfo_var = il2cpp_codegen_method_info_from_index(193);
-		Action_1__ctor_m2408_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		Action_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
 		s_Il2CppMethodIntialized = true;
 	}
 	WWWTextureLoader_t197 * V_0 = {0};
 	{
 		Texture2D_t65 * L_0 = (__this->____profile_image_15);
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -13100,7 +13100,7 @@ IL_001d:
 		WWWTextureLoader_t197 * L_3 = V_0;
 		IntPtr_t L_4 = { (void*)TwitterUserInfo_OnProfileImageLoaded_m1041_MethodInfo_var };
 		Action_1_t199 * L_5 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_3);
 		WWWTextureLoader_add_OnLoad_m773(L_3, L_5, /*hidden argument*/NULL);
 		WWWTextureLoader_t197 * L_6 = V_0;
@@ -13113,7 +13113,7 @@ IL_001d:
 // System.Void TwitterUserInfo::LoadBackgroundImage()
 extern TypeInfo* Action_1_t199_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterUserInfo_OnProfileBackgroundLoaded_m1042_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2408_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2548_MethodInfo_var;
 extern "C" void TwitterUserInfo_LoadBackgroundImage_m1022 (TwitterUserInfo_t240 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13121,13 +13121,13 @@ extern "C" void TwitterUserInfo_LoadBackgroundImage_m1022 (TwitterUserInfo_t240 
 	{
 		Action_1_t199_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(153);
 		TwitterUserInfo_OnProfileBackgroundLoaded_m1042_MethodInfo_var = il2cpp_codegen_method_info_from_index(194);
-		Action_1__ctor_m2408_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		Action_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
 		s_Il2CppMethodIntialized = true;
 	}
 	WWWTextureLoader_t197 * V_0 = {0};
 	{
 		Texture2D_t65 * L_0 = (__this->____profile_background_16);
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -13145,7 +13145,7 @@ IL_001d:
 		WWWTextureLoader_t197 * L_3 = V_0;
 		IntPtr_t L_4 = { (void*)TwitterUserInfo_OnProfileBackgroundLoaded_m1042_MethodInfo_var };
 		Action_1_t199 * L_5 = (Action_1_t199 *)il2cpp_codegen_object_new (Action_1_t199_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2408(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2408_MethodInfo_var);
+		Action_1__ctor_m2548(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2548_MethodInfo_var);
 		NullCheck(L_3);
 		WWWTextureLoader_add_OnLoad_m773(L_3, L_5, /*hidden argument*/NULL);
 		WWWTextureLoader_t197 * L_6 = V_0;
@@ -13329,24 +13329,24 @@ extern "C" Color_t257  TwitterUserInfo_HexToColor_m1043 (TwitterUserInfo_t240 * 
 		String_t* L_0 = ___hex;
 		NullCheck(L_0);
 		String_t* L_1 = String_Substring_m184(L_0, 0, 2, /*hidden argument*/NULL);
-		uint8_t L_2 = Byte_Parse_m2501(NULL /*static, unused*/, L_1, ((int32_t)515), /*hidden argument*/NULL);
+		uint8_t L_2 = Byte_Parse_m2641(NULL /*static, unused*/, L_1, ((int32_t)515), /*hidden argument*/NULL);
 		V_0 = L_2;
 		String_t* L_3 = ___hex;
 		NullCheck(L_3);
 		String_t* L_4 = String_Substring_m184(L_3, 2, 2, /*hidden argument*/NULL);
-		uint8_t L_5 = Byte_Parse_m2501(NULL /*static, unused*/, L_4, ((int32_t)515), /*hidden argument*/NULL);
+		uint8_t L_5 = Byte_Parse_m2641(NULL /*static, unused*/, L_4, ((int32_t)515), /*hidden argument*/NULL);
 		V_1 = L_5;
 		String_t* L_6 = ___hex;
 		NullCheck(L_6);
 		String_t* L_7 = String_Substring_m184(L_6, 4, 2, /*hidden argument*/NULL);
-		uint8_t L_8 = Byte_Parse_m2501(NULL /*static, unused*/, L_7, ((int32_t)515), /*hidden argument*/NULL);
+		uint8_t L_8 = Byte_Parse_m2641(NULL /*static, unused*/, L_7, ((int32_t)515), /*hidden argument*/NULL);
 		V_2 = L_8;
 		uint8_t L_9 = V_0;
 		uint8_t L_10 = V_1;
 		uint8_t L_11 = V_2;
-		Color32_t548  L_12 = {0};
-		Color32__ctor_m2502(&L_12, L_9, L_10, L_11, ((int32_t)255), /*hidden argument*/NULL);
-		Color_t257  L_13 = Color32_op_Implicit_m2503(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Color32_t572  L_12 = {0};
+		Color32__ctor_m2642(&L_12, L_9, L_10, L_11, ((int32_t)255), /*hidden argument*/NULL);
+		Color_t257  L_13 = Color32_op_Implicit_m2643(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		return L_13;
 	}
 }
@@ -13372,14 +13372,14 @@ extern "C" Color_t257  TwitterUserInfo_HexToColor_m1043 (TwitterUserInfo_t240 * 
 extern "C" void TWAPITest__ctor_m1044 (TWAPITest_t258 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void TWAPITest::Start()
 extern TypeInfo* Action_1_t268_il2cpp_TypeInfo_var;
 extern const MethodInfo* TWAPITest_OnResult_m1046_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2504_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2644_MethodInfo_var;
 extern "C" void TWAPITest_Start_m1045 (TWAPITest_t258 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13387,7 +13387,7 @@ extern "C" void TWAPITest_Start_m1045 (TWAPITest_t258 * __this, const MethodInfo
 	{
 		Action_1_t268_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(232);
 		TWAPITest_OnResult_m1046_MethodInfo_var = il2cpp_codegen_method_info_from_index(195);
-		Action_1__ctor_m2504_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
+		Action_1__ctor_m2644_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
 		s_Il2CppMethodIntialized = true;
 	}
 	TW_OAuthAPIRequest_t264 * V_0 = {0};
@@ -13406,8 +13406,8 @@ extern "C" void TWAPITest_Start_m1045 (TWAPITest_t258 * __this, const MethodInfo
 		Action_1_t268 * L_5 = (L_4->___OnResult_2);
 		IntPtr_t L_6 = { (void*)TWAPITest_OnResult_m1046_MethodInfo_var };
 		Action_1_t268 * L_7 = (Action_1_t268 *)il2cpp_codegen_object_new (Action_1_t268_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2504(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m2504_MethodInfo_var);
-		Delegate_t538 * L_8 = Delegate_Combine_m2428(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		Action_1__ctor_m2644(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m2644_MethodInfo_var);
+		Delegate_t562 * L_8 = Delegate_Combine_m2568(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		L_4->___OnResult_2 = ((Action_1_t268 *)Castclass(L_8, Action_1_t268_il2cpp_TypeInfo_var));
 		return;
@@ -13433,12 +13433,12 @@ extern "C" void TWAPITest_OnResult_m1046 (TWAPITest_t258 * __this, TW_APIRequstR
 		Object_t * L_3 = Box(Boolean_t29_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m175(NULL /*static, unused*/, (String_t*) &_stringLiteral449, L_3, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral450, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral450, /*hidden argument*/NULL);
 		TW_APIRequstResult_t254 * L_5 = ___result;
 		NullCheck(L_5);
 		String_t* L_6 = TW_APIRequstResult_get_responce_m1013(L_5, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13485,7 +13485,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t247_il2cpp_TypeInfo_var;
 extern TypeInfo* WWW_t196_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2505_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2645_MethodInfo_var;
 extern "C" bool U3CRequestU3Ec__Iterator4_MoveNext_m1050 (U3CRequestU3Ec__Iterator4_t260 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13495,7 +13495,7 @@ extern "C" bool U3CRequestU3Ec__Iterator4_MoveNext_m1050 (U3CRequestU3Ec__Iterat
 		SA_Singleton_1_t247_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(222);
 		WWW_t196_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		SA_Singleton_1_get_instance_m2505_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
+		SA_Singleton_1_get_instance_m2645_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -13540,7 +13540,7 @@ IL_0021:
 		NullCheck(L_10);
 		Dictionary_2_t80 * L_11 = (L_10->___Headers_7);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t247_il2cpp_TypeInfo_var);
-		TwitterApplicationOnlyToken_t245 * L_12 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		TwitterApplicationOnlyToken_t245 * L_12 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		NullCheck(L_12);
 		String_t* L_13 = TwitterApplicationOnlyToken_get_currentToken_m1001(L_12, /*hidden argument*/NULL);
 		String_t* L_14 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral452, L_13, /*hidden argument*/NULL);
@@ -13553,7 +13553,7 @@ IL_0021:
 		NullCheck(L_17);
 		Dictionary_2_t80 * L_18 = (L_17->___Headers_7);
 		WWW_t196 * L_19 = (WWW_t196 *)il2cpp_codegen_object_new (WWW_t196_il2cpp_TypeInfo_var);
-		WWW__ctor_m2479(L_19, L_16, (ByteU5BU5D_t36*)(ByteU5BU5D_t36*)NULL, L_18, /*hidden argument*/NULL);
+		WWW__ctor_m2619(L_19, L_16, (ByteU5BU5D_t36*)(ByteU5BU5D_t36*)NULL, L_18, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__0_0 = L_19;
 		WWW_t196 * L_20 = (__this->___U3CwwwU3E__0_0);
 		__this->___U24current_2 = L_20;
@@ -13565,7 +13565,7 @@ IL_00c4:
 	{
 		WWW_t196 * L_21 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_21);
-		String_t* L_22 = WWW_get_error_m2424(L_21, /*hidden argument*/NULL);
+		String_t* L_22 = WWW_get_error_m2564(L_21, /*hidden argument*/NULL);
 		if (L_22)
 		{
 			goto IL_00ef;
@@ -13575,7 +13575,7 @@ IL_00c4:
 		TW_APIRequest_t259 * L_23 = (__this->___U3CU3Ef__this_3);
 		WWW_t196 * L_24 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_24);
-		String_t* L_25 = WWW_get_text_m2486(L_24, /*hidden argument*/NULL);
+		String_t* L_25 = WWW_get_text_m2626(L_24, /*hidden argument*/NULL);
 		NullCheck(L_23);
 		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void TW_APIRequest::OnResult(System.String) */, L_23, L_25);
 		goto IL_0110;
@@ -13586,7 +13586,7 @@ IL_00ef:
 		TW_APIRequest_t259 * L_26 = (__this->___U3CU3Ef__this_3);
 		WWW_t196 * L_27 = (__this->___U3CwwwU3E__0_0);
 		NullCheck(L_27);
-		String_t* L_28 = WWW_get_error_m2424(L_27, /*hidden argument*/NULL);
+		String_t* L_28 = WWW_get_error_m2564(L_27, /*hidden argument*/NULL);
 		TW_APIRequstResult_t254 * L_29 = (TW_APIRequstResult_t254 *)il2cpp_codegen_object_new (TW_APIRequstResult_t254_il2cpp_TypeInfo_var);
 		TW_APIRequstResult__ctor_m1011(L_29, 0, L_28, /*hidden argument*/NULL);
 		NullCheck(L_26);
@@ -13597,8 +13597,8 @@ IL_0110:
 	{
 		TW_APIRequest_t259 * L_30 = (__this->___U3CU3Ef__this_3);
 		NullCheck(L_30);
-		GameObject_t284 * L_31 = Component_get_gameObject_m2393(L_30, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		GameObject_t284 * L_31 = Component_get_gameObject_m2533(L_30, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		__this->___U24PC_1 = (-1);
 	}
 
@@ -13646,7 +13646,7 @@ extern "C" void U3CRequestU3Ec__Iterator4_Reset_m1052 (U3CRequestU3Ec__Iterator4
 // System.Void TW_APIRequest::.ctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2323_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2463_MethodInfo_var;
 extern "C" void TW_APIRequest__ctor_m1053 (TW_APIRequest_t259 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13654,7 +13654,7 @@ extern "C" void TW_APIRequest__ctor_m1053 (TW_APIRequest_t259 * __this, const Me
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Dictionary_2_t80_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(101);
-		Dictionary_2__ctor_m2323_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
+		Dictionary_2__ctor_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -13663,7 +13663,7 @@ extern "C" void TW_APIRequest__ctor_m1053 (TW_APIRequest_t259 * __this, const Me
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___GetParams_5 = L_0;
 		Dictionary_2_t80 * L_1 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2323(L_1, /*hidden argument*/Dictionary_2__ctor_m2323_MethodInfo_var);
+		Dictionary_2__ctor_m2463(L_1, /*hidden argument*/Dictionary_2__ctor_m2463_MethodInfo_var);
 		__this->___Headers_7 = L_1;
 		EventDispatcher__ctor_m353(__this, /*hidden argument*/NULL);
 		return;
@@ -13671,8 +13671,8 @@ extern "C" void TW_APIRequest__ctor_m1053 (TW_APIRequest_t259 * __this, const Me
 }
 // System.Void TW_APIRequest::Send()
 extern TypeInfo* SA_Singleton_1_t247_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2505_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2645_MethodInfo_var;
 extern const MethodInfo* TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var;
 extern "C" void TW_APIRequest_Send_m1054 (TW_APIRequest_t259 * __this, const MethodInfo* method)
 {
@@ -13680,14 +13680,14 @@ extern "C" void TW_APIRequest_Send_m1054 (TW_APIRequest_t259 * __this, const Met
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t247_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(222);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		SA_Singleton_1_get_instance_m2505_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		SA_Singleton_1_get_instance_m2645_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
 		TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var = il2cpp_codegen_method_info_from_index(198);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t247_il2cpp_TypeInfo_var);
-		TwitterApplicationOnlyToken_t245 * L_0 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		TwitterApplicationOnlyToken_t245 * L_0 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		NullCheck(L_0);
 		String_t* L_1 = TwitterApplicationOnlyToken_get_currentToken_m1001(L_0, /*hidden argument*/NULL);
 		if (L_1)
@@ -13697,13 +13697,13 @@ extern "C" void TW_APIRequest_Send_m1054 (TW_APIRequest_t259 * __this, const Met
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t247_il2cpp_TypeInfo_var);
-		TwitterApplicationOnlyToken_t245 * L_2 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		TwitterApplicationOnlyToken_t245 * L_2 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		IntPtr_t L_3 = { (void*)TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var };
-		EventHandlerFunction_t479 * L_4 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_4, __this, L_3, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_4 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_4, __this, L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_2, (String_t*) &_stringLiteral350, L_4);
-		TwitterApplicationOnlyToken_t245 * L_5 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_2, (String_t*) &_stringLiteral350, L_4);
+		TwitterApplicationOnlyToken_t245 * L_5 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		NullCheck(L_5);
 		TwitterApplicationOnlyToken_RetrieveToken_m1000(L_5, /*hidden argument*/NULL);
 		goto IL_0046;
@@ -13712,7 +13712,7 @@ extern "C" void TW_APIRequest_Send_m1054 (TW_APIRequest_t259 * __this, const Met
 IL_0039:
 	{
 		Object_t * L_6 = TW_APIRequest_Request_m1058(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_6, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_6, /*hidden argument*/NULL);
 	}
 
 IL_0046:
@@ -13809,9 +13809,9 @@ extern "C" Object_t * TW_APIRequest_Request_m1058 (TW_APIRequest_t259 * __this, 
 // System.Void TW_APIRequest::OnResult(System.String)
 // System.Void TW_APIRequest::OnTokenLoaded()
 extern TypeInfo* SA_Singleton_1_t247_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2505_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2645_MethodInfo_var;
 extern const MethodInfo* TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var;
 extern "C" void TW_APIRequest_OnTokenLoaded_m1059 (TW_APIRequest_t259 * __this, const MethodInfo* method)
 {
@@ -13819,21 +13819,21 @@ extern "C" void TW_APIRequest_OnTokenLoaded_m1059 (TW_APIRequest_t259 * __this, 
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t247_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(222);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		SA_Singleton_1_get_instance_m2505_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
+		SA_Singleton_1_get_instance_m2645_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
 		TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var = il2cpp_codegen_method_info_from_index(198);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t247_il2cpp_TypeInfo_var);
-		TwitterApplicationOnlyToken_t245 * L_0 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		TwitterApplicationOnlyToken_t245 * L_0 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		IntPtr_t L_1 = { (void*)TW_APIRequest_OnTokenLoaded_m1059_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral350, L_2);
-		TwitterApplicationOnlyToken_t245 * L_3 = SA_Singleton_1_get_instance_m2505(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2505_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(8 /* System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral350, L_2);
+		TwitterApplicationOnlyToken_t245 * L_3 = SA_Singleton_1_get_instance_m2645(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2645_MethodInfo_var);
 		NullCheck(L_3);
 		String_t* L_4 = TwitterApplicationOnlyToken_get_currentToken_m1001(L_3, /*hidden argument*/NULL);
 		if (!L_4)
@@ -13843,7 +13843,7 @@ extern "C" void TW_APIRequest_OnTokenLoaded_m1059 (TW_APIRequest_t259 * __this, 
 	}
 	{
 		Object_t * L_5 = TW_APIRequest_Request_m1058(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_5, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_5, /*hidden argument*/NULL);
 		goto IL_0052;
 	}
 
@@ -13871,7 +13871,7 @@ struct GameObject_t284;
 struct TW_FollowersIdsRequest_t261;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_FollowersIdsRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_FollowersIdsRequest>()
-#define GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2506(__this, method) (( TW_FollowersIdsRequest_t261 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2646(__this, method) (( TW_FollowersIdsRequest_t261 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_FollowersIdsRequest::.ctor()
@@ -13884,21 +13884,21 @@ extern "C" void TW_FollowersIdsRequest__ctor_m1060 (TW_FollowersIdsRequest_t261 
 }
 // TW_FollowersIdsRequest TW_FollowersIdsRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2506_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2646_MethodInfo_var;
 extern "C" TW_FollowersIdsRequest_t261 * TW_FollowersIdsRequest_Create_m1061 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2506_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483847);
+		GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2646_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483847);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral453, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral453, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_FollowersIdsRequest_t261 * L_1 = GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2506(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2506_MethodInfo_var);
+		TW_FollowersIdsRequest_t261 * L_1 = GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2646(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_FollowersIdsRequest_t261_m2646_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -13913,13 +13913,13 @@ extern "C" void TW_FollowersIdsRequest_Awake_m1062 (TW_FollowersIdsRequest_t261 
 // System.Void TW_FollowersIdsRequest::OnResult(System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void TW_FollowersIdsRequest_OnResult_m1063 (TW_FollowersIdsRequest_t261 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13927,19 +13927,19 @@ extern "C" void TW_FollowersIdsRequest_OnResult_m1063 (TW_FollowersIdsRequest_t2
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	TW_APIRequstResult_t254 * V_1 = {0};
 	Object_t * V_2 = {0};
-	Enumerator_t539  V_3 = {0};
+	Enumerator_t563  V_3 = {0};
 	String_t* V_4 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -13958,8 +13958,8 @@ extern "C" void TW_FollowersIdsRequest_OnResult_m1063 (TW_FollowersIdsRequest_t2
 		Dictionary_2_t244 * L_4 = V_0;
 		NullCheck(L_4);
 		Object_t * L_5 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_4, (String_t*) &_stringLiteral455);
-		NullCheck(((List_1_t487 *)IsInst(L_5, List_1_t487_il2cpp_TypeInfo_var)));
-		Enumerator_t539  L_6 = List_1_GetEnumerator_m2444(((List_1_t487 *)IsInst(L_5, List_1_t487_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		NullCheck(((List_1_t511 *)IsInst(L_5, List_1_t511_il2cpp_TypeInfo_var)));
+		Enumerator_t563  L_6 = List_1_GetEnumerator_m2584(((List_1_t511 *)IsInst(L_5, List_1_t511_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_3 = L_6;
 	}
 
@@ -13972,11 +13972,11 @@ IL_002a:
 
 IL_002f:
 		{
-			Object_t * L_7 = Enumerator_get_Current_m2445((&V_3), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_7 = Enumerator_get_Current_m2585((&V_3), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_2 = L_7;
 			Object_t * L_8 = V_2;
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_9 = Convert_ToString_m2443(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			String_t* L_9 = Convert_ToString_m2583(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 			V_4 = L_9;
 			TW_APIRequstResult_t254 * L_10 = V_1;
 			NullCheck(L_10);
@@ -13988,7 +13988,7 @@ IL_002f:
 
 IL_004c:
 		{
-			bool L_13 = Enumerator_MoveNext_m2446((&V_3), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_13 = Enumerator_MoveNext_m2586((&V_3), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_13)
 			{
 				goto IL_002f;
@@ -14008,9 +14008,9 @@ IL_0058:
 
 FINALLY_005d:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_14 = V_3;
-		Enumerator_t539  L_15 = L_14;
-		Object_t * L_16 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_15);
+		Enumerator_t563  L_14 = V_3;
+		Enumerator_t563  L_15 = L_14;
+		Object_t * L_16 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_15);
 		NullCheck(L_16);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_16);
 		IL2CPP_END_FINALLY(93)
@@ -14040,7 +14040,7 @@ struct GameObject_t284;
 struct TW_FriendsIdsRequest_t262;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_FriendsIdsRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_FriendsIdsRequest>()
-#define GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2507(__this, method) (( TW_FriendsIdsRequest_t262 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2647(__this, method) (( TW_FriendsIdsRequest_t262 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_FriendsIdsRequest::.ctor()
@@ -14053,21 +14053,21 @@ extern "C" void TW_FriendsIdsRequest__ctor_m1064 (TW_FriendsIdsRequest_t262 * __
 }
 // TW_FriendsIdsRequest TW_FriendsIdsRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2507_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2647_MethodInfo_var;
 extern "C" TW_FriendsIdsRequest_t262 * TW_FriendsIdsRequest_Create_m1065 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2507_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483848);
+		GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2647_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483848);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral456, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral456, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_FriendsIdsRequest_t262 * L_1 = GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2507(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2507_MethodInfo_var);
+		TW_FriendsIdsRequest_t262 * L_1 = GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2647(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_FriendsIdsRequest_t262_m2647_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -14082,13 +14082,13 @@ extern "C" void TW_FriendsIdsRequest_Awake_m1066 (TW_FriendsIdsRequest_t262 * __
 // System.Void TW_FriendsIdsRequest::OnResult(System.String)
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void TW_FriendsIdsRequest_OnResult_m1067 (TW_FriendsIdsRequest_t262 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -14096,19 +14096,19 @@ extern "C" void TW_FriendsIdsRequest_OnResult_m1067 (TW_FriendsIdsRequest_t262 *
 	{
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	TW_APIRequstResult_t254 * V_1 = {0};
 	Object_t * V_2 = {0};
-	Enumerator_t539  V_3 = {0};
+	Enumerator_t563  V_3 = {0};
 	String_t* V_4 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -14127,8 +14127,8 @@ extern "C" void TW_FriendsIdsRequest_OnResult_m1067 (TW_FriendsIdsRequest_t262 *
 		Dictionary_2_t244 * L_4 = V_0;
 		NullCheck(L_4);
 		Object_t * L_5 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_4, (String_t*) &_stringLiteral455);
-		NullCheck(((List_1_t487 *)IsInst(L_5, List_1_t487_il2cpp_TypeInfo_var)));
-		Enumerator_t539  L_6 = List_1_GetEnumerator_m2444(((List_1_t487 *)IsInst(L_5, List_1_t487_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		NullCheck(((List_1_t511 *)IsInst(L_5, List_1_t511_il2cpp_TypeInfo_var)));
+		Enumerator_t563  L_6 = List_1_GetEnumerator_m2584(((List_1_t511 *)IsInst(L_5, List_1_t511_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_3 = L_6;
 	}
 
@@ -14141,11 +14141,11 @@ IL_002a:
 
 IL_002f:
 		{
-			Object_t * L_7 = Enumerator_get_Current_m2445((&V_3), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_7 = Enumerator_get_Current_m2585((&V_3), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_2 = L_7;
 			Object_t * L_8 = V_2;
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			String_t* L_9 = Convert_ToString_m2443(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			String_t* L_9 = Convert_ToString_m2583(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 			V_4 = L_9;
 			TW_APIRequstResult_t254 * L_10 = V_1;
 			NullCheck(L_10);
@@ -14157,7 +14157,7 @@ IL_002f:
 
 IL_004c:
 		{
-			bool L_13 = Enumerator_MoveNext_m2446((&V_3), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_13 = Enumerator_MoveNext_m2586((&V_3), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_13)
 			{
 				goto IL_002f;
@@ -14177,9 +14177,9 @@ IL_0058:
 
 FINALLY_005d:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_14 = V_3;
-		Enumerator_t539  L_15 = L_14;
-		Object_t * L_16 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_15);
+		Enumerator_t563  L_14 = V_3;
+		Enumerator_t563  L_15 = L_14;
+		Object_t * L_16 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_15);
 		NullCheck(L_16);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_16);
 		IL2CPP_END_FINALLY(93)
@@ -14261,19 +14261,19 @@ extern TypeInfo* SocialPlatfromSettings_t110_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t243_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* ASCIIEncoding_t549_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t550_il2cpp_TypeInfo_var;
+extern TypeInfo* ASCIIEncoding_t573_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t574_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t267_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* HMACSHA1_t263_il2cpp_TypeInfo_var;
 extern TypeInfo* WWW_t196_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2511_MethodInfo_var;
-extern const MethodInfo* SortedDictionary_2_GetEnumerator_m2518_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2519_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m2483_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2484_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2520_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2651_MethodInfo_var;
+extern const MethodInfo* SortedDictionary_2_GetEnumerator_m2658_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2659_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m2623_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2660_MethodInfo_var;
 extern "C" bool U3CRequestU3Ec__Iterator5_MoveNext_m1071 (U3CRequestU3Ec__Iterator5_t265 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -14284,19 +14284,19 @@ extern "C" bool U3CRequestU3Ec__Iterator5_MoveNext_m1071 (U3CRequestU3Ec__Iterat
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		SA_Singleton_1_t243_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(219);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		ASCIIEncoding_t549_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(236);
-		Uri_t550_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(237);
+		ASCIIEncoding_t573_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(236);
+		Uri_t574_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(237);
 		Enumerator_t267_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(238);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		HMACSHA1_t263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(239);
 		WWW_t196_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		SA_Singleton_1_get_instance_m2511_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
-		SortedDictionary_2_GetEnumerator_m2518_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483850);
-		Enumerator_get_Current_m2519_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483851);
-		KeyValuePair_2_get_Key_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
-		KeyValuePair_2_get_Value_m2484_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
-		Enumerator_MoveNext_m2520_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483852);
+		SA_Singleton_1_get_instance_m2651_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
+		SortedDictionary_2_GetEnumerator_m2658_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483850);
+		Enumerator_get_Current_m2659_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483851);
+		KeyValuePair_2_get_Key_m2623_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
+		KeyValuePair_2_get_Value_m2624_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
+		Enumerator_MoveNext_m2660_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483852);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -14331,10 +14331,10 @@ extern "C" bool U3CRequestU3Ec__Iterator5_MoveNext_m1071 (U3CRequestU3Ec__Iterat
 IL_0021:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t219_il2cpp_TypeInfo_var);
-		DateTime_t219  L_2 = DateTime_get_UtcNow_m2508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DateTime_t219  L_2 = DateTime_get_UtcNow_m2648(NULL /*static, unused*/, /*hidden argument*/NULL);
 		DateTime_t219  L_3 = {0};
-		DateTime__ctor_m2509(&L_3, ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
-		TimeSpan_t266  L_4 = DateTime_op_Subtraction_m2510(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		DateTime__ctor_m2649(&L_3, ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
+		TimeSpan_t266  L_4 = DateTime_op_Subtraction_m2650(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		__this->___U3CtsU3E__0_0 = L_4;
 		IL2CPP_RUNTIME_CLASS_INIT(SocialPlatfromSettings_t110_il2cpp_TypeInfo_var);
 		SocialPlatfromSettings_t110 * L_5 = SocialPlatfromSettings_get_Instance_m605(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -14345,25 +14345,25 @@ IL_0021:
 		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___U3Coauth_tokenU3E__2_2 = L_7;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t243_il2cpp_TypeInfo_var);
-		AndroidTwitterManager_t242 * L_8 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_8 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		NullCheck(L_8);
 		String_t* L_9 = AndroidTwitterManager_get_AccessToken_m978(L_8, /*hidden argument*/NULL);
 		__this->___U3Coauth_tokenU3E__2_2 = L_9;
 		__this->___U3Coauth_signature_methodU3E__3_3 = (String_t*) &_stringLiteral459;
 		TimeSpan_t266 * L_10 = &(__this->___U3CtsU3E__0_0);
-		double L_11 = TimeSpan_get_TotalSeconds_m2512(L_10, /*hidden argument*/NULL);
+		double L_11 = TimeSpan_get_TotalSeconds_m2652(L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		int64_t L_12 = Convert_ToInt64_m2513(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		int64_t L_12 = Convert_ToInt64_m2653(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		V_1 = L_12;
-		String_t* L_13 = Int64_ToString_m2383((&V_1), /*hidden argument*/NULL);
+		String_t* L_13 = Int64_ToString_m2523((&V_1), /*hidden argument*/NULL);
 		__this->___U3Coauth_timestampU3E__4_4 = L_13;
-		ASCIIEncoding_t549 * L_14 = (ASCIIEncoding_t549 *)il2cpp_codegen_object_new (ASCIIEncoding_t549_il2cpp_TypeInfo_var);
-		ASCIIEncoding__ctor_m2514(L_14, /*hidden argument*/NULL);
-		DateTime_t219  L_15 = DateTime_get_Now_m2515(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ASCIIEncoding_t573 * L_14 = (ASCIIEncoding_t573 *)il2cpp_codegen_object_new (ASCIIEncoding_t573_il2cpp_TypeInfo_var);
+		ASCIIEncoding__ctor_m2654(L_14, /*hidden argument*/NULL);
+		DateTime_t219  L_15 = DateTime_get_Now_m2655(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_15;
-		int64_t L_16 = DateTime_get_Ticks_m2516((&V_2), /*hidden argument*/NULL);
+		int64_t L_16 = DateTime_get_Ticks_m2656((&V_2), /*hidden argument*/NULL);
 		V_3 = L_16;
-		String_t* L_17 = Int64_ToString_m2383((&V_3), /*hidden argument*/NULL);
+		String_t* L_17 = Int64_ToString_m2523((&V_3), /*hidden argument*/NULL);
 		NullCheck(L_14);
 		ByteU5BU5D_t36* L_18 = (ByteU5BU5D_t36*)VirtFuncInvoker1< ByteU5BU5D_t36*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_14, L_17);
 		String_t* L_19 = Convert_ToBase64String_m192(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
@@ -14414,15 +14414,15 @@ IL_0021:
 		TW_OAuthAPIRequest_t264 * L_42 = (__this->___U3CU3Ef__this_20);
 		NullCheck(L_42);
 		String_t* L_43 = (L_42->___requestUrl_5);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t550_il2cpp_TypeInfo_var);
-		String_t* L_44 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t574_il2cpp_TypeInfo_var);
+		String_t* L_44 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
 		String_t* L_45 = String_Concat_m222(NULL /*static, unused*/, L_41, L_44, (String_t*) &_stringLiteral413, /*hidden argument*/NULL);
 		__this->___U3CbaseStringU3E__7_7 = L_45;
 		TW_OAuthAPIRequest_t264 * L_46 = (__this->___U3CU3Ef__this_20);
 		NullCheck(L_46);
 		SortedDictionary_2_t269 * L_47 = (L_46->___requestParams_7);
 		NullCheck(L_47);
-		Enumerator_t267  L_48 = SortedDictionary_2_GetEnumerator_m2518(L_47, /*hidden argument*/SortedDictionary_2_GetEnumerator_m2518_MethodInfo_var);
+		Enumerator_t267  L_48 = SortedDictionary_2_GetEnumerator_m2658(L_47, /*hidden argument*/SortedDictionary_2_GetEnumerator_m2658_MethodInfo_var);
 		__this->___U3CU24s_33U3E__8_8 = L_48;
 	}
 
@@ -14436,17 +14436,17 @@ IL_01c9:
 IL_01ce:
 		{
 			Enumerator_t267 * L_49 = &(__this->___U3CU24s_33U3E__8_8);
-			KeyValuePair_2_t234  L_50 = Enumerator_get_Current_m2519(L_49, /*hidden argument*/Enumerator_get_Current_m2519_MethodInfo_var);
+			KeyValuePair_2_t234  L_50 = Enumerator_get_Current_m2659(L_49, /*hidden argument*/Enumerator_get_Current_m2659_MethodInfo_var);
 			__this->___U3CentryU3E__9_9 = L_50;
 			String_t* L_51 = (__this->___U3CbaseStringU3E__7_7);
 			KeyValuePair_2_t234 * L_52 = &(__this->___U3CentryU3E__9_9);
-			String_t* L_53 = KeyValuePair_2_get_Key_m2483(L_52, /*hidden argument*/KeyValuePair_2_get_Key_m2483_MethodInfo_var);
+			String_t* L_53 = KeyValuePair_2_get_Key_m2623(L_52, /*hidden argument*/KeyValuePair_2_get_Key_m2623_MethodInfo_var);
 			KeyValuePair_2_t234 * L_54 = &(__this->___U3CentryU3E__9_9);
-			String_t* L_55 = KeyValuePair_2_get_Value_m2484(L_54, /*hidden argument*/KeyValuePair_2_get_Value_m2484_MethodInfo_var);
+			String_t* L_55 = KeyValuePair_2_get_Value_m2624(L_54, /*hidden argument*/KeyValuePair_2_get_Value_m2624_MethodInfo_var);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_56 = String_Concat_m201(NULL /*static, unused*/, L_53, (String_t*) &_stringLiteral415, L_55, (String_t*) &_stringLiteral413, /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(Uri_t550_il2cpp_TypeInfo_var);
-			String_t* L_57 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Uri_t574_il2cpp_TypeInfo_var);
+			String_t* L_57 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
 			String_t* L_58 = String_Concat_m174(NULL /*static, unused*/, L_51, L_57, /*hidden argument*/NULL);
 			__this->___U3CbaseStringU3E__7_7 = L_58;
 		}
@@ -14454,7 +14454,7 @@ IL_01ce:
 IL_021a:
 		{
 			Enumerator_t267 * L_59 = &(__this->___U3CU24s_33U3E__8_8);
-			bool L_60 = Enumerator_MoveNext_m2520(L_59, /*hidden argument*/Enumerator_MoveNext_m2520_MethodInfo_var);
+			bool L_60 = Enumerator_MoveNext_m2660(L_59, /*hidden argument*/Enumerator_MoveNext_m2660_MethodInfo_var);
 			if (L_60)
 			{
 				goto IL_01ce;
@@ -14505,33 +14505,33 @@ IL_0240:
 		String_t* L_70 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___U3Coauth_token_secretU3E__11_11 = L_70;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t243_il2cpp_TypeInfo_var);
-		AndroidTwitterManager_t242 * L_71 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_71 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		NullCheck(L_71);
 		String_t* L_72 = AndroidTwitterManager_get_AccessTokenSecret_m979(L_71, /*hidden argument*/NULL);
 		__this->___U3Coauth_token_secretU3E__11_11 = L_72;
 		String_t* L_73 = (__this->___U3CconsumerSecretU3E__10_10);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t550_il2cpp_TypeInfo_var);
-		String_t* L_74 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t574_il2cpp_TypeInfo_var);
+		String_t* L_74 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
 		String_t* L_75 = (__this->___U3Coauth_token_secretU3E__11_11);
-		String_t* L_76 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
+		String_t* L_76 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
 		String_t* L_77 = String_Concat_m222(NULL /*static, unused*/, L_74, (String_t*) &_stringLiteral413, L_76, /*hidden argument*/NULL);
 		__this->___U3CsigningKeyU3E__12_12 = L_77;
-		ASCIIEncoding_t549 * L_78 = (ASCIIEncoding_t549 *)il2cpp_codegen_object_new (ASCIIEncoding_t549_il2cpp_TypeInfo_var);
-		ASCIIEncoding__ctor_m2514(L_78, /*hidden argument*/NULL);
+		ASCIIEncoding_t573 * L_78 = (ASCIIEncoding_t573 *)il2cpp_codegen_object_new (ASCIIEncoding_t573_il2cpp_TypeInfo_var);
+		ASCIIEncoding__ctor_m2654(L_78, /*hidden argument*/NULL);
 		String_t* L_79 = (__this->___U3CsigningKeyU3E__12_12);
 		NullCheck(L_78);
 		ByteU5BU5D_t36* L_80 = (ByteU5BU5D_t36*)VirtFuncInvoker1< ByteU5BU5D_t36*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_78, L_79);
 		HMACSHA1_t263 * L_81 = (HMACSHA1_t263 *)il2cpp_codegen_object_new (HMACSHA1_t263_il2cpp_TypeInfo_var);
-		HMACSHA1__ctor_m2521(L_81, L_80, /*hidden argument*/NULL);
+		HMACSHA1__ctor_m2661(L_81, L_80, /*hidden argument*/NULL);
 		__this->___U3ChasherU3E__13_13 = L_81;
 		HMACSHA1_t263 * L_82 = (__this->___U3ChasherU3E__13_13);
-		ASCIIEncoding_t549 * L_83 = (ASCIIEncoding_t549 *)il2cpp_codegen_object_new (ASCIIEncoding_t549_il2cpp_TypeInfo_var);
-		ASCIIEncoding__ctor_m2514(L_83, /*hidden argument*/NULL);
+		ASCIIEncoding_t573 * L_83 = (ASCIIEncoding_t573 *)il2cpp_codegen_object_new (ASCIIEncoding_t573_il2cpp_TypeInfo_var);
+		ASCIIEncoding__ctor_m2654(L_83, /*hidden argument*/NULL);
 		String_t* L_84 = (__this->___U3CbaseStringU3E__7_7);
 		NullCheck(L_83);
 		ByteU5BU5D_t36* L_85 = (ByteU5BU5D_t36*)VirtFuncInvoker1< ByteU5BU5D_t36*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_83, L_84);
 		NullCheck(L_82);
-		ByteU5BU5D_t36* L_86 = HashAlgorithm_ComputeHash_m2522(L_82, L_85, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_86 = HashAlgorithm_ComputeHash_m2662(L_82, L_85, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
 		String_t* L_87 = Convert_ToBase64String_m192(NULL /*static, unused*/, L_86, /*hidden argument*/NULL);
 		__this->___U3CsignatureStringU3E__14_14 = L_87;
@@ -14542,37 +14542,37 @@ IL_0240:
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_90;
 		String_t* L_91 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_92 = (__this->___U3Coauth_nonceU3E__5_5);
-		String_t* L_93 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_92, /*hidden argument*/NULL);
+		String_t* L_93 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_92, /*hidden argument*/NULL);
 		String_t* L_94 = String_Concat_m201(NULL /*static, unused*/, L_91, (String_t*) &_stringLiteral469, L_93, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_94;
 		String_t* L_95 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_96 = (__this->___U3Coauth_signature_methodU3E__3_3);
-		String_t* L_97 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_96, /*hidden argument*/NULL);
+		String_t* L_97 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_96, /*hidden argument*/NULL);
 		String_t* L_98 = String_Concat_m201(NULL /*static, unused*/, L_95, (String_t*) &_stringLiteral471, L_97, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_98;
 		String_t* L_99 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_100 = (__this->___U3Coauth_timestampU3E__4_4);
-		String_t* L_101 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_100, /*hidden argument*/NULL);
+		String_t* L_101 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_100, /*hidden argument*/NULL);
 		String_t* L_102 = String_Concat_m201(NULL /*static, unused*/, L_99, (String_t*) &_stringLiteral472, L_101, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_102;
 		String_t* L_103 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_104 = (__this->___U3Coauth_consumer_keyU3E__1_1);
-		String_t* L_105 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
+		String_t* L_105 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
 		String_t* L_106 = String_Concat_m201(NULL /*static, unused*/, L_103, (String_t*) &_stringLiteral473, L_105, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_106;
 		String_t* L_107 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_108 = (__this->___U3Coauth_tokenU3E__2_2);
-		String_t* L_109 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_108, /*hidden argument*/NULL);
+		String_t* L_109 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_108, /*hidden argument*/NULL);
 		String_t* L_110 = String_Concat_m201(NULL /*static, unused*/, L_107, (String_t*) &_stringLiteral474, L_109, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_110;
 		String_t* L_111 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_112 = (__this->___U3CsignatureStringU3E__14_14);
-		String_t* L_113 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_112, /*hidden argument*/NULL);
+		String_t* L_113 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_112, /*hidden argument*/NULL);
 		String_t* L_114 = String_Concat_m201(NULL /*static, unused*/, L_111, (String_t*) &_stringLiteral475, L_113, (String_t*) &_stringLiteral470, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_114;
 		String_t* L_115 = (__this->___U3CauthorizationHeaderParamsU3E__15_15);
 		String_t* L_116 = (__this->___U3Coauth_versionU3E__6_6);
-		String_t* L_117 = Uri_EscapeDataString_m2517(NULL /*static, unused*/, L_116, /*hidden argument*/NULL);
+		String_t* L_117 = Uri_EscapeDataString_m2657(NULL /*static, unused*/, L_116, /*hidden argument*/NULL);
 		String_t* L_118 = String_Concat_m201(NULL /*static, unused*/, L_115, (String_t*) &_stringLiteral476, L_117, (String_t*) &_stringLiteral22, /*hidden argument*/NULL);
 		__this->___U3CauthorizationHeaderParamsU3E__15_15 = L_118;
 		TW_OAuthAPIRequest_t264 * L_119 = (__this->___U3CU3Ef__this_20);
@@ -14603,7 +14603,7 @@ IL_0240:
 		NullCheck(L_132);
 		Dictionary_2_t80 * L_133 = (L_132->___Headers_6);
 		WWW_t196 * L_134 = (WWW_t196 *)il2cpp_codegen_object_new (WWW_t196_il2cpp_TypeInfo_var);
-		WWW__ctor_m2479(L_134, L_131, (ByteU5BU5D_t36*)(ByteU5BU5D_t36*)NULL, L_133, /*hidden argument*/NULL);
+		WWW__ctor_m2619(L_134, L_131, (ByteU5BU5D_t36*)(ByteU5BU5D_t36*)NULL, L_133, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__16_16 = L_134;
 		WWW_t196 * L_135 = (__this->___U3CwwwU3E__16_16);
 		__this->___U24current_19 = L_135;
@@ -14615,7 +14615,7 @@ IL_04b1:
 	{
 		WWW_t196 * L_136 = (__this->___U3CwwwU3E__16_16);
 		NullCheck(L_136);
-		String_t* L_137 = WWW_get_error_m2424(L_136, /*hidden argument*/NULL);
+		String_t* L_137 = WWW_get_error_m2564(L_136, /*hidden argument*/NULL);
 		if (L_137)
 		{
 			goto IL_04dd;
@@ -14624,7 +14624,7 @@ IL_04b1:
 	{
 		WWW_t196 * L_138 = (__this->___U3CwwwU3E__16_16);
 		NullCheck(L_138);
-		String_t* L_139 = WWW_get_text_m2486(L_138, /*hidden argument*/NULL);
+		String_t* L_139 = WWW_get_text_m2626(L_138, /*hidden argument*/NULL);
 		TW_APIRequstResult_t254 * L_140 = (TW_APIRequstResult_t254 *)il2cpp_codegen_object_new (TW_APIRequstResult_t254_il2cpp_TypeInfo_var);
 		TW_APIRequstResult__ctor_m1011(L_140, 1, L_139, /*hidden argument*/NULL);
 		__this->___U3CresultU3E__17_17 = L_140;
@@ -14635,7 +14635,7 @@ IL_04dd:
 	{
 		WWW_t196 * L_141 = (__this->___U3CwwwU3E__16_16);
 		NullCheck(L_141);
-		String_t* L_142 = WWW_get_error_m2424(L_141, /*hidden argument*/NULL);
+		String_t* L_142 = WWW_get_error_m2564(L_141, /*hidden argument*/NULL);
 		TW_APIRequstResult_t254 * L_143 = (TW_APIRequstResult_t254 *)il2cpp_codegen_object_new (TW_APIRequstResult_t254_il2cpp_TypeInfo_var);
 		TW_APIRequstResult__ctor_m1011(L_143, 0, L_142, /*hidden argument*/NULL);
 		__this->___U3CresultU3E__17_17 = L_143;
@@ -14651,8 +14651,8 @@ IL_04f4:
 		VirtActionInvoker1< TW_APIRequstResult_t254 * >::Invoke(10 /* System.Void System.Action`1<TW_APIRequstResult>::Invoke(!0) */, L_145, L_146);
 		TW_OAuthAPIRequest_t264 * L_147 = (__this->___U3CU3Ef__this_20);
 		NullCheck(L_147);
-		GameObject_t284 * L_148 = Component_get_gameObject_m2393(L_147, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_148, /*hidden argument*/NULL);
+		GameObject_t284 * L_148 = Component_get_gameObject_m2533(L_147, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_148, /*hidden argument*/NULL);
 		__this->___U24PC_18 = (-1);
 	}
 
@@ -14699,7 +14699,7 @@ struct GameObject_t284;
 struct TW_OAuthAPIRequest_t264;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_OAuthAPIRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_OAuthAPIRequest>()
-#define GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2523(__this, method) (( TW_OAuthAPIRequest_t264 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2663(__this, method) (( TW_OAuthAPIRequest_t264 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_OAuthAPIRequest::.ctor()
@@ -14709,9 +14709,9 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
 extern TypeInfo* SortedDictionary_2_t269_il2cpp_TypeInfo_var;
 extern const MethodInfo* TW_OAuthAPIRequest_U3COnResultU3Em__17_m1081_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2504_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2323_MethodInfo_var;
-extern const MethodInfo* SortedDictionary_2__ctor_m2524_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2644_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2463_MethodInfo_var;
+extern const MethodInfo* SortedDictionary_2__ctor_m2664_MethodInfo_var;
 extern "C" void TW_OAuthAPIRequest__ctor_m1074 (TW_OAuthAPIRequest_t264 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -14723,9 +14723,9 @@ extern "C" void TW_OAuthAPIRequest__ctor_m1074 (TW_OAuthAPIRequest_t264 * __this
 		Dictionary_2_t80_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(101);
 		SortedDictionary_2_t269_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(241);
 		TW_OAuthAPIRequest_U3COnResultU3Em__17_m1081_MethodInfo_var = il2cpp_codegen_method_info_from_index(205);
-		Action_1__ctor_m2504_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
-		Dictionary_2__ctor_m2323_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
-		SortedDictionary_2__ctor_m2524_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483854);
+		Action_1__ctor_m2644_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
+		Dictionary_2__ctor_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
+		SortedDictionary_2__ctor_m2664_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483854);
 		s_Il2CppMethodIntialized = true;
 	}
 	TW_OAuthAPIRequest_t264 * G_B2_0 = {0};
@@ -14742,7 +14742,7 @@ extern "C" void TW_OAuthAPIRequest__ctor_m1074 (TW_OAuthAPIRequest_t264 * __this
 	{
 		IntPtr_t L_1 = { (void*)TW_OAuthAPIRequest_U3COnResultU3Em__17_m1081_MethodInfo_var };
 		Action_1_t268 * L_2 = (Action_1_t268 *)il2cpp_codegen_object_new (Action_1_t268_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2504(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2504_MethodInfo_var);
+		Action_1__ctor_m2644(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2644_MethodInfo_var);
 		((TW_OAuthAPIRequest_t264_StaticFields*)TW_OAuthAPIRequest_t264_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache6_8 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -14757,32 +14757,32 @@ IL_0019:
 		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___GetParams_4 = L_4;
 		Dictionary_2_t80 * L_5 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2323(L_5, /*hidden argument*/Dictionary_2__ctor_m2323_MethodInfo_var);
+		Dictionary_2__ctor_m2463(L_5, /*hidden argument*/Dictionary_2__ctor_m2463_MethodInfo_var);
 		__this->___Headers_6 = L_5;
 		SortedDictionary_2_t269 * L_6 = (SortedDictionary_2_t269 *)il2cpp_codegen_object_new (SortedDictionary_2_t269_il2cpp_TypeInfo_var);
-		SortedDictionary_2__ctor_m2524(L_6, /*hidden argument*/SortedDictionary_2__ctor_m2524_MethodInfo_var);
+		SortedDictionary_2__ctor_m2664(L_6, /*hidden argument*/SortedDictionary_2__ctor_m2664_MethodInfo_var);
 		__this->___requestParams_7 = L_6;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // TW_OAuthAPIRequest TW_OAuthAPIRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2523_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2663_MethodInfo_var;
 extern "C" TW_OAuthAPIRequest_t264 * TW_OAuthAPIRequest_Create_m1075 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2523_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483855);
+		GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2663_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483855);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral458, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral458, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_OAuthAPIRequest_t264 * L_1 = GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2523(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2523_MethodInfo_var);
+		TW_OAuthAPIRequest_t264 * L_1 = GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2663(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_OAuthAPIRequest_t264_m2663_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -14793,7 +14793,7 @@ extern "C" void TW_OAuthAPIRequest_Send_m1076 (TW_OAuthAPIRequest_t264 * __this,
 		String_t* L_0 = ___url;
 		__this->___requestUrl_5 = L_0;
 		Object_t * L_1 = TW_OAuthAPIRequest_Request_m1080(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14907,7 +14907,7 @@ struct GameObject_t284;
 struct TW_SearchTweetsRequest_t270;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_SearchTweetsRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_SearchTweetsRequest>()
-#define GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2525(__this, method) (( TW_SearchTweetsRequest_t270 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2665(__this, method) (( TW_SearchTweetsRequest_t270 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_SearchTweetsRequest::.ctor()
@@ -14920,21 +14920,21 @@ extern "C" void TW_SearchTweetsRequest__ctor_m1082 (TW_SearchTweetsRequest_t270 
 }
 // TW_SearchTweetsRequest TW_SearchTweetsRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2525_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2665_MethodInfo_var;
 extern "C" TW_SearchTweetsRequest_t270 * TW_SearchTweetsRequest_Create_m1083 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2525_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483856);
+		GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2665_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483856);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral477, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral477, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_SearchTweetsRequest_t270 * L_1 = GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2525(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2525_MethodInfo_var);
+		TW_SearchTweetsRequest_t270 * L_1 = GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2665(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_SearchTweetsRequest_t270_m2665_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -14949,20 +14949,20 @@ extern "C" void TW_SearchTweetsRequest_Awake_m1084 (TW_SearchTweetsRequest_t270 
 // System.Void TW_SearchTweetsRequest::OnResult(System.String)
 extern TypeInfo* List_1_t252_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* TweetTemplate_t255_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterUserInfo_t240_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterDataCash_t250_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2498_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2638_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void TW_SearchTweetsRequest_OnResult_m1085 (TW_SearchTweetsRequest_t270 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -14970,27 +14970,27 @@ extern "C" void TW_SearchTweetsRequest_OnResult_m1085 (TW_SearchTweetsRequest_t2
 	{
 		List_1_t252_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(228);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		TweetTemplate_t255_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(224);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		TwitterUserInfo_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		TwitterDataCash_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(226);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1__ctor_m2498_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1__ctor_m2638_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t252 * V_0 = {0};
 	Dictionary_2_t244 * V_1 = {0};
-	List_1_t487 * V_2 = {0};
+	List_1_t511 * V_2 = {0};
 	Object_t * V_3 = {0};
-	Enumerator_t539  V_4 = {0};
+	Enumerator_t563  V_4 = {0};
 	Dictionary_2_t244 * V_5 = {0};
 	TweetTemplate_t255 * V_6 = {0};
 	TwitterUserInfo_t240 * V_7 = {0};
@@ -15003,7 +15003,7 @@ extern "C" void TW_SearchTweetsRequest_OnResult_m1085 (TW_SearchTweetsRequest_t2
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t252 * L_0 = (List_1_t252 *)il2cpp_codegen_object_new (List_1_t252_il2cpp_TypeInfo_var);
-		List_1__ctor_m2498(L_0, /*hidden argument*/List_1__ctor_m2498_MethodInfo_var);
+		List_1__ctor_m2638(L_0, /*hidden argument*/List_1__ctor_m2638_MethodInfo_var);
 		V_0 = L_0;
 		String_t* L_1 = ___data;
 		Object_t * L_2 = Json_Deserialize_m762(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -15011,10 +15011,10 @@ extern "C" void TW_SearchTweetsRequest_OnResult_m1085 (TW_SearchTweetsRequest_t2
 		Dictionary_2_t244 * L_3 = V_1;
 		NullCheck(L_3);
 		Object_t * L_4 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_3, (String_t*) &_stringLiteral479);
-		V_2 = ((List_1_t487 *)IsInst(L_4, List_1_t487_il2cpp_TypeInfo_var));
-		List_1_t487 * L_5 = V_2;
+		V_2 = ((List_1_t511 *)IsInst(L_4, List_1_t511_il2cpp_TypeInfo_var));
+		List_1_t511 * L_5 = V_2;
 		NullCheck(L_5);
-		Enumerator_t539  L_6 = List_1_GetEnumerator_m2444(L_5, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_6 = List_1_GetEnumerator_m2584(L_5, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_4 = L_6;
 	}
 
@@ -15027,7 +15027,7 @@ IL_002b:
 
 IL_0030:
 		{
-			Object_t * L_7 = Enumerator_get_Current_m2445((&V_4), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_7 = Enumerator_get_Current_m2585((&V_4), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_3 = L_7;
 			Object_t * L_8 = V_3;
 			V_5 = ((Dictionary_2_t244 *)IsInst(L_8, Dictionary_2_t244_il2cpp_TypeInfo_var));
@@ -15099,21 +15099,21 @@ IL_0030:
 			NullCheck(L_41);
 			Object_t * L_42 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_41, (String_t*) &_stringLiteral487);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			int32_t L_43 = Convert_ToInt32_m2392(NULL /*static, unused*/, ((String_t*)IsInst(L_42, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			int32_t L_43 = Convert_ToInt32_m2532(NULL /*static, unused*/, ((String_t*)IsInst(L_42, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			NullCheck(L_40);
 			L_40->___retweet_count_11 = L_43;
 			TweetTemplate_t255 * L_44 = V_6;
 			Dictionary_2_t244 * L_45 = V_5;
 			NullCheck(L_45);
 			Object_t * L_46 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_45, (String_t*) &_stringLiteral488);
-			int32_t L_47 = Convert_ToInt32_m2392(NULL /*static, unused*/, ((String_t*)IsInst(L_46, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			int32_t L_47 = Convert_ToInt32_m2532(NULL /*static, unused*/, ((String_t*)IsInst(L_46, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			NullCheck(L_44);
 			L_44->___favorite_count_12 = L_47;
 			Dictionary_2_t244 * L_48 = V_5;
 			NullCheck(L_48);
 			Object_t * L_49 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_48, (String_t*) &_stringLiteral355);
 			TwitterUserInfo_t240 * L_50 = (TwitterUserInfo_t240 *)il2cpp_codegen_object_new (TwitterUserInfo_t240_il2cpp_TypeInfo_var);
-			TwitterUserInfo__ctor_m1020(L_50, ((Object_t *)IsInst(L_49, IDictionary_t488_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			TwitterUserInfo__ctor_m1020(L_50, ((Object_t *)IsInst(L_49, IDictionary_t512_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			V_7 = L_50;
 			TweetTemplate_t255 * L_51 = V_6;
 			TwitterUserInfo_t240 * L_52 = V_7;
@@ -15134,7 +15134,7 @@ IL_0030:
 
 IL_01ad:
 		{
-			bool L_58 = Enumerator_MoveNext_m2446((&V_4), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_58 = Enumerator_MoveNext_m2586((&V_4), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_58)
 			{
 				goto IL_0030;
@@ -15154,9 +15154,9 @@ IL_01b9:
 
 FINALLY_01be:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_59 = V_4;
-		Enumerator_t539  L_60 = L_59;
-		Object_t * L_61 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_60);
+		Enumerator_t563  L_59 = V_4;
+		Enumerator_t563  L_60 = L_59;
+		Object_t * L_61 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_60);
 		NullCheck(L_61);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_61);
 		IL2CPP_END_FINALLY(446)
@@ -15194,7 +15194,7 @@ struct GameObject_t284;
 struct TW_UserTimeLineRequest_t271;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_UserTimeLineRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_UserTimeLineRequest>()
-#define GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2526(__this, method) (( TW_UserTimeLineRequest_t271 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2666(__this, method) (( TW_UserTimeLineRequest_t271 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_UserTimeLineRequest::.ctor()
@@ -15207,21 +15207,21 @@ extern "C" void TW_UserTimeLineRequest__ctor_m1086 (TW_UserTimeLineRequest_t271 
 }
 // TW_UserTimeLineRequest TW_UserTimeLineRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2526_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2666_MethodInfo_var;
 extern "C" TW_UserTimeLineRequest_t271 * TW_UserTimeLineRequest_Create_m1087 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2526_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
+		GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2666_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral489, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral489, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_UserTimeLineRequest_t271 * L_1 = GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2526(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2526_MethodInfo_var);
+		TW_UserTimeLineRequest_t271 * L_1 = GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2666(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_UserTimeLineRequest_t271_m2666_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -15235,48 +15235,48 @@ extern "C" void TW_UserTimeLineRequest_Awake_m1088 (TW_UserTimeLineRequest_t271 
 }
 // System.Void TW_UserTimeLineRequest::OnResult(System.String)
 extern TypeInfo* List_1_t252_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t244_il2cpp_TypeInfo_var;
 extern TypeInfo* TweetTemplate_t255_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t37_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterUserInfo_t240_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterDataCash_t250_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2498_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2638_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void TW_UserTimeLineRequest_OnResult_m1089 (TW_UserTimeLineRequest_t271 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t252_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(228);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
 		Dictionary_2_t244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(98);
 		TweetTemplate_t255_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(224);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Convert_t37_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		TwitterUserInfo_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		TwitterDataCash_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(226);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1__ctor_m2498_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1__ctor_m2638_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483839);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t252 * V_0 = {0};
-	List_1_t487 * V_1 = {0};
+	List_1_t511 * V_1 = {0};
 	Object_t * V_2 = {0};
-	Enumerator_t539  V_3 = {0};
+	Enumerator_t563  V_3 = {0};
 	Dictionary_2_t244 * V_4 = {0};
 	TweetTemplate_t255 * V_5 = {0};
 	TwitterUserInfo_t240 * V_6 = {0};
@@ -15289,16 +15289,16 @@ extern "C" void TW_UserTimeLineRequest_OnResult_m1089 (TW_UserTimeLineRequest_t2
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		String_t* L_0 = ___data;
-		Debug_Log_m2322(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		List_1_t252 * L_1 = (List_1_t252 *)il2cpp_codegen_object_new (List_1_t252_il2cpp_TypeInfo_var);
-		List_1__ctor_m2498(L_1, /*hidden argument*/List_1__ctor_m2498_MethodInfo_var);
+		List_1__ctor_m2638(L_1, /*hidden argument*/List_1__ctor_m2638_MethodInfo_var);
 		V_0 = L_1;
 		String_t* L_2 = ___data;
 		Object_t * L_3 = Json_Deserialize_m762(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		V_1 = ((List_1_t487 *)IsInst(L_3, List_1_t487_il2cpp_TypeInfo_var));
-		List_1_t487 * L_4 = V_1;
+		V_1 = ((List_1_t511 *)IsInst(L_3, List_1_t511_il2cpp_TypeInfo_var));
+		List_1_t511 * L_4 = V_1;
 		NullCheck(L_4);
-		Enumerator_t539  L_5 = List_1_GetEnumerator_m2444(L_4, /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		Enumerator_t563  L_5 = List_1_GetEnumerator_m2584(L_4, /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_3 = L_5;
 	}
 
@@ -15311,7 +15311,7 @@ IL_001f:
 
 IL_0024:
 		{
-			Object_t * L_6 = Enumerator_get_Current_m2445((&V_3), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_6 = Enumerator_get_Current_m2585((&V_3), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_2 = L_6;
 			Object_t * L_7 = V_2;
 			V_4 = ((Dictionary_2_t244 *)IsInst(L_7, Dictionary_2_t244_il2cpp_TypeInfo_var));
@@ -15383,21 +15383,21 @@ IL_0024:
 			NullCheck(L_40);
 			Object_t * L_41 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_40, (String_t*) &_stringLiteral487);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-			int32_t L_42 = Convert_ToInt32_m2392(NULL /*static, unused*/, ((String_t*)IsInst(L_41, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			int32_t L_42 = Convert_ToInt32_m2532(NULL /*static, unused*/, ((String_t*)IsInst(L_41, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			NullCheck(L_39);
 			L_39->___retweet_count_11 = L_42;
 			TweetTemplate_t255 * L_43 = V_5;
 			Dictionary_2_t244 * L_44 = V_4;
 			NullCheck(L_44);
 			Object_t * L_45 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_44, (String_t*) &_stringLiteral488);
-			int32_t L_46 = Convert_ToInt32_m2392(NULL /*static, unused*/, ((String_t*)IsInst(L_45, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			int32_t L_46 = Convert_ToInt32_m2532(NULL /*static, unused*/, ((String_t*)IsInst(L_45, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			NullCheck(L_43);
 			L_43->___favorite_count_12 = L_46;
 			Dictionary_2_t244 * L_47 = V_4;
 			NullCheck(L_47);
 			Object_t * L_48 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(21 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_47, (String_t*) &_stringLiteral355);
 			TwitterUserInfo_t240 * L_49 = (TwitterUserInfo_t240 *)il2cpp_codegen_object_new (TwitterUserInfo_t240_il2cpp_TypeInfo_var);
-			TwitterUserInfo__ctor_m1020(L_49, ((Object_t *)IsInst(L_48, IDictionary_t488_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			TwitterUserInfo__ctor_m1020(L_49, ((Object_t *)IsInst(L_48, IDictionary_t512_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			V_6 = L_49;
 			TweetTemplate_t255 * L_50 = V_5;
 			TwitterUserInfo_t240 * L_51 = V_6;
@@ -15418,7 +15418,7 @@ IL_0024:
 
 IL_01a1:
 		{
-			bool L_57 = Enumerator_MoveNext_m2446((&V_3), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_57 = Enumerator_MoveNext_m2586((&V_3), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_57)
 			{
 				goto IL_0024;
@@ -15438,9 +15438,9 @@ IL_01ad:
 
 FINALLY_01b2:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_58 = V_3;
-		Enumerator_t539  L_59 = L_58;
-		Object_t * L_60 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_59);
+		Enumerator_t563  L_58 = V_3;
+		Enumerator_t563  L_59 = L_58;
+		Object_t * L_60 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_59);
 		NullCheck(L_60);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_60);
 		IL2CPP_END_FINALLY(434)
@@ -15478,7 +15478,7 @@ struct GameObject_t284;
 struct TW_UsersLookUpRequest_t272;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TW_UsersLookUpRequest>()
 // !!0 UnityEngine.GameObject::AddComponent<TW_UsersLookUpRequest>()
-#define GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2527(__this, method) (( TW_UsersLookUpRequest_t272 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2667(__this, method) (( TW_UsersLookUpRequest_t272 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TW_UsersLookUpRequest::.ctor()
@@ -15491,21 +15491,21 @@ extern "C" void TW_UsersLookUpRequest__ctor_m1090 (TW_UsersLookUpRequest_t272 * 
 }
 // TW_UsersLookUpRequest TW_UsersLookUpRequest::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2527_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2667_MethodInfo_var;
 extern "C" TW_UsersLookUpRequest_t272 * TW_UsersLookUpRequest_Create_m1091 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2527_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483858);
+		GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2667_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483858);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral491, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral491, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TW_UsersLookUpRequest_t272 * L_1 = GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2527(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2527_MethodInfo_var);
+		TW_UsersLookUpRequest_t272 * L_1 = GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2667(L_0, /*hidden argument*/GameObject_AddComponent_TisTW_UsersLookUpRequest_t272_m2667_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -15519,39 +15519,39 @@ extern "C" void TW_UsersLookUpRequest_Awake_m1092 (TW_UsersLookUpRequest_t272 * 
 }
 // System.Void TW_UsersLookUpRequest::OnResult(System.String)
 extern TypeInfo* List_1_t253_il2cpp_TypeInfo_var;
-extern TypeInfo* List_1_t487_il2cpp_TypeInfo_var;
-extern TypeInfo* IDictionary_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_t512_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterUserInfo_t240_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterDataCash_t250_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t539_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t563_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* TW_APIRequstResult_t254_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2499_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2444_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2445_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2446_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2639_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2585_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2586_MethodInfo_var;
 extern "C" void TW_UsersLookUpRequest_OnResult_m1093 (TW_UsersLookUpRequest_t272 * __this, String_t* ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t253_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(229);
-		List_1_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
-		IDictionary_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		IDictionary_t512_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
 		TwitterUserInfo_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		TwitterDataCash_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(226);
-		Enumerator_t539_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Enumerator_t563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		TW_APIRequstResult_t254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1__ctor_m2499_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483840);
-		List_1_GetEnumerator_m2444_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
-		Enumerator_get_Current_m2445_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
-		Enumerator_MoveNext_m2446_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
+		List_1__ctor_m2639_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483840);
+		List_1_GetEnumerator_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		Enumerator_get_Current_m2585_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		Enumerator_MoveNext_m2586_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483768);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t253 * V_0 = {0};
 	Object_t * V_1 = {0};
-	Enumerator_t539  V_2 = {0};
+	Enumerator_t563  V_2 = {0};
 	TwitterUserInfo_t240 * V_3 = {0};
 	TW_APIRequstResult_t254 * V_4 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
@@ -15562,12 +15562,12 @@ extern "C" void TW_UsersLookUpRequest_OnResult_m1093 (TW_UsersLookUpRequest_t272
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t253 * L_0 = (List_1_t253 *)il2cpp_codegen_object_new (List_1_t253_il2cpp_TypeInfo_var);
-		List_1__ctor_m2499(L_0, /*hidden argument*/List_1__ctor_m2499_MethodInfo_var);
+		List_1__ctor_m2639(L_0, /*hidden argument*/List_1__ctor_m2639_MethodInfo_var);
 		V_0 = L_0;
 		String_t* L_1 = ___data;
 		Object_t * L_2 = Json_Deserialize_m762(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		NullCheck(((List_1_t487 *)IsInst(L_2, List_1_t487_il2cpp_TypeInfo_var)));
-		Enumerator_t539  L_3 = List_1_GetEnumerator_m2444(((List_1_t487 *)IsInst(L_2, List_1_t487_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2444_MethodInfo_var);
+		NullCheck(((List_1_t511 *)IsInst(L_2, List_1_t511_il2cpp_TypeInfo_var)));
+		Enumerator_t563  L_3 = List_1_GetEnumerator_m2584(((List_1_t511 *)IsInst(L_2, List_1_t511_il2cpp_TypeInfo_var)), /*hidden argument*/List_1_GetEnumerator_m2584_MethodInfo_var);
 		V_2 = L_3;
 	}
 
@@ -15580,11 +15580,11 @@ IL_0017:
 
 IL_001c:
 		{
-			Object_t * L_4 = Enumerator_get_Current_m2445((&V_2), /*hidden argument*/Enumerator_get_Current_m2445_MethodInfo_var);
+			Object_t * L_4 = Enumerator_get_Current_m2585((&V_2), /*hidden argument*/Enumerator_get_Current_m2585_MethodInfo_var);
 			V_1 = L_4;
 			Object_t * L_5 = V_1;
 			TwitterUserInfo_t240 * L_6 = (TwitterUserInfo_t240 *)il2cpp_codegen_object_new (TwitterUserInfo_t240_il2cpp_TypeInfo_var);
-			TwitterUserInfo__ctor_m1020(L_6, ((Object_t *)IsInst(L_5, IDictionary_t488_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			TwitterUserInfo__ctor_m1020(L_6, ((Object_t *)IsInst(L_5, IDictionary_t512_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			V_3 = L_6;
 			TwitterUserInfo_t240 * L_7 = V_3;
 			IL2CPP_RUNTIME_CLASS_INIT(TwitterDataCash_t250_il2cpp_TypeInfo_var);
@@ -15597,7 +15597,7 @@ IL_001c:
 
 IL_003d:
 		{
-			bool L_10 = Enumerator_MoveNext_m2446((&V_2), /*hidden argument*/Enumerator_MoveNext_m2446_MethodInfo_var);
+			bool L_10 = Enumerator_MoveNext_m2586((&V_2), /*hidden argument*/Enumerator_MoveNext_m2586_MethodInfo_var);
 			if (L_10)
 			{
 				goto IL_001c;
@@ -15617,9 +15617,9 @@ IL_0049:
 
 FINALLY_004e:
 	{ // begin finally (depth: 1)
-		Enumerator_t539  L_11 = V_2;
-		Enumerator_t539  L_12 = L_11;
-		Object_t * L_13 = Box(Enumerator_t539_il2cpp_TypeInfo_var, &L_12);
+		Enumerator_t563  L_11 = V_2;
+		Enumerator_t563  L_12 = L_11;
+		Object_t * L_13 = Box(Enumerator_t563_il2cpp_TypeInfo_var, &L_12);
 		NullCheck(L_13);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_13);
 		IL2CPP_END_FINALLY(78)
@@ -15653,7 +15653,7 @@ struct GameObject_t284;
 struct TwitterPostingTask_t274;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TwitterPostingTask>()
 // !!0 UnityEngine.GameObject::AddComponent<TwitterPostingTask>()
-#define GameObject_AddComponent_TisTwitterPostingTask_t274_m2528(__this, method) (( TwitterPostingTask_t274 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTwitterPostingTask_t274_m2668(__this, method) (( TwitterPostingTask_t274 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TwitterPostingTask::.ctor()
@@ -15676,27 +15676,27 @@ extern "C" void TwitterPostingTask__ctor_m1094 (TwitterPostingTask_t274 * __this
 }
 // TwitterPostingTask TwitterPostingTask::Cretae()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTwitterPostingTask_t274_m2528_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTwitterPostingTask_t274_m2668_MethodInfo_var;
 extern "C" TwitterPostingTask_t274 * TwitterPostingTask_Cretae_m1095 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTwitterPostingTask_t274_m2528_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483859);
+		GameObject_AddComponent_TisTwitterPostingTask_t274_m2668_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483859);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral493, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral493, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TwitterPostingTask_t274 * L_1 = GameObject_AddComponent_TisTwitterPostingTask_t274_m2528(L_0, /*hidden argument*/GameObject_AddComponent_TisTwitterPostingTask_t274_m2528_MethodInfo_var);
+		TwitterPostingTask_t274 * L_1 = GameObject_AddComponent_TisTwitterPostingTask_t274_m2668(L_0, /*hidden argument*/GameObject_AddComponent_TisTwitterPostingTask_t274_m2668_MethodInfo_var);
 		return L_1;
 	}
 }
 // System.Void TwitterPostingTask::Post(System.String,UnityEngine.Texture2D,TwitterManagerInterface)
 extern TypeInfo* TwitterManagerInterface_t273_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterPostingTask_OnTWInited_m1097_MethodInfo_var;
 extern "C" void TwitterPostingTask_Post_m1096 (TwitterPostingTask_t274 * __this, String_t* ___status, Texture2D_t65 * ___texture, Object_t * ___controller, const MethodInfo* method)
@@ -15705,7 +15705,7 @@ extern "C" void TwitterPostingTask_Post_m1096 (TwitterPostingTask_t274 * __this,
 	if (!s_Il2CppMethodIntialized)
 	{
 		TwitterManagerInterface_t273_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		IDispatcher_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
 		TwitterPostingTask_OnTWInited_m1097_MethodInfo_var = il2cpp_codegen_method_info_from_index(212);
 		s_Il2CppMethodIntialized = true;
@@ -15734,10 +15734,10 @@ IL_0030:
 	{
 		Object_t * L_5 = (__this->____controller_6);
 		IntPtr_t L_6 = { (void*)TwitterPostingTask_OnTWInited_m1097_MethodInfo_var };
-		EventHandlerFunction_t479 * L_7 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_7, __this, L_6, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_7 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_7, __this, L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral421, L_7);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral421, L_7);
 		Object_t * L_8 = (__this->____controller_6);
 		NullCheck(L_8);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void TwitterManagerInterface::Init() */, TwitterManagerInterface_t273_il2cpp_TypeInfo_var, L_8);
@@ -15749,7 +15749,7 @@ IL_0057:
 	}
 }
 // System.Void TwitterPostingTask::OnTWInited()
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterManagerInterface_t273_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterPostingTask_OnTWInited_m1097_MethodInfo_var;
@@ -15760,7 +15760,7 @@ extern "C" void TwitterPostingTask_OnTWInited_m1097 (TwitterPostingTask_t274 * _
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		IDispatcher_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
 		TwitterManagerInterface_t273_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
 		TwitterPostingTask_OnTWInited_m1097_MethodInfo_var = il2cpp_codegen_method_info_from_index(212);
@@ -15771,10 +15771,10 @@ extern "C" void TwitterPostingTask_OnTWInited_m1097 (TwitterPostingTask_t274 * _
 	{
 		Object_t * L_0 = (__this->____controller_6);
 		IntPtr_t L_1 = { (void*)TwitterPostingTask_OnTWInited_m1097_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral421, L_2);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral421, L_2);
 		Object_t * L_3 = (__this->____controller_6);
 		NullCheck(L_3);
 		bool L_4 = (bool)InterfaceFuncInvoker0< bool >::Invoke(9 /* System.Boolean TwitterManagerInterface::get_IsAuthed() */, TwitterManagerInterface_t273_il2cpp_TypeInfo_var, L_3);
@@ -15792,16 +15792,16 @@ IL_0037:
 	{
 		Object_t * L_5 = (__this->____controller_6);
 		IntPtr_t L_6 = { (void*)TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var };
-		EventHandlerFunction_t479 * L_7 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_7, __this, L_6, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_7 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_7, __this, L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral367, L_7);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral367, L_7);
 		Object_t * L_8 = (__this->____controller_6);
 		IntPtr_t L_9 = { (void*)TwitterPostingTask_OnTWAuth_m1098_MethodInfo_var };
-		EventHandlerFunction_t479 * L_10 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_10, __this, L_9, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_10 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_10, __this, L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral366, L_10);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_8, (String_t*) &_stringLiteral366, L_10);
 		Object_t * L_11 = (__this->____controller_6);
 		NullCheck(L_11);
 		InterfaceActionInvoker0::Invoke(2 /* System.Void TwitterManagerInterface::AuthenticateUser() */, TwitterManagerInterface_t273_il2cpp_TypeInfo_var, L_11);
@@ -15813,9 +15813,9 @@ IL_007a:
 	}
 }
 // System.Void TwitterPostingTask::OnTWAuth()
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern TypeInfo* TwitterManagerInterface_t273_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var;
 extern const MethodInfo* TwitterPostingTask_OnTWAuth_m1098_MethodInfo_var;
@@ -15826,9 +15826,9 @@ extern "C" void TwitterPostingTask_OnTWAuth_m1098 (TwitterPostingTask_t274 * __t
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		IDispatcher_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		TwitterManagerInterface_t273_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
 		TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var = il2cpp_codegen_method_info_from_index(213);
 		TwitterPostingTask_OnTWAuth_m1098_MethodInfo_var = il2cpp_codegen_method_info_from_index(214);
@@ -15839,30 +15839,30 @@ extern "C" void TwitterPostingTask_OnTWAuth_m1098 (TwitterPostingTask_t274 * __t
 	{
 		Object_t * L_0 = (__this->____controller_6);
 		IntPtr_t L_1 = { (void*)TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral367, L_2);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral367, L_2);
 		Object_t * L_3 = (__this->____controller_6);
 		IntPtr_t L_4 = { (void*)TwitterPostingTask_OnTWAuth_m1098_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral366, L_5);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral366, L_5);
 		Object_t * L_6 = (__this->____controller_6);
 		IntPtr_t L_7 = { (void*)TwitterPostingTask_OnPostFailed_m1101_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_8 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_8, __this, L_7, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_8 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral327, L_8);
+		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral327, L_8);
 		Object_t * L_9 = (__this->____controller_6);
 		IntPtr_t L_10 = { (void*)TwitterPostingTask_OnPost_m1100_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_11 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_11, __this, L_10, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_11 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_11, __this, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral358, L_11);
+		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral358, L_11);
 		Texture2D_t65 * L_12 = (__this->____texture_5);
-		bool L_13 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_12, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_13 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_12, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_13)
 		{
 			goto IL_009d;
@@ -15891,7 +15891,7 @@ IL_00ae:
 	}
 }
 // System.Void TwitterPostingTask::OnTWAuthFailed()
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
 extern TypeInfo* TWResult_t251_il2cpp_TypeInfo_var;
 extern const MethodInfo* TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var;
@@ -15901,7 +15901,7 @@ extern "C" void TwitterPostingTask_OnTWAuthFailed_m1099 (TwitterPostingTask_t274
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		IDispatcher_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
 		TWResult_t251_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(216);
 		TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var = il2cpp_codegen_method_info_from_index(213);
@@ -15912,16 +15912,16 @@ extern "C" void TwitterPostingTask_OnTWAuthFailed_m1099 (TwitterPostingTask_t274
 	{
 		Object_t * L_0 = (__this->____controller_6);
 		IntPtr_t L_1 = { (void*)TwitterPostingTask_OnTWAuthFailed_m1099_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral367, L_2);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral367, L_2);
 		Object_t * L_3 = (__this->____controller_6);
 		IntPtr_t L_4 = { (void*)TwitterPostingTask_OnTWAuth_m1098_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral366, L_5);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral366, L_5);
 		TWResult_t251 * L_6 = (TWResult_t251 *)il2cpp_codegen_object_new (TWResult_t251_il2cpp_TypeInfo_var);
 		TWResult__ctor_m1008(L_6, 0, (String_t*) &_stringLiteral409, /*hidden argument*/NULL);
 		V_0 = L_6;
@@ -16083,84 +16083,84 @@ struct ScriptableObject_t111;
 struct Object_t;
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
-extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m2385_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ScriptableObject_CreateInstance_TisObject_t_m2385(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m2385_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m2525_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisObject_t_m2525(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m2525_gshared)(__this /* static, unused */, method)
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<ISDSettings>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<ISDSettings>()
-#define ScriptableObject_CreateInstance_TisISDSettings_t276_m2529(__this /* static, unused */, method) (( ISDSettings_t276 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m2385_gshared)(__this /* static, unused */, method)
+#define ScriptableObject_CreateInstance_TisISDSettings_t276_m2669(__this /* static, unused */, method) (( ISDSettings_t276 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m2525_gshared)(__this /* static, unused */, method)
 
 
 // System.Void ISDSettings::.ctor()
 extern TypeInfo* List_1_t73_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2336_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2476_MethodInfo_var;
 extern "C" void ISDSettings__ctor_m1110 (ISDSettings_t276 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t73_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
-		List_1__ctor_m2336_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
+		List_1__ctor_m2476_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483679);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		__this->___IsPlistSettingsOpen_10 = 1;
 		List_1_t73 * L_0 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_0, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_0, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___frameworks_11 = L_0;
 		List_1_t73 * L_1 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_1, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_1, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___libraries_12 = L_1;
 		List_1_t73 * L_2 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_2, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_2, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___compileFlags_13 = L_2;
 		List_1_t73 * L_3 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_3, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_3, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___linkFlags_14 = L_3;
 		List_1_t73 * L_4 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_4, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_4, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___plistkeys_15 = L_4;
 		List_1_t73 * L_5 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_5, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_5, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___plisttags_16 = L_5;
 		List_1_t73 * L_6 = (List_1_t73 *)il2cpp_codegen_object_new (List_1_t73_il2cpp_TypeInfo_var);
-		List_1__ctor_m2336(L_6, /*hidden argument*/List_1__ctor_m2336_MethodInfo_var);
+		List_1__ctor_m2476(L_6, /*hidden argument*/List_1__ctor_m2476_MethodInfo_var);
 		__this->___plistvalues_17 = L_6;
-		ScriptableObject__ctor_m2386(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m2526(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // ISDSettings ISDSettings::get_Instance()
 extern TypeInfo* ISDSettings_t276_il2cpp_TypeInfo_var;
-extern const MethodInfo* ScriptableObject_CreateInstance_TisISDSettings_t276_m2529_MethodInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisISDSettings_t276_m2669_MethodInfo_var;
 extern "C" ISDSettings_t276 * ISDSettings_get_Instance_m1111 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ISDSettings_t276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(248);
-		ScriptableObject_CreateInstance_TisISDSettings_t276_m2529_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483865);
+		ScriptableObject_CreateInstance_TisISDSettings_t276_m2669_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483865);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ISDSettings_t276 * L_0 = ((ISDSettings_t276_StaticFields*)ISDSettings_t276_il2cpp_TypeInfo_var->static_fields)->___instance_18;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		Object_t504 * L_2 = Resources_Load_m2388(NULL /*static, unused*/, (String_t*) &_stringLiteral494, /*hidden argument*/NULL);
+		Object_t528 * L_2 = Resources_Load_m2528(NULL /*static, unused*/, (String_t*) &_stringLiteral494, /*hidden argument*/NULL);
 		((ISDSettings_t276_StaticFields*)ISDSettings_t276_il2cpp_TypeInfo_var->static_fields)->___instance_18 = ((ISDSettings_t276 *)IsInst(L_2, ISDSettings_t276_il2cpp_TypeInfo_var));
 		ISDSettings_t276 * L_3 = ((ISDSettings_t276_StaticFields*)ISDSettings_t276_il2cpp_TypeInfo_var->static_fields)->___instance_18;
-		bool L_4 = Object_op_Equality_m2387(NULL /*static, unused*/, L_3, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m2527(NULL /*static, unused*/, L_3, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		ISDSettings_t276 * L_5 = ScriptableObject_CreateInstance_TisISDSettings_t276_m2529(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisISDSettings_t276_m2529_MethodInfo_var);
+		ISDSettings_t276 * L_5 = ScriptableObject_CreateInstance_TisISDSettings_t276_m2669(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisISDSettings_t276_m2669_MethodInfo_var);
 		((ISDSettings_t276_StaticFields*)ISDSettings_t276_il2cpp_TypeInfo_var->static_fields)->___instance_18 = L_5;
 	}
 
@@ -16196,16 +16196,16 @@ IL_003e:
 extern "C" void InstagramUseExample__ctor_m1112 (InstagramUseExample_t277 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void InstagramUseExample::Awake()
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern const MethodInfo* InstagramUseExample_OnPostingCompleteAction_m1115_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
 extern "C" void InstagramUseExample_Awake_m1113 (InstagramUseExample_t277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -16213,45 +16213,45 @@ extern "C" void InstagramUseExample_Awake_m1113 (InstagramUseExample_t277 * __th
 	{
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		InstagramUseExample_OnPostingCompleteAction_m1115_MethodInfo_var = il2cpp_codegen_method_info_from_index(219);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		SPInstagram_t293 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_1_t237 * L_2 = (L_1->___OnPostingCompleteAction_6);
 		IntPtr_t L_3 = { (void*)InstagramUseExample_OnPostingCompleteAction_m1115_MethodInfo_var };
 		Action_1_t237 * L_4 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
-		Delegate_t538 * L_5 = Delegate_Combine_m2428(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m2628(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
+		Delegate_t562 * L_5 = Delegate_Combine_m2568(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnPostingCompleteAction_6 = ((Action_1_t237 *)Castclass(L_5, Action_1_t237_il2cpp_TypeInfo_var));
 		return;
 	}
 }
 // System.Void InstagramUseExample::OnGUI()
-extern TypeInfo* GUI_t506_il2cpp_TypeInfo_var;
+extern TypeInfo* GUI_t530_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern "C" void InstagramUseExample_OnGUI_m1114 (InstagramUseExample_t277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GUI_t506_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(92);
+		GUI_t530_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(92);
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Rect_t496  L_0 = {0};
-		Rect__ctor_m2310(&L_0, (30.0f), (70.0f), (180.0f), (50.0f), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t506_il2cpp_TypeInfo_var);
-		bool L_1 = GUI_Button_m2380(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral495, /*hidden argument*/NULL);
+		Rect_t520  L_0 = {0};
+		Rect__ctor_m2450(&L_0, (30.0f), (70.0f), (180.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t530_il2cpp_TypeInfo_var);
+		bool L_1 = GUI_Button_m2520(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral495, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0038;
@@ -16259,7 +16259,7 @@ extern "C" void InstagramUseExample_OnGUI_m1114 (InstagramUseExample_t277 * __th
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_2 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_2 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		Texture2D_t65 * L_3 = (__this->___imageForPosting_2);
 		NullCheck(L_2);
 		SPInstagram_Share_m1257(L_2, L_3, /*hidden argument*/NULL);
@@ -16267,10 +16267,10 @@ extern "C" void InstagramUseExample_OnGUI_m1114 (InstagramUseExample_t277 * __th
 
 IL_0038:
 	{
-		Rect_t496  L_4 = {0};
-		Rect__ctor_m2310(&L_4, (250.0f), (70.0f), (180.0f), (50.0f), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t506_il2cpp_TypeInfo_var);
-		bool L_5 = GUI_Button_m2380(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral496, /*hidden argument*/NULL);
+		Rect_t520  L_4 = {0};
+		Rect__ctor_m2450(&L_4, (250.0f), (70.0f), (180.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t530_il2cpp_TypeInfo_var);
+		bool L_5 = GUI_Button_m2520(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral496, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0075;
@@ -16278,7 +16278,7 @@ IL_0038:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_6 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_6 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		Texture2D_t65 * L_7 = (__this->___imageForPosting_2);
 		NullCheck(L_6);
 		SPInstagram_Share_m1258(L_6, L_7, (String_t*) &_stringLiteral497, /*hidden argument*/NULL);
@@ -16309,7 +16309,7 @@ extern "C" void InstagramUseExample_OnPostingCompleteAction_m1115 (InstagramUseE
 		}
 	}
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral498, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral498, /*hidden argument*/NULL);
 		goto IL_002f;
 	}
 
@@ -16322,7 +16322,7 @@ IL_0015:
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_5 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral499, L_4, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -16375,14 +16375,14 @@ extern "C" Object_t * U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_IEnu
 	}
 }
 // System.Boolean MSPFacebookUseExample/<PostFBScreenshot>c__Iterator6::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern "C" bool U3CPostFBScreenshotU3Ec__Iterator6_MoveNext_m1119 (U3CPostFBScreenshotU3Ec__Iterator6_t278 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -16408,8 +16408,8 @@ extern "C" bool U3CPostFBScreenshotU3Ec__Iterator6_MoveNext_m1119 (U3CPostFBScre
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00c0;
@@ -16417,29 +16417,29 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		Texture2D_t65 * L_13 = (__this->___U3CtexU3E__2_2);
 		SPShareUtility_FacebookShare_m1266(NULL /*static, unused*/, (String_t*) &_stringLiteral513, L_13, /*hidden argument*/NULL);
 		Texture2D_t65 * L_14 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		__this->___U24PC_3 = (-1);
 	}
 
@@ -16513,19 +16513,19 @@ extern "C" Object_t * U3CPostScreenshotU3Ec__Iterator7_System_Collections_IEnume
 	}
 }
 // System.Boolean MSPFacebookUseExample/<PostScreenshot>c__Iterator7::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" bool U3CPostScreenshotU3Ec__Iterator7_MoveNext_m1125 (U3CPostScreenshotU3Ec__Iterator7_t279 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -16550,8 +16550,8 @@ extern "C" bool U3CPostScreenshotU3Ec__Iterator7_MoveNext_m1125 (U3CPostScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00c5;
@@ -16559,32 +16559,32 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_13 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_13 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		Texture2D_t65 * L_14 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_13);
 		SPFacebook_PostImage_m788(L_13, (String_t*) &_stringLiteral538, L_14, /*hidden argument*/NULL);
 		Texture2D_t65 * L_15 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		__this->___U24PC_3 = (-1);
 	}
 
@@ -16662,7 +16662,7 @@ extern "C" void MSPFacebookUseExample__ctor_m1128 (MSPFacebookUseExample_t285 * 
 	{
 		__this->___startScore_18 = ((int32_t)555);
 		__this->___UNION_ASSETS_PAGE_ID_19 = (String_t*) &_stringLiteral500;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16675,9 +16675,9 @@ extern "C" void MSPFacebookUseExample__cctor_m1129 (Object_t * __this /* static,
 }
 // System.Void MSPFacebookUseExample::Awake()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSPFacebookUseExample_OnInit_m1156_MethodInfo_var;
 extern const MethodInfo* MSPFacebookUseExample_OnAuth_m1157_MethodInfo_var;
 extern const MethodInfo* MSPFacebookUseExample_OnUserDataLoaded_m1153_MethodInfo_var;
@@ -16697,9 +16697,9 @@ extern "C" void MSPFacebookUseExample_Awake_m1130 (MSPFacebookUseExample_t285 * 
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSPFacebookUseExample_OnInit_m1156_MethodInfo_var = il2cpp_codegen_method_info_from_index(220);
 		MSPFacebookUseExample_OnAuth_m1157_MethodInfo_var = il2cpp_codegen_method_info_from_index(221);
 		MSPFacebookUseExample_OnUserDataLoaded_m1153_MethodInfo_var = il2cpp_codegen_method_info_from_index(222);
@@ -16717,85 +16717,85 @@ extern "C" void MSPFacebookUseExample_Awake_m1130 (MSPFacebookUseExample_t285 * 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_1 = { (void*)MSPFacebookUseExample_OnInit_m1156_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral364, L_2);
-		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral364, L_2);
+		SPFacebook_t214 * L_3 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_4 = { (void*)MSPFacebookUseExample_OnAuth_m1157_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
-		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
+		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_7 = { (void*)MSPFacebookUseExample_OnUserDataLoaded_m1153_MethodInfo_var };
-		EventHandlerFunction_t479 * L_8 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_8, __this, L_7, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_8 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral363, L_8);
-		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral363, L_8);
+		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_10 = { (void*)MSPFacebookUseExample_OnUserDataLoadFailed_m1152_MethodInfo_var };
-		EventHandlerFunction_t479 * L_11 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_11, __this, L_10, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_11 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_11, __this, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_9, (String_t*) &_stringLiteral322, L_11);
-		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_9, (String_t*) &_stringLiteral322, L_11);
+		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_13 = { (void*)MSPFacebookUseExample_OnFriendsDataLoaded_m1155_MethodInfo_var };
-		EventHandlerFunction_t479 * L_14 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_14, __this, L_13, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_14 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_14, __this, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_12, (String_t*) &_stringLiteral359, L_14);
-		SPFacebook_t214 * L_15 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_12, (String_t*) &_stringLiteral359, L_14);
+		SPFacebook_t214 * L_15 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_16 = { (void*)MSPFacebookUseExample_OnFriendDataLoadFailed_m1154_MethodInfo_var };
-		EventHandlerFunction_t479 * L_17 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_17, __this, L_16, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_17 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_17, __this, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_15, (String_t*) &_stringLiteral325, L_17);
-		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_15, (String_t*) &_stringLiteral325, L_17);
+		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_19 = { (void*)MSPFacebookUseExample_OnPostFailed_m1159_MethodInfo_var };
-		EventHandlerFunction_t479 * L_20 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_20, __this, L_19, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_20 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_20, __this, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_18, (String_t*) &_stringLiteral327, L_20);
-		SPFacebook_t214 * L_21 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_18, (String_t*) &_stringLiteral327, L_20);
+		SPFacebook_t214 * L_21 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_22 = { (void*)MSPFacebookUseExample_OnPost_m1158_MethodInfo_var };
-		EventHandlerFunction_t479 * L_23 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_23, __this, L_22, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_23 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_23, __this, L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_21, (String_t*) &_stringLiteral358, L_23);
-		SPFacebook_t214 * L_24 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_21, (String_t*) &_stringLiteral358, L_23);
+		SPFacebook_t214 * L_24 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_25 = { (void*)MSPFacebookUseExample_OnFocusChanged_m1151_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_26 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_26, __this, L_25, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_26 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_26, __this, L_25, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_24, (String_t*) &_stringLiteral365, L_26);
-		SPFacebook_t214 * L_27 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_24, (String_t*) &_stringLiteral365, L_26);
+		SPFacebook_t214 * L_27 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_28 = { (void*)MSPFacebookUseExample_OnPlayerScoreRequestComplete_m1160_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_29 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_29, __this, L_28, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_29 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_29, __this, L_28, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_27, (String_t*) &_stringLiteral357, L_29);
-		SPFacebook_t214 * L_30 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_27, (String_t*) &_stringLiteral357, L_29);
+		SPFacebook_t214 * L_30 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_31 = { (void*)MSPFacebookUseExample_OnAppScoreRequestComplete_m1161_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_32 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_32, __this, L_31, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_32 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_32, __this, L_31, /*hidden argument*/NULL);
 		NullCheck(L_30);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_30, (String_t*) &_stringLiteral354, L_32);
-		SPFacebook_t214 * L_33 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_30, (String_t*) &_stringLiteral354, L_32);
+		SPFacebook_t214 * L_33 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_34 = { (void*)MSPFacebookUseExample_OnSubmitScoreRequestComplete_m1162_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_35 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_35, __this, L_34, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_35 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_35, __this, L_34, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_33, (String_t*) &_stringLiteral353, L_35);
-		SPFacebook_t214 * L_36 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_33, (String_t*) &_stringLiteral353, L_35);
+		SPFacebook_t214 * L_36 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_37 = { (void*)MSPFacebookUseExample_OnDeleteScoreRequestComplete_m1163_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_38 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_38, __this, L_37, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_38 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_38, __this, L_37, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_36, (String_t*) &_stringLiteral352, L_38);
-		SPFacebook_t214 * L_39 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_36, (String_t*) &_stringLiteral352, L_38);
+		SPFacebook_t214 * L_39 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_39);
 		SPFacebook_Init_m781(L_39, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
@@ -16806,12 +16806,12 @@ extern "C" void MSPFacebookUseExample_Awake_m1130 (MSPFacebookUseExample_t285 * 
 extern TypeInfo* MSPFacebookUseExample_t285_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t551_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t575_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2532_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2533_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2534_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2672_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2673_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2674_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_FixedUpdate_m1131 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -16820,12 +16820,12 @@ extern "C" void MSPFacebookUseExample_FixedUpdate_m1131 (MSPFacebookUseExample_t
 		MSPFacebookUseExample_t285_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(251);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		Enumerator_t551_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(252);
+		Enumerator_t575_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(252);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
-		List_1_GetEnumerator_m2532_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483881);
-		Enumerator_get_Current_m2533_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483882);
-		Enumerator_MoveNext_m2534_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483883);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		List_1_GetEnumerator_m2672_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483881);
+		Enumerator_get_Current_m2673_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483882);
+		Enumerator_MoveNext_m2674_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483883);
 		s_Il2CppMethodIntialized = true;
 	}
 	DefaultPreviewButton_t281 * V_0 = {0};
@@ -16836,7 +16836,7 @@ extern "C" void MSPFacebookUseExample_FixedUpdate_m1131 (MSPFacebookUseExample_t
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	FacebookUserInfo_t202 * V_7 = {0};
-	Enumerator_t551  V_8 = {0};
+	Enumerator_t575  V_8 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -16935,7 +16935,7 @@ IL_0076:
 		SA_Label_set_text_m1443(L_20, (String_t*) &_stringLiteral505, /*hidden argument*/NULL);
 		GameObject_t284 * L_21 = (__this->___friends_17);
 		NullCheck(L_21);
-		GameObject_SetActive_m2531(L_21, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m2671(L_21, 0, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -16950,12 +16950,12 @@ IL_00ae:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_23 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_23 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_23);
 		FacebookUserInfo_t202 * L_24 = SPFacebook_get_userInfo_m822(L_23, /*hidden argument*/NULL);
 		NullCheck(L_24);
 		Texture2D_t65 * L_25 = FacebookUserInfo_GetProfileImage_m909(L_24, 3, /*hidden argument*/NULL);
-		bool L_26 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_25, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_26 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_25, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_26)
 		{
 			goto IL_0155;
@@ -16964,7 +16964,7 @@ IL_00ae:
 	{
 		SA_Texture_t282 * L_27 = (__this->___avatar_7);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_28 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_28 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_28);
 		FacebookUserInfo_t202 * L_29 = SPFacebook_get_userInfo_m822(L_28, /*hidden argument*/NULL);
 		NullCheck(L_29);
@@ -16972,12 +16972,12 @@ IL_00ae:
 		NullCheck(L_27);
 		SA_Texture_set_texture_m1451(L_27, L_30, /*hidden argument*/NULL);
 		SA_Label_t283 * L_31 = (__this->___Name_11);
-		SPFacebook_t214 * L_32 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_32 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_32);
 		FacebookUserInfo_t202 * L_33 = SPFacebook_get_userInfo_m822(L_32, /*hidden argument*/NULL);
 		NullCheck(L_33);
 		String_t* L_34 = FacebookUserInfo_get_name_m913(L_33, /*hidden argument*/NULL);
-		SPFacebook_t214 * L_35 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_35 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_35);
 		FacebookUserInfo_t202 * L_36 = SPFacebook_get_userInfo_m822(L_35, /*hidden argument*/NULL);
 		NullCheck(L_36);
@@ -16987,7 +16987,7 @@ IL_00ae:
 		NullCheck(L_31);
 		SA_Label_set_text_m1443(L_31, L_38, /*hidden argument*/NULL);
 		SA_Label_t283 * L_39 = (__this->___Location_8);
-		SPFacebook_t214 * L_40 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_40 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_40);
 		FacebookUserInfo_t202 * L_41 = SPFacebook_get_userInfo_m822(L_40, /*hidden argument*/NULL);
 		NullCheck(L_41);
@@ -16995,7 +16995,7 @@ IL_00ae:
 		NullCheck(L_39);
 		SA_Label_set_text_m1443(L_39, L_42, /*hidden argument*/NULL);
 		SA_Label_t283 * L_43 = (__this->___Language_9);
-		SPFacebook_t214 * L_44 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_44 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_44);
 		FacebookUserInfo_t202 * L_45 = SPFacebook_get_userInfo_m822(L_44, /*hidden argument*/NULL);
 		NullCheck(L_45);
@@ -17016,14 +17016,14 @@ IL_0155:
 	{
 		GameObject_t284 * L_48 = (__this->___friends_17);
 		NullCheck(L_48);
-		GameObject_SetActive_m2531(L_48, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m2671(L_48, 1, /*hidden argument*/NULL);
 		V_6 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_49 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_49 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_49);
-		List_1_t490 * L_50 = SPFacebook_get_friendsList_m825(L_49, /*hidden argument*/NULL);
+		List_1_t514 * L_50 = SPFacebook_get_friendsList_m825(L_49, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		Enumerator_t551  L_51 = List_1_GetEnumerator_m2532(L_50, /*hidden argument*/List_1_GetEnumerator_m2532_MethodInfo_var);
+		Enumerator_t575  L_51 = List_1_GetEnumerator_m2672(L_50, /*hidden argument*/List_1_GetEnumerator_m2672_MethodInfo_var);
 		V_8 = L_51;
 	}
 
@@ -17036,7 +17036,7 @@ IL_017f:
 
 IL_0184:
 		{
-			FacebookUserInfo_t202 * L_52 = Enumerator_get_Current_m2533((&V_8), /*hidden argument*/Enumerator_get_Current_m2533_MethodInfo_var);
+			FacebookUserInfo_t202 * L_52 = Enumerator_get_Current_m2673((&V_8), /*hidden argument*/Enumerator_get_Current_m2673_MethodInfo_var);
 			V_7 = L_52;
 			int32_t L_53 = V_6;
 			if (L_53)
@@ -17056,7 +17056,7 @@ IL_0194:
 			FacebookUserInfo_t202 * L_57 = V_7;
 			NullCheck(L_57);
 			Texture2D_t65 * L_58 = FacebookUserInfo_GetProfileImage_m909(L_57, 3, /*hidden argument*/NULL);
-			bool L_59 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_58, (Object_t504 *)NULL, /*hidden argument*/NULL);
+			bool L_59 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_58, (Object_t528 *)NULL, /*hidden argument*/NULL);
 			if (!L_59)
 			{
 				goto IL_01cc;
@@ -17089,7 +17089,7 @@ IL_01d1:
 			FacebookUserInfo_t202 * L_66 = V_7;
 			NullCheck(L_66);
 			Texture2D_t65 * L_67 = FacebookUserInfo_GetProfileImage_m909(L_66, 3, /*hidden argument*/NULL);
-			bool L_68 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_67, (Object_t504 *)NULL, /*hidden argument*/NULL);
+			bool L_68 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_67, (Object_t528 *)NULL, /*hidden argument*/NULL);
 			if (!L_68)
 			{
 				goto IL_0209;
@@ -17114,7 +17114,7 @@ IL_0209:
 
 IL_020f:
 		{
-			bool L_73 = Enumerator_MoveNext_m2534((&V_8), /*hidden argument*/Enumerator_MoveNext_m2534_MethodInfo_var);
+			bool L_73 = Enumerator_MoveNext_m2674((&V_8), /*hidden argument*/Enumerator_MoveNext_m2674_MethodInfo_var);
 			if (L_73)
 			{
 				goto IL_0184;
@@ -17134,9 +17134,9 @@ IL_021b:
 
 FINALLY_0220:
 	{ // begin finally (depth: 1)
-		Enumerator_t551  L_74 = V_8;
-		Enumerator_t551  L_75 = L_74;
-		Object_t * L_76 = Box(Enumerator_t551_il2cpp_TypeInfo_var, &L_75);
+		Enumerator_t575  L_74 = V_8;
+		Enumerator_t575  L_75 = L_74;
+		Object_t * L_76 = Box(Enumerator_t575_il2cpp_TypeInfo_var, &L_75);
 		NullCheck(L_76);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_76);
 		IL2CPP_END_FINALLY(544)
@@ -17156,7 +17156,7 @@ IL_0232:
 	{
 		GameObject_t284 * L_77 = (__this->___friends_17);
 		NullCheck(L_77);
-		GameObject_SetActive_m2531(L_77, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m2671(L_77, 0, /*hidden argument*/NULL);
 	}
 
 IL_023e:
@@ -17166,19 +17166,19 @@ IL_023e:
 }
 // System.Void MSPFacebookUseExample::TestPayment()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_TestPayment_m1132 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_Pay_m810(L_0, (String_t*) &_stringLiteral507, 2, /*hidden argument*/NULL);
 		return;
@@ -17187,7 +17187,7 @@ extern "C" void MSPFacebookUseExample_TestPayment_m1132 (MSPFacebookUseExample_t
 // System.Void MSPFacebookUseExample::PostWithAuthCheck()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_PostWithAuthCheck_m1133 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17195,12 +17195,12 @@ extern "C" void MSPFacebookUseExample_PostWithAuthCheck_m1133 (MSPFacebookUseExa
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -17216,7 +17216,7 @@ extern "C" void MSPFacebookUseExample_PostNativeScreenshot_m1134 (MSPFacebookUse
 {
 	{
 		Object_t * L_0 = MSPFacebookUseExample_PostFBScreenshot_m1137(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -17259,7 +17259,7 @@ extern "C" Object_t * MSPFacebookUseExample_PostFBScreenshot_m1137 (MSPFacebookU
 // System.Void MSPFacebookUseExample::Connect()
 extern TypeInfo* MSPFacebookUseExample_t285_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_Connect_m1138 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17267,7 +17267,7 @@ extern "C" void MSPFacebookUseExample_Connect_m1138 (MSPFacebookUseExample_t285 
 	{
 		MSPFacebookUseExample_t285_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(251);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -17280,7 +17280,7 @@ extern "C" void MSPFacebookUseExample_Connect_m1138 (MSPFacebookUseExample_t285 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_1);
 		SPFacebook_Login_m783(L_1, (String_t*) &_stringLiteral514, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral515, /*hidden argument*/NULL);
@@ -17300,19 +17300,19 @@ IL_0038:
 }
 // System.Void MSPFacebookUseExample::LoadUserData()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_LoadUserData_m1139 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_LoadUserData_m785(L_0, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral517, /*hidden argument*/NULL);
@@ -17322,7 +17322,7 @@ extern "C" void MSPFacebookUseExample_LoadUserData_m1139 (MSPFacebookUseExample_
 // System.Void MSPFacebookUseExample::PostMessage()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_PostMessage_m1140 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17330,12 +17330,12 @@ extern "C" void MSPFacebookUseExample_PostMessage_m1140 (MSPFacebookUseExample_t
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -17352,26 +17352,26 @@ extern "C" void MSPFacebookUseExample_PostScreehShot_m1141 (MSPFacebookUseExampl
 {
 	{
 		Object_t * L_0 = MSPFacebookUseExample_PostScreenshot_m1164(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral518, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPFacebookUseExample::LoadFriends()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_LoadFriends_m1142 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_LoadFrientdsInfo_m786(L_0, 5, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral519, /*hidden argument*/NULL);
@@ -17380,49 +17380,49 @@ extern "C" void MSPFacebookUseExample_LoadFriends_m1142 (MSPFacebookUseExample_t
 }
 // System.Void MSPFacebookUseExample::AppRequest()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* Nullable_1_t493_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t517_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_AppRequest_m1143 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Nullable_1_t493_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
+		Nullable_1_t517_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
-	Nullable_1_t493  V_0 = {0};
+	Nullable_1_t517  V_0 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
-		Initobj (Nullable_1_t493_il2cpp_TypeInfo_var, (&V_0));
-		Nullable_1_t493  L_1 = V_0;
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
+		Initobj (Nullable_1_t517_il2cpp_TypeInfo_var, (&V_0));
+		Nullable_1_t517  L_1 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_0);
-		SPFacebook_AppRequest_m800(L_0, (String_t*) &_stringLiteral520, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, (List_1_t487 *)NULL, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, L_1, L_2, L_3, /*hidden argument*/NULL);
+		SPFacebook_AppRequest_m800(L_0, (String_t*) &_stringLiteral520, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, (List_1_t511 *)NULL, (StringU5BU5D_t45*)(StringU5BU5D_t45*)NULL, L_1, L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPFacebookUseExample::LoadScore()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_LoadScore_m1144 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_LoadPlayerScores_m803(L_0, /*hidden argument*/NULL);
 		return;
@@ -17430,19 +17430,19 @@ extern "C" void MSPFacebookUseExample_LoadScore_m1144 (MSPFacebookUseExample_t28
 }
 // System.Void MSPFacebookUseExample::LoadAppScores()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_LoadAppScores_m1145 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_LoadAppScores_m804(L_0, /*hidden argument*/NULL);
 		return;
@@ -17450,21 +17450,21 @@ extern "C" void MSPFacebookUseExample_LoadAppScores_m1145 (MSPFacebookUseExample
 }
 // System.Void MSPFacebookUseExample::SubmitScore()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_SubmitScore_m1146 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		int32_t L_0 = (__this->___startScore_18);
 		__this->___startScore_18 = ((int32_t)((int32_t)L_0+(int32_t)1));
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		int32_t L_2 = (__this->___startScore_18);
 		NullCheck(L_1);
 		SPFacebook_SubmitScore_m805(L_1, L_2, /*hidden argument*/NULL);
@@ -17473,19 +17473,19 @@ extern "C" void MSPFacebookUseExample_SubmitScore_m1146 (MSPFacebookUseExample_t
 }
 // System.Void MSPFacebookUseExample::DeletePlayerScores()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_DeletePlayerScores_m1147 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_DeletePlayerScores_m806(L_0, /*hidden argument*/NULL);
 		return;
@@ -17495,14 +17495,14 @@ extern "C" void MSPFacebookUseExample_DeletePlayerScores_m1147 (MSPFacebookUseEx
 extern "C" void MSPFacebookUseExample_LikePage_m1148 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	{
-		Application_OpenURL_m2535(NULL /*static, unused*/, (String_t*) &_stringLiteral521, /*hidden argument*/NULL);
+		Application_OpenURL_m2675(NULL /*static, unused*/, (String_t*) &_stringLiteral521, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPFacebookUseExample::CheckLike()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSPFacebookUseExample_OnLikesLoaded_m1150_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_CheckLike_m1149 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
@@ -17510,16 +17510,16 @@ extern "C" void MSPFacebookUseExample_CheckLike_m1149 (MSPFacebookUseExample_t28
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSPFacebookUseExample_OnLikesLoaded_m1150_MethodInfo_var = il2cpp_codegen_method_info_from_index(236);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_1);
 		String_t* L_2 = SPFacebook_get_UserId_m820(L_1, /*hidden argument*/NULL);
 		String_t* L_3 = (__this->___UNION_ASSETS_PAGE_ID_19);
@@ -17540,14 +17540,14 @@ extern "C" void MSPFacebookUseExample_CheckLike_m1149 (MSPFacebookUseExample_t28
 IL_0030:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IntPtr_t L_7 = { (void*)MSPFacebookUseExample_OnLikesLoaded_m1150_MethodInfo_var };
-		EventHandlerFunction_t479 * L_8 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_8, __this, L_7, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_8 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral351, L_8);
-		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
-		SPFacebook_t214 * L_10 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral351, L_8);
+		SPFacebook_t214 * L_9 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
+		SPFacebook_t214 * L_10 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_10);
 		String_t* L_11 = SPFacebook_get_UserId_m820(L_10, /*hidden argument*/NULL);
 		String_t* L_12 = (__this->___UNION_ASSETS_PAGE_ID_19);
@@ -17562,21 +17562,21 @@ IL_0065:
 }
 // System.Void MSPFacebookUseExample::OnLikesLoaded()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnLikesLoaded_m1150 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_1);
 		String_t* L_2 = SPFacebook_get_UserId_m820(L_1, /*hidden argument*/NULL);
 		String_t* L_3 = (__this->___UNION_ASSETS_PAGE_ID_19);
@@ -17627,13 +17627,13 @@ extern "C" void MSPFacebookUseExample_OnFocusChanged_m1151 (MSPFacebookUseExampl
 		}
 	}
 	{
-		Time_set_timeScale_m2536(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		Time_set_timeScale_m2676(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
 		goto IL_002b;
 	}
 
 IL_0021:
 	{
-		Time_set_timeScale_m2536(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		Time_set_timeScale_m2676(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
 	}
 
 IL_002b:
@@ -17646,14 +17646,14 @@ extern "C" void MSPFacebookUseExample_OnUserDataLoadFailed_m1152 (MSPFacebookUse
 {
 	{
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPFacebookUseExample::OnUserDataLoaded()
 extern TypeInfo* MSPFacebookUseExample_t285_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnUserDataLoaded_m1153 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17661,7 +17661,7 @@ extern "C" void MSPFacebookUseExample_OnUserDataLoaded_m1153 (MSPFacebookUseExam
 	{
 		MSPFacebookUseExample_t285_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(251);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -17669,7 +17669,7 @@ extern "C" void MSPFacebookUseExample_OnUserDataLoaded_m1153 (MSPFacebookUseExam
 		IL2CPP_RUNTIME_CLASS_INIT(MSPFacebookUseExample_t285_il2cpp_TypeInfo_var);
 		((MSPFacebookUseExample_t285_StaticFields*)MSPFacebookUseExample_t285_il2cpp_TypeInfo_var->static_fields)->___IsUserInfoLoaded_2 = 1;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		FacebookUserInfo_t202 * L_1 = SPFacebook_get_userInfo_m822(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -17682,36 +17682,36 @@ extern "C" void MSPFacebookUseExample_OnFriendDataLoadFailed_m1154 (MSPFacebookU
 {
 	{
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral526, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral526, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral526, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPFacebookUseExample::OnFriendsDataLoaded()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t551_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t575_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* MSPFacebookUseExample_t285_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2532_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2533_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2534_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2672_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2673_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2674_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnFriendsDataLoaded_m1155 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Enumerator_t551_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(252);
+		Enumerator_t575_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(252);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		MSPFacebookUseExample_t285_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(251);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
-		List_1_GetEnumerator_m2532_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483881);
-		Enumerator_get_Current_m2533_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483882);
-		Enumerator_MoveNext_m2534_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483883);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		List_1_GetEnumerator_m2672_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483881);
+		Enumerator_get_Current_m2673_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483882);
+		Enumerator_MoveNext_m2674_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483883);
 		s_Il2CppMethodIntialized = true;
 	}
 	FacebookUserInfo_t202 * V_0 = {0};
-	Enumerator_t551  V_1 = {0};
+	Enumerator_t575  V_1 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -17721,11 +17721,11 @@ extern "C" void MSPFacebookUseExample_OnFriendsDataLoaded_m1155 (MSPFacebookUseE
 	{
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral527, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
-		List_1_t490 * L_1 = SPFacebook_get_friendsList_m825(L_0, /*hidden argument*/NULL);
+		List_1_t514 * L_1 = SPFacebook_get_friendsList_m825(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		Enumerator_t551  L_2 = List_1_GetEnumerator_m2532(L_1, /*hidden argument*/List_1_GetEnumerator_m2532_MethodInfo_var);
+		Enumerator_t575  L_2 = List_1_GetEnumerator_m2672(L_1, /*hidden argument*/List_1_GetEnumerator_m2672_MethodInfo_var);
 		V_1 = L_2;
 	}
 
@@ -17738,7 +17738,7 @@ IL_001a:
 
 IL_001f:
 		{
-			FacebookUserInfo_t202 * L_3 = Enumerator_get_Current_m2533((&V_1), /*hidden argument*/Enumerator_get_Current_m2533_MethodInfo_var);
+			FacebookUserInfo_t202 * L_3 = Enumerator_get_Current_m2673((&V_1), /*hidden argument*/Enumerator_get_Current_m2673_MethodInfo_var);
 			V_0 = L_3;
 			FacebookUserInfo_t202 * L_4 = V_0;
 			NullCheck(L_4);
@@ -17747,7 +17747,7 @@ IL_001f:
 
 IL_002e:
 		{
-			bool L_5 = Enumerator_MoveNext_m2534((&V_1), /*hidden argument*/Enumerator_MoveNext_m2534_MethodInfo_var);
+			bool L_5 = Enumerator_MoveNext_m2674((&V_1), /*hidden argument*/Enumerator_MoveNext_m2674_MethodInfo_var);
 			if (L_5)
 			{
 				goto IL_001f;
@@ -17767,9 +17767,9 @@ IL_003a:
 
 FINALLY_003f:
 	{ // begin finally (depth: 1)
-		Enumerator_t551  L_6 = V_1;
-		Enumerator_t551  L_7 = L_6;
-		Object_t * L_8 = Box(Enumerator_t551_il2cpp_TypeInfo_var, &L_7);
+		Enumerator_t575  L_6 = V_1;
+		Enumerator_t575  L_7 = L_6;
+		Object_t * L_8 = Box(Enumerator_t575_il2cpp_TypeInfo_var, &L_7);
 		NullCheck(L_8);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_8);
 		IL2CPP_END_FINALLY(63)
@@ -17789,19 +17789,19 @@ IL_004b:
 }
 // System.Void MSPFacebookUseExample::OnInit()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnInit_m1156 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		bool L_1 = SPFacebook_get_IsLoggedIn_m819(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -17854,7 +17854,7 @@ extern "C" void MSPFacebookUseExample_OnPostFailed_m1159 (MSPFacebookUseExample_
 {
 	{
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral530, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral530, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral530, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -17864,7 +17864,7 @@ extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnPlayerScoreRequestComplete_m1160 (MSPFacebookUseExample_t285 * __this, CEvent_t91 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17875,7 +17875,7 @@ extern "C" void MSPFacebookUseExample_OnPlayerScoreRequestComplete_m1160 (MSPFac
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
@@ -17895,7 +17895,7 @@ extern "C" void MSPFacebookUseExample_OnPlayerScoreRequestComplete_m1160 (MSPFac
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_4);
 		Dictionary_2_t204 * L_5 = SPFacebook_get_userScores_m826(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -17903,17 +17903,17 @@ extern "C" void MSPFacebookUseExample_OnPlayerScoreRequestComplete_m1160 (MSPFac
 		int32_t L_7 = L_6;
 		Object_t * L_8 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Concat_m2448(NULL /*static, unused*/, (String_t*) &_stringLiteral531, L_8, (String_t*) &_stringLiteral532, /*hidden argument*/NULL);
+		String_t* L_9 = String_Concat_m2588(NULL /*static, unused*/, (String_t*) &_stringLiteral531, L_8, (String_t*) &_stringLiteral532, /*hidden argument*/NULL);
 		V_1 = L_9;
 		String_t* L_10 = V_1;
-		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		String_t* L_12 = FB_get_AppId_m1514(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		int32_t L_13 = SPFacebook_GetCurrentPlayerIntScoreByAppId_m813(L_11, L_12, /*hidden argument*/NULL);
 		int32_t L_14 = L_13;
 		Object_t * L_15 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_14);
-		String_t* L_16 = String_Concat_m2448(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral533, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Concat_m2588(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral533, L_15, /*hidden argument*/NULL);
 		V_1 = L_16;
 		String_t* L_17 = V_1;
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
@@ -17939,7 +17939,7 @@ extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnAppScoreRequestComplete_m1161 (MSPFacebookUseExample_t285 * __this, CEvent_t91 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17950,7 +17950,7 @@ extern "C" void MSPFacebookUseExample_OnAppScoreRequestComplete_m1161 (MSPFacebo
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
@@ -17970,7 +17970,7 @@ extern "C" void MSPFacebookUseExample_OnAppScoreRequestComplete_m1161 (MSPFacebo
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_4);
 		Dictionary_2_t204 * L_5 = SPFacebook_get_appScores_m827(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -17978,17 +17978,17 @@ extern "C" void MSPFacebookUseExample_OnAppScoreRequestComplete_m1161 (MSPFacebo
 		int32_t L_7 = L_6;
 		Object_t * L_8 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Concat_m2448(NULL /*static, unused*/, (String_t*) &_stringLiteral534, L_8, (String_t*) &_stringLiteral535, /*hidden argument*/NULL);
+		String_t* L_9 = String_Concat_m2588(NULL /*static, unused*/, (String_t*) &_stringLiteral534, L_8, (String_t*) &_stringLiteral535, /*hidden argument*/NULL);
 		V_1 = L_9;
 		String_t* L_10 = V_1;
-		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_11 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		String_t* L_12 = FB_get_UserId_m1515(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		int32_t L_13 = SPFacebook_GetScoreByUserId_m814(L_11, L_12, /*hidden argument*/NULL);
 		int32_t L_14 = L_13;
 		Object_t * L_15 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_14);
-		String_t* L_16 = String_Concat_m2448(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral533, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Concat_m2588(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral533, L_15, /*hidden argument*/NULL);
 		V_1 = L_16;
 		String_t* L_17 = V_1;
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
@@ -18014,7 +18014,7 @@ extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnSubmitScoreRequestComplete_m1162 (MSPFacebookUseExample_t285 * __this, CEvent_t91 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -18025,7 +18025,7 @@ extern "C" void MSPFacebookUseExample_OnSubmitScoreRequestComplete_m1162 (MSPFac
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
@@ -18047,7 +18047,7 @@ extern "C" void MSPFacebookUseExample_OnSubmitScoreRequestComplete_m1162 (MSPFac
 		V_1 = (String_t*) &_stringLiteral536;
 		String_t* L_4 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		String_t* L_6 = FB_get_UserId_m1515(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -18055,7 +18055,7 @@ extern "C" void MSPFacebookUseExample_OnSubmitScoreRequestComplete_m1162 (MSPFac
 		int32_t L_8 = L_7;
 		Object_t * L_9 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m2448(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral533, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m2588(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral533, L_9, /*hidden argument*/NULL);
 		V_1 = L_10;
 		String_t* L_11 = V_1;
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
@@ -18081,7 +18081,7 @@ extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t50_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_OnDeleteScoreRequestComplete_m1163 (MSPFacebookUseExample_t285 * __this, CEvent_t91 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -18092,7 +18092,7 @@ extern "C" void MSPFacebookUseExample_OnDeleteScoreRequestComplete_m1163 (MSPFac
 		FB_t338_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
 		Int32_t50_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	FB_APIResult_t230 * V_0 = {0};
@@ -18114,7 +18114,7 @@ extern "C" void MSPFacebookUseExample_OnDeleteScoreRequestComplete_m1163 (MSPFac
 		V_1 = (String_t*) &_stringLiteral537;
 		String_t* L_4 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_5 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		String_t* L_6 = FB_get_UserId_m1515(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -18122,7 +18122,7 @@ extern "C" void MSPFacebookUseExample_OnDeleteScoreRequestComplete_m1163 (MSPFac
 		int32_t L_8 = L_7;
 		Object_t * L_9 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m2448(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral533, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m2588(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral533, L_9, /*hidden argument*/NULL);
 		V_1 = L_10;
 		String_t* L_11 = V_1;
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
@@ -18164,7 +18164,7 @@ extern "C" Object_t * MSPFacebookUseExample_PostScreenshot_m1164 (MSPFacebookUse
 // System.Void MSPFacebookUseExample::LogOut()
 extern TypeInfo* MSPFacebookUseExample_t285_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSPFacebookUseExample_LogOut_m1165 (MSPFacebookUseExample_t285 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -18172,7 +18172,7 @@ extern "C" void MSPFacebookUseExample_LogOut_m1165 (MSPFacebookUseExample_t285 *
 	{
 		MSPFacebookUseExample_t285_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(251);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -18180,7 +18180,7 @@ extern "C" void MSPFacebookUseExample_LogOut_m1165 (MSPFacebookUseExample_t285 *
 		((MSPFacebookUseExample_t285_StaticFields*)MSPFacebookUseExample_t285_il2cpp_TypeInfo_var->static_fields)->___IsUserInfoLoaded_2 = 0;
 		((MSPFacebookUseExample_t285_StaticFields*)MSPFacebookUseExample_t285_il2cpp_TypeInfo_var->static_fields)->___IsAuntifivated_4 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_Logout_m784(L_0, /*hidden argument*/NULL);
 		return;
@@ -18200,16 +18200,16 @@ extern "C" void MSPFacebookUseExample_LogOut_m1165 (MSPFacebookUseExample_t285 *
 extern "C" void MSPMoreActionsExample__ctor_m1166 (MSPMoreActionsExample_t286 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void MSPMoreActionsExample::Awake()
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern const MethodInfo* MSPMoreActionsExample_OnPostingCompleteAction_m1173_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
 extern "C" void MSPMoreActionsExample_Awake_m1167 (MSPMoreActionsExample_t286 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -18217,21 +18217,21 @@ extern "C" void MSPMoreActionsExample_Awake_m1167 (MSPMoreActionsExample_t286 * 
 	{
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		MSPMoreActionsExample_OnPostingCompleteAction_m1173_MethodInfo_var = il2cpp_codegen_method_info_from_index(237);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		SPInstagram_t293 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_1_t237 * L_2 = (L_1->___OnPostingCompleteAction_6);
 		IntPtr_t L_3 = { (void*)MSPMoreActionsExample_OnPostingCompleteAction_m1173_MethodInfo_var };
 		Action_1_t237 * L_4 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
-		Delegate_t538 * L_5 = Delegate_Combine_m2428(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m2628(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
+		Delegate_t562 * L_5 = Delegate_Combine_m2568(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnPostingCompleteAction_6 = ((Action_1_t237 *)Castclass(L_5, Action_1_t237_il2cpp_TypeInfo_var));
 		return;
@@ -18239,19 +18239,19 @@ extern "C" void MSPMoreActionsExample_Awake_m1167 (MSPMoreActionsExample_t286 * 
 }
 // System.Void MSPMoreActionsExample::InstaShare()
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern "C" void MSPMoreActionsExample_InstaShare_m1168 (MSPMoreActionsExample_t286 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		Texture2D_t65 * L_1 = (__this->___imageForPosting_2);
 		NullCheck(L_0);
 		SPInstagram_Share_m1257(L_0, L_1, /*hidden argument*/NULL);
@@ -18260,19 +18260,19 @@ extern "C" void MSPMoreActionsExample_InstaShare_m1168 (MSPMoreActionsExample_t2
 }
 // System.Void MSPMoreActionsExample::InstaShareWithText()
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern "C" void MSPMoreActionsExample_InstaShareWithText_m1169 (MSPMoreActionsExample_t286 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		Texture2D_t65 * L_1 = (__this->___imageForPosting_2);
 		NullCheck(L_0);
 		SPInstagram_Share_m1258(L_0, L_1, (String_t*) &_stringLiteral497, /*hidden argument*/NULL);
@@ -18325,7 +18325,7 @@ extern "C" void MSPMoreActionsExample_OnPostingCompleteAction_m1173 (MSPMoreActi
 		}
 	}
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral498, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral498, /*hidden argument*/NULL);
 		goto IL_002f;
 	}
 
@@ -18338,7 +18338,7 @@ IL_0015:
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_5 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral499, L_4, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -18381,14 +18381,14 @@ extern "C" Object_t * U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_IEnu
 	}
 }
 // System.Boolean MSPTwitterUseExample/<PostTWScreenshot>c__Iterator8::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern "C" bool U3CPostTWScreenshotU3Ec__Iterator8_MoveNext_m1177 (U3CPostTWScreenshotU3Ec__Iterator8_t287 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -18414,8 +18414,8 @@ extern "C" bool U3CPostTWScreenshotU3Ec__Iterator8_MoveNext_m1177 (U3CPostTWScre
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00c0;
@@ -18423,29 +18423,29 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		Texture2D_t65 * L_13 = (__this->___U3CtexU3E__2_2);
 		SPShareUtility_TwitterShare_m1264(NULL /*static, unused*/, (String_t*) &_stringLiteral513, L_13, /*hidden argument*/NULL);
 		Texture2D_t65 * L_14 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		__this->___U24PC_3 = (-1);
 	}
 
@@ -18523,7 +18523,7 @@ extern "C" Object_t * U3CPostScreenshotU3Ec__Iterator9_System_Collections_IEnume
 	}
 }
 // System.Boolean MSPTwitterUseExample/<PostScreenshot>c__Iterator9::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern "C" bool U3CPostScreenshotU3Ec__Iterator9_MoveNext_m1183 (U3CPostScreenshotU3Ec__Iterator9_t288 * __this, const MethodInfo* method)
@@ -18531,7 +18531,7 @@ extern "C" bool U3CPostScreenshotU3Ec__Iterator9_MoveNext_m1183 (U3CPostScreensh
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		SPTwitter_t296_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(255);
 		s_Il2CppMethodIntialized = true;
@@ -18558,8 +18558,8 @@ extern "C" bool U3CPostScreenshotU3Ec__Iterator9_MoveNext_m1183 (U3CPostScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00c5;
@@ -18567,32 +18567,32 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		SPTwitter_t296 * L_13 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Texture2D_t65 * L_14 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_13);
 		VirtActionInvoker2< String_t*, Texture2D_t65 * >::Invoke(26 /* System.Void SPTwitter::Post(System.String,UnityEngine.Texture2D) */, L_13, (String_t*) &_stringLiteral538, L_14);
 		Texture2D_t65 * L_15 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		__this->___U24PC_3 = (-1);
 	}
 
@@ -18645,7 +18645,7 @@ extern "C" void U3CPostScreenshotU3Ec__Iterator9_Reset_m1185 (U3CPostScreenshotU
 extern "C" void MSPTwitterUseExample__ctor_m1186 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18667,7 +18667,7 @@ extern "C" void MSPTwitterUseExample__cctor_m1187 (Object_t * __this /* static, 
 }
 // System.Void MSPTwitterUseExample::Awake()
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
 extern TypeInfo* MSPTwitterUseExample_t289_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnInit_m1203_MethodInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnAuth_m1204_MethodInfo_var;
@@ -18681,7 +18681,7 @@ extern "C" void MSPTwitterUseExample_Awake_m1188 (MSPTwitterUseExample_t289 * __
 	if (!s_Il2CppMethodIntialized)
 	{
 		SPTwitter_t296_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(255);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
 		MSPTwitterUseExample_t289_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(256);
 		MSPTwitterUseExample_OnInit_m1203_MethodInfo_var = il2cpp_codegen_method_info_from_index(238);
 		MSPTwitterUseExample_OnAuth_m1204_MethodInfo_var = il2cpp_codegen_method_info_from_index(239);
@@ -18695,40 +18695,40 @@ extern "C" void MSPTwitterUseExample_Awake_m1188 (MSPTwitterUseExample_t289 * __
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		SPTwitter_t296 * L_0 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_1 = { (void*)MSPTwitterUseExample_OnInit_m1203_MethodInfo_var };
-		EventHandlerFunction_t479 * L_2 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_2 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral421, L_2);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral421, L_2);
 		SPTwitter_t296 * L_3 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_4 = { (void*)MSPTwitterUseExample_OnAuth_m1204_MethodInfo_var };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral366, L_5);
 		SPTwitter_t296 * L_6 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_7 = { (void*)MSPTwitterUseExample_OnPost_m1201_MethodInfo_var };
-		EventHandlerFunction_t479 * L_8 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_8, __this, L_7, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_8 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral358, L_8);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_6, (String_t*) &_stringLiteral358, L_8);
 		SPTwitter_t296 * L_9 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_10 = { (void*)MSPTwitterUseExample_OnPostFailed_m1202_MethodInfo_var };
-		EventHandlerFunction_t479 * L_11 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_11, __this, L_10, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_11 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_11, __this, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_9, (String_t*) &_stringLiteral327, L_11);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_9, (String_t*) &_stringLiteral327, L_11);
 		SPTwitter_t296 * L_12 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_13 = { (void*)MSPTwitterUseExample_OnUserDataLoaded_m1200_MethodInfo_var };
-		EventHandlerFunction_t479 * L_14 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_14, __this, L_13, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_14 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_14, __this, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_12, (String_t*) &_stringLiteral363, L_14);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_12, (String_t*) &_stringLiteral363, L_14);
 		SPTwitter_t296 * L_15 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_16 = { (void*)MSPTwitterUseExample_OnUserDataLoadFailed_m1199_MethodInfo_var };
-		EventHandlerFunction_t479 * L_17 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_17, __this, L_16, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_17 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_17, __this, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_15, (String_t*) &_stringLiteral322, L_17);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_15, (String_t*) &_stringLiteral322, L_17);
 		SPTwitter_t296 * L_18 = SPTwitter_get_instance_m1274(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(MSPTwitterUseExample_t289_il2cpp_TypeInfo_var);
 		String_t* L_19 = ((MSPTwitterUseExample_t289_StaticFields*)MSPTwitterUseExample_t289_il2cpp_TypeInfo_var->static_fields)->___TWITTER_CONSUMER_KEY_2;
@@ -18867,7 +18867,7 @@ IL_00a2:
 		TwitterUserInfo_t240 * L_23 = (TwitterUserInfo_t240 *)VirtFuncInvoker0< TwitterUserInfo_t240 * >::Invoke(32 /* TwitterUserInfo SPTwitter::get_userInfo() */, L_22);
 		NullCheck(L_23);
 		Texture2D_t65 * L_24 = TwitterUserInfo_get_profile_image_m1037(L_23, /*hidden argument*/NULL);
-		bool L_25 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_24, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_24, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_00e0;
@@ -18997,7 +18997,7 @@ extern "C" void MSPTwitterUseExample_PostNativeScreenshot_m1192 (MSPTwitterUseEx
 {
 	{
 		Object_t * L_0 = MSPTwitterUseExample_PostTWScreenshot_m1195(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19078,7 +19078,7 @@ extern "C" void MSPTwitterUseExample_PostScreehShot_m1198 (MSPTwitterUseExample_
 {
 	{
 		Object_t * L_0 = MSPTwitterUseExample_PostScreenshot_m1214(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19086,7 +19086,7 @@ extern "C" void MSPTwitterUseExample_PostScreehShot_m1198 (MSPTwitterUseExample_
 extern "C" void MSPTwitterUseExample_OnUserDataLoadFailed_m1199 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19123,7 +19123,7 @@ extern "C" void MSPTwitterUseExample_OnUserDataLoaded_m1200 (MSPTwitterUseExampl
 extern "C" void MSPTwitterUseExample_OnPost_m1201 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral546, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral546, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19131,7 +19131,7 @@ extern "C" void MSPTwitterUseExample_OnPost_m1201 (MSPTwitterUseExample_t289 * _
 extern "C" void MSPTwitterUseExample_OnPostFailed_m1202 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral530, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral530, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19181,14 +19181,14 @@ extern "C" void MSPTwitterUseExample_OnAuth_m1204 (MSPTwitterUseExample_t289 * _
 	}
 }
 // System.Void MSPTwitterUseExample::RetrieveTimeLine()
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnTimeLineRequestComplete_m1213_MethodInfo_var;
 extern "C" void MSPTwitterUseExample_RetrieveTimeLine_m1205 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		MSPTwitterUseExample_OnTimeLineRequestComplete_m1213_MethodInfo_var = il2cpp_codegen_method_info_from_index(244);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -19198,10 +19198,10 @@ extern "C" void MSPTwitterUseExample_RetrieveTimeLine_m1205 (MSPTwitterUseExampl
 		V_0 = L_0;
 		TW_UserTimeLineRequest_t271 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)MSPTwitterUseExample_OnTimeLineRequestComplete_m1213_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		TW_UserTimeLineRequest_t271 * L_4 = V_0;
 		NullCheck(L_4);
 		TW_APIRequest_AddParam_m1056(L_4, (String_t*) &_stringLiteral434, (String_t*) &_stringLiteral547, /*hidden argument*/NULL);
@@ -19215,14 +19215,14 @@ extern "C" void MSPTwitterUseExample_RetrieveTimeLine_m1205 (MSPTwitterUseExampl
 	}
 }
 // System.Void MSPTwitterUseExample::UserLookUpRequest()
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnLookUpRequestComplete_m1211_MethodInfo_var;
 extern "C" void MSPTwitterUseExample_UserLookUpRequest_m1206 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		MSPTwitterUseExample_OnLookUpRequestComplete_m1211_MethodInfo_var = il2cpp_codegen_method_info_from_index(245);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -19232,10 +19232,10 @@ extern "C" void MSPTwitterUseExample_UserLookUpRequest_m1206 (MSPTwitterUseExamp
 		V_0 = L_0;
 		TW_UsersLookUpRequest_t272 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)MSPTwitterUseExample_OnLookUpRequestComplete_m1211_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		TW_UsersLookUpRequest_t272 * L_4 = V_0;
 		NullCheck(L_4);
 		TW_APIRequest_AddParam_m1056(L_4, (String_t*) &_stringLiteral434, (String_t*) &_stringLiteral547, /*hidden argument*/NULL);
@@ -19246,14 +19246,14 @@ extern "C" void MSPTwitterUseExample_UserLookUpRequest_m1206 (MSPTwitterUseExamp
 	}
 }
 // System.Void MSPTwitterUseExample::FriedsidsRequest()
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var;
 extern "C" void MSPTwitterUseExample_FriedsidsRequest_m1207 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var = il2cpp_codegen_method_info_from_index(246);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -19263,10 +19263,10 @@ extern "C" void MSPTwitterUseExample_FriedsidsRequest_m1207 (MSPTwitterUseExampl
 		V_0 = L_0;
 		TW_FriendsIdsRequest_t262 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		TW_FriendsIdsRequest_t262 * L_4 = V_0;
 		NullCheck(L_4);
 		TW_APIRequest_AddParam_m1056(L_4, (String_t*) &_stringLiteral434, (String_t*) &_stringLiteral547, /*hidden argument*/NULL);
@@ -19277,14 +19277,14 @@ extern "C" void MSPTwitterUseExample_FriedsidsRequest_m1207 (MSPTwitterUseExampl
 	}
 }
 // System.Void MSPTwitterUseExample::FollowersidsRequest()
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var;
 extern "C" void MSPTwitterUseExample_FollowersidsRequest_m1208 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var = il2cpp_codegen_method_info_from_index(246);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -19294,10 +19294,10 @@ extern "C" void MSPTwitterUseExample_FollowersidsRequest_m1208 (MSPTwitterUseExa
 		V_0 = L_0;
 		TW_FollowersIdsRequest_t261 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)MSPTwitterUseExample_OnIdsLoaded_m1210_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		TW_FollowersIdsRequest_t261 * L_4 = V_0;
 		NullCheck(L_4);
 		TW_APIRequest_AddParam_m1056(L_4, (String_t*) &_stringLiteral434, (String_t*) &_stringLiteral547, /*hidden argument*/NULL);
@@ -19308,14 +19308,14 @@ extern "C" void MSPTwitterUseExample_FollowersidsRequest_m1208 (MSPTwitterUseExa
 	}
 }
 // System.Void MSPTwitterUseExample::TweetSearch()
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern const MethodInfo* MSPTwitterUseExample_OnSearchRequestComplete_m1212_MethodInfo_var;
 extern "C" void MSPTwitterUseExample_TweetSearch_m1209 (MSPTwitterUseExample_t289 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		MSPTwitterUseExample_OnSearchRequestComplete_m1212_MethodInfo_var = il2cpp_codegen_method_info_from_index(247);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -19325,10 +19325,10 @@ extern "C" void MSPTwitterUseExample_TweetSearch_m1209 (MSPTwitterUseExample_t28
 		V_0 = L_0;
 		TW_SearchTweetsRequest_t270 * L_1 = V_0;
 		IntPtr_t L_2 = { (void*)MSPTwitterUseExample_OnSearchRequestComplete_m1212_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_3 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_3, __this, L_2, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_3 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_1, (String_t*) &_stringLiteral350, L_3);
 		TW_SearchTweetsRequest_t270 * L_4 = V_0;
 		NullCheck(L_4);
 		TW_APIRequest_AddParam_m1056(L_4, (String_t*) &_stringLiteral548, (String_t*) &_stringLiteral549, /*hidden argument*/NULL);
@@ -19379,7 +19379,7 @@ extern "C" void MSPTwitterUseExample_OnIdsLoaded_m1210 (MSPTwitterUseExample_t28
 		Object_t * L_8 = Box(Int32_t50_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_9 = String_Concat_m175(NULL /*static, unused*/, (String_t*) &_stringLiteral550, L_8, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		goto IL_0046;
 	}
 
@@ -19388,7 +19388,7 @@ IL_003b:
 		TW_APIRequstResult_t254 * L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11 = TW_APIRequstResult_get_responce_m1013(L_10, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 	}
 
 IL_0046:
@@ -19450,7 +19450,7 @@ extern "C" void MSPTwitterUseExample_OnLookUpRequestComplete_m1211 (MSPTwitterUs
 		String_t* L_17 = String_Concat_m222(NULL /*static, unused*/, L_12, (String_t*) &_stringLiteral552, L_16, /*hidden argument*/NULL);
 		V_1 = L_17;
 		String_t* L_18 = V_1;
-		Debug_Log_m2322(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		goto IL_0074;
 	}
 
@@ -19459,7 +19459,7 @@ IL_0069:
 		TW_APIRequstResult_t254 * L_19 = V_0;
 		NullCheck(L_19);
 		String_t* L_20 = TW_APIRequstResult_get_responce_m1013(L_19, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
 IL_0074:
@@ -19508,7 +19508,7 @@ extern "C" void MSPTwitterUseExample_OnSearchRequestComplete_m1212 (MSPTwitterUs
 		String_t* L_9 = String_Concat_m174(NULL /*static, unused*/, L_4, L_8, /*hidden argument*/NULL);
 		V_1 = L_9;
 		String_t* L_10 = V_1;
-		Debug_Log_m2322(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		goto IL_004b;
 	}
 
@@ -19517,7 +19517,7 @@ IL_0040:
 		TW_APIRequstResult_t254 * L_11 = V_0;
 		NullCheck(L_11);
 		String_t* L_12 = TW_APIRequstResult_get_responce_m1013(L_11, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 	}
 
 IL_004b:
@@ -19587,7 +19587,7 @@ IL_004b:
 IL_0051:
 	{
 		String_t* L_13 = V_1;
-		Debug_Log_m2322(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		goto IL_0067;
 	}
 
@@ -19596,7 +19596,7 @@ IL_005c:
 		TW_APIRequstResult_t254 * L_14 = V_0;
 		NullCheck(L_14);
 		String_t* L_15 = TW_APIRequstResult_get_responce_m1013(L_14, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 	}
 
 IL_0067:
@@ -19660,7 +19660,7 @@ extern "C" void MSPTwitterUseExample_LogOut_m1215 (MSPTwitterUseExample_t289 * _
 extern "C" void MSP_FacebookAnalyticsExample__ctor_m1216 (MSP_FacebookAnalyticsExample_t290 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19791,7 +19791,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample__ctor_m1230 (MSP_Fac
 {
 	{
 		__this->___BombItemId_11 = (String_t*) &_stringLiteral562;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19807,12 +19807,12 @@ extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_t207_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t209_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnInit_m1246_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnFocusChanged_m1244_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2436_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2576_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Awake_m1232 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -19822,47 +19822,47 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Awake_m1232 (MSP_Fac
 		Action_t207_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		Action_1_t209_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(184);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnInit_m1246_MethodInfo_var = il2cpp_codegen_method_info_from_index(248);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnFocusChanged_m1244_MethodInfo_var = il2cpp_codegen_method_info_from_index(249);
-		Action_1__ctor_m2436_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483743);
+		Action_1__ctor_m2576_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483743);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247_MethodInfo_var = il2cpp_codegen_method_info_from_index(250);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_t207 * L_2 = (L_1->___OnInitCompleteAction_14);
 		IntPtr_t L_3 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnInit_m1246_MethodInfo_var };
 		Action_t207 * L_4 = (Action_t207 *)il2cpp_codegen_object_new (Action_t207_il2cpp_TypeInfo_var);
-		Action__ctor_m2434(L_4, __this, L_3, /*hidden argument*/NULL);
-		Delegate_t538 * L_5 = Delegate_Combine_m2428(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action__ctor_m2574(L_4, __this, L_3, /*hidden argument*/NULL);
+		Delegate_t562 * L_5 = Delegate_Combine_m2568(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnInitCompleteAction_14 = ((Action_t207 *)Castclass(L_5, Action_t207_il2cpp_TypeInfo_var));
-		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_7 = L_6;
 		NullCheck(L_7);
 		Action_1_t209 * L_8 = (L_7->___OnFocusChangedAction_16);
 		IntPtr_t L_9 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnFocusChanged_m1244_MethodInfo_var };
 		Action_1_t209 * L_10 = (Action_1_t209 *)il2cpp_codegen_object_new (Action_1_t209_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2436(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m2436_MethodInfo_var);
-		Delegate_t538 * L_11 = Delegate_Combine_m2428(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		Action_1__ctor_m2576(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m2576_MethodInfo_var);
+		Delegate_t562 * L_11 = Delegate_Combine_m2568(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		L_7->___OnFocusChangedAction_16 = ((Action_1_t209 *)Castclass(L_11, Action_1_t209_il2cpp_TypeInfo_var));
-		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_13 = L_12;
 		NullCheck(L_13);
 		Action_1_t210 * L_14 = (L_13->___OnAuthCompleteAction_17);
 		IntPtr_t L_15 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247_MethodInfo_var };
 		Action_1_t210 * L_16 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
-		Delegate_t538 * L_17 = Delegate_Combine_m2428(NULL /*static, unused*/, L_14, L_16, /*hidden argument*/NULL);
+		Action_1__ctor_m2577(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
+		Delegate_t562 * L_17 = Delegate_Combine_m2568(NULL /*static, unused*/, L_14, L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		L_13->___OnAuthCompleteAction_17 = ((Action_1_t210 *)Castclass(L_17, Action_1_t210_il2cpp_TypeInfo_var));
-		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_18);
 		SPFacebook_Init_m781(L_18, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
@@ -19873,7 +19873,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Awake_m1232 (MSP_Fac
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_FixedUpdate_m1233 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -19882,7 +19882,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_FixedUpdate_m1233 (M
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	DefaultPreviewButton_t281 * V_0 = {0};
@@ -19995,12 +19995,12 @@ IL_00a2:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_22 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_22 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_22);
 		FacebookUserInfo_t202 * L_23 = SPFacebook_get_userInfo_m822(L_22, /*hidden argument*/NULL);
 		NullCheck(L_23);
 		Texture2D_t65 * L_24 = FacebookUserInfo_GetProfileImage_m909(L_23, 3, /*hidden argument*/NULL);
-		bool L_25 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_24, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_24, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_0149;
@@ -20009,7 +20009,7 @@ IL_00a2:
 	{
 		SA_Texture_t282 * L_26 = (__this->___avatar_6);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_27 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_27 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_27);
 		FacebookUserInfo_t202 * L_28 = SPFacebook_get_userInfo_m822(L_27, /*hidden argument*/NULL);
 		NullCheck(L_28);
@@ -20017,12 +20017,12 @@ IL_00a2:
 		NullCheck(L_26);
 		SA_Texture_set_texture_m1451(L_26, L_29, /*hidden argument*/NULL);
 		SA_Label_t283 * L_30 = (__this->___Name_10);
-		SPFacebook_t214 * L_31 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_31 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_31);
 		FacebookUserInfo_t202 * L_32 = SPFacebook_get_userInfo_m822(L_31, /*hidden argument*/NULL);
 		NullCheck(L_32);
 		String_t* L_33 = FacebookUserInfo_get_name_m913(L_32, /*hidden argument*/NULL);
-		SPFacebook_t214 * L_34 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_34 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_34);
 		FacebookUserInfo_t202 * L_35 = SPFacebook_get_userInfo_m822(L_34, /*hidden argument*/NULL);
 		NullCheck(L_35);
@@ -20032,7 +20032,7 @@ IL_00a2:
 		NullCheck(L_30);
 		SA_Label_set_text_m1443(L_30, L_37, /*hidden argument*/NULL);
 		SA_Label_t283 * L_38 = (__this->___Location_7);
-		SPFacebook_t214 * L_39 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_39 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_39);
 		FacebookUserInfo_t202 * L_40 = SPFacebook_get_userInfo_m822(L_39, /*hidden argument*/NULL);
 		NullCheck(L_40);
@@ -20040,7 +20040,7 @@ IL_00a2:
 		NullCheck(L_38);
 		SA_Label_set_text_m1443(L_38, L_41, /*hidden argument*/NULL);
 		SA_Label_t283 * L_42 = (__this->___Language_8);
-		SPFacebook_t214 * L_43 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_43 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_43);
 		FacebookUserInfo_t202 * L_44 = SPFacebook_get_userInfo_m822(L_43, /*hidden argument*/NULL);
 		NullCheck(L_44);
@@ -20057,9 +20057,9 @@ IL_0149:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::RetriveAppRequests()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_RetriveAppRequests_m1234 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20067,24 +20067,24 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_RetriveAppRequests_m
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var = il2cpp_codegen_method_info_from_index(251);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_LoadPendingRequests_m801(L_0, /*hidden argument*/NULL);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_2 = L_1;
 		NullCheck(L_2);
 		Action_1_t210 * L_3 = (L_2->___OnAppRequestsLoaded_22);
 		IntPtr_t L_4 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var };
 		Action_1_t210 * L_5 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
-		Delegate_t538 * L_6 = Delegate_Combine_m2428(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		Action_1__ctor_m2577(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
+		Delegate_t562 * L_6 = Delegate_Combine_m2568(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		L_2->___OnAppRequestsLoaded_22 = ((Action_1_t210 *)Castclass(L_6, Action_1_t210_il2cpp_TypeInfo_var));
 		return;
@@ -20092,34 +20092,34 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_RetriveAppRequests_m
 }
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::OnAppRequestsLoaded(FBResult)
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t552_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t576_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2537_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2538_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2539_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2677_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2678_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2679_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Enumerator_t552_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		Enumerator_t576_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
-		List_1_GetEnumerator_m2537_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483900);
-		Enumerator_get_Current_m2538_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483901);
-		Enumerator_MoveNext_m2539_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483902);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		List_1_GetEnumerator_m2677_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483900);
+		Enumerator_get_Current_m2678_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483901);
+		Enumerator_MoveNext_m2679_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483902);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var = il2cpp_codegen_method_info_from_index(251);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBAppRequest_t218 * V_0 = {0};
-	Enumerator_t552  V_1 = {0};
+	Enumerator_t576  V_1 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -20137,11 +20137,11 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_2 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_2 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_2);
 		List_1_t206 * L_3 = SPFacebook_get_AppRequests_m829(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Enumerator_t552  L_4 = List_1_GetEnumerator_m2537(L_3, /*hidden argument*/List_1_GetEnumerator_m2537_MethodInfo_var);
+		Enumerator_t576  L_4 = List_1_GetEnumerator_m2677(L_3, /*hidden argument*/List_1_GetEnumerator_m2677_MethodInfo_var);
 		V_1 = L_4;
 	}
 
@@ -20154,17 +20154,17 @@ IL_001b:
 
 IL_0020:
 		{
-			FBAppRequest_t218 * L_5 = Enumerator_get_Current_m2538((&V_1), /*hidden argument*/Enumerator_get_Current_m2538_MethodInfo_var);
+			FBAppRequest_t218 * L_5 = Enumerator_get_Current_m2678((&V_1), /*hidden argument*/Enumerator_get_Current_m2678_MethodInfo_var);
 			V_0 = L_5;
 			FBAppRequest_t218 * L_6 = V_0;
 			NullCheck(L_6);
 			String_t* L_7 = (L_6->___Id_0);
-			Debug_Log_m2322(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+			Debug_Log_m2462(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		}
 
 IL_0033:
 		{
-			bool L_8 = Enumerator_MoveNext_m2539((&V_1), /*hidden argument*/Enumerator_MoveNext_m2539_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m2679((&V_1), /*hidden argument*/Enumerator_MoveNext_m2679_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0020;
@@ -20184,9 +20184,9 @@ IL_003f:
 
 FINALLY_0044:
 	{ // begin finally (depth: 1)
-		Enumerator_t552  L_9 = V_1;
-		Enumerator_t552  L_10 = L_9;
-		Object_t * L_11 = Box(Enumerator_t552_il2cpp_TypeInfo_var, &L_10);
+		Enumerator_t576  L_9 = V_1;
+		Enumerator_t576  L_10 = L_9;
+		Object_t * L_11 = Box(Enumerator_t576_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_11);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_11);
 		IL2CPP_END_FINALLY(68)
@@ -20200,14 +20200,14 @@ FINALLY_0044:
 IL_0050:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_12 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_13 = L_12;
 		NullCheck(L_13);
 		Action_1_t210 * L_14 = (L_13->___OnAppRequestsLoaded_22);
 		IntPtr_t L_15 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestsLoaded_m1235_MethodInfo_var };
 		Action_1_t210 * L_16 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
-		Delegate_t538 * L_17 = Delegate_Remove_m2429(NULL /*static, unused*/, L_14, L_16, /*hidden argument*/NULL);
+		Action_1__ctor_m2577(L_16, __this, L_15, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
+		Delegate_t562 * L_17 = Delegate_Remove_m2569(NULL /*static, unused*/, L_14, L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		L_13->___OnAppRequestsLoaded_22 = ((Action_1_t210 *)Castclass(L_17, Action_1_t210_il2cpp_TypeInfo_var));
 		return;
@@ -20216,7 +20216,7 @@ IL_0050:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::SendTrunhRequest()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequest_m1236 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20224,12 +20224,12 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequest_m12
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_0);
@@ -20241,9 +20241,9 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequest_m12
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t45_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t211_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2438_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2578_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequestToSpecifiedFriend_m1237 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20252,16 +20252,16 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequestToSp
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		StringU5BU5D_t45_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
 		Action_1_t211_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var = il2cpp_codegen_method_info_from_index(255);
-		Action_1__ctor_m2438_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
+		Action_1__ctor_m2578_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		V_0 = (String_t*) &_stringLiteral565;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		StringU5BU5D_t45* L_1 = ((StringU5BU5D_t45*)SZArrayNew(StringU5BU5D_t45_il2cpp_TypeInfo_var, 2));
 		String_t* L_2 = V_0;
 		NullCheck(L_1);
@@ -20275,14 +20275,14 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequestToSp
 		*((String_t**)(String_t**)SZArrayLdElema(L_3, 1)) = (String_t*)(String_t*) &_stringLiteral569;
 		NullCheck(L_0);
 		SPFacebook_SendTrunRequest_m791(L_0, (String_t*) &_stringLiteral566, (String_t*) &_stringLiteral567, (String_t*) &_stringLiteral568, L_3, /*hidden argument*/NULL);
-		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_5 = L_4;
 		NullCheck(L_5);
 		Action_1_t211 * L_6 = (L_5->___OnAppRequestCompleteAction_21);
 		IntPtr_t L_7 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var };
 		Action_1_t211 * L_8 = (Action_1_t211 *)il2cpp_codegen_object_new (Action_1_t211_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2438(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m2438_MethodInfo_var);
-		Delegate_t538 * L_9 = Delegate_Combine_m2428(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
+		Action_1__ctor_m2578(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m2578_MethodInfo_var);
+		Delegate_t562 * L_9 = Delegate_Combine_m2568(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		L_5->___OnAppRequestCompleteAction_21 = ((Action_1_t211 *)Castclass(L_9, Action_1_t211_il2cpp_TypeInfo_var));
 		return;
@@ -20291,7 +20291,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendTrunhRequestToSp
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::AskItem()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_AskItem_m1238 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20299,12 +20299,12 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_AskItem_m1238 (MSP_F
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		String_t* L_1 = (__this->___BombItemId_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -20316,7 +20316,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_AskItem_m1238 (MSP_F
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::SendItem()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendItem_m1239 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20324,12 +20324,12 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendItem_m1239 (MSP_
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		String_t* L_1 = (__this->___BombItemId_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -20342,9 +20342,9 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendItem_m1239 (MSP_
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t45_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t211_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2438_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2578_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendToSpecifiedFriend_m1240 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20353,16 +20353,16 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendToSpecifiedFrien
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		StringU5BU5D_t45_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
 		Action_1_t211_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var = il2cpp_codegen_method_info_from_index(255);
-		Action_1__ctor_m2438_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
+		Action_1__ctor_m2578_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		V_0 = (String_t*) &_stringLiteral565;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		String_t* L_1 = (__this->___BombItemId_11);
 		StringU5BU5D_t45* L_2 = ((StringU5BU5D_t45*)SZArrayNew(StringU5BU5D_t45_il2cpp_TypeInfo_var, 1));
 		String_t* L_3 = V_0;
@@ -20372,14 +20372,14 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendToSpecifiedFrien
 		*((String_t**)(String_t**)SZArrayLdElema(L_2, 0)) = (String_t*)L_3;
 		NullCheck(L_0);
 		SPFacebook_SendGift_m792(L_0, (String_t*) &_stringLiteral566, (String_t*) &_stringLiteral567, L_1, (String_t*) &_stringLiteral568, L_2, /*hidden argument*/NULL);
-		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_4 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_5 = L_4;
 		NullCheck(L_5);
 		Action_1_t211 * L_6 = (L_5->___OnAppRequestCompleteAction_21);
 		IntPtr_t L_7 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var };
 		Action_1_t211 * L_8 = (Action_1_t211 *)il2cpp_codegen_object_new (Action_1_t211_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2438(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m2438_MethodInfo_var);
-		Delegate_t538 * L_9 = Delegate_Combine_m2428(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
+		Action_1__ctor_m2578(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m2578_MethodInfo_var);
+		Delegate_t562 * L_9 = Delegate_Combine_m2568(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		L_5->___OnAppRequestCompleteAction_21 = ((Action_1_t211 *)Castclass(L_9, Action_1_t211_il2cpp_TypeInfo_var));
 		return;
@@ -20387,36 +20387,36 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_SendToSpecifiedFrien
 }
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::OnAppRequestCompleteAction(FBAppRequestResult)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t527_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t551_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t211_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2389_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2390_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2391_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2529_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2530_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2531_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2438_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2578_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, FBAppRequestResult_t220 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		Enumerator_t527_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(135);
+		Enumerator_t551_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(135);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Action_1_t211_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
-		List_1_GetEnumerator_m2389_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
-		Enumerator_get_Current_m2390_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_MoveNext_m2391_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		List_1_GetEnumerator_m2529_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
+		Enumerator_get_Current_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_MoveNext_m2531_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var = il2cpp_codegen_method_info_from_index(255);
-		Action_1__ctor_m2438_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
+		Action_1__ctor_m2578_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483750);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
-	Enumerator_t527  V_1 = {0};
+	Enumerator_t551  V_1 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -20433,18 +20433,18 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestComplete
 		}
 	}
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral570, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral570, /*hidden argument*/NULL);
 		FBAppRequestResult_t220 * L_2 = ___result;
 		NullCheck(L_2);
 		String_t* L_3 = (L_2->___ReuqestId_1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral571, L_3, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		FBAppRequestResult_t220 * L_5 = ___result;
 		NullCheck(L_5);
 		List_1_t73 * L_6 = (L_5->___Recipients_2);
 		NullCheck(L_6);
-		Enumerator_t527  L_7 = List_1_GetEnumerator_m2389(L_6, /*hidden argument*/List_1_GetEnumerator_m2389_MethodInfo_var);
+		Enumerator_t551  L_7 = List_1_GetEnumerator_m2529(L_6, /*hidden argument*/List_1_GetEnumerator_m2529_MethodInfo_var);
 		V_1 = L_7;
 	}
 
@@ -20457,15 +20457,15 @@ IL_0036:
 
 IL_003b:
 		{
-			String_t* L_8 = Enumerator_get_Current_m2390((&V_1), /*hidden argument*/Enumerator_get_Current_m2390_MethodInfo_var);
+			String_t* L_8 = Enumerator_get_Current_m2530((&V_1), /*hidden argument*/Enumerator_get_Current_m2530_MethodInfo_var);
 			V_0 = L_8;
 			String_t* L_9 = V_0;
-			Debug_Log_m2322(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+			Debug_Log_m2462(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		}
 
 IL_0049:
 		{
-			bool L_10 = Enumerator_MoveNext_m2391((&V_1), /*hidden argument*/Enumerator_MoveNext_m2391_MethodInfo_var);
+			bool L_10 = Enumerator_MoveNext_m2531((&V_1), /*hidden argument*/Enumerator_MoveNext_m2531_MethodInfo_var);
 			if (L_10)
 			{
 				goto IL_003b;
@@ -20485,9 +20485,9 @@ IL_0055:
 
 FINALLY_005a:
 	{ // begin finally (depth: 1)
-		Enumerator_t527  L_11 = V_1;
-		Enumerator_t527  L_12 = L_11;
-		Object_t * L_13 = Box(Enumerator_t527_il2cpp_TypeInfo_var, &L_12);
+		Enumerator_t551  L_11 = V_1;
+		Enumerator_t551  L_12 = L_11;
+		Object_t * L_13 = Box(Enumerator_t551_il2cpp_TypeInfo_var, &L_12);
 		NullCheck(L_13);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_13);
 		IL2CPP_END_FINALLY(90)
@@ -20507,26 +20507,26 @@ IL_0066:
 		String_t* L_16 = FBResult_get_Text_m1556(L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_17 = String_Concat_m174(NULL /*static, unused*/, (String_t*) &_stringLiteral572, L_16, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 		goto IL_008f;
 	}
 
 IL_0085:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral573, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral573, /*hidden argument*/NULL);
 	}
 
 IL_008f:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_18 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_19 = L_18;
 		NullCheck(L_19);
 		Action_1_t211 * L_20 = (L_19->___OnAppRequestCompleteAction_21);
 		IntPtr_t L_21 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAppRequestCompleteAction_m1241_MethodInfo_var };
 		Action_1_t211 * L_22 = (Action_1_t211 *)il2cpp_codegen_object_new (Action_1_t211_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2438(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2438_MethodInfo_var);
-		Delegate_t538 * L_23 = Delegate_Remove_m2429(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+		Action_1__ctor_m2578(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2578_MethodInfo_var);
+		Delegate_t562 * L_23 = Delegate_Remove_m2569(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		L_19->___OnAppRequestCompleteAction_21 = ((Action_1_t211 *)Castclass(L_23, Action_1_t211_il2cpp_TypeInfo_var));
 		return;
@@ -20535,7 +20535,7 @@ IL_008f:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::Connect()
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Connect_m1242 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20543,7 +20543,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Connect_m1242 (MSP_F
 	{
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20556,7 +20556,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_Connect_m1242 (MSP_F
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_1 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_1);
 		SPFacebook_Login_m783(L_1, (String_t*) &_stringLiteral514, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral515, /*hidden argument*/NULL);
@@ -20577,9 +20577,9 @@ IL_0038:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::LoadUserData()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_LoadUserData_m1243 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20587,24 +20587,24 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_LoadUserData_m1243 (
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var = il2cpp_codegen_method_info_from_index(256);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_1_t210 * L_2 = (L_1->___OnUserDataRequestCompleteAction_19);
 		IntPtr_t L_3 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var };
 		Action_1_t210 * L_4 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
-		Delegate_t538 * L_5 = Delegate_Combine_m2428(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m2577(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
+		Delegate_t562 * L_5 = Delegate_Combine_m2568(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnUserDataRequestCompleteAction_19 = ((Action_1_t210 *)Castclass(L_5, Action_1_t210_il2cpp_TypeInfo_var));
-		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_6 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_6);
 		SPFacebook_LoadUserData_m785(L_6, /*hidden argument*/NULL);
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral517, /*hidden argument*/NULL);
@@ -20622,13 +20622,13 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnFocusChanged_m1244
 		}
 	}
 	{
-		Time_set_timeScale_m2536(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		Time_set_timeScale_m2676(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
 		goto IL_001f;
 	}
 
 IL_0015:
 	{
-		Time_set_timeScale_m2536(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		Time_set_timeScale_m2676(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
 	}
 
 IL_001f:
@@ -20640,9 +20640,9 @@ IL_001f:
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t210_il2cpp_TypeInfo_var;
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2437_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2577_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20651,21 +20651,21 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m12
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Action_1_t210_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var = il2cpp_codegen_method_info_from_index(256);
-		Action_1__ctor_m2437_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		Action_1__ctor_m2577_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		SPFacebook_t214 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_1_t210 * L_2 = (L_1->___OnUserDataRequestCompleteAction_19);
 		IntPtr_t L_3 = { (void*)MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m1245_MethodInfo_var };
 		Action_1_t210 * L_4 = (Action_1_t210 *)il2cpp_codegen_object_new (Action_1_t210_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2437(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2437_MethodInfo_var);
-		Delegate_t538 * L_5 = Delegate_Remove_m2429(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m2577(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2577_MethodInfo_var);
+		Delegate_t562 * L_5 = Delegate_Remove_m2569(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnUserDataRequestCompleteAction_19 = ((Action_1_t210 *)Castclass(L_5, Action_1_t210_il2cpp_TypeInfo_var));
 		FBResult_t213 * L_6 = ___result;
@@ -20681,7 +20681,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m12
 		IL2CPP_RUNTIME_CLASS_INIT(MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var);
 		((MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_StaticFields*)MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var->static_fields)->___IsUserInfoLoaded_2 = 1;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_8 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_8 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_8);
 		FacebookUserInfo_t202 * L_9 = SPFacebook_get_userInfo_m822(L_8, /*hidden argument*/NULL);
 		NullCheck(L_9);
@@ -20692,7 +20692,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnUserDataLoaded_m12
 IL_0056:
 	{
 		SA_StatusBar_set_text_m1447(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral524, /*hidden argument*/NULL);
 	}
 
 IL_006a:
@@ -20703,7 +20703,7 @@ IL_006a:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::OnInit()
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnInit_m1246 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20711,12 +20711,12 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnInit_m1246 (MSP_Fa
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		bool L_1 = SPFacebook_get_IsLoggedIn_m819(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -20743,7 +20743,7 @@ IL_0024:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::OnAuth(FBResult)
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20751,12 +20751,12 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247 (MSP_Fa
 	{
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		bool L_1 = SPFacebook_get_IsLoggedIn_m819(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -20774,7 +20774,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_OnAuth_m1247 (MSP_Fa
 
 IL_002a:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral574, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral574, /*hidden argument*/NULL);
 	}
 
 IL_0034:
@@ -20785,7 +20785,7 @@ IL_0034:
 // System.Void MSP_FacebookAndroidTurnBasedAndGiftsExample::LogOut()
 extern TypeInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t215_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2477_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2617_MethodInfo_var;
 extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_LogOut_m1248 (MSP_FacebookAndroidTurnBasedAndGiftsExample_t291 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20793,7 +20793,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_LogOut_m1248 (MSP_Fa
 	{
 		MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(259);
 		SA_Singleton_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		SA_Singleton_1_get_instance_m2477_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
+		SA_Singleton_1_get_instance_m2617_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483815);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20801,7 +20801,7 @@ extern "C" void MSP_FacebookAndroidTurnBasedAndGiftsExample_LogOut_m1248 (MSP_Fa
 		((MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_StaticFields*)MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var->static_fields)->___IsUserInfoLoaded_2 = 0;
 		((MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_StaticFields*)MSP_FacebookAndroidTurnBasedAndGiftsExample_t291_il2cpp_TypeInfo_var->static_fields)->___IsAuntificated_3 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t215_il2cpp_TypeInfo_var);
-		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2477(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2477_MethodInfo_var);
+		SPFacebook_t214 * L_0 = SA_Singleton_1_get_instance_m2617(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2617_MethodInfo_var);
 		NullCheck(L_0);
 		SPFacebook_Logout_m784(L_0, /*hidden argument*/NULL);
 		return;
@@ -20892,7 +20892,7 @@ extern "C" void MSPAndroidSocialGate_StartShareIntentWithSubject_m1253 (Object_t
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002a;
@@ -20901,7 +20901,7 @@ extern "C" void MSPAndroidSocialGate_StartShareIntentWithSubject_m1253 (Object_t
 	{
 		Texture2D_t65 * L_2 = ___texture;
 		NullCheck(L_2);
-		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2330(L_2, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2470(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		ByteU5BU5D_t36* L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -20944,7 +20944,7 @@ extern "C" void MSPAndroidSocialGate_SendMail_m1254 (Object_t * __this /* static
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002b;
@@ -20953,7 +20953,7 @@ extern "C" void MSPAndroidSocialGate_SendMail_m1254 (Object_t * __this /* static
 	{
 		Texture2D_t65 * L_2 = ___texture;
 		NullCheck(L_2);
-		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2330(L_2, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2470(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		ByteU5BU5D_t36* L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -21001,8 +21001,8 @@ extern TypeInfo* SPInstagram_t293_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPInstagram_U3COnPostingCompleteActionU3Em__18_m1261_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2540_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2680_MethodInfo_var;
 extern "C" void SPInstagram__ctor_m1255 (SPInstagram_t293 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -21012,8 +21012,8 @@ extern "C" void SPInstagram__ctor_m1255 (SPInstagram_t293 * __this, const Method
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		SPInstagram_U3COnPostingCompleteActionU3Em__18_m1261_MethodInfo_var = il2cpp_codegen_method_info_from_index(257);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
-		SA_Singleton_1__ctor_m2540_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483906);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		SA_Singleton_1__ctor_m2680_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483906);
 		s_Il2CppMethodIntialized = true;
 	}
 	SPInstagram_t293 * G_B2_0 = {0};
@@ -21030,7 +21030,7 @@ extern "C" void SPInstagram__ctor_m1255 (SPInstagram_t293 * __this, const Method
 	{
 		IntPtr_t L_1 = { (void*)SPInstagram_U3COnPostingCompleteActionU3Em__18_m1261_MethodInfo_var };
 		Action_1_t237 * L_2 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
+		Action_1__ctor_m2628(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
 		((SPInstagram_t293_StaticFields*)SPInstagram_t293_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_7 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -21041,38 +21041,38 @@ IL_0019:
 		NullCheck(G_B2_0);
 		G_B2_0->___OnPostingCompleteAction_6 = L_3;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2540(__this, /*hidden argument*/SA_Singleton_1__ctor_m2540_MethodInfo_var);
+		SA_Singleton_1__ctor_m2680(__this, /*hidden argument*/SA_Singleton_1__ctor_m2680_MethodInfo_var);
 		return;
 	}
 }
 // System.Void SPInstagram::Awake()
 extern TypeInfo* SA_Singleton_1_t298_il2cpp_TypeInfo_var;
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern TypeInfo* DataEventHandlerFunction_t480_il2cpp_TypeInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern TypeInfo* DataEventHandlerFunction_t504_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t239_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2542_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2682_MethodInfo_var;
 extern const MethodInfo* SPInstagram_OnPost_m1259_MethodInfo_var;
 extern const MethodInfo* SPInstagram_OnPostFailed_m1260_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2543_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2683_MethodInfo_var;
 extern "C" void SPInstagram_Awake_m1256 (SPInstagram_t293 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t298_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(262);
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		DataEventHandlerFunction_t480_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		DataEventHandlerFunction_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
 		SA_Singleton_1_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(215);
-		SA_Singleton_1_get_instance_m2542_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
+		SA_Singleton_1_get_instance_m2682_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
 		SPInstagram_OnPost_m1259_MethodInfo_var = il2cpp_codegen_method_info_from_index(260);
 		SPInstagram_OnPostFailed_m1260_MethodInfo_var = il2cpp_codegen_method_info_from_index(261);
-		SA_Singleton_1_get_instance_m2543_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
+		SA_Singleton_1_get_instance_m2683_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral575, /*hidden argument*/NULL);
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral575, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21099,51 +21099,51 @@ extern "C" void SPInstagram_Awake_m1256 (SPInstagram_t293 * __this, const Method
 IL_002d:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t298_il2cpp_TypeInfo_var);
-		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2542(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2542_MethodInfo_var);
+		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2682(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2682_MethodInfo_var);
 		IntPtr_t L_3 = { (void*)SPInstagram_OnPost_m1259_MethodInfo_var };
-		EventHandlerFunction_t479 * L_4 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_4, __this, L_3, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_4 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_4, __this, L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_2, (String_t*) &_stringLiteral358, L_4);
-		IOSInstagramManager_t297 * L_5 = SA_Singleton_1_get_instance_m2542(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2542_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_2, (String_t*) &_stringLiteral358, L_4);
+		IOSInstagramManager_t297 * L_5 = SA_Singleton_1_get_instance_m2682(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2682_MethodInfo_var);
 		IntPtr_t L_6 = { (void*)SPInstagram_OnPostFailed_m1260_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_7 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_7, __this, L_6, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_7 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_7, __this, L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_5, (String_t*) &_stringLiteral327, L_7);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_5, (String_t*) &_stringLiteral327, L_7);
 		goto IL_00a3;
 	}
 
 IL_0068:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t239_il2cpp_TypeInfo_var);
-		AndroidInstagramManager_t238 * L_8 = SA_Singleton_1_get_instance_m2543(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2543_MethodInfo_var);
+		AndroidInstagramManager_t238 * L_8 = SA_Singleton_1_get_instance_m2683(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2683_MethodInfo_var);
 		IntPtr_t L_9 = { (void*)SPInstagram_OnPost_m1259_MethodInfo_var };
-		EventHandlerFunction_t479 * L_10 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_10, __this, L_9, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_10 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_10, __this, L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_8, (String_t*) &_stringLiteral358, L_10);
-		AndroidInstagramManager_t238 * L_11 = SA_Singleton_1_get_instance_m2543(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2543_MethodInfo_var);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_8, (String_t*) &_stringLiteral358, L_10);
+		AndroidInstagramManager_t238 * L_11 = SA_Singleton_1_get_instance_m2683(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2683_MethodInfo_var);
 		IntPtr_t L_12 = { (void*)SPInstagram_OnPostFailed_m1260_MethodInfo_var };
-		DataEventHandlerFunction_t480 * L_13 = (DataEventHandlerFunction_t480 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t480_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m2269(L_13, __this, L_12, /*hidden argument*/NULL);
+		DataEventHandlerFunction_t504 * L_13 = (DataEventHandlerFunction_t504 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t504_il2cpp_TypeInfo_var);
+		DataEventHandlerFunction__ctor_m2409(L_13, __this, L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_11, (String_t*) &_stringLiteral327, L_13);
+		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_11, (String_t*) &_stringLiteral327, L_13);
 		goto IL_00a3;
 	}
 
 IL_00a3:
 	{
-		GameObject_t284 * L_14 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		GameObject_t284 * L_14 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SPInstagram::Share(UnityEngine.Texture2D)
 extern TypeInfo* SA_Singleton_1_t298_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t239_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2542_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2543_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2682_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2683_MethodInfo_var;
 extern "C" void SPInstagram_Share_m1257 (SPInstagram_t293 * __this, Texture2D_t65 * ___texture, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -21151,13 +21151,13 @@ extern "C" void SPInstagram_Share_m1257 (SPInstagram_t293 * __this, Texture2D_t6
 	{
 		SA_Singleton_1_t298_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(262);
 		SA_Singleton_1_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(215);
-		SA_Singleton_1_get_instance_m2542_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
-		SA_Singleton_1_get_instance_m2543_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
+		SA_Singleton_1_get_instance_m2682_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
+		SA_Singleton_1_get_instance_m2683_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21184,7 +21184,7 @@ extern "C" void SPInstagram_Share_m1257 (SPInstagram_t293 * __this, Texture2D_t6
 IL_0023:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t298_il2cpp_TypeInfo_var);
-		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2542(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2542_MethodInfo_var);
+		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2682(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2682_MethodInfo_var);
 		Texture2D_t65 * L_3 = ___texture;
 		NullCheck(L_2);
 		IOSInstagramManager_Share_m1315(L_2, L_3, /*hidden argument*/NULL);
@@ -21194,9 +21194,9 @@ IL_0023:
 IL_0033:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t239_il2cpp_TypeInfo_var);
-		AndroidInstagramManager_t238 * L_4 = SA_Singleton_1_get_instance_m2543(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2543_MethodInfo_var);
-		Debug_Log_m2322(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
-		AndroidInstagramManager_t238 * L_5 = SA_Singleton_1_get_instance_m2543(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2543_MethodInfo_var);
+		AndroidInstagramManager_t238 * L_4 = SA_Singleton_1_get_instance_m2683(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2683_MethodInfo_var);
+		Debug_Log_m2462(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		AndroidInstagramManager_t238 * L_5 = SA_Singleton_1_get_instance_m2683(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2683_MethodInfo_var);
 		Texture2D_t65 * L_6 = ___texture;
 		NullCheck(L_5);
 		AndroidInstagramManager_Share_m959(L_5, L_6, /*hidden argument*/NULL);
@@ -21211,8 +21211,8 @@ IL_004d:
 // System.Void SPInstagram::Share(UnityEngine.Texture2D,System.String)
 extern TypeInfo* SA_Singleton_1_t298_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t239_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2542_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2543_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2682_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2683_MethodInfo_var;
 extern "C" void SPInstagram_Share_m1258 (SPInstagram_t293 * __this, Texture2D_t65 * ___texture, String_t* ___message, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -21220,13 +21220,13 @@ extern "C" void SPInstagram_Share_m1258 (SPInstagram_t293 * __this, Texture2D_t6
 	{
 		SA_Singleton_1_t298_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(262);
 		SA_Singleton_1_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(215);
-		SA_Singleton_1_get_instance_m2542_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
-		SA_Singleton_1_get_instance_m2543_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
+		SA_Singleton_1_get_instance_m2682_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483907);
+		SA_Singleton_1_get_instance_m2683_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483910);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21253,7 +21253,7 @@ extern "C" void SPInstagram_Share_m1258 (SPInstagram_t293 * __this, Texture2D_t6
 IL_0023:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t298_il2cpp_TypeInfo_var);
-		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2542(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2542_MethodInfo_var);
+		IOSInstagramManager_t297 * L_2 = SA_Singleton_1_get_instance_m2682(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2682_MethodInfo_var);
 		Texture2D_t65 * L_3 = ___texture;
 		String_t* L_4 = ___message;
 		NullCheck(L_2);
@@ -21264,7 +21264,7 @@ IL_0023:
 IL_0034:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t239_il2cpp_TypeInfo_var);
-		AndroidInstagramManager_t238 * L_5 = SA_Singleton_1_get_instance_m2543(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2543_MethodInfo_var);
+		AndroidInstagramManager_t238 * L_5 = SA_Singleton_1_get_instance_m2683(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2683_MethodInfo_var);
 		Texture2D_t65 * L_6 = ___texture;
 		String_t* L_7 = ___message;
 		NullCheck(L_5);
@@ -21281,7 +21281,7 @@ IL_0045:
 extern "C" void SPInstagram_OnPost_m1259 (SPInstagram_t293 * __this, const MethodInfo* method)
 {
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral576, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral576, /*hidden argument*/NULL);
 		Action_1_t237 * L_0 = (__this->___OnPostingCompleteAction_6);
 		NullCheck(L_0);
 		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void System.Action`1<InstagramPostResult>::Invoke(!0) */, L_0, 0);
@@ -21300,7 +21300,7 @@ extern "C" void SPInstagram_OnPostFailed_m1260 (SPInstagram_t293 * __this, CEven
 	}
 	int32_t V_0 = {0};
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral577, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral577, /*hidden argument*/NULL);
 		CEvent_t91 * L_0 = ___e;
 		NullCheck(L_0);
 		Object_t * L_1 = CEvent_get_data_m412(L_0, /*hidden argument*/NULL);
@@ -21360,7 +21360,7 @@ extern "C" void SPShareUtility_TwitterShare_m1264 (Object_t * __this /* static, 
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21429,7 +21429,7 @@ extern "C" void SPShareUtility_FacebookShare_m1266 (Object_t * __this /* static,
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21501,7 +21501,7 @@ extern "C" void SPShareUtility_ShareMedia_m1268 (Object_t * __this /* static, un
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21575,7 +21575,7 @@ extern "C" void SPShareUtility_SendMail_m1270 (Object_t * __this /* static, unus
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -21639,14 +21639,14 @@ struct GameObject_t284;
 struct SPTwitter_t296;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<SPTwitter>()
 // !!0 UnityEngine.GameObject::AddComponent<SPTwitter>()
-#define GameObject_AddComponent_TisSPTwitter_t296_m2544(__this, method) (( SPTwitter_t296 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisSPTwitter_t296_m2684(__this, method) (( SPTwitter_t296 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void SPTwitter::.ctor()
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t241_il2cpp_TypeInfo_var;
 extern const MethodInfo* SPTwitter_U3COnTwitterInitedActionU3Em__19_m1308_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2490_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2630_MethodInfo_var;
 extern const MethodInfo* SPTwitter_U3COnAuthCompleteActionU3Em__1A_m1309_MethodInfo_var;
 extern const MethodInfo* SPTwitter_U3COnPostingCompleteActionU3Em__1B_m1310_MethodInfo_var;
 extern const MethodInfo* SPTwitter_U3COnUserDataRequestCompleteActionU3Em__1C_m1311_MethodInfo_var;
@@ -21658,7 +21658,7 @@ extern "C" void SPTwitter__ctor_m1271 (SPTwitter_t296 * __this, const MethodInfo
 		SPTwitter_t296_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(255);
 		Action_1_t241_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(218);
 		SPTwitter_U3COnTwitterInitedActionU3Em__19_m1308_MethodInfo_var = il2cpp_codegen_method_info_from_index(263);
-		Action_1__ctor_m2490_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
+		Action_1__ctor_m2630_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
 		SPTwitter_U3COnAuthCompleteActionU3Em__1A_m1309_MethodInfo_var = il2cpp_codegen_method_info_from_index(264);
 		SPTwitter_U3COnPostingCompleteActionU3Em__1B_m1310_MethodInfo_var = il2cpp_codegen_method_info_from_index(265);
 		SPTwitter_U3COnUserDataRequestCompleteActionU3Em__1C_m1311_MethodInfo_var = il2cpp_codegen_method_info_from_index(266);
@@ -21685,7 +21685,7 @@ extern "C" void SPTwitter__ctor_m1271 (SPTwitter_t296 * __this, const MethodInfo
 	{
 		IntPtr_t L_1 = { (void*)SPTwitter_U3COnTwitterInitedActionU3Em__19_m1308_MethodInfo_var };
 		Action_1_t241 * L_2 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache6_8 = L_2;
 		G_B2_0 = G_B1_0;
@@ -21708,7 +21708,7 @@ IL_0019:
 	{
 		IntPtr_t L_5 = { (void*)SPTwitter_U3COnAuthCompleteActionU3Em__1A_m1309_MethodInfo_var };
 		Action_1_t241 * L_6 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache7_9 = L_6;
 		G_B4_0 = G_B3_0;
@@ -21731,7 +21731,7 @@ IL_003c:
 	{
 		IntPtr_t L_9 = { (void*)SPTwitter_U3COnPostingCompleteActionU3Em__1B_m1310_MethodInfo_var };
 		Action_1_t241 * L_10 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache8_10 = L_10;
 		G_B6_0 = G_B5_0;
@@ -21754,7 +21754,7 @@ IL_005f:
 	{
 		IntPtr_t L_13 = { (void*)SPTwitter_U3COnUserDataRequestCompleteActionU3Em__1C_m1311_MethodInfo_var };
 		Action_1_t241 * L_14 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_11 = L_14;
 		G_B8_0 = G_B7_0;
@@ -21766,7 +21766,7 @@ IL_0082:
 		Action_1_t241 * L_15 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_11;
 		NullCheck(G_B8_0);
 		G_B8_0->___OnUserDataRequestCompleteAction_7 = L_15;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -21782,13 +21782,13 @@ extern TypeInfo* SA_Singleton_1_t243_il2cpp_TypeInfo_var;
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t241_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t301_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2511_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2651_MethodInfo_var;
 extern const MethodInfo* SPTwitter_OnTwitterInitedActionMethod_m1303_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2490_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2630_MethodInfo_var;
 extern const MethodInfo* SPTwitter_OnAuthCompleteActionMethod_m1304_MethodInfo_var;
 extern const MethodInfo* SPTwitter_OnPostingCompleteActionMethod_m1305_MethodInfo_var;
 extern const MethodInfo* SPTwitter_OnUserDataRequestCompleteActionMethod_m1306_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2545_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2685_MethodInfo_var;
 extern "C" void SPTwitter_Awake_m1273 (SPTwitter_t296 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -21798,18 +21798,18 @@ extern "C" void SPTwitter_Awake_m1273 (SPTwitter_t296 * __this, const MethodInfo
 		SPTwitter_t296_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(255);
 		Action_1_t241_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(218);
 		SA_Singleton_1_t301_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(265);
-		SA_Singleton_1_get_instance_m2511_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
+		SA_Singleton_1_get_instance_m2651_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
 		SPTwitter_OnTwitterInitedActionMethod_m1303_MethodInfo_var = il2cpp_codegen_method_info_from_index(267);
-		Action_1__ctor_m2490_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
+		Action_1__ctor_m2630_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
 		SPTwitter_OnAuthCompleteActionMethod_m1304_MethodInfo_var = il2cpp_codegen_method_info_from_index(268);
 		SPTwitter_OnPostingCompleteActionMethod_m1305_MethodInfo_var = il2cpp_codegen_method_info_from_index(269);
 		SPTwitter_OnUserDataRequestCompleteActionMethod_m1306_MethodInfo_var = il2cpp_codegen_method_info_from_index(270);
-		SA_Singleton_1_get_instance_m2545_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483919);
+		SA_Singleton_1_get_instance_m2685_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483919);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
-		int32_t L_0 = Application_get_platform_m2541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)11))))
@@ -21824,47 +21824,47 @@ extern "C" void SPTwitter_Awake_m1273 (SPTwitter_t296 * __this, const MethodInfo
 IL_0013:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t243_il2cpp_TypeInfo_var);
-		AndroidTwitterManager_t242 * L_2 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_2 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3 = L_2;
-		AndroidTwitterManager_t242 * L_3 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_3 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		AndroidTwitterManager_t242 * L_4 = L_3;
 		NullCheck(L_4);
 		Action_1_t241 * L_5 = (L_4->___OnTwitterInitedAction_11);
 		IntPtr_t L_6 = { (void*)SPTwitter_OnTwitterInitedActionMethod_m1303_MethodInfo_var };
 		Action_1_t241 * L_7 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_8 = Delegate_Combine_m2428(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_8 = Delegate_Combine_m2568(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		L_4->___OnTwitterInitedAction_11 = ((Action_1_t241 *)Castclass(L_8, Action_1_t241_il2cpp_TypeInfo_var));
-		AndroidTwitterManager_t242 * L_9 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_9 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		AndroidTwitterManager_t242 * L_10 = L_9;
 		NullCheck(L_10);
 		Action_1_t241 * L_11 = (L_10->___OnAuthCompleteAction_12);
 		IntPtr_t L_12 = { (void*)SPTwitter_OnAuthCompleteActionMethod_m1304_MethodInfo_var };
 		Action_1_t241 * L_13 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_14 = Delegate_Combine_m2428(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_13, __this, L_12, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_14 = Delegate_Combine_m2568(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		L_10->___OnAuthCompleteAction_12 = ((Action_1_t241 *)Castclass(L_14, Action_1_t241_il2cpp_TypeInfo_var));
-		AndroidTwitterManager_t242 * L_15 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_15 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		AndroidTwitterManager_t242 * L_16 = L_15;
 		NullCheck(L_16);
 		Action_1_t241 * L_17 = (L_16->___OnPostingCompleteAction_13);
 		IntPtr_t L_18 = { (void*)SPTwitter_OnPostingCompleteActionMethod_m1305_MethodInfo_var };
 		Action_1_t241 * L_19 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_20 = Delegate_Combine_m2428(NULL /*static, unused*/, L_17, L_19, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_19, __this, L_18, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_20 = Delegate_Combine_m2568(NULL /*static, unused*/, L_17, L_19, /*hidden argument*/NULL);
 		NullCheck(L_16);
 		L_16->___OnPostingCompleteAction_13 = ((Action_1_t241 *)Castclass(L_20, Action_1_t241_il2cpp_TypeInfo_var));
-		AndroidTwitterManager_t242 * L_21 = SA_Singleton_1_get_instance_m2511(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2511_MethodInfo_var);
+		AndroidTwitterManager_t242 * L_21 = SA_Singleton_1_get_instance_m2651(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2651_MethodInfo_var);
 		AndroidTwitterManager_t242 * L_22 = L_21;
 		NullCheck(L_22);
 		Action_1_t241 * L_23 = (L_22->___OnUserDataRequestCompleteAction_14);
 		IntPtr_t L_24 = { (void*)SPTwitter_OnUserDataRequestCompleteActionMethod_m1306_MethodInfo_var };
 		Action_1_t241 * L_25 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_25, __this, L_24, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_26 = Delegate_Combine_m2428(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_25, __this, L_24, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_26 = Delegate_Combine_m2568(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		L_22->___OnUserDataRequestCompleteAction_14 = ((Action_1_t241 *)Castclass(L_26, Action_1_t241_il2cpp_TypeInfo_var));
 		goto IL_0161;
@@ -21873,47 +21873,47 @@ IL_0013:
 IL_00ba:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t301_il2cpp_TypeInfo_var);
-		IOSTwitterManager_t300 * L_27 = SA_Singleton_1_get_instance_m2545(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2545_MethodInfo_var);
+		IOSTwitterManager_t300 * L_27 = SA_Singleton_1_get_instance_m2685(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2685_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3 = L_27;
-		IOSTwitterManager_t300 * L_28 = SA_Singleton_1_get_instance_m2545(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2545_MethodInfo_var);
+		IOSTwitterManager_t300 * L_28 = SA_Singleton_1_get_instance_m2685(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2685_MethodInfo_var);
 		IOSTwitterManager_t300 * L_29 = L_28;
 		NullCheck(L_29);
 		Action_1_t241 * L_30 = (L_29->___OnTwitterInitedAction_11);
 		IntPtr_t L_31 = { (void*)SPTwitter_OnTwitterInitedActionMethod_m1303_MethodInfo_var };
 		Action_1_t241 * L_32 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_32, __this, L_31, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_33 = Delegate_Combine_m2428(NULL /*static, unused*/, L_30, L_32, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_32, __this, L_31, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_33 = Delegate_Combine_m2568(NULL /*static, unused*/, L_30, L_32, /*hidden argument*/NULL);
 		NullCheck(L_29);
 		L_29->___OnTwitterInitedAction_11 = ((Action_1_t241 *)Castclass(L_33, Action_1_t241_il2cpp_TypeInfo_var));
-		IOSTwitterManager_t300 * L_34 = SA_Singleton_1_get_instance_m2545(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2545_MethodInfo_var);
+		IOSTwitterManager_t300 * L_34 = SA_Singleton_1_get_instance_m2685(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2685_MethodInfo_var);
 		IOSTwitterManager_t300 * L_35 = L_34;
 		NullCheck(L_35);
 		Action_1_t241 * L_36 = (L_35->___OnAuthCompleteAction_12);
 		IntPtr_t L_37 = { (void*)SPTwitter_OnAuthCompleteActionMethod_m1304_MethodInfo_var };
 		Action_1_t241 * L_38 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_38, __this, L_37, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_39 = Delegate_Combine_m2428(NULL /*static, unused*/, L_36, L_38, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_38, __this, L_37, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_39 = Delegate_Combine_m2568(NULL /*static, unused*/, L_36, L_38, /*hidden argument*/NULL);
 		NullCheck(L_35);
 		L_35->___OnAuthCompleteAction_12 = ((Action_1_t241 *)Castclass(L_39, Action_1_t241_il2cpp_TypeInfo_var));
-		IOSTwitterManager_t300 * L_40 = SA_Singleton_1_get_instance_m2545(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2545_MethodInfo_var);
+		IOSTwitterManager_t300 * L_40 = SA_Singleton_1_get_instance_m2685(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2685_MethodInfo_var);
 		IOSTwitterManager_t300 * L_41 = L_40;
 		NullCheck(L_41);
 		Action_1_t241 * L_42 = (L_41->___OnPostingCompleteAction_13);
 		IntPtr_t L_43 = { (void*)SPTwitter_OnPostingCompleteActionMethod_m1305_MethodInfo_var };
 		Action_1_t241 * L_44 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_44, __this, L_43, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_45 = Delegate_Combine_m2428(NULL /*static, unused*/, L_42, L_44, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_44, __this, L_43, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_45 = Delegate_Combine_m2568(NULL /*static, unused*/, L_42, L_44, /*hidden argument*/NULL);
 		NullCheck(L_41);
 		L_41->___OnPostingCompleteAction_13 = ((Action_1_t241 *)Castclass(L_45, Action_1_t241_il2cpp_TypeInfo_var));
-		IOSTwitterManager_t300 * L_46 = SA_Singleton_1_get_instance_m2545(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2545_MethodInfo_var);
+		IOSTwitterManager_t300 * L_46 = SA_Singleton_1_get_instance_m2685(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2685_MethodInfo_var);
 		IOSTwitterManager_t300 * L_47 = L_46;
 		NullCheck(L_47);
 		Action_1_t241 * L_48 = (L_47->___OnUserDataRequestCompleteAction_14);
 		IntPtr_t L_49 = { (void*)SPTwitter_OnUserDataRequestCompleteActionMethod_m1306_MethodInfo_var };
 		Action_1_t241 * L_50 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_50, __this, L_49, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
-		Delegate_t538 * L_51 = Delegate_Combine_m2428(NULL /*static, unused*/, L_48, L_50, /*hidden argument*/NULL);
+		Action_1__ctor_m2630(L_50, __this, L_49, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
+		Delegate_t562 * L_51 = Delegate_Combine_m2568(NULL /*static, unused*/, L_48, L_50, /*hidden argument*/NULL);
 		NullCheck(L_47);
 		L_47->___OnUserDataRequestCompleteAction_14 = ((Action_1_t241 *)Castclass(L_51, Action_1_t241_il2cpp_TypeInfo_var));
 		goto IL_0161;
@@ -21921,15 +21921,15 @@ IL_00ba:
 
 IL_0161:
 	{
-		GameObject_t284 * L_52 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		GameObject_t284 * L_52 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
 		return;
 	}
 }
 // SPTwitter SPTwitter::get_instance()
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisSPTwitter_t296_m2544_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisSPTwitter_t296_m2684_MethodInfo_var;
 extern "C" SPTwitter_t296 * SPTwitter_get_instance_m1274 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -21937,13 +21937,13 @@ extern "C" SPTwitter_t296 * SPTwitter_get_instance_m1274 (Object_t * __this /* s
 	{
 		SPTwitter_t296_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(255);
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisSPTwitter_t296_m2544_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483920);
+		GameObject_AddComponent_TisSPTwitter_t296_m2684_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483920);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		SPTwitter_t296 * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____instance_2;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0024;
@@ -21951,9 +21951,9 @@ extern "C" SPTwitter_t296 * SPTwitter_get_instance_m1274 (Object_t * __this /* s
 	}
 	{
 		GameObject_t284 * L_2 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_2, (String_t*) &_stringLiteral582, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_2, (String_t*) &_stringLiteral582, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		SPTwitter_t296 * L_3 = GameObject_AddComponent_TisSPTwitter_t296_m2544(L_2, /*hidden argument*/GameObject_AddComponent_TisSPTwitter_t296_m2544_MethodInfo_var);
+		SPTwitter_t296 * L_3 = GameObject_AddComponent_TisSPTwitter_t296_m2684(L_2, /*hidden argument*/GameObject_AddComponent_TisSPTwitter_t296_m2684_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____instance_2 = L_3;
 	}
@@ -22037,7 +22037,7 @@ extern "C" void SPTwitter_AuthenticateUser_m1277 (SPTwitter_t296 * __this, const
 
 IL_0019:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral583, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral583, /*hidden argument*/NULL);
 	}
 
 IL_0023:
@@ -22075,7 +22075,7 @@ extern "C" void SPTwitter_LoadUserData_m1278 (SPTwitter_t296 * __this, const Met
 
 IL_0019:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral584, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral584, /*hidden argument*/NULL);
 	}
 
 IL_0023:
@@ -22114,7 +22114,7 @@ extern "C" void SPTwitter_Post_m1279 (SPTwitter_t296 * __this, String_t* ___stat
 
 IL_001a:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
 	}
 
 IL_0024:
@@ -22154,7 +22154,7 @@ extern "C" void SPTwitter_Post_m1280 (SPTwitter_t296 * __this, String_t* ___stat
 
 IL_001b:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
 	}
 
 IL_0025:
@@ -22203,7 +22203,7 @@ extern "C" TwitterPostingTask_t274 * SPTwitter_PostWithAuthCheck_m1282 (SPTwitte
 
 IL_0017:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral585, /*hidden argument*/NULL);
 		return (TwitterPostingTask_t274 *)NULL;
 	}
 }
@@ -22237,7 +22237,7 @@ extern "C" void SPTwitter_LogOut_m1283 (SPTwitter_t296 * __this, const MethodInf
 
 IL_0019:
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral586, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral586, /*hidden argument*/NULL);
 	}
 
 IL_0023:
@@ -22308,7 +22308,7 @@ extern "C" TwitterUserInfo_t240 * SPTwitter_get_userInfo_m1286 (SPTwitter_t296 *
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_addEventListener_m1287 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t479 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_addEventListener_m1287 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t503 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22321,16 +22321,16 @@ extern "C" void SPTwitter_addEventListener_m1287 (SPTwitter_t296 * __this, Strin
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		String_t* L_1 = ___eventName;
-		EventHandlerFunction_t479 * L_2 = ___handler;
+		EventHandlerFunction_t503 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(0 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_addEventListener_m1288 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t480 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_addEventListener_m1288 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t504 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22343,16 +22343,16 @@ extern "C" void SPTwitter_addEventListener_m1288 (SPTwitter_t296 * __this, Strin
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		String_t* L_1 = ___eventName;
-		DataEventHandlerFunction_t480 * L_2 = ___handler;
+		DataEventHandlerFunction_t504 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(2 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_addEventListener_m1289 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t479 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_addEventListener_m1289 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t503 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22365,16 +22365,16 @@ extern "C" void SPTwitter_addEventListener_m1289 (SPTwitter_t296 * __this, int32
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		int32_t L_1 = ___eventID;
-		EventHandlerFunction_t479 * L_2 = ___handler;
+		EventHandlerFunction_t503 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< int32_t, EventHandlerFunction_t479 * >::Invoke(1 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< int32_t, EventHandlerFunction_t503 * >::Invoke(1 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_addEventListener_m1290 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t480 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_addEventListener_m1290 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t504 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22387,16 +22387,16 @@ extern "C" void SPTwitter_addEventListener_m1290 (SPTwitter_t296 * __this, int32
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		int32_t L_1 = ___eventID;
-		DataEventHandlerFunction_t480 * L_2 = ___handler;
+		DataEventHandlerFunction_t504 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< int32_t, DataEventHandlerFunction_t480 * >::Invoke(3 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< int32_t, DataEventHandlerFunction_t504 * >::Invoke(3 /* System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_removeEventListener_m1291 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t479 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_removeEventListener_m1291 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t503 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22409,16 +22409,16 @@ extern "C" void SPTwitter_removeEventListener_m1291 (SPTwitter_t296 * __this, St
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		String_t* L_1 = ___eventName;
-		EventHandlerFunction_t479 * L_2 = ___handler;
+		EventHandlerFunction_t503 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_removeEventListener_m1292 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t480 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_removeEventListener_m1292 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t504 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22431,16 +22431,16 @@ extern "C" void SPTwitter_removeEventListener_m1292 (SPTwitter_t296 * __this, St
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		String_t* L_1 = ___eventName;
-		DataEventHandlerFunction_t480 * L_2 = ___handler;
+		DataEventHandlerFunction_t504 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t480 * >::Invoke(6 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< String_t*, DataEventHandlerFunction_t504 * >::Invoke(6 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_removeEventListener_m1293 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t479 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_removeEventListener_m1293 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t503 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22453,16 +22453,16 @@ extern "C" void SPTwitter_removeEventListener_m1293 (SPTwitter_t296 * __this, in
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		int32_t L_1 = ___eventID;
-		EventHandlerFunction_t479 * L_2 = ___handler;
+		EventHandlerFunction_t503 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< int32_t, EventHandlerFunction_t479 * >::Invoke(5 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< int32_t, EventHandlerFunction_t503 * >::Invoke(5 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
 extern TypeInfo* SPTwitter_t296_il2cpp_TypeInfo_var;
 extern TypeInfo* IDispatcher_t90_il2cpp_TypeInfo_var;
-extern "C" void SPTwitter_removeEventListener_m1294 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t480 * ___handler, const MethodInfo* method)
+extern "C" void SPTwitter_removeEventListener_m1294 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t504 * ___handler, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -22475,9 +22475,9 @@ extern "C" void SPTwitter_removeEventListener_m1294 (SPTwitter_t296 * __this, in
 		IL2CPP_RUNTIME_CLASS_INIT(SPTwitter_t296_il2cpp_TypeInfo_var);
 		Object_t * L_0 = ((SPTwitter_t296_StaticFields*)SPTwitter_t296_il2cpp_TypeInfo_var->static_fields)->____twitterGate_3;
 		int32_t L_1 = ___eventID;
-		DataEventHandlerFunction_t480 * L_2 = ___handler;
+		DataEventHandlerFunction_t504 * L_2 = ___handler;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< int32_t, DataEventHandlerFunction_t480 * >::Invoke(7 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< int32_t, DataEventHandlerFunction_t504 * >::Invoke(7 /* System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction) */, IDispatcher_t90_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
@@ -22753,19 +22753,19 @@ extern "C" void SPTwitter_U3COnUserDataRequestCompleteActionU3Em__1C_m1311 (Obje
 
 // System.Void IOSInstagramManager::.ctor()
 extern TypeInfo* SA_Singleton_1_t298_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2546_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2686_MethodInfo_var;
 extern "C" void IOSInstagramManager__ctor_m1312 (IOSInstagramManager_t297 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t298_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(262);
-		SA_Singleton_1__ctor_m2546_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483921);
+		SA_Singleton_1__ctor_m2686_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483921);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t298_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2546(__this, /*hidden argument*/SA_Singleton_1__ctor_m2546_MethodInfo_var);
+		SA_Singleton_1__ctor_m2686(__this, /*hidden argument*/SA_Singleton_1__ctor_m2686_MethodInfo_var);
 		return;
 	}
 }
@@ -22809,8 +22809,8 @@ extern "C" void IOSInstagramManager__instaShare_m1313 (Object_t * __this /* stat
 extern "C" void IOSInstagramManager_Awake_m1314 (IOSInstagramManager_t297 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -22847,7 +22847,7 @@ extern "C" void IOSInstagramManager_Share_m1316 (IOSInstagramManager_t297 * __th
 	{
 		Texture2D_t65 * L_0 = ___texture;
 		NullCheck(L_0);
-		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2330(L_0, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2470(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		ByteU5BU5D_t36* L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -22885,7 +22885,7 @@ extern "C" void IOSInstagramManager_OnPostFailed_m1318 (IOSInstagramManager_t297
 	{
 		String_t* L_0 = ___data;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m2392(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m2532(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		V_1 = 1;
 		int32_t L_2 = V_0;
@@ -22943,7 +22943,7 @@ struct GameObject_t284;
 struct MSPIOSSocialManager_t299;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<MSPIOSSocialManager>()
 // !!0 UnityEngine.GameObject::AddComponent<MSPIOSSocialManager>()
-#define GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2547(__this, method) (( MSPIOSSocialManager_t299 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2687(__this, method) (( MSPIOSSocialManager_t299 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void MSPIOSSocialManager::.ctor()
@@ -23181,8 +23181,8 @@ extern "C" void MSPIOSSocialManager__MSP_SendMail_m1326 (Object_t * __this /* st
 extern "C" void MSPIOSSocialManager_Awake_m1327 (MSPIOSSocialManager_t299 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23213,7 +23213,7 @@ extern "C" void MSPIOSSocialManager_ShareMedia_m1329 (MSPIOSSocialManager_t299 *
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0026;
@@ -23222,7 +23222,7 @@ extern "C" void MSPIOSSocialManager_ShareMedia_m1329 (MSPIOSSocialManager_t299 *
 	{
 		Texture2D_t65 * L_2 = ___texture;
 		NullCheck(L_2);
-		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2330(L_2, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_3 = Texture2D_EncodeToPNG_m2470(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		ByteU5BU5D_t36* L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -23274,7 +23274,7 @@ extern "C" void MSPIOSSocialManager_TwitterPost_m1331 (MSPIOSSocialManager_t299 
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -23291,7 +23291,7 @@ IL_0017:
 	{
 		Texture2D_t65 * L_3 = ___texture;
 		NullCheck(L_3);
-		ByteU5BU5D_t36* L_4 = Texture2D_EncodeToPNG_m2330(L_3, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_4 = Texture2D_EncodeToPNG_m2470(L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		ByteU5BU5D_t36* L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -23333,7 +23333,7 @@ extern "C" void MSPIOSSocialManager_FacebookPost_m1333 (MSPIOSSocialManager_t299
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -23350,7 +23350,7 @@ IL_0017:
 	{
 		Texture2D_t65 * L_3 = ___texture;
 		NullCheck(L_3);
-		ByteU5BU5D_t36* L_4 = Texture2D_EncodeToPNG_m2330(L_3, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_4 = Texture2D_EncodeToPNG_m2470(L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		ByteU5BU5D_t36* L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -23396,7 +23396,7 @@ extern "C" void MSPIOSSocialManager_SendMail_m1335 (MSPIOSSocialManager_t299 * _
 	String_t* V_1 = {0};
 	{
 		Texture2D_t65 * L_0 = ___texture;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -23417,7 +23417,7 @@ IL_001f:
 	{
 		Texture2D_t65 * L_6 = ___texture;
 		NullCheck(L_6);
-		ByteU5BU5D_t36* L_7 = Texture2D_EncodeToPNG_m2330(L_6, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_7 = Texture2D_EncodeToPNG_m2470(L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
 		ByteU5BU5D_t36* L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -23439,7 +23439,7 @@ IL_0037:
 // MSPIOSSocialManager MSPIOSSocialManager::get_instance()
 extern TypeInfo* MSPIOSSocialManager_t299_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2547_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2687_MethodInfo_var;
 extern "C" MSPIOSSocialManager_t299 * MSPIOSSocialManager_get_instance_m1336 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -23447,14 +23447,14 @@ extern "C" MSPIOSSocialManager_t299 * MSPIOSSocialManager_get_instance_m1336 (Ob
 	{
 		MSPIOSSocialManager_t299_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2547_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483922);
+		GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2687_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483922);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t284 * V_0 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(MSPIOSSocialManager_t299_il2cpp_TypeInfo_var);
 		MSPIOSSocialManager_t299 * L_0 = ((MSPIOSSocialManager_t299_StaticFields*)MSPIOSSocialManager_t299_il2cpp_TypeInfo_var->static_fields)->____instance_8;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0026;
@@ -23462,11 +23462,11 @@ extern "C" MSPIOSSocialManager_t299 * MSPIOSSocialManager_get_instance_m1336 (Ob
 	}
 	{
 		GameObject_t284 * L_2 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_2, (String_t*) &_stringLiteral587, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_2, (String_t*) &_stringLiteral587, /*hidden argument*/NULL);
 		V_0 = L_2;
 		GameObject_t284 * L_3 = V_0;
 		NullCheck(L_3);
-		MSPIOSSocialManager_t299 * L_4 = GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2547(L_3, /*hidden argument*/GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2547_MethodInfo_var);
+		MSPIOSSocialManager_t299 * L_4 = GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2687(L_3, /*hidden argument*/GameObject_AddComponent_TisMSPIOSSocialManager_t299_m2687_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(MSPIOSSocialManager_t299_il2cpp_TypeInfo_var);
 		((MSPIOSSocialManager_t299_StaticFields*)MSPIOSSocialManager_t299_il2cpp_TypeInfo_var->static_fields)->____instance_8 = L_4;
 	}
@@ -23523,11 +23523,11 @@ extern TypeInfo* IOSTwitterManager_t300_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t241_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t301_il2cpp_TypeInfo_var;
 extern const MethodInfo* IOSTwitterManager_U3COnTwitterInitedActionU3Em__1D_m1367_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2490_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2630_MethodInfo_var;
 extern const MethodInfo* IOSTwitterManager_U3COnAuthCompleteActionU3Em__1E_m1368_MethodInfo_var;
 extern const MethodInfo* IOSTwitterManager_U3COnPostingCompleteActionU3Em__1F_m1369_MethodInfo_var;
 extern const MethodInfo* IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__20_m1370_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2548_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2688_MethodInfo_var;
 extern "C" void IOSTwitterManager__ctor_m1341 (IOSTwitterManager_t300 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -23537,11 +23537,11 @@ extern "C" void IOSTwitterManager__ctor_m1341 (IOSTwitterManager_t300 * __this, 
 		Action_1_t241_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(218);
 		SA_Singleton_1_t301_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(265);
 		IOSTwitterManager_U3COnTwitterInitedActionU3Em__1D_m1367_MethodInfo_var = il2cpp_codegen_method_info_from_index(275);
-		Action_1__ctor_m2490_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
+		Action_1__ctor_m2630_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
 		IOSTwitterManager_U3COnAuthCompleteActionU3Em__1E_m1368_MethodInfo_var = il2cpp_codegen_method_info_from_index(276);
 		IOSTwitterManager_U3COnPostingCompleteActionU3Em__1F_m1369_MethodInfo_var = il2cpp_codegen_method_info_from_index(277);
 		IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__20_m1370_MethodInfo_var = il2cpp_codegen_method_info_from_index(278);
-		SA_Singleton_1__ctor_m2548_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483927);
+		SA_Singleton_1__ctor_m2688_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483927);
 		s_Il2CppMethodIntialized = true;
 	}
 	IOSTwitterManager_t300 * G_B2_0 = {0};
@@ -23564,7 +23564,7 @@ extern "C" void IOSTwitterManager__ctor_m1341 (IOSTwitterManager_t300 * __this, 
 	{
 		IntPtr_t L_1 = { (void*)IOSTwitterManager_U3COnTwitterInitedActionU3Em__1D_m1367_MethodInfo_var };
 		Action_1_t241 * L_2 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((IOSTwitterManager_t300_StaticFields*)IOSTwitterManager_t300_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache7_15 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -23585,7 +23585,7 @@ IL_0019:
 	{
 		IntPtr_t L_5 = { (void*)IOSTwitterManager_U3COnAuthCompleteActionU3Em__1E_m1368_MethodInfo_var };
 		Action_1_t241 * L_6 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((IOSTwitterManager_t300_StaticFields*)IOSTwitterManager_t300_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache8_16 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -23606,7 +23606,7 @@ IL_003c:
 	{
 		IntPtr_t L_9 = { (void*)IOSTwitterManager_U3COnPostingCompleteActionU3Em__1F_m1369_MethodInfo_var };
 		Action_1_t241 * L_10 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((IOSTwitterManager_t300_StaticFields*)IOSTwitterManager_t300_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_17 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -23627,7 +23627,7 @@ IL_005f:
 	{
 		IntPtr_t L_13 = { (void*)IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__20_m1370_MethodInfo_var };
 		Action_1_t241 * L_14 = (Action_1_t241 *)il2cpp_codegen_object_new (Action_1_t241_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2490(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2490_MethodInfo_var);
+		Action_1__ctor_m2630(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m2630_MethodInfo_var);
 		((IOSTwitterManager_t300_StaticFields*)IOSTwitterManager_t300_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_18 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -23638,7 +23638,7 @@ IL_0082:
 		NullCheck(G_B8_0);
 		G_B8_0->___OnUserDataRequestCompleteAction_14 = L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t301_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2548(__this, /*hidden argument*/SA_Singleton_1__ctor_m2548_MethodInfo_var);
+		SA_Singleton_1__ctor_m2688(__this, /*hidden argument*/SA_Singleton_1__ctor_m2688_MethodInfo_var);
 		return;
 	}
 }
@@ -23770,8 +23770,8 @@ extern "C" void IOSTwitterManager__twitterPostWithMedia_m1346 (Object_t * __this
 extern "C" void IOSTwitterManager_Awake_m1347 (IOSTwitterManager_t300 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23808,7 +23808,7 @@ IL_000c:
 extern "C" void IOSTwitterManager_AuthenticateUser_m1350 (IOSTwitterManager_t300 * __this, const MethodInfo* method)
 {
 	{
-		Debug_Log_m2322(NULL /*static, unused*/, (String_t*) &_stringLiteral592, /*hidden argument*/NULL);
+		Debug_Log_m2462(NULL /*static, unused*/, (String_t*) &_stringLiteral592, /*hidden argument*/NULL);
 		bool L_0 = (__this->____IsAuthed_8);
 		if (!L_0)
 		{
@@ -23862,7 +23862,7 @@ extern "C" void IOSTwitterManager_Post_m1353 (IOSTwitterManager_t300 * __this, S
 	{
 		Texture2D_t65 * L_0 = ___texture;
 		NullCheck(L_0);
-		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2330(L_0, /*hidden argument*/NULL);
+		ByteU5BU5D_t36* L_1 = Texture2D_EncodeToPNG_m2470(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		ByteU5BU5D_t36* L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t37_il2cpp_TypeInfo_var);
@@ -24186,14 +24186,14 @@ extern "C" Object_t * U3CPostScreenshotU3Ec__IteratorA_System_Collections_IEnume
 	}
 }
 // System.Boolean FacebookPostScreenshotTask/<PostScreenshot>c__IteratorA::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern "C" bool U3CPostScreenshotU3Ec__IteratorA_MoveNext_m1374 (U3CPostScreenshotU3Ec__IteratorA_t303 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -24219,8 +24219,8 @@ extern "C" bool U3CPostScreenshotU3Ec__IteratorA_MoveNext_m1374 (U3CPostScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00d6;
@@ -24228,32 +24228,32 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		FacebookPostScreenshotTask_t302 * L_13 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_13);
 		String_t* L_14 = (L_13->___text_4);
 		Texture2D_t65 * L_15 = (__this->___U3CtexU3E__2_2);
 		SPShareUtility_FacebookShare_m1266(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
 		Texture2D_t65 * L_16 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		FacebookPostScreenshotTask_t302 * L_17 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_17);
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, L_17, (String_t*) &_stringLiteral350);
@@ -24305,7 +24305,7 @@ struct GameObject_t284;
 struct FacebookPostScreenshotTask_t302;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<FacebookPostScreenshotTask>()
 // !!0 UnityEngine.GameObject::AddComponent<FacebookPostScreenshotTask>()
-#define GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2549(__this, method) (( FacebookPostScreenshotTask_t302 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2689(__this, method) (( FacebookPostScreenshotTask_t302 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void FacebookPostScreenshotTask::.ctor()
@@ -24318,21 +24318,21 @@ extern "C" void FacebookPostScreenshotTask__ctor_m1377 (FacebookPostScreenshotTa
 }
 // FacebookPostScreenshotTask FacebookPostScreenshotTask::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2549_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2689_MethodInfo_var;
 extern "C" FacebookPostScreenshotTask_t302 * FacebookPostScreenshotTask_Create_m1378 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2549_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483928);
+		GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2689_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483928);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral593, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral593, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		FacebookPostScreenshotTask_t302 * L_1 = GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2549(L_0, /*hidden argument*/GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2549_MethodInfo_var);
+		FacebookPostScreenshotTask_t302 * L_1 = GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2689(L_0, /*hidden argument*/GameObject_AddComponent_TisFacebookPostScreenshotTask_t302_m2689_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -24343,7 +24343,7 @@ extern "C" void FacebookPostScreenshotTask_Post_m1379 (FacebookPostScreenshotTas
 		String_t* L_0 = ____text;
 		__this->___text_4 = L_0;
 		Object_t * L_1 = FacebookPostScreenshotTask_PostScreenshot_m1380(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24408,25 +24408,25 @@ extern "C" Object_t * U3CPostScreenshotU3Ec__IteratorB_System_Collections_IEnume
 	}
 }
 // System.Boolean InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern const MethodInfo* InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
 extern "C" bool U3CPostScreenshotU3Ec__IteratorB_MoveNext_m1384 (U3CPostScreenshotU3Ec__IteratorB_t305 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var = il2cpp_codegen_method_info_from_index(281);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -24451,8 +24451,8 @@ extern "C" bool U3CPostScreenshotU3Ec__IteratorB_MoveNext_m1384 (U3CPostScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00f6;
@@ -24460,38 +24460,38 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_13 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_13 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		SPInstagram_t293 * L_14 = L_13;
 		NullCheck(L_14);
 		Action_1_t237 * L_15 = (L_14->___OnPostingCompleteAction_6);
 		InstagramPostScreenshotTask_t304 * L_16 = (__this->___U3CU3Ef__this_5);
 		IntPtr_t L_17 = { (void*)InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var };
 		Action_1_t237 * L_18 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_18, L_16, L_17, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
-		Delegate_t538 * L_19 = Delegate_Combine_m2428(NULL /*static, unused*/, L_15, L_18, /*hidden argument*/NULL);
+		Action_1__ctor_m2628(L_18, L_16, L_17, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
+		Delegate_t562 * L_19 = Delegate_Combine_m2568(NULL /*static, unused*/, L_15, L_18, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		L_14->___OnPostingCompleteAction_6 = ((Action_1_t237 *)Castclass(L_19, Action_1_t237_il2cpp_TypeInfo_var));
-		SPInstagram_t293 * L_20 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_20 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		Texture2D_t65 * L_21 = (__this->___U3CtexU3E__2_2);
 		InstagramPostScreenshotTask_t304 * L_22 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_22);
@@ -24499,7 +24499,7 @@ IL_0038:
 		NullCheck(L_20);
 		SPInstagram_Share_m1258(L_20, L_21, L_23, /*hidden argument*/NULL);
 		Texture2D_t65 * L_24 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		__this->___U24PC_3 = (-1);
 	}
 
@@ -24546,14 +24546,14 @@ struct GameObject_t284;
 struct InstagramPostScreenshotTask_t304;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<InstagramPostScreenshotTask>()
 // !!0 UnityEngine.GameObject::AddComponent<InstagramPostScreenshotTask>()
-#define GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2550(__this, method) (( InstagramPostScreenshotTask_t304 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2690(__this, method) (( InstagramPostScreenshotTask_t304 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void InstagramPostScreenshotTask::.ctor()
 extern TypeInfo* InstagramPostScreenshotTask_t304_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
 extern const MethodInfo* InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__21_m1392_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
 extern "C" void InstagramPostScreenshotTask__ctor_m1387 (InstagramPostScreenshotTask_t304 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -24562,7 +24562,7 @@ extern "C" void InstagramPostScreenshotTask__ctor_m1387 (InstagramPostScreenshot
 		InstagramPostScreenshotTask_t304_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(268);
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
 		InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__21_m1392_MethodInfo_var = il2cpp_codegen_method_info_from_index(282);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
 		s_Il2CppMethodIntialized = true;
 	}
 	InstagramPostScreenshotTask_t304 * G_B2_0 = {0};
@@ -24579,7 +24579,7 @@ extern "C" void InstagramPostScreenshotTask__ctor_m1387 (InstagramPostScreenshot
 	{
 		IntPtr_t L_1 = { (void*)InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__21_m1392_MethodInfo_var };
 		Action_1_t237 * L_2 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
+		Action_1__ctor_m2628(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
 		((InstagramPostScreenshotTask_t304_StaticFields*)InstagramPostScreenshotTask_t304_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache2_6 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -24595,21 +24595,21 @@ IL_0019:
 }
 // InstagramPostScreenshotTask InstagramPostScreenshotTask::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2550_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2690_MethodInfo_var;
 extern "C" InstagramPostScreenshotTask_t304 * InstagramPostScreenshotTask_Create_m1388 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2550_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483931);
+		GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2690_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483931);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral594, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral594, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		InstagramPostScreenshotTask_t304 * L_1 = GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2550(L_0, /*hidden argument*/GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2550_MethodInfo_var);
+		InstagramPostScreenshotTask_t304 * L_1 = GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2690(L_0, /*hidden argument*/GameObject_AddComponent_TisInstagramPostScreenshotTask_t304_m2690_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -24620,7 +24620,7 @@ extern "C" void InstagramPostScreenshotTask_Post_m1389 (InstagramPostScreenshotT
 		String_t* L_0 = ____text;
 		__this->___text_5 = L_0;
 		Object_t * L_1 = InstagramPostScreenshotTask_PostScreenshot_m1390(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24649,9 +24649,9 @@ extern "C" Object_t * InstagramPostScreenshotTask_PostScreenshot_m1390 (Instagra
 // System.Void InstagramPostScreenshotTask::OnPostingCompleteAction(InstagramPostResult)
 extern TypeInfo* SA_Singleton_1_t294_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t237_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2530_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2670_MethodInfo_var;
 extern const MethodInfo* InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m2488_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2628_MethodInfo_var;
 extern "C" void InstagramPostScreenshotTask_OnPostingCompleteAction_m1391 (InstagramPostScreenshotTask_t304 * __this, int32_t ___res, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -24659,21 +24659,21 @@ extern "C" void InstagramPostScreenshotTask_OnPostingCompleteAction_m1391 (Insta
 	{
 		SA_Singleton_1_t294_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		Action_1_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(214);
-		SA_Singleton_1_get_instance_m2530_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
+		SA_Singleton_1_get_instance_m2670_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483866);
 		InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var = il2cpp_codegen_method_info_from_index(281);
-		Action_1__ctor_m2488_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Action_1__ctor_m2628_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t294_il2cpp_TypeInfo_var);
-		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2530(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2530_MethodInfo_var);
+		SPInstagram_t293 * L_0 = SA_Singleton_1_get_instance_m2670(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2670_MethodInfo_var);
 		SPInstagram_t293 * L_1 = L_0;
 		NullCheck(L_1);
 		Action_1_t237 * L_2 = (L_1->___OnPostingCompleteAction_6);
 		IntPtr_t L_3 = { (void*)InstagramPostScreenshotTask_OnPostingCompleteAction_m1391_MethodInfo_var };
 		Action_1_t237 * L_4 = (Action_1_t237 *)il2cpp_codegen_object_new (Action_1_t237_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2488(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2488_MethodInfo_var);
-		Delegate_t538 * L_5 = Delegate_Remove_m2429(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m2628(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m2628_MethodInfo_var);
+		Delegate_t562 * L_5 = Delegate_Remove_m2569(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->___OnPostingCompleteAction_6 = ((Action_1_t237 *)Castclass(L_5, Action_1_t237_il2cpp_TypeInfo_var));
 		Action_1_t237 * L_6 = (__this->___OnPostScreenshotCompleteAction_4);
@@ -24728,14 +24728,14 @@ extern "C" Object_t * U3CPostScreenshotU3Ec__IteratorC_System_Collections_IEnume
 	}
 }
 // System.Boolean TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern "C" bool U3CPostScreenshotU3Ec__IteratorC_MoveNext_m1396 (U3CPostScreenshotU3Ec__IteratorC_t307 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -24761,8 +24761,8 @@ extern "C" bool U3CPostScreenshotU3Ec__IteratorC_MoveNext_m1396 (U3CPostScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00d6;
@@ -24770,32 +24770,32 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		TwitterPostScreenshotTask_t306 * L_13 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_13);
 		String_t* L_14 = (L_13->___text_4);
 		Texture2D_t65 * L_15 = (__this->___U3CtexU3E__2_2);
 		SPShareUtility_TwitterShare_m1264(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
 		Texture2D_t65 * L_16 = (__this->___U3CtexU3E__2_2);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		TwitterPostScreenshotTask_t306 * L_17 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_17);
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, L_17, (String_t*) &_stringLiteral350);
@@ -24847,7 +24847,7 @@ struct GameObject_t284;
 struct TwitterPostScreenshotTask_t306;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<TwitterPostScreenshotTask>()
 // !!0 UnityEngine.GameObject::AddComponent<TwitterPostScreenshotTask>()
-#define GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2551(__this, method) (( TwitterPostScreenshotTask_t306 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2691(__this, method) (( TwitterPostScreenshotTask_t306 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 
 
 // System.Void TwitterPostScreenshotTask::.ctor()
@@ -24860,21 +24860,21 @@ extern "C" void TwitterPostScreenshotTask__ctor_m1399 (TwitterPostScreenshotTask
 }
 // TwitterPostScreenshotTask TwitterPostScreenshotTask::Create()
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2551_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2691_MethodInfo_var;
 extern "C" TwitterPostScreenshotTask_t306 * TwitterPostScreenshotTask_Create_m1400 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2551_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483932);
+		GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2691_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483932);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		GameObject_t284 * L_0 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_0, (String_t*) &_stringLiteral595, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_0, (String_t*) &_stringLiteral595, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TwitterPostScreenshotTask_t306 * L_1 = GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2551(L_0, /*hidden argument*/GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2551_MethodInfo_var);
+		TwitterPostScreenshotTask_t306 * L_1 = GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2691(L_0, /*hidden argument*/GameObject_AddComponent_TisTwitterPostScreenshotTask_t306_m2691_MethodInfo_var);
 		return L_1;
 	}
 }
@@ -24885,7 +24885,7 @@ extern "C" void TwitterPostScreenshotTask_Post_m1401 (TwitterPostScreenshotTask_
 		String_t* L_0 = ____text;
 		__this->___text_4 = L_0;
 		Object_t * L_1 = TwitterPostScreenshotTask_PostScreenshot_m1402(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24948,14 +24948,14 @@ extern "C" Object_t * U3CSaveScreenshotU3Ec__IteratorD_System_Collections_IEnume
 	}
 }
 // System.Boolean SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t509_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForEndOfFrame_t533_il2cpp_TypeInfo_var;
 extern TypeInfo* Texture2D_t65_il2cpp_TypeInfo_var;
 extern "C" bool U3CSaveScreenshotU3Ec__IteratorD_MoveNext_m1406 (U3CSaveScreenshotU3Ec__IteratorD_t309 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitForEndOfFrame_t509_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		WaitForEndOfFrame_t533_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
 		Texture2D_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -24981,8 +24981,8 @@ extern "C" bool U3CSaveScreenshotU3Ec__IteratorD_MoveNext_m1406 (U3CSaveScreensh
 
 IL_0021:
 	{
-		WaitForEndOfFrame_t509 * L_2 = (WaitForEndOfFrame_t509 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t509_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2326(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame_t533 * L_2 = (WaitForEndOfFrame_t533 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t533_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m2466(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00cb;
@@ -24990,25 +24990,25 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t65 * L_7 = (Texture2D_t65 *)il2cpp_codegen_object_new (Texture2D_t65_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m2327(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m2467(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t65 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
-		Rect_t496  L_11 = {0};
-		Rect__ctor_m2310(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect_t520  L_11 = {0};
+		Rect__ctor_m2450(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m2328(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m2468(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t65 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m2329(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m2469(L_12, /*hidden argument*/NULL);
 		SA_ScreenShotMaker_t308 * L_13 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_13);
 		Action_1_t199 * L_14 = (L_13->___OnScreenshotReady_6);
@@ -25078,19 +25078,19 @@ extern "C" void U3CSaveScreenshotU3Ec__IteratorD_Reset_m1408 (U3CSaveScreenshotU
 
 // System.Void SA_ScreenShotMaker::.ctor()
 extern TypeInfo* SA_Singleton_1_t310_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2552_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2692_MethodInfo_var;
 extern "C" void SA_ScreenShotMaker__ctor_m1409 (SA_ScreenShotMaker_t308 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t310_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(273);
-		SA_Singleton_1__ctor_m2552_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483933);
+		SA_Singleton_1__ctor_m2692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483933);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t310_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2552(__this, /*hidden argument*/SA_Singleton_1__ctor_m2552_MethodInfo_var);
+		SA_Singleton_1__ctor_m2692(__this, /*hidden argument*/SA_Singleton_1__ctor_m2692_MethodInfo_var);
 		return;
 	}
 }
@@ -25099,7 +25099,7 @@ extern "C" void SA_ScreenShotMaker_GetScreenshot_m1410 (SA_ScreenShotMaker_t308 
 {
 	{
 		Object_t * L_0 = SA_ScreenShotMaker_SaveScreenshot_m1411(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2347(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2487(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25172,45 +25172,45 @@ struct GameObject_t284;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
 // !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
-extern "C" Object_t * GameObject_GetComponentInChildren_TisObject_t_m2554_gshared (GameObject_t284 * __this, const MethodInfo* method);
-#define GameObject_GetComponentInChildren_TisObject_t_m2554(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m2554_gshared)(__this, method)
+extern "C" Object_t * GameObject_GetComponentInChildren_TisObject_t_m2694_gshared (GameObject_t284 * __this, const MethodInfo* method);
+#define GameObject_GetComponentInChildren_TisObject_t_m2694(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m2694_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.TextMesh>()
 // !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.TextMesh>()
-#define GameObject_GetComponentInChildren_TisTextMesh_t320_m2553(__this, method) (( TextMesh_t320 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m2554_gshared)(__this, method)
+#define GameObject_GetComponentInChildren_TisTextMesh_t320_m2693(__this, method) (( TextMesh_t320 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m2694_gshared)(__this, method)
 struct GameObject_t284;
-struct TextMeshU5BU5D_t553;
+struct TextMeshU5BU5D_t577;
 struct GameObject_t284;
-struct ObjectU5BU5D_t485;
+struct ObjectU5BU5D_t509;
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
-extern "C" ObjectU5BU5D_t485* GameObject_GetComponentsInChildren_TisObject_t_m2556_gshared (GameObject_t284 * __this, const MethodInfo* method);
-#define GameObject_GetComponentsInChildren_TisObject_t_m2556(__this, method) (( ObjectU5BU5D_t485* (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2556_gshared)(__this, method)
+extern "C" ObjectU5BU5D_t509* GameObject_GetComponentsInChildren_TisObject_t_m2696_gshared (GameObject_t284 * __this, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisObject_t_m2696(__this, method) (( ObjectU5BU5D_t509* (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2696_gshared)(__this, method)
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.TextMesh>()
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.TextMesh>()
-#define GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555(__this, method) (( TextMeshU5BU5D_t553* (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2556_gshared)(__this, method)
-struct Component_t555;
-struct AudioSource_t554;
+#define GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695(__this, method) (( TextMeshU5BU5D_t577* (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2696_gshared)(__this, method)
+struct Component_t578;
+struct AudioSource_t393;
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
-struct Component_t555;
+struct Component_t578;
 struct Object_t;
 // Declaration !!0 UnityEngine.Component::GetComponent<System.Object>()
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
-extern "C" Object_t * Component_GetComponent_TisObject_t_m2558_gshared (Component_t555 * __this, const MethodInfo* method);
-#define Component_GetComponent_TisObject_t_m2558(__this, method) (( Object_t * (*) (Component_t555 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2558_gshared)(__this, method)
+extern "C" Object_t * Component_GetComponent_TisObject_t_m2698_gshared (Component_t578 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisObject_t_m2698(__this, method) (( Object_t * (*) (Component_t578 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2698_gshared)(__this, method)
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
-#define Component_GetComponent_TisAudioSource_t554_m2557(__this, method) (( AudioSource_t554 * (*) (Component_t555 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2558_gshared)(__this, method)
+#define Component_GetComponent_TisAudioSource_t393_m2697(__this, method) (( AudioSource_t393 * (*) (Component_t578 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2698_gshared)(__this, method)
 struct GameObject_t284;
-struct AudioSource_t554;
+struct AudioSource_t393;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
-#define GameObject_AddComponent_TisAudioSource_t554_m2559(__this, method) (( AudioSource_t554 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
-struct Component_t555;
-struct Renderer_t495;
+#define GameObject_AddComponent_TisAudioSource_t393_m2699(__this, method) (( AudioSource_t393 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
+struct Component_t578;
+struct Renderer_t519;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
-#define Component_GetComponent_TisRenderer_t495_m2560(__this, method) (( Renderer_t495 * (*) (Component_t555 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2558_gshared)(__this, method)
+#define Component_GetComponent_TisRenderer_t519_m2700(__this, method) (( Renderer_t519 * (*) (Component_t578 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2698_gshared)(__this, method)
 
 
 // System.Void DefaultPreviewButton::.ctor()
@@ -25223,51 +25223,51 @@ extern "C" void DefaultPreviewButton__ctor_m1412 (DefaultPreviewButton_t281 * __
 }
 // System.Void DefaultPreviewButton::Awake()
 extern TypeInfo* Material_t400_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t554_m2559_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t393_m2699_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void DefaultPreviewButton_Awake_m1413 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Material_t400_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(277);
-		Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483934);
-		GameObject_AddComponent_TisAudioSource_t554_m2559_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483935);
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483934);
+		GameObject_AddComponent_TisAudioSource_t393_m2699_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483935);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		AudioSource_t554 * L_0 = Component_GetComponent_TisAudioSource_t554_m2557(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var);
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		AudioSource_t393 * L_0 = Component_GetComponent_TisAudioSource_t393_m2697(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		GameObject_t284 * L_2 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_2 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GameObject_AddComponent_TisAudioSource_t554_m2559(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t554_m2559_MethodInfo_var);
-		AudioSource_t554 * L_3 = Component_GetComponent_TisAudioSource_t554_m2557(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var);
+		GameObject_AddComponent_TisAudioSource_t393_m2699(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t393_m2699_MethodInfo_var);
+		AudioSource_t393 * L_3 = Component_GetComponent_TisAudioSource_t393_m2697(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var);
 		AudioClip_t312 * L_4 = (__this->___sound_9);
 		NullCheck(L_3);
-		AudioSource_set_clip_m2561(L_3, L_4, /*hidden argument*/NULL);
-		AudioSource_t554 * L_5 = Component_GetComponent_TisAudioSource_t554_m2557(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var);
+		AudioSource_set_clip_m2701(L_3, L_4, /*hidden argument*/NULL);
+		AudioSource_t393 * L_5 = Component_GetComponent_TisAudioSource_t393_m2697(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var);
 		NullCheck(L_5);
-		AudioSource_Stop_m2562(L_5, /*hidden argument*/NULL);
+		AudioSource_Stop_m2702(L_5, /*hidden argument*/NULL);
 	}
 
 IL_0039:
 	{
-		Renderer_t495 * L_6 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
-		Renderer_t495 * L_7 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_6 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
+		Renderer_t519 * L_7 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_7);
-		Material_t400 * L_8 = Renderer_get_material_m2563(L_7, /*hidden argument*/NULL);
+		Material_t400 * L_8 = Renderer_get_material_m2703(L_7, /*hidden argument*/NULL);
 		Material_t400 * L_9 = (Material_t400 *)il2cpp_codegen_object_new (Material_t400_il2cpp_TypeInfo_var);
-		Material__ctor_m2564(L_9, L_8, /*hidden argument*/NULL);
+		Material__ctor_m2704(L_9, L_8, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Renderer_set_material_m2565(L_6, L_9, /*hidden argument*/NULL);
+		Renderer_set_material_m2705(L_6, L_9, /*hidden argument*/NULL);
 		Texture_t311 * L_10 = (__this->___normalTexture_4);
 		__this->___normalTex_8 = L_10;
 		return;
@@ -25294,30 +25294,30 @@ extern "C" void DefaultPreviewButton_Unselect_m1415 (DefaultPreviewButton_t281 *
 	}
 }
 // System.Void DefaultPreviewButton::DisabledButton()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void DefaultPreviewButton_DisabledButton_m1416 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Texture_t311 * L_0 = (__this->___disabledTexture_6);
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		Renderer_t495 * L_2 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_2 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_2);
-		Material_t400 * L_3 = Renderer_get_material_m2563(L_2, /*hidden argument*/NULL);
+		Material_t400 * L_3 = Renderer_get_material_m2703(L_2, /*hidden argument*/NULL);
 		Texture_t311 * L_4 = (__this->___disabledTexture_6);
 		NullCheck(L_3);
-		Material_set_mainTexture_m2566(L_3, L_4, /*hidden argument*/NULL);
+		Material_set_mainTexture_m2706(L_3, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -25327,30 +25327,30 @@ IL_0027:
 	}
 }
 // System.Void DefaultPreviewButton::EnabledButton()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void DefaultPreviewButton_EnabledButton_m1417 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Texture_t311 * L_0 = (__this->___disabledTexture_6);
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		Renderer_t495 * L_2 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_2 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_2);
-		Material_t400 * L_3 = Renderer_get_material_m2563(L_2, /*hidden argument*/NULL);
+		Material_t400 * L_3 = Renderer_get_material_m2703(L_2, /*hidden argument*/NULL);
 		Texture_t311 * L_4 = (__this->___normalTexture_4);
 		NullCheck(L_3);
-		Material_set_mainTexture_m2566(L_3, L_4, /*hidden argument*/NULL);
+		Material_set_mainTexture_m2706(L_3, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -25360,47 +25360,47 @@ IL_0027:
 	}
 }
 // System.String DefaultPreviewButton::get_text()
-extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var;
 extern "C" String_t* DefaultPreviewButton_get_text_m1418 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483937);
+		GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483937);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMesh_t320 * V_0 = {0};
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TextMesh_t320 * L_1 = GameObject_GetComponentInChildren_TisTextMesh_t320_m2553(L_0, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var);
+		TextMesh_t320 * L_1 = GameObject_GetComponentInChildren_TisTextMesh_t320_m2693(L_0, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var);
 		V_0 = L_1;
 		TextMesh_t320 * L_2 = V_0;
 		NullCheck(L_2);
-		String_t* L_3 = TextMesh_get_text_m2567(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = TextMesh_get_text_m2707(L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
 // System.Void DefaultPreviewButton::set_text(System.String)
-extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var;
 extern "C" void DefaultPreviewButton_set_text_m1419 (DefaultPreviewButton_t281 * __this, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483938);
+		GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483938);
 		s_Il2CppMethodIntialized = true;
 	}
-	TextMeshU5BU5D_t553* V_0 = {0};
+	TextMeshU5BU5D_t577* V_0 = {0};
 	TextMesh_t320 * V_1 = {0};
-	TextMeshU5BU5D_t553* V_2 = {0};
+	TextMeshU5BU5D_t577* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TextMeshU5BU5D_t553* L_1 = GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555(L_0, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var);
+		TextMeshU5BU5D_t577* L_1 = GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695(L_0, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var);
 		V_0 = L_1;
-		TextMeshU5BU5D_t553* L_2 = V_0;
+		TextMeshU5BU5D_t577* L_2 = V_0;
 		V_2 = L_2;
 		V_3 = 0;
 		goto IL_0024;
@@ -25408,7 +25408,7 @@ extern "C" void DefaultPreviewButton_set_text_m1419 (DefaultPreviewButton_t281 *
 
 IL_0015:
 	{
-		TextMeshU5BU5D_t553* L_3 = V_2;
+		TextMeshU5BU5D_t577* L_3 = V_2;
 		int32_t L_4 = V_3;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
@@ -25417,7 +25417,7 @@ IL_0015:
 		TextMesh_t320 * L_6 = V_1;
 		String_t* L_7 = ___value;
 		NullCheck(L_6);
-		TextMesh_set_text_m2568(L_6, L_7, /*hidden argument*/NULL);
+		TextMesh_set_text_m2708(L_6, L_7, /*hidden argument*/NULL);
 		int32_t L_8 = V_3;
 		V_3 = ((int32_t)((int32_t)L_8+(int32_t)1));
 	}
@@ -25425,7 +25425,7 @@ IL_0015:
 IL_0024:
 	{
 		int32_t L_9 = V_3;
-		TextMeshU5BU5D_t553* L_10 = V_2;
+		TextMeshU5BU5D_t577* L_10 = V_2;
 		NullCheck(L_10);
 		if ((((int32_t)L_9) < ((int32_t)(((int32_t)(((Array_t *)L_10)->max_length))))))
 		{
@@ -25437,44 +25437,44 @@ IL_0024:
 	}
 }
 // System.Void DefaultPreviewButton::Update()
-extern TypeInfo* Input_t508_il2cpp_TypeInfo_var;
+extern TypeInfo* Input_t532_il2cpp_TypeInfo_var;
 extern "C" void DefaultPreviewButton_Update_m1420 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Input_t508_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(93);
+		Input_t532_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(93);
 		s_Il2CppMethodIntialized = true;
 	}
-	Ray_t556  V_0 = {0};
-	RaycastHit_t557  V_1 = {0};
+	Ray_t579  V_0 = {0};
+	RaycastHit_t580  V_1 = {0};
 	{
-		Camera_t428 * L_0 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t508_il2cpp_TypeInfo_var);
-		Vector3_t412  L_1 = Input_get_mousePosition_m2570(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_0 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t532_il2cpp_TypeInfo_var);
+		Vector3_t414  L_1 = Input_get_mousePosition_m2710(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Ray_t556  L_2 = Camera_ScreenPointToRay_m2571(L_0, L_1, /*hidden argument*/NULL);
+		Ray_t579  L_2 = Camera_ScreenPointToRay_m2711(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		bool L_3 = Input_GetMouseButtonDown_m2572(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_3 = Input_GetMouseButtonDown_m2712(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		Ray_t556  L_4 = V_0;
-		bool L_5 = Physics_Raycast_m2573(NULL /*static, unused*/, L_4, (&V_1), (std::numeric_limits<float>::infinity()), /*hidden argument*/NULL);
+		Ray_t579  L_4 = V_0;
+		bool L_5 = Physics_Raycast_m2713(NULL /*static, unused*/, L_4, (&V_1), (std::numeric_limits<float>::infinity()), /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		Transform_t323 * L_6 = RaycastHit_get_transform_m2574((&V_1), /*hidden argument*/NULL);
+		Transform_t323 * L_6 = RaycastHit_get_transform_m2714((&V_1), /*hidden argument*/NULL);
 		NullCheck(L_6);
-		GameObject_t284 * L_7 = Component_get_gameObject_m2393(L_6, /*hidden argument*/NULL);
-		GameObject_t284 * L_8 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		bool L_9 = Object_op_Equality_m2387(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		GameObject_t284 * L_7 = Component_get_gameObject_m2533(L_6, /*hidden argument*/NULL);
+		GameObject_t284 * L_8 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Equality_m2527(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_004f;
@@ -25490,15 +25490,15 @@ IL_004f:
 	}
 }
 // System.Void DefaultPreviewButton::OnClick()
-extern const MethodInfo* Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void DefaultPreviewButton_OnClick_m1421 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483934);
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483934);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -25509,48 +25509,48 @@ extern "C" void DefaultPreviewButton_OnClick_m1421 (DefaultPreviewButton_t281 * 
 		}
 	}
 	{
-		AudioSource_t554 * L_1 = Component_GetComponent_TisAudioSource_t554_m2557(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var);
+		AudioSource_t393 * L_1 = Component_GetComponent_TisAudioSource_t393_m2697(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var);
 		AudioClip_t312 * L_2 = (__this->___disabledsound_10);
 		NullCheck(L_1);
-		AudioSource_PlayOneShot_m2575(L_1, L_2, /*hidden argument*/NULL);
+		AudioSource_PlayOneShot_m2715(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_001d:
 	{
-		AudioSource_t554 * L_3 = Component_GetComponent_TisAudioSource_t554_m2557(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t554_m2557_MethodInfo_var);
+		AudioSource_t393 * L_3 = Component_GetComponent_TisAudioSource_t393_m2697(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t393_m2697_MethodInfo_var);
 		AudioClip_t312 * L_4 = (__this->___sound_9);
 		NullCheck(L_3);
-		AudioSource_PlayOneShot_m2575(L_3, L_4, /*hidden argument*/NULL);
-		Renderer_t495 * L_5 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		AudioSource_PlayOneShot_m2715(L_3, L_4, /*hidden argument*/NULL);
+		Renderer_t519 * L_5 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_5);
-		Material_t400 * L_6 = Renderer_get_material_m2563(L_5, /*hidden argument*/NULL);
+		Material_t400 * L_6 = Renderer_get_material_m2703(L_5, /*hidden argument*/NULL);
 		Texture_t311 * L_7 = (__this->___pressedTexture_5);
 		NullCheck(L_6);
-		Material_set_mainTexture_m2566(L_6, L_7, /*hidden argument*/NULL);
+		Material_set_mainTexture_m2706(L_6, L_7, /*hidden argument*/NULL);
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, __this, (String_t*) &_stringLiteral140);
-		MonoBehaviour_CancelInvoke_m2576(__this, (String_t*) &_stringLiteral596, /*hidden argument*/NULL);
-		MonoBehaviour_Invoke_m2577(__this, (String_t*) &_stringLiteral596, (0.1f), /*hidden argument*/NULL);
+		MonoBehaviour_CancelInvoke_m2716(__this, (String_t*) &_stringLiteral596, /*hidden argument*/NULL);
+		MonoBehaviour_Invoke_m2717(__this, (String_t*) &_stringLiteral596, (0.1f), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void DefaultPreviewButton::OnTimeoutPress()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void DefaultPreviewButton_OnTimeoutPress_m1422 (DefaultPreviewButton_t281 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t495 * L_0 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_0 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t400 * L_1 = Renderer_get_material_m2563(L_0, /*hidden argument*/NULL);
+		Material_t400 * L_1 = Renderer_get_material_m2703(L_0, /*hidden argument*/NULL);
 		Texture_t311 * L_2 = (__this->___normalTexture_4);
 		NullCheck(L_1);
-		Material_set_mainTexture_m2566(L_1, L_2, /*hidden argument*/NULL);
+		Material_set_mainTexture_m2706(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25568,19 +25568,19 @@ extern "C" void DefaultPreviewButton_OnTimeoutPress_m1422 (DefaultPreviewButton_
 
 // System.Void SALevelLoader::.ctor()
 extern TypeInfo* SA_Singleton_1_t314_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m2578_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m2718_MethodInfo_var;
 extern "C" void SALevelLoader__ctor_m1423 (SALevelLoader_t313 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t314_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(280);
-		SA_Singleton_1__ctor_m2578_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483939);
+		SA_Singleton_1__ctor_m2718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483939);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t314_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m2578(__this, /*hidden argument*/SA_Singleton_1__ctor_m2578_MethodInfo_var);
+		SA_Singleton_1__ctor_m2718(__this, /*hidden argument*/SA_Singleton_1__ctor_m2718_MethodInfo_var);
 		return;
 	}
 }
@@ -25588,8 +25588,8 @@ extern "C" void SALevelLoader__ctor_m1423 (SALevelLoader_t313 * __this, const Me
 extern "C" void SALevelLoader_Awake_m1424 (SALevelLoader_t313 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25598,7 +25598,7 @@ extern "C" void SALevelLoader_LoadLevel_m1425 (SALevelLoader_t313 * __this, Stri
 {
 	{
 		String_t* L_0 = ___name;
-		Application_LoadLevel_m2579(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Application_LoadLevel_m2719(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25606,8 +25606,8 @@ extern "C" void SALevelLoader_LoadLevel_m1425 (SALevelLoader_t313 * __this, Stri
 extern "C" void SALevelLoader_Restart_m1426 (SALevelLoader_t313 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m2580(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Application_LoadLevel_m2579(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m2720(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Application_LoadLevel_m2719(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25633,19 +25633,19 @@ extern "C" void SALoadedSceneOnClick__ctor_m1427 (SALoadedSceneOnClick_t315 * __
 }
 // System.Void SALoadedSceneOnClick::OnClick()
 extern TypeInfo* SA_Singleton_1_t314_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2581_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2721_MethodInfo_var;
 extern "C" void SALoadedSceneOnClick_OnClick_m1428 (SALoadedSceneOnClick_t315 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t314_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(280);
-		SA_Singleton_1_get_instance_m2581_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483940);
+		SA_Singleton_1_get_instance_m2721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483940);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t314_il2cpp_TypeInfo_var);
-		SALevelLoader_t313 * L_0 = SA_Singleton_1_get_instance_m2581(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2581_MethodInfo_var);
+		SALevelLoader_t313 * L_0 = SA_Singleton_1_get_instance_m2721(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2721_MethodInfo_var);
 		String_t* L_1 = (__this->___levelName_2);
 		NullCheck(L_0);
 		SALevelLoader_LoadLevel_m1425(L_0, L_1, /*hidden argument*/NULL);
@@ -25658,39 +25658,39 @@ extern "C" void SALoadedSceneOnClick_OnClick_m1428 (SALoadedSceneOnClick_t315 * 
 #else
 #endif
 
-struct Component_t555;
+struct Component_t578;
 struct DefaultPreviewButton_t281;
 // Declaration !!0 UnityEngine.Component::GetComponent<DefaultPreviewButton>()
 // !!0 UnityEngine.Component::GetComponent<DefaultPreviewButton>()
-#define Component_GetComponent_TisDefaultPreviewButton_t281_m2582(__this, method) (( DefaultPreviewButton_t281 * (*) (Component_t555 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2558_gshared)(__this, method)
+#define Component_GetComponent_TisDefaultPreviewButton_t281_m2722(__this, method) (( DefaultPreviewButton_t281 * (*) (Component_t578 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2698_gshared)(__this, method)
 
 
 // System.Void SAOnClickAction::.ctor()
 extern "C" void SAOnClickAction__ctor_m1429 (SAOnClickAction_t316 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SAOnClickAction::Awake()
-extern TypeInfo* EventHandlerFunction_t479_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisDefaultPreviewButton_t281_m2582_MethodInfo_var;
+extern TypeInfo* EventHandlerFunction_t503_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisDefaultPreviewButton_t281_m2722_MethodInfo_var;
 extern "C" void SAOnClickAction_Awake_m1430 (SAOnClickAction_t316 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		EventHandlerFunction_t479_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
-		Component_GetComponent_TisDefaultPreviewButton_t281_m2582_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483941);
+		EventHandlerFunction_t503_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(126);
+		Component_GetComponent_TisDefaultPreviewButton_t281_m2722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483941);
 		s_Il2CppMethodIntialized = true;
 	}
 	DefaultPreviewButton_t281 * V_0 = {0};
 	{
-		DefaultPreviewButton_t281 * L_0 = Component_GetComponent_TisDefaultPreviewButton_t281_m2582(__this, /*hidden argument*/Component_GetComponent_TisDefaultPreviewButton_t281_m2582_MethodInfo_var);
+		DefaultPreviewButton_t281 * L_0 = Component_GetComponent_TisDefaultPreviewButton_t281_m2722(__this, /*hidden argument*/Component_GetComponent_TisDefaultPreviewButton_t281_m2722_MethodInfo_var);
 		V_0 = L_0;
 		DefaultPreviewButton_t281 * L_1 = V_0;
-		bool L_2 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_002b;
@@ -25699,10 +25699,10 @@ extern "C" void SAOnClickAction_Awake_m1430 (SAOnClickAction_t316 * __this, cons
 	{
 		DefaultPreviewButton_t281 * L_3 = V_0;
 		IntPtr_t L_4 = { (void*)GetVirtualMethodInfo(__this, 4) };
-		EventHandlerFunction_t479 * L_5 = (EventHandlerFunction_t479 *)il2cpp_codegen_object_new (EventHandlerFunction_t479_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m2265(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction_t503 * L_5 = (EventHandlerFunction_t503 *)il2cpp_codegen_object_new (EventHandlerFunction_t503_il2cpp_TypeInfo_var);
+		EventHandlerFunction__ctor_m2405(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, EventHandlerFunction_t479 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral140, L_5);
+		VirtActionInvoker2< String_t*, EventHandlerFunction_t503 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral140, L_5);
 	}
 
 IL_002b:
@@ -25734,7 +25734,7 @@ extern "C" void SAOpenUrlOnClick_OnClick_m1432 (SAOpenUrlOnClick_t317 * __this, 
 {
 	{
 		String_t* L_0 = (__this->___url_2);
-		Application_OpenURL_m2535(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Application_OpenURL_m2675(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25765,7 +25765,7 @@ extern "C" void SASendMessageOnClick_OnClick_m1434 (SASendMessageOnClick_t318 * 
 		GameObject_t284 * L_0 = (__this->___Reciver_2);
 		String_t* L_1 = (__this->___MethodName_3);
 		NullCheck(L_0);
-		GameObject_SendMessage_m2583(L_0, L_1, 1, /*hidden argument*/NULL);
+		GameObject_SendMessage_m2723(L_0, L_1, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25781,11 +25781,11 @@ extern "C" void SASendMessageOnClick_OnClick_m1434 (SASendMessageOnClick_t318 * 
 #include "UnityEngine_UnityEngine_Collider.h"
 // UnityEngine.Collider
 #include "UnityEngine_UnityEngine_ColliderMethodDeclarations.h"
-struct Component_t555;
-struct Collider_t558;
+struct Component_t578;
+struct Collider_t581;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
-#define Component_GetComponent_TisCollider_t558_m2584(__this, method) (( Collider_t558 * (*) (Component_t555 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2558_gshared)(__this, method)
+#define Component_GetComponent_TisCollider_t581_m2724(__this, method) (( Collider_t581 * (*) (Component_t578 *, const MethodInfo*))Component_GetComponent_TisObject_t_m2698_gshared)(__this, method)
 
 
 // System.Void SA_BackButton::.ctor()
@@ -25839,15 +25839,15 @@ extern "C" void SA_BackButton_Start_m1437 (SA_BackButton_t319 * __this, const Me
 		}
 	}
 	{
-		GameObject_t284 * L_3 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_Destroy_m2475(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		GameObject_t284 * L_3 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_Destroy_m2615(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0020:
 	{
-		GameObject_t284 * L_4 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		GameObject_t284 * L_4 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t319_il2cpp_TypeInfo_var);
 		String_t* L_5 = ((SA_BackButton_t319_StaticFields*)SA_BackButton_t319_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -25859,7 +25859,7 @@ IL_0020:
 		}
 	}
 	{
-		String_t* L_8 = Application_get_loadedLevelName_m2580(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_8 = Application_get_loadedLevelName_m2720(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t319_il2cpp_TypeInfo_var);
 		((SA_BackButton_t319_StaticFields*)SA_BackButton_t319_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12 = L_8;
 	}
@@ -25871,20 +25871,20 @@ IL_0049:
 }
 // System.Void SA_BackButton::FixedUpdate()
 extern TypeInfo* SA_BackButton_t319_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisCollider_t558_m2584_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCollider_t581_m2724_MethodInfo_var;
 extern "C" void SA_BackButton_FixedUpdate_m1438 (SA_BackButton_t319 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_BackButton_t319_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(282);
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
-		Component_GetComponent_TisCollider_t558_m2584_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483942);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisCollider_t581_m2724_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483942);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m2580(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m2720(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t319_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((SA_BackButton_t319_StaticFields*)SA_BackButton_t319_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
 		NullCheck(L_0);
@@ -25895,23 +25895,23 @@ extern "C" void SA_BackButton_FixedUpdate_m1438 (SA_BackButton_t319 * __this, co
 		}
 	}
 	{
-		Renderer_t495 * L_3 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_3 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_3);
-		Renderer_set_enabled_m2585(L_3, 0, /*hidden argument*/NULL);
-		Collider_t558 * L_4 = Component_GetComponent_TisCollider_t558_m2584(__this, /*hidden argument*/Component_GetComponent_TisCollider_t558_m2584_MethodInfo_var);
+		Renderer_set_enabled_m2725(L_3, 0, /*hidden argument*/NULL);
+		Collider_t581 * L_4 = Component_GetComponent_TisCollider_t581_m2724(__this, /*hidden argument*/Component_GetComponent_TisCollider_t581_m2724_MethodInfo_var);
 		NullCheck(L_4);
-		Collider_set_enabled_m2586(L_4, 0, /*hidden argument*/NULL);
+		Collider_set_enabled_m2726(L_4, 0, /*hidden argument*/NULL);
 		goto IL_0049;
 	}
 
 IL_0031:
 	{
-		Renderer_t495 * L_5 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_5 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_5);
-		Renderer_set_enabled_m2585(L_5, 1, /*hidden argument*/NULL);
-		Collider_t558 * L_6 = Component_GetComponent_TisCollider_t558_m2584(__this, /*hidden argument*/Component_GetComponent_TisCollider_t558_m2584_MethodInfo_var);
+		Renderer_set_enabled_m2725(L_5, 1, /*hidden argument*/NULL);
+		Collider_t581 * L_6 = Component_GetComponent_TisCollider_t581_m2724(__this, /*hidden argument*/Component_GetComponent_TisCollider_t581_m2724_MethodInfo_var);
 		NullCheck(L_6);
-		Collider_set_enabled_m2586(L_6, 1, /*hidden argument*/NULL);
+		Collider_set_enabled_m2726(L_6, 1, /*hidden argument*/NULL);
 	}
 
 IL_0049:
@@ -25931,7 +25931,7 @@ extern "C" void SA_BackButton_OnClick_m1439 (SA_BackButton_t319 * __this, const 
 // System.Void SA_BackButton::GoBack()
 extern TypeInfo* SA_Singleton_1_t314_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_BackButton_t319_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m2581_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m2721_MethodInfo_var;
 extern "C" void SA_BackButton_GoBack_m1440 (SA_BackButton_t319 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -25939,12 +25939,12 @@ extern "C" void SA_BackButton_GoBack_m1440 (SA_BackButton_t319 * __this, const M
 	{
 		SA_Singleton_1_t314_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(280);
 		SA_BackButton_t319_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(282);
-		SA_Singleton_1_get_instance_m2581_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483940);
+		SA_Singleton_1_get_instance_m2721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483940);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t314_il2cpp_TypeInfo_var);
-		SALevelLoader_t313 * L_0 = SA_Singleton_1_get_instance_m2581(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2581_MethodInfo_var);
+		SALevelLoader_t313 * L_0 = SA_Singleton_1_get_instance_m2721(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m2721_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t319_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((SA_BackButton_t319_StaticFields*)SA_BackButton_t319_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
 		NullCheck(L_0);
@@ -25962,26 +25962,26 @@ extern "C" void SA_BackButton_GoBack_m1440 (SA_BackButton_t319 * __this, const M
 extern "C" void SA_Label__ctor_m1441 (SA_Label_t283 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String SA_Label::get_text()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var;
 extern "C" String_t* SA_Label_get_text_m1442 (SA_Label_t283 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483937);
+		GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483937);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMesh_t320 * V_0 = {0};
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -25995,12 +25995,12 @@ extern "C" String_t* SA_Label_get_text_m1442 (SA_Label_t283 * __this, const Meth
 
 IL_0017:
 	{
-		GameObject_t284 * L_3 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_3 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TextMesh_t320 * L_4 = GameObject_GetComponentInChildren_TisTextMesh_t320_m2553(L_3, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t320_m2553_MethodInfo_var);
+		TextMesh_t320 * L_4 = GameObject_GetComponentInChildren_TisTextMesh_t320_m2693(L_3, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t320_m2693_MethodInfo_var);
 		V_0 = L_4;
 		TextMesh_t320 * L_5 = V_0;
-		bool L_6 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_5, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_5, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0036;
@@ -26009,7 +26009,7 @@ IL_0017:
 	{
 		TextMesh_t320 * L_7 = V_0;
 		NullCheck(L_7);
-		String_t* L_8 = TextMesh_get_text_m2567(L_7, /*hidden argument*/NULL);
+		String_t* L_8 = TextMesh_get_text_m2707(L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 
@@ -26021,22 +26021,22 @@ IL_0036:
 	}
 }
 // System.Void SA_Label::set_text(System.String)
-extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var;
 extern "C" void SA_Label_set_text_m1443 (SA_Label_t283 * __this, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483938);
+		GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483938);
 		s_Il2CppMethodIntialized = true;
 	}
-	TextMeshU5BU5D_t553* V_0 = {0};
+	TextMeshU5BU5D_t577* V_0 = {0};
 	TextMesh_t320 * V_1 = {0};
-	TextMeshU5BU5D_t553* V_2 = {0};
+	TextMeshU5BU5D_t577* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -26048,11 +26048,11 @@ extern "C" void SA_Label_set_text_m1443 (SA_Label_t283 * __this, String_t* ___va
 
 IL_0012:
 	{
-		GameObject_t284 * L_2 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_2 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		TextMeshU5BU5D_t553* L_3 = GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555(L_2, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t320_m2555_MethodInfo_var);
+		TextMeshU5BU5D_t577* L_3 = GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695(L_2, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t320_m2695_MethodInfo_var);
 		V_0 = L_3;
-		TextMeshU5BU5D_t553* L_4 = V_0;
+		TextMeshU5BU5D_t577* L_4 = V_0;
 		V_2 = L_4;
 		V_3 = 0;
 		goto IL_0042;
@@ -26060,14 +26060,14 @@ IL_0012:
 
 IL_0027:
 	{
-		TextMeshU5BU5D_t553* L_5 = V_2;
+		TextMeshU5BU5D_t577* L_5 = V_2;
 		int32_t L_6 = V_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
 		int32_t L_7 = L_6;
 		V_1 = (*(TextMesh_t320 **)(TextMesh_t320 **)SZArrayLdElema(L_5, L_7));
 		TextMesh_t320 * L_8 = V_1;
-		bool L_9 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_8, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_8, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_003e;
@@ -26077,7 +26077,7 @@ IL_0027:
 		TextMesh_t320 * L_10 = V_1;
 		String_t* L_11 = ___value;
 		NullCheck(L_10);
-		TextMesh_set_text_m2568(L_10, L_11, /*hidden argument*/NULL);
+		TextMesh_set_text_m2708(L_10, L_11, /*hidden argument*/NULL);
 	}
 
 IL_003e:
@@ -26089,7 +26089,7 @@ IL_003e:
 IL_0042:
 	{
 		int32_t L_13 = V_3;
-		TextMeshU5BU5D_t553* L_14 = V_2;
+		TextMeshU5BU5D_t577* L_14 = V_2;
 		NullCheck(L_14);
 		if ((((int32_t)L_13) < ((int32_t)(((int32_t)(((Array_t *)L_14)->max_length))))))
 		{
@@ -26106,24 +26106,24 @@ IL_0042:
 #else
 #endif
 
-struct Object_t504;
+struct Object_t528;
 struct SA_StatusBar_t321;
-struct Object_t504;
+struct Object_t528;
 struct Object_t;
 // Declaration !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
 // !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
-extern "C" Object_t * Object_FindObjectOfType_TisObject_t_m2588_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Object_FindObjectOfType_TisObject_t_m2588(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m2588_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * Object_FindObjectOfType_TisObject_t_m2728_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Object_FindObjectOfType_TisObject_t_m2728(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m2728_gshared)(__this /* static, unused */, method)
 // Declaration !!0 UnityEngine.Object::FindObjectOfType<SA_StatusBar>()
 // !!0 UnityEngine.Object::FindObjectOfType<SA_StatusBar>()
-#define Object_FindObjectOfType_TisSA_StatusBar_t321_m2587(__this /* static, unused */, method) (( SA_StatusBar_t321 * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m2588_gshared)(__this /* static, unused */, method)
+#define Object_FindObjectOfType_TisSA_StatusBar_t321_m2727(__this /* static, unused */, method) (( SA_StatusBar_t321 * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m2728_gshared)(__this /* static, unused */, method)
 
 
 // System.Void SA_StatusBar::.ctor()
 extern "C" void SA_StatusBar__ctor_m1444 (SA_StatusBar_t321 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -26134,32 +26134,32 @@ extern "C" void SA_StatusBar_SetText_m1445 (SA_StatusBar_t321 * __this, String_t
 		TextMesh_t320 * L_0 = (__this->___title_2);
 		String_t* L_1 = ___text;
 		NullCheck(L_0);
-		TextMesh_set_text_m2568(L_0, L_1, /*hidden argument*/NULL);
+		TextMesh_set_text_m2708(L_0, L_1, /*hidden argument*/NULL);
 		TextMesh_t320 * L_2 = (__this->___shadow_3);
 		String_t* L_3 = ___text;
 		NullCheck(L_2);
-		TextMesh_set_text_m2568(L_2, L_3, /*hidden argument*/NULL);
+		TextMesh_set_text_m2708(L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String SA_StatusBar::get_text()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var;
 extern "C" String_t* SA_StatusBar_get_text_m1446 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
-		Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483943);
+		Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483943);
 		s_Il2CppMethodIntialized = true;
 	}
 	SA_StatusBar_t321 * V_0 = {0};
 	{
-		SA_StatusBar_t321 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t321_m2587(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var);
+		SA_StatusBar_t321 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t321_m2727(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var);
 		V_0 = L_0;
 		SA_StatusBar_t321 * L_1 = V_0;
-		bool L_2 = Object_op_Equality_m2387(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m2527(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0018;
@@ -26177,26 +26177,26 @@ IL_0018:
 		NullCheck(L_4);
 		TextMesh_t320 * L_5 = (L_4->___title_2);
 		NullCheck(L_5);
-		String_t* L_6 = TextMesh_get_text_m2567(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = TextMesh_get_text_m2707(L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
 // System.Void SA_StatusBar::set_text(System.String)
-extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var;
 extern "C" void SA_StatusBar_set_text_m1447 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483943);
+		Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483943);
 		s_Il2CppMethodIntialized = true;
 	}
 	SA_StatusBar_t321 * V_0 = {0};
 	{
-		SA_StatusBar_t321 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t321_m2587(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t321_m2587_MethodInfo_var);
+		SA_StatusBar_t321 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t321_m2727(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t321_m2727_MethodInfo_var);
 		V_0 = L_0;
 		SA_StatusBar_t321 * L_1 = V_0;
-		bool L_2 = Object_op_Equality_m2387(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m2527(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0013;
@@ -26225,70 +26225,70 @@ IL_0013:
 extern "C" void SA_Texture__ctor_m1448 (SA_Texture_t282 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void SA_Texture::Awake()
 extern TypeInfo* Material_t400_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void SA_Texture_Awake_m1449 (SA_Texture_t282 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Material_t400_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(277);
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t495 * L_0 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
-		Renderer_t495 * L_1 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_0 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
+		Renderer_t519 * L_1 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_1);
-		Material_t400 * L_2 = Renderer_get_material_m2563(L_1, /*hidden argument*/NULL);
+		Material_t400 * L_2 = Renderer_get_material_m2703(L_1, /*hidden argument*/NULL);
 		Material_t400 * L_3 = (Material_t400 *)il2cpp_codegen_object_new (Material_t400_il2cpp_TypeInfo_var);
-		Material__ctor_m2564(L_3, L_2, /*hidden argument*/NULL);
+		Material__ctor_m2704(L_3, L_2, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Renderer_set_material_m2565(L_0, L_3, /*hidden argument*/NULL);
+		Renderer_set_material_m2705(L_0, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // UnityEngine.Texture SA_Texture::get_texture()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" Texture_t311 * SA_Texture_get_texture_m1450 (SA_Texture_t282 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t495 * L_0 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_0 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t400 * L_1 = Renderer_get_material_m2563(L_0, /*hidden argument*/NULL);
+		Material_t400 * L_1 = Renderer_get_material_m2703(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		Texture_t311 * L_2 = Material_get_mainTexture_m2589(L_1, /*hidden argument*/NULL);
+		Texture_t311 * L_2 = Material_get_mainTexture_m2729(L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void SA_Texture::set_texture(UnityEngine.Texture)
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void SA_Texture_set_texture_m1451 (SA_Texture_t282 * __this, Texture_t311 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t495 * L_0 = Component_GetComponent_TisRenderer_t495_m2560(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_0 = Component_GetComponent_TisRenderer_t519_m2700(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t400 * L_1 = Renderer_get_material_m2563(L_0, /*hidden argument*/NULL);
+		Material_t400 * L_1 = Renderer_get_material_m2703(L_0, /*hidden argument*/NULL);
 		Texture_t311 * L_2 = ___value;
 		NullCheck(L_1);
-		Material_set_mainTexture_m2566(L_1, L_2, /*hidden argument*/NULL);
+		Material_set_mainTexture_m2706(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -26312,18 +26312,18 @@ struct GameObject_t284;
 struct PreviewScreenUtil_t322;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<PreviewScreenUtil>()
 // !!0 UnityEngine.GameObject::AddComponent<PreviewScreenUtil>()
-#define GameObject_AddComponent_TisPreviewScreenUtil_t322_m2590(__this, method) (( PreviewScreenUtil_t322 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2427_gshared)(__this, method)
+#define GameObject_AddComponent_TisPreviewScreenUtil_t322_m2730(__this, method) (( PreviewScreenUtil_t322 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m2567_gshared)(__this, method)
 struct GameObject_t284;
-struct Renderer_t495;
+struct Renderer_t519;
 struct GameObject_t284;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C" Object_t * GameObject_GetComponent_TisObject_t_m2592_gshared (GameObject_t284 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisObject_t_m2592(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2592_gshared)(__this, method)
+extern "C" Object_t * GameObject_GetComponent_TisObject_t_m2732_gshared (GameObject_t284 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisObject_t_m2732(__this, method) (( Object_t * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2732_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
-#define GameObject_GetComponent_TisRenderer_t495_m2591(__this, method) (( Renderer_t495 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2592_gshared)(__this, method)
+#define GameObject_GetComponent_TisRenderer_t519_m2731(__this, method) (( Renderer_t519 * (*) (GameObject_t284 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2732_gshared)(__this, method)
 
 
 // System.Void PreviewScreenUtil::.ctor()
@@ -26342,14 +26342,14 @@ extern "C" void PreviewScreenUtil__cctor_m1453 (Object_t * __this /* static, unu
 	}
 }
 // System.Boolean PreviewScreenUtil::isInScreenRect(UnityEngine.Rect,UnityEngine.Vector2)
-extern "C" bool PreviewScreenUtil_isInScreenRect_m1454 (Object_t * __this /* static, unused */, Rect_t496  ___rect, Vector2_t68  ___point, const MethodInfo* method)
+extern "C" bool PreviewScreenUtil_isInScreenRect_m1454 (Object_t * __this /* static, unused */, Rect_t520  ___rect, Vector2_t68  ___point, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = ((&___point)->___y_2);
 		(&___point)->___y_2 = ((float)((float)(((float)L_0))-(float)L_1));
 		Vector2_t68  L_2 = ___point;
-		bool L_3 = Rect_Contains_m2593((&___rect), L_2, /*hidden argument*/NULL);
+		bool L_3 = Rect_Contains_m2733((&___rect), L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0024;
@@ -26366,24 +26366,24 @@ IL_0024:
 }
 // UnityEngine.Rect PreviewScreenUtil::getObjectBounds(UnityEngine.GameObject)
 extern TypeInfo* PreviewScreenUtil_t322_il2cpp_TypeInfo_var;
-extern TypeInfo* Rect_t496_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisRenderer_t495_m2591_MethodInfo_var;
-extern "C" Rect_t496  PreviewScreenUtil_getObjectBounds_m1455 (Object_t * __this /* static, unused */, GameObject_t284 * ___obj, const MethodInfo* method)
+extern TypeInfo* Rect_t520_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRenderer_t519_m2731_MethodInfo_var;
+extern "C" Rect_t520  PreviewScreenUtil_getObjectBounds_m1455 (Object_t * __this /* static, unused */, GameObject_t284 * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		PreviewScreenUtil_t322_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(285);
-		Rect_t496_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(286);
-		GameObject_GetComponent_TisRenderer_t495_m2591_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483944);
+		Rect_t520_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(286);
+		GameObject_GetComponent_TisRenderer_t519_m2731_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483944);
 		s_Il2CppMethodIntialized = true;
 	}
-	Rect_t496  V_0 = {0};
+	Rect_t520  V_0 = {0};
 	{
 		GameObject_t284 * L_0 = ___obj;
 		NullCheck(L_0);
-		Renderer_t495 * L_1 = GameObject_GetComponent_TisRenderer_t495_m2591(L_0, /*hidden argument*/GameObject_GetComponent_TisRenderer_t495_m2591_MethodInfo_var);
-		bool L_2 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_1, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		Renderer_t519 * L_1 = GameObject_GetComponent_TisRenderer_t519_m2731(L_0, /*hidden argument*/GameObject_GetComponent_TisRenderer_t519_m2731_MethodInfo_var);
+		bool L_2 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_1, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001d;
@@ -26392,83 +26392,83 @@ extern "C" Rect_t496  PreviewScreenUtil_getObjectBounds_m1455 (Object_t * __this
 	{
 		GameObject_t284 * L_3 = ___obj;
 		NullCheck(L_3);
-		Renderer_t495 * L_4 = GameObject_GetComponent_TisRenderer_t495_m2591(L_3, /*hidden argument*/GameObject_GetComponent_TisRenderer_t495_m2591_MethodInfo_var);
+		Renderer_t519 * L_4 = GameObject_GetComponent_TisRenderer_t519_m2731(L_3, /*hidden argument*/GameObject_GetComponent_TisRenderer_t519_m2731_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
-		Rect_t496  L_5 = PreviewScreenUtil_getRendererBounds_m1456(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Rect_t520  L_5 = PreviewScreenUtil_getRendererBounds_m1456(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 
 IL_001d:
 	{
-		Initobj (Rect_t496_il2cpp_TypeInfo_var, (&V_0));
-		Rect_t496  L_6 = V_0;
+		Initobj (Rect_t520_il2cpp_TypeInfo_var, (&V_0));
+		Rect_t520  L_6 = V_0;
 		return L_6;
 	}
 }
 // UnityEngine.Rect PreviewScreenUtil::getRendererBounds(UnityEngine.Renderer)
-extern "C" Rect_t496  PreviewScreenUtil_getRendererBounds_m1456 (Object_t * __this /* static, unused */, Renderer_t495 * ___renderer, const MethodInfo* method)
+extern "C" Rect_t520  PreviewScreenUtil_getRendererBounds_m1456 (Object_t * __this /* static, unused */, Renderer_t519 * ___renderer, const MethodInfo* method)
 {
-	Vector3_t412  V_0 = {0};
-	Vector3_t412  V_1 = {0};
-	Rect_t496  V_2 = {0};
-	Bounds_t559  V_3 = {0};
-	Vector3_t412  V_4 = {0};
-	Bounds_t559  V_5 = {0};
-	Vector3_t412  V_6 = {0};
-	Bounds_t559  V_7 = {0};
-	Vector3_t412  V_8 = {0};
-	Bounds_t559  V_9 = {0};
-	Vector3_t412  V_10 = {0};
+	Vector3_t414  V_0 = {0};
+	Vector3_t414  V_1 = {0};
+	Rect_t520  V_2 = {0};
+	Bounds_t582  V_3 = {0};
+	Vector3_t414  V_4 = {0};
+	Bounds_t582  V_5 = {0};
+	Vector3_t414  V_6 = {0};
+	Bounds_t582  V_7 = {0};
+	Vector3_t414  V_8 = {0};
+	Bounds_t582  V_9 = {0};
+	Vector3_t414  V_10 = {0};
 	{
-		Camera_t428 * L_0 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Renderer_t495 * L_1 = ___renderer;
+		Camera_t435 * L_0 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Renderer_t519 * L_1 = ___renderer;
 		NullCheck(L_1);
-		Bounds_t559  L_2 = Renderer_get_bounds_m2594(L_1, /*hidden argument*/NULL);
+		Bounds_t582  L_2 = Renderer_get_bounds_m2734(L_1, /*hidden argument*/NULL);
 		V_3 = L_2;
-		Vector3_t412  L_3 = Bounds_get_min_m2595((&V_3), /*hidden argument*/NULL);
+		Vector3_t414  L_3 = Bounds_get_min_m2735((&V_3), /*hidden argument*/NULL);
 		V_4 = L_3;
 		float L_4 = ((&V_4)->___x_1);
-		Renderer_t495 * L_5 = ___renderer;
+		Renderer_t519 * L_5 = ___renderer;
 		NullCheck(L_5);
-		Bounds_t559  L_6 = Renderer_get_bounds_m2594(L_5, /*hidden argument*/NULL);
+		Bounds_t582  L_6 = Renderer_get_bounds_m2734(L_5, /*hidden argument*/NULL);
 		V_5 = L_6;
-		Vector3_t412  L_7 = Bounds_get_max_m2596((&V_5), /*hidden argument*/NULL);
+		Vector3_t414  L_7 = Bounds_get_max_m2736((&V_5), /*hidden argument*/NULL);
 		V_6 = L_7;
 		float L_8 = ((&V_6)->___y_2);
-		Vector3_t412  L_9 = {0};
-		Vector3__ctor_m2597(&L_9, L_4, L_8, (0.0f), /*hidden argument*/NULL);
+		Vector3_t414  L_9 = {0};
+		Vector3__ctor_m2737(&L_9, L_4, L_8, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Vector3_t412  L_10 = Camera_WorldToScreenPoint_m2598(L_0, L_9, /*hidden argument*/NULL);
+		Vector3_t414  L_10 = Camera_WorldToScreenPoint_m2738(L_0, L_9, /*hidden argument*/NULL);
 		V_0 = L_10;
-		Camera_t428 * L_11 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Renderer_t495 * L_12 = ___renderer;
+		Camera_t435 * L_11 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Renderer_t519 * L_12 = ___renderer;
 		NullCheck(L_12);
-		Bounds_t559  L_13 = Renderer_get_bounds_m2594(L_12, /*hidden argument*/NULL);
+		Bounds_t582  L_13 = Renderer_get_bounds_m2734(L_12, /*hidden argument*/NULL);
 		V_7 = L_13;
-		Vector3_t412  L_14 = Bounds_get_max_m2596((&V_7), /*hidden argument*/NULL);
+		Vector3_t414  L_14 = Bounds_get_max_m2736((&V_7), /*hidden argument*/NULL);
 		V_8 = L_14;
 		float L_15 = ((&V_8)->___x_1);
-		Renderer_t495 * L_16 = ___renderer;
+		Renderer_t519 * L_16 = ___renderer;
 		NullCheck(L_16);
-		Bounds_t559  L_17 = Renderer_get_bounds_m2594(L_16, /*hidden argument*/NULL);
+		Bounds_t582  L_17 = Renderer_get_bounds_m2734(L_16, /*hidden argument*/NULL);
 		V_9 = L_17;
-		Vector3_t412  L_18 = Bounds_get_min_m2595((&V_9), /*hidden argument*/NULL);
+		Vector3_t414  L_18 = Bounds_get_min_m2735((&V_9), /*hidden argument*/NULL);
 		V_10 = L_18;
 		float L_19 = ((&V_10)->___y_2);
-		Vector3_t412  L_20 = {0};
-		Vector3__ctor_m2597(&L_20, L_15, L_19, (0.0f), /*hidden argument*/NULL);
+		Vector3_t414  L_20 = {0};
+		Vector3__ctor_m2737(&L_20, L_15, L_19, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Vector3_t412  L_21 = Camera_WorldToScreenPoint_m2598(L_11, L_20, /*hidden argument*/NULL);
+		Vector3_t414  L_21 = Camera_WorldToScreenPoint_m2738(L_11, L_20, /*hidden argument*/NULL);
 		V_1 = L_21;
 		float L_22 = ((&V_0)->___x_1);
-		int32_t L_23 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_23 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_24 = ((&V_0)->___y_2);
 		float L_25 = ((&V_1)->___x_1);
 		float L_26 = ((&V_0)->___x_1);
 		float L_27 = ((&V_0)->___y_2);
 		float L_28 = ((&V_1)->___y_2);
-		Rect__ctor_m2310((&V_2), L_22, ((float)((float)(((float)L_23))-(float)L_24)), ((float)((float)L_25-(float)L_26)), ((float)((float)L_27-(float)L_28)), /*hidden argument*/NULL);
-		Rect_t496  L_29 = V_2;
+		Rect__ctor_m2450((&V_2), L_22, ((float)((float)(((float)L_23))-(float)L_24)), ((float)((float)L_25-(float)L_26)), ((float)((float)L_27-(float)L_28)), /*hidden argument*/NULL);
+		Rect_t520  L_29 = V_2;
 		return L_29;
 	}
 }
@@ -26476,9 +26476,9 @@ extern "C" Rect_t496  PreviewScreenUtil_getRendererBounds_m1456 (Object_t * __th
 extern "C" void PreviewScreenUtil_Awake_m1457 (PreviewScreenUtil_t322 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___W_6 = L_0;
-		int32_t L_1 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___H_7 = L_1;
 		return;
 	}
@@ -26488,7 +26488,7 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m1458 (PreviewScreenUtil_t322 * __
 {
 	{
 		int32_t L_0 = (__this->___W_6);
-		int32_t L_1 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
 			goto IL_0020;
@@ -26496,7 +26496,7 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m1458 (PreviewScreenUtil_t322 * __
 	}
 	{
 		int32_t L_2 = (__this->___H_7);
-		int32_t L_3 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
 			goto IL_0041;
@@ -26505,9 +26505,9 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m1458 (PreviewScreenUtil_t322 * __
 
 IL_0020:
 	{
-		int32_t L_4 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___W_6 = L_4;
-		int32_t L_5 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___H_7 = L_5;
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, __this, (String_t*) &_stringLiteral598);
 	}
@@ -26520,7 +26520,7 @@ IL_0041:
 // PreviewScreenUtil PreviewScreenUtil::get_instance()
 extern TypeInfo* PreviewScreenUtil_t322_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObject_t284_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisPreviewScreenUtil_t322_m2590_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisPreviewScreenUtil_t322_m2730_MethodInfo_var;
 extern "C" PreviewScreenUtil_t322 * PreviewScreenUtil_get_instance_m1459 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -26528,13 +26528,13 @@ extern "C" PreviewScreenUtil_t322 * PreviewScreenUtil_get_instance_m1459 (Object
 	{
 		PreviewScreenUtil_t322_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(285);
 		GameObject_t284_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(169);
-		GameObject_AddComponent_TisPreviewScreenUtil_t322_m2590_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
+		GameObject_AddComponent_TisPreviewScreenUtil_t322_m2730_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
 		PreviewScreenUtil_t322 * L_0 = ((PreviewScreenUtil_t322_StaticFields*)PreviewScreenUtil_t322_il2cpp_TypeInfo_var->static_fields)->____instance_5;
-		bool L_1 = Object_op_Equality_m2387(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m2527(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0033;
@@ -26542,15 +26542,15 @@ extern "C" PreviewScreenUtil_t322 * PreviewScreenUtil_get_instance_m1459 (Object
 	}
 	{
 		GameObject_t284 * L_2 = (GameObject_t284 *)il2cpp_codegen_object_new (GameObject_t284_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2430(L_2, (String_t*) &_stringLiteral597, /*hidden argument*/NULL);
+		GameObject__ctor_m2570(L_2, (String_t*) &_stringLiteral597, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		PreviewScreenUtil_t322 * L_3 = GameObject_AddComponent_TisPreviewScreenUtil_t322_m2590(L_2, /*hidden argument*/GameObject_AddComponent_TisPreviewScreenUtil_t322_m2590_MethodInfo_var);
+		PreviewScreenUtil_t322 * L_3 = GameObject_AddComponent_TisPreviewScreenUtil_t322_m2730(L_2, /*hidden argument*/GameObject_AddComponent_TisPreviewScreenUtil_t322_m2730_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
 		((PreviewScreenUtil_t322_StaticFields*)PreviewScreenUtil_t322_il2cpp_TypeInfo_var->static_fields)->____instance_5 = L_3;
 		PreviewScreenUtil_t322 * L_4 = ((PreviewScreenUtil_t322_StaticFields*)PreviewScreenUtil_t322_il2cpp_TypeInfo_var->static_fields)->____instance_5;
 		NullCheck(L_4);
-		GameObject_t284 * L_5 = Component_get_gameObject_m2393(L_4, /*hidden argument*/NULL);
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		GameObject_t284 * L_5 = Component_get_gameObject_m2533(L_4, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
 IL_0033:
@@ -26590,7 +26590,7 @@ extern "C" void ScreenPlacement__ctor_m1460 (ScreenPlacement_t324 * __this, cons
 		Initobj (Vector2_t68_il2cpp_TypeInfo_var, (&V_0));
 		Vector2_t68  L_0 = V_0;
 		__this->___actualOffset_7 = L_0;
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -26633,44 +26633,44 @@ IL_0011:
 	}
 }
 // System.Void ScreenPlacement::placementCalculation()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var;
 extern "C" void ScreenPlacement_placementCalculation_m1463 (ScreenPlacement_t324 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
+		Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483936);
 		s_Il2CppMethodIntialized = true;
 	}
 	Transform_t323 * V_0 = {0};
-	Vector3_t412  V_1 = {0};
-	Vector3_t412  V_2 = {0};
-	Rect_t496  V_3 = {0};
+	Vector3_t414  V_1 = {0};
+	Vector3_t414  V_2 = {0};
+	Rect_t520  V_3 = {0};
 	float V_4 = 0.0f;
 	float V_5 = 0.0f;
-	Bounds_t559  V_6 = {0};
-	Vector3_t412  V_7 = {0};
-	Bounds_t559  V_8 = {0};
-	Vector3_t412  V_9 = {0};
-	Bounds_t559  V_10 = {0};
-	Vector3_t412  V_11 = {0};
-	Bounds_t559  V_12 = {0};
-	Vector3_t412  V_13 = {0};
+	Bounds_t582  V_6 = {0};
+	Vector3_t414  V_7 = {0};
+	Bounds_t582  V_8 = {0};
+	Vector3_t414  V_9 = {0};
+	Bounds_t582  V_10 = {0};
+	Vector3_t414  V_11 = {0};
+	Bounds_t582  V_12 = {0};
+	Vector3_t414  V_13 = {0};
 	int32_t V_14 = {0};
 	{
-		Transform_t323 * L_0 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_0 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		int32_t L_1 = (__this->___position_2);
 		Vector2_t68  L_2 = (__this->___pixelOffset_3);
 		ScreenPlacementExtension_ScreenPlacement_m1470(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		Transform_t323 * L_3 = (__this->___boundsTransform_6);
-		bool L_4 = Object_op_Equality_m2387(NULL /*static, unused*/, L_3, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m2527(NULL /*static, unused*/, L_3, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0034;
 		}
 	}
 	{
-		Transform_t323 * L_5 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_5 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_003b;
 	}
@@ -26683,62 +26683,62 @@ IL_0034:
 
 IL_003b:
 	{
-		Camera_t428 * L_7 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_7 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Transform_t323 * L_8 = V_0;
 		NullCheck(L_8);
-		Renderer_t495 * L_9 = Component_GetComponent_TisRenderer_t495_m2560(L_8, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_9 = Component_GetComponent_TisRenderer_t519_m2700(L_8, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_9);
-		Bounds_t559  L_10 = Renderer_get_bounds_m2594(L_9, /*hidden argument*/NULL);
+		Bounds_t582  L_10 = Renderer_get_bounds_m2734(L_9, /*hidden argument*/NULL);
 		V_6 = L_10;
-		Vector3_t412  L_11 = Bounds_get_min_m2595((&V_6), /*hidden argument*/NULL);
+		Vector3_t414  L_11 = Bounds_get_min_m2735((&V_6), /*hidden argument*/NULL);
 		V_7 = L_11;
 		float L_12 = ((&V_7)->___x_1);
 		Transform_t323 * L_13 = V_0;
 		NullCheck(L_13);
-		Renderer_t495 * L_14 = Component_GetComponent_TisRenderer_t495_m2560(L_13, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_14 = Component_GetComponent_TisRenderer_t519_m2700(L_13, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_14);
-		Bounds_t559  L_15 = Renderer_get_bounds_m2594(L_14, /*hidden argument*/NULL);
+		Bounds_t582  L_15 = Renderer_get_bounds_m2734(L_14, /*hidden argument*/NULL);
 		V_8 = L_15;
-		Vector3_t412  L_16 = Bounds_get_max_m2596((&V_8), /*hidden argument*/NULL);
+		Vector3_t414  L_16 = Bounds_get_max_m2736((&V_8), /*hidden argument*/NULL);
 		V_9 = L_16;
 		float L_17 = ((&V_9)->___y_2);
-		Vector3_t412  L_18 = {0};
-		Vector3__ctor_m2597(&L_18, L_12, L_17, (0.0f), /*hidden argument*/NULL);
+		Vector3_t414  L_18 = {0};
+		Vector3__ctor_m2737(&L_18, L_12, L_17, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Vector3_t412  L_19 = Camera_WorldToScreenPoint_m2598(L_7, L_18, /*hidden argument*/NULL);
+		Vector3_t414  L_19 = Camera_WorldToScreenPoint_m2738(L_7, L_18, /*hidden argument*/NULL);
 		V_1 = L_19;
-		Camera_t428 * L_20 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_20 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Transform_t323 * L_21 = V_0;
 		NullCheck(L_21);
-		Renderer_t495 * L_22 = Component_GetComponent_TisRenderer_t495_m2560(L_21, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_22 = Component_GetComponent_TisRenderer_t519_m2700(L_21, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_22);
-		Bounds_t559  L_23 = Renderer_get_bounds_m2594(L_22, /*hidden argument*/NULL);
+		Bounds_t582  L_23 = Renderer_get_bounds_m2734(L_22, /*hidden argument*/NULL);
 		V_10 = L_23;
-		Vector3_t412  L_24 = Bounds_get_max_m2596((&V_10), /*hidden argument*/NULL);
+		Vector3_t414  L_24 = Bounds_get_max_m2736((&V_10), /*hidden argument*/NULL);
 		V_11 = L_24;
 		float L_25 = ((&V_11)->___x_1);
 		Transform_t323 * L_26 = V_0;
 		NullCheck(L_26);
-		Renderer_t495 * L_27 = Component_GetComponent_TisRenderer_t495_m2560(L_26, /*hidden argument*/Component_GetComponent_TisRenderer_t495_m2560_MethodInfo_var);
+		Renderer_t519 * L_27 = Component_GetComponent_TisRenderer_t519_m2700(L_26, /*hidden argument*/Component_GetComponent_TisRenderer_t519_m2700_MethodInfo_var);
 		NullCheck(L_27);
-		Bounds_t559  L_28 = Renderer_get_bounds_m2594(L_27, /*hidden argument*/NULL);
+		Bounds_t582  L_28 = Renderer_get_bounds_m2734(L_27, /*hidden argument*/NULL);
 		V_12 = L_28;
-		Vector3_t412  L_29 = Bounds_get_min_m2595((&V_12), /*hidden argument*/NULL);
+		Vector3_t414  L_29 = Bounds_get_min_m2735((&V_12), /*hidden argument*/NULL);
 		V_13 = L_29;
 		float L_30 = ((&V_13)->___y_2);
-		Vector3_t412  L_31 = {0};
-		Vector3__ctor_m2597(&L_31, L_25, L_30, (0.0f), /*hidden argument*/NULL);
+		Vector3_t414  L_31 = {0};
+		Vector3__ctor_m2737(&L_31, L_25, L_30, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_20);
-		Vector3_t412  L_32 = Camera_WorldToScreenPoint_m2598(L_20, L_31, /*hidden argument*/NULL);
+		Vector3_t414  L_32 = Camera_WorldToScreenPoint_m2738(L_20, L_31, /*hidden argument*/NULL);
 		V_2 = L_32;
 		float L_33 = ((&V_1)->___x_1);
-		int32_t L_34 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_34 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_35 = ((&V_1)->___y_2);
 		float L_36 = ((&V_2)->___x_1);
 		float L_37 = ((&V_1)->___x_1);
 		float L_38 = ((&V_1)->___y_2);
 		float L_39 = ((&V_2)->___y_2);
-		Rect__ctor_m2310((&V_3), L_33, ((float)((float)(((float)L_34))-(float)L_35)), ((float)((float)L_36-(float)L_37)), ((float)((float)L_38-(float)L_39)), /*hidden argument*/NULL);
+		Rect__ctor_m2450((&V_3), L_33, ((float)((float)(((float)L_34))-(float)L_35)), ((float)((float)L_36-(float)L_37)), ((float)((float)L_38-(float)L_39)), /*hidden argument*/NULL);
 		V_4 = (0.0f);
 		V_5 = (0.0f);
 		bool L_40 = (__this->___persents_4);
@@ -26748,11 +26748,11 @@ IL_003b:
 		}
 	}
 	{
-		int32_t L_41 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector2_t68 * L_42 = &(__this->___pixelOffset_3);
 		float L_43 = (L_42->___x_1);
 		V_4 = ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)((int32_t)100)))))*(float)L_43));
-		int32_t L_44 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_44 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector2_t68 * L_45 = &(__this->___pixelOffset_3);
 		float L_46 = (L_45->___y_2);
 		V_5 = ((float)((float)(((float)((int32_t)((int32_t)L_44/(int32_t)((int32_t)100)))))*(float)L_46));
@@ -26819,7 +26819,7 @@ IL_01b1:
 	{
 		Vector2_t68 * L_53 = &(__this->___actualOffset_7);
 		float L_54 = V_4;
-		float L_55 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_55 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_53->___x_1 = ((float)((float)L_54+(float)((float)((float)L_55/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26828,11 +26828,11 @@ IL_01d1:
 	{
 		Vector2_t68 * L_56 = &(__this->___actualOffset_7);
 		float L_57 = V_4;
-		float L_58 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_58 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_56->___x_1 = ((float)((float)L_57+(float)((float)((float)L_58/(float)(2.0f)))));
 		Vector2_t68 * L_59 = &(__this->___actualOffset_7);
 		float L_60 = V_5;
-		float L_61 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_61 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_59->___y_2 = ((float)((float)L_60+(float)((float)((float)L_61/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26841,11 +26841,11 @@ IL_020c:
 	{
 		Vector2_t68 * L_62 = &(__this->___actualOffset_7);
 		float L_63 = V_4;
-		float L_64 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_64 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_62->___x_1 = ((float)((float)L_63+(float)((float)((float)L_64/(float)(2.0f)))));
 		Vector2_t68 * L_65 = &(__this->___actualOffset_7);
 		float L_66 = V_5;
-		float L_67 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_67 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_65->___y_2 = ((float)((float)L_66+(float)((float)((float)L_67/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26854,7 +26854,7 @@ IL_0247:
 	{
 		Vector2_t68 * L_68 = &(__this->___actualOffset_7);
 		float L_69 = V_4;
-		float L_70 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_70 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_68->___x_1 = ((float)((float)L_69+(float)((float)((float)L_70/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26863,11 +26863,11 @@ IL_0267:
 	{
 		Vector2_t68 * L_71 = &(__this->___actualOffset_7);
 		float L_72 = V_4;
-		float L_73 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_73 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_71->___x_1 = ((float)((float)L_72+(float)((float)((float)L_73/(float)(2.0f)))));
 		Vector2_t68 * L_74 = &(__this->___actualOffset_7);
 		float L_75 = V_5;
-		float L_76 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_76 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_74->___y_2 = ((float)((float)L_75+(float)((float)((float)L_76/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26876,11 +26876,11 @@ IL_02a2:
 	{
 		Vector2_t68 * L_77 = &(__this->___actualOffset_7);
 		float L_78 = V_4;
-		float L_79 = Rect_get_width_m2600((&V_3), /*hidden argument*/NULL);
+		float L_79 = Rect_get_width_m2740((&V_3), /*hidden argument*/NULL);
 		L_77->___x_1 = ((float)((float)L_78+(float)((float)((float)L_79/(float)(2.0f)))));
 		Vector2_t68 * L_80 = &(__this->___actualOffset_7);
 		float L_81 = V_5;
-		float L_82 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_82 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_80->___y_2 = ((float)((float)L_81+(float)((float)((float)L_82/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26889,7 +26889,7 @@ IL_02dd:
 	{
 		Vector2_t68 * L_83 = &(__this->___actualOffset_7);
 		float L_84 = V_5;
-		float L_85 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_85 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_83->___y_2 = ((float)((float)L_84+(float)((float)((float)L_85/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -26898,14 +26898,14 @@ IL_02fd:
 	{
 		Vector2_t68 * L_86 = &(__this->___actualOffset_7);
 		float L_87 = V_5;
-		float L_88 = Rect_get_height_m2601((&V_3), /*hidden argument*/NULL);
+		float L_88 = Rect_get_height_m2741((&V_3), /*hidden argument*/NULL);
 		L_86->___y_2 = ((float)((float)L_87+(float)((float)((float)L_88/(float)(2.0f)))));
 		goto IL_031d;
 	}
 
 IL_031d:
 	{
-		Transform_t323 * L_89 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_89 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		int32_t L_90 = (__this->___position_2);
 		Vector2_t68  L_91 = (__this->___actualOffset_7);
 		ScreenPlacementExtension_ScreenPlacement_m1470(NULL /*static, unused*/, L_89, L_90, L_91, /*hidden argument*/NULL);
@@ -26938,24 +26938,24 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m1464 (Object_t * __thi
 	{
 		GameObject_t284 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = GameObject_get_transform_m2602(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = GameObject_get_transform_m2742(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t68  L_3 = Vector2_get_zero_m2286(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t428 * L_4 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t68  L_3 = Vector2_get_zero_m2426(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenPlacementExtension::ScreenPlacement(UnityEngine.GameObject,ScreenPosition,UnityEngine.Camera)
-extern "C" void ScreenPlacementExtension_ScreenPlacement_m1465 (Object_t * __this /* static, unused */, GameObject_t284 * ___target, int32_t ___position, Camera_t428 * ___renderingCamera, const MethodInfo* method)
+extern "C" void ScreenPlacementExtension_ScreenPlacement_m1465 (Object_t * __this /* static, unused */, GameObject_t284 * ___target, int32_t ___position, Camera_t435 * ___renderingCamera, const MethodInfo* method)
 {
 	{
 		GameObject_t284 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = GameObject_get_transform_m2602(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = GameObject_get_transform_m2742(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t68  L_3 = Vector2_get_zero_m2286(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t428 * L_4 = ___renderingCamera;
+		Vector2_t68  L_3 = Vector2_get_zero_m2426(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -26966,24 +26966,24 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m1466 (Object_t * __thi
 	{
 		GameObject_t284 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = GameObject_get_transform_m2602(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = GameObject_get_transform_m2742(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t68  L_3 = ___pixelsFromEdge;
-		Camera_t428 * L_4 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenPlacementExtension::ScreenPlacement(UnityEngine.GameObject,ScreenPosition,UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" void ScreenPlacementExtension_ScreenPlacement_m1467 (Object_t * __this /* static, unused */, GameObject_t284 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t428 * ___renderingCamera, const MethodInfo* method)
+extern "C" void ScreenPlacementExtension_ScreenPlacement_m1467 (Object_t * __this /* static, unused */, GameObject_t284 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t435 * ___renderingCamera, const MethodInfo* method)
 {
 	{
 		GameObject_t284 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = GameObject_get_transform_m2602(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = GameObject_get_transform_m2742(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t68  L_3 = ___pixelsFromEdge;
-		Camera_t428 * L_4 = ___renderingCamera;
+		Camera_t435 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -26994,24 +26994,24 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m1468 (Object_t * __thi
 	{
 		Transform_t323 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = Component_get_transform_m2599(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = Component_get_transform_m2739(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t68  L_3 = Vector2_get_zero_m2286(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t428 * L_4 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t68  L_3 = Vector2_get_zero_m2426(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenPlacementExtension::ScreenPlacement(UnityEngine.Transform,ScreenPosition,UnityEngine.Camera)
-extern "C" void ScreenPlacementExtension_ScreenPlacement_m1469 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Camera_t428 * ___renderingCamera, const MethodInfo* method)
+extern "C" void ScreenPlacementExtension_ScreenPlacement_m1469 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Camera_t435 * ___renderingCamera, const MethodInfo* method)
 {
 	{
 		Transform_t323 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = Component_get_transform_m2599(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = Component_get_transform_m2739(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t68  L_3 = Vector2_get_zero_m2286(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t428 * L_4 = ___renderingCamera;
+		Vector2_t68  L_3 = Vector2_get_zero_m2426(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -27022,49 +27022,49 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m1470 (Object_t * __thi
 	{
 		Transform_t323 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = Component_get_transform_m2599(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = Component_get_transform_m2739(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t68  L_3 = ___pixelsFromEdge;
-		Camera_t428 * L_4 = Camera_get_main_m2569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_4 = Camera_get_main_m2709(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenPlacementExtension::ScreenPlacement(UnityEngine.Transform,ScreenPosition,UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" void ScreenPlacementExtension_ScreenPlacement_m1471 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t428 * ___renderingCamera, const MethodInfo* method)
+extern "C" void ScreenPlacementExtension_ScreenPlacement_m1471 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t435 * ___renderingCamera, const MethodInfo* method)
 {
 	{
 		Transform_t323 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t323 * L_1 = Component_get_transform_m2599(L_0, /*hidden argument*/NULL);
+		Transform_t323 * L_1 = Component_get_transform_m2739(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t68  L_3 = ___pixelsFromEdge;
-		Camera_t428 * L_4 = ___renderingCamera;
+		Camera_t435 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m1472(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenPlacementExtension::DoScreenPlacement(UnityEngine.Transform,ScreenPosition,UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" void ScreenPlacementExtension_DoScreenPlacement_m1472 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t428 * ___renderingCamera, const MethodInfo* method)
+extern "C" void ScreenPlacementExtension_DoScreenPlacement_m1472 (Object_t * __this /* static, unused */, Transform_t323 * ___target, int32_t ___position, Vector2_t68  ___pixelsFromEdge, Camera_t435 * ___renderingCamera, const MethodInfo* method)
 {
-	Vector3_t412  V_0 = {0};
+	Vector3_t414  V_0 = {0};
 	float V_1 = 0.0f;
-	Vector3_t412  V_2 = {0};
-	Vector3_t412  V_3 = {0};
+	Vector3_t414  V_2 = {0};
+	Vector3_t414  V_3 = {0};
 	int32_t V_4 = {0};
 	{
-		Vector3_t412  L_0 = Vector3_get_zero_m2603(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t414  L_0 = Vector3_get_zero_m2743(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
-		Camera_t428 * L_1 = ___renderingCamera;
+		Camera_t435 * L_1 = ___renderingCamera;
 		NullCheck(L_1);
-		Transform_t323 * L_2 = Component_get_transform_m2599(L_1, /*hidden argument*/NULL);
+		Transform_t323 * L_2 = Component_get_transform_m2739(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Vector3_t412  L_3 = Transform_get_position_m2604(L_2, /*hidden argument*/NULL);
+		Vector3_t414  L_3 = Transform_get_position_m2744(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
 		float L_4 = ((&V_2)->___z_3);
 		Transform_t323 * L_5 = ___target;
 		NullCheck(L_5);
-		Vector3_t412  L_6 = Transform_get_position_m2604(L_5, /*hidden argument*/NULL);
+		Vector3_t414  L_6 = Transform_get_position_m2744(L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
 		float L_7 = ((&V_3)->___z_3);
 		V_1 = ((float)((float)((-L_4))+(float)L_7));
@@ -27114,138 +27114,138 @@ extern "C" void ScreenPlacementExtension_DoScreenPlacement_m1472 (Object_t * __t
 
 IL_005d:
 	{
-		Camera_t428 * L_10 = ___renderingCamera;
+		Camera_t435 * L_10 = ___renderingCamera;
 		float L_11 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_12 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_12 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_13 = ((&___pixelsFromEdge)->___y_2);
 		float L_14 = V_1;
-		Vector3_t412  L_15 = {0};
-		Vector3__ctor_m2597(&L_15, L_11, ((float)((float)(((float)L_12))-(float)L_13)), L_14, /*hidden argument*/NULL);
+		Vector3_t414  L_15 = {0};
+		Vector3__ctor_m2737(&L_15, L_11, ((float)((float)(((float)L_12))-(float)L_13)), L_14, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector3_t412  L_16 = Camera_ScreenToWorldPoint_m2605(L_10, L_15, /*hidden argument*/NULL);
+		Vector3_t414  L_16 = Camera_ScreenToWorldPoint_m2745(L_10, L_15, /*hidden argument*/NULL);
 		V_0 = L_16;
 		goto IL_01dd;
 	}
 
 IL_0084:
 	{
-		Camera_t428 * L_17 = ___renderingCamera;
-		int32_t L_18 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_17 = ___renderingCamera;
+		int32_t L_18 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_19 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_20 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_21 = ((&___pixelsFromEdge)->___y_2);
 		float L_22 = V_1;
-		Vector3_t412  L_23 = {0};
-		Vector3__ctor_m2597(&L_23, ((float)((float)(((float)((int32_t)((int32_t)L_18/(int32_t)2))))+(float)L_19)), ((float)((float)(((float)L_20))-(float)L_21)), L_22, /*hidden argument*/NULL);
+		Vector3_t414  L_23 = {0};
+		Vector3__ctor_m2737(&L_23, ((float)((float)(((float)((int32_t)((int32_t)L_18/(int32_t)2))))+(float)L_19)), ((float)((float)(((float)L_20))-(float)L_21)), L_22, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		Vector3_t412  L_24 = Camera_ScreenToWorldPoint_m2605(L_17, L_23, /*hidden argument*/NULL);
+		Vector3_t414  L_24 = Camera_ScreenToWorldPoint_m2745(L_17, L_23, /*hidden argument*/NULL);
 		V_0 = L_24;
 		goto IL_01dd;
 	}
 
 IL_00b4:
 	{
-		Camera_t428 * L_25 = ___renderingCamera;
-		int32_t L_26 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_25 = ___renderingCamera;
+		int32_t L_26 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_27 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_28 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_28 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_29 = ((&___pixelsFromEdge)->___y_2);
 		float L_30 = V_1;
-		Vector3_t412  L_31 = {0};
-		Vector3__ctor_m2597(&L_31, ((float)((float)(((float)L_26))-(float)L_27)), ((float)((float)(((float)L_28))-(float)L_29)), L_30, /*hidden argument*/NULL);
+		Vector3_t414  L_31 = {0};
+		Vector3__ctor_m2737(&L_31, ((float)((float)(((float)L_26))-(float)L_27)), ((float)((float)(((float)L_28))-(float)L_29)), L_30, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector3_t412  L_32 = Camera_ScreenToWorldPoint_m2605(L_25, L_31, /*hidden argument*/NULL);
+		Vector3_t414  L_32 = Camera_ScreenToWorldPoint_m2745(L_25, L_31, /*hidden argument*/NULL);
 		V_0 = L_32;
 		goto IL_01dd;
 	}
 
 IL_00e2:
 	{
-		Camera_t428 * L_33 = ___renderingCamera;
+		Camera_t435 * L_33 = ___renderingCamera;
 		float L_34 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_35 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_35 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_36 = ((&___pixelsFromEdge)->___y_2);
 		float L_37 = V_1;
-		Vector3_t412  L_38 = {0};
-		Vector3__ctor_m2597(&L_38, L_34, ((float)((float)(((float)((int32_t)((int32_t)L_35/(int32_t)2))))-(float)L_36)), L_37, /*hidden argument*/NULL);
+		Vector3_t414  L_38 = {0};
+		Vector3__ctor_m2737(&L_38, L_34, ((float)((float)(((float)((int32_t)((int32_t)L_35/(int32_t)2))))-(float)L_36)), L_37, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		Vector3_t412  L_39 = Camera_ScreenToWorldPoint_m2605(L_33, L_38, /*hidden argument*/NULL);
+		Vector3_t414  L_39 = Camera_ScreenToWorldPoint_m2745(L_33, L_38, /*hidden argument*/NULL);
 		V_0 = L_39;
 		goto IL_01dd;
 	}
 
 IL_010b:
 	{
-		Camera_t428 * L_40 = ___renderingCamera;
-		int32_t L_41 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_40 = ___renderingCamera;
+		int32_t L_41 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_42 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_43 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_43 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_44 = ((&___pixelsFromEdge)->___y_2);
 		float L_45 = V_1;
-		Vector3_t412  L_46 = {0};
-		Vector3__ctor_m2597(&L_46, ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)2))))+(float)L_42)), ((float)((float)(((float)((int32_t)((int32_t)L_43/(int32_t)2))))-(float)L_44)), L_45, /*hidden argument*/NULL);
+		Vector3_t414  L_46 = {0};
+		Vector3__ctor_m2737(&L_46, ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)2))))+(float)L_42)), ((float)((float)(((float)((int32_t)((int32_t)L_43/(int32_t)2))))-(float)L_44)), L_45, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		Vector3_t412  L_47 = Camera_ScreenToWorldPoint_m2605(L_40, L_46, /*hidden argument*/NULL);
+		Vector3_t414  L_47 = Camera_ScreenToWorldPoint_m2745(L_40, L_46, /*hidden argument*/NULL);
 		V_0 = L_47;
 		goto IL_01dd;
 	}
 
 IL_013d:
 	{
-		Camera_t428 * L_48 = ___renderingCamera;
-		int32_t L_49 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_48 = ___renderingCamera;
+		int32_t L_49 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_50 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_51 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_51 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_52 = ((&___pixelsFromEdge)->___y_2);
 		float L_53 = V_1;
-		Vector3_t412  L_54 = {0};
-		Vector3__ctor_m2597(&L_54, ((float)((float)(((float)L_49))-(float)L_50)), ((float)((float)(((float)((int32_t)((int32_t)L_51/(int32_t)2))))-(float)L_52)), L_53, /*hidden argument*/NULL);
+		Vector3_t414  L_54 = {0};
+		Vector3__ctor_m2737(&L_54, ((float)((float)(((float)L_49))-(float)L_50)), ((float)((float)(((float)((int32_t)((int32_t)L_51/(int32_t)2))))-(float)L_52)), L_53, /*hidden argument*/NULL);
 		NullCheck(L_48);
-		Vector3_t412  L_55 = Camera_ScreenToWorldPoint_m2605(L_48, L_54, /*hidden argument*/NULL);
+		Vector3_t414  L_55 = Camera_ScreenToWorldPoint_m2745(L_48, L_54, /*hidden argument*/NULL);
 		V_0 = L_55;
 		goto IL_01dd;
 	}
 
 IL_016d:
 	{
-		Camera_t428 * L_56 = ___renderingCamera;
+		Camera_t435 * L_56 = ___renderingCamera;
 		float L_57 = ((&___pixelsFromEdge)->___x_1);
 		float L_58 = ((&___pixelsFromEdge)->___y_2);
 		float L_59 = V_1;
-		Vector3_t412  L_60 = {0};
-		Vector3__ctor_m2597(&L_60, L_57, L_58, L_59, /*hidden argument*/NULL);
+		Vector3_t414  L_60 = {0};
+		Vector3__ctor_m2737(&L_60, L_57, L_58, L_59, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Vector3_t412  L_61 = Camera_ScreenToWorldPoint_m2605(L_56, L_60, /*hidden argument*/NULL);
+		Vector3_t414  L_61 = Camera_ScreenToWorldPoint_m2745(L_56, L_60, /*hidden argument*/NULL);
 		V_0 = L_61;
 		goto IL_01dd;
 	}
 
 IL_018d:
 	{
-		Camera_t428 * L_62 = ___renderingCamera;
-		int32_t L_63 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_62 = ___renderingCamera;
+		int32_t L_63 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_64 = ((&___pixelsFromEdge)->___x_1);
 		float L_65 = ((&___pixelsFromEdge)->___y_2);
 		float L_66 = V_1;
-		Vector3_t412  L_67 = {0};
-		Vector3__ctor_m2597(&L_67, ((float)((float)(((float)((int32_t)((int32_t)L_63/(int32_t)2))))+(float)L_64)), L_65, L_66, /*hidden argument*/NULL);
+		Vector3_t414  L_67 = {0};
+		Vector3__ctor_m2737(&L_67, ((float)((float)(((float)((int32_t)((int32_t)L_63/(int32_t)2))))+(float)L_64)), L_65, L_66, /*hidden argument*/NULL);
 		NullCheck(L_62);
-		Vector3_t412  L_68 = Camera_ScreenToWorldPoint_m2605(L_62, L_67, /*hidden argument*/NULL);
+		Vector3_t414  L_68 = Camera_ScreenToWorldPoint_m2745(L_62, L_67, /*hidden argument*/NULL);
 		V_0 = L_68;
 		goto IL_01dd;
 	}
 
 IL_01b6:
 	{
-		Camera_t428 * L_69 = ___renderingCamera;
-		int32_t L_70 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t435 * L_69 = ___renderingCamera;
+		int32_t L_70 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_71 = ((&___pixelsFromEdge)->___x_1);
 		float L_72 = ((&___pixelsFromEdge)->___y_2);
 		float L_73 = V_1;
-		Vector3_t412  L_74 = {0};
-		Vector3__ctor_m2597(&L_74, ((float)((float)(((float)L_70))-(float)L_71)), L_72, L_73, /*hidden argument*/NULL);
+		Vector3_t414  L_74 = {0};
+		Vector3__ctor_m2737(&L_74, ((float)((float)(((float)L_70))-(float)L_71)), L_72, L_73, /*hidden argument*/NULL);
 		NullCheck(L_69);
-		Vector3_t412  L_75 = Camera_ScreenToWorldPoint_m2605(L_69, L_74, /*hidden argument*/NULL);
+		Vector3_t414  L_75 = Camera_ScreenToWorldPoint_m2745(L_69, L_74, /*hidden argument*/NULL);
 		V_0 = L_75;
 		goto IL_01dd;
 	}
@@ -27254,10 +27254,10 @@ IL_01dd:
 	{
 		Transform_t323 * L_76 = ___target;
 		NullCheck(L_76);
-		Transform_t323 * L_77 = Component_get_transform_m2599(L_76, /*hidden argument*/NULL);
-		Vector3_t412  L_78 = V_0;
+		Transform_t323 * L_77 = Component_get_transform_m2739(L_76, /*hidden argument*/NULL);
+		Vector3_t414  L_78 = V_0;
 		NullCheck(L_77);
-		Transform_set_position_m2606(L_77, L_78, /*hidden argument*/NULL);
+		Transform_set_position_m2746(L_77, L_78, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -27278,31 +27278,31 @@ extern "C" void ScreenScaler__ctor_m1473 (ScreenScaler_t327 * __this, const Meth
 		__this->___calulateStartOnly_2 = 1;
 		__this->___persentsY_3 = (100.0f);
 		__this->____scaleFactorY_4 = (1.0f);
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ScreenScaler::Awake()
 extern "C" void ScreenScaler_Awake_m1474 (ScreenScaler_t327 * __this, const MethodInfo* method)
 {
-	Vector3_t412  V_0 = {0};
-	Vector3_t412  V_1 = {0};
-	Vector3_t412  V_2 = {0};
+	Vector3_t414  V_0 = {0};
+	Vector3_t414  V_1 = {0};
+	Vector3_t414  V_2 = {0};
 	{
-		Transform_t323 * L_0 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_0 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Vector3_t412  L_1 = Transform_get_localScale_m2607(L_0, /*hidden argument*/NULL);
+		Vector3_t414  L_1 = Transform_get_localScale_m2747(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		float L_2 = ((&V_0)->___y_2);
 		__this->____scaleFactorY_4 = L_2;
-		Transform_t323 * L_3 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_3 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Vector3_t412  L_4 = Transform_get_localScale_m2607(L_3, /*hidden argument*/NULL);
+		Vector3_t414  L_4 = Transform_get_localScale_m2747(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		float L_5 = ((&V_1)->___x_1);
-		Transform_t323 * L_6 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_6 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Vector3_t412  L_7 = Transform_get_localScale_m2607(L_6, /*hidden argument*/NULL);
+		Vector3_t414  L_7 = Transform_get_localScale_m2747(L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		float L_8 = ((&V_2)->___y_2);
 		__this->____xScaleDiff_5 = ((float)((float)L_5/(float)L_8));
@@ -27351,21 +27351,21 @@ extern "C" void ScreenScaler_placementCalculation_m1476 (ScreenScaler_t327 * __t
 		s_Il2CppMethodIntialized = true;
 	}
 	float V_0 = 0.0f;
-	Rect_t496  V_1 = {0};
-	Vector3_t412  V_2 = {0};
-	Vector3_t412  V_3 = {0};
-	Vector3_t412  V_4 = {0};
-	Vector3_t412  V_5 = {0};
-	Vector3_t412  V_6 = {0};
+	Rect_t520  V_1 = {0};
+	Vector3_t414  V_2 = {0};
+	Vector3_t414  V_3 = {0};
+	Vector3_t414  V_4 = {0};
+	Vector3_t414  V_5 = {0};
+	Vector3_t414  V_6 = {0};
 	{
-		int32_t L_0 = Screen_get_height_m2303(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_height_m2443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = (__this->___persentsY_3);
 		V_0 = ((float)((float)((float)((float)(((float)L_0))/(float)(100.0f)))*(float)L_1));
-		GameObject_t284 * L_2 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_2 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
-		Rect_t496  L_3 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Rect_t520  L_3 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
-		float L_4 = Rect_get_height_m2601((&V_1), /*hidden argument*/NULL);
+		float L_4 = Rect_get_height_m2741((&V_1), /*hidden argument*/NULL);
 		float L_5 = V_0;
 		if ((!(((float)L_4) < ((float)L_5))))
 		{
@@ -27378,25 +27378,25 @@ extern "C" void ScreenScaler_placementCalculation_m1476 (ScreenScaler_t327 * __t
 
 IL_0032:
 	{
-		GameObject_t284 * L_6 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_6 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
-		Rect_t496  L_7 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Rect_t520  L_7 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
-		Transform_t323 * L_8 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_8 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		float L_9 = (__this->____scaleFactorY_4);
 		float L_10 = (__this->____xScaleDiff_5);
 		float L_11 = (__this->____scaleFactorY_4);
-		Vector3_t412  L_12 = {0};
-		Vector3__ctor_m2597(&L_12, ((float)((float)L_9*(float)L_10)), L_11, (0.0f), /*hidden argument*/NULL);
+		Vector3_t414  L_12 = {0};
+		Vector3__ctor_m2737(&L_12, ((float)((float)L_9*(float)L_10)), L_11, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Transform_set_localScale_m2608(L_8, L_12, /*hidden argument*/NULL);
+		Transform_set_localScale_m2748(L_8, L_12, /*hidden argument*/NULL);
 		float L_13 = (__this->____scaleFactorY_4);
 		__this->____scaleFactorY_4 = ((float)((float)L_13+(float)(0.1f)));
 	}
 
 IL_0078:
 	{
-		float L_14 = Rect_get_height_m2601((&V_1), /*hidden argument*/NULL);
+		float L_14 = Rect_get_height_m2741((&V_1), /*hidden argument*/NULL);
 		float L_15 = V_0;
 		if ((((float)L_14) < ((float)L_15)))
 		{
@@ -27414,45 +27414,45 @@ IL_008a:
 
 IL_008f:
 	{
-		GameObject_t284 * L_16 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_16 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
-		Rect_t496  L_17 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Rect_t520  L_17 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		V_1 = L_17;
-		Transform_t323 * L_18 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
-		Transform_t323 * L_19 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_18 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_19 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		Vector3_t412  L_20 = Transform_get_localScale_m2607(L_19, /*hidden argument*/NULL);
+		Vector3_t414  L_20 = Transform_get_localScale_m2747(L_19, /*hidden argument*/NULL);
 		V_2 = L_20;
 		float L_21 = ((&V_2)->___x_1);
-		Transform_t323 * L_22 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_22 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Vector3_t412  L_23 = Transform_get_localScale_m2607(L_22, /*hidden argument*/NULL);
+		Vector3_t414  L_23 = Transform_get_localScale_m2747(L_22, /*hidden argument*/NULL);
 		V_3 = L_23;
 		float L_24 = ((&V_3)->___x_1);
-		Transform_t323 * L_25 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_25 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector3_t412  L_26 = Transform_get_localScale_m2607(L_25, /*hidden argument*/NULL);
+		Vector3_t414  L_26 = Transform_get_localScale_m2747(L_25, /*hidden argument*/NULL);
 		V_4 = L_26;
 		float L_27 = ((&V_4)->___y_2);
-		Transform_t323 * L_28 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_28 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		Vector3_t412  L_29 = Transform_get_localScale_m2607(L_28, /*hidden argument*/NULL);
+		Vector3_t414  L_29 = Transform_get_localScale_m2747(L_28, /*hidden argument*/NULL);
 		V_5 = L_29;
 		float L_30 = ((&V_5)->___y_2);
-		Transform_t323 * L_31 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_31 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		Vector3_t412  L_32 = Transform_get_localScale_m2607(L_31, /*hidden argument*/NULL);
+		Vector3_t414  L_32 = Transform_get_localScale_m2747(L_31, /*hidden argument*/NULL);
 		V_6 = L_32;
 		float L_33 = ((&V_6)->___z_3);
-		Vector3_t412  L_34 = {0};
-		Vector3__ctor_m2597(&L_34, ((float)((float)L_21-(float)((float)((float)L_24*(float)(0.1f))))), ((float)((float)L_27-(float)((float)((float)L_30*(float)(0.1f))))), L_33, /*hidden argument*/NULL);
+		Vector3_t414  L_34 = {0};
+		Vector3__ctor_m2737(&L_34, ((float)((float)L_21-(float)((float)((float)L_24*(float)(0.1f))))), ((float)((float)L_27-(float)((float)((float)L_30*(float)(0.1f))))), L_33, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		Transform_set_localScale_m2608(L_18, L_34, /*hidden argument*/NULL);
+		Transform_set_localScale_m2748(L_18, L_34, /*hidden argument*/NULL);
 	}
 
 IL_011b:
 	{
-		float L_35 = Rect_get_height_m2601((&V_1), /*hidden argument*/NULL);
+		float L_35 = Rect_get_height_m2741((&V_1), /*hidden argument*/NULL);
 		float L_36 = V_0;
 		if ((((float)L_35) > ((float)L_36)))
 		{
@@ -27480,7 +27480,7 @@ extern "C" void XScaleModifayer__ctor_m1477 (XScaleModifayer_t328 * __this, cons
 {
 	{
 		__this->___XMaxSize_2 = (10.0f);
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -27521,18 +27521,18 @@ extern "C" void XScaleModifayer_Calculate_m1480 (XScaleModifayer_t328 * __this, 
 		PreviewScreenUtil_t322_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(285);
 		s_Il2CppMethodIntialized = true;
 	}
-	Rect_t496  V_0 = {0};
+	Rect_t520  V_0 = {0};
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		GameObject_t284 * L_0 = Component_get_gameObject_m2393(__this, /*hidden argument*/NULL);
+		GameObject_t284 * L_0 = Component_get_gameObject_m2533(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t322_il2cpp_TypeInfo_var);
-		Rect_t496  L_1 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Rect_t520  L_1 = PreviewScreenUtil_getObjectBounds_m1455(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		int32_t L_2 = Screen_get_width_m2287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_width_m2427(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_3 = (__this->___XMaxSize_2);
 		V_1 = ((float)((float)((float)((float)(((float)L_2))/(float)(100.0f)))*(float)L_3));
-		float L_4 = Rect_get_width_m2600((&V_0), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2740((&V_0), /*hidden argument*/NULL);
 		float L_5 = V_1;
 		if ((!(((float)L_4) < ((float)L_5))))
 		{
@@ -27553,16 +27553,16 @@ extern "C" void XScaleModifayer_Calculate_m1480 (XScaleModifayer_t328 * __this, 
 IL_0039:
 	{
 		float L_7 = V_1;
-		float L_8 = Rect_get_width_m2600((&V_0), /*hidden argument*/NULL);
+		float L_8 = Rect_get_width_m2740((&V_0), /*hidden argument*/NULL);
 		V_2 = ((float)((float)L_7/(float)L_8));
-		Transform_t323 * L_9 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
-		Transform_t323 * L_10 = Component_get_transform_m2599(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_9 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
+		Transform_t323 * L_10 = Component_get_transform_m2739(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector3_t412  L_11 = Transform_get_localScale_m2607(L_10, /*hidden argument*/NULL);
+		Vector3_t414  L_11 = Transform_get_localScale_m2747(L_10, /*hidden argument*/NULL);
 		float L_12 = V_2;
-		Vector3_t412  L_13 = Vector3_op_Multiply_m2609(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		Vector3_t414  L_13 = Vector3_op_Multiply_m2749(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Transform_set_localScale_m2608(L_9, L_13, /*hidden argument*/NULL);
+		Transform_set_localScale_m2748(L_9, L_13, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -27596,7 +27596,7 @@ IL_0039:
 extern "C" void AbstractFacebook__ctor_m1481 (AbstractFacebook_t331 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2288(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2428(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -27605,8 +27605,8 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t219_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t329_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t330_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m2610_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2611_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2750_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2751_MethodInfo_var;
 extern "C" void AbstractFacebook_Awake_m1482 (AbstractFacebook_t331 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -27616,12 +27616,12 @@ extern "C" void AbstractFacebook_Awake_m1482 (AbstractFacebook_t331 * __this, co
 		DateTime_t219_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(203);
 		List_1_t329_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(288);
 		Dictionary_2_t330_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(289);
-		List_1__ctor_m2610_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
-		Dictionary_2__ctor_m2611_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
+		List_1__ctor_m2750_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
+		Dictionary_2__ctor_m2751_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_DontDestroyOnLoad_m2394(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m2534(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		__this->___isInitialized_4 = 0;
 		__this->___isLoggedIn_5 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -27633,11 +27633,11 @@ extern "C" void AbstractFacebook_Awake_m1482 (AbstractFacebook_t331 * __this, co
 		DateTime_t219  L_2 = ((DateTime_t219_StaticFields*)DateTime_t219_il2cpp_TypeInfo_var->static_fields)->___MinValue_13;
 		__this->___accessTokenExpiresAt_8 = L_2;
 		List_1_t329 * L_3 = (List_1_t329 *)il2cpp_codegen_object_new (List_1_t329_il2cpp_TypeInfo_var);
-		List_1__ctor_m2610(L_3, /*hidden argument*/List_1__ctor_m2610_MethodInfo_var);
+		List_1__ctor_m2750(L_3, /*hidden argument*/List_1__ctor_m2750_MethodInfo_var);
 		__this->___authDelegates_10 = L_3;
 		__this->___nextAsyncId_11 = 0;
 		Dictionary_2_t330 * L_4 = (Dictionary_2_t330 *)il2cpp_codegen_object_new (Dictionary_2_t330_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2611(L_4, /*hidden argument*/Dictionary_2__ctor_m2611_MethodInfo_var);
+		Dictionary_2__ctor_m2751(L_4, /*hidden argument*/Dictionary_2__ctor_m2751_MethodInfo_var);
 		__this->___facebookDelegates_12 = L_4;
 		VirtActionInvoker0::Invoke(4 /* System.Void Facebook.AbstractFacebook::OnAwake() */, __this);
 		return;
@@ -27717,18 +27717,18 @@ extern "C" void AbstractFacebook_GetAuthResponse_m1490 (AbstractFacebook_t331 * 
 	}
 }
 // System.Void Facebook.AbstractFacebook::AppRequest(System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void AbstractFacebook_AppRequest_m1491 (AbstractFacebook_t331 * __this, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t487 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t493  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method)
+extern "C" void AbstractFacebook_AppRequest_m1491 (AbstractFacebook_t331 * __this, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t511 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t517  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
 		StringU5BU5D_t45* L_1 = ___to;
-		List_1_t487 * L_2 = ___filters;
+		List_1_t511 * L_2 = ___filters;
 		StringU5BU5D_t45* L_3 = ___excludeIds;
-		Nullable_1_t493  L_4 = ___maxRecipients;
+		Nullable_1_t517  L_4 = ___maxRecipients;
 		String_t* L_5 = ___data;
 		String_t* L_6 = ___title;
 		FacebookDelegate_t350 * L_7 = ___callback;
-		VirtActionInvoker10< String_t*, OGActionType_t349 *, String_t*, StringU5BU5D_t45*, List_1_t487 *, StringU5BU5D_t45*, Nullable_1_t493 , String_t*, String_t*, FacebookDelegate_t350 * >::Invoke(15 /* System.Void Facebook.AbstractFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate) */, __this, L_0, (OGActionType_t349 *)NULL, (String_t*)NULL, L_1, L_2, L_3, L_4, L_5, L_6, L_7);
+		VirtActionInvoker10< String_t*, OGActionType_t349 *, String_t*, StringU5BU5D_t45*, List_1_t511 *, StringU5BU5D_t45*, Nullable_1_t517 , String_t*, String_t*, FacebookDelegate_t350 * >::Invoke(15 /* System.Void Facebook.AbstractFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate) */, __this, L_0, (OGActionType_t349 *)NULL, (String_t*)NULL, L_1, L_2, L_3, L_4, L_5, L_6, L_7);
 		return;
 	}
 }
@@ -27739,14 +27739,14 @@ extern "C" void AbstractFacebook_AppRequest_m1491 (AbstractFacebook_t331 * __thi
 // System.Void Facebook.AbstractFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
 // System.Void Facebook.AbstractFacebook::API(System.String,Facebook.HttpMethod,System.Collections.Generic.Dictionary`2<System.String,System.String>,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2323_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2463_MethodInfo_var;
 extern "C" void AbstractFacebook_API_m1492 (AbstractFacebook_t331 * __this, String_t* ___query, HttpMethod_t365 * ___method, Dictionary_2_t80 * ___formData, FacebookDelegate_t350 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t80_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(101);
-		Dictionary_2__ctor_m2323_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
+		Dictionary_2__ctor_m2463_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483678);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t80 * V_0 = {0};
@@ -27768,7 +27768,7 @@ extern "C" void AbstractFacebook_API_m1492 (AbstractFacebook_t331 * __this, Stri
 IL_0012:
 	{
 		Dictionary_2_t80 * L_3 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2323(L_3, /*hidden argument*/Dictionary_2__ctor_m2323_MethodInfo_var);
+		Dictionary_2__ctor_m2463(L_3, /*hidden argument*/Dictionary_2__ctor_m2463_MethodInfo_var);
 		G_B3_0 = L_3;
 	}
 
@@ -27786,7 +27786,7 @@ IL_0017:
 	{
 		String_t* L_6 = ___query;
 		NullCheck(L_6);
-		bool L_7 = String_Contains_m2370(L_6, (String_t*) &_stringLiteral599, /*hidden argument*/NULL);
+		bool L_7 = String_Contains_m2510(L_6, (String_t*) &_stringLiteral599, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0049;
@@ -27829,7 +27829,7 @@ extern "C" void AbstractFacebook_API_m1493 (AbstractFacebook_t331 * __this, Stri
 	}
 	{
 		WWWForm_t70 * L_1 = (WWWForm_t70 *)il2cpp_codegen_object_new (WWWForm_t70_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m2331(L_1, /*hidden argument*/NULL);
+		WWWForm__ctor_m2471(L_1, /*hidden argument*/NULL);
 		___formData = L_1;
 	}
 
@@ -27838,7 +27838,7 @@ IL_000d:
 		WWWForm_t70 * L_2 = ___formData;
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String Facebook.AbstractFacebook::get_AccessToken() */, __this);
 		NullCheck(L_2);
-		WWWForm_AddField_m2333(L_2, (String_t*) &_stringLiteral430, L_3, /*hidden argument*/NULL);
+		WWWForm_AddField_m2473(L_2, (String_t*) &_stringLiteral430, L_3, /*hidden argument*/NULL);
 		String_t* L_4 = ___query;
 		String_t* L_5 = AbstractFacebook_GetGraphUrl_m1499(__this, L_4, /*hidden argument*/NULL);
 		HttpMethod_t365 * L_6 = ___method;
@@ -27870,12 +27870,12 @@ extern TypeInfo* Boolean_t29_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t219_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t370_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t213_il2cpp_TypeInfo_var;
-extern TypeInfo* Enumerator_t560_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t583_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2343_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m2612_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2613_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2614_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2483_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2752_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2753_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2754_MethodInfo_var;
 extern "C" void AbstractFacebook_OnAuthResponse_m1495 (AbstractFacebook_t331 * __this, FBResult_t213 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -27886,18 +27886,18 @@ extern "C" void AbstractFacebook_OnAuthResponse_m1495 (AbstractFacebook_t331 * _
 		DateTime_t219_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(203);
 		Json_t370_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(97);
 		FBResult_t213_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
-		Enumerator_t560_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(290);
+		Enumerator_t583_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(290);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		Dictionary_2__ctor_m2343_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
-		List_1_GetEnumerator_m2612_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
-		Enumerator_get_Current_m2613_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
-		Enumerator_MoveNext_m2614_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483950);
+		Dictionary_2__ctor_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483684);
+		List_1_GetEnumerator_m2752_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
+		Enumerator_get_Current_m2753_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
+		Enumerator_MoveNext_m2754_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483950);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t244 * V_0 = {0};
 	FBResult_t213 * V_1 = {0};
 	FacebookDelegate_t350 * V_2 = {0};
-	Enumerator_t560  V_3 = {0};
+	Enumerator_t583  V_3 = {0};
 	Exception_t27 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t27 * __exception_local = 0;
@@ -27906,7 +27906,7 @@ extern "C" void AbstractFacebook_OnAuthResponse_m1495 (AbstractFacebook_t331 * _
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		Dictionary_2_t244 * L_0 = (Dictionary_2_t244 *)il2cpp_codegen_object_new (Dictionary_2_t244_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2343(L_0, /*hidden argument*/Dictionary_2__ctor_m2343_MethodInfo_var);
+		Dictionary_2__ctor_m2483(L_0, /*hidden argument*/Dictionary_2__ctor_m2483_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t244 * L_1 = V_0;
 		bool L_2 = AbstractFacebook_get_IsLoggedIn_m1484(__this, /*hidden argument*/NULL);
@@ -27939,7 +27939,7 @@ extern "C" void AbstractFacebook_OnAuthResponse_m1495 (AbstractFacebook_t331 * _
 		V_1 = L_17;
 		List_1_t329 * L_18 = (__this->___authDelegates_10);
 		NullCheck(L_18);
-		Enumerator_t560  L_19 = List_1_GetEnumerator_m2612(L_18, /*hidden argument*/List_1_GetEnumerator_m2612_MethodInfo_var);
+		Enumerator_t583  L_19 = List_1_GetEnumerator_m2752(L_18, /*hidden argument*/List_1_GetEnumerator_m2752_MethodInfo_var);
 		V_3 = L_19;
 	}
 
@@ -27952,7 +27952,7 @@ IL_0072:
 
 IL_0077:
 		{
-			FacebookDelegate_t350 * L_20 = Enumerator_get_Current_m2613((&V_3), /*hidden argument*/Enumerator_get_Current_m2613_MethodInfo_var);
+			FacebookDelegate_t350 * L_20 = Enumerator_get_Current_m2753((&V_3), /*hidden argument*/Enumerator_get_Current_m2753_MethodInfo_var);
 			V_2 = L_20;
 			FacebookDelegate_t350 * L_21 = V_2;
 			if (!L_21)
@@ -27971,7 +27971,7 @@ IL_0085:
 
 IL_008c:
 		{
-			bool L_24 = Enumerator_MoveNext_m2614((&V_3), /*hidden argument*/Enumerator_MoveNext_m2614_MethodInfo_var);
+			bool L_24 = Enumerator_MoveNext_m2754((&V_3), /*hidden argument*/Enumerator_MoveNext_m2754_MethodInfo_var);
 			if (L_24)
 			{
 				goto IL_0077;
@@ -27991,9 +27991,9 @@ IL_0098:
 
 FINALLY_009d:
 	{ // begin finally (depth: 1)
-		Enumerator_t560  L_25 = V_3;
-		Enumerator_t560  L_26 = L_25;
-		Object_t * L_27 = Box(Enumerator_t560_il2cpp_TypeInfo_var, &L_26);
+		Enumerator_t583  L_25 = V_3;
+		Enumerator_t583  L_26 = L_25;
+		Object_t * L_27 = Box(Enumerator_t583_il2cpp_TypeInfo_var, &L_26);
 		NullCheck(L_27);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t28_il2cpp_TypeInfo_var, L_27);
 		IL2CPP_END_FINALLY(157)
@@ -28075,12 +28075,12 @@ extern TypeInfo* Dictionary_2_t80_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t233_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t28_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2615_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m2481_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m2482_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m2483_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m2484_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m2485_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2755_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2621_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2622_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m2623_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2625_MethodInfo_var;
 extern "C" Dictionary_2_t80 * AbstractFacebook_CopyByValue_m1498 (AbstractFacebook_t331 * __this, Dictionary_2_t80 * ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -28090,12 +28090,12 @@ extern "C" Dictionary_2_t80 * AbstractFacebook_CopyByValue_m1498 (AbstractFacebo
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		Enumerator_t233_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
 		IDisposable_t28_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
-		Dictionary_2__ctor_m2615_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483951);
-		Dictionary_2_GetEnumerator_m2481_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483821);
-		Enumerator_get_Current_m2482_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483822);
-		KeyValuePair_2_get_Key_m2483_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
-		KeyValuePair_2_get_Value_m2484_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
-		Enumerator_MoveNext_m2485_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483825);
+		Dictionary_2__ctor_m2755_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483951);
+		Dictionary_2_GetEnumerator_m2621_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483821);
+		Enumerator_get_Current_m2622_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483822);
+		KeyValuePair_2_get_Key_m2623_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483823);
+		KeyValuePair_2_get_Value_m2624_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483824);
+		Enumerator_MoveNext_m2625_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483825);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t80 * V_0 = {0};
@@ -28112,11 +28112,11 @@ extern "C" Dictionary_2_t80 * AbstractFacebook_CopyByValue_m1498 (AbstractFacebo
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count() */, L_0);
 		Dictionary_2_t80 * L_2 = (Dictionary_2_t80 *)il2cpp_codegen_object_new (Dictionary_2_t80_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2615(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m2615_MethodInfo_var);
+		Dictionary_2__ctor_m2755(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m2755_MethodInfo_var);
 		V_0 = L_2;
 		Dictionary_2_t80 * L_3 = ___data;
 		NullCheck(L_3);
-		Enumerator_t233  L_4 = Dictionary_2_GetEnumerator_m2481(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m2481_MethodInfo_var);
+		Enumerator_t233  L_4 = Dictionary_2_GetEnumerator_m2621(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m2621_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -28129,20 +28129,20 @@ IL_0013:
 
 IL_0018:
 		{
-			KeyValuePair_2_t234  L_5 = Enumerator_get_Current_m2482((&V_2), /*hidden argument*/Enumerator_get_Current_m2482_MethodInfo_var);
+			KeyValuePair_2_t234  L_5 = Enumerator_get_Current_m2622((&V_2), /*hidden argument*/Enumerator_get_Current_m2622_MethodInfo_var);
 			V_1 = L_5;
 			Dictionary_2_t80 * L_6 = V_0;
-			String_t* L_7 = KeyValuePair_2_get_Key_m2483((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m2483_MethodInfo_var);
-			String_t* L_8 = KeyValuePair_2_get_Value_m2484((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2484_MethodInfo_var);
+			String_t* L_7 = KeyValuePair_2_get_Key_m2623((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m2623_MethodInfo_var);
+			String_t* L_8 = KeyValuePair_2_get_Value_m2624((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2624_MethodInfo_var);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_9 = String_Copy_m2616(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			String_t* L_9 = String_Copy_m2756(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 			NullCheck(L_6);
 			VirtActionInvoker2< String_t*, String_t* >::Invoke(22 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_6, L_7, L_9);
 		}
 
 IL_0039:
 		{
-			bool L_10 = Enumerator_MoveNext_m2485((&V_2), /*hidden argument*/Enumerator_MoveNext_m2485_MethodInfo_var);
+			bool L_10 = Enumerator_MoveNext_m2625((&V_2), /*hidden argument*/Enumerator_MoveNext_m2625_MethodInfo_var);
 			if (L_10)
 			{
 				goto IL_0018;
@@ -28194,7 +28194,7 @@ extern "C" String_t* AbstractFacebook_GetGraphUrl_m1499 (AbstractFacebook_t331 *
 	{
 		String_t* L_0 = ___query;
 		NullCheck(L_0);
-		bool L_1 = String_StartsWith_m2617(L_0, (String_t*) &_stringLiteral334, /*hidden argument*/NULL);
+		bool L_1 = String_StartsWith_m2757(L_0, (String_t*) &_stringLiteral334, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001d;
@@ -28247,7 +28247,7 @@ extern "C" bool AppEvents_get_LimitEventUsage_m1501 (Object_t * __this /* static
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		AbstractFacebook_t331 * L_0 = ((FB_t338_StaticFields*)FB_t338_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m2304(NULL /*static, unused*/, L_0, (Object_t504 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m2444(NULL /*static, unused*/, L_0, (Object_t528 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -28293,7 +28293,7 @@ extern "C" void AppEvents_set_LimitEventUsage_m1502 (Object_t * __this /* static
 }
 // System.Void FB/AppEvents::LogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
-extern "C" void AppEvents_LogEvent_m1503 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t494  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method)
+extern "C" void AppEvents_LogEvent_m1503 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t518  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -28305,10 +28305,10 @@ extern "C" void AppEvents_LogEvent_m1503 (Object_t * __this /* static, unused */
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t338_il2cpp_TypeInfo_var);
 		AbstractFacebook_t331 * L_0 = FB_get_FacebookImpl_m1513(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_1 = ___logEvent;
-		Nullable_1_t494  L_2 = ___valueToSum;
+		Nullable_1_t518  L_2 = ___valueToSum;
 		Dictionary_2_t244 * L_3 = ___parameters;
 		NullCheck(L_0);
-		VirtActionInvoker3< String_t*, Nullable_1_t494 , Dictionary_2_t244 * >::Invoke(25 /* System.Void Facebook.AbstractFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, L_0, L_1, L_2, L_3);
+		VirtActionInvoker3< String_t*, Nullable_1_t518 , Dictionary_2_t244 * >::Invoke(25 /* System.Void Facebook.AbstractFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, L_0, L_1, L_2, L_3);
 		return;
 	}
 }
@@ -28351,7 +28351,7 @@ extern "C" void Canvas__ctor_m1505 (Canvas_t333 * __this, const MethodInfo* meth
 }
 // System.Void FB/Canvas::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern TypeInfo* FB_t338_il2cpp_TypeInfo_var;
-extern "C" void Canvas_Pay_m1506 (Object_t * __this /* static, unused */, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t493  ___quantityMin, Nullable_1_t493  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t350 * ___callback, const MethodInfo* method)
+extern "C" void Canvas_Pay_m1506 (Object_t * __this /* static, unused */, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t517  ___quantityMin, Nullable_1_t517  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t350 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -28365,14 +28365,14 @@ extern "C" void Canvas_Pay_m1506 (Object_t * __this /* static, unused */, String
 		String_t* L_1 = ___product;
 		String_t* L_2 = ___action;
 		int32_t L_3 = ___quantity;
-		Nullable_1_t493  L_4 = ___quantityMin;
-		Nullable_1_t493  L_5 = ___quantityMax;
+		Nullable_1_t517  L_4 = ___quantityMin;
+		Nullable_1_t517  L_5 = ___quantityMax;
 		String_t* L_6 = ___requestId;
 		String_t* L_7 = ___pricepointId;
 		String_t* L_8 = ___testCurrency;
 		FacebookDelegate_t350 * L_9 = ___callback;
 		NullCheck(L_0);
-		VirtActionInvoker9< String_t*, String_t*, int32_t, Nullable_1_t493 , Nullable_1_t493 , String_t*, String_t*, String_t*, FacebookDelegate_t350 * >::Invoke(17 /* System.Void Facebook.AbstractFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate) */, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9);
+		VirtActionInvoker9< String_t*, String_t*, int32_t, Nullable_1_t517 , Nullable_1_t517 , String_t*, String_t*, String_t*, FacebookDelegate_t350 * >::Invoke(17 /* System.Void Facebook.AbstractFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate) */, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9);
 		return;
 	}
 }

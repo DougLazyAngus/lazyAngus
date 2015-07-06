@@ -3,14 +3,14 @@
 // TweetTemplate
 struct TweetTemplate_t255;
 // System.IAsyncResult
-struct IAsyncResult_t388;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t389;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<TweetTemplate>
-struct  Comparison_1_t3483  : public MulticastDelegate_t391
+struct  Comparison_1_t3505  : public MulticastDelegate_t388
 {
 };

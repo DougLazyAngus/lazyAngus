@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNameEntry
-struct  XmlNameEntry_t1989  : public Object_t
+struct  XmlNameEntry_t2011  : public Object_t
 {
 	// System.String System.Xml.XmlNameEntry::Prefix
 	String_t* ___Prefix_0;

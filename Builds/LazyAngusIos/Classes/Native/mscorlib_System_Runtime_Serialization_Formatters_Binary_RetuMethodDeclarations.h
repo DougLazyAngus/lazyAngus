@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.ReturnTypeTag
-struct ReturnTypeTag_t2520;
+struct ReturnTypeTag_t2542;
 

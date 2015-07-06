@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Color32
-struct ALIGN_TYPE(4) Color32_t548 
+struct ALIGN_TYPE(4) Color32_t572 
 {
 	// System.Byte UnityEngine.Color32::r
 	uint8_t ___r_0;
