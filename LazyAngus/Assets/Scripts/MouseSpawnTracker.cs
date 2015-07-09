@@ -50,8 +50,8 @@ public class MouseSpawnTracker : MonoBehaviour {
 	void UpdateLevelConfig() {
 		int gameLevel = GameController.instance.gameLevel;
 		if (gameLevel > 0) {
-			LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
-			miceThisLevel = ld.explicitMouseDesc.Count;
+			LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription (true);
+			miceThisLevel = ld.explicitMouseDescs.Count;
 		} else { 
 			miceThisLevel = 1;
 		}

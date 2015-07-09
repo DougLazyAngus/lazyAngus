@@ -59,7 +59,7 @@ public class TipController : MonoBehaviour {
 	}
 
 	void EnqueueTipForLevel () {
-		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
+		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription (false);
 		if (ld.tipConfig == null) {
 			return;
 		}

@@ -10,7 +10,7 @@
 using UnityEngine;
 using System.Collections;
 
-public struct ExplicitMouseDesc
+public class ExplicitMouseDesc
 {
 	// Type of mouse.
 	public MouseConfig.MouseType mouseType;
@@ -23,6 +23,32 @@ public struct ExplicitMouseDesc
 
 	// time until next mouse.
 	public float delayToNextMouse;
+
+	// Wiggle type
+	public MouseConfig.MouseWiggleType wiggleType;
+	public float wiggleMagnitude;
+	public float wiggleCycleTime;
+
+	public ExplicitMouseDesc() {
+		wiggleType = MouseConfig.MouseWiggleType.NUM_TYPES;
+		wiggleMagnitude = 0f;
+		wiggleCycleTime = 1f;
+	}
+
+	public void AddWiggle(MouseConfig.MouseWiggleType wt) {
+		if (wt == wiggleType) {
+			return;
+		}
+
+		wiggleType = wt;
+		MouseWiggleConfig mwc = MouseConfig.instance.GetWiggleConfig (wt);
+		wiggleMagnitude = Random.Range (mwc.minMagnitude, 
+		                                mwc.maxMagnitude);
+		wiggleCycleTime = Random.Range (mwc.minCycleTime, 
+		                                mwc.maxCycleTime);
+	}
 }
+
+
 
 

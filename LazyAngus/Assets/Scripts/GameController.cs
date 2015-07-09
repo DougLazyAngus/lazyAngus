@@ -147,12 +147,10 @@ public class GameController : MonoBehaviour {
 
 	void MaybeIncrementMouseHoleCapacity() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
-		if (ld.growMouseHoles != 0) {
-			for (int i = 0; i < (int)MouseHole.MouseHoleLocation.NUM_TYPES; i++) {
-				int mask = (1 << i);
-				if ((mask & ld.growMouseHoles) != 0) {
-					mouseHoles [i].SetCapacity (mouseHoles [i].GetCapacity () + 1);
-				}
+		TypeAccumulator ta = ld.mouseHolesAccumulator;
+		for (int i = 0; i < ta.newTypes.Length; i++) {
+			if (ta.newTypes[i] != 0) {
+				mouseHoles [i].SetCapacity (mouseHoles [i].GetCapacity () + 1);
 			}
 		}
 	}
@@ -162,7 +160,7 @@ public class GameController : MonoBehaviour {
 
 		// A few by hand, then just programmatic.
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
-		mouseSpawnFromData.AddMice (ld.explicitMouseDesc);
+		mouseSpawnFromData.AddMice (ld.explicitMouseDescs);
 
 		/*
 		int[] miceByType = lc.GetMiceByTypeForLevel (gameLevel);

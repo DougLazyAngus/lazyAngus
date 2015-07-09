@@ -96,6 +96,12 @@ public class MouseSpawnFromData : MonoBehaviour {
 		                     emd.isClockwise,
 		                     emd.track);
 
+		if (emd.wiggleType != MouseConfig.MouseWiggleType.NUM_TYPES) {
+			mouseMove.AddWiggle (emd.wiggleType, 
+			                    emd.wiggleMagnitude, 
+			                    emd.wiggleCycleTime);
+		}
+
 		miceSpawned += 1;
 		if (MouseSpawn != null) {
 			MouseSpawn ();
