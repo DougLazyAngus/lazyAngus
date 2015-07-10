@@ -4,44 +4,48 @@ using System.Collections;
 public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
-	public float fastPawsSwipeSpeedMultiplier = 3.0f;
+	public const float fastPawsSwipeSpeedMultiplier = 3.0f;
 
-	public float goodEyesAngleMultiplier = 1.3333f;
+	public const float goodEyesAngleMultiplier = 1.3333f;
 
-	public float bigPawsMultiplier = 2.0f;
+	public const float bigPawsMultiplier = 2.0f;
 
-	public float fartSlothMultiplier = 0.3f;
+	public const float fartSlothMultiplier = 0.3f;
 
 
 	// Player swipe params.
-	public float baseSwipeSpeed = 7.0f;	
-	public float swipeInitialPause = 0.3f;
-	public float swipeExtendedPause = 0.1f;
-	public float swipeRadius = 5.0f;
+	public const float baseSwipeSpeed = 7.0f;	
+	public const float swipeInitialPause = 0.1f;
+	public const float swipeExtendedPause = 0.1f;
+	public const float swipeRadius = 5.0f;
 
 	// Player view params.
-	public float baseSwipeAngleRange = 90.0f;
+	public const float baseSwipeAngleRange = 90.0f;
 
 	// Player Turn params
-	public float turnVelocityDegrees = 180f;
+	public const float turnVelocityDegrees = 180f;
 	
 	// Mouse track params.
-	public int numTracks = 3;
+	public const int numTracks = 3;
 
 	// Mouse hole params.
-	public int initialMicePerHole = 2;
+	public const int initialMicePerHole = 2;
 
 	// Initial money and boosts.
-	public int initialMoney = 1;
-	public int initialBoosts = 0;
+	public const int initialMoney = 1;
+	public const int initialBoosts = 0;
 
-	public int debugInitialMoney = 100;
-	public int debugInitialBoosts = 5;
-	public int debugInitialMicePerHole = 6;
-	
-	public static TweakableParams instance { get; private set; }
+	public const int debugInitialMoney = 100;
+	public const int debugInitialBoosts = 5;
+	public const int debugInitialMicePerHole = 6;
 
-	public int GetInitialMoney() {
+	public const float fastPawsBoostTime = 7.0f;
+	public const float goodEyesBoostTime = 7.0f;
+	public const float bigPawsBoostTime = 7.0f;
+	public const float fartBoostTime = 7.0f;
+	public const float poisonPawsBoostTime = 3.0f;
+
+	public static int GetInitialMoney() {
 		if (DebugConfig.instance.isDebug) {
 			return debugInitialMoney;
 		} else {
@@ -49,7 +53,8 @@ public class TweakableParams : MonoBehaviour {
 		}
 	}
 	
-	public int GetInitialBoosts() {
+	public static int GetInitialBoosts ()
+	{
 		if (DebugConfig.instance.isDebug) {
 			return debugInitialBoosts;
 		} else {
@@ -57,15 +62,12 @@ public class TweakableParams : MonoBehaviour {
 		}
 	}
 	
-	public int GetInitialMicePerHole() {
+	public static int GetInitialMicePerHole ()
+	{
 		if (DebugConfig.instance.isDebug) {
 			return debugInitialMicePerHole;
 		} else {
 			return initialMicePerHole;
 		}
-	}
-
-	void Awake() {
-		instance = this;
 	}
 }

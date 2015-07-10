@@ -25,27 +25,38 @@ public class ExplicitMouseDesc
 	public float delayToNextMouse;
 
 	// Wiggle type
-	public MouseConfig.MouseWiggleType wiggleType;
-	public float wiggleMagnitude;
-	public float wiggleCycleTime;
+	public MouseConfig.MouseWiggleType wiggleType { get; private set; }
+	public float wiggleMagnitude { get; private set; }
+	public int wiggleCycles { get; private set; }
+	public bool wiggleClockwise { get; private set; }
 
-	public ExplicitMouseDesc() {
-		wiggleType = MouseConfig.MouseWiggleType.NUM_TYPES;
-		wiggleMagnitude = 0f;
-		wiggleCycleTime = 1f;
+	public ExplicitMouseDesc(float pause,
+	                         bool isClockwise, 
+	                         MouseHole.MouseHoleLocation location, 
+	                         MouseConfig.MouseType mType, 
+	                         int track,
+	                         MouseConfig.MouseWiggleType wType = MouseConfig.MouseWiggleType.NONE)
+	{
+		this.delayToNextMouse = pause;
+		this.isClockwise = isClockwise;
+		this.mouseHoleLocation = location;
+		this.mouseType = mType;
+		this.track = track;
+		this.AddWiggle (wType);
 	}
 
 	public void AddWiggle(MouseConfig.MouseWiggleType wt) {
-		if (wt == wiggleType) {
-			return;
-		}
-
 		wiggleType = wt;
-		MouseWiggleConfig mwc = MouseConfig.instance.GetWiggleConfig (wt);
-		wiggleMagnitude = Random.Range (mwc.minMagnitude, 
-		                                mwc.maxMagnitude);
-		wiggleCycleTime = Random.Range (mwc.minCycleTime, 
-		                                mwc.maxCycleTime);
+
+		MouseWiggleDesc mwc = MouseConfig.instance.GetWiggleDesc (wt);
+		if (mwc != null) {
+			wiggleMagnitude = Random.Range (mwc.minMagnitude, 
+			                                mwc.maxMagnitude);
+			wiggleCycles = Random.Range (mwc.minCycles, 
+			                                mwc.maxCycles);
+			
+			wiggleClockwise = (Random.Range (0, 2) != 0);
+		}
 	}
 }
 

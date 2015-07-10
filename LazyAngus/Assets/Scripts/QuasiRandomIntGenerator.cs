@@ -14,15 +14,20 @@ using System.Linq;
 
 public class QuasiRandomGenerator<T>
 {
-	T [] distribution;
+	T[] distribution;
 	List<T> values;
 	public int refreshTrigger = 0;
 
-	public QuasiRandomGenerator (T[] distribution) {
+	public QuasiRandomGenerator (List<T> distribution) {
+		this.distribution = distribution.ToArray ();
+		values = new List<T> ();
+	}
+	
+	public QuasiRandomGenerator (T [] distribution) {
 		this.distribution = distribution;
 		values = new List<T> ();
 	}
-
+	
 	public List<T> RandomizeDistrubiton() {
 		List<T> retVal = new List<T> ();
 		for (int i = 0; i < distribution.Length; i++) {

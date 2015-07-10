@@ -13,6 +13,12 @@ public class TipConfig {
 		this.tipText = tipText;
 		this.tipPosition = tipPosition;
 	}
+	public TipConfig(string tipID, 
+	                 string tipText) {
+		this.tipID = tipID;
+		this.tipText = tipText;
+		this.tipPosition = new Vector2 (0f, 0f);
+	}
 }
 
 public class TipController : MonoBehaviour {
@@ -51,7 +57,7 @@ public class TipController : MonoBehaviour {
 	}		
 
 	void OnPhaseChanged() {
-		if (GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (GameController.instance.IsPlaying()) {
 			EnqueueTipForLevel ();
 		} else {
 			ClearEnqueuedTips ();
@@ -59,7 +65,7 @@ public class TipController : MonoBehaviour {
 	}
 
 	void EnqueueTipForLevel () {
-		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription (false);
+		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 		if (ld.tipConfig == null) {
 			return;
 		}

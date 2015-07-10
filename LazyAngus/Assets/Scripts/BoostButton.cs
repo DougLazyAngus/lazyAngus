@@ -97,7 +97,7 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(false);
 		countText.gameObject.SetActive(false);
 
-		int levelLock = BoostConfig.instance.GetLevelLock (boostType);
+		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 		int gameLevel = GameController.instance.gameLevel;
 		
 		if (gameLevel < levelLock) {
@@ -109,7 +109,7 @@ public class BoostButton : MonoBehaviour {
 			restrictionText.text = "$ " + priceInTreats;
 			button.interactable = (PlayerStats.instance.CanAfford (priceInTreats) && 
 			                       !BoostConfig.instance.IsBoostActive () && 
-			                       GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+			                       GameController.instance.IsPlaying());
 		}
 
 		if (!button.interactable) {
@@ -124,7 +124,7 @@ public class BoostButton : MonoBehaviour {
 		buttonText.gameObject.SetActive(true);
 		countText.gameObject.SetActive(true);
 
-		int levelLock = BoostConfig.instance.GetLevelLock (boostType);
+		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 		int gameLevel = GameController.instance.gameLevel;
 
 		if (gameLevel < levelLock) {
@@ -150,7 +150,7 @@ public class BoostButton : MonoBehaviour {
 			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 
 			button.interactable = (!BoostConfig.instance.IsBoostActive() && 
-			                       GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+			                       GameController.instance.IsPlaying());
 		} else {
 			button.gameObject.SetActive (false);
 			countText.gameObject.SetActive (false);
@@ -172,8 +172,8 @@ public class BoostButton : MonoBehaviour {
 	}
 
 	void CheckForLevelUnlockEffects() {
-		if (GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY && 
-		    GameController.instance.gameLevel == BoostConfig.instance.GetLevelLock (boostType)) {
+		if (GameController.instance.IsPlaying () && 
+		    GameController.instance.gameLevel == LevelConfig.instance.GetLevelLock (boostType)) {
 			// Wait, then wiggle.
 			StartCoroutine(TriggerDistortionEffect ());
 		}

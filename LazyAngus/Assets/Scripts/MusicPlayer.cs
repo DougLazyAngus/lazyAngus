@@ -57,8 +57,8 @@ public class MusicPlayer : MonoBehaviour {
 
 		if (!SoundController.instance.musicMuted) {
 			switch (GameController.instance.gamePhase) {
-			case GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY:
-			case GameController.GamePhaseType.GAME_PHASE_PENDING:
+			case GameController.GamePhaseType.LEVEL_PLAY:
+			case GameController.GamePhaseType.PENDING:
 				desiredMusic = gameMusic;
 				break;
 			default:

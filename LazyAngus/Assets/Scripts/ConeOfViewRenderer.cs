@@ -7,7 +7,6 @@ public class ConeOfViewRenderer : MonoBehaviour {
 
 	public int numTriangles = 20;
 
-	TweakableParams tweakableParams;
 	BoostConfig boostConfig;
 
 	public float actualAngleRange { get; private set;}
@@ -20,7 +19,6 @@ public class ConeOfViewRenderer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		tweakableParams = TweakableParams.instance;
 		boostConfig = BoostConfig.instance;
 
 		viewMesh = new Mesh ();
@@ -29,7 +27,7 @@ public class ConeOfViewRenderer : MonoBehaviour {
 		MeshRenderer renderer = gameObject.GetComponent<MeshRenderer> ();
 		renderer.material = viewMaterial;
 
-		CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange);
+		CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange);
 		RegisterForEvents ();
 	}
 	
@@ -52,10 +50,10 @@ public class ConeOfViewRenderer : MonoBehaviour {
 	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
 	                         BoostConfig.BoostType oldType) {
 		if (newType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
-			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange * 
-			                             tweakableParams.goodEyesAngleMultiplier);
+			CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange * 
+			                             TweakableParams.goodEyesAngleMultiplier);
 		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
-			CreateViewMeshForAngleRange (tweakableParams.baseSwipeAngleRange);
+			CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange);
 		}
 	}
 
@@ -73,8 +71,8 @@ public class ConeOfViewRenderer : MonoBehaviour {
 		float angle;
 		for (int i = 0; i < numTriangles + 1; i++) {
 			angle = -angleRange / 2 + i * angleIncrementDeg;
-			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
-			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * tweakableParams.swipeRadius;
+			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * TweakableParams.swipeRadius;
+			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * TweakableParams.swipeRadius;
 			vertices [i + 1].z = 0f;
 		}
 

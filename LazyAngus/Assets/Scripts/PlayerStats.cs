@@ -73,14 +73,14 @@ public class PlayerStats : MonoBehaviour {
 
 	public void Reset() {
 		gameScore = 0;
-		treatCount = TweakableParams.instance.GetInitialMoney();
+		treatCount = TweakableParams.GetInitialMoney();
 		
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		
 		for (int i = 0; i < (int)BoostConfig.BoostType.NUM_TYPES; i++) {
 			purchasedBoostCount[i] = 0;
-			availableBoostCount [i] = TweakableParams.instance.GetInitialBoosts();
+			availableBoostCount [i] = TweakableParams.GetInitialBoosts();
 		}
 
 		if (TreatsChanged != null) {

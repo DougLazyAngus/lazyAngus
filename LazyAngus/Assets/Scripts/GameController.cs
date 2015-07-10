@@ -9,12 +9,12 @@ using System.Linq;
 public class GameController : MonoBehaviour {
 	
 	public enum GamePhaseType {
-		GAME_PHASE_NULL = 0,
-		GAME_PHASE_WELCOME,
-		GAME_PHASE_LEVEL_PLAY,
-		GAME_PHASE_LEVEL_END,
-		GAME_PHASE_GAME_OVER,
-		GAME_PHASE_PENDING,
+		NULL = 0,
+		WELCOME,
+		LEVEL_PLAY,
+		LEVEL_END,
+		GAME_OVER,
+		PENDING,
 	};
 
 	public enum GameUIsType {
@@ -90,14 +90,18 @@ public class GameController : MonoBehaviour {
 		RestartGame();
 	}
 
+	public bool IsPlaying() {
+		return (gamePhase == GamePhaseType.LEVEL_PLAY);
+	}
+
 	public void RestartGame() {
-		gamePhase = GamePhaseType.GAME_PHASE_NULL;
+		gamePhase = GamePhaseType.NULL;
 		SetGameLevel (1);
 		
 		if (CrossSceneState.instance.didWelcome) {
-			TransitionToPhase (GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+			TransitionToPhase (GamePhaseType.LEVEL_PLAY);
 		} else {
-			TransitionToPhase (GamePhaseType.GAME_PHASE_WELCOME);
+			TransitionToPhase (GamePhaseType.WELCOME);
 		}
 
 		if (GameInstanceChanged != null) {
@@ -115,31 +119,31 @@ public class GameController : MonoBehaviour {
 	IEnumerator SetupPendingPhase() {
 		pendingPhaseTimeout = Time.time + pendingPause;
 		yield return new WaitForSeconds(pendingPause);
-		if (gamePhase == GamePhaseType.GAME_PHASE_PENDING) {
+		if (gamePhase == GamePhaseType.PENDING) {
 			shouldCheckForPhaseTransition = true;
 		}
 	}
 	
 	void CheckForPhaseTransition() {
-		if (gamePhase == GamePhaseType.GAME_PHASE_PENDING) {
+		if (gamePhase == GamePhaseType.PENDING) {
 			if (pendingPhaseTimeout <= Time.time) {
 				TransitionToPhase (pendingPhase);
 			}
-		} else if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		} else if (gamePhase == GamePhaseType.LEVEL_PLAY) {
 			MouseHole doomedMouseHole = this.FindDoomedMouseHole ();
 
 			if (doomedMouseHole != null) {
 				doomedMouseHole.DoDoomedBoxFX();
 
-				pendingPhase = GamePhaseType.GAME_PHASE_GAME_OVER;
-				TransitionToPhase (GamePhaseType.GAME_PHASE_PENDING);
+				pendingPhase = GamePhaseType.GAME_OVER;
+				TransitionToPhase (GamePhaseType.PENDING);
 				return;
 			}
 
 			if (mouseSpawnFromData.FinishedWithCurrentSet () && 
 				MouseMove.activeMouseCount == 0) {
-				pendingPhase = GamePhaseType.GAME_PHASE_LEVEL_END;
-				TransitionToPhase (GamePhaseType.GAME_PHASE_PENDING);
+				pendingPhase = GamePhaseType.LEVEL_END;
+				TransitionToPhase (GamePhaseType.PENDING);
 			}
 		}
 		shouldCheckForPhaseTransition = false;
@@ -147,11 +151,9 @@ public class GameController : MonoBehaviour {
 
 	void MaybeIncrementMouseHoleCapacity() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (gameLevel);
-		TypeAccumulator ta = ld.mouseHolesAccumulator;
-		for (int i = 0; i < ta.newTypes.Length; i++) {
-			if (ta.newTypes[i] != 0) {
-				mouseHoles [i].SetCapacity (mouseHoles [i].GetCapacity () + 1);
-			}
+		EnumAccumulator<MouseHole.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
+		for (int i = 0; i < ta.derivedCount.Length; i++) {
+			mouseHoles [i].SetCapacity (ta.derivedCount[i]);
 		}
 	}
 
@@ -177,18 +179,18 @@ public class GameController : MonoBehaviour {
 	bool IsLegalTransition(GamePhaseType oldPhase, 
 	                       GamePhaseType newPhase) {
 		switch (oldPhase) {
-		case GamePhaseType.GAME_PHASE_NULL:
-			return (newPhase == GamePhaseType.GAME_PHASE_WELCOME || 
-			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
-		case GamePhaseType.GAME_PHASE_WELCOME:
-			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
-		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
-			return (newPhase == GamePhaseType.GAME_PHASE_PENDING);
-		case GamePhaseType.GAME_PHASE_PENDING:
-			return (newPhase == GamePhaseType.GAME_PHASE_GAME_OVER || 
-			        newPhase == GamePhaseType.GAME_PHASE_LEVEL_END);
-		case GamePhaseType.GAME_PHASE_LEVEL_END:
-			return (newPhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY);
+		case GamePhaseType.NULL:
+			return (newPhase == GamePhaseType.WELCOME || 
+			        newPhase == GamePhaseType.LEVEL_PLAY);
+		case GamePhaseType.WELCOME:
+			return (newPhase == GamePhaseType.LEVEL_PLAY);
+		case GamePhaseType.LEVEL_PLAY:
+			return (newPhase == GamePhaseType.PENDING);
+		case GamePhaseType.PENDING:
+			return (newPhase == GamePhaseType.GAME_OVER || 
+			        newPhase == GamePhaseType.LEVEL_END);
+		case GamePhaseType.LEVEL_END:
+			return (newPhase == GamePhaseType.LEVEL_PLAY);
 		}
 		return false;
 	}
@@ -217,7 +219,7 @@ public class GameController : MonoBehaviour {
 		}
 		
 		switch (gamePhase) {
-		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+		case GamePhaseType.LEVEL_PLAY:
 			// Leaving play.  Kill active boosts.
 			boostConfig.CancelBoosts ();
 			break;
@@ -226,7 +228,7 @@ public class GameController : MonoBehaviour {
 		gamePhase = newPhase;
 		
 		switch (gamePhase) {
-		case GamePhaseType.GAME_PHASE_WELCOME: {
+		case GamePhaseType.WELCOME: {
 			if (DebugConfig.instance.isDebug) {
 				SetActiveUI(GameUIsType.LEVEL_END);
 			} else {
@@ -237,25 +239,25 @@ public class GameController : MonoBehaviour {
 			css.didWelcome = true;
 			break;
 		}
-		case GamePhaseType.GAME_PHASE_LEVEL_PLAY:
+		case GamePhaseType.LEVEL_PLAY:
 			SetActiveUI(GameUIsType.LEVEL_PLAY);
 
 			EnqueueMiceForLevel ();
 			MaybeIncrementMouseHoleCapacity();
 			break;
-		case GamePhaseType.GAME_PHASE_PENDING:
+		case GamePhaseType.PENDING:
 			SetActiveUI(GameUIsType.LEVEL_PLAY);
 
 			StartCoroutine(SetupPendingPhase());
 			break;
-		case GamePhaseType.GAME_PHASE_LEVEL_END: {
+		case GamePhaseType.LEVEL_END: {
 			SetGameLevel (gameLevel + 1);
 
 			SetActiveUI(GameUIsType.LEVEL_END);
 
 			break;
 		}
-		case GamePhaseType.GAME_PHASE_GAME_OVER:
+		case GamePhaseType.GAME_OVER:
 			SetActiveUI(GameUIsType.GAME_END);
 			break;
 		}		
@@ -273,19 +275,19 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void OnMousePoisoned(MouseMove mouse) {
-		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (gamePhase == GamePhaseType.LEVEL_PLAY) {
 			shouldCheckForPhaseTransition = true;
 		}
 	}
 
     public void OnMouseExit(MouseMove mouse) {
-		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (gamePhase == GamePhaseType.LEVEL_PLAY) {
 			shouldCheckForPhaseTransition = true;
 		}
 	}	
 
 	public void OnMouseKilled(MouseMove mouse) {
-		if (gamePhase == GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (gamePhase == GamePhaseType.LEVEL_PLAY) {
 			playerStats.IncrementScore (1);
 			shouldCheckForPhaseTransition = true;
 		}

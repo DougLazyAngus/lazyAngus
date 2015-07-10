@@ -6,17 +6,14 @@ public class BoostConfig : MonoBehaviour {
 		BOOST_TYPE_FAST_PAWS = 0,
 		BOOST_TYPE_GOOD_EYES,
 		BOOST_TYPE_BIG_PAWS,
-		BOOST_TYPE_POISON_PAWS,
 		BOOST_TYPE_FART,
+		BOOST_TYPE_POISON_PAWS,
 
 		NUM_TYPES,
 	};
 
 	private BoostDesc[] boostDescs;
 
-	private PlayerStats playerStats;
-	private GameController gameController;
-	
 	public delegate void BoostActiveEventHandler(BoostConfig.BoostType newBoostType, 
 	                                             BoostConfig.BoostType oldBoostType);
 	public event BoostActiveEventHandler BoostActive;
@@ -38,7 +35,7 @@ public class BoostConfig : MonoBehaviour {
 
 		LoadBoostDescs ();
 	}
-
+	
 	void LoadBoostDescs() {
 		boostDescs = new BoostDesc[(int)BoostType.NUM_TYPES];
 
@@ -46,46 +43,44 @@ public class BoostConfig : MonoBehaviour {
 			"Fast Paws", 
 			"energy_can", 
 			"energy_can", 
-			7.0f, 
-			2);
+			TweakableParams.fastPawsBoostTime,
+			new TipConfig ("boost.fast_paws", 
+		    		"Nom nom nom... Hmm, I'm feeling pretty spry!!!"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_GOOD_EYES] = new BoostDesc (
 			"Super Sight", 
 			"glasses_can", 
 			"glasses_can", 
-			7.0f, 
-			5);
+			TweakableParams.goodEyesBoostTime,
+			new TipConfig ("boost.good_eyes", 
+		              "Better eyesight means less turning!!!"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_BIG_PAWS] = new BoostDesc (
 			"Big Paws", 
 			"big_paws_can", 
 			"big_paws_can", 
-			7.0f, 
-			8);
+			TweakableParams.bigPawsBoostTime,
+			new TipConfig ("boost.big_paws", 
+		              "No mouse shall escape my mighty paws!"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_POISON_PAWS] = new BoostDesc (
 			"Poison Paws", 
 			"poison_paw_can", 
 			"poison_paw_can", 
-			7.0f, 
-			11);
+			TweakableParams.poisonPawsBoostTime,
+			new TipConfig ("boost.poison_paws", 
+		              "Once I poison a mouse I should let it go: it will clean out a whole mouse hole!"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_FART] = new BoostDesc (
 			"Farts", 
 			"fart_can", 
 			"fart_can", 
-			7.0f, 
-			14);
+			TweakableParams.fartBoostTime,
+			new TipConfig ("boost.fart", 
+		              "I have a problem..."));
 	}
-
-
-	// Use this for initialization
-	void Start () {
-		playerStats = PlayerStats.instance;
-		gameController = GameController.instance;
-	}
-
 	
+
 	public Sprite GetButtonImageForType(BoostType bType) {
 		int index = (int)bType;
 		return boostDescs [index].buttonSprite;
@@ -104,16 +99,11 @@ public class BoostConfig : MonoBehaviour {
 
 	public int GetCurrentPriceForBoost(BoostType bType) {
 		// Triangle numbers vs number bought.
-		int numBought = playerStats.GetPurchasedBoostCount (bType);
+		int numBought = PlayerStats.instance.GetPurchasedBoostCount (bType);
 		return (numBought + 1) * (numBought + 2)/2;
 	}
 
 	
-	public int GetLevelLock(BoostType bType) {
-		int index = (int)bType;
-		return boostDescs [index].levelLock;
-	}
-
 	public float GetBoostTime(BoostType bType) {
 		int index = (int)bType;
 		return boostDescs [index].effectiveTime;
@@ -139,7 +129,7 @@ public class BoostConfig : MonoBehaviour {
 		}
 
 		// If we're not in play mode, no dice.
-		if (gameController.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (!GameController.instance.IsPlaying ()) {
 			return;
 		}
 
@@ -162,6 +152,9 @@ public class BoostConfig : MonoBehaviour {
 		}
 
 		activePause = WaitThenCleanup (pauseTime);
+		BoostDesc bd = boostDescs[(int)bType];
+
+		TipController.instance.MaybeShowTip(bd.tipConfig);
 
 		StartCoroutine(activePause);
 	}

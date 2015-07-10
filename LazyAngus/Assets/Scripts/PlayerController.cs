@@ -32,7 +32,6 @@ public class PlayerController : MonoBehaviour {
 
 	public static PlayerController instance { get; private set; }
 
-	TweakableParams tweakableParams;
 	bool registeredForEvents;
 	
 	public TipConfig turningTip;
@@ -46,14 +45,12 @@ public class PlayerController : MonoBehaviour {
 		instance = this;
 
 		turningTip = new TipConfig("turning", 
-		                           "Drag my body to turn me faster!", 
-		                           new Vector2(0f, 0f));
+		                           "Drag my body to turn me faster!");
 	}
 
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();
-		tweakableParams = TweakableParams.instance;
 		Reset ();
 	}
 
@@ -115,13 +112,13 @@ public class PlayerController : MonoBehaviour {
 
 	void UpdateTurn() {
 		if (currentTurnAngleDegrees < targetTurnAngleDegrees) {
-			currentTurnAngleDegrees += TweakableParams.instance.turnVelocityDegrees * Time.deltaTime;
+			currentTurnAngleDegrees += TweakableParams.turnVelocityDegrees * Time.deltaTime;
 			if (currentTurnAngleDegrees > targetTurnAngleDegrees) {
 				currentTurnAngleDegrees = targetTurnAngleDegrees;
 				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 			}
 		} else {
-			currentTurnAngleDegrees -= TweakableParams.instance.turnVelocityDegrees * Time.deltaTime;
+			currentTurnAngleDegrees -= TweakableParams.turnVelocityDegrees * Time.deltaTime;
 			if (currentTurnAngleDegrees < targetTurnAngleDegrees) {
 				currentTurnAngleDegrees = targetTurnAngleDegrees;
 				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
@@ -164,7 +161,7 @@ public class PlayerController : MonoBehaviour {
 		Vector3 swipeLocationCat = transform.InverseTransformPoint (worldPoint2d);
 
 		// If outside of reach radius, ignore altogether.
-		if (swipeLocationCat.magnitude > tweakableParams.swipeRadius) {
+		if (swipeLocationCat.magnitude > TweakableParams.swipeRadius) {
 			return;
 		}
 

@@ -50,16 +50,16 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 
 	void OnPhaseChanged() {
-		if (GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
-			Clear ();
-		} else { 
+		if (GameController.instance.IsPlaying ()) {
 			nextSpawnTime = Time.time + initialSpawnDelta;
+		} else { 
+			Clear ();
 		}
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (GameController.instance.gamePhase == GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY) {
+		if (GameController.instance.IsPlaying ()) {
 			float timeNow = Time.time;
 			MaybeProduceNextMouse (timeNow);
 		}
@@ -96,10 +96,11 @@ public class MouseSpawnFromData : MonoBehaviour {
 		                     emd.isClockwise,
 		                     emd.track);
 
-		if (emd.wiggleType != MouseConfig.MouseWiggleType.NUM_TYPES) {
+		if (emd.wiggleType != MouseConfig.MouseWiggleType.NONE) {
 			mouseMove.AddWiggle (emd.wiggleType, 
-			                    emd.wiggleMagnitude, 
-			                    emd.wiggleCycleTime);
+			                     emd.wiggleMagnitude, 
+			                     emd.wiggleCycles,
+			                     emd.wiggleClockwise);
 		}
 
 		miceSpawned += 1;

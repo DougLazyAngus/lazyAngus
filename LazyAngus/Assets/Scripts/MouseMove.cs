@@ -5,11 +5,14 @@ using UnityEngine.UI;
 public class MouseMove : MonoBehaviour
 {
 	private float mouseAngleDeg;
+
 	private float startAngleDeg;
 	private float endAngleDeg;
 	private float mouseRadius;
 	private float circlingRadius;
+
 	private MouseConfig.MovementPhaseType phase;
+	private float phaseStartTime;
 
 	public MouseConfig.MouseType mouseType { get; private set; }
 
@@ -31,11 +34,12 @@ public class MouseMove : MonoBehaviour
 	public bool isFartedUpon { get; private set; }
 
 	private MouseConfig.MouseWiggleType wiggleType = 
-		MouseConfig.MouseWiggleType.NUM_TYPES;
-	private bool wiggleClockwise = false;
+		MouseConfig.MouseWiggleType.NONE;
 
 	private float wiggleMagnitude = 0;
-	private float wiggleCycleTime = 1f;
+	private float wiggleCycles = 1;
+	private bool wiggleClockwise = false;
+
 	bool registeredForEvents;
 
 	void Awake ()
@@ -48,7 +52,9 @@ public class MouseMove : MonoBehaviour
 	{
 		RegisterForEvents ();
 		mouseAngleDeg = startAngleDeg;
-		phase = MouseConfig.MovementPhaseType.ENTERING_PHASE;
+
+		SetPhase (MouseConfig.MovementPhaseType.ENTERING);
+
 		mouseRadius = MouseConfig.instance.startMouseRadius; 
 		activeMouseCount += 1;
 		actualSpeedM = baseSpeedM;
@@ -87,15 +93,15 @@ public class MouseMove : MonoBehaviour
 
 	void OnGamePhaseChanged ()
 	{
-		if (GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_LEVEL_PLAY && 
-			GameController.instance.gamePhase != GameController.GamePhaseType.GAME_PHASE_PENDING) {
+		if (GameController.instance.gamePhase != GameController.GamePhaseType.LEVEL_PLAY && 
+			GameController.instance.gamePhase != GameController.GamePhaseType.PENDING) {
 			Object.Destroy (gameObject);
 		}
 	}
 
 	public void OnFartedUpon ()
 	{
-		actualSpeedM = baseSpeedM * TweakableParams.instance.fartSlothMultiplier;
+		actualSpeedM = baseSpeedM * TweakableParams.fartSlothMultiplier;
 		spriteRenderer.color = MouseConfig.instance.fartedUponColor;
 	}
 
@@ -123,22 +129,36 @@ public class MouseMove : MonoBehaviour
 		float y = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngleDeg);
 		float x = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngleDeg);
 
-		float finalAngleDeg = mouseAngleDeg;
-		float adjustmentDeg = 0.0f;
+		float orientationAngleDeg = mouseAngleDeg;
 
+		float adjustmentDeg = 0.0f;
+		float runningAdjustment;
 
 		switch (phase) {
-		case MouseConfig.MovementPhaseType.ENTERING_PHASE:
+		case MouseConfig.MovementPhaseType.ENTERING:
 			adjustmentDeg = 180.0f;
 			break;
-		case MouseConfig.MovementPhaseType.RUNNING_PHASE:
-			adjustmentDeg = isClockwise ? 90.0f : -90.0f;
+		case MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING:
+			runningAdjustment = isClockwise ? 90f : 270f;
+			adjustmentDeg = Mathf.Lerp (180f,
+			                            runningAdjustment,
+			                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
+			break;
+		case MouseConfig.MovementPhaseType.RUNNING:
+			runningAdjustment = isClockwise ? 90f : 270f;
+			adjustmentDeg = runningAdjustment;
+			break;
+		case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
+			runningAdjustment = isClockwise ? 90f : -90f;
+			adjustmentDeg = Mathf.Lerp (runningAdjustment,
+			                            0f,
+			                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
 			break;
 		}
 
-		finalAngleDeg += adjustmentDeg;
+		orientationAngleDeg += adjustmentDeg;
 
-		transform.rotation = Quaternion.Euler (0.0f, 0.0f, finalAngleDeg);
+		transform.rotation = Quaternion.Euler (0.0f, 0.0f, orientationAngleDeg);
 		transform.position = new Vector3 (x, y, 0);
 
 		ApplyWiggle ();
@@ -148,27 +168,34 @@ public class MouseMove : MonoBehaviour
 
 	void ApplyWiggle ()
 	{
-		if (wiggleType == MouseConfig.MouseWiggleType.NUM_TYPES) {
+		if (wiggleType == MouseConfig.MouseWiggleType.NONE) {
 			return;
 		}
 
-		float angleRad = (Time.time % wiggleCycleTime) * 2 * Mathf.PI / wiggleCycleTime;
+		float fractionFinished = (mouseAngleDeg - startAngleDeg) / (endAngleDeg - startAngleDeg);
+		float totalCyclesFinished = fractionFinished * wiggleCycles;
+
+		float angleRad = totalCyclesFinished * 2 * Mathf.PI;
+		if (wiggleClockwise) {
+			angleRad = -angleRad;
+		}
+
 		Vector3 extra = new Vector3 (0f, 0f, 0f);
 
 		switch (wiggleType) {
-		case MouseConfig.MouseWiggleType.MOUSE_WIGGLE_BACK_FORTH:
+		case MouseConfig.MouseWiggleType.BACK_FORTH:
 			extra = new Vector3 (wiggleMagnitude * Mathf.Sin (angleRad), 
 			         0.0f, 
 			         0.0f);
 			break;
-		case MouseConfig.MouseWiggleType.MOUSE_WIGGLE_SIDE_SIDE:
+		case MouseConfig.MouseWiggleType.SIDE_SIDE:
 			extra = new Vector3 (0.0f, 
-			         wiggleMagnitude * Mathf.Cos (angleRad), 
+			         wiggleMagnitude * Mathf.Sin (angleRad), 
 			         0.0f);
 			break;
-		case MouseConfig.MouseWiggleType.MOUSE_WIGGLE_ROUND:
-			extra = new Vector3 (wiggleMagnitude * Mathf.Sin (angleRad), 
-			         wiggleMagnitude * Mathf.Cos (angleRad), 
+		case MouseConfig.MouseWiggleType.ROUND:
+			extra = new Vector3 (wiggleMagnitude * Mathf.Cos (angleRad) - wiggleMagnitude, 
+			         wiggleMagnitude * Mathf.Sin (angleRad), 
 			         0.0f);
 			break;
 		}
@@ -182,11 +209,17 @@ public class MouseMove : MonoBehaviour
 		float fractionFinished = 0.0f;
 		
 		switch (phase) {
-		case MouseConfig.MovementPhaseType.RUNNING_PHASE:
+		case MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING:
+			fractionFinished = 0f;
+			break;
+		case MouseConfig.MovementPhaseType.RUNNING:
 			fractionFinished = Mathf.Abs (mouseAngleDeg - startAngleDeg) /
 				Mathf.Abs (startAngleDeg - endAngleDeg);
 			break;
-		case MouseConfig.MovementPhaseType.LEAVING_PHASE:
+		case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
+			fractionFinished = 1.0f;
+			break;
+		case MouseConfig.MovementPhaseType.LEAVING:
 			fractionFinished = 1.0f;
 			break;
 		}
@@ -198,20 +231,34 @@ public class MouseMove : MonoBehaviour
 		sliderInstance.value = fractionFinished;
 	}
 
+	void SetPhase (MouseConfig.MovementPhaseType phase)
+	{
+		if (this.phase == phase) {
+			return;
+		}
+		this.phase = phase;
+		this.phaseStartTime = Time.time;
+	}
+
 	void FixedUpdate ()
 	{
 		float deltaTime = Time.deltaTime;
 
 		switch (phase) {
-		case MouseConfig.MovementPhaseType.ENTERING_PHASE:
+		case MouseConfig.MovementPhaseType.ENTERING:
 			mouseRadius -= deltaTime * actualSpeedM;
 			if (mouseRadius <= circlingRadius) {
 				mouseRadius = circlingRadius;  
-				phase = MouseConfig.MovementPhaseType.RUNNING_PHASE;
+				SetPhase (MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING);
 				sliderInstance.gameObject.SetActive (true);
 			}
 			break;
-		case MouseConfig.MovementPhaseType.RUNNING_PHASE:
+		case MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING:
+			if (Time.time >= MouseConfig.instance.timeToTurn + phaseStartTime) {
+				SetPhase (MouseConfig.MovementPhaseType.RUNNING);
+			}
+			break;
+		case MouseConfig.MovementPhaseType.RUNNING:
 			{
 				float distanceDelta = actualSpeedM * Time.deltaTime;
 				float angleDeltaRad = distanceDelta / mouseRadius;
@@ -226,19 +273,24 @@ public class MouseMove : MonoBehaviour
 				if (isClockwise) {
 					if (mouseAngleDeg >= endAngleDeg) {
 						mouseAngleDeg = endAngleDeg;
-						phase = MouseConfig.MovementPhaseType.LEAVING_PHASE;
+						SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
 					} 
 				} else {
 					if (mouseAngleDeg <= endAngleDeg) {
 						mouseAngleDeg = endAngleDeg;
-						phase = MouseConfig.MovementPhaseType.LEAVING_PHASE;
+						SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
 					}
 				}
 
 				break;
 			}
+		case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
+			if (Time.time >= MouseConfig.instance.timeToTurn + phaseStartTime) {
+				SetPhase (MouseConfig.MovementPhaseType.LEAVING);
+			}
+			break;
 
-		case MouseConfig.MovementPhaseType.LEAVING_PHASE:
+		case MouseConfig.MovementPhaseType.LEAVING:
 			mouseRadius += deltaTime * actualSpeedM;
 			break;
 		}
@@ -266,38 +318,15 @@ public class MouseMove : MonoBehaviour
 	void SetMouseType (MouseConfig.MouseType mt)
 	{
 		mouseType = mt;
-		   
-		switch (mouseType) {
-		case MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST:
-			baseSpeedM = MouseConfig.instance.superSpeedM;
-			break;
-		case MouseConfig.MouseType.MOUSE_TYPE_FAST:
-			baseSpeedM = MouseConfig.instance.maxSpeedM;
-			break;
-		case MouseConfig.MouseType.MOUSE_TYPE_SLOW:
-			baseSpeedM = MouseConfig.instance.minSpeedM;
-			break;
-		case MouseConfig.MouseType.MOUSE_TYPE_MEDIUM:
-			baseSpeedM = (MouseConfig.instance.maxSpeedM + MouseConfig.instance.minSpeedM) / 2;
-			break;
-		}
+	
+		MouseDesc md = MouseConfig.instance.GetMouseDesc (mt);
+		baseSpeedM = md.speed;
 
-		int mtAsInt = (int)mouseType;
+		Vector3 scaleVector = transform.localScale;
+		scaleVector *= md.scale;
+		transform.localScale = scaleVector;
 
-		Vector3 scale = transform.localScale;
-
-
-		float newScale;
-		if (mouseType == MouseConfig.MouseType.MOUSE_TYPE_SUPERFAST) {
-			newScale = 1.0f;
-		} else {
-			newScale = 1.0f + 0.13f * mtAsInt;
-		}
-
-		scale *= newScale;
-		transform.localScale = scale;
-
-		spriteRenderer.sprite = MouseConfig.instance.baseSprites [mtAsInt];
+		spriteRenderer.sprite = md.mouseSprite;
 	}
 
 	public MouseConfig.MovementPhaseType GetMousePhase ()
@@ -314,14 +343,14 @@ public class MouseMove : MonoBehaviour
 
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
 
-		float extraRadiusFraction = (float)track / (float)(TweakableParams.instance.numTracks - 1);
+		float extraRadiusFraction = (float)track / (float)(TweakableParams.numTracks - 1);
 		float extraRadius = (MouseConfig.instance.maxCirclingRadius -
 			MouseConfig.instance.minCirclingRadius) * extraRadiusFraction;
 		
 		circlingRadius = MouseConfig.instance.minCirclingRadius + extraRadius;
 		
 		this.SetMouseType (mouseType);
-		this.wiggleType = MouseConfig.MouseWiggleType.NUM_TYPES;
+		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
 		int numSections = (int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
 		float angleDistance = numSections * MouseHole.angleBetweenHoles;
@@ -338,12 +367,13 @@ public class MouseMove : MonoBehaviour
 	}
 
 	public void AddWiggle (MouseConfig.MouseWiggleType wiggleType, 
-	                            float wiggleMagnitude, 
-	                            float wiggleCycleTime, 
+	                       float wiggleMagnitude, 
+	                       int wiggleCycles, 
 	                       bool wiggleClockwise)
 	{
 		this.wiggleType = wiggleType;
 		this.wiggleMagnitude = wiggleMagnitude;
-		this.wiggleCycleTime = wiggleCycleTime;
+		this.wiggleCycles = wiggleCycles;
+		this.wiggleClockwise = wiggleClockwise;
 	}
 }

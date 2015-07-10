@@ -32,7 +32,6 @@ public class PawController : MonoBehaviour {
 
 	bool registerdForEvents;
 	BoostConfig boostConfig;
-	TweakableParams tweakableParams;
 
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
@@ -47,11 +46,10 @@ public class PawController : MonoBehaviour {
 	void Start() {
 		gameController = GameController.instance;
 		boostConfig = BoostConfig.instance;
-		tweakableParams = TweakableParams.instance;
 
 		swipePhase = SwipePhase.SWIPE_NONE;
 
-		swipeSpeed = tweakableParams.baseSwipeSpeed;
+		swipeSpeed = TweakableParams.baseSwipeSpeed;
 
 		Vector3 localHomePos = pawHomeCatTransform.position;
 		localHomePos.z = 0f;
@@ -83,10 +81,10 @@ public class PawController : MonoBehaviour {
 	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
 	                         BoostConfig.BoostType oldType) {
 		if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
-			swipeSpeed = (tweakableParams.fastPawsSwipeSpeedMultiplier * 
-			              tweakableParams.baseSwipeSpeed);
+			swipeSpeed = (TweakableParams.fastPawsSwipeSpeedMultiplier * 
+			              TweakableParams.baseSwipeSpeed);
 		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
-			swipeSpeed = tweakableParams.baseSwipeSpeed;
+			swipeSpeed = TweakableParams.baseSwipeSpeed;
 		}
 
 		if (newType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS || 
@@ -100,7 +98,7 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.SWIPE_INITIAL_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - pauseStarted > tweakableParams.swipeInitialPause) {
+			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
 			}
 			break;
@@ -115,7 +113,7 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.SWIPE_EXTENDED_PAUSE:
 			{
 				float timeNow = Time.time;
-			if (timeNow - pauseStarted > tweakableParams.swipeInitialPause) {
+			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
 					SetPhase(SwipePhase.SWIPE_RETRACTING);
 				}
 				break;

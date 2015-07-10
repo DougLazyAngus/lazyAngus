@@ -7,13 +7,13 @@ public class BoostDesc {
 
 	public float effectiveTime;
 	public string boostName;
-	public int levelLock;
-	
+	public TipConfig tipConfig;
+
 	public BoostDesc(string boostName, 
 	                 string buttonImageName, 
 	                 string introScreenImageName, 
 	                 float effectiveTime,
-	                 int levelLock) {
+	                 TipConfig tipConfig) {
 		string path;
 
 		path = "Textures/Boosts/" + buttonImageName;
@@ -24,7 +24,8 @@ public class BoostDesc {
 
 		this.effectiveTime = effectiveTime;
 		this.boostName = boostName;
-		this.levelLock = levelLock;
+
+		this.tipConfig = tipConfig;
 	}
 
 }

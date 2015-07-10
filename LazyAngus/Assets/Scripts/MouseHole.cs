@@ -37,8 +37,7 @@ public class MouseHole : MonoBehaviour {
 
 	void Awake() {
 		mouseHoleTip = new TipConfig ("mousehole", 
-		                             "A mouse got away from you!\nDon't let that happen again!", 
-		                             new Vector2 (0f, 0f));
+		                             "A mouse got away from you!\nDon't let that happen again!");
 	}
 
 	// Use this for initialization
@@ -78,7 +77,7 @@ public class MouseHole : MonoBehaviour {
 
 	void Reset() {
 		savedMouseCount = 0;
-		capacity = TweakableParams.instance.GetInitialMicePerHole();
+		capacity = TweakableParams.GetInitialMicePerHole();
 		throbForEffect.SetThrobbing (false);
 
 		if (MousePopChanged != null) {

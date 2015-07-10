@@ -14,7 +14,7 @@ public class OnMouseEntersHole : MonoBehaviour {
 			return;
 		}
 
-		if (mouseMove.GetMousePhase () != MouseConfig.MovementPhaseType.LEAVING_PHASE) {
+		if (mouseMove.GetMousePhase () != MouseConfig.MovementPhaseType.LEAVING) {
 			return;
 		}
 
