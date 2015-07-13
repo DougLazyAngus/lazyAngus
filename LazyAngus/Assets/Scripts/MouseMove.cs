@@ -24,6 +24,8 @@ public class MouseMove : MonoBehaviour
 
 	public GameObject trackingStatusBarPrototype;
 	private bool isClockwise;
+	private float angleAdjustmentWhileRunning;
+	private float zeroCenteredAngleAdjustmentWhileRunning;
 
 	private Slider sliderInstance;
 	private TweakableSlider tweakableSlider;
@@ -39,6 +41,8 @@ public class MouseMove : MonoBehaviour
 	private float wiggleMagnitude = 0;
 	private float wiggleCycles = 1;
 	private bool wiggleClockwise = false;
+
+	public float minDistanceToManuallyOrient = 0.01f;
 
 	bool registeredForEvents;
 
@@ -61,7 +65,7 @@ public class MouseMove : MonoBehaviour
 
 		MakeSlider ();
 
-		PositionMouse ();
+		SetMouseTransform ();
 	}
 	
 	void OnDestroy ()
@@ -124,46 +128,68 @@ public class MouseMove : MonoBehaviour
 		sliderInstance.gameObject.SetActive (false);
 	}
 
-	void PositionMouse ()
+	void SetMouseTransform ()
 	{
+		Vector3 oldPosition = transform.position;
+
+		SetMousePosition ();
+		SetMouseOrientation (oldPosition);
+
+		UpdateSlider ();
+	}
+
+	void SetMousePosition() {
 		float y = mouseRadius * Mathf.Sin (Mathf.Deg2Rad * mouseAngleDeg);
 		float x = mouseRadius * Mathf.Cos (Mathf.Deg2Rad * mouseAngleDeg);
 
-		float orientationAngleDeg = mouseAngleDeg;
-
-		float adjustmentDeg = 0.0f;
-		float runningAdjustment;
-
-		switch (phase) {
-		case MouseConfig.MovementPhaseType.ENTERING:
-			adjustmentDeg = 180.0f;
-			break;
-		case MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING:
-			runningAdjustment = isClockwise ? 90f : 270f;
-			adjustmentDeg = Mathf.Lerp (180f,
-			                            runningAdjustment,
-			                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
-			break;
-		case MouseConfig.MovementPhaseType.RUNNING:
-			runningAdjustment = isClockwise ? 90f : 270f;
-			adjustmentDeg = runningAdjustment;
-			break;
-		case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
-			runningAdjustment = isClockwise ? 90f : -90f;
-			adjustmentDeg = Mathf.Lerp (runningAdjustment,
-			                            0f,
-			                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
-			break;
-		}
-
-		orientationAngleDeg += adjustmentDeg;
-
-		transform.rotation = Quaternion.Euler (0.0f, 0.0f, orientationAngleDeg);
 		transform.position = new Vector3 (x, y, 0);
 
 		ApplyWiggle ();
-	
-		UpdateSlider ();
+	}
+
+	void SetMouseOrientation(Vector3 oldPosition) {
+		float orientationAngleDeg;
+
+		if (phase == MouseConfig.MovementPhaseType.RUNNING) {
+			Vector3 newForward = new Vector3(transform.position.x - oldPosition.x, 
+			                                 transform.position.y - oldPosition.y, 
+			                                 0);
+			if (wiggleType == MouseConfig.MouseWiggleType.NONE || 
+			    wiggleType == MouseConfig.MouseWiggleType.BACK_FORTH || 
+			    newForward.magnitude <= minDistanceToManuallyOrient) {
+				orientationAngleDeg = mouseAngleDeg + angleAdjustmentWhileRunning;
+			} else {
+				orientationAngleDeg = Vector3.Angle (Vector3.right, 
+				                                     newForward);
+				if (newForward.y < 0) {
+					orientationAngleDeg = -orientationAngleDeg;
+				}
+			}
+		} else {
+			orientationAngleDeg = mouseAngleDeg;
+
+			float adjustmentDeg = 0.0f;
+
+			switch (phase) {
+			case MouseConfig.MovementPhaseType.ENTERING:
+				adjustmentDeg = 180.0f;
+				break;
+			case MouseConfig.MovementPhaseType.TURNING_AFTER_ENTERING:
+				adjustmentDeg = Mathf.Lerp (180f,
+				                            angleAdjustmentWhileRunning,
+				                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
+				break;
+			case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
+				adjustmentDeg = Mathf.Lerp (zeroCenteredAngleAdjustmentWhileRunning,
+				                            0f,
+				                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
+				break;
+			}
+
+			orientationAngleDeg += adjustmentDeg;
+		}
+
+		transform.rotation = Quaternion.Euler (0.0f, 0.0f, orientationAngleDeg);
 	}
 
 	void ApplyWiggle ()
@@ -194,13 +220,19 @@ public class MouseMove : MonoBehaviour
 			         0.0f);
 			break;
 		case MouseConfig.MouseWiggleType.ROUND:
-			extra = new Vector3 (wiggleMagnitude * Mathf.Cos (angleRad) - wiggleMagnitude, 
-			         wiggleMagnitude * Mathf.Sin (angleRad), 
+			angleRad = angleRad + Mathf.PI/2;
+			if (angleRad % (2 * Mathf.PI) > Mathf.PI) {
+				angleRad = -angleRad;
+			}
+			angleRad = angleRad - Mathf.PI/2;
+
+			extra = new Vector3 (wiggleMagnitude * Mathf.Cos (Mathf.PI + angleRad) + wiggleMagnitude, 
+			         wiggleMagnitude * Mathf.Sin (-angleRad), 
 			         0.0f);
 			break;
 		}
 
-		extra = transform.localRotation * extra;
+		extra = Quaternion.Euler (new Vector3(0, 0, mouseAngleDeg + angleAdjustmentWhileRunning)) * extra;
 		transform.position = transform.position + extra;
 	}
 
@@ -295,7 +327,7 @@ public class MouseMove : MonoBehaviour
 			break;
 		}
 	
-		PositionMouse ();
+		SetMouseTransform ();
 	}
 
 	public void OnKilled ()
@@ -340,6 +372,13 @@ public class MouseMove : MonoBehaviour
 	                       int track)
 	{
 		this.isClockwise = isClockwise;
+		if (isClockwise) {
+			angleAdjustmentWhileRunning = 90f;
+			zeroCenteredAngleAdjustmentWhileRunning = 90f;
+		} else {
+			angleAdjustmentWhileRunning = 270f;
+			zeroCenteredAngleAdjustmentWhileRunning = -90f;
+		}
 
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
 

@@ -77,10 +77,8 @@ public class InputHandler : MonoBehaviour {
 	void HandleClickStart(Collider2D collider, Vector3 worldPoint) {
 		Vector2 worldPoint2d = worldPoint;
 		if (collider.tag == "CatButt") {
-			Debug.Log ("clicked CatButt");
 			PlayerController.instance.HandleDragClickStart(worldPoint2d);
 		} else if (collider.tag == "Plane") {
-			Debug.Log ("clicked Plane");
 			PlayerController.instance.HandleSlapClickStart(worldPoint2d);
 		}
 	}

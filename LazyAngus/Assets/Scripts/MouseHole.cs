@@ -116,16 +116,26 @@ public class MouseHole : MonoBehaviour {
 		}
 	}
 
-	public void ClearMice() {
+	public void ClearNMice(int count) {
+		if (count == 0) {
+			return;
+		}
+
 		if (savedMouseCount == 0) {
 			return;
 		}
 
-		savedMouseCount = 0;
+		count = Mathf.Min (count, savedMouseCount);
+		savedMouseCount -= count;
 
 		if (MousePopChanged != null) {
 			MousePopChanged();
 		}
+
+	}
+
+	public void ClearMice() {
+		ClearNMice (savedMouseCount);
 	}
 
 	public void SaveMouse(MouseMove mouse) {

@@ -19,7 +19,7 @@ public class OnMouseEntersHole : MonoBehaviour {
 		}
 
 		if (mouseMove.isPoisoned) {
-			mouseHole.ClearMice();
+			mouseHole.ClearNMice(TweakableParams.miceKilledPerPoison);
 			mouseMove.OnKilled ();
 		} else {
 			mouseHole.SaveMouse (mouseMove);

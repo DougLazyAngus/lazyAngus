@@ -69,7 +69,7 @@ public class BoostConfig : MonoBehaviour {
 			"poison_paw_can", 
 			TweakableParams.poisonPawsBoostTime,
 			new TipConfig ("boost.poison_paws", 
-		              "Once I poison a mouse I should let it go: it will clean out a whole mouse hole!"));
+		               	"Let poisoned mice go: they'll poison their friends back home!"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_FART] = new BoostDesc (
 			"Farts", 

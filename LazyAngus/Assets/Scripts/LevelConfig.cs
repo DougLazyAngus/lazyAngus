@@ -714,12 +714,12 @@ public class LevelConfig : MonoBehaviour
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);	
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 		
 		} else if (--glCounter == 0) {
 			ld.specialText = "Farty cat food... Yum!";
@@ -739,8 +739,8 @@ public class LevelConfig : MonoBehaviour
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
-			                      1);
-			
+			                      1);		
+
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);		
@@ -803,6 +803,64 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.ROUND);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.ROUND);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SUPERFAST, 
+			                      0,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.ROUND);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SUPERFAST, 
+			                      1,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      0);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      0,
+			                      MouseConfig.MouseWiggleType.ROUND);
+
 		} else if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");			

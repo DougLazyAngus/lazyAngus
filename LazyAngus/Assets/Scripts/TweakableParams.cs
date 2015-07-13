@@ -12,6 +12,7 @@ public class TweakableParams : MonoBehaviour {
 
 	public const float fartSlothMultiplier = 0.3f;
 
+	public const int miceKilledPerPoison = 1;
 
 	// Player swipe params.
 	public const float baseSwipeSpeed = 7.0f;	
@@ -43,7 +44,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float goodEyesBoostTime = 7.0f;
 	public const float bigPawsBoostTime = 7.0f;
 	public const float fartBoostTime = 7.0f;
-	public const float poisonPawsBoostTime = 3.0f;
+	public const float poisonPawsBoostTime = 7.0f;
 
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.isDebug) {
