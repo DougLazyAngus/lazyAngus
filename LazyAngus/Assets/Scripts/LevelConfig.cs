@@ -192,6 +192,7 @@ public class LevelConfig : MonoBehaviour
 			if (!levelDescMap.ContainsKey (gameLevel)) {
 				return;
 			}
+
 			LevelDescription ld = levelDescMap [gameLevel];
 			LevelDescription previousLd = null;
 			if (levelDescMap.ContainsKey (gameLevel - 1)) {
@@ -824,10 +825,13 @@ public class LevelConfig : MonoBehaviour
 		LevelDescription previousLd = GetLevelDescription (gameLevel - 1);
 		LevelDescription ld = new LevelDescription ();
 
+		ld.gameLevel = gameLevel;
+
 		ld.boostsAccumulator.DeriveFrom (previousLd.boostsAccumulator);
 		ld.wigglesAccumulator.DeriveFrom (previousLd.wigglesAccumulator);
 		ld.mouseHolesAccumulator.DeriveFrom (previousLd.mouseHolesAccumulator);
 		ld.mouseTypesAccumulator.DeriveFrom (previousLd.mouseTypesAccumulator);
+		ld.waveTypesAccumulator.DeriveFrom (previousLd.waveTypesAccumulator);
 
 		ld.explicitMouseDescs = GenerateRandomMiceForLevel (ld);
 		GenerateRandomWigglesForLevel (ld);
