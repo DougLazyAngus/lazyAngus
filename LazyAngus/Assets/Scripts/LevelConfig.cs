@@ -416,7 +416,7 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 		} else if (--glCounter == 0) {
-			ld.specialText = "Some mice scoot back and forth...";
+			ld.specialText = "Some mice have learned to dodge!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.BACK_FORTH);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -643,7 +643,7 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
 
 		} else if (--glCounter == 0) {
-			ld.specialText = "Some mice dodge side to side...";
+			ld.specialText = "Mice are weaving side to side!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.SIDE_SIDE);
 
@@ -651,12 +651,14 @@ public class LevelConfig : MonoBehaviour
 				
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
-			                      1);	
+			                      1, 
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
-			                      2);
-			
+			                      2, 
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
+
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
@@ -668,7 +670,8 @@ public class LevelConfig : MonoBehaviour
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.FAST, 
-			                      1);		
+			                      1, 
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
@@ -690,7 +693,8 @@ public class LevelConfig : MonoBehaviour
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
-			                      0);
+			                      0, 
+			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
@@ -799,7 +803,7 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
 
 		} else if (--glCounter == 0) {
-			ld.specialText = "Some mice move round and round...";
+			ld.specialText = "Uh-oh! Some mice dodge AND weave!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.ROUND);
