@@ -4,12 +4,14 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class FinalScoreTracker : GameUI {
+public class FinalScoreUI : GameUI {
 	public Text personalBestText;
 	public Text finalScoreText;
-	public bool started;
+
+	bool started;
 
 	void Awake() {
+		started = false;
 		Debug.Log ("FinalScoreTracker Awake");
 	}
 

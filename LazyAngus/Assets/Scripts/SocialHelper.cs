@@ -36,6 +36,7 @@ public class SocialHelper : MonoBehaviour {
 	}
 
 	public void ReportScore(int score) {
+		Debug.Log ("SocialHelper: ReportScore");
 		if (socialHelperEnabled && Social.localUser.authenticated) {
 			Social.ReportScore(score, leaderboardID, success => {
 				Debug.Log ("Reported score = " + success);
@@ -44,6 +45,7 @@ public class SocialHelper : MonoBehaviour {
 	}
 	
 	public void RecordAchievement(string achievementID) {
+		Debug.Log ("SocialHelper: RecordAchievement");
 		if (socialHelperEnabled && Social.localUser.authenticated) {
 			Social.ReportProgress(achievementID, 100.0, success => {
 				Debug.Log ("Reported achievement = " + achievementID);
