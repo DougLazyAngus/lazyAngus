@@ -11,10 +11,11 @@ public class SocialHelper : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
+		Debug.Log ("SocialHelper::Awake");
+		Debug.Log ("Application.platform == " + Application.platform);
 
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			socialHelperEnabled = true;
-			GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
 
 		} else {
 			socialHelperEnabled = false;
@@ -22,8 +23,17 @@ public class SocialHelper : MonoBehaviour {
 	}
 
 	public void Authenticate(System.Action<bool> handler) {
+		Debug.Log ("SocialHelper::Authenticate");
+		Debug.Log ("socialHelperEnabled = " + socialHelperEnabled);
 		if (socialHelperEnabled) {
-			Social.localUser.Authenticate (handler);
+			Social.localUser.Authenticate (success => {
+				if (success) {
+					GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+				}
+				handler(success);
+			});
+			// Utilities.AuthenticateGameCenterHack();
+
 		} else {
 			handler(false);
 		}

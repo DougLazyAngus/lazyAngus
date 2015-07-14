@@ -90,6 +90,10 @@ public class Utilities
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public bool CanLaunchURL(string url);
 
+	/*
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public bool AuthenticateGameCenterHack();
+	*/
 
 	private static bool AppCanLaunchURL(string url) {
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {

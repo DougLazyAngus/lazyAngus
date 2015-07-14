@@ -59,7 +59,7 @@ public class PlayerStats : MonoBehaviour {
 		Reset ();
 	}
 
-	public void IncrementScore(int increment) {
+	public void IncrementScore(int increment = 1) {
 		if (increment == 0) {
 			return;
 		}

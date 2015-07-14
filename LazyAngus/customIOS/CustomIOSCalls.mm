@@ -12,6 +12,7 @@
 #import <OpenGLES/EAGLDrawable.h>
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
+#import <GameKit/GameKit.h>
 
 #include <mach/mach_time.h>
 
@@ -32,6 +33,7 @@
 #include "Unity/GlesHelper.h"
 #include "PluginBase/AppDelegateListener.h"
 
+
 extern "C" {
   
   BOOL CanLaunchURL(char* urlChars) {
@@ -39,6 +41,29 @@ extern "C" {
     NSURL* url = [NSURL URLWithString:urlString];
     return [[UIApplication sharedApplication] canOpenURL:url];
   }
+  
+  /*
+  void AuthenticateGameCenterHack() {
+    GKLocalPlayer *localPlayer = [GKLocalPlayer localPlayer];
+    
+    //Block is called each time GameKit automatically authenticates
+    localPlayer.authenticateHandler = ^(UIViewController *viewController, NSError *error)
+    {
+      if (viewController)
+      {
+        NSLog(@"\n\nGot a view controller");
+      }
+      else if (localPlayer.isAuthenticated)
+      {
+        NSLog(@"\n\nAuthenticateGameCenterHack already authenticated.");
+      }
+      else
+      {
+        NSLog(@"\n\nAuthenticateGameCenterHack failed.");
+      }
+    };
+  }
+   */
   
   void LogInIOS(char* debugChars) {
     NSString* debugString = [NSString stringWithUTF8String:debugChars];

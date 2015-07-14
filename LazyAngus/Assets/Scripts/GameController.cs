@@ -30,6 +30,8 @@ public class GameController : MonoBehaviour {
 	void Start() {
 		RegisterForEvents ();
 
+		RestartGame ();
+
 		SocialHelper.instance.Authenticate (success => {
 			if (success) {
 				Debug.Log ("Authentication successful");
@@ -40,9 +42,7 @@ public class GameController : MonoBehaviour {
 			} else {
 				Debug.Log ("Authentication failed");
 			}
-			RestartGame ();
 		});
-		OnGamePhaseChanged ();
 	}
 
 	void Update() {
@@ -176,6 +176,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void OnMouseKilled(MouseMove mouse) {
+		PlayerStats.instance.IncrementScore ();
 		checkForPhaseChanges = true;
 	}
 

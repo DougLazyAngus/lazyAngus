@@ -9,7 +9,7 @@ public class FinalScoreTracker : MonoBehaviour {
 	public Text finalScoreText;
 	
 	// Use this for initialization
-	void Start () {
+	void OnEnabled () {
 		int personalBest = PlayerStats.instance.GetHighScore ();
 		int finalScore = PlayerStats.instance.GetScore ();
 

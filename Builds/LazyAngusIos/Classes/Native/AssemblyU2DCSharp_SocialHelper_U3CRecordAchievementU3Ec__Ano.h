@@ -1,0 +1,12 @@
+﻿#pragma once
+#include <stdint.h>
+// System.String
+struct String_t;
+// System.Object
+#include "mscorlib_System_Object.h"
+// SocialHelper/<RecordAchievement>c__AnonStorey17
+struct  U3CRecordAchievementU3Ec__AnonStorey17_t501  : public Object_t
+{
+	// System.String SocialHelper/<RecordAchievement>c__AnonStorey17::achievementID
+	String_t* ___achievementID_0;
+};

@@ -1,0 +1,27 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>
+struct KeyValuePair_2_t609;
+// System.String
+struct String_t;
+// System.String[]
+struct StringU5BU5D_t45;
+
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m17567(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t609 *, String_t*, StringU5BU5D_t45*, const MethodInfo*))KeyValuePair_2__ctor_m17112_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::get_Key()
+#define KeyValuePair_2_get_Key_m2888(__this, method) (( String_t* (*) (KeyValuePair_2_t609 *, const MethodInfo*))KeyValuePair_2_get_Key_m17113_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m17568(__this, ___value, method) (( void (*) (KeyValuePair_2_t609 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m17114_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::get_Value()
+#define KeyValuePair_2_get_Value_m2887(__this, method) (( StringU5BU5D_t45* (*) (KeyValuePair_2_t609 *, const MethodInfo*))KeyValuePair_2_get_Value_m17115_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m17569(__this, ___value, method) (( void (*) (KeyValuePair_2_t609 *, StringU5BU5D_t45*, const MethodInfo*))KeyValuePair_2_set_Value_m17116_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::ToString()
+#define KeyValuePair_2_ToString_m17570(__this, method) (( String_t* (*) (KeyValuePair_2_t609 *, const MethodInfo*))KeyValuePair_2_ToString_m17117_gshared)(__this, method)
