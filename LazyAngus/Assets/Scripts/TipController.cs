@@ -43,21 +43,21 @@ public class TipController : MonoBehaviour {
 	}
 	
 	void RegisterForEvents() {
-		GameController.instance.GamePhaseChanged +=
-			new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+		GamePhaseState.instance.GamePhaseChanged +=
+			new GamePhaseState.GamePhaseChangedEventHandler (OnPhaseChanged);
 
 		registeredForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			GameController.instance.GamePhaseChanged -=
-				new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+			GamePhaseState.instance.GamePhaseChanged -=
+				new GamePhaseState.GamePhaseChangedEventHandler (OnPhaseChanged);
 		}
 	}		
 
 	void OnPhaseChanged() {
-		if (GameController.instance.IsPlaying()) {
+		if (GamePhaseState.instance.IsPlaying()) {
 			EnqueueTipForLevel ();
 		} else {
 			ClearEnqueuedTips ();

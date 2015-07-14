@@ -35,22 +35,22 @@ public class MouseSpawnFromData : MonoBehaviour {
 	}
 	
 	void RegisterForEvents() {
-		GameController.instance.GamePhaseChanged +=
-			new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+		GamePhaseState.instance.GamePhaseChanged +=
+			new GamePhaseState.GamePhaseChangedEventHandler (OnPhaseChanged);
 		
 		registeredForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			GameController.instance.GamePhaseChanged -=
-				new GameController.GamePhaseChangedEventHandler (OnPhaseChanged);
+			GamePhaseState.instance.GamePhaseChanged -=
+				new GamePhaseState.GamePhaseChangedEventHandler (OnPhaseChanged);
 		}
 	}	
 
 
 	void OnPhaseChanged() {
-		if (GameController.instance.IsPlaying ()) {
+		if (GamePhaseState.instance.IsPlaying ()) {
 			nextSpawnTime = Time.time + initialSpawnDelta;
 		} else { 
 			Clear ();
@@ -59,7 +59,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (GameController.instance.IsPlaying ()) {
+		if (GamePhaseState.instance.IsPlaying ()) {
 			float timeNow = Time.time;
 			MaybeProduceNextMouse (timeNow);
 		}

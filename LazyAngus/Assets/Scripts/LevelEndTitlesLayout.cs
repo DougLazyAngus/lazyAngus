@@ -13,8 +13,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	private bool registerdForEvents;
 	private DistortForEffect distortForEffect;
 
-	private GameController gameController;
-
 	private bool started;
 
 	private bool waveDirty;
@@ -26,8 +24,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void Start () {
 		waveDirty = false;
-
-		gameController = GameController.instance;
 
 		RegisterForEvents ();
 
@@ -48,13 +44,13 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 
 	void RegisterForEvents() {
-		gameController.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+		GameLevelState.instance.GameLevelChanged += new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
 		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			gameController.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GameLevelState.instance.GameLevelChanged -= new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
 		}
 	}
 
@@ -67,7 +63,7 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void SetWaveViews() {
 		waveDirty = false;
-		waveTitleText.text = "Wave " + gameController.gameLevel;
+		waveTitleText.text = "Wave " + GameLevelState.instance.gameLevel;
 
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 		waveCountText.text = ld.explicitMouseDescs.Count + " mice";

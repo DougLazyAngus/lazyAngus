@@ -27,6 +27,8 @@ public class BoostConfig : MonoBehaviour {
 	private float activeBoostStartTime;
 	private float activeBoostEndTime;
 	bool registeredForEvents;
+
+	public AudioSource startBoostAudioSource;
 	
 	void Awake() {
 		instance = this;
@@ -52,19 +54,19 @@ public class BoostConfig : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
-		GameController.instance.GamePhaseChanged += 
-			new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		GamePhaseState.instance.GamePhaseChanged += 
+			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			GameController.instance.GamePhaseChanged -= 
-				new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			GamePhaseState.instance.GamePhaseChanged -= 
+				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		}
 	}
 	
 	void OnGamePhaseChanged() {
-		if (GamePhase.instance.gamePhase != GamePhase.GamePhaseType.LEVEL_PLAY) {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
 			CancelBoosts ();
 		}
 	}
@@ -166,7 +168,7 @@ public class BoostConfig : MonoBehaviour {
 		}
 
 		// If we're not in play mode, no dice.
-		if (!GameController.instance.IsPlaying ()) {
+		if (!GamePhaseState.instance.IsPlaying ()) {
 			return;
 		}
 
@@ -181,7 +183,7 @@ public class BoostConfig : MonoBehaviour {
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
 
 		if (!SoundController.instance.sfxMuted) {
-			startAudioSource.Play ();
+			startBoostAudioSource.Play ();
 		}
 
 		if (BoostActive != null) {

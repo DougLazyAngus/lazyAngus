@@ -43,14 +43,14 @@ public class PlayerStats : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
-		GameController.instance.GameInstanceChanged +=
-			new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+		GamePhaseState.instance.GameInstanceChanged +=
+			new GamePhaseState.GameInstanceChangedEventHandler (OnInstanceChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			GameController.instance.GameInstanceChanged -=
-				new GameController.GameInstanceChangedEventHandler (OnInstanceChanged);
+			GamePhaseState.instance.GameInstanceChanged -=
+				new GamePhaseState.GameInstanceChangedEventHandler (OnInstanceChanged);
 		}
 	}
 

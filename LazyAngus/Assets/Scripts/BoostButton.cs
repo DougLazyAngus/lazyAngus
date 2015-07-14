@@ -45,8 +45,8 @@ public class BoostButton : MonoBehaviour {
 			registeredForEvents = true;
 			PlayerStats.instance.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			PlayerStats.instance.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
-			GameController.instance.GameLevelChanged += new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-			GameController.instance.GamePhaseChanged += new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			GameLevelState.instance.GameLevelChanged += new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GamePhaseState.instance.GamePhaseChanged += new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
@@ -55,8 +55,8 @@ public class BoostButton : MonoBehaviour {
 		if (registeredForEvents) {
 			PlayerStats.instance.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
 			PlayerStats.instance.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
-			GameController.instance.GameLevelChanged -= new GameController.GameLevelChangedEventHandler (OnGameLevelChanged);
-			GameController.instance.GamePhaseChanged -= new GameController.GamePhaseChangedEventHandler (OnGameLevelChanged);			
+			GameLevelState.instance.GameLevelChanged -= new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GamePhaseState.instance.GamePhaseChanged -= new GamePhaseState.GamePhaseChangedEventHandler (OnGameLevelChanged);			
 			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
@@ -98,7 +98,7 @@ public class BoostButton : MonoBehaviour {
 		countText.gameObject.SetActive(false);
 
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
-		int gameLevel = GameController.instance.gameLevel;
+		int gameLevel = GameLevelState.instance.gameLevel;
 		
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
@@ -109,7 +109,7 @@ public class BoostButton : MonoBehaviour {
 			restrictionText.text = "$ " + priceInTreats;
 			button.interactable = (PlayerStats.instance.CanAfford (priceInTreats) && 
 			                       !BoostConfig.instance.IsBoostActive () && 
-			                       GameController.instance.IsPlaying());
+			                       GamePhaseState.instance.IsPlaying());
 		}
 
 		if (!button.interactable) {
@@ -125,7 +125,7 @@ public class BoostButton : MonoBehaviour {
 		countText.gameObject.SetActive(true);
 
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
-		int gameLevel = GameController.instance.gameLevel;
+		int gameLevel = GameLevelState.instance.gameLevel;
 
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
@@ -150,7 +150,7 @@ public class BoostButton : MonoBehaviour {
 			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 
 			button.interactable = (!BoostConfig.instance.IsBoostActive() && 
-			                       GameController.instance.IsPlaying());
+			                       GamePhaseState.instance.IsPlaying());
 		} else {
 			button.gameObject.SetActive (false);
 			countText.gameObject.SetActive (false);
@@ -172,8 +172,8 @@ public class BoostButton : MonoBehaviour {
 	}
 
 	void CheckForLevelUnlockEffects() {
-		if (GameController.instance.IsPlaying () && 
-		    GameController.instance.gameLevel == LevelConfig.instance.GetLevelLock (boostType)) {
+		if (GamePhaseState.instance.IsPlaying () && 
+		    GameLevelState.instance.gameLevel == LevelConfig.instance.GetLevelLock (boostType)) {
 			// Wait, then wiggle.
 			StartCoroutine(TriggerDistortionEffect ());
 		}

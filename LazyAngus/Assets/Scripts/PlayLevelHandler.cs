@@ -17,6 +17,6 @@ public class PlayLevelHandler : MonoBehaviour {
 			return;
 		} 
 
-		GameController.instance.TransitionToPhase (GameController.GamePhaseType.LEVEL_PLAY);
+		GamePhaseState.instance.TransitionToPhase (GamePhaseState.GamePhaseType.LEVEL_PLAY);
 	}
 }

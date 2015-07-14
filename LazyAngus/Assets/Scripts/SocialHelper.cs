@@ -10,6 +10,8 @@ public class SocialHelper : MonoBehaviour {
 	bool socialHelperEnabled;
 
 	void Awake() {
+		instance = this;
+
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			socialHelperEnabled = true;
 		} else {

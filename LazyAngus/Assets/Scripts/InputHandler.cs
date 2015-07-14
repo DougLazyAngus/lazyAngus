@@ -32,7 +32,7 @@ public class InputHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!GameController.instance.IsPlaying ()) {
+		if (!GamePhaseState.instance.IsPlaying ()) {
 			return;
 		}
 

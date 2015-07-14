@@ -16,9 +16,11 @@ public class GameController : MonoBehaviour {
 	
 	public static GameController instance { get; private set; }
 	bool registeredForEvents;
+	bool checkForPhaseChanges;
 
 	void Awake() {
 		instance = this;
+		checkForPhaseChanges = false;
 
 		Physics2D.IgnoreLayerCollision (8, 9, true);	
 
@@ -40,6 +42,19 @@ public class GameController : MonoBehaviour {
 			}
 			RestartGame ();
 		});
+		OnGamePhaseChanged ();
+	}
+
+	void Update() {
+		if (checkForPhaseChanges) {
+			checkForPhaseChanges = false;
+			if (CheckForGameEnd ()) {
+				return;
+			}
+			if (CheckForLevelEnd ()) {
+				return;
+			}
+		}
 	}
 
 	void OnDestroy() {
@@ -70,6 +85,24 @@ public class GameController : MonoBehaviour {
 
 
 	void OnGamePhaseChanged() {
+		switch (GamePhaseState.instance.gamePhase) {
+		case GamePhaseState.GamePhaseType.WELCOME:
+			{
+				CrossSceneState css = CrossSceneState.instance;
+				css.didWelcome = true;
+				break;
+			}
+		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
+			EnqueueMiceForLevel ();
+			MaybeIncrementMouseHoleCapacity ();
+			break;
+		case GamePhaseState.GamePhaseType.LEVEL_END:
+			{
+				GameLevelState.instance.SetGameLevel (
+				GameLevelState.instance.gameLevel + 1);
+				break;
+			}
+		}
 	}
 
 	void MaybeIncrementMouseHoleCapacity() {
@@ -99,7 +132,6 @@ public class GameController : MonoBehaviour {
 		                                      */
 	}
 
-
 	MouseHole FindDoomedMouseHole() {
 		for (int i = 0; i < 4; i++) {
 			if (mouseHoles [i].IsFull()) {
@@ -111,15 +143,14 @@ public class GameController : MonoBehaviour {
 
 
     public void OnMouseExit(MouseMove mouse) {
-		if (CheckForGameEnd ()) {
-			return;
-		}
-		if (CheckForLevelEnd ()) {
-			return;
-		}
+		checkForPhaseChanges = true;
 	}	
 
 	bool CheckForGameEnd() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			return false;
+		}
+
 		MouseHole doomedMouseHole = this.FindDoomedMouseHole ();		
 		if (doomedMouseHole != null) {
 			doomedMouseHole.DoDoomedBoxFX ();
@@ -131,6 +162,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	bool CheckForLevelEnd() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			return false;
+		}
+		
 		if (mouseSpawnFromData.FinishedWithCurrentSet () && 
 			MouseMove.activeMouseCount == 0) {
 			GamePhaseState.instance.TransitionWithPause (GamePhaseState.GamePhaseType.LEVEL_END);
@@ -141,10 +176,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void OnMouseKilled(MouseMove mouse) {
-		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY) {
-			PlayerStats.instance.IncrementScore (1);
-			CheckForLevelEnd ();
-		}
+		checkForPhaseChanges = true;
 	}
 
 

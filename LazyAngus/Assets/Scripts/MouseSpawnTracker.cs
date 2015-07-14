@@ -25,16 +25,16 @@ public class MouseSpawnTracker : MonoBehaviour {
 		registeredForEvents = true;
 		MouseSpawnFromData.instance.MouseSpawn += 
 			new MouseSpawnFromData.MouseSpawnEventHandler (OnMouseSpawned);
-		GameController.instance.GameLevelChanged +=
-			new GameController.GameLevelChangedEventHandler (OnLevelChanged);
+		GameLevelState.instance.GameLevelChanged +=
+			new GameLevelState.GameLevelChangedEventHandler (OnLevelChanged);
 	}
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			MouseSpawnFromData.instance.MouseSpawn -=
 				new MouseSpawnFromData.MouseSpawnEventHandler (OnMouseSpawned);
-			GameController.instance.GameLevelChanged -=
-				new GameController.GameLevelChangedEventHandler (OnLevelChanged);
+			GameLevelState.instance.GameLevelChanged -=
+				new GameLevelState.GameLevelChangedEventHandler (OnLevelChanged);
 		}
 	}
 
@@ -48,7 +48,7 @@ public class MouseSpawnTracker : MonoBehaviour {
 	}
 
 	void UpdateLevelConfig() {
-		int gameLevel = GameController.instance.gameLevel;
+		int gameLevel = GameLevelState.instance.gameLevel;
 		if (gameLevel > 0) {
 			LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 			miceThisLevel = ld.explicitMouseDescs.Count;

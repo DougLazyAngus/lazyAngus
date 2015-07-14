@@ -28,16 +28,16 @@ public class MusicPlayer : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
-		GameController.instance.GamePhaseChanged += 
-			new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		GamePhaseState.instance.GamePhaseChanged += 
+			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		SoundController.instance.MusicMuteChanged +=
 			new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			GameController.instance.GamePhaseChanged -= 
-				new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			GamePhaseState.instance.GamePhaseChanged -= 
+				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			SoundController.instance.MusicMuteChanged -=
 				new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
 		}
@@ -56,9 +56,9 @@ public class MusicPlayer : MonoBehaviour {
 		AudioSource desiredMusic = null;
 
 		if (!SoundController.instance.musicMuted) {
-			switch (GameController.instance.gamePhase) {
-			case GameController.GamePhaseType.LEVEL_PLAY:
-			case GameController.GamePhaseType.PENDING:
+			switch (GamePhaseState.instance.gamePhase) {
+			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
+			case GamePhaseState.GamePhaseType.PENDING:
 				desiredMusic = gameMusic;
 				break;
 			default:

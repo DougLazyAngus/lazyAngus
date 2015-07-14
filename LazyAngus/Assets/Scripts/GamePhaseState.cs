@@ -123,6 +123,9 @@ public class GamePhaseState : MonoBehaviour {
 
 		gamePhase = newPhase;
 		
+		if (newPhase == GamePhaseType.PENDING) {
+			StartCoroutine(SetupPendingPhase ());
+		}
 
 		if (GamePhaseChanged != null) {
 			GamePhaseChanged ();

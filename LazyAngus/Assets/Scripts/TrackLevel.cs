@@ -10,20 +10,20 @@ public class TrackLevel : MonoBehaviour {
 	void Start () {
 		levelText = this.gameObject.GetComponent<Text> ();
 
-		GameController.instance.GameLevelChanged += 
-			new GameController.GameLevelChangedEventHandler (SetGameLevelText);
+		GameLevelState.instance.GameLevelChanged += 
+			new GameLevelState.GameLevelChangedEventHandler (SetGameLevelText);
 		registerdForEvents = true;
 		SetGameLevelText ();
 	}
 	
 	void OnDestroy() {
 		if (registerdForEvents) {
-			GameController.instance.GameLevelChanged -= 
-				new GameController.GameLevelChangedEventHandler (SetGameLevelText);
+			GameLevelState.instance.GameLevelChanged -= 
+				new GameLevelState.GameLevelChangedEventHandler (SetGameLevelText);
 		}
 	}
 
 	void SetGameLevelText() {
-		levelText.text = "Wave " + GameController.instance.gameLevel;
+		levelText.text = "Wave " + GameLevelState.instance.gameLevel;
 	}	
 }

@@ -83,22 +83,22 @@ public class MouseMove : MonoBehaviour
 			return;
 		}
 		registeredForEvents = true;
-		GameController.instance.GamePhaseChanged +=
-			new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		GamePhaseState.instance.GamePhaseChanged +=
+			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 	}
 	
 	void UnregisterForEvents ()
 	{
 		if (registeredForEvents) {
-			GameController.instance.GamePhaseChanged -=
-				new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			GamePhaseState.instance.GamePhaseChanged -=
+				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		}
 	}
 
 	void OnGamePhaseChanged ()
 	{
-		if (GameController.instance.gamePhase != GameController.GamePhaseType.LEVEL_PLAY && 
-			GameController.instance.gamePhase != GameController.GamePhaseType.PENDING) {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY && 
+		    GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
 			Object.Destroy (gameObject);
 		}
 	}

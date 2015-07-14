@@ -45,7 +45,7 @@ public class SecretUI : MonoBehaviour {
 	void MaybeApplySuggestedLevel() {
 		int suggestedLevel = GetSuggestedLevel ();
 		if (suggestedLevel > 0) {
-			GameController.instance.SetGameLevel (suggestedLevel);
+			GameLevelState.instance.SetGameLevel (suggestedLevel);
 			SecretUI.instance.ClearSuggestedLevel ();
 		}
 	}

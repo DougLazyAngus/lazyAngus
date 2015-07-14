@@ -46,6 +46,7 @@ public class GameUIController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();	
+		OnGamePhaseChanged ();
 	}
 	
 	void OnDestroy() {

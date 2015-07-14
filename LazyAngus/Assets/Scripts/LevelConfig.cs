@@ -141,7 +141,7 @@ public class LevelConfig : MonoBehaviour
 
 	public LevelDescription GetCurrentLevelDescription ()
 	{
-		int level = GameController.instance.gameLevel;
+		int level = GameLevelState.instance.gameLevel;
 		return GetLevelDescription (level);
 	}
 
