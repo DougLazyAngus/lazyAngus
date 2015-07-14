@@ -2,14 +2,12 @@
 using UnityEngine.UI;
 
 using System.Collections;
+using System.Collections.Generic;
 
 public class FinalScoreTracker : MonoBehaviour {
 	public Text personalBestText;
 	public Text finalScoreText;
-
-	public Button fbButton;
-	public Button twitterButton;
-
+	
 	// Use this for initialization
 	void Start () {
 		int personalBest = PlayerStats.instance.GetHighScore ();
@@ -31,13 +29,5 @@ public class FinalScoreTracker : MonoBehaviour {
 		}
 
 		finalScoreText.text = "Final Score: " + finalScore;
-		
-		fbButton.onClick.AddListener(() => { 
-			FacebookSharing.instance.ShareScore(finalScore);
-		});
-		
-		twitterButton.onClick.AddListener(() => { 
-			TwitterSharing.instance.ShareScore(finalScore);
-		});
 	}
 }

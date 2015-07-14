@@ -53,7 +53,7 @@ public class ExplicitMouseDesc
 			wiggleMagnitude = Random.Range (mwc.minMagnitude, 
 			                                mwc.maxMagnitude);
 			wiggleCycles = Random.Range (mwc.minCycles, 
-			                                mwc.maxCycles);
+			                             mwc.maxCycles);
 			
 			wiggleClockwise = (Random.Range (0, 2) != 0);
 		}

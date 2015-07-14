@@ -26,8 +26,7 @@ public class BoostConfig : MonoBehaviour {
 
 	private float activeBoostStartTime;
 	private float activeBoostEndTime;
-
-	public AudioSource startAudioSource;
+	bool registeredForEvents;
 	
 	void Awake() {
 		instance = this;
@@ -35,7 +34,45 @@ public class BoostConfig : MonoBehaviour {
 
 		LoadBoostDescs ();
 	}
+
+
+
+	// Use this for initialization
+	void Start () {
+		RegisterForEvents ();	
+	}
 	
+	void OnDestroy() {
+		UnregisterForEvents ();
+		
+	}
+	
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GameController.instance.GamePhaseChanged += 
+			new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GameController.instance.GamePhaseChanged -= 
+				new GameController.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		}
+	}
+	
+	void OnGamePhaseChanged() {
+		if (GamePhase.instance.gamePhase != GamePhase.GamePhaseType.LEVEL_PLAY) {
+			CancelBoosts ();
+		}
+	}
+
+
+
+
+
 	void LoadBoostDescs() {
 		boostDescs = new BoostDesc[(int)BoostType.NUM_TYPES];
 

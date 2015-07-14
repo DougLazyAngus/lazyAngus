@@ -110,6 +110,7 @@ public class Utilities
 	}
 
 	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL) {
+
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			LaunchAppOrWebOnIOS(appURL, webURL);
 			yield return new WaitForSeconds (0.001f);
