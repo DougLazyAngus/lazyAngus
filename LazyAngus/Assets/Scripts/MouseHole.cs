@@ -70,7 +70,6 @@ public class MouseHole : MonoBehaviour {
 		}
 	}
 
-
 	void OnInstanceChanged() {
 		Reset ();
 	}

@@ -67,22 +67,29 @@ public class GameController : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
+
 		GamePhaseState.instance.GamePhaseChanged += 
 			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		GamePhaseState.instance.GameInstanceChanged += 
+			new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GamePhaseState.instance.GamePhaseChanged -= 
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			GamePhaseState.instance.GameInstanceChanged -= 
+				new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
 		}
 	}
 	
 	public void RestartGame() {
-		GamePhaseState.instance.RestartGame ();
 		GameLevelState.instance.SetGameLevel (1);
+		GamePhaseState.instance.RestartGame ();
 	}
 
+	void OnGameInstanceChanged() {
+	}
 
 	void OnGamePhaseChanged() {
 		switch (GamePhaseState.instance.gamePhase) {

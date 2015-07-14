@@ -57,6 +57,10 @@ public class GamePhaseState : MonoBehaviour {
 	public void RestartGame() {
 		gamePhase = GamePhaseType.NULL;
 
+		if (GameInstanceChanged != null) {
+			GameInstanceChanged ();
+		}
+
 		if (CrossSceneState.instance.didWelcome) {
 			TransitionToPhase (GamePhaseType.LEVEL_PLAY);
 		} else {

@@ -83,7 +83,6 @@ public class LevelConfig : MonoBehaviour
 	
 	void Awake ()
 	{
-		Debug.Log ("LevelConfig::Awake");
 		instance = this;
 		levelDescMap = new Dictionary<int, LevelDescription> ();
 	}
@@ -143,14 +142,12 @@ public class LevelConfig : MonoBehaviour
 
 	public LevelDescription GetCurrentLevelDescription ()
 	{
-		Debug.Log ("GetCurrentLevelDescription: level " + GameLevelState.instance.gameLevel);
 		int level = GameLevelState.instance.gameLevel;
 		return GetLevelDescription (level);
 	}
 
 	public LevelDescription GetLevelDescription (int gameLevel)
 	{
-		Debug.Log ("GetLevelDescription: level " + GameLevelState.instance.gameLevel);
 		LevelDescription ld;
 		if (levelDescMap.ContainsKey (gameLevel)) {
 			return levelDescMap [gameLevel];
@@ -888,9 +885,7 @@ public class LevelConfig : MonoBehaviour
 
 	LevelDescription GenerateRandomLevelDescription (int gameLevel)
 	{
-		Debug.Log ("GenerateRandomLevelDescription: level " + GameLevelState.instance.gameLevel);
 		if (levelDescMap.Count == 0) {
-			Debug.Log ("WTF???");
 			throw new System.Exception("Calling GenerateRandomLevel before any levels initialized.");
 		}
 
@@ -899,7 +894,6 @@ public class LevelConfig : MonoBehaviour
 		if (gameLevel > 0) {
 			previousLd = GetLevelDescription (gameLevel - 1);
 		} else {
-			Debug.Log ("WTF???");
 			throw new System.Exception("Called GenerateRandomLevel with zero or negative gameLevel");
 		}
 
