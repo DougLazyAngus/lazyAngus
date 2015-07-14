@@ -30,21 +30,21 @@ public class GameUIController : MonoBehaviour {
 		instance = this;
 
 		gameUIs = new GameUI[(int)GameUIsType.NUM_TYPES];
-
-		welcomeUIGameObject.SetActive (true);
-		levelPlayUIGameObject.SetActive (true);
-		levelEndUIGameObject.SetActive (true);
-		gameOverUIGameObject.SetActive (true);
-
-		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
 	}
 
 	
 	// Use this for initialization
 	void Start () {
+		welcomeUIGameObject.SetActive (false);
+		levelPlayUIGameObject.SetActive (false);
+		levelEndUIGameObject.SetActive (false);
+		gameOverUIGameObject.SetActive (false);
+		
+		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
+
 		RegisterForEvents ();	
 		OnGamePhaseChanged ();
 	}

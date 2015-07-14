@@ -27,8 +27,8 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 		RegisterForEvents ();
 
-		SetWaveViews ();
 		started = true;
+		SetWaveViews ();
 	}
 
 	void OnDestroy() {
@@ -36,9 +36,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	}
 
 	void OnEnable() {
-		if (!started) {
-			return;
-		}
 		SetWaveViews ();
 	}
 
@@ -62,8 +59,16 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 	}
 
 	void SetWaveViews() {
+		if (!started) {
+			return;
+		}
+		if (!enabled) {
+			return;
+		}
+
 		waveDirty = false;
 		waveTitleText.text = "Wave " + GameLevelState.instance.gameLevel;
+		Debug.Log ("SetWaveViews: level " + GameLevelState.instance.gameLevel);
 
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 		waveCountText.text = ld.explicitMouseDescs.Count + " mice";

@@ -14,6 +14,8 @@ public class SocialHelper : MonoBehaviour {
 
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			socialHelperEnabled = true;
+			GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+
 		} else {
 			socialHelperEnabled = false;
 		}
@@ -28,13 +30,21 @@ public class SocialHelper : MonoBehaviour {
 	}
 
 	public void ReportScore(int score) {
-		if (Social.localUser.authenticated) {
+		if (socialHelperEnabled && Social.localUser.authenticated) {
 			Social.ReportScore(score, leaderboardID, success => {
 				Debug.Log ("Reported score = " + success);
 			});
 		}
 	}
-
+	
+	public void RecordAchievement(string achievementID) {
+		if (socialHelperEnabled && Social.localUser.authenticated) {
+			Social.ReportProgress(achievementID, 100.0, success => {
+				Debug.Log ("Reported achievement = " + achievementID);
+			});
+		}
+	}
+	
 	public bool IsEnabled() {
 		return socialHelperEnabled;
 	}
@@ -45,8 +55,10 @@ public class SocialHelper : MonoBehaviour {
 		}
 
 		Authenticate (success => {
-			GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
-			                                      TimeScope.Today);
+			if (Application.platform == RuntimePlatform.IPhonePlayer) {
+				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
+			    	                                  TimeScope.Today);
+			}
 		});
 	}
 
