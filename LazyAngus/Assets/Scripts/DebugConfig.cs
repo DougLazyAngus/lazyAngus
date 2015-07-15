@@ -12,7 +12,7 @@ public class DebugConfig : MonoBehaviour {
 
 
 	void Awake() {
-		useDebugValues = true;
+		useDebugValues = false;
 		instance = this;
 	}
 
