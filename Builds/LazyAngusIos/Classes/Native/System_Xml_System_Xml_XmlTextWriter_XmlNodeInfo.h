@@ -7,7 +7,7 @@ struct String_t;
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
 // System.Xml.XmlTextWriter/XmlNodeInfo
-struct  XmlNodeInfo_t2095  : public Object_t
+struct  XmlNodeInfo_t2097  : public Object_t
 {
 	// System.String System.Xml.XmlTextWriter/XmlNodeInfo::Prefix
 	String_t* ___Prefix_0;

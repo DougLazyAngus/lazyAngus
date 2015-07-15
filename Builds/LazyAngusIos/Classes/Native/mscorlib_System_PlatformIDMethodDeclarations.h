@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.PlatformID
-struct PlatformID_t2751;
+struct PlatformID_t2753;
 

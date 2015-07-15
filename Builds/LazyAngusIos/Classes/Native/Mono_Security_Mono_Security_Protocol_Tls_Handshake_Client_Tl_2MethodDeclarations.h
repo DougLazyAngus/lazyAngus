@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello
-struct TlsClientHello_t2215;
+struct TlsClientHello_t2217;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t2177;
+struct Context_t2179;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello::.ctor(Mono.Security.Protocol.Tls.Context)
-extern "C" void TlsClientHello__ctor_m11138 (TlsClientHello_t2215 * __this, Context_t2177 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientHello__ctor_m11163 (TlsClientHello_t2217 * __this, Context_t2179 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello::Update()
-extern "C" void TlsClientHello_Update_m11139 (TlsClientHello_t2215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientHello_Update_m11164 (TlsClientHello_t2217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello::ProcessAsSsl3()
-extern "C" void TlsClientHello_ProcessAsSsl3_m11140 (TlsClientHello_t2215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientHello_ProcessAsSsl3_m11165 (TlsClientHello_t2217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello::ProcessAsTls1()
-extern "C" void TlsClientHello_ProcessAsTls1_m11141 (TlsClientHello_t2215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientHello_ProcessAsTls1_m11166 (TlsClientHello_t2217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t574;
+struct Encoding_t576;
 // System.IO.Stream
 struct Stream_t24;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Xml.XmlException
-struct XmlException_t2052;
+struct XmlException_t2054;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.Xml.XmlInputStream
-struct  XmlInputStream_t2053  : public Stream_t24
+struct  XmlInputStream_t2055  : public Stream_t24
 {
 	// System.Text.Encoding System.Xml.XmlInputStream::enc
-	Encoding_t574 * ___enc_2;
+	Encoding_t576 * ___enc_2;
 	// System.IO.Stream System.Xml.XmlInputStream::stream
 	Stream_t24 * ___stream_3;
 	// System.Byte[] System.Xml.XmlInputStream::buffer
@@ -24,9 +24,9 @@ struct  XmlInputStream_t2053  : public Stream_t24
 	// System.Int32 System.Xml.XmlInputStream::bufPos
 	int32_t ___bufPos_6;
 };
-struct XmlInputStream_t2053_StaticFields{
+struct XmlInputStream_t2055_StaticFields{
 	// System.Text.Encoding System.Xml.XmlInputStream::StrictUTF8
-	Encoding_t574 * ___StrictUTF8_1;
+	Encoding_t576 * ___StrictUTF8_1;
 	// System.Xml.XmlException System.Xml.XmlInputStream::encodingException
-	XmlException_t2052 * ___encodingException_7;
+	XmlException_t2054 * ___encodingException_7;
 };

@@ -65,6 +65,47 @@ extern "C" {
   }
    */
   
+  void DebugReportScore() {
+    GKScore *score = [[GKScore alloc] initWithLeaderboardIdentifier:@"LazyAngusBeta2"];
+    score.value = 234;
+    
+    [GKScore reportScores:@[score] withCompletionHandler:^(NSError *error) {
+      if (error != nil) {
+        NSLog(@"%@", [error localizedDescription]);
+      }
+    }];
+  }
+  
+  // sic
+  BOOL CustomClearAchivements() {
+    [GKAchievement resetAchievementsWithCompletionHandler:^(NSError *error) {
+      if (error) {
+        NSLog(@"Error ===> %@", error);
+      }
+    }];
+    return TRUE;
+  }
+  
+  BOOL CustomReportAchievement(char const * achievementIDCC) {
+    NSString* achievementID = [NSString stringWithUTF8String:achievementIDCC];
+    GKAchievement *achievement = nil;
+    
+    achievement = [[GKAchievement alloc] initWithIdentifier:achievementID];
+    achievement.percentComplete = 100;
+    achievement.showsCompletionBanner = YES;
+    
+    NSArray *achievements = @[achievement];
+    
+    [GKAchievement reportAchievements:achievements withCompletionHandler:^(NSError *error) {
+      if (error != nil) {
+        NSLog(@"%@", [error localizedDescription]);
+      }
+    }];
+    return TRUE;
+  }
+  
+
+  
   void LogInIOS(char* debugChars) {
     NSString* debugString = [NSString stringWithUTF8String:debugChars];
     NSLog(@"\n\nUnity Debug:\n%@\n\n", debugString);

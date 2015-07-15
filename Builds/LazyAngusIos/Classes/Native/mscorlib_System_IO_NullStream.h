@@ -3,6 +3,6 @@
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.NullStream
-struct  NullStream_t2409  : public Stream_t24
+struct  NullStream_t2411  : public Stream_t24
 {
 };

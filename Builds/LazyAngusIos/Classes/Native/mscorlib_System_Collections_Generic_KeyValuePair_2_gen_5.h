@@ -7,7 +7,7 @@ struct FBLikeInfo_t221;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>
-struct  KeyValuePair_2_t583 
+struct  KeyValuePair_2_t585 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>::key
 	String_t* ___key_0;

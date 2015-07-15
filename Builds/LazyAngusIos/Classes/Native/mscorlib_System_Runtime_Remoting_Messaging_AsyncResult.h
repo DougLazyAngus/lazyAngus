@@ -3,26 +3,26 @@
 // System.Object
 struct Object_t;
 // System.Threading.WaitHandle
-struct WaitHandle_t1482;
+struct WaitHandle_t1484;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t2517;
+struct ExecutionContext_t2519;
 // System.Runtime.Remoting.Messaging.MonoMethodMessage
-struct MonoMethodMessage_t2518;
+struct MonoMethodMessage_t2520;
 // System.Runtime.Remoting.Messaging.IMessageCtrl
-struct IMessageCtrl_t2519;
+struct IMessageCtrl_t2521;
 // System.Runtime.Remoting.Messaging.IMessage
-struct IMessage_t2520;
+struct IMessage_t2522;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Runtime.Remoting.Messaging.AsyncResult
-struct  AsyncResult_t1731  : public Object_t
+struct  AsyncResult_t1733  : public Object_t
 {
 	// System.Object System.Runtime.Remoting.Messaging.AsyncResult::async_state
 	Object_t * ___async_state_0;
 	// System.Threading.WaitHandle System.Runtime.Remoting.Messaging.AsyncResult::handle
-	WaitHandle_t1482 * ___handle_1;
+	WaitHandle_t1484 * ___handle_1;
 	// System.Object System.Runtime.Remoting.Messaging.AsyncResult::async_delegate
 	Object_t * ___async_delegate_2;
 	// System.IntPtr System.Runtime.Remoting.Messaging.AsyncResult::data
@@ -38,13 +38,13 @@ struct  AsyncResult_t1731  : public Object_t
 	// System.Object System.Runtime.Remoting.Messaging.AsyncResult::async_callback
 	Object_t * ___async_callback_8;
 	// System.Threading.ExecutionContext System.Runtime.Remoting.Messaging.AsyncResult::current
-	ExecutionContext_t2517 * ___current_9;
+	ExecutionContext_t2519 * ___current_9;
 	// System.Threading.ExecutionContext System.Runtime.Remoting.Messaging.AsyncResult::original
-	ExecutionContext_t2517 * ___original_10;
+	ExecutionContext_t2519 * ___original_10;
 	// System.Int32 System.Runtime.Remoting.Messaging.AsyncResult::gchandle
 	int32_t ___gchandle_11;
 	// System.Runtime.Remoting.Messaging.MonoMethodMessage System.Runtime.Remoting.Messaging.AsyncResult::call_message
-	MonoMethodMessage_t2518 * ___call_message_12;
+	MonoMethodMessage_t2520 * ___call_message_12;
 	// System.Runtime.Remoting.Messaging.IMessageCtrl System.Runtime.Remoting.Messaging.AsyncResult::message_ctrl
 	Object_t * ___message_ctrl_13;
 	// System.Runtime.Remoting.Messaging.IMessage System.Runtime.Remoting.Messaging.AsyncResult::reply_message

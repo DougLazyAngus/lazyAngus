@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Thread
-struct Thread_t1490;
+struct Thread_t1492;
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t369;
 // System.Char[]
-struct CharU5BU5D_t555;
+struct CharU5BU5D_t557;
 // System.NumberFormatter
-struct NumberFormatter_t2748;
+struct NumberFormatter_t2750;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.NumberFormatter
-struct  NumberFormatter_t2748  : public Object_t
+struct  NumberFormatter_t2750  : public Object_t
 {
 	// System.Threading.Thread System.NumberFormatter::_thread
-	Thread_t1490 * ____thread_6;
+	Thread_t1492 * ____thread_6;
 	// System.Globalization.NumberFormatInfo System.NumberFormatter::_nfi
 	NumberFormatInfo_t369 * ____nfi_7;
 	// System.Boolean System.NumberFormatter::_NaN
@@ -48,11 +48,11 @@ struct  NumberFormatter_t2748  : public Object_t
 	// System.UInt32 System.NumberFormatter::_val4
 	uint32_t ____val4_22;
 	// System.Char[] System.NumberFormatter::_cbuf
-	CharU5BU5D_t555* ____cbuf_23;
+	CharU5BU5D_t557* ____cbuf_23;
 	// System.Int32 System.NumberFormatter::_ind
 	int32_t ____ind_24;
 };
-struct NumberFormatter_t2748_StaticFields{
+struct NumberFormatter_t2750_StaticFields{
 	// System.UInt64* System.NumberFormatter::MantissaBitsTable
 	uint64_t* ___MantissaBitsTable_0;
 	// System.Int32* System.NumberFormatter::TensExponentTable
@@ -66,7 +66,7 @@ struct NumberFormatter_t2748_StaticFields{
 	// System.Int32* System.NumberFormatter::DecHexDigits
 	int32_t* ___DecHexDigits_5;
 };
-struct NumberFormatter_t2748_ThreadStaticFields{
+struct NumberFormatter_t2750_ThreadStaticFields{
 	// System.NumberFormatter System.NumberFormatter::threadNumberFormatter
-	NumberFormatter_t2748 * ___threadNumberFormatter_25;
+	NumberFormatter_t2750 * ___threadNumberFormatter_25;
 };

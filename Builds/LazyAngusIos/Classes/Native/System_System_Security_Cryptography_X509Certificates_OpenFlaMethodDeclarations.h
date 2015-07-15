@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.OpenFlags
-struct OpenFlags_t1587;
+struct OpenFlags_t1589;
 

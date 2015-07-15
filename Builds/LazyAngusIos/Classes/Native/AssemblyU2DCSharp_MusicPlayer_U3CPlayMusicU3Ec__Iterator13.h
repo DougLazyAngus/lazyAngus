@@ -5,11 +5,11 @@ struct AudioSource_t392;
 // System.Object
 struct Object_t;
 // MusicPlayer
-struct MusicPlayer_t477;
+struct MusicPlayer_t478;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MusicPlayer/<PlayMusic>c__Iterator13
-struct  U3CPlayMusicU3Ec__Iterator13_t478  : public Object_t
+struct  U3CPlayMusicU3Ec__Iterator13_t479  : public Object_t
 {
 	// UnityEngine.AudioSource MusicPlayer/<PlayMusic>c__Iterator13::music
 	AudioSource_t392 * ___music_0;
@@ -20,5 +20,5 @@ struct  U3CPlayMusicU3Ec__Iterator13_t478  : public Object_t
 	// UnityEngine.AudioSource MusicPlayer/<PlayMusic>c__Iterator13::<$>music
 	AudioSource_t392 * ___U3CU24U3Emusic_3;
 	// MusicPlayer MusicPlayer/<PlayMusic>c__Iterator13::<>f__this
-	MusicPlayer_t477 * ___U3CU3Ef__this_4;
+	MusicPlayer_t478 * ___U3CU3Ef__this_4;
 };

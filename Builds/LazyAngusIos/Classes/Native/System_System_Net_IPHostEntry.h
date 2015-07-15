@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.IPAddress[]
-struct IPAddressU5BU5D_t1484;
+struct IPAddressU5BU5D_t1486;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.String
@@ -9,10 +9,10 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.IPHostEntry
-struct  IPHostEntry_t1545  : public Object_t
+struct  IPHostEntry_t1547  : public Object_t
 {
 	// System.Net.IPAddress[] System.Net.IPHostEntry::addressList
-	IPAddressU5BU5D_t1484* ___addressList_0;
+	IPAddressU5BU5D_t1486* ___addressList_0;
 	// System.String[] System.Net.IPHostEntry::aliases
 	StringU5BU5D_t45* ___aliases_1;
 	// System.String System.Net.IPHostEntry::hostName

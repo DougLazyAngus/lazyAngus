@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileShare
-struct FileShare_t1874;
+struct FileShare_t1876;
 

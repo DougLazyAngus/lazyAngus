@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RuntimeAnimatorController
-struct RuntimeAnimatorController_t919;
+struct RuntimeAnimatorController_t920;
 

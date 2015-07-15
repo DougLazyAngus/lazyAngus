@@ -21,7 +21,7 @@ struct OGActionType_t349;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t533;
+struct List_1_t535;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
 struct Dictionary_2_t74;
 // Facebook.HttpMethod
@@ -66,9 +66,9 @@ extern "C" void FB_Logout_m1524 (Object_t * __this /* static, unused */, const M
 // System.Void FB::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.String,System.String,Facebook.FacebookDelegate)
 extern "C" void FB_AppRequest_m1525 (Object_t * __this /* static, unused */, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, StringU5BU5D_t45* ___to, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB::AppRequest(System.String,Facebook.OGActionType,System.String,System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void FB_AppRequest_m1526 (Object_t * __this /* static, unused */, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, List_1_t533 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t539  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FB_AppRequest_m1526 (Object_t * __this /* static, unused */, String_t* ___message, OGActionType_t349 * ___actionType, String_t* ___objectId, List_1_t535 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t541  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB::AppRequest(System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void FB_AppRequest_m1527 (Object_t * __this /* static, unused */, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t533 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t539  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FB_AppRequest_m1527 (Object_t * __this /* static, unused */, String_t* ___message, StringU5BU5D_t45* ___to, List_1_t535 * ___filters, StringU5BU5D_t45* ___excludeIds, Nullable_1_t541  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB::Feed(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
 extern "C" void FB_Feed_m1528 (Object_t * __this /* static, unused */, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, Dictionary_2_t74 * ___properties, FacebookDelegate_t350 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB::API(System.String,Facebook.HttpMethod,Facebook.FacebookDelegate,System.Collections.Generic.Dictionary`2<System.String,System.String>)

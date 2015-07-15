@@ -15,9 +15,9 @@ struct String_t;
 // AN_PropertyTemplate
 struct AN_PropertyTemplate_t84;
 // System.Xml.XmlDocument
-struct XmlDocument_t527;
+struct XmlDocument_t529;
 // System.Xml.XmlElement
-struct XmlElement_t528;
+struct XmlElement_t530;
 
 // System.Void AN_ManifestTemplate::.ctor()
 extern "C" void AN_ManifestTemplate__ctor_m335 (AN_ManifestTemplate_t82 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -32,7 +32,7 @@ extern "C" void AN_ManifestTemplate_AddPermission_m339 (AN_ManifestTemplate_t82 
 // System.Void AN_ManifestTemplate::AddPermission(AN_PropertyTemplate)
 extern "C" void AN_ManifestTemplate_AddPermission_m340 (AN_ManifestTemplate_t82 * __this, AN_PropertyTemplate_t84 * ___permission, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_ManifestTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
-extern "C" void AN_ManifestTemplate_ToXmlElement_m341 (AN_ManifestTemplate_t82 * __this, XmlDocument_t527 * ___doc, XmlElement_t528 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_ManifestTemplate_ToXmlElement_m341 (AN_ManifestTemplate_t82 * __this, XmlDocument_t529 * ___doc, XmlElement_t530 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // AN_ApplicationTemplate AN_ManifestTemplate::get_ApplicationTemplate()
 extern "C" AN_ApplicationTemplate_t78 * AN_ManifestTemplate_get_ApplicationTemplate_m342 (AN_ManifestTemplate_t82 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<AN_PropertyTemplate> AN_ManifestTemplate::get_Permissions()

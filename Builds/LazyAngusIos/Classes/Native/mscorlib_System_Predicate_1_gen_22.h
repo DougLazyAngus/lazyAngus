@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<ExplicitMouseDesc>
-struct  Predicate_1_t3591  : public MulticastDelegate_t389
+struct  Predicate_1_t3593  : public MulticastDelegate_t389
 {
 };

@@ -5,24 +5,24 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Stack`1/Enumerator<System.Object>
-struct Enumerator_t3313;
+struct Enumerator_t3315;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Stack`1<System.Object>
-struct Stack_1_t3311;
+struct Stack_1_t3313;
 
 // System.Void System.Collections.Generic.Stack`1/Enumerator<System.Object>::.ctor(System.Collections.Generic.Stack`1<T>)
-extern "C" void Enumerator__ctor_m16762_gshared (Enumerator_t3313 * __this, Stack_1_t3311 * ___t, const MethodInfo* method);
-#define Enumerator__ctor_m16762(__this, ___t, method) (( void (*) (Enumerator_t3313 *, Stack_1_t3311 *, const MethodInfo*))Enumerator__ctor_m16762_gshared)(__this, ___t, method)
+extern "C" void Enumerator__ctor_m16787_gshared (Enumerator_t3315 * __this, Stack_1_t3313 * ___t, const MethodInfo* method);
+#define Enumerator__ctor_m16787(__this, ___t, method) (( void (*) (Enumerator_t3315 *, Stack_1_t3313 *, const MethodInfo*))Enumerator__ctor_m16787_gshared)(__this, ___t, method)
 // System.Object System.Collections.Generic.Stack`1/Enumerator<System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m16763_gshared (Enumerator_t3313 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m16763(__this, method) (( Object_t * (*) (Enumerator_t3313 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16763_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m16788_gshared (Enumerator_t3315 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m16788(__this, method) (( Object_t * (*) (Enumerator_t3315 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16788_gshared)(__this, method)
 // System.Void System.Collections.Generic.Stack`1/Enumerator<System.Object>::Dispose()
-extern "C" void Enumerator_Dispose_m16764_gshared (Enumerator_t3313 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m16764(__this, method) (( void (*) (Enumerator_t3313 *, const MethodInfo*))Enumerator_Dispose_m16764_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m16789_gshared (Enumerator_t3315 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m16789(__this, method) (( void (*) (Enumerator_t3315 *, const MethodInfo*))Enumerator_Dispose_m16789_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Stack`1/Enumerator<System.Object>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m16765_gshared (Enumerator_t3313 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m16765(__this, method) (( bool (*) (Enumerator_t3313 *, const MethodInfo*))Enumerator_MoveNext_m16765_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m16790_gshared (Enumerator_t3315 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m16790(__this, method) (( bool (*) (Enumerator_t3315 *, const MethodInfo*))Enumerator_MoveNext_m16790_gshared)(__this, method)
 // T System.Collections.Generic.Stack`1/Enumerator<System.Object>::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m16766_gshared (Enumerator_t3313 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m16766(__this, method) (( Object_t * (*) (Enumerator_t3313 *, const MethodInfo*))Enumerator_get_Current_m16766_gshared)(__this, method)
+extern "C" Object_t * Enumerator_get_Current_m16791_gshared (Enumerator_t3315 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m16791(__this, method) (( Object_t * (*) (Enumerator_t3315 *, const MethodInfo*))Enumerator_get_Current_m16791_gshared)(__this, method)

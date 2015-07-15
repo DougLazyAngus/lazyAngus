@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t555;
+struct CharU5BU5D_t557;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.Path
-struct  Path_t1765  : public Object_t
+struct  Path_t1767  : public Object_t
 {
 };
-struct Path_t1765_StaticFields{
+struct Path_t1767_StaticFields{
 	// System.Char[] System.IO.Path::InvalidPathChars
-	CharU5BU5D_t555* ___InvalidPathChars_0;
+	CharU5BU5D_t557* ___InvalidPathChars_0;
 	// System.Char System.IO.Path::AltDirectorySeparatorChar
 	uint16_t ___AltDirectorySeparatorChar_1;
 	// System.Char System.IO.Path::DirectorySeparatorChar
@@ -24,7 +24,7 @@ struct Path_t1765_StaticFields{
 	// System.Char System.IO.Path::VolumeSeparatorChar
 	uint16_t ___VolumeSeparatorChar_5;
 	// System.Char[] System.IO.Path::PathSeparatorChars
-	CharU5BU5D_t555* ___PathSeparatorChars_6;
+	CharU5BU5D_t557* ___PathSeparatorChars_6;
 	// System.Boolean System.IO.Path::dirEqualsVolume
 	bool ___dirEqualsVolume_7;
 };

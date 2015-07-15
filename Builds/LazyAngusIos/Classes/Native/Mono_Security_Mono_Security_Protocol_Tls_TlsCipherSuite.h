@@ -7,7 +7,7 @@ struct Object_t;
 // Mono.Security.Protocol.Tls.CipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuite.h"
 // Mono.Security.Protocol.Tls.TlsCipherSuite
-struct  TlsCipherSuite_t2207  : public CipherSuite_t2179
+struct  TlsCipherSuite_t2209  : public CipherSuite_t2181
 {
 	// System.Byte[] Mono.Security.Protocol.Tls.TlsCipherSuite::header
 	ByteU5BU5D_t36* ___header_21;

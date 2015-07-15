@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDOccurence
-struct DTDOccurence_t2022;
+struct DTDOccurence_t2024;
 

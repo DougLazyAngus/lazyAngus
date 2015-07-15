@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Delegate
-struct Delegate_t581;
+struct Delegate_t583;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t387;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Reflection.EventInfo/AddEventAdapter
-struct  AddEventAdapter_t2449  : public MulticastDelegate_t389
+struct  AddEventAdapter_t2451  : public MulticastDelegate_t389
 {
 };

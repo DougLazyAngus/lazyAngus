@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Policy.Hash
-struct Hash_t2643;
+struct Hash_t2645;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1245;
+struct SerializationInfo_t1247;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -16,12 +16,12 @@ struct ByteU5BU5D_t36;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Security.Policy.Hash::.ctor()
-extern "C" void Hash__ctor_m14659 (Hash_t2643 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Hash__ctor_m14684 (Hash_t2645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.Hash::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Hash__ctor_m14660 (Hash_t2643 * __this, SerializationInfo_t1245 * ___info, StreamingContext_t1246  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Hash__ctor_m14685 (Hash_t2645 * __this, SerializationInfo_t1247 * ___info, StreamingContext_t1248  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.Hash::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Hash_GetObjectData_m14661 (Hash_t2643 * __this, SerializationInfo_t1245 * ___info, StreamingContext_t1246  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Hash_GetObjectData_m14686 (Hash_t2645 * __this, SerializationInfo_t1247 * ___info, StreamingContext_t1248  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Policy.Hash::ToString()
-extern "C" String_t* Hash_ToString_m14662 (Hash_t2643 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Hash_ToString_m14687 (Hash_t2645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Policy.Hash::GetData()
-extern "C" ByteU5BU5D_t36* Hash_GetData_m14663 (Hash_t2643 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* Hash_GetData_m14688 (Hash_t2645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

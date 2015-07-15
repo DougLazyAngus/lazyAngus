@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Ray
-struct  Ray_t598 
+struct  Ray_t600 
 {
 	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
 	Vector3_t413  ___m_Origin_0;

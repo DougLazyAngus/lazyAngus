@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t593;
+struct Uri_t595;
 // System.Collections.ArrayList
-struct ArrayList_t1449;
+struct ArrayList_t1451;
 // System.Net.ICredentials
-struct ICredentials_t1525;
+struct ICredentials_t1527;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebProxy
-struct  WebProxy_t1582  : public Object_t
+struct  WebProxy_t1584  : public Object_t
 {
 	// System.Uri System.Net.WebProxy::address
-	Uri_t593 * ___address_0;
+	Uri_t595 * ___address_0;
 	// System.Boolean System.Net.WebProxy::bypassOnLocal
 	bool ___bypassOnLocal_1;
 	// System.Collections.ArrayList System.Net.WebProxy::bypassList
-	ArrayList_t1449 * ___bypassList_2;
+	ArrayList_t1451 * ___bypassList_2;
 	// System.Net.ICredentials System.Net.WebProxy::credentials
 	Object_t * ___credentials_3;
 	// System.Boolean System.Net.WebProxy::useDefaultCredentials

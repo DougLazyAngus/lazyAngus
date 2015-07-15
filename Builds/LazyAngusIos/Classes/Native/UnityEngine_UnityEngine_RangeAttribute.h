@@ -3,7 +3,7 @@
 // UnityEngine.PropertyAttribute
 #include "UnityEngine_UnityEngine_PropertyAttribute.h"
 // UnityEngine.RangeAttribute
-struct  RangeAttribute_t949  : public PropertyAttribute_t1193
+struct  RangeAttribute_t950  : public PropertyAttribute_t1195
 {
 	// System.Single UnityEngine.RangeAttribute::min
 	float ___min_0;

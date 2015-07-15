@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t593;
+struct Uri_t595;
 // System.Xml.XmlResolver
-struct XmlResolver_t2003;
+struct XmlResolver_t2005;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDEntityBase
-struct  DTDEntityBase_t2017  : public DTDNode_t2005
+struct  DTDEntityBase_t2019  : public DTDNode_t2007
 {
 	// System.String Mono.Xml.DTDEntityBase::name
 	String_t* ___name_5;
@@ -24,11 +24,11 @@ struct  DTDEntityBase_t2017  : public DTDNode_t2005
 	// System.String Mono.Xml.DTDEntityBase::uriString
 	String_t* ___uriString_10;
 	// System.Uri Mono.Xml.DTDEntityBase::absUri
-	Uri_t593 * ___absUri_11;
+	Uri_t595 * ___absUri_11;
 	// System.Boolean Mono.Xml.DTDEntityBase::isInvalid
 	bool ___isInvalid_12;
 	// System.Boolean Mono.Xml.DTDEntityBase::loadFailed
 	bool ___loadFailed_13;
 	// System.Xml.XmlResolver Mono.Xml.DTDEntityBase::resolver
-	XmlResolver_t2003 * ___resolver_14;
+	XmlResolver_t2005 * ___resolver_14;
 };

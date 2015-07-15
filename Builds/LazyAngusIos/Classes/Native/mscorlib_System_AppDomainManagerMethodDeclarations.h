@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.AppDomainManager
-struct AppDomainManager_t2696;
+struct AppDomainManager_t2698;
 

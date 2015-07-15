@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.FtpRequestCreator
-struct  FtpRequestCreator_t1538  : public Object_t
+struct  FtpRequestCreator_t1540  : public Object_t
 {
 };

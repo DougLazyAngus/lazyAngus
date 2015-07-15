@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.SecurityPermission
-struct SecurityPermission_t2636;
+struct SecurityPermission_t2638;
 // System.Security.IPermission
-struct IPermission_t2651;
+struct IPermission_t2653;
 // System.Security.SecurityElement
-struct SecurityElement_t2338;
+struct SecurityElement_t2340;
 // System.Security.Permissions.SecurityPermissionFlag
 #include "mscorlib_System_Security_Permissions_SecurityPermissionFlag.h"
 
 // System.Void System.Security.Permissions.SecurityPermission::.ctor(System.Security.Permissions.SecurityPermissionFlag)
-extern "C" void SecurityPermission__ctor_m14635 (SecurityPermission_t2636 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityPermission__ctor_m14660 (SecurityPermission_t2638 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Permissions.SecurityPermission::set_Flags(System.Security.Permissions.SecurityPermissionFlag)
-extern "C" void SecurityPermission_set_Flags_m14636 (SecurityPermission_t2636 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityPermission_set_Flags_m14661 (SecurityPermission_t2638 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Permissions.SecurityPermission::IsUnrestricted()
-extern "C" bool SecurityPermission_IsUnrestricted_m14637 (SecurityPermission_t2636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SecurityPermission_IsUnrestricted_m14662 (SecurityPermission_t2638 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Permissions.SecurityPermission::IsSubsetOf(System.Security.IPermission)
-extern "C" bool SecurityPermission_IsSubsetOf_m14638 (SecurityPermission_t2636 * __this, Object_t * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SecurityPermission_IsSubsetOf_m14663 (SecurityPermission_t2638 * __this, Object_t * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityElement System.Security.Permissions.SecurityPermission::ToXml()
-extern "C" SecurityElement_t2338 * SecurityPermission_ToXml_m14639 (SecurityPermission_t2636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityElement_t2340 * SecurityPermission_ToXml_m14664 (SecurityPermission_t2638 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Permissions.SecurityPermission::IsEmpty()
-extern "C" bool SecurityPermission_IsEmpty_m14640 (SecurityPermission_t2636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SecurityPermission_IsEmpty_m14665 (SecurityPermission_t2638 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Permissions.SecurityPermission System.Security.Permissions.SecurityPermission::Cast(System.Security.IPermission)
-extern "C" SecurityPermission_t2636 * SecurityPermission_Cast_m14641 (SecurityPermission_t2636 * __this, Object_t * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityPermission_t2638 * SecurityPermission_Cast_m14666 (SecurityPermission_t2638 * __this, Object_t * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;

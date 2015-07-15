@@ -3,7 +3,7 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // Mono.Xml.SmallXmlParserException
-struct  SmallXmlParserException_t2343  : public SystemException_t1724
+struct  SmallXmlParserException_t2345  : public SystemException_t1726
 {
 	// System.Int32 Mono.Xml.SmallXmlParserException::line
 	int32_t ___line_11;

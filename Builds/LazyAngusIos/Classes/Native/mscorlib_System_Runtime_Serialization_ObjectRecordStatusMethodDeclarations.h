@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.ObjectRecordStatus
-struct ObjectRecordStatus_t2584;
+struct ObjectRecordStatus_t2586;
 

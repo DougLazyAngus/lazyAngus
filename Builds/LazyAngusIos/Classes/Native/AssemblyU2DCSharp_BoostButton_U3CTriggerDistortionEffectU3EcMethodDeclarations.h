@@ -10,14 +10,14 @@ struct U3CTriggerDistortionEffectU3Ec__IteratorF_t379;
 struct Object_t;
 
 // System.Void BoostButton/<TriggerDistortionEffect>c__IteratorF::.ctor()
-extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF__ctor_m1797 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF__ctor_m1798 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object BoostButton/<TriggerDistortionEffect>c__IteratorF::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" Object_t * U3CTriggerDistortionEffectU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1798 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CTriggerDistortionEffectU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1799 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object BoostButton/<TriggerDistortionEffect>c__IteratorF::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CTriggerDistortionEffectU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m1799 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CTriggerDistortionEffectU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m1800 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean BoostButton/<TriggerDistortionEffect>c__IteratorF::MoveNext()
-extern "C" bool U3CTriggerDistortionEffectU3Ec__IteratorF_MoveNext_m1800 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CTriggerDistortionEffectU3Ec__IteratorF_MoveNext_m1801 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton/<TriggerDistortionEffect>c__IteratorF::Dispose()
-extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF_Dispose_m1801 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF_Dispose_m1802 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton/<TriggerDistortionEffect>c__IteratorF::Reset()
-extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF_Reset_m1802 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CTriggerDistortionEffectU3Ec__IteratorF_Reset_m1803 (U3CTriggerDistortionEffectU3Ec__IteratorF_t379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

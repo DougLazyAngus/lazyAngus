@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketOptionLevel
-struct SocketOptionLevel_t1494;
+struct SocketOptionLevel_t1496;
 

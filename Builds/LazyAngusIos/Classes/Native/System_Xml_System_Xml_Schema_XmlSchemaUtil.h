@@ -5,10 +5,10 @@
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaUtil
-struct  XmlSchemaUtil_t1989  : public Object_t
+struct  XmlSchemaUtil_t1991  : public Object_t
 {
 };
-struct XmlSchemaUtil_t1989_StaticFields{
+struct XmlSchemaUtil_t1991_StaticFields{
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaUtil::FinalAllowed
 	int32_t ___FinalAllowed_0;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaUtil::ElementBlockAllowed

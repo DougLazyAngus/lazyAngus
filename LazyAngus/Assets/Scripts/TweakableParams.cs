@@ -47,7 +47,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float poisonPawsBoostTime = 7.0f;
 
 	public static int GetInitialMoney() {
-		if (DebugConfig.instance.isDebug) {
+		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialMoney;
 		} else {
 			return initialMoney;
@@ -56,7 +56,7 @@ public class TweakableParams : MonoBehaviour {
 	
 	public static int GetInitialBoosts ()
 	{
-		if (DebugConfig.instance.isDebug) {
+		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialBoosts;
 		} else {
 			return initialBoosts;
@@ -65,7 +65,7 @@ public class TweakableParams : MonoBehaviour {
 	
 	public static int GetInitialMicePerHole ()
 	{
-		if (DebugConfig.instance.isDebug) {
+		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialMicePerHole;
 		} else {
 			return initialMicePerHole;

@@ -7,10 +7,10 @@ struct GUIStyle_t64;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.SliderHandler
-struct  SliderHandler_t1195 
+struct  SliderHandler_t1197 
 {
 	// UnityEngine.Rect UnityEngine.SliderHandler::position
-	Rect_t542  ___position_0;
+	Rect_t544  ___position_0;
 	// System.Single UnityEngine.SliderHandler::currentValue
 	float ___currentValue_1;
 	// System.Single UnityEngine.SliderHandler::size

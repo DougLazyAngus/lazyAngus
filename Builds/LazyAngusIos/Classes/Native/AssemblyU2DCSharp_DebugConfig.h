@@ -7,12 +7,12 @@ struct DebugConfig_t407;
 // DebugConfig
 struct  DebugConfig_t407  : public MonoBehaviour_t67
 {
-	// System.Boolean DebugConfig::isDebug
-	bool ___isDebug_2;
 	// System.Boolean DebugConfig::debugFBShare
-	bool ___debugFBShare_3;
+	bool ___debugFBShare_2;
 	// System.Boolean DebugConfig::debugTwitterShare
-	bool ___debugTwitterShare_4;
+	bool ___debugTwitterShare_3;
+	// System.Boolean DebugConfig::<useDebugValues>k__BackingField
+	bool ___U3CuseDebugValuesU3Ek__BackingField_4;
 };
 struct DebugConfig_t407_StaticFields{
 	// DebugConfig DebugConfig::<instance>k__BackingField

@@ -9,6 +9,13 @@ public class SocialHelper : MonoBehaviour {
 	
 	bool socialHelperEnabled;
 
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public bool CustomReportAchievement(string achievementID);
+	
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public bool CustomClearAchivements();
+	
+
 	void Awake() {
 		instance = this;
 
@@ -24,8 +31,20 @@ public class SocialHelper : MonoBehaviour {
 		if (socialHelperEnabled) {
 			Social.localUser.Authenticate (success => {
 				if (success) {
-					GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+					if (Application.platform == RuntimePlatform.IPhonePlayer) {
+
+						// This doesn't seem to work.
+						// Doing my own manual version.
+						GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+
+						/*
+						Debug.Log ("Calling : DebugScoreAndAchievement 001");
+						StartCoroutine(DebugScoreAndAchievement());
+						Debug.Log ("Calling : DebugScoreAndAchievement 002");
+						*/
+					}
 				}
+
 				handler(success);
 			});
 			// Utilities.AuthenticateGameCenterHack();
@@ -33,6 +52,19 @@ public class SocialHelper : MonoBehaviour {
 		} else {
 			handler(false);
 		}
+	}
+	
+	
+	IEnumerator DebugScoreAndAchievement() {
+		Debug.Log ("DebugScoreAndAchievement: part 1");
+		yield return new WaitForSeconds (2);
+		Debug.Log ("DebugScoreAndAchievement: part 2");
+		//		DebugReportScore ();
+		CustomReportAchievement ("QuadKill");
+	}
+
+	public void ClearAchievements() {
+		CustomClearAchivements();
 	}
 
 	public void ReportScore(int score) {
@@ -47,9 +79,15 @@ public class SocialHelper : MonoBehaviour {
 	public void RecordAchievement(string achievementID) {
 		Debug.Log ("SocialHelper: RecordAchievement");
 		if (socialHelperEnabled && Social.localUser.authenticated) {
-			Social.ReportProgress(achievementID, 100.0, success => {
-				Debug.Log ("Reported achievement = " + achievementID);
-			});
+			if (Application.platform == RuntimePlatform.IPhonePlayer) {
+				// Doesn't seem to work in iOS
+				CustomReportAchievement(achievementID);
+			} else {
+				Social.ReportProgress(achievementID, 100.0, success => {
+					Debug.Log ("Reported achievement = " + achievementID);
+					Debug.Log ("success = " + success);
+				});
+			}
 		}
 	}
 	

@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t455;
+struct Int32U5BU5D_t456;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3333;
+struct LinkU5BU5D_t3335;
 // FacebookProfileImageSize[]
-struct FacebookProfileImageSizeU5BU5D_t3503;
+struct FacebookProfileImageSizeU5BU5D_t3505;
 // UnityEngine.Texture2D[]
-struct Texture2DU5BU5D_t3504;
+struct Texture2DU5BU5D_t3506;
 // System.Collections.Generic.IEqualityComparer`1<FacebookProfileImageSize>
-struct IEqualityComparer_1_t3505;
+struct IEqualityComparer_1_t3507;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1245;
+struct SerializationInfo_t1247;
 // System.Collections.Generic.Dictionary`2/Transform`1<FacebookProfileImageSize,UnityEngine.Texture2D,System.Collections.DictionaryEntry>
-struct Transform_1_t3506;
+struct Transform_1_t3508;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
 struct  Dictionary_2_t223  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::table
-	Int32U5BU5D_t455* ___table_4;
+	Int32U5BU5D_t456* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::linkSlots
-	LinkU5BU5D_t3333* ___linkSlots_5;
+	LinkU5BU5D_t3335* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::keySlots
-	FacebookProfileImageSizeU5BU5D_t3503* ___keySlots_6;
+	FacebookProfileImageSizeU5BU5D_t3505* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::valueSlots
-	Texture2DU5BU5D_t3504* ___valueSlots_7;
+	Texture2DU5BU5D_t3506* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t223  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::serialization_info
-	SerializationInfo_t1245 * ___serialization_info_13;
+	SerializationInfo_t1247 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::generation
 	int32_t ___generation_14;
 };
 struct Dictionary_2_t223_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::<>f__am$cacheB
-	Transform_1_t3506 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t3508 * ___U3CU3Ef__amU24cacheB_15;
 };

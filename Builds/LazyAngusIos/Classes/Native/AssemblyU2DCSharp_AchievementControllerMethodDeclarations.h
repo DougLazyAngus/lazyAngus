@@ -19,5 +19,7 @@ extern "C" void AchievementController_OnDestroy_m1778 (AchievementController_t37
 extern "C" void AchievementController_RegisterForEvents_m1779 (AchievementController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AchievementController::UnregisterForEvents()
 extern "C" void AchievementController_UnregisterForEvents_m1780 (AchievementController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void AchievementController::OnGameInstanceChanged()
+extern "C" void AchievementController_OnGameInstanceChanged_m1781 (AchievementController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AchievementController::OnGameLevelChanged()
-extern "C" void AchievementController_OnGameLevelChanged_m1781 (AchievementController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AchievementController_OnGameLevelChanged_m1782 (AchievementController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

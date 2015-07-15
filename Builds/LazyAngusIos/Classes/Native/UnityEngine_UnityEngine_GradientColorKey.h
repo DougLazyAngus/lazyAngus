@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.GradientColorKey
-struct  GradientColorKey_t1025 
+struct  GradientColorKey_t1027 
 {
 	// UnityEngine.Color UnityEngine.GradientColorKey::color
 	Color_t257  ___color_0;

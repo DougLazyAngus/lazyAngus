@@ -34,12 +34,16 @@ public class LevelDescription
 
 	public int gameLevel;
 
+	public string previousLevelClearedAchievementID;
+
 
 	public LevelDescription ()
 	{
 		specialText = "";
 		explicitMouseDescs = new List<ExplicitMouseDesc> ();
 		sprite = null;
+
+		previousLevelClearedAchievementID = null;
 
 		mouseHolesAccumulator = new EnumAccumulator<MouseHole.MouseHoleLocation> (
 			(int)MouseHole.MouseHoleLocation.NUM_TYPES);
@@ -182,6 +186,26 @@ public class LevelConfig : MonoBehaviour
 		}
 
 		FillOutPresetGameLevelSkeletons ();
+
+		AddPreviousLevelClearedAchievements ();
+	}
+
+	void AddPreviousLevelClearedAchievements() {
+		LevelDescription ld;
+
+		/*
+		ld = GetLevelDescription (2);
+		ld.previousLevelClearedAchievementID = "Test01";
+		
+		ld = GetLevelDescription (3);
+		ld.previousLevelClearedAchievementID = "Test02";
+		*/
+		
+		ld = GetLevelDescription (6);
+		ld.previousLevelClearedAchievementID = "Wave5";
+		
+		ld = GetLevelDescription (11);
+		ld.previousLevelClearedAchievementID = "Wave10";
 	}
 
 	void FillOutPresetGameLevelSkeletons ()

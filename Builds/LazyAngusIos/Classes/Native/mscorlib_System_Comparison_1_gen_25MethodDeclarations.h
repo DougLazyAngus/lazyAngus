@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>
-struct Comparison_1_t3629;
+struct Comparison_1_t3631;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t677;
+struct BaseInputModule_t678;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t387;
 // System.Void System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m21781(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3629 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m16962_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m21806(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3631 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m16987_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>::Invoke(T,T)
-#define Comparison_1_Invoke_m21782(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3629 *, BaseInputModule_t677 *, BaseInputModule_t677 *, const MethodInfo*))Comparison_1_Invoke_m16963_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m21807(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3631 *, BaseInputModule_t678 *, BaseInputModule_t678 *, const MethodInfo*))Comparison_1_Invoke_m16988_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m21783(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3629 *, BaseInputModule_t677 *, BaseInputModule_t677 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m16964_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m21808(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3631 *, BaseInputModule_t678 *, BaseInputModule_t678 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m16989_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m21784(__this, ___result, method) (( int32_t (*) (Comparison_1_t3629 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m16965_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m21809(__this, ___result, method) (( int32_t (*) (Comparison_1_t3631 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m16990_gshared)(__this, ___result, method)

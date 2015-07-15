@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.TypeAttributes
-struct TypeAttributes_t2473;
+struct TypeAttributes_t2475;
 

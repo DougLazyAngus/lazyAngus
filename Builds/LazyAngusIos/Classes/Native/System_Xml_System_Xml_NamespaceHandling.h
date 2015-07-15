@@ -5,7 +5,7 @@
 // System.Xml.NamespaceHandling
 #include "System_Xml_System_Xml_NamespaceHandling.h"
 // System.Xml.NamespaceHandling
-struct  NamespaceHandling_t2029 
+struct  NamespaceHandling_t2031 
 {
 	// System.Int32 System.Xml.NamespaceHandling::value__
 	int32_t ___value___1;

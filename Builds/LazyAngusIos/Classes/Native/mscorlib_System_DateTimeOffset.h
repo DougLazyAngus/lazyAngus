@@ -9,16 +9,16 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.DateTimeOffset
-struct  DateTimeOffset_t1273 
+struct  DateTimeOffset_t1275 
 {
 	// System.DateTime System.DateTimeOffset::dt
 	DateTime_t219  ___dt_2;
 	// System.TimeSpan System.DateTimeOffset::utc_offset
 	TimeSpan_t266  ___utc_offset_3;
 };
-struct DateTimeOffset_t1273_StaticFields{
+struct DateTimeOffset_t1275_StaticFields{
 	// System.DateTimeOffset System.DateTimeOffset::MaxValue
-	DateTimeOffset_t1273  ___MaxValue_0;
+	DateTimeOffset_t1275  ___MaxValue_0;
 	// System.DateTimeOffset System.DateTimeOffset::MinValue
-	DateTimeOffset_t1273  ___MinValue_1;
+	DateTimeOffset_t1275  ___MinValue_1;
 };

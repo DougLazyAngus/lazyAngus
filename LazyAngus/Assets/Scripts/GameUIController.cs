@@ -73,7 +73,7 @@ public class GameUIController : MonoBehaviour {
 	void OnGamePhaseChanged() {
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME: {
-			if (DebugConfig.instance.isDebug) {
+			if (DebugConfig.instance.useDebugValues) {
 				SetActiveUI(GameUIsType.LEVEL_END);
 			} else {
 				SetActiveUI(GameUIsType.WELCOME);

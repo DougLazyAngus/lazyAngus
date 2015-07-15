@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t531;
+struct ObjectU5BU5D_t533;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.ArraySegment`1<System.Object>
-struct  ArraySegment_1_t4129 
+struct  ArraySegment_1_t4131 
 {
 	// T[] System.ArraySegment`1<System.Object>::array
-	ObjectU5BU5D_t531* ___array_0;
+	ObjectU5BU5D_t533* ___array_0;
 	// System.Int32 System.ArraySegment`1<System.Object>::offset
 	int32_t ___offset_1;
 	// System.Int32 System.ArraySegment`1<System.Object>::count

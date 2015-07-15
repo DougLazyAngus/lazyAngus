@@ -4,9 +4,9 @@
 struct Action_1_t209;
 // System.Object
 #include "mscorlib_System_Object.h"
-// SocialHelper/<Authenticate>c__AnonStorey16
-struct  U3CAuthenticateU3Ec__AnonStorey16_t500  : public Object_t
+// SocialHelper/<Authenticate>c__AnonStorey17
+struct  U3CAuthenticateU3Ec__AnonStorey17_t502  : public Object_t
 {
-	// System.Action`1<System.Boolean> SocialHelper/<Authenticate>c__AnonStorey16::handler
+	// System.Action`1<System.Boolean> SocialHelper/<Authenticate>c__AnonStorey17::handler
 	Action_1_t209 * ___handler_0;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.FontStyle
-struct FontStyle_t976;
+struct FontStyle_t977;
 

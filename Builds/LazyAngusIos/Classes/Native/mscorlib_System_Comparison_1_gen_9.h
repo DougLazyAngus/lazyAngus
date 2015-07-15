@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t640;
+struct GoogleMobileAdBanner_t641;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<GoogleMobileAdBanner>
-struct  Comparison_1_t3425  : public MulticastDelegate_t389
+struct  Comparison_1_t3427  : public MulticastDelegate_t389
 {
 };

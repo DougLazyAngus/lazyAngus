@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdAnySimpleType
-struct XsdAnySimpleType_t1922;
+struct XsdAnySimpleType_t1924;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.ctor()
-extern "C" void XsdAnySimpleType__ctor_m9246 (XsdAnySimpleType_t1922 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdAnySimpleType__ctor_m9271 (XsdAnySimpleType_t1924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.cctor()
-extern "C" void XsdAnySimpleType__cctor_m9247 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdAnySimpleType__cctor_m9272 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::get_Instance()
-extern "C" XsdAnySimpleType_t1922 * XsdAnySimpleType_get_Instance_m9248 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XsdAnySimpleType_t1924 * XsdAnySimpleType_get_Instance_m9273 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnySimpleType::get_TokenizedType()
-extern "C" int32_t XsdAnySimpleType_get_TokenizedType_m9249 (XsdAnySimpleType_t1922 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdAnySimpleType_get_TokenizedType_m9274 (XsdAnySimpleType_t1924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

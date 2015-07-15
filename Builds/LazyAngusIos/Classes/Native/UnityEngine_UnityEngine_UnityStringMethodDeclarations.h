@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UnityString
-struct UnityString_t1067;
+struct UnityString_t1069;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t531;
+struct ObjectU5BU5D_t533;
 
 // System.String UnityEngine.UnityString::Format(System.String,System.Object[])
-extern "C" String_t* UnityString_Format_m5769 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t531* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UnityString_Format_m5794 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t533* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

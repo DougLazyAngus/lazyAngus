@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Random
-struct  Random_t1079  : public Object_t
+struct  Random_t1081  : public Object_t
 {
 };

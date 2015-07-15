@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct  CriticalFinalizerObject_t2481  : public Object_t
+struct  CriticalFinalizerObject_t2483  : public Object_t
 {
 };

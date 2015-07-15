@@ -5,10 +5,10 @@
 // System.Single
 #include "mscorlib_System_Single.h"
 // UnityEngineInternal.MathfInternal
-struct  MathfInternal_t1055 
+struct  MathfInternal_t1057 
 {
 };
-struct MathfInternal_t1055_StaticFields{
+struct MathfInternal_t1057_StaticFields{
 	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinNormal
 	float ___FloatMinNormal_0;
 	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinDenormal

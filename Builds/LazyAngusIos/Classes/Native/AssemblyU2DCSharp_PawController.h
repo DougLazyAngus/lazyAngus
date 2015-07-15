@@ -3,9 +3,9 @@
 // UnityEngine.GameObject
 struct GameObject_t284;
 // UnityEngine.Collider2D
-struct Collider2D_t483;
+struct Collider2D_t484;
 // GameController
-struct GameController_t422;
+struct GameController_t424;
 // BoostConfig
 struct BoostConfig_t373;
 // UnityEngine.Transform
@@ -36,15 +36,15 @@ struct  PawController_t409  : public MonoBehaviour_t67
 	// UnityEngine.GameObject PawController::bigDangerPawSpriteGameObject
 	GameObject_t284 * ___bigDangerPawSpriteGameObject_8;
 	// UnityEngine.Collider2D PawController::normalCollider
-	Collider2D_t483 * ___normalCollider_9;
+	Collider2D_t484 * ___normalCollider_9;
 	// UnityEngine.Collider2D PawController::bigCollider
-	Collider2D_t483 * ___bigCollider_10;
+	Collider2D_t484 * ___bigCollider_10;
 	// System.Single PawController::swipeSpeed
 	float ___swipeSpeed_11;
 	// System.Int32 PawController::killsThisSwipe
 	int32_t ___killsThisSwipe_12;
 	// GameController PawController::gameController
-	GameController_t422 * ___gameController_13;
+	GameController_t424 * ___gameController_13;
 	// System.Boolean PawController::registerdForEvents
 	bool ___registerdForEvents_14;
 	// BoostConfig PawController::boostConfig

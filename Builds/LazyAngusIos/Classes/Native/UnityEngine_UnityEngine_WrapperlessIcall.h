@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.WrapperlessIcall
-struct  WrapperlessIcall_t1154  : public Attribute_t343
+struct  WrapperlessIcall_t1156  : public Attribute_t343
 {
 };

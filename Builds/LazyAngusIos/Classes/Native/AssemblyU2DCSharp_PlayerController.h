@@ -5,11 +5,11 @@ struct GameObject_t284;
 // ConeOfViewRenderer
 struct ConeOfViewRenderer_t402;
 // HeadMovement
-struct HeadMovement_t435;
+struct HeadMovement_t436;
 // TipConfig
 struct TipConfig_t394;
 // PlayerController
-struct PlayerController_t487;
+struct PlayerController_t488;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerController/BodyMovementType
@@ -17,7 +17,7 @@ struct PlayerController_t487;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PlayerController
-struct  PlayerController_t487  : public MonoBehaviour_t67
+struct  PlayerController_t488  : public MonoBehaviour_t67
 {
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
 	GameObject_t284 * ___rightPawGameObject_3;
@@ -26,7 +26,7 @@ struct  PlayerController_t487  : public MonoBehaviour_t67
 	// ConeOfViewRenderer PlayerController::coneOfView
 	ConeOfViewRenderer_t402 * ___coneOfView_5;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t435 * ___headMovement_6;
+	HeadMovement_t436 * ___headMovement_6;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
 	GameObject_t284 * ___fartPuffPrototype_7;
 	// UnityEngine.GameObject PlayerController::butthole
@@ -52,7 +52,7 @@ struct  PlayerController_t487  : public MonoBehaviour_t67
 	// System.Single PlayerController::fartPause
 	float ___fartPause_18;
 };
-struct PlayerController_t487_StaticFields{
+struct PlayerController_t488_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t487 * ___U3CinstanceU3Ek__BackingField_19;
+	PlayerController_t488 * ___U3CinstanceU3Ek__BackingField_19;
 };

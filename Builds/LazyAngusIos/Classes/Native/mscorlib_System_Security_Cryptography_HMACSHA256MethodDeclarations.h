@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.HMACSHA256
-struct HMACSHA256_t2605;
+struct HMACSHA256_t2607;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.Cryptography.HMACSHA256::.ctor()
-extern "C" void HMACSHA256__ctor_m14406 (HMACSHA256_t2605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA256__ctor_m14431 (HMACSHA256_t2607 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA256::.ctor(System.Byte[])
-extern "C" void HMACSHA256__ctor_m14407 (HMACSHA256_t2605 * __this, ByteU5BU5D_t36* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA256__ctor_m14432 (HMACSHA256_t2607 * __this, ByteU5BU5D_t36* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

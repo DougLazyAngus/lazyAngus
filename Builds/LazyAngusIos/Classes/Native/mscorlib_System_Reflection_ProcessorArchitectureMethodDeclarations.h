@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.ProcessorArchitecture
-struct ProcessorArchitecture_t2468;
+struct ProcessorArchitecture_t2470;
 

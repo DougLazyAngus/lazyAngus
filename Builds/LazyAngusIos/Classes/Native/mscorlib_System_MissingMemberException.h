@@ -7,7 +7,7 @@ struct ByteU5BU5D_t36;
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
 // System.MissingMemberException
-struct  MissingMemberException_t2738  : public MemberAccessException_t2731
+struct  MissingMemberException_t2740  : public MemberAccessException_t2733
 {
 	// System.String System.MissingMemberException::ClassName
 	String_t* ___ClassName_11;

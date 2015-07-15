@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Canvas/WillRenderCanvases
-struct  WillRenderCanvases_t895  : public MulticastDelegate_t389
+struct  WillRenderCanvases_t896  : public MulticastDelegate_t389
 {
 };

@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Array/Swapper
-struct  Swapper_t2255  : public MulticastDelegate_t389
+struct  Swapper_t2257  : public MulticastDelegate_t389
 {
 };

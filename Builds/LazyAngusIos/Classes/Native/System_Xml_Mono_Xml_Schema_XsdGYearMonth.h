@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdGYearMonth
-struct  XsdGYearMonth_t1967  : public XsdAnySimpleType_t1922
+struct  XsdGYearMonth_t1969  : public XsdAnySimpleType_t1924
 {
 };

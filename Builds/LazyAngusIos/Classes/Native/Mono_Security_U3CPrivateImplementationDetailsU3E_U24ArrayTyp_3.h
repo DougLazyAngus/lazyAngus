@@ -4,7 +4,7 @@
 #include "mscorlib_System_ValueType.h"
 // <PrivateImplementationDetails>/$ArrayType$48
 #pragma pack(push, tp, 1)
-struct  U24ArrayTypeU2448_t2228 
+struct  U24ArrayTypeU2448_t2230 
 {
 	union
 	{
@@ -14,13 +14,13 @@ struct  U24ArrayTypeU2448_t2228
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2448_t2228__padding[48];
+		uint8_t U24ArrayTypeU2448_t2230__padding[48];
 	};
 };
 #pragma pack(pop, tp)
 // Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$48
 #pragma pack(push, tp, 1)
-struct U24ArrayTypeU2448_t2228_marshaled
+struct U24ArrayTypeU2448_t2230_marshaled
 {
 	union
 	{
@@ -30,7 +30,7 @@ struct U24ArrayTypeU2448_t2228_marshaled
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2448_t2228__padding[48];
+		uint8_t U24ArrayTypeU2448_t2230__padding[48];
 	};
 };
 #pragma pack(pop, tp)

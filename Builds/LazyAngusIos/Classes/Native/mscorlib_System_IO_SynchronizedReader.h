@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.TextReader
-struct TextReader_t2057;
+struct TextReader_t2059;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.SynchronizedReader
-struct  SynchronizedReader_t2413  : public TextReader_t2057
+struct  SynchronizedReader_t2415  : public TextReader_t2059
 {
 	// System.IO.TextReader System.IO.SynchronizedReader::reader
-	TextReader_t2057 * ___reader_1;
+	TextReader_t2059 * ___reader_1;
 };

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t678;
+struct BaseEventData_t679;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Events.UnityAction`1<UnityEngine.EventSystems.BaseEventData>
-struct  UnityAction_1_t3669  : public MulticastDelegate_t389
+struct  UnityAction_1_t3671  : public MulticastDelegate_t389
 {
 };

@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Match
-struct Match_t1629;
+struct Match_t1631;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.MatchEvaluator
-struct  MatchEvaluator_t1702  : public MulticastDelegate_t389
+struct  MatchEvaluator_t1704  : public MulticastDelegate_t389
 {
 };

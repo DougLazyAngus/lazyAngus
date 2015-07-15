@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // GamePhaseState/GamePhaseChangedEventHandler
-struct  GamePhaseChangedEventHandler_t427  : public MulticastDelegate_t389
+struct  GamePhaseChangedEventHandler_t429  : public MulticastDelegate_t389
 {
 };

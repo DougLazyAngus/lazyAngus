@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.NonBacktrackingGroup
-struct NonBacktrackingGroup_t1679;
+struct NonBacktrackingGroup_t1681;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t1722;
+struct ICompiler_t1724;
 
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::.ctor()
-extern "C" void NonBacktrackingGroup__ctor_m8476 (NonBacktrackingGroup_t1679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup__ctor_m8501 (NonBacktrackingGroup_t1681 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void NonBacktrackingGroup_Compile_m8477 (NonBacktrackingGroup_t1679 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup_Compile_m8502 (NonBacktrackingGroup_t1681 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::IsComplex()
-extern "C" bool NonBacktrackingGroup_IsComplex_m8478 (NonBacktrackingGroup_t1679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NonBacktrackingGroup_IsComplex_m8503 (NonBacktrackingGroup_t1681 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PlayerController/BodyMovementType
-struct BodyMovementType_t486;
+struct BodyMovementType_t487;
 

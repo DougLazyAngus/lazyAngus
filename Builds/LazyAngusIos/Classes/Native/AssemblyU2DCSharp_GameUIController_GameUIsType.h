@@ -5,7 +5,7 @@
 // GameUIController/GameUIsType
 #include "AssemblyU2DCSharp_GameUIController_GameUIsType.h"
 // GameUIController/GameUIsType
-struct  GameUIsType_t432 
+struct  GameUIsType_t433 
 {
 	// System.Int32 GameUIController/GameUIsType::value__
 	int32_t ___value___1;

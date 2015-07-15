@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.CaptureAssertion
-struct CaptureAssertion_t1684;
+struct CaptureAssertion_t1686;
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t1677;
+struct CapturingGroup_t1679;
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion
-struct ExpressionAssertion_t1682;
+struct ExpressionAssertion_t1684;
 // System.Text.RegularExpressions.Syntax.Literal
-struct Literal_t1683;
+struct Literal_t1685;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t1722;
+struct ICompiler_t1724;
 
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::.ctor(System.Text.RegularExpressions.Syntax.Literal)
-extern "C" void CaptureAssertion__ctor_m8492 (CaptureAssertion_t1684 * __this, Literal_t1683 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CaptureAssertion__ctor_m8517 (CaptureAssertion_t1686 * __this, Literal_t1685 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern "C" void CaptureAssertion_set_CapturingGroup_m8493 (CaptureAssertion_t1684 * __this, CapturingGroup_t1677 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CaptureAssertion_set_CapturingGroup_m8518 (CaptureAssertion_t1686 * __this, CapturingGroup_t1679 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void CaptureAssertion_Compile_m8494 (CaptureAssertion_t1684 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CaptureAssertion_Compile_m8519 (CaptureAssertion_t1686 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.CaptureAssertion::IsComplex()
-extern "C" bool CaptureAssertion_IsComplex_m8495 (CaptureAssertion_t1684 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CaptureAssertion_IsComplex_m8520 (CaptureAssertion_t1686 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion System.Text.RegularExpressions.Syntax.CaptureAssertion::get_Alternate()
-extern "C" ExpressionAssertion_t1682 * CaptureAssertion_get_Alternate_m8496 (CaptureAssertion_t1684 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ExpressionAssertion_t1684 * CaptureAssertion_get_Alternate_m8521 (CaptureAssertion_t1686 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

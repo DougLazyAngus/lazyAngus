@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct List_1_t1211;
+struct List_1_t1213;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Events.InvokableCallList
-struct  InvokableCallList_t1212  : public Object_t
+struct  InvokableCallList_t1214  : public Object_t
 {
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_PersistentCalls
-	List_1_t1211 * ___m_PersistentCalls_0;
+	List_1_t1213 * ___m_PersistentCalls_0;
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_RuntimeCalls
-	List_1_t1211 * ___m_RuntimeCalls_1;
+	List_1_t1213 * ___m_RuntimeCalls_1;
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_ExecutingCalls
-	List_1_t1211 * ___m_ExecutingCalls_2;
+	List_1_t1213 * ___m_ExecutingCalls_2;
 };

@@ -7,7 +7,7 @@ struct TweetTemplate_t255;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<TweetTemplate>
-struct  Enumerator_t3527 
+struct  Enumerator_t3529 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<TweetTemplate>::l
 	List_1_t252 * ___l_0;

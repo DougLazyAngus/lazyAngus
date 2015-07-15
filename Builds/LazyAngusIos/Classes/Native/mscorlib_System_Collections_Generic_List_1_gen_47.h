@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree/Node[]
-struct NodeU5BU5D_t3542;
+struct NodeU5BU5D_t3544;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
-struct  List_1_t1435  : public Object_t
+struct  List_1_t1437  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_items
-	NodeU5BU5D_t3542* ____items_1;
+	NodeU5BU5D_t3544* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1435_StaticFields{
+struct List_1_t1437_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::EmptyArray
-	NodeU5BU5D_t3542* ___EmptyArray_4;
+	NodeU5BU5D_t3544* ___EmptyArray_4;
 };

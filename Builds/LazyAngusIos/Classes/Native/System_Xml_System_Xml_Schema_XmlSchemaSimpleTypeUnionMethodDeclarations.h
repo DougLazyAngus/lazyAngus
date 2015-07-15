@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaSimpleTypeUnion
-struct XmlSchemaSimpleTypeUnion_t1988;
+struct XmlSchemaSimpleTypeUnion_t1990;
 

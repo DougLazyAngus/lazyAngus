@@ -24,23 +24,29 @@ public class AchievementController : MonoBehaviour {
 		registeredForEvents = true;
 		GameLevelState.instance.GameLevelChanged += 
 			new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
+		GamePhaseState.instance.GameInstanceChanged += 
+			new GamePhaseState.GameInstanceChangedEventHandler(OnGameInstanceChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GameLevelState.instance.GameLevelChanged -= 
 				new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
+			GamePhaseState.instance.GameInstanceChanged -= 
+				new GamePhaseState.GameInstanceChangedEventHandler(OnGameInstanceChanged);
+		}
+	}
+
+	void OnGameInstanceChanged() {
+		if (DebugConfig.instance.useDebugValues) {
+			SocialHelper.instance.ClearAchievements();
 		}
 	}
 
 	void OnGameLevelChanged() {
-		switch (GameLevelState.instance.gameLevel) {
-		case 6:
-			SocialHelper.instance.RecordAchievement ("Wave5");
-			break;
-		case 11:
-			SocialHelper.instance.RecordAchievement ("Wave10");
-			break;
+		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
+		if (ld.previousLevelClearedAchievementID != null) {
+			SocialHelper.instance.RecordAchievement (ld.previousLevelClearedAchievementID);
 		}
 	}
 }

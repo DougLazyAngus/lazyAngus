@@ -40,6 +40,6 @@ extern "C" void SPFacebookAnalytics_SpentCredits_m874 (Object_t * __this /* stat
 // System.Void SPFacebookAnalytics::UnlockedAchievement(System.String)
 extern "C" void SPFacebookAnalytics_UnlockedAchievement_m875 (Object_t * __this /* static, unused */, String_t* ___Describtion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebookAnalytics::LogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void SPFacebookAnalytics_LogEvent_m876 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t540  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPFacebookAnalytics_LogEvent_m876 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t542  ___valueToSum, Dictionary_2_t244 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebookAnalytics::ViewedContent(System.Single,System.String,System.String,System.String)
 extern "C" void SPFacebookAnalytics_ViewedContent_m877 (Object_t * __this /* static, unused */, float ___price, String_t* ___ContentType, String_t* ___ContentId, String_t* ___Currency, const MethodInfo* method) IL2CPP_METHOD_ATTR;

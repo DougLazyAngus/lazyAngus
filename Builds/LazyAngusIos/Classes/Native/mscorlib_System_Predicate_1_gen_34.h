@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.UIVertex>
-struct  Predicate_1_t3713  : public MulticastDelegate_t389
+struct  Predicate_1_t3715  : public MulticastDelegate_t389
 {
 };

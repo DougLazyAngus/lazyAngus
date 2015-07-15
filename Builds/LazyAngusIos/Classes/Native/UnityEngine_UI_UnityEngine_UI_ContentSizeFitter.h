@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t523;
+struct RectTransform_t525;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.ContentSizeFitter/FitMode
@@ -9,14 +9,14 @@ struct RectTransform_t523;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.ContentSizeFitter
-struct  ContentSizeFitter_t830  : public UIBehaviour_t681
+struct  ContentSizeFitter_t831  : public UIBehaviour_t682
 {
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_HorizontalFit
 	int32_t ___m_HorizontalFit_2;
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_VerticalFit
 	int32_t ___m_VerticalFit_3;
 	// UnityEngine.RectTransform UnityEngine.UI.ContentSizeFitter::m_Rect
-	RectTransform_t523 * ___m_Rect_4;
+	RectTransform_t525 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.ContentSizeFitter::m_Tracker
-	DrivenRectTransformTracker_t798  ___m_Tracker_5;
+	DrivenRectTransformTracker_t799  ___m_Tracker_5;
 };

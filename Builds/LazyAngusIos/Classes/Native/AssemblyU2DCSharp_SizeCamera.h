@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SizeCamera
-struct  SizeCamera_t498  : public MonoBehaviour_t67
+struct  SizeCamera_t499  : public MonoBehaviour_t67
 {
 	// System.Single SizeCamera::minWorldAspectRatio
 	float ___minWorldAspectRatio_2;

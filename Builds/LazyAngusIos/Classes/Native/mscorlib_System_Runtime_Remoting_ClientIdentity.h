@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.WeakReference
-struct WeakReference_t1751;
+struct WeakReference_t1753;
 // System.Runtime.Remoting.Identity
 #include "mscorlib_System_Runtime_Remoting_Identity.h"
 // System.Runtime.Remoting.ClientIdentity
-struct  ClientIdentity_t2548  : public Identity_t2541
+struct  ClientIdentity_t2550  : public Identity_t2543
 {
 	// System.WeakReference System.Runtime.Remoting.ClientIdentity::_proxyReference
-	WeakReference_t1751 * ____proxyReference_5;
+	WeakReference_t1753 * ____proxyReference_5;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_PhysicsRaycaster.h"
 // UnityEngine.EventSystems.Physics2DRaycaster
-struct  Physics2DRaycaster_t729  : public PhysicsRaycaster_t730
+struct  Physics2DRaycaster_t730  : public PhysicsRaycaster_t731
 {
 };

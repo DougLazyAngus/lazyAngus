@@ -5,7 +5,7 @@
 // System.Threading.EventResetMode
 #include "mscorlib_System_Threading_EventResetMode.h"
 // System.Threading.EventResetMode
-struct  EventResetMode_t2683 
+struct  EventResetMode_t2685 
 {
 	// System.Int32 System.Threading.EventResetMode::value__
 	int32_t ___value___1;

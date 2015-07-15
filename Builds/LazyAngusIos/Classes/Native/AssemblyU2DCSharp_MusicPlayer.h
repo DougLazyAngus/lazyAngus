@@ -7,7 +7,7 @@ struct IEnumerator_t21;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MusicPlayer
-struct  MusicPlayer_t477  : public MonoBehaviour_t67
+struct  MusicPlayer_t478  : public MonoBehaviour_t67
 {
 	// System.Boolean MusicPlayer::registeredForEvents
 	bool ___registeredForEvents_2;

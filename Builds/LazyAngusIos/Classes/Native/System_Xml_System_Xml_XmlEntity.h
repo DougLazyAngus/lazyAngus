@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t2035;
+struct XmlLinkedNode_t2037;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlEntity
-struct  XmlEntity_t2050  : public XmlNode_t562
+struct  XmlEntity_t2052  : public XmlNode_t564
 {
 	// System.String System.Xml.XmlEntity::name
 	String_t* ___name_5;
@@ -20,7 +20,7 @@ struct  XmlEntity_t2050  : public XmlNode_t562
 	// System.String System.Xml.XmlEntity::baseUri
 	String_t* ___baseUri_9;
 	// System.Xml.XmlLinkedNode System.Xml.XmlEntity::lastLinkedChild
-	XmlLinkedNode_t2035 * ___lastLinkedChild_10;
+	XmlLinkedNode_t2037 * ___lastLinkedChild_10;
 	// System.Boolean System.Xml.XmlEntity::contentAlreadySet
 	bool ___contentAlreadySet_11;
 };

@@ -5,7 +5,7 @@ struct Dictionary_2_t244;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SimpleJson.JsonObject
-struct  JsonObject_t1136  : public Object_t
+struct  JsonObject_t1138  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<System.String,System.Object> SimpleJson.JsonObject::_members
 	Dictionary_2_t244 * ____members_0;

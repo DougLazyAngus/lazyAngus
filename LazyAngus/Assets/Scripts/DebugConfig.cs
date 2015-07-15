@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class DebugConfig : MonoBehaviour {
-	public bool isDebug;
+	public bool useDebugValues { get; private set; }
 	
 	public bool debugFBShare = false;
 	public bool debugTwitterShare = false;
@@ -12,11 +12,10 @@ public class DebugConfig : MonoBehaviour {
 
 
 	void Awake() {
+		useDebugValues = true;
 		instance = this;
 	}
 
 	void Start() {
 	}
-
-
 }

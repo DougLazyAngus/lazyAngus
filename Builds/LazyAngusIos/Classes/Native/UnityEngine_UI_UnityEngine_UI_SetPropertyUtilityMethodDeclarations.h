@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.SetPropertyUtility
-struct SetPropertyUtility_t808;
+struct SetPropertyUtility_t809;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetColor(UnityEngine.Color&,UnityEngine.Color)
-extern "C" bool SetPropertyUtility_SetColor_m4165 (Object_t * __this /* static, unused */, Color_t257 * ___currentValue, Color_t257  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SetPropertyUtility_SetColor_m4190 (Object_t * __this /* static, unused */, Color_t257 * ___currentValue, Color_t257  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

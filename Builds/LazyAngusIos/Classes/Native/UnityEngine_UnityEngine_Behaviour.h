@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Behaviour
-struct  Behaviour_t928  : public Component_t597
+struct  Behaviour_t929  : public Component_t599
 {
 };

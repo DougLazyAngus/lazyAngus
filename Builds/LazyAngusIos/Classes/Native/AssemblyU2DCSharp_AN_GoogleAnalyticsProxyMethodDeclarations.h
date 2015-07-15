@@ -9,12 +9,12 @@ struct AN_GoogleAnalyticsProxy_t102;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t531;
+struct ObjectU5BU5D_t533;
 
 // System.Void AN_GoogleAnalyticsProxy::.ctor()
 extern "C" void AN_GoogleAnalyticsProxy__ctor_m536 (AN_GoogleAnalyticsProxy_t102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAnalyticsProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GoogleAnalyticsProxy_CallActivityFunction_m537 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t531* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GoogleAnalyticsProxy_CallActivityFunction_m537 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t533* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAnalyticsProxy::StartAnalyticsTracking()
 extern "C" void AN_GoogleAnalyticsProxy_StartAnalyticsTracking_m538 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAnalyticsProxy::SetTrackerID(System.String)

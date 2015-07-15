@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.FtpDataStream/ReadDelegate
-struct  ReadDelegate_t1535  : public MulticastDelegate_t389
+struct  ReadDelegate_t1537  : public MulticastDelegate_t389
 {
 };

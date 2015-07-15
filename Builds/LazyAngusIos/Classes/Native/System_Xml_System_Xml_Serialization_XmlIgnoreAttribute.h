@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlIgnoreAttribute
-struct  XmlIgnoreAttribute_t1994  : public Attribute_t343
+struct  XmlIgnoreAttribute_t1996  : public Attribute_t343
 {
 };

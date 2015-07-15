@@ -200,7 +200,7 @@ public class PlayerController : MonoBehaviour {
 
 	void OnApplicationFocus(bool focusStatus) {
 		if (!focusStatus) {
-			if (!DebugConfig.instance.isDebug) {
+			if (!DebugConfig.instance.useDebugValues) {
 				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
 			}
 		}

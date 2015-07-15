@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RectTransform/Edge
-struct Edge_t1057;
+struct Edge_t1059;
 

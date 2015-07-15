@@ -3,15 +3,15 @@
 // UnityEngine.AudioSource
 struct AudioSource_t392;
 // ThrobForEffect
-struct ThrobForEffect_t469;
+struct ThrobForEffect_t470;
 // UnityEngine.GameObject
 struct GameObject_t284;
 // TipConfig
 struct TipConfig_t394;
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t467;
+struct MousePopChangedEventHandler_t468;
 // MouseHole/CapacityChangedEventHandler
-struct CapacityChangedEventHandler_t468;
+struct CapacityChangedEventHandler_t469;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -19,7 +19,7 @@ struct CapacityChangedEventHandler_t468;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t438  : public MonoBehaviour_t67
+struct  MouseHole_t439  : public MonoBehaviour_t67
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
 	Vector3_t413  ___meterOffset_2;
@@ -30,7 +30,7 @@ struct  MouseHole_t438  : public MonoBehaviour_t67
 	// System.Int32 MouseHole::savedMouseCount
 	int32_t ___savedMouseCount_6;
 	// ThrobForEffect MouseHole::throbForEffect
-	ThrobForEffect_t469 * ___throbForEffect_7;
+	ThrobForEffect_t470 * ___throbForEffect_7;
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
 	GameObject_t284 * ___holeMeterPrototype_8;
 	// TipConfig MouseHole::mouseHoleTip
@@ -40,11 +40,11 @@ struct  MouseHole_t438  : public MonoBehaviour_t67
 	// System.Boolean MouseHole::registeredForEvents
 	bool ___registeredForEvents_11;
 	// MouseHole/MousePopChangedEventHandler MouseHole::MousePopChanged
-	MousePopChangedEventHandler_t467 * ___MousePopChanged_12;
+	MousePopChangedEventHandler_t468 * ___MousePopChanged_12;
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
-	CapacityChangedEventHandler_t468 * ___CapacityChanged_13;
+	CapacityChangedEventHandler_t469 * ___CapacityChanged_13;
 };
-struct MouseHole_t438_StaticFields{
+struct MouseHole_t439_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
 	float ___angleBetweenHoles_5;
 };
