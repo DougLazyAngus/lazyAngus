@@ -11,12 +11,9 @@ public class DialogController : MonoBehaviour {
 	}
 
 	public void ShowDialog(GameObject dialog) {
-		ClearActiveDialog ();
-
 		activeDialog = dialog;
 
 		PausedOverlay.instance.SetChildElement(dialog);
-
 		TimeController.instance.PauseTime ();
 	}
 
@@ -24,20 +21,10 @@ public class DialogController : MonoBehaviour {
 		if (dialog != activeDialog) {
 			return;
 		}
-
-		ClearActiveDialog ();
+		activeDialog = null;
 		TimeController.instance.UnPauseTime ();
 	}
-
-	public void ClearActiveDialog() {
-		if (!activeDialog) {
-			return;
-		}
-
-		PausedOverlay.instance.SetChildElement(null);
-		activeDialog = null;
-	}
-
+	
 	public bool IsDialogShowing() {
 		return (activeDialog != null);
 	}

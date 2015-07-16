@@ -56,6 +56,7 @@ public class PausePlayToggle : MonoBehaviour {
 			TimeController.instance.UnPauseTime ();
 		} else {
 			TimeController.instance.PauseTime ();
+			PausedOverlay.instance.ShowBigPlayButton();
 		}
 	}
 }

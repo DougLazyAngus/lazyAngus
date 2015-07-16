@@ -1,0 +1,2767 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "stringLiterals.h"
+// Metadata Definition System.Predicate`1
+extern TypeInfo Predicate_1_t2908_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer Predicate_1_t2908_Il2CppGenericContainer;
+extern TypeInfo Predicate_1_t2908_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Predicate_1_t2908_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Predicate_1_t2908_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Predicate_1_t2908_Il2CppGenericParametersArray[1] = 
+{
+	&Predicate_1_t2908_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer Predicate_1_t2908_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Predicate_1_t2908_il2cpp_TypeInfo, 1, 0, Predicate_1_t2908_Il2CppGenericParametersArray };
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType IntPtr_t_0_0_0;
+extern const Il2CppType IntPtr_t_0_0_0;
+static const ParameterInfo Predicate_1_t2908_Predicate_1__ctor_m16558_ParameterInfos[] = 
+{
+	{"object", 0, 134224980, 0, &Object_t_0_0_0},
+	{"method", 1, 134224981, 0, &IntPtr_t_0_0_0},
+};
+extern const Il2CppType Void_t57_0_0_0;
+// System.Void System.Predicate`1::.ctor(System.Object,System.IntPtr)
+extern const MethodInfo Predicate_1__ctor_m16558_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &Predicate_1_t2908_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t57_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, Predicate_1_t2908_Predicate_1__ctor_m16558_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 3/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5873/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Predicate_1_t2908_gp_0_0_0_0;
+extern const Il2CppType Predicate_1_t2908_gp_0_0_0_0;
+static const ParameterInfo Predicate_1_t2908_Predicate_1_Invoke_m16559_ParameterInfos[] = 
+{
+	{"obj", 0, 134224982, 0, &Predicate_1_t2908_gp_0_0_0_0},
+};
+extern const Il2CppType Boolean_t29_0_0_0;
+// System.Boolean System.Predicate`1::Invoke(T)
+extern const MethodInfo Predicate_1_Invoke_m16559_MethodInfo = 
+{
+	"Invoke"/* name */
+	, NULL/* method */
+	, &Predicate_1_t2908_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t29_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, Predicate_1_t2908_Predicate_1_Invoke_m16559_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 10/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5874/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Predicate_1_t2908_gp_0_0_0_0;
+extern const Il2CppType AsyncCallback_t387_0_0_0;
+extern const Il2CppType AsyncCallback_t387_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo Predicate_1_t2908_Predicate_1_BeginInvoke_m16560_ParameterInfos[] = 
+{
+	{"obj", 0, 134224983, 0, &Predicate_1_t2908_gp_0_0_0_0},
+	{"callback", 1, 134224984, 0, &AsyncCallback_t387_0_0_0},
+	{"object", 2, 134224985, 0, &Object_t_0_0_0},
+};
+extern const Il2CppType IAsyncResult_t386_0_0_0;
+// System.IAsyncResult System.Predicate`1::BeginInvoke(T,System.AsyncCallback,System.Object)
+extern const MethodInfo Predicate_1_BeginInvoke_m16560_MethodInfo = 
+{
+	"BeginInvoke"/* name */
+	, NULL/* method */
+	, &Predicate_1_t2908_il2cpp_TypeInfo/* declaring_type */
+	, &IAsyncResult_t386_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, Predicate_1_t2908_Predicate_1_BeginInvoke_m16560_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 11/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5875/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IAsyncResult_t386_0_0_0;
+static const ParameterInfo Predicate_1_t2908_Predicate_1_EndInvoke_m16561_ParameterInfos[] = 
+{
+	{"result", 0, 134224986, 0, &IAsyncResult_t386_0_0_0},
+};
+// System.Boolean System.Predicate`1::EndInvoke(System.IAsyncResult)
+extern const MethodInfo Predicate_1_EndInvoke_m16561_MethodInfo = 
+{
+	"EndInvoke"/* name */
+	, NULL/* method */
+	, &Predicate_1_t2908_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t29_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, Predicate_1_t2908_Predicate_1_EndInvoke_m16561_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 12/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5876/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* Predicate_1_t2908_MethodInfos[] =
+{
+	&Predicate_1__ctor_m16558_MethodInfo,
+	&Predicate_1_Invoke_m16559_MethodInfo,
+	&Predicate_1_BeginInvoke_m16560_MethodInfo,
+	&Predicate_1_EndInvoke_m16561_MethodInfo,
+	NULL
+};
+extern const MethodInfo MulticastDelegate_Equals_m3346_MethodInfo;
+extern const MethodInfo Object_Finalize_m230_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m3347_MethodInfo;
+extern const MethodInfo Object_ToString_m253_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m3348_MethodInfo;
+extern const MethodInfo Delegate_Clone_m3349_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m3350_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m3351_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m3352_MethodInfo;
+extern const MethodInfo Predicate_1_Invoke_m16559_MethodInfo;
+extern const MethodInfo Predicate_1_BeginInvoke_m16560_MethodInfo;
+extern const MethodInfo Predicate_1_EndInvoke_m16561_MethodInfo;
+static const Il2CppMethodReference Predicate_1_t2908_VTable[] =
+{
+	&MulticastDelegate_Equals_m3346_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3347_MethodInfo,
+	&Object_ToString_m253_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&Delegate_Clone_m3349_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3350_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3351_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3352_MethodInfo,
+	&Predicate_1_Invoke_m16559_MethodInfo,
+	&Predicate_1_BeginInvoke_m16560_MethodInfo,
+	&Predicate_1_EndInvoke_m16561_MethodInfo,
+};
+static bool Predicate_1_t2908_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppType ICloneable_t664_0_0_0;
+extern const Il2CppType ISerializable_t656_0_0_0;
+static Il2CppInterfaceOffsetPair Predicate_1_t2908_InterfacesOffsets[] = 
+{
+	{ &ICloneable_t664_0_0_0, 4},
+	{ &ISerializable_t656_0_0_0, 4},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType Predicate_1_t2908_0_0_0;
+extern const Il2CppType Predicate_1_t2908_1_0_0;
+extern const Il2CppType MulticastDelegate_t389_0_0_0;
+struct Predicate_1_t2908;
+const Il2CppTypeDefinitionMetadata Predicate_1_t2908_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, Predicate_1_t2908_InterfacesOffsets/* interfaceOffsets */
+	, &MulticastDelegate_t389_0_0_0/* parent */
+	, Predicate_1_t2908_VTable/* vtableMethods */
+	, Predicate_1_t2908_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo Predicate_1_t2908_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "Predicate`1"/* name */
+	, "System"/* namespaze */
+	, Predicate_1_t2908_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &Predicate_1_t2908_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &Predicate_1_t2908_0_0_0/* byval_arg */
+	, &Predicate_1_t2908_1_0_0/* this_arg */
+	, &Predicate_1_t2908_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &Predicate_1_t2908_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 257/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 4/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 13/* vtable_count */
+	, 0/* interfaces_count */
+	, 2/* interface_offsets_count */
+
+};
+// System.ResolveEventHandler
+#include "mscorlib_System_ResolveEventHandler.h"
+// Metadata Definition System.ResolveEventHandler
+extern TypeInfo ResolveEventHandler_t2701_il2cpp_TypeInfo;
+// System.ResolveEventHandler
+#include "mscorlib_System_ResolveEventHandlerMethodDeclarations.h"
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType IntPtr_t_0_0_0;
+static const ParameterInfo ResolveEventHandler_t2701_ResolveEventHandler__ctor_m15881_ParameterInfos[] = 
+{
+	{"object", 0, 134224987, 0, &Object_t_0_0_0},
+	{"method", 1, 134224988, 0, &IntPtr_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
+// System.Void System.ResolveEventHandler::.ctor(System.Object,System.IntPtr)
+extern const MethodInfo ResolveEventHandler__ctor_m15881_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&ResolveEventHandler__ctor_m15881/* method */
+	, &ResolveEventHandler_t2701_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t57_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
+	, ResolveEventHandler_t2701_ResolveEventHandler__ctor_m15881_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 3/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5877/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType ResolveEventArgs_t2755_0_0_0;
+extern const Il2CppType ResolveEventArgs_t2755_0_0_0;
+static const ParameterInfo ResolveEventHandler_t2701_ResolveEventHandler_Invoke_m15882_ParameterInfos[] = 
+{
+	{"sender", 0, 134224989, 0, &Object_t_0_0_0},
+	{"args", 1, 134224990, 0, &ResolveEventArgs_t2755_0_0_0},
+};
+extern const Il2CppType Assembly_t607_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.Assembly System.ResolveEventHandler::Invoke(System.Object,System.ResolveEventArgs)
+extern const MethodInfo ResolveEventHandler_Invoke_m15882_MethodInfo = 
+{
+	"Invoke"/* name */
+	, (methodPointerType)&ResolveEventHandler_Invoke_m15882/* method */
+	, &ResolveEventHandler_t2701_il2cpp_TypeInfo/* declaring_type */
+	, &Assembly_t607_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ResolveEventHandler_t2701_ResolveEventHandler_Invoke_m15882_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 10/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5878/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType ResolveEventArgs_t2755_0_0_0;
+extern const Il2CppType AsyncCallback_t387_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ResolveEventHandler_t2701_ResolveEventHandler_BeginInvoke_m15883_ParameterInfos[] = 
+{
+	{"sender", 0, 134224991, 0, &Object_t_0_0_0},
+	{"args", 1, 134224992, 0, &ResolveEventArgs_t2755_0_0_0},
+	{"callback", 2, 134224993, 0, &AsyncCallback_t387_0_0_0},
+	{"object", 3, 134224994, 0, &Object_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.IAsyncResult System.ResolveEventHandler::BeginInvoke(System.Object,System.ResolveEventArgs,System.AsyncCallback,System.Object)
+extern const MethodInfo ResolveEventHandler_BeginInvoke_m15883_MethodInfo = 
+{
+	"BeginInvoke"/* name */
+	, (methodPointerType)&ResolveEventHandler_BeginInvoke_m15883/* method */
+	, &ResolveEventHandler_t2701_il2cpp_TypeInfo/* declaring_type */
+	, &IAsyncResult_t386_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
+	, ResolveEventHandler_t2701_ResolveEventHandler_BeginInvoke_m15883_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 11/* slot */
+	, 4/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5879/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IAsyncResult_t386_0_0_0;
+static const ParameterInfo ResolveEventHandler_t2701_ResolveEventHandler_EndInvoke_m15884_ParameterInfos[] = 
+{
+	{"result", 0, 134224995, 0, &IAsyncResult_t386_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.Assembly System.ResolveEventHandler::EndInvoke(System.IAsyncResult)
+extern const MethodInfo ResolveEventHandler_EndInvoke_m15884_MethodInfo = 
+{
+	"EndInvoke"/* name */
+	, (methodPointerType)&ResolveEventHandler_EndInvoke_m15884/* method */
+	, &ResolveEventHandler_t2701_il2cpp_TypeInfo/* declaring_type */
+	, &Assembly_t607_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ResolveEventHandler_t2701_ResolveEventHandler_EndInvoke_m15884_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 12/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5880/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* ResolveEventHandler_t2701_MethodInfos[] =
+{
+	&ResolveEventHandler__ctor_m15881_MethodInfo,
+	&ResolveEventHandler_Invoke_m15882_MethodInfo,
+	&ResolveEventHandler_BeginInvoke_m15883_MethodInfo,
+	&ResolveEventHandler_EndInvoke_m15884_MethodInfo,
+	NULL
+};
+extern const MethodInfo ResolveEventHandler_Invoke_m15882_MethodInfo;
+extern const MethodInfo ResolveEventHandler_BeginInvoke_m15883_MethodInfo;
+extern const MethodInfo ResolveEventHandler_EndInvoke_m15884_MethodInfo;
+static const Il2CppMethodReference ResolveEventHandler_t2701_VTable[] =
+{
+	&MulticastDelegate_Equals_m3346_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3347_MethodInfo,
+	&Object_ToString_m253_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&Delegate_Clone_m3349_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3350_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3351_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3352_MethodInfo,
+	&ResolveEventHandler_Invoke_m15882_MethodInfo,
+	&ResolveEventHandler_BeginInvoke_m15883_MethodInfo,
+	&ResolveEventHandler_EndInvoke_m15884_MethodInfo,
+};
+static bool ResolveEventHandler_t2701_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+};
+static Il2CppInterfaceOffsetPair ResolveEventHandler_t2701_InterfacesOffsets[] = 
+{
+	{ &ICloneable_t664_0_0_0, 4},
+	{ &ISerializable_t656_0_0_0, 4},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType ResolveEventHandler_t2701_0_0_0;
+extern const Il2CppType ResolveEventHandler_t2701_1_0_0;
+struct ResolveEventHandler_t2701;
+const Il2CppTypeDefinitionMetadata ResolveEventHandler_t2701_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, ResolveEventHandler_t2701_InterfacesOffsets/* interfaceOffsets */
+	, &MulticastDelegate_t389_0_0_0/* parent */
+	, ResolveEventHandler_t2701_VTable/* vtableMethods */
+	, ResolveEventHandler_t2701_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo ResolveEventHandler_t2701_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ResolveEventHandler"/* name */
+	, "System"/* namespaze */
+	, ResolveEventHandler_t2701_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &ResolveEventHandler_t2701_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 978/* custom_attributes_cache */
+	, &ResolveEventHandler_t2701_0_0_0/* byval_arg */
+	, &ResolveEventHandler_t2701_1_0_0/* this_arg */
+	, &ResolveEventHandler_t2701_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)pinvoke_delegate_wrapper_ResolveEventHandler_t2701/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (ResolveEventHandler_t2701)/* instance_size */
+	, sizeof (ResolveEventHandler_t2701)/* actualSize */
+	, 0/* element_size */
+	, sizeof(methodPointerType)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 4/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 13/* vtable_count */
+	, 0/* interfaces_count */
+	, 2/* interface_offsets_count */
+
+};
+// System.UnhandledExceptionEventHandler
+#include "mscorlib_System_UnhandledExceptionEventHandler.h"
+// Metadata Definition System.UnhandledExceptionEventHandler
+extern TypeInfo UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo;
+// System.UnhandledExceptionEventHandler
+#include "mscorlib_System_UnhandledExceptionEventHandlerMethodDeclarations.h"
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType IntPtr_t_0_0_0;
+static const ParameterInfo UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler__ctor_m15885_ParameterInfos[] = 
+{
+	{"object", 0, 134224996, 0, &Object_t_0_0_0},
+	{"method", 1, 134224997, 0, &IntPtr_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
+// System.Void System.UnhandledExceptionEventHandler::.ctor(System.Object,System.IntPtr)
+extern const MethodInfo UnhandledExceptionEventHandler__ctor_m15885_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&UnhandledExceptionEventHandler__ctor_m15885/* method */
+	, &UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t57_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
+	, UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler__ctor_m15885_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 3/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5881/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType UnhandledExceptionEventArgs_t2765_0_0_0;
+extern const Il2CppType UnhandledExceptionEventArgs_t2765_0_0_0;
+static const ParameterInfo UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_Invoke_m15886_ParameterInfos[] = 
+{
+	{"sender", 0, 134224998, 0, &Object_t_0_0_0},
+	{"e", 1, 134224999, 0, &UnhandledExceptionEventArgs_t2765_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void System.UnhandledExceptionEventHandler::Invoke(System.Object,System.UnhandledExceptionEventArgs)
+extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m15886_MethodInfo = 
+{
+	"Invoke"/* name */
+	, (methodPointerType)&UnhandledExceptionEventHandler_Invoke_m15886/* method */
+	, &UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t57_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
+	, UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_Invoke_m15886_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 10/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5882/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType UnhandledExceptionEventArgs_t2765_0_0_0;
+extern const Il2CppType AsyncCallback_t387_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_BeginInvoke_m15887_ParameterInfos[] = 
+{
+	{"sender", 0, 134225000, 0, &Object_t_0_0_0},
+	{"e", 1, 134225001, 0, &UnhandledExceptionEventArgs_t2765_0_0_0},
+	{"callback", 2, 134225002, 0, &AsyncCallback_t387_0_0_0},
+	{"object", 3, 134225003, 0, &Object_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.IAsyncResult System.UnhandledExceptionEventHandler::BeginInvoke(System.Object,System.UnhandledExceptionEventArgs,System.AsyncCallback,System.Object)
+extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m15887_MethodInfo = 
+{
+	"BeginInvoke"/* name */
+	, (methodPointerType)&UnhandledExceptionEventHandler_BeginInvoke_m15887/* method */
+	, &UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo/* declaring_type */
+	, &IAsyncResult_t386_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
+	, UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_BeginInvoke_m15887_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 11/* slot */
+	, 4/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5883/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IAsyncResult_t386_0_0_0;
+static const ParameterInfo UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_EndInvoke_m15888_ParameterInfos[] = 
+{
+	{"result", 0, 134225004, 0, &IAsyncResult_t386_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void System.UnhandledExceptionEventHandler::EndInvoke(System.IAsyncResult)
+extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m15888_MethodInfo = 
+{
+	"EndInvoke"/* name */
+	, (methodPointerType)&UnhandledExceptionEventHandler_EndInvoke_m15888/* method */
+	, &UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t57_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
+	, UnhandledExceptionEventHandler_t2702_UnhandledExceptionEventHandler_EndInvoke_m15888_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 3/* iflags */
+	, 12/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 5884/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* UnhandledExceptionEventHandler_t2702_MethodInfos[] =
+{
+	&UnhandledExceptionEventHandler__ctor_m15885_MethodInfo,
+	&UnhandledExceptionEventHandler_Invoke_m15886_MethodInfo,
+	&UnhandledExceptionEventHandler_BeginInvoke_m15887_MethodInfo,
+	&UnhandledExceptionEventHandler_EndInvoke_m15888_MethodInfo,
+	NULL
+};
+extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m15886_MethodInfo;
+extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m15887_MethodInfo;
+extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m15888_MethodInfo;
+static const Il2CppMethodReference UnhandledExceptionEventHandler_t2702_VTable[] =
+{
+	&MulticastDelegate_Equals_m3346_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3347_MethodInfo,
+	&Object_ToString_m253_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&Delegate_Clone_m3349_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3348_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3350_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3351_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3352_MethodInfo,
+	&UnhandledExceptionEventHandler_Invoke_m15886_MethodInfo,
+	&UnhandledExceptionEventHandler_BeginInvoke_m15887_MethodInfo,
+	&UnhandledExceptionEventHandler_EndInvoke_m15888_MethodInfo,
+};
+static bool UnhandledExceptionEventHandler_t2702_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+};
+static Il2CppInterfaceOffsetPair UnhandledExceptionEventHandler_t2702_InterfacesOffsets[] = 
+{
+	{ &ICloneable_t664_0_0_0, 4},
+	{ &ISerializable_t656_0_0_0, 4},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType UnhandledExceptionEventHandler_t2702_0_0_0;
+extern const Il2CppType UnhandledExceptionEventHandler_t2702_1_0_0;
+struct UnhandledExceptionEventHandler_t2702;
+const Il2CppTypeDefinitionMetadata UnhandledExceptionEventHandler_t2702_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, UnhandledExceptionEventHandler_t2702_InterfacesOffsets/* interfaceOffsets */
+	, &MulticastDelegate_t389_0_0_0/* parent */
+	, UnhandledExceptionEventHandler_t2702_VTable/* vtableMethods */
+	, UnhandledExceptionEventHandler_t2702_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "UnhandledExceptionEventHandler"/* name */
+	, "System"/* namespaze */
+	, UnhandledExceptionEventHandler_t2702_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &UnhandledExceptionEventHandler_t2702_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 979/* custom_attributes_cache */
+	, &UnhandledExceptionEventHandler_t2702_0_0_0/* byval_arg */
+	, &UnhandledExceptionEventHandler_t2702_1_0_0/* this_arg */
+	, &UnhandledExceptionEventHandler_t2702_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)pinvoke_delegate_wrapper_UnhandledExceptionEventHandler_t2702/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (UnhandledExceptionEventHandler_t2702)/* instance_size */
+	, sizeof (UnhandledExceptionEventHandler_t2702)/* actualSize */
+	, 0/* element_size */
+	, sizeof(methodPointerType)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 4/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 13/* vtable_count */
+	, 0/* interfaces_count */
+	, 2/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$56
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$56
+extern TypeInfo U24ArrayTypeU2456_t2771_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$56
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2456_t2771_MethodInfos[] =
+{
+	NULL
+};
+extern const MethodInfo ValueType_Equals_m5122_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m5123_MethodInfo;
+extern const MethodInfo ValueType_ToString_m5126_MethodInfo;
+static const Il2CppMethodReference U24ArrayTypeU2456_t2771_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2456_t2771_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2456_t2771_0_0_0;
+extern const Il2CppType U24ArrayTypeU2456_t2771_1_0_0;
+extern const Il2CppType ValueType_t971_0_0_0;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t2791_il2cpp_TypeInfo;
+extern const Il2CppType U3CPrivateImplementationDetailsU3E_t2791_0_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2456_t2771_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2456_t2771_VTable/* vtableMethods */
+	, U24ArrayTypeU2456_t2771_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2456_t2771_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$56"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2456_t2771_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2456_t2771_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2456_t2771_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2456_t2771_1_0_0/* this_arg */
+	, &U24ArrayTypeU2456_t2771_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2456_t2771_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2456_t2771_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2456_t2771_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2456_t2771)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2456_t2771)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2456_t2771_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$24
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$24
+extern TypeInfo U24ArrayTypeU2424_t2772_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$24
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2424_t2772_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2424_t2772_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2424_t2772_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2424_t2772_0_0_0;
+extern const Il2CppType U24ArrayTypeU2424_t2772_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2424_t2772_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2424_t2772_VTable/* vtableMethods */
+	, U24ArrayTypeU2424_t2772_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2424_t2772_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$24"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2424_t2772_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2424_t2772_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2424_t2772_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2424_t2772_1_0_0/* this_arg */
+	, &U24ArrayTypeU2424_t2772_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2424_t2772_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2424_t2772_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2424_t2772_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2424_t2772)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2424_t2772)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2424_t2772_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$16
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$16
+extern TypeInfo U24ArrayTypeU2416_t2773_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$16
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2416_t2773_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2416_t2773_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2416_t2773_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2416_t2773_0_0_0;
+extern const Il2CppType U24ArrayTypeU2416_t2773_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2416_t2773_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2416_t2773_VTable/* vtableMethods */
+	, U24ArrayTypeU2416_t2773_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2416_t2773_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$16"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2416_t2773_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2416_t2773_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2416_t2773_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2416_t2773_1_0_0/* this_arg */
+	, &U24ArrayTypeU2416_t2773_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2416_t2773_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2416_t2773_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2416_t2773_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2416_t2773)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2416_t2773)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2416_t2773_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$120
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_0.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$120
+extern TypeInfo U24ArrayTypeU24120_t2774_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$120
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_0MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24120_t2774_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24120_t2774_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24120_t2774_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24120_t2774_0_0_0;
+extern const Il2CppType U24ArrayTypeU24120_t2774_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24120_t2774_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24120_t2774_VTable/* vtableMethods */
+	, U24ArrayTypeU24120_t2774_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24120_t2774_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$120"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24120_t2774_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24120_t2774_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24120_t2774_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24120_t2774_1_0_0/* this_arg */
+	, &U24ArrayTypeU24120_t2774_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24120_t2774_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24120_t2774_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24120_t2774_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24120_t2774)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24120_t2774)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24120_t2774_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$3132
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$3132
+extern TypeInfo U24ArrayTypeU243132_t2775_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$3132
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU243132_t2775_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU243132_t2775_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU243132_t2775_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU243132_t2775_0_0_0;
+extern const Il2CppType U24ArrayTypeU243132_t2775_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU243132_t2775_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU243132_t2775_VTable/* vtableMethods */
+	, U24ArrayTypeU243132_t2775_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU243132_t2775_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$3132"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU243132_t2775_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU243132_t2775_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU243132_t2775_0_0_0/* byval_arg */
+	, &U24ArrayTypeU243132_t2775_1_0_0/* this_arg */
+	, &U24ArrayTypeU243132_t2775_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU243132_t2775_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU243132_t2775_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU243132_t2775_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU243132_t2775)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU243132_t2775)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU243132_t2775_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$20
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_0.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$20
+extern TypeInfo U24ArrayTypeU2420_t2776_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$20
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_0MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2420_t2776_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2420_t2776_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2420_t2776_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2420_t2776_0_0_0;
+extern const Il2CppType U24ArrayTypeU2420_t2776_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2420_t2776_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2420_t2776_VTable/* vtableMethods */
+	, U24ArrayTypeU2420_t2776_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2420_t2776_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$20"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2420_t2776_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2420_t2776_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2420_t2776_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2420_t2776_1_0_0/* this_arg */
+	, &U24ArrayTypeU2420_t2776_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2420_t2776_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2420_t2776_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2420_t2776_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2420_t2776)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2420_t2776)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2420_t2776_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$32
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243_0.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$32
+extern TypeInfo U24ArrayTypeU2432_t2777_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$32
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243_0MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2432_t2777_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2432_t2777_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2432_t2777_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2432_t2777_0_0_0;
+extern const Il2CppType U24ArrayTypeU2432_t2777_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2432_t2777_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2432_t2777_VTable/* vtableMethods */
+	, U24ArrayTypeU2432_t2777_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2432_t2777_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$32"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2432_t2777_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2432_t2777_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2432_t2777_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2432_t2777_1_0_0/* this_arg */
+	, &U24ArrayTypeU2432_t2777_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2432_t2777_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2432_t2777_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2432_t2777_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2432_t2777)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2432_t2777)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2432_t2777_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$48
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU244.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$48
+extern TypeInfo U24ArrayTypeU2448_t2778_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$48
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU244MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2448_t2778_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2448_t2778_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2448_t2778_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2448_t2778_0_0_0;
+extern const Il2CppType U24ArrayTypeU2448_t2778_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2448_t2778_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2448_t2778_VTable/* vtableMethods */
+	, U24ArrayTypeU2448_t2778_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2448_t2778_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$48"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2448_t2778_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2448_t2778_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2448_t2778_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2448_t2778_1_0_0/* this_arg */
+	, &U24ArrayTypeU2448_t2778_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2448_t2778_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2448_t2778_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2448_t2778_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2448_t2778)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2448_t2778)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2448_t2778_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$64
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$64
+extern TypeInfo U24ArrayTypeU2464_t2779_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$64
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2464_t2779_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2464_t2779_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2464_t2779_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2464_t2779_0_0_0;
+extern const Il2CppType U24ArrayTypeU2464_t2779_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2464_t2779_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2464_t2779_VTable/* vtableMethods */
+	, U24ArrayTypeU2464_t2779_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2464_t2779_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$64"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2464_t2779_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2464_t2779_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2464_t2779_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2464_t2779_1_0_0/* this_arg */
+	, &U24ArrayTypeU2464_t2779_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2464_t2779_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2464_t2779_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2464_t2779_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2464_t2779)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2464_t2779)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2464_t2779_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$12
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_1.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$12
+extern TypeInfo U24ArrayTypeU2412_t2780_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$12
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_1MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2412_t2780_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2412_t2780_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2412_t2780_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2412_t2780_0_0_0;
+extern const Il2CppType U24ArrayTypeU2412_t2780_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2412_t2780_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2412_t2780_VTable/* vtableMethods */
+	, U24ArrayTypeU2412_t2780_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2412_t2780_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$12"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2412_t2780_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2412_t2780_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2412_t2780_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2412_t2780_1_0_0/* this_arg */
+	, &U24ArrayTypeU2412_t2780_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2412_t2780_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2412_t2780_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2412_t2780_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2412_t2780)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2412_t2780)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2412_t2780_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$136
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_2.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$136
+extern TypeInfo U24ArrayTypeU24136_t2781_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$136
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_2MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24136_t2781_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24136_t2781_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24136_t2781_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24136_t2781_0_0_0;
+extern const Il2CppType U24ArrayTypeU24136_t2781_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24136_t2781_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24136_t2781_VTable/* vtableMethods */
+	, U24ArrayTypeU24136_t2781_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24136_t2781_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$136"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24136_t2781_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24136_t2781_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24136_t2781_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24136_t2781_1_0_0/* this_arg */
+	, &U24ArrayTypeU24136_t2781_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24136_t2781_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24136_t2781_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24136_t2781_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24136_t2781)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24136_t2781)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24136_t2781_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$72
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU247.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$72
+extern TypeInfo U24ArrayTypeU2472_t2782_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$72
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU247MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2472_t2782_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2472_t2782_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2472_t2782_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2472_t2782_0_0_0;
+extern const Il2CppType U24ArrayTypeU2472_t2782_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2472_t2782_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2472_t2782_VTable/* vtableMethods */
+	, U24ArrayTypeU2472_t2782_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2472_t2782_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$72"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2472_t2782_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2472_t2782_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2472_t2782_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2472_t2782_1_0_0/* this_arg */
+	, &U24ArrayTypeU2472_t2782_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2472_t2782_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2472_t2782_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2472_t2782_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2472_t2782)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2472_t2782)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2472_t2782_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$124
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_3.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$124
+extern TypeInfo U24ArrayTypeU24124_t2783_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$124
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_3MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24124_t2783_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24124_t2783_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24124_t2783_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24124_t2783_0_0_0;
+extern const Il2CppType U24ArrayTypeU24124_t2783_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24124_t2783_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24124_t2783_VTable/* vtableMethods */
+	, U24ArrayTypeU24124_t2783_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24124_t2783_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$124"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24124_t2783_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24124_t2783_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24124_t2783_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24124_t2783_1_0_0/* this_arg */
+	, &U24ArrayTypeU24124_t2783_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24124_t2783_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24124_t2783_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24124_t2783_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24124_t2783)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24124_t2783)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24124_t2783_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$96
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU249.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$96
+extern TypeInfo U24ArrayTypeU2496_t2784_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$96
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU249MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2496_t2784_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2496_t2784_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2496_t2784_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2496_t2784_0_0_0;
+extern const Il2CppType U24ArrayTypeU2496_t2784_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2496_t2784_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2496_t2784_VTable/* vtableMethods */
+	, U24ArrayTypeU2496_t2784_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2496_t2784_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$96"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2496_t2784_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2496_t2784_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2496_t2784_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2496_t2784_1_0_0/* this_arg */
+	, &U24ArrayTypeU2496_t2784_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2496_t2784_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2496_t2784_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2496_t2784_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2496_t2784)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2496_t2784)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2496_t2784_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$2048
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_1.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$2048
+extern TypeInfo U24ArrayTypeU242048_t2785_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$2048
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_1MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU242048_t2785_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU242048_t2785_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU242048_t2785_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU242048_t2785_0_0_0;
+extern const Il2CppType U24ArrayTypeU242048_t2785_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU242048_t2785_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU242048_t2785_VTable/* vtableMethods */
+	, U24ArrayTypeU242048_t2785_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU242048_t2785_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$2048"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU242048_t2785_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU242048_t2785_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU242048_t2785_0_0_0/* byval_arg */
+	, &U24ArrayTypeU242048_t2785_1_0_0/* this_arg */
+	, &U24ArrayTypeU242048_t2785_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU242048_t2785_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU242048_t2785_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU242048_t2785_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU242048_t2785)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU242048_t2785)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU242048_t2785_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$256
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_2.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$256
+extern TypeInfo U24ArrayTypeU24256_t2786_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$256
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_2MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24256_t2786_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24256_t2786_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24256_t2786_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24256_t2786_0_0_0;
+extern const Il2CppType U24ArrayTypeU24256_t2786_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24256_t2786_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24256_t2786_VTable/* vtableMethods */
+	, U24ArrayTypeU24256_t2786_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24256_t2786_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$256"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24256_t2786_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24256_t2786_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24256_t2786_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24256_t2786_1_0_0/* this_arg */
+	, &U24ArrayTypeU24256_t2786_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24256_t2786_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24256_t2786_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24256_t2786_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24256_t2786)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24256_t2786)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24256_t2786_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$1024
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_4.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$1024
+extern TypeInfo U24ArrayTypeU241024_t2787_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$1024
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_4MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU241024_t2787_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU241024_t2787_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU241024_t2787_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU241024_t2787_0_0_0;
+extern const Il2CppType U24ArrayTypeU241024_t2787_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU241024_t2787_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU241024_t2787_VTable/* vtableMethods */
+	, U24ArrayTypeU241024_t2787_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU241024_t2787_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$1024"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU241024_t2787_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU241024_t2787_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU241024_t2787_0_0_0/* byval_arg */
+	, &U24ArrayTypeU241024_t2787_1_0_0/* this_arg */
+	, &U24ArrayTypeU241024_t2787_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU241024_t2787_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU241024_t2787_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU241024_t2787_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU241024_t2787)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU241024_t2787)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU241024_t2787_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$640
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246_0.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$640
+extern TypeInfo U24ArrayTypeU24640_t2788_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$640
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246_0MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24640_t2788_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24640_t2788_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24640_t2788_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24640_t2788_0_0_0;
+extern const Il2CppType U24ArrayTypeU24640_t2788_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24640_t2788_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24640_t2788_VTable/* vtableMethods */
+	, U24ArrayTypeU24640_t2788_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24640_t2788_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$640"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24640_t2788_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24640_t2788_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24640_t2788_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24640_t2788_1_0_0/* this_arg */
+	, &U24ArrayTypeU24640_t2788_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24640_t2788_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24640_t2788_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24640_t2788_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24640_t2788)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24640_t2788)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24640_t2788_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$128
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_5.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$128
+extern TypeInfo U24ArrayTypeU24128_t2789_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$128
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_5MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU24128_t2789_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU24128_t2789_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU24128_t2789_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU24128_t2789_0_0_0;
+extern const Il2CppType U24ArrayTypeU24128_t2789_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU24128_t2789_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU24128_t2789_VTable/* vtableMethods */
+	, U24ArrayTypeU24128_t2789_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU24128_t2789_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$128"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU24128_t2789_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU24128_t2789_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU24128_t2789_0_0_0/* byval_arg */
+	, &U24ArrayTypeU24128_t2789_1_0_0/* this_arg */
+	, &U24ArrayTypeU24128_t2789_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU24128_t2789_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU24128_t2789_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU24128_t2789_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU24128_t2789)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU24128_t2789)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU24128_t2789_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>/$ArrayType$52
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245_0.h"
+// Metadata Definition <PrivateImplementationDetails>/$ArrayType$52
+extern TypeInfo U24ArrayTypeU2452_t2790_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$52
+#include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245_0MethodDeclarations.h"
+static const MethodInfo* U24ArrayTypeU2452_t2790_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference U24ArrayTypeU2452_t2790_VTable[] =
+{
+	&ValueType_Equals_m5122_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&ValueType_GetHashCode_m5123_MethodInfo,
+	&ValueType_ToString_m5126_MethodInfo,
+};
+static bool U24ArrayTypeU2452_t2790_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U24ArrayTypeU2452_t2790_0_0_0;
+extern const Il2CppType U24ArrayTypeU2452_t2790_1_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU2452_t2790_DefinitionMetadata = 
+{
+	&U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t971_0_0_0/* parent */
+	, U24ArrayTypeU2452_t2790_VTable/* vtableMethods */
+	, U24ArrayTypeU2452_t2790_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo U24ArrayTypeU2452_t2790_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "$ArrayType$52"/* name */
+	, ""/* namespaze */
+	, U24ArrayTypeU2452_t2790_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U24ArrayTypeU2452_t2790_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U24ArrayTypeU2452_t2790_0_0_0/* byval_arg */
+	, &U24ArrayTypeU2452_t2790_1_0_0/* this_arg */
+	, &U24ArrayTypeU2452_t2790_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)U24ArrayTypeU2452_t2790_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU2452_t2790_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU2452_t2790_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU2452_t2790)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU2452_t2790)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(U24ArrayTypeU2452_t2790_marshaled)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 275/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// <PrivateImplementationDetails>
+#include "mscorlib_U3CPrivateImplementationDetailsU3E.h"
+// Metadata Definition <PrivateImplementationDetails>
+// <PrivateImplementationDetails>
+#include "mscorlib_U3CPrivateImplementationDetailsU3EMethodDeclarations.h"
+static const MethodInfo* U3CPrivateImplementationDetailsU3E_t2791_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppType* U3CPrivateImplementationDetailsU3E_t2791_il2cpp_TypeInfo__nestedTypes[20] =
+{
+	&U24ArrayTypeU2456_t2771_0_0_0,
+	&U24ArrayTypeU2424_t2772_0_0_0,
+	&U24ArrayTypeU2416_t2773_0_0_0,
+	&U24ArrayTypeU24120_t2774_0_0_0,
+	&U24ArrayTypeU243132_t2775_0_0_0,
+	&U24ArrayTypeU2420_t2776_0_0_0,
+	&U24ArrayTypeU2432_t2777_0_0_0,
+	&U24ArrayTypeU2448_t2778_0_0_0,
+	&U24ArrayTypeU2464_t2779_0_0_0,
+	&U24ArrayTypeU2412_t2780_0_0_0,
+	&U24ArrayTypeU24136_t2781_0_0_0,
+	&U24ArrayTypeU2472_t2782_0_0_0,
+	&U24ArrayTypeU24124_t2783_0_0_0,
+	&U24ArrayTypeU2496_t2784_0_0_0,
+	&U24ArrayTypeU242048_t2785_0_0_0,
+	&U24ArrayTypeU24256_t2786_0_0_0,
+	&U24ArrayTypeU241024_t2787_0_0_0,
+	&U24ArrayTypeU24640_t2788_0_0_0,
+	&U24ArrayTypeU24128_t2789_0_0_0,
+	&U24ArrayTypeU2452_t2790_0_0_0,
+};
+extern const MethodInfo Object_Equals_m252_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m172_MethodInfo;
+static const Il2CppMethodReference U3CPrivateImplementationDetailsU3E_t2791_VTable[] =
+{
+	&Object_Equals_m252_MethodInfo,
+	&Object_Finalize_m230_MethodInfo,
+	&Object_GetHashCode_m172_MethodInfo,
+	&Object_ToString_m253_MethodInfo,
+};
+static bool U3CPrivateImplementationDetailsU3E_t2791_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern const Il2CppType U3CPrivateImplementationDetailsU3E_t2791_1_0_0;
+struct U3CPrivateImplementationDetailsU3E_t2791;
+const Il2CppTypeDefinitionMetadata U3CPrivateImplementationDetailsU3E_t2791_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, U3CPrivateImplementationDetailsU3E_t2791_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CPrivateImplementationDetailsU3E_t2791_VTable/* vtableMethods */
+	, U3CPrivateImplementationDetailsU3E_t2791_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 2649/* fieldStart */
+
+};
+TypeInfo U3CPrivateImplementationDetailsU3E_t2791_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<PrivateImplementationDetails>"/* name */
+	, ""/* namespaze */
+	, U3CPrivateImplementationDetailsU3E_t2791_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CPrivateImplementationDetailsU3E_t2791_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 980/* custom_attributes_cache */
+	, &U3CPrivateImplementationDetailsU3E_t2791_0_0_0/* byval_arg */
+	, &U3CPrivateImplementationDetailsU3E_t2791_1_0_0/* this_arg */
+	, &U3CPrivateImplementationDetailsU3E_t2791_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CPrivateImplementationDetailsU3E_t2791)/* instance_size */
+	, sizeof (U3CPrivateImplementationDetailsU3E_t2791)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, sizeof(U3CPrivateImplementationDetailsU3E_t2791_StaticFields)/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 0/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 52/* field_count */
+	, 0/* event_count */
+	, 20/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};

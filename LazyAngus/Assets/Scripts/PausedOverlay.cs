@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+
 using System.Collections;
 
 public class PausedOverlay : MonoBehaviour {
 	public static PausedOverlay instance;
-	public GameObject defaultChildElement;
 	public GameObject overlay;
+	public Button bigPlayButton;
 
-	GameObject customChildElement;
+	GameObject childElement;
 
 	bool registeredForEvents;
 	
 	void Awake() {
 		instance = this;
 		registeredForEvents = false;
+		bigPlayButton.gameObject.SetActive (false);
 	}
 	
 	// Use this for initialization
@@ -43,18 +46,25 @@ public class PausedOverlay : MonoBehaviour {
 			overlay.SetActive (true);
 		} else {
 			overlay.SetActive (false);
+
+			bigPlayButton.gameObject.SetActive (false);
+			if (childElement != null) {
+				childElement.transform.SetParent (null, false);
+				childElement = null;
+			}
 		}
 	}
 
-	public void SetChildElement(GameObject childElement) {
-		if (customChildElement) {
-			customChildElement.transform.SetParent (null, false);
-		}
+	public void ShowBigPlayButton() {
+		bigPlayButton.gameObject.SetActive (true);
+	}
 
-		customChildElement = childElement;
-		if (customChildElement == null) {
-			customChildElement = defaultChildElement;
+	public void SetChildElement(GameObject newChildElement) {
+		childElement = newChildElement;
+		bigPlayButton.gameObject.SetActive (false);
+
+		if (childElement != null) {
+			childElement.transform.SetParent (overlay.transform, false);
 		}
-		customChildElement.transform.SetParent (overlay.transform, false);
 	}
 }
