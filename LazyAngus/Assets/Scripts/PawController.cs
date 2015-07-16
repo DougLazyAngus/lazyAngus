@@ -36,8 +36,6 @@ public class PawController : MonoBehaviour {
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
 	float pawHomeCatTransformMagnitude;
-	
-	public AudioSource [] audioSources;
 
 	void Awake() {
 		registerdForEvents = false;
@@ -148,11 +146,8 @@ public class PawController : MonoBehaviour {
 	}
 
 	void PlayRandomSound() {
-		int index = Random.Range (0, audioSources.Length);
-		if (!SoundController.instance.sfxMuted) {
-			audioSources [index].Play ();
-		
-		}
+		SFXPlayer.instance.PlayRandom(SFXPlayer.instance.slapIds,
+		                              0.2f);
 	}
 
 	void UpdatePawState() {

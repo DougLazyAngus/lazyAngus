@@ -14,7 +14,8 @@ public class DialogController : MonoBehaviour {
 		ClearActiveDialog ();
 
 		activeDialog = dialog;
-		dialog.transform.SetParent (PausedOverlay.instance.overlay.transform, false);
+
+		PausedOverlay.instance.SetChildElement(dialog);
 
 		TimeController.instance.PauseTime ();
 	}
@@ -33,7 +34,7 @@ public class DialogController : MonoBehaviour {
 			return;
 		}
 
-		activeDialog.transform.SetParent (null, false);
+		PausedOverlay.instance.SetChildElement(null);
 		activeDialog = null;
 	}
 

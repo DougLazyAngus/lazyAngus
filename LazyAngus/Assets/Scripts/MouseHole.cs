@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class MouseHole : MonoBehaviour {
 	public Vector3 meterOffset;
-	public AudioSource safeMouseAudioSource;
 
 	public enum MouseHoleLocation {
 		NORTH = 0,
@@ -141,9 +140,7 @@ public class MouseHole : MonoBehaviour {
 		mouse.OnSafeExit ();	
 
 		if (CountSavedMouse (mouse)) {
-			if (!SoundController.instance.sfxMuted) {
-				safeMouseAudioSource.Play ();
-			}
+			SFXPlayer.instance.Play (SFXPlayer.SFXType.SAFE_MOUSE);
 
 			TipController.instance.MaybeShowTip (mouseHoleTip);
 			if (MousePopChanged != null) {

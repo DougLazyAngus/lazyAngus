@@ -6,13 +6,11 @@ public class DeadMouse : MonoBehaviour {
 
 	public float deadMouseZ = -1.0f;
 
-	public AudioSource[] audioSources;
-
 	// Use this for initialization
 	void Start () {
-		int index = Random.Range (0, audioSources.Length);
 		if (!SoundController.instance.sfxMuted) {
-			audioSources [index].PlayDelayed (0.2f);
+			SFXPlayer.instance.PlayRandom(SFXPlayer.instance.deadMouseIds,
+			                              0.2f);
 		}
 	}
 	

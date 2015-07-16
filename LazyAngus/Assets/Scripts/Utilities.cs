@@ -163,6 +163,28 @@ public class Utilities
 		}
 
 	}
+
+	public static float GetIOSVersion() {
+		if (Application.platform != RuntimePlatform.IPhonePlayer) {
+			return -1;
+		}
+		string v = SystemInfo.operatingSystem;
+
+		Debug.Log ("GetIOSVersion: v = " + v);
+
+		string[] bits = v.Split (' ');
+		string lastBit = bits [bits.Length - 1];
+		return float.Parse (lastBit, 
+		                   System.Globalization.CultureInfo.InvariantCulture);
+	}
+
+
+	static System.DateTime epoch = new System.DateTime(1970, 1, 1);
+
+	public static float SecondsSinceEpoch() {
+		System.TimeSpan t = System.DateTime.UtcNow - epoch;
+		return (float)t.TotalSeconds;	
+	}
 }
 
 

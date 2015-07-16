@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class PausePlayToggle : MonoBehaviour {
+	/*
 	public Image pausePlayButtonImage;
 
 	public Sprite pauseSprite;
@@ -48,6 +49,7 @@ public class PausePlayToggle : MonoBehaviour {
 			pausePlayButtonImage.sprite = pauseSprite;
 		}
 	}
+	*/
 
 	public void TogglePausePlay() {
 		if (TimeController.instance.paused) {

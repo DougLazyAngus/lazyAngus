@@ -2,8 +2,11 @@
 using System.Collections;
 
 public class PausedOverlay : MonoBehaviour {
-	public GameObject overlay;
 	public static PausedOverlay instance;
+	public GameObject defaultChildElement;
+	public GameObject overlay;
+
+	GameObject customChildElement;
 
 	bool registeredForEvents;
 	
@@ -41,5 +44,17 @@ public class PausedOverlay : MonoBehaviour {
 		} else {
 			overlay.SetActive (false);
 		}
+	}
+
+	public void SetChildElement(GameObject childElement) {
+		if (customChildElement) {
+			customChildElement.transform.SetParent (null, false);
+		}
+
+		customChildElement = childElement;
+		if (customChildElement == null) {
+			customChildElement = defaultChildElement;
+		}
+		customChildElement.transform.SetParent (overlay.transform, false);
 	}
 }

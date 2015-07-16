@@ -26,7 +26,7 @@ public class GameCenterButtons : MonoBehaviour {
 		});
 
 		rateMeButton.onClick.AddListener(() => { 
-			RatingsHelper.instance.ShowRatings();
+			RatingsHelper.instance.ShowRatingsPage();
 		});
 
 	}

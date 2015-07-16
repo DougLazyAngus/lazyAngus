@@ -28,8 +28,6 @@ public class BoostConfig : MonoBehaviour {
 	private float activeBoostEndTime;
 	bool registeredForEvents;
 
-	public AudioSource startBoostAudioSource;
-	
 	void Awake() {
 		instance = this;
 		activeBoost = BoostType.NUM_TYPES;
@@ -183,7 +181,7 @@ public class BoostConfig : MonoBehaviour {
 		activeBoostEndTime = activeBoostStartTime + pauseTime;
 
 		if (!SoundController.instance.sfxMuted) {
-			startBoostAudioSource.Play ();
+			SFXPlayer.instance.Play (SFXPlayer.SFXType.USE_BOOST);
 		}
 
 		if (BoostActive != null) {

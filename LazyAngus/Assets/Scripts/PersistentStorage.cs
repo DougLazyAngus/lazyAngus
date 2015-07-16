@@ -36,16 +36,34 @@ public class PersistentStorage : MonoBehaviour {
 		System.IO.File.WriteAllText (path, text);
 	}
 
+	public void SetFloatValue(string name, float value) {
+		storedValues[name] = "" + value;
+		SaveValueStore ();
+	}
+	
+	public float GetFloatValue(string name, float defaultValue) {
+		if (storedValues == null) {
+			return defaultValue;
+		}
+		
+		string storedValue = storedValues [name];
+		if (storedValue == null) {
+			return defaultValue;
+		} else {
+			return float.Parse (storedValue);
+		}
+	}
+	
 	public void SetIntValue(string name, int value) {
 		storedValues[name] = "" + value;
 		SaveValueStore ();
 	}
-
+	
 	public int GetIntValue(string name, int defaultValue) {
 		if (storedValues == null) {
 			return defaultValue;
 		}
-
+		
 		string storedValue = storedValues [name];
 		if (storedValue == null) {
 			return defaultValue;
