@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IntPtr[]
-struct IntPtrU5BU5D_t1229;
+struct IntPtrU5BU5D_t1237;
 // System.Exception
 struct Exception_t27;
 // System.String
 struct String_t;
 // System.Collections.IDictionary
-struct IDictionary_t536;
+struct IDictionary_t544;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Exception
 struct  Exception_t27  : public Object_t
 {
 	// System.IntPtr[] System.Exception::trace_ips
-	IntPtrU5BU5D_t1229* ___trace_ips_0;
+	IntPtrU5BU5D_t1237* ___trace_ips_0;
 	// System.Exception System.Exception::inner_exception
 	Exception_t27 * ___inner_exception_1;
 	// System.String System.Exception::message

@@ -7,7 +7,7 @@ struct GP_Participant_t157;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<GP_Participant>
-struct  Enumerator_t575 
+struct  Enumerator_t583 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GP_Participant>::l
 	List_1_t162 * ___l_0;

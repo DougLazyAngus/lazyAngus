@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Math.BigInteger
-struct BigInteger_t2135;
+struct BigInteger_t2143;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Math.BigInteger/ModulusRing
-struct  ModulusRing_t2136  : public Object_t
+struct  ModulusRing_t2144  : public Object_t
 {
 	// Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::mod
-	BigInteger_t2135 * ___mod_0;
+	BigInteger_t2143 * ___mod_0;
 	// Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::constant
-	BigInteger_t2135 * ___constant_1;
+	BigInteger_t2143 * ___constant_1;
 };

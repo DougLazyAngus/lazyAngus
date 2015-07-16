@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioSettings
-struct AudioSettings_t1090;
+struct AudioSettings_t1098;
 
 // System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)
-extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m5957 (AudioSettings_t1090 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m5995 (AudioSettings_t1098 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;

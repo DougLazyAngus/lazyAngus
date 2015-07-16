@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.GUILayout
-struct  GUILayout_t1032  : public Object_t
+struct  GUILayout_t1040  : public Object_t
 {
 };

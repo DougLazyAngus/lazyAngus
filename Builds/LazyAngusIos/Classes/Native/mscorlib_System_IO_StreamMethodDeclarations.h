@@ -18,9 +18,9 @@ struct Object_t;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.IO.Stream::.ctor()
-extern "C" void Stream__ctor_m8712 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream__ctor_m8750 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::.cctor()
-extern "C" void Stream__cctor_m13260 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream__cctor_m13297 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.Stream::get_CanRead()
 // System.Boolean System.IO.Stream::get_CanSeek()
 // System.Boolean System.IO.Stream::get_CanWrite()
@@ -28,29 +28,29 @@ extern "C" void Stream__cctor_m13260 (Object_t * __this /* static, unused */, co
 // System.Int64 System.IO.Stream::get_Position()
 // System.Void System.IO.Stream::set_Position(System.Int64)
 // System.Void System.IO.Stream::Dispose()
-extern "C" void Stream_Dispose_m9177 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream_Dispose_m9215 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::Dispose(System.Boolean)
-extern "C" void Stream_Dispose_m8718 (Stream_t24 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream_Dispose_m8756 (Stream_t24 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::Close()
-extern "C" void Stream_Close_m8782 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream_Close_m8820 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Stream::get_ReadTimeout()
-extern "C" int32_t Stream_get_ReadTimeout_m9178 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Stream_get_ReadTimeout_m9216 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Stream::get_WriteTimeout()
-extern "C" int32_t Stream_get_WriteTimeout_m9179 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Stream_get_WriteTimeout_m9217 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::Flush()
 // System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32)
 // System.Int32 System.IO.Stream::ReadByte()
-extern "C" int32_t Stream_ReadByte_m9180 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Stream_ReadByte_m9218 (Stream_t24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin)
 // System.Void System.IO.Stream::SetLength(System.Int64)
 // System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32)
 // System.Void System.IO.Stream::WriteByte(System.Byte)
-extern "C" void Stream_WriteByte_m9181 (Stream_t24 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream_WriteByte_m9219 (Stream_t24 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.IO.Stream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * Stream_BeginRead_m9182 (Stream_t24 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t387 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Stream_BeginRead_m9220 (Stream_t24 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t387 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.IO.Stream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * Stream_BeginWrite_m9183 (Stream_t24 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t387 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Stream_BeginWrite_m9221 (Stream_t24 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t387 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Stream::EndRead(System.IAsyncResult)
-extern "C" int32_t Stream_EndRead_m9184 (Stream_t24 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Stream_EndRead_m9222 (Stream_t24 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::EndWrite(System.IAsyncResult)
-extern "C" void Stream_EndWrite_m9185 (Stream_t24 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Stream_EndWrite_m9223 (Stream_t24 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;

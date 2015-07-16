@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Material
-struct Material_t401;
+struct Material_t400;
 // UnityEngine.UI.Graphic
-struct Graphic_t756;
+struct Graphic_t764;
 // UnityEngine.RectTransform
-struct RectTransform_t525;
+struct RectTransform_t533;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.Mask
-struct  Mask_t847  : public UIBehaviour_t682
+struct  Mask_t855  : public UIBehaviour_t690
 {
 	// System.Boolean UnityEngine.UI.Mask::m_ShowMaskGraphic
 	bool ___m_ShowMaskGraphic_2;
 	// UnityEngine.Material UnityEngine.UI.Mask::m_RenderMaterial
-	Material_t401 * ___m_RenderMaterial_3;
+	Material_t400 * ___m_RenderMaterial_3;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Mask::m_Graphic
-	Graphic_t756 * ___m_Graphic_4;
+	Graphic_t764 * ___m_Graphic_4;
 	// UnityEngine.RectTransform UnityEngine.UI.Mask::m_RectTransform
-	RectTransform_t525 * ___m_RectTransform_5;
+	RectTransform_t533 * ___m_RectTransform_5;
 };

@@ -3,13 +3,13 @@
 #include "mscorlib_System_Array.h"
 // Mono.Math.BigInteger[]
 // Mono.Math.BigInteger[]
-struct  BigIntegerU5BU5D_t2236  : public Array_t
+struct  BigIntegerU5BU5D_t2244  : public Array_t
 {
 };
-struct BigIntegerU5BU5D_t2236_StaticFields{
+struct BigIntegerU5BU5D_t2244_StaticFields{
 };
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
-struct  ClientCertificateTypeU5BU5D_t2211  : public Array_t
+struct  ClientCertificateTypeU5BU5D_t2219  : public Array_t
 {
 };

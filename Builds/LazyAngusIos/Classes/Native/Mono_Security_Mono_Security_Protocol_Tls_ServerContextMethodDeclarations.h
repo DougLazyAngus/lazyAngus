@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.ServerContext
-struct ServerContext_t2205;
+struct ServerContext_t2213;
 

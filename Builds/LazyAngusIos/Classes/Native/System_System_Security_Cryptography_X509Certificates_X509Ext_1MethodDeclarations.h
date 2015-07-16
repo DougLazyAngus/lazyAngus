@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
-struct X509ExtensionEnumerator_t1618;
+struct X509ExtensionEnumerator_t1626;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Extension
-struct X509Extension_t1599;
+struct X509Extension_t1607;
 // System.Collections.ArrayList
-struct ArrayList_t1451;
+struct ArrayList_t1459;
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::.ctor(System.Collections.ArrayList)
-extern "C" void X509ExtensionEnumerator__ctor_m8122 (X509ExtensionEnumerator_t1618 * __this, ArrayList_t1451 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionEnumerator__ctor_m8160 (X509ExtensionEnumerator_t1626 * __this, ArrayList_t1459 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * X509ExtensionEnumerator_System_Collections_IEnumerator_get_Current_m8123 (X509ExtensionEnumerator_t1618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ExtensionEnumerator_System_Collections_IEnumerator_get_Current_m8161 (X509ExtensionEnumerator_t1626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Extension System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::get_Current()
-extern "C" X509Extension_t1599 * X509ExtensionEnumerator_get_Current_m8124 (X509ExtensionEnumerator_t1618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Extension_t1607 * X509ExtensionEnumerator_get_Current_m8162 (X509ExtensionEnumerator_t1626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::MoveNext()
-extern "C" bool X509ExtensionEnumerator_MoveNext_m8125 (X509ExtensionEnumerator_t1618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509ExtensionEnumerator_MoveNext_m8163 (X509ExtensionEnumerator_t1626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

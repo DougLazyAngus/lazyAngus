@@ -11,9 +11,9 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.IDictionary
-struct IDictionary_t536;
+struct IDictionary_t544;
 // System.Collections.IList
-struct IList_t537;
+struct IList_t545;
 
 // System.Void ANMiniJSON.Json/Serializer::.ctor()
 extern "C" void Serializer__ctor_m755 (Serializer_t193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

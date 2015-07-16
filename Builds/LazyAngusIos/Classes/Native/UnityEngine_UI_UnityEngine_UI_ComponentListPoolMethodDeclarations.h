@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.ComponentListPool
-struct ComponentListPool_t853;
+struct ComponentListPool_t861;
 // System.Collections.Generic.List`1<UnityEngine.Component>
-struct List_1_t884;
+struct List_1_t892;
 
 // System.Void UnityEngine.UI.ComponentListPool::.cctor()
-extern "C" void ComponentListPool__cctor_m4526 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool__cctor_m4564 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.Component> UnityEngine.UI.ComponentListPool::Get()
-extern "C" List_1_t884 * ComponentListPool_Get_m4527 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t892 * ComponentListPool_Get_m4565 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ComponentListPool::Release(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern "C" void ComponentListPool_Release_m4528 (Object_t * __this /* static, unused */, List_1_t884 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool_Release_m4566 (Object_t * __this /* static, unused */, List_1_t892 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ComponentListPool::<s_ComponentListPool>m__17(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern "C" void ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m4529 (Object_t * __this /* static, unused */, List_1_t884 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m4567 (Object_t * __this /* static, unused */, List_1_t892 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

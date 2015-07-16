@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // PawController
-struct PawController_t409;
+struct PawController_t407;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DestroyByCollision
-struct  DestroyByCollision_t410  : public MonoBehaviour_t67
+struct  DestroyByCollision_t408  : public MonoBehaviour_t67
 {
 	// PawController DestroyByCollision::pawController
-	PawController_t409 * ___pawController_2;
+	PawController_t407 * ___pawController_2;
 };

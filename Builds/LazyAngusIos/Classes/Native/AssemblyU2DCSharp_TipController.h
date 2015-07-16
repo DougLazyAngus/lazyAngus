@@ -5,11 +5,11 @@ struct GameObject_t284;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
 // TipController
-struct TipController_t512;
+struct TipController_t520;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TipController
-struct  TipController_t512  : public MonoBehaviour_t67
+struct  TipController_t520  : public MonoBehaviour_t67
 {
 	// System.Boolean TipController::registeredForEvents
 	bool ___registeredForEvents_2;
@@ -18,7 +18,7 @@ struct  TipController_t512  : public MonoBehaviour_t67
 	// System.Collections.IEnumerator TipController::enqueuedTip
 	Object_t * ___enqueuedTip_4;
 };
-struct TipController_t512_StaticFields{
+struct TipController_t520_StaticFields{
 	// TipController TipController::instance
-	TipController_t512 * ___instance_5;
+	TipController_t520 * ___instance_5;
 };

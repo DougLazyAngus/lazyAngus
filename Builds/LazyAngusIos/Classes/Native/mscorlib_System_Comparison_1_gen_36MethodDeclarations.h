@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnityEngine.UI.Selectable>
-struct Comparison_1_t3765;
+struct Comparison_1_t3774;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Selectable
-struct Selectable_t741;
+struct Selectable_t749;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t387;
 // System.Void System.Comparison`1<UnityEngine.UI.Selectable>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m23929(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3765 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m16987_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m23970(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3774 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17023_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Selectable>::Invoke(T,T)
-#define Comparison_1_Invoke_m23930(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3765 *, Selectable_t741 *, Selectable_t741 *, const MethodInfo*))Comparison_1_Invoke_m16988_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m23971(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3774 *, Selectable_t749 *, Selectable_t749 *, const MethodInfo*))Comparison_1_Invoke_m17024_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.UI.Selectable>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m23931(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3765 *, Selectable_t741 *, Selectable_t741 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m16989_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m23972(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3774 *, Selectable_t749 *, Selectable_t749 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17025_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Selectable>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m23932(__this, ___result, method) (( int32_t (*) (Comparison_1_t3765 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m16990_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m23973(__this, ___result, method) (( int32_t (*) (Comparison_1_t3774 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17026_gshared)(__this, ___result, method)

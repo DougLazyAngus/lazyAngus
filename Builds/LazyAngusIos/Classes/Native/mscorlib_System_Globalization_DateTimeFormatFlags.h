@@ -5,7 +5,7 @@
 // System.Globalization.DateTimeFormatFlags
 #include "mscorlib_System_Globalization_DateTimeFormatFlags.h"
 // System.Globalization.DateTimeFormatFlags
-struct  DateTimeFormatFlags_t2386 
+struct  DateTimeFormatFlags_t2394 
 {
 	// System.Int32 System.Globalization.DateTimeFormatFlags::value__
 	int32_t ___value___1;

@@ -9,7 +9,7 @@ struct BoostConfig_t373;
 // BoostConfig/BoostActiveEventHandler
 struct BoostActiveEventHandler_t388;
 // UnityEngine.Sprite
-struct Sprite_t393;
+struct Sprite_t392;
 // System.String
 struct String_t;
 // System.Collections.IEnumerator
@@ -46,9 +46,9 @@ extern "C" void BoostConfig_OnGamePhaseChanged_m1855 (BoostConfig_t373 * __this,
 // System.Void BoostConfig::LoadBoostDescs()
 extern "C" void BoostConfig_LoadBoostDescs_m1856 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite BoostConfig::GetButtonImageForType(BoostConfig/BoostType)
-extern "C" Sprite_t393 * BoostConfig_GetButtonImageForType_m1857 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t392 * BoostConfig_GetButtonImageForType_m1857 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite BoostConfig::GetIntroImageForType(BoostConfig/BoostType)
-extern "C" Sprite_t393 * BoostConfig_GetIntroImageForType_m1858 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t392 * BoostConfig_GetIntroImageForType_m1858 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String BoostConfig::GetTitleForType(BoostConfig/BoostType)
 extern "C" String_t* BoostConfig_GetTitleForType_m1859 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 BoostConfig::GetCurrentPriceForBoost(BoostConfig/BoostType)

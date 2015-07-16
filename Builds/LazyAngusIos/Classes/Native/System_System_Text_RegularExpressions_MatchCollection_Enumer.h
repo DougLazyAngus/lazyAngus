@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.MatchCollection
-struct MatchCollection_t1641;
+struct MatchCollection_t1649;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.MatchCollection/Enumerator
-struct  Enumerator_t1642  : public Object_t
+struct  Enumerator_t1650  : public Object_t
 {
 	// System.Int32 System.Text.RegularExpressions.MatchCollection/Enumerator::index
 	int32_t ___index_0;
 	// System.Text.RegularExpressions.MatchCollection System.Text.RegularExpressions.MatchCollection/Enumerator::coll
-	MatchCollection_t1641 * ___coll_1;
+	MatchCollection_t1649 * ___coll_1;
 };

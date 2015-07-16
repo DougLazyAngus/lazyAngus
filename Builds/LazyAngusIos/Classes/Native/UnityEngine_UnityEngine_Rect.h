@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Rect
-struct  Rect_t544 
+struct  Rect_t552 
 {
 	// System.Single UnityEngine.Rect::m_XMin
 	float ___m_XMin_0;

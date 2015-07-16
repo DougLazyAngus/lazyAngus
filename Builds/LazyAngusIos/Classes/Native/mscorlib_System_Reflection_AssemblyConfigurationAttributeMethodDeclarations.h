@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyConfigurationAttribute
-struct AssemblyConfigurationAttribute_t933;
+struct AssemblyConfigurationAttribute_t941;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
-extern "C" void AssemblyConfigurationAttribute__ctor_m4994 (AssemblyConfigurationAttribute_t933 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyConfigurationAttribute__ctor_m5032 (AssemblyConfigurationAttribute_t941 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;

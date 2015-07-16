@@ -3,9 +3,9 @@
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t1568;
+struct X509Certificate_t1576;
 // System.Security.Cryptography.X509Certificates.X509Chain
-struct X509Chain_t1613;
+struct X509Chain_t1621;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct AsyncCallback_t387;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.Security.RemoteCertificateValidationCallback
-struct  RemoteCertificateValidationCallback_t1474  : public MulticastDelegate_t389
+struct  RemoteCertificateValidationCallback_t1482  : public MulticastDelegate_t389
 {
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Application/LogCallback
-struct LogCallback_t630;
+struct LogCallback_t638;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Application
-struct  Application_t1070  : public Object_t
+struct  Application_t1078  : public Object_t
 {
 };
-struct Application_t1070_StaticFields{
+struct Application_t1078_StaticFields{
 	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandler
-	LogCallback_t630 * ___s_LogCallbackHandler_0;
+	LogCallback_t638 * ___s_LogCallbackHandler_0;
 	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandlerThreaded
-	LogCallback_t630 * ___s_LogCallbackHandlerThreaded_1;
+	LogCallback_t638 * ___s_LogCallbackHandlerThreaded_1;
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RSA
-struct RSA_t1717;
+struct RSA_t1725;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t1519;
+struct HashAlgorithm_t1527;
 // System.Security.Cryptography.AsymmetricSignatureFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 // System.Security.Cryptography.RSAPKCS1SignatureFormatter
-struct  RSAPKCS1SignatureFormatter_t2618  : public AsymmetricSignatureFormatter_t2203
+struct  RSAPKCS1SignatureFormatter_t2626  : public AsymmetricSignatureFormatter_t2211
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1SignatureFormatter::rsa
-	RSA_t1717 * ___rsa_0;
+	RSA_t1725 * ___rsa_0;
 	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.RSAPKCS1SignatureFormatter::hash
-	HashAlgorithm_t1519 * ___hash_1;
+	HashAlgorithm_t1527 * ___hash_1;
 };

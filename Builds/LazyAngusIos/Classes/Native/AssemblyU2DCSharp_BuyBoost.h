@@ -3,14 +3,14 @@
 // BoostConfig
 struct BoostConfig_t373;
 // PlayerStats
-struct PlayerStats_t396;
+struct PlayerStats_t395;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BuyBoost
-struct  BuyBoost_t398  : public MonoBehaviour_t67
+struct  BuyBoost_t397  : public MonoBehaviour_t67
 {
 	// BoostConfig BuyBoost::boostConfig
 	BoostConfig_t373 * ___boostConfig_2;
 	// PlayerStats BuyBoost::playerStats
-	PlayerStats_t396 * ___playerStats_3;
+	PlayerStats_t395 * ___playerStats_3;
 };

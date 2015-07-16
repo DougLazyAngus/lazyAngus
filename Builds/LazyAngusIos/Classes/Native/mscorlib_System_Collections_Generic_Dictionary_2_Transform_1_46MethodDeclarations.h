@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>
-struct Transform_1_t3903;
+struct Transform_1_t3912;
 // System.Object
 struct Object_t;
 // UnityEngine.Networking.Types.NetworkAccessToken
-struct NetworkAccessToken_t1132;
+struct NetworkAccessToken_t1140;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -24,10 +24,10 @@ struct AsyncCallback_t387;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_44MethodDeclarations.h"
-#define Transform_1__ctor_m25998(__this, ___object, ___method, method) (( void (*) (Transform_1_t3903 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m25973_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m26039(__this, ___object, ___method, method) (( void (*) (Transform_1_t3912 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m26014_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m25999(__this, ___key, ___value, method) (( DictionaryEntry_t1710  (*) (Transform_1_t3903 *, uint64_t, NetworkAccessToken_t1132 *, const MethodInfo*))Transform_1_Invoke_m25974_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m26040(__this, ___key, ___value, method) (( DictionaryEntry_t1718  (*) (Transform_1_t3912 *, uint64_t, NetworkAccessToken_t1140 *, const MethodInfo*))Transform_1_Invoke_m26015_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m26000(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t3903 *, uint64_t, NetworkAccessToken_t1132 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m25975_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m26041(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t3912 *, uint64_t, NetworkAccessToken_t1140 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m26016_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m26001(__this, ___result, method) (( DictionaryEntry_t1710  (*) (Transform_1_t3903 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m25976_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m26042(__this, ___result, method) (( DictionaryEntry_t1718  (*) (Transform_1_t3912 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m26017_gshared)(__this, ___result, method)

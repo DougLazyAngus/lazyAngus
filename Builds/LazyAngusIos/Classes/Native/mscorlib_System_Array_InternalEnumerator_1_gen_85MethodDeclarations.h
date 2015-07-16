@@ -4,24 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>
-struct InternalEnumerator_1_t4088;
+// System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
+struct InternalEnumerator_1_t4096;
 // System.Object
 struct Object_t;
+// System.Security.Cryptography.KeySizes
+struct KeySizes_t2247;
 // System.Array
 struct Array_t;
-// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType
-#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_ClientCer.h"
 
-// System.Void System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Int32>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_2MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m27962(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4088 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16967_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27963(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4088 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16968_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::Dispose()
-#define InternalEnumerator_1_Dispose_m27964(__this, method) (( void (*) (InternalEnumerator_1_t4088 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16969_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m27965(__this, method) (( bool (*) (InternalEnumerator_1_t4088 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16970_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::get_Current()
-#define InternalEnumerator_1_get_Current_m27966(__this, method) (( int32_t (*) (InternalEnumerator_1_t4088 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16971_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m27998(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4096 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16818_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27999(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16819_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::Dispose()
+#define InternalEnumerator_1_Dispose_m28000(__this, method) (( void (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16820_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m28001(__this, method) (( bool (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16821_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::get_Current()
+#define InternalEnumerator_1_get_Current_m28002(__this, method) (( KeySizes_t2247 * (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16822_gshared)(__this, method)

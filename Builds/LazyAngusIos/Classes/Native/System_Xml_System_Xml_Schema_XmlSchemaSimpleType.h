@@ -1,122 +1,122 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t1982;
+struct XmlSchemaSimpleType_t1990;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
-struct XmlSchemaSimpleTypeContent_t1986;
+struct XmlSchemaSimpleTypeContent_t1994;
 // System.Xml.Schema.XmlSchemaType
 #include "System_Xml_System_Xml_Schema_XmlSchemaType.h"
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaSimpleType
-struct  XmlSchemaSimpleType_t1982  : public XmlSchemaType_t1983
+struct  XmlSchemaSimpleType_t1990  : public XmlSchemaType_t1991
 {
 	// System.Xml.Schema.XmlSchemaSimpleTypeContent System.Xml.Schema.XmlSchemaSimpleType::content
-	XmlSchemaSimpleTypeContent_t1986 * ___content_10;
+	XmlSchemaSimpleTypeContent_t1994 * ___content_10;
 	// System.Boolean System.Xml.Schema.XmlSchemaSimpleType::islocal
 	bool ___islocal_11;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaSimpleType::variety
 	int32_t ___variety_12;
 };
-struct XmlSchemaSimpleType_t1982_StaticFields{
+struct XmlSchemaSimpleType_t1990_StaticFields{
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::schemaLocationType
-	XmlSchemaSimpleType_t1982 * ___schemaLocationType_9;
+	XmlSchemaSimpleType_t1990 * ___schemaLocationType_9;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsAnySimpleType
-	XmlSchemaSimpleType_t1982 * ___XsAnySimpleType_13;
+	XmlSchemaSimpleType_t1990 * ___XsAnySimpleType_13;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsString
-	XmlSchemaSimpleType_t1982 * ___XsString_14;
+	XmlSchemaSimpleType_t1990 * ___XsString_14;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsBoolean
-	XmlSchemaSimpleType_t1982 * ___XsBoolean_15;
+	XmlSchemaSimpleType_t1990 * ___XsBoolean_15;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsDecimal
-	XmlSchemaSimpleType_t1982 * ___XsDecimal_16;
+	XmlSchemaSimpleType_t1990 * ___XsDecimal_16;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsFloat
-	XmlSchemaSimpleType_t1982 * ___XsFloat_17;
+	XmlSchemaSimpleType_t1990 * ___XsFloat_17;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsDouble
-	XmlSchemaSimpleType_t1982 * ___XsDouble_18;
+	XmlSchemaSimpleType_t1990 * ___XsDouble_18;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsDuration
-	XmlSchemaSimpleType_t1982 * ___XsDuration_19;
+	XmlSchemaSimpleType_t1990 * ___XsDuration_19;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsDateTime
-	XmlSchemaSimpleType_t1982 * ___XsDateTime_20;
+	XmlSchemaSimpleType_t1990 * ___XsDateTime_20;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsTime
-	XmlSchemaSimpleType_t1982 * ___XsTime_21;
+	XmlSchemaSimpleType_t1990 * ___XsTime_21;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsDate
-	XmlSchemaSimpleType_t1982 * ___XsDate_22;
+	XmlSchemaSimpleType_t1990 * ___XsDate_22;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsGYearMonth
-	XmlSchemaSimpleType_t1982 * ___XsGYearMonth_23;
+	XmlSchemaSimpleType_t1990 * ___XsGYearMonth_23;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsGYear
-	XmlSchemaSimpleType_t1982 * ___XsGYear_24;
+	XmlSchemaSimpleType_t1990 * ___XsGYear_24;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsGMonthDay
-	XmlSchemaSimpleType_t1982 * ___XsGMonthDay_25;
+	XmlSchemaSimpleType_t1990 * ___XsGMonthDay_25;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsGDay
-	XmlSchemaSimpleType_t1982 * ___XsGDay_26;
+	XmlSchemaSimpleType_t1990 * ___XsGDay_26;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsGMonth
-	XmlSchemaSimpleType_t1982 * ___XsGMonth_27;
+	XmlSchemaSimpleType_t1990 * ___XsGMonth_27;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsHexBinary
-	XmlSchemaSimpleType_t1982 * ___XsHexBinary_28;
+	XmlSchemaSimpleType_t1990 * ___XsHexBinary_28;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsBase64Binary
-	XmlSchemaSimpleType_t1982 * ___XsBase64Binary_29;
+	XmlSchemaSimpleType_t1990 * ___XsBase64Binary_29;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsAnyUri
-	XmlSchemaSimpleType_t1982 * ___XsAnyUri_30;
+	XmlSchemaSimpleType_t1990 * ___XsAnyUri_30;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsQName
-	XmlSchemaSimpleType_t1982 * ___XsQName_31;
+	XmlSchemaSimpleType_t1990 * ___XsQName_31;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNotation
-	XmlSchemaSimpleType_t1982 * ___XsNotation_32;
+	XmlSchemaSimpleType_t1990 * ___XsNotation_32;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNormalizedString
-	XmlSchemaSimpleType_t1982 * ___XsNormalizedString_33;
+	XmlSchemaSimpleType_t1990 * ___XsNormalizedString_33;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsToken
-	XmlSchemaSimpleType_t1982 * ___XsToken_34;
+	XmlSchemaSimpleType_t1990 * ___XsToken_34;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsLanguage
-	XmlSchemaSimpleType_t1982 * ___XsLanguage_35;
+	XmlSchemaSimpleType_t1990 * ___XsLanguage_35;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNMToken
-	XmlSchemaSimpleType_t1982 * ___XsNMToken_36;
+	XmlSchemaSimpleType_t1990 * ___XsNMToken_36;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNMTokens
-	XmlSchemaSimpleType_t1982 * ___XsNMTokens_37;
+	XmlSchemaSimpleType_t1990 * ___XsNMTokens_37;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsName
-	XmlSchemaSimpleType_t1982 * ___XsName_38;
+	XmlSchemaSimpleType_t1990 * ___XsName_38;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNCName
-	XmlSchemaSimpleType_t1982 * ___XsNCName_39;
+	XmlSchemaSimpleType_t1990 * ___XsNCName_39;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsID
-	XmlSchemaSimpleType_t1982 * ___XsID_40;
+	XmlSchemaSimpleType_t1990 * ___XsID_40;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsIDRef
-	XmlSchemaSimpleType_t1982 * ___XsIDRef_41;
+	XmlSchemaSimpleType_t1990 * ___XsIDRef_41;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsIDRefs
-	XmlSchemaSimpleType_t1982 * ___XsIDRefs_42;
+	XmlSchemaSimpleType_t1990 * ___XsIDRefs_42;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsEntity
-	XmlSchemaSimpleType_t1982 * ___XsEntity_43;
+	XmlSchemaSimpleType_t1990 * ___XsEntity_43;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsEntities
-	XmlSchemaSimpleType_t1982 * ___XsEntities_44;
+	XmlSchemaSimpleType_t1990 * ___XsEntities_44;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsInteger
-	XmlSchemaSimpleType_t1982 * ___XsInteger_45;
+	XmlSchemaSimpleType_t1990 * ___XsInteger_45;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNonPositiveInteger
-	XmlSchemaSimpleType_t1982 * ___XsNonPositiveInteger_46;
+	XmlSchemaSimpleType_t1990 * ___XsNonPositiveInteger_46;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNegativeInteger
-	XmlSchemaSimpleType_t1982 * ___XsNegativeInteger_47;
+	XmlSchemaSimpleType_t1990 * ___XsNegativeInteger_47;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsLong
-	XmlSchemaSimpleType_t1982 * ___XsLong_48;
+	XmlSchemaSimpleType_t1990 * ___XsLong_48;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsInt
-	XmlSchemaSimpleType_t1982 * ___XsInt_49;
+	XmlSchemaSimpleType_t1990 * ___XsInt_49;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsShort
-	XmlSchemaSimpleType_t1982 * ___XsShort_50;
+	XmlSchemaSimpleType_t1990 * ___XsShort_50;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsByte
-	XmlSchemaSimpleType_t1982 * ___XsByte_51;
+	XmlSchemaSimpleType_t1990 * ___XsByte_51;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsNonNegativeInteger
-	XmlSchemaSimpleType_t1982 * ___XsNonNegativeInteger_52;
+	XmlSchemaSimpleType_t1990 * ___XsNonNegativeInteger_52;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsUnsignedLong
-	XmlSchemaSimpleType_t1982 * ___XsUnsignedLong_53;
+	XmlSchemaSimpleType_t1990 * ___XsUnsignedLong_53;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsUnsignedInt
-	XmlSchemaSimpleType_t1982 * ___XsUnsignedInt_54;
+	XmlSchemaSimpleType_t1990 * ___XsUnsignedInt_54;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsUnsignedShort
-	XmlSchemaSimpleType_t1982 * ___XsUnsignedShort_55;
+	XmlSchemaSimpleType_t1990 * ___XsUnsignedShort_55;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsUnsignedByte
-	XmlSchemaSimpleType_t1982 * ___XsUnsignedByte_56;
+	XmlSchemaSimpleType_t1990 * ___XsUnsignedByte_56;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XsPositiveInteger
-	XmlSchemaSimpleType_t1982 * ___XsPositiveInteger_57;
+	XmlSchemaSimpleType_t1990 * ___XsPositiveInteger_57;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XdtUntypedAtomic
-	XmlSchemaSimpleType_t1982 * ___XdtUntypedAtomic_58;
+	XmlSchemaSimpleType_t1990 * ___XdtUntypedAtomic_58;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XdtAnyAtomicType
-	XmlSchemaSimpleType_t1982 * ___XdtAnyAtomicType_59;
+	XmlSchemaSimpleType_t1990 * ___XdtAnyAtomicType_59;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XdtYearMonthDuration
-	XmlSchemaSimpleType_t1982 * ___XdtYearMonthDuration_60;
+	XmlSchemaSimpleType_t1990 * ___XdtYearMonthDuration_60;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::XdtDayTimeDuration
-	XmlSchemaSimpleType_t1982 * ___XdtDayTimeDuration_61;
+	XmlSchemaSimpleType_t1990 * ___XdtDayTimeDuration_61;
 };

@@ -11,6 +11,6 @@ struct AsyncCallback_t387;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>
-struct  ResponseDelegate_1_t1260  : public MulticastDelegate_t389
+struct  ResponseDelegate_1_t1268  : public MulticastDelegate_t389
 {
 };

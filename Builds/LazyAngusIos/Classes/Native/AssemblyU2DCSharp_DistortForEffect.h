@@ -7,7 +7,7 @@ struct Transform_t323;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // DistortForEffect
-struct  DistortForEffect_t412  : public MonoBehaviour_t67
+struct  DistortForEffect_t410  : public MonoBehaviour_t67
 {
 	// System.Boolean DistortForEffect::distorting
 	bool ___distorting_2;
@@ -20,5 +20,5 @@ struct  DistortForEffect_t412  : public MonoBehaviour_t67
 	// UnityEngine.Transform DistortForEffect::thingToScale
 	Transform_t323 * ___thingToScale_6;
 	// UnityEngine.Vector3 DistortForEffect::originalScale
-	Vector3_t413  ___originalScale_7;
+	Vector3_t411  ___originalScale_7;
 };

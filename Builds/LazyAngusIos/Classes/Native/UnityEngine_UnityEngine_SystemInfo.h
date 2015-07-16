@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SystemInfo
-struct  SystemInfo_t1008  : public Object_t
+struct  SystemInfo_t1016  : public Object_t
 {
 };

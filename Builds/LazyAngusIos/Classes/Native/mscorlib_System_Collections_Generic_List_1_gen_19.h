@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.RaycastResult[]
-struct RaycastResultU5BU5D_t3646;
+struct RaycastResultU5BU5D_t3655;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct  List_1_t720  : public Object_t
+struct  List_1_t728  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_items
-	RaycastResultU5BU5D_t3646* ____items_1;
+	RaycastResultU5BU5D_t3655* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_version
 	int32_t ____version_3;
 };
-struct List_1_t720_StaticFields{
+struct List_1_t728_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::EmptyArray
-	RaycastResultU5BU5D_t3646* ___EmptyArray_4;
+	RaycastResultU5BU5D_t3655* ___EmptyArray_4;
 };

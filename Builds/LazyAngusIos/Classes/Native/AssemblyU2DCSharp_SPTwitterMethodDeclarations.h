@@ -15,9 +15,9 @@ struct Texture2D_t65;
 // TwitterPostingTask
 struct TwitterPostingTask_t274;
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t527;
+struct EventHandlerFunction_t535;
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t528;
+struct DataEventHandlerFunction_t536;
 // System.Object
 struct Object_t;
 // TWResult
@@ -56,21 +56,21 @@ extern "C" bool SPTwitter_get_IsInited_m1285 (SPTwitter_t296 * __this, const Met
 // TwitterUserInfo SPTwitter::get_userInfo()
 extern "C" TwitterUserInfo_t240 * SPTwitter_get_userInfo_m1286 (SPTwitter_t296 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void SPTwitter_addEventListener_m1287 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t527 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_addEventListener_m1287 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t535 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void SPTwitter_addEventListener_m1288 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t528 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_addEventListener_m1288 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t536 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void SPTwitter_addEventListener_m1289 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t527 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_addEventListener_m1289 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t535 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void SPTwitter_addEventListener_m1290 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t528 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_addEventListener_m1290 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t536 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void SPTwitter_removeEventListener_m1291 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t527 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_removeEventListener_m1291 (SPTwitter_t296 * __this, String_t* ___eventName, EventHandlerFunction_t535 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void SPTwitter_removeEventListener_m1292 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t528 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_removeEventListener_m1292 (SPTwitter_t296 * __this, String_t* ___eventName, DataEventHandlerFunction_t536 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void SPTwitter_removeEventListener_m1293 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t527 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_removeEventListener_m1293 (SPTwitter_t296 * __this, int32_t ___eventID, EventHandlerFunction_t535 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void SPTwitter_removeEventListener_m1294 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t528 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPTwitter_removeEventListener_m1294 (SPTwitter_t296 * __this, int32_t ___eventID, DataEventHandlerFunction_t536 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::dispatchEvent(System.Int32)
 extern "C" void SPTwitter_dispatchEvent_m1295 (SPTwitter_t296 * __this, int32_t ___eventID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPTwitter::dispatchEvent(System.Int32,System.Object)

@@ -3,20 +3,20 @@
 // System.Object
 struct Object_t;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t1534;
+struct ManualResetEvent_t1542;
 // System.AsyncCallback
 struct AsyncCallback_t387;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.FileStreamAsyncResult
-struct  FileStreamAsyncResult_t2404  : public Object_t
+struct  FileStreamAsyncResult_t2412  : public Object_t
 {
 	// System.Object System.IO.FileStreamAsyncResult::state
 	Object_t * ___state_0;
 	// System.Boolean System.IO.FileStreamAsyncResult::completed
 	bool ___completed_1;
 	// System.Threading.ManualResetEvent System.IO.FileStreamAsyncResult::wh
-	ManualResetEvent_t1534 * ___wh_2;
+	ManualResetEvent_t1542 * ___wh_2;
 	// System.AsyncCallback System.IO.FileStreamAsyncResult::cb
 	AsyncCallback_t387 * ___cb_3;
 	// System.Int32 System.IO.FileStreamAsyncResult::Count

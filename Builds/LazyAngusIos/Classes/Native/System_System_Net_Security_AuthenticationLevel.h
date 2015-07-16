@@ -5,7 +5,7 @@
 // System.Net.Security.AuthenticationLevel
 #include "System_System_Net_Security_AuthenticationLevel.h"
 // System.Net.Security.AuthenticationLevel
-struct  AuthenticationLevel_t1468 
+struct  AuthenticationLevel_t1476 
 {
 	// System.Int32 System.Net.Security.AuthenticationLevel::value__
 	int32_t ___value___1;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.TextReader/NullTextReader
-struct NullTextReader_t2414;
+struct NullTextReader_t2422;
 // System.String
 struct String_t;
 
 // System.Void System.IO.TextReader/NullTextReader::.ctor()
-extern "C" void NullTextReader__ctor_m13347 (NullTextReader_t2414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextReader__ctor_m13384 (NullTextReader_t2422 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader/NullTextReader::ReadLine()
-extern "C" String_t* NullTextReader_ReadLine_m13348 (NullTextReader_t2414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NullTextReader_ReadLine_m13385 (NullTextReader_t2422 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

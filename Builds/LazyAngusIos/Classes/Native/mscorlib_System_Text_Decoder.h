@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.DecoderFallback
-struct DecoderFallback_t2660;
+struct DecoderFallback_t2668;
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t2661;
+struct DecoderFallbackBuffer_t2669;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.Decoder
-struct  Decoder_t2058  : public Object_t
+struct  Decoder_t2066  : public Object_t
 {
 	// System.Text.DecoderFallback System.Text.Decoder::fallback
-	DecoderFallback_t2660 * ___fallback_0;
+	DecoderFallback_t2668 * ___fallback_0;
 	// System.Text.DecoderFallbackBuffer System.Text.Decoder::fallback_buffer
-	DecoderFallbackBuffer_t2661 * ___fallback_buffer_1;
+	DecoderFallbackBuffer_t2669 * ___fallback_buffer_1;
 };

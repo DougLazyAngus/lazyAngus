@@ -7,10 +7,10 @@ struct String_t;
 // System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_9.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct  KeyValuePair_2_t3965 
+struct  KeyValuePair_2_t3974 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::key
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::value
-	KeyValuePair_2_t1274  ___value_1;
+	KeyValuePair_2_t1282  ___value_1;
 };

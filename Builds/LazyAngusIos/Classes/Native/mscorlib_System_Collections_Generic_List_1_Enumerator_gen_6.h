@@ -7,7 +7,7 @@ struct FBAppRequest_t218;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<FBAppRequest>
-struct  Enumerator_t597 
+struct  Enumerator_t605 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FBAppRequest>::l
 	List_1_t206 * ___l_0;

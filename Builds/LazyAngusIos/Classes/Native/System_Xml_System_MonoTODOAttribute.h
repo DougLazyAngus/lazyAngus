@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.MonoTODOAttribute
-struct  MonoTODOAttribute_t1922  : public Attribute_t343
+struct  MonoTODOAttribute_t1930  : public Attribute_t343
 {
 };

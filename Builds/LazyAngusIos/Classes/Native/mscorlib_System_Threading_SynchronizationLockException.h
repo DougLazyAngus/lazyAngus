@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Threading.SynchronizationLockException
-struct  SynchronizationLockException_t2689  : public SystemException_t1726
+struct  SynchronizationLockException_t2697  : public SystemException_t1734
 {
 };

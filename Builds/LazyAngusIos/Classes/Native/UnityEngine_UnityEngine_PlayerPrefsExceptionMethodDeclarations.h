@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.PlayerPrefsException
-struct PlayerPrefsException_t1082;
+struct PlayerPrefsException_t1090;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.PlayerPrefsException::.ctor(System.String)
-extern "C" void PlayerPrefsException__ctor_m5919 (PlayerPrefsException_t1082 * __this, String_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerPrefsException__ctor_m5957 (PlayerPrefsException_t1090 * __this, String_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;

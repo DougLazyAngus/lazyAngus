@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
-struct CrossAppDomainSink_t2513;
+struct CrossAppDomainSink_t2521;
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainSink::.cctor()
-extern "C" void CrossAppDomainSink__cctor_m13974 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainSink__cctor_m14011 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainSink::get_TargetDomainId()
-extern "C" int32_t CrossAppDomainSink_get_TargetDomainId_m13975 (CrossAppDomainSink_t2513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CrossAppDomainSink_get_TargetDomainId_m14012 (CrossAppDomainSink_t2521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

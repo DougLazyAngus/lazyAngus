@@ -1,4 +1,4 @@
-//Generated on : 7/15/2015 11:00:05 AM
+//Generated on : 7/16/2015 3:41:07 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -1582,6 +1582,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.SystemInfo::get_deviceUniqueIdentifier()
 		void Register_UnityEngine_SystemInfo_get_deviceUniqueIdentifier();
 		Register_UnityEngine_SystemInfo_get_deviceUniqueIdentifier();
+
+		//System.String UnityEngine.SystemInfo::get_operatingSystem()
+		void Register_UnityEngine_SystemInfo_get_operatingSystem();
+		Register_UnityEngine_SystemInfo_get_operatingSystem();
 
 	//End Registrations for type : UnityEngine.SystemInfo
 

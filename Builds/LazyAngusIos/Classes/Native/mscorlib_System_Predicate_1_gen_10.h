@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<GPScore>
-struct  Predicate_1_t3449  : public MulticastDelegate_t389
+struct  Predicate_1_t3457  : public MulticastDelegate_t389
 {
 };

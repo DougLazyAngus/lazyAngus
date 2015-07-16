@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.Extensions.BasicConstraintsExtension
-struct BasicConstraintsExtension_t2165;
+struct BasicConstraintsExtension_t2173;
 // Mono.Security.X509.X509Extension
-struct X509Extension_t1721;
+struct X509Extension_t1729;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void BasicConstraintsExtension__ctor_m10696 (BasicConstraintsExtension_t2165 * __this, X509Extension_t1721 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicConstraintsExtension__ctor_m10734 (BasicConstraintsExtension_t2173 * __this, X509Extension_t1729 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::Decode()
-extern "C" void BasicConstraintsExtension_Decode_m10697 (BasicConstraintsExtension_t2165 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicConstraintsExtension_Decode_m10735 (BasicConstraintsExtension_t2173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::Encode()
-extern "C" void BasicConstraintsExtension_Encode_m10698 (BasicConstraintsExtension_t2165 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicConstraintsExtension_Encode_m10736 (BasicConstraintsExtension_t2173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.Extensions.BasicConstraintsExtension::get_CertificateAuthority()
-extern "C" bool BasicConstraintsExtension_get_CertificateAuthority_m10699 (BasicConstraintsExtension_t2165 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BasicConstraintsExtension_get_CertificateAuthority_m10737 (BasicConstraintsExtension_t2173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.BasicConstraintsExtension::ToString()
-extern "C" String_t* BasicConstraintsExtension_ToString_m10700 (BasicConstraintsExtension_t2165 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BasicConstraintsExtension_ToString_m10738 (BasicConstraintsExtension_t2173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

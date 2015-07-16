@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.IHasXmlChildNode
-struct IHasXmlChildNode_t2070;
+struct IHasXmlChildNode_t2078;
 // System.Xml.XmlNodeList
 #include "System_Xml_System_Xml_XmlNodeList.h"
 // System.Xml.XmlNodeListChildren
-struct  XmlNodeListChildren_t2067  : public XmlNodeList_t2066
+struct  XmlNodeListChildren_t2075  : public XmlNodeList_t2074
 {
 	// System.Xml.IHasXmlChildNode System.Xml.XmlNodeListChildren::parent
 	Object_t * ___parent_0;

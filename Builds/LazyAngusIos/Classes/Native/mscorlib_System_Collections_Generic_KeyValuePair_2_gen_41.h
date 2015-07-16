@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Event
-struct Event_t621;
-struct Event_t621_marshaled;
+struct Event_t629;
+struct Event_t629_marshaled;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.TextEditor/TextEditOp
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  KeyValuePair_2_t3988 
+struct  KeyValuePair_2_t3997 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::key
-	Event_t621 * ___key_0;
+	Event_t629 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::value
 	int32_t ___value_1;
 };

@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.IO.FileStream/WriteDelegate
-struct  WriteDelegate_t2403  : public MulticastDelegate_t389
+struct  WriteDelegate_t2411  : public MulticastDelegate_t389
 {
 };

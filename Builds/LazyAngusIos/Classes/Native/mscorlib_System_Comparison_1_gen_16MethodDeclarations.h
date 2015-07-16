@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<TweetTemplate>
-struct Comparison_1_t3530;
+struct Comparison_1_t3538;
 // System.Object
 struct Object_t;
 // TweetTemplate
@@ -20,10 +20,10 @@ struct AsyncCallback_t387;
 // System.Void System.Comparison`1<TweetTemplate>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m20391(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3530 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m16987_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m20427(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3538 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17023_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<TweetTemplate>::Invoke(T,T)
-#define Comparison_1_Invoke_m20392(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3530 *, TweetTemplate_t255 *, TweetTemplate_t255 *, const MethodInfo*))Comparison_1_Invoke_m16988_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m20428(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3538 *, TweetTemplate_t255 *, TweetTemplate_t255 *, const MethodInfo*))Comparison_1_Invoke_m17024_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<TweetTemplate>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m20393(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3530 *, TweetTemplate_t255 *, TweetTemplate_t255 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m16989_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m20429(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3538 *, TweetTemplate_t255 *, TweetTemplate_t255 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17025_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<TweetTemplate>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m20394(__this, ___result, method) (( int32_t (*) (Comparison_1_t3530 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m16990_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m20430(__this, ___result, method) (( int32_t (*) (Comparison_1_t3538 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17026_gshared)(__this, ___result, method)

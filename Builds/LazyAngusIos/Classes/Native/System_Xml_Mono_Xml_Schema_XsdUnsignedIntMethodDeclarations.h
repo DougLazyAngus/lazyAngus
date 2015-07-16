@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdUnsignedInt
-struct XsdUnsignedInt_t1950;
+struct XsdUnsignedInt_t1958;
 
 // System.Void Mono.Xml.Schema.XsdUnsignedInt::.ctor()
-extern "C" void XsdUnsignedInt__ctor_m9314 (XsdUnsignedInt_t1950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdUnsignedInt__ctor_m9352 (XsdUnsignedInt_t1958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

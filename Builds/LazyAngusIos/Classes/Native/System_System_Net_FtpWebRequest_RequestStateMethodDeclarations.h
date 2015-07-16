@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpWebRequest/RequestState
-struct RequestState_t1543;
+struct RequestState_t1551;
 

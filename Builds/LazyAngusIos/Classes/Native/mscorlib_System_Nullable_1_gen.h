@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Nullable`1<System.Int32>
-struct  Nullable_1_t541 
+struct  Nullable_1_t549 
 {
 	// T System.Nullable`1<System.Int32>::value
 	int32_t ___value_0;

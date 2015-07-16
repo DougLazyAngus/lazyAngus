@@ -9,7 +9,7 @@ struct FacebookUserInfo_t202;
 // System.String
 struct String_t;
 // System.Collections.IDictionary
-struct IDictionary_t536;
+struct IDictionary_t544;
 // System.Action`1<FacebookUserInfo>
 struct Action_1_t227;
 // UnityEngine.Texture2D

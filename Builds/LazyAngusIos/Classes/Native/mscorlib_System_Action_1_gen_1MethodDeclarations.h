@@ -18,10 +18,10 @@ struct AsyncCallback_t387;
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Byte>
 #include "mscorlib_System_Action_1_gen_18MethodDeclarations.h"
-#define Action_1__ctor_m2704(__this, ___object, ___method, method) (( void (*) (Action_1_t209 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m19866_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m2738(__this, ___object, ___method, method) (( void (*) (Action_1_t209 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m19902_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Boolean>::Invoke(T)
-#define Action_1_Invoke_m19867(__this, ___obj, method) (( void (*) (Action_1_t209 *, bool, const MethodInfo*))Action_1_Invoke_m19868_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m19903(__this, ___obj, method) (( void (*) (Action_1_t209 *, bool, const MethodInfo*))Action_1_Invoke_m19904_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m19869(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t209 *, bool, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m19870_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m19905(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t209 *, bool, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m19906_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Boolean>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m19871(__this, ___result, method) (( void (*) (Action_1_t209 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m19872_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m19907(__this, ___result, method) (( void (*) (Action_1_t209 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m19908_gshared)(__this, ___result, method)

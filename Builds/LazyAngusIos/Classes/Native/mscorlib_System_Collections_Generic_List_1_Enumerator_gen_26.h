@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t677;
+struct List_1_t685;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t678;
+struct BaseInputModule_t686;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>
-struct  Enumerator_t3630 
+struct  Enumerator_t3639 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::l
-	List_1_t677 * ___l_0;
+	List_1_t685 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::current
-	BaseInputModule_t678 * ___current_3;
+	BaseInputModule_t686 * ___current_3;
 };

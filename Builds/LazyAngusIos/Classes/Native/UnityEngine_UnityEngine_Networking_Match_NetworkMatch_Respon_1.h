@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Networking.Match.BasicResponse
-struct BasicResponse_t1114;
+struct BasicResponse_t1122;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>
-struct  ResponseDelegate_1_t1235  : public MulticastDelegate_t389
+struct  ResponseDelegate_1_t1243  : public MulticastDelegate_t389
 {
 };

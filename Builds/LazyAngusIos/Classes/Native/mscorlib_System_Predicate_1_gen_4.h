@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<SimpleJSON.JSONNode>
-struct  Predicate_1_t3333  : public MulticastDelegate_t389
+struct  Predicate_1_t3341  : public MulticastDelegate_t389
 {
 };

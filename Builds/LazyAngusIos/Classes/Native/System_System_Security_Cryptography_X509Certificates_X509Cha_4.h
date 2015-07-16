@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.OidCollection
-struct OidCollection_t1615;
+struct OidCollection_t1623;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct X509Certificate2Collection_t1603;
+struct X509Certificate2Collection_t1611;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509RevocationFlag
@@ -17,14 +17,14 @@ struct X509Certificate2Collection_t1603;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy
-struct  X509ChainPolicy_t1608  : public Object_t
+struct  X509ChainPolicy_t1616  : public Object_t
 {
 	// System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509ChainPolicy::apps
-	OidCollection_t1615 * ___apps_0;
+	OidCollection_t1623 * ___apps_0;
 	// System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509ChainPolicy::cert
-	OidCollection_t1615 * ___cert_1;
+	OidCollection_t1623 * ___cert_1;
 	// System.Security.Cryptography.X509Certificates.X509Certificate2Collection System.Security.Cryptography.X509Certificates.X509ChainPolicy::store
-	X509Certificate2Collection_t1603 * ___store_2;
+	X509Certificate2Collection_t1611 * ___store_2;
 	// System.Security.Cryptography.X509Certificates.X509RevocationFlag System.Security.Cryptography.X509Certificates.X509ChainPolicy::rflag
 	int32_t ___rflag_3;
 	// System.Security.Cryptography.X509Certificates.X509RevocationMode System.Security.Cryptography.X509Certificates.X509ChainPolicy::mode

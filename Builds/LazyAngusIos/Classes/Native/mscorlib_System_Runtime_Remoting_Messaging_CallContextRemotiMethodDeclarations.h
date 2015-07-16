@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct CallContextRemotingData_t2529;
+struct CallContextRemotingData_t2537;
 
 // System.Void System.Runtime.Remoting.Messaging.CallContextRemotingData::.ctor()
-extern "C" void CallContextRemotingData__ctor_m14043 (CallContextRemotingData_t2529 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CallContextRemotingData__ctor_m14080 (CallContextRemotingData_t2537 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

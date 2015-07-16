@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Collections.Generic.KeyNotFoundException
-struct  KeyNotFoundException_t2348  : public SystemException_t1726
+struct  KeyNotFoundException_t2356  : public SystemException_t1734
 {
 };

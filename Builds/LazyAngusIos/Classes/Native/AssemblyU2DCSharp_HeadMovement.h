@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // ConeOfViewRenderer
-struct ConeOfViewRenderer_t402;
+struct ConeOfViewRenderer_t401;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
 // HeadMovement
-struct  HeadMovement_t436  : public MonoBehaviour_t67
+struct  HeadMovement_t434  : public MonoBehaviour_t67
 {
 	// System.Single HeadMovement::moveToSpeedDeg
 	float ___moveToSpeedDeg_2;
@@ -16,7 +16,7 @@ struct  HeadMovement_t436  : public MonoBehaviour_t67
 	// System.Single HeadMovement::maxTurnDeg
 	float ___maxTurnDeg_4;
 	// ConeOfViewRenderer HeadMovement::coneOfView
-	ConeOfViewRenderer_t402 * ___coneOfView_5;
+	ConeOfViewRenderer_t401 * ___coneOfView_5;
 	// System.Single HeadMovement::holdTime
 	float ___holdTime_6;
 	// System.Single HeadMovement::targetDeg

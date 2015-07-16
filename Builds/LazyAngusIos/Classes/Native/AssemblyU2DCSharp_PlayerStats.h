@@ -3,38 +3,38 @@
 // System.String
 struct String_t;
 // System.Int32[]
-struct Int32U5BU5D_t456;
+struct Int32U5BU5D_t455;
 // PlayerStats/ScoreChangedEventHandler
-struct ScoreChangedEventHandler_t489;
+struct ScoreChangedEventHandler_t490;
 // PlayerStats/TreatsChangedEventHandler
-struct TreatsChangedEventHandler_t490;
+struct TreatsChangedEventHandler_t491;
 // PlayerStats/BoostsChangedEventHandler
-struct BoostsChangedEventHandler_t491;
+struct BoostsChangedEventHandler_t492;
 // PlayerStats
-struct PlayerStats_t396;
+struct PlayerStats_t395;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerStats
-struct  PlayerStats_t396  : public MonoBehaviour_t67
+struct  PlayerStats_t395  : public MonoBehaviour_t67
 {
 	// System.Int32 PlayerStats::gameScore
 	int32_t ___gameScore_3;
 	// System.Int32 PlayerStats::treatCount
 	int32_t ___treatCount_4;
 	// System.Int32[] PlayerStats::availableBoostCount
-	Int32U5BU5D_t456* ___availableBoostCount_5;
+	Int32U5BU5D_t455* ___availableBoostCount_5;
 	// System.Int32[] PlayerStats::purchasedBoostCount
-	Int32U5BU5D_t456* ___purchasedBoostCount_6;
+	Int32U5BU5D_t455* ___purchasedBoostCount_6;
 	// System.Boolean PlayerStats::registeredForEvents
 	bool ___registeredForEvents_7;
 	// PlayerStats/ScoreChangedEventHandler PlayerStats::ScoreChanged
-	ScoreChangedEventHandler_t489 * ___ScoreChanged_8;
+	ScoreChangedEventHandler_t490 * ___ScoreChanged_8;
 	// PlayerStats/TreatsChangedEventHandler PlayerStats::TreatsChanged
-	TreatsChangedEventHandler_t490 * ___TreatsChanged_9;
+	TreatsChangedEventHandler_t491 * ___TreatsChanged_9;
 	// PlayerStats/BoostsChangedEventHandler PlayerStats::BoostsChanged
-	BoostsChangedEventHandler_t491 * ___BoostsChanged_10;
+	BoostsChangedEventHandler_t492 * ___BoostsChanged_10;
 };
-struct PlayerStats_t396_StaticFields{
+struct PlayerStats_t395_StaticFields{
 	// PlayerStats PlayerStats::<instance>k__BackingField
-	PlayerStats_t396 * ___U3CinstanceU3Ek__BackingField_11;
+	PlayerStats_t395 * ___U3CinstanceU3Ek__BackingField_11;
 };

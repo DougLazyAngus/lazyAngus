@@ -5,13 +5,11 @@ struct GameObject_t284;
 // UnityEngine.Collider2D
 struct Collider2D_t484;
 // GameController
-struct GameController_t424;
+struct GameController_t422;
 // BoostConfig
 struct BoostConfig_t373;
 // UnityEngine.Transform
 struct Transform_t323;
-// UnityEngine.AudioSource[]
-struct AudioSourceU5BU5D_t405;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -19,10 +17,10 @@ struct AudioSourceU5BU5D_t405;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController
-struct  PawController_t409  : public MonoBehaviour_t67
+struct  PawController_t407  : public MonoBehaviour_t67
 {
 	// UnityEngine.Vector3 PawController::swipeLocationCat
-	Vector3_t413  ___swipeLocationCat_2;
+	Vector3_t411  ___swipeLocationCat_2;
 	// PawController/SwipePhase PawController::swipePhase
 	int32_t ___swipePhase_3;
 	// System.Single PawController::pauseStarted
@@ -44,7 +42,7 @@ struct  PawController_t409  : public MonoBehaviour_t67
 	// System.Int32 PawController::killsThisSwipe
 	int32_t ___killsThisSwipe_12;
 	// GameController PawController::gameController
-	GameController_t424 * ___gameController_13;
+	GameController_t422 * ___gameController_13;
 	// System.Boolean PawController::registerdForEvents
 	bool ___registerdForEvents_14;
 	// BoostConfig PawController::boostConfig
@@ -55,6 +53,4 @@ struct  PawController_t409  : public MonoBehaviour_t67
 	Transform_t323 * ___shoulderJointCatTransform_17;
 	// System.Single PawController::pawHomeCatTransformMagnitude
 	float ___pawHomeCatTransformMagnitude_18;
-	// UnityEngine.AudioSource[] PawController::audioSources
-	AudioSourceU5BU5D_t405* ___audioSources_19;
 };

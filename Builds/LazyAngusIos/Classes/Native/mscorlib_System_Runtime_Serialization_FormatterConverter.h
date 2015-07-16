@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.FormatterConverter
-struct  FormatterConverter_t2578  : public Object_t
+struct  FormatterConverter_t2586  : public Object_t
 {
 };

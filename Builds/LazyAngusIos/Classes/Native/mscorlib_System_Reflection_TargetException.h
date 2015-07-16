@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.Reflection.TargetException
-struct  TargetException_t2472  : public Exception_t27
+struct  TargetException_t2480  : public Exception_t27
 {
 };

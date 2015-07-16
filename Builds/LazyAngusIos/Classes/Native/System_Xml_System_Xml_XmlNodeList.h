@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNodeList
-struct  XmlNodeList_t2066  : public Object_t
+struct  XmlNodeList_t2074  : public Object_t
 {
 };

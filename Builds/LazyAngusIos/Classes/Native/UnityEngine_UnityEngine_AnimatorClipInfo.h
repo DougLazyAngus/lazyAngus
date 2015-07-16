@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.AnimatorClipInfo
-struct  AnimatorClipInfo_t1098 
+struct  AnimatorClipInfo_t1106 
 {
 	// System.Int32 UnityEngine.AnimatorClipInfo::m_ClipInstanceID
 	int32_t ___m_ClipInstanceID_0;

@@ -5,11 +5,11 @@ struct String_t;
 // UnityEngine.Texture
 struct Texture_t311;
 // UnityEngine.GUIContent
-struct GUIContent_t620;
+struct GUIContent_t628;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.GUIContent
-struct  GUIContent_t620  : public Object_t
+struct  GUIContent_t628  : public Object_t
 {
 	// System.String UnityEngine.GUIContent::m_Text
 	String_t* ___m_Text_0;
@@ -18,13 +18,13 @@ struct  GUIContent_t620  : public Object_t
 	// System.String UnityEngine.GUIContent::m_Tooltip
 	String_t* ___m_Tooltip_2;
 };
-struct GUIContent_t620_StaticFields{
+struct GUIContent_t628_StaticFields{
 	// UnityEngine.GUIContent UnityEngine.GUIContent::none
-	GUIContent_t620 * ___none_3;
+	GUIContent_t628 * ___none_3;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_Text
-	GUIContent_t620 * ___s_Text_4;
+	GUIContent_t628 * ___s_Text_4;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_Image
-	GUIContent_t620 * ___s_Image_5;
+	GUIContent_t628 * ___s_Image_5;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_TextImage
-	GUIContent_t620 * ___s_TextImage_6;
+	GUIContent_t628 * ___s_TextImage_6;
 };

@@ -5,7 +5,7 @@
 // UnityEngine.EventModifiers
 #include "UnityEngine_UnityEngine_EventModifiers.h"
 // UnityEngine.EventModifiers
-struct  EventModifiers_t1056 
+struct  EventModifiers_t1064 
 {
 	// System.Int32 UnityEngine.EventModifiers::value__
 	int32_t ___value___1;

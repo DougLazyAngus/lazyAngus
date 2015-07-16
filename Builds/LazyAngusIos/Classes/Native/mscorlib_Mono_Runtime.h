@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Runtime
-struct  Runtime_t2346  : public Object_t
+struct  Runtime_t2354  : public Object_t
 {
 };

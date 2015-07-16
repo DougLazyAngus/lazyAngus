@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.SerializationCallbacks
-struct SerializationCallbacks_t2593;
+struct SerializationCallbacks_t2601;
 // System.Type
 struct Type_t;
 // System.Collections.ArrayList
-struct ArrayList_t1451;
+struct ArrayList_t1459;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.SerializationCallbacks::.ctor(System.Type)
-extern "C" void SerializationCallbacks__ctor_m14316 (SerializationCallbacks_t2593 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationCallbacks__ctor_m14353 (SerializationCallbacks_t2601 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationCallbacks::.cctor()
-extern "C" void SerializationCallbacks__cctor_m14317 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationCallbacks__cctor_m14354 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.SerializationCallbacks::get_HasDeserializedCallbacks()
-extern "C" bool SerializationCallbacks_get_HasDeserializedCallbacks_m14318 (SerializationCallbacks_t2593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SerializationCallbacks_get_HasDeserializedCallbacks_m14355 (SerializationCallbacks_t2601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Runtime.Serialization.SerializationCallbacks::GetMethodsByAttribute(System.Type,System.Type)
-extern "C" ArrayList_t1451 * SerializationCallbacks_GetMethodsByAttribute_m14319 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___attr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t1459 * SerializationCallbacks_GetMethodsByAttribute_m14356 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___attr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationCallbacks::Invoke(System.Collections.ArrayList,System.Object,System.Runtime.Serialization.StreamingContext)
-extern "C" void SerializationCallbacks_Invoke_m14320 (Object_t * __this /* static, unused */, ArrayList_t1451 * ___list, Object_t * ___target, StreamingContext_t1248  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationCallbacks_Invoke_m14357 (Object_t * __this /* static, unused */, ArrayList_t1459 * ___list, Object_t * ___target, StreamingContext_t1256  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationCallbacks::RaiseOnDeserializing(System.Object,System.Runtime.Serialization.StreamingContext)
-extern "C" void SerializationCallbacks_RaiseOnDeserializing_m14321 (SerializationCallbacks_t2593 * __this, Object_t * ___target, StreamingContext_t1248  ___contex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationCallbacks_RaiseOnDeserializing_m14358 (SerializationCallbacks_t2601 * __this, Object_t * ___target, StreamingContext_t1256  ___contex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationCallbacks::RaiseOnDeserialized(System.Object,System.Runtime.Serialization.StreamingContext)
-extern "C" void SerializationCallbacks_RaiseOnDeserialized_m14322 (SerializationCallbacks_t2593 * __this, Object_t * ___target, StreamingContext_t1248  ___contex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationCallbacks_RaiseOnDeserialized_m14359 (SerializationCallbacks_t2601 * __this, Object_t * ___target, StreamingContext_t1256  ___contex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.SerializationCallbacks System.Runtime.Serialization.SerializationCallbacks::GetSerializationCallbacks(System.Type)
-extern "C" SerializationCallbacks_t2593 * SerializationCallbacks_GetSerializationCallbacks_m14323 (Object_t * __this /* static, unused */, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SerializationCallbacks_t2601 * SerializationCallbacks_GetSerializationCallbacks_m14360 (Object_t * __this /* static, unused */, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

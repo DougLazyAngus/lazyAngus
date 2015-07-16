@@ -4,27 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
-struct InternalEnumerator_1_t4018;
+// System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>
+struct InternalEnumerator_1_t3992;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// System.Security.Cryptography.X509Certificates.X509ChainStatus
-#include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
+// UnityEngine.SendMouseEvents/HitInfo
+#include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m27177_gshared (InternalEnumerator_1_t4018 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m27177(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4018 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m27177_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27178_gshared (InternalEnumerator_1_t4018 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27178(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4018 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27178_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m27179_gshared (InternalEnumerator_1_t4018 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m27179(__this, method) (( void (*) (InternalEnumerator_1_t4018 *, const MethodInfo*))InternalEnumerator_1_Dispose_m27179_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m27180_gshared (InternalEnumerator_1_t4018 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m27180(__this, method) (( bool (*) (InternalEnumerator_1_t4018 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27180_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::get_Current()
-extern "C" X509ChainStatus_t1610  InternalEnumerator_1_get_Current_m27181_gshared (InternalEnumerator_1_t4018 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m27181(__this, method) (( X509ChainStatus_t1610  (*) (InternalEnumerator_1_t4018 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27181_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m26863_gshared (InternalEnumerator_1_t3992 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m26863(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3992 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m26863_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26864_gshared (InternalEnumerator_1_t3992 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26864(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3992 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26864_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m26865_gshared (InternalEnumerator_1_t3992 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m26865(__this, method) (( void (*) (InternalEnumerator_1_t3992 *, const MethodInfo*))InternalEnumerator_1_Dispose_m26865_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m26866_gshared (InternalEnumerator_1_t3992 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m26866(__this, method) (( bool (*) (InternalEnumerator_1_t3992 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m26866_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::get_Current()
+extern "C" HitInfo_t1193  InternalEnumerator_1_get_Current_m26867_gshared (InternalEnumerator_1_t3992 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m26867(__this, method) (( HitInfo_t1193  (*) (InternalEnumerator_1_t3992 *, const MethodInfo*))InternalEnumerator_1_get_Current_m26867_gshared)(__this, method)

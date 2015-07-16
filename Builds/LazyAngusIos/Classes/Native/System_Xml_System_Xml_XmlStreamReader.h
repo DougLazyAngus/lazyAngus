@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlInputStream
-struct XmlInputStream_t2055;
+struct XmlInputStream_t2063;
 // System.Xml.XmlException
-struct XmlException_t2054;
+struct XmlException_t2062;
 // System.Xml.NonBlockingStreamReader
 #include "System_Xml_System_Xml_NonBlockingStreamReader.h"
 // System.Xml.XmlStreamReader
-struct  XmlStreamReader_t2056  : public NonBlockingStreamReader_t2057
+struct  XmlStreamReader_t2064  : public NonBlockingStreamReader_t2065
 {
 	// System.Xml.XmlInputStream System.Xml.XmlStreamReader::input
-	XmlInputStream_t2055 * ___input_12;
+	XmlInputStream_t2063 * ___input_12;
 };
-struct XmlStreamReader_t2056_StaticFields{
+struct XmlStreamReader_t2064_StaticFields{
 	// System.Xml.XmlException System.Xml.XmlStreamReader::invalidDataException
-	XmlException_t2054 * ___invalidDataException_13;
+	XmlException_t2062 * ___invalidDataException_13;
 };

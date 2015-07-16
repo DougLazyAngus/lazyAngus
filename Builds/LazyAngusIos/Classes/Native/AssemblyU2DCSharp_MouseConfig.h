@@ -3,11 +3,11 @@
 // UnityEngine.GameObject
 struct GameObject_t284;
 // MouseDesc[]
-struct MouseDescU5BU5D_t463;
+struct MouseDescU5BU5D_t462;
 // MouseWiggleDesc[]
-struct MouseWiggleDescU5BU5D_t464;
+struct MouseWiggleDescU5BU5D_t463;
 // MouseConfig
-struct MouseConfig_t465;
+struct MouseConfig_t464;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Color
@@ -15,7 +15,7 @@ struct MouseConfig_t465;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseConfig
-struct  MouseConfig_t465  : public MonoBehaviour_t67
+struct  MouseConfig_t464  : public MonoBehaviour_t67
 {
 	// System.Single MouseConfig::timeToTurn
 	float ___timeToTurn_2;
@@ -40,7 +40,7 @@ struct  MouseConfig_t465  : public MonoBehaviour_t67
 	// UnityEngine.Color MouseConfig::fartedUponColor
 	Color_t257  ___fartedUponColor_12;
 	// UnityEngine.Vector3 MouseConfig::progressBarOffset
-	Vector3_t413  ___progressBarOffset_13;
+	Vector3_t411  ___progressBarOffset_13;
 	// UnityEngine.GameObject MouseConfig::deadMousePrototype
 	GameObject_t284 * ___deadMousePrototype_14;
 	// System.Single MouseConfig::minBFWiggleMagnitude
@@ -68,11 +68,11 @@ struct  MouseConfig_t465  : public MonoBehaviour_t67
 	// System.Int32 MouseConfig::maxRDWiggleCycles
 	int32_t ___maxRDWiggleCycles_26;
 	// MouseDesc[] MouseConfig::mouseDescs
-	MouseDescU5BU5D_t463* ___mouseDescs_27;
+	MouseDescU5BU5D_t462* ___mouseDescs_27;
 	// MouseWiggleDesc[] MouseConfig::mouseWiggleDescs
-	MouseWiggleDescU5BU5D_t464* ___mouseWiggleDescs_28;
+	MouseWiggleDescU5BU5D_t463* ___mouseWiggleDescs_28;
 };
-struct MouseConfig_t465_StaticFields{
+struct MouseConfig_t464_StaticFields{
 	// MouseConfig MouseConfig::instance
-	MouseConfig_t465 * ___instance_29;
+	MouseConfig_t464 * ___instance_29;
 };

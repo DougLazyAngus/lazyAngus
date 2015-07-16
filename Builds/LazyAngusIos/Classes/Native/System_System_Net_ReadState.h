@@ -5,7 +5,7 @@
 // System.Net.ReadState
 #include "System_System_Net_ReadState.h"
 // System.Net.ReadState
-struct  ReadState_t1575 
+struct  ReadState_t1583 
 {
 	// System.Int32 System.Net.ReadState::value__
 	int32_t ___value___1;

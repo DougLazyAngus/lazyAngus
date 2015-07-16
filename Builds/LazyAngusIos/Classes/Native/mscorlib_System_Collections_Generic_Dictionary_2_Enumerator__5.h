@@ -7,7 +7,7 @@ struct Dictionary_2_t74;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_6.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String[]>
-struct  Enumerator_t612 
+struct  Enumerator_t620 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String[]>::dictionary
 	Dictionary_2_t74 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t612
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String[]>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String[]>::current
-	KeyValuePair_2_t611  ___current_3;
+	KeyValuePair_2_t619  ___current_3;
 };

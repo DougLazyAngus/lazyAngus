@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
-struct XmlSchemaSimpleTypeRestriction_t1989;
+struct XmlSchemaSimpleTypeRestriction_t1997;
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.cctor()
-extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m9372 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m9410 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

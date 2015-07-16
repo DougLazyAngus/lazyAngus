@@ -3,6 +3,6 @@
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer_1.h"
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct  X509Certificate2Collection_t1603  : public X509CertificateCollection_t1470
+struct  X509Certificate2Collection_t1611  : public X509CertificateCollection_t1478
 {
 };

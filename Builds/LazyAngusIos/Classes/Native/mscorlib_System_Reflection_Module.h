@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.TypeFilter
-struct TypeFilter_t2458;
+struct TypeFilter_t2466;
 // System.Reflection.Assembly
-struct Assembly_t607;
+struct Assembly_t615;
 // System.String
 struct String_t;
 // System.Object
@@ -13,12 +13,12 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Reflection.Module
-struct  Module_t2433  : public Object_t
+struct  Module_t2441  : public Object_t
 {
 	// System.IntPtr System.Reflection.Module::_impl
 	IntPtr_t ____impl_3;
 	// System.Reflection.Assembly System.Reflection.Module::assembly
-	Assembly_t607 * ___assembly_4;
+	Assembly_t615 * ___assembly_4;
 	// System.String System.Reflection.Module::fqname
 	String_t* ___fqname_5;
 	// System.String System.Reflection.Module::name
@@ -30,9 +30,9 @@ struct  Module_t2433  : public Object_t
 	// System.Int32 System.Reflection.Module::token
 	int32_t ___token_9;
 };
-struct Module_t2433_StaticFields{
+struct Module_t2441_StaticFields{
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeName
-	TypeFilter_t2458 * ___FilterTypeName_1;
+	TypeFilter_t2466 * ___FilterTypeName_1;
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeNameIgnoreCase
-	TypeFilter_t2458 * ___FilterTypeNameIgnoreCase_2;
+	TypeFilter_t2466 * ___FilterTypeNameIgnoreCase_2;
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Resources.SatelliteContractVersionAttribute
-struct SatelliteContractVersionAttribute_t1771;
+struct SatelliteContractVersionAttribute_t1779;
 // System.String
 struct String_t;
 
 // System.Void System.Resources.SatelliteContractVersionAttribute::.ctor(System.String)
-extern "C" void SatelliteContractVersionAttribute__ctor_m8951 (SatelliteContractVersionAttribute_t1771 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SatelliteContractVersionAttribute__ctor_m8989 (SatelliteContractVersionAttribute_t1779 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

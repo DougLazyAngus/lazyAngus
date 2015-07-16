@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t652;
+struct List_1_t660;
 // GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t641;
+struct GoogleMobileAdBanner_t649;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>
-struct  Enumerator_t3426 
+struct  Enumerator_t3434 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::l
-	List_1_t652 * ___l_0;
+	List_1_t660 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::ver

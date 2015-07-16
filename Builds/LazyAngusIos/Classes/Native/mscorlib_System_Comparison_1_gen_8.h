@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t528;
+struct DataEventHandlerFunction_t536;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct  Comparison_1_t3416  : public MulticastDelegate_t389
+struct  Comparison_1_t3424  : public MulticastDelegate_t389
 {
 };

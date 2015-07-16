@@ -3,6 +3,6 @@
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.Net.WebResponse
-struct  WebResponse_t1525  : public MarshalByRefObject_t1585
+struct  WebResponse_t1533  : public MarshalByRefObject_t1593
 {
 };

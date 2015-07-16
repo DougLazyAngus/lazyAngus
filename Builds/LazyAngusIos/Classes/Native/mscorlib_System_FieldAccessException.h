@@ -3,6 +3,6 @@
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
 // System.FieldAccessException
-struct  FieldAccessException_t2732  : public MemberAccessException_t2733
+struct  FieldAccessException_t2740  : public MemberAccessException_t2741
 {
 };

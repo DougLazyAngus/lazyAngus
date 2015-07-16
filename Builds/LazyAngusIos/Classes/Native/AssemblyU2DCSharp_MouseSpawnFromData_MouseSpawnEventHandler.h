@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // MouseSpawnFromData/MouseSpawnEventHandler
-struct  MouseSpawnEventHandler_t474  : public MulticastDelegate_t389
+struct  MouseSpawnEventHandler_t473  : public MulticastDelegate_t389
 {
 };

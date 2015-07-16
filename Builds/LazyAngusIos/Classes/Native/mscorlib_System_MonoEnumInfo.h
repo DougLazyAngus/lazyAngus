@@ -7,21 +7,21 @@ struct Array_t;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Collections.Hashtable
-struct Hashtable_t1438;
+struct Hashtable_t1446;
 // System.Object
 struct Object_t;
 // System.MonoEnumInfo/SByteComparer
-struct SByteComparer_t2723;
+struct SByteComparer_t2731;
 // System.MonoEnumInfo/ShortComparer
-struct ShortComparer_t2724;
+struct ShortComparer_t2732;
 // System.MonoEnumInfo/IntComparer
-struct IntComparer_t2725;
+struct IntComparer_t2733;
 // System.MonoEnumInfo/LongComparer
-struct LongComparer_t2726;
+struct LongComparer_t2734;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.MonoEnumInfo
-struct  MonoEnumInfo_t2727 
+struct  MonoEnumInfo_t2735 
 {
 	// System.Type System.MonoEnumInfo::utype
 	Type_t * ___utype_0;
@@ -30,23 +30,23 @@ struct  MonoEnumInfo_t2727
 	// System.String[] System.MonoEnumInfo::names
 	StringU5BU5D_t45* ___names_2;
 	// System.Collections.Hashtable System.MonoEnumInfo::name_hash
-	Hashtable_t1438 * ___name_hash_3;
+	Hashtable_t1446 * ___name_hash_3;
 };
-struct MonoEnumInfo_t2727_StaticFields{
+struct MonoEnumInfo_t2735_StaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::global_cache
-	Hashtable_t1438 * ___global_cache_5;
+	Hashtable_t1446 * ___global_cache_5;
 	// System.Object System.MonoEnumInfo::global_cache_monitor
 	Object_t * ___global_cache_monitor_6;
 	// System.MonoEnumInfo/SByteComparer System.MonoEnumInfo::sbyte_comparer
-	SByteComparer_t2723 * ___sbyte_comparer_7;
+	SByteComparer_t2731 * ___sbyte_comparer_7;
 	// System.MonoEnumInfo/ShortComparer System.MonoEnumInfo::short_comparer
-	ShortComparer_t2724 * ___short_comparer_8;
+	ShortComparer_t2732 * ___short_comparer_8;
 	// System.MonoEnumInfo/IntComparer System.MonoEnumInfo::int_comparer
-	IntComparer_t2725 * ___int_comparer_9;
+	IntComparer_t2733 * ___int_comparer_9;
 	// System.MonoEnumInfo/LongComparer System.MonoEnumInfo::long_comparer
-	LongComparer_t2726 * ___long_comparer_10;
+	LongComparer_t2734 * ___long_comparer_10;
 };
-struct MonoEnumInfo_t2727_ThreadStaticFields{
+struct MonoEnumInfo_t2735_ThreadStaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::cache
-	Hashtable_t1438 * ___cache_4;
+	Hashtable_t1446 * ___cache_4;
 };

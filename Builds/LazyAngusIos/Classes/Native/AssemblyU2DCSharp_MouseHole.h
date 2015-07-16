@@ -1,17 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.AudioSource
-struct AudioSource_t392;
 // ThrobForEffect
-struct ThrobForEffect_t470;
+struct ThrobForEffect_t469;
 // UnityEngine.GameObject
 struct GameObject_t284;
 // TipConfig
-struct TipConfig_t394;
+struct TipConfig_t393;
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t468;
+struct MousePopChangedEventHandler_t467;
 // MouseHole/CapacityChangedEventHandler
-struct CapacityChangedEventHandler_t469;
+struct CapacityChangedEventHandler_t468;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -19,32 +17,30 @@ struct CapacityChangedEventHandler_t469;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t439  : public MonoBehaviour_t67
+struct  MouseHole_t437  : public MonoBehaviour_t67
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
-	Vector3_t413  ___meterOffset_2;
-	// UnityEngine.AudioSource MouseHole::safeMouseAudioSource
-	AudioSource_t392 * ___safeMouseAudioSource_3;
+	Vector3_t411  ___meterOffset_2;
 	// MouseHole/MouseHoleLocation MouseHole::mouseHoleLocation
-	int32_t ___mouseHoleLocation_4;
+	int32_t ___mouseHoleLocation_3;
 	// System.Int32 MouseHole::savedMouseCount
-	int32_t ___savedMouseCount_6;
+	int32_t ___savedMouseCount_5;
 	// ThrobForEffect MouseHole::throbForEffect
-	ThrobForEffect_t470 * ___throbForEffect_7;
+	ThrobForEffect_t469 * ___throbForEffect_6;
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
-	GameObject_t284 * ___holeMeterPrototype_8;
+	GameObject_t284 * ___holeMeterPrototype_7;
 	// TipConfig MouseHole::mouseHoleTip
-	TipConfig_t394 * ___mouseHoleTip_9;
+	TipConfig_t393 * ___mouseHoleTip_8;
 	// System.Int32 MouseHole::capacity
-	int32_t ___capacity_10;
+	int32_t ___capacity_9;
 	// System.Boolean MouseHole::registeredForEvents
-	bool ___registeredForEvents_11;
+	bool ___registeredForEvents_10;
 	// MouseHole/MousePopChangedEventHandler MouseHole::MousePopChanged
-	MousePopChangedEventHandler_t468 * ___MousePopChanged_12;
+	MousePopChangedEventHandler_t467 * ___MousePopChanged_11;
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
-	CapacityChangedEventHandler_t469 * ___CapacityChanged_13;
+	CapacityChangedEventHandler_t468 * ___CapacityChanged_12;
 };
-struct MouseHole_t439_StaticFields{
+struct MouseHole_t437_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
-	float ___angleBetweenHoles_5;
+	float ___angleBetweenHoles_4;
 };

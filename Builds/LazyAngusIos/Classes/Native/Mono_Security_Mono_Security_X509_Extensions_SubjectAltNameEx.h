@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.Extensions.GeneralNames
-struct GeneralNames_t2167;
+struct GeneralNames_t2175;
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 // Mono.Security.X509.Extensions.SubjectAltNameExtension
-struct  SubjectAltNameExtension_t1748  : public X509Extension_t1721
+struct  SubjectAltNameExtension_t1756  : public X509Extension_t1729
 {
 	// Mono.Security.X509.Extensions.GeneralNames Mono.Security.X509.Extensions.SubjectAltNameExtension::_names
-	GeneralNames_t2167 * ____names_3;
+	GeneralNames_t2175 * ____names_3;
 };

@@ -4,24 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>
-struct InternalEnumerator_1_t4047;
+// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>
+struct InternalEnumerator_1_t4039;
 // System.Object
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t1568;
 // System.Array
 struct Array_t;
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_42.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m27535(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4047 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16782_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27536(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4047 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16783_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::Dispose()
-#define InternalEnumerator_1_Dispose_m27537(__this, method) (( void (*) (InternalEnumerator_1_t4047 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16784_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m27538(__this, method) (( bool (*) (InternalEnumerator_1_t4047 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16785_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::get_Current()
-#define InternalEnumerator_1_get_Current_m27539(__this, method) (( X509Certificate_t1568 * (*) (InternalEnumerator_1_t4047 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16786_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m27432_gshared (InternalEnumerator_1_t4039 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m27432(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4039 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m27432_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27433_gshared (InternalEnumerator_1_t4039 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27433(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4039 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27433_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m27434_gshared (InternalEnumerator_1_t4039 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m27434(__this, method) (( void (*) (InternalEnumerator_1_t4039 *, const MethodInfo*))InternalEnumerator_1_Dispose_m27434_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m27435_gshared (InternalEnumerator_1_t4039 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m27435(__this, method) (( bool (*) (InternalEnumerator_1_t4039 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27435_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>::get_Current()
+extern "C" KeyValuePair_2_t4038  InternalEnumerator_1_get_Current_m27436_gshared (InternalEnumerator_1_t4039 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m27436(__this, method) (( KeyValuePair_2_t4038  (*) (InternalEnumerator_1_t4039 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27436_gshared)(__this, method)

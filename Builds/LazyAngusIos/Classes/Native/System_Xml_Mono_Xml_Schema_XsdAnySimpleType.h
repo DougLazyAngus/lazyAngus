@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.Schema.XsdAnySimpleType
-struct XsdAnySimpleType_t1924;
+struct XsdAnySimpleType_t1932;
 // System.Char[]
-struct CharU5BU5D_t557;
+struct CharU5BU5D_t565;
 // System.Xml.Schema.XmlSchemaDatatype
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatype.h"
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
 // Mono.Xml.Schema.XsdAnySimpleType
-struct  XsdAnySimpleType_t1924  : public XmlSchemaDatatype_t1925
+struct  XsdAnySimpleType_t1932  : public XmlSchemaDatatype_t1933
 {
 };
-struct XsdAnySimpleType_t1924_StaticFields{
+struct XsdAnySimpleType_t1932_StaticFields{
 	// Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::instance
-	XsdAnySimpleType_t1924 * ___instance_55;
+	XsdAnySimpleType_t1932 * ___instance_55;
 	// System.Char[] Mono.Xml.Schema.XsdAnySimpleType::whitespaceArray
-	CharU5BU5D_t557* ___whitespaceArray_56;
+	CharU5BU5D_t565* ___whitespaceArray_56;
 	// System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdAnySimpleType::booleanAllowedFacets
 	int32_t ___booleanAllowedFacets_57;
 	// System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdAnySimpleType::decimalAllowedFacets

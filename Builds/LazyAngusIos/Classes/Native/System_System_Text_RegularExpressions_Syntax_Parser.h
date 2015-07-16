@@ -3,22 +3,22 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t1451;
+struct ArrayList_t1459;
 // System.Collections.Hashtable
-struct Hashtable_t1438;
+struct Hashtable_t1446;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.Syntax.Parser
-struct  Parser_t1672  : public Object_t
+struct  Parser_t1680  : public Object_t
 {
 	// System.String System.Text.RegularExpressions.Syntax.Parser::pattern
 	String_t* ___pattern_0;
 	// System.Int32 System.Text.RegularExpressions.Syntax.Parser::ptr
 	int32_t ___ptr_1;
 	// System.Collections.ArrayList System.Text.RegularExpressions.Syntax.Parser::caps
-	ArrayList_t1451 * ___caps_2;
+	ArrayList_t1459 * ___caps_2;
 	// System.Collections.Hashtable System.Text.RegularExpressions.Syntax.Parser::refs
-	Hashtable_t1438 * ___refs_3;
+	Hashtable_t1446 * ___refs_3;
 	// System.Int32 System.Text.RegularExpressions.Syntax.Parser::num_groups
 	int32_t ___num_groups_4;
 	// System.Int32 System.Text.RegularExpressions.Syntax.Parser::gap

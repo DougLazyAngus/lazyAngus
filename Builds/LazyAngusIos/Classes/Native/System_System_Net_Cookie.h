@@ -3,22 +3,22 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t595;
+struct Uri_t603;
 // System.Int32[]
-struct Int32U5BU5D_t456;
+struct Int32U5BU5D_t455;
 // System.Char[]
-struct CharU5BU5D_t557;
+struct CharU5BU5D_t565;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.Cookie
-struct  Cookie_t1509  : public Object_t
+struct  Cookie_t1517  : public Object_t
 {
 	// System.String System.Net.Cookie::comment
 	String_t* ___comment_0;
 	// System.Uri System.Net.Cookie::commentUri
-	Uri_t595 * ___commentUri_1;
+	Uri_t603 * ___commentUri_1;
 	// System.Boolean System.Net.Cookie::discard
 	bool ___discard_2;
 	// System.String System.Net.Cookie::domain
@@ -34,7 +34,7 @@ struct  Cookie_t1509  : public Object_t
 	// System.String System.Net.Cookie::port
 	String_t* ___port_8;
 	// System.Int32[] System.Net.Cookie::ports
-	Int32U5BU5D_t456* ___ports_9;
+	Int32U5BU5D_t455* ___ports_9;
 	// System.Boolean System.Net.Cookie::secure
 	bool ___secure_10;
 	// System.DateTime System.Net.Cookie::timestamp
@@ -46,11 +46,11 @@ struct  Cookie_t1509  : public Object_t
 	// System.Boolean System.Net.Cookie::exact_domain
 	bool ___exact_domain_17;
 };
-struct Cookie_t1509_StaticFields{
+struct Cookie_t1517_StaticFields{
 	// System.Char[] System.Net.Cookie::reservedCharsName
-	CharU5BU5D_t557* ___reservedCharsName_14;
+	CharU5BU5D_t565* ___reservedCharsName_14;
 	// System.Char[] System.Net.Cookie::portSeparators
-	CharU5BU5D_t557* ___portSeparators_15;
+	CharU5BU5D_t565* ___portSeparators_15;
 	// System.String System.Net.Cookie::tspecials
 	String_t* ___tspecials_16;
 };

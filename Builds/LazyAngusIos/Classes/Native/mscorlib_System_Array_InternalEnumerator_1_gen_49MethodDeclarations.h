@@ -4,27 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.IntPtr>
-struct InternalEnumerator_1_t3840;
+// System.Array/InternalEnumerator`1<UnityEngine.Display>
+struct InternalEnumerator_1_t3848;
 // System.Object
 struct Object_t;
+// UnityEngine.Display
+struct Display_t1083;
 // System.Array
 struct Array_t;
-// System.IntPtr
-#include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.IntPtr>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m24965_gshared (InternalEnumerator_1_t3840 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m24965(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3840 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m24965_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.IntPtr>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24966_gshared (InternalEnumerator_1_t3840 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24966(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3840 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m24966_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.IntPtr>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m24967_gshared (InternalEnumerator_1_t3840 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m24967(__this, method) (( void (*) (InternalEnumerator_1_t3840 *, const MethodInfo*))InternalEnumerator_1_Dispose_m24967_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.IntPtr>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m24968_gshared (InternalEnumerator_1_t3840 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m24968(__this, method) (( bool (*) (InternalEnumerator_1_t3840 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m24968_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.IntPtr>::get_Current()
-extern "C" IntPtr_t InternalEnumerator_1_get_Current_m24969_gshared (InternalEnumerator_1_t3840 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m24969(__this, method) (( IntPtr_t (*) (InternalEnumerator_1_t3840 *, const MethodInfo*))InternalEnumerator_1_get_Current_m24969_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.Display>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m25001(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3848 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16818_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.Display>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25002(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3848 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16819_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.Display>::Dispose()
+#define InternalEnumerator_1_Dispose_m25003(__this, method) (( void (*) (InternalEnumerator_1_t3848 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16820_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Display>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m25004(__this, method) (( bool (*) (InternalEnumerator_1_t3848 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16821_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.Display>::get_Current()
+#define InternalEnumerator_1_get_Current_m25005(__this, method) (( Display_t1083 * (*) (InternalEnumerator_1_t3848 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16822_gshared)(__this, method)

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.Extensions.KeyUsages
-struct KeyUsages_t2168;
+struct KeyUsages_t2176;
 

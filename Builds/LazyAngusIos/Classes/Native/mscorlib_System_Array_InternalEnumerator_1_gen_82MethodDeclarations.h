@@ -4,24 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>
-struct InternalEnumerator_1_t4085;
+// System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>
+struct InternalEnumerator_1_t4092;
 // System.Object
 struct Object_t;
-// System.Xml.XmlTextWriter/XmlNodeInfo
-struct XmlNodeInfo_t2097;
 // System.Array
 struct Array_t;
+// Mono.Xml2.XmlTextReader/TagName
+#include "System_Xml_Mono_Xml2_XmlTextReader_TagName.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m27947(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4085 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16782_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27948(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4085 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16783_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::Dispose()
-#define InternalEnumerator_1_Dispose_m27949(__this, method) (( void (*) (InternalEnumerator_1_t4085 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16784_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m27950(__this, method) (( bool (*) (InternalEnumerator_1_t4085 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16785_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::get_Current()
-#define InternalEnumerator_1_get_Current_m27951(__this, method) (( XmlNodeInfo_t2097 * (*) (InternalEnumerator_1_t4085 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16786_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m27970_gshared (InternalEnumerator_1_t4092 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m27970(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4092 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m27970_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27971_gshared (InternalEnumerator_1_t4092 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27971(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4092 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27971_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m27972_gshared (InternalEnumerator_1_t4092 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m27972(__this, method) (( void (*) (InternalEnumerator_1_t4092 *, const MethodInfo*))InternalEnumerator_1_Dispose_m27972_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m27973_gshared (InternalEnumerator_1_t4092 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m27973(__this, method) (( bool (*) (InternalEnumerator_1_t4092 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27973_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::get_Current()
+extern "C" TagName_t2097  InternalEnumerator_1_get_Current_m27974_gshared (InternalEnumerator_1_t4092 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m27974(__this, method) (( TagName_t2097  (*) (InternalEnumerator_1_t4092 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27974_gshared)(__this, method)

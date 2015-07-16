@@ -9,12 +9,12 @@ struct AN_PlusButtonProxy_t106;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t533;
+struct ObjectU5BU5D_t541;
 
 // System.Void AN_PlusButtonProxy::.ctor()
 extern "C" void AN_PlusButtonProxy__ctor_m561 (AN_PlusButtonProxy_t106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_PlusButtonProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_PlusButtonProxy_CallActivityFunction_m562 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t533* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_PlusButtonProxy_CallActivityFunction_m562 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t541* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_PlusButtonProxy::createPlusButton(System.Int32,System.String,System.Int32,System.Int32)
 extern "C" void AN_PlusButtonProxy_createPlusButton_m563 (Object_t * __this /* static, unused */, int32_t ___id, String_t* ___url, int32_t ___size, int32_t ___annotation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_PlusButtonProxy::setGravity(System.Int32,System.Int32)

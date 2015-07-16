@@ -11,9 +11,9 @@ struct String_t;
 // AN_PropertyTemplate
 struct AN_PropertyTemplate_t84;
 // System.Xml.XmlDocument
-struct XmlDocument_t529;
+struct XmlDocument_t537;
 // System.Xml.XmlElement
-struct XmlElement_t530;
+struct XmlElement_t538;
 
 // System.Void AN_ActivityTemplate::.ctor(System.Boolean,System.String)
 extern "C" void AN_ActivityTemplate__ctor_m299 (AN_ActivityTemplate_t75 * __this, bool ___isLauncher, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -26,7 +26,7 @@ extern "C" AN_PropertyTemplate_t84 * AN_ActivityTemplate_GetLauncherPropertyTemp
 // System.Boolean AN_ActivityTemplate::IsLauncherProperty(AN_PropertyTemplate)
 extern "C" bool AN_ActivityTemplate_IsLauncherProperty_m303 (AN_ActivityTemplate_t75 * __this, AN_PropertyTemplate_t84 * ___property, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_ActivityTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
-extern "C" void AN_ActivityTemplate_ToXmlElement_m304 (AN_ActivityTemplate_t75 * __this, XmlDocument_t529 * ___doc, XmlElement_t530 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_ActivityTemplate_ToXmlElement_m304 (AN_ActivityTemplate_t75 * __this, XmlDocument_t537 * ___doc, XmlElement_t538 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean AN_ActivityTemplate::get_IsLauncher()
 extern "C" bool AN_ActivityTemplate_get_IsLauncher_m305 (AN_ActivityTemplate_t75 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String AN_ActivityTemplate::get_Name()

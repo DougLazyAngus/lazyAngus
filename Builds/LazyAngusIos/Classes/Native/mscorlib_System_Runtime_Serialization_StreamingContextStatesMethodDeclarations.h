@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.StreamingContextStates
-struct StreamingContextStates_t2597;
+struct StreamingContextStates_t2605;
 

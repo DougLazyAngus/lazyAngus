@@ -3,7 +3,7 @@
 // System.Security.Cryptography.SymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 // System.Security.Cryptography.RC2
-struct  RC2_t2247  : public SymmetricAlgorithm_t2158
+struct  RC2_t2255  : public SymmetricAlgorithm_t2166
 {
 	// System.Int32 System.Security.Cryptography.RC2::EffectiveKeySizeValue
 	int32_t ___EffectiveKeySizeValue_10;

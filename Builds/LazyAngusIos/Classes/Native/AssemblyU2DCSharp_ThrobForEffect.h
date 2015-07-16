@@ -7,7 +7,7 @@ struct Transform_t323;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // ThrobForEffect
-struct  ThrobForEffect_t470  : public MonoBehaviour_t67
+struct  ThrobForEffect_t469  : public MonoBehaviour_t67
 {
 	// System.Boolean ThrobForEffect::throbbing
 	bool ___throbbing_2;
@@ -20,5 +20,5 @@ struct  ThrobForEffect_t470  : public MonoBehaviour_t67
 	// UnityEngine.Transform ThrobForEffect::thingToScale
 	Transform_t323 * ___thingToScale_6;
 	// UnityEngine.Vector3 ThrobForEffect::originalScale
-	Vector3_t413  ___originalScale_7;
+	Vector3_t411  ___originalScale_7;
 };

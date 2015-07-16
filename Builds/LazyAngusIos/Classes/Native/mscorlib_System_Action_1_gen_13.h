@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.IScore[]
-struct IScoreU5BU5D_t1183;
+struct IScoreU5BU5D_t1191;
 // System.IAsyncResult
 struct IAsyncResult_t386;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<UnityEngine.SocialPlatforms.IScore[]>
-struct  Action_1_t1013  : public MulticastDelegate_t389
+struct  Action_1_t1021  : public MulticastDelegate_t389
 {
 };
