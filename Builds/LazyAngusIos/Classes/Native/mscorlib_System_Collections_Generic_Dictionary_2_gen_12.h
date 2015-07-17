@@ -1,48 +1,46 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t455;
+struct Int32U5BU5D_t493;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3343;
-// System.String[]
-struct StringU5BU5D_t45;
-// FBLikeInfo[]
-struct FBLikeInfoU5BU5D_t3499;
-// System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t3309;
+struct LinkU5BU5D_t3387;
+// GPScore[]
+struct GPScoreU5BU5D_t3520;
+// System.Collections.Generic.IEqualityComparer`1<System.Int32>
+struct IEqualityComparer_1_t3430;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1255;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,FBLikeInfo,System.Collections.DictionaryEntry>
-struct Transform_1_t3500;
+struct SerializationInfo_t1299;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,GPScore,System.Collections.DictionaryEntry>
+struct Transform_1_t3525;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct  Dictionary_2_t595  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.Int32,GPScore>
+struct  Dictionary_2_t183  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::table
-	Int32U5BU5D_t455* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::linkSlots
-	LinkU5BU5D_t3343* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::keySlots
-	StringU5BU5D_t45* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::valueSlots
-	FBLikeInfoU5BU5D_t3499* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::table
+	Int32U5BU5D_t493* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::linkSlots
+	LinkU5BU5D_t3387* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::keySlots
+	Int32U5BU5D_t493* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::valueSlots
+	GPScoreU5BU5D_t3520* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::serialization_info
-	SerializationInfo_t1255 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::serialization_info
+	SerializationInfo_t1299 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t595_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>::<>f__am$cacheB
-	Transform_1_t3500 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t183_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::<>f__am$cacheB
+	Transform_1_t3525 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -5,11 +5,11 @@ struct String_t;
 // UnityEngine.Texture2D
 struct Texture2D_t65;
 // TwitterManagerInterface
-struct TwitterManagerInterface_t273;
+struct TwitterManagerInterface_t299;
 // AsyncTask
 #include "AssemblyU2DCSharp_AsyncTask.h"
 // TwitterPostingTask
-struct  TwitterPostingTask_t274  : public AsyncTask_t149
+struct  TwitterPostingTask_t300  : public AsyncTask_t176
 {
 	// System.String TwitterPostingTask::_status
 	String_t* ____status_4;

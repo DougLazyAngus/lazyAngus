@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t1212;
+// System.Collections.Generic.Dictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct Dictionary_2_t1321;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  ValueCollection_t3999  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct  ValueCollection_t4021  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::dictionary
-	Dictionary_2_t1212 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::dictionary
+	Dictionary_2_t1321 * ___dictionary_0;
 };

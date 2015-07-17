@@ -7,7 +7,7 @@ struct Dictionary_2_t80;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
 // TW_APIRequest
-struct  TW_APIRequest_t259  : public EventDispatcher_t87
+struct  TW_APIRequest_t285  : public EventDispatcher_t87
 {
 	// System.Boolean TW_APIRequest::IsFirst
 	bool ___IsFirst_4;

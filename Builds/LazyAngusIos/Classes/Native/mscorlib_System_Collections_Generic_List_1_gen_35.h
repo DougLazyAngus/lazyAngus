@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t3798;
+// UnityEngine.UI.StencilMaterial/MatEntry[]
+struct MatEntryU5BU5D_t3846;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct  List_1_t848  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  List_1_t868  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
-	RectTransformU5BU5D_t3798* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
+	MatEntryU5BU5D_t3846* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
 	int32_t ____version_3;
 };
-struct List_1_t848_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
-	RectTransformU5BU5D_t3798* ___EmptyArray_4;
+struct List_1_t868_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
+	MatEntryU5BU5D_t3846* ___EmptyArray_4;
 };

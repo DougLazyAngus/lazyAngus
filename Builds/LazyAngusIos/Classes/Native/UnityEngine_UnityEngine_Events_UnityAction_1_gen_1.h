@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t795;
+struct List_1_t841;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct  UnityAction_1_t763  : public MulticastDelegate_t389
+struct  UnityAction_1_t809  : public MulticastDelegate_t346
 {
 };

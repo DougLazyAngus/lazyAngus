@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.IAsyncResult
-struct IAsyncResult_t386;
-// System.AsyncCallback
-struct AsyncCallback_t387;
 // System.Object
 struct Object_t;
-// System.Int32
-#include "mscorlib_System_Int32.h"
+// System.IAsyncResult
+struct IAsyncResult_t343;
+// System.AsyncCallback
+struct AsyncCallback_t344;
+// System.Byte
+#include "mscorlib_System_Byte.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Int32,System.Int32>
-struct  Transform_1_t4065  : public MulticastDelegate_t389
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Byte,System.Byte>
+struct  Transform_1_t4138  : public MulticastDelegate_t346
 {
 };

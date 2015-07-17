@@ -1,4 +1,4 @@
-//Generated on : 7/16/2015 3:41:07 PM
+//Generated on : 7/17/2015 10:56:09 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -771,6 +771,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIStyle_Init();
 		Register_UnityEngine_GUIStyle_Init();
 
+		//System.Void UnityEngine.GUIStyle::InitCopy(UnityEngine.GUIStyle)
+		void Register_UnityEngine_GUIStyle_InitCopy();
+		Register_UnityEngine_GUIStyle_InitCopy();
+
 		//System.Void UnityEngine.GUIStyle::Internal_CalcMinMaxWidth(System.IntPtr,UnityEngine.GUIContent,System.Single&,System.Single&)
 		void Register_UnityEngine_GUIStyle_Internal_CalcMinMaxWidth();
 		Register_UnityEngine_GUIStyle_Internal_CalcMinMaxWidth();
@@ -790,6 +794,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUIStyle::set_alignment(UnityEngine.TextAnchor)
 		void Register_UnityEngine_GUIStyle_set_alignment();
 		Register_UnityEngine_GUIStyle_set_alignment();
+
+		//System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
+		void Register_UnityEngine_GUIStyle_set_fontSize();
+		Register_UnityEngine_GUIStyle_set_fontSize();
+
+		//System.Void UnityEngine.GUIStyle::set_fontStyle(UnityEngine.FontStyle)
+		void Register_UnityEngine_GUIStyle_set_fontStyle();
+		Register_UnityEngine_GUIStyle_set_fontStyle();
 
 		//System.Void UnityEngine.GUIStyle::set_name(System.String)
 		void Register_UnityEngine_GUIStyle_set_name();

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree
-struct RBTree_t1442;
+struct RBTree_t1934;
 // System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>
-struct NodeHelper_t3545;
+struct NodeHelper_t3610;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>
-struct  SortedDictionary_2_t3546  : public Object_t
+struct  SortedDictionary_2_t3611  : public Object_t
 {
 	// System.Collections.Generic.RBTree System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::tree
-	RBTree_t1442 * ___tree_0;
+	RBTree_t1934 * ___tree_0;
 	// System.Collections.Generic.SortedDictionary`2/NodeHelper<TKey,TValue> System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::hlp
-	NodeHelper_t3545 * ___hlp_1;
+	NodeHelper_t3610 * ___hlp_1;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.String>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_1.h"
 // UnityEngine.UI.InputField/SubmitEvent
-struct  SubmitEvent_t784  : public UnityEvent_1_t785
+struct  SubmitEvent_t830  : public UnityEvent_1_t831
 {
 };

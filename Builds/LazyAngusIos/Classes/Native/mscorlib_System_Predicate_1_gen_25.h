@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t686;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
+// MouseHole/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.EventSystems.BaseInputModule>
-struct  Predicate_1_t3638  : public MulticastDelegate_t389
+// System.Predicate`1<MouseHole/MouseHoleLocation>
+struct  Predicate_1_t3693  : public MulticastDelegate_t346
 {
 };

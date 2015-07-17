@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Interpreter/RepeatContext
-struct RepeatContext_t1671;
+struct RepeatContext_t2133;
 
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::.ctor(System.Text.RegularExpressions.Interpreter/RepeatContext,System.Int32,System.Int32,System.Boolean,System.Int32)
-extern "C" void RepeatContext__ctor_m8397 (RepeatContext_t1671 * __this, RepeatContext_t1671 * ___previous, int32_t ___min, int32_t ___max, bool ___lazy, int32_t ___expr_pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RepeatContext__ctor_m11184 (RepeatContext_t2133 * __this, RepeatContext_t2133 * ___previous, int32_t ___min, int32_t ___max, bool ___lazy, int32_t ___expr_pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Count()
-extern "C" int32_t RepeatContext_get_Count_m8398 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RepeatContext_get_Count_m11185 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Count(System.Int32)
-extern "C" void RepeatContext_set_Count_m8399 (RepeatContext_t1671 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RepeatContext_set_Count_m11186 (RepeatContext_t2133 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Start()
-extern "C" int32_t RepeatContext_get_Start_m8400 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RepeatContext_get_Start_m11187 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Start(System.Int32)
-extern "C" void RepeatContext_set_Start_m8401 (RepeatContext_t1671 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RepeatContext_set_Start_m11188 (RepeatContext_t2133 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMinimum()
-extern "C" bool RepeatContext_get_IsMinimum_m8402 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RepeatContext_get_IsMinimum_m11189 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMaximum()
-extern "C" bool RepeatContext_get_IsMaximum_m8403 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RepeatContext_get_IsMaximum_m11190 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsLazy()
-extern "C" bool RepeatContext_get_IsLazy_m8404 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RepeatContext_get_IsLazy_m11191 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Expression()
-extern "C" int32_t RepeatContext_get_Expression_m8405 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RepeatContext_get_Expression_m11192 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter/RepeatContext::get_Previous()
-extern "C" RepeatContext_t1671 * RepeatContext_get_Previous_m8406 (RepeatContext_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RepeatContext_t2133 * RepeatContext_get_Previous_m11193 (RepeatContext_t2133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

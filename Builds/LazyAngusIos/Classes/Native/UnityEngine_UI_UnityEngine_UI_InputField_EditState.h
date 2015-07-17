@@ -5,7 +5,7 @@
 // UnityEngine.UI.InputField/EditState
 #include "UnityEngine_UI_UnityEngine_UI_InputField_EditState.h"
 // UnityEngine.UI.InputField/EditState
-struct  EditState_t787 
+struct  EditState_t833 
 {
 	// System.Int32 UnityEngine.UI.InputField/EditState::value__
 	int32_t ___value___1;

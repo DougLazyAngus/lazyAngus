@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// TweetTemplate
-struct TweetTemplate_t255;
+// FBLikeInfo
+struct FBLikeInfo_t247;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<TweetTemplate>
-struct  Comparison_1_t3538  : public MulticastDelegate_t389
+// System.Comparison`1<FBLikeInfo>
+struct  Comparison_1_t3577  : public MulticastDelegate_t346
 {
 };

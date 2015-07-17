@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.OSX509Certificates/SecTrustResult
-struct SecTrustResult_t1595;
+struct SecTrustResult_t2068;
 

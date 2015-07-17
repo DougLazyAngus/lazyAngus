@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_t1096;
+// System.Byte[]
+struct ByteU5BU5D_t36;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.Rigidbody2D>
-struct  Predicate_1_t3853  : public MulticastDelegate_t389
+// System.Predicate`1<System.Byte[]>
+struct  Predicate_1_t3909  : public MulticastDelegate_t346
 {
 };

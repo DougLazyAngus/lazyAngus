@@ -4,25 +4,50 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>
-struct Enumerator_t3442;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>
+struct KeyCollection_t3492;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct Dictionary_2_t3438;
+// System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>
+struct Dictionary_2_t109;
+// System.Collections.Generic.IEnumerator`1<System.Int32>
+struct IEnumerator_1_t4259;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t21;
+// System.Int32[]
+struct Int32U5BU5D_t493;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,IOSADBanner>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_61.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m18734_gshared (Enumerator_t3442 * __this, Dictionary_2_t3438 * ___host, const MethodInfo* method);
-#define Enumerator__ctor_m18734(__this, ___host, method) (( void (*) (Enumerator_t3442 *, Dictionary_2_t3438 *, const MethodInfo*))Enumerator__ctor_m18734_gshared)(__this, ___host, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m18735_gshared (Enumerator_t3442 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m18735(__this, method) (( Object_t * (*) (Enumerator_t3442 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m18735_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::Dispose()
-extern "C" void Enumerator_Dispose_m18736_gshared (Enumerator_t3442 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m18736(__this, method) (( void (*) (Enumerator_t3442 *, const MethodInfo*))Enumerator_Dispose_m18736_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m18737_gshared (Enumerator_t3442 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m18737(__this, method) (( bool (*) (Enumerator_t3442 *, const MethodInfo*))Enumerator_MoveNext_m18737_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m18738_gshared (Enumerator_t3442 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m18738(__this, method) (( Object_t * (*) (Enumerator_t3442 *, const MethodInfo*))Enumerator_get_Current_m18738_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_12MethodDeclarations.h"
+#define KeyCollection__ctor_m19418(__this, ___dictionary, method) (( void (*) (KeyCollection_t3492 *, Dictionary_2_t109 *, const MethodInfo*))KeyCollection__ctor_m18513_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m19419(__this, ___item, method) (( void (*) (KeyCollection_t3492 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m18514_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.ICollection<TKey>.Clear()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m19420(__this, method) (( void (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m18515_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m19421(__this, ___item, method) (( bool (*) (KeyCollection_t3492 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m18516_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m19422(__this, ___item, method) (( bool (*) (KeyCollection_t3492 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m18517_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m19423(__this, method) (( Object_t* (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m18518_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m19424(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3492 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m18519_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.IEnumerable.GetEnumerator()
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m19425(__this, method) (( Object_t * (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m18520_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m19426(__this, method) (( bool (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m18521_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.ICollection.get_IsSynchronized()
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m19427(__this, method) (( bool (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m18522_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::System.Collections.ICollection.get_SyncRoot()
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m19428(__this, method) (( Object_t * (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m18523_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::CopyTo(TKey[],System.Int32)
+#define KeyCollection_CopyTo_m19429(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3492 *, Int32U5BU5D_t493*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m18524_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::GetEnumerator()
+#define KeyCollection_GetEnumerator_m19430(__this, method) (( Enumerator_t4301  (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_GetEnumerator_m18525_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,IOSADBanner>::get_Count()
+#define KeyCollection_get_Count_m19431(__this, method) (( int32_t (*) (KeyCollection_t3492 *, const MethodInfo*))KeyCollection_get_Count_m18526_gshared)(__this, method)

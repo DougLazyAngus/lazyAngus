@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.CaseInsensitiveComparer
-struct CaseInsensitiveComparer_t1735;
+struct CaseInsensitiveComparer_t2183;
 // System.Globalization.CultureInfo
-struct CultureInfo_t614;
+struct CultureInfo_t665;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.CaseInsensitiveComparer
-struct  CaseInsensitiveComparer_t1735  : public Object_t
+struct  CaseInsensitiveComparer_t2183  : public Object_t
 {
 	// System.Globalization.CultureInfo System.Collections.CaseInsensitiveComparer::culture
-	CultureInfo_t614 * ___culture_2;
+	CultureInfo_t665 * ___culture_2;
 };
-struct CaseInsensitiveComparer_t1735_StaticFields{
+struct CaseInsensitiveComparer_t2183_StaticFields{
 	// System.Collections.CaseInsensitiveComparer System.Collections.CaseInsensitiveComparer::defaultComparer
-	CaseInsensitiveComparer_t1735 * ___defaultComparer_0;
+	CaseInsensitiveComparer_t2183 * ___defaultComparer_0;
 	// System.Collections.CaseInsensitiveComparer System.Collections.CaseInsensitiveComparer::defaultInvariantComparer
-	CaseInsensitiveComparer_t1735 * ___defaultInvariantComparer_1;
+	CaseInsensitiveComparer_t2183 * ___defaultInvariantComparer_1;
 };

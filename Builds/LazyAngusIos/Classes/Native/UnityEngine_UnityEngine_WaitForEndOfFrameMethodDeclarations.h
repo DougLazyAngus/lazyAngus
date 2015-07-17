@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.WaitForEndOfFrame
-struct WaitForEndOfFrame_t562;
+struct WaitForEndOfFrame_t603;
 
 // System.Void UnityEngine.WaitForEndOfFrame::.ctor()
-extern "C" void WaitForEndOfFrame__ctor_m2628 (WaitForEndOfFrame_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitForEndOfFrame__ctor_m3093 (WaitForEndOfFrame_t603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

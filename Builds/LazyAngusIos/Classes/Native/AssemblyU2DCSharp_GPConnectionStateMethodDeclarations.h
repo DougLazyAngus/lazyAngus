@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPConnectionState
-struct GPConnectionState_t125;
+struct GPConnectionState_t151;
 

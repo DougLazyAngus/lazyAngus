@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct List_1_t1026;
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t1028;
+// System.Collections.Generic.List`1<BoostButton>
+struct List_1_t423;
+// BoostButton
+struct BoostButton_t419;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Enumerator_t1261 
+// System.Collections.Generic.List`1/Enumerator<BoostButton>
+struct  Enumerator_t683 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::l
-	List_1_t1026 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<BoostButton>::l
+	List_1_t423 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<BoostButton>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<BoostButton>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::current
-	GcLeaderboard_t1028 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<BoostButton>::current
+	BoostButton_t419 * ___current_3;
 };

@@ -5,7 +5,7 @@ struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.DictionaryEntry
-struct  DictionaryEntry_t1718 
+struct  DictionaryEntry_t2179 
 {
 	// System.Object System.Collections.DictionaryEntry::_key
 	Object_t * ____key_0;

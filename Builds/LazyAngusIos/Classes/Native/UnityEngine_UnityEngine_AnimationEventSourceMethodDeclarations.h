@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AnimationEventSource
-struct AnimationEventSource_t1102;
+struct AnimationEventSource_t1147;
 

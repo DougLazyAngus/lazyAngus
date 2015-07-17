@@ -5,7 +5,7 @@
 // GPConnectionState
 #include "AssemblyU2DCSharp_GPConnectionState.h"
 // GPConnectionState
-struct  GPConnectionState_t125 
+struct  GPConnectionState_t151 
 {
 	// System.Int32 GPConnectionState::value__
 	int32_t ___value___1;

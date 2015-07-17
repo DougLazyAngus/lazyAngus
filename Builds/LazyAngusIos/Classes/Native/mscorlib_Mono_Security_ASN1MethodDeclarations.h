@@ -5,43 +5,43 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.ASN1
-struct ASN1_t2332;
+struct ASN1_t2376;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.ASN1::.ctor(System.Byte)
-extern "C" void ASN1__ctor_m12533 (ASN1_t2332 * __this, uint8_t ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1__ctor_m13071 (ASN1_t2376 * __this, uint8_t ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.ASN1::.ctor(System.Byte,System.Byte[])
-extern "C" void ASN1__ctor_m12534 (ASN1_t2332 * __this, uint8_t ___tag, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1__ctor_m13072 (ASN1_t2376 * __this, uint8_t ___tag, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.ASN1::.ctor(System.Byte[])
-extern "C" void ASN1__ctor_m12535 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1__ctor_m13073 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.ASN1::get_Count()
-extern "C" int32_t ASN1_get_Count_m12536 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ASN1_get_Count_m13074 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Security.ASN1::get_Tag()
-extern "C" uint8_t ASN1_get_Tag_m12537 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t ASN1_get_Tag_m13075 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.ASN1::get_Length()
-extern "C" int32_t ASN1_get_Length_m12538 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ASN1_get_Length_m13076 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.ASN1::get_Value()
-extern "C" ByteU5BU5D_t36* ASN1_get_Value_m12539 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* ASN1_get_Value_m13077 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.ASN1::set_Value(System.Byte[])
-extern "C" void ASN1_set_Value_m12540 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1_set_Value_m13078 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.ASN1::CompareArray(System.Byte[],System.Byte[])
-extern "C" bool ASN1_CompareArray_m12541 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___array1, ByteU5BU5D_t36* ___array2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ASN1_CompareArray_m13079 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___array1, ByteU5BU5D_t36* ___array2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.ASN1::CompareValue(System.Byte[])
-extern "C" bool ASN1_CompareValue_m12542 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ASN1_CompareValue_m13080 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.ASN1::Add(Mono.Security.ASN1)
-extern "C" ASN1_t2332 * ASN1_Add_m12543 (ASN1_t2332 * __this, ASN1_t2332 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t2376 * ASN1_Add_m13081 (ASN1_t2376 * __this, ASN1_t2376 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.ASN1::GetBytes()
-extern "C" ByteU5BU5D_t36* ASN1_GetBytes_m12544 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* ASN1_GetBytes_m13082 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.ASN1::Decode(System.Byte[],System.Int32&,System.Int32)
-extern "C" void ASN1_Decode_m12545 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___asn1, int32_t* ___anPos, int32_t ___anLength, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1_Decode_m13083 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___asn1, int32_t* ___anPos, int32_t ___anLength, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.ASN1::DecodeTLV(System.Byte[],System.Int32&,System.Byte&,System.Int32&,System.Byte[]&)
-extern "C" void ASN1_DecodeTLV_m12546 (ASN1_t2332 * __this, ByteU5BU5D_t36* ___asn1, int32_t* ___pos, uint8_t* ___tag, int32_t* ___length, ByteU5BU5D_t36** ___content, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ASN1_DecodeTLV_m13084 (ASN1_t2376 * __this, ByteU5BU5D_t36* ___asn1, int32_t* ___pos, uint8_t* ___tag, int32_t* ___length, ByteU5BU5D_t36** ___content, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.ASN1::get_Item(System.Int32)
-extern "C" ASN1_t2332 * ASN1_get_Item_m12547 (ASN1_t2332 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t2376 * ASN1_get_Item_m13085 (ASN1_t2376 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.ASN1::Element(System.Int32,System.Byte)
-extern "C" ASN1_t2332 * ASN1_Element_m12548 (ASN1_t2332 * __this, int32_t ___index, uint8_t ___anTag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t2376 * ASN1_Element_m13086 (ASN1_t2376 * __this, int32_t ___index, uint8_t ___anTag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.ASN1::ToString()
-extern "C" String_t* ASN1_ToString_m12549 (ASN1_t2332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ASN1_ToString_m13087 (ASN1_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct String_t;
 // System.Text.DecoderFallback
 #include "mscorlib_System_Text_DecoderFallback.h"
 // System.Text.DecoderReplacementFallback
-struct  DecoderReplacementFallback_t2673  : public DecoderFallback_t2668
+struct  DecoderReplacementFallback_t2717  : public DecoderFallback_t2712
 {
 	// System.String System.Text.DecoderReplacementFallback::replacement
 	String_t* ___replacement_3;

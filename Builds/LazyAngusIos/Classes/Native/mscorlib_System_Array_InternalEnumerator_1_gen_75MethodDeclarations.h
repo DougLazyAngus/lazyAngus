@@ -4,27 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Uri/UriScheme>
-struct InternalEnumerator_1_t4071;
+// System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
+struct InternalEnumerator_1_t4114;
 // System.Object
 struct Object_t;
+// System.Security.Cryptography.KeySizes
+struct KeySizes_t1866;
 // System.Array
 struct Array_t;
-// System.Uri/UriScheme
-#include "System_System_Uri_UriScheme.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Uri/UriScheme>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m27726_gshared (InternalEnumerator_1_t4071 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m27726(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4071 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m27726_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Uri/UriScheme>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27727_gshared (InternalEnumerator_1_t4071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27727(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4071 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27727_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Uri/UriScheme>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m27728_gshared (InternalEnumerator_1_t4071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m27728(__this, method) (( void (*) (InternalEnumerator_1_t4071 *, const MethodInfo*))InternalEnumerator_1_Dispose_m27728_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Uri/UriScheme>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m27729_gshared (InternalEnumerator_1_t4071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m27729(__this, method) (( bool (*) (InternalEnumerator_1_t4071 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27729_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Uri/UriScheme>::get_Current()
-extern "C" UriScheme_t1705  InternalEnumerator_1_get_Current_m27730_gshared (InternalEnumerator_1_t4071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m27730(__this, method) (( UriScheme_t1705  (*) (InternalEnumerator_1_t4071 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27730_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m28490(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4114 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17355_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28491(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4114 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17356_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::Dispose()
+#define InternalEnumerator_1_Dispose_m28492(__this, method) (( void (*) (InternalEnumerator_1_t4114 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17357_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m28493(__this, method) (( bool (*) (InternalEnumerator_1_t4114 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17358_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::get_Current()
+#define InternalEnumerator_1_get_Current_m28494(__this, method) (( KeySizes_t1866 * (*) (InternalEnumerator_1_t4114 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17359_gshared)(__this, method)

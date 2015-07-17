@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.AsymmetricKeyExchangeFormatter
-struct  AsymmetricKeyExchangeFormatter_t2606  : public Object_t
+struct  AsymmetricKeyExchangeFormatter_t2650  : public Object_t
 {
 };

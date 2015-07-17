@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Toggle[]
-struct ToggleU5BU5D_t3791;
+// UnityEngine.CanvasGroup[]
+struct CanvasGroupU5BU5D_t3840;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct  List_1_t829  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
+struct  List_1_t861  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
-	ToggleU5BU5D_t3791* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_items
+	CanvasGroupU5BU5D_t3840* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_version
 	int32_t ____version_3;
 };
-struct List_1_t829_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
-	ToggleU5BU5D_t3791* ___EmptyArray_4;
+struct List_1_t861_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::EmptyArray
+	CanvasGroupU5BU5D_t3840* ___EmptyArray_4;
 };

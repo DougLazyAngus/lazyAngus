@@ -5,11 +5,11 @@ struct Texture2D_t65;
 // System.Object
 struct Object_t;
 // SA_ScreenShotMaker
-struct SA_ScreenShotMaker_t308;
+struct SA_ScreenShotMaker_t349;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD
-struct  U3CSaveScreenshotU3Ec__IteratorD_t309  : public Object_t
+struct  U3CSaveScreenshotU3Ec__IteratorD_t350  : public Object_t
 {
 	// System.Int32 SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD::<width>__0
 	int32_t ___U3CwidthU3E__0_0;
@@ -22,5 +22,5 @@ struct  U3CSaveScreenshotU3Ec__IteratorD_t309  : public Object_t
 	// System.Object SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD::$current
 	Object_t * ___U24current_4;
 	// SA_ScreenShotMaker SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD::<>f__this
-	SA_ScreenShotMaker_t308 * ___U3CU3Ef__this_5;
+	SA_ScreenShotMaker_t349 * ___U3CU3Ef__this_5;
 };

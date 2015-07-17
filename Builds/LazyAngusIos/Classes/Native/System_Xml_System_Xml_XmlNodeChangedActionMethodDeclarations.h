@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNodeChangedAction
-struct XmlNodeChangedAction_t2076;
+struct XmlNodeChangedAction_t1640;
 

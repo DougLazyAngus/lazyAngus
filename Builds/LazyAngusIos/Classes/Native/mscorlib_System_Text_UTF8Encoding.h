@@ -3,7 +3,7 @@
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.UTF8Encoding
-struct  UTF8Encoding_t2124  : public Encoding_t584
+struct  UTF8Encoding_t1696  : public Encoding_t636
 {
 	// System.Boolean System.Text.UTF8Encoding::emitIdentifier
 	bool ___emitIdentifier_28;

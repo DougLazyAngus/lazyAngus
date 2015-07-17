@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.ICancelHandler
-struct ICancelHandler_t882;
+struct ICancelHandler_t928;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t687;
+struct BaseEventData_t733;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>
-struct  EventFunction_1_t713  : public MulticastDelegate_t389
+struct  EventFunction_1_t759  : public MulticastDelegate_t346
 {
 };

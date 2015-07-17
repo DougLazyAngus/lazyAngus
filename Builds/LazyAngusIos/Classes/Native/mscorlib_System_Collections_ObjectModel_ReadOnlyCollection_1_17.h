@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Int32>
-struct IList_1_t3588;
+// System.Collections.Generic.IList`1<BoostButton>
+struct IList_1_t3642;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
-struct  ReadOnlyCollection_1_t3589  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>
+struct  ReadOnlyCollection_1_t3643  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::list
 	Object_t* ___list_0;
 };

@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t1446;
+struct Hashtable_t1569;
 // System.Collections.ArrayList
-struct ArrayList_t1459;
+struct ArrayList_t1554;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDAttListDeclaration
-struct  DTDAttListDeclaration_t2026  : public DTDNode_t2015
+struct  DTDAttListDeclaration_t1589  : public DTDNode_t1578
 {
 	// System.String Mono.Xml.DTDAttListDeclaration::name
 	String_t* ___name_5;
 	// System.Collections.Hashtable Mono.Xml.DTDAttListDeclaration::attributeOrders
-	Hashtable_t1446 * ___attributeOrders_6;
+	Hashtable_t1569 * ___attributeOrders_6;
 	// System.Collections.ArrayList Mono.Xml.DTDAttListDeclaration::attributes
-	ArrayList_t1459 * ___attributes_7;
+	ArrayList_t1554 * ___attributes_7;
 };

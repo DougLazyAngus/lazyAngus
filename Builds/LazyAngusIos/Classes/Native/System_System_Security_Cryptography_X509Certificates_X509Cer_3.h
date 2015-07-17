@@ -4,9 +4,9 @@
 struct IEnumerator_t21;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
-struct  X509CertificateEnumerator_t1613  : public Object_t
+// System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
+struct  X509Certificate2Enumerator_t2082  : public Object_t
 {
-	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator::enumerator
+	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::enumerator
 	Object_t * ___enumerator_0;
 };

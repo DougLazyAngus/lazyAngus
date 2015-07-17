@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // MSPAndroidSocialGate
-struct  MSPAndroidSocialGate_t292  : public Object_t
+struct  MSPAndroidSocialGate_t318  : public Object_t
 {
 };

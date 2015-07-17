@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct Comparison_1_t3677;
+// System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>
+struct Comparison_1_t3736;
 // System.Object
 struct Object_t;
-// UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t693;
+// UnityEngine.EventSystems.BaseRaycaster
+struct BaseRaycaster_t767;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m22412(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3677 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17023_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>::Invoke(T,T)
-#define Comparison_1_Invoke_m22413(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3677 *, Entry_t693 *, Entry_t693 *, const MethodInfo*))Comparison_1_Invoke_m17024_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m22414(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3677 *, Entry_t693 *, Entry_t693 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17025_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m22415(__this, ___result, method) (( int32_t (*) (Comparison_1_t3677 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17026_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m23340(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3736 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17560_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>::Invoke(T,T)
+#define Comparison_1_Invoke_m23341(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3736 *, BaseRaycaster_t767 *, BaseRaycaster_t767 *, const MethodInfo*))Comparison_1_Invoke_m17561_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m23342(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3736 *, BaseRaycaster_t767 *, BaseRaycaster_t767 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17562_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m23343(__this, ___result, method) (( int32_t (*) (Comparison_1_t3736 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17563_gshared)(__this, ___result, method)

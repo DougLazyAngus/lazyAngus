@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct Dictionary_2_t223;
+struct Dictionary_2_t249;
 // System.Action`1<FBScore>
-struct Action_1_t224;
+struct Action_1_t250;
 // System.Object
 #include "mscorlib_System_Object.h"
 // FBScore
-struct  FBScore_t225  : public Object_t
+struct  FBScore_t251  : public Object_t
 {
 	// System.String FBScore::UserId
 	String_t* ___UserId_0;
@@ -22,11 +22,11 @@ struct  FBScore_t225  : public Object_t
 	// System.Int32 FBScore::value
 	int32_t ___value_4;
 	// System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D> FBScore::profileImages
-	Dictionary_2_t223 * ___profileImages_5;
+	Dictionary_2_t249 * ___profileImages_5;
 	// System.Action`1<FBScore> FBScore::OnProfileImageLoaded
-	Action_1_t224 * ___OnProfileImageLoaded_6;
+	Action_1_t250 * ___OnProfileImageLoaded_6;
 };
-struct FBScore_t225_StaticFields{
+struct FBScore_t251_StaticFields{
 	// System.Action`1<FBScore> FBScore::<>f__am$cache7
-	Action_1_t224 * ___U3CU3Ef__amU24cache7_7;
+	Action_1_t250 * ___U3CU3Ef__amU24cache7_7;
 };

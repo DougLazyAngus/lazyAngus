@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.DecimalConstantAttribute
-struct DecimalConstantAttribute_t2276;
+struct DecimalConstantAttribute_t2320;
 
 // System.Void System.Runtime.CompilerServices.DecimalConstantAttribute::.ctor(System.Byte,System.Byte,System.UInt32,System.UInt32,System.UInt32)
-extern "C" void DecimalConstantAttribute__ctor_m12117 (DecimalConstantAttribute_t2276 * __this, uint8_t ___scale, uint8_t ___sign, uint32_t ___hi, uint32_t ___mid, uint32_t ___low, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecimalConstantAttribute__ctor_m12655 (DecimalConstantAttribute_t2320 * __this, uint8_t ___scale, uint8_t ___sign, uint32_t ___hi, uint32_t ___mid, uint32_t ___low, const MethodInfo* method) IL2CPP_METHOD_ATTR;

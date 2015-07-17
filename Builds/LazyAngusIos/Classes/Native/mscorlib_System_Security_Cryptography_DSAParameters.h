@@ -5,7 +5,7 @@ struct ByteU5BU5D_t36;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Security.Cryptography.DSAParameters
-struct  DSAParameters_t1766 
+struct  DSAParameters_t1858 
 {
 	// System.Int32 System.Security.Cryptography.DSAParameters::Counter
 	int32_t ___Counter_0;
@@ -25,7 +25,7 @@ struct  DSAParameters_t1766
 	ByteU5BU5D_t36* ___Y_7;
 };
 // Native definition for marshalling of: System.Security.Cryptography.DSAParameters
-struct DSAParameters_t1766_marshaled
+struct DSAParameters_t1858_marshaled
 {
 	int32_t ___Counter_0;
 	uint8_t* ___G_1;

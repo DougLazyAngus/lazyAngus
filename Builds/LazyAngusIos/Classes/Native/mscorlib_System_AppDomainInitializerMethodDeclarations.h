@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.AppDomainInitializer
-struct AppDomainInitializer_t2711;
+struct AppDomainInitializer_t2755;
 // System.Object
 struct Object_t;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.AppDomainInitializer::.ctor(System.Object,System.IntPtr)
-extern "C" void AppDomainInitializer__ctor_m15906 (AppDomainInitializer_t2711 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainInitializer__ctor_m16444 (AppDomainInitializer_t2755 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.AppDomainInitializer::Invoke(System.String[])
-extern "C" void AppDomainInitializer_Invoke_m15907 (AppDomainInitializer_t2711 * __this, StringU5BU5D_t45* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainInitializer_Invoke_m16445 (AppDomainInitializer_t2755 * __this, StringU5BU5D_t45* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #include "mscorlib_ArrayTypes.h"
 // System.String
 #include "mscorlib_System_String.h"
-extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t2711(Il2CppObject* delegate, StringU5BU5D_t45* ___args);
+extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t2755(Il2CppObject* delegate, StringU5BU5D_t45* ___args);
 // System.IAsyncResult System.AppDomainInitializer::BeginInvoke(System.String[],System.AsyncCallback,System.Object)
-extern "C" Object_t * AppDomainInitializer_BeginInvoke_m15908 (AppDomainInitializer_t2711 * __this, StringU5BU5D_t45* ___args, AsyncCallback_t387 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * AppDomainInitializer_BeginInvoke_m16446 (AppDomainInitializer_t2755 * __this, StringU5BU5D_t45* ___args, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.AppDomainInitializer::EndInvoke(System.IAsyncResult)
-extern "C" void AppDomainInitializer_EndInvoke_m15909 (AppDomainInitializer_t2711 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainInitializer_EndInvoke_m16447 (AppDomainInitializer_t2755 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

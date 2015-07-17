@@ -5,7 +5,7 @@ struct String_t;
 // GooglePlayResult
 #include "AssemblyU2DCSharp_GooglePlayResult.h"
 // GP_TBM_CancelMatchResult
-struct  GP_TBM_CancelMatchResult_t178  : public GooglePlayResult_t167
+struct  GP_TBM_CancelMatchResult_t205  : public GooglePlayResult_t194
 {
 	// System.String GP_TBM_CancelMatchResult::MatchId
 	String_t* ___MatchId_2;

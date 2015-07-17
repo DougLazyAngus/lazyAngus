@@ -4,24 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
-struct InternalEnumerator_1_t4096;
+// System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>
+struct InternalEnumerator_1_t4161;
 // System.Object
 struct Object_t;
-// System.Security.Cryptography.KeySizes
-struct KeySizes_t2247;
 // System.Array
 struct Array_t;
+// System.Text.RegularExpressions.Mark
+#include "System_System_Text_RegularExpressions_Mark.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m27998(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4096 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16818_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27999(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16819_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::Dispose()
-#define InternalEnumerator_1_Dispose_m28000(__this, method) (( void (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16820_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m28001(__this, method) (( bool (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16821_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::get_Current()
-#define InternalEnumerator_1_get_Current_m28002(__this, method) (( KeySizes_t2247 * (*) (InternalEnumerator_1_t4096 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16822_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m29020_gshared (InternalEnumerator_1_t4161 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m29020(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4161 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m29020_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29021_gshared (InternalEnumerator_1_t4161 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29021(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4161 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29021_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m29022_gshared (InternalEnumerator_1_t4161 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m29022(__this, method) (( void (*) (InternalEnumerator_1_t4161 *, const MethodInfo*))InternalEnumerator_1_Dispose_m29022_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m29023_gshared (InternalEnumerator_1_t4161 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m29023(__this, method) (( bool (*) (InternalEnumerator_1_t4161 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m29023_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::get_Current()
+extern "C" Mark_t2131  InternalEnumerator_1_get_Current_m29024_gshared (InternalEnumerator_1_t4161 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m29024(__this, method) (( Mark_t2131  (*) (InternalEnumerator_1_t4161 *, const MethodInfo*))InternalEnumerator_1_get_Current_m29024_gshared)(__this, method)

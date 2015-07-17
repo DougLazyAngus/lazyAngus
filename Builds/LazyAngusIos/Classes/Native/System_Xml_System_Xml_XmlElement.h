@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlAttributeCollection
-struct XmlAttributeCollection_t578;
+struct XmlAttributeCollection_t619;
 // System.Xml.XmlNameEntry
-struct XmlNameEntry_t2044;
+struct XmlNameEntry_t1607;
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t2045;
+struct XmlLinkedNode_t1608;
 // System.Xml.Schema.IXmlSchemaInfo
-struct IXmlSchemaInfo_t2046;
+struct IXmlSchemaInfo_t1609;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlElement
-struct  XmlElement_t538  : public XmlLinkedNode_t2045
+struct  XmlElement_t576  : public XmlLinkedNode_t1608
 {
 	// System.Xml.XmlAttributeCollection System.Xml.XmlElement::attributes
-	XmlAttributeCollection_t578 * ___attributes_6;
+	XmlAttributeCollection_t619 * ___attributes_6;
 	// System.Xml.XmlNameEntry System.Xml.XmlElement::name
-	XmlNameEntry_t2044 * ___name_7;
+	XmlNameEntry_t1607 * ___name_7;
 	// System.Xml.XmlLinkedNode System.Xml.XmlElement::lastLinkedChild
-	XmlLinkedNode_t2045 * ___lastLinkedChild_8;
+	XmlLinkedNode_t1608 * ___lastLinkedChild_8;
 	// System.Boolean System.Xml.XmlElement::isNotEmpty
 	bool ___isNotEmpty_9;
 	// System.Xml.Schema.IXmlSchemaInfo System.Xml.XmlElement::schemaInfo

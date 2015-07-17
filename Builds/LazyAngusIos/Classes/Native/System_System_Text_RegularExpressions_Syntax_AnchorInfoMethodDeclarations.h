@@ -5,41 +5,41 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.AnchorInfo
-struct AnchorInfo_t1701;
+struct AnchorInfo_t2163;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t1683;
+struct Expression_t2145;
 // System.Text.RegularExpressions.Position
 #include "System_System_Text_RegularExpressions_Position.h"
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32)
-extern "C" void AnchorInfo__ctor_m8603 (AnchorInfo_t1701 * __this, Expression_t1683 * ___expr, int32_t ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnchorInfo__ctor_m11390 (AnchorInfo_t2163 * __this, Expression_t2145 * ___expr, int32_t ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.String,System.Boolean)
-extern "C" void AnchorInfo__ctor_m8604 (AnchorInfo_t1701 * __this, Expression_t1683 * ___expr, int32_t ___offset, int32_t ___width, String_t* ___str, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnchorInfo__ctor_m11391 (AnchorInfo_t2163 * __this, Expression_t2145 * ___expr, int32_t ___offset, int32_t ___width, String_t* ___str, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.Text.RegularExpressions.Position)
-extern "C" void AnchorInfo__ctor_m8605 (AnchorInfo_t1701 * __this, Expression_t1683 * ___expr, int32_t ___offset, int32_t ___width, uint16_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnchorInfo__ctor_m11392 (AnchorInfo_t2163 * __this, Expression_t2145 * ___expr, int32_t ___offset, int32_t ___width, uint16_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Offset()
-extern "C" int32_t AnchorInfo_get_Offset_m8606 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnchorInfo_get_Offset_m11393 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Width()
-extern "C" int32_t AnchorInfo_get_Width_m8607 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnchorInfo_get_Width_m11394 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Length()
-extern "C" int32_t AnchorInfo_get_Length_m8608 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnchorInfo_get_Length_m11395 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsUnknownWidth()
-extern "C" bool AnchorInfo_get_IsUnknownWidth_m8609 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnchorInfo_get_IsUnknownWidth_m11396 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsComplete()
-extern "C" bool AnchorInfo_get_IsComplete_m8610 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnchorInfo_get_IsComplete_m11397 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Syntax.AnchorInfo::get_Substring()
-extern "C" String_t* AnchorInfo_get_Substring_m8611 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AnchorInfo_get_Substring_m11398 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IgnoreCase()
-extern "C" bool AnchorInfo_get_IgnoreCase_m8612 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnchorInfo_get_IgnoreCase_m11399 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Position System.Text.RegularExpressions.Syntax.AnchorInfo::get_Position()
-extern "C" uint16_t AnchorInfo_get_Position_m8613 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t AnchorInfo_get_Position_m11400 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsSubstring()
-extern "C" bool AnchorInfo_get_IsSubstring_m8614 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnchorInfo_get_IsSubstring_m11401 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsPosition()
-extern "C" bool AnchorInfo_get_IsPosition_m8615 (AnchorInfo_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnchorInfo_get_IsPosition_m11402 (AnchorInfo_t2163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Syntax.AnchorInfo::GetInterval(System.Int32)
-extern "C" Interval_t1676  AnchorInfo_GetInterval_m8616 (AnchorInfo_t1701 * __this, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Interval_t2138  AnchorInfo_GetInterval_m11403 (AnchorInfo_t2163 * __this, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.CryptoConvert
-struct  CryptoConvert_t2157  : public Object_t
+struct  CryptoConvert_t1737  : public Object_t
 {
 };

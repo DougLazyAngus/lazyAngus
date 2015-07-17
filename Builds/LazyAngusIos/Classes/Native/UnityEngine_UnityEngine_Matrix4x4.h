@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Matrix4x4
-struct  Matrix4x4_t927 
+struct  Matrix4x4_t973 
 {
 	// System.Single UnityEngine.Matrix4x4::m00
 	float ___m00_0;

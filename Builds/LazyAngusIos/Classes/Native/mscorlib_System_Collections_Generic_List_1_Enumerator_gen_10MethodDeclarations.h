@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>
-struct Enumerator_t1262;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct Enumerator_t1305;
 // System.Object
 struct Object_t;
-// UnityEngine.GUILayoutEntry
-struct GUILayoutEntry_t1044;
-// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
-struct List_1_t1045;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
+struct GcLeaderboard_t1074;
+// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct List_1_t1072;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4MethodDeclarations.h"
-#define Enumerator__ctor_m24703(__this, ___l, method) (( void (*) (Enumerator_t1262 *, List_1_t1045 *, const MethodInfo*))Enumerator__ctor_m16923_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m24704(__this, method) (( Object_t * (*) (Enumerator_t1262 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16924_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::Dispose()
-#define Enumerator_Dispose_m24705(__this, method) (( void (*) (Enumerator_t1262 *, const MethodInfo*))Enumerator_Dispose_m16925_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::VerifyState()
-#define Enumerator_VerifyState_m24706(__this, method) (( void (*) (Enumerator_t1262 *, const MethodInfo*))Enumerator_VerifyState_m16926_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::MoveNext()
-#define Enumerator_MoveNext_m6591(__this, method) (( bool (*) (Enumerator_t1262 *, const MethodInfo*))Enumerator_MoveNext_m2748_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::get_Current()
-#define Enumerator_get_Current_m6590(__this, method) (( GUILayoutEntry_t1044 * (*) (Enumerator_t1262 *, const MethodInfo*))Enumerator_get_Current_m2747_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
+#define Enumerator__ctor_m25587(__this, ___l, method) (( void (*) (Enumerator_t1305 *, List_1_t1072 *, const MethodInfo*))Enumerator__ctor_m17460_gshared)(__this, ___l, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m25588(__this, method) (( Object_t * (*) (Enumerator_t1305 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17461_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::Dispose()
+#define Enumerator_Dispose_m25589(__this, method) (( void (*) (Enumerator_t1305 *, const MethodInfo*))Enumerator_Dispose_m17462_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::VerifyState()
+#define Enumerator_VerifyState_m25590(__this, method) (( void (*) (Enumerator_t1305 *, const MethodInfo*))Enumerator_VerifyState_m17463_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::MoveNext()
+#define Enumerator_MoveNext_m7122(__this, method) (( bool (*) (Enumerator_t1305 *, const MethodInfo*))Enumerator_MoveNext_m3268_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::get_Current()
+#define Enumerator_get_Current_m7121(__this, method) (( GcLeaderboard_t1074 * (*) (Enumerator_t1305 *, const MethodInfo*))Enumerator_get_Current_m3267_gshared)(__this, method)

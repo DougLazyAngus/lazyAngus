@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t815;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t505;
+// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
+struct List_1_t860;
+// UnityEngine.UI.Selectable
+struct Selectable_t795;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
-struct  Enumerator_t3779 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>
+struct  Enumerator_t3838 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
-	List_1_t815 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::l
+	List_1_t860 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
-	CanvasGroup_t505 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::current
+	Selectable_t795 * ___current_3;
 };

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.ServicePointManager/SPKey
-struct SPKey_t1578;
+struct SPKey_t2053;
 // System.Uri
-struct Uri_t603;
+struct Uri_t654;
 // System.Object
 struct Object_t;
 
 // System.Void System.Net.ServicePointManager/SPKey::.ctor(System.Uri,System.Boolean)
-extern "C" void SPKey__ctor_m7762 (SPKey_t1578 * __this, Uri_t603 * ___uri, bool ___use_connect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPKey__ctor_m10568 (SPKey_t2053 * __this, Uri_t654 * ___uri, bool ___use_connect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.ServicePointManager/SPKey::GetHashCode()
-extern "C" int32_t SPKey_GetHashCode_m7763 (SPKey_t1578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SPKey_GetHashCode_m10569 (SPKey_t2053 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/SPKey::Equals(System.Object)
-extern "C" bool SPKey_Equals_m7764 (SPKey_t1578 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SPKey_Equals_m10570 (SPKey_t2053 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

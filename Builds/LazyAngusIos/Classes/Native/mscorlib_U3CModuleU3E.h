@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
 // <Module>
-struct  U3CModuleU3E_t2261 
+struct  U3CModuleU3E_t2305 
 {
 };

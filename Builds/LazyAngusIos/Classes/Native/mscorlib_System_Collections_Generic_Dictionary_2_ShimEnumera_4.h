@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__34.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__38.h"
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  ShimEnumerator_t3971  : public Object_t
+struct  ShimEnumerator_t4036  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::host_enumerator
-	Enumerator_t3965  ___host_enumerator_0;
+	Enumerator_t4030  ___host_enumerator_0;
 };

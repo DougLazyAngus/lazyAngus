@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct Dictionary_2_t914;
+// System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
+struct Dictionary_2_t492;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
+// System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_29.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>
-struct  Enumerator_t3760 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>
+struct  Enumerator_t3690 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::dictionary
-	Dictionary_2_t914 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::dictionary
+	Dictionary_2_t492 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::current
-	KeyValuePair_2_t3757  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::current
+	KeyValuePair_2_t3687  ___current_3;
 };

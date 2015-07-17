@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// System.Object
-struct Object_t;
+// FBScore
+struct FBScore_t251;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-struct  KeyValuePair_2_t623 
+// System.Collections.Generic.KeyValuePair`2<System.String,FBScore>
+struct  KeyValuePair_2_t649 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FBScore>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::value
-	Object_t * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,FBScore>::value
+	FBScore_t251 * ___value_1;
 };

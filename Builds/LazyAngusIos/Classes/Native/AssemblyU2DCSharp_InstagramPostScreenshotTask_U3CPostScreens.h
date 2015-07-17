@@ -5,11 +5,11 @@ struct Texture2D_t65;
 // System.Object
 struct Object_t;
 // InstagramPostScreenshotTask
-struct InstagramPostScreenshotTask_t304;
+struct InstagramPostScreenshotTask_t330;
 // System.Object
 #include "mscorlib_System_Object.h"
 // InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB
-struct  U3CPostScreenshotU3Ec__IteratorB_t305  : public Object_t
+struct  U3CPostScreenshotU3Ec__IteratorB_t331  : public Object_t
 {
 	// System.Int32 InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB::<width>__0
 	int32_t ___U3CwidthU3E__0_0;
@@ -22,5 +22,5 @@ struct  U3CPostScreenshotU3Ec__IteratorB_t305  : public Object_t
 	// System.Object InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB::$current
 	Object_t * ___U24current_4;
 	// InstagramPostScreenshotTask InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB::<>f__this
-	InstagramPostScreenshotTask_t304 * ___U3CU3Ef__this_5;
+	InstagramPostScreenshotTask_t330 * ___U3CU3Ef__this_5;
 };

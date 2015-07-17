@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct List_1_t731;
-// UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t730;
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct List_1_t772;
+// UnityEngine.GameObject
+struct GameObject_t310;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  Enumerator_t3698 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
+struct  Enumerator_t3754 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::l
-	List_1_t731 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::l
+	List_1_t772 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::current
-	ButtonState_t730 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::current
+	GameObject_t310 * ___current_3;
 };

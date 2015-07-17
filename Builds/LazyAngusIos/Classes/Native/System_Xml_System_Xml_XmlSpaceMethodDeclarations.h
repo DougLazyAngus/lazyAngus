@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlSpace
-struct XmlSpace_t2092;
+struct XmlSpace_t1657;
 

@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // HeadMovement
-struct HeadMovement_t434;
+struct HeadMovement_t472;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void HeadMovement::.ctor()
-extern "C" void HeadMovement__ctor_m2043 (HeadMovement_t434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement__ctor_m2508 (HeadMovement_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::Start()
-extern "C" void HeadMovement_Start_m2044 (HeadMovement_t434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_Start_m2509 (HeadMovement_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::Update()
-extern "C" void HeadMovement_Update_m2045 (HeadMovement_t434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_Update_m2510 (HeadMovement_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean HeadMovement::MoveTowards(System.Single,System.Single)
-extern "C" bool HeadMovement_MoveTowards_m2046 (HeadMovement_t434 * __this, float ___targetDeg, float ___speedDeg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HeadMovement_MoveTowards_m2511 (HeadMovement_t472 * __this, float ___targetDeg, float ___speedDeg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::LookTowards(UnityEngine.Vector3)
-extern "C" void HeadMovement_LookTowards_m2047 (HeadMovement_t434 * __this, Vector3_t411  ___location, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_LookTowards_m2512 (HeadMovement_t472 * __this, Vector3_t449  ___location, const MethodInfo* method) IL2CPP_METHOD_ATTR;

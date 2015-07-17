@@ -7,10 +7,10 @@
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UI.Shadow
-struct  Shadow_t864  : public BaseVertexEffect_t862
+struct  Shadow_t910  : public BaseVertexEffect_t908
 {
 	// UnityEngine.Color UnityEngine.UI.Shadow::m_EffectColor
-	Color_t257  ___m_EffectColor_3;
+	Color_t283  ___m_EffectColor_3;
 	// UnityEngine.Vector2 UnityEngine.UI.Shadow::m_EffectDistance
 	Vector2_t68  ___m_EffectDistance_4;
 	// System.Boolean UnityEngine.UI.Shadow::m_UseGraphicAlpha

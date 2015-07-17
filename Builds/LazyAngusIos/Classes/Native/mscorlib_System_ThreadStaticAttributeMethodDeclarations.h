@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ThreadStaticAttribute
-struct ThreadStaticAttribute_t1785;
+struct ThreadStaticAttribute_t2197;
 
 // System.Void System.ThreadStaticAttribute::.ctor()
-extern "C" void ThreadStaticAttribute__ctor_m8995 (ThreadStaticAttribute_t1785 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStaticAttribute__ctor_m11637 (ThreadStaticAttribute_t2197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

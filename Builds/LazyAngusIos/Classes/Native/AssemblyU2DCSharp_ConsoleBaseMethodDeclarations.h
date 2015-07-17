@@ -9,7 +9,7 @@ struct ConsoleBase_t66;
 // System.String
 struct String_t;
 // FBResult
-struct FBResult_t213;
+struct FBResult_t239;
 
 // System.Void ConsoleBase::.ctor()
 extern "C" void ConsoleBase__ctor_m254 (ConsoleBase_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -24,7 +24,7 @@ extern "C" bool ConsoleBase_IsHorizontalLayout_m258 (ConsoleBase_t66 * __this, c
 // System.Int32 ConsoleBase::get_TextWindowHeight()
 extern "C" int32_t ConsoleBase_get_TextWindowHeight_m259 (ConsoleBase_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ConsoleBase::Callback(FBResult)
-extern "C" void ConsoleBase_Callback_m260 (ConsoleBase_t66 * __this, FBResult_t213 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConsoleBase_Callback_m260 (ConsoleBase_t66 * __this, FBResult_t239 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ConsoleBase::AddCommonFooter()
 extern "C" void ConsoleBase_AddCommonFooter_m261 (ConsoleBase_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ConsoleBase::AddCommonHeader()
@@ -40,6 +40,6 @@ extern "C" void ConsoleBase_CallFBLogin_m266 (ConsoleBase_t66 * __this, const Me
 // System.Void ConsoleBase::CallFBLoginForPublish()
 extern "C" void ConsoleBase_CallFBLoginForPublish_m267 (ConsoleBase_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ConsoleBase::LoginCallback(FBResult)
-extern "C" void ConsoleBase_LoginCallback_m268 (ConsoleBase_t66 * __this, FBResult_t213 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConsoleBase_LoginCallback_m268 (ConsoleBase_t66 * __this, FBResult_t239 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ConsoleBase::CallFBLogout()
 extern "C" void ConsoleBase_CallFBLogout_m269 (ConsoleBase_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

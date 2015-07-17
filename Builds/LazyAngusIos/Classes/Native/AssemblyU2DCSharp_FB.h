@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // Facebook.InitDelegate
-struct InitDelegate_t336;
+struct InitDelegate_t377;
 // Facebook.HideUnityDelegate
-struct HideUnityDelegate_t337;
+struct HideUnityDelegate_t378;
 // Facebook.AbstractFacebook
-struct AbstractFacebook_t331;
+struct AbstractFacebook_t372;
 // System.String
 struct String_t;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // FB
-struct  FB_t338  : public ScriptableObject_t111
+struct  FB_t379  : public ScriptableObject_t106
 {
 };
-struct FB_t338_StaticFields{
+struct FB_t379_StaticFields{
 	// Facebook.InitDelegate FB::OnInitComplete
-	InitDelegate_t336 * ___OnInitComplete_2;
+	InitDelegate_t377 * ___OnInitComplete_2;
 	// Facebook.HideUnityDelegate FB::OnHideUnity
-	HideUnityDelegate_t337 * ___OnHideUnity_3;
+	HideUnityDelegate_t378 * ___OnHideUnity_3;
 	// Facebook.AbstractFacebook FB::facebook
-	AbstractFacebook_t331 * ___facebook_4;
+	AbstractFacebook_t372 * ___facebook_4;
 	// System.String FB::authResponse
 	String_t* ___authResponse_5;
 	// System.Boolean FB::isInitCalled

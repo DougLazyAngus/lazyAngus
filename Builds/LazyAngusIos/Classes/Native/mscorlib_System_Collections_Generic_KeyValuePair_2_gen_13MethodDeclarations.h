@@ -4,28 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-struct KeyValuePair_2_t3390;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct KeyValuePair_2_t1327;
 // System.String
 struct String_t;
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate
+struct GetDelegate_t1199;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m17970_gshared (KeyValuePair_2_t3390 * __this, int32_t ___key, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m17970(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3390 *, int32_t, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m17970_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::get_Key()
-extern "C" int32_t KeyValuePair_2_get_Key_m17971_gshared (KeyValuePair_2_t3390 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m17971(__this, method) (( int32_t (*) (KeyValuePair_2_t3390 *, const MethodInfo*))KeyValuePair_2_get_Key_m17971_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m17972_gshared (KeyValuePair_2_t3390 * __this, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m17972(__this, ___value, method) (( void (*) (KeyValuePair_2_t3390 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m17972_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::get_Value()
-extern "C" Object_t * KeyValuePair_2_get_Value_m17973_gshared (KeyValuePair_2_t3390 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m17973(__this, method) (( Object_t * (*) (KeyValuePair_2_t3390 *, const MethodInfo*))KeyValuePair_2_get_Value_m17973_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m17974_gshared (KeyValuePair_2_t3390 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m17974(__this, ___value, method) (( void (*) (KeyValuePair_2_t3390 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m17974_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m17975_gshared (KeyValuePair_2_t3390 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m17975(__this, method) (( String_t* (*) (KeyValuePair_2_t3390 *, const MethodInfo*))KeyValuePair_2_ToString_m17975_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m27463(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1327 *, String_t*, GetDelegate_t1199 *, const MethodInfo*))KeyValuePair_2__ctor_m17710_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_Key()
+#define KeyValuePair_2_get_Key_m7209(__this, method) (( String_t* (*) (KeyValuePair_2_t1327 *, const MethodInfo*))KeyValuePair_2_get_Key_m17711_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m27464(__this, ___value, method) (( void (*) (KeyValuePair_2_t1327 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m17712_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_Value()
+#define KeyValuePair_2_get_Value_m7208(__this, method) (( GetDelegate_t1199 * (*) (KeyValuePair_2_t1327 *, const MethodInfo*))KeyValuePair_2_get_Value_m17713_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m27465(__this, ___value, method) (( void (*) (KeyValuePair_2_t1327 *, GetDelegate_t1199 *, const MethodInfo*))KeyValuePair_2_set_Value_m17714_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::ToString()
+#define KeyValuePair_2_ToString_m27466(__this, method) (( String_t* (*) (KeyValuePair_2_t1327 *, const MethodInfo*))KeyValuePair_2_ToString_m17715_gshared)(__this, method)

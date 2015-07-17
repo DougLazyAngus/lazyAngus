@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Single[]
-struct SingleU5BU5D_t450;
+struct SingleU5BU5D_t488;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioClip/PCMReaderCallback
-struct  PCMReaderCallback_t1099  : public MulticastDelegate_t389
+struct  PCMReaderCallback_t1144  : public MulticastDelegate_t346
 {
 };

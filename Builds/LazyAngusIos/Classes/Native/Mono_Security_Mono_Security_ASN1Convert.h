@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.ASN1Convert
-struct  ASN1Convert_t2150  : public Object_t
+struct  ASN1Convert_t1730  : public Object_t
 {
 };

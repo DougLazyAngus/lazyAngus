@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.NullStream
-struct NullStream_t2419;
+struct NullStream_t2463;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.IO.SeekOrigin
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.IO.NullStream::.ctor()
-extern "C" void NullStream__ctor_m13298 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream__ctor_m13836 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.NullStream::get_CanRead()
-extern "C" bool NullStream_get_CanRead_m13299 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NullStream_get_CanRead_m13837 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.NullStream::get_CanSeek()
-extern "C" bool NullStream_get_CanSeek_m13300 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NullStream_get_CanSeek_m13838 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.NullStream::get_CanWrite()
-extern "C" bool NullStream_get_CanWrite_m13301 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NullStream_get_CanWrite_m13839 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.NullStream::get_Length()
-extern "C" int64_t NullStream_get_Length_m13302 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t NullStream_get_Length_m13840 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.NullStream::get_Position()
-extern "C" int64_t NullStream_get_Position_m13303 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t NullStream_get_Position_m13841 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.NullStream::set_Position(System.Int64)
-extern "C" void NullStream_set_Position_m13304 (NullStream_t2419 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream_set_Position_m13842 (NullStream_t2463 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.NullStream::Flush()
-extern "C" void NullStream_Flush_m13305 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream_Flush_m13843 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.NullStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t NullStream_Read_m13306 (NullStream_t2419 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NullStream_Read_m13844 (NullStream_t2463 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.NullStream::ReadByte()
-extern "C" int32_t NullStream_ReadByte_m13307 (NullStream_t2419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NullStream_ReadByte_m13845 (NullStream_t2463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.NullStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t NullStream_Seek_m13308 (NullStream_t2419 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t NullStream_Seek_m13846 (NullStream_t2463 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.NullStream::SetLength(System.Int64)
-extern "C" void NullStream_SetLength_m13309 (NullStream_t2419 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream_SetLength_m13847 (NullStream_t2463 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.NullStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void NullStream_Write_m13310 (NullStream_t2419 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream_Write_m13848 (NullStream_t2463 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.NullStream::WriteByte(System.Byte)
-extern "C" void NullStream_WriteByte_m13311 (NullStream_t2419 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStream_WriteByte_m13849 (NullStream_t2463 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.Directory
-struct  Directory_t2402  : public Object_t
+struct  Directory_t2446  : public Object_t
 {
 };

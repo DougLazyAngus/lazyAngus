@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.ChunkStream/State
-struct State_t1513;
+struct State_t1998;
 

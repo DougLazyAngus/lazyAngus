@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CameraClearFlags
-struct CameraClearFlags_t1179;
+struct CameraClearFlags_t1224;
 

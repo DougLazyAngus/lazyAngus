@@ -9,7 +9,7 @@ struct String_t;
 // GPBoardTimeSpan
 #include "AssemblyU2DCSharp_GPBoardTimeSpan.h"
 // GPScore
-struct  GPScore_t275  : public Object_t
+struct  GPScore_t301  : public Object_t
 {
 	// System.Int32 GPScore::_rank
 	int32_t ____rank_0;

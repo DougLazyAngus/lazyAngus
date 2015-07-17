@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// LevelDescription
-struct LevelDescription_t449;
+// UnityEngine.Texture2D
+struct Texture2D_t65;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Int32
-#include "mscorlib_System_Int32.h"
+// FacebookProfileImageSize
+#include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,LevelDescription,System.Collections.DictionaryEntry>
-struct  Transform_1_t3621  : public MulticastDelegate_t389
+// System.Collections.Generic.Dictionary`2/Transform`1<FacebookProfileImageSize,UnityEngine.Texture2D,System.Collections.DictionaryEntry>
+struct  Transform_1_t3581  : public MulticastDelegate_t346
 {
 };

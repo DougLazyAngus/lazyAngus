@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Slider
-struct Slider_t374;
+struct Slider_t415;
 // UnityEngine.RectTransform
-struct RectTransform_t533;
+struct RectTransform_t571;
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t819;
+struct SliderEvent_t865;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t727;
+struct PointerEventData_t773;
 // UnityEngine.Camera
-struct Camera_t439;
+struct Camera_t477;
 // UnityEngine.EventSystems.AxisEventData
-struct AxisEventData_t723;
+struct AxisEventData_t769;
 // UnityEngine.UI.Selectable
-struct Selectable_t749;
+struct Selectable_t795;
 // UnityEngine.Transform
-struct Transform_t323;
+struct Transform_t364;
 // UnityEngine.UI.Slider/Direction
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Direction.h"
 // UnityEngine.UI.Slider/Axis
@@ -28,88 +28,88 @@ struct Transform_t323;
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate.h"
 
 // System.Void UnityEngine.UI.Slider::.ctor()
-extern "C" void Slider__ctor_m4230 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider__ctor_m4777 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.Slider::get_fillRect()
-extern "C" RectTransform_t533 * Slider_get_fillRect_m4231 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t571 * Slider_get_fillRect_m4778 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_fillRect(UnityEngine.RectTransform)
-extern "C" void Slider_set_fillRect_m4232 (Slider_t374 * __this, RectTransform_t533 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_fillRect_m4779 (Slider_t415 * __this, RectTransform_t571 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.Slider::get_handleRect()
-extern "C" RectTransform_t533 * Slider_get_handleRect_m4233 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t571 * Slider_get_handleRect_m4780 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_handleRect(UnityEngine.RectTransform)
-extern "C" void Slider_set_handleRect_m4234 (Slider_t374 * __this, RectTransform_t533 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_handleRect_m4781 (Slider_t415 * __this, RectTransform_t571 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Slider/Direction UnityEngine.UI.Slider::get_direction()
-extern "C" int32_t Slider_get_direction_m4235 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Slider_get_direction_m4782 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_direction(UnityEngine.UI.Slider/Direction)
-extern "C" void Slider_set_direction_m4236 (Slider_t374 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_direction_m4783 (Slider_t415 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_minValue()
-extern "C" float Slider_get_minValue_m4237 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Slider_get_minValue_m4784 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_minValue(System.Single)
-extern "C" void Slider_set_minValue_m4238 (Slider_t374 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_minValue_m4785 (Slider_t415 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_maxValue()
-extern "C" float Slider_get_maxValue_m4239 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Slider_get_maxValue_m4786 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_maxValue(System.Single)
-extern "C" void Slider_set_maxValue_m4240 (Slider_t374 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_maxValue_m4787 (Slider_t415 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::get_wholeNumbers()
-extern "C" bool Slider_get_wholeNumbers_m4241 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Slider_get_wholeNumbers_m4788 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_wholeNumbers(System.Boolean)
-extern "C" void Slider_set_wholeNumbers_m4242 (Slider_t374 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_wholeNumbers_m4789 (Slider_t415 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_value()
-extern "C" float Slider_get_value_m4243 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Slider_get_value_m4790 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_value(System.Single)
-extern "C" void Slider_set_value_m3013 (Slider_t374 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_value_m3545 (Slider_t415 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_normalizedValue()
-extern "C" float Slider_get_normalizedValue_m4244 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Slider_get_normalizedValue_m4791 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_normalizedValue(System.Single)
-extern "C" void Slider_set_normalizedValue_m4245 (Slider_t374 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_normalizedValue_m4792 (Slider_t415 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::get_onValueChanged()
-extern "C" SliderEvent_t819 * Slider_get_onValueChanged_m4246 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SliderEvent_t865 * Slider_get_onValueChanged_m4793 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_onValueChanged(UnityEngine.UI.Slider/SliderEvent)
-extern "C" void Slider_set_onValueChanged_m4247 (Slider_t374 * __this, SliderEvent_t819 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_onValueChanged_m4794 (Slider_t415 * __this, SliderEvent_t865 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_stepSize()
-extern "C" float Slider_get_stepSize_m4248 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Slider_get_stepSize_m4795 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern "C" void Slider_Rebuild_m4249 (Slider_t374 * __this, int32_t ___executing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_Rebuild_m4796 (Slider_t415 * __this, int32_t ___executing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnEnable()
-extern "C" void Slider_OnEnable_m4250 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnEnable_m4797 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnDisable()
-extern "C" void Slider_OnDisable_m4251 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnDisable_m4798 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::UpdateCachedReferences()
-extern "C" void Slider_UpdateCachedReferences_m4252 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_UpdateCachedReferences_m4799 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::Set(System.Single)
-extern "C" void Slider_Set_m4253 (Slider_t374 * __this, float ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_Set_m4800 (Slider_t415 * __this, float ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::Set(System.Single,System.Boolean)
-extern "C" void Slider_Set_m4254 (Slider_t374 * __this, float ___input, bool ___sendCallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_Set_m4801 (Slider_t415 * __this, float ___input, bool ___sendCallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnRectTransformDimensionsChange()
-extern "C" void Slider_OnRectTransformDimensionsChange_m4255 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnRectTransformDimensionsChange_m4802 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Slider/Axis UnityEngine.UI.Slider::get_axis()
-extern "C" int32_t Slider_get_axis_m4256 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Slider_get_axis_m4803 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::get_reverseValue()
-extern "C" bool Slider_get_reverseValue_m4257 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Slider_get_reverseValue_m4804 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::UpdateVisuals()
-extern "C" void Slider_UpdateVisuals_m4258 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_UpdateVisuals_m4805 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
-extern "C" void Slider_UpdateDrag_m4259 (Slider_t374 * __this, PointerEventData_t727 * ___eventData, Camera_t439 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_UpdateDrag_m4806 (Slider_t415 * __this, PointerEventData_t773 * ___eventData, Camera_t477 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::MayDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" bool Slider_MayDrag_m4260 (Slider_t374 * __this, PointerEventData_t727 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Slider_MayDrag_m4807 (Slider_t415 * __this, PointerEventData_t773 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnPointerDown_m4261 (Slider_t374 * __this, PointerEventData_t727 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnPointerDown_m4808 (Slider_t415 * __this, PointerEventData_t773 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnDrag_m4262 (Slider_t374 * __this, PointerEventData_t727 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnDrag_m4809 (Slider_t415 * __this, PointerEventData_t773 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnMove(UnityEngine.EventSystems.AxisEventData)
-extern "C" void Slider_OnMove_m4263 (Slider_t374 * __this, AxisEventData_t723 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnMove_m4810 (Slider_t415 * __this, AxisEventData_t769 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnLeft()
-extern "C" Selectable_t749 * Slider_FindSelectableOnLeft_m4264 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t795 * Slider_FindSelectableOnLeft_m4811 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnRight()
-extern "C" Selectable_t749 * Slider_FindSelectableOnRight_m4265 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t795 * Slider_FindSelectableOnRight_m4812 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnUp()
-extern "C" Selectable_t749 * Slider_FindSelectableOnUp_m4266 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t795 * Slider_FindSelectableOnUp_m4813 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnDown()
-extern "C" Selectable_t749 * Slider_FindSelectableOnDown_m4267 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t795 * Slider_FindSelectableOnDown_m4814 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnInitializePotentialDrag_m4268 (Slider_t374 * __this, PointerEventData_t727 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnInitializePotentialDrag_m4815 (Slider_t415 * __this, PointerEventData_t773 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::SetDirection(UnityEngine.UI.Slider/Direction,System.Boolean)
-extern "C" void Slider_SetDirection_m4269 (Slider_t374 * __this, int32_t ___direction, bool ___includeRectLayouts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_SetDirection_m4816 (Slider_t415 * __this, int32_t ___direction, bool ___includeRectLayouts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern "C" bool Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m4270 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m4817 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.UI.Slider::UnityEngine.UI.ICanvasElement.get_transform()
-extern "C" Transform_t323 * Slider_UnityEngine_UI_ICanvasElement_get_transform_m4271 (Slider_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Transform_t364 * Slider_UnityEngine_UI_ICanvasElement_get_transform_m4818 (Slider_t415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

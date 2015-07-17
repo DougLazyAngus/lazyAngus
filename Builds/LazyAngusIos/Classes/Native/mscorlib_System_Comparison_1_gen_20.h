@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// BoostButton
-struct BoostButton_t378;
+// Facebook.FacebookDelegate
+struct FacebookDelegate_t391;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<BoostButton>
-struct  Comparison_1_t3580  : public MulticastDelegate_t389
+// System.Comparison`1<Facebook.FacebookDelegate>
+struct  Comparison_1_t3633  : public MulticastDelegate_t346
 {
 };

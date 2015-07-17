@@ -1,16 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// FacebookUserInfo
-struct FacebookUserInfo_t202;
+// IOSADBanner
+struct IOSADBanner_t108;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>
-struct  KeyValuePair_2_t596 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>
+struct  KeyValuePair_2_t624 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>::value
-	FacebookUserInfo_t202 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::value
+	IOSADBanner_t108 * ___value_1;
 };

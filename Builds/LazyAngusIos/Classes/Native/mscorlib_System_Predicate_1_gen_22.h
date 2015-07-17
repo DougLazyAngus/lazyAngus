@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// ExplicitMouseDesc
-struct ExplicitMouseDesc_t412;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
+// System.Int32
+#include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<ExplicitMouseDesc>
-struct  Predicate_1_t3601  : public MulticastDelegate_t389
+// System.Predicate`1<System.Int32>
+struct  Predicate_1_t3656  : public MulticastDelegate_t346
 {
 };

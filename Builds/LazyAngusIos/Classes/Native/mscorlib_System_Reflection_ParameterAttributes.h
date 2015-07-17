@@ -5,7 +5,7 @@
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
 // System.Reflection.ParameterAttributes
-struct  ParameterAttributes_t2475 
+struct  ParameterAttributes_t2519 
 {
 	// System.Int32 System.Reflection.ParameterAttributes::value__
 	int32_t ___value___1;

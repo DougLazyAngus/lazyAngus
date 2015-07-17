@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.CharEnumerator
-struct  CharEnumerator_t2718  : public Object_t
+struct  CharEnumerator_t2762  : public Object_t
 {
 	// System.String System.CharEnumerator::str
 	String_t* ___str_0;

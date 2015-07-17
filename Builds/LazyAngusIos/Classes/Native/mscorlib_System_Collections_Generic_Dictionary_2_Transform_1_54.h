@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.String
+struct String_t;
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate
+struct GetDelegate_t1199;
+// System.IAsyncResult
+struct IAsyncResult_t343;
+// System.AsyncCallback
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t386;
-// System.AsyncCallback
-struct AsyncCallback_t387;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_36.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
+// System.Collections.DictionaryEntry
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>
-struct  Transform_1_t3970  : public MulticastDelegate_t389
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate,System.Collections.DictionaryEntry>
+struct  Transform_1_t4019  : public MulticastDelegate_t346
 {
 };

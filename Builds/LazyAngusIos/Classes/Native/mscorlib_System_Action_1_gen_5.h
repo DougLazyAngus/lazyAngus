@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// FBScore
-struct FBScore_t225;
+// FBAppRequestResult
+struct FBAppRequestResult_t246;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<FBScore>
-struct  Action_1_t224  : public MulticastDelegate_t389
+// System.Action`1<FBAppRequestResult>
+struct  Action_1_t237  : public MulticastDelegate_t346
 {
 };

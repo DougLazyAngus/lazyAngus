@@ -7,7 +7,7 @@ struct GUIStyle_t64;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // EditorFacebookAccessToken
-struct  EditorFacebookAccessToken_t357  : public MonoBehaviour_t67
+struct  EditorFacebookAccessToken_t398  : public MonoBehaviour_t67
 {
 	// System.Single EditorFacebookAccessToken::windowHeight
 	float ___windowHeight_3;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Byte[][]
-struct ByteU5BU5DU5BU5D_t2253;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
+struct GcLeaderboardU5BU5D_t3880;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Byte[]>
-struct  List_1_t1074  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct  List_1_t1072  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Byte[]>::_items
-	ByteU5BU5DU5BU5D_t2253* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte[]>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_items
+	GcLeaderboardU5BU5D_t3880* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte[]>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1074_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Byte[]>::EmptyArray
-	ByteU5BU5DU5BU5D_t2253* ___EmptyArray_4;
+struct List_1_t1072_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EmptyArray
+	GcLeaderboardU5BU5D_t3880* ___EmptyArray_4;
 };

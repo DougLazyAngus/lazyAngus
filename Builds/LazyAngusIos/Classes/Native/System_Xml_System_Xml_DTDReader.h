@@ -1,34 +1,34 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlParserInput
-struct XmlParserInput_t2033;
+struct XmlParserInput_t1596;
 // System.Collections.Stack
-struct Stack_t1229;
+struct Stack_t1273;
 // System.Char[]
-struct CharU5BU5D_t565;
+struct CharU5BU5D_t606;
 // System.Text.StringBuilder
-struct StringBuilder_t192;
+struct StringBuilder_t219;
 // System.String
 struct String_t;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t2006;
+struct DTDObjectModel_t1568;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.DTDReader
-struct  DTDReader_t2034  : public Object_t
+struct  DTDReader_t1597  : public Object_t
 {
 	// System.Xml.XmlParserInput System.Xml.DTDReader::currentInput
-	XmlParserInput_t2033 * ___currentInput_0;
+	XmlParserInput_t1596 * ___currentInput_0;
 	// System.Collections.Stack System.Xml.DTDReader::parserInputStack
-	Stack_t1229 * ___parserInputStack_1;
+	Stack_t1273 * ___parserInputStack_1;
 	// System.Char[] System.Xml.DTDReader::nameBuffer
-	CharU5BU5D_t565* ___nameBuffer_2;
+	CharU5BU5D_t606* ___nameBuffer_2;
 	// System.Int32 System.Xml.DTDReader::nameLength
 	int32_t ___nameLength_3;
 	// System.Int32 System.Xml.DTDReader::nameCapacity
 	int32_t ___nameCapacity_4;
 	// System.Text.StringBuilder System.Xml.DTDReader::valueBuffer
-	StringBuilder_t192 * ___valueBuffer_5;
+	StringBuilder_t219 * ___valueBuffer_5;
 	// System.Int32 System.Xml.DTDReader::currentLinkedNodeLineNumber
 	int32_t ___currentLinkedNodeLineNumber_6;
 	// System.Int32 System.Xml.DTDReader::currentLinkedNodeLinePosition
@@ -44,5 +44,5 @@ struct  DTDReader_t2034  : public Object_t
 	// System.String System.Xml.DTDReader::cachedSystemId
 	String_t* ___cachedSystemId_12;
 	// Mono.Xml.DTDObjectModel System.Xml.DTDReader::DTD
-	DTDObjectModel_t2006 * ___DTD_13;
+	DTDObjectModel_t1568 * ___DTD_13;
 };

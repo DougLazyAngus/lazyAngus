@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.InvalidCastException
-struct  InvalidCastException_t2743  : public SystemException_t1734
+struct  InvalidCastException_t2787  : public SystemException_t1626
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ScreenOrientation
-struct ScreenOrientation_t1180;
+struct ScreenOrientation_t707;
 

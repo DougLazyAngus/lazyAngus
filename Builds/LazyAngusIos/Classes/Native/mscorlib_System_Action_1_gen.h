@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Texture2D
-struct Texture2D_t65;
+// GoogleMobileAdBanner
+struct GoogleMobileAdBanner_t98;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<UnityEngine.Texture2D>
-struct  Action_1_t199  : public MulticastDelegate_t389
+// System.Action`1<GoogleMobileAdBanner>
+struct  Action_1_t107  : public MulticastDelegate_t346
 {
 };

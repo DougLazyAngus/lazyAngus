@@ -5,7 +5,7 @@
 // Mono.Xml.DTDContentOrderType
 #include "System_Xml_Mono_Xml_DTDContentOrderType.h"
 // Mono.Xml.DTDContentOrderType
-struct  DTDContentOrderType_t2031 
+struct  DTDContentOrderType_t1594 
 {
 	// System.Int32 Mono.Xml.DTDContentOrderType::value__
 	int32_t ___value___1;

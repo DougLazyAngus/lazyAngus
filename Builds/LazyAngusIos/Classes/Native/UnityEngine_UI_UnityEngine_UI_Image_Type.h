@@ -5,7 +5,7 @@
 // UnityEngine.UI.Image/Type
 #include "UnityEngine_UI_UnityEngine_UI_Image_Type.h"
 // UnityEngine.UI.Image/Type
-struct  Type_t771 
+struct  Type_t817 
 {
 	// System.Int32 UnityEngine.UI.Image/Type::value__
 	int32_t ___value___1;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t284;
+struct GameObject_t310;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t721;
+struct BaseRaycaster_t767;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.EventSystems.RaycastResult
-struct  RaycastResult_t722 
+struct  RaycastResult_t768 
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
-	GameObject_t284 * ___m_GameObject_0;
+	GameObject_t310 * ___m_GameObject_0;
 	// UnityEngine.EventSystems.BaseRaycaster UnityEngine.EventSystems.RaycastResult::module
-	BaseRaycaster_t721 * ___module_1;
+	BaseRaycaster_t767 * ___module_1;
 	// System.Single UnityEngine.EventSystems.RaycastResult::distance
 	float ___distance_2;
 	// System.Single UnityEngine.EventSystems.RaycastResult::index
@@ -26,7 +26,7 @@ struct  RaycastResult_t722
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
 	int32_t ___sortingOrder_6;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t411  ___worldPosition_7;
+	Vector3_t449  ___worldPosition_7;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t411  ___worldNormal_8;
+	Vector3_t449  ___worldNormal_8;
 };

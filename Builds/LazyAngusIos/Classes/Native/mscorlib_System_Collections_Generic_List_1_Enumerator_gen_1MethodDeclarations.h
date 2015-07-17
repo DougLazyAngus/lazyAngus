@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.String>
-struct Enumerator_t580;
+// System.Collections.Generic.List`1/Enumerator<GADTestDevice>
+struct Enumerator_t622;
 // System.Object
 struct Object_t;
-// System.String
-struct String_t;
-// System.Collections.Generic.List`1<System.String>
-struct List_1_t73;
+// GADTestDevice
+struct GADTestDevice_t112;
+// System.Collections.Generic.List`1<GADTestDevice>
+struct List_1_t104;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.String>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<GADTestDevice>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4MethodDeclarations.h"
-#define Enumerator__ctor_m17567(__this, ___l, method) (( void (*) (Enumerator_t580 *, List_1_t73 *, const MethodInfo*))Enumerator__ctor_m16923_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.String>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m17568(__this, method) (( Object_t * (*) (Enumerator_t580 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16924_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.String>::Dispose()
-#define Enumerator_Dispose_m17569(__this, method) (( void (*) (Enumerator_t580 *, const MethodInfo*))Enumerator_Dispose_m16925_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.String>::VerifyState()
-#define Enumerator_VerifyState_m17570(__this, method) (( void (*) (Enumerator_t580 *, const MethodInfo*))Enumerator_VerifyState_m16926_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.String>::MoveNext()
-#define Enumerator_MoveNext_m2693(__this, method) (( bool (*) (Enumerator_t580 *, const MethodInfo*))Enumerator_MoveNext_m2748_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.String>::get_Current()
-#define Enumerator_get_Current_m2692(__this, method) (( String_t* (*) (Enumerator_t580 *, const MethodInfo*))Enumerator_get_Current_m2747_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
+#define Enumerator__ctor_m19149(__this, ___l, method) (( void (*) (Enumerator_t622 *, List_1_t104 *, const MethodInfo*))Enumerator__ctor_m17460_gshared)(__this, ___l, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<GADTestDevice>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m19150(__this, method) (( Object_t * (*) (Enumerator_t622 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17461_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<GADTestDevice>::Dispose()
+#define Enumerator_Dispose_m19151(__this, method) (( void (*) (Enumerator_t622 *, const MethodInfo*))Enumerator_Dispose_m17462_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<GADTestDevice>::VerifyState()
+#define Enumerator_VerifyState_m19152(__this, method) (( void (*) (Enumerator_t622 *, const MethodInfo*))Enumerator_VerifyState_m17463_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<GADTestDevice>::MoveNext()
+#define Enumerator_MoveNext_m3170(__this, method) (( bool (*) (Enumerator_t622 *, const MethodInfo*))Enumerator_MoveNext_m3268_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<GADTestDevice>::get_Current()
+#define Enumerator_get_Current_m3169(__this, method) (( GADTestDevice_t112 * (*) (Enumerator_t622 *, const MethodInfo*))Enumerator_get_Current_m3267_gshared)(__this, method)

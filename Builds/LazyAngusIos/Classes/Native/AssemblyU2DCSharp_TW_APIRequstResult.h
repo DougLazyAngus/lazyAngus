@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<TweetTemplate>
-struct List_1_t252;
+struct List_1_t278;
 // System.Collections.Generic.List`1<TwitterUserInfo>
-struct List_1_t253;
+struct List_1_t279;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t73;
 // System.String
@@ -11,12 +11,12 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // TW_APIRequstResult
-struct  TW_APIRequstResult_t254  : public Object_t
+struct  TW_APIRequstResult_t280  : public Object_t
 {
 	// System.Collections.Generic.List`1<TweetTemplate> TW_APIRequstResult::tweets
-	List_1_t252 * ___tweets_0;
+	List_1_t278 * ___tweets_0;
 	// System.Collections.Generic.List`1<TwitterUserInfo> TW_APIRequstResult::users
-	List_1_t253 * ___users_1;
+	List_1_t279 * ___users_1;
 	// System.Collections.Generic.List`1<System.String> TW_APIRequstResult::ids
 	List_1_t73 * ___ids_2;
 	// System.Boolean TW_APIRequstResult::_IsSucceeded

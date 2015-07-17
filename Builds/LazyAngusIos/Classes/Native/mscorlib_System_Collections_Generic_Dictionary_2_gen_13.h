@@ -1,48 +1,48 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t455;
+struct Int32U5BU5D_t493;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3343;
-// FacebookProfileImageSize[]
-struct FacebookProfileImageSizeU5BU5D_t3513;
-// UnityEngine.Texture2D[]
-struct Texture2DU5BU5D_t3514;
-// System.Collections.Generic.IEqualityComparer`1<FacebookProfileImageSize>
-struct IEqualityComparer_1_t3515;
+struct LinkU5BU5D_t3387;
+// System.String[]
+struct StringU5BU5D_t45;
+// FacebookUserInfo[]
+struct FacebookUserInfoU5BU5D_t3540;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_t3353;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1255;
-// System.Collections.Generic.Dictionary`2/Transform`1<FacebookProfileImageSize,UnityEngine.Texture2D,System.Collections.DictionaryEntry>
-struct Transform_1_t3516;
+struct SerializationInfo_t1299;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,FacebookUserInfo,System.Collections.DictionaryEntry>
+struct Transform_1_t3541;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct  Dictionary_2_t223  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>
+struct  Dictionary_2_t230  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::table
-	Int32U5BU5D_t455* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::linkSlots
-	LinkU5BU5D_t3343* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::keySlots
-	FacebookProfileImageSizeU5BU5D_t3513* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::valueSlots
-	Texture2DU5BU5D_t3514* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::table
+	Int32U5BU5D_t493* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::linkSlots
+	LinkU5BU5D_t3387* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::keySlots
+	StringU5BU5D_t45* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::valueSlots
+	FacebookUserInfoU5BU5D_t3540* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::serialization_info
-	SerializationInfo_t1255 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::serialization_info
+	SerializationInfo_t1299 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t223_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::<>f__am$cacheB
-	Transform_1_t3516 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t230_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::<>f__am$cacheB
+	Transform_1_t3541 * ___U3CU3Ef__amU24cacheB_15;
 };

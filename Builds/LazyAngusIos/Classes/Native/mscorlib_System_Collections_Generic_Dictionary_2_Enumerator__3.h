@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,FBScore>
-struct Dictionary_2_t204;
+// System.Collections.Generic.Dictionary`2<System.Int32,WP8ADBanner>
+struct Dictionary_2_t114;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,FBScore>
+// System.Collections.Generic.KeyValuePair`2<System.Int32,WP8ADBanner>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_4.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBScore>
-struct  Enumerator_t599 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,WP8ADBanner>
+struct  Enumerator_t628 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBScore>::dictionary
-	Dictionary_2_t204 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBScore>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,WP8ADBanner>::dictionary
+	Dictionary_2_t114 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,WP8ADBanner>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBScore>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,WP8ADBanner>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBScore>::current
-	KeyValuePair_2_t598  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,WP8ADBanner>::current
+	KeyValuePair_2_t627  ___current_3;
 };

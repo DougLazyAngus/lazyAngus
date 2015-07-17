@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.DSASignatureFormatter
-struct DSASignatureFormatter_t2612;
+struct DSASignatureFormatter_t2656;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
 struct String_t;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t1598;
+struct AsymmetricAlgorithm_t1846;
 
 // System.Void System.Security.Cryptography.DSASignatureFormatter::.ctor()
-extern "C" void DSASignatureFormatter__ctor_m14446 (DSASignatureFormatter_t2612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter__ctor_m14984 (DSASignatureFormatter_t2656 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.DSASignatureFormatter::CreateSignature(System.Byte[])
-extern "C" ByteU5BU5D_t36* DSASignatureFormatter_CreateSignature_m14447 (DSASignatureFormatter_t2612 * __this, ByteU5BU5D_t36* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* DSASignatureFormatter_CreateSignature_m14985 (DSASignatureFormatter_t2656 * __this, ByteU5BU5D_t36* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureFormatter::SetHashAlgorithm(System.String)
-extern "C" void DSASignatureFormatter_SetHashAlgorithm_m14448 (DSASignatureFormatter_t2612 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter_SetHashAlgorithm_m14986 (DSASignatureFormatter_t2656 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureFormatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void DSASignatureFormatter_SetKey_m14449 (DSASignatureFormatter_t2612 * __this, AsymmetricAlgorithm_t1598 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter_SetKey_m14987 (DSASignatureFormatter_t2656 * __this, AsymmetricAlgorithm_t1846 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

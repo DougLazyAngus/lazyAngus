@@ -5,49 +5,49 @@
 #include "codegen/il2cpp-codegen.h"
 
 // BoostButton
-struct BoostButton_t378;
+struct BoostButton_t419;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 
 // System.Void BoostButton::.ctor()
-extern "C" void BoostButton__ctor_m1804 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton__ctor_m2269 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::Start()
-extern "C" void BoostButton_Start_m1805 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_Start_m2270 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::Update()
-extern "C" void BoostButton_Update_m1806 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_Update_m2271 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::RegisterForEvents()
-extern "C" void BoostButton_RegisterForEvents_m1807 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_RegisterForEvents_m2272 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::UnregisterForEvents()
-extern "C" void BoostButton_UnregisterForEvents_m1808 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_UnregisterForEvents_m2273 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnDestroy()
-extern "C" void BoostButton_OnDestroy_m1809 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnDestroy_m2274 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::ConfigureForType(BoostConfig/BoostType)
-extern "C" void BoostButton_ConfigureForType_m1810 (BoostButton_t378 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_ConfigureForType_m2275 (BoostButton_t419 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::RefreshButton()
-extern "C" void BoostButton_RefreshButton_m1811 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_RefreshButton_m2276 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::RefreshForBuyAndUse()
-extern "C" void BoostButton_RefreshForBuyAndUse_m1812 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_RefreshForBuyAndUse_m2277 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::RefreshForBuy()
-extern "C" void BoostButton_RefreshForBuy_m1813 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_RefreshForBuy_m2278 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::RefreshForUse()
-extern "C" void BoostButton_RefreshForUse_m1814 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_RefreshForUse_m2279 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // BoostConfig/BoostType BoostButton::GetBoostType()
-extern "C" int32_t BoostButton_GetBoostType_m1815 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BoostButton_GetBoostType_m2280 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnGameLevelChanged()
-extern "C" void BoostButton_OnGameLevelChanged_m1816 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnGameLevelChanged_m2281 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnGamePhaseChanged()
-extern "C" void BoostButton_OnGamePhaseChanged_m1817 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnGamePhaseChanged_m2282 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::CheckForLevelUnlockEffects()
-extern "C" void BoostButton_CheckForLevelUnlockEffects_m1818 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_CheckForLevelUnlockEffects_m2283 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnBoostsChanged()
-extern "C" void BoostButton_OnBoostsChanged_m1819 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnBoostsChanged_m2284 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnBoostUsageChanged(BoostConfig/BoostType,BoostConfig/BoostType)
-extern "C" void BoostButton_OnBoostUsageChanged_m1820 (BoostButton_t378 * __this, int32_t ___newType, int32_t ___oldType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnBoostUsageChanged_m2285 (BoostButton_t419 * __this, int32_t ___newType, int32_t ___oldType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnTreatsChanged()
-extern "C" void BoostButton_OnTreatsChanged_m1821 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnTreatsChanged_m2286 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnBoostUnlocked(BoostConfig/BoostType)
-extern "C" void BoostButton_OnBoostUnlocked_m1822 (BoostButton_t378 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostButton_OnBoostUnlocked_m2287 (BoostButton_t419 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator BoostButton::TriggerDistortionEffect()
-extern "C" Object_t * BoostButton_TriggerDistortionEffect_m1823 (BoostButton_t378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * BoostButton_TriggerDistortionEffect_m2288 (BoostButton_t419 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

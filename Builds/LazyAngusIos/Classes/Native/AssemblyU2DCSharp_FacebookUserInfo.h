@@ -3,15 +3,15 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct Dictionary_2_t223;
+struct Dictionary_2_t249;
 // System.Action`1<FacebookUserInfo>
-struct Action_1_t227;
+struct Action_1_t253;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GoogleGender
 #include "AssemblyU2DCSharp_GoogleGender.h"
 // FacebookUserInfo
-struct  FacebookUserInfo_t202  : public Object_t
+struct  FacebookUserInfo_t229  : public Object_t
 {
 	// System.String FacebookUserInfo::_id
 	String_t* ____id_0;
@@ -36,11 +36,11 @@ struct  FacebookUserInfo_t202  : public Object_t
 	// GoogleGender FacebookUserInfo::_gender
 	int32_t ____gender_10;
 	// System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D> FacebookUserInfo::profileImages
-	Dictionary_2_t223 * ___profileImages_11;
+	Dictionary_2_t249 * ___profileImages_11;
 	// System.Action`1<FacebookUserInfo> FacebookUserInfo::OnProfileImageLoaded
-	Action_1_t227 * ___OnProfileImageLoaded_12;
+	Action_1_t253 * ___OnProfileImageLoaded_12;
 };
-struct FacebookUserInfo_t202_StaticFields{
+struct FacebookUserInfo_t229_StaticFields{
 	// System.Action`1<FacebookUserInfo> FacebookUserInfo::<>f__am$cacheD
-	Action_1_t227 * ___U3CU3Ef__amU24cacheD_13;
+	Action_1_t253 * ___U3CU3Ef__amU24cacheD_13;
 };

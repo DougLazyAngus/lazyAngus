@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.TypeConverter
-struct TypeConverter_t1464;
+struct TypeConverter_t1953;
 

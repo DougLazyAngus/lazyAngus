@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// FBLikeInfo
-struct FBLikeInfo_t221;
+// FBAppRequest
+struct FBAppRequest_t244;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<FBLikeInfo>
-struct  Predicate_1_t3510  : public MulticastDelegate_t389
+// System.Predicate`1<FBAppRequest>
+struct  Predicate_1_t3560  : public MulticastDelegate_t346
 {
 };

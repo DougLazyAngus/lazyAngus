@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Transform
-struct Transform_t323;
+struct Transform_t364;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // ThrobForEffect
-struct  ThrobForEffect_t469  : public MonoBehaviour_t67
+struct  ThrobForEffect_t507  : public MonoBehaviour_t67
 {
 	// System.Boolean ThrobForEffect::throbbing
 	bool ___throbbing_2;
@@ -18,7 +18,7 @@ struct  ThrobForEffect_t469  : public MonoBehaviour_t67
 	// System.Single ThrobForEffect::throbScale
 	float ___throbScale_5;
 	// UnityEngine.Transform ThrobForEffect::thingToScale
-	Transform_t323 * ___thingToScale_6;
+	Transform_t364 * ___thingToScale_6;
 	// UnityEngine.Vector3 ThrobForEffect::originalScale
-	Vector3_t411  ___originalScale_7;
+	Vector3_t449  ___originalScale_7;
 };

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // FB/AppEvents
-struct  AppEvents_t332  : public Object_t
+struct  AppEvents_t373  : public Object_t
 {
 };

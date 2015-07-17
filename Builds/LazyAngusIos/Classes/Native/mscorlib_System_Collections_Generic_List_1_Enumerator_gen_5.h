@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<FacebookUserInfo>
-struct List_1_t546;
-// FacebookUserInfo
-struct FacebookUserInfo_t202;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t582;
+// System.Object
+struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<FacebookUserInfo>
-struct  Enumerator_t604 
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+struct  Enumerator_t643 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FacebookUserInfo>::l
-	List_1_t546 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<FacebookUserInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Object>::l
+	List_1_t582 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<FacebookUserInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<FacebookUserInfo>::current
-	FacebookUserInfo_t202 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Object>::current
+	Object_t * ___current_3;
 };

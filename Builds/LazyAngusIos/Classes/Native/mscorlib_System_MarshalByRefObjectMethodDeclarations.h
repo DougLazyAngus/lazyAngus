@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MarshalByRefObject
-struct MarshalByRefObject_t1593;
+struct MarshalByRefObject_t2066;
 
 // System.Void System.MarshalByRefObject::.ctor()
-extern "C" void MarshalByRefObject__ctor_m8883 (MarshalByRefObject_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarshalByRefObject__ctor_m11596 (MarshalByRefObject_t2066 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

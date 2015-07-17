@@ -91,8 +91,17 @@ public class AndroidNative {
 		CallAndroidNativeBridge("loadAndroidId");
 	}
 
+	public static void LoadPackagesList () {
+		CallUtility("loadPackagesList");
+	}
 
+	public static void LoadNetworkInfo () {
+		CallUtility("loadNetworkInfo");
+	}
 
+	public static void OpenSettingsPage (string action) {
+		CallUtility("openSettingsPage", action);
+	}
 	
 	//--------------------------------------
 	// Other Features

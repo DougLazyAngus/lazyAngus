@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GP_MatchesSortOrder
-struct  GP_MatchesSortOrder_t133  : public MonoBehaviour_t67
+struct  GP_MatchesSortOrder_t159  : public MonoBehaviour_t67
 {
 };

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.DBNull
-struct DBNull_t2720;
+struct DBNull_t2764;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DBNull
-struct  DBNull_t2720  : public Object_t
+struct  DBNull_t2764  : public Object_t
 {
 };
-struct DBNull_t2720_StaticFields{
+struct DBNull_t2764_StaticFields{
 	// System.DBNull System.DBNull::Value
-	DBNull_t2720 * ___Value_0;
+	DBNull_t2764 * ___Value_0;
 };

@@ -5,11 +5,11 @@ struct String_t;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t73;
 // SocialPlatfromSettings
-struct SocialPlatfromSettings_t110;
+struct SocialPlatfromSettings_t137;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // SocialPlatfromSettings
-struct  SocialPlatfromSettings_t110  : public ScriptableObject_t111
+struct  SocialPlatfromSettings_t137  : public ScriptableObject_t106
 {
 	// System.Boolean SocialPlatfromSettings::showPermitions
 	bool ___showPermitions_7;
@@ -40,7 +40,7 @@ struct  SocialPlatfromSettings_t110  : public ScriptableObject_t111
 	// System.Boolean SocialPlatfromSettings::KeepManifestClean
 	bool ___KeepManifestClean_20;
 };
-struct SocialPlatfromSettings_t110_StaticFields{
+struct SocialPlatfromSettings_t137_StaticFields{
 	// SocialPlatfromSettings SocialPlatfromSettings::instance
-	SocialPlatfromSettings_t110 * ___instance_21;
+	SocialPlatfromSettings_t137 * ___instance_21;
 };

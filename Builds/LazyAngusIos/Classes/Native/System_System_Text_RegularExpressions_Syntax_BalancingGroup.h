@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t1687;
+struct CapturingGroup_t2149;
 // System.Text.RegularExpressions.Syntax.CapturingGroup
 #include "System_System_Text_RegularExpressions_Syntax_CapturingGroup.h"
 // System.Text.RegularExpressions.Syntax.BalancingGroup
-struct  BalancingGroup_t1688  : public CapturingGroup_t1687
+struct  BalancingGroup_t2150  : public CapturingGroup_t2149
 {
 	// System.Text.RegularExpressions.Syntax.CapturingGroup System.Text.RegularExpressions.Syntax.BalancingGroup::balance
-	CapturingGroup_t1687 * ___balance_3;
+	CapturingGroup_t2149 * ___balance_3;
 };

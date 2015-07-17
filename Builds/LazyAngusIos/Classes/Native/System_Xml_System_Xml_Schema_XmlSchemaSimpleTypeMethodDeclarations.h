@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t1990;
+struct XmlSchemaSimpleType_t1550;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
-struct XmlSchemaSimpleTypeContent_t1994;
+struct XmlSchemaSimpleTypeContent_t1555;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
-extern "C" void XmlSchemaSimpleType__ctor_m9401 (XmlSchemaSimpleType_t1990 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleType__ctor_m7567 (XmlSchemaSimpleType_t1550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.cctor()
-extern "C" void XmlSchemaSimpleType__cctor_m9402 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleType__cctor_m7568 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String)
-extern "C" XmlSchemaSimpleType_t1990 * XmlSchemaSimpleType_BuildSchemaType_m9403 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaSimpleType_t1550 * XmlSchemaSimpleType_BuildSchemaType_m7569 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String,System.Boolean,System.Boolean)
-extern "C" XmlSchemaSimpleType_t1990 * XmlSchemaSimpleType_BuildSchemaType_m9404 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, bool ___xdt, bool ___baseXdt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaSimpleType_t1550 * XmlSchemaSimpleType_BuildSchemaType_m7570 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, bool ___xdt, bool ___baseXdt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
-extern "C" void XmlSchemaSimpleType_set_Content_m9405 (XmlSchemaSimpleType_t1990 * __this, XmlSchemaSimpleTypeContent_t1994 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleType_set_Content_m7571 (XmlSchemaSimpleType_t1550 * __this, XmlSchemaSimpleTypeContent_t1555 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

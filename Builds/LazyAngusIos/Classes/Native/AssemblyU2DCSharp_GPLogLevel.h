@@ -5,7 +5,7 @@
 // GPLogLevel
 #include "AssemblyU2DCSharp_GPLogLevel.h"
 // GPLogLevel
-struct  GPLogLevel_t127 
+struct  GPLogLevel_t153 
 {
 	// System.Int32 GPLogLevel::value__
 	int32_t ___value___1;

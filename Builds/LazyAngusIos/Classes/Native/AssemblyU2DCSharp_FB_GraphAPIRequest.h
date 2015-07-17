@@ -9,7 +9,7 @@ struct WWWForm_t70;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
 // FB_GraphAPIRequest
-struct  FB_GraphAPIRequest_t231  : public EventDispatcher_t87
+struct  FB_GraphAPIRequest_t257  : public EventDispatcher_t87
 {
 	// System.Boolean FB_GraphAPIRequest::IsFirst
 	bool ___IsFirst_4;

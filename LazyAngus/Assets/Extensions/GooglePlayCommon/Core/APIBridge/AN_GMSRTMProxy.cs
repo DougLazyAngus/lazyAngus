@@ -20,6 +20,11 @@ public class AN_GMSRTMProxy : MonoBehaviour
         CallActivityFunction("RTMFindMatch", minPlayers, maxPlayers, pIds);
     }
 
+	public static void RTMFindMatch(string[] pIds)
+	{
+		CallActivityFunction("RTMFindMatch", pIds);
+	}
+
     public static void sendDataToAll(string data, int sendType)
     {
         CallActivityFunction("sendDataToAll", data, sendType.ToString());

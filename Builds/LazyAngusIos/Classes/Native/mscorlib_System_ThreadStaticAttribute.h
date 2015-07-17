@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ThreadStaticAttribute
-struct  ThreadStaticAttribute_t1785  : public Attribute_t343
+struct  ThreadStaticAttribute_t2197  : public Attribute_t384
 {
 };

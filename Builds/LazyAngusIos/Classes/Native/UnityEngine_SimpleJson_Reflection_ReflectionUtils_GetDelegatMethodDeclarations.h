@@ -5,22 +5,22 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct GetDelegate_t1154;
+struct GetDelegate_t1199;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/GetDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void GetDelegate__ctor_m6315 (GetDelegate_t1154 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GetDelegate__ctor_m6856 (GetDelegate_t1199 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::Invoke(System.Object)
-extern "C" Object_t * GetDelegate_Invoke_m6316 (GetDelegate_t1154 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" Object_t * pinvoke_delegate_wrapper_GetDelegate_t1154(Il2CppObject* delegate, Object_t * ___source);
+extern "C" Object_t * GetDelegate_Invoke_m6857 (GetDelegate_t1199 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * pinvoke_delegate_wrapper_GetDelegate_t1199(Il2CppObject* delegate, Object_t * ___source);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/GetDelegate::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * GetDelegate_BeginInvoke_m6317 (GetDelegate_t1154 * __this, Object_t * ___source, AsyncCallback_t387 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetDelegate_BeginInvoke_m6858 (GetDelegate_t1199 * __this, Object_t * ___source, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * GetDelegate_EndInvoke_m6318 (GetDelegate_t1154 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetDelegate_EndInvoke_m6859 (GetDelegate_t1199 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
-struct Enumerator_t1749;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
+struct Enumerator_t1348;
 // System.Object
 struct Object_t;
-// System.Net.Cookie
-struct Cookie_t1517;
-// System.Collections.Generic.List`1<System.Net.Cookie>
-struct List_1_t1519;
+// UnityEngine.Events.PersistentCall
+struct PersistentCall_t1262;
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct List_1_t1263;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4MethodDeclarations.h"
-#define Enumerator__ctor_m27321(__this, ___l, method) (( void (*) (Enumerator_t1749 *, List_1_t1519 *, const MethodInfo*))Enumerator__ctor_m16923_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m27322(__this, method) (( Object_t * (*) (Enumerator_t1749 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16924_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::Dispose()
-#define Enumerator_Dispose_m27323(__this, method) (( void (*) (Enumerator_t1749 *, const MethodInfo*))Enumerator_Dispose_m16925_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::VerifyState()
-#define Enumerator_VerifyState_m27324(__this, method) (( void (*) (Enumerator_t1749 *, const MethodInfo*))Enumerator_VerifyState_m16926_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::MoveNext()
-#define Enumerator_MoveNext_m27325(__this, method) (( bool (*) (Enumerator_t1749 *, const MethodInfo*))Enumerator_MoveNext_m2748_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::get_Current()
-#define Enumerator_get_Current_m27326(__this, method) (( Cookie_t1517 * (*) (Enumerator_t1749 *, const MethodInfo*))Enumerator_get_Current_m2747_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
+#define Enumerator__ctor_m28119(__this, ___l, method) (( void (*) (Enumerator_t1348 *, List_1_t1263 *, const MethodInfo*))Enumerator__ctor_m17460_gshared)(__this, ___l, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m28120(__this, method) (( Object_t * (*) (Enumerator_t1348 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17461_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::Dispose()
+#define Enumerator_Dispose_m28121(__this, method) (( void (*) (Enumerator_t1348 *, const MethodInfo*))Enumerator_Dispose_m17462_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::VerifyState()
+#define Enumerator_VerifyState_m28122(__this, method) (( void (*) (Enumerator_t1348 *, const MethodInfo*))Enumerator_VerifyState_m17463_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::MoveNext()
+#define Enumerator_MoveNext_m7241(__this, method) (( bool (*) (Enumerator_t1348 *, const MethodInfo*))Enumerator_MoveNext_m3268_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::get_Current()
+#define Enumerator_get_Current_m7240(__this, method) (( PersistentCall_t1262 * (*) (Enumerator_t1348 *, const MethodInfo*))Enumerator_get_Current_m3267_gshared)(__this, method)

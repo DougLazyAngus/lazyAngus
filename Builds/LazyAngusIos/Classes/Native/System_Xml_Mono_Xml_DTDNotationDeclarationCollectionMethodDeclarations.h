@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDNotationDeclarationCollection
-struct DTDNotationDeclarationCollection_t2012;
+struct DTDNotationDeclarationCollection_t1575;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t2006;
+struct DTDObjectModel_t1568;
 // System.String
 struct String_t;
 // Mono.Xml.DTDNotationDeclaration
-struct DTDNotationDeclaration_t2029;
+struct DTDNotationDeclaration_t1592;
 
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDNotationDeclarationCollection__ctor_m9477 (DTDNotationDeclarationCollection_t2012 * __this, DTDObjectModel_t2006 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclarationCollection__ctor_m7643 (DTDNotationDeclarationCollection_t1575 * __this, DTDObjectModel_t1568 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::Add(System.String,Mono.Xml.DTDNotationDeclaration)
-extern "C" void DTDNotationDeclarationCollection_Add_m9478 (DTDNotationDeclarationCollection_t2012 * __this, String_t* ___name, DTDNotationDeclaration_t2029 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclarationCollection_Add_m7644 (DTDNotationDeclarationCollection_t1575 * __this, String_t* ___name, DTDNotationDeclaration_t1592 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

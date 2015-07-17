@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>
-struct InternalEnumerator_1_t4119;
+struct InternalEnumerator_1_t4184;
 // System.Object
 struct Object_t;
 // System.Reflection.Emit.ParameterBuilder
-struct ParameterBuilder_t2442;
+struct ParameterBuilder_t2486;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m28108(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4119 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16818_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m29130(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4184 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17355_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28109(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4119 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16819_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29131(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4184 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17356_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::Dispose()
-#define InternalEnumerator_1_Dispose_m28110(__this, method) (( void (*) (InternalEnumerator_1_t4119 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16820_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m29132(__this, method) (( void (*) (InternalEnumerator_1_t4184 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17357_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m28111(__this, method) (( bool (*) (InternalEnumerator_1_t4119 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16821_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m29133(__this, method) (( bool (*) (InternalEnumerator_1_t4184 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17358_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::get_Current()
-#define InternalEnumerator_1_get_Current_m28112(__this, method) (( ParameterBuilder_t2442 * (*) (InternalEnumerator_1_t4119 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16822_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m29134(__this, method) (( ParameterBuilder_t2486 * (*) (InternalEnumerator_1_t4184 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17359_gshared)(__this, method)

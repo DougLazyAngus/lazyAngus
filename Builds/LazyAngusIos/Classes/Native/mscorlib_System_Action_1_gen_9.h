@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// TW_APIRequstResult
-struct TW_APIRequstResult_t254;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
+// InstagramPostResult
+#include "AssemblyU2DCSharp_InstagramPostResult.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<TW_APIRequstResult>
-struct  Action_1_t268  : public MulticastDelegate_t389
+// System.Action`1<InstagramPostResult>
+struct  Action_1_t263  : public MulticastDelegate_t346
 {
 };

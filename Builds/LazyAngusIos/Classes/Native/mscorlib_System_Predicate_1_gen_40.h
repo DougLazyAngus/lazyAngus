@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.RectTransform
-struct RectTransform_t533;
+// UnityEngine.UI.StencilMaterial/MatEntry
+struct MatEntry_t867;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.RectTransform>
-struct  Predicate_1_t3801  : public MulticastDelegate_t389
+// System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  Predicate_1_t3849  : public MulticastDelegate_t346
 {
 };

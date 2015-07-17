@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.SerializationEntry
-struct SerializationEntry_t2602;
+struct SerializationEntry_t2646;
 // System.String
 struct String_t;
 // System.Object
@@ -14,8 +14,8 @@ struct Object_t;
 struct Type_t;
 
 // System.Void System.Runtime.Serialization.SerializationEntry::.ctor(System.String,System.Type,System.Object)
-extern "C" void SerializationEntry__ctor_m14361 (SerializationEntry_t2602 * __this, String_t* ___name, Type_t * ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationEntry__ctor_m14899 (SerializationEntry_t2646 * __this, String_t* ___name, Type_t * ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Serialization.SerializationEntry::get_Name()
-extern "C" String_t* SerializationEntry_get_Name_m14362 (SerializationEntry_t2602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SerializationEntry_get_Name_m14900 (SerializationEntry_t2646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.SerializationEntry::get_Value()
-extern "C" Object_t * SerializationEntry_get_Value_m14363 (SerializationEntry_t2602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SerializationEntry_get_Value_m14901 (SerializationEntry_t2646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

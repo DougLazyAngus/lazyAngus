@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// TwitterApplicationOnlyToken
-struct TwitterApplicationOnlyToken_t245;
+// SPFacebook
+struct SPFacebook_t240;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
-// SA_Singleton`1<TwitterApplicationOnlyToken>
-struct  SA_Singleton_1_t247  : public EventDispatcher_t87
+// SA_Singleton`1<SPFacebook>
+struct  SA_Singleton_1_t241  : public EventDispatcher_t87
 {
 };
-struct SA_Singleton_1_t247_StaticFields{
-	// T SA_Singleton`1<TwitterApplicationOnlyToken>::_instance
-	TwitterApplicationOnlyToken_t245 * ____instance_4;
-	// System.Boolean SA_Singleton`1<TwitterApplicationOnlyToken>::applicationIsQuitting
+struct SA_Singleton_1_t241_StaticFields{
+	// T SA_Singleton`1<SPFacebook>::_instance
+	SPFacebook_t240 * ____instance_4;
+	// System.Boolean SA_Singleton`1<SPFacebook>::applicationIsQuitting
 	bool ___applicationIsQuitting_5;
 };

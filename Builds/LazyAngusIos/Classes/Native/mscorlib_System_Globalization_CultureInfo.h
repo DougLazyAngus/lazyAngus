@@ -1,37 +1,37 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct CultureInfo_t614;
+struct CultureInfo_t665;
 // System.Object
 struct Object_t;
 // System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct NumberFormatInfo_t369;
+struct NumberFormatInfo_t410;
 // System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct DateTimeFormatInfo_t2392;
+struct DateTimeFormatInfo_t2436;
 // System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct TextInfo_t2305;
+struct TextInfo_t2349;
 // System.String
 struct String_t;
 // System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct CompareInfo_t1750;
+struct CompareInfo_t1671;
 // System.Globalization.Calendar[]
-struct CalendarU5BU5D_t2393;
+struct CalendarU5BU5D_t2437;
 // System.Globalization.CultureInfo
-struct CultureInfo_t614;
+struct CultureInfo_t665;
 // System.Globalization.Calendar
-struct Calendar_t2387;
+struct Calendar_t2431;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Collections.Hashtable
-struct Hashtable_t1446;
+struct Hashtable_t1569;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t154;
+struct Dictionary_2_t181;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.Globalization.CultureInfo
-struct  CultureInfo_t614  : public Object_t
+struct  CultureInfo_t665  : public Object_t
 {
 	// System.Boolean System.Globalization.CultureInfo::m_isReadOnly
 	bool ___m_isReadOnly_7;
@@ -48,11 +48,11 @@ struct  CultureInfo_t614  : public Object_t
 	// System.Boolean System.Globalization.CultureInfo::m_useUserOverride
 	bool ___m_useUserOverride_13;
 	// System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::numInfo
-	NumberFormatInfo_t369 * ___numInfo_14;
+	NumberFormatInfo_t410 * ___numInfo_14;
 	// System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::dateTimeInfo
-	DateTimeFormatInfo_t2392 * ___dateTimeInfo_15;
+	DateTimeFormatInfo_t2436 * ___dateTimeInfo_15;
 	// System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::textInfo
-	TextInfo_t2305 * ___textInfo_16;
+	TextInfo_t2349 * ___textInfo_16;
 	// System.String System.Globalization.CultureInfo::m_name
 	String_t* ___m_name_17;
 	// System.String System.Globalization.CultureInfo::displayname
@@ -72,27 +72,27 @@ struct  CultureInfo_t614  : public Object_t
 	// System.String System.Globalization.CultureInfo::territory
 	String_t* ___territory_25;
 	// System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::compareInfo
-	CompareInfo_t1750 * ___compareInfo_26;
+	CompareInfo_t1671 * ___compareInfo_26;
 	// System.Int32* System.Globalization.CultureInfo::calendar_data
 	int32_t* ___calendar_data_27;
 	// System.Void* System.Globalization.CultureInfo::textinfo_data
 	void* ___textinfo_data_28;
 	// System.Globalization.Calendar[] System.Globalization.CultureInfo::optional_calendars
-	CalendarU5BU5D_t2393* ___optional_calendars_29;
+	CalendarU5BU5D_t2437* ___optional_calendars_29;
 	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
-	CultureInfo_t614 * ___parent_culture_30;
+	CultureInfo_t665 * ___parent_culture_30;
 	// System.Int32 System.Globalization.CultureInfo::m_dataItem
 	int32_t ___m_dataItem_31;
 	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
-	Calendar_t2387 * ___calendar_32;
+	Calendar_t2431 * ___calendar_32;
 	// System.Boolean System.Globalization.CultureInfo::constructed
 	bool ___constructed_33;
 	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form
 	ByteU5BU5D_t36* ___cached_serialized_form_34;
 };
-struct CultureInfo_t614_StaticFields{
+struct CultureInfo_t665_StaticFields{
 	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
-	CultureInfo_t614 * ___invariant_culture_info_4;
+	CultureInfo_t665 * ___invariant_culture_info_4;
 	// System.Object System.Globalization.CultureInfo::shared_table_lock
 	Object_t * ___shared_table_lock_5;
 	// System.Int32 System.Globalization.CultureInfo::BootstrapCultureID
@@ -100,11 +100,11 @@ struct CultureInfo_t614_StaticFields{
 	// System.String System.Globalization.CultureInfo::MSG_READONLY
 	String_t* ___MSG_READONLY_35;
 	// System.Collections.Hashtable System.Globalization.CultureInfo::shared_by_number
-	Hashtable_t1446 * ___shared_by_number_36;
+	Hashtable_t1569 * ___shared_by_number_36;
 	// System.Collections.Hashtable System.Globalization.CultureInfo::shared_by_name
-	Hashtable_t1446 * ___shared_by_name_37;
+	Hashtable_t1569 * ___shared_by_name_37;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Globalization.CultureInfo::<>f__switch$map19
-	Dictionary_2_t154 * ___U3CU3Ef__switchU24map19_38;
+	Dictionary_2_t181 * ___U3CU3Ef__switchU24map19_38;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Globalization.CultureInfo::<>f__switch$map1A
-	Dictionary_2_t154 * ___U3CU3Ef__switchU24map1A_39;
+	Dictionary_2_t181 * ___U3CU3Ef__switchU24map1A_39;
 };

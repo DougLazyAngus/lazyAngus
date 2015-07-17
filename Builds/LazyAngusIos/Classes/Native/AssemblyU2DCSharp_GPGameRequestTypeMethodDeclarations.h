@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPGameRequestType
-struct GPGameRequestType_t126;
+struct GPGameRequestType_t152;
 

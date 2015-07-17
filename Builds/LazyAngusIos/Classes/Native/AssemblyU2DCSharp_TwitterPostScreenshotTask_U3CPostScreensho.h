@@ -5,11 +5,11 @@ struct Texture2D_t65;
 // System.Object
 struct Object_t;
 // TwitterPostScreenshotTask
-struct TwitterPostScreenshotTask_t306;
+struct TwitterPostScreenshotTask_t332;
 // System.Object
 #include "mscorlib_System_Object.h"
 // TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC
-struct  U3CPostScreenshotU3Ec__IteratorC_t307  : public Object_t
+struct  U3CPostScreenshotU3Ec__IteratorC_t333  : public Object_t
 {
 	// System.Int32 TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC::<width>__0
 	int32_t ___U3CwidthU3E__0_0;
@@ -22,5 +22,5 @@ struct  U3CPostScreenshotU3Ec__IteratorC_t307  : public Object_t
 	// System.Object TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC::$current
 	Object_t * ___U24current_4;
 	// TwitterPostScreenshotTask TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC::<>f__this
-	TwitterPostScreenshotTask_t306 * ___U3CU3Ef__this_5;
+	TwitterPostScreenshotTask_t332 * ___U3CU3Ef__this_5;
 };

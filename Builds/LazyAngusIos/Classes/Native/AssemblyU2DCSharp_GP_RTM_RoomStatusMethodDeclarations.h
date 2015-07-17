@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_RTM_RoomStatus
-struct GP_RTM_RoomStatus_t137;
+struct GP_RTM_RoomStatus_t163;
 

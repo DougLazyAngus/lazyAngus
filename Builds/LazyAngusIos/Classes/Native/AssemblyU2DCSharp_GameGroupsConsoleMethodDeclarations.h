@@ -7,16 +7,16 @@
 // GameGroupsConsole
 struct GameGroupsConsole_t69;
 // FBResult
-struct FBResult_t213;
+struct FBResult_t239;
 
 // System.Void GameGroupsConsole::.ctor()
 extern "C" void GameGroupsConsole__ctor_m270 (GameGroupsConsole_t69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameGroupsConsole::GroupCreateCB(FBResult)
-extern "C" void GameGroupsConsole_GroupCreateCB_m271 (GameGroupsConsole_t69 * __this, FBResult_t213 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameGroupsConsole_GroupCreateCB_m271 (GameGroupsConsole_t69 * __this, FBResult_t239 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameGroupsConsole::GroupDeleteCB(FBResult)
-extern "C" void GameGroupsConsole_GroupDeleteCB_m272 (GameGroupsConsole_t69 * __this, FBResult_t213 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameGroupsConsole_GroupDeleteCB_m272 (GameGroupsConsole_t69 * __this, FBResult_t239 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameGroupsConsole::GetAllGroupsCB(FBResult)
-extern "C" void GameGroupsConsole_GetAllGroupsCB_m273 (GameGroupsConsole_t69 * __this, FBResult_t213 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameGroupsConsole_GetAllGroupsCB_m273 (GameGroupsConsole_t69 * __this, FBResult_t239 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameGroupsConsole::CallFbGetAllOwnedGroups()
 extern "C" void GameGroupsConsole_CallFbGetAllOwnedGroups_m274 (GameGroupsConsole_t69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameGroupsConsole::CallFbGetUserGroups()

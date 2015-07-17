@@ -9,7 +9,7 @@ struct Texture2D_t65;
 // GP_QuestState
 #include "AssemblyU2DCSharp_GP_QuestState.h"
 // GP_Quest
-struct  GP_Quest_t169  : public Object_t
+struct  GP_Quest_t196  : public Object_t
 {
 	// System.String GP_Quest::Id
 	String_t* ___Id_0;

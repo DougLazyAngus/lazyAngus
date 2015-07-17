@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t284;
+struct GameObject_t310;
 // ConeOfViewRenderer
-struct ConeOfViewRenderer_t401;
+struct ConeOfViewRenderer_t439;
 // HeadMovement
-struct HeadMovement_t434;
+struct HeadMovement_t472;
 // TipConfig
-struct TipConfig_t393;
+struct TipConfig_t431;
 // PlayerController
-struct PlayerController_t489;
+struct PlayerController_t527;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerController/BodyMovementType
@@ -17,20 +17,20 @@ struct PlayerController_t489;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PlayerController
-struct  PlayerController_t489  : public MonoBehaviour_t67
+struct  PlayerController_t527  : public MonoBehaviour_t67
 {
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
-	GameObject_t284 * ___rightPawGameObject_3;
+	GameObject_t310 * ___rightPawGameObject_3;
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
-	GameObject_t284 * ___leftPawGameObject_4;
+	GameObject_t310 * ___leftPawGameObject_4;
 	// ConeOfViewRenderer PlayerController::coneOfView
-	ConeOfViewRenderer_t401 * ___coneOfView_5;
+	ConeOfViewRenderer_t439 * ___coneOfView_5;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t434 * ___headMovement_6;
+	HeadMovement_t472 * ___headMovement_6;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
-	GameObject_t284 * ___fartPuffPrototype_7;
+	GameObject_t310 * ___fartPuffPrototype_7;
 	// UnityEngine.GameObject PlayerController::butthole
-	GameObject_t284 * ___butthole_8;
+	GameObject_t310 * ___butthole_8;
 	// PlayerController/BodyMovementType PlayerController::bodyMovement
 	int32_t ___bodyMovement_9;
 	// System.Single PlayerController::targetTurnAngleDegrees
@@ -38,13 +38,13 @@ struct  PlayerController_t489  : public MonoBehaviour_t67
 	// System.Single PlayerController::currentTurnAngleDegrees
 	float ___currentTurnAngleDegrees_11;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t411  ___dragAnchorCat_12;
+	Vector3_t449  ___dragAnchorCat_12;
 	// System.Single PlayerController::dragAnchorAngleCat
 	float ___dragAnchorAngleCat_13;
 	// System.Boolean PlayerController::registeredForEvents
 	bool ___registeredForEvents_14;
 	// TipConfig PlayerController::turningTip
-	TipConfig_t393 * ___turningTip_15;
+	TipConfig_t431 * ___turningTip_15;
 	// System.Single PlayerController::turningTipPause
 	float ___turningTipPause_16;
 	// System.Single PlayerController::lastFartTime
@@ -52,7 +52,7 @@ struct  PlayerController_t489  : public MonoBehaviour_t67
 	// System.Single PlayerController::fartPause
 	float ___fartPause_18;
 };
-struct PlayerController_t489_StaticFields{
+struct PlayerController_t527_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t489 * ___U3CinstanceU3Ek__BackingField_19;
+	PlayerController_t527 * ___U3CinstanceU3Ek__BackingField_19;
 };

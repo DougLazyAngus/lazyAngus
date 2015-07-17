@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MSPFacebookUseExample/<PostScreenshot>c__Iterator7
-struct  U3CPostScreenshotU3Ec__Iterator7_t279  : public Object_t
+struct  U3CPostScreenshotU3Ec__Iterator7_t305  : public Object_t
 {
 	// System.Int32 MSPFacebookUseExample/<PostScreenshot>c__Iterator7::<width>__0
 	int32_t ___U3CwidthU3E__0_0;

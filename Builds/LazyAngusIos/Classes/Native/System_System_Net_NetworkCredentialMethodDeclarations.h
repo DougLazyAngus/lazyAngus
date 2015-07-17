@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.NetworkCredential
-struct NetworkCredential_t1554;
+struct NetworkCredential_t2032;
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t603;
+struct Uri_t654;
 
 // System.String System.Net.NetworkCredential::get_Domain()
-extern "C" String_t* NetworkCredential_get_Domain_m7729 (NetworkCredential_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NetworkCredential_get_Domain_m10535 (NetworkCredential_t2032 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.NetworkCredential::get_UserName()
-extern "C" String_t* NetworkCredential_get_UserName_m7730 (NetworkCredential_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NetworkCredential_get_UserName_m10536 (NetworkCredential_t2032 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.NetworkCredential::get_Password()
-extern "C" String_t* NetworkCredential_get_Password_m7731 (NetworkCredential_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NetworkCredential_get_Password_m10537 (NetworkCredential_t2032 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.NetworkCredential System.Net.NetworkCredential::GetCredential(System.Uri,System.String)
-extern "C" NetworkCredential_t1554 * NetworkCredential_GetCredential_m7732 (NetworkCredential_t1554 * __this, Uri_t603 * ___uri, String_t* ___authType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NetworkCredential_t2032 * NetworkCredential_GetCredential_m10538 (NetworkCredential_t2032 * __this, Uri_t654 * ___uri, String_t* ___authType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

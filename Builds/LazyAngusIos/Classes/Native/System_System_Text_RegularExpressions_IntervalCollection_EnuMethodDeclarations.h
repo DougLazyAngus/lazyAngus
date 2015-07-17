@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.IntervalCollection/Enumerator
-struct Enumerator_t1677;
+struct Enumerator_t2139;
 // System.Object
 struct Object_t;
 // System.Collections.IList
-struct IList_t545;
+struct IList_t584;
 
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::.ctor(System.Collections.IList)
-extern "C" void Enumerator__ctor_m8441 (Enumerator_t1677 * __this, Object_t * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m11228 (Enumerator_t2139 * __this, Object_t * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.IntervalCollection/Enumerator::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m8442 (Enumerator_t1677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Current_m11229 (Enumerator_t2139 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.IntervalCollection/Enumerator::MoveNext()
-extern "C" bool Enumerator_MoveNext_m8443 (Enumerator_t1677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_MoveNext_m11230 (Enumerator_t2139 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::Reset()
-extern "C" void Enumerator_Reset_m8444 (Enumerator_t1677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator_Reset_m11231 (Enumerator_t2139 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

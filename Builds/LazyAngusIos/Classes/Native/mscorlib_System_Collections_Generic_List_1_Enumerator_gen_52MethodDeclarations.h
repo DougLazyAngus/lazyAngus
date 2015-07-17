@@ -4,30 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct Enumerator_t4075;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>
+struct Enumerator_t4086;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct List_1_t4074;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
+// UnityEngine.Events.BaseInvokableCall
+struct BaseInvokableCall_t1259;
+// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
+struct List_1_t1265;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C" void Enumerator__ctor_m27809_gshared (Enumerator_t4075 * __this, List_1_t4074 * ___l, const MethodInfo* method);
-#define Enumerator__ctor_m27809(__this, ___l, method) (( void (*) (Enumerator_t4075 *, List_1_t4074 *, const MethodInfo*))Enumerator__ctor_m27809_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m27810_gshared (Enumerator_t4075 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m27810(__this, method) (( Object_t * (*) (Enumerator_t4075 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m27810_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Dispose()
-extern "C" void Enumerator_Dispose_m27811_gshared (Enumerator_t4075 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m27811(__this, method) (( void (*) (Enumerator_t4075 *, const MethodInfo*))Enumerator_Dispose_m27811_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::VerifyState()
-extern "C" void Enumerator_VerifyState_m27812_gshared (Enumerator_t4075 * __this, const MethodInfo* method);
-#define Enumerator_VerifyState_m27812(__this, method) (( void (*) (Enumerator_t4075 *, const MethodInfo*))Enumerator_VerifyState_m27812_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m27813_gshared (Enumerator_t4075 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m27813(__this, method) (( bool (*) (Enumerator_t4075 *, const MethodInfo*))Enumerator_MoveNext_m27813_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::get_Current()
-extern "C" KeyValuePair_2_t40  Enumerator_get_Current_m27814_gshared (Enumerator_t4075 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m27814(__this, method) (( KeyValuePair_2_t40  (*) (Enumerator_t4075 *, const MethodInfo*))Enumerator_get_Current_m27814_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
+#define Enumerator__ctor_m28208(__this, ___l, method) (( void (*) (Enumerator_t4086 *, List_1_t1265 *, const MethodInfo*))Enumerator__ctor_m17460_gshared)(__this, ___l, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m28209(__this, method) (( Object_t * (*) (Enumerator_t4086 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17461_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::Dispose()
+#define Enumerator_Dispose_m28210(__this, method) (( void (*) (Enumerator_t4086 *, const MethodInfo*))Enumerator_Dispose_m17462_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::VerifyState()
+#define Enumerator_VerifyState_m28211(__this, method) (( void (*) (Enumerator_t4086 *, const MethodInfo*))Enumerator_VerifyState_m17463_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::MoveNext()
+#define Enumerator_MoveNext_m28212(__this, method) (( bool (*) (Enumerator_t4086 *, const MethodInfo*))Enumerator_MoveNext_m3268_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::get_Current()
+#define Enumerator_get_Current_m28213(__this, method) (( BaseInvokableCall_t1259 * (*) (Enumerator_t4086 *, const MethodInfo*))Enumerator_get_Current_m3267_gshared)(__this, method)

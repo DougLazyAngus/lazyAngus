@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // System.Xml.XmlNodeChangedEventArgs
-struct XmlNodeChangedEventArgs_t2077;
+struct XmlNodeChangedEventArgs_t1641;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.XmlNodeChangedEventHandler
-struct  XmlNodeChangedEventHandler_t2057  : public MulticastDelegate_t389
+struct  XmlNodeChangedEventHandler_t1620  : public MulticastDelegate_t346
 {
 };

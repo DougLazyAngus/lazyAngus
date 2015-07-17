@@ -5,7 +5,7 @@
 // GP_InvitationType
 #include "AssemblyU2DCSharp_GP_InvitationType.h"
 // GP_InvitationType
-struct  GP_InvitationType_t132 
+struct  GP_InvitationType_t158 
 {
 	// System.Int32 GP_InvitationType::value__
 	int32_t ___value___1;

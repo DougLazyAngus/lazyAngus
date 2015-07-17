@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t595;
+// System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>
+struct Dictionary_2_t117;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>
+// System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBLikeInfo>
-struct  Enumerator_t594 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>
+struct  Enumerator_t630 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBLikeInfo>::dictionary
-	Dictionary_2_t595 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBLikeInfo>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::dictionary
+	Dictionary_2_t117 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBLikeInfo>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FBLikeInfo>::current
-	KeyValuePair_2_t593  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::current
+	KeyValuePair_2_t629  ___current_3;
 };

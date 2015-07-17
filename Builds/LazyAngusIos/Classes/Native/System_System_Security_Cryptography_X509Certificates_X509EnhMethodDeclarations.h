@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
-struct X509EnhancedKeyUsageExtension_t1625;
+struct X509EnhancedKeyUsageExtension_t2092;
 // System.Security.Cryptography.OidCollection
-struct OidCollection_t1623;
+struct OidCollection_t2090;
 // System.Security.Cryptography.AsnEncodedData
-struct AsnEncodedData_t1599;
+struct AsnEncodedData_t2071;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
@@ -18,12 +18,12 @@ struct String_t;
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
-extern "C" void X509EnhancedKeyUsageExtension__ctor_m8141 (X509EnhancedKeyUsageExtension_t1625 * __this, AsnEncodedData_t1599 * ___encodedEnhancedKeyUsages, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509EnhancedKeyUsageExtension__ctor_m10933 (X509EnhancedKeyUsageExtension_t2092 * __this, AsnEncodedData_t2071 * ___encodedEnhancedKeyUsages, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::get_EnhancedKeyUsages()
-extern "C" OidCollection_t1623 * X509EnhancedKeyUsageExtension_get_EnhancedKeyUsages_m8142 (X509EnhancedKeyUsageExtension_t1625 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" OidCollection_t2090 * X509EnhancedKeyUsageExtension_get_EnhancedKeyUsages_m10934 (X509EnhancedKeyUsageExtension_t2092 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
-extern "C" void X509EnhancedKeyUsageExtension_CopyFrom_m8143 (X509EnhancedKeyUsageExtension_t1625 * __this, AsnEncodedData_t1599 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509EnhancedKeyUsageExtension_CopyFrom_m10935 (X509EnhancedKeyUsageExtension_t2092 * __this, AsnEncodedData_t2071 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::Decode(System.Byte[])
-extern "C" int32_t X509EnhancedKeyUsageExtension_Decode_m8144 (X509EnhancedKeyUsageExtension_t1625 * __this, ByteU5BU5D_t36* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509EnhancedKeyUsageExtension_Decode_m10936 (X509EnhancedKeyUsageExtension_t2092 * __this, ByteU5BU5D_t36* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::ToString(System.Boolean)
-extern "C" String_t* X509EnhancedKeyUsageExtension_ToString_m8145 (X509EnhancedKeyUsageExtension_t1625 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509EnhancedKeyUsageExtension_ToString_m10937 (X509EnhancedKeyUsageExtension_t2092 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;

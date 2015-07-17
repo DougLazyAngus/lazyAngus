@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.OperatingSystem
-struct OperatingSystem_t2737;
+struct OperatingSystem_t2781;
 // System.Version
-struct Version_t1560;
+struct Version_t2038;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1255;
+struct SerializationInfo_t1299;
 // System.String
 struct String_t;
 // System.PlatformID
@@ -18,10 +18,10 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OperatingSystem::.ctor(System.PlatformID,System.Version)
-extern "C" void OperatingSystem__ctor_m15758 (OperatingSystem_t2737 * __this, int32_t ___platform, Version_t1560 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem__ctor_m16296 (OperatingSystem_t2781 * __this, int32_t ___platform, Version_t2038 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.PlatformID System.OperatingSystem::get_Platform()
-extern "C" int32_t OperatingSystem_get_Platform_m15759 (OperatingSystem_t2737 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OperatingSystem_get_Platform_m16297 (OperatingSystem_t2781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OperatingSystem::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OperatingSystem_GetObjectData_m15760 (OperatingSystem_t2737 * __this, SerializationInfo_t1255 * ___info, StreamingContext_t1256  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem_GetObjectData_m16298 (OperatingSystem_t2781 * __this, SerializationInfo_t1299 * ___info, StreamingContext_t1300  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.OperatingSystem::ToString()
-extern "C" String_t* OperatingSystem_ToString_m15761 (OperatingSystem_t2737 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OperatingSystem_ToString_m16299 (OperatingSystem_t2781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

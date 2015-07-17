@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t3635;
+// System.Int32[]
+struct Int32U5BU5D_t493;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t685  : public Object_t
+// System.Collections.Generic.List`1<System.Int32>
+struct  List_1_t694  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
-	BaseInputModuleU5BU5D_t3635* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
+	// T[] System.Collections.Generic.List`1<System.Int32>::_items
+	Int32U5BU5D_t493* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_version
 	int32_t ____version_3;
 };
-struct List_1_t685_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
-	BaseInputModuleU5BU5D_t3635* ___EmptyArray_4;
+struct List_1_t694_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Int32>::EmptyArray
+	Int32U5BU5D_t493* ___EmptyArray_4;
 };

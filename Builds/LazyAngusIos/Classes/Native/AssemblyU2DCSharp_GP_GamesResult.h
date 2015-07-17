@@ -5,7 +5,7 @@ struct String_t;
 // GooglePlayResult
 #include "AssemblyU2DCSharp_GooglePlayResult.h"
 // GP_GamesResult
-struct  GP_GamesResult_t171  : public GooglePlayResult_t167
+struct  GP_GamesResult_t198  : public GooglePlayResult_t194
 {
 	// System.String GP_GamesResult::leaderboardId
 	String_t* ___leaderboardId_2;

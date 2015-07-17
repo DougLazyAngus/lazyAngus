@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.NativeEventCalls
-struct NativeEventCalls_t2696;
+struct NativeEventCalls_t2740;
 // System.String
 struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.IntPtr System.Threading.NativeEventCalls::CreateEvent_internal(System.Boolean,System.Boolean,System.String,System.Boolean&)
-extern "C" IntPtr_t NativeEventCalls_CreateEvent_internal_m15057 (Object_t * __this /* static, unused */, bool ___manual, bool ___initial, String_t* ___name, bool* ___created, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t NativeEventCalls_CreateEvent_internal_m15595 (Object_t * __this /* static, unused */, bool ___manual, bool ___initial, String_t* ___name, bool* ___created, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.NativeEventCalls::SetEvent_internal(System.IntPtr)
-extern "C" bool NativeEventCalls_SetEvent_internal_m15058 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NativeEventCalls_SetEvent_internal_m15596 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.NativeEventCalls::ResetEvent_internal(System.IntPtr)
-extern "C" bool NativeEventCalls_ResetEvent_internal_m15059 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NativeEventCalls_ResetEvent_internal_m15597 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.NativeEventCalls::CloseEvent_internal(System.IntPtr)
-extern "C" void NativeEventCalls_CloseEvent_internal_m15060 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NativeEventCalls_CloseEvent_internal_m15598 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDParameterEntityDeclaration
-struct DTDParameterEntityDeclaration_t2030;
+struct DTDParameterEntityDeclaration_t1593;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t2006;
+struct DTDObjectModel_t1568;
 
 // System.Void Mono.Xml.DTDParameterEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDParameterEntityDeclaration__ctor_m9557 (DTDParameterEntityDeclaration_t2030 * __this, DTDObjectModel_t2006 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclaration__ctor_m7723 (DTDParameterEntityDeclaration_t1593 * __this, DTDObjectModel_t1568 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;

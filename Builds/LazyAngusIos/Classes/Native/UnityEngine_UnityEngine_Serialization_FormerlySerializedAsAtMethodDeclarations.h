@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Serialization.FormerlySerializedAsAttribute
-struct FormerlySerializedAsAttribute_t952;
+struct FormerlySerializedAsAttribute_t998;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.Serialization.FormerlySerializedAsAttribute::.ctor(System.String)
-extern "C" void FormerlySerializedAsAttribute__ctor_m5059 (FormerlySerializedAsAttribute_t952 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormerlySerializedAsAttribute__ctor_m5601 (FormerlySerializedAsAttribute_t998 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

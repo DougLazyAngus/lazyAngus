@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.IPAddress
-struct IPAddress_t1571;
+struct IPAddress_t2048;
 // System.UInt16[]
-struct UInt16U5BU5D_t1570;
+struct UInt16U5BU5D_t2047;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -18,42 +18,42 @@ struct Object_t;
 #include "System_System_Net_Sockets_AddressFamily.h"
 
 // System.Void System.Net.IPAddress::.ctor(System.Int64)
-extern "C" void IPAddress__ctor_m7671 (IPAddress_t1571 * __this, int64_t ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPAddress__ctor_m10477 (IPAddress_t2048 * __this, int64_t ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.IPAddress::.ctor(System.UInt16[],System.Int64)
-extern "C" void IPAddress__ctor_m7672 (IPAddress_t1571 * __this, UInt16U5BU5D_t1570* ___address, int64_t ___scopeId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPAddress__ctor_m10478 (IPAddress_t2048 * __this, UInt16U5BU5D_t2047* ___address, int64_t ___scopeId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.IPAddress::.cctor()
-extern "C" void IPAddress__cctor_m7673 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPAddress__cctor_m10479 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Net.IPAddress::SwapShort(System.Int16)
-extern "C" int16_t IPAddress_SwapShort_m7674 (Object_t * __this /* static, unused */, int16_t ___number, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t IPAddress_SwapShort_m10480 (Object_t * __this /* static, unused */, int16_t ___number, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Net.IPAddress::HostToNetworkOrder(System.Int16)
-extern "C" int16_t IPAddress_HostToNetworkOrder_m7675 (Object_t * __this /* static, unused */, int16_t ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t IPAddress_HostToNetworkOrder_m10481 (Object_t * __this /* static, unused */, int16_t ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Net.IPAddress::NetworkToHostOrder(System.Int16)
-extern "C" int16_t IPAddress_NetworkToHostOrder_m7676 (Object_t * __this /* static, unused */, int16_t ___network, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t IPAddress_NetworkToHostOrder_m10482 (Object_t * __this /* static, unused */, int16_t ___network, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPAddress System.Net.IPAddress::Parse(System.String)
-extern "C" IPAddress_t1571 * IPAddress_Parse_m7677 (Object_t * __this /* static, unused */, String_t* ___ipString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPAddress_t2048 * IPAddress_Parse_m10483 (Object_t * __this /* static, unused */, String_t* ___ipString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.IPAddress::TryParse(System.String,System.Net.IPAddress&)
-extern "C" bool IPAddress_TryParse_m7678 (Object_t * __this /* static, unused */, String_t* ___ipString, IPAddress_t1571 ** ___address, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool IPAddress_TryParse_m10484 (Object_t * __this /* static, unused */, String_t* ___ipString, IPAddress_t2048 ** ___address, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPAddress System.Net.IPAddress::ParseIPV4(System.String)
-extern "C" IPAddress_t1571 * IPAddress_ParseIPV4_m7679 (Object_t * __this /* static, unused */, String_t* ___ip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPAddress_t2048 * IPAddress_ParseIPV4_m10485 (Object_t * __this /* static, unused */, String_t* ___ip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPAddress System.Net.IPAddress::ParseIPV6(System.String)
-extern "C" IPAddress_t1571 * IPAddress_ParseIPV6_m7680 (Object_t * __this /* static, unused */, String_t* ___ip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPAddress_t2048 * IPAddress_ParseIPV6_m10486 (Object_t * __this /* static, unused */, String_t* ___ip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.IPAddress::get_InternalIPv4Address()
-extern "C" int64_t IPAddress_get_InternalIPv4Address_m7681 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t IPAddress_get_InternalIPv4Address_m10487 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.IPAddress::get_ScopeId()
-extern "C" int64_t IPAddress_get_ScopeId_m7682 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t IPAddress_get_ScopeId_m10488 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Net.IPAddress::GetAddressBytes()
-extern "C" ByteU5BU5D_t36* IPAddress_GetAddressBytes_m7683 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* IPAddress_GetAddressBytes_m10489 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.AddressFamily System.Net.IPAddress::get_AddressFamily()
-extern "C" int32_t IPAddress_get_AddressFamily_m7684 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IPAddress_get_AddressFamily_m10490 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.IPAddress::IsLoopback(System.Net.IPAddress)
-extern "C" bool IPAddress_IsLoopback_m7685 (Object_t * __this /* static, unused */, IPAddress_t1571 * ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool IPAddress_IsLoopback_m10491 (Object_t * __this /* static, unused */, IPAddress_t2048 * ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.IPAddress::ToString()
-extern "C" String_t* IPAddress_ToString_m7686 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* IPAddress_ToString_m10492 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.IPAddress::ToString(System.Int64)
-extern "C" String_t* IPAddress_ToString_m7687 (Object_t * __this /* static, unused */, int64_t ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* IPAddress_ToString_m10493 (Object_t * __this /* static, unused */, int64_t ___addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.IPAddress::Equals(System.Object)
-extern "C" bool IPAddress_Equals_m7688 (IPAddress_t1571 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool IPAddress_Equals_m10494 (IPAddress_t2048 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.IPAddress::GetHashCode()
-extern "C" int32_t IPAddress_GetHashCode_m7689 (IPAddress_t1571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IPAddress_GetHashCode_m10495 (IPAddress_t2048 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.IPAddress::Hash(System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" int32_t IPAddress_Hash_m7690 (Object_t * __this /* static, unused */, int32_t ___i, int32_t ___j, int32_t ___k, int32_t ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IPAddress_Hash_m10496 (Object_t * __this /* static, unused */, int32_t ___i, int32_t ___j, int32_t ___k, int32_t ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Text[]
-struct TextU5BU5D_t3712;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t424;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct  List_1_t905  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct  List_1_t772  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::_items
-	TextU5BU5D_t3712* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::_items
+	GameObjectU5BU5D_t424* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_version
 	int32_t ____version_3;
 };
-struct List_1_t905_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::EmptyArray
-	TextU5BU5D_t3712* ___EmptyArray_4;
+struct List_1_t772_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::EmptyArray
+	GameObjectU5BU5D_t424* ___EmptyArray_4;
 };

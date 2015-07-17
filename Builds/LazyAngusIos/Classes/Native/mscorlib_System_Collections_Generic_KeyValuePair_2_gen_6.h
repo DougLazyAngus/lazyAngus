@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// System.String[]
-struct StringU5BU5D_t45;
+// FacebookUserInfo
+struct FacebookUserInfo_t229;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>
-struct  KeyValuePair_2_t619 
+// System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>
+struct  KeyValuePair_2_t647 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.String[]>::value
-	StringU5BU5D_t45* ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>::value
+	FacebookUserInfo_t229 * ___value_1;
 };

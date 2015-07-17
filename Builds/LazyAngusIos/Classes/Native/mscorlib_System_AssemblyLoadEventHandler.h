@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // System.AssemblyLoadEventArgs
-struct AssemblyLoadEventArgs_t2715;
+struct AssemblyLoadEventArgs_t2759;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.AssemblyLoadEventHandler
-struct  AssemblyLoadEventHandler_t2708  : public MulticastDelegate_t389
+struct  AssemblyLoadEventHandler_t2752  : public MulticastDelegate_t346
 {
 };

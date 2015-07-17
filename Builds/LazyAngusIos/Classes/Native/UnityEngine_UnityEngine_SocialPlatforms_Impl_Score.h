@@ -7,10 +7,10 @@ struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // UnityEngine.SocialPlatforms.Impl.Score
-struct  Score_t1189  : public Object_t
+struct  Score_t1233  : public Object_t
 {
 	// System.DateTime UnityEngine.SocialPlatforms.Impl.Score::m_Date
-	DateTime_t219  ___m_Date_0;
+	DateTime_t245  ___m_Date_0;
 	// System.String UnityEngine.SocialPlatforms.Impl.Score::m_FormattedValue
 	String_t* ___m_FormattedValue_1;
 	// System.String UnityEngine.SocialPlatforms.Impl.Score::m_UserID

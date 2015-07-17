@@ -9,7 +9,7 @@ struct Type_t;
 // System.Runtime.InteropServices.UnmanagedType
 #include "mscorlib_System_Runtime_InteropServices_UnmanagedType.h"
 // System.Runtime.InteropServices.MarshalAsAttribute
-struct  MarshalAsAttribute_t2271  : public Attribute_t343
+struct  MarshalAsAttribute_t2315  : public Attribute_t384
 {
 	// System.Runtime.InteropServices.UnmanagedType System.Runtime.InteropServices.MarshalAsAttribute::utype
 	int32_t ___utype_0;

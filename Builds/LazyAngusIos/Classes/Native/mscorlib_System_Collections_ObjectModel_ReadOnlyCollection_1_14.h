@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Collections.Generic.RBTree/Node>
-struct IList_1_t3553;
+// System.Collections.Generic.IList`1<TwitterUserInfo>
+struct IList_1_t3604;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.RBTree/Node>
-struct  ReadOnlyCollection_1_t3554  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<TwitterUserInfo>
+struct  ReadOnlyCollection_1_t3605  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.RBTree/Node>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<TwitterUserInfo>::list
 	Object_t* ___list_0;
 };

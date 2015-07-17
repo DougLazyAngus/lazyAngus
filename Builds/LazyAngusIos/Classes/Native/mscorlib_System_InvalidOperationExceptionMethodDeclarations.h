@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.InvalidOperationException
-struct InvalidOperationException_t1574;
+struct InvalidOperationException_t1691;
 // System.String
 struct String_t;
 // System.Exception
 struct Exception_t27;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1255;
+struct SerializationInfo_t1299;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.InvalidOperationException::.ctor()
-extern "C" void InvalidOperationException__ctor_m8732 (InvalidOperationException_t1574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidOperationException__ctor_m8541 (InvalidOperationException_t1691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidOperationException::.ctor(System.String)
-extern "C" void InvalidOperationException__ctor_m8721 (InvalidOperationException_t1574 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidOperationException__ctor_m8501 (InvalidOperationException_t1691 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidOperationException::.ctor(System.String,System.Exception)
-extern "C" void InvalidOperationException__ctor_m8878 (InvalidOperationException_t1574 * __this, String_t* ___message, Exception_t27 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidOperationException__ctor_m11591 (InvalidOperationException_t1691 * __this, String_t* ___message, Exception_t27 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidOperationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void InvalidOperationException__ctor_m8854 (InvalidOperationException_t1574 * __this, SerializationInfo_t1255 * ___info, StreamingContext_t1256  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidOperationException__ctor_m11580 (InvalidOperationException_t1691 * __this, SerializationInfo_t1299 * ___info, StreamingContext_t1300  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

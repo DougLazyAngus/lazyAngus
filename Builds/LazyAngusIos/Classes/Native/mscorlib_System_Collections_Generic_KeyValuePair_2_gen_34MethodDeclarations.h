@@ -4,28 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>
-struct KeyValuePair_2_t3916;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
+struct KeyValuePair_2_t3893;
+// UnityEngine.GUILayoutUtility/LayoutCache
+struct LayoutCache_t1088;
 // System.String
 struct String_t;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m25945_gshared (KeyValuePair_2_t3916 * __this, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m25945(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3916 *, uint64_t, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m25945_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::get_Key()
-extern "C" uint64_t KeyValuePair_2_get_Key_m25946_gshared (KeyValuePair_2_t3916 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m25946(__this, method) (( uint64_t (*) (KeyValuePair_2_t3916 *, const MethodInfo*))KeyValuePair_2_get_Key_m25946_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m25947_gshared (KeyValuePair_2_t3916 * __this, uint64_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m25947(__this, ___value, method) (( void (*) (KeyValuePair_2_t3916 *, uint64_t, const MethodInfo*))KeyValuePair_2_set_Key_m25947_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::get_Value()
-extern "C" Object_t * KeyValuePair_2_get_Value_m25948_gshared (KeyValuePair_2_t3916 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m25948(__this, method) (( Object_t * (*) (KeyValuePair_2_t3916 *, const MethodInfo*))KeyValuePair_2_get_Value_m25948_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m25949_gshared (KeyValuePair_2_t3916 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m25949(__this, ___value, method) (( void (*) (KeyValuePair_2_t3916 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m25949_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m25950_gshared (KeyValuePair_2_t3916 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m25950(__this, method) (( String_t* (*) (KeyValuePair_2_t3916 *, const MethodInfo*))KeyValuePair_2_ToString_m25950_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m25679(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3893 *, int32_t, LayoutCache_t1088 *, const MethodInfo*))KeyValuePair_2__ctor_m18507_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Key()
+#define KeyValuePair_2_get_Key_m25680(__this, method) (( int32_t (*) (KeyValuePair_2_t3893 *, const MethodInfo*))KeyValuePair_2_get_Key_m18508_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m25681(__this, ___value, method) (( void (*) (KeyValuePair_2_t3893 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m18509_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Value()
+#define KeyValuePair_2_get_Value_m25682(__this, method) (( LayoutCache_t1088 * (*) (KeyValuePair_2_t3893 *, const MethodInfo*))KeyValuePair_2_get_Value_m18510_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m25683(__this, ___value, method) (( void (*) (KeyValuePair_2_t3893 *, LayoutCache_t1088 *, const MethodInfo*))KeyValuePair_2_set_Value_m18511_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::ToString()
+#define KeyValuePair_2_ToString_m25684(__this, method) (( String_t* (*) (KeyValuePair_2_t3893 *, const MethodInfo*))KeyValuePair_2_ToString_m18512_gshared)(__this, method)

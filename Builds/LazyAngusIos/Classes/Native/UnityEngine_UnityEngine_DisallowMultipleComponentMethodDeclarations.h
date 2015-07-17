@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.DisallowMultipleComponent
-struct DisallowMultipleComponent_t960;
+struct DisallowMultipleComponent_t1006;
 
 // System.Void UnityEngine.DisallowMultipleComponent::.ctor()
-extern "C" void DisallowMultipleComponent__ctor_m5096 (DisallowMultipleComponent_t960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DisallowMultipleComponent__ctor_m5638 (DisallowMultipleComponent_t1006 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

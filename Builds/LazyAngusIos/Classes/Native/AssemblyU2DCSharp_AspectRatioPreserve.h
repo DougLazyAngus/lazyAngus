@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AspectRatioPreserve
-struct  AspectRatioPreserve_t372  : public MonoBehaviour_t67
+struct  AspectRatioPreserve_t413  : public MonoBehaviour_t67
 {
 };

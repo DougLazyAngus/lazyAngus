@@ -1,12 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.IEnumerator
-struct IEnumerator_t21;
-// System.Object
-#include "mscorlib_System_Object.h"
-// System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
-struct  X509Certificate2Enumerator_t1612  : public Object_t
+// System.Security.Cryptography.X509Certificates.X509CertificateCollection
+#include "System_System_Security_Cryptography_X509Certificates_X509Cer.h"
+// System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+struct  X509Certificate2Collection_t2081  : public X509CertificateCollection_t1827
 {
-	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::enumerator
-	Object_t * ___enumerator_0;
 };

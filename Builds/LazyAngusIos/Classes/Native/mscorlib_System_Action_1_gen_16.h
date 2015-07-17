@@ -1,16 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
+// UnityEngine.SocialPlatforms.IUserProfile[]
+struct IUserProfileU5BU5D_t1229;
+// System.IAsyncResult
+struct IAsyncResult_t343;
+// System.AsyncCallback
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t386;
-// System.AsyncCallback
-struct AsyncCallback_t387;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<System.Object>
-struct  Action_1_t3429  : public MulticastDelegate_t389
+// System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>
+struct  Action_1_t1068  : public MulticastDelegate_t346
 {
 };

@@ -5,7 +5,7 @@
 // Mono.Security.Protocol.Tls.SecurityProtocolType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
 // Mono.Security.Protocol.Tls.SecurityProtocolType
-struct  SecurityProtocolType_t1877 
+struct  SecurityProtocolType_t1817 
 {
 	// System.Int32 Mono.Security.Protocol.Tls.SecurityProtocolType::value__
 	int32_t ___value___1;

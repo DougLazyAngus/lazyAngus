@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.TextReader
-struct TextReader_t2067;
+struct TextReader_t1631;
 // System.Char[]
-struct CharU5BU5D_t565;
+struct CharU5BU5D_t606;
 // System.String
 struct String_t;
 
 // System.Void System.IO.TextReader::.ctor()
-extern "C" void TextReader__ctor_m10339 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextReader__ctor_m8524 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::.cctor()
-extern "C" void TextReader__cctor_m13386 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextReader__cctor_m13924 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::Close()
-extern "C" void TextReader_Close_m13387 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextReader_Close_m13925 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::Dispose()
-extern "C" void TextReader_Dispose_m10444 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextReader_Dispose_m8654 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::Dispose(System.Boolean)
-extern "C" void TextReader_Dispose_m10340 (TextReader_t2067 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextReader_Dispose_m8525 (TextReader_t1631 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.TextReader::Peek()
-extern "C" int32_t TextReader_Peek_m13388 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextReader_Peek_m13926 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.TextReader::Read()
-extern "C" int32_t TextReader_Read_m13389 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextReader_Read_m13927 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.TextReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t TextReader_Read_m13390 (TextReader_t2067 * __this, CharU5BU5D_t565* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextReader_Read_m13928 (TextReader_t1631 * __this, CharU5BU5D_t606* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader::ReadLine()
-extern "C" String_t* TextReader_ReadLine_m13391 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextReader_ReadLine_m13929 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader::ReadToEnd()
-extern "C" String_t* TextReader_ReadToEnd_m13392 (TextReader_t2067 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextReader_ReadToEnd_m13930 (TextReader_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.TextReader System.IO.TextReader::Synchronized(System.IO.TextReader)
-extern "C" TextReader_t2067 * TextReader_Synchronized_m13393 (Object_t * __this /* static, unused */, TextReader_t2067 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextReader_t1631 * TextReader_Synchronized_m13931 (Object_t * __this /* static, unused */, TextReader_t1631 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;

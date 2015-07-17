@@ -5,7 +5,7 @@
 // GPAchievementState
 #include "AssemblyU2DCSharp_GPAchievementState.h"
 // GPAchievementState
-struct  GPAchievementState_t121 
+struct  GPAchievementState_t147 
 {
 	// System.Int32 GPAchievementState::value__
 	int32_t ___value___1;

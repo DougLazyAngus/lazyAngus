@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t1074;
+struct List_1_t1119;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t73;
 // System.Byte[]
@@ -12,7 +12,7 @@ struct ByteU5BU5D_t36;
 struct  WWWForm_t70  : public Object_t
 {
 	// System.Collections.Generic.List`1<System.Byte[]> UnityEngine.WWWForm::formData
-	List_1_t1074 * ___formData_0;
+	List_1_t1119 * ___formData_0;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.WWWForm::fieldNames
 	List_1_t73 * ___fieldNames_1;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.WWWForm::fileNames

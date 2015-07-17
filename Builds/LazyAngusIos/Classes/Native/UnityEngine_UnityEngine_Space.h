@@ -5,7 +5,7 @@
 // UnityEngine.Space
 #include "UnityEngine_UnityEngine_Space.h"
 // UnityEngine.Space
-struct  Space_t1014 
+struct  Space_t1060 
 {
 	// System.Int32 UnityEngine.Space::value__
 	int32_t ___value___1;

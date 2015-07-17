@@ -5,16 +5,16 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.TimeSpan
-struct  TimeSpan_t266 
+struct  TimeSpan_t292 
 {
 	// System.Int64 System.TimeSpan::_ticks
 	int64_t ____ticks_8;
 };
-struct TimeSpan_t266_StaticFields{
+struct TimeSpan_t292_StaticFields{
 	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t266  ___MaxValue_5;
+	TimeSpan_t292  ___MaxValue_5;
 	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t266  ___MinValue_6;
+	TimeSpan_t292  ___MinValue_6;
 	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t266  ___Zero_7;
+	TimeSpan_t292  ___Zero_7;
 };

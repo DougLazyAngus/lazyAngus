@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // BoostConfig
-struct BoostConfig_t373;
+struct BoostConfig_t414;
 // BoostConfig/BoostActiveEventHandler
-struct BoostActiveEventHandler_t388;
+struct BoostActiveEventHandler_t427;
 // UnityEngine.Sprite
-struct Sprite_t392;
+struct Sprite_t430;
 // System.String
 struct String_t;
 // System.Collections.IEnumerator
@@ -18,52 +18,52 @@ struct IEnumerator_t21;
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 
 // System.Void BoostConfig::.ctor()
-extern "C" void BoostConfig__ctor_m1843 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig__ctor_m2308 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::add_BoostActive(BoostConfig/BoostActiveEventHandler)
-extern "C" void BoostConfig_add_BoostActive_m1844 (BoostConfig_t373 * __this, BoostActiveEventHandler_t388 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_add_BoostActive_m2309 (BoostConfig_t414 * __this, BoostActiveEventHandler_t427 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::remove_BoostActive(BoostConfig/BoostActiveEventHandler)
-extern "C" void BoostConfig_remove_BoostActive_m1845 (BoostConfig_t373 * __this, BoostActiveEventHandler_t388 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_remove_BoostActive_m2310 (BoostConfig_t414 * __this, BoostActiveEventHandler_t427 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // BoostConfig BoostConfig::get_instance()
-extern "C" BoostConfig_t373 * BoostConfig_get_instance_m1846 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BoostConfig_t414 * BoostConfig_get_instance_m2311 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::set_instance(BoostConfig)
-extern "C" void BoostConfig_set_instance_m1847 (Object_t * __this /* static, unused */, BoostConfig_t373 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_set_instance_m2312 (Object_t * __this /* static, unused */, BoostConfig_t414 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // BoostConfig/BoostType BoostConfig::get_activeBoost()
-extern "C" int32_t BoostConfig_get_activeBoost_m1848 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BoostConfig_get_activeBoost_m2313 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::set_activeBoost(BoostConfig/BoostType)
-extern "C" void BoostConfig_set_activeBoost_m1849 (BoostConfig_t373 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_set_activeBoost_m2314 (BoostConfig_t414 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::Awake()
-extern "C" void BoostConfig_Awake_m1850 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_Awake_m2315 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::Start()
-extern "C" void BoostConfig_Start_m1851 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_Start_m2316 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::OnDestroy()
-extern "C" void BoostConfig_OnDestroy_m1852 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_OnDestroy_m2317 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::RegisterForEvents()
-extern "C" void BoostConfig_RegisterForEvents_m1853 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_RegisterForEvents_m2318 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::UnregisterForEvents()
-extern "C" void BoostConfig_UnregisterForEvents_m1854 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_UnregisterForEvents_m2319 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::OnGamePhaseChanged()
-extern "C" void BoostConfig_OnGamePhaseChanged_m1855 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_OnGamePhaseChanged_m2320 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::LoadBoostDescs()
-extern "C" void BoostConfig_LoadBoostDescs_m1856 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_LoadBoostDescs_m2321 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite BoostConfig::GetButtonImageForType(BoostConfig/BoostType)
-extern "C" Sprite_t392 * BoostConfig_GetButtonImageForType_m1857 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t430 * BoostConfig_GetButtonImageForType_m2322 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite BoostConfig::GetIntroImageForType(BoostConfig/BoostType)
-extern "C" Sprite_t392 * BoostConfig_GetIntroImageForType_m1858 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t430 * BoostConfig_GetIntroImageForType_m2323 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String BoostConfig::GetTitleForType(BoostConfig/BoostType)
-extern "C" String_t* BoostConfig_GetTitleForType_m1859 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BoostConfig_GetTitleForType_m2324 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 BoostConfig::GetCurrentPriceForBoost(BoostConfig/BoostType)
-extern "C" int32_t BoostConfig_GetCurrentPriceForBoost_m1860 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BoostConfig_GetCurrentPriceForBoost_m2325 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single BoostConfig::GetBoostTime(BoostConfig/BoostType)
-extern "C" float BoostConfig_GetBoostTime_m1861 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float BoostConfig_GetBoostTime_m2326 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::CancelBoosts()
-extern "C" void BoostConfig_CancelBoosts_m1862 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_CancelBoosts_m2327 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::ExecuteBoost(BoostConfig/BoostType)
-extern "C" void BoostConfig_ExecuteBoost_m1863 (BoostConfig_t373 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_ExecuteBoost_m2328 (BoostConfig_t414 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator BoostConfig::WaitThenCleanup(System.Single)
-extern "C" Object_t * BoostConfig_WaitThenCleanup_m1864 (BoostConfig_t373 * __this, float ___pauseTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * BoostConfig_WaitThenCleanup_m2329 (BoostConfig_t414 * __this, float ___pauseTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostConfig::CleanupActiveBoost()
-extern "C" void BoostConfig_CleanupActiveBoost_m1865 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostConfig_CleanupActiveBoost_m2330 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single BoostConfig::GetActiveBoostFractionUsed()
-extern "C" float BoostConfig_GetActiveBoostFractionUsed_m1866 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float BoostConfig_GetActiveBoostFractionUsed_m2331 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean BoostConfig::IsBoostActive()
-extern "C" bool BoostConfig_IsBoostActive_m1867 (BoostConfig_t373 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BoostConfig_IsBoostActive_m2332 (BoostConfig_t414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

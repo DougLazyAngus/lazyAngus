@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_TBM_MatchesSortOrder
-struct GP_TBM_MatchesSortOrder_t143;
+struct GP_TBM_MatchesSortOrder_t169;
 

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct Comparison_1_t3699;
+// System.Comparison`1<UnityEngine.GameObject>
+struct Comparison_1_t3755;
 // System.Object
 struct Object_t;
-// UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t730;
+// UnityEngine.GameObject
+struct GameObject_t310;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<UnityEngine.GameObject>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m22852(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3699 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17023_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::Invoke(T,T)
-#define Comparison_1_Invoke_m22853(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3699 *, ButtonState_t730 *, ButtonState_t730 *, const MethodInfo*))Comparison_1_Invoke_m17024_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m22854(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3699 *, ButtonState_t730 *, ButtonState_t730 *, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17025_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m22855(__this, ___result, method) (( int32_t (*) (Comparison_1_t3699 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17026_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m23685(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3755 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17560_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.GameObject>::Invoke(T,T)
+#define Comparison_1_Invoke_m23686(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3755 *, GameObject_t310 *, GameObject_t310 *, const MethodInfo*))Comparison_1_Invoke_m17561_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.GameObject>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m23687(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3755 *, GameObject_t310 *, GameObject_t310 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17562_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.GameObject>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m23688(__this, ___result, method) (( int32_t (*) (Comparison_1_t3755 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17563_gshared)(__this, ___result, method)

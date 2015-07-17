@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // Facebook.InitDelegate
-struct InitDelegate_t336;
+struct InitDelegate_t377;
 // Facebook.HideUnityDelegate
-struct HideUnityDelegate_t337;
+struct HideUnityDelegate_t378;
 // Facebook.AbstractFacebook
 #include "AssemblyU2DCSharp_Facebook_AbstractFacebook.h"
 // Facebook.CanvasFacebook
-struct  CanvasFacebook_t353  : public AbstractFacebook_t331
+struct  CanvasFacebook_t394  : public AbstractFacebook_t372
 {
 	// Facebook.InitDelegate Facebook.CanvasFacebook::onInitComplete
-	InitDelegate_t336 * ___onInitComplete_20;
+	InitDelegate_t377 * ___onInitComplete_20;
 	// Facebook.HideUnityDelegate Facebook.CanvasFacebook::OnHideUnity
-	HideUnityDelegate_t337 * ___OnHideUnity_21;
+	HideUnityDelegate_t378 * ___OnHideUnity_21;
 	// System.String Facebook.CanvasFacebook::integrationMethodJs
 	String_t* ___integrationMethodJs_22;
 	// System.String Facebook.CanvasFacebook::appId

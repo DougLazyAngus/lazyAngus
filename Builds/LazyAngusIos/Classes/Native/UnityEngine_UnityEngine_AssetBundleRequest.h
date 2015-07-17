@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.AssetBundle
-struct AssetBundle_t1011;
+struct AssetBundle_t1057;
 // System.String
 struct String_t;
 // System.Type
@@ -9,10 +9,10 @@ struct Type_t;
 // UnityEngine.AsyncOperation
 #include "UnityEngine_UnityEngine_AsyncOperation.h"
 // UnityEngine.AssetBundleRequest
-struct  AssetBundleRequest_t1012  : public AsyncOperation_t1010
+struct  AssetBundleRequest_t1058  : public AsyncOperation_t1056
 {
 	// UnityEngine.AssetBundle UnityEngine.AssetBundleRequest::m_AssetBundle
-	AssetBundle_t1011 * ___m_AssetBundle_1;
+	AssetBundle_t1057 * ___m_AssetBundle_1;
 	// System.String UnityEngine.AssetBundleRequest::m_Path
 	String_t* ___m_Path_2;
 	// System.Type UnityEngine.AssetBundleRequest::m_Type

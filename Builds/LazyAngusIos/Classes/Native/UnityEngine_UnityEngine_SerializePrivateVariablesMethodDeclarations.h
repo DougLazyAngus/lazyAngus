@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SerializePrivateVariables
-struct SerializePrivateVariables_t1070;
+struct SerializePrivateVariables_t1115;
 
 // System.Void UnityEngine.SerializePrivateVariables::.ctor()
-extern "C" void SerializePrivateVariables__ctor_m5775 (SerializePrivateVariables_t1070 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializePrivateVariables__ctor_m6316 (SerializePrivateVariables_t1115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

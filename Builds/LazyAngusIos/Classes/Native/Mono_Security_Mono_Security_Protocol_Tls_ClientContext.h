@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Protocol.Tls.SslClientStream
-struct SslClientStream_t1742;
+struct SslClientStream_t1790;
 // Mono.Security.Protocol.Tls.Context
 #include "Mono_Security_Mono_Security_Protocol_Tls_Context.h"
 // Mono.Security.Protocol.Tls.ClientContext
-struct  ClientContext_t2192  : public Context_t2187
+struct  ClientContext_t1791  : public Context_t1785
 {
 	// Mono.Security.Protocol.Tls.SslClientStream Mono.Security.Protocol.Tls.ClientContext::sslStream
-	SslClientStream_t1742 * ___sslStream_30;
+	SslClientStream_t1790 * ___sslStream_30;
 	// System.Int16 Mono.Security.Protocol.Tls.ClientContext::clientHelloProtocol
 	int16_t ___clientHelloProtocol_31;
 };

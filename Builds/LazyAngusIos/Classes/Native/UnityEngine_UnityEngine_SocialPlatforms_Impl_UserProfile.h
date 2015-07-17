@@ -9,7 +9,7 @@ struct Texture2D_t65;
 // UnityEngine.SocialPlatforms.UserState
 #include "UnityEngine_UnityEngine_SocialPlatforms_UserState.h"
 // UnityEngine.SocialPlatforms.Impl.UserProfile
-struct  UserProfile_t1186  : public Object_t
+struct  UserProfile_t1230  : public Object_t
 {
 	// System.String UnityEngine.SocialPlatforms.Impl.UserProfile::m_UserName
 	String_t* ___m_UserName_0;

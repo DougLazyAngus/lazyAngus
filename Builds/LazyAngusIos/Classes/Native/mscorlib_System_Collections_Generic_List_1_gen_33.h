@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.StencilMaterial/MatEntry[]
-struct MatEntryU5BU5D_t3781;
+// UnityEngine.UI.Selectable[]
+struct SelectableU5BU5D_t3834;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  List_1_t822  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
+struct  List_1_t860  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
-	MatEntryU5BU5D_t3781* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
+	SelectableU5BU5D_t3834* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
 	int32_t ____version_3;
 };
-struct List_1_t822_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
-	MatEntryU5BU5D_t3781* ___EmptyArray_4;
+struct List_1_t860_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
+	SelectableU5BU5D_t3834* ___EmptyArray_4;
 };

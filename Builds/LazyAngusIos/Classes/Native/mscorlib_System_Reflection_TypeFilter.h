@@ -5,12 +5,12 @@ struct Type_t;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Reflection.TypeFilter
-struct  TypeFilter_t2466  : public MulticastDelegate_t389
+struct  TypeFilter_t2510  : public MulticastDelegate_t346
 {
 };

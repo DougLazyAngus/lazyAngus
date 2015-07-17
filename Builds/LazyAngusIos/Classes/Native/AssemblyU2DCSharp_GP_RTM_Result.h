@@ -7,7 +7,7 @@ struct String_t;
 // GP_GamesStatusCodes
 #include "AssemblyU2DCSharp_GP_GamesStatusCodes.h"
 // GP_RTM_Result
-struct  GP_RTM_Result_t161  : public Object_t
+struct  GP_RTM_Result_t188  : public Object_t
 {
 	// GP_GamesStatusCodes GP_RTM_Result::_status
 	int32_t ____status_0;

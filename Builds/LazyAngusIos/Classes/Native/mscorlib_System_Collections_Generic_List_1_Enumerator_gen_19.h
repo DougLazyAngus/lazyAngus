@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<TweetTemplate>
-struct List_1_t252;
-// TweetTemplate
-struct TweetTemplate_t255;
+// System.Collections.Generic.List`1<FBLikeInfo>
+struct List_1_t587;
+// FBLikeInfo
+struct FBLikeInfo_t247;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<TweetTemplate>
-struct  Enumerator_t3537 
+// System.Collections.Generic.List`1/Enumerator<FBLikeInfo>
+struct  Enumerator_t3576 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<TweetTemplate>::l
-	List_1_t252 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<TweetTemplate>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::l
+	List_1_t587 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<TweetTemplate>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<TweetTemplate>::current
-	TweetTemplate_t255 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::current
+	FBLikeInfo_t247 * ___current_3;
 };

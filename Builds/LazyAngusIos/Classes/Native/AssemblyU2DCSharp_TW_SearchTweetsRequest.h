@@ -3,6 +3,6 @@
 // TW_APIRequest
 #include "AssemblyU2DCSharp_TW_APIRequest.h"
 // TW_SearchTweetsRequest
-struct  TW_SearchTweetsRequest_t270  : public TW_APIRequest_t259
+struct  TW_SearchTweetsRequest_t296  : public TW_APIRequest_t285
 {
 };

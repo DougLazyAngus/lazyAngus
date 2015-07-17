@@ -1,23 +1,23 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.Sockets.Socket
-struct Socket_t1487;
+struct Socket_t1973;
 // System.Object
 struct Object_t;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Threading.WaitHandle
-struct WaitHandle_t1492;
+struct WaitHandle_t1859;
 // System.Exception
 struct Exception_t27;
 // System.Net.EndPoint
-struct EndPoint_t1493;
+struct EndPoint_t1978;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Net.IPAddress[]
-struct IPAddressU5BU5D_t1494;
+struct IPAddressU5BU5D_t1979;
 // System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>>
-struct IList_1_t1495;
+struct IList_1_t1980;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IntPtr
@@ -27,22 +27,22 @@ struct IList_1_t1495;
 // System.Net.Sockets.Socket/SocketOperation
 #include "System_System_Net_Sockets_Socket_SocketOperation.h"
 // System.Net.Sockets.Socket/SocketAsyncResult
-struct  SocketAsyncResult_t1496  : public Object_t
+struct  SocketAsyncResult_t1981  : public Object_t
 {
 	// System.Net.Sockets.Socket System.Net.Sockets.Socket/SocketAsyncResult::Sock
-	Socket_t1487 * ___Sock_0;
+	Socket_t1973 * ___Sock_0;
 	// System.IntPtr System.Net.Sockets.Socket/SocketAsyncResult::handle
 	IntPtr_t ___handle_1;
 	// System.Object System.Net.Sockets.Socket/SocketAsyncResult::state
 	Object_t * ___state_2;
 	// System.AsyncCallback System.Net.Sockets.Socket/SocketAsyncResult::callback
-	AsyncCallback_t387 * ___callback_3;
+	AsyncCallback_t344 * ___callback_3;
 	// System.Threading.WaitHandle System.Net.Sockets.Socket/SocketAsyncResult::waithandle
-	WaitHandle_t1492 * ___waithandle_4;
+	WaitHandle_t1859 * ___waithandle_4;
 	// System.Exception System.Net.Sockets.Socket/SocketAsyncResult::delayedException
 	Exception_t27 * ___delayedException_5;
 	// System.Net.EndPoint System.Net.Sockets.Socket/SocketAsyncResult::EndPoint
-	EndPoint_t1493 * ___EndPoint_6;
+	EndPoint_t1978 * ___EndPoint_6;
 	// System.Byte[] System.Net.Sockets.Socket/SocketAsyncResult::Buffer
 	ByteU5BU5D_t36* ___Buffer_7;
 	// System.Int32 System.Net.Sockets.Socket/SocketAsyncResult::Offset
@@ -52,9 +52,9 @@ struct  SocketAsyncResult_t1496  : public Object_t
 	// System.Net.Sockets.SocketFlags System.Net.Sockets.Socket/SocketAsyncResult::SockFlags
 	int32_t ___SockFlags_10;
 	// System.Net.Sockets.Socket System.Net.Sockets.Socket/SocketAsyncResult::AcceptSocket
-	Socket_t1487 * ___AcceptSocket_11;
+	Socket_t1973 * ___AcceptSocket_11;
 	// System.Net.IPAddress[] System.Net.Sockets.Socket/SocketAsyncResult::Addresses
-	IPAddressU5BU5D_t1494* ___Addresses_12;
+	IPAddressU5BU5D_t1979* ___Addresses_12;
 	// System.Int32 System.Net.Sockets.Socket/SocketAsyncResult::Port
 	int32_t ___Port_13;
 	// System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> System.Net.Sockets.Socket/SocketAsyncResult::Buffers
@@ -62,7 +62,7 @@ struct  SocketAsyncResult_t1496  : public Object_t
 	// System.Boolean System.Net.Sockets.Socket/SocketAsyncResult::ReuseSocket
 	bool ___ReuseSocket_15;
 	// System.Net.Sockets.Socket System.Net.Sockets.Socket/SocketAsyncResult::acc_socket
-	Socket_t1487 * ___acc_socket_16;
+	Socket_t1973 * ___acc_socket_16;
 	// System.Int32 System.Net.Sockets.Socket/SocketAsyncResult::total
 	int32_t ___total_17;
 	// System.Boolean System.Net.Sockets.Socket/SocketAsyncResult::completed_sync

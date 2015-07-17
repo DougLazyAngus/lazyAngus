@@ -4,62 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>
-struct KeyCollection_t3441;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>
+struct KeyCollection_t3475;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct Dictionary_2_t3438;
-// System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t62;
+// System.Collections.Generic.Dictionary`2<System.String,GoogleMobileAdBanner>
+struct Dictionary_2_t94;
+// System.String
+struct String_t;
+// System.Collections.Generic.IEnumerator`1<System.String>
+struct IEnumerator_1_t4228;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
-// System.Object[]
-struct ObjectU5BU5D_t541;
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_17.h"
+// System.String[]
+struct StringU5BU5D_t45;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,GoogleMobileAdBanner>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_60.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void KeyCollection__ctor_m18720_gshared (KeyCollection_t3441 * __this, Dictionary_2_t3438 * ___dictionary, const MethodInfo* method);
-#define KeyCollection__ctor_m18720(__this, ___dictionary, method) (( void (*) (KeyCollection_t3441 *, Dictionary_2_t3438 *, const MethodInfo*))KeyCollection__ctor_m18720_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m18721_gshared (KeyCollection_t3441 * __this, Object_t * ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m18721(__this, ___item, method) (( void (*) (KeyCollection_t3441 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m18721_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TKey>.Clear()
-extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m18722_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m18722(__this, method) (( void (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m18722_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m18723_gshared (KeyCollection_t3441 * __this, Object_t * ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m18723(__this, ___item, method) (( bool (*) (KeyCollection_t3441 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m18723_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m18724_gshared (KeyCollection_t3441 * __this, Object_t * ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m18724(__this, ___item, method) (( bool (*) (KeyCollection_t3441 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m18724_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-extern "C" Object_t* KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m18725_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m18725(__this, method) (( Object_t* (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m18725_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void KeyCollection_System_Collections_ICollection_CopyTo_m18726_gshared (KeyCollection_t3441 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_CopyTo_m18726(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3441 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m18726_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * KeyCollection_System_Collections_IEnumerable_GetEnumerator_m18727_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m18727(__this, method) (( Object_t * (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m18727_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m18728_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m18728(__this, method) (( bool (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m18728_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool KeyCollection_System_Collections_ICollection_get_IsSynchronized_m18729_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m18729(__this, method) (( bool (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m18729_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * KeyCollection_System_Collections_ICollection_get_SyncRoot_m18730_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m18730(__this, method) (( Object_t * (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m18730_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::CopyTo(TKey[],System.Int32)
-extern "C" void KeyCollection_CopyTo_m18731_gshared (KeyCollection_t3441 * __this, ObjectU5BU5D_t541* ___array, int32_t ___index, const MethodInfo* method);
-#define KeyCollection_CopyTo_m18731(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3441 *, ObjectU5BU5D_t541*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m18731_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::GetEnumerator()
-extern "C" Enumerator_t3442  KeyCollection_GetEnumerator_m18732_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_GetEnumerator_m18732(__this, method) (( Enumerator_t3442  (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_GetEnumerator_m18732_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>::get_Count()
-extern "C" int32_t KeyCollection_get_Count_m18733_gshared (KeyCollection_t3441 * __this, const MethodInfo* method);
-#define KeyCollection_get_Count_m18733(__this, method) (( int32_t (*) (KeyCollection_t3441 *, const MethodInfo*))KeyCollection_get_Count_m18733_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_9MethodDeclarations.h"
+#define KeyCollection__ctor_m19099(__this, ___dictionary, method) (( void (*) (KeyCollection_t3475 *, Dictionary_2_t94 *, const MethodInfo*))KeyCollection__ctor_m17726_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m19100(__this, ___item, method) (( void (*) (KeyCollection_t3475 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m17727_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.ICollection<TKey>.Clear()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m19101(__this, method) (( void (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m17728_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m19102(__this, ___item, method) (( bool (*) (KeyCollection_t3475 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m17729_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m19103(__this, ___item, method) (( bool (*) (KeyCollection_t3475 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m17730_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m19104(__this, method) (( Object_t* (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m17731_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m19105(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3475 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m17732_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.IEnumerable.GetEnumerator()
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m19106(__this, method) (( Object_t * (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m17733_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m19107(__this, method) (( bool (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m17734_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.ICollection.get_IsSynchronized()
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m19108(__this, method) (( bool (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m17735_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::System.Collections.ICollection.get_SyncRoot()
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m19109(__this, method) (( Object_t * (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m17736_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::CopyTo(TKey[],System.Int32)
+#define KeyCollection_CopyTo_m19110(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3475 *, StringU5BU5D_t45*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m17737_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::GetEnumerator()
+#define KeyCollection_GetEnumerator_m19111(__this, method) (( Enumerator_t4288  (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_GetEnumerator_m17738_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::get_Count()
+#define KeyCollection_get_Count_m19112(__this, method) (( int32_t (*) (KeyCollection_t3475 *, const MethodInfo*))KeyCollection_get_Count_m17739_gshared)(__this, method)

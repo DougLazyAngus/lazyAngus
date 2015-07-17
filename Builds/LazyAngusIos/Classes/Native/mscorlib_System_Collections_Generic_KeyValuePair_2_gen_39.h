@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type
-struct Type_t;
-// System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct IDictionary_2_t1250;
+// UnityEngine.Networking.Types.NetworkAccessToken
+struct NetworkAccessToken_t1185;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>
-struct  KeyValuePair_2_t3952 
+// UnityEngine.Networking.Types.NetworkID
+#include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
+struct  KeyValuePair_2_t3996 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::key
-	Type_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::value
-	Object_t* ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::key
+	uint64_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::value
+	NetworkAccessToken_t1185 * ___value_1;
 };

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // DistortForEffect
-struct DistortForEffect_t410;
+struct DistortForEffect_t448;
 
 // System.Void DistortForEffect::.ctor()
-extern "C" void DistortForEffect__ctor_m1916 (DistortForEffect_t410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DistortForEffect__ctor_m2381 (DistortForEffect_t448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DistortForEffect::Start()
-extern "C" void DistortForEffect_Start_m1917 (DistortForEffect_t410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DistortForEffect_Start_m2382 (DistortForEffect_t448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DistortForEffect::Distort()
-extern "C" void DistortForEffect_Distort_m1918 (DistortForEffect_t410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DistortForEffect_Distort_m2383 (DistortForEffect_t448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DistortForEffect::Cancel()
-extern "C" void DistortForEffect_Cancel_m1919 (DistortForEffect_t410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DistortForEffect_Cancel_m2384 (DistortForEffect_t448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DistortForEffect::Update()
-extern "C" void DistortForEffect_Update_m1920 (DistortForEffect_t410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DistortForEffect_Update_m2385 (DistortForEffect_t448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

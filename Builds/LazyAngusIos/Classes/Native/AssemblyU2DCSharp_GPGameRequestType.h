@@ -5,7 +5,7 @@
 // GPGameRequestType
 #include "AssemblyU2DCSharp_GPGameRequestType.h"
 // GPGameRequestType
-struct  GPGameRequestType_t126 
+struct  GPGameRequestType_t152 
 {
 	// System.Int32 GPGameRequestType::value__
 	int32_t ___value___1;

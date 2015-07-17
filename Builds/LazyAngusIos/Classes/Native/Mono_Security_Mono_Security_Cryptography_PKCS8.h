@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.PKCS8
-struct  PKCS8_t2164  : public Object_t
+struct  PKCS8_t1745  : public Object_t
 {
 };

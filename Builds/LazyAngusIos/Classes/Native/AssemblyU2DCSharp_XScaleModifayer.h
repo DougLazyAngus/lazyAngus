@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // XScaleModifayer
-struct  XScaleModifayer_t328  : public MonoBehaviour_t67
+struct  XScaleModifayer_t369  : public MonoBehaviour_t67
 {
 	// System.Single XScaleModifayer::XMaxSize
 	float ___XMaxSize_2;

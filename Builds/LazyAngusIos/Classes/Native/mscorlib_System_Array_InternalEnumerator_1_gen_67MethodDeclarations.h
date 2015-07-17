@@ -4,24 +4,25 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Net.IPAddress>
-struct InternalEnumerator_1_t4028;
+// System.Array/InternalEnumerator`1<System.UInt32>
+struct InternalEnumerator_1_t4105;
 // System.Object
 struct Object_t;
-// System.Net.IPAddress
-struct IPAddress_t1571;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m27223(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4028 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16818_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Net.IPAddress>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27224(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4028 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16819_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::Dispose()
-#define InternalEnumerator_1_Dispose_m27225(__this, method) (( void (*) (InternalEnumerator_1_t4028 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16820_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Net.IPAddress>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m27226(__this, method) (( bool (*) (InternalEnumerator_1_t4028 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16821_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Net.IPAddress>::get_Current()
-#define InternalEnumerator_1_get_Current_m27227(__this, method) (( IPAddress_t1571 * (*) (InternalEnumerator_1_t4028 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16822_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.UInt32>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m28437_gshared (InternalEnumerator_1_t4105 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m28437(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4105 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28437_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.UInt32>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28438_gshared (InternalEnumerator_1_t4105 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28438(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4105 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28438_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.UInt32>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m28439_gshared (InternalEnumerator_1_t4105 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m28439(__this, method) (( void (*) (InternalEnumerator_1_t4105 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28439_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.UInt32>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m28440_gshared (InternalEnumerator_1_t4105 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m28440(__this, method) (( bool (*) (InternalEnumerator_1_t4105 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28440_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.UInt32>::get_Current()
+extern "C" uint32_t InternalEnumerator_1_get_Current_m28441_gshared (InternalEnumerator_1_t4105 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m28441(__this, method) (( uint32_t (*) (InternalEnumerator_1_t4105 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28441_gshared)(__this, method)

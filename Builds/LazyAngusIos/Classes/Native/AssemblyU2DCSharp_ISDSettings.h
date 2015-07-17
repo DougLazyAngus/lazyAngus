@@ -5,11 +5,11 @@ struct String_t;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t73;
 // ISDSettings
-struct ISDSettings_t276;
+struct ISDSettings_t302;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // ISDSettings
-struct  ISDSettings_t276  : public ScriptableObject_t111
+struct  ISDSettings_t302  : public ScriptableObject_t106
 {
 	// System.Boolean ISDSettings::IsfwSettingOpen
 	bool ___IsfwSettingOpen_6;
@@ -36,7 +36,7 @@ struct  ISDSettings_t276  : public ScriptableObject_t111
 	// System.Collections.Generic.List`1<System.String> ISDSettings::plistvalues
 	List_1_t73 * ___plistvalues_17;
 };
-struct ISDSettings_t276_StaticFields{
+struct ISDSettings_t302_StaticFields{
 	// ISDSettings ISDSettings::instance
-	ISDSettings_t276 * ___instance_18;
+	ISDSettings_t302 * ___instance_18;
 };

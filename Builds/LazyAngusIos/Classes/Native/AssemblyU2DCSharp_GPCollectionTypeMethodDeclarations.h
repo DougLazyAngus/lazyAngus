@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPCollectionType
-struct GPCollectionType_t124;
+struct GPCollectionType_t150;
 

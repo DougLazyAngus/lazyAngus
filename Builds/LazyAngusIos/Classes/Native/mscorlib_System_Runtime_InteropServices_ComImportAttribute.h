@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.ComImportAttribute
-struct  ComImportAttribute_t2274  : public Attribute_t343
+struct  ComImportAttribute_t2318  : public Attribute_t384
 {
 };

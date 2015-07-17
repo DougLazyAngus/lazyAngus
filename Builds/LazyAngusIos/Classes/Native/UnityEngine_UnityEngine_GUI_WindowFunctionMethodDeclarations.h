@@ -5,22 +5,22 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUI/WindowFunction
-struct WindowFunction_t627;
+struct WindowFunction_t678;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.GUI/WindowFunction::.ctor(System.Object,System.IntPtr)
-extern "C" void WindowFunction__ctor_m2972 (WindowFunction_t627 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowFunction__ctor_m3504 (WindowFunction_t678 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUI/WindowFunction::Invoke(System.Int32)
-extern "C" void WindowFunction_Invoke_m5343 (WindowFunction_t627 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_WindowFunction_t627(Il2CppObject* delegate, int32_t ___id);
+extern "C" void WindowFunction_Invoke_m5885 (WindowFunction_t678 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_WindowFunction_t678(Il2CppObject* delegate, int32_t ___id);
 // System.IAsyncResult UnityEngine.GUI/WindowFunction::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * WindowFunction_BeginInvoke_m5344 (WindowFunction_t627 * __this, int32_t ___id, AsyncCallback_t387 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WindowFunction_BeginInvoke_m5886 (WindowFunction_t678 * __this, int32_t ___id, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUI/WindowFunction::EndInvoke(System.IAsyncResult)
-extern "C" void WindowFunction_EndInvoke_m5345 (WindowFunction_t627 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowFunction_EndInvoke_m5887 (WindowFunction_t678 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseSpawnFromData
-struct MouseSpawnFromData_t421;
+struct MouseSpawnFromData_t459;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t443;
+struct List_1_t481;
 // UnityEngine.GameObject
-struct GameObject_t284;
+struct GameObject_t310;
 // MouseSpawnFromData/MouseSpawnEventHandler
-struct MouseSpawnEventHandler_t473;
+struct MouseSpawnEventHandler_t511;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnFromData
-struct  MouseSpawnFromData_t421  : public MonoBehaviour_t67
+struct  MouseSpawnFromData_t459  : public MonoBehaviour_t67
 {
 	// System.Single MouseSpawnFromData::initialSpawnDelta
 	float ___initialSpawnDelta_2;
@@ -20,19 +20,19 @@ struct  MouseSpawnFromData_t421  : public MonoBehaviour_t67
 	// System.Single MouseSpawnFromData::maxRandomDelay
 	float ___maxRandomDelay_5;
 	// System.Collections.Generic.List`1<ExplicitMouseDesc> MouseSpawnFromData::miceDesc
-	List_1_t443 * ___miceDesc_6;
+	List_1_t481 * ___miceDesc_6;
 	// System.Single MouseSpawnFromData::nextSpawnTime
 	float ___nextSpawnTime_7;
 	// UnityEngine.GameObject MouseSpawnFromData::mousePrototype
-	GameObject_t284 * ___mousePrototype_8;
+	GameObject_t310 * ___mousePrototype_8;
 	// System.Boolean MouseSpawnFromData::registeredForEvents
 	bool ___registeredForEvents_9;
 	// MouseSpawnFromData/MouseSpawnEventHandler MouseSpawnFromData::MouseSpawn
-	MouseSpawnEventHandler_t473 * ___MouseSpawn_10;
+	MouseSpawnEventHandler_t511 * ___MouseSpawn_10;
 	// System.Int32 MouseSpawnFromData::<miceSpawned>k__BackingField
 	int32_t ___U3CmiceSpawnedU3Ek__BackingField_11;
 };
-struct MouseSpawnFromData_t421_StaticFields{
+struct MouseSpawnFromData_t459_StaticFields{
 	// MouseSpawnFromData MouseSpawnFromData::instance
-	MouseSpawnFromData_t421 * ___instance_3;
+	MouseSpawnFromData_t459 * ___instance_3;
 };

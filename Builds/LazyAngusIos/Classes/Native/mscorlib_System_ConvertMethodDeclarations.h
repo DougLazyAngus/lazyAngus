@@ -11,7 +11,7 @@ struct ByteU5BU5D_t36;
 // System.String
 struct String_t;
 // System.IFormatProvider
-struct IFormatProvider_t2425;
+struct IFormatProvider_t2469;
 // System.Object
 struct Object_t;
 // System.Type
@@ -22,436 +22,438 @@ struct Type_t;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Convert::.cctor()
-extern "C" void Convert__cctor_m15175 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Convert__cctor_m15713 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Convert::InternalFromBase64String(System.String,System.Boolean)
-extern "C" ByteU5BU5D_t36* Convert_InternalFromBase64String_m15176 (Object_t * __this /* static, unused */, String_t* ___str, bool ___allowWhitespaceOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* Convert_InternalFromBase64String_m15714 (Object_t * __this /* static, unused */, String_t* ___str, bool ___allowWhitespaceOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Convert::FromBase64String(System.String)
 extern "C" ByteU5BU5D_t36* Convert_FromBase64String_m195 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToBase64String(System.Byte[])
 extern "C" String_t* Convert_ToBase64String_m192 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___inArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToBase64String(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* Convert_ToBase64String_m15177 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___inArray, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ToBase64String_m15715 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___inArray, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Byte)
-extern "C" bool Convert_ToBoolean_m15178 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15716 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Decimal)
-extern "C" bool Convert_ToBoolean_m15179 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15717 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Double)
-extern "C" bool Convert_ToBoolean_m15180 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15718 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Single)
-extern "C" bool Convert_ToBoolean_m15181 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15719 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Int32)
-extern "C" bool Convert_ToBoolean_m15182 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15720 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Int64)
-extern "C" bool Convert_ToBoolean_m15183 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15721 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.SByte)
-extern "C" bool Convert_ToBoolean_m15184 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15722 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Int16)
-extern "C" bool Convert_ToBoolean_m15185 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15723 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.String,System.IFormatProvider)
-extern "C" bool Convert_ToBoolean_m15186 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15724 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.UInt32)
-extern "C" bool Convert_ToBoolean_m15187 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15725 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.UInt64)
-extern "C" bool Convert_ToBoolean_m15188 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15726 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.UInt16)
-extern "C" bool Convert_ToBoolean_m15189 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15727 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Object)
-extern "C" bool Convert_ToBoolean_m6624 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m7164 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::ToBoolean(System.Object,System.IFormatProvider)
-extern "C" bool Convert_ToBoolean_m15190 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_ToBoolean_m15728 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Boolean)
-extern "C" uint8_t Convert_ToByte_m15191 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15729 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Char)
-extern "C" uint8_t Convert_ToByte_m15192 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15730 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Decimal)
-extern "C" uint8_t Convert_ToByte_m15193 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15731 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Double)
-extern "C" uint8_t Convert_ToByte_m15194 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15732 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Single)
-extern "C" uint8_t Convert_ToByte_m15195 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15733 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Int32)
-extern "C" uint8_t Convert_ToByte_m15196 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15734 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Int64)
-extern "C" uint8_t Convert_ToByte_m15197 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15735 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.SByte)
-extern "C" uint8_t Convert_ToByte_m15198 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15736 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Int16)
-extern "C" uint8_t Convert_ToByte_m15199 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15737 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.String)
-extern "C" uint8_t Convert_ToByte_m15200 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15738 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.String,System.IFormatProvider)
-extern "C" uint8_t Convert_ToByte_m15201 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15739 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.UInt32)
-extern "C" uint8_t Convert_ToByte_m15202 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15740 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.UInt64)
-extern "C" uint8_t Convert_ToByte_m15203 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15741 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.UInt16)
-extern "C" uint8_t Convert_ToByte_m15204 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15742 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Convert::ToByte(System.Object,System.IFormatProvider)
-extern "C" uint8_t Convert_ToByte_m15205 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Convert_ToByte_m15743 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Byte)
-extern "C" uint16_t Convert_ToChar_m11286 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m9589 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Int32)
-extern "C" uint16_t Convert_ToChar_m2717 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m3242 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Int64)
-extern "C" uint16_t Convert_ToChar_m15206 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15744 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Single)
-extern "C" uint16_t Convert_ToChar_m15207 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15745 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.SByte)
-extern "C" uint16_t Convert_ToChar_m15208 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15746 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Int16)
-extern "C" uint16_t Convert_ToChar_m15209 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15747 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.String,System.IFormatProvider)
-extern "C" uint16_t Convert_ToChar_m15210 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15748 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.UInt32)
-extern "C" uint16_t Convert_ToChar_m15211 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15749 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.UInt64)
-extern "C" uint16_t Convert_ToChar_m15212 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15750 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.UInt16)
-extern "C" uint16_t Convert_ToChar_m15213 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15751 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Convert::ToChar(System.Object,System.IFormatProvider)
-extern "C" uint16_t Convert_ToChar_m15214 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToChar_m15752 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.String,System.IFormatProvider)
-extern "C" DateTime_t219  Convert_ToDateTime_m15215 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15753 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.Int16)
-extern "C" DateTime_t219  Convert_ToDateTime_m15216 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15754 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.Int32)
-extern "C" DateTime_t219  Convert_ToDateTime_m15217 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15755 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.Int64)
-extern "C" DateTime_t219  Convert_ToDateTime_m15218 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15756 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.Single)
-extern "C" DateTime_t219  Convert_ToDateTime_m15219 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15757 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.Object,System.IFormatProvider)
-extern "C" DateTime_t219  Convert_ToDateTime_m15220 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15758 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.SByte)
-extern "C" DateTime_t219  Convert_ToDateTime_m15221 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15759 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.UInt16)
-extern "C" DateTime_t219  Convert_ToDateTime_m15222 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15760 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.UInt32)
-extern "C" DateTime_t219  Convert_ToDateTime_m15223 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15761 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Convert::ToDateTime(System.UInt64)
-extern "C" DateTime_t219  Convert_ToDateTime_m15224 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t245  Convert_ToDateTime_m15762 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Boolean)
-extern "C" Decimal_t590  Convert_ToDecimal_m15225 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15763 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Byte)
-extern "C" Decimal_t590  Convert_ToDecimal_m15226 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15764 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Double)
-extern "C" Decimal_t590  Convert_ToDecimal_m15227 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15765 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Single)
-extern "C" Decimal_t590  Convert_ToDecimal_m15228 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15766 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Int32)
-extern "C" Decimal_t590  Convert_ToDecimal_m15229 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15767 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Int64)
-extern "C" Decimal_t590  Convert_ToDecimal_m15230 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15768 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.SByte)
-extern "C" Decimal_t590  Convert_ToDecimal_m15231 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15769 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Int16)
-extern "C" Decimal_t590  Convert_ToDecimal_m15232 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15770 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.String,System.IFormatProvider)
-extern "C" Decimal_t590  Convert_ToDecimal_m15233 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15771 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.UInt32)
-extern "C" Decimal_t590  Convert_ToDecimal_m15234 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15772 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.UInt64)
-extern "C" Decimal_t590  Convert_ToDecimal_m15235 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15773 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.UInt16)
-extern "C" Decimal_t590  Convert_ToDecimal_m15236 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15774 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Convert::ToDecimal(System.Object,System.IFormatProvider)
-extern "C" Decimal_t590  Convert_ToDecimal_m15237 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t642  Convert_ToDecimal_m15775 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Boolean)
-extern "C" double Convert_ToDouble_m15238 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15776 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Byte)
-extern "C" double Convert_ToDouble_m15239 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15777 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Decimal)
-extern "C" double Convert_ToDouble_m15240 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15778 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Double)
-extern "C" double Convert_ToDouble_m15241 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15779 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Single)
-extern "C" double Convert_ToDouble_m15242 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15780 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Int32)
-extern "C" double Convert_ToDouble_m15243 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15781 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Int64)
-extern "C" double Convert_ToDouble_m15244 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15782 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.SByte)
-extern "C" double Convert_ToDouble_m15245 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15783 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Int16)
-extern "C" double Convert_ToDouble_m15246 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15784 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.String,System.IFormatProvider)
-extern "C" double Convert_ToDouble_m15247 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15785 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.UInt32)
-extern "C" double Convert_ToDouble_m15248 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15786 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.UInt64)
-extern "C" double Convert_ToDouble_m15249 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15787 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.UInt16)
-extern "C" double Convert_ToDouble_m15250 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m15788 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Double System.Convert::ToDouble(System.Object)
+extern "C" double Convert_ToDouble_m3384 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Convert::ToDouble(System.Object,System.IFormatProvider)
-extern "C" double Convert_ToDouble_m6653 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Convert_ToDouble_m7192 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Boolean)
-extern "C" int16_t Convert_ToInt16_m15251 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15789 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Byte)
-extern "C" int16_t Convert_ToInt16_m15252 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15790 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Char)
-extern "C" int16_t Convert_ToInt16_m15253 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15791 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Decimal)
-extern "C" int16_t Convert_ToInt16_m15254 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15792 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Double)
-extern "C" int16_t Convert_ToInt16_m15255 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15793 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Single)
-extern "C" int16_t Convert_ToInt16_m15256 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15794 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Int32)
-extern "C" int16_t Convert_ToInt16_m15257 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15795 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Int64)
-extern "C" int16_t Convert_ToInt16_m15258 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15796 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.SByte)
-extern "C" int16_t Convert_ToInt16_m15259 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15797 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Int16)
-extern "C" int16_t Convert_ToInt16_m15260 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15798 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.String,System.IFormatProvider)
-extern "C" int16_t Convert_ToInt16_m11260 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m9545 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.UInt32)
-extern "C" int16_t Convert_ToInt16_m15261 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15799 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.UInt64)
-extern "C" int16_t Convert_ToInt16_m15262 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15800 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.UInt16)
-extern "C" int16_t Convert_ToInt16_m15263 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15801 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Object)
-extern "C" int16_t Convert_ToInt16_m15264 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15802 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Convert::ToInt16(System.Object,System.IFormatProvider)
-extern "C" int16_t Convert_ToInt16_m15265 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Convert_ToInt16_m15803 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Boolean)
-extern "C" int32_t Convert_ToInt32_m15266 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15804 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Byte)
-extern "C" int32_t Convert_ToInt32_m15267 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15805 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Char)
-extern "C" int32_t Convert_ToInt32_m2722 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m3247 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Decimal)
-extern "C" int32_t Convert_ToInt32_m15268 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15806 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Double)
-extern "C" int32_t Convert_ToInt32_m15269 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15807 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Single)
-extern "C" int32_t Convert_ToInt32_m15270 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15808 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Int64)
-extern "C" int32_t Convert_ToInt32_m15271 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15809 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.SByte)
-extern "C" int32_t Convert_ToInt32_m15272 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15810 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Int16)
-extern "C" int32_t Convert_ToInt32_m15273 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15811 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.String)
-extern "C" int32_t Convert_ToInt32_m2694 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m3190 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.String,System.IFormatProvider)
-extern "C" int32_t Convert_ToInt32_m15274 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15812 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.String,System.Int32)
-extern "C" int32_t Convert_ToInt32_m2714 (Object_t * __this /* static, unused */, String_t* ___value, int32_t ___fromBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m3239 (Object_t * __this /* static, unused */, String_t* ___value, int32_t ___fromBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.UInt32)
-extern "C" int32_t Convert_ToInt32_m15275 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15813 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.UInt64)
-extern "C" int32_t Convert_ToInt32_m15276 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15814 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.UInt16)
-extern "C" int32_t Convert_ToInt32_m15277 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m15815 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Object)
-extern "C" int32_t Convert_ToInt32_m2769 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m3289 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ToInt32(System.Object,System.IFormatProvider)
-extern "C" int32_t Convert_ToInt32_m11292 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ToInt32_m9595 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Boolean)
-extern "C" int64_t Convert_ToInt64_m15278 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15816 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Byte)
-extern "C" int64_t Convert_ToInt64_m15279 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15817 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Char)
-extern "C" int64_t Convert_ToInt64_m15280 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15818 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Decimal)
-extern "C" int64_t Convert_ToInt64_m15281 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15819 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Double)
-extern "C" int64_t Convert_ToInt64_m2815 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m3335 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Single)
-extern "C" int64_t Convert_ToInt64_m15282 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15820 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Int32)
-extern "C" int64_t Convert_ToInt64_m15283 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15821 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Int64)
-extern "C" int64_t Convert_ToInt64_m15284 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15822 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.SByte)
-extern "C" int64_t Convert_ToInt64_m15285 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15823 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Int16)
-extern "C" int64_t Convert_ToInt64_m15286 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15824 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.String)
-extern "C" int64_t Convert_ToInt64_m15287 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15825 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.String,System.IFormatProvider)
-extern "C" int64_t Convert_ToInt64_m15288 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15826 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.UInt32)
-extern "C" int64_t Convert_ToInt64_m15289 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15827 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.UInt64)
-extern "C" int64_t Convert_ToInt64_m15290 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15828 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.UInt16)
-extern "C" int64_t Convert_ToInt64_m15291 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15829 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Object)
-extern "C" int64_t Convert_ToInt64_m15292 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15830 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Convert::ToInt64(System.Object,System.IFormatProvider)
-extern "C" int64_t Convert_ToInt64_m15293 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Convert_ToInt64_m15831 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Boolean)
-extern "C" int8_t Convert_ToSByte_m15294 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15832 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Byte)
-extern "C" int8_t Convert_ToSByte_m15295 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15833 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Char)
-extern "C" int8_t Convert_ToSByte_m15296 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15834 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Decimal)
-extern "C" int8_t Convert_ToSByte_m15297 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15835 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Double)
-extern "C" int8_t Convert_ToSByte_m15298 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15836 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Single)
-extern "C" int8_t Convert_ToSByte_m15299 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15837 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Int32)
-extern "C" int8_t Convert_ToSByte_m15300 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15838 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Int64)
-extern "C" int8_t Convert_ToSByte_m15301 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15839 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Int16)
-extern "C" int8_t Convert_ToSByte_m15302 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15840 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.String,System.IFormatProvider)
-extern "C" int8_t Convert_ToSByte_m15303 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15841 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.UInt32)
-extern "C" int8_t Convert_ToSByte_m15304 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15842 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.UInt64)
-extern "C" int8_t Convert_ToSByte_m15305 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15843 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.UInt16)
-extern "C" int8_t Convert_ToSByte_m15306 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15844 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Convert::ToSByte(System.Object,System.IFormatProvider)
-extern "C" int8_t Convert_ToSByte_m15307 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Convert_ToSByte_m15845 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Boolean)
-extern "C" float Convert_ToSingle_m15308 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15846 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Byte)
-extern "C" float Convert_ToSingle_m15309 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15847 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Decimal)
-extern "C" float Convert_ToSingle_m15310 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15848 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Double)
-extern "C" float Convert_ToSingle_m15311 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15849 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Single)
-extern "C" float Convert_ToSingle_m15312 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15850 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Int32)
-extern "C" float Convert_ToSingle_m15313 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15851 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Int64)
-extern "C" float Convert_ToSingle_m15314 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15852 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.SByte)
-extern "C" float Convert_ToSingle_m15315 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15853 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Int16)
-extern "C" float Convert_ToSingle_m15316 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15854 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.String,System.IFormatProvider)
-extern "C" float Convert_ToSingle_m15317 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15855 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.UInt32)
-extern "C" float Convert_ToSingle_m15318 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15856 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.UInt64)
-extern "C" float Convert_ToSingle_m15319 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15857 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.UInt16)
-extern "C" float Convert_ToSingle_m15320 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15858 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Convert::ToSingle(System.Object,System.IFormatProvider)
-extern "C" float Convert_ToSingle_m15321 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Convert_ToSingle_m15859 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Int32,System.Int32)
-extern "C" String_t* Convert_ToString_m2723 (Object_t * __this /* static, unused */, int32_t ___value, int32_t ___toBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ToString_m3248 (Object_t * __this /* static, unused */, int32_t ___value, int32_t ___toBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Int64)
-extern "C" String_t* Convert_ToString_m8826 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ToString_m11556 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Object)
-extern "C" String_t* Convert_ToString_m2745 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ToString_m3265 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Object,System.IFormatProvider)
-extern "C" String_t* Convert_ToString_m15322 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ToString_m15860 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Boolean)
-extern "C" uint16_t Convert_ToUInt16_m15323 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15861 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Byte)
-extern "C" uint16_t Convert_ToUInt16_m15324 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15862 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Char)
-extern "C" uint16_t Convert_ToUInt16_m15325 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15863 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Decimal)
-extern "C" uint16_t Convert_ToUInt16_m15326 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15864 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Double)
-extern "C" uint16_t Convert_ToUInt16_m15327 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15865 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Single)
-extern "C" uint16_t Convert_ToUInt16_m15328 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15866 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Int32)
-extern "C" uint16_t Convert_ToUInt16_m15329 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15867 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Int64)
-extern "C" uint16_t Convert_ToUInt16_m15330 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15868 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.SByte)
-extern "C" uint16_t Convert_ToUInt16_m15331 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15869 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Int16)
-extern "C" uint16_t Convert_ToUInt16_m15332 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15870 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.String,System.IFormatProvider)
-extern "C" uint16_t Convert_ToUInt16_m15333 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15871 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.UInt32)
-extern "C" uint16_t Convert_ToUInt16_m15334 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15872 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.UInt64)
-extern "C" uint16_t Convert_ToUInt16_m15335 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15873 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Object)
-extern "C" uint16_t Convert_ToUInt16_m6622 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m7162 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Convert::ToUInt16(System.Object,System.IFormatProvider)
-extern "C" uint16_t Convert_ToUInt16_m15336 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Convert_ToUInt16_m15874 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Boolean)
-extern "C" uint32_t Convert_ToUInt32_m6599 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m7140 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Byte)
-extern "C" uint32_t Convert_ToUInt32_m15337 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15875 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Char)
-extern "C" uint32_t Convert_ToUInt32_m15338 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15876 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Decimal)
-extern "C" uint32_t Convert_ToUInt32_m15339 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15877 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Double)
-extern "C" uint32_t Convert_ToUInt32_m15340 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15878 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Single)
-extern "C" uint32_t Convert_ToUInt32_m15341 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15879 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Int32)
-extern "C" uint32_t Convert_ToUInt32_m15342 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15880 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Int64)
-extern "C" uint32_t Convert_ToUInt32_m15343 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15881 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.SByte)
-extern "C" uint32_t Convert_ToUInt32_m15344 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15882 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Int16)
-extern "C" uint32_t Convert_ToUInt32_m15345 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15883 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.String,System.IFormatProvider)
-extern "C" uint32_t Convert_ToUInt32_m15346 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15884 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.UInt64)
-extern "C" uint32_t Convert_ToUInt32_m15347 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15885 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.UInt16)
-extern "C" uint32_t Convert_ToUInt32_m15348 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15886 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Object)
-extern "C" uint32_t Convert_ToUInt32_m6598 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m7139 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Object,System.IFormatProvider)
-extern "C" uint32_t Convert_ToUInt32_m15349 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Convert_ToUInt32_m15887 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Boolean)
-extern "C" uint64_t Convert_ToUInt64_m15350 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15888 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Byte)
-extern "C" uint64_t Convert_ToUInt64_m15351 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15889 (Object_t * __this /* static, unused */, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Char)
-extern "C" uint64_t Convert_ToUInt64_m15352 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15890 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Decimal)
-extern "C" uint64_t Convert_ToUInt64_m15353 (Object_t * __this /* static, unused */, Decimal_t590  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15891 (Object_t * __this /* static, unused */, Decimal_t642  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Double)
-extern "C" uint64_t Convert_ToUInt64_m15354 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15892 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Single)
-extern "C" uint64_t Convert_ToUInt64_m15355 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15893 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Int32)
-extern "C" uint64_t Convert_ToUInt64_m15356 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15894 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Int64)
-extern "C" uint64_t Convert_ToUInt64_m15357 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15895 (Object_t * __this /* static, unused */, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.SByte)
-extern "C" uint64_t Convert_ToUInt64_m15358 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15896 (Object_t * __this /* static, unused */, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Int16)
-extern "C" uint64_t Convert_ToUInt64_m15359 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15897 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.String,System.IFormatProvider)
-extern "C" uint64_t Convert_ToUInt64_m15360 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15898 (Object_t * __this /* static, unused */, String_t* ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.UInt32)
-extern "C" uint64_t Convert_ToUInt64_m15361 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15899 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.UInt16)
-extern "C" uint64_t Convert_ToUInt64_m15362 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15900 (Object_t * __this /* static, unused */, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Object)
-extern "C" uint64_t Convert_ToUInt64_m6623 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m7163 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Object,System.IFormatProvider)
-extern "C" uint64_t Convert_ToUInt64_m15363 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Convert_ToUInt64_m15901 (Object_t * __this /* static, unused */, Object_t * ___value, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Convert::ChangeType(System.Object,System.Type)
-extern "C" Object_t * Convert_ChangeType_m15364 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___conversionType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Convert_ChangeType_m15902 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___conversionType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Convert::NotValidBase(System.Int32)
-extern "C" bool Convert_NotValidBase_m15365 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Convert_NotValidBase_m15903 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Convert::ConvertFromBase(System.String,System.Int32,System.Boolean)
-extern "C" int32_t Convert_ConvertFromBase_m15366 (Object_t * __this /* static, unused */, String_t* ___value, int32_t ___fromBase, bool ___unsigned, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Convert_ConvertFromBase_m15904 (Object_t * __this /* static, unused */, String_t* ___value, int32_t ___fromBase, bool ___unsigned, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Convert::EndianSwap(System.Byte[]&)
-extern "C" void Convert_EndianSwap_m15367 (Object_t * __this /* static, unused */, ByteU5BU5D_t36** ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Convert_EndianSwap_m15905 (Object_t * __this /* static, unused */, ByteU5BU5D_t36** ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ConvertToBase2(System.Byte[])
-extern "C" String_t* Convert_ConvertToBase2_m15368 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ConvertToBase2_m15906 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ConvertToBase8(System.Byte[])
-extern "C" String_t* Convert_ConvertToBase8_m15369 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ConvertToBase8_m15907 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ConvertToBase16(System.Byte[])
-extern "C" String_t* Convert_ConvertToBase16_m15370 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Convert_ConvertToBase16_m15908 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Convert::ToType(System.Object,System.Type,System.IFormatProvider,System.Boolean)
-extern "C" Object_t * Convert_ToType_m15371 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___conversionType, Object_t * ___provider, bool ___try_target_to_type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Convert_ToType_m15909 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___conversionType, Object_t * ___provider, bool ___try_target_to_type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

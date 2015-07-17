@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SFXSilencer
-struct  SFXSilencer_t503  : public MonoBehaviour_t67
+struct  SFXSilencer_t541  : public MonoBehaviour_t67
 {
 	// System.Boolean SFXSilencer::registeredForEvents
 	bool ___registeredForEvents_2;

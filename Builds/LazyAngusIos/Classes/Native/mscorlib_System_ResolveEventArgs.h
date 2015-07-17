@@ -3,6 +3,6 @@
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // System.ResolveEventArgs
-struct  ResolveEventArgs_t2763  : public EventArgs_t1722
+struct  ResolveEventArgs_t2807  : public EventArgs_t1642
 {
 };

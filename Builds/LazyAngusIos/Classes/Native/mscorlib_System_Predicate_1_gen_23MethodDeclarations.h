@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<System.Single>
-struct Predicate_1_t3615;
+// System.Predicate`1<ExplicitMouseDesc>
+struct Predicate_1_t3666;
 // System.Object
 struct Object_t;
+// ExplicitMouseDesc
+struct ExplicitMouseDesc_t450;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<System.Single>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m21577_gshared (Predicate_1_t3615 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m21577(__this, ___object, ___method, method) (( void (*) (Predicate_1_t3615 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21577_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<System.Single>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m21578_gshared (Predicate_1_t3615 * __this, float ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m21578(__this, ___obj, method) (( bool (*) (Predicate_1_t3615 *, float, const MethodInfo*))Predicate_1_Invoke_m21578_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m21579_gshared (Predicate_1_t3615 * __this, float ___obj, AsyncCallback_t387 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m21579(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t3615 *, float, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21579_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<System.Single>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m21580_gshared (Predicate_1_t3615 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m21580(__this, ___result, method) (( bool (*) (Predicate_1_t3615 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21580_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<ExplicitMouseDesc>::.ctor(System.Object,System.IntPtr)
+// System.Predicate`1<System.Object>
+#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
+#define Predicate_1__ctor_m22369(__this, ___object, ___method, method) (( void (*) (Predicate_1_t3666 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m17530_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<ExplicitMouseDesc>::Invoke(T)
+#define Predicate_1_Invoke_m22370(__this, ___obj, method) (( bool (*) (Predicate_1_t3666 *, ExplicitMouseDesc_t450 *, const MethodInfo*))Predicate_1_Invoke_m17531_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<ExplicitMouseDesc>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m22371(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t3666 *, ExplicitMouseDesc_t450 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m17532_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<ExplicitMouseDesc>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m22372(__this, ___result, method) (( bool (*) (Predicate_1_t3666 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m17533_gshared)(__this, ___result, method)

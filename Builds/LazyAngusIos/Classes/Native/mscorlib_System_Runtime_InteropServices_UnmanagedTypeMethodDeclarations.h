@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.UnmanagedType
-struct UnmanagedType_t2507;
+struct UnmanagedType_t2551;
 

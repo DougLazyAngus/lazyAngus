@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.GameObject
-struct GameObject_t284;
+// UnityEngine.Transform
+struct Transform_t364;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.GameObject>
-struct  Comparison_1_t3690  : public MulticastDelegate_t389
+// System.Comparison`1<UnityEngine.Transform>
+struct  Comparison_1_t3750  : public MulticastDelegate_t346
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// GPScore[]
-struct GPScoreU5BU5D_t3454;
+// GADTestDevice[]
+struct GADTestDeviceU5BU5D_t3479;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<GPScore>
-struct  List_1_t542  : public Object_t
+// System.Collections.Generic.List`1<GADTestDevice>
+struct  List_1_t104  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<GPScore>::_items
-	GPScoreU5BU5D_t3454* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<GPScore>::_size
+	// T[] System.Collections.Generic.List`1<GADTestDevice>::_items
+	GADTestDeviceU5BU5D_t3479* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<GADTestDevice>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<GPScore>::_version
+	// System.Int32 System.Collections.Generic.List`1<GADTestDevice>::_version
 	int32_t ____version_3;
 };
-struct List_1_t542_StaticFields{
-	// T[] System.Collections.Generic.List`1<GPScore>::EmptyArray
-	GPScoreU5BU5D_t3454* ___EmptyArray_4;
+struct List_1_t104_StaticFields{
+	// T[] System.Collections.Generic.List`1<GADTestDevice>::EmptyArray
+	GADTestDeviceU5BU5D_t3479* ___EmptyArray_4;
 };

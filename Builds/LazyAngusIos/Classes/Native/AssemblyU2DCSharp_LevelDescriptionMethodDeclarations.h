@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // LevelDescription
-struct LevelDescription_t449;
+struct LevelDescription_t487;
 
 // System.Void LevelDescription::.ctor()
-extern "C" void LevelDescription__ctor_m2085 (LevelDescription_t449 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LevelDescription__ctor_m2550 (LevelDescription_t487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

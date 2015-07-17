@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.SmallXmlParserException
-struct SmallXmlParserException_t2353;
+struct SmallXmlParserException_t2397;
 // System.String
 struct String_t;
 
 // System.Void Mono.Xml.SmallXmlParserException::.ctor(System.String,System.Int32,System.Int32)
-extern "C" void SmallXmlParserException__ctor_m12619 (SmallXmlParserException_t2353 * __this, String_t* ___msg, int32_t ___line, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParserException__ctor_m13157 (SmallXmlParserException_t2397 * __this, String_t* ___msg, int32_t ___line, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;

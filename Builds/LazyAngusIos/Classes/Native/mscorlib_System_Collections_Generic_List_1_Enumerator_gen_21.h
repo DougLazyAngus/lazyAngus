@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
-struct List_1_t1445;
-// System.Collections.Generic.RBTree/Node
-struct Node_t1441;
+// System.Collections.Generic.List`1<TwitterUserInfo>
+struct List_1_t279;
+// TwitterUserInfo
+struct TwitterUserInfo_t266;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>
-struct  Enumerator_t3556 
+// System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>
+struct  Enumerator_t3607 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::l
-	List_1_t1445 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>::l
+	List_1_t279 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::current
-	Node_t1441 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>::current
+	TwitterUserInfo_t266 * ___current_3;
 };

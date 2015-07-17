@@ -1,48 +1,48 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t455;
+struct Int32U5BU5D_t493;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3343;
-// UnityEngine.Font[]
-struct FontU5BU5D_t3708;
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>[]
-struct List_1U5BU5D_t3709;
-// System.Collections.Generic.IEqualityComparer`1<UnityEngine.Font>
-struct IEqualityComparer_1_t3710;
+struct LinkU5BU5D_t3387;
+// System.String[]
+struct StringU5BU5D_t45;
+// TwitterUserInfo[]
+struct TwitterUserInfoU5BU5D_t3593;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_t3353;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1255;
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
-struct Transform_1_t3711;
+struct SerializationInfo_t1299;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,TwitterUserInfo,System.Collections.DictionaryEntry>
+struct Transform_1_t3594;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  Dictionary_2_t758  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>
+struct  Dictionary_2_t275  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::table
-	Int32U5BU5D_t455* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::linkSlots
-	LinkU5BU5D_t3343* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::keySlots
-	FontU5BU5D_t3708* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::valueSlots
-	List_1U5BU5D_t3709* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::table
+	Int32U5BU5D_t493* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::linkSlots
+	LinkU5BU5D_t3387* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::keySlots
+	StringU5BU5D_t45* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::valueSlots
+	TwitterUserInfoU5BU5D_t3593* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::serialization_info
-	SerializationInfo_t1255 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::serialization_info
+	SerializationInfo_t1299 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t758_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::<>f__am$cacheB
-	Transform_1_t3711 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t275_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::<>f__am$cacheB
+	Transform_1_t3594 * ___U3CU3Ef__amU24cacheB_15;
 };

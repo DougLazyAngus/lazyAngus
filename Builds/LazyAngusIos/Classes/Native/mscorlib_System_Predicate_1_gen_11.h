@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// GP_Participant
-struct GP_Participant_t157;
+// GPScore
+struct GPScore_t301;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<GP_Participant>
-struct  Predicate_1_t3466  : public MulticastDelegate_t389
+// System.Predicate`1<GPScore>
+struct  Predicate_1_t3523  : public MulticastDelegate_t346
 {
 };

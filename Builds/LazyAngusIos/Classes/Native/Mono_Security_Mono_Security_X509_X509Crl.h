@@ -3,30 +3,30 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t1459;
+struct ArrayList_t1554;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // Mono.Security.X509.X509ExtensionCollection
 struct X509ExtensionCollection_t1757;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t154;
+struct Dictionary_2_t181;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Crl
-struct  X509Crl_t1728  : public Object_t
+struct  X509Crl_t1764  : public Object_t
 {
 	// System.String Mono.Security.X509.X509Crl::issuer
 	String_t* ___issuer_0;
 	// System.Byte Mono.Security.X509.X509Crl::version
 	uint8_t ___version_1;
 	// System.DateTime Mono.Security.X509.X509Crl::thisUpdate
-	DateTime_t219  ___thisUpdate_2;
+	DateTime_t245  ___thisUpdate_2;
 	// System.DateTime Mono.Security.X509.X509Crl::nextUpdate
-	DateTime_t219  ___nextUpdate_3;
+	DateTime_t245  ___nextUpdate_3;
 	// System.Collections.ArrayList Mono.Security.X509.X509Crl::entries
-	ArrayList_t1459 * ___entries_4;
+	ArrayList_t1554 * ___entries_4;
 	// System.String Mono.Security.X509.X509Crl::signatureOID
 	String_t* ___signatureOID_5;
 	// System.Byte[] Mono.Security.X509.X509Crl::signature
@@ -38,7 +38,7 @@ struct  X509Crl_t1728  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Crl::hash_value
 	ByteU5BU5D_t36* ___hash_value_9;
 };
-struct X509Crl_t1728_StaticFields{
+struct X509Crl_t1764_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Crl::<>f__switch$map13
-	Dictionary_2_t154 * ___U3CU3Ef__switchU24map13_10;
+	Dictionary_2_t181 * ___U3CU3Ef__switchU24map13_10;
 };

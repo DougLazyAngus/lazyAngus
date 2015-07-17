@@ -40,7 +40,7 @@
 
 
 // System.Boolean Replacements.MSCompatUnicodeTable::get_IsReady()
-extern "C" bool MSCompatUnicodeTable_get_IsReady_m10445 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" bool MSCompatUnicodeTable_get_IsReady_m7466 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	{
 		return 0;
@@ -68,7 +68,7 @@ extern "C" bool MSCompatUnicodeTable_get_IsReady_m10445 (Object_t * __this /* st
 
 // System.String Replacements.SecurityElement::ToString(System.Object)
 extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" String_t* SecurityElement_ToString_m10446 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method)
+extern "C" String_t* SecurityElement_ToString_m7467 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -78,7 +78,7 @@ extern "C" String_t* SecurityElement_ToString_m10446 (Object_t * __this /* stati
 	}
 	{
 		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m8743(L_0, (String_t*) &_stringLiteral2356, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m7470(L_0, (String_t*) &_stringLiteral1341, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -97,7 +97,7 @@ extern "C" String_t* SecurityElement_ToString_m10446 (Object_t * __this /* stati
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
 extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10447 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method)
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m7468 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -107,13 +107,13 @@ extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10447 (Object_
 	}
 	{
 		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m8743(L_0, (String_t*) &_stringLiteral2357, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m7470(L_0, (String_t*) &_stringLiteral1342, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
 extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m10448 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t541* ___activationAttributes, const MethodInfo* method)
+extern "C" Object_t * RemotingServices_CreateClientProxy_m7469 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t580* ___activationAttributes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -123,7 +123,7 @@ extern "C" Object_t * RemotingServices_CreateClientProxy_m10448 (Object_t * __th
 	}
 	{
 		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m8743(L_0, (String_t*) &_stringLiteral2358, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m7470(L_0, (String_t*) &_stringLiteral1343, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

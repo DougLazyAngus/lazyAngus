@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// TwitterUserInfo[]
-struct TwitterUserInfoU5BU5D_t3528;
+// FBLikeInfo[]
+struct FBLikeInfoU5BU5D_t3564;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<TwitterUserInfo>
-struct  List_1_t253  : public Object_t
+// System.Collections.Generic.List`1<FBLikeInfo>
+struct  List_1_t587  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<TwitterUserInfo>::_items
-	TwitterUserInfoU5BU5D_t3528* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<TwitterUserInfo>::_size
+	// T[] System.Collections.Generic.List`1<FBLikeInfo>::_items
+	FBLikeInfoU5BU5D_t3564* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<FBLikeInfo>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<TwitterUserInfo>::_version
+	// System.Int32 System.Collections.Generic.List`1<FBLikeInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t253_StaticFields{
-	// T[] System.Collections.Generic.List`1<TwitterUserInfo>::EmptyArray
-	TwitterUserInfoU5BU5D_t3528* ___EmptyArray_4;
+struct List_1_t587_StaticFields{
+	// T[] System.Collections.Generic.List`1<FBLikeInfo>::EmptyArray
+	FBLikeInfoU5BU5D_t3564* ___EmptyArray_4;
 };

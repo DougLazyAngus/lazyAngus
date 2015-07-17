@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.TimeZone
-struct TimeZone_t1753;
+struct TimeZone_t2194;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.TimeZone
-struct  TimeZone_t1753  : public Object_t
+struct  TimeZone_t2194  : public Object_t
 {
 };
-struct TimeZone_t1753_StaticFields{
+struct TimeZone_t2194_StaticFields{
 	// System.TimeZone System.TimeZone::currentTimeZone
-	TimeZone_t1753 * ___currentTimeZone_0;
+	TimeZone_t2194 * ___currentTimeZone_0;
 };

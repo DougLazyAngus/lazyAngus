@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Action`1<System.String>
-struct Action_1_t661;
+// System.Action`1<System.Object>
+struct Action_1_t3478;
 // System.Object
 struct Object_t;
-// System.String
-struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
-// System.Action`1<System.Object>
-#include "mscorlib_System_Action_1_gen_16MethodDeclarations.h"
-#define Action_1__ctor_m18605(__this, ___object, ___method, method) (( void (*) (Action_1_t661 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m18503_gshared)(__this, ___object, ___method, method)
-// System.Void System.Action`1<System.String>::Invoke(T)
-#define Action_1_Invoke_m18606(__this, ___obj, method) (( void (*) (Action_1_t661 *, String_t*, const MethodInfo*))Action_1_Invoke_m18505_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Action`1<System.String>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m18607(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t661 *, String_t*, AsyncCallback_t387 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m18507_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Void System.Action`1<System.String>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m18608(__this, ___result, method) (( void (*) (Action_1_t661 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m18509_gshared)(__this, ___result, method)
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C" void Action_1__ctor_m19139_gshared (Action_1_t3478 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Action_1__ctor_m19139(__this, ___object, ___method, method) (( void (*) (Action_1_t3478 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m19139_gshared)(__this, ___object, ___method, method)
+// System.Void System.Action`1<System.Object>::Invoke(T)
+extern "C" void Action_1_Invoke_m19141_gshared (Action_1_t3478 * __this, Object_t * ___obj, const MethodInfo* method);
+#define Action_1_Invoke_m19141(__this, ___obj, method) (( void (*) (Action_1_t3478 *, Object_t *, const MethodInfo*))Action_1_Invoke_m19141_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Action`1<System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
+extern "C" Object_t * Action_1_BeginInvoke_m19143_gshared (Action_1_t3478 * __this, Object_t * ___obj, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Action_1_BeginInvoke_m19143(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t3478 *, Object_t *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m19143_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Void System.Action`1<System.Object>::EndInvoke(System.IAsyncResult)
+extern "C" void Action_1_EndInvoke_m19145_gshared (Action_1_t3478 * __this, Object_t * ___result, const MethodInfo* method);
+#define Action_1_EndInvoke_m19145(__this, ___result, method) (( void (*) (Action_1_t3478 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m19145_gshared)(__this, ___result, method)

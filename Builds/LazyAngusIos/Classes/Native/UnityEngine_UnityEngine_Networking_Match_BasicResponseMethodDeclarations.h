@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Match.BasicResponse
-struct BasicResponse_t1122;
+struct BasicResponse_t1167;
 
 // System.Void UnityEngine.Networking.Match.BasicResponse::.ctor()
-extern "C" void BasicResponse__ctor_m6143 (BasicResponse_t1122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicResponse__ctor_m6684 (BasicResponse_t1167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

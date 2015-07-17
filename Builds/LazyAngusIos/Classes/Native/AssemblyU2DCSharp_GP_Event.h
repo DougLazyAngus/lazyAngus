@@ -7,7 +7,7 @@ struct Texture2D_t65;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_Event
-struct  GP_Event_t168  : public Object_t
+struct  GP_Event_t195  : public Object_t
 {
 	// System.String GP_Event::Id
 	String_t* ___Id_0;

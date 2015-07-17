@@ -3,28 +3,28 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t603;
+struct Uri_t654;
 // System.Int32[]
-struct Int32U5BU5D_t455;
+struct Int32U5BU5D_t493;
 // System.Char[]
-struct CharU5BU5D_t565;
+struct CharU5BU5D_t606;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.Cookie
-struct  Cookie_t1517  : public Object_t
+struct  Cookie_t2002  : public Object_t
 {
 	// System.String System.Net.Cookie::comment
 	String_t* ___comment_0;
 	// System.Uri System.Net.Cookie::commentUri
-	Uri_t603 * ___commentUri_1;
+	Uri_t654 * ___commentUri_1;
 	// System.Boolean System.Net.Cookie::discard
 	bool ___discard_2;
 	// System.String System.Net.Cookie::domain
 	String_t* ___domain_3;
 	// System.DateTime System.Net.Cookie::expires
-	DateTime_t219  ___expires_4;
+	DateTime_t245  ___expires_4;
 	// System.Boolean System.Net.Cookie::httpOnly
 	bool ___httpOnly_5;
 	// System.String System.Net.Cookie::name
@@ -34,11 +34,11 @@ struct  Cookie_t1517  : public Object_t
 	// System.String System.Net.Cookie::port
 	String_t* ___port_8;
 	// System.Int32[] System.Net.Cookie::ports
-	Int32U5BU5D_t455* ___ports_9;
+	Int32U5BU5D_t493* ___ports_9;
 	// System.Boolean System.Net.Cookie::secure
 	bool ___secure_10;
 	// System.DateTime System.Net.Cookie::timestamp
-	DateTime_t219  ___timestamp_11;
+	DateTime_t245  ___timestamp_11;
 	// System.String System.Net.Cookie::val
 	String_t* ___val_12;
 	// System.Int32 System.Net.Cookie::version
@@ -46,11 +46,11 @@ struct  Cookie_t1517  : public Object_t
 	// System.Boolean System.Net.Cookie::exact_domain
 	bool ___exact_domain_17;
 };
-struct Cookie_t1517_StaticFields{
+struct Cookie_t2002_StaticFields{
 	// System.Char[] System.Net.Cookie::reservedCharsName
-	CharU5BU5D_t565* ___reservedCharsName_14;
+	CharU5BU5D_t606* ___reservedCharsName_14;
 	// System.Char[] System.Net.Cookie::portSeparators
-	CharU5BU5D_t565* ___portSeparators_15;
+	CharU5BU5D_t606* ___portSeparators_15;
 	// System.String System.Net.Cookie::tspecials
 	String_t* ___tspecials_16;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// GoogleMobileAdBanner[]
-struct GoogleMobileAdBannerU5BU5D_t3430;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t4123;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct  List_1_t660  : public Object_t
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct  List_1_t2004  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<GoogleMobileAdBanner>::_items
-	GoogleMobileAdBannerU5BU5D_t3430* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<GoogleMobileAdBanner>::_size
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::_items
+	CookieU5BU5D_t4123* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<GoogleMobileAdBanner>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_version
 	int32_t ____version_3;
 };
-struct List_1_t660_StaticFields{
-	// T[] System.Collections.Generic.List`1<GoogleMobileAdBanner>::EmptyArray
-	GoogleMobileAdBannerU5BU5D_t3430* ___EmptyArray_4;
+struct List_1_t2004_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::EmptyArray
+	CookieU5BU5D_t4123* ___EmptyArray_4;
 };

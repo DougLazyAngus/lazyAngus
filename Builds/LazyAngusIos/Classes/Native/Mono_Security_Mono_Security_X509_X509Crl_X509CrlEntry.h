@@ -9,12 +9,12 @@ struct X509ExtensionCollection_t1757;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Crl/X509CrlEntry
-struct  X509CrlEntry_t1730  : public Object_t
+struct  X509CrlEntry_t1763  : public Object_t
 {
 	// System.Byte[] Mono.Security.X509.X509Crl/X509CrlEntry::sn
 	ByteU5BU5D_t36* ___sn_0;
 	// System.DateTime Mono.Security.X509.X509Crl/X509CrlEntry::revocationDate
-	DateTime_t219  ___revocationDate_1;
+	DateTime_t245  ___revocationDate_1;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl/X509CrlEntry::extensions
 	X509ExtensionCollection_t1757 * ___extensions_2;
 };

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>
-struct Enumerator_t3411;
+// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
+struct Enumerator_t2191;
 // System.Object
 struct Object_t;
-// UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t535;
-// System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t539;
+// System.Net.Cookie
+struct Cookie_t2002;
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct List_1_t2004;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4MethodDeclarations.h"
-#define Enumerator__ctor_m18198(__this, ___l, method) (( void (*) (Enumerator_t3411 *, List_1_t539 *, const MethodInfo*))Enumerator__ctor_m16923_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m18199(__this, method) (( Object_t * (*) (Enumerator_t3411 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m16924_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::Dispose()
-#define Enumerator_Dispose_m18200(__this, method) (( void (*) (Enumerator_t3411 *, const MethodInfo*))Enumerator_Dispose_m16925_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::VerifyState()
-#define Enumerator_VerifyState_m18201(__this, method) (( void (*) (Enumerator_t3411 *, const MethodInfo*))Enumerator_VerifyState_m16926_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::MoveNext()
-#define Enumerator_MoveNext_m18202(__this, method) (( bool (*) (Enumerator_t3411 *, const MethodInfo*))Enumerator_MoveNext_m2748_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::get_Current()
-#define Enumerator_get_Current_m18203(__this, method) (( EventHandlerFunction_t535 * (*) (Enumerator_t3411 *, const MethodInfo*))Enumerator_get_Current_m2747_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
+#define Enumerator__ctor_m28625(__this, ___l, method) (( void (*) (Enumerator_t2191 *, List_1_t2004 *, const MethodInfo*))Enumerator__ctor_m17460_gshared)(__this, ___l, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m28626(__this, method) (( Object_t * (*) (Enumerator_t2191 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17461_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::Dispose()
+#define Enumerator_Dispose_m28627(__this, method) (( void (*) (Enumerator_t2191 *, const MethodInfo*))Enumerator_Dispose_m17462_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::VerifyState()
+#define Enumerator_VerifyState_m28628(__this, method) (( void (*) (Enumerator_t2191 *, const MethodInfo*))Enumerator_VerifyState_m17463_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::MoveNext()
+#define Enumerator_MoveNext_m28629(__this, method) (( bool (*) (Enumerator_t2191 *, const MethodInfo*))Enumerator_MoveNext_m3268_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::get_Current()
+#define Enumerator_get_Current_m28630(__this, method) (( Cookie_t2002 * (*) (Enumerator_t2191 *, const MethodInfo*))Enumerator_get_Current_m3267_gshared)(__this, method)

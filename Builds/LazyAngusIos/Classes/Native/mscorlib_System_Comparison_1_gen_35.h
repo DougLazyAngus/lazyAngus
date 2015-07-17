@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Canvas
-struct Canvas_t375;
 // System.IAsyncResult
-struct IAsyncResult_t386;
+struct IAsyncResult_t343;
 // System.AsyncCallback
-struct AsyncCallback_t387;
+struct AsyncCallback_t344;
 // System.Object
 struct Object_t;
+// UnityEngine.UIVertex
+#include "UnityEngine_UnityEngine_UIVertex.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.Canvas>
-struct  Comparison_1_t3739  : public MulticastDelegate_t389
+// System.Comparison`1<UnityEngine.UIVertex>
+struct  Comparison_1_t3791  : public MulticastDelegate_t346
 {
 };

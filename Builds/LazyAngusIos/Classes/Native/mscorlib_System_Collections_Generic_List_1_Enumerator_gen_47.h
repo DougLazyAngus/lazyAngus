@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct List_1_t1117;
+// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
+struct List_1_t1161;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// UnityEngine.UILineInfo
-#include "UnityEngine_UnityEngine_UILineInfo.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>
-struct  Enumerator_t3866 
+// UnityEngine.UICharInfo
+#include "UnityEngine_UnityEngine_UICharInfo.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
+struct  Enumerator_t3922 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::l
-	List_1_t1117 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::l
+	List_1_t1161 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::current
-	UILineInfo_t920  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::current
+	UICharInfo_t968  ___current_3;
 };

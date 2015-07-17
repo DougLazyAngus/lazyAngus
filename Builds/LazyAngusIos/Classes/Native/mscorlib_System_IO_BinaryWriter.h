@@ -5,7 +5,7 @@ struct BinaryWriter_t23;
 // System.IO.Stream
 struct Stream_t24;
 // System.Text.Encoding
-struct Encoding_t584;
+struct Encoding_t636;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Object
@@ -16,7 +16,7 @@ struct  BinaryWriter_t23  : public Object_t
 	// System.IO.Stream System.IO.BinaryWriter::OutStream
 	Stream_t24 * ___OutStream_1;
 	// System.Text.Encoding System.IO.BinaryWriter::m_encoding
-	Encoding_t584 * ___m_encoding_2;
+	Encoding_t636 * ___m_encoding_2;
 	// System.Byte[] System.IO.BinaryWriter::buffer
 	ByteU5BU5D_t36* ___buffer_3;
 	// System.Boolean System.IO.BinaryWriter::disposed

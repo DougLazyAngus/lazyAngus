@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Graphic
-struct Graphic_t764;
+struct Graphic_t810;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.BaseVertexEffect
-struct  BaseVertexEffect_t862  : public UIBehaviour_t690
+struct  BaseVertexEffect_t908  : public UIBehaviour_t736
 {
 	// UnityEngine.UI.Graphic UnityEngine.UI.BaseVertexEffect::m_Graphic
-	Graphic_t764 * ___m_Graphic_2;
+	Graphic_t810 * ___m_Graphic_2;
 };

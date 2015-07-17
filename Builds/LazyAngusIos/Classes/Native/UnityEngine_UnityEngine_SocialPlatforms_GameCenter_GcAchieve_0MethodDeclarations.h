@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.GameCenter.GcAchievementData
-struct GcAchievementData_t1175;
-struct GcAchievementData_t1175_marshaled;
+struct GcAchievementData_t1220;
+struct GcAchievementData_t1220_marshaled;
 // UnityEngine.SocialPlatforms.Impl.Achievement
-struct Achievement_t1187;
+struct Achievement_t1231;
 
 // UnityEngine.SocialPlatforms.Impl.Achievement UnityEngine.SocialPlatforms.GameCenter.GcAchievementData::ToAchievement()
-extern "C" Achievement_t1187 * GcAchievementData_ToAchievement_m6369 (GcAchievementData_t1175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void GcAchievementData_t1175_marshal(const GcAchievementData_t1175& unmarshaled, GcAchievementData_t1175_marshaled& marshaled);
-void GcAchievementData_t1175_marshal_back(const GcAchievementData_t1175_marshaled& marshaled, GcAchievementData_t1175& unmarshaled);
-void GcAchievementData_t1175_marshal_cleanup(GcAchievementData_t1175_marshaled& marshaled);
+extern "C" Achievement_t1231 * GcAchievementData_ToAchievement_m6910 (GcAchievementData_t1220 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void GcAchievementData_t1220_marshal(const GcAchievementData_t1220& unmarshaled, GcAchievementData_t1220_marshaled& marshaled);
+void GcAchievementData_t1220_marshal_back(const GcAchievementData_t1220_marshaled& marshaled, GcAchievementData_t1220& unmarshaled);
+void GcAchievementData_t1220_marshal_cleanup(GcAchievementData_t1220_marshaled& marshaled);

@@ -4,50 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>
-struct ValueCollection_t3755;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>
+struct ValueCollection_t3637;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>
-struct Dictionary_2_t913;
-// System.Collections.Generic.IEnumerator`1<System.Int32>
-struct IEnumerator_1_t4194;
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.FacebookDelegate>
+struct Dictionary_2_t371;
+// Facebook.FacebookDelegate
+struct FacebookDelegate_t391;
+// System.Collections.Generic.IEnumerator`1<Facebook.FacebookDelegate>
+struct IEnumerator_1_t4414;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
-// System.Int32[]
-struct Int32U5BU5D_t455;
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<UnityEngine.UI.Graphic,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_72.h"
+// Facebook.FacebookDelegate[]
+struct FacebookDelegateU5BU5D_t3629;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,Facebook.FacebookDelegate>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_76.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_16MethodDeclarations.h"
-#define ValueCollection__ctor_m23758(__this, ___dictionary, method) (( void (*) (ValueCollection_t3755 *, Dictionary_2_t913 *, const MethodInfo*))ValueCollection__ctor_m18755_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m23759(__this, ___item, method) (( void (*) (ValueCollection_t3755 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m18756_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m23760(__this, method) (( void (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m18757_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m23761(__this, ___item, method) (( bool (*) (ValueCollection_t3755 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m18758_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m23762(__this, ___item, method) (( bool (*) (ValueCollection_t3755 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m18759_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m23763(__this, method) (( Object_t* (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m18760_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m23764(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3755 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m18761_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m23765(__this, method) (( Object_t * (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m18762_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m23766(__this, method) (( bool (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m18763_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m23767(__this, method) (( bool (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m18764_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m23768(__this, method) (( Object_t * (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m18765_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m23769(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3755 *, Int32U5BU5D_t455*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m18766_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m23770(__this, method) (( Enumerator_t4439  (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_GetEnumerator_m18767_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::get_Count()
-#define ValueCollection_get_Count_m23771(__this, method) (( int32_t (*) (ValueCollection_t3755 *, const MethodInfo*))ValueCollection_get_Count_m18768_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_5MethodDeclarations.h"
+#define ValueCollection__ctor_m21972(__this, ___dictionary, method) (( void (*) (ValueCollection_t3637 *, Dictionary_2_t371 *, const MethodInfo*))ValueCollection__ctor_m17761_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21973(__this, ___item, method) (( void (*) (ValueCollection_t3637 *, FacebookDelegate_t391 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m17762_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.ICollection<TValue>.Clear()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21974(__this, method) (( void (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m17763_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21975(__this, ___item, method) (( bool (*) (ValueCollection_t3637 *, FacebookDelegate_t391 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m17764_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21976(__this, ___item, method) (( bool (*) (ValueCollection_t3637 *, FacebookDelegate_t391 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m17765_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21977(__this, method) (( Object_t* (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m17766_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ValueCollection_System_Collections_ICollection_CopyTo_m21978(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3637 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m17767_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.IEnumerable.GetEnumerator()
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m21979(__this, method) (( Object_t * (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m17768_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m21980(__this, method) (( bool (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m17769_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.ICollection.get_IsSynchronized()
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m21981(__this, method) (( bool (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m17770_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::System.Collections.ICollection.get_SyncRoot()
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m21982(__this, method) (( Object_t * (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m17771_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::CopyTo(TValue[],System.Int32)
+#define ValueCollection_CopyTo_m21983(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3637 *, FacebookDelegateU5BU5D_t3629*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m17772_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::GetEnumerator()
+#define ValueCollection_GetEnumerator_m21984(__this, method) (( Enumerator_t4421  (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_GetEnumerator_m17773_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::get_Count()
+#define ValueCollection_get_Count_m21985(__this, method) (( int32_t (*) (ValueCollection_t3637 *, const MethodInfo*))ValueCollection_get_Count_m17774_gshared)(__this, method)
