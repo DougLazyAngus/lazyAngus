@@ -34,7 +34,7 @@ public class SizeCamera : MonoBehaviour {
 		float bottomViewport = screenPixelsBottomToIgnore / (float)Screen.height;
 		float heightViewport = heightInPixels / (float)Screen.height;
 
-		rect.width = 1.0f;
+		rect.width = 1f;
 		rect.height = heightViewport;
 		rect.x = 0;
 		rect.y = bottomViewport;
