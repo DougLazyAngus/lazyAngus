@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDContentOrderType
-struct DTDContentOrderType_t1595;
+struct DTDContentOrderType_t1596;
 

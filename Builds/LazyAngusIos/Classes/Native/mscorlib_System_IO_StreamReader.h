@@ -3,26 +3,26 @@
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Char[]
-struct CharU5BU5D_t607;
+struct CharU5BU5D_t608;
 // System.Text.Encoding
-struct Encoding_t637;
+struct Encoding_t638;
 // System.Text.Decoder
-struct Decoder_t1631;
+struct Decoder_t1632;
 // System.IO.Stream
 struct Stream_t24;
 // System.Text.StringBuilder
-struct StringBuilder_t219;
+struct StringBuilder_t221;
 // System.IO.StreamReader
-struct StreamReader_t2032;
+struct StreamReader_t2033;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StreamReader
-struct  StreamReader_t2032  : public TextReader_t1632
+struct  StreamReader_t2033  : public TextReader_t1633
 {
 	// System.Byte[] System.IO.StreamReader::input_buffer
 	ByteU5BU5D_t36* ___input_buffer_1;
 	// System.Char[] System.IO.StreamReader::decoded_buffer
-	CharU5BU5D_t607* ___decoded_buffer_2;
+	CharU5BU5D_t608* ___decoded_buffer_2;
 	// System.Int32 System.IO.StreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.IO.StreamReader::pos
@@ -32,19 +32,19 @@ struct  StreamReader_t2032  : public TextReader_t1632
 	// System.Int32 System.IO.StreamReader::do_checks
 	int32_t ___do_checks_6;
 	// System.Text.Encoding System.IO.StreamReader::encoding
-	Encoding_t637 * ___encoding_7;
+	Encoding_t638 * ___encoding_7;
 	// System.Text.Decoder System.IO.StreamReader::decoder
-	Decoder_t1631 * ___decoder_8;
+	Decoder_t1632 * ___decoder_8;
 	// System.IO.Stream System.IO.StreamReader::base_stream
 	Stream_t24 * ___base_stream_9;
 	// System.Boolean System.IO.StreamReader::mayBlock
 	bool ___mayBlock_10;
 	// System.Text.StringBuilder System.IO.StreamReader::line_builder
-	StringBuilder_t219 * ___line_builder_11;
+	StringBuilder_t221 * ___line_builder_11;
 	// System.Boolean System.IO.StreamReader::foundCR
 	bool ___foundCR_13;
 };
-struct StreamReader_t2032_StaticFields{
+struct StreamReader_t2033_StaticFields{
 	// System.IO.StreamReader System.IO.StreamReader::Null
-	StreamReader_t2032 * ___Null_12;
+	StreamReader_t2033 * ___Null_12;
 };

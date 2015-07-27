@@ -5,7 +5,7 @@
 // GADInAppResolution
 #include "AssemblyU2DCSharp_GADInAppResolution.h"
 // GADInAppResolution
-struct  GADInAppResolution_t146 
+struct  GADInAppResolution_t148 
 {
 	// System.Int32 GADInAppResolution::value__
 	int32_t ___value___1;

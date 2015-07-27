@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.AlertDescription
-struct AlertDescription_t1783;
+struct AlertDescription_t1784;
 

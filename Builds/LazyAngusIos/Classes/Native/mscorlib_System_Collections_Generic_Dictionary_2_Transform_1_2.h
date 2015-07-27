@@ -5,9 +5,9 @@ struct String_t;
 // SimpleJSON.JSONNode
 struct JSONNode_t2;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,SimpleJSON.JSONNode,System.Collections.DictionaryEntry>
-struct  Transform_1_t3389  : public MulticastDelegate_t346
+struct  Transform_1_t3390  : public MulticastDelegate_t348
 {
 };

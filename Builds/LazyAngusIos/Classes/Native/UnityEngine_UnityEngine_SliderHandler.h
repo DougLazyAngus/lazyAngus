@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUIStyle
-struct GUIStyle_t64;
+struct GUIStyle_t67;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.SliderHandler
-struct  SliderHandler_t1250 
+struct  SliderHandler_t1251 
 {
 	// UnityEngine.Rect UnityEngine.SliderHandler::position
-	Rect_t594  ___position_0;
+	Rect_t595  ___position_0;
 	// System.Single UnityEngine.SliderHandler::currentValue
 	float ___currentValue_1;
 	// System.Single UnityEngine.SliderHandler::size
@@ -20,9 +20,9 @@ struct  SliderHandler_t1250
 	// System.Single UnityEngine.SliderHandler::end
 	float ___end_4;
 	// UnityEngine.GUIStyle UnityEngine.SliderHandler::slider
-	GUIStyle_t64 * ___slider_5;
+	GUIStyle_t67 * ___slider_5;
 	// UnityEngine.GUIStyle UnityEngine.SliderHandler::thumb
-	GUIStyle_t64 * ___thumb_6;
+	GUIStyle_t67 * ___thumb_6;
 	// System.Boolean UnityEngine.SliderHandler::horiz
 	bool ___horiz_7;
 	// System.Int32 UnityEngine.SliderHandler::id

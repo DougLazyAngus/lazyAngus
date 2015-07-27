@@ -5,7 +5,7 @@ struct String_t;
 // SAOnClickAction
 #include "AssemblyU2DCSharp_SAOnClickAction.h"
 // SAOpenUrlOnClick
-struct  SAOpenUrlOnClick_t358  : public SAOnClickAction_t357
+struct  SAOpenUrlOnClick_t360  : public SAOnClickAction_t359
 {
 	// System.String SAOpenUrlOnClick::url
 	String_t* ___url_2;

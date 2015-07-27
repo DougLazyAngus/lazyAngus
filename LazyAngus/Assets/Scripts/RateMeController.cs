@@ -17,6 +17,11 @@ public class RateMeController : MonoBehaviour {
 	}
 
 	bool MaybeShowRateMeDialog() {
+		bool suppressRatingRequests = PersistentStorage.instance.GetBoolValue ("suppressRatingRequests", false);
+		if (suppressRatingRequests) {
+			return false;
+		}
+
 		int currentLaunch = PersistentStorage.instance.GetIntValue ("launchCount", 0);
 		int previousShowLaunchCount = PersistentStorage.instance.GetIntValue ("rateThisLaunchCount", 0);
 		if (currentLaunch < previousShowLaunchCount + launchFrequency) {

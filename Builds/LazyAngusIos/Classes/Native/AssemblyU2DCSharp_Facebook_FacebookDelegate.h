@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // FBResult
-struct FBResult_t239;
+struct FBResult_t241;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Facebook.FacebookDelegate
-struct  FacebookDelegate_t391  : public MulticastDelegate_t346
+struct  FacebookDelegate_t393  : public MulticastDelegate_t348
 {
 };

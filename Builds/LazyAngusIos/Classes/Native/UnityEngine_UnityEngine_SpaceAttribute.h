@@ -3,7 +3,7 @@
 // UnityEngine.PropertyAttribute
 #include "UnityEngine_UnityEngine_PropertyAttribute.h"
 // UnityEngine.SpaceAttribute
-struct  SpaceAttribute_t1008  : public PropertyAttribute_t1248
+struct  SpaceAttribute_t1009  : public PropertyAttribute_t1249
 {
 	// System.Single UnityEngine.SpaceAttribute::height
 	float ___height_0;

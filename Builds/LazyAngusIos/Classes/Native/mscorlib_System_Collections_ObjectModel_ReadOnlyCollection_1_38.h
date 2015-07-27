@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<UnityEngine.UI.Toggle>
-struct IList_1_t3858;
+struct IList_1_t3859;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Toggle>
-struct  ReadOnlyCollection_1_t3859  : public Object_t
+struct  ReadOnlyCollection_1_t3860  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Toggle>::list
 	Object_t* ___list_0;

@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Text.RegularExpressions.Mark
-struct  Mark_t2132 
+struct  Mark_t2133 
 {
 	// System.Int32 System.Text.RegularExpressions.Mark::Start
 	int32_t ___Start_0;

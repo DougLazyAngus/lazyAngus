@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // FacebookProfileImageSize
-struct FacebookProfileImageSize_t252;
+struct FacebookProfileImageSize_t254;
 

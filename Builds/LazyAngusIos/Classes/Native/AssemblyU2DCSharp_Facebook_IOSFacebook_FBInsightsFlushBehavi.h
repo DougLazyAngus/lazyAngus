@@ -5,7 +5,7 @@
 // Facebook.IOSFacebook/FBInsightsFlushBehavior
 #include "AssemblyU2DCSharp_Facebook_IOSFacebook_FBInsightsFlushBehavi.h"
 // Facebook.IOSFacebook/FBInsightsFlushBehavior
-struct  FBInsightsFlushBehavior_t401 
+struct  FBInsightsFlushBehavior_t403 
 {
 	// System.Int32 Facebook.IOSFacebook/FBInsightsFlushBehavior::value__
 	int32_t ___value___1;

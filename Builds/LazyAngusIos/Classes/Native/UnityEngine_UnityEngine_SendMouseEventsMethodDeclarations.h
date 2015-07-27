@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SendMouseEvents
-struct SendMouseEvents_t1241;
+struct SendMouseEvents_t1242;
 // UnityEngine.SendMouseEvents/HitInfo
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
 // System.Void UnityEngine.SendMouseEvents::.cctor()
-extern "C" void SendMouseEvents__cctor_m6992 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents__cctor_m6995 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SendMouseEvents::DoSendMouseEvents(System.Int32,System.Int32)
-extern "C" void SendMouseEvents_DoSendMouseEvents_m6993 (Object_t * __this /* static, unused */, int32_t ___mouseUsed, int32_t ___skipRTCameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents_DoSendMouseEvents_m6996 (Object_t * __this /* static, unused */, int32_t ___mouseUsed, int32_t ___skipRTCameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SendMouseEvents::SendEvents(System.Int32,UnityEngine.SendMouseEvents/HitInfo)
-extern "C" void SendMouseEvents_SendEvents_m6994 (Object_t * __this /* static, unused */, int32_t ___i, HitInfo_t1238  ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents_SendEvents_m6997 (Object_t * __this /* static, unused */, int32_t ___i, HitInfo_t1239  ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;

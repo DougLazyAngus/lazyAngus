@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // FBAppRequestActionType
-struct FBAppRequestActionType_t227;
+struct FBAppRequestActionType_t229;
 

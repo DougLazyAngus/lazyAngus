@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Animator
-struct Animator_t565;
+struct Animator_t566;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TutsPlayerController
-struct  TutsPlayerController_t566  : public MonoBehaviour_t67
+struct  TutsPlayerController_t567  : public MonoBehaviour_t66
 {
 	// UnityEngine.Animator TutsPlayerController::animator
-	Animator_t565 * ___animator_2;
+	Animator_t566 * ___animator_2;
 };

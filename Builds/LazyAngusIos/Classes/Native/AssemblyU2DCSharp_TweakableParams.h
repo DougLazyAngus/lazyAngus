@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TweakableParams
-struct  TweakableParams_t567  : public MonoBehaviour_t67
+struct  TweakableParams_t568  : public MonoBehaviour_t66
 {
 };

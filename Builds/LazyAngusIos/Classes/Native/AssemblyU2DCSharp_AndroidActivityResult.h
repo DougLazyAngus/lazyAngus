@@ -5,7 +5,7 @@
 // AdroidActivityResultCodes
 #include "AssemblyU2DCSharp_AdroidActivityResultCodes.h"
 // AndroidActivityResult
-struct  AndroidActivityResult_t174  : public Object_t
+struct  AndroidActivityResult_t176  : public Object_t
 {
 	// AdroidActivityResultCodes AndroidActivityResult::_code
 	int32_t ____code_0;

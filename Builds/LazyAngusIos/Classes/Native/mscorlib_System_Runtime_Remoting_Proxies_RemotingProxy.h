@@ -3,22 +3,22 @@
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1486;
+struct IMessageSink_t1487;
 // System.Runtime.Remoting.Messaging.ConstructionCall
-struct ConstructionCall_t2576;
+struct ConstructionCall_t2577;
 // System.Runtime.Remoting.Proxies.RealProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RealProxy.h"
 // System.Runtime.Remoting.Proxies.RemotingProxy
-struct  RemotingProxy_t2597  : public RealProxy_t2594
+struct  RemotingProxy_t2598  : public RealProxy_t2595
 {
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Proxies.RemotingProxy::_sink
 	Object_t * ____sink_7;
 	// System.Boolean System.Runtime.Remoting.Proxies.RemotingProxy::_hasEnvoySink
 	bool ____hasEnvoySink_8;
 	// System.Runtime.Remoting.Messaging.ConstructionCall System.Runtime.Remoting.Proxies.RemotingProxy::_ctorCall
-	ConstructionCall_t2576 * ____ctorCall_9;
+	ConstructionCall_t2577 * ____ctorCall_9;
 };
-struct RemotingProxy_t2597_StaticFields{
+struct RemotingProxy_t2598_StaticFields{
 	// System.Reflection.MethodInfo System.Runtime.Remoting.Proxies.RemotingProxy::_cache_GetTypeMethod
 	MethodInfo_t * ____cache_GetTypeMethod_5;
 	// System.Reflection.MethodInfo System.Runtime.Remoting.Proxies.RemotingProxy::_cache_GetHashCodeMethod

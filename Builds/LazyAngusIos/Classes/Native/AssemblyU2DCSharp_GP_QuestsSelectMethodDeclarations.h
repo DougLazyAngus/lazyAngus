@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_QuestsSelect
-struct GP_QuestsSelect_t166;
+struct GP_QuestsSelect_t168;
 

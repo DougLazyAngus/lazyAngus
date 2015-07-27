@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_AppStateStatusCodes
-struct GP_AppStateStatusCodes_t154;
+struct GP_AppStateStatusCodes_t156;
 

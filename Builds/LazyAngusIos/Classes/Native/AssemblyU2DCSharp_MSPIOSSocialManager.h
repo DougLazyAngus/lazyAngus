@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // MSPIOSSocialManager
-struct MSPIOSSocialManager_t325;
+struct MSPIOSSocialManager_t327;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
 // MSPIOSSocialManager
-struct  MSPIOSSocialManager_t325  : public EventDispatcher_t87
+struct  MSPIOSSocialManager_t327  : public EventDispatcher_t89
 {
 };
-struct MSPIOSSocialManager_t325_StaticFields{
+struct MSPIOSSocialManager_t327_StaticFields{
 	// MSPIOSSocialManager MSPIOSSocialManager::_instance
-	MSPIOSSocialManager_t325 * ____instance_8;
+	MSPIOSSocialManager_t327 * ____instance_8;
 };

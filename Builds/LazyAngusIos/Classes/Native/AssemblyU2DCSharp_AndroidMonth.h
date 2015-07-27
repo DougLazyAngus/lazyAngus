@@ -5,7 +5,7 @@
 // AndroidMonth
 #include "AssemblyU2DCSharp_AndroidMonth.h"
 // AndroidMonth
-struct  AndroidMonth_t141 
+struct  AndroidMonth_t143 
 {
 	// System.Int32 AndroidMonth::value__
 	int32_t ___value___1;

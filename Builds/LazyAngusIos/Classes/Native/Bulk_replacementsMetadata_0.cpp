@@ -5,18 +5,18 @@
 // <Module>
 #include "replacements_U3CModuleU3E.h"
 // Metadata Definition <Module>
-extern TypeInfo U3CModuleU3E_t1482_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1483_il2cpp_TypeInfo;
 // <Module>
 #include "replacements_U3CModuleU3EMethodDeclarations.h"
-static const MethodInfo* U3CModuleU3E_t1482_MethodInfos[] =
+static const MethodInfo* U3CModuleU3E_t1483_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_replacements_dll_Image;
-extern const Il2CppType U3CModuleU3E_t1482_0_0_0;
-extern const Il2CppType U3CModuleU3E_t1482_1_0_0;
-struct U3CModuleU3E_t1482;
-const Il2CppTypeDefinitionMetadata U3CModuleU3E_t1482_DefinitionMetadata = 
+extern const Il2CppType U3CModuleU3E_t1483_0_0_0;
+extern const Il2CppType U3CModuleU3E_t1483_1_0_0;
+struct U3CModuleU3E_t1483;
+const Il2CppTypeDefinitionMetadata U3CModuleU3E_t1483_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -29,21 +29,21 @@ const Il2CppTypeDefinitionMetadata U3CModuleU3E_t1482_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo U3CModuleU3E_t1482_il2cpp_TypeInfo = 
+TypeInfo U3CModuleU3E_t1483_il2cpp_TypeInfo = 
 {
 	&g_replacements_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<Module>"/* name */
 	, ""/* namespaze */
-	, U3CModuleU3E_t1482_MethodInfos/* methods */
+	, U3CModuleU3E_t1483_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CModuleU3E_t1482_il2cpp_TypeInfo/* element_class */
+	, &U3CModuleU3E_t1483_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U3CModuleU3E_t1482_0_0_0/* byval_arg */
-	, &U3CModuleU3E_t1482_1_0_0/* this_arg */
-	, &U3CModuleU3E_t1482_DefinitionMetadata/* definitionMetadata */
+	, &U3CModuleU3E_t1483_0_0_0/* byval_arg */
+	, &U3CModuleU3E_t1483_1_0_0/* this_arg */
+	, &U3CModuleU3E_t1483_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -53,8 +53,8 @@ TypeInfo U3CModuleU3E_t1482_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CModuleU3E_t1482)/* instance_size */
-	, sizeof (U3CModuleU3E_t1482)/* actualSize */
+	, sizeof (U3CModuleU3E_t1483)/* instance_size */
+	, sizeof (U3CModuleU3E_t1483)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -86,17 +86,17 @@ TypeInfo U3CModuleU3E_t1482_il2cpp_TypeInfo =
 // Replacements.MSCompatUnicodeTable
 #include "replacements_Replacements_MSCompatUnicodeTable.h"
 // Metadata Definition Replacements.MSCompatUnicodeTable
-extern TypeInfo MSCompatUnicodeTable_t1483_il2cpp_TypeInfo;
+extern TypeInfo MSCompatUnicodeTable_t1484_il2cpp_TypeInfo;
 // Replacements.MSCompatUnicodeTable
 #include "replacements_Replacements_MSCompatUnicodeTableMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Replacements.MSCompatUnicodeTable::get_IsReady()
-extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7474_MethodInfo = 
+extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo = 
 {
 	"get_IsReady"/* name */
-	, (methodPointerType)&MSCompatUnicodeTable_get_IsReady_m7474/* method */
-	, &MSCompatUnicodeTable_t1483_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MSCompatUnicodeTable_get_IsReady_m7477/* method */
+	, &MSCompatUnicodeTable_t1484_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
 	, NULL/* parameters */
@@ -113,39 +113,39 @@ extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7474_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MSCompatUnicodeTable_t1483_MethodInfos[] =
+static const MethodInfo* MSCompatUnicodeTable_t1484_MethodInfos[] =
 {
-	&MSCompatUnicodeTable_get_IsReady_m7474_MethodInfo,
+	&MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo,
 	NULL
 };
-extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7474_MethodInfo;
-static const PropertyInfo MSCompatUnicodeTable_t1483____IsReady_PropertyInfo = 
+extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo;
+static const PropertyInfo MSCompatUnicodeTable_t1484____IsReady_PropertyInfo = 
 {
-	&MSCompatUnicodeTable_t1483_il2cpp_TypeInfo/* parent */
+	&MSCompatUnicodeTable_t1484_il2cpp_TypeInfo/* parent */
 	, "IsReady"/* name */
-	, &MSCompatUnicodeTable_get_IsReady_m7474_MethodInfo/* get */
+	, &MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* MSCompatUnicodeTable_t1483_PropertyInfos[] =
+static const PropertyInfo* MSCompatUnicodeTable_t1484_PropertyInfos[] =
 {
-	&MSCompatUnicodeTable_t1483____IsReady_PropertyInfo,
+	&MSCompatUnicodeTable_t1484____IsReady_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m252_MethodInfo;
 extern const MethodInfo Object_Finalize_m230_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m172_MethodInfo;
 extern const MethodInfo Object_ToString_m253_MethodInfo;
-static const Il2CppMethodReference MSCompatUnicodeTable_t1483_VTable[] =
+static const Il2CppMethodReference MSCompatUnicodeTable_t1484_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
-static bool MSCompatUnicodeTable_t1483_VTableIsGenericMethod[] =
+static bool MSCompatUnicodeTable_t1484_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -153,38 +153,38 @@ static bool MSCompatUnicodeTable_t1483_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_replacements_dll_Image;
-extern const Il2CppType MSCompatUnicodeTable_t1483_0_0_0;
-extern const Il2CppType MSCompatUnicodeTable_t1483_1_0_0;
+extern const Il2CppType MSCompatUnicodeTable_t1484_0_0_0;
+extern const Il2CppType MSCompatUnicodeTable_t1484_1_0_0;
 extern const Il2CppType Object_t_0_0_0;
-struct MSCompatUnicodeTable_t1483;
-const Il2CppTypeDefinitionMetadata MSCompatUnicodeTable_t1483_DefinitionMetadata = 
+struct MSCompatUnicodeTable_t1484;
+const Il2CppTypeDefinitionMetadata MSCompatUnicodeTable_t1484_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MSCompatUnicodeTable_t1483_VTable/* vtableMethods */
-	, MSCompatUnicodeTable_t1483_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MSCompatUnicodeTable_t1484_VTable/* vtableMethods */
+	, MSCompatUnicodeTable_t1484_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo MSCompatUnicodeTable_t1483_il2cpp_TypeInfo = 
+TypeInfo MSCompatUnicodeTable_t1484_il2cpp_TypeInfo = 
 {
 	&g_replacements_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MSCompatUnicodeTable"/* name */
 	, "Replacements"/* namespaze */
-	, MSCompatUnicodeTable_t1483_MethodInfos/* methods */
-	, MSCompatUnicodeTable_t1483_PropertyInfos/* properties */
+	, MSCompatUnicodeTable_t1484_MethodInfos/* methods */
+	, MSCompatUnicodeTable_t1484_PropertyInfos/* properties */
 	, NULL/* events */
-	, &MSCompatUnicodeTable_t1483_il2cpp_TypeInfo/* element_class */
+	, &MSCompatUnicodeTable_t1484_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MSCompatUnicodeTable_t1483_0_0_0/* byval_arg */
-	, &MSCompatUnicodeTable_t1483_1_0_0/* this_arg */
-	, &MSCompatUnicodeTable_t1483_DefinitionMetadata/* definitionMetadata */
+	, &MSCompatUnicodeTable_t1484_0_0_0/* byval_arg */
+	, &MSCompatUnicodeTable_t1484_1_0_0/* this_arg */
+	, &MSCompatUnicodeTable_t1484_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -194,8 +194,8 @@ TypeInfo MSCompatUnicodeTable_t1483_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MSCompatUnicodeTable_t1483)/* instance_size */
-	, sizeof (MSCompatUnicodeTable_t1483)/* actualSize */
+	, sizeof (MSCompatUnicodeTable_t1484)/* instance_size */
+	, sizeof (MSCompatUnicodeTable_t1484)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -227,25 +227,25 @@ TypeInfo MSCompatUnicodeTable_t1483_il2cpp_TypeInfo =
 // Replacements.SecurityElement
 #include "replacements_Replacements_SecurityElement.h"
 // Metadata Definition Replacements.SecurityElement
-extern TypeInfo SecurityElement_t1484_il2cpp_TypeInfo;
+extern TypeInfo SecurityElement_t1485_il2cpp_TypeInfo;
 // Replacements.SecurityElement
 #include "replacements_Replacements_SecurityElementMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SecurityElement_t1484_SecurityElement_ToString_m7475_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t1485_SecurityElement_ToString_m7478_ParameterInfos[] = 
 {
 	{"__this", 0, 134217729, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType String_t_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Replacements.SecurityElement::ToString(System.Object)
-extern const MethodInfo SecurityElement_ToString_m7475_MethodInfo = 
+extern const MethodInfo SecurityElement_ToString_m7478_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&SecurityElement_ToString_m7475/* method */
-	, &SecurityElement_t1484_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SecurityElement_ToString_m7478/* method */
+	, &SecurityElement_t1485_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t1484_SecurityElement_ToString_m7475_ParameterInfos/* parameters */
+	, SecurityElement_t1485_SecurityElement_ToString_m7478_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -259,19 +259,19 @@ extern const MethodInfo SecurityElement_ToString_m7475_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SecurityElement_t1484_MethodInfos[] =
+static const MethodInfo* SecurityElement_t1485_MethodInfos[] =
 {
-	&SecurityElement_ToString_m7475_MethodInfo,
+	&SecurityElement_ToString_m7478_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference SecurityElement_t1484_VTable[] =
+static const Il2CppMethodReference SecurityElement_t1485_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
-static bool SecurityElement_t1484_VTableIsGenericMethod[] =
+static bool SecurityElement_t1485_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -279,37 +279,37 @@ static bool SecurityElement_t1484_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_replacements_dll_Image;
-extern const Il2CppType SecurityElement_t1484_0_0_0;
-extern const Il2CppType SecurityElement_t1484_1_0_0;
-struct SecurityElement_t1484;
-const Il2CppTypeDefinitionMetadata SecurityElement_t1484_DefinitionMetadata = 
+extern const Il2CppType SecurityElement_t1485_0_0_0;
+extern const Il2CppType SecurityElement_t1485_1_0_0;
+struct SecurityElement_t1485;
+const Il2CppTypeDefinitionMetadata SecurityElement_t1485_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, SecurityElement_t1484_VTable/* vtableMethods */
-	, SecurityElement_t1484_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SecurityElement_t1485_VTable/* vtableMethods */
+	, SecurityElement_t1485_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo SecurityElement_t1484_il2cpp_TypeInfo = 
+TypeInfo SecurityElement_t1485_il2cpp_TypeInfo = 
 {
 	&g_replacements_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SecurityElement"/* name */
 	, "Replacements"/* namespaze */
-	, SecurityElement_t1484_MethodInfos/* methods */
+	, SecurityElement_t1485_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &SecurityElement_t1484_il2cpp_TypeInfo/* element_class */
+	, &SecurityElement_t1485_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SecurityElement_t1484_0_0_0/* byval_arg */
-	, &SecurityElement_t1484_1_0_0/* this_arg */
-	, &SecurityElement_t1484_DefinitionMetadata/* definitionMetadata */
+	, &SecurityElement_t1485_0_0_0/* byval_arg */
+	, &SecurityElement_t1485_1_0_0/* this_arg */
+	, &SecurityElement_t1485_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -319,8 +319,8 @@ TypeInfo SecurityElement_t1484_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SecurityElement_t1484)/* instance_size */
-	, sizeof (SecurityElement_t1484)/* actualSize */
+	, sizeof (SecurityElement_t1485)/* instance_size */
+	, sizeof (SecurityElement_t1485)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -352,30 +352,30 @@ TypeInfo SecurityElement_t1484_il2cpp_TypeInfo =
 // Replacements.RemotingServices
 #include "replacements_Replacements_RemotingServices.h"
 // Metadata Definition Replacements.RemotingServices
-extern TypeInfo RemotingServices_t1485_il2cpp_TypeInfo;
+extern TypeInfo RemotingServices_t1486_il2cpp_TypeInfo;
 // Replacements.RemotingServices
 #include "replacements_Replacements_RemotingServicesMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_0;
-static const ParameterInfo RemotingServices_t1485_RemotingServices_GetClientChannelSinkChain_m7476_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7479_ParameterInfos[] = 
 {
 	{"url", 0, 134217730, 0, &String_t_0_0_0},
 	{"channelData", 1, 134217731, 0, &Object_t_0_0_0},
 	{"objectUri", 2, 134217732, 0, &String_t_1_0_2},
 };
-extern const Il2CppType IMessageSink_t1486_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t706 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType IMessageSink_t1487_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t707 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m7476_MethodInfo = 
+extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m7479_MethodInfo = 
 {
 	"GetClientChannelSinkChain"/* name */
-	, (methodPointerType)&RemotingServices_GetClientChannelSinkChain_m7476/* method */
-	, &RemotingServices_t1485_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageSink_t1486_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t706/* invoker_method */
-	, RemotingServices_t1485_RemotingServices_GetClientChannelSinkChain_m7476_ParameterInfos/* parameters */
+	, (methodPointerType)&RemotingServices_GetClientChannelSinkChain_m7479/* method */
+	, &RemotingServices_t1486_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageSink_t1487_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t707/* invoker_method */
+	, RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -392,24 +392,24 @@ extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m7476_MethodI
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t581_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t581_0_0_0;
-static const ParameterInfo RemotingServices_t1485_RemotingServices_CreateClientProxy_m7477_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
+static const ParameterInfo RemotingServices_t1486_RemotingServices_CreateClientProxy_m7480_ParameterInfos[] = 
 {
 	{"objectType", 0, 134217733, 0, &Type_t_0_0_0},
 	{"url", 1, 134217734, 0, &String_t_0_0_0},
-	{"activationAttributes", 2, 134217735, 0, &ObjectU5BU5D_t581_0_0_0},
+	{"activationAttributes", 2, 134217735, 0, &ObjectU5BU5D_t582_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern const MethodInfo RemotingServices_CreateClientProxy_m7477_MethodInfo = 
+extern const MethodInfo RemotingServices_CreateClientProxy_m7480_MethodInfo = 
 {
 	"CreateClientProxy"/* name */
-	, (methodPointerType)&RemotingServices_CreateClientProxy_m7477/* method */
-	, &RemotingServices_t1485_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_CreateClientProxy_m7480/* method */
+	, &RemotingServices_t1486_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t1485_RemotingServices_CreateClientProxy_m7477_ParameterInfos/* parameters */
+	, RemotingServices_t1486_RemotingServices_CreateClientProxy_m7480_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -423,20 +423,20 @@ extern const MethodInfo RemotingServices_CreateClientProxy_m7477_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingServices_t1485_MethodInfos[] =
+static const MethodInfo* RemotingServices_t1486_MethodInfos[] =
 {
-	&RemotingServices_GetClientChannelSinkChain_m7476_MethodInfo,
-	&RemotingServices_CreateClientProxy_m7477_MethodInfo,
+	&RemotingServices_GetClientChannelSinkChain_m7479_MethodInfo,
+	&RemotingServices_CreateClientProxy_m7480_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference RemotingServices_t1485_VTable[] =
+static const Il2CppMethodReference RemotingServices_t1486_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
-static bool RemotingServices_t1485_VTableIsGenericMethod[] =
+static bool RemotingServices_t1486_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -444,37 +444,37 @@ static bool RemotingServices_t1485_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_replacements_dll_Image;
-extern const Il2CppType RemotingServices_t1485_0_0_0;
-extern const Il2CppType RemotingServices_t1485_1_0_0;
-struct RemotingServices_t1485;
-const Il2CppTypeDefinitionMetadata RemotingServices_t1485_DefinitionMetadata = 
+extern const Il2CppType RemotingServices_t1486_0_0_0;
+extern const Il2CppType RemotingServices_t1486_1_0_0;
+struct RemotingServices_t1486;
+const Il2CppTypeDefinitionMetadata RemotingServices_t1486_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RemotingServices_t1485_VTable/* vtableMethods */
-	, RemotingServices_t1485_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingServices_t1486_VTable/* vtableMethods */
+	, RemotingServices_t1486_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo RemotingServices_t1485_il2cpp_TypeInfo = 
+TypeInfo RemotingServices_t1486_il2cpp_TypeInfo = 
 {
 	&g_replacements_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingServices"/* name */
 	, "Replacements"/* namespaze */
-	, RemotingServices_t1485_MethodInfos/* methods */
+	, RemotingServices_t1486_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemotingServices_t1485_il2cpp_TypeInfo/* element_class */
+	, &RemotingServices_t1486_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &RemotingServices_t1485_0_0_0/* byval_arg */
-	, &RemotingServices_t1485_1_0_0/* this_arg */
-	, &RemotingServices_t1485_DefinitionMetadata/* definitionMetadata */
+	, &RemotingServices_t1486_0_0_0/* byval_arg */
+	, &RemotingServices_t1486_1_0_0/* this_arg */
+	, &RemotingServices_t1486_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -484,8 +484,8 @@ TypeInfo RemotingServices_t1485_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingServices_t1485)/* instance_size */
-	, sizeof (RemotingServices_t1485)/* actualSize */
+	, sizeof (RemotingServices_t1486)/* instance_size */
+	, sizeof (RemotingServices_t1486)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

@@ -5,7 +5,7 @@
 // GP_TBM_MatchTurnStatus
 #include "AssemblyU2DCSharp_GP_TBM_MatchTurnStatus.h"
 // GP_TBM_MatchTurnStatus
-struct  GP_TBM_MatchTurnStatus_t168 
+struct  GP_TBM_MatchTurnStatus_t170 
 {
 	// System.Int32 GP_TBM_MatchTurnStatus::value__
 	int32_t ___value___1;

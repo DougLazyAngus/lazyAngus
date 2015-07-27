@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.IPointerExitHandler
-struct IPointerExitHandler_t914;
+struct IPointerExitHandler_t915;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t734;
+struct BaseEventData_t735;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Void
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler>
-struct  EventFunction_1_t745  : public MulticastDelegate_t346
+struct  EventFunction_1_t746  : public MulticastDelegate_t348
 {
 };

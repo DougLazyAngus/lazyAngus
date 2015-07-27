@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.CookieCollection/CookieCollectionComparer
-struct  CookieCollectionComparer_t2004  : public Object_t
+struct  CookieCollectionComparer_t2005  : public Object_t
 {
 };

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t869;
+struct List_1_t870;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.StencilMaterial
-struct  StencilMaterial_t870  : public Object_t
+struct  StencilMaterial_t871  : public Object_t
 {
 };
-struct StencilMaterial_t870_StaticFields{
+struct StencilMaterial_t871_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry> UnityEngine.UI.StencilMaterial::m_List
-	List_1_t869 * ___m_List_0;
+	List_1_t870 * ___m_List_0;
 };

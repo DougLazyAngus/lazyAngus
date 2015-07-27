@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<TwitterUserInfo>
-struct Comparison_1_t3609;
+struct Comparison_1_t3610;
 // System.Object
 struct Object_t;
 // TwitterUserInfo
-struct TwitterUserInfo_t266;
+struct TwitterUserInfo_t268;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Comparison`1<TwitterUserInfo>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m21551(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3609 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17568_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m21554(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3610 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17571_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<TwitterUserInfo>::Invoke(T,T)
-#define Comparison_1_Invoke_m21552(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3609 *, TwitterUserInfo_t266 *, TwitterUserInfo_t266 *, const MethodInfo*))Comparison_1_Invoke_m17569_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m21555(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3610 *, TwitterUserInfo_t268 *, TwitterUserInfo_t268 *, const MethodInfo*))Comparison_1_Invoke_m17572_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<TwitterUserInfo>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m21553(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3609 *, TwitterUserInfo_t266 *, TwitterUserInfo_t266 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17570_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m21556(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3610 *, TwitterUserInfo_t268 *, TwitterUserInfo_t268 *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17573_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<TwitterUserInfo>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m21554(__this, ___result, method) (( int32_t (*) (Comparison_1_t3609 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17571_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m21557(__this, ___result, method) (( int32_t (*) (Comparison_1_t3610 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17574_gshared)(__this, ___result, method)

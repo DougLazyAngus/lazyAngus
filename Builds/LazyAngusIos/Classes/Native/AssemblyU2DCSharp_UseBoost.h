@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // BoostConfig
-struct BoostConfig_t414;
+struct BoostConfig_t416;
 // PlayerStats
-struct PlayerStats_t433;
+struct PlayerStats_t435;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UseBoost
-struct  UseBoost_t569  : public MonoBehaviour_t67
+struct  UseBoost_t570  : public MonoBehaviour_t66
 {
 	// BoostConfig UseBoost::boostConfig
-	BoostConfig_t414 * ___boostConfig_2;
+	BoostConfig_t416 * ___boostConfig_2;
 	// PlayerStats UseBoost::playerStats
-	PlayerStats_t433 * ___playerStats_3;
+	PlayerStats_t435 * ___playerStats_3;
 };

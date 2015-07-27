@@ -7,7 +7,7 @@ struct String_t;
 // GPGameRequestType
 #include "AssemblyU2DCSharp_GPGameRequestType.h"
 // GPGameRequest
-struct  GPGameRequest_t179  : public Object_t
+struct  GPGameRequest_t181  : public Object_t
 {
 	// System.String GPGameRequest::id
 	String_t* ___id_0;

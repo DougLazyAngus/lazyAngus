@@ -3,12 +3,12 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct  GetDelegate_t1200  : public MulticastDelegate_t346
+struct  GetDelegate_t1201  : public MulticastDelegate_t348
 {
 };

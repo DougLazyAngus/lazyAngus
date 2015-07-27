@@ -5,7 +5,7 @@
 // FBAppRequestState
 #include "AssemblyU2DCSharp_FBAppRequestState.h"
 // FBAppRequestState
-struct  FBAppRequestState_t228 
+struct  FBAppRequestState_t230 
 {
 	// System.Int32 FBAppRequestState::value__
 	int32_t ___value___1;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OneSignal/LOG_LEVEL
-struct LOG_LEVEL_t342;
+struct LOG_LEVEL_t344;
 

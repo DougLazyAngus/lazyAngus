@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1F823966-B721-49C1-ACB3-5A2EBA6DBD38</string>
+	<string>057E98E5-4FD7-43A9-B483-2085E457395F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Unity-iPhone</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CE346DEF7E7D92C3C6812BB5EC01C43CA3C2F454</key>
 		<string>https://github.com/DougLazyAngus/lazyAngus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Builds/LazyAngusIos/Unity-iPhone.xcodeproj</string>
+	<string>Builds/LazyAngusIos/Unity-iPhone.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CE346DEF7E7D92C3C6812BB5EC01C43CA3C2F454</key>

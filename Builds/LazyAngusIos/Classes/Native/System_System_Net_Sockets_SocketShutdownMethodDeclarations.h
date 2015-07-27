@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketShutdown
-struct SocketShutdown_t1992;
+struct SocketShutdown_t1993;
 

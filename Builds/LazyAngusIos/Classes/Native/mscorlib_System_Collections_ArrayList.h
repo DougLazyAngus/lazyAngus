@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t581;
+struct ObjectU5BU5D_t582;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ArrayList
-struct  ArrayList_t1555  : public Object_t
+struct  ArrayList_t1556  : public Object_t
 {
 	// System.Int32 System.Collections.ArrayList::_size
 	int32_t ____size_1;
 	// System.Object[] System.Collections.ArrayList::_items
-	ObjectU5BU5D_t581* ____items_2;
+	ObjectU5BU5D_t582* ____items_2;
 	// System.Int32 System.Collections.ArrayList::_version
 	int32_t ____version_3;
 };
-struct ArrayList_t1555_StaticFields{
+struct ArrayList_t1556_StaticFields{
 	// System.Object[] System.Collections.ArrayList::EmptyArray
-	ObjectU5BU5D_t581* ___EmptyArray_4;
+	ObjectU5BU5D_t582* ___EmptyArray_4;
 };

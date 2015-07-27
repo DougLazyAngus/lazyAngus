@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.GraphicRaycaster/BlockingObjects
-struct BlockingObjects_t812;
+struct BlockingObjects_t813;
 

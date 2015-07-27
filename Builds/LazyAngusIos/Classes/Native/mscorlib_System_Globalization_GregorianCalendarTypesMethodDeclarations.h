@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.GregorianCalendarTypes
-struct GregorianCalendarTypes_t2443;
+struct GregorianCalendarTypes_t2444;
 

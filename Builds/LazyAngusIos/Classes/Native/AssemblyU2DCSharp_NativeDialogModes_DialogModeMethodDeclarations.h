@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // NativeDialogModes.DialogMode
-struct DialogMode_t389;
+struct DialogMode_t391;
 

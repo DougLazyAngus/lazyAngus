@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.WebConnection/AbortHelper
-struct AbortHelper_t2058;
+struct AbortHelper_t2059;
 // System.Object
 struct Object_t;
 // System.EventArgs
-struct EventArgs_t1643;
+struct EventArgs_t1644;
 
 // System.Void System.Net.WebConnection/AbortHelper::.ctor()
-extern "C" void AbortHelper__ctor_m10624 (AbortHelper_t2058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbortHelper__ctor_m10627 (AbortHelper_t2059 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebConnection/AbortHelper::Abort(System.Object,System.EventArgs)
-extern "C" void AbortHelper_Abort_m10625 (AbortHelper_t2058 * __this, Object_t * ___sender, EventArgs_t1643 * ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbortHelper_Abort_m10628 (AbortHelper_t2059 * __this, Object_t * ___sender, EventArgs_t1644 * ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

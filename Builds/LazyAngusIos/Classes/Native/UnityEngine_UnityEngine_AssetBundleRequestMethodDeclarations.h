@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_t1059;
+struct AssetBundleRequest_t1060;
 // UnityEngine.Object
-struct Object_t599;
-struct Object_t599_marshaled;
+struct Object_t600;
+struct Object_t600_marshaled;
 // UnityEngine.Object[]
-struct ObjectU5BU5D_t1275;
+struct ObjectU5BU5D_t1276;
 
 // System.Void UnityEngine.AssetBundleRequest::.ctor()
-extern "C" void AssetBundleRequest__ctor_m5760 (AssetBundleRequest_t1059 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleRequest__ctor_m5763 (AssetBundleRequest_t1060 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
-extern "C" Object_t599 * AssetBundleRequest_get_asset_m5761 (AssetBundleRequest_t1059 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t600 * AssetBundleRequest_get_asset_m5764 (AssetBundleRequest_t1060 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.AssetBundleRequest::get_allAssets()
-extern "C" ObjectU5BU5D_t1275* AssetBundleRequest_get_allAssets_m5762 (AssetBundleRequest_t1059 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t1276* AssetBundleRequest_get_allAssets_m5765 (AssetBundleRequest_t1060 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // TW_APIRequstResult
-struct TW_APIRequstResult_t280;
+struct TW_APIRequstResult_t282;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<TW_APIRequstResult>
-struct  Action_1_t294  : public MulticastDelegate_t346
+struct  Action_1_t296  : public MulticastDelegate_t348
 {
 };

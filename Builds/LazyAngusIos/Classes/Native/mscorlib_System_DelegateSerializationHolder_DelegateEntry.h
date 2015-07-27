@@ -5,11 +5,11 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.DelegateSerializationHolder/DelegateEntry
-struct DelegateEntry_t2770;
+struct DelegateEntry_t2771;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DelegateSerializationHolder/DelegateEntry
-struct  DelegateEntry_t2770  : public Object_t
+struct  DelegateEntry_t2771  : public Object_t
 {
 	// System.String System.DelegateSerializationHolder/DelegateEntry::type
 	String_t* ___type_0;
@@ -24,5 +24,5 @@ struct  DelegateEntry_t2770  : public Object_t
 	// System.String System.DelegateSerializationHolder/DelegateEntry::methodName
 	String_t* ___methodName_5;
 	// System.DelegateSerializationHolder/DelegateEntry System.DelegateSerializationHolder/DelegateEntry::delegateEntry
-	DelegateEntry_t2770 * ___delegateEntry_6;
+	DelegateEntry_t2771 * ___delegateEntry_6;
 };

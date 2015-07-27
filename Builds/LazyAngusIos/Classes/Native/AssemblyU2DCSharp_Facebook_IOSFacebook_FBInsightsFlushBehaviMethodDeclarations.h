@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Facebook.IOSFacebook/FBInsightsFlushBehavior
-struct FBInsightsFlushBehavior_t401;
+struct FBInsightsFlushBehavior_t403;
 

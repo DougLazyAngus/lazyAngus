@@ -3,6 +3,6 @@
 // UnityEngine.Renderer
 #include "UnityEngine_UnityEngine_Renderer.h"
 // UnityEngine.SpriteRenderer
-struct  SpriteRenderer_t510  : public Renderer_t593
+struct  SpriteRenderer_t511  : public Renderer_t594
 {
 };

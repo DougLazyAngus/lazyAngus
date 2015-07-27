@@ -3,25 +3,25 @@
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1300;
+struct SerializationInfo_t1301;
 // System.Runtime.Serialization.ISerializationSurrogate
-struct ISerializationSurrogate_t2640;
+struct ISerializationSurrogate_t2641;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t2590;
+struct ISurrogateSelector_t2591;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Int32[]
-struct Int32U5BU5D_t495;
+struct Int32U5BU5D_t496;
 // System.Runtime.Serialization.BaseFixupRecord
-struct BaseFixupRecord_t2634;
+struct BaseFixupRecord_t2635;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t2633;
+struct ObjectRecord_t2634;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.ObjectRecordStatus
 #include "mscorlib_System_Runtime_Serialization_ObjectRecordStatus.h"
 // System.Runtime.Serialization.ObjectRecord
-struct  ObjectRecord_t2633  : public Object_t
+struct  ObjectRecord_t2634  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecordStatus System.Runtime.Serialization.ObjectRecord::Status
 	uint8_t ___Status_0;
@@ -32,7 +32,7 @@ struct  ObjectRecord_t2633  : public Object_t
 	// System.Int64 System.Runtime.Serialization.ObjectRecord::ObjectID
 	int64_t ___ObjectID_3;
 	// System.Runtime.Serialization.SerializationInfo System.Runtime.Serialization.ObjectRecord::Info
-	SerializationInfo_t1300 * ___Info_4;
+	SerializationInfo_t1301 * ___Info_4;
 	// System.Int64 System.Runtime.Serialization.ObjectRecord::IdOfContainingObj
 	int64_t ___IdOfContainingObj_5;
 	// System.Runtime.Serialization.ISerializationSurrogate System.Runtime.Serialization.ObjectRecord::Surrogate
@@ -42,11 +42,11 @@ struct  ObjectRecord_t2633  : public Object_t
 	// System.Reflection.MemberInfo System.Runtime.Serialization.ObjectRecord::Member
 	MemberInfo_t * ___Member_8;
 	// System.Int32[] System.Runtime.Serialization.ObjectRecord::ArrayIndex
-	Int32U5BU5D_t495* ___ArrayIndex_9;
+	Int32U5BU5D_t496* ___ArrayIndex_9;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsContainer
-	BaseFixupRecord_t2634 * ___FixupChainAsContainer_10;
+	BaseFixupRecord_t2635 * ___FixupChainAsContainer_10;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsRequired
-	BaseFixupRecord_t2634 * ___FixupChainAsRequired_11;
+	BaseFixupRecord_t2635 * ___FixupChainAsRequired_11;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectRecord::Next
-	ObjectRecord_t2633 * ___Next_12;
+	ObjectRecord_t2634 * ___Next_12;
 };

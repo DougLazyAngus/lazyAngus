@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // WP8ADBanner
-struct WP8ADBanner_t113;
+struct WP8ADBanner_t115;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,WP8ADBanner,System.Collections.DictionaryEntry>
-struct  Transform_1_t3496  : public MulticastDelegate_t346
+struct  Transform_1_t3497  : public MulticastDelegate_t348
 {
 };

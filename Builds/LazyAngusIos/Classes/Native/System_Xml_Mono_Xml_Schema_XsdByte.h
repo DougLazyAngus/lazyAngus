@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdShort
 #include "System_Xml_Mono_Xml_Schema_XsdShort.h"
 // Mono.Xml.Schema.XsdByte
-struct  XsdByte_t1516  : public XsdShort_t1515
+struct  XsdByte_t1517  : public XsdShort_t1516
 {
 };

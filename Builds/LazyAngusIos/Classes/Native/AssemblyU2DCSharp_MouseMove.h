@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SpriteRenderer
-struct SpriteRenderer_t510;
+struct SpriteRenderer_t511;
 // UnityEngine.GameObject
-struct GameObject_t310;
+struct GameObject_t312;
 // UnityEngine.UI.Slider
-struct Slider_t415;
+struct Slider_t417;
 // TweakableSlider
-struct TweakableSlider_t511;
+struct TweakableSlider_t512;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseConfig/MovementPhaseType
@@ -17,7 +17,7 @@ struct TweakableSlider_t511;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // MouseMove
-struct  MouseMove_t512  : public MonoBehaviour_t67
+struct  MouseMove_t513  : public MonoBehaviour_t66
 {
 	// System.Single MouseMove::mouseAngleDeg
 	float ___mouseAngleDeg_2;
@@ -38,9 +38,9 @@ struct  MouseMove_t512  : public MonoBehaviour_t67
 	// System.Single MouseMove::actualSpeedM
 	float ___actualSpeedM_10;
 	// UnityEngine.SpriteRenderer MouseMove::spriteRenderer
-	SpriteRenderer_t510 * ___spriteRenderer_11;
+	SpriteRenderer_t511 * ___spriteRenderer_11;
 	// UnityEngine.GameObject MouseMove::trackingStatusBarPrototype
-	GameObject_t310 * ___trackingStatusBarPrototype_12;
+	GameObject_t312 * ___trackingStatusBarPrototype_12;
 	// System.Boolean MouseMove::isClockwise
 	bool ___isClockwise_13;
 	// System.Single MouseMove::angleAdjustmentWhileRunning
@@ -48,9 +48,9 @@ struct  MouseMove_t512  : public MonoBehaviour_t67
 	// System.Single MouseMove::zeroCenteredAngleAdjustmentWhileRunning
 	float ___zeroCenteredAngleAdjustmentWhileRunning_15;
 	// UnityEngine.UI.Slider MouseMove::sliderInstance
-	Slider_t415 * ___sliderInstance_16;
+	Slider_t417 * ___sliderInstance_16;
 	// TweakableSlider MouseMove::tweakableSlider
-	TweakableSlider_t511 * ___tweakableSlider_17;
+	TweakableSlider_t512 * ___tweakableSlider_17;
 	// MouseConfig/MouseWiggleType MouseMove::wiggleType
 	int32_t ___wiggleType_19;
 	// System.Single MouseMove::wiggleMagnitude
@@ -72,7 +72,7 @@ struct  MouseMove_t512  : public MonoBehaviour_t67
 	// System.Boolean MouseMove::<isFartedUpon>k__BackingField
 	bool ___U3CisFartedUponU3Ek__BackingField_28;
 };
-struct MouseMove_t512_StaticFields{
+struct MouseMove_t513_StaticFields{
 	// System.Int32 MouseMove::activeMouseCount
 	int32_t ___activeMouseCount_18;
 };

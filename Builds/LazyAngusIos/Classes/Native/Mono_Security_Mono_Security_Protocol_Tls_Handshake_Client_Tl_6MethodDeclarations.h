@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished
-struct TlsServerFinished_t1842;
+struct TlsServerFinished_t1843;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t1786;
+struct Context_t1787;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerFinished__ctor_m9504 (TlsServerFinished_t1842 * __this, Context_t1786 * ___context, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished__ctor_m9507 (TlsServerFinished_t1843 * __this, Context_t1787 * ___context, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.cctor()
-extern "C" void TlsServerFinished__cctor_m9505 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished__cctor_m9508 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::Update()
-extern "C" void TlsServerFinished_Update_m9506 (TlsServerFinished_t1842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_Update_m9509 (TlsServerFinished_t1843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsSsl3()
-extern "C" void TlsServerFinished_ProcessAsSsl3_m9507 (TlsServerFinished_t1842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_ProcessAsSsl3_m9510 (TlsServerFinished_t1843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsTls1()
-extern "C" void TlsServerFinished_ProcessAsTls1_m9508 (TlsServerFinished_t1842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_ProcessAsTls1_m9511 (TlsServerFinished_t1843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

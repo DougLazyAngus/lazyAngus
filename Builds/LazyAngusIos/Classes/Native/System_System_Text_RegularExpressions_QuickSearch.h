@@ -5,11 +5,11 @@ struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Collections.Hashtable
-struct Hashtable_t1570;
+struct Hashtable_t1571;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.QuickSearch
-struct  QuickSearch_t2136  : public Object_t
+struct  QuickSearch_t2137  : public Object_t
 {
 	// System.String System.Text.RegularExpressions.QuickSearch::str
 	String_t* ___str_0;
@@ -22,9 +22,9 @@ struct  QuickSearch_t2136  : public Object_t
 	// System.Byte[] System.Text.RegularExpressions.QuickSearch::shift
 	ByteU5BU5D_t36* ___shift_4;
 	// System.Collections.Hashtable System.Text.RegularExpressions.QuickSearch::shiftExtended
-	Hashtable_t1570 * ___shiftExtended_5;
+	Hashtable_t1571 * ___shiftExtended_5;
 };
-struct QuickSearch_t2136_StaticFields{
+struct QuickSearch_t2137_StaticFields{
 	// System.Int32 System.Text.RegularExpressions.QuickSearch::THRESHOLD
 	int32_t ___THRESHOLD_6;
 };

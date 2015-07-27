@@ -5,6 +5,6 @@ struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AN_GoogleAnalyticsProxy
-struct  AN_GoogleAnalyticsProxy_t129  : public MonoBehaviour_t67
+struct  AN_GoogleAnalyticsProxy_t131  : public MonoBehaviour_t66
 {
 };

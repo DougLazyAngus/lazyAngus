@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Types.NetworkAccessToken
-struct NetworkAccessToken_t1186;
+struct NetworkAccessToken_t1187;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.Networking.Types.NetworkAccessToken::.ctor()
-extern "C" void NetworkAccessToken__ctor_m6792 (NetworkAccessToken_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NetworkAccessToken__ctor_m6795 (NetworkAccessToken_t1187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Types.NetworkAccessToken::GetByteString()
-extern "C" String_t* NetworkAccessToken_GetByteString_m6793 (NetworkAccessToken_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NetworkAccessToken_GetByteString_m6796 (NetworkAccessToken_t1187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

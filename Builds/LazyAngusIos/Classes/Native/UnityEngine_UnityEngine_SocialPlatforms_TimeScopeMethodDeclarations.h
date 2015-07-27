@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.TimeScope
-struct TimeScope_t1247;
+struct TimeScope_t1248;
 

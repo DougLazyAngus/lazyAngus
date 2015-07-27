@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t310;
+struct GameObject_t312;
 // UnityEngine.Canvas
-struct Canvas_t416;
+struct Canvas_t418;
 // System.Collections.Generic.List`1<BoostButton>
-struct List_1_t423;
+struct List_1_t425;
 // UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t424;
+struct GameObjectU5BU5D_t426;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BoostButtonLayout
-struct  BoostButtonLayout_t425  : public MonoBehaviour_t67
+struct  BoostButtonLayout_t427  : public MonoBehaviour_t66
 {
 	// System.Single BoostButtonLayout::boostButtonYOffset
 	float ___boostButtonYOffset_2;
 	// UnityEngine.GameObject BoostButtonLayout::boostButtonPrototype
-	GameObject_t310 * ___boostButtonPrototype_3;
+	GameObject_t312 * ___boostButtonPrototype_3;
 	// UnityEngine.Canvas BoostButtonLayout::containingCanvas
-	Canvas_t416 * ___containingCanvas_4;
+	Canvas_t418 * ___containingCanvas_4;
 	// System.Collections.Generic.List`1<BoostButton> BoostButtonLayout::boostButtons
-	List_1_t423 * ___boostButtons_5;
+	List_1_t425 * ___boostButtons_5;
 	// UnityEngine.GameObject[] BoostButtonLayout::boostButtonGameObjects
-	GameObjectU5BU5D_t424* ___boostButtonGameObjects_6;
+	GameObjectU5BU5D_t426* ___boostButtonGameObjects_6;
 	// System.Boolean BoostButtonLayout::treatsTextDirty
 	bool ___treatsTextDirty_7;
 	// System.Boolean BoostButtonLayout::levelTextDirty

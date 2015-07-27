@@ -5,7 +5,7 @@
 // FacebookProfileImageSize
 #include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
 // FacebookProfileImageSize
-struct  FacebookProfileImageSize_t252 
+struct  FacebookProfileImageSize_t254 
 {
 	// System.Int32 FacebookProfileImageSize::value__
 	int32_t ___value___1;

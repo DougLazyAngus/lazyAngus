@@ -7,7 +7,7 @@ struct ByteU5BU5D_t36;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_RTM_Network_Package
-struct  GP_RTM_Network_Package_t187  : public Object_t
+struct  GP_RTM_Network_Package_t189  : public Object_t
 {
 	// System.String GP_RTM_Network_Package::_playerId
 	String_t* ____playerId_1;

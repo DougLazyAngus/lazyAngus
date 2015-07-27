@@ -5,7 +5,7 @@ struct String_t;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StringReader
-struct  StringReader_t217  : public TextReader_t1632
+struct  StringReader_t219  : public TextReader_t1633
 {
 	// System.String System.IO.StringReader::source
 	String_t* ___source_1;

@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Rendering.SphericalHarmonicsL2
-struct  SphericalHarmonicsL2_t1118 
+struct  SphericalHarmonicsL2_t1119 
 {
 	// System.Single UnityEngine.Rendering.SphericalHarmonicsL2::shr0
 	float ___shr0_0;

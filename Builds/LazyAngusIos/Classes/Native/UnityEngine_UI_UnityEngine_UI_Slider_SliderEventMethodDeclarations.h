@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t866;
+struct SliderEvent_t867;
 
 // System.Void UnityEngine.UI.Slider/SliderEvent::.ctor()
-extern "C" void SliderEvent__ctor_m4784 (SliderEvent_t866 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderEvent__ctor_m4787 (SliderEvent_t867 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

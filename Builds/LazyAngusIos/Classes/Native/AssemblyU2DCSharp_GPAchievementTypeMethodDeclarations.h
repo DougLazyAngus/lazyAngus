@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPAchievementType
-struct GPAchievementType_t148;
+struct GPAchievementType_t150;
 

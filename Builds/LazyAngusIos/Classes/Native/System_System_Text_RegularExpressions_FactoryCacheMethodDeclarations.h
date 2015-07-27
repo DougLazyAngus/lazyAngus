@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t2114;
+struct FactoryCache_t2115;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t2115;
+struct IMachineFactory_t2116;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Void System.Text.RegularExpressions.FactoryCache::.ctor(System.Int32)
-extern "C" void FactoryCache__ctor_m11114 (FactoryCache_t2114 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache__ctor_m11117 (FactoryCache_t2115 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Add(System.String,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.IMachineFactory)
-extern "C" void FactoryCache_Add_m11115 (FactoryCache_t2114 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Add_m11118 (FactoryCache_t2115 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Cleanup()
-extern "C" void FactoryCache_Cleanup_m11116 (FactoryCache_t2114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Cleanup_m11119 (FactoryCache_t2115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.FactoryCache::Lookup(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" Object_t * FactoryCache_Lookup_m11117 (FactoryCache_t2114 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FactoryCache_Lookup_m11120 (FactoryCache_t2115 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;

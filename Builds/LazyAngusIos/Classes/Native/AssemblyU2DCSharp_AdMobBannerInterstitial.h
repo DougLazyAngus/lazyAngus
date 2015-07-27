@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AdMobBannerInterstitial
-struct  AdMobBannerInterstitial_t96  : public MonoBehaviour_t67
+struct  AdMobBannerInterstitial_t98  : public MonoBehaviour_t66
 {
 };

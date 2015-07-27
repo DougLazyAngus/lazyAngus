@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.AudioSource
-struct AudioSource_t471;
+struct AudioSource_t518;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MusicPlayer
-struct  MusicPlayer_t517  : public MonoBehaviour_t67
+struct  MusicPlayer_t519  : public MonoBehaviour_t66
 {
 	// System.Boolean MusicPlayer::registeredForEvents
 	bool ___registeredForEvents_2;
 	// UnityEngine.AudioSource MusicPlayer::gameMusic
-	AudioSource_t471 * ___gameMusic_3;
+	AudioSource_t518 * ___gameMusic_3;
 	// UnityEngine.AudioSource MusicPlayer::menuMusic
-	AudioSource_t471 * ___menuMusic_4;
+	AudioSource_t518 * ___menuMusic_4;
 	// UnityEngine.AudioSource MusicPlayer::currentMusic
-	AudioSource_t471 * ___currentMusic_5;
+	AudioSource_t518 * ___currentMusic_5;
 	// System.Collections.IEnumerator MusicPlayer::playCuedMusic
 	Object_t * ___playCuedMusic_6;
 };

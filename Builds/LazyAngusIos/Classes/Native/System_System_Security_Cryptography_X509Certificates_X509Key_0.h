@@ -9,7 +9,7 @@ struct String_t;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 // System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
-struct  X509KeyUsageExtension_t2096  : public X509Extension_t2080
+struct  X509KeyUsageExtension_t2097  : public X509Extension_t2081
 {
 	// System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::_keyUsages
 	int32_t ____keyUsages_7;

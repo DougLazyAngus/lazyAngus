@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.MulticastDelegate
-struct MulticastDelegate_t346;
+struct MulticastDelegate_t348;
 // System.Delegate
 #include "mscorlib_System_Delegate.h"
 // System.MulticastDelegate
-struct  MulticastDelegate_t346  : public Delegate_t621
+struct  MulticastDelegate_t348  : public Delegate_t622
 {
 	// System.MulticastDelegate System.MulticastDelegate::prev
-	MulticastDelegate_t346 * ___prev_9;
+	MulticastDelegate_t348 * ___prev_9;
 	// System.MulticastDelegate System.MulticastDelegate::kpm_next
-	MulticastDelegate_t346 * ___kpm_next_10;
+	MulticastDelegate_t348 * ___kpm_next_10;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Sprite
-struct Sprite_t430;
+struct Sprite_t432;
 // UnityEngine.UI.Image
-struct Image_t497;
+struct Image_t498;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SFXButton
-struct  SFXButton_t537  : public MonoBehaviour_t67
+struct  SFXButton_t539  : public MonoBehaviour_t66
 {
 	// System.Boolean SFXButton::registeredForEvents
 	bool ___registeredForEvents_2;
 	// UnityEngine.Sprite SFXButton::soundOnSprite
-	Sprite_t430 * ___soundOnSprite_3;
+	Sprite_t432 * ___soundOnSprite_3;
 	// UnityEngine.Sprite SFXButton::soundOffSprite
-	Sprite_t430 * ___soundOffSprite_4;
+	Sprite_t432 * ___soundOffSprite_4;
 	// UnityEngine.UI.Image SFXButton::buttonImage
-	Image_t497 * ___buttonImage_5;
+	Image_t498 * ___buttonImage_5;
 };

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlConvert
-struct XmlConvert_t1617;
+struct XmlConvert_t1618;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.XmlConvert::.cctor()
-extern "C" void XmlConvert__cctor_m7858 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlConvert__cctor_m7861 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlConvert::VerifyName(System.String)
-extern "C" String_t* XmlConvert_VerifyName_m7859 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlConvert_VerifyName_m7862 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

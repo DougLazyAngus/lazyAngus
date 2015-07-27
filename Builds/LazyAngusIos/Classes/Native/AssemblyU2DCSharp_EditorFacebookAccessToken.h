@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // UnityEngine.GUIStyle
-struct GUIStyle_t64;
+struct GUIStyle_t67;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // EditorFacebookAccessToken
-struct  EditorFacebookAccessToken_t398  : public MonoBehaviour_t67
+struct  EditorFacebookAccessToken_t400  : public MonoBehaviour_t66
 {
 	// System.Single EditorFacebookAccessToken::windowHeight
 	float ___windowHeight_3;
@@ -16,5 +16,5 @@ struct  EditorFacebookAccessToken_t398  : public MonoBehaviour_t67
 	// System.Boolean EditorFacebookAccessToken::isLoggingIn
 	bool ___isLoggingIn_5;
 	// UnityEngine.GUIStyle EditorFacebookAccessToken::greyButton
-	GUIStyle_t64 * ___greyButton_6;
+	GUIStyle_t67 * ___greyButton_6;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.MoveDirection
-struct MoveDirection_t765;
+struct MoveDirection_t766;
 

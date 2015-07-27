@@ -1,19 +1,19 @@
 ﻿#pragma once
 #include <stdint.h>
 // GameUI[]
-struct GameUIU5BU5D_t468;
+struct GameUIU5BU5D_t470;
 // GamePhaseState/GameInstanceChangedEventHandler
-struct GameInstanceChangedEventHandler_t464;
+struct GameInstanceChangedEventHandler_t466;
 // GamePhaseState/GamePhaseChangedEventHandler
-struct GamePhaseChangedEventHandler_t465;
+struct GamePhaseChangedEventHandler_t467;
 // GamePhaseState
-struct GamePhaseState_t466;
+struct GamePhaseState_t468;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GamePhaseState/GamePhaseType
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseType.h"
 // GamePhaseState
-struct  GamePhaseState_t466  : public MonoBehaviour_t67
+struct  GamePhaseState_t468  : public MonoBehaviour_t66
 {
 	// GamePhaseState/GamePhaseType GamePhaseState::pendingPhase
 	int32_t ___pendingPhase_2;
@@ -24,15 +24,15 @@ struct  GamePhaseState_t466  : public MonoBehaviour_t67
 	// System.Boolean GamePhaseState::shouldCheckForPhaseTransition
 	bool ___shouldCheckForPhaseTransition_5;
 	// GameUI[] GamePhaseState::gameUIs
-	GameUIU5BU5D_t468* ___gameUIs_6;
+	GameUIU5BU5D_t470* ___gameUIs_6;
 	// GamePhaseState/GameInstanceChangedEventHandler GamePhaseState::GameInstanceChanged
-	GameInstanceChangedEventHandler_t464 * ___GameInstanceChanged_7;
+	GameInstanceChangedEventHandler_t466 * ___GameInstanceChanged_7;
 	// GamePhaseState/GamePhaseChangedEventHandler GamePhaseState::GamePhaseChanged
-	GamePhaseChangedEventHandler_t465 * ___GamePhaseChanged_8;
+	GamePhaseChangedEventHandler_t467 * ___GamePhaseChanged_8;
 	// GamePhaseState/GamePhaseType GamePhaseState::<gamePhase>k__BackingField
 	int32_t ___U3CgamePhaseU3Ek__BackingField_9;
 };
-struct GamePhaseState_t466_StaticFields{
+struct GamePhaseState_t468_StaticFields{
 	// GamePhaseState GamePhaseState::<instance>k__BackingField
-	GamePhaseState_t466 * ___U3CinstanceU3Ek__BackingField_10;
+	GamePhaseState_t468 * ___U3CinstanceU3Ek__BackingField_10;
 };

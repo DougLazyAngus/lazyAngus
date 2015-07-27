@@ -21,7 +21,7 @@ public class RateMeDialog : MonoBehaviour {
 	public void RateThis() {
 		RatingsHelper.instance.ShowRatingsPage ();
 
-		PersistentStorage.instance.SetBoolValue ("supressRatingRequests", true);
+		PersistentStorage.instance.SetBoolValue ("suppressRatingRequests", true);
 		DialogController.instance.HideDialog (gameObject);
 	}
 
@@ -30,7 +30,7 @@ public class RateMeDialog : MonoBehaviour {
 	}
 
 	public void NoThanks() {
-		PersistentStorage.instance.SetBoolValue ("supressRatingRequests", true);
+		PersistentStorage.instance.SetBoolValue ("suppressRatingRequests", true);
 		DialogController.instance.HideDialog (gameObject);
 	}
 }

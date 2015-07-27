@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // TwitterStatus
-struct  TwitterStatus_t282  : public Object_t
+struct  TwitterStatus_t284  : public Object_t
 {
 	// System.String TwitterStatus::_rawJSON
 	String_t* ____rawJSON_0;

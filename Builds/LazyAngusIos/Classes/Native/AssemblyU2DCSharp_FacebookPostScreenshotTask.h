@@ -5,7 +5,7 @@ struct String_t;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
 // FacebookPostScreenshotTask
-struct  FacebookPostScreenshotTask_t328  : public EventDispatcher_t87
+struct  FacebookPostScreenshotTask_t330  : public EventDispatcher_t89
 {
 	// System.String FacebookPostScreenshotTask::text
 	String_t* ___text_4;

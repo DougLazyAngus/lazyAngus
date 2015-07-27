@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // FBSettings
-struct FBSettings_t388;
+struct FBSettings_t390;
 // System.String[]
 struct StringU5BU5D_t45;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // FBSettings
-struct  FBSettings_t388  : public ScriptableObject_t106
+struct  FBSettings_t390  : public ScriptableObject_t108
 {
 	// System.Int32 FBSettings::selectedAppIndex
 	int32_t ___selectedAppIndex_6;
@@ -30,7 +30,7 @@ struct  FBSettings_t388  : public ScriptableObject_t106
 	// System.String FBSettings::iosURLSuffix
 	String_t* ___iosURLSuffix_14;
 };
-struct FBSettings_t388_StaticFields{
+struct FBSettings_t390_StaticFields{
 	// FBSettings FBSettings::instance
-	FBSettings_t388 * ___instance_5;
+	FBSettings_t390 * ___instance_5;
 };

@@ -5,7 +5,7 @@
 // GPBoardTimeSpan
 #include "AssemblyU2DCSharp_GPBoardTimeSpan.h"
 // GPBoardTimeSpan
-struct  GPBoardTimeSpan_t149 
+struct  GPBoardTimeSpan_t151 
 {
 	// System.Int32 GPBoardTimeSpan::value__
 	int32_t ___value___1;

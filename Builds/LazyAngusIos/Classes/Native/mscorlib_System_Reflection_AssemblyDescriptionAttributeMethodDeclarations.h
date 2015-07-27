@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyDescriptionAttribute
-struct AssemblyDescriptionAttribute_t987;
+struct AssemblyDescriptionAttribute_t988;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyDescriptionAttribute::.ctor(System.String)
-extern "C" void AssemblyDescriptionAttribute__ctor_m5581 (AssemblyDescriptionAttribute_t987 * __this, String_t* ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDescriptionAttribute__ctor_m5584 (AssemblyDescriptionAttribute_t988 * __this, String_t* ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;

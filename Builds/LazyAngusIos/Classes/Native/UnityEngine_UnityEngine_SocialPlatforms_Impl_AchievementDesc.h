@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t65;
+struct Texture2D_t68;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription
-struct  AchievementDescription_t1233  : public Object_t
+struct  AchievementDescription_t1234  : public Object_t
 {
 	// System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::m_Title
 	String_t* ___m_Title_0;
 	// UnityEngine.Texture2D UnityEngine.SocialPlatforms.Impl.AchievementDescription::m_Image
-	Texture2D_t65 * ___m_Image_1;
+	Texture2D_t68 * ___m_Image_1;
 	// System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::m_AchievedDescription
 	String_t* ___m_AchievedDescription_2;
 	// System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::m_UnachievedDescription

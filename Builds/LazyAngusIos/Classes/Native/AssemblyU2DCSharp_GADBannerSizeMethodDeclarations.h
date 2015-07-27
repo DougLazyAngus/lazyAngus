@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GADBannerSize
-struct GADBannerSize_t145;
+struct GADBannerSize_t147;
 

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.CompilerServices.ExtensionAttribute
-struct  ExtensionAttribute_t698  : public Attribute_t384
+struct  ExtensionAttribute_t699  : public Attribute_t386
 {
 };

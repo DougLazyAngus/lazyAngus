@@ -7,15 +7,14 @@ public class GoogleAdController : MonoBehaviour {
 	
 	GoogleMobileAdBanner banner;
 
-	public AudioSource gameMusic;
-	public AudioSource menuMusic;
-	
 	void Awake() {
 		GoogleMobileAd.Init ();
 		GoogleMobileAd.AddKeyword("game");
 		banner = GoogleMobileAd.CreateAdBanner(TextAnchor.LowerCenter,
-		                                       GADBannerSize.BANNER);
+		                                       GADBannerSize.SMART_BANNER);
 		banner.Hide ();
+		banner.ShowOnLoad = false;
+		Debug.Log ("Banner Hide 01");
 	}
 	
 	// Use this for initialization
@@ -61,5 +60,21 @@ public class GoogleAdController : MonoBehaviour {
 			banner.Refresh();
 			break;
 		}	
+	}
+
+	public static float GetBannerHeight() {
+		// Logic from 
+		// https://developers.google.com/admob/android/banner#smart
+		float screenHeight = Screen.height;
+		Debug.Log ("screenHeight = " + Screen.height);
+		Debug.Log ("dpi = " + Screen.dpi);
+
+		if (screenHeight < 400) {
+			return 32;
+		}
+		if (screenHeight <= 720) {
+			return 50;
+		}
+		return 90;
 	}
 }

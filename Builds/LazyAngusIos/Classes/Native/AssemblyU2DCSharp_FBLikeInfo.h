@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // FBLikeInfo
-struct  FBLikeInfo_t247  : public Object_t
+struct  FBLikeInfo_t249  : public Object_t
 {
 	// System.String FBLikeInfo::id
 	String_t* ___id_0;

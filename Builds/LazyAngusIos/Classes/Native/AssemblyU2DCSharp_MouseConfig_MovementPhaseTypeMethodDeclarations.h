@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseConfig/MovementPhaseType
-struct MovementPhaseType_t499;
+struct MovementPhaseType_t500;
 

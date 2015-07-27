@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.CompilerServices.InternalsVisibleToAttribute
-struct  InternalsVisibleToAttribute_t1351  : public Attribute_t384
+struct  InternalsVisibleToAttribute_t1352  : public Attribute_t386
 {
 	// System.String System.Runtime.CompilerServices.InternalsVisibleToAttribute::assemblyName
 	String_t* ___assemblyName_0;

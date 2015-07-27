@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUIWordWrapSizer
-struct GUIWordWrapSizer_t1095;
+struct GUIWordWrapSizer_t1096;
 // UnityEngine.GUIStyle
-struct GUIStyle_t64;
+struct GUIStyle_t67;
 // UnityEngine.GUIContent
-struct GUIContent_t680;
+struct GUIContent_t681;
 // UnityEngine.GUILayoutOption[]
-struct GUILayoutOptionU5BU5D_t597;
+struct GUILayoutOptionU5BU5D_t598;
 
 // System.Void UnityEngine.GUIWordWrapSizer::.ctor(UnityEngine.GUIStyle,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])
-extern "C" void GUIWordWrapSizer__ctor_m6003 (GUIWordWrapSizer_t1095 * __this, GUIStyle_t64 * ____style, GUIContent_t680 * ____content, GUILayoutOptionU5BU5D_t597* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIWordWrapSizer__ctor_m6006 (GUIWordWrapSizer_t1096 * __this, GUIStyle_t67 * ____style, GUIContent_t681 * ____content, GUILayoutOptionU5BU5D_t598* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIWordWrapSizer::CalcWidth()
-extern "C" void GUIWordWrapSizer_CalcWidth_m6004 (GUIWordWrapSizer_t1095 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIWordWrapSizer_CalcWidth_m6007 (GUIWordWrapSizer_t1096 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIWordWrapSizer::CalcHeight()
-extern "C" void GUIWordWrapSizer_CalcHeight_m6005 (GUIWordWrapSizer_t1095 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIWordWrapSizer_CalcHeight_m6008 (GUIWordWrapSizer_t1096 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

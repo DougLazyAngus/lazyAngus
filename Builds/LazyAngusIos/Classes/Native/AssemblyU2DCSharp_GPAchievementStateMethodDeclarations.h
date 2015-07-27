@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPAchievementState
-struct GPAchievementState_t147;
+struct GPAchievementState_t149;
 

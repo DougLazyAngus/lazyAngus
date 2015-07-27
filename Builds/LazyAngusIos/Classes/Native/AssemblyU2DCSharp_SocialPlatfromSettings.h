@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<System.String>
-struct List_1_t73;
+struct List_1_t75;
 // SocialPlatfromSettings
-struct SocialPlatfromSettings_t137;
+struct SocialPlatfromSettings_t139;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // SocialPlatfromSettings
-struct  SocialPlatfromSettings_t137  : public ScriptableObject_t106
+struct  SocialPlatfromSettings_t139  : public ScriptableObject_t108
 {
 	// System.Boolean SocialPlatfromSettings::showPermitions
 	bool ___showPermitions_7;
@@ -18,7 +18,7 @@ struct  SocialPlatfromSettings_t137  : public ScriptableObject_t106
 	// System.Boolean SocialPlatfromSettings::ShowAPIS
 	bool ___ShowAPIS_9;
 	// System.Collections.Generic.List`1<System.String> SocialPlatfromSettings::fb_scopes_list
-	List_1_t73 * ___fb_scopes_list_10;
+	List_1_t75 * ___fb_scopes_list_10;
 	// System.String SocialPlatfromSettings::TWITTER_CONSUMER_KEY
 	String_t* ___TWITTER_CONSUMER_KEY_11;
 	// System.String SocialPlatfromSettings::TWITTER_CONSUMER_SECRET
@@ -40,7 +40,7 @@ struct  SocialPlatfromSettings_t137  : public ScriptableObject_t106
 	// System.Boolean SocialPlatfromSettings::KeepManifestClean
 	bool ___KeepManifestClean_20;
 };
-struct SocialPlatfromSettings_t137_StaticFields{
+struct SocialPlatfromSettings_t139_StaticFields{
 	// SocialPlatfromSettings SocialPlatfromSettings::instance
-	SocialPlatfromSettings_t137 * ___instance_21;
+	SocialPlatfromSettings_t139 * ___instance_21;
 };

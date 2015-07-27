@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDAttListDeclarationCollection
-struct DTDAttListDeclarationCollection_t1573;
+struct DTDAttListDeclarationCollection_t1574;
 // Mono.Xml.DTDAttListDeclaration
-struct DTDAttListDeclaration_t1590;
+struct DTDAttListDeclaration_t1591;
 // System.String
 struct String_t;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t1569;
+struct DTDObjectModel_t1570;
 
 // System.Void Mono.Xml.DTDAttListDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDAttListDeclarationCollection__ctor_m7645 (DTDAttListDeclarationCollection_t1573 * __this, DTDObjectModel_t1569 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDAttListDeclarationCollection__ctor_m7648 (DTDAttListDeclarationCollection_t1574 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDAttListDeclaration Mono.Xml.DTDAttListDeclarationCollection::get_Item(System.String)
-extern "C" DTDAttListDeclaration_t1590 * DTDAttListDeclarationCollection_get_Item_m7646 (DTDAttListDeclarationCollection_t1573 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDAttListDeclaration_t1591 * DTDAttListDeclarationCollection_get_Item_m7649 (DTDAttListDeclarationCollection_t1574 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDAttListDeclarationCollection::Add(System.String,Mono.Xml.DTDAttListDeclaration)
-extern "C" void DTDAttListDeclarationCollection_Add_m7647 (DTDAttListDeclarationCollection_t1573 * __this, String_t* ___name, DTDAttListDeclaration_t1590 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDAttListDeclarationCollection_Add_m7650 (DTDAttListDeclarationCollection_t1574 * __this, String_t* ___name, DTDAttListDeclaration_t1591 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

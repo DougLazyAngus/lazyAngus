@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.IAchievementDescription[]
-struct IAchievementDescriptionU5BU5D_t1302;
+struct IAchievementDescriptionU5BU5D_t1303;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<UnityEngine.SocialPlatforms.IAchievementDescription[]>
-struct  Action_1_t1066  : public MulticastDelegate_t346
+struct  Action_1_t1067  : public MulticastDelegate_t348
 {
 };

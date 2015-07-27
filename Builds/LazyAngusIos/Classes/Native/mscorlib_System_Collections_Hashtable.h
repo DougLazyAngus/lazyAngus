@@ -1,25 +1,25 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable/Slot[]
-struct SlotU5BU5D_t2417;
+struct SlotU5BU5D_t2418;
 // System.Int32[]
-struct Int32U5BU5D_t495;
+struct Int32U5BU5D_t496;
 // System.Collections.Hashtable/HashKeys
-struct HashKeys_t2414;
+struct HashKeys_t2415;
 // System.Collections.Hashtable/HashValues
-struct HashValues_t2415;
+struct HashValues_t2416;
 // System.Collections.IHashCodeProvider
-struct IHashCodeProvider_t1950;
+struct IHashCodeProvider_t1951;
 // System.Collections.IComparer
-struct IComparer_t1945;
+struct IComparer_t1946;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1300;
+struct SerializationInfo_t1301;
 // System.Collections.IEqualityComparer
-struct IEqualityComparer_t1951;
+struct IEqualityComparer_t1952;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Hashtable
-struct  Hashtable_t1570  : public Object_t
+struct  Hashtable_t1571  : public Object_t
 {
 	// System.Int32 System.Collections.Hashtable::inUse
 	int32_t ___inUse_1;
@@ -28,25 +28,25 @@ struct  Hashtable_t1570  : public Object_t
 	// System.Single System.Collections.Hashtable::loadFactor
 	float ___loadFactor_3;
 	// System.Collections.Hashtable/Slot[] System.Collections.Hashtable::table
-	SlotU5BU5D_t2417* ___table_4;
+	SlotU5BU5D_t2418* ___table_4;
 	// System.Int32[] System.Collections.Hashtable::hashes
-	Int32U5BU5D_t495* ___hashes_5;
+	Int32U5BU5D_t496* ___hashes_5;
 	// System.Int32 System.Collections.Hashtable::threshold
 	int32_t ___threshold_6;
 	// System.Collections.Hashtable/HashKeys System.Collections.Hashtable::hashKeys
-	HashKeys_t2414 * ___hashKeys_7;
+	HashKeys_t2415 * ___hashKeys_7;
 	// System.Collections.Hashtable/HashValues System.Collections.Hashtable::hashValues
-	HashValues_t2415 * ___hashValues_8;
+	HashValues_t2416 * ___hashValues_8;
 	// System.Collections.IHashCodeProvider System.Collections.Hashtable::hcpRef
 	Object_t * ___hcpRef_9;
 	// System.Collections.IComparer System.Collections.Hashtable::comparerRef
 	Object_t * ___comparerRef_10;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Hashtable::serializationInfo
-	SerializationInfo_t1300 * ___serializationInfo_11;
+	SerializationInfo_t1301 * ___serializationInfo_11;
 	// System.Collections.IEqualityComparer System.Collections.Hashtable::equalityComparer
 	Object_t * ___equalityComparer_12;
 };
-struct Hashtable_t1570_StaticFields{
+struct Hashtable_t1571_StaticFields{
 	// System.Int32[] System.Collections.Hashtable::primeTbl
-	Int32U5BU5D_t495* ___primeTbl_13;
+	Int32U5BU5D_t496* ___primeTbl_13;
 };

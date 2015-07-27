@@ -1,33 +1,33 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t655;
+struct Uri_t656;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t1828;
+struct X509CertificateCollection_t1829;
 // System.String
 struct String_t;
 // System.Net.HttpContinueDelegate
-struct HttpContinueDelegate_t2041;
+struct HttpContinueDelegate_t2042;
 // System.Net.CookieContainer
-struct CookieContainer_t2007;
+struct CookieContainer_t2008;
 // System.Net.ICredentials
-struct ICredentials_t1681;
+struct ICredentials_t1682;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t2001;
+struct WebHeaderCollection_t2002;
 // System.Version
-struct Version_t2039;
+struct Version_t2040;
 // System.Net.IWebProxy
-struct IWebProxy_t2018;
+struct IWebProxy_t2019;
 // System.Net.ServicePoint
-struct ServicePoint_t1882;
+struct ServicePoint_t1883;
 // System.Net.WebConnectionStream
-struct WebConnectionStream_t2042;
+struct WebConnectionStream_t2043;
 // System.Net.HttpWebResponse
-struct HttpWebResponse_t2043;
+struct HttpWebResponse_t2044;
 // System.Net.WebAsyncResult
-struct WebAsyncResult_t2044;
+struct WebAsyncResult_t2045;
 // System.EventHandler
-struct EventHandler_t2045;
+struct EventHandler_t2046;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Exception
@@ -35,18 +35,18 @@ struct Exception_t27;
 // System.Object
 struct Object_t;
 // System.Net.WebConnection
-struct WebConnection_t2046;
+struct WebConnection_t2047;
 // System.Net.WebRequest
 #include "System_System_Net_WebRequest.h"
 // System.Net.DecompressionMethods
 #include "System_System_Net_DecompressionMethods.h"
 // System.Net.HttpWebRequest
-struct  HttpWebRequest_t1805  : public WebRequest_t1703
+struct  HttpWebRequest_t1806  : public WebRequest_t1704
 {
 	// System.Uri System.Net.HttpWebRequest::requestUri
-	Uri_t655 * ___requestUri_6;
+	Uri_t656 * ___requestUri_6;
 	// System.Uri System.Net.HttpWebRequest::actualUri
-	Uri_t655 * ___actualUri_7;
+	Uri_t656 * ___actualUri_7;
 	// System.Boolean System.Net.HttpWebRequest::hostChanged
 	bool ___hostChanged_8;
 	// System.Boolean System.Net.HttpWebRequest::allowAutoRedirect
@@ -54,15 +54,15 @@ struct  HttpWebRequest_t1805  : public WebRequest_t1703
 	// System.Boolean System.Net.HttpWebRequest::allowBuffering
 	bool ___allowBuffering_10;
 	// System.Security.Cryptography.X509Certificates.X509CertificateCollection System.Net.HttpWebRequest::certificates
-	X509CertificateCollection_t1828 * ___certificates_11;
+	X509CertificateCollection_t1829 * ___certificates_11;
 	// System.String System.Net.HttpWebRequest::connectionGroup
 	String_t* ___connectionGroup_12;
 	// System.Int64 System.Net.HttpWebRequest::contentLength
 	int64_t ___contentLength_13;
 	// System.Net.HttpContinueDelegate System.Net.HttpWebRequest::continueDelegate
-	HttpContinueDelegate_t2041 * ___continueDelegate_14;
+	HttpContinueDelegate_t2042 * ___continueDelegate_14;
 	// System.Net.CookieContainer System.Net.HttpWebRequest::cookieContainer
-	CookieContainer_t2007 * ___cookieContainer_15;
+	CookieContainer_t2008 * ___cookieContainer_15;
 	// System.Net.ICredentials System.Net.HttpWebRequest::credentials
 	Object_t * ___credentials_16;
 	// System.Boolean System.Net.HttpWebRequest::haveResponse
@@ -72,7 +72,7 @@ struct  HttpWebRequest_t1805  : public WebRequest_t1703
 	// System.Boolean System.Net.HttpWebRequest::requestSent
 	bool ___requestSent_19;
 	// System.Net.WebHeaderCollection System.Net.HttpWebRequest::webHeaders
-	WebHeaderCollection_t2001 * ___webHeaders_20;
+	WebHeaderCollection_t2002 * ___webHeaders_20;
 	// System.Boolean System.Net.HttpWebRequest::keepAlive
 	bool ___keepAlive_21;
 	// System.Int32 System.Net.HttpWebRequest::maxAutoRedirect
@@ -90,27 +90,27 @@ struct  HttpWebRequest_t1805  : public WebRequest_t1703
 	// System.Boolean System.Net.HttpWebRequest::usedPreAuth
 	bool ___usedPreAuth_28;
 	// System.Version System.Net.HttpWebRequest::version
-	Version_t2039 * ___version_29;
+	Version_t2040 * ___version_29;
 	// System.Version System.Net.HttpWebRequest::actualVersion
-	Version_t2039 * ___actualVersion_30;
+	Version_t2040 * ___actualVersion_30;
 	// System.Net.IWebProxy System.Net.HttpWebRequest::proxy
 	Object_t * ___proxy_31;
 	// System.Boolean System.Net.HttpWebRequest::sendChunked
 	bool ___sendChunked_32;
 	// System.Net.ServicePoint System.Net.HttpWebRequest::servicePoint
-	ServicePoint_t1882 * ___servicePoint_33;
+	ServicePoint_t1883 * ___servicePoint_33;
 	// System.Int32 System.Net.HttpWebRequest::timeout
 	int32_t ___timeout_34;
 	// System.Net.WebConnectionStream System.Net.HttpWebRequest::writeStream
-	WebConnectionStream_t2042 * ___writeStream_35;
+	WebConnectionStream_t2043 * ___writeStream_35;
 	// System.Net.HttpWebResponse System.Net.HttpWebRequest::webResponse
-	HttpWebResponse_t2043 * ___webResponse_36;
+	HttpWebResponse_t2044 * ___webResponse_36;
 	// System.Net.WebAsyncResult System.Net.HttpWebRequest::asyncWrite
-	WebAsyncResult_t2044 * ___asyncWrite_37;
+	WebAsyncResult_t2045 * ___asyncWrite_37;
 	// System.Net.WebAsyncResult System.Net.HttpWebRequest::asyncRead
-	WebAsyncResult_t2044 * ___asyncRead_38;
+	WebAsyncResult_t2045 * ___asyncRead_38;
 	// System.EventHandler System.Net.HttpWebRequest::abortHandler
-	EventHandler_t2045 * ___abortHandler_39;
+	EventHandler_t2046 * ___abortHandler_39;
 	// System.Int32 System.Net.HttpWebRequest::aborted
 	int32_t ___aborted_40;
 	// System.Int32 System.Net.HttpWebRequest::redirects
@@ -134,7 +134,7 @@ struct  HttpWebRequest_t1805  : public WebRequest_t1703
 	// System.Boolean System.Net.HttpWebRequest::finished_reading
 	bool ___finished_reading_50;
 	// System.Net.WebConnection System.Net.HttpWebRequest::WebConnection
-	WebConnection_t2046 * ___WebConnection_51;
+	WebConnection_t2047 * ___WebConnection_51;
 	// System.Net.DecompressionMethods System.Net.HttpWebRequest::auto_decomp
 	int32_t ___auto_decomp_52;
 	// System.Int32 System.Net.HttpWebRequest::readWriteTimeout
@@ -142,7 +142,7 @@ struct  HttpWebRequest_t1805  : public WebRequest_t1703
 	// System.Boolean System.Net.HttpWebRequest::unsafe_auth_blah
 	bool ___unsafe_auth_blah_55;
 };
-struct HttpWebRequest_t1805_StaticFields{
+struct HttpWebRequest_t1806_StaticFields{
 	// System.Int32 System.Net.HttpWebRequest::defaultMaxResponseHeadersLength
 	int32_t ___defaultMaxResponseHeadersLength_53;
 };

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t310;
+struct GameObject_t312;
 // MouseDesc[]
-struct MouseDescU5BU5D_t502;
+struct MouseDescU5BU5D_t503;
 // MouseWiggleDesc[]
-struct MouseWiggleDescU5BU5D_t503;
+struct MouseWiggleDescU5BU5D_t504;
 // MouseConfig
-struct MouseConfig_t504;
+struct MouseConfig_t505;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Color
@@ -15,7 +15,7 @@ struct MouseConfig_t504;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseConfig
-struct  MouseConfig_t504  : public MonoBehaviour_t67
+struct  MouseConfig_t505  : public MonoBehaviour_t66
 {
 	// System.Single MouseConfig::timeToTurn
 	float ___timeToTurn_2;
@@ -36,13 +36,13 @@ struct  MouseConfig_t504  : public MonoBehaviour_t67
 	// System.Single MouseConfig::superSpeedM
 	float ___superSpeedM_10;
 	// UnityEngine.Color MouseConfig::poisonedColor
-	Color_t283  ___poisonedColor_11;
+	Color_t285  ___poisonedColor_11;
 	// UnityEngine.Color MouseConfig::fartedUponColor
-	Color_t283  ___fartedUponColor_12;
+	Color_t285  ___fartedUponColor_12;
 	// UnityEngine.Vector3 MouseConfig::progressBarOffset
-	Vector3_t449  ___progressBarOffset_13;
+	Vector3_t451  ___progressBarOffset_13;
 	// UnityEngine.GameObject MouseConfig::deadMousePrototype
-	GameObject_t310 * ___deadMousePrototype_14;
+	GameObject_t312 * ___deadMousePrototype_14;
 	// System.Single MouseConfig::minBFWiggleMagnitude
 	float ___minBFWiggleMagnitude_15;
 	// System.Single MouseConfig::maxBFWiggleMagnitude
@@ -68,11 +68,11 @@ struct  MouseConfig_t504  : public MonoBehaviour_t67
 	// System.Int32 MouseConfig::maxRDWiggleCycles
 	int32_t ___maxRDWiggleCycles_26;
 	// MouseDesc[] MouseConfig::mouseDescs
-	MouseDescU5BU5D_t502* ___mouseDescs_27;
+	MouseDescU5BU5D_t503* ___mouseDescs_27;
 	// MouseWiggleDesc[] MouseConfig::mouseWiggleDescs
-	MouseWiggleDescU5BU5D_t503* ___mouseWiggleDescs_28;
+	MouseWiggleDescU5BU5D_t504* ___mouseWiggleDescs_28;
 };
-struct MouseConfig_t504_StaticFields{
+struct MouseConfig_t505_StaticFields{
 	// MouseConfig MouseConfig::instance
-	MouseConfig_t504 * ___instance_29;
+	MouseConfig_t505 * ___instance_29;
 };

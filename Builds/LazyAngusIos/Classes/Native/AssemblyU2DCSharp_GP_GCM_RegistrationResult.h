@@ -5,7 +5,7 @@ struct String_t;
 // GooglePlayResult
 #include "AssemblyU2DCSharp_GooglePlayResult.h"
 // GP_GCM_RegistrationResult
-struct  GP_GCM_RegistrationResult_t197  : public GooglePlayResult_t194
+struct  GP_GCM_RegistrationResult_t199  : public GooglePlayResult_t196
 {
 	// System.String GP_GCM_RegistrationResult::_RegistrationDeviceId
 	String_t* ____RegistrationDeviceId_2;

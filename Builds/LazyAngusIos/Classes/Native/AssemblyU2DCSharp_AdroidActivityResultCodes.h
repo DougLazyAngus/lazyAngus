@@ -5,7 +5,7 @@
 // AdroidActivityResultCodes
 #include "AssemblyU2DCSharp_AdroidActivityResultCodes.h"
 // AdroidActivityResultCodes
-struct  AdroidActivityResultCodes_t138 
+struct  AdroidActivityResultCodes_t140 
 {
 	// System.Int32 AdroidActivityResultCodes::value__
 	int32_t ___value___1;

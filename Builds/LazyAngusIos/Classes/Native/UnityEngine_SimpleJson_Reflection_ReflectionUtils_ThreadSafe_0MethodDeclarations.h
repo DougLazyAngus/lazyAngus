@@ -5,63 +5,63 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct ThreadSafeDictionary_2_t1317;
+struct ThreadSafeDictionary_2_t1318;
 // System.Collections.Generic.ICollection`1<System.Type>
-struct ICollection_1_t4629;
-// System.Collections.Generic.ICollection`1<SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
 struct ICollection_1_t4630;
+// System.Collections.Generic.ICollection`1<SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
+struct ICollection_1_t4631;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t1202;
+struct ConstructorDelegate_t1203;
 // System.Type
 struct Type_t;
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct ThreadSafeDictionaryValueFactory_2_t1316;
+struct ThreadSafeDictionaryValueFactory_2_t1317;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
 // System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>[]
-struct KeyValuePair_2U5BU5D_t4631;
+struct KeyValuePair_2U5BU5D_t4632;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>>
-struct IEnumerator_1_t4632;
+struct IEnumerator_1_t4633;
 // System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_41.h"
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<TKey,TValue>)
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Object,System.Object>
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_ThreadSafe_6MethodDeclarations.h"
-#define ThreadSafeDictionary_2__ctor_m7203(__this, ___valueFactory, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, ThreadSafeDictionaryValueFactory_2_t1316 *, const MethodInfo*))ThreadSafeDictionary_2__ctor_m27167_gshared)(__this, ___valueFactory, method)
+#define ThreadSafeDictionary_2__ctor_m7206(__this, ___valueFactory, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, ThreadSafeDictionaryValueFactory_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2__ctor_m27170_gshared)(__this, ___valueFactory, method)
 // System.Collections.IEnumerator SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IEnumerable.GetEnumerator()
-#define ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m27168(__this, method) (( Object_t * (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m27169_gshared)(__this, method)
+#define ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m27171(__this, method) (( Object_t * (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m27172_gshared)(__this, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Get(TKey)
-#define ThreadSafeDictionary_2_Get_m27170(__this, ___key, method) (( ConstructorDelegate_t1202 * (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_Get_m27171_gshared)(__this, ___key, method)
+#define ThreadSafeDictionary_2_Get_m27173(__this, ___key, method) (( ConstructorDelegate_t1203 * (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_Get_m27174_gshared)(__this, ___key, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::AddValue(TKey)
-#define ThreadSafeDictionary_2_AddValue_m27172(__this, ___key, method) (( ConstructorDelegate_t1202 * (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_AddValue_m27173_gshared)(__this, ___key, method)
+#define ThreadSafeDictionary_2_AddValue_m27175(__this, ___key, method) (( ConstructorDelegate_t1203 * (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_AddValue_m27176_gshared)(__this, ___key, method)
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Add(TKey,TValue)
-#define ThreadSafeDictionary_2_Add_m27174(__this, ___key, ___value, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, ConstructorDelegate_t1202 *, const MethodInfo*))ThreadSafeDictionary_2_Add_m27175_gshared)(__this, ___key, ___value, method)
+#define ThreadSafeDictionary_2_Add_m27177(__this, ___key, ___value, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, ConstructorDelegate_t1203 *, const MethodInfo*))ThreadSafeDictionary_2_Add_m27178_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.ICollection`1<TKey> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Keys()
-#define ThreadSafeDictionary_2_get_Keys_m27176(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_get_Keys_m27177_gshared)(__this, method)
+#define ThreadSafeDictionary_2_get_Keys_m27179(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_get_Keys_m27180_gshared)(__this, method)
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Remove(TKey)
-#define ThreadSafeDictionary_2_Remove_m27178(__this, ___key, method) (( bool (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_Remove_m27179_gshared)(__this, ___key, method)
+#define ThreadSafeDictionary_2_Remove_m27181(__this, ___key, method) (( bool (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_Remove_m27182_gshared)(__this, ___key, method)
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::TryGetValue(TKey,TValue&)
-#define ThreadSafeDictionary_2_TryGetValue_m27180(__this, ___key, ___value, method) (( bool (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, ConstructorDelegate_t1202 **, const MethodInfo*))ThreadSafeDictionary_2_TryGetValue_m27181_gshared)(__this, ___key, ___value, method)
+#define ThreadSafeDictionary_2_TryGetValue_m27183(__this, ___key, ___value, method) (( bool (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, ConstructorDelegate_t1203 **, const MethodInfo*))ThreadSafeDictionary_2_TryGetValue_m27184_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.ICollection`1<TValue> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Values()
-#define ThreadSafeDictionary_2_get_Values_m27182(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_get_Values_m27183_gshared)(__this, method)
+#define ThreadSafeDictionary_2_get_Values_m27185(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_get_Values_m27186_gshared)(__this, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Item(TKey)
-#define ThreadSafeDictionary_2_get_Item_m27184(__this, ___key, method) (( ConstructorDelegate_t1202 * (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_get_Item_m27185_gshared)(__this, ___key, method)
+#define ThreadSafeDictionary_2_get_Item_m27187(__this, ___key, method) (( ConstructorDelegate_t1203 * (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, const MethodInfo*))ThreadSafeDictionary_2_get_Item_m27188_gshared)(__this, ___key, method)
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::set_Item(TKey,TValue)
-#define ThreadSafeDictionary_2_set_Item_m27186(__this, ___key, ___value, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, Type_t *, ConstructorDelegate_t1202 *, const MethodInfo*))ThreadSafeDictionary_2_set_Item_m27187_gshared)(__this, ___key, ___value, method)
+#define ThreadSafeDictionary_2_set_Item_m27189(__this, ___key, ___value, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, Type_t *, ConstructorDelegate_t1203 *, const MethodInfo*))ThreadSafeDictionary_2_set_Item_m27190_gshared)(__this, ___key, ___value, method)
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define ThreadSafeDictionary_2_Add_m27188(__this, ___item, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, KeyValuePair_2_t4010 , const MethodInfo*))ThreadSafeDictionary_2_Add_m27189_gshared)(__this, ___item, method)
+#define ThreadSafeDictionary_2_Add_m27191(__this, ___item, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, KeyValuePair_2_t4011 , const MethodInfo*))ThreadSafeDictionary_2_Add_m27192_gshared)(__this, ___item, method)
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Clear()
-#define ThreadSafeDictionary_2_Clear_m27190(__this, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_Clear_m27191_gshared)(__this, method)
+#define ThreadSafeDictionary_2_Clear_m27193(__this, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_Clear_m27194_gshared)(__this, method)
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define ThreadSafeDictionary_2_Contains_m27192(__this, ___item, method) (( bool (*) (ThreadSafeDictionary_2_t1317 *, KeyValuePair_2_t4010 , const MethodInfo*))ThreadSafeDictionary_2_Contains_m27193_gshared)(__this, ___item, method)
+#define ThreadSafeDictionary_2_Contains_m27195(__this, ___item, method) (( bool (*) (ThreadSafeDictionary_2_t1318 *, KeyValuePair_2_t4011 , const MethodInfo*))ThreadSafeDictionary_2_Contains_m27196_gshared)(__this, ___item, method)
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define ThreadSafeDictionary_2_CopyTo_m27194(__this, ___array, ___arrayIndex, method) (( void (*) (ThreadSafeDictionary_2_t1317 *, KeyValuePair_2U5BU5D_t4631*, int32_t, const MethodInfo*))ThreadSafeDictionary_2_CopyTo_m27195_gshared)(__this, ___array, ___arrayIndex, method)
+#define ThreadSafeDictionary_2_CopyTo_m27197(__this, ___array, ___arrayIndex, method) (( void (*) (ThreadSafeDictionary_2_t1318 *, KeyValuePair_2U5BU5D_t4632*, int32_t, const MethodInfo*))ThreadSafeDictionary_2_CopyTo_m27198_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Count()
-#define ThreadSafeDictionary_2_get_Count_m27196(__this, method) (( int32_t (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_get_Count_m27197_gshared)(__this, method)
+#define ThreadSafeDictionary_2_get_Count_m27199(__this, method) (( int32_t (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_get_Count_m27200_gshared)(__this, method)
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_IsReadOnly()
-#define ThreadSafeDictionary_2_get_IsReadOnly_m27198(__this, method) (( bool (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_get_IsReadOnly_m27199_gshared)(__this, method)
+#define ThreadSafeDictionary_2_get_IsReadOnly_m27201(__this, method) (( bool (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_get_IsReadOnly_m27202_gshared)(__this, method)
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define ThreadSafeDictionary_2_Remove_m27200(__this, ___item, method) (( bool (*) (ThreadSafeDictionary_2_t1317 *, KeyValuePair_2_t4010 , const MethodInfo*))ThreadSafeDictionary_2_Remove_m27201_gshared)(__this, ___item, method)
+#define ThreadSafeDictionary_2_Remove_m27203(__this, ___item, method) (( bool (*) (ThreadSafeDictionary_2_t1318 *, KeyValuePair_2_t4011 , const MethodInfo*))ThreadSafeDictionary_2_Remove_m27204_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::GetEnumerator()
-#define ThreadSafeDictionary_2_GetEnumerator_m27202(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1317 *, const MethodInfo*))ThreadSafeDictionary_2_GetEnumerator_m27203_gshared)(__this, method)
+#define ThreadSafeDictionary_2_GetEnumerator_m27205(__this, method) (( Object_t* (*) (ThreadSafeDictionary_2_t1318 *, const MethodInfo*))ThreadSafeDictionary_2_GetEnumerator_m27206_gshared)(__this, method)

@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t65;
+struct Texture2D_t68;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData
-struct  GcAchievementDescriptionData_t1220 
+struct  GcAchievementDescriptionData_t1221 
 {
 	// System.String UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::m_Identifier
 	String_t* ___m_Identifier_0;
 	// System.String UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::m_Title
 	String_t* ___m_Title_1;
 	// UnityEngine.Texture2D UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::m_Image
-	Texture2D_t65 * ___m_Image_2;
+	Texture2D_t68 * ___m_Image_2;
 	// System.String UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::m_AchievedDescription
 	String_t* ___m_AchievedDescription_3;
 	// System.String UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::m_UnachievedDescription

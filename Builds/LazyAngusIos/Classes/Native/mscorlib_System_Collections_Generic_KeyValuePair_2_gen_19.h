@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t98;
+struct GoogleMobileAdBanner_t100;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,GoogleMobileAdBanner>
-struct  KeyValuePair_2_t3475 
+struct  KeyValuePair_2_t3476 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,GoogleMobileAdBanner>::key
 	String_t* ___key_0;

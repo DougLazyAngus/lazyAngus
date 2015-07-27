@@ -3,6 +3,6 @@
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
 #include "mscorlib_System_Collections_Generic_List_1_gen_49.h"
 // Mono.Xml.DictionaryBase
-struct  DictionaryBase_t1580  : public List_1_t1584
+struct  DictionaryBase_t1581  : public List_1_t1585
 {
 };

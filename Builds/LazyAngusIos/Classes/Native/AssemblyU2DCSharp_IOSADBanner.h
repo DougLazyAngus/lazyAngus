@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Action`1<GoogleMobileAdBanner>
-struct Action_1_t107;
+struct Action_1_t109;
 // UnionAssets.FLE.EventDispatcherBase
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcherBase.h"
 // GADBannerSize
@@ -9,7 +9,7 @@ struct Action_1_t107;
 // UnityEngine.TextAnchor
 #include "UnityEngine_UnityEngine_TextAnchor.h"
 // IOSADBanner
-struct  IOSADBanner_t108  : public EventDispatcherBase_t88
+struct  IOSADBanner_t110  : public EventDispatcherBase_t90
 {
 	// System.Int32 IOSADBanner::_id
 	int32_t ____id_2;
@@ -32,25 +32,25 @@ struct  IOSADBanner_t108  : public EventDispatcherBase_t88
 	// System.Int32 IOSADBanner::_height
 	int32_t ____height_11;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::_OnLoadedAction
-	Action_1_t107 * ____OnLoadedAction_12;
+	Action_1_t109 * ____OnLoadedAction_12;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::_OnFailedLoadingAction
-	Action_1_t107 * ____OnFailedLoadingAction_13;
+	Action_1_t109 * ____OnFailedLoadingAction_13;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::_OnOpenedAction
-	Action_1_t107 * ____OnOpenedAction_14;
+	Action_1_t109 * ____OnOpenedAction_14;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::_OnClosedAction
-	Action_1_t107 * ____OnClosedAction_15;
+	Action_1_t109 * ____OnClosedAction_15;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::_OnLeftApplicationAction
-	Action_1_t107 * ____OnLeftApplicationAction_16;
+	Action_1_t109 * ____OnLeftApplicationAction_16;
 };
-struct IOSADBanner_t108_StaticFields{
+struct IOSADBanner_t110_StaticFields{
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::<>f__am$cacheF
-	Action_1_t107 * ___U3CU3Ef__amU24cacheF_17;
+	Action_1_t109 * ___U3CU3Ef__amU24cacheF_17;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::<>f__am$cache10
-	Action_1_t107 * ___U3CU3Ef__amU24cache10_18;
+	Action_1_t109 * ___U3CU3Ef__amU24cache10_18;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::<>f__am$cache11
-	Action_1_t107 * ___U3CU3Ef__amU24cache11_19;
+	Action_1_t109 * ___U3CU3Ef__amU24cache11_19;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::<>f__am$cache12
-	Action_1_t107 * ___U3CU3Ef__amU24cache12_20;
+	Action_1_t109 * ___U3CU3Ef__amU24cache12_20;
 	// System.Action`1<GoogleMobileAdBanner> IOSADBanner::<>f__am$cache13
-	Action_1_t107 * ___U3CU3Ef__amU24cache13_21;
+	Action_1_t109 * ___U3CU3Ef__amU24cache13_21;
 };

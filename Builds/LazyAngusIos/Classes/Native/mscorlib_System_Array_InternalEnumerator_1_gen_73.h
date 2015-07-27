@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>
-struct  InternalEnumerator_1_t4113 
+struct  InternalEnumerator_1_t4114 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::array
 	Array_t * ___array_0;

@@ -5,30 +5,30 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.ArgumentCache
-struct ArgumentCache_t1259;
+struct ArgumentCache_t1260;
 // UnityEngine.Object
-struct Object_t599;
-struct Object_t599_marshaled;
+struct Object_t600;
+struct Object_t600_marshaled;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.Events.ArgumentCache::.ctor()
-extern "C" void ArgumentCache__ctor_m7068 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentCache__ctor_m7071 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Events.ArgumentCache::get_unityObjectArgument()
-extern "C" Object_t599 * ArgumentCache_get_unityObjectArgument_m7069 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t600 * ArgumentCache_get_unityObjectArgument_m7072 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Events.ArgumentCache::get_unityObjectArgumentAssemblyTypeName()
-extern "C" String_t* ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m7070 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m7073 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Events.ArgumentCache::get_intArgument()
-extern "C" int32_t ArgumentCache_get_intArgument_m7071 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArgumentCache_get_intArgument_m7074 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Events.ArgumentCache::get_floatArgument()
-extern "C" float ArgumentCache_get_floatArgument_m7072 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float ArgumentCache_get_floatArgument_m7075 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Events.ArgumentCache::get_stringArgument()
-extern "C" String_t* ArgumentCache_get_stringArgument_m7073 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ArgumentCache_get_stringArgument_m7076 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Events.ArgumentCache::get_boolArgument()
-extern "C" bool ArgumentCache_get_boolArgument_m7074 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArgumentCache_get_boolArgument_m7077 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.ArgumentCache::TidyAssemblyTypeName()
-extern "C" void ArgumentCache_TidyAssemblyTypeName_m7075 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentCache_TidyAssemblyTypeName_m7078 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.ArgumentCache::OnBeforeSerialize()
-extern "C" void ArgumentCache_OnBeforeSerialize_m7076 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentCache_OnBeforeSerialize_m7079 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.ArgumentCache::OnAfterDeserialize()
-extern "C" void ArgumentCache_OnAfterDeserialize_m7077 (ArgumentCache_t1259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentCache_OnAfterDeserialize_m7080 (ArgumentCache_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

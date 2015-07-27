@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t1787;
+struct ICryptoTransform_t1788;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.BlockProcessor
-struct  BlockProcessor_t2365  : public Object_t
+struct  BlockProcessor_t2366  : public Object_t
 {
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Cryptography.BlockProcessor::transform
 	Object_t * ___transform_0;

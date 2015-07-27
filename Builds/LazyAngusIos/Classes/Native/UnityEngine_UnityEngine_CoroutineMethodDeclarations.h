@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Coroutine
-struct Coroutine_t843;
-struct Coroutine_t843_marshaled;
+struct Coroutine_t844;
+struct Coroutine_t844_marshaled;
 
 // System.Void UnityEngine.Coroutine::.ctor()
-extern "C" void Coroutine__ctor_m5773 (Coroutine_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Coroutine__ctor_m5776 (Coroutine_t844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Coroutine::ReleaseCoroutine()
-extern "C" void Coroutine_ReleaseCoroutine_m5774 (Coroutine_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Coroutine_ReleaseCoroutine_m5777 (Coroutine_t844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Coroutine::Finalize()
-extern "C" void Coroutine_Finalize_m5775 (Coroutine_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void Coroutine_t843_marshal(const Coroutine_t843& unmarshaled, Coroutine_t843_marshaled& marshaled);
-void Coroutine_t843_marshal_back(const Coroutine_t843_marshaled& marshaled, Coroutine_t843& unmarshaled);
-void Coroutine_t843_marshal_cleanup(Coroutine_t843_marshaled& marshaled);
+extern "C" void Coroutine_Finalize_m5778 (Coroutine_t844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void Coroutine_t844_marshal(const Coroutine_t844& unmarshaled, Coroutine_t844_marshaled& marshaled);
+void Coroutine_t844_marshal_back(const Coroutine_t844_marshaled& marshaled, Coroutine_t844& unmarshaled);
+void Coroutine_t844_marshal_cleanup(Coroutine_t844_marshaled& marshaled);

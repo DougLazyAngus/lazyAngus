@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_RTM_Result
-struct GP_RTM_Result_t188;
+struct GP_RTM_Result_t190;
 // System.String
 struct String_t;
 // GP_GamesStatusCodes
 #include "AssemblyU2DCSharp_GP_GamesStatusCodes.h"
 
 // System.Void GP_RTM_Result::.ctor(System.String,System.String)
-extern "C" void GP_RTM_Result__ctor_m1069 (GP_RTM_Result_t188 * __this, String_t* ___r_status, String_t* ___r_roomId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_RTM_Result__ctor_m1071 (GP_RTM_Result_t190 * __this, String_t* ___r_status, String_t* ___r_roomId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // GP_GamesStatusCodes GP_RTM_Result::get_status()
-extern "C" int32_t GP_RTM_Result_get_status_m1070 (GP_RTM_Result_t188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GP_RTM_Result_get_status_m1072 (GP_RTM_Result_t190 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String GP_RTM_Result::get_roomId()
-extern "C" String_t* GP_RTM_Result_get_roomId_m1071 (GP_RTM_Result_t188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GP_RTM_Result_get_roomId_m1073 (GP_RTM_Result_t190 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

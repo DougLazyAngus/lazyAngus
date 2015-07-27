@@ -5,13 +5,13 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Collections.Generic.List`1<System.String>
-struct List_1_t73;
+struct List_1_t75;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
-struct Dictionary_2_t74;
+struct Dictionary_2_t76;
 // ConsoleBase
 #include "AssemblyU2DCSharp_ConsoleBase.h"
 // InteractiveConsole
-struct  InteractiveConsole_t71  : public ConsoleBase_t66
+struct  InteractiveConsole_t73  : public ConsoleBase_t69
 {
 	// System.String InteractiveConsole::FriendSelectorTitle
 	String_t* ___FriendSelectorTitle_10;
@@ -22,9 +22,9 @@ struct  InteractiveConsole_t71  : public ConsoleBase_t66
 	// System.Int32 InteractiveConsole::FriendFilterSelection
 	int32_t ___FriendFilterSelection_13;
 	// System.Collections.Generic.List`1<System.String> InteractiveConsole::FriendFilterGroupNames
-	List_1_t73 * ___FriendFilterGroupNames_14;
+	List_1_t75 * ___FriendFilterGroupNames_14;
 	// System.Collections.Generic.List`1<System.String> InteractiveConsole::FriendFilterGroupIDs
-	List_1_t73 * ___FriendFilterGroupIDs_15;
+	List_1_t75 * ___FriendFilterGroupIDs_15;
 	// System.Int32 InteractiveConsole::NumFriendFilterGroups
 	int32_t ___NumFriendFilterGroups_16;
 	// System.String InteractiveConsole::FriendSelectorData
@@ -62,7 +62,7 @@ struct  InteractiveConsole_t71  : public ConsoleBase_t66
 	// System.Boolean InteractiveConsole::IncludeFeedProperties
 	bool ___IncludeFeedProperties_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.String[]> InteractiveConsole::FeedProperties
-	Dictionary_2_t74 * ___FeedProperties_34;
+	Dictionary_2_t76 * ___FeedProperties_34;
 	// System.String InteractiveConsole::PayProduct
 	String_t* ___PayProduct_35;
 	// System.String InteractiveConsole::ApiQuery

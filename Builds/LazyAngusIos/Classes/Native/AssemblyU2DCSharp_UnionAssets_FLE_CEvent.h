@@ -5,11 +5,11 @@ struct String_t;
 // System.Object
 struct Object_t;
 // UnionAssets.FLE.IDispatcher
-struct IDispatcher_t90;
+struct IDispatcher_t92;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnionAssets.FLE.CEvent
-struct  CEvent_t91  : public Object_t
+struct  CEvent_t93  : public Object_t
 {
 	// System.Int32 UnionAssets.FLE.CEvent::_id
 	int32_t ____id_0;

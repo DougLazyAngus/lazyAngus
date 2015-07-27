@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GADTestDevice
-struct  GADTestDevice_t112  : public Object_t
+struct  GADTestDevice_t114  : public Object_t
 {
 	// System.String GADTestDevice::Name
 	String_t* ___Name_0;

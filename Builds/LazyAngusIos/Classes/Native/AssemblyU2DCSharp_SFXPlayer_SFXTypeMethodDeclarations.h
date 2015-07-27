@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SFXPlayer/SFXType
-struct SFXType_t538;
+struct SFXType_t540;
 

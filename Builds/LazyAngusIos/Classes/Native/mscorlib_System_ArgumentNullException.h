@@ -3,6 +3,6 @@
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // System.ArgumentNullException
-struct  ArgumentNullException_t668  : public ArgumentException_t608
+struct  ArgumentNullException_t669  : public ArgumentException_t609
 {
 };

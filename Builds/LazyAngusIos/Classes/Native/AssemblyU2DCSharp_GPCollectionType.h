@@ -5,7 +5,7 @@
 // GPCollectionType
 #include "AssemblyU2DCSharp_GPCollectionType.h"
 // GPCollectionType
-struct  GPCollectionType_t150 
+struct  GPCollectionType_t152 
 {
 	// System.Int32 GPCollectionType::value__
 	int32_t ___value___1;

@@ -5,7 +5,7 @@
 // GP_ConnectionResultCode
 #include "AssemblyU2DCSharp_GP_ConnectionResultCode.h"
 // GP_ConnectionResultCode
-struct  GP_ConnectionResultCode_t155 
+struct  GP_ConnectionResultCode_t157 
 {
 	// System.Int32 GP_ConnectionResultCode::value__
 	int32_t ___value___1;

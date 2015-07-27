@@ -7,7 +7,7 @@ struct Object_t;
 // System.Runtime.Serialization.StreamingContextStates
 #include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
 // System.Runtime.Serialization.StreamingContext
-struct  StreamingContext_t1301 
+struct  StreamingContext_t1302 
 {
 	// System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::state
 	int32_t ___state_0;

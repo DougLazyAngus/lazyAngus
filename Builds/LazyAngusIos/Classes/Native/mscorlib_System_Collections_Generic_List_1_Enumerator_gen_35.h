@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct List_1_t778;
+struct List_1_t779;
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t777;
+struct ButtonState_t778;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  Enumerator_t3764 
+struct  Enumerator_t3765 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::l
-	List_1_t778 * ___l_0;
+	List_1_t779 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.PointerInputModule/ButtonState>::current
-	ButtonState_t777 * ___current_3;
+	ButtonState_t778 * ___current_3;
 };

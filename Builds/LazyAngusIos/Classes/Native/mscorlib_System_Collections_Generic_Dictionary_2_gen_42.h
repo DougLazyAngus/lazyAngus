@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t495;
+struct Int32U5BU5D_t496;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3388;
+struct LinkU5BU5D_t3389;
 // System.Type[]
-struct TypeU5BU5D_t1199;
+struct TypeU5BU5D_t1200;
 // System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>[]
-struct IDictionary_2U5BU5D_t4016;
+struct IDictionary_2U5BU5D_t4017;
 // System.Collections.Generic.IEqualityComparer`1<System.Type>
-struct IEqualityComparer_1_t4008;
+struct IEqualityComparer_1_t4009;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1300;
+struct SerializationInfo_t1301;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>,System.Collections.DictionaryEntry>
-struct Transform_1_t4017;
+struct Transform_1_t4018;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>
-struct  Dictionary_2_t4015  : public Object_t
+struct  Dictionary_2_t4016  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::table
-	Int32U5BU5D_t495* ___table_4;
+	Int32U5BU5D_t496* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::linkSlots
-	LinkU5BU5D_t3388* ___linkSlots_5;
+	LinkU5BU5D_t3389* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::keySlots
-	TypeU5BU5D_t1199* ___keySlots_6;
+	TypeU5BU5D_t1200* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::valueSlots
-	IDictionary_2U5BU5D_t4016* ___valueSlots_7;
+	IDictionary_2U5BU5D_t4017* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t4015  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::serialization_info
-	SerializationInfo_t1300 * ___serialization_info_13;
+	SerializationInfo_t1301 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t4015_StaticFields{
+struct Dictionary_2_t4016_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>::<>f__am$cacheB
-	Transform_1_t4017 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t4018 * ___U3CU3Ef__amU24cacheB_15;
 };

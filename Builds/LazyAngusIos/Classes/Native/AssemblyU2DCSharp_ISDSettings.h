@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<System.String>
-struct List_1_t73;
+struct List_1_t75;
 // ISDSettings
-struct ISDSettings_t302;
+struct ISDSettings_t304;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // ISDSettings
-struct  ISDSettings_t302  : public ScriptableObject_t106
+struct  ISDSettings_t304  : public ScriptableObject_t108
 {
 	// System.Boolean ISDSettings::IsfwSettingOpen
 	bool ___IsfwSettingOpen_6;
@@ -22,21 +22,21 @@ struct  ISDSettings_t302  : public ScriptableObject_t106
 	// System.Boolean ISDSettings::IsPlistSettingsOpen
 	bool ___IsPlistSettingsOpen_10;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::frameworks
-	List_1_t73 * ___frameworks_11;
+	List_1_t75 * ___frameworks_11;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::libraries
-	List_1_t73 * ___libraries_12;
+	List_1_t75 * ___libraries_12;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::compileFlags
-	List_1_t73 * ___compileFlags_13;
+	List_1_t75 * ___compileFlags_13;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::linkFlags
-	List_1_t73 * ___linkFlags_14;
+	List_1_t75 * ___linkFlags_14;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::plistkeys
-	List_1_t73 * ___plistkeys_15;
+	List_1_t75 * ___plistkeys_15;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::plisttags
-	List_1_t73 * ___plisttags_16;
+	List_1_t75 * ___plisttags_16;
 	// System.Collections.Generic.List`1<System.String> ISDSettings::plistvalues
-	List_1_t73 * ___plistvalues_17;
+	List_1_t75 * ___plistvalues_17;
 };
-struct ISDSettings_t302_StaticFields{
+struct ISDSettings_t304_StaticFields{
 	// ISDSettings ISDSettings::instance
-	ISDSettings_t302 * ___instance_18;
+	ISDSettings_t304 * ___instance_18;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // CustomInterstisialExample
-struct  CustomInterstisialExample_t97  : public MonoBehaviour_t67
+struct  CustomInterstisialExample_t99  : public MonoBehaviour_t66
 {
 };

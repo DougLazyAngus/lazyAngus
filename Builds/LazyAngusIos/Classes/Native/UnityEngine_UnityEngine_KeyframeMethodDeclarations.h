@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Keyframe
-struct Keyframe_t1153;
+struct Keyframe_t1154;
 

@@ -5,7 +5,7 @@
 // ScreenPosition
 #include "AssemblyU2DCSharp_ScreenPosition.h"
 // ScreenPosition
-struct  ScreenPosition_t366 
+struct  ScreenPosition_t368 
 {
 	// System.Int32 ScreenPosition::value__
 	int32_t ___value___1;

@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.Sockets.Socket
-struct Socket_t1974;
+struct Socket_t1975;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.FileAccess
 #include "mscorlib_System_IO_FileAccess.h"
 // System.Net.Sockets.NetworkStream
-struct  NetworkStream_t1975  : public Stream_t24
+struct  NetworkStream_t1976  : public Stream_t24
 {
 	// System.IO.FileAccess System.Net.Sockets.NetworkStream::access
 	int32_t ___access_1;
 	// System.Net.Sockets.Socket System.Net.Sockets.NetworkStream::socket
-	Socket_t1974 * ___socket_2;
+	Socket_t1975 * ___socket_2;
 	// System.Boolean System.Net.Sockets.NetworkStream::owns_socket
 	bool ___owns_socket_3;
 	// System.Boolean System.Net.Sockets.NetworkStream::readable

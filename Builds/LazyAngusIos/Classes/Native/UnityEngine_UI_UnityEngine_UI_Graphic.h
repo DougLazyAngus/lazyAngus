@@ -1,62 +1,62 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Material
-struct Material_t438;
+struct Material_t440;
 // UnityEngine.Texture2D
-struct Texture2D_t65;
+struct Texture2D_t68;
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct ObjectPool_1_t807;
+struct ObjectPool_1_t808;
 // UnityEngine.RectTransform
-struct RectTransform_t572;
+struct RectTransform_t573;
 // UnityEngine.CanvasRenderer
-struct CanvasRenderer_t808;
+struct CanvasRenderer_t809;
 // UnityEngine.Canvas
-struct Canvas_t416;
+struct Canvas_t418;
 // UnityEngine.Events.UnityAction
-struct UnityAction_t456;
+struct UnityAction_t458;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
-struct TweenRunner_1_t809;
+struct TweenRunner_1_t810;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct UnityAction_1_t810;
+struct UnityAction_1_t811;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.UI.Graphic
-struct  Graphic_t811  : public UIBehaviour_t737
+struct  Graphic_t812  : public UIBehaviour_t738
 {
 	// UnityEngine.Material UnityEngine.UI.Graphic::m_Material
-	Material_t438 * ___m_Material_5;
+	Material_t440 * ___m_Material_5;
 	// UnityEngine.Color UnityEngine.UI.Graphic::m_Color
-	Color_t283  ___m_Color_6;
+	Color_t285  ___m_Color_6;
 	// UnityEngine.RectTransform UnityEngine.UI.Graphic::m_RectTransform
-	RectTransform_t572 * ___m_RectTransform_7;
+	RectTransform_t573 * ___m_RectTransform_7;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.Graphic::m_CanvasRender
-	CanvasRenderer_t808 * ___m_CanvasRender_8;
+	CanvasRenderer_t809 * ___m_CanvasRender_8;
 	// UnityEngine.Canvas UnityEngine.UI.Graphic::m_Canvas
-	Canvas_t416 * ___m_Canvas_9;
+	Canvas_t418 * ___m_Canvas_9;
 	// System.Boolean UnityEngine.UI.Graphic::m_VertsDirty
 	bool ___m_VertsDirty_10;
 	// System.Boolean UnityEngine.UI.Graphic::m_MaterialDirty
 	bool ___m_MaterialDirty_11;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyLayoutCallback
-	UnityAction_t456 * ___m_OnDirtyLayoutCallback_12;
+	UnityAction_t458 * ___m_OnDirtyLayoutCallback_12;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyVertsCallback
-	UnityAction_t456 * ___m_OnDirtyVertsCallback_13;
+	UnityAction_t458 * ___m_OnDirtyVertsCallback_13;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyMaterialCallback
-	UnityAction_t456 * ___m_OnDirtyMaterialCallback_14;
+	UnityAction_t458 * ___m_OnDirtyMaterialCallback_14;
 	// UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> UnityEngine.UI.Graphic::m_ColorTweenRunner
-	TweenRunner_1_t809 * ___m_ColorTweenRunner_15;
+	TweenRunner_1_t810 * ___m_ColorTweenRunner_15;
 };
-struct Graphic_t811_StaticFields{
+struct Graphic_t812_StaticFields{
 	// UnityEngine.Material UnityEngine.UI.Graphic::s_DefaultUI
-	Material_t438 * ___s_DefaultUI_2;
+	Material_t440 * ___s_DefaultUI_2;
 	// UnityEngine.Texture2D UnityEngine.UI.Graphic::s_WhiteTexture
-	Texture2D_t65 * ___s_WhiteTexture_3;
+	Texture2D_t68 * ___s_WhiteTexture_3;
 	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>> UnityEngine.UI.Graphic::s_VboPool
-	ObjectPool_1_t807 * ___s_VboPool_4;
+	ObjectPool_1_t808 * ___s_VboPool_4;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>> UnityEngine.UI.Graphic::<>f__am$cacheE
-	UnityAction_1_t810 * ___U3CU3Ef__amU24cacheE_16;
+	UnityAction_1_t811 * ___U3CU3Ef__amU24cacheE_16;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>> UnityEngine.UI.Graphic::<>f__am$cacheF
-	UnityAction_1_t810 * ___U3CU3Ef__amU24cacheF_17;
+	UnityAction_1_t811 * ___U3CU3Ef__amU24cacheF_17;
 };

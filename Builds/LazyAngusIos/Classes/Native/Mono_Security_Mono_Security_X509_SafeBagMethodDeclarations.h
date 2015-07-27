@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.SafeBag
-struct SafeBag_t1752;
+struct SafeBag_t1753;
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t1730;
+struct ASN1_t1731;
 
 // System.Void Mono.Security.X509.SafeBag::.ctor(System.String,Mono.Security.ASN1)
-extern "C" void SafeBag__ctor_m8858 (SafeBag_t1752 * __this, String_t* ___bagOID, ASN1_t1730 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeBag__ctor_m8861 (SafeBag_t1753 * __this, String_t* ___bagOID, ASN1_t1731 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.SafeBag::get_BagOID()
-extern "C" String_t* SafeBag_get_BagOID_m8859 (SafeBag_t1752 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SafeBag_get_BagOID_m8862 (SafeBag_t1753 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.X509.SafeBag::get_ASN1()
-extern "C" ASN1_t1730 * SafeBag_get_ASN1_m8860 (SafeBag_t1752 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t1731 * SafeBag_get_ASN1_m8863 (SafeBag_t1753 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

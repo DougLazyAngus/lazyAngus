@@ -3,22 +3,22 @@
 // System.Object
 struct Object_t;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t1809;
+struct ManualResetEvent_t1810;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.FileStreamAsyncResult
-struct  FileStreamAsyncResult_t2457  : public Object_t
+struct  FileStreamAsyncResult_t2458  : public Object_t
 {
 	// System.Object System.IO.FileStreamAsyncResult::state
 	Object_t * ___state_0;
 	// System.Boolean System.IO.FileStreamAsyncResult::completed
 	bool ___completed_1;
 	// System.Threading.ManualResetEvent System.IO.FileStreamAsyncResult::wh
-	ManualResetEvent_t1809 * ___wh_2;
+	ManualResetEvent_t1810 * ___wh_2;
 	// System.AsyncCallback System.IO.FileStreamAsyncResult::cb
-	AsyncCallback_t344 * ___cb_3;
+	AsyncCallback_t346 * ___cb_3;
 	// System.Int32 System.IO.FileStreamAsyncResult::Count
 	int32_t ___Count_4;
 	// System.Int32 System.IO.FileStreamAsyncResult::OriginalCount
@@ -26,5 +26,5 @@ struct  FileStreamAsyncResult_t2457  : public Object_t
 	// System.Int32 System.IO.FileStreamAsyncResult::BytesRead
 	int32_t ___BytesRead_6;
 	// System.AsyncCallback System.IO.FileStreamAsyncResult::realcb
-	AsyncCallback_t344 * ___realcb_7;
+	AsyncCallback_t346 * ___realcb_7;
 };

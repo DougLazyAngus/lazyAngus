@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TWAPITest
-struct  TWAPITest_t284  : public MonoBehaviour_t67
+struct  TWAPITest_t286  : public MonoBehaviour_t66
 {
 };

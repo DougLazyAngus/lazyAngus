@@ -13,26 +13,26 @@
 // UnityEngine.UIVertex
 #include "UnityEngine_UnityEngine_UIVertex.h"
 // UnityEngine.UIVertex
-struct  UIVertex_t840 
+struct  UIVertex_t841 
 {
 	// UnityEngine.Vector3 UnityEngine.UIVertex::position
-	Vector3_t449  ___position_0;
+	Vector3_t451  ___position_0;
 	// UnityEngine.Vector3 UnityEngine.UIVertex::normal
-	Vector3_t449  ___normal_1;
+	Vector3_t451  ___normal_1;
 	// UnityEngine.Color32 UnityEngine.UIVertex::color
-	Color32_t653  ___color_2;
+	Color32_t654  ___color_2;
 	// UnityEngine.Vector2 UnityEngine.UIVertex::uv0
-	Vector2_t68  ___uv0_3;
+	Vector2_t70  ___uv0_3;
 	// UnityEngine.Vector2 UnityEngine.UIVertex::uv1
-	Vector2_t68  ___uv1_4;
+	Vector2_t70  ___uv1_4;
 	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
-	Vector4_t935  ___tangent_5;
+	Vector4_t936  ___tangent_5;
 };
-struct UIVertex_t840_StaticFields{
+struct UIVertex_t841_StaticFields{
 	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
-	Color32_t653  ___s_DefaultColor_6;
+	Color32_t654  ___s_DefaultColor_6;
 	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
-	Vector4_t935  ___s_DefaultTangent_7;
+	Vector4_t936  ___s_DefaultTangent_7;
 	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
-	UIVertex_t840  ___simpleVert_8;
+	UIVertex_t841  ___simpleVert_8;
 };

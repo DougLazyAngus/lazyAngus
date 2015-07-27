@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.CompilerServices.RuntimeHelpers
-struct  RuntimeHelpers_t2327  : public Object_t
+struct  RuntimeHelpers_t2328  : public Object_t
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<FBAppRequest>
-struct List_1_t233;
+struct List_1_t235;
 // FBAppRequest
-struct FBAppRequest_t244;
+struct FBAppRequest_t246;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<FBAppRequest>
-struct  Enumerator_t657 
+struct  Enumerator_t658 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FBAppRequest>::l
-	List_1_t233 * ___l_0;
+	List_1_t235 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBAppRequest>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBAppRequest>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<FBAppRequest>::current
-	FBAppRequest_t244 * ___current_3;
+	FBAppRequest_t246 * ___current_3;
 };

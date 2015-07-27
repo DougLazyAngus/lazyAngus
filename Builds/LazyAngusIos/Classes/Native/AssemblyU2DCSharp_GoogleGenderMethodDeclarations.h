@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GoogleGender
-struct GoogleGender_t143;
+struct GoogleGender_t145;
 

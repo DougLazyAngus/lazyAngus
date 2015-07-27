@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketType
-struct SocketType_t1993;
+struct SocketType_t1994;
 

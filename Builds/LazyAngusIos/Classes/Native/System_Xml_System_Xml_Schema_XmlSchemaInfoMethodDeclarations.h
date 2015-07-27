@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaInfo
-struct XmlSchemaInfo_t1553;
+struct XmlSchemaInfo_t1554;
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t1551;
+struct XmlSchemaSimpleType_t1552;
 // System.Xml.Schema.XmlSchemaAttribute
-struct XmlSchemaAttribute_t1545;
+struct XmlSchemaAttribute_t1546;
 // System.Xml.Schema.XmlSchemaElement
-struct XmlSchemaElement_t1547;
+struct XmlSchemaElement_t1548;
 // System.Xml.Schema.XmlSchemaType
-struct XmlSchemaType_t1552;
+struct XmlSchemaType_t1553;
 // System.Xml.Schema.IXmlSchemaInfo
-struct IXmlSchemaInfo_t1610;
+struct IXmlSchemaInfo_t1611;
 // System.Xml.Schema.XmlSchemaValidity
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
 
 // System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.IXmlSchemaInfo)
-extern "C" void XmlSchemaInfo__ctor_m7566 (XmlSchemaInfo_t1553 * __this, Object_t * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaInfo__ctor_m7569 (XmlSchemaInfo_t1554 * __this, Object_t * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
-extern "C" bool XmlSchemaInfo_get_IsDefault_m7567 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlSchemaInfo_get_IsDefault_m7570 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
-extern "C" bool XmlSchemaInfo_get_IsNil_m7568 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlSchemaInfo_get_IsNil_m7571 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
-extern "C" XmlSchemaSimpleType_t1551 * XmlSchemaInfo_get_MemberType_m7569 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaSimpleType_t1552 * XmlSchemaInfo_get_MemberType_m7572 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
-extern "C" XmlSchemaAttribute_t1545 * XmlSchemaInfo_get_SchemaAttribute_m7570 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaAttribute_t1546 * XmlSchemaInfo_get_SchemaAttribute_m7573 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
-extern "C" XmlSchemaElement_t1547 * XmlSchemaInfo_get_SchemaElement_m7571 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaElement_t1548 * XmlSchemaInfo_get_SchemaElement_m7574 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
-extern "C" XmlSchemaType_t1552 * XmlSchemaInfo_get_SchemaType_m7572 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaType_t1553 * XmlSchemaInfo_get_SchemaType_m7575 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
-extern "C" int32_t XmlSchemaInfo_get_Validity_m7573 (XmlSchemaInfo_t1553 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlSchemaInfo_get_Validity_m7576 (XmlSchemaInfo_t1554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

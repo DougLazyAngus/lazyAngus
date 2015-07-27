@@ -3,14 +3,14 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.UInt64
 #include "mscorlib_System_UInt64.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>
-struct  Transform_1_t3991  : public MulticastDelegate_t346
+struct  Transform_1_t3992  : public MulticastDelegate_t348
 {
 };

@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // MouseHole/MouseHoleLocation
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<MouseHole/MouseHoleLocation>
-struct  Comparison_1_t3696  : public MulticastDelegate_t346
+struct  Comparison_1_t3697  : public MulticastDelegate_t348
 {
 };

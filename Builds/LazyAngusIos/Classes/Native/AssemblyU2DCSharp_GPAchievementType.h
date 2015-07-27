@@ -5,7 +5,7 @@
 // GPAchievementType
 #include "AssemblyU2DCSharp_GPAchievementType.h"
 // GPAchievementType
-struct  GPAchievementType_t148 
+struct  GPAchievementType_t150 
 {
 	// System.Int32 GPAchievementType::value__
 	int32_t ___value___1;

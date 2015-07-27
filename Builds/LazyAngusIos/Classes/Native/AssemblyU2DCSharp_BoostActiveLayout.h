@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t310;
+struct GameObject_t312;
 // BoostConfig
-struct BoostConfig_t414;
+struct BoostConfig_t416;
 // UnityEngine.UI.Slider
-struct Slider_t415;
+struct Slider_t417;
 // UnityEngine.Canvas
-struct Canvas_t416;
+struct Canvas_t418;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BoostActiveLayout
-struct  BoostActiveLayout_t417  : public MonoBehaviour_t67
+struct  BoostActiveLayout_t419  : public MonoBehaviour_t66
 {
 	// UnityEngine.GameObject BoostActiveLayout::sliderPrototype
-	GameObject_t310 * ___sliderPrototype_2;
+	GameObject_t312 * ___sliderPrototype_2;
 	// System.Boolean BoostActiveLayout::registerdForEvents
 	bool ___registerdForEvents_3;
 	// System.Boolean BoostActiveLayout::boostButtonsDirty
@@ -24,13 +24,13 @@ struct  BoostActiveLayout_t417  : public MonoBehaviour_t67
 	// System.Boolean BoostActiveLayout::levelTextDirty
 	bool ___levelTextDirty_6;
 	// BoostConfig BoostActiveLayout::boostConfig
-	BoostConfig_t414 * ___boostConfig_7;
+	BoostConfig_t416 * ___boostConfig_7;
 	// System.Boolean BoostActiveLayout::started
 	bool ___started_8;
 	// UnityEngine.UI.Slider BoostActiveLayout::sliderInstance
-	Slider_t415 * ___sliderInstance_9;
+	Slider_t417 * ___sliderInstance_9;
 	// System.Boolean BoostActiveLayout::sliderDirty
 	bool ___sliderDirty_10;
 	// UnityEngine.Canvas BoostActiveLayout::containingCanvas
-	Canvas_t416 * ___containingCanvas_11;
+	Canvas_t418 * ___containingCanvas_11;
 };

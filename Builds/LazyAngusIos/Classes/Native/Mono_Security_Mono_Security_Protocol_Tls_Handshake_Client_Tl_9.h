@@ -7,10 +7,10 @@ struct ByteU5BU5D_t36;
 // System.Security.Cryptography.RSAParameters
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange
-struct  TlsServerKeyExchange_t1845  : public HandshakeMessage_t1811
+struct  TlsServerKeyExchange_t1846  : public HandshakeMessage_t1812
 {
 	// System.Security.Cryptography.RSAParameters Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::rsaParams
-	RSAParameters_t1832  ___rsaParams_9;
+	RSAParameters_t1833  ___rsaParams_9;
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::signedParams
 	ByteU5BU5D_t36* ___signedParams_10;
 };

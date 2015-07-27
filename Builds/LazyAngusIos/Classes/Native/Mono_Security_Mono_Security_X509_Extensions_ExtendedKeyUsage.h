@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t1555;
+struct ArrayList_t1556;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t181;
+struct Dictionary_2_t183;
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 // Mono.Security.X509.Extensions.ExtendedKeyUsageExtension
-struct  ExtendedKeyUsageExtension_t1772  : public X509Extension_t1766
+struct  ExtendedKeyUsageExtension_t1773  : public X509Extension_t1767
 {
 	// System.Collections.ArrayList Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::keyPurpose
-	ArrayList_t1555 * ___keyPurpose_3;
+	ArrayList_t1556 * ___keyPurpose_3;
 };
-struct ExtendedKeyUsageExtension_t1772_StaticFields{
+struct ExtendedKeyUsageExtension_t1773_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::<>f__switch$map14
-	Dictionary_2_t181 * ___U3CU3Ef__switchU24map14_4;
+	Dictionary_2_t183 * ___U3CU3Ef__switchU24map14_4;
 };

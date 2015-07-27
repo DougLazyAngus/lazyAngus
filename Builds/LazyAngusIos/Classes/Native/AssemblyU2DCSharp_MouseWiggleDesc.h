@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Sprite
-struct Sprite_t430;
+struct Sprite_t432;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MouseWiggleDesc
-struct  MouseWiggleDesc_t515  : public Object_t
+struct  MouseWiggleDesc_t516  : public Object_t
 {
 	// UnityEngine.Sprite MouseWiggleDesc::introScreenSprite
-	Sprite_t430 * ___introScreenSprite_0;
+	Sprite_t432 * ___introScreenSprite_0;
 	// System.Single MouseWiggleDesc::minMagnitude
 	float ___minMagnitude_1;
 	// System.Single MouseWiggleDesc::maxMagnitude

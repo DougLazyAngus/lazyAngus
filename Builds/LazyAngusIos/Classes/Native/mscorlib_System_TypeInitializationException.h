@@ -5,7 +5,7 @@ struct String_t;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.TypeInitializationException
-struct  TypeInitializationException_t2816  : public SystemException_t1627
+struct  TypeInitializationException_t2817  : public SystemException_t1628
 {
 	// System.String System.TypeInitializationException::type_name
 	String_t* ___type_name_11;

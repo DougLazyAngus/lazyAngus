@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Channels.CrossAppDomainData
-struct CrossAppDomainData_t2564;
+struct CrossAppDomainData_t2565;
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainData::.ctor(System.Int32)
-extern "C" void CrossAppDomainData__ctor_m14549 (CrossAppDomainData_t2564 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainData__ctor_m14552 (CrossAppDomainData_t2565 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;

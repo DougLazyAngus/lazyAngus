@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // InstagramPostResult
-struct InstagramPostResult_t262;
+struct InstagramPostResult_t264;
 

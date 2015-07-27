@@ -5,7 +5,7 @@ struct String_t;
 // AN_BaseTemplate
 #include "AssemblyU2DCSharp_AN_BaseTemplate.h"
 // AN_ActivityTemplate
-struct  AN_ActivityTemplate_t75  : public AN_BaseTemplate_t76
+struct  AN_ActivityTemplate_t77  : public AN_BaseTemplate_t78
 {
 	// System.Boolean AN_ActivityTemplate::IsOpen
 	bool ___IsOpen_2;

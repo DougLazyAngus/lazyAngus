@@ -3,22 +3,22 @@
 // System.String
 struct String_t;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t1828;
+struct X509CertificateCollection_t1829;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t1829;
+struct X509Certificate_t1830;
 // Mono.Security.Cryptography.RSAManaged
-struct RSAManaged_t1750;
+struct RSAManaged_t1751;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.TlsClientSettings
-struct  TlsClientSettings_t1799  : public Object_t
+struct  TlsClientSettings_t1800  : public Object_t
 {
 	// System.String Mono.Security.Protocol.Tls.TlsClientSettings::targetHost
 	String_t* ___targetHost_0;
 	// System.Security.Cryptography.X509Certificates.X509CertificateCollection Mono.Security.Protocol.Tls.TlsClientSettings::certificates
-	X509CertificateCollection_t1828 * ___certificates_1;
+	X509CertificateCollection_t1829 * ___certificates_1;
 	// System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.TlsClientSettings::clientCertificate
-	X509Certificate_t1829 * ___clientCertificate_2;
+	X509Certificate_t1830 * ___clientCertificate_2;
 	// Mono.Security.Cryptography.RSAManaged Mono.Security.Protocol.Tls.TlsClientSettings::certificateRSA
-	RSAManaged_t1750 * ___certificateRSA_3;
+	RSAManaged_t1751 * ___certificateRSA_3;
 };

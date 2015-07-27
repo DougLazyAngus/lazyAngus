@@ -5,61 +5,61 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.TlsStream
-struct TlsStream_t1801;
+struct TlsStream_t1802;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.IO.SeekOrigin
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void Mono.Security.Protocol.Tls.TlsStream::.ctor()
-extern "C" void TlsStream__ctor_m9428 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream__ctor_m9431 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::.ctor(System.Byte[])
-extern "C" void TlsStream__ctor_m9429 (TlsStream_t1801 * __this, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream__ctor_m9432 (TlsStream_t1802 * __this, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.TlsStream::get_EOF()
-extern "C" bool TlsStream_get_EOF_m9430 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsStream_get_EOF_m9433 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.TlsStream::get_CanWrite()
-extern "C" bool TlsStream_get_CanWrite_m9431 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsStream_get_CanWrite_m9434 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.TlsStream::get_CanRead()
-extern "C" bool TlsStream_get_CanRead_m9432 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsStream_get_CanRead_m9435 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.TlsStream::get_CanSeek()
-extern "C" bool TlsStream_get_CanSeek_m9433 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsStream_get_CanSeek_m9436 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 Mono.Security.Protocol.Tls.TlsStream::get_Position()
-extern "C" int64_t TlsStream_get_Position_m9434 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t TlsStream_get_Position_m9437 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::set_Position(System.Int64)
-extern "C" void TlsStream_set_Position_m9435 (TlsStream_t1801 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_set_Position_m9438 (TlsStream_t1802 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 Mono.Security.Protocol.Tls.TlsStream::get_Length()
-extern "C" int64_t TlsStream_get_Length_m9436 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t TlsStream_get_Length_m9439 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.TlsStream::ReadSmallValue(System.Int32)
-extern "C" ByteU5BU5D_t36* TlsStream_ReadSmallValue_m9437 (TlsStream_t1801 * __this, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* TlsStream_ReadSmallValue_m9440 (TlsStream_t1802 * __this, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Security.Protocol.Tls.TlsStream::ReadByte()
-extern "C" uint8_t TlsStream_ReadByte_m9438 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t TlsStream_ReadByte_m9441 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 Mono.Security.Protocol.Tls.TlsStream::ReadInt16()
-extern "C" int16_t TlsStream_ReadInt16_m9439 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t TlsStream_ReadInt16_m9442 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.TlsStream::ReadInt24()
-extern "C" int32_t TlsStream_ReadInt24_m9440 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TlsStream_ReadInt24_m9443 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.TlsStream::ReadBytes(System.Int32)
-extern "C" ByteU5BU5D_t36* TlsStream_ReadBytes_m9441 (TlsStream_t1801 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* TlsStream_ReadBytes_m9444 (TlsStream_t1802 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Byte)
-extern "C" void TlsStream_Write_m9442 (TlsStream_t1801 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Write_m9445 (TlsStream_t1802 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Int16)
-extern "C" void TlsStream_Write_m9443 (TlsStream_t1801 * __this, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Write_m9446 (TlsStream_t1802 * __this, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::WriteInt24(System.Int32)
-extern "C" void TlsStream_WriteInt24_m9444 (TlsStream_t1801 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_WriteInt24_m9447 (TlsStream_t1802 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Int32)
-extern "C" void TlsStream_Write_m9445 (TlsStream_t1801 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Write_m9448 (TlsStream_t1802 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Byte[])
-extern "C" void TlsStream_Write_m9446 (TlsStream_t1801 * __this, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Write_m9449 (TlsStream_t1802 * __this, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Reset()
-extern "C" void TlsStream_Reset_m9447 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Reset_m9450 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.TlsStream::ToArray()
-extern "C" ByteU5BU5D_t36* TlsStream_ToArray_m9448 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* TlsStream_ToArray_m9451 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Flush()
-extern "C" void TlsStream_Flush_m9449 (TlsStream_t1801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Flush_m9452 (TlsStream_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::SetLength(System.Int64)
-extern "C" void TlsStream_SetLength_m9450 (TlsStream_t1801 * __this, int64_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_SetLength_m9453 (TlsStream_t1802 * __this, int64_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 Mono.Security.Protocol.Tls.TlsStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t TlsStream_Seek_m9451 (TlsStream_t1801 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t TlsStream_Seek_m9454 (TlsStream_t1802 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.TlsStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t TlsStream_Read_m9452 (TlsStream_t1801 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TlsStream_Read_m9455 (TlsStream_t1802 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void TlsStream_Write_m9453 (TlsStream_t1801 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsStream_Write_m9456 (TlsStream_t1802 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

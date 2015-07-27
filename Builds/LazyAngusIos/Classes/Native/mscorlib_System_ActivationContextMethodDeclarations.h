@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ActivationContext
-struct ActivationContext_t2749;
+struct ActivationContext_t2750;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1300;
+struct SerializationInfo_t1301;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ActivationContext::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15652 (ActivationContext_t2749 * __this, SerializationInfo_t1300 * ___info, StreamingContext_t1301  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655 (ActivationContext_t2750 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Finalize()
-extern "C" void ActivationContext_Finalize_m15653 (ActivationContext_t2749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Finalize_m15656 (ActivationContext_t2750 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Dispose()
-extern "C" void ActivationContext_Dispose_m15654 (ActivationContext_t2749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Dispose_m15657 (ActivationContext_t2750 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Dispose(System.Boolean)
-extern "C" void ActivationContext_Dispose_m15655 (ActivationContext_t2749 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Dispose_m15658 (ActivationContext_t2750 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t1555;
+struct ArrayList_t1556;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509ExtensionCollection
-struct  X509ExtensionCollection_t2081  : public Object_t
+struct  X509ExtensionCollection_t2082  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Cryptography.X509Certificates.X509ExtensionCollection::_list
-	ArrayList_t1555 * ____list_0;
+	ArrayList_t1556 * ____list_0;
 };

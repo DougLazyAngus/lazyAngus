@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct Dictionary_2_t1322;
+struct Dictionary_2_t1323;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct  KeyCollection_t4021  : public Object_t
+struct  KeyCollection_t4022  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::dictionary
-	Dictionary_2_t1322 * ___dictionary_0;
+	Dictionary_2_t1323 * ___dictionary_0;
 };

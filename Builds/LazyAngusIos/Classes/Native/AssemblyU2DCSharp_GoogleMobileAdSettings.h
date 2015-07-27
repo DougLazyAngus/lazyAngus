@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<GADTestDevice>
-struct List_1_t104;
+struct List_1_t106;
 // GoogleMobileAdSettings
-struct GoogleMobileAdSettings_t105;
+struct GoogleMobileAdSettings_t107;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // GoogleMobileAdSettings
-struct  GoogleMobileAdSettings_t105  : public ScriptableObject_t106
+struct  GoogleMobileAdSettings_t107  : public ScriptableObject_t108
 {
 	// System.String GoogleMobileAdSettings::IOS_InterstisialsUnitId
 	String_t* ___IOS_InterstisialsUnitId_7;
@@ -36,9 +36,9 @@ struct  GoogleMobileAdSettings_t105  : public ScriptableObject_t106
 	// System.Boolean GoogleMobileAdSettings::KeepManifestClean
 	bool ___KeepManifestClean_18;
 	// System.Collections.Generic.List`1<GADTestDevice> GoogleMobileAdSettings::testDevices
-	List_1_t104 * ___testDevices_19;
+	List_1_t106 * ___testDevices_19;
 };
-struct GoogleMobileAdSettings_t105_StaticFields{
+struct GoogleMobileAdSettings_t107_StaticFields{
 	// GoogleMobileAdSettings GoogleMobileAdSettings::instance
-	GoogleMobileAdSettings_t105 * ___instance_20;
+	GoogleMobileAdSettings_t107 * ___instance_20;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // AndroidGameActivityResult
-struct AndroidGameActivityResult_t175;
+struct AndroidGameActivityResult_t177;
 
 // System.Void AndroidGameActivityResult::.ctor()
-extern "C" void AndroidGameActivityResult__ctor_m1022 (AndroidGameActivityResult_t175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidGameActivityResult__ctor_m1024 (AndroidGameActivityResult_t177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

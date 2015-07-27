@@ -5,7 +5,7 @@ struct StringU5BU5D_t45;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Facebook.IOSFacebook/NativeDict
-struct  NativeDict_t400  : public Object_t
+struct  NativeDict_t402  : public Object_t
 {
 	// System.Int32 Facebook.IOSFacebook/NativeDict::numEntries
 	int32_t ___numEntries_0;

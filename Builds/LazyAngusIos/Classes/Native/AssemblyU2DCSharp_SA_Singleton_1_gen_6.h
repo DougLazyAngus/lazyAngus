@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // SPInstagram
-struct SPInstagram_t319;
+struct SPInstagram_t321;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
 // SA_Singleton`1<SPInstagram>
-struct  SA_Singleton_1_t320  : public EventDispatcher_t87
+struct  SA_Singleton_1_t322  : public EventDispatcher_t89
 {
 };
-struct SA_Singleton_1_t320_StaticFields{
+struct SA_Singleton_1_t322_StaticFields{
 	// T SA_Singleton`1<SPInstagram>::_instance
-	SPInstagram_t319 * ____instance_4;
+	SPInstagram_t321 * ____instance_4;
 	// System.Boolean SA_Singleton`1<SPInstagram>::applicationIsQuitting
 	bool ___applicationIsQuitting_5;
 };

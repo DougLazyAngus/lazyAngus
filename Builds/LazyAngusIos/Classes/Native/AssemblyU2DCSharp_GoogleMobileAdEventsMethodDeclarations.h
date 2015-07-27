@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GoogleMobileAdEvents
-struct GoogleMobileAdEvents_t171;
+struct GoogleMobileAdEvents_t173;
 
 // System.Void GoogleMobileAdEvents::.ctor()
-extern "C" void GoogleMobileAdEvents__ctor_m976 (GoogleMobileAdEvents_t171 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GoogleMobileAdEvents__ctor_m978 (GoogleMobileAdEvents_t173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

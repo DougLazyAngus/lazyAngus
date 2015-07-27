@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.SortedList/Slot
-struct Slot_t2419;
+struct Slot_t2420;
 

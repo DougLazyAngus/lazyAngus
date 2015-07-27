@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>
-struct EventFunction_1_t749;
+struct EventFunction_1_t750;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.IInitializePotentialDragHandler
-struct IInitializePotentialDragHandler_t918;
+struct IInitializePotentialDragHandler_t919;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t734;
+struct BaseEventData_t735;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents_EventF_16MethodDeclarations.h"
-#define EventFunction_1__ctor_m5164(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t749 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m22884_gshared)(__this, ___object, ___method, method)
+#define EventFunction_1__ctor_m5167(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t750 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m22887_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
-#define EventFunction_1_Invoke_m23479(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t749 *, Object_t *, BaseEventData_t734 *, const MethodInfo*))EventFunction_1_Invoke_m22886_gshared)(__this, ___handler, ___eventData, method)
+#define EventFunction_1_Invoke_m23482(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t750 *, Object_t *, BaseEventData_t735 *, const MethodInfo*))EventFunction_1_Invoke_m22889_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)
-#define EventFunction_1_BeginInvoke_m23480(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t749 *, Object_t *, BaseEventData_t734 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m22888_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
+#define EventFunction_1_BeginInvoke_m23483(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t750 *, Object_t *, BaseEventData_t735 *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m22891_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>::EndInvoke(System.IAsyncResult)
-#define EventFunction_1_EndInvoke_m23481(__this, ___result, method) (( void (*) (EventFunction_1_t749 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m22890_gshared)(__this, ___result, method)
+#define EventFunction_1_EndInvoke_m23484(__this, ___result, method) (( void (*) (EventFunction_1_t750 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m22893_gshared)(__this, ___result, method)

@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_ParticipantResult
-struct  GP_ParticipantResult_t186  : public Object_t
+struct  GP_ParticipantResult_t188  : public Object_t
 {
 	// System.Int32 GP_ParticipantResult::_Placing
 	int32_t ____Placing_0;

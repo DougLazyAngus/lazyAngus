@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdGYear
-struct  XsdGYear_t1540  : public XsdAnySimpleType_t1493
+struct  XsdGYear_t1541  : public XsdAnySimpleType_t1494
 {
 };

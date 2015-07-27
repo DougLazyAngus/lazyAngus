@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPBoardTimeSpan
-struct GPBoardTimeSpan_t149;
+struct GPBoardTimeSpan_t151;
 

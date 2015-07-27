@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlTextWriter/XmlDeclState
-struct XmlDeclState_t1674;
+struct XmlDeclState_t1675;
 

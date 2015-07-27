@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyNotFoundException
-struct KeyNotFoundException_t2401;
+struct KeyNotFoundException_t2402;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1300;
+struct SerializationInfo_t1301;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor()
-extern "C" void KeyNotFoundException__ctor_m13167 (KeyNotFoundException_t2401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyNotFoundException__ctor_m13170 (KeyNotFoundException_t2402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void KeyNotFoundException__ctor_m13168 (KeyNotFoundException_t2401 * __this, SerializationInfo_t1300 * ___info, StreamingContext_t1301  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyNotFoundException__ctor_m13171 (KeyNotFoundException_t2402 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_SnapshotMeta
-struct  GP_SnapshotMeta_t215  : public Object_t
+struct  GP_SnapshotMeta_t217  : public Object_t
 {
 	// System.String GP_SnapshotMeta::Title
 	String_t* ___Title_0;

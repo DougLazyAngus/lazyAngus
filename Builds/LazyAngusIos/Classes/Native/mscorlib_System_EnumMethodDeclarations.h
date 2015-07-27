@@ -9,7 +9,7 @@ struct Enum_t56;
 // System.Object
 struct Object_t;
 // System.IFormatProvider
-struct IFormatProvider_t2470;
+struct IFormatProvider_t2471;
 // System.Type
 struct Type_t;
 // System.Array
@@ -17,7 +17,7 @@ struct Array_t;
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t1570;
+struct Hashtable_t1571;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.DateTime
@@ -28,9 +28,9 @@ struct StringU5BU5D_t45;
 #include "mscorlib_System_TypeCode.h"
 
 // System.Void System.Enum::.ctor()
-extern "C" void Enum__ctor_m12449 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enum__ctor_m12452 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Enum::.cctor()
-extern "C" void Enum__cctor_m12450 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enum__cctor_m12453 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Enum::System.IConvertible.ToBoolean(System.IFormatProvider)
 extern "C" bool Enum_System_IConvertible_ToBoolean_m234 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Enum::System.IConvertible.ToByte(System.IFormatProvider)
@@ -38,9 +38,9 @@ extern "C" uint8_t Enum_System_IConvertible_ToByte_m235 (Object_t * __this, Obje
 // System.Char System.Enum::System.IConvertible.ToChar(System.IFormatProvider)
 extern "C" uint16_t Enum_System_IConvertible_ToChar_m236 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Enum::System.IConvertible.ToDateTime(System.IFormatProvider)
-extern "C" DateTime_t245  Enum_System_IConvertible_ToDateTime_m237 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t247  Enum_System_IConvertible_ToDateTime_m237 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Enum::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t643  Enum_System_IConvertible_ToDecimal_m238 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t644  Enum_System_IConvertible_ToDecimal_m238 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Enum::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Enum_System_IConvertible_ToDouble_m239 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Enum::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -64,27 +64,27 @@ extern "C" uint64_t Enum_System_IConvertible_ToUInt64_m249 (Object_t * __this, O
 // System.TypeCode System.Enum::GetTypeCode()
 extern "C" int32_t Enum_GetTypeCode_m251 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::get_value()
-extern "C" Object_t * Enum_get_value_m12451 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_get_value_m12454 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::get_Value()
-extern "C" Object_t * Enum_get_Value_m12452 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_get_Value_m12455 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::FindPosition(System.Object,System.Array)
-extern "C" int32_t Enum_FindPosition_m12453 (Object_t * __this /* static, unused */, Object_t * ___value, Array_t * ___values, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Enum_FindPosition_m12456 (Object_t * __this /* static, unused */, Object_t * ___value, Array_t * ___values, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::GetName(System.Type,System.Object)
-extern "C" String_t* Enum_GetName_m12454 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Enum_GetName_m12457 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Enum::IsDefined(System.Type,System.Object)
-extern "C" bool Enum_IsDefined_m9630 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enum_IsDefined_m9633 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Enum::get_underlying_type(System.Type)
-extern "C" Type_t * Enum_get_underlying_type_m12455 (Object_t * __this /* static, unused */, Type_t * ___enumType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Enum_get_underlying_type_m12458 (Object_t * __this /* static, unused */, Type_t * ___enumType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Enum::GetUnderlyingType(System.Type)
-extern "C" Type_t * Enum_GetUnderlyingType_m12456 (Object_t * __this /* static, unused */, Type_t * ___enumType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Enum_GetUnderlyingType_m12459 (Object_t * __this /* static, unused */, Type_t * ___enumType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::FindName(System.Collections.Hashtable,System.String[],System.String,System.Boolean)
-extern "C" int32_t Enum_FindName_m12457 (Object_t * __this /* static, unused */, Hashtable_t1570 * ___name_hash, StringU5BU5D_t45* ___names, String_t* ___name, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Enum_FindName_m12460 (Object_t * __this /* static, unused */, Hashtable_t1571 * ___name_hash, StringU5BU5D_t45* ___names, String_t* ___name, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Enum::GetValue(System.Object,System.TypeCode)
-extern "C" uint64_t Enum_GetValue_m12458 (Object_t * __this /* static, unused */, Object_t * ___value, int32_t ___typeCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Enum_GetValue_m12461 (Object_t * __this /* static, unused */, Object_t * ___value, int32_t ___typeCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::Parse(System.Type,System.String,System.Boolean)
-extern "C" Object_t * Enum_Parse_m11629 (Object_t * __this /* static, unused */, Type_t * ___enumType, String_t* ___value, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_Parse_m11632 (Object_t * __this /* static, unused */, Type_t * ___enumType, String_t* ___value, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::compare_value_to(System.Object)
-extern "C" int32_t Enum_compare_value_to_m12459 (Object_t * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Enum_compare_value_to_m12462 (Object_t * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::CompareTo(System.Object)
 extern "C" int32_t Enum_CompareTo_m250 (Object_t * __this, Object_t * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::ToString()
@@ -92,36 +92,36 @@ extern "C" String_t* Enum_ToString_m232 (Object_t * __this, const MethodInfo* me
 // System.String System.Enum::ToString(System.IFormatProvider)
 extern "C" String_t* Enum_ToString_m245 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::ToString(System.String)
-extern "C" String_t* Enum_ToString_m7168 (Object_t * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Enum_ToString_m7171 (Object_t * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::ToString(System.String,System.IFormatProvider)
 extern "C" String_t* Enum_ToString_m233 (Object_t * __this, String_t* ___format, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.Byte)
-extern "C" Object_t * Enum_ToObject_m12460 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12463 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.Int16)
-extern "C" Object_t * Enum_ToObject_m12461 (Object_t * __this /* static, unused */, Type_t * ___enumType, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12464 (Object_t * __this /* static, unused */, Type_t * ___enumType, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.Int32)
-extern "C" Object_t * Enum_ToObject_m12462 (Object_t * __this /* static, unused */, Type_t * ___enumType, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12465 (Object_t * __this /* static, unused */, Type_t * ___enumType, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.Int64)
-extern "C" Object_t * Enum_ToObject_m12463 (Object_t * __this /* static, unused */, Type_t * ___enumType, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12466 (Object_t * __this /* static, unused */, Type_t * ___enumType, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.Object)
-extern "C" Object_t * Enum_ToObject_m12464 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12467 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.SByte)
-extern "C" Object_t * Enum_ToObject_m12465 (Object_t * __this /* static, unused */, Type_t * ___enumType, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12468 (Object_t * __this /* static, unused */, Type_t * ___enumType, int8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.UInt16)
-extern "C" Object_t * Enum_ToObject_m12466 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12469 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.UInt32)
-extern "C" Object_t * Enum_ToObject_m12467 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12470 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::ToObject(System.Type,System.UInt64)
-extern "C" Object_t * Enum_ToObject_m12468 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enum_ToObject_m12471 (Object_t * __this /* static, unused */, Type_t * ___enumType, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Enum::Equals(System.Object)
 extern "C" bool Enum_Equals_m229 (Object_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::get_hashcode()
-extern "C" int32_t Enum_get_hashcode_m12469 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Enum_get_hashcode_m12472 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::GetHashCode()
 extern "C" int32_t Enum_GetHashCode_m231 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::FormatSpecifier_X(System.Type,System.Object,System.Boolean)
-extern "C" String_t* Enum_FormatSpecifier_X_m12470 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, bool ___upper, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Enum_FormatSpecifier_X_m12473 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, bool ___upper, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::FormatFlags(System.Type,System.Object)
-extern "C" String_t* Enum_FormatFlags_m12471 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Enum_FormatFlags_m12474 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Enum::Format(System.Type,System.Object,System.String)
-extern "C" String_t* Enum_Format_m12472 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Enum_Format_m12475 (Object_t * __this /* static, unused */, Type_t * ___enumType, Object_t * ___value, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // AndroidLogLevel
-struct  AndroidLogLevel_t140  : public Object_t
+struct  AndroidLogLevel_t142  : public Object_t
 {
 };

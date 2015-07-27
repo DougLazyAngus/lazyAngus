@@ -5,7 +5,7 @@ struct String_t;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlProcessingInstruction
-struct  XmlProcessingInstruction_t1651  : public XmlLinkedNode_t1609
+struct  XmlProcessingInstruction_t1652  : public XmlLinkedNode_t1610
 {
 	// System.String System.Xml.XmlProcessingInstruction::target
 	String_t* ___target_6;

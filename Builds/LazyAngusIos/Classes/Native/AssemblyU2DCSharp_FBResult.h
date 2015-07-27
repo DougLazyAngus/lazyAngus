@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // FBResult
-struct  FBResult_t239  : public Object_t
+struct  FBResult_t241  : public Object_t
 {
 	// System.Boolean FBResult::isWWWWrapper
 	bool ___isWWWWrapper_0;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // FacebookEvents
-struct FacebookEvents_t170;
+struct FacebookEvents_t172;
 
 // System.Void FacebookEvents::.ctor()
-extern "C" void FacebookEvents__ctor_m975 (FacebookEvents_t170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FacebookEvents__ctor_m977 (FacebookEvents_t172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

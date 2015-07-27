@@ -9,7 +9,7 @@ struct ByteU5BU5D_t36;
 // GP_AppStateStatusCodes
 #include "AssemblyU2DCSharp_GP_AppStateStatusCodes.h"
 // GoogleCloudResult
-struct  GoogleCloudResult_t191  : public Object_t
+struct  GoogleCloudResult_t193  : public Object_t
 {
 	// GP_AppStateStatusCodes GoogleCloudResult::_response
 	int32_t ____response_0;

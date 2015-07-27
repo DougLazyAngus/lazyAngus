@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t1748;
+struct SymmetricAlgorithm_t1749;
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t1787;
+struct ICryptoTransform_t1788;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.MACAlgorithm
-struct  MACAlgorithm_t2369  : public Object_t
+struct  MACAlgorithm_t2370  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.MACAlgorithm::algo
-	SymmetricAlgorithm_t1748 * ___algo_0;
+	SymmetricAlgorithm_t1749 * ___algo_0;
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Cryptography.MACAlgorithm::enc
 	Object_t * ___enc_1;
 	// System.Byte[] Mono.Security.Cryptography.MACAlgorithm::block

@@ -3,9 +3,9 @@
 // System.String[]
 struct StringU5BU5D_t45;
 // System.IAsyncResult
-struct IAsyncResult_t343;
+struct IAsyncResult_t345;
 // System.AsyncCallback
-struct AsyncCallback_t344;
+struct AsyncCallback_t346;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.AppDomainInitializer
-struct  AppDomainInitializer_t2756  : public MulticastDelegate_t346
+struct  AppDomainInitializer_t2757  : public MulticastDelegate_t348
 {
 };
