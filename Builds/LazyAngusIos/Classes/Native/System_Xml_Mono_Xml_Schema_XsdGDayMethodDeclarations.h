@@ -8,4 +8,4 @@
 struct XsdGDay_t1543;
 
 // System.Void Mono.Xml.Schema.XsdGDay::.ctor()
-extern "C" void XsdGDay__ctor_m7562 (XsdGDay_t1543 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdGDay__ctor_m7566 (XsdGDay_t1543 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

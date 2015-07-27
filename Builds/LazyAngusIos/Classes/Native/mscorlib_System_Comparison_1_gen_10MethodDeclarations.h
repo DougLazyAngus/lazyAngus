@@ -20,10 +20,10 @@ struct AsyncCallback_t346;
 // System.Void System.Comparison`1<GoogleMobileAdBanner>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m19357(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3491 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17571_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m19361(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3491 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17575_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<GoogleMobileAdBanner>::Invoke(T,T)
-#define Comparison_1_Invoke_m19358(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3491 *, Object_t *, Object_t *, const MethodInfo*))Comparison_1_Invoke_m17572_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m19362(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3491 *, Object_t *, Object_t *, const MethodInfo*))Comparison_1_Invoke_m17576_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<GoogleMobileAdBanner>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m19359(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3491 *, Object_t *, Object_t *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17573_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m19363(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3491 *, Object_t *, Object_t *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17577_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<GoogleMobileAdBanner>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m19360(__this, ___result, method) (( int32_t (*) (Comparison_1_t3491 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17574_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m19364(__this, ___result, method) (( int32_t (*) (Comparison_1_t3491 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17578_gshared)(__this, ___result, method)

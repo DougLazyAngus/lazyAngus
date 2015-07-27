@@ -12,10 +12,10 @@ struct ByteU5BU5D_t36;
 struct String_t;
 
 // System.Void Mono.Security.StrongName::.cctor()
-extern "C" void StrongName__cctor_m13125 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StrongName__cctor_m13129 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.StrongName::get_PublicKey()
-extern "C" ByteU5BU5D_t36* StrongName_get_PublicKey_m13126 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* StrongName_get_PublicKey_m13130 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.StrongName::get_PublicKeyToken()
-extern "C" ByteU5BU5D_t36* StrongName_get_PublicKeyToken_m13127 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* StrongName_get_PublicKeyToken_m13131 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.StrongName::get_TokenAlgorithm()
-extern "C" String_t* StrongName_get_TokenAlgorithm_m13128 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongName_get_TokenAlgorithm_m13132 (StrongName_t2393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

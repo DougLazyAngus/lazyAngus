@@ -3009,15 +3009,15 @@ static const PropertyInfo* AN_InvitationInboxCloseResult_t205_PropertyInfos[] =
 	&AN_InvitationInboxCloseResult_t205____ResultCode_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3879_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3880_MethodInfo;
-extern const MethodInfo Object_ToString_m3881_MethodInfo;
+extern const MethodInfo Object_Equals_m3883_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m3884_MethodInfo;
+extern const MethodInfo Object_ToString_m3885_MethodInfo;
 static const Il2CppMethodReference AN_InvitationInboxCloseResult_t205_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool AN_InvitationInboxCloseResult_t205_VTableIsGenericMethod[] =
 {
@@ -6083,7 +6083,7 @@ static const Il2CppGenericParameter* SA_Singleton_1_t702_Il2CppGenericParameters
 };
 extern const Il2CppGenericContainer SA_Singleton_1_t702_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SA_Singleton_1_t702_il2cpp_TypeInfo, 1, 0, SA_Singleton_1_t702_Il2CppGenericParametersArray };
 // System.Void SA_Singleton`1::.ctor()
-extern const MethodInfo SA_Singleton_1__ctor_m3823_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__ctor_m3827_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -6105,7 +6105,7 @@ extern const MethodInfo SA_Singleton_1__ctor_m3823_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::.cctor()
-extern const MethodInfo SA_Singleton_1__cctor_m3824_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__cctor_m3828_MethodInfo = 
 {
 	".cctor"/* name */
 	, NULL/* method */
@@ -6128,7 +6128,7 @@ extern const MethodInfo SA_Singleton_1__cctor_m3824_MethodInfo =
 };
 extern const Il2CppType SA_Singleton_1_t702_gp_0_0_0_0;
 // T SA_Singleton`1::get_instance()
-extern const MethodInfo SA_Singleton_1_get_instance_m3825_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_instance_m3829_MethodInfo = 
 {
 	"get_instance"/* name */
 	, NULL/* method */
@@ -6150,7 +6150,7 @@ extern const MethodInfo SA_Singleton_1_get_instance_m3825_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_HasInstance()
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m3826_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m3830_MethodInfo = 
 {
 	"get_HasInstance"/* name */
 	, NULL/* method */
@@ -6172,7 +6172,7 @@ extern const MethodInfo SA_Singleton_1_get_HasInstance_m3826_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_IsDestroyed()
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m3827_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m3831_MethodInfo = 
 {
 	"get_IsDestroyed"/* name */
 	, NULL/* method */
@@ -6194,7 +6194,7 @@ extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m3827_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnDestroy()
-extern const MethodInfo SA_Singleton_1_OnDestroy_m3828_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnDestroy_m3832_MethodInfo = 
 {
 	"OnDestroy"/* name */
 	, NULL/* method */
@@ -6216,7 +6216,7 @@ extern const MethodInfo SA_Singleton_1_OnDestroy_m3828_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnApplicationQuit()
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m3829_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m3833_MethodInfo = 
 {
 	"OnApplicationQuit"/* name */
 	, NULL/* method */
@@ -6239,43 +6239,43 @@ extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m3829_MethodInfo =
 };
 static const MethodInfo* SA_Singleton_1_t702_MethodInfos[] =
 {
-	&SA_Singleton_1__ctor_m3823_MethodInfo,
-	&SA_Singleton_1__cctor_m3824_MethodInfo,
-	&SA_Singleton_1_get_instance_m3825_MethodInfo,
-	&SA_Singleton_1_get_HasInstance_m3826_MethodInfo,
-	&SA_Singleton_1_get_IsDestroyed_m3827_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3828_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m3829_MethodInfo,
+	&SA_Singleton_1__ctor_m3827_MethodInfo,
+	&SA_Singleton_1__cctor_m3828_MethodInfo,
+	&SA_Singleton_1_get_instance_m3829_MethodInfo,
+	&SA_Singleton_1_get_HasInstance_m3830_MethodInfo,
+	&SA_Singleton_1_get_IsDestroyed_m3831_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m3832_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m3833_MethodInfo,
 	NULL
 };
-extern const MethodInfo SA_Singleton_1_get_instance_m3825_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_instance_m3829_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t702____instance_PropertyInfo = 
 {
 	&SA_Singleton_1_t702_il2cpp_TypeInfo/* parent */
 	, "instance"/* name */
-	, &SA_Singleton_1_get_instance_m3825_MethodInfo/* get */
+	, &SA_Singleton_1_get_instance_m3829_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m3826_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m3830_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t702____HasInstance_PropertyInfo = 
 {
 	&SA_Singleton_1_t702_il2cpp_TypeInfo/* parent */
 	, "HasInstance"/* name */
-	, &SA_Singleton_1_get_HasInstance_m3826_MethodInfo/* get */
+	, &SA_Singleton_1_get_HasInstance_m3830_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m3827_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m3831_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t702____IsDestroyed_PropertyInfo = 
 {
 	&SA_Singleton_1_t702_il2cpp_TypeInfo/* parent */
 	, "IsDestroyed"/* name */
-	, &SA_Singleton_1_get_IsDestroyed_m3827_MethodInfo/* get */
+	, &SA_Singleton_1_get_IsDestroyed_m3831_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6305,14 +6305,14 @@ extern const MethodInfo EventDispatcher_dispatch_m375_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m372_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m373_MethodInfo;
 extern const MethodInfo EventDispatcher_clearEvents_m377_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnDestroy_m3828_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m3829_MethodInfo;
+extern const MethodInfo SA_Singleton_1_OnDestroy_m3832_MethodInfo;
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m3833_MethodInfo;
 static const Il2CppMethodReference SA_Singleton_1_t702_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -6330,8 +6330,8 @@ static const Il2CppMethodReference SA_Singleton_1_t702_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3828_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m3829_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m3832_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m3833_MethodInfo,
 };
 static bool SA_Singleton_1_t702_VTableIsGenericMethod[] =
 {
@@ -6365,15 +6365,15 @@ static Il2CppInterfaceOffsetPair SA_Singleton_1_t702_InterfacesOffsets[] =
 	{ &IDispatcher_t92_0_0_0, 4},
 };
 extern const Il2CppType SA_Singleton_1_t711_0_0_0;
-extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t710_m3888_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m3889_GenericMethod;
+extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t710_m3892_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m3893_GenericMethod;
 static Il2CppRGCTXDefinition SA_Singleton_1_t702_RGCTXData[6] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t711_0_0_0 }/* Static */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t702_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&SA_Singleton_1_t702_gp_0_0_0_0 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t710_m3888_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m3889_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t710_m3892_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m3893_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -6967,10 +6967,10 @@ static const Il2CppType* WWWTextureLoader_t226_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference WWWTextureLoader_t226_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool WWWTextureLoader_t226_VTableIsGenericMethod[] =
 {
@@ -9925,14 +9925,14 @@ static const PropertyInfo* SPFacebook_t242_PropertyInfos[] =
 	&SPFacebook_t242____AppRequests_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3890_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3891_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3894_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3895_GenericMethod;
 static const Il2CppMethodReference SPFacebook_t242_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -9950,8 +9950,8 @@ static const Il2CppMethodReference SPFacebook_t242_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3890_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3891_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3894_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3895_GenericMethod,
 };
 static bool SPFacebook_t242_VTableIsGenericMethod[] =
 {
@@ -13166,10 +13166,10 @@ static const PropertyInfo* FBLikesRetrieveTask_t256_PropertyInfos[] =
 extern const MethodInfo EventDispatcher_OnDestroy_m380_MethodInfo;
 static const Il2CppMethodReference FBLikesRetrieveTask_t256_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -13523,10 +13523,10 @@ static const MethodInfo* FBPostingTask_t257_MethodInfos[] =
 };
 static const Il2CppMethodReference FBPostingTask_t257_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -14343,10 +14343,10 @@ static const Il2CppType* FB_GraphAPIRequest_t259_il2cpp_TypeInfo__nestedTypes[1]
 };
 static const Il2CppMethodReference FB_GraphAPIRequest_t259_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -14898,14 +14898,14 @@ static const MethodInfo* AndroidInstagramManager_t266_MethodInfos[] =
 	&AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1365_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3892_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3893_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3896_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3897_GenericMethod;
 static const Il2CppMethodReference AndroidInstagramManager_t266_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -14923,8 +14923,8 @@ static const Il2CppMethodReference AndroidInstagramManager_t266_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3892_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3893_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3896_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3897_GenericMethod,
 };
 static bool AndroidInstagramManager_t266_VTableIsGenericMethod[] =
 {
@@ -15843,8 +15843,8 @@ static const PropertyInfo* AndroidTwitterManager_t270_PropertyInfos[] =
 	&AndroidTwitterManager_t270____AccessTokenSecret_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3894_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3895_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3898_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3899_GenericMethod;
 extern const MethodInfo AndroidTwitterManager_Init_m1368_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_Init_m1369_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_AuthenticateUser_m1370_MethodInfo;
@@ -15856,10 +15856,10 @@ extern const MethodInfo AndroidTwitterManager_PostWithAuthCheck_m1375_MethodInfo
 extern const MethodInfo AndroidTwitterManager_LogOut_m1376_MethodInfo;
 static const Il2CppMethodReference AndroidTwitterManager_t270_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -15877,8 +15877,8 @@ static const Il2CppMethodReference AndroidTwitterManager_t270_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3894_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3895_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3898_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3899_GenericMethod,
 	&AndroidTwitterManager_Init_m1368_MethodInfo,
 	&AndroidTwitterManager_Init_m1369_MethodInfo,
 	&AndroidTwitterManager_AuthenticateUser_m1370_MethodInfo,
@@ -16456,14 +16456,14 @@ static const Il2CppType* TwitterApplicationOnlyToken_t273_il2cpp_TypeInfo__neste
 {
 	&U3CLoadU3Ec__Iterator3_t274_0_0_0,
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3896_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3897_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3900_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3901_GenericMethod;
 static const Il2CppMethodReference TwitterApplicationOnlyToken_t273_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -16481,8 +16481,8 @@ static const Il2CppMethodReference TwitterApplicationOnlyToken_t273_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3896_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3897_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3900_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3901_GenericMethod,
 };
 static bool TwitterApplicationOnlyToken_t273_VTableIsGenericMethod[] =
 {
@@ -18666,10 +18666,10 @@ static const MethodInfo* TWAPITest_t286_MethodInfos[] =
 };
 static const Il2CppMethodReference TWAPITest_t286_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool TWAPITest_t286_VTableIsGenericMethod[] =
 {
@@ -19206,20 +19206,20 @@ extern const MethodInfo TW_APIRequest_Request_m1460_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TW_APIRequest_t287_TW_APIRequest_OnResult_m3830_ParameterInfos[] = 
+static const ParameterInfo TW_APIRequest_t287_TW_APIRequest_OnResult_m3834_ParameterInfos[] = 
 {
 	{"data", 0, 134218802, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void TW_APIRequest::OnResult(System.String)
-extern const MethodInfo TW_APIRequest_OnResult_m3830_MethodInfo = 
+extern const MethodInfo TW_APIRequest_OnResult_m3834_MethodInfo = 
 {
 	"OnResult"/* name */
 	, NULL/* method */
 	, &TW_APIRequest_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, TW_APIRequest_t287_TW_APIRequest_OnResult_m3830_ParameterInfos/* parameters */
+	, TW_APIRequest_t287_TW_APIRequest_OnResult_m3834_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -19264,7 +19264,7 @@ static const MethodInfo* TW_APIRequest_t287_MethodInfos[] =
 	&TW_APIRequest_AddParam_m1458_MethodInfo,
 	&TW_APIRequest_SetUrl_m1459_MethodInfo,
 	&TW_APIRequest_Request_m1460_MethodInfo,
-	&TW_APIRequest_OnResult_m3830_MethodInfo,
+	&TW_APIRequest_OnResult_m3834_MethodInfo,
 	&TW_APIRequest_OnTokenLoaded_m1461_MethodInfo,
 	NULL
 };
@@ -19274,10 +19274,10 @@ static const Il2CppType* TW_APIRequest_t287_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference TW_APIRequest_t287_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -19513,10 +19513,10 @@ static const MethodInfo* TW_FollowersIdsRequest_t289_MethodInfos[] =
 extern const MethodInfo TW_FollowersIdsRequest_OnResult_m1465_MethodInfo;
 static const Il2CppMethodReference TW_FollowersIdsRequest_t289_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -19752,10 +19752,10 @@ static const MethodInfo* TW_FriendsIdsRequest_t290_MethodInfos[] =
 extern const MethodInfo TW_FriendsIdsRequest_OnResult_m1469_MethodInfo;
 static const Il2CppMethodReference TW_FriendsIdsRequest_t290_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -20406,10 +20406,10 @@ static const Il2CppType* TW_OAuthAPIRequest_t292_il2cpp_TypeInfo__nestedTypes[1]
 };
 static const Il2CppMethodReference TW_OAuthAPIRequest_t292_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool TW_OAuthAPIRequest_t292_VTableIsGenericMethod[] =
 {
@@ -20603,10 +20603,10 @@ static const MethodInfo* TW_SearchTweetsRequest_t298_MethodInfos[] =
 extern const MethodInfo TW_SearchTweetsRequest_OnResult_m1487_MethodInfo;
 static const Il2CppMethodReference TW_SearchTweetsRequest_t298_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -20842,10 +20842,10 @@ static const MethodInfo* TW_UserTimeLineRequest_t299_MethodInfos[] =
 extern const MethodInfo TW_UserTimeLineRequest_OnResult_m1491_MethodInfo;
 static const Il2CppMethodReference TW_UserTimeLineRequest_t299_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -21081,10 +21081,10 @@ static const MethodInfo* TW_UsersLookUpRequest_t300_MethodInfos[] =
 extern const MethodInfo TW_UsersLookUpRequest_OnResult_m1495_MethodInfo;
 static const Il2CppMethodReference TW_UsersLookUpRequest_t300_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -21428,10 +21428,10 @@ static const MethodInfo* TwitterPostingTask_t302_MethodInfos[] =
 };
 static const Il2CppMethodReference TwitterPostingTask_t302_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -22013,10 +22013,10 @@ static const PropertyInfo* ISDSettings_t304_PropertyInfos[] =
 };
 static const Il2CppMethodReference ISDSettings_t304_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool ISDSettings_t304_VTableIsGenericMethod[] =
 {
@@ -22209,10 +22209,10 @@ static const MethodInfo* InstagramUseExample_t305_MethodInfos[] =
 };
 static const Il2CppMethodReference InstagramUseExample_t305_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool InstagramUseExample_t305_VTableIsGenericMethod[] =
 {
@@ -23831,10 +23831,10 @@ static const Il2CppType* MSPFacebookUseExample_t313_il2cpp_TypeInfo__nestedTypes
 };
 static const Il2CppMethodReference MSPFacebookUseExample_t313_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool MSPFacebookUseExample_t313_VTableIsGenericMethod[] =
 {
@@ -24122,10 +24122,10 @@ static const MethodInfo* MSPMoreActionsExample_t314_MethodInfos[] =
 };
 static const Il2CppMethodReference MSPMoreActionsExample_t314_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool MSPMoreActionsExample_t314_VTableIsGenericMethod[] =
 {
@@ -25547,10 +25547,10 @@ static const Il2CppType* MSPTwitterUseExample_t317_il2cpp_TypeInfo__nestedTypes[
 };
 static const Il2CppMethodReference MSPTwitterUseExample_t317_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool MSPTwitterUseExample_t317_VTableIsGenericMethod[] =
 {
@@ -25977,10 +25977,10 @@ static const MethodInfo* MSP_FacebookAnalyticsExample_t318_MethodInfos[] =
 };
 static const Il2CppMethodReference MSP_FacebookAnalyticsExample_t318_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool MSP_FacebookAnalyticsExample_t318_VTableIsGenericMethod[] =
 {
@@ -26553,10 +26553,10 @@ static const MethodInfo* MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_Method
 };
 static const Il2CppMethodReference MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_VTableIsGenericMethod[] =
 {
@@ -27132,14 +27132,14 @@ static const MethodInfo* SPInstagram_t321_MethodInfos[] =
 	&SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1663_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3898_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3899_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3902_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3903_GenericMethod;
 static const Il2CppMethodReference SPInstagram_t321_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -27157,8 +27157,8 @@ static const Il2CppMethodReference SPInstagram_t321_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3898_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3899_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3902_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3903_GenericMethod,
 };
 static bool SPInstagram_t321_VTableIsGenericMethod[] =
 {
@@ -28885,10 +28885,10 @@ extern const MethodInfo SPTwitter_PostWithAuthCheck_m1684_MethodInfo;
 extern const MethodInfo SPTwitter_LogOut_m1685_MethodInfo;
 static const Il2CppMethodReference SPTwitter_t324_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&SPTwitter_addEventListener_m1689_MethodInfo,
 	&SPTwitter_addEventListener_m1691_MethodInfo,
 	&SPTwitter_addEventListener_m1690_MethodInfo,
@@ -29237,14 +29237,14 @@ static const MethodInfo* IOSInstagramManager_t325_MethodInfos[] =
 	&IOSInstagramManager_OnPostFailed_m1720_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3900_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3901_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3904_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3905_GenericMethod;
 static const Il2CppMethodReference IOSInstagramManager_t325_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -29262,8 +29262,8 @@ static const Il2CppMethodReference IOSInstagramManager_t325_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3900_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3901_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3904_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3905_GenericMethod,
 };
 static bool IOSInstagramManager_t325_VTableIsGenericMethod[] =
 {
@@ -30022,10 +30022,10 @@ static const PropertyInfo* MSPIOSSocialManager_t327_PropertyInfos[] =
 };
 static const Il2CppMethodReference MSPIOSSocialManager_t327_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -30992,8 +30992,8 @@ static const PropertyInfo* IOSTwitterManager_t328_PropertyInfos[] =
 	&IOSTwitterManager_t328____userInfo_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3902_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3903_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m3906_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m3907_GenericMethod;
 extern const MethodInfo IOSTwitterManager_Init_m1751_MethodInfo;
 extern const MethodInfo IOSTwitterManager_Init_m1750_MethodInfo;
 extern const MethodInfo IOSTwitterManager_AuthenticateUser_m1752_MethodInfo;
@@ -31005,10 +31005,10 @@ extern const MethodInfo IOSTwitterManager_PostWithAuthCheck_m1757_MethodInfo;
 extern const MethodInfo IOSTwitterManager_LogOut_m1758_MethodInfo;
 static const Il2CppMethodReference IOSTwitterManager_t328_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -31026,8 +31026,8 @@ static const Il2CppMethodReference IOSTwitterManager_t328_VTable[] =
 	&EventDispatcher_dispatch_m372_MethodInfo,
 	&EventDispatcher_dispatch_m373_MethodInfo,
 	&EventDispatcher_clearEvents_m377_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m3902_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m3903_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m3906_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m3907_GenericMethod,
 	&IOSTwitterManager_Init_m1751_MethodInfo,
 	&IOSTwitterManager_Init_m1750_MethodInfo,
 	&IOSTwitterManager_AuthenticateUser_m1752_MethodInfo,
@@ -31571,10 +31571,10 @@ static const Il2CppType* FacebookPostScreenshotTask_t330_il2cpp_TypeInfo__nested
 };
 static const Il2CppMethodReference FacebookPostScreenshotTask_t330_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -32161,10 +32161,10 @@ static const Il2CppType* InstagramPostScreenshotTask_t332_il2cpp_TypeInfo__neste
 };
 static const Il2CppMethodReference InstagramPostScreenshotTask_t332_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -32693,10 +32693,10 @@ static const Il2CppType* TwitterPostScreenshotTask_t334_il2cpp_TypeInfo__nestedT
 };
 static const Il2CppMethodReference TwitterPostScreenshotTask_t334_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 	&EventDispatcher_addEventListener_m356_MethodInfo,
 	&EventDispatcher_addEventListener_m357_MethodInfo,
 	&EventDispatcher_addEventListener_m359_MethodInfo,
@@ -32963,10 +32963,10 @@ static const MethodInfo* GameControllerExample_t337_MethodInfos[] =
 };
 static const Il2CppMethodReference GameControllerExample_t337_VTable[] =
 {
-	&Object_Equals_m3879_MethodInfo,
+	&Object_Equals_m3883_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Object_GetHashCode_m3880_MethodInfo,
-	&Object_ToString_m3881_MethodInfo,
+	&Object_GetHashCode_m3884_MethodInfo,
+	&Object_ToString_m3885_MethodInfo,
 };
 static bool GameControllerExample_t337_VTableIsGenericMethod[] =
 {

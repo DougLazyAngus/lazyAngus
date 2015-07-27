@@ -10,6 +10,6 @@ struct XsdBoolean_t1531;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdBoolean::.ctor()
-extern "C" void XsdBoolean__ctor_m7543 (XsdBoolean_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdBoolean__ctor_m7547 (XsdBoolean_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdBoolean::get_TokenizedType()
-extern "C" int32_t XsdBoolean_get_TokenizedType_m7544 (XsdBoolean_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdBoolean_get_TokenizedType_m7548 (XsdBoolean_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

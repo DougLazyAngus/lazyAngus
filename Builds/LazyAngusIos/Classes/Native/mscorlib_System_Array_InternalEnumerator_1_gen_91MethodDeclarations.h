@@ -14,17 +14,17 @@ struct Array_t;
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer_TableRa.h"
 
 // System.Void System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m29086_gshared (InternalEnumerator_1_t4172 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m29086(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4172 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m29086_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m29090_gshared (InternalEnumerator_1_t4172 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m29090(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4172 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m29090_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29087_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29087(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29087_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29091_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29091(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29091_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m29088_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m29088(__this, method) (( void (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_Dispose_m29088_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m29092_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m29092(__this, method) (( void (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_Dispose_m29092_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m29089_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m29089(__this, method) (( bool (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m29089_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m29093_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m29093(__this, method) (( bool (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m29093_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::get_Current()
-extern "C" TableRange_t2335  InternalEnumerator_1_get_Current_m29090_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m29090(__this, method) (( TableRange_t2335  (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_get_Current_m29090_gshared)(__this, method)
+extern "C" TableRange_t2335  InternalEnumerator_1_get_Current_m29094_gshared (InternalEnumerator_1_t4172 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m29094(__this, method) (( TableRange_t2335  (*) (InternalEnumerator_1_t4172 *, const MethodInfo*))InternalEnumerator_1_get_Current_m29094_gshared)(__this, method)

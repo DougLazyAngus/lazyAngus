@@ -10,6 +10,6 @@ struct CookieCollectionComparer_t2005;
 struct Cookie_t2004;
 
 // System.Void System.Net.CookieCollection/CookieCollectionComparer::.ctor()
-extern "C" void CookieCollectionComparer__ctor_m10186 (CookieCollectionComparer_t2005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieCollectionComparer__ctor_m10190 (CookieCollectionComparer_t2005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.CookieCollection/CookieCollectionComparer::Compare(System.Net.Cookie,System.Net.Cookie)
-extern "C" int32_t CookieCollectionComparer_Compare_m10187 (CookieCollectionComparer_t2005 * __this, Cookie_t2004 * ___x, Cookie_t2004 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CookieCollectionComparer_Compare_m10191 (CookieCollectionComparer_t2005 * __this, Cookie_t2004 * ___x, Cookie_t2004 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;

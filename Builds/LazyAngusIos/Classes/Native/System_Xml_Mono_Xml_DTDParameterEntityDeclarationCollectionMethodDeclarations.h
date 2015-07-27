@@ -14,8 +14,8 @@ struct String_t;
 struct DTDObjectModel_t1570;
 
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDParameterEntityDeclarationCollection__ctor_m7731 (DTDParameterEntityDeclarationCollection_t1575 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclarationCollection__ctor_m7735 (DTDParameterEntityDeclarationCollection_t1575 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDParameterEntityDeclaration Mono.Xml.DTDParameterEntityDeclarationCollection::get_Item(System.String)
-extern "C" DTDParameterEntityDeclaration_t1595 * DTDParameterEntityDeclarationCollection_get_Item_m7732 (DTDParameterEntityDeclarationCollection_t1575 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDParameterEntityDeclaration_t1595 * DTDParameterEntityDeclarationCollection_get_Item_m7736 (DTDParameterEntityDeclarationCollection_t1575 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDParameterEntityDeclaration)
-extern "C" void DTDParameterEntityDeclarationCollection_Add_m7733 (DTDParameterEntityDeclarationCollection_t1575 * __this, String_t* ___name, DTDParameterEntityDeclaration_t1595 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclarationCollection_Add_m7737 (DTDParameterEntityDeclarationCollection_t1575 * __this, String_t* ___name, DTDParameterEntityDeclaration_t1595 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

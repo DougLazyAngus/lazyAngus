@@ -14,12 +14,12 @@ struct StringU5BU5D_t45;
 struct String_t;
 
 // System.Void System.Net.IPHostEntry::.ctor()
-extern "C" void IPHostEntry__ctor_m10520 (IPHostEntry_t2035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPHostEntry__ctor_m10524 (IPHostEntry_t2035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IPAddress[] System.Net.IPHostEntry::get_AddressList()
-extern "C" IPAddressU5BU5D_t1981* IPHostEntry_get_AddressList_m10521 (IPHostEntry_t2035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IPAddressU5BU5D_t1981* IPHostEntry_get_AddressList_m10525 (IPHostEntry_t2035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.IPHostEntry::set_AddressList(System.Net.IPAddress[])
-extern "C" void IPHostEntry_set_AddressList_m10522 (IPHostEntry_t2035 * __this, IPAddressU5BU5D_t1981* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPHostEntry_set_AddressList_m10526 (IPHostEntry_t2035 * __this, IPAddressU5BU5D_t1981* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.IPHostEntry::set_Aliases(System.String[])
-extern "C" void IPHostEntry_set_Aliases_m10523 (IPHostEntry_t2035 * __this, StringU5BU5D_t45* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPHostEntry_set_Aliases_m10527 (IPHostEntry_t2035 * __this, StringU5BU5D_t45* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.IPHostEntry::set_HostName(System.String)
-extern "C" void IPHostEntry_set_HostName_m10524 (IPHostEntry_t2035 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IPHostEntry_set_HostName_m10528 (IPHostEntry_t2035 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

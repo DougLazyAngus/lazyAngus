@@ -8,4 +8,4 @@
 struct ToggleEvent_t873;
 
 // System.Void UnityEngine.UI.Toggle/ToggleEvent::.ctor()
-extern "C" void ToggleEvent__ctor_m4886 (ToggleEvent_t873 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ToggleEvent__ctor_m4890 (ToggleEvent_t873 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

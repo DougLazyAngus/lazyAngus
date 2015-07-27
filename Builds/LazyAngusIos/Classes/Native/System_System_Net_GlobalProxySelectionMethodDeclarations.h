@@ -10,4 +10,4 @@ struct GlobalProxySelection_t2037;
 struct IWebProxy_t2019;
 
 // System.Net.IWebProxy System.Net.GlobalProxySelection::get_Select()
-extern "C" Object_t * GlobalProxySelection_get_Select_m10415 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GlobalProxySelection_get_Select_m10419 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

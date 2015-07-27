@@ -10,6 +10,6 @@ struct TypeEntry_t2601;
 struct String_t;
 
 // System.String System.Runtime.Remoting.TypeEntry::get_AssemblyName()
-extern "C" String_t* TypeEntry_get_AssemblyName_m14801 (TypeEntry_t2601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeEntry_get_AssemblyName_m14805 (TypeEntry_t2601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.TypeEntry::get_TypeName()
-extern "C" String_t* TypeEntry_get_TypeName_m14802 (TypeEntry_t2601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeEntry_get_TypeName_m14806 (TypeEntry_t2601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

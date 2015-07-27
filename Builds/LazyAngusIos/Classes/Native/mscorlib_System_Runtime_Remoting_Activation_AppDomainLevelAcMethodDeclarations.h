@@ -12,4 +12,4 @@ struct String_t;
 struct IActivator_t2554;
 
 // System.Void System.Runtime.Remoting.Activation.AppDomainLevelActivator::.ctor(System.String,System.Runtime.Remoting.Activation.IActivator)
-extern "C" void AppDomainLevelActivator__ctor_m14538 (AppDomainLevelActivator_t2556 * __this, String_t* ___activationUrl, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainLevelActivator__ctor_m14542 (AppDomainLevelActivator_t2556 * __this, String_t* ___activationUrl, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

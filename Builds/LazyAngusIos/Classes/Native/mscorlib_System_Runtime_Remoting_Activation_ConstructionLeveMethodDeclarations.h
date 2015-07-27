@@ -8,4 +8,4 @@
 struct ConstructionLevelActivator_t2557;
 
 // System.Void System.Runtime.Remoting.Activation.ConstructionLevelActivator::.ctor()
-extern "C" void ConstructionLevelActivator__ctor_m14539 (ConstructionLevelActivator_t2557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionLevelActivator__ctor_m14543 (ConstructionLevelActivator_t2557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,36 +14,36 @@ struct ExplicitMouseDesc_t452;
 struct List_1_t484;
 
 // System.Void MouseSpawnFromData::.ctor()
-extern "C" void MouseSpawnFromData__ctor_m2674 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData__ctor_m2678 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::add_MouseSpawn(MouseSpawnFromData/MouseSpawnEventHandler)
-extern "C" void MouseSpawnFromData_add_MouseSpawn_m2675 (MouseSpawnFromData_t461 * __this, MouseSpawnEventHandler_t514 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_add_MouseSpawn_m2679 (MouseSpawnFromData_t461 * __this, MouseSpawnEventHandler_t514 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::remove_MouseSpawn(MouseSpawnFromData/MouseSpawnEventHandler)
-extern "C" void MouseSpawnFromData_remove_MouseSpawn_m2676 (MouseSpawnFromData_t461 * __this, MouseSpawnEventHandler_t514 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_remove_MouseSpawn_m2680 (MouseSpawnFromData_t461 * __this, MouseSpawnEventHandler_t514 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 MouseSpawnFromData::get_miceSpawned()
-extern "C" int32_t MouseSpawnFromData_get_miceSpawned_m2677 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MouseSpawnFromData_get_miceSpawned_m2681 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::set_miceSpawned(System.Int32)
-extern "C" void MouseSpawnFromData_set_miceSpawned_m2678 (MouseSpawnFromData_t461 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_set_miceSpawned_m2682 (MouseSpawnFromData_t461 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::Awake()
-extern "C" void MouseSpawnFromData_Awake_m2679 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_Awake_m2683 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::Start()
-extern "C" void MouseSpawnFromData_Start_m2680 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_Start_m2684 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::OnDestroy()
-extern "C" void MouseSpawnFromData_OnDestroy_m2681 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_OnDestroy_m2685 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::RegisterForEvents()
-extern "C" void MouseSpawnFromData_RegisterForEvents_m2682 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_RegisterForEvents_m2686 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::UnregisterForEvents()
-extern "C" void MouseSpawnFromData_UnregisterForEvents_m2683 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_UnregisterForEvents_m2687 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::OnPhaseChanged()
-extern "C" void MouseSpawnFromData_OnPhaseChanged_m2684 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_OnPhaseChanged_m2688 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::Update()
-extern "C" void MouseSpawnFromData_Update_m2685 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_Update_m2689 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::MaybeProduceNextMouse(System.Single)
-extern "C" void MouseSpawnFromData_MaybeProduceNextMouse_m2686 (MouseSpawnFromData_t461 * __this, float ___timeNow, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_MaybeProduceNextMouse_m2690 (MouseSpawnFromData_t461 * __this, float ___timeNow, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::ProduceMouse(ExplicitMouseDesc)
-extern "C" void MouseSpawnFromData_ProduceMouse_m2687 (MouseSpawnFromData_t461 * __this, ExplicitMouseDesc_t452 * ___emd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_ProduceMouse_m2691 (MouseSpawnFromData_t461 * __this, ExplicitMouseDesc_t452 * ___emd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean MouseSpawnFromData::FinishedWithCurrentSet()
-extern "C" bool MouseSpawnFromData_FinishedWithCurrentSet_m2688 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseSpawnFromData_FinishedWithCurrentSet_m2692 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::Clear()
-extern "C" void MouseSpawnFromData_Clear_m2689 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_Clear_m2693 (MouseSpawnFromData_t461 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseSpawnFromData::AddMice(System.Collections.Generic.List`1<ExplicitMouseDesc>)
-extern "C" void MouseSpawnFromData_AddMice_m2690 (MouseSpawnFromData_t461 * __this, List_1_t484 * ___explicitMice, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseSpawnFromData_AddMice_m2694 (MouseSpawnFromData_t461 * __this, List_1_t484 * ___explicitMice, const MethodInfo* method) IL2CPP_METHOD_ATTR;

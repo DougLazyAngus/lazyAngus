@@ -10,10 +10,10 @@ struct CanvasListPool_t906;
 struct List_1_t942;
 
 // System.Void UnityEngine.UI.CanvasListPool::.cctor()
-extern "C" void CanvasListPool__cctor_m5118 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasListPool__cctor_m5122 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.Canvas> UnityEngine.UI.CanvasListPool::Get()
-extern "C" List_1_t942 * CanvasListPool_Get_m5119 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t942 * CanvasListPool_Get_m5123 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasListPool::Release(System.Collections.Generic.List`1<UnityEngine.Canvas>)
-extern "C" void CanvasListPool_Release_m5120 (Object_t * __this /* static, unused */, List_1_t942 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasListPool_Release_m5124 (Object_t * __this /* static, unused */, List_1_t942 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasListPool::<s_CanvasListPool>m__16(System.Collections.Generic.List`1<UnityEngine.Canvas>)
-extern "C" void CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5121 (Object_t * __this /* static, unused */, List_1_t942 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5125 (Object_t * __this /* static, unused */, List_1_t942 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

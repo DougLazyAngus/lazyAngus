@@ -11,6 +11,6 @@ struct Object_t600;
 struct Object_t600_marshaled;
 
 // System.Void UnityEngine.ResourceRequest::.ctor()
-extern "C" void ResourceRequest__ctor_m6323 (ResourceRequest_t1116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceRequest__ctor_m6327 (ResourceRequest_t1116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.ResourceRequest::get_asset()
-extern "C" Object_t600 * ResourceRequest_get_asset_m6324 (ResourceRequest_t1116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t600 * ResourceRequest_get_asset_m6328 (ResourceRequest_t1116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

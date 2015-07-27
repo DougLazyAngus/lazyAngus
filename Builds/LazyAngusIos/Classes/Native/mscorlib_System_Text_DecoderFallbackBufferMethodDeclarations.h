@@ -10,9 +10,9 @@ struct DecoderFallbackBuffer_t2715;
 struct ByteU5BU5D_t36;
 
 // System.Void System.Text.DecoderFallbackBuffer::.ctor()
-extern "C" void DecoderFallbackBuffer__ctor_m15377 (DecoderFallbackBuffer_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer__ctor_m15381 (DecoderFallbackBuffer_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining()
 // System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32)
 // System.Char System.Text.DecoderFallbackBuffer::GetNextChar()
 // System.Void System.Text.DecoderFallbackBuffer::Reset()
-extern "C" void DecoderFallbackBuffer_Reset_m15378 (DecoderFallbackBuffer_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer_Reset_m15382 (DecoderFallbackBuffer_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

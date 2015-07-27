@@ -8,4 +8,4 @@
 struct UIVertex_t841;
 
 // System.Void UnityEngine.UIVertex::.cctor()
-extern "C" void UIVertex__cctor_m6666 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIVertex__cctor_m6670 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

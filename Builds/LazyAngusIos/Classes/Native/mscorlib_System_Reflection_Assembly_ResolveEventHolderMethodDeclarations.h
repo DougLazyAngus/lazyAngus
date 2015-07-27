@@ -8,4 +8,4 @@
 struct ResolveEventHolder_t2495;
 
 // System.Void System.Reflection.Assembly/ResolveEventHolder::.ctor()
-extern "C" void ResolveEventHolder__ctor_m14219 (ResolveEventHolder_t2495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventHolder__ctor_m14223 (ResolveEventHolder_t2495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

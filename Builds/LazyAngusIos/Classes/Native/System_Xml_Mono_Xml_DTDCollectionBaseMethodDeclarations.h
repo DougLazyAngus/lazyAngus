@@ -16,12 +16,12 @@ struct DTDNode_t1580;
 struct Object_t;
 
 // System.Void Mono.Xml.DTDCollectionBase::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDCollectionBase__ctor_m7641 (DTDCollectionBase_t1586 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDCollectionBase__ctor_m7645 (DTDCollectionBase_t1586 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDObjectModel Mono.Xml.DTDCollectionBase::get_Root()
-extern "C" DTDObjectModel_t1570 * DTDCollectionBase_get_Root_m7642 (DTDCollectionBase_t1586 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDObjectModel_t1570 * DTDCollectionBase_get_Root_m7646 (DTDCollectionBase_t1586 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDCollectionBase::BaseAdd(System.String,Mono.Xml.DTDNode)
-extern "C" void DTDCollectionBase_BaseAdd_m7643 (DTDCollectionBase_t1586 * __this, String_t* ___name, DTDNode_t1580 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDCollectionBase_BaseAdd_m7647 (DTDCollectionBase_t1586 * __this, String_t* ___name, DTDNode_t1580 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.DTDCollectionBase::Contains(System.String)
-extern "C" bool DTDCollectionBase_Contains_m7644 (DTDCollectionBase_t1586 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DTDCollectionBase_Contains_m7648 (DTDCollectionBase_t1586 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Xml.DTDCollectionBase::BaseGet(System.String)
-extern "C" Object_t * DTDCollectionBase_BaseGet_m7645 (DTDCollectionBase_t1586 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DTDCollectionBase_BaseGet_m7649 (DTDCollectionBase_t1586 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

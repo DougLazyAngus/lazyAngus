@@ -14,6 +14,6 @@ struct String_t;
 struct DTDElementDeclaration_t1589;
 
 // System.Void Mono.Xml.DTDElementDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDElementDeclarationCollection__ctor_m7646 (DTDElementDeclarationCollection_t1573 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDElementDeclarationCollection__ctor_m7650 (DTDElementDeclarationCollection_t1573 * __this, DTDObjectModel_t1570 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDElementDeclarationCollection::Add(System.String,Mono.Xml.DTDElementDeclaration)
-extern "C" void DTDElementDeclarationCollection_Add_m7647 (DTDElementDeclarationCollection_t1573 * __this, String_t* ___name, DTDElementDeclaration_t1589 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDElementDeclarationCollection_Add_m7651 (DTDElementDeclarationCollection_t1573 * __this, String_t* ___name, DTDElementDeclaration_t1589 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

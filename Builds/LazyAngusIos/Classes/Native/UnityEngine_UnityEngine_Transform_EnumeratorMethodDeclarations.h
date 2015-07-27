@@ -12,8 +12,8 @@ struct Object_t;
 struct Transform_t366;
 
 // System.Void UnityEngine.Transform/Enumerator::.ctor(UnityEngine.Transform)
-extern "C" void Enumerator__ctor_m6487 (Enumerator_t1134 * __this, Transform_t366 * ___outer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m6491 (Enumerator_t1134 * __this, Transform_t366 * ___outer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.Transform/Enumerator::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m6488 (Enumerator_t1134 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Current_m6492 (Enumerator_t1134 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Transform/Enumerator::MoveNext()
-extern "C" bool Enumerator_MoveNext_m6489 (Enumerator_t1134 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_MoveNext_m6493 (Enumerator_t1134 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

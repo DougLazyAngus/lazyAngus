@@ -92,10 +92,10 @@ extern TypeInfo MonoTODOAttribute_t1492_il2cpp_TypeInfo;
 extern const Il2CppType Void_t57_0_0_0;
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.MonoTODOAttribute::.ctor()
-extern const MethodInfo MonoTODOAttribute__ctor_m7485_MethodInfo = 
+extern const MethodInfo MonoTODOAttribute__ctor_m7489_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MonoTODOAttribute__ctor_m7485/* method */
+	, (methodPointerType)&MonoTODOAttribute__ctor_m7489/* method */
 	, &MonoTODOAttribute_t1492_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -115,18 +115,18 @@ extern const MethodInfo MonoTODOAttribute__ctor_m7485_MethodInfo =
 };
 static const MethodInfo* MonoTODOAttribute_t1492_MethodInfos[] =
 {
-	&MonoTODOAttribute__ctor_m7485_MethodInfo,
+	&MonoTODOAttribute__ctor_m7489_MethodInfo,
 	NULL
 };
-extern const MethodInfo Attribute_Equals_m3944_MethodInfo;
+extern const MethodInfo Attribute_Equals_m3948_MethodInfo;
 extern const MethodInfo Object_Finalize_m230_MethodInfo;
-extern const MethodInfo Attribute_GetHashCode_m3945_MethodInfo;
+extern const MethodInfo Attribute_GetHashCode_m3949_MethodInfo;
 extern const MethodInfo Object_ToString_m253_MethodInfo;
 static const Il2CppMethodReference MonoTODOAttribute_t1492_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool MonoTODOAttribute_t1492_VTableIsGenericMethod[] =
@@ -218,7 +218,7 @@ extern TypeInfo IHasXmlParserContext_t1696_il2cpp_TypeInfo;
 extern const Il2CppType XmlParserContext_t1650_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlParserContext Mono.Xml.IHasXmlParserContext::get_ParserContext()
-extern const MethodInfo IHasXmlParserContext_get_ParserContext_m8581_MethodInfo = 
+extern const MethodInfo IHasXmlParserContext_get_ParserContext_m8585_MethodInfo = 
 {
 	"get_ParserContext"/* name */
 	, NULL/* method */
@@ -241,15 +241,15 @@ extern const MethodInfo IHasXmlParserContext_get_ParserContext_m8581_MethodInfo 
 };
 static const MethodInfo* IHasXmlParserContext_t1696_MethodInfos[] =
 {
-	&IHasXmlParserContext_get_ParserContext_m8581_MethodInfo,
+	&IHasXmlParserContext_get_ParserContext_m8585_MethodInfo,
 	NULL
 };
-extern const MethodInfo IHasXmlParserContext_get_ParserContext_m8581_MethodInfo;
+extern const MethodInfo IHasXmlParserContext_get_ParserContext_m8585_MethodInfo;
 static const PropertyInfo IHasXmlParserContext_t1696____ParserContext_PropertyInfo = 
 {
 	&IHasXmlParserContext_t1696_il2cpp_TypeInfo/* parent */
 	, "ParserContext"/* name */
-	, &IHasXmlParserContext_get_ParserContext_m8581_MethodInfo/* get */
+	, &IHasXmlParserContext_get_ParserContext_m8585_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -506,10 +506,10 @@ extern TypeInfo XsdAnySimpleType_t1494_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.ctor()
-extern const MethodInfo XsdAnySimpleType__ctor_m7486_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType__ctor_m7490_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdAnySimpleType__ctor_m7486/* method */
+	, (methodPointerType)&XsdAnySimpleType__ctor_m7490/* method */
 	, &XsdAnySimpleType_t1494_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -529,10 +529,10 @@ extern const MethodInfo XsdAnySimpleType__ctor_m7486_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.cctor()
-extern const MethodInfo XsdAnySimpleType__cctor_m7487_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType__cctor_m7491_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdAnySimpleType__cctor_m7487/* method */
+	, (methodPointerType)&XsdAnySimpleType__cctor_m7491/* method */
 	, &XsdAnySimpleType_t1494_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -553,10 +553,10 @@ extern const MethodInfo XsdAnySimpleType__cctor_m7487_MethodInfo =
 extern const Il2CppType XsdAnySimpleType_t1494_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::get_Instance()
-extern const MethodInfo XsdAnySimpleType_get_Instance_m7488_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType_get_Instance_m7492_MethodInfo = 
 {
 	"get_Instance"/* name */
-	, (methodPointerType)&XsdAnySimpleType_get_Instance_m7488/* method */
+	, (methodPointerType)&XsdAnySimpleType_get_Instance_m7492/* method */
 	, &XsdAnySimpleType_t1494_il2cpp_TypeInfo/* declaring_type */
 	, &XsdAnySimpleType_t1494_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -577,10 +577,10 @@ extern const MethodInfo XsdAnySimpleType_get_Instance_m7488_MethodInfo =
 extern const Il2CppType XmlTokenizedType_t1681_0_0_0;
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnySimpleType::get_TokenizedType()
-extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdAnySimpleType_get_TokenizedType_m7489/* method */
+	, (methodPointerType)&XsdAnySimpleType_get_TokenizedType_m7493/* method */
 	, &XsdAnySimpleType_t1494_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -600,29 +600,29 @@ extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo =
 };
 static const MethodInfo* XsdAnySimpleType_t1494_MethodInfos[] =
 {
-	&XsdAnySimpleType__ctor_m7486_MethodInfo,
-	&XsdAnySimpleType__cctor_m7487_MethodInfo,
-	&XsdAnySimpleType_get_Instance_m7488_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType__ctor_m7490_MethodInfo,
+	&XsdAnySimpleType__cctor_m7491_MethodInfo,
+	&XsdAnySimpleType_get_Instance_m7492_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdAnySimpleType_get_Instance_m7488_MethodInfo;
+extern const MethodInfo XsdAnySimpleType_get_Instance_m7492_MethodInfo;
 static const PropertyInfo XsdAnySimpleType_t1494____Instance_PropertyInfo = 
 {
 	&XsdAnySimpleType_t1494_il2cpp_TypeInfo/* parent */
 	, "Instance"/* name */
-	, &XsdAnySimpleType_get_Instance_m7488_MethodInfo/* get */
+	, &XsdAnySimpleType_get_Instance_m7492_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo;
+extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo;
 static const PropertyInfo XsdAnySimpleType_t1494____TokenizedType_PropertyInfo = 
 {
 	&XsdAnySimpleType_t1494_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo/* get */
+	, &XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -642,7 +642,7 @@ static const Il2CppMethodReference XsdAnySimpleType_t1494_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdAnySimpleType_t1494_VTableIsGenericMethod[] =
 {
@@ -731,10 +731,10 @@ extern TypeInfo XdtAnyAtomicType_t1496_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XdtAnyAtomicTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtAnyAtomicType::.ctor()
-extern const MethodInfo XdtAnyAtomicType__ctor_m7490_MethodInfo = 
+extern const MethodInfo XdtAnyAtomicType__ctor_m7494_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtAnyAtomicType__ctor_m7490/* method */
+	, (methodPointerType)&XdtAnyAtomicType__ctor_m7494/* method */
 	, &XdtAnyAtomicType_t1496_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -754,7 +754,7 @@ extern const MethodInfo XdtAnyAtomicType__ctor_m7490_MethodInfo =
 };
 static const MethodInfo* XdtAnyAtomicType_t1496_MethodInfos[] =
 {
-	&XdtAnyAtomicType__ctor_m7490_MethodInfo,
+	&XdtAnyAtomicType__ctor_m7494_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XdtAnyAtomicType_t1496_VTable[] =
@@ -763,7 +763,7 @@ static const Il2CppMethodReference XdtAnyAtomicType_t1496_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XdtAnyAtomicType_t1496_VTableIsGenericMethod[] =
 {
@@ -852,10 +852,10 @@ extern TypeInfo XdtUntypedAtomic_t1497_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XdtUntypedAtomicMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtUntypedAtomic::.ctor()
-extern const MethodInfo XdtUntypedAtomic__ctor_m7491_MethodInfo = 
+extern const MethodInfo XdtUntypedAtomic__ctor_m7495_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtUntypedAtomic__ctor_m7491/* method */
+	, (methodPointerType)&XdtUntypedAtomic__ctor_m7495/* method */
 	, &XdtUntypedAtomic_t1497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -875,7 +875,7 @@ extern const MethodInfo XdtUntypedAtomic__ctor_m7491_MethodInfo =
 };
 static const MethodInfo* XdtUntypedAtomic_t1497_MethodInfos[] =
 {
-	&XdtUntypedAtomic__ctor_m7491_MethodInfo,
+	&XdtUntypedAtomic__ctor_m7495_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XdtUntypedAtomic_t1497_VTable[] =
@@ -884,7 +884,7 @@ static const Il2CppMethodReference XdtUntypedAtomic_t1497_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XdtUntypedAtomic_t1497_VTableIsGenericMethod[] =
 {
@@ -973,10 +973,10 @@ extern TypeInfo XsdString_t1498_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdStringMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdString::.ctor()
-extern const MethodInfo XsdString__ctor_m7492_MethodInfo = 
+extern const MethodInfo XsdString__ctor_m7496_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdString__ctor_m7492/* method */
+	, (methodPointerType)&XsdString__ctor_m7496/* method */
 	, &XsdString_t1498_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -996,10 +996,10 @@ extern const MethodInfo XsdString__ctor_m7492_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdString::get_TokenizedType()
-extern const MethodInfo XsdString_get_TokenizedType_m7493_MethodInfo = 
+extern const MethodInfo XsdString_get_TokenizedType_m7497_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdString_get_TokenizedType_m7493/* method */
+	, (methodPointerType)&XsdString_get_TokenizedType_m7497/* method */
 	, &XsdString_t1498_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1019,16 +1019,16 @@ extern const MethodInfo XsdString_get_TokenizedType_m7493_MethodInfo =
 };
 static const MethodInfo* XsdString_t1498_MethodInfos[] =
 {
-	&XsdString__ctor_m7492_MethodInfo,
-	&XsdString_get_TokenizedType_m7493_MethodInfo,
+	&XsdString__ctor_m7496_MethodInfo,
+	&XsdString_get_TokenizedType_m7497_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdString_get_TokenizedType_m7493_MethodInfo;
+extern const MethodInfo XsdString_get_TokenizedType_m7497_MethodInfo;
 static const PropertyInfo XsdString_t1498____TokenizedType_PropertyInfo = 
 {
 	&XsdString_t1498_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdString_get_TokenizedType_m7493_MethodInfo/* get */
+	, &XsdString_get_TokenizedType_m7497_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1045,7 +1045,7 @@ static const Il2CppMethodReference XsdString_t1498_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdString_get_TokenizedType_m7493_MethodInfo,
+	&XsdString_get_TokenizedType_m7497_MethodInfo,
 };
 static bool XsdString_t1498_VTableIsGenericMethod[] =
 {
@@ -1134,10 +1134,10 @@ extern TypeInfo XsdNormalizedString_t1499_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNormalizedStringMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNormalizedString::.ctor()
-extern const MethodInfo XsdNormalizedString__ctor_m7494_MethodInfo = 
+extern const MethodInfo XsdNormalizedString__ctor_m7498_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNormalizedString__ctor_m7494/* method */
+	, (methodPointerType)&XsdNormalizedString__ctor_m7498/* method */
 	, &XsdNormalizedString_t1499_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1157,10 +1157,10 @@ extern const MethodInfo XsdNormalizedString__ctor_m7494_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNormalizedString::get_TokenizedType()
-extern const MethodInfo XsdNormalizedString_get_TokenizedType_m7495_MethodInfo = 
+extern const MethodInfo XsdNormalizedString_get_TokenizedType_m7499_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNormalizedString_get_TokenizedType_m7495/* method */
+	, (methodPointerType)&XsdNormalizedString_get_TokenizedType_m7499/* method */
 	, &XsdNormalizedString_t1499_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1180,16 +1180,16 @@ extern const MethodInfo XsdNormalizedString_get_TokenizedType_m7495_MethodInfo =
 };
 static const MethodInfo* XsdNormalizedString_t1499_MethodInfos[] =
 {
-	&XsdNormalizedString__ctor_m7494_MethodInfo,
-	&XsdNormalizedString_get_TokenizedType_m7495_MethodInfo,
+	&XsdNormalizedString__ctor_m7498_MethodInfo,
+	&XsdNormalizedString_get_TokenizedType_m7499_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNormalizedString_get_TokenizedType_m7495_MethodInfo;
+extern const MethodInfo XsdNormalizedString_get_TokenizedType_m7499_MethodInfo;
 static const PropertyInfo XsdNormalizedString_t1499____TokenizedType_PropertyInfo = 
 {
 	&XsdNormalizedString_t1499_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNormalizedString_get_TokenizedType_m7495_MethodInfo/* get */
+	, &XsdNormalizedString_get_TokenizedType_m7499_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1206,7 +1206,7 @@ static const Il2CppMethodReference XsdNormalizedString_t1499_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdNormalizedString_get_TokenizedType_m7495_MethodInfo,
+	&XsdNormalizedString_get_TokenizedType_m7499_MethodInfo,
 };
 static bool XsdNormalizedString_t1499_VTableIsGenericMethod[] =
 {
@@ -1295,10 +1295,10 @@ extern TypeInfo XsdToken_t1500_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdTokenMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdToken::.ctor()
-extern const MethodInfo XsdToken__ctor_m7496_MethodInfo = 
+extern const MethodInfo XsdToken__ctor_m7500_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdToken__ctor_m7496/* method */
+	, (methodPointerType)&XsdToken__ctor_m7500/* method */
 	, &XsdToken_t1500_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1318,10 +1318,10 @@ extern const MethodInfo XsdToken__ctor_m7496_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdToken::get_TokenizedType()
-extern const MethodInfo XsdToken_get_TokenizedType_m7497_MethodInfo = 
+extern const MethodInfo XsdToken_get_TokenizedType_m7501_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdToken_get_TokenizedType_m7497/* method */
+	, (methodPointerType)&XsdToken_get_TokenizedType_m7501/* method */
 	, &XsdToken_t1500_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1341,16 +1341,16 @@ extern const MethodInfo XsdToken_get_TokenizedType_m7497_MethodInfo =
 };
 static const MethodInfo* XsdToken_t1500_MethodInfos[] =
 {
-	&XsdToken__ctor_m7496_MethodInfo,
-	&XsdToken_get_TokenizedType_m7497_MethodInfo,
+	&XsdToken__ctor_m7500_MethodInfo,
+	&XsdToken_get_TokenizedType_m7501_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdToken_get_TokenizedType_m7497_MethodInfo;
+extern const MethodInfo XsdToken_get_TokenizedType_m7501_MethodInfo;
 static const PropertyInfo XsdToken_t1500____TokenizedType_PropertyInfo = 
 {
 	&XsdToken_t1500_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdToken_get_TokenizedType_m7497_MethodInfo/* get */
+	, &XsdToken_get_TokenizedType_m7501_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1367,7 +1367,7 @@ static const Il2CppMethodReference XsdToken_t1500_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdToken_get_TokenizedType_m7497_MethodInfo,
+	&XsdToken_get_TokenizedType_m7501_MethodInfo,
 };
 static bool XsdToken_t1500_VTableIsGenericMethod[] =
 {
@@ -1456,10 +1456,10 @@ extern TypeInfo XsdLanguage_t1501_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdLanguageMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdLanguage::.ctor()
-extern const MethodInfo XsdLanguage__ctor_m7498_MethodInfo = 
+extern const MethodInfo XsdLanguage__ctor_m7502_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdLanguage__ctor_m7498/* method */
+	, (methodPointerType)&XsdLanguage__ctor_m7502/* method */
 	, &XsdLanguage_t1501_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1479,10 +1479,10 @@ extern const MethodInfo XsdLanguage__ctor_m7498_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdLanguage::get_TokenizedType()
-extern const MethodInfo XsdLanguage_get_TokenizedType_m7499_MethodInfo = 
+extern const MethodInfo XsdLanguage_get_TokenizedType_m7503_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdLanguage_get_TokenizedType_m7499/* method */
+	, (methodPointerType)&XsdLanguage_get_TokenizedType_m7503/* method */
 	, &XsdLanguage_t1501_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1502,16 +1502,16 @@ extern const MethodInfo XsdLanguage_get_TokenizedType_m7499_MethodInfo =
 };
 static const MethodInfo* XsdLanguage_t1501_MethodInfos[] =
 {
-	&XsdLanguage__ctor_m7498_MethodInfo,
-	&XsdLanguage_get_TokenizedType_m7499_MethodInfo,
+	&XsdLanguage__ctor_m7502_MethodInfo,
+	&XsdLanguage_get_TokenizedType_m7503_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdLanguage_get_TokenizedType_m7499_MethodInfo;
+extern const MethodInfo XsdLanguage_get_TokenizedType_m7503_MethodInfo;
 static const PropertyInfo XsdLanguage_t1501____TokenizedType_PropertyInfo = 
 {
 	&XsdLanguage_t1501_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdLanguage_get_TokenizedType_m7499_MethodInfo/* get */
+	, &XsdLanguage_get_TokenizedType_m7503_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1528,7 +1528,7 @@ static const Il2CppMethodReference XsdLanguage_t1501_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdLanguage_get_TokenizedType_m7499_MethodInfo,
+	&XsdLanguage_get_TokenizedType_m7503_MethodInfo,
 };
 static bool XsdLanguage_t1501_VTableIsGenericMethod[] =
 {
@@ -1617,10 +1617,10 @@ extern TypeInfo XsdNMToken_t1502_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokenMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNMToken::.ctor()
-extern const MethodInfo XsdNMToken__ctor_m7500_MethodInfo = 
+extern const MethodInfo XsdNMToken__ctor_m7504_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNMToken__ctor_m7500/* method */
+	, (methodPointerType)&XsdNMToken__ctor_m7504/* method */
 	, &XsdNMToken_t1502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1640,10 +1640,10 @@ extern const MethodInfo XsdNMToken__ctor_m7500_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMToken::get_TokenizedType()
-extern const MethodInfo XsdNMToken_get_TokenizedType_m7501_MethodInfo = 
+extern const MethodInfo XsdNMToken_get_TokenizedType_m7505_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNMToken_get_TokenizedType_m7501/* method */
+	, (methodPointerType)&XsdNMToken_get_TokenizedType_m7505/* method */
 	, &XsdNMToken_t1502_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1663,16 +1663,16 @@ extern const MethodInfo XsdNMToken_get_TokenizedType_m7501_MethodInfo =
 };
 static const MethodInfo* XsdNMToken_t1502_MethodInfos[] =
 {
-	&XsdNMToken__ctor_m7500_MethodInfo,
-	&XsdNMToken_get_TokenizedType_m7501_MethodInfo,
+	&XsdNMToken__ctor_m7504_MethodInfo,
+	&XsdNMToken_get_TokenizedType_m7505_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNMToken_get_TokenizedType_m7501_MethodInfo;
+extern const MethodInfo XsdNMToken_get_TokenizedType_m7505_MethodInfo;
 static const PropertyInfo XsdNMToken_t1502____TokenizedType_PropertyInfo = 
 {
 	&XsdNMToken_t1502_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNMToken_get_TokenizedType_m7501_MethodInfo/* get */
+	, &XsdNMToken_get_TokenizedType_m7505_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1689,7 +1689,7 @@ static const Il2CppMethodReference XsdNMToken_t1502_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdNMToken_get_TokenizedType_m7501_MethodInfo,
+	&XsdNMToken_get_TokenizedType_m7505_MethodInfo,
 };
 static bool XsdNMToken_t1502_VTableIsGenericMethod[] =
 {
@@ -1778,10 +1778,10 @@ extern TypeInfo XsdNMTokens_t1503_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokensMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNMTokens::.ctor()
-extern const MethodInfo XsdNMTokens__ctor_m7502_MethodInfo = 
+extern const MethodInfo XsdNMTokens__ctor_m7506_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNMTokens__ctor_m7502/* method */
+	, (methodPointerType)&XsdNMTokens__ctor_m7506/* method */
 	, &XsdNMTokens_t1503_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1801,10 +1801,10 @@ extern const MethodInfo XsdNMTokens__ctor_m7502_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMTokens::get_TokenizedType()
-extern const MethodInfo XsdNMTokens_get_TokenizedType_m7503_MethodInfo = 
+extern const MethodInfo XsdNMTokens_get_TokenizedType_m7507_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNMTokens_get_TokenizedType_m7503/* method */
+	, (methodPointerType)&XsdNMTokens_get_TokenizedType_m7507/* method */
 	, &XsdNMTokens_t1503_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1824,16 +1824,16 @@ extern const MethodInfo XsdNMTokens_get_TokenizedType_m7503_MethodInfo =
 };
 static const MethodInfo* XsdNMTokens_t1503_MethodInfos[] =
 {
-	&XsdNMTokens__ctor_m7502_MethodInfo,
-	&XsdNMTokens_get_TokenizedType_m7503_MethodInfo,
+	&XsdNMTokens__ctor_m7506_MethodInfo,
+	&XsdNMTokens_get_TokenizedType_m7507_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNMTokens_get_TokenizedType_m7503_MethodInfo;
+extern const MethodInfo XsdNMTokens_get_TokenizedType_m7507_MethodInfo;
 static const PropertyInfo XsdNMTokens_t1503____TokenizedType_PropertyInfo = 
 {
 	&XsdNMTokens_t1503_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNMTokens_get_TokenizedType_m7503_MethodInfo/* get */
+	, &XsdNMTokens_get_TokenizedType_m7507_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1850,7 +1850,7 @@ static const Il2CppMethodReference XsdNMTokens_t1503_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdNMTokens_get_TokenizedType_m7503_MethodInfo,
+	&XsdNMTokens_get_TokenizedType_m7507_MethodInfo,
 };
 static bool XsdNMTokens_t1503_VTableIsGenericMethod[] =
 {
@@ -1939,10 +1939,10 @@ extern TypeInfo XsdName_t1504_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdName::.ctor()
-extern const MethodInfo XsdName__ctor_m7504_MethodInfo = 
+extern const MethodInfo XsdName__ctor_m7508_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdName__ctor_m7504/* method */
+	, (methodPointerType)&XsdName__ctor_m7508/* method */
 	, &XsdName_t1504_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1962,10 +1962,10 @@ extern const MethodInfo XsdName__ctor_m7504_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdName::get_TokenizedType()
-extern const MethodInfo XsdName_get_TokenizedType_m7505_MethodInfo = 
+extern const MethodInfo XsdName_get_TokenizedType_m7509_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdName_get_TokenizedType_m7505/* method */
+	, (methodPointerType)&XsdName_get_TokenizedType_m7509/* method */
 	, &XsdName_t1504_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -1985,16 +1985,16 @@ extern const MethodInfo XsdName_get_TokenizedType_m7505_MethodInfo =
 };
 static const MethodInfo* XsdName_t1504_MethodInfos[] =
 {
-	&XsdName__ctor_m7504_MethodInfo,
-	&XsdName_get_TokenizedType_m7505_MethodInfo,
+	&XsdName__ctor_m7508_MethodInfo,
+	&XsdName_get_TokenizedType_m7509_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdName_get_TokenizedType_m7505_MethodInfo;
+extern const MethodInfo XsdName_get_TokenizedType_m7509_MethodInfo;
 static const PropertyInfo XsdName_t1504____TokenizedType_PropertyInfo = 
 {
 	&XsdName_t1504_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdName_get_TokenizedType_m7505_MethodInfo/* get */
+	, &XsdName_get_TokenizedType_m7509_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2011,7 +2011,7 @@ static const Il2CppMethodReference XsdName_t1504_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdName_get_TokenizedType_m7505_MethodInfo,
+	&XsdName_get_TokenizedType_m7509_MethodInfo,
 };
 static bool XsdName_t1504_VTableIsGenericMethod[] =
 {
@@ -2100,10 +2100,10 @@ extern TypeInfo XsdNCName_t1505_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNCNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNCName::.ctor()
-extern const MethodInfo XsdNCName__ctor_m7506_MethodInfo = 
+extern const MethodInfo XsdNCName__ctor_m7510_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNCName__ctor_m7506/* method */
+	, (methodPointerType)&XsdNCName__ctor_m7510/* method */
 	, &XsdNCName_t1505_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2123,10 +2123,10 @@ extern const MethodInfo XsdNCName__ctor_m7506_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNCName::get_TokenizedType()
-extern const MethodInfo XsdNCName_get_TokenizedType_m7507_MethodInfo = 
+extern const MethodInfo XsdNCName_get_TokenizedType_m7511_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNCName_get_TokenizedType_m7507/* method */
+	, (methodPointerType)&XsdNCName_get_TokenizedType_m7511/* method */
 	, &XsdNCName_t1505_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2146,16 +2146,16 @@ extern const MethodInfo XsdNCName_get_TokenizedType_m7507_MethodInfo =
 };
 static const MethodInfo* XsdNCName_t1505_MethodInfos[] =
 {
-	&XsdNCName__ctor_m7506_MethodInfo,
-	&XsdNCName_get_TokenizedType_m7507_MethodInfo,
+	&XsdNCName__ctor_m7510_MethodInfo,
+	&XsdNCName_get_TokenizedType_m7511_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNCName_get_TokenizedType_m7507_MethodInfo;
+extern const MethodInfo XsdNCName_get_TokenizedType_m7511_MethodInfo;
 static const PropertyInfo XsdNCName_t1505____TokenizedType_PropertyInfo = 
 {
 	&XsdNCName_t1505_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNCName_get_TokenizedType_m7507_MethodInfo/* get */
+	, &XsdNCName_get_TokenizedType_m7511_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2172,7 +2172,7 @@ static const Il2CppMethodReference XsdNCName_t1505_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdNCName_get_TokenizedType_m7507_MethodInfo,
+	&XsdNCName_get_TokenizedType_m7511_MethodInfo,
 };
 static bool XsdNCName_t1505_VTableIsGenericMethod[] =
 {
@@ -2261,10 +2261,10 @@ extern TypeInfo XsdID_t1506_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdIDMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdID::.ctor()
-extern const MethodInfo XsdID__ctor_m7508_MethodInfo = 
+extern const MethodInfo XsdID__ctor_m7512_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdID__ctor_m7508/* method */
+	, (methodPointerType)&XsdID__ctor_m7512/* method */
 	, &XsdID_t1506_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2284,10 +2284,10 @@ extern const MethodInfo XsdID__ctor_m7508_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdID::get_TokenizedType()
-extern const MethodInfo XsdID_get_TokenizedType_m7509_MethodInfo = 
+extern const MethodInfo XsdID_get_TokenizedType_m7513_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdID_get_TokenizedType_m7509/* method */
+	, (methodPointerType)&XsdID_get_TokenizedType_m7513/* method */
 	, &XsdID_t1506_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2307,16 +2307,16 @@ extern const MethodInfo XsdID_get_TokenizedType_m7509_MethodInfo =
 };
 static const MethodInfo* XsdID_t1506_MethodInfos[] =
 {
-	&XsdID__ctor_m7508_MethodInfo,
-	&XsdID_get_TokenizedType_m7509_MethodInfo,
+	&XsdID__ctor_m7512_MethodInfo,
+	&XsdID_get_TokenizedType_m7513_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdID_get_TokenizedType_m7509_MethodInfo;
+extern const MethodInfo XsdID_get_TokenizedType_m7513_MethodInfo;
 static const PropertyInfo XsdID_t1506____TokenizedType_PropertyInfo = 
 {
 	&XsdID_t1506_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdID_get_TokenizedType_m7509_MethodInfo/* get */
+	, &XsdID_get_TokenizedType_m7513_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2333,7 +2333,7 @@ static const Il2CppMethodReference XsdID_t1506_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdID_get_TokenizedType_m7509_MethodInfo,
+	&XsdID_get_TokenizedType_m7513_MethodInfo,
 };
 static bool XsdID_t1506_VTableIsGenericMethod[] =
 {
@@ -2422,10 +2422,10 @@ extern TypeInfo XsdIDRef_t1507_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdIDRef::.ctor()
-extern const MethodInfo XsdIDRef__ctor_m7510_MethodInfo = 
+extern const MethodInfo XsdIDRef__ctor_m7514_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdIDRef__ctor_m7510/* method */
+	, (methodPointerType)&XsdIDRef__ctor_m7514/* method */
 	, &XsdIDRef_t1507_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2445,10 +2445,10 @@ extern const MethodInfo XsdIDRef__ctor_m7510_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRef::get_TokenizedType()
-extern const MethodInfo XsdIDRef_get_TokenizedType_m7511_MethodInfo = 
+extern const MethodInfo XsdIDRef_get_TokenizedType_m7515_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdIDRef_get_TokenizedType_m7511/* method */
+	, (methodPointerType)&XsdIDRef_get_TokenizedType_m7515/* method */
 	, &XsdIDRef_t1507_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2468,16 +2468,16 @@ extern const MethodInfo XsdIDRef_get_TokenizedType_m7511_MethodInfo =
 };
 static const MethodInfo* XsdIDRef_t1507_MethodInfos[] =
 {
-	&XsdIDRef__ctor_m7510_MethodInfo,
-	&XsdIDRef_get_TokenizedType_m7511_MethodInfo,
+	&XsdIDRef__ctor_m7514_MethodInfo,
+	&XsdIDRef_get_TokenizedType_m7515_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdIDRef_get_TokenizedType_m7511_MethodInfo;
+extern const MethodInfo XsdIDRef_get_TokenizedType_m7515_MethodInfo;
 static const PropertyInfo XsdIDRef_t1507____TokenizedType_PropertyInfo = 
 {
 	&XsdIDRef_t1507_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdIDRef_get_TokenizedType_m7511_MethodInfo/* get */
+	, &XsdIDRef_get_TokenizedType_m7515_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2494,7 +2494,7 @@ static const Il2CppMethodReference XsdIDRef_t1507_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdIDRef_get_TokenizedType_m7511_MethodInfo,
+	&XsdIDRef_get_TokenizedType_m7515_MethodInfo,
 };
 static bool XsdIDRef_t1507_VTableIsGenericMethod[] =
 {
@@ -2583,10 +2583,10 @@ extern TypeInfo XsdIDRefs_t1508_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdIDRefs::.ctor()
-extern const MethodInfo XsdIDRefs__ctor_m7512_MethodInfo = 
+extern const MethodInfo XsdIDRefs__ctor_m7516_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdIDRefs__ctor_m7512/* method */
+	, (methodPointerType)&XsdIDRefs__ctor_m7516/* method */
 	, &XsdIDRefs_t1508_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2606,10 +2606,10 @@ extern const MethodInfo XsdIDRefs__ctor_m7512_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRefs::get_TokenizedType()
-extern const MethodInfo XsdIDRefs_get_TokenizedType_m7513_MethodInfo = 
+extern const MethodInfo XsdIDRefs_get_TokenizedType_m7517_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdIDRefs_get_TokenizedType_m7513/* method */
+	, (methodPointerType)&XsdIDRefs_get_TokenizedType_m7517/* method */
 	, &XsdIDRefs_t1508_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2629,16 +2629,16 @@ extern const MethodInfo XsdIDRefs_get_TokenizedType_m7513_MethodInfo =
 };
 static const MethodInfo* XsdIDRefs_t1508_MethodInfos[] =
 {
-	&XsdIDRefs__ctor_m7512_MethodInfo,
-	&XsdIDRefs_get_TokenizedType_m7513_MethodInfo,
+	&XsdIDRefs__ctor_m7516_MethodInfo,
+	&XsdIDRefs_get_TokenizedType_m7517_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdIDRefs_get_TokenizedType_m7513_MethodInfo;
+extern const MethodInfo XsdIDRefs_get_TokenizedType_m7517_MethodInfo;
 static const PropertyInfo XsdIDRefs_t1508____TokenizedType_PropertyInfo = 
 {
 	&XsdIDRefs_t1508_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdIDRefs_get_TokenizedType_m7513_MethodInfo/* get */
+	, &XsdIDRefs_get_TokenizedType_m7517_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2655,7 +2655,7 @@ static const Il2CppMethodReference XsdIDRefs_t1508_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdIDRefs_get_TokenizedType_m7513_MethodInfo,
+	&XsdIDRefs_get_TokenizedType_m7517_MethodInfo,
 };
 static bool XsdIDRefs_t1508_VTableIsGenericMethod[] =
 {
@@ -2744,10 +2744,10 @@ extern TypeInfo XsdEntity_t1509_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdEntityMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdEntity::.ctor()
-extern const MethodInfo XsdEntity__ctor_m7514_MethodInfo = 
+extern const MethodInfo XsdEntity__ctor_m7518_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdEntity__ctor_m7514/* method */
+	, (methodPointerType)&XsdEntity__ctor_m7518/* method */
 	, &XsdEntity_t1509_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2767,10 +2767,10 @@ extern const MethodInfo XsdEntity__ctor_m7514_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntity::get_TokenizedType()
-extern const MethodInfo XsdEntity_get_TokenizedType_m7515_MethodInfo = 
+extern const MethodInfo XsdEntity_get_TokenizedType_m7519_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdEntity_get_TokenizedType_m7515/* method */
+	, (methodPointerType)&XsdEntity_get_TokenizedType_m7519/* method */
 	, &XsdEntity_t1509_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2790,16 +2790,16 @@ extern const MethodInfo XsdEntity_get_TokenizedType_m7515_MethodInfo =
 };
 static const MethodInfo* XsdEntity_t1509_MethodInfos[] =
 {
-	&XsdEntity__ctor_m7514_MethodInfo,
-	&XsdEntity_get_TokenizedType_m7515_MethodInfo,
+	&XsdEntity__ctor_m7518_MethodInfo,
+	&XsdEntity_get_TokenizedType_m7519_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdEntity_get_TokenizedType_m7515_MethodInfo;
+extern const MethodInfo XsdEntity_get_TokenizedType_m7519_MethodInfo;
 static const PropertyInfo XsdEntity_t1509____TokenizedType_PropertyInfo = 
 {
 	&XsdEntity_t1509_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdEntity_get_TokenizedType_m7515_MethodInfo/* get */
+	, &XsdEntity_get_TokenizedType_m7519_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2816,7 +2816,7 @@ static const Il2CppMethodReference XsdEntity_t1509_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdEntity_get_TokenizedType_m7515_MethodInfo,
+	&XsdEntity_get_TokenizedType_m7519_MethodInfo,
 };
 static bool XsdEntity_t1509_VTableIsGenericMethod[] =
 {
@@ -2905,10 +2905,10 @@ extern TypeInfo XsdEntities_t1510_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdEntitiesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdEntities::.ctor()
-extern const MethodInfo XsdEntities__ctor_m7516_MethodInfo = 
+extern const MethodInfo XsdEntities__ctor_m7520_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdEntities__ctor_m7516/* method */
+	, (methodPointerType)&XsdEntities__ctor_m7520/* method */
 	, &XsdEntities_t1510_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -2928,10 +2928,10 @@ extern const MethodInfo XsdEntities__ctor_m7516_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntities::get_TokenizedType()
-extern const MethodInfo XsdEntities_get_TokenizedType_m7517_MethodInfo = 
+extern const MethodInfo XsdEntities_get_TokenizedType_m7521_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdEntities_get_TokenizedType_m7517/* method */
+	, (methodPointerType)&XsdEntities_get_TokenizedType_m7521/* method */
 	, &XsdEntities_t1510_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -2951,16 +2951,16 @@ extern const MethodInfo XsdEntities_get_TokenizedType_m7517_MethodInfo =
 };
 static const MethodInfo* XsdEntities_t1510_MethodInfos[] =
 {
-	&XsdEntities__ctor_m7516_MethodInfo,
-	&XsdEntities_get_TokenizedType_m7517_MethodInfo,
+	&XsdEntities__ctor_m7520_MethodInfo,
+	&XsdEntities_get_TokenizedType_m7521_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdEntities_get_TokenizedType_m7517_MethodInfo;
+extern const MethodInfo XsdEntities_get_TokenizedType_m7521_MethodInfo;
 static const PropertyInfo XsdEntities_t1510____TokenizedType_PropertyInfo = 
 {
 	&XsdEntities_t1510_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdEntities_get_TokenizedType_m7517_MethodInfo/* get */
+	, &XsdEntities_get_TokenizedType_m7521_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2977,7 +2977,7 @@ static const Il2CppMethodReference XsdEntities_t1510_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdEntities_get_TokenizedType_m7517_MethodInfo,
+	&XsdEntities_get_TokenizedType_m7521_MethodInfo,
 };
 static bool XsdEntities_t1510_VTableIsGenericMethod[] =
 {
@@ -3066,10 +3066,10 @@ extern TypeInfo XsdNotation_t1511_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNotationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNotation::.ctor()
-extern const MethodInfo XsdNotation__ctor_m7518_MethodInfo = 
+extern const MethodInfo XsdNotation__ctor_m7522_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNotation__ctor_m7518/* method */
+	, (methodPointerType)&XsdNotation__ctor_m7522/* method */
 	, &XsdNotation_t1511_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3089,10 +3089,10 @@ extern const MethodInfo XsdNotation__ctor_m7518_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNotation::get_TokenizedType()
-extern const MethodInfo XsdNotation_get_TokenizedType_m7519_MethodInfo = 
+extern const MethodInfo XsdNotation_get_TokenizedType_m7523_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNotation_get_TokenizedType_m7519/* method */
+	, (methodPointerType)&XsdNotation_get_TokenizedType_m7523/* method */
 	, &XsdNotation_t1511_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -3112,16 +3112,16 @@ extern const MethodInfo XsdNotation_get_TokenizedType_m7519_MethodInfo =
 };
 static const MethodInfo* XsdNotation_t1511_MethodInfos[] =
 {
-	&XsdNotation__ctor_m7518_MethodInfo,
-	&XsdNotation_get_TokenizedType_m7519_MethodInfo,
+	&XsdNotation__ctor_m7522_MethodInfo,
+	&XsdNotation_get_TokenizedType_m7523_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNotation_get_TokenizedType_m7519_MethodInfo;
+extern const MethodInfo XsdNotation_get_TokenizedType_m7523_MethodInfo;
 static const PropertyInfo XsdNotation_t1511____TokenizedType_PropertyInfo = 
 {
 	&XsdNotation_t1511_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNotation_get_TokenizedType_m7519_MethodInfo/* get */
+	, &XsdNotation_get_TokenizedType_m7523_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -3138,7 +3138,7 @@ static const Il2CppMethodReference XsdNotation_t1511_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdNotation_get_TokenizedType_m7519_MethodInfo,
+	&XsdNotation_get_TokenizedType_m7523_MethodInfo,
 };
 static bool XsdNotation_t1511_VTableIsGenericMethod[] =
 {
@@ -3227,10 +3227,10 @@ extern TypeInfo XsdDecimal_t1512_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdDecimalMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDecimal::.ctor()
-extern const MethodInfo XsdDecimal__ctor_m7520_MethodInfo = 
+extern const MethodInfo XsdDecimal__ctor_m7524_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDecimal__ctor_m7520/* method */
+	, (methodPointerType)&XsdDecimal__ctor_m7524/* method */
 	, &XsdDecimal_t1512_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3250,10 +3250,10 @@ extern const MethodInfo XsdDecimal__ctor_m7520_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDecimal::get_TokenizedType()
-extern const MethodInfo XsdDecimal_get_TokenizedType_m7521_MethodInfo = 
+extern const MethodInfo XsdDecimal_get_TokenizedType_m7525_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDecimal_get_TokenizedType_m7521/* method */
+	, (methodPointerType)&XsdDecimal_get_TokenizedType_m7525/* method */
 	, &XsdDecimal_t1512_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -3273,16 +3273,16 @@ extern const MethodInfo XsdDecimal_get_TokenizedType_m7521_MethodInfo =
 };
 static const MethodInfo* XsdDecimal_t1512_MethodInfos[] =
 {
-	&XsdDecimal__ctor_m7520_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal__ctor_m7524_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDecimal_get_TokenizedType_m7521_MethodInfo;
+extern const MethodInfo XsdDecimal_get_TokenizedType_m7525_MethodInfo;
 static const PropertyInfo XsdDecimal_t1512____TokenizedType_PropertyInfo = 
 {
 	&XsdDecimal_t1512_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDecimal_get_TokenizedType_m7521_MethodInfo/* get */
+	, &XsdDecimal_get_TokenizedType_m7525_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -3299,7 +3299,7 @@ static const Il2CppMethodReference XsdDecimal_t1512_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdDecimal_t1512_VTableIsGenericMethod[] =
 {
@@ -3388,10 +3388,10 @@ extern TypeInfo XsdInteger_t1513_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdInteger::.ctor()
-extern const MethodInfo XsdInteger__ctor_m7522_MethodInfo = 
+extern const MethodInfo XsdInteger__ctor_m7526_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdInteger__ctor_m7522/* method */
+	, (methodPointerType)&XsdInteger__ctor_m7526/* method */
 	, &XsdInteger_t1513_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3411,7 +3411,7 @@ extern const MethodInfo XsdInteger__ctor_m7522_MethodInfo =
 };
 static const MethodInfo* XsdInteger_t1513_MethodInfos[] =
 {
-	&XsdInteger__ctor_m7522_MethodInfo,
+	&XsdInteger__ctor_m7526_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdInteger_t1513_VTable[] =
@@ -3420,7 +3420,7 @@ static const Il2CppMethodReference XsdInteger_t1513_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdInteger_t1513_VTableIsGenericMethod[] =
 {
@@ -3509,10 +3509,10 @@ extern TypeInfo XsdLong_t1514_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdLongMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdLong::.ctor()
-extern const MethodInfo XsdLong__ctor_m7523_MethodInfo = 
+extern const MethodInfo XsdLong__ctor_m7527_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdLong__ctor_m7523/* method */
+	, (methodPointerType)&XsdLong__ctor_m7527/* method */
 	, &XsdLong_t1514_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3532,7 +3532,7 @@ extern const MethodInfo XsdLong__ctor_m7523_MethodInfo =
 };
 static const MethodInfo* XsdLong_t1514_MethodInfos[] =
 {
-	&XsdLong__ctor_m7523_MethodInfo,
+	&XsdLong__ctor_m7527_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdLong_t1514_VTable[] =
@@ -3541,7 +3541,7 @@ static const Il2CppMethodReference XsdLong_t1514_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdLong_t1514_VTableIsGenericMethod[] =
 {
@@ -3630,10 +3630,10 @@ extern TypeInfo XsdInt_t1515_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdIntMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdInt::.ctor()
-extern const MethodInfo XsdInt__ctor_m7524_MethodInfo = 
+extern const MethodInfo XsdInt__ctor_m7528_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdInt__ctor_m7524/* method */
+	, (methodPointerType)&XsdInt__ctor_m7528/* method */
 	, &XsdInt_t1515_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3653,7 +3653,7 @@ extern const MethodInfo XsdInt__ctor_m7524_MethodInfo =
 };
 static const MethodInfo* XsdInt_t1515_MethodInfos[] =
 {
-	&XsdInt__ctor_m7524_MethodInfo,
+	&XsdInt__ctor_m7528_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdInt_t1515_VTable[] =
@@ -3662,7 +3662,7 @@ static const Il2CppMethodReference XsdInt_t1515_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdInt_t1515_VTableIsGenericMethod[] =
 {
@@ -3751,10 +3751,10 @@ extern TypeInfo XsdShort_t1516_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdShortMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdShort::.ctor()
-extern const MethodInfo XsdShort__ctor_m7525_MethodInfo = 
+extern const MethodInfo XsdShort__ctor_m7529_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdShort__ctor_m7525/* method */
+	, (methodPointerType)&XsdShort__ctor_m7529/* method */
 	, &XsdShort_t1516_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3774,7 +3774,7 @@ extern const MethodInfo XsdShort__ctor_m7525_MethodInfo =
 };
 static const MethodInfo* XsdShort_t1516_MethodInfos[] =
 {
-	&XsdShort__ctor_m7525_MethodInfo,
+	&XsdShort__ctor_m7529_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdShort_t1516_VTable[] =
@@ -3783,7 +3783,7 @@ static const Il2CppMethodReference XsdShort_t1516_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdShort_t1516_VTableIsGenericMethod[] =
 {
@@ -3872,10 +3872,10 @@ extern TypeInfo XsdByte_t1517_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdByteMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdByte::.ctor()
-extern const MethodInfo XsdByte__ctor_m7526_MethodInfo = 
+extern const MethodInfo XsdByte__ctor_m7530_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdByte__ctor_m7526/* method */
+	, (methodPointerType)&XsdByte__ctor_m7530/* method */
 	, &XsdByte_t1517_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3895,7 +3895,7 @@ extern const MethodInfo XsdByte__ctor_m7526_MethodInfo =
 };
 static const MethodInfo* XsdByte_t1517_MethodInfos[] =
 {
-	&XsdByte__ctor_m7526_MethodInfo,
+	&XsdByte__ctor_m7530_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdByte_t1517_VTable[] =
@@ -3904,7 +3904,7 @@ static const Il2CppMethodReference XsdByte_t1517_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdByte_t1517_VTableIsGenericMethod[] =
 {
@@ -3993,10 +3993,10 @@ extern TypeInfo XsdNonNegativeInteger_t1518_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNonNegativeIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNonNegativeInteger::.ctor()
-extern const MethodInfo XsdNonNegativeInteger__ctor_m7527_MethodInfo = 
+extern const MethodInfo XsdNonNegativeInteger__ctor_m7531_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNonNegativeInteger__ctor_m7527/* method */
+	, (methodPointerType)&XsdNonNegativeInteger__ctor_m7531/* method */
 	, &XsdNonNegativeInteger_t1518_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4016,7 +4016,7 @@ extern const MethodInfo XsdNonNegativeInteger__ctor_m7527_MethodInfo =
 };
 static const MethodInfo* XsdNonNegativeInteger_t1518_MethodInfos[] =
 {
-	&XsdNonNegativeInteger__ctor_m7527_MethodInfo,
+	&XsdNonNegativeInteger__ctor_m7531_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdNonNegativeInteger_t1518_VTable[] =
@@ -4025,7 +4025,7 @@ static const Il2CppMethodReference XsdNonNegativeInteger_t1518_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdNonNegativeInteger_t1518_VTableIsGenericMethod[] =
 {
@@ -4114,10 +4114,10 @@ extern TypeInfo XsdUnsignedLong_t1519_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedLongMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedLong::.ctor()
-extern const MethodInfo XsdUnsignedLong__ctor_m7528_MethodInfo = 
+extern const MethodInfo XsdUnsignedLong__ctor_m7532_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedLong__ctor_m7528/* method */
+	, (methodPointerType)&XsdUnsignedLong__ctor_m7532/* method */
 	, &XsdUnsignedLong_t1519_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4137,7 +4137,7 @@ extern const MethodInfo XsdUnsignedLong__ctor_m7528_MethodInfo =
 };
 static const MethodInfo* XsdUnsignedLong_t1519_MethodInfos[] =
 {
-	&XsdUnsignedLong__ctor_m7528_MethodInfo,
+	&XsdUnsignedLong__ctor_m7532_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdUnsignedLong_t1519_VTable[] =
@@ -4146,7 +4146,7 @@ static const Il2CppMethodReference XsdUnsignedLong_t1519_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdUnsignedLong_t1519_VTableIsGenericMethod[] =
 {
@@ -4235,10 +4235,10 @@ extern TypeInfo XsdUnsignedInt_t1520_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedIntMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedInt::.ctor()
-extern const MethodInfo XsdUnsignedInt__ctor_m7529_MethodInfo = 
+extern const MethodInfo XsdUnsignedInt__ctor_m7533_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedInt__ctor_m7529/* method */
+	, (methodPointerType)&XsdUnsignedInt__ctor_m7533/* method */
 	, &XsdUnsignedInt_t1520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4258,7 +4258,7 @@ extern const MethodInfo XsdUnsignedInt__ctor_m7529_MethodInfo =
 };
 static const MethodInfo* XsdUnsignedInt_t1520_MethodInfos[] =
 {
-	&XsdUnsignedInt__ctor_m7529_MethodInfo,
+	&XsdUnsignedInt__ctor_m7533_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdUnsignedInt_t1520_VTable[] =
@@ -4267,7 +4267,7 @@ static const Il2CppMethodReference XsdUnsignedInt_t1520_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdUnsignedInt_t1520_VTableIsGenericMethod[] =
 {
@@ -4356,10 +4356,10 @@ extern TypeInfo XsdUnsignedShort_t1521_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedShortMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedShort::.ctor()
-extern const MethodInfo XsdUnsignedShort__ctor_m7530_MethodInfo = 
+extern const MethodInfo XsdUnsignedShort__ctor_m7534_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedShort__ctor_m7530/* method */
+	, (methodPointerType)&XsdUnsignedShort__ctor_m7534/* method */
 	, &XsdUnsignedShort_t1521_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4379,7 +4379,7 @@ extern const MethodInfo XsdUnsignedShort__ctor_m7530_MethodInfo =
 };
 static const MethodInfo* XsdUnsignedShort_t1521_MethodInfos[] =
 {
-	&XsdUnsignedShort__ctor_m7530_MethodInfo,
+	&XsdUnsignedShort__ctor_m7534_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdUnsignedShort_t1521_VTable[] =
@@ -4388,7 +4388,7 @@ static const Il2CppMethodReference XsdUnsignedShort_t1521_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdUnsignedShort_t1521_VTableIsGenericMethod[] =
 {
@@ -4477,10 +4477,10 @@ extern TypeInfo XsdUnsignedByte_t1522_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedByteMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedByte::.ctor()
-extern const MethodInfo XsdUnsignedByte__ctor_m7531_MethodInfo = 
+extern const MethodInfo XsdUnsignedByte__ctor_m7535_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedByte__ctor_m7531/* method */
+	, (methodPointerType)&XsdUnsignedByte__ctor_m7535/* method */
 	, &XsdUnsignedByte_t1522_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4500,7 +4500,7 @@ extern const MethodInfo XsdUnsignedByte__ctor_m7531_MethodInfo =
 };
 static const MethodInfo* XsdUnsignedByte_t1522_MethodInfos[] =
 {
-	&XsdUnsignedByte__ctor_m7531_MethodInfo,
+	&XsdUnsignedByte__ctor_m7535_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdUnsignedByte_t1522_VTable[] =
@@ -4509,7 +4509,7 @@ static const Il2CppMethodReference XsdUnsignedByte_t1522_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdUnsignedByte_t1522_VTableIsGenericMethod[] =
 {
@@ -4598,10 +4598,10 @@ extern TypeInfo XsdPositiveInteger_t1523_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdPositiveIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdPositiveInteger::.ctor()
-extern const MethodInfo XsdPositiveInteger__ctor_m7532_MethodInfo = 
+extern const MethodInfo XsdPositiveInteger__ctor_m7536_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdPositiveInteger__ctor_m7532/* method */
+	, (methodPointerType)&XsdPositiveInteger__ctor_m7536/* method */
 	, &XsdPositiveInteger_t1523_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4621,7 +4621,7 @@ extern const MethodInfo XsdPositiveInteger__ctor_m7532_MethodInfo =
 };
 static const MethodInfo* XsdPositiveInteger_t1523_MethodInfos[] =
 {
-	&XsdPositiveInteger__ctor_m7532_MethodInfo,
+	&XsdPositiveInteger__ctor_m7536_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdPositiveInteger_t1523_VTable[] =
@@ -4630,7 +4630,7 @@ static const Il2CppMethodReference XsdPositiveInteger_t1523_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdPositiveInteger_t1523_VTableIsGenericMethod[] =
 {
@@ -4719,10 +4719,10 @@ extern TypeInfo XsdNonPositiveInteger_t1524_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNonPositiveIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNonPositiveInteger::.ctor()
-extern const MethodInfo XsdNonPositiveInteger__ctor_m7533_MethodInfo = 
+extern const MethodInfo XsdNonPositiveInteger__ctor_m7537_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNonPositiveInteger__ctor_m7533/* method */
+	, (methodPointerType)&XsdNonPositiveInteger__ctor_m7537/* method */
 	, &XsdNonPositiveInteger_t1524_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4742,7 +4742,7 @@ extern const MethodInfo XsdNonPositiveInteger__ctor_m7533_MethodInfo =
 };
 static const MethodInfo* XsdNonPositiveInteger_t1524_MethodInfos[] =
 {
-	&XsdNonPositiveInteger__ctor_m7533_MethodInfo,
+	&XsdNonPositiveInteger__ctor_m7537_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdNonPositiveInteger_t1524_VTable[] =
@@ -4751,7 +4751,7 @@ static const Il2CppMethodReference XsdNonPositiveInteger_t1524_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdNonPositiveInteger_t1524_VTableIsGenericMethod[] =
 {
@@ -4840,10 +4840,10 @@ extern TypeInfo XsdNegativeInteger_t1525_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdNegativeIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNegativeInteger::.ctor()
-extern const MethodInfo XsdNegativeInteger__ctor_m7534_MethodInfo = 
+extern const MethodInfo XsdNegativeInteger__ctor_m7538_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNegativeInteger__ctor_m7534/* method */
+	, (methodPointerType)&XsdNegativeInteger__ctor_m7538/* method */
 	, &XsdNegativeInteger_t1525_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4863,7 +4863,7 @@ extern const MethodInfo XsdNegativeInteger__ctor_m7534_MethodInfo =
 };
 static const MethodInfo* XsdNegativeInteger_t1525_MethodInfos[] =
 {
-	&XsdNegativeInteger__ctor_m7534_MethodInfo,
+	&XsdNegativeInteger__ctor_m7538_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdNegativeInteger_t1525_VTable[] =
@@ -4872,7 +4872,7 @@ static const Il2CppMethodReference XsdNegativeInteger_t1525_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m7521_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m7525_MethodInfo,
 };
 static bool XsdNegativeInteger_t1525_VTableIsGenericMethod[] =
 {
@@ -4961,10 +4961,10 @@ extern TypeInfo XsdFloat_t1526_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdFloatMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdFloat::.ctor()
-extern const MethodInfo XsdFloat__ctor_m7535_MethodInfo = 
+extern const MethodInfo XsdFloat__ctor_m7539_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdFloat__ctor_m7535/* method */
+	, (methodPointerType)&XsdFloat__ctor_m7539/* method */
 	, &XsdFloat_t1526_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -4984,7 +4984,7 @@ extern const MethodInfo XsdFloat__ctor_m7535_MethodInfo =
 };
 static const MethodInfo* XsdFloat_t1526_MethodInfos[] =
 {
-	&XsdFloat__ctor_m7535_MethodInfo,
+	&XsdFloat__ctor_m7539_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdFloat_t1526_VTable[] =
@@ -4993,7 +4993,7 @@ static const Il2CppMethodReference XsdFloat_t1526_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdFloat_t1526_VTableIsGenericMethod[] =
 {
@@ -5082,10 +5082,10 @@ extern TypeInfo XsdDouble_t1527_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdDoubleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDouble::.ctor()
-extern const MethodInfo XsdDouble__ctor_m7536_MethodInfo = 
+extern const MethodInfo XsdDouble__ctor_m7540_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDouble__ctor_m7536/* method */
+	, (methodPointerType)&XsdDouble__ctor_m7540/* method */
 	, &XsdDouble_t1527_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5105,7 +5105,7 @@ extern const MethodInfo XsdDouble__ctor_m7536_MethodInfo =
 };
 static const MethodInfo* XsdDouble_t1527_MethodInfos[] =
 {
-	&XsdDouble__ctor_m7536_MethodInfo,
+	&XsdDouble__ctor_m7540_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdDouble_t1527_VTable[] =
@@ -5114,7 +5114,7 @@ static const Il2CppMethodReference XsdDouble_t1527_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdDouble_t1527_VTableIsGenericMethod[] =
 {
@@ -5203,10 +5203,10 @@ extern TypeInfo XsdBase64Binary_t1528_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdBase64BinaryMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.ctor()
-extern const MethodInfo XsdBase64Binary__ctor_m7537_MethodInfo = 
+extern const MethodInfo XsdBase64Binary__ctor_m7541_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdBase64Binary__ctor_m7537/* method */
+	, (methodPointerType)&XsdBase64Binary__ctor_m7541/* method */
 	, &XsdBase64Binary_t1528_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5226,10 +5226,10 @@ extern const MethodInfo XsdBase64Binary__ctor_m7537_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.cctor()
-extern const MethodInfo XsdBase64Binary__cctor_m7538_MethodInfo = 
+extern const MethodInfo XsdBase64Binary__cctor_m7542_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdBase64Binary__cctor_m7538/* method */
+	, (methodPointerType)&XsdBase64Binary__cctor_m7542/* method */
 	, &XsdBase64Binary_t1528_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5249,8 +5249,8 @@ extern const MethodInfo XsdBase64Binary__cctor_m7538_MethodInfo =
 };
 static const MethodInfo* XsdBase64Binary_t1528_MethodInfos[] =
 {
-	&XsdBase64Binary__ctor_m7537_MethodInfo,
-	&XsdBase64Binary__cctor_m7538_MethodInfo,
+	&XsdBase64Binary__ctor_m7541_MethodInfo,
+	&XsdBase64Binary__cctor_m7542_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdBase64Binary_t1528_VTable[] =
@@ -5259,7 +5259,7 @@ static const Il2CppMethodReference XsdBase64Binary_t1528_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdString_get_TokenizedType_m7493_MethodInfo,
+	&XsdString_get_TokenizedType_m7497_MethodInfo,
 };
 static bool XsdBase64Binary_t1528_VTableIsGenericMethod[] =
 {
@@ -5348,10 +5348,10 @@ extern TypeInfo XsdHexBinary_t1529_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdHexBinaryMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdHexBinary::.ctor()
-extern const MethodInfo XsdHexBinary__ctor_m7539_MethodInfo = 
+extern const MethodInfo XsdHexBinary__ctor_m7543_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdHexBinary__ctor_m7539/* method */
+	, (methodPointerType)&XsdHexBinary__ctor_m7543/* method */
 	, &XsdHexBinary_t1529_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5371,10 +5371,10 @@ extern const MethodInfo XsdHexBinary__ctor_m7539_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdHexBinary::get_TokenizedType()
-extern const MethodInfo XsdHexBinary_get_TokenizedType_m7540_MethodInfo = 
+extern const MethodInfo XsdHexBinary_get_TokenizedType_m7544_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdHexBinary_get_TokenizedType_m7540/* method */
+	, (methodPointerType)&XsdHexBinary_get_TokenizedType_m7544/* method */
 	, &XsdHexBinary_t1529_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -5394,16 +5394,16 @@ extern const MethodInfo XsdHexBinary_get_TokenizedType_m7540_MethodInfo =
 };
 static const MethodInfo* XsdHexBinary_t1529_MethodInfos[] =
 {
-	&XsdHexBinary__ctor_m7539_MethodInfo,
-	&XsdHexBinary_get_TokenizedType_m7540_MethodInfo,
+	&XsdHexBinary__ctor_m7543_MethodInfo,
+	&XsdHexBinary_get_TokenizedType_m7544_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdHexBinary_get_TokenizedType_m7540_MethodInfo;
+extern const MethodInfo XsdHexBinary_get_TokenizedType_m7544_MethodInfo;
 static const PropertyInfo XsdHexBinary_t1529____TokenizedType_PropertyInfo = 
 {
 	&XsdHexBinary_t1529_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdHexBinary_get_TokenizedType_m7540_MethodInfo/* get */
+	, &XsdHexBinary_get_TokenizedType_m7544_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5420,7 +5420,7 @@ static const Il2CppMethodReference XsdHexBinary_t1529_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdHexBinary_get_TokenizedType_m7540_MethodInfo,
+	&XsdHexBinary_get_TokenizedType_m7544_MethodInfo,
 };
 static bool XsdHexBinary_t1529_VTableIsGenericMethod[] =
 {
@@ -5509,10 +5509,10 @@ extern TypeInfo XsdQName_t1530_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdQNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdQName::.ctor()
-extern const MethodInfo XsdQName__ctor_m7541_MethodInfo = 
+extern const MethodInfo XsdQName__ctor_m7545_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdQName__ctor_m7541/* method */
+	, (methodPointerType)&XsdQName__ctor_m7545/* method */
 	, &XsdQName_t1530_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5532,10 +5532,10 @@ extern const MethodInfo XsdQName__ctor_m7541_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdQName::get_TokenizedType()
-extern const MethodInfo XsdQName_get_TokenizedType_m7542_MethodInfo = 
+extern const MethodInfo XsdQName_get_TokenizedType_m7546_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdQName_get_TokenizedType_m7542/* method */
+	, (methodPointerType)&XsdQName_get_TokenizedType_m7546/* method */
 	, &XsdQName_t1530_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -5555,16 +5555,16 @@ extern const MethodInfo XsdQName_get_TokenizedType_m7542_MethodInfo =
 };
 static const MethodInfo* XsdQName_t1530_MethodInfos[] =
 {
-	&XsdQName__ctor_m7541_MethodInfo,
-	&XsdQName_get_TokenizedType_m7542_MethodInfo,
+	&XsdQName__ctor_m7545_MethodInfo,
+	&XsdQName_get_TokenizedType_m7546_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdQName_get_TokenizedType_m7542_MethodInfo;
+extern const MethodInfo XsdQName_get_TokenizedType_m7546_MethodInfo;
 static const PropertyInfo XsdQName_t1530____TokenizedType_PropertyInfo = 
 {
 	&XsdQName_t1530_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdQName_get_TokenizedType_m7542_MethodInfo/* get */
+	, &XsdQName_get_TokenizedType_m7546_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5581,7 +5581,7 @@ static const Il2CppMethodReference XsdQName_t1530_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdQName_get_TokenizedType_m7542_MethodInfo,
+	&XsdQName_get_TokenizedType_m7546_MethodInfo,
 };
 static bool XsdQName_t1530_VTableIsGenericMethod[] =
 {
@@ -5670,10 +5670,10 @@ extern TypeInfo XsdBoolean_t1531_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdBooleanMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBoolean::.ctor()
-extern const MethodInfo XsdBoolean__ctor_m7543_MethodInfo = 
+extern const MethodInfo XsdBoolean__ctor_m7547_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdBoolean__ctor_m7543/* method */
+	, (methodPointerType)&XsdBoolean__ctor_m7547/* method */
 	, &XsdBoolean_t1531_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5693,10 +5693,10 @@ extern const MethodInfo XsdBoolean__ctor_m7543_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdBoolean::get_TokenizedType()
-extern const MethodInfo XsdBoolean_get_TokenizedType_m7544_MethodInfo = 
+extern const MethodInfo XsdBoolean_get_TokenizedType_m7548_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdBoolean_get_TokenizedType_m7544/* method */
+	, (methodPointerType)&XsdBoolean_get_TokenizedType_m7548/* method */
 	, &XsdBoolean_t1531_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -5716,16 +5716,16 @@ extern const MethodInfo XsdBoolean_get_TokenizedType_m7544_MethodInfo =
 };
 static const MethodInfo* XsdBoolean_t1531_MethodInfos[] =
 {
-	&XsdBoolean__ctor_m7543_MethodInfo,
-	&XsdBoolean_get_TokenizedType_m7544_MethodInfo,
+	&XsdBoolean__ctor_m7547_MethodInfo,
+	&XsdBoolean_get_TokenizedType_m7548_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdBoolean_get_TokenizedType_m7544_MethodInfo;
+extern const MethodInfo XsdBoolean_get_TokenizedType_m7548_MethodInfo;
 static const PropertyInfo XsdBoolean_t1531____TokenizedType_PropertyInfo = 
 {
 	&XsdBoolean_t1531_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdBoolean_get_TokenizedType_m7544_MethodInfo/* get */
+	, &XsdBoolean_get_TokenizedType_m7548_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5742,7 +5742,7 @@ static const Il2CppMethodReference XsdBoolean_t1531_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdBoolean_get_TokenizedType_m7544_MethodInfo,
+	&XsdBoolean_get_TokenizedType_m7548_MethodInfo,
 };
 static bool XsdBoolean_t1531_VTableIsGenericMethod[] =
 {
@@ -5831,10 +5831,10 @@ extern TypeInfo XsdAnyURI_t1532_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdAnyURIMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnyURI::.ctor()
-extern const MethodInfo XsdAnyURI__ctor_m7545_MethodInfo = 
+extern const MethodInfo XsdAnyURI__ctor_m7549_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdAnyURI__ctor_m7545/* method */
+	, (methodPointerType)&XsdAnyURI__ctor_m7549/* method */
 	, &XsdAnyURI_t1532_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5854,10 +5854,10 @@ extern const MethodInfo XsdAnyURI__ctor_m7545_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnyURI::get_TokenizedType()
-extern const MethodInfo XsdAnyURI_get_TokenizedType_m7546_MethodInfo = 
+extern const MethodInfo XsdAnyURI_get_TokenizedType_m7550_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdAnyURI_get_TokenizedType_m7546/* method */
+	, (methodPointerType)&XsdAnyURI_get_TokenizedType_m7550/* method */
 	, &XsdAnyURI_t1532_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -5877,16 +5877,16 @@ extern const MethodInfo XsdAnyURI_get_TokenizedType_m7546_MethodInfo =
 };
 static const MethodInfo* XsdAnyURI_t1532_MethodInfos[] =
 {
-	&XsdAnyURI__ctor_m7545_MethodInfo,
-	&XsdAnyURI_get_TokenizedType_m7546_MethodInfo,
+	&XsdAnyURI__ctor_m7549_MethodInfo,
+	&XsdAnyURI_get_TokenizedType_m7550_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdAnyURI_get_TokenizedType_m7546_MethodInfo;
+extern const MethodInfo XsdAnyURI_get_TokenizedType_m7550_MethodInfo;
 static const PropertyInfo XsdAnyURI_t1532____TokenizedType_PropertyInfo = 
 {
 	&XsdAnyURI_t1532_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdAnyURI_get_TokenizedType_m7546_MethodInfo/* get */
+	, &XsdAnyURI_get_TokenizedType_m7550_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5903,7 +5903,7 @@ static const Il2CppMethodReference XsdAnyURI_t1532_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnyURI_get_TokenizedType_m7546_MethodInfo,
+	&XsdAnyURI_get_TokenizedType_m7550_MethodInfo,
 };
 static bool XsdAnyURI_t1532_VTableIsGenericMethod[] =
 {
@@ -5992,10 +5992,10 @@ extern TypeInfo XsdDuration_t1533_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDuration::.ctor()
-extern const MethodInfo XsdDuration__ctor_m7547_MethodInfo = 
+extern const MethodInfo XsdDuration__ctor_m7551_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDuration__ctor_m7547/* method */
+	, (methodPointerType)&XsdDuration__ctor_m7551/* method */
 	, &XsdDuration_t1533_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6015,10 +6015,10 @@ extern const MethodInfo XsdDuration__ctor_m7547_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDuration::get_TokenizedType()
-extern const MethodInfo XsdDuration_get_TokenizedType_m7548_MethodInfo = 
+extern const MethodInfo XsdDuration_get_TokenizedType_m7552_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDuration_get_TokenizedType_m7548/* method */
+	, (methodPointerType)&XsdDuration_get_TokenizedType_m7552/* method */
 	, &XsdDuration_t1533_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -6038,16 +6038,16 @@ extern const MethodInfo XsdDuration_get_TokenizedType_m7548_MethodInfo =
 };
 static const MethodInfo* XsdDuration_t1533_MethodInfos[] =
 {
-	&XsdDuration__ctor_m7547_MethodInfo,
-	&XsdDuration_get_TokenizedType_m7548_MethodInfo,
+	&XsdDuration__ctor_m7551_MethodInfo,
+	&XsdDuration_get_TokenizedType_m7552_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDuration_get_TokenizedType_m7548_MethodInfo;
+extern const MethodInfo XsdDuration_get_TokenizedType_m7552_MethodInfo;
 static const PropertyInfo XsdDuration_t1533____TokenizedType_PropertyInfo = 
 {
 	&XsdDuration_t1533_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDuration_get_TokenizedType_m7548_MethodInfo/* get */
+	, &XsdDuration_get_TokenizedType_m7552_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6064,7 +6064,7 @@ static const Il2CppMethodReference XsdDuration_t1533_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDuration_get_TokenizedType_m7548_MethodInfo,
+	&XsdDuration_get_TokenizedType_m7552_MethodInfo,
 };
 static bool XsdDuration_t1533_VTableIsGenericMethod[] =
 {
@@ -6153,10 +6153,10 @@ extern TypeInfo XdtDayTimeDuration_t1534_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XdtDayTimeDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtDayTimeDuration::.ctor()
-extern const MethodInfo XdtDayTimeDuration__ctor_m7549_MethodInfo = 
+extern const MethodInfo XdtDayTimeDuration__ctor_m7553_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtDayTimeDuration__ctor_m7549/* method */
+	, (methodPointerType)&XdtDayTimeDuration__ctor_m7553/* method */
 	, &XdtDayTimeDuration_t1534_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6176,7 +6176,7 @@ extern const MethodInfo XdtDayTimeDuration__ctor_m7549_MethodInfo =
 };
 static const MethodInfo* XdtDayTimeDuration_t1534_MethodInfos[] =
 {
-	&XdtDayTimeDuration__ctor_m7549_MethodInfo,
+	&XdtDayTimeDuration__ctor_m7553_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XdtDayTimeDuration_t1534_VTable[] =
@@ -6185,7 +6185,7 @@ static const Il2CppMethodReference XdtDayTimeDuration_t1534_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDuration_get_TokenizedType_m7548_MethodInfo,
+	&XsdDuration_get_TokenizedType_m7552_MethodInfo,
 };
 static bool XdtDayTimeDuration_t1534_VTableIsGenericMethod[] =
 {
@@ -6274,10 +6274,10 @@ extern TypeInfo XdtYearMonthDuration_t1535_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XdtYearMonthDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtYearMonthDuration::.ctor()
-extern const MethodInfo XdtYearMonthDuration__ctor_m7550_MethodInfo = 
+extern const MethodInfo XdtYearMonthDuration__ctor_m7554_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtYearMonthDuration__ctor_m7550/* method */
+	, (methodPointerType)&XdtYearMonthDuration__ctor_m7554/* method */
 	, &XdtYearMonthDuration_t1535_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6297,7 +6297,7 @@ extern const MethodInfo XdtYearMonthDuration__ctor_m7550_MethodInfo =
 };
 static const MethodInfo* XdtYearMonthDuration_t1535_MethodInfos[] =
 {
-	&XdtYearMonthDuration__ctor_m7550_MethodInfo,
+	&XdtYearMonthDuration__ctor_m7554_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XdtYearMonthDuration_t1535_VTable[] =
@@ -6306,7 +6306,7 @@ static const Il2CppMethodReference XdtYearMonthDuration_t1535_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDuration_get_TokenizedType_m7548_MethodInfo,
+	&XsdDuration_get_TokenizedType_m7552_MethodInfo,
 };
 static bool XdtYearMonthDuration_t1535_VTableIsGenericMethod[] =
 {
@@ -6395,10 +6395,10 @@ extern TypeInfo XsdDateTime_t1536_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdDateTimeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDateTime::.ctor()
-extern const MethodInfo XsdDateTime__ctor_m7551_MethodInfo = 
+extern const MethodInfo XsdDateTime__ctor_m7555_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDateTime__ctor_m7551/* method */
+	, (methodPointerType)&XsdDateTime__ctor_m7555/* method */
 	, &XsdDateTime_t1536_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6418,10 +6418,10 @@ extern const MethodInfo XsdDateTime__ctor_m7551_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDateTime::get_TokenizedType()
-extern const MethodInfo XsdDateTime_get_TokenizedType_m7552_MethodInfo = 
+extern const MethodInfo XsdDateTime_get_TokenizedType_m7556_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDateTime_get_TokenizedType_m7552/* method */
+	, (methodPointerType)&XsdDateTime_get_TokenizedType_m7556/* method */
 	, &XsdDateTime_t1536_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -6441,16 +6441,16 @@ extern const MethodInfo XsdDateTime_get_TokenizedType_m7552_MethodInfo =
 };
 static const MethodInfo* XsdDateTime_t1536_MethodInfos[] =
 {
-	&XsdDateTime__ctor_m7551_MethodInfo,
-	&XsdDateTime_get_TokenizedType_m7552_MethodInfo,
+	&XsdDateTime__ctor_m7555_MethodInfo,
+	&XsdDateTime_get_TokenizedType_m7556_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDateTime_get_TokenizedType_m7552_MethodInfo;
+extern const MethodInfo XsdDateTime_get_TokenizedType_m7556_MethodInfo;
 static const PropertyInfo XsdDateTime_t1536____TokenizedType_PropertyInfo = 
 {
 	&XsdDateTime_t1536_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDateTime_get_TokenizedType_m7552_MethodInfo/* get */
+	, &XsdDateTime_get_TokenizedType_m7556_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6467,7 +6467,7 @@ static const Il2CppMethodReference XsdDateTime_t1536_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDateTime_get_TokenizedType_m7552_MethodInfo,
+	&XsdDateTime_get_TokenizedType_m7556_MethodInfo,
 };
 static bool XsdDateTime_t1536_VTableIsGenericMethod[] =
 {
@@ -6556,10 +6556,10 @@ extern TypeInfo XsdDate_t1537_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdDateMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDate::.ctor()
-extern const MethodInfo XsdDate__ctor_m7553_MethodInfo = 
+extern const MethodInfo XsdDate__ctor_m7557_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDate__ctor_m7553/* method */
+	, (methodPointerType)&XsdDate__ctor_m7557/* method */
 	, &XsdDate_t1537_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6579,10 +6579,10 @@ extern const MethodInfo XsdDate__ctor_m7553_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDate::get_TokenizedType()
-extern const MethodInfo XsdDate_get_TokenizedType_m7554_MethodInfo = 
+extern const MethodInfo XsdDate_get_TokenizedType_m7558_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDate_get_TokenizedType_m7554/* method */
+	, (methodPointerType)&XsdDate_get_TokenizedType_m7558/* method */
 	, &XsdDate_t1537_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -6602,16 +6602,16 @@ extern const MethodInfo XsdDate_get_TokenizedType_m7554_MethodInfo =
 };
 static const MethodInfo* XsdDate_t1537_MethodInfos[] =
 {
-	&XsdDate__ctor_m7553_MethodInfo,
-	&XsdDate_get_TokenizedType_m7554_MethodInfo,
+	&XsdDate__ctor_m7557_MethodInfo,
+	&XsdDate_get_TokenizedType_m7558_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDate_get_TokenizedType_m7554_MethodInfo;
+extern const MethodInfo XsdDate_get_TokenizedType_m7558_MethodInfo;
 static const PropertyInfo XsdDate_t1537____TokenizedType_PropertyInfo = 
 {
 	&XsdDate_t1537_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDate_get_TokenizedType_m7554_MethodInfo/* get */
+	, &XsdDate_get_TokenizedType_m7558_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6628,7 +6628,7 @@ static const Il2CppMethodReference XsdDate_t1537_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdDate_get_TokenizedType_m7554_MethodInfo,
+	&XsdDate_get_TokenizedType_m7558_MethodInfo,
 };
 static bool XsdDate_t1537_VTableIsGenericMethod[] =
 {
@@ -6717,10 +6717,10 @@ extern TypeInfo XsdTime_t1538_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdTimeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdTime::.ctor()
-extern const MethodInfo XsdTime__ctor_m7555_MethodInfo = 
+extern const MethodInfo XsdTime__ctor_m7559_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdTime__ctor_m7555/* method */
+	, (methodPointerType)&XsdTime__ctor_m7559/* method */
 	, &XsdTime_t1538_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6740,10 +6740,10 @@ extern const MethodInfo XsdTime__ctor_m7555_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdTime::.cctor()
-extern const MethodInfo XsdTime__cctor_m7556_MethodInfo = 
+extern const MethodInfo XsdTime__cctor_m7560_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdTime__cctor_m7556/* method */
+	, (methodPointerType)&XsdTime__cctor_m7560/* method */
 	, &XsdTime_t1538_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6763,10 +6763,10 @@ extern const MethodInfo XsdTime__cctor_m7556_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdTime::get_TokenizedType()
-extern const MethodInfo XsdTime_get_TokenizedType_m7557_MethodInfo = 
+extern const MethodInfo XsdTime_get_TokenizedType_m7561_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdTime_get_TokenizedType_m7557/* method */
+	, (methodPointerType)&XsdTime_get_TokenizedType_m7561/* method */
 	, &XsdTime_t1538_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTokenizedType_t1681_0_0_0/* return_type */
 	, RuntimeInvoker_XmlTokenizedType_t1681/* invoker_method */
@@ -6786,17 +6786,17 @@ extern const MethodInfo XsdTime_get_TokenizedType_m7557_MethodInfo =
 };
 static const MethodInfo* XsdTime_t1538_MethodInfos[] =
 {
-	&XsdTime__ctor_m7555_MethodInfo,
-	&XsdTime__cctor_m7556_MethodInfo,
-	&XsdTime_get_TokenizedType_m7557_MethodInfo,
+	&XsdTime__ctor_m7559_MethodInfo,
+	&XsdTime__cctor_m7560_MethodInfo,
+	&XsdTime_get_TokenizedType_m7561_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdTime_get_TokenizedType_m7557_MethodInfo;
+extern const MethodInfo XsdTime_get_TokenizedType_m7561_MethodInfo;
 static const PropertyInfo XsdTime_t1538____TokenizedType_PropertyInfo = 
 {
 	&XsdTime_t1538_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdTime_get_TokenizedType_m7557_MethodInfo/* get */
+	, &XsdTime_get_TokenizedType_m7561_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6813,7 +6813,7 @@ static const Il2CppMethodReference XsdTime_t1538_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdTime_get_TokenizedType_m7557_MethodInfo,
+	&XsdTime_get_TokenizedType_m7561_MethodInfo,
 };
 static bool XsdTime_t1538_VTableIsGenericMethod[] =
 {
@@ -6902,10 +6902,10 @@ extern TypeInfo XsdGYearMonth_t1539_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMonthMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGYearMonth::.ctor()
-extern const MethodInfo XsdGYearMonth__ctor_m7558_MethodInfo = 
+extern const MethodInfo XsdGYearMonth__ctor_m7562_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGYearMonth__ctor_m7558/* method */
+	, (methodPointerType)&XsdGYearMonth__ctor_m7562/* method */
 	, &XsdGYearMonth_t1539_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6925,7 +6925,7 @@ extern const MethodInfo XsdGYearMonth__ctor_m7558_MethodInfo =
 };
 static const MethodInfo* XsdGYearMonth_t1539_MethodInfos[] =
 {
-	&XsdGYearMonth__ctor_m7558_MethodInfo,
+	&XsdGYearMonth__ctor_m7562_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdGYearMonth_t1539_VTable[] =
@@ -6934,7 +6934,7 @@ static const Il2CppMethodReference XsdGYearMonth_t1539_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdGYearMonth_t1539_VTableIsGenericMethod[] =
 {
@@ -7023,10 +7023,10 @@ extern TypeInfo XsdGMonthDay_t1540_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthDayMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGMonthDay::.ctor()
-extern const MethodInfo XsdGMonthDay__ctor_m7559_MethodInfo = 
+extern const MethodInfo XsdGMonthDay__ctor_m7563_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGMonthDay__ctor_m7559/* method */
+	, (methodPointerType)&XsdGMonthDay__ctor_m7563/* method */
 	, &XsdGMonthDay_t1540_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7046,7 +7046,7 @@ extern const MethodInfo XsdGMonthDay__ctor_m7559_MethodInfo =
 };
 static const MethodInfo* XsdGMonthDay_t1540_MethodInfos[] =
 {
-	&XsdGMonthDay__ctor_m7559_MethodInfo,
+	&XsdGMonthDay__ctor_m7563_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdGMonthDay_t1540_VTable[] =
@@ -7055,7 +7055,7 @@ static const Il2CppMethodReference XsdGMonthDay_t1540_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdGMonthDay_t1540_VTableIsGenericMethod[] =
 {
@@ -7144,10 +7144,10 @@ extern TypeInfo XsdGYear_t1541_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGYear::.ctor()
-extern const MethodInfo XsdGYear__ctor_m7560_MethodInfo = 
+extern const MethodInfo XsdGYear__ctor_m7564_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGYear__ctor_m7560/* method */
+	, (methodPointerType)&XsdGYear__ctor_m7564/* method */
 	, &XsdGYear_t1541_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7167,7 +7167,7 @@ extern const MethodInfo XsdGYear__ctor_m7560_MethodInfo =
 };
 static const MethodInfo* XsdGYear_t1541_MethodInfos[] =
 {
-	&XsdGYear__ctor_m7560_MethodInfo,
+	&XsdGYear__ctor_m7564_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdGYear_t1541_VTable[] =
@@ -7176,7 +7176,7 @@ static const Il2CppMethodReference XsdGYear_t1541_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdGYear_t1541_VTableIsGenericMethod[] =
 {
@@ -7265,10 +7265,10 @@ extern TypeInfo XsdGMonth_t1542_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGMonth::.ctor()
-extern const MethodInfo XsdGMonth__ctor_m7561_MethodInfo = 
+extern const MethodInfo XsdGMonth__ctor_m7565_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGMonth__ctor_m7561/* method */
+	, (methodPointerType)&XsdGMonth__ctor_m7565/* method */
 	, &XsdGMonth_t1542_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7288,7 +7288,7 @@ extern const MethodInfo XsdGMonth__ctor_m7561_MethodInfo =
 };
 static const MethodInfo* XsdGMonth_t1542_MethodInfos[] =
 {
-	&XsdGMonth__ctor_m7561_MethodInfo,
+	&XsdGMonth__ctor_m7565_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdGMonth_t1542_VTable[] =
@@ -7297,7 +7297,7 @@ static const Il2CppMethodReference XsdGMonth_t1542_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdGMonth_t1542_VTableIsGenericMethod[] =
 {
@@ -7386,10 +7386,10 @@ extern TypeInfo XsdGDay_t1543_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_Schema_XsdGDayMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGDay::.ctor()
-extern const MethodInfo XsdGDay__ctor_m7562_MethodInfo = 
+extern const MethodInfo XsdGDay__ctor_m7566_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGDay__ctor_m7562/* method */
+	, (methodPointerType)&XsdGDay__ctor_m7566/* method */
 	, &XsdGDay_t1543_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7409,7 +7409,7 @@ extern const MethodInfo XsdGDay__ctor_m7562_MethodInfo =
 };
 static const MethodInfo* XsdGDay_t1543_MethodInfos[] =
 {
-	&XsdGDay__ctor_m7562_MethodInfo,
+	&XsdGDay__ctor_m7566_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XsdGDay_t1543_VTable[] =
@@ -7418,7 +7418,7 @@ static const Il2CppMethodReference XsdGDay_t1543_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m7489_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m7493_MethodInfo,
 };
 static bool XsdGDay_t1543_VTableIsGenericMethod[] =
 {
@@ -7504,7 +7504,7 @@ extern TypeInfo IXmlSchemaInfo_t1611_il2cpp_TypeInfo;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsDefault()
-extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m8582_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m8586_MethodInfo = 
 {
 	"get_IsDefault"/* name */
 	, NULL/* method */
@@ -7527,7 +7527,7 @@ extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m8582_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsNil()
-extern const MethodInfo IXmlSchemaInfo_get_IsNil_m8583_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsNil_m8587_MethodInfo = 
 {
 	"get_IsNil"/* name */
 	, NULL/* method */
@@ -7551,7 +7551,7 @@ extern const MethodInfo IXmlSchemaInfo_get_IsNil_m8583_MethodInfo =
 extern const Il2CppType XmlSchemaSimpleType_t1552_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.IXmlSchemaInfo::get_MemberType()
-extern const MethodInfo IXmlSchemaInfo_get_MemberType_m8584_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_MemberType_m8588_MethodInfo = 
 {
 	"get_MemberType"/* name */
 	, NULL/* method */
@@ -7575,7 +7575,7 @@ extern const MethodInfo IXmlSchemaInfo_get_MemberType_m8584_MethodInfo =
 extern const Il2CppType XmlSchemaAttribute_t1546_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.IXmlSchemaInfo::get_SchemaAttribute()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m8585_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m8589_MethodInfo = 
 {
 	"get_SchemaAttribute"/* name */
 	, NULL/* method */
@@ -7599,7 +7599,7 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m8585_MethodInfo =
 extern const Il2CppType XmlSchemaElement_t1548_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.IXmlSchemaInfo::get_SchemaElement()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m8586_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m8590_MethodInfo = 
 {
 	"get_SchemaElement"/* name */
 	, NULL/* method */
@@ -7623,7 +7623,7 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m8586_MethodInfo =
 extern const Il2CppType XmlSchemaType_t1553_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.IXmlSchemaInfo::get_SchemaType()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m8587_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m8591_MethodInfo = 
 {
 	"get_SchemaType"/* name */
 	, NULL/* method */
@@ -7647,7 +7647,7 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m8587_MethodInfo =
 extern const Il2CppType XmlSchemaValidity_t1563_0_0_0;
 extern void* RuntimeInvoker_XmlSchemaValidity_t1563 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.IXmlSchemaInfo::get_Validity()
-extern const MethodInfo IXmlSchemaInfo_get_Validity_m8588_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_Validity_m8592_MethodInfo = 
 {
 	"get_Validity"/* name */
 	, NULL/* method */
@@ -7670,87 +7670,87 @@ extern const MethodInfo IXmlSchemaInfo_get_Validity_m8588_MethodInfo =
 };
 static const MethodInfo* IXmlSchemaInfo_t1611_MethodInfos[] =
 {
-	&IXmlSchemaInfo_get_IsDefault_m8582_MethodInfo,
-	&IXmlSchemaInfo_get_IsNil_m8583_MethodInfo,
-	&IXmlSchemaInfo_get_MemberType_m8584_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaAttribute_m8585_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaElement_m8586_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaType_m8587_MethodInfo,
-	&IXmlSchemaInfo_get_Validity_m8588_MethodInfo,
+	&IXmlSchemaInfo_get_IsDefault_m8586_MethodInfo,
+	&IXmlSchemaInfo_get_IsNil_m8587_MethodInfo,
+	&IXmlSchemaInfo_get_MemberType_m8588_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaAttribute_m8589_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaElement_m8590_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaType_m8591_MethodInfo,
+	&IXmlSchemaInfo_get_Validity_m8592_MethodInfo,
 	NULL
 };
-extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m8582_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m8586_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____IsDefault_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "IsDefault"/* name */
-	, &IXmlSchemaInfo_get_IsDefault_m8582_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_IsDefault_m8586_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_IsNil_m8583_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_IsNil_m8587_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____IsNil_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "IsNil"/* name */
-	, &IXmlSchemaInfo_get_IsNil_m8583_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_IsNil_m8587_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_MemberType_m8584_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_MemberType_m8588_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____MemberType_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "MemberType"/* name */
-	, &IXmlSchemaInfo_get_MemberType_m8584_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_MemberType_m8588_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m8585_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m8589_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____SchemaAttribute_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "SchemaAttribute"/* name */
-	, &IXmlSchemaInfo_get_SchemaAttribute_m8585_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaAttribute_m8589_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m8586_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m8590_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____SchemaElement_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "SchemaElement"/* name */
-	, &IXmlSchemaInfo_get_SchemaElement_m8586_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaElement_m8590_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m8587_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m8591_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____SchemaType_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "SchemaType"/* name */
-	, &IXmlSchemaInfo_get_SchemaType_m8587_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaType_m8591_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_Validity_m8588_MethodInfo;
+extern const MethodInfo IXmlSchemaInfo_get_Validity_m8592_MethodInfo;
 static const PropertyInfo IXmlSchemaInfo_t1611____Validity_PropertyInfo = 
 {
 	&IXmlSchemaInfo_t1611_il2cpp_TypeInfo/* parent */
 	, "Validity"/* name */
-	, &IXmlSchemaInfo_get_Validity_m8588_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_Validity_m8592_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -7846,10 +7846,10 @@ extern TypeInfo XmlSchemaAnnotated_t1544_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotatedMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
-extern const MethodInfo XmlSchemaAnnotated__ctor_m7563_MethodInfo = 
+extern const MethodInfo XmlSchemaAnnotated__ctor_m7567_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaAnnotated__ctor_m7563/* method */
+	, (methodPointerType)&XmlSchemaAnnotated__ctor_m7567/* method */
 	, &XmlSchemaAnnotated_t1544_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7869,7 +7869,7 @@ extern const MethodInfo XmlSchemaAnnotated__ctor_m7563_MethodInfo =
 };
 static const MethodInfo* XmlSchemaAnnotated_t1544_MethodInfos[] =
 {
-	&XmlSchemaAnnotated__ctor_m7563_MethodInfo,
+	&XmlSchemaAnnotated__ctor_m7567_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSchemaAnnotated_t1544_VTable[] =
@@ -8060,10 +8060,10 @@ extern TypeInfo XmlSchemaDatatype_t1495_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
-extern const MethodInfo XmlSchemaDatatype__ctor_m7564_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype__ctor_m7568_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaDatatype__ctor_m7564/* method */
+	, (methodPointerType)&XmlSchemaDatatype__ctor_m7568/* method */
 	, &XmlSchemaDatatype_t1495_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8083,10 +8083,10 @@ extern const MethodInfo XmlSchemaDatatype__ctor_m7564_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.cctor()
-extern const MethodInfo XmlSchemaDatatype__cctor_m7565_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype__cctor_m7569_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaDatatype__cctor_m7565/* method */
+	, (methodPointerType)&XmlSchemaDatatype__cctor_m7569/* method */
 	, &XmlSchemaDatatype_t1495_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8106,7 +8106,7 @@ extern const MethodInfo XmlSchemaDatatype__cctor_m7565_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlTokenizedType_t1681 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
-extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m8589_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m8593_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
 	, NULL/* method */
@@ -8129,20 +8129,20 @@ extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m8589_MethodInfo =
 };
 extern const Il2CppType XmlQualifiedName_t1558_0_0_0;
 extern const Il2CppType XmlQualifiedName_t1558_0_0_0;
-static const ParameterInfo XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7566_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7570_ParameterInfos[] = 
 {
 	{"qname", 0, 134217729, 0, &XmlQualifiedName_t1558_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaDatatype_FromName_m7566_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_FromName_m7570_MethodInfo = 
 {
 	"FromName"/* name */
-	, (methodPointerType)&XmlSchemaDatatype_FromName_m7566/* method */
+	, (methodPointerType)&XmlSchemaDatatype_FromName_m7570/* method */
 	, &XmlSchemaDatatype_t1495_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaDatatype_t1495_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7566_ParameterInfos/* parameters */
+	, XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7570_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8159,21 +8159,21 @@ extern const MethodInfo XmlSchemaDatatype_FromName_m7566_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7567_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7571_ParameterInfos[] = 
 {
 	{"localName", 0, 134217730, 0, &String_t_0_0_0},
 	{"ns", 1, 134217731, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.String,System.String)
-extern const MethodInfo XmlSchemaDatatype_FromName_m7567_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_FromName_m7571_MethodInfo = 
 {
 	"FromName"/* name */
-	, (methodPointerType)&XmlSchemaDatatype_FromName_m7567/* method */
+	, (methodPointerType)&XmlSchemaDatatype_FromName_m7571/* method */
 	, &XmlSchemaDatatype_t1495_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaDatatype_t1495_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7567_ParameterInfos/* parameters */
+	, XmlSchemaDatatype_t1495_XmlSchemaDatatype_FromName_m7571_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8189,19 +8189,19 @@ extern const MethodInfo XmlSchemaDatatype_FromName_m7567_MethodInfo =
 };
 static const MethodInfo* XmlSchemaDatatype_t1495_MethodInfos[] =
 {
-	&XmlSchemaDatatype__ctor_m7564_MethodInfo,
-	&XmlSchemaDatatype__cctor_m7565_MethodInfo,
-	&XmlSchemaDatatype_get_TokenizedType_m8589_MethodInfo,
-	&XmlSchemaDatatype_FromName_m7566_MethodInfo,
-	&XmlSchemaDatatype_FromName_m7567_MethodInfo,
+	&XmlSchemaDatatype__ctor_m7568_MethodInfo,
+	&XmlSchemaDatatype__cctor_m7569_MethodInfo,
+	&XmlSchemaDatatype_get_TokenizedType_m8593_MethodInfo,
+	&XmlSchemaDatatype_FromName_m7570_MethodInfo,
+	&XmlSchemaDatatype_FromName_m7571_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m8589_MethodInfo;
+extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m8593_MethodInfo;
 static const PropertyInfo XmlSchemaDatatype_t1495____TokenizedType_PropertyInfo = 
 {
 	&XmlSchemaDatatype_t1495_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XmlSchemaDatatype_get_TokenizedType_m8589_MethodInfo/* get */
+	, &XmlSchemaDatatype_get_TokenizedType_m8593_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -8679,10 +8679,10 @@ TypeInfo Facet_t1550_il2cpp_TypeInfo =
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacetMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaFacet::.cctor()
-extern const MethodInfo XmlSchemaFacet__cctor_m7568_MethodInfo = 
+extern const MethodInfo XmlSchemaFacet__cctor_m7572_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaFacet__cctor_m7568/* method */
+	, (methodPointerType)&XmlSchemaFacet__cctor_m7572/* method */
 	, &XmlSchemaFacet_t1551_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8702,7 +8702,7 @@ extern const MethodInfo XmlSchemaFacet__cctor_m7568_MethodInfo =
 };
 static const MethodInfo* XmlSchemaFacet_t1551_MethodInfos[] =
 {
-	&XmlSchemaFacet__cctor_m7568_MethodInfo,
+	&XmlSchemaFacet__cctor_m7572_MethodInfo,
 	NULL
 };
 static const Il2CppType* XmlSchemaFacet_t1551_il2cpp_TypeInfo__nestedTypes[1] =
@@ -8800,20 +8800,20 @@ extern TypeInfo XmlSchemaInfo_t1554_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaInfo
 #include "System_Xml_System_Xml_Schema_XmlSchemaInfoMethodDeclarations.h"
 extern const Il2CppType IXmlSchemaInfo_t1611_0_0_0;
-static const ParameterInfo XmlSchemaInfo_t1554_XmlSchemaInfo__ctor_m7569_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaInfo_t1554_XmlSchemaInfo__ctor_m7573_ParameterInfos[] = 
 {
 	{"info", 0, 134217732, 0, &IXmlSchemaInfo_t1611_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.IXmlSchemaInfo)
-extern const MethodInfo XmlSchemaInfo__ctor_m7569_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo__ctor_m7573_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaInfo__ctor_m7569/* method */
+	, (methodPointerType)&XmlSchemaInfo__ctor_m7573/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlSchemaInfo_t1554_XmlSchemaInfo__ctor_m7569_ParameterInfos/* parameters */
+	, XmlSchemaInfo_t1554_XmlSchemaInfo__ctor_m7573_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -8829,10 +8829,10 @@ extern const MethodInfo XmlSchemaInfo__ctor_m7569_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
-extern const MethodInfo XmlSchemaInfo_get_IsDefault_m7570_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsDefault_m7574_MethodInfo = 
 {
 	"get_IsDefault"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_IsDefault_m7570/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_IsDefault_m7574/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -8852,10 +8852,10 @@ extern const MethodInfo XmlSchemaInfo_get_IsDefault_m7570_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
-extern const MethodInfo XmlSchemaInfo_get_IsNil_m7571_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsNil_m7575_MethodInfo = 
 {
 	"get_IsNil"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_IsNil_m7571/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_IsNil_m7575/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -8875,10 +8875,10 @@ extern const MethodInfo XmlSchemaInfo_get_IsNil_m7571_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
-extern const MethodInfo XmlSchemaInfo_get_MemberType_m7572_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_MemberType_m7576_MethodInfo = 
 {
 	"get_MemberType"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_MemberType_m7572/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_MemberType_m7576/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaSimpleType_t1552_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8898,10 +8898,10 @@ extern const MethodInfo XmlSchemaInfo_get_MemberType_m7572_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
-extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m7577_MethodInfo = 
 {
 	"get_SchemaAttribute"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaAttribute_m7573/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaAttribute_m7577/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaAttribute_t1546_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8921,10 +8921,10 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
-extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m7578_MethodInfo = 
 {
 	"get_SchemaElement"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaElement_m7574/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaElement_m7578/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaElement_t1548_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8944,10 +8944,10 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
-extern const MethodInfo XmlSchemaInfo_get_SchemaType_m7575_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaType_m7579_MethodInfo = 
 {
 	"get_SchemaType"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaType_m7575/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaType_m7579/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaType_t1553_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8967,10 +8967,10 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaType_m7575_MethodInfo =
 };
 extern void* RuntimeInvoker_XmlSchemaValidity_t1563 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
-extern const MethodInfo XmlSchemaInfo_get_Validity_m7576_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_Validity_m7580_MethodInfo = 
 {
 	"get_Validity"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_Validity_m7576/* method */
+	, (methodPointerType)&XmlSchemaInfo_get_Validity_m7580/* method */
 	, &XmlSchemaInfo_t1554_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaValidity_t1563_0_0_0/* return_type */
 	, RuntimeInvoker_XmlSchemaValidity_t1563/* invoker_method */
@@ -8990,88 +8990,88 @@ extern const MethodInfo XmlSchemaInfo_get_Validity_m7576_MethodInfo =
 };
 static const MethodInfo* XmlSchemaInfo_t1554_MethodInfos[] =
 {
-	&XmlSchemaInfo__ctor_m7569_MethodInfo,
-	&XmlSchemaInfo_get_IsDefault_m7570_MethodInfo,
-	&XmlSchemaInfo_get_IsNil_m7571_MethodInfo,
-	&XmlSchemaInfo_get_MemberType_m7572_MethodInfo,
-	&XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo,
-	&XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo,
-	&XmlSchemaInfo_get_SchemaType_m7575_MethodInfo,
-	&XmlSchemaInfo_get_Validity_m7576_MethodInfo,
+	&XmlSchemaInfo__ctor_m7573_MethodInfo,
+	&XmlSchemaInfo_get_IsDefault_m7574_MethodInfo,
+	&XmlSchemaInfo_get_IsNil_m7575_MethodInfo,
+	&XmlSchemaInfo_get_MemberType_m7576_MethodInfo,
+	&XmlSchemaInfo_get_SchemaAttribute_m7577_MethodInfo,
+	&XmlSchemaInfo_get_SchemaElement_m7578_MethodInfo,
+	&XmlSchemaInfo_get_SchemaType_m7579_MethodInfo,
+	&XmlSchemaInfo_get_Validity_m7580_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaInfo_get_IsDefault_m7570_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_IsDefault_m7574_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____IsDefault_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "IsDefault"/* name */
-	, &XmlSchemaInfo_get_IsDefault_m7570_MethodInfo/* get */
+	, &XmlSchemaInfo_get_IsDefault_m7574_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 17/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_IsNil_m7571_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_IsNil_m7575_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____IsNil_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "IsNil"/* name */
-	, &XmlSchemaInfo_get_IsNil_m7571_MethodInfo/* get */
+	, &XmlSchemaInfo_get_IsNil_m7575_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 18/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_MemberType_m7572_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_MemberType_m7576_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____MemberType_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "MemberType"/* name */
-	, &XmlSchemaInfo_get_MemberType_m7572_MethodInfo/* get */
+	, &XmlSchemaInfo_get_MemberType_m7576_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 19/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m7577_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____SchemaAttribute_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "SchemaAttribute"/* name */
-	, &XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaAttribute_m7577_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 20/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m7578_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____SchemaElement_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "SchemaElement"/* name */
-	, &XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaElement_m7578_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 21/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaType_m7575_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_SchemaType_m7579_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____SchemaType_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "SchemaType"/* name */
-	, &XmlSchemaInfo_get_SchemaType_m7575_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaType_m7579_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 22/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_Validity_m7576_MethodInfo;
+extern const MethodInfo XmlSchemaInfo_get_Validity_m7580_MethodInfo;
 static const PropertyInfo XmlSchemaInfo_t1554____Validity_PropertyInfo = 
 {
 	&XmlSchemaInfo_t1554_il2cpp_TypeInfo/* parent */
 	, "Validity"/* name */
-	, &XmlSchemaInfo_get_Validity_m7576_MethodInfo/* get */
+	, &XmlSchemaInfo_get_Validity_m7580_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 23/* custom_attributes_cache */
@@ -9094,13 +9094,13 @@ static const Il2CppMethodReference XmlSchemaInfo_t1554_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&XmlSchemaInfo_get_IsDefault_m7570_MethodInfo,
-	&XmlSchemaInfo_get_IsNil_m7571_MethodInfo,
-	&XmlSchemaInfo_get_MemberType_m7572_MethodInfo,
-	&XmlSchemaInfo_get_SchemaAttribute_m7573_MethodInfo,
-	&XmlSchemaInfo_get_SchemaElement_m7574_MethodInfo,
-	&XmlSchemaInfo_get_SchemaType_m7575_MethodInfo,
-	&XmlSchemaInfo_get_Validity_m7576_MethodInfo,
+	&XmlSchemaInfo_get_IsDefault_m7574_MethodInfo,
+	&XmlSchemaInfo_get_IsNil_m7575_MethodInfo,
+	&XmlSchemaInfo_get_MemberType_m7576_MethodInfo,
+	&XmlSchemaInfo_get_SchemaAttribute_m7577_MethodInfo,
+	&XmlSchemaInfo_get_SchemaElement_m7578_MethodInfo,
+	&XmlSchemaInfo_get_SchemaType_m7579_MethodInfo,
+	&XmlSchemaInfo_get_Validity_m7580_MethodInfo,
 };
 static bool XmlSchemaInfo_t1554_VTableIsGenericMethod[] =
 {
@@ -9203,10 +9203,10 @@ extern TypeInfo XmlSchemaObject_t1545_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaObjectMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
-extern const MethodInfo XmlSchemaObject__ctor_m7577_MethodInfo = 
+extern const MethodInfo XmlSchemaObject__ctor_m7581_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaObject__ctor_m7577/* method */
+	, (methodPointerType)&XmlSchemaObject__ctor_m7581/* method */
 	, &XmlSchemaObject_t1545_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9226,7 +9226,7 @@ extern const MethodInfo XmlSchemaObject__ctor_m7577_MethodInfo =
 };
 static const MethodInfo* XmlSchemaObject_t1545_MethodInfos[] =
 {
-	&XmlSchemaObject__ctor_m7577_MethodInfo,
+	&XmlSchemaObject__ctor_m7581_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSchemaObject_t1545_VTable[] =
@@ -9415,10 +9415,10 @@ extern TypeInfo XmlSchemaSimpleType_t1552_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
-extern const MethodInfo XmlSchemaSimpleType__ctor_m7578_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType__ctor_m7582_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType__ctor_m7578/* method */
+	, (methodPointerType)&XmlSchemaSimpleType__ctor_m7582/* method */
 	, &XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9438,10 +9438,10 @@ extern const MethodInfo XmlSchemaSimpleType__ctor_m7578_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.cctor()
-extern const MethodInfo XmlSchemaSimpleType__cctor_m7579_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType__cctor_m7583_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType__cctor_m7579/* method */
+	, (methodPointerType)&XmlSchemaSimpleType__cctor_m7583/* method */
 	, &XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9461,21 +9461,21 @@ extern const MethodInfo XmlSchemaSimpleType__cctor_m7579_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7580_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7584_ParameterInfos[] = 
 {
 	{"name", 0, 134217733, 0, &String_t_0_0_0},
 	{"baseName", 1, 134217734, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String)
-extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m7580_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m7584_MethodInfo = 
 {
 	"BuildSchemaType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m7580/* method */
+	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m7584/* method */
 	, &XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaSimpleType_t1552_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7580_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7584_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -9493,7 +9493,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7581_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7585_ParameterInfos[] = 
 {
 	{"name", 0, 134217735, 0, &String_t_0_0_0},
 	{"baseName", 1, 134217736, 0, &String_t_0_0_0},
@@ -9502,14 +9502,14 @@ static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSc
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String,System.Boolean,System.Boolean)
-extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m7581_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m7585_MethodInfo = 
 {
 	"BuildSchemaType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m7581/* method */
+	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m7585/* method */
 	, &XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaSimpleType_t1552_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61_SByte_t61/* invoker_method */
-	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7581_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_BuildSchemaType_m7585_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -9525,20 +9525,20 @@ extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m7581_MethodInfo =
 };
 extern const Il2CppType XmlSchemaSimpleTypeContent_t1557_0_0_0;
 extern const Il2CppType XmlSchemaSimpleTypeContent_t1557_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_set_Content_m7582_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_set_Content_m7586_ParameterInfos[] = 
 {
 	{"value", 0, 134217739, 0, &XmlSchemaSimpleTypeContent_t1557_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
-extern const MethodInfo XmlSchemaSimpleType_set_Content_m7582_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_set_Content_m7586_MethodInfo = 
 {
 	"set_Content"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_set_Content_m7582/* method */
+	, (methodPointerType)&XmlSchemaSimpleType_set_Content_m7586/* method */
 	, &XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_set_Content_m7582_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t1552_XmlSchemaSimpleType_set_Content_m7586_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9554,20 +9554,20 @@ extern const MethodInfo XmlSchemaSimpleType_set_Content_m7582_MethodInfo =
 };
 static const MethodInfo* XmlSchemaSimpleType_t1552_MethodInfos[] =
 {
-	&XmlSchemaSimpleType__ctor_m7578_MethodInfo,
-	&XmlSchemaSimpleType__cctor_m7579_MethodInfo,
-	&XmlSchemaSimpleType_BuildSchemaType_m7580_MethodInfo,
-	&XmlSchemaSimpleType_BuildSchemaType_m7581_MethodInfo,
-	&XmlSchemaSimpleType_set_Content_m7582_MethodInfo,
+	&XmlSchemaSimpleType__ctor_m7582_MethodInfo,
+	&XmlSchemaSimpleType__cctor_m7583_MethodInfo,
+	&XmlSchemaSimpleType_BuildSchemaType_m7584_MethodInfo,
+	&XmlSchemaSimpleType_BuildSchemaType_m7585_MethodInfo,
+	&XmlSchemaSimpleType_set_Content_m7586_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaSimpleType_set_Content_m7582_MethodInfo;
+extern const MethodInfo XmlSchemaSimpleType_set_Content_m7586_MethodInfo;
 static const PropertyInfo XmlSchemaSimpleType_t1552____Content_PropertyInfo = 
 {
 	&XmlSchemaSimpleType_t1552_il2cpp_TypeInfo/* parent */
 	, "Content"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleType_set_Content_m7582_MethodInfo/* set */
+	, &XmlSchemaSimpleType_set_Content_m7586_MethodInfo/* set */
 	, 0/* attrs */
 	, 24/* custom_attributes_cache */
 
@@ -9669,10 +9669,10 @@ extern TypeInfo XmlSchemaSimpleTypeContent_t1557_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContentMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
-extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m7583_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m7587_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeContent__ctor_m7583/* method */
+	, (methodPointerType)&XmlSchemaSimpleTypeContent__ctor_m7587/* method */
 	, &XmlSchemaSimpleTypeContent_t1557_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9692,7 +9692,7 @@ extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m7583_MethodInfo =
 };
 static const MethodInfo* XmlSchemaSimpleTypeContent_t1557_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeContent__ctor_m7583_MethodInfo,
+	&XmlSchemaSimpleTypeContent__ctor_m7587_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSchemaSimpleTypeContent_t1557_VTable[] =
@@ -9787,10 +9787,10 @@ extern TypeInfo XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeListMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::.ctor()
-extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m7584_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m7588_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList__ctor_m7584/* method */
+	, (methodPointerType)&XmlSchemaSimpleTypeList__ctor_m7588/* method */
 	, &XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9809,20 +9809,20 @@ extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m7584_MethodInfo =
 
 };
 extern const Il2CppType XmlQualifiedName_t1558_0_0_0;
-static const ParameterInfo XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_ParameterInfos[] = 
 {
 	{"value", 0, 134217740, 0, &XmlQualifiedName_t1558_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemTypeName(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_MethodInfo = 
 {
 	"set_ItemTypeName"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemTypeName_m7585/* method */
+	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemTypeName_m7589/* method */
 	, &XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_ParameterInfos/* parameters */
+	, XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9837,20 +9837,20 @@ extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_MethodInf
 
 };
 extern const Il2CppType XmlSchemaSimpleType_t1552_0_0_0;
-static const ParameterInfo XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemType_m7586_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemType_m7590_ParameterInfos[] = 
 {
 	{"value", 0, 134217741, 0, &XmlSchemaSimpleType_t1552_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemType(System.Xml.Schema.XmlSchemaSimpleType)
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m7586_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m7590_MethodInfo = 
 {
 	"set_ItemType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemType_m7586/* method */
+	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemType_m7590/* method */
 	, &XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemType_m7586_ParameterInfos/* parameters */
+	, XmlSchemaSimpleTypeList_t1559_XmlSchemaSimpleTypeList_set_ItemType_m7590_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9866,29 +9866,29 @@ extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m7586_MethodInfo =
 };
 static const MethodInfo* XmlSchemaSimpleTypeList_t1559_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeList__ctor_m7584_MethodInfo,
-	&XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_MethodInfo,
-	&XmlSchemaSimpleTypeList_set_ItemType_m7586_MethodInfo,
+	&XmlSchemaSimpleTypeList__ctor_m7588_MethodInfo,
+	&XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_MethodInfo,
+	&XmlSchemaSimpleTypeList_set_ItemType_m7590_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_MethodInfo;
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_MethodInfo;
 static const PropertyInfo XmlSchemaSimpleTypeList_t1559____ItemTypeName_PropertyInfo = 
 {
 	&XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo/* parent */
 	, "ItemTypeName"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleTypeList_set_ItemTypeName_m7585_MethodInfo/* set */
+	, &XmlSchemaSimpleTypeList_set_ItemTypeName_m7589_MethodInfo/* set */
 	, 0/* attrs */
 	, 25/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m7586_MethodInfo;
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m7590_MethodInfo;
 static const PropertyInfo XmlSchemaSimpleTypeList_t1559____ItemType_PropertyInfo = 
 {
 	&XmlSchemaSimpleTypeList_t1559_il2cpp_TypeInfo/* parent */
 	, "ItemType"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleTypeList_set_ItemType_m7586_MethodInfo/* set */
+	, &XmlSchemaSimpleTypeList_set_ItemType_m7590_MethodInfo/* set */
 	, 0/* attrs */
 	, 26/* custom_attributes_cache */
 
@@ -9992,10 +9992,10 @@ extern TypeInfo XmlSchemaSimpleTypeRestriction_t1560_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeRestrictionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.cctor()
-extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m7587_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m7591_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeRestriction__cctor_m7587/* method */
+	, (methodPointerType)&XmlSchemaSimpleTypeRestriction__cctor_m7591/* method */
 	, &XmlSchemaSimpleTypeRestriction_t1560_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10015,7 +10015,7 @@ extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m7587_MethodInfo =
 };
 static const MethodInfo* XmlSchemaSimpleTypeRestriction_t1560_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeRestriction__cctor_m7587_MethodInfo,
+	&XmlSchemaSimpleTypeRestriction__cctor_m7591_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSchemaSimpleTypeRestriction_t1560_VTable[] =
@@ -10206,10 +10206,10 @@ extern TypeInfo XmlSchemaType_t1553_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaType::.ctor()
-extern const MethodInfo XmlSchemaType__ctor_m7588_MethodInfo = 
+extern const MethodInfo XmlSchemaType__ctor_m7592_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaType__ctor_m7588/* method */
+	, (methodPointerType)&XmlSchemaType__ctor_m7592/* method */
 	, &XmlSchemaType_t1553_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10229,10 +10229,10 @@ extern const MethodInfo XmlSchemaType__ctor_m7588_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::get_QualifiedName()
-extern const MethodInfo XmlSchemaType_get_QualifiedName_m7589_MethodInfo = 
+extern const MethodInfo XmlSchemaType_get_QualifiedName_m7593_MethodInfo = 
 {
 	"get_QualifiedName"/* name */
-	, (methodPointerType)&XmlSchemaType_get_QualifiedName_m7589/* method */
+	, (methodPointerType)&XmlSchemaType_get_QualifiedName_m7593/* method */
 	, &XmlSchemaType_t1553_il2cpp_TypeInfo/* declaring_type */
 	, &XmlQualifiedName_t1558_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10251,20 +10251,20 @@ extern const MethodInfo XmlSchemaType_get_QualifiedName_m7589_MethodInfo =
 
 };
 extern const Il2CppType XmlQualifiedName_t1558_0_0_0;
-static const ParameterInfo XmlSchemaType_t1553_XmlSchemaType_GetBuiltInSimpleType_m7590_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaType_t1553_XmlSchemaType_GetBuiltInSimpleType_m7594_ParameterInfos[] = 
 {
 	{"qualifiedName", 0, 134217742, 0, &XmlQualifiedName_t1558_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m7590_MethodInfo = 
+extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m7594_MethodInfo = 
 {
 	"GetBuiltInSimpleType"/* name */
-	, (methodPointerType)&XmlSchemaType_GetBuiltInSimpleType_m7590/* method */
+	, (methodPointerType)&XmlSchemaType_GetBuiltInSimpleType_m7594/* method */
 	, &XmlSchemaType_t1553_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaSimpleType_t1552_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlSchemaType_t1553_XmlSchemaType_GetBuiltInSimpleType_m7590_ParameterInfos/* parameters */
+	, XmlSchemaType_t1553_XmlSchemaType_GetBuiltInSimpleType_m7594_ParameterInfos/* parameters */
 	, 29/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10280,17 +10280,17 @@ extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m7590_MethodInfo =
 };
 static const MethodInfo* XmlSchemaType_t1553_MethodInfos[] =
 {
-	&XmlSchemaType__ctor_m7588_MethodInfo,
-	&XmlSchemaType_get_QualifiedName_m7589_MethodInfo,
-	&XmlSchemaType_GetBuiltInSimpleType_m7590_MethodInfo,
+	&XmlSchemaType__ctor_m7592_MethodInfo,
+	&XmlSchemaType_get_QualifiedName_m7593_MethodInfo,
+	&XmlSchemaType_GetBuiltInSimpleType_m7594_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaType_get_QualifiedName_m7589_MethodInfo;
+extern const MethodInfo XmlSchemaType_get_QualifiedName_m7593_MethodInfo;
 static const PropertyInfo XmlSchemaType_t1553____QualifiedName_PropertyInfo = 
 {
 	&XmlSchemaType_t1553_il2cpp_TypeInfo/* parent */
 	, "QualifiedName"/* name */
-	, &XmlSchemaType_get_QualifiedName_m7589_MethodInfo/* get */
+	, &XmlSchemaType_get_QualifiedName_m7593_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 30/* custom_attributes_cache */
@@ -10393,10 +10393,10 @@ extern TypeInfo XmlSchemaUtil_t1562_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Schema_XmlSchemaUtilMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaUtil::.cctor()
-extern const MethodInfo XmlSchemaUtil__cctor_m7591_MethodInfo = 
+extern const MethodInfo XmlSchemaUtil__cctor_m7595_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaUtil__cctor_m7591/* method */
+	, (methodPointerType)&XmlSchemaUtil__cctor_m7595/* method */
 	, &XmlSchemaUtil_t1562_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10416,7 +10416,7 @@ extern const MethodInfo XmlSchemaUtil__cctor_m7591_MethodInfo =
 };
 static const MethodInfo* XmlSchemaUtil_t1562_MethodInfos[] =
 {
-	&XmlSchemaUtil__cctor_m7591_MethodInfo,
+	&XmlSchemaUtil__cctor_m7595_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSchemaUtil_t1562_VTable[] =
@@ -10648,20 +10648,20 @@ extern TypeInfo XmlAttributeAttribute_t1564_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAttributeAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeAttribute_t1564_XmlAttributeAttribute__ctor_m7592_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeAttribute_t1564_XmlAttributeAttribute__ctor_m7596_ParameterInfos[] = 
 {
 	{"attributeName", 0, 134217743, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
-extern const MethodInfo XmlAttributeAttribute__ctor_m7592_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute__ctor_m7596_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributeAttribute__ctor_m7592/* method */
+	, (methodPointerType)&XmlAttributeAttribute__ctor_m7596/* method */
 	, &XmlAttributeAttribute_t1564_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlAttributeAttribute_t1564_XmlAttributeAttribute__ctor_m7592_ParameterInfos/* parameters */
+	, XmlAttributeAttribute_t1564_XmlAttributeAttribute__ctor_m7596_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10677,14 +10677,14 @@ extern const MethodInfo XmlAttributeAttribute__ctor_m7592_MethodInfo =
 };
 static const MethodInfo* XmlAttributeAttribute_t1564_MethodInfos[] =
 {
-	&XmlAttributeAttribute__ctor_m7592_MethodInfo,
+	&XmlAttributeAttribute__ctor_m7596_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlAttributeAttribute_t1564_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool XmlAttributeAttribute_t1564_VTableIsGenericMethod[] =
@@ -10776,20 +10776,20 @@ extern TypeInfo XmlElementAttribute_t1565_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlElementAttribute
 #include "System_Xml_System_Xml_Serialization_XmlElementAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7593_ParameterInfos[] = 
+static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7597_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217744, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String)
-extern const MethodInfo XmlElementAttribute__ctor_m7593_MethodInfo = 
+extern const MethodInfo XmlElementAttribute__ctor_m7597_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlElementAttribute__ctor_m7593/* method */
+	, (methodPointerType)&XmlElementAttribute__ctor_m7597/* method */
 	, &XmlElementAttribute_t1565_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7593_ParameterInfos/* parameters */
+	, XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7597_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10806,21 +10806,21 @@ extern const MethodInfo XmlElementAttribute__ctor_m7593_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7594_ParameterInfos[] = 
+static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7598_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217745, 0, &String_t_0_0_0},
 	{"type", 1, 134217746, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
-extern const MethodInfo XmlElementAttribute__ctor_m7594_MethodInfo = 
+extern const MethodInfo XmlElementAttribute__ctor_m7598_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlElementAttribute__ctor_m7594/* method */
+	, (methodPointerType)&XmlElementAttribute__ctor_m7598/* method */
 	, &XmlElementAttribute_t1565_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7594_ParameterInfos/* parameters */
+	, XmlElementAttribute_t1565_XmlElementAttribute__ctor_m7598_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10835,20 +10835,20 @@ extern const MethodInfo XmlElementAttribute__ctor_m7594_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute_set_Type_m7595_ParameterInfos[] = 
+static const ParameterInfo XmlElementAttribute_t1565_XmlElementAttribute_set_Type_m7599_ParameterInfos[] = 
 {
 	{"value", 0, 134217747, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlElementAttribute::set_Type(System.Type)
-extern const MethodInfo XmlElementAttribute_set_Type_m7595_MethodInfo = 
+extern const MethodInfo XmlElementAttribute_set_Type_m7599_MethodInfo = 
 {
 	"set_Type"/* name */
-	, (methodPointerType)&XmlElementAttribute_set_Type_m7595/* method */
+	, (methodPointerType)&XmlElementAttribute_set_Type_m7599/* method */
 	, &XmlElementAttribute_t1565_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlElementAttribute_t1565_XmlElementAttribute_set_Type_m7595_ParameterInfos/* parameters */
+	, XmlElementAttribute_t1565_XmlElementAttribute_set_Type_m7599_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10864,18 +10864,18 @@ extern const MethodInfo XmlElementAttribute_set_Type_m7595_MethodInfo =
 };
 static const MethodInfo* XmlElementAttribute_t1565_MethodInfos[] =
 {
-	&XmlElementAttribute__ctor_m7593_MethodInfo,
-	&XmlElementAttribute__ctor_m7594_MethodInfo,
-	&XmlElementAttribute_set_Type_m7595_MethodInfo,
+	&XmlElementAttribute__ctor_m7597_MethodInfo,
+	&XmlElementAttribute__ctor_m7598_MethodInfo,
+	&XmlElementAttribute_set_Type_m7599_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlElementAttribute_set_Type_m7595_MethodInfo;
+extern const MethodInfo XmlElementAttribute_set_Type_m7599_MethodInfo;
 static const PropertyInfo XmlElementAttribute_t1565____Type_PropertyInfo = 
 {
 	&XmlElementAttribute_t1565_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
 	, NULL/* get */
-	, &XmlElementAttribute_set_Type_m7595_MethodInfo/* set */
+	, &XmlElementAttribute_set_Type_m7599_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -10887,9 +10887,9 @@ static const PropertyInfo* XmlElementAttribute_t1565_PropertyInfos[] =
 };
 static const Il2CppMethodReference XmlElementAttribute_t1565_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool XmlElementAttribute_t1565_VTableIsGenericMethod[] =
@@ -10981,20 +10981,20 @@ extern TypeInfo XmlEnumAttribute_t1566_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlEnumAttribute
 #include "System_Xml_System_Xml_Serialization_XmlEnumAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlEnumAttribute_t1566_XmlEnumAttribute__ctor_m7596_ParameterInfos[] = 
+static const ParameterInfo XmlEnumAttribute_t1566_XmlEnumAttribute__ctor_m7600_ParameterInfos[] = 
 {
 	{"name", 0, 134217748, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
-extern const MethodInfo XmlEnumAttribute__ctor_m7596_MethodInfo = 
+extern const MethodInfo XmlEnumAttribute__ctor_m7600_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlEnumAttribute__ctor_m7596/* method */
+	, (methodPointerType)&XmlEnumAttribute__ctor_m7600/* method */
 	, &XmlEnumAttribute_t1566_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, XmlEnumAttribute_t1566_XmlEnumAttribute__ctor_m7596_ParameterInfos/* parameters */
+	, XmlEnumAttribute_t1566_XmlEnumAttribute__ctor_m7600_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11010,14 +11010,14 @@ extern const MethodInfo XmlEnumAttribute__ctor_m7596_MethodInfo =
 };
 static const MethodInfo* XmlEnumAttribute_t1566_MethodInfos[] =
 {
-	&XmlEnumAttribute__ctor_m7596_MethodInfo,
+	&XmlEnumAttribute__ctor_m7600_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlEnumAttribute_t1566_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool XmlEnumAttribute_t1566_VTableIsGenericMethod[] =
@@ -11110,10 +11110,10 @@ extern TypeInfo XmlIgnoreAttribute_t1567_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Serialization_XmlIgnoreAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
-extern const MethodInfo XmlIgnoreAttribute__ctor_m7597_MethodInfo = 
+extern const MethodInfo XmlIgnoreAttribute__ctor_m7601_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlIgnoreAttribute__ctor_m7597/* method */
+	, (methodPointerType)&XmlIgnoreAttribute__ctor_m7601/* method */
 	, &XmlIgnoreAttribute_t1567_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11133,14 +11133,14 @@ extern const MethodInfo XmlIgnoreAttribute__ctor_m7597_MethodInfo =
 };
 static const MethodInfo* XmlIgnoreAttribute_t1567_MethodInfos[] =
 {
-	&XmlIgnoreAttribute__ctor_m7597_MethodInfo,
+	&XmlIgnoreAttribute__ctor_m7601_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlIgnoreAttribute_t1567_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool XmlIgnoreAttribute_t1567_VTableIsGenericMethod[] =
@@ -11233,10 +11233,10 @@ extern TypeInfo XmlSerializerNamespaces_t1555_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_Serialization_XmlSerializerNamespacesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlSerializerNamespaces::.ctor()
-extern const MethodInfo XmlSerializerNamespaces__ctor_m7598_MethodInfo = 
+extern const MethodInfo XmlSerializerNamespaces__ctor_m7602_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSerializerNamespaces__ctor_m7598/* method */
+	, (methodPointerType)&XmlSerializerNamespaces__ctor_m7602/* method */
 	, &XmlSerializerNamespaces_t1555_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11256,7 +11256,7 @@ extern const MethodInfo XmlSerializerNamespaces__ctor_m7598_MethodInfo =
 };
 static const MethodInfo* XmlSerializerNamespaces_t1555_MethodInfos[] =
 {
-	&XmlSerializerNamespaces__ctor_m7598_MethodInfo,
+	&XmlSerializerNamespaces__ctor_m7602_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference XmlSerializerNamespaces_t1555_VTable[] =
@@ -11567,20 +11567,20 @@ extern TypeInfo DTDAutomataFactory_t1572_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDAutomataFactoryMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDAutomataFactory_t1572_DTDAutomataFactory__ctor_m7599_ParameterInfos[] = 
+static const ParameterInfo DTDAutomataFactory_t1572_DTDAutomataFactory__ctor_m7603_ParameterInfos[] = 
 {
 	{"root", 0, 134217749, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAutomataFactory::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDAutomataFactory__ctor_m7599_MethodInfo = 
+extern const MethodInfo DTDAutomataFactory__ctor_m7603_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDAutomataFactory__ctor_m7599/* method */
+	, (methodPointerType)&DTDAutomataFactory__ctor_m7603/* method */
 	, &DTDAutomataFactory_t1572_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDAutomataFactory_t1572_DTDAutomataFactory__ctor_m7599_ParameterInfos/* parameters */
+	, DTDAutomataFactory_t1572_DTDAutomataFactory__ctor_m7603_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11596,7 +11596,7 @@ extern const MethodInfo DTDAutomataFactory__ctor_m7599_MethodInfo =
 };
 static const MethodInfo* DTDAutomataFactory_t1572_MethodInfos[] =
 {
-	&DTDAutomataFactory__ctor_m7599_MethodInfo,
+	&DTDAutomataFactory__ctor_m7603_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference DTDAutomataFactory_t1572_VTable[] =
@@ -11692,20 +11692,20 @@ extern TypeInfo DTDObjectModel_t1570_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDObjectModelMethodDeclarations.h"
 extern const Il2CppType XmlNameTable_t1579_0_0_0;
 extern const Il2CppType XmlNameTable_t1579_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel__ctor_m7600_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel__ctor_m7604_ParameterInfos[] = 
 {
 	{"nameTable", 0, 134217750, 0, &XmlNameTable_t1579_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::.ctor(System.Xml.XmlNameTable)
-extern const MethodInfo DTDObjectModel__ctor_m7600_MethodInfo = 
+extern const MethodInfo DTDObjectModel__ctor_m7604_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDObjectModel__ctor_m7600/* method */
+	, (methodPointerType)&DTDObjectModel__ctor_m7604/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel__ctor_m7600_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel__ctor_m7604_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11721,10 +11721,10 @@ extern const MethodInfo DTDObjectModel__ctor_m7600_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::get_BaseURI()
-extern const MethodInfo DTDObjectModel_get_BaseURI_m7601_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_BaseURI_m7605_MethodInfo = 
 {
 	"get_BaseURI"/* name */
-	, (methodPointerType)&DTDObjectModel_get_BaseURI_m7601/* method */
+	, (methodPointerType)&DTDObjectModel_get_BaseURI_m7605/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11743,20 +11743,20 @@ extern const MethodInfo DTDObjectModel_get_BaseURI_m7601_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_BaseURI_m7602_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_BaseURI_m7606_ParameterInfos[] = 
 {
 	{"value", 0, 134217751, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_BaseURI(System.String)
-extern const MethodInfo DTDObjectModel_set_BaseURI_m7602_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_BaseURI_m7606_MethodInfo = 
 {
 	"set_BaseURI"/* name */
-	, (methodPointerType)&DTDObjectModel_set_BaseURI_m7602/* method */
+	, (methodPointerType)&DTDObjectModel_set_BaseURI_m7606/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_BaseURI_m7602_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_BaseURI_m7606_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11772,10 +11772,10 @@ extern const MethodInfo DTDObjectModel_set_BaseURI_m7602_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDObjectModel::get_IsStandalone()
-extern const MethodInfo DTDObjectModel_get_IsStandalone_m7603_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_IsStandalone_m7607_MethodInfo = 
 {
 	"get_IsStandalone"/* name */
-	, (methodPointerType)&DTDObjectModel_get_IsStandalone_m7603/* method */
+	, (methodPointerType)&DTDObjectModel_get_IsStandalone_m7607/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -11794,20 +11794,20 @@ extern const MethodInfo DTDObjectModel_get_IsStandalone_m7603_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_IsStandalone_m7604_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_IsStandalone_m7608_ParameterInfos[] = 
 {
 	{"value", 0, 134217752, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_IsStandalone(System.Boolean)
-extern const MethodInfo DTDObjectModel_set_IsStandalone_m7604_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_IsStandalone_m7608_MethodInfo = 
 {
 	"set_IsStandalone"/* name */
-	, (methodPointerType)&DTDObjectModel_set_IsStandalone_m7604/* method */
+	, (methodPointerType)&DTDObjectModel_set_IsStandalone_m7608/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_IsStandalone_m7604_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_IsStandalone_m7608_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11823,10 +11823,10 @@ extern const MethodInfo DTDObjectModel_set_IsStandalone_m7604_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::get_Name()
-extern const MethodInfo DTDObjectModel_get_Name_m7605_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_Name_m7609_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDObjectModel_get_Name_m7605/* method */
+	, (methodPointerType)&DTDObjectModel_get_Name_m7609/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11845,20 +11845,20 @@ extern const MethodInfo DTDObjectModel_get_Name_m7605_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_Name_m7606_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_Name_m7610_ParameterInfos[] = 
 {
 	{"value", 0, 134217753, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_Name(System.String)
-extern const MethodInfo DTDObjectModel_set_Name_m7606_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_Name_m7610_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&DTDObjectModel_set_Name_m7606/* method */
+	, (methodPointerType)&DTDObjectModel_set_Name_m7610/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_Name_m7606_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_Name_m7610_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11874,10 +11874,10 @@ extern const MethodInfo DTDObjectModel_set_Name_m7606_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNameTable Mono.Xml.DTDObjectModel::get_NameTable()
-extern const MethodInfo DTDObjectModel_get_NameTable_m7607_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_NameTable_m7611_MethodInfo = 
 {
 	"get_NameTable"/* name */
-	, (methodPointerType)&DTDObjectModel_get_NameTable_m7607/* method */
+	, (methodPointerType)&DTDObjectModel_get_NameTable_m7611/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNameTable_t1579_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11897,10 +11897,10 @@ extern const MethodInfo DTDObjectModel_get_NameTable_m7607_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::get_PublicId()
-extern const MethodInfo DTDObjectModel_get_PublicId_m7608_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_PublicId_m7612_MethodInfo = 
 {
 	"get_PublicId"/* name */
-	, (methodPointerType)&DTDObjectModel_get_PublicId_m7608/* method */
+	, (methodPointerType)&DTDObjectModel_get_PublicId_m7612/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11919,20 +11919,20 @@ extern const MethodInfo DTDObjectModel_get_PublicId_m7608_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_PublicId_m7609_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_PublicId_m7613_ParameterInfos[] = 
 {
 	{"value", 0, 134217754, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_PublicId(System.String)
-extern const MethodInfo DTDObjectModel_set_PublicId_m7609_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_PublicId_m7613_MethodInfo = 
 {
 	"set_PublicId"/* name */
-	, (methodPointerType)&DTDObjectModel_set_PublicId_m7609/* method */
+	, (methodPointerType)&DTDObjectModel_set_PublicId_m7613/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_PublicId_m7609_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_PublicId_m7613_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11948,10 +11948,10 @@ extern const MethodInfo DTDObjectModel_set_PublicId_m7609_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::get_SystemId()
-extern const MethodInfo DTDObjectModel_get_SystemId_m7610_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_SystemId_m7614_MethodInfo = 
 {
 	"get_SystemId"/* name */
-	, (methodPointerType)&DTDObjectModel_get_SystemId_m7610/* method */
+	, (methodPointerType)&DTDObjectModel_get_SystemId_m7614/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11970,20 +11970,20 @@ extern const MethodInfo DTDObjectModel_get_SystemId_m7610_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_SystemId_m7611_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_SystemId_m7615_ParameterInfos[] = 
 {
 	{"value", 0, 134217755, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_SystemId(System.String)
-extern const MethodInfo DTDObjectModel_set_SystemId_m7611_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_SystemId_m7615_MethodInfo = 
 {
 	"set_SystemId"/* name */
-	, (methodPointerType)&DTDObjectModel_set_SystemId_m7611/* method */
+	, (methodPointerType)&DTDObjectModel_set_SystemId_m7615/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_SystemId_m7611_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_SystemId_m7615_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11999,10 +11999,10 @@ extern const MethodInfo DTDObjectModel_set_SystemId_m7611_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::get_InternalSubset()
-extern const MethodInfo DTDObjectModel_get_InternalSubset_m7612_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_InternalSubset_m7616_MethodInfo = 
 {
 	"get_InternalSubset"/* name */
-	, (methodPointerType)&DTDObjectModel_get_InternalSubset_m7612/* method */
+	, (methodPointerType)&DTDObjectModel_get_InternalSubset_m7616/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12021,20 +12021,20 @@ extern const MethodInfo DTDObjectModel_get_InternalSubset_m7612_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_InternalSubset_m7613_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_InternalSubset_m7617_ParameterInfos[] = 
 {
 	{"value", 0, 134217756, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_InternalSubset(System.String)
-extern const MethodInfo DTDObjectModel_set_InternalSubset_m7613_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_InternalSubset_m7617_MethodInfo = 
 {
 	"set_InternalSubset"/* name */
-	, (methodPointerType)&DTDObjectModel_set_InternalSubset_m7613/* method */
+	, (methodPointerType)&DTDObjectModel_set_InternalSubset_m7617/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_InternalSubset_m7613_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_InternalSubset_m7617_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12050,10 +12050,10 @@ extern const MethodInfo DTDObjectModel_set_InternalSubset_m7613_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDObjectModel::get_InternalSubsetHasPEReference()
-extern const MethodInfo DTDObjectModel_get_InternalSubsetHasPEReference_m7614_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_InternalSubsetHasPEReference_m7618_MethodInfo = 
 {
 	"get_InternalSubsetHasPEReference"/* name */
-	, (methodPointerType)&DTDObjectModel_get_InternalSubsetHasPEReference_m7614/* method */
+	, (methodPointerType)&DTDObjectModel_get_InternalSubsetHasPEReference_m7618/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -12072,20 +12072,20 @@ extern const MethodInfo DTDObjectModel_get_InternalSubsetHasPEReference_m7614_Me
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_InternalSubsetHasPEReference_m7615_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_InternalSubsetHasPEReference_m7619_ParameterInfos[] = 
 {
 	{"value", 0, 134217757, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_InternalSubsetHasPEReference(System.Boolean)
-extern const MethodInfo DTDObjectModel_set_InternalSubsetHasPEReference_m7615_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_InternalSubsetHasPEReference_m7619_MethodInfo = 
 {
 	"set_InternalSubsetHasPEReference"/* name */
-	, (methodPointerType)&DTDObjectModel_set_InternalSubsetHasPEReference_m7615/* method */
+	, (methodPointerType)&DTDObjectModel_set_InternalSubsetHasPEReference_m7619/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_InternalSubsetHasPEReference_m7615_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_InternalSubsetHasPEReference_m7619_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12102,10 +12102,10 @@ extern const MethodInfo DTDObjectModel_set_InternalSubsetHasPEReference_m7615_Me
 extern const Il2CppType Int32_t50_0_0_0;
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Xml.DTDObjectModel::get_LineNumber()
-extern const MethodInfo DTDObjectModel_get_LineNumber_m7616_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_LineNumber_m7620_MethodInfo = 
 {
 	"get_LineNumber"/* name */
-	, (methodPointerType)&DTDObjectModel_get_LineNumber_m7616/* method */
+	, (methodPointerType)&DTDObjectModel_get_LineNumber_m7620/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -12124,20 +12124,20 @@ extern const MethodInfo DTDObjectModel_get_LineNumber_m7616_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_LineNumber_m7617_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_LineNumber_m7621_ParameterInfos[] = 
 {
 	{"value", 0, 134217758, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_LineNumber(System.Int32)
-extern const MethodInfo DTDObjectModel_set_LineNumber_m7617_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_LineNumber_m7621_MethodInfo = 
 {
 	"set_LineNumber"/* name */
-	, (methodPointerType)&DTDObjectModel_set_LineNumber_m7617/* method */
+	, (methodPointerType)&DTDObjectModel_set_LineNumber_m7621/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_LineNumber_m7617_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_LineNumber_m7621_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12153,10 +12153,10 @@ extern const MethodInfo DTDObjectModel_set_LineNumber_m7617_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Xml.DTDObjectModel::get_LinePosition()
-extern const MethodInfo DTDObjectModel_get_LinePosition_m7618_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_LinePosition_m7622_MethodInfo = 
 {
 	"get_LinePosition"/* name */
-	, (methodPointerType)&DTDObjectModel_get_LinePosition_m7618/* method */
+	, (methodPointerType)&DTDObjectModel_get_LinePosition_m7622/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -12175,20 +12175,20 @@ extern const MethodInfo DTDObjectModel_get_LinePosition_m7618_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_LinePosition_m7619_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_LinePosition_m7623_ParameterInfos[] = 
 {
 	{"value", 0, 134217759, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_LinePosition(System.Int32)
-extern const MethodInfo DTDObjectModel_set_LinePosition_m7619_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_LinePosition_m7623_MethodInfo = 
 {
 	"set_LinePosition"/* name */
-	, (methodPointerType)&DTDObjectModel_set_LinePosition_m7619/* method */
+	, (methodPointerType)&DTDObjectModel_set_LinePosition_m7623/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_LinePosition_m7619_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_LinePosition_m7623_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12203,20 +12203,20 @@ extern const MethodInfo DTDObjectModel_set_LinePosition_m7619_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_ResolveEntity_m7620_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_ResolveEntity_m7624_ParameterInfos[] = 
 {
 	{"name", 0, 134217760, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::ResolveEntity(System.String)
-extern const MethodInfo DTDObjectModel_ResolveEntity_m7620_MethodInfo = 
+extern const MethodInfo DTDObjectModel_ResolveEntity_m7624_MethodInfo = 
 {
 	"ResolveEntity"/* name */
-	, (methodPointerType)&DTDObjectModel_ResolveEntity_m7620/* method */
+	, (methodPointerType)&DTDObjectModel_ResolveEntity_m7624/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_ResolveEntity_m7620_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_ResolveEntity_m7624_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12233,10 +12233,10 @@ extern const MethodInfo DTDObjectModel_ResolveEntity_m7620_MethodInfo =
 extern const Il2CppType XmlResolver_t1578_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlResolver Mono.Xml.DTDObjectModel::get_Resolver()
-extern const MethodInfo DTDObjectModel_get_Resolver_m7621_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_Resolver_m7625_MethodInfo = 
 {
 	"get_Resolver"/* name */
-	, (methodPointerType)&DTDObjectModel_get_Resolver_m7621/* method */
+	, (methodPointerType)&DTDObjectModel_get_Resolver_m7625/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &XmlResolver_t1578_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12255,20 +12255,20 @@ extern const MethodInfo DTDObjectModel_get_Resolver_m7621_MethodInfo =
 
 };
 extern const Il2CppType XmlResolver_t1578_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_XmlResolver_m7622_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_set_XmlResolver_m7626_ParameterInfos[] = 
 {
 	{"value", 0, 134217761, 0, &XmlResolver_t1578_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::set_XmlResolver(System.Xml.XmlResolver)
-extern const MethodInfo DTDObjectModel_set_XmlResolver_m7622_MethodInfo = 
+extern const MethodInfo DTDObjectModel_set_XmlResolver_m7626_MethodInfo = 
 {
 	"set_XmlResolver"/* name */
-	, (methodPointerType)&DTDObjectModel_set_XmlResolver_m7622/* method */
+	, (methodPointerType)&DTDObjectModel_set_XmlResolver_m7626/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_set_XmlResolver_m7622_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_set_XmlResolver_m7626_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12285,10 +12285,10 @@ extern const MethodInfo DTDObjectModel_set_XmlResolver_m7622_MethodInfo =
 extern const Il2CppType Hashtable_t1571_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Hashtable Mono.Xml.DTDObjectModel::get_ExternalResources()
-extern const MethodInfo DTDObjectModel_get_ExternalResources_m7623_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_ExternalResources_m7627_MethodInfo = 
 {
 	"get_ExternalResources"/* name */
-	, (methodPointerType)&DTDObjectModel_get_ExternalResources_m7623/* method */
+	, (methodPointerType)&DTDObjectModel_get_ExternalResources_m7627/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Hashtable_t1571_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12309,10 +12309,10 @@ extern const MethodInfo DTDObjectModel_get_ExternalResources_m7623_MethodInfo =
 extern const Il2CppType DTDElementDeclarationCollection_t1573_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDElementDeclarationCollection Mono.Xml.DTDObjectModel::get_ElementDecls()
-extern const MethodInfo DTDObjectModel_get_ElementDecls_m7624_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_ElementDecls_m7628_MethodInfo = 
 {
 	"get_ElementDecls"/* name */
-	, (methodPointerType)&DTDObjectModel_get_ElementDecls_m7624/* method */
+	, (methodPointerType)&DTDObjectModel_get_ElementDecls_m7628/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &DTDElementDeclarationCollection_t1573_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12333,10 +12333,10 @@ extern const MethodInfo DTDObjectModel_get_ElementDecls_m7624_MethodInfo =
 extern const Il2CppType DTDAttListDeclarationCollection_t1574_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttListDeclarationCollection Mono.Xml.DTDObjectModel::get_AttListDecls()
-extern const MethodInfo DTDObjectModel_get_AttListDecls_m7625_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_AttListDecls_m7629_MethodInfo = 
 {
 	"get_AttListDecls"/* name */
-	, (methodPointerType)&DTDObjectModel_get_AttListDecls_m7625/* method */
+	, (methodPointerType)&DTDObjectModel_get_AttListDecls_m7629/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttListDeclarationCollection_t1574_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12357,10 +12357,10 @@ extern const MethodInfo DTDObjectModel_get_AttListDecls_m7625_MethodInfo =
 extern const Il2CppType DTDEntityDeclarationCollection_t1576_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDEntityDeclarationCollection Mono.Xml.DTDObjectModel::get_EntityDecls()
-extern const MethodInfo DTDObjectModel_get_EntityDecls_m7626_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_EntityDecls_m7630_MethodInfo = 
 {
 	"get_EntityDecls"/* name */
-	, (methodPointerType)&DTDObjectModel_get_EntityDecls_m7626/* method */
+	, (methodPointerType)&DTDObjectModel_get_EntityDecls_m7630/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &DTDEntityDeclarationCollection_t1576_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12381,10 +12381,10 @@ extern const MethodInfo DTDObjectModel_get_EntityDecls_m7626_MethodInfo =
 extern const Il2CppType DTDParameterEntityDeclarationCollection_t1575_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDParameterEntityDeclarationCollection Mono.Xml.DTDObjectModel::get_PEDecls()
-extern const MethodInfo DTDObjectModel_get_PEDecls_m7627_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_PEDecls_m7631_MethodInfo = 
 {
 	"get_PEDecls"/* name */
-	, (methodPointerType)&DTDObjectModel_get_PEDecls_m7627/* method */
+	, (methodPointerType)&DTDObjectModel_get_PEDecls_m7631/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &DTDParameterEntityDeclarationCollection_t1575_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12405,10 +12405,10 @@ extern const MethodInfo DTDObjectModel_get_PEDecls_m7627_MethodInfo =
 extern const Il2CppType DTDNotationDeclarationCollection_t1577_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDNotationDeclarationCollection Mono.Xml.DTDObjectModel::get_NotationDecls()
-extern const MethodInfo DTDObjectModel_get_NotationDecls_m7628_MethodInfo = 
+extern const MethodInfo DTDObjectModel_get_NotationDecls_m7632_MethodInfo = 
 {
 	"get_NotationDecls"/* name */
-	, (methodPointerType)&DTDObjectModel_get_NotationDecls_m7628/* method */
+	, (methodPointerType)&DTDObjectModel_get_NotationDecls_m7632/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &DTDNotationDeclarationCollection_t1577_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12428,20 +12428,20 @@ extern const MethodInfo DTDObjectModel_get_NotationDecls_m7628_MethodInfo =
 };
 extern const Il2CppType XmlException_t1627_0_0_0;
 extern const Il2CppType XmlException_t1627_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_AddError_m7629_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_AddError_m7633_ParameterInfos[] = 
 {
 	{"ex", 0, 134217762, 0, &XmlException_t1627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDObjectModel::AddError(System.Xml.XmlException)
-extern const MethodInfo DTDObjectModel_AddError_m7629_MethodInfo = 
+extern const MethodInfo DTDObjectModel_AddError_m7633_MethodInfo = 
 {
 	"AddError"/* name */
-	, (methodPointerType)&DTDObjectModel_AddError_m7629/* method */
+	, (methodPointerType)&DTDObjectModel_AddError_m7633/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_AddError_m7629_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_AddError_m7633_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12456,20 +12456,20 @@ extern const MethodInfo DTDObjectModel_AddError_m7629_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_GenerateEntityAttributeText_m7630_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_GenerateEntityAttributeText_m7634_ParameterInfos[] = 
 {
 	{"entityName", 0, 134217763, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDObjectModel::GenerateEntityAttributeText(System.String)
-extern const MethodInfo DTDObjectModel_GenerateEntityAttributeText_m7630_MethodInfo = 
+extern const MethodInfo DTDObjectModel_GenerateEntityAttributeText_m7634_MethodInfo = 
 {
 	"GenerateEntityAttributeText"/* name */
-	, (methodPointerType)&DTDObjectModel_GenerateEntityAttributeText_m7630/* method */
+	, (methodPointerType)&DTDObjectModel_GenerateEntityAttributeText_m7634/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_GenerateEntityAttributeText_m7630_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_GenerateEntityAttributeText_m7634_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -12485,7 +12485,7 @@ extern const MethodInfo DTDObjectModel_GenerateEntityAttributeText_m7630_MethodI
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType XmlParserContext_t1650_0_0_0;
-static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_GenerateEntityContentReader_m7631_ParameterInfos[] = 
+static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_GenerateEntityContentReader_m7635_ParameterInfos[] = 
 {
 	{"entityName", 0, 134217764, 0, &String_t_0_0_0},
 	{"context", 1, 134217765, 0, &XmlParserContext_t1650_0_0_0},
@@ -12493,14 +12493,14 @@ static const ParameterInfo DTDObjectModel_t1570_DTDObjectModel_GenerateEntityCon
 extern const Il2CppType XmlTextReader_t1661_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml2.XmlTextReader Mono.Xml.DTDObjectModel::GenerateEntityContentReader(System.String,System.Xml.XmlParserContext)
-extern const MethodInfo DTDObjectModel_GenerateEntityContentReader_m7631_MethodInfo = 
+extern const MethodInfo DTDObjectModel_GenerateEntityContentReader_m7635_MethodInfo = 
 {
 	"GenerateEntityContentReader"/* name */
-	, (methodPointerType)&DTDObjectModel_GenerateEntityContentReader_m7631/* method */
+	, (methodPointerType)&DTDObjectModel_GenerateEntityContentReader_m7635/* method */
 	, &DTDObjectModel_t1570_il2cpp_TypeInfo/* declaring_type */
 	, &XmlTextReader_t1661_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, DTDObjectModel_t1570_DTDObjectModel_GenerateEntityContentReader_m7631_ParameterInfos/* parameters */
+	, DTDObjectModel_t1570_DTDObjectModel_GenerateEntityContentReader_m7635_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -12516,242 +12516,242 @@ extern const MethodInfo DTDObjectModel_GenerateEntityContentReader_m7631_MethodI
 };
 static const MethodInfo* DTDObjectModel_t1570_MethodInfos[] =
 {
-	&DTDObjectModel__ctor_m7600_MethodInfo,
-	&DTDObjectModel_get_BaseURI_m7601_MethodInfo,
-	&DTDObjectModel_set_BaseURI_m7602_MethodInfo,
-	&DTDObjectModel_get_IsStandalone_m7603_MethodInfo,
-	&DTDObjectModel_set_IsStandalone_m7604_MethodInfo,
-	&DTDObjectModel_get_Name_m7605_MethodInfo,
-	&DTDObjectModel_set_Name_m7606_MethodInfo,
-	&DTDObjectModel_get_NameTable_m7607_MethodInfo,
-	&DTDObjectModel_get_PublicId_m7608_MethodInfo,
-	&DTDObjectModel_set_PublicId_m7609_MethodInfo,
-	&DTDObjectModel_get_SystemId_m7610_MethodInfo,
-	&DTDObjectModel_set_SystemId_m7611_MethodInfo,
-	&DTDObjectModel_get_InternalSubset_m7612_MethodInfo,
-	&DTDObjectModel_set_InternalSubset_m7613_MethodInfo,
-	&DTDObjectModel_get_InternalSubsetHasPEReference_m7614_MethodInfo,
-	&DTDObjectModel_set_InternalSubsetHasPEReference_m7615_MethodInfo,
-	&DTDObjectModel_get_LineNumber_m7616_MethodInfo,
-	&DTDObjectModel_set_LineNumber_m7617_MethodInfo,
-	&DTDObjectModel_get_LinePosition_m7618_MethodInfo,
-	&DTDObjectModel_set_LinePosition_m7619_MethodInfo,
-	&DTDObjectModel_ResolveEntity_m7620_MethodInfo,
-	&DTDObjectModel_get_Resolver_m7621_MethodInfo,
-	&DTDObjectModel_set_XmlResolver_m7622_MethodInfo,
-	&DTDObjectModel_get_ExternalResources_m7623_MethodInfo,
-	&DTDObjectModel_get_ElementDecls_m7624_MethodInfo,
-	&DTDObjectModel_get_AttListDecls_m7625_MethodInfo,
-	&DTDObjectModel_get_EntityDecls_m7626_MethodInfo,
-	&DTDObjectModel_get_PEDecls_m7627_MethodInfo,
-	&DTDObjectModel_get_NotationDecls_m7628_MethodInfo,
-	&DTDObjectModel_AddError_m7629_MethodInfo,
-	&DTDObjectModel_GenerateEntityAttributeText_m7630_MethodInfo,
-	&DTDObjectModel_GenerateEntityContentReader_m7631_MethodInfo,
+	&DTDObjectModel__ctor_m7604_MethodInfo,
+	&DTDObjectModel_get_BaseURI_m7605_MethodInfo,
+	&DTDObjectModel_set_BaseURI_m7606_MethodInfo,
+	&DTDObjectModel_get_IsStandalone_m7607_MethodInfo,
+	&DTDObjectModel_set_IsStandalone_m7608_MethodInfo,
+	&DTDObjectModel_get_Name_m7609_MethodInfo,
+	&DTDObjectModel_set_Name_m7610_MethodInfo,
+	&DTDObjectModel_get_NameTable_m7611_MethodInfo,
+	&DTDObjectModel_get_PublicId_m7612_MethodInfo,
+	&DTDObjectModel_set_PublicId_m7613_MethodInfo,
+	&DTDObjectModel_get_SystemId_m7614_MethodInfo,
+	&DTDObjectModel_set_SystemId_m7615_MethodInfo,
+	&DTDObjectModel_get_InternalSubset_m7616_MethodInfo,
+	&DTDObjectModel_set_InternalSubset_m7617_MethodInfo,
+	&DTDObjectModel_get_InternalSubsetHasPEReference_m7618_MethodInfo,
+	&DTDObjectModel_set_InternalSubsetHasPEReference_m7619_MethodInfo,
+	&DTDObjectModel_get_LineNumber_m7620_MethodInfo,
+	&DTDObjectModel_set_LineNumber_m7621_MethodInfo,
+	&DTDObjectModel_get_LinePosition_m7622_MethodInfo,
+	&DTDObjectModel_set_LinePosition_m7623_MethodInfo,
+	&DTDObjectModel_ResolveEntity_m7624_MethodInfo,
+	&DTDObjectModel_get_Resolver_m7625_MethodInfo,
+	&DTDObjectModel_set_XmlResolver_m7626_MethodInfo,
+	&DTDObjectModel_get_ExternalResources_m7627_MethodInfo,
+	&DTDObjectModel_get_ElementDecls_m7628_MethodInfo,
+	&DTDObjectModel_get_AttListDecls_m7629_MethodInfo,
+	&DTDObjectModel_get_EntityDecls_m7630_MethodInfo,
+	&DTDObjectModel_get_PEDecls_m7631_MethodInfo,
+	&DTDObjectModel_get_NotationDecls_m7632_MethodInfo,
+	&DTDObjectModel_AddError_m7633_MethodInfo,
+	&DTDObjectModel_GenerateEntityAttributeText_m7634_MethodInfo,
+	&DTDObjectModel_GenerateEntityContentReader_m7635_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDObjectModel_get_BaseURI_m7601_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_BaseURI_m7602_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_BaseURI_m7605_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_BaseURI_m7606_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____BaseURI_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "BaseURI"/* name */
-	, &DTDObjectModel_get_BaseURI_m7601_MethodInfo/* get */
-	, &DTDObjectModel_set_BaseURI_m7602_MethodInfo/* set */
+	, &DTDObjectModel_get_BaseURI_m7605_MethodInfo/* get */
+	, &DTDObjectModel_set_BaseURI_m7606_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_IsStandalone_m7603_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_IsStandalone_m7604_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_IsStandalone_m7607_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_IsStandalone_m7608_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____IsStandalone_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "IsStandalone"/* name */
-	, &DTDObjectModel_get_IsStandalone_m7603_MethodInfo/* get */
-	, &DTDObjectModel_set_IsStandalone_m7604_MethodInfo/* set */
+	, &DTDObjectModel_get_IsStandalone_m7607_MethodInfo/* get */
+	, &DTDObjectModel_set_IsStandalone_m7608_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_Name_m7605_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_Name_m7606_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_Name_m7609_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_Name_m7610_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____Name_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDObjectModel_get_Name_m7605_MethodInfo/* get */
-	, &DTDObjectModel_set_Name_m7606_MethodInfo/* set */
+	, &DTDObjectModel_get_Name_m7609_MethodInfo/* get */
+	, &DTDObjectModel_set_Name_m7610_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_NameTable_m7607_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_NameTable_m7611_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____NameTable_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "NameTable"/* name */
-	, &DTDObjectModel_get_NameTable_m7607_MethodInfo/* get */
+	, &DTDObjectModel_get_NameTable_m7611_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_PublicId_m7608_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_PublicId_m7609_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_PublicId_m7612_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_PublicId_m7613_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____PublicId_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "PublicId"/* name */
-	, &DTDObjectModel_get_PublicId_m7608_MethodInfo/* get */
-	, &DTDObjectModel_set_PublicId_m7609_MethodInfo/* set */
+	, &DTDObjectModel_get_PublicId_m7612_MethodInfo/* get */
+	, &DTDObjectModel_set_PublicId_m7613_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_SystemId_m7610_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_SystemId_m7611_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_SystemId_m7614_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_SystemId_m7615_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____SystemId_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "SystemId"/* name */
-	, &DTDObjectModel_get_SystemId_m7610_MethodInfo/* get */
-	, &DTDObjectModel_set_SystemId_m7611_MethodInfo/* set */
+	, &DTDObjectModel_get_SystemId_m7614_MethodInfo/* get */
+	, &DTDObjectModel_set_SystemId_m7615_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_InternalSubset_m7612_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_InternalSubset_m7613_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_InternalSubset_m7616_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_InternalSubset_m7617_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____InternalSubset_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "InternalSubset"/* name */
-	, &DTDObjectModel_get_InternalSubset_m7612_MethodInfo/* get */
-	, &DTDObjectModel_set_InternalSubset_m7613_MethodInfo/* set */
+	, &DTDObjectModel_get_InternalSubset_m7616_MethodInfo/* get */
+	, &DTDObjectModel_set_InternalSubset_m7617_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_InternalSubsetHasPEReference_m7614_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_InternalSubsetHasPEReference_m7615_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_InternalSubsetHasPEReference_m7618_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_InternalSubsetHasPEReference_m7619_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____InternalSubsetHasPEReference_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "InternalSubsetHasPEReference"/* name */
-	, &DTDObjectModel_get_InternalSubsetHasPEReference_m7614_MethodInfo/* get */
-	, &DTDObjectModel_set_InternalSubsetHasPEReference_m7615_MethodInfo/* set */
+	, &DTDObjectModel_get_InternalSubsetHasPEReference_m7618_MethodInfo/* get */
+	, &DTDObjectModel_set_InternalSubsetHasPEReference_m7619_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_LineNumber_m7616_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_LineNumber_m7617_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_LineNumber_m7620_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_LineNumber_m7621_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____LineNumber_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "LineNumber"/* name */
-	, &DTDObjectModel_get_LineNumber_m7616_MethodInfo/* get */
-	, &DTDObjectModel_set_LineNumber_m7617_MethodInfo/* set */
+	, &DTDObjectModel_get_LineNumber_m7620_MethodInfo/* get */
+	, &DTDObjectModel_set_LineNumber_m7621_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_LinePosition_m7618_MethodInfo;
-extern const MethodInfo DTDObjectModel_set_LinePosition_m7619_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_LinePosition_m7622_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_LinePosition_m7623_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____LinePosition_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "LinePosition"/* name */
-	, &DTDObjectModel_get_LinePosition_m7618_MethodInfo/* get */
-	, &DTDObjectModel_set_LinePosition_m7619_MethodInfo/* set */
+	, &DTDObjectModel_get_LinePosition_m7622_MethodInfo/* get */
+	, &DTDObjectModel_set_LinePosition_m7623_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_Resolver_m7621_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_Resolver_m7625_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____Resolver_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "Resolver"/* name */
-	, &DTDObjectModel_get_Resolver_m7621_MethodInfo/* get */
+	, &DTDObjectModel_get_Resolver_m7625_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_set_XmlResolver_m7622_MethodInfo;
+extern const MethodInfo DTDObjectModel_set_XmlResolver_m7626_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____XmlResolver_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "XmlResolver"/* name */
 	, NULL/* get */
-	, &DTDObjectModel_set_XmlResolver_m7622_MethodInfo/* set */
+	, &DTDObjectModel_set_XmlResolver_m7626_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_ExternalResources_m7623_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_ExternalResources_m7627_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____ExternalResources_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "ExternalResources"/* name */
-	, &DTDObjectModel_get_ExternalResources_m7623_MethodInfo/* get */
+	, &DTDObjectModel_get_ExternalResources_m7627_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_ElementDecls_m7624_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_ElementDecls_m7628_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____ElementDecls_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "ElementDecls"/* name */
-	, &DTDObjectModel_get_ElementDecls_m7624_MethodInfo/* get */
+	, &DTDObjectModel_get_ElementDecls_m7628_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_AttListDecls_m7625_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_AttListDecls_m7629_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____AttListDecls_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "AttListDecls"/* name */
-	, &DTDObjectModel_get_AttListDecls_m7625_MethodInfo/* get */
+	, &DTDObjectModel_get_AttListDecls_m7629_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_EntityDecls_m7626_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_EntityDecls_m7630_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____EntityDecls_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "EntityDecls"/* name */
-	, &DTDObjectModel_get_EntityDecls_m7626_MethodInfo/* get */
+	, &DTDObjectModel_get_EntityDecls_m7630_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_PEDecls_m7627_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_PEDecls_m7631_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____PEDecls_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "PEDecls"/* name */
-	, &DTDObjectModel_get_PEDecls_m7627_MethodInfo/* get */
+	, &DTDObjectModel_get_PEDecls_m7631_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDObjectModel_get_NotationDecls_m7628_MethodInfo;
+extern const MethodInfo DTDObjectModel_get_NotationDecls_m7632_MethodInfo;
 static const PropertyInfo DTDObjectModel_t1570____NotationDecls_PropertyInfo = 
 {
 	&DTDObjectModel_t1570_il2cpp_TypeInfo/* parent */
 	, "NotationDecls"/* name */
-	, &DTDObjectModel_get_NotationDecls_m7628_MethodInfo/* get */
+	, &DTDObjectModel_get_NotationDecls_m7632_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -12871,10 +12871,10 @@ extern TypeInfo U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DictionaryBase_U3CU3Ec__Iterator3MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DictionaryBase/<>c__Iterator3::.ctor()
-extern const MethodInfo U3CU3Ec__Iterator3__ctor_m7632_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3__ctor_m7636_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3__ctor_m7632/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3__ctor_m7636/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -12895,10 +12895,10 @@ extern const MethodInfo U3CU3Ec__Iterator3__ctor_m7632_MethodInfo =
 extern const Il2CppType DTDNode_t1580_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDNode Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.Generic.IEnumerator<Mono.Xml.DTDNode>.get_Current()
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637_MethodInfo = 
 {
 	"System.Collections.Generic.IEnumerator<Mono.Xml.DTDNode>.get_Current"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &DTDNode_t1580_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12918,10 +12918,10 @@ extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerato
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.IEnumerator.get_Current()
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638_MethodInfo = 
 {
 	"System.Collections.IEnumerator.get_Current"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12942,10 +12942,10 @@ extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Cu
 extern const Il2CppType IEnumerator_t21_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7635_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7639_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7635/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7639/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t21_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12966,10 +12966,10 @@ extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnu
 extern const Il2CppType IEnumerator_1_t1690_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerator`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.Generic.IEnumerable<Mono.Xml.DTDNode>.GetEnumerator()
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7636_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7640_MethodInfo = 
 {
 	"System.Collections.Generic.IEnumerable<Mono.Xml.DTDNode>.GetEnumerator"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7636/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7640/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_1_t1690_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12989,10 +12989,10 @@ extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerabl
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DictionaryBase/<>c__Iterator3::MoveNext()
-extern const MethodInfo U3CU3Ec__Iterator3_MoveNext_m7637_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_MoveNext_m7641_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_MoveNext_m7637/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_MoveNext_m7641/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -13012,10 +13012,10 @@ extern const MethodInfo U3CU3Ec__Iterator3_MoveNext_m7637_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DictionaryBase/<>c__Iterator3::Dispose()
-extern const MethodInfo U3CU3Ec__Iterator3_Dispose_m7638_MethodInfo = 
+extern const MethodInfo U3CU3Ec__Iterator3_Dispose_m7642_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&U3CU3Ec__Iterator3_Dispose_m7638/* method */
+	, (methodPointerType)&U3CU3Ec__Iterator3_Dispose_m7642/* method */
 	, &U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -13035,32 +13035,32 @@ extern const MethodInfo U3CU3Ec__Iterator3_Dispose_m7638_MethodInfo =
 };
 static const MethodInfo* U3CU3Ec__Iterator3_t1582_MethodInfos[] =
 {
-	&U3CU3Ec__Iterator3__ctor_m7632_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7635_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7636_MethodInfo,
-	&U3CU3Ec__Iterator3_MoveNext_m7637_MethodInfo,
-	&U3CU3Ec__Iterator3_Dispose_m7638_MethodInfo,
+	&U3CU3Ec__Iterator3__ctor_m7636_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7639_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7640_MethodInfo,
+	&U3CU3Ec__Iterator3_MoveNext_m7641_MethodInfo,
+	&U3CU3Ec__Iterator3_Dispose_m7642_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637_MethodInfo;
 static const PropertyInfo U3CU3Ec__Iterator3_t1582____System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_Current_PropertyInfo = 
 {
 	&U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* parent */
 	, "System.Collections.Generic.IEnumerator<Mono.Xml.DTDNode>.Current"/* name */
-	, &U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633_MethodInfo/* get */
+	, &U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638_MethodInfo;
 static const PropertyInfo U3CU3Ec__Iterator3_t1582____System_Collections_IEnumerator_Current_PropertyInfo = 
 {
 	&U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo/* parent */
 	, "System.Collections.IEnumerator.Current"/* name */
-	, &U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634_MethodInfo/* get */
+	, &U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13072,22 +13072,22 @@ static const PropertyInfo* U3CU3Ec__Iterator3_t1582_PropertyInfos[] =
 	&U3CU3Ec__Iterator3_t1582____System_Collections_IEnumerator_Current_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7636_MethodInfo;
-extern const MethodInfo U3CU3Ec__Iterator3_Dispose_m7638_MethodInfo;
-extern const MethodInfo U3CU3Ec__Iterator3_MoveNext_m7637_MethodInfo;
-extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7635_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7640_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_Dispose_m7642_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_MoveNext_m7641_MethodInfo;
+extern const MethodInfo U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7639_MethodInfo;
 static const Il2CppMethodReference U3CU3Ec__Iterator3_t1582_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7636_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7633_MethodInfo,
-	&U3CU3Ec__Iterator3_Dispose_m7638_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7634_MethodInfo,
-	&U3CU3Ec__Iterator3_MoveNext_m7637_MethodInfo,
-	&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7635_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m7640_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m7637_MethodInfo,
+	&U3CU3Ec__Iterator3_Dispose_m7642_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7638_MethodInfo,
+	&U3CU3Ec__Iterator3_MoveNext_m7641_MethodInfo,
+	&U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m7639_MethodInfo,
 };
 static bool U3CU3Ec__Iterator3_t1582_VTableIsGenericMethod[] =
 {
@@ -13201,10 +13201,10 @@ TypeInfo U3CU3Ec__Iterator3_t1582_il2cpp_TypeInfo =
 #include "System_Xml_Mono_Xml_DictionaryBaseMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DictionaryBase::.ctor()
-extern const MethodInfo DictionaryBase__ctor_m7639_MethodInfo = 
+extern const MethodInfo DictionaryBase__ctor_m7643_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DictionaryBase__ctor_m7639/* method */
+	, (methodPointerType)&DictionaryBase__ctor_m7643/* method */
 	, &DictionaryBase_t1581_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -13224,10 +13224,10 @@ extern const MethodInfo DictionaryBase__ctor_m7639_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase::get_Values()
-extern const MethodInfo DictionaryBase_get_Values_m7640_MethodInfo = 
+extern const MethodInfo DictionaryBase_get_Values_m7644_MethodInfo = 
 {
 	"get_Values"/* name */
-	, (methodPointerType)&DictionaryBase_get_Values_m7640/* method */
+	, (methodPointerType)&DictionaryBase_get_Values_m7644/* method */
 	, &DictionaryBase_t1581_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerable_1_t1691_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13247,16 +13247,16 @@ extern const MethodInfo DictionaryBase_get_Values_m7640_MethodInfo =
 };
 static const MethodInfo* DictionaryBase_t1581_MethodInfos[] =
 {
-	&DictionaryBase__ctor_m7639_MethodInfo,
-	&DictionaryBase_get_Values_m7640_MethodInfo,
+	&DictionaryBase__ctor_m7643_MethodInfo,
+	&DictionaryBase_get_Values_m7644_MethodInfo,
 	NULL
 };
-extern const MethodInfo DictionaryBase_get_Values_m7640_MethodInfo;
+extern const MethodInfo DictionaryBase_get_Values_m7644_MethodInfo;
 static const PropertyInfo DictionaryBase_t1581____Values_PropertyInfo = 
 {
 	&DictionaryBase_t1581_il2cpp_TypeInfo/* parent */
 	, "Values"/* name */
-	, &DictionaryBase_get_Values_m7640_MethodInfo/* get */
+	, &DictionaryBase_get_Values_m7644_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13271,67 +13271,67 @@ static const Il2CppType* DictionaryBase_t1581_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&U3CU3Ec__Iterator3_t1582_0_0_0,
 };
-extern const Il2CppGenericMethod List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Count_m8641_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_Item_m8647_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_set_Item_m8648_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Add_m8649_GenericMethod;
-extern const Il2CppGenericMethod List_1_Clear_m8650_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Contains_m8651_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_IndexOf_m8652_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Insert_m8653_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Remove_m8654_GenericMethod;
-extern const Il2CppGenericMethod List_1_RemoveAt_m8655_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod;
-extern const Il2CppGenericMethod List_1_Add_m8510_GenericMethod;
-extern const Il2CppGenericMethod List_1_Contains_m8657_GenericMethod;
-extern const Il2CppGenericMethod List_1_CopyTo_m8658_GenericMethod;
-extern const Il2CppGenericMethod List_1_Remove_m8659_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod;
-extern const Il2CppGenericMethod List_1_IndexOf_m8661_GenericMethod;
-extern const Il2CppGenericMethod List_1_Insert_m8662_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Item_m8663_GenericMethod;
-extern const Il2CppGenericMethod List_1_set_Item_m8664_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Count_m8645_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_Item_m8651_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_set_Item_m8652_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Add_m8653_GenericMethod;
+extern const Il2CppGenericMethod List_1_Clear_m8654_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Contains_m8655_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_IndexOf_m8656_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Insert_m8657_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Remove_m8658_GenericMethod;
+extern const Il2CppGenericMethod List_1_RemoveAt_m8659_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod;
+extern const Il2CppGenericMethod List_1_Add_m8514_GenericMethod;
+extern const Il2CppGenericMethod List_1_Contains_m8661_GenericMethod;
+extern const Il2CppGenericMethod List_1_CopyTo_m8662_GenericMethod;
+extern const Il2CppGenericMethod List_1_Remove_m8663_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod;
+extern const Il2CppGenericMethod List_1_IndexOf_m8665_GenericMethod;
+extern const Il2CppGenericMethod List_1_Insert_m8666_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Item_m8667_GenericMethod;
+extern const Il2CppGenericMethod List_1_set_Item_m8668_GenericMethod;
 static const Il2CppMethodReference DictionaryBase_t1581_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DictionaryBase_t1581_VTableIsGenericMethod[] =
 {
@@ -13461,20 +13461,20 @@ extern TypeInfo DTDCollectionBase_t1586_il2cpp_TypeInfo;
 // Mono.Xml.DTDCollectionBase
 #include "System_Xml_Mono_Xml_DTDCollectionBaseMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase__ctor_m7641_ParameterInfos[] = 
+static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase__ctor_m7645_ParameterInfos[] = 
 {
 	{"root", 0, 134217766, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDCollectionBase::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDCollectionBase__ctor_m7641_MethodInfo = 
+extern const MethodInfo DTDCollectionBase__ctor_m7645_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDCollectionBase__ctor_m7641/* method */
+	, (methodPointerType)&DTDCollectionBase__ctor_m7645/* method */
 	, &DTDCollectionBase_t1586_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDCollectionBase_t1586_DTDCollectionBase__ctor_m7641_ParameterInfos/* parameters */
+	, DTDCollectionBase_t1586_DTDCollectionBase__ctor_m7645_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -13490,10 +13490,10 @@ extern const MethodInfo DTDCollectionBase__ctor_m7641_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDObjectModel Mono.Xml.DTDCollectionBase::get_Root()
-extern const MethodInfo DTDCollectionBase_get_Root_m7642_MethodInfo = 
+extern const MethodInfo DTDCollectionBase_get_Root_m7646_MethodInfo = 
 {
 	"get_Root"/* name */
-	, (methodPointerType)&DTDCollectionBase_get_Root_m7642/* method */
+	, (methodPointerType)&DTDCollectionBase_get_Root_m7646/* method */
 	, &DTDCollectionBase_t1586_il2cpp_TypeInfo/* declaring_type */
 	, &DTDObjectModel_t1570_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13513,21 +13513,21 @@ extern const MethodInfo DTDCollectionBase_get_Root_m7642_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDNode_t1580_0_0_0;
-static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_BaseAdd_m7643_ParameterInfos[] = 
+static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_BaseAdd_m7647_ParameterInfos[] = 
 {
 	{"name", 0, 134217767, 0, &String_t_0_0_0},
 	{"value", 1, 134217768, 0, &DTDNode_t1580_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDCollectionBase::BaseAdd(System.String,Mono.Xml.DTDNode)
-extern const MethodInfo DTDCollectionBase_BaseAdd_m7643_MethodInfo = 
+extern const MethodInfo DTDCollectionBase_BaseAdd_m7647_MethodInfo = 
 {
 	"BaseAdd"/* name */
-	, (methodPointerType)&DTDCollectionBase_BaseAdd_m7643/* method */
+	, (methodPointerType)&DTDCollectionBase_BaseAdd_m7647/* method */
 	, &DTDCollectionBase_t1586_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDCollectionBase_t1586_DTDCollectionBase_BaseAdd_m7643_ParameterInfos/* parameters */
+	, DTDCollectionBase_t1586_DTDCollectionBase_BaseAdd_m7647_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -13542,20 +13542,20 @@ extern const MethodInfo DTDCollectionBase_BaseAdd_m7643_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_Contains_m7644_ParameterInfos[] = 
+static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_Contains_m7648_ParameterInfos[] = 
 {
 	{"key", 0, 134217769, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDCollectionBase::Contains(System.String)
-extern const MethodInfo DTDCollectionBase_Contains_m7644_MethodInfo = 
+extern const MethodInfo DTDCollectionBase_Contains_m7648_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&DTDCollectionBase_Contains_m7644/* method */
+	, (methodPointerType)&DTDCollectionBase_Contains_m7648/* method */
 	, &DTDCollectionBase_t1586_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, DTDCollectionBase_t1586_DTDCollectionBase_Contains_m7644_ParameterInfos/* parameters */
+	, DTDCollectionBase_t1586_DTDCollectionBase_Contains_m7648_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -13570,20 +13570,20 @@ extern const MethodInfo DTDCollectionBase_Contains_m7644_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_BaseGet_m7645_ParameterInfos[] = 
+static const ParameterInfo DTDCollectionBase_t1586_DTDCollectionBase_BaseGet_m7649_ParameterInfos[] = 
 {
 	{"name", 0, 134217770, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Mono.Xml.DTDCollectionBase::BaseGet(System.String)
-extern const MethodInfo DTDCollectionBase_BaseGet_m7645_MethodInfo = 
+extern const MethodInfo DTDCollectionBase_BaseGet_m7649_MethodInfo = 
 {
 	"BaseGet"/* name */
-	, (methodPointerType)&DTDCollectionBase_BaseGet_m7645/* method */
+	, (methodPointerType)&DTDCollectionBase_BaseGet_m7649/* method */
 	, &DTDCollectionBase_t1586_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDCollectionBase_t1586_DTDCollectionBase_BaseGet_m7645_ParameterInfos/* parameters */
+	, DTDCollectionBase_t1586_DTDCollectionBase_BaseGet_m7649_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -13599,19 +13599,19 @@ extern const MethodInfo DTDCollectionBase_BaseGet_m7645_MethodInfo =
 };
 static const MethodInfo* DTDCollectionBase_t1586_MethodInfos[] =
 {
-	&DTDCollectionBase__ctor_m7641_MethodInfo,
-	&DTDCollectionBase_get_Root_m7642_MethodInfo,
-	&DTDCollectionBase_BaseAdd_m7643_MethodInfo,
-	&DTDCollectionBase_Contains_m7644_MethodInfo,
-	&DTDCollectionBase_BaseGet_m7645_MethodInfo,
+	&DTDCollectionBase__ctor_m7645_MethodInfo,
+	&DTDCollectionBase_get_Root_m7646_MethodInfo,
+	&DTDCollectionBase_BaseAdd_m7647_MethodInfo,
+	&DTDCollectionBase_Contains_m7648_MethodInfo,
+	&DTDCollectionBase_BaseGet_m7649_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDCollectionBase_get_Root_m7642_MethodInfo;
+extern const MethodInfo DTDCollectionBase_get_Root_m7646_MethodInfo;
 static const PropertyInfo DTDCollectionBase_t1586____Root_PropertyInfo = 
 {
 	&DTDCollectionBase_t1586_il2cpp_TypeInfo/* parent */
 	, "Root"/* name */
-	, &DTDCollectionBase_get_Root_m7642_MethodInfo/* get */
+	, &DTDCollectionBase_get_Root_m7646_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13628,35 +13628,35 @@ static const Il2CppMethodReference DTDCollectionBase_t1586_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DTDCollectionBase_t1586_VTableIsGenericMethod[] =
 {
@@ -13781,20 +13781,20 @@ extern TypeInfo DTDElementDeclarationCollection_t1573_il2cpp_TypeInfo;
 // Mono.Xml.DTDElementDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDElementDeclarationCollectionMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection__ctor_m7646_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection__ctor_m7650_ParameterInfos[] = 
 {
 	{"root", 0, 134217771, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDElementDeclarationCollection__ctor_m7646_MethodInfo = 
+extern const MethodInfo DTDElementDeclarationCollection__ctor_m7650_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDElementDeclarationCollection__ctor_m7646/* method */
+	, (methodPointerType)&DTDElementDeclarationCollection__ctor_m7650/* method */
 	, &DTDElementDeclarationCollection_t1573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection__ctor_m7646_ParameterInfos/* parameters */
+	, DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection__ctor_m7650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13811,21 +13811,21 @@ extern const MethodInfo DTDElementDeclarationCollection__ctor_m7646_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDElementDeclaration_t1589_0_0_0;
 extern const Il2CppType DTDElementDeclaration_t1589_0_0_0;
-static const ParameterInfo DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection_Add_m7647_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection_Add_m7651_ParameterInfos[] = 
 {
 	{"name", 0, 134217772, 0, &String_t_0_0_0},
 	{"decl", 1, 134217773, 0, &DTDElementDeclaration_t1589_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclarationCollection::Add(System.String,Mono.Xml.DTDElementDeclaration)
-extern const MethodInfo DTDElementDeclarationCollection_Add_m7647_MethodInfo = 
+extern const MethodInfo DTDElementDeclarationCollection_Add_m7651_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDElementDeclarationCollection_Add_m7647/* method */
+	, (methodPointerType)&DTDElementDeclarationCollection_Add_m7651/* method */
 	, &DTDElementDeclarationCollection_t1573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection_Add_m7647_ParameterInfos/* parameters */
+	, DTDElementDeclarationCollection_t1573_DTDElementDeclarationCollection_Add_m7651_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -13841,8 +13841,8 @@ extern const MethodInfo DTDElementDeclarationCollection_Add_m7647_MethodInfo =
 };
 static const MethodInfo* DTDElementDeclarationCollection_t1573_MethodInfos[] =
 {
-	&DTDElementDeclarationCollection__ctor_m7646_MethodInfo,
-	&DTDElementDeclarationCollection_Add_m7647_MethodInfo,
+	&DTDElementDeclarationCollection__ctor_m7650_MethodInfo,
+	&DTDElementDeclarationCollection_Add_m7651_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference DTDElementDeclarationCollection_t1573_VTable[] =
@@ -13851,35 +13851,35 @@ static const Il2CppMethodReference DTDElementDeclarationCollection_t1573_VTable[
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DTDElementDeclarationCollection_t1573_VTableIsGenericMethod[] =
 {
@@ -14003,20 +14003,20 @@ extern TypeInfo DTDAttListDeclarationCollection_t1574_il2cpp_TypeInfo;
 // Mono.Xml.DTDAttListDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDAttListDeclarationCollectionMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection__ctor_m7648_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection__ctor_m7652_ParameterInfos[] = 
 {
 	{"root", 0, 134217774, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAttListDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDAttListDeclarationCollection__ctor_m7648_MethodInfo = 
+extern const MethodInfo DTDAttListDeclarationCollection__ctor_m7652_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDAttListDeclarationCollection__ctor_m7648/* method */
+	, (methodPointerType)&DTDAttListDeclarationCollection__ctor_m7652/* method */
 	, &DTDAttListDeclarationCollection_t1574_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection__ctor_m7648_ParameterInfos/* parameters */
+	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection__ctor_m7652_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14031,21 +14031,21 @@ extern const MethodInfo DTDAttListDeclarationCollection__ctor_m7648_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_get_Item_m7649_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_get_Item_m7653_ParameterInfos[] = 
 {
 	{"name", 0, 134217775, 0, &String_t_0_0_0},
 };
 extern const Il2CppType DTDAttListDeclaration_t1591_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttListDeclaration Mono.Xml.DTDAttListDeclarationCollection::get_Item(System.String)
-extern const MethodInfo DTDAttListDeclarationCollection_get_Item_m7649_MethodInfo = 
+extern const MethodInfo DTDAttListDeclarationCollection_get_Item_m7653_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDAttListDeclarationCollection_get_Item_m7649/* method */
+	, (methodPointerType)&DTDAttListDeclarationCollection_get_Item_m7653/* method */
 	, &DTDAttListDeclarationCollection_t1574_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttListDeclaration_t1591_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_get_Item_m7649_ParameterInfos/* parameters */
+	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_get_Item_m7653_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14061,21 +14061,21 @@ extern const MethodInfo DTDAttListDeclarationCollection_get_Item_m7649_MethodInf
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDAttListDeclaration_t1591_0_0_0;
-static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_Add_m7650_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_Add_m7654_ParameterInfos[] = 
 {
 	{"name", 0, 134217776, 0, &String_t_0_0_0},
 	{"decl", 1, 134217777, 0, &DTDAttListDeclaration_t1591_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAttListDeclarationCollection::Add(System.String,Mono.Xml.DTDAttListDeclaration)
-extern const MethodInfo DTDAttListDeclarationCollection_Add_m7650_MethodInfo = 
+extern const MethodInfo DTDAttListDeclarationCollection_Add_m7654_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDAttListDeclarationCollection_Add_m7650/* method */
+	, (methodPointerType)&DTDAttListDeclarationCollection_Add_m7654/* method */
 	, &DTDAttListDeclarationCollection_t1574_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_Add_m7650_ParameterInfos/* parameters */
+	, DTDAttListDeclarationCollection_t1574_DTDAttListDeclarationCollection_Add_m7654_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14091,17 +14091,17 @@ extern const MethodInfo DTDAttListDeclarationCollection_Add_m7650_MethodInfo =
 };
 static const MethodInfo* DTDAttListDeclarationCollection_t1574_MethodInfos[] =
 {
-	&DTDAttListDeclarationCollection__ctor_m7648_MethodInfo,
-	&DTDAttListDeclarationCollection_get_Item_m7649_MethodInfo,
-	&DTDAttListDeclarationCollection_Add_m7650_MethodInfo,
+	&DTDAttListDeclarationCollection__ctor_m7652_MethodInfo,
+	&DTDAttListDeclarationCollection_get_Item_m7653_MethodInfo,
+	&DTDAttListDeclarationCollection_Add_m7654_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDAttListDeclarationCollection_get_Item_m7649_MethodInfo;
+extern const MethodInfo DTDAttListDeclarationCollection_get_Item_m7653_MethodInfo;
 static const PropertyInfo DTDAttListDeclarationCollection_t1574____Item_PropertyInfo = 
 {
 	&DTDAttListDeclarationCollection_t1574_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDAttListDeclarationCollection_get_Item_m7649_MethodInfo/* get */
+	, &DTDAttListDeclarationCollection_get_Item_m7653_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14118,35 +14118,35 @@ static const Il2CppMethodReference DTDAttListDeclarationCollection_t1574_VTable[
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DTDAttListDeclarationCollection_t1574_VTableIsGenericMethod[] =
 {
@@ -14270,20 +14270,20 @@ extern TypeInfo DTDEntityDeclarationCollection_t1576_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDEntityDeclarationCollectionMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection__ctor_m7651_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection__ctor_m7655_ParameterInfos[] = 
 {
 	{"root", 0, 134217778, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDEntityDeclarationCollection__ctor_m7651_MethodInfo = 
+extern const MethodInfo DTDEntityDeclarationCollection__ctor_m7655_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDEntityDeclarationCollection__ctor_m7651/* method */
+	, (methodPointerType)&DTDEntityDeclarationCollection__ctor_m7655/* method */
 	, &DTDEntityDeclarationCollection_t1576_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection__ctor_m7651_ParameterInfos/* parameters */
+	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection__ctor_m7655_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14298,21 +14298,21 @@ extern const MethodInfo DTDEntityDeclarationCollection__ctor_m7651_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_get_Item_m7652_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_get_Item_m7656_ParameterInfos[] = 
 {
 	{"name", 0, 134217779, 0, &String_t_0_0_0},
 };
 extern const Il2CppType DTDEntityDeclaration_t1593_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDEntityDeclaration Mono.Xml.DTDEntityDeclarationCollection::get_Item(System.String)
-extern const MethodInfo DTDEntityDeclarationCollection_get_Item_m7652_MethodInfo = 
+extern const MethodInfo DTDEntityDeclarationCollection_get_Item_m7656_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDEntityDeclarationCollection_get_Item_m7652/* method */
+	, (methodPointerType)&DTDEntityDeclarationCollection_get_Item_m7656/* method */
 	, &DTDEntityDeclarationCollection_t1576_il2cpp_TypeInfo/* declaring_type */
 	, &DTDEntityDeclaration_t1593_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_get_Item_m7652_ParameterInfos/* parameters */
+	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_get_Item_m7656_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14328,21 +14328,21 @@ extern const MethodInfo DTDEntityDeclarationCollection_get_Item_m7652_MethodInfo
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDEntityDeclaration_t1593_0_0_0;
-static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_Add_m7653_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_Add_m7657_ParameterInfos[] = 
 {
 	{"name", 0, 134217780, 0, &String_t_0_0_0},
 	{"decl", 1, 134217781, 0, &DTDEntityDeclaration_t1593_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDEntityDeclaration)
-extern const MethodInfo DTDEntityDeclarationCollection_Add_m7653_MethodInfo = 
+extern const MethodInfo DTDEntityDeclarationCollection_Add_m7657_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDEntityDeclarationCollection_Add_m7653/* method */
+	, (methodPointerType)&DTDEntityDeclarationCollection_Add_m7657/* method */
 	, &DTDEntityDeclarationCollection_t1576_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_Add_m7653_ParameterInfos/* parameters */
+	, DTDEntityDeclarationCollection_t1576_DTDEntityDeclarationCollection_Add_m7657_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14358,17 +14358,17 @@ extern const MethodInfo DTDEntityDeclarationCollection_Add_m7653_MethodInfo =
 };
 static const MethodInfo* DTDEntityDeclarationCollection_t1576_MethodInfos[] =
 {
-	&DTDEntityDeclarationCollection__ctor_m7651_MethodInfo,
-	&DTDEntityDeclarationCollection_get_Item_m7652_MethodInfo,
-	&DTDEntityDeclarationCollection_Add_m7653_MethodInfo,
+	&DTDEntityDeclarationCollection__ctor_m7655_MethodInfo,
+	&DTDEntityDeclarationCollection_get_Item_m7656_MethodInfo,
+	&DTDEntityDeclarationCollection_Add_m7657_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDEntityDeclarationCollection_get_Item_m7652_MethodInfo;
+extern const MethodInfo DTDEntityDeclarationCollection_get_Item_m7656_MethodInfo;
 static const PropertyInfo DTDEntityDeclarationCollection_t1576____Item_PropertyInfo = 
 {
 	&DTDEntityDeclarationCollection_t1576_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDEntityDeclarationCollection_get_Item_m7652_MethodInfo/* get */
+	, &DTDEntityDeclarationCollection_get_Item_m7656_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14385,35 +14385,35 @@ static const Il2CppMethodReference DTDEntityDeclarationCollection_t1576_VTable[]
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DTDEntityDeclarationCollection_t1576_VTableIsGenericMethod[] =
 {
@@ -14537,20 +14537,20 @@ extern TypeInfo DTDNotationDeclarationCollection_t1577_il2cpp_TypeInfo;
 // Mono.Xml.DTDNotationDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDNotationDeclarationCollectionMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection__ctor_m7654_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection__ctor_m7658_ParameterInfos[] = 
 {
 	{"root", 0, 134217782, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDNotationDeclarationCollection__ctor_m7654_MethodInfo = 
+extern const MethodInfo DTDNotationDeclarationCollection__ctor_m7658_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDNotationDeclarationCollection__ctor_m7654/* method */
+	, (methodPointerType)&DTDNotationDeclarationCollection__ctor_m7658/* method */
 	, &DTDNotationDeclarationCollection_t1577_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection__ctor_m7654_ParameterInfos/* parameters */
+	, DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection__ctor_m7658_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14567,21 +14567,21 @@ extern const MethodInfo DTDNotationDeclarationCollection__ctor_m7654_MethodInfo 
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDNotationDeclaration_t1594_0_0_0;
 extern const Il2CppType DTDNotationDeclaration_t1594_0_0_0;
-static const ParameterInfo DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection_Add_m7655_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection_Add_m7659_ParameterInfos[] = 
 {
 	{"name", 0, 134217783, 0, &String_t_0_0_0},
 	{"decl", 1, 134217784, 0, &DTDNotationDeclaration_t1594_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::Add(System.String,Mono.Xml.DTDNotationDeclaration)
-extern const MethodInfo DTDNotationDeclarationCollection_Add_m7655_MethodInfo = 
+extern const MethodInfo DTDNotationDeclarationCollection_Add_m7659_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDNotationDeclarationCollection_Add_m7655/* method */
+	, (methodPointerType)&DTDNotationDeclarationCollection_Add_m7659/* method */
 	, &DTDNotationDeclarationCollection_t1577_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection_Add_m7655_ParameterInfos/* parameters */
+	, DTDNotationDeclarationCollection_t1577_DTDNotationDeclarationCollection_Add_m7659_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14597,8 +14597,8 @@ extern const MethodInfo DTDNotationDeclarationCollection_Add_m7655_MethodInfo =
 };
 static const MethodInfo* DTDNotationDeclarationCollection_t1577_MethodInfos[] =
 {
-	&DTDNotationDeclarationCollection__ctor_m7654_MethodInfo,
-	&DTDNotationDeclarationCollection_Add_m7655_MethodInfo,
+	&DTDNotationDeclarationCollection__ctor_m7658_MethodInfo,
+	&DTDNotationDeclarationCollection_Add_m7659_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference DTDNotationDeclarationCollection_t1577_VTable[] =
@@ -14607,35 +14607,35 @@ static const Il2CppMethodReference DTDNotationDeclarationCollection_t1577_VTable
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m8640_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m8642_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m8643_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m8644_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m8645_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m8646_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m8647_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m8648_GenericMethod,
-	&List_1_System_Collections_IList_Add_m8649_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m8651_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m8652_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m8653_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m8654_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Count_m8641_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8656_GenericMethod,
-	&List_1_Add_m8510_GenericMethod,
-	&List_1_Clear_m8650_GenericMethod,
-	&List_1_Contains_m8657_GenericMethod,
-	&List_1_CopyTo_m8658_GenericMethod,
-	&List_1_Remove_m8659_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8660_GenericMethod,
-	&List_1_IndexOf_m8661_GenericMethod,
-	&List_1_Insert_m8662_GenericMethod,
-	&List_1_RemoveAt_m8655_GenericMethod,
-	&List_1_get_Item_m8663_GenericMethod,
-	&List_1_set_Item_m8664_GenericMethod,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m8644_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m8646_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m8647_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m8648_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m8649_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m8650_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m8651_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m8652_GenericMethod,
+	&List_1_System_Collections_IList_Add_m8653_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m8655_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m8656_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m8657_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m8658_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Count_m8645_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m8660_GenericMethod,
+	&List_1_Add_m8514_GenericMethod,
+	&List_1_Clear_m8654_GenericMethod,
+	&List_1_Contains_m8661_GenericMethod,
+	&List_1_CopyTo_m8662_GenericMethod,
+	&List_1_Remove_m8663_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m8664_GenericMethod,
+	&List_1_IndexOf_m8665_GenericMethod,
+	&List_1_Insert_m8666_GenericMethod,
+	&List_1_RemoveAt_m8659_GenericMethod,
+	&List_1_get_Item_m8667_GenericMethod,
+	&List_1_set_Item_m8668_GenericMethod,
 };
 static bool DTDNotationDeclarationCollection_t1577_VTableIsGenericMethod[] =
 {
@@ -14760,21 +14760,21 @@ extern TypeInfo DTDContentModel_t1588_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDContentModelMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDContentModel_t1588_DTDContentModel__ctor_m7656_ParameterInfos[] = 
+static const ParameterInfo DTDContentModel_t1588_DTDContentModel__ctor_m7660_ParameterInfos[] = 
 {
 	{"root", 0, 134217785, 0, &DTDObjectModel_t1570_0_0_0},
 	{"ownerElementName", 1, 134217786, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModel::.ctor(Mono.Xml.DTDObjectModel,System.String)
-extern const MethodInfo DTDContentModel__ctor_m7656_MethodInfo = 
+extern const MethodInfo DTDContentModel__ctor_m7660_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDContentModel__ctor_m7656/* method */
+	, (methodPointerType)&DTDContentModel__ctor_m7660/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDContentModel_t1588_DTDContentModel__ctor_m7656_ParameterInfos/* parameters */
+	, DTDContentModel_t1588_DTDContentModel__ctor_m7660_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -14791,10 +14791,10 @@ extern const MethodInfo DTDContentModel__ctor_m7656_MethodInfo =
 extern const Il2CppType DTDContentModelCollection_t1587_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDContentModelCollection Mono.Xml.DTDContentModel::get_ChildModels()
-extern const MethodInfo DTDContentModel_get_ChildModels_m7657_MethodInfo = 
+extern const MethodInfo DTDContentModel_get_ChildModels_m7661_MethodInfo = 
 {
 	"get_ChildModels"/* name */
-	, (methodPointerType)&DTDContentModel_get_ChildModels_m7657/* method */
+	, (methodPointerType)&DTDContentModel_get_ChildModels_m7661/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &DTDContentModelCollection_t1587_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14814,10 +14814,10 @@ extern const MethodInfo DTDContentModel_get_ChildModels_m7657_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDContentModel::get_ElementName()
-extern const MethodInfo DTDContentModel_get_ElementName_m7658_MethodInfo = 
+extern const MethodInfo DTDContentModel_get_ElementName_m7662_MethodInfo = 
 {
 	"get_ElementName"/* name */
-	, (methodPointerType)&DTDContentModel_get_ElementName_m7658/* method */
+	, (methodPointerType)&DTDContentModel_get_ElementName_m7662/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14836,20 +14836,20 @@ extern const MethodInfo DTDContentModel_get_ElementName_m7658_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_ElementName_m7659_ParameterInfos[] = 
+static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_ElementName_m7663_ParameterInfos[] = 
 {
 	{"value", 0, 134217787, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModel::set_ElementName(System.String)
-extern const MethodInfo DTDContentModel_set_ElementName_m7659_MethodInfo = 
+extern const MethodInfo DTDContentModel_set_ElementName_m7663_MethodInfo = 
 {
 	"set_ElementName"/* name */
-	, (methodPointerType)&DTDContentModel_set_ElementName_m7659/* method */
+	, (methodPointerType)&DTDContentModel_set_ElementName_m7663/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDContentModel_t1588_DTDContentModel_set_ElementName_m7659_ParameterInfos/* parameters */
+	, DTDContentModel_t1588_DTDContentModel_set_ElementName_m7663_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14865,20 +14865,20 @@ extern const MethodInfo DTDContentModel_set_ElementName_m7659_MethodInfo =
 };
 extern const Il2CppType DTDOccurence_t1597_0_0_0;
 extern const Il2CppType DTDOccurence_t1597_0_0_0;
-static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_Occurence_m7660_ParameterInfos[] = 
+static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_Occurence_m7664_ParameterInfos[] = 
 {
 	{"value", 0, 134217788, 0, &DTDOccurence_t1597_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModel::set_Occurence(Mono.Xml.DTDOccurence)
-extern const MethodInfo DTDContentModel_set_Occurence_m7660_MethodInfo = 
+extern const MethodInfo DTDContentModel_set_Occurence_m7664_MethodInfo = 
 {
 	"set_Occurence"/* name */
-	, (methodPointerType)&DTDContentModel_set_Occurence_m7660/* method */
+	, (methodPointerType)&DTDContentModel_set_Occurence_m7664/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, DTDContentModel_t1588_DTDContentModel_set_Occurence_m7660_ParameterInfos/* parameters */
+	, DTDContentModel_t1588_DTDContentModel_set_Occurence_m7664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14895,10 +14895,10 @@ extern const MethodInfo DTDContentModel_set_Occurence_m7660_MethodInfo =
 extern const Il2CppType DTDContentOrderType_t1596_0_0_0;
 extern void* RuntimeInvoker_DTDContentOrderType_t1596 (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDContentOrderType Mono.Xml.DTDContentModel::get_OrderType()
-extern const MethodInfo DTDContentModel_get_OrderType_m7661_MethodInfo = 
+extern const MethodInfo DTDContentModel_get_OrderType_m7665_MethodInfo = 
 {
 	"get_OrderType"/* name */
-	, (methodPointerType)&DTDContentModel_get_OrderType_m7661/* method */
+	, (methodPointerType)&DTDContentModel_get_OrderType_m7665/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &DTDContentOrderType_t1596_0_0_0/* return_type */
 	, RuntimeInvoker_DTDContentOrderType_t1596/* invoker_method */
@@ -14917,20 +14917,20 @@ extern const MethodInfo DTDContentModel_get_OrderType_m7661_MethodInfo =
 
 };
 extern const Il2CppType DTDContentOrderType_t1596_0_0_0;
-static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_OrderType_m7662_ParameterInfos[] = 
+static const ParameterInfo DTDContentModel_t1588_DTDContentModel_set_OrderType_m7666_ParameterInfos[] = 
 {
 	{"value", 0, 134217789, 0, &DTDContentOrderType_t1596_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModel::set_OrderType(Mono.Xml.DTDContentOrderType)
-extern const MethodInfo DTDContentModel_set_OrderType_m7662_MethodInfo = 
+extern const MethodInfo DTDContentModel_set_OrderType_m7666_MethodInfo = 
 {
 	"set_OrderType"/* name */
-	, (methodPointerType)&DTDContentModel_set_OrderType_m7662/* method */
+	, (methodPointerType)&DTDContentModel_set_OrderType_m7666/* method */
 	, &DTDContentModel_t1588_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, DTDContentModel_t1588_DTDContentModel_set_OrderType_m7662_ParameterInfos/* parameters */
+	, DTDContentModel_t1588_DTDContentModel_set_OrderType_m7666_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14946,57 +14946,57 @@ extern const MethodInfo DTDContentModel_set_OrderType_m7662_MethodInfo =
 };
 static const MethodInfo* DTDContentModel_t1588_MethodInfos[] =
 {
-	&DTDContentModel__ctor_m7656_MethodInfo,
-	&DTDContentModel_get_ChildModels_m7657_MethodInfo,
-	&DTDContentModel_get_ElementName_m7658_MethodInfo,
-	&DTDContentModel_set_ElementName_m7659_MethodInfo,
-	&DTDContentModel_set_Occurence_m7660_MethodInfo,
-	&DTDContentModel_get_OrderType_m7661_MethodInfo,
-	&DTDContentModel_set_OrderType_m7662_MethodInfo,
+	&DTDContentModel__ctor_m7660_MethodInfo,
+	&DTDContentModel_get_ChildModels_m7661_MethodInfo,
+	&DTDContentModel_get_ElementName_m7662_MethodInfo,
+	&DTDContentModel_set_ElementName_m7663_MethodInfo,
+	&DTDContentModel_set_Occurence_m7664_MethodInfo,
+	&DTDContentModel_get_OrderType_m7665_MethodInfo,
+	&DTDContentModel_set_OrderType_m7666_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDContentModel_get_ChildModels_m7657_MethodInfo;
+extern const MethodInfo DTDContentModel_get_ChildModels_m7661_MethodInfo;
 static const PropertyInfo DTDContentModel_t1588____ChildModels_PropertyInfo = 
 {
 	&DTDContentModel_t1588_il2cpp_TypeInfo/* parent */
 	, "ChildModels"/* name */
-	, &DTDContentModel_get_ChildModels_m7657_MethodInfo/* get */
+	, &DTDContentModel_get_ChildModels_m7661_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDContentModel_get_ElementName_m7658_MethodInfo;
-extern const MethodInfo DTDContentModel_set_ElementName_m7659_MethodInfo;
+extern const MethodInfo DTDContentModel_get_ElementName_m7662_MethodInfo;
+extern const MethodInfo DTDContentModel_set_ElementName_m7663_MethodInfo;
 static const PropertyInfo DTDContentModel_t1588____ElementName_PropertyInfo = 
 {
 	&DTDContentModel_t1588_il2cpp_TypeInfo/* parent */
 	, "ElementName"/* name */
-	, &DTDContentModel_get_ElementName_m7658_MethodInfo/* get */
-	, &DTDContentModel_set_ElementName_m7659_MethodInfo/* set */
+	, &DTDContentModel_get_ElementName_m7662_MethodInfo/* get */
+	, &DTDContentModel_set_ElementName_m7663_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDContentModel_set_Occurence_m7660_MethodInfo;
+extern const MethodInfo DTDContentModel_set_Occurence_m7664_MethodInfo;
 static const PropertyInfo DTDContentModel_t1588____Occurence_PropertyInfo = 
 {
 	&DTDContentModel_t1588_il2cpp_TypeInfo/* parent */
 	, "Occurence"/* name */
 	, NULL/* get */
-	, &DTDContentModel_set_Occurence_m7660_MethodInfo/* set */
+	, &DTDContentModel_set_Occurence_m7664_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDContentModel_get_OrderType_m7661_MethodInfo;
-extern const MethodInfo DTDContentModel_set_OrderType_m7662_MethodInfo;
+extern const MethodInfo DTDContentModel_get_OrderType_m7665_MethodInfo;
+extern const MethodInfo DTDContentModel_set_OrderType_m7666_MethodInfo;
 static const PropertyInfo DTDContentModel_t1588____OrderType_PropertyInfo = 
 {
 	&DTDContentModel_t1588_il2cpp_TypeInfo/* parent */
 	, "OrderType"/* name */
-	, &DTDContentModel_get_OrderType_m7661_MethodInfo/* get */
-	, &DTDContentModel_set_OrderType_m7662_MethodInfo/* set */
+	, &DTDContentModel_get_OrderType_m7665_MethodInfo/* get */
+	, &DTDContentModel_set_OrderType_m7666_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -15009,20 +15009,20 @@ static const PropertyInfo* DTDContentModel_t1588_PropertyInfos[] =
 	&DTDContentModel_t1588____OrderType_PropertyInfo,
 	NULL
 };
-extern const MethodInfo DTDNode_get_LineNumber_m7672_MethodInfo;
-extern const MethodInfo DTDNode_get_LinePosition_m7673_MethodInfo;
-extern const MethodInfo DTDNode_get_BaseURI_m7668_MethodInfo;
-extern const MethodInfo DTDNode_set_BaseURI_m7669_MethodInfo;
+extern const MethodInfo DTDNode_get_LineNumber_m7676_MethodInfo;
+extern const MethodInfo DTDNode_get_LinePosition_m7677_MethodInfo;
+extern const MethodInfo DTDNode_get_BaseURI_m7672_MethodInfo;
+extern const MethodInfo DTDNode_set_BaseURI_m7673_MethodInfo;
 static const Il2CppMethodReference DTDContentModel_t1588_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDContentModel_t1588_VTableIsGenericMethod[] =
 {
@@ -15119,10 +15119,10 @@ extern TypeInfo DTDContentModelCollection_t1587_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDContentModelCollectionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModelCollection::.ctor()
-extern const MethodInfo DTDContentModelCollection__ctor_m7663_MethodInfo = 
+extern const MethodInfo DTDContentModelCollection__ctor_m7667_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDContentModelCollection__ctor_m7663/* method */
+	, (methodPointerType)&DTDContentModelCollection__ctor_m7667/* method */
 	, &DTDContentModelCollection_t1587_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -15141,20 +15141,20 @@ extern const MethodInfo DTDContentModelCollection__ctor_m7663_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DTDContentModelCollection_t1587_DTDContentModelCollection_get_Item_m7664_ParameterInfos[] = 
+static const ParameterInfo DTDContentModelCollection_t1587_DTDContentModelCollection_get_Item_m7668_ParameterInfos[] = 
 {
 	{"i", 0, 134217790, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDContentModel Mono.Xml.DTDContentModelCollection::get_Item(System.Int32)
-extern const MethodInfo DTDContentModelCollection_get_Item_m7664_MethodInfo = 
+extern const MethodInfo DTDContentModelCollection_get_Item_m7668_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDContentModelCollection_get_Item_m7664/* method */
+	, (methodPointerType)&DTDContentModelCollection_get_Item_m7668/* method */
 	, &DTDContentModelCollection_t1587_il2cpp_TypeInfo/* declaring_type */
 	, &DTDContentModel_t1588_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, DTDContentModelCollection_t1587_DTDContentModelCollection_get_Item_m7664_ParameterInfos/* parameters */
+	, DTDContentModelCollection_t1587_DTDContentModelCollection_get_Item_m7668_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15170,10 +15170,10 @@ extern const MethodInfo DTDContentModelCollection_get_Item_m7664_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Xml.DTDContentModelCollection::get_Count()
-extern const MethodInfo DTDContentModelCollection_get_Count_m7665_MethodInfo = 
+extern const MethodInfo DTDContentModelCollection_get_Count_m7669_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&DTDContentModelCollection_get_Count_m7665/* method */
+	, (methodPointerType)&DTDContentModelCollection_get_Count_m7669/* method */
 	, &DTDContentModelCollection_t1587_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -15192,20 +15192,20 @@ extern const MethodInfo DTDContentModelCollection_get_Count_m7665_MethodInfo =
 
 };
 extern const Il2CppType DTDContentModel_t1588_0_0_0;
-static const ParameterInfo DTDContentModelCollection_t1587_DTDContentModelCollection_Add_m7666_ParameterInfos[] = 
+static const ParameterInfo DTDContentModelCollection_t1587_DTDContentModelCollection_Add_m7670_ParameterInfos[] = 
 {
 	{"model", 0, 134217791, 0, &DTDContentModel_t1588_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDContentModelCollection::Add(Mono.Xml.DTDContentModel)
-extern const MethodInfo DTDContentModelCollection_Add_m7666_MethodInfo = 
+extern const MethodInfo DTDContentModelCollection_Add_m7670_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDContentModelCollection_Add_m7666/* method */
+	, (methodPointerType)&DTDContentModelCollection_Add_m7670/* method */
 	, &DTDContentModelCollection_t1587_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDContentModelCollection_t1587_DTDContentModelCollection_Add_m7666_ParameterInfos/* parameters */
+	, DTDContentModelCollection_t1587_DTDContentModelCollection_Add_m7670_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -15221,29 +15221,29 @@ extern const MethodInfo DTDContentModelCollection_Add_m7666_MethodInfo =
 };
 static const MethodInfo* DTDContentModelCollection_t1587_MethodInfos[] =
 {
-	&DTDContentModelCollection__ctor_m7663_MethodInfo,
-	&DTDContentModelCollection_get_Item_m7664_MethodInfo,
-	&DTDContentModelCollection_get_Count_m7665_MethodInfo,
-	&DTDContentModelCollection_Add_m7666_MethodInfo,
+	&DTDContentModelCollection__ctor_m7667_MethodInfo,
+	&DTDContentModelCollection_get_Item_m7668_MethodInfo,
+	&DTDContentModelCollection_get_Count_m7669_MethodInfo,
+	&DTDContentModelCollection_Add_m7670_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDContentModelCollection_get_Item_m7664_MethodInfo;
+extern const MethodInfo DTDContentModelCollection_get_Item_m7668_MethodInfo;
 static const PropertyInfo DTDContentModelCollection_t1587____Item_PropertyInfo = 
 {
 	&DTDContentModelCollection_t1587_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDContentModelCollection_get_Item_m7664_MethodInfo/* get */
+	, &DTDContentModelCollection_get_Item_m7668_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDContentModelCollection_get_Count_m7665_MethodInfo;
+extern const MethodInfo DTDContentModelCollection_get_Count_m7669_MethodInfo;
 static const PropertyInfo DTDContentModelCollection_t1587____Count_PropertyInfo = 
 {
 	&DTDContentModelCollection_t1587_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &DTDContentModelCollection_get_Count_m7665_MethodInfo/* get */
+	, &DTDContentModelCollection_get_Count_m7669_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15347,10 +15347,10 @@ extern TypeInfo DTDNode_t1580_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDNodeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNode::.ctor()
-extern const MethodInfo DTDNode__ctor_m7667_MethodInfo = 
+extern const MethodInfo DTDNode__ctor_m7671_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDNode__ctor_m7667/* method */
+	, (methodPointerType)&DTDNode__ctor_m7671/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -15370,10 +15370,10 @@ extern const MethodInfo DTDNode__ctor_m7667_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNode::get_BaseURI()
-extern const MethodInfo DTDNode_get_BaseURI_m7668_MethodInfo = 
+extern const MethodInfo DTDNode_get_BaseURI_m7672_MethodInfo = 
 {
 	"get_BaseURI"/* name */
-	, (methodPointerType)&DTDNode_get_BaseURI_m7668/* method */
+	, (methodPointerType)&DTDNode_get_BaseURI_m7672/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15392,20 +15392,20 @@ extern const MethodInfo DTDNode_get_BaseURI_m7668_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNode_t1580_DTDNode_set_BaseURI_m7669_ParameterInfos[] = 
+static const ParameterInfo DTDNode_t1580_DTDNode_set_BaseURI_m7673_ParameterInfos[] = 
 {
 	{"value", 0, 134217792, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNode::set_BaseURI(System.String)
-extern const MethodInfo DTDNode_set_BaseURI_m7669_MethodInfo = 
+extern const MethodInfo DTDNode_set_BaseURI_m7673_MethodInfo = 
 {
 	"set_BaseURI"/* name */
-	, (methodPointerType)&DTDNode_set_BaseURI_m7669/* method */
+	, (methodPointerType)&DTDNode_set_BaseURI_m7673/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNode_t1580_DTDNode_set_BaseURI_m7669_ParameterInfos/* parameters */
+	, DTDNode_t1580_DTDNode_set_BaseURI_m7673_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -15421,10 +15421,10 @@ extern const MethodInfo DTDNode_set_BaseURI_m7669_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDNode::get_IsInternalSubset()
-extern const MethodInfo DTDNode_get_IsInternalSubset_m7670_MethodInfo = 
+extern const MethodInfo DTDNode_get_IsInternalSubset_m7674_MethodInfo = 
 {
 	"get_IsInternalSubset"/* name */
-	, (methodPointerType)&DTDNode_get_IsInternalSubset_m7670/* method */
+	, (methodPointerType)&DTDNode_get_IsInternalSubset_m7674/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -15443,20 +15443,20 @@ extern const MethodInfo DTDNode_get_IsInternalSubset_m7670_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDNode_t1580_DTDNode_set_IsInternalSubset_m7671_ParameterInfos[] = 
+static const ParameterInfo DTDNode_t1580_DTDNode_set_IsInternalSubset_m7675_ParameterInfos[] = 
 {
 	{"value", 0, 134217793, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNode::set_IsInternalSubset(System.Boolean)
-extern const MethodInfo DTDNode_set_IsInternalSubset_m7671_MethodInfo = 
+extern const MethodInfo DTDNode_set_IsInternalSubset_m7675_MethodInfo = 
 {
 	"set_IsInternalSubset"/* name */
-	, (methodPointerType)&DTDNode_set_IsInternalSubset_m7671/* method */
+	, (methodPointerType)&DTDNode_set_IsInternalSubset_m7675/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDNode_t1580_DTDNode_set_IsInternalSubset_m7671_ParameterInfos/* parameters */
+	, DTDNode_t1580_DTDNode_set_IsInternalSubset_m7675_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15472,10 +15472,10 @@ extern const MethodInfo DTDNode_set_IsInternalSubset_m7671_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Xml.DTDNode::get_LineNumber()
-extern const MethodInfo DTDNode_get_LineNumber_m7672_MethodInfo = 
+extern const MethodInfo DTDNode_get_LineNumber_m7676_MethodInfo = 
 {
 	"get_LineNumber"/* name */
-	, (methodPointerType)&DTDNode_get_LineNumber_m7672/* method */
+	, (methodPointerType)&DTDNode_get_LineNumber_m7676/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -15495,10 +15495,10 @@ extern const MethodInfo DTDNode_get_LineNumber_m7672_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Xml.DTDNode::get_LinePosition()
-extern const MethodInfo DTDNode_get_LinePosition_m7673_MethodInfo = 
+extern const MethodInfo DTDNode_get_LinePosition_m7677_MethodInfo = 
 {
 	"get_LinePosition"/* name */
-	, (methodPointerType)&DTDNode_get_LinePosition_m7673/* method */
+	, (methodPointerType)&DTDNode_get_LinePosition_m7677/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -15517,20 +15517,20 @@ extern const MethodInfo DTDNode_get_LinePosition_m7673_MethodInfo =
 
 };
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDNode_t1580_DTDNode_SetRoot_m7674_ParameterInfos[] = 
+static const ParameterInfo DTDNode_t1580_DTDNode_SetRoot_m7678_ParameterInfos[] = 
 {
 	{"root", 0, 134217794, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNode::SetRoot(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDNode_SetRoot_m7674_MethodInfo = 
+extern const MethodInfo DTDNode_SetRoot_m7678_MethodInfo = 
 {
 	"SetRoot"/* name */
-	, (methodPointerType)&DTDNode_SetRoot_m7674/* method */
+	, (methodPointerType)&DTDNode_SetRoot_m7678/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNode_t1580_DTDNode_SetRoot_m7674_ParameterInfos/* parameters */
+	, DTDNode_t1580_DTDNode_SetRoot_m7678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15546,10 +15546,10 @@ extern const MethodInfo DTDNode_SetRoot_m7674_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDObjectModel Mono.Xml.DTDNode::get_Root()
-extern const MethodInfo DTDNode_get_Root_m7675_MethodInfo = 
+extern const MethodInfo DTDNode_get_Root_m7679_MethodInfo = 
 {
 	"get_Root"/* name */
-	, (methodPointerType)&DTDNode_get_Root_m7675/* method */
+	, (methodPointerType)&DTDNode_get_Root_m7679/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &DTDObjectModel_t1570_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15568,20 +15568,20 @@ extern const MethodInfo DTDNode_get_Root_m7675_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNode_t1580_DTDNode_NotWFError_m7676_ParameterInfos[] = 
+static const ParameterInfo DTDNode_t1580_DTDNode_NotWFError_m7680_ParameterInfos[] = 
 {
 	{"message", 0, 134217795, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlException Mono.Xml.DTDNode::NotWFError(System.String)
-extern const MethodInfo DTDNode_NotWFError_m7676_MethodInfo = 
+extern const MethodInfo DTDNode_NotWFError_m7680_MethodInfo = 
 {
 	"NotWFError"/* name */
-	, (methodPointerType)&DTDNode_NotWFError_m7676/* method */
+	, (methodPointerType)&DTDNode_NotWFError_m7680/* method */
 	, &DTDNode_t1580_il2cpp_TypeInfo/* declaring_type */
 	, &XmlException_t1627_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDNode_t1580_DTDNode_NotWFError_m7676_ParameterInfos/* parameters */
+	, DTDNode_t1580_DTDNode_NotWFError_m7680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15597,36 +15597,36 @@ extern const MethodInfo DTDNode_NotWFError_m7676_MethodInfo =
 };
 static const MethodInfo* DTDNode_t1580_MethodInfos[] =
 {
-	&DTDNode__ctor_m7667_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
-	&DTDNode_get_IsInternalSubset_m7670_MethodInfo,
-	&DTDNode_set_IsInternalSubset_m7671_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_SetRoot_m7674_MethodInfo,
-	&DTDNode_get_Root_m7675_MethodInfo,
-	&DTDNode_NotWFError_m7676_MethodInfo,
+	&DTDNode__ctor_m7671_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
+	&DTDNode_get_IsInternalSubset_m7674_MethodInfo,
+	&DTDNode_set_IsInternalSubset_m7675_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_SetRoot_m7678_MethodInfo,
+	&DTDNode_get_Root_m7679_MethodInfo,
+	&DTDNode_NotWFError_m7680_MethodInfo,
 	NULL
 };
 static const PropertyInfo DTDNode_t1580____BaseURI_PropertyInfo = 
 {
 	&DTDNode_t1580_il2cpp_TypeInfo/* parent */
 	, "BaseURI"/* name */
-	, &DTDNode_get_BaseURI_m7668_MethodInfo/* get */
-	, &DTDNode_set_BaseURI_m7669_MethodInfo/* set */
+	, &DTDNode_get_BaseURI_m7672_MethodInfo/* get */
+	, &DTDNode_set_BaseURI_m7673_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNode_get_IsInternalSubset_m7670_MethodInfo;
-extern const MethodInfo DTDNode_set_IsInternalSubset_m7671_MethodInfo;
+extern const MethodInfo DTDNode_get_IsInternalSubset_m7674_MethodInfo;
+extern const MethodInfo DTDNode_set_IsInternalSubset_m7675_MethodInfo;
 static const PropertyInfo DTDNode_t1580____IsInternalSubset_PropertyInfo = 
 {
 	&DTDNode_t1580_il2cpp_TypeInfo/* parent */
 	, "IsInternalSubset"/* name */
-	, &DTDNode_get_IsInternalSubset_m7670_MethodInfo/* get */
-	, &DTDNode_set_IsInternalSubset_m7671_MethodInfo/* set */
+	, &DTDNode_get_IsInternalSubset_m7674_MethodInfo/* get */
+	, &DTDNode_set_IsInternalSubset_m7675_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -15635,7 +15635,7 @@ static const PropertyInfo DTDNode_t1580____LineNumber_PropertyInfo =
 {
 	&DTDNode_t1580_il2cpp_TypeInfo/* parent */
 	, "LineNumber"/* name */
-	, &DTDNode_get_LineNumber_m7672_MethodInfo/* get */
+	, &DTDNode_get_LineNumber_m7676_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15645,18 +15645,18 @@ static const PropertyInfo DTDNode_t1580____LinePosition_PropertyInfo =
 {
 	&DTDNode_t1580_il2cpp_TypeInfo/* parent */
 	, "LinePosition"/* name */
-	, &DTDNode_get_LinePosition_m7673_MethodInfo/* get */
+	, &DTDNode_get_LinePosition_m7677_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNode_get_Root_m7675_MethodInfo;
+extern const MethodInfo DTDNode_get_Root_m7679_MethodInfo;
 static const PropertyInfo DTDNode_t1580____Root_PropertyInfo = 
 {
 	&DTDNode_t1580_il2cpp_TypeInfo/* parent */
 	, "Root"/* name */
-	, &DTDNode_get_Root_m7675_MethodInfo/* get */
+	, &DTDNode_get_Root_m7679_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15677,10 +15677,10 @@ static const Il2CppMethodReference DTDNode_t1580_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDNode_t1580_VTableIsGenericMethod[] =
 {
@@ -15778,20 +15778,20 @@ extern TypeInfo DTDElementDeclaration_t1589_il2cpp_TypeInfo;
 // Mono.Xml.DTDElementDeclaration
 #include "System_Xml_Mono_Xml_DTDElementDeclarationMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration__ctor_m7677_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration__ctor_m7681_ParameterInfos[] = 
 {
 	{"root", 0, 134217796, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDElementDeclaration__ctor_m7677_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration__ctor_m7681_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDElementDeclaration__ctor_m7677/* method */
+	, (methodPointerType)&DTDElementDeclaration__ctor_m7681/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDElementDeclaration_t1589_DTDElementDeclaration__ctor_m7677_ParameterInfos/* parameters */
+	, DTDElementDeclaration_t1589_DTDElementDeclaration__ctor_m7681_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -15807,10 +15807,10 @@ extern const MethodInfo DTDElementDeclaration__ctor_m7677_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDElementDeclaration::get_Name()
-extern const MethodInfo DTDElementDeclaration_get_Name_m7678_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_get_Name_m7682_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDElementDeclaration_get_Name_m7678/* method */
+	, (methodPointerType)&DTDElementDeclaration_get_Name_m7682/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15829,20 +15829,20 @@ extern const MethodInfo DTDElementDeclaration_get_Name_m7678_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_Name_m7679_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_Name_m7683_ParameterInfos[] = 
 {
 	{"value", 0, 134217797, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclaration::set_Name(System.String)
-extern const MethodInfo DTDElementDeclaration_set_Name_m7679_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_set_Name_m7683_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&DTDElementDeclaration_set_Name_m7679/* method */
+	, (methodPointerType)&DTDElementDeclaration_set_Name_m7683/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_Name_m7679_ParameterInfos/* parameters */
+	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_Name_m7683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15857,20 +15857,20 @@ extern const MethodInfo DTDElementDeclaration_set_Name_m7679_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsEmpty_m7680_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsEmpty_m7684_ParameterInfos[] = 
 {
 	{"value", 0, 134217798, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsEmpty(System.Boolean)
-extern const MethodInfo DTDElementDeclaration_set_IsEmpty_m7680_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_set_IsEmpty_m7684_MethodInfo = 
 {
 	"set_IsEmpty"/* name */
-	, (methodPointerType)&DTDElementDeclaration_set_IsEmpty_m7680/* method */
+	, (methodPointerType)&DTDElementDeclaration_set_IsEmpty_m7684/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsEmpty_m7680_ParameterInfos/* parameters */
+	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsEmpty_m7684_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15885,20 +15885,20 @@ extern const MethodInfo DTDElementDeclaration_set_IsEmpty_m7680_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsAny_m7681_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsAny_m7685_ParameterInfos[] = 
 {
 	{"value", 0, 134217799, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsAny(System.Boolean)
-extern const MethodInfo DTDElementDeclaration_set_IsAny_m7681_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_set_IsAny_m7685_MethodInfo = 
 {
 	"set_IsAny"/* name */
-	, (methodPointerType)&DTDElementDeclaration_set_IsAny_m7681/* method */
+	, (methodPointerType)&DTDElementDeclaration_set_IsAny_m7685/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsAny_m7681_ParameterInfos/* parameters */
+	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsAny_m7685_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15913,20 +15913,20 @@ extern const MethodInfo DTDElementDeclaration_set_IsAny_m7681_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsMixedContent_m7682_ParameterInfos[] = 
+static const ParameterInfo DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsMixedContent_m7686_ParameterInfos[] = 
 {
 	{"value", 0, 134217800, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsMixedContent(System.Boolean)
-extern const MethodInfo DTDElementDeclaration_set_IsMixedContent_m7682_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_set_IsMixedContent_m7686_MethodInfo = 
 {
 	"set_IsMixedContent"/* name */
-	, (methodPointerType)&DTDElementDeclaration_set_IsMixedContent_m7682/* method */
+	, (methodPointerType)&DTDElementDeclaration_set_IsMixedContent_m7686/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsMixedContent_m7682_ParameterInfos/* parameters */
+	, DTDElementDeclaration_t1589_DTDElementDeclaration_set_IsMixedContent_m7686_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15942,10 +15942,10 @@ extern const MethodInfo DTDElementDeclaration_set_IsMixedContent_m7682_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDContentModel Mono.Xml.DTDElementDeclaration::get_ContentModel()
-extern const MethodInfo DTDElementDeclaration_get_ContentModel_m7683_MethodInfo = 
+extern const MethodInfo DTDElementDeclaration_get_ContentModel_m7687_MethodInfo = 
 {
 	"get_ContentModel"/* name */
-	, (methodPointerType)&DTDElementDeclaration_get_ContentModel_m7683/* method */
+	, (methodPointerType)&DTDElementDeclaration_get_ContentModel_m7687/* method */
 	, &DTDElementDeclaration_t1589_il2cpp_TypeInfo/* declaring_type */
 	, &DTDContentModel_t1588_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15965,66 +15965,66 @@ extern const MethodInfo DTDElementDeclaration_get_ContentModel_m7683_MethodInfo 
 };
 static const MethodInfo* DTDElementDeclaration_t1589_MethodInfos[] =
 {
-	&DTDElementDeclaration__ctor_m7677_MethodInfo,
-	&DTDElementDeclaration_get_Name_m7678_MethodInfo,
-	&DTDElementDeclaration_set_Name_m7679_MethodInfo,
-	&DTDElementDeclaration_set_IsEmpty_m7680_MethodInfo,
-	&DTDElementDeclaration_set_IsAny_m7681_MethodInfo,
-	&DTDElementDeclaration_set_IsMixedContent_m7682_MethodInfo,
-	&DTDElementDeclaration_get_ContentModel_m7683_MethodInfo,
+	&DTDElementDeclaration__ctor_m7681_MethodInfo,
+	&DTDElementDeclaration_get_Name_m7682_MethodInfo,
+	&DTDElementDeclaration_set_Name_m7683_MethodInfo,
+	&DTDElementDeclaration_set_IsEmpty_m7684_MethodInfo,
+	&DTDElementDeclaration_set_IsAny_m7685_MethodInfo,
+	&DTDElementDeclaration_set_IsMixedContent_m7686_MethodInfo,
+	&DTDElementDeclaration_get_ContentModel_m7687_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDElementDeclaration_get_Name_m7678_MethodInfo;
-extern const MethodInfo DTDElementDeclaration_set_Name_m7679_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_get_Name_m7682_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_set_Name_m7683_MethodInfo;
 static const PropertyInfo DTDElementDeclaration_t1589____Name_PropertyInfo = 
 {
 	&DTDElementDeclaration_t1589_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDElementDeclaration_get_Name_m7678_MethodInfo/* get */
-	, &DTDElementDeclaration_set_Name_m7679_MethodInfo/* set */
+	, &DTDElementDeclaration_get_Name_m7682_MethodInfo/* get */
+	, &DTDElementDeclaration_set_Name_m7683_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDElementDeclaration_set_IsEmpty_m7680_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_set_IsEmpty_m7684_MethodInfo;
 static const PropertyInfo DTDElementDeclaration_t1589____IsEmpty_PropertyInfo = 
 {
 	&DTDElementDeclaration_t1589_il2cpp_TypeInfo/* parent */
 	, "IsEmpty"/* name */
 	, NULL/* get */
-	, &DTDElementDeclaration_set_IsEmpty_m7680_MethodInfo/* set */
+	, &DTDElementDeclaration_set_IsEmpty_m7684_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDElementDeclaration_set_IsAny_m7681_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_set_IsAny_m7685_MethodInfo;
 static const PropertyInfo DTDElementDeclaration_t1589____IsAny_PropertyInfo = 
 {
 	&DTDElementDeclaration_t1589_il2cpp_TypeInfo/* parent */
 	, "IsAny"/* name */
 	, NULL/* get */
-	, &DTDElementDeclaration_set_IsAny_m7681_MethodInfo/* set */
+	, &DTDElementDeclaration_set_IsAny_m7685_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDElementDeclaration_set_IsMixedContent_m7682_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_set_IsMixedContent_m7686_MethodInfo;
 static const PropertyInfo DTDElementDeclaration_t1589____IsMixedContent_PropertyInfo = 
 {
 	&DTDElementDeclaration_t1589_il2cpp_TypeInfo/* parent */
 	, "IsMixedContent"/* name */
 	, NULL/* get */
-	, &DTDElementDeclaration_set_IsMixedContent_m7682_MethodInfo/* set */
+	, &DTDElementDeclaration_set_IsMixedContent_m7686_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDElementDeclaration_get_ContentModel_m7683_MethodInfo;
+extern const MethodInfo DTDElementDeclaration_get_ContentModel_m7687_MethodInfo;
 static const PropertyInfo DTDElementDeclaration_t1589____ContentModel_PropertyInfo = 
 {
 	&DTDElementDeclaration_t1589_il2cpp_TypeInfo/* parent */
 	, "ContentModel"/* name */
-	, &DTDElementDeclaration_get_ContentModel_m7683_MethodInfo/* get */
+	, &DTDElementDeclaration_get_ContentModel_m7687_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -16045,10 +16045,10 @@ static const Il2CppMethodReference DTDElementDeclaration_t1589_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDElementDeclaration_t1589_VTableIsGenericMethod[] =
 {
@@ -16143,10 +16143,10 @@ extern TypeInfo DTDAttributeDefinition_t1590_il2cpp_TypeInfo;
 #include "System_Xml_Mono_Xml_DTDAttributeDefinitionMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDAttributeDefinition::get_Name()
-extern const MethodInfo DTDAttributeDefinition_get_Name_m7684_MethodInfo = 
+extern const MethodInfo DTDAttributeDefinition_get_Name_m7688_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDAttributeDefinition_get_Name_m7684/* method */
+	, (methodPointerType)&DTDAttributeDefinition_get_Name_m7688/* method */
 	, &DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16166,10 +16166,10 @@ extern const MethodInfo DTDAttributeDefinition_get_Name_m7684_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaDatatype Mono.Xml.DTDAttributeDefinition::get_Datatype()
-extern const MethodInfo DTDAttributeDefinition_get_Datatype_m7685_MethodInfo = 
+extern const MethodInfo DTDAttributeDefinition_get_Datatype_m7689_MethodInfo = 
 {
 	"get_Datatype"/* name */
-	, (methodPointerType)&DTDAttributeDefinition_get_Datatype_m7685/* method */
+	, (methodPointerType)&DTDAttributeDefinition_get_Datatype_m7689/* method */
 	, &DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSchemaDatatype_t1495_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16189,10 +16189,10 @@ extern const MethodInfo DTDAttributeDefinition_get_Datatype_m7685_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDAttributeDefinition::get_DefaultValue()
-extern const MethodInfo DTDAttributeDefinition_get_DefaultValue_m7686_MethodInfo = 
+extern const MethodInfo DTDAttributeDefinition_get_DefaultValue_m7690_MethodInfo = 
 {
 	"get_DefaultValue"/* name */
-	, (methodPointerType)&DTDAttributeDefinition_get_DefaultValue_m7686/* method */
+	, (methodPointerType)&DTDAttributeDefinition_get_DefaultValue_m7690/* method */
 	, &DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16212,10 +16212,10 @@ extern const MethodInfo DTDAttributeDefinition_get_DefaultValue_m7686_MethodInfo
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDAttributeDefinition::get_UnresolvedDefaultValue()
-extern const MethodInfo DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687_MethodInfo = 
+extern const MethodInfo DTDAttributeDefinition_get_UnresolvedDefaultValue_m7691_MethodInfo = 
 {
 	"get_UnresolvedDefaultValue"/* name */
-	, (methodPointerType)&DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687/* method */
+	, (methodPointerType)&DTDAttributeDefinition_get_UnresolvedDefaultValue_m7691/* method */
 	, &DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16235,10 +16235,10 @@ extern const MethodInfo DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687_
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDAttributeDefinition::ComputeDefaultValue()
-extern const MethodInfo DTDAttributeDefinition_ComputeDefaultValue_m7688_MethodInfo = 
+extern const MethodInfo DTDAttributeDefinition_ComputeDefaultValue_m7692_MethodInfo = 
 {
 	"ComputeDefaultValue"/* name */
-	, (methodPointerType)&DTDAttributeDefinition_ComputeDefaultValue_m7688/* method */
+	, (methodPointerType)&DTDAttributeDefinition_ComputeDefaultValue_m7692/* method */
 	, &DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16258,52 +16258,52 @@ extern const MethodInfo DTDAttributeDefinition_ComputeDefaultValue_m7688_MethodI
 };
 static const MethodInfo* DTDAttributeDefinition_t1590_MethodInfos[] =
 {
-	&DTDAttributeDefinition_get_Name_m7684_MethodInfo,
-	&DTDAttributeDefinition_get_Datatype_m7685_MethodInfo,
-	&DTDAttributeDefinition_get_DefaultValue_m7686_MethodInfo,
-	&DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687_MethodInfo,
-	&DTDAttributeDefinition_ComputeDefaultValue_m7688_MethodInfo,
+	&DTDAttributeDefinition_get_Name_m7688_MethodInfo,
+	&DTDAttributeDefinition_get_Datatype_m7689_MethodInfo,
+	&DTDAttributeDefinition_get_DefaultValue_m7690_MethodInfo,
+	&DTDAttributeDefinition_get_UnresolvedDefaultValue_m7691_MethodInfo,
+	&DTDAttributeDefinition_ComputeDefaultValue_m7692_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDAttributeDefinition_get_Name_m7684_MethodInfo;
+extern const MethodInfo DTDAttributeDefinition_get_Name_m7688_MethodInfo;
 static const PropertyInfo DTDAttributeDefinition_t1590____Name_PropertyInfo = 
 {
 	&DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDAttributeDefinition_get_Name_m7684_MethodInfo/* get */
+	, &DTDAttributeDefinition_get_Name_m7688_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttributeDefinition_get_Datatype_m7685_MethodInfo;
+extern const MethodInfo DTDAttributeDefinition_get_Datatype_m7689_MethodInfo;
 static const PropertyInfo DTDAttributeDefinition_t1590____Datatype_PropertyInfo = 
 {
 	&DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* parent */
 	, "Datatype"/* name */
-	, &DTDAttributeDefinition_get_Datatype_m7685_MethodInfo/* get */
+	, &DTDAttributeDefinition_get_Datatype_m7689_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttributeDefinition_get_DefaultValue_m7686_MethodInfo;
+extern const MethodInfo DTDAttributeDefinition_get_DefaultValue_m7690_MethodInfo;
 static const PropertyInfo DTDAttributeDefinition_t1590____DefaultValue_PropertyInfo = 
 {
 	&DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* parent */
 	, "DefaultValue"/* name */
-	, &DTDAttributeDefinition_get_DefaultValue_m7686_MethodInfo/* get */
+	, &DTDAttributeDefinition_get_DefaultValue_m7690_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687_MethodInfo;
+extern const MethodInfo DTDAttributeDefinition_get_UnresolvedDefaultValue_m7691_MethodInfo;
 static const PropertyInfo DTDAttributeDefinition_t1590____UnresolvedDefaultValue_PropertyInfo = 
 {
 	&DTDAttributeDefinition_t1590_il2cpp_TypeInfo/* parent */
 	, "UnresolvedDefaultValue"/* name */
-	, &DTDAttributeDefinition_get_UnresolvedDefaultValue_m7687_MethodInfo/* get */
+	, &DTDAttributeDefinition_get_UnresolvedDefaultValue_m7691_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -16323,10 +16323,10 @@ static const Il2CppMethodReference DTDAttributeDefinition_t1590_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDAttributeDefinition_t1590_VTableIsGenericMethod[] =
 {
@@ -16421,20 +16421,20 @@ extern TypeInfo DTDAttListDeclaration_t1591_il2cpp_TypeInfo;
 // Mono.Xml.DTDAttListDeclaration
 #include "System_Xml_Mono_Xml_DTDAttListDeclarationMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration__ctor_m7689_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration__ctor_m7693_ParameterInfos[] = 
 {
 	{"root", 0, 134217801, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAttListDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDAttListDeclaration__ctor_m7689_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration__ctor_m7693_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDAttListDeclaration__ctor_m7689/* method */
+	, (methodPointerType)&DTDAttListDeclaration__ctor_m7693/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration__ctor_m7689_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration__ctor_m7693_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -16450,10 +16450,10 @@ extern const MethodInfo DTDAttListDeclaration__ctor_m7689_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDAttListDeclaration::get_Name()
-extern const MethodInfo DTDAttListDeclaration_get_Name_m7690_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_get_Name_m7694_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_get_Name_m7690/* method */
+	, (methodPointerType)&DTDAttListDeclaration_get_Name_m7694/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16472,20 +16472,20 @@ extern const MethodInfo DTDAttListDeclaration_get_Name_m7690_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_set_Name_m7691_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_set_Name_m7695_ParameterInfos[] = 
 {
 	{"value", 0, 134217802, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAttListDeclaration::set_Name(System.String)
-extern const MethodInfo DTDAttListDeclaration_set_Name_m7691_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_set_Name_m7695_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_set_Name_m7691/* method */
+	, (methodPointerType)&DTDAttListDeclaration_set_Name_m7695/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_set_Name_m7691_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_set_Name_m7695_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16500,20 +16500,20 @@ extern const MethodInfo DTDAttListDeclaration_set_Name_m7691_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7692_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7696_ParameterInfos[] = 
 {
 	{"i", 0, 134217803, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::get_Item(System.Int32)
-extern const MethodInfo DTDAttListDeclaration_get_Item_m7692_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_get_Item_m7696_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_get_Item_m7692/* method */
+	, (methodPointerType)&DTDAttListDeclaration_get_Item_m7696/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttributeDefinition_t1590_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7692_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7696_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16528,20 +16528,20 @@ extern const MethodInfo DTDAttListDeclaration_get_Item_m7692_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7693_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7697_ParameterInfos[] = 
 {
 	{"name", 0, 134217804, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::get_Item(System.String)
-extern const MethodInfo DTDAttListDeclaration_get_Item_m7693_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_get_Item_m7697_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_get_Item_m7693/* method */
+	, (methodPointerType)&DTDAttListDeclaration_get_Item_m7697/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttributeDefinition_t1590_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7693_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_get_Item_m7697_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16556,20 +16556,20 @@ extern const MethodInfo DTDAttListDeclaration_get_Item_m7693_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7694_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7698_ParameterInfos[] = 
 {
 	{"i", 0, 134217805, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::Get(System.Int32)
-extern const MethodInfo DTDAttListDeclaration_Get_m7694_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_Get_m7698_MethodInfo = 
 {
 	"Get"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_Get_m7694/* method */
+	, (methodPointerType)&DTDAttListDeclaration_Get_m7698/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttributeDefinition_t1590_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7694_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16584,20 +16584,20 @@ extern const MethodInfo DTDAttListDeclaration_Get_m7694_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7695_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7699_ParameterInfos[] = 
 {
 	{"name", 0, 134217806, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::Get(System.String)
-extern const MethodInfo DTDAttListDeclaration_Get_m7695_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_Get_m7699_MethodInfo = 
 {
 	"Get"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_Get_m7695/* method */
+	, (methodPointerType)&DTDAttListDeclaration_Get_m7699/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttributeDefinition_t1590_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7695_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Get_m7699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16613,10 +16613,10 @@ extern const MethodInfo DTDAttListDeclaration_Get_m7695_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IList Mono.Xml.DTDAttListDeclaration::get_Definitions()
-extern const MethodInfo DTDAttListDeclaration_get_Definitions_m7696_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_get_Definitions_m7700_MethodInfo = 
 {
 	"get_Definitions"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_get_Definitions_m7696/* method */
+	, (methodPointerType)&DTDAttListDeclaration_get_Definitions_m7700/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &IList_t586_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16635,20 +16635,20 @@ extern const MethodInfo DTDAttListDeclaration_get_Definitions_m7696_MethodInfo =
 
 };
 extern const Il2CppType DTDAttributeDefinition_t1590_0_0_0;
-static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Add_m7697_ParameterInfos[] = 
+static const ParameterInfo DTDAttListDeclaration_t1591_DTDAttListDeclaration_Add_m7701_ParameterInfos[] = 
 {
 	{"def", 0, 134217807, 0, &DTDAttributeDefinition_t1590_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDAttListDeclaration::Add(Mono.Xml.DTDAttributeDefinition)
-extern const MethodInfo DTDAttListDeclaration_Add_m7697_MethodInfo = 
+extern const MethodInfo DTDAttListDeclaration_Add_m7701_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDAttListDeclaration_Add_m7697/* method */
+	, (methodPointerType)&DTDAttListDeclaration_Add_m7701/* method */
 	, &DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Add_m7697_ParameterInfos/* parameters */
+	, DTDAttListDeclaration_t1591_DTDAttListDeclaration_Add_m7701_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16664,57 +16664,57 @@ extern const MethodInfo DTDAttListDeclaration_Add_m7697_MethodInfo =
 };
 static const MethodInfo* DTDAttListDeclaration_t1591_MethodInfos[] =
 {
-	&DTDAttListDeclaration__ctor_m7689_MethodInfo,
-	&DTDAttListDeclaration_get_Name_m7690_MethodInfo,
-	&DTDAttListDeclaration_set_Name_m7691_MethodInfo,
-	&DTDAttListDeclaration_get_Item_m7692_MethodInfo,
-	&DTDAttListDeclaration_get_Item_m7693_MethodInfo,
-	&DTDAttListDeclaration_Get_m7694_MethodInfo,
-	&DTDAttListDeclaration_Get_m7695_MethodInfo,
-	&DTDAttListDeclaration_get_Definitions_m7696_MethodInfo,
-	&DTDAttListDeclaration_Add_m7697_MethodInfo,
+	&DTDAttListDeclaration__ctor_m7693_MethodInfo,
+	&DTDAttListDeclaration_get_Name_m7694_MethodInfo,
+	&DTDAttListDeclaration_set_Name_m7695_MethodInfo,
+	&DTDAttListDeclaration_get_Item_m7696_MethodInfo,
+	&DTDAttListDeclaration_get_Item_m7697_MethodInfo,
+	&DTDAttListDeclaration_Get_m7698_MethodInfo,
+	&DTDAttListDeclaration_Get_m7699_MethodInfo,
+	&DTDAttListDeclaration_get_Definitions_m7700_MethodInfo,
+	&DTDAttListDeclaration_Add_m7701_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDAttListDeclaration_get_Name_m7690_MethodInfo;
-extern const MethodInfo DTDAttListDeclaration_set_Name_m7691_MethodInfo;
+extern const MethodInfo DTDAttListDeclaration_get_Name_m7694_MethodInfo;
+extern const MethodInfo DTDAttListDeclaration_set_Name_m7695_MethodInfo;
 static const PropertyInfo DTDAttListDeclaration_t1591____Name_PropertyInfo = 
 {
 	&DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDAttListDeclaration_get_Name_m7690_MethodInfo/* get */
-	, &DTDAttListDeclaration_set_Name_m7691_MethodInfo/* set */
+	, &DTDAttListDeclaration_get_Name_m7694_MethodInfo/* get */
+	, &DTDAttListDeclaration_set_Name_m7695_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttListDeclaration_get_Item_m7692_MethodInfo;
+extern const MethodInfo DTDAttListDeclaration_get_Item_m7696_MethodInfo;
 static const PropertyInfo DTDAttListDeclaration_t1591____Item_Int32_t50_PropertyInfo = 
 {
 	&DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDAttListDeclaration_get_Item_m7692_MethodInfo/* get */
+	, &DTDAttListDeclaration_get_Item_m7696_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttListDeclaration_get_Item_m7693_MethodInfo;
+extern const MethodInfo DTDAttListDeclaration_get_Item_m7697_MethodInfo;
 static const PropertyInfo DTDAttListDeclaration_t1591____Item_String_t_PropertyInfo = 
 {
 	&DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDAttListDeclaration_get_Item_m7693_MethodInfo/* get */
+	, &DTDAttListDeclaration_get_Item_m7697_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDAttListDeclaration_get_Definitions_m7696_MethodInfo;
+extern const MethodInfo DTDAttListDeclaration_get_Definitions_m7700_MethodInfo;
 static const PropertyInfo DTDAttListDeclaration_t1591____Definitions_PropertyInfo = 
 {
 	&DTDAttListDeclaration_t1591_il2cpp_TypeInfo/* parent */
 	, "Definitions"/* name */
-	, &DTDAttListDeclaration_get_Definitions_m7696_MethodInfo/* get */
+	, &DTDAttListDeclaration_get_Definitions_m7700_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -16734,10 +16734,10 @@ static const Il2CppMethodReference DTDAttListDeclaration_t1591_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDAttListDeclaration_t1591_VTableIsGenericMethod[] =
 {
@@ -16831,20 +16831,20 @@ extern TypeInfo DTDEntityBase_t1592_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityBase
 #include "System_Xml_Mono_Xml_DTDEntityBaseMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase__ctor_m7698_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase__ctor_m7702_ParameterInfos[] = 
 {
 	{"root", 0, 134217808, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDEntityBase__ctor_m7698_MethodInfo = 
+extern const MethodInfo DTDEntityBase__ctor_m7702_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDEntityBase__ctor_m7698/* method */
+	, (methodPointerType)&DTDEntityBase__ctor_m7702/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase__ctor_m7698_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase__ctor_m7702_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -16860,10 +16860,10 @@ extern const MethodInfo DTDEntityBase__ctor_m7698_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDEntityBase::get_IsInvalid()
-extern const MethodInfo DTDEntityBase_get_IsInvalid_m7699_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_IsInvalid_m7703_MethodInfo = 
 {
 	"get_IsInvalid"/* name */
-	, (methodPointerType)&DTDEntityBase_get_IsInvalid_m7699/* method */
+	, (methodPointerType)&DTDEntityBase_get_IsInvalid_m7703/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -16882,20 +16882,20 @@ extern const MethodInfo DTDEntityBase_get_IsInvalid_m7699_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_LoadFailed_m7700_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_LoadFailed_m7704_ParameterInfos[] = 
 {
 	{"value", 0, 134217809, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_LoadFailed(System.Boolean)
-extern const MethodInfo DTDEntityBase_set_LoadFailed_m7700_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_LoadFailed_m7704_MethodInfo = 
 {
 	"set_LoadFailed"/* name */
-	, (methodPointerType)&DTDEntityBase_set_LoadFailed_m7700/* method */
+	, (methodPointerType)&DTDEntityBase_set_LoadFailed_m7704/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_LoadFailed_m7700_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_LoadFailed_m7704_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16911,10 +16911,10 @@ extern const MethodInfo DTDEntityBase_set_LoadFailed_m7700_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_Name()
-extern const MethodInfo DTDEntityBase_get_Name_m7701_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_Name_m7705_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDEntityBase_get_Name_m7701/* method */
+	, (methodPointerType)&DTDEntityBase_get_Name_m7705/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16933,20 +16933,20 @@ extern const MethodInfo DTDEntityBase_get_Name_m7701_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_Name_m7702_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_Name_m7706_ParameterInfos[] = 
 {
 	{"value", 0, 134217810, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_Name(System.String)
-extern const MethodInfo DTDEntityBase_set_Name_m7702_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_Name_m7706_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&DTDEntityBase_set_Name_m7702/* method */
+	, (methodPointerType)&DTDEntityBase_set_Name_m7706/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_Name_m7702_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_Name_m7706_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16962,10 +16962,10 @@ extern const MethodInfo DTDEntityBase_set_Name_m7702_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_PublicId()
-extern const MethodInfo DTDEntityBase_get_PublicId_m7703_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_PublicId_m7707_MethodInfo = 
 {
 	"get_PublicId"/* name */
-	, (methodPointerType)&DTDEntityBase_get_PublicId_m7703/* method */
+	, (methodPointerType)&DTDEntityBase_get_PublicId_m7707/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16984,20 +16984,20 @@ extern const MethodInfo DTDEntityBase_get_PublicId_m7703_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_PublicId_m7704_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_PublicId_m7708_ParameterInfos[] = 
 {
 	{"value", 0, 134217811, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_PublicId(System.String)
-extern const MethodInfo DTDEntityBase_set_PublicId_m7704_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_PublicId_m7708_MethodInfo = 
 {
 	"set_PublicId"/* name */
-	, (methodPointerType)&DTDEntityBase_set_PublicId_m7704/* method */
+	, (methodPointerType)&DTDEntityBase_set_PublicId_m7708/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_PublicId_m7704_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_PublicId_m7708_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17013,10 +17013,10 @@ extern const MethodInfo DTDEntityBase_set_PublicId_m7704_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_SystemId()
-extern const MethodInfo DTDEntityBase_get_SystemId_m7705_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_SystemId_m7709_MethodInfo = 
 {
 	"get_SystemId"/* name */
-	, (methodPointerType)&DTDEntityBase_get_SystemId_m7705/* method */
+	, (methodPointerType)&DTDEntityBase_get_SystemId_m7709/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17035,20 +17035,20 @@ extern const MethodInfo DTDEntityBase_get_SystemId_m7705_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_SystemId_m7706_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_SystemId_m7710_ParameterInfos[] = 
 {
 	{"value", 0, 134217812, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_SystemId(System.String)
-extern const MethodInfo DTDEntityBase_set_SystemId_m7706_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_SystemId_m7710_MethodInfo = 
 {
 	"set_SystemId"/* name */
-	, (methodPointerType)&DTDEntityBase_set_SystemId_m7706/* method */
+	, (methodPointerType)&DTDEntityBase_set_SystemId_m7710/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_SystemId_m7706_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_SystemId_m7710_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17064,10 +17064,10 @@ extern const MethodInfo DTDEntityBase_set_SystemId_m7706_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_LiteralEntityValue()
-extern const MethodInfo DTDEntityBase_get_LiteralEntityValue_m7707_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_LiteralEntityValue_m7711_MethodInfo = 
 {
 	"get_LiteralEntityValue"/* name */
-	, (methodPointerType)&DTDEntityBase_get_LiteralEntityValue_m7707/* method */
+	, (methodPointerType)&DTDEntityBase_get_LiteralEntityValue_m7711/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17086,20 +17086,20 @@ extern const MethodInfo DTDEntityBase_get_LiteralEntityValue_m7707_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_LiteralEntityValue_m7708_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_LiteralEntityValue_m7712_ParameterInfos[] = 
 {
 	{"value", 0, 134217813, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_LiteralEntityValue(System.String)
-extern const MethodInfo DTDEntityBase_set_LiteralEntityValue_m7708_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_LiteralEntityValue_m7712_MethodInfo = 
 {
 	"set_LiteralEntityValue"/* name */
-	, (methodPointerType)&DTDEntityBase_set_LiteralEntityValue_m7708/* method */
+	, (methodPointerType)&DTDEntityBase_set_LiteralEntityValue_m7712/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_LiteralEntityValue_m7708_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_LiteralEntityValue_m7712_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17115,10 +17115,10 @@ extern const MethodInfo DTDEntityBase_set_LiteralEntityValue_m7708_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_ReplacementText()
-extern const MethodInfo DTDEntityBase_get_ReplacementText_m7709_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_ReplacementText_m7713_MethodInfo = 
 {
 	"get_ReplacementText"/* name */
-	, (methodPointerType)&DTDEntityBase_get_ReplacementText_m7709/* method */
+	, (methodPointerType)&DTDEntityBase_get_ReplacementText_m7713/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17137,20 +17137,20 @@ extern const MethodInfo DTDEntityBase_get_ReplacementText_m7709_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_ReplacementText_m7710_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_ReplacementText_m7714_ParameterInfos[] = 
 {
 	{"value", 0, 134217814, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_ReplacementText(System.String)
-extern const MethodInfo DTDEntityBase_set_ReplacementText_m7710_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_ReplacementText_m7714_MethodInfo = 
 {
 	"set_ReplacementText"/* name */
-	, (methodPointerType)&DTDEntityBase_set_ReplacementText_m7710/* method */
+	, (methodPointerType)&DTDEntityBase_set_ReplacementText_m7714/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_ReplacementText_m7710_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_ReplacementText_m7714_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17165,20 +17165,20 @@ extern const MethodInfo DTDEntityBase_set_ReplacementText_m7710_MethodInfo =
 
 };
 extern const Il2CppType XmlResolver_t1578_0_0_0;
-static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_XmlResolver_m7711_ParameterInfos[] = 
+static const ParameterInfo DTDEntityBase_t1592_DTDEntityBase_set_XmlResolver_m7715_ParameterInfos[] = 
 {
 	{"value", 0, 134217815, 0, &XmlResolver_t1578_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::set_XmlResolver(System.Xml.XmlResolver)
-extern const MethodInfo DTDEntityBase_set_XmlResolver_m7711_MethodInfo = 
+extern const MethodInfo DTDEntityBase_set_XmlResolver_m7715_MethodInfo = 
 {
 	"set_XmlResolver"/* name */
-	, (methodPointerType)&DTDEntityBase_set_XmlResolver_m7711/* method */
+	, (methodPointerType)&DTDEntityBase_set_XmlResolver_m7715/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityBase_t1592_DTDEntityBase_set_XmlResolver_m7711_ParameterInfos/* parameters */
+	, DTDEntityBase_t1592_DTDEntityBase_set_XmlResolver_m7715_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17194,10 +17194,10 @@ extern const MethodInfo DTDEntityBase_set_XmlResolver_m7711_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityBase::get_ActualUri()
-extern const MethodInfo DTDEntityBase_get_ActualUri_m7712_MethodInfo = 
+extern const MethodInfo DTDEntityBase_get_ActualUri_m7716_MethodInfo = 
 {
 	"get_ActualUri"/* name */
-	, (methodPointerType)&DTDEntityBase_get_ActualUri_m7712/* method */
+	, (methodPointerType)&DTDEntityBase_get_ActualUri_m7716/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17217,10 +17217,10 @@ extern const MethodInfo DTDEntityBase_get_ActualUri_m7712_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityBase::Resolve()
-extern const MethodInfo DTDEntityBase_Resolve_m7713_MethodInfo = 
+extern const MethodInfo DTDEntityBase_Resolve_m7717_MethodInfo = 
 {
 	"Resolve"/* name */
-	, (methodPointerType)&DTDEntityBase_Resolve_m7713/* method */
+	, (methodPointerType)&DTDEntityBase_Resolve_m7717/* method */
 	, &DTDEntityBase_t1592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -17240,123 +17240,123 @@ extern const MethodInfo DTDEntityBase_Resolve_m7713_MethodInfo =
 };
 static const MethodInfo* DTDEntityBase_t1592_MethodInfos[] =
 {
-	&DTDEntityBase__ctor_m7698_MethodInfo,
-	&DTDEntityBase_get_IsInvalid_m7699_MethodInfo,
-	&DTDEntityBase_set_LoadFailed_m7700_MethodInfo,
-	&DTDEntityBase_get_Name_m7701_MethodInfo,
-	&DTDEntityBase_set_Name_m7702_MethodInfo,
-	&DTDEntityBase_get_PublicId_m7703_MethodInfo,
-	&DTDEntityBase_set_PublicId_m7704_MethodInfo,
-	&DTDEntityBase_get_SystemId_m7705_MethodInfo,
-	&DTDEntityBase_set_SystemId_m7706_MethodInfo,
-	&DTDEntityBase_get_LiteralEntityValue_m7707_MethodInfo,
-	&DTDEntityBase_set_LiteralEntityValue_m7708_MethodInfo,
-	&DTDEntityBase_get_ReplacementText_m7709_MethodInfo,
-	&DTDEntityBase_set_ReplacementText_m7710_MethodInfo,
-	&DTDEntityBase_set_XmlResolver_m7711_MethodInfo,
-	&DTDEntityBase_get_ActualUri_m7712_MethodInfo,
-	&DTDEntityBase_Resolve_m7713_MethodInfo,
+	&DTDEntityBase__ctor_m7702_MethodInfo,
+	&DTDEntityBase_get_IsInvalid_m7703_MethodInfo,
+	&DTDEntityBase_set_LoadFailed_m7704_MethodInfo,
+	&DTDEntityBase_get_Name_m7705_MethodInfo,
+	&DTDEntityBase_set_Name_m7706_MethodInfo,
+	&DTDEntityBase_get_PublicId_m7707_MethodInfo,
+	&DTDEntityBase_set_PublicId_m7708_MethodInfo,
+	&DTDEntityBase_get_SystemId_m7709_MethodInfo,
+	&DTDEntityBase_set_SystemId_m7710_MethodInfo,
+	&DTDEntityBase_get_LiteralEntityValue_m7711_MethodInfo,
+	&DTDEntityBase_set_LiteralEntityValue_m7712_MethodInfo,
+	&DTDEntityBase_get_ReplacementText_m7713_MethodInfo,
+	&DTDEntityBase_set_ReplacementText_m7714_MethodInfo,
+	&DTDEntityBase_set_XmlResolver_m7715_MethodInfo,
+	&DTDEntityBase_get_ActualUri_m7716_MethodInfo,
+	&DTDEntityBase_Resolve_m7717_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDEntityBase_get_IsInvalid_m7699_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_IsInvalid_m7703_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____IsInvalid_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "IsInvalid"/* name */
-	, &DTDEntityBase_get_IsInvalid_m7699_MethodInfo/* get */
+	, &DTDEntityBase_get_IsInvalid_m7703_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_set_LoadFailed_m7700_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_LoadFailed_m7704_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____LoadFailed_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "LoadFailed"/* name */
 	, NULL/* get */
-	, &DTDEntityBase_set_LoadFailed_m7700_MethodInfo/* set */
+	, &DTDEntityBase_set_LoadFailed_m7704_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_Name_m7701_MethodInfo;
-extern const MethodInfo DTDEntityBase_set_Name_m7702_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_Name_m7705_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_Name_m7706_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____Name_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDEntityBase_get_Name_m7701_MethodInfo/* get */
-	, &DTDEntityBase_set_Name_m7702_MethodInfo/* set */
+	, &DTDEntityBase_get_Name_m7705_MethodInfo/* get */
+	, &DTDEntityBase_set_Name_m7706_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_PublicId_m7703_MethodInfo;
-extern const MethodInfo DTDEntityBase_set_PublicId_m7704_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_PublicId_m7707_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_PublicId_m7708_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____PublicId_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "PublicId"/* name */
-	, &DTDEntityBase_get_PublicId_m7703_MethodInfo/* get */
-	, &DTDEntityBase_set_PublicId_m7704_MethodInfo/* set */
+	, &DTDEntityBase_get_PublicId_m7707_MethodInfo/* get */
+	, &DTDEntityBase_set_PublicId_m7708_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_SystemId_m7705_MethodInfo;
-extern const MethodInfo DTDEntityBase_set_SystemId_m7706_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_SystemId_m7709_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_SystemId_m7710_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____SystemId_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "SystemId"/* name */
-	, &DTDEntityBase_get_SystemId_m7705_MethodInfo/* get */
-	, &DTDEntityBase_set_SystemId_m7706_MethodInfo/* set */
+	, &DTDEntityBase_get_SystemId_m7709_MethodInfo/* get */
+	, &DTDEntityBase_set_SystemId_m7710_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_LiteralEntityValue_m7707_MethodInfo;
-extern const MethodInfo DTDEntityBase_set_LiteralEntityValue_m7708_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_LiteralEntityValue_m7711_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_LiteralEntityValue_m7712_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____LiteralEntityValue_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "LiteralEntityValue"/* name */
-	, &DTDEntityBase_get_LiteralEntityValue_m7707_MethodInfo/* get */
-	, &DTDEntityBase_set_LiteralEntityValue_m7708_MethodInfo/* set */
+	, &DTDEntityBase_get_LiteralEntityValue_m7711_MethodInfo/* get */
+	, &DTDEntityBase_set_LiteralEntityValue_m7712_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_ReplacementText_m7709_MethodInfo;
-extern const MethodInfo DTDEntityBase_set_ReplacementText_m7710_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_ReplacementText_m7713_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_ReplacementText_m7714_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____ReplacementText_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "ReplacementText"/* name */
-	, &DTDEntityBase_get_ReplacementText_m7709_MethodInfo/* get */
-	, &DTDEntityBase_set_ReplacementText_m7710_MethodInfo/* set */
+	, &DTDEntityBase_get_ReplacementText_m7713_MethodInfo/* get */
+	, &DTDEntityBase_set_ReplacementText_m7714_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_set_XmlResolver_m7711_MethodInfo;
+extern const MethodInfo DTDEntityBase_set_XmlResolver_m7715_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____XmlResolver_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "XmlResolver"/* name */
 	, NULL/* get */
-	, &DTDEntityBase_set_XmlResolver_m7711_MethodInfo/* set */
+	, &DTDEntityBase_set_XmlResolver_m7715_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityBase_get_ActualUri_m7712_MethodInfo;
+extern const MethodInfo DTDEntityBase_get_ActualUri_m7716_MethodInfo;
 static const PropertyInfo DTDEntityBase_t1592____ActualUri_PropertyInfo = 
 {
 	&DTDEntityBase_t1592_il2cpp_TypeInfo/* parent */
 	, "ActualUri"/* name */
-	, &DTDEntityBase_get_ActualUri_m7712_MethodInfo/* get */
+	, &DTDEntityBase_get_ActualUri_m7716_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17381,10 +17381,10 @@ static const Il2CppMethodReference DTDEntityBase_t1592_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDEntityBase_t1592_VTableIsGenericMethod[] =
 {
@@ -17479,20 +17479,20 @@ extern TypeInfo DTDEntityDeclaration_t1593_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityDeclaration
 #include "System_Xml_Mono_Xml_DTDEntityDeclarationMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration__ctor_m7714_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration__ctor_m7718_ParameterInfos[] = 
 {
 	{"root", 0, 134217816, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDEntityDeclaration__ctor_m7714_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration__ctor_m7718_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDEntityDeclaration__ctor_m7714/* method */
+	, (methodPointerType)&DTDEntityDeclaration__ctor_m7718/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityDeclaration_t1593_DTDEntityDeclaration__ctor_m7714_ParameterInfos/* parameters */
+	, DTDEntityDeclaration_t1593_DTDEntityDeclaration__ctor_m7718_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -17508,10 +17508,10 @@ extern const MethodInfo DTDEntityDeclaration__ctor_m7714_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityDeclaration::get_NotationName()
-extern const MethodInfo DTDEntityDeclaration_get_NotationName_m7715_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration_get_NotationName_m7719_MethodInfo = 
 {
 	"get_NotationName"/* name */
-	, (methodPointerType)&DTDEntityDeclaration_get_NotationName_m7715/* method */
+	, (methodPointerType)&DTDEntityDeclaration_get_NotationName_m7719/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17530,20 +17530,20 @@ extern const MethodInfo DTDEntityDeclaration_get_NotationName_m7715_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration_set_NotationName_m7716_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration_set_NotationName_m7720_ParameterInfos[] = 
 {
 	{"value", 0, 134217817, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityDeclaration::set_NotationName(System.String)
-extern const MethodInfo DTDEntityDeclaration_set_NotationName_m7716_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration_set_NotationName_m7720_MethodInfo = 
 {
 	"set_NotationName"/* name */
-	, (methodPointerType)&DTDEntityDeclaration_set_NotationName_m7716/* method */
+	, (methodPointerType)&DTDEntityDeclaration_set_NotationName_m7720/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityDeclaration_t1593_DTDEntityDeclaration_set_NotationName_m7716_ParameterInfos/* parameters */
+	, DTDEntityDeclaration_t1593_DTDEntityDeclaration_set_NotationName_m7720_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17559,10 +17559,10 @@ extern const MethodInfo DTDEntityDeclaration_set_NotationName_m7716_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.DTDEntityDeclaration::get_HasExternalReference()
-extern const MethodInfo DTDEntityDeclaration_get_HasExternalReference_m7717_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration_get_HasExternalReference_m7721_MethodInfo = 
 {
 	"get_HasExternalReference"/* name */
-	, (methodPointerType)&DTDEntityDeclaration_get_HasExternalReference_m7717/* method */
+	, (methodPointerType)&DTDEntityDeclaration_get_HasExternalReference_m7721/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -17582,10 +17582,10 @@ extern const MethodInfo DTDEntityDeclaration_get_HasExternalReference_m7717_Meth
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDEntityDeclaration::get_EntityValue()
-extern const MethodInfo DTDEntityDeclaration_get_EntityValue_m7718_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration_get_EntityValue_m7722_MethodInfo = 
 {
 	"get_EntityValue"/* name */
-	, (methodPointerType)&DTDEntityDeclaration_get_EntityValue_m7718/* method */
+	, (methodPointerType)&DTDEntityDeclaration_get_EntityValue_m7722/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17605,20 +17605,20 @@ extern const MethodInfo DTDEntityDeclaration_get_EntityValue_m7718_MethodInfo =
 };
 extern const Il2CppType ArrayList_t1556_0_0_0;
 extern const Il2CppType ArrayList_t1556_0_0_0;
-static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration_ScanEntityValue_m7719_ParameterInfos[] = 
+static const ParameterInfo DTDEntityDeclaration_t1593_DTDEntityDeclaration_ScanEntityValue_m7723_ParameterInfos[] = 
 {
 	{"refs", 0, 134217818, 0, &ArrayList_t1556_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDEntityDeclaration::ScanEntityValue(System.Collections.ArrayList)
-extern const MethodInfo DTDEntityDeclaration_ScanEntityValue_m7719_MethodInfo = 
+extern const MethodInfo DTDEntityDeclaration_ScanEntityValue_m7723_MethodInfo = 
 {
 	"ScanEntityValue"/* name */
-	, (methodPointerType)&DTDEntityDeclaration_ScanEntityValue_m7719/* method */
+	, (methodPointerType)&DTDEntityDeclaration_ScanEntityValue_m7723/* method */
 	, &DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDEntityDeclaration_t1593_DTDEntityDeclaration_ScanEntityValue_m7719_ParameterInfos/* parameters */
+	, DTDEntityDeclaration_t1593_DTDEntityDeclaration_ScanEntityValue_m7723_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17634,43 +17634,43 @@ extern const MethodInfo DTDEntityDeclaration_ScanEntityValue_m7719_MethodInfo =
 };
 static const MethodInfo* DTDEntityDeclaration_t1593_MethodInfos[] =
 {
-	&DTDEntityDeclaration__ctor_m7714_MethodInfo,
-	&DTDEntityDeclaration_get_NotationName_m7715_MethodInfo,
-	&DTDEntityDeclaration_set_NotationName_m7716_MethodInfo,
-	&DTDEntityDeclaration_get_HasExternalReference_m7717_MethodInfo,
-	&DTDEntityDeclaration_get_EntityValue_m7718_MethodInfo,
-	&DTDEntityDeclaration_ScanEntityValue_m7719_MethodInfo,
+	&DTDEntityDeclaration__ctor_m7718_MethodInfo,
+	&DTDEntityDeclaration_get_NotationName_m7719_MethodInfo,
+	&DTDEntityDeclaration_set_NotationName_m7720_MethodInfo,
+	&DTDEntityDeclaration_get_HasExternalReference_m7721_MethodInfo,
+	&DTDEntityDeclaration_get_EntityValue_m7722_MethodInfo,
+	&DTDEntityDeclaration_ScanEntityValue_m7723_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDEntityDeclaration_get_NotationName_m7715_MethodInfo;
-extern const MethodInfo DTDEntityDeclaration_set_NotationName_m7716_MethodInfo;
+extern const MethodInfo DTDEntityDeclaration_get_NotationName_m7719_MethodInfo;
+extern const MethodInfo DTDEntityDeclaration_set_NotationName_m7720_MethodInfo;
 static const PropertyInfo DTDEntityDeclaration_t1593____NotationName_PropertyInfo = 
 {
 	&DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* parent */
 	, "NotationName"/* name */
-	, &DTDEntityDeclaration_get_NotationName_m7715_MethodInfo/* get */
-	, &DTDEntityDeclaration_set_NotationName_m7716_MethodInfo/* set */
+	, &DTDEntityDeclaration_get_NotationName_m7719_MethodInfo/* get */
+	, &DTDEntityDeclaration_set_NotationName_m7720_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityDeclaration_get_HasExternalReference_m7717_MethodInfo;
+extern const MethodInfo DTDEntityDeclaration_get_HasExternalReference_m7721_MethodInfo;
 static const PropertyInfo DTDEntityDeclaration_t1593____HasExternalReference_PropertyInfo = 
 {
 	&DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* parent */
 	, "HasExternalReference"/* name */
-	, &DTDEntityDeclaration_get_HasExternalReference_m7717_MethodInfo/* get */
+	, &DTDEntityDeclaration_get_HasExternalReference_m7721_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDEntityDeclaration_get_EntityValue_m7718_MethodInfo;
+extern const MethodInfo DTDEntityDeclaration_get_EntityValue_m7722_MethodInfo;
 static const PropertyInfo DTDEntityDeclaration_t1593____EntityValue_PropertyInfo = 
 {
 	&DTDEntityDeclaration_t1593_il2cpp_TypeInfo/* parent */
 	, "EntityValue"/* name */
-	, &DTDEntityDeclaration_get_EntityValue_m7718_MethodInfo/* get */
+	, &DTDEntityDeclaration_get_EntityValue_m7722_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17689,10 +17689,10 @@ static const Il2CppMethodReference DTDEntityDeclaration_t1593_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDEntityDeclaration_t1593_VTableIsGenericMethod[] =
 {
@@ -17786,20 +17786,20 @@ extern TypeInfo DTDNotationDeclaration_t1594_il2cpp_TypeInfo;
 // Mono.Xml.DTDNotationDeclaration
 #include "System_Xml_Mono_Xml_DTDNotationDeclarationMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration__ctor_m7720_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration__ctor_m7724_ParameterInfos[] = 
 {
 	{"root", 0, 134217819, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDNotationDeclaration__ctor_m7720_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration__ctor_m7724_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDNotationDeclaration__ctor_m7720/* method */
+	, (methodPointerType)&DTDNotationDeclaration__ctor_m7724/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration__ctor_m7720_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration__ctor_m7724_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -17815,10 +17815,10 @@ extern const MethodInfo DTDNotationDeclaration__ctor_m7720_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNotationDeclaration::get_Name()
-extern const MethodInfo DTDNotationDeclaration_get_Name_m7721_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_get_Name_m7725_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_get_Name_m7721/* method */
+	, (methodPointerType)&DTDNotationDeclaration_get_Name_m7725/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17837,20 +17837,20 @@ extern const MethodInfo DTDNotationDeclaration_get_Name_m7721_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Name_m7722_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Name_m7726_ParameterInfos[] = 
 {
 	{"value", 0, 134217820, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Name(System.String)
-extern const MethodInfo DTDNotationDeclaration_set_Name_m7722_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_set_Name_m7726_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_set_Name_m7722/* method */
+	, (methodPointerType)&DTDNotationDeclaration_set_Name_m7726/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Name_m7722_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Name_m7726_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17866,10 +17866,10 @@ extern const MethodInfo DTDNotationDeclaration_set_Name_m7722_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNotationDeclaration::get_PublicId()
-extern const MethodInfo DTDNotationDeclaration_get_PublicId_m7723_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_get_PublicId_m7727_MethodInfo = 
 {
 	"get_PublicId"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_get_PublicId_m7723/* method */
+	, (methodPointerType)&DTDNotationDeclaration_get_PublicId_m7727/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17888,20 +17888,20 @@ extern const MethodInfo DTDNotationDeclaration_get_PublicId_m7723_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_PublicId_m7724_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_PublicId_m7728_ParameterInfos[] = 
 {
 	{"value", 0, 134217821, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::set_PublicId(System.String)
-extern const MethodInfo DTDNotationDeclaration_set_PublicId_m7724_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_set_PublicId_m7728_MethodInfo = 
 {
 	"set_PublicId"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_set_PublicId_m7724/* method */
+	, (methodPointerType)&DTDNotationDeclaration_set_PublicId_m7728/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_PublicId_m7724_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_PublicId_m7728_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17917,10 +17917,10 @@ extern const MethodInfo DTDNotationDeclaration_set_PublicId_m7724_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNotationDeclaration::get_SystemId()
-extern const MethodInfo DTDNotationDeclaration_get_SystemId_m7725_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_get_SystemId_m7729_MethodInfo = 
 {
 	"get_SystemId"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_get_SystemId_m7725/* method */
+	, (methodPointerType)&DTDNotationDeclaration_get_SystemId_m7729/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17939,20 +17939,20 @@ extern const MethodInfo DTDNotationDeclaration_get_SystemId_m7725_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_SystemId_m7726_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_SystemId_m7730_ParameterInfos[] = 
 {
 	{"value", 0, 134217822, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::set_SystemId(System.String)
-extern const MethodInfo DTDNotationDeclaration_set_SystemId_m7726_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_set_SystemId_m7730_MethodInfo = 
 {
 	"set_SystemId"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_set_SystemId_m7726/* method */
+	, (methodPointerType)&DTDNotationDeclaration_set_SystemId_m7730/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_SystemId_m7726_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_SystemId_m7730_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17968,10 +17968,10 @@ extern const MethodInfo DTDNotationDeclaration_set_SystemId_m7726_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNotationDeclaration::get_LocalName()
-extern const MethodInfo DTDNotationDeclaration_get_LocalName_m7727_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_get_LocalName_m7731_MethodInfo = 
 {
 	"get_LocalName"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_get_LocalName_m7727/* method */
+	, (methodPointerType)&DTDNotationDeclaration_get_LocalName_m7731/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17990,20 +17990,20 @@ extern const MethodInfo DTDNotationDeclaration_get_LocalName_m7727_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_LocalName_m7728_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_LocalName_m7732_ParameterInfos[] = 
 {
 	{"value", 0, 134217823, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::set_LocalName(System.String)
-extern const MethodInfo DTDNotationDeclaration_set_LocalName_m7728_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_set_LocalName_m7732_MethodInfo = 
 {
 	"set_LocalName"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_set_LocalName_m7728/* method */
+	, (methodPointerType)&DTDNotationDeclaration_set_LocalName_m7732/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_LocalName_m7728_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_LocalName_m7732_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -18019,10 +18019,10 @@ extern const MethodInfo DTDNotationDeclaration_set_LocalName_m7728_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.DTDNotationDeclaration::get_Prefix()
-extern const MethodInfo DTDNotationDeclaration_get_Prefix_m7729_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_get_Prefix_m7733_MethodInfo = 
 {
 	"get_Prefix"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_get_Prefix_m7729/* method */
+	, (methodPointerType)&DTDNotationDeclaration_get_Prefix_m7733/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -18041,20 +18041,20 @@ extern const MethodInfo DTDNotationDeclaration_get_Prefix_m7729_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Prefix_m7730_ParameterInfos[] = 
+static const ParameterInfo DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Prefix_m7734_ParameterInfos[] = 
 {
 	{"value", 0, 134217824, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Prefix(System.String)
-extern const MethodInfo DTDNotationDeclaration_set_Prefix_m7730_MethodInfo = 
+extern const MethodInfo DTDNotationDeclaration_set_Prefix_m7734_MethodInfo = 
 {
 	"set_Prefix"/* name */
-	, (methodPointerType)&DTDNotationDeclaration_set_Prefix_m7730/* method */
+	, (methodPointerType)&DTDNotationDeclaration_set_Prefix_m7734/* method */
 	, &DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Prefix_m7730_ParameterInfos/* parameters */
+	, DTDNotationDeclaration_t1594_DTDNotationDeclaration_set_Prefix_m7734_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -18070,75 +18070,75 @@ extern const MethodInfo DTDNotationDeclaration_set_Prefix_m7730_MethodInfo =
 };
 static const MethodInfo* DTDNotationDeclaration_t1594_MethodInfos[] =
 {
-	&DTDNotationDeclaration__ctor_m7720_MethodInfo,
-	&DTDNotationDeclaration_get_Name_m7721_MethodInfo,
-	&DTDNotationDeclaration_set_Name_m7722_MethodInfo,
-	&DTDNotationDeclaration_get_PublicId_m7723_MethodInfo,
-	&DTDNotationDeclaration_set_PublicId_m7724_MethodInfo,
-	&DTDNotationDeclaration_get_SystemId_m7725_MethodInfo,
-	&DTDNotationDeclaration_set_SystemId_m7726_MethodInfo,
-	&DTDNotationDeclaration_get_LocalName_m7727_MethodInfo,
-	&DTDNotationDeclaration_set_LocalName_m7728_MethodInfo,
-	&DTDNotationDeclaration_get_Prefix_m7729_MethodInfo,
-	&DTDNotationDeclaration_set_Prefix_m7730_MethodInfo,
+	&DTDNotationDeclaration__ctor_m7724_MethodInfo,
+	&DTDNotationDeclaration_get_Name_m7725_MethodInfo,
+	&DTDNotationDeclaration_set_Name_m7726_MethodInfo,
+	&DTDNotationDeclaration_get_PublicId_m7727_MethodInfo,
+	&DTDNotationDeclaration_set_PublicId_m7728_MethodInfo,
+	&DTDNotationDeclaration_get_SystemId_m7729_MethodInfo,
+	&DTDNotationDeclaration_set_SystemId_m7730_MethodInfo,
+	&DTDNotationDeclaration_get_LocalName_m7731_MethodInfo,
+	&DTDNotationDeclaration_set_LocalName_m7732_MethodInfo,
+	&DTDNotationDeclaration_get_Prefix_m7733_MethodInfo,
+	&DTDNotationDeclaration_set_Prefix_m7734_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDNotationDeclaration_get_Name_m7721_MethodInfo;
-extern const MethodInfo DTDNotationDeclaration_set_Name_m7722_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_get_Name_m7725_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_set_Name_m7726_MethodInfo;
 static const PropertyInfo DTDNotationDeclaration_t1594____Name_PropertyInfo = 
 {
 	&DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &DTDNotationDeclaration_get_Name_m7721_MethodInfo/* get */
-	, &DTDNotationDeclaration_set_Name_m7722_MethodInfo/* set */
+	, &DTDNotationDeclaration_get_Name_m7725_MethodInfo/* get */
+	, &DTDNotationDeclaration_set_Name_m7726_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNotationDeclaration_get_PublicId_m7723_MethodInfo;
-extern const MethodInfo DTDNotationDeclaration_set_PublicId_m7724_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_get_PublicId_m7727_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_set_PublicId_m7728_MethodInfo;
 static const PropertyInfo DTDNotationDeclaration_t1594____PublicId_PropertyInfo = 
 {
 	&DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* parent */
 	, "PublicId"/* name */
-	, &DTDNotationDeclaration_get_PublicId_m7723_MethodInfo/* get */
-	, &DTDNotationDeclaration_set_PublicId_m7724_MethodInfo/* set */
+	, &DTDNotationDeclaration_get_PublicId_m7727_MethodInfo/* get */
+	, &DTDNotationDeclaration_set_PublicId_m7728_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNotationDeclaration_get_SystemId_m7725_MethodInfo;
-extern const MethodInfo DTDNotationDeclaration_set_SystemId_m7726_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_get_SystemId_m7729_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_set_SystemId_m7730_MethodInfo;
 static const PropertyInfo DTDNotationDeclaration_t1594____SystemId_PropertyInfo = 
 {
 	&DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* parent */
 	, "SystemId"/* name */
-	, &DTDNotationDeclaration_get_SystemId_m7725_MethodInfo/* get */
-	, &DTDNotationDeclaration_set_SystemId_m7726_MethodInfo/* set */
+	, &DTDNotationDeclaration_get_SystemId_m7729_MethodInfo/* get */
+	, &DTDNotationDeclaration_set_SystemId_m7730_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNotationDeclaration_get_LocalName_m7727_MethodInfo;
-extern const MethodInfo DTDNotationDeclaration_set_LocalName_m7728_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_get_LocalName_m7731_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_set_LocalName_m7732_MethodInfo;
 static const PropertyInfo DTDNotationDeclaration_t1594____LocalName_PropertyInfo = 
 {
 	&DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* parent */
 	, "LocalName"/* name */
-	, &DTDNotationDeclaration_get_LocalName_m7727_MethodInfo/* get */
-	, &DTDNotationDeclaration_set_LocalName_m7728_MethodInfo/* set */
+	, &DTDNotationDeclaration_get_LocalName_m7731_MethodInfo/* get */
+	, &DTDNotationDeclaration_set_LocalName_m7732_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DTDNotationDeclaration_get_Prefix_m7729_MethodInfo;
-extern const MethodInfo DTDNotationDeclaration_set_Prefix_m7730_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_get_Prefix_m7733_MethodInfo;
+extern const MethodInfo DTDNotationDeclaration_set_Prefix_m7734_MethodInfo;
 static const PropertyInfo DTDNotationDeclaration_t1594____Prefix_PropertyInfo = 
 {
 	&DTDNotationDeclaration_t1594_il2cpp_TypeInfo/* parent */
 	, "Prefix"/* name */
-	, &DTDNotationDeclaration_get_Prefix_m7729_MethodInfo/* get */
-	, &DTDNotationDeclaration_set_Prefix_m7730_MethodInfo/* set */
+	, &DTDNotationDeclaration_get_Prefix_m7733_MethodInfo/* get */
+	, &DTDNotationDeclaration_set_Prefix_m7734_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -18158,10 +18158,10 @@ static const Il2CppMethodReference DTDNotationDeclaration_t1594_VTable[] =
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDNotationDeclaration_t1594_VTableIsGenericMethod[] =
 {
@@ -18255,20 +18255,20 @@ extern TypeInfo DTDParameterEntityDeclarationCollection_t1575_il2cpp_TypeInfo;
 // Mono.Xml.DTDParameterEntityDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDParameterEntityDeclarationCollectionMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection__ctor_m7731_ParameterInfos[] = 
+static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection__ctor_m7735_ParameterInfos[] = 
 {
 	{"root", 0, 134217825, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDParameterEntityDeclarationCollection__ctor_m7731_MethodInfo = 
+extern const MethodInfo DTDParameterEntityDeclarationCollection__ctor_m7735_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDParameterEntityDeclarationCollection__ctor_m7731/* method */
+	, (methodPointerType)&DTDParameterEntityDeclarationCollection__ctor_m7735/* method */
 	, &DTDParameterEntityDeclarationCollection_t1575_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection__ctor_m7731_ParameterInfos/* parameters */
+	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection__ctor_m7735_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -18283,21 +18283,21 @@ extern const MethodInfo DTDParameterEntityDeclarationCollection__ctor_m7731_Meth
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_get_Item_m7732_ParameterInfos[] = 
+static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_get_Item_m7736_ParameterInfos[] = 
 {
 	{"name", 0, 134217826, 0, &String_t_0_0_0},
 };
 extern const Il2CppType DTDParameterEntityDeclaration_t1595_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.DTDParameterEntityDeclaration Mono.Xml.DTDParameterEntityDeclarationCollection::get_Item(System.String)
-extern const MethodInfo DTDParameterEntityDeclarationCollection_get_Item_m7732_MethodInfo = 
+extern const MethodInfo DTDParameterEntityDeclarationCollection_get_Item_m7736_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&DTDParameterEntityDeclarationCollection_get_Item_m7732/* method */
+	, (methodPointerType)&DTDParameterEntityDeclarationCollection_get_Item_m7736/* method */
 	, &DTDParameterEntityDeclarationCollection_t1575_il2cpp_TypeInfo/* declaring_type */
 	, &DTDParameterEntityDeclaration_t1595_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_get_Item_m7732_ParameterInfos/* parameters */
+	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_get_Item_m7736_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -18313,21 +18313,21 @@ extern const MethodInfo DTDParameterEntityDeclarationCollection_get_Item_m7732_M
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DTDParameterEntityDeclaration_t1595_0_0_0;
-static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_Add_m7733_ParameterInfos[] = 
+static const ParameterInfo DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_Add_m7737_ParameterInfos[] = 
 {
 	{"name", 0, 134217827, 0, &String_t_0_0_0},
 	{"decl", 1, 134217828, 0, &DTDParameterEntityDeclaration_t1595_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDParameterEntityDeclaration)
-extern const MethodInfo DTDParameterEntityDeclarationCollection_Add_m7733_MethodInfo = 
+extern const MethodInfo DTDParameterEntityDeclarationCollection_Add_m7737_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&DTDParameterEntityDeclarationCollection_Add_m7733/* method */
+	, (methodPointerType)&DTDParameterEntityDeclarationCollection_Add_m7737/* method */
 	, &DTDParameterEntityDeclarationCollection_t1575_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_Add_m7733_ParameterInfos/* parameters */
+	, DTDParameterEntityDeclarationCollection_t1575_DTDParameterEntityDeclarationCollection_Add_m7737_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18343,17 +18343,17 @@ extern const MethodInfo DTDParameterEntityDeclarationCollection_Add_m7733_Method
 };
 static const MethodInfo* DTDParameterEntityDeclarationCollection_t1575_MethodInfos[] =
 {
-	&DTDParameterEntityDeclarationCollection__ctor_m7731_MethodInfo,
-	&DTDParameterEntityDeclarationCollection_get_Item_m7732_MethodInfo,
-	&DTDParameterEntityDeclarationCollection_Add_m7733_MethodInfo,
+	&DTDParameterEntityDeclarationCollection__ctor_m7735_MethodInfo,
+	&DTDParameterEntityDeclarationCollection_get_Item_m7736_MethodInfo,
+	&DTDParameterEntityDeclarationCollection_Add_m7737_MethodInfo,
 	NULL
 };
-extern const MethodInfo DTDParameterEntityDeclarationCollection_get_Item_m7732_MethodInfo;
+extern const MethodInfo DTDParameterEntityDeclarationCollection_get_Item_m7736_MethodInfo;
 static const PropertyInfo DTDParameterEntityDeclarationCollection_t1575____Item_PropertyInfo = 
 {
 	&DTDParameterEntityDeclarationCollection_t1575_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &DTDParameterEntityDeclarationCollection_get_Item_m7732_MethodInfo/* get */
+	, &DTDParameterEntityDeclarationCollection_get_Item_m7736_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -18455,20 +18455,20 @@ extern TypeInfo DTDParameterEntityDeclaration_t1595_il2cpp_TypeInfo;
 // Mono.Xml.DTDParameterEntityDeclaration
 #include "System_Xml_Mono_Xml_DTDParameterEntityDeclarationMethodDeclarations.h"
 extern const Il2CppType DTDObjectModel_t1570_0_0_0;
-static const ParameterInfo DTDParameterEntityDeclaration_t1595_DTDParameterEntityDeclaration__ctor_m7734_ParameterInfos[] = 
+static const ParameterInfo DTDParameterEntityDeclaration_t1595_DTDParameterEntityDeclaration__ctor_m7738_ParameterInfos[] = 
 {
 	{"root", 0, 134217829, 0, &DTDObjectModel_t1570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.DTDParameterEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern const MethodInfo DTDParameterEntityDeclaration__ctor_m7734_MethodInfo = 
+extern const MethodInfo DTDParameterEntityDeclaration__ctor_m7738_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DTDParameterEntityDeclaration__ctor_m7734/* method */
+	, (methodPointerType)&DTDParameterEntityDeclaration__ctor_m7738/* method */
 	, &DTDParameterEntityDeclaration_t1595_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DTDParameterEntityDeclaration_t1595_DTDParameterEntityDeclaration__ctor_m7734_ParameterInfos/* parameters */
+	, DTDParameterEntityDeclaration_t1595_DTDParameterEntityDeclaration__ctor_m7738_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -18484,7 +18484,7 @@ extern const MethodInfo DTDParameterEntityDeclaration__ctor_m7734_MethodInfo =
 };
 static const MethodInfo* DTDParameterEntityDeclaration_t1595_MethodInfos[] =
 {
-	&DTDParameterEntityDeclaration__ctor_m7734_MethodInfo,
+	&DTDParameterEntityDeclaration__ctor_m7738_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference DTDParameterEntityDeclaration_t1595_VTable[] =
@@ -18493,10 +18493,10 @@ static const Il2CppMethodReference DTDParameterEntityDeclaration_t1595_VTable[] 
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DTDNode_get_LineNumber_m7672_MethodInfo,
-	&DTDNode_get_LinePosition_m7673_MethodInfo,
-	&DTDNode_get_BaseURI_m7668_MethodInfo,
-	&DTDNode_set_BaseURI_m7669_MethodInfo,
+	&DTDNode_get_LineNumber_m7676_MethodInfo,
+	&DTDNode_get_LinePosition_m7677_MethodInfo,
+	&DTDNode_get_BaseURI_m7672_MethodInfo,
+	&DTDNode_set_BaseURI_m7673_MethodInfo,
 };
 static bool DTDParameterEntityDeclaration_t1595_VTableIsGenericMethod[] =
 {

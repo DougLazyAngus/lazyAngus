@@ -16,21 +16,21 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo Predicate_1_t2962_Predicate_1__ctor_m17142_ParameterInfos[] = 
+static const ParameterInfo Predicate_1_t2962_Predicate_1__ctor_m17146_ParameterInfos[] = 
 {
 	{"object", 0, 134224984, 0, &Object_t_0_0_0},
 	{"method", 1, 134224985, 0, &IntPtr_t_0_0_0},
 };
 extern const Il2CppType Void_t57_0_0_0;
 // System.Void System.Predicate`1::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo Predicate_1__ctor_m17142_MethodInfo = 
+extern const MethodInfo Predicate_1__ctor_m17146_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &Predicate_1_t2962_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Predicate_1_t2962_Predicate_1__ctor_m17142_ParameterInfos/* parameters */
+	, Predicate_1_t2962_Predicate_1__ctor_m17146_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -46,20 +46,20 @@ extern const MethodInfo Predicate_1__ctor_m17142_MethodInfo =
 };
 extern const Il2CppType Predicate_1_t2962_gp_0_0_0_0;
 extern const Il2CppType Predicate_1_t2962_gp_0_0_0_0;
-static const ParameterInfo Predicate_1_t2962_Predicate_1_Invoke_m17143_ParameterInfos[] = 
+static const ParameterInfo Predicate_1_t2962_Predicate_1_Invoke_m17147_ParameterInfos[] = 
 {
 	{"obj", 0, 134224986, 0, &Predicate_1_t2962_gp_0_0_0_0},
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 // System.Boolean System.Predicate`1::Invoke(T)
-extern const MethodInfo Predicate_1_Invoke_m17143_MethodInfo = 
+extern const MethodInfo Predicate_1_Invoke_m17147_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &Predicate_1_t2962_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Predicate_1_t2962_Predicate_1_Invoke_m17143_ParameterInfos/* parameters */
+	, Predicate_1_t2962_Predicate_1_Invoke_m17147_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -77,7 +77,7 @@ extern const Il2CppType Predicate_1_t2962_gp_0_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Predicate_1_t2962_Predicate_1_BeginInvoke_m17144_ParameterInfos[] = 
+static const ParameterInfo Predicate_1_t2962_Predicate_1_BeginInvoke_m17148_ParameterInfos[] = 
 {
 	{"obj", 0, 134224987, 0, &Predicate_1_t2962_gp_0_0_0_0},
 	{"callback", 1, 134224988, 0, &AsyncCallback_t346_0_0_0},
@@ -85,14 +85,14 @@ static const ParameterInfo Predicate_1_t2962_Predicate_1_BeginInvoke_m17144_Para
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
 // System.IAsyncResult System.Predicate`1::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern const MethodInfo Predicate_1_BeginInvoke_m17144_MethodInfo = 
+extern const MethodInfo Predicate_1_BeginInvoke_m17148_MethodInfo = 
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
 	, &Predicate_1_t2962_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Predicate_1_t2962_Predicate_1_BeginInvoke_m17144_ParameterInfos/* parameters */
+	, Predicate_1_t2962_Predicate_1_BeginInvoke_m17148_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -107,19 +107,19 @@ extern const MethodInfo Predicate_1_BeginInvoke_m17144_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo Predicate_1_t2962_Predicate_1_EndInvoke_m17145_ParameterInfos[] = 
+static const ParameterInfo Predicate_1_t2962_Predicate_1_EndInvoke_m17149_ParameterInfos[] = 
 {
 	{"result", 0, 134224990, 0, &IAsyncResult_t345_0_0_0},
 };
 // System.Boolean System.Predicate`1::EndInvoke(System.IAsyncResult)
-extern const MethodInfo Predicate_1_EndInvoke_m17145_MethodInfo = 
+extern const MethodInfo Predicate_1_EndInvoke_m17149_MethodInfo = 
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
 	, &Predicate_1_t2962_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Predicate_1_t2962_Predicate_1_EndInvoke_m17145_ParameterInfos/* parameters */
+	, Predicate_1_t2962_Predicate_1_EndInvoke_m17149_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -135,39 +135,39 @@ extern const MethodInfo Predicate_1_EndInvoke_m17145_MethodInfo =
 };
 static const MethodInfo* Predicate_1_t2962_MethodInfos[] =
 {
-	&Predicate_1__ctor_m17142_MethodInfo,
-	&Predicate_1_Invoke_m17143_MethodInfo,
-	&Predicate_1_BeginInvoke_m17144_MethodInfo,
-	&Predicate_1_EndInvoke_m17145_MethodInfo,
+	&Predicate_1__ctor_m17146_MethodInfo,
+	&Predicate_1_Invoke_m17147_MethodInfo,
+	&Predicate_1_BeginInvoke_m17148_MethodInfo,
+	&Predicate_1_EndInvoke_m17149_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m3904_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m3908_MethodInfo;
 extern const MethodInfo Object_Finalize_m230_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m3905_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m3909_MethodInfo;
 extern const MethodInfo Object_ToString_m253_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m3906_MethodInfo;
-extern const MethodInfo Delegate_Clone_m3907_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m3908_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m3909_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m3910_MethodInfo;
-extern const MethodInfo Predicate_1_Invoke_m17143_MethodInfo;
-extern const MethodInfo Predicate_1_BeginInvoke_m17144_MethodInfo;
-extern const MethodInfo Predicate_1_EndInvoke_m17145_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m3910_MethodInfo;
+extern const MethodInfo Delegate_Clone_m3911_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m3912_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m3913_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m3914_MethodInfo;
+extern const MethodInfo Predicate_1_Invoke_m17147_MethodInfo;
+extern const MethodInfo Predicate_1_BeginInvoke_m17148_MethodInfo;
+extern const MethodInfo Predicate_1_EndInvoke_m17149_MethodInfo;
 static const Il2CppMethodReference Predicate_1_t2962_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&Predicate_1_Invoke_m17143_MethodInfo,
-	&Predicate_1_BeginInvoke_m17144_MethodInfo,
-	&Predicate_1_EndInvoke_m17145_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&Predicate_1_Invoke_m17147_MethodInfo,
+	&Predicate_1_BeginInvoke_m17148_MethodInfo,
+	&Predicate_1_EndInvoke_m17149_MethodInfo,
 };
 static bool Predicate_1_t2962_VTableIsGenericMethod[] =
 {
@@ -272,21 +272,21 @@ extern TypeInfo ResolveEventHandler_t2755_il2cpp_TypeInfo;
 #include "mscorlib_System_ResolveEventHandlerMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler__ctor_m16466_ParameterInfos[] = 
+static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler__ctor_m16470_ParameterInfos[] = 
 {
 	{"object", 0, 134224991, 0, &Object_t_0_0_0},
 	{"method", 1, 134224992, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ResolveEventHandler::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo ResolveEventHandler__ctor_m16466_MethodInfo = 
+extern const MethodInfo ResolveEventHandler__ctor_m16470_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ResolveEventHandler__ctor_m16466/* method */
+	, (methodPointerType)&ResolveEventHandler__ctor_m16470/* method */
 	, &ResolveEventHandler_t2755_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, ResolveEventHandler_t2755_ResolveEventHandler__ctor_m16466_ParameterInfos/* parameters */
+	, ResolveEventHandler_t2755_ResolveEventHandler__ctor_m16470_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -303,7 +303,7 @@ extern const MethodInfo ResolveEventHandler__ctor_m16466_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType ResolveEventArgs_t2809_0_0_0;
 extern const Il2CppType ResolveEventArgs_t2809_0_0_0;
-static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_Invoke_m16467_ParameterInfos[] = 
+static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_Invoke_m16471_ParameterInfos[] = 
 {
 	{"sender", 0, 134224993, 0, &Object_t_0_0_0},
 	{"args", 1, 134224994, 0, &ResolveEventArgs_t2809_0_0_0},
@@ -311,14 +311,14 @@ static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_Invoke_
 extern const Il2CppType Assembly_t668_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.ResolveEventHandler::Invoke(System.Object,System.ResolveEventArgs)
-extern const MethodInfo ResolveEventHandler_Invoke_m16467_MethodInfo = 
+extern const MethodInfo ResolveEventHandler_Invoke_m16471_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&ResolveEventHandler_Invoke_m16467/* method */
+	, (methodPointerType)&ResolveEventHandler_Invoke_m16471/* method */
 	, &ResolveEventHandler_t2755_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ResolveEventHandler_t2755_ResolveEventHandler_Invoke_m16467_ParameterInfos/* parameters */
+	, ResolveEventHandler_t2755_ResolveEventHandler_Invoke_m16471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -336,7 +336,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType ResolveEventArgs_t2809_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_BeginInvoke_m16468_ParameterInfos[] = 
+static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_BeginInvoke_m16472_ParameterInfos[] = 
 {
 	{"sender", 0, 134224995, 0, &Object_t_0_0_0},
 	{"args", 1, 134224996, 0, &ResolveEventArgs_t2809_0_0_0},
@@ -345,14 +345,14 @@ static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_BeginIn
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.ResolveEventHandler::BeginInvoke(System.Object,System.ResolveEventArgs,System.AsyncCallback,System.Object)
-extern const MethodInfo ResolveEventHandler_BeginInvoke_m16468_MethodInfo = 
+extern const MethodInfo ResolveEventHandler_BeginInvoke_m16472_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&ResolveEventHandler_BeginInvoke_m16468/* method */
+	, (methodPointerType)&ResolveEventHandler_BeginInvoke_m16472/* method */
 	, &ResolveEventHandler_t2755_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, ResolveEventHandler_t2755_ResolveEventHandler_BeginInvoke_m16468_ParameterInfos/* parameters */
+	, ResolveEventHandler_t2755_ResolveEventHandler_BeginInvoke_m16472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -367,20 +367,20 @@ extern const MethodInfo ResolveEventHandler_BeginInvoke_m16468_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_EndInvoke_m16469_ParameterInfos[] = 
+static const ParameterInfo ResolveEventHandler_t2755_ResolveEventHandler_EndInvoke_m16473_ParameterInfos[] = 
 {
 	{"result", 0, 134224999, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.ResolveEventHandler::EndInvoke(System.IAsyncResult)
-extern const MethodInfo ResolveEventHandler_EndInvoke_m16469_MethodInfo = 
+extern const MethodInfo ResolveEventHandler_EndInvoke_m16473_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&ResolveEventHandler_EndInvoke_m16469/* method */
+	, (methodPointerType)&ResolveEventHandler_EndInvoke_m16473/* method */
 	, &ResolveEventHandler_t2755_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ResolveEventHandler_t2755_ResolveEventHandler_EndInvoke_m16469_ParameterInfos/* parameters */
+	, ResolveEventHandler_t2755_ResolveEventHandler_EndInvoke_m16473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -396,30 +396,30 @@ extern const MethodInfo ResolveEventHandler_EndInvoke_m16469_MethodInfo =
 };
 static const MethodInfo* ResolveEventHandler_t2755_MethodInfos[] =
 {
-	&ResolveEventHandler__ctor_m16466_MethodInfo,
-	&ResolveEventHandler_Invoke_m16467_MethodInfo,
-	&ResolveEventHandler_BeginInvoke_m16468_MethodInfo,
-	&ResolveEventHandler_EndInvoke_m16469_MethodInfo,
+	&ResolveEventHandler__ctor_m16470_MethodInfo,
+	&ResolveEventHandler_Invoke_m16471_MethodInfo,
+	&ResolveEventHandler_BeginInvoke_m16472_MethodInfo,
+	&ResolveEventHandler_EndInvoke_m16473_MethodInfo,
 	NULL
 };
-extern const MethodInfo ResolveEventHandler_Invoke_m16467_MethodInfo;
-extern const MethodInfo ResolveEventHandler_BeginInvoke_m16468_MethodInfo;
-extern const MethodInfo ResolveEventHandler_EndInvoke_m16469_MethodInfo;
+extern const MethodInfo ResolveEventHandler_Invoke_m16471_MethodInfo;
+extern const MethodInfo ResolveEventHandler_BeginInvoke_m16472_MethodInfo;
+extern const MethodInfo ResolveEventHandler_EndInvoke_m16473_MethodInfo;
 static const Il2CppMethodReference ResolveEventHandler_t2755_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&ResolveEventHandler_Invoke_m16467_MethodInfo,
-	&ResolveEventHandler_BeginInvoke_m16468_MethodInfo,
-	&ResolveEventHandler_EndInvoke_m16469_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&ResolveEventHandler_Invoke_m16471_MethodInfo,
+	&ResolveEventHandler_BeginInvoke_m16472_MethodInfo,
+	&ResolveEventHandler_EndInvoke_m16473_MethodInfo,
 };
 static bool ResolveEventHandler_t2755_VTableIsGenericMethod[] =
 {
@@ -521,21 +521,21 @@ extern TypeInfo UnhandledExceptionEventHandler_t2756_il2cpp_TypeInfo;
 #include "mscorlib_System_UnhandledExceptionEventHandlerMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler__ctor_m16470_ParameterInfos[] = 
+static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler__ctor_m16474_ParameterInfos[] = 
 {
 	{"object", 0, 134225000, 0, &Object_t_0_0_0},
 	{"method", 1, 134225001, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UnhandledExceptionEventHandler::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo UnhandledExceptionEventHandler__ctor_m16470_MethodInfo = 
+extern const MethodInfo UnhandledExceptionEventHandler__ctor_m16474_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnhandledExceptionEventHandler__ctor_m16470/* method */
+	, (methodPointerType)&UnhandledExceptionEventHandler__ctor_m16474/* method */
 	, &UnhandledExceptionEventHandler_t2756_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler__ctor_m16470_ParameterInfos/* parameters */
+	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler__ctor_m16474_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -552,21 +552,21 @@ extern const MethodInfo UnhandledExceptionEventHandler__ctor_m16470_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType UnhandledExceptionEventArgs_t2819_0_0_0;
 extern const Il2CppType UnhandledExceptionEventArgs_t2819_0_0_0;
-static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_Invoke_m16471_ParameterInfos[] = 
+static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_Invoke_m16475_ParameterInfos[] = 
 {
 	{"sender", 0, 134225002, 0, &Object_t_0_0_0},
 	{"e", 1, 134225003, 0, &UnhandledExceptionEventArgs_t2819_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UnhandledExceptionEventHandler::Invoke(System.Object,System.UnhandledExceptionEventArgs)
-extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m16471_MethodInfo = 
+extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m16475_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&UnhandledExceptionEventHandler_Invoke_m16471/* method */
+	, (methodPointerType)&UnhandledExceptionEventHandler_Invoke_m16475/* method */
 	, &UnhandledExceptionEventHandler_t2756_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_Invoke_m16471_ParameterInfos/* parameters */
+	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_Invoke_m16475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -584,7 +584,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType UnhandledExceptionEventArgs_t2819_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_BeginInvoke_m16472_ParameterInfos[] = 
+static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_BeginInvoke_m16476_ParameterInfos[] = 
 {
 	{"sender", 0, 134225004, 0, &Object_t_0_0_0},
 	{"e", 1, 134225005, 0, &UnhandledExceptionEventArgs_t2819_0_0_0},
@@ -593,14 +593,14 @@ static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExcepti
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.UnhandledExceptionEventHandler::BeginInvoke(System.Object,System.UnhandledExceptionEventArgs,System.AsyncCallback,System.Object)
-extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m16472_MethodInfo = 
+extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m16476_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&UnhandledExceptionEventHandler_BeginInvoke_m16472/* method */
+	, (methodPointerType)&UnhandledExceptionEventHandler_BeginInvoke_m16476/* method */
 	, &UnhandledExceptionEventHandler_t2756_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_BeginInvoke_m16472_ParameterInfos/* parameters */
+	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_BeginInvoke_m16476_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -615,20 +615,20 @@ extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m16472_Method
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_EndInvoke_m16473_ParameterInfos[] = 
+static const ParameterInfo UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_EndInvoke_m16477_ParameterInfos[] = 
 {
 	{"result", 0, 134225008, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UnhandledExceptionEventHandler::EndInvoke(System.IAsyncResult)
-extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m16473_MethodInfo = 
+extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m16477_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&UnhandledExceptionEventHandler_EndInvoke_m16473/* method */
+	, (methodPointerType)&UnhandledExceptionEventHandler_EndInvoke_m16477/* method */
 	, &UnhandledExceptionEventHandler_t2756_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_EndInvoke_m16473_ParameterInfos/* parameters */
+	, UnhandledExceptionEventHandler_t2756_UnhandledExceptionEventHandler_EndInvoke_m16477_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -644,30 +644,30 @@ extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m16473_MethodIn
 };
 static const MethodInfo* UnhandledExceptionEventHandler_t2756_MethodInfos[] =
 {
-	&UnhandledExceptionEventHandler__ctor_m16470_MethodInfo,
-	&UnhandledExceptionEventHandler_Invoke_m16471_MethodInfo,
-	&UnhandledExceptionEventHandler_BeginInvoke_m16472_MethodInfo,
-	&UnhandledExceptionEventHandler_EndInvoke_m16473_MethodInfo,
+	&UnhandledExceptionEventHandler__ctor_m16474_MethodInfo,
+	&UnhandledExceptionEventHandler_Invoke_m16475_MethodInfo,
+	&UnhandledExceptionEventHandler_BeginInvoke_m16476_MethodInfo,
+	&UnhandledExceptionEventHandler_EndInvoke_m16477_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m16471_MethodInfo;
-extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m16472_MethodInfo;
-extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m16473_MethodInfo;
+extern const MethodInfo UnhandledExceptionEventHandler_Invoke_m16475_MethodInfo;
+extern const MethodInfo UnhandledExceptionEventHandler_BeginInvoke_m16476_MethodInfo;
+extern const MethodInfo UnhandledExceptionEventHandler_EndInvoke_m16477_MethodInfo;
 static const Il2CppMethodReference UnhandledExceptionEventHandler_t2756_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&UnhandledExceptionEventHandler_Invoke_m16471_MethodInfo,
-	&UnhandledExceptionEventHandler_BeginInvoke_m16472_MethodInfo,
-	&UnhandledExceptionEventHandler_EndInvoke_m16473_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&UnhandledExceptionEventHandler_Invoke_m16475_MethodInfo,
+	&UnhandledExceptionEventHandler_BeginInvoke_m16476_MethodInfo,
+	&UnhandledExceptionEventHandler_EndInvoke_m16477_MethodInfo,
 };
 static bool UnhandledExceptionEventHandler_t2756_VTableIsGenericMethod[] =
 {
@@ -771,15 +771,15 @@ static const MethodInfo* U24ArrayTypeU2456_t2825_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m5713_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m5714_MethodInfo;
-extern const MethodInfo ValueType_ToString_m5717_MethodInfo;
+extern const MethodInfo ValueType_Equals_m5717_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m5718_MethodInfo;
+extern const MethodInfo ValueType_ToString_m5721_MethodInfo;
 static const Il2CppMethodReference U24ArrayTypeU2456_t2825_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2456_t2825_VTableIsGenericMethod[] =
 {
@@ -873,10 +873,10 @@ static const MethodInfo* U24ArrayTypeU2424_t2826_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2424_t2826_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2424_t2826_VTableIsGenericMethod[] =
 {
@@ -967,10 +967,10 @@ static const MethodInfo* U24ArrayTypeU2416_t2827_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2416_t2827_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2416_t2827_VTableIsGenericMethod[] =
 {
@@ -1061,10 +1061,10 @@ static const MethodInfo* U24ArrayTypeU24120_t2828_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24120_t2828_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24120_t2828_VTableIsGenericMethod[] =
 {
@@ -1155,10 +1155,10 @@ static const MethodInfo* U24ArrayTypeU243132_t2829_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU243132_t2829_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU243132_t2829_VTableIsGenericMethod[] =
 {
@@ -1249,10 +1249,10 @@ static const MethodInfo* U24ArrayTypeU2420_t2830_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2420_t2830_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2420_t2830_VTableIsGenericMethod[] =
 {
@@ -1343,10 +1343,10 @@ static const MethodInfo* U24ArrayTypeU2432_t2831_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2432_t2831_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2432_t2831_VTableIsGenericMethod[] =
 {
@@ -1437,10 +1437,10 @@ static const MethodInfo* U24ArrayTypeU2448_t2832_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2448_t2832_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2448_t2832_VTableIsGenericMethod[] =
 {
@@ -1531,10 +1531,10 @@ static const MethodInfo* U24ArrayTypeU2464_t2833_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2464_t2833_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2464_t2833_VTableIsGenericMethod[] =
 {
@@ -1625,10 +1625,10 @@ static const MethodInfo* U24ArrayTypeU2412_t2834_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2412_t2834_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2412_t2834_VTableIsGenericMethod[] =
 {
@@ -1719,10 +1719,10 @@ static const MethodInfo* U24ArrayTypeU24136_t2835_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24136_t2835_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24136_t2835_VTableIsGenericMethod[] =
 {
@@ -1813,10 +1813,10 @@ static const MethodInfo* U24ArrayTypeU2472_t2836_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2472_t2836_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2472_t2836_VTableIsGenericMethod[] =
 {
@@ -1907,10 +1907,10 @@ static const MethodInfo* U24ArrayTypeU24124_t2837_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24124_t2837_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24124_t2837_VTableIsGenericMethod[] =
 {
@@ -2001,10 +2001,10 @@ static const MethodInfo* U24ArrayTypeU2496_t2838_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2496_t2838_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2496_t2838_VTableIsGenericMethod[] =
 {
@@ -2095,10 +2095,10 @@ static const MethodInfo* U24ArrayTypeU242048_t2839_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU242048_t2839_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU242048_t2839_VTableIsGenericMethod[] =
 {
@@ -2189,10 +2189,10 @@ static const MethodInfo* U24ArrayTypeU24256_t2840_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24256_t2840_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24256_t2840_VTableIsGenericMethod[] =
 {
@@ -2283,10 +2283,10 @@ static const MethodInfo* U24ArrayTypeU241024_t2841_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU241024_t2841_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU241024_t2841_VTableIsGenericMethod[] =
 {
@@ -2377,10 +2377,10 @@ static const MethodInfo* U24ArrayTypeU24640_t2842_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24640_t2842_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24640_t2842_VTableIsGenericMethod[] =
 {
@@ -2471,10 +2471,10 @@ static const MethodInfo* U24ArrayTypeU24128_t2843_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24128_t2843_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24128_t2843_VTableIsGenericMethod[] =
 {
@@ -2565,10 +2565,10 @@ static const MethodInfo* U24ArrayTypeU2452_t2844_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2452_t2844_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2452_t2844_VTableIsGenericMethod[] =
 {

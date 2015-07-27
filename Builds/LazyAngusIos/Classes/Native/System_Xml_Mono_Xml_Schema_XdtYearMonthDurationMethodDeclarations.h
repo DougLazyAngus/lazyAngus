@@ -8,4 +8,4 @@
 struct XdtYearMonthDuration_t1535;
 
 // System.Void Mono.Xml.Schema.XdtYearMonthDuration::.ctor()
-extern "C" void XdtYearMonthDuration__ctor_m7550 (XdtYearMonthDuration_t1535 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtYearMonthDuration__ctor_m7554 (XdtYearMonthDuration_t1535 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

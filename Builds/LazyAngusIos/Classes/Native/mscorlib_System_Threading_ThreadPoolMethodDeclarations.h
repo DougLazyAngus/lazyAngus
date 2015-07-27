@@ -12,4 +12,4 @@ struct WaitCallback_t2060;
 struct Object_t;
 
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern "C" bool ThreadPool_QueueUserWorkItem_m11541 (Object_t * __this /* static, unused */, WaitCallback_t2060 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m11545 (Object_t * __this /* static, unused */, WaitCallback_t2060 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

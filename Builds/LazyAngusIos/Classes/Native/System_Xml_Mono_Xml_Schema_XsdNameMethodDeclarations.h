@@ -10,6 +10,6 @@ struct XsdName_t1504;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdName::.ctor()
-extern "C" void XsdName__ctor_m7504 (XsdName_t1504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdName__ctor_m7508 (XsdName_t1504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdName::get_TokenizedType()
-extern "C" int32_t XsdName_get_TokenizedType_m7505 (XsdName_t1504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdName_get_TokenizedType_m7509 (XsdName_t1504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

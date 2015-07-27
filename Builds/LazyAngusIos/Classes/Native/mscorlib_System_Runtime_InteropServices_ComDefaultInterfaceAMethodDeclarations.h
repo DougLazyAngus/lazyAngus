@@ -10,4 +10,4 @@ struct ComDefaultInterfaceAttribute_t2544;
 struct Type_t;
 
 // System.Void System.Runtime.InteropServices.ComDefaultInterfaceAttribute::.ctor(System.Type)
-extern "C" void ComDefaultInterfaceAttribute__ctor_m14500 (ComDefaultInterfaceAttribute_t2544 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComDefaultInterfaceAttribute__ctor_m14504 (ComDefaultInterfaceAttribute_t2544 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;

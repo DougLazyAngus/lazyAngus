@@ -10,14 +10,14 @@ struct RC2_t1880;
 struct String_t;
 
 // System.Void System.Security.Cryptography.RC2::.ctor()
-extern "C" void RC2__ctor_m15054 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2__ctor_m15058 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RC2 System.Security.Cryptography.RC2::Create()
-extern "C" RC2_t1880 * RC2_Create_m9610 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RC2_t1880 * RC2_Create_m9614 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RC2 System.Security.Cryptography.RC2::Create(System.String)
-extern "C" RC2_t1880 * RC2_Create_m15055 (Object_t * __this /* static, unused */, String_t* ___AlgName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RC2_t1880 * RC2_Create_m15059 (Object_t * __this /* static, unused */, String_t* ___AlgName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RC2::get_EffectiveKeySize()
-extern "C" int32_t RC2_get_EffectiveKeySize_m15056 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RC2_get_EffectiveKeySize_m15060 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RC2::get_KeySize()
-extern "C" int32_t RC2_get_KeySize_m15057 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RC2_get_KeySize_m15061 (RC2_t1880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RC2::set_KeySize(System.Int32)
-extern "C" void RC2_set_KeySize_m15058 (RC2_t1880 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2_set_KeySize_m15062 (RC2_t1880 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

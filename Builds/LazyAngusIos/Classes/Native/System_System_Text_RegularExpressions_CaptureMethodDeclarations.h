@@ -10,16 +10,16 @@ struct Capture_t2109;
 struct String_t;
 
 // System.Void System.Text.RegularExpressions.Capture::.ctor(System.String)
-extern "C" void Capture__ctor_m11041 (Capture_t2109 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Capture__ctor_m11045 (Capture_t2109 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Capture::.ctor(System.String,System.Int32,System.Int32)
-extern "C" void Capture__ctor_m11042 (Capture_t2109 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Capture__ctor_m11046 (Capture_t2109 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Capture::get_Index()
-extern "C" int32_t Capture_get_Index_m11043 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Capture_get_Index_m11047 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Capture::get_Length()
-extern "C" int32_t Capture_get_Length_m11044 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Capture_get_Length_m11048 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Capture::get_Value()
-extern "C" String_t* Capture_get_Value_m9649 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Capture_get_Value_m9653 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Capture::ToString()
-extern "C" String_t* Capture_ToString_m11045 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Capture_ToString_m11049 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Capture::get_Text()
-extern "C" String_t* Capture_get_Text_m11046 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Capture_get_Text_m11050 (Capture_t2109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -4,7 +4,10 @@ using System.Collections;
 public class GoogleAdController : MonoBehaviour {
 
 	bool registeredForEvents;
-	
+	bool interstitialAdLoaded = false;
+
+	public int wavesBetweenInterstitial = 5;
+
 	GoogleMobileAdBanner banner;
 
 	void Awake() {
@@ -15,6 +18,12 @@ public class GoogleAdController : MonoBehaviour {
 		banner.Hide ();
 		banner.ShowOnLoad = false;
 		Debug.Log ("Banner Hide 01");
+
+		GoogleMobileAd.OnInterstitialLoaded += OnInterstisialsLoaded;
+		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
+		GoogleMobileAd.OnInterstitialClosed += OnInterstisialsClosed;
+
+		GoogleMobileAd.LoadInterstitialAd ();
 	}
 	
 	// Use this for initialization
@@ -26,7 +35,23 @@ public class GoogleAdController : MonoBehaviour {
 	void OnDestroy() {
 		UnregisterForEvents ();		
 	}
-	
+
+	void OnInterstisialsLoaded() {
+		interstitialAdLoaded = true;
+	}
+
+	void OnInterstisialsOpen() {
+		// Suspend normal operations.
+		TimeController.instance.PauseTime ();
+	}
+
+	void OnInterstisialsClosed() {
+		interstitialAdLoaded = false;
+		GoogleMobileAd.LoadInterstitialAd ();
+		// Resume.
+		TimeController.instance.UnPauseTime ();
+	}
+
 	void RegisterForEvents() {
 		if (registeredForEvents) {
 			return;
@@ -45,6 +70,24 @@ public class GoogleAdController : MonoBehaviour {
 
 	void OnGamePhaseChanged() {
 		UpdateBanner ();
+		MaybePresentInterstitial ();
+	}
+
+	bool MaybePresentInterstitial() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_END) {
+			return false;
+		}
+
+		if ((GameLevelState.instance.gameLevel % wavesBetweenInterstitial) != 0) {
+			return false;
+		}
+
+		if (!interstitialAdLoaded) {
+			return false;
+		}
+
+		GoogleMobileAd.ShowInterstitialAd ();
+		return true;
 	}
 
 	void UpdateBanner() {

@@ -16,16 +16,16 @@ struct SerializationInfo_t1301;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.Sockets.SocketException::.ctor()
-extern "C" void SocketException__ctor_m10105 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketException__ctor_m10109 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.SocketException::.ctor(System.Int32)
-extern "C" void SocketException__ctor_m10106 (SocketException_t1989 * __this, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketException__ctor_m10110 (SocketException_t1989 * __this, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SocketException__ctor_m10107 (SocketException_t1989 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketException__ctor_m10111 (SocketException_t1989 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.SocketException::.ctor(System.Int32,System.String)
-extern "C" void SocketException__ctor_m10108 (SocketException_t1989 * __this, int32_t ___error, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketException__ctor_m10112 (SocketException_t1989 * __this, int32_t ___error, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
-extern "C" int32_t SocketException_WSAGetLastError_internal_m10109 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketException_WSAGetLastError_internal_m10113 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.SocketError System.Net.Sockets.SocketException::get_SocketErrorCode()
-extern "C" int32_t SocketException_get_SocketErrorCode_m10110 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketException_get_SocketErrorCode_m10114 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.Sockets.SocketException::get_Message()
-extern "C" String_t* SocketException_get_Message_m10111 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SocketException_get_Message_m10115 (SocketException_t1989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct DebuggableAttribute_t1490;
 #include "mscorlib_System_Diagnostics_DebuggableAttribute_DebuggingMod.h"
 
 // System.Void System.Diagnostics.DebuggableAttribute::.ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes)
-extern "C" void DebuggableAttribute__ctor_m7484 (DebuggableAttribute_t1490 * __this, int32_t ___modes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggableAttribute__ctor_m7488 (DebuggableAttribute_t1490 * __this, int32_t ___modes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

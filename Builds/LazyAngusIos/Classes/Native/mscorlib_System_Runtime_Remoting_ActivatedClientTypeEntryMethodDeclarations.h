@@ -14,10 +14,10 @@ struct IContextAttributeU5BU5D_t2858;
 struct Type_t;
 
 // System.String System.Runtime.Remoting.ActivatedClientTypeEntry::get_ApplicationUrl()
-extern "C" String_t* ActivatedClientTypeEntry_get_ApplicationUrl_m14734 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ActivatedClientTypeEntry_get_ApplicationUrl_m14738 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.IContextAttribute[] System.Runtime.Remoting.ActivatedClientTypeEntry::get_ContextAttributes()
-extern "C" IContextAttributeU5BU5D_t2858* ActivatedClientTypeEntry_get_ContextAttributes_m14735 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IContextAttributeU5BU5D_t2858* ActivatedClientTypeEntry_get_ContextAttributes_m14739 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.ActivatedClientTypeEntry::get_ObjectType()
-extern "C" Type_t * ActivatedClientTypeEntry_get_ObjectType_m14736 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ActivatedClientTypeEntry_get_ObjectType_m14740 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.ActivatedClientTypeEntry::ToString()
-extern "C" String_t* ActivatedClientTypeEntry_ToString_m14737 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ActivatedClientTypeEntry_ToString_m14741 (ActivatedClientTypeEntry_t2600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

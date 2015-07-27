@@ -17,22 +17,22 @@ struct IEnumerator_t21;
 struct Object_t;
 
 // System.Void UnityEngine.MonoBehaviour::.ctor()
-extern "C" void MonoBehaviour__ctor_m3063 (MonoBehaviour_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour__ctor_m3067 (MonoBehaviour_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
-extern "C" void MonoBehaviour_Invoke_m3423 (MonoBehaviour_t66 * __this, String_t* ___methodName, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_Invoke_m3427 (MonoBehaviour_t66 * __this, String_t* ___methodName, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::CancelInvoke(System.String)
-extern "C" void MonoBehaviour_CancelInvoke_m3422 (MonoBehaviour_t66 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_CancelInvoke_m3426 (MonoBehaviour_t66 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-extern "C" Coroutine_t844 * MonoBehaviour_StartCoroutine_m3125 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t844 * MonoBehaviour_StartCoroutine_m3129 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine_Auto(System.Collections.IEnumerator)
-extern "C" Coroutine_t844 * MonoBehaviour_StartCoroutine_Auto_m6458 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t844 * MonoBehaviour_StartCoroutine_Auto_m6462 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.Collections.IEnumerator)
-extern "C" void MonoBehaviour_StopCoroutine_m3573 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_m3577 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_m5460 (MonoBehaviour_t66 * __this, Coroutine_t844 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_m5464 (MonoBehaviour_t66 * __this, Coroutine_t844 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)
-extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m6459 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m6463 (MonoBehaviour_t66 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_Auto_m6460 (MonoBehaviour_t66 * __this, Coroutine_t844 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_Auto_m6464 (MonoBehaviour_t66 * __this, Coroutine_t844 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::print(System.Object)
-extern "C" void MonoBehaviour_print_m3384 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_print_m3388 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;

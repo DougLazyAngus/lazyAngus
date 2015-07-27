@@ -14,24 +14,24 @@ struct Selectable_t797;
 #include "UnityEngine_UI_UnityEngine_UI_Navigation.h"
 
 // UnityEngine.UI.Navigation/Mode UnityEngine.UI.Navigation::get_mode()
-extern "C" int32_t Navigation_get_mode_m4605 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Navigation_get_mode_m4609 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_mode(UnityEngine.UI.Navigation/Mode)
-extern "C" void Navigation_set_mode_m4606 (Navigation_t847 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_mode_m4610 (Navigation_t847 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnUp()
-extern "C" Selectable_t797 * Navigation_get_selectOnUp_m4607 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t797 * Navigation_get_selectOnUp_m4611 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnUp(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnUp_m4608 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnUp_m4612 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnDown()
-extern "C" Selectable_t797 * Navigation_get_selectOnDown_m4609 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t797 * Navigation_get_selectOnDown_m4613 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnDown(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnDown_m4610 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnDown_m4614 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnLeft()
-extern "C" Selectable_t797 * Navigation_get_selectOnLeft_m4611 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t797 * Navigation_get_selectOnLeft_m4615 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnLeft(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnLeft_m4612 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnLeft_m4616 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnRight()
-extern "C" Selectable_t797 * Navigation_get_selectOnRight_m4613 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t797 * Navigation_get_selectOnRight_m4617 (Navigation_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnRight(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnRight_m4614 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnRight_m4618 (Navigation_t847 * __this, Selectable_t797 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Navigation UnityEngine.UI.Navigation::get_defaultNavigation()
-extern "C" Navigation_t847  Navigation_get_defaultNavigation_m4615 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Navigation_t847  Navigation_get_defaultNavigation_m4619 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

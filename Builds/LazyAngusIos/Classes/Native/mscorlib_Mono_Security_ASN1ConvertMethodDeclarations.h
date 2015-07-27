@@ -14,8 +14,8 @@ struct String_t;
 #include "mscorlib_System_DateTime.h"
 
 // System.Int32 Mono.Security.ASN1Convert::ToInt32(Mono.Security.ASN1)
-extern "C" int32_t ASN1Convert_ToInt32_m13099 (Object_t * __this /* static, unused */, ASN1_t2378 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ASN1Convert_ToInt32_m13103 (Object_t * __this /* static, unused */, ASN1_t2378 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.ASN1Convert::ToOid(Mono.Security.ASN1)
-extern "C" String_t* ASN1Convert_ToOid_m13100 (Object_t * __this /* static, unused */, ASN1_t2378 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ASN1Convert_ToOid_m13104 (Object_t * __this /* static, unused */, ASN1_t2378 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime Mono.Security.ASN1Convert::ToDateTime(Mono.Security.ASN1)
-extern "C" DateTime_t247  ASN1Convert_ToDateTime_m13101 (Object_t * __this /* static, unused */, ASN1_t2378 * ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t247  ASN1Convert_ToDateTime_m13105 (Object_t * __this /* static, unused */, ASN1_t2378 * ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

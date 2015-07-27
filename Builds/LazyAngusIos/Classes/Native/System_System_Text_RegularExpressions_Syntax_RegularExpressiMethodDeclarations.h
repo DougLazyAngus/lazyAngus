@@ -10,8 +10,8 @@ struct RegularExpression_t2150;
 struct ICompiler_t2184;
 
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::.ctor()
-extern "C" void RegularExpression__ctor_m11322 (RegularExpression_t2150 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression__ctor_m11326 (RegularExpression_t2150 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::set_GroupCount(System.Int32)
-extern "C" void RegularExpression_set_GroupCount_m11323 (RegularExpression_t2150 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression_set_GroupCount_m11327 (RegularExpression_t2150 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void RegularExpression_Compile_m11324 (RegularExpression_t2150 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression_Compile_m11328 (RegularExpression_t2150 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -92,10 +92,10 @@ extern TypeInfo MSCompatUnicodeTable_t1484_il2cpp_TypeInfo;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Replacements.MSCompatUnicodeTable::get_IsReady()
-extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo = 
+extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7481_MethodInfo = 
 {
 	"get_IsReady"/* name */
-	, (methodPointerType)&MSCompatUnicodeTable_get_IsReady_m7477/* method */
+	, (methodPointerType)&MSCompatUnicodeTable_get_IsReady_m7481/* method */
 	, &MSCompatUnicodeTable_t1484_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -115,15 +115,15 @@ extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo =
 };
 static const MethodInfo* MSCompatUnicodeTable_t1484_MethodInfos[] =
 {
-	&MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo,
+	&MSCompatUnicodeTable_get_IsReady_m7481_MethodInfo,
 	NULL
 };
-extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo;
+extern const MethodInfo MSCompatUnicodeTable_get_IsReady_m7481_MethodInfo;
 static const PropertyInfo MSCompatUnicodeTable_t1484____IsReady_PropertyInfo = 
 {
 	&MSCompatUnicodeTable_t1484_il2cpp_TypeInfo/* parent */
 	, "IsReady"/* name */
-	, &MSCompatUnicodeTable_get_IsReady_m7477_MethodInfo/* get */
+	, &MSCompatUnicodeTable_get_IsReady_m7481_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -231,21 +231,21 @@ extern TypeInfo SecurityElement_t1485_il2cpp_TypeInfo;
 // Replacements.SecurityElement
 #include "replacements_Replacements_SecurityElementMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SecurityElement_t1485_SecurityElement_ToString_m7478_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t1485_SecurityElement_ToString_m7482_ParameterInfos[] = 
 {
 	{"__this", 0, 134217729, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType String_t_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Replacements.SecurityElement::ToString(System.Object)
-extern const MethodInfo SecurityElement_ToString_m7478_MethodInfo = 
+extern const MethodInfo SecurityElement_ToString_m7482_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&SecurityElement_ToString_m7478/* method */
+	, (methodPointerType)&SecurityElement_ToString_m7482/* method */
 	, &SecurityElement_t1485_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t1485_SecurityElement_ToString_m7478_ParameterInfos/* parameters */
+	, SecurityElement_t1485_SecurityElement_ToString_m7482_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -261,7 +261,7 @@ extern const MethodInfo SecurityElement_ToString_m7478_MethodInfo =
 };
 static const MethodInfo* SecurityElement_t1485_MethodInfos[] =
 {
-	&SecurityElement_ToString_m7478_MethodInfo,
+	&SecurityElement_ToString_m7482_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SecurityElement_t1485_VTable[] =
@@ -359,7 +359,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_0;
-static const ParameterInfo RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7479_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7483_ParameterInfos[] = 
 {
 	{"url", 0, 134217730, 0, &String_t_0_0_0},
 	{"channelData", 1, 134217731, 0, &Object_t_0_0_0},
@@ -368,14 +368,14 @@ static const ParameterInfo RemotingServices_t1486_RemotingServices_GetClientChan
 extern const Il2CppType IMessageSink_t1487_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t707 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m7479_MethodInfo = 
+extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m7483_MethodInfo = 
 {
 	"GetClientChannelSinkChain"/* name */
-	, (methodPointerType)&RemotingServices_GetClientChannelSinkChain_m7479/* method */
+	, (methodPointerType)&RemotingServices_GetClientChannelSinkChain_m7483/* method */
 	, &RemotingServices_t1486_il2cpp_TypeInfo/* declaring_type */
 	, &IMessageSink_t1487_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t707/* invoker_method */
-	, RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7479_ParameterInfos/* parameters */
+	, RemotingServices_t1486_RemotingServices_GetClientChannelSinkChain_m7483_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -394,7 +394,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo RemotingServices_t1486_RemotingServices_CreateClientProxy_m7480_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t1486_RemotingServices_CreateClientProxy_m7484_ParameterInfos[] = 
 {
 	{"objectType", 0, 134217733, 0, &Type_t_0_0_0},
 	{"url", 1, 134217734, 0, &String_t_0_0_0},
@@ -402,14 +402,14 @@ static const ParameterInfo RemotingServices_t1486_RemotingServices_CreateClientP
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern const MethodInfo RemotingServices_CreateClientProxy_m7480_MethodInfo = 
+extern const MethodInfo RemotingServices_CreateClientProxy_m7484_MethodInfo = 
 {
 	"CreateClientProxy"/* name */
-	, (methodPointerType)&RemotingServices_CreateClientProxy_m7480/* method */
+	, (methodPointerType)&RemotingServices_CreateClientProxy_m7484/* method */
 	, &RemotingServices_t1486_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t1486_RemotingServices_CreateClientProxy_m7480_ParameterInfos/* parameters */
+	, RemotingServices_t1486_RemotingServices_CreateClientProxy_m7484_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -425,8 +425,8 @@ extern const MethodInfo RemotingServices_CreateClientProxy_m7480_MethodInfo =
 };
 static const MethodInfo* RemotingServices_t1486_MethodInfos[] =
 {
-	&RemotingServices_GetClientChannelSinkChain_m7479_MethodInfo,
-	&RemotingServices_CreateClientProxy_m7480_MethodInfo,
+	&RemotingServices_GetClientChannelSinkChain_m7483_MethodInfo,
+	&RemotingServices_CreateClientProxy_m7484_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference RemotingServices_t1486_VTable[] =

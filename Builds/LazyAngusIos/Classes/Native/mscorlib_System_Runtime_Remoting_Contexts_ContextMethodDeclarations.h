@@ -12,14 +12,14 @@ struct IContextProperty_t2855;
 struct String_t;
 
 // System.Void System.Runtime.Remoting.Contexts.Context::.cctor()
-extern "C" void Context__cctor_m14562 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context__cctor_m14566 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Contexts.Context::Finalize()
-extern "C" void Context_Finalize_m14563 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_Finalize_m14567 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.Contexts.Context::get_DefaultContext()
-extern "C" Context_t2568 * Context_get_DefaultContext_m14564 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Context_t2568 * Context_get_DefaultContext_m14568 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.Context::get_IsDefaultContext()
-extern "C" bool Context_get_IsDefaultContext_m14565 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Context_get_IsDefaultContext_m14569 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.IContextProperty System.Runtime.Remoting.Contexts.Context::GetProperty(System.String)
-extern "C" Object_t * Context_GetProperty_m14566 (Context_t2568 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Context_GetProperty_m14570 (Context_t2568 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Contexts.Context::ToString()
-extern "C" String_t* Context_ToString_m14567 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Context_ToString_m14571 (Context_t2568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

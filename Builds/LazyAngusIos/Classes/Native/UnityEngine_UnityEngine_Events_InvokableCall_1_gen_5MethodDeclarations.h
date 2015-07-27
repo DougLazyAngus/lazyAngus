@@ -18,10 +18,10 @@ struct ObjectU5BU5D_t582;
 // System.Void UnityEngine.Events.InvokableCall`1<System.String>::.ctor(System.Object,System.Reflection.MethodInfo)
 // UnityEngine.Events.InvokableCall`1<System.Object>
 #include "UnityEngine_UnityEngine_Events_InvokableCall_1_genMethodDeclarations.h"
-#define InvokableCall_1__ctor_m28036(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t4077 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m23459_gshared)(__this, ___target, ___theFunction, method)
+#define InvokableCall_1__ctor_m28040(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t4077 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m23463_gshared)(__this, ___target, ___theFunction, method)
 // System.Void UnityEngine.Events.InvokableCall`1<System.String>::.ctor(UnityEngine.Events.UnityAction`1<T1>)
-#define InvokableCall_1__ctor_m28037(__this, ___callback, method) (( void (*) (InvokableCall_1_t4077 *, UnityAction_1_t3832 *, const MethodInfo*))InvokableCall_1__ctor_m23460_gshared)(__this, ___callback, method)
+#define InvokableCall_1__ctor_m28041(__this, ___callback, method) (( void (*) (InvokableCall_1_t4077 *, UnityAction_1_t3832 *, const MethodInfo*))InvokableCall_1__ctor_m23464_gshared)(__this, ___callback, method)
 // System.Void UnityEngine.Events.InvokableCall`1<System.String>::Invoke(System.Object[])
-#define InvokableCall_1_Invoke_m28038(__this, ___args, method) (( void (*) (InvokableCall_1_t4077 *, ObjectU5BU5D_t582*, const MethodInfo*))InvokableCall_1_Invoke_m23461_gshared)(__this, ___args, method)
+#define InvokableCall_1_Invoke_m28042(__this, ___args, method) (( void (*) (InvokableCall_1_t4077 *, ObjectU5BU5D_t582*, const MethodInfo*))InvokableCall_1_Invoke_m23465_gshared)(__this, ___args, method)
 // System.Boolean UnityEngine.Events.InvokableCall`1<System.String>::Find(System.Object,System.Reflection.MethodInfo)
-#define InvokableCall_1_Find_m28039(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t4077 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m23462_gshared)(__this, ___targetObj, ___method, method)
+#define InvokableCall_1_Find_m28043(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t4077 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m23466_gshared)(__this, ___targetObj, ___method, method)

@@ -8,4 +8,4 @@
 struct Base64Constants_t2653;
 
 // System.Void System.Security.Cryptography.Base64Constants::.cctor()
-extern "C" void Base64Constants__cctor_m14941 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Base64Constants__cctor_m14945 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

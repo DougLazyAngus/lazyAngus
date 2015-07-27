@@ -20,10 +20,10 @@ struct AsyncCallback_t346;
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>
 #include "UnityEngine_UnityEngine_Networking_Match_NetworkMatch_Respon_3MethodDeclarations.h"
-#define ResponseDelegate_1__ctor_m27135(__this, ___object, ___method, method) (( void (*) (ResponseDelegate_1_t1288 *, Object_t *, IntPtr_t, const MethodInfo*))ResponseDelegate_1__ctor_m27123_gshared)(__this, ___object, ___method, method)
+#define ResponseDelegate_1__ctor_m27139(__this, ___object, ___method, method) (( void (*) (ResponseDelegate_1_t1288 *, Object_t *, IntPtr_t, const MethodInfo*))ResponseDelegate_1__ctor_m27127_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>::Invoke(T)
-#define ResponseDelegate_1_Invoke_m27136(__this, ___response, method) (( void (*) (ResponseDelegate_1_t1288 *, JoinMatchResponse_t1174 *, const MethodInfo*))ResponseDelegate_1_Invoke_m27125_gshared)(__this, ___response, method)
+#define ResponseDelegate_1_Invoke_m27140(__this, ___response, method) (( void (*) (ResponseDelegate_1_t1288 *, JoinMatchResponse_t1174 *, const MethodInfo*))ResponseDelegate_1_Invoke_m27129_gshared)(__this, ___response, method)
 // System.IAsyncResult UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define ResponseDelegate_1_BeginInvoke_m27137(__this, ___response, ___callback, ___object, method) (( Object_t * (*) (ResponseDelegate_1_t1288 *, JoinMatchResponse_t1174 *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))ResponseDelegate_1_BeginInvoke_m27127_gshared)(__this, ___response, ___callback, ___object, method)
+#define ResponseDelegate_1_BeginInvoke_m27141(__this, ___response, ___callback, ___object, method) (( Object_t * (*) (ResponseDelegate_1_t1288 *, JoinMatchResponse_t1174 *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))ResponseDelegate_1_BeginInvoke_m27131_gshared)(__this, ___response, ___callback, ___object, method)
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>::EndInvoke(System.IAsyncResult)
-#define ResponseDelegate_1_EndInvoke_m27138(__this, ___result, method) (( void (*) (ResponseDelegate_1_t1288 *, Object_t *, const MethodInfo*))ResponseDelegate_1_EndInvoke_m27129_gshared)(__this, ___result, method)
+#define ResponseDelegate_1_EndInvoke_m27142(__this, ___result, method) (( void (*) (ResponseDelegate_1_t1288 *, Object_t *, const MethodInfo*))ResponseDelegate_1_EndInvoke_m27133_gshared)(__this, ___result, method)

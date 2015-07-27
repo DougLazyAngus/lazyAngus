@@ -10,5 +10,5 @@ struct AsymmetricKeyExchangeFormatter_t2652;
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.Cryptography.AsymmetricKeyExchangeFormatter::.ctor()
-extern "C" void AsymmetricKeyExchangeFormatter__ctor_m14940 (AsymmetricKeyExchangeFormatter_t2652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricKeyExchangeFormatter__ctor_m14944 (AsymmetricKeyExchangeFormatter_t2652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.AsymmetricKeyExchangeFormatter::CreateKeyExchange(System.Byte[])

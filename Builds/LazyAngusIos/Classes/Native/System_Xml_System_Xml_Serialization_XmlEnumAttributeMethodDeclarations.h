@@ -10,4 +10,4 @@ struct XmlEnumAttribute_t1566;
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
-extern "C" void XmlEnumAttribute__ctor_m7596 (XmlEnumAttribute_t1566 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlEnumAttribute__ctor_m7600 (XmlEnumAttribute_t1566 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

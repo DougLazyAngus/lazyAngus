@@ -8,4 +8,4 @@
 struct ExtensionAttribute_t699;
 
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern "C" void ExtensionAttribute__ctor_m3724 (ExtensionAttribute_t699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtensionAttribute__ctor_m3728 (ExtensionAttribute_t699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

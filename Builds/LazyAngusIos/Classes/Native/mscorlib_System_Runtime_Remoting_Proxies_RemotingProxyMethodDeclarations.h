@@ -16,12 +16,12 @@ struct ClientIdentity_t2604;
 struct ObjectU5BU5D_t582;
 
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.ctor(System.Type,System.Runtime.Remoting.ClientIdentity)
-extern "C" void RemotingProxy__ctor_m14727 (RemotingProxy_t2598 * __this, Type_t * ___type, ClientIdentity_t2604 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingProxy__ctor_m14731 (RemotingProxy_t2598 * __this, Type_t * ___type, ClientIdentity_t2604 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.ctor(System.Type,System.String,System.Object[])
-extern "C" void RemotingProxy__ctor_m14728 (RemotingProxy_t2598 * __this, Type_t * ___type, String_t* ___activationUrl, ObjectU5BU5D_t582* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingProxy__ctor_m14732 (RemotingProxy_t2598 * __this, Type_t * ___type, String_t* ___activationUrl, ObjectU5BU5D_t582* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.cctor()
-extern "C" void RemotingProxy__cctor_m14729 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingProxy__cctor_m14733 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Proxies.RemotingProxy::get_TypeName()
-extern "C" String_t* RemotingProxy_get_TypeName_m14730 (RemotingProxy_t2598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingProxy_get_TypeName_m14734 (RemotingProxy_t2598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::Finalize()
-extern "C" void RemotingProxy_Finalize_m14731 (RemotingProxy_t2598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingProxy_Finalize_m14735 (RemotingProxy_t2598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -28,32 +28,32 @@ struct Exception_t27;
 #include "System_System_Net_Sockets_Socket_SocketOperation.h"
 
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::.ctor(System.Net.Sockets.Socket,System.Object,System.AsyncCallback,System.Net.Sockets.Socket/SocketOperation)
-extern "C" void SocketAsyncResult__ctor_m10015 (SocketAsyncResult_t1983 * __this, Socket_t1975 * ___sock, Object_t * ___state, AsyncCallback_t346 * ___callback, int32_t ___operation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult__ctor_m10019 (SocketAsyncResult_t1983 * __this, Socket_t1975 * ___sock, Object_t * ___state, AsyncCallback_t346 * ___callback, int32_t ___operation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::CheckIfThrowDelayedException()
-extern "C" void SocketAsyncResult_CheckIfThrowDelayedException_m10016 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_CheckIfThrowDelayedException_m10020 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::CompleteAllOnDispose(System.Collections.Queue)
-extern "C" void SocketAsyncResult_CompleteAllOnDispose_m10017 (SocketAsyncResult_t1983 * __this, Queue_t1986 * ___queue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_CompleteAllOnDispose_m10021 (SocketAsyncResult_t1983 * __this, Queue_t1986 * ___queue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::CompleteDisposed(System.Object)
-extern "C" void SocketAsyncResult_CompleteDisposed_m10018 (SocketAsyncResult_t1983 * __this, Object_t * ___unused, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_CompleteDisposed_m10022 (SocketAsyncResult_t1983 * __this, Object_t * ___unused, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::Complete()
-extern "C" void SocketAsyncResult_Complete_m10019 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_Complete_m10023 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.Socket/SocketAsyncCall System.Net.Sockets.Socket/SocketAsyncResult::GetDelegate(System.Net.Sockets.Socket/Worker,System.Net.Sockets.Socket/SocketOperation)
-extern "C" SocketAsyncCall_t1985 * SocketAsyncResult_GetDelegate_m10020 (SocketAsyncResult_t1983 * __this, Worker_t1984 * ___worker, int32_t ___op, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SocketAsyncCall_t1985 * SocketAsyncResult_GetDelegate_m10024 (SocketAsyncResult_t1983 * __this, Worker_t1984 * ___worker, int32_t ___op, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::Complete(System.Int32)
-extern "C" void SocketAsyncResult_Complete_m10021 (SocketAsyncResult_t1983 * __this, int32_t ___total, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_Complete_m10025 (SocketAsyncResult_t1983 * __this, int32_t ___total, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::Complete(System.Exception)
-extern "C" void SocketAsyncResult_Complete_m10022 (SocketAsyncResult_t1983 * __this, Exception_t27 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_Complete_m10026 (SocketAsyncResult_t1983 * __this, Exception_t27 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Net.Sockets.Socket/SocketAsyncResult::get_AsyncState()
-extern "C" Object_t * SocketAsyncResult_get_AsyncState_m10023 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SocketAsyncResult_get_AsyncState_m10027 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.WaitHandle System.Net.Sockets.Socket/SocketAsyncResult::get_AsyncWaitHandle()
-extern "C" WaitHandle_t1861 * SocketAsyncResult_get_AsyncWaitHandle_m10024 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WaitHandle_t1861 * SocketAsyncResult_get_AsyncWaitHandle_m10028 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket/SocketAsyncResult::get_IsCompleted()
-extern "C" bool SocketAsyncResult_get_IsCompleted_m10025 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SocketAsyncResult_get_IsCompleted_m10029 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::set_IsCompleted(System.Boolean)
-extern "C" void SocketAsyncResult_set_IsCompleted_m10026 (SocketAsyncResult_t1983 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_set_IsCompleted_m10030 (SocketAsyncResult_t1983 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket/SocketAsyncResult::get_Total()
-extern "C" int32_t SocketAsyncResult_get_Total_m10027 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketAsyncResult_get_Total_m10031 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket/SocketAsyncResult::set_Total(System.Int32)
-extern "C" void SocketAsyncResult_set_Total_m10028 (SocketAsyncResult_t1983 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAsyncResult_set_Total_m10032 (SocketAsyncResult_t1983 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.SocketError System.Net.Sockets.Socket/SocketAsyncResult::get_ErrorCode()
-extern "C" int32_t SocketAsyncResult_get_ErrorCode_m10029 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketAsyncResult_get_ErrorCode_m10033 (SocketAsyncResult_t1983 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

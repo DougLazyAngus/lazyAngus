@@ -10,6 +10,6 @@ struct U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t1206;
 struct Object_t;
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey2::.ctor()
-extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m6881 (U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t1206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m6885 (U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t1206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey2::<>m__1(System.Object)
-extern "C" Object_t * U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m6882 (U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t1206 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m6886 (U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t1206 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;

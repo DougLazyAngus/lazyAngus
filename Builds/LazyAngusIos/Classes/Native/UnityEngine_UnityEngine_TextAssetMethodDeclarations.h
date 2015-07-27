@@ -10,6 +10,6 @@ struct TextAsset_t678;
 struct String_t;
 
 // System.String UnityEngine.TextAsset::get_text()
-extern "C" String_t* TextAsset_get_text_m3509 (TextAsset_t678 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextAsset_get_text_m3513 (TextAsset_t678 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.TextAsset::ToString()
-extern "C" String_t* TextAsset_ToString_m6326 (TextAsset_t678 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextAsset_ToString_m6330 (TextAsset_t678 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

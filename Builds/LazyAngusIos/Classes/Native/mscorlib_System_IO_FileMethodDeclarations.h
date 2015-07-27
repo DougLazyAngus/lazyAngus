@@ -18,22 +18,22 @@ struct Encoding_t638;
 #include "mscorlib_System_IO_FileMode.h"
 
 // System.Void System.IO.File::Delete(System.String)
-extern "C" void File_Delete_m13726 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void File_Delete_m13730 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.File::Exists(System.String)
-extern "C" bool File_Exists_m3681 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool File_Exists_m3685 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.FileStream System.IO.File::Open(System.String,System.IO.FileMode)
-extern "C" FileStream_t32 * File_Open_m13727 (Object_t * __this /* static, unused */, String_t* ___path, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FileStream_t32 * File_Open_m13731 (Object_t * __this /* static, unused */, String_t* ___path, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.FileStream System.IO.File::OpenRead(System.String)
 extern "C" FileStream_t32 * File_OpenRead_m194 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.StreamReader System.IO.File::OpenText(System.String)
-extern "C" StreamReader_t2033 * File_OpenText_m13728 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StreamReader_t2033 * File_OpenText_m13732 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.FileStream System.IO.File::OpenWrite(System.String)
 extern "C" FileStream_t32 * File_OpenWrite_m190 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.File::ReadAllText(System.String)
-extern "C" String_t* File_ReadAllText_m3682 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* File_ReadAllText_m3686 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.File::ReadAllText(System.String,System.Text.Encoding)
-extern "C" String_t* File_ReadAllText_m13729 (Object_t * __this /* static, unused */, String_t* ___path, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* File_ReadAllText_m13733 (Object_t * __this /* static, unused */, String_t* ___path, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.File::WriteAllText(System.String,System.String)
-extern "C" void File_WriteAllText_m3683 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___contents, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void File_WriteAllText_m3687 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___contents, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.File::WriteAllText(System.String,System.String,System.Text.Encoding)
-extern "C" void File_WriteAllText_m13730 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___contents, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void File_WriteAllText_m13734 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___contents, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;

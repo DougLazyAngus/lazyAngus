@@ -12,6 +12,6 @@ struct WebRequest_t1704;
 struct Uri_t656;
 
 // System.Void System.Net.HttpRequestCreator::.ctor()
-extern "C" void HttpRequestCreator__ctor_m10416 (HttpRequestCreator_t2038 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpRequestCreator__ctor_m10420 (HttpRequestCreator_t2038 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.HttpRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t1704 * HttpRequestCreator_Create_m10417 (HttpRequestCreator_t2038 * __this, Uri_t656 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t1704 * HttpRequestCreator_Create_m10421 (HttpRequestCreator_t2038 * __this, Uri_t656 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

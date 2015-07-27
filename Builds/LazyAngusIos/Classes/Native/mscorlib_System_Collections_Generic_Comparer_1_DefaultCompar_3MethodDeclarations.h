@@ -10,8 +10,8 @@ struct DefaultComparer_t3799;
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UIVertex>::.ctor()
-extern "C" void DefaultComparer__ctor_m24404_gshared (DefaultComparer_t3799 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m24404(__this, method) (( void (*) (DefaultComparer_t3799 *, const MethodInfo*))DefaultComparer__ctor_m24404_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m24408_gshared (DefaultComparer_t3799 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m24408(__this, method) (( void (*) (DefaultComparer_t3799 *, const MethodInfo*))DefaultComparer__ctor_m24408_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UIVertex>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m24405_gshared (DefaultComparer_t3799 * __this, UIVertex_t841  ___x, UIVertex_t841  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m24405(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t3799 *, UIVertex_t841 , UIVertex_t841 , const MethodInfo*))DefaultComparer_Compare_m24405_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m24409_gshared (DefaultComparer_t3799 * __this, UIVertex_t841  ___x, UIVertex_t841  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m24409(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t3799 *, UIVertex_t841 , UIVertex_t841 , const MethodInfo*))DefaultComparer_Compare_m24409_gshared)(__this, ___x, ___y, method)

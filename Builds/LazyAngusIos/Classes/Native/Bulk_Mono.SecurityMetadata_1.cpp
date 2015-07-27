@@ -12,7 +12,7 @@ extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate__ctor_m9494_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate__ctor_m9498_ParameterInfos[] = 
 {
 	{"context", 0, 134218534, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218535, 0, &ByteU5BU5D_t36_0_0_0},
@@ -20,14 +20,14 @@ static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate__ctor
 extern const Il2CppType Void_t57_0_0_0;
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerCertificate__ctor_m9494_MethodInfo = 
+extern const MethodInfo TlsServerCertificate__ctor_m9498_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerCertificate__ctor_m9494/* method */
+	, (methodPointerType)&TlsServerCertificate__ctor_m9498/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate__ctor_m9494_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate__ctor_m9498_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -43,10 +43,10 @@ extern const MethodInfo TlsServerCertificate__ctor_m9494_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Update()
-extern const MethodInfo TlsServerCertificate_Update_m9495_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_Update_m9499_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TlsServerCertificate_Update_m9495/* method */
+	, (methodPointerType)&TlsServerCertificate_Update_m9499/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -66,10 +66,10 @@ extern const MethodInfo TlsServerCertificate_Update_m9495_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsSsl3()
-extern const MethodInfo TlsServerCertificate_ProcessAsSsl3_m9496_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_ProcessAsSsl3_m9500_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerCertificate_ProcessAsSsl3_m9496/* method */
+	, (methodPointerType)&TlsServerCertificate_ProcessAsSsl3_m9500/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -89,10 +89,10 @@ extern const MethodInfo TlsServerCertificate_ProcessAsSsl3_m9496_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsTls1()
-extern const MethodInfo TlsServerCertificate_ProcessAsTls1_m9497_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_ProcessAsTls1_m9501_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerCertificate_ProcessAsTls1_m9497/* method */
+	, (methodPointerType)&TlsServerCertificate_ProcessAsTls1_m9501/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -112,21 +112,21 @@ extern const MethodInfo TlsServerCertificate_ProcessAsTls1_m9497_MethodInfo =
 };
 extern const Il2CppType X509Certificate_t1760_0_0_0;
 extern const Il2CppType X509Certificate_t1760_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkCertificateUsage_m9498_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkCertificateUsage_m9502_ParameterInfos[] = 
 {
 	{"cert", 0, 134218536, 0, &X509Certificate_t1760_0_0_0},
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkCertificateUsage(Mono.Security.X509.X509Certificate)
-extern const MethodInfo TlsServerCertificate_checkCertificateUsage_m9498_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_checkCertificateUsage_m9502_MethodInfo = 
 {
 	"checkCertificateUsage"/* name */
-	, (methodPointerType)&TlsServerCertificate_checkCertificateUsage_m9498/* method */
+	, (methodPointerType)&TlsServerCertificate_checkCertificateUsage_m9502/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate_checkCertificateUsage_m9498_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate_checkCertificateUsage_m9502_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -142,20 +142,20 @@ extern const MethodInfo TlsServerCertificate_checkCertificateUsage_m9498_MethodI
 };
 extern const Il2CppType X509CertificateCollection_t1755_0_0_0;
 extern const Il2CppType X509CertificateCollection_t1755_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_validateCertificates_m9499_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_validateCertificates_m9503_ParameterInfos[] = 
 {
 	{"certificates", 0, 134218537, 0, &X509CertificateCollection_t1755_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::validateCertificates(Mono.Security.X509.X509CertificateCollection)
-extern const MethodInfo TlsServerCertificate_validateCertificates_m9499_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_validateCertificates_m9503_MethodInfo = 
 {
 	"validateCertificates"/* name */
-	, (methodPointerType)&TlsServerCertificate_validateCertificates_m9499/* method */
+	, (methodPointerType)&TlsServerCertificate_validateCertificates_m9503/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate_validateCertificates_m9499_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate_validateCertificates_m9503_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -170,20 +170,20 @@ extern const MethodInfo TlsServerCertificate_validateCertificates_m9499_MethodIn
 
 };
 extern const Il2CppType X509Certificate_t1760_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkServerIdentity_m9500_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkServerIdentity_m9504_ParameterInfos[] = 
 {
 	{"cert", 0, 134218538, 0, &X509Certificate_t1760_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkServerIdentity(Mono.Security.X509.X509Certificate)
-extern const MethodInfo TlsServerCertificate_checkServerIdentity_m9500_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_checkServerIdentity_m9504_MethodInfo = 
 {
 	"checkServerIdentity"/* name */
-	, (methodPointerType)&TlsServerCertificate_checkServerIdentity_m9500/* method */
+	, (methodPointerType)&TlsServerCertificate_checkServerIdentity_m9504/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate_checkServerIdentity_m9500_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate_checkServerIdentity_m9504_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -199,20 +199,20 @@ extern const MethodInfo TlsServerCertificate_checkServerIdentity_m9500_MethodInf
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkDomainName_m9501_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_checkDomainName_m9505_ParameterInfos[] = 
 {
 	{"subjectName", 0, 134218539, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkDomainName(System.String)
-extern const MethodInfo TlsServerCertificate_checkDomainName_m9501_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_checkDomainName_m9505_MethodInfo = 
 {
 	"checkDomainName"/* name */
-	, (methodPointerType)&TlsServerCertificate_checkDomainName_m9501/* method */
+	, (methodPointerType)&TlsServerCertificate_checkDomainName_m9505/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate_checkDomainName_m9501_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate_checkDomainName_m9505_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -228,21 +228,21 @@ extern const MethodInfo TlsServerCertificate_checkDomainName_m9501_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_Match_m9502_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificate_t1841_TlsServerCertificate_Match_m9506_ParameterInfos[] = 
 {
 	{"hostname", 0, 134218540, 0, &String_t_0_0_0},
 	{"pattern", 1, 134218541, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Match(System.String,System.String)
-extern const MethodInfo TlsServerCertificate_Match_m9502_MethodInfo = 
+extern const MethodInfo TlsServerCertificate_Match_m9506_MethodInfo = 
 {
 	"Match"/* name */
-	, (methodPointerType)&TlsServerCertificate_Match_m9502/* method */
+	, (methodPointerType)&TlsServerCertificate_Match_m9506/* method */
 	, &TlsServerCertificate_t1841_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Object_t/* invoker_method */
-	, TlsServerCertificate_t1841_TlsServerCertificate_Match_m9502_ParameterInfos/* parameters */
+	, TlsServerCertificate_t1841_TlsServerCertificate_Match_m9506_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -258,79 +258,79 @@ extern const MethodInfo TlsServerCertificate_Match_m9502_MethodInfo =
 };
 static const MethodInfo* TlsServerCertificate_t1841_MethodInfos[] =
 {
-	&TlsServerCertificate__ctor_m9494_MethodInfo,
-	&TlsServerCertificate_Update_m9495_MethodInfo,
-	&TlsServerCertificate_ProcessAsSsl3_m9496_MethodInfo,
-	&TlsServerCertificate_ProcessAsTls1_m9497_MethodInfo,
-	&TlsServerCertificate_checkCertificateUsage_m9498_MethodInfo,
-	&TlsServerCertificate_validateCertificates_m9499_MethodInfo,
-	&TlsServerCertificate_checkServerIdentity_m9500_MethodInfo,
-	&TlsServerCertificate_checkDomainName_m9501_MethodInfo,
-	&TlsServerCertificate_Match_m9502_MethodInfo,
+	&TlsServerCertificate__ctor_m9498_MethodInfo,
+	&TlsServerCertificate_Update_m9499_MethodInfo,
+	&TlsServerCertificate_ProcessAsSsl3_m9500_MethodInfo,
+	&TlsServerCertificate_ProcessAsTls1_m9501_MethodInfo,
+	&TlsServerCertificate_checkCertificateUsage_m9502_MethodInfo,
+	&TlsServerCertificate_validateCertificates_m9503_MethodInfo,
+	&TlsServerCertificate_checkServerIdentity_m9504_MethodInfo,
+	&TlsServerCertificate_checkDomainName_m9505_MethodInfo,
+	&TlsServerCertificate_Match_m9506_MethodInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m252_MethodInfo;
 extern const MethodInfo Object_Finalize_m230_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m172_MethodInfo;
 extern const MethodInfo Object_ToString_m253_MethodInfo;
-extern const MethodInfo Stream_Dispose_m8666_MethodInfo;
-extern const MethodInfo TlsStream_get_CanRead_m9435_MethodInfo;
-extern const MethodInfo TlsStream_get_CanSeek_m9436_MethodInfo;
-extern const MethodInfo TlsStream_get_CanWrite_m9434_MethodInfo;
-extern const MethodInfo TlsStream_get_Length_m9439_MethodInfo;
-extern const MethodInfo TlsStream_get_Position_m9437_MethodInfo;
-extern const MethodInfo TlsStream_set_Position_m9438_MethodInfo;
-extern const MethodInfo Stream_Dispose_m8667_MethodInfo;
-extern const MethodInfo Stream_Close_m9640_MethodInfo;
-extern const MethodInfo Stream_get_ReadTimeout_m8668_MethodInfo;
-extern const MethodInfo Stream_get_WriteTimeout_m8669_MethodInfo;
-extern const MethodInfo TlsStream_Flush_m9452_MethodInfo;
-extern const MethodInfo TlsStream_Read_m9455_MethodInfo;
-extern const MethodInfo Stream_ReadByte_m9717_MethodInfo;
-extern const MethodInfo TlsStream_Seek_m9454_MethodInfo;
-extern const MethodInfo TlsStream_SetLength_m9453_MethodInfo;
-extern const MethodInfo TlsStream_Write_m9456_MethodInfo;
-extern const MethodInfo Stream_WriteByte_m8670_MethodInfo;
-extern const MethodInfo Stream_BeginRead_m8671_MethodInfo;
-extern const MethodInfo Stream_BeginWrite_m8672_MethodInfo;
-extern const MethodInfo Stream_EndRead_m8673_MethodInfo;
-extern const MethodInfo Stream_EndWrite_m8674_MethodInfo;
-extern const MethodInfo TlsServerCertificate_ProcessAsTls1_m9497_MethodInfo;
-extern const MethodInfo TlsServerCertificate_ProcessAsSsl3_m9496_MethodInfo;
-extern const MethodInfo TlsServerCertificate_Update_m9495_MethodInfo;
-extern const MethodInfo HandshakeMessage_EncodeMessage_m9465_MethodInfo;
+extern const MethodInfo Stream_Dispose_m8670_MethodInfo;
+extern const MethodInfo TlsStream_get_CanRead_m9439_MethodInfo;
+extern const MethodInfo TlsStream_get_CanSeek_m9440_MethodInfo;
+extern const MethodInfo TlsStream_get_CanWrite_m9438_MethodInfo;
+extern const MethodInfo TlsStream_get_Length_m9443_MethodInfo;
+extern const MethodInfo TlsStream_get_Position_m9441_MethodInfo;
+extern const MethodInfo TlsStream_set_Position_m9442_MethodInfo;
+extern const MethodInfo Stream_Dispose_m8671_MethodInfo;
+extern const MethodInfo Stream_Close_m9644_MethodInfo;
+extern const MethodInfo Stream_get_ReadTimeout_m8672_MethodInfo;
+extern const MethodInfo Stream_get_WriteTimeout_m8673_MethodInfo;
+extern const MethodInfo TlsStream_Flush_m9456_MethodInfo;
+extern const MethodInfo TlsStream_Read_m9459_MethodInfo;
+extern const MethodInfo Stream_ReadByte_m9721_MethodInfo;
+extern const MethodInfo TlsStream_Seek_m9458_MethodInfo;
+extern const MethodInfo TlsStream_SetLength_m9457_MethodInfo;
+extern const MethodInfo TlsStream_Write_m9460_MethodInfo;
+extern const MethodInfo Stream_WriteByte_m8674_MethodInfo;
+extern const MethodInfo Stream_BeginRead_m8675_MethodInfo;
+extern const MethodInfo Stream_BeginWrite_m8676_MethodInfo;
+extern const MethodInfo Stream_EndRead_m8677_MethodInfo;
+extern const MethodInfo Stream_EndWrite_m8678_MethodInfo;
+extern const MethodInfo TlsServerCertificate_ProcessAsTls1_m9501_MethodInfo;
+extern const MethodInfo TlsServerCertificate_ProcessAsSsl3_m9500_MethodInfo;
+extern const MethodInfo TlsServerCertificate_Update_m9499_MethodInfo;
+extern const MethodInfo HandshakeMessage_EncodeMessage_m9469_MethodInfo;
 static const Il2CppMethodReference TlsServerCertificate_t1841_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerCertificate_ProcessAsTls1_m9497_MethodInfo,
-	&TlsServerCertificate_ProcessAsSsl3_m9496_MethodInfo,
-	&TlsServerCertificate_Update_m9495_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerCertificate_ProcessAsTls1_m9501_MethodInfo,
+	&TlsServerCertificate_ProcessAsSsl3_m9500_MethodInfo,
+	&TlsServerCertificate_Update_m9499_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerCertificate_t1841_VTableIsGenericMethod[] =
 {
@@ -450,21 +450,21 @@ extern TypeInfo TlsServerCertificateRequest_t1842_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_5MethodDeclarations.h"
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerCertificateRequest_t1842_TlsServerCertificateRequest__ctor_m9503_ParameterInfos[] = 
+static const ParameterInfo TlsServerCertificateRequest_t1842_TlsServerCertificateRequest__ctor_m9507_ParameterInfos[] = 
 {
 	{"context", 0, 134218542, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218543, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerCertificateRequest__ctor_m9503_MethodInfo = 
+extern const MethodInfo TlsServerCertificateRequest__ctor_m9507_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerCertificateRequest__ctor_m9503/* method */
+	, (methodPointerType)&TlsServerCertificateRequest__ctor_m9507/* method */
 	, &TlsServerCertificateRequest_t1842_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerCertificateRequest_t1842_TlsServerCertificateRequest__ctor_m9503_ParameterInfos/* parameters */
+	, TlsServerCertificateRequest_t1842_TlsServerCertificateRequest__ctor_m9507_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -480,10 +480,10 @@ extern const MethodInfo TlsServerCertificateRequest__ctor_m9503_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::Update()
-extern const MethodInfo TlsServerCertificateRequest_Update_m9504_MethodInfo = 
+extern const MethodInfo TlsServerCertificateRequest_Update_m9508_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TlsServerCertificateRequest_Update_m9504/* method */
+	, (methodPointerType)&TlsServerCertificateRequest_Update_m9508/* method */
 	, &TlsServerCertificateRequest_t1842_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -503,10 +503,10 @@ extern const MethodInfo TlsServerCertificateRequest_Update_m9504_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsSsl3()
-extern const MethodInfo TlsServerCertificateRequest_ProcessAsSsl3_m9505_MethodInfo = 
+extern const MethodInfo TlsServerCertificateRequest_ProcessAsSsl3_m9509_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerCertificateRequest_ProcessAsSsl3_m9505/* method */
+	, (methodPointerType)&TlsServerCertificateRequest_ProcessAsSsl3_m9509/* method */
 	, &TlsServerCertificateRequest_t1842_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -526,10 +526,10 @@ extern const MethodInfo TlsServerCertificateRequest_ProcessAsSsl3_m9505_MethodIn
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsTls1()
-extern const MethodInfo TlsServerCertificateRequest_ProcessAsTls1_m9506_MethodInfo = 
+extern const MethodInfo TlsServerCertificateRequest_ProcessAsTls1_m9510_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerCertificateRequest_ProcessAsTls1_m9506/* method */
+	, (methodPointerType)&TlsServerCertificateRequest_ProcessAsTls1_m9510/* method */
 	, &TlsServerCertificateRequest_t1842_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -549,47 +549,47 @@ extern const MethodInfo TlsServerCertificateRequest_ProcessAsTls1_m9506_MethodIn
 };
 static const MethodInfo* TlsServerCertificateRequest_t1842_MethodInfos[] =
 {
-	&TlsServerCertificateRequest__ctor_m9503_MethodInfo,
-	&TlsServerCertificateRequest_Update_m9504_MethodInfo,
-	&TlsServerCertificateRequest_ProcessAsSsl3_m9505_MethodInfo,
-	&TlsServerCertificateRequest_ProcessAsTls1_m9506_MethodInfo,
+	&TlsServerCertificateRequest__ctor_m9507_MethodInfo,
+	&TlsServerCertificateRequest_Update_m9508_MethodInfo,
+	&TlsServerCertificateRequest_ProcessAsSsl3_m9509_MethodInfo,
+	&TlsServerCertificateRequest_ProcessAsTls1_m9510_MethodInfo,
 	NULL
 };
-extern const MethodInfo TlsServerCertificateRequest_ProcessAsTls1_m9506_MethodInfo;
-extern const MethodInfo TlsServerCertificateRequest_ProcessAsSsl3_m9505_MethodInfo;
-extern const MethodInfo TlsServerCertificateRequest_Update_m9504_MethodInfo;
+extern const MethodInfo TlsServerCertificateRequest_ProcessAsTls1_m9510_MethodInfo;
+extern const MethodInfo TlsServerCertificateRequest_ProcessAsSsl3_m9509_MethodInfo;
+extern const MethodInfo TlsServerCertificateRequest_Update_m9508_MethodInfo;
 static const Il2CppMethodReference TlsServerCertificateRequest_t1842_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerCertificateRequest_ProcessAsTls1_m9506_MethodInfo,
-	&TlsServerCertificateRequest_ProcessAsSsl3_m9505_MethodInfo,
-	&TlsServerCertificateRequest_Update_m9504_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerCertificateRequest_ProcessAsTls1_m9510_MethodInfo,
+	&TlsServerCertificateRequest_ProcessAsSsl3_m9509_MethodInfo,
+	&TlsServerCertificateRequest_Update_m9508_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerCertificateRequest_t1842_VTableIsGenericMethod[] =
 {
@@ -707,21 +707,21 @@ extern TypeInfo TlsServerFinished_t1843_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_6MethodDeclarations.h"
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerFinished_t1843_TlsServerFinished__ctor_m9507_ParameterInfos[] = 
+static const ParameterInfo TlsServerFinished_t1843_TlsServerFinished__ctor_m9511_ParameterInfos[] = 
 {
 	{"context", 0, 134218544, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218545, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerFinished__ctor_m9507_MethodInfo = 
+extern const MethodInfo TlsServerFinished__ctor_m9511_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerFinished__ctor_m9507/* method */
+	, (methodPointerType)&TlsServerFinished__ctor_m9511/* method */
 	, &TlsServerFinished_t1843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerFinished_t1843_TlsServerFinished__ctor_m9507_ParameterInfos/* parameters */
+	, TlsServerFinished_t1843_TlsServerFinished__ctor_m9511_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -737,10 +737,10 @@ extern const MethodInfo TlsServerFinished__ctor_m9507_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.cctor()
-extern const MethodInfo TlsServerFinished__cctor_m9508_MethodInfo = 
+extern const MethodInfo TlsServerFinished__cctor_m9512_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&TlsServerFinished__cctor_m9508/* method */
+	, (methodPointerType)&TlsServerFinished__cctor_m9512/* method */
 	, &TlsServerFinished_t1843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -760,10 +760,10 @@ extern const MethodInfo TlsServerFinished__cctor_m9508_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::Update()
-extern const MethodInfo TlsServerFinished_Update_m9509_MethodInfo = 
+extern const MethodInfo TlsServerFinished_Update_m9513_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TlsServerFinished_Update_m9509/* method */
+	, (methodPointerType)&TlsServerFinished_Update_m9513/* method */
 	, &TlsServerFinished_t1843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -783,10 +783,10 @@ extern const MethodInfo TlsServerFinished_Update_m9509_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsSsl3()
-extern const MethodInfo TlsServerFinished_ProcessAsSsl3_m9510_MethodInfo = 
+extern const MethodInfo TlsServerFinished_ProcessAsSsl3_m9514_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerFinished_ProcessAsSsl3_m9510/* method */
+	, (methodPointerType)&TlsServerFinished_ProcessAsSsl3_m9514/* method */
 	, &TlsServerFinished_t1843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -806,10 +806,10 @@ extern const MethodInfo TlsServerFinished_ProcessAsSsl3_m9510_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsTls1()
-extern const MethodInfo TlsServerFinished_ProcessAsTls1_m9511_MethodInfo = 
+extern const MethodInfo TlsServerFinished_ProcessAsTls1_m9515_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerFinished_ProcessAsTls1_m9511/* method */
+	, (methodPointerType)&TlsServerFinished_ProcessAsTls1_m9515/* method */
 	, &TlsServerFinished_t1843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -829,48 +829,48 @@ extern const MethodInfo TlsServerFinished_ProcessAsTls1_m9511_MethodInfo =
 };
 static const MethodInfo* TlsServerFinished_t1843_MethodInfos[] =
 {
-	&TlsServerFinished__ctor_m9507_MethodInfo,
-	&TlsServerFinished__cctor_m9508_MethodInfo,
-	&TlsServerFinished_Update_m9509_MethodInfo,
-	&TlsServerFinished_ProcessAsSsl3_m9510_MethodInfo,
-	&TlsServerFinished_ProcessAsTls1_m9511_MethodInfo,
+	&TlsServerFinished__ctor_m9511_MethodInfo,
+	&TlsServerFinished__cctor_m9512_MethodInfo,
+	&TlsServerFinished_Update_m9513_MethodInfo,
+	&TlsServerFinished_ProcessAsSsl3_m9514_MethodInfo,
+	&TlsServerFinished_ProcessAsTls1_m9515_MethodInfo,
 	NULL
 };
-extern const MethodInfo TlsServerFinished_ProcessAsTls1_m9511_MethodInfo;
-extern const MethodInfo TlsServerFinished_ProcessAsSsl3_m9510_MethodInfo;
-extern const MethodInfo TlsServerFinished_Update_m9509_MethodInfo;
+extern const MethodInfo TlsServerFinished_ProcessAsTls1_m9515_MethodInfo;
+extern const MethodInfo TlsServerFinished_ProcessAsSsl3_m9514_MethodInfo;
+extern const MethodInfo TlsServerFinished_Update_m9513_MethodInfo;
 static const Il2CppMethodReference TlsServerFinished_t1843_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerFinished_ProcessAsTls1_m9511_MethodInfo,
-	&TlsServerFinished_ProcessAsSsl3_m9510_MethodInfo,
-	&TlsServerFinished_Update_m9509_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerFinished_ProcessAsTls1_m9515_MethodInfo,
+	&TlsServerFinished_ProcessAsSsl3_m9514_MethodInfo,
+	&TlsServerFinished_Update_m9513_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerFinished_t1843_VTableIsGenericMethod[] =
 {
@@ -988,21 +988,21 @@ extern TypeInfo TlsServerHello_t1844_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_7MethodDeclarations.h"
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerHello_t1844_TlsServerHello__ctor_m9512_ParameterInfos[] = 
+static const ParameterInfo TlsServerHello_t1844_TlsServerHello__ctor_m9516_ParameterInfos[] = 
 {
 	{"context", 0, 134218546, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218547, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerHello__ctor_m9512_MethodInfo = 
+extern const MethodInfo TlsServerHello__ctor_m9516_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerHello__ctor_m9512/* method */
+	, (methodPointerType)&TlsServerHello__ctor_m9516/* method */
 	, &TlsServerHello_t1844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerHello_t1844_TlsServerHello__ctor_m9512_ParameterInfos/* parameters */
+	, TlsServerHello_t1844_TlsServerHello__ctor_m9516_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1018,10 +1018,10 @@ extern const MethodInfo TlsServerHello__ctor_m9512_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::Update()
-extern const MethodInfo TlsServerHello_Update_m9513_MethodInfo = 
+extern const MethodInfo TlsServerHello_Update_m9517_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TlsServerHello_Update_m9513/* method */
+	, (methodPointerType)&TlsServerHello_Update_m9517/* method */
 	, &TlsServerHello_t1844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1041,10 +1041,10 @@ extern const MethodInfo TlsServerHello_Update_m9513_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::ProcessAsSsl3()
-extern const MethodInfo TlsServerHello_ProcessAsSsl3_m9514_MethodInfo = 
+extern const MethodInfo TlsServerHello_ProcessAsSsl3_m9518_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerHello_ProcessAsSsl3_m9514/* method */
+	, (methodPointerType)&TlsServerHello_ProcessAsSsl3_m9518/* method */
 	, &TlsServerHello_t1844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1064,10 +1064,10 @@ extern const MethodInfo TlsServerHello_ProcessAsSsl3_m9514_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::ProcessAsTls1()
-extern const MethodInfo TlsServerHello_ProcessAsTls1_m9515_MethodInfo = 
+extern const MethodInfo TlsServerHello_ProcessAsTls1_m9519_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerHello_ProcessAsTls1_m9515/* method */
+	, (methodPointerType)&TlsServerHello_ProcessAsTls1_m9519/* method */
 	, &TlsServerHello_t1844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1087,20 +1087,20 @@ extern const MethodInfo TlsServerHello_ProcessAsTls1_m9515_MethodInfo =
 };
 extern const Il2CppType Int16_t641_0_0_0;
 extern const Il2CppType Int16_t641_0_0_0;
-static const ParameterInfo TlsServerHello_t1844_TlsServerHello_processProtocol_m9516_ParameterInfos[] = 
+static const ParameterInfo TlsServerHello_t1844_TlsServerHello_processProtocol_m9520_ParameterInfos[] = 
 {
 	{"protocol", 0, 134218548, 0, &Int16_t641_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int16_t641 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::processProtocol(System.Int16)
-extern const MethodInfo TlsServerHello_processProtocol_m9516_MethodInfo = 
+extern const MethodInfo TlsServerHello_processProtocol_m9520_MethodInfo = 
 {
 	"processProtocol"/* name */
-	, (methodPointerType)&TlsServerHello_processProtocol_m9516/* method */
+	, (methodPointerType)&TlsServerHello_processProtocol_m9520/* method */
 	, &TlsServerHello_t1844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int16_t641/* invoker_method */
-	, TlsServerHello_t1844_TlsServerHello_processProtocol_m9516_ParameterInfos/* parameters */
+	, TlsServerHello_t1844_TlsServerHello_processProtocol_m9520_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1116,48 +1116,48 @@ extern const MethodInfo TlsServerHello_processProtocol_m9516_MethodInfo =
 };
 static const MethodInfo* TlsServerHello_t1844_MethodInfos[] =
 {
-	&TlsServerHello__ctor_m9512_MethodInfo,
-	&TlsServerHello_Update_m9513_MethodInfo,
-	&TlsServerHello_ProcessAsSsl3_m9514_MethodInfo,
-	&TlsServerHello_ProcessAsTls1_m9515_MethodInfo,
-	&TlsServerHello_processProtocol_m9516_MethodInfo,
+	&TlsServerHello__ctor_m9516_MethodInfo,
+	&TlsServerHello_Update_m9517_MethodInfo,
+	&TlsServerHello_ProcessAsSsl3_m9518_MethodInfo,
+	&TlsServerHello_ProcessAsTls1_m9519_MethodInfo,
+	&TlsServerHello_processProtocol_m9520_MethodInfo,
 	NULL
 };
-extern const MethodInfo TlsServerHello_ProcessAsTls1_m9515_MethodInfo;
-extern const MethodInfo TlsServerHello_ProcessAsSsl3_m9514_MethodInfo;
-extern const MethodInfo TlsServerHello_Update_m9513_MethodInfo;
+extern const MethodInfo TlsServerHello_ProcessAsTls1_m9519_MethodInfo;
+extern const MethodInfo TlsServerHello_ProcessAsSsl3_m9518_MethodInfo;
+extern const MethodInfo TlsServerHello_Update_m9517_MethodInfo;
 static const Il2CppMethodReference TlsServerHello_t1844_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerHello_ProcessAsTls1_m9515_MethodInfo,
-	&TlsServerHello_ProcessAsSsl3_m9514_MethodInfo,
-	&TlsServerHello_Update_m9513_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerHello_ProcessAsTls1_m9519_MethodInfo,
+	&TlsServerHello_ProcessAsSsl3_m9518_MethodInfo,
+	&TlsServerHello_Update_m9517_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerHello_t1844_VTableIsGenericMethod[] =
 {
@@ -1275,21 +1275,21 @@ extern TypeInfo TlsServerHelloDone_t1845_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_8MethodDeclarations.h"
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerHelloDone_t1845_TlsServerHelloDone__ctor_m9517_ParameterInfos[] = 
+static const ParameterInfo TlsServerHelloDone_t1845_TlsServerHelloDone__ctor_m9521_ParameterInfos[] = 
 {
 	{"context", 0, 134218549, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218550, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerHelloDone__ctor_m9517_MethodInfo = 
+extern const MethodInfo TlsServerHelloDone__ctor_m9521_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerHelloDone__ctor_m9517/* method */
+	, (methodPointerType)&TlsServerHelloDone__ctor_m9521/* method */
 	, &TlsServerHelloDone_t1845_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerHelloDone_t1845_TlsServerHelloDone__ctor_m9517_ParameterInfos/* parameters */
+	, TlsServerHelloDone_t1845_TlsServerHelloDone__ctor_m9521_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1305,10 +1305,10 @@ extern const MethodInfo TlsServerHelloDone__ctor_m9517_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::ProcessAsSsl3()
-extern const MethodInfo TlsServerHelloDone_ProcessAsSsl3_m9518_MethodInfo = 
+extern const MethodInfo TlsServerHelloDone_ProcessAsSsl3_m9522_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerHelloDone_ProcessAsSsl3_m9518/* method */
+	, (methodPointerType)&TlsServerHelloDone_ProcessAsSsl3_m9522/* method */
 	, &TlsServerHelloDone_t1845_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1328,10 +1328,10 @@ extern const MethodInfo TlsServerHelloDone_ProcessAsSsl3_m9518_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::ProcessAsTls1()
-extern const MethodInfo TlsServerHelloDone_ProcessAsTls1_m9519_MethodInfo = 
+extern const MethodInfo TlsServerHelloDone_ProcessAsTls1_m9523_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerHelloDone_ProcessAsTls1_m9519/* method */
+	, (methodPointerType)&TlsServerHelloDone_ProcessAsTls1_m9523/* method */
 	, &TlsServerHelloDone_t1845_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1351,46 +1351,46 @@ extern const MethodInfo TlsServerHelloDone_ProcessAsTls1_m9519_MethodInfo =
 };
 static const MethodInfo* TlsServerHelloDone_t1845_MethodInfos[] =
 {
-	&TlsServerHelloDone__ctor_m9517_MethodInfo,
-	&TlsServerHelloDone_ProcessAsSsl3_m9518_MethodInfo,
-	&TlsServerHelloDone_ProcessAsTls1_m9519_MethodInfo,
+	&TlsServerHelloDone__ctor_m9521_MethodInfo,
+	&TlsServerHelloDone_ProcessAsSsl3_m9522_MethodInfo,
+	&TlsServerHelloDone_ProcessAsTls1_m9523_MethodInfo,
 	NULL
 };
-extern const MethodInfo TlsServerHelloDone_ProcessAsTls1_m9519_MethodInfo;
-extern const MethodInfo TlsServerHelloDone_ProcessAsSsl3_m9518_MethodInfo;
-extern const MethodInfo HandshakeMessage_Update_m9464_MethodInfo;
+extern const MethodInfo TlsServerHelloDone_ProcessAsTls1_m9523_MethodInfo;
+extern const MethodInfo TlsServerHelloDone_ProcessAsSsl3_m9522_MethodInfo;
+extern const MethodInfo HandshakeMessage_Update_m9468_MethodInfo;
 static const Il2CppMethodReference TlsServerHelloDone_t1845_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerHelloDone_ProcessAsTls1_m9519_MethodInfo,
-	&TlsServerHelloDone_ProcessAsSsl3_m9518_MethodInfo,
-	&HandshakeMessage_Update_m9464_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerHelloDone_ProcessAsTls1_m9523_MethodInfo,
+	&TlsServerHelloDone_ProcessAsSsl3_m9522_MethodInfo,
+	&HandshakeMessage_Update_m9468_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerHelloDone_t1845_VTableIsGenericMethod[] =
 {
@@ -1508,21 +1508,21 @@ extern TypeInfo TlsServerKeyExchange_t1846_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_9MethodDeclarations.h"
 extern const Il2CppType Context_t1787_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TlsServerKeyExchange_t1846_TlsServerKeyExchange__ctor_m9520_ParameterInfos[] = 
+static const ParameterInfo TlsServerKeyExchange_t1846_TlsServerKeyExchange__ctor_m9524_ParameterInfos[] = 
 {
 	{"context", 0, 134218551, 0, &Context_t1787_0_0_0},
 	{"buffer", 1, 134218552, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern const MethodInfo TlsServerKeyExchange__ctor_m9520_MethodInfo = 
+extern const MethodInfo TlsServerKeyExchange__ctor_m9524_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TlsServerKeyExchange__ctor_m9520/* method */
+	, (methodPointerType)&TlsServerKeyExchange__ctor_m9524/* method */
 	, &TlsServerKeyExchange_t1846_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TlsServerKeyExchange_t1846_TlsServerKeyExchange__ctor_m9520_ParameterInfos/* parameters */
+	, TlsServerKeyExchange_t1846_TlsServerKeyExchange__ctor_m9524_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1538,10 +1538,10 @@ extern const MethodInfo TlsServerKeyExchange__ctor_m9520_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::Update()
-extern const MethodInfo TlsServerKeyExchange_Update_m9521_MethodInfo = 
+extern const MethodInfo TlsServerKeyExchange_Update_m9525_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TlsServerKeyExchange_Update_m9521/* method */
+	, (methodPointerType)&TlsServerKeyExchange_Update_m9525/* method */
 	, &TlsServerKeyExchange_t1846_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1561,10 +1561,10 @@ extern const MethodInfo TlsServerKeyExchange_Update_m9521_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsSsl3()
-extern const MethodInfo TlsServerKeyExchange_ProcessAsSsl3_m9522_MethodInfo = 
+extern const MethodInfo TlsServerKeyExchange_ProcessAsSsl3_m9526_MethodInfo = 
 {
 	"ProcessAsSsl3"/* name */
-	, (methodPointerType)&TlsServerKeyExchange_ProcessAsSsl3_m9522/* method */
+	, (methodPointerType)&TlsServerKeyExchange_ProcessAsSsl3_m9526/* method */
 	, &TlsServerKeyExchange_t1846_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1584,10 +1584,10 @@ extern const MethodInfo TlsServerKeyExchange_ProcessAsSsl3_m9522_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsTls1()
-extern const MethodInfo TlsServerKeyExchange_ProcessAsTls1_m9523_MethodInfo = 
+extern const MethodInfo TlsServerKeyExchange_ProcessAsTls1_m9527_MethodInfo = 
 {
 	"ProcessAsTls1"/* name */
-	, (methodPointerType)&TlsServerKeyExchange_ProcessAsTls1_m9523/* method */
+	, (methodPointerType)&TlsServerKeyExchange_ProcessAsTls1_m9527/* method */
 	, &TlsServerKeyExchange_t1846_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1607,10 +1607,10 @@ extern const MethodInfo TlsServerKeyExchange_ProcessAsTls1_m9523_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::verifySignature()
-extern const MethodInfo TlsServerKeyExchange_verifySignature_m9524_MethodInfo = 
+extern const MethodInfo TlsServerKeyExchange_verifySignature_m9528_MethodInfo = 
 {
 	"verifySignature"/* name */
-	, (methodPointerType)&TlsServerKeyExchange_verifySignature_m9524/* method */
+	, (methodPointerType)&TlsServerKeyExchange_verifySignature_m9528/* method */
 	, &TlsServerKeyExchange_t1846_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1630,48 +1630,48 @@ extern const MethodInfo TlsServerKeyExchange_verifySignature_m9524_MethodInfo =
 };
 static const MethodInfo* TlsServerKeyExchange_t1846_MethodInfos[] =
 {
-	&TlsServerKeyExchange__ctor_m9520_MethodInfo,
-	&TlsServerKeyExchange_Update_m9521_MethodInfo,
-	&TlsServerKeyExchange_ProcessAsSsl3_m9522_MethodInfo,
-	&TlsServerKeyExchange_ProcessAsTls1_m9523_MethodInfo,
-	&TlsServerKeyExchange_verifySignature_m9524_MethodInfo,
+	&TlsServerKeyExchange__ctor_m9524_MethodInfo,
+	&TlsServerKeyExchange_Update_m9525_MethodInfo,
+	&TlsServerKeyExchange_ProcessAsSsl3_m9526_MethodInfo,
+	&TlsServerKeyExchange_ProcessAsTls1_m9527_MethodInfo,
+	&TlsServerKeyExchange_verifySignature_m9528_MethodInfo,
 	NULL
 };
-extern const MethodInfo TlsServerKeyExchange_ProcessAsTls1_m9523_MethodInfo;
-extern const MethodInfo TlsServerKeyExchange_ProcessAsSsl3_m9522_MethodInfo;
-extern const MethodInfo TlsServerKeyExchange_Update_m9521_MethodInfo;
+extern const MethodInfo TlsServerKeyExchange_ProcessAsTls1_m9527_MethodInfo;
+extern const MethodInfo TlsServerKeyExchange_ProcessAsSsl3_m9526_MethodInfo;
+extern const MethodInfo TlsServerKeyExchange_Update_m9525_MethodInfo;
 static const Il2CppMethodReference TlsServerKeyExchange_t1846_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Stream_Dispose_m8666_MethodInfo,
-	&TlsStream_get_CanRead_m9435_MethodInfo,
-	&TlsStream_get_CanSeek_m9436_MethodInfo,
-	&TlsStream_get_CanWrite_m9434_MethodInfo,
-	&TlsStream_get_Length_m9439_MethodInfo,
-	&TlsStream_get_Position_m9437_MethodInfo,
-	&TlsStream_set_Position_m9438_MethodInfo,
-	&Stream_Dispose_m8667_MethodInfo,
-	&Stream_Close_m9640_MethodInfo,
-	&Stream_get_ReadTimeout_m8668_MethodInfo,
-	&Stream_get_WriteTimeout_m8669_MethodInfo,
-	&TlsStream_Flush_m9452_MethodInfo,
-	&TlsStream_Read_m9455_MethodInfo,
-	&Stream_ReadByte_m9717_MethodInfo,
-	&TlsStream_Seek_m9454_MethodInfo,
-	&TlsStream_SetLength_m9453_MethodInfo,
-	&TlsStream_Write_m9456_MethodInfo,
-	&Stream_WriteByte_m8670_MethodInfo,
-	&Stream_BeginRead_m8671_MethodInfo,
-	&Stream_BeginWrite_m8672_MethodInfo,
-	&Stream_EndRead_m8673_MethodInfo,
-	&Stream_EndWrite_m8674_MethodInfo,
-	&TlsServerKeyExchange_ProcessAsTls1_m9523_MethodInfo,
-	&TlsServerKeyExchange_ProcessAsSsl3_m9522_MethodInfo,
-	&TlsServerKeyExchange_Update_m9521_MethodInfo,
-	&HandshakeMessage_EncodeMessage_m9465_MethodInfo,
+	&Stream_Dispose_m8670_MethodInfo,
+	&TlsStream_get_CanRead_m9439_MethodInfo,
+	&TlsStream_get_CanSeek_m9440_MethodInfo,
+	&TlsStream_get_CanWrite_m9438_MethodInfo,
+	&TlsStream_get_Length_m9443_MethodInfo,
+	&TlsStream_get_Position_m9441_MethodInfo,
+	&TlsStream_set_Position_m9442_MethodInfo,
+	&Stream_Dispose_m8671_MethodInfo,
+	&Stream_Close_m9644_MethodInfo,
+	&Stream_get_ReadTimeout_m8672_MethodInfo,
+	&Stream_get_WriteTimeout_m8673_MethodInfo,
+	&TlsStream_Flush_m9456_MethodInfo,
+	&TlsStream_Read_m9459_MethodInfo,
+	&Stream_ReadByte_m9721_MethodInfo,
+	&TlsStream_Seek_m9458_MethodInfo,
+	&TlsStream_SetLength_m9457_MethodInfo,
+	&TlsStream_Write_m9460_MethodInfo,
+	&Stream_WriteByte_m8674_MethodInfo,
+	&Stream_BeginRead_m8675_MethodInfo,
+	&Stream_BeginWrite_m8676_MethodInfo,
+	&Stream_EndRead_m8677_MethodInfo,
+	&Stream_EndWrite_m8678_MethodInfo,
+	&TlsServerKeyExchange_ProcessAsTls1_m9527_MethodInfo,
+	&TlsServerKeyExchange_ProcessAsSsl3_m9526_MethodInfo,
+	&TlsServerKeyExchange_Update_m9525_MethodInfo,
+	&HandshakeMessage_EncodeMessage_m9469_MethodInfo,
 };
 static bool TlsServerKeyExchange_t1846_VTableIsGenericMethod[] =
 {
@@ -1791,21 +1791,21 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo PrimalityTest_t1847_PrimalityTest__ctor_m9525_ParameterInfos[] = 
+static const ParameterInfo PrimalityTest_t1847_PrimalityTest__ctor_m9529_ParameterInfos[] = 
 {
 	{"object", 0, 134218553, 0, &Object_t_0_0_0},
 	{"method", 1, 134218554, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo PrimalityTest__ctor_m9525_MethodInfo = 
+extern const MethodInfo PrimalityTest__ctor_m9529_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PrimalityTest__ctor_m9525/* method */
+	, (methodPointerType)&PrimalityTest__ctor_m9529/* method */
 	, &PrimalityTest_t1847_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, PrimalityTest_t1847_PrimalityTest__ctor_m9525_ParameterInfos/* parameters */
+	, PrimalityTest_t1847_PrimalityTest__ctor_m9529_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -1823,21 +1823,21 @@ extern const Il2CppType BigInteger_t1723_0_0_0;
 extern const Il2CppType BigInteger_t1723_0_0_0;
 extern const Il2CppType ConfidenceFactor_t1727_0_0_0;
 extern const Il2CppType ConfidenceFactor_t1727_0_0_0;
-static const ParameterInfo PrimalityTest_t1847_PrimalityTest_Invoke_m9526_ParameterInfos[] = 
+static const ParameterInfo PrimalityTest_t1847_PrimalityTest_Invoke_m9530_ParameterInfos[] = 
 {
 	{"bi", 0, 134218555, 0, &BigInteger_t1723_0_0_0},
 	{"confidence", 1, 134218556, 0, &ConfidenceFactor_t1727_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern const MethodInfo PrimalityTest_Invoke_m9526_MethodInfo = 
+extern const MethodInfo PrimalityTest_Invoke_m9530_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&PrimalityTest_Invoke_m9526/* method */
+	, (methodPointerType)&PrimalityTest_Invoke_m9530/* method */
 	, &PrimalityTest_t1847_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Int32_t50/* invoker_method */
-	, PrimalityTest_t1847_PrimalityTest_Invoke_m9526_ParameterInfos/* parameters */
+	, PrimalityTest_t1847_PrimalityTest_Invoke_m9530_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1856,7 +1856,7 @@ extern const Il2CppType ConfidenceFactor_t1727_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo PrimalityTest_t1847_PrimalityTest_BeginInvoke_m9527_ParameterInfos[] = 
+static const ParameterInfo PrimalityTest_t1847_PrimalityTest_BeginInvoke_m9531_ParameterInfos[] = 
 {
 	{"bi", 0, 134218557, 0, &BigInteger_t1723_0_0_0},
 	{"confidence", 1, 134218558, 0, &ConfidenceFactor_t1727_0_0_0},
@@ -1866,14 +1866,14 @@ static const ParameterInfo PrimalityTest_t1847_PrimalityTest_BeginInvoke_m9527_P
 extern const Il2CppType IAsyncResult_t345_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern const MethodInfo PrimalityTest_BeginInvoke_m9527_MethodInfo = 
+extern const MethodInfo PrimalityTest_BeginInvoke_m9531_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&PrimalityTest_BeginInvoke_m9527/* method */
+	, (methodPointerType)&PrimalityTest_BeginInvoke_m9531/* method */
 	, &PrimalityTest_t1847_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Object_t_Object_t/* invoker_method */
-	, PrimalityTest_t1847_PrimalityTest_BeginInvoke_m9527_ParameterInfos/* parameters */
+	, PrimalityTest_t1847_PrimalityTest_BeginInvoke_m9531_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1888,20 +1888,20 @@ extern const MethodInfo PrimalityTest_BeginInvoke_m9527_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo PrimalityTest_t1847_PrimalityTest_EndInvoke_m9528_ParameterInfos[] = 
+static const ParameterInfo PrimalityTest_t1847_PrimalityTest_EndInvoke_m9532_ParameterInfos[] = 
 {
 	{"result", 0, 134218561, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern const MethodInfo PrimalityTest_EndInvoke_m9528_MethodInfo = 
+extern const MethodInfo PrimalityTest_EndInvoke_m9532_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&PrimalityTest_EndInvoke_m9528/* method */
+	, (methodPointerType)&PrimalityTest_EndInvoke_m9532/* method */
 	, &PrimalityTest_t1847_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, PrimalityTest_t1847_PrimalityTest_EndInvoke_m9528_ParameterInfos/* parameters */
+	, PrimalityTest_t1847_PrimalityTest_EndInvoke_m9532_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1917,37 +1917,37 @@ extern const MethodInfo PrimalityTest_EndInvoke_m9528_MethodInfo =
 };
 static const MethodInfo* PrimalityTest_t1847_MethodInfos[] =
 {
-	&PrimalityTest__ctor_m9525_MethodInfo,
-	&PrimalityTest_Invoke_m9526_MethodInfo,
-	&PrimalityTest_BeginInvoke_m9527_MethodInfo,
-	&PrimalityTest_EndInvoke_m9528_MethodInfo,
+	&PrimalityTest__ctor_m9529_MethodInfo,
+	&PrimalityTest_Invoke_m9530_MethodInfo,
+	&PrimalityTest_BeginInvoke_m9531_MethodInfo,
+	&PrimalityTest_EndInvoke_m9532_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m3904_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m3905_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m3906_MethodInfo;
-extern const MethodInfo Delegate_Clone_m3907_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m3908_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m3909_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m3910_MethodInfo;
-extern const MethodInfo PrimalityTest_Invoke_m9526_MethodInfo;
-extern const MethodInfo PrimalityTest_BeginInvoke_m9527_MethodInfo;
-extern const MethodInfo PrimalityTest_EndInvoke_m9528_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m3908_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m3909_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m3910_MethodInfo;
+extern const MethodInfo Delegate_Clone_m3911_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m3912_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m3913_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m3914_MethodInfo;
+extern const MethodInfo PrimalityTest_Invoke_m9530_MethodInfo;
+extern const MethodInfo PrimalityTest_BeginInvoke_m9531_MethodInfo;
+extern const MethodInfo PrimalityTest_EndInvoke_m9532_MethodInfo;
 static const Il2CppMethodReference PrimalityTest_t1847_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&PrimalityTest_Invoke_m9526_MethodInfo,
-	&PrimalityTest_BeginInvoke_m9527_MethodInfo,
-	&PrimalityTest_EndInvoke_m9528_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&PrimalityTest_Invoke_m9530_MethodInfo,
+	&PrimalityTest_BeginInvoke_m9531_MethodInfo,
+	&PrimalityTest_EndInvoke_m9532_MethodInfo,
 };
 static bool PrimalityTest_t1847_VTableIsGenericMethod[] =
 {
@@ -2052,21 +2052,21 @@ extern TypeInfo CertificateValidationCallback_t1822_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateValidatiMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback__ctor_m9529_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback__ctor_m9533_ParameterInfos[] = 
 {
 	{"object", 0, 134218562, 0, &Object_t_0_0_0},
 	{"method", 1, 134218563, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CertificateValidationCallback::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo CertificateValidationCallback__ctor_m9529_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback__ctor_m9533_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CertificateValidationCallback__ctor_m9529/* method */
+	, (methodPointerType)&CertificateValidationCallback__ctor_m9533/* method */
 	, &CertificateValidationCallback_t1822_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, CertificateValidationCallback_t1822_CertificateValidationCallback__ctor_m9529_ParameterInfos/* parameters */
+	, CertificateValidationCallback_t1822_CertificateValidationCallback__ctor_m9533_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2084,21 +2084,21 @@ extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType Int32U5BU5D_t496_0_0_0;
 extern const Il2CppType Int32U5BU5D_t496_0_0_0;
-static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_Invoke_m9530_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_Invoke_m9534_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218564, 0, &X509Certificate_t1830_0_0_0},
 	{"certificateErrors", 1, 134218565, 0, &Int32U5BU5D_t496_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.CertificateValidationCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern const MethodInfo CertificateValidationCallback_Invoke_m9530_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback_Invoke_m9534_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback_Invoke_m9530/* method */
+	, (methodPointerType)&CertificateValidationCallback_Invoke_m9534/* method */
 	, &CertificateValidationCallback_t1822_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Object_t/* invoker_method */
-	, CertificateValidationCallback_t1822_CertificateValidationCallback_Invoke_m9530_ParameterInfos/* parameters */
+	, CertificateValidationCallback_t1822_CertificateValidationCallback_Invoke_m9534_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2116,7 +2116,7 @@ extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType Int32U5BU5D_t496_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_BeginInvoke_m9531_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_BeginInvoke_m9535_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218566, 0, &X509Certificate_t1830_0_0_0},
 	{"certificateErrors", 1, 134218567, 0, &Int32U5BU5D_t496_0_0_0},
@@ -2125,14 +2125,14 @@ static const ParameterInfo CertificateValidationCallback_t1822_CertificateValida
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateValidationCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[],System.AsyncCallback,System.Object)
-extern const MethodInfo CertificateValidationCallback_BeginInvoke_m9531_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback_BeginInvoke_m9535_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback_BeginInvoke_m9531/* method */
+	, (methodPointerType)&CertificateValidationCallback_BeginInvoke_m9535/* method */
 	, &CertificateValidationCallback_t1822_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, CertificateValidationCallback_t1822_CertificateValidationCallback_BeginInvoke_m9531_ParameterInfos/* parameters */
+	, CertificateValidationCallback_t1822_CertificateValidationCallback_BeginInvoke_m9535_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2147,20 +2147,20 @@ extern const MethodInfo CertificateValidationCallback_BeginInvoke_m9531_MethodIn
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_EndInvoke_m9532_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback_t1822_CertificateValidationCallback_EndInvoke_m9536_ParameterInfos[] = 
 {
 	{"result", 0, 134218570, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.CertificateValidationCallback::EndInvoke(System.IAsyncResult)
-extern const MethodInfo CertificateValidationCallback_EndInvoke_m9532_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback_EndInvoke_m9536_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback_EndInvoke_m9532/* method */
+	, (methodPointerType)&CertificateValidationCallback_EndInvoke_m9536/* method */
 	, &CertificateValidationCallback_t1822_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, CertificateValidationCallback_t1822_CertificateValidationCallback_EndInvoke_m9532_ParameterInfos/* parameters */
+	, CertificateValidationCallback_t1822_CertificateValidationCallback_EndInvoke_m9536_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2176,30 +2176,30 @@ extern const MethodInfo CertificateValidationCallback_EndInvoke_m9532_MethodInfo
 };
 static const MethodInfo* CertificateValidationCallback_t1822_MethodInfos[] =
 {
-	&CertificateValidationCallback__ctor_m9529_MethodInfo,
-	&CertificateValidationCallback_Invoke_m9530_MethodInfo,
-	&CertificateValidationCallback_BeginInvoke_m9531_MethodInfo,
-	&CertificateValidationCallback_EndInvoke_m9532_MethodInfo,
+	&CertificateValidationCallback__ctor_m9533_MethodInfo,
+	&CertificateValidationCallback_Invoke_m9534_MethodInfo,
+	&CertificateValidationCallback_BeginInvoke_m9535_MethodInfo,
+	&CertificateValidationCallback_EndInvoke_m9536_MethodInfo,
 	NULL
 };
-extern const MethodInfo CertificateValidationCallback_Invoke_m9530_MethodInfo;
-extern const MethodInfo CertificateValidationCallback_BeginInvoke_m9531_MethodInfo;
-extern const MethodInfo CertificateValidationCallback_EndInvoke_m9532_MethodInfo;
+extern const MethodInfo CertificateValidationCallback_Invoke_m9534_MethodInfo;
+extern const MethodInfo CertificateValidationCallback_BeginInvoke_m9535_MethodInfo;
+extern const MethodInfo CertificateValidationCallback_EndInvoke_m9536_MethodInfo;
 static const Il2CppMethodReference CertificateValidationCallback_t1822_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&CertificateValidationCallback_Invoke_m9530_MethodInfo,
-	&CertificateValidationCallback_BeginInvoke_m9531_MethodInfo,
-	&CertificateValidationCallback_EndInvoke_m9532_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&CertificateValidationCallback_Invoke_m9534_MethodInfo,
+	&CertificateValidationCallback_BeginInvoke_m9535_MethodInfo,
+	&CertificateValidationCallback_EndInvoke_m9536_MethodInfo,
 };
 static bool CertificateValidationCallback_t1822_VTableIsGenericMethod[] =
 {
@@ -2301,21 +2301,21 @@ extern TypeInfo CertificateValidationCallback2_t1823_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateValidati_0MethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2__ctor_m9533_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2__ctor_m9537_ParameterInfos[] = 
 {
 	{"object", 0, 134218571, 0, &Object_t_0_0_0},
 	{"method", 1, 134218572, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CertificateValidationCallback2::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo CertificateValidationCallback2__ctor_m9533_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback2__ctor_m9537_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CertificateValidationCallback2__ctor_m9533/* method */
+	, (methodPointerType)&CertificateValidationCallback2__ctor_m9537/* method */
 	, &CertificateValidationCallback2_t1823_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, CertificateValidationCallback2_t1823_CertificateValidationCallback2__ctor_m9533_ParameterInfos/* parameters */
+	, CertificateValidationCallback2_t1823_CertificateValidationCallback2__ctor_m9537_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2330,21 +2330,21 @@ extern const MethodInfo CertificateValidationCallback2__ctor_m9533_MethodInfo =
 
 };
 extern const Il2CppType X509CertificateCollection_t1755_0_0_0;
-static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_Invoke_m9534_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_Invoke_m9538_ParameterInfos[] = 
 {
 	{"collection", 0, 134218573, 0, &X509CertificateCollection_t1755_0_0_0},
 };
 extern const Il2CppType ValidationResult_t1821_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::Invoke(Mono.Security.X509.X509CertificateCollection)
-extern const MethodInfo CertificateValidationCallback2_Invoke_m9534_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback2_Invoke_m9538_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback2_Invoke_m9534/* method */
+	, (methodPointerType)&CertificateValidationCallback2_Invoke_m9538/* method */
 	, &CertificateValidationCallback2_t1823_il2cpp_TypeInfo/* declaring_type */
 	, &ValidationResult_t1821_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_Invoke_m9534_ParameterInfos/* parameters */
+	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_Invoke_m9538_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2361,7 +2361,7 @@ extern const MethodInfo CertificateValidationCallback2_Invoke_m9534_MethodInfo =
 extern const Il2CppType X509CertificateCollection_t1755_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_BeginInvoke_m9535_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_BeginInvoke_m9539_ParameterInfos[] = 
 {
 	{"collection", 0, 134218574, 0, &X509CertificateCollection_t1755_0_0_0},
 	{"callback", 1, 134218575, 0, &AsyncCallback_t346_0_0_0},
@@ -2369,14 +2369,14 @@ static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValid
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::BeginInvoke(Mono.Security.X509.X509CertificateCollection,System.AsyncCallback,System.Object)
-extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m9535_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m9539_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback2_BeginInvoke_m9535/* method */
+	, (methodPointerType)&CertificateValidationCallback2_BeginInvoke_m9539/* method */
 	, &CertificateValidationCallback2_t1823_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_BeginInvoke_m9535_ParameterInfos/* parameters */
+	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_BeginInvoke_m9539_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2391,20 +2391,20 @@ extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m9535_MethodI
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_EndInvoke_m9536_ParameterInfos[] = 
+static const ParameterInfo CertificateValidationCallback2_t1823_CertificateValidationCallback2_EndInvoke_m9540_ParameterInfos[] = 
 {
 	{"result", 0, 134218577, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::EndInvoke(System.IAsyncResult)
-extern const MethodInfo CertificateValidationCallback2_EndInvoke_m9536_MethodInfo = 
+extern const MethodInfo CertificateValidationCallback2_EndInvoke_m9540_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&CertificateValidationCallback2_EndInvoke_m9536/* method */
+	, (methodPointerType)&CertificateValidationCallback2_EndInvoke_m9540/* method */
 	, &CertificateValidationCallback2_t1823_il2cpp_TypeInfo/* declaring_type */
 	, &ValidationResult_t1821_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_EndInvoke_m9536_ParameterInfos/* parameters */
+	, CertificateValidationCallback2_t1823_CertificateValidationCallback2_EndInvoke_m9540_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2420,30 +2420,30 @@ extern const MethodInfo CertificateValidationCallback2_EndInvoke_m9536_MethodInf
 };
 static const MethodInfo* CertificateValidationCallback2_t1823_MethodInfos[] =
 {
-	&CertificateValidationCallback2__ctor_m9533_MethodInfo,
-	&CertificateValidationCallback2_Invoke_m9534_MethodInfo,
-	&CertificateValidationCallback2_BeginInvoke_m9535_MethodInfo,
-	&CertificateValidationCallback2_EndInvoke_m9536_MethodInfo,
+	&CertificateValidationCallback2__ctor_m9537_MethodInfo,
+	&CertificateValidationCallback2_Invoke_m9538_MethodInfo,
+	&CertificateValidationCallback2_BeginInvoke_m9539_MethodInfo,
+	&CertificateValidationCallback2_EndInvoke_m9540_MethodInfo,
 	NULL
 };
-extern const MethodInfo CertificateValidationCallback2_Invoke_m9534_MethodInfo;
-extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m9535_MethodInfo;
-extern const MethodInfo CertificateValidationCallback2_EndInvoke_m9536_MethodInfo;
+extern const MethodInfo CertificateValidationCallback2_Invoke_m9538_MethodInfo;
+extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m9539_MethodInfo;
+extern const MethodInfo CertificateValidationCallback2_EndInvoke_m9540_MethodInfo;
 static const Il2CppMethodReference CertificateValidationCallback2_t1823_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&CertificateValidationCallback2_Invoke_m9534_MethodInfo,
-	&CertificateValidationCallback2_BeginInvoke_m9535_MethodInfo,
-	&CertificateValidationCallback2_EndInvoke_m9536_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&CertificateValidationCallback2_Invoke_m9538_MethodInfo,
+	&CertificateValidationCallback2_BeginInvoke_m9539_MethodInfo,
+	&CertificateValidationCallback2_EndInvoke_m9540_MethodInfo,
 };
 static bool CertificateValidationCallback2_t1823_VTableIsGenericMethod[] =
 {
@@ -2545,21 +2545,21 @@ extern TypeInfo CertificateSelectionCallback_t1807_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateSelectioMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback__ctor_m9537_ParameterInfos[] = 
+static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback__ctor_m9541_ParameterInfos[] = 
 {
 	{"object", 0, 134218578, 0, &Object_t_0_0_0},
 	{"method", 1, 134218579, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo CertificateSelectionCallback__ctor_m9537_MethodInfo = 
+extern const MethodInfo CertificateSelectionCallback__ctor_m9541_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CertificateSelectionCallback__ctor_m9537/* method */
+	, (methodPointerType)&CertificateSelectionCallback__ctor_m9541/* method */
 	, &CertificateSelectionCallback_t1807_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, CertificateSelectionCallback_t1807_CertificateSelectionCallback__ctor_m9537_ParameterInfos/* parameters */
+	, CertificateSelectionCallback_t1807_CertificateSelectionCallback__ctor_m9541_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2578,7 +2578,7 @@ extern const Il2CppType X509CertificateCollection_t1829_0_0_0;
 extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType X509CertificateCollection_t1829_0_0_0;
-static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_Invoke_m9538_ParameterInfos[] = 
+static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_Invoke_m9542_ParameterInfos[] = 
 {
 	{"clientCertificates", 0, 134218580, 0, &X509CertificateCollection_t1829_0_0_0},
 	{"serverCertificate", 1, 134218581, 0, &X509Certificate_t1830_0_0_0},
@@ -2587,14 +2587,14 @@ static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelecti
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.CertificateSelectionCallback::Invoke(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern const MethodInfo CertificateSelectionCallback_Invoke_m9538_MethodInfo = 
+extern const MethodInfo CertificateSelectionCallback_Invoke_m9542_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&CertificateSelectionCallback_Invoke_m9538/* method */
+	, (methodPointerType)&CertificateSelectionCallback_Invoke_m9542/* method */
 	, &CertificateSelectionCallback_t1807_il2cpp_TypeInfo/* declaring_type */
 	, &X509Certificate_t1830_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_Invoke_m9538_ParameterInfos/* parameters */
+	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_Invoke_m9542_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2614,7 +2614,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType X509CertificateCollection_t1829_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_BeginInvoke_m9539_ParameterInfos[] = 
+static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_BeginInvoke_m9543_ParameterInfos[] = 
 {
 	{"clientCertificates", 0, 134218584, 0, &X509CertificateCollection_t1829_0_0_0},
 	{"serverCertificate", 1, 134218585, 0, &X509Certificate_t1830_0_0_0},
@@ -2625,14 +2625,14 @@ static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelecti
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateSelectionCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.AsyncCallback,System.Object)
-extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m9539_MethodInfo = 
+extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m9543_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&CertificateSelectionCallback_BeginInvoke_m9539/* method */
+	, (methodPointerType)&CertificateSelectionCallback_BeginInvoke_m9543/* method */
 	, &CertificateSelectionCallback_t1807_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_BeginInvoke_m9539_ParameterInfos/* parameters */
+	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_BeginInvoke_m9543_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2647,20 +2647,20 @@ extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m9539_MethodInf
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_EndInvoke_m9540_ParameterInfos[] = 
+static const ParameterInfo CertificateSelectionCallback_t1807_CertificateSelectionCallback_EndInvoke_m9544_ParameterInfos[] = 
 {
 	{"result", 0, 134218590, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.CertificateSelectionCallback::EndInvoke(System.IAsyncResult)
-extern const MethodInfo CertificateSelectionCallback_EndInvoke_m9540_MethodInfo = 
+extern const MethodInfo CertificateSelectionCallback_EndInvoke_m9544_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&CertificateSelectionCallback_EndInvoke_m9540/* method */
+	, (methodPointerType)&CertificateSelectionCallback_EndInvoke_m9544/* method */
 	, &CertificateSelectionCallback_t1807_il2cpp_TypeInfo/* declaring_type */
 	, &X509Certificate_t1830_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_EndInvoke_m9540_ParameterInfos/* parameters */
+	, CertificateSelectionCallback_t1807_CertificateSelectionCallback_EndInvoke_m9544_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2676,30 +2676,30 @@ extern const MethodInfo CertificateSelectionCallback_EndInvoke_m9540_MethodInfo 
 };
 static const MethodInfo* CertificateSelectionCallback_t1807_MethodInfos[] =
 {
-	&CertificateSelectionCallback__ctor_m9537_MethodInfo,
-	&CertificateSelectionCallback_Invoke_m9538_MethodInfo,
-	&CertificateSelectionCallback_BeginInvoke_m9539_MethodInfo,
-	&CertificateSelectionCallback_EndInvoke_m9540_MethodInfo,
+	&CertificateSelectionCallback__ctor_m9541_MethodInfo,
+	&CertificateSelectionCallback_Invoke_m9542_MethodInfo,
+	&CertificateSelectionCallback_BeginInvoke_m9543_MethodInfo,
+	&CertificateSelectionCallback_EndInvoke_m9544_MethodInfo,
 	NULL
 };
-extern const MethodInfo CertificateSelectionCallback_Invoke_m9538_MethodInfo;
-extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m9539_MethodInfo;
-extern const MethodInfo CertificateSelectionCallback_EndInvoke_m9540_MethodInfo;
+extern const MethodInfo CertificateSelectionCallback_Invoke_m9542_MethodInfo;
+extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m9543_MethodInfo;
+extern const MethodInfo CertificateSelectionCallback_EndInvoke_m9544_MethodInfo;
 static const Il2CppMethodReference CertificateSelectionCallback_t1807_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&CertificateSelectionCallback_Invoke_m9538_MethodInfo,
-	&CertificateSelectionCallback_BeginInvoke_m9539_MethodInfo,
-	&CertificateSelectionCallback_EndInvoke_m9540_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&CertificateSelectionCallback_Invoke_m9542_MethodInfo,
+	&CertificateSelectionCallback_BeginInvoke_m9543_MethodInfo,
+	&CertificateSelectionCallback_EndInvoke_m9544_MethodInfo,
 };
 static bool CertificateSelectionCallback_t1807_VTableIsGenericMethod[] =
 {
@@ -2801,21 +2801,21 @@ extern TypeInfo PrivateKeySelectionCallback_t1808_il2cpp_TypeInfo;
 #include "Mono_Security_Mono_Security_Protocol_Tls_PrivateKeySelectionMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback__ctor_m9541_ParameterInfos[] = 
+static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback__ctor_m9545_ParameterInfos[] = 
 {
 	{"object", 0, 134218591, 0, &Object_t_0_0_0},
 	{"method", 1, 134218592, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo PrivateKeySelectionCallback__ctor_m9541_MethodInfo = 
+extern const MethodInfo PrivateKeySelectionCallback__ctor_m9545_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PrivateKeySelectionCallback__ctor_m9541/* method */
+	, (methodPointerType)&PrivateKeySelectionCallback__ctor_m9545/* method */
 	, &PrivateKeySelectionCallback_t1808_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_IntPtr_t/* invoker_method */
-	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback__ctor_m9541_ParameterInfos/* parameters */
+	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback__ctor_m9545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2831,7 +2831,7 @@ extern const MethodInfo PrivateKeySelectionCallback__ctor_m9541_MethodInfo =
 };
 extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_Invoke_m9542_ParameterInfos[] = 
+static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_Invoke_m9546_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218593, 0, &X509Certificate_t1830_0_0_0},
 	{"targetHost", 1, 134218594, 0, &String_t_0_0_0},
@@ -2839,14 +2839,14 @@ static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelection
 extern const Il2CppType AsymmetricAlgorithm_t1848_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern const MethodInfo PrivateKeySelectionCallback_Invoke_m9542_MethodInfo = 
+extern const MethodInfo PrivateKeySelectionCallback_Invoke_m9546_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&PrivateKeySelectionCallback_Invoke_m9542/* method */
+	, (methodPointerType)&PrivateKeySelectionCallback_Invoke_m9546/* method */
 	, &PrivateKeySelectionCallback_t1808_il2cpp_TypeInfo/* declaring_type */
 	, &AsymmetricAlgorithm_t1848_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_Invoke_m9542_ParameterInfos/* parameters */
+	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_Invoke_m9546_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2864,7 +2864,7 @@ extern const Il2CppType X509Certificate_t1830_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType AsyncCallback_t346_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_BeginInvoke_m9543_ParameterInfos[] = 
+static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_BeginInvoke_m9547_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218595, 0, &X509Certificate_t1830_0_0_0},
 	{"targetHost", 1, 134218596, 0, &String_t_0_0_0},
@@ -2873,14 +2873,14 @@ static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelection
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.AsyncCallback,System.Object)
-extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m9543_MethodInfo = 
+extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m9547_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&PrivateKeySelectionCallback_BeginInvoke_m9543/* method */
+	, (methodPointerType)&PrivateKeySelectionCallback_BeginInvoke_m9547/* method */
 	, &PrivateKeySelectionCallback_t1808_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t345_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_BeginInvoke_m9543_ParameterInfos/* parameters */
+	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_BeginInvoke_m9547_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2895,20 +2895,20 @@ extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m9543_MethodInfo
 
 };
 extern const Il2CppType IAsyncResult_t345_0_0_0;
-static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_EndInvoke_m9544_ParameterInfos[] = 
+static const ParameterInfo PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_EndInvoke_m9548_ParameterInfos[] = 
 {
 	{"result", 0, 134218599, 0, &IAsyncResult_t345_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::EndInvoke(System.IAsyncResult)
-extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m9544_MethodInfo = 
+extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m9548_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&PrivateKeySelectionCallback_EndInvoke_m9544/* method */
+	, (methodPointerType)&PrivateKeySelectionCallback_EndInvoke_m9548/* method */
 	, &PrivateKeySelectionCallback_t1808_il2cpp_TypeInfo/* declaring_type */
 	, &AsymmetricAlgorithm_t1848_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_EndInvoke_m9544_ParameterInfos/* parameters */
+	, PrivateKeySelectionCallback_t1808_PrivateKeySelectionCallback_EndInvoke_m9548_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2924,30 +2924,30 @@ extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m9544_MethodInfo =
 };
 static const MethodInfo* PrivateKeySelectionCallback_t1808_MethodInfos[] =
 {
-	&PrivateKeySelectionCallback__ctor_m9541_MethodInfo,
-	&PrivateKeySelectionCallback_Invoke_m9542_MethodInfo,
-	&PrivateKeySelectionCallback_BeginInvoke_m9543_MethodInfo,
-	&PrivateKeySelectionCallback_EndInvoke_m9544_MethodInfo,
+	&PrivateKeySelectionCallback__ctor_m9545_MethodInfo,
+	&PrivateKeySelectionCallback_Invoke_m9546_MethodInfo,
+	&PrivateKeySelectionCallback_BeginInvoke_m9547_MethodInfo,
+	&PrivateKeySelectionCallback_EndInvoke_m9548_MethodInfo,
 	NULL
 };
-extern const MethodInfo PrivateKeySelectionCallback_Invoke_m9542_MethodInfo;
-extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m9543_MethodInfo;
-extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m9544_MethodInfo;
+extern const MethodInfo PrivateKeySelectionCallback_Invoke_m9546_MethodInfo;
+extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m9547_MethodInfo;
+extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m9548_MethodInfo;
 static const Il2CppMethodReference PrivateKeySelectionCallback_t1808_VTable[] =
 {
-	&MulticastDelegate_Equals_m3904_MethodInfo,
+	&MulticastDelegate_Equals_m3908_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3905_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3909_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&Delegate_Clone_m3907_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3906_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3908_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3909_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3910_MethodInfo,
-	&PrivateKeySelectionCallback_Invoke_m9542_MethodInfo,
-	&PrivateKeySelectionCallback_BeginInvoke_m9543_MethodInfo,
-	&PrivateKeySelectionCallback_EndInvoke_m9544_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&Delegate_Clone_m3911_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3910_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3912_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3913_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3914_MethodInfo,
+	&PrivateKeySelectionCallback_Invoke_m9546_MethodInfo,
+	&PrivateKeySelectionCallback_BeginInvoke_m9547_MethodInfo,
+	&PrivateKeySelectionCallback_EndInvoke_m9548_MethodInfo,
 };
 static bool PrivateKeySelectionCallback_t1808_VTableIsGenericMethod[] =
 {
@@ -3051,15 +3051,15 @@ static const MethodInfo* U24ArrayTypeU243132_t1849_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m5713_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m5714_MethodInfo;
-extern const MethodInfo ValueType_ToString_m5717_MethodInfo;
+extern const MethodInfo ValueType_Equals_m5717_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m5718_MethodInfo;
+extern const MethodInfo ValueType_ToString_m5721_MethodInfo;
 static const Il2CppMethodReference U24ArrayTypeU243132_t1849_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU243132_t1849_VTableIsGenericMethod[] =
 {
@@ -3153,10 +3153,10 @@ static const MethodInfo* U24ArrayTypeU24256_t1850_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24256_t1850_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU24256_t1850_VTableIsGenericMethod[] =
 {
@@ -3247,10 +3247,10 @@ static const MethodInfo* U24ArrayTypeU2420_t1851_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2420_t1851_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2420_t1851_VTableIsGenericMethod[] =
 {
@@ -3341,10 +3341,10 @@ static const MethodInfo* U24ArrayTypeU2432_t1852_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2432_t1852_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2432_t1852_VTableIsGenericMethod[] =
 {
@@ -3435,10 +3435,10 @@ static const MethodInfo* U24ArrayTypeU2448_t1853_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2448_t1853_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2448_t1853_VTableIsGenericMethod[] =
 {
@@ -3529,10 +3529,10 @@ static const MethodInfo* U24ArrayTypeU2464_t1854_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2464_t1854_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2464_t1854_VTableIsGenericMethod[] =
 {
@@ -3623,10 +3623,10 @@ static const MethodInfo* U24ArrayTypeU2412_t1855_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2412_t1855_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2412_t1855_VTableIsGenericMethod[] =
 {
@@ -3717,10 +3717,10 @@ static const MethodInfo* U24ArrayTypeU2416_t1856_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2416_t1856_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU2416_t1856_VTableIsGenericMethod[] =
 {
@@ -3811,10 +3811,10 @@ static const MethodInfo* U24ArrayTypeU244_t1857_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU244_t1857_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool U24ArrayTypeU244_t1857_VTableIsGenericMethod[] =
 {

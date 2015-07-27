@@ -16,9 +16,9 @@ struct String_t;
 struct Type_t;
 
 // System.Void System.Xml.XmlResolver::.ctor()
-extern "C" void XmlResolver__ctor_m8236 (XmlResolver_t1578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlResolver__ctor_m8240 (XmlResolver_t1578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type)
 // System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String)
-extern "C" Uri_t656 * XmlResolver_ResolveUri_m8237 (XmlResolver_t1578 * __this, Uri_t656 * ___baseUri, String_t* ___relativeUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t656 * XmlResolver_ResolveUri_m8241 (XmlResolver_t1578 * __this, Uri_t656 * ___baseUri, String_t* ___relativeUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlResolver::EscapeRelativeUriBody(System.String)
-extern "C" String_t* XmlResolver_EscapeRelativeUriBody_m8238 (XmlResolver_t1578 * __this, String_t* ___src, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlResolver_EscapeRelativeUriBody_m8242 (XmlResolver_t1578 * __this, String_t* ___src, const MethodInfo* method) IL2CPP_METHOD_ATTR;

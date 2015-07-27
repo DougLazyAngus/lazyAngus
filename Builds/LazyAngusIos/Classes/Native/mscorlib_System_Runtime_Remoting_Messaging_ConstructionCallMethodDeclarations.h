@@ -26,30 +26,30 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::.ctor(System.Type)
-extern "C" void ConstructionCall__ctor_m14602 (ConstructionCall_t2577 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall__ctor_m14606 (ConstructionCall_t2577 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ConstructionCall__ctor_m14603 (ConstructionCall_t2577 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall__ctor_m14607 (ConstructionCall_t2577 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::InitDictionary()
-extern "C" void ConstructionCall_InitDictionary_m14604 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_InitDictionary_m14608 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::set_IsContextOk(System.Boolean)
-extern "C" void ConstructionCall_set_IsContextOk_m14605 (ConstructionCall_t2577 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_set_IsContextOk_m14609 (ConstructionCall_t2577 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.Messaging.ConstructionCall::get_ActivationType()
-extern "C" Type_t * ConstructionCall_get_ActivationType_m14606 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ConstructionCall_get_ActivationType_m14610 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Messaging.ConstructionCall::get_ActivationTypeName()
-extern "C" String_t* ConstructionCall_get_ActivationTypeName_m14607 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ConstructionCall_get_ActivationTypeName_m14611 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Messaging.ConstructionCall::get_Activator()
-extern "C" Object_t * ConstructionCall_get_Activator_m14608 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructionCall_get_Activator_m14612 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::set_Activator(System.Runtime.Remoting.Activation.IActivator)
-extern "C" void ConstructionCall_set_Activator_m14609 (ConstructionCall_t2577 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_set_Activator_m14613 (ConstructionCall_t2577 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.Messaging.ConstructionCall::get_CallSiteActivationAttributes()
-extern "C" ObjectU5BU5D_t582* ConstructionCall_get_CallSiteActivationAttributes_m14610 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t582* ConstructionCall_get_CallSiteActivationAttributes_m14614 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::SetActivationAttributes(System.Object[])
-extern "C" void ConstructionCall_SetActivationAttributes_m14611 (ConstructionCall_t2577 * __this, ObjectU5BU5D_t582* ___attributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_SetActivationAttributes_m14615 (ConstructionCall_t2577 * __this, ObjectU5BU5D_t582* ___attributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IList System.Runtime.Remoting.Messaging.ConstructionCall::get_ContextProperties()
-extern "C" Object_t * ConstructionCall_get_ContextProperties_m14612 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructionCall_get_ContextProperties_m14616 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::InitMethodProperty(System.String,System.Object)
-extern "C" void ConstructionCall_InitMethodProperty_m14613 (ConstructionCall_t2577 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_InitMethodProperty_m14617 (ConstructionCall_t2577 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ConstructionCall_GetObjectData_m14614 (ConstructionCall_t2577 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_GetObjectData_m14618 (ConstructionCall_t2577 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.ConstructionCall::get_Properties()
-extern "C" Object_t * ConstructionCall_get_Properties_m14615 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructionCall_get_Properties_m14619 (ConstructionCall_t2577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

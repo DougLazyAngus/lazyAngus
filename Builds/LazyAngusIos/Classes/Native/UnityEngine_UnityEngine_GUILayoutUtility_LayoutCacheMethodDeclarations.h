@@ -8,4 +8,4 @@
 struct LayoutCache_t1090;
 
 // System.Void UnityEngine.GUILayoutUtility/LayoutCache::.ctor()
-extern "C" void LayoutCache__ctor_m5952 (LayoutCache_t1090 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutCache__ctor_m5956 (LayoutCache_t1090 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

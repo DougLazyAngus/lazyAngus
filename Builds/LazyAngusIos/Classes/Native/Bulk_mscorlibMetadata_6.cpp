@@ -11,10 +11,10 @@ extern TypeInfo SymmetricAlgorithm_t1749_il2cpp_TypeInfo;
 extern const Il2CppType Void_t57_0_0_0;
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::.ctor()
-extern const MethodInfo SymmetricAlgorithm__ctor_m9571_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm__ctor_m9575_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SymmetricAlgorithm__ctor_m9571/* method */
+	, (methodPointerType)&SymmetricAlgorithm__ctor_m9575/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -34,10 +34,10 @@ extern const MethodInfo SymmetricAlgorithm__ctor_m9571_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::System.IDisposable.Dispose()
-extern const MethodInfo SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo = 
 {
 	"System.IDisposable.Dispose"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_System_IDisposable_Dispose_m9666/* method */
+	, (methodPointerType)&SymmetricAlgorithm_System_IDisposable_Dispose_m9670/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -57,10 +57,10 @@ extern const MethodInfo SymmetricAlgorithm_System_IDisposable_Dispose_m9666_Meth
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::Finalize()
-extern const MethodInfo SymmetricAlgorithm_Finalize_m9558_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_Finalize_m9562_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_Finalize_m9558/* method */
+	, (methodPointerType)&SymmetricAlgorithm_Finalize_m9562/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -80,10 +80,10 @@ extern const MethodInfo SymmetricAlgorithm_Finalize_m9558_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::Clear()
-extern const MethodInfo SymmetricAlgorithm_Clear_m9582_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_Clear_m9586_MethodInfo = 
 {
 	"Clear"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_Clear_m9582/* method */
+	, (methodPointerType)&SymmetricAlgorithm_Clear_m9586/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -103,20 +103,20 @@ extern const MethodInfo SymmetricAlgorithm_Clear_m9582_MethodInfo =
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_Dispose_m9686_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_Dispose_m9690_ParameterInfos[] = 
 {
 	{"disposing", 0, 134222978, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::Dispose(System.Boolean)
-extern const MethodInfo SymmetricAlgorithm_Dispose_m9686_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_Dispose_m9690_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_Dispose_m9686/* method */
+	, (methodPointerType)&SymmetricAlgorithm_Dispose_m9690/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_Dispose_m9686_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_Dispose_m9690_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -133,10 +133,10 @@ extern const MethodInfo SymmetricAlgorithm_Dispose_m9686_MethodInfo =
 extern const Il2CppType Int32_t50_0_0_0;
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.SymmetricAlgorithm::get_BlockSize()
-extern const MethodInfo SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo = 
 {
 	"get_BlockSize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_BlockSize_m9667/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_BlockSize_m9671/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -155,20 +155,20 @@ extern const MethodInfo SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_BlockSize_m9668_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_BlockSize_m9672_ParameterInfos[] = 
 {
 	{"value", 0, 134222979, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_BlockSize(System.Int32)
-extern const MethodInfo SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo = 
 {
 	"set_BlockSize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_BlockSize_m9668/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_BlockSize_m9672/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_BlockSize_m9668_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_BlockSize_m9672_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -184,10 +184,10 @@ extern const MethodInfo SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.SymmetricAlgorithm::get_FeedbackSize()
-extern const MethodInfo SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo = 
 {
 	"get_FeedbackSize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_FeedbackSize_m9669/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_FeedbackSize_m9673/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -208,10 +208,10 @@ extern const MethodInfo SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_IV()
-extern const MethodInfo SymmetricAlgorithm_get_IV_m15221_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_IV_m15225_MethodInfo = 
 {
 	"get_IV"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_IV_m15221/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_IV_m15225/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -230,20 +230,20 @@ extern const MethodInfo SymmetricAlgorithm_get_IV_m15221_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_IV_m15222_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_IV_m15226_ParameterInfos[] = 
 {
 	{"value", 0, 134222980, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_IV(System.Byte[])
-extern const MethodInfo SymmetricAlgorithm_set_IV_m15222_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_IV_m15226_MethodInfo = 
 {
 	"set_IV"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_IV_m15222/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_IV_m15226/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_IV_m15222_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_IV_m15226_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -259,10 +259,10 @@ extern const MethodInfo SymmetricAlgorithm_set_IV_m15222_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_Key()
-extern const MethodInfo SymmetricAlgorithm_get_Key_m9687_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_Key_m9691_MethodInfo = 
 {
 	"get_Key"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_Key_m9687/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_Key_m9691/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -281,20 +281,20 @@ extern const MethodInfo SymmetricAlgorithm_get_Key_m9687_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Key_m9688_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Key_m9692_ParameterInfos[] = 
 {
 	{"value", 0, 134222981, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_Key(System.Byte[])
-extern const MethodInfo SymmetricAlgorithm_set_Key_m9688_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_Key_m9692_MethodInfo = 
 {
 	"set_Key"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_Key_m9688/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_Key_m9692/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Key_m9688_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Key_m9692_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -310,10 +310,10 @@ extern const MethodInfo SymmetricAlgorithm_set_Key_m9688_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.SymmetricAlgorithm::get_KeySize()
-extern const MethodInfo SymmetricAlgorithm_get_KeySize_m9670_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_KeySize_m9674_MethodInfo = 
 {
 	"get_KeySize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_KeySize_m9670/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_KeySize_m9674/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -332,20 +332,20 @@ extern const MethodInfo SymmetricAlgorithm_get_KeySize_m9670_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_KeySize_m9671_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_KeySize_m9675_ParameterInfos[] = 
 {
 	{"value", 0, 134222982, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_KeySize(System.Int32)
-extern const MethodInfo SymmetricAlgorithm_set_KeySize_m9671_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_KeySize_m9675_MethodInfo = 
 {
 	"set_KeySize"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_KeySize_m9671/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_KeySize_m9675/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_KeySize_m9671_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_KeySize_m9675_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -362,10 +362,10 @@ extern const MethodInfo SymmetricAlgorithm_set_KeySize_m9671_MethodInfo =
 extern const Il2CppType KeySizesU5BU5D_t1748_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.KeySizes[] System.Security.Cryptography.SymmetricAlgorithm::get_LegalKeySizes()
-extern const MethodInfo SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo = 
 {
 	"get_LegalKeySizes"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_LegalKeySizes_m9672/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_LegalKeySizes_m9676/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &KeySizesU5BU5D_t1748_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -386,10 +386,10 @@ extern const MethodInfo SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo =
 extern const Il2CppType CipherMode_t1899_0_0_0;
 extern void* RuntimeInvoker_CipherMode_t1899 (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.CipherMode System.Security.Cryptography.SymmetricAlgorithm::get_Mode()
-extern const MethodInfo SymmetricAlgorithm_get_Mode_m9673_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_Mode_m9677_MethodInfo = 
 {
 	"get_Mode"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_Mode_m9673/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_Mode_m9677/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &CipherMode_t1899_0_0_0/* return_type */
 	, RuntimeInvoker_CipherMode_t1899/* invoker_method */
@@ -408,20 +408,20 @@ extern const MethodInfo SymmetricAlgorithm_get_Mode_m9673_MethodInfo =
 
 };
 extern const Il2CppType CipherMode_t1899_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Mode_m9674_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Mode_m9678_ParameterInfos[] = 
 {
 	{"value", 0, 134222983, 0, &CipherMode_t1899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_Mode(System.Security.Cryptography.CipherMode)
-extern const MethodInfo SymmetricAlgorithm_set_Mode_m9674_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_Mode_m9678_MethodInfo = 
 {
 	"set_Mode"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_Mode_m9674/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_Mode_m9678/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Mode_m9674_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Mode_m9678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -438,10 +438,10 @@ extern const MethodInfo SymmetricAlgorithm_set_Mode_m9674_MethodInfo =
 extern const Il2CppType PaddingMode_t2666_0_0_0;
 extern void* RuntimeInvoker_PaddingMode_t2666 (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding()
-extern const MethodInfo SymmetricAlgorithm_get_Padding_m9675_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_get_Padding_m9679_MethodInfo = 
 {
 	"get_Padding"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_get_Padding_m9675/* method */
+	, (methodPointerType)&SymmetricAlgorithm_get_Padding_m9679/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &PaddingMode_t2666_0_0_0/* return_type */
 	, RuntimeInvoker_PaddingMode_t2666/* invoker_method */
@@ -460,20 +460,20 @@ extern const MethodInfo SymmetricAlgorithm_get_Padding_m9675_MethodInfo =
 
 };
 extern const Il2CppType PaddingMode_t2666_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Padding_m9676_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Padding_m9680_ParameterInfos[] = 
 {
 	{"value", 0, 134222984, 0, &PaddingMode_t2666_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::set_Padding(System.Security.Cryptography.PaddingMode)
-extern const MethodInfo SymmetricAlgorithm_set_Padding_m9676_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_set_Padding_m9680_MethodInfo = 
 {
 	"set_Padding"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_set_Padding_m9676/* method */
+	, (methodPointerType)&SymmetricAlgorithm_set_Padding_m9680/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Padding_m9676_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_set_Padding_m9680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -490,10 +490,10 @@ extern const MethodInfo SymmetricAlgorithm_set_Padding_m9676_MethodInfo =
 extern const Il2CppType ICryptoTransform_t1788_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.SymmetricAlgorithm::CreateDecryptor()
-extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo = 
 {
 	"CreateDecryptor"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_CreateDecryptor_m9677/* method */
+	, (methodPointerType)&SymmetricAlgorithm_CreateDecryptor_m9681/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -513,21 +513,21 @@ extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateDecryptor_m17094_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateDecryptor_m17098_ParameterInfos[] = 
 {
 	{"rgbKey", 0, 134222985, 0, &ByteU5BU5D_t36_0_0_0},
 	{"rgbIV", 1, 134222986, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.SymmetricAlgorithm::CreateDecryptor(System.Byte[],System.Byte[])
-extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m17094_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m17098_MethodInfo = 
 {
 	"CreateDecryptor"/* name */
 	, NULL/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateDecryptor_m17094_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateDecryptor_m17098_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -543,10 +543,10 @@ extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m17094_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.SymmetricAlgorithm::CreateEncryptor()
-extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo = 
 {
 	"CreateEncryptor"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_CreateEncryptor_m9678/* method */
+	, (methodPointerType)&SymmetricAlgorithm_CreateEncryptor_m9682/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -566,21 +566,21 @@ extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateEncryptor_m17095_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateEncryptor_m17099_ParameterInfos[] = 
 {
 	{"rgbKey", 0, 134222987, 0, &ByteU5BU5D_t36_0_0_0},
 	{"rgbIV", 1, 134222988, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.SymmetricAlgorithm::CreateEncryptor(System.Byte[],System.Byte[])
-extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m17095_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m17099_MethodInfo = 
 {
 	"CreateEncryptor"/* name */
 	, NULL/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateEncryptor_m17095_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_CreateEncryptor_m17099_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -596,7 +596,7 @@ extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m17095_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::GenerateIV()
-extern const MethodInfo SymmetricAlgorithm_GenerateIV_m17096_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_GenerateIV_m17100_MethodInfo = 
 {
 	"GenerateIV"/* name */
 	, NULL/* method */
@@ -619,7 +619,7 @@ extern const MethodInfo SymmetricAlgorithm_GenerateIV_m17096_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.SymmetricAlgorithm::GenerateKey()
-extern const MethodInfo SymmetricAlgorithm_GenerateKey_m17097_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_GenerateKey_m17101_MethodInfo = 
 {
 	"GenerateKey"/* name */
 	, NULL/* method */
@@ -642,21 +642,21 @@ extern const MethodInfo SymmetricAlgorithm_GenerateKey_m17097_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_Create_m9581_ParameterInfos[] = 
+static const ParameterInfo SymmetricAlgorithm_t1749_SymmetricAlgorithm_Create_m9585_ParameterInfos[] = 
 {
 	{"algName", 0, 134222989, 0, &String_t_0_0_0},
 };
 extern const Il2CppType SymmetricAlgorithm_t1749_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.SymmetricAlgorithm System.Security.Cryptography.SymmetricAlgorithm::Create(System.String)
-extern const MethodInfo SymmetricAlgorithm_Create_m9581_MethodInfo = 
+extern const MethodInfo SymmetricAlgorithm_Create_m9585_MethodInfo = 
 {
 	"Create"/* name */
-	, (methodPointerType)&SymmetricAlgorithm_Create_m9581/* method */
+	, (methodPointerType)&SymmetricAlgorithm_Create_m9585/* method */
 	, &SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* declaring_type */
 	, &SymmetricAlgorithm_t1749_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_Create_m9581_ParameterInfos/* parameters */
+	, SymmetricAlgorithm_t1749_SymmetricAlgorithm_Create_m9585_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -672,124 +672,124 @@ extern const MethodInfo SymmetricAlgorithm_Create_m9581_MethodInfo =
 };
 static const MethodInfo* SymmetricAlgorithm_t1749_MethodInfos[] =
 {
-	&SymmetricAlgorithm__ctor_m9571_MethodInfo,
-	&SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo,
-	&SymmetricAlgorithm_Finalize_m9558_MethodInfo,
-	&SymmetricAlgorithm_Clear_m9582_MethodInfo,
-	&SymmetricAlgorithm_Dispose_m9686_MethodInfo,
-	&SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo,
-	&SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo,
-	&SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo,
-	&SymmetricAlgorithm_get_IV_m15221_MethodInfo,
-	&SymmetricAlgorithm_set_IV_m15222_MethodInfo,
-	&SymmetricAlgorithm_get_Key_m9687_MethodInfo,
-	&SymmetricAlgorithm_set_Key_m9688_MethodInfo,
-	&SymmetricAlgorithm_get_KeySize_m9670_MethodInfo,
-	&SymmetricAlgorithm_set_KeySize_m9671_MethodInfo,
-	&SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo,
-	&SymmetricAlgorithm_get_Mode_m9673_MethodInfo,
-	&SymmetricAlgorithm_set_Mode_m9674_MethodInfo,
-	&SymmetricAlgorithm_get_Padding_m9675_MethodInfo,
-	&SymmetricAlgorithm_set_Padding_m9676_MethodInfo,
-	&SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo,
-	&SymmetricAlgorithm_CreateDecryptor_m17094_MethodInfo,
-	&SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo,
-	&SymmetricAlgorithm_CreateEncryptor_m17095_MethodInfo,
-	&SymmetricAlgorithm_GenerateIV_m17096_MethodInfo,
-	&SymmetricAlgorithm_GenerateKey_m17097_MethodInfo,
-	&SymmetricAlgorithm_Create_m9581_MethodInfo,
+	&SymmetricAlgorithm__ctor_m9575_MethodInfo,
+	&SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo,
+	&SymmetricAlgorithm_Finalize_m9562_MethodInfo,
+	&SymmetricAlgorithm_Clear_m9586_MethodInfo,
+	&SymmetricAlgorithm_Dispose_m9690_MethodInfo,
+	&SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo,
+	&SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo,
+	&SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo,
+	&SymmetricAlgorithm_get_IV_m15225_MethodInfo,
+	&SymmetricAlgorithm_set_IV_m15226_MethodInfo,
+	&SymmetricAlgorithm_get_Key_m9691_MethodInfo,
+	&SymmetricAlgorithm_set_Key_m9692_MethodInfo,
+	&SymmetricAlgorithm_get_KeySize_m9674_MethodInfo,
+	&SymmetricAlgorithm_set_KeySize_m9675_MethodInfo,
+	&SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo,
+	&SymmetricAlgorithm_get_Mode_m9677_MethodInfo,
+	&SymmetricAlgorithm_set_Mode_m9678_MethodInfo,
+	&SymmetricAlgorithm_get_Padding_m9679_MethodInfo,
+	&SymmetricAlgorithm_set_Padding_m9680_MethodInfo,
+	&SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo,
+	&SymmetricAlgorithm_CreateDecryptor_m17098_MethodInfo,
+	&SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo,
+	&SymmetricAlgorithm_CreateEncryptor_m17099_MethodInfo,
+	&SymmetricAlgorithm_GenerateIV_m17100_MethodInfo,
+	&SymmetricAlgorithm_GenerateKey_m17101_MethodInfo,
+	&SymmetricAlgorithm_Create_m9585_MethodInfo,
 	NULL
 };
-extern const MethodInfo SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____BlockSize_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "BlockSize"/* name */
-	, &SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____FeedbackSize_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "FeedbackSize"/* name */
-	, &SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo/* get */
+	, &SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_IV_m15221_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_IV_m15222_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_IV_m15225_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_IV_m15226_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____IV_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "IV"/* name */
-	, &SymmetricAlgorithm_get_IV_m15221_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_IV_m15222_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_IV_m15225_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_IV_m15226_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_Key_m9687_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_Key_m9688_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_Key_m9691_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_Key_m9692_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____Key_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "Key"/* name */
-	, &SymmetricAlgorithm_get_Key_m9687_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_Key_m9688_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_Key_m9691_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_Key_m9692_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_KeySize_m9670_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_KeySize_m9671_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_KeySize_m9674_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_KeySize_m9675_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____KeySize_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "KeySize"/* name */
-	, &SymmetricAlgorithm_get_KeySize_m9670_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_KeySize_m9671_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_KeySize_m9674_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_KeySize_m9675_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____LegalKeySizes_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "LegalKeySizes"/* name */
-	, &SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo/* get */
+	, &SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_Mode_m9673_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_Mode_m9674_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_Mode_m9677_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_Mode_m9678_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____Mode_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "Mode"/* name */
-	, &SymmetricAlgorithm_get_Mode_m9673_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_Mode_m9674_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_Mode_m9677_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_Mode_m9678_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SymmetricAlgorithm_get_Padding_m9675_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_set_Padding_m9676_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_get_Padding_m9679_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_set_Padding_m9680_MethodInfo;
 static const PropertyInfo SymmetricAlgorithm_t1749____Padding_PropertyInfo = 
 {
 	&SymmetricAlgorithm_t1749_il2cpp_TypeInfo/* parent */
 	, "Padding"/* name */
-	, &SymmetricAlgorithm_get_Padding_m9675_MethodInfo/* get */
-	, &SymmetricAlgorithm_set_Padding_m9676_MethodInfo/* set */
+	, &SymmetricAlgorithm_get_Padding_m9679_MethodInfo/* get */
+	, &SymmetricAlgorithm_set_Padding_m9680_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -807,38 +807,38 @@ static const PropertyInfo* SymmetricAlgorithm_t1749_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo Object_Equals_m252_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_Finalize_m9558_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_Finalize_m9562_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m172_MethodInfo;
 extern const MethodInfo Object_ToString_m253_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_Dispose_m9686_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo;
-extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_Dispose_m9690_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo;
+extern const MethodInfo SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo;
 static const Il2CppMethodReference SymmetricAlgorithm_t1749_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&SymmetricAlgorithm_Finalize_m9558_MethodInfo,
+	&SymmetricAlgorithm_Finalize_m9562_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo,
-	&SymmetricAlgorithm_Dispose_m9686_MethodInfo,
-	&SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo,
-	&SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo,
-	&SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo,
-	&SymmetricAlgorithm_get_IV_m15221_MethodInfo,
-	&SymmetricAlgorithm_set_IV_m15222_MethodInfo,
-	&SymmetricAlgorithm_get_Key_m9687_MethodInfo,
-	&SymmetricAlgorithm_set_Key_m9688_MethodInfo,
-	&SymmetricAlgorithm_get_KeySize_m9670_MethodInfo,
-	&SymmetricAlgorithm_set_KeySize_m9671_MethodInfo,
-	&SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo,
-	&SymmetricAlgorithm_get_Mode_m9673_MethodInfo,
-	&SymmetricAlgorithm_set_Mode_m9674_MethodInfo,
-	&SymmetricAlgorithm_get_Padding_m9675_MethodInfo,
-	&SymmetricAlgorithm_set_Padding_m9676_MethodInfo,
-	&SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo,
+	&SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo,
+	&SymmetricAlgorithm_Dispose_m9690_MethodInfo,
+	&SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo,
+	&SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo,
+	&SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo,
+	&SymmetricAlgorithm_get_IV_m15225_MethodInfo,
+	&SymmetricAlgorithm_set_IV_m15226_MethodInfo,
+	&SymmetricAlgorithm_get_Key_m9691_MethodInfo,
+	&SymmetricAlgorithm_set_Key_m9692_MethodInfo,
+	&SymmetricAlgorithm_get_KeySize_m9674_MethodInfo,
+	&SymmetricAlgorithm_set_KeySize_m9675_MethodInfo,
+	&SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo,
+	&SymmetricAlgorithm_get_Mode_m9677_MethodInfo,
+	&SymmetricAlgorithm_set_Mode_m9678_MethodInfo,
+	&SymmetricAlgorithm_get_Padding_m9679_MethodInfo,
+	&SymmetricAlgorithm_set_Padding_m9680_MethodInfo,
+	&SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo,
 	NULL,
-	&SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo,
+	&SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo,
 	NULL,
 	NULL,
 	NULL,
@@ -960,10 +960,10 @@ extern TypeInfo ToBase64Transform_t2689_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Cryptography_ToBase64TransformMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.ToBase64Transform::System.IDisposable.Dispose()
-extern const MethodInfo ToBase64Transform_System_IDisposable_Dispose_m15223_MethodInfo = 
+extern const MethodInfo ToBase64Transform_System_IDisposable_Dispose_m15227_MethodInfo = 
 {
 	"System.IDisposable.Dispose"/* name */
-	, (methodPointerType)&ToBase64Transform_System_IDisposable_Dispose_m15223/* method */
+	, (methodPointerType)&ToBase64Transform_System_IDisposable_Dispose_m15227/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -983,10 +983,10 @@ extern const MethodInfo ToBase64Transform_System_IDisposable_Dispose_m15223_Meth
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.ToBase64Transform::Finalize()
-extern const MethodInfo ToBase64Transform_Finalize_m15224_MethodInfo = 
+extern const MethodInfo ToBase64Transform_Finalize_m15228_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&ToBase64Transform_Finalize_m15224/* method */
+	, (methodPointerType)&ToBase64Transform_Finalize_m15228/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1006,10 +1006,10 @@ extern const MethodInfo ToBase64Transform_Finalize_m15224_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Cryptography.ToBase64Transform::get_CanReuseTransform()
-extern const MethodInfo ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo = 
+extern const MethodInfo ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo = 
 {
 	"get_CanReuseTransform"/* name */
-	, (methodPointerType)&ToBase64Transform_get_CanReuseTransform_m15225/* method */
+	, (methodPointerType)&ToBase64Transform_get_CanReuseTransform_m15229/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -1029,10 +1029,10 @@ extern const MethodInfo ToBase64Transform_get_CanReuseTransform_m15225_MethodInf
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.ToBase64Transform::get_InputBlockSize()
-extern const MethodInfo ToBase64Transform_get_InputBlockSize_m15226_MethodInfo = 
+extern const MethodInfo ToBase64Transform_get_InputBlockSize_m15230_MethodInfo = 
 {
 	"get_InputBlockSize"/* name */
-	, (methodPointerType)&ToBase64Transform_get_InputBlockSize_m15226/* method */
+	, (methodPointerType)&ToBase64Transform_get_InputBlockSize_m15230/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -1052,10 +1052,10 @@ extern const MethodInfo ToBase64Transform_get_InputBlockSize_m15226_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.ToBase64Transform::get_OutputBlockSize()
-extern const MethodInfo ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo = 
+extern const MethodInfo ToBase64Transform_get_OutputBlockSize_m15231_MethodInfo = 
 {
 	"get_OutputBlockSize"/* name */
-	, (methodPointerType)&ToBase64Transform_get_OutputBlockSize_m15227/* method */
+	, (methodPointerType)&ToBase64Transform_get_OutputBlockSize_m15231/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -1074,20 +1074,20 @@ extern const MethodInfo ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo 
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_Dispose_m15228_ParameterInfos[] = 
+static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_Dispose_m15232_ParameterInfos[] = 
 {
 	{"disposing", 0, 134222990, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.ToBase64Transform::Dispose(System.Boolean)
-extern const MethodInfo ToBase64Transform_Dispose_m15228_MethodInfo = 
+extern const MethodInfo ToBase64Transform_Dispose_m15232_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&ToBase64Transform_Dispose_m15228/* method */
+	, (methodPointerType)&ToBase64Transform_Dispose_m15232/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, ToBase64Transform_t2689_ToBase64Transform_Dispose_m15228_ParameterInfos/* parameters */
+	, ToBase64Transform_t2689_ToBase64Transform_Dispose_m15232_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -1106,7 +1106,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformBlock_m15229_ParameterInfos[] = 
+static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformBlock_m15233_ParameterInfos[] = 
 {
 	{"inputBuffer", 0, 134222991, 0, &ByteU5BU5D_t36_0_0_0},
 	{"inputOffset", 1, 134222992, 0, &Int32_t50_0_0_0},
@@ -1116,14 +1116,14 @@ static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformBl
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Cryptography.ToBase64Transform::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo ToBase64Transform_TransformBlock_m15229_MethodInfo = 
+extern const MethodInfo ToBase64Transform_TransformBlock_m15233_MethodInfo = 
 {
 	"TransformBlock"/* name */
-	, (methodPointerType)&ToBase64Transform_TransformBlock_m15229/* method */
+	, (methodPointerType)&ToBase64Transform_TransformBlock_m15233/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ToBase64Transform_t2689_ToBase64Transform_TransformBlock_m15229_ParameterInfos/* parameters */
+	, ToBase64Transform_t2689_ToBase64Transform_TransformBlock_m15233_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1142,7 +1142,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTransformBlock_m15230_ParameterInfos[] = 
+static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTransformBlock_m15234_ParameterInfos[] = 
 {
 	{"inputBuffer", 0, 134222996, 0, &ByteU5BU5D_t36_0_0_0},
 	{"inputOffset", 1, 134222997, 0, &Int32_t50_0_0_0},
@@ -1152,14 +1152,14 @@ static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTra
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.ToBase64Transform::InternalTransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo ToBase64Transform_InternalTransformBlock_m15230_MethodInfo = 
+extern const MethodInfo ToBase64Transform_InternalTransformBlock_m15234_MethodInfo = 
 {
 	"InternalTransformBlock"/* name */
-	, (methodPointerType)&ToBase64Transform_InternalTransformBlock_m15230/* method */
+	, (methodPointerType)&ToBase64Transform_InternalTransformBlock_m15234/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ToBase64Transform_t2689_ToBase64Transform_InternalTransformBlock_m15230_ParameterInfos/* parameters */
+	, ToBase64Transform_t2689_ToBase64Transform_InternalTransformBlock_m15234_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -1176,7 +1176,7 @@ extern const MethodInfo ToBase64Transform_InternalTransformBlock_m15230_MethodIn
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformFinalBlock_m15231_ParameterInfos[] = 
+static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformFinalBlock_m15235_ParameterInfos[] = 
 {
 	{"inputBuffer", 0, 134223001, 0, &ByteU5BU5D_t36_0_0_0},
 	{"inputOffset", 1, 134223002, 0, &Int32_t50_0_0_0},
@@ -1184,14 +1184,14 @@ static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_TransformFi
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.ToBase64Transform::TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo ToBase64Transform_TransformFinalBlock_m15231_MethodInfo = 
+extern const MethodInfo ToBase64Transform_TransformFinalBlock_m15235_MethodInfo = 
 {
 	"TransformFinalBlock"/* name */
-	, (methodPointerType)&ToBase64Transform_TransformFinalBlock_m15231/* method */
+	, (methodPointerType)&ToBase64Transform_TransformFinalBlock_m15235/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, ToBase64Transform_t2689_ToBase64Transform_TransformFinalBlock_m15231_ParameterInfos/* parameters */
+	, ToBase64Transform_t2689_ToBase64Transform_TransformFinalBlock_m15235_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1208,7 +1208,7 @@ extern const MethodInfo ToBase64Transform_TransformFinalBlock_m15231_MethodInfo 
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTransformFinalBlock_m15232_ParameterInfos[] = 
+static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTransformFinalBlock_m15236_ParameterInfos[] = 
 {
 	{"inputBuffer", 0, 134223004, 0, &ByteU5BU5D_t36_0_0_0},
 	{"inputOffset", 1, 134223005, 0, &Int32_t50_0_0_0},
@@ -1216,14 +1216,14 @@ static const ParameterInfo ToBase64Transform_t2689_ToBase64Transform_InternalTra
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.ToBase64Transform::InternalTransformFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo ToBase64Transform_InternalTransformFinalBlock_m15232_MethodInfo = 
+extern const MethodInfo ToBase64Transform_InternalTransformFinalBlock_m15236_MethodInfo = 
 {
 	"InternalTransformFinalBlock"/* name */
-	, (methodPointerType)&ToBase64Transform_InternalTransformFinalBlock_m15232/* method */
+	, (methodPointerType)&ToBase64Transform_InternalTransformFinalBlock_m15236/* method */
 	, &ToBase64Transform_t2689_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, ToBase64Transform_t2689_ToBase64Transform_InternalTransformFinalBlock_m15232_ParameterInfos/* parameters */
+	, ToBase64Transform_t2689_ToBase64Transform_InternalTransformFinalBlock_m15236_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -1239,46 +1239,46 @@ extern const MethodInfo ToBase64Transform_InternalTransformFinalBlock_m15232_Met
 };
 static const MethodInfo* ToBase64Transform_t2689_MethodInfos[] =
 {
-	&ToBase64Transform_System_IDisposable_Dispose_m15223_MethodInfo,
-	&ToBase64Transform_Finalize_m15224_MethodInfo,
-	&ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo,
-	&ToBase64Transform_get_InputBlockSize_m15226_MethodInfo,
-	&ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo,
-	&ToBase64Transform_Dispose_m15228_MethodInfo,
-	&ToBase64Transform_TransformBlock_m15229_MethodInfo,
-	&ToBase64Transform_InternalTransformBlock_m15230_MethodInfo,
-	&ToBase64Transform_TransformFinalBlock_m15231_MethodInfo,
-	&ToBase64Transform_InternalTransformFinalBlock_m15232_MethodInfo,
+	&ToBase64Transform_System_IDisposable_Dispose_m15227_MethodInfo,
+	&ToBase64Transform_Finalize_m15228_MethodInfo,
+	&ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo,
+	&ToBase64Transform_get_InputBlockSize_m15230_MethodInfo,
+	&ToBase64Transform_get_OutputBlockSize_m15231_MethodInfo,
+	&ToBase64Transform_Dispose_m15232_MethodInfo,
+	&ToBase64Transform_TransformBlock_m15233_MethodInfo,
+	&ToBase64Transform_InternalTransformBlock_m15234_MethodInfo,
+	&ToBase64Transform_TransformFinalBlock_m15235_MethodInfo,
+	&ToBase64Transform_InternalTransformFinalBlock_m15236_MethodInfo,
 	NULL
 };
-extern const MethodInfo ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo;
+extern const MethodInfo ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo;
 static const PropertyInfo ToBase64Transform_t2689____CanReuseTransform_PropertyInfo = 
 {
 	&ToBase64Transform_t2689_il2cpp_TypeInfo/* parent */
 	, "CanReuseTransform"/* name */
-	, &ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo/* get */
+	, &ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ToBase64Transform_get_InputBlockSize_m15226_MethodInfo;
+extern const MethodInfo ToBase64Transform_get_InputBlockSize_m15230_MethodInfo;
 static const PropertyInfo ToBase64Transform_t2689____InputBlockSize_PropertyInfo = 
 {
 	&ToBase64Transform_t2689_il2cpp_TypeInfo/* parent */
 	, "InputBlockSize"/* name */
-	, &ToBase64Transform_get_InputBlockSize_m15226_MethodInfo/* get */
+	, &ToBase64Transform_get_InputBlockSize_m15230_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo;
+extern const MethodInfo ToBase64Transform_get_OutputBlockSize_m15231_MethodInfo;
 static const PropertyInfo ToBase64Transform_t2689____OutputBlockSize_PropertyInfo = 
 {
 	&ToBase64Transform_t2689_il2cpp_TypeInfo/* parent */
 	, "OutputBlockSize"/* name */
-	, &ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo/* get */
+	, &ToBase64Transform_get_OutputBlockSize_m15231_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -1291,25 +1291,25 @@ static const PropertyInfo* ToBase64Transform_t2689_PropertyInfos[] =
 	&ToBase64Transform_t2689____OutputBlockSize_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ToBase64Transform_Finalize_m15224_MethodInfo;
-extern const MethodInfo ToBase64Transform_System_IDisposable_Dispose_m15223_MethodInfo;
-extern const MethodInfo ToBase64Transform_TransformBlock_m15229_MethodInfo;
-extern const MethodInfo ToBase64Transform_TransformFinalBlock_m15231_MethodInfo;
-extern const MethodInfo ToBase64Transform_Dispose_m15228_MethodInfo;
+extern const MethodInfo ToBase64Transform_Finalize_m15228_MethodInfo;
+extern const MethodInfo ToBase64Transform_System_IDisposable_Dispose_m15227_MethodInfo;
+extern const MethodInfo ToBase64Transform_TransformBlock_m15233_MethodInfo;
+extern const MethodInfo ToBase64Transform_TransformFinalBlock_m15235_MethodInfo;
+extern const MethodInfo ToBase64Transform_Dispose_m15232_MethodInfo;
 static const Il2CppMethodReference ToBase64Transform_t2689_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&ToBase64Transform_Finalize_m15224_MethodInfo,
+	&ToBase64Transform_Finalize_m15228_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&ToBase64Transform_System_IDisposable_Dispose_m15223_MethodInfo,
-	&ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo,
-	&ToBase64Transform_TransformBlock_m15229_MethodInfo,
-	&ToBase64Transform_TransformFinalBlock_m15231_MethodInfo,
-	&ToBase64Transform_get_CanReuseTransform_m15225_MethodInfo,
-	&ToBase64Transform_get_InputBlockSize_m15226_MethodInfo,
-	&ToBase64Transform_get_OutputBlockSize_m15227_MethodInfo,
-	&ToBase64Transform_Dispose_m15228_MethodInfo,
+	&ToBase64Transform_System_IDisposable_Dispose_m15227_MethodInfo,
+	&ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo,
+	&ToBase64Transform_TransformBlock_m15233_MethodInfo,
+	&ToBase64Transform_TransformFinalBlock_m15235_MethodInfo,
+	&ToBase64Transform_get_CanReuseTransform_m15229_MethodInfo,
+	&ToBase64Transform_get_InputBlockSize_m15230_MethodInfo,
+	&ToBase64Transform_get_OutputBlockSize_m15231_MethodInfo,
+	&ToBase64Transform_Dispose_m15232_MethodInfo,
 };
 static bool ToBase64Transform_t2689_VTableIsGenericMethod[] =
 {
@@ -1415,10 +1415,10 @@ extern TypeInfo TripleDES_t1881_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Cryptography_TripleDESMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDES::.ctor()
-extern const MethodInfo TripleDES__ctor_m15233_MethodInfo = 
+extern const MethodInfo TripleDES__ctor_m15237_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TripleDES__ctor_m15233/* method */
+	, (methodPointerType)&TripleDES__ctor_m15237/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1438,10 +1438,10 @@ extern const MethodInfo TripleDES__ctor_m15233_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.TripleDES::get_Key()
-extern const MethodInfo TripleDES_get_Key_m15234_MethodInfo = 
+extern const MethodInfo TripleDES_get_Key_m15238_MethodInfo = 
 {
 	"get_Key"/* name */
-	, (methodPointerType)&TripleDES_get_Key_m15234/* method */
+	, (methodPointerType)&TripleDES_get_Key_m15238/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1460,20 +1460,20 @@ extern const MethodInfo TripleDES_get_Key_m15234_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDES_t1881_TripleDES_set_Key_m15235_ParameterInfos[] = 
+static const ParameterInfo TripleDES_t1881_TripleDES_set_Key_m15239_ParameterInfos[] = 
 {
 	{"value", 0, 134223007, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDES::set_Key(System.Byte[])
-extern const MethodInfo TripleDES_set_Key_m15235_MethodInfo = 
+extern const MethodInfo TripleDES_set_Key_m15239_MethodInfo = 
 {
 	"set_Key"/* name */
-	, (methodPointerType)&TripleDES_set_Key_m15235/* method */
+	, (methodPointerType)&TripleDES_set_Key_m15239/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, TripleDES_t1881_TripleDES_set_Key_m15235_ParameterInfos/* parameters */
+	, TripleDES_t1881_TripleDES_set_Key_m15239_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
 	, 0/* iflags */
@@ -1488,20 +1488,20 @@ extern const MethodInfo TripleDES_set_Key_m15235_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDES_t1881_TripleDES_IsWeakKey_m15236_ParameterInfos[] = 
+static const ParameterInfo TripleDES_t1881_TripleDES_IsWeakKey_m15240_ParameterInfos[] = 
 {
 	{"rgbKey", 0, 134223008, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Cryptography.TripleDES::IsWeakKey(System.Byte[])
-extern const MethodInfo TripleDES_IsWeakKey_m15236_MethodInfo = 
+extern const MethodInfo TripleDES_IsWeakKey_m15240_MethodInfo = 
 {
 	"IsWeakKey"/* name */
-	, (methodPointerType)&TripleDES_IsWeakKey_m15236/* method */
+	, (methodPointerType)&TripleDES_IsWeakKey_m15240/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, TripleDES_t1881_TripleDES_IsWeakKey_m15236_ParameterInfos/* parameters */
+	, TripleDES_t1881_TripleDES_IsWeakKey_m15240_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -1518,10 +1518,10 @@ extern const MethodInfo TripleDES_IsWeakKey_m15236_MethodInfo =
 extern const Il2CppType TripleDES_t1881_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create()
-extern const MethodInfo TripleDES_Create_m9611_MethodInfo = 
+extern const MethodInfo TripleDES_Create_m9615_MethodInfo = 
 {
 	"Create"/* name */
-	, (methodPointerType)&TripleDES_Create_m9611/* method */
+	, (methodPointerType)&TripleDES_Create_m9615/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &TripleDES_t1881_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1540,20 +1540,20 @@ extern const MethodInfo TripleDES_Create_m9611_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TripleDES_t1881_TripleDES_Create_m15237_ParameterInfos[] = 
+static const ParameterInfo TripleDES_t1881_TripleDES_Create_m15241_ParameterInfos[] = 
 {
 	{"str", 0, 134223009, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create(System.String)
-extern const MethodInfo TripleDES_Create_m15237_MethodInfo = 
+extern const MethodInfo TripleDES_Create_m15241_MethodInfo = 
 {
 	"Create"/* name */
-	, (methodPointerType)&TripleDES_Create_m15237/* method */
+	, (methodPointerType)&TripleDES_Create_m15241/* method */
 	, &TripleDES_t1881_il2cpp_TypeInfo/* declaring_type */
 	, &TripleDES_t1881_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TripleDES_t1881_TripleDES_Create_m15237_ParameterInfos/* parameters */
+	, TripleDES_t1881_TripleDES_Create_m15241_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -1569,22 +1569,22 @@ extern const MethodInfo TripleDES_Create_m15237_MethodInfo =
 };
 static const MethodInfo* TripleDES_t1881_MethodInfos[] =
 {
-	&TripleDES__ctor_m15233_MethodInfo,
-	&TripleDES_get_Key_m15234_MethodInfo,
-	&TripleDES_set_Key_m15235_MethodInfo,
-	&TripleDES_IsWeakKey_m15236_MethodInfo,
-	&TripleDES_Create_m9611_MethodInfo,
-	&TripleDES_Create_m15237_MethodInfo,
+	&TripleDES__ctor_m15237_MethodInfo,
+	&TripleDES_get_Key_m15238_MethodInfo,
+	&TripleDES_set_Key_m15239_MethodInfo,
+	&TripleDES_IsWeakKey_m15240_MethodInfo,
+	&TripleDES_Create_m9615_MethodInfo,
+	&TripleDES_Create_m15241_MethodInfo,
 	NULL
 };
-extern const MethodInfo TripleDES_get_Key_m15234_MethodInfo;
-extern const MethodInfo TripleDES_set_Key_m15235_MethodInfo;
+extern const MethodInfo TripleDES_get_Key_m15238_MethodInfo;
+extern const MethodInfo TripleDES_set_Key_m15239_MethodInfo;
 static const PropertyInfo TripleDES_t1881____Key_PropertyInfo = 
 {
 	&TripleDES_t1881_il2cpp_TypeInfo/* parent */
 	, "Key"/* name */
-	, &TripleDES_get_Key_m15234_MethodInfo/* get */
-	, &TripleDES_set_Key_m15235_MethodInfo/* set */
+	, &TripleDES_get_Key_m15238_MethodInfo/* get */
+	, &TripleDES_set_Key_m15239_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -1597,28 +1597,28 @@ static const PropertyInfo* TripleDES_t1881_PropertyInfos[] =
 static const Il2CppMethodReference TripleDES_t1881_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&SymmetricAlgorithm_Finalize_m9558_MethodInfo,
+	&SymmetricAlgorithm_Finalize_m9562_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo,
-	&SymmetricAlgorithm_Dispose_m9686_MethodInfo,
-	&SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo,
-	&SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo,
-	&SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo,
-	&SymmetricAlgorithm_get_IV_m15221_MethodInfo,
-	&SymmetricAlgorithm_set_IV_m15222_MethodInfo,
-	&TripleDES_get_Key_m15234_MethodInfo,
-	&TripleDES_set_Key_m15235_MethodInfo,
-	&SymmetricAlgorithm_get_KeySize_m9670_MethodInfo,
-	&SymmetricAlgorithm_set_KeySize_m9671_MethodInfo,
-	&SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo,
-	&SymmetricAlgorithm_get_Mode_m9673_MethodInfo,
-	&SymmetricAlgorithm_set_Mode_m9674_MethodInfo,
-	&SymmetricAlgorithm_get_Padding_m9675_MethodInfo,
-	&SymmetricAlgorithm_set_Padding_m9676_MethodInfo,
-	&SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo,
+	&SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo,
+	&SymmetricAlgorithm_Dispose_m9690_MethodInfo,
+	&SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo,
+	&SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo,
+	&SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo,
+	&SymmetricAlgorithm_get_IV_m15225_MethodInfo,
+	&SymmetricAlgorithm_set_IV_m15226_MethodInfo,
+	&TripleDES_get_Key_m15238_MethodInfo,
+	&TripleDES_set_Key_m15239_MethodInfo,
+	&SymmetricAlgorithm_get_KeySize_m9674_MethodInfo,
+	&SymmetricAlgorithm_set_KeySize_m9675_MethodInfo,
+	&SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo,
+	&SymmetricAlgorithm_get_Mode_m9677_MethodInfo,
+	&SymmetricAlgorithm_set_Mode_m9678_MethodInfo,
+	&SymmetricAlgorithm_get_Padding_m9679_MethodInfo,
+	&SymmetricAlgorithm_set_Padding_m9680_MethodInfo,
+	&SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo,
 	NULL,
-	&SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo,
+	&SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo,
 	NULL,
 	NULL,
 	NULL,
@@ -1734,10 +1734,10 @@ extern TypeInfo TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Cryptography_TripleDESCryptoServiceMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::.ctor()
-extern const MethodInfo TripleDESCryptoServiceProvider__ctor_m15238_MethodInfo = 
+extern const MethodInfo TripleDESCryptoServiceProvider__ctor_m15242_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TripleDESCryptoServiceProvider__ctor_m15238/* method */
+	, (methodPointerType)&TripleDESCryptoServiceProvider__ctor_m15242/* method */
 	, &TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1757,10 +1757,10 @@ extern const MethodInfo TripleDESCryptoServiceProvider__ctor_m15238_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::GenerateIV()
-extern const MethodInfo TripleDESCryptoServiceProvider_GenerateIV_m15239_MethodInfo = 
+extern const MethodInfo TripleDESCryptoServiceProvider_GenerateIV_m15243_MethodInfo = 
 {
 	"GenerateIV"/* name */
-	, (methodPointerType)&TripleDESCryptoServiceProvider_GenerateIV_m15239/* method */
+	, (methodPointerType)&TripleDESCryptoServiceProvider_GenerateIV_m15243/* method */
 	, &TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1780,10 +1780,10 @@ extern const MethodInfo TripleDESCryptoServiceProvider_GenerateIV_m15239_MethodI
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::GenerateKey()
-extern const MethodInfo TripleDESCryptoServiceProvider_GenerateKey_m15240_MethodInfo = 
+extern const MethodInfo TripleDESCryptoServiceProvider_GenerateKey_m15244_MethodInfo = 
 {
 	"GenerateKey"/* name */
-	, (methodPointerType)&TripleDESCryptoServiceProvider_GenerateKey_m15240/* method */
+	, (methodPointerType)&TripleDESCryptoServiceProvider_GenerateKey_m15244/* method */
 	, &TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -1803,21 +1803,21 @@ extern const MethodInfo TripleDESCryptoServiceProvider_GenerateKey_m15240_Method
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateDecryptor_m15241_ParameterInfos[] = 
+static const ParameterInfo TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateDecryptor_m15245_ParameterInfos[] = 
 {
 	{"rgbKey", 0, 134223010, 0, &ByteU5BU5D_t36_0_0_0},
 	{"rgbIV", 1, 134223011, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.TripleDESCryptoServiceProvider::CreateDecryptor(System.Byte[],System.Byte[])
-extern const MethodInfo TripleDESCryptoServiceProvider_CreateDecryptor_m15241_MethodInfo = 
+extern const MethodInfo TripleDESCryptoServiceProvider_CreateDecryptor_m15245_MethodInfo = 
 {
 	"CreateDecryptor"/* name */
-	, (methodPointerType)&TripleDESCryptoServiceProvider_CreateDecryptor_m15241/* method */
+	, (methodPointerType)&TripleDESCryptoServiceProvider_CreateDecryptor_m15245/* method */
 	, &TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateDecryptor_m15241_ParameterInfos/* parameters */
+	, TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateDecryptor_m15245_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -1833,21 +1833,21 @@ extern const MethodInfo TripleDESCryptoServiceProvider_CreateDecryptor_m15241_Me
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateEncryptor_m15242_ParameterInfos[] = 
+static const ParameterInfo TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateEncryptor_m15246_ParameterInfos[] = 
 {
 	{"rgbKey", 0, 134223012, 0, &ByteU5BU5D_t36_0_0_0},
 	{"rgbIV", 1, 134223013, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.TripleDESCryptoServiceProvider::CreateEncryptor(System.Byte[],System.Byte[])
-extern const MethodInfo TripleDESCryptoServiceProvider_CreateEncryptor_m15242_MethodInfo = 
+extern const MethodInfo TripleDESCryptoServiceProvider_CreateEncryptor_m15246_MethodInfo = 
 {
 	"CreateEncryptor"/* name */
-	, (methodPointerType)&TripleDESCryptoServiceProvider_CreateEncryptor_m15242/* method */
+	, (methodPointerType)&TripleDESCryptoServiceProvider_CreateEncryptor_m15246/* method */
 	, &TripleDESCryptoServiceProvider_t2690_il2cpp_TypeInfo/* declaring_type */
 	, &ICryptoTransform_t1788_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateEncryptor_m15242_ParameterInfos/* parameters */
+	, TripleDESCryptoServiceProvider_t2690_TripleDESCryptoServiceProvider_CreateEncryptor_m15246_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -1863,45 +1863,45 @@ extern const MethodInfo TripleDESCryptoServiceProvider_CreateEncryptor_m15242_Me
 };
 static const MethodInfo* TripleDESCryptoServiceProvider_t2690_MethodInfos[] =
 {
-	&TripleDESCryptoServiceProvider__ctor_m15238_MethodInfo,
-	&TripleDESCryptoServiceProvider_GenerateIV_m15239_MethodInfo,
-	&TripleDESCryptoServiceProvider_GenerateKey_m15240_MethodInfo,
-	&TripleDESCryptoServiceProvider_CreateDecryptor_m15241_MethodInfo,
-	&TripleDESCryptoServiceProvider_CreateEncryptor_m15242_MethodInfo,
+	&TripleDESCryptoServiceProvider__ctor_m15242_MethodInfo,
+	&TripleDESCryptoServiceProvider_GenerateIV_m15243_MethodInfo,
+	&TripleDESCryptoServiceProvider_GenerateKey_m15244_MethodInfo,
+	&TripleDESCryptoServiceProvider_CreateDecryptor_m15245_MethodInfo,
+	&TripleDESCryptoServiceProvider_CreateEncryptor_m15246_MethodInfo,
 	NULL
 };
-extern const MethodInfo TripleDESCryptoServiceProvider_CreateDecryptor_m15241_MethodInfo;
-extern const MethodInfo TripleDESCryptoServiceProvider_CreateEncryptor_m15242_MethodInfo;
-extern const MethodInfo TripleDESCryptoServiceProvider_GenerateIV_m15239_MethodInfo;
-extern const MethodInfo TripleDESCryptoServiceProvider_GenerateKey_m15240_MethodInfo;
+extern const MethodInfo TripleDESCryptoServiceProvider_CreateDecryptor_m15245_MethodInfo;
+extern const MethodInfo TripleDESCryptoServiceProvider_CreateEncryptor_m15246_MethodInfo;
+extern const MethodInfo TripleDESCryptoServiceProvider_GenerateIV_m15243_MethodInfo;
+extern const MethodInfo TripleDESCryptoServiceProvider_GenerateKey_m15244_MethodInfo;
 static const Il2CppMethodReference TripleDESCryptoServiceProvider_t2690_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&SymmetricAlgorithm_Finalize_m9558_MethodInfo,
+	&SymmetricAlgorithm_Finalize_m9562_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&SymmetricAlgorithm_System_IDisposable_Dispose_m9666_MethodInfo,
-	&SymmetricAlgorithm_Dispose_m9686_MethodInfo,
-	&SymmetricAlgorithm_get_BlockSize_m9667_MethodInfo,
-	&SymmetricAlgorithm_set_BlockSize_m9668_MethodInfo,
-	&SymmetricAlgorithm_get_FeedbackSize_m9669_MethodInfo,
-	&SymmetricAlgorithm_get_IV_m15221_MethodInfo,
-	&SymmetricAlgorithm_set_IV_m15222_MethodInfo,
-	&TripleDES_get_Key_m15234_MethodInfo,
-	&TripleDES_set_Key_m15235_MethodInfo,
-	&SymmetricAlgorithm_get_KeySize_m9670_MethodInfo,
-	&SymmetricAlgorithm_set_KeySize_m9671_MethodInfo,
-	&SymmetricAlgorithm_get_LegalKeySizes_m9672_MethodInfo,
-	&SymmetricAlgorithm_get_Mode_m9673_MethodInfo,
-	&SymmetricAlgorithm_set_Mode_m9674_MethodInfo,
-	&SymmetricAlgorithm_get_Padding_m9675_MethodInfo,
-	&SymmetricAlgorithm_set_Padding_m9676_MethodInfo,
-	&SymmetricAlgorithm_CreateDecryptor_m9677_MethodInfo,
-	&TripleDESCryptoServiceProvider_CreateDecryptor_m15241_MethodInfo,
-	&SymmetricAlgorithm_CreateEncryptor_m9678_MethodInfo,
-	&TripleDESCryptoServiceProvider_CreateEncryptor_m15242_MethodInfo,
-	&TripleDESCryptoServiceProvider_GenerateIV_m15239_MethodInfo,
-	&TripleDESCryptoServiceProvider_GenerateKey_m15240_MethodInfo,
+	&SymmetricAlgorithm_System_IDisposable_Dispose_m9670_MethodInfo,
+	&SymmetricAlgorithm_Dispose_m9690_MethodInfo,
+	&SymmetricAlgorithm_get_BlockSize_m9671_MethodInfo,
+	&SymmetricAlgorithm_set_BlockSize_m9672_MethodInfo,
+	&SymmetricAlgorithm_get_FeedbackSize_m9673_MethodInfo,
+	&SymmetricAlgorithm_get_IV_m15225_MethodInfo,
+	&SymmetricAlgorithm_set_IV_m15226_MethodInfo,
+	&TripleDES_get_Key_m15238_MethodInfo,
+	&TripleDES_set_Key_m15239_MethodInfo,
+	&SymmetricAlgorithm_get_KeySize_m9674_MethodInfo,
+	&SymmetricAlgorithm_set_KeySize_m9675_MethodInfo,
+	&SymmetricAlgorithm_get_LegalKeySizes_m9676_MethodInfo,
+	&SymmetricAlgorithm_get_Mode_m9677_MethodInfo,
+	&SymmetricAlgorithm_set_Mode_m9678_MethodInfo,
+	&SymmetricAlgorithm_get_Padding_m9679_MethodInfo,
+	&SymmetricAlgorithm_set_Padding_m9680_MethodInfo,
+	&SymmetricAlgorithm_CreateDecryptor_m9681_MethodInfo,
+	&TripleDESCryptoServiceProvider_CreateDecryptor_m15245_MethodInfo,
+	&SymmetricAlgorithm_CreateEncryptor_m9682_MethodInfo,
+	&TripleDESCryptoServiceProvider_CreateEncryptor_m15246_MethodInfo,
+	&TripleDESCryptoServiceProvider_GenerateIV_m15243_MethodInfo,
+	&TripleDESCryptoServiceProvider_GenerateKey_m15244_MethodInfo,
 };
 static bool TripleDESCryptoServiceProvider_t2690_VTableIsGenericMethod[] =
 {
@@ -2017,7 +2017,7 @@ extern const Il2CppType TripleDES_t1881_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDESTransform_t2691_TripleDESTransform__ctor_m15243_ParameterInfos[] = 
+static const ParameterInfo TripleDESTransform_t2691_TripleDESTransform__ctor_m15247_ParameterInfos[] = 
 {
 	{"algo", 0, 134223014, 0, &TripleDES_t1881_0_0_0},
 	{"encryption", 1, 134223015, 0, &Boolean_t29_0_0_0},
@@ -2026,14 +2026,14 @@ static const ParameterInfo TripleDESTransform_t2691_TripleDESTransform__ctor_m15
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_SByte_t61_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDESTransform::.ctor(System.Security.Cryptography.TripleDES,System.Boolean,System.Byte[],System.Byte[])
-extern const MethodInfo TripleDESTransform__ctor_m15243_MethodInfo = 
+extern const MethodInfo TripleDESTransform__ctor_m15247_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TripleDESTransform__ctor_m15243/* method */
+	, (methodPointerType)&TripleDESTransform__ctor_m15247/* method */
 	, &TripleDESTransform_t2691_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_SByte_t61_Object_t_Object_t/* invoker_method */
-	, TripleDESTransform_t2691_TripleDESTransform__ctor_m15243_ParameterInfos/* parameters */
+	, TripleDESTransform_t2691_TripleDESTransform__ctor_m15247_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -2049,21 +2049,21 @@ extern const MethodInfo TripleDESTransform__ctor_m15243_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo TripleDESTransform_t2691_TripleDESTransform_ECB_m15244_ParameterInfos[] = 
+static const ParameterInfo TripleDESTransform_t2691_TripleDESTransform_ECB_m15248_ParameterInfos[] = 
 {
 	{"input", 0, 134223018, 0, &ByteU5BU5D_t36_0_0_0},
 	{"output", 1, 134223019, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Cryptography.TripleDESTransform::ECB(System.Byte[],System.Byte[])
-extern const MethodInfo TripleDESTransform_ECB_m15244_MethodInfo = 
+extern const MethodInfo TripleDESTransform_ECB_m15248_MethodInfo = 
 {
 	"ECB"/* name */
-	, (methodPointerType)&TripleDESTransform_ECB_m15244/* method */
+	, (methodPointerType)&TripleDESTransform_ECB_m15248/* method */
 	, &TripleDESTransform_t2691_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, TripleDESTransform_t2691_TripleDESTransform_ECB_m15244_ParameterInfos/* parameters */
+	, TripleDESTransform_t2691_TripleDESTransform_ECB_m15248_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -2079,10 +2079,10 @@ extern const MethodInfo TripleDESTransform_ECB_m15244_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Cryptography.TripleDESTransform::GetStrongKey()
-extern const MethodInfo TripleDESTransform_GetStrongKey_m15245_MethodInfo = 
+extern const MethodInfo TripleDESTransform_GetStrongKey_m15249_MethodInfo = 
 {
 	"GetStrongKey"/* name */
-	, (methodPointerType)&TripleDESTransform_GetStrongKey_m15245/* method */
+	, (methodPointerType)&TripleDESTransform_GetStrongKey_m15249/* method */
 	, &TripleDESTransform_t2691_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2102,43 +2102,43 @@ extern const MethodInfo TripleDESTransform_GetStrongKey_m15245_MethodInfo =
 };
 static const MethodInfo* TripleDESTransform_t2691_MethodInfos[] =
 {
-	&TripleDESTransform__ctor_m15243_MethodInfo,
-	&TripleDESTransform_ECB_m15244_MethodInfo,
-	&TripleDESTransform_GetStrongKey_m15245_MethodInfo,
+	&TripleDESTransform__ctor_m15247_MethodInfo,
+	&TripleDESTransform_ECB_m15248_MethodInfo,
+	&TripleDESTransform_GetStrongKey_m15249_MethodInfo,
 	NULL
 };
-extern const MethodInfo SymmetricTransform_Finalize_m12994_MethodInfo;
-extern const MethodInfo SymmetricTransform_System_IDisposable_Dispose_m12993_MethodInfo;
-extern const MethodInfo SymmetricTransform_get_CanReuseTransform_m12996_MethodInfo;
-extern const MethodInfo SymmetricTransform_TransformBlock_m13003_MethodInfo;
-extern const MethodInfo SymmetricTransform_TransformFinalBlock_m13010_MethodInfo;
-extern const MethodInfo SymmetricTransform_Dispose_m12995_MethodInfo;
-extern const MethodInfo SymmetricTransform_Transform_m12997_MethodInfo;
-extern const MethodInfo TripleDESTransform_ECB_m15244_MethodInfo;
-extern const MethodInfo SymmetricTransform_CBC_m12998_MethodInfo;
-extern const MethodInfo SymmetricTransform_CFB_m12999_MethodInfo;
-extern const MethodInfo SymmetricTransform_OFB_m13000_MethodInfo;
-extern const MethodInfo SymmetricTransform_CTS_m13001_MethodInfo;
+extern const MethodInfo SymmetricTransform_Finalize_m12998_MethodInfo;
+extern const MethodInfo SymmetricTransform_System_IDisposable_Dispose_m12997_MethodInfo;
+extern const MethodInfo SymmetricTransform_get_CanReuseTransform_m13000_MethodInfo;
+extern const MethodInfo SymmetricTransform_TransformBlock_m13007_MethodInfo;
+extern const MethodInfo SymmetricTransform_TransformFinalBlock_m13014_MethodInfo;
+extern const MethodInfo SymmetricTransform_Dispose_m12999_MethodInfo;
+extern const MethodInfo SymmetricTransform_Transform_m13001_MethodInfo;
+extern const MethodInfo TripleDESTransform_ECB_m15248_MethodInfo;
+extern const MethodInfo SymmetricTransform_CBC_m13002_MethodInfo;
+extern const MethodInfo SymmetricTransform_CFB_m13003_MethodInfo;
+extern const MethodInfo SymmetricTransform_OFB_m13004_MethodInfo;
+extern const MethodInfo SymmetricTransform_CTS_m13005_MethodInfo;
 static const Il2CppMethodReference TripleDESTransform_t2691_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&SymmetricTransform_Finalize_m12994_MethodInfo,
+	&SymmetricTransform_Finalize_m12998_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&SymmetricTransform_System_IDisposable_Dispose_m12993_MethodInfo,
-	&SymmetricTransform_get_CanReuseTransform_m12996_MethodInfo,
-	&SymmetricTransform_TransformBlock_m13003_MethodInfo,
-	&SymmetricTransform_TransformFinalBlock_m13010_MethodInfo,
-	&SymmetricTransform_Dispose_m12995_MethodInfo,
-	&SymmetricTransform_get_CanReuseTransform_m12996_MethodInfo,
-	&SymmetricTransform_Transform_m12997_MethodInfo,
-	&TripleDESTransform_ECB_m15244_MethodInfo,
-	&SymmetricTransform_CBC_m12998_MethodInfo,
-	&SymmetricTransform_CFB_m12999_MethodInfo,
-	&SymmetricTransform_OFB_m13000_MethodInfo,
-	&SymmetricTransform_CTS_m13001_MethodInfo,
-	&SymmetricTransform_TransformBlock_m13003_MethodInfo,
-	&SymmetricTransform_TransformFinalBlock_m13010_MethodInfo,
+	&SymmetricTransform_System_IDisposable_Dispose_m12997_MethodInfo,
+	&SymmetricTransform_get_CanReuseTransform_m13000_MethodInfo,
+	&SymmetricTransform_TransformBlock_m13007_MethodInfo,
+	&SymmetricTransform_TransformFinalBlock_m13014_MethodInfo,
+	&SymmetricTransform_Dispose_m12999_MethodInfo,
+	&SymmetricTransform_get_CanReuseTransform_m13000_MethodInfo,
+	&SymmetricTransform_Transform_m13001_MethodInfo,
+	&TripleDESTransform_ECB_m15248_MethodInfo,
+	&SymmetricTransform_CBC_m13002_MethodInfo,
+	&SymmetricTransform_CFB_m13003_MethodInfo,
+	&SymmetricTransform_OFB_m13004_MethodInfo,
+	&SymmetricTransform_CTS_m13005_MethodInfo,
+	&SymmetricTransform_TransformBlock_m13007_MethodInfo,
+	&SymmetricTransform_TransformFinalBlock_m13014_MethodInfo,
 };
 static bool TripleDESTransform_t2691_VTableIsGenericMethod[] =
 {
@@ -2400,20 +2400,20 @@ extern TypeInfo SecurityPermission_t2692_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Permissions_SecurityPermissionMethodDeclarations.h"
 extern const Il2CppType SecurityPermissionFlag_t2694_0_0_0;
 extern const Il2CppType SecurityPermissionFlag_t2694_0_0_0;
-static const ParameterInfo SecurityPermission_t2692_SecurityPermission__ctor_m15246_ParameterInfos[] = 
+static const ParameterInfo SecurityPermission_t2692_SecurityPermission__ctor_m15250_ParameterInfos[] = 
 {
 	{"flag", 0, 134223020, 0, &SecurityPermissionFlag_t2694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Permissions.SecurityPermission::.ctor(System.Security.Permissions.SecurityPermissionFlag)
-extern const MethodInfo SecurityPermission__ctor_m15246_MethodInfo = 
+extern const MethodInfo SecurityPermission__ctor_m15250_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityPermission__ctor_m15246/* method */
+	, (methodPointerType)&SecurityPermission__ctor_m15250/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SecurityPermission_t2692_SecurityPermission__ctor_m15246_ParameterInfos/* parameters */
+	, SecurityPermission_t2692_SecurityPermission__ctor_m15250_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -2428,20 +2428,20 @@ extern const MethodInfo SecurityPermission__ctor_m15246_MethodInfo =
 
 };
 extern const Il2CppType SecurityPermissionFlag_t2694_0_0_0;
-static const ParameterInfo SecurityPermission_t2692_SecurityPermission_set_Flags_m15247_ParameterInfos[] = 
+static const ParameterInfo SecurityPermission_t2692_SecurityPermission_set_Flags_m15251_ParameterInfos[] = 
 {
 	{"value", 0, 134223021, 0, &SecurityPermissionFlag_t2694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Permissions.SecurityPermission::set_Flags(System.Security.Permissions.SecurityPermissionFlag)
-extern const MethodInfo SecurityPermission_set_Flags_m15247_MethodInfo = 
+extern const MethodInfo SecurityPermission_set_Flags_m15251_MethodInfo = 
 {
 	"set_Flags"/* name */
-	, (methodPointerType)&SecurityPermission_set_Flags_m15247/* method */
+	, (methodPointerType)&SecurityPermission_set_Flags_m15251/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, SecurityPermission_t2692_SecurityPermission_set_Flags_m15247_ParameterInfos/* parameters */
+	, SecurityPermission_t2692_SecurityPermission_set_Flags_m15251_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2457,10 +2457,10 @@ extern const MethodInfo SecurityPermission_set_Flags_m15247_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Permissions.SecurityPermission::IsUnrestricted()
-extern const MethodInfo SecurityPermission_IsUnrestricted_m15248_MethodInfo = 
+extern const MethodInfo SecurityPermission_IsUnrestricted_m15252_MethodInfo = 
 {
 	"IsUnrestricted"/* name */
-	, (methodPointerType)&SecurityPermission_IsUnrestricted_m15248/* method */
+	, (methodPointerType)&SecurityPermission_IsUnrestricted_m15252/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -2480,20 +2480,20 @@ extern const MethodInfo SecurityPermission_IsUnrestricted_m15248_MethodInfo =
 };
 extern const Il2CppType IPermission_t2707_0_0_0;
 extern const Il2CppType IPermission_t2707_0_0_0;
-static const ParameterInfo SecurityPermission_t2692_SecurityPermission_IsSubsetOf_m15249_ParameterInfos[] = 
+static const ParameterInfo SecurityPermission_t2692_SecurityPermission_IsSubsetOf_m15253_ParameterInfos[] = 
 {
 	{"target", 0, 134223022, 0, &IPermission_t2707_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Permissions.SecurityPermission::IsSubsetOf(System.Security.IPermission)
-extern const MethodInfo SecurityPermission_IsSubsetOf_m15249_MethodInfo = 
+extern const MethodInfo SecurityPermission_IsSubsetOf_m15253_MethodInfo = 
 {
 	"IsSubsetOf"/* name */
-	, (methodPointerType)&SecurityPermission_IsSubsetOf_m15249/* method */
+	, (methodPointerType)&SecurityPermission_IsSubsetOf_m15253/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, SecurityPermission_t2692_SecurityPermission_IsSubsetOf_m15249_ParameterInfos/* parameters */
+	, SecurityPermission_t2692_SecurityPermission_IsSubsetOf_m15253_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -2510,10 +2510,10 @@ extern const MethodInfo SecurityPermission_IsSubsetOf_m15249_MethodInfo =
 extern const Il2CppType SecurityElement_t2394_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityElement System.Security.Permissions.SecurityPermission::ToXml()
-extern const MethodInfo SecurityPermission_ToXml_m15250_MethodInfo = 
+extern const MethodInfo SecurityPermission_ToXml_m15254_MethodInfo = 
 {
 	"ToXml"/* name */
-	, (methodPointerType)&SecurityPermission_ToXml_m15250/* method */
+	, (methodPointerType)&SecurityPermission_ToXml_m15254/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityElement_t2394_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2533,10 +2533,10 @@ extern const MethodInfo SecurityPermission_ToXml_m15250_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Permissions.SecurityPermission::IsEmpty()
-extern const MethodInfo SecurityPermission_IsEmpty_m15251_MethodInfo = 
+extern const MethodInfo SecurityPermission_IsEmpty_m15255_MethodInfo = 
 {
 	"IsEmpty"/* name */
-	, (methodPointerType)&SecurityPermission_IsEmpty_m15251/* method */
+	, (methodPointerType)&SecurityPermission_IsEmpty_m15255/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -2555,21 +2555,21 @@ extern const MethodInfo SecurityPermission_IsEmpty_m15251_MethodInfo =
 
 };
 extern const Il2CppType IPermission_t2707_0_0_0;
-static const ParameterInfo SecurityPermission_t2692_SecurityPermission_Cast_m15252_ParameterInfos[] = 
+static const ParameterInfo SecurityPermission_t2692_SecurityPermission_Cast_m15256_ParameterInfos[] = 
 {
 	{"target", 0, 134223023, 0, &IPermission_t2707_0_0_0},
 };
 extern const Il2CppType SecurityPermission_t2692_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Permissions.SecurityPermission System.Security.Permissions.SecurityPermission::Cast(System.Security.IPermission)
-extern const MethodInfo SecurityPermission_Cast_m15252_MethodInfo = 
+extern const MethodInfo SecurityPermission_Cast_m15256_MethodInfo = 
 {
 	"Cast"/* name */
-	, (methodPointerType)&SecurityPermission_Cast_m15252/* method */
+	, (methodPointerType)&SecurityPermission_Cast_m15256/* method */
 	, &SecurityPermission_t2692_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityPermission_t2692_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityPermission_t2692_SecurityPermission_Cast_m15252_ParameterInfos/* parameters */
+	, SecurityPermission_t2692_SecurityPermission_Cast_m15256_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -2585,22 +2585,22 @@ extern const MethodInfo SecurityPermission_Cast_m15252_MethodInfo =
 };
 static const MethodInfo* SecurityPermission_t2692_MethodInfos[] =
 {
-	&SecurityPermission__ctor_m15246_MethodInfo,
-	&SecurityPermission_set_Flags_m15247_MethodInfo,
-	&SecurityPermission_IsUnrestricted_m15248_MethodInfo,
-	&SecurityPermission_IsSubsetOf_m15249_MethodInfo,
-	&SecurityPermission_ToXml_m15250_MethodInfo,
-	&SecurityPermission_IsEmpty_m15251_MethodInfo,
-	&SecurityPermission_Cast_m15252_MethodInfo,
+	&SecurityPermission__ctor_m15250_MethodInfo,
+	&SecurityPermission_set_Flags_m15251_MethodInfo,
+	&SecurityPermission_IsUnrestricted_m15252_MethodInfo,
+	&SecurityPermission_IsSubsetOf_m15253_MethodInfo,
+	&SecurityPermission_ToXml_m15254_MethodInfo,
+	&SecurityPermission_IsEmpty_m15255_MethodInfo,
+	&SecurityPermission_Cast_m15256_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityPermission_set_Flags_m15247_MethodInfo;
+extern const MethodInfo SecurityPermission_set_Flags_m15251_MethodInfo;
 static const PropertyInfo SecurityPermission_t2692____Flags_PropertyInfo = 
 {
 	&SecurityPermission_t2692_il2cpp_TypeInfo/* parent */
 	, "Flags"/* name */
 	, NULL/* get */
-	, &SecurityPermission_set_Flags_m15247_MethodInfo/* set */
+	, &SecurityPermission_set_Flags_m15251_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -2610,22 +2610,22 @@ static const PropertyInfo* SecurityPermission_t2692_PropertyInfos[] =
 	&SecurityPermission_t2692____Flags_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CodeAccessPermission_Equals_m15289_MethodInfo;
+extern const MethodInfo CodeAccessPermission_Equals_m15293_MethodInfo;
 extern const MethodInfo Object_Finalize_m230_MethodInfo;
-extern const MethodInfo CodeAccessPermission_GetHashCode_m15290_MethodInfo;
-extern const MethodInfo CodeAccessPermission_ToString_m15291_MethodInfo;
-extern const MethodInfo SecurityPermission_IsSubsetOf_m15249_MethodInfo;
-extern const MethodInfo SecurityPermission_ToXml_m15250_MethodInfo;
-extern const MethodInfo SecurityPermission_IsUnrestricted_m15248_MethodInfo;
+extern const MethodInfo CodeAccessPermission_GetHashCode_m15294_MethodInfo;
+extern const MethodInfo CodeAccessPermission_ToString_m15295_MethodInfo;
+extern const MethodInfo SecurityPermission_IsSubsetOf_m15253_MethodInfo;
+extern const MethodInfo SecurityPermission_ToXml_m15254_MethodInfo;
+extern const MethodInfo SecurityPermission_IsUnrestricted_m15252_MethodInfo;
 static const Il2CppMethodReference SecurityPermission_t2692_VTable[] =
 {
-	&CodeAccessPermission_Equals_m15289_MethodInfo,
+	&CodeAccessPermission_Equals_m15293_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&CodeAccessPermission_GetHashCode_m15290_MethodInfo,
-	&CodeAccessPermission_ToString_m15291_MethodInfo,
-	&SecurityPermission_IsSubsetOf_m15249_MethodInfo,
-	&SecurityPermission_ToXml_m15250_MethodInfo,
-	&SecurityPermission_IsUnrestricted_m15248_MethodInfo,
+	&CodeAccessPermission_GetHashCode_m15294_MethodInfo,
+	&CodeAccessPermission_ToString_m15295_MethodInfo,
+	&SecurityPermission_IsSubsetOf_m15253_MethodInfo,
+	&SecurityPermission_ToXml_m15254_MethodInfo,
+	&SecurityPermission_IsUnrestricted_m15252_MethodInfo,
 };
 static bool SecurityPermission_t2692_VTableIsGenericMethod[] =
 {
@@ -2896,20 +2896,20 @@ extern TypeInfo StrongNamePublicKeyBlob_t2695_il2cpp_TypeInfo;
 // System.Security.Permissions.StrongNamePublicKeyBlob
 #include "mscorlib_System_Security_Permissions_StrongNamePublicKeyBlobMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StrongNamePublicKeyBlob_t2695_StrongNamePublicKeyBlob_Equals_m15253_ParameterInfos[] = 
+static const ParameterInfo StrongNamePublicKeyBlob_t2695_StrongNamePublicKeyBlob_Equals_m15257_ParameterInfos[] = 
 {
 	{"obj", 0, 134223024, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Permissions.StrongNamePublicKeyBlob::Equals(System.Object)
-extern const MethodInfo StrongNamePublicKeyBlob_Equals_m15253_MethodInfo = 
+extern const MethodInfo StrongNamePublicKeyBlob_Equals_m15257_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&StrongNamePublicKeyBlob_Equals_m15253/* method */
+	, (methodPointerType)&StrongNamePublicKeyBlob_Equals_m15257/* method */
 	, &StrongNamePublicKeyBlob_t2695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, StrongNamePublicKeyBlob_t2695_StrongNamePublicKeyBlob_Equals_m15253_ParameterInfos/* parameters */
+	, StrongNamePublicKeyBlob_t2695_StrongNamePublicKeyBlob_Equals_m15257_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -2925,10 +2925,10 @@ extern const MethodInfo StrongNamePublicKeyBlob_Equals_m15253_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Permissions.StrongNamePublicKeyBlob::GetHashCode()
-extern const MethodInfo StrongNamePublicKeyBlob_GetHashCode_m15254_MethodInfo = 
+extern const MethodInfo StrongNamePublicKeyBlob_GetHashCode_m15258_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&StrongNamePublicKeyBlob_GetHashCode_m15254/* method */
+	, (methodPointerType)&StrongNamePublicKeyBlob_GetHashCode_m15258/* method */
 	, &StrongNamePublicKeyBlob_t2695_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -2948,10 +2948,10 @@ extern const MethodInfo StrongNamePublicKeyBlob_GetHashCode_m15254_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.Permissions.StrongNamePublicKeyBlob::ToString()
-extern const MethodInfo StrongNamePublicKeyBlob_ToString_m15255_MethodInfo = 
+extern const MethodInfo StrongNamePublicKeyBlob_ToString_m15259_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&StrongNamePublicKeyBlob_ToString_m15255/* method */
+	, (methodPointerType)&StrongNamePublicKeyBlob_ToString_m15259/* method */
 	, &StrongNamePublicKeyBlob_t2695_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2971,20 +2971,20 @@ extern const MethodInfo StrongNamePublicKeyBlob_ToString_m15255_MethodInfo =
 };
 static const MethodInfo* StrongNamePublicKeyBlob_t2695_MethodInfos[] =
 {
-	&StrongNamePublicKeyBlob_Equals_m15253_MethodInfo,
-	&StrongNamePublicKeyBlob_GetHashCode_m15254_MethodInfo,
-	&StrongNamePublicKeyBlob_ToString_m15255_MethodInfo,
+	&StrongNamePublicKeyBlob_Equals_m15257_MethodInfo,
+	&StrongNamePublicKeyBlob_GetHashCode_m15258_MethodInfo,
+	&StrongNamePublicKeyBlob_ToString_m15259_MethodInfo,
 	NULL
 };
-extern const MethodInfo StrongNamePublicKeyBlob_Equals_m15253_MethodInfo;
-extern const MethodInfo StrongNamePublicKeyBlob_GetHashCode_m15254_MethodInfo;
-extern const MethodInfo StrongNamePublicKeyBlob_ToString_m15255_MethodInfo;
+extern const MethodInfo StrongNamePublicKeyBlob_Equals_m15257_MethodInfo;
+extern const MethodInfo StrongNamePublicKeyBlob_GetHashCode_m15258_MethodInfo;
+extern const MethodInfo StrongNamePublicKeyBlob_ToString_m15259_MethodInfo;
 static const Il2CppMethodReference StrongNamePublicKeyBlob_t2695_VTable[] =
 {
-	&StrongNamePublicKeyBlob_Equals_m15253_MethodInfo,
+	&StrongNamePublicKeyBlob_Equals_m15257_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&StrongNamePublicKeyBlob_GetHashCode_m15254_MethodInfo,
-	&StrongNamePublicKeyBlob_ToString_m15255_MethodInfo,
+	&StrongNamePublicKeyBlob_GetHashCode_m15258_MethodInfo,
+	&StrongNamePublicKeyBlob_ToString_m15259_MethodInfo,
 };
 static bool StrongNamePublicKeyBlob_t2695_VTableIsGenericMethod[] =
 {
@@ -3072,10 +3072,10 @@ extern TypeInfo ApplicationTrust_t2697_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Policy_ApplicationTrustMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.ApplicationTrust::.ctor()
-extern const MethodInfo ApplicationTrust__ctor_m15256_MethodInfo = 
+extern const MethodInfo ApplicationTrust__ctor_m15260_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ApplicationTrust__ctor_m15256/* method */
+	, (methodPointerType)&ApplicationTrust__ctor_m15260/* method */
 	, &ApplicationTrust_t2697_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3095,7 +3095,7 @@ extern const MethodInfo ApplicationTrust__ctor_m15256_MethodInfo =
 };
 static const MethodInfo* ApplicationTrust_t2697_MethodInfos[] =
 {
-	&ApplicationTrust__ctor_m15256_MethodInfo,
+	&ApplicationTrust__ctor_m15260_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ApplicationTrust_t2697_VTable[] =
@@ -3200,21 +3200,21 @@ extern TypeInfo EvidenceEnumerator_t2698_il2cpp_TypeInfo;
 extern const Il2CppType IEnumerator_t21_0_0_0;
 extern const Il2CppType IEnumerator_t21_0_0_0;
 extern const Il2CppType IEnumerator_t21_0_0_0;
-static const ParameterInfo EvidenceEnumerator_t2698_EvidenceEnumerator__ctor_m15257_ParameterInfos[] = 
+static const ParameterInfo EvidenceEnumerator_t2698_EvidenceEnumerator__ctor_m15261_ParameterInfos[] = 
 {
 	{"hostenum", 0, 134223028, 0, &IEnumerator_t21_0_0_0},
 	{"assemblyenum", 1, 134223029, 0, &IEnumerator_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Evidence/EvidenceEnumerator::.ctor(System.Collections.IEnumerator,System.Collections.IEnumerator)
-extern const MethodInfo EvidenceEnumerator__ctor_m15257_MethodInfo = 
+extern const MethodInfo EvidenceEnumerator__ctor_m15261_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EvidenceEnumerator__ctor_m15257/* method */
+	, (methodPointerType)&EvidenceEnumerator__ctor_m15261/* method */
 	, &EvidenceEnumerator_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, EvidenceEnumerator_t2698_EvidenceEnumerator__ctor_m15257_ParameterInfos/* parameters */
+	, EvidenceEnumerator_t2698_EvidenceEnumerator__ctor_m15261_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -3230,10 +3230,10 @@ extern const MethodInfo EvidenceEnumerator__ctor_m15257_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Policy.Evidence/EvidenceEnumerator::MoveNext()
-extern const MethodInfo EvidenceEnumerator_MoveNext_m15258_MethodInfo = 
+extern const MethodInfo EvidenceEnumerator_MoveNext_m15262_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&EvidenceEnumerator_MoveNext_m15258/* method */
+	, (methodPointerType)&EvidenceEnumerator_MoveNext_m15262/* method */
 	, &EvidenceEnumerator_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -3253,10 +3253,10 @@ extern const MethodInfo EvidenceEnumerator_MoveNext_m15258_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Security.Policy.Evidence/EvidenceEnumerator::get_Current()
-extern const MethodInfo EvidenceEnumerator_get_Current_m15259_MethodInfo = 
+extern const MethodInfo EvidenceEnumerator_get_Current_m15263_MethodInfo = 
 {
 	"get_Current"/* name */
-	, (methodPointerType)&EvidenceEnumerator_get_Current_m15259/* method */
+	, (methodPointerType)&EvidenceEnumerator_get_Current_m15263/* method */
 	, &EvidenceEnumerator_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3276,17 +3276,17 @@ extern const MethodInfo EvidenceEnumerator_get_Current_m15259_MethodInfo =
 };
 static const MethodInfo* EvidenceEnumerator_t2698_MethodInfos[] =
 {
-	&EvidenceEnumerator__ctor_m15257_MethodInfo,
-	&EvidenceEnumerator_MoveNext_m15258_MethodInfo,
-	&EvidenceEnumerator_get_Current_m15259_MethodInfo,
+	&EvidenceEnumerator__ctor_m15261_MethodInfo,
+	&EvidenceEnumerator_MoveNext_m15262_MethodInfo,
+	&EvidenceEnumerator_get_Current_m15263_MethodInfo,
 	NULL
 };
-extern const MethodInfo EvidenceEnumerator_get_Current_m15259_MethodInfo;
+extern const MethodInfo EvidenceEnumerator_get_Current_m15263_MethodInfo;
 static const PropertyInfo EvidenceEnumerator_t2698____Current_PropertyInfo = 
 {
 	&EvidenceEnumerator_t2698_il2cpp_TypeInfo/* parent */
 	, "Current"/* name */
-	, &EvidenceEnumerator_get_Current_m15259_MethodInfo/* get */
+	, &EvidenceEnumerator_get_Current_m15263_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -3297,15 +3297,15 @@ static const PropertyInfo* EvidenceEnumerator_t2698_PropertyInfos[] =
 	&EvidenceEnumerator_t2698____Current_PropertyInfo,
 	NULL
 };
-extern const MethodInfo EvidenceEnumerator_MoveNext_m15258_MethodInfo;
+extern const MethodInfo EvidenceEnumerator_MoveNext_m15262_MethodInfo;
 static const Il2CppMethodReference EvidenceEnumerator_t2698_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&EvidenceEnumerator_get_Current_m15259_MethodInfo,
-	&EvidenceEnumerator_MoveNext_m15258_MethodInfo,
+	&EvidenceEnumerator_get_Current_m15263_MethodInfo,
+	&EvidenceEnumerator_MoveNext_m15262_MethodInfo,
 };
 static bool EvidenceEnumerator_t2698_VTableIsGenericMethod[] =
 {
@@ -3404,10 +3404,10 @@ TypeInfo EvidenceEnumerator_t2698_il2cpp_TypeInfo =
 #include "mscorlib_System_Security_Policy_EvidenceMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Evidence::.ctor()
-extern const MethodInfo Evidence__ctor_m15260_MethodInfo = 
+extern const MethodInfo Evidence__ctor_m15264_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Evidence__ctor_m15260/* method */
+	, (methodPointerType)&Evidence__ctor_m15264/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3427,10 +3427,10 @@ extern const MethodInfo Evidence__ctor_m15260_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Policy.Evidence::get_Count()
-extern const MethodInfo Evidence_get_Count_m15261_MethodInfo = 
+extern const MethodInfo Evidence_get_Count_m15265_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&Evidence_get_Count_m15261/* method */
+	, (methodPointerType)&Evidence_get_Count_m15265/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -3450,10 +3450,10 @@ extern const MethodInfo Evidence_get_Count_m15261_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Policy.Evidence::get_IsSynchronized()
-extern const MethodInfo Evidence_get_IsSynchronized_m15262_MethodInfo = 
+extern const MethodInfo Evidence_get_IsSynchronized_m15266_MethodInfo = 
 {
 	"get_IsSynchronized"/* name */
-	, (methodPointerType)&Evidence_get_IsSynchronized_m15262/* method */
+	, (methodPointerType)&Evidence_get_IsSynchronized_m15266/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -3473,10 +3473,10 @@ extern const MethodInfo Evidence_get_IsSynchronized_m15262_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Security.Policy.Evidence::get_SyncRoot()
-extern const MethodInfo Evidence_get_SyncRoot_m15263_MethodInfo = 
+extern const MethodInfo Evidence_get_SyncRoot_m15267_MethodInfo = 
 {
 	"get_SyncRoot"/* name */
-	, (methodPointerType)&Evidence_get_SyncRoot_m15263/* method */
+	, (methodPointerType)&Evidence_get_SyncRoot_m15267/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3497,10 +3497,10 @@ extern const MethodInfo Evidence_get_SyncRoot_m15263_MethodInfo =
 extern const Il2CppType ArrayList_t1556_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ArrayList System.Security.Policy.Evidence::get_HostEvidenceList()
-extern const MethodInfo Evidence_get_HostEvidenceList_m15264_MethodInfo = 
+extern const MethodInfo Evidence_get_HostEvidenceList_m15268_MethodInfo = 
 {
 	"get_HostEvidenceList"/* name */
-	, (methodPointerType)&Evidence_get_HostEvidenceList_m15264/* method */
+	, (methodPointerType)&Evidence_get_HostEvidenceList_m15268/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &ArrayList_t1556_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3520,10 +3520,10 @@ extern const MethodInfo Evidence_get_HostEvidenceList_m15264_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ArrayList System.Security.Policy.Evidence::get_AssemblyEvidenceList()
-extern const MethodInfo Evidence_get_AssemblyEvidenceList_m15265_MethodInfo = 
+extern const MethodInfo Evidence_get_AssemblyEvidenceList_m15269_MethodInfo = 
 {
 	"get_AssemblyEvidenceList"/* name */
-	, (methodPointerType)&Evidence_get_AssemblyEvidenceList_m15265/* method */
+	, (methodPointerType)&Evidence_get_AssemblyEvidenceList_m15269/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &ArrayList_t1556_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3544,21 +3544,21 @@ extern const MethodInfo Evidence_get_AssemblyEvidenceList_m15265_MethodInfo =
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Evidence_t2496_Evidence_CopyTo_m15266_ParameterInfos[] = 
+static const ParameterInfo Evidence_t2496_Evidence_CopyTo_m15270_ParameterInfos[] = 
 {
 	{"array", 0, 134223025, 0, &Array_t_0_0_0},
 	{"index", 1, 134223026, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Evidence::CopyTo(System.Array,System.Int32)
-extern const MethodInfo Evidence_CopyTo_m15266_MethodInfo = 
+extern const MethodInfo Evidence_CopyTo_m15270_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&Evidence_CopyTo_m15266/* method */
+	, (methodPointerType)&Evidence_CopyTo_m15270/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Int32_t50/* invoker_method */
-	, Evidence_t2496_Evidence_CopyTo_m15266_ParameterInfos/* parameters */
+	, Evidence_t2496_Evidence_CopyTo_m15270_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3573,20 +3573,20 @@ extern const MethodInfo Evidence_CopyTo_m15266_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Evidence_t2496_Evidence_Equals_m15267_ParameterInfos[] = 
+static const ParameterInfo Evidence_t2496_Evidence_Equals_m15271_ParameterInfos[] = 
 {
 	{"obj", 0, 134223027, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Policy.Evidence::Equals(System.Object)
-extern const MethodInfo Evidence_Equals_m15267_MethodInfo = 
+extern const MethodInfo Evidence_Equals_m15271_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&Evidence_Equals_m15267/* method */
+	, (methodPointerType)&Evidence_Equals_m15271/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, Evidence_t2496_Evidence_Equals_m15267_ParameterInfos/* parameters */
+	, Evidence_t2496_Evidence_Equals_m15271_ParameterInfos/* parameters */
 	, 677/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -3602,10 +3602,10 @@ extern const MethodInfo Evidence_Equals_m15267_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator System.Security.Policy.Evidence::GetEnumerator()
-extern const MethodInfo Evidence_GetEnumerator_m15268_MethodInfo = 
+extern const MethodInfo Evidence_GetEnumerator_m15272_MethodInfo = 
 {
 	"GetEnumerator"/* name */
-	, (methodPointerType)&Evidence_GetEnumerator_m15268/* method */
+	, (methodPointerType)&Evidence_GetEnumerator_m15272/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t21_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3625,10 +3625,10 @@ extern const MethodInfo Evidence_GetEnumerator_m15268_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Policy.Evidence::GetHashCode()
-extern const MethodInfo Evidence_GetHashCode_m15269_MethodInfo = 
+extern const MethodInfo Evidence_GetHashCode_m15273_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&Evidence_GetHashCode_m15269/* method */
+	, (methodPointerType)&Evidence_GetHashCode_m15273/* method */
 	, &Evidence_t2496_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -3648,68 +3648,68 @@ extern const MethodInfo Evidence_GetHashCode_m15269_MethodInfo =
 };
 static const MethodInfo* Evidence_t2496_MethodInfos[] =
 {
-	&Evidence__ctor_m15260_MethodInfo,
-	&Evidence_get_Count_m15261_MethodInfo,
-	&Evidence_get_IsSynchronized_m15262_MethodInfo,
-	&Evidence_get_SyncRoot_m15263_MethodInfo,
-	&Evidence_get_HostEvidenceList_m15264_MethodInfo,
-	&Evidence_get_AssemblyEvidenceList_m15265_MethodInfo,
-	&Evidence_CopyTo_m15266_MethodInfo,
-	&Evidence_Equals_m15267_MethodInfo,
-	&Evidence_GetEnumerator_m15268_MethodInfo,
-	&Evidence_GetHashCode_m15269_MethodInfo,
+	&Evidence__ctor_m15264_MethodInfo,
+	&Evidence_get_Count_m15265_MethodInfo,
+	&Evidence_get_IsSynchronized_m15266_MethodInfo,
+	&Evidence_get_SyncRoot_m15267_MethodInfo,
+	&Evidence_get_HostEvidenceList_m15268_MethodInfo,
+	&Evidence_get_AssemblyEvidenceList_m15269_MethodInfo,
+	&Evidence_CopyTo_m15270_MethodInfo,
+	&Evidence_Equals_m15271_MethodInfo,
+	&Evidence_GetEnumerator_m15272_MethodInfo,
+	&Evidence_GetHashCode_m15273_MethodInfo,
 	NULL
 };
-extern const MethodInfo Evidence_get_Count_m15261_MethodInfo;
+extern const MethodInfo Evidence_get_Count_m15265_MethodInfo;
 static const PropertyInfo Evidence_t2496____Count_PropertyInfo = 
 {
 	&Evidence_t2496_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &Evidence_get_Count_m15261_MethodInfo/* get */
+	, &Evidence_get_Count_m15265_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Evidence_get_IsSynchronized_m15262_MethodInfo;
+extern const MethodInfo Evidence_get_IsSynchronized_m15266_MethodInfo;
 static const PropertyInfo Evidence_t2496____IsSynchronized_PropertyInfo = 
 {
 	&Evidence_t2496_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
-	, &Evidence_get_IsSynchronized_m15262_MethodInfo/* get */
+	, &Evidence_get_IsSynchronized_m15266_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Evidence_get_SyncRoot_m15263_MethodInfo;
+extern const MethodInfo Evidence_get_SyncRoot_m15267_MethodInfo;
 static const PropertyInfo Evidence_t2496____SyncRoot_PropertyInfo = 
 {
 	&Evidence_t2496_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
-	, &Evidence_get_SyncRoot_m15263_MethodInfo/* get */
+	, &Evidence_get_SyncRoot_m15267_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Evidence_get_HostEvidenceList_m15264_MethodInfo;
+extern const MethodInfo Evidence_get_HostEvidenceList_m15268_MethodInfo;
 static const PropertyInfo Evidence_t2496____HostEvidenceList_PropertyInfo = 
 {
 	&Evidence_t2496_il2cpp_TypeInfo/* parent */
 	, "HostEvidenceList"/* name */
-	, &Evidence_get_HostEvidenceList_m15264_MethodInfo/* get */
+	, &Evidence_get_HostEvidenceList_m15268_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Evidence_get_AssemblyEvidenceList_m15265_MethodInfo;
+extern const MethodInfo Evidence_get_AssemblyEvidenceList_m15269_MethodInfo;
 static const PropertyInfo Evidence_t2496____AssemblyEvidenceList_PropertyInfo = 
 {
 	&Evidence_t2496_il2cpp_TypeInfo/* parent */
 	, "AssemblyEvidenceList"/* name */
-	, &Evidence_get_AssemblyEvidenceList_m15265_MethodInfo/* get */
+	, &Evidence_get_AssemblyEvidenceList_m15269_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -3728,21 +3728,21 @@ static const Il2CppType* Evidence_t2496_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&EvidenceEnumerator_t2698_0_0_0,
 };
-extern const MethodInfo Evidence_Equals_m15267_MethodInfo;
-extern const MethodInfo Evidence_GetHashCode_m15269_MethodInfo;
-extern const MethodInfo Evidence_GetEnumerator_m15268_MethodInfo;
-extern const MethodInfo Evidence_CopyTo_m15266_MethodInfo;
+extern const MethodInfo Evidence_Equals_m15271_MethodInfo;
+extern const MethodInfo Evidence_GetHashCode_m15273_MethodInfo;
+extern const MethodInfo Evidence_GetEnumerator_m15272_MethodInfo;
+extern const MethodInfo Evidence_CopyTo_m15270_MethodInfo;
 static const Il2CppMethodReference Evidence_t2496_VTable[] =
 {
-	&Evidence_Equals_m15267_MethodInfo,
+	&Evidence_Equals_m15271_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Evidence_GetHashCode_m15269_MethodInfo,
+	&Evidence_GetHashCode_m15273_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Evidence_GetEnumerator_m15268_MethodInfo,
-	&Evidence_get_Count_m15261_MethodInfo,
-	&Evidence_get_IsSynchronized_m15262_MethodInfo,
-	&Evidence_get_SyncRoot_m15263_MethodInfo,
-	&Evidence_CopyTo_m15266_MethodInfo,
+	&Evidence_GetEnumerator_m15272_MethodInfo,
+	&Evidence_get_Count_m15265_MethodInfo,
+	&Evidence_get_IsSynchronized_m15266_MethodInfo,
+	&Evidence_get_SyncRoot_m15267_MethodInfo,
+	&Evidence_CopyTo_m15270_MethodInfo,
 };
 static bool Evidence_t2496_VTableIsGenericMethod[] =
 {
@@ -3846,10 +3846,10 @@ extern TypeInfo Hash_t2699_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Policy_HashMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Hash::.ctor()
-extern const MethodInfo Hash__ctor_m15270_MethodInfo = 
+extern const MethodInfo Hash__ctor_m15274_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Hash__ctor_m15270/* method */
+	, (methodPointerType)&Hash__ctor_m15274/* method */
 	, &Hash_t2699_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -3871,21 +3871,21 @@ extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo Hash_t2699_Hash__ctor_m15271_ParameterInfos[] = 
+static const ParameterInfo Hash_t2699_Hash__ctor_m15275_ParameterInfos[] = 
 {
 	{"info", 0, 134223030, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223031, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Hash::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo Hash__ctor_m15271_MethodInfo = 
+extern const MethodInfo Hash__ctor_m15275_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Hash__ctor_m15271/* method */
+	, (methodPointerType)&Hash__ctor_m15275/* method */
 	, &Hash_t2699_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, Hash_t2699_Hash__ctor_m15271_ParameterInfos/* parameters */
+	, Hash_t2699_Hash__ctor_m15275_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -3901,21 +3901,21 @@ extern const MethodInfo Hash__ctor_m15271_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo Hash_t2699_Hash_GetObjectData_m15272_ParameterInfos[] = 
+static const ParameterInfo Hash_t2699_Hash_GetObjectData_m15276_ParameterInfos[] = 
 {
 	{"info", 0, 134223032, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223033, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Policy.Hash::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo Hash_GetObjectData_m15272_MethodInfo = 
+extern const MethodInfo Hash_GetObjectData_m15276_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&Hash_GetObjectData_m15272/* method */
+	, (methodPointerType)&Hash_GetObjectData_m15276/* method */
 	, &Hash_t2699_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, Hash_t2699_Hash_GetObjectData_m15272_ParameterInfos/* parameters */
+	, Hash_t2699_Hash_GetObjectData_m15276_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3931,10 +3931,10 @@ extern const MethodInfo Hash_GetObjectData_m15272_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.Policy.Hash::ToString()
-extern const MethodInfo Hash_ToString_m15273_MethodInfo = 
+extern const MethodInfo Hash_ToString_m15277_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Hash_ToString_m15273/* method */
+	, (methodPointerType)&Hash_ToString_m15277/* method */
 	, &Hash_t2699_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3954,10 +3954,10 @@ extern const MethodInfo Hash_ToString_m15273_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Security.Policy.Hash::GetData()
-extern const MethodInfo Hash_GetData_m15274_MethodInfo = 
+extern const MethodInfo Hash_GetData_m15278_MethodInfo = 
 {
 	"GetData"/* name */
-	, (methodPointerType)&Hash_GetData_m15274/* method */
+	, (methodPointerType)&Hash_GetData_m15278/* method */
 	, &Hash_t2699_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3977,22 +3977,22 @@ extern const MethodInfo Hash_GetData_m15274_MethodInfo =
 };
 static const MethodInfo* Hash_t2699_MethodInfos[] =
 {
-	&Hash__ctor_m15270_MethodInfo,
-	&Hash__ctor_m15271_MethodInfo,
-	&Hash_GetObjectData_m15272_MethodInfo,
-	&Hash_ToString_m15273_MethodInfo,
-	&Hash_GetData_m15274_MethodInfo,
+	&Hash__ctor_m15274_MethodInfo,
+	&Hash__ctor_m15275_MethodInfo,
+	&Hash_GetObjectData_m15276_MethodInfo,
+	&Hash_ToString_m15277_MethodInfo,
+	&Hash_GetData_m15278_MethodInfo,
 	NULL
 };
-extern const MethodInfo Hash_ToString_m15273_MethodInfo;
-extern const MethodInfo Hash_GetObjectData_m15272_MethodInfo;
+extern const MethodInfo Hash_ToString_m15277_MethodInfo;
+extern const MethodInfo Hash_GetObjectData_m15276_MethodInfo;
 static const Il2CppMethodReference Hash_t2699_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Hash_ToString_m15273_MethodInfo,
-	&Hash_GetObjectData_m15272_MethodInfo,
+	&Hash_ToString_m15277_MethodInfo,
+	&Hash_GetObjectData_m15276_MethodInfo,
 };
 static bool Hash_t2699_VTableIsGenericMethod[] =
 {
@@ -4246,10 +4246,10 @@ extern TypeInfo StrongName_t2700_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Policy_StrongNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.Policy.StrongName::get_Name()
-extern const MethodInfo StrongName_get_Name_m15275_MethodInfo = 
+extern const MethodInfo StrongName_get_Name_m15279_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&StrongName_get_Name_m15275/* method */
+	, (methodPointerType)&StrongName_get_Name_m15279/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -4269,10 +4269,10 @@ extern const MethodInfo StrongName_get_Name_m15275_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Permissions.StrongNamePublicKeyBlob System.Security.Policy.StrongName::get_PublicKey()
-extern const MethodInfo StrongName_get_PublicKey_m15276_MethodInfo = 
+extern const MethodInfo StrongName_get_PublicKey_m15280_MethodInfo = 
 {
 	"get_PublicKey"/* name */
-	, (methodPointerType)&StrongName_get_PublicKey_m15276/* method */
+	, (methodPointerType)&StrongName_get_PublicKey_m15280/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &StrongNamePublicKeyBlob_t2695_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -4293,10 +4293,10 @@ extern const MethodInfo StrongName_get_PublicKey_m15276_MethodInfo =
 extern const Il2CppType Version_t2040_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Version System.Security.Policy.StrongName::get_Version()
-extern const MethodInfo StrongName_get_Version_m15277_MethodInfo = 
+extern const MethodInfo StrongName_get_Version_m15281_MethodInfo = 
 {
 	"get_Version"/* name */
-	, (methodPointerType)&StrongName_get_Version_m15277/* method */
+	, (methodPointerType)&StrongName_get_Version_m15281/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &Version_t2040_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -4315,20 +4315,20 @@ extern const MethodInfo StrongName_get_Version_m15277_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StrongName_t2700_StrongName_Equals_m15278_ParameterInfos[] = 
+static const ParameterInfo StrongName_t2700_StrongName_Equals_m15282_ParameterInfos[] = 
 {
 	{"o", 0, 134223034, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.Policy.StrongName::Equals(System.Object)
-extern const MethodInfo StrongName_Equals_m15278_MethodInfo = 
+extern const MethodInfo StrongName_Equals_m15282_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&StrongName_Equals_m15278/* method */
+	, (methodPointerType)&StrongName_Equals_m15282/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, StrongName_t2700_StrongName_Equals_m15278_ParameterInfos/* parameters */
+	, StrongName_t2700_StrongName_Equals_m15282_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -4344,10 +4344,10 @@ extern const MethodInfo StrongName_Equals_m15278_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.Policy.StrongName::GetHashCode()
-extern const MethodInfo StrongName_GetHashCode_m15279_MethodInfo = 
+extern const MethodInfo StrongName_GetHashCode_m15283_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&StrongName_GetHashCode_m15279/* method */
+	, (methodPointerType)&StrongName_GetHashCode_m15283/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -4367,10 +4367,10 @@ extern const MethodInfo StrongName_GetHashCode_m15279_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.Policy.StrongName::ToString()
-extern const MethodInfo StrongName_ToString_m15280_MethodInfo = 
+extern const MethodInfo StrongName_ToString_m15284_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&StrongName_ToString_m15280/* method */
+	, (methodPointerType)&StrongName_ToString_m15284/* method */
 	, &StrongName_t2700_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -4390,42 +4390,42 @@ extern const MethodInfo StrongName_ToString_m15280_MethodInfo =
 };
 static const MethodInfo* StrongName_t2700_MethodInfos[] =
 {
-	&StrongName_get_Name_m15275_MethodInfo,
-	&StrongName_get_PublicKey_m15276_MethodInfo,
-	&StrongName_get_Version_m15277_MethodInfo,
-	&StrongName_Equals_m15278_MethodInfo,
-	&StrongName_GetHashCode_m15279_MethodInfo,
-	&StrongName_ToString_m15280_MethodInfo,
+	&StrongName_get_Name_m15279_MethodInfo,
+	&StrongName_get_PublicKey_m15280_MethodInfo,
+	&StrongName_get_Version_m15281_MethodInfo,
+	&StrongName_Equals_m15282_MethodInfo,
+	&StrongName_GetHashCode_m15283_MethodInfo,
+	&StrongName_ToString_m15284_MethodInfo,
 	NULL
 };
-extern const MethodInfo StrongName_get_Name_m15275_MethodInfo;
+extern const MethodInfo StrongName_get_Name_m15279_MethodInfo;
 static const PropertyInfo StrongName_t2700____Name_PropertyInfo = 
 {
 	&StrongName_t2700_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &StrongName_get_Name_m15275_MethodInfo/* get */
+	, &StrongName_get_Name_m15279_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo StrongName_get_PublicKey_m15276_MethodInfo;
+extern const MethodInfo StrongName_get_PublicKey_m15280_MethodInfo;
 static const PropertyInfo StrongName_t2700____PublicKey_PropertyInfo = 
 {
 	&StrongName_t2700_il2cpp_TypeInfo/* parent */
 	, "PublicKey"/* name */
-	, &StrongName_get_PublicKey_m15276_MethodInfo/* get */
+	, &StrongName_get_PublicKey_m15280_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo StrongName_get_Version_m15277_MethodInfo;
+extern const MethodInfo StrongName_get_Version_m15281_MethodInfo;
 static const PropertyInfo StrongName_t2700____Version_PropertyInfo = 
 {
 	&StrongName_t2700_il2cpp_TypeInfo/* parent */
 	, "Version"/* name */
-	, &StrongName_get_Version_m15277_MethodInfo/* get */
+	, &StrongName_get_Version_m15281_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -4438,15 +4438,15 @@ static const PropertyInfo* StrongName_t2700_PropertyInfos[] =
 	&StrongName_t2700____Version_PropertyInfo,
 	NULL
 };
-extern const MethodInfo StrongName_Equals_m15278_MethodInfo;
-extern const MethodInfo StrongName_GetHashCode_m15279_MethodInfo;
-extern const MethodInfo StrongName_ToString_m15280_MethodInfo;
+extern const MethodInfo StrongName_Equals_m15282_MethodInfo;
+extern const MethodInfo StrongName_GetHashCode_m15283_MethodInfo;
+extern const MethodInfo StrongName_ToString_m15284_MethodInfo;
 static const Il2CppMethodReference StrongName_t2700_VTable[] =
 {
-	&StrongName_Equals_m15278_MethodInfo,
+	&StrongName_Equals_m15282_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&StrongName_GetHashCode_m15279_MethodInfo,
-	&StrongName_ToString_m15280_MethodInfo,
+	&StrongName_GetHashCode_m15283_MethodInfo,
+	&StrongName_ToString_m15284_MethodInfo,
 };
 static bool StrongName_t2700_VTableIsGenericMethod[] =
 {
@@ -4974,21 +4974,21 @@ extern TypeInfo WindowsIdentity_t2703_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_Principal_WindowsIdentityMethodDeclarations.h"
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity__ctor_m15281_ParameterInfos[] = 
+static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity__ctor_m15285_ParameterInfos[] = 
 {
 	{"info", 0, 134223035, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223036, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Principal.WindowsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo WindowsIdentity__ctor_m15281_MethodInfo = 
+extern const MethodInfo WindowsIdentity__ctor_m15285_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&WindowsIdentity__ctor_m15281/* method */
+	, (methodPointerType)&WindowsIdentity__ctor_m15285/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, WindowsIdentity_t2703_WindowsIdentity__ctor_m15281_ParameterInfos/* parameters */
+	, WindowsIdentity_t2703_WindowsIdentity__ctor_m15285_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5004,10 +5004,10 @@ extern const MethodInfo WindowsIdentity__ctor_m15281_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Principal.WindowsIdentity::.cctor()
-extern const MethodInfo WindowsIdentity__cctor_m15282_MethodInfo = 
+extern const MethodInfo WindowsIdentity__cctor_m15286_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&WindowsIdentity__cctor_m15282/* method */
+	, (methodPointerType)&WindowsIdentity__cctor_m15286/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5026,20 +5026,20 @@ extern const MethodInfo WindowsIdentity__cctor_m15282_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_ParameterInfos[] = 
+static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_ParameterInfos[] = 
 {
 	{"sender", 0, 134223037, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Principal.WindowsIdentity::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_MethodInfo = 
+extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_MethodInfo = 
 {
 	"System.Runtime.Serialization.IDeserializationCallback.OnDeserialization"/* name */
-	, (methodPointerType)&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283/* method */
+	, (methodPointerType)&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_ParameterInfos/* parameters */
+	, WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5055,21 +5055,21 @@ extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_IDeserializ
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_ParameterInfos[] = 
+static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_ParameterInfos[] = 
 {
 	{"info", 0, 134223038, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223039, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Principal.WindowsIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_MethodInfo = 
+extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284/* method */
+	, (methodPointerType)&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_ParameterInfos/* parameters */
+	, WindowsIdentity_t2703_WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5085,10 +5085,10 @@ extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_ISerializab
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.Principal.WindowsIdentity::Dispose()
-extern const MethodInfo WindowsIdentity_Dispose_m15285_MethodInfo = 
+extern const MethodInfo WindowsIdentity_Dispose_m15289_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&WindowsIdentity_Dispose_m15285/* method */
+	, (methodPointerType)&WindowsIdentity_Dispose_m15289/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5109,10 +5109,10 @@ extern const MethodInfo WindowsIdentity_Dispose_m15285_MethodInfo =
 extern const Il2CppType IntPtr_t_0_0_0;
 extern void* RuntimeInvoker_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.IntPtr System.Security.Principal.WindowsIdentity::GetCurrentToken()
-extern const MethodInfo WindowsIdentity_GetCurrentToken_m15286_MethodInfo = 
+extern const MethodInfo WindowsIdentity_GetCurrentToken_m15290_MethodInfo = 
 {
 	"GetCurrentToken"/* name */
-	, (methodPointerType)&WindowsIdentity_GetCurrentToken_m15286/* method */
+	, (methodPointerType)&WindowsIdentity_GetCurrentToken_m15290/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &IntPtr_t_0_0_0/* return_type */
 	, RuntimeInvoker_IntPtr_t/* invoker_method */
@@ -5131,20 +5131,20 @@ extern const MethodInfo WindowsIdentity_GetCurrentToken_m15286_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_GetTokenName_m15287_ParameterInfos[] = 
+static const ParameterInfo WindowsIdentity_t2703_WindowsIdentity_GetTokenName_m15291_ParameterInfos[] = 
 {
 	{"token", 0, 134223040, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.Principal.WindowsIdentity::GetTokenName(System.IntPtr)
-extern const MethodInfo WindowsIdentity_GetTokenName_m15287_MethodInfo = 
+extern const MethodInfo WindowsIdentity_GetTokenName_m15291_MethodInfo = 
 {
 	"GetTokenName"/* name */
-	, (methodPointerType)&WindowsIdentity_GetTokenName_m15287/* method */
+	, (methodPointerType)&WindowsIdentity_GetTokenName_m15291/* method */
 	, &WindowsIdentity_t2703_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_IntPtr_t/* invoker_method */
-	, WindowsIdentity_t2703_WindowsIdentity_GetTokenName_m15287_ParameterInfos/* parameters */
+	, WindowsIdentity_t2703_WindowsIdentity_GetTokenName_m15291_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -5160,27 +5160,27 @@ extern const MethodInfo WindowsIdentity_GetTokenName_m15287_MethodInfo =
 };
 static const MethodInfo* WindowsIdentity_t2703_MethodInfos[] =
 {
-	&WindowsIdentity__ctor_m15281_MethodInfo,
-	&WindowsIdentity__cctor_m15282_MethodInfo,
-	&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_MethodInfo,
-	&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_MethodInfo,
-	&WindowsIdentity_Dispose_m15285_MethodInfo,
-	&WindowsIdentity_GetCurrentToken_m15286_MethodInfo,
-	&WindowsIdentity_GetTokenName_m15287_MethodInfo,
+	&WindowsIdentity__ctor_m15285_MethodInfo,
+	&WindowsIdentity__cctor_m15286_MethodInfo,
+	&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_MethodInfo,
+	&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_MethodInfo,
+	&WindowsIdentity_Dispose_m15289_MethodInfo,
+	&WindowsIdentity_GetCurrentToken_m15290_MethodInfo,
+	&WindowsIdentity_GetTokenName_m15291_MethodInfo,
 	NULL
 };
-extern const MethodInfo WindowsIdentity_Dispose_m15285_MethodInfo;
-extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_MethodInfo;
-extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_MethodInfo;
+extern const MethodInfo WindowsIdentity_Dispose_m15289_MethodInfo;
+extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_MethodInfo;
+extern const MethodInfo WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_MethodInfo;
 static const Il2CppMethodReference WindowsIdentity_t2703_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WindowsIdentity_Dispose_m15285_MethodInfo,
-	&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15284_MethodInfo,
-	&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15283_MethodInfo,
+	&WindowsIdentity_Dispose_m15289_MethodInfo,
+	&WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15288_MethodInfo,
+	&WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m15287_MethodInfo,
 };
 static bool WindowsIdentity_t2703_VTableIsGenericMethod[] =
 {
@@ -5286,10 +5286,10 @@ extern TypeInfo CodeAccessPermission_t2693_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_CodeAccessPermissionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.CodeAccessPermission::.ctor()
-extern const MethodInfo CodeAccessPermission__ctor_m15288_MethodInfo = 
+extern const MethodInfo CodeAccessPermission__ctor_m15292_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CodeAccessPermission__ctor_m15288/* method */
+	, (methodPointerType)&CodeAccessPermission__ctor_m15292/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5308,20 +5308,20 @@ extern const MethodInfo CodeAccessPermission__ctor_m15288_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_Equals_m15289_ParameterInfos[] = 
+static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_Equals_m15293_ParameterInfos[] = 
 {
 	{"obj", 0, 134223041, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.CodeAccessPermission::Equals(System.Object)
-extern const MethodInfo CodeAccessPermission_Equals_m15289_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_Equals_m15293_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&CodeAccessPermission_Equals_m15289/* method */
+	, (methodPointerType)&CodeAccessPermission_Equals_m15293/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, CodeAccessPermission_t2693_CodeAccessPermission_Equals_m15289_ParameterInfos/* parameters */
+	, CodeAccessPermission_t2693_CodeAccessPermission_Equals_m15293_ParameterInfos/* parameters */
 	, 689/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5337,10 +5337,10 @@ extern const MethodInfo CodeAccessPermission_Equals_m15289_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Security.CodeAccessPermission::GetHashCode()
-extern const MethodInfo CodeAccessPermission_GetHashCode_m15290_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_GetHashCode_m15294_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&CodeAccessPermission_GetHashCode_m15290/* method */
+	, (methodPointerType)&CodeAccessPermission_GetHashCode_m15294/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -5359,20 +5359,20 @@ extern const MethodInfo CodeAccessPermission_GetHashCode_m15290_MethodInfo =
 
 };
 extern const Il2CppType IPermission_t2707_0_0_0;
-static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_IsSubsetOf_m17098_ParameterInfos[] = 
+static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_IsSubsetOf_m17102_ParameterInfos[] = 
 {
 	{"target", 0, 134223042, 0, &IPermission_t2707_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.CodeAccessPermission::IsSubsetOf(System.Security.IPermission)
-extern const MethodInfo CodeAccessPermission_IsSubsetOf_m17098_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_IsSubsetOf_m17102_MethodInfo = 
 {
 	"IsSubsetOf"/* name */
 	, NULL/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, CodeAccessPermission_t2693_CodeAccessPermission_IsSubsetOf_m17098_ParameterInfos/* parameters */
+	, CodeAccessPermission_t2693_CodeAccessPermission_IsSubsetOf_m17102_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -5388,10 +5388,10 @@ extern const MethodInfo CodeAccessPermission_IsSubsetOf_m17098_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.CodeAccessPermission::ToString()
-extern const MethodInfo CodeAccessPermission_ToString_m15291_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_ToString_m15295_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&CodeAccessPermission_ToString_m15291/* method */
+	, (methodPointerType)&CodeAccessPermission_ToString_m15295/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5411,7 +5411,7 @@ extern const MethodInfo CodeAccessPermission_ToString_m15291_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityElement System.Security.CodeAccessPermission::ToXml()
-extern const MethodInfo CodeAccessPermission_ToXml_m17099_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_ToXml_m17103_MethodInfo = 
 {
 	"ToXml"/* name */
 	, NULL/* method */
@@ -5433,20 +5433,20 @@ extern const MethodInfo CodeAccessPermission_ToXml_m17099_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_Element_m15292_ParameterInfos[] = 
+static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_Element_m15296_ParameterInfos[] = 
 {
 	{"version", 0, 134223043, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityElement System.Security.CodeAccessPermission::Element(System.Int32)
-extern const MethodInfo CodeAccessPermission_Element_m15292_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_Element_m15296_MethodInfo = 
 {
 	"Element"/* name */
-	, (methodPointerType)&CodeAccessPermission_Element_m15292/* method */
+	, (methodPointerType)&CodeAccessPermission_Element_m15296/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityElement_t2394_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, CodeAccessPermission_t2693_CodeAccessPermission_Element_m15292_ParameterInfos/* parameters */
+	, CodeAccessPermission_t2693_CodeAccessPermission_Element_m15296_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5463,21 +5463,21 @@ extern const MethodInfo CodeAccessPermission_Element_m15292_MethodInfo =
 extern const Il2CppType IPermission_t2707_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_ThrowInvalidPermission_m15293_ParameterInfos[] = 
+static const ParameterInfo CodeAccessPermission_t2693_CodeAccessPermission_ThrowInvalidPermission_m15297_ParameterInfos[] = 
 {
 	{"target", 0, 134223044, 0, &IPermission_t2707_0_0_0},
 	{"expected", 1, 134223045, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.CodeAccessPermission::ThrowInvalidPermission(System.Security.IPermission,System.Type)
-extern const MethodInfo CodeAccessPermission_ThrowInvalidPermission_m15293_MethodInfo = 
+extern const MethodInfo CodeAccessPermission_ThrowInvalidPermission_m15297_MethodInfo = 
 {
 	"ThrowInvalidPermission"/* name */
-	, (methodPointerType)&CodeAccessPermission_ThrowInvalidPermission_m15293/* method */
+	, (methodPointerType)&CodeAccessPermission_ThrowInvalidPermission_m15297/* method */
 	, &CodeAccessPermission_t2693_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, CodeAccessPermission_t2693_CodeAccessPermission_ThrowInvalidPermission_m15293_ParameterInfos/* parameters */
+	, CodeAccessPermission_t2693_CodeAccessPermission_ThrowInvalidPermission_m15297_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -5493,22 +5493,22 @@ extern const MethodInfo CodeAccessPermission_ThrowInvalidPermission_m15293_Metho
 };
 static const MethodInfo* CodeAccessPermission_t2693_MethodInfos[] =
 {
-	&CodeAccessPermission__ctor_m15288_MethodInfo,
-	&CodeAccessPermission_Equals_m15289_MethodInfo,
-	&CodeAccessPermission_GetHashCode_m15290_MethodInfo,
-	&CodeAccessPermission_IsSubsetOf_m17098_MethodInfo,
-	&CodeAccessPermission_ToString_m15291_MethodInfo,
-	&CodeAccessPermission_ToXml_m17099_MethodInfo,
-	&CodeAccessPermission_Element_m15292_MethodInfo,
-	&CodeAccessPermission_ThrowInvalidPermission_m15293_MethodInfo,
+	&CodeAccessPermission__ctor_m15292_MethodInfo,
+	&CodeAccessPermission_Equals_m15293_MethodInfo,
+	&CodeAccessPermission_GetHashCode_m15294_MethodInfo,
+	&CodeAccessPermission_IsSubsetOf_m17102_MethodInfo,
+	&CodeAccessPermission_ToString_m15295_MethodInfo,
+	&CodeAccessPermission_ToXml_m17103_MethodInfo,
+	&CodeAccessPermission_Element_m15296_MethodInfo,
+	&CodeAccessPermission_ThrowInvalidPermission_m15297_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference CodeAccessPermission_t2693_VTable[] =
 {
-	&CodeAccessPermission_Equals_m15289_MethodInfo,
+	&CodeAccessPermission_Equals_m15293_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&CodeAccessPermission_GetHashCode_m15290_MethodInfo,
-	&CodeAccessPermission_ToString_m15291_MethodInfo,
+	&CodeAccessPermission_GetHashCode_m15294_MethodInfo,
+	&CodeAccessPermission_ToString_m15295_MethodInfo,
 	NULL,
 	NULL,
 };
@@ -5843,10 +5843,10 @@ extern TypeInfo PermissionSet_t2497_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_PermissionSetMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.PermissionSet::.ctor()
-extern const MethodInfo PermissionSet__ctor_m15294_MethodInfo = 
+extern const MethodInfo PermissionSet__ctor_m15298_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PermissionSet__ctor_m15294/* method */
+	, (methodPointerType)&PermissionSet__ctor_m15298/* method */
 	, &PermissionSet_t2497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -5865,20 +5865,20 @@ extern const MethodInfo PermissionSet__ctor_m15294_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PermissionSet_t2497_PermissionSet__ctor_m15295_ParameterInfos[] = 
+static const ParameterInfo PermissionSet_t2497_PermissionSet__ctor_m15299_ParameterInfos[] = 
 {
 	{"xml", 0, 134223046, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.PermissionSet::.ctor(System.String)
-extern const MethodInfo PermissionSet__ctor_m15295_MethodInfo = 
+extern const MethodInfo PermissionSet__ctor_m15299_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PermissionSet__ctor_m15295/* method */
+	, (methodPointerType)&PermissionSet__ctor_m15299/* method */
 	, &PermissionSet_t2497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, PermissionSet_t2497_PermissionSet__ctor_m15295_ParameterInfos/* parameters */
+	, PermissionSet_t2497_PermissionSet__ctor_m15299_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -5893,20 +5893,20 @@ extern const MethodInfo PermissionSet__ctor_m15295_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo PermissionSet_t2497_PermissionSet_set_DeclarativeSecurity_m15296_ParameterInfos[] = 
+static const ParameterInfo PermissionSet_t2497_PermissionSet_set_DeclarativeSecurity_m15300_ParameterInfos[] = 
 {
 	{"value", 0, 134223047, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.PermissionSet::set_DeclarativeSecurity(System.Boolean)
-extern const MethodInfo PermissionSet_set_DeclarativeSecurity_m15296_MethodInfo = 
+extern const MethodInfo PermissionSet_set_DeclarativeSecurity_m15300_MethodInfo = 
 {
 	"set_DeclarativeSecurity"/* name */
-	, (methodPointerType)&PermissionSet_set_DeclarativeSecurity_m15296/* method */
+	, (methodPointerType)&PermissionSet_set_DeclarativeSecurity_m15300/* method */
 	, &PermissionSet_t2497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, PermissionSet_t2497_PermissionSet_set_DeclarativeSecurity_m15296_ParameterInfos/* parameters */
+	, PermissionSet_t2497_PermissionSet_set_DeclarativeSecurity_m15300_ParameterInfos/* parameters */
 	, 695/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -5921,21 +5921,21 @@ extern const MethodInfo PermissionSet_set_DeclarativeSecurity_m15296_MethodInfo 
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo PermissionSet_t2497_PermissionSet_CreateFromBinaryFormat_m15297_ParameterInfos[] = 
+static const ParameterInfo PermissionSet_t2497_PermissionSet_CreateFromBinaryFormat_m15301_ParameterInfos[] = 
 {
 	{"data", 0, 134223048, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern const Il2CppType PermissionSet_t2497_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.PermissionSet System.Security.PermissionSet::CreateFromBinaryFormat(System.Byte[])
-extern const MethodInfo PermissionSet_CreateFromBinaryFormat_m15297_MethodInfo = 
+extern const MethodInfo PermissionSet_CreateFromBinaryFormat_m15301_MethodInfo = 
 {
 	"CreateFromBinaryFormat"/* name */
-	, (methodPointerType)&PermissionSet_CreateFromBinaryFormat_m15297/* method */
+	, (methodPointerType)&PermissionSet_CreateFromBinaryFormat_m15301/* method */
 	, &PermissionSet_t2497_il2cpp_TypeInfo/* declaring_type */
 	, &PermissionSet_t2497_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PermissionSet_t2497_PermissionSet_CreateFromBinaryFormat_m15297_ParameterInfos/* parameters */
+	, PermissionSet_t2497_PermissionSet_CreateFromBinaryFormat_m15301_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -5951,19 +5951,19 @@ extern const MethodInfo PermissionSet_CreateFromBinaryFormat_m15297_MethodInfo =
 };
 static const MethodInfo* PermissionSet_t2497_MethodInfos[] =
 {
-	&PermissionSet__ctor_m15294_MethodInfo,
-	&PermissionSet__ctor_m15295_MethodInfo,
-	&PermissionSet_set_DeclarativeSecurity_m15296_MethodInfo,
-	&PermissionSet_CreateFromBinaryFormat_m15297_MethodInfo,
+	&PermissionSet__ctor_m15298_MethodInfo,
+	&PermissionSet__ctor_m15299_MethodInfo,
+	&PermissionSet_set_DeclarativeSecurity_m15300_MethodInfo,
+	&PermissionSet_CreateFromBinaryFormat_m15301_MethodInfo,
 	NULL
 };
-extern const MethodInfo PermissionSet_set_DeclarativeSecurity_m15296_MethodInfo;
+extern const MethodInfo PermissionSet_set_DeclarativeSecurity_m15300_MethodInfo;
 static const PropertyInfo PermissionSet_t2497____DeclarativeSecurity_PropertyInfo = 
 {
 	&PermissionSet_t2497_il2cpp_TypeInfo/* parent */
 	, "DeclarativeSecurity"/* name */
 	, NULL/* get */
-	, &PermissionSet_set_DeclarativeSecurity_m15296_MethodInfo/* set */
+	, &PermissionSet_set_DeclarativeSecurity_m15300_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -6065,10 +6065,10 @@ extern TypeInfo SecurityContext_t2705_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecurityContextMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityContext::.ctor()
-extern const MethodInfo SecurityContext__ctor_m15298_MethodInfo = 
+extern const MethodInfo SecurityContext__ctor_m15302_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityContext__ctor_m15298/* method */
+	, (methodPointerType)&SecurityContext__ctor_m15302/* method */
 	, &SecurityContext_t2705_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6088,20 +6088,20 @@ extern const MethodInfo SecurityContext__ctor_m15298_MethodInfo =
 };
 extern const Il2CppType SecurityContext_t2705_0_0_0;
 extern const Il2CppType SecurityContext_t2705_0_0_0;
-static const ParameterInfo SecurityContext_t2705_SecurityContext__ctor_m15299_ParameterInfos[] = 
+static const ParameterInfo SecurityContext_t2705_SecurityContext__ctor_m15303_ParameterInfos[] = 
 {
 	{"sc", 0, 134223049, 0, &SecurityContext_t2705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityContext::.ctor(System.Security.SecurityContext)
-extern const MethodInfo SecurityContext__ctor_m15299_MethodInfo = 
+extern const MethodInfo SecurityContext__ctor_m15303_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityContext__ctor_m15299/* method */
+	, (methodPointerType)&SecurityContext__ctor_m15303/* method */
 	, &SecurityContext_t2705_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityContext_t2705_SecurityContext__ctor_m15299_ParameterInfos/* parameters */
+	, SecurityContext_t2705_SecurityContext__ctor_m15303_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -6117,10 +6117,10 @@ extern const MethodInfo SecurityContext__ctor_m15299_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityContext System.Security.SecurityContext::Capture()
-extern const MethodInfo SecurityContext_Capture_m15300_MethodInfo = 
+extern const MethodInfo SecurityContext_Capture_m15304_MethodInfo = 
 {
 	"Capture"/* name */
-	, (methodPointerType)&SecurityContext_Capture_m15300/* method */
+	, (methodPointerType)&SecurityContext_Capture_m15304/* method */
 	, &SecurityContext_t2705_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityContext_t2705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6140,10 +6140,10 @@ extern const MethodInfo SecurityContext_Capture_m15300_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityContext::get_FlowSuppressed()
-extern const MethodInfo SecurityContext_get_FlowSuppressed_m15301_MethodInfo = 
+extern const MethodInfo SecurityContext_get_FlowSuppressed_m15305_MethodInfo = 
 {
 	"get_FlowSuppressed"/* name */
-	, (methodPointerType)&SecurityContext_get_FlowSuppressed_m15301/* method */
+	, (methodPointerType)&SecurityContext_get_FlowSuppressed_m15305/* method */
 	, &SecurityContext_t2705_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -6164,10 +6164,10 @@ extern const MethodInfo SecurityContext_get_FlowSuppressed_m15301_MethodInfo =
 extern const Il2CppType CompressedStack_t2704_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CompressedStack System.Security.SecurityContext::get_CompressedStack()
-extern const MethodInfo SecurityContext_get_CompressedStack_m15302_MethodInfo = 
+extern const MethodInfo SecurityContext_get_CompressedStack_m15306_MethodInfo = 
 {
 	"get_CompressedStack"/* name */
-	, (methodPointerType)&SecurityContext_get_CompressedStack_m15302/* method */
+	, (methodPointerType)&SecurityContext_get_CompressedStack_m15306/* method */
 	, &SecurityContext_t2705_il2cpp_TypeInfo/* declaring_type */
 	, &CompressedStack_t2704_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6187,30 +6187,30 @@ extern const MethodInfo SecurityContext_get_CompressedStack_m15302_MethodInfo =
 };
 static const MethodInfo* SecurityContext_t2705_MethodInfos[] =
 {
-	&SecurityContext__ctor_m15298_MethodInfo,
-	&SecurityContext__ctor_m15299_MethodInfo,
-	&SecurityContext_Capture_m15300_MethodInfo,
-	&SecurityContext_get_FlowSuppressed_m15301_MethodInfo,
-	&SecurityContext_get_CompressedStack_m15302_MethodInfo,
+	&SecurityContext__ctor_m15302_MethodInfo,
+	&SecurityContext__ctor_m15303_MethodInfo,
+	&SecurityContext_Capture_m15304_MethodInfo,
+	&SecurityContext_get_FlowSuppressed_m15305_MethodInfo,
+	&SecurityContext_get_CompressedStack_m15306_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityContext_get_FlowSuppressed_m15301_MethodInfo;
+extern const MethodInfo SecurityContext_get_FlowSuppressed_m15305_MethodInfo;
 static const PropertyInfo SecurityContext_t2705____FlowSuppressed_PropertyInfo = 
 {
 	&SecurityContext_t2705_il2cpp_TypeInfo/* parent */
 	, "FlowSuppressed"/* name */
-	, &SecurityContext_get_FlowSuppressed_m15301_MethodInfo/* get */
+	, &SecurityContext_get_FlowSuppressed_m15305_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityContext_get_CompressedStack_m15302_MethodInfo;
+extern const MethodInfo SecurityContext_get_CompressedStack_m15306_MethodInfo;
 static const PropertyInfo SecurityContext_t2705____CompressedStack_PropertyInfo = 
 {
 	&SecurityContext_t2705_il2cpp_TypeInfo/* parent */
 	, "CompressedStack"/* name */
-	, &SecurityContext_get_CompressedStack_m15302_MethodInfo/* get */
+	, &SecurityContext_get_CompressedStack_m15306_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6314,10 +6314,10 @@ extern TypeInfo SecurityCriticalAttribute_t1354_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecurityCriticalAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityCriticalAttribute::.ctor()
-extern const MethodInfo SecurityCriticalAttribute__ctor_m7264_MethodInfo = 
+extern const MethodInfo SecurityCriticalAttribute__ctor_m7268_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityCriticalAttribute__ctor_m7264/* method */
+	, (methodPointerType)&SecurityCriticalAttribute__ctor_m7268/* method */
 	, &SecurityCriticalAttribute_t1354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6337,16 +6337,16 @@ extern const MethodInfo SecurityCriticalAttribute__ctor_m7264_MethodInfo =
 };
 static const MethodInfo* SecurityCriticalAttribute_t1354_MethodInfos[] =
 {
-	&SecurityCriticalAttribute__ctor_m7264_MethodInfo,
+	&SecurityCriticalAttribute__ctor_m7268_MethodInfo,
 	NULL
 };
-extern const MethodInfo Attribute_Equals_m3944_MethodInfo;
-extern const MethodInfo Attribute_GetHashCode_m3945_MethodInfo;
+extern const MethodInfo Attribute_Equals_m3948_MethodInfo;
+extern const MethodInfo Attribute_GetHashCode_m3949_MethodInfo;
 static const Il2CppMethodReference SecurityCriticalAttribute_t1354_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool SecurityCriticalAttribute_t1354_VTableIsGenericMethod[] =
@@ -6441,21 +6441,21 @@ extern TypeInfo SecurityAttribute_t2706_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecurityElement_SecurityAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityAttribute_t2706_SecurityAttribute__ctor_m15303_ParameterInfos[] = 
+static const ParameterInfo SecurityAttribute_t2706_SecurityAttribute__ctor_m15307_ParameterInfos[] = 
 {
 	{"name", 0, 134223067, 0, &String_t_0_0_0},
 	{"value", 1, 134223068, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement/SecurityAttribute::.ctor(System.String,System.String)
-extern const MethodInfo SecurityAttribute__ctor_m15303_MethodInfo = 
+extern const MethodInfo SecurityAttribute__ctor_m15307_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityAttribute__ctor_m15303/* method */
+	, (methodPointerType)&SecurityAttribute__ctor_m15307/* method */
 	, &SecurityAttribute_t2706_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, SecurityAttribute_t2706_SecurityAttribute__ctor_m15303_ParameterInfos/* parameters */
+	, SecurityAttribute_t2706_SecurityAttribute__ctor_m15307_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6471,10 +6471,10 @@ extern const MethodInfo SecurityAttribute__ctor_m15303_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement/SecurityAttribute::get_Name()
-extern const MethodInfo SecurityAttribute_get_Name_m15304_MethodInfo = 
+extern const MethodInfo SecurityAttribute_get_Name_m15308_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&SecurityAttribute_get_Name_m15304/* method */
+	, (methodPointerType)&SecurityAttribute_get_Name_m15308/* method */
 	, &SecurityAttribute_t2706_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6494,10 +6494,10 @@ extern const MethodInfo SecurityAttribute_get_Name_m15304_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement/SecurityAttribute::get_Value()
-extern const MethodInfo SecurityAttribute_get_Value_m15305_MethodInfo = 
+extern const MethodInfo SecurityAttribute_get_Value_m15309_MethodInfo = 
 {
 	"get_Value"/* name */
-	, (methodPointerType)&SecurityAttribute_get_Value_m15305/* method */
+	, (methodPointerType)&SecurityAttribute_get_Value_m15309/* method */
 	, &SecurityAttribute_t2706_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6517,28 +6517,28 @@ extern const MethodInfo SecurityAttribute_get_Value_m15305_MethodInfo =
 };
 static const MethodInfo* SecurityAttribute_t2706_MethodInfos[] =
 {
-	&SecurityAttribute__ctor_m15303_MethodInfo,
-	&SecurityAttribute_get_Name_m15304_MethodInfo,
-	&SecurityAttribute_get_Value_m15305_MethodInfo,
+	&SecurityAttribute__ctor_m15307_MethodInfo,
+	&SecurityAttribute_get_Name_m15308_MethodInfo,
+	&SecurityAttribute_get_Value_m15309_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityAttribute_get_Name_m15304_MethodInfo;
+extern const MethodInfo SecurityAttribute_get_Name_m15308_MethodInfo;
 static const PropertyInfo SecurityAttribute_t2706____Name_PropertyInfo = 
 {
 	&SecurityAttribute_t2706_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &SecurityAttribute_get_Name_m15304_MethodInfo/* get */
+	, &SecurityAttribute_get_Name_m15308_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityAttribute_get_Value_m15305_MethodInfo;
+extern const MethodInfo SecurityAttribute_get_Value_m15309_MethodInfo;
 static const PropertyInfo SecurityAttribute_t2706____Value_PropertyInfo = 
 {
 	&SecurityAttribute_t2706_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
-	, &SecurityAttribute_get_Value_m15305_MethodInfo/* get */
+	, &SecurityAttribute_get_Value_m15309_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6642,20 +6642,20 @@ TypeInfo SecurityAttribute_t2706_il2cpp_TypeInfo =
 // System.Security.SecurityElement
 #include "mscorlib_System_Security_SecurityElementMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement__ctor_m15306_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement__ctor_m15310_ParameterInfos[] = 
 {
 	{"tag", 0, 134223050, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::.ctor(System.String)
-extern const MethodInfo SecurityElement__ctor_m15306_MethodInfo = 
+extern const MethodInfo SecurityElement__ctor_m15310_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityElement__ctor_m15306/* method */
+	, (methodPointerType)&SecurityElement__ctor_m15310/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement__ctor_m15306_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement__ctor_m15310_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6671,21 +6671,21 @@ extern const MethodInfo SecurityElement__ctor_m15306_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement__ctor_m15307_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement__ctor_m15311_ParameterInfos[] = 
 {
 	{"tag", 0, 134223051, 0, &String_t_0_0_0},
 	{"text", 1, 134223052, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::.ctor(System.String,System.String)
-extern const MethodInfo SecurityElement__ctor_m15307_MethodInfo = 
+extern const MethodInfo SecurityElement__ctor_m15311_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityElement__ctor_m15307/* method */
+	, (methodPointerType)&SecurityElement__ctor_m15311/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement__ctor_m15307_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement__ctor_m15311_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6701,10 +6701,10 @@ extern const MethodInfo SecurityElement__ctor_m15307_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::.cctor()
-extern const MethodInfo SecurityElement__cctor_m15308_MethodInfo = 
+extern const MethodInfo SecurityElement__cctor_m15312_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&SecurityElement__cctor_m15308/* method */
+	, (methodPointerType)&SecurityElement__cctor_m15312/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -6724,10 +6724,10 @@ extern const MethodInfo SecurityElement__cctor_m15308_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ArrayList System.Security.SecurityElement::get_Children()
-extern const MethodInfo SecurityElement_get_Children_m15309_MethodInfo = 
+extern const MethodInfo SecurityElement_get_Children_m15313_MethodInfo = 
 {
 	"get_Children"/* name */
-	, (methodPointerType)&SecurityElement_get_Children_m15309/* method */
+	, (methodPointerType)&SecurityElement_get_Children_m15313/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &ArrayList_t1556_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6747,10 +6747,10 @@ extern const MethodInfo SecurityElement_get_Children_m15309_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement::get_Tag()
-extern const MethodInfo SecurityElement_get_Tag_m15310_MethodInfo = 
+extern const MethodInfo SecurityElement_get_Tag_m15314_MethodInfo = 
 {
 	"get_Tag"/* name */
-	, (methodPointerType)&SecurityElement_get_Tag_m15310/* method */
+	, (methodPointerType)&SecurityElement_get_Tag_m15314/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6769,20 +6769,20 @@ extern const MethodInfo SecurityElement_get_Tag_m15310_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_set_Text_m15311_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_set_Text_m15315_ParameterInfos[] = 
 {
 	{"value", 0, 134223053, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::set_Text(System.String)
-extern const MethodInfo SecurityElement_set_Text_m15311_MethodInfo = 
+extern const MethodInfo SecurityElement_set_Text_m15315_MethodInfo = 
 {
 	"set_Text"/* name */
-	, (methodPointerType)&SecurityElement_set_Text_m15311/* method */
+	, (methodPointerType)&SecurityElement_set_Text_m15315/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_set_Text_m15311_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_set_Text_m15315_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6798,21 +6798,21 @@ extern const MethodInfo SecurityElement_set_Text_m15311_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_AddAttribute_m15312_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_AddAttribute_m15316_ParameterInfos[] = 
 {
 	{"name", 0, 134223054, 0, &String_t_0_0_0},
 	{"value", 1, 134223055, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::AddAttribute(System.String,System.String)
-extern const MethodInfo SecurityElement_AddAttribute_m15312_MethodInfo = 
+extern const MethodInfo SecurityElement_AddAttribute_m15316_MethodInfo = 
 {
 	"AddAttribute"/* name */
-	, (methodPointerType)&SecurityElement_AddAttribute_m15312/* method */
+	, (methodPointerType)&SecurityElement_AddAttribute_m15316/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_AddAttribute_m15312_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_AddAttribute_m15316_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6827,20 +6827,20 @@ extern const MethodInfo SecurityElement_AddAttribute_m15312_MethodInfo =
 
 };
 extern const Il2CppType SecurityElement_t2394_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_AddChild_m15313_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_AddChild_m15317_ParameterInfos[] = 
 {
 	{"child", 0, 134223056, 0, &SecurityElement_t2394_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::AddChild(System.Security.SecurityElement)
-extern const MethodInfo SecurityElement_AddChild_m15313_MethodInfo = 
+extern const MethodInfo SecurityElement_AddChild_m15317_MethodInfo = 
 {
 	"AddChild"/* name */
-	, (methodPointerType)&SecurityElement_AddChild_m15313/* method */
+	, (methodPointerType)&SecurityElement_AddChild_m15317/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_AddChild_m15313_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_AddChild_m15317_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6855,20 +6855,20 @@ extern const MethodInfo SecurityElement_AddChild_m15313_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_Escape_m15314_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_Escape_m15318_ParameterInfos[] = 
 {
 	{"str", 0, 134223057, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement::Escape(System.String)
-extern const MethodInfo SecurityElement_Escape_m15314_MethodInfo = 
+extern const MethodInfo SecurityElement_Escape_m15318_MethodInfo = 
 {
 	"Escape"/* name */
-	, (methodPointerType)&SecurityElement_Escape_m15314/* method */
+	, (methodPointerType)&SecurityElement_Escape_m15318/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_Escape_m15314_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_Escape_m15318_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6883,20 +6883,20 @@ extern const MethodInfo SecurityElement_Escape_m15314_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_Unescape_m15315_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_Unescape_m15319_ParameterInfos[] = 
 {
 	{"str", 0, 134223058, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement::Unescape(System.String)
-extern const MethodInfo SecurityElement_Unescape_m15315_MethodInfo = 
+extern const MethodInfo SecurityElement_Unescape_m15319_MethodInfo = 
 {
 	"Unescape"/* name */
-	, (methodPointerType)&SecurityElement_Unescape_m15315/* method */
+	, (methodPointerType)&SecurityElement_Unescape_m15319/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_Unescape_m15315_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_Unescape_m15319_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -6911,20 +6911,20 @@ extern const MethodInfo SecurityElement_Unescape_m15315_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidAttributeName_m15316_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidAttributeName_m15320_ParameterInfos[] = 
 {
 	{"name", 0, 134223059, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityElement::IsValidAttributeName(System.String)
-extern const MethodInfo SecurityElement_IsValidAttributeName_m15316_MethodInfo = 
+extern const MethodInfo SecurityElement_IsValidAttributeName_m15320_MethodInfo = 
 {
 	"IsValidAttributeName"/* name */
-	, (methodPointerType)&SecurityElement_IsValidAttributeName_m15316/* method */
+	, (methodPointerType)&SecurityElement_IsValidAttributeName_m15320/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_IsValidAttributeName_m15316_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_IsValidAttributeName_m15320_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6939,20 +6939,20 @@ extern const MethodInfo SecurityElement_IsValidAttributeName_m15316_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidAttributeValue_m15317_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidAttributeValue_m15321_ParameterInfos[] = 
 {
 	{"value", 0, 134223060, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityElement::IsValidAttributeValue(System.String)
-extern const MethodInfo SecurityElement_IsValidAttributeValue_m15317_MethodInfo = 
+extern const MethodInfo SecurityElement_IsValidAttributeValue_m15321_MethodInfo = 
 {
 	"IsValidAttributeValue"/* name */
-	, (methodPointerType)&SecurityElement_IsValidAttributeValue_m15317/* method */
+	, (methodPointerType)&SecurityElement_IsValidAttributeValue_m15321/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_IsValidAttributeValue_m15317_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_IsValidAttributeValue_m15321_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6967,20 +6967,20 @@ extern const MethodInfo SecurityElement_IsValidAttributeValue_m15317_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidTag_m15318_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidTag_m15322_ParameterInfos[] = 
 {
 	{"tag", 0, 134223061, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityElement::IsValidTag(System.String)
-extern const MethodInfo SecurityElement_IsValidTag_m15318_MethodInfo = 
+extern const MethodInfo SecurityElement_IsValidTag_m15322_MethodInfo = 
 {
 	"IsValidTag"/* name */
-	, (methodPointerType)&SecurityElement_IsValidTag_m15318/* method */
+	, (methodPointerType)&SecurityElement_IsValidTag_m15322/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_IsValidTag_m15318_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_IsValidTag_m15322_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6995,20 +6995,20 @@ extern const MethodInfo SecurityElement_IsValidTag_m15318_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidText_m15319_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_IsValidText_m15323_ParameterInfos[] = 
 {
 	{"text", 0, 134223062, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityElement::IsValidText(System.String)
-extern const MethodInfo SecurityElement_IsValidText_m15319_MethodInfo = 
+extern const MethodInfo SecurityElement_IsValidText_m15323_MethodInfo = 
 {
 	"IsValidText"/* name */
-	, (methodPointerType)&SecurityElement_IsValidText_m15319/* method */
+	, (methodPointerType)&SecurityElement_IsValidText_m15323/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_IsValidText_m15319_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_IsValidText_m15323_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7023,20 +7023,20 @@ extern const MethodInfo SecurityElement_IsValidText_m15319_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_SearchForChildByTag_m15320_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_SearchForChildByTag_m15324_ParameterInfos[] = 
 {
 	{"tag", 0, 134223063, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityElement System.Security.SecurityElement::SearchForChildByTag(System.String)
-extern const MethodInfo SecurityElement_SearchForChildByTag_m15320_MethodInfo = 
+extern const MethodInfo SecurityElement_SearchForChildByTag_m15324_MethodInfo = 
 {
 	"SearchForChildByTag"/* name */
-	, (methodPointerType)&SecurityElement_SearchForChildByTag_m15320/* method */
+	, (methodPointerType)&SecurityElement_SearchForChildByTag_m15324/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityElement_t2394_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_SearchForChildByTag_m15320_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_SearchForChildByTag_m15324_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7052,10 +7052,10 @@ extern const MethodInfo SecurityElement_SearchForChildByTag_m15320_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityElement::ToString()
-extern const MethodInfo SecurityElement_ToString_m15321_MethodInfo = 
+extern const MethodInfo SecurityElement_ToString_m15325_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&SecurityElement_ToString_m15321/* method */
+	, (methodPointerType)&SecurityElement_ToString_m15325/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7076,21 +7076,21 @@ extern const MethodInfo SecurityElement_ToString_m15321_MethodInfo =
 extern const Il2CppType StringBuilder_t221_1_0_0;
 extern const Il2CppType StringBuilder_t221_1_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_ToXml_m15322_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_ToXml_m15326_ParameterInfos[] = 
 {
 	{"s", 0, 134223064, 0, &StringBuilder_t221_1_0_0},
 	{"level", 1, 134223065, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_StringBuilderU26_t1719_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityElement::ToXml(System.Text.StringBuilder&,System.Int32)
-extern const MethodInfo SecurityElement_ToXml_m15322_MethodInfo = 
+extern const MethodInfo SecurityElement_ToXml_m15326_MethodInfo = 
 {
 	"ToXml"/* name */
-	, (methodPointerType)&SecurityElement_ToXml_m15322/* method */
+	, (methodPointerType)&SecurityElement_ToXml_m15326/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_StringBuilderU26_t1719_Int32_t50/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_ToXml_m15322_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_ToXml_m15326_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -7105,20 +7105,20 @@ extern const MethodInfo SecurityElement_ToXml_m15322_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityElement_t2394_SecurityElement_GetAttribute_m15323_ParameterInfos[] = 
+static const ParameterInfo SecurityElement_t2394_SecurityElement_GetAttribute_m15327_ParameterInfos[] = 
 {
 	{"name", 0, 134223066, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityElement/SecurityAttribute System.Security.SecurityElement::GetAttribute(System.String)
-extern const MethodInfo SecurityElement_GetAttribute_m15323_MethodInfo = 
+extern const MethodInfo SecurityElement_GetAttribute_m15327_MethodInfo = 
 {
 	"GetAttribute"/* name */
-	, (methodPointerType)&SecurityElement_GetAttribute_m15323/* method */
+	, (methodPointerType)&SecurityElement_GetAttribute_m15327/* method */
 	, &SecurityElement_t2394_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityAttribute_t2706_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityElement_t2394_SecurityElement_GetAttribute_m15323_ParameterInfos/* parameters */
+	, SecurityElement_t2394_SecurityElement_GetAttribute_m15327_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -7134,55 +7134,55 @@ extern const MethodInfo SecurityElement_GetAttribute_m15323_MethodInfo =
 };
 static const MethodInfo* SecurityElement_t2394_MethodInfos[] =
 {
-	&SecurityElement__ctor_m15306_MethodInfo,
-	&SecurityElement__ctor_m15307_MethodInfo,
-	&SecurityElement__cctor_m15308_MethodInfo,
-	&SecurityElement_get_Children_m15309_MethodInfo,
-	&SecurityElement_get_Tag_m15310_MethodInfo,
-	&SecurityElement_set_Text_m15311_MethodInfo,
-	&SecurityElement_AddAttribute_m15312_MethodInfo,
-	&SecurityElement_AddChild_m15313_MethodInfo,
-	&SecurityElement_Escape_m15314_MethodInfo,
-	&SecurityElement_Unescape_m15315_MethodInfo,
-	&SecurityElement_IsValidAttributeName_m15316_MethodInfo,
-	&SecurityElement_IsValidAttributeValue_m15317_MethodInfo,
-	&SecurityElement_IsValidTag_m15318_MethodInfo,
-	&SecurityElement_IsValidText_m15319_MethodInfo,
-	&SecurityElement_SearchForChildByTag_m15320_MethodInfo,
-	&SecurityElement_ToString_m15321_MethodInfo,
-	&SecurityElement_ToXml_m15322_MethodInfo,
-	&SecurityElement_GetAttribute_m15323_MethodInfo,
+	&SecurityElement__ctor_m15310_MethodInfo,
+	&SecurityElement__ctor_m15311_MethodInfo,
+	&SecurityElement__cctor_m15312_MethodInfo,
+	&SecurityElement_get_Children_m15313_MethodInfo,
+	&SecurityElement_get_Tag_m15314_MethodInfo,
+	&SecurityElement_set_Text_m15315_MethodInfo,
+	&SecurityElement_AddAttribute_m15316_MethodInfo,
+	&SecurityElement_AddChild_m15317_MethodInfo,
+	&SecurityElement_Escape_m15318_MethodInfo,
+	&SecurityElement_Unescape_m15319_MethodInfo,
+	&SecurityElement_IsValidAttributeName_m15320_MethodInfo,
+	&SecurityElement_IsValidAttributeValue_m15321_MethodInfo,
+	&SecurityElement_IsValidTag_m15322_MethodInfo,
+	&SecurityElement_IsValidText_m15323_MethodInfo,
+	&SecurityElement_SearchForChildByTag_m15324_MethodInfo,
+	&SecurityElement_ToString_m15325_MethodInfo,
+	&SecurityElement_ToXml_m15326_MethodInfo,
+	&SecurityElement_GetAttribute_m15327_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityElement_get_Children_m15309_MethodInfo;
+extern const MethodInfo SecurityElement_get_Children_m15313_MethodInfo;
 static const PropertyInfo SecurityElement_t2394____Children_PropertyInfo = 
 {
 	&SecurityElement_t2394_il2cpp_TypeInfo/* parent */
 	, "Children"/* name */
-	, &SecurityElement_get_Children_m15309_MethodInfo/* get */
+	, &SecurityElement_get_Children_m15313_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityElement_get_Tag_m15310_MethodInfo;
+extern const MethodInfo SecurityElement_get_Tag_m15314_MethodInfo;
 static const PropertyInfo SecurityElement_t2394____Tag_PropertyInfo = 
 {
 	&SecurityElement_t2394_il2cpp_TypeInfo/* parent */
 	, "Tag"/* name */
-	, &SecurityElement_get_Tag_m15310_MethodInfo/* get */
+	, &SecurityElement_get_Tag_m15314_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityElement_set_Text_m15311_MethodInfo;
+extern const MethodInfo SecurityElement_set_Text_m15315_MethodInfo;
 static const PropertyInfo SecurityElement_t2394____Text_PropertyInfo = 
 {
 	&SecurityElement_t2394_il2cpp_TypeInfo/* parent */
 	, "Text"/* name */
 	, NULL/* get */
-	, &SecurityElement_set_Text_m15311_MethodInfo/* set */
+	, &SecurityElement_set_Text_m15315_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -7198,13 +7198,13 @@ static const Il2CppType* SecurityElement_t2394_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&SecurityAttribute_t2706_0_0_0,
 };
-extern const MethodInfo SecurityElement_ToString_m15321_MethodInfo;
+extern const MethodInfo SecurityElement_ToString_m15325_MethodInfo;
 static const Il2CppMethodReference SecurityElement_t2394_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&SecurityElement_ToString_m15321_MethodInfo,
+	&SecurityElement_ToString_m15325_MethodInfo,
 };
 static bool SecurityElement_t2394_VTableIsGenericMethod[] =
 {
@@ -7291,10 +7291,10 @@ extern TypeInfo SecurityException_t2191_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecurityExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityException::.ctor()
-extern const MethodInfo SecurityException__ctor_m15324_MethodInfo = 
+extern const MethodInfo SecurityException__ctor_m15328_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityException__ctor_m15324/* method */
+	, (methodPointerType)&SecurityException__ctor_m15328/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -7313,20 +7313,20 @@ extern const MethodInfo SecurityException__ctor_m15324_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SecurityException_t2191_SecurityException__ctor_m11547_ParameterInfos[] = 
+static const ParameterInfo SecurityException_t2191_SecurityException__ctor_m11551_ParameterInfos[] = 
 {
 	{"message", 0, 134223069, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityException::.ctor(System.String)
-extern const MethodInfo SecurityException__ctor_m11547_MethodInfo = 
+extern const MethodInfo SecurityException__ctor_m11551_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityException__ctor_m11547/* method */
+	, (methodPointerType)&SecurityException__ctor_m11551/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityException_t2191_SecurityException__ctor_m11547_ParameterInfos/* parameters */
+	, SecurityException_t2191_SecurityException__ctor_m11551_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7342,21 +7342,21 @@ extern const MethodInfo SecurityException__ctor_m11547_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo SecurityException_t2191_SecurityException__ctor_m15325_ParameterInfos[] = 
+static const ParameterInfo SecurityException_t2191_SecurityException__ctor_m15329_ParameterInfos[] = 
 {
 	{"info", 0, 134223070, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223071, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo SecurityException__ctor_m15325_MethodInfo = 
+extern const MethodInfo SecurityException__ctor_m15329_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityException__ctor_m15325/* method */
+	, (methodPointerType)&SecurityException__ctor_m15329/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, SecurityException_t2191_SecurityException__ctor_m15325_ParameterInfos/* parameters */
+	, SecurityException_t2191_SecurityException__ctor_m15329_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -7372,10 +7372,10 @@ extern const MethodInfo SecurityException__ctor_m15325_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Security.SecurityException::get_Demanded()
-extern const MethodInfo SecurityException_get_Demanded_m15326_MethodInfo = 
+extern const MethodInfo SecurityException_get_Demanded_m15330_MethodInfo = 
 {
 	"get_Demanded"/* name */
-	, (methodPointerType)&SecurityException_get_Demanded_m15326/* method */
+	, (methodPointerType)&SecurityException_get_Demanded_m15330/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7395,10 +7395,10 @@ extern const MethodInfo SecurityException_get_Demanded_m15326_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.IPermission System.Security.SecurityException::get_FirstPermissionThatFailed()
-extern const MethodInfo SecurityException_get_FirstPermissionThatFailed_m15327_MethodInfo = 
+extern const MethodInfo SecurityException_get_FirstPermissionThatFailed_m15331_MethodInfo = 
 {
 	"get_FirstPermissionThatFailed"/* name */
-	, (methodPointerType)&SecurityException_get_FirstPermissionThatFailed_m15327/* method */
+	, (methodPointerType)&SecurityException_get_FirstPermissionThatFailed_m15331/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &IPermission_t2707_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7418,10 +7418,10 @@ extern const MethodInfo SecurityException_get_FirstPermissionThatFailed_m15327_M
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityException::get_PermissionState()
-extern const MethodInfo SecurityException_get_PermissionState_m15328_MethodInfo = 
+extern const MethodInfo SecurityException_get_PermissionState_m15332_MethodInfo = 
 {
 	"get_PermissionState"/* name */
-	, (methodPointerType)&SecurityException_get_PermissionState_m15328/* method */
+	, (methodPointerType)&SecurityException_get_PermissionState_m15332/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7441,10 +7441,10 @@ extern const MethodInfo SecurityException_get_PermissionState_m15328_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Security.SecurityException::get_PermissionType()
-extern const MethodInfo SecurityException_get_PermissionType_m15329_MethodInfo = 
+extern const MethodInfo SecurityException_get_PermissionType_m15333_MethodInfo = 
 {
 	"get_PermissionType"/* name */
-	, (methodPointerType)&SecurityException_get_PermissionType_m15329/* method */
+	, (methodPointerType)&SecurityException_get_PermissionType_m15333/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7464,10 +7464,10 @@ extern const MethodInfo SecurityException_get_PermissionType_m15329_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityException::get_GrantedSet()
-extern const MethodInfo SecurityException_get_GrantedSet_m15330_MethodInfo = 
+extern const MethodInfo SecurityException_get_GrantedSet_m15334_MethodInfo = 
 {
 	"get_GrantedSet"/* name */
-	, (methodPointerType)&SecurityException_get_GrantedSet_m15330/* method */
+	, (methodPointerType)&SecurityException_get_GrantedSet_m15334/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7487,10 +7487,10 @@ extern const MethodInfo SecurityException_get_GrantedSet_m15330_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityException::get_RefusedSet()
-extern const MethodInfo SecurityException_get_RefusedSet_m15331_MethodInfo = 
+extern const MethodInfo SecurityException_get_RefusedSet_m15335_MethodInfo = 
 {
 	"get_RefusedSet"/* name */
-	, (methodPointerType)&SecurityException_get_RefusedSet_m15331/* method */
+	, (methodPointerType)&SecurityException_get_RefusedSet_m15335/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7510,21 +7510,21 @@ extern const MethodInfo SecurityException_get_RefusedSet_m15331_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo SecurityException_t2191_SecurityException_GetObjectData_m15332_ParameterInfos[] = 
+static const ParameterInfo SecurityException_t2191_SecurityException_GetObjectData_m15336_ParameterInfos[] = 
 {
 	{"info", 0, 134223072, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223073, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo SecurityException_GetObjectData_m15332_MethodInfo = 
+extern const MethodInfo SecurityException_GetObjectData_m15336_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&SecurityException_GetObjectData_m15332/* method */
+	, (methodPointerType)&SecurityException_GetObjectData_m15336/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, SecurityException_t2191_SecurityException_GetObjectData_m15332_ParameterInfos/* parameters */
+	, SecurityException_t2191_SecurityException_GetObjectData_m15336_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -7540,10 +7540,10 @@ extern const MethodInfo SecurityException_GetObjectData_m15332_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityException::ToString()
-extern const MethodInfo SecurityException_ToString_m15333_MethodInfo = 
+extern const MethodInfo SecurityException_ToString_m15337_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&SecurityException_ToString_m15333/* method */
+	, (methodPointerType)&SecurityException_ToString_m15337/* method */
 	, &SecurityException_t2191_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7563,80 +7563,80 @@ extern const MethodInfo SecurityException_ToString_m15333_MethodInfo =
 };
 static const MethodInfo* SecurityException_t2191_MethodInfos[] =
 {
-	&SecurityException__ctor_m15324_MethodInfo,
-	&SecurityException__ctor_m11547_MethodInfo,
-	&SecurityException__ctor_m15325_MethodInfo,
-	&SecurityException_get_Demanded_m15326_MethodInfo,
-	&SecurityException_get_FirstPermissionThatFailed_m15327_MethodInfo,
-	&SecurityException_get_PermissionState_m15328_MethodInfo,
-	&SecurityException_get_PermissionType_m15329_MethodInfo,
-	&SecurityException_get_GrantedSet_m15330_MethodInfo,
-	&SecurityException_get_RefusedSet_m15331_MethodInfo,
-	&SecurityException_GetObjectData_m15332_MethodInfo,
-	&SecurityException_ToString_m15333_MethodInfo,
+	&SecurityException__ctor_m15328_MethodInfo,
+	&SecurityException__ctor_m11551_MethodInfo,
+	&SecurityException__ctor_m15329_MethodInfo,
+	&SecurityException_get_Demanded_m15330_MethodInfo,
+	&SecurityException_get_FirstPermissionThatFailed_m15331_MethodInfo,
+	&SecurityException_get_PermissionState_m15332_MethodInfo,
+	&SecurityException_get_PermissionType_m15333_MethodInfo,
+	&SecurityException_get_GrantedSet_m15334_MethodInfo,
+	&SecurityException_get_RefusedSet_m15335_MethodInfo,
+	&SecurityException_GetObjectData_m15336_MethodInfo,
+	&SecurityException_ToString_m15337_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityException_get_Demanded_m15326_MethodInfo;
+extern const MethodInfo SecurityException_get_Demanded_m15330_MethodInfo;
 static const PropertyInfo SecurityException_t2191____Demanded_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "Demanded"/* name */
-	, &SecurityException_get_Demanded_m15326_MethodInfo/* get */
+	, &SecurityException_get_Demanded_m15330_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 699/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityException_get_FirstPermissionThatFailed_m15327_MethodInfo;
+extern const MethodInfo SecurityException_get_FirstPermissionThatFailed_m15331_MethodInfo;
 static const PropertyInfo SecurityException_t2191____FirstPermissionThatFailed_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "FirstPermissionThatFailed"/* name */
-	, &SecurityException_get_FirstPermissionThatFailed_m15327_MethodInfo/* get */
+	, &SecurityException_get_FirstPermissionThatFailed_m15331_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityException_get_PermissionState_m15328_MethodInfo;
+extern const MethodInfo SecurityException_get_PermissionState_m15332_MethodInfo;
 static const PropertyInfo SecurityException_t2191____PermissionState_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "PermissionState"/* name */
-	, &SecurityException_get_PermissionState_m15328_MethodInfo/* get */
+	, &SecurityException_get_PermissionState_m15332_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityException_get_PermissionType_m15329_MethodInfo;
+extern const MethodInfo SecurityException_get_PermissionType_m15333_MethodInfo;
 static const PropertyInfo SecurityException_t2191____PermissionType_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "PermissionType"/* name */
-	, &SecurityException_get_PermissionType_m15329_MethodInfo/* get */
+	, &SecurityException_get_PermissionType_m15333_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityException_get_GrantedSet_m15330_MethodInfo;
+extern const MethodInfo SecurityException_get_GrantedSet_m15334_MethodInfo;
 static const PropertyInfo SecurityException_t2191____GrantedSet_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "GrantedSet"/* name */
-	, &SecurityException_get_GrantedSet_m15330_MethodInfo/* get */
+	, &SecurityException_get_GrantedSet_m15334_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityException_get_RefusedSet_m15331_MethodInfo;
+extern const MethodInfo SecurityException_get_RefusedSet_m15335_MethodInfo;
 static const PropertyInfo SecurityException_t2191____RefusedSet_PropertyInfo = 
 {
 	&SecurityException_t2191_il2cpp_TypeInfo/* parent */
 	, "RefusedSet"/* name */
-	, &SecurityException_get_RefusedSet_m15331_MethodInfo/* get */
+	, &SecurityException_get_RefusedSet_m15335_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -7652,26 +7652,26 @@ static const PropertyInfo* SecurityException_t2191_PropertyInfos[] =
 	&SecurityException_t2191____RefusedSet_PropertyInfo,
 	NULL
 };
-extern const MethodInfo SecurityException_ToString_m15333_MethodInfo;
-extern const MethodInfo SecurityException_GetObjectData_m15332_MethodInfo;
-extern const MethodInfo Exception_get_InnerException_m7391_MethodInfo;
-extern const MethodInfo Exception_get_Message_m7392_MethodInfo;
-extern const MethodInfo Exception_get_Source_m7393_MethodInfo;
-extern const MethodInfo Exception_get_StackTrace_m7394_MethodInfo;
-extern const MethodInfo Exception_GetType_m7395_MethodInfo;
+extern const MethodInfo SecurityException_ToString_m15337_MethodInfo;
+extern const MethodInfo SecurityException_GetObjectData_m15336_MethodInfo;
+extern const MethodInfo Exception_get_InnerException_m7395_MethodInfo;
+extern const MethodInfo Exception_get_Message_m7396_MethodInfo;
+extern const MethodInfo Exception_get_Source_m7397_MethodInfo;
+extern const MethodInfo Exception_get_StackTrace_m7398_MethodInfo;
+extern const MethodInfo Exception_GetType_m7399_MethodInfo;
 static const Il2CppMethodReference SecurityException_t2191_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&SecurityException_ToString_m15333_MethodInfo,
-	&SecurityException_GetObjectData_m15332_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&SecurityException_GetObjectData_m15332_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&SecurityException_ToString_m15337_MethodInfo,
+	&SecurityException_GetObjectData_m15336_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&SecurityException_GetObjectData_m15336_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool SecurityException_t2191_VTableIsGenericMethod[] =
 {
@@ -7775,15 +7775,15 @@ static const MethodInfo* RuntimeDeclSecurityEntry_t2708_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m5713_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m5714_MethodInfo;
-extern const MethodInfo ValueType_ToString_m5717_MethodInfo;
+extern const MethodInfo ValueType_Equals_m5717_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m5718_MethodInfo;
+extern const MethodInfo ValueType_ToString_m5721_MethodInfo;
 static const Il2CppMethodReference RuntimeDeclSecurityEntry_t2708_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool RuntimeDeclSecurityEntry_t2708_VTableIsGenericMethod[] =
 {
@@ -7965,20 +7965,20 @@ extern TypeInfo SecurityFrame_t2711_il2cpp_TypeInfo;
 // System.Security.SecurityFrame
 #include "mscorlib_System_Security_SecurityFrameMethodDeclarations.h"
 extern const Il2CppType RuntimeSecurityFrame_t2710_0_0_0;
-static const ParameterInfo SecurityFrame_t2711_SecurityFrame__ctor_m15334_ParameterInfos[] = 
+static const ParameterInfo SecurityFrame_t2711_SecurityFrame__ctor_m15338_ParameterInfos[] = 
 {
 	{"frame", 0, 134223074, 0, &RuntimeSecurityFrame_t2710_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityFrame::.ctor(System.Security.RuntimeSecurityFrame)
-extern const MethodInfo SecurityFrame__ctor_m15334_MethodInfo = 
+extern const MethodInfo SecurityFrame__ctor_m15338_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecurityFrame__ctor_m15334/* method */
+	, (methodPointerType)&SecurityFrame__ctor_m15338/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityFrame_t2711_SecurityFrame__ctor_m15334_ParameterInfos/* parameters */
+	, SecurityFrame_t2711_SecurityFrame__ctor_m15338_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -7993,20 +7993,20 @@ extern const MethodInfo SecurityFrame__ctor_m15334_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SecurityFrame_t2711_SecurityFrame__GetSecurityStack_m15335_ParameterInfos[] = 
+static const ParameterInfo SecurityFrame_t2711_SecurityFrame__GetSecurityStack_m15339_ParameterInfos[] = 
 {
 	{"skip", 0, 134223075, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Array System.Security.SecurityFrame::_GetSecurityStack(System.Int32)
-extern const MethodInfo SecurityFrame__GetSecurityStack_m15335_MethodInfo = 
+extern const MethodInfo SecurityFrame__GetSecurityStack_m15339_MethodInfo = 
 {
 	"_GetSecurityStack"/* name */
-	, (methodPointerType)&SecurityFrame__GetSecurityStack_m15335/* method */
+	, (methodPointerType)&SecurityFrame__GetSecurityStack_m15339/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &Array_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, SecurityFrame_t2711_SecurityFrame__GetSecurityStack_m15335_ParameterInfos/* parameters */
+	, SecurityFrame_t2711_SecurityFrame__GetSecurityStack_m15339_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -8021,20 +8021,20 @@ extern const MethodInfo SecurityFrame__GetSecurityStack_m15335_MethodInfo =
 
 };
 extern const Il2CppType RuntimeSecurityFrame_t2710_0_0_0;
-static const ParameterInfo SecurityFrame_t2711_SecurityFrame_InitFromRuntimeFrame_m15336_ParameterInfos[] = 
+static const ParameterInfo SecurityFrame_t2711_SecurityFrame_InitFromRuntimeFrame_m15340_ParameterInfos[] = 
 {
 	{"frame", 0, 134223076, 0, &RuntimeSecurityFrame_t2710_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityFrame::InitFromRuntimeFrame(System.Security.RuntimeSecurityFrame)
-extern const MethodInfo SecurityFrame_InitFromRuntimeFrame_m15336_MethodInfo = 
+extern const MethodInfo SecurityFrame_InitFromRuntimeFrame_m15340_MethodInfo = 
 {
 	"InitFromRuntimeFrame"/* name */
-	, (methodPointerType)&SecurityFrame_InitFromRuntimeFrame_m15336/* method */
+	, (methodPointerType)&SecurityFrame_InitFromRuntimeFrame_m15340/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, SecurityFrame_t2711_SecurityFrame_InitFromRuntimeFrame_m15336_ParameterInfos/* parameters */
+	, SecurityFrame_t2711_SecurityFrame_InitFromRuntimeFrame_m15340_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8051,10 +8051,10 @@ extern const MethodInfo SecurityFrame_InitFromRuntimeFrame_m15336_MethodInfo =
 extern const Il2CppType Assembly_t668_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.Security.SecurityFrame::get_Assembly()
-extern const MethodInfo SecurityFrame_get_Assembly_m15337_MethodInfo = 
+extern const MethodInfo SecurityFrame_get_Assembly_m15341_MethodInfo = 
 {
 	"get_Assembly"/* name */
-	, (methodPointerType)&SecurityFrame_get_Assembly_m15337/* method */
+	, (methodPointerType)&SecurityFrame_get_Assembly_m15341/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8075,10 +8075,10 @@ extern const MethodInfo SecurityFrame_get_Assembly_m15337_MethodInfo =
 extern const Il2CppType AppDomain_t2709_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AppDomain System.Security.SecurityFrame::get_Domain()
-extern const MethodInfo SecurityFrame_get_Domain_m15338_MethodInfo = 
+extern const MethodInfo SecurityFrame_get_Domain_m15342_MethodInfo = 
 {
 	"get_Domain"/* name */
-	, (methodPointerType)&SecurityFrame_get_Domain_m15338/* method */
+	, (methodPointerType)&SecurityFrame_get_Domain_m15342/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &AppDomain_t2709_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8098,10 +8098,10 @@ extern const MethodInfo SecurityFrame_get_Domain_m15338_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Security.SecurityFrame::ToString()
-extern const MethodInfo SecurityFrame_ToString_m15339_MethodInfo = 
+extern const MethodInfo SecurityFrame_ToString_m15343_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&SecurityFrame_ToString_m15339/* method */
+	, (methodPointerType)&SecurityFrame_ToString_m15343/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8120,20 +8120,20 @@ extern const MethodInfo SecurityFrame_ToString_m15339_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SecurityFrame_t2711_SecurityFrame_GetStack_m15340_ParameterInfos[] = 
+static const ParameterInfo SecurityFrame_t2711_SecurityFrame_GetStack_m15344_ParameterInfos[] = 
 {
 	{"skipFrames", 0, 134223077, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ArrayList System.Security.SecurityFrame::GetStack(System.Int32)
-extern const MethodInfo SecurityFrame_GetStack_m15340_MethodInfo = 
+extern const MethodInfo SecurityFrame_GetStack_m15344_MethodInfo = 
 {
 	"GetStack"/* name */
-	, (methodPointerType)&SecurityFrame_GetStack_m15340/* method */
+	, (methodPointerType)&SecurityFrame_GetStack_m15344/* method */
 	, &SecurityFrame_t2711_il2cpp_TypeInfo/* declaring_type */
 	, &ArrayList_t1556_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, SecurityFrame_t2711_SecurityFrame_GetStack_m15340_ParameterInfos/* parameters */
+	, SecurityFrame_t2711_SecurityFrame_GetStack_m15344_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8149,32 +8149,32 @@ extern const MethodInfo SecurityFrame_GetStack_m15340_MethodInfo =
 };
 static const MethodInfo* SecurityFrame_t2711_MethodInfos[] =
 {
-	&SecurityFrame__ctor_m15334_MethodInfo,
-	&SecurityFrame__GetSecurityStack_m15335_MethodInfo,
-	&SecurityFrame_InitFromRuntimeFrame_m15336_MethodInfo,
-	&SecurityFrame_get_Assembly_m15337_MethodInfo,
-	&SecurityFrame_get_Domain_m15338_MethodInfo,
-	&SecurityFrame_ToString_m15339_MethodInfo,
-	&SecurityFrame_GetStack_m15340_MethodInfo,
+	&SecurityFrame__ctor_m15338_MethodInfo,
+	&SecurityFrame__GetSecurityStack_m15339_MethodInfo,
+	&SecurityFrame_InitFromRuntimeFrame_m15340_MethodInfo,
+	&SecurityFrame_get_Assembly_m15341_MethodInfo,
+	&SecurityFrame_get_Domain_m15342_MethodInfo,
+	&SecurityFrame_ToString_m15343_MethodInfo,
+	&SecurityFrame_GetStack_m15344_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityFrame_get_Assembly_m15337_MethodInfo;
+extern const MethodInfo SecurityFrame_get_Assembly_m15341_MethodInfo;
 static const PropertyInfo SecurityFrame_t2711____Assembly_PropertyInfo = 
 {
 	&SecurityFrame_t2711_il2cpp_TypeInfo/* parent */
 	, "Assembly"/* name */
-	, &SecurityFrame_get_Assembly_m15337_MethodInfo/* get */
+	, &SecurityFrame_get_Assembly_m15341_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SecurityFrame_get_Domain_m15338_MethodInfo;
+extern const MethodInfo SecurityFrame_get_Domain_m15342_MethodInfo;
 static const PropertyInfo SecurityFrame_t2711____Domain_PropertyInfo = 
 {
 	&SecurityFrame_t2711_il2cpp_TypeInfo/* parent */
 	, "Domain"/* name */
-	, &SecurityFrame_get_Domain_m15338_MethodInfo/* get */
+	, &SecurityFrame_get_Domain_m15342_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -8186,13 +8186,13 @@ static const PropertyInfo* SecurityFrame_t2711_PropertyInfos[] =
 	&SecurityFrame_t2711____Domain_PropertyInfo,
 	NULL
 };
-extern const MethodInfo SecurityFrame_ToString_m15339_MethodInfo;
+extern const MethodInfo SecurityFrame_ToString_m15343_MethodInfo;
 static const Il2CppMethodReference SecurityFrame_t2711_VTable[] =
 {
-	&ValueType_Equals_m5713_MethodInfo,
+	&ValueType_Equals_m5717_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ValueType_GetHashCode_m5714_MethodInfo,
-	&SecurityFrame_ToString_m15339_MethodInfo,
+	&ValueType_GetHashCode_m5718_MethodInfo,
+	&SecurityFrame_ToString_m15343_MethodInfo,
 };
 static bool SecurityFrame_t2711_VTableIsGenericMethod[] =
 {
@@ -8279,10 +8279,10 @@ extern TypeInfo SecurityManager_t2712_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecurityManagerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecurityManager::.cctor()
-extern const MethodInfo SecurityManager__cctor_m15341_MethodInfo = 
+extern const MethodInfo SecurityManager__cctor_m15345_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&SecurityManager__cctor_m15341/* method */
+	, (methodPointerType)&SecurityManager__cctor_m15345/* method */
 	, &SecurityManager_t2712_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8302,10 +8302,10 @@ extern const MethodInfo SecurityManager__cctor_m15341_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Security.SecurityManager::get_SecurityEnabled()
-extern const MethodInfo SecurityManager_get_SecurityEnabled_m15342_MethodInfo = 
+extern const MethodInfo SecurityManager_get_SecurityEnabled_m15346_MethodInfo = 
 {
 	"get_SecurityEnabled"/* name */
-	, (methodPointerType)&SecurityManager_get_SecurityEnabled_m15342/* method */
+	, (methodPointerType)&SecurityManager_get_SecurityEnabled_m15346/* method */
 	, &SecurityManager_t2712_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -8325,21 +8325,21 @@ extern const MethodInfo SecurityManager_get_SecurityEnabled_m15342_MethodInfo =
 };
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo SecurityManager_t2712_SecurityManager_Decode_m15343_ParameterInfos[] = 
+static const ParameterInfo SecurityManager_t2712_SecurityManager_Decode_m15347_ParameterInfos[] = 
 {
 	{"permissions", 0, 134223078, 0, &IntPtr_t_0_0_0},
 	{"length", 1, 134223079, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_IntPtr_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Security.PermissionSet System.Security.SecurityManager::Decode(System.IntPtr,System.Int32)
-extern const MethodInfo SecurityManager_Decode_m15343_MethodInfo = 
+extern const MethodInfo SecurityManager_Decode_m15347_MethodInfo = 
 {
 	"Decode"/* name */
-	, (methodPointerType)&SecurityManager_Decode_m15343/* method */
+	, (methodPointerType)&SecurityManager_Decode_m15347/* method */
 	, &SecurityManager_t2712_il2cpp_TypeInfo/* declaring_type */
 	, &PermissionSet_t2497_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_IntPtr_t_Int32_t50/* invoker_method */
-	, SecurityManager_t2712_SecurityManager_Decode_m15343_ParameterInfos/* parameters */
+	, SecurityManager_t2712_SecurityManager_Decode_m15347_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8354,20 +8354,20 @@ extern const MethodInfo SecurityManager_Decode_m15343_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo SecurityManager_t2712_SecurityManager_Decode_m15344_ParameterInfos[] = 
+static const ParameterInfo SecurityManager_t2712_SecurityManager_Decode_m15348_ParameterInfos[] = 
 {
 	{"encodedPermissions", 0, 134223080, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.PermissionSet System.Security.SecurityManager::Decode(System.Byte[])
-extern const MethodInfo SecurityManager_Decode_m15344_MethodInfo = 
+extern const MethodInfo SecurityManager_Decode_m15348_MethodInfo = 
 {
 	"Decode"/* name */
-	, (methodPointerType)&SecurityManager_Decode_m15344/* method */
+	, (methodPointerType)&SecurityManager_Decode_m15348/* method */
 	, &SecurityManager_t2712_il2cpp_TypeInfo/* declaring_type */
 	, &PermissionSet_t2497_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SecurityManager_t2712_SecurityManager_Decode_m15344_ParameterInfos/* parameters */
+	, SecurityManager_t2712_SecurityManager_Decode_m15348_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8383,18 +8383,18 @@ extern const MethodInfo SecurityManager_Decode_m15344_MethodInfo =
 };
 static const MethodInfo* SecurityManager_t2712_MethodInfos[] =
 {
-	&SecurityManager__cctor_m15341_MethodInfo,
-	&SecurityManager_get_SecurityEnabled_m15342_MethodInfo,
-	&SecurityManager_Decode_m15343_MethodInfo,
-	&SecurityManager_Decode_m15344_MethodInfo,
+	&SecurityManager__cctor_m15345_MethodInfo,
+	&SecurityManager_get_SecurityEnabled_m15346_MethodInfo,
+	&SecurityManager_Decode_m15347_MethodInfo,
+	&SecurityManager_Decode_m15348_MethodInfo,
 	NULL
 };
-extern const MethodInfo SecurityManager_get_SecurityEnabled_m15342_MethodInfo;
+extern const MethodInfo SecurityManager_get_SecurityEnabled_m15346_MethodInfo;
 static const PropertyInfo SecurityManager_t2712____SecurityEnabled_PropertyInfo = 
 {
 	&SecurityManager_t2712_il2cpp_TypeInfo/* parent */
 	, "SecurityEnabled"/* name */
-	, &SecurityManager_get_SecurityEnabled_m15342_MethodInfo/* get */
+	, &SecurityManager_get_SecurityEnabled_m15346_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 701/* custom_attributes_cache */
@@ -8498,10 +8498,10 @@ extern TypeInfo SecuritySafeCriticalAttribute_t1353_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SecuritySafeCriticalAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SecuritySafeCriticalAttribute::.ctor()
-extern const MethodInfo SecuritySafeCriticalAttribute__ctor_m7260_MethodInfo = 
+extern const MethodInfo SecuritySafeCriticalAttribute__ctor_m7264_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SecuritySafeCriticalAttribute__ctor_m7260/* method */
+	, (methodPointerType)&SecuritySafeCriticalAttribute__ctor_m7264/* method */
 	, &SecuritySafeCriticalAttribute_t1353_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8521,14 +8521,14 @@ extern const MethodInfo SecuritySafeCriticalAttribute__ctor_m7260_MethodInfo =
 };
 static const MethodInfo* SecuritySafeCriticalAttribute_t1353_MethodInfos[] =
 {
-	&SecuritySafeCriticalAttribute__ctor_m7260_MethodInfo,
+	&SecuritySafeCriticalAttribute__ctor_m7264_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SecuritySafeCriticalAttribute_t1353_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool SecuritySafeCriticalAttribute_t1353_VTableIsGenericMethod[] =
@@ -8621,10 +8621,10 @@ extern TypeInfo SuppressUnmanagedCodeSecurityAttribute_t2211_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_SuppressUnmanagedCodeSecurityAttribMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.SuppressUnmanagedCodeSecurityAttribute::.ctor()
-extern const MethodInfo SuppressUnmanagedCodeSecurityAttribute__ctor_m11763_MethodInfo = 
+extern const MethodInfo SuppressUnmanagedCodeSecurityAttribute__ctor_m11767_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SuppressUnmanagedCodeSecurityAttribute__ctor_m11763/* method */
+	, (methodPointerType)&SuppressUnmanagedCodeSecurityAttribute__ctor_m11767/* method */
 	, &SuppressUnmanagedCodeSecurityAttribute_t2211_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8644,14 +8644,14 @@ extern const MethodInfo SuppressUnmanagedCodeSecurityAttribute__ctor_m11763_Meth
 };
 static const MethodInfo* SuppressUnmanagedCodeSecurityAttribute_t2211_MethodInfos[] =
 {
-	&SuppressUnmanagedCodeSecurityAttribute__ctor_m11763_MethodInfo,
+	&SuppressUnmanagedCodeSecurityAttribute__ctor_m11767_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SuppressUnmanagedCodeSecurityAttribute_t2211_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool SuppressUnmanagedCodeSecurityAttribute_t2211_VTableIsGenericMethod[] =
@@ -8744,10 +8744,10 @@ extern TypeInfo UnverifiableCodeAttribute_t2713_il2cpp_TypeInfo;
 #include "mscorlib_System_Security_UnverifiableCodeAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Security.UnverifiableCodeAttribute::.ctor()
-extern const MethodInfo UnverifiableCodeAttribute__ctor_m15345_MethodInfo = 
+extern const MethodInfo UnverifiableCodeAttribute__ctor_m15349_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnverifiableCodeAttribute__ctor_m15345/* method */
+	, (methodPointerType)&UnverifiableCodeAttribute__ctor_m15349/* method */
 	, &UnverifiableCodeAttribute_t2713_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8767,14 +8767,14 @@ extern const MethodInfo UnverifiableCodeAttribute__ctor_m15345_MethodInfo =
 };
 static const MethodInfo* UnverifiableCodeAttribute_t2713_MethodInfos[] =
 {
-	&UnverifiableCodeAttribute__ctor_m15345_MethodInfo,
+	&UnverifiableCodeAttribute__ctor_m15349_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference UnverifiableCodeAttribute_t2713_VTable[] =
 {
-	&Attribute_Equals_m3944_MethodInfo,
+	&Attribute_Equals_m3948_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Attribute_GetHashCode_m3945_MethodInfo,
+	&Attribute_GetHashCode_m3949_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool UnverifiableCodeAttribute_t2713_VTableIsGenericMethod[] =
@@ -8867,10 +8867,10 @@ extern TypeInfo ASCIIEncoding_t655_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_ASCIIEncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.ASCIIEncoding::.ctor()
-extern const MethodInfo ASCIIEncoding__ctor_m3347_MethodInfo = 
+extern const MethodInfo ASCIIEncoding__ctor_m3351_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ASCIIEncoding__ctor_m3347/* method */
+	, (methodPointerType)&ASCIIEncoding__ctor_m3351/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -8892,7 +8892,7 @@ extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15346_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15350_ParameterInfos[] = 
 {
 	{"chars", 0, 134223081, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223082, 0, &Int32_t50_0_0_0},
@@ -8900,14 +8900,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15346_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15346_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15350_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15346/* method */
+	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15350/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15346_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15350_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -8922,20 +8922,20 @@ extern const MethodInfo ASCIIEncoding_GetByteCount_m15346_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15347_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15351_ParameterInfos[] = 
 {
 	{"chars", 0, 134223084, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetByteCount(System.String)
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15347_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15351_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15347/* method */
+	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15351/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15347_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15351_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -8954,7 +8954,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15348_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15352_ParameterInfos[] = 
 {
 	{"chars", 0, 134223085, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223086, 0, &Int32_t50_0_0_0},
@@ -8964,14 +8964,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15348_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo ASCIIEncoding_GetBytes_m15348_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetBytes_m15352_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetBytes_m15348/* method */
+	, (methodPointerType)&ASCIIEncoding_GetBytes_m15352/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15348_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15352_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -8994,7 +8994,7 @@ extern const Il2CppType EncoderFallbackBuffer_t2724_1_0_0;
 extern const Il2CppType EncoderFallbackBuffer_t2724_1_0_0;
 extern const Il2CppType CharU5BU5D_t608_1_0_0;
 extern const Il2CppType CharU5BU5D_t608_1_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15349_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15353_ParameterInfos[] = 
 {
 	{"chars", 0, 134223090, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223091, 0, &Int32_t50_0_0_0},
@@ -9006,14 +9006,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15349_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Text.EncoderFallbackBuffer&,System.Char[]&)
-extern const MethodInfo ASCIIEncoding_GetBytes_m15349_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetBytes_m15353_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetBytes_m15349/* method */
+	, (methodPointerType)&ASCIIEncoding_GetBytes_m15353/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15349_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15353_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9032,7 +9032,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15350_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15354_ParameterInfos[] = 
 {
 	{"chars", 0, 134223097, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223098, 0, &Int32_t50_0_0_0},
@@ -9042,14 +9042,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15350_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo ASCIIEncoding_GetBytes_m15350_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetBytes_m15354_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetBytes_m15350/* method */
+	, (methodPointerType)&ASCIIEncoding_GetBytes_m15354/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15350_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15354_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9070,7 +9070,7 @@ extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType EncoderFallbackBuffer_t2724_1_0_0;
 extern const Il2CppType CharU5BU5D_t608_1_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15351_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15355_ParameterInfos[] = 
 {
 	{"chars", 0, 134223102, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223103, 0, &Int32_t50_0_0_0},
@@ -9082,14 +9082,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15351_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32,System.Text.EncoderFallbackBuffer&,System.Char[]&)
-extern const MethodInfo ASCIIEncoding_GetBytes_m15351_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetBytes_m15355_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetBytes_m15351/* method */
+	, (methodPointerType)&ASCIIEncoding_GetBytes_m15355/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15351_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15355_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9106,7 +9106,7 @@ extern const MethodInfo ASCIIEncoding_GetBytes_m15351_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetCharCount_m15352_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetCharCount_m15356_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223109, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223110, 0, &Int32_t50_0_0_0},
@@ -9114,14 +9114,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetCharCount_m15352_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo ASCIIEncoding_GetCharCount_m15352_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetCharCount_m15356_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetCharCount_m15352/* method */
+	, (methodPointerType)&ASCIIEncoding_GetCharCount_m15356/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetCharCount_m15352_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetCharCount_m15356_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9140,7 +9140,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15353_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15357_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223112, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223113, 0, &Int32_t50_0_0_0},
@@ -9150,14 +9150,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15353_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo ASCIIEncoding_GetChars_m15353_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetChars_m15357_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetChars_m15353/* method */
+	, (methodPointerType)&ASCIIEncoding_GetChars_m15357/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15353_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15357_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9178,7 +9178,7 @@ extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
 extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15354_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15358_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223117, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223118, 0, &Int32_t50_0_0_0},
@@ -9189,14 +9189,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15354_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_DecoderFallbackBufferU26_t3329 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Text.DecoderFallbackBuffer&)
-extern const MethodInfo ASCIIEncoding_GetChars_m15354_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetChars_m15358_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetChars_m15354/* method */
+	, (methodPointerType)&ASCIIEncoding_GetChars_m15358/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_DecoderFallbackBufferU26_t3329/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15354_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetChars_m15358_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9211,20 +9211,20 @@ extern const MethodInfo ASCIIEncoding_GetChars_m15354_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetMaxByteCount_m15355_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetMaxByteCount_m15359_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223123, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo ASCIIEncoding_GetMaxByteCount_m15355_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetMaxByteCount_m15359_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetMaxByteCount_m15355/* method */
+	, (methodPointerType)&ASCIIEncoding_GetMaxByteCount_m15359/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetMaxByteCount_m15355_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetMaxByteCount_m15359_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9239,20 +9239,20 @@ extern const MethodInfo ASCIIEncoding_GetMaxByteCount_m15355_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetMaxCharCount_m15356_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetMaxCharCount_m15360_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223124, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo ASCIIEncoding_GetMaxCharCount_m15356_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetMaxCharCount_m15360_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetMaxCharCount_m15356/* method */
+	, (methodPointerType)&ASCIIEncoding_GetMaxCharCount_m15360/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetMaxCharCount_m15356_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetMaxCharCount_m15360_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9269,7 +9269,7 @@ extern const MethodInfo ASCIIEncoding_GetMaxCharCount_m15356_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetString_m15357_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetString_m15361_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223125, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223126, 0, &Int32_t50_0_0_0},
@@ -9277,14 +9277,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetString_m15357_Par
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.ASCIIEncoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo ASCIIEncoding_GetString_m15357_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetString_m15361_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetString_m15357/* method */
+	, (methodPointerType)&ASCIIEncoding_GetString_m15361/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetString_m15357_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetString_m15361_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9304,7 +9304,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15358_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15362_ParameterInfos[] = 
 {
 	{"chars", 0, 134223128, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223129, 0, &Int32_t50_0_0_0},
@@ -9313,14 +9313,14 @@ static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15358_Para
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo ASCIIEncoding_GetBytes_m15358_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetBytes_m15362_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetBytes_m15358/* method */
+	, (methodPointerType)&ASCIIEncoding_GetBytes_m15362/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15358_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetBytes_m15362_ParameterInfos/* parameters */
 	, 706/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9336,21 +9336,21 @@ extern const MethodInfo ASCIIEncoding_GetBytes_m15358_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15359_ParameterInfos[] = 
+static const ParameterInfo ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15363_ParameterInfos[] = 
 {
 	{"chars", 0, 134223132, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223133, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.ASCIIEncoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15359_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15363_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15359/* method */
+	, (methodPointerType)&ASCIIEncoding_GetByteCount_m15363/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15359_ParameterInfos/* parameters */
+	, ASCIIEncoding_t655_ASCIIEncoding_GetByteCount_m15363_ParameterInfos/* parameters */
 	, 707/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9367,10 +9367,10 @@ extern const MethodInfo ASCIIEncoding_GetByteCount_m15359_MethodInfo =
 extern const Il2CppType Decoder_t1632_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.ASCIIEncoding::GetDecoder()
-extern const MethodInfo ASCIIEncoding_GetDecoder_m15360_MethodInfo = 
+extern const MethodInfo ASCIIEncoding_GetDecoder_m15364_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&ASCIIEncoding_GetDecoder_m15360/* method */
+	, (methodPointerType)&ASCIIEncoding_GetDecoder_m15364/* method */
 	, &ASCIIEncoding_t655_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9390,74 +9390,74 @@ extern const MethodInfo ASCIIEncoding_GetDecoder_m15360_MethodInfo =
 };
 static const MethodInfo* ASCIIEncoding_t655_MethodInfos[] =
 {
-	&ASCIIEncoding__ctor_m3347_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15346_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15347_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15348_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15349_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15350_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15351_MethodInfo,
-	&ASCIIEncoding_GetCharCount_m15352_MethodInfo,
-	&ASCIIEncoding_GetChars_m15353_MethodInfo,
-	&ASCIIEncoding_GetChars_m15354_MethodInfo,
-	&ASCIIEncoding_GetMaxByteCount_m15355_MethodInfo,
-	&ASCIIEncoding_GetMaxCharCount_m15356_MethodInfo,
-	&ASCIIEncoding_GetString_m15357_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15358_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15359_MethodInfo,
-	&ASCIIEncoding_GetDecoder_m15360_MethodInfo,
+	&ASCIIEncoding__ctor_m3351_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15350_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15351_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15352_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15353_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15354_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15355_MethodInfo,
+	&ASCIIEncoding_GetCharCount_m15356_MethodInfo,
+	&ASCIIEncoding_GetChars_m15357_MethodInfo,
+	&ASCIIEncoding_GetChars_m15358_MethodInfo,
+	&ASCIIEncoding_GetMaxByteCount_m15359_MethodInfo,
+	&ASCIIEncoding_GetMaxCharCount_m15360_MethodInfo,
+	&ASCIIEncoding_GetString_m15361_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15362_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15363_MethodInfo,
+	&ASCIIEncoding_GetDecoder_m15364_MethodInfo,
 	NULL
 };
-extern const MethodInfo Encoding_Equals_m15435_MethodInfo;
-extern const MethodInfo Encoding_GetHashCode_m15446_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15346_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15347_MethodInfo;
-extern const MethodInfo Encoding_GetByteCount_m15437_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetBytes_m15348_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetBytes_m15350_MethodInfo;
-extern const MethodInfo Encoding_GetBytes_m15439_MethodInfo;
-extern const MethodInfo Encoding_GetBytes_m15440_MethodInfo;
-extern const MethodInfo Encoding_GetBytes_m15441_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetCharCount_m15352_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetChars_m15353_MethodInfo;
-extern const MethodInfo Encoding_GetChars_m15442_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetDecoder_m15360_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetMaxByteCount_m15355_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetMaxCharCount_m15356_MethodInfo;
-extern const MethodInfo Encoding_GetPreamble_m15447_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetString_m15357_MethodInfo;
-extern const MethodInfo Encoding_GetString_m15449_MethodInfo;
-extern const MethodInfo Encoding_get_HeaderName_m15450_MethodInfo;
-extern const MethodInfo Encoding_get_WebName_m15451_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetByteCount_m15359_MethodInfo;
-extern const MethodInfo ASCIIEncoding_GetBytes_m15358_MethodInfo;
+extern const MethodInfo Encoding_Equals_m15439_MethodInfo;
+extern const MethodInfo Encoding_GetHashCode_m15450_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15350_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15351_MethodInfo;
+extern const MethodInfo Encoding_GetByteCount_m15441_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetBytes_m15352_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetBytes_m15354_MethodInfo;
+extern const MethodInfo Encoding_GetBytes_m15443_MethodInfo;
+extern const MethodInfo Encoding_GetBytes_m15444_MethodInfo;
+extern const MethodInfo Encoding_GetBytes_m15445_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetCharCount_m15356_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetChars_m15357_MethodInfo;
+extern const MethodInfo Encoding_GetChars_m15446_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetDecoder_m15364_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetMaxByteCount_m15359_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetMaxCharCount_m15360_MethodInfo;
+extern const MethodInfo Encoding_GetPreamble_m15451_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetString_m15361_MethodInfo;
+extern const MethodInfo Encoding_GetString_m15453_MethodInfo;
+extern const MethodInfo Encoding_get_HeaderName_m15454_MethodInfo;
+extern const MethodInfo Encoding_get_WebName_m15455_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetByteCount_m15363_MethodInfo;
+extern const MethodInfo ASCIIEncoding_GetBytes_m15362_MethodInfo;
 static const Il2CppMethodReference ASCIIEncoding_t655_VTable[] =
 {
-	&Encoding_Equals_m15435_MethodInfo,
+	&Encoding_Equals_m15439_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Encoding_GetHashCode_m15446_MethodInfo,
+	&Encoding_GetHashCode_m15450_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15346_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15347_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15348_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15350_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&ASCIIEncoding_GetCharCount_m15352_MethodInfo,
-	&ASCIIEncoding_GetChars_m15353_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&ASCIIEncoding_GetDecoder_m15360_MethodInfo,
-	&ASCIIEncoding_GetMaxByteCount_m15355_MethodInfo,
-	&ASCIIEncoding_GetMaxCharCount_m15356_MethodInfo,
-	&Encoding_GetPreamble_m15447_MethodInfo,
-	&ASCIIEncoding_GetString_m15357_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&ASCIIEncoding_GetByteCount_m15359_MethodInfo,
-	&ASCIIEncoding_GetBytes_m15358_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15350_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15351_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15352_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15354_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&ASCIIEncoding_GetCharCount_m15356_MethodInfo,
+	&ASCIIEncoding_GetChars_m15357_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&ASCIIEncoding_GetDecoder_m15364_MethodInfo,
+	&ASCIIEncoding_GetMaxByteCount_m15359_MethodInfo,
+	&ASCIIEncoding_GetMaxCharCount_m15360_MethodInfo,
+	&Encoding_GetPreamble_m15451_MethodInfo,
+	&ASCIIEncoding_GetString_m15361_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&ASCIIEncoding_GetByteCount_m15363_MethodInfo,
+	&ASCIIEncoding_GetBytes_m15362_MethodInfo,
 };
 static bool ASCIIEncoding_t655_VTableIsGenericMethod[] =
 {
@@ -9572,10 +9572,10 @@ extern TypeInfo Decoder_t1632_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Decoder::.ctor()
-extern const MethodInfo Decoder__ctor_m15361_MethodInfo = 
+extern const MethodInfo Decoder__ctor_m15365_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Decoder__ctor_m15361/* method */
+	, (methodPointerType)&Decoder__ctor_m15365/* method */
 	, &Decoder_t1632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9595,20 +9595,20 @@ extern const MethodInfo Decoder__ctor_m15361_MethodInfo =
 };
 extern const Il2CppType DecoderFallback_t2714_0_0_0;
 extern const Il2CppType DecoderFallback_t2714_0_0_0;
-static const ParameterInfo Decoder_t1632_Decoder_set_Fallback_m15362_ParameterInfos[] = 
+static const ParameterInfo Decoder_t1632_Decoder_set_Fallback_m15366_ParameterInfos[] = 
 {
 	{"value", 0, 134223134, 0, &DecoderFallback_t2714_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Decoder::set_Fallback(System.Text.DecoderFallback)
-extern const MethodInfo Decoder_set_Fallback_m15362_MethodInfo = 
+extern const MethodInfo Decoder_set_Fallback_m15366_MethodInfo = 
 {
 	"set_Fallback"/* name */
-	, (methodPointerType)&Decoder_set_Fallback_m15362/* method */
+	, (methodPointerType)&Decoder_set_Fallback_m15366/* method */
 	, &Decoder_t1632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Decoder_t1632_Decoder_set_Fallback_m15362_ParameterInfos/* parameters */
+	, Decoder_t1632_Decoder_set_Fallback_m15366_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9625,10 +9625,10 @@ extern const MethodInfo Decoder_set_Fallback_m15362_MethodInfo =
 extern const Il2CppType DecoderFallbackBuffer_t2715_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallbackBuffer System.Text.Decoder::get_FallbackBuffer()
-extern const MethodInfo Decoder_get_FallbackBuffer_m15363_MethodInfo = 
+extern const MethodInfo Decoder_get_FallbackBuffer_m15367_MethodInfo = 
 {
 	"get_FallbackBuffer"/* name */
-	, (methodPointerType)&Decoder_get_FallbackBuffer_m15363/* method */
+	, (methodPointerType)&Decoder_get_FallbackBuffer_m15367/* method */
 	, &Decoder_t1632_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallbackBuffer_t2715_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9651,7 +9651,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Decoder_t1632_Decoder_GetChars_m17100_ParameterInfos[] = 
+static const ParameterInfo Decoder_t1632_Decoder_GetChars_m17104_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223135, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223136, 0, &Int32_t50_0_0_0},
@@ -9661,14 +9661,14 @@ static const ParameterInfo Decoder_t1632_Decoder_GetChars_m17100_ParameterInfos[
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo Decoder_GetChars_m17100_MethodInfo = 
+extern const MethodInfo Decoder_GetChars_m17104_MethodInfo = 
 {
 	"GetChars"/* name */
 	, NULL/* method */
 	, &Decoder_t1632_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Decoder_t1632_Decoder_GetChars_m17100_ParameterInfos/* parameters */
+	, Decoder_t1632_Decoder_GetChars_m17104_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -9684,29 +9684,29 @@ extern const MethodInfo Decoder_GetChars_m17100_MethodInfo =
 };
 static const MethodInfo* Decoder_t1632_MethodInfos[] =
 {
-	&Decoder__ctor_m15361_MethodInfo,
-	&Decoder_set_Fallback_m15362_MethodInfo,
-	&Decoder_get_FallbackBuffer_m15363_MethodInfo,
-	&Decoder_GetChars_m17100_MethodInfo,
+	&Decoder__ctor_m15365_MethodInfo,
+	&Decoder_set_Fallback_m15366_MethodInfo,
+	&Decoder_get_FallbackBuffer_m15367_MethodInfo,
+	&Decoder_GetChars_m17104_MethodInfo,
 	NULL
 };
-extern const MethodInfo Decoder_set_Fallback_m15362_MethodInfo;
+extern const MethodInfo Decoder_set_Fallback_m15366_MethodInfo;
 static const PropertyInfo Decoder_t1632____Fallback_PropertyInfo = 
 {
 	&Decoder_t1632_il2cpp_TypeInfo/* parent */
 	, "Fallback"/* name */
 	, NULL/* get */
-	, &Decoder_set_Fallback_m15362_MethodInfo/* set */
+	, &Decoder_set_Fallback_m15366_MethodInfo/* set */
 	, 0/* attrs */
 	, 710/* custom_attributes_cache */
 
 };
-extern const MethodInfo Decoder_get_FallbackBuffer_m15363_MethodInfo;
+extern const MethodInfo Decoder_get_FallbackBuffer_m15367_MethodInfo;
 static const PropertyInfo Decoder_t1632____FallbackBuffer_PropertyInfo = 
 {
 	&Decoder_t1632_il2cpp_TypeInfo/* parent */
 	, "FallbackBuffer"/* name */
-	, &Decoder_get_FallbackBuffer_m15363_MethodInfo/* get */
+	, &Decoder_get_FallbackBuffer_m15367_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 711/* custom_attributes_cache */
@@ -9812,10 +9812,10 @@ extern TypeInfo DecoderExceptionFallback_t2716_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderExceptionFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderExceptionFallback::.ctor()
-extern const MethodInfo DecoderExceptionFallback__ctor_m15364_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallback__ctor_m15368_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderExceptionFallback__ctor_m15364/* method */
+	, (methodPointerType)&DecoderExceptionFallback__ctor_m15368/* method */
 	, &DecoderExceptionFallback_t2716_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -9835,10 +9835,10 @@ extern const MethodInfo DecoderExceptionFallback__ctor_m15364_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallbackBuffer System.Text.DecoderExceptionFallback::CreateFallbackBuffer()
-extern const MethodInfo DecoderExceptionFallback_CreateFallbackBuffer_m15365_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallback_CreateFallbackBuffer_m15369_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
-	, (methodPointerType)&DecoderExceptionFallback_CreateFallbackBuffer_m15365/* method */
+	, (methodPointerType)&DecoderExceptionFallback_CreateFallbackBuffer_m15369/* method */
 	, &DecoderExceptionFallback_t2716_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallbackBuffer_t2715_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9857,20 +9857,20 @@ extern const MethodInfo DecoderExceptionFallback_CreateFallbackBuffer_m15365_Met
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DecoderExceptionFallback_t2716_DecoderExceptionFallback_Equals_m15366_ParameterInfos[] = 
+static const ParameterInfo DecoderExceptionFallback_t2716_DecoderExceptionFallback_Equals_m15370_ParameterInfos[] = 
 {
 	{"value", 0, 134223140, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.DecoderExceptionFallback::Equals(System.Object)
-extern const MethodInfo DecoderExceptionFallback_Equals_m15366_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallback_Equals_m15370_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&DecoderExceptionFallback_Equals_m15366/* method */
+	, (methodPointerType)&DecoderExceptionFallback_Equals_m15370/* method */
 	, &DecoderExceptionFallback_t2716_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, DecoderExceptionFallback_t2716_DecoderExceptionFallback_Equals_m15366_ParameterInfos/* parameters */
+	, DecoderExceptionFallback_t2716_DecoderExceptionFallback_Equals_m15370_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9886,10 +9886,10 @@ extern const MethodInfo DecoderExceptionFallback_Equals_m15366_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.DecoderExceptionFallback::GetHashCode()
-extern const MethodInfo DecoderExceptionFallback_GetHashCode_m15367_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallback_GetHashCode_m15371_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&DecoderExceptionFallback_GetHashCode_m15367/* method */
+	, (methodPointerType)&DecoderExceptionFallback_GetHashCode_m15371/* method */
 	, &DecoderExceptionFallback_t2716_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -9909,22 +9909,22 @@ extern const MethodInfo DecoderExceptionFallback_GetHashCode_m15367_MethodInfo =
 };
 static const MethodInfo* DecoderExceptionFallback_t2716_MethodInfos[] =
 {
-	&DecoderExceptionFallback__ctor_m15364_MethodInfo,
-	&DecoderExceptionFallback_CreateFallbackBuffer_m15365_MethodInfo,
-	&DecoderExceptionFallback_Equals_m15366_MethodInfo,
-	&DecoderExceptionFallback_GetHashCode_m15367_MethodInfo,
+	&DecoderExceptionFallback__ctor_m15368_MethodInfo,
+	&DecoderExceptionFallback_CreateFallbackBuffer_m15369_MethodInfo,
+	&DecoderExceptionFallback_Equals_m15370_MethodInfo,
+	&DecoderExceptionFallback_GetHashCode_m15371_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderExceptionFallback_Equals_m15366_MethodInfo;
-extern const MethodInfo DecoderExceptionFallback_GetHashCode_m15367_MethodInfo;
-extern const MethodInfo DecoderExceptionFallback_CreateFallbackBuffer_m15365_MethodInfo;
+extern const MethodInfo DecoderExceptionFallback_Equals_m15370_MethodInfo;
+extern const MethodInfo DecoderExceptionFallback_GetHashCode_m15371_MethodInfo;
+extern const MethodInfo DecoderExceptionFallback_CreateFallbackBuffer_m15369_MethodInfo;
 static const Il2CppMethodReference DecoderExceptionFallback_t2716_VTable[] =
 {
-	&DecoderExceptionFallback_Equals_m15366_MethodInfo,
+	&DecoderExceptionFallback_Equals_m15370_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&DecoderExceptionFallback_GetHashCode_m15367_MethodInfo,
+	&DecoderExceptionFallback_GetHashCode_m15371_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DecoderExceptionFallback_CreateFallbackBuffer_m15365_MethodInfo,
+	&DecoderExceptionFallback_CreateFallbackBuffer_m15369_MethodInfo,
 };
 static bool DecoderExceptionFallback_t2716_VTableIsGenericMethod[] =
 {
@@ -10013,10 +10013,10 @@ extern TypeInfo DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderExceptionFallbackBufferMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderExceptionFallbackBuffer::.ctor()
-extern const MethodInfo DecoderExceptionFallbackBuffer__ctor_m15368_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallbackBuffer__ctor_m15372_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderExceptionFallbackBuffer__ctor_m15368/* method */
+	, (methodPointerType)&DecoderExceptionFallbackBuffer__ctor_m15372/* method */
 	, &DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10036,10 +10036,10 @@ extern const MethodInfo DecoderExceptionFallbackBuffer__ctor_m15368_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.DecoderExceptionFallbackBuffer::get_Remaining()
-extern const MethodInfo DecoderExceptionFallbackBuffer_get_Remaining_m15369_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallbackBuffer_get_Remaining_m15373_MethodInfo = 
 {
 	"get_Remaining"/* name */
-	, (methodPointerType)&DecoderExceptionFallbackBuffer_get_Remaining_m15369/* method */
+	, (methodPointerType)&DecoderExceptionFallbackBuffer_get_Remaining_m15373/* method */
 	, &DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -10059,21 +10059,21 @@ extern const MethodInfo DecoderExceptionFallbackBuffer_get_Remaining_m15369_Meth
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DecoderExceptionFallbackBuffer_t2717_DecoderExceptionFallbackBuffer_Fallback_m15370_ParameterInfos[] = 
+static const ParameterInfo DecoderExceptionFallbackBuffer_t2717_DecoderExceptionFallbackBuffer_Fallback_m15374_ParameterInfos[] = 
 {
 	{"bytesUnknown", 0, 134223141, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223142, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.DecoderExceptionFallbackBuffer::Fallback(System.Byte[],System.Int32)
-extern const MethodInfo DecoderExceptionFallbackBuffer_Fallback_m15370_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallbackBuffer_Fallback_m15374_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&DecoderExceptionFallbackBuffer_Fallback_m15370/* method */
+	, (methodPointerType)&DecoderExceptionFallbackBuffer_Fallback_m15374/* method */
 	, &DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Int32_t50/* invoker_method */
-	, DecoderExceptionFallbackBuffer_t2717_DecoderExceptionFallbackBuffer_Fallback_m15370_ParameterInfos/* parameters */
+	, DecoderExceptionFallbackBuffer_t2717_DecoderExceptionFallbackBuffer_Fallback_m15374_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10090,10 +10090,10 @@ extern const MethodInfo DecoderExceptionFallbackBuffer_Fallback_m15370_MethodInf
 extern const Il2CppType Char_t30_0_0_0;
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.DecoderExceptionFallbackBuffer::GetNextChar()
-extern const MethodInfo DecoderExceptionFallbackBuffer_GetNextChar_m15371_MethodInfo = 
+extern const MethodInfo DecoderExceptionFallbackBuffer_GetNextChar_m15375_MethodInfo = 
 {
 	"GetNextChar"/* name */
-	, (methodPointerType)&DecoderExceptionFallbackBuffer_GetNextChar_m15371/* method */
+	, (methodPointerType)&DecoderExceptionFallbackBuffer_GetNextChar_m15375/* method */
 	, &DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t30/* invoker_method */
@@ -10113,18 +10113,18 @@ extern const MethodInfo DecoderExceptionFallbackBuffer_GetNextChar_m15371_Method
 };
 static const MethodInfo* DecoderExceptionFallbackBuffer_t2717_MethodInfos[] =
 {
-	&DecoderExceptionFallbackBuffer__ctor_m15368_MethodInfo,
-	&DecoderExceptionFallbackBuffer_get_Remaining_m15369_MethodInfo,
-	&DecoderExceptionFallbackBuffer_Fallback_m15370_MethodInfo,
-	&DecoderExceptionFallbackBuffer_GetNextChar_m15371_MethodInfo,
+	&DecoderExceptionFallbackBuffer__ctor_m15372_MethodInfo,
+	&DecoderExceptionFallbackBuffer_get_Remaining_m15373_MethodInfo,
+	&DecoderExceptionFallbackBuffer_Fallback_m15374_MethodInfo,
+	&DecoderExceptionFallbackBuffer_GetNextChar_m15375_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderExceptionFallbackBuffer_get_Remaining_m15369_MethodInfo;
+extern const MethodInfo DecoderExceptionFallbackBuffer_get_Remaining_m15373_MethodInfo;
 static const PropertyInfo DecoderExceptionFallbackBuffer_t2717____Remaining_PropertyInfo = 
 {
 	&DecoderExceptionFallbackBuffer_t2717_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &DecoderExceptionFallbackBuffer_get_Remaining_m15369_MethodInfo/* get */
+	, &DecoderExceptionFallbackBuffer_get_Remaining_m15373_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10135,19 +10135,19 @@ static const PropertyInfo* DecoderExceptionFallbackBuffer_t2717_PropertyInfos[] 
 	&DecoderExceptionFallbackBuffer_t2717____Remaining_PropertyInfo,
 	NULL
 };
-extern const MethodInfo DecoderExceptionFallbackBuffer_Fallback_m15370_MethodInfo;
-extern const MethodInfo DecoderExceptionFallbackBuffer_GetNextChar_m15371_MethodInfo;
-extern const MethodInfo DecoderFallbackBuffer_Reset_m15378_MethodInfo;
+extern const MethodInfo DecoderExceptionFallbackBuffer_Fallback_m15374_MethodInfo;
+extern const MethodInfo DecoderExceptionFallbackBuffer_GetNextChar_m15375_MethodInfo;
+extern const MethodInfo DecoderFallbackBuffer_Reset_m15382_MethodInfo;
 static const Il2CppMethodReference DecoderExceptionFallbackBuffer_t2717_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DecoderExceptionFallbackBuffer_get_Remaining_m15369_MethodInfo,
-	&DecoderExceptionFallbackBuffer_Fallback_m15370_MethodInfo,
-	&DecoderExceptionFallbackBuffer_GetNextChar_m15371_MethodInfo,
-	&DecoderFallbackBuffer_Reset_m15378_MethodInfo,
+	&DecoderExceptionFallbackBuffer_get_Remaining_m15373_MethodInfo,
+	&DecoderExceptionFallbackBuffer_Fallback_m15374_MethodInfo,
+	&DecoderExceptionFallbackBuffer_GetNextChar_m15375_MethodInfo,
+	&DecoderFallbackBuffer_Reset_m15382_MethodInfo,
 };
 static bool DecoderExceptionFallbackBuffer_t2717_VTableIsGenericMethod[] =
 {
@@ -10239,10 +10239,10 @@ extern TypeInfo DecoderFallback_t2714_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallback::.ctor()
-extern const MethodInfo DecoderFallback__ctor_m15372_MethodInfo = 
+extern const MethodInfo DecoderFallback__ctor_m15376_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderFallback__ctor_m15372/* method */
+	, (methodPointerType)&DecoderFallback__ctor_m15376/* method */
 	, &DecoderFallback_t2714_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10262,10 +10262,10 @@ extern const MethodInfo DecoderFallback__ctor_m15372_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallback::.cctor()
-extern const MethodInfo DecoderFallback__cctor_m15373_MethodInfo = 
+extern const MethodInfo DecoderFallback__cctor_m15377_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&DecoderFallback__cctor_m15373/* method */
+	, (methodPointerType)&DecoderFallback__cctor_m15377/* method */
 	, &DecoderFallback_t2714_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10285,10 +10285,10 @@ extern const MethodInfo DecoderFallback__cctor_m15373_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_ExceptionFallback()
-extern const MethodInfo DecoderFallback_get_ExceptionFallback_m15374_MethodInfo = 
+extern const MethodInfo DecoderFallback_get_ExceptionFallback_m15378_MethodInfo = 
 {
 	"get_ExceptionFallback"/* name */
-	, (methodPointerType)&DecoderFallback_get_ExceptionFallback_m15374/* method */
+	, (methodPointerType)&DecoderFallback_get_ExceptionFallback_m15378/* method */
 	, &DecoderFallback_t2714_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallback_t2714_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10308,10 +10308,10 @@ extern const MethodInfo DecoderFallback_get_ExceptionFallback_m15374_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_ReplacementFallback()
-extern const MethodInfo DecoderFallback_get_ReplacementFallback_m15375_MethodInfo = 
+extern const MethodInfo DecoderFallback_get_ReplacementFallback_m15379_MethodInfo = 
 {
 	"get_ReplacementFallback"/* name */
-	, (methodPointerType)&DecoderFallback_get_ReplacementFallback_m15375/* method */
+	, (methodPointerType)&DecoderFallback_get_ReplacementFallback_m15379/* method */
 	, &DecoderFallback_t2714_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallback_t2714_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10331,10 +10331,10 @@ extern const MethodInfo DecoderFallback_get_ReplacementFallback_m15375_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_StandardSafeFallback()
-extern const MethodInfo DecoderFallback_get_StandardSafeFallback_m15376_MethodInfo = 
+extern const MethodInfo DecoderFallback_get_StandardSafeFallback_m15380_MethodInfo = 
 {
 	"get_StandardSafeFallback"/* name */
-	, (methodPointerType)&DecoderFallback_get_StandardSafeFallback_m15376/* method */
+	, (methodPointerType)&DecoderFallback_get_StandardSafeFallback_m15380/* method */
 	, &DecoderFallback_t2714_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallback_t2714_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10354,7 +10354,7 @@ extern const MethodInfo DecoderFallback_get_StandardSafeFallback_m15376_MethodIn
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer()
-extern const MethodInfo DecoderFallback_CreateFallbackBuffer_m17101_MethodInfo = 
+extern const MethodInfo DecoderFallback_CreateFallbackBuffer_m17105_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
 	, NULL/* method */
@@ -10377,42 +10377,42 @@ extern const MethodInfo DecoderFallback_CreateFallbackBuffer_m17101_MethodInfo =
 };
 static const MethodInfo* DecoderFallback_t2714_MethodInfos[] =
 {
-	&DecoderFallback__ctor_m15372_MethodInfo,
-	&DecoderFallback__cctor_m15373_MethodInfo,
-	&DecoderFallback_get_ExceptionFallback_m15374_MethodInfo,
-	&DecoderFallback_get_ReplacementFallback_m15375_MethodInfo,
-	&DecoderFallback_get_StandardSafeFallback_m15376_MethodInfo,
-	&DecoderFallback_CreateFallbackBuffer_m17101_MethodInfo,
+	&DecoderFallback__ctor_m15376_MethodInfo,
+	&DecoderFallback__cctor_m15377_MethodInfo,
+	&DecoderFallback_get_ExceptionFallback_m15378_MethodInfo,
+	&DecoderFallback_get_ReplacementFallback_m15379_MethodInfo,
+	&DecoderFallback_get_StandardSafeFallback_m15380_MethodInfo,
+	&DecoderFallback_CreateFallbackBuffer_m17105_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderFallback_get_ExceptionFallback_m15374_MethodInfo;
+extern const MethodInfo DecoderFallback_get_ExceptionFallback_m15378_MethodInfo;
 static const PropertyInfo DecoderFallback_t2714____ExceptionFallback_PropertyInfo = 
 {
 	&DecoderFallback_t2714_il2cpp_TypeInfo/* parent */
 	, "ExceptionFallback"/* name */
-	, &DecoderFallback_get_ExceptionFallback_m15374_MethodInfo/* get */
+	, &DecoderFallback_get_ExceptionFallback_m15378_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DecoderFallback_get_ReplacementFallback_m15375_MethodInfo;
+extern const MethodInfo DecoderFallback_get_ReplacementFallback_m15379_MethodInfo;
 static const PropertyInfo DecoderFallback_t2714____ReplacementFallback_PropertyInfo = 
 {
 	&DecoderFallback_t2714_il2cpp_TypeInfo/* parent */
 	, "ReplacementFallback"/* name */
-	, &DecoderFallback_get_ReplacementFallback_m15375_MethodInfo/* get */
+	, &DecoderFallback_get_ReplacementFallback_m15379_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DecoderFallback_get_StandardSafeFallback_m15376_MethodInfo;
+extern const MethodInfo DecoderFallback_get_StandardSafeFallback_m15380_MethodInfo;
 static const PropertyInfo DecoderFallback_t2714____StandardSafeFallback_PropertyInfo = 
 {
 	&DecoderFallback_t2714_il2cpp_TypeInfo/* parent */
 	, "StandardSafeFallback"/* name */
-	, &DecoderFallback_get_StandardSafeFallback_m15376_MethodInfo/* get */
+	, &DecoderFallback_get_StandardSafeFallback_m15380_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10519,10 +10519,10 @@ extern TypeInfo DecoderFallbackBuffer_t2715_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderFallbackBufferMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallbackBuffer::.ctor()
-extern const MethodInfo DecoderFallbackBuffer__ctor_m15377_MethodInfo = 
+extern const MethodInfo DecoderFallbackBuffer__ctor_m15381_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderFallbackBuffer__ctor_m15377/* method */
+	, (methodPointerType)&DecoderFallbackBuffer__ctor_m15381/* method */
 	, &DecoderFallbackBuffer_t2715_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10542,7 +10542,7 @@ extern const MethodInfo DecoderFallbackBuffer__ctor_m15377_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining()
-extern const MethodInfo DecoderFallbackBuffer_get_Remaining_m17102_MethodInfo = 
+extern const MethodInfo DecoderFallbackBuffer_get_Remaining_m17106_MethodInfo = 
 {
 	"get_Remaining"/* name */
 	, NULL/* method */
@@ -10565,21 +10565,21 @@ extern const MethodInfo DecoderFallbackBuffer_get_Remaining_m17102_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DecoderFallbackBuffer_t2715_DecoderFallbackBuffer_Fallback_m17103_ParameterInfos[] = 
+static const ParameterInfo DecoderFallbackBuffer_t2715_DecoderFallbackBuffer_Fallback_m17107_ParameterInfos[] = 
 {
 	{"bytesUnknown", 0, 134223143, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223144, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32)
-extern const MethodInfo DecoderFallbackBuffer_Fallback_m17103_MethodInfo = 
+extern const MethodInfo DecoderFallbackBuffer_Fallback_m17107_MethodInfo = 
 {
 	"Fallback"/* name */
 	, NULL/* method */
 	, &DecoderFallbackBuffer_t2715_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Int32_t50/* invoker_method */
-	, DecoderFallbackBuffer_t2715_DecoderFallbackBuffer_Fallback_m17103_ParameterInfos/* parameters */
+	, DecoderFallbackBuffer_t2715_DecoderFallbackBuffer_Fallback_m17107_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -10595,7 +10595,7 @@ extern const MethodInfo DecoderFallbackBuffer_Fallback_m17103_MethodInfo =
 };
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.DecoderFallbackBuffer::GetNextChar()
-extern const MethodInfo DecoderFallbackBuffer_GetNextChar_m17104_MethodInfo = 
+extern const MethodInfo DecoderFallbackBuffer_GetNextChar_m17108_MethodInfo = 
 {
 	"GetNextChar"/* name */
 	, NULL/* method */
@@ -10618,10 +10618,10 @@ extern const MethodInfo DecoderFallbackBuffer_GetNextChar_m17104_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallbackBuffer::Reset()
-extern const MethodInfo DecoderFallbackBuffer_Reset_m15378_MethodInfo = 
+extern const MethodInfo DecoderFallbackBuffer_Reset_m15382_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&DecoderFallbackBuffer_Reset_m15378/* method */
+	, (methodPointerType)&DecoderFallbackBuffer_Reset_m15382/* method */
 	, &DecoderFallbackBuffer_t2715_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10641,19 +10641,19 @@ extern const MethodInfo DecoderFallbackBuffer_Reset_m15378_MethodInfo =
 };
 static const MethodInfo* DecoderFallbackBuffer_t2715_MethodInfos[] =
 {
-	&DecoderFallbackBuffer__ctor_m15377_MethodInfo,
-	&DecoderFallbackBuffer_get_Remaining_m17102_MethodInfo,
-	&DecoderFallbackBuffer_Fallback_m17103_MethodInfo,
-	&DecoderFallbackBuffer_GetNextChar_m17104_MethodInfo,
-	&DecoderFallbackBuffer_Reset_m15378_MethodInfo,
+	&DecoderFallbackBuffer__ctor_m15381_MethodInfo,
+	&DecoderFallbackBuffer_get_Remaining_m17106_MethodInfo,
+	&DecoderFallbackBuffer_Fallback_m17107_MethodInfo,
+	&DecoderFallbackBuffer_GetNextChar_m17108_MethodInfo,
+	&DecoderFallbackBuffer_Reset_m15382_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderFallbackBuffer_get_Remaining_m17102_MethodInfo;
+extern const MethodInfo DecoderFallbackBuffer_get_Remaining_m17106_MethodInfo;
 static const PropertyInfo DecoderFallbackBuffer_t2715____Remaining_PropertyInfo = 
 {
 	&DecoderFallbackBuffer_t2715_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &DecoderFallbackBuffer_get_Remaining_m17102_MethodInfo/* get */
+	, &DecoderFallbackBuffer_get_Remaining_m17106_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10673,7 +10673,7 @@ static const Il2CppMethodReference DecoderFallbackBuffer_t2715_VTable[] =
 	NULL,
 	NULL,
 	NULL,
-	&DecoderFallbackBuffer_Reset_m15378_MethodInfo,
+	&DecoderFallbackBuffer_Reset_m15382_MethodInfo,
 };
 static bool DecoderFallbackBuffer_t2715_VTableIsGenericMethod[] =
 {
@@ -10763,10 +10763,10 @@ extern TypeInfo DecoderFallbackException_t2718_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderFallbackExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallbackException::.ctor()
-extern const MethodInfo DecoderFallbackException__ctor_m15379_MethodInfo = 
+extern const MethodInfo DecoderFallbackException__ctor_m15383_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderFallbackException__ctor_m15379/* method */
+	, (methodPointerType)&DecoderFallbackException__ctor_m15383/* method */
 	, &DecoderFallbackException_t2718_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10785,20 +10785,20 @@ extern const MethodInfo DecoderFallbackException__ctor_m15379_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15380_ParameterInfos[] = 
+static const ParameterInfo DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15384_ParameterInfos[] = 
 {
 	{"message", 0, 134223145, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallbackException::.ctor(System.String)
-extern const MethodInfo DecoderFallbackException__ctor_m15380_MethodInfo = 
+extern const MethodInfo DecoderFallbackException__ctor_m15384_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderFallbackException__ctor_m15380/* method */
+	, (methodPointerType)&DecoderFallbackException__ctor_m15384/* method */
 	, &DecoderFallbackException_t2718_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15380_ParameterInfos/* parameters */
+	, DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15384_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10815,7 +10815,7 @@ extern const MethodInfo DecoderFallbackException__ctor_m15380_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15381_ParameterInfos[] = 
+static const ParameterInfo DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15385_ParameterInfos[] = 
 {
 	{"message", 0, 134223146, 0, &String_t_0_0_0},
 	{"bytesUnknown", 1, 134223147, 0, &ByteU5BU5D_t36_0_0_0},
@@ -10823,14 +10823,14 @@ static const ParameterInfo DecoderFallbackException_t2718_DecoderFallbackExcepti
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderFallbackException::.ctor(System.String,System.Byte[],System.Int32)
-extern const MethodInfo DecoderFallbackException__ctor_m15381_MethodInfo = 
+extern const MethodInfo DecoderFallbackException__ctor_m15385_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderFallbackException__ctor_m15381/* method */
+	, (methodPointerType)&DecoderFallbackException__ctor_m15385/* method */
 	, &DecoderFallbackException_t2718_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t_Int32_t50/* invoker_method */
-	, DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15381_ParameterInfos/* parameters */
+	, DecoderFallbackException_t2718_DecoderFallbackException__ctor_m15385_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10846,29 +10846,29 @@ extern const MethodInfo DecoderFallbackException__ctor_m15381_MethodInfo =
 };
 static const MethodInfo* DecoderFallbackException_t2718_MethodInfos[] =
 {
-	&DecoderFallbackException__ctor_m15379_MethodInfo,
-	&DecoderFallbackException__ctor_m15380_MethodInfo,
-	&DecoderFallbackException__ctor_m15381_MethodInfo,
+	&DecoderFallbackException__ctor_m15383_MethodInfo,
+	&DecoderFallbackException__ctor_m15384_MethodInfo,
+	&DecoderFallbackException__ctor_m15385_MethodInfo,
 	NULL
 };
-extern const MethodInfo Exception_ToString_m7389_MethodInfo;
-extern const MethodInfo ArgumentException_GetObjectData_m15685_MethodInfo;
-extern const MethodInfo ArgumentException_get_Message_m15684_MethodInfo;
-extern const MethodInfo ArgumentException_get_ParamName_m15683_MethodInfo;
+extern const MethodInfo Exception_ToString_m7393_MethodInfo;
+extern const MethodInfo ArgumentException_GetObjectData_m15689_MethodInfo;
+extern const MethodInfo ArgumentException_get_Message_m15688_MethodInfo;
+extern const MethodInfo ArgumentException_get_ParamName_m15687_MethodInfo;
 static const Il2CppMethodReference DecoderFallbackException_t2718_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&ArgumentException_get_Message_m15684_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&ArgumentException_get_Message_m15688_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
 };
 static bool DecoderFallbackException_t2718_VTableIsGenericMethod[] =
 {
@@ -10970,10 +10970,10 @@ extern TypeInfo DecoderReplacementFallback_t2719_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_DecoderReplacementFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderReplacementFallback::.ctor()
-extern const MethodInfo DecoderReplacementFallback__ctor_m15382_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback__ctor_m15386_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderReplacementFallback__ctor_m15382/* method */
+	, (methodPointerType)&DecoderReplacementFallback__ctor_m15386/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -10992,20 +10992,20 @@ extern const MethodInfo DecoderReplacementFallback__ctor_m15382_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DecoderReplacementFallback_t2719_DecoderReplacementFallback__ctor_m15383_ParameterInfos[] = 
+static const ParameterInfo DecoderReplacementFallback_t2719_DecoderReplacementFallback__ctor_m15387_ParameterInfos[] = 
 {
 	{"replacement", 0, 134223149, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderReplacementFallback::.ctor(System.String)
-extern const MethodInfo DecoderReplacementFallback__ctor_m15383_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback__ctor_m15387_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderReplacementFallback__ctor_m15383/* method */
+	, (methodPointerType)&DecoderReplacementFallback__ctor_m15387/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DecoderReplacementFallback_t2719_DecoderReplacementFallback__ctor_m15383_ParameterInfos/* parameters */
+	, DecoderReplacementFallback_t2719_DecoderReplacementFallback__ctor_m15387_ParameterInfos/* parameters */
 	, 712/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11021,10 +11021,10 @@ extern const MethodInfo DecoderReplacementFallback__ctor_m15383_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.DecoderReplacementFallback::get_DefaultString()
-extern const MethodInfo DecoderReplacementFallback_get_DefaultString_m15384_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback_get_DefaultString_m15388_MethodInfo = 
 {
 	"get_DefaultString"/* name */
-	, (methodPointerType)&DecoderReplacementFallback_get_DefaultString_m15384/* method */
+	, (methodPointerType)&DecoderReplacementFallback_get_DefaultString_m15388/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11044,10 +11044,10 @@ extern const MethodInfo DecoderReplacementFallback_get_DefaultString_m15384_Meth
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallbackBuffer System.Text.DecoderReplacementFallback::CreateFallbackBuffer()
-extern const MethodInfo DecoderReplacementFallback_CreateFallbackBuffer_m15385_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback_CreateFallbackBuffer_m15389_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
-	, (methodPointerType)&DecoderReplacementFallback_CreateFallbackBuffer_m15385/* method */
+	, (methodPointerType)&DecoderReplacementFallback_CreateFallbackBuffer_m15389/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallbackBuffer_t2715_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11066,20 +11066,20 @@ extern const MethodInfo DecoderReplacementFallback_CreateFallbackBuffer_m15385_M
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DecoderReplacementFallback_t2719_DecoderReplacementFallback_Equals_m15386_ParameterInfos[] = 
+static const ParameterInfo DecoderReplacementFallback_t2719_DecoderReplacementFallback_Equals_m15390_ParameterInfos[] = 
 {
 	{"value", 0, 134223150, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.DecoderReplacementFallback::Equals(System.Object)
-extern const MethodInfo DecoderReplacementFallback_Equals_m15386_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback_Equals_m15390_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&DecoderReplacementFallback_Equals_m15386/* method */
+	, (methodPointerType)&DecoderReplacementFallback_Equals_m15390/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, DecoderReplacementFallback_t2719_DecoderReplacementFallback_Equals_m15386_ParameterInfos/* parameters */
+	, DecoderReplacementFallback_t2719_DecoderReplacementFallback_Equals_m15390_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11095,10 +11095,10 @@ extern const MethodInfo DecoderReplacementFallback_Equals_m15386_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.DecoderReplacementFallback::GetHashCode()
-extern const MethodInfo DecoderReplacementFallback_GetHashCode_m15387_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallback_GetHashCode_m15391_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&DecoderReplacementFallback_GetHashCode_m15387/* method */
+	, (methodPointerType)&DecoderReplacementFallback_GetHashCode_m15391/* method */
 	, &DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -11118,20 +11118,20 @@ extern const MethodInfo DecoderReplacementFallback_GetHashCode_m15387_MethodInfo
 };
 static const MethodInfo* DecoderReplacementFallback_t2719_MethodInfos[] =
 {
-	&DecoderReplacementFallback__ctor_m15382_MethodInfo,
-	&DecoderReplacementFallback__ctor_m15383_MethodInfo,
-	&DecoderReplacementFallback_get_DefaultString_m15384_MethodInfo,
-	&DecoderReplacementFallback_CreateFallbackBuffer_m15385_MethodInfo,
-	&DecoderReplacementFallback_Equals_m15386_MethodInfo,
-	&DecoderReplacementFallback_GetHashCode_m15387_MethodInfo,
+	&DecoderReplacementFallback__ctor_m15386_MethodInfo,
+	&DecoderReplacementFallback__ctor_m15387_MethodInfo,
+	&DecoderReplacementFallback_get_DefaultString_m15388_MethodInfo,
+	&DecoderReplacementFallback_CreateFallbackBuffer_m15389_MethodInfo,
+	&DecoderReplacementFallback_Equals_m15390_MethodInfo,
+	&DecoderReplacementFallback_GetHashCode_m15391_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderReplacementFallback_get_DefaultString_m15384_MethodInfo;
+extern const MethodInfo DecoderReplacementFallback_get_DefaultString_m15388_MethodInfo;
 static const PropertyInfo DecoderReplacementFallback_t2719____DefaultString_PropertyInfo = 
 {
 	&DecoderReplacementFallback_t2719_il2cpp_TypeInfo/* parent */
 	, "DefaultString"/* name */
-	, &DecoderReplacementFallback_get_DefaultString_m15384_MethodInfo/* get */
+	, &DecoderReplacementFallback_get_DefaultString_m15388_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11142,16 +11142,16 @@ static const PropertyInfo* DecoderReplacementFallback_t2719_PropertyInfos[] =
 	&DecoderReplacementFallback_t2719____DefaultString_PropertyInfo,
 	NULL
 };
-extern const MethodInfo DecoderReplacementFallback_Equals_m15386_MethodInfo;
-extern const MethodInfo DecoderReplacementFallback_GetHashCode_m15387_MethodInfo;
-extern const MethodInfo DecoderReplacementFallback_CreateFallbackBuffer_m15385_MethodInfo;
+extern const MethodInfo DecoderReplacementFallback_Equals_m15390_MethodInfo;
+extern const MethodInfo DecoderReplacementFallback_GetHashCode_m15391_MethodInfo;
+extern const MethodInfo DecoderReplacementFallback_CreateFallbackBuffer_m15389_MethodInfo;
 static const Il2CppMethodReference DecoderReplacementFallback_t2719_VTable[] =
 {
-	&DecoderReplacementFallback_Equals_m15386_MethodInfo,
+	&DecoderReplacementFallback_Equals_m15390_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&DecoderReplacementFallback_GetHashCode_m15387_MethodInfo,
+	&DecoderReplacementFallback_GetHashCode_m15391_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DecoderReplacementFallback_CreateFallbackBuffer_m15385_MethodInfo,
+	&DecoderReplacementFallback_CreateFallbackBuffer_m15389_MethodInfo,
 };
 static bool DecoderReplacementFallback_t2719_VTableIsGenericMethod[] =
 {
@@ -11239,20 +11239,20 @@ extern TypeInfo DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo;
 // System.Text.DecoderReplacementFallbackBuffer
 #include "mscorlib_System_Text_DecoderReplacementFallbackBufferMethodDeclarations.h"
 extern const Il2CppType DecoderReplacementFallback_t2719_0_0_0;
-static const ParameterInfo DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer__ctor_m15388_ParameterInfos[] = 
+static const ParameterInfo DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer__ctor_m15392_ParameterInfos[] = 
 {
 	{"fallback", 0, 134223151, 0, &DecoderReplacementFallback_t2719_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderReplacementFallbackBuffer::.ctor(System.Text.DecoderReplacementFallback)
-extern const MethodInfo DecoderReplacementFallbackBuffer__ctor_m15388_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallbackBuffer__ctor_m15392_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DecoderReplacementFallbackBuffer__ctor_m15388/* method */
+	, (methodPointerType)&DecoderReplacementFallbackBuffer__ctor_m15392/* method */
 	, &DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer__ctor_m15388_ParameterInfos/* parameters */
+	, DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer__ctor_m15392_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11268,10 +11268,10 @@ extern const MethodInfo DecoderReplacementFallbackBuffer__ctor_m15388_MethodInfo
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.DecoderReplacementFallbackBuffer::get_Remaining()
-extern const MethodInfo DecoderReplacementFallbackBuffer_get_Remaining_m15389_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallbackBuffer_get_Remaining_m15393_MethodInfo = 
 {
 	"get_Remaining"/* name */
-	, (methodPointerType)&DecoderReplacementFallbackBuffer_get_Remaining_m15389/* method */
+	, (methodPointerType)&DecoderReplacementFallbackBuffer_get_Remaining_m15393/* method */
 	, &DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -11291,21 +11291,21 @@ extern const MethodInfo DecoderReplacementFallbackBuffer_get_Remaining_m15389_Me
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer_Fallback_m15390_ParameterInfos[] = 
+static const ParameterInfo DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer_Fallback_m15394_ParameterInfos[] = 
 {
 	{"bytesUnknown", 0, 134223152, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223153, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.DecoderReplacementFallbackBuffer::Fallback(System.Byte[],System.Int32)
-extern const MethodInfo DecoderReplacementFallbackBuffer_Fallback_m15390_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallbackBuffer_Fallback_m15394_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&DecoderReplacementFallbackBuffer_Fallback_m15390/* method */
+	, (methodPointerType)&DecoderReplacementFallbackBuffer_Fallback_m15394/* method */
 	, &DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Int32_t50/* invoker_method */
-	, DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer_Fallback_m15390_ParameterInfos/* parameters */
+	, DecoderReplacementFallbackBuffer_t2720_DecoderReplacementFallbackBuffer_Fallback_m15394_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11321,10 +11321,10 @@ extern const MethodInfo DecoderReplacementFallbackBuffer_Fallback_m15390_MethodI
 };
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.DecoderReplacementFallbackBuffer::GetNextChar()
-extern const MethodInfo DecoderReplacementFallbackBuffer_GetNextChar_m15391_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallbackBuffer_GetNextChar_m15395_MethodInfo = 
 {
 	"GetNextChar"/* name */
-	, (methodPointerType)&DecoderReplacementFallbackBuffer_GetNextChar_m15391/* method */
+	, (methodPointerType)&DecoderReplacementFallbackBuffer_GetNextChar_m15395/* method */
 	, &DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t30/* invoker_method */
@@ -11344,10 +11344,10 @@ extern const MethodInfo DecoderReplacementFallbackBuffer_GetNextChar_m15391_Meth
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.DecoderReplacementFallbackBuffer::Reset()
-extern const MethodInfo DecoderReplacementFallbackBuffer_Reset_m15392_MethodInfo = 
+extern const MethodInfo DecoderReplacementFallbackBuffer_Reset_m15396_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&DecoderReplacementFallbackBuffer_Reset_m15392/* method */
+	, (methodPointerType)&DecoderReplacementFallbackBuffer_Reset_m15396/* method */
 	, &DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11367,19 +11367,19 @@ extern const MethodInfo DecoderReplacementFallbackBuffer_Reset_m15392_MethodInfo
 };
 static const MethodInfo* DecoderReplacementFallbackBuffer_t2720_MethodInfos[] =
 {
-	&DecoderReplacementFallbackBuffer__ctor_m15388_MethodInfo,
-	&DecoderReplacementFallbackBuffer_get_Remaining_m15389_MethodInfo,
-	&DecoderReplacementFallbackBuffer_Fallback_m15390_MethodInfo,
-	&DecoderReplacementFallbackBuffer_GetNextChar_m15391_MethodInfo,
-	&DecoderReplacementFallbackBuffer_Reset_m15392_MethodInfo,
+	&DecoderReplacementFallbackBuffer__ctor_m15392_MethodInfo,
+	&DecoderReplacementFallbackBuffer_get_Remaining_m15393_MethodInfo,
+	&DecoderReplacementFallbackBuffer_Fallback_m15394_MethodInfo,
+	&DecoderReplacementFallbackBuffer_GetNextChar_m15395_MethodInfo,
+	&DecoderReplacementFallbackBuffer_Reset_m15396_MethodInfo,
 	NULL
 };
-extern const MethodInfo DecoderReplacementFallbackBuffer_get_Remaining_m15389_MethodInfo;
+extern const MethodInfo DecoderReplacementFallbackBuffer_get_Remaining_m15393_MethodInfo;
 static const PropertyInfo DecoderReplacementFallbackBuffer_t2720____Remaining_PropertyInfo = 
 {
 	&DecoderReplacementFallbackBuffer_t2720_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &DecoderReplacementFallbackBuffer_get_Remaining_m15389_MethodInfo/* get */
+	, &DecoderReplacementFallbackBuffer_get_Remaining_m15393_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11390,19 +11390,19 @@ static const PropertyInfo* DecoderReplacementFallbackBuffer_t2720_PropertyInfos[
 	&DecoderReplacementFallbackBuffer_t2720____Remaining_PropertyInfo,
 	NULL
 };
-extern const MethodInfo DecoderReplacementFallbackBuffer_Fallback_m15390_MethodInfo;
-extern const MethodInfo DecoderReplacementFallbackBuffer_GetNextChar_m15391_MethodInfo;
-extern const MethodInfo DecoderReplacementFallbackBuffer_Reset_m15392_MethodInfo;
+extern const MethodInfo DecoderReplacementFallbackBuffer_Fallback_m15394_MethodInfo;
+extern const MethodInfo DecoderReplacementFallbackBuffer_GetNextChar_m15395_MethodInfo;
+extern const MethodInfo DecoderReplacementFallbackBuffer_Reset_m15396_MethodInfo;
 static const Il2CppMethodReference DecoderReplacementFallbackBuffer_t2720_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&DecoderReplacementFallbackBuffer_get_Remaining_m15389_MethodInfo,
-	&DecoderReplacementFallbackBuffer_Fallback_m15390_MethodInfo,
-	&DecoderReplacementFallbackBuffer_GetNextChar_m15391_MethodInfo,
-	&DecoderReplacementFallbackBuffer_Reset_m15392_MethodInfo,
+	&DecoderReplacementFallbackBuffer_get_Remaining_m15393_MethodInfo,
+	&DecoderReplacementFallbackBuffer_Fallback_m15394_MethodInfo,
+	&DecoderReplacementFallbackBuffer_GetNextChar_m15395_MethodInfo,
+	&DecoderReplacementFallbackBuffer_Reset_m15396_MethodInfo,
 };
 static bool DecoderReplacementFallbackBuffer_t2720_VTableIsGenericMethod[] =
 {
@@ -11494,10 +11494,10 @@ extern TypeInfo EncoderExceptionFallback_t2721_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderExceptionFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderExceptionFallback::.ctor()
-extern const MethodInfo EncoderExceptionFallback__ctor_m15393_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallback__ctor_m15397_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderExceptionFallback__ctor_m15393/* method */
+	, (methodPointerType)&EncoderExceptionFallback__ctor_m15397/* method */
 	, &EncoderExceptionFallback_t2721_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11518,10 +11518,10 @@ extern const MethodInfo EncoderExceptionFallback__ctor_m15393_MethodInfo =
 extern const Il2CppType EncoderFallbackBuffer_t2724_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallbackBuffer System.Text.EncoderExceptionFallback::CreateFallbackBuffer()
-extern const MethodInfo EncoderExceptionFallback_CreateFallbackBuffer_m15394_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallback_CreateFallbackBuffer_m15398_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
-	, (methodPointerType)&EncoderExceptionFallback_CreateFallbackBuffer_m15394/* method */
+	, (methodPointerType)&EncoderExceptionFallback_CreateFallbackBuffer_m15398/* method */
 	, &EncoderExceptionFallback_t2721_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallbackBuffer_t2724_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11540,20 +11540,20 @@ extern const MethodInfo EncoderExceptionFallback_CreateFallbackBuffer_m15394_Met
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo EncoderExceptionFallback_t2721_EncoderExceptionFallback_Equals_m15395_ParameterInfos[] = 
+static const ParameterInfo EncoderExceptionFallback_t2721_EncoderExceptionFallback_Equals_m15399_ParameterInfos[] = 
 {
 	{"value", 0, 134223154, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderExceptionFallback::Equals(System.Object)
-extern const MethodInfo EncoderExceptionFallback_Equals_m15395_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallback_Equals_m15399_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&EncoderExceptionFallback_Equals_m15395/* method */
+	, (methodPointerType)&EncoderExceptionFallback_Equals_m15399/* method */
 	, &EncoderExceptionFallback_t2721_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, EncoderExceptionFallback_t2721_EncoderExceptionFallback_Equals_m15395_ParameterInfos/* parameters */
+	, EncoderExceptionFallback_t2721_EncoderExceptionFallback_Equals_m15399_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11569,10 +11569,10 @@ extern const MethodInfo EncoderExceptionFallback_Equals_m15395_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.EncoderExceptionFallback::GetHashCode()
-extern const MethodInfo EncoderExceptionFallback_GetHashCode_m15396_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallback_GetHashCode_m15400_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&EncoderExceptionFallback_GetHashCode_m15396/* method */
+	, (methodPointerType)&EncoderExceptionFallback_GetHashCode_m15400/* method */
 	, &EncoderExceptionFallback_t2721_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -11592,22 +11592,22 @@ extern const MethodInfo EncoderExceptionFallback_GetHashCode_m15396_MethodInfo =
 };
 static const MethodInfo* EncoderExceptionFallback_t2721_MethodInfos[] =
 {
-	&EncoderExceptionFallback__ctor_m15393_MethodInfo,
-	&EncoderExceptionFallback_CreateFallbackBuffer_m15394_MethodInfo,
-	&EncoderExceptionFallback_Equals_m15395_MethodInfo,
-	&EncoderExceptionFallback_GetHashCode_m15396_MethodInfo,
+	&EncoderExceptionFallback__ctor_m15397_MethodInfo,
+	&EncoderExceptionFallback_CreateFallbackBuffer_m15398_MethodInfo,
+	&EncoderExceptionFallback_Equals_m15399_MethodInfo,
+	&EncoderExceptionFallback_GetHashCode_m15400_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderExceptionFallback_Equals_m15395_MethodInfo;
-extern const MethodInfo EncoderExceptionFallback_GetHashCode_m15396_MethodInfo;
-extern const MethodInfo EncoderExceptionFallback_CreateFallbackBuffer_m15394_MethodInfo;
+extern const MethodInfo EncoderExceptionFallback_Equals_m15399_MethodInfo;
+extern const MethodInfo EncoderExceptionFallback_GetHashCode_m15400_MethodInfo;
+extern const MethodInfo EncoderExceptionFallback_CreateFallbackBuffer_m15398_MethodInfo;
 static const Il2CppMethodReference EncoderExceptionFallback_t2721_VTable[] =
 {
-	&EncoderExceptionFallback_Equals_m15395_MethodInfo,
+	&EncoderExceptionFallback_Equals_m15399_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&EncoderExceptionFallback_GetHashCode_m15396_MethodInfo,
+	&EncoderExceptionFallback_GetHashCode_m15400_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&EncoderExceptionFallback_CreateFallbackBuffer_m15394_MethodInfo,
+	&EncoderExceptionFallback_CreateFallbackBuffer_m15398_MethodInfo,
 };
 static bool EncoderExceptionFallback_t2721_VTableIsGenericMethod[] =
 {
@@ -11697,10 +11697,10 @@ extern TypeInfo EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderExceptionFallbackBufferMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderExceptionFallbackBuffer::.ctor()
-extern const MethodInfo EncoderExceptionFallbackBuffer__ctor_m15397_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallbackBuffer__ctor_m15401_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderExceptionFallbackBuffer__ctor_m15397/* method */
+	, (methodPointerType)&EncoderExceptionFallbackBuffer__ctor_m15401/* method */
 	, &EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11720,10 +11720,10 @@ extern const MethodInfo EncoderExceptionFallbackBuffer__ctor_m15397_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.EncoderExceptionFallbackBuffer::get_Remaining()
-extern const MethodInfo EncoderExceptionFallbackBuffer_get_Remaining_m15398_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallbackBuffer_get_Remaining_m15402_MethodInfo = 
 {
 	"get_Remaining"/* name */
-	, (methodPointerType)&EncoderExceptionFallbackBuffer_get_Remaining_m15398/* method */
+	, (methodPointerType)&EncoderExceptionFallbackBuffer_get_Remaining_m15402/* method */
 	, &EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -11743,21 +11743,21 @@ extern const MethodInfo EncoderExceptionFallbackBuffer_get_Remaining_m15398_Meth
 };
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15399_ParameterInfos[] = 
+static const ParameterInfo EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15403_ParameterInfos[] = 
 {
 	{"charUnknown", 0, 134223155, 0, &Char_t30_0_0_0},
 	{"index", 1, 134223156, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderExceptionFallbackBuffer::Fallback(System.Char,System.Int32)
-extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15399_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15403_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&EncoderExceptionFallbackBuffer_Fallback_m15399/* method */
+	, (methodPointerType)&EncoderExceptionFallbackBuffer_Fallback_m15403/* method */
 	, &EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15399_ParameterInfos/* parameters */
+	, EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15403_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11774,7 +11774,7 @@ extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15399_MethodInf
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15400_ParameterInfos[] = 
+static const ParameterInfo EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15404_ParameterInfos[] = 
 {
 	{"charUnknownHigh", 0, 134223157, 0, &Char_t30_0_0_0},
 	{"charUnknownLow", 1, 134223158, 0, &Char_t30_0_0_0},
@@ -11782,14 +11782,14 @@ static const ParameterInfo EncoderExceptionFallbackBuffer_t2723_EncoderException
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderExceptionFallbackBuffer::Fallback(System.Char,System.Char,System.Int32)
-extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15400_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15404_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&EncoderExceptionFallbackBuffer_Fallback_m15400/* method */
+	, (methodPointerType)&EncoderExceptionFallbackBuffer_Fallback_m15404/* method */
 	, &EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15400_ParameterInfos/* parameters */
+	, EncoderExceptionFallbackBuffer_t2723_EncoderExceptionFallbackBuffer_Fallback_m15404_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11805,10 +11805,10 @@ extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15400_MethodInf
 };
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.EncoderExceptionFallbackBuffer::GetNextChar()
-extern const MethodInfo EncoderExceptionFallbackBuffer_GetNextChar_m15401_MethodInfo = 
+extern const MethodInfo EncoderExceptionFallbackBuffer_GetNextChar_m15405_MethodInfo = 
 {
 	"GetNextChar"/* name */
-	, (methodPointerType)&EncoderExceptionFallbackBuffer_GetNextChar_m15401/* method */
+	, (methodPointerType)&EncoderExceptionFallbackBuffer_GetNextChar_m15405/* method */
 	, &EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t30/* invoker_method */
@@ -11828,19 +11828,19 @@ extern const MethodInfo EncoderExceptionFallbackBuffer_GetNextChar_m15401_Method
 };
 static const MethodInfo* EncoderExceptionFallbackBuffer_t2723_MethodInfos[] =
 {
-	&EncoderExceptionFallbackBuffer__ctor_m15397_MethodInfo,
-	&EncoderExceptionFallbackBuffer_get_Remaining_m15398_MethodInfo,
-	&EncoderExceptionFallbackBuffer_Fallback_m15399_MethodInfo,
-	&EncoderExceptionFallbackBuffer_Fallback_m15400_MethodInfo,
-	&EncoderExceptionFallbackBuffer_GetNextChar_m15401_MethodInfo,
+	&EncoderExceptionFallbackBuffer__ctor_m15401_MethodInfo,
+	&EncoderExceptionFallbackBuffer_get_Remaining_m15402_MethodInfo,
+	&EncoderExceptionFallbackBuffer_Fallback_m15403_MethodInfo,
+	&EncoderExceptionFallbackBuffer_Fallback_m15404_MethodInfo,
+	&EncoderExceptionFallbackBuffer_GetNextChar_m15405_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderExceptionFallbackBuffer_get_Remaining_m15398_MethodInfo;
+extern const MethodInfo EncoderExceptionFallbackBuffer_get_Remaining_m15402_MethodInfo;
 static const PropertyInfo EncoderExceptionFallbackBuffer_t2723____Remaining_PropertyInfo = 
 {
 	&EncoderExceptionFallbackBuffer_t2723_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &EncoderExceptionFallbackBuffer_get_Remaining_m15398_MethodInfo/* get */
+	, &EncoderExceptionFallbackBuffer_get_Remaining_m15402_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11851,19 +11851,19 @@ static const PropertyInfo* EncoderExceptionFallbackBuffer_t2723_PropertyInfos[] 
 	&EncoderExceptionFallbackBuffer_t2723____Remaining_PropertyInfo,
 	NULL
 };
-extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15399_MethodInfo;
-extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15400_MethodInfo;
-extern const MethodInfo EncoderExceptionFallbackBuffer_GetNextChar_m15401_MethodInfo;
+extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15403_MethodInfo;
+extern const MethodInfo EncoderExceptionFallbackBuffer_Fallback_m15404_MethodInfo;
+extern const MethodInfo EncoderExceptionFallbackBuffer_GetNextChar_m15405_MethodInfo;
 static const Il2CppMethodReference EncoderExceptionFallbackBuffer_t2723_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&EncoderExceptionFallbackBuffer_get_Remaining_m15398_MethodInfo,
-	&EncoderExceptionFallbackBuffer_Fallback_m15399_MethodInfo,
-	&EncoderExceptionFallbackBuffer_Fallback_m15400_MethodInfo,
-	&EncoderExceptionFallbackBuffer_GetNextChar_m15401_MethodInfo,
+	&EncoderExceptionFallbackBuffer_get_Remaining_m15402_MethodInfo,
+	&EncoderExceptionFallbackBuffer_Fallback_m15403_MethodInfo,
+	&EncoderExceptionFallbackBuffer_Fallback_m15404_MethodInfo,
+	&EncoderExceptionFallbackBuffer_GetNextChar_m15405_MethodInfo,
 };
 static bool EncoderExceptionFallbackBuffer_t2723_VTableIsGenericMethod[] =
 {
@@ -11955,10 +11955,10 @@ extern TypeInfo EncoderFallback_t2722_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallback::.ctor()
-extern const MethodInfo EncoderFallback__ctor_m15402_MethodInfo = 
+extern const MethodInfo EncoderFallback__ctor_m15406_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallback__ctor_m15402/* method */
+	, (methodPointerType)&EncoderFallback__ctor_m15406/* method */
 	, &EncoderFallback_t2722_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -11978,10 +11978,10 @@ extern const MethodInfo EncoderFallback__ctor_m15402_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallback::.cctor()
-extern const MethodInfo EncoderFallback__cctor_m15403_MethodInfo = 
+extern const MethodInfo EncoderFallback__cctor_m15407_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&EncoderFallback__cctor_m15403/* method */
+	, (methodPointerType)&EncoderFallback__cctor_m15407/* method */
 	, &EncoderFallback_t2722_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -12001,10 +12001,10 @@ extern const MethodInfo EncoderFallback__cctor_m15403_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallback System.Text.EncoderFallback::get_ExceptionFallback()
-extern const MethodInfo EncoderFallback_get_ExceptionFallback_m15404_MethodInfo = 
+extern const MethodInfo EncoderFallback_get_ExceptionFallback_m15408_MethodInfo = 
 {
 	"get_ExceptionFallback"/* name */
-	, (methodPointerType)&EncoderFallback_get_ExceptionFallback_m15404/* method */
+	, (methodPointerType)&EncoderFallback_get_ExceptionFallback_m15408/* method */
 	, &EncoderFallback_t2722_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallback_t2722_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12024,10 +12024,10 @@ extern const MethodInfo EncoderFallback_get_ExceptionFallback_m15404_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallback System.Text.EncoderFallback::get_ReplacementFallback()
-extern const MethodInfo EncoderFallback_get_ReplacementFallback_m15405_MethodInfo = 
+extern const MethodInfo EncoderFallback_get_ReplacementFallback_m15409_MethodInfo = 
 {
 	"get_ReplacementFallback"/* name */
-	, (methodPointerType)&EncoderFallback_get_ReplacementFallback_m15405/* method */
+	, (methodPointerType)&EncoderFallback_get_ReplacementFallback_m15409/* method */
 	, &EncoderFallback_t2722_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallback_t2722_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12047,10 +12047,10 @@ extern const MethodInfo EncoderFallback_get_ReplacementFallback_m15405_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallback System.Text.EncoderFallback::get_StandardSafeFallback()
-extern const MethodInfo EncoderFallback_get_StandardSafeFallback_m15406_MethodInfo = 
+extern const MethodInfo EncoderFallback_get_StandardSafeFallback_m15410_MethodInfo = 
 {
 	"get_StandardSafeFallback"/* name */
-	, (methodPointerType)&EncoderFallback_get_StandardSafeFallback_m15406/* method */
+	, (methodPointerType)&EncoderFallback_get_StandardSafeFallback_m15410/* method */
 	, &EncoderFallback_t2722_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallback_t2722_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12070,7 +12070,7 @@ extern const MethodInfo EncoderFallback_get_StandardSafeFallback_m15406_MethodIn
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallbackBuffer System.Text.EncoderFallback::CreateFallbackBuffer()
-extern const MethodInfo EncoderFallback_CreateFallbackBuffer_m17105_MethodInfo = 
+extern const MethodInfo EncoderFallback_CreateFallbackBuffer_m17109_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
 	, NULL/* method */
@@ -12093,42 +12093,42 @@ extern const MethodInfo EncoderFallback_CreateFallbackBuffer_m17105_MethodInfo =
 };
 static const MethodInfo* EncoderFallback_t2722_MethodInfos[] =
 {
-	&EncoderFallback__ctor_m15402_MethodInfo,
-	&EncoderFallback__cctor_m15403_MethodInfo,
-	&EncoderFallback_get_ExceptionFallback_m15404_MethodInfo,
-	&EncoderFallback_get_ReplacementFallback_m15405_MethodInfo,
-	&EncoderFallback_get_StandardSafeFallback_m15406_MethodInfo,
-	&EncoderFallback_CreateFallbackBuffer_m17105_MethodInfo,
+	&EncoderFallback__ctor_m15406_MethodInfo,
+	&EncoderFallback__cctor_m15407_MethodInfo,
+	&EncoderFallback_get_ExceptionFallback_m15408_MethodInfo,
+	&EncoderFallback_get_ReplacementFallback_m15409_MethodInfo,
+	&EncoderFallback_get_StandardSafeFallback_m15410_MethodInfo,
+	&EncoderFallback_CreateFallbackBuffer_m17109_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderFallback_get_ExceptionFallback_m15404_MethodInfo;
+extern const MethodInfo EncoderFallback_get_ExceptionFallback_m15408_MethodInfo;
 static const PropertyInfo EncoderFallback_t2722____ExceptionFallback_PropertyInfo = 
 {
 	&EncoderFallback_t2722_il2cpp_TypeInfo/* parent */
 	, "ExceptionFallback"/* name */
-	, &EncoderFallback_get_ExceptionFallback_m15404_MethodInfo/* get */
+	, &EncoderFallback_get_ExceptionFallback_m15408_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo EncoderFallback_get_ReplacementFallback_m15405_MethodInfo;
+extern const MethodInfo EncoderFallback_get_ReplacementFallback_m15409_MethodInfo;
 static const PropertyInfo EncoderFallback_t2722____ReplacementFallback_PropertyInfo = 
 {
 	&EncoderFallback_t2722_il2cpp_TypeInfo/* parent */
 	, "ReplacementFallback"/* name */
-	, &EncoderFallback_get_ReplacementFallback_m15405_MethodInfo/* get */
+	, &EncoderFallback_get_ReplacementFallback_m15409_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo EncoderFallback_get_StandardSafeFallback_m15406_MethodInfo;
+extern const MethodInfo EncoderFallback_get_StandardSafeFallback_m15410_MethodInfo;
 static const PropertyInfo EncoderFallback_t2722____StandardSafeFallback_PropertyInfo = 
 {
 	&EncoderFallback_t2722_il2cpp_TypeInfo/* parent */
 	, "StandardSafeFallback"/* name */
-	, &EncoderFallback_get_StandardSafeFallback_m15406_MethodInfo/* get */
+	, &EncoderFallback_get_StandardSafeFallback_m15410_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -12235,10 +12235,10 @@ extern TypeInfo EncoderFallbackBuffer_t2724_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderFallbackBufferMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallbackBuffer::.ctor()
-extern const MethodInfo EncoderFallbackBuffer__ctor_m15407_MethodInfo = 
+extern const MethodInfo EncoderFallbackBuffer__ctor_m15411_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallbackBuffer__ctor_m15407/* method */
+	, (methodPointerType)&EncoderFallbackBuffer__ctor_m15411/* method */
 	, &EncoderFallbackBuffer_t2724_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -12258,7 +12258,7 @@ extern const MethodInfo EncoderFallbackBuffer__ctor_m15407_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.EncoderFallbackBuffer::get_Remaining()
-extern const MethodInfo EncoderFallbackBuffer_get_Remaining_m17106_MethodInfo = 
+extern const MethodInfo EncoderFallbackBuffer_get_Remaining_m17110_MethodInfo = 
 {
 	"get_Remaining"/* name */
 	, NULL/* method */
@@ -12281,21 +12281,21 @@ extern const MethodInfo EncoderFallbackBuffer_get_Remaining_m17106_MethodInfo =
 };
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17107_ParameterInfos[] = 
+static const ParameterInfo EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17111_ParameterInfos[] = 
 {
 	{"charUnknown", 0, 134223160, 0, &Char_t30_0_0_0},
 	{"index", 1, 134223161, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderFallbackBuffer::Fallback(System.Char,System.Int32)
-extern const MethodInfo EncoderFallbackBuffer_Fallback_m17107_MethodInfo = 
+extern const MethodInfo EncoderFallbackBuffer_Fallback_m17111_MethodInfo = 
 {
 	"Fallback"/* name */
 	, NULL/* method */
 	, &EncoderFallbackBuffer_t2724_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17107_ParameterInfos/* parameters */
+	, EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17111_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -12312,7 +12312,7 @@ extern const MethodInfo EncoderFallbackBuffer_Fallback_m17107_MethodInfo =
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17108_ParameterInfos[] = 
+static const ParameterInfo EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17112_ParameterInfos[] = 
 {
 	{"charUnknownHigh", 0, 134223162, 0, &Char_t30_0_0_0},
 	{"charUnknownLow", 1, 134223163, 0, &Char_t30_0_0_0},
@@ -12320,14 +12320,14 @@ static const ParameterInfo EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fal
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderFallbackBuffer::Fallback(System.Char,System.Char,System.Int32)
-extern const MethodInfo EncoderFallbackBuffer_Fallback_m17108_MethodInfo = 
+extern const MethodInfo EncoderFallbackBuffer_Fallback_m17112_MethodInfo = 
 {
 	"Fallback"/* name */
 	, NULL/* method */
 	, &EncoderFallbackBuffer_t2724_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17108_ParameterInfos/* parameters */
+	, EncoderFallbackBuffer_t2724_EncoderFallbackBuffer_Fallback_m17112_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -12343,7 +12343,7 @@ extern const MethodInfo EncoderFallbackBuffer_Fallback_m17108_MethodInfo =
 };
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.EncoderFallbackBuffer::GetNextChar()
-extern const MethodInfo EncoderFallbackBuffer_GetNextChar_m17109_MethodInfo = 
+extern const MethodInfo EncoderFallbackBuffer_GetNextChar_m17113_MethodInfo = 
 {
 	"GetNextChar"/* name */
 	, NULL/* method */
@@ -12366,19 +12366,19 @@ extern const MethodInfo EncoderFallbackBuffer_GetNextChar_m17109_MethodInfo =
 };
 static const MethodInfo* EncoderFallbackBuffer_t2724_MethodInfos[] =
 {
-	&EncoderFallbackBuffer__ctor_m15407_MethodInfo,
-	&EncoderFallbackBuffer_get_Remaining_m17106_MethodInfo,
-	&EncoderFallbackBuffer_Fallback_m17107_MethodInfo,
-	&EncoderFallbackBuffer_Fallback_m17108_MethodInfo,
-	&EncoderFallbackBuffer_GetNextChar_m17109_MethodInfo,
+	&EncoderFallbackBuffer__ctor_m15411_MethodInfo,
+	&EncoderFallbackBuffer_get_Remaining_m17110_MethodInfo,
+	&EncoderFallbackBuffer_Fallback_m17111_MethodInfo,
+	&EncoderFallbackBuffer_Fallback_m17112_MethodInfo,
+	&EncoderFallbackBuffer_GetNextChar_m17113_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderFallbackBuffer_get_Remaining_m17106_MethodInfo;
+extern const MethodInfo EncoderFallbackBuffer_get_Remaining_m17110_MethodInfo;
 static const PropertyInfo EncoderFallbackBuffer_t2724____Remaining_PropertyInfo = 
 {
 	&EncoderFallbackBuffer_t2724_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &EncoderFallbackBuffer_get_Remaining_m17106_MethodInfo/* get */
+	, &EncoderFallbackBuffer_get_Remaining_m17110_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -12488,10 +12488,10 @@ extern TypeInfo EncoderFallbackException_t2725_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderFallbackExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallbackException::.ctor()
-extern const MethodInfo EncoderFallbackException__ctor_m15408_MethodInfo = 
+extern const MethodInfo EncoderFallbackException__ctor_m15412_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallbackException__ctor_m15408/* method */
+	, (methodPointerType)&EncoderFallbackException__ctor_m15412/* method */
 	, &EncoderFallbackException_t2725_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -12510,20 +12510,20 @@ extern const MethodInfo EncoderFallbackException__ctor_m15408_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15409_ParameterInfos[] = 
+static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15413_ParameterInfos[] = 
 {
 	{"message", 0, 134223165, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallbackException::.ctor(System.String)
-extern const MethodInfo EncoderFallbackException__ctor_m15409_MethodInfo = 
+extern const MethodInfo EncoderFallbackException__ctor_m15413_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallbackException__ctor_m15409/* method */
+	, (methodPointerType)&EncoderFallbackException__ctor_m15413/* method */
 	, &EncoderFallbackException_t2725_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15409_ParameterInfos/* parameters */
+	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15413_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12539,21 +12539,21 @@ extern const MethodInfo EncoderFallbackException__ctor_m15409_MethodInfo =
 };
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15410_ParameterInfos[] = 
+static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15414_ParameterInfos[] = 
 {
 	{"charUnknown", 0, 134223166, 0, &Char_t30_0_0_0},
 	{"index", 1, 134223167, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallbackException::.ctor(System.Char,System.Int32)
-extern const MethodInfo EncoderFallbackException__ctor_m15410_MethodInfo = 
+extern const MethodInfo EncoderFallbackException__ctor_m15414_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallbackException__ctor_m15410/* method */
+	, (methodPointerType)&EncoderFallbackException__ctor_m15414/* method */
 	, &EncoderFallbackException_t2725_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15410_ParameterInfos/* parameters */
+	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15414_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -12570,7 +12570,7 @@ extern const MethodInfo EncoderFallbackException__ctor_m15410_MethodInfo =
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15411_ParameterInfos[] = 
+static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15415_ParameterInfos[] = 
 {
 	{"charUnknownHigh", 0, 134223168, 0, &Char_t30_0_0_0},
 	{"charUnknownLow", 1, 134223169, 0, &Char_t30_0_0_0},
@@ -12578,14 +12578,14 @@ static const ParameterInfo EncoderFallbackException_t2725_EncoderFallbackExcepti
 };
 extern void* RuntimeInvoker_Void_t57_Int16_t641_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderFallbackException::.ctor(System.Char,System.Char,System.Int32)
-extern const MethodInfo EncoderFallbackException__ctor_m15411_MethodInfo = 
+extern const MethodInfo EncoderFallbackException__ctor_m15415_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderFallbackException__ctor_m15411/* method */
+	, (methodPointerType)&EncoderFallbackException__ctor_m15415/* method */
 	, &EncoderFallbackException_t2725_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int16_t641_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15411_ParameterInfos/* parameters */
+	, EncoderFallbackException_t2725_EncoderFallbackException__ctor_m15415_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -12601,10 +12601,10 @@ extern const MethodInfo EncoderFallbackException__ctor_m15411_MethodInfo =
 };
 static const MethodInfo* EncoderFallbackException_t2725_MethodInfos[] =
 {
-	&EncoderFallbackException__ctor_m15408_MethodInfo,
-	&EncoderFallbackException__ctor_m15409_MethodInfo,
-	&EncoderFallbackException__ctor_m15410_MethodInfo,
-	&EncoderFallbackException__ctor_m15411_MethodInfo,
+	&EncoderFallbackException__ctor_m15412_MethodInfo,
+	&EncoderFallbackException__ctor_m15413_MethodInfo,
+	&EncoderFallbackException__ctor_m15414_MethodInfo,
+	&EncoderFallbackException__ctor_m15415_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference EncoderFallbackException_t2725_VTable[] =
@@ -12612,15 +12612,15 @@ static const Il2CppMethodReference EncoderFallbackException_t2725_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&ArgumentException_get_Message_m15684_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&ArgumentException_get_Message_m15688_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
 };
 static bool EncoderFallbackException_t2725_VTableIsGenericMethod[] =
 {
@@ -12721,10 +12721,10 @@ extern TypeInfo EncoderReplacementFallback_t2726_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_EncoderReplacementFallbackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderReplacementFallback::.ctor()
-extern const MethodInfo EncoderReplacementFallback__ctor_m15412_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback__ctor_m15416_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderReplacementFallback__ctor_m15412/* method */
+	, (methodPointerType)&EncoderReplacementFallback__ctor_m15416/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -12743,20 +12743,20 @@ extern const MethodInfo EncoderReplacementFallback__ctor_m15412_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo EncoderReplacementFallback_t2726_EncoderReplacementFallback__ctor_m15413_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallback_t2726_EncoderReplacementFallback__ctor_m15417_ParameterInfos[] = 
 {
 	{"replacement", 0, 134223171, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderReplacementFallback::.ctor(System.String)
-extern const MethodInfo EncoderReplacementFallback__ctor_m15413_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback__ctor_m15417_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderReplacementFallback__ctor_m15413/* method */
+	, (methodPointerType)&EncoderReplacementFallback__ctor_m15417/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, EncoderReplacementFallback_t2726_EncoderReplacementFallback__ctor_m15413_ParameterInfos/* parameters */
+	, EncoderReplacementFallback_t2726_EncoderReplacementFallback__ctor_m15417_ParameterInfos/* parameters */
 	, 713/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12772,10 +12772,10 @@ extern const MethodInfo EncoderReplacementFallback__ctor_m15413_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.EncoderReplacementFallback::get_DefaultString()
-extern const MethodInfo EncoderReplacementFallback_get_DefaultString_m15414_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback_get_DefaultString_m15418_MethodInfo = 
 {
 	"get_DefaultString"/* name */
-	, (methodPointerType)&EncoderReplacementFallback_get_DefaultString_m15414/* method */
+	, (methodPointerType)&EncoderReplacementFallback_get_DefaultString_m15418/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12795,10 +12795,10 @@ extern const MethodInfo EncoderReplacementFallback_get_DefaultString_m15414_Meth
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallbackBuffer System.Text.EncoderReplacementFallback::CreateFallbackBuffer()
-extern const MethodInfo EncoderReplacementFallback_CreateFallbackBuffer_m15415_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback_CreateFallbackBuffer_m15419_MethodInfo = 
 {
 	"CreateFallbackBuffer"/* name */
-	, (methodPointerType)&EncoderReplacementFallback_CreateFallbackBuffer_m15415/* method */
+	, (methodPointerType)&EncoderReplacementFallback_CreateFallbackBuffer_m15419/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallbackBuffer_t2724_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12817,20 +12817,20 @@ extern const MethodInfo EncoderReplacementFallback_CreateFallbackBuffer_m15415_M
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo EncoderReplacementFallback_t2726_EncoderReplacementFallback_Equals_m15416_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallback_t2726_EncoderReplacementFallback_Equals_m15420_ParameterInfos[] = 
 {
 	{"value", 0, 134223172, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderReplacementFallback::Equals(System.Object)
-extern const MethodInfo EncoderReplacementFallback_Equals_m15416_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback_Equals_m15420_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&EncoderReplacementFallback_Equals_m15416/* method */
+	, (methodPointerType)&EncoderReplacementFallback_Equals_m15420/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, EncoderReplacementFallback_t2726_EncoderReplacementFallback_Equals_m15416_ParameterInfos/* parameters */
+	, EncoderReplacementFallback_t2726_EncoderReplacementFallback_Equals_m15420_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12846,10 +12846,10 @@ extern const MethodInfo EncoderReplacementFallback_Equals_m15416_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.EncoderReplacementFallback::GetHashCode()
-extern const MethodInfo EncoderReplacementFallback_GetHashCode_m15417_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallback_GetHashCode_m15421_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&EncoderReplacementFallback_GetHashCode_m15417/* method */
+	, (methodPointerType)&EncoderReplacementFallback_GetHashCode_m15421/* method */
 	, &EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -12869,20 +12869,20 @@ extern const MethodInfo EncoderReplacementFallback_GetHashCode_m15417_MethodInfo
 };
 static const MethodInfo* EncoderReplacementFallback_t2726_MethodInfos[] =
 {
-	&EncoderReplacementFallback__ctor_m15412_MethodInfo,
-	&EncoderReplacementFallback__ctor_m15413_MethodInfo,
-	&EncoderReplacementFallback_get_DefaultString_m15414_MethodInfo,
-	&EncoderReplacementFallback_CreateFallbackBuffer_m15415_MethodInfo,
-	&EncoderReplacementFallback_Equals_m15416_MethodInfo,
-	&EncoderReplacementFallback_GetHashCode_m15417_MethodInfo,
+	&EncoderReplacementFallback__ctor_m15416_MethodInfo,
+	&EncoderReplacementFallback__ctor_m15417_MethodInfo,
+	&EncoderReplacementFallback_get_DefaultString_m15418_MethodInfo,
+	&EncoderReplacementFallback_CreateFallbackBuffer_m15419_MethodInfo,
+	&EncoderReplacementFallback_Equals_m15420_MethodInfo,
+	&EncoderReplacementFallback_GetHashCode_m15421_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderReplacementFallback_get_DefaultString_m15414_MethodInfo;
+extern const MethodInfo EncoderReplacementFallback_get_DefaultString_m15418_MethodInfo;
 static const PropertyInfo EncoderReplacementFallback_t2726____DefaultString_PropertyInfo = 
 {
 	&EncoderReplacementFallback_t2726_il2cpp_TypeInfo/* parent */
 	, "DefaultString"/* name */
-	, &EncoderReplacementFallback_get_DefaultString_m15414_MethodInfo/* get */
+	, &EncoderReplacementFallback_get_DefaultString_m15418_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -12893,16 +12893,16 @@ static const PropertyInfo* EncoderReplacementFallback_t2726_PropertyInfos[] =
 	&EncoderReplacementFallback_t2726____DefaultString_PropertyInfo,
 	NULL
 };
-extern const MethodInfo EncoderReplacementFallback_Equals_m15416_MethodInfo;
-extern const MethodInfo EncoderReplacementFallback_GetHashCode_m15417_MethodInfo;
-extern const MethodInfo EncoderReplacementFallback_CreateFallbackBuffer_m15415_MethodInfo;
+extern const MethodInfo EncoderReplacementFallback_Equals_m15420_MethodInfo;
+extern const MethodInfo EncoderReplacementFallback_GetHashCode_m15421_MethodInfo;
+extern const MethodInfo EncoderReplacementFallback_CreateFallbackBuffer_m15419_MethodInfo;
 static const Il2CppMethodReference EncoderReplacementFallback_t2726_VTable[] =
 {
-	&EncoderReplacementFallback_Equals_m15416_MethodInfo,
+	&EncoderReplacementFallback_Equals_m15420_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&EncoderReplacementFallback_GetHashCode_m15417_MethodInfo,
+	&EncoderReplacementFallback_GetHashCode_m15421_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&EncoderReplacementFallback_CreateFallbackBuffer_m15415_MethodInfo,
+	&EncoderReplacementFallback_CreateFallbackBuffer_m15419_MethodInfo,
 };
 static bool EncoderReplacementFallback_t2726_VTableIsGenericMethod[] =
 {
@@ -12990,20 +12990,20 @@ extern TypeInfo EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo;
 // System.Text.EncoderReplacementFallbackBuffer
 #include "mscorlib_System_Text_EncoderReplacementFallbackBufferMethodDeclarations.h"
 extern const Il2CppType EncoderReplacementFallback_t2726_0_0_0;
-static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer__ctor_m15418_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer__ctor_m15422_ParameterInfos[] = 
 {
 	{"fallback", 0, 134223173, 0, &EncoderReplacementFallback_t2726_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.EncoderReplacementFallbackBuffer::.ctor(System.Text.EncoderReplacementFallback)
-extern const MethodInfo EncoderReplacementFallbackBuffer__ctor_m15418_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer__ctor_m15422_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer__ctor_m15418/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer__ctor_m15422/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer__ctor_m15418_ParameterInfos/* parameters */
+	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer__ctor_m15422_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13019,10 +13019,10 @@ extern const MethodInfo EncoderReplacementFallbackBuffer__ctor_m15418_MethodInfo
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.EncoderReplacementFallbackBuffer::get_Remaining()
-extern const MethodInfo EncoderReplacementFallbackBuffer_get_Remaining_m15419_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer_get_Remaining_m15423_MethodInfo = 
 {
 	"get_Remaining"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer_get_Remaining_m15419/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer_get_Remaining_m15423/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -13042,21 +13042,21 @@ extern const MethodInfo EncoderReplacementFallbackBuffer_get_Remaining_m15419_Me
 };
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15420_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15424_ParameterInfos[] = 
 {
 	{"charUnknown", 0, 134223174, 0, &Char_t30_0_0_0},
 	{"index", 1, 134223175, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Char,System.Int32)
-extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15420_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15424_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15420/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15424/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15420_ParameterInfos/* parameters */
+	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15424_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13073,7 +13073,7 @@ extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15420_MethodI
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15421_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15425_ParameterInfos[] = 
 {
 	{"charUnknownHigh", 0, 134223176, 0, &Char_t30_0_0_0},
 	{"charUnknownLow", 1, 134223177, 0, &Char_t30_0_0_0},
@@ -13081,14 +13081,14 @@ static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplace
 };
 extern void* RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Char,System.Char,System.Int32)
-extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15421_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15425_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15421/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15425/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int16_t641_Int16_t641_Int32_t50/* invoker_method */
-	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15421_ParameterInfos/* parameters */
+	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15425_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13103,20 +13103,20 @@ extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15421_MethodI
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15422_ParameterInfos[] = 
+static const ParameterInfo EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15426_ParameterInfos[] = 
 {
 	{"index", 0, 134223179, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Int32)
-extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15422_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15426_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15422/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer_Fallback_m15426/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int32_t50/* invoker_method */
-	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15422_ParameterInfos/* parameters */
+	, EncoderReplacementFallbackBuffer_t2727_EncoderReplacementFallbackBuffer_Fallback_m15426_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -13132,10 +13132,10 @@ extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15422_MethodI
 };
 extern void* RuntimeInvoker_Char_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.EncoderReplacementFallbackBuffer::GetNextChar()
-extern const MethodInfo EncoderReplacementFallbackBuffer_GetNextChar_m15423_MethodInfo = 
+extern const MethodInfo EncoderReplacementFallbackBuffer_GetNextChar_m15427_MethodInfo = 
 {
 	"GetNextChar"/* name */
-	, (methodPointerType)&EncoderReplacementFallbackBuffer_GetNextChar_m15423/* method */
+	, (methodPointerType)&EncoderReplacementFallbackBuffer_GetNextChar_m15427/* method */
 	, &EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t30/* invoker_method */
@@ -13155,20 +13155,20 @@ extern const MethodInfo EncoderReplacementFallbackBuffer_GetNextChar_m15423_Meth
 };
 static const MethodInfo* EncoderReplacementFallbackBuffer_t2727_MethodInfos[] =
 {
-	&EncoderReplacementFallbackBuffer__ctor_m15418_MethodInfo,
-	&EncoderReplacementFallbackBuffer_get_Remaining_m15419_MethodInfo,
-	&EncoderReplacementFallbackBuffer_Fallback_m15420_MethodInfo,
-	&EncoderReplacementFallbackBuffer_Fallback_m15421_MethodInfo,
-	&EncoderReplacementFallbackBuffer_Fallback_m15422_MethodInfo,
-	&EncoderReplacementFallbackBuffer_GetNextChar_m15423_MethodInfo,
+	&EncoderReplacementFallbackBuffer__ctor_m15422_MethodInfo,
+	&EncoderReplacementFallbackBuffer_get_Remaining_m15423_MethodInfo,
+	&EncoderReplacementFallbackBuffer_Fallback_m15424_MethodInfo,
+	&EncoderReplacementFallbackBuffer_Fallback_m15425_MethodInfo,
+	&EncoderReplacementFallbackBuffer_Fallback_m15426_MethodInfo,
+	&EncoderReplacementFallbackBuffer_GetNextChar_m15427_MethodInfo,
 	NULL
 };
-extern const MethodInfo EncoderReplacementFallbackBuffer_get_Remaining_m15419_MethodInfo;
+extern const MethodInfo EncoderReplacementFallbackBuffer_get_Remaining_m15423_MethodInfo;
 static const PropertyInfo EncoderReplacementFallbackBuffer_t2727____Remaining_PropertyInfo = 
 {
 	&EncoderReplacementFallbackBuffer_t2727_il2cpp_TypeInfo/* parent */
 	, "Remaining"/* name */
-	, &EncoderReplacementFallbackBuffer_get_Remaining_m15419_MethodInfo/* get */
+	, &EncoderReplacementFallbackBuffer_get_Remaining_m15423_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13179,19 +13179,19 @@ static const PropertyInfo* EncoderReplacementFallbackBuffer_t2727_PropertyInfos[
 	&EncoderReplacementFallbackBuffer_t2727____Remaining_PropertyInfo,
 	NULL
 };
-extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15420_MethodInfo;
-extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15421_MethodInfo;
-extern const MethodInfo EncoderReplacementFallbackBuffer_GetNextChar_m15423_MethodInfo;
+extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15424_MethodInfo;
+extern const MethodInfo EncoderReplacementFallbackBuffer_Fallback_m15425_MethodInfo;
+extern const MethodInfo EncoderReplacementFallbackBuffer_GetNextChar_m15427_MethodInfo;
 static const Il2CppMethodReference EncoderReplacementFallbackBuffer_t2727_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&EncoderReplacementFallbackBuffer_get_Remaining_m15419_MethodInfo,
-	&EncoderReplacementFallbackBuffer_Fallback_m15420_MethodInfo,
-	&EncoderReplacementFallbackBuffer_Fallback_m15421_MethodInfo,
-	&EncoderReplacementFallbackBuffer_GetNextChar_m15423_MethodInfo,
+	&EncoderReplacementFallbackBuffer_get_Remaining_m15423_MethodInfo,
+	&EncoderReplacementFallbackBuffer_Fallback_m15424_MethodInfo,
+	&EncoderReplacementFallbackBuffer_Fallback_m15425_MethodInfo,
+	&EncoderReplacementFallbackBuffer_GetNextChar_m15427_MethodInfo,
 };
 static bool EncoderReplacementFallbackBuffer_t2727_VTableIsGenericMethod[] =
 {
@@ -13282,20 +13282,20 @@ extern TypeInfo ForwardingDecoder_t2728_il2cpp_TypeInfo;
 // System.Text.Encoding/ForwardingDecoder
 #include "mscorlib_System_Text_Encoding_ForwardingDecoderMethodDeclarations.h"
 extern const Il2CppType Encoding_t638_0_0_0;
-static const ParameterInfo ForwardingDecoder_t2728_ForwardingDecoder__ctor_m15424_ParameterInfos[] = 
+static const ParameterInfo ForwardingDecoder_t2728_ForwardingDecoder__ctor_m15428_ParameterInfos[] = 
 {
 	{"enc", 0, 134223234, 0, &Encoding_t638_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding/ForwardingDecoder::.ctor(System.Text.Encoding)
-extern const MethodInfo ForwardingDecoder__ctor_m15424_MethodInfo = 
+extern const MethodInfo ForwardingDecoder__ctor_m15428_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ForwardingDecoder__ctor_m15424/* method */
+	, (methodPointerType)&ForwardingDecoder__ctor_m15428/* method */
 	, &ForwardingDecoder_t2728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ForwardingDecoder_t2728_ForwardingDecoder__ctor_m15424_ParameterInfos/* parameters */
+	, ForwardingDecoder_t2728_ForwardingDecoder__ctor_m15428_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13314,7 +13314,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo ForwardingDecoder_t2728_ForwardingDecoder_GetChars_m15425_ParameterInfos[] = 
+static const ParameterInfo ForwardingDecoder_t2728_ForwardingDecoder_GetChars_m15429_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223235, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223236, 0, &Int32_t50_0_0_0},
@@ -13324,14 +13324,14 @@ static const ParameterInfo ForwardingDecoder_t2728_ForwardingDecoder_GetChars_m1
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding/ForwardingDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo ForwardingDecoder_GetChars_m15425_MethodInfo = 
+extern const MethodInfo ForwardingDecoder_GetChars_m15429_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&ForwardingDecoder_GetChars_m15425/* method */
+	, (methodPointerType)&ForwardingDecoder_GetChars_m15429/* method */
 	, &ForwardingDecoder_t2728_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, ForwardingDecoder_t2728_ForwardingDecoder_GetChars_m15425_ParameterInfos/* parameters */
+	, ForwardingDecoder_t2728_ForwardingDecoder_GetChars_m15429_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13347,18 +13347,18 @@ extern const MethodInfo ForwardingDecoder_GetChars_m15425_MethodInfo =
 };
 static const MethodInfo* ForwardingDecoder_t2728_MethodInfos[] =
 {
-	&ForwardingDecoder__ctor_m15424_MethodInfo,
-	&ForwardingDecoder_GetChars_m15425_MethodInfo,
+	&ForwardingDecoder__ctor_m15428_MethodInfo,
+	&ForwardingDecoder_GetChars_m15429_MethodInfo,
 	NULL
 };
-extern const MethodInfo ForwardingDecoder_GetChars_m15425_MethodInfo;
+extern const MethodInfo ForwardingDecoder_GetChars_m15429_MethodInfo;
 static const Il2CppMethodReference ForwardingDecoder_t2728_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&ForwardingDecoder_GetChars_m15425_MethodInfo,
+	&ForwardingDecoder_GetChars_m15429_MethodInfo,
 };
 static bool ForwardingDecoder_t2728_VTableIsGenericMethod[] =
 {
@@ -13447,10 +13447,10 @@ TypeInfo ForwardingDecoder_t2728_il2cpp_TypeInfo =
 #include "mscorlib_System_Text_EncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding::.ctor()
-extern const MethodInfo Encoding__ctor_m15426_MethodInfo = 
+extern const MethodInfo Encoding__ctor_m15430_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Encoding__ctor_m15426/* method */
+	, (methodPointerType)&Encoding__ctor_m15430/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -13469,20 +13469,20 @@ extern const MethodInfo Encoding__ctor_m15426_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding__ctor_m15427_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding__ctor_m15431_ParameterInfos[] = 
 {
 	{"codePage", 0, 134223180, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding::.ctor(System.Int32)
-extern const MethodInfo Encoding__ctor_m15427_MethodInfo = 
+extern const MethodInfo Encoding__ctor_m15431_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Encoding__ctor_m15427/* method */
+	, (methodPointerType)&Encoding__ctor_m15431/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding__ctor_m15427_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding__ctor_m15431_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -13498,10 +13498,10 @@ extern const MethodInfo Encoding__ctor_m15427_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding::.cctor()
-extern const MethodInfo Encoding__cctor_m15428_MethodInfo = 
+extern const MethodInfo Encoding__cctor_m15432_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Encoding__cctor_m15428/* method */
+	, (methodPointerType)&Encoding__cctor_m15432/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -13520,20 +13520,20 @@ extern const MethodInfo Encoding__cctor_m15428_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding___m15429_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding___m15433_ParameterInfos[] = 
 {
 	{"arg", 0, 134223181, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::_(System.String)
-extern const MethodInfo Encoding___m15429_MethodInfo = 
+extern const MethodInfo Encoding___m15433_MethodInfo = 
 {
 	"_"/* name */
-	, (methodPointerType)&Encoding___m15429/* method */
+	, (methodPointerType)&Encoding___m15433/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding___m15429_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding___m15433_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -13549,10 +13549,10 @@ extern const MethodInfo Encoding___m15429_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.Encoding::get_IsReadOnly()
-extern const MethodInfo Encoding_get_IsReadOnly_m15430_MethodInfo = 
+extern const MethodInfo Encoding_get_IsReadOnly_m15434_MethodInfo = 
 {
 	"get_IsReadOnly"/* name */
-	, (methodPointerType)&Encoding_get_IsReadOnly_m15430/* method */
+	, (methodPointerType)&Encoding_get_IsReadOnly_m15434/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -13572,10 +13572,10 @@ extern const MethodInfo Encoding_get_IsReadOnly_m15430_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.DecoderFallback System.Text.Encoding::get_DecoderFallback()
-extern const MethodInfo Encoding_get_DecoderFallback_m15431_MethodInfo = 
+extern const MethodInfo Encoding_get_DecoderFallback_m15435_MethodInfo = 
 {
 	"get_DecoderFallback"/* name */
-	, (methodPointerType)&Encoding_get_DecoderFallback_m15431/* method */
+	, (methodPointerType)&Encoding_get_DecoderFallback_m15435/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &DecoderFallback_t2714_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13594,20 +13594,20 @@ extern const MethodInfo Encoding_get_DecoderFallback_m15431_MethodInfo =
 
 };
 extern const Il2CppType DecoderFallback_t2714_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_set_DecoderFallback_m15432_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_set_DecoderFallback_m15436_ParameterInfos[] = 
 {
 	{"value", 0, 134223182, 0, &DecoderFallback_t2714_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding::set_DecoderFallback(System.Text.DecoderFallback)
-extern const MethodInfo Encoding_set_DecoderFallback_m15432_MethodInfo = 
+extern const MethodInfo Encoding_set_DecoderFallback_m15436_MethodInfo = 
 {
 	"set_DecoderFallback"/* name */
-	, (methodPointerType)&Encoding_set_DecoderFallback_m15432/* method */
+	, (methodPointerType)&Encoding_set_DecoderFallback_m15436/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_set_DecoderFallback_m15432_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_set_DecoderFallback_m15436_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13623,10 +13623,10 @@ extern const MethodInfo Encoding_set_DecoderFallback_m15432_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.EncoderFallback System.Text.Encoding::get_EncoderFallback()
-extern const MethodInfo Encoding_get_EncoderFallback_m15433_MethodInfo = 
+extern const MethodInfo Encoding_get_EncoderFallback_m15437_MethodInfo = 
 {
 	"get_EncoderFallback"/* name */
-	, (methodPointerType)&Encoding_get_EncoderFallback_m15433/* method */
+	, (methodPointerType)&Encoding_get_EncoderFallback_m15437/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &EncoderFallback_t2722_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13646,21 +13646,21 @@ extern const MethodInfo Encoding_get_EncoderFallback_m15433_MethodInfo =
 };
 extern const Il2CppType EncoderFallback_t2722_0_0_0;
 extern const Il2CppType DecoderFallback_t2714_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_SetFallbackInternal_m15434_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_SetFallbackInternal_m15438_ParameterInfos[] = 
 {
 	{"e", 0, 134223183, 0, &EncoderFallback_t2722_0_0_0},
 	{"d", 1, 134223184, 0, &DecoderFallback_t2714_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Encoding::SetFallbackInternal(System.Text.EncoderFallback,System.Text.DecoderFallback)
-extern const MethodInfo Encoding_SetFallbackInternal_m15434_MethodInfo = 
+extern const MethodInfo Encoding_SetFallbackInternal_m15438_MethodInfo = 
 {
 	"SetFallbackInternal"/* name */
-	, (methodPointerType)&Encoding_SetFallbackInternal_m15434/* method */
+	, (methodPointerType)&Encoding_SetFallbackInternal_m15438/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_SetFallbackInternal_m15434_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_SetFallbackInternal_m15438_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -13675,20 +13675,20 @@ extern const MethodInfo Encoding_SetFallbackInternal_m15434_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_Equals_m15435_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_Equals_m15439_ParameterInfos[] = 
 {
 	{"value", 0, 134223185, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.Encoding::Equals(System.Object)
-extern const MethodInfo Encoding_Equals_m15435_MethodInfo = 
+extern const MethodInfo Encoding_Equals_m15439_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&Encoding_Equals_m15435/* method */
+	, (methodPointerType)&Encoding_Equals_m15439/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_Equals_m15435_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_Equals_m15439_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13705,7 +13705,7 @@ extern const MethodInfo Encoding_Equals_m15435_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m17110_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m17114_ParameterInfos[] = 
 {
 	{"chars", 0, 134223186, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223187, 0, &Int32_t50_0_0_0},
@@ -13713,14 +13713,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m17110_ParameterI
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo Encoding_GetByteCount_m17110_MethodInfo = 
+extern const MethodInfo Encoding_GetByteCount_m17114_MethodInfo = 
 {
 	"GetByteCount"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetByteCount_m17110_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetByteCount_m17114_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13735,20 +13735,20 @@ extern const MethodInfo Encoding_GetByteCount_m17110_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15436_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15440_ParameterInfos[] = 
 {
 	{"s", 0, 134223189, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetByteCount(System.String)
-extern const MethodInfo Encoding_GetByteCount_m15436_MethodInfo = 
+extern const MethodInfo Encoding_GetByteCount_m15440_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&Encoding_GetByteCount_m15436/* method */
+	, (methodPointerType)&Encoding_GetByteCount_m15440/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetByteCount_m15436_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetByteCount_m15440_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13763,20 +13763,20 @@ extern const MethodInfo Encoding_GetByteCount_m15436_MethodInfo =
 
 };
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15437_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15441_ParameterInfos[] = 
 {
 	{"chars", 0, 134223190, 0, &CharU5BU5D_t608_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetByteCount(System.Char[])
-extern const MethodInfo Encoding_GetByteCount_m15437_MethodInfo = 
+extern const MethodInfo Encoding_GetByteCount_m15441_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&Encoding_GetByteCount_m15437/* method */
+	, (methodPointerType)&Encoding_GetByteCount_m15441/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetByteCount_m15437_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetByteCount_m15441_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13795,7 +13795,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m17111_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m17115_ParameterInfos[] = 
 {
 	{"chars", 0, 134223191, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223192, 0, &Int32_t50_0_0_0},
@@ -13805,14 +13805,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetBytes_m17111_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo Encoding_GetBytes_m17111_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m17115_MethodInfo = 
 {
 	"GetBytes"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m17111_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m17115_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13831,7 +13831,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15438_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15442_ParameterInfos[] = 
 {
 	{"s", 0, 134223196, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223197, 0, &Int32_t50_0_0_0},
@@ -13841,14 +13841,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15438_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo Encoding_GetBytes_m15438_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m15442_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Encoding_GetBytes_m15438/* method */
+	, (methodPointerType)&Encoding_GetBytes_m15442/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m15438_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m15442_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13863,20 +13863,20 @@ extern const MethodInfo Encoding_GetBytes_m15438_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15439_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15443_ParameterInfos[] = 
 {
 	{"s", 0, 134223201, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.Encoding::GetBytes(System.String)
-extern const MethodInfo Encoding_GetBytes_m15439_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m15443_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Encoding_GetBytes_m15439/* method */
+	, (methodPointerType)&Encoding_GetBytes_m15443/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m15439_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m15443_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13893,7 +13893,7 @@ extern const MethodInfo Encoding_GetBytes_m15439_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15440_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15444_ParameterInfos[] = 
 {
 	{"chars", 0, 134223202, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223203, 0, &Int32_t50_0_0_0},
@@ -13901,14 +13901,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15440_ParameterInfos
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo Encoding_GetBytes_m15440_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m15444_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Encoding_GetBytes_m15440/* method */
+	, (methodPointerType)&Encoding_GetBytes_m15444/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m15440_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m15444_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13923,20 +13923,20 @@ extern const MethodInfo Encoding_GetBytes_m15440_MethodInfo =
 
 };
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15441_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15445_ParameterInfos[] = 
 {
 	{"chars", 0, 134223205, 0, &CharU5BU5D_t608_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.Encoding::GetBytes(System.Char[])
-extern const MethodInfo Encoding_GetBytes_m15441_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m15445_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Encoding_GetBytes_m15441/* method */
+	, (methodPointerType)&Encoding_GetBytes_m15445/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m15441_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m15445_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13953,7 +13953,7 @@ extern const MethodInfo Encoding_GetBytes_m15441_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetCharCount_m17112_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetCharCount_m17116_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223206, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223207, 0, &Int32_t50_0_0_0},
@@ -13961,14 +13961,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetCharCount_m17112_ParameterI
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo Encoding_GetCharCount_m17112_MethodInfo = 
+extern const MethodInfo Encoding_GetCharCount_m17116_MethodInfo = 
 {
 	"GetCharCount"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetCharCount_m17112_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetCharCount_m17116_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13987,7 +13987,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetChars_m17113_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetChars_m17117_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223209, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223210, 0, &Int32_t50_0_0_0},
@@ -13997,14 +13997,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetChars_m17113_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo Encoding_GetChars_m17113_MethodInfo = 
+extern const MethodInfo Encoding_GetChars_m17117_MethodInfo = 
 {
 	"GetChars"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetChars_m17113_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetChars_m17117_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -14021,7 +14021,7 @@ extern const MethodInfo Encoding_GetChars_m17113_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetChars_m15442_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetChars_m15446_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223214, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223215, 0, &Int32_t50_0_0_0},
@@ -14029,14 +14029,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetChars_m15442_ParameterInfos
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Char[] System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo Encoding_GetChars_m15442_MethodInfo = 
+extern const MethodInfo Encoding_GetChars_m15446_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&Encoding_GetChars_m15442/* method */
+	, (methodPointerType)&Encoding_GetChars_m15446/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &CharU5BU5D_t608_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetChars_m15442_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetChars_m15446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -14052,10 +14052,10 @@ extern const MethodInfo Encoding_GetChars_m15442_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.Encoding::GetDecoder()
-extern const MethodInfo Encoding_GetDecoder_m15443_MethodInfo = 
+extern const MethodInfo Encoding_GetDecoder_m15447_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&Encoding_GetDecoder_m15443/* method */
+	, (methodPointerType)&Encoding_GetDecoder_m15447/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14076,21 +14076,21 @@ extern const MethodInfo Encoding_GetDecoder_m15443_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_InvokeI18N_m15444_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_InvokeI18N_m15448_ParameterInfos[] = 
 {
 	{"name", 0, 134223217, 0, &String_t_0_0_0},
 	{"args", 1, 134223218, 715, &ObjectU5BU5D_t582_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.Encoding::InvokeI18N(System.String,System.Object[])
-extern const MethodInfo Encoding_InvokeI18N_m15444_MethodInfo = 
+extern const MethodInfo Encoding_InvokeI18N_m15448_MethodInfo = 
 {
 	"InvokeI18N"/* name */
-	, (methodPointerType)&Encoding_InvokeI18N_m15444/* method */
+	, (methodPointerType)&Encoding_InvokeI18N_m15448/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_InvokeI18N_m15444_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_InvokeI18N_m15448_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14105,20 +14105,20 @@ extern const MethodInfo Encoding_InvokeI18N_m15444_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetEncoding_m15445_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetEncoding_m15449_ParameterInfos[] = 
 {
 	{"codepage", 0, 134223219, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::GetEncoding(System.Int32)
-extern const MethodInfo Encoding_GetEncoding_m15445_MethodInfo = 
+extern const MethodInfo Encoding_GetEncoding_m15449_MethodInfo = 
 {
 	"GetEncoding"/* name */
-	, (methodPointerType)&Encoding_GetEncoding_m15445/* method */
+	, (methodPointerType)&Encoding_GetEncoding_m15449/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetEncoding_m15445_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetEncoding_m15449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14133,20 +14133,20 @@ extern const MethodInfo Encoding_GetEncoding_m15445_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetEncoding_m7159_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetEncoding_m7163_ParameterInfos[] = 
 {
 	{"name", 0, 134223220, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::GetEncoding(System.String)
-extern const MethodInfo Encoding_GetEncoding_m7159_MethodInfo = 
+extern const MethodInfo Encoding_GetEncoding_m7163_MethodInfo = 
 {
 	"GetEncoding"/* name */
-	, (methodPointerType)&Encoding_GetEncoding_m7159/* method */
+	, (methodPointerType)&Encoding_GetEncoding_m7163/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetEncoding_m7159_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetEncoding_m7163_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14162,10 +14162,10 @@ extern const MethodInfo Encoding_GetEncoding_m7159_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetHashCode()
-extern const MethodInfo Encoding_GetHashCode_m15446_MethodInfo = 
+extern const MethodInfo Encoding_GetHashCode_m15450_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&Encoding_GetHashCode_m15446/* method */
+	, (methodPointerType)&Encoding_GetHashCode_m15450/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -14184,20 +14184,20 @@ extern const MethodInfo Encoding_GetHashCode_m15446_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetMaxByteCount_m17114_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetMaxByteCount_m17118_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223221, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo Encoding_GetMaxByteCount_m17114_MethodInfo = 
+extern const MethodInfo Encoding_GetMaxByteCount_m17118_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetMaxByteCount_m17114_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetMaxByteCount_m17118_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -14212,20 +14212,20 @@ extern const MethodInfo Encoding_GetMaxByteCount_m17114_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetMaxCharCount_m17115_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetMaxCharCount_m17119_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223222, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo Encoding_GetMaxCharCount_m17115_MethodInfo = 
+extern const MethodInfo Encoding_GetMaxCharCount_m17119_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
 	, NULL/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetMaxCharCount_m17115_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetMaxCharCount_m17119_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -14241,10 +14241,10 @@ extern const MethodInfo Encoding_GetMaxCharCount_m17115_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.Encoding::GetPreamble()
-extern const MethodInfo Encoding_GetPreamble_m15447_MethodInfo = 
+extern const MethodInfo Encoding_GetPreamble_m15451_MethodInfo = 
 {
 	"GetPreamble"/* name */
-	, (methodPointerType)&Encoding_GetPreamble_m15447/* method */
+	, (methodPointerType)&Encoding_GetPreamble_m15451/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14265,7 +14265,7 @@ extern const MethodInfo Encoding_GetPreamble_m15447_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetString_m15448_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetString_m15452_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223223, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223224, 0, &Int32_t50_0_0_0},
@@ -14273,14 +14273,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetString_m15448_ParameterInfo
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo Encoding_GetString_m15448_MethodInfo = 
+extern const MethodInfo Encoding_GetString_m15452_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&Encoding_GetString_m15448/* method */
+	, (methodPointerType)&Encoding_GetString_m15452/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetString_m15448_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetString_m15452_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -14295,20 +14295,20 @@ extern const MethodInfo Encoding_GetString_m15448_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetString_m15449_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetString_m15453_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223226, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::GetString(System.Byte[])
-extern const MethodInfo Encoding_GetString_m15449_MethodInfo = 
+extern const MethodInfo Encoding_GetString_m15453_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&Encoding_GetString_m15449/* method */
+	, (methodPointerType)&Encoding_GetString_m15453/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Encoding_t638_Encoding_GetString_m15449_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetString_m15453_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -14324,10 +14324,10 @@ extern const MethodInfo Encoding_GetString_m15449_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::get_HeaderName()
-extern const MethodInfo Encoding_get_HeaderName_m15450_MethodInfo = 
+extern const MethodInfo Encoding_get_HeaderName_m15454_MethodInfo = 
 {
 	"get_HeaderName"/* name */
-	, (methodPointerType)&Encoding_get_HeaderName_m15450/* method */
+	, (methodPointerType)&Encoding_get_HeaderName_m15454/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14347,10 +14347,10 @@ extern const MethodInfo Encoding_get_HeaderName_m15450_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::get_WebName()
-extern const MethodInfo Encoding_get_WebName_m15451_MethodInfo = 
+extern const MethodInfo Encoding_get_WebName_m15455_MethodInfo = 
 {
 	"get_WebName"/* name */
-	, (methodPointerType)&Encoding_get_WebName_m15451/* method */
+	, (methodPointerType)&Encoding_get_WebName_m15455/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14370,10 +14370,10 @@ extern const MethodInfo Encoding_get_WebName_m15451_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_ASCII()
-extern const MethodInfo Encoding_get_ASCII_m7155_MethodInfo = 
+extern const MethodInfo Encoding_get_ASCII_m7159_MethodInfo = 
 {
 	"get_ASCII"/* name */
-	, (methodPointerType)&Encoding_get_ASCII_m7155/* method */
+	, (methodPointerType)&Encoding_get_ASCII_m7159/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14393,10 +14393,10 @@ extern const MethodInfo Encoding_get_ASCII_m7155_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_BigEndianUnicode()
-extern const MethodInfo Encoding_get_BigEndianUnicode_m8545_MethodInfo = 
+extern const MethodInfo Encoding_get_BigEndianUnicode_m8549_MethodInfo = 
 {
 	"get_BigEndianUnicode"/* name */
-	, (methodPointerType)&Encoding_get_BigEndianUnicode_m8545/* method */
+	, (methodPointerType)&Encoding_get_BigEndianUnicode_m8549/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14416,20 +14416,20 @@ extern const MethodInfo Encoding_get_BigEndianUnicode_m8545_MethodInfo =
 };
 extern const Il2CppType Int32_t50_1_0_0;
 extern const Il2CppType Int32_t50_1_0_0;
-static const ParameterInfo Encoding_t638_Encoding_InternalCodePage_m15452_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_InternalCodePage_m15456_ParameterInfos[] = 
 {
 	{"code_page", 0, 134223227, 0, &Int32_t50_1_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32U26_t1036 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Encoding::InternalCodePage(System.Int32&)
-extern const MethodInfo Encoding_InternalCodePage_m15452_MethodInfo = 
+extern const MethodInfo Encoding_InternalCodePage_m15456_MethodInfo = 
 {
 	"InternalCodePage"/* name */
-	, (methodPointerType)&Encoding_InternalCodePage_m15452/* method */
+	, (methodPointerType)&Encoding_InternalCodePage_m15456/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32U26_t1036/* invoker_method */
-	, Encoding_t638_Encoding_InternalCodePage_m15452_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_InternalCodePage_m15456_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -14445,10 +14445,10 @@ extern const MethodInfo Encoding_InternalCodePage_m15452_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_Default()
-extern const MethodInfo Encoding_get_Default_m11595_MethodInfo = 
+extern const MethodInfo Encoding_get_Default_m11599_MethodInfo = 
 {
 	"get_Default"/* name */
-	, (methodPointerType)&Encoding_get_Default_m11595/* method */
+	, (methodPointerType)&Encoding_get_Default_m11599/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14468,10 +14468,10 @@ extern const MethodInfo Encoding_get_Default_m11595_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_ISOLatin1()
-extern const MethodInfo Encoding_get_ISOLatin1_m15453_MethodInfo = 
+extern const MethodInfo Encoding_get_ISOLatin1_m15457_MethodInfo = 
 {
 	"get_ISOLatin1"/* name */
-	, (methodPointerType)&Encoding_get_ISOLatin1_m15453/* method */
+	, (methodPointerType)&Encoding_get_ISOLatin1_m15457/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14491,10 +14491,10 @@ extern const MethodInfo Encoding_get_ISOLatin1_m15453_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_UTF7()
-extern const MethodInfo Encoding_get_UTF7_m9584_MethodInfo = 
+extern const MethodInfo Encoding_get_UTF7_m9588_MethodInfo = 
 {
 	"get_UTF7"/* name */
-	, (methodPointerType)&Encoding_get_UTF7_m9584/* method */
+	, (methodPointerType)&Encoding_get_UTF7_m9588/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14514,10 +14514,10 @@ extern const MethodInfo Encoding_get_UTF7_m9584_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_UTF8()
-extern const MethodInfo Encoding_get_UTF8_m3245_MethodInfo = 
+extern const MethodInfo Encoding_get_UTF8_m3249_MethodInfo = 
 {
 	"get_UTF8"/* name */
-	, (methodPointerType)&Encoding_get_UTF8_m3245/* method */
+	, (methodPointerType)&Encoding_get_UTF8_m3249/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14537,10 +14537,10 @@ extern const MethodInfo Encoding_get_UTF8_m3245_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_UTF8Unmarked()
-extern const MethodInfo Encoding_get_UTF8Unmarked_m15454_MethodInfo = 
+extern const MethodInfo Encoding_get_UTF8Unmarked_m15458_MethodInfo = 
 {
 	"get_UTF8Unmarked"/* name */
-	, (methodPointerType)&Encoding_get_UTF8Unmarked_m15454/* method */
+	, (methodPointerType)&Encoding_get_UTF8Unmarked_m15458/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14560,10 +14560,10 @@ extern const MethodInfo Encoding_get_UTF8Unmarked_m15454_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_UTF8UnmarkedUnsafe()
-extern const MethodInfo Encoding_get_UTF8UnmarkedUnsafe_m15455_MethodInfo = 
+extern const MethodInfo Encoding_get_UTF8UnmarkedUnsafe_m15459_MethodInfo = 
 {
 	"get_UTF8UnmarkedUnsafe"/* name */
-	, (methodPointerType)&Encoding_get_UTF8UnmarkedUnsafe_m15455/* method */
+	, (methodPointerType)&Encoding_get_UTF8UnmarkedUnsafe_m15459/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14583,10 +14583,10 @@ extern const MethodInfo Encoding_get_UTF8UnmarkedUnsafe_m15455_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_Unicode()
-extern const MethodInfo Encoding_get_Unicode_m8544_MethodInfo = 
+extern const MethodInfo Encoding_get_Unicode_m8548_MethodInfo = 
 {
 	"get_Unicode"/* name */
-	, (methodPointerType)&Encoding_get_Unicode_m8544/* method */
+	, (methodPointerType)&Encoding_get_Unicode_m8548/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14606,10 +14606,10 @@ extern const MethodInfo Encoding_get_Unicode_m8544_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_UTF32()
-extern const MethodInfo Encoding_get_UTF32_m15456_MethodInfo = 
+extern const MethodInfo Encoding_get_UTF32_m15460_MethodInfo = 
 {
 	"get_UTF32"/* name */
-	, (methodPointerType)&Encoding_get_UTF32_m15456/* method */
+	, (methodPointerType)&Encoding_get_UTF32_m15460/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14629,10 +14629,10 @@ extern const MethodInfo Encoding_get_UTF32_m15456_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Encoding System.Text.Encoding::get_BigEndianUTF32()
-extern const MethodInfo Encoding_get_BigEndianUTF32_m15457_MethodInfo = 
+extern const MethodInfo Encoding_get_BigEndianUTF32_m15461_MethodInfo = 
 {
 	"get_BigEndianUTF32"/* name */
-	, (methodPointerType)&Encoding_get_BigEndianUTF32_m15457/* method */
+	, (methodPointerType)&Encoding_get_BigEndianUTF32_m15461/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Encoding_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14652,21 +14652,21 @@ extern const MethodInfo Encoding_get_BigEndianUTF32_m15457_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15458_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetByteCount_m15462_ParameterInfos[] = 
 {
 	{"chars", 0, 134223228, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223229, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo Encoding_GetByteCount_m15458_MethodInfo = 
+extern const MethodInfo Encoding_GetByteCount_m15462_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&Encoding_GetByteCount_m15458/* method */
+	, (methodPointerType)&Encoding_GetByteCount_m15462/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetByteCount_m15458_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetByteCount_m15462_ParameterInfos/* parameters */
 	, 716/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -14684,7 +14684,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15459_ParameterInfos[] = 
+static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15463_ParameterInfos[] = 
 {
 	{"chars", 0, 134223230, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223231, 0, &Int32_t50_0_0_0},
@@ -14693,14 +14693,14 @@ static const ParameterInfo Encoding_t638_Encoding_GetBytes_m15459_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo Encoding_GetBytes_m15459_MethodInfo = 
+extern const MethodInfo Encoding_GetBytes_m15463_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Encoding_GetBytes_m15459/* method */
+	, (methodPointerType)&Encoding_GetBytes_m15463/* method */
 	, &Encoding_t638_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Encoding_t638_Encoding_GetBytes_m15459_ParameterInfos/* parameters */
+	, Encoding_t638_Encoding_GetBytes_m15463_ParameterInfos/* parameters */
 	, 717/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -14716,84 +14716,84 @@ extern const MethodInfo Encoding_GetBytes_m15459_MethodInfo =
 };
 static const MethodInfo* Encoding_t638_MethodInfos[] =
 {
-	&Encoding__ctor_m15426_MethodInfo,
-	&Encoding__ctor_m15427_MethodInfo,
-	&Encoding__cctor_m15428_MethodInfo,
-	&Encoding___m15429_MethodInfo,
-	&Encoding_get_IsReadOnly_m15430_MethodInfo,
-	&Encoding_get_DecoderFallback_m15431_MethodInfo,
-	&Encoding_set_DecoderFallback_m15432_MethodInfo,
-	&Encoding_get_EncoderFallback_m15433_MethodInfo,
-	&Encoding_SetFallbackInternal_m15434_MethodInfo,
-	&Encoding_Equals_m15435_MethodInfo,
-	&Encoding_GetByteCount_m17110_MethodInfo,
-	&Encoding_GetByteCount_m15436_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&Encoding_GetBytes_m17111_MethodInfo,
-	&Encoding_GetBytes_m15438_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&Encoding_GetCharCount_m17112_MethodInfo,
-	&Encoding_GetChars_m17113_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&Encoding_GetDecoder_m15443_MethodInfo,
-	&Encoding_InvokeI18N_m15444_MethodInfo,
-	&Encoding_GetEncoding_m15445_MethodInfo,
-	&Encoding_GetEncoding_m7159_MethodInfo,
-	&Encoding_GetHashCode_m15446_MethodInfo,
-	&Encoding_GetMaxByteCount_m17114_MethodInfo,
-	&Encoding_GetMaxCharCount_m17115_MethodInfo,
-	&Encoding_GetPreamble_m15447_MethodInfo,
-	&Encoding_GetString_m15448_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&Encoding_get_ASCII_m7155_MethodInfo,
-	&Encoding_get_BigEndianUnicode_m8545_MethodInfo,
-	&Encoding_InternalCodePage_m15452_MethodInfo,
-	&Encoding_get_Default_m11595_MethodInfo,
-	&Encoding_get_ISOLatin1_m15453_MethodInfo,
-	&Encoding_get_UTF7_m9584_MethodInfo,
-	&Encoding_get_UTF8_m3245_MethodInfo,
-	&Encoding_get_UTF8Unmarked_m15454_MethodInfo,
-	&Encoding_get_UTF8UnmarkedUnsafe_m15455_MethodInfo,
-	&Encoding_get_Unicode_m8544_MethodInfo,
-	&Encoding_get_UTF32_m15456_MethodInfo,
-	&Encoding_get_BigEndianUTF32_m15457_MethodInfo,
-	&Encoding_GetByteCount_m15458_MethodInfo,
-	&Encoding_GetBytes_m15459_MethodInfo,
+	&Encoding__ctor_m15430_MethodInfo,
+	&Encoding__ctor_m15431_MethodInfo,
+	&Encoding__cctor_m15432_MethodInfo,
+	&Encoding___m15433_MethodInfo,
+	&Encoding_get_IsReadOnly_m15434_MethodInfo,
+	&Encoding_get_DecoderFallback_m15435_MethodInfo,
+	&Encoding_set_DecoderFallback_m15436_MethodInfo,
+	&Encoding_get_EncoderFallback_m15437_MethodInfo,
+	&Encoding_SetFallbackInternal_m15438_MethodInfo,
+	&Encoding_Equals_m15439_MethodInfo,
+	&Encoding_GetByteCount_m17114_MethodInfo,
+	&Encoding_GetByteCount_m15440_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&Encoding_GetBytes_m17115_MethodInfo,
+	&Encoding_GetBytes_m15442_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&Encoding_GetCharCount_m17116_MethodInfo,
+	&Encoding_GetChars_m17117_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&Encoding_GetDecoder_m15447_MethodInfo,
+	&Encoding_InvokeI18N_m15448_MethodInfo,
+	&Encoding_GetEncoding_m15449_MethodInfo,
+	&Encoding_GetEncoding_m7163_MethodInfo,
+	&Encoding_GetHashCode_m15450_MethodInfo,
+	&Encoding_GetMaxByteCount_m17118_MethodInfo,
+	&Encoding_GetMaxCharCount_m17119_MethodInfo,
+	&Encoding_GetPreamble_m15451_MethodInfo,
+	&Encoding_GetString_m15452_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&Encoding_get_ASCII_m7159_MethodInfo,
+	&Encoding_get_BigEndianUnicode_m8549_MethodInfo,
+	&Encoding_InternalCodePage_m15456_MethodInfo,
+	&Encoding_get_Default_m11599_MethodInfo,
+	&Encoding_get_ISOLatin1_m15457_MethodInfo,
+	&Encoding_get_UTF7_m9588_MethodInfo,
+	&Encoding_get_UTF8_m3249_MethodInfo,
+	&Encoding_get_UTF8Unmarked_m15458_MethodInfo,
+	&Encoding_get_UTF8UnmarkedUnsafe_m15459_MethodInfo,
+	&Encoding_get_Unicode_m8548_MethodInfo,
+	&Encoding_get_UTF32_m15460_MethodInfo,
+	&Encoding_get_BigEndianUTF32_m15461_MethodInfo,
+	&Encoding_GetByteCount_m15462_MethodInfo,
+	&Encoding_GetBytes_m15463_MethodInfo,
 	NULL
 };
-extern const MethodInfo Encoding_get_IsReadOnly_m15430_MethodInfo;
+extern const MethodInfo Encoding_get_IsReadOnly_m15434_MethodInfo;
 static const PropertyInfo Encoding_t638____IsReadOnly_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
-	, &Encoding_get_IsReadOnly_m15430_MethodInfo/* get */
+	, &Encoding_get_IsReadOnly_m15434_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 718/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_DecoderFallback_m15431_MethodInfo;
-extern const MethodInfo Encoding_set_DecoderFallback_m15432_MethodInfo;
+extern const MethodInfo Encoding_get_DecoderFallback_m15435_MethodInfo;
+extern const MethodInfo Encoding_set_DecoderFallback_m15436_MethodInfo;
 static const PropertyInfo Encoding_t638____DecoderFallback_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "DecoderFallback"/* name */
-	, &Encoding_get_DecoderFallback_m15431_MethodInfo/* get */
-	, &Encoding_set_DecoderFallback_m15432_MethodInfo/* set */
+	, &Encoding_get_DecoderFallback_m15435_MethodInfo/* get */
+	, &Encoding_set_DecoderFallback_m15436_MethodInfo/* set */
 	, 0/* attrs */
 	, 719/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_EncoderFallback_m15433_MethodInfo;
+extern const MethodInfo Encoding_get_EncoderFallback_m15437_MethodInfo;
 static const PropertyInfo Encoding_t638____EncoderFallback_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "EncoderFallback"/* name */
-	, &Encoding_get_EncoderFallback_m15433_MethodInfo/* get */
+	, &Encoding_get_EncoderFallback_m15437_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 720/* custom_attributes_cache */
@@ -14803,7 +14803,7 @@ static const PropertyInfo Encoding_t638____HeaderName_PropertyInfo =
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "HeaderName"/* name */
-	, &Encoding_get_HeaderName_m15450_MethodInfo/* get */
+	, &Encoding_get_HeaderName_m15454_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14813,128 +14813,128 @@ static const PropertyInfo Encoding_t638____WebName_PropertyInfo =
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "WebName"/* name */
-	, &Encoding_get_WebName_m15451_MethodInfo/* get */
+	, &Encoding_get_WebName_m15455_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_ASCII_m7155_MethodInfo;
+extern const MethodInfo Encoding_get_ASCII_m7159_MethodInfo;
 static const PropertyInfo Encoding_t638____ASCII_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "ASCII"/* name */
-	, &Encoding_get_ASCII_m7155_MethodInfo/* get */
+	, &Encoding_get_ASCII_m7159_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_BigEndianUnicode_m8545_MethodInfo;
+extern const MethodInfo Encoding_get_BigEndianUnicode_m8549_MethodInfo;
 static const PropertyInfo Encoding_t638____BigEndianUnicode_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "BigEndianUnicode"/* name */
-	, &Encoding_get_BigEndianUnicode_m8545_MethodInfo/* get */
+	, &Encoding_get_BigEndianUnicode_m8549_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_Default_m11595_MethodInfo;
+extern const MethodInfo Encoding_get_Default_m11599_MethodInfo;
 static const PropertyInfo Encoding_t638____Default_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "Default"/* name */
-	, &Encoding_get_Default_m11595_MethodInfo/* get */
+	, &Encoding_get_Default_m11599_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_ISOLatin1_m15453_MethodInfo;
+extern const MethodInfo Encoding_get_ISOLatin1_m15457_MethodInfo;
 static const PropertyInfo Encoding_t638____ISOLatin1_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "ISOLatin1"/* name */
-	, &Encoding_get_ISOLatin1_m15453_MethodInfo/* get */
+	, &Encoding_get_ISOLatin1_m15457_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_UTF7_m9584_MethodInfo;
+extern const MethodInfo Encoding_get_UTF7_m9588_MethodInfo;
 static const PropertyInfo Encoding_t638____UTF7_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "UTF7"/* name */
-	, &Encoding_get_UTF7_m9584_MethodInfo/* get */
+	, &Encoding_get_UTF7_m9588_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_UTF8_m3245_MethodInfo;
+extern const MethodInfo Encoding_get_UTF8_m3249_MethodInfo;
 static const PropertyInfo Encoding_t638____UTF8_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "UTF8"/* name */
-	, &Encoding_get_UTF8_m3245_MethodInfo/* get */
+	, &Encoding_get_UTF8_m3249_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_UTF8Unmarked_m15454_MethodInfo;
+extern const MethodInfo Encoding_get_UTF8Unmarked_m15458_MethodInfo;
 static const PropertyInfo Encoding_t638____UTF8Unmarked_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "UTF8Unmarked"/* name */
-	, &Encoding_get_UTF8Unmarked_m15454_MethodInfo/* get */
+	, &Encoding_get_UTF8Unmarked_m15458_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_UTF8UnmarkedUnsafe_m15455_MethodInfo;
+extern const MethodInfo Encoding_get_UTF8UnmarkedUnsafe_m15459_MethodInfo;
 static const PropertyInfo Encoding_t638____UTF8UnmarkedUnsafe_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "UTF8UnmarkedUnsafe"/* name */
-	, &Encoding_get_UTF8UnmarkedUnsafe_m15455_MethodInfo/* get */
+	, &Encoding_get_UTF8UnmarkedUnsafe_m15459_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_Unicode_m8544_MethodInfo;
+extern const MethodInfo Encoding_get_Unicode_m8548_MethodInfo;
 static const PropertyInfo Encoding_t638____Unicode_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "Unicode"/* name */
-	, &Encoding_get_Unicode_m8544_MethodInfo/* get */
+	, &Encoding_get_Unicode_m8548_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_UTF32_m15456_MethodInfo;
+extern const MethodInfo Encoding_get_UTF32_m15460_MethodInfo;
 static const PropertyInfo Encoding_t638____UTF32_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "UTF32"/* name */
-	, &Encoding_get_UTF32_m15456_MethodInfo/* get */
+	, &Encoding_get_UTF32_m15460_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Encoding_get_BigEndianUTF32_m15457_MethodInfo;
+extern const MethodInfo Encoding_get_BigEndianUTF32_m15461_MethodInfo;
 static const PropertyInfo Encoding_t638____BigEndianUTF32_PropertyInfo = 
 {
 	&Encoding_t638_il2cpp_TypeInfo/* parent */
 	, "BigEndianUTF32"/* name */
-	, &Encoding_get_BigEndianUTF32_m15457_MethodInfo/* get */
+	, &Encoding_get_BigEndianUTF32_m15461_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14964,39 +14964,39 @@ static const Il2CppType* Encoding_t638_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&ForwardingDecoder_t2728_0_0_0,
 };
-extern const MethodInfo Encoding_GetByteCount_m15436_MethodInfo;
-extern const MethodInfo Encoding_GetBytes_m15438_MethodInfo;
-extern const MethodInfo Encoding_GetDecoder_m15443_MethodInfo;
-extern const MethodInfo Encoding_GetString_m15448_MethodInfo;
-extern const MethodInfo Encoding_GetByteCount_m15458_MethodInfo;
-extern const MethodInfo Encoding_GetBytes_m15459_MethodInfo;
+extern const MethodInfo Encoding_GetByteCount_m15440_MethodInfo;
+extern const MethodInfo Encoding_GetBytes_m15442_MethodInfo;
+extern const MethodInfo Encoding_GetDecoder_m15447_MethodInfo;
+extern const MethodInfo Encoding_GetString_m15452_MethodInfo;
+extern const MethodInfo Encoding_GetByteCount_m15462_MethodInfo;
+extern const MethodInfo Encoding_GetBytes_m15463_MethodInfo;
 static const Il2CppMethodReference Encoding_t638_VTable[] =
 {
-	&Encoding_Equals_m15435_MethodInfo,
+	&Encoding_Equals_m15439_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Encoding_GetHashCode_m15446_MethodInfo,
+	&Encoding_GetHashCode_m15450_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 	NULL,
-	&Encoding_GetByteCount_m15436_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
+	&Encoding_GetByteCount_m15440_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
 	NULL,
-	&Encoding_GetBytes_m15438_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	NULL,
-	NULL,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&Encoding_GetDecoder_m15443_MethodInfo,
+	&Encoding_GetBytes_m15442_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
 	NULL,
 	NULL,
-	&Encoding_GetPreamble_m15447_MethodInfo,
-	&Encoding_GetString_m15448_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&Encoding_GetByteCount_m15458_MethodInfo,
-	&Encoding_GetBytes_m15459_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&Encoding_GetDecoder_m15447_MethodInfo,
+	NULL,
+	NULL,
+	&Encoding_GetPreamble_m15451_MethodInfo,
+	&Encoding_GetString_m15452_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&Encoding_GetByteCount_m15462_MethodInfo,
+	&Encoding_GetBytes_m15463_MethodInfo,
 };
 static bool Encoding_t638_VTableIsGenericMethod[] =
 {
@@ -15112,10 +15112,10 @@ extern TypeInfo Latin1Encoding_t2729_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_Latin1EncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.Latin1Encoding::.ctor()
-extern const MethodInfo Latin1Encoding__ctor_m15460_MethodInfo = 
+extern const MethodInfo Latin1Encoding__ctor_m15464_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Latin1Encoding__ctor_m15460/* method */
+	, (methodPointerType)&Latin1Encoding__ctor_m15464/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -15136,7 +15136,7 @@ extern const MethodInfo Latin1Encoding__ctor_m15460_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15461_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15465_ParameterInfos[] = 
 {
 	{"chars", 0, 134223240, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223241, 0, &Int32_t50_0_0_0},
@@ -15144,14 +15144,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m154
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo Latin1Encoding_GetByteCount_m15461_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetByteCount_m15465_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&Latin1Encoding_GetByteCount_m15461/* method */
+	, (methodPointerType)&Latin1Encoding_GetByteCount_m15465/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15461_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15166,20 +15166,20 @@ extern const MethodInfo Latin1Encoding_GetByteCount_m15461_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15462_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15466_ParameterInfos[] = 
 {
 	{"s", 0, 134223243, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetByteCount(System.String)
-extern const MethodInfo Latin1Encoding_GetByteCount_m15462_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetByteCount_m15466_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&Latin1Encoding_GetByteCount_m15462/* method */
+	, (methodPointerType)&Latin1Encoding_GetByteCount_m15466/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15462_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetByteCount_m15466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15198,7 +15198,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15463_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15467_ParameterInfos[] = 
 {
 	{"chars", 0, 134223244, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223245, 0, &Int32_t50_0_0_0},
@@ -15208,14 +15208,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15463_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo Latin1Encoding_GetBytes_m15463_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetBytes_m15467_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Latin1Encoding_GetBytes_m15463/* method */
+	, (methodPointerType)&Latin1Encoding_GetBytes_m15467/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15463_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15236,7 +15236,7 @@ extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType EncoderFallbackBuffer_t2724_1_0_0;
 extern const Il2CppType CharU5BU5D_t608_1_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15464_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15468_ParameterInfos[] = 
 {
 	{"chars", 0, 134223249, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223250, 0, &Int32_t50_0_0_0},
@@ -15248,14 +15248,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15464_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Text.EncoderFallbackBuffer&,System.Char[]&)
-extern const MethodInfo Latin1Encoding_GetBytes_m15464_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetBytes_m15468_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Latin1Encoding_GetBytes_m15464/* method */
+	, (methodPointerType)&Latin1Encoding_GetBytes_m15468/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15464_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15468_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -15274,7 +15274,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15465_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15469_ParameterInfos[] = 
 {
 	{"s", 0, 134223256, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223257, 0, &Int32_t50_0_0_0},
@@ -15284,14 +15284,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15465_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo Latin1Encoding_GetBytes_m15465_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetBytes_m15469_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Latin1Encoding_GetBytes_m15465/* method */
+	, (methodPointerType)&Latin1Encoding_GetBytes_m15469/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15465_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15469_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15312,7 +15312,7 @@ extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType EncoderFallbackBuffer_t2724_1_0_0;
 extern const Il2CppType CharU5BU5D_t608_1_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15466_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15470_ParameterInfos[] = 
 {
 	{"s", 0, 134223261, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223262, 0, &Int32_t50_0_0_0},
@@ -15324,14 +15324,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15466_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32,System.Text.EncoderFallbackBuffer&,System.Char[]&)
-extern const MethodInfo Latin1Encoding_GetBytes_m15466_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetBytes_m15470_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&Latin1Encoding_GetBytes_m15466/* method */
+	, (methodPointerType)&Latin1Encoding_GetBytes_m15470/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_EncoderFallbackBufferU26_t3327_CharU5BU5DU26_t3328/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15466_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetBytes_m15470_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -15348,7 +15348,7 @@ extern const MethodInfo Latin1Encoding_GetBytes_m15466_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetCharCount_m15467_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetCharCount_m15471_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223268, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223269, 0, &Int32_t50_0_0_0},
@@ -15356,14 +15356,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetCharCount_m154
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo Latin1Encoding_GetCharCount_m15467_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetCharCount_m15471_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&Latin1Encoding_GetCharCount_m15467/* method */
+	, (methodPointerType)&Latin1Encoding_GetCharCount_m15471/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetCharCount_m15467_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetCharCount_m15471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15382,7 +15382,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetChars_m15468_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetChars_m15472_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223271, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223272, 0, &Int32_t50_0_0_0},
@@ -15392,14 +15392,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetChars_m15468_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo Latin1Encoding_GetChars_m15468_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetChars_m15472_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&Latin1Encoding_GetChars_m15468/* method */
+	, (methodPointerType)&Latin1Encoding_GetChars_m15472/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetChars_m15468_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetChars_m15472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15414,20 +15414,20 @@ extern const MethodInfo Latin1Encoding_GetChars_m15468_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetMaxByteCount_m15469_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetMaxByteCount_m15473_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223276, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo Latin1Encoding_GetMaxByteCount_m15469_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetMaxByteCount_m15473_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&Latin1Encoding_GetMaxByteCount_m15469/* method */
+	, (methodPointerType)&Latin1Encoding_GetMaxByteCount_m15473/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetMaxByteCount_m15469_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetMaxByteCount_m15473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15442,20 +15442,20 @@ extern const MethodInfo Latin1Encoding_GetMaxByteCount_m15469_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetMaxCharCount_m15470_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetMaxCharCount_m15474_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223277, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.Latin1Encoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo Latin1Encoding_GetMaxCharCount_m15470_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetMaxCharCount_m15474_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&Latin1Encoding_GetMaxCharCount_m15470/* method */
+	, (methodPointerType)&Latin1Encoding_GetMaxCharCount_m15474/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetMaxCharCount_m15470_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetMaxCharCount_m15474_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15472,7 +15472,7 @@ extern const MethodInfo Latin1Encoding_GetMaxCharCount_m15470_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetString_m15471_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetString_m15475_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223278, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223279, 0, &Int32_t50_0_0_0},
@@ -15480,14 +15480,14 @@ static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetString_m15471_
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Latin1Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo Latin1Encoding_GetString_m15471_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetString_m15475_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&Latin1Encoding_GetString_m15471/* method */
+	, (methodPointerType)&Latin1Encoding_GetString_m15475/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetString_m15471_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetString_m15475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15502,20 +15502,20 @@ extern const MethodInfo Latin1Encoding_GetString_m15471_MethodInfo =
 
 };
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
-static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetString_m15472_ParameterInfos[] = 
+static const ParameterInfo Latin1Encoding_t2729_Latin1Encoding_GetString_m15476_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223281, 0, &ByteU5BU5D_t36_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Latin1Encoding::GetString(System.Byte[])
-extern const MethodInfo Latin1Encoding_GetString_m15472_MethodInfo = 
+extern const MethodInfo Latin1Encoding_GetString_m15476_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&Latin1Encoding_GetString_m15472/* method */
+	, (methodPointerType)&Latin1Encoding_GetString_m15476/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Latin1Encoding_t2729_Latin1Encoding_GetString_m15472_ParameterInfos/* parameters */
+	, Latin1Encoding_t2729_Latin1Encoding_GetString_m15476_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15531,10 +15531,10 @@ extern const MethodInfo Latin1Encoding_GetString_m15472_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Latin1Encoding::get_HeaderName()
-extern const MethodInfo Latin1Encoding_get_HeaderName_m15473_MethodInfo = 
+extern const MethodInfo Latin1Encoding_get_HeaderName_m15477_MethodInfo = 
 {
 	"get_HeaderName"/* name */
-	, (methodPointerType)&Latin1Encoding_get_HeaderName_m15473/* method */
+	, (methodPointerType)&Latin1Encoding_get_HeaderName_m15477/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15554,10 +15554,10 @@ extern const MethodInfo Latin1Encoding_get_HeaderName_m15473_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.Latin1Encoding::get_WebName()
-extern const MethodInfo Latin1Encoding_get_WebName_m15474_MethodInfo = 
+extern const MethodInfo Latin1Encoding_get_WebName_m15478_MethodInfo = 
 {
 	"get_WebName"/* name */
-	, (methodPointerType)&Latin1Encoding_get_WebName_m15474/* method */
+	, (methodPointerType)&Latin1Encoding_get_WebName_m15478/* method */
 	, &Latin1Encoding_t2729_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15577,40 +15577,40 @@ extern const MethodInfo Latin1Encoding_get_WebName_m15474_MethodInfo =
 };
 static const MethodInfo* Latin1Encoding_t2729_MethodInfos[] =
 {
-	&Latin1Encoding__ctor_m15460_MethodInfo,
-	&Latin1Encoding_GetByteCount_m15461_MethodInfo,
-	&Latin1Encoding_GetByteCount_m15462_MethodInfo,
-	&Latin1Encoding_GetBytes_m15463_MethodInfo,
-	&Latin1Encoding_GetBytes_m15464_MethodInfo,
-	&Latin1Encoding_GetBytes_m15465_MethodInfo,
-	&Latin1Encoding_GetBytes_m15466_MethodInfo,
-	&Latin1Encoding_GetCharCount_m15467_MethodInfo,
-	&Latin1Encoding_GetChars_m15468_MethodInfo,
-	&Latin1Encoding_GetMaxByteCount_m15469_MethodInfo,
-	&Latin1Encoding_GetMaxCharCount_m15470_MethodInfo,
-	&Latin1Encoding_GetString_m15471_MethodInfo,
-	&Latin1Encoding_GetString_m15472_MethodInfo,
-	&Latin1Encoding_get_HeaderName_m15473_MethodInfo,
-	&Latin1Encoding_get_WebName_m15474_MethodInfo,
+	&Latin1Encoding__ctor_m15464_MethodInfo,
+	&Latin1Encoding_GetByteCount_m15465_MethodInfo,
+	&Latin1Encoding_GetByteCount_m15466_MethodInfo,
+	&Latin1Encoding_GetBytes_m15467_MethodInfo,
+	&Latin1Encoding_GetBytes_m15468_MethodInfo,
+	&Latin1Encoding_GetBytes_m15469_MethodInfo,
+	&Latin1Encoding_GetBytes_m15470_MethodInfo,
+	&Latin1Encoding_GetCharCount_m15471_MethodInfo,
+	&Latin1Encoding_GetChars_m15472_MethodInfo,
+	&Latin1Encoding_GetMaxByteCount_m15473_MethodInfo,
+	&Latin1Encoding_GetMaxCharCount_m15474_MethodInfo,
+	&Latin1Encoding_GetString_m15475_MethodInfo,
+	&Latin1Encoding_GetString_m15476_MethodInfo,
+	&Latin1Encoding_get_HeaderName_m15477_MethodInfo,
+	&Latin1Encoding_get_WebName_m15478_MethodInfo,
 	NULL
 };
-extern const MethodInfo Latin1Encoding_get_HeaderName_m15473_MethodInfo;
+extern const MethodInfo Latin1Encoding_get_HeaderName_m15477_MethodInfo;
 static const PropertyInfo Latin1Encoding_t2729____HeaderName_PropertyInfo = 
 {
 	&Latin1Encoding_t2729_il2cpp_TypeInfo/* parent */
 	, "HeaderName"/* name */
-	, &Latin1Encoding_get_HeaderName_m15473_MethodInfo/* get */
+	, &Latin1Encoding_get_HeaderName_m15477_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Latin1Encoding_get_WebName_m15474_MethodInfo;
+extern const MethodInfo Latin1Encoding_get_WebName_m15478_MethodInfo;
 static const PropertyInfo Latin1Encoding_t2729____WebName_PropertyInfo = 
 {
 	&Latin1Encoding_t2729_il2cpp_TypeInfo/* parent */
 	, "WebName"/* name */
-	, &Latin1Encoding_get_WebName_m15474_MethodInfo/* get */
+	, &Latin1Encoding_get_WebName_m15478_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15622,43 +15622,43 @@ static const PropertyInfo* Latin1Encoding_t2729_PropertyInfos[] =
 	&Latin1Encoding_t2729____WebName_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Latin1Encoding_GetByteCount_m15461_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetByteCount_m15462_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetBytes_m15463_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetBytes_m15465_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetCharCount_m15467_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetChars_m15468_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetMaxByteCount_m15469_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetMaxCharCount_m15470_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetString_m15471_MethodInfo;
-extern const MethodInfo Latin1Encoding_GetString_m15472_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetByteCount_m15465_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetByteCount_m15466_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetBytes_m15467_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetBytes_m15469_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetCharCount_m15471_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetChars_m15472_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetMaxByteCount_m15473_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetMaxCharCount_m15474_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetString_m15475_MethodInfo;
+extern const MethodInfo Latin1Encoding_GetString_m15476_MethodInfo;
 static const Il2CppMethodReference Latin1Encoding_t2729_VTable[] =
 {
-	&Encoding_Equals_m15435_MethodInfo,
+	&Encoding_Equals_m15439_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&Encoding_GetHashCode_m15446_MethodInfo,
+	&Encoding_GetHashCode_m15450_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&Latin1Encoding_GetByteCount_m15461_MethodInfo,
-	&Latin1Encoding_GetByteCount_m15462_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&Latin1Encoding_GetBytes_m15463_MethodInfo,
-	&Latin1Encoding_GetBytes_m15465_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&Latin1Encoding_GetCharCount_m15467_MethodInfo,
-	&Latin1Encoding_GetChars_m15468_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&Encoding_GetDecoder_m15443_MethodInfo,
-	&Latin1Encoding_GetMaxByteCount_m15469_MethodInfo,
-	&Latin1Encoding_GetMaxCharCount_m15470_MethodInfo,
-	&Encoding_GetPreamble_m15447_MethodInfo,
-	&Latin1Encoding_GetString_m15471_MethodInfo,
-	&Latin1Encoding_GetString_m15472_MethodInfo,
-	&Latin1Encoding_get_HeaderName_m15473_MethodInfo,
-	&Latin1Encoding_get_WebName_m15474_MethodInfo,
-	&Encoding_GetByteCount_m15458_MethodInfo,
-	&Encoding_GetBytes_m15459_MethodInfo,
+	&Latin1Encoding_GetByteCount_m15465_MethodInfo,
+	&Latin1Encoding_GetByteCount_m15466_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&Latin1Encoding_GetBytes_m15467_MethodInfo,
+	&Latin1Encoding_GetBytes_m15469_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&Latin1Encoding_GetCharCount_m15471_MethodInfo,
+	&Latin1Encoding_GetChars_m15472_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&Encoding_GetDecoder_m15447_MethodInfo,
+	&Latin1Encoding_GetMaxByteCount_m15473_MethodInfo,
+	&Latin1Encoding_GetMaxCharCount_m15474_MethodInfo,
+	&Encoding_GetPreamble_m15451_MethodInfo,
+	&Latin1Encoding_GetString_m15475_MethodInfo,
+	&Latin1Encoding_GetString_m15476_MethodInfo,
+	&Latin1Encoding_get_HeaderName_m15477_MethodInfo,
+	&Latin1Encoding_get_WebName_m15478_MethodInfo,
+	&Encoding_GetByteCount_m15462_MethodInfo,
+	&Encoding_GetBytes_m15463_MethodInfo,
 };
 static bool Latin1Encoding_t2729_VTableIsGenericMethod[] =
 {
@@ -15773,7 +15773,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15475_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15479_ParameterInfos[] = 
 {
 	{"value", 0, 134223282, 0, &String_t_0_0_0},
 	{"startIndex", 1, 134223283, 0, &Int32_t50_0_0_0},
@@ -15782,14 +15782,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15475_Paramet
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.String,System.Int32,System.Int32,System.Int32)
-extern const MethodInfo StringBuilder__ctor_m15475_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m15479_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m15475/* method */
+	, (methodPointerType)&StringBuilder__ctor_m15479/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m15475_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m15479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15808,7 +15808,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15476_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15480_ParameterInfos[] = 
 {
 	{"value", 0, 134223286, 0, &String_t_0_0_0},
 	{"startIndex", 1, 134223287, 0, &Int32_t50_0_0_0},
@@ -15818,14 +15818,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15476_Paramet
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
-extern const MethodInfo StringBuilder__ctor_m15476_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m15480_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m15476/* method */
+	, (methodPointerType)&StringBuilder__ctor_m15480/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Int32_t50_Int32_t50_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m15476_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m15480_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -15841,10 +15841,10 @@ extern const MethodInfo StringBuilder__ctor_m15476_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor()
-extern const MethodInfo StringBuilder__ctor_m3248_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m3252_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m3248/* method */
+	, (methodPointerType)&StringBuilder__ctor_m3252/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -15863,20 +15863,20 @@ extern const MethodInfo StringBuilder__ctor_m3248_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m7192_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m7196_ParameterInfos[] = 
 {
 	{"capacity", 0, 134223291, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.Int32)
-extern const MethodInfo StringBuilder__ctor_m7192_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m7196_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m7192/* method */
+	, (methodPointerType)&StringBuilder__ctor_m7196/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m7192_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m7196_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15891,20 +15891,20 @@ extern const MethodInfo StringBuilder__ctor_m7192_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m5207_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m5211_ParameterInfos[] = 
 {
 	{"value", 0, 134223292, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.String)
-extern const MethodInfo StringBuilder__ctor_m5207_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m5211_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m5207/* method */
+	, (methodPointerType)&StringBuilder__ctor_m5211/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m5207_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m5211_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15920,21 +15920,21 @@ extern const MethodInfo StringBuilder__ctor_m5207_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m11525_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m11529_ParameterInfos[] = 
 {
 	{"value", 0, 134223293, 0, &String_t_0_0_0},
 	{"capacity", 1, 134223294, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.String,System.Int32)
-extern const MethodInfo StringBuilder__ctor_m11525_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m11529_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m11525/* method */
+	, (methodPointerType)&StringBuilder__ctor_m11529/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m11525_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m11529_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15950,21 +15950,21 @@ extern const MethodInfo StringBuilder__ctor_m11525_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15477_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder__ctor_m15481_ParameterInfos[] = 
 {
 	{"info", 0, 134223295, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223296, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo StringBuilder__ctor_m15477_MethodInfo = 
+extern const MethodInfo StringBuilder__ctor_m15481_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StringBuilder__ctor_m15477/* method */
+	, (methodPointerType)&StringBuilder__ctor_m15481/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, StringBuilder_t221_StringBuilder__ctor_m15477_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder__ctor_m15481_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -15980,21 +15980,21 @@ extern const MethodInfo StringBuilder__ctor_m15477_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_ParameterInfos[] = 
 {
 	{"info", 0, 134223297, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223298, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_MethodInfo = 
+extern const MethodInfo StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478/* method */
+	, (methodPointerType)&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, StringBuilder_t221_StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -16010,10 +16010,10 @@ extern const MethodInfo StringBuilder_System_Runtime_Serialization_ISerializable
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.StringBuilder::get_Capacity()
-extern const MethodInfo StringBuilder_get_Capacity_m8540_MethodInfo = 
+extern const MethodInfo StringBuilder_get_Capacity_m8544_MethodInfo = 
 {
 	"get_Capacity"/* name */
-	, (methodPointerType)&StringBuilder_get_Capacity_m8540/* method */
+	, (methodPointerType)&StringBuilder_get_Capacity_m8544/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -16032,20 +16032,20 @@ extern const MethodInfo StringBuilder_get_Capacity_m8540_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_set_Capacity_m15479_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_set_Capacity_m15483_ParameterInfos[] = 
 {
 	{"value", 0, 134223299, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::set_Capacity(System.Int32)
-extern const MethodInfo StringBuilder_set_Capacity_m15479_MethodInfo = 
+extern const MethodInfo StringBuilder_set_Capacity_m15483_MethodInfo = 
 {
 	"set_Capacity"/* name */
-	, (methodPointerType)&StringBuilder_set_Capacity_m15479/* method */
+	, (methodPointerType)&StringBuilder_set_Capacity_m15483/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_set_Capacity_m15479_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_set_Capacity_m15483_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16061,10 +16061,10 @@ extern const MethodInfo StringBuilder_set_Capacity_m15479_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.StringBuilder::get_Length()
-extern const MethodInfo StringBuilder_get_Length_m8515_MethodInfo = 
+extern const MethodInfo StringBuilder_get_Length_m8519_MethodInfo = 
 {
 	"get_Length"/* name */
-	, (methodPointerType)&StringBuilder_get_Length_m8515/* method */
+	, (methodPointerType)&StringBuilder_get_Length_m8519/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -16083,20 +16083,20 @@ extern const MethodInfo StringBuilder_get_Length_m8515_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_set_Length_m8517_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_set_Length_m8521_ParameterInfos[] = 
 {
 	{"value", 0, 134223300, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::set_Length(System.Int32)
-extern const MethodInfo StringBuilder_set_Length_m8517_MethodInfo = 
+extern const MethodInfo StringBuilder_set_Length_m8521_MethodInfo = 
 {
 	"set_Length"/* name */
-	, (methodPointerType)&StringBuilder_set_Length_m8517/* method */
+	, (methodPointerType)&StringBuilder_set_Length_m8521/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_set_Length_m8517_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_set_Length_m8521_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16111,20 +16111,20 @@ extern const MethodInfo StringBuilder_set_Length_m8517_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_get_Chars_m8558_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_get_Chars_m8562_ParameterInfos[] = 
 {
 	{"index", 0, 134223301, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Char_t30_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.StringBuilder::get_Chars(System.Int32)
-extern const MethodInfo StringBuilder_get_Chars_m8558_MethodInfo = 
+extern const MethodInfo StringBuilder_get_Chars_m8562_MethodInfo = 
 {
 	"get_Chars"/* name */
-	, (methodPointerType)&StringBuilder_get_Chars_m8558/* method */
+	, (methodPointerType)&StringBuilder_get_Chars_m8562/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t30_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_get_Chars_m8558_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_get_Chars_m8562_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16140,21 +16140,21 @@ extern const MethodInfo StringBuilder_get_Chars_m8558_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_set_Chars_m15480_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_set_Chars_m15484_ParameterInfos[] = 
 {
 	{"index", 0, 134223302, 0, &Int32_t50_0_0_0},
 	{"value", 1, 134223303, 0, &Char_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50_Int16_t641 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::set_Chars(System.Int32,System.Char)
-extern const MethodInfo StringBuilder_set_Chars_m15480_MethodInfo = 
+extern const MethodInfo StringBuilder_set_Chars_m15484_MethodInfo = 
 {
 	"set_Chars"/* name */
-	, (methodPointerType)&StringBuilder_set_Chars_m15480/* method */
+	, (methodPointerType)&StringBuilder_set_Chars_m15484/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50_Int16_t641/* invoker_method */
-	, StringBuilder_t221_StringBuilder_set_Chars_m15480_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_set_Chars_m15484_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16170,10 +16170,10 @@ extern const MethodInfo StringBuilder_set_Chars_m15480_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.StringBuilder::ToString()
-extern const MethodInfo StringBuilder_ToString_m15481_MethodInfo = 
+extern const MethodInfo StringBuilder_ToString_m15485_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&StringBuilder_ToString_m15481/* method */
+	, (methodPointerType)&StringBuilder_ToString_m15485/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16193,21 +16193,21 @@ extern const MethodInfo StringBuilder_ToString_m15481_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_ToString_m8516_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_ToString_m8520_ParameterInfos[] = 
 {
 	{"startIndex", 0, 134223304, 0, &Int32_t50_0_0_0},
 	{"length", 1, 134223305, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.StringBuilder::ToString(System.Int32,System.Int32)
-extern const MethodInfo StringBuilder_ToString_m8516_MethodInfo = 
+extern const MethodInfo StringBuilder_ToString_m8520_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&StringBuilder_ToString_m8516/* method */
+	, (methodPointerType)&StringBuilder_ToString_m8520/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_ToString_m8516_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_ToString_m8520_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16223,7 +16223,7 @@ extern const MethodInfo StringBuilder_ToString_m8516_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Remove_m8560_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Remove_m8564_ParameterInfos[] = 
 {
 	{"startIndex", 0, 134223306, 0, &Int32_t50_0_0_0},
 	{"length", 1, 134223307, 0, &Int32_t50_0_0_0},
@@ -16231,14 +16231,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_Remove_m8560_Paramet
 extern const Il2CppType StringBuilder_t221_0_0_0;
 extern void* RuntimeInvoker_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Remove(System.Int32,System.Int32)
-extern const MethodInfo StringBuilder_Remove_m8560_MethodInfo = 
+extern const MethodInfo StringBuilder_Remove_m8564_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&StringBuilder_Remove_m8560/* method */
+	, (methodPointerType)&StringBuilder_Remove_m8564/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Remove_m8560_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Remove_m8564_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16254,21 +16254,21 @@ extern const MethodInfo StringBuilder_Remove_m8560_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Replace_m15482_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Replace_m15486_ParameterInfos[] = 
 {
 	{"oldValue", 0, 134223308, 0, &String_t_0_0_0},
 	{"newValue", 1, 134223309, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Replace(System.String,System.String)
-extern const MethodInfo StringBuilder_Replace_m15482_MethodInfo = 
+extern const MethodInfo StringBuilder_Replace_m15486_MethodInfo = 
 {
 	"Replace"/* name */
-	, (methodPointerType)&StringBuilder_Replace_m15482/* method */
+	, (methodPointerType)&StringBuilder_Replace_m15486/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Replace_m15482_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Replace_m15486_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16286,7 +16286,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Replace_m15483_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Replace_m15487_ParameterInfos[] = 
 {
 	{"oldValue", 0, 134223310, 0, &String_t_0_0_0},
 	{"newValue", 1, 134223311, 0, &String_t_0_0_0},
@@ -16295,14 +16295,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_Replace_m15483_Param
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Replace(System.String,System.String,System.Int32,System.Int32)
-extern const MethodInfo StringBuilder_Replace_m15483_MethodInfo = 
+extern const MethodInfo StringBuilder_Replace_m15487_MethodInfo = 
 {
 	"Replace"/* name */
-	, (methodPointerType)&StringBuilder_Replace_m15483/* method */
+	, (methodPointerType)&StringBuilder_Replace_m15487/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Replace_m15483_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Replace_m15487_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16317,20 +16317,20 @@ extern const MethodInfo StringBuilder_Replace_m15483_MethodInfo =
 
 };
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11646_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11650_ParameterInfos[] = 
 {
 	{"value", 0, 134223314, 0, &CharU5BU5D_t608_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char[])
-extern const MethodInfo StringBuilder_Append_m11646_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m11650_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m11646/* method */
+	, (methodPointerType)&StringBuilder_Append_m11650/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m11646_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m11650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16345,20 +16345,20 @@ extern const MethodInfo StringBuilder_Append_m11646_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3255_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3259_ParameterInfos[] = 
 {
 	{"value", 0, 134223315, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-extern const MethodInfo StringBuilder_Append_m3255_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m3259_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m3255/* method */
+	, (methodPointerType)&StringBuilder_Append_m3259/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m3255_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m3259_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16373,20 +16373,20 @@ extern const MethodInfo StringBuilder_Append_m3255_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m8514_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m8518_ParameterInfos[] = 
 {
 	{"value", 0, 134223316, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Int32)
-extern const MethodInfo StringBuilder_Append_m8514_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m8518_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m8514/* method */
+	, (methodPointerType)&StringBuilder_Append_m8518/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m8514_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m8518_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16402,20 +16402,20 @@ extern const MethodInfo StringBuilder_Append_m8514_MethodInfo =
 };
 extern const Il2CppType Int64_t633_0_0_0;
 extern const Il2CppType Int64_t633_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11590_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11594_ParameterInfos[] = 
 {
 	{"value", 0, 134223317, 0, &Int64_t633_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int64_t633 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Int64)
-extern const MethodInfo StringBuilder_Append_m11590_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m11594_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m11590/* method */
+	, (methodPointerType)&StringBuilder_Append_m11594/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int64_t633/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m11590_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m11594_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16430,20 +16430,20 @@ extern const MethodInfo StringBuilder_Append_m11590_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3394_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3398_ParameterInfos[] = 
 {
 	{"value", 0, 134223318, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Object)
-extern const MethodInfo StringBuilder_Append_m3394_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m3398_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m3394/* method */
+	, (methodPointerType)&StringBuilder_Append_m3398/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m3394_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m3398_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16458,20 +16458,20 @@ extern const MethodInfo StringBuilder_Append_m3394_MethodInfo =
 
 };
 extern const Il2CppType Char_t30_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3249_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m3253_ParameterInfos[] = 
 {
 	{"value", 0, 134223319, 0, &Char_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int16_t641 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)
-extern const MethodInfo StringBuilder_Append_m3249_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m3253_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m3249/* method */
+	, (methodPointerType)&StringBuilder_Append_m3253/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int16_t641/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m3249_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m3253_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16487,21 +16487,21 @@ extern const MethodInfo StringBuilder_Append_m3249_MethodInfo =
 };
 extern const Il2CppType Char_t30_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m15484_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m15488_ParameterInfos[] = 
 {
 	{"value", 0, 134223320, 0, &Char_t30_0_0_0},
 	{"repeatCount", 1, 134223321, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int16_t641_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char,System.Int32)
-extern const MethodInfo StringBuilder_Append_m15484_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m15488_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m15484/* method */
+	, (methodPointerType)&StringBuilder_Append_m15488/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int16_t641_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m15484_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m15488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16518,7 +16518,7 @@ extern const MethodInfo StringBuilder_Append_m15484_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m8541_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m8545_ParameterInfos[] = 
 {
 	{"value", 0, 134223322, 0, &CharU5BU5D_t608_0_0_0},
 	{"startIndex", 1, 134223323, 0, &Int32_t50_0_0_0},
@@ -16526,14 +16526,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m8541_Paramet
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo StringBuilder_Append_m8541_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m8545_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m8541/* method */
+	, (methodPointerType)&StringBuilder_Append_m8545/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m8541_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m8545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16550,7 +16550,7 @@ extern const MethodInfo StringBuilder_Append_m8541_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11629_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11633_ParameterInfos[] = 
 {
 	{"value", 0, 134223325, 0, &String_t_0_0_0},
 	{"startIndex", 1, 134223326, 0, &Int32_t50_0_0_0},
@@ -16558,14 +16558,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_Append_m11629_Parame
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String,System.Int32,System.Int32)
-extern const MethodInfo StringBuilder_Append_m11629_MethodInfo = 
+extern const MethodInfo StringBuilder_Append_m11633_MethodInfo = 
 {
 	"Append"/* name */
-	, (methodPointerType)&StringBuilder_Append_m11629/* method */
+	, (methodPointerType)&StringBuilder_Append_m11633/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Append_m11629_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Append_m11633_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16581,10 +16581,10 @@ extern const MethodInfo StringBuilder_Append_m11629_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine()
-extern const MethodInfo StringBuilder_AppendLine_m5155_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendLine_m5159_MethodInfo = 
 {
 	"AppendLine"/* name */
-	, (methodPointerType)&StringBuilder_AppendLine_m5155/* method */
+	, (methodPointerType)&StringBuilder_AppendLine_m5159/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16603,20 +16603,20 @@ extern const MethodInfo StringBuilder_AppendLine_m5155_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendLine_m5154_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendLine_m5158_ParameterInfos[] = 
 {
 	{"value", 0, 134223328, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine(System.String)
-extern const MethodInfo StringBuilder_AppendLine_m5154_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendLine_m5158_MethodInfo = 
 {
 	"AppendLine"/* name */
-	, (methodPointerType)&StringBuilder_AppendLine_m5154/* method */
+	, (methodPointerType)&StringBuilder_AppendLine_m5158/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendLine_m5154_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendLine_m5158_ParameterInfos/* parameters */
 	, 723/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16632,21 +16632,21 @@ extern const MethodInfo StringBuilder_AppendLine_m5154_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9552_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9556_ParameterInfos[] = 
 {
 	{"format", 0, 134223329, 0, &String_t_0_0_0},
 	{"args", 1, 134223330, 724, &ObjectU5BU5D_t582_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object[])
-extern const MethodInfo StringBuilder_AppendFormat_m9552_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendFormat_m9556_MethodInfo = 
 {
 	"AppendFormat"/* name */
-	, (methodPointerType)&StringBuilder_AppendFormat_m9552/* method */
+	, (methodPointerType)&StringBuilder_AppendFormat_m9556/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendFormat_m9552_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendFormat_m9556_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16664,7 +16664,7 @@ extern const Il2CppType IFormatProvider_t2471_0_0_0;
 extern const Il2CppType IFormatProvider_t2471_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m15485_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m15489_ParameterInfos[] = 
 {
 	{"provider", 0, 134223331, 0, &IFormatProvider_t2471_0_0_0},
 	{"format", 1, 134223332, 0, &String_t_0_0_0},
@@ -16672,14 +16672,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m15485_
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.IFormatProvider,System.String,System.Object[])
-extern const MethodInfo StringBuilder_AppendFormat_m15485_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendFormat_m15489_MethodInfo = 
 {
 	"AppendFormat"/* name */
-	, (methodPointerType)&StringBuilder_AppendFormat_m15485/* method */
+	, (methodPointerType)&StringBuilder_AppendFormat_m15489/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendFormat_m15485_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendFormat_m15489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16695,21 +16695,21 @@ extern const MethodInfo StringBuilder_AppendFormat_m15485_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9551_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9555_ParameterInfos[] = 
 {
 	{"format", 0, 134223334, 0, &String_t_0_0_0},
 	{"arg0", 1, 134223335, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)
-extern const MethodInfo StringBuilder_AppendFormat_m9551_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendFormat_m9555_MethodInfo = 
 {
 	"AppendFormat"/* name */
-	, (methodPointerType)&StringBuilder_AppendFormat_m9551/* method */
+	, (methodPointerType)&StringBuilder_AppendFormat_m9555/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendFormat_m9551_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendFormat_m9555_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16726,7 +16726,7 @@ extern const MethodInfo StringBuilder_AppendFormat_m9551_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9550_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9554_ParameterInfos[] = 
 {
 	{"format", 0, 134223336, 0, &String_t_0_0_0},
 	{"arg0", 1, 134223337, 0, &Object_t_0_0_0},
@@ -16734,14 +16734,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m9550_P
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object)
-extern const MethodInfo StringBuilder_AppendFormat_m9550_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendFormat_m9554_MethodInfo = 
 {
 	"AppendFormat"/* name */
-	, (methodPointerType)&StringBuilder_AppendFormat_m9550/* method */
+	, (methodPointerType)&StringBuilder_AppendFormat_m9554/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendFormat_m9550_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendFormat_m9554_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16759,7 +16759,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m11626_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m11630_ParameterInfos[] = 
 {
 	{"format", 0, 134223339, 0, &String_t_0_0_0},
 	{"arg0", 1, 134223340, 0, &Object_t_0_0_0},
@@ -16768,14 +16768,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_AppendFormat_m11626_
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object,System.Object)
-extern const MethodInfo StringBuilder_AppendFormat_m11626_MethodInfo = 
+extern const MethodInfo StringBuilder_AppendFormat_m11630_MethodInfo = 
 {
 	"AppendFormat"/* name */
-	, (methodPointerType)&StringBuilder_AppendFormat_m11626/* method */
+	, (methodPointerType)&StringBuilder_AppendFormat_m11630/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_AppendFormat_m11626_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_AppendFormat_m11630_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16791,21 +16791,21 @@ extern const MethodInfo StringBuilder_AppendFormat_m11626_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15486_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15490_ParameterInfos[] = 
 {
 	{"index", 0, 134223343, 0, &Int32_t50_0_0_0},
 	{"value", 1, 134223344, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Insert(System.Int32,System.String)
-extern const MethodInfo StringBuilder_Insert_m15486_MethodInfo = 
+extern const MethodInfo StringBuilder_Insert_m15490_MethodInfo = 
 {
 	"Insert"/* name */
-	, (methodPointerType)&StringBuilder_Insert_m15486/* method */
+	, (methodPointerType)&StringBuilder_Insert_m15490/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50_Object_t/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Insert_m15486_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Insert_m15490_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16821,21 +16821,21 @@ extern const MethodInfo StringBuilder_Insert_m15486_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15487_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15491_ParameterInfos[] = 
 {
 	{"index", 0, 134223345, 0, &Int32_t50_0_0_0},
 	{"value", 1, 134223346, 0, &Char_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50_Int16_t641 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Insert(System.Int32,System.Char)
-extern const MethodInfo StringBuilder_Insert_m15487_MethodInfo = 
+extern const MethodInfo StringBuilder_Insert_m15491_MethodInfo = 
 {
 	"Insert"/* name */
-	, (methodPointerType)&StringBuilder_Insert_m15487/* method */
+	, (methodPointerType)&StringBuilder_Insert_m15491/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50_Int16_t641/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Insert_m15487_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Insert_m15491_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16852,7 +16852,7 @@ extern const MethodInfo StringBuilder_Insert_m15487_MethodInfo =
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15488_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15492_ParameterInfos[] = 
 {
 	{"index", 0, 134223347, 0, &Int32_t50_0_0_0},
 	{"value", 1, 134223348, 0, &String_t_0_0_0},
@@ -16860,14 +16860,14 @@ static const ParameterInfo StringBuilder_t221_StringBuilder_Insert_m15488_Parame
 };
 extern void* RuntimeInvoker_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.Text.StringBuilder::Insert(System.Int32,System.String,System.Int32)
-extern const MethodInfo StringBuilder_Insert_m15488_MethodInfo = 
+extern const MethodInfo StringBuilder_Insert_m15492_MethodInfo = 
 {
 	"Insert"/* name */
-	, (methodPointerType)&StringBuilder_Insert_m15488/* method */
+	, (methodPointerType)&StringBuilder_Insert_m15492/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &StringBuilder_t221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_Insert_m15488_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_Insert_m15492_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16882,20 +16882,20 @@ extern const MethodInfo StringBuilder_Insert_m15488_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo StringBuilder_t221_StringBuilder_InternalEnsureCapacity_m15489_ParameterInfos[] = 
+static const ParameterInfo StringBuilder_t221_StringBuilder_InternalEnsureCapacity_m15493_ParameterInfos[] = 
 {
 	{"size", 0, 134223350, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.StringBuilder::InternalEnsureCapacity(System.Int32)
-extern const MethodInfo StringBuilder_InternalEnsureCapacity_m15489_MethodInfo = 
+extern const MethodInfo StringBuilder_InternalEnsureCapacity_m15493_MethodInfo = 
 {
 	"InternalEnsureCapacity"/* name */
-	, (methodPointerType)&StringBuilder_InternalEnsureCapacity_m15489/* method */
+	, (methodPointerType)&StringBuilder_InternalEnsureCapacity_m15493/* method */
 	, &StringBuilder_t221_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, StringBuilder_t221_StringBuilder_InternalEnsureCapacity_m15489_ParameterInfos/* parameters */
+	, StringBuilder_t221_StringBuilder_InternalEnsureCapacity_m15493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16911,79 +16911,79 @@ extern const MethodInfo StringBuilder_InternalEnsureCapacity_m15489_MethodInfo =
 };
 static const MethodInfo* StringBuilder_t221_MethodInfos[] =
 {
-	&StringBuilder__ctor_m15475_MethodInfo,
-	&StringBuilder__ctor_m15476_MethodInfo,
-	&StringBuilder__ctor_m3248_MethodInfo,
-	&StringBuilder__ctor_m7192_MethodInfo,
-	&StringBuilder__ctor_m5207_MethodInfo,
-	&StringBuilder__ctor_m11525_MethodInfo,
-	&StringBuilder__ctor_m15477_MethodInfo,
-	&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_MethodInfo,
-	&StringBuilder_get_Capacity_m8540_MethodInfo,
-	&StringBuilder_set_Capacity_m15479_MethodInfo,
-	&StringBuilder_get_Length_m8515_MethodInfo,
-	&StringBuilder_set_Length_m8517_MethodInfo,
-	&StringBuilder_get_Chars_m8558_MethodInfo,
-	&StringBuilder_set_Chars_m15480_MethodInfo,
-	&StringBuilder_ToString_m15481_MethodInfo,
-	&StringBuilder_ToString_m8516_MethodInfo,
-	&StringBuilder_Remove_m8560_MethodInfo,
-	&StringBuilder_Replace_m15482_MethodInfo,
-	&StringBuilder_Replace_m15483_MethodInfo,
-	&StringBuilder_Append_m11646_MethodInfo,
-	&StringBuilder_Append_m3255_MethodInfo,
-	&StringBuilder_Append_m8514_MethodInfo,
-	&StringBuilder_Append_m11590_MethodInfo,
-	&StringBuilder_Append_m3394_MethodInfo,
-	&StringBuilder_Append_m3249_MethodInfo,
-	&StringBuilder_Append_m15484_MethodInfo,
-	&StringBuilder_Append_m8541_MethodInfo,
-	&StringBuilder_Append_m11629_MethodInfo,
-	&StringBuilder_AppendLine_m5155_MethodInfo,
-	&StringBuilder_AppendLine_m5154_MethodInfo,
-	&StringBuilder_AppendFormat_m9552_MethodInfo,
-	&StringBuilder_AppendFormat_m15485_MethodInfo,
-	&StringBuilder_AppendFormat_m9551_MethodInfo,
-	&StringBuilder_AppendFormat_m9550_MethodInfo,
-	&StringBuilder_AppendFormat_m11626_MethodInfo,
-	&StringBuilder_Insert_m15486_MethodInfo,
-	&StringBuilder_Insert_m15487_MethodInfo,
-	&StringBuilder_Insert_m15488_MethodInfo,
-	&StringBuilder_InternalEnsureCapacity_m15489_MethodInfo,
+	&StringBuilder__ctor_m15479_MethodInfo,
+	&StringBuilder__ctor_m15480_MethodInfo,
+	&StringBuilder__ctor_m3252_MethodInfo,
+	&StringBuilder__ctor_m7196_MethodInfo,
+	&StringBuilder__ctor_m5211_MethodInfo,
+	&StringBuilder__ctor_m11529_MethodInfo,
+	&StringBuilder__ctor_m15481_MethodInfo,
+	&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_MethodInfo,
+	&StringBuilder_get_Capacity_m8544_MethodInfo,
+	&StringBuilder_set_Capacity_m15483_MethodInfo,
+	&StringBuilder_get_Length_m8519_MethodInfo,
+	&StringBuilder_set_Length_m8521_MethodInfo,
+	&StringBuilder_get_Chars_m8562_MethodInfo,
+	&StringBuilder_set_Chars_m15484_MethodInfo,
+	&StringBuilder_ToString_m15485_MethodInfo,
+	&StringBuilder_ToString_m8520_MethodInfo,
+	&StringBuilder_Remove_m8564_MethodInfo,
+	&StringBuilder_Replace_m15486_MethodInfo,
+	&StringBuilder_Replace_m15487_MethodInfo,
+	&StringBuilder_Append_m11650_MethodInfo,
+	&StringBuilder_Append_m3259_MethodInfo,
+	&StringBuilder_Append_m8518_MethodInfo,
+	&StringBuilder_Append_m11594_MethodInfo,
+	&StringBuilder_Append_m3398_MethodInfo,
+	&StringBuilder_Append_m3253_MethodInfo,
+	&StringBuilder_Append_m15488_MethodInfo,
+	&StringBuilder_Append_m8545_MethodInfo,
+	&StringBuilder_Append_m11633_MethodInfo,
+	&StringBuilder_AppendLine_m5159_MethodInfo,
+	&StringBuilder_AppendLine_m5158_MethodInfo,
+	&StringBuilder_AppendFormat_m9556_MethodInfo,
+	&StringBuilder_AppendFormat_m15489_MethodInfo,
+	&StringBuilder_AppendFormat_m9555_MethodInfo,
+	&StringBuilder_AppendFormat_m9554_MethodInfo,
+	&StringBuilder_AppendFormat_m11630_MethodInfo,
+	&StringBuilder_Insert_m15490_MethodInfo,
+	&StringBuilder_Insert_m15491_MethodInfo,
+	&StringBuilder_Insert_m15492_MethodInfo,
+	&StringBuilder_InternalEnsureCapacity_m15493_MethodInfo,
 	NULL
 };
-extern const MethodInfo StringBuilder_get_Capacity_m8540_MethodInfo;
-extern const MethodInfo StringBuilder_set_Capacity_m15479_MethodInfo;
+extern const MethodInfo StringBuilder_get_Capacity_m8544_MethodInfo;
+extern const MethodInfo StringBuilder_set_Capacity_m15483_MethodInfo;
 static const PropertyInfo StringBuilder_t221____Capacity_PropertyInfo = 
 {
 	&StringBuilder_t221_il2cpp_TypeInfo/* parent */
 	, "Capacity"/* name */
-	, &StringBuilder_get_Capacity_m8540_MethodInfo/* get */
-	, &StringBuilder_set_Capacity_m15479_MethodInfo/* set */
+	, &StringBuilder_get_Capacity_m8544_MethodInfo/* get */
+	, &StringBuilder_set_Capacity_m15483_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo StringBuilder_get_Length_m8515_MethodInfo;
-extern const MethodInfo StringBuilder_set_Length_m8517_MethodInfo;
+extern const MethodInfo StringBuilder_get_Length_m8519_MethodInfo;
+extern const MethodInfo StringBuilder_set_Length_m8521_MethodInfo;
 static const PropertyInfo StringBuilder_t221____Length_PropertyInfo = 
 {
 	&StringBuilder_t221_il2cpp_TypeInfo/* parent */
 	, "Length"/* name */
-	, &StringBuilder_get_Length_m8515_MethodInfo/* get */
-	, &StringBuilder_set_Length_m8517_MethodInfo/* set */
+	, &StringBuilder_get_Length_m8519_MethodInfo/* get */
+	, &StringBuilder_set_Length_m8521_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo StringBuilder_get_Chars_m8558_MethodInfo;
-extern const MethodInfo StringBuilder_set_Chars_m15480_MethodInfo;
+extern const MethodInfo StringBuilder_get_Chars_m8562_MethodInfo;
+extern const MethodInfo StringBuilder_set_Chars_m15484_MethodInfo;
 static const PropertyInfo StringBuilder_t221____Chars_PropertyInfo = 
 {
 	&StringBuilder_t221_il2cpp_TypeInfo/* parent */
 	, "Chars"/* name */
-	, &StringBuilder_get_Chars_m8558_MethodInfo/* get */
-	, &StringBuilder_set_Chars_m15480_MethodInfo/* set */
+	, &StringBuilder_get_Chars_m8562_MethodInfo/* get */
+	, &StringBuilder_set_Chars_m15484_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -16995,15 +16995,15 @@ static const PropertyInfo* StringBuilder_t221_PropertyInfos[] =
 	&StringBuilder_t221____Chars_PropertyInfo,
 	NULL
 };
-extern const MethodInfo StringBuilder_ToString_m15481_MethodInfo;
-extern const MethodInfo StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_MethodInfo;
+extern const MethodInfo StringBuilder_ToString_m15485_MethodInfo;
+extern const MethodInfo StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_MethodInfo;
 static const Il2CppMethodReference StringBuilder_t221_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&StringBuilder_ToString_m15481_MethodInfo,
-	&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15478_MethodInfo,
+	&StringBuilder_ToString_m15485_MethodInfo,
+	&StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m15482_MethodInfo,
 };
 static bool StringBuilder_t221_VTableIsGenericMethod[] =
 {
@@ -17097,20 +17097,20 @@ extern TypeInfo UTF32Decoder_t2730_il2cpp_TypeInfo;
 // System.Text.UTF32Encoding/UTF32Decoder
 #include "mscorlib_System_Text_UTF32Encoding_UTF32DecoderMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF32Decoder_t2730_UTF32Decoder__ctor_m15490_ParameterInfos[] = 
+static const ParameterInfo UTF32Decoder_t2730_UTF32Decoder__ctor_m15494_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223390, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF32Encoding/UTF32Decoder::.ctor(System.Boolean)
-extern const MethodInfo UTF32Decoder__ctor_m15490_MethodInfo = 
+extern const MethodInfo UTF32Decoder__ctor_m15494_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF32Decoder__ctor_m15490/* method */
+	, (methodPointerType)&UTF32Decoder__ctor_m15494/* method */
 	, &UTF32Decoder_t2730_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, UTF32Decoder_t2730_UTF32Decoder__ctor_m15490_ParameterInfos/* parameters */
+	, UTF32Decoder_t2730_UTF32Decoder__ctor_m15494_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17129,7 +17129,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Decoder_t2730_UTF32Decoder_GetChars_m15491_ParameterInfos[] = 
+static const ParameterInfo UTF32Decoder_t2730_UTF32Decoder_GetChars_m15495_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223391, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223392, 0, &Int32_t50_0_0_0},
@@ -17139,14 +17139,14 @@ static const ParameterInfo UTF32Decoder_t2730_UTF32Decoder_GetChars_m15491_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding/UTF32Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF32Decoder_GetChars_m15491_MethodInfo = 
+extern const MethodInfo UTF32Decoder_GetChars_m15495_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF32Decoder_GetChars_m15491/* method */
+	, (methodPointerType)&UTF32Decoder_GetChars_m15495/* method */
 	, &UTF32Decoder_t2730_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Decoder_t2730_UTF32Decoder_GetChars_m15491_ParameterInfos/* parameters */
+	, UTF32Decoder_t2730_UTF32Decoder_GetChars_m15495_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17162,18 +17162,18 @@ extern const MethodInfo UTF32Decoder_GetChars_m15491_MethodInfo =
 };
 static const MethodInfo* UTF32Decoder_t2730_MethodInfos[] =
 {
-	&UTF32Decoder__ctor_m15490_MethodInfo,
-	&UTF32Decoder_GetChars_m15491_MethodInfo,
+	&UTF32Decoder__ctor_m15494_MethodInfo,
+	&UTF32Decoder_GetChars_m15495_MethodInfo,
 	NULL
 };
-extern const MethodInfo UTF32Decoder_GetChars_m15491_MethodInfo;
+extern const MethodInfo UTF32Decoder_GetChars_m15495_MethodInfo;
 static const Il2CppMethodReference UTF32Decoder_t2730_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF32Decoder_GetChars_m15491_MethodInfo,
+	&UTF32Decoder_GetChars_m15495_MethodInfo,
 };
 static bool UTF32Decoder_t2730_VTableIsGenericMethod[] =
 {
@@ -17263,10 +17263,10 @@ TypeInfo UTF32Decoder_t2730_il2cpp_TypeInfo =
 #include "mscorlib_System_Text_UTF32EncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF32Encoding::.ctor()
-extern const MethodInfo UTF32Encoding__ctor_m15492_MethodInfo = 
+extern const MethodInfo UTF32Encoding__ctor_m15496_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF32Encoding__ctor_m15492/* method */
+	, (methodPointerType)&UTF32Encoding__ctor_m15496/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -17286,21 +17286,21 @@ extern const MethodInfo UTF32Encoding__ctor_m15492_MethodInfo =
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding__ctor_m15493_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding__ctor_m15497_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223351, 0, &Boolean_t29_0_0_0},
 	{"byteOrderMark", 1, 134223352, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean)
-extern const MethodInfo UTF32Encoding__ctor_m15493_MethodInfo = 
+extern const MethodInfo UTF32Encoding__ctor_m15497_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF32Encoding__ctor_m15493/* method */
+	, (methodPointerType)&UTF32Encoding__ctor_m15497/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_SByte_t61/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding__ctor_m15493_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding__ctor_m15497_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17317,7 +17317,7 @@ extern const MethodInfo UTF32Encoding__ctor_m15493_MethodInfo =
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding__ctor_m15494_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding__ctor_m15498_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223353, 0, &Boolean_t29_0_0_0},
 	{"byteOrderMark", 1, 134223354, 0, &Boolean_t29_0_0_0},
@@ -17325,14 +17325,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding__ctor_m15494_Parame
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo UTF32Encoding__ctor_m15494_MethodInfo = 
+extern const MethodInfo UTF32Encoding__ctor_m15498_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF32Encoding__ctor_m15494/* method */
+	, (methodPointerType)&UTF32Encoding__ctor_m15498/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_SByte_t61_SByte_t61/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding__ctor_m15494_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding__ctor_m15498_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17349,7 +17349,7 @@ extern const MethodInfo UTF32Encoding__ctor_m15494_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15495_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15499_ParameterInfos[] = 
 {
 	{"chars", 0, 134223356, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223357, 0, &Int32_t50_0_0_0},
@@ -17357,14 +17357,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15495
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo UTF32Encoding_GetByteCount_m15495_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetByteCount_m15499_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetByteCount_m15495/* method */
+	, (methodPointerType)&UTF32Encoding_GetByteCount_m15499/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15495_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15499_ParameterInfos/* parameters */
 	, 726/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17383,7 +17383,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15496_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15500_ParameterInfos[] = 
 {
 	{"chars", 0, 134223359, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223360, 0, &Int32_t50_0_0_0},
@@ -17393,14 +17393,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15496_Par
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF32Encoding_GetBytes_m15496_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetBytes_m15500_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF32Encoding_GetBytes_m15496/* method */
+	, (methodPointerType)&UTF32Encoding_GetBytes_m15500/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15496_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15500_ParameterInfos/* parameters */
 	, 727/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17417,7 +17417,7 @@ extern const MethodInfo UTF32Encoding_GetBytes_m15496_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetCharCount_m15497_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetCharCount_m15501_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223364, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223365, 0, &Int32_t50_0_0_0},
@@ -17425,14 +17425,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetCharCount_m15497
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF32Encoding_GetCharCount_m15497_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetCharCount_m15501_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetCharCount_m15497/* method */
+	, (methodPointerType)&UTF32Encoding_GetCharCount_m15501/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetCharCount_m15497_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetCharCount_m15501_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17451,7 +17451,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetChars_m15498_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetChars_m15502_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223367, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223368, 0, &Int32_t50_0_0_0},
@@ -17461,14 +17461,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetChars_m15498_Par
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF32Encoding_GetChars_m15498_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetChars_m15502_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF32Encoding_GetChars_m15498/* method */
+	, (methodPointerType)&UTF32Encoding_GetChars_m15502/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetChars_m15498_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetChars_m15502_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17483,20 +17483,20 @@ extern const MethodInfo UTF32Encoding_GetChars_m15498_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetMaxByteCount_m15499_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetMaxByteCount_m15503_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223372, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo UTF32Encoding_GetMaxByteCount_m15499_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetMaxByteCount_m15503_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetMaxByteCount_m15499/* method */
+	, (methodPointerType)&UTF32Encoding_GetMaxByteCount_m15503/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetMaxByteCount_m15499_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetMaxByteCount_m15503_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17511,20 +17511,20 @@ extern const MethodInfo UTF32Encoding_GetMaxByteCount_m15499_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetMaxCharCount_m15500_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetMaxCharCount_m15504_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223373, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo UTF32Encoding_GetMaxCharCount_m15500_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetMaxCharCount_m15504_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetMaxCharCount_m15500/* method */
+	, (methodPointerType)&UTF32Encoding_GetMaxCharCount_m15504/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetMaxCharCount_m15500_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetMaxCharCount_m15504_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17540,10 +17540,10 @@ extern const MethodInfo UTF32Encoding_GetMaxCharCount_m15500_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.UTF32Encoding::GetDecoder()
-extern const MethodInfo UTF32Encoding_GetDecoder_m15501_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetDecoder_m15505_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&UTF32Encoding_GetDecoder_m15501/* method */
+	, (methodPointerType)&UTF32Encoding_GetDecoder_m15505/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17563,10 +17563,10 @@ extern const MethodInfo UTF32Encoding_GetDecoder_m15501_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.UTF32Encoding::GetPreamble()
-extern const MethodInfo UTF32Encoding_GetPreamble_m15502_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetPreamble_m15506_MethodInfo = 
 {
 	"GetPreamble"/* name */
-	, (methodPointerType)&UTF32Encoding_GetPreamble_m15502/* method */
+	, (methodPointerType)&UTF32Encoding_GetPreamble_m15506/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17585,20 +17585,20 @@ extern const MethodInfo UTF32Encoding_GetPreamble_m15502_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_Equals_m15503_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_Equals_m15507_ParameterInfos[] = 
 {
 	{"value", 0, 134223374, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.UTF32Encoding::Equals(System.Object)
-extern const MethodInfo UTF32Encoding_Equals_m15503_MethodInfo = 
+extern const MethodInfo UTF32Encoding_Equals_m15507_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&UTF32Encoding_Equals_m15503/* method */
+	, (methodPointerType)&UTF32Encoding_Equals_m15507/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_Equals_m15503_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_Equals_m15507_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17614,10 +17614,10 @@ extern const MethodInfo UTF32Encoding_Equals_m15503_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetHashCode()
-extern const MethodInfo UTF32Encoding_GetHashCode_m15504_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetHashCode_m15508_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&UTF32Encoding_GetHashCode_m15504/* method */
+	, (methodPointerType)&UTF32Encoding_GetHashCode_m15508/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -17637,21 +17637,21 @@ extern const MethodInfo UTF32Encoding_GetHashCode_m15504_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15505_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15509_ParameterInfos[] = 
 {
 	{"chars", 0, 134223375, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223376, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo UTF32Encoding_GetByteCount_m15505_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetByteCount_m15509_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetByteCount_m15505/* method */
+	, (methodPointerType)&UTF32Encoding_GetByteCount_m15509/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15505_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15509_ParameterInfos/* parameters */
 	, 728/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17666,20 +17666,20 @@ extern const MethodInfo UTF32Encoding_GetByteCount_m15505_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15506_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15510_ParameterInfos[] = 
 {
 	{"s", 0, 134223377, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.String)
-extern const MethodInfo UTF32Encoding_GetByteCount_m15506_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetByteCount_m15510_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF32Encoding_GetByteCount_m15506/* method */
+	, (methodPointerType)&UTF32Encoding_GetByteCount_m15510/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15506_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetByteCount_m15510_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17697,7 +17697,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15507_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15511_ParameterInfos[] = 
 {
 	{"chars", 0, 134223378, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223379, 0, &Int32_t50_0_0_0},
@@ -17706,14 +17706,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15507_Par
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo UTF32Encoding_GetBytes_m15507_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetBytes_m15511_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF32Encoding_GetBytes_m15507/* method */
+	, (methodPointerType)&UTF32Encoding_GetBytes_m15511/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15507_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15511_ParameterInfos/* parameters */
 	, 729/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17732,7 +17732,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15508_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15512_ParameterInfos[] = 
 {
 	{"s", 0, 134223382, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223383, 0, &Int32_t50_0_0_0},
@@ -17742,14 +17742,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15508_Par
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF32Encoding_GetBytes_m15508_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetBytes_m15512_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF32Encoding_GetBytes_m15508/* method */
+	, (methodPointerType)&UTF32Encoding_GetBytes_m15512/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15508_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetBytes_m15512_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17766,7 +17766,7 @@ extern const MethodInfo UTF32Encoding_GetBytes_m15508_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetString_m15509_ParameterInfos[] = 
+static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetString_m15513_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223387, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223388, 0, &Int32_t50_0_0_0},
@@ -17774,14 +17774,14 @@ static const ParameterInfo UTF32Encoding_t2731_UTF32Encoding_GetString_m15509_Pa
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.UTF32Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF32Encoding_GetString_m15509_MethodInfo = 
+extern const MethodInfo UTF32Encoding_GetString_m15513_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&UTF32Encoding_GetString_m15509/* method */
+	, (methodPointerType)&UTF32Encoding_GetString_m15513/* method */
 	, &UTF32Encoding_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF32Encoding_t2731_UTF32Encoding_GetString_m15509_ParameterInfos/* parameters */
+	, UTF32Encoding_t2731_UTF32Encoding_GetString_m15513_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17797,72 +17797,72 @@ extern const MethodInfo UTF32Encoding_GetString_m15509_MethodInfo =
 };
 static const MethodInfo* UTF32Encoding_t2731_MethodInfos[] =
 {
-	&UTF32Encoding__ctor_m15492_MethodInfo,
-	&UTF32Encoding__ctor_m15493_MethodInfo,
-	&UTF32Encoding__ctor_m15494_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15495_MethodInfo,
-	&UTF32Encoding_GetBytes_m15496_MethodInfo,
-	&UTF32Encoding_GetCharCount_m15497_MethodInfo,
-	&UTF32Encoding_GetChars_m15498_MethodInfo,
-	&UTF32Encoding_GetMaxByteCount_m15499_MethodInfo,
-	&UTF32Encoding_GetMaxCharCount_m15500_MethodInfo,
-	&UTF32Encoding_GetDecoder_m15501_MethodInfo,
-	&UTF32Encoding_GetPreamble_m15502_MethodInfo,
-	&UTF32Encoding_Equals_m15503_MethodInfo,
-	&UTF32Encoding_GetHashCode_m15504_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15505_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15506_MethodInfo,
-	&UTF32Encoding_GetBytes_m15507_MethodInfo,
-	&UTF32Encoding_GetBytes_m15508_MethodInfo,
-	&UTF32Encoding_GetString_m15509_MethodInfo,
+	&UTF32Encoding__ctor_m15496_MethodInfo,
+	&UTF32Encoding__ctor_m15497_MethodInfo,
+	&UTF32Encoding__ctor_m15498_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15499_MethodInfo,
+	&UTF32Encoding_GetBytes_m15500_MethodInfo,
+	&UTF32Encoding_GetCharCount_m15501_MethodInfo,
+	&UTF32Encoding_GetChars_m15502_MethodInfo,
+	&UTF32Encoding_GetMaxByteCount_m15503_MethodInfo,
+	&UTF32Encoding_GetMaxCharCount_m15504_MethodInfo,
+	&UTF32Encoding_GetDecoder_m15505_MethodInfo,
+	&UTF32Encoding_GetPreamble_m15506_MethodInfo,
+	&UTF32Encoding_Equals_m15507_MethodInfo,
+	&UTF32Encoding_GetHashCode_m15508_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15509_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15510_MethodInfo,
+	&UTF32Encoding_GetBytes_m15511_MethodInfo,
+	&UTF32Encoding_GetBytes_m15512_MethodInfo,
+	&UTF32Encoding_GetString_m15513_MethodInfo,
 	NULL
 };
 static const Il2CppType* UTF32Encoding_t2731_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&UTF32Decoder_t2730_0_0_0,
 };
-extern const MethodInfo UTF32Encoding_Equals_m15503_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetHashCode_m15504_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetByteCount_m15495_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetByteCount_m15506_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetBytes_m15496_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetBytes_m15508_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetCharCount_m15497_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetChars_m15498_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetDecoder_m15501_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetMaxByteCount_m15499_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetMaxCharCount_m15500_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetPreamble_m15502_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetString_m15509_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetByteCount_m15505_MethodInfo;
-extern const MethodInfo UTF32Encoding_GetBytes_m15507_MethodInfo;
+extern const MethodInfo UTF32Encoding_Equals_m15507_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetHashCode_m15508_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetByteCount_m15499_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetByteCount_m15510_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetBytes_m15500_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetBytes_m15512_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetCharCount_m15501_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetChars_m15502_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetDecoder_m15505_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetMaxByteCount_m15503_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetMaxCharCount_m15504_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetPreamble_m15506_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetString_m15513_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetByteCount_m15509_MethodInfo;
+extern const MethodInfo UTF32Encoding_GetBytes_m15511_MethodInfo;
 static const Il2CppMethodReference UTF32Encoding_t2731_VTable[] =
 {
-	&UTF32Encoding_Equals_m15503_MethodInfo,
+	&UTF32Encoding_Equals_m15507_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&UTF32Encoding_GetHashCode_m15504_MethodInfo,
+	&UTF32Encoding_GetHashCode_m15508_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15495_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15506_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&UTF32Encoding_GetBytes_m15496_MethodInfo,
-	&UTF32Encoding_GetBytes_m15508_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&UTF32Encoding_GetCharCount_m15497_MethodInfo,
-	&UTF32Encoding_GetChars_m15498_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&UTF32Encoding_GetDecoder_m15501_MethodInfo,
-	&UTF32Encoding_GetMaxByteCount_m15499_MethodInfo,
-	&UTF32Encoding_GetMaxCharCount_m15500_MethodInfo,
-	&UTF32Encoding_GetPreamble_m15502_MethodInfo,
-	&UTF32Encoding_GetString_m15509_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&UTF32Encoding_GetByteCount_m15505_MethodInfo,
-	&UTF32Encoding_GetBytes_m15507_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15499_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15510_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&UTF32Encoding_GetBytes_m15500_MethodInfo,
+	&UTF32Encoding_GetBytes_m15512_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&UTF32Encoding_GetCharCount_m15501_MethodInfo,
+	&UTF32Encoding_GetChars_m15502_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&UTF32Encoding_GetDecoder_m15505_MethodInfo,
+	&UTF32Encoding_GetMaxByteCount_m15503_MethodInfo,
+	&UTF32Encoding_GetMaxCharCount_m15504_MethodInfo,
+	&UTF32Encoding_GetPreamble_m15506_MethodInfo,
+	&UTF32Encoding_GetString_m15513_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&UTF32Encoding_GetByteCount_m15509_MethodInfo,
+	&UTF32Encoding_GetBytes_m15511_MethodInfo,
 };
 static bool UTF32Encoding_t2731_VTableIsGenericMethod[] =
 {
@@ -17974,10 +17974,10 @@ extern TypeInfo UTF7Decoder_t2732_il2cpp_TypeInfo;
 #include "mscorlib_System_Text_UTF7Encoding_UTF7DecoderMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF7Encoding/UTF7Decoder::.ctor()
-extern const MethodInfo UTF7Decoder__ctor_m15510_MethodInfo = 
+extern const MethodInfo UTF7Decoder__ctor_m15514_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF7Decoder__ctor_m15510/* method */
+	, (methodPointerType)&UTF7Decoder__ctor_m15514/* method */
 	, &UTF7Decoder_t2732_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -18000,7 +18000,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Decoder_t2732_UTF7Decoder_GetChars_m15511_ParameterInfos[] = 
+static const ParameterInfo UTF7Decoder_t2732_UTF7Decoder_GetChars_m15515_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223457, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223458, 0, &Int32_t50_0_0_0},
@@ -18010,14 +18010,14 @@ static const ParameterInfo UTF7Decoder_t2732_UTF7Decoder_GetChars_m15511_Paramet
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding/UTF7Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF7Decoder_GetChars_m15511_MethodInfo = 
+extern const MethodInfo UTF7Decoder_GetChars_m15515_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF7Decoder_GetChars_m15511/* method */
+	, (methodPointerType)&UTF7Decoder_GetChars_m15515/* method */
 	, &UTF7Decoder_t2732_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Decoder_t2732_UTF7Decoder_GetChars_m15511_ParameterInfos/* parameters */
+	, UTF7Decoder_t2732_UTF7Decoder_GetChars_m15515_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18033,18 +18033,18 @@ extern const MethodInfo UTF7Decoder_GetChars_m15511_MethodInfo =
 };
 static const MethodInfo* UTF7Decoder_t2732_MethodInfos[] =
 {
-	&UTF7Decoder__ctor_m15510_MethodInfo,
-	&UTF7Decoder_GetChars_m15511_MethodInfo,
+	&UTF7Decoder__ctor_m15514_MethodInfo,
+	&UTF7Decoder_GetChars_m15515_MethodInfo,
 	NULL
 };
-extern const MethodInfo UTF7Decoder_GetChars_m15511_MethodInfo;
+extern const MethodInfo UTF7Decoder_GetChars_m15515_MethodInfo;
 static const Il2CppMethodReference UTF7Decoder_t2732_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF7Decoder_GetChars_m15511_MethodInfo,
+	&UTF7Decoder_GetChars_m15515_MethodInfo,
 };
 static bool UTF7Decoder_t2732_VTableIsGenericMethod[] =
 {
@@ -18134,10 +18134,10 @@ TypeInfo UTF7Decoder_t2732_il2cpp_TypeInfo =
 #include "mscorlib_System_Text_UTF7EncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF7Encoding::.ctor()
-extern const MethodInfo UTF7Encoding__ctor_m15512_MethodInfo = 
+extern const MethodInfo UTF7Encoding__ctor_m15516_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF7Encoding__ctor_m15512/* method */
+	, (methodPointerType)&UTF7Encoding__ctor_m15516/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -18156,20 +18156,20 @@ extern const MethodInfo UTF7Encoding__ctor_m15512_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding__ctor_m15513_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding__ctor_m15517_ParameterInfos[] = 
 {
 	{"allowOptionals", 0, 134223396, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF7Encoding::.ctor(System.Boolean)
-extern const MethodInfo UTF7Encoding__ctor_m15513_MethodInfo = 
+extern const MethodInfo UTF7Encoding__ctor_m15517_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF7Encoding__ctor_m15513/* method */
+	, (methodPointerType)&UTF7Encoding__ctor_m15517/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding__ctor_m15513_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding__ctor_m15517_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -18185,10 +18185,10 @@ extern const MethodInfo UTF7Encoding__ctor_m15513_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF7Encoding::.cctor()
-extern const MethodInfo UTF7Encoding__cctor_m15514_MethodInfo = 
+extern const MethodInfo UTF7Encoding__cctor_m15518_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&UTF7Encoding__cctor_m15514/* method */
+	, (methodPointerType)&UTF7Encoding__cctor_m15518/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -18208,10 +18208,10 @@ extern const MethodInfo UTF7Encoding__cctor_m15514_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetHashCode()
-extern const MethodInfo UTF7Encoding_GetHashCode_m15515_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetHashCode_m15519_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&UTF7Encoding_GetHashCode_m15515/* method */
+	, (methodPointerType)&UTF7Encoding_GetHashCode_m15519/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -18230,20 +18230,20 @@ extern const MethodInfo UTF7Encoding_GetHashCode_m15515_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_Equals_m15516_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_Equals_m15520_ParameterInfos[] = 
 {
 	{"value", 0, 134223397, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.UTF7Encoding::Equals(System.Object)
-extern const MethodInfo UTF7Encoding_Equals_m15516_MethodInfo = 
+extern const MethodInfo UTF7Encoding_Equals_m15520_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&UTF7Encoding_Equals_m15516/* method */
+	, (methodPointerType)&UTF7Encoding_Equals_m15520/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_Equals_m15516_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_Equals_m15520_ParameterInfos/* parameters */
 	, 732/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18264,7 +18264,7 @@ extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetByteCount_m15517_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetByteCount_m15521_ParameterInfos[] = 
 {
 	{"chars", 0, 134223398, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223399, 0, &Int32_t50_0_0_0},
@@ -18276,14 +18276,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetByteCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_SByte_t61_Int32_t50_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::InternalGetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Boolean)
-extern const MethodInfo UTF7Encoding_InternalGetByteCount_m15517_MethodInfo = 
+extern const MethodInfo UTF7Encoding_InternalGetByteCount_m15521_MethodInfo = 
 {
 	"InternalGetByteCount"/* name */
-	, (methodPointerType)&UTF7Encoding_InternalGetByteCount_m15517/* method */
+	, (methodPointerType)&UTF7Encoding_InternalGetByteCount_m15521/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_SByte_t61_Int32_t50_SByte_t61_SByte_t61/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_InternalGetByteCount_m15517_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_InternalGetByteCount_m15521_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18300,7 +18300,7 @@ extern const MethodInfo UTF7Encoding_InternalGetByteCount_m15517_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15518_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15522_ParameterInfos[] = 
 {
 	{"chars", 0, 134223405, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223406, 0, &Int32_t50_0_0_0},
@@ -18308,14 +18308,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15518_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo UTF7Encoding_GetByteCount_m15518_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetByteCount_m15522_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetByteCount_m15518/* method */
+	, (methodPointerType)&UTF7Encoding_GetByteCount_m15522/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15518_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15522_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18339,7 +18339,7 @@ extern const Il2CppType Int32_t50_1_0_0;
 extern const Il2CppType Boolean_t29_1_0_0;
 extern const Il2CppType Boolean_t29_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetBytes_m15519_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetBytes_m15523_ParameterInfos[] = 
 {
 	{"chars", 0, 134223408, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223409, 0, &Int32_t50_0_0_0},
@@ -18353,14 +18353,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetBytes_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_SByte_t61_Int32U26_t1036_BooleanU26_t1029_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::InternalGetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean,System.Int32&,System.Boolean&,System.Boolean)
-extern const MethodInfo UTF7Encoding_InternalGetBytes_m15519_MethodInfo = 
+extern const MethodInfo UTF7Encoding_InternalGetBytes_m15523_MethodInfo = 
 {
 	"InternalGetBytes"/* name */
-	, (methodPointerType)&UTF7Encoding_InternalGetBytes_m15519/* method */
+	, (methodPointerType)&UTF7Encoding_InternalGetBytes_m15523/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_SByte_t61_Int32U26_t1036_BooleanU26_t1029_SByte_t61/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_InternalGetBytes_m15519_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_InternalGetBytes_m15523_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18379,7 +18379,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15520_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15524_ParameterInfos[] = 
 {
 	{"chars", 0, 134223417, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223418, 0, &Int32_t50_0_0_0},
@@ -18389,14 +18389,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15520_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF7Encoding_GetBytes_m15520_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetBytes_m15524_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF7Encoding_GetBytes_m15520/* method */
+	, (methodPointerType)&UTF7Encoding_GetBytes_m15524/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15520_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15524_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18414,7 +18414,7 @@ extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetCharCount_m15521_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetCharCount_m15525_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223422, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223423, 0, &Int32_t50_0_0_0},
@@ -18423,14 +18423,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetCharCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::InternalGetCharCount(System.Byte[],System.Int32,System.Int32,System.Int32)
-extern const MethodInfo UTF7Encoding_InternalGetCharCount_m15521_MethodInfo = 
+extern const MethodInfo UTF7Encoding_InternalGetCharCount_m15525_MethodInfo = 
 {
 	"InternalGetCharCount"/* name */
-	, (methodPointerType)&UTF7Encoding_InternalGetCharCount_m15521/* method */
+	, (methodPointerType)&UTF7Encoding_InternalGetCharCount_m15525/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_InternalGetCharCount_m15521_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_InternalGetCharCount_m15525_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18447,7 +18447,7 @@ extern const MethodInfo UTF7Encoding_InternalGetCharCount_m15521_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetCharCount_m15522_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetCharCount_m15526_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223426, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223427, 0, &Int32_t50_0_0_0},
@@ -18455,14 +18455,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetCharCount_m15522_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF7Encoding_GetCharCount_m15522_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetCharCount_m15526_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetCharCount_m15522/* method */
+	, (methodPointerType)&UTF7Encoding_GetCharCount_m15526/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetCharCount_m15522_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetCharCount_m15526_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18482,7 +18482,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_1_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetChars_m15523_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetChars_m15527_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223429, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223430, 0, &Int32_t50_0_0_0},
@@ -18493,14 +18493,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_InternalGetChars_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_Int32U26_t1036 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::InternalGetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32&)
-extern const MethodInfo UTF7Encoding_InternalGetChars_m15523_MethodInfo = 
+extern const MethodInfo UTF7Encoding_InternalGetChars_m15527_MethodInfo = 
 {
 	"InternalGetChars"/* name */
-	, (methodPointerType)&UTF7Encoding_InternalGetChars_m15523/* method */
+	, (methodPointerType)&UTF7Encoding_InternalGetChars_m15527/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_Int32U26_t1036/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_InternalGetChars_m15523_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_InternalGetChars_m15527_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18519,7 +18519,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetChars_m15524_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetChars_m15528_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223435, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223436, 0, &Int32_t50_0_0_0},
@@ -18529,14 +18529,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetChars_m15524_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF7Encoding_GetChars_m15524_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetChars_m15528_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF7Encoding_GetChars_m15524/* method */
+	, (methodPointerType)&UTF7Encoding_GetChars_m15528/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetChars_m15524_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetChars_m15528_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18551,20 +18551,20 @@ extern const MethodInfo UTF7Encoding_GetChars_m15524_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetMaxByteCount_m15525_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetMaxByteCount_m15529_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223440, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo UTF7Encoding_GetMaxByteCount_m15525_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetMaxByteCount_m15529_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetMaxByteCount_m15525/* method */
+	, (methodPointerType)&UTF7Encoding_GetMaxByteCount_m15529/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetMaxByteCount_m15525_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetMaxByteCount_m15529_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18579,20 +18579,20 @@ extern const MethodInfo UTF7Encoding_GetMaxByteCount_m15525_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetMaxCharCount_m15526_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetMaxCharCount_m15530_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223441, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo UTF7Encoding_GetMaxCharCount_m15526_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetMaxCharCount_m15530_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetMaxCharCount_m15526/* method */
+	, (methodPointerType)&UTF7Encoding_GetMaxCharCount_m15530/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetMaxCharCount_m15526_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetMaxCharCount_m15530_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18608,10 +18608,10 @@ extern const MethodInfo UTF7Encoding_GetMaxCharCount_m15526_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.UTF7Encoding::GetDecoder()
-extern const MethodInfo UTF7Encoding_GetDecoder_m15527_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetDecoder_m15531_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&UTF7Encoding_GetDecoder_m15527/* method */
+	, (methodPointerType)&UTF7Encoding_GetDecoder_m15531/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -18631,21 +18631,21 @@ extern const MethodInfo UTF7Encoding_GetDecoder_m15527_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15528_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15532_ParameterInfos[] = 
 {
 	{"chars", 0, 134223442, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223443, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo UTF7Encoding_GetByteCount_m15528_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetByteCount_m15532_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetByteCount_m15528/* method */
+	, (methodPointerType)&UTF7Encoding_GetByteCount_m15532/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15528_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15532_ParameterInfos/* parameters */
 	, 733/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18660,20 +18660,20 @@ extern const MethodInfo UTF7Encoding_GetByteCount_m15528_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15529_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15533_ParameterInfos[] = 
 {
 	{"s", 0, 134223444, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.String)
-extern const MethodInfo UTF7Encoding_GetByteCount_m15529_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetByteCount_m15533_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF7Encoding_GetByteCount_m15529/* method */
+	, (methodPointerType)&UTF7Encoding_GetByteCount_m15533/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15529_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetByteCount_m15533_ParameterInfos/* parameters */
 	, 734/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18691,7 +18691,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15530_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15534_ParameterInfos[] = 
 {
 	{"chars", 0, 134223445, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223446, 0, &Int32_t50_0_0_0},
@@ -18700,14 +18700,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15530_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo UTF7Encoding_GetBytes_m15530_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetBytes_m15534_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF7Encoding_GetBytes_m15530/* method */
+	, (methodPointerType)&UTF7Encoding_GetBytes_m15534/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15530_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15534_ParameterInfos/* parameters */
 	, 735/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18726,7 +18726,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15531_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15535_ParameterInfos[] = 
 {
 	{"s", 0, 134223449, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223450, 0, &Int32_t50_0_0_0},
@@ -18736,14 +18736,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15531_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF7Encoding_GetBytes_m15531_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetBytes_m15535_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF7Encoding_GetBytes_m15531/* method */
+	, (methodPointerType)&UTF7Encoding_GetBytes_m15535/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15531_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetBytes_m15535_ParameterInfos/* parameters */
 	, 736/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18760,7 +18760,7 @@ extern const MethodInfo UTF7Encoding_GetBytes_m15531_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetString_m15532_ParameterInfos[] = 
+static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetString_m15536_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223454, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223455, 0, &Int32_t50_0_0_0},
@@ -18768,14 +18768,14 @@ static const ParameterInfo UTF7Encoding_t2734_UTF7Encoding_GetString_m15532_Para
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.UTF7Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF7Encoding_GetString_m15532_MethodInfo = 
+extern const MethodInfo UTF7Encoding_GetString_m15536_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&UTF7Encoding_GetString_m15532/* method */
+	, (methodPointerType)&UTF7Encoding_GetString_m15536/* method */
 	, &UTF7Encoding_t2734_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF7Encoding_t2734_UTF7Encoding_GetString_m15532_ParameterInfos/* parameters */
+	, UTF7Encoding_t2734_UTF7Encoding_GetString_m15536_ParameterInfos/* parameters */
 	, 737/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18791,74 +18791,74 @@ extern const MethodInfo UTF7Encoding_GetString_m15532_MethodInfo =
 };
 static const MethodInfo* UTF7Encoding_t2734_MethodInfos[] =
 {
-	&UTF7Encoding__ctor_m15512_MethodInfo,
-	&UTF7Encoding__ctor_m15513_MethodInfo,
-	&UTF7Encoding__cctor_m15514_MethodInfo,
-	&UTF7Encoding_GetHashCode_m15515_MethodInfo,
-	&UTF7Encoding_Equals_m15516_MethodInfo,
-	&UTF7Encoding_InternalGetByteCount_m15517_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15518_MethodInfo,
-	&UTF7Encoding_InternalGetBytes_m15519_MethodInfo,
-	&UTF7Encoding_GetBytes_m15520_MethodInfo,
-	&UTF7Encoding_InternalGetCharCount_m15521_MethodInfo,
-	&UTF7Encoding_GetCharCount_m15522_MethodInfo,
-	&UTF7Encoding_InternalGetChars_m15523_MethodInfo,
-	&UTF7Encoding_GetChars_m15524_MethodInfo,
-	&UTF7Encoding_GetMaxByteCount_m15525_MethodInfo,
-	&UTF7Encoding_GetMaxCharCount_m15526_MethodInfo,
-	&UTF7Encoding_GetDecoder_m15527_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15528_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15529_MethodInfo,
-	&UTF7Encoding_GetBytes_m15530_MethodInfo,
-	&UTF7Encoding_GetBytes_m15531_MethodInfo,
-	&UTF7Encoding_GetString_m15532_MethodInfo,
+	&UTF7Encoding__ctor_m15516_MethodInfo,
+	&UTF7Encoding__ctor_m15517_MethodInfo,
+	&UTF7Encoding__cctor_m15518_MethodInfo,
+	&UTF7Encoding_GetHashCode_m15519_MethodInfo,
+	&UTF7Encoding_Equals_m15520_MethodInfo,
+	&UTF7Encoding_InternalGetByteCount_m15521_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15522_MethodInfo,
+	&UTF7Encoding_InternalGetBytes_m15523_MethodInfo,
+	&UTF7Encoding_GetBytes_m15524_MethodInfo,
+	&UTF7Encoding_InternalGetCharCount_m15525_MethodInfo,
+	&UTF7Encoding_GetCharCount_m15526_MethodInfo,
+	&UTF7Encoding_InternalGetChars_m15527_MethodInfo,
+	&UTF7Encoding_GetChars_m15528_MethodInfo,
+	&UTF7Encoding_GetMaxByteCount_m15529_MethodInfo,
+	&UTF7Encoding_GetMaxCharCount_m15530_MethodInfo,
+	&UTF7Encoding_GetDecoder_m15531_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15532_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15533_MethodInfo,
+	&UTF7Encoding_GetBytes_m15534_MethodInfo,
+	&UTF7Encoding_GetBytes_m15535_MethodInfo,
+	&UTF7Encoding_GetString_m15536_MethodInfo,
 	NULL
 };
 static const Il2CppType* UTF7Encoding_t2734_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&UTF7Decoder_t2732_0_0_0,
 };
-extern const MethodInfo UTF7Encoding_Equals_m15516_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetHashCode_m15515_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetByteCount_m15518_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetByteCount_m15529_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetBytes_m15520_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetBytes_m15531_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetCharCount_m15522_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetChars_m15524_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetDecoder_m15527_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetMaxByteCount_m15525_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetMaxCharCount_m15526_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetString_m15532_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetByteCount_m15528_MethodInfo;
-extern const MethodInfo UTF7Encoding_GetBytes_m15530_MethodInfo;
+extern const MethodInfo UTF7Encoding_Equals_m15520_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetHashCode_m15519_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetByteCount_m15522_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetByteCount_m15533_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetBytes_m15524_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetBytes_m15535_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetCharCount_m15526_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetChars_m15528_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetDecoder_m15531_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetMaxByteCount_m15529_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetMaxCharCount_m15530_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetString_m15536_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetByteCount_m15532_MethodInfo;
+extern const MethodInfo UTF7Encoding_GetBytes_m15534_MethodInfo;
 static const Il2CppMethodReference UTF7Encoding_t2734_VTable[] =
 {
-	&UTF7Encoding_Equals_m15516_MethodInfo,
+	&UTF7Encoding_Equals_m15520_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&UTF7Encoding_GetHashCode_m15515_MethodInfo,
+	&UTF7Encoding_GetHashCode_m15519_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15518_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15529_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&UTF7Encoding_GetBytes_m15520_MethodInfo,
-	&UTF7Encoding_GetBytes_m15531_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&UTF7Encoding_GetCharCount_m15522_MethodInfo,
-	&UTF7Encoding_GetChars_m15524_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&UTF7Encoding_GetDecoder_m15527_MethodInfo,
-	&UTF7Encoding_GetMaxByteCount_m15525_MethodInfo,
-	&UTF7Encoding_GetMaxCharCount_m15526_MethodInfo,
-	&Encoding_GetPreamble_m15447_MethodInfo,
-	&UTF7Encoding_GetString_m15532_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&UTF7Encoding_GetByteCount_m15528_MethodInfo,
-	&UTF7Encoding_GetBytes_m15530_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15522_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15533_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&UTF7Encoding_GetBytes_m15524_MethodInfo,
+	&UTF7Encoding_GetBytes_m15535_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&UTF7Encoding_GetCharCount_m15526_MethodInfo,
+	&UTF7Encoding_GetChars_m15528_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&UTF7Encoding_GetDecoder_m15531_MethodInfo,
+	&UTF7Encoding_GetMaxByteCount_m15529_MethodInfo,
+	&UTF7Encoding_GetMaxCharCount_m15530_MethodInfo,
+	&Encoding_GetPreamble_m15451_MethodInfo,
+	&UTF7Encoding_GetString_m15536_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&UTF7Encoding_GetByteCount_m15532_MethodInfo,
+	&UTF7Encoding_GetBytes_m15534_MethodInfo,
 };
 static bool UTF7Encoding_t2734_VTableIsGenericMethod[] =
 {
@@ -18969,20 +18969,20 @@ extern TypeInfo UTF8Decoder_t2735_il2cpp_TypeInfo;
 // System.Text.UTF8Encoding/UTF8Decoder
 #include "mscorlib_System_Text_UTF8Encoding_UTF8DecoderMethodDeclarations.h"
 extern const Il2CppType DecoderFallback_t2714_0_0_0;
-static const ParameterInfo UTF8Decoder_t2735_UTF8Decoder__ctor_m15533_ParameterInfos[] = 
+static const ParameterInfo UTF8Decoder_t2735_UTF8Decoder__ctor_m15537_ParameterInfos[] = 
 {
 	{"fallback", 0, 134223573, 0, &DecoderFallback_t2714_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF8Encoding/UTF8Decoder::.ctor(System.Text.DecoderFallback)
-extern const MethodInfo UTF8Decoder__ctor_m15533_MethodInfo = 
+extern const MethodInfo UTF8Decoder__ctor_m15537_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF8Decoder__ctor_m15533/* method */
+	, (methodPointerType)&UTF8Decoder__ctor_m15537/* method */
 	, &UTF8Decoder_t2735_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, UTF8Decoder_t2735_UTF8Decoder__ctor_m15533_ParameterInfos/* parameters */
+	, UTF8Decoder_t2735_UTF8Decoder__ctor_m15537_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19001,7 +19001,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Decoder_t2735_UTF8Decoder_GetChars_m15534_ParameterInfos[] = 
+static const ParameterInfo UTF8Decoder_t2735_UTF8Decoder_GetChars_m15538_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223574, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223575, 0, &Int32_t50_0_0_0},
@@ -19011,14 +19011,14 @@ static const ParameterInfo UTF8Decoder_t2735_UTF8Decoder_GetChars_m15534_Paramet
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding/UTF8Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF8Decoder_GetChars_m15534_MethodInfo = 
+extern const MethodInfo UTF8Decoder_GetChars_m15538_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF8Decoder_GetChars_m15534/* method */
+	, (methodPointerType)&UTF8Decoder_GetChars_m15538/* method */
 	, &UTF8Decoder_t2735_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Decoder_t2735_UTF8Decoder_GetChars_m15534_ParameterInfos/* parameters */
+	, UTF8Decoder_t2735_UTF8Decoder_GetChars_m15538_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19034,18 +19034,18 @@ extern const MethodInfo UTF8Decoder_GetChars_m15534_MethodInfo =
 };
 static const MethodInfo* UTF8Decoder_t2735_MethodInfos[] =
 {
-	&UTF8Decoder__ctor_m15533_MethodInfo,
-	&UTF8Decoder_GetChars_m15534_MethodInfo,
+	&UTF8Decoder__ctor_m15537_MethodInfo,
+	&UTF8Decoder_GetChars_m15538_MethodInfo,
 	NULL
 };
-extern const MethodInfo UTF8Decoder_GetChars_m15534_MethodInfo;
+extern const MethodInfo UTF8Decoder_GetChars_m15538_MethodInfo;
 static const Il2CppMethodReference UTF8Decoder_t2735_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF8Decoder_GetChars_m15534_MethodInfo,
+	&UTF8Decoder_GetChars_m15538_MethodInfo,
 };
 static bool UTF8Decoder_t2735_VTableIsGenericMethod[] =
 {
@@ -19135,10 +19135,10 @@ TypeInfo UTF8Decoder_t2735_il2cpp_TypeInfo =
 #include "mscorlib_System_Text_UTF8EncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF8Encoding::.ctor()
-extern const MethodInfo UTF8Encoding__ctor_m15535_MethodInfo = 
+extern const MethodInfo UTF8Encoding__ctor_m15539_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF8Encoding__ctor_m15535/* method */
+	, (methodPointerType)&UTF8Encoding__ctor_m15539/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -19157,20 +19157,20 @@ extern const MethodInfo UTF8Encoding__ctor_m15535_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding__ctor_m15536_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding__ctor_m15540_ParameterInfos[] = 
 {
 	{"encoderShouldEmitUTF8Identifier", 0, 134223462, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF8Encoding::.ctor(System.Boolean)
-extern const MethodInfo UTF8Encoding__ctor_m15536_MethodInfo = 
+extern const MethodInfo UTF8Encoding__ctor_m15540_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF8Encoding__ctor_m15536/* method */
+	, (methodPointerType)&UTF8Encoding__ctor_m15540/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding__ctor_m15536_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding__ctor_m15540_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19186,21 +19186,21 @@ extern const MethodInfo UTF8Encoding__ctor_m15536_MethodInfo =
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding__ctor_m8543_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding__ctor_m8547_ParameterInfos[] = 
 {
 	{"encoderShouldEmitUTF8Identifier", 0, 134223463, 0, &Boolean_t29_0_0_0},
 	{"throwOnInvalidBytes", 1, 134223464, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF8Encoding::.ctor(System.Boolean,System.Boolean)
-extern const MethodInfo UTF8Encoding__ctor_m8543_MethodInfo = 
+extern const MethodInfo UTF8Encoding__ctor_m8547_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UTF8Encoding__ctor_m8543/* method */
+	, (methodPointerType)&UTF8Encoding__ctor_m8547/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding__ctor_m8543_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding__ctor_m8547_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19220,7 +19220,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_1_0_0;
 extern const Il2CppType Char_t30_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15537_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15541_ParameterInfos[] = 
 {
 	{"chars", 0, 134223465, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223466, 0, &Int32_t50_0_0_0},
@@ -19230,14 +19230,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_CharU26_t2305_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetByteCount(System.Char[],System.Int32,System.Int32,System.Char&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetByteCount_m15537_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetByteCount_m15541_MethodInfo = 
 {
 	"InternalGetByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetByteCount_m15537/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetByteCount_m15541/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_CharU26_t2305_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15537_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15541_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19255,7 +19255,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15538_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15542_ParameterInfos[] = 
 {
 	{"chars", 0, 134223470, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223471, 0, &Int32_t50_0_0_0},
@@ -19264,14 +19264,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetByteCount(System.Char*,System.Int32,System.Char&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetByteCount_m15538_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetByteCount_m15542_MethodInfo = 
 {
 	"InternalGetByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetByteCount_m15538/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetByteCount_m15542/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15538_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetByteCount_m15542_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19288,7 +19288,7 @@ extern const MethodInfo UTF8Encoding_InternalGetByteCount_m15538_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15539_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15543_ParameterInfos[] = 
 {
 	{"chars", 0, 134223474, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223475, 0, &Int32_t50_0_0_0},
@@ -19296,14 +19296,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15539_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo UTF8Encoding_GetByteCount_m15539_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetByteCount_m15543_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetByteCount_m15539/* method */
+	, (methodPointerType)&UTF8Encoding_GetByteCount_m15543/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15539_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15543_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19319,21 +19319,21 @@ extern const MethodInfo UTF8Encoding_GetByteCount_m15539_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15540_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15544_ParameterInfos[] = 
 {
 	{"chars", 0, 134223477, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223478, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo UTF8Encoding_GetByteCount_m15540_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetByteCount_m15544_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetByteCount_m15540/* method */
+	, (methodPointerType)&UTF8Encoding_GetByteCount_m15544/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15540_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15544_ParameterInfos/* parameters */
 	, 739/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19354,7 +19354,7 @@ extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15541_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15545_ParameterInfos[] = 
 {
 	{"chars", 0, 134223479, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223480, 0, &Int32_t50_0_0_0},
@@ -19366,14 +19366,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Char&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetBytes_m15541_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetBytes_m15545_MethodInfo = 
 {
 	"InternalGetBytes"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetBytes_m15541/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetBytes_m15545/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15541_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19393,7 +19393,7 @@ extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Char_t30_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15542_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15546_ParameterInfos[] = 
 {
 	{"chars", 0, 134223486, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223487, 0, &Int32_t50_0_0_0},
@@ -19404,14 +19404,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Char&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetBytes_m15542_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetBytes_m15546_MethodInfo = 
 {
 	"InternalGetBytes"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetBytes_m15542/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetBytes_m15546/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50_CharU26_t2305_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15542_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetBytes_m15546_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19430,7 +19430,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15543_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15547_ParameterInfos[] = 
 {
 	{"chars", 0, 134223492, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223493, 0, &Int32_t50_0_0_0},
@@ -19440,14 +19440,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15543_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF8Encoding_GetBytes_m15543_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetBytes_m15547_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF8Encoding_GetBytes_m15543/* method */
+	, (methodPointerType)&UTF8Encoding_GetBytes_m15547/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15543_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15547_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19466,7 +19466,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15544_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15548_ParameterInfos[] = 
 {
 	{"s", 0, 134223497, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223498, 0, &Int32_t50_0_0_0},
@@ -19476,14 +19476,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15544_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UTF8Encoding_GetBytes_m15544_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetBytes_m15548_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF8Encoding_GetBytes_m15544/* method */
+	, (methodPointerType)&UTF8Encoding_GetBytes_m15548/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15544_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15548_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19501,7 +19501,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15545_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15549_ParameterInfos[] = 
 {
 	{"chars", 0, 134223502, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223503, 0, &Int32_t50_0_0_0},
@@ -19510,14 +19510,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15545_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo UTF8Encoding_GetBytes_m15545_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetBytes_m15549_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UTF8Encoding_GetBytes_m15545/* method */
+	, (methodPointerType)&UTF8Encoding_GetBytes_m15549/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15545_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetBytes_m15549_ParameterInfos/* parameters */
 	, 740/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19542,7 +19542,7 @@ extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
 extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15546_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15550_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223506, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223507, 0, &Int32_t50_0_0_0},
@@ -19556,14 +19556,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetCharCount(System.Byte[],System.Int32,System.Int32,System.UInt32,System.UInt32,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetCharCount_m15546_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetCharCount_m15550_MethodInfo = 
 {
 	"InternalGetCharCount"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetCharCount_m15546/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetCharCount_m15550/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15546_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15550_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19585,7 +19585,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
 extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15547_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15551_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223515, 0, &ByteU2A_t1898_0_0_0},
 	{"count", 1, 134223516, 0, &Int32_t50_0_0_0},
@@ -19598,14 +19598,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetCharCount(System.Byte*,System.Int32,System.UInt32,System.UInt32,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetCharCount_m15547_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetCharCount_m15551_MethodInfo = 
 {
 	"InternalGetCharCount"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetCharCount_m15547/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetCharCount_m15551/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15547_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetCharCount_m15551_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19625,7 +19625,7 @@ extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int64_t633_0_0_0;
 extern const Il2CppType UInt32_t639_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15548_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15552_ParameterInfos[] = 
 {
 	{"provider", 0, 134223523, 0, &Object_t_0_0_0},
 	{"buffer", 1, 134223524, 0, &DecoderFallbackBuffer_t2715_1_0_0},
@@ -19636,14 +19636,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15548_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_Object_t_Int64_t633_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::Fallback(System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Byte*,System.Int64,System.UInt32)
-extern const MethodInfo UTF8Encoding_Fallback_m15548_MethodInfo = 
+extern const MethodInfo UTF8Encoding_Fallback_m15552_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&UTF8Encoding_Fallback_m15548/* method */
+	, (methodPointerType)&UTF8Encoding_Fallback_m15552/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_Object_t_Int64_t633_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_Fallback_m15548_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_Fallback_m15552_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19665,7 +19665,7 @@ extern const Il2CppType Int64_t633_0_0_0;
 extern const Il2CppType UInt32_t639_0_0_0;
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_1_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15549_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15553_ParameterInfos[] = 
 {
 	{"provider", 0, 134223529, 0, &Object_t_0_0_0},
 	{"buffer", 1, 134223530, 0, &DecoderFallbackBuffer_t2715_1_0_0},
@@ -19678,14 +19678,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Fallback_m15549_Param
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_Object_t_Int64_t633_Int32_t50_Object_t_Int32U26_t1036 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UTF8Encoding::Fallback(System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Byte*,System.Int64,System.UInt32,System.Char*,System.Int32&)
-extern const MethodInfo UTF8Encoding_Fallback_m15549_MethodInfo = 
+extern const MethodInfo UTF8Encoding_Fallback_m15553_MethodInfo = 
 {
 	"Fallback"/* name */
-	, (methodPointerType)&UTF8Encoding_Fallback_m15549/* method */
+	, (methodPointerType)&UTF8Encoding_Fallback_m15553/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_Object_t_Int64_t633_Int32_t50_Object_t_Int32U26_t1036/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_Fallback_m15549_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_Fallback_m15553_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19702,7 +19702,7 @@ extern const MethodInfo UTF8Encoding_Fallback_m15549_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetCharCount_m15550_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetCharCount_m15554_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223537, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223538, 0, &Int32_t50_0_0_0},
@@ -19710,14 +19710,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetCharCount_m15550_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF8Encoding_GetCharCount_m15550_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetCharCount_m15554_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetCharCount_m15550/* method */
+	, (methodPointerType)&UTF8Encoding_GetCharCount_m15554/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetCharCount_m15550_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetCharCount_m15554_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19743,7 +19743,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
 extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15551_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15555_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223540, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223541, 0, &Int32_t50_0_0_0},
@@ -19759,14 +19759,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_UInt32U26_t2972_UInt32U26_t2972_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.UInt32&,System.UInt32&,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetChars_m15551_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetChars_m15555_MethodInfo = 
 {
 	"InternalGetChars"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetChars_m15551/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetChars_m15555/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50_UInt32U26_t2972_UInt32U26_t2972_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15551_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15555_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19790,7 +19790,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType DecoderFallbackBuffer_t2715_1_0_0;
 extern const Il2CppType ByteU5BU5D_t36_1_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15552_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15556_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223551, 0, &ByteU2A_t1898_0_0_0},
 	{"byteCount", 1, 134223552, 0, &Int32_t50_0_0_0},
@@ -19805,14 +19805,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m155
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50_UInt32U26_t2972_UInt32U26_t2972_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::InternalGetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.UInt32&,System.UInt32&,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern const MethodInfo UTF8Encoding_InternalGetChars_m15552_MethodInfo = 
+extern const MethodInfo UTF8Encoding_InternalGetChars_m15556_MethodInfo = 
 {
 	"InternalGetChars"/* name */
-	, (methodPointerType)&UTF8Encoding_InternalGetChars_m15552/* method */
+	, (methodPointerType)&UTF8Encoding_InternalGetChars_m15556/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50_UInt32U26_t2972_UInt32U26_t2972_Object_t_DecoderFallbackBufferU26_t3329_ByteU5BU5DU26_t1897_SByte_t61/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15552_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_InternalGetChars_m15556_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19831,7 +19831,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetChars_m15553_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetChars_m15557_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223561, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223562, 0, &Int32_t50_0_0_0},
@@ -19841,14 +19841,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetChars_m15553_Param
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UTF8Encoding_GetChars_m15553_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetChars_m15557_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UTF8Encoding_GetChars_m15553/* method */
+	, (methodPointerType)&UTF8Encoding_GetChars_m15557/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetChars_m15553_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetChars_m15557_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19863,20 +19863,20 @@ extern const MethodInfo UTF8Encoding_GetChars_m15553_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetMaxByteCount_m15554_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetMaxByteCount_m15558_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223566, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo UTF8Encoding_GetMaxByteCount_m15554_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetMaxByteCount_m15558_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetMaxByteCount_m15554/* method */
+	, (methodPointerType)&UTF8Encoding_GetMaxByteCount_m15558/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetMaxByteCount_m15554_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetMaxByteCount_m15558_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19891,20 +19891,20 @@ extern const MethodInfo UTF8Encoding_GetMaxByteCount_m15554_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetMaxCharCount_m15555_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetMaxCharCount_m15559_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223567, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo UTF8Encoding_GetMaxCharCount_m15555_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetMaxCharCount_m15559_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetMaxCharCount_m15555/* method */
+	, (methodPointerType)&UTF8Encoding_GetMaxCharCount_m15559/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetMaxCharCount_m15555_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetMaxCharCount_m15559_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19920,10 +19920,10 @@ extern const MethodInfo UTF8Encoding_GetMaxCharCount_m15555_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.UTF8Encoding::GetDecoder()
-extern const MethodInfo UTF8Encoding_GetDecoder_m15556_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetDecoder_m15560_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&UTF8Encoding_GetDecoder_m15556/* method */
+	, (methodPointerType)&UTF8Encoding_GetDecoder_m15560/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19943,10 +19943,10 @@ extern const MethodInfo UTF8Encoding_GetDecoder_m15556_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.UTF8Encoding::GetPreamble()
-extern const MethodInfo UTF8Encoding_GetPreamble_m15557_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetPreamble_m15561_MethodInfo = 
 {
 	"GetPreamble"/* name */
-	, (methodPointerType)&UTF8Encoding_GetPreamble_m15557/* method */
+	, (methodPointerType)&UTF8Encoding_GetPreamble_m15561/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19965,20 +19965,20 @@ extern const MethodInfo UTF8Encoding_GetPreamble_m15557_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Equals_m15558_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_Equals_m15562_ParameterInfos[] = 
 {
 	{"value", 0, 134223568, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.UTF8Encoding::Equals(System.Object)
-extern const MethodInfo UTF8Encoding_Equals_m15558_MethodInfo = 
+extern const MethodInfo UTF8Encoding_Equals_m15562_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&UTF8Encoding_Equals_m15558/* method */
+	, (methodPointerType)&UTF8Encoding_Equals_m15562/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_Equals_m15558_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_Equals_m15562_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19994,10 +19994,10 @@ extern const MethodInfo UTF8Encoding_Equals_m15558_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetHashCode()
-extern const MethodInfo UTF8Encoding_GetHashCode_m15559_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetHashCode_m15563_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&UTF8Encoding_GetHashCode_m15559/* method */
+	, (methodPointerType)&UTF8Encoding_GetHashCode_m15563/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -20016,20 +20016,20 @@ extern const MethodInfo UTF8Encoding_GetHashCode_m15559_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15560_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15564_ParameterInfos[] = 
 {
 	{"chars", 0, 134223569, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.String)
-extern const MethodInfo UTF8Encoding_GetByteCount_m15560_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetByteCount_m15564_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UTF8Encoding_GetByteCount_m15560/* method */
+	, (methodPointerType)&UTF8Encoding_GetByteCount_m15564/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15560_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetByteCount_m15564_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20046,7 +20046,7 @@ extern const MethodInfo UTF8Encoding_GetByteCount_m15560_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetString_m15561_ParameterInfos[] = 
+static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetString_m15565_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223570, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223571, 0, &Int32_t50_0_0_0},
@@ -20054,14 +20054,14 @@ static const ParameterInfo UTF8Encoding_t1698_UTF8Encoding_GetString_m15561_Para
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.UTF8Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UTF8Encoding_GetString_m15561_MethodInfo = 
+extern const MethodInfo UTF8Encoding_GetString_m15565_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&UTF8Encoding_GetString_m15561/* method */
+	, (methodPointerType)&UTF8Encoding_GetString_m15565/* method */
 	, &UTF8Encoding_t1698_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UTF8Encoding_t1698_UTF8Encoding_GetString_m15561_ParameterInfos/* parameters */
+	, UTF8Encoding_t1698_UTF8Encoding_GetString_m15565_ParameterInfos/* parameters */
 	, 741/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20077,82 +20077,82 @@ extern const MethodInfo UTF8Encoding_GetString_m15561_MethodInfo =
 };
 static const MethodInfo* UTF8Encoding_t1698_MethodInfos[] =
 {
-	&UTF8Encoding__ctor_m15535_MethodInfo,
-	&UTF8Encoding__ctor_m15536_MethodInfo,
-	&UTF8Encoding__ctor_m8543_MethodInfo,
-	&UTF8Encoding_InternalGetByteCount_m15537_MethodInfo,
-	&UTF8Encoding_InternalGetByteCount_m15538_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15539_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15540_MethodInfo,
-	&UTF8Encoding_InternalGetBytes_m15541_MethodInfo,
-	&UTF8Encoding_InternalGetBytes_m15542_MethodInfo,
-	&UTF8Encoding_GetBytes_m15543_MethodInfo,
-	&UTF8Encoding_GetBytes_m15544_MethodInfo,
-	&UTF8Encoding_GetBytes_m15545_MethodInfo,
-	&UTF8Encoding_InternalGetCharCount_m15546_MethodInfo,
-	&UTF8Encoding_InternalGetCharCount_m15547_MethodInfo,
-	&UTF8Encoding_Fallback_m15548_MethodInfo,
-	&UTF8Encoding_Fallback_m15549_MethodInfo,
-	&UTF8Encoding_GetCharCount_m15550_MethodInfo,
-	&UTF8Encoding_InternalGetChars_m15551_MethodInfo,
-	&UTF8Encoding_InternalGetChars_m15552_MethodInfo,
-	&UTF8Encoding_GetChars_m15553_MethodInfo,
-	&UTF8Encoding_GetMaxByteCount_m15554_MethodInfo,
-	&UTF8Encoding_GetMaxCharCount_m15555_MethodInfo,
-	&UTF8Encoding_GetDecoder_m15556_MethodInfo,
-	&UTF8Encoding_GetPreamble_m15557_MethodInfo,
-	&UTF8Encoding_Equals_m15558_MethodInfo,
-	&UTF8Encoding_GetHashCode_m15559_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15560_MethodInfo,
-	&UTF8Encoding_GetString_m15561_MethodInfo,
+	&UTF8Encoding__ctor_m15539_MethodInfo,
+	&UTF8Encoding__ctor_m15540_MethodInfo,
+	&UTF8Encoding__ctor_m8547_MethodInfo,
+	&UTF8Encoding_InternalGetByteCount_m15541_MethodInfo,
+	&UTF8Encoding_InternalGetByteCount_m15542_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15543_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15544_MethodInfo,
+	&UTF8Encoding_InternalGetBytes_m15545_MethodInfo,
+	&UTF8Encoding_InternalGetBytes_m15546_MethodInfo,
+	&UTF8Encoding_GetBytes_m15547_MethodInfo,
+	&UTF8Encoding_GetBytes_m15548_MethodInfo,
+	&UTF8Encoding_GetBytes_m15549_MethodInfo,
+	&UTF8Encoding_InternalGetCharCount_m15550_MethodInfo,
+	&UTF8Encoding_InternalGetCharCount_m15551_MethodInfo,
+	&UTF8Encoding_Fallback_m15552_MethodInfo,
+	&UTF8Encoding_Fallback_m15553_MethodInfo,
+	&UTF8Encoding_GetCharCount_m15554_MethodInfo,
+	&UTF8Encoding_InternalGetChars_m15555_MethodInfo,
+	&UTF8Encoding_InternalGetChars_m15556_MethodInfo,
+	&UTF8Encoding_GetChars_m15557_MethodInfo,
+	&UTF8Encoding_GetMaxByteCount_m15558_MethodInfo,
+	&UTF8Encoding_GetMaxCharCount_m15559_MethodInfo,
+	&UTF8Encoding_GetDecoder_m15560_MethodInfo,
+	&UTF8Encoding_GetPreamble_m15561_MethodInfo,
+	&UTF8Encoding_Equals_m15562_MethodInfo,
+	&UTF8Encoding_GetHashCode_m15563_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15564_MethodInfo,
+	&UTF8Encoding_GetString_m15565_MethodInfo,
 	NULL
 };
 static const Il2CppType* UTF8Encoding_t1698_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&UTF8Decoder_t2735_0_0_0,
 };
-extern const MethodInfo UTF8Encoding_Equals_m15558_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetHashCode_m15559_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetByteCount_m15539_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetByteCount_m15560_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetBytes_m15543_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetBytes_m15544_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetCharCount_m15550_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetChars_m15553_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetDecoder_m15556_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetMaxByteCount_m15554_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetMaxCharCount_m15555_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetPreamble_m15557_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetString_m15561_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetByteCount_m15540_MethodInfo;
-extern const MethodInfo UTF8Encoding_GetBytes_m15545_MethodInfo;
+extern const MethodInfo UTF8Encoding_Equals_m15562_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetHashCode_m15563_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetByteCount_m15543_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetByteCount_m15564_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetBytes_m15547_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetBytes_m15548_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetCharCount_m15554_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetChars_m15557_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetDecoder_m15560_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetMaxByteCount_m15558_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetMaxCharCount_m15559_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetPreamble_m15561_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetString_m15565_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetByteCount_m15544_MethodInfo;
+extern const MethodInfo UTF8Encoding_GetBytes_m15549_MethodInfo;
 static const Il2CppMethodReference UTF8Encoding_t1698_VTable[] =
 {
-	&UTF8Encoding_Equals_m15558_MethodInfo,
+	&UTF8Encoding_Equals_m15562_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&UTF8Encoding_GetHashCode_m15559_MethodInfo,
+	&UTF8Encoding_GetHashCode_m15563_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15539_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15560_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&UTF8Encoding_GetBytes_m15543_MethodInfo,
-	&UTF8Encoding_GetBytes_m15544_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&UTF8Encoding_GetCharCount_m15550_MethodInfo,
-	&UTF8Encoding_GetChars_m15553_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&UTF8Encoding_GetDecoder_m15556_MethodInfo,
-	&UTF8Encoding_GetMaxByteCount_m15554_MethodInfo,
-	&UTF8Encoding_GetMaxCharCount_m15555_MethodInfo,
-	&UTF8Encoding_GetPreamble_m15557_MethodInfo,
-	&UTF8Encoding_GetString_m15561_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&UTF8Encoding_GetByteCount_m15540_MethodInfo,
-	&UTF8Encoding_GetBytes_m15545_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15543_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15564_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&UTF8Encoding_GetBytes_m15547_MethodInfo,
+	&UTF8Encoding_GetBytes_m15548_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&UTF8Encoding_GetCharCount_m15554_MethodInfo,
+	&UTF8Encoding_GetChars_m15557_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&UTF8Encoding_GetDecoder_m15560_MethodInfo,
+	&UTF8Encoding_GetMaxByteCount_m15558_MethodInfo,
+	&UTF8Encoding_GetMaxCharCount_m15559_MethodInfo,
+	&UTF8Encoding_GetPreamble_m15561_MethodInfo,
+	&UTF8Encoding_GetString_m15565_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&UTF8Encoding_GetByteCount_m15544_MethodInfo,
+	&UTF8Encoding_GetBytes_m15549_MethodInfo,
 };
 static bool UTF8Encoding_t1698_VTableIsGenericMethod[] =
 {
@@ -20263,20 +20263,20 @@ extern TypeInfo UnicodeDecoder_t2736_il2cpp_TypeInfo;
 // System.Text.UnicodeEncoding/UnicodeDecoder
 #include "mscorlib_System_Text_UnicodeEncoding_UnicodeDecoderMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UnicodeDecoder_t2736_UnicodeDecoder__ctor_m15562_ParameterInfos[] = 
+static const ParameterInfo UnicodeDecoder_t2736_UnicodeDecoder__ctor_m15566_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223630, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UnicodeEncoding/UnicodeDecoder::.ctor(System.Boolean)
-extern const MethodInfo UnicodeDecoder__ctor_m15562_MethodInfo = 
+extern const MethodInfo UnicodeDecoder__ctor_m15566_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnicodeDecoder__ctor_m15562/* method */
+	, (methodPointerType)&UnicodeDecoder__ctor_m15566/* method */
 	, &UnicodeDecoder_t2736_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, UnicodeDecoder_t2736_UnicodeDecoder__ctor_m15562_ParameterInfos/* parameters */
+	, UnicodeDecoder_t2736_UnicodeDecoder__ctor_m15566_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20295,7 +20295,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeDecoder_t2736_UnicodeDecoder_GetChars_m15563_ParameterInfos[] = 
+static const ParameterInfo UnicodeDecoder_t2736_UnicodeDecoder_GetChars_m15567_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223631, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223632, 0, &Int32_t50_0_0_0},
@@ -20305,14 +20305,14 @@ static const ParameterInfo UnicodeDecoder_t2736_UnicodeDecoder_GetChars_m15563_P
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding/UnicodeDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UnicodeDecoder_GetChars_m15563_MethodInfo = 
+extern const MethodInfo UnicodeDecoder_GetChars_m15567_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UnicodeDecoder_GetChars_m15563/* method */
+	, (methodPointerType)&UnicodeDecoder_GetChars_m15567/* method */
 	, &UnicodeDecoder_t2736_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeDecoder_t2736_UnicodeDecoder_GetChars_m15563_ParameterInfos/* parameters */
+	, UnicodeDecoder_t2736_UnicodeDecoder_GetChars_m15567_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20328,18 +20328,18 @@ extern const MethodInfo UnicodeDecoder_GetChars_m15563_MethodInfo =
 };
 static const MethodInfo* UnicodeDecoder_t2736_MethodInfos[] =
 {
-	&UnicodeDecoder__ctor_m15562_MethodInfo,
-	&UnicodeDecoder_GetChars_m15563_MethodInfo,
+	&UnicodeDecoder__ctor_m15566_MethodInfo,
+	&UnicodeDecoder_GetChars_m15567_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnicodeDecoder_GetChars_m15563_MethodInfo;
+extern const MethodInfo UnicodeDecoder_GetChars_m15567_MethodInfo;
 static const Il2CppMethodReference UnicodeDecoder_t2736_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UnicodeDecoder_GetChars_m15563_MethodInfo,
+	&UnicodeDecoder_GetChars_m15567_MethodInfo,
 };
 static bool UnicodeDecoder_t2736_VTableIsGenericMethod[] =
 {
@@ -20429,10 +20429,10 @@ TypeInfo UnicodeDecoder_t2736_il2cpp_TypeInfo =
 #include "mscorlib_System_Text_UnicodeEncodingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UnicodeEncoding::.ctor()
-extern const MethodInfo UnicodeEncoding__ctor_m15564_MethodInfo = 
+extern const MethodInfo UnicodeEncoding__ctor_m15568_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnicodeEncoding__ctor_m15564/* method */
+	, (methodPointerType)&UnicodeEncoding__ctor_m15568/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -20452,21 +20452,21 @@ extern const MethodInfo UnicodeEncoding__ctor_m15564_MethodInfo =
 };
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15565_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15569_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223579, 0, &Boolean_t29_0_0_0},
 	{"byteOrderMark", 1, 134223580, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UnicodeEncoding::.ctor(System.Boolean,System.Boolean)
-extern const MethodInfo UnicodeEncoding__ctor_m15565_MethodInfo = 
+extern const MethodInfo UnicodeEncoding__ctor_m15569_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnicodeEncoding__ctor_m15565/* method */
+	, (methodPointerType)&UnicodeEncoding__ctor_m15569/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_SByte_t61/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15565_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15569_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20483,7 +20483,7 @@ extern const MethodInfo UnicodeEncoding__ctor_m15565_MethodInfo =
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15566_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15570_ParameterInfos[] = 
 {
 	{"bigEndian", 0, 134223581, 0, &Boolean_t29_0_0_0},
 	{"byteOrderMark", 1, 134223582, 0, &Boolean_t29_0_0_0},
@@ -20491,14 +20491,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15566_Pa
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_SByte_t61_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UnicodeEncoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo UnicodeEncoding__ctor_m15566_MethodInfo = 
+extern const MethodInfo UnicodeEncoding__ctor_m15570_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnicodeEncoding__ctor_m15566/* method */
+	, (methodPointerType)&UnicodeEncoding__ctor_m15570/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_SByte_t61_SByte_t61/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15566_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding__ctor_m15570_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20515,7 +20515,7 @@ extern const MethodInfo UnicodeEncoding__ctor_m15566_MethodInfo =
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15567_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15571_ParameterInfos[] = 
 {
 	{"chars", 0, 134223584, 0, &CharU5BU5D_t608_0_0_0},
 	{"index", 1, 134223585, 0, &Int32_t50_0_0_0},
@@ -20523,14 +20523,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m1
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15567_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15571_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15567/* method */
+	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15571/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15567_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15571_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20545,20 +20545,20 @@ extern const MethodInfo UnicodeEncoding_GetByteCount_m15567_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15568_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15572_ParameterInfos[] = 
 {
 	{"s", 0, 134223587, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.String)
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15568_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15572_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15568/* method */
+	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15572/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15568_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15572_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20574,21 +20574,21 @@ extern const MethodInfo UnicodeEncoding_GetByteCount_m15568_MethodInfo =
 };
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15569_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15573_ParameterInfos[] = 
 {
 	{"chars", 0, 134223588, 0, &CharU2A_t2997_0_0_0},
 	{"count", 1, 134223589, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.Char*,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15569_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15573_MethodInfo = 
 {
 	"GetByteCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15569/* method */
+	, (methodPointerType)&UnicodeEncoding_GetByteCount_m15573/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15569_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetByteCount_m15573_ParameterInfos/* parameters */
 	, 743/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20607,7 +20607,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15570_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15574_ParameterInfos[] = 
 {
 	{"chars", 0, 134223590, 0, &CharU5BU5D_t608_0_0_0},
 	{"charIndex", 1, 134223591, 0, &Int32_t50_0_0_0},
@@ -20617,14 +20617,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15570
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UnicodeEncoding_GetBytes_m15570_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetBytes_m15574_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetBytes_m15570/* method */
+	, (methodPointerType)&UnicodeEncoding_GetBytes_m15574/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15570_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15574_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20643,7 +20643,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15571_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15575_ParameterInfos[] = 
 {
 	{"s", 0, 134223595, 0, &String_t_0_0_0},
 	{"charIndex", 1, 134223596, 0, &Int32_t50_0_0_0},
@@ -20653,14 +20653,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15571
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern const MethodInfo UnicodeEncoding_GetBytes_m15571_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetBytes_m15575_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetBytes_m15571/* method */
+	, (methodPointerType)&UnicodeEncoding_GetBytes_m15575/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15571_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15575_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20678,7 +20678,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15572_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15576_ParameterInfos[] = 
 {
 	{"chars", 0, 134223600, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223601, 0, &Int32_t50_0_0_0},
@@ -20687,14 +20687,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15572
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetBytes_m15572_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetBytes_m15576_MethodInfo = 
 {
 	"GetBytes"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetBytes_m15572/* method */
+	, (methodPointerType)&UnicodeEncoding_GetBytes_m15576/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15572_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytes_m15576_ParameterInfos/* parameters */
 	, 744/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20712,7 +20712,7 @@ extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytesInternal_m15573_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytesInternal_m15577_ParameterInfos[] = 
 {
 	{"chars", 0, 134223604, 0, &CharU2A_t2997_0_0_0},
 	{"charCount", 1, 134223605, 0, &Int32_t50_0_0_0},
@@ -20721,14 +20721,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetBytesInterna
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetBytesInternal(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetBytesInternal_m15573_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetBytesInternal_m15577_MethodInfo = 
 {
 	"GetBytesInternal"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetBytesInternal_m15573/* method */
+	, (methodPointerType)&UnicodeEncoding_GetBytesInternal_m15577/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytesInternal_m15573_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetBytesInternal_m15577_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -20745,7 +20745,7 @@ extern const MethodInfo UnicodeEncoding_GetBytesInternal_m15573_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharCount_m15574_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharCount_m15578_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223608, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223609, 0, &Int32_t50_0_0_0},
@@ -20753,14 +20753,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharCount_m1
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetCharCount_m15574_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetCharCount_m15578_MethodInfo = 
 {
 	"GetCharCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetCharCount_m15574/* method */
+	, (methodPointerType)&UnicodeEncoding_GetCharCount_m15578/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetCharCount_m15574_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetCharCount_m15578_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20779,7 +20779,7 @@ extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU5BU5D_t608_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetChars_m15575_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetChars_m15579_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223611, 0, &ByteU5BU5D_t36_0_0_0},
 	{"byteIndex", 1, 134223612, 0, &Int32_t50_0_0_0},
@@ -20789,14 +20789,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetChars_m15575
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern const MethodInfo UnicodeEncoding_GetChars_m15575_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetChars_m15579_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetChars_m15575/* method */
+	, (methodPointerType)&UnicodeEncoding_GetChars_m15579/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetChars_m15575_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetChars_m15579_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20813,7 +20813,7 @@ extern const MethodInfo UnicodeEncoding_GetChars_m15575_MethodInfo =
 extern const Il2CppType ByteU5BU5D_t36_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetString_m15576_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetString_m15580_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223616, 0, &ByteU5BU5D_t36_0_0_0},
 	{"index", 1, 134223617, 0, &Int32_t50_0_0_0},
@@ -20821,14 +20821,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetString_m1557
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.UnicodeEncoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetString_m15576_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetString_m15580_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetString_m15576/* method */
+	, (methodPointerType)&UnicodeEncoding_GetString_m15580/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetString_m15576_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetString_m15580_ParameterInfos/* parameters */
 	, 745/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20846,7 +20846,7 @@ extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType CharU2A_t2997_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharsInternal_m15577_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharsInternal_m15581_ParameterInfos[] = 
 {
 	{"bytes", 0, 134223619, 0, &ByteU2A_t1898_0_0_0},
 	{"byteCount", 1, 134223620, 0, &Int32_t50_0_0_0},
@@ -20855,14 +20855,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetCharsInterna
 };
 extern void* RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetCharsInternal(System.Byte*,System.Int32,System.Char*,System.Int32)
-extern const MethodInfo UnicodeEncoding_GetCharsInternal_m15577_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetCharsInternal_m15581_MethodInfo = 
 {
 	"GetCharsInternal"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetCharsInternal_m15577/* method */
+	, (methodPointerType)&UnicodeEncoding_GetCharsInternal_m15581/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Object_t_Int32_t50_Object_t_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetCharsInternal_m15577_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetCharsInternal_m15581_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -20877,20 +20877,20 @@ extern const MethodInfo UnicodeEncoding_GetCharsInternal_m15577_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetMaxByteCount_m15578_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetMaxByteCount_m15582_ParameterInfos[] = 
 {
 	{"charCount", 0, 134223623, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetMaxByteCount(System.Int32)
-extern const MethodInfo UnicodeEncoding_GetMaxByteCount_m15578_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetMaxByteCount_m15582_MethodInfo = 
 {
 	"GetMaxByteCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetMaxByteCount_m15578/* method */
+	, (methodPointerType)&UnicodeEncoding_GetMaxByteCount_m15582/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetMaxByteCount_m15578_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetMaxByteCount_m15582_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20905,20 +20905,20 @@ extern const MethodInfo UnicodeEncoding_GetMaxByteCount_m15578_MethodInfo =
 
 };
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetMaxCharCount_m15579_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_GetMaxCharCount_m15583_ParameterInfos[] = 
 {
 	{"byteCount", 0, 134223624, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t50_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetMaxCharCount(System.Int32)
-extern const MethodInfo UnicodeEncoding_GetMaxCharCount_m15579_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetMaxCharCount_m15583_MethodInfo = 
 {
 	"GetMaxCharCount"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetMaxCharCount_m15579/* method */
+	, (methodPointerType)&UnicodeEncoding_GetMaxCharCount_m15583/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50_Int32_t50/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_GetMaxCharCount_m15579_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_GetMaxCharCount_m15583_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20934,10 +20934,10 @@ extern const MethodInfo UnicodeEncoding_GetMaxCharCount_m15579_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.Decoder System.Text.UnicodeEncoding::GetDecoder()
-extern const MethodInfo UnicodeEncoding_GetDecoder_m15580_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetDecoder_m15584_MethodInfo = 
 {
 	"GetDecoder"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetDecoder_m15580/* method */
+	, (methodPointerType)&UnicodeEncoding_GetDecoder_m15584/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Decoder_t1632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -20957,10 +20957,10 @@ extern const MethodInfo UnicodeEncoding_GetDecoder_m15580_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Text.UnicodeEncoding::GetPreamble()
-extern const MethodInfo UnicodeEncoding_GetPreamble_m15581_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetPreamble_m15585_MethodInfo = 
 {
 	"GetPreamble"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetPreamble_m15581/* method */
+	, (methodPointerType)&UnicodeEncoding_GetPreamble_m15585/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -20979,20 +20979,20 @@ extern const MethodInfo UnicodeEncoding_GetPreamble_m15581_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_Equals_m15582_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_Equals_m15586_ParameterInfos[] = 
 {
 	{"value", 0, 134223625, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.UnicodeEncoding::Equals(System.Object)
-extern const MethodInfo UnicodeEncoding_Equals_m15582_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_Equals_m15586_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&UnicodeEncoding_Equals_m15582/* method */
+	, (methodPointerType)&UnicodeEncoding_Equals_m15586/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_Equals_m15582_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_Equals_m15586_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -21008,10 +21008,10 @@ extern const MethodInfo UnicodeEncoding_Equals_m15582_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.UnicodeEncoding::GetHashCode()
-extern const MethodInfo UnicodeEncoding_GetHashCode_m15583_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_GetHashCode_m15587_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&UnicodeEncoding_GetHashCode_m15583/* method */
+	, (methodPointerType)&UnicodeEncoding_GetHashCode_m15587/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -21033,7 +21033,7 @@ extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType ByteU2A_t1898_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_CopyChars_m15584_ParameterInfos[] = 
+static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_CopyChars_m15588_ParameterInfos[] = 
 {
 	{"src", 0, 134223626, 0, &ByteU2A_t1898_0_0_0},
 	{"dest", 1, 134223627, 0, &ByteU2A_t1898_0_0_0},
@@ -21042,14 +21042,14 @@ static const ParameterInfo UnicodeEncoding_t2737_UnicodeEncoding_CopyChars_m1558
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t_Int32_t50_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.UnicodeEncoding::CopyChars(System.Byte*,System.Byte*,System.Int32,System.Boolean)
-extern const MethodInfo UnicodeEncoding_CopyChars_m15584_MethodInfo = 
+extern const MethodInfo UnicodeEncoding_CopyChars_m15588_MethodInfo = 
 {
 	"CopyChars"/* name */
-	, (methodPointerType)&UnicodeEncoding_CopyChars_m15584/* method */
+	, (methodPointerType)&UnicodeEncoding_CopyChars_m15588/* method */
 	, &UnicodeEncoding_t2737_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t_Int32_t50_SByte_t61/* invoker_method */
-	, UnicodeEncoding_t2737_UnicodeEncoding_CopyChars_m15584_ParameterInfos/* parameters */
+	, UnicodeEncoding_t2737_UnicodeEncoding_CopyChars_m15588_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21065,75 +21065,75 @@ extern const MethodInfo UnicodeEncoding_CopyChars_m15584_MethodInfo =
 };
 static const MethodInfo* UnicodeEncoding_t2737_MethodInfos[] =
 {
-	&UnicodeEncoding__ctor_m15564_MethodInfo,
-	&UnicodeEncoding__ctor_m15565_MethodInfo,
-	&UnicodeEncoding__ctor_m15566_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15567_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15568_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15569_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15570_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15571_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15572_MethodInfo,
-	&UnicodeEncoding_GetBytesInternal_m15573_MethodInfo,
-	&UnicodeEncoding_GetCharCount_m15574_MethodInfo,
-	&UnicodeEncoding_GetChars_m15575_MethodInfo,
-	&UnicodeEncoding_GetString_m15576_MethodInfo,
-	&UnicodeEncoding_GetCharsInternal_m15577_MethodInfo,
-	&UnicodeEncoding_GetMaxByteCount_m15578_MethodInfo,
-	&UnicodeEncoding_GetMaxCharCount_m15579_MethodInfo,
-	&UnicodeEncoding_GetDecoder_m15580_MethodInfo,
-	&UnicodeEncoding_GetPreamble_m15581_MethodInfo,
-	&UnicodeEncoding_Equals_m15582_MethodInfo,
-	&UnicodeEncoding_GetHashCode_m15583_MethodInfo,
-	&UnicodeEncoding_CopyChars_m15584_MethodInfo,
+	&UnicodeEncoding__ctor_m15568_MethodInfo,
+	&UnicodeEncoding__ctor_m15569_MethodInfo,
+	&UnicodeEncoding__ctor_m15570_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15571_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15572_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15573_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15574_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15575_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15576_MethodInfo,
+	&UnicodeEncoding_GetBytesInternal_m15577_MethodInfo,
+	&UnicodeEncoding_GetCharCount_m15578_MethodInfo,
+	&UnicodeEncoding_GetChars_m15579_MethodInfo,
+	&UnicodeEncoding_GetString_m15580_MethodInfo,
+	&UnicodeEncoding_GetCharsInternal_m15581_MethodInfo,
+	&UnicodeEncoding_GetMaxByteCount_m15582_MethodInfo,
+	&UnicodeEncoding_GetMaxCharCount_m15583_MethodInfo,
+	&UnicodeEncoding_GetDecoder_m15584_MethodInfo,
+	&UnicodeEncoding_GetPreamble_m15585_MethodInfo,
+	&UnicodeEncoding_Equals_m15586_MethodInfo,
+	&UnicodeEncoding_GetHashCode_m15587_MethodInfo,
+	&UnicodeEncoding_CopyChars_m15588_MethodInfo,
 	NULL
 };
 static const Il2CppType* UnicodeEncoding_t2737_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&UnicodeDecoder_t2736_0_0_0,
 };
-extern const MethodInfo UnicodeEncoding_Equals_m15582_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetHashCode_m15583_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15567_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15568_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetBytes_m15570_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetBytes_m15571_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetCharCount_m15574_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetChars_m15575_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetDecoder_m15580_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetMaxByteCount_m15578_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetMaxCharCount_m15579_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetPreamble_m15581_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetString_m15576_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetByteCount_m15569_MethodInfo;
-extern const MethodInfo UnicodeEncoding_GetBytes_m15572_MethodInfo;
+extern const MethodInfo UnicodeEncoding_Equals_m15586_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetHashCode_m15587_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15571_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15572_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetBytes_m15574_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetBytes_m15575_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetCharCount_m15578_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetChars_m15579_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetDecoder_m15584_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetMaxByteCount_m15582_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetMaxCharCount_m15583_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetPreamble_m15585_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetString_m15580_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetByteCount_m15573_MethodInfo;
+extern const MethodInfo UnicodeEncoding_GetBytes_m15576_MethodInfo;
 static const Il2CppMethodReference UnicodeEncoding_t2737_VTable[] =
 {
-	&UnicodeEncoding_Equals_m15582_MethodInfo,
+	&UnicodeEncoding_Equals_m15586_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&UnicodeEncoding_GetHashCode_m15583_MethodInfo,
+	&UnicodeEncoding_GetHashCode_m15587_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15567_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15568_MethodInfo,
-	&Encoding_GetByteCount_m15437_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15570_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15571_MethodInfo,
-	&Encoding_GetBytes_m15439_MethodInfo,
-	&Encoding_GetBytes_m15440_MethodInfo,
-	&Encoding_GetBytes_m15441_MethodInfo,
-	&UnicodeEncoding_GetCharCount_m15574_MethodInfo,
-	&UnicodeEncoding_GetChars_m15575_MethodInfo,
-	&Encoding_GetChars_m15442_MethodInfo,
-	&UnicodeEncoding_GetDecoder_m15580_MethodInfo,
-	&UnicodeEncoding_GetMaxByteCount_m15578_MethodInfo,
-	&UnicodeEncoding_GetMaxCharCount_m15579_MethodInfo,
-	&UnicodeEncoding_GetPreamble_m15581_MethodInfo,
-	&UnicodeEncoding_GetString_m15576_MethodInfo,
-	&Encoding_GetString_m15449_MethodInfo,
-	&Encoding_get_HeaderName_m15450_MethodInfo,
-	&Encoding_get_WebName_m15451_MethodInfo,
-	&UnicodeEncoding_GetByteCount_m15569_MethodInfo,
-	&UnicodeEncoding_GetBytes_m15572_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15571_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15572_MethodInfo,
+	&Encoding_GetByteCount_m15441_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15574_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15575_MethodInfo,
+	&Encoding_GetBytes_m15443_MethodInfo,
+	&Encoding_GetBytes_m15444_MethodInfo,
+	&Encoding_GetBytes_m15445_MethodInfo,
+	&UnicodeEncoding_GetCharCount_m15578_MethodInfo,
+	&UnicodeEncoding_GetChars_m15579_MethodInfo,
+	&Encoding_GetChars_m15446_MethodInfo,
+	&UnicodeEncoding_GetDecoder_m15584_MethodInfo,
+	&UnicodeEncoding_GetMaxByteCount_m15582_MethodInfo,
+	&UnicodeEncoding_GetMaxCharCount_m15583_MethodInfo,
+	&UnicodeEncoding_GetPreamble_m15585_MethodInfo,
+	&UnicodeEncoding_GetString_m15580_MethodInfo,
+	&Encoding_GetString_m15453_MethodInfo,
+	&Encoding_get_HeaderName_m15454_MethodInfo,
+	&Encoding_get_WebName_m15455_MethodInfo,
+	&UnicodeEncoding_GetByteCount_m15573_MethodInfo,
+	&UnicodeEncoding_GetBytes_m15576_MethodInfo,
 };
 static bool UnicodeEncoding_t2737_VTableIsGenericMethod[] =
 {
@@ -21244,20 +21244,20 @@ extern TypeInfo AutoResetEvent_t2021_il2cpp_TypeInfo;
 // System.Threading.AutoResetEvent
 #include "mscorlib_System_Threading_AutoResetEventMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo AutoResetEvent_t2021_AutoResetEvent__ctor_m11565_ParameterInfos[] = 
+static const ParameterInfo AutoResetEvent_t2021_AutoResetEvent__ctor_m11569_ParameterInfos[] = 
 {
 	{"initialState", 0, 134223636, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.AutoResetEvent::.ctor(System.Boolean)
-extern const MethodInfo AutoResetEvent__ctor_m11565_MethodInfo = 
+extern const MethodInfo AutoResetEvent__ctor_m11569_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AutoResetEvent__ctor_m11565/* method */
+	, (methodPointerType)&AutoResetEvent__ctor_m11569/* method */
 	, &AutoResetEvent_t2021_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, AutoResetEvent_t2021_AutoResetEvent__ctor_m11565_ParameterInfos/* parameters */
+	, AutoResetEvent_t2021_AutoResetEvent__ctor_m11569_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -21273,28 +21273,28 @@ extern const MethodInfo AutoResetEvent__ctor_m11565_MethodInfo =
 };
 static const MethodInfo* AutoResetEvent_t2021_MethodInfos[] =
 {
-	&AutoResetEvent__ctor_m11565_MethodInfo,
+	&AutoResetEvent__ctor_m11569_MethodInfo,
 	NULL
 };
-extern const MethodInfo WaitHandle_Finalize_m15652_MethodInfo;
-extern const MethodInfo WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo;
-extern const MethodInfo WaitHandle_get_Handle_m15645_MethodInfo;
-extern const MethodInfo WaitHandle_set_Handle_m15646_MethodInfo;
-extern const MethodInfo WaitHandle_Dispose_m15648_MethodInfo;
-extern const MethodInfo WaitHandle_WaitOne_m15649_MethodInfo;
-extern const MethodInfo WaitHandle_WaitOne_m15650_MethodInfo;
+extern const MethodInfo WaitHandle_Finalize_m15656_MethodInfo;
+extern const MethodInfo WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo;
+extern const MethodInfo WaitHandle_get_Handle_m15649_MethodInfo;
+extern const MethodInfo WaitHandle_set_Handle_m15650_MethodInfo;
+extern const MethodInfo WaitHandle_Dispose_m15652_MethodInfo;
+extern const MethodInfo WaitHandle_WaitOne_m15653_MethodInfo;
+extern const MethodInfo WaitHandle_WaitOne_m15654_MethodInfo;
 static const Il2CppMethodReference AutoResetEvent_t2021_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
 };
 static bool AutoResetEvent_t2021_VTableIsGenericMethod[] =
 {
@@ -21392,20 +21392,20 @@ extern TypeInfo CompressedStack_t2704_il2cpp_TypeInfo;
 // System.Threading.CompressedStack
 #include "mscorlib_System_Threading_CompressedStackMethodDeclarations.h"
 extern const Il2CppType Int32_t50_0_0_0;
-static const ParameterInfo CompressedStack_t2704_CompressedStack__ctor_m15585_ParameterInfos[] = 
+static const ParameterInfo CompressedStack_t2704_CompressedStack__ctor_m15589_ParameterInfos[] = 
 {
 	{"length", 0, 134223637, 0, &Int32_t50_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CompressedStack::.ctor(System.Int32)
-extern const MethodInfo CompressedStack__ctor_m15585_MethodInfo = 
+extern const MethodInfo CompressedStack__ctor_m15589_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CompressedStack__ctor_m15585/* method */
+	, (methodPointerType)&CompressedStack__ctor_m15589/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Int32_t50/* invoker_method */
-	, CompressedStack_t2704_CompressedStack__ctor_m15585_ParameterInfos/* parameters */
+	, CompressedStack_t2704_CompressedStack__ctor_m15589_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -21420,20 +21420,20 @@ extern const MethodInfo CompressedStack__ctor_m15585_MethodInfo =
 
 };
 extern const Il2CppType CompressedStack_t2704_0_0_0;
-static const ParameterInfo CompressedStack_t2704_CompressedStack__ctor_m15586_ParameterInfos[] = 
+static const ParameterInfo CompressedStack_t2704_CompressedStack__ctor_m15590_ParameterInfos[] = 
 {
 	{"cs", 0, 134223638, 0, &CompressedStack_t2704_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CompressedStack::.ctor(System.Threading.CompressedStack)
-extern const MethodInfo CompressedStack__ctor_m15586_MethodInfo = 
+extern const MethodInfo CompressedStack__ctor_m15590_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CompressedStack__ctor_m15586/* method */
+	, (methodPointerType)&CompressedStack__ctor_m15590/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, CompressedStack_t2704_CompressedStack__ctor_m15586_ParameterInfos/* parameters */
+	, CompressedStack_t2704_CompressedStack__ctor_m15590_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -21449,10 +21449,10 @@ extern const MethodInfo CompressedStack__ctor_m15586_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CompressedStack System.Threading.CompressedStack::CreateCopy()
-extern const MethodInfo CompressedStack_CreateCopy_m15587_MethodInfo = 
+extern const MethodInfo CompressedStack_CreateCopy_m15591_MethodInfo = 
 {
 	"CreateCopy"/* name */
-	, (methodPointerType)&CompressedStack_CreateCopy_m15587/* method */
+	, (methodPointerType)&CompressedStack_CreateCopy_m15591/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &CompressedStack_t2704_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21472,10 +21472,10 @@ extern const MethodInfo CompressedStack_CreateCopy_m15587_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CompressedStack System.Threading.CompressedStack::Capture()
-extern const MethodInfo CompressedStack_Capture_m15588_MethodInfo = 
+extern const MethodInfo CompressedStack_Capture_m15592_MethodInfo = 
 {
 	"Capture"/* name */
-	, (methodPointerType)&CompressedStack_Capture_m15588/* method */
+	, (methodPointerType)&CompressedStack_Capture_m15592/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &CompressedStack_t2704_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21495,21 +21495,21 @@ extern const MethodInfo CompressedStack_Capture_m15588_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo CompressedStack_t2704_CompressedStack_GetObjectData_m15589_ParameterInfos[] = 
+static const ParameterInfo CompressedStack_t2704_CompressedStack_GetObjectData_m15593_ParameterInfos[] = 
 {
 	{"info", 0, 134223639, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223640, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CompressedStack::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo CompressedStack_GetObjectData_m15589_MethodInfo = 
+extern const MethodInfo CompressedStack_GetObjectData_m15593_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&CompressedStack_GetObjectData_m15589/* method */
+	, (methodPointerType)&CompressedStack_GetObjectData_m15593/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, CompressedStack_t2704_CompressedStack_GetObjectData_m15589_ParameterInfos/* parameters */
+	, CompressedStack_t2704_CompressedStack_GetObjectData_m15593_ParameterInfos/* parameters */
 	, 748/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -21525,10 +21525,10 @@ extern const MethodInfo CompressedStack_GetObjectData_m15589_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.CompressedStack::IsEmpty()
-extern const MethodInfo CompressedStack_IsEmpty_m15590_MethodInfo = 
+extern const MethodInfo CompressedStack_IsEmpty_m15594_MethodInfo = 
 {
 	"IsEmpty"/* name */
-	, (methodPointerType)&CompressedStack_IsEmpty_m15590/* method */
+	, (methodPointerType)&CompressedStack_IsEmpty_m15594/* method */
 	, &CompressedStack_t2704_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -21548,22 +21548,22 @@ extern const MethodInfo CompressedStack_IsEmpty_m15590_MethodInfo =
 };
 static const MethodInfo* CompressedStack_t2704_MethodInfos[] =
 {
-	&CompressedStack__ctor_m15585_MethodInfo,
-	&CompressedStack__ctor_m15586_MethodInfo,
-	&CompressedStack_CreateCopy_m15587_MethodInfo,
-	&CompressedStack_Capture_m15588_MethodInfo,
-	&CompressedStack_GetObjectData_m15589_MethodInfo,
-	&CompressedStack_IsEmpty_m15590_MethodInfo,
+	&CompressedStack__ctor_m15589_MethodInfo,
+	&CompressedStack__ctor_m15590_MethodInfo,
+	&CompressedStack_CreateCopy_m15591_MethodInfo,
+	&CompressedStack_Capture_m15592_MethodInfo,
+	&CompressedStack_GetObjectData_m15593_MethodInfo,
+	&CompressedStack_IsEmpty_m15594_MethodInfo,
 	NULL
 };
-extern const MethodInfo CompressedStack_GetObjectData_m15589_MethodInfo;
+extern const MethodInfo CompressedStack_GetObjectData_m15593_MethodInfo;
 static const Il2CppMethodReference CompressedStack_t2704_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&CompressedStack_GetObjectData_m15589_MethodInfo,
+	&CompressedStack_GetObjectData_m15593_MethodInfo,
 };
 static bool CompressedStack_t2704_VTableIsGenericMethod[] =
 {
@@ -21797,21 +21797,21 @@ extern TypeInfo EventWaitHandle_t2738_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_EventWaitHandleMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType EventResetMode_t2739_0_0_0;
-static const ParameterInfo EventWaitHandle_t2738_EventWaitHandle__ctor_m15591_ParameterInfos[] = 
+static const ParameterInfo EventWaitHandle_t2738_EventWaitHandle__ctor_m15595_ParameterInfos[] = 
 {
 	{"initialState", 0, 134223641, 0, &Boolean_t29_0_0_0},
 	{"mode", 1, 134223642, 0, &EventResetMode_t2739_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.EventWaitHandle::.ctor(System.Boolean,System.Threading.EventResetMode)
-extern const MethodInfo EventWaitHandle__ctor_m15591_MethodInfo = 
+extern const MethodInfo EventWaitHandle__ctor_m15595_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EventWaitHandle__ctor_m15591/* method */
+	, (methodPointerType)&EventWaitHandle__ctor_m15595/* method */
 	, &EventWaitHandle_t2738_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61_Int32_t50/* invoker_method */
-	, EventWaitHandle_t2738_EventWaitHandle__ctor_m15591_ParameterInfos/* parameters */
+	, EventWaitHandle_t2738_EventWaitHandle__ctor_m15595_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -21826,20 +21826,20 @@ extern const MethodInfo EventWaitHandle__ctor_m15591_MethodInfo =
 
 };
 extern const Il2CppType EventResetMode_t2739_0_0_0;
-static const ParameterInfo EventWaitHandle_t2738_EventWaitHandle_IsManualReset_m15592_ParameterInfos[] = 
+static const ParameterInfo EventWaitHandle_t2738_EventWaitHandle_IsManualReset_m15596_ParameterInfos[] = 
 {
 	{"mode", 0, 134223643, 0, &EventResetMode_t2739_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.EventWaitHandle::IsManualReset(System.Threading.EventResetMode)
-extern const MethodInfo EventWaitHandle_IsManualReset_m15592_MethodInfo = 
+extern const MethodInfo EventWaitHandle_IsManualReset_m15596_MethodInfo = 
 {
 	"IsManualReset"/* name */
-	, (methodPointerType)&EventWaitHandle_IsManualReset_m15592/* method */
+	, (methodPointerType)&EventWaitHandle_IsManualReset_m15596/* method */
 	, &EventWaitHandle_t2738_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int32_t50/* invoker_method */
-	, EventWaitHandle_t2738_EventWaitHandle_IsManualReset_m15592_ParameterInfos/* parameters */
+	, EventWaitHandle_t2738_EventWaitHandle_IsManualReset_m15596_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -21855,10 +21855,10 @@ extern const MethodInfo EventWaitHandle_IsManualReset_m15592_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.EventWaitHandle::Reset()
-extern const MethodInfo EventWaitHandle_Reset_m9631_MethodInfo = 
+extern const MethodInfo EventWaitHandle_Reset_m9635_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&EventWaitHandle_Reset_m9631/* method */
+	, (methodPointerType)&EventWaitHandle_Reset_m9635/* method */
 	, &EventWaitHandle_t2738_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -21878,10 +21878,10 @@ extern const MethodInfo EventWaitHandle_Reset_m9631_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.EventWaitHandle::Set()
-extern const MethodInfo EventWaitHandle_Set_m9630_MethodInfo = 
+extern const MethodInfo EventWaitHandle_Set_m9634_MethodInfo = 
 {
 	"Set"/* name */
-	, (methodPointerType)&EventWaitHandle_Set_m9630/* method */
+	, (methodPointerType)&EventWaitHandle_Set_m9634/* method */
 	, &EventWaitHandle_t2738_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -21901,24 +21901,24 @@ extern const MethodInfo EventWaitHandle_Set_m9630_MethodInfo =
 };
 static const MethodInfo* EventWaitHandle_t2738_MethodInfos[] =
 {
-	&EventWaitHandle__ctor_m15591_MethodInfo,
-	&EventWaitHandle_IsManualReset_m15592_MethodInfo,
-	&EventWaitHandle_Reset_m9631_MethodInfo,
-	&EventWaitHandle_Set_m9630_MethodInfo,
+	&EventWaitHandle__ctor_m15595_MethodInfo,
+	&EventWaitHandle_IsManualReset_m15596_MethodInfo,
+	&EventWaitHandle_Reset_m9635_MethodInfo,
+	&EventWaitHandle_Set_m9634_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference EventWaitHandle_t2738_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
 };
 static bool EventWaitHandle_t2738_VTableIsGenericMethod[] =
 {
@@ -22016,10 +22016,10 @@ extern TypeInfo ExecutionContext_t2573_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_ExecutionContextMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ExecutionContext::.ctor()
-extern const MethodInfo ExecutionContext__ctor_m15593_MethodInfo = 
+extern const MethodInfo ExecutionContext__ctor_m15597_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExecutionContext__ctor_m15593/* method */
+	, (methodPointerType)&ExecutionContext__ctor_m15597/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -22039,20 +22039,20 @@ extern const MethodInfo ExecutionContext__ctor_m15593_MethodInfo =
 };
 extern const Il2CppType ExecutionContext_t2573_0_0_0;
 extern const Il2CppType ExecutionContext_t2573_0_0_0;
-static const ParameterInfo ExecutionContext_t2573_ExecutionContext__ctor_m15594_ParameterInfos[] = 
+static const ParameterInfo ExecutionContext_t2573_ExecutionContext__ctor_m15598_ParameterInfos[] = 
 {
 	{"ec", 0, 134223644, 0, &ExecutionContext_t2573_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ExecutionContext::.ctor(System.Threading.ExecutionContext)
-extern const MethodInfo ExecutionContext__ctor_m15594_MethodInfo = 
+extern const MethodInfo ExecutionContext__ctor_m15598_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExecutionContext__ctor_m15594/* method */
+	, (methodPointerType)&ExecutionContext__ctor_m15598/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ExecutionContext_t2573_ExecutionContext__ctor_m15594_ParameterInfos/* parameters */
+	, ExecutionContext_t2573_ExecutionContext__ctor_m15598_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -22068,21 +22068,21 @@ extern const MethodInfo ExecutionContext__ctor_m15594_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ExecutionContext_t2573_ExecutionContext__ctor_m15595_ParameterInfos[] = 
+static const ParameterInfo ExecutionContext_t2573_ExecutionContext__ctor_m15599_ParameterInfos[] = 
 {
 	{"info", 0, 134223645, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223646, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ExecutionContext::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ExecutionContext__ctor_m15595_MethodInfo = 
+extern const MethodInfo ExecutionContext__ctor_m15599_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExecutionContext__ctor_m15595/* method */
+	, (methodPointerType)&ExecutionContext__ctor_m15599/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ExecutionContext_t2573_ExecutionContext__ctor_m15595_ParameterInfos/* parameters */
+	, ExecutionContext_t2573_ExecutionContext__ctor_m15599_ParameterInfos/* parameters */
 	, 751/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -22098,10 +22098,10 @@ extern const MethodInfo ExecutionContext__ctor_m15595_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.ExecutionContext System.Threading.ExecutionContext::Capture()
-extern const MethodInfo ExecutionContext_Capture_m15596_MethodInfo = 
+extern const MethodInfo ExecutionContext_Capture_m15600_MethodInfo = 
 {
 	"Capture"/* name */
-	, (methodPointerType)&ExecutionContext_Capture_m15596/* method */
+	, (methodPointerType)&ExecutionContext_Capture_m15600/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &ExecutionContext_t2573_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -22121,21 +22121,21 @@ extern const MethodInfo ExecutionContext_Capture_m15596_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ExecutionContext_t2573_ExecutionContext_GetObjectData_m15597_ParameterInfos[] = 
+static const ParameterInfo ExecutionContext_t2573_ExecutionContext_GetObjectData_m15601_ParameterInfos[] = 
 {
 	{"info", 0, 134223647, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223648, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ExecutionContext::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ExecutionContext_GetObjectData_m15597_MethodInfo = 
+extern const MethodInfo ExecutionContext_GetObjectData_m15601_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&ExecutionContext_GetObjectData_m15597/* method */
+	, (methodPointerType)&ExecutionContext_GetObjectData_m15601/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ExecutionContext_t2573_ExecutionContext_GetObjectData_m15597_ParameterInfos/* parameters */
+	, ExecutionContext_t2573_ExecutionContext_GetObjectData_m15601_ParameterInfos/* parameters */
 	, 752/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -22151,10 +22151,10 @@ extern const MethodInfo ExecutionContext_GetObjectData_m15597_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.SecurityContext System.Threading.ExecutionContext::get_SecurityContext()
-extern const MethodInfo ExecutionContext_get_SecurityContext_m15598_MethodInfo = 
+extern const MethodInfo ExecutionContext_get_SecurityContext_m15602_MethodInfo = 
 {
 	"get_SecurityContext"/* name */
-	, (methodPointerType)&ExecutionContext_get_SecurityContext_m15598/* method */
+	, (methodPointerType)&ExecutionContext_get_SecurityContext_m15602/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityContext_t2705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -22173,20 +22173,20 @@ extern const MethodInfo ExecutionContext_get_SecurityContext_m15598_MethodInfo =
 
 };
 extern const Il2CppType SecurityContext_t2705_0_0_0;
-static const ParameterInfo ExecutionContext_t2573_ExecutionContext_set_SecurityContext_m15599_ParameterInfos[] = 
+static const ParameterInfo ExecutionContext_t2573_ExecutionContext_set_SecurityContext_m15603_ParameterInfos[] = 
 {
 	{"value", 0, 134223649, 0, &SecurityContext_t2705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ExecutionContext::set_SecurityContext(System.Security.SecurityContext)
-extern const MethodInfo ExecutionContext_set_SecurityContext_m15599_MethodInfo = 
+extern const MethodInfo ExecutionContext_set_SecurityContext_m15603_MethodInfo = 
 {
 	"set_SecurityContext"/* name */
-	, (methodPointerType)&ExecutionContext_set_SecurityContext_m15599/* method */
+	, (methodPointerType)&ExecutionContext_set_SecurityContext_m15603/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ExecutionContext_t2573_ExecutionContext_set_SecurityContext_m15599_ParameterInfos/* parameters */
+	, ExecutionContext_t2573_ExecutionContext_set_SecurityContext_m15603_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -22202,10 +22202,10 @@ extern const MethodInfo ExecutionContext_set_SecurityContext_m15599_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.ExecutionContext::get_FlowSuppressed()
-extern const MethodInfo ExecutionContext_get_FlowSuppressed_m15600_MethodInfo = 
+extern const MethodInfo ExecutionContext_get_FlowSuppressed_m15604_MethodInfo = 
 {
 	"get_FlowSuppressed"/* name */
-	, (methodPointerType)&ExecutionContext_get_FlowSuppressed_m15600/* method */
+	, (methodPointerType)&ExecutionContext_get_FlowSuppressed_m15604/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -22225,10 +22225,10 @@ extern const MethodInfo ExecutionContext_get_FlowSuppressed_m15600_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.ExecutionContext::IsFlowSuppressed()
-extern const MethodInfo ExecutionContext_IsFlowSuppressed_m15601_MethodInfo = 
+extern const MethodInfo ExecutionContext_IsFlowSuppressed_m15605_MethodInfo = 
 {
 	"IsFlowSuppressed"/* name */
-	, (methodPointerType)&ExecutionContext_IsFlowSuppressed_m15601/* method */
+	, (methodPointerType)&ExecutionContext_IsFlowSuppressed_m15605/* method */
 	, &ExecutionContext_t2573_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -22248,35 +22248,35 @@ extern const MethodInfo ExecutionContext_IsFlowSuppressed_m15601_MethodInfo =
 };
 static const MethodInfo* ExecutionContext_t2573_MethodInfos[] =
 {
-	&ExecutionContext__ctor_m15593_MethodInfo,
-	&ExecutionContext__ctor_m15594_MethodInfo,
-	&ExecutionContext__ctor_m15595_MethodInfo,
-	&ExecutionContext_Capture_m15596_MethodInfo,
-	&ExecutionContext_GetObjectData_m15597_MethodInfo,
-	&ExecutionContext_get_SecurityContext_m15598_MethodInfo,
-	&ExecutionContext_set_SecurityContext_m15599_MethodInfo,
-	&ExecutionContext_get_FlowSuppressed_m15600_MethodInfo,
-	&ExecutionContext_IsFlowSuppressed_m15601_MethodInfo,
+	&ExecutionContext__ctor_m15597_MethodInfo,
+	&ExecutionContext__ctor_m15598_MethodInfo,
+	&ExecutionContext__ctor_m15599_MethodInfo,
+	&ExecutionContext_Capture_m15600_MethodInfo,
+	&ExecutionContext_GetObjectData_m15601_MethodInfo,
+	&ExecutionContext_get_SecurityContext_m15602_MethodInfo,
+	&ExecutionContext_set_SecurityContext_m15603_MethodInfo,
+	&ExecutionContext_get_FlowSuppressed_m15604_MethodInfo,
+	&ExecutionContext_IsFlowSuppressed_m15605_MethodInfo,
 	NULL
 };
-extern const MethodInfo ExecutionContext_get_SecurityContext_m15598_MethodInfo;
-extern const MethodInfo ExecutionContext_set_SecurityContext_m15599_MethodInfo;
+extern const MethodInfo ExecutionContext_get_SecurityContext_m15602_MethodInfo;
+extern const MethodInfo ExecutionContext_set_SecurityContext_m15603_MethodInfo;
 static const PropertyInfo ExecutionContext_t2573____SecurityContext_PropertyInfo = 
 {
 	&ExecutionContext_t2573_il2cpp_TypeInfo/* parent */
 	, "SecurityContext"/* name */
-	, &ExecutionContext_get_SecurityContext_m15598_MethodInfo/* get */
-	, &ExecutionContext_set_SecurityContext_m15599_MethodInfo/* set */
+	, &ExecutionContext_get_SecurityContext_m15602_MethodInfo/* get */
+	, &ExecutionContext_set_SecurityContext_m15603_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ExecutionContext_get_FlowSuppressed_m15600_MethodInfo;
+extern const MethodInfo ExecutionContext_get_FlowSuppressed_m15604_MethodInfo;
 static const PropertyInfo ExecutionContext_t2573____FlowSuppressed_PropertyInfo = 
 {
 	&ExecutionContext_t2573_il2cpp_TypeInfo/* parent */
 	, "FlowSuppressed"/* name */
-	, &ExecutionContext_get_FlowSuppressed_m15600_MethodInfo/* get */
+	, &ExecutionContext_get_FlowSuppressed_m15604_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -22288,14 +22288,14 @@ static const PropertyInfo* ExecutionContext_t2573_PropertyInfos[] =
 	&ExecutionContext_t2573____FlowSuppressed_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ExecutionContext_GetObjectData_m15597_MethodInfo;
+extern const MethodInfo ExecutionContext_GetObjectData_m15601_MethodInfo;
 static const Il2CppMethodReference ExecutionContext_t2573_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&ExecutionContext_GetObjectData_m15597_MethodInfo,
+	&ExecutionContext_GetObjectData_m15601_MethodInfo,
 };
 static bool ExecutionContext_t2573_VTableIsGenericMethod[] =
 {
@@ -22518,20 +22518,20 @@ extern TypeInfo ManualResetEvent_t1810_il2cpp_TypeInfo;
 // System.Threading.ManualResetEvent
 #include "mscorlib_System_Threading_ManualResetEventMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo ManualResetEvent_t1810_ManualResetEvent__ctor_m9629_ParameterInfos[] = 
+static const ParameterInfo ManualResetEvent_t1810_ManualResetEvent__ctor_m9633_ParameterInfos[] = 
 {
 	{"initialState", 0, 134223653, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ManualResetEvent::.ctor(System.Boolean)
-extern const MethodInfo ManualResetEvent__ctor_m9629_MethodInfo = 
+extern const MethodInfo ManualResetEvent__ctor_m9633_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ManualResetEvent__ctor_m9629/* method */
+	, (methodPointerType)&ManualResetEvent__ctor_m9633/* method */
 	, &ManualResetEvent_t1810_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, ManualResetEvent_t1810_ManualResetEvent__ctor_m9629_ParameterInfos/* parameters */
+	, ManualResetEvent_t1810_ManualResetEvent__ctor_m9633_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -22547,21 +22547,21 @@ extern const MethodInfo ManualResetEvent__ctor_m9629_MethodInfo =
 };
 static const MethodInfo* ManualResetEvent_t1810_MethodInfos[] =
 {
-	&ManualResetEvent__ctor_m9629_MethodInfo,
+	&ManualResetEvent__ctor_m9633_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ManualResetEvent_t1810_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
 };
 static bool ManualResetEvent_t1810_VTableIsGenericMethod[] =
 {
@@ -22658,20 +22658,20 @@ extern TypeInfo Monitor_t2741_il2cpp_TypeInfo;
 // System.Threading.Monitor
 #include "mscorlib_System_Threading_MonitorMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Monitor_t2741_Monitor_Enter_m9615_ParameterInfos[] = 
+static const ParameterInfo Monitor_t2741_Monitor_Enter_m9619_ParameterInfos[] = 
 {
 	{"obj", 0, 134223654, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Monitor::Enter(System.Object)
-extern const MethodInfo Monitor_Enter_m9615_MethodInfo = 
+extern const MethodInfo Monitor_Enter_m9619_MethodInfo = 
 {
 	"Enter"/* name */
-	, (methodPointerType)&Monitor_Enter_m9615/* method */
+	, (methodPointerType)&Monitor_Enter_m9619/* method */
 	, &Monitor_t2741_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Monitor_t2741_Monitor_Enter_m9615_ParameterInfos/* parameters */
+	, Monitor_t2741_Monitor_Enter_m9619_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -22686,20 +22686,20 @@ extern const MethodInfo Monitor_Enter_m9615_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Monitor_t2741_Monitor_Exit_m9617_ParameterInfos[] = 
+static const ParameterInfo Monitor_t2741_Monitor_Exit_m9621_ParameterInfos[] = 
 {
 	{"obj", 0, 134223655, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Monitor::Exit(System.Object)
-extern const MethodInfo Monitor_Exit_m9617_MethodInfo = 
+extern const MethodInfo Monitor_Exit_m9621_MethodInfo = 
 {
 	"Exit"/* name */
-	, (methodPointerType)&Monitor_Exit_m9617/* method */
+	, (methodPointerType)&Monitor_Exit_m9621/* method */
 	, &Monitor_t2741_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Monitor_t2741_Monitor_Exit_m9617_ParameterInfos/* parameters */
+	, Monitor_t2741_Monitor_Exit_m9621_ParameterInfos/* parameters */
 	, 756/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -22715,8 +22715,8 @@ extern const MethodInfo Monitor_Exit_m9617_MethodInfo =
 };
 static const MethodInfo* Monitor_t2741_MethodInfos[] =
 {
-	&Monitor_Enter_m9615_MethodInfo,
-	&Monitor_Exit_m9617_MethodInfo,
+	&Monitor_Enter_m9619_MethodInfo,
+	&Monitor_Exit_m9621_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Monitor_t2741_VTable[] =
@@ -22811,20 +22811,20 @@ extern TypeInfo Mutex_t2569_il2cpp_TypeInfo;
 // System.Threading.Mutex
 #include "mscorlib_System_Threading_MutexMethodDeclarations.h"
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo Mutex_t2569_Mutex__ctor_m15602_ParameterInfos[] = 
+static const ParameterInfo Mutex_t2569_Mutex__ctor_m15606_ParameterInfos[] = 
 {
 	{"initiallyOwned", 0, 134223656, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Mutex::.ctor(System.Boolean)
-extern const MethodInfo Mutex__ctor_m15602_MethodInfo = 
+extern const MethodInfo Mutex__ctor_m15606_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Mutex__ctor_m15602/* method */
+	, (methodPointerType)&Mutex__ctor_m15606/* method */
 	, &Mutex_t2569_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, Mutex_t2569_Mutex__ctor_m15602_ParameterInfos/* parameters */
+	, Mutex_t2569_Mutex__ctor_m15606_ParameterInfos/* parameters */
 	, 758/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -22841,7 +22841,7 @@ extern const MethodInfo Mutex__ctor_m15602_MethodInfo =
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t29_1_0_2;
-static const ParameterInfo Mutex_t2569_Mutex_CreateMutex_internal_m15603_ParameterInfos[] = 
+static const ParameterInfo Mutex_t2569_Mutex_CreateMutex_internal_m15607_ParameterInfos[] = 
 {
 	{"initiallyOwned", 0, 134223657, 0, &Boolean_t29_0_0_0},
 	{"name", 1, 134223658, 0, &String_t_0_0_0},
@@ -22849,14 +22849,14 @@ static const ParameterInfo Mutex_t2569_Mutex_CreateMutex_internal_m15603_Paramet
 };
 extern void* RuntimeInvoker_IntPtr_t_SByte_t61_Object_t_BooleanU26_t1029 (const MethodInfo* method, void* obj, void** args);
 // System.IntPtr System.Threading.Mutex::CreateMutex_internal(System.Boolean,System.String,System.Boolean&)
-extern const MethodInfo Mutex_CreateMutex_internal_m15603_MethodInfo = 
+extern const MethodInfo Mutex_CreateMutex_internal_m15607_MethodInfo = 
 {
 	"CreateMutex_internal"/* name */
-	, (methodPointerType)&Mutex_CreateMutex_internal_m15603/* method */
+	, (methodPointerType)&Mutex_CreateMutex_internal_m15607/* method */
 	, &Mutex_t2569_il2cpp_TypeInfo/* declaring_type */
 	, &IntPtr_t_0_0_0/* return_type */
 	, RuntimeInvoker_IntPtr_t_SByte_t61_Object_t_BooleanU26_t1029/* invoker_method */
-	, Mutex_t2569_Mutex_CreateMutex_internal_m15603_ParameterInfos/* parameters */
+	, Mutex_t2569_Mutex_CreateMutex_internal_m15607_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22871,20 +22871,20 @@ extern const MethodInfo Mutex_CreateMutex_internal_m15603_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo Mutex_t2569_Mutex_ReleaseMutex_internal_m15604_ParameterInfos[] = 
+static const ParameterInfo Mutex_t2569_Mutex_ReleaseMutex_internal_m15608_ParameterInfos[] = 
 {
 	{"handle", 0, 134223660, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Mutex::ReleaseMutex_internal(System.IntPtr)
-extern const MethodInfo Mutex_ReleaseMutex_internal_m15604_MethodInfo = 
+extern const MethodInfo Mutex_ReleaseMutex_internal_m15608_MethodInfo = 
 {
 	"ReleaseMutex_internal"/* name */
-	, (methodPointerType)&Mutex_ReleaseMutex_internal_m15604/* method */
+	, (methodPointerType)&Mutex_ReleaseMutex_internal_m15608/* method */
 	, &Mutex_t2569_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_IntPtr_t/* invoker_method */
-	, Mutex_t2569_Mutex_ReleaseMutex_internal_m15604_ParameterInfos/* parameters */
+	, Mutex_t2569_Mutex_ReleaseMutex_internal_m15608_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22900,10 +22900,10 @@ extern const MethodInfo Mutex_ReleaseMutex_internal_m15604_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Mutex::ReleaseMutex()
-extern const MethodInfo Mutex_ReleaseMutex_m15605_MethodInfo = 
+extern const MethodInfo Mutex_ReleaseMutex_m15609_MethodInfo = 
 {
 	"ReleaseMutex"/* name */
-	, (methodPointerType)&Mutex_ReleaseMutex_m15605/* method */
+	, (methodPointerType)&Mutex_ReleaseMutex_m15609/* method */
 	, &Mutex_t2569_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -22923,24 +22923,24 @@ extern const MethodInfo Mutex_ReleaseMutex_m15605_MethodInfo =
 };
 static const MethodInfo* Mutex_t2569_MethodInfos[] =
 {
-	&Mutex__ctor_m15602_MethodInfo,
-	&Mutex_CreateMutex_internal_m15603_MethodInfo,
-	&Mutex_ReleaseMutex_internal_m15604_MethodInfo,
-	&Mutex_ReleaseMutex_m15605_MethodInfo,
+	&Mutex__ctor_m15606_MethodInfo,
+	&Mutex_CreateMutex_internal_m15607_MethodInfo,
+	&Mutex_ReleaseMutex_internal_m15608_MethodInfo,
+	&Mutex_ReleaseMutex_m15609_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Mutex_t2569_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
 };
 static bool Mutex_t2569_VTableIsGenericMethod[] =
 {
@@ -23040,7 +23040,7 @@ extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t29_1_0_2;
-static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_CreateEvent_internal_m15606_ParameterInfos[] = 
+static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_CreateEvent_internal_m15610_ParameterInfos[] = 
 {
 	{"manual", 0, 134223661, 0, &Boolean_t29_0_0_0},
 	{"initial", 1, 134223662, 0, &Boolean_t29_0_0_0},
@@ -23049,14 +23049,14 @@ static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_CreateEvent_i
 };
 extern void* RuntimeInvoker_IntPtr_t_SByte_t61_SByte_t61_Object_t_BooleanU26_t1029 (const MethodInfo* method, void* obj, void** args);
 // System.IntPtr System.Threading.NativeEventCalls::CreateEvent_internal(System.Boolean,System.Boolean,System.String,System.Boolean&)
-extern const MethodInfo NativeEventCalls_CreateEvent_internal_m15606_MethodInfo = 
+extern const MethodInfo NativeEventCalls_CreateEvent_internal_m15610_MethodInfo = 
 {
 	"CreateEvent_internal"/* name */
-	, (methodPointerType)&NativeEventCalls_CreateEvent_internal_m15606/* method */
+	, (methodPointerType)&NativeEventCalls_CreateEvent_internal_m15610/* method */
 	, &NativeEventCalls_t2742_il2cpp_TypeInfo/* declaring_type */
 	, &IntPtr_t_0_0_0/* return_type */
 	, RuntimeInvoker_IntPtr_t_SByte_t61_SByte_t61_Object_t_BooleanU26_t1029/* invoker_method */
-	, NativeEventCalls_t2742_NativeEventCalls_CreateEvent_internal_m15606_ParameterInfos/* parameters */
+	, NativeEventCalls_t2742_NativeEventCalls_CreateEvent_internal_m15610_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -23071,20 +23071,20 @@ extern const MethodInfo NativeEventCalls_CreateEvent_internal_m15606_MethodInfo 
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_SetEvent_internal_m15607_ParameterInfos[] = 
+static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_SetEvent_internal_m15611_ParameterInfos[] = 
 {
 	{"handle", 0, 134223665, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.NativeEventCalls::SetEvent_internal(System.IntPtr)
-extern const MethodInfo NativeEventCalls_SetEvent_internal_m15607_MethodInfo = 
+extern const MethodInfo NativeEventCalls_SetEvent_internal_m15611_MethodInfo = 
 {
 	"SetEvent_internal"/* name */
-	, (methodPointerType)&NativeEventCalls_SetEvent_internal_m15607/* method */
+	, (methodPointerType)&NativeEventCalls_SetEvent_internal_m15611/* method */
 	, &NativeEventCalls_t2742_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_IntPtr_t/* invoker_method */
-	, NativeEventCalls_t2742_NativeEventCalls_SetEvent_internal_m15607_ParameterInfos/* parameters */
+	, NativeEventCalls_t2742_NativeEventCalls_SetEvent_internal_m15611_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -23099,20 +23099,20 @@ extern const MethodInfo NativeEventCalls_SetEvent_internal_m15607_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_ResetEvent_internal_m15608_ParameterInfos[] = 
+static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_ResetEvent_internal_m15612_ParameterInfos[] = 
 {
 	{"handle", 0, 134223666, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.NativeEventCalls::ResetEvent_internal(System.IntPtr)
-extern const MethodInfo NativeEventCalls_ResetEvent_internal_m15608_MethodInfo = 
+extern const MethodInfo NativeEventCalls_ResetEvent_internal_m15612_MethodInfo = 
 {
 	"ResetEvent_internal"/* name */
-	, (methodPointerType)&NativeEventCalls_ResetEvent_internal_m15608/* method */
+	, (methodPointerType)&NativeEventCalls_ResetEvent_internal_m15612/* method */
 	, &NativeEventCalls_t2742_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_IntPtr_t/* invoker_method */
-	, NativeEventCalls_t2742_NativeEventCalls_ResetEvent_internal_m15608_ParameterInfos/* parameters */
+	, NativeEventCalls_t2742_NativeEventCalls_ResetEvent_internal_m15612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -23127,20 +23127,20 @@ extern const MethodInfo NativeEventCalls_ResetEvent_internal_m15608_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_CloseEvent_internal_m15609_ParameterInfos[] = 
+static const ParameterInfo NativeEventCalls_t2742_NativeEventCalls_CloseEvent_internal_m15613_ParameterInfos[] = 
 {
 	{"handle", 0, 134223667, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.NativeEventCalls::CloseEvent_internal(System.IntPtr)
-extern const MethodInfo NativeEventCalls_CloseEvent_internal_m15609_MethodInfo = 
+extern const MethodInfo NativeEventCalls_CloseEvent_internal_m15613_MethodInfo = 
 {
 	"CloseEvent_internal"/* name */
-	, (methodPointerType)&NativeEventCalls_CloseEvent_internal_m15609/* method */
+	, (methodPointerType)&NativeEventCalls_CloseEvent_internal_m15613/* method */
 	, &NativeEventCalls_t2742_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_IntPtr_t/* invoker_method */
-	, NativeEventCalls_t2742_NativeEventCalls_CloseEvent_internal_m15609_ParameterInfos/* parameters */
+	, NativeEventCalls_t2742_NativeEventCalls_CloseEvent_internal_m15613_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -23156,10 +23156,10 @@ extern const MethodInfo NativeEventCalls_CloseEvent_internal_m15609_MethodInfo =
 };
 static const MethodInfo* NativeEventCalls_t2742_MethodInfos[] =
 {
-	&NativeEventCalls_CreateEvent_internal_m15606_MethodInfo,
-	&NativeEventCalls_SetEvent_internal_m15607_MethodInfo,
-	&NativeEventCalls_ResetEvent_internal_m15608_MethodInfo,
-	&NativeEventCalls_CloseEvent_internal_m15609_MethodInfo,
+	&NativeEventCalls_CreateEvent_internal_m15610_MethodInfo,
+	&NativeEventCalls_SetEvent_internal_m15611_MethodInfo,
+	&NativeEventCalls_ResetEvent_internal_m15612_MethodInfo,
+	&NativeEventCalls_CloseEvent_internal_m15613_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference NativeEventCalls_t2742_VTable[] =
@@ -23255,10 +23255,10 @@ extern TypeInfo SynchronizationLockException_t2743_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_SynchronizationLockExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.SynchronizationLockException::.ctor()
-extern const MethodInfo SynchronizationLockException__ctor_m15610_MethodInfo = 
+extern const MethodInfo SynchronizationLockException__ctor_m15614_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SynchronizationLockException__ctor_m15610/* method */
+	, (methodPointerType)&SynchronizationLockException__ctor_m15614/* method */
 	, &SynchronizationLockException_t2743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23278,21 +23278,21 @@ extern const MethodInfo SynchronizationLockException__ctor_m15610_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo SynchronizationLockException_t2743_SynchronizationLockException__ctor_m15611_ParameterInfos[] = 
+static const ParameterInfo SynchronizationLockException_t2743_SynchronizationLockException__ctor_m15615_ParameterInfos[] = 
 {
 	{"info", 0, 134223668, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223669, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo SynchronizationLockException__ctor_m15611_MethodInfo = 
+extern const MethodInfo SynchronizationLockException__ctor_m15615_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SynchronizationLockException__ctor_m15611/* method */
+	, (methodPointerType)&SynchronizationLockException__ctor_m15615/* method */
 	, &SynchronizationLockException_t2743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, SynchronizationLockException_t2743_SynchronizationLockException__ctor_m15611_ParameterInfos/* parameters */
+	, SynchronizationLockException_t2743_SynchronizationLockException__ctor_m15615_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -23308,24 +23308,24 @@ extern const MethodInfo SynchronizationLockException__ctor_m15611_MethodInfo =
 };
 static const MethodInfo* SynchronizationLockException_t2743_MethodInfos[] =
 {
-	&SynchronizationLockException__ctor_m15610_MethodInfo,
-	&SynchronizationLockException__ctor_m15611_MethodInfo,
+	&SynchronizationLockException__ctor_m15614_MethodInfo,
+	&SynchronizationLockException__ctor_m15615_MethodInfo,
 	NULL
 };
-extern const MethodInfo Exception_GetObjectData_m7390_MethodInfo;
+extern const MethodInfo Exception_GetObjectData_m7394_MethodInfo;
 static const Il2CppMethodReference SynchronizationLockException_t2743_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool SynchronizationLockException_t2743_VTableIsGenericMethod[] =
 {
@@ -23425,20 +23425,20 @@ extern TypeInfo Thread_t1987_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_ThreadMethodDeclarations.h"
 extern const Il2CppType ThreadStart_t2195_0_0_0;
 extern const Il2CppType ThreadStart_t2195_0_0_0;
-static const ParameterInfo Thread_t1987_Thread__ctor_m11570_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread__ctor_m11574_ParameterInfos[] = 
 {
 	{"start", 0, 134223670, 0, &ThreadStart_t2195_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
-extern const MethodInfo Thread__ctor_m11570_MethodInfo = 
+extern const MethodInfo Thread__ctor_m11574_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Thread__ctor_m11570/* method */
+	, (methodPointerType)&Thread__ctor_m11574/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Thread_t1987_Thread__ctor_m11570_ParameterInfos/* parameters */
+	, Thread_t1987_Thread__ctor_m11574_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -23454,10 +23454,10 @@ extern const MethodInfo Thread__ctor_m11570_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::.cctor()
-extern const MethodInfo Thread__cctor_m15612_MethodInfo = 
+extern const MethodInfo Thread__cctor_m15616_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Thread__cctor_m15612/* method */
+	, (methodPointerType)&Thread__cctor_m15616/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23478,10 +23478,10 @@ extern const MethodInfo Thread__cctor_m15612_MethodInfo =
 extern const Il2CppType Context_t2568_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.Context System.Threading.Thread::get_CurrentContext()
-extern const MethodInfo Thread_get_CurrentContext_m15613_MethodInfo = 
+extern const MethodInfo Thread_get_CurrentContext_m15617_MethodInfo = 
 {
 	"get_CurrentContext"/* name */
-	, (methodPointerType)&Thread_get_CurrentContext_m15613/* method */
+	, (methodPointerType)&Thread_get_CurrentContext_m15617/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Context_t2568_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23502,10 +23502,10 @@ extern const MethodInfo Thread_get_CurrentContext_m15613_MethodInfo =
 extern const Il2CppType Thread_t1987_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Thread System.Threading.Thread::CurrentThread_internal()
-extern const MethodInfo Thread_CurrentThread_internal_m15614_MethodInfo = 
+extern const MethodInfo Thread_CurrentThread_internal_m15618_MethodInfo = 
 {
 	"CurrentThread_internal"/* name */
-	, (methodPointerType)&Thread_CurrentThread_internal_m15614/* method */
+	, (methodPointerType)&Thread_CurrentThread_internal_m15618/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Thread_t1987_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23525,10 +23525,10 @@ extern const MethodInfo Thread_CurrentThread_internal_m15614_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Thread System.Threading.Thread::get_CurrentThread()
-extern const MethodInfo Thread_get_CurrentThread_m11544_MethodInfo = 
+extern const MethodInfo Thread_get_CurrentThread_m11548_MethodInfo = 
 {
 	"get_CurrentThread"/* name */
-	, (methodPointerType)&Thread_get_CurrentThread_m11544/* method */
+	, (methodPointerType)&Thread_get_CurrentThread_m11548/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Thread_t1987_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23548,10 +23548,10 @@ extern const MethodInfo Thread_get_CurrentThread_m11544_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Thread::GetDomainID()
-extern const MethodInfo Thread_GetDomainID_m15615_MethodInfo = 
+extern const MethodInfo Thread_GetDomainID_m15619_MethodInfo = 
 {
 	"GetDomainID"/* name */
-	, (methodPointerType)&Thread_GetDomainID_m15615/* method */
+	, (methodPointerType)&Thread_GetDomainID_m15619/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -23571,10 +23571,10 @@ extern const MethodInfo Thread_GetDomainID_m15615_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::ResetAbort_internal()
-extern const MethodInfo Thread_ResetAbort_internal_m15616_MethodInfo = 
+extern const MethodInfo Thread_ResetAbort_internal_m15620_MethodInfo = 
 {
 	"ResetAbort_internal"/* name */
-	, (methodPointerType)&Thread_ResetAbort_internal_m15616/* method */
+	, (methodPointerType)&Thread_ResetAbort_internal_m15620/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23594,10 +23594,10 @@ extern const MethodInfo Thread_ResetAbort_internal_m15616_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::ResetAbort()
-extern const MethodInfo Thread_ResetAbort_m11545_MethodInfo = 
+extern const MethodInfo Thread_ResetAbort_m11549_MethodInfo = 
 {
 	"ResetAbort"/* name */
-	, (methodPointerType)&Thread_ResetAbort_m11545/* method */
+	, (methodPointerType)&Thread_ResetAbort_m11549/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23617,20 +23617,20 @@ extern const MethodInfo Thread_ResetAbort_m11545_MethodInfo =
 };
 extern const Il2CppType MulticastDelegate_t348_0_0_0;
 extern const Il2CppType MulticastDelegate_t348_0_0_0;
-static const ParameterInfo Thread_t1987_Thread_Thread_internal_m15617_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread_Thread_internal_m15621_ParameterInfos[] = 
 {
 	{"start", 0, 134223671, 0, &MulticastDelegate_t348_0_0_0},
 };
 extern void* RuntimeInvoker_IntPtr_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IntPtr System.Threading.Thread::Thread_internal(System.MulticastDelegate)
-extern const MethodInfo Thread_Thread_internal_m15617_MethodInfo = 
+extern const MethodInfo Thread_Thread_internal_m15621_MethodInfo = 
 {
 	"Thread_internal"/* name */
-	, (methodPointerType)&Thread_Thread_internal_m15617/* method */
+	, (methodPointerType)&Thread_Thread_internal_m15621/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &IntPtr_t_0_0_0/* return_type */
 	, RuntimeInvoker_IntPtr_t_Object_t/* invoker_method */
-	, Thread_t1987_Thread_Thread_internal_m15617_ParameterInfos/* parameters */
+	, Thread_t1987_Thread_Thread_internal_m15621_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -23646,10 +23646,10 @@ extern const MethodInfo Thread_Thread_internal_m15617_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Thread_init()
-extern const MethodInfo Thread_Thread_init_m15618_MethodInfo = 
+extern const MethodInfo Thread_Thread_init_m15622_MethodInfo = 
 {
 	"Thread_init"/* name */
-	, (methodPointerType)&Thread_Thread_init_m15618/* method */
+	, (methodPointerType)&Thread_Thread_init_m15622/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23670,10 +23670,10 @@ extern const MethodInfo Thread_Thread_init_m15618_MethodInfo =
 extern const Il2CppType CultureInfo_t667_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentCulture()
-extern const MethodInfo Thread_GetCachedCurrentCulture_m15619_MethodInfo = 
+extern const MethodInfo Thread_GetCachedCurrentCulture_m15623_MethodInfo = 
 {
 	"GetCachedCurrentCulture"/* name */
-	, (methodPointerType)&Thread_GetCachedCurrentCulture_m15619/* method */
+	, (methodPointerType)&Thread_GetCachedCurrentCulture_m15623/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &CultureInfo_t667_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23693,10 +23693,10 @@ extern const MethodInfo Thread_GetCachedCurrentCulture_m15619_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentCulture()
-extern const MethodInfo Thread_GetSerializedCurrentCulture_m15620_MethodInfo = 
+extern const MethodInfo Thread_GetSerializedCurrentCulture_m15624_MethodInfo = 
 {
 	"GetSerializedCurrentCulture"/* name */
-	, (methodPointerType)&Thread_GetSerializedCurrentCulture_m15620/* method */
+	, (methodPointerType)&Thread_GetSerializedCurrentCulture_m15624/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23715,20 +23715,20 @@ extern const MethodInfo Thread_GetSerializedCurrentCulture_m15620_MethodInfo =
 
 };
 extern const Il2CppType CultureInfo_t667_0_0_0;
-static const ParameterInfo Thread_t1987_Thread_SetCachedCurrentCulture_m15621_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread_SetCachedCurrentCulture_m15625_ParameterInfos[] = 
 {
 	{"culture", 0, 134223672, 0, &CultureInfo_t667_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)
-extern const MethodInfo Thread_SetCachedCurrentCulture_m15621_MethodInfo = 
+extern const MethodInfo Thread_SetCachedCurrentCulture_m15625_MethodInfo = 
 {
 	"SetCachedCurrentCulture"/* name */
-	, (methodPointerType)&Thread_SetCachedCurrentCulture_m15621/* method */
+	, (methodPointerType)&Thread_SetCachedCurrentCulture_m15625/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Thread_t1987_Thread_SetCachedCurrentCulture_m15621_ParameterInfos/* parameters */
+	, Thread_t1987_Thread_SetCachedCurrentCulture_m15625_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -23744,10 +23744,10 @@ extern const MethodInfo Thread_SetCachedCurrentCulture_m15621_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentUICulture()
-extern const MethodInfo Thread_GetCachedCurrentUICulture_m15622_MethodInfo = 
+extern const MethodInfo Thread_GetCachedCurrentUICulture_m15626_MethodInfo = 
 {
 	"GetCachedCurrentUICulture"/* name */
-	, (methodPointerType)&Thread_GetCachedCurrentUICulture_m15622/* method */
+	, (methodPointerType)&Thread_GetCachedCurrentUICulture_m15626/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &CultureInfo_t667_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23767,10 +23767,10 @@ extern const MethodInfo Thread_GetCachedCurrentUICulture_m15622_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentUICulture()
-extern const MethodInfo Thread_GetSerializedCurrentUICulture_m15623_MethodInfo = 
+extern const MethodInfo Thread_GetSerializedCurrentUICulture_m15627_MethodInfo = 
 {
 	"GetSerializedCurrentUICulture"/* name */
-	, (methodPointerType)&Thread_GetSerializedCurrentUICulture_m15623/* method */
+	, (methodPointerType)&Thread_GetSerializedCurrentUICulture_m15627/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t36_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23789,20 +23789,20 @@ extern const MethodInfo Thread_GetSerializedCurrentUICulture_m15623_MethodInfo =
 
 };
 extern const Il2CppType CultureInfo_t667_0_0_0;
-static const ParameterInfo Thread_t1987_Thread_SetCachedCurrentUICulture_m15624_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread_SetCachedCurrentUICulture_m15628_ParameterInfos[] = 
 {
 	{"culture", 0, 134223673, 0, &CultureInfo_t667_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)
-extern const MethodInfo Thread_SetCachedCurrentUICulture_m15624_MethodInfo = 
+extern const MethodInfo Thread_SetCachedCurrentUICulture_m15628_MethodInfo = 
 {
 	"SetCachedCurrentUICulture"/* name */
-	, (methodPointerType)&Thread_SetCachedCurrentUICulture_m15624/* method */
+	, (methodPointerType)&Thread_SetCachedCurrentUICulture_m15628/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Thread_t1987_Thread_SetCachedCurrentUICulture_m15624_ParameterInfos/* parameters */
+	, Thread_t1987_Thread_SetCachedCurrentUICulture_m15628_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -23818,10 +23818,10 @@ extern const MethodInfo Thread_SetCachedCurrentUICulture_m15624_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentCulture()
-extern const MethodInfo Thread_get_CurrentCulture_m15625_MethodInfo = 
+extern const MethodInfo Thread_get_CurrentCulture_m15629_MethodInfo = 
 {
 	"get_CurrentCulture"/* name */
-	, (methodPointerType)&Thread_get_CurrentCulture_m15625/* method */
+	, (methodPointerType)&Thread_get_CurrentCulture_m15629/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &CultureInfo_t667_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23841,10 +23841,10 @@ extern const MethodInfo Thread_get_CurrentCulture_m15625_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentUICulture()
-extern const MethodInfo Thread_get_CurrentUICulture_m15626_MethodInfo = 
+extern const MethodInfo Thread_get_CurrentUICulture_m15630_MethodInfo = 
 {
 	"get_CurrentUICulture"/* name */
-	, (methodPointerType)&Thread_get_CurrentUICulture_m15626/* method */
+	, (methodPointerType)&Thread_get_CurrentUICulture_m15630/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &CultureInfo_t667_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23863,20 +23863,20 @@ extern const MethodInfo Thread_get_CurrentUICulture_m15626_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Thread_t1987_Thread_Abort_internal_m15627_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread_Abort_internal_m15631_ParameterInfos[] = 
 {
 	{"stateInfo", 0, 134223674, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Abort_internal(System.Object)
-extern const MethodInfo Thread_Abort_internal_m15627_MethodInfo = 
+extern const MethodInfo Thread_Abort_internal_m15631_MethodInfo = 
 {
 	"Abort_internal"/* name */
-	, (methodPointerType)&Thread_Abort_internal_m15627/* method */
+	, (methodPointerType)&Thread_Abort_internal_m15631/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Thread_t1987_Thread_Abort_internal_m15627_ParameterInfos/* parameters */
+	, Thread_t1987_Thread_Abort_internal_m15631_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -23892,10 +23892,10 @@ extern const MethodInfo Thread_Abort_internal_m15627_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Abort()
-extern const MethodInfo Thread_Abort_m11550_MethodInfo = 
+extern const MethodInfo Thread_Abort_m11554_MethodInfo = 
 {
 	"Abort"/* name */
-	, (methodPointerType)&Thread_Abort_m11550/* method */
+	, (methodPointerType)&Thread_Abort_m11554/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23915,10 +23915,10 @@ extern const MethodInfo Thread_Abort_m11550_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Start()
-extern const MethodInfo Thread_Start_m11571_MethodInfo = 
+extern const MethodInfo Thread_Start_m11575_MethodInfo = 
 {
 	"Start"/* name */
-	, (methodPointerType)&Thread_Start_m11571/* method */
+	, (methodPointerType)&Thread_Start_m11575/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23937,20 +23937,20 @@ extern const MethodInfo Thread_Start_m11571_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo Thread_t1987_Thread_Thread_free_internal_m15628_ParameterInfos[] = 
+static const ParameterInfo Thread_t1987_Thread_Thread_free_internal_m15632_ParameterInfos[] = 
 {
 	{"handle", 0, 134223675, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Thread_free_internal(System.IntPtr)
-extern const MethodInfo Thread_Thread_free_internal_m15628_MethodInfo = 
+extern const MethodInfo Thread_Thread_free_internal_m15632_MethodInfo = 
 {
 	"Thread_free_internal"/* name */
-	, (methodPointerType)&Thread_Thread_free_internal_m15628/* method */
+	, (methodPointerType)&Thread_Thread_free_internal_m15632/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_IntPtr_t/* invoker_method */
-	, Thread_t1987_Thread_Thread_free_internal_m15628_ParameterInfos/* parameters */
+	, Thread_t1987_Thread_Thread_free_internal_m15632_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -23966,10 +23966,10 @@ extern const MethodInfo Thread_Thread_free_internal_m15628_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Thread::Finalize()
-extern const MethodInfo Thread_Finalize_m15629_MethodInfo = 
+extern const MethodInfo Thread_Finalize_m15633_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&Thread_Finalize_m15629/* method */
+	, (methodPointerType)&Thread_Finalize_m15633/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -23989,10 +23989,10 @@ extern const MethodInfo Thread_Finalize_m15629_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Thread::GetNewManagedId()
-extern const MethodInfo Thread_GetNewManagedId_m15630_MethodInfo = 
+extern const MethodInfo Thread_GetNewManagedId_m15634_MethodInfo = 
 {
 	"GetNewManagedId"/* name */
-	, (methodPointerType)&Thread_GetNewManagedId_m15630/* method */
+	, (methodPointerType)&Thread_GetNewManagedId_m15634/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -24012,10 +24012,10 @@ extern const MethodInfo Thread_GetNewManagedId_m15630_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Thread::GetNewManagedId_internal()
-extern const MethodInfo Thread_GetNewManagedId_internal_m15631_MethodInfo = 
+extern const MethodInfo Thread_GetNewManagedId_internal_m15635_MethodInfo = 
 {
 	"GetNewManagedId_internal"/* name */
-	, (methodPointerType)&Thread_GetNewManagedId_internal_m15631/* method */
+	, (methodPointerType)&Thread_GetNewManagedId_internal_m15635/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -24035,10 +24035,10 @@ extern const MethodInfo Thread_GetNewManagedId_internal_m15631_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.ExecutionContext System.Threading.Thread::get_ExecutionContext()
-extern const MethodInfo Thread_get_ExecutionContext_m15632_MethodInfo = 
+extern const MethodInfo Thread_get_ExecutionContext_m15636_MethodInfo = 
 {
 	"get_ExecutionContext"/* name */
-	, (methodPointerType)&Thread_get_ExecutionContext_m15632/* method */
+	, (methodPointerType)&Thread_get_ExecutionContext_m15636/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &ExecutionContext_t2573_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -24058,10 +24058,10 @@ extern const MethodInfo Thread_get_ExecutionContext_m15632_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Thread::get_ManagedThreadId()
-extern const MethodInfo Thread_get_ManagedThreadId_m15633_MethodInfo = 
+extern const MethodInfo Thread_get_ManagedThreadId_m15637_MethodInfo = 
 {
 	"get_ManagedThreadId"/* name */
-	, (methodPointerType)&Thread_get_ManagedThreadId_m15633/* method */
+	, (methodPointerType)&Thread_get_ManagedThreadId_m15637/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -24081,10 +24081,10 @@ extern const MethodInfo Thread_get_ManagedThreadId_m15633_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t50 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Thread::GetHashCode()
-extern const MethodInfo Thread_GetHashCode_m15634_MethodInfo = 
+extern const MethodInfo Thread_GetHashCode_m15638_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&Thread_GetHashCode_m15634/* method */
+	, (methodPointerType)&Thread_GetHashCode_m15638/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t50_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t50/* invoker_method */
@@ -24104,10 +24104,10 @@ extern const MethodInfo Thread_GetHashCode_m15634_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CompressedStack System.Threading.Thread::GetCompressedStack()
-extern const MethodInfo Thread_GetCompressedStack_m15635_MethodInfo = 
+extern const MethodInfo Thread_GetCompressedStack_m15639_MethodInfo = 
 {
 	"GetCompressedStack"/* name */
-	, (methodPointerType)&Thread_GetCompressedStack_m15635/* method */
+	, (methodPointerType)&Thread_GetCompressedStack_m15639/* method */
 	, &Thread_t1987_il2cpp_TypeInfo/* declaring_type */
 	, &CompressedStack_t2704_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -24127,98 +24127,98 @@ extern const MethodInfo Thread_GetCompressedStack_m15635_MethodInfo =
 };
 static const MethodInfo* Thread_t1987_MethodInfos[] =
 {
-	&Thread__ctor_m11570_MethodInfo,
-	&Thread__cctor_m15612_MethodInfo,
-	&Thread_get_CurrentContext_m15613_MethodInfo,
-	&Thread_CurrentThread_internal_m15614_MethodInfo,
-	&Thread_get_CurrentThread_m11544_MethodInfo,
-	&Thread_GetDomainID_m15615_MethodInfo,
-	&Thread_ResetAbort_internal_m15616_MethodInfo,
-	&Thread_ResetAbort_m11545_MethodInfo,
-	&Thread_Thread_internal_m15617_MethodInfo,
-	&Thread_Thread_init_m15618_MethodInfo,
-	&Thread_GetCachedCurrentCulture_m15619_MethodInfo,
-	&Thread_GetSerializedCurrentCulture_m15620_MethodInfo,
-	&Thread_SetCachedCurrentCulture_m15621_MethodInfo,
-	&Thread_GetCachedCurrentUICulture_m15622_MethodInfo,
-	&Thread_GetSerializedCurrentUICulture_m15623_MethodInfo,
-	&Thread_SetCachedCurrentUICulture_m15624_MethodInfo,
-	&Thread_get_CurrentCulture_m15625_MethodInfo,
-	&Thread_get_CurrentUICulture_m15626_MethodInfo,
-	&Thread_Abort_internal_m15627_MethodInfo,
-	&Thread_Abort_m11550_MethodInfo,
-	&Thread_Start_m11571_MethodInfo,
-	&Thread_Thread_free_internal_m15628_MethodInfo,
-	&Thread_Finalize_m15629_MethodInfo,
-	&Thread_GetNewManagedId_m15630_MethodInfo,
-	&Thread_GetNewManagedId_internal_m15631_MethodInfo,
-	&Thread_get_ExecutionContext_m15632_MethodInfo,
-	&Thread_get_ManagedThreadId_m15633_MethodInfo,
-	&Thread_GetHashCode_m15634_MethodInfo,
-	&Thread_GetCompressedStack_m15635_MethodInfo,
+	&Thread__ctor_m11574_MethodInfo,
+	&Thread__cctor_m15616_MethodInfo,
+	&Thread_get_CurrentContext_m15617_MethodInfo,
+	&Thread_CurrentThread_internal_m15618_MethodInfo,
+	&Thread_get_CurrentThread_m11548_MethodInfo,
+	&Thread_GetDomainID_m15619_MethodInfo,
+	&Thread_ResetAbort_internal_m15620_MethodInfo,
+	&Thread_ResetAbort_m11549_MethodInfo,
+	&Thread_Thread_internal_m15621_MethodInfo,
+	&Thread_Thread_init_m15622_MethodInfo,
+	&Thread_GetCachedCurrentCulture_m15623_MethodInfo,
+	&Thread_GetSerializedCurrentCulture_m15624_MethodInfo,
+	&Thread_SetCachedCurrentCulture_m15625_MethodInfo,
+	&Thread_GetCachedCurrentUICulture_m15626_MethodInfo,
+	&Thread_GetSerializedCurrentUICulture_m15627_MethodInfo,
+	&Thread_SetCachedCurrentUICulture_m15628_MethodInfo,
+	&Thread_get_CurrentCulture_m15629_MethodInfo,
+	&Thread_get_CurrentUICulture_m15630_MethodInfo,
+	&Thread_Abort_internal_m15631_MethodInfo,
+	&Thread_Abort_m11554_MethodInfo,
+	&Thread_Start_m11575_MethodInfo,
+	&Thread_Thread_free_internal_m15632_MethodInfo,
+	&Thread_Finalize_m15633_MethodInfo,
+	&Thread_GetNewManagedId_m15634_MethodInfo,
+	&Thread_GetNewManagedId_internal_m15635_MethodInfo,
+	&Thread_get_ExecutionContext_m15636_MethodInfo,
+	&Thread_get_ManagedThreadId_m15637_MethodInfo,
+	&Thread_GetHashCode_m15638_MethodInfo,
+	&Thread_GetCompressedStack_m15639_MethodInfo,
 	NULL
 };
-extern const MethodInfo Thread_get_CurrentContext_m15613_MethodInfo;
+extern const MethodInfo Thread_get_CurrentContext_m15617_MethodInfo;
 static const PropertyInfo Thread_t1987____CurrentContext_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "CurrentContext"/* name */
-	, &Thread_get_CurrentContext_m15613_MethodInfo/* get */
+	, &Thread_get_CurrentContext_m15617_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Thread_get_CurrentThread_m11544_MethodInfo;
+extern const MethodInfo Thread_get_CurrentThread_m11548_MethodInfo;
 static const PropertyInfo Thread_t1987____CurrentThread_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "CurrentThread"/* name */
-	, &Thread_get_CurrentThread_m11544_MethodInfo/* get */
+	, &Thread_get_CurrentThread_m11548_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Thread_get_CurrentCulture_m15625_MethodInfo;
+extern const MethodInfo Thread_get_CurrentCulture_m15629_MethodInfo;
 static const PropertyInfo Thread_t1987____CurrentCulture_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "CurrentCulture"/* name */
-	, &Thread_get_CurrentCulture_m15625_MethodInfo/* get */
+	, &Thread_get_CurrentCulture_m15629_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Thread_get_CurrentUICulture_m15626_MethodInfo;
+extern const MethodInfo Thread_get_CurrentUICulture_m15630_MethodInfo;
 static const PropertyInfo Thread_t1987____CurrentUICulture_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "CurrentUICulture"/* name */
-	, &Thread_get_CurrentUICulture_m15626_MethodInfo/* get */
+	, &Thread_get_CurrentUICulture_m15630_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Thread_get_ExecutionContext_m15632_MethodInfo;
+extern const MethodInfo Thread_get_ExecutionContext_m15636_MethodInfo;
 static const PropertyInfo Thread_t1987____ExecutionContext_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "ExecutionContext"/* name */
-	, &Thread_get_ExecutionContext_m15632_MethodInfo/* get */
+	, &Thread_get_ExecutionContext_m15636_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 770/* custom_attributes_cache */
 
 };
-extern const MethodInfo Thread_get_ManagedThreadId_m15633_MethodInfo;
+extern const MethodInfo Thread_get_ManagedThreadId_m15637_MethodInfo;
 static const PropertyInfo Thread_t1987____ManagedThreadId_PropertyInfo = 
 {
 	&Thread_t1987_il2cpp_TypeInfo/* parent */
 	, "ManagedThreadId"/* name */
-	, &Thread_get_ManagedThreadId_m15633_MethodInfo/* get */
+	, &Thread_get_ManagedThreadId_m15637_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -24234,13 +24234,13 @@ static const PropertyInfo* Thread_t1987_PropertyInfos[] =
 	&Thread_t1987____ManagedThreadId_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Thread_Finalize_m15629_MethodInfo;
-extern const MethodInfo Thread_GetHashCode_m15634_MethodInfo;
+extern const MethodInfo Thread_Finalize_m15633_MethodInfo;
+extern const MethodInfo Thread_GetHashCode_m15638_MethodInfo;
 static const Il2CppMethodReference Thread_t1987_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&Thread_Finalize_m15629_MethodInfo,
-	&Thread_GetHashCode_m15634_MethodInfo,
+	&Thread_Finalize_m15633_MethodInfo,
+	&Thread_GetHashCode_m15638_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
 };
 static bool Thread_t1987_VTableIsGenericMethod[] =
@@ -24338,10 +24338,10 @@ extern TypeInfo ThreadAbortException_t2190_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_ThreadAbortExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadAbortException::.ctor()
-extern const MethodInfo ThreadAbortException__ctor_m15636_MethodInfo = 
+extern const MethodInfo ThreadAbortException__ctor_m15640_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadAbortException__ctor_m15636/* method */
+	, (methodPointerType)&ThreadAbortException__ctor_m15640/* method */
 	, &ThreadAbortException_t2190_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -24361,21 +24361,21 @@ extern const MethodInfo ThreadAbortException__ctor_m15636_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ThreadAbortException_t2190_ThreadAbortException__ctor_m15637_ParameterInfos[] = 
+static const ParameterInfo ThreadAbortException_t2190_ThreadAbortException__ctor_m15641_ParameterInfos[] = 
 {
 	{"info", 0, 134223676, 0, &SerializationInfo_t1301_0_0_0},
 	{"sc", 1, 134223677, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadAbortException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ThreadAbortException__ctor_m15637_MethodInfo = 
+extern const MethodInfo ThreadAbortException__ctor_m15641_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadAbortException__ctor_m15637/* method */
+	, (methodPointerType)&ThreadAbortException__ctor_m15641/* method */
 	, &ThreadAbortException_t2190_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ThreadAbortException_t2190_ThreadAbortException__ctor_m15637_ParameterInfos/* parameters */
+	, ThreadAbortException_t2190_ThreadAbortException__ctor_m15641_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -24391,8 +24391,8 @@ extern const MethodInfo ThreadAbortException__ctor_m15637_MethodInfo =
 };
 static const MethodInfo* ThreadAbortException_t2190_MethodInfos[] =
 {
-	&ThreadAbortException__ctor_m15636_MethodInfo,
-	&ThreadAbortException__ctor_m15637_MethodInfo,
+	&ThreadAbortException__ctor_m15640_MethodInfo,
+	&ThreadAbortException__ctor_m15641_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ThreadAbortException_t2190_VTable[] =
@@ -24400,14 +24400,14 @@ static const Il2CppMethodReference ThreadAbortException_t2190_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ThreadAbortException_t2190_VTableIsGenericMethod[] =
 {
@@ -24507,10 +24507,10 @@ extern TypeInfo ThreadInterruptedException_t2745_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_ThreadInterruptedExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadInterruptedException::.ctor()
-extern const MethodInfo ThreadInterruptedException__ctor_m15638_MethodInfo = 
+extern const MethodInfo ThreadInterruptedException__ctor_m15642_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadInterruptedException__ctor_m15638/* method */
+	, (methodPointerType)&ThreadInterruptedException__ctor_m15642/* method */
 	, &ThreadInterruptedException_t2745_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -24530,21 +24530,21 @@ extern const MethodInfo ThreadInterruptedException__ctor_m15638_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ThreadInterruptedException_t2745_ThreadInterruptedException__ctor_m15639_ParameterInfos[] = 
+static const ParameterInfo ThreadInterruptedException_t2745_ThreadInterruptedException__ctor_m15643_ParameterInfos[] = 
 {
 	{"info", 0, 134223678, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223679, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadInterruptedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ThreadInterruptedException__ctor_m15639_MethodInfo = 
+extern const MethodInfo ThreadInterruptedException__ctor_m15643_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadInterruptedException__ctor_m15639/* method */
+	, (methodPointerType)&ThreadInterruptedException__ctor_m15643/* method */
 	, &ThreadInterruptedException_t2745_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ThreadInterruptedException_t2745_ThreadInterruptedException__ctor_m15639_ParameterInfos/* parameters */
+	, ThreadInterruptedException_t2745_ThreadInterruptedException__ctor_m15643_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -24560,8 +24560,8 @@ extern const MethodInfo ThreadInterruptedException__ctor_m15639_MethodInfo =
 };
 static const MethodInfo* ThreadInterruptedException_t2745_MethodInfos[] =
 {
-	&ThreadInterruptedException__ctor_m15638_MethodInfo,
-	&ThreadInterruptedException__ctor_m15639_MethodInfo,
+	&ThreadInterruptedException__ctor_m15642_MethodInfo,
+	&ThreadInterruptedException__ctor_m15643_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ThreadInterruptedException_t2745_VTable[] =
@@ -24569,14 +24569,14 @@ static const Il2CppMethodReference ThreadInterruptedException_t2745_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ThreadInterruptedException_t2745_VTableIsGenericMethod[] =
 {
@@ -24677,21 +24677,21 @@ extern TypeInfo ThreadPool_t2746_il2cpp_TypeInfo;
 extern const Il2CppType WaitCallback_t2060_0_0_0;
 extern const Il2CppType WaitCallback_t2060_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ThreadPool_t2746_ThreadPool_QueueUserWorkItem_m11541_ParameterInfos[] = 
+static const ParameterInfo ThreadPool_t2746_ThreadPool_QueueUserWorkItem_m11545_ParameterInfos[] = 
 {
 	{"callBack", 0, 134223680, 0, &WaitCallback_t2060_0_0_0},
 	{"state", 1, 134223681, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern const MethodInfo ThreadPool_QueueUserWorkItem_m11541_MethodInfo = 
+extern const MethodInfo ThreadPool_QueueUserWorkItem_m11545_MethodInfo = 
 {
 	"QueueUserWorkItem"/* name */
-	, (methodPointerType)&ThreadPool_QueueUserWorkItem_m11541/* method */
+	, (methodPointerType)&ThreadPool_QueueUserWorkItem_m11545/* method */
 	, &ThreadPool_t2746_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Object_t_Object_t/* invoker_method */
-	, ThreadPool_t2746_ThreadPool_QueueUserWorkItem_m11541_ParameterInfos/* parameters */
+	, ThreadPool_t2746_ThreadPool_QueueUserWorkItem_m11545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -24707,7 +24707,7 @@ extern const MethodInfo ThreadPool_QueueUserWorkItem_m11541_MethodInfo =
 };
 static const MethodInfo* ThreadPool_t2746_MethodInfos[] =
 {
-	&ThreadPool_QueueUserWorkItem_m11541_MethodInfo,
+	&ThreadPool_QueueUserWorkItem_m11545_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ThreadPool_t2746_VTable[] =
@@ -24941,10 +24941,10 @@ extern TypeInfo ThreadStateException_t2748_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_ThreadStateExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadStateException::.ctor()
-extern const MethodInfo ThreadStateException__ctor_m15640_MethodInfo = 
+extern const MethodInfo ThreadStateException__ctor_m15644_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadStateException__ctor_m15640/* method */
+	, (methodPointerType)&ThreadStateException__ctor_m15644/* method */
 	, &ThreadStateException_t2748_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -24964,21 +24964,21 @@ extern const MethodInfo ThreadStateException__ctor_m15640_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ThreadStateException_t2748_ThreadStateException__ctor_m15641_ParameterInfos[] = 
+static const ParameterInfo ThreadStateException_t2748_ThreadStateException__ctor_m15645_ParameterInfos[] = 
 {
 	{"info", 0, 134223682, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223683, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.ThreadStateException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ThreadStateException__ctor_m15641_MethodInfo = 
+extern const MethodInfo ThreadStateException__ctor_m15645_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ThreadStateException__ctor_m15641/* method */
+	, (methodPointerType)&ThreadStateException__ctor_m15645/* method */
 	, &ThreadStateException_t2748_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ThreadStateException_t2748_ThreadStateException__ctor_m15641_ParameterInfos/* parameters */
+	, ThreadStateException_t2748_ThreadStateException__ctor_m15645_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -24994,8 +24994,8 @@ extern const MethodInfo ThreadStateException__ctor_m15641_MethodInfo =
 };
 static const MethodInfo* ThreadStateException_t2748_MethodInfos[] =
 {
-	&ThreadStateException__ctor_m15640_MethodInfo,
-	&ThreadStateException__ctor_m15641_MethodInfo,
+	&ThreadStateException__ctor_m15644_MethodInfo,
+	&ThreadStateException__ctor_m15645_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ThreadStateException_t2748_VTable[] =
@@ -25003,14 +25003,14 @@ static const Il2CppMethodReference ThreadStateException_t2748_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ThreadStateException_t2748_VTableIsGenericMethod[] =
 {
@@ -25110,10 +25110,10 @@ extern TypeInfo WaitHandle_t1861_il2cpp_TypeInfo;
 #include "mscorlib_System_Threading_WaitHandleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::.ctor()
-extern const MethodInfo WaitHandle__ctor_m15642_MethodInfo = 
+extern const MethodInfo WaitHandle__ctor_m15646_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&WaitHandle__ctor_m15642/* method */
+	, (methodPointerType)&WaitHandle__ctor_m15646/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25133,10 +25133,10 @@ extern const MethodInfo WaitHandle__ctor_m15642_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::.cctor()
-extern const MethodInfo WaitHandle__cctor_m15643_MethodInfo = 
+extern const MethodInfo WaitHandle__cctor_m15647_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&WaitHandle__cctor_m15643/* method */
+	, (methodPointerType)&WaitHandle__cctor_m15647/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25156,10 +25156,10 @@ extern const MethodInfo WaitHandle__cctor_m15643_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::System.IDisposable.Dispose()
-extern const MethodInfo WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo = 
+extern const MethodInfo WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo = 
 {
 	"System.IDisposable.Dispose"/* name */
-	, (methodPointerType)&WaitHandle_System_IDisposable_Dispose_m15644/* method */
+	, (methodPointerType)&WaitHandle_System_IDisposable_Dispose_m15648/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25179,10 +25179,10 @@ extern const MethodInfo WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo 
 };
 extern void* RuntimeInvoker_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.IntPtr System.Threading.WaitHandle::get_Handle()
-extern const MethodInfo WaitHandle_get_Handle_m15645_MethodInfo = 
+extern const MethodInfo WaitHandle_get_Handle_m15649_MethodInfo = 
 {
 	"get_Handle"/* name */
-	, (methodPointerType)&WaitHandle_get_Handle_m15645/* method */
+	, (methodPointerType)&WaitHandle_get_Handle_m15649/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &IntPtr_t_0_0_0/* return_type */
 	, RuntimeInvoker_IntPtr_t/* invoker_method */
@@ -25201,20 +25201,20 @@ extern const MethodInfo WaitHandle_get_Handle_m15645_MethodInfo =
 
 };
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo WaitHandle_t1861_WaitHandle_set_Handle_m15646_ParameterInfos[] = 
+static const ParameterInfo WaitHandle_t1861_WaitHandle_set_Handle_m15650_ParameterInfos[] = 
 {
 	{"value", 0, 134223684, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::set_Handle(System.IntPtr)
-extern const MethodInfo WaitHandle_set_Handle_m15646_MethodInfo = 
+extern const MethodInfo WaitHandle_set_Handle_m15650_MethodInfo = 
 {
 	"set_Handle"/* name */
-	, (methodPointerType)&WaitHandle_set_Handle_m15646/* method */
+	, (methodPointerType)&WaitHandle_set_Handle_m15650/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_IntPtr_t/* invoker_method */
-	, WaitHandle_t1861_WaitHandle_set_Handle_m15646_ParameterInfos/* parameters */
+	, WaitHandle_t1861_WaitHandle_set_Handle_m15650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -25231,7 +25231,7 @@ extern const MethodInfo WaitHandle_set_Handle_m15646_MethodInfo =
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo WaitHandle_t1861_WaitHandle_WaitOne_internal_m15647_ParameterInfos[] = 
+static const ParameterInfo WaitHandle_t1861_WaitHandle_WaitOne_internal_m15651_ParameterInfos[] = 
 {
 	{"handle", 0, 134223685, 0, &IntPtr_t_0_0_0},
 	{"ms", 1, 134223686, 0, &Int32_t50_0_0_0},
@@ -25239,14 +25239,14 @@ static const ParameterInfo WaitHandle_t1861_WaitHandle_WaitOne_internal_m15647_P
 };
 extern void* RuntimeInvoker_Boolean_t29_IntPtr_t_Int32_t50_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.WaitHandle::WaitOne_internal(System.IntPtr,System.Int32,System.Boolean)
-extern const MethodInfo WaitHandle_WaitOne_internal_m15647_MethodInfo = 
+extern const MethodInfo WaitHandle_WaitOne_internal_m15651_MethodInfo = 
 {
 	"WaitOne_internal"/* name */
-	, (methodPointerType)&WaitHandle_WaitOne_internal_m15647/* method */
+	, (methodPointerType)&WaitHandle_WaitOne_internal_m15651/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_IntPtr_t_Int32_t50_SByte_t61/* invoker_method */
-	, WaitHandle_t1861_WaitHandle_WaitOne_internal_m15647_ParameterInfos/* parameters */
+	, WaitHandle_t1861_WaitHandle_WaitOne_internal_m15651_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 4096/* iflags */
@@ -25261,20 +25261,20 @@ extern const MethodInfo WaitHandle_WaitOne_internal_m15647_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo WaitHandle_t1861_WaitHandle_Dispose_m15648_ParameterInfos[] = 
+static const ParameterInfo WaitHandle_t1861_WaitHandle_Dispose_m15652_ParameterInfos[] = 
 {
 	{"explicitDisposing", 0, 134223688, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::Dispose(System.Boolean)
-extern const MethodInfo WaitHandle_Dispose_m15648_MethodInfo = 
+extern const MethodInfo WaitHandle_Dispose_m15652_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&WaitHandle_Dispose_m15648/* method */
+	, (methodPointerType)&WaitHandle_Dispose_m15652/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, WaitHandle_t1861_WaitHandle_Dispose_m15648_ParameterInfos/* parameters */
+	, WaitHandle_t1861_WaitHandle_Dispose_m15652_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -25290,10 +25290,10 @@ extern const MethodInfo WaitHandle_Dispose_m15648_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.WaitHandle::WaitOne()
-extern const MethodInfo WaitHandle_WaitOne_m15649_MethodInfo = 
+extern const MethodInfo WaitHandle_WaitOne_m15653_MethodInfo = 
 {
 	"WaitOne"/* name */
-	, (methodPointerType)&WaitHandle_WaitOne_m15649/* method */
+	, (methodPointerType)&WaitHandle_WaitOne_m15653/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29/* invoker_method */
@@ -25313,21 +25313,21 @@ extern const MethodInfo WaitHandle_WaitOne_m15649_MethodInfo =
 };
 extern const Il2CppType Int32_t50_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo WaitHandle_t1861_WaitHandle_WaitOne_m15650_ParameterInfos[] = 
+static const ParameterInfo WaitHandle_t1861_WaitHandle_WaitOne_m15654_ParameterInfos[] = 
 {
 	{"millisecondsTimeout", 0, 134223689, 0, &Int32_t50_0_0_0},
 	{"exitContext", 1, 134223690, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t29_Int32_t50_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.WaitHandle::WaitOne(System.Int32,System.Boolean)
-extern const MethodInfo WaitHandle_WaitOne_m15650_MethodInfo = 
+extern const MethodInfo WaitHandle_WaitOne_m15654_MethodInfo = 
 {
 	"WaitOne"/* name */
-	, (methodPointerType)&WaitHandle_WaitOne_m15650/* method */
+	, (methodPointerType)&WaitHandle_WaitOne_m15654/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t29_Int32_t50_SByte_t61/* invoker_method */
-	, WaitHandle_t1861_WaitHandle_WaitOne_m15650_ParameterInfos/* parameters */
+	, WaitHandle_t1861_WaitHandle_WaitOne_m15654_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -25343,10 +25343,10 @@ extern const MethodInfo WaitHandle_WaitOne_m15650_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::CheckDisposed()
-extern const MethodInfo WaitHandle_CheckDisposed_m15651_MethodInfo = 
+extern const MethodInfo WaitHandle_CheckDisposed_m15655_MethodInfo = 
 {
 	"CheckDisposed"/* name */
-	, (methodPointerType)&WaitHandle_CheckDisposed_m15651/* method */
+	, (methodPointerType)&WaitHandle_CheckDisposed_m15655/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25366,10 +25366,10 @@ extern const MethodInfo WaitHandle_CheckDisposed_m15651_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.WaitHandle::Finalize()
-extern const MethodInfo WaitHandle_Finalize_m15652_MethodInfo = 
+extern const MethodInfo WaitHandle_Finalize_m15656_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&WaitHandle_Finalize_m15652/* method */
+	, (methodPointerType)&WaitHandle_Finalize_m15656/* method */
 	, &WaitHandle_t1861_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25389,25 +25389,25 @@ extern const MethodInfo WaitHandle_Finalize_m15652_MethodInfo =
 };
 static const MethodInfo* WaitHandle_t1861_MethodInfos[] =
 {
-	&WaitHandle__ctor_m15642_MethodInfo,
-	&WaitHandle__cctor_m15643_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_WaitOne_internal_m15647_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
-	&WaitHandle_CheckDisposed_m15651_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle__ctor_m15646_MethodInfo,
+	&WaitHandle__cctor_m15647_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_WaitOne_internal_m15651_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
+	&WaitHandle_CheckDisposed_m15655_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	NULL
 };
 static const PropertyInfo WaitHandle_t1861____Handle_PropertyInfo = 
 {
 	&WaitHandle_t1861_il2cpp_TypeInfo/* parent */
 	, "Handle"/* name */
-	, &WaitHandle_get_Handle_m15645_MethodInfo/* get */
-	, &WaitHandle_set_Handle_m15646_MethodInfo/* set */
+	, &WaitHandle_get_Handle_m15649_MethodInfo/* get */
+	, &WaitHandle_set_Handle_m15650_MethodInfo/* set */
 	, 0/* attrs */
 	, 776/* custom_attributes_cache */
 
@@ -25420,15 +25420,15 @@ static const PropertyInfo* WaitHandle_t1861_PropertyInfos[] =
 static const Il2CppMethodReference WaitHandle_t1861_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&WaitHandle_Finalize_m15652_MethodInfo,
+	&WaitHandle_Finalize_m15656_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&WaitHandle_System_IDisposable_Dispose_m15644_MethodInfo,
-	&WaitHandle_get_Handle_m15645_MethodInfo,
-	&WaitHandle_set_Handle_m15646_MethodInfo,
-	&WaitHandle_Dispose_m15648_MethodInfo,
-	&WaitHandle_WaitOne_m15649_MethodInfo,
-	&WaitHandle_WaitOne_m15650_MethodInfo,
+	&WaitHandle_System_IDisposable_Dispose_m15648_MethodInfo,
+	&WaitHandle_get_Handle_m15649_MethodInfo,
+	&WaitHandle_set_Handle_m15650_MethodInfo,
+	&WaitHandle_Dispose_m15652_MethodInfo,
+	&WaitHandle_WaitOne_m15653_MethodInfo,
+	&WaitHandle_WaitOne_m15654_MethodInfo,
 };
 static bool WaitHandle_t1861_VTableIsGenericMethod[] =
 {
@@ -25530,10 +25530,10 @@ extern TypeInfo AccessViolationException_t2749_il2cpp_TypeInfo;
 #include "mscorlib_System_AccessViolationExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AccessViolationException::.ctor()
-extern const MethodInfo AccessViolationException__ctor_m15653_MethodInfo = 
+extern const MethodInfo AccessViolationException__ctor_m15657_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AccessViolationException__ctor_m15653/* method */
+	, (methodPointerType)&AccessViolationException__ctor_m15657/* method */
 	, &AccessViolationException_t2749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25553,21 +25553,21 @@ extern const MethodInfo AccessViolationException__ctor_m15653_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo AccessViolationException_t2749_AccessViolationException__ctor_m15654_ParameterInfos[] = 
+static const ParameterInfo AccessViolationException_t2749_AccessViolationException__ctor_m15658_ParameterInfos[] = 
 {
 	{"info", 0, 134223691, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223692, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AccessViolationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo AccessViolationException__ctor_m15654_MethodInfo = 
+extern const MethodInfo AccessViolationException__ctor_m15658_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AccessViolationException__ctor_m15654/* method */
+	, (methodPointerType)&AccessViolationException__ctor_m15658/* method */
 	, &AccessViolationException_t2749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, AccessViolationException_t2749_AccessViolationException__ctor_m15654_ParameterInfos/* parameters */
+	, AccessViolationException_t2749_AccessViolationException__ctor_m15658_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -25583,8 +25583,8 @@ extern const MethodInfo AccessViolationException__ctor_m15654_MethodInfo =
 };
 static const MethodInfo* AccessViolationException_t2749_MethodInfos[] =
 {
-	&AccessViolationException__ctor_m15653_MethodInfo,
-	&AccessViolationException__ctor_m15654_MethodInfo,
+	&AccessViolationException__ctor_m15657_MethodInfo,
+	&AccessViolationException__ctor_m15658_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference AccessViolationException_t2749_VTable[] =
@@ -25592,14 +25592,14 @@ static const Il2CppMethodReference AccessViolationException_t2749_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool AccessViolationException_t2749_VTableIsGenericMethod[] =
 {
@@ -25699,21 +25699,21 @@ extern TypeInfo ActivationContext_t2750_il2cpp_TypeInfo;
 #include "mscorlib_System_ActivationContextMethodDeclarations.h"
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ActivationContext_t2750_ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_ParameterInfos[] = 
+static const ParameterInfo ActivationContext_t2750_ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_ParameterInfos[] = 
 {
 	{"info", 0, 134223693, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223694, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ActivationContext::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_MethodInfo = 
+extern const MethodInfo ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655/* method */
+	, (methodPointerType)&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659/* method */
 	, &ActivationContext_t2750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ActivationContext_t2750_ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_ParameterInfos/* parameters */
+	, ActivationContext_t2750_ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_ParameterInfos/* parameters */
 	, 779/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -25729,10 +25729,10 @@ extern const MethodInfo ActivationContext_System_Runtime_Serialization_ISerializ
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ActivationContext::Finalize()
-extern const MethodInfo ActivationContext_Finalize_m15656_MethodInfo = 
+extern const MethodInfo ActivationContext_Finalize_m15660_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&ActivationContext_Finalize_m15656/* method */
+	, (methodPointerType)&ActivationContext_Finalize_m15660/* method */
 	, &ActivationContext_t2750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25752,10 +25752,10 @@ extern const MethodInfo ActivationContext_Finalize_m15656_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ActivationContext::Dispose()
-extern const MethodInfo ActivationContext_Dispose_m15657_MethodInfo = 
+extern const MethodInfo ActivationContext_Dispose_m15661_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&ActivationContext_Dispose_m15657/* method */
+	, (methodPointerType)&ActivationContext_Dispose_m15661/* method */
 	, &ActivationContext_t2750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -25774,20 +25774,20 @@ extern const MethodInfo ActivationContext_Dispose_m15657_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo ActivationContext_t2750_ActivationContext_Dispose_m15658_ParameterInfos[] = 
+static const ParameterInfo ActivationContext_t2750_ActivationContext_Dispose_m15662_ParameterInfos[] = 
 {
 	{"disposing", 0, 134223695, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ActivationContext::Dispose(System.Boolean)
-extern const MethodInfo ActivationContext_Dispose_m15658_MethodInfo = 
+extern const MethodInfo ActivationContext_Dispose_m15662_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&ActivationContext_Dispose_m15658/* method */
+	, (methodPointerType)&ActivationContext_Dispose_m15662/* method */
 	, &ActivationContext_t2750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_SByte_t61/* invoker_method */
-	, ActivationContext_t2750_ActivationContext_Dispose_m15658_ParameterInfos/* parameters */
+	, ActivationContext_t2750_ActivationContext_Dispose_m15662_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -25803,23 +25803,23 @@ extern const MethodInfo ActivationContext_Dispose_m15658_MethodInfo =
 };
 static const MethodInfo* ActivationContext_t2750_MethodInfos[] =
 {
-	&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_MethodInfo,
-	&ActivationContext_Finalize_m15656_MethodInfo,
-	&ActivationContext_Dispose_m15657_MethodInfo,
-	&ActivationContext_Dispose_m15658_MethodInfo,
+	&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_MethodInfo,
+	&ActivationContext_Finalize_m15660_MethodInfo,
+	&ActivationContext_Dispose_m15661_MethodInfo,
+	&ActivationContext_Dispose_m15662_MethodInfo,
 	NULL
 };
-extern const MethodInfo ActivationContext_Finalize_m15656_MethodInfo;
-extern const MethodInfo ActivationContext_Dispose_m15657_MethodInfo;
-extern const MethodInfo ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_MethodInfo;
+extern const MethodInfo ActivationContext_Finalize_m15660_MethodInfo;
+extern const MethodInfo ActivationContext_Dispose_m15661_MethodInfo;
+extern const MethodInfo ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_MethodInfo;
 static const Il2CppMethodReference ActivationContext_t2750_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
-	&ActivationContext_Finalize_m15656_MethodInfo,
+	&ActivationContext_Finalize_m15660_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
 	&Object_ToString_m253_MethodInfo,
-	&ActivationContext_Dispose_m15657_MethodInfo,
-	&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15655_MethodInfo,
+	&ActivationContext_Dispose_m15661_MethodInfo,
+	&ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m15659_MethodInfo,
 };
 static bool ActivationContext_t2750_VTableIsGenericMethod[] =
 {
@@ -25917,29 +25917,29 @@ TypeInfo ActivationContext_t2750_il2cpp_TypeInfo =
 extern TypeInfo Activator_t2751_il2cpp_TypeInfo;
 // System.Activator
 #include "mscorlib_System_ActivatorMethodDeclarations.h"
-extern const Il2CppType Activator_CreateInstance_m17116_gp_0_0_0_0;
-extern const Il2CppGenericContainer Activator_CreateInstance_m17116_Il2CppGenericContainer;
-extern TypeInfo Activator_CreateInstance_m17116_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Activator_CreateInstance_m17116_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Activator_CreateInstance_m17116_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* Activator_CreateInstance_m17116_Il2CppGenericParametersArray[1] = 
+extern const Il2CppType Activator_CreateInstance_m17120_gp_0_0_0_0;
+extern const Il2CppGenericContainer Activator_CreateInstance_m17120_Il2CppGenericContainer;
+extern TypeInfo Activator_CreateInstance_m17120_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Activator_CreateInstance_m17120_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Activator_CreateInstance_m17120_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Activator_CreateInstance_m17120_Il2CppGenericParametersArray[1] = 
 {
-	&Activator_CreateInstance_m17116_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&Activator_CreateInstance_m17120_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo Activator_CreateInstance_m17116_MethodInfo;
-extern const Il2CppGenericContainer Activator_CreateInstance_m17116_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Activator_CreateInstance_m17116_MethodInfo, 1, 1, Activator_CreateInstance_m17116_Il2CppGenericParametersArray };
-static Il2CppRGCTXDefinition Activator_CreateInstance_m17116_RGCTXData[3] = 
+extern const MethodInfo Activator_CreateInstance_m17120_MethodInfo;
+extern const Il2CppGenericContainer Activator_CreateInstance_m17120_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Activator_CreateInstance_m17120_MethodInfo, 1, 1, Activator_CreateInstance_m17120_Il2CppGenericParametersArray };
+static Il2CppRGCTXDefinition Activator_CreateInstance_m17120_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&Activator_CreateInstance_m17116_gp_0_0_0_0 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Activator_CreateInstance_m17116_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&Activator_CreateInstance_m17120_gp_0_0_0_0 }/* Type */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Activator_CreateInstance_m17120_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // T System.Activator::CreateInstance()
-extern const MethodInfo Activator_CreateInstance_m17116_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m17120_MethodInfo = 
 {
 	"CreateInstance"/* name */
 	, NULL/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
-	, &Activator_CreateInstance_m17116_gp_0_0_0_0/* return_type */
+	, &Activator_CreateInstance_m17120_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25950,26 +25950,26 @@ extern const MethodInfo Activator_CreateInstance_m17116_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 4927/* token */
-	, Activator_CreateInstance_m17116_RGCTXData/* rgctx_data */
+	, Activator_CreateInstance_m17120_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Activator_CreateInstance_m17116_Il2CppGenericContainer/* genericContainer */
+	, &Activator_CreateInstance_m17120_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstance_m7144_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstance_m7148_ParameterInfos[] = 
 {
 	{"type", 0, 134223696, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstance(System.Type)
-extern const MethodInfo Activator_CreateInstance_m7144_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m7148_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&Activator_CreateInstance_m7144/* method */
+	, (methodPointerType)&Activator_CreateInstance_m7148/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CreateInstance_m7144_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstance_m7148_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -25985,21 +25985,21 @@ extern const MethodInfo Activator_CreateInstance_m7144_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstance_m11596_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstance_m11600_ParameterInfos[] = 
 {
 	{"type", 0, 134223697, 0, &Type_t_0_0_0},
 	{"args", 1, 134223698, 781, &ObjectU5BU5D_t582_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstance(System.Type,System.Object[])
-extern const MethodInfo Activator_CreateInstance_m11596_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m11600_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&Activator_CreateInstance_m11596/* method */
+	, (methodPointerType)&Activator_CreateInstance_m11600/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CreateInstance_m11596_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstance_m11600_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26016,7 +26016,7 @@ extern const MethodInfo Activator_CreateInstance_m11596_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15659_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15663_ParameterInfos[] = 
 {
 	{"type", 0, 134223699, 0, &Type_t_0_0_0},
 	{"args", 1, 134223700, 0, &ObjectU5BU5D_t582_0_0_0},
@@ -26024,14 +26024,14 @@ static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15659_Param
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstance(System.Type,System.Object[],System.Object[])
-extern const MethodInfo Activator_CreateInstance_m15659_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m15663_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&Activator_CreateInstance_m15659/* method */
+	, (methodPointerType)&Activator_CreateInstance_m15663/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CreateInstance_m15659_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstance_m15663_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26053,7 +26053,7 @@ extern const Il2CppType Binder_t1340_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
 extern const Il2CppType CultureInfo_t667_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t582_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15660_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15664_ParameterInfos[] = 
 {
 	{"type", 0, 134223702, 0, &Type_t_0_0_0},
 	{"bindingAttr", 1, 134223703, 0, &BindingFlags_t2502_0_0_0},
@@ -26064,14 +26064,14 @@ static const ParameterInfo Activator_t2751_Activator_CreateInstance_m15660_Param
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t50_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstance(System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
-extern const MethodInfo Activator_CreateInstance_m15660_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m15664_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&Activator_CreateInstance_m15660/* method */
+	, (methodPointerType)&Activator_CreateInstance_m15664/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t50_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CreateInstance_m15660_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstance_m15664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26087,21 +26087,21 @@ extern const MethodInfo Activator_CreateInstance_m15660_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstance_m11608_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstance_m11612_ParameterInfos[] = 
 {
 	{"type", 0, 134223708, 0, &Type_t_0_0_0},
 	{"nonPublic", 1, 134223709, 0, &Boolean_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstance(System.Type,System.Boolean)
-extern const MethodInfo Activator_CreateInstance_m11608_MethodInfo = 
+extern const MethodInfo Activator_CreateInstance_m11612_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&Activator_CreateInstance_m11608/* method */
+	, (methodPointerType)&Activator_CreateInstance_m11612/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t61/* invoker_method */
-	, Activator_t2751_Activator_CreateInstance_m11608_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstance_m11612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26116,20 +26116,20 @@ extern const MethodInfo Activator_CreateInstance_m11608_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CheckType_m15661_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CheckType_m15665_ParameterInfos[] = 
 {
 	{"type", 0, 134223710, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Activator::CheckType(System.Type)
-extern const MethodInfo Activator_CheckType_m15661_MethodInfo = 
+extern const MethodInfo Activator_CheckType_m15665_MethodInfo = 
 {
 	"CheckType"/* name */
-	, (methodPointerType)&Activator_CheckType_m15661/* method */
+	, (methodPointerType)&Activator_CheckType_m15665/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CheckType_m15661_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CheckType_m15665_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -26144,20 +26144,20 @@ extern const MethodInfo Activator_CheckType_m15661_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CheckAbstractType_m15662_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CheckAbstractType_m15666_ParameterInfos[] = 
 {
 	{"type", 0, 134223711, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Activator::CheckAbstractType(System.Type)
-extern const MethodInfo Activator_CheckAbstractType_m15662_MethodInfo = 
+extern const MethodInfo Activator_CheckAbstractType_m15666_MethodInfo = 
 {
 	"CheckAbstractType"/* name */
-	, (methodPointerType)&Activator_CheckAbstractType_m15662/* method */
+	, (methodPointerType)&Activator_CheckAbstractType_m15666/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CheckAbstractType_m15662_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CheckAbstractType_m15666_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -26172,20 +26172,20 @@ extern const MethodInfo Activator_CheckAbstractType_m15662_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Activator_t2751_Activator_CreateInstanceInternal_m15663_ParameterInfos[] = 
+static const ParameterInfo Activator_t2751_Activator_CreateInstanceInternal_m15667_ParameterInfos[] = 
 {
 	{"type", 0, 134223712, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Activator::CreateInstanceInternal(System.Type)
-extern const MethodInfo Activator_CreateInstanceInternal_m15663_MethodInfo = 
+extern const MethodInfo Activator_CreateInstanceInternal_m15667_MethodInfo = 
 {
 	"CreateInstanceInternal"/* name */
-	, (methodPointerType)&Activator_CreateInstanceInternal_m15663/* method */
+	, (methodPointerType)&Activator_CreateInstanceInternal_m15667/* method */
 	, &Activator_t2751_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Activator_t2751_Activator_CreateInstanceInternal_m15663_ParameterInfos/* parameters */
+	, Activator_t2751_Activator_CreateInstanceInternal_m15667_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -26201,15 +26201,15 @@ extern const MethodInfo Activator_CreateInstanceInternal_m15663_MethodInfo =
 };
 static const MethodInfo* Activator_t2751_MethodInfos[] =
 {
-	&Activator_CreateInstance_m17116_MethodInfo,
-	&Activator_CreateInstance_m7144_MethodInfo,
-	&Activator_CreateInstance_m11596_MethodInfo,
-	&Activator_CreateInstance_m15659_MethodInfo,
-	&Activator_CreateInstance_m15660_MethodInfo,
-	&Activator_CreateInstance_m11608_MethodInfo,
-	&Activator_CheckType_m15661_MethodInfo,
-	&Activator_CheckAbstractType_m15662_MethodInfo,
-	&Activator_CreateInstanceInternal_m15663_MethodInfo,
+	&Activator_CreateInstance_m17120_MethodInfo,
+	&Activator_CreateInstance_m7148_MethodInfo,
+	&Activator_CreateInstance_m11600_MethodInfo,
+	&Activator_CreateInstance_m15663_MethodInfo,
+	&Activator_CreateInstance_m15664_MethodInfo,
+	&Activator_CreateInstance_m11612_MethodInfo,
+	&Activator_CheckType_m15665_MethodInfo,
+	&Activator_CheckAbstractType_m15666_MethodInfo,
+	&Activator_CreateInstanceInternal_m15667_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Activator_t2751_VTable[] =
@@ -26314,10 +26314,10 @@ extern TypeInfo AppDomain_t2709_il2cpp_TypeInfo;
 #include "mscorlib_System_AppDomainMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.AppDomain::getFriendlyName()
-extern const MethodInfo AppDomain_getFriendlyName_m15664_MethodInfo = 
+extern const MethodInfo AppDomain_getFriendlyName_m15668_MethodInfo = 
 {
 	"getFriendlyName"/* name */
-	, (methodPointerType)&AppDomain_getFriendlyName_m15664/* method */
+	, (methodPointerType)&AppDomain_getFriendlyName_m15668/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26337,10 +26337,10 @@ extern const MethodInfo AppDomain_getFriendlyName_m15664_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AppDomain System.AppDomain::getCurDomain()
-extern const MethodInfo AppDomain_getCurDomain_m15665_MethodInfo = 
+extern const MethodInfo AppDomain_getCurDomain_m15669_MethodInfo = 
 {
 	"getCurDomain"/* name */
-	, (methodPointerType)&AppDomain_getCurDomain_m15665/* method */
+	, (methodPointerType)&AppDomain_getCurDomain_m15669/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &AppDomain_t2709_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26360,10 +26360,10 @@ extern const MethodInfo AppDomain_getCurDomain_m15665_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AppDomain System.AppDomain::get_CurrentDomain()
-extern const MethodInfo AppDomain_get_CurrentDomain_m15666_MethodInfo = 
+extern const MethodInfo AppDomain_get_CurrentDomain_m15670_MethodInfo = 
 {
 	"get_CurrentDomain"/* name */
-	, (methodPointerType)&AppDomain_get_CurrentDomain_m15666/* method */
+	, (methodPointerType)&AppDomain_get_CurrentDomain_m15670/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &AppDomain_t2709_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26384,7 +26384,7 @@ extern const MethodInfo AppDomain_get_CurrentDomain_m15666_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Evidence_t2496_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo AppDomain_t2709_AppDomain_LoadAssembly_m15667_ParameterInfos[] = 
+static const ParameterInfo AppDomain_t2709_AppDomain_LoadAssembly_m15671_ParameterInfos[] = 
 {
 	{"assemblyRef", 0, 134223713, 0, &String_t_0_0_0},
 	{"securityEvidence", 1, 134223714, 0, &Evidence_t2496_0_0_0},
@@ -26392,14 +26392,14 @@ static const ParameterInfo AppDomain_t2709_AppDomain_LoadAssembly_m15667_Paramet
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.AppDomain::LoadAssembly(System.String,System.Security.Policy.Evidence,System.Boolean)
-extern const MethodInfo AppDomain_LoadAssembly_m15667_MethodInfo = 
+extern const MethodInfo AppDomain_LoadAssembly_m15671_MethodInfo = 
 {
 	"LoadAssembly"/* name */
-	, (methodPointerType)&AppDomain_LoadAssembly_m15667/* method */
+	, (methodPointerType)&AppDomain_LoadAssembly_m15671/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61/* invoker_method */
-	, AppDomain_t2709_AppDomain_LoadAssembly_m15667_ParameterInfos/* parameters */
+	, AppDomain_t2709_AppDomain_LoadAssembly_m15671_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 4096/* iflags */
@@ -26414,20 +26414,20 @@ extern const MethodInfo AppDomain_LoadAssembly_m15667_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AppDomain_t2709_AppDomain_Load_m15668_ParameterInfos[] = 
+static const ParameterInfo AppDomain_t2709_AppDomain_Load_m15672_ParameterInfos[] = 
 {
 	{"assemblyString", 0, 134223716, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.AppDomain::Load(System.String)
-extern const MethodInfo AppDomain_Load_m15668_MethodInfo = 
+extern const MethodInfo AppDomain_Load_m15672_MethodInfo = 
 {
 	"Load"/* name */
-	, (methodPointerType)&AppDomain_Load_m15668/* method */
+	, (methodPointerType)&AppDomain_Load_m15672/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, AppDomain_t2709_AppDomain_Load_m15668_ParameterInfos/* parameters */
+	, AppDomain_t2709_AppDomain_Load_m15672_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -26444,7 +26444,7 @@ extern const MethodInfo AppDomain_Load_m15668_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Evidence_t2496_0_0_0;
 extern const Il2CppType Boolean_t29_0_0_0;
-static const ParameterInfo AppDomain_t2709_AppDomain_Load_m15669_ParameterInfos[] = 
+static const ParameterInfo AppDomain_t2709_AppDomain_Load_m15673_ParameterInfos[] = 
 {
 	{"assemblyString", 0, 134223717, 0, &String_t_0_0_0},
 	{"assemblySecurity", 1, 134223718, 0, &Evidence_t2496_0_0_0},
@@ -26452,14 +26452,14 @@ static const ParameterInfo AppDomain_t2709_AppDomain_Load_m15669_ParameterInfos[
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61 (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.AppDomain::Load(System.String,System.Security.Policy.Evidence,System.Boolean)
-extern const MethodInfo AppDomain_Load_m15669_MethodInfo = 
+extern const MethodInfo AppDomain_Load_m15673_MethodInfo = 
 {
 	"Load"/* name */
-	, (methodPointerType)&AppDomain_Load_m15669/* method */
+	, (methodPointerType)&AppDomain_Load_m15673/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &Assembly_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t61/* invoker_method */
-	, AppDomain_t2709_AppDomain_Load_m15669_ParameterInfos/* parameters */
+	, AppDomain_t2709_AppDomain_Load_m15673_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -26475,10 +26475,10 @@ extern const MethodInfo AppDomain_Load_m15669_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.Context System.AppDomain::InternalGetContext()
-extern const MethodInfo AppDomain_InternalGetContext_m15670_MethodInfo = 
+extern const MethodInfo AppDomain_InternalGetContext_m15674_MethodInfo = 
 {
 	"InternalGetContext"/* name */
-	, (methodPointerType)&AppDomain_InternalGetContext_m15670/* method */
+	, (methodPointerType)&AppDomain_InternalGetContext_m15674/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &Context_t2568_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26498,10 +26498,10 @@ extern const MethodInfo AppDomain_InternalGetContext_m15670_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.Context System.AppDomain::InternalGetDefaultContext()
-extern const MethodInfo AppDomain_InternalGetDefaultContext_m15671_MethodInfo = 
+extern const MethodInfo AppDomain_InternalGetDefaultContext_m15675_MethodInfo = 
 {
 	"InternalGetDefaultContext"/* name */
-	, (methodPointerType)&AppDomain_InternalGetDefaultContext_m15671/* method */
+	, (methodPointerType)&AppDomain_InternalGetDefaultContext_m15675/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &Context_t2568_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26520,20 +26520,20 @@ extern const MethodInfo AppDomain_InternalGetDefaultContext_m15671_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AppDomain_t2709_AppDomain_InternalGetProcessGuid_m15672_ParameterInfos[] = 
+static const ParameterInfo AppDomain_t2709_AppDomain_InternalGetProcessGuid_m15676_ParameterInfos[] = 
 {
 	{"newguid", 0, 134223720, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.AppDomain::InternalGetProcessGuid(System.String)
-extern const MethodInfo AppDomain_InternalGetProcessGuid_m15672_MethodInfo = 
+extern const MethodInfo AppDomain_InternalGetProcessGuid_m15676_MethodInfo = 
 {
 	"InternalGetProcessGuid"/* name */
-	, (methodPointerType)&AppDomain_InternalGetProcessGuid_m15672/* method */
+	, (methodPointerType)&AppDomain_InternalGetProcessGuid_m15676/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, AppDomain_t2709_AppDomain_InternalGetProcessGuid_m15672_ParameterInfos/* parameters */
+	, AppDomain_t2709_AppDomain_InternalGetProcessGuid_m15676_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -26549,10 +26549,10 @@ extern const MethodInfo AppDomain_InternalGetProcessGuid_m15672_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.AppDomain::GetProcessGuid()
-extern const MethodInfo AppDomain_GetProcessGuid_m15673_MethodInfo = 
+extern const MethodInfo AppDomain_GetProcessGuid_m15677_MethodInfo = 
 {
 	"GetProcessGuid"/* name */
-	, (methodPointerType)&AppDomain_GetProcessGuid_m15673/* method */
+	, (methodPointerType)&AppDomain_GetProcessGuid_m15677/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26572,10 +26572,10 @@ extern const MethodInfo AppDomain_GetProcessGuid_m15673_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.AppDomain::ToString()
-extern const MethodInfo AppDomain_ToString_m15674_MethodInfo = 
+extern const MethodInfo AppDomain_ToString_m15678_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&AppDomain_ToString_m15674/* method */
+	, (methodPointerType)&AppDomain_ToString_m15678/* method */
 	, &AppDomain_t2709_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -26595,25 +26595,25 @@ extern const MethodInfo AppDomain_ToString_m15674_MethodInfo =
 };
 static const MethodInfo* AppDomain_t2709_MethodInfos[] =
 {
-	&AppDomain_getFriendlyName_m15664_MethodInfo,
-	&AppDomain_getCurDomain_m15665_MethodInfo,
-	&AppDomain_get_CurrentDomain_m15666_MethodInfo,
-	&AppDomain_LoadAssembly_m15667_MethodInfo,
-	&AppDomain_Load_m15668_MethodInfo,
-	&AppDomain_Load_m15669_MethodInfo,
-	&AppDomain_InternalGetContext_m15670_MethodInfo,
-	&AppDomain_InternalGetDefaultContext_m15671_MethodInfo,
-	&AppDomain_InternalGetProcessGuid_m15672_MethodInfo,
-	&AppDomain_GetProcessGuid_m15673_MethodInfo,
-	&AppDomain_ToString_m15674_MethodInfo,
+	&AppDomain_getFriendlyName_m15668_MethodInfo,
+	&AppDomain_getCurDomain_m15669_MethodInfo,
+	&AppDomain_get_CurrentDomain_m15670_MethodInfo,
+	&AppDomain_LoadAssembly_m15671_MethodInfo,
+	&AppDomain_Load_m15672_MethodInfo,
+	&AppDomain_Load_m15673_MethodInfo,
+	&AppDomain_InternalGetContext_m15674_MethodInfo,
+	&AppDomain_InternalGetDefaultContext_m15675_MethodInfo,
+	&AppDomain_InternalGetProcessGuid_m15676_MethodInfo,
+	&AppDomain_GetProcessGuid_m15677_MethodInfo,
+	&AppDomain_ToString_m15678_MethodInfo,
 	NULL
 };
-extern const MethodInfo AppDomain_get_CurrentDomain_m15666_MethodInfo;
+extern const MethodInfo AppDomain_get_CurrentDomain_m15670_MethodInfo;
 static const PropertyInfo AppDomain_t2709____CurrentDomain_PropertyInfo = 
 {
 	&AppDomain_t2709_il2cpp_TypeInfo/* parent */
 	, "CurrentDomain"/* name */
-	, &AppDomain_get_CurrentDomain_m15666_MethodInfo/* get */
+	, &AppDomain_get_CurrentDomain_m15670_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -26624,13 +26624,13 @@ static const PropertyInfo* AppDomain_t2709_PropertyInfos[] =
 	&AppDomain_t2709____CurrentDomain_PropertyInfo,
 	NULL
 };
-extern const MethodInfo AppDomain_ToString_m15674_MethodInfo;
+extern const MethodInfo AppDomain_ToString_m15678_MethodInfo;
 static const Il2CppMethodReference AppDomain_t2709_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&AppDomain_ToString_m15674_MethodInfo,
+	&AppDomain_ToString_m15678_MethodInfo,
 };
 static bool AppDomain_t2709_VTableIsGenericMethod[] =
 {
@@ -26812,10 +26812,10 @@ extern TypeInfo AppDomainSetup_t2758_il2cpp_TypeInfo;
 #include "mscorlib_System_AppDomainSetupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AppDomainSetup::.ctor()
-extern const MethodInfo AppDomainSetup__ctor_m15675_MethodInfo = 
+extern const MethodInfo AppDomainSetup__ctor_m15679_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AppDomainSetup__ctor_m15675/* method */
+	, (methodPointerType)&AppDomainSetup__ctor_m15679/* method */
 	, &AppDomainSetup_t2758_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -26835,7 +26835,7 @@ extern const MethodInfo AppDomainSetup__ctor_m15675_MethodInfo =
 };
 static const MethodInfo* AppDomainSetup_t2758_MethodInfos[] =
 {
-	&AppDomainSetup__ctor_m15675_MethodInfo,
+	&AppDomainSetup__ctor_m15679_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference AppDomainSetup_t2758_VTable[] =
@@ -26931,10 +26931,10 @@ extern TypeInfo ApplicationException_t2759_il2cpp_TypeInfo;
 #include "mscorlib_System_ApplicationExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ApplicationException::.ctor()
-extern const MethodInfo ApplicationException__ctor_m15676_MethodInfo = 
+extern const MethodInfo ApplicationException__ctor_m15680_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ApplicationException__ctor_m15676/* method */
+	, (methodPointerType)&ApplicationException__ctor_m15680/* method */
 	, &ApplicationException_t2759_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -26953,20 +26953,20 @@ extern const MethodInfo ApplicationException__ctor_m15676_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ApplicationException_t2759_ApplicationException__ctor_m15677_ParameterInfos[] = 
+static const ParameterInfo ApplicationException_t2759_ApplicationException__ctor_m15681_ParameterInfos[] = 
 {
 	{"message", 0, 134223721, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ApplicationException::.ctor(System.String)
-extern const MethodInfo ApplicationException__ctor_m15677_MethodInfo = 
+extern const MethodInfo ApplicationException__ctor_m15681_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ApplicationException__ctor_m15677/* method */
+	, (methodPointerType)&ApplicationException__ctor_m15681/* method */
 	, &ApplicationException_t2759_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ApplicationException_t2759_ApplicationException__ctor_m15677_ParameterInfos/* parameters */
+	, ApplicationException_t2759_ApplicationException__ctor_m15681_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -26982,21 +26982,21 @@ extern const MethodInfo ApplicationException__ctor_m15677_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ApplicationException_t2759_ApplicationException__ctor_m15678_ParameterInfos[] = 
+static const ParameterInfo ApplicationException_t2759_ApplicationException__ctor_m15682_ParameterInfos[] = 
 {
 	{"info", 0, 134223722, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223723, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ApplicationException__ctor_m15678_MethodInfo = 
+extern const MethodInfo ApplicationException__ctor_m15682_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ApplicationException__ctor_m15678/* method */
+	, (methodPointerType)&ApplicationException__ctor_m15682/* method */
 	, &ApplicationException_t2759_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ApplicationException_t2759_ApplicationException__ctor_m15678_ParameterInfos/* parameters */
+	, ApplicationException_t2759_ApplicationException__ctor_m15682_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -27012,9 +27012,9 @@ extern const MethodInfo ApplicationException__ctor_m15678_MethodInfo =
 };
 static const MethodInfo* ApplicationException_t2759_MethodInfos[] =
 {
-	&ApplicationException__ctor_m15676_MethodInfo,
-	&ApplicationException__ctor_m15677_MethodInfo,
-	&ApplicationException__ctor_m15678_MethodInfo,
+	&ApplicationException__ctor_m15680_MethodInfo,
+	&ApplicationException__ctor_m15681_MethodInfo,
+	&ApplicationException__ctor_m15682_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ApplicationException_t2759_VTable[] =
@@ -27022,14 +27022,14 @@ static const Il2CppMethodReference ApplicationException_t2759_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ApplicationException_t2759_VTableIsGenericMethod[] =
 {
@@ -27130,21 +27130,21 @@ extern TypeInfo ApplicationIdentity_t2753_il2cpp_TypeInfo;
 #include "mscorlib_System_ApplicationIdentityMethodDeclarations.h"
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ApplicationIdentity_t2753_ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_ParameterInfos[] = 
+static const ParameterInfo ApplicationIdentity_t2753_ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_ParameterInfos[] = 
 {
 	{"info", 0, 134223724, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223725, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ApplicationIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_MethodInfo = 
+extern const MethodInfo ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679/* method */
+	, (methodPointerType)&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683/* method */
 	, &ApplicationIdentity_t2753_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ApplicationIdentity_t2753_ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_ParameterInfos/* parameters */
+	, ApplicationIdentity_t2753_ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_ParameterInfos/* parameters */
 	, 791/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -27160,10 +27160,10 @@ extern const MethodInfo ApplicationIdentity_System_Runtime_Serialization_ISerial
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.ApplicationIdentity::ToString()
-extern const MethodInfo ApplicationIdentity_ToString_m15680_MethodInfo = 
+extern const MethodInfo ApplicationIdentity_ToString_m15684_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&ApplicationIdentity_ToString_m15680/* method */
+	, (methodPointerType)&ApplicationIdentity_ToString_m15684/* method */
 	, &ApplicationIdentity_t2753_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -27183,19 +27183,19 @@ extern const MethodInfo ApplicationIdentity_ToString_m15680_MethodInfo =
 };
 static const MethodInfo* ApplicationIdentity_t2753_MethodInfos[] =
 {
-	&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_MethodInfo,
-	&ApplicationIdentity_ToString_m15680_MethodInfo,
+	&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_MethodInfo,
+	&ApplicationIdentity_ToString_m15684_MethodInfo,
 	NULL
 };
-extern const MethodInfo ApplicationIdentity_ToString_m15680_MethodInfo;
-extern const MethodInfo ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_MethodInfo;
+extern const MethodInfo ApplicationIdentity_ToString_m15684_MethodInfo;
+extern const MethodInfo ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_MethodInfo;
 static const Il2CppMethodReference ApplicationIdentity_t2753_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&ApplicationIdentity_ToString_m15680_MethodInfo,
-	&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15679_MethodInfo,
+	&ApplicationIdentity_ToString_m15684_MethodInfo,
+	&ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m15683_MethodInfo,
 };
 static bool ApplicationIdentity_t2753_VTableIsGenericMethod[] =
 {
@@ -27292,10 +27292,10 @@ extern TypeInfo ArgumentException_t609_il2cpp_TypeInfo;
 #include "mscorlib_System_ArgumentExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor()
-extern const MethodInfo ArgumentException__ctor_m8550_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m8554_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m8550/* method */
+	, (methodPointerType)&ArgumentException__ctor_m8554/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -27314,20 +27314,20 @@ extern const MethodInfo ArgumentException__ctor_m8550_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m3478_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m3482_ParameterInfos[] = 
 {
 	{"message", 0, 134223726, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor(System.String)
-extern const MethodInfo ArgumentException__ctor_m3478_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m3482_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m3478/* method */
+	, (methodPointerType)&ArgumentException__ctor_m3482/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ArgumentException_t609_ArgumentException__ctor_m3478_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException__ctor_m3482_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27343,21 +27343,21 @@ extern const MethodInfo ArgumentException__ctor_m3478_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Exception_t27_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m11627_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m11631_ParameterInfos[] = 
 {
 	{"message", 0, 134223727, 0, &String_t_0_0_0},
 	{"innerException", 1, 134223728, 0, &Exception_t27_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor(System.String,System.Exception)
-extern const MethodInfo ArgumentException__ctor_m11627_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m11631_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m11627/* method */
+	, (methodPointerType)&ArgumentException__ctor_m11631/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, ArgumentException_t609_ArgumentException__ctor_m11627_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException__ctor_m11631_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27373,21 +27373,21 @@ extern const MethodInfo ArgumentException__ctor_m11627_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m3120_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m3124_ParameterInfos[] = 
 {
 	{"message", 0, 134223729, 0, &String_t_0_0_0},
 	{"paramName", 1, 134223730, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
-extern const MethodInfo ArgumentException__ctor_m3120_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m3124_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m3120/* method */
+	, (methodPointerType)&ArgumentException__ctor_m3124/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, ArgumentException_t609_ArgumentException__ctor_m3120_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException__ctor_m3124_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27404,7 +27404,7 @@ extern const MethodInfo ArgumentException__ctor_m3120_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Exception_t27_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m15681_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m15685_ParameterInfos[] = 
 {
 	{"message", 0, 134223731, 0, &String_t_0_0_0},
 	{"paramName", 1, 134223732, 0, &String_t_0_0_0},
@@ -27412,14 +27412,14 @@ static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m15681
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor(System.String,System.String,System.Exception)
-extern const MethodInfo ArgumentException__ctor_m15681_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m15685_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m15681/* method */
+	, (methodPointerType)&ArgumentException__ctor_m15685/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t_Object_t/* invoker_method */
-	, ArgumentException_t609_ArgumentException__ctor_m15681_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException__ctor_m15685_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27435,21 +27435,21 @@ extern const MethodInfo ArgumentException__ctor_m15681_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m15682_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException__ctor_m15686_ParameterInfos[] = 
 {
 	{"info", 0, 134223734, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223735, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArgumentException__ctor_m15682_MethodInfo = 
+extern const MethodInfo ArgumentException__ctor_m15686_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentException__ctor_m15682/* method */
+	, (methodPointerType)&ArgumentException__ctor_m15686/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArgumentException_t609_ArgumentException__ctor_m15682_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException__ctor_m15686_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -27465,10 +27465,10 @@ extern const MethodInfo ArgumentException__ctor_m15682_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.ArgumentException::get_ParamName()
-extern const MethodInfo ArgumentException_get_ParamName_m15683_MethodInfo = 
+extern const MethodInfo ArgumentException_get_ParamName_m15687_MethodInfo = 
 {
 	"get_ParamName"/* name */
-	, (methodPointerType)&ArgumentException_get_ParamName_m15683/* method */
+	, (methodPointerType)&ArgumentException_get_ParamName_m15687/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -27488,10 +27488,10 @@ extern const MethodInfo ArgumentException_get_ParamName_m15683_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.ArgumentException::get_Message()
-extern const MethodInfo ArgumentException_get_Message_m15684_MethodInfo = 
+extern const MethodInfo ArgumentException_get_Message_m15688_MethodInfo = 
 {
 	"get_Message"/* name */
-	, (methodPointerType)&ArgumentException_get_Message_m15684/* method */
+	, (methodPointerType)&ArgumentException_get_Message_m15688/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -27511,21 +27511,21 @@ extern const MethodInfo ArgumentException_get_Message_m15684_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArgumentException_t609_ArgumentException_GetObjectData_m15685_ParameterInfos[] = 
+static const ParameterInfo ArgumentException_t609_ArgumentException_GetObjectData_m15689_ParameterInfos[] = 
 {
 	{"info", 0, 134223736, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223737, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArgumentException_GetObjectData_m15685_MethodInfo = 
+extern const MethodInfo ArgumentException_GetObjectData_m15689_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&ArgumentException_GetObjectData_m15685/* method */
+	, (methodPointerType)&ArgumentException_GetObjectData_m15689/* method */
 	, &ArgumentException_t609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArgumentException_t609_ArgumentException_GetObjectData_m15685_ParameterInfos/* parameters */
+	, ArgumentException_t609_ArgumentException_GetObjectData_m15689_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -27541,22 +27541,22 @@ extern const MethodInfo ArgumentException_GetObjectData_m15685_MethodInfo =
 };
 static const MethodInfo* ArgumentException_t609_MethodInfos[] =
 {
-	&ArgumentException__ctor_m8550_MethodInfo,
-	&ArgumentException__ctor_m3478_MethodInfo,
-	&ArgumentException__ctor_m11627_MethodInfo,
-	&ArgumentException__ctor_m3120_MethodInfo,
-	&ArgumentException__ctor_m15681_MethodInfo,
-	&ArgumentException__ctor_m15682_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
-	&ArgumentException_get_Message_m15684_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
+	&ArgumentException__ctor_m8554_MethodInfo,
+	&ArgumentException__ctor_m3482_MethodInfo,
+	&ArgumentException__ctor_m11631_MethodInfo,
+	&ArgumentException__ctor_m3124_MethodInfo,
+	&ArgumentException__ctor_m15685_MethodInfo,
+	&ArgumentException__ctor_m15686_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
+	&ArgumentException_get_Message_m15688_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
 	NULL
 };
 static const PropertyInfo ArgumentException_t609____ParamName_PropertyInfo = 
 {
 	&ArgumentException_t609_il2cpp_TypeInfo/* parent */
 	, "ParamName"/* name */
-	, &ArgumentException_get_ParamName_m15683_MethodInfo/* get */
+	, &ArgumentException_get_ParamName_m15687_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -27566,7 +27566,7 @@ static const PropertyInfo ArgumentException_t609____Message_PropertyInfo =
 {
 	&ArgumentException_t609_il2cpp_TypeInfo/* parent */
 	, "Message"/* name */
-	, &ArgumentException_get_Message_m15684_MethodInfo/* get */
+	, &ArgumentException_get_Message_m15688_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -27583,15 +27583,15 @@ static const Il2CppMethodReference ArgumentException_t609_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&ArgumentException_get_Message_m15684_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&ArgumentException_get_Message_m15688_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
 };
 static bool ArgumentException_t609_VTableIsGenericMethod[] =
 {
@@ -27691,10 +27691,10 @@ extern TypeInfo ArgumentNullException_t669_il2cpp_TypeInfo;
 #include "mscorlib_System_ArgumentNullExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentNullException::.ctor()
-extern const MethodInfo ArgumentNullException__ctor_m11568_MethodInfo = 
+extern const MethodInfo ArgumentNullException__ctor_m11572_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentNullException__ctor_m11568/* method */
+	, (methodPointerType)&ArgumentNullException__ctor_m11572/* method */
 	, &ArgumentNullException_t669_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -27713,20 +27713,20 @@ extern const MethodInfo ArgumentNullException__ctor_m11568_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m3472_ParameterInfos[] = 
+static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m3476_ParameterInfos[] = 
 {
 	{"paramName", 0, 134223738, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentNullException::.ctor(System.String)
-extern const MethodInfo ArgumentNullException__ctor_m3472_MethodInfo = 
+extern const MethodInfo ArgumentNullException__ctor_m3476_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentNullException__ctor_m3472/* method */
+	, (methodPointerType)&ArgumentNullException__ctor_m3476/* method */
 	, &ArgumentNullException_t669_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ArgumentNullException_t669_ArgumentNullException__ctor_m3472_ParameterInfos/* parameters */
+	, ArgumentNullException_t669_ArgumentNullException__ctor_m3476_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27742,21 +27742,21 @@ extern const MethodInfo ArgumentNullException__ctor_m3472_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m3479_ParameterInfos[] = 
+static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m3483_ParameterInfos[] = 
 {
 	{"paramName", 0, 134223739, 0, &String_t_0_0_0},
 	{"message", 1, 134223740, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentNullException::.ctor(System.String,System.String)
-extern const MethodInfo ArgumentNullException__ctor_m3479_MethodInfo = 
+extern const MethodInfo ArgumentNullException__ctor_m3483_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentNullException__ctor_m3479/* method */
+	, (methodPointerType)&ArgumentNullException__ctor_m3483/* method */
 	, &ArgumentNullException_t669_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, ArgumentNullException_t669_ArgumentNullException__ctor_m3479_ParameterInfos/* parameters */
+	, ArgumentNullException_t669_ArgumentNullException__ctor_m3483_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27772,21 +27772,21 @@ extern const MethodInfo ArgumentNullException__ctor_m3479_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m15686_ParameterInfos[] = 
+static const ParameterInfo ArgumentNullException_t669_ArgumentNullException__ctor_m15690_ParameterInfos[] = 
 {
 	{"info", 0, 134223741, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223742, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentNullException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArgumentNullException__ctor_m15686_MethodInfo = 
+extern const MethodInfo ArgumentNullException__ctor_m15690_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentNullException__ctor_m15686/* method */
+	, (methodPointerType)&ArgumentNullException__ctor_m15690/* method */
 	, &ArgumentNullException_t669_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArgumentNullException_t669_ArgumentNullException__ctor_m15686_ParameterInfos/* parameters */
+	, ArgumentNullException_t669_ArgumentNullException__ctor_m15690_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -27802,10 +27802,10 @@ extern const MethodInfo ArgumentNullException__ctor_m15686_MethodInfo =
 };
 static const MethodInfo* ArgumentNullException_t669_MethodInfos[] =
 {
-	&ArgumentNullException__ctor_m11568_MethodInfo,
-	&ArgumentNullException__ctor_m3472_MethodInfo,
-	&ArgumentNullException__ctor_m3479_MethodInfo,
-	&ArgumentNullException__ctor_m15686_MethodInfo,
+	&ArgumentNullException__ctor_m11572_MethodInfo,
+	&ArgumentNullException__ctor_m3476_MethodInfo,
+	&ArgumentNullException__ctor_m3483_MethodInfo,
+	&ArgumentNullException__ctor_m15690_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ArgumentNullException_t669_VTable[] =
@@ -27813,15 +27813,15 @@ static const Il2CppMethodReference ArgumentNullException_t669_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&ArgumentException_get_Message_m15684_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&ArgumentException_GetObjectData_m15685_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&ArgumentException_get_Message_m15688_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&ArgumentException_GetObjectData_m15689_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
 };
 static bool ArgumentNullException_t669_VTableIsGenericMethod[] =
 {
@@ -27922,10 +27922,10 @@ extern TypeInfo ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo;
 #include "mscorlib_System_ArgumentOutOfRangeExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::.ctor()
-extern const MethodInfo ArgumentOutOfRangeException__ctor_m8553_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException__ctor_m8557_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m8553/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m8557/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -27944,20 +27944,20 @@ extern const MethodInfo ArgumentOutOfRangeException__ctor_m8553_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m8523_ParameterInfos[] = 
+static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m8527_ParameterInfos[] = 
 {
 	{"paramName", 0, 134223743, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
-extern const MethodInfo ArgumentOutOfRangeException__ctor_m8523_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException__ctor_m8527_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m8523/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m8527/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m8523_ParameterInfos/* parameters */
+	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m8527_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -27973,21 +27973,21 @@ extern const MethodInfo ArgumentOutOfRangeException__ctor_m8523_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m7195_ParameterInfos[] = 
+static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m7199_ParameterInfos[] = 
 {
 	{"paramName", 0, 134223744, 0, &String_t_0_0_0},
 	{"message", 1, 134223745, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
-extern const MethodInfo ArgumentOutOfRangeException__ctor_m7195_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException__ctor_m7199_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m7195/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m7199/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t/* invoker_method */
-	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m7195_ParameterInfos/* parameters */
+	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m7199_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -28004,7 +28004,7 @@ extern const MethodInfo ArgumentOutOfRangeException__ctor_m7195_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15687_ParameterInfos[] = 
+static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15691_ParameterInfos[] = 
 {
 	{"paramName", 0, 134223746, 0, &String_t_0_0_0},
 	{"actualValue", 1, 134223747, 0, &Object_t_0_0_0},
@@ -28012,14 +28012,14 @@ static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeE
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.Object,System.String)
-extern const MethodInfo ArgumentOutOfRangeException__ctor_m15687_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException__ctor_m15691_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m15687/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m15691/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_Object_t_Object_t/* invoker_method */
-	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15687_ParameterInfos/* parameters */
+	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15691_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -28035,21 +28035,21 @@ extern const MethodInfo ArgumentOutOfRangeException__ctor_m15687_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15688_ParameterInfos[] = 
+static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15692_ParameterInfos[] = 
 {
 	{"info", 0, 134223749, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223750, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArgumentOutOfRangeException__ctor_m15688_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException__ctor_m15692_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m15688/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException__ctor_m15692/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15688_ParameterInfos/* parameters */
+	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException__ctor_m15692_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -28065,10 +28065,10 @@ extern const MethodInfo ArgumentOutOfRangeException__ctor_m15688_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.ArgumentOutOfRangeException::get_Message()
-extern const MethodInfo ArgumentOutOfRangeException_get_Message_m15689_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException_get_Message_m15693_MethodInfo = 
 {
 	"get_Message"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException_get_Message_m15689/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException_get_Message_m15693/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -28088,21 +28088,21 @@ extern const MethodInfo ArgumentOutOfRangeException_get_Message_m15689_MethodInf
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException_GetObjectData_m15690_ParameterInfos[] = 
+static const ParameterInfo ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException_GetObjectData_m15694_ParameterInfos[] = 
 {
 	{"info", 0, 134223751, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223752, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArgumentOutOfRangeException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArgumentOutOfRangeException_GetObjectData_m15690_MethodInfo = 
+extern const MethodInfo ArgumentOutOfRangeException_GetObjectData_m15694_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&ArgumentOutOfRangeException_GetObjectData_m15690/* method */
+	, (methodPointerType)&ArgumentOutOfRangeException_GetObjectData_m15694/* method */
 	, &ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException_GetObjectData_m15690_ParameterInfos/* parameters */
+	, ArgumentOutOfRangeException_t1316_ArgumentOutOfRangeException_GetObjectData_m15694_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -28118,21 +28118,21 @@ extern const MethodInfo ArgumentOutOfRangeException_GetObjectData_m15690_MethodI
 };
 static const MethodInfo* ArgumentOutOfRangeException_t1316_MethodInfos[] =
 {
-	&ArgumentOutOfRangeException__ctor_m8553_MethodInfo,
-	&ArgumentOutOfRangeException__ctor_m8523_MethodInfo,
-	&ArgumentOutOfRangeException__ctor_m7195_MethodInfo,
-	&ArgumentOutOfRangeException__ctor_m15687_MethodInfo,
-	&ArgumentOutOfRangeException__ctor_m15688_MethodInfo,
-	&ArgumentOutOfRangeException_get_Message_m15689_MethodInfo,
-	&ArgumentOutOfRangeException_GetObjectData_m15690_MethodInfo,
+	&ArgumentOutOfRangeException__ctor_m8557_MethodInfo,
+	&ArgumentOutOfRangeException__ctor_m8527_MethodInfo,
+	&ArgumentOutOfRangeException__ctor_m7199_MethodInfo,
+	&ArgumentOutOfRangeException__ctor_m15691_MethodInfo,
+	&ArgumentOutOfRangeException__ctor_m15692_MethodInfo,
+	&ArgumentOutOfRangeException_get_Message_m15693_MethodInfo,
+	&ArgumentOutOfRangeException_GetObjectData_m15694_MethodInfo,
 	NULL
 };
-extern const MethodInfo ArgumentOutOfRangeException_get_Message_m15689_MethodInfo;
+extern const MethodInfo ArgumentOutOfRangeException_get_Message_m15693_MethodInfo;
 static const PropertyInfo ArgumentOutOfRangeException_t1316____Message_PropertyInfo = 
 {
 	&ArgumentOutOfRangeException_t1316_il2cpp_TypeInfo/* parent */
 	, "Message"/* name */
-	, &ArgumentOutOfRangeException_get_Message_m15689_MethodInfo/* get */
+	, &ArgumentOutOfRangeException_get_Message_m15693_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -28143,21 +28143,21 @@ static const PropertyInfo* ArgumentOutOfRangeException_t1316_PropertyInfos[] =
 	&ArgumentOutOfRangeException_t1316____Message_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ArgumentOutOfRangeException_GetObjectData_m15690_MethodInfo;
+extern const MethodInfo ArgumentOutOfRangeException_GetObjectData_m15694_MethodInfo;
 static const Il2CppMethodReference ArgumentOutOfRangeException_t1316_VTable[] =
 {
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&ArgumentOutOfRangeException_GetObjectData_m15690_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&ArgumentOutOfRangeException_get_Message_m15689_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&ArgumentOutOfRangeException_GetObjectData_m15690_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
-	&ArgumentException_get_ParamName_m15683_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&ArgumentOutOfRangeException_GetObjectData_m15694_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&ArgumentOutOfRangeException_get_Message_m15693_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&ArgumentOutOfRangeException_GetObjectData_m15694_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
+	&ArgumentException_get_ParamName_m15687_MethodInfo,
 };
 static bool ArgumentOutOfRangeException_t1316_VTableIsGenericMethod[] =
 {
@@ -28258,10 +28258,10 @@ extern TypeInfo ArithmeticException_t1862_il2cpp_TypeInfo;
 #include "mscorlib_System_ArithmeticExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArithmeticException::.ctor()
-extern const MethodInfo ArithmeticException__ctor_m15691_MethodInfo = 
+extern const MethodInfo ArithmeticException__ctor_m15695_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArithmeticException__ctor_m15691/* method */
+	, (methodPointerType)&ArithmeticException__ctor_m15695/* method */
 	, &ArithmeticException_t1862_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -28280,20 +28280,20 @@ extern const MethodInfo ArithmeticException__ctor_m15691_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArithmeticException_t1862_ArithmeticException__ctor_m9546_ParameterInfos[] = 
+static const ParameterInfo ArithmeticException_t1862_ArithmeticException__ctor_m9550_ParameterInfos[] = 
 {
 	{"message", 0, 134223753, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArithmeticException::.ctor(System.String)
-extern const MethodInfo ArithmeticException__ctor_m9546_MethodInfo = 
+extern const MethodInfo ArithmeticException__ctor_m9550_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArithmeticException__ctor_m9546/* method */
+	, (methodPointerType)&ArithmeticException__ctor_m9550/* method */
 	, &ArithmeticException_t1862_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ArithmeticException_t1862_ArithmeticException__ctor_m9546_ParameterInfos/* parameters */
+	, ArithmeticException_t1862_ArithmeticException__ctor_m9550_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -28309,21 +28309,21 @@ extern const MethodInfo ArithmeticException__ctor_m9546_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArithmeticException_t1862_ArithmeticException__ctor_m15692_ParameterInfos[] = 
+static const ParameterInfo ArithmeticException_t1862_ArithmeticException__ctor_m15696_ParameterInfos[] = 
 {
 	{"info", 0, 134223754, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223755, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArithmeticException__ctor_m15692_MethodInfo = 
+extern const MethodInfo ArithmeticException__ctor_m15696_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArithmeticException__ctor_m15692/* method */
+	, (methodPointerType)&ArithmeticException__ctor_m15696/* method */
 	, &ArithmeticException_t1862_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArithmeticException_t1862_ArithmeticException__ctor_m15692_ParameterInfos/* parameters */
+	, ArithmeticException_t1862_ArithmeticException__ctor_m15696_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -28339,9 +28339,9 @@ extern const MethodInfo ArithmeticException__ctor_m15692_MethodInfo =
 };
 static const MethodInfo* ArithmeticException_t1862_MethodInfos[] =
 {
-	&ArithmeticException__ctor_m15691_MethodInfo,
-	&ArithmeticException__ctor_m9546_MethodInfo,
-	&ArithmeticException__ctor_m15692_MethodInfo,
+	&ArithmeticException__ctor_m15695_MethodInfo,
+	&ArithmeticException__ctor_m9550_MethodInfo,
+	&ArithmeticException__ctor_m15696_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ArithmeticException_t1862_VTable[] =
@@ -28349,14 +28349,14 @@ static const Il2CppMethodReference ArithmeticException_t1862_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ArithmeticException_t1862_VTableIsGenericMethod[] =
 {
@@ -28460,7 +28460,7 @@ static const Il2CppGenericParameter* ArraySegment_1_t2958_Il2CppGenericParameter
 extern const Il2CppGenericContainer ArraySegment_1_t2958_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ArraySegment_1_t2958_il2cpp_TypeInfo, 1, 0, ArraySegment_1_t2958_Il2CppGenericParametersArray };
 extern const Il2CppType TU5BU5D_t3332_0_0_0;
 // T[] System.ArraySegment`1::get_Array()
-extern const MethodInfo ArraySegment_1_get_Array_m17117_MethodInfo = 
+extern const MethodInfo ArraySegment_1_get_Array_m17121_MethodInfo = 
 {
 	"get_Array"/* name */
 	, NULL/* method */
@@ -28482,7 +28482,7 @@ extern const MethodInfo ArraySegment_1_get_Array_m17117_MethodInfo =
 
 };
 // System.Int32 System.ArraySegment`1::get_Offset()
-extern const MethodInfo ArraySegment_1_get_Offset_m17118_MethodInfo = 
+extern const MethodInfo ArraySegment_1_get_Offset_m17122_MethodInfo = 
 {
 	"get_Offset"/* name */
 	, NULL/* method */
@@ -28504,7 +28504,7 @@ extern const MethodInfo ArraySegment_1_get_Offset_m17118_MethodInfo =
 
 };
 // System.Int32 System.ArraySegment`1::get_Count()
-extern const MethodInfo ArraySegment_1_get_Count_m17119_MethodInfo = 
+extern const MethodInfo ArraySegment_1_get_Count_m17123_MethodInfo = 
 {
 	"get_Count"/* name */
 	, NULL/* method */
@@ -28526,19 +28526,19 @@ extern const MethodInfo ArraySegment_1_get_Count_m17119_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ArraySegment_1_t2958_ArraySegment_1_Equals_m17120_ParameterInfos[] = 
+static const ParameterInfo ArraySegment_1_t2958_ArraySegment_1_Equals_m17124_ParameterInfos[] = 
 {
 	{"obj", 0, 134223756, 0, &Object_t_0_0_0},
 };
 // System.Boolean System.ArraySegment`1::Equals(System.Object)
-extern const MethodInfo ArraySegment_1_Equals_m17120_MethodInfo = 
+extern const MethodInfo ArraySegment_1_Equals_m17124_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &ArraySegment_1_t2958_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ArraySegment_1_t2958_ArraySegment_1_Equals_m17120_ParameterInfos/* parameters */
+	, ArraySegment_1_t2958_ArraySegment_1_Equals_m17124_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -28554,19 +28554,19 @@ extern const MethodInfo ArraySegment_1_Equals_m17120_MethodInfo =
 };
 extern const Il2CppType ArraySegment_1_t3333_0_0_0;
 extern const Il2CppType ArraySegment_1_t3333_0_0_0;
-static const ParameterInfo ArraySegment_1_t2958_ArraySegment_1_Equals_m17121_ParameterInfos[] = 
+static const ParameterInfo ArraySegment_1_t2958_ArraySegment_1_Equals_m17125_ParameterInfos[] = 
 {
 	{"obj", 0, 134223757, 0, &ArraySegment_1_t3333_0_0_0},
 };
 // System.Boolean System.ArraySegment`1::Equals(System.ArraySegment`1<T>)
-extern const MethodInfo ArraySegment_1_Equals_m17121_MethodInfo = 
+extern const MethodInfo ArraySegment_1_Equals_m17125_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &ArraySegment_1_t2958_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t29_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ArraySegment_1_t2958_ArraySegment_1_Equals_m17121_ParameterInfos/* parameters */
+	, ArraySegment_1_t2958_ArraySegment_1_Equals_m17125_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -28581,7 +28581,7 @@ extern const MethodInfo ArraySegment_1_Equals_m17121_MethodInfo =
 
 };
 // System.Int32 System.ArraySegment`1::GetHashCode()
-extern const MethodInfo ArraySegment_1_GetHashCode_m17122_MethodInfo = 
+extern const MethodInfo ArraySegment_1_GetHashCode_m17126_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -28604,42 +28604,42 @@ extern const MethodInfo ArraySegment_1_GetHashCode_m17122_MethodInfo =
 };
 static const MethodInfo* ArraySegment_1_t2958_MethodInfos[] =
 {
-	&ArraySegment_1_get_Array_m17117_MethodInfo,
-	&ArraySegment_1_get_Offset_m17118_MethodInfo,
-	&ArraySegment_1_get_Count_m17119_MethodInfo,
-	&ArraySegment_1_Equals_m17120_MethodInfo,
-	&ArraySegment_1_Equals_m17121_MethodInfo,
-	&ArraySegment_1_GetHashCode_m17122_MethodInfo,
+	&ArraySegment_1_get_Array_m17121_MethodInfo,
+	&ArraySegment_1_get_Offset_m17122_MethodInfo,
+	&ArraySegment_1_get_Count_m17123_MethodInfo,
+	&ArraySegment_1_Equals_m17124_MethodInfo,
+	&ArraySegment_1_Equals_m17125_MethodInfo,
+	&ArraySegment_1_GetHashCode_m17126_MethodInfo,
 	NULL
 };
-extern const MethodInfo ArraySegment_1_get_Array_m17117_MethodInfo;
+extern const MethodInfo ArraySegment_1_get_Array_m17121_MethodInfo;
 static const PropertyInfo ArraySegment_1_t2958____Array_PropertyInfo = 
 {
 	&ArraySegment_1_t2958_il2cpp_TypeInfo/* parent */
 	, "Array"/* name */
-	, &ArraySegment_1_get_Array_m17117_MethodInfo/* get */
+	, &ArraySegment_1_get_Array_m17121_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArraySegment_1_get_Offset_m17118_MethodInfo;
+extern const MethodInfo ArraySegment_1_get_Offset_m17122_MethodInfo;
 static const PropertyInfo ArraySegment_1_t2958____Offset_PropertyInfo = 
 {
 	&ArraySegment_1_t2958_il2cpp_TypeInfo/* parent */
 	, "Offset"/* name */
-	, &ArraySegment_1_get_Offset_m17118_MethodInfo/* get */
+	, &ArraySegment_1_get_Offset_m17122_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArraySegment_1_get_Count_m17119_MethodInfo;
+extern const MethodInfo ArraySegment_1_get_Count_m17123_MethodInfo;
 static const PropertyInfo ArraySegment_1_t2958____Count_PropertyInfo = 
 {
 	&ArraySegment_1_t2958_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &ArraySegment_1_get_Count_m17119_MethodInfo/* get */
+	, &ArraySegment_1_get_Count_m17123_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -28652,14 +28652,14 @@ static const PropertyInfo* ArraySegment_1_t2958_PropertyInfos[] =
 	&ArraySegment_1_t2958____Count_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ArraySegment_1_Equals_m17120_MethodInfo;
-extern const MethodInfo ArraySegment_1_GetHashCode_m17122_MethodInfo;
+extern const MethodInfo ArraySegment_1_Equals_m17124_MethodInfo;
+extern const MethodInfo ArraySegment_1_GetHashCode_m17126_MethodInfo;
 static const Il2CppMethodReference ArraySegment_1_t2958_VTable[] =
 {
-	&ArraySegment_1_Equals_m17120_MethodInfo,
+	&ArraySegment_1_Equals_m17124_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
-	&ArraySegment_1_GetHashCode_m17122_MethodInfo,
-	&ValueType_ToString_m5717_MethodInfo,
+	&ArraySegment_1_GetHashCode_m17126_MethodInfo,
+	&ValueType_ToString_m5721_MethodInfo,
 };
 static bool ArraySegment_1_t2958_VTableIsGenericMethod[] =
 {
@@ -28668,17 +28668,17 @@ static bool ArraySegment_1_t2958_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod ArraySegment_1_Equals_m17342_GenericMethod;
-extern const Il2CppGenericMethod ArraySegment_1_get_Array_m17343_GenericMethod;
-extern const Il2CppGenericMethod ArraySegment_1_get_Offset_m17344_GenericMethod;
-extern const Il2CppGenericMethod ArraySegment_1_get_Count_m17345_GenericMethod;
+extern const Il2CppGenericMethod ArraySegment_1_Equals_m17346_GenericMethod;
+extern const Il2CppGenericMethod ArraySegment_1_get_Array_m17347_GenericMethod;
+extern const Il2CppGenericMethod ArraySegment_1_get_Offset_m17348_GenericMethod;
+extern const Il2CppGenericMethod ArraySegment_1_get_Count_m17349_GenericMethod;
 static Il2CppRGCTXDefinition ArraySegment_1_t2958_RGCTXData[6] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ArraySegment_1_t3333_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_Equals_m17342_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Array_m17343_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Offset_m17344_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Count_m17345_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_Equals_m17346_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Array_m17347_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Offset_m17348_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ArraySegment_1_get_Count_m17349_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -28759,10 +28759,10 @@ extern TypeInfo ArrayTypeMismatchException_t2760_il2cpp_TypeInfo;
 #include "mscorlib_System_ArrayTypeMismatchExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t57 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArrayTypeMismatchException::.ctor()
-extern const MethodInfo ArrayTypeMismatchException__ctor_m15693_MethodInfo = 
+extern const MethodInfo ArrayTypeMismatchException__ctor_m15697_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15693/* method */
+	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15697/* method */
 	, &ArrayTypeMismatchException_t2760_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57/* invoker_method */
@@ -28781,20 +28781,20 @@ extern const MethodInfo ArrayTypeMismatchException__ctor_m15693_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15694_ParameterInfos[] = 
+static const ParameterInfo ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15698_ParameterInfos[] = 
 {
 	{"message", 0, 134223758, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArrayTypeMismatchException::.ctor(System.String)
-extern const MethodInfo ArrayTypeMismatchException__ctor_m15694_MethodInfo = 
+extern const MethodInfo ArrayTypeMismatchException__ctor_m15698_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15694/* method */
+	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15698/* method */
 	, &ArrayTypeMismatchException_t2760_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t/* invoker_method */
-	, ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15694_ParameterInfos/* parameters */
+	, ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -28810,21 +28810,21 @@ extern const MethodInfo ArrayTypeMismatchException__ctor_m15694_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t1301_0_0_0;
 extern const Il2CppType StreamingContext_t1302_0_0_0;
-static const ParameterInfo ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15695_ParameterInfos[] = 
+static const ParameterInfo ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15699_ParameterInfos[] = 
 {
 	{"info", 0, 134223759, 0, &SerializationInfo_t1301_0_0_0},
 	{"context", 1, 134223760, 0, &StreamingContext_t1302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ArrayTypeMismatchException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ArrayTypeMismatchException__ctor_m15695_MethodInfo = 
+extern const MethodInfo ArrayTypeMismatchException__ctor_m15699_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15695/* method */
+	, (methodPointerType)&ArrayTypeMismatchException__ctor_m15699/* method */
 	, &ArrayTypeMismatchException_t2760_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t57_Object_t_StreamingContext_t1302/* invoker_method */
-	, ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15695_ParameterInfos/* parameters */
+	, ArrayTypeMismatchException_t2760_ArrayTypeMismatchException__ctor_m15699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -28840,9 +28840,9 @@ extern const MethodInfo ArrayTypeMismatchException__ctor_m15695_MethodInfo =
 };
 static const MethodInfo* ArrayTypeMismatchException_t2760_MethodInfos[] =
 {
-	&ArrayTypeMismatchException__ctor_m15693_MethodInfo,
-	&ArrayTypeMismatchException__ctor_m15694_MethodInfo,
-	&ArrayTypeMismatchException__ctor_m15695_MethodInfo,
+	&ArrayTypeMismatchException__ctor_m15697_MethodInfo,
+	&ArrayTypeMismatchException__ctor_m15698_MethodInfo,
+	&ArrayTypeMismatchException__ctor_m15699_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ArrayTypeMismatchException_t2760_VTable[] =
@@ -28850,14 +28850,14 @@ static const Il2CppMethodReference ArrayTypeMismatchException_t2760_VTable[] =
 	&Object_Equals_m252_MethodInfo,
 	&Object_Finalize_m230_MethodInfo,
 	&Object_GetHashCode_m172_MethodInfo,
-	&Exception_ToString_m7389_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_get_InnerException_m7391_MethodInfo,
-	&Exception_get_Message_m7392_MethodInfo,
-	&Exception_get_Source_m7393_MethodInfo,
-	&Exception_get_StackTrace_m7394_MethodInfo,
-	&Exception_GetObjectData_m7390_MethodInfo,
-	&Exception_GetType_m7395_MethodInfo,
+	&Exception_ToString_m7393_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_get_InnerException_m7395_MethodInfo,
+	&Exception_get_Message_m7396_MethodInfo,
+	&Exception_get_Source_m7397_MethodInfo,
+	&Exception_get_StackTrace_m7398_MethodInfo,
+	&Exception_GetObjectData_m7394_MethodInfo,
+	&Exception_GetType_m7399_MethodInfo,
 };
 static bool ArrayTypeMismatchException_t2760_VTableIsGenericMethod[] =
 {

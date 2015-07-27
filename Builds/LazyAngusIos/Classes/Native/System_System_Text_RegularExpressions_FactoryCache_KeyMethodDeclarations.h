@@ -14,10 +14,10 @@ struct Object_t;
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Void System.Text.RegularExpressions.FactoryCache/Key::.ctor(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" void Key__ctor_m11113 (Key_t2122 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Key__ctor_m11117 (Key_t2122 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.FactoryCache/Key::GetHashCode()
-extern "C" int32_t Key_GetHashCode_m11114 (Key_t2122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Key_GetHashCode_m11118 (Key_t2122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.FactoryCache/Key::Equals(System.Object)
-extern "C" bool Key_Equals_m11115 (Key_t2122 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Key_Equals_m11119 (Key_t2122 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.FactoryCache/Key::ToString()
-extern "C" String_t* Key_ToString_m11116 (Key_t2122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Key_ToString_m11120 (Key_t2122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

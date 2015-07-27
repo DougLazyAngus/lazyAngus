@@ -12,12 +12,12 @@ struct Context_t1787;
 struct ByteU5BU5D_t36;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerKeyExchange__ctor_m9520 (TlsServerKeyExchange_t1846 * __this, Context_t1787 * ___context, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerKeyExchange__ctor_m9524 (TlsServerKeyExchange_t1846 * __this, Context_t1787 * ___context, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::Update()
-extern "C" void TlsServerKeyExchange_Update_m9521 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerKeyExchange_Update_m9525 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsSsl3()
-extern "C" void TlsServerKeyExchange_ProcessAsSsl3_m9522 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerKeyExchange_ProcessAsSsl3_m9526 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsTls1()
-extern "C" void TlsServerKeyExchange_ProcessAsTls1_m9523 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerKeyExchange_ProcessAsTls1_m9527 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::verifySignature()
-extern "C" void TlsServerKeyExchange_verifySignature_m9524 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerKeyExchange_verifySignature_m9528 (TlsServerKeyExchange_t1846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

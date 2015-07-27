@@ -8,4 +8,4 @@
 struct NonSerializedAttribute_t2802;
 
 // System.Void System.NonSerializedAttribute::.ctor()
-extern "C" void NonSerializedAttribute__ctor_m16202 (NonSerializedAttribute_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonSerializedAttribute__ctor_m16206 (NonSerializedAttribute_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

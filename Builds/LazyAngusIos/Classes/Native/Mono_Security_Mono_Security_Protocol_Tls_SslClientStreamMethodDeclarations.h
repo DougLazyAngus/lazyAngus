@@ -40,74 +40,74 @@ struct AsymmetricAlgorithm_t1848;
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
 
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::.ctor(System.IO.Stream,System.String,System.Boolean)
-extern "C" void SslClientStream__ctor_m9285 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream__ctor_m9289 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::.ctor(System.IO.Stream,System.String,System.Security.Cryptography.X509Certificates.X509Certificate)
-extern "C" void SslClientStream__ctor_m9286 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, X509Certificate_t1830 * ___clientCertificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream__ctor_m9290 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, X509Certificate_t1830 * ___clientCertificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::.ctor(System.IO.Stream,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" void SslClientStream__ctor_m9287 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, X509CertificateCollection_t1829 * ___clientCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream__ctor_m9291 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, X509CertificateCollection_t1829 * ___clientCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::.ctor(System.IO.Stream,System.String,System.Boolean,Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" void SslClientStream__ctor_m9288 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, int32_t ___securityProtocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream__ctor_m9292 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, int32_t ___securityProtocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::.ctor(System.IO.Stream,System.String,System.Boolean,Mono.Security.Protocol.Tls.SecurityProtocolType,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" void SslClientStream__ctor_m9289 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, int32_t ___securityProtocolType, X509CertificateCollection_t1829 * ___clientCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream__ctor_m9293 (SslClientStream_t1792 * __this, Stream_t24 * ___stream, String_t* ___targetHost, bool ___ownsStream, int32_t ___securityProtocolType, X509CertificateCollection_t1829 * ___clientCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::add_ServerCertValidation(Mono.Security.Protocol.Tls.CertificateValidationCallback)
-extern "C" void SslClientStream_add_ServerCertValidation_m9290 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_add_ServerCertValidation_m9294 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::remove_ServerCertValidation(Mono.Security.Protocol.Tls.CertificateValidationCallback)
-extern "C" void SslClientStream_remove_ServerCertValidation_m9291 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_remove_ServerCertValidation_m9295 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::add_ClientCertSelection(Mono.Security.Protocol.Tls.CertificateSelectionCallback)
-extern "C" void SslClientStream_add_ClientCertSelection_m9292 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_add_ClientCertSelection_m9296 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::remove_ClientCertSelection(Mono.Security.Protocol.Tls.CertificateSelectionCallback)
-extern "C" void SslClientStream_remove_ClientCertSelection_m9293 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_remove_ClientCertSelection_m9297 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::add_PrivateKeySelection(Mono.Security.Protocol.Tls.PrivateKeySelectionCallback)
-extern "C" void SslClientStream_add_PrivateKeySelection_m9294 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_add_PrivateKeySelection_m9298 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::remove_PrivateKeySelection(Mono.Security.Protocol.Tls.PrivateKeySelectionCallback)
-extern "C" void SslClientStream_remove_PrivateKeySelection_m9295 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_remove_PrivateKeySelection_m9299 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::add_ServerCertValidation2(Mono.Security.Protocol.Tls.CertificateValidationCallback2)
-extern "C" void SslClientStream_add_ServerCertValidation2_m9296 (SslClientStream_t1792 * __this, CertificateValidationCallback2_t1823 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_add_ServerCertValidation2_m9300 (SslClientStream_t1792 * __this, CertificateValidationCallback2_t1823 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::remove_ServerCertValidation2(Mono.Security.Protocol.Tls.CertificateValidationCallback2)
-extern "C" void SslClientStream_remove_ServerCertValidation2_m9297 (SslClientStream_t1792 * __this, CertificateValidationCallback2_t1823 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_remove_ServerCertValidation2_m9301 (SslClientStream_t1792 * __this, CertificateValidationCallback2_t1823 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream Mono.Security.Protocol.Tls.SslClientStream::get_InputBuffer()
-extern "C" Stream_t24 * SslClientStream_get_InputBuffer_m9298 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t24 * SslClientStream_get_InputBuffer_m9302 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection Mono.Security.Protocol.Tls.SslClientStream::get_ClientCertificates()
-extern "C" X509CertificateCollection_t1829 * SslClientStream_get_ClientCertificates_m9299 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509CertificateCollection_t1829 * SslClientStream_get_ClientCertificates_m9303 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.SslClientStream::get_SelectedClientCertificate()
-extern "C" X509Certificate_t1830 * SslClientStream_get_SelectedClientCertificate_m9300 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t1830 * SslClientStream_get_SelectedClientCertificate_m9304 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CertificateValidationCallback Mono.Security.Protocol.Tls.SslClientStream::get_ServerCertValidationDelegate()
-extern "C" CertificateValidationCallback_t1822 * SslClientStream_get_ServerCertValidationDelegate_m9301 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CertificateValidationCallback_t1822 * SslClientStream_get_ServerCertValidationDelegate_m9305 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::set_ServerCertValidationDelegate(Mono.Security.Protocol.Tls.CertificateValidationCallback)
-extern "C" void SslClientStream_set_ServerCertValidationDelegate_m9302 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_set_ServerCertValidationDelegate_m9306 (SslClientStream_t1792 * __this, CertificateValidationCallback_t1822 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CertificateSelectionCallback Mono.Security.Protocol.Tls.SslClientStream::get_ClientCertSelectionDelegate()
-extern "C" CertificateSelectionCallback_t1807 * SslClientStream_get_ClientCertSelectionDelegate_m9303 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CertificateSelectionCallback_t1807 * SslClientStream_get_ClientCertSelectionDelegate_m9307 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::set_ClientCertSelectionDelegate(Mono.Security.Protocol.Tls.CertificateSelectionCallback)
-extern "C" void SslClientStream_set_ClientCertSelectionDelegate_m9304 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_set_ClientCertSelectionDelegate_m9308 (SslClientStream_t1792 * __this, CertificateSelectionCallback_t1807 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.PrivateKeySelectionCallback Mono.Security.Protocol.Tls.SslClientStream::get_PrivateKeyCertSelectionDelegate()
-extern "C" PrivateKeySelectionCallback_t1808 * SslClientStream_get_PrivateKeyCertSelectionDelegate_m9305 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PrivateKeySelectionCallback_t1808 * SslClientStream_get_PrivateKeyCertSelectionDelegate_m9309 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::set_PrivateKeyCertSelectionDelegate(Mono.Security.Protocol.Tls.PrivateKeySelectionCallback)
-extern "C" void SslClientStream_set_PrivateKeyCertSelectionDelegate_m9306 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_set_PrivateKeyCertSelectionDelegate_m9310 (SslClientStream_t1792 * __this, PrivateKeySelectionCallback_t1808 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::Finalize()
-extern "C" void SslClientStream_Finalize_m9307 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_Finalize_m9311 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::Dispose(System.Boolean)
-extern "C" void SslClientStream_Dispose_m9308 (SslClientStream_t1792 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_Dispose_m9312 (SslClientStream_t1792 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult Mono.Security.Protocol.Tls.SslClientStream::OnBeginNegotiateHandshake(System.AsyncCallback,System.Object)
-extern "C" Object_t * SslClientStream_OnBeginNegotiateHandshake_m9309 (SslClientStream_t1792 * __this, AsyncCallback_t346 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SslClientStream_OnBeginNegotiateHandshake_m9313 (SslClientStream_t1792 * __this, AsyncCallback_t346 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::SafeReceiveRecord(System.IO.Stream)
-extern "C" void SslClientStream_SafeReceiveRecord_m9310 (SslClientStream_t1792 * __this, Stream_t24 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_SafeReceiveRecord_m9314 (SslClientStream_t1792 * __this, Stream_t24 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslClientStream::OnNegotiateHandshakeCallback(System.IAsyncResult)
-extern "C" void SslClientStream_OnNegotiateHandshakeCallback_m9311 (SslClientStream_t1792 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslClientStream_OnNegotiateHandshakeCallback_m9315 (SslClientStream_t1792 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.SslClientStream::OnLocalCertificateSelection(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" X509Certificate_t1830 * SslClientStream_OnLocalCertificateSelection_m9312 (SslClientStream_t1792 * __this, X509CertificateCollection_t1829 * ___clientCertificates, X509Certificate_t1830 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t1829 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t1830 * SslClientStream_OnLocalCertificateSelection_m9316 (SslClientStream_t1792 * __this, X509CertificateCollection_t1829 * ___clientCertificates, X509Certificate_t1830 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t1829 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::get_HaveRemoteValidation2Callback()
-extern "C" bool SslClientStream_get_HaveRemoteValidation2Callback_m9313 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslClientStream_get_HaveRemoteValidation2Callback_m9317 (SslClientStream_t1792 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::OnRemoteCertificateValidation2(Mono.Security.X509.X509CertificateCollection)
-extern "C" ValidationResult_t1821 * SslClientStream_OnRemoteCertificateValidation2_m9314 (SslClientStream_t1792 * __this, X509CertificateCollection_t1755 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValidationResult_t1821 * SslClientStream_OnRemoteCertificateValidation2_m9318 (SslClientStream_t1792 * __this, X509CertificateCollection_t1755 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::OnRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool SslClientStream_OnRemoteCertificateValidation_m9315 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, Int32U5BU5D_t496* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslClientStream_OnRemoteCertificateValidation_m9319 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, Int32U5BU5D_t496* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool SslClientStream_RaiseServerCertificateValidation_m9316 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, Int32U5BU5D_t496* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslClientStream_RaiseServerCertificateValidation_m9320 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, Int32U5BU5D_t496* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation2(Mono.Security.X509.X509CertificateCollection)
-extern "C" ValidationResult_t1821 * SslClientStream_RaiseServerCertificateValidation2_m9317 (SslClientStream_t1792 * __this, X509CertificateCollection_t1755 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValidationResult_t1821 * SslClientStream_RaiseServerCertificateValidation2_m9321 (SslClientStream_t1792 * __this, X509CertificateCollection_t1755 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.SslClientStream::RaiseClientCertificateSelection(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" X509Certificate_t1830 * SslClientStream_RaiseClientCertificateSelection_m9318 (SslClientStream_t1792 * __this, X509CertificateCollection_t1829 * ___clientCertificates, X509Certificate_t1830 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t1829 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t1830 * SslClientStream_RaiseClientCertificateSelection_m9322 (SslClientStream_t1792 * __this, X509CertificateCollection_t1829 * ___clientCertificates, X509Certificate_t1830 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t1829 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.SslClientStream::OnLocalPrivateKeySelection(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern "C" AsymmetricAlgorithm_t1848 * SslClientStream_OnLocalPrivateKeySelection_m9319 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsymmetricAlgorithm_t1848 * SslClientStream_OnLocalPrivateKeySelection_m9323 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.SslClientStream::RaisePrivateKeySelection(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern "C" AsymmetricAlgorithm_t1848 * SslClientStream_RaisePrivateKeySelection_m9320 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsymmetricAlgorithm_t1848 * SslClientStream_RaisePrivateKeySelection_m9324 (SslClientStream_t1792 * __this, X509Certificate_t1830 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;

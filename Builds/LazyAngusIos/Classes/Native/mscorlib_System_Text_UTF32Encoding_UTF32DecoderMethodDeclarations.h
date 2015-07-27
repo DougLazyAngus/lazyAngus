@@ -12,6 +12,6 @@ struct ByteU5BU5D_t36;
 struct CharU5BU5D_t608;
 
 // System.Void System.Text.UTF32Encoding/UTF32Decoder::.ctor(System.Boolean)
-extern "C" void UTF32Decoder__ctor_m15490 (UTF32Decoder_t2730 * __this, bool ___bigEndian, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF32Decoder__ctor_m15494 (UTF32Decoder_t2730 * __this, bool ___bigEndian, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding/UTF32Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF32Decoder_GetChars_m15491 (UTF32Decoder_t2730 * __this, ByteU5BU5D_t36* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t608* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF32Decoder_GetChars_m15495 (UTF32Decoder_t2730 * __this, ByteU5BU5D_t36* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t608* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -12,12 +12,12 @@ struct ICryptoTransform_t1788;
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.Cryptography.RijndaelManaged::.ctor()
-extern "C" void RijndaelManaged__ctor_m15131 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged__ctor_m15135 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateIV()
-extern "C" void RijndaelManaged_GenerateIV_m15132 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateIV_m15136 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateKey()
-extern "C" void RijndaelManaged_GenerateKey_m15133 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateKey_m15137 (RijndaelManaged_t2673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateDecryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateDecryptor_m15134 (RijndaelManaged_t2673 * __this, ByteU5BU5D_t36* ___rgbKey, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateDecryptor_m15138 (RijndaelManaged_t2673 * __this, ByteU5BU5D_t36* ___rgbKey, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateEncryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateEncryptor_m15135 (RijndaelManaged_t2673 * __this, ByteU5BU5D_t36* ___rgbKey, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateEncryptor_m15139 (RijndaelManaged_t2673 * __this, ByteU5BU5D_t36* ___rgbKey, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;

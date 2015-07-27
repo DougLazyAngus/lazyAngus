@@ -16,18 +16,18 @@ struct CharU5BU5D_t608;
 struct String_t;
 
 // System.Void System.IO.UnexceptionalStreamReader::.ctor(System.IO.Stream,System.Text.Encoding)
-extern "C" void UnexceptionalStreamReader__ctor_m13984 (UnexceptionalStreamReader_t2473 * __this, Stream_t24 * ___stream, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamReader__ctor_m13988 (UnexceptionalStreamReader_t2473 * __this, Stream_t24 * ___stream, Encoding_t638 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamReader::.cctor()
-extern "C" void UnexceptionalStreamReader__cctor_m13985 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamReader__cctor_m13989 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.UnexceptionalStreamReader::Peek()
-extern "C" int32_t UnexceptionalStreamReader_Peek_m13986 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnexceptionalStreamReader_Peek_m13990 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.UnexceptionalStreamReader::Read()
-extern "C" int32_t UnexceptionalStreamReader_Read_m13987 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnexceptionalStreamReader_Read_m13991 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.UnexceptionalStreamReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t UnexceptionalStreamReader_Read_m13988 (UnexceptionalStreamReader_t2473 * __this, CharU5BU5D_t608* ___dest_buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnexceptionalStreamReader_Read_m13992 (UnexceptionalStreamReader_t2473 * __this, CharU5BU5D_t608* ___dest_buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.UnexceptionalStreamReader::CheckEOL(System.Char)
-extern "C" bool UnexceptionalStreamReader_CheckEOL_m13989 (UnexceptionalStreamReader_t2473 * __this, uint16_t ___current, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnexceptionalStreamReader_CheckEOL_m13993 (UnexceptionalStreamReader_t2473 * __this, uint16_t ___current, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.UnexceptionalStreamReader::ReadLine()
-extern "C" String_t* UnexceptionalStreamReader_ReadLine_m13990 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UnexceptionalStreamReader_ReadLine_m13994 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.UnexceptionalStreamReader::ReadToEnd()
-extern "C" String_t* UnexceptionalStreamReader_ReadToEnd_m13991 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UnexceptionalStreamReader_ReadToEnd_m13995 (UnexceptionalStreamReader_t2473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

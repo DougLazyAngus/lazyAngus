@@ -8,4 +8,4 @@
 struct AppDomainSetup_t2758;
 
 // System.Void System.AppDomainSetup::.ctor()
-extern "C" void AppDomainSetup__ctor_m15675 (AppDomainSetup_t2758 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainSetup__ctor_m15679 (AppDomainSetup_t2758 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

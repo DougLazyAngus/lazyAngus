@@ -10,6 +10,6 @@ struct Monitor_t2741;
 struct Object_t;
 
 // System.Void System.Threading.Monitor::Enter(System.Object)
-extern "C" void Monitor_Enter_m9615 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Enter_m9619 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Monitor::Exit(System.Object)
-extern "C" void Monitor_Exit_m9617 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Exit_m9621 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

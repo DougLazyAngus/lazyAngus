@@ -12,14 +12,14 @@ struct ByteU5BU5D_t36;
 struct String_t;
 
 // System.Void System.Security.Cryptography.TripleDES::.ctor()
-extern "C" void TripleDES__ctor_m15233 (TripleDES_t1881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES__ctor_m15237 (TripleDES_t1881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.TripleDES::get_Key()
-extern "C" ByteU5BU5D_t36* TripleDES_get_Key_m15234 (TripleDES_t1881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* TripleDES_get_Key_m15238 (TripleDES_t1881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.TripleDES::set_Key(System.Byte[])
-extern "C" void TripleDES_set_Key_m15235 (TripleDES_t1881 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES_set_Key_m15239 (TripleDES_t1881 * __this, ByteU5BU5D_t36* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.TripleDES::IsWeakKey(System.Byte[])
-extern "C" bool TripleDES_IsWeakKey_m15236 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TripleDES_IsWeakKey_m15240 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create()
-extern "C" TripleDES_t1881 * TripleDES_Create_m9611 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t1881 * TripleDES_Create_m9615 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create(System.String)
-extern "C" TripleDES_t1881 * TripleDES_Create_m15237 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t1881 * TripleDES_Create_m15241 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;

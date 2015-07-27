@@ -16,22 +16,22 @@ struct MemberInfo_t;
 struct ParameterInfo_t1334;
 
 // System.Void System.Attribute::.ctor()
-extern "C" void Attribute__ctor_m3469 (Attribute_t386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Attribute__ctor_m3473 (Attribute_t386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Attribute::CheckParameters(System.Object,System.Type)
-extern "C" void Attribute_CheckParameters_m11905 (Object_t * __this /* static, unused */, Object_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Attribute_CheckParameters_m11909 (Object_t * __this /* static, unused */, Object_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Attribute System.Attribute::GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-extern "C" Attribute_t386 * Attribute_GetCustomAttribute_m11906 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Attribute_t386 * Attribute_GetCustomAttribute_m11910 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Attribute System.Attribute::GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-extern "C" Attribute_t386 * Attribute_GetCustomAttribute_m11907 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Attribute_t386 * Attribute_GetCustomAttribute_m11911 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Attribute::GetHashCode()
-extern "C" int32_t Attribute_GetHashCode_m3945 (Attribute_t386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Attribute_GetHashCode_m3949 (Attribute_t386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Attribute::IsDefined(System.Reflection.ParameterInfo,System.Type)
-extern "C" bool Attribute_IsDefined_m11908 (Object_t * __this /* static, unused */, ParameterInfo_t1334 * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Attribute_IsDefined_m11912 (Object_t * __this /* static, unused */, ParameterInfo_t1334 * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Attribute::IsDefined(System.Reflection.MemberInfo,System.Type)
-extern "C" bool Attribute_IsDefined_m11909 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Attribute_IsDefined_m11913 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Attribute::IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-extern "C" bool Attribute_IsDefined_m11910 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Attribute_IsDefined_m11914 (Object_t * __this /* static, unused */, MemberInfo_t * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Attribute::IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-extern "C" bool Attribute_IsDefined_m11911 (Object_t * __this /* static, unused */, ParameterInfo_t1334 * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Attribute_IsDefined_m11915 (Object_t * __this /* static, unused */, ParameterInfo_t1334 * ___element, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Attribute::Equals(System.Object)
-extern "C" bool Attribute_Equals_m3944 (Attribute_t386 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Attribute_Equals_m3948 (Attribute_t386 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
