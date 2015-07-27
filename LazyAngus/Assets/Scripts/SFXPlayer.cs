@@ -54,9 +54,9 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.SLAP_01, "Slap.01.SoundBible");
 		LoadAudioSource (SFXType.SLAP_02, "Slap.02.SoundBible");
 		
-		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-Sound=");
+		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-sound");
 		
-		LoadAudioSource (SFXType.SAFE_MOUSE, "SafeMouse");
+		LoadAudioSource (SFXType.SAFE_MOUSE, "safemouse.01");
 	}
 
 
