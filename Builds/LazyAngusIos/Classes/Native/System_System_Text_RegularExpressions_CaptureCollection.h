@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Capture[]
-struct CaptureU5BU5D_t2108;
+struct CaptureU5BU5D_t2109;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.CaptureCollection
-struct  CaptureCollection_t2109  : public Object_t
+struct  CaptureCollection_t2110  : public Object_t
 {
 	// System.Text.RegularExpressions.Capture[] System.Text.RegularExpressions.CaptureCollection::list
-	CaptureU5BU5D_t2108* ___list_0;
+	CaptureU5BU5D_t2109* ___list_0;
 };

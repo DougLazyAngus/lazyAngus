@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Sockets.LingerOption
-struct  LingerOption_t1971  : public Object_t
+struct  LingerOption_t1972  : public Object_t
 {
 	// System.Boolean System.Net.Sockets.LingerOption::enabled
 	bool ___enabled_0;

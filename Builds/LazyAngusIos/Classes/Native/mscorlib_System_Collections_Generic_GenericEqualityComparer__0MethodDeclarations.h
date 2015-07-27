@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>
-struct GenericEqualityComparer_1_t2880;
+struct GenericEqualityComparer_1_t2881;
 // System.DateTimeOffset
 #include "mscorlib_System_DateTimeOffset.h"
 
 // System.Void System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>::.ctor()
-extern "C" void GenericEqualityComparer_1__ctor_m16470_gshared (GenericEqualityComparer_1_t2880 * __this, const MethodInfo* method);
-#define GenericEqualityComparer_1__ctor_m16470(__this, method) (( void (*) (GenericEqualityComparer_1_t2880 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m16470_gshared)(__this, method)
+extern "C" void GenericEqualityComparer_1__ctor_m16478_gshared (GenericEqualityComparer_1_t2881 * __this, const MethodInfo* method);
+#define GenericEqualityComparer_1__ctor_m16478(__this, method) (( void (*) (GenericEqualityComparer_1_t2881 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m16478_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>::GetHashCode(T)
-extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m29332_gshared (GenericEqualityComparer_1_t2880 * __this, DateTimeOffset_t1326  ___obj, const MethodInfo* method);
-#define GenericEqualityComparer_1_GetHashCode_m29332(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t2880 *, DateTimeOffset_t1326 , const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m29332_gshared)(__this, ___obj, method)
+extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m29340_gshared (GenericEqualityComparer_1_t2881 * __this, DateTimeOffset_t1327  ___obj, const MethodInfo* method);
+#define GenericEqualityComparer_1_GetHashCode_m29340(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t2881 *, DateTimeOffset_t1327 , const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m29340_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>::Equals(T,T)
-extern "C" bool GenericEqualityComparer_1_Equals_m29333_gshared (GenericEqualityComparer_1_t2880 * __this, DateTimeOffset_t1326  ___x, DateTimeOffset_t1326  ___y, const MethodInfo* method);
-#define GenericEqualityComparer_1_Equals_m29333(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t2880 *, DateTimeOffset_t1326 , DateTimeOffset_t1326 , const MethodInfo*))GenericEqualityComparer_1_Equals_m29333_gshared)(__this, ___x, ___y, method)
+extern "C" bool GenericEqualityComparer_1_Equals_m29341_gshared (GenericEqualityComparer_1_t2881 * __this, DateTimeOffset_t1327  ___x, DateTimeOffset_t1327  ___y, const MethodInfo* method);
+#define GenericEqualityComparer_1_Equals_m29341(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t2881 *, DateTimeOffset_t1327 , DateTimeOffset_t1327 , const MethodInfo*))GenericEqualityComparer_1_Equals_m29341_gshared)(__this, ___x, ___y, method)

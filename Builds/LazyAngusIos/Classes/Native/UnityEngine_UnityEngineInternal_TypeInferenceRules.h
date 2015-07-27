@@ -5,7 +5,7 @@
 // UnityEngineInternal.TypeInferenceRules
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules.h"
 // UnityEngineInternal.TypeInferenceRules
-struct  TypeInferenceRules_t1271 
+struct  TypeInferenceRules_t1272 
 {
 	// System.Int32 UnityEngineInternal.TypeInferenceRules::value__
 	int32_t ___value___1;

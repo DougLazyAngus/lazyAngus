@@ -9,6 +9,6 @@ struct AsyncCallback_t344;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>
-struct  ThreadSafeDictionaryValueFactory_2_t4003  : public MulticastDelegate_t346
+struct  ThreadSafeDictionaryValueFactory_2_t4004  : public MulticastDelegate_t346
 {
 };

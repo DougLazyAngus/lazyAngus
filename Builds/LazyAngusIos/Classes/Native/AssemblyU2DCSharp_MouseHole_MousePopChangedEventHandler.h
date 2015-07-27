@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // MouseHole/MousePopChangedEventHandler
-struct  MousePopChangedEventHandler_t505  : public MulticastDelegate_t346
+struct  MousePopChangedEventHandler_t507  : public MulticastDelegate_t346
 {
 };

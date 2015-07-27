@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RSA
-struct RSA_t1750;
+struct RSA_t1751;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -14,18 +14,18 @@ struct ByteU5BU5D_t36;
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
 
 // System.Void System.Security.Cryptography.RSA::.ctor()
-extern "C" void RSA__ctor_m9562 (RSA_t1750 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSA__ctor_m9570 (RSA_t1751 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RSA System.Security.Cryptography.RSA::Create()
-extern "C" RSA_t1750 * RSA_Create_m9555 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RSA_t1751 * RSA_Create_m9563 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RSA System.Security.Cryptography.RSA::Create(System.String)
-extern "C" RSA_t1750 * RSA_Create_m15092 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RSA_t1751 * RSA_Create_m15100 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.RSA::EncryptValue(System.Byte[])
 // System.Byte[] System.Security.Cryptography.RSA::DecryptValue(System.Byte[])
 // System.Security.Cryptography.RSAParameters System.Security.Cryptography.RSA::ExportParameters(System.Boolean)
 // System.Void System.Security.Cryptography.RSA::ImportParameters(System.Security.Cryptography.RSAParameters)
 // System.Void System.Security.Cryptography.RSA::ZeroizePrivateKey(System.Security.Cryptography.RSAParameters)
-extern "C" void RSA_ZeroizePrivateKey_m15093 (RSA_t1750 * __this, RSAParameters_t1831  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSA_ZeroizePrivateKey_m15101 (RSA_t1751 * __this, RSAParameters_t1832  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RSA::FromXmlString(System.String)
-extern "C" void RSA_FromXmlString_m9679 (RSA_t1750 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSA_FromXmlString_m9687 (RSA_t1751 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.RSA::ToXmlString(System.Boolean)
-extern "C" String_t* RSA_ToXmlString_m15094 (RSA_t1750 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RSA_ToXmlString_m15102 (RSA_t1751 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;

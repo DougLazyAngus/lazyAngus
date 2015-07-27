@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Authentication.SslProtocols
-struct SslProtocols_t2067;
+struct SslProtocols_t2068;
 

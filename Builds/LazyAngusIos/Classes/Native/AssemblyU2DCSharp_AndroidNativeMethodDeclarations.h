@@ -9,7 +9,7 @@ struct AndroidNative_t136;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t580;
+struct ObjectU5BU5D_t581;
 
 // System.Void AndroidNative::.ctor()
 extern "C" void AndroidNative__ctor_m937 (AndroidNative_t136 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -62,6 +62,6 @@ extern "C" void AndroidNative_StopLockTask_m960 (Object_t * __this /* static, un
 // System.Void AndroidNative::OpenAppInStore(System.String)
 extern "C" void AndroidNative_OpenAppInStore_m961 (Object_t * __this /* static, unused */, String_t* ___appPackageName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AndroidNative::CallUtility(System.String,System.Object[])
-extern "C" void AndroidNative_CallUtility_m962 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t580* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidNative_CallUtility_m962 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t581* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AndroidNative::CallAndroidNativeBridge(System.String,System.Object[])
-extern "C" void AndroidNative_CallAndroidNativeBridge_m963 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t580* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidNative_CallAndroidNativeBridge_m963 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t581* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

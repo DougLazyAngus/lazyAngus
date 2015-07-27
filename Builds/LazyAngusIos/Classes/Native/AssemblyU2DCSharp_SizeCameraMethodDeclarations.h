@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SizeCamera
-struct SizeCamera_t545;
+struct SizeCamera_t546;
 
 // System.Void SizeCamera::.ctor()
-extern "C" void SizeCamera__ctor_m2879 (SizeCamera_t545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera__ctor_m2887 (SizeCamera_t546 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SizeCamera::Start()
-extern "C" void SizeCamera_Start_m2880 (SizeCamera_t545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera_Start_m2888 (SizeCamera_t546 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

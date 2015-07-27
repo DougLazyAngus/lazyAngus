@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.PlayerPrefs
-struct PlayerPrefs_t1136;
+struct PlayerPrefs_t1137;
 // System.String
 struct String_t;
 
 // System.Boolean UnityEngine.PlayerPrefs::TrySetSetString(System.String,System.String)
-extern "C" bool PlayerPrefs_TrySetSetString_m6499 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PlayerPrefs_TrySetSetString_m6507 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
-extern "C" void PlayerPrefs_SetString_m3314 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerPrefs_SetString_m3322 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
-extern "C" String_t* PlayerPrefs_GetString_m6500 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PlayerPrefs_GetString_m6508 (Object_t * __this /* static, unused */, String_t* ___key, String_t* ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.PlayerPrefs::GetString(System.String)
-extern "C" String_t* PlayerPrefs_GetString_m3317 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PlayerPrefs_GetString_m3325 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.PlayerPrefs::HasKey(System.String)
-extern "C" bool PlayerPrefs_HasKey_m3316 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PlayerPrefs_HasKey_m3324 (Object_t * __this /* static, unused */, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

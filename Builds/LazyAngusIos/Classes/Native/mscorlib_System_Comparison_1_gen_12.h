@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<GP_Participant>
-struct  Comparison_1_t3533  : public MulticastDelegate_t346
+struct  Comparison_1_t3534  : public MulticastDelegate_t346
 {
 };

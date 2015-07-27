@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoEnumInfo/SByteComparer
-struct SByteComparer_t2775;
+struct SByteComparer_t2776;
 // System.Object
 struct Object_t;
 
 // System.Void System.MonoEnumInfo/SByteComparer::.ctor()
-extern "C" void SByteComparer__ctor_m16030 (SByteComparer_t2775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SByteComparer__ctor_m16038 (SByteComparer_t2776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/SByteComparer::Compare(System.Object,System.Object)
-extern "C" int32_t SByteComparer_Compare_m16031 (SByteComparer_t2775 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SByteComparer_Compare_m16039 (SByteComparer_t2776 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/SByteComparer::Compare(System.SByte,System.SByte)
-extern "C" int32_t SByteComparer_Compare_m16032 (SByteComparer_t2775 * __this, int8_t ___ix, int8_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SByteComparer_Compare_m16040 (SByteComparer_t2776 * __this, int8_t ___ix, int8_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;

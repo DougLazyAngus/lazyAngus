@@ -5,7 +5,7 @@
 // System.Security.Cryptography.X509Certificates.StoreLocation
 #include "System_System_Security_Cryptography_X509Certificates_StoreLo.h"
 // System.Security.Cryptography.X509Certificates.StoreLocation
-struct  StoreLocation_t2074 
+struct  StoreLocation_t2075 
 {
 	// System.Int32 System.Security.Cryptography.X509Certificates.StoreLocation::value__
 	int32_t ___value___1;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t1229;
+struct IUserProfileU5BU5D_t1230;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>
-struct  Action_1_t1068  : public MulticastDelegate_t346
+struct  Action_1_t1069  : public MulticastDelegate_t346
 {
 };

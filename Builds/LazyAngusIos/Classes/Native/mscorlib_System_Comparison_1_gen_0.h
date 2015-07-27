@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.RaycastHit>
-struct  Comparison_1_t786  : public MulticastDelegate_t346
+struct  Comparison_1_t787  : public MulticastDelegate_t346
 {
 };

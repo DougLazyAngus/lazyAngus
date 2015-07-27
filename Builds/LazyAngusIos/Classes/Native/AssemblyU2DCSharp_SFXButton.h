@@ -3,11 +3,11 @@
 // UnityEngine.Sprite
 struct Sprite_t430;
 // UnityEngine.UI.Image
-struct Image_t495;
+struct Image_t497;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SFXButton
-struct  SFXButton_t536  : public MonoBehaviour_t67
+struct  SFXButton_t537  : public MonoBehaviour_t67
 {
 	// System.Boolean SFXButton::registeredForEvents
 	bool ___registeredForEvents_2;
@@ -16,5 +16,5 @@ struct  SFXButton_t536  : public MonoBehaviour_t67
 	// UnityEngine.Sprite SFXButton::soundOffSprite
 	Sprite_t430 * ___soundOffSprite_4;
 	// UnityEngine.UI.Image SFXButton::buttonImage
-	Image_t495 * ___buttonImage_5;
+	Image_t497 * ___buttonImage_5;
 };

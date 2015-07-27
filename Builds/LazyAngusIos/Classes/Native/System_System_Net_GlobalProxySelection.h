@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.GlobalProxySelection
-struct  GlobalProxySelection_t2035  : public Object_t
+struct  GlobalProxySelection_t2036  : public Object_t
 {
 };

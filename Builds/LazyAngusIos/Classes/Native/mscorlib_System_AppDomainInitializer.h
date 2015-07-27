@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.AppDomainInitializer
-struct  AppDomainInitializer_t2755  : public MulticastDelegate_t346
+struct  AppDomainInitializer_t2756  : public MulticastDelegate_t346
 {
 };

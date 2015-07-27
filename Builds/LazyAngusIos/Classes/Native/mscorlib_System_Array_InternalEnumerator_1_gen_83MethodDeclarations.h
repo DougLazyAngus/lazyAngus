@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>
-struct InternalEnumerator_1_t4149;
+struct InternalEnumerator_1_t4150;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.Group
-struct Group_t1893;
+struct Group_t1894;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m28885(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4149 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17355_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m28893(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4150 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17363_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28886(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4149 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17356_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28894(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4150 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17364_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::Dispose()
-#define InternalEnumerator_1_Dispose_m28887(__this, method) (( void (*) (InternalEnumerator_1_t4149 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17357_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m28895(__this, method) (( void (*) (InternalEnumerator_1_t4150 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17365_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m28888(__this, method) (( bool (*) (InternalEnumerator_1_t4149 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17358_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m28896(__this, method) (( bool (*) (InternalEnumerator_1_t4150 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17366_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::get_Current()
-#define InternalEnumerator_1_get_Current_m28889(__this, method) (( Group_t1893 * (*) (InternalEnumerator_1_t4149 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17359_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m28897(__this, method) (( Group_t1894 * (*) (InternalEnumerator_1_t4150 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17367_gshared)(__this, method)

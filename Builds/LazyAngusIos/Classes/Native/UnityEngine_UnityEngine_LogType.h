@@ -5,7 +5,7 @@
 // UnityEngine.LogType
 #include "UnityEngine_UnityEngine_LogType.h"
 // UnityEngine.LogType
-struct  LogType_t689 
+struct  LogType_t690 
 {
 	// System.Int32 UnityEngine.LogType::value__
 	int32_t ___value___1;

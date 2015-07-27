@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.GUISkin/SkinChangedDelegate
-struct  SkinChangedDelegate_t1101  : public MulticastDelegate_t346
+struct  SkinChangedDelegate_t1102  : public MulticastDelegate_t346
 {
 };

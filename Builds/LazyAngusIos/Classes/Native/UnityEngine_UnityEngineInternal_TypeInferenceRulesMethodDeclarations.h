@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngineInternal.TypeInferenceRules
-struct TypeInferenceRules_t1271;
+struct TypeInferenceRules_t1272;
 

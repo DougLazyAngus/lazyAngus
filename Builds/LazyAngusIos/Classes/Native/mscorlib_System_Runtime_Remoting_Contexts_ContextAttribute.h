@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.Remoting.Contexts.ContextAttribute
-struct  ContextAttribute_t2559  : public Attribute_t384
+struct  ContextAttribute_t2560  : public Attribute_t384
 {
 	// System.String System.Runtime.Remoting.Contexts.ContextAttribute::AttributeName
 	String_t* ___AttributeName_0;

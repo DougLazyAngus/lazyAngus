@@ -20,10 +20,10 @@ struct AsyncCallback_t344;
 // System.Void System.Action`1<InstagramPostResult>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Int32>
 #include "mscorlib_System_Action_1_gen_19MethodDeclarations.h"
-#define Action_1__ctor_m3310(__this, ___object, ___method, method) (( void (*) (Action_1_t263 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m21143_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m3318(__this, ___object, ___method, method) (( void (*) (Action_1_t263 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m21151_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<InstagramPostResult>::Invoke(T)
-#define Action_1_Invoke_m21144(__this, ___obj, method) (( void (*) (Action_1_t263 *, int32_t, const MethodInfo*))Action_1_Invoke_m21145_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m21152(__this, ___obj, method) (( void (*) (Action_1_t263 *, int32_t, const MethodInfo*))Action_1_Invoke_m21153_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<InstagramPostResult>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m21146(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t263 *, int32_t, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m21147_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m21154(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t263 *, int32_t, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m21155_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<InstagramPostResult>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m21148(__this, ___result, method) (( void (*) (Action_1_t263 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m21149_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m21156(__this, ___result, method) (( void (*) (Action_1_t263 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m21157_gshared)(__this, ___result, method)

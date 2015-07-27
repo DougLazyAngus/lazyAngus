@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyTrademarkAttribute
-struct AssemblyTrademarkAttribute_t994;
+struct AssemblyTrademarkAttribute_t995;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
-extern "C" void AssemblyTrademarkAttribute__ctor_m5581 (AssemblyTrademarkAttribute_t994 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyTrademarkAttribute__ctor_m5589 (AssemblyTrademarkAttribute_t995 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.RenderBuffer
-struct  RenderBuffer_t1223 
+struct  RenderBuffer_t1224 
 {
 	// System.Int32 UnityEngine.RenderBuffer::m_RenderTextureInstanceID
 	int32_t ___m_RenderTextureInstanceID_0;

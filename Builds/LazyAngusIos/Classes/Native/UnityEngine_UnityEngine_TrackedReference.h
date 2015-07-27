@@ -5,13 +5,13 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.TrackedReference
-struct  TrackedReference_t1154  : public Object_t
+struct  TrackedReference_t1155  : public Object_t
 {
 	// System.IntPtr UnityEngine.TrackedReference::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
 // Native definition for marshalling of: UnityEngine.TrackedReference
-struct TrackedReference_t1154_marshaled
+struct TrackedReference_t1155_marshaled
 {
 	IntPtr_t ___m_Ptr_0;
 };

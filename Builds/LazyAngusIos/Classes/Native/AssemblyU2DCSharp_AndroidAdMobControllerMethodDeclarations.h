@@ -7,7 +7,7 @@
 // AndroidAdMobController
 struct AndroidAdMobController_t118;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t579;
+struct List_1_t580;
 // System.String
 struct String_t;
 // System.Action
@@ -70,7 +70,7 @@ extern "C" void AndroidAdMobController_RecordInAppResolution_m725 (AndroidAdMobC
 // GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32)
 extern "C" Object_t * AndroidAdMobController_GetBanner_m726 (AndroidAdMobController_t118 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner> AndroidAdMobController::get_banners()
-extern "C" List_1_t579 * AndroidAdMobController_get_banners_m727 (AndroidAdMobController_t118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t580 * AndroidAdMobController_get_banners_m727 (AndroidAdMobController_t118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean AndroidAdMobController::get_IsInited()
 extern "C" bool AndroidAdMobController_get_IsInited_m728 (AndroidAdMobController_t118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String AndroidAdMobController::get_BannersUunitId()

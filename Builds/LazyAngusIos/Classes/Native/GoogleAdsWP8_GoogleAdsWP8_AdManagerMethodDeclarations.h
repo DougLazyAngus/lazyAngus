@@ -5,35 +5,35 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GoogleAdsWP8.AdManager
-struct AdManager_t626;
+struct AdManager_t627;
 // System.String
 struct String_t;
 
 // System.Void GoogleAdsWP8.AdManager::Init(System.String)
-extern "C" void AdManager_Init_m3194 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_Init_m3202 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // GoogleAdsWP8.AdManager GoogleAdsWP8.AdManager::get_instance()
-extern "C" AdManager_t626 * AdManager_get_instance_m3193 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AdManager_t627 * AdManager_get_instance_m3201 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::EnableForceTesting()
-extern "C" void AdManager_EnableForceTesting_m3200 (AdManager_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_EnableForceTesting_m3208 (AdManager_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::ChangeBannersUnitID(System.String)
-extern "C" void AdManager_ChangeBannersUnitID_m3196 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_ChangeBannersUnitID_m3204 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::ChangeInterstisialsUnitID(System.String)
-extern "C" void AdManager_ChangeInterstisialsUnitID_m3197 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_ChangeInterstisialsUnitID_m3205 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::DestroyBanner(System.Int32)
-extern "C" void AdManager_DestroyBanner_m3198 (AdManager_t626 * __this, int32_t ___bannerId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_DestroyBanner_m3206 (AdManager_t627 * __this, int32_t ___bannerId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::AddKeyword(System.String)
-extern "C" void AdManager_AddKeyword_m3199 (AdManager_t626 * __this, String_t* ___keyword, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_AddKeyword_m3207 (AdManager_t627 * __this, String_t* ___keyword, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::SetGender(System.Int32)
-extern "C" void AdManager_SetGender_m3201 (AdManager_t626 * __this, int32_t ___gender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_SetGender_m3209 (AdManager_t627 * __this, int32_t ___gender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::SetBirthday(System.Int32,System.Int32,System.Int32)
-extern "C" void AdManager_SetBirthday_m3202 (AdManager_t626 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_SetBirthday_m3210 (AdManager_t627 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::StartInterstitialAd()
-extern "C" void AdManager_StartInterstitialAd_m3203 (AdManager_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_StartInterstitialAd_m3211 (AdManager_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::LoadInterstitialAd()
-extern "C" void AdManager_LoadInterstitialAd_m3204 (AdManager_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_LoadInterstitialAd_m3212 (AdManager_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::ShowInterstitialAd()
-extern "C" void AdManager_ShowInterstitialAd_m3205 (AdManager_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_ShowInterstitialAd_m3213 (AdManager_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::SetOrientation(System.Int32)
-extern "C" void AdManager_SetOrientation_m3195 (AdManager_t626 * __this, int32_t ___orientation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager_SetOrientation_m3203 (AdManager_t627 * __this, int32_t ___orientation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern "C" void AdManager__ctor_m7471 (AdManager_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager__ctor_m7479 (AdManager_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

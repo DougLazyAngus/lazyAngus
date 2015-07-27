@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader
-struct ObjectReader_t2626;
+struct ObjectReader_t2627;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-struct BinaryFormatter_t2608;
+struct BinaryFormatter_t2609;
 // System.IO.BinaryReader
 struct BinaryReader_t25;
 // System.Runtime.Remoting.Messaging.Header[]
-struct HeaderU5BU5D_t2821;
+struct HeaderU5BU5D_t2822;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1299;
+struct SerializationInfo_t1300;
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata
-struct TypeMetadata_t2623;
+struct TypeMetadata_t2624;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Int32[]
-struct Int32U5BU5D_t493;
+struct Int32U5BU5D_t495;
 // System.Array
 struct Array_t;
 // System.Type
@@ -34,56 +34,56 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::.ctor(System.Runtime.Serialization.Formatters.Binary.BinaryFormatter)
-extern "C" void ObjectReader__ctor_m14813 (ObjectReader_t2626 * __this, BinaryFormatter_t2608 * ___formatter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader__ctor_m14821 (ObjectReader_t2627 * __this, BinaryFormatter_t2609 * ___formatter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadObjectGraph(System.IO.BinaryReader,System.Boolean,System.Object&,System.Runtime.Remoting.Messaging.Header[]&)
-extern "C" void ObjectReader_ReadObjectGraph_m14814 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, bool ___readHeaders, Object_t ** ___result, HeaderU5BU5D_t2821** ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadObjectGraph_m14822 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, bool ___readHeaders, Object_t ** ___result, HeaderU5BU5D_t2822** ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadObjectGraph(System.Runtime.Serialization.Formatters.Binary.BinaryElement,System.IO.BinaryReader,System.Boolean,System.Object&,System.Runtime.Remoting.Messaging.Header[]&)
-extern "C" void ObjectReader_ReadObjectGraph_m14815 (ObjectReader_t2626 * __this, uint8_t ___elem, BinaryReader_t25 * ___reader, bool ___readHeaders, Object_t ** ___result, HeaderU5BU5D_t2821** ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadObjectGraph_m14823 (ObjectReader_t2627 * __this, uint8_t ___elem, BinaryReader_t25 * ___reader, bool ___readHeaders, Object_t ** ___result, HeaderU5BU5D_t2822** ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadNextObject(System.Runtime.Serialization.Formatters.Binary.BinaryElement,System.IO.BinaryReader)
-extern "C" bool ObjectReader_ReadNextObject_m14816 (ObjectReader_t2626 * __this, uint8_t ___element, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectReader_ReadNextObject_m14824 (ObjectReader_t2627 * __this, uint8_t ___element, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadNextObject(System.IO.BinaryReader)
-extern "C" bool ObjectReader_ReadNextObject_m14817 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectReader_ReadNextObject_m14825 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.Formatters.Binary.ObjectReader::get_CurrentObject()
-extern "C" Object_t * ObjectReader_get_CurrentObject_m14818 (ObjectReader_t2626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjectReader_get_CurrentObject_m14826 (ObjectReader_t2627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadObject(System.Runtime.Serialization.Formatters.Binary.BinaryElement,System.IO.BinaryReader,System.Int64&,System.Object&,System.Runtime.Serialization.SerializationInfo&)
-extern "C" void ObjectReader_ReadObject_m14819 (ObjectReader_t2626 * __this, uint8_t ___element, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1299 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadObject_m14827 (ObjectReader_t2627 * __this, uint8_t ___element, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1300 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadAssembly(System.IO.BinaryReader)
-extern "C" void ObjectReader_ReadAssembly_m14820 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadAssembly_m14828 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadObjectInstance(System.IO.BinaryReader,System.Boolean,System.Boolean,System.Int64&,System.Object&,System.Runtime.Serialization.SerializationInfo&)
-extern "C" void ObjectReader_ReadObjectInstance_m14821 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, bool ___isRuntimeObject, bool ___hasTypeInfo, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1299 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadObjectInstance_m14829 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, bool ___isRuntimeObject, bool ___hasTypeInfo, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1300 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadRefTypeObjectInstance(System.IO.BinaryReader,System.Int64&,System.Object&,System.Runtime.Serialization.SerializationInfo&)
-extern "C" void ObjectReader_ReadRefTypeObjectInstance_m14822 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1299 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadRefTypeObjectInstance_m14830 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, SerializationInfo_t1300 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadObjectContent(System.IO.BinaryReader,System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata,System.Int64,System.Object&,System.Runtime.Serialization.SerializationInfo&)
-extern "C" void ObjectReader_ReadObjectContent_m14823 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, TypeMetadata_t2623 * ___metadata, int64_t ___objectId, Object_t ** ___objectInstance, SerializationInfo_t1299 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadObjectContent_m14831 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, TypeMetadata_t2624 * ___metadata, int64_t ___objectId, Object_t ** ___objectInstance, SerializationInfo_t1300 ** ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::RegisterObject(System.Int64,System.Object,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[])
-extern "C" void ObjectReader_RegisterObject_m14824 (ObjectReader_t2626 * __this, int64_t ___objectId, Object_t * ___objectInstance, SerializationInfo_t1299 * ___info, int64_t ___parentObjectId, MemberInfo_t * ___parentObjectMemeber, Int32U5BU5D_t493* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_RegisterObject_m14832 (ObjectReader_t2627 * __this, int64_t ___objectId, Object_t * ___objectInstance, SerializationInfo_t1300 * ___info, int64_t ___parentObjectId, MemberInfo_t * ___parentObjectMemeber, Int32U5BU5D_t495* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadStringIntance(System.IO.BinaryReader,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadStringIntance_m14825 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadStringIntance_m14833 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadGenericArray(System.IO.BinaryReader,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadGenericArray_m14826 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadGenericArray_m14834 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadBoxedPrimitiveTypeValue(System.IO.BinaryReader)
-extern "C" Object_t * ObjectReader_ReadBoxedPrimitiveTypeValue_m14827 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjectReader_ReadBoxedPrimitiveTypeValue_m14835 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadArrayOfPrimitiveType(System.IO.BinaryReader,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadArrayOfPrimitiveType_m14828 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadArrayOfPrimitiveType_m14836 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::BlockRead(System.IO.BinaryReader,System.Array,System.Int32)
-extern "C" void ObjectReader_BlockRead_m14829 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, Array_t * ___array, int32_t ___dataSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_BlockRead_m14837 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, Array_t * ___array, int32_t ___dataSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadArrayOfObject(System.IO.BinaryReader,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadArrayOfObject_m14830 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadArrayOfObject_m14838 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadArrayOfString(System.IO.BinaryReader,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadArrayOfString_m14831 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadArrayOfString_m14839 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, int64_t* ___objectId, Object_t ** ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadSimpleArray(System.IO.BinaryReader,System.Type,System.Int64&,System.Object&)
-extern "C" void ObjectReader_ReadSimpleArray_m14832 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, Type_t * ___elementType, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadSimpleArray_m14840 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, Type_t * ___elementType, int64_t* ___objectId, Object_t ** ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadTypeMetadata(System.IO.BinaryReader,System.Boolean,System.Boolean)
-extern "C" TypeMetadata_t2623 * ObjectReader_ReadTypeMetadata_m14833 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, bool ___isRuntimeObject, bool ___hasTypeInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeMetadata_t2624 * ObjectReader_ReadTypeMetadata_m14841 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, bool ___isRuntimeObject, bool ___hasTypeInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadValue(System.IO.BinaryReader,System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Type,System.String,System.Reflection.MemberInfo,System.Int32[])
-extern "C" void ObjectReader_ReadValue_m14834 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, Object_t * ___parentObject, int64_t ___parentObjectId, SerializationInfo_t1299 * ___info, Type_t * ___valueType, String_t* ___fieldName, MemberInfo_t * ___memberInfo, Int32U5BU5D_t493* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_ReadValue_m14842 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, Object_t * ___parentObject, int64_t ___parentObjectId, SerializationInfo_t1300 * ___info, Type_t * ___valueType, String_t* ___fieldName, MemberInfo_t * ___memberInfo, Int32U5BU5D_t495* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::SetObjectValue(System.Object,System.String,System.Reflection.MemberInfo,System.Runtime.Serialization.SerializationInfo,System.Object,System.Type,System.Int32[])
-extern "C" void ObjectReader_SetObjectValue_m14835 (ObjectReader_t2626 * __this, Object_t * ___parentObject, String_t* ___fieldName, MemberInfo_t * ___memberInfo, SerializationInfo_t1299 * ___info, Object_t * ___value, Type_t * ___valueType, Int32U5BU5D_t493* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_SetObjectValue_m14843 (ObjectReader_t2627 * __this, Object_t * ___parentObject, String_t* ___fieldName, MemberInfo_t * ___memberInfo, SerializationInfo_t1300 * ___info, Object_t * ___value, Type_t * ___valueType, Int32U5BU5D_t495* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader::RecordFixup(System.Int64,System.Int64,System.Object,System.Runtime.Serialization.SerializationInfo,System.String,System.Reflection.MemberInfo,System.Int32[])
-extern "C" void ObjectReader_RecordFixup_m14836 (ObjectReader_t2626 * __this, int64_t ___parentObjectId, int64_t ___childObjectId, Object_t * ___parentObject, SerializationInfo_t1299 * ___info, String_t* ___fieldName, MemberInfo_t * ___memberInfo, Int32U5BU5D_t493* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectReader_RecordFixup_m14844 (ObjectReader_t2627 * __this, int64_t ___parentObjectId, int64_t ___childObjectId, Object_t * ___parentObject, SerializationInfo_t1300 * ___info, String_t* ___fieldName, MemberInfo_t * ___memberInfo, Int32U5BU5D_t495* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.Formatters.Binary.ObjectReader::GetDeserializationType(System.Int64,System.String)
-extern "C" Type_t * ObjectReader_GetDeserializationType_m14837 (ObjectReader_t2626 * __this, int64_t ___assemblyId, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ObjectReader_GetDeserializationType_m14845 (ObjectReader_t2627 * __this, int64_t ___assemblyId, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadType(System.IO.BinaryReader,System.Runtime.Serialization.Formatters.Binary.TypeTag)
-extern "C" Type_t * ObjectReader_ReadType_m14838 (ObjectReader_t2626 * __this, BinaryReader_t25 * ___reader, uint8_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ObjectReader_ReadType_m14846 (ObjectReader_t2627 * __this, BinaryReader_t25 * ___reader, uint8_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.Formatters.Binary.ObjectReader::ReadPrimitiveTypeValue(System.IO.BinaryReader,System.Type)
-extern "C" Object_t * ObjectReader_ReadPrimitiveTypeValue_m14839 (Object_t * __this /* static, unused */, BinaryReader_t25 * ___reader, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjectReader_ReadPrimitiveTypeValue_m14847 (Object_t * __this /* static, unused */, BinaryReader_t25 * ___reader, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

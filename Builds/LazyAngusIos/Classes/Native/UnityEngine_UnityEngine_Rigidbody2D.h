@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Rigidbody2D
-struct  Rigidbody2D_t1141  : public Component_t658
+struct  Rigidbody2D_t1142  : public Component_t659
 {
 };

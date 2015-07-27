@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Graphic
-struct Graphic_t810;
+struct Graphic_t811;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.UI.Graphic>
-struct  Predicate_1_t3807  : public MulticastDelegate_t346
+struct  Predicate_1_t3808  : public MulticastDelegate_t346
 {
 };

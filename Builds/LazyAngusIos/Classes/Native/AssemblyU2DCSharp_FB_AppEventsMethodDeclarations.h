@@ -20,6 +20,6 @@ extern "C" bool AppEvents_get_LimitEventUsage_m1966 (Object_t * __this /* static
 // System.Void FB/AppEvents::set_LimitEventUsage(System.Boolean)
 extern "C" void AppEvents_set_LimitEventUsage_m1967 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB/AppEvents::LogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void AppEvents_LogEvent_m1968 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t589  ___valueToSum, Dictionary_2_t270 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppEvents_LogEvent_m1968 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t590  ___valueToSum, Dictionary_2_t270 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FB/AppEvents::LogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern "C" void AppEvents_LogPurchase_m1969 (Object_t * __this /* static, unused */, float ___logPurchase, String_t* ___currency, Dictionary_2_t270 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Handshake.HandshakeType
-struct HandshakeType_t1833;
+struct HandshakeType_t1834;
 

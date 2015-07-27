@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Renderer
-struct  Renderer_t592  : public Component_t658
+struct  Renderer_t593  : public Component_t659
 {
 };

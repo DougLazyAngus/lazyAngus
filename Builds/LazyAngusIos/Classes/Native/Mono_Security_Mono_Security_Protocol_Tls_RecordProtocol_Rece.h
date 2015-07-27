@@ -7,7 +7,7 @@ struct AsyncCallback_t344;
 // System.Exception
 struct Exception_t27;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t1808;
+struct ManualResetEvent_t1809;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.IO.Stream
@@ -15,7 +15,7 @@ struct Stream_t24;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult
-struct  ReceiveRecordAsyncResult_t1809  : public Object_t
+struct  ReceiveRecordAsyncResult_t1810  : public Object_t
 {
 	// System.Object Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::locker
 	Object_t * ___locker_0;
@@ -26,7 +26,7 @@ struct  ReceiveRecordAsyncResult_t1809  : public Object_t
 	// System.Exception Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::_asyncException
 	Exception_t27 * ____asyncException_3;
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::handle
-	ManualResetEvent_t1808 * ___handle_4;
+	ManualResetEvent_t1809 * ___handle_4;
 	// System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::_resultingBuffer
 	ByteU5BU5D_t36* ____resultingBuffer_5;
 	// System.IO.Stream Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::_record

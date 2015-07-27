@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.SHA1
-struct SHA1_t1870;
+struct SHA1_t1871;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.SHA1::.ctor()
-extern "C" void SHA1__ctor_m15141 (SHA1_t1870 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1__ctor_m15149 (SHA1_t1871 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA1 System.Security.Cryptography.SHA1::Create()
-extern "C" SHA1_t1870 * SHA1_Create_m9579 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA1_t1871 * SHA1_Create_m9587 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA1 System.Security.Cryptography.SHA1::Create(System.String)
-extern "C" SHA1_t1870 * SHA1_Create_m15142 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA1_t1871 * SHA1_Create_m15150 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

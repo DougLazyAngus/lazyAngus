@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.StoreLocation
-struct StoreLocation_t2074;
+struct StoreLocation_t2075;
 

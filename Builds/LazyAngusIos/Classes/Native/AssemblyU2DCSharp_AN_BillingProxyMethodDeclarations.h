@@ -9,12 +9,12 @@ struct AN_BillingProxy_t122;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t580;
+struct ObjectU5BU5D_t581;
 
 // System.Void AN_BillingProxy::.ctor()
 extern "C" void AN_BillingProxy__ctor_m785 (AN_BillingProxy_t122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_BillingProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_BillingProxy_CallActivityFunction_m786 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t580* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_BillingProxy_CallActivityFunction_m786 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t581* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_BillingProxy::Connect(System.String,System.String)
 extern "C" void AN_BillingProxy_Connect_m787 (Object_t * __this /* static, unused */, String_t* ___ids, String_t* ___base64EncodedPublicKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_BillingProxy::RetrieveProducDetails()

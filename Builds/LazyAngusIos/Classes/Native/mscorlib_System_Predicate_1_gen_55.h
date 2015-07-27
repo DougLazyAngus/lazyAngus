@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Policy.StrongName
-struct StrongName_t2698;
+struct StrongName_t2699;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<System.Security.Policy.StrongName>
-struct  Predicate_1_t4202  : public MulticastDelegate_t346
+struct  Predicate_1_t4203  : public MulticastDelegate_t346
 {
 };

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Component
-struct Component_t658;
+struct Component_t659;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.Component>
-struct  Comparison_1_t3719  : public MulticastDelegate_t346
+struct  Comparison_1_t3720  : public MulticastDelegate_t346
 {
 };

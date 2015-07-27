@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Locale
-struct Locale_t1719;
+struct Locale_t1720;
 // System.String
 struct String_t;
 
 // System.String Locale::GetText(System.String)
-extern "C" String_t* Locale_GetText_m8664 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m8672 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // ThrobForEffect
-struct ThrobForEffect_t507;
+struct ThrobForEffect_t509;
 // UnityEngine.GameObject
 struct GameObject_t310;
 // TipConfig
 struct TipConfig_t431;
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t505;
+struct MousePopChangedEventHandler_t507;
 // MouseHole/CapacityChangedEventHandler
-struct CapacityChangedEventHandler_t506;
+struct CapacityChangedEventHandler_t508;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -17,7 +17,7 @@ struct CapacityChangedEventHandler_t506;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t475  : public MonoBehaviour_t67
+struct  MouseHole_t477  : public MonoBehaviour_t67
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
 	Vector3_t449  ___meterOffset_2;
@@ -26,7 +26,7 @@ struct  MouseHole_t475  : public MonoBehaviour_t67
 	// System.Int32 MouseHole::savedMouseCount
 	int32_t ___savedMouseCount_5;
 	// ThrobForEffect MouseHole::throbForEffect
-	ThrobForEffect_t507 * ___throbForEffect_6;
+	ThrobForEffect_t509 * ___throbForEffect_6;
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
 	GameObject_t310 * ___holeMeterPrototype_7;
 	// TipConfig MouseHole::mouseHoleTip
@@ -36,11 +36,11 @@ struct  MouseHole_t475  : public MonoBehaviour_t67
 	// System.Boolean MouseHole::registeredForEvents
 	bool ___registeredForEvents_10;
 	// MouseHole/MousePopChangedEventHandler MouseHole::MousePopChanged
-	MousePopChangedEventHandler_t505 * ___MousePopChanged_11;
+	MousePopChangedEventHandler_t507 * ___MousePopChanged_11;
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
-	CapacityChangedEventHandler_t506 * ___CapacityChanged_12;
+	CapacityChangedEventHandler_t508 * ___CapacityChanged_12;
 };
-struct MouseHole_t475_StaticFields{
+struct MouseHole_t477_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
 	float ___angleBetweenHoles_4;
 };

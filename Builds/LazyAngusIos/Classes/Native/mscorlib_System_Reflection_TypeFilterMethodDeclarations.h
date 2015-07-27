@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.TypeFilter
-struct TypeFilter_t2510;
+struct TypeFilter_t2511;
 // System.Object
 struct Object_t;
 // System.Type
@@ -18,11 +18,11 @@ struct AsyncCallback_t344;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.TypeFilter::.ctor(System.Object,System.IntPtr)
-extern "C" void TypeFilter__ctor_m16430 (TypeFilter_t2510 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeFilter__ctor_m16438 (TypeFilter_t2511 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.TypeFilter::Invoke(System.Type,System.Object)
-extern "C" bool TypeFilter_Invoke_m16431 (TypeFilter_t2510 * __this, Type_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool pinvoke_delegate_wrapper_TypeFilter_t2510(Il2CppObject* delegate, Type_t * ___m, Object_t * ___filterCriteria);
+extern "C" bool TypeFilter_Invoke_m16439 (TypeFilter_t2511 * __this, Type_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool pinvoke_delegate_wrapper_TypeFilter_t2511(Il2CppObject* delegate, Type_t * ___m, Object_t * ___filterCriteria);
 // System.IAsyncResult System.Reflection.TypeFilter::BeginInvoke(System.Type,System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * TypeFilter_BeginInvoke_m16432 (TypeFilter_t2510 * __this, Type_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TypeFilter_BeginInvoke_m16440 (TypeFilter_t2511 * __this, Type_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.TypeFilter::EndInvoke(System.IAsyncResult)
-extern "C" bool TypeFilter_EndInvoke_m16433 (TypeFilter_t2510 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TypeFilter_EndInvoke_m16441 (TypeFilter_t2511 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

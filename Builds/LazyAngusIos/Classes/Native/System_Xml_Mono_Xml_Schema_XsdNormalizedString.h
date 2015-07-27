@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
 // Mono.Xml.Schema.XsdNormalizedString
-struct  XsdNormalizedString_t1497  : public XsdString_t1496
+struct  XsdNormalizedString_t1498  : public XsdString_t1497
 {
 };

@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<MouseHole/MouseHoleLocation>
-struct  Predicate_1_t3693  : public MulticastDelegate_t346
+struct  Predicate_1_t3694  : public MulticastDelegate_t346
 {
 };

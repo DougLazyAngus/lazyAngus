@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // MouseHole/CapacityChangedEventHandler
-struct  CapacityChangedEventHandler_t506  : public MulticastDelegate_t346
+struct  CapacityChangedEventHandler_t508  : public MulticastDelegate_t346
 {
 };

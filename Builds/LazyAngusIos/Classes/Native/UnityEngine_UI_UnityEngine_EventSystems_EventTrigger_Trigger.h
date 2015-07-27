@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<UnityEngine.EventSystems.BaseEventData>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen.h"
 // UnityEngine.EventSystems.EventTrigger/TriggerEvent
-struct  TriggerEvent_t737  : public UnityEvent_1_t738
+struct  TriggerEvent_t738  : public UnityEvent_1_t739
 {
 };

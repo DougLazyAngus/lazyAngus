@@ -3,7 +3,7 @@
 // System.Type
 struct Type_t;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t1201;
+struct ConstructorDelegate_t1202;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate,System.Collections.DictionaryEntry>
-struct  Transform_1_t4008  : public MulticastDelegate_t346
+struct  Transform_1_t4009  : public MulticastDelegate_t346
 {
 };

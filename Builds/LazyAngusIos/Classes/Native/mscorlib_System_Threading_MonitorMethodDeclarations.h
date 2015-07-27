@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Monitor
-struct Monitor_t2739;
+struct Monitor_t2740;
 // System.Object
 struct Object_t;
 
 // System.Void System.Threading.Monitor::Enter(System.Object)
-extern "C" void Monitor_Enter_m9604 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Enter_m9612 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Monitor::Exit(System.Object)
-extern "C" void Monitor_Exit_m9606 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Exit_m9614 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

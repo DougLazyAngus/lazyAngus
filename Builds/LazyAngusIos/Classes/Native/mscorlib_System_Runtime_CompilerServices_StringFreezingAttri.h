@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.CompilerServices.StringFreezingAttribute
-struct  StringFreezingAttribute_t2532  : public Attribute_t384
+struct  StringFreezingAttribute_t2533  : public Attribute_t384
 {
 };

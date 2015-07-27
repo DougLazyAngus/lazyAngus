@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.Assemblies.AssemblyVersionCompatibility
-struct AssemblyVersionCompatibility_t2425;
+struct AssemblyVersionCompatibility_t2426;
 

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // PausedOverlay
-struct PausedOverlay_t520;
+struct PausedOverlay_t521;
 // UnityEngine.GameObject
 struct GameObject_t310;
 // UnityEngine.UI.Button
@@ -9,7 +9,7 @@ struct Button_t421;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PausedOverlay
-struct  PausedOverlay_t520  : public MonoBehaviour_t67
+struct  PausedOverlay_t521  : public MonoBehaviour_t67
 {
 	// UnityEngine.GameObject PausedOverlay::overlay
 	GameObject_t310 * ___overlay_3;
@@ -20,7 +20,7 @@ struct  PausedOverlay_t520  : public MonoBehaviour_t67
 	// System.Boolean PausedOverlay::registeredForEvents
 	bool ___registeredForEvents_6;
 };
-struct PausedOverlay_t520_StaticFields{
+struct PausedOverlay_t521_StaticFields{
 	// PausedOverlay PausedOverlay::instance
-	PausedOverlay_t520 * ___instance_2;
+	PausedOverlay_t521 * ___instance_2;
 };

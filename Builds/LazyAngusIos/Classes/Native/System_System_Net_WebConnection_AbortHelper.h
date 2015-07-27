@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.WebConnection
-struct WebConnection_t2045;
+struct WebConnection_t2046;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebConnection/AbortHelper
-struct  AbortHelper_t2057  : public Object_t
+struct  AbortHelper_t2058  : public Object_t
 {
 	// System.Net.WebConnection System.Net.WebConnection/AbortHelper::Connection
-	WebConnection_t2045 * ___Connection_0;
+	WebConnection_t2046 * ___Connection_0;
 };

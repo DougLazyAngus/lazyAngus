@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PlayerStats/ScoreChangedEventHandler
-struct  ScoreChangedEventHandler_t528  : public MulticastDelegate_t346
+struct  ScoreChangedEventHandler_t529  : public MulticastDelegate_t346
 {
 };

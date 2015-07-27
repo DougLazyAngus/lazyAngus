@@ -5,7 +5,7 @@
 // UnityEngine.EventSystems.EventHandle
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventHandle.h"
 // UnityEngine.EventSystems.EventHandle
-struct  EventHandle_t730 
+struct  EventHandle_t731 
 {
 	// System.Int32 UnityEngine.EventSystems.EventHandle::value__
 	int32_t ___value___1;

@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
-struct Enumerator_t3922;
+struct Enumerator_t3923;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
-struct List_1_t1161;
+struct List_1_t1162;
 // UnityEngine.UICharInfo
 #include "UnityEngine_UnityEngine_UICharInfo.h"
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C" void Enumerator__ctor_m26182_gshared (Enumerator_t3922 * __this, List_1_t1161 * ___l, const MethodInfo* method);
-#define Enumerator__ctor_m26182(__this, ___l, method) (( void (*) (Enumerator_t3922 *, List_1_t1161 *, const MethodInfo*))Enumerator__ctor_m26182_gshared)(__this, ___l, method)
+extern "C" void Enumerator__ctor_m26190_gshared (Enumerator_t3923 * __this, List_1_t1162 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m26190(__this, ___l, method) (( void (*) (Enumerator_t3923 *, List_1_t1162 *, const MethodInfo*))Enumerator__ctor_m26190_gshared)(__this, ___l, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m26183_gshared (Enumerator_t3922 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m26183(__this, method) (( Object_t * (*) (Enumerator_t3922 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m26183_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m26191_gshared (Enumerator_t3923 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m26191(__this, method) (( Object_t * (*) (Enumerator_t3923 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m26191_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::Dispose()
-extern "C" void Enumerator_Dispose_m26184_gshared (Enumerator_t3922 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m26184(__this, method) (( void (*) (Enumerator_t3922 *, const MethodInfo*))Enumerator_Dispose_m26184_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m26192_gshared (Enumerator_t3923 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m26192(__this, method) (( void (*) (Enumerator_t3923 *, const MethodInfo*))Enumerator_Dispose_m26192_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::VerifyState()
-extern "C" void Enumerator_VerifyState_m26185_gshared (Enumerator_t3922 * __this, const MethodInfo* method);
-#define Enumerator_VerifyState_m26185(__this, method) (( void (*) (Enumerator_t3922 *, const MethodInfo*))Enumerator_VerifyState_m26185_gshared)(__this, method)
+extern "C" void Enumerator_VerifyState_m26193_gshared (Enumerator_t3923 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m26193(__this, method) (( void (*) (Enumerator_t3923 *, const MethodInfo*))Enumerator_VerifyState_m26193_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m26186_gshared (Enumerator_t3922 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m26186(__this, method) (( bool (*) (Enumerator_t3922 *, const MethodInfo*))Enumerator_MoveNext_m26186_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m26194_gshared (Enumerator_t3923 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m26194(__this, method) (( bool (*) (Enumerator_t3923 *, const MethodInfo*))Enumerator_MoveNext_m26194_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::get_Current()
-extern "C" UICharInfo_t968  Enumerator_get_Current_m26187_gshared (Enumerator_t3922 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m26187(__this, method) (( UICharInfo_t968  (*) (Enumerator_t3922 *, const MethodInfo*))Enumerator_get_Current_m26187_gshared)(__this, method)
+extern "C" UICharInfo_t969  Enumerator_get_Current_m26195_gshared (Enumerator_t3923 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m26195(__this, method) (( UICharInfo_t969  (*) (Enumerator_t3923 *, const MethodInfo*))Enumerator_get_Current_m26195_gshared)(__this, method)

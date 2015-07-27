@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t580;
+struct ObjectU5BU5D_t581;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct AsyncCallback_t344;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct  ConstructorDelegate_t1201  : public MulticastDelegate_t346
+struct  ConstructorDelegate_t1202  : public MulticastDelegate_t346
 {
 };

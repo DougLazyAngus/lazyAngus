@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.BitArray/BitArrayEnumerator
-struct BitArrayEnumerator_t2406;
+struct BitArrayEnumerator_t2407;
 // System.Object
 struct Object_t;
 // System.Collections.BitArray
-struct BitArray_t2161;
+struct BitArray_t2162;
 
 // System.Void System.Collections.BitArray/BitArrayEnumerator::.ctor(System.Collections.BitArray)
-extern "C" void BitArrayEnumerator__ctor_m13271 (BitArrayEnumerator_t2406 * __this, BitArray_t2161 * ___ba, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitArrayEnumerator__ctor_m13279 (BitArrayEnumerator_t2407 * __this, BitArray_t2162 * ___ba, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.BitArray/BitArrayEnumerator::get_Current()
-extern "C" Object_t * BitArrayEnumerator_get_Current_m13272 (BitArrayEnumerator_t2406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * BitArrayEnumerator_get_Current_m13280 (BitArrayEnumerator_t2407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.BitArray/BitArrayEnumerator::MoveNext()
-extern "C" bool BitArrayEnumerator_MoveNext_m13273 (BitArrayEnumerator_t2406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BitArrayEnumerator_MoveNext_m13281 (BitArrayEnumerator_t2407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.BitArray/BitArrayEnumerator::checkVersion()
-extern "C" void BitArrayEnumerator_checkVersion_m13274 (BitArrayEnumerator_t2406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitArrayEnumerator_checkVersion_m13282 (BitArrayEnumerator_t2407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

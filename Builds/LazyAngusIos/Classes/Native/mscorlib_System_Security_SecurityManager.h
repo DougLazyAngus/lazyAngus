@@ -3,20 +3,20 @@
 // System.Object
 struct Object_t;
 // System.Collections.Hashtable
-struct Hashtable_t1569;
+struct Hashtable_t1570;
 // System.Security.Permissions.SecurityPermission
-struct SecurityPermission_t2690;
+struct SecurityPermission_t2691;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.SecurityManager
-struct  SecurityManager_t2710  : public Object_t
+struct  SecurityManager_t2711  : public Object_t
 {
 };
-struct SecurityManager_t2710_StaticFields{
+struct SecurityManager_t2711_StaticFields{
 	// System.Object System.Security.SecurityManager::_lockObject
 	Object_t * ____lockObject_0;
 	// System.Collections.Hashtable System.Security.SecurityManager::_declsecCache
-	Hashtable_t1569 * ____declsecCache_1;
+	Hashtable_t1570 * ____declsecCache_1;
 	// System.Security.Permissions.SecurityPermission System.Security.SecurityManager::_execution
-	SecurityPermission_t2690 * ____execution_2;
+	SecurityPermission_t2691 * ____execution_2;
 };

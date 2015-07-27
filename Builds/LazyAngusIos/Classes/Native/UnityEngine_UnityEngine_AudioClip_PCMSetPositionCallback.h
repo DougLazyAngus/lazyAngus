@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioClip/PCMSetPositionCallback
-struct  PCMSetPositionCallback_t1145  : public MulticastDelegate_t346
+struct  PCMSetPositionCallback_t1146  : public MulticastDelegate_t346
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.DateTimeFormatFlags
-struct DateTimeFormatFlags_t2438;
+struct DateTimeFormatFlags_t2439;
 

@@ -5,7 +5,7 @@
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // MouseConfig/MouseType
-struct  MouseType_t498 
+struct  MouseType_t500 
 {
 	// System.Int32 MouseConfig/MouseType::value__
 	int32_t ___value___1;

@@ -5,75 +5,75 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CompareInfo
-struct CompareInfo_t1671;
+struct CompareInfo_t1672;
 // System.Globalization.CultureInfo
-struct CultureInfo_t665;
+struct CultureInfo_t666;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Globalization.SortKey
-struct SortKey_t2352;
+struct SortKey_t2353;
 // System.Globalization.CompareOptions
 #include "mscorlib_System_Globalization_CompareOptions.h"
 
 // System.Void System.Globalization.CompareInfo::.ctor()
-extern "C" void CompareInfo__ctor_m13494 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo__ctor_m13502 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::.ctor(System.Globalization.CultureInfo)
-extern "C" void CompareInfo__ctor_m13495 (CompareInfo_t1671 * __this, CultureInfo_t665 * ___ci, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo__ctor_m13503 (CompareInfo_t1672 * __this, CultureInfo_t666 * ___ci, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::.cctor()
-extern "C" void CompareInfo__cctor_m13496 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo__cctor_m13504 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern "C" void CompareInfo_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m13497 (CompareInfo_t1671 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m13505 (CompareInfo_t1672 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Globalization.CompareInfo::get_UseManagedCollation()
-extern "C" bool CompareInfo_get_UseManagedCollation_m13498 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CompareInfo_get_UseManagedCollation_m13506 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::construct_compareinfo(System.String)
-extern "C" void CompareInfo_construct_compareinfo_m13499 (CompareInfo_t1671 * __this, String_t* ___locale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo_construct_compareinfo_m13507 (CompareInfo_t1672 * __this, String_t* ___locale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::free_internal_collator()
-extern "C" void CompareInfo_free_internal_collator_m13500 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo_free_internal_collator_m13508 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_internal_compare_m13501 (CompareInfo_t1671 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_compare_m13509 (CompareInfo_t1672 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::assign_sortkey(System.Object,System.String,System.Globalization.CompareOptions)
-extern "C" void CompareInfo_assign_sortkey_m13502 (CompareInfo_t1671 * __this, Object_t * ___key, String_t* ___source, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo_assign_sortkey_m13510 (CompareInfo_t1672 * __this, Object_t * ___key, String_t* ___source, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_index(System.String,System.Int32,System.Int32,System.String,System.Globalization.CompareOptions,System.Boolean)
-extern "C" int32_t CompareInfo_internal_index_m13503 (CompareInfo_t1671 * __this, String_t* ___source, int32_t ___sindex, int32_t ___count, String_t* ___value, int32_t ___options, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_index_m13511 (CompareInfo_t1672 * __this, String_t* ___source, int32_t ___sindex, int32_t ___count, String_t* ___value, int32_t ___options, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::Finalize()
-extern "C" void CompareInfo_Finalize_m13504 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo_Finalize_m13512 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_compare_managed(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_internal_compare_managed_m13505 (CompareInfo_t1671 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_compare_managed_m13513 (CompareInfo_t1672 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_compare_switch(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_internal_compare_switch_m13506 (CompareInfo_t1671 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_compare_switch_m13514 (CompareInfo_t1672 * __this, String_t* ___str1, int32_t ___offset1, int32_t ___length1, String_t* ___str2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::Compare(System.String,System.String)
-extern "C" int32_t CompareInfo_Compare_m13507 (CompareInfo_t1671 * __this, String_t* ___string1, String_t* ___string2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_Compare_m13515 (CompareInfo_t1672 * __this, String_t* ___string1, String_t* ___string2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::Compare(System.String,System.String,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_Compare_m13508 (CompareInfo_t1671 * __this, String_t* ___string1, String_t* ___string2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_Compare_m13516 (CompareInfo_t1672 * __this, String_t* ___string1, String_t* ___string2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_Compare_m13509 (CompareInfo_t1671 * __this, String_t* ___string1, int32_t ___offset1, int32_t ___length1, String_t* ___string2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_Compare_m13517 (CompareInfo_t1672 * __this, String_t* ___string1, int32_t ___offset1, int32_t ___length1, String_t* ___string2, int32_t ___offset2, int32_t ___length2, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Globalization.CompareInfo::Equals(System.Object)
-extern "C" bool CompareInfo_Equals_m13510 (CompareInfo_t1671 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CompareInfo_Equals_m13518 (CompareInfo_t1672 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::GetHashCode()
-extern "C" int32_t CompareInfo_GetHashCode_m13511 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_GetHashCode_m13519 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.SortKey System.Globalization.CompareInfo::GetSortKey(System.String,System.Globalization.CompareOptions)
-extern "C" SortKey_t2352 * CompareInfo_GetSortKey_m13512 (CompareInfo_t1671 * __this, String_t* ___source, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SortKey_t2353 * CompareInfo_GetSortKey_m13520 (CompareInfo_t1672 * __this, String_t* ___source, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String)
-extern "C" int32_t CompareInfo_IndexOf_m13513 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_IndexOf_m13521 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32)
-extern "C" int32_t CompareInfo_IndexOf_m13514 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_IndexOf_m13522 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_index_managed(System.String,System.Int32,System.Int32,System.String,System.Globalization.CompareOptions,System.Boolean)
-extern "C" int32_t CompareInfo_internal_index_managed_m13515 (CompareInfo_t1671 * __this, String_t* ___s1, int32_t ___sindex, int32_t ___count, String_t* ___s2, int32_t ___opt, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_index_managed_m13523 (CompareInfo_t1672 * __this, String_t* ___s1, int32_t ___sindex, int32_t ___count, String_t* ___s2, int32_t ___opt, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::internal_index_switch(System.String,System.Int32,System.Int32,System.String,System.Globalization.CompareOptions,System.Boolean)
-extern "C" int32_t CompareInfo_internal_index_switch_m13516 (CompareInfo_t1671 * __this, String_t* ___s1, int32_t ___sindex, int32_t ___count, String_t* ___s2, int32_t ___opt, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_internal_index_switch_m13524 (CompareInfo_t1672 * __this, String_t* ___s1, int32_t ___sindex, int32_t ___count, String_t* ___s2, int32_t ___opt, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_IndexOf_m13517 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_IndexOf_m13525 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Globalization.CompareInfo::IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
-extern "C" bool CompareInfo_IsPrefix_m13518 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___prefix, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CompareInfo_IsPrefix_m13526 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___prefix, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Globalization.CompareInfo::IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
-extern "C" bool CompareInfo_IsSuffix_m13519 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___suffix, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CompareInfo_IsSuffix_m13527 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___suffix, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32,System.Int32)
-extern "C" int32_t CompareInfo_LastIndexOf_m13520 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_LastIndexOf_m13528 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
-extern "C" int32_t CompareInfo_LastIndexOf_m13521 (CompareInfo_t1671 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_LastIndexOf_m13529 (CompareInfo_t1672 * __this, String_t* ___source, String_t* ___value, int32_t ___startIndex, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.CompareInfo::ToString()
-extern "C" String_t* CompareInfo_ToString_m13522 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CompareInfo_ToString_m13530 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CompareInfo::get_LCID()
-extern "C" int32_t CompareInfo_get_LCID_m13523 (CompareInfo_t1671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CompareInfo_get_LCID_m13531 (CompareInfo_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

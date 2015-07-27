@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.AsymmetricSignatureFormatter
-struct AsymmetricSignatureFormatter_t1815;
+struct AsymmetricSignatureFormatter_t1816;
 // System.String
 struct String_t;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t1846;
+struct AsymmetricAlgorithm_t1847;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.Cryptography.AsymmetricSignatureFormatter::.ctor()
-extern "C" void AsymmetricSignatureFormatter__ctor_m9624 (AsymmetricSignatureFormatter_t1815 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricSignatureFormatter__ctor_m9632 (AsymmetricSignatureFormatter_t1816 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricSignatureFormatter::SetHashAlgorithm(System.String)
 // System.Void System.Security.Cryptography.AsymmetricSignatureFormatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
 // System.Byte[] System.Security.Cryptography.AsymmetricSignatureFormatter::CreateSignature(System.Byte[])

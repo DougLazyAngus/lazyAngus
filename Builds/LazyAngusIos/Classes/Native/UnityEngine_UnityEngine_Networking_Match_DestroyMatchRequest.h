@@ -5,7 +5,7 @@
 // UnityEngine.Networking.Types.NetworkID
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 // UnityEngine.Networking.Match.DestroyMatchRequest
-struct  DestroyMatchRequest_t1173  : public Request_t1164
+struct  DestroyMatchRequest_t1174  : public Request_t1165
 {
 	// UnityEngine.Networking.Types.NetworkID UnityEngine.Networking.Match.DestroyMatchRequest::<networkId>k__BackingField
 	uint64_t ___U3CnetworkIdU3Ek__BackingField_4;

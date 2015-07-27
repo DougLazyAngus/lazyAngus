@@ -7,7 +7,7 @@ struct PlayerStats_t433;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UseBoost
-struct  UseBoost_t568  : public MonoBehaviour_t67
+struct  UseBoost_t569  : public MonoBehaviour_t67
 {
 	// BoostConfig UseBoost::boostConfig
 	BoostConfig_t414 * ___boostConfig_2;

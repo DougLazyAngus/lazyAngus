@@ -3,26 +3,26 @@
 // UnityEngine.GameObject
 struct GameObject_t310;
 // UnityEngine.RectTransform
-struct RectTransform_t571;
+struct RectTransform_t572;
 // UnityEngine.Canvas
 struct Canvas_t416;
 // UnityEngine.Camera
-struct Camera_t477;
+struct Camera_t479;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // WorldObjectFollower
-struct  WorldObjectFollower_t572  : public MonoBehaviour_t67
+struct  WorldObjectFollower_t573  : public MonoBehaviour_t67
 {
 	// UnityEngine.GameObject WorldObjectFollower::objectToFollow
 	GameObject_t310 * ___objectToFollow_2;
 	// UnityEngine.RectTransform WorldObjectFollower::myRectTransform
-	RectTransform_t571 * ___myRectTransform_3;
+	RectTransform_t572 * ___myRectTransform_3;
 	// UnityEngine.Canvas WorldObjectFollower::worldCanvas
 	Canvas_t416 * ___worldCanvas_4;
 	// UnityEngine.Camera WorldObjectFollower::worldCamera
-	Camera_t477 * ___worldCamera_5;
+	Camera_t479 * ___worldCamera_5;
 	// System.Single WorldObjectFollower::canvasWidth
 	float ___canvasWidth_6;
 	// System.Single WorldObjectFollower::canvasHeight

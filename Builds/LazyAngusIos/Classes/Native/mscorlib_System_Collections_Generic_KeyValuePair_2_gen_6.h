@@ -7,7 +7,7 @@ struct FacebookUserInfo_t229;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>
-struct  KeyValuePair_2_t647 
+struct  KeyValuePair_2_t648 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>::key
 	String_t* ___key_0;

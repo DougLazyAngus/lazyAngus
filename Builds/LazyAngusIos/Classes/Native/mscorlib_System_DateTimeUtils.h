@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTimeUtils
-struct  DateTimeUtils_t2767  : public Object_t
+struct  DateTimeUtils_t2768  : public Object_t
 {
 };

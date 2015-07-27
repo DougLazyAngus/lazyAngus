@@ -5,63 +5,63 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.MethodDictionary
-struct MethodDictionary_t2578;
+struct MethodDictionary_t2579;
 // System.String[]
 struct StringU5BU5D_t45;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t651;
+struct ICollection_t652;
 // System.Runtime.Remoting.Messaging.IMethodMessage
-struct IMethodMessage_t2585;
+struct IMethodMessage_t2586;
 // System.Collections.IEnumerator
 struct IEnumerator_t21;
 // System.Collections.IDictionary
-struct IDictionary_t583;
+struct IDictionary_t584;
 // System.String
 struct String_t;
 // System.Array
 struct Array_t;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t1941;
+struct IDictionaryEnumerator_t1942;
 
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern "C" void MethodDictionary__ctor_m14648 (MethodDictionary_t2578 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary__ctor_m14656 (MethodDictionary_t2579 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Runtime.Remoting.Messaging.MethodDictionary::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m14649 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m14657 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_MethodKeys(System.String[])
-extern "C" void MethodDictionary_set_MethodKeys_m14650 (MethodDictionary_t2578 * __this, StringU5BU5D_t45* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_set_MethodKeys_m14658 (MethodDictionary_t2579 * __this, StringU5BU5D_t45* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodDictionary::AllocInternalProperties()
-extern "C" Object_t * MethodDictionary_AllocInternalProperties_m14651 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_AllocInternalProperties_m14659 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodDictionary::GetInternalProperties()
-extern "C" Object_t * MethodDictionary_GetInternalProperties_m14652 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_GetInternalProperties_m14660 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::IsOverridenKey(System.String)
-extern "C" bool MethodDictionary_IsOverridenKey_m14653 (MethodDictionary_t2578 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodDictionary_IsOverridenKey_m14661 (MethodDictionary_t2579 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::get_Item(System.Object)
-extern "C" Object_t * MethodDictionary_get_Item_m14654 (MethodDictionary_t2578 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_get_Item_m14662 (MethodDictionary_t2579 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_Item(System.Object,System.Object)
-extern "C" void MethodDictionary_set_Item_m14655 (MethodDictionary_t2578 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_set_Item_m14663 (MethodDictionary_t2579 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::GetMethodProperty(System.String)
-extern "C" Object_t * MethodDictionary_GetMethodProperty_m14656 (MethodDictionary_t2578 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_GetMethodProperty_m14664 (MethodDictionary_t2579 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::SetMethodProperty(System.String,System.Object)
-extern "C" void MethodDictionary_SetMethodProperty_m14657 (MethodDictionary_t2578 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_SetMethodProperty_m14665 (MethodDictionary_t2579 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Runtime.Remoting.Messaging.MethodDictionary::get_Keys()
-extern "C" Object_t * MethodDictionary_get_Keys_m14658 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_get_Keys_m14666 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Runtime.Remoting.Messaging.MethodDictionary::get_Values()
-extern "C" Object_t * MethodDictionary_get_Values_m14659 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_get_Values_m14667 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::Add(System.Object,System.Object)
-extern "C" void MethodDictionary_Add_m14660 (MethodDictionary_t2578 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_Add_m14668 (MethodDictionary_t2579 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::Contains(System.Object)
-extern "C" bool MethodDictionary_Contains_m14661 (MethodDictionary_t2578 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodDictionary_Contains_m14669 (MethodDictionary_t2579 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::Remove(System.Object)
-extern "C" void MethodDictionary_Remove_m14662 (MethodDictionary_t2578 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_Remove_m14670 (MethodDictionary_t2579 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Messaging.MethodDictionary::get_Count()
-extern "C" int32_t MethodDictionary_get_Count_m14663 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodDictionary_get_Count_m14671 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::get_IsSynchronized()
-extern "C" bool MethodDictionary_get_IsSynchronized_m14664 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodDictionary_get_IsSynchronized_m14672 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::get_SyncRoot()
-extern "C" Object_t * MethodDictionary_get_SyncRoot_m14665 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_get_SyncRoot_m14673 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::CopyTo(System.Array,System.Int32)
-extern "C" void MethodDictionary_CopyTo_m14666 (MethodDictionary_t2578 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodDictionary_CopyTo_m14674 (MethodDictionary_t2579 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionaryEnumerator System.Runtime.Remoting.Messaging.MethodDictionary::GetEnumerator()
-extern "C" Object_t * MethodDictionary_GetEnumerator_m14667 (MethodDictionary_t2578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodDictionary_GetEnumerator_m14675 (MethodDictionary_t2579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

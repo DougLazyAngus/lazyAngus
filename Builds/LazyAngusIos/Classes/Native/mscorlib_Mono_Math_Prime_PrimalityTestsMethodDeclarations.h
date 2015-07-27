@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.Prime.PrimalityTests
-struct PrimalityTests_t2357;
+struct PrimalityTests_t2358;
 // Mono.Math.BigInteger
-struct BigInteger_t2359;
+struct BigInteger_t2360;
 // Mono.Math.Prime.ConfidenceFactor
 #include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" int32_t PrimalityTests_GetSPPRounds_m12790 (Object_t * __this /* static, unused */, BigInteger_t2359 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimalityTests_GetSPPRounds_m12798 (Object_t * __this /* static, unused */, BigInteger_t2360 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::Test(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_Test_m12791 (Object_t * __this /* static, unused */, BigInteger_t2359 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_Test_m12799 (Object_t * __this /* static, unused */, BigInteger_t2360 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_RabinMillerTest_m12792 (Object_t * __this /* static, unused */, BigInteger_t2359 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_RabinMillerTest_m12800 (Object_t * __this /* static, unused */, BigInteger_t2360 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::SmallPrimeSppTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_SmallPrimeSppTest_m12793 (Object_t * __this /* static, unused */, BigInteger_t2359 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_SmallPrimeSppTest_m12801 (Object_t * __this /* static, unused */, BigInteger_t2360 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;

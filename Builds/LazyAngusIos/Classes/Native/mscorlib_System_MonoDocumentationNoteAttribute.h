@@ -3,6 +3,6 @@
 // System.MonoTODOAttribute
 #include "mscorlib_System_MonoTODOAttribute.h"
 // System.MonoDocumentationNoteAttribute
-struct  MonoDocumentationNoteAttribute_t2329  : public MonoTODOAttribute_t2328
+struct  MonoDocumentationNoteAttribute_t2330  : public MonoTODOAttribute_t2329
 {
 };

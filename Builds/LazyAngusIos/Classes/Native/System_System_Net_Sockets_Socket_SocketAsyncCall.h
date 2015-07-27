@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.Sockets.Socket/SocketAsyncCall
-struct  SocketAsyncCall_t1983  : public MulticastDelegate_t346
+struct  SocketAsyncCall_t1984  : public MulticastDelegate_t346
 {
 };

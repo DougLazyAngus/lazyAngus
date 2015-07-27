@@ -5,11 +5,11 @@ struct GameObject_t310;
 // System.Object
 struct Object_t;
 // HoleMeter
-struct HoleMeter_t473;
+struct HoleMeter_t475;
 // System.Object
 #include "mscorlib_System_Object.h"
 // HoleMeter/<TriggerDistortionEffect>c__Iterator12
-struct  U3CTriggerDistortionEffectU3Ec__Iterator12_t474  : public Object_t
+struct  U3CTriggerDistortionEffectU3Ec__Iterator12_t476  : public Object_t
 {
 	// System.Int32 HoleMeter/<TriggerDistortionEffect>c__Iterator12::<i>__0
 	int32_t ___U3CiU3E__0_0;
@@ -20,5 +20,5 @@ struct  U3CTriggerDistortionEffectU3Ec__Iterator12_t474  : public Object_t
 	// System.Object HoleMeter/<TriggerDistortionEffect>c__Iterator12::$current
 	Object_t * ___U24current_3;
 	// HoleMeter HoleMeter/<TriggerDistortionEffect>c__Iterator12::<>f__this
-	HoleMeter_t473 * ___U3CU3Ef__this_4;
+	HoleMeter_t475 * ___U3CU3Ef__this_4;
 };

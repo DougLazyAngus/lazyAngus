@@ -5,7 +5,7 @@ struct Sprite_t430;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MouseDesc
-struct  MouseDesc_t503  : public Object_t
+struct  MouseDesc_t505  : public Object_t
 {
 	// UnityEngine.Sprite MouseDesc::mouseSprite
 	Sprite_t430 * ___mouseSprite_0;

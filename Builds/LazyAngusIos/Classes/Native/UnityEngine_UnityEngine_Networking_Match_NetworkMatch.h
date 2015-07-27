@@ -3,12 +3,12 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t654;
+struct Uri_t655;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Networking.Match.NetworkMatch
-struct  NetworkMatch_t1189  : public MonoBehaviour_t67
+struct  NetworkMatch_t1190  : public MonoBehaviour_t67
 {
 	// System.Uri UnityEngine.Networking.Match.NetworkMatch::m_BaseUri
-	Uri_t654 * ___m_BaseUri_3;
+	Uri_t655 * ___m_BaseUri_3;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.DSA
-struct DSA_t1756;
+struct DSA_t1757;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -14,18 +14,18 @@ struct ByteU5BU5D_t36;
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
 
 // System.Void System.Security.Cryptography.DSA::.ctor()
-extern "C" void DSA__ctor_m14964 (DSA_t1756 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA__ctor_m14972 (DSA_t1757 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create()
-extern "C" DSA_t1756 * DSA_Create_m9559 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t1757 * DSA_Create_m9567 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create(System.String)
-extern "C" DSA_t1756 * DSA_Create_m14965 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t1757 * DSA_Create_m14973 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.DSA::CreateSignature(System.Byte[])
 // System.Security.Cryptography.DSAParameters System.Security.Cryptography.DSA::ExportParameters(System.Boolean)
 // System.Void System.Security.Cryptography.DSA::ZeroizePrivateKey(System.Security.Cryptography.DSAParameters)
-extern "C" void DSA_ZeroizePrivateKey_m14966 (DSA_t1756 * __this, DSAParameters_t1858  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_ZeroizePrivateKey_m14974 (DSA_t1757 * __this, DSAParameters_t1859  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::FromXmlString(System.String)
-extern "C" void DSA_FromXmlString_m14967 (DSA_t1756 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_FromXmlString_m14975 (DSA_t1757 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::ImportParameters(System.Security.Cryptography.DSAParameters)
 // System.String System.Security.Cryptography.DSA::ToXmlString(System.Boolean)
-extern "C" String_t* DSA_ToXmlString_m14968 (DSA_t1756 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DSA_ToXmlString_m14976 (DSA_t1757 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.DSA::VerifySignature(System.Byte[],System.Byte[])

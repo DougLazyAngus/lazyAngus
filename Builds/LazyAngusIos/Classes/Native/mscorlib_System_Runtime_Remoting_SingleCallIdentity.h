@@ -3,6 +3,6 @@
 // System.Runtime.Remoting.ServerIdentity
 #include "mscorlib_System_Runtime_Remoting_ServerIdentity.h"
 // System.Runtime.Remoting.SingleCallIdentity
-struct  SingleCallIdentity_t2612  : public ServerIdentity_t2325
+struct  SingleCallIdentity_t2613  : public ServerIdentity_t2326
 {
 };

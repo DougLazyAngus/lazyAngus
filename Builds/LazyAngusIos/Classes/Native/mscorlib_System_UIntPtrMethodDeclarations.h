@@ -7,7 +7,7 @@
 // System.UIntPtr
 struct UIntPtr_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1299;
+struct SerializationInfo_t1300;
 // System.Object
 struct Object_t;
 // System.String
@@ -20,42 +20,42 @@ struct String_t;
 #include "mscorlib_System_UIntPtr.h"
 
 // System.Void System.UIntPtr::.ctor(System.UInt64)
-extern "C" void UIntPtr__ctor_m12400 (UIntPtr_t * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr__ctor_m12408 (UIntPtr_t * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UIntPtr::.ctor(System.UInt32)
-extern "C" void UIntPtr__ctor_m12401 (UIntPtr_t * __this, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr__ctor_m12409 (UIntPtr_t * __this, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UIntPtr::.ctor(System.Void*)
-extern "C" void UIntPtr__ctor_m12402 (UIntPtr_t * __this, void* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr__ctor_m12410 (UIntPtr_t * __this, void* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UIntPtr::.cctor()
-extern "C" void UIntPtr__cctor_m12403 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr__cctor_m12411 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UIntPtr::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m12404 (UIntPtr_t * __this, SerializationInfo_t1299 * ___info, StreamingContext_t1300  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m12412 (UIntPtr_t * __this, SerializationInfo_t1300 * ___info, StreamingContext_t1301  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UIntPtr::Equals(System.Object)
-extern "C" bool UIntPtr_Equals_m12405 (UIntPtr_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UIntPtr_Equals_m12413 (UIntPtr_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UIntPtr::GetHashCode()
-extern "C" int32_t UIntPtr_GetHashCode_m12406 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UIntPtr_GetHashCode_m12414 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UIntPtr::ToUInt32()
-extern "C" uint32_t UIntPtr_ToUInt32_m12407 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UIntPtr_ToUInt32_m12415 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.UIntPtr::ToUInt64()
-extern "C" uint64_t UIntPtr_ToUInt64_m12408 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t UIntPtr_ToUInt64_m12416 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void* System.UIntPtr::ToPointer()
-extern "C" void* UIntPtr_ToPointer_m12409 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void* UIntPtr_ToPointer_m12417 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.UIntPtr::ToString()
-extern "C" String_t* UIntPtr_ToString_m12410 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UIntPtr_ToString_m12418 (UIntPtr_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UIntPtr::get_Size()
-extern "C" int32_t UIntPtr_get_Size_m12411 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UIntPtr_get_Size_m12419 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UIntPtr::op_Equality(System.UIntPtr,System.UIntPtr)
-extern "C" bool UIntPtr_op_Equality_m12412 (Object_t * __this /* static, unused */, UIntPtr_t  ___value1, UIntPtr_t  ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UIntPtr_op_Equality_m12420 (Object_t * __this /* static, unused */, UIntPtr_t  ___value1, UIntPtr_t  ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UIntPtr::op_Inequality(System.UIntPtr,System.UIntPtr)
-extern "C" bool UIntPtr_op_Inequality_m12413 (Object_t * __this /* static, unused */, UIntPtr_t  ___value1, UIntPtr_t  ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UIntPtr_op_Inequality_m12421 (Object_t * __this /* static, unused */, UIntPtr_t  ___value1, UIntPtr_t  ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.UIntPtr::op_Explicit(System.UIntPtr)
-extern "C" uint64_t UIntPtr_op_Explicit_m12414 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t UIntPtr_op_Explicit_m12422 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UIntPtr::op_Explicit(System.UIntPtr)
-extern "C" uint32_t UIntPtr_op_Explicit_m12415 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UIntPtr_op_Explicit_m12423 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UIntPtr System.UIntPtr::op_Explicit(System.UInt64)
-extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12416 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12424 (Object_t * __this /* static, unused */, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UIntPtr System.UIntPtr::op_Explicit(System.Void*)
-extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12417 (Object_t * __this /* static, unused */, void* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12425 (Object_t * __this /* static, unused */, void* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void* System.UIntPtr::op_Explicit(System.UIntPtr)
-extern "C" void* UIntPtr_op_Explicit_m12418 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void* UIntPtr_op_Explicit_m12426 (Object_t * __this /* static, unused */, UIntPtr_t  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UIntPtr System.UIntPtr::op_Explicit(System.UInt32)
-extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12419 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UIntPtr_t  UIntPtr_op_Explicit_m12427 (Object_t * __this /* static, unused */, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

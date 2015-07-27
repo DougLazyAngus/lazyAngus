@@ -9,7 +9,7 @@ struct TwitterStatus_t282;
 // System.String
 struct String_t;
 // System.Collections.IDictionary
-struct IDictionary_t583;
+struct IDictionary_t584;
 
 // System.Void TwitterStatus::.ctor(System.Collections.IDictionary)
 extern "C" void TwitterStatus__ctor_m1415 (TwitterStatus_t282 * __this, Object_t * ___JSON, const MethodInfo* method) IL2CPP_METHOD_ATTR;

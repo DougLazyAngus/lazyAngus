@@ -13,7 +13,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_t270;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t582;
+struct List_1_t583;
 // Facebook.MiniJSON.Json/Parser/TOKEN
 #include "AssemblyU2DCSharp_Facebook_MiniJSON_Json_Parser_TOKEN.h"
 
@@ -26,7 +26,7 @@ extern "C" void Parser_Dispose_m2218 (Parser_t408 * __this, const MethodInfo* me
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> Facebook.MiniJSON.Json/Parser::ParseObject()
 extern "C" Dictionary_2_t270 * Parser_ParseObject_m2219 (Parser_t408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.Object> Facebook.MiniJSON.Json/Parser::ParseArray()
-extern "C" List_1_t582 * Parser_ParseArray_m2220 (Parser_t408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t583 * Parser_ParseArray_m2220 (Parser_t408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Facebook.MiniJSON.Json/Parser::ParseValue()
 extern "C" Object_t * Parser_ParseValue_m2221 (Parser_t408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Facebook.MiniJSON.Json/Parser::ParseByToken(Facebook.MiniJSON.Json/Parser/TOKEN)

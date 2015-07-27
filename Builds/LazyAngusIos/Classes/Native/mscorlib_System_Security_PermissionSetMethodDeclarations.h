@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.PermissionSet
-struct PermissionSet_t2495;
+struct PermissionSet_t2496;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.PermissionSet::.ctor()
-extern "C" void PermissionSet__ctor_m15283 (PermissionSet_t2495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PermissionSet__ctor_m15291 (PermissionSet_t2496 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.PermissionSet::.ctor(System.String)
-extern "C" void PermissionSet__ctor_m15284 (PermissionSet_t2495 * __this, String_t* ___xml, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PermissionSet__ctor_m15292 (PermissionSet_t2496 * __this, String_t* ___xml, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.PermissionSet::set_DeclarativeSecurity(System.Boolean)
-extern "C" void PermissionSet_set_DeclarativeSecurity_m15285 (PermissionSet_t2495 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PermissionSet_set_DeclarativeSecurity_m15293 (PermissionSet_t2496 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.PermissionSet System.Security.PermissionSet::CreateFromBinaryFormat(System.Byte[])
-extern "C" PermissionSet_t2495 * PermissionSet_CreateFromBinaryFormat_m15286 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PermissionSet_t2496 * PermissionSet_CreateFromBinaryFormat_m15294 (Object_t * __this /* static, unused */, ByteU5BU5D_t36* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

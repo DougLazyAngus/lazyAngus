@@ -5,50 +5,50 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.SymmetricTransform
-struct SymmetricTransform_t2375;
+struct SymmetricTransform_t2376;
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t1747;
+struct SymmetricAlgorithm_t1748;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.Security.Cryptography.PaddingMode
 #include "mscorlib_System_Security_Cryptography_PaddingMode.h"
 
 // System.Void Mono.Security.Cryptography.SymmetricTransform::.ctor(System.Security.Cryptography.SymmetricAlgorithm,System.Boolean,System.Byte[])
-extern "C" void SymmetricTransform__ctor_m12981 (SymmetricTransform_t2375 * __this, SymmetricAlgorithm_t1747 * ___symmAlgo, bool ___encryption, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform__ctor_m12989 (SymmetricTransform_t2376 * __this, SymmetricAlgorithm_t1748 * ___symmAlgo, bool ___encryption, ByteU5BU5D_t36* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::System.IDisposable.Dispose()
-extern "C" void SymmetricTransform_System_IDisposable_Dispose_m12982 (SymmetricTransform_t2375 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_System_IDisposable_Dispose_m12990 (SymmetricTransform_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Finalize()
-extern "C" void SymmetricTransform_Finalize_m12983 (SymmetricTransform_t2375 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_Finalize_m12991 (SymmetricTransform_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Dispose(System.Boolean)
-extern "C" void SymmetricTransform_Dispose_m12984 (SymmetricTransform_t2375 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_Dispose_m12992 (SymmetricTransform_t2376 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Cryptography.SymmetricTransform::get_CanReuseTransform()
-extern "C" bool SymmetricTransform_get_CanReuseTransform_m12985 (SymmetricTransform_t2375 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SymmetricTransform_get_CanReuseTransform_m12993 (SymmetricTransform_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Transform(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_Transform_m12986 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_Transform_m12994 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::ECB(System.Byte[],System.Byte[])
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CBC(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_CBC_m12987 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_CBC_m12995 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CFB(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_CFB_m12988 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_CFB_m12996 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::OFB(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_OFB_m12989 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_OFB_m12997 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CTS(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_CTS_m12990 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_CTS_m12998 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___input, ByteU5BU5D_t36* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CheckInput(System.Byte[],System.Int32,System.Int32)
-extern "C" void SymmetricTransform_CheckInput_m12991 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_CheckInput_m12999 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Cryptography.SymmetricTransform::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t SymmetricTransform_TransformBlock_m12992 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t36* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SymmetricTransform_TransformBlock_m13000 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t36* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Cryptography.SymmetricTransform::get_KeepLastBlock()
-extern "C" bool SymmetricTransform_get_KeepLastBlock_m12993 (SymmetricTransform_t2375 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SymmetricTransform_get_KeepLastBlock_m13001 (SymmetricTransform_t2376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Cryptography.SymmetricTransform::InternalTransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t SymmetricTransform_InternalTransformBlock_m12994 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t36* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SymmetricTransform_InternalTransformBlock_m13002 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t36* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Random(System.Byte[],System.Int32,System.Int32)
-extern "C" void SymmetricTransform_Random_m12995 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___start, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_Random_m13003 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___buffer, int32_t ___start, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.SymmetricTransform::ThrowBadPaddingException(System.Security.Cryptography.PaddingMode,System.Int32,System.Int32)
-extern "C" void SymmetricTransform_ThrowBadPaddingException_m12996 (SymmetricTransform_t2375 * __this, int32_t ___padding, int32_t ___length, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SymmetricTransform_ThrowBadPaddingException_m13004 (SymmetricTransform_t2376 * __this, int32_t ___padding, int32_t ___length, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::FinalEncrypt(System.Byte[],System.Int32,System.Int32)
-extern "C" ByteU5BU5D_t36* SymmetricTransform_FinalEncrypt_m12997 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* SymmetricTransform_FinalEncrypt_m13005 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::FinalDecrypt(System.Byte[],System.Int32,System.Int32)
-extern "C" ByteU5BU5D_t36* SymmetricTransform_FinalDecrypt_m12998 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* SymmetricTransform_FinalDecrypt_m13006 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C" ByteU5BU5D_t36* SymmetricTransform_TransformFinalBlock_m12999 (SymmetricTransform_t2375 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t36* SymmetricTransform_TransformFinalBlock_m13007 (SymmetricTransform_t2376 * __this, ByteU5BU5D_t36* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;

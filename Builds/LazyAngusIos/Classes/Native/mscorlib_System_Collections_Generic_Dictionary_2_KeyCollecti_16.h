@@ -5,7 +5,7 @@ struct Dictionary_2_t94;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>
-struct  KeyCollection_t3475  : public Object_t
+struct  KeyCollection_t3476  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GoogleMobileAdBanner>::dictionary
 	Dictionary_2_t94 * ___dictionary_0;

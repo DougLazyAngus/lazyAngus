@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdDate
-struct  XsdDate_t1535  : public XsdAnySimpleType_t1492
+struct  XsdDate_t1536  : public XsdAnySimpleType_t1493
 {
 };

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct ArgInfo_t2570;
+struct ArgInfo_t2571;
 // System.Reflection.MethodBase
-struct MethodBase_t1341;
+struct MethodBase_t1342;
 // System.Object[]
-struct ObjectU5BU5D_t580;
+struct ObjectU5BU5D_t581;
 // System.Runtime.Remoting.Messaging.ArgInfoType
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfoType.h"
 
 // System.Void System.Runtime.Remoting.Messaging.ArgInfo::.ctor(System.Reflection.MethodBase,System.Runtime.Remoting.Messaging.ArgInfoType)
-extern "C" void ArgInfo__ctor_m14572 (ArgInfo_t2570 * __this, MethodBase_t1341 * ___method, uint8_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgInfo__ctor_m14580 (ArgInfo_t2571 * __this, MethodBase_t1342 * ___method, uint8_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.Messaging.ArgInfo::GetInOutArgs(System.Object[])
-extern "C" ObjectU5BU5D_t580* ArgInfo_GetInOutArgs_m14573 (ArgInfo_t2570 * __this, ObjectU5BU5D_t580* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t581* ArgInfo_GetInOutArgs_m14581 (ArgInfo_t2571 * __this, ObjectU5BU5D_t581* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

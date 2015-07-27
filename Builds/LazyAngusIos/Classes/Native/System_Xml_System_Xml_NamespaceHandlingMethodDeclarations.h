@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.NamespaceHandling
-struct NamespaceHandling_t1602;
+struct NamespaceHandling_t1603;
 

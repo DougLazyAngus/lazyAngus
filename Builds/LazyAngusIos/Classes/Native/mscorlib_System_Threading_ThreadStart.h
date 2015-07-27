@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Threading.ThreadStart
-struct  ThreadStart_t2193  : public MulticastDelegate_t346
+struct  ThreadStart_t2194  : public MulticastDelegate_t346
 {
 };

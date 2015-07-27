@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
-struct ConstructionCallDictionary_t2577;
+struct ConstructionCallDictionary_t2578;
 // System.Runtime.Remoting.Activation.IConstructionCallMessage
-struct IConstructionCallMessage_t2851;
+struct IConstructionCallMessage_t2852;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" void ConstructionCallDictionary__ctor_m14605 (ConstructionCallDictionary_t2577 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary__ctor_m14613 (ConstructionCallDictionary_t2578 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.cctor()
-extern "C" void ConstructionCallDictionary__cctor_m14606 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary__cctor_m14614 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.ConstructionCallDictionary::GetMethodProperty(System.String)
-extern "C" Object_t * ConstructionCallDictionary_GetMethodProperty_m14607 (ConstructionCallDictionary_t2577 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructionCallDictionary_GetMethodProperty_m14615 (ConstructionCallDictionary_t2578 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::SetMethodProperty(System.String,System.Object)
-extern "C" void ConstructionCallDictionary_SetMethodProperty_m14608 (ConstructionCallDictionary_t2577 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary_SetMethodProperty_m14616 (ConstructionCallDictionary_t2578 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

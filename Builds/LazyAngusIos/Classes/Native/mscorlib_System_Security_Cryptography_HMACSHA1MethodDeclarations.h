@@ -10,6 +10,6 @@ struct HMACSHA1_t289;
 struct ByteU5BU5D_t36;
 
 // System.Void System.Security.Cryptography.HMACSHA1::.ctor()
-extern "C" void HMACSHA1__ctor_m15005 (HMACSHA1_t289 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA1__ctor_m15013 (HMACSHA1_t289 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA1::.ctor(System.Byte[])
-extern "C" void HMACSHA1__ctor_m3343 (HMACSHA1_t289 * __this, ByteU5BU5D_t36* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA1__ctor_m3351 (HMACSHA1_t289 * __this, ByteU5BU5D_t36* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

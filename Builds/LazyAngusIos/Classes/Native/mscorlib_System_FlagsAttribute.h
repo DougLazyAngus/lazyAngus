@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.FlagsAttribute
-struct  FlagsAttribute_t995  : public Attribute_t384
+struct  FlagsAttribute_t996  : public Attribute_t384
 {
 };

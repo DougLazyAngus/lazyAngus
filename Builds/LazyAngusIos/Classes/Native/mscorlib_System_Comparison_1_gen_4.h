@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<SimpleJSON.JSONNode>
-struct  Comparison_1_t3386  : public MulticastDelegate_t346
+struct  Comparison_1_t3387  : public MulticastDelegate_t346
 {
 };

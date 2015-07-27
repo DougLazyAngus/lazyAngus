@@ -7,9 +7,9 @@
 // GameController
 struct GameController_t460;
 // MouseHole
-struct MouseHole_t475;
+struct MouseHole_t477;
 // MouseMove
-struct MouseMove_t510;
+struct MouseMove_t512;
 
 // System.Void GameController::.ctor()
 extern "C" void GameController__ctor_m2428 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -40,15 +40,15 @@ extern "C" void GameController_MaybeIncrementMouseHoleCapacity_m2440 (GameContro
 // System.Void GameController::EnqueueMiceForLevel()
 extern "C" void GameController_EnqueueMiceForLevel_m2441 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseHole GameController::FindDoomedMouseHole()
-extern "C" MouseHole_t475 * GameController_FindDoomedMouseHole_m2442 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MouseHole_t477 * GameController_FindDoomedMouseHole_m2442 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseExit(MouseMove)
-extern "C" void GameController_OnMouseExit_m2443 (GameController_t460 * __this, MouseMove_t510 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnMouseExit_m2443 (GameController_t460 * __this, MouseMove_t512 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForGameEnd()
 extern "C" bool GameController_CheckForGameEnd_m2444 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForLevelEnd()
 extern "C" bool GameController_CheckForLevelEnd_m2445 (GameController_t460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseKilled(MouseMove)
-extern "C" void GameController_OnMouseKilled_m2446 (GameController_t460 * __this, MouseMove_t510 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnMouseKilled_m2446 (GameController_t460 * __this, MouseMove_t512 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::LogKillsPerSwipe(System.Int32)
 extern "C" void GameController_LogKillsPerSwipe_m2447 (GameController_t460 * __this, int32_t ___killsPerSwipe, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::<Start>m__4D(System.Boolean)

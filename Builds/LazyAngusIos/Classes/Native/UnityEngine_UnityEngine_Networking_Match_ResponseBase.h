@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Networking.Match.ResponseBase
-struct  ResponseBase_t1165  : public Object_t
+struct  ResponseBase_t1166  : public Object_t
 {
 };

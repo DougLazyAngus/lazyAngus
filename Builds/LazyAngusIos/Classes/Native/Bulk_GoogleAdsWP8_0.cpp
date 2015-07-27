@@ -48,27 +48,27 @@
 
 
 // System.Void GoogleAdsWP8.AdManager::Init(System.String)
-extern "C" void AdManager_Init_m3194 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
+extern "C" void AdManager_Init_m3202 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // GoogleAdsWP8.AdManager GoogleAdsWP8.AdManager::get_instance()
-extern TypeInfo* AdManager_t626_il2cpp_TypeInfo_var;
-extern "C" AdManager_t626 * AdManager_get_instance_m3193 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* AdManager_t627_il2cpp_TypeInfo_var;
+extern "C" AdManager_t627 * AdManager_get_instance_m3201 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AdManager_t626_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3171);
+		AdManager_t627_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3173);
 		s_Il2CppMethodIntialized = true;
 	}
-	AdManager_t626 * V_0 = {0};
+	AdManager_t627 * V_0 = {0};
 	bool V_1 = false;
 	{
-		AdManager_t626 * L_0 = ((AdManager_t626_StaticFields*)AdManager_t626_il2cpp_TypeInfo_var->static_fields)->____instance_10;
-		V_1 = ((((int32_t)((((Object_t*)(AdManager_t626 *)L_0) == ((Object_t*)(Object_t *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		AdManager_t627 * L_0 = ((AdManager_t627_StaticFields*)AdManager_t627_il2cpp_TypeInfo_var->static_fields)->____instance_10;
+		V_1 = ((((int32_t)((((Object_t*)(AdManager_t627 *)L_0) == ((Object_t*)(Object_t *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_1;
 		if (L_1)
 		{
@@ -76,103 +76,103 @@ extern "C" AdManager_t626 * AdManager_get_instance_m3193 (Object_t * __this /* s
 		}
 	}
 	{
-		AdManager_t626 * L_2 = (AdManager_t626 *)il2cpp_codegen_object_new (AdManager_t626_il2cpp_TypeInfo_var);
-		AdManager__ctor_m7471(L_2, /*hidden argument*/NULL);
-		((AdManager_t626_StaticFields*)AdManager_t626_il2cpp_TypeInfo_var->static_fields)->____instance_10 = L_2;
+		AdManager_t627 * L_2 = (AdManager_t627 *)il2cpp_codegen_object_new (AdManager_t627_il2cpp_TypeInfo_var);
+		AdManager__ctor_m7479(L_2, /*hidden argument*/NULL);
+		((AdManager_t627_StaticFields*)AdManager_t627_il2cpp_TypeInfo_var->static_fields)->____instance_10 = L_2;
 	}
 
 IL_001c:
 	{
-		AdManager_t626 * L_3 = ((AdManager_t626_StaticFields*)AdManager_t626_il2cpp_TypeInfo_var->static_fields)->____instance_10;
+		AdManager_t627 * L_3 = ((AdManager_t627_StaticFields*)AdManager_t627_il2cpp_TypeInfo_var->static_fields)->____instance_10;
 		V_0 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
-		AdManager_t626 * L_4 = V_0;
+		AdManager_t627 * L_4 = V_0;
 		return L_4;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::EnableForceTesting()
-extern "C" void AdManager_EnableForceTesting_m3200 (AdManager_t626 * __this, const MethodInfo* method)
+extern "C" void AdManager_EnableForceTesting_m3208 (AdManager_t627 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::ChangeBannersUnitID(System.String)
-extern "C" void AdManager_ChangeBannersUnitID_m3196 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
+extern "C" void AdManager_ChangeBannersUnitID_m3204 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::ChangeInterstisialsUnitID(System.String)
-extern "C" void AdManager_ChangeInterstisialsUnitID_m3197 (AdManager_t626 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
+extern "C" void AdManager_ChangeInterstisialsUnitID_m3205 (AdManager_t627 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::DestroyBanner(System.Int32)
-extern "C" void AdManager_DestroyBanner_m3198 (AdManager_t626 * __this, int32_t ___bannerId, const MethodInfo* method)
+extern "C" void AdManager_DestroyBanner_m3206 (AdManager_t627 * __this, int32_t ___bannerId, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::AddKeyword(System.String)
-extern "C" void AdManager_AddKeyword_m3199 (AdManager_t626 * __this, String_t* ___keyword, const MethodInfo* method)
+extern "C" void AdManager_AddKeyword_m3207 (AdManager_t627 * __this, String_t* ___keyword, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::SetGender(System.Int32)
-extern "C" void AdManager_SetGender_m3201 (AdManager_t626 * __this, int32_t ___gender, const MethodInfo* method)
+extern "C" void AdManager_SetGender_m3209 (AdManager_t627 * __this, int32_t ___gender, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::SetBirthday(System.Int32,System.Int32,System.Int32)
-extern "C" void AdManager_SetBirthday_m3202 (AdManager_t626 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method)
+extern "C" void AdManager_SetBirthday_m3210 (AdManager_t627 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::StartInterstitialAd()
-extern "C" void AdManager_StartInterstitialAd_m3203 (AdManager_t626 * __this, const MethodInfo* method)
+extern "C" void AdManager_StartInterstitialAd_m3211 (AdManager_t627 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::LoadInterstitialAd()
-extern "C" void AdManager_LoadInterstitialAd_m3204 (AdManager_t626 * __this, const MethodInfo* method)
+extern "C" void AdManager_LoadInterstitialAd_m3212 (AdManager_t627 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::ShowInterstitialAd()
-extern "C" void AdManager_ShowInterstitialAd_m3205 (AdManager_t626 * __this, const MethodInfo* method)
+extern "C" void AdManager_ShowInterstitialAd_m3213 (AdManager_t627 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::SetOrientation(System.Int32)
-extern "C" void AdManager_SetOrientation_m3195 (AdManager_t626 * __this, int32_t ___orientation, const MethodInfo* method)
+extern "C" void AdManager_SetOrientation_m3203 (AdManager_t627 * __this, int32_t ___orientation, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern "C" void AdManager__ctor_m7471 (AdManager_t626 * __this, const MethodInfo* method)
+extern "C" void AdManager__ctor_m7479 (AdManager_t627 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m160(__this, /*hidden argument*/NULL);

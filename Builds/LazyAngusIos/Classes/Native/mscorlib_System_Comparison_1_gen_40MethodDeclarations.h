@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnityEngine.UI.Toggle>
-struct Comparison_1_t3860;
+struct Comparison_1_t3861;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Toggle
-struct Toggle_t874;
+struct Toggle_t875;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t344;
 // System.Void System.Comparison`1<UnityEngine.UI.Toggle>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m25294(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3860 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17560_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m25302(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3861 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17568_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Toggle>::Invoke(T,T)
-#define Comparison_1_Invoke_m25295(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3860 *, Toggle_t874 *, Toggle_t874 *, const MethodInfo*))Comparison_1_Invoke_m17561_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m25303(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3861 *, Toggle_t875 *, Toggle_t875 *, const MethodInfo*))Comparison_1_Invoke_m17569_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.UI.Toggle>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m25296(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3860 *, Toggle_t874 *, Toggle_t874 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17562_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m25304(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3861 *, Toggle_t875 *, Toggle_t875 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17570_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Toggle>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m25297(__this, ___result, method) (( int32_t (*) (Comparison_1_t3860 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17563_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m25305(__this, ___result, method) (( int32_t (*) (Comparison_1_t3861 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17571_gshared)(__this, ___result, method)

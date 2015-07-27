@@ -7,7 +7,7 @@ struct ConeOfViewRenderer_t439;
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
 // HeadMovement
-struct  HeadMovement_t472  : public MonoBehaviour_t67
+struct  HeadMovement_t474  : public MonoBehaviour_t67
 {
 	// System.Single HeadMovement::moveToSpeedDeg
 	float ___moveToSpeedDeg_2;

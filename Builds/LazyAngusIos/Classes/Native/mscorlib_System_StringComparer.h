@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.StringComparer
-struct StringComparer_t1307;
+struct StringComparer_t1308;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.StringComparer
-struct  StringComparer_t1307  : public Object_t
+struct  StringComparer_t1308  : public Object_t
 {
 };
-struct StringComparer_t1307_StaticFields{
+struct StringComparer_t1308_StaticFields{
 	// System.StringComparer System.StringComparer::invariantCultureIgnoreCase
-	StringComparer_t1307 * ___invariantCultureIgnoreCase_0;
+	StringComparer_t1308 * ___invariantCultureIgnoreCase_0;
 	// System.StringComparer System.StringComparer::invariantCulture
-	StringComparer_t1307 * ___invariantCulture_1;
+	StringComparer_t1308 * ___invariantCulture_1;
 	// System.StringComparer System.StringComparer::ordinalIgnoreCase
-	StringComparer_t1307 * ___ordinalIgnoreCase_2;
+	StringComparer_t1308 * ___ordinalIgnoreCase_2;
 	// System.StringComparer System.StringComparer::ordinal
-	StringComparer_t1307 * ___ordinal_3;
+	StringComparer_t1308 * ___ordinal_3;
 };

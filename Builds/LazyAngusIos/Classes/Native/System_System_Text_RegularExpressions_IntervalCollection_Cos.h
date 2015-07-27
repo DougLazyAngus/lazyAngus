@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.IntervalCollection/CostDelegate
-struct  CostDelegate_t2140  : public MulticastDelegate_t346
+struct  CostDelegate_t2141  : public MulticastDelegate_t346
 {
 };

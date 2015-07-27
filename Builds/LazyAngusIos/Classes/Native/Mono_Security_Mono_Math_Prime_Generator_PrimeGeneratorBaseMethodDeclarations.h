@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
-struct PrimeGeneratorBase_t1727;
+struct PrimeGeneratorBase_t1728;
 // Mono.Math.Prime.PrimalityTest
-struct PrimalityTest_t1845;
+struct PrimalityTest_t1846;
 // Mono.Math.BigInteger
-struct BigInteger_t1721;
+struct BigInteger_t1722;
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
-extern "C" void PrimeGeneratorBase__ctor_m8732 (PrimeGeneratorBase_t1727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrimeGeneratorBase__ctor_m8740 (PrimeGeneratorBase_t1728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
-extern "C" int32_t PrimeGeneratorBase_get_Confidence_m8733 (PrimeGeneratorBase_t1727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_Confidence_m8741 (PrimeGeneratorBase_t1728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
-extern "C" PrimalityTest_t1845 * PrimeGeneratorBase_get_PrimalityTest_m8734 (PrimeGeneratorBase_t1727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PrimalityTest_t1846 * PrimeGeneratorBase_get_PrimalityTest_m8742 (PrimeGeneratorBase_t1728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
-extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m8735 (PrimeGeneratorBase_t1727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m8743 (PrimeGeneratorBase_t1728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)

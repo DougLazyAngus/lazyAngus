@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.Single>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_2.h"
 // UnityEngine.UI.Slider/SliderEvent
-struct  SliderEvent_t865  : public UnityEvent_1_t849
+struct  SliderEvent_t866  : public UnityEvent_1_t850
 {
 };

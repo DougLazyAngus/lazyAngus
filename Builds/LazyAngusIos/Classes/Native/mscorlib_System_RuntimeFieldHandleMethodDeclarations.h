@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.RuntimeFieldHandle
-struct RuntimeFieldHandle_t2312;
+struct RuntimeFieldHandle_t2313;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1299;
+struct SerializationInfo_t1300;
 // System.Object
 struct Object_t;
 // System.IntPtr
@@ -16,12 +16,12 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.RuntimeFieldHandle::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void RuntimeFieldHandle__ctor_m12636 (RuntimeFieldHandle_t2312 * __this, SerializationInfo_t1299 * ___info, StreamingContext_t1300  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeFieldHandle__ctor_m12644 (RuntimeFieldHandle_t2313 * __this, SerializationInfo_t1300 * ___info, StreamingContext_t1301  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.RuntimeFieldHandle::get_Value()
-extern "C" IntPtr_t RuntimeFieldHandle_get_Value_m12637 (RuntimeFieldHandle_t2312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t RuntimeFieldHandle_get_Value_m12645 (RuntimeFieldHandle_t2313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.RuntimeFieldHandle::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void RuntimeFieldHandle_GetObjectData_m12638 (RuntimeFieldHandle_t2312 * __this, SerializationInfo_t1299 * ___info, StreamingContext_t1300  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeFieldHandle_GetObjectData_m12646 (RuntimeFieldHandle_t2313 * __this, SerializationInfo_t1300 * ___info, StreamingContext_t1301  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.RuntimeFieldHandle::Equals(System.Object)
-extern "C" bool RuntimeFieldHandle_Equals_m12639 (RuntimeFieldHandle_t2312 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RuntimeFieldHandle_Equals_m12647 (RuntimeFieldHandle_t2313 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.RuntimeFieldHandle::GetHashCode()
-extern "C" int32_t RuntimeFieldHandle_GetHashCode_m12640 (RuntimeFieldHandle_t2312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RuntimeFieldHandle_GetHashCode_m12648 (RuntimeFieldHandle_t2313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<FacebookUserInfo>
-struct Predicate_1_t3546;
+struct Predicate_1_t3547;
 // System.Object
 struct Object_t;
 // FacebookUserInfo
@@ -20,10 +20,10 @@ struct AsyncCallback_t344;
 // System.Void System.Predicate`1<FacebookUserInfo>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m20432(__this, ___object, ___method, method) (( void (*) (Predicate_1_t3546 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m17530_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m20440(__this, ___object, ___method, method) (( void (*) (Predicate_1_t3547 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m17538_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<FacebookUserInfo>::Invoke(T)
-#define Predicate_1_Invoke_m20433(__this, ___obj, method) (( bool (*) (Predicate_1_t3546 *, FacebookUserInfo_t229 *, const MethodInfo*))Predicate_1_Invoke_m17531_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m20441(__this, ___obj, method) (( bool (*) (Predicate_1_t3547 *, FacebookUserInfo_t229 *, const MethodInfo*))Predicate_1_Invoke_m17539_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<FacebookUserInfo>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m20434(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t3546 *, FacebookUserInfo_t229 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m17532_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m20442(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t3547 *, FacebookUserInfo_t229 *, AsyncCallback_t344 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m17540_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<FacebookUserInfo>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m20435(__this, ___result, method) (( bool (*) (Predicate_1_t3546 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m17533_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m20443(__this, ___result, method) (( bool (*) (Predicate_1_t3547 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m17541_gshared)(__this, ___result, method)

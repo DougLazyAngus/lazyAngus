@@ -13,7 +13,7 @@ struct TwitterStatus_t282;
 // UnityEngine.Texture2D
 struct Texture2D_t65;
 // System.Collections.IDictionary
-struct IDictionary_t583;
+struct IDictionary_t584;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 

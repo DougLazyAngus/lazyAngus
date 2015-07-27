@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Collider
-struct  Collider_t661  : public Component_t658
+struct  Collider_t662  : public Component_t659
 {
 };

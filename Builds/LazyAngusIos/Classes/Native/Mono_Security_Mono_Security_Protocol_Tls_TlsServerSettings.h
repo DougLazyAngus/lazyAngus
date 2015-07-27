@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t1753;
+struct X509CertificateCollection_t1754;
 // System.Security.Cryptography.RSA
-struct RSA_t1750;
+struct RSA_t1751;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String[]
 struct StringU5BU5D_t45;
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
-struct ClientCertificateTypeU5BU5D_t1830;
+struct ClientCertificateTypeU5BU5D_t1831;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.RSAParameters
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
 // Mono.Security.Protocol.Tls.TlsServerSettings
-struct  TlsServerSettings_t1797  : public Object_t
+struct  TlsServerSettings_t1798  : public Object_t
 {
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.Protocol.Tls.TlsServerSettings::certificates
-	X509CertificateCollection_t1753 * ___certificates_0;
+	X509CertificateCollection_t1754 * ___certificates_0;
 	// System.Security.Cryptography.RSA Mono.Security.Protocol.Tls.TlsServerSettings::certificateRSA
-	RSA_t1750 * ___certificateRSA_1;
+	RSA_t1751 * ___certificateRSA_1;
 	// System.Security.Cryptography.RSAParameters Mono.Security.Protocol.Tls.TlsServerSettings::rsaParameters
-	RSAParameters_t1831  ___rsaParameters_2;
+	RSAParameters_t1832  ___rsaParameters_2;
 	// System.Byte[] Mono.Security.Protocol.Tls.TlsServerSettings::signedParams
 	ByteU5BU5D_t36* ___signedParams_3;
 	// System.String[] Mono.Security.Protocol.Tls.TlsServerSettings::distinguisedNames
@@ -32,5 +32,5 @@ struct  TlsServerSettings_t1797  : public Object_t
 	// System.Boolean Mono.Security.Protocol.Tls.TlsServerSettings::certificateRequest
 	bool ___certificateRequest_6;
 	// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[] Mono.Security.Protocol.Tls.TlsServerSettings::certificateTypes
-	ClientCertificateTypeU5BU5D_t1830* ___certificateTypes_7;
+	ClientCertificateTypeU5BU5D_t1831* ___certificateTypes_7;
 };

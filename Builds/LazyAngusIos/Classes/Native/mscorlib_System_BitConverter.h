@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.BitConverter
-struct  BitConverter_t1862  : public Object_t
+struct  BitConverter_t1863  : public Object_t
 {
 };
-struct BitConverter_t1862_StaticFields{
+struct BitConverter_t1863_StaticFields{
 	// System.Boolean System.BitConverter::SwappedWordsInDouble
 	bool ___SwappedWordsInDouble_0;
 	// System.Boolean System.BitConverter::IsLittleEndian

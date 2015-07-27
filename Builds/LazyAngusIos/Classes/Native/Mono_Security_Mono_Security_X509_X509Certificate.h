@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.ASN1
-struct ASN1_t1729;
+struct ASN1_t1730;
 // System.Byte[]
 struct ByteU5BU5D_t36;
 // System.String
 struct String_t;
 // System.Security.Cryptography.RSA
-struct RSA_t1750;
+struct RSA_t1751;
 // System.Security.Cryptography.DSA
-struct DSA_t1756;
+struct DSA_t1757;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t1757;
+struct X509ExtensionCollection_t1758;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t181;
 // System.Object
@@ -19,10 +19,10 @@ struct Dictionary_2_t181;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Certificate
-struct  X509Certificate_t1758  : public Object_t
+struct  X509Certificate_t1759  : public Object_t
 {
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::decoder
-	ASN1_t1729 * ___decoder_0;
+	ASN1_t1730 * ___decoder_0;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_encodedcert
 	ByteU5BU5D_t36* ___m_encodedcert_1;
 	// System.DateTime Mono.Security.X509.X509Certificate::m_from
@@ -30,7 +30,7 @@ struct  X509Certificate_t1758  : public Object_t
 	// System.DateTime Mono.Security.X509.X509Certificate::m_until
 	DateTime_t245  ___m_until_3;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::issuer
-	ASN1_t1729 * ___issuer_4;
+	ASN1_t1730 * ___issuer_4;
 	// System.String Mono.Security.X509.X509Certificate::m_issuername
 	String_t* ___m_issuername_5;
 	// System.String Mono.Security.X509.X509Certificate::m_keyalgo
@@ -38,7 +38,7 @@ struct  X509Certificate_t1758  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_keyalgoparams
 	ByteU5BU5D_t36* ___m_keyalgoparams_7;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::subject
-	ASN1_t1729 * ___subject_8;
+	ASN1_t1730 * ___subject_8;
 	// System.String Mono.Security.X509.X509Certificate::m_subject
 	String_t* ___m_subject_9;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_publickey
@@ -52,9 +52,9 @@ struct  X509Certificate_t1758  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::certhash
 	ByteU5BU5D_t36* ___certhash_14;
 	// System.Security.Cryptography.RSA Mono.Security.X509.X509Certificate::_rsa
-	RSA_t1750 * ____rsa_15;
+	RSA_t1751 * ____rsa_15;
 	// System.Security.Cryptography.DSA Mono.Security.X509.X509Certificate::_dsa
-	DSA_t1756 * ____dsa_16;
+	DSA_t1757 * ____dsa_16;
 	// System.Int32 Mono.Security.X509.X509Certificate::version
 	int32_t ___version_17;
 	// System.Byte[] Mono.Security.X509.X509Certificate::serialnumber
@@ -64,9 +64,9 @@ struct  X509Certificate_t1758  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::subjectUniqueID
 	ByteU5BU5D_t36* ___subjectUniqueID_20;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Certificate::extensions
-	X509ExtensionCollection_t1757 * ___extensions_21;
+	X509ExtensionCollection_t1758 * ___extensions_21;
 };
-struct X509Certificate_t1758_StaticFields{
+struct X509Certificate_t1759_StaticFields{
 	// System.String Mono.Security.X509.X509Certificate::encoding_error
 	String_t* ___encoding_error_22;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Certificate::<>f__switch$mapF

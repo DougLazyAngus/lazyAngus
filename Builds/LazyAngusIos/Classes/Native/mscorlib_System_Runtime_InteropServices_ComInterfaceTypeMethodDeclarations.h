@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ComInterfaceType
-struct ComInterfaceType_t2543;
+struct ComInterfaceType_t2544;
 

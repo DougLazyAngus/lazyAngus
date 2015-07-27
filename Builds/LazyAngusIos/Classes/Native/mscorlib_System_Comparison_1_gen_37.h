@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Selectable
-struct Selectable_t795;
+struct Selectable_t796;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.UI.Selectable>
-struct  Comparison_1_t3839  : public MulticastDelegate_t346
+struct  Comparison_1_t3840  : public MulticastDelegate_t346
 {
 };

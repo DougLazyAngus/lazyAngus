@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t2000;
+struct WebHeaderCollection_t2001;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.HttpContinueDelegate
-struct  HttpContinueDelegate_t2040  : public MulticastDelegate_t346
+struct  HttpContinueDelegate_t2041  : public MulticastDelegate_t346
 {
 };

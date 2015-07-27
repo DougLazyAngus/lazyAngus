@@ -7,7 +7,7 @@ struct GUIStyle_t64;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.GUILayoutEntry
-struct  GUILayoutEntry_t1090  : public Object_t
+struct  GUILayoutEntry_t1091  : public Object_t
 {
 	// System.Single UnityEngine.GUILayoutEntry::minWidth
 	float ___minWidth_0;
@@ -18,7 +18,7 @@ struct  GUILayoutEntry_t1090  : public Object_t
 	// System.Single UnityEngine.GUILayoutEntry::maxHeight
 	float ___maxHeight_3;
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::rect
-	Rect_t593  ___rect_4;
+	Rect_t594  ___rect_4;
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchWidth
 	int32_t ___stretchWidth_5;
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchHeight
@@ -26,9 +26,9 @@ struct  GUILayoutEntry_t1090  : public Object_t
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutEntry::m_Style
 	GUIStyle_t64 * ___m_Style_7;
 };
-struct GUILayoutEntry_t1090_StaticFields{
+struct GUILayoutEntry_t1091_StaticFields{
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::kDummyRect
-	Rect_t593  ___kDummyRect_8;
+	Rect_t594  ___kDummyRect_8;
 	// System.Int32 UnityEngine.GUILayoutEntry::indent
 	int32_t ___indent_9;
 };

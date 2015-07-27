@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.CodeAccessPermission
-struct CodeAccessPermission_t2691;
+struct CodeAccessPermission_t2692;
 // System.Object
 struct Object_t;
 // System.Security.IPermission
-struct IPermission_t2705;
+struct IPermission_t2706;
 // System.String
 struct String_t;
 // System.Security.SecurityElement
-struct SecurityElement_t2392;
+struct SecurityElement_t2393;
 // System.Type
 struct Type_t;
 
 // System.Void System.Security.CodeAccessPermission::.ctor()
-extern "C" void CodeAccessPermission__ctor_m15277 (CodeAccessPermission_t2691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeAccessPermission__ctor_m15285 (CodeAccessPermission_t2692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.CodeAccessPermission::Equals(System.Object)
-extern "C" bool CodeAccessPermission_Equals_m15278 (CodeAccessPermission_t2691 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CodeAccessPermission_Equals_m15286 (CodeAccessPermission_t2692 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.CodeAccessPermission::GetHashCode()
-extern "C" int32_t CodeAccessPermission_GetHashCode_m15279 (CodeAccessPermission_t2691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CodeAccessPermission_GetHashCode_m15287 (CodeAccessPermission_t2692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.CodeAccessPermission::IsSubsetOf(System.Security.IPermission)
 // System.String System.Security.CodeAccessPermission::ToString()
-extern "C" String_t* CodeAccessPermission_ToString_m15280 (CodeAccessPermission_t2691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CodeAccessPermission_ToString_m15288 (CodeAccessPermission_t2692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityElement System.Security.CodeAccessPermission::ToXml()
 // System.Security.SecurityElement System.Security.CodeAccessPermission::Element(System.Int32)
-extern "C" SecurityElement_t2392 * CodeAccessPermission_Element_m15281 (CodeAccessPermission_t2691 * __this, int32_t ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityElement_t2393 * CodeAccessPermission_Element_m15289 (CodeAccessPermission_t2692 * __this, int32_t ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.CodeAccessPermission::ThrowInvalidPermission(System.Security.IPermission,System.Type)
-extern "C" void CodeAccessPermission_ThrowInvalidPermission_m15282 (Object_t * __this /* static, unused */, Object_t * ___target, Type_t * ___expected, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeAccessPermission_ThrowInvalidPermission_m15290 (Object_t * __this /* static, unused */, Object_t * ___target, Type_t * ___expected, const MethodInfo* method) IL2CPP_METHOD_ATTR;

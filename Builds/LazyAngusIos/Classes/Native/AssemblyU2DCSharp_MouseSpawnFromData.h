@@ -3,11 +3,11 @@
 // MouseSpawnFromData
 struct MouseSpawnFromData_t459;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t481;
+struct List_1_t483;
 // UnityEngine.GameObject
 struct GameObject_t310;
 // MouseSpawnFromData/MouseSpawnEventHandler
-struct MouseSpawnEventHandler_t511;
+struct MouseSpawnEventHandler_t513;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnFromData
@@ -20,7 +20,7 @@ struct  MouseSpawnFromData_t459  : public MonoBehaviour_t67
 	// System.Single MouseSpawnFromData::maxRandomDelay
 	float ___maxRandomDelay_5;
 	// System.Collections.Generic.List`1<ExplicitMouseDesc> MouseSpawnFromData::miceDesc
-	List_1_t481 * ___miceDesc_6;
+	List_1_t483 * ___miceDesc_6;
 	// System.Single MouseSpawnFromData::nextSpawnTime
 	float ___nextSpawnTime_7;
 	// UnityEngine.GameObject MouseSpawnFromData::mousePrototype
@@ -28,7 +28,7 @@ struct  MouseSpawnFromData_t459  : public MonoBehaviour_t67
 	// System.Boolean MouseSpawnFromData::registeredForEvents
 	bool ___registeredForEvents_9;
 	// MouseSpawnFromData/MouseSpawnEventHandler MouseSpawnFromData::MouseSpawn
-	MouseSpawnEventHandler_t511 * ___MouseSpawn_10;
+	MouseSpawnEventHandler_t513 * ___MouseSpawn_10;
 	// System.Int32 MouseSpawnFromData::<miceSpawned>k__BackingField
 	int32_t ___U3CmiceSpawnedU3Ek__BackingField_11;
 };

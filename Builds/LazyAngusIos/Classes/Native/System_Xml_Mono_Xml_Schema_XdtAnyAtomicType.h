@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XdtAnyAtomicType
-struct  XdtAnyAtomicType_t1494  : public XsdAnySimpleType_t1492
+struct  XdtAnyAtomicType_t1495  : public XsdAnySimpleType_t1493
 {
 };

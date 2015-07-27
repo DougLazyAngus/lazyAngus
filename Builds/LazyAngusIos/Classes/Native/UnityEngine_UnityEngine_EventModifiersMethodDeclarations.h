@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventModifiers
-struct EventModifiers_t1109;
+struct EventModifiers_t1110;
 

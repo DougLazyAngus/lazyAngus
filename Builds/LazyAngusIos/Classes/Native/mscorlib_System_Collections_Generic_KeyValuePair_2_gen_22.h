@@ -5,7 +5,7 @@ struct GPScore_t301;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,GPScore>
-struct  KeyValuePair_2_t3526 
+struct  KeyValuePair_2_t3527 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,GPScore>::key
 	int32_t ___key_0;

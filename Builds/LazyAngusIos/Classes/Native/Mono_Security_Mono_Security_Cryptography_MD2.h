@@ -3,6 +3,6 @@
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // Mono.Security.Cryptography.MD2
-struct  MD2_t1739  : public HashAlgorithm_t1740
+struct  MD2_t1740  : public HashAlgorithm_t1741
 {
 };

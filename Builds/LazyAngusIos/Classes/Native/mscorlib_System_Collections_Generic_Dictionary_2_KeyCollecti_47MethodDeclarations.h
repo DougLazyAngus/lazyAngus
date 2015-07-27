@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct KeyCollection_t4020;
+struct KeyCollection_t4021;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct Dictionary_2_t1321;
+struct Dictionary_2_t1322;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerator`1<System.String>
-struct IEnumerator_1_t4228;
+struct IEnumerator_1_t4229;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
@@ -26,30 +26,30 @@ struct StringU5BU5D_t45;
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_9MethodDeclarations.h"
-#define KeyCollection__ctor_m27467(__this, ___dictionary, method) (( void (*) (KeyCollection_t4020 *, Dictionary_2_t1321 *, const MethodInfo*))KeyCollection__ctor_m17726_gshared)(__this, ___dictionary, method)
+#define KeyCollection__ctor_m27475(__this, ___dictionary, method) (( void (*) (KeyCollection_t4021 *, Dictionary_2_t1322 *, const MethodInfo*))KeyCollection__ctor_m17734_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m27468(__this, ___item, method) (( void (*) (KeyCollection_t4020 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m17727_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m27476(__this, ___item, method) (( void (*) (KeyCollection_t4021 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m17735_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.ICollection<TKey>.Clear()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m27469(__this, method) (( void (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m17728_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m27477(__this, method) (( void (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m17736_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m27470(__this, ___item, method) (( bool (*) (KeyCollection_t4020 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m17729_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m27478(__this, ___item, method) (( bool (*) (KeyCollection_t4021 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m17737_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m27471(__this, ___item, method) (( bool (*) (KeyCollection_t4020 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m17730_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m27479(__this, ___item, method) (( bool (*) (KeyCollection_t4021 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m17738_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m27472(__this, method) (( Object_t* (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m17731_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m27480(__this, method) (( Object_t* (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m17739_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define KeyCollection_System_Collections_ICollection_CopyTo_m27473(__this, ___array, ___index, method) (( void (*) (KeyCollection_t4020 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m17732_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m27481(__this, ___array, ___index, method) (( void (*) (KeyCollection_t4021 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m17740_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IEnumerable.GetEnumerator()
-#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m27474(__this, method) (( Object_t * (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m17733_gshared)(__this, method)
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m27482(__this, method) (( Object_t * (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m17741_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m27475(__this, method) (( bool (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m17734_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m27483(__this, method) (( bool (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m17742_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.ICollection.get_IsSynchronized()
-#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m27476(__this, method) (( bool (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m17735_gshared)(__this, method)
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m27484(__this, method) (( bool (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m17743_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.ICollection.get_SyncRoot()
-#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m27477(__this, method) (( Object_t * (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m17736_gshared)(__this, method)
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m27485(__this, method) (( Object_t * (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m17744_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::CopyTo(TKey[],System.Int32)
-#define KeyCollection_CopyTo_m27478(__this, ___array, ___index, method) (( void (*) (KeyCollection_t4020 *, StringU5BU5D_t45*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m17737_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_CopyTo_m27486(__this, ___array, ___index, method) (( void (*) (KeyCollection_t4021 *, StringU5BU5D_t45*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m17745_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::GetEnumerator()
-#define KeyCollection_GetEnumerator_m27479(__this, method) (( Enumerator_t4649  (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_GetEnumerator_m17738_gshared)(__this, method)
+#define KeyCollection_GetEnumerator_m27487(__this, method) (( Enumerator_t4650  (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_GetEnumerator_m17746_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_Count()
-#define KeyCollection_get_Count_m27480(__this, method) (( int32_t (*) (KeyCollection_t4020 *, const MethodInfo*))KeyCollection_get_Count_m17739_gshared)(__this, method)
+#define KeyCollection_get_Count_m27488(__this, method) (( int32_t (*) (KeyCollection_t4021 *, const MethodInfo*))KeyCollection_get_Count_m17747_gshared)(__this, method)

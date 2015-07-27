@@ -1,37 +1,37 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml2.XmlTextReader/XmlTokenInfo
-struct XmlTokenInfo_t1660;
+struct XmlTokenInfo_t1661;
 // Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo
-struct XmlAttributeTokenInfo_t1661;
+struct XmlAttributeTokenInfo_t1662;
 // Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo[]
-struct XmlAttributeTokenInfoU5BU5D_t1665;
+struct XmlAttributeTokenInfoU5BU5D_t1666;
 // Mono.Xml2.XmlTextReader/XmlTokenInfo[]
-struct XmlTokenInfoU5BU5D_t1666;
+struct XmlTokenInfoU5BU5D_t1667;
 // System.Xml.XmlParserContext
-struct XmlParserContext_t1648;
+struct XmlParserContext_t1649;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t1577;
+struct XmlNameTable_t1578;
 // System.Xml.XmlNamespaceManager
-struct XmlNamespaceManager_t1636;
+struct XmlNamespaceManager_t1637;
 // Mono.Xml2.XmlTextReader/TagName[]
-struct TagNameU5BU5D_t1667;
+struct TagNameU5BU5D_t1668;
 // System.String
 struct String_t;
 // System.Text.StringBuilder
 struct StringBuilder_t219;
 // System.IO.TextReader
-struct TextReader_t1631;
+struct TextReader_t1632;
 // System.Char[]
-struct CharU5BU5D_t606;
+struct CharU5BU5D_t607;
 // System.Xml.XmlReaderBinarySupport/CharGetter
-struct CharGetter_t1655;
+struct CharGetter_t1656;
 // System.Xml.XmlResolver
-struct XmlResolver_t1576;
+struct XmlResolver_t1577;
 // System.Xml.NameTable
-struct NameTable_t1601;
+struct NameTable_t1602;
 // Mono.Xml2.XmlTextReader/DtdInputStateStack
-struct DtdInputStateStack_t1664;
+struct DtdInputStateStack_t1665;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t181;
 // System.Xml.XmlReader
@@ -45,20 +45,20 @@ struct Dictionary_2_t181;
 // System.Xml.EntityHandling
 #include "System_Xml_System_Xml_EntityHandling.h"
 // Mono.Xml2.XmlTextReader
-struct  XmlTextReader_t1659  : public XmlReader_t1653
+struct  XmlTextReader_t1660  : public XmlReader_t1654
 {
 	// Mono.Xml2.XmlTextReader/XmlTokenInfo Mono.Xml2.XmlTextReader::cursorToken
-	XmlTokenInfo_t1660 * ___cursorToken_2;
+	XmlTokenInfo_t1661 * ___cursorToken_2;
 	// Mono.Xml2.XmlTextReader/XmlTokenInfo Mono.Xml2.XmlTextReader::currentToken
-	XmlTokenInfo_t1660 * ___currentToken_3;
+	XmlTokenInfo_t1661 * ___currentToken_3;
 	// Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo Mono.Xml2.XmlTextReader::currentAttributeToken
-	XmlAttributeTokenInfo_t1661 * ___currentAttributeToken_4;
+	XmlAttributeTokenInfo_t1662 * ___currentAttributeToken_4;
 	// Mono.Xml2.XmlTextReader/XmlTokenInfo Mono.Xml2.XmlTextReader::currentAttributeValueToken
-	XmlTokenInfo_t1660 * ___currentAttributeValueToken_5;
+	XmlTokenInfo_t1661 * ___currentAttributeValueToken_5;
 	// Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo[] Mono.Xml2.XmlTextReader::attributeTokens
-	XmlAttributeTokenInfoU5BU5D_t1665* ___attributeTokens_6;
+	XmlAttributeTokenInfoU5BU5D_t1666* ___attributeTokens_6;
 	// Mono.Xml2.XmlTextReader/XmlTokenInfo[] Mono.Xml2.XmlTextReader::attributeValueTokens
-	XmlTokenInfoU5BU5D_t1666* ___attributeValueTokens_7;
+	XmlTokenInfoU5BU5D_t1667* ___attributeValueTokens_7;
 	// System.Int32 Mono.Xml2.XmlTextReader::currentAttribute
 	int32_t ___currentAttribute_8;
 	// System.Int32 Mono.Xml2.XmlTextReader::currentAttributeValue
@@ -66,11 +66,11 @@ struct  XmlTextReader_t1659  : public XmlReader_t1653
 	// System.Int32 Mono.Xml2.XmlTextReader::attributeCount
 	int32_t ___attributeCount_10;
 	// System.Xml.XmlParserContext Mono.Xml2.XmlTextReader::parserContext
-	XmlParserContext_t1648 * ___parserContext_11;
+	XmlParserContext_t1649 * ___parserContext_11;
 	// System.Xml.XmlNameTable Mono.Xml2.XmlTextReader::nameTable
-	XmlNameTable_t1577 * ___nameTable_12;
+	XmlNameTable_t1578 * ___nameTable_12;
 	// System.Xml.XmlNamespaceManager Mono.Xml2.XmlTextReader::nsmgr
-	XmlNamespaceManager_t1636 * ___nsmgr_13;
+	XmlNamespaceManager_t1637 * ___nsmgr_13;
 	// System.Xml.ReadState Mono.Xml2.XmlTextReader::readState
 	int32_t ___readState_14;
 	// System.Boolean Mono.Xml2.XmlTextReader::disallowReset
@@ -84,7 +84,7 @@ struct  XmlTextReader_t1659  : public XmlReader_t1653
 	// System.Boolean Mono.Xml2.XmlTextReader::popScope
 	bool ___popScope_19;
 	// Mono.Xml2.XmlTextReader/TagName[] Mono.Xml2.XmlTextReader::elementNames
-	TagNameU5BU5D_t1667* ___elementNames_20;
+	TagNameU5BU5D_t1668* ___elementNames_20;
 	// System.Int32 Mono.Xml2.XmlTextReader::elementNameStackPos
 	int32_t ___elementNameStackPos_21;
 	// System.Boolean Mono.Xml2.XmlTextReader::allowMultipleRoot
@@ -98,9 +98,9 @@ struct  XmlTextReader_t1659  : public XmlReader_t1653
 	// System.Text.StringBuilder Mono.Xml2.XmlTextReader::valueBuffer
 	StringBuilder_t219 * ___valueBuffer_26;
 	// System.IO.TextReader Mono.Xml2.XmlTextReader::reader
-	TextReader_t1631 * ___reader_27;
+	TextReader_t1632 * ___reader_27;
 	// System.Char[] Mono.Xml2.XmlTextReader::peekChars
-	CharU5BU5D_t606* ___peekChars_28;
+	CharU5BU5D_t607* ___peekChars_28;
 	// System.Int32 Mono.Xml2.XmlTextReader::peekCharsIndex
 	int32_t ___peekCharsIndex_29;
 	// System.Int32 Mono.Xml2.XmlTextReader::peekCharsLength
@@ -128,13 +128,13 @@ struct  XmlTextReader_t1659  : public XmlReader_t1653
 	// System.Boolean Mono.Xml2.XmlTextReader::readCharsInProgress
 	bool ___readCharsInProgress_41;
 	// System.Xml.XmlReaderBinarySupport/CharGetter Mono.Xml2.XmlTextReader::binaryCharGetter
-	CharGetter_t1655 * ___binaryCharGetter_42;
+	CharGetter_t1656 * ___binaryCharGetter_42;
 	// System.Boolean Mono.Xml2.XmlTextReader::namespaces
 	bool ___namespaces_43;
 	// System.Xml.WhitespaceHandling Mono.Xml2.XmlTextReader::whitespaceHandling
 	int32_t ___whitespaceHandling_44;
 	// System.Xml.XmlResolver Mono.Xml2.XmlTextReader::resolver
-	XmlResolver_t1576 * ___resolver_45;
+	XmlResolver_t1577 * ___resolver_45;
 	// System.Boolean Mono.Xml2.XmlTextReader::normalization
 	bool ___normalization_46;
 	// System.Boolean Mono.Xml2.XmlTextReader::checkCharacters
@@ -146,13 +146,13 @@ struct  XmlTextReader_t1659  : public XmlReader_t1653
 	// System.Xml.EntityHandling Mono.Xml2.XmlTextReader::entityHandling
 	int32_t ___entityHandling_50;
 	// System.Xml.NameTable Mono.Xml2.XmlTextReader::whitespacePool
-	NameTable_t1601 * ___whitespacePool_51;
+	NameTable_t1602 * ___whitespacePool_51;
 	// System.Char[] Mono.Xml2.XmlTextReader::whitespaceCache
-	CharU5BU5D_t606* ___whitespaceCache_52;
+	CharU5BU5D_t607* ___whitespaceCache_52;
 	// Mono.Xml2.XmlTextReader/DtdInputStateStack Mono.Xml2.XmlTextReader::stateStack
-	DtdInputStateStack_t1664 * ___stateStack_53;
+	DtdInputStateStack_t1665 * ___stateStack_53;
 };
-struct XmlTextReader_t1659_StaticFields{
+struct XmlTextReader_t1660_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml2.XmlTextReader::<>f__switch$map51
 	Dictionary_2_t181 * ___U3CU3Ef__switchU24map51_54;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml2.XmlTextReader::<>f__switch$map52

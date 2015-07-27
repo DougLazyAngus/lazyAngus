@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack/Link
-struct Link_t2127;
+struct Link_t2128;
 

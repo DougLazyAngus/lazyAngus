@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.PKCS8
-struct PKCS8_t2372;
+struct PKCS8_t2373;
 

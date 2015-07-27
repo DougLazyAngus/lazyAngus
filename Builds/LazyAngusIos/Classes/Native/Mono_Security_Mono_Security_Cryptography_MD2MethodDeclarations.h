@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.MD2
-struct MD2_t1739;
+struct MD2_t1740;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.Cryptography.MD2::.ctor()
-extern "C" void MD2__ctor_m8794 (MD2_t1739 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD2__ctor_m8802 (MD2_t1740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Cryptography.MD2 Mono.Security.Cryptography.MD2::Create()
-extern "C" MD2_t1739 * MD2_Create_m8795 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MD2_t1740 * MD2_Create_m8803 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Cryptography.MD2 Mono.Security.Cryptography.MD2::Create(System.String)
-extern "C" MD2_t1739 * MD2_Create_m8796 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MD2_t1740 * MD2_Create_m8804 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

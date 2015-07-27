@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PlayerStats/BoostsChangedEventHandler
-struct  BoostsChangedEventHandler_t530  : public MulticastDelegate_t346
+struct  BoostsChangedEventHandler_t531  : public MulticastDelegate_t346
 {
 };

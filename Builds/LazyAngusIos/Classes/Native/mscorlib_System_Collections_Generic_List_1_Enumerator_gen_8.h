@@ -7,7 +7,7 @@ struct FacebookDelegate_t391;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>
-struct  Enumerator_t663 
+struct  Enumerator_t664 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::l
 	List_1_t370 * ___l_0;

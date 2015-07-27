@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Font/FontTextureRebuildCallback
-struct  FontTextureRebuildCallback_t1160  : public MulticastDelegate_t346
+struct  FontTextureRebuildCallback_t1161  : public MulticastDelegate_t346
 {
 };

@@ -5,7 +5,7 @@ struct Slider_t415;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnTracker
-struct  MouseSpawnTracker_t512  : public MonoBehaviour_t67
+struct  MouseSpawnTracker_t514  : public MonoBehaviour_t67
 {
 	// System.Boolean MouseSpawnTracker::registeredForEvents
 	bool ___registeredForEvents_2;

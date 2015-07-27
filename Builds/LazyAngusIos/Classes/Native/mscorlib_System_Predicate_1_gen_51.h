@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Events.PersistentCall
-struct PersistentCall_t1262;
+struct PersistentCall_t1263;
 // System.IAsyncResult
 struct IAsyncResult_t343;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.Events.PersistentCall>
-struct  Predicate_1_t4081  : public MulticastDelegate_t346
+struct  Predicate_1_t4082  : public MulticastDelegate_t346
 {
 };

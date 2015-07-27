@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t1827;
+struct X509CertificateCollection_t1828;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t1828;
+struct X509Certificate_t1829;
 // System.Security.Cryptography.X509Certificates.X509Certificate[]
-struct X509CertificateU5BU5D_t1886;
+struct X509CertificateU5BU5D_t1887;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
-struct X509CertificateEnumerator_t1888;
+struct X509CertificateEnumerator_t1889;
 
 // System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor()
-extern "C" void X509CertificateCollection__ctor_m9626 (X509CertificateCollection_t1827 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509CertificateCollection__ctor_m9634 (X509CertificateCollection_t1828 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate[])
-extern "C" void X509CertificateCollection__ctor_m9625 (X509CertificateCollection_t1827 * __this, X509CertificateU5BU5D_t1886* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509CertificateCollection__ctor_m9633 (X509CertificateCollection_t1828 * __this, X509CertificateU5BU5D_t1887* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Security.Cryptography.X509Certificates.X509CertificateCollection::get_Item(System.Int32)
-extern "C" X509Certificate_t1828 * X509CertificateCollection_get_Item_m9616 (X509CertificateCollection_t1827 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t1829 * X509CertificateCollection_get_Item_m9624 (X509CertificateCollection_t1828 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate[])
-extern "C" void X509CertificateCollection_AddRange_m10865 (X509CertificateCollection_t1827 * __this, X509CertificateU5BU5D_t1886* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509CertificateCollection_AddRange_m10873 (X509CertificateCollection_t1828 * __this, X509CertificateU5BU5D_t1887* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetEnumerator()
-extern "C" X509CertificateEnumerator_t1888 * X509CertificateCollection_GetEnumerator_m9630 (X509CertificateCollection_t1827 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509CertificateEnumerator_t1889 * X509CertificateCollection_GetEnumerator_m9638 (X509CertificateCollection_t1828 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetHashCode()
-extern "C" int32_t X509CertificateCollection_GetHashCode_m10866 (X509CertificateCollection_t1827 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509CertificateCollection_GetHashCode_m10874 (X509CertificateCollection_t1828 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

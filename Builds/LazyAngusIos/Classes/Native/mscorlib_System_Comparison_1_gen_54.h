@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
-struct  Comparison_1_t4103  : public MulticastDelegate_t346
+struct  Comparison_1_t4104  : public MulticastDelegate_t346
 {
 };

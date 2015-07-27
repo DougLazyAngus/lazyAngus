@@ -9,6 +9,6 @@ struct AsyncCallback_t344;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct  GetDelegate_t1199  : public MulticastDelegate_t346
+struct  GetDelegate_t1200  : public MulticastDelegate_t346
 {
 };

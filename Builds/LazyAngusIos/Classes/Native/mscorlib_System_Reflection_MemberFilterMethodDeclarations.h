@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MemberFilter
-struct MemberFilter_t2310;
+struct MemberFilter_t2311;
 // System.Object
 struct Object_t;
 // System.Reflection.MemberInfo
@@ -18,11 +18,11 @@ struct AsyncCallback_t344;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.MemberFilter::.ctor(System.Object,System.IntPtr)
-extern "C" void MemberFilter__ctor_m16426 (MemberFilter_t2310 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberFilter__ctor_m16434 (MemberFilter_t2311 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MemberFilter::Invoke(System.Reflection.MemberInfo,System.Object)
-extern "C" bool MemberFilter_Invoke_m16427 (MemberFilter_t2310 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool pinvoke_delegate_wrapper_MemberFilter_t2310(Il2CppObject* delegate, MemberInfo_t * ___m, Object_t * ___filterCriteria);
+extern "C" bool MemberFilter_Invoke_m16435 (MemberFilter_t2311 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool pinvoke_delegate_wrapper_MemberFilter_t2311(Il2CppObject* delegate, MemberInfo_t * ___m, Object_t * ___filterCriteria);
 // System.IAsyncResult System.Reflection.MemberFilter::BeginInvoke(System.Reflection.MemberInfo,System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * MemberFilter_BeginInvoke_m16428 (MemberFilter_t2310 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MemberFilter_BeginInvoke_m16436 (MemberFilter_t2311 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t344 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MemberFilter::EndInvoke(System.IAsyncResult)
-extern "C" bool MemberFilter_EndInvoke_m16429 (MemberFilter_t2310 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MemberFilter_EndInvoke_m16437 (MemberFilter_t2311 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

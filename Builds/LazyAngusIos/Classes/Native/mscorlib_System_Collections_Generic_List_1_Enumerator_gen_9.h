@@ -7,7 +7,7 @@ struct BoostButton_t419;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<BoostButton>
-struct  Enumerator_t683 
+struct  Enumerator_t684 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<BoostButton>::l
 	List_1_t423 * ___l_0;

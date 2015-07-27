@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t765;
+struct List_1_t766;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t767;
+struct BaseRaycaster_t768;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>
-struct  Enumerator_t3735 
+struct  Enumerator_t3736 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::l
-	List_1_t765 * ___l_0;
+	List_1_t766 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::current
-	BaseRaycaster_t767 * ___current_3;
+	BaseRaycaster_t768 * ___current_3;
 };
