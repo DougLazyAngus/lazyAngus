@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // PlayServiceUtil
-struct  PlayServiceUtil_t224  : public Object_t
+struct  PlayServiceUtil_t264  : public Object_t
 {
 };

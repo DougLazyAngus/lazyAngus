@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.SerializationInfoEnumerator
-struct  SerializationInfoEnumerator_t2650  : public Object_t
+struct  SerializationInfoEnumerator_t4624  : public Object_t
 {
 	// System.Collections.IEnumerator System.Runtime.Serialization.SerializationInfoEnumerator::enumerator
 	Object_t * ___enumerator_0;

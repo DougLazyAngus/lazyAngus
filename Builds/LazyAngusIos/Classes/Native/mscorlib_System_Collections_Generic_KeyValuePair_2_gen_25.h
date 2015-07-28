@@ -1,16 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Texture2D
-struct Texture2D_t68;
+// System.String
+struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// FacebookProfileImageSize
-#include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
-// System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct  KeyValuePair_2_t3584 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
+struct  KeyValuePair_2_t5488 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>::value
-	Texture2D_t68 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::value
+	int32_t ___value_1;
 };

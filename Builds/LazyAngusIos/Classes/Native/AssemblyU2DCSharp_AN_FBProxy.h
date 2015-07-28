@@ -5,6 +5,6 @@ struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AN_FBProxy
-struct  AN_FBProxy_t125  : public MonoBehaviour_t66
+struct  AN_FBProxy_t165  : public MonoBehaviour_t13
 {
 };

@@ -5,6 +5,6 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // InstagramEvents
-struct  InstagramEvents_t263  : public Object_t
+struct  InstagramEvents_t303  : public Object_t
 {
 };

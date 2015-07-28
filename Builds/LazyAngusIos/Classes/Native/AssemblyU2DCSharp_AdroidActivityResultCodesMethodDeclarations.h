@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // AdroidActivityResultCodes
-struct AdroidActivityResultCodes_t140;
+struct AdroidActivityResultCodes_t180;
 

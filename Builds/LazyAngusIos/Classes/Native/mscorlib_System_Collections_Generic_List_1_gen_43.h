@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UILineInfo[]
-struct UILineInfoU5BU5D_t1286;
+// System.Exception[]
+struct ExceptionU5BU5D_t8251;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct  List_1_t1164  : public Object_t
+// System.Collections.Generic.List`1<System.Exception>
+struct  List_1_t2088  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_items
-	UILineInfoU5BU5D_t1286* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_size
+	// T[] System.Collections.Generic.List`1<System.Exception>::_items
+	ExceptionU5BU5D_t8251* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1164_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::EmptyArray
-	UILineInfoU5BU5D_t1286* ___EmptyArray_4;
+struct List_1_t2088_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Exception>::EmptyArray
+	ExceptionU5BU5D_t8251* ___EmptyArray_4;
 };

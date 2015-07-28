@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.DrivenRectTransformTracker
-struct DrivenRectTransformTracker_t855;
+struct DrivenRectTransformTracker_t896;
 // UnityEngine.Object
-struct Object_t600;
-struct Object_t600_marshaled;
+struct Object_t645;
+struct Object_t645_marshaled;
 // UnityEngine.RectTransform
-struct RectTransform_t573;
+struct RectTransform_t618;
 // UnityEngine.DrivenTransformProperties
 #include "UnityEngine_UnityEngine_DrivenTransformProperties.h"
 
 // System.Void UnityEngine.DrivenRectTransformTracker::Add(UnityEngine.Object,UnityEngine.RectTransform,UnityEngine.DrivenTransformProperties)
-extern "C" void DrivenRectTransformTracker_Add_m5469 (DrivenRectTransformTracker_t855 * __this, Object_t600 * ___driver, RectTransform_t573 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DrivenRectTransformTracker_Add_m5757 (DrivenRectTransformTracker_t896 * __this, Object_t645 * ___driver, RectTransform_t618 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.DrivenRectTransformTracker::Clear()
-extern "C" void DrivenRectTransformTracker_Clear_m5467 (DrivenRectTransformTracker_t855 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DrivenRectTransformTracker_Clear_m5755 (DrivenRectTransformTracker_t896 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

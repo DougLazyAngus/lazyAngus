@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // TipConfig
-struct TipConfig_t433;
+struct TipConfig_t474;
 // System.Object
 struct Object_t;
 // TipController
-struct TipController_t560;
+struct TipController_t605;
 // System.Object
 #include "mscorlib_System_Object.h"
-// TipController/<PlayTipWithPause>c__Iterator16
-struct  U3CPlayTipWithPauseU3Ec__Iterator16_t561  : public Object_t
+// TipController/<PlayTipWithPause>c__Iterator17
+struct  U3CPlayTipWithPauseU3Ec__Iterator17_t606  : public Object_t
 {
-	// System.Single TipController/<PlayTipWithPause>c__Iterator16::tipPause
+	// System.Single TipController/<PlayTipWithPause>c__Iterator17::tipPause
 	float ___tipPause_0;
-	// TipConfig TipController/<PlayTipWithPause>c__Iterator16::tipConfig
-	TipConfig_t433 * ___tipConfig_1;
-	// System.Int32 TipController/<PlayTipWithPause>c__Iterator16::$PC
+	// TipConfig TipController/<PlayTipWithPause>c__Iterator17::tipConfig
+	TipConfig_t474 * ___tipConfig_1;
+	// System.Int32 TipController/<PlayTipWithPause>c__Iterator17::$PC
 	int32_t ___U24PC_2;
-	// System.Object TipController/<PlayTipWithPause>c__Iterator16::$current
+	// System.Object TipController/<PlayTipWithPause>c__Iterator17::$current
 	Object_t * ___U24current_3;
-	// System.Single TipController/<PlayTipWithPause>c__Iterator16::<$>tipPause
+	// System.Single TipController/<PlayTipWithPause>c__Iterator17::<$>tipPause
 	float ___U3CU24U3EtipPause_4;
-	// TipConfig TipController/<PlayTipWithPause>c__Iterator16::<$>tipConfig
-	TipConfig_t433 * ___U3CU24U3EtipConfig_5;
-	// TipController TipController/<PlayTipWithPause>c__Iterator16::<>f__this
-	TipController_t560 * ___U3CU3Ef__this_6;
+	// TipConfig TipController/<PlayTipWithPause>c__Iterator17::<$>tipConfig
+	TipConfig_t474 * ___U3CU24U3EtipConfig_5;
+	// TipController TipController/<PlayTipWithPause>c__Iterator17::<>f__this
+	TipController_t605 * ___U3CU3Ef__this_6;
 };

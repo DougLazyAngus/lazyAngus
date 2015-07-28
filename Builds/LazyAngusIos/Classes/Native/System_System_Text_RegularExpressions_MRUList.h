@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.MRUList/Node
-struct Node_t2124;
+struct Node_t4076;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.MRUList
-struct  MRUList_t2123  : public Object_t
+struct  MRUList_t4075  : public Object_t
 {
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList::head
-	Node_t2124 * ___head_0;
+	Node_t4076 * ___head_0;
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList::tail
-	Node_t2124 * ___tail_1;
+	Node_t4076 * ___tail_1;
 };

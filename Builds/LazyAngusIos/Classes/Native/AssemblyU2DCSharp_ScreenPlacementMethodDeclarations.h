@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ScreenPlacement
-struct ScreenPlacement_t367;
+struct ScreenPlacement_t407;
 
 // System.Void ScreenPlacement::.ctor()
-extern "C" void ScreenPlacement__ctor_m1927 (ScreenPlacement_t367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScreenPlacement__ctor_m2198 (ScreenPlacement_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScreenPlacement::Start()
-extern "C" void ScreenPlacement_Start_m1928 (ScreenPlacement_t367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScreenPlacement_Start_m2199 (ScreenPlacement_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScreenPlacement::FixedUpdate()
-extern "C" void ScreenPlacement_FixedUpdate_m1929 (ScreenPlacement_t367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScreenPlacement_FixedUpdate_m2200 (ScreenPlacement_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScreenPlacement::placementCalculation()
-extern "C" void ScreenPlacement_placementCalculation_m1930 (ScreenPlacement_t367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScreenPlacement_placementCalculation_m2201 (ScreenPlacement_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

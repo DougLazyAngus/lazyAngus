@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct Dictionary_2_t251;
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
+struct Dictionary_2_t274;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct  ValueCollection_t3586  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
+struct  ValueCollection_t5542  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::dictionary
-	Dictionary_2_t251 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::dictionary
+	Dictionary_2_t274 * ___dictionary_0;
 };

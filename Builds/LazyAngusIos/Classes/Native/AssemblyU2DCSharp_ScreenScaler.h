@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ScreenScaler
-struct  ScreenScaler_t370  : public MonoBehaviour_t66
+struct  ScreenScaler_t410  : public MonoBehaviour_t13
 {
 	// System.Boolean ScreenScaler::calulateStartOnly
 	bool ___calulateStartOnly_2;

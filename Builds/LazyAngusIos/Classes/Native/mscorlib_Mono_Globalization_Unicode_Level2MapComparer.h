@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Globalization.Unicode.Level2MapComparer
-struct Level2MapComparer_t2342;
+struct Level2MapComparer_t4316;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Globalization.Unicode.Level2MapComparer
-struct  Level2MapComparer_t2342  : public Object_t
+struct  Level2MapComparer_t4316  : public Object_t
 {
 };
-struct Level2MapComparer_t2342_StaticFields{
+struct Level2MapComparer_t4316_StaticFields{
 	// Mono.Globalization.Unicode.Level2MapComparer Mono.Globalization.Unicode.Level2MapComparer::Instance
-	Level2MapComparer_t2342 * ___Instance_0;
+	Level2MapComparer_t4316 * ___Instance_0;
 };

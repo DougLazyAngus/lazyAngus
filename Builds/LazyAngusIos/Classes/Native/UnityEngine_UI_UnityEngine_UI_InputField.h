@@ -3,35 +3,35 @@
 // System.String
 struct String_t;
 // UnityEngine.TouchScreenKeyboard
-struct TouchScreenKeyboard_t839;
+struct TouchScreenKeyboard_t880;
 // System.Char[]
-struct CharU5BU5D_t608;
+struct CharU5BU5D_t653;
 // UnityEngine.UI.Text
-struct Text_t424;
+struct Text_t465;
 // UnityEngine.UI.Graphic
-struct Graphic_t812;
+struct Graphic_t853;
 // UnityEngine.UI.InputField/SubmitEvent
-struct SubmitEvent_t832;
+struct SubmitEvent_t873;
 // UnityEngine.UI.InputField/OnChangeEvent
-struct OnChangeEvent_t834;
+struct OnChangeEvent_t875;
 // UnityEngine.UI.InputField/OnValidateInput
-struct OnValidateInput_t836;
+struct OnValidateInput_t877;
 // UnityEngine.RectTransform
-struct RectTransform_t573;
+struct RectTransform_t618;
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t840;
+struct UIVertexU5BU5D_t881;
 // UnityEngine.TextGenerator
-struct TextGenerator_t842;
+struct TextGenerator_t883;
 // UnityEngine.CanvasRenderer
-struct CanvasRenderer_t809;
+struct CanvasRenderer_t850;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t843;
+struct List_1_t884;
 // UnityEngine.Coroutine
-struct Coroutine_t844;
-struct Coroutine_t844_marshaled;
+struct Coroutine_t885;
+struct Coroutine_t885_marshaled;
 // UnityEngine.Event
-struct Event_t682;
-struct Event_t682_marshaled;
+struct Event_t726;
+struct Event_t726_marshaled;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 // UnityEngine.UI.InputField/ContentType
@@ -47,12 +47,12 @@ struct Event_t682_marshaled;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.UI.InputField
-struct  InputField_t545  : public Selectable_t797
+struct  InputField_t590  : public Selectable_t838
 {
 	// UnityEngine.UI.Text UnityEngine.UI.InputField::m_TextComponent
-	Text_t424 * ___m_TextComponent_21;
+	Text_t465 * ___m_TextComponent_21;
 	// UnityEngine.UI.Graphic UnityEngine.UI.InputField::m_Placeholder
-	Graphic_t812 * ___m_Placeholder_22;
+	Graphic_t853 * ___m_Placeholder_22;
 	// UnityEngine.UI.InputField/ContentType UnityEngine.UI.InputField::m_ContentType
 	int32_t ___m_ContentType_23;
 	// UnityEngine.UI.InputField/InputType UnityEngine.UI.InputField::m_InputType
@@ -70,13 +70,13 @@ struct  InputField_t545  : public Selectable_t797
 	// System.Int32 UnityEngine.UI.InputField::m_CharacterLimit
 	int32_t ___m_CharacterLimit_30;
 	// UnityEngine.UI.InputField/SubmitEvent UnityEngine.UI.InputField::m_EndEdit
-	SubmitEvent_t832 * ___m_EndEdit_31;
+	SubmitEvent_t873 * ___m_EndEdit_31;
 	// UnityEngine.UI.InputField/OnChangeEvent UnityEngine.UI.InputField::m_OnValueChange
-	OnChangeEvent_t834 * ___m_OnValueChange_32;
+	OnChangeEvent_t875 * ___m_OnValueChange_32;
 	// UnityEngine.UI.InputField/OnValidateInput UnityEngine.UI.InputField::m_OnValidateInput
-	OnValidateInput_t836 * ___m_OnValidateInput_33;
+	OnValidateInput_t877 * ___m_OnValidateInput_33;
 	// UnityEngine.Color UnityEngine.UI.InputField::m_SelectionColor
-	Color_t285  ___m_SelectionColor_34;
+	Color_t325  ___m_SelectionColor_34;
 	// System.String UnityEngine.UI.InputField::m_Text
 	String_t* ___m_Text_35;
 	// System.Single UnityEngine.UI.InputField::m_CaretBlinkRate
@@ -86,17 +86,17 @@ struct  InputField_t545  : public Selectable_t797
 	// System.Int32 UnityEngine.UI.InputField::m_CaretSelectPosition
 	int32_t ___m_CaretSelectPosition_38;
 	// UnityEngine.RectTransform UnityEngine.UI.InputField::caretRectTrans
-	RectTransform_t573 * ___caretRectTrans_39;
+	RectTransform_t618 * ___caretRectTrans_39;
 	// UnityEngine.UIVertex[] UnityEngine.UI.InputField::m_CursorVerts
-	UIVertexU5BU5D_t840* ___m_CursorVerts_40;
+	UIVertexU5BU5D_t881* ___m_CursorVerts_40;
 	// UnityEngine.TextGenerator UnityEngine.UI.InputField::m_InputTextCache
-	TextGenerator_t842 * ___m_InputTextCache_41;
+	TextGenerator_t883 * ___m_InputTextCache_41;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.InputField::m_CachedInputRenderer
-	CanvasRenderer_t809 * ___m_CachedInputRenderer_42;
+	CanvasRenderer_t850 * ___m_CachedInputRenderer_42;
 	// System.Boolean UnityEngine.UI.InputField::m_PreventFontCallback
 	bool ___m_PreventFontCallback_43;
 	// System.Collections.Generic.List`1<UnityEngine.UIVertex> UnityEngine.UI.InputField::m_Vbo
-	List_1_t843 * ___m_Vbo_44;
+	List_1_t884 * ___m_Vbo_44;
 	// System.Boolean UnityEngine.UI.InputField::m_AllowInput
 	bool ___m_AllowInput_45;
 	// System.Boolean UnityEngine.UI.InputField::m_ShouldActivateNextUpdate
@@ -108,7 +108,7 @@ struct  InputField_t545  : public Selectable_t797
 	// System.Boolean UnityEngine.UI.InputField::m_CaretVisible
 	bool ___m_CaretVisible_49;
 	// UnityEngine.Coroutine UnityEngine.UI.InputField::m_BlinkCoroutine
-	Coroutine_t844 * ___m_BlinkCoroutine_50;
+	Coroutine_t885 * ___m_BlinkCoroutine_50;
 	// System.Single UnityEngine.UI.InputField::m_BlinkStartTime
 	float ___m_BlinkStartTime_51;
 	// System.Int32 UnityEngine.UI.InputField::m_DrawStart
@@ -116,7 +116,7 @@ struct  InputField_t545  : public Selectable_t797
 	// System.Int32 UnityEngine.UI.InputField::m_DrawEnd
 	int32_t ___m_DrawEnd_53;
 	// UnityEngine.Coroutine UnityEngine.UI.InputField::m_DragCoroutine
-	Coroutine_t844 * ___m_DragCoroutine_54;
+	Coroutine_t885 * ___m_DragCoroutine_54;
 	// System.String UnityEngine.UI.InputField::m_OriginalText
 	String_t* ___m_OriginalText_55;
 	// System.Boolean UnityEngine.UI.InputField::m_WasCanceled
@@ -124,11 +124,11 @@ struct  InputField_t545  : public Selectable_t797
 	// System.Boolean UnityEngine.UI.InputField::m_HasDoneFocusTransition
 	bool ___m_HasDoneFocusTransition_57;
 	// UnityEngine.Event UnityEngine.UI.InputField::m_ProcessingEvent
-	Event_t682 * ___m_ProcessingEvent_58;
+	Event_t726 * ___m_ProcessingEvent_58;
 };
-struct InputField_t545_StaticFields{
+struct InputField_t590_StaticFields{
 	// UnityEngine.TouchScreenKeyboard UnityEngine.UI.InputField::m_Keyboard
-	TouchScreenKeyboard_t839 * ___m_Keyboard_19;
+	TouchScreenKeyboard_t880 * ___m_Keyboard_19;
 	// System.Char[] UnityEngine.UI.InputField::kSeparators
-	CharU5BU5D_t608* ___kSeparators_20;
+	CharU5BU5D_t653* ___kSeparators_20;
 };

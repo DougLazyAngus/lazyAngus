@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t68;
+struct Texture2D_t108;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_Event
-struct  GP_Event_t197  : public Object_t
+struct  GP_Event_t237  : public Object_t
 {
 	// System.String GP_Event::Id
 	String_t* ___Id_0;
@@ -20,5 +20,5 @@ struct  GP_Event_t197  : public Object_t
 	// System.Int64 GP_Event::Value
 	int64_t ___Value_4;
 	// UnityEngine.Texture2D GP_Event::_icon
-	Texture2D_t68 * ____icon_5;
+	Texture2D_t108 * ____icon_5;
 };

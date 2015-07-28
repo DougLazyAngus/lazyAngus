@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Random
-struct Random_t1136;
+struct Random_t2700;
 
 // System.Void UnityEngine.Random::set_seed(System.Int32)
-extern "C" void Random_set_seed_m3649 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Random_set_seed_m3941 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Random::Range(System.Single,System.Single)
-extern "C" float Random_Range_m3597 (Object_t * __this /* static, unused */, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Random_Range_m3889 (Object_t * __this /* static, unused */, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
-extern "C" int32_t Random_Range_m3175 (Object_t * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Random_Range_m3471 (Object_t * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
-extern "C" int32_t Random_RandomRangeInt_m6511 (Object_t * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Random_RandomRangeInt_m9113 (Object_t * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

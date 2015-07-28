@@ -7,18 +7,18 @@ struct String_t;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.EventSystems.StandaloneInputModule
-struct  StandaloneInputModule_t784  : public PointerInputModule_t782
+struct  StandaloneInputModule_t825  : public PointerInputModule_t823
 {
 	// System.Single UnityEngine.EventSystems.StandaloneInputModule::m_PrevActionTime
 	float ___m_PrevActionTime_12;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.StandaloneInputModule::m_LastMoveVector
-	Vector2_t70  ___m_LastMoveVector_13;
+	Vector2_t110  ___m_LastMoveVector_13;
 	// System.Int32 UnityEngine.EventSystems.StandaloneInputModule::m_ConsecutiveMoveCount
 	int32_t ___m_ConsecutiveMoveCount_14;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.StandaloneInputModule::m_LastMousePosition
-	Vector2_t70  ___m_LastMousePosition_15;
+	Vector2_t110  ___m_LastMousePosition_15;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.StandaloneInputModule::m_MousePosition
-	Vector2_t70  ___m_MousePosition_16;
+	Vector2_t110  ___m_MousePosition_16;
 	// System.String UnityEngine.EventSystems.StandaloneInputModule::m_HorizontalAxis
 	String_t* ___m_HorizontalAxis_17;
 	// System.String UnityEngine.EventSystems.StandaloneInputModule::m_VerticalAxis

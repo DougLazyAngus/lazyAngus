@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t656;
+struct Uri_t700;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t2002;
+struct WebHeaderCollection_t3960;
 // System.Net.ICredentials
-struct ICredentials_t1682;
+struct ICredentials_t3226;
 // System.String
 struct String_t;
 // System.Net.IWebProxy
-struct IWebProxy_t2019;
+struct IWebProxy_t3977;
 // System.Net.FileWebResponse
-struct FileWebResponse_t2020;
+struct FileWebResponse_t3978;
 // System.Threading.AutoResetEvent
-struct AutoResetEvent_t2021;
+struct AutoResetEvent_t3319;
 // System.Net.WebRequest
 #include "System_System_Net_WebRequest.h"
 // System.IO.FileAccess
 #include "mscorlib_System_IO_FileAccess.h"
 // System.Net.FileWebRequest
-struct  FileWebRequest_t2016  : public WebRequest_t1704
+struct  FileWebRequest_t3974  : public WebRequest_t3244
 {
 	// System.Uri System.Net.FileWebRequest::uri
-	Uri_t656 * ___uri_6;
+	Uri_t700 * ___uri_6;
 	// System.Net.WebHeaderCollection System.Net.FileWebRequest::webHeaders
-	WebHeaderCollection_t2002 * ___webHeaders_7;
+	WebHeaderCollection_t3960 * ___webHeaders_7;
 	// System.Net.ICredentials System.Net.FileWebRequest::credentials
 	Object_t * ___credentials_8;
 	// System.String System.Net.FileWebRequest::connectionGroup
@@ -42,9 +42,9 @@ struct  FileWebRequest_t2016  : public WebRequest_t1704
 	// System.Int32 System.Net.FileWebRequest::timeout
 	int32_t ___timeout_15;
 	// System.Net.FileWebResponse System.Net.FileWebRequest::webResponse
-	FileWebResponse_t2020 * ___webResponse_16;
+	FileWebResponse_t3978 * ___webResponse_16;
 	// System.Threading.AutoResetEvent System.Net.FileWebRequest::requestEndEvent
-	AutoResetEvent_t2021 * ___requestEndEvent_17;
+	AutoResetEvent_t3319 * ___requestEndEvent_17;
 	// System.Boolean System.Net.FileWebRequest::requesting
 	bool ___requesting_18;
 	// System.Boolean System.Net.FileWebRequest::asyncResponding

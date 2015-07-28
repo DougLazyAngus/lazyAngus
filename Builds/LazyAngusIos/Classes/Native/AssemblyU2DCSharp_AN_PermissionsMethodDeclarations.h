@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // AN_Permissions
-struct AN_Permissions_t85;
+struct AN_Permissions_t125;
 

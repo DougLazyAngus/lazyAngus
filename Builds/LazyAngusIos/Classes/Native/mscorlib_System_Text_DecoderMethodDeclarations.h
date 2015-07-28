@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.Decoder
-struct Decoder_t1632;
+struct Decoder_t3177;
 // System.Text.DecoderFallback
-struct DecoderFallback_t2714;
+struct DecoderFallback_t4687;
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t2715;
+struct DecoderFallbackBuffer_t4688;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t608;
+struct CharU5BU5D_t653;
 
 // System.Void System.Text.Decoder::.ctor()
-extern "C" void Decoder__ctor_m15365 (Decoder_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Decoder__ctor_m18684 (Decoder_t3177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.Decoder::set_Fallback(System.Text.DecoderFallback)
-extern "C" void Decoder_set_Fallback_m15366 (Decoder_t1632 * __this, DecoderFallback_t2714 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Decoder_set_Fallback_m18685 (Decoder_t3177 * __this, DecoderFallback_t4687 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallbackBuffer System.Text.Decoder::get_FallbackBuffer()
-extern "C" DecoderFallbackBuffer_t2715 * Decoder_get_FallbackBuffer_m15367 (Decoder_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DecoderFallbackBuffer_t4688 * Decoder_get_FallbackBuffer_m18686 (Decoder_t3177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)

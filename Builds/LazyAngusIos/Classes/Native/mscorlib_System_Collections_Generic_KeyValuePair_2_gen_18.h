@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t580;
+// System.Object
+struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
-struct  KeyValuePair_2_t3470 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
+struct  KeyValuePair_2_t5340 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::key
 	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::value
-	List_1_t580 * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::value
+	Object_t * ___value_1;
 };

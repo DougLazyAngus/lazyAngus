@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Material
-struct Material_t440;
+struct Material_t483;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct  MatEntry_t869  : public Object_t
+struct  MatEntry_t910  : public Object_t
 {
 	// UnityEngine.Material UnityEngine.UI.StencilMaterial/MatEntry::baseMat
-	Material_t440 * ___baseMat_0;
+	Material_t483 * ___baseMat_0;
 	// UnityEngine.Material UnityEngine.UI.StencilMaterial/MatEntry::customMat
-	Material_t440 * ___customMat_1;
+	Material_t483 * ___customMat_1;
 	// System.Int32 UnityEngine.UI.StencilMaterial/MatEntry::count
 	int32_t ___count_2;
 	// System.Int32 UnityEngine.UI.StencilMaterial/MatEntry::stencilID

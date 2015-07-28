@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Facebook.IfNotExist
-struct IfNotExist_t387;
+struct IfNotExist_t427;
 

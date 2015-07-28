@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t870;
-// UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t869;
+// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
+struct List_1_t904;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t591;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Enumerator_t3852 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
+struct  Enumerator_t5816 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::l
-	List_1_t870 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
+	List_1_t904 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::current
-	MatEntry_t869 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
+	CanvasGroup_t591 * ___current_3;
 };

@@ -4,27 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>
-struct InternalEnumerator_1_t4112;
+// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>
+struct InternalEnumerator_1_t8298;
 // System.Object
 struct Object_t;
+// UnityEngine.SocialPlatforms.IUserProfile
+struct IUserProfile_t736;
 // System.Array
 struct Array_t;
-// Mono.Xml2.XmlTextReader/TagName
-#include "System_Xml_Mono_Xml2_XmlTextReader_TagName.h"
 
-// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m28477_gshared (InternalEnumerator_1_t4112 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m28477(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4112 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28477_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28478_gshared (InternalEnumerator_1_t4112 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28478(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4112 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28478_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m28479_gshared (InternalEnumerator_1_t4112 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m28479(__this, method) (( void (*) (InternalEnumerator_1_t4112 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28479_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m28480_gshared (InternalEnumerator_1_t4112 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m28480(__this, method) (( bool (*) (InternalEnumerator_1_t4112 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28480_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/TagName>::get_Current()
-extern "C" TagName_t1664  InternalEnumerator_1_get_Current_m28481_gshared (InternalEnumerator_1_t4112 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m28481(__this, method) (( TagName_t1664  (*) (InternalEnumerator_1_t4112 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28481_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m59282(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8298 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20878_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m59283(__this, method) (( void (*) (InternalEnumerator_1_t8298 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20879_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m59284(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8298 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20880_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::Dispose()
+#define InternalEnumerator_1_Dispose_m59285(__this, method) (( void (*) (InternalEnumerator_1_t8298 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20881_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m59286(__this, method) (( bool (*) (InternalEnumerator_1_t8298 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20882_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IUserProfile>::get_Current()
+#define InternalEnumerator_1_get_Current_m59287(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8298 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20883_gshared)(__this, method)

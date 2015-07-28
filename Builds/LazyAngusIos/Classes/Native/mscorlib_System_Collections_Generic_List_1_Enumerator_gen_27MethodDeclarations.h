@@ -4,26 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>
-struct Enumerator_t3706;
+// System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>
+struct Enumerator_t5666;
 // System.Object
 struct Object_t;
-// UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t734;
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t733;
+// System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
+struct List_1_t739;
+// MouseHole/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m22878(__this, ___l, method) (( void (*) (Enumerator_t3706 *, List_1_t733 *, const MethodInfo*))Enumerator__ctor_m17475_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m22879(__this, method) (( Object_t * (*) (Enumerator_t3706 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m17476_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::Dispose()
-#define Enumerator_Dispose_m22880(__this, method) (( void (*) (Enumerator_t3706 *, const MethodInfo*))Enumerator_Dispose_m17477_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::VerifyState()
-#define Enumerator_VerifyState_m22881(__this, method) (( void (*) (Enumerator_t3706 *, const MethodInfo*))Enumerator_VerifyState_m17478_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::MoveNext()
-#define Enumerator_MoveNext_m22882(__this, method) (( bool (*) (Enumerator_t3706 *, const MethodInfo*))Enumerator_MoveNext_m3283_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::get_Current()
-#define Enumerator_get_Current_m22883(__this, method) (( BaseInputModule_t734 * (*) (Enumerator_t3706 *, const MethodInfo*))Enumerator_get_Current_m3282_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Collections.Generic.List`1/Enumerator<System.Int32>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_24MethodDeclarations.h"
+#define Enumerator__ctor_m26710(__this, ___l, method) (( void (*) (Enumerator_t5666 *, List_1_t739 *, const MethodInfo*))Enumerator__ctor_m26117_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m26711(__this, method) (( void (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m26118_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m26712(__this, method) (( Object_t * (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m26119_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::Dispose()
+#define Enumerator_Dispose_m26713(__this, method) (( void (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_Dispose_m26120_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::VerifyState()
+#define Enumerator_VerifyState_m26714(__this, method) (( void (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_VerifyState_m26121_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::MoveNext()
+#define Enumerator_MoveNext_m26715(__this, method) (( bool (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_MoveNext_m26122_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::get_Current()
+#define Enumerator_get_Current_m26716(__this, method) (( int32_t (*) (Enumerator_t5666 *, const MethodInfo*))Enumerator_get_Current_m26123_gshared)(__this, method)

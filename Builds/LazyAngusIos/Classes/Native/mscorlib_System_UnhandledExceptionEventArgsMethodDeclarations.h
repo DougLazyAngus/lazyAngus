@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UnhandledExceptionEventArgs
-struct UnhandledExceptionEventArgs_t2819;
+struct UnhandledExceptionEventArgs_t4790;
 // System.Object
 struct Object_t;
 
 // System.Void System.UnhandledExceptionEventArgs::.ctor(System.Object,System.Boolean)
-extern "C" void UnhandledExceptionEventArgs__ctor_m16407 (UnhandledExceptionEventArgs_t2819 * __this, Object_t * ___exception, bool ___isTerminating, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnhandledExceptionEventArgs__ctor_m19768 (UnhandledExceptionEventArgs_t4790 * __this, Object_t * ___exception, bool ___isTerminating, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.UnhandledExceptionEventArgs::get_ExceptionObject()
-extern "C" Object_t * UnhandledExceptionEventArgs_get_ExceptionObject_m16408 (UnhandledExceptionEventArgs_t2819 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * UnhandledExceptionEventArgs_get_ExceptionObject_m19769 (UnhandledExceptionEventArgs_t4790 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UnhandledExceptionEventArgs::get_IsTerminating()
-extern "C" bool UnhandledExceptionEventArgs_get_IsTerminating_m16409 (UnhandledExceptionEventArgs_t2819 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnhandledExceptionEventArgs_get_IsTerminating_m19770 (UnhandledExceptionEventArgs_t4790 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

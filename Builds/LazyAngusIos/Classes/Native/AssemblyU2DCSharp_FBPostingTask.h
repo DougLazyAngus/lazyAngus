@@ -5,7 +5,7 @@ struct String_t;
 // AsyncTask
 #include "AssemblyU2DCSharp_AsyncTask.h"
 // FBPostingTask
-struct  FBPostingTask_t257  : public AsyncTask_t178
+struct  FBPostingTask_t297  : public AsyncTask_t218
 {
 	// System.String FBPostingTask::_toId
 	String_t* ____toId_4;

@@ -5,6 +5,6 @@ struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AN_GMSInvitationProxy
-struct  AN_GMSInvitationProxy_t128  : public MonoBehaviour_t66
+struct  AN_GMSInvitationProxy_t168  : public MonoBehaviour_t13
 {
 };

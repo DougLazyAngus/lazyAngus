@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // FBObject
-struct FBObject_t245;
+struct FBObject_t285;
 // System.Action`1<FBResult>
-struct Action_1_t238;
+struct Action_1_t278;
 // System.Object
 #include "mscorlib_System_Object.h"
 // FBAppRequestActionType
@@ -15,7 +15,7 @@ struct Action_1_t238;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // FBAppRequest
-struct  FBAppRequest_t246  : public Object_t
+struct  FBAppRequest_t286  : public Object_t
 {
 	// System.String FBAppRequest::Id
 	String_t* ___Id_0;
@@ -32,17 +32,17 @@ struct  FBAppRequest_t246  : public Object_t
 	// System.String FBAppRequest::FromName
 	String_t* ___FromName_6;
 	// System.DateTime FBAppRequest::CreatedTime
-	DateTime_t247  ___CreatedTime_7;
+	DateTime_t287  ___CreatedTime_7;
 	// System.String FBAppRequest::CreatedTimeString
 	String_t* ___CreatedTimeString_8;
 	// System.String FBAppRequest::Data
 	String_t* ___Data_9;
 	// FBObject FBAppRequest::Object
-	FBObject_t245 * ___Object_10;
+	FBObject_t285 * ___Object_10;
 	// System.Action`1<FBResult> FBAppRequest::OnDeleteRequestFinished
-	Action_1_t238 * ___OnDeleteRequestFinished_11;
+	Action_1_t278 * ___OnDeleteRequestFinished_11;
 };
-struct FBAppRequest_t246_StaticFields{
+struct FBAppRequest_t286_StaticFields{
 	// System.Action`1<FBResult> FBAppRequest::<>f__am$cacheC
-	Action_1_t238 * ___U3CU3Ef__amU24cacheC_12;
+	Action_1_t278 * ___U3CU3Ef__amU24cacheC_12;
 };

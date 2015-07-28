@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // AndroidMonth
-struct AndroidMonth_t143;
+struct AndroidMonth_t183;
 

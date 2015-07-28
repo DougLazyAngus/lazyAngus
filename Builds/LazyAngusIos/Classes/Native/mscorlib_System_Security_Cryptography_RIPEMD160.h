@@ -3,6 +3,6 @@
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // System.Security.Cryptography.RIPEMD160
-struct  RIPEMD160_t2669  : public HashAlgorithm_t1742
+struct  RIPEMD160_t4643  : public HashAlgorithm_t3738
 {
 };

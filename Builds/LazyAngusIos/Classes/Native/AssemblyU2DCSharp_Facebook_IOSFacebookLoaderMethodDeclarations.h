@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Facebook.IOSFacebookLoader
-struct IOSFacebookLoader_t405;
+struct IOSFacebookLoader_t445;
 // Facebook.AbstractFacebook
-struct AbstractFacebook_t374;
+struct AbstractFacebook_t414;
 
 // System.Void Facebook.IOSFacebookLoader::.ctor()
-extern "C" void IOSFacebookLoader__ctor_m2193 (IOSFacebookLoader_t405 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSFacebookLoader__ctor_m2464 (IOSFacebookLoader_t445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Facebook.AbstractFacebook Facebook.IOSFacebookLoader::get_fb()
-extern "C" AbstractFacebook_t374 * IOSFacebookLoader_get_fb_m2194 (IOSFacebookLoader_t405 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AbstractFacebook_t414 * IOSFacebookLoader_get_fb_m2465 (IOSFacebookLoader_t445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

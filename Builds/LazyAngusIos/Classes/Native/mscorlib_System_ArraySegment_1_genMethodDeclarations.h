@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ArraySegment`1<System.Byte>
-struct ArraySegment_1_t4123;
+struct ArraySegment_1_t8554;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Object
 struct Object_t;
 // System.ArraySegment`1<System.Byte>
 #include "mscorlib_System_ArraySegment_1_gen.h"
 
 // T[] System.ArraySegment`1<System.Byte>::get_Array()
-extern "C" ByteU5BU5D_t36* ArraySegment_1_get_Array_m28547_gshared (ArraySegment_1_t4123 * __this, const MethodInfo* method);
-#define ArraySegment_1_get_Array_m28547(__this, method) (( ByteU5BU5D_t36* (*) (ArraySegment_1_t4123 *, const MethodInfo*))ArraySegment_1_get_Array_m28547_gshared)(__this, method)
+extern "C" ByteU5BU5D_t66* ArraySegment_1_get_Array_m62921_gshared (ArraySegment_1_t8554 * __this, const MethodInfo* method);
+#define ArraySegment_1_get_Array_m62921(__this, method) (( ByteU5BU5D_t66* (*) (ArraySegment_1_t8554 *, const MethodInfo*))ArraySegment_1_get_Array_m62921_gshared)(__this, method)
 // System.Int32 System.ArraySegment`1<System.Byte>::get_Offset()
-extern "C" int32_t ArraySegment_1_get_Offset_m28548_gshared (ArraySegment_1_t4123 * __this, const MethodInfo* method);
-#define ArraySegment_1_get_Offset_m28548(__this, method) (( int32_t (*) (ArraySegment_1_t4123 *, const MethodInfo*))ArraySegment_1_get_Offset_m28548_gshared)(__this, method)
+extern "C" int32_t ArraySegment_1_get_Offset_m62922_gshared (ArraySegment_1_t8554 * __this, const MethodInfo* method);
+#define ArraySegment_1_get_Offset_m62922(__this, method) (( int32_t (*) (ArraySegment_1_t8554 *, const MethodInfo*))ArraySegment_1_get_Offset_m62922_gshared)(__this, method)
 // System.Int32 System.ArraySegment`1<System.Byte>::get_Count()
-extern "C" int32_t ArraySegment_1_get_Count_m28549_gshared (ArraySegment_1_t4123 * __this, const MethodInfo* method);
-#define ArraySegment_1_get_Count_m28549(__this, method) (( int32_t (*) (ArraySegment_1_t4123 *, const MethodInfo*))ArraySegment_1_get_Count_m28549_gshared)(__this, method)
+extern "C" int32_t ArraySegment_1_get_Count_m62923_gshared (ArraySegment_1_t8554 * __this, const MethodInfo* method);
+#define ArraySegment_1_get_Count_m62923(__this, method) (( int32_t (*) (ArraySegment_1_t8554 *, const MethodInfo*))ArraySegment_1_get_Count_m62923_gshared)(__this, method)
 // System.Boolean System.ArraySegment`1<System.Byte>::Equals(System.Object)
-extern "C" bool ArraySegment_1_Equals_m28550_gshared (ArraySegment_1_t4123 * __this, Object_t * ___obj, const MethodInfo* method);
-#define ArraySegment_1_Equals_m28550(__this, ___obj, method) (( bool (*) (ArraySegment_1_t4123 *, Object_t *, const MethodInfo*))ArraySegment_1_Equals_m28550_gshared)(__this, ___obj, method)
+extern "C" bool ArraySegment_1_Equals_m62924_gshared (ArraySegment_1_t8554 * __this, Object_t * ___obj, const MethodInfo* method);
+#define ArraySegment_1_Equals_m62924(__this, ___obj, method) (( bool (*) (ArraySegment_1_t8554 *, Object_t *, const MethodInfo*))ArraySegment_1_Equals_m62924_gshared)(__this, ___obj, method)
 // System.Boolean System.ArraySegment`1<System.Byte>::Equals(System.ArraySegment`1<T>)
-extern "C" bool ArraySegment_1_Equals_m28551_gshared (ArraySegment_1_t4123 * __this, ArraySegment_1_t4123  ___obj, const MethodInfo* method);
-#define ArraySegment_1_Equals_m28551(__this, ___obj, method) (( bool (*) (ArraySegment_1_t4123 *, ArraySegment_1_t4123 , const MethodInfo*))ArraySegment_1_Equals_m28551_gshared)(__this, ___obj, method)
+extern "C" bool ArraySegment_1_Equals_m62925_gshared (ArraySegment_1_t8554 * __this, ArraySegment_1_t8554  ___obj, const MethodInfo* method);
+#define ArraySegment_1_Equals_m62925(__this, ___obj, method) (( bool (*) (ArraySegment_1_t8554 *, ArraySegment_1_t8554 , const MethodInfo*))ArraySegment_1_Equals_m62925_gshared)(__this, ___obj, method)
 // System.Int32 System.ArraySegment`1<System.Byte>::GetHashCode()
-extern "C" int32_t ArraySegment_1_GetHashCode_m28552_gshared (ArraySegment_1_t4123 * __this, const MethodInfo* method);
-#define ArraySegment_1_GetHashCode_m28552(__this, method) (( int32_t (*) (ArraySegment_1_t4123 *, const MethodInfo*))ArraySegment_1_GetHashCode_m28552_gshared)(__this, method)
+extern "C" int32_t ArraySegment_1_GetHashCode_m62926_gshared (ArraySegment_1_t8554 * __this, const MethodInfo* method);
+#define ArraySegment_1_GetHashCode_m62926(__this, method) (( int32_t (*) (ArraySegment_1_t8554 *, const MethodInfo*))ArraySegment_1_GetHashCode_m62926_gshared)(__this, method)

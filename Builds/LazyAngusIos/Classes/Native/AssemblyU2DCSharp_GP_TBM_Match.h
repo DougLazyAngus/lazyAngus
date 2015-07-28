@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Collections.Generic.List`1<GP_Participant>
-struct List_1_t191;
+struct List_1_t231;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_TBM_MatchStatus
@@ -13,7 +13,7 @@ struct List_1_t191;
 // GP_TBM_MatchTurnStatus
 #include "AssemblyU2DCSharp_GP_TBM_MatchTurnStatus.h"
 // GP_TBM_Match
-struct  GP_TBM_Match_t208  : public Object_t
+struct  GP_TBM_Match_t248  : public Object_t
 {
 	// System.String GP_TBM_Match::Id
 	String_t* ___Id_0;
@@ -46,9 +46,9 @@ struct  GP_TBM_Match_t208  : public Object_t
 	// System.Int32 GP_TBM_Match::Version
 	int32_t ___Version_14;
 	// System.Byte[] GP_TBM_Match::Data
-	ByteU5BU5D_t36* ___Data_15;
+	ByteU5BU5D_t66* ___Data_15;
 	// System.Byte[] GP_TBM_Match::PreviousMatchData
-	ByteU5BU5D_t36* ___PreviousMatchData_16;
+	ByteU5BU5D_t66* ___PreviousMatchData_16;
 	// System.Collections.Generic.List`1<GP_Participant> GP_TBM_Match::Participants
-	List_1_t191 * ___Participants_17;
+	List_1_t231 * ___Participants_17;
 };

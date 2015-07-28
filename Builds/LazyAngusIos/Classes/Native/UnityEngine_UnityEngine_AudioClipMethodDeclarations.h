@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioClip
-struct AudioClip_t355;
+struct AudioClip_t395;
 // System.Single[]
-struct SingleU5BU5D_t491;
+struct SingleU5BU5D_t535;
 
 // System.Void UnityEngine.AudioClip::InvokePCMReaderCallback_Internal(System.Single[])
-extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m6560 (AudioClip_t355 * __this, SingleU5BU5D_t491* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m9186 (AudioClip_t395 * __this, SingleU5BU5D_t535* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioClip::InvokePCMSetPositionCallback_Internal(System.Int32)
-extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m6561 (AudioClip_t355 * __this, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m9187 (AudioClip_t395 * __this, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;

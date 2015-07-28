@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.GridLayoutGroup/Constraint
-struct Constraint_t890;
+struct Constraint_t931;
 

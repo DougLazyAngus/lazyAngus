@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_GamesActivityResultCodes
-struct GP_GamesActivityResultCodes_t158;
+struct GP_GamesActivityResultCodes_t198;
 

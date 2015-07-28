@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // AN_PropertyTemplate
-struct AN_PropertyTemplate_t86;
+struct AN_PropertyTemplate_t126;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<AN_PropertyTemplate>
-struct  Predicate_1_t3426  : public MulticastDelegate_t348
+struct  Predicate_1_t5413  : public MulticastDelegate_t388
 {
 };

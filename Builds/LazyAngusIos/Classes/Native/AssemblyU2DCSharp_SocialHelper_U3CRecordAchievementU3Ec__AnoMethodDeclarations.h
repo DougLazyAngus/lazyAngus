@@ -4,10 +4,10 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// SocialHelper/<RecordAchievement>c__AnonStorey19
-struct U3CRecordAchievementU3Ec__AnonStorey19_t551;
+// SocialHelper/<RecordAchievement>c__AnonStorey1A
+struct U3CRecordAchievementU3Ec__AnonStorey1A_t596;
 
-// System.Void SocialHelper/<RecordAchievement>c__AnonStorey19::.ctor()
-extern "C" void U3CRecordAchievementU3Ec__AnonStorey19__ctor_m2908 (U3CRecordAchievementU3Ec__AnonStorey19_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SocialHelper/<RecordAchievement>c__AnonStorey19::<>m__50(System.Boolean)
-extern "C" void U3CRecordAchievementU3Ec__AnonStorey19_U3CU3Em__50_m2909 (U3CRecordAchievementU3Ec__AnonStorey19_t551 * __this, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialHelper/<RecordAchievement>c__AnonStorey1A::.ctor()
+extern "C" void U3CRecordAchievementU3Ec__AnonStorey1A__ctor_m3204 (U3CRecordAchievementU3Ec__AnonStorey1A_t596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialHelper/<RecordAchievement>c__AnonStorey1A::<>m__50(System.Boolean)
+extern "C" void U3CRecordAchievementU3Ec__AnonStorey1A_U3CU3Em__50_m3205 (U3CRecordAchievementU3Ec__AnonStorey1A_t596 * __this, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;

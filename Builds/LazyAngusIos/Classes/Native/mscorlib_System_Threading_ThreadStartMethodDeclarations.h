@@ -5,22 +5,22 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadStart
-struct ThreadStart_t2195;
+struct ThreadStart_t4145;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
-extern "C" void ThreadStart__ctor_m11573 (ThreadStart_t2195 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStart__ctor_m14790 (ThreadStart_t4145 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadStart::Invoke()
-extern "C" void ThreadStart_Invoke_m16453 (ThreadStart_t2195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_ThreadStart_t2195(Il2CppObject* delegate);
+extern "C" void ThreadStart_Invoke_m19820 (ThreadStart_t4145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_ThreadStart_t4145(Il2CppObject* delegate);
 // System.IAsyncResult System.Threading.ThreadStart::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * ThreadStart_BeginInvoke_m16454 (ThreadStart_t2195 * __this, AsyncCallback_t346 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ThreadStart_BeginInvoke_m19821 (ThreadStart_t4145 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadStart::EndInvoke(System.IAsyncResult)
-extern "C" void ThreadStart_EndInvoke_m16455 (ThreadStart_t2195 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStart_EndInvoke_m19822 (ThreadStart_t4145 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

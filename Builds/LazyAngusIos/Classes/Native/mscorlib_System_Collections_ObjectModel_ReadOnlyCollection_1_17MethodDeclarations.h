@@ -4,82 +4,82 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>
-struct ReadOnlyCollection_1_t3645;
-// BoostButton
-struct BoostButton_t421;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>
+struct ReadOnlyCollection_1_t5531;
+// FBAppRequest
+struct FBAppRequest_t286;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.IList`1<BoostButton>
-struct IList_1_t3644;
+// System.Collections.Generic.IList`1<FBAppRequest>
+struct IList_1_t5530;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
-// BoostButton[]
-struct BoostButtonU5BU5D_t3643;
-// System.Collections.Generic.IEnumerator`1<BoostButton>
-struct IEnumerator_1_t4425;
+struct IEnumerator_t48;
+// FBAppRequest[]
+struct FBAppRequestU5BU5D_t5529;
+// System.Collections.Generic.IEnumerator`1<FBAppRequest>
+struct IEnumerator_1_t8763;
 
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::.ctor(System.Collections.Generic.IList`1<T>)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::.ctor(System.Collections.Generic.IList`1<T>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
-#define ReadOnlyCollection_1__ctor_m22075(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t3645 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m17479_gshared)(__this, ___list, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m22076(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t3645 *, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m17480_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.ICollection<T>.Clear()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m22077(__this, method) (( void (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m17481_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m22078(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m17482_gshared)(__this, ___index, ___item, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m22079(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m17483_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m22080(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m17484_gshared)(__this, ___index, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m22081(__this, ___index, method) (( BoostButton_t421 * (*) (ReadOnlyCollection_1_t3645 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m17485_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m22082(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m17486_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m22083(__this, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m17487_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m22084(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t3645 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m17488_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IEnumerable.GetEnumerator()
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m22085(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m17489_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.Add(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m22086(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3645 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m17490_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.Clear()
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m22087(__this, method) (( void (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m17491_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.Contains(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m22088(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m17492_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.IndexOf(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m22089(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3645 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m17493_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m22090(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m17494_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.Remove(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m22091(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t3645 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m17495_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m22092(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m17496_gshared)(__this, ___index, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.ICollection.get_IsSynchronized()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m22093(__this, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m17497_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.ICollection.get_SyncRoot()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m22094(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m17498_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.get_IsFixedSize()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m22095(__this, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m17499_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m22096(__this, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m17500_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m22097(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t3645 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m17501_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m22098(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t3645 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m17502_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m22099(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t3645 *, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m17503_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::CopyTo(T[],System.Int32)
-#define ReadOnlyCollection_1_CopyTo_m22100(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t3645 *, BoostButtonU5BU5D_t3643*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m17504_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::GetEnumerator()
-#define ReadOnlyCollection_1_GetEnumerator_m22101(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m17505_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m22102(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t3645 *, BoostButton_t421 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m17506_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::get_Count()
-#define ReadOnlyCollection_1_get_Count_m22103(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t3645 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m17507_gshared)(__this, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<BoostButton>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m22104(__this, ___index, method) (( BoostButton_t421 * (*) (ReadOnlyCollection_1_t3645 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m17508_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1__ctor_m24533(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t5531 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7053_gshared)(__this, ___list, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.ICollection<T>.Add(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m24534(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5531 *, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21336_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.ICollection<T>.Clear()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m24535(__this, method) (( void (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21337_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m24536(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21338_gshared)(__this, ___index, ___item, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.ICollection<T>.Remove(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m24537(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21339_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m24538(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21340_gshared)(__this, ___index, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m24539(__this, ___index, method) (( FBAppRequest_t286 * (*) (ReadOnlyCollection_1_t5531 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21341_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m24540(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21342_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m24541(__this, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21343_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m24542(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5531 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m21344_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IEnumerable.GetEnumerator()
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m24543(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m21345_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.Add(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m24544(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5531 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m21346_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.Clear()
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m24545(__this, method) (( void (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m21347_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.Contains(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m24546(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m21348_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.IndexOf(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m24547(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5531 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m21349_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m24548(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m21350_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.Remove(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m24549(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t5531 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m21351_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m24550(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m21352_gshared)(__this, ___index, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.ICollection.get_IsSynchronized()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m24551(__this, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m21353_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.ICollection.get_SyncRoot()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m24552(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m21354_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.get_IsFixedSize()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m24553(__this, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m21355_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m24554(__this, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m21356_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m24555(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t5531 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m21357_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m24556(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5531 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21358_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::Contains(T)
+#define ReadOnlyCollection_1_Contains_m24557(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5531 *, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21359_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::CopyTo(T[],System.Int32)
+#define ReadOnlyCollection_1_CopyTo_m24558(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5531 *, FBAppRequestU5BU5D_t5529*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21360_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::GetEnumerator()
+#define ReadOnlyCollection_1_GetEnumerator_m24559(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21361_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::IndexOf(T)
+#define ReadOnlyCollection_1_IndexOf_m24560(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5531 *, FBAppRequest_t286 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21362_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::get_Count()
+#define ReadOnlyCollection_1_get_Count_m24561(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t5531 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21363_gshared)(__this, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>::get_Item(System.Int32)
+#define ReadOnlyCollection_1_get_Item_m24562(__this, ___index, method) (( FBAppRequest_t286 * (*) (ReadOnlyCollection_1_t5531 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21364_gshared)(__this, ___index, method)

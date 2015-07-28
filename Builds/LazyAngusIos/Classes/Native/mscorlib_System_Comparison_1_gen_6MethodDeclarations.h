@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<AN_PropertyTemplate>
-struct Comparison_1_t3427;
+struct Comparison_1_t5414;
 // System.Object
 struct Object_t;
 // AN_PropertyTemplate
-struct AN_PropertyTemplate_t86;
+struct AN_PropertyTemplate_t126;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Comparison`1<AN_PropertyTemplate>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m18317(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3427 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m17575_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m22239(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5414 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21429_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<AN_PropertyTemplate>::Invoke(T,T)
-#define Comparison_1_Invoke_m18318(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3427 *, AN_PropertyTemplate_t86 *, AN_PropertyTemplate_t86 *, const MethodInfo*))Comparison_1_Invoke_m17576_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m22240(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5414 *, AN_PropertyTemplate_t126 *, AN_PropertyTemplate_t126 *, const MethodInfo*))Comparison_1_Invoke_m21430_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<AN_PropertyTemplate>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m18319(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3427 *, AN_PropertyTemplate_t86 *, AN_PropertyTemplate_t86 *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m17577_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m22241(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5414 *, AN_PropertyTemplate_t126 *, AN_PropertyTemplate_t126 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21431_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<AN_PropertyTemplate>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m18320(__this, ___result, method) (( int32_t (*) (Comparison_1_t3427 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m17578_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m22242(__this, ___result, method) (( int32_t (*) (Comparison_1_t5414 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21432_gshared)(__this, ___result, method)

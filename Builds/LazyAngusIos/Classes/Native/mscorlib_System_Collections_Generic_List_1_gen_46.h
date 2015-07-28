@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type[]
-struct TypeU5BU5D_t1200;
+// UnityEngine.GUILayoutEntry[]
+struct GUILayoutEntryU5BU5D_t8318;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Type>
-struct  List_1_t1339  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
+struct  List_1_t2658  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Type>::_items
-	TypeU5BU5D_t1200* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_items
+	GUILayoutEntryU5BU5D_t8318* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1339_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
-	TypeU5BU5D_t1200* ___EmptyArray_4;
+struct List_1_t2658_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::EmptyArray
+	GUILayoutEntryU5BU5D_t8318* ___EmptyArray_4;
 };

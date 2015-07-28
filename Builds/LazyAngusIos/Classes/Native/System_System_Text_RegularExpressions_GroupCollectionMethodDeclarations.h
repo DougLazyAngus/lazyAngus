@@ -5,29 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.GroupCollection
-struct GroupCollection_t1894;
+struct GroupCollection_t1378;
 // System.Text.RegularExpressions.Group
-struct Group_t1895;
+struct Group_t1376;
+// System.String
+struct String_t;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 
 // System.Void System.Text.RegularExpressions.GroupCollection::.ctor(System.Int32,System.Int32)
-extern "C" void GroupCollection__ctor_m11063 (GroupCollection_t1894 * __this, int32_t ___n, int32_t ___gap, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GroupCollection__ctor_m14282 (GroupCollection_t1378 * __this, int32_t ___n, int32_t ___gap, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.GroupCollection::get_Count()
-extern "C" int32_t GroupCollection_get_Count_m11064 (GroupCollection_t1894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GroupCollection_get_Count_m14283 (GroupCollection_t1378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.GroupCollection::get_IsSynchronized()
-extern "C" bool GroupCollection_get_IsSynchronized_m11065 (GroupCollection_t1894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GroupCollection_get_IsSynchronized_m14284 (GroupCollection_t1378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Group System.Text.RegularExpressions.GroupCollection::get_Item(System.Int32)
-extern "C" Group_t1895 * GroupCollection_get_Item_m9652 (GroupCollection_t1894 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Group_t1376 * GroupCollection_get_Item_m12894 (GroupCollection_t1378 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.GroupCollection::SetValue(System.Text.RegularExpressions.Group,System.Int32)
-extern "C" void GroupCollection_SetValue_m11066 (GroupCollection_t1894 * __this, Group_t1895 * ___g, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GroupCollection_SetValue_m14285 (GroupCollection_t1378 * __this, Group_t1376 * ___g, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.RegularExpressions.Group System.Text.RegularExpressions.GroupCollection::get_Item(System.String)
+extern "C" Group_t1376 * GroupCollection_get_Item_m7024 (GroupCollection_t1378 * __this, String_t* ___groupName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.GroupCollection::get_SyncRoot()
-extern "C" Object_t * GroupCollection_get_SyncRoot_m11067 (GroupCollection_t1894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GroupCollection_get_SyncRoot_m14286 (GroupCollection_t1378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.GroupCollection::CopyTo(System.Array,System.Int32)
-extern "C" void GroupCollection_CopyTo_m11068 (GroupCollection_t1894 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GroupCollection_CopyTo_m14287 (GroupCollection_t1378 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Text.RegularExpressions.GroupCollection::GetEnumerator()
-extern "C" Object_t * GroupCollection_GetEnumerator_m11069 (GroupCollection_t1894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GroupCollection_GetEnumerator_m14288 (GroupCollection_t1378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

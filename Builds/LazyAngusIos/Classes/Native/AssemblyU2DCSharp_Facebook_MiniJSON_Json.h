@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Globalization.NumberFormatInfo
-struct NumberFormatInfo_t412;
+struct NumberFormatInfo_t452;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Facebook.MiniJSON.Json
-struct  Json_t413  : public Object_t
+struct  Json_t453  : public Object_t
 {
 };
-struct Json_t413_StaticFields{
+struct Json_t453_StaticFields{
 	// System.Globalization.NumberFormatInfo Facebook.MiniJSON.Json::numberFormat
-	NumberFormatInfo_t412 * ___numberFormat_0;
+	NumberFormatInfo_t452 * ___numberFormat_0;
 };

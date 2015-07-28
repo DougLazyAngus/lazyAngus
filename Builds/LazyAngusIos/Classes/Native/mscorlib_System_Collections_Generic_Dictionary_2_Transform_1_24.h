@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// GP_TBM_Match
-struct GP_TBM_Match_t208;
+// GPScore
+struct GPScore_t343;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Int32
+#include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,GP_TBM_Match,System.Collections.DictionaryEntry>
-struct  Transform_1_t3537  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,GPScore,System.Collections.DictionaryEntry>
+struct  Transform_1_t5497  : public MulticastDelegate_t388
 {
 };

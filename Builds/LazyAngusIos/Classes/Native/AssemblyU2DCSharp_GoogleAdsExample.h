@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUIStyle
-struct GUIStyle_t67;
+struct GUIStyle_t107;
 // GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t100;
+struct GoogleMobileAdBanner_t140;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GoogleAdsExample
-struct  GoogleAdsExample_t101  : public MonoBehaviour_t66
+struct  GoogleAdsExample_t141  : public MonoBehaviour_t13
 {
 	// UnityEngine.GUIStyle GoogleAdsExample::style
-	GUIStyle_t67 * ___style_2;
+	GUIStyle_t107 * ___style_2;
 	// UnityEngine.GUIStyle GoogleAdsExample::style2
-	GUIStyle_t67 * ___style2_3;
+	GUIStyle_t107 * ___style2_3;
 	// GoogleMobileAdBanner GoogleAdsExample::banner1
 	Object_t * ___banner1_4;
 	// GoogleMobileAdBanner GoogleAdsExample::banner2

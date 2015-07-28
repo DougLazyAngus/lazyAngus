@@ -49,4 +49,34 @@ public class SoundController : MonoBehaviour {
 			MusicMuteChanged ();
 		}
 	}
+
+	public void SuppressSounds() {
+		if (!musicMuted) {
+			musicMuted = true;
+			if (MusicMuteChanged != null) {
+				MusicMuteChanged ();
+			}
+		}
+		if (!sfxMuted) {
+			sfxMuted = true;
+			if (SoundMuteChanged != null) {
+				SoundMuteChanged ();
+			}
+		}
+	}
+
+	public void UnsuppressSounds() {
+		if (musicMuted != PersistentStorage.instance.GetBoolValue(musicValueName, false)) {
+			musicMuted = PersistentStorage.instance.GetBoolValue(musicValueName, false);
+			if (MusicMuteChanged != null) {
+				MusicMuteChanged ();
+			}
+		}
+		if (sfxMuted != PersistentStorage.instance.GetBoolValue(sfxValueName, false)) {
+			sfxMuted = PersistentStorage.instance.GetBoolValue(sfxValueName, false);
+			if (SoundMuteChanged != null) {
+				SoundMuteChanged ();
+			}
+		}
+	}
 }

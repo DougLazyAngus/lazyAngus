@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // RateMeController
-struct RateMeController_t534;
+struct RateMeController_t579;
 // System.Object
 #include "mscorlib_System_Object.h"
-// RateMeController/<WaitAndShowDialog>c__Iterator14
-struct  U3CWaitAndShowDialogU3Ec__Iterator14_t535  : public Object_t
+// RateMeController/<WaitAndShowDialog>c__Iterator15
+struct  U3CWaitAndShowDialogU3Ec__Iterator15_t580  : public Object_t
 {
-	// System.Int32 RateMeController/<WaitAndShowDialog>c__Iterator14::$PC
+	// System.Int32 RateMeController/<WaitAndShowDialog>c__Iterator15::$PC
 	int32_t ___U24PC_0;
-	// System.Object RateMeController/<WaitAndShowDialog>c__Iterator14::$current
+	// System.Object RateMeController/<WaitAndShowDialog>c__Iterator15::$current
 	Object_t * ___U24current_1;
-	// RateMeController RateMeController/<WaitAndShowDialog>c__Iterator14::<>f__this
-	RateMeController_t534 * ___U3CU3Ef__this_2;
+	// RateMeController RateMeController/<WaitAndShowDialog>c__Iterator15::<>f__this
+	RateMeController_t579 * ___U3CU3Ef__this_2;
 };

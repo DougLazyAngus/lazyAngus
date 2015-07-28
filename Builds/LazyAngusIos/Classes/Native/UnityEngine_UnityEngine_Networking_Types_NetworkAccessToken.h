@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Networking.Types.NetworkAccessToken
-struct  NetworkAccessToken_t1187  : public Object_t
+struct  NetworkAccessToken_t2755  : public Object_t
 {
 	// System.Byte[] UnityEngine.Networking.Types.NetworkAccessToken::array
-	ByteU5BU5D_t36* ___array_0;
+	ByteU5BU5D_t66* ___array_0;
 };

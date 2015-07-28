@@ -4,26 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Func`2<System.Object,System.Byte>
-struct Func_2_t3863;
+// System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>
+struct Func_2_t1371;
 // System.Object
 struct Object_t;
+// System.Threading.Tasks.Task
+struct Task_t1149;
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t1310;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Func`2<System.Object,System.Byte>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m25313_gshared (Func_2_t3863 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m25313(__this, ___object, ___method, method) (( void (*) (Func_2_t3863 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m25313_gshared)(__this, ___object, ___method, method)
-// TResult System.Func`2<System.Object,System.Byte>::Invoke(T)
-extern "C" uint8_t Func_2_Invoke_m25315_gshared (Func_2_t3863 * __this, Object_t * ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m25315(__this, ___arg1, method) (( uint8_t (*) (Func_2_t3863 *, Object_t *, const MethodInfo*))Func_2_Invoke_m25315_gshared)(__this, ___arg1, method)
-// System.IAsyncResult System.Func`2<System.Object,System.Byte>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m25317_gshared (Func_2_t3863 * __this, Object_t * ___arg1, AsyncCallback_t346 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m25317(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t3863 *, Object_t *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m25317_gshared)(__this, ___arg1, ___callback, ___object, method)
-// TResult System.Func`2<System.Object,System.Byte>::EndInvoke(System.IAsyncResult)
-extern "C" uint8_t Func_2_EndInvoke_m25319_gshared (Func_2_t3863 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m25319(__this, ___result, method) (( uint8_t (*) (Func_2_t3863 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m25319_gshared)(__this, ___result, method)
+// System.Void System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
+// System.Func`2<System.Object,System.Object>
+#include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
+#define Func_2__ctor_m7016(__this, ___object, ___method, method) (( void (*) (Func_2_t1371 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7151_gshared)(__this, ___object, ___method, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>::Invoke(T)
+#define Func_2_Invoke_m30979(__this, ___arg1, method) (( Task_t1149 * (*) (Func_2_t1371 *, Task_1_t1310 *, const MethodInfo*))Func_2_Invoke_m29980_gshared)(__this, ___arg1, method)
+// System.IAsyncResult System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Func_2_BeginInvoke_m30980(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1371 *, Task_1_t1310 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m29982_gshared)(__this, ___arg1, ___callback, ___object, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>::EndInvoke(System.IAsyncResult)
+#define Func_2_EndInvoke_m30981(__this, ___result, method) (( Task_t1149 * (*) (Func_2_t1371 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m29984_gshared)(__this, ___result, method)

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.DSAParameters
-struct DSAParameters_t1860;
-struct DSAParameters_t1860_marshaled;
+struct DSAParameters_t3855;
+struct DSAParameters_t3855_marshaled;
 
-void DSAParameters_t1860_marshal(const DSAParameters_t1860& unmarshaled, DSAParameters_t1860_marshaled& marshaled);
-void DSAParameters_t1860_marshal_back(const DSAParameters_t1860_marshaled& marshaled, DSAParameters_t1860& unmarshaled);
-void DSAParameters_t1860_marshal_cleanup(DSAParameters_t1860_marshaled& marshaled);
+void DSAParameters_t3855_marshal(const DSAParameters_t3855& unmarshaled, DSAParameters_t3855_marshaled& marshaled);
+void DSAParameters_t3855_marshal_back(const DSAParameters_t3855_marshaled& marshaled, DSAParameters_t3855& unmarshaled);
+void DSAParameters_t3855_marshal_cleanup(DSAParameters_t3855_marshaled& marshaled);

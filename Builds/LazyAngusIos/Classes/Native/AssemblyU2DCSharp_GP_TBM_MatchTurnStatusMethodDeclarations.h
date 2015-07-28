@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_TBM_MatchTurnStatus
-struct GP_TBM_MatchTurnStatus_t170;
+struct GP_TBM_MatchTurnStatus_t210;
 

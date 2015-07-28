@@ -14,1571 +14,1583 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t63_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t106_il2cpp_TypeInfo;
 // <Module>
 #include "AssemblyU2DCSharp_U3CModuleU3E.h"
-extern TypeInfo CameraController_t65_il2cpp_TypeInfo;
-// CameraController
-#include "AssemblyU2DCSharp_CameraController.h"
-extern TypeInfo ConsoleBase_t69_il2cpp_TypeInfo;
+extern TypeInfo ConsoleBase_t109_il2cpp_TypeInfo;
 // ConsoleBase
 #include "AssemblyU2DCSharp_ConsoleBase.h"
-extern TypeInfo GameGroupsConsole_t71_il2cpp_TypeInfo;
+extern TypeInfo GameGroupsConsole_t111_il2cpp_TypeInfo;
 // GameGroupsConsole
 #include "AssemblyU2DCSharp_GameGroupsConsole.h"
-extern TypeInfo U3CTakeScreenshotU3Ec__Iterator0_t74_il2cpp_TypeInfo;
+extern TypeInfo U3CTakeScreenshotU3Ec__Iterator0_t114_il2cpp_TypeInfo;
 // InteractiveConsole/<TakeScreenshot>c__Iterator0
 #include "AssemblyU2DCSharp_InteractiveConsole_U3CTakeScreenshotU3Ec__.h"
-extern TypeInfo InteractiveConsole_t73_il2cpp_TypeInfo;
+extern TypeInfo InteractiveConsole_t113_il2cpp_TypeInfo;
 // InteractiveConsole
 #include "AssemblyU2DCSharp_InteractiveConsole.h"
-extern TypeInfo AN_ActivityTemplate_t77_il2cpp_TypeInfo;
+extern TypeInfo AN_ActivityTemplate_t117_il2cpp_TypeInfo;
 // AN_ActivityTemplate
 #include "AssemblyU2DCSharp_AN_ActivityTemplate.h"
-extern TypeInfo AN_ApplicationTemplate_t80_il2cpp_TypeInfo;
+extern TypeInfo AN_ApplicationTemplate_t120_il2cpp_TypeInfo;
 // AN_ApplicationTemplate
 #include "AssemblyU2DCSharp_AN_ApplicationTemplate.h"
-extern TypeInfo AN_BaseTemplate_t78_il2cpp_TypeInfo;
+extern TypeInfo AN_BaseTemplate_t118_il2cpp_TypeInfo;
 // AN_BaseTemplate
 #include "AssemblyU2DCSharp_AN_BaseTemplate.h"
-extern TypeInfo AN_ManifestTemplate_t84_il2cpp_TypeInfo;
+extern TypeInfo AN_ManifestTemplate_t124_il2cpp_TypeInfo;
 // AN_ManifestTemplate
 #include "AssemblyU2DCSharp_AN_ManifestTemplate.h"
-extern TypeInfo AN_Permissions_t85_il2cpp_TypeInfo;
+extern TypeInfo AN_Permissions_t125_il2cpp_TypeInfo;
 // AN_Permissions
 #include "AssemblyU2DCSharp_AN_Permissions.h"
-extern TypeInfo AN_PropertyTemplate_t86_il2cpp_TypeInfo;
+extern TypeInfo AN_PropertyTemplate_t126_il2cpp_TypeInfo;
 // AN_PropertyTemplate
 #include "AssemblyU2DCSharp_AN_PropertyTemplate.h"
-extern TypeInfo EventDispatcher_t89_il2cpp_TypeInfo;
+extern TypeInfo EventDispatcher_t129_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventDispatcher
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcher.h"
-extern TypeInfo EventDispatcherBase_t90_il2cpp_TypeInfo;
+extern TypeInfo EventDispatcherBase_t130_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventDispatcherBase
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcherBase.h"
-extern TypeInfo BaseEvent_t91_il2cpp_TypeInfo;
+extern TypeInfo BaseEvent_t131_il2cpp_TypeInfo;
 // UnionAssets.FLE.BaseEvent
 #include "AssemblyU2DCSharp_UnionAssets_FLE_BaseEvent.h"
-extern TypeInfo CEvent_t93_il2cpp_TypeInfo;
+extern TypeInfo CEvent_t133_il2cpp_TypeInfo;
 // UnionAssets.FLE.CEvent
 #include "AssemblyU2DCSharp_UnionAssets_FLE_CEvent.h"
-extern TypeInfo IDispatcher_t92_il2cpp_TypeInfo;
-extern TypeInfo EventButtonExample_t94_il2cpp_TypeInfo;
+extern TypeInfo IDispatcher_t132_il2cpp_TypeInfo;
+extern TypeInfo EventButtonExample_t134_il2cpp_TypeInfo;
 // EventButtonExample
 #include "AssemblyU2DCSharp_EventButtonExample.h"
-extern TypeInfo ExampleListner_t95_il2cpp_TypeInfo;
+extern TypeInfo ExampleListner_t135_il2cpp_TypeInfo;
 // ExampleListner
 #include "AssemblyU2DCSharp_ExampleListner.h"
-extern TypeInfo AdMobBanner_t97_il2cpp_TypeInfo;
+extern TypeInfo AdMobBanner_t137_il2cpp_TypeInfo;
 // AdMobBanner
 #include "AssemblyU2DCSharp_AdMobBanner.h"
-extern TypeInfo AdMobBannerInterstitial_t98_il2cpp_TypeInfo;
+extern TypeInfo AdMobBannerInterstitial_t138_il2cpp_TypeInfo;
 // AdMobBannerInterstitial
 #include "AssemblyU2DCSharp_AdMobBannerInterstitial.h"
-extern TypeInfo CustomInterstisialExample_t99_il2cpp_TypeInfo;
+extern TypeInfo CustomInterstisialExample_t139_il2cpp_TypeInfo;
 // CustomInterstisialExample
 #include "AssemblyU2DCSharp_CustomInterstisialExample.h"
-extern TypeInfo GoogleAdsExample_t101_il2cpp_TypeInfo;
+extern TypeInfo GoogleAdsExample_t141_il2cpp_TypeInfo;
 // GoogleAdsExample
 #include "AssemblyU2DCSharp_GoogleAdsExample.h"
-extern TypeInfo GoogleMobileAd_t105_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAd_t145_il2cpp_TypeInfo;
 // GoogleMobileAd
 #include "AssemblyU2DCSharp_GoogleMobileAd.h"
-extern TypeInfo GoogleMobileAdSettings_t107_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAdSettings_t147_il2cpp_TypeInfo;
 // GoogleMobileAdSettings
 #include "AssemblyU2DCSharp_GoogleMobileAdSettings.h"
-extern TypeInfo IOSADBanner_t110_il2cpp_TypeInfo;
+extern TypeInfo IOSADBanner_t150_il2cpp_TypeInfo;
 // IOSADBanner
 #include "AssemblyU2DCSharp_IOSADBanner.h"
-extern TypeInfo IOSAdMobController_t112_il2cpp_TypeInfo;
+extern TypeInfo IOSAdMobController_t152_il2cpp_TypeInfo;
 // IOSAdMobController
 #include "AssemblyU2DCSharp_IOSAdMobController.h"
-extern TypeInfo GADTestDevice_t114_il2cpp_TypeInfo;
+extern TypeInfo GADTestDevice_t154_il2cpp_TypeInfo;
 // GADTestDevice
 #include "AssemblyU2DCSharp_GADTestDevice.h"
-extern TypeInfo WP8ADBanner_t115_il2cpp_TypeInfo;
+extern TypeInfo WP8ADBanner_t155_il2cpp_TypeInfo;
 // WP8ADBanner
 #include "AssemblyU2DCSharp_WP8ADBanner.h"
-extern TypeInfo WP8AdMobController_t117_il2cpp_TypeInfo;
+extern TypeInfo WP8AdMobController_t157_il2cpp_TypeInfo;
 // WP8AdMobController
 #include "AssemblyU2DCSharp_WP8AdMobController.h"
-extern TypeInfo AndroidAdMobController_t120_il2cpp_TypeInfo;
+extern TypeInfo AndroidAdMobController_t160_il2cpp_TypeInfo;
 // AndroidAdMobController
 #include "AssemblyU2DCSharp_AndroidAdMobController.h"
-extern TypeInfo AN_GoogleAdProxy_t122_il2cpp_TypeInfo;
+extern TypeInfo AN_GoogleAdProxy_t162_il2cpp_TypeInfo;
 // AN_GoogleAdProxy
 #include "AssemblyU2DCSharp_AN_GoogleAdProxy.h"
-extern TypeInfo AN_ProxyPool_t123_il2cpp_TypeInfo;
+extern TypeInfo AN_ProxyPool_t163_il2cpp_TypeInfo;
 // AN_ProxyPool
 #include "AssemblyU2DCSharp_AN_ProxyPool.h"
-extern TypeInfo AN_BillingProxy_t124_il2cpp_TypeInfo;
+extern TypeInfo AN_BillingProxy_t164_il2cpp_TypeInfo;
 // AN_BillingProxy
 #include "AssemblyU2DCSharp_AN_BillingProxy.h"
-extern TypeInfo AN_FBProxy_t125_il2cpp_TypeInfo;
+extern TypeInfo AN_FBProxy_t165_il2cpp_TypeInfo;
 // AN_FBProxy
 #include "AssemblyU2DCSharp_AN_FBProxy.h"
-extern TypeInfo AN_GMSGeneralProxy_t126_il2cpp_TypeInfo;
+extern TypeInfo AN_GMSGeneralProxy_t166_il2cpp_TypeInfo;
 // AN_GMSGeneralProxy
 #include "AssemblyU2DCSharp_AN_GMSGeneralProxy.h"
-extern TypeInfo AN_GMSGiftsProxy_t127_il2cpp_TypeInfo;
+extern TypeInfo AN_GMSGiftsProxy_t167_il2cpp_TypeInfo;
 // AN_GMSGiftsProxy
 #include "AssemblyU2DCSharp_AN_GMSGiftsProxy.h"
-extern TypeInfo AN_GMSInvitationProxy_t128_il2cpp_TypeInfo;
+extern TypeInfo AN_GMSInvitationProxy_t168_il2cpp_TypeInfo;
 // AN_GMSInvitationProxy
 #include "AssemblyU2DCSharp_AN_GMSInvitationProxy.h"
-extern TypeInfo AN_GMSQuestsEventsProxy_t129_il2cpp_TypeInfo;
+extern TypeInfo AN_GMSQuestsEventsProxy_t169_il2cpp_TypeInfo;
 // AN_GMSQuestsEventsProxy
 #include "AssemblyU2DCSharp_AN_GMSQuestsEventsProxy.h"
-extern TypeInfo AN_GMSRTMProxy_t130_il2cpp_TypeInfo;
+extern TypeInfo AN_GMSRTMProxy_t170_il2cpp_TypeInfo;
 // AN_GMSRTMProxy
 #include "AssemblyU2DCSharp_AN_GMSRTMProxy.h"
-extern TypeInfo AN_GoogleAnalyticsProxy_t131_il2cpp_TypeInfo;
+extern TypeInfo AN_GoogleAnalyticsProxy_t171_il2cpp_TypeInfo;
 // AN_GoogleAnalyticsProxy
 #include "AssemblyU2DCSharp_AN_GoogleAnalyticsProxy.h"
-extern TypeInfo AN_GooglePlayUtilsProxy_t132_il2cpp_TypeInfo;
+extern TypeInfo AN_GooglePlayUtilsProxy_t172_il2cpp_TypeInfo;
 // AN_GooglePlayUtilsProxy
 #include "AssemblyU2DCSharp_AN_GooglePlayUtilsProxy.h"
-extern TypeInfo AN_ImmersiveModeProxy_t133_il2cpp_TypeInfo;
+extern TypeInfo AN_ImmersiveModeProxy_t173_il2cpp_TypeInfo;
 // AN_ImmersiveModeProxy
 #include "AssemblyU2DCSharp_AN_ImmersiveModeProxy.h"
-extern TypeInfo AN_LicenseManagerProxy_t134_il2cpp_TypeInfo;
+extern TypeInfo AN_LicenseManagerProxy_t174_il2cpp_TypeInfo;
 // AN_LicenseManagerProxy
 #include "AssemblyU2DCSharp_AN_LicenseManagerProxy.h"
-extern TypeInfo AN_PlusButtonProxy_t135_il2cpp_TypeInfo;
+extern TypeInfo AN_PlusButtonProxy_t175_il2cpp_TypeInfo;
 // AN_PlusButtonProxy
 #include "AssemblyU2DCSharp_AN_PlusButtonProxy.h"
-extern TypeInfo AN_SocialSharingProxy_t136_il2cpp_TypeInfo;
+extern TypeInfo AN_SocialSharingProxy_t176_il2cpp_TypeInfo;
 // AN_SocialSharingProxy
 #include "AssemblyU2DCSharp_AN_SocialSharingProxy.h"
-extern TypeInfo AN_TVControllerProxy_t137_il2cpp_TypeInfo;
+extern TypeInfo AN_TVControllerProxy_t177_il2cpp_TypeInfo;
 // AN_TVControllerProxy
 #include "AssemblyU2DCSharp_AN_TVControllerProxy.h"
-extern TypeInfo AndroidNative_t138_il2cpp_TypeInfo;
+extern TypeInfo AndroidNative_t178_il2cpp_TypeInfo;
 // AndroidNative
 #include "AssemblyU2DCSharp_AndroidNative.h"
-extern TypeInfo SocialPlatfromSettings_t139_il2cpp_TypeInfo;
+extern TypeInfo SocialPlatfromSettings_t179_il2cpp_TypeInfo;
 // SocialPlatfromSettings
 #include "AssemblyU2DCSharp_SocialPlatfromSettings.h"
-extern TypeInfo AdroidActivityResultCodes_t140_il2cpp_TypeInfo;
+extern TypeInfo AdroidActivityResultCodes_t180_il2cpp_TypeInfo;
 // AdroidActivityResultCodes
 #include "AssemblyU2DCSharp_AdroidActivityResultCodes.h"
-extern TypeInfo AndroidGravity_t141_il2cpp_TypeInfo;
+extern TypeInfo AndroidGravity_t181_il2cpp_TypeInfo;
 // AndroidGravity
 #include "AssemblyU2DCSharp_AndroidGravity.h"
-extern TypeInfo AndroidLogLevel_t142_il2cpp_TypeInfo;
+extern TypeInfo AndroidLogLevel_t182_il2cpp_TypeInfo;
 // AndroidLogLevel
 #include "AssemblyU2DCSharp_AndroidLogLevel.h"
-extern TypeInfo AndroidMonth_t143_il2cpp_TypeInfo;
+extern TypeInfo AndroidMonth_t183_il2cpp_TypeInfo;
 // AndroidMonth
 #include "AssemblyU2DCSharp_AndroidMonth.h"
-extern TypeInfo GoogleCloudSlot_t144_il2cpp_TypeInfo;
+extern TypeInfo GoogleCloudSlot_t184_il2cpp_TypeInfo;
 // GoogleCloudSlot
 #include "AssemblyU2DCSharp_GoogleCloudSlot.h"
-extern TypeInfo GoogleGender_t145_il2cpp_TypeInfo;
+extern TypeInfo GoogleGender_t185_il2cpp_TypeInfo;
 // GoogleGender
 #include "AssemblyU2DCSharp_GoogleGender.h"
-extern TypeInfo GoogleGravity_t146_il2cpp_TypeInfo;
+extern TypeInfo GoogleGravity_t186_il2cpp_TypeInfo;
 // GoogleGravity
 #include "AssemblyU2DCSharp_GoogleGravity.h"
-extern TypeInfo GADBannerSize_t147_il2cpp_TypeInfo;
+extern TypeInfo GADBannerSize_t187_il2cpp_TypeInfo;
 // GADBannerSize
 #include "AssemblyU2DCSharp_GADBannerSize.h"
-extern TypeInfo GADInAppResolution_t148_il2cpp_TypeInfo;
+extern TypeInfo GADInAppResolution_t188_il2cpp_TypeInfo;
 // GADInAppResolution
 #include "AssemblyU2DCSharp_GADInAppResolution.h"
-extern TypeInfo GPAchievementState_t149_il2cpp_TypeInfo;
+extern TypeInfo GPAchievementState_t189_il2cpp_TypeInfo;
 // GPAchievementState
 #include "AssemblyU2DCSharp_GPAchievementState.h"
-extern TypeInfo GPAchievementType_t150_il2cpp_TypeInfo;
+extern TypeInfo GPAchievementType_t190_il2cpp_TypeInfo;
 // GPAchievementType
 #include "AssemblyU2DCSharp_GPAchievementType.h"
-extern TypeInfo GPBoardTimeSpan_t151_il2cpp_TypeInfo;
+extern TypeInfo GPBoardTimeSpan_t191_il2cpp_TypeInfo;
 // GPBoardTimeSpan
 #include "AssemblyU2DCSharp_GPBoardTimeSpan.h"
-extern TypeInfo GPCollectionType_t152_il2cpp_TypeInfo;
+extern TypeInfo GPCollectionType_t192_il2cpp_TypeInfo;
 // GPCollectionType
 #include "AssemblyU2DCSharp_GPCollectionType.h"
-extern TypeInfo GPConnectionState_t153_il2cpp_TypeInfo;
+extern TypeInfo GPConnectionState_t193_il2cpp_TypeInfo;
 // GPConnectionState
 #include "AssemblyU2DCSharp_GPConnectionState.h"
-extern TypeInfo GPGameRequestType_t154_il2cpp_TypeInfo;
+extern TypeInfo GPGameRequestType_t194_il2cpp_TypeInfo;
 // GPGameRequestType
 #include "AssemblyU2DCSharp_GPGameRequestType.h"
-extern TypeInfo GPLogLevel_t155_il2cpp_TypeInfo;
+extern TypeInfo GPLogLevel_t195_il2cpp_TypeInfo;
 // GPLogLevel
 #include "AssemblyU2DCSharp_GPLogLevel.h"
-extern TypeInfo GP_AppStateStatusCodes_t156_il2cpp_TypeInfo;
+extern TypeInfo GP_AppStateStatusCodes_t196_il2cpp_TypeInfo;
 // GP_AppStateStatusCodes
 #include "AssemblyU2DCSharp_GP_AppStateStatusCodes.h"
-extern TypeInfo GP_ConnectionResultCode_t157_il2cpp_TypeInfo;
+extern TypeInfo GP_ConnectionResultCode_t197_il2cpp_TypeInfo;
 // GP_ConnectionResultCode
 #include "AssemblyU2DCSharp_GP_ConnectionResultCode.h"
-extern TypeInfo GP_GamesActivityResultCodes_t158_il2cpp_TypeInfo;
+extern TypeInfo GP_GamesActivityResultCodes_t198_il2cpp_TypeInfo;
 // GP_GamesActivityResultCodes
 #include "AssemblyU2DCSharp_GP_GamesActivityResultCodes.h"
-extern TypeInfo GP_GamesStatusCodes_t159_il2cpp_TypeInfo;
+extern TypeInfo GP_GamesStatusCodes_t199_il2cpp_TypeInfo;
 // GP_GamesStatusCodes
 #include "AssemblyU2DCSharp_GP_GamesStatusCodes.h"
-extern TypeInfo GP_InvitationType_t160_il2cpp_TypeInfo;
+extern TypeInfo GP_InvitationType_t200_il2cpp_TypeInfo;
 // GP_InvitationType
 #include "AssemblyU2DCSharp_GP_InvitationType.h"
-extern TypeInfo GP_MatchesSortOrder_t161_il2cpp_TypeInfo;
+extern TypeInfo GP_MatchesSortOrder_t201_il2cpp_TypeInfo;
 // GP_MatchesSortOrder
 #include "AssemblyU2DCSharp_GP_MatchesSortOrder.h"
-extern TypeInfo GP_RTM_MessageType_t162_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_MessageType_t202_il2cpp_TypeInfo;
 // GP_RTM_MessageType
 #include "AssemblyU2DCSharp_GP_RTM_MessageType.h"
-extern TypeInfo GP_RTM_PackageType_t163_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_PackageType_t203_il2cpp_TypeInfo;
 // GP_RTM_PackageType
 #include "AssemblyU2DCSharp_GP_RTM_PackageType.h"
-extern TypeInfo GP_RTM_ParticipantStatus_t164_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_ParticipantStatus_t204_il2cpp_TypeInfo;
 // GP_RTM_ParticipantStatus
 #include "AssemblyU2DCSharp_GP_RTM_ParticipantStatus.h"
-extern TypeInfo GP_RTM_RoomStatus_t165_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_RoomStatus_t205_il2cpp_TypeInfo;
 // GP_RTM_RoomStatus
 #include "AssemblyU2DCSharp_GP_RTM_RoomStatus.h"
-extern TypeInfo GP_QuestSortOrder_t166_il2cpp_TypeInfo;
+extern TypeInfo GP_QuestSortOrder_t206_il2cpp_TypeInfo;
 // GP_QuestSortOrder
 #include "AssemblyU2DCSharp_GP_QuestSortOrder.h"
-extern TypeInfo GP_QuestState_t167_il2cpp_TypeInfo;
+extern TypeInfo GP_QuestState_t207_il2cpp_TypeInfo;
 // GP_QuestState
 #include "AssemblyU2DCSharp_GP_QuestState.h"
-extern TypeInfo GP_QuestsSelect_t168_il2cpp_TypeInfo;
+extern TypeInfo GP_QuestsSelect_t208_il2cpp_TypeInfo;
 // GP_QuestsSelect
 #include "AssemblyU2DCSharp_GP_QuestsSelect.h"
-extern TypeInfo GP_TBM_MatchStatus_t169_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchStatus_t209_il2cpp_TypeInfo;
 // GP_TBM_MatchStatus
 #include "AssemblyU2DCSharp_GP_TBM_MatchStatus.h"
-extern TypeInfo GP_TBM_MatchTurnStatus_t170_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchTurnStatus_t210_il2cpp_TypeInfo;
 // GP_TBM_MatchTurnStatus
 #include "AssemblyU2DCSharp_GP_TBM_MatchTurnStatus.h"
-extern TypeInfo GP_TBM_MatchesSortOrder_t171_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchesSortOrder_t211_il2cpp_TypeInfo;
 // GP_TBM_MatchesSortOrder
 #include "AssemblyU2DCSharp_GP_TBM_MatchesSortOrder.h"
-extern TypeInfo FacebookEvents_t172_il2cpp_TypeInfo;
+extern TypeInfo FacebookEvents_t212_il2cpp_TypeInfo;
 // FacebookEvents
 #include "AssemblyU2DCSharp_FacebookEvents.h"
-extern TypeInfo GoogleMobileAdEvents_t173_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAdEvents_t213_il2cpp_TypeInfo;
 // GoogleMobileAdEvents
 #include "AssemblyU2DCSharp_GoogleMobileAdEvents.h"
-extern TypeInfo TwitterEvents_t174_il2cpp_TypeInfo;
+extern TypeInfo TwitterEvents_t214_il2cpp_TypeInfo;
 // TwitterEvents
 #include "AssemblyU2DCSharp_TwitterEvents.h"
-extern TypeInfo GoogleMobileAdBanner_t100_il2cpp_TypeInfo;
-extern TypeInfo GoogleMobileAdInterface_t102_il2cpp_TypeInfo;
-extern TypeInfo TwitterManagerInterface_t301_il2cpp_TypeInfo;
-extern TypeInfo AndroidADBanner_t175_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAdBanner_t140_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAdInterface_t142_il2cpp_TypeInfo;
+extern TypeInfo TwitterManagerInterface_t341_il2cpp_TypeInfo;
+extern TypeInfo AndroidADBanner_t215_il2cpp_TypeInfo;
 // AndroidADBanner
 #include "AssemblyU2DCSharp_AndroidADBanner.h"
-extern TypeInfo AndroidActivityResult_t176_il2cpp_TypeInfo;
+extern TypeInfo AndroidActivityResult_t216_il2cpp_TypeInfo;
 // AndroidActivityResult
 #include "AssemblyU2DCSharp_AndroidActivityResult.h"
-extern TypeInfo AndroidGameActivityResult_t177_il2cpp_TypeInfo;
+extern TypeInfo AndroidGameActivityResult_t217_il2cpp_TypeInfo;
 // AndroidGameActivityResult
 #include "AssemblyU2DCSharp_AndroidGameActivityResult.h"
-extern TypeInfo AsyncTask_t178_il2cpp_TypeInfo;
+extern TypeInfo AsyncTask_t218_il2cpp_TypeInfo;
 // AsyncTask
 #include "AssemblyU2DCSharp_AsyncTask.h"
-extern TypeInfo GADBannerIdFactory_t179_il2cpp_TypeInfo;
+extern TypeInfo GADBannerIdFactory_t219_il2cpp_TypeInfo;
 // GADBannerIdFactory
 #include "AssemblyU2DCSharp_GADBannerIdFactory.h"
-extern TypeInfo GPAchievement_t180_il2cpp_TypeInfo;
+extern TypeInfo GPAchievement_t220_il2cpp_TypeInfo;
 // GPAchievement
 #include "AssemblyU2DCSharp_GPAchievement.h"
-extern TypeInfo GPGameRequest_t181_il2cpp_TypeInfo;
+extern TypeInfo GPGameRequest_t221_il2cpp_TypeInfo;
 // GPGameRequest
 #include "AssemblyU2DCSharp_GPGameRequest.h"
-extern TypeInfo GPLeaderBoard_t184_il2cpp_TypeInfo;
+extern TypeInfo GPLeaderBoard_t224_il2cpp_TypeInfo;
 // GPLeaderBoard
 #include "AssemblyU2DCSharp_GPLeaderBoard.h"
-extern TypeInfo GPScoreCollection_t182_il2cpp_TypeInfo;
+extern TypeInfo GPScoreCollection_t222_il2cpp_TypeInfo;
 // GPScoreCollection
 #include "AssemblyU2DCSharp_GPScoreCollection.h"
-extern TypeInfo GP_Invite_t187_il2cpp_TypeInfo;
+extern TypeInfo GP_Invite_t227_il2cpp_TypeInfo;
 // GP_Invite
 #include "AssemblyU2DCSharp_GP_Invite.h"
-extern TypeInfo GP_Participant_t186_il2cpp_TypeInfo;
+extern TypeInfo GP_Participant_t226_il2cpp_TypeInfo;
 // GP_Participant
 #include "AssemblyU2DCSharp_GP_Participant.h"
-extern TypeInfo GP_ParticipantResult_t188_il2cpp_TypeInfo;
+extern TypeInfo GP_ParticipantResult_t228_il2cpp_TypeInfo;
 // GP_ParticipantResult
 #include "AssemblyU2DCSharp_GP_ParticipantResult.h"
-extern TypeInfo GP_RTM_Network_Package_t189_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_Network_Package_t229_il2cpp_TypeInfo;
 // GP_RTM_Network_Package
 #include "AssemblyU2DCSharp_GP_RTM_Network_Package.h"
-extern TypeInfo GP_RTM_Result_t190_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_Result_t230_il2cpp_TypeInfo;
 // GP_RTM_Result
 #include "AssemblyU2DCSharp_GP_RTM_Result.h"
-extern TypeInfo GP_RTM_Room_t192_il2cpp_TypeInfo;
+extern TypeInfo GP_RTM_Room_t232_il2cpp_TypeInfo;
 // GP_RTM_Room
 #include "AssemblyU2DCSharp_GP_RTM_Room.h"
-extern TypeInfo GoogleCloudResult_t193_il2cpp_TypeInfo;
+extern TypeInfo GoogleCloudResult_t233_il2cpp_TypeInfo;
 // GoogleCloudResult
 #include "AssemblyU2DCSharp_GoogleCloudResult.h"
-extern TypeInfo GooglePlayConnectionResult_t194_il2cpp_TypeInfo;
+extern TypeInfo GooglePlayConnectionResult_t234_il2cpp_TypeInfo;
 // GooglePlayConnectionResult
 #include "AssemblyU2DCSharp_GooglePlayConnectionResult.h"
-extern TypeInfo GooglePlayGiftRequestResult_t195_il2cpp_TypeInfo;
+extern TypeInfo GooglePlayGiftRequestResult_t235_il2cpp_TypeInfo;
 // GooglePlayGiftRequestResult
 #include "AssemblyU2DCSharp_GooglePlayGiftRequestResult.h"
-extern TypeInfo GooglePlayResult_t196_il2cpp_TypeInfo;
+extern TypeInfo GooglePlayResult_t236_il2cpp_TypeInfo;
 // GooglePlayResult
 #include "AssemblyU2DCSharp_GooglePlayResult.h"
-extern TypeInfo GP_Event_t197_il2cpp_TypeInfo;
+extern TypeInfo GP_Event_t237_il2cpp_TypeInfo;
 // GP_Event
 #include "AssemblyU2DCSharp_GP_Event.h"
-extern TypeInfo GP_Quest_t198_il2cpp_TypeInfo;
+extern TypeInfo GP_Quest_t238_il2cpp_TypeInfo;
 // GP_Quest
 #include "AssemblyU2DCSharp_GP_Quest.h"
-extern TypeInfo GP_GCM_RegistrationResult_t199_il2cpp_TypeInfo;
+extern TypeInfo GP_GCM_RegistrationResult_t239_il2cpp_TypeInfo;
 // GP_GCM_RegistrationResult
 #include "AssemblyU2DCSharp_GP_GCM_RegistrationResult.h"
-extern TypeInfo GP_GamesResult_t200_il2cpp_TypeInfo;
+extern TypeInfo GP_GamesResult_t240_il2cpp_TypeInfo;
 // GP_GamesResult
 #include "AssemblyU2DCSharp_GP_GamesResult.h"
-extern TypeInfo GP_QuestResult_t201_il2cpp_TypeInfo;
+extern TypeInfo GP_QuestResult_t241_il2cpp_TypeInfo;
 // GP_QuestResult
 #include "AssemblyU2DCSharp_GP_QuestResult.h"
-extern TypeInfo GP_SnapshotConflict_t203_il2cpp_TypeInfo;
+extern TypeInfo GP_SnapshotConflict_t243_il2cpp_TypeInfo;
 // GP_SnapshotConflict
 #include "AssemblyU2DCSharp_GP_SnapshotConflict.h"
-extern TypeInfo GP_SpanshotLoadResult_t204_il2cpp_TypeInfo;
+extern TypeInfo GP_SpanshotLoadResult_t244_il2cpp_TypeInfo;
 // GP_SpanshotLoadResult
 #include "AssemblyU2DCSharp_GP_SpanshotLoadResult.h"
-extern TypeInfo AN_InvitationInboxCloseResult_t205_il2cpp_TypeInfo;
+extern TypeInfo AN_InvitationInboxCloseResult_t245_il2cpp_TypeInfo;
 // AN_InvitationInboxCloseResult
 #include "AssemblyU2DCSharp_AN_InvitationInboxCloseResult.h"
-extern TypeInfo GP_DeleteSnapshotResult_t206_il2cpp_TypeInfo;
+extern TypeInfo GP_DeleteSnapshotResult_t246_il2cpp_TypeInfo;
 // GP_DeleteSnapshotResult
 #include "AssemblyU2DCSharp_GP_DeleteSnapshotResult.h"
-extern TypeInfo GP_TBM_CancelMatchResult_t207_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_CancelMatchResult_t247_il2cpp_TypeInfo;
 // GP_TBM_CancelMatchResult
 #include "AssemblyU2DCSharp_GP_TBM_CancelMatchResult.h"
-extern TypeInfo GP_TBM_LeaveMatchResult_t209_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_LeaveMatchResult_t249_il2cpp_TypeInfo;
 // GP_TBM_LeaveMatchResult
 #include "AssemblyU2DCSharp_GP_TBM_LeaveMatchResult.h"
-extern TypeInfo GP_TBM_LoadMatchResult_t210_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_LoadMatchResult_t250_il2cpp_TypeInfo;
 // GP_TBM_LoadMatchResult
 #include "AssemblyU2DCSharp_GP_TBM_LoadMatchResult.h"
-extern TypeInfo GP_TBM_LoadMatchesResult_t212_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_LoadMatchesResult_t252_il2cpp_TypeInfo;
 // GP_TBM_LoadMatchesResult
 #include "AssemblyU2DCSharp_GP_TBM_LoadMatchesResult.h"
-extern TypeInfo GP_TBM_MatchInitiatedResult_t213_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchInitiatedResult_t253_il2cpp_TypeInfo;
 // GP_TBM_MatchInitiatedResult
 #include "AssemblyU2DCSharp_GP_TBM_MatchInitiatedResult.h"
-extern TypeInfo GP_TBM_MatchReceivedResult_t214_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchReceivedResult_t254_il2cpp_TypeInfo;
 // GP_TBM_MatchReceivedResult
 #include "AssemblyU2DCSharp_GP_TBM_MatchReceivedResult.h"
-extern TypeInfo GP_TBM_MatchRemovedResult_t215_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_MatchRemovedResult_t255_il2cpp_TypeInfo;
 // GP_TBM_MatchRemovedResult
 #include "AssemblyU2DCSharp_GP_TBM_MatchRemovedResult.h"
-extern TypeInfo GP_TBM_UpdateMatchResult_t216_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_UpdateMatchResult_t256_il2cpp_TypeInfo;
 // GP_TBM_UpdateMatchResult
 #include "AssemblyU2DCSharp_GP_TBM_UpdateMatchResult.h"
-extern TypeInfo GP_Snapshot_t202_il2cpp_TypeInfo;
+extern TypeInfo GP_Snapshot_t242_il2cpp_TypeInfo;
 // GP_Snapshot
 #include "AssemblyU2DCSharp_GP_Snapshot.h"
-extern TypeInfo GP_SnapshotMeta_t217_il2cpp_TypeInfo;
+extern TypeInfo GP_SnapshotMeta_t257_il2cpp_TypeInfo;
 // GP_SnapshotMeta
 #include "AssemblyU2DCSharp_GP_SnapshotMeta.h"
-extern TypeInfo GP_TBM_Match_t208_il2cpp_TypeInfo;
+extern TypeInfo GP_TBM_Match_t248_il2cpp_TypeInfo;
 // GP_TBM_Match
 #include "AssemblyU2DCSharp_GP_TBM_Match.h"
-extern TypeInfo TOKEN_t218_il2cpp_TypeInfo;
+extern TypeInfo TOKEN_t258_il2cpp_TypeInfo;
 // ANMiniJSON.Json/Parser/TOKEN
 #include "AssemblyU2DCSharp_ANMiniJSON_Json_Parser_TOKEN.h"
-extern TypeInfo Parser_t220_il2cpp_TypeInfo;
+extern TypeInfo Parser_t260_il2cpp_TypeInfo;
 // ANMiniJSON.Json/Parser
 #include "AssemblyU2DCSharp_ANMiniJSON_Json_Parser.h"
-extern TypeInfo Serializer_t222_il2cpp_TypeInfo;
+extern TypeInfo Serializer_t262_il2cpp_TypeInfo;
 // ANMiniJSON.Json/Serializer
 #include "AssemblyU2DCSharp_ANMiniJSON_Json_Serializer.h"
-extern TypeInfo Json_t223_il2cpp_TypeInfo;
+extern TypeInfo Json_t263_il2cpp_TypeInfo;
 // ANMiniJSON.Json
 #include "AssemblyU2DCSharp_ANMiniJSON_Json.h"
-extern TypeInfo PlayServiceUtil_t224_il2cpp_TypeInfo;
+extern TypeInfo PlayServiceUtil_t264_il2cpp_TypeInfo;
 // PlayServiceUtil
 #include "AssemblyU2DCSharp_PlayServiceUtil.h"
-extern TypeInfo SA_Singleton_1_t702_il2cpp_TypeInfo;
-extern TypeInfo U3CLoadCoroutinU3Ec__Iterator1_t227_il2cpp_TypeInfo;
+extern TypeInfo SA_Singleton_1_t744_il2cpp_TypeInfo;
+extern TypeInfo U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo;
 // WWWTextureLoader/<LoadCoroutin>c__Iterator1
 #include "AssemblyU2DCSharp_WWWTextureLoader_U3CLoadCoroutinU3Ec__Iter.h"
-extern TypeInfo WWWTextureLoader_t226_il2cpp_TypeInfo;
+extern TypeInfo WWWTextureLoader_t266_il2cpp_TypeInfo;
 // WWWTextureLoader
 #include "AssemblyU2DCSharp_WWWTextureLoader.h"
-extern TypeInfo FBAppRequestActionType_t229_il2cpp_TypeInfo;
+extern TypeInfo FBAppRequestActionType_t269_il2cpp_TypeInfo;
 // FBAppRequestActionType
 #include "AssemblyU2DCSharp_FBAppRequestActionType.h"
-extern TypeInfo FBAppRequestState_t230_il2cpp_TypeInfo;
+extern TypeInfo FBAppRequestState_t270_il2cpp_TypeInfo;
 // FBAppRequestState
 #include "AssemblyU2DCSharp_FBAppRequestState.h"
-extern TypeInfo SPFacebook_t242_il2cpp_TypeInfo;
+extern TypeInfo SPFacebook_t282_il2cpp_TypeInfo;
 // SPFacebook
 #include "AssemblyU2DCSharp_SPFacebook.h"
-extern TypeInfo SPFacebookAnalytics_t244_il2cpp_TypeInfo;
+extern TypeInfo SPFacebookAnalytics_t284_il2cpp_TypeInfo;
 // SPFacebookAnalytics
 #include "AssemblyU2DCSharp_SPFacebookAnalytics.h"
-extern TypeInfo FBAppRequest_t246_il2cpp_TypeInfo;
+extern TypeInfo FBAppRequest_t286_il2cpp_TypeInfo;
 // FBAppRequest
 #include "AssemblyU2DCSharp_FBAppRequest.h"
-extern TypeInfo FBAppRequestResult_t248_il2cpp_TypeInfo;
+extern TypeInfo FBAppRequestResult_t288_il2cpp_TypeInfo;
 // FBAppRequestResult
 #include "AssemblyU2DCSharp_FBAppRequestResult.h"
-extern TypeInfo FBLikeInfo_t249_il2cpp_TypeInfo;
+extern TypeInfo FBLikeInfo_t289_il2cpp_TypeInfo;
 // FBLikeInfo
 #include "AssemblyU2DCSharp_FBLikeInfo.h"
-extern TypeInfo FBObject_t245_il2cpp_TypeInfo;
+extern TypeInfo FBObject_t285_il2cpp_TypeInfo;
 // FBObject
 #include "AssemblyU2DCSharp_FBObject.h"
-extern TypeInfo FBPostResult_t250_il2cpp_TypeInfo;
+extern TypeInfo FBPostResult_t290_il2cpp_TypeInfo;
 // FBPostResult
 #include "AssemblyU2DCSharp_FBPostResult.h"
-extern TypeInfo FBScore_t253_il2cpp_TypeInfo;
+extern TypeInfo FBScore_t293_il2cpp_TypeInfo;
 // FBScore
 #include "AssemblyU2DCSharp_FBScore.h"
-extern TypeInfo FacebookProfileImageSize_t254_il2cpp_TypeInfo;
+extern TypeInfo FacebookProfileImageSize_t294_il2cpp_TypeInfo;
 // FacebookProfileImageSize
 #include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
-extern TypeInfo FacebookUserInfo_t231_il2cpp_TypeInfo;
+extern TypeInfo FacebookUserInfo_t271_il2cpp_TypeInfo;
 // FacebookUserInfo
 #include "AssemblyU2DCSharp_FacebookUserInfo.h"
-extern TypeInfo FBLikesRetrieveTask_t256_il2cpp_TypeInfo;
+extern TypeInfo FBLikesRetrieveTask_t296_il2cpp_TypeInfo;
 // FBLikesRetrieveTask
 #include "AssemblyU2DCSharp_FBLikesRetrieveTask.h"
-extern TypeInfo FBPostingTask_t257_il2cpp_TypeInfo;
+extern TypeInfo FBPostingTask_t297_il2cpp_TypeInfo;
 // FBPostingTask
 #include "AssemblyU2DCSharp_FBPostingTask.h"
-extern TypeInfo FB_APIResult_t258_il2cpp_TypeInfo;
+extern TypeInfo FB_APIResult_t298_il2cpp_TypeInfo;
 // FB_APIResult
 #include "AssemblyU2DCSharp_FB_APIResult.h"
-extern TypeInfo U3CRequestU3Ec__Iterator2_t260_il2cpp_TypeInfo;
+extern TypeInfo U3CRequestU3Ec__Iterator2_t300_il2cpp_TypeInfo;
 // FB_GraphAPIRequest/<Request>c__Iterator2
 #include "AssemblyU2DCSharp_FB_GraphAPIRequest_U3CRequestU3Ec__Iterato.h"
-extern TypeInfo FB_GraphAPIRequest_t259_il2cpp_TypeInfo;
+extern TypeInfo FB_GraphAPIRequest_t299_il2cpp_TypeInfo;
 // FB_GraphAPIRequest
 #include "AssemblyU2DCSharp_FB_GraphAPIRequest.h"
-extern TypeInfo InstagramEvents_t263_il2cpp_TypeInfo;
+extern TypeInfo InstagramEvents_t303_il2cpp_TypeInfo;
 // InstagramEvents
 #include "AssemblyU2DCSharp_InstagramEvents.h"
-extern TypeInfo InstagramPostResult_t264_il2cpp_TypeInfo;
+extern TypeInfo InstagramPostResult_t304_il2cpp_TypeInfo;
 // InstagramPostResult
 #include "AssemblyU2DCSharp_InstagramPostResult.h"
-extern TypeInfo AndroidInstagramManager_t266_il2cpp_TypeInfo;
+extern TypeInfo AndroidInstagramManager_t306_il2cpp_TypeInfo;
 // AndroidInstagramManager
 #include "AssemblyU2DCSharp_AndroidInstagramManager.h"
-extern TypeInfo AndroidTwitterManager_t270_il2cpp_TypeInfo;
+extern TypeInfo AndroidTwitterManager_t310_il2cpp_TypeInfo;
 // AndroidTwitterManager
 #include "AssemblyU2DCSharp_AndroidTwitterManager.h"
-extern TypeInfo U3CLoadU3Ec__Iterator3_t274_il2cpp_TypeInfo;
+extern TypeInfo U3CLoadU3Ec__Iterator3_t314_il2cpp_TypeInfo;
 // TwitterApplicationOnlyToken/<Load>c__Iterator3
 #include "AssemblyU2DCSharp_TwitterApplicationOnlyToken_U3CLoadU3Ec__I.h"
-extern TypeInfo TwitterApplicationOnlyToken_t273_il2cpp_TypeInfo;
+extern TypeInfo TwitterApplicationOnlyToken_t313_il2cpp_TypeInfo;
 // TwitterApplicationOnlyToken
 #include "AssemblyU2DCSharp_TwitterApplicationOnlyToken.h"
-extern TypeInfo TwitterDataCash_t278_il2cpp_TypeInfo;
+extern TypeInfo TwitterDataCash_t318_il2cpp_TypeInfo;
 // TwitterDataCash
 #include "AssemblyU2DCSharp_TwitterDataCash.h"
-extern TypeInfo TWResult_t279_il2cpp_TypeInfo;
+extern TypeInfo TWResult_t319_il2cpp_TypeInfo;
 // TWResult
 #include "AssemblyU2DCSharp_TWResult.h"
-extern TypeInfo TW_APIRequstResult_t282_il2cpp_TypeInfo;
+extern TypeInfo TW_APIRequstResult_t322_il2cpp_TypeInfo;
 // TW_APIRequstResult
 #include "AssemblyU2DCSharp_TW_APIRequstResult.h"
-extern TypeInfo TweetTemplate_t283_il2cpp_TypeInfo;
+extern TypeInfo TweetTemplate_t323_il2cpp_TypeInfo;
 // TweetTemplate
 #include "AssemblyU2DCSharp_TweetTemplate.h"
-extern TypeInfo TwitterStatus_t284_il2cpp_TypeInfo;
+extern TypeInfo TwitterStatus_t324_il2cpp_TypeInfo;
 // TwitterStatus
 #include "AssemblyU2DCSharp_TwitterStatus.h"
-extern TypeInfo TwitterUserInfo_t268_il2cpp_TypeInfo;
+extern TypeInfo TwitterUserInfo_t308_il2cpp_TypeInfo;
 // TwitterUserInfo
 #include "AssemblyU2DCSharp_TwitterUserInfo.h"
-extern TypeInfo TWAPITest_t286_il2cpp_TypeInfo;
+extern TypeInfo TWAPITest_t326_il2cpp_TypeInfo;
 // TWAPITest
 #include "AssemblyU2DCSharp_TWAPITest.h"
-extern TypeInfo U3CRequestU3Ec__Iterator4_t288_il2cpp_TypeInfo;
+extern TypeInfo U3CRequestU3Ec__Iterator4_t328_il2cpp_TypeInfo;
 // TW_APIRequest/<Request>c__Iterator4
 #include "AssemblyU2DCSharp_TW_APIRequest_U3CRequestU3Ec__Iterator4.h"
-extern TypeInfo TW_APIRequest_t287_il2cpp_TypeInfo;
+extern TypeInfo TW_APIRequest_t327_il2cpp_TypeInfo;
 // TW_APIRequest
 #include "AssemblyU2DCSharp_TW_APIRequest.h"
-extern TypeInfo TW_FollowersIdsRequest_t289_il2cpp_TypeInfo;
+extern TypeInfo TW_FollowersIdsRequest_t329_il2cpp_TypeInfo;
 // TW_FollowersIdsRequest
 #include "AssemblyU2DCSharp_TW_FollowersIdsRequest.h"
-extern TypeInfo TW_FriendsIdsRequest_t290_il2cpp_TypeInfo;
+extern TypeInfo TW_FriendsIdsRequest_t330_il2cpp_TypeInfo;
 // TW_FriendsIdsRequest
 #include "AssemblyU2DCSharp_TW_FriendsIdsRequest.h"
-extern TypeInfo U3CRequestU3Ec__Iterator5_t293_il2cpp_TypeInfo;
+extern TypeInfo U3CRequestU3Ec__Iterator5_t333_il2cpp_TypeInfo;
 // TW_OAuthAPIRequest/<Request>c__Iterator5
 #include "AssemblyU2DCSharp_TW_OAuthAPIRequest_U3CRequestU3Ec__Iterato.h"
-extern TypeInfo TW_OAuthAPIRequest_t292_il2cpp_TypeInfo;
+extern TypeInfo TW_OAuthAPIRequest_t332_il2cpp_TypeInfo;
 // TW_OAuthAPIRequest
 #include "AssemblyU2DCSharp_TW_OAuthAPIRequest.h"
-extern TypeInfo TW_SearchTweetsRequest_t298_il2cpp_TypeInfo;
+extern TypeInfo TW_SearchTweetsRequest_t338_il2cpp_TypeInfo;
 // TW_SearchTweetsRequest
 #include "AssemblyU2DCSharp_TW_SearchTweetsRequest.h"
-extern TypeInfo TW_UserTimeLineRequest_t299_il2cpp_TypeInfo;
+extern TypeInfo TW_UserTimeLineRequest_t339_il2cpp_TypeInfo;
 // TW_UserTimeLineRequest
 #include "AssemblyU2DCSharp_TW_UserTimeLineRequest.h"
-extern TypeInfo TW_UsersLookUpRequest_t300_il2cpp_TypeInfo;
+extern TypeInfo TW_UsersLookUpRequest_t340_il2cpp_TypeInfo;
 // TW_UsersLookUpRequest
 #include "AssemblyU2DCSharp_TW_UsersLookUpRequest.h"
-extern TypeInfo TwitterPostingTask_t302_il2cpp_TypeInfo;
+extern TypeInfo TwitterPostingTask_t342_il2cpp_TypeInfo;
 // TwitterPostingTask
 #include "AssemblyU2DCSharp_TwitterPostingTask.h"
-extern TypeInfo GPScore_t303_il2cpp_TypeInfo;
+extern TypeInfo GPScore_t343_il2cpp_TypeInfo;
 // GPScore
 #include "AssemblyU2DCSharp_GPScore.h"
-extern TypeInfo ISDSettings_t304_il2cpp_TypeInfo;
+extern TypeInfo ISDSettings_t344_il2cpp_TypeInfo;
 // ISDSettings
 #include "AssemblyU2DCSharp_ISDSettings.h"
-extern TypeInfo InstagramUseExample_t305_il2cpp_TypeInfo;
+extern TypeInfo InstagramUseExample_t345_il2cpp_TypeInfo;
 // InstagramUseExample
 #include "AssemblyU2DCSharp_InstagramUseExample.h"
-extern TypeInfo U3CPostFBScreenshotU3Ec__Iterator6_t306_il2cpp_TypeInfo;
+extern TypeInfo U3CPostFBScreenshotU3Ec__Iterator6_t346_il2cpp_TypeInfo;
 // MSPFacebookUseExample/<PostFBScreenshot>c__Iterator6
 #include "AssemblyU2DCSharp_MSPFacebookUseExample_U3CPostFBScreenshotU.h"
-extern TypeInfo U3CPostScreenshotU3Ec__Iterator7_t307_il2cpp_TypeInfo;
+extern TypeInfo U3CPostScreenshotU3Ec__Iterator7_t347_il2cpp_TypeInfo;
 // MSPFacebookUseExample/<PostScreenshot>c__Iterator7
 #include "AssemblyU2DCSharp_MSPFacebookUseExample_U3CPostScreenshotU3E.h"
-extern TypeInfo MSPFacebookUseExample_t313_il2cpp_TypeInfo;
+extern TypeInfo MSPFacebookUseExample_t353_il2cpp_TypeInfo;
 // MSPFacebookUseExample
 #include "AssemblyU2DCSharp_MSPFacebookUseExample.h"
-extern TypeInfo MSPMoreActionsExample_t314_il2cpp_TypeInfo;
+extern TypeInfo MSPMoreActionsExample_t354_il2cpp_TypeInfo;
 // MSPMoreActionsExample
 #include "AssemblyU2DCSharp_MSPMoreActionsExample.h"
-extern TypeInfo U3CPostTWScreenshotU3Ec__Iterator8_t315_il2cpp_TypeInfo;
+extern TypeInfo U3CPostTWScreenshotU3Ec__Iterator8_t355_il2cpp_TypeInfo;
 // MSPTwitterUseExample/<PostTWScreenshot>c__Iterator8
 #include "AssemblyU2DCSharp_MSPTwitterUseExample_U3CPostTWScreenshotU3.h"
-extern TypeInfo U3CPostScreenshotU3Ec__Iterator9_t316_il2cpp_TypeInfo;
+extern TypeInfo U3CPostScreenshotU3Ec__Iterator9_t356_il2cpp_TypeInfo;
 // MSPTwitterUseExample/<PostScreenshot>c__Iterator9
 #include "AssemblyU2DCSharp_MSPTwitterUseExample_U3CPostScreenshotU3Ec.h"
-extern TypeInfo MSPTwitterUseExample_t317_il2cpp_TypeInfo;
+extern TypeInfo MSPTwitterUseExample_t357_il2cpp_TypeInfo;
 // MSPTwitterUseExample
 #include "AssemblyU2DCSharp_MSPTwitterUseExample.h"
-extern TypeInfo MSP_FacebookAnalyticsExample_t318_il2cpp_TypeInfo;
+extern TypeInfo MSP_FacebookAnalyticsExample_t358_il2cpp_TypeInfo;
 // MSP_FacebookAnalyticsExample
 #include "AssemblyU2DCSharp_MSP_FacebookAnalyticsExample.h"
-extern TypeInfo MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_il2cpp_TypeInfo;
+extern TypeInfo MSP_FacebookAndroidTurnBasedAndGiftsExample_t359_il2cpp_TypeInfo;
 // MSP_FacebookAndroidTurnBasedAndGiftsExample
 #include "AssemblyU2DCSharp_MSP_FacebookAndroidTurnBasedAndGiftsExampl.h"
-extern TypeInfo MSPAndroidSocialGate_t320_il2cpp_TypeInfo;
+extern TypeInfo MSPAndroidSocialGate_t360_il2cpp_TypeInfo;
 // MSPAndroidSocialGate
 #include "AssemblyU2DCSharp_MSPAndroidSocialGate.h"
-extern TypeInfo SPInstagram_t321_il2cpp_TypeInfo;
+extern TypeInfo SPInstagram_t361_il2cpp_TypeInfo;
 // SPInstagram
 #include "AssemblyU2DCSharp_SPInstagram.h"
-extern TypeInfo SPShareUtility_t323_il2cpp_TypeInfo;
+extern TypeInfo SPShareUtility_t363_il2cpp_TypeInfo;
 // SPShareUtility
 #include "AssemblyU2DCSharp_SPShareUtility.h"
-extern TypeInfo SPTwitter_t324_il2cpp_TypeInfo;
+extern TypeInfo SPTwitter_t364_il2cpp_TypeInfo;
 // SPTwitter
 #include "AssemblyU2DCSharp_SPTwitter.h"
-extern TypeInfo IOSInstagramManager_t325_il2cpp_TypeInfo;
+extern TypeInfo IOSInstagramManager_t365_il2cpp_TypeInfo;
 // IOSInstagramManager
 #include "AssemblyU2DCSharp_IOSInstagramManager.h"
-extern TypeInfo MSPIOSSocialManager_t327_il2cpp_TypeInfo;
+extern TypeInfo MSPIOSSocialManager_t367_il2cpp_TypeInfo;
 // MSPIOSSocialManager
 #include "AssemblyU2DCSharp_MSPIOSSocialManager.h"
-extern TypeInfo IOSTwitterManager_t328_il2cpp_TypeInfo;
+extern TypeInfo IOSTwitterManager_t368_il2cpp_TypeInfo;
 // IOSTwitterManager
 #include "AssemblyU2DCSharp_IOSTwitterManager.h"
-extern TypeInfo U3CPostScreenshotU3Ec__IteratorA_t331_il2cpp_TypeInfo;
+extern TypeInfo U3CPostScreenshotU3Ec__IteratorA_t371_il2cpp_TypeInfo;
 // FacebookPostScreenshotTask/<PostScreenshot>c__IteratorA
 #include "AssemblyU2DCSharp_FacebookPostScreenshotTask_U3CPostScreensh.h"
-extern TypeInfo FacebookPostScreenshotTask_t330_il2cpp_TypeInfo;
+extern TypeInfo FacebookPostScreenshotTask_t370_il2cpp_TypeInfo;
 // FacebookPostScreenshotTask
 #include "AssemblyU2DCSharp_FacebookPostScreenshotTask.h"
-extern TypeInfo U3CPostScreenshotU3Ec__IteratorB_t333_il2cpp_TypeInfo;
+extern TypeInfo U3CPostScreenshotU3Ec__IteratorB_t373_il2cpp_TypeInfo;
 // InstagramPostScreenshotTask/<PostScreenshot>c__IteratorB
 #include "AssemblyU2DCSharp_InstagramPostScreenshotTask_U3CPostScreens.h"
-extern TypeInfo InstagramPostScreenshotTask_t332_il2cpp_TypeInfo;
+extern TypeInfo InstagramPostScreenshotTask_t372_il2cpp_TypeInfo;
 // InstagramPostScreenshotTask
 #include "AssemblyU2DCSharp_InstagramPostScreenshotTask.h"
-extern TypeInfo U3CPostScreenshotU3Ec__IteratorC_t335_il2cpp_TypeInfo;
+extern TypeInfo U3CPostScreenshotU3Ec__IteratorC_t375_il2cpp_TypeInfo;
 // TwitterPostScreenshotTask/<PostScreenshot>c__IteratorC
 #include "AssemblyU2DCSharp_TwitterPostScreenshotTask_U3CPostScreensho.h"
-extern TypeInfo TwitterPostScreenshotTask_t334_il2cpp_TypeInfo;
+extern TypeInfo TwitterPostScreenshotTask_t374_il2cpp_TypeInfo;
 // TwitterPostScreenshotTask
 #include "AssemblyU2DCSharp_TwitterPostScreenshotTask.h"
-extern TypeInfo GameControllerExample_t337_il2cpp_TypeInfo;
+extern TypeInfo GameControllerExample_t377_il2cpp_TypeInfo;
 // GameControllerExample
 #include "AssemblyU2DCSharp_GameControllerExample.h"
-extern TypeInfo GameThrive_t338_il2cpp_TypeInfo;
+extern TypeInfo GameThrive_t378_il2cpp_TypeInfo;
 // GameThrive
 #include "AssemblyU2DCSharp_GameThrive.h"
-extern TypeInfo TOKEN_t340_il2cpp_TypeInfo;
+extern TypeInfo TOKEN_t380_il2cpp_TypeInfo;
 // OneSignalPush.MiniJSON.Json/Parser/TOKEN
 #include "AssemblyU2DCSharp_OneSignalPush_MiniJSON_Json_Parser_TOKEN.h"
-extern TypeInfo Parser_t341_il2cpp_TypeInfo;
+extern TypeInfo Parser_t381_il2cpp_TypeInfo;
 // OneSignalPush.MiniJSON.Json/Parser
 #include "AssemblyU2DCSharp_OneSignalPush_MiniJSON_Json_Parser.h"
-extern TypeInfo Serializer_t342_il2cpp_TypeInfo;
+extern TypeInfo Serializer_t382_il2cpp_TypeInfo;
 // OneSignalPush.MiniJSON.Json/Serializer
 #include "AssemblyU2DCSharp_OneSignalPush_MiniJSON_Json_Serializer.h"
-extern TypeInfo Json_t343_il2cpp_TypeInfo;
+extern TypeInfo Json_t383_il2cpp_TypeInfo;
 // OneSignalPush.MiniJSON.Json
 #include "AssemblyU2DCSharp_OneSignalPush_MiniJSON_Json.h"
-extern TypeInfo LOG_LEVEL_t344_il2cpp_TypeInfo;
+extern TypeInfo LOG_LEVEL_t384_il2cpp_TypeInfo;
 // OneSignal/LOG_LEVEL
 #include "AssemblyU2DCSharp_OneSignal_LOG_LEVEL.h"
-extern TypeInfo NotificationReceived_t347_il2cpp_TypeInfo;
+extern TypeInfo NotificationReceived_t387_il2cpp_TypeInfo;
 // OneSignal/NotificationReceived
 #include "AssemblyU2DCSharp_OneSignal_NotificationReceived.h"
-extern TypeInfo IdsAvailable_t336_il2cpp_TypeInfo;
+extern TypeInfo IdsAvailable_t376_il2cpp_TypeInfo;
 // OneSignal/IdsAvailable
 #include "AssemblyU2DCSharp_OneSignal_IdsAvailable.h"
-extern TypeInfo TagsReceived_t349_il2cpp_TypeInfo;
+extern TypeInfo TagsReceived_t389_il2cpp_TypeInfo;
 // OneSignal/TagsReceived
 #include "AssemblyU2DCSharp_OneSignal_TagsReceived.h"
-extern TypeInfo OneSignal_t339_il2cpp_TypeInfo;
+extern TypeInfo OneSignal_t379_il2cpp_TypeInfo;
 // OneSignal
 #include "AssemblyU2DCSharp_OneSignal.h"
-extern TypeInfo OneSignalPlatform_t350_il2cpp_TypeInfo;
-extern TypeInfo U3CSaveScreenshotU3Ec__IteratorD_t352_il2cpp_TypeInfo;
+extern TypeInfo OneSignalPlatform_t390_il2cpp_TypeInfo;
+extern TypeInfo U3CSaveScreenshotU3Ec__IteratorD_t392_il2cpp_TypeInfo;
 // SA_ScreenShotMaker/<SaveScreenshot>c__IteratorD
 #include "AssemblyU2DCSharp_SA_ScreenShotMaker_U3CSaveScreenshotU3Ec__.h"
-extern TypeInfo SA_ScreenShotMaker_t351_il2cpp_TypeInfo;
+extern TypeInfo SA_ScreenShotMaker_t391_il2cpp_TypeInfo;
 // SA_ScreenShotMaker
 #include "AssemblyU2DCSharp_SA_ScreenShotMaker.h"
-extern TypeInfo DefaultPreviewButton_t309_il2cpp_TypeInfo;
+extern TypeInfo DefaultPreviewButton_t349_il2cpp_TypeInfo;
 // DefaultPreviewButton
 #include "AssemblyU2DCSharp_DefaultPreviewButton.h"
-extern TypeInfo SALevelLoader_t356_il2cpp_TypeInfo;
+extern TypeInfo SALevelLoader_t396_il2cpp_TypeInfo;
 // SALevelLoader
 #include "AssemblyU2DCSharp_SALevelLoader.h"
-extern TypeInfo SALoadedSceneOnClick_t358_il2cpp_TypeInfo;
+extern TypeInfo SALoadedSceneOnClick_t398_il2cpp_TypeInfo;
 // SALoadedSceneOnClick
 #include "AssemblyU2DCSharp_SALoadedSceneOnClick.h"
-extern TypeInfo SAOnClickAction_t359_il2cpp_TypeInfo;
+extern TypeInfo SAOnClickAction_t399_il2cpp_TypeInfo;
 // SAOnClickAction
 #include "AssemblyU2DCSharp_SAOnClickAction.h"
-extern TypeInfo SAOpenUrlOnClick_t360_il2cpp_TypeInfo;
+extern TypeInfo SAOpenUrlOnClick_t400_il2cpp_TypeInfo;
 // SAOpenUrlOnClick
 #include "AssemblyU2DCSharp_SAOpenUrlOnClick.h"
-extern TypeInfo SASendMessageOnClick_t361_il2cpp_TypeInfo;
+extern TypeInfo SASendMessageOnClick_t401_il2cpp_TypeInfo;
 // SASendMessageOnClick
 #include "AssemblyU2DCSharp_SASendMessageOnClick.h"
-extern TypeInfo SA_BackButton_t362_il2cpp_TypeInfo;
+extern TypeInfo SA_BackButton_t402_il2cpp_TypeInfo;
 // SA_BackButton
 #include "AssemblyU2DCSharp_SA_BackButton.h"
-extern TypeInfo SA_Label_t311_il2cpp_TypeInfo;
+extern TypeInfo SA_Label_t351_il2cpp_TypeInfo;
 // SA_Label
 #include "AssemblyU2DCSharp_SA_Label.h"
-extern TypeInfo SA_StatusBar_t364_il2cpp_TypeInfo;
+extern TypeInfo SA_StatusBar_t404_il2cpp_TypeInfo;
 // SA_StatusBar
 #include "AssemblyU2DCSharp_SA_StatusBar.h"
-extern TypeInfo SA_Texture_t310_il2cpp_TypeInfo;
+extern TypeInfo SA_Texture_t350_il2cpp_TypeInfo;
 // SA_Texture
 #include "AssemblyU2DCSharp_SA_Texture.h"
-extern TypeInfo PreviewScreenUtil_t365_il2cpp_TypeInfo;
+extern TypeInfo PreviewScreenUtil_t405_il2cpp_TypeInfo;
 // PreviewScreenUtil
 #include "AssemblyU2DCSharp_PreviewScreenUtil.h"
-extern TypeInfo ScreenPlacement_t367_il2cpp_TypeInfo;
+extern TypeInfo ScreenPlacement_t407_il2cpp_TypeInfo;
 // ScreenPlacement
 #include "AssemblyU2DCSharp_ScreenPlacement.h"
-extern TypeInfo ScreenPosition_t368_il2cpp_TypeInfo;
+extern TypeInfo ScreenPosition_t408_il2cpp_TypeInfo;
 // ScreenPosition
 #include "AssemblyU2DCSharp_ScreenPosition.h"
-extern TypeInfo ScreenPlacementExtension_t369_il2cpp_TypeInfo;
+extern TypeInfo ScreenPlacementExtension_t409_il2cpp_TypeInfo;
 // ScreenPlacementExtension
 #include "AssemblyU2DCSharp_ScreenPlacementExtension.h"
-extern TypeInfo ScreenScaler_t370_il2cpp_TypeInfo;
+extern TypeInfo ScreenScaler_t410_il2cpp_TypeInfo;
 // ScreenScaler
 #include "AssemblyU2DCSharp_ScreenScaler.h"
-extern TypeInfo XScaleModifayer_t371_il2cpp_TypeInfo;
+extern TypeInfo XScaleModifayer_t411_il2cpp_TypeInfo;
 // XScaleModifayer
 #include "AssemblyU2DCSharp_XScaleModifayer.h"
-extern TypeInfo AbstractFacebook_t374_il2cpp_TypeInfo;
+extern TypeInfo AbstractFacebook_t414_il2cpp_TypeInfo;
 // Facebook.AbstractFacebook
 #include "AssemblyU2DCSharp_Facebook_AbstractFacebook.h"
-extern TypeInfo AppEvents_t375_il2cpp_TypeInfo;
+extern TypeInfo AppEvents_t415_il2cpp_TypeInfo;
 // FB/AppEvents
 #include "AssemblyU2DCSharp_FB_AppEvents.h"
-extern TypeInfo Canvas_t376_il2cpp_TypeInfo;
+extern TypeInfo Canvas_t416_il2cpp_TypeInfo;
 // FB/Canvas
 #include "AssemblyU2DCSharp_FB_Canvas.h"
-extern TypeInfo Android_t377_il2cpp_TypeInfo;
+extern TypeInfo Android_t417_il2cpp_TypeInfo;
 // FB/Android
 #include "AssemblyU2DCSharp_FB_Android.h"
-extern TypeInfo CompiledFacebookLoader_t378_il2cpp_TypeInfo;
+extern TypeInfo CompiledFacebookLoader_t418_il2cpp_TypeInfo;
 // FB/CompiledFacebookLoader
 #include "AssemblyU2DCSharp_FB_CompiledFacebookLoader.h"
-extern TypeInfo FB_t381_il2cpp_TypeInfo;
+extern TypeInfo FB_t421_il2cpp_TypeInfo;
 // FB
 #include "AssemblyU2DCSharp_FB.h"
-extern TypeInfo FBAppEventName_t382_il2cpp_TypeInfo;
+extern TypeInfo FBAppEventName_t422_il2cpp_TypeInfo;
 // Facebook.FBAppEventName
 #include "AssemblyU2DCSharp_Facebook_FBAppEventName.h"
-extern TypeInfo FBAppEventParameterName_t383_il2cpp_TypeInfo;
+extern TypeInfo FBAppEventParameterName_t423_il2cpp_TypeInfo;
 // Facebook.FBAppEventParameterName
 #include "AssemblyU2DCSharp_Facebook_FBAppEventParameterName.h"
-extern TypeInfo FBAppRequestsFilterGroup_t384_il2cpp_TypeInfo;
+extern TypeInfo FBAppRequestsFilterGroup_t424_il2cpp_TypeInfo;
 // FBAppRequestsFilterGroup
 #include "AssemblyU2DCSharp_FBAppRequestsFilterGroup.h"
-extern TypeInfo FBBuildVersionAttribute_t385_il2cpp_TypeInfo;
+extern TypeInfo FBBuildVersionAttribute_t425_il2cpp_TypeInfo;
 // Facebook.FBBuildVersionAttribute
 #include "AssemblyU2DCSharp_Facebook_FBBuildVersionAttribute.h"
-extern TypeInfo IfNotExist_t387_il2cpp_TypeInfo;
+extern TypeInfo IfNotExist_t427_il2cpp_TypeInfo;
 // Facebook.IfNotExist
 #include "AssemblyU2DCSharp_Facebook_IfNotExist.h"
-extern TypeInfo FBComponentFactory_t388_il2cpp_TypeInfo;
+extern TypeInfo FBComponentFactory_t428_il2cpp_TypeInfo;
 // Facebook.FBComponentFactory
 #include "AssemblyU2DCSharp_Facebook_FBComponentFactory.h"
-extern TypeInfo FBDebug_t389_il2cpp_TypeInfo;
+extern TypeInfo FBDebug_t429_il2cpp_TypeInfo;
 // FBDebug
 #include "AssemblyU2DCSharp_FBDebug.h"
-extern TypeInfo FBResult_t241_il2cpp_TypeInfo;
+extern TypeInfo FBResult_t281_il2cpp_TypeInfo;
 // FBResult
 #include "AssemblyU2DCSharp_FBResult.h"
-extern TypeInfo FBSettings_t390_il2cpp_TypeInfo;
+extern TypeInfo FBSettings_t430_il2cpp_TypeInfo;
 // FBSettings
 #include "AssemblyU2DCSharp_FBSettings.h"
-extern TypeInfo DialogMode_t391_il2cpp_TypeInfo;
+extern TypeInfo DialogMode_t431_il2cpp_TypeInfo;
 // NativeDialogModes.DialogMode
 #include "AssemblyU2DCSharp_NativeDialogModes_DialogMode.h"
-extern TypeInfo OGActionType_t392_il2cpp_TypeInfo;
+extern TypeInfo OGActionType_t432_il2cpp_TypeInfo;
 // Facebook.OGActionType
 #include "AssemblyU2DCSharp_Facebook_OGActionType.h"
-extern TypeInfo AndroidFacebook_t394_il2cpp_TypeInfo;
+extern TypeInfo AndroidFacebook_t434_il2cpp_TypeInfo;
 // Facebook.AndroidFacebook
 #include "AssemblyU2DCSharp_Facebook_AndroidFacebook.h"
-extern TypeInfo AndroidFacebookLoader_t395_il2cpp_TypeInfo;
+extern TypeInfo AndroidFacebookLoader_t435_il2cpp_TypeInfo;
 // Facebook.AndroidFacebookLoader
 #include "AssemblyU2DCSharp_Facebook_AndroidFacebookLoader.h"
-extern TypeInfo CanvasFacebook_t396_il2cpp_TypeInfo;
+extern TypeInfo CanvasFacebook_t436_il2cpp_TypeInfo;
 // Facebook.CanvasFacebook
 #include "AssemblyU2DCSharp_Facebook_CanvasFacebook.h"
-extern TypeInfo CanvasFacebookLoader_t397_il2cpp_TypeInfo;
+extern TypeInfo CanvasFacebookLoader_t437_il2cpp_TypeInfo;
 // Facebook.CanvasFacebookLoader
 #include "AssemblyU2DCSharp_Facebook_CanvasFacebookLoader.h"
-extern TypeInfo JsBridge_t398_il2cpp_TypeInfo;
+extern TypeInfo JsBridge_t438_il2cpp_TypeInfo;
 // Facebook.JsBridge
 #include "AssemblyU2DCSharp_Facebook_JsBridge.h"
-extern TypeInfo EditorFacebook_t399_il2cpp_TypeInfo;
+extern TypeInfo EditorFacebook_t439_il2cpp_TypeInfo;
 // Facebook.EditorFacebook
 #include "AssemblyU2DCSharp_Facebook_EditorFacebook.h"
-extern TypeInfo EditorFacebookAccessToken_t400_il2cpp_TypeInfo;
+extern TypeInfo EditorFacebookAccessToken_t440_il2cpp_TypeInfo;
 // EditorFacebookAccessToken
 #include "AssemblyU2DCSharp_EditorFacebookAccessToken.h"
-extern TypeInfo EditorFacebookLoader_t401_il2cpp_TypeInfo;
+extern TypeInfo EditorFacebookLoader_t441_il2cpp_TypeInfo;
 // Facebook.EditorFacebookLoader
 #include "AssemblyU2DCSharp_Facebook_EditorFacebookLoader.h"
-extern TypeInfo NativeDict_t402_il2cpp_TypeInfo;
+extern TypeInfo NativeDict_t442_il2cpp_TypeInfo;
 // Facebook.IOSFacebook/NativeDict
 #include "AssemblyU2DCSharp_Facebook_IOSFacebook_NativeDict.h"
-extern TypeInfo FBInsightsFlushBehavior_t403_il2cpp_TypeInfo;
+extern TypeInfo FBInsightsFlushBehavior_t443_il2cpp_TypeInfo;
 // Facebook.IOSFacebook/FBInsightsFlushBehavior
 #include "AssemblyU2DCSharp_Facebook_IOSFacebook_FBInsightsFlushBehavi.h"
-extern TypeInfo IOSFacebook_t404_il2cpp_TypeInfo;
+extern TypeInfo IOSFacebook_t444_il2cpp_TypeInfo;
 // Facebook.IOSFacebook
 #include "AssemblyU2DCSharp_Facebook_IOSFacebook.h"
-extern TypeInfo IOSFacebookLoader_t405_il2cpp_TypeInfo;
+extern TypeInfo IOSFacebookLoader_t445_il2cpp_TypeInfo;
 // Facebook.IOSFacebookLoader
 #include "AssemblyU2DCSharp_Facebook_IOSFacebookLoader.h"
-extern TypeInfo U3CStartU3Ec__IteratorE_t407_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__IteratorE_t447_il2cpp_TypeInfo;
 // Facebook.AsyncRequestString/<Start>c__IteratorE
 #include "AssemblyU2DCSharp_Facebook_AsyncRequestString_U3CStartU3Ec__.h"
-extern TypeInfo AsyncRequestString_t406_il2cpp_TypeInfo;
+extern TypeInfo AsyncRequestString_t446_il2cpp_TypeInfo;
 // Facebook.AsyncRequestString
 #include "AssemblyU2DCSharp_Facebook_AsyncRequestString.h"
-extern TypeInfo HttpMethod_t408_il2cpp_TypeInfo;
+extern TypeInfo HttpMethod_t448_il2cpp_TypeInfo;
 // Facebook.HttpMethod
 #include "AssemblyU2DCSharp_Facebook_HttpMethod.h"
-extern TypeInfo TOKEN_t409_il2cpp_TypeInfo;
+extern TypeInfo TOKEN_t449_il2cpp_TypeInfo;
 // Facebook.MiniJSON.Json/Parser/TOKEN
 #include "AssemblyU2DCSharp_Facebook_MiniJSON_Json_Parser_TOKEN.h"
-extern TypeInfo Parser_t410_il2cpp_TypeInfo;
+extern TypeInfo Parser_t450_il2cpp_TypeInfo;
 // Facebook.MiniJSON.Json/Parser
 #include "AssemblyU2DCSharp_Facebook_MiniJSON_Json_Parser.h"
-extern TypeInfo Serializer_t411_il2cpp_TypeInfo;
+extern TypeInfo Serializer_t451_il2cpp_TypeInfo;
 // Facebook.MiniJSON.Json/Serializer
 #include "AssemblyU2DCSharp_Facebook_MiniJSON_Json_Serializer.h"
-extern TypeInfo Json_t413_il2cpp_TypeInfo;
+extern TypeInfo Json_t453_il2cpp_TypeInfo;
 // Facebook.MiniJSON.Json
 #include "AssemblyU2DCSharp_Facebook_MiniJSON_Json.h"
-extern TypeInfo AchievementController_t414_il2cpp_TypeInfo;
+extern TypeInfo GameInstanceState_t454_il2cpp_TypeInfo;
+// GameInstanceState
+#include "AssemblyU2DCSharp_GameInstanceState.h"
+extern TypeInfo AchievementController_t455_il2cpp_TypeInfo;
 // AchievementController
 #include "AssemblyU2DCSharp_AchievementController.h"
-extern TypeInfo AspectRatioPreserve_t415_il2cpp_TypeInfo;
+extern TypeInfo AspectRatioPreserve_t456_il2cpp_TypeInfo;
 // AspectRatioPreserve
 #include "AssemblyU2DCSharp_AspectRatioPreserve.h"
-extern TypeInfo BoostActiveLayout_t419_il2cpp_TypeInfo;
+extern TypeInfo BoostActiveLayout_t460_il2cpp_TypeInfo;
 // BoostActiveLayout
 #include "AssemblyU2DCSharp_BoostActiveLayout.h"
-extern TypeInfo BoostButtonMode_t420_il2cpp_TypeInfo;
+extern TypeInfo BoostButtonMode_t461_il2cpp_TypeInfo;
 // BoostButton/BoostButtonMode
 #include "AssemblyU2DCSharp_BoostButton_BoostButtonMode.h"
-extern TypeInfo U3CTriggerDistortionEffectU3Ec__IteratorF_t422_il2cpp_TypeInfo;
+extern TypeInfo U3CTriggerDistortionEffectU3Ec__IteratorF_t463_il2cpp_TypeInfo;
 // BoostButton/<TriggerDistortionEffect>c__IteratorF
 #include "AssemblyU2DCSharp_BoostButton_U3CTriggerDistortionEffectU3Ec.h"
-extern TypeInfo BoostButton_t421_il2cpp_TypeInfo;
+extern TypeInfo BoostButton_t462_il2cpp_TypeInfo;
 // BoostButton
 #include "AssemblyU2DCSharp_BoostButton.h"
-extern TypeInfo BoostButtonLayout_t427_il2cpp_TypeInfo;
+extern TypeInfo BoostButtonLayout_t468_il2cpp_TypeInfo;
 // BoostButtonLayout
 #include "AssemblyU2DCSharp_BoostButtonLayout.h"
-extern TypeInfo BoostType_t428_il2cpp_TypeInfo;
+extern TypeInfo BoostType_t469_il2cpp_TypeInfo;
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
-extern TypeInfo BoostActiveEventHandler_t429_il2cpp_TypeInfo;
+extern TypeInfo BoostActiveEventHandler_t470_il2cpp_TypeInfo;
 // BoostConfig/BoostActiveEventHandler
 #include "AssemblyU2DCSharp_BoostConfig_BoostActiveEventHandler.h"
-extern TypeInfo U3CWaitThenCleanupU3Ec__Iterator10_t430_il2cpp_TypeInfo;
+extern TypeInfo U3CWaitThenCleanupU3Ec__Iterator10_t471_il2cpp_TypeInfo;
 // BoostConfig/<WaitThenCleanup>c__Iterator10
 #include "AssemblyU2DCSharp_BoostConfig_U3CWaitThenCleanupU3Ec__Iterat.h"
-extern TypeInfo BoostConfig_t416_il2cpp_TypeInfo;
+extern TypeInfo BoostConfig_t457_il2cpp_TypeInfo;
 // BoostConfig
 #include "AssemblyU2DCSharp_BoostConfig.h"
-extern TypeInfo BoostDesc_t434_il2cpp_TypeInfo;
+extern TypeInfo BoostDesc_t475_il2cpp_TypeInfo;
 // BoostDesc
 #include "AssemblyU2DCSharp_BoostDesc.h"
-extern TypeInfo BuyAndUseBoost_t436_il2cpp_TypeInfo;
+extern TypeInfo BuyAndUseBoost_t477_il2cpp_TypeInfo;
 // BuyAndUseBoost
 #include "AssemblyU2DCSharp_BuyAndUseBoost.h"
-extern TypeInfo BuyBoost_t437_il2cpp_TypeInfo;
+extern TypeInfo BuyBoost_t478_il2cpp_TypeInfo;
 // BuyBoost
 #include "AssemblyU2DCSharp_BuyBoost.h"
-extern TypeInfo CatBodyHitDetection_t438_il2cpp_TypeInfo;
+extern TypeInfo CameraController_t480_il2cpp_TypeInfo;
+// CameraController
+#include "AssemblyU2DCSharp_CameraController.h"
+extern TypeInfo CatBodyHitDetection_t481_il2cpp_TypeInfo;
 // CatBodyHitDetection
 #include "AssemblyU2DCSharp_CatBodyHitDetection.h"
-extern TypeInfo ConeOfViewRenderer_t441_il2cpp_TypeInfo;
+extern TypeInfo ConeOfViewRenderer_t484_il2cpp_TypeInfo;
 // ConeOfViewRenderer
 #include "AssemblyU2DCSharp_ConeOfViewRenderer.h"
-extern TypeInfo CrossSceneState_t442_il2cpp_TypeInfo;
+extern TypeInfo CrossSceneState_t485_il2cpp_TypeInfo;
 // CrossSceneState
 #include "AssemblyU2DCSharp_CrossSceneState.h"
-extern TypeInfo DeadMouse_t444_il2cpp_TypeInfo;
+extern TypeInfo DeadMouse_t487_il2cpp_TypeInfo;
 // DeadMouse
 #include "AssemblyU2DCSharp_DeadMouse.h"
-extern TypeInfo DebugConfig_t445_il2cpp_TypeInfo;
+extern TypeInfo DebugConfig_t488_il2cpp_TypeInfo;
 // DebugConfig
 #include "AssemblyU2DCSharp_DebugConfig.h"
-extern TypeInfo DebugLogPropagate_t446_il2cpp_TypeInfo;
+extern TypeInfo DebugLogPropagate_t489_il2cpp_TypeInfo;
 // DebugLogPropagate
 #include "AssemblyU2DCSharp_DebugLogPropagate.h"
-extern TypeInfo DestroyByCollision_t448_il2cpp_TypeInfo;
+extern TypeInfo DestroyByCollision_t491_il2cpp_TypeInfo;
 // DestroyByCollision
 #include "AssemblyU2DCSharp_DestroyByCollision.h"
-extern TypeInfo DialogController_t449_il2cpp_TypeInfo;
+extern TypeInfo DialogController_t492_il2cpp_TypeInfo;
 // DialogController
 #include "AssemblyU2DCSharp_DialogController.h"
-extern TypeInfo DistortForEffect_t450_il2cpp_TypeInfo;
+extern TypeInfo DistortForEffect_t493_il2cpp_TypeInfo;
 // DistortForEffect
 #include "AssemblyU2DCSharp_DistortForEffect.h"
-extern TypeInfo EnumAccumulator_1_t705_il2cpp_TypeInfo;
-extern TypeInfo ExplicitMouseDesc_t452_il2cpp_TypeInfo;
+extern TypeInfo EnumAccumulator_1_t747_il2cpp_TypeInfo;
+extern TypeInfo ExplicitMouseDesc_t495_il2cpp_TypeInfo;
 // ExplicitMouseDesc
 #include "AssemblyU2DCSharp_ExplicitMouseDesc.h"
-extern TypeInfo FacebookSharing_t453_il2cpp_TypeInfo;
+extern TypeInfo FacebookSharing_t496_il2cpp_TypeInfo;
 // FacebookSharing
 #include "AssemblyU2DCSharp_FacebookSharing.h"
-extern TypeInfo FartPuff_t454_il2cpp_TypeInfo;
+extern TypeInfo FartPuff_t497_il2cpp_TypeInfo;
 // FartPuff
 #include "AssemblyU2DCSharp_FartPuff.h"
-extern TypeInfo FinalScoreController_t455_il2cpp_TypeInfo;
+extern TypeInfo FinalScoreController_t498_il2cpp_TypeInfo;
 // FinalScoreController
 #include "AssemblyU2DCSharp_FinalScoreController.h"
-extern TypeInfo FinalScoreUI_t456_il2cpp_TypeInfo;
+extern TypeInfo FinalScoreUI_t499_il2cpp_TypeInfo;
 // FinalScoreUI
 #include "AssemblyU2DCSharp_FinalScoreUI.h"
-extern TypeInfo GameCenterButtons_t459_il2cpp_TypeInfo;
+extern TypeInfo GameCenterButtons_t502_il2cpp_TypeInfo;
 // GameCenterButtons
 #include "AssemblyU2DCSharp_GameCenterButtons.h"
-extern TypeInfo GameController_t462_il2cpp_TypeInfo;
+extern TypeInfo GameController_t505_il2cpp_TypeInfo;
 // GameController
 #include "AssemblyU2DCSharp_GameController.h"
-extern TypeInfo GameLevelChangedEventHandler_t463_il2cpp_TypeInfo;
+extern TypeInfo GameLevelChangedEventHandler_t506_il2cpp_TypeInfo;
 // GameLevelState/GameLevelChangedEventHandler
 #include "AssemblyU2DCSharp_GameLevelState_GameLevelChangedEventHandle.h"
-extern TypeInfo GameLevelState_t464_il2cpp_TypeInfo;
+extern TypeInfo GameLevelState_t507_il2cpp_TypeInfo;
 // GameLevelState
 #include "AssemblyU2DCSharp_GameLevelState.h"
-extern TypeInfo GamePhaseType_t465_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseType_t508_il2cpp_TypeInfo;
 // GamePhaseState/GamePhaseType
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseType.h"
-extern TypeInfo GameInstanceChangedEventHandler_t466_il2cpp_TypeInfo;
+extern TypeInfo GameInstanceChangedEventHandler_t509_il2cpp_TypeInfo;
 // GamePhaseState/GameInstanceChangedEventHandler
 #include "AssemblyU2DCSharp_GamePhaseState_GameInstanceChangedEventHan.h"
-extern TypeInfo GamePhaseChangedEventHandler_t467_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseChangedEventHandler_t510_il2cpp_TypeInfo;
 // GamePhaseState/GamePhaseChangedEventHandler
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseChangedEventHandle.h"
-extern TypeInfo U3CSetupPendingPhaseU3Ec__Iterator11_t469_il2cpp_TypeInfo;
+extern TypeInfo U3CSetupPendingPhaseU3Ec__Iterator11_t512_il2cpp_TypeInfo;
 // GamePhaseState/<SetupPendingPhase>c__Iterator11
 #include "AssemblyU2DCSharp_GamePhaseState_U3CSetupPendingPhaseU3Ec__I.h"
-extern TypeInfo GamePhaseState_t468_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseState_t511_il2cpp_TypeInfo;
 // GamePhaseState
 #include "AssemblyU2DCSharp_GamePhaseState.h"
-extern TypeInfo GameUI_t457_il2cpp_TypeInfo;
+extern TypeInfo GameUI_t500_il2cpp_TypeInfo;
 // GameUI
 #include "AssemblyU2DCSharp_GameUI.h"
-extern TypeInfo GameUIsType_t471_il2cpp_TypeInfo;
+extern TypeInfo GameUIsType_t514_il2cpp_TypeInfo;
 // GameUIController/GameUIsType
 #include "AssemblyU2DCSharp_GameUIController_GameUIsType.h"
-extern TypeInfo GameUIController_t472_il2cpp_TypeInfo;
+extern TypeInfo GameUIController_t515_il2cpp_TypeInfo;
 // GameUIController
 #include "AssemblyU2DCSharp_GameUIController.h"
-extern TypeInfo GoogleAdController_t473_il2cpp_TypeInfo;
+extern TypeInfo U3CCreatePendingInterstitialAdU3Ec__Iterator12_t517_il2cpp_TypeInfo;
+// GoogleAdController/<CreatePendingInterstitialAd>c__Iterator12
+#include "AssemblyU2DCSharp_GoogleAdController_U3CCreatePendingInterst.h"
+extern TypeInfo GoogleAdController_t516_il2cpp_TypeInfo;
 // GoogleAdController
 #include "AssemblyU2DCSharp_GoogleAdController.h"
-extern TypeInfo MovementPhase_t474_il2cpp_TypeInfo;
+extern TypeInfo MovementPhase_t518_il2cpp_TypeInfo;
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
-extern TypeInfo HeadMovement_t475_il2cpp_TypeInfo;
+extern TypeInfo HeadMovement_t519_il2cpp_TypeInfo;
 // HeadMovement
 #include "AssemblyU2DCSharp_HeadMovement.h"
-extern TypeInfo U3CTriggerDistortionEffectU3Ec__Iterator12_t477_il2cpp_TypeInfo;
-// HoleMeter/<TriggerDistortionEffect>c__Iterator12
+extern TypeInfo U3CTriggerDistortionEffectU3Ec__Iterator13_t521_il2cpp_TypeInfo;
+// HoleMeter/<TriggerDistortionEffect>c__Iterator13
 #include "AssemblyU2DCSharp_HoleMeter_U3CTriggerDistortionEffectU3Ec__.h"
-extern TypeInfo HoleMeter_t476_il2cpp_TypeInfo;
+extern TypeInfo HoleMeter_t520_il2cpp_TypeInfo;
 // HoleMeter
 #include "AssemblyU2DCSharp_HoleMeter.h"
-extern TypeInfo IOSSharing_t479_il2cpp_TypeInfo;
+extern TypeInfo IOSSharing_t523_il2cpp_TypeInfo;
 // IOSSharing
 #include "AssemblyU2DCSharp_IOSSharing.h"
-extern TypeInfo InputHandler_t481_il2cpp_TypeInfo;
+extern TypeInfo InputHandler_t525_il2cpp_TypeInfo;
 // InputHandler
 #include "AssemblyU2DCSharp_InputHandler.h"
-extern TypeInfo LaunchCountController_t482_il2cpp_TypeInfo;
+extern TypeInfo LaunchCountController_t526_il2cpp_TypeInfo;
 // LaunchCountController
 #include "AssemblyU2DCSharp_LaunchCountController.h"
-extern TypeInfo WaveType_t483_il2cpp_TypeInfo;
+extern TypeInfo WaveType_t527_il2cpp_TypeInfo;
 // LevelDescription/WaveType
 #include "AssemblyU2DCSharp_LevelDescription_WaveType.h"
-extern TypeInfo LevelDescription_t490_il2cpp_TypeInfo;
+extern TypeInfo LevelDescription_t534_il2cpp_TypeInfo;
 // LevelDescription
 #include "AssemblyU2DCSharp_LevelDescription.h"
-extern TypeInfo LevelConfig_t497_il2cpp_TypeInfo;
+extern TypeInfo LevelConfig_t541_il2cpp_TypeInfo;
 // LevelConfig
 #include "AssemblyU2DCSharp_LevelConfig.h"
-extern TypeInfo LevelEndTitlesLayout_t499_il2cpp_TypeInfo;
+extern TypeInfo LevelEndTitlesLayout_t543_il2cpp_TypeInfo;
 // LevelEndTitlesLayout
 #include "AssemblyU2DCSharp_LevelEndTitlesLayout.h"
-extern TypeInfo MovementPhaseType_t500_il2cpp_TypeInfo;
+extern TypeInfo MovementPhaseType_t544_il2cpp_TypeInfo;
 // MouseConfig/MovementPhaseType
 #include "AssemblyU2DCSharp_MouseConfig_MovementPhaseType.h"
-extern TypeInfo MouseType_t501_il2cpp_TypeInfo;
+extern TypeInfo MouseType_t545_il2cpp_TypeInfo;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
-extern TypeInfo MouseWiggleType_t502_il2cpp_TypeInfo;
+extern TypeInfo MouseWiggleType_t546_il2cpp_TypeInfo;
 // MouseConfig/MouseWiggleType
 #include "AssemblyU2DCSharp_MouseConfig_MouseWiggleType.h"
-extern TypeInfo MouseConfig_t505_il2cpp_TypeInfo;
+extern TypeInfo MouseConfig_t549_il2cpp_TypeInfo;
 // MouseConfig
 #include "AssemblyU2DCSharp_MouseConfig.h"
-extern TypeInfo MouseDesc_t506_il2cpp_TypeInfo;
+extern TypeInfo MouseDesc_t550_il2cpp_TypeInfo;
 // MouseDesc
 #include "AssemblyU2DCSharp_MouseDesc.h"
-extern TypeInfo MouseHoleLocation_t507_il2cpp_TypeInfo;
+extern TypeInfo MouseHoleLocation_t551_il2cpp_TypeInfo;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
-extern TypeInfo MousePopChangedEventHandler_t508_il2cpp_TypeInfo;
+extern TypeInfo MousePopChangedEventHandler_t552_il2cpp_TypeInfo;
 // MouseHole/MousePopChangedEventHandler
 #include "AssemblyU2DCSharp_MouseHole_MousePopChangedEventHandler.h"
-extern TypeInfo CapacityChangedEventHandler_t509_il2cpp_TypeInfo;
+extern TypeInfo CapacityChangedEventHandler_t553_il2cpp_TypeInfo;
 // MouseHole/CapacityChangedEventHandler
 #include "AssemblyU2DCSharp_MouseHole_CapacityChangedEventHandler.h"
-extern TypeInfo MouseHole_t478_il2cpp_TypeInfo;
+extern TypeInfo MouseHole_t522_il2cpp_TypeInfo;
 // MouseHole
 #include "AssemblyU2DCSharp_MouseHole.h"
-extern TypeInfo MouseMove_t513_il2cpp_TypeInfo;
+extern TypeInfo MouseMove_t557_il2cpp_TypeInfo;
 // MouseMove
 #include "AssemblyU2DCSharp_MouseMove.h"
-extern TypeInfo MouseSpawnEventHandler_t514_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnEventHandler_t558_il2cpp_TypeInfo;
 // MouseSpawnFromData/MouseSpawnEventHandler
 #include "AssemblyU2DCSharp_MouseSpawnFromData_MouseSpawnEventHandler.h"
-extern TypeInfo MouseSpawnFromData_t461_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnFromData_t504_il2cpp_TypeInfo;
 // MouseSpawnFromData
 #include "AssemblyU2DCSharp_MouseSpawnFromData.h"
-extern TypeInfo MouseSpawnTracker_t515_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnTracker_t559_il2cpp_TypeInfo;
 // MouseSpawnTracker
 #include "AssemblyU2DCSharp_MouseSpawnTracker.h"
-extern TypeInfo MouseWiggleDesc_t516_il2cpp_TypeInfo;
+extern TypeInfo MouseWiggleDesc_t560_il2cpp_TypeInfo;
 // MouseWiggleDesc
 #include "AssemblyU2DCSharp_MouseWiggleDesc.h"
-extern TypeInfo MusicButton_t517_il2cpp_TypeInfo;
+extern TypeInfo MusicButton_t561_il2cpp_TypeInfo;
 // MusicButton
 #include "AssemblyU2DCSharp_MusicButton.h"
-extern TypeInfo U3CPlayMusicU3Ec__Iterator13_t520_il2cpp_TypeInfo;
-// MusicPlayer/<PlayMusic>c__Iterator13
-#include "AssemblyU2DCSharp_MusicPlayer_U3CPlayMusicU3Ec__Iterator13.h"
-extern TypeInfo MusicPlayer_t519_il2cpp_TypeInfo;
+extern TypeInfo U3CPlayMusicU3Ec__Iterator14_t564_il2cpp_TypeInfo;
+// MusicPlayer/<PlayMusic>c__Iterator14
+#include "AssemblyU2DCSharp_MusicPlayer_U3CPlayMusicU3Ec__Iterator14.h"
+extern TypeInfo MusicPlayer_t563_il2cpp_TypeInfo;
 // MusicPlayer
 #include "AssemblyU2DCSharp_MusicPlayer.h"
-extern TypeInfo OnMouseEntersHole_t521_il2cpp_TypeInfo;
+extern TypeInfo OnMouseEntersHole_t565_il2cpp_TypeInfo;
 // OnMouseEntersHole
 #include "AssemblyU2DCSharp_OnMouseEntersHole.h"
-extern TypeInfo PausePlayToggle_t522_il2cpp_TypeInfo;
+extern TypeInfo ParseAnalyticsController_t566_il2cpp_TypeInfo;
+// ParseAnalyticsController
+#include "AssemblyU2DCSharp_ParseAnalyticsController.h"
+extern TypeInfo PausePlayToggle_t567_il2cpp_TypeInfo;
 // PausePlayToggle
 #include "AssemblyU2DCSharp_PausePlayToggle.h"
-extern TypeInfo PausedOverlay_t523_il2cpp_TypeInfo;
+extern TypeInfo PausedOverlay_t568_il2cpp_TypeInfo;
 // PausedOverlay
 #include "AssemblyU2DCSharp_PausedOverlay.h"
-extern TypeInfo SwipePhase_t524_il2cpp_TypeInfo;
+extern TypeInfo SwipePhase_t569_il2cpp_TypeInfo;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
-extern TypeInfo PawController_t447_il2cpp_TypeInfo;
+extern TypeInfo PawController_t490_il2cpp_TypeInfo;
 // PawController
 #include "AssemblyU2DCSharp_PawController.h"
-extern TypeInfo PersistentStorage_t526_il2cpp_TypeInfo;
+extern TypeInfo PersistentStorage_t571_il2cpp_TypeInfo;
 // PersistentStorage
 #include "AssemblyU2DCSharp_PersistentStorage.h"
-extern TypeInfo PlayButtonClickSound_t527_il2cpp_TypeInfo;
+extern TypeInfo PlayButtonClickSound_t572_il2cpp_TypeInfo;
 // PlayButtonClickSound
 #include "AssemblyU2DCSharp_PlayButtonClickSound.h"
-extern TypeInfo PlayLevelHandler_t528_il2cpp_TypeInfo;
+extern TypeInfo PlayLevelHandler_t573_il2cpp_TypeInfo;
 // PlayLevelHandler
 #include "AssemblyU2DCSharp_PlayLevelHandler.h"
-extern TypeInfo BodyMovementType_t529_il2cpp_TypeInfo;
+extern TypeInfo BodyMovementType_t574_il2cpp_TypeInfo;
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
-extern TypeInfo PlayerController_t530_il2cpp_TypeInfo;
+extern TypeInfo PlayerController_t575_il2cpp_TypeInfo;
 // PlayerController
 #include "AssemblyU2DCSharp_PlayerController.h"
-extern TypeInfo ScoreChangedEventHandler_t531_il2cpp_TypeInfo;
+extern TypeInfo ScoreChangedEventHandler_t576_il2cpp_TypeInfo;
 // PlayerStats/ScoreChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_ScoreChangedEventHandler.h"
-extern TypeInfo TreatsChangedEventHandler_t532_il2cpp_TypeInfo;
+extern TypeInfo TreatsChangedEventHandler_t577_il2cpp_TypeInfo;
 // PlayerStats/TreatsChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_TreatsChangedEventHandler.h"
-extern TypeInfo BoostsChangedEventHandler_t533_il2cpp_TypeInfo;
+extern TypeInfo BoostsChangedEventHandler_t578_il2cpp_TypeInfo;
 // PlayerStats/BoostsChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_BoostsChangedEventHandler.h"
-extern TypeInfo PlayerStats_t435_il2cpp_TypeInfo;
+extern TypeInfo PlayerStats_t476_il2cpp_TypeInfo;
 // PlayerStats
 #include "AssemblyU2DCSharp_PlayerStats.h"
-extern TypeInfo QuasiRandomGenerator_1_t706_il2cpp_TypeInfo;
-extern TypeInfo U3CWaitAndShowDialogU3Ec__Iterator14_t535_il2cpp_TypeInfo;
-// RateMeController/<WaitAndShowDialog>c__Iterator14
+extern TypeInfo QuasiRandomGenerator_1_t748_il2cpp_TypeInfo;
+extern TypeInfo U3CWaitAndShowDialogU3Ec__Iterator15_t580_il2cpp_TypeInfo;
+// RateMeController/<WaitAndShowDialog>c__Iterator15
 #include "AssemblyU2DCSharp_RateMeController_U3CWaitAndShowDialogU3Ec_.h"
-extern TypeInfo RateMeController_t534_il2cpp_TypeInfo;
+extern TypeInfo RateMeController_t579_il2cpp_TypeInfo;
 // RateMeController
 #include "AssemblyU2DCSharp_RateMeController.h"
-extern TypeInfo RateMeDialog_t536_il2cpp_TypeInfo;
+extern TypeInfo RateMeDialog_t581_il2cpp_TypeInfo;
 // RateMeDialog
 #include "AssemblyU2DCSharp_RateMeDialog.h"
-extern TypeInfo RatingsHelper_t537_il2cpp_TypeInfo;
+extern TypeInfo RatingsHelper_t582_il2cpp_TypeInfo;
 // RatingsHelper
 #include "AssemblyU2DCSharp_RatingsHelper.h"
-extern TypeInfo RestartGameHandler_t538_il2cpp_TypeInfo;
+extern TypeInfo RestartGameHandler_t583_il2cpp_TypeInfo;
 // RestartGameHandler
 #include "AssemblyU2DCSharp_RestartGameHandler.h"
-extern TypeInfo SFXButton_t539_il2cpp_TypeInfo;
+extern TypeInfo SFXButton_t584_il2cpp_TypeInfo;
 // SFXButton
 #include "AssemblyU2DCSharp_SFXButton.h"
-extern TypeInfo SFXType_t540_il2cpp_TypeInfo;
+extern TypeInfo SFXType_t585_il2cpp_TypeInfo;
 // SFXPlayer/SFXType
 #include "AssemblyU2DCSharp_SFXPlayer_SFXType.h"
-extern TypeInfo SFXPlayer_t543_il2cpp_TypeInfo;
+extern TypeInfo SFXPlayer_t588_il2cpp_TypeInfo;
 // SFXPlayer
 #include "AssemblyU2DCSharp_SFXPlayer.h"
-extern TypeInfo SFXSilencer_t544_il2cpp_TypeInfo;
+extern TypeInfo SFXSilencer_t589_il2cpp_TypeInfo;
 // SFXSilencer
 #include "AssemblyU2DCSharp_SFXSilencer.h"
-extern TypeInfo SecretUI_t547_il2cpp_TypeInfo;
+extern TypeInfo SecretUI_t592_il2cpp_TypeInfo;
 // SecretUI
 #include "AssemblyU2DCSharp_SecretUI.h"
-extern TypeInfo SizeCamera_t64_il2cpp_TypeInfo;
+extern TypeInfo SizeCamera_t479_il2cpp_TypeInfo;
 // SizeCamera
 #include "AssemblyU2DCSharp_SizeCamera.h"
-extern TypeInfo SlowByCollision_t548_il2cpp_TypeInfo;
+extern TypeInfo SlowByCollision_t593_il2cpp_TypeInfo;
 // SlowByCollision
 #include "AssemblyU2DCSharp_SlowByCollision.h"
-extern TypeInfo U3CDebugScoreAndAchievementU3Ec__Iterator15_t549_il2cpp_TypeInfo;
-// SocialHelper/<DebugScoreAndAchievement>c__Iterator15
+extern TypeInfo U3CDebugScoreAndAchievementU3Ec__Iterator16_t594_il2cpp_TypeInfo;
+// SocialHelper/<DebugScoreAndAchievement>c__Iterator16
 #include "AssemblyU2DCSharp_SocialHelper_U3CDebugScoreAndAchievementU3.h"
-extern TypeInfo U3CAuthenticateU3Ec__AnonStorey18_t550_il2cpp_TypeInfo;
-// SocialHelper/<Authenticate>c__AnonStorey18
+extern TypeInfo U3CAuthenticateU3Ec__AnonStorey19_t595_il2cpp_TypeInfo;
+// SocialHelper/<Authenticate>c__AnonStorey19
 #include "AssemblyU2DCSharp_SocialHelper_U3CAuthenticateU3Ec__AnonStor.h"
-extern TypeInfo U3CRecordAchievementU3Ec__AnonStorey19_t551_il2cpp_TypeInfo;
-// SocialHelper/<RecordAchievement>c__AnonStorey19
+extern TypeInfo U3CRecordAchievementU3Ec__AnonStorey1A_t596_il2cpp_TypeInfo;
+// SocialHelper/<RecordAchievement>c__AnonStorey1A
 #include "AssemblyU2DCSharp_SocialHelper_U3CRecordAchievementU3Ec__Ano.h"
-extern TypeInfo SocialHelper_t552_il2cpp_TypeInfo;
+extern TypeInfo SocialHelper_t597_il2cpp_TypeInfo;
 // SocialHelper
 #include "AssemblyU2DCSharp_SocialHelper.h"
-extern TypeInfo SocialMediaButtons_t553_il2cpp_TypeInfo;
+extern TypeInfo SocialMediaButtons_t598_il2cpp_TypeInfo;
 // SocialMediaButtons
 #include "AssemblyU2DCSharp_SocialMediaButtons.h"
-extern TypeInfo SoundMuteChangedEventHandler_t554_il2cpp_TypeInfo;
+extern TypeInfo SoundMuteChangedEventHandler_t599_il2cpp_TypeInfo;
 // SoundController/SoundMuteChangedEventHandler
 #include "AssemblyU2DCSharp_SoundController_SoundMuteChangedEventHandl.h"
-extern TypeInfo MusicMuteChangedEventHandler_t555_il2cpp_TypeInfo;
+extern TypeInfo MusicMuteChangedEventHandler_t600_il2cpp_TypeInfo;
 // SoundController/MusicMuteChangedEventHandler
 #include "AssemblyU2DCSharp_SoundController_MusicMuteChangedEventHandl.h"
-extern TypeInfo SoundController_t556_il2cpp_TypeInfo;
+extern TypeInfo SoundController_t601_il2cpp_TypeInfo;
 // SoundController
 #include "AssemblyU2DCSharp_SoundController.h"
-extern TypeInfo ThrobForEffect_t510_il2cpp_TypeInfo;
+extern TypeInfo ThrobForEffect_t554_il2cpp_TypeInfo;
 // ThrobForEffect
 #include "AssemblyU2DCSharp_ThrobForEffect.h"
-extern TypeInfo PauseChangedEventHandler_t557_il2cpp_TypeInfo;
+extern TypeInfo PauseChangedEventHandler_t602_il2cpp_TypeInfo;
 // TimeController/PauseChangedEventHandler
 #include "AssemblyU2DCSharp_TimeController_PauseChangedEventHandler.h"
-extern TypeInfo TimeController_t558_il2cpp_TypeInfo;
+extern TypeInfo TimeController_t603_il2cpp_TypeInfo;
 // TimeController
 #include "AssemblyU2DCSharp_TimeController.h"
-extern TypeInfo TimedFader_t559_il2cpp_TypeInfo;
+extern TypeInfo TimedFader_t604_il2cpp_TypeInfo;
 // TimedFader
 #include "AssemblyU2DCSharp_TimedFader.h"
-extern TypeInfo TipConfig_t433_il2cpp_TypeInfo;
+extern TypeInfo TipConfig_t474_il2cpp_TypeInfo;
 // TipConfig
 #include "AssemblyU2DCSharp_TipConfig.h"
-extern TypeInfo U3CPlayTipWithPauseU3Ec__Iterator16_t561_il2cpp_TypeInfo;
-// TipController/<PlayTipWithPause>c__Iterator16
+extern TypeInfo U3CPlayTipWithPauseU3Ec__Iterator17_t606_il2cpp_TypeInfo;
+// TipController/<PlayTipWithPause>c__Iterator17
 #include "AssemblyU2DCSharp_TipController_U3CPlayTipWithPauseU3Ec__Ite.h"
-extern TypeInfo TipController_t560_il2cpp_TypeInfo;
+extern TypeInfo TipController_t605_il2cpp_TypeInfo;
 // TipController
 #include "AssemblyU2DCSharp_TipController.h"
-extern TypeInfo TipDialog_t562_il2cpp_TypeInfo;
+extern TypeInfo TipDialog_t607_il2cpp_TypeInfo;
 // TipDialog
 #include "AssemblyU2DCSharp_TipDialog.h"
-extern TypeInfo TrackLevel_t563_il2cpp_TypeInfo;
+extern TypeInfo TrackLevel_t608_il2cpp_TypeInfo;
 // TrackLevel
 #include "AssemblyU2DCSharp_TrackLevel.h"
-extern TypeInfo TrackScore_t564_il2cpp_TypeInfo;
+extern TypeInfo TrackScore_t609_il2cpp_TypeInfo;
 // TrackScore
 #include "AssemblyU2DCSharp_TrackScore.h"
-extern TypeInfo TrackTreats_t565_il2cpp_TypeInfo;
+extern TypeInfo TrackTreats_t610_il2cpp_TypeInfo;
 // TrackTreats
 #include "AssemblyU2DCSharp_TrackTreats.h"
-extern TypeInfo TutsPlayerController_t567_il2cpp_TypeInfo;
+extern TypeInfo TutsPlayerController_t612_il2cpp_TypeInfo;
 // TutsPlayerController
 #include "AssemblyU2DCSharp_TutsPlayerController.h"
-extern TypeInfo TweakableParams_t568_il2cpp_TypeInfo;
+extern TypeInfo TweakableParams_t613_il2cpp_TypeInfo;
 // TweakableParams
 #include "AssemblyU2DCSharp_TweakableParams.h"
-extern TypeInfo TweakableSlider_t512_il2cpp_TypeInfo;
+extern TypeInfo TweakableSlider_t556_il2cpp_TypeInfo;
 // TweakableSlider
 #include "AssemblyU2DCSharp_TweakableSlider.h"
-extern TypeInfo TwitterSharing_t569_il2cpp_TypeInfo;
+extern TypeInfo TwitterSharing_t614_il2cpp_TypeInfo;
 // TwitterSharing
 #include "AssemblyU2DCSharp_TwitterSharing.h"
-extern TypeInfo UseBoost_t570_il2cpp_TypeInfo;
+extern TypeInfo UseBoost_t615_il2cpp_TypeInfo;
 // UseBoost
 #include "AssemblyU2DCSharp_UseBoost.h"
-extern TypeInfo U3CLaunchAppOrWebU3Ec__Iterator17_t571_il2cpp_TypeInfo;
-// Utilities/<LaunchAppOrWeb>c__Iterator17
+extern TypeInfo U3CLaunchAppOrWebU3Ec__Iterator18_t616_il2cpp_TypeInfo;
+// Utilities/<LaunchAppOrWeb>c__Iterator18
 #include "AssemblyU2DCSharp_Utilities_U3CLaunchAppOrWebU3Ec__Iterator1.h"
-extern TypeInfo Utilities_t572_il2cpp_TypeInfo;
+extern TypeInfo Utilities_t617_il2cpp_TypeInfo;
 // Utilities
 #include "AssemblyU2DCSharp_Utilities.h"
-extern TypeInfo WorldObjectFollower_t574_il2cpp_TypeInfo;
+extern TypeInfo WorldObjectFollower_t619_il2cpp_TypeInfo;
 // WorldObjectFollower
 #include "AssemblyU2DCSharp_WorldObjectFollower.h"
-extern TypeInfo EventHandlerFunction_t575_il2cpp_TypeInfo;
+extern TypeInfo EventHandlerFunction_t620_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventHandlerFunction.h"
-extern TypeInfo DataEventHandlerFunction_t576_il2cpp_TypeInfo;
+extern TypeInfo DataEventHandlerFunction_t621_il2cpp_TypeInfo;
 // UnionAssets.FLE.DataEventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_DataEventHandlerFunction.h"
-extern TypeInfo InitDelegate_t379_il2cpp_TypeInfo;
+extern TypeInfo InitDelegate_t419_il2cpp_TypeInfo;
 // Facebook.InitDelegate
 #include "AssemblyU2DCSharp_Facebook_InitDelegate.h"
-extern TypeInfo FacebookDelegate_t393_il2cpp_TypeInfo;
+extern TypeInfo FacebookDelegate_t433_il2cpp_TypeInfo;
 // Facebook.FacebookDelegate
 #include "AssemblyU2DCSharp_Facebook_FacebookDelegate.h"
-extern TypeInfo HideUnityDelegate_t380_il2cpp_TypeInfo;
+extern TypeInfo HideUnityDelegate_t420_il2cpp_TypeInfo;
 // Facebook.HideUnityDelegate
 #include "AssemblyU2DCSharp_Facebook_HideUnityDelegate.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[395] = 
+TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[398] = 
 {
-	&U3CModuleU3E_t63_il2cpp_TypeInfo,
-	&CameraController_t65_il2cpp_TypeInfo,
-	&ConsoleBase_t69_il2cpp_TypeInfo,
-	&GameGroupsConsole_t71_il2cpp_TypeInfo,
-	&U3CTakeScreenshotU3Ec__Iterator0_t74_il2cpp_TypeInfo,
-	&InteractiveConsole_t73_il2cpp_TypeInfo,
-	&AN_ActivityTemplate_t77_il2cpp_TypeInfo,
-	&AN_ApplicationTemplate_t80_il2cpp_TypeInfo,
-	&AN_BaseTemplate_t78_il2cpp_TypeInfo,
-	&AN_ManifestTemplate_t84_il2cpp_TypeInfo,
-	&AN_Permissions_t85_il2cpp_TypeInfo,
-	&AN_PropertyTemplate_t86_il2cpp_TypeInfo,
-	&EventDispatcher_t89_il2cpp_TypeInfo,
-	&EventDispatcherBase_t90_il2cpp_TypeInfo,
-	&BaseEvent_t91_il2cpp_TypeInfo,
-	&CEvent_t93_il2cpp_TypeInfo,
-	&IDispatcher_t92_il2cpp_TypeInfo,
-	&EventButtonExample_t94_il2cpp_TypeInfo,
-	&ExampleListner_t95_il2cpp_TypeInfo,
-	&AdMobBanner_t97_il2cpp_TypeInfo,
-	&AdMobBannerInterstitial_t98_il2cpp_TypeInfo,
-	&CustomInterstisialExample_t99_il2cpp_TypeInfo,
-	&GoogleAdsExample_t101_il2cpp_TypeInfo,
-	&GoogleMobileAd_t105_il2cpp_TypeInfo,
-	&GoogleMobileAdSettings_t107_il2cpp_TypeInfo,
-	&IOSADBanner_t110_il2cpp_TypeInfo,
-	&IOSAdMobController_t112_il2cpp_TypeInfo,
-	&GADTestDevice_t114_il2cpp_TypeInfo,
-	&WP8ADBanner_t115_il2cpp_TypeInfo,
-	&WP8AdMobController_t117_il2cpp_TypeInfo,
-	&AndroidAdMobController_t120_il2cpp_TypeInfo,
-	&AN_GoogleAdProxy_t122_il2cpp_TypeInfo,
-	&AN_ProxyPool_t123_il2cpp_TypeInfo,
-	&AN_BillingProxy_t124_il2cpp_TypeInfo,
-	&AN_FBProxy_t125_il2cpp_TypeInfo,
-	&AN_GMSGeneralProxy_t126_il2cpp_TypeInfo,
-	&AN_GMSGiftsProxy_t127_il2cpp_TypeInfo,
-	&AN_GMSInvitationProxy_t128_il2cpp_TypeInfo,
-	&AN_GMSQuestsEventsProxy_t129_il2cpp_TypeInfo,
-	&AN_GMSRTMProxy_t130_il2cpp_TypeInfo,
-	&AN_GoogleAnalyticsProxy_t131_il2cpp_TypeInfo,
-	&AN_GooglePlayUtilsProxy_t132_il2cpp_TypeInfo,
-	&AN_ImmersiveModeProxy_t133_il2cpp_TypeInfo,
-	&AN_LicenseManagerProxy_t134_il2cpp_TypeInfo,
-	&AN_PlusButtonProxy_t135_il2cpp_TypeInfo,
-	&AN_SocialSharingProxy_t136_il2cpp_TypeInfo,
-	&AN_TVControllerProxy_t137_il2cpp_TypeInfo,
-	&AndroidNative_t138_il2cpp_TypeInfo,
-	&SocialPlatfromSettings_t139_il2cpp_TypeInfo,
-	&AdroidActivityResultCodes_t140_il2cpp_TypeInfo,
-	&AndroidGravity_t141_il2cpp_TypeInfo,
-	&AndroidLogLevel_t142_il2cpp_TypeInfo,
-	&AndroidMonth_t143_il2cpp_TypeInfo,
-	&GoogleCloudSlot_t144_il2cpp_TypeInfo,
-	&GoogleGender_t145_il2cpp_TypeInfo,
-	&GoogleGravity_t146_il2cpp_TypeInfo,
-	&GADBannerSize_t147_il2cpp_TypeInfo,
-	&GADInAppResolution_t148_il2cpp_TypeInfo,
-	&GPAchievementState_t149_il2cpp_TypeInfo,
-	&GPAchievementType_t150_il2cpp_TypeInfo,
-	&GPBoardTimeSpan_t151_il2cpp_TypeInfo,
-	&GPCollectionType_t152_il2cpp_TypeInfo,
-	&GPConnectionState_t153_il2cpp_TypeInfo,
-	&GPGameRequestType_t154_il2cpp_TypeInfo,
-	&GPLogLevel_t155_il2cpp_TypeInfo,
-	&GP_AppStateStatusCodes_t156_il2cpp_TypeInfo,
-	&GP_ConnectionResultCode_t157_il2cpp_TypeInfo,
-	&GP_GamesActivityResultCodes_t158_il2cpp_TypeInfo,
-	&GP_GamesStatusCodes_t159_il2cpp_TypeInfo,
-	&GP_InvitationType_t160_il2cpp_TypeInfo,
-	&GP_MatchesSortOrder_t161_il2cpp_TypeInfo,
-	&GP_RTM_MessageType_t162_il2cpp_TypeInfo,
-	&GP_RTM_PackageType_t163_il2cpp_TypeInfo,
-	&GP_RTM_ParticipantStatus_t164_il2cpp_TypeInfo,
-	&GP_RTM_RoomStatus_t165_il2cpp_TypeInfo,
-	&GP_QuestSortOrder_t166_il2cpp_TypeInfo,
-	&GP_QuestState_t167_il2cpp_TypeInfo,
-	&GP_QuestsSelect_t168_il2cpp_TypeInfo,
-	&GP_TBM_MatchStatus_t169_il2cpp_TypeInfo,
-	&GP_TBM_MatchTurnStatus_t170_il2cpp_TypeInfo,
-	&GP_TBM_MatchesSortOrder_t171_il2cpp_TypeInfo,
-	&FacebookEvents_t172_il2cpp_TypeInfo,
-	&GoogleMobileAdEvents_t173_il2cpp_TypeInfo,
-	&TwitterEvents_t174_il2cpp_TypeInfo,
-	&GoogleMobileAdBanner_t100_il2cpp_TypeInfo,
-	&GoogleMobileAdInterface_t102_il2cpp_TypeInfo,
-	&TwitterManagerInterface_t301_il2cpp_TypeInfo,
-	&AndroidADBanner_t175_il2cpp_TypeInfo,
-	&AndroidActivityResult_t176_il2cpp_TypeInfo,
-	&AndroidGameActivityResult_t177_il2cpp_TypeInfo,
-	&AsyncTask_t178_il2cpp_TypeInfo,
-	&GADBannerIdFactory_t179_il2cpp_TypeInfo,
-	&GPAchievement_t180_il2cpp_TypeInfo,
-	&GPGameRequest_t181_il2cpp_TypeInfo,
-	&GPLeaderBoard_t184_il2cpp_TypeInfo,
-	&GPScoreCollection_t182_il2cpp_TypeInfo,
-	&GP_Invite_t187_il2cpp_TypeInfo,
-	&GP_Participant_t186_il2cpp_TypeInfo,
-	&GP_ParticipantResult_t188_il2cpp_TypeInfo,
-	&GP_RTM_Network_Package_t189_il2cpp_TypeInfo,
-	&GP_RTM_Result_t190_il2cpp_TypeInfo,
-	&GP_RTM_Room_t192_il2cpp_TypeInfo,
-	&GoogleCloudResult_t193_il2cpp_TypeInfo,
-	&GooglePlayConnectionResult_t194_il2cpp_TypeInfo,
-	&GooglePlayGiftRequestResult_t195_il2cpp_TypeInfo,
-	&GooglePlayResult_t196_il2cpp_TypeInfo,
-	&GP_Event_t197_il2cpp_TypeInfo,
-	&GP_Quest_t198_il2cpp_TypeInfo,
-	&GP_GCM_RegistrationResult_t199_il2cpp_TypeInfo,
-	&GP_GamesResult_t200_il2cpp_TypeInfo,
-	&GP_QuestResult_t201_il2cpp_TypeInfo,
-	&GP_SnapshotConflict_t203_il2cpp_TypeInfo,
-	&GP_SpanshotLoadResult_t204_il2cpp_TypeInfo,
-	&AN_InvitationInboxCloseResult_t205_il2cpp_TypeInfo,
-	&GP_DeleteSnapshotResult_t206_il2cpp_TypeInfo,
-	&GP_TBM_CancelMatchResult_t207_il2cpp_TypeInfo,
-	&GP_TBM_LeaveMatchResult_t209_il2cpp_TypeInfo,
-	&GP_TBM_LoadMatchResult_t210_il2cpp_TypeInfo,
-	&GP_TBM_LoadMatchesResult_t212_il2cpp_TypeInfo,
-	&GP_TBM_MatchInitiatedResult_t213_il2cpp_TypeInfo,
-	&GP_TBM_MatchReceivedResult_t214_il2cpp_TypeInfo,
-	&GP_TBM_MatchRemovedResult_t215_il2cpp_TypeInfo,
-	&GP_TBM_UpdateMatchResult_t216_il2cpp_TypeInfo,
-	&GP_Snapshot_t202_il2cpp_TypeInfo,
-	&GP_SnapshotMeta_t217_il2cpp_TypeInfo,
-	&GP_TBM_Match_t208_il2cpp_TypeInfo,
-	&TOKEN_t218_il2cpp_TypeInfo,
-	&Parser_t220_il2cpp_TypeInfo,
-	&Serializer_t222_il2cpp_TypeInfo,
-	&Json_t223_il2cpp_TypeInfo,
-	&PlayServiceUtil_t224_il2cpp_TypeInfo,
-	&SA_Singleton_1_t702_il2cpp_TypeInfo,
-	&U3CLoadCoroutinU3Ec__Iterator1_t227_il2cpp_TypeInfo,
-	&WWWTextureLoader_t226_il2cpp_TypeInfo,
-	&FBAppRequestActionType_t229_il2cpp_TypeInfo,
-	&FBAppRequestState_t230_il2cpp_TypeInfo,
-	&SPFacebook_t242_il2cpp_TypeInfo,
-	&SPFacebookAnalytics_t244_il2cpp_TypeInfo,
-	&FBAppRequest_t246_il2cpp_TypeInfo,
-	&FBAppRequestResult_t248_il2cpp_TypeInfo,
-	&FBLikeInfo_t249_il2cpp_TypeInfo,
-	&FBObject_t245_il2cpp_TypeInfo,
-	&FBPostResult_t250_il2cpp_TypeInfo,
-	&FBScore_t253_il2cpp_TypeInfo,
-	&FacebookProfileImageSize_t254_il2cpp_TypeInfo,
-	&FacebookUserInfo_t231_il2cpp_TypeInfo,
-	&FBLikesRetrieveTask_t256_il2cpp_TypeInfo,
-	&FBPostingTask_t257_il2cpp_TypeInfo,
-	&FB_APIResult_t258_il2cpp_TypeInfo,
-	&U3CRequestU3Ec__Iterator2_t260_il2cpp_TypeInfo,
-	&FB_GraphAPIRequest_t259_il2cpp_TypeInfo,
-	&InstagramEvents_t263_il2cpp_TypeInfo,
-	&InstagramPostResult_t264_il2cpp_TypeInfo,
-	&AndroidInstagramManager_t266_il2cpp_TypeInfo,
-	&AndroidTwitterManager_t270_il2cpp_TypeInfo,
-	&U3CLoadU3Ec__Iterator3_t274_il2cpp_TypeInfo,
-	&TwitterApplicationOnlyToken_t273_il2cpp_TypeInfo,
-	&TwitterDataCash_t278_il2cpp_TypeInfo,
-	&TWResult_t279_il2cpp_TypeInfo,
-	&TW_APIRequstResult_t282_il2cpp_TypeInfo,
-	&TweetTemplate_t283_il2cpp_TypeInfo,
-	&TwitterStatus_t284_il2cpp_TypeInfo,
-	&TwitterUserInfo_t268_il2cpp_TypeInfo,
-	&TWAPITest_t286_il2cpp_TypeInfo,
-	&U3CRequestU3Ec__Iterator4_t288_il2cpp_TypeInfo,
-	&TW_APIRequest_t287_il2cpp_TypeInfo,
-	&TW_FollowersIdsRequest_t289_il2cpp_TypeInfo,
-	&TW_FriendsIdsRequest_t290_il2cpp_TypeInfo,
-	&U3CRequestU3Ec__Iterator5_t293_il2cpp_TypeInfo,
-	&TW_OAuthAPIRequest_t292_il2cpp_TypeInfo,
-	&TW_SearchTweetsRequest_t298_il2cpp_TypeInfo,
-	&TW_UserTimeLineRequest_t299_il2cpp_TypeInfo,
-	&TW_UsersLookUpRequest_t300_il2cpp_TypeInfo,
-	&TwitterPostingTask_t302_il2cpp_TypeInfo,
-	&GPScore_t303_il2cpp_TypeInfo,
-	&ISDSettings_t304_il2cpp_TypeInfo,
-	&InstagramUseExample_t305_il2cpp_TypeInfo,
-	&U3CPostFBScreenshotU3Ec__Iterator6_t306_il2cpp_TypeInfo,
-	&U3CPostScreenshotU3Ec__Iterator7_t307_il2cpp_TypeInfo,
-	&MSPFacebookUseExample_t313_il2cpp_TypeInfo,
-	&MSPMoreActionsExample_t314_il2cpp_TypeInfo,
-	&U3CPostTWScreenshotU3Ec__Iterator8_t315_il2cpp_TypeInfo,
-	&U3CPostScreenshotU3Ec__Iterator9_t316_il2cpp_TypeInfo,
-	&MSPTwitterUseExample_t317_il2cpp_TypeInfo,
-	&MSP_FacebookAnalyticsExample_t318_il2cpp_TypeInfo,
-	&MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_il2cpp_TypeInfo,
-	&MSPAndroidSocialGate_t320_il2cpp_TypeInfo,
-	&SPInstagram_t321_il2cpp_TypeInfo,
-	&SPShareUtility_t323_il2cpp_TypeInfo,
-	&SPTwitter_t324_il2cpp_TypeInfo,
-	&IOSInstagramManager_t325_il2cpp_TypeInfo,
-	&MSPIOSSocialManager_t327_il2cpp_TypeInfo,
-	&IOSTwitterManager_t328_il2cpp_TypeInfo,
-	&U3CPostScreenshotU3Ec__IteratorA_t331_il2cpp_TypeInfo,
-	&FacebookPostScreenshotTask_t330_il2cpp_TypeInfo,
-	&U3CPostScreenshotU3Ec__IteratorB_t333_il2cpp_TypeInfo,
-	&InstagramPostScreenshotTask_t332_il2cpp_TypeInfo,
-	&U3CPostScreenshotU3Ec__IteratorC_t335_il2cpp_TypeInfo,
-	&TwitterPostScreenshotTask_t334_il2cpp_TypeInfo,
-	&GameControllerExample_t337_il2cpp_TypeInfo,
-	&GameThrive_t338_il2cpp_TypeInfo,
-	&TOKEN_t340_il2cpp_TypeInfo,
-	&Parser_t341_il2cpp_TypeInfo,
-	&Serializer_t342_il2cpp_TypeInfo,
-	&Json_t343_il2cpp_TypeInfo,
-	&LOG_LEVEL_t344_il2cpp_TypeInfo,
-	&NotificationReceived_t347_il2cpp_TypeInfo,
-	&IdsAvailable_t336_il2cpp_TypeInfo,
-	&TagsReceived_t349_il2cpp_TypeInfo,
-	&OneSignal_t339_il2cpp_TypeInfo,
-	&OneSignalPlatform_t350_il2cpp_TypeInfo,
-	&U3CSaveScreenshotU3Ec__IteratorD_t352_il2cpp_TypeInfo,
-	&SA_ScreenShotMaker_t351_il2cpp_TypeInfo,
-	&DefaultPreviewButton_t309_il2cpp_TypeInfo,
-	&SALevelLoader_t356_il2cpp_TypeInfo,
-	&SALoadedSceneOnClick_t358_il2cpp_TypeInfo,
-	&SAOnClickAction_t359_il2cpp_TypeInfo,
-	&SAOpenUrlOnClick_t360_il2cpp_TypeInfo,
-	&SASendMessageOnClick_t361_il2cpp_TypeInfo,
-	&SA_BackButton_t362_il2cpp_TypeInfo,
-	&SA_Label_t311_il2cpp_TypeInfo,
-	&SA_StatusBar_t364_il2cpp_TypeInfo,
-	&SA_Texture_t310_il2cpp_TypeInfo,
-	&PreviewScreenUtil_t365_il2cpp_TypeInfo,
-	&ScreenPlacement_t367_il2cpp_TypeInfo,
-	&ScreenPosition_t368_il2cpp_TypeInfo,
-	&ScreenPlacementExtension_t369_il2cpp_TypeInfo,
-	&ScreenScaler_t370_il2cpp_TypeInfo,
-	&XScaleModifayer_t371_il2cpp_TypeInfo,
-	&AbstractFacebook_t374_il2cpp_TypeInfo,
-	&AppEvents_t375_il2cpp_TypeInfo,
-	&Canvas_t376_il2cpp_TypeInfo,
-	&Android_t377_il2cpp_TypeInfo,
-	&CompiledFacebookLoader_t378_il2cpp_TypeInfo,
-	&FB_t381_il2cpp_TypeInfo,
-	&FBAppEventName_t382_il2cpp_TypeInfo,
-	&FBAppEventParameterName_t383_il2cpp_TypeInfo,
-	&FBAppRequestsFilterGroup_t384_il2cpp_TypeInfo,
-	&FBBuildVersionAttribute_t385_il2cpp_TypeInfo,
-	&IfNotExist_t387_il2cpp_TypeInfo,
-	&FBComponentFactory_t388_il2cpp_TypeInfo,
-	&FBDebug_t389_il2cpp_TypeInfo,
-	&FBResult_t241_il2cpp_TypeInfo,
-	&FBSettings_t390_il2cpp_TypeInfo,
-	&DialogMode_t391_il2cpp_TypeInfo,
-	&OGActionType_t392_il2cpp_TypeInfo,
-	&AndroidFacebook_t394_il2cpp_TypeInfo,
-	&AndroidFacebookLoader_t395_il2cpp_TypeInfo,
-	&CanvasFacebook_t396_il2cpp_TypeInfo,
-	&CanvasFacebookLoader_t397_il2cpp_TypeInfo,
-	&JsBridge_t398_il2cpp_TypeInfo,
-	&EditorFacebook_t399_il2cpp_TypeInfo,
-	&EditorFacebookAccessToken_t400_il2cpp_TypeInfo,
-	&EditorFacebookLoader_t401_il2cpp_TypeInfo,
-	&NativeDict_t402_il2cpp_TypeInfo,
-	&FBInsightsFlushBehavior_t403_il2cpp_TypeInfo,
-	&IOSFacebook_t404_il2cpp_TypeInfo,
-	&IOSFacebookLoader_t405_il2cpp_TypeInfo,
-	&U3CStartU3Ec__IteratorE_t407_il2cpp_TypeInfo,
-	&AsyncRequestString_t406_il2cpp_TypeInfo,
-	&HttpMethod_t408_il2cpp_TypeInfo,
-	&TOKEN_t409_il2cpp_TypeInfo,
-	&Parser_t410_il2cpp_TypeInfo,
-	&Serializer_t411_il2cpp_TypeInfo,
-	&Json_t413_il2cpp_TypeInfo,
-	&AchievementController_t414_il2cpp_TypeInfo,
-	&AspectRatioPreserve_t415_il2cpp_TypeInfo,
-	&BoostActiveLayout_t419_il2cpp_TypeInfo,
-	&BoostButtonMode_t420_il2cpp_TypeInfo,
-	&U3CTriggerDistortionEffectU3Ec__IteratorF_t422_il2cpp_TypeInfo,
-	&BoostButton_t421_il2cpp_TypeInfo,
-	&BoostButtonLayout_t427_il2cpp_TypeInfo,
-	&BoostType_t428_il2cpp_TypeInfo,
-	&BoostActiveEventHandler_t429_il2cpp_TypeInfo,
-	&U3CWaitThenCleanupU3Ec__Iterator10_t430_il2cpp_TypeInfo,
-	&BoostConfig_t416_il2cpp_TypeInfo,
-	&BoostDesc_t434_il2cpp_TypeInfo,
-	&BuyAndUseBoost_t436_il2cpp_TypeInfo,
-	&BuyBoost_t437_il2cpp_TypeInfo,
-	&CatBodyHitDetection_t438_il2cpp_TypeInfo,
-	&ConeOfViewRenderer_t441_il2cpp_TypeInfo,
-	&CrossSceneState_t442_il2cpp_TypeInfo,
-	&DeadMouse_t444_il2cpp_TypeInfo,
-	&DebugConfig_t445_il2cpp_TypeInfo,
-	&DebugLogPropagate_t446_il2cpp_TypeInfo,
-	&DestroyByCollision_t448_il2cpp_TypeInfo,
-	&DialogController_t449_il2cpp_TypeInfo,
-	&DistortForEffect_t450_il2cpp_TypeInfo,
-	&EnumAccumulator_1_t705_il2cpp_TypeInfo,
-	&ExplicitMouseDesc_t452_il2cpp_TypeInfo,
-	&FacebookSharing_t453_il2cpp_TypeInfo,
-	&FartPuff_t454_il2cpp_TypeInfo,
-	&FinalScoreController_t455_il2cpp_TypeInfo,
-	&FinalScoreUI_t456_il2cpp_TypeInfo,
-	&GameCenterButtons_t459_il2cpp_TypeInfo,
-	&GameController_t462_il2cpp_TypeInfo,
-	&GameLevelChangedEventHandler_t463_il2cpp_TypeInfo,
-	&GameLevelState_t464_il2cpp_TypeInfo,
-	&GamePhaseType_t465_il2cpp_TypeInfo,
-	&GameInstanceChangedEventHandler_t466_il2cpp_TypeInfo,
-	&GamePhaseChangedEventHandler_t467_il2cpp_TypeInfo,
-	&U3CSetupPendingPhaseU3Ec__Iterator11_t469_il2cpp_TypeInfo,
-	&GamePhaseState_t468_il2cpp_TypeInfo,
-	&GameUI_t457_il2cpp_TypeInfo,
-	&GameUIsType_t471_il2cpp_TypeInfo,
-	&GameUIController_t472_il2cpp_TypeInfo,
-	&GoogleAdController_t473_il2cpp_TypeInfo,
-	&MovementPhase_t474_il2cpp_TypeInfo,
-	&HeadMovement_t475_il2cpp_TypeInfo,
-	&U3CTriggerDistortionEffectU3Ec__Iterator12_t477_il2cpp_TypeInfo,
-	&HoleMeter_t476_il2cpp_TypeInfo,
-	&IOSSharing_t479_il2cpp_TypeInfo,
-	&InputHandler_t481_il2cpp_TypeInfo,
-	&LaunchCountController_t482_il2cpp_TypeInfo,
-	&WaveType_t483_il2cpp_TypeInfo,
-	&LevelDescription_t490_il2cpp_TypeInfo,
-	&LevelConfig_t497_il2cpp_TypeInfo,
-	&LevelEndTitlesLayout_t499_il2cpp_TypeInfo,
-	&MovementPhaseType_t500_il2cpp_TypeInfo,
-	&MouseType_t501_il2cpp_TypeInfo,
-	&MouseWiggleType_t502_il2cpp_TypeInfo,
-	&MouseConfig_t505_il2cpp_TypeInfo,
-	&MouseDesc_t506_il2cpp_TypeInfo,
-	&MouseHoleLocation_t507_il2cpp_TypeInfo,
-	&MousePopChangedEventHandler_t508_il2cpp_TypeInfo,
-	&CapacityChangedEventHandler_t509_il2cpp_TypeInfo,
-	&MouseHole_t478_il2cpp_TypeInfo,
-	&MouseMove_t513_il2cpp_TypeInfo,
-	&MouseSpawnEventHandler_t514_il2cpp_TypeInfo,
-	&MouseSpawnFromData_t461_il2cpp_TypeInfo,
-	&MouseSpawnTracker_t515_il2cpp_TypeInfo,
-	&MouseWiggleDesc_t516_il2cpp_TypeInfo,
-	&MusicButton_t517_il2cpp_TypeInfo,
-	&U3CPlayMusicU3Ec__Iterator13_t520_il2cpp_TypeInfo,
-	&MusicPlayer_t519_il2cpp_TypeInfo,
-	&OnMouseEntersHole_t521_il2cpp_TypeInfo,
-	&PausePlayToggle_t522_il2cpp_TypeInfo,
-	&PausedOverlay_t523_il2cpp_TypeInfo,
-	&SwipePhase_t524_il2cpp_TypeInfo,
-	&PawController_t447_il2cpp_TypeInfo,
-	&PersistentStorage_t526_il2cpp_TypeInfo,
-	&PlayButtonClickSound_t527_il2cpp_TypeInfo,
-	&PlayLevelHandler_t528_il2cpp_TypeInfo,
-	&BodyMovementType_t529_il2cpp_TypeInfo,
-	&PlayerController_t530_il2cpp_TypeInfo,
-	&ScoreChangedEventHandler_t531_il2cpp_TypeInfo,
-	&TreatsChangedEventHandler_t532_il2cpp_TypeInfo,
-	&BoostsChangedEventHandler_t533_il2cpp_TypeInfo,
-	&PlayerStats_t435_il2cpp_TypeInfo,
-	&QuasiRandomGenerator_1_t706_il2cpp_TypeInfo,
-	&U3CWaitAndShowDialogU3Ec__Iterator14_t535_il2cpp_TypeInfo,
-	&RateMeController_t534_il2cpp_TypeInfo,
-	&RateMeDialog_t536_il2cpp_TypeInfo,
-	&RatingsHelper_t537_il2cpp_TypeInfo,
-	&RestartGameHandler_t538_il2cpp_TypeInfo,
-	&SFXButton_t539_il2cpp_TypeInfo,
-	&SFXType_t540_il2cpp_TypeInfo,
-	&SFXPlayer_t543_il2cpp_TypeInfo,
-	&SFXSilencer_t544_il2cpp_TypeInfo,
-	&SecretUI_t547_il2cpp_TypeInfo,
-	&SizeCamera_t64_il2cpp_TypeInfo,
-	&SlowByCollision_t548_il2cpp_TypeInfo,
-	&U3CDebugScoreAndAchievementU3Ec__Iterator15_t549_il2cpp_TypeInfo,
-	&U3CAuthenticateU3Ec__AnonStorey18_t550_il2cpp_TypeInfo,
-	&U3CRecordAchievementU3Ec__AnonStorey19_t551_il2cpp_TypeInfo,
-	&SocialHelper_t552_il2cpp_TypeInfo,
-	&SocialMediaButtons_t553_il2cpp_TypeInfo,
-	&SoundMuteChangedEventHandler_t554_il2cpp_TypeInfo,
-	&MusicMuteChangedEventHandler_t555_il2cpp_TypeInfo,
-	&SoundController_t556_il2cpp_TypeInfo,
-	&ThrobForEffect_t510_il2cpp_TypeInfo,
-	&PauseChangedEventHandler_t557_il2cpp_TypeInfo,
-	&TimeController_t558_il2cpp_TypeInfo,
-	&TimedFader_t559_il2cpp_TypeInfo,
-	&TipConfig_t433_il2cpp_TypeInfo,
-	&U3CPlayTipWithPauseU3Ec__Iterator16_t561_il2cpp_TypeInfo,
-	&TipController_t560_il2cpp_TypeInfo,
-	&TipDialog_t562_il2cpp_TypeInfo,
-	&TrackLevel_t563_il2cpp_TypeInfo,
-	&TrackScore_t564_il2cpp_TypeInfo,
-	&TrackTreats_t565_il2cpp_TypeInfo,
-	&TutsPlayerController_t567_il2cpp_TypeInfo,
-	&TweakableParams_t568_il2cpp_TypeInfo,
-	&TweakableSlider_t512_il2cpp_TypeInfo,
-	&TwitterSharing_t569_il2cpp_TypeInfo,
-	&UseBoost_t570_il2cpp_TypeInfo,
-	&U3CLaunchAppOrWebU3Ec__Iterator17_t571_il2cpp_TypeInfo,
-	&Utilities_t572_il2cpp_TypeInfo,
-	&WorldObjectFollower_t574_il2cpp_TypeInfo,
-	&EventHandlerFunction_t575_il2cpp_TypeInfo,
-	&DataEventHandlerFunction_t576_il2cpp_TypeInfo,
-	&InitDelegate_t379_il2cpp_TypeInfo,
-	&FacebookDelegate_t393_il2cpp_TypeInfo,
-	&HideUnityDelegate_t380_il2cpp_TypeInfo,
+	&U3CModuleU3E_t106_il2cpp_TypeInfo,
+	&ConsoleBase_t109_il2cpp_TypeInfo,
+	&GameGroupsConsole_t111_il2cpp_TypeInfo,
+	&U3CTakeScreenshotU3Ec__Iterator0_t114_il2cpp_TypeInfo,
+	&InteractiveConsole_t113_il2cpp_TypeInfo,
+	&AN_ActivityTemplate_t117_il2cpp_TypeInfo,
+	&AN_ApplicationTemplate_t120_il2cpp_TypeInfo,
+	&AN_BaseTemplate_t118_il2cpp_TypeInfo,
+	&AN_ManifestTemplate_t124_il2cpp_TypeInfo,
+	&AN_Permissions_t125_il2cpp_TypeInfo,
+	&AN_PropertyTemplate_t126_il2cpp_TypeInfo,
+	&EventDispatcher_t129_il2cpp_TypeInfo,
+	&EventDispatcherBase_t130_il2cpp_TypeInfo,
+	&BaseEvent_t131_il2cpp_TypeInfo,
+	&CEvent_t133_il2cpp_TypeInfo,
+	&IDispatcher_t132_il2cpp_TypeInfo,
+	&EventButtonExample_t134_il2cpp_TypeInfo,
+	&ExampleListner_t135_il2cpp_TypeInfo,
+	&AdMobBanner_t137_il2cpp_TypeInfo,
+	&AdMobBannerInterstitial_t138_il2cpp_TypeInfo,
+	&CustomInterstisialExample_t139_il2cpp_TypeInfo,
+	&GoogleAdsExample_t141_il2cpp_TypeInfo,
+	&GoogleMobileAd_t145_il2cpp_TypeInfo,
+	&GoogleMobileAdSettings_t147_il2cpp_TypeInfo,
+	&IOSADBanner_t150_il2cpp_TypeInfo,
+	&IOSAdMobController_t152_il2cpp_TypeInfo,
+	&GADTestDevice_t154_il2cpp_TypeInfo,
+	&WP8ADBanner_t155_il2cpp_TypeInfo,
+	&WP8AdMobController_t157_il2cpp_TypeInfo,
+	&AndroidAdMobController_t160_il2cpp_TypeInfo,
+	&AN_GoogleAdProxy_t162_il2cpp_TypeInfo,
+	&AN_ProxyPool_t163_il2cpp_TypeInfo,
+	&AN_BillingProxy_t164_il2cpp_TypeInfo,
+	&AN_FBProxy_t165_il2cpp_TypeInfo,
+	&AN_GMSGeneralProxy_t166_il2cpp_TypeInfo,
+	&AN_GMSGiftsProxy_t167_il2cpp_TypeInfo,
+	&AN_GMSInvitationProxy_t168_il2cpp_TypeInfo,
+	&AN_GMSQuestsEventsProxy_t169_il2cpp_TypeInfo,
+	&AN_GMSRTMProxy_t170_il2cpp_TypeInfo,
+	&AN_GoogleAnalyticsProxy_t171_il2cpp_TypeInfo,
+	&AN_GooglePlayUtilsProxy_t172_il2cpp_TypeInfo,
+	&AN_ImmersiveModeProxy_t173_il2cpp_TypeInfo,
+	&AN_LicenseManagerProxy_t174_il2cpp_TypeInfo,
+	&AN_PlusButtonProxy_t175_il2cpp_TypeInfo,
+	&AN_SocialSharingProxy_t176_il2cpp_TypeInfo,
+	&AN_TVControllerProxy_t177_il2cpp_TypeInfo,
+	&AndroidNative_t178_il2cpp_TypeInfo,
+	&SocialPlatfromSettings_t179_il2cpp_TypeInfo,
+	&AdroidActivityResultCodes_t180_il2cpp_TypeInfo,
+	&AndroidGravity_t181_il2cpp_TypeInfo,
+	&AndroidLogLevel_t182_il2cpp_TypeInfo,
+	&AndroidMonth_t183_il2cpp_TypeInfo,
+	&GoogleCloudSlot_t184_il2cpp_TypeInfo,
+	&GoogleGender_t185_il2cpp_TypeInfo,
+	&GoogleGravity_t186_il2cpp_TypeInfo,
+	&GADBannerSize_t187_il2cpp_TypeInfo,
+	&GADInAppResolution_t188_il2cpp_TypeInfo,
+	&GPAchievementState_t189_il2cpp_TypeInfo,
+	&GPAchievementType_t190_il2cpp_TypeInfo,
+	&GPBoardTimeSpan_t191_il2cpp_TypeInfo,
+	&GPCollectionType_t192_il2cpp_TypeInfo,
+	&GPConnectionState_t193_il2cpp_TypeInfo,
+	&GPGameRequestType_t194_il2cpp_TypeInfo,
+	&GPLogLevel_t195_il2cpp_TypeInfo,
+	&GP_AppStateStatusCodes_t196_il2cpp_TypeInfo,
+	&GP_ConnectionResultCode_t197_il2cpp_TypeInfo,
+	&GP_GamesActivityResultCodes_t198_il2cpp_TypeInfo,
+	&GP_GamesStatusCodes_t199_il2cpp_TypeInfo,
+	&GP_InvitationType_t200_il2cpp_TypeInfo,
+	&GP_MatchesSortOrder_t201_il2cpp_TypeInfo,
+	&GP_RTM_MessageType_t202_il2cpp_TypeInfo,
+	&GP_RTM_PackageType_t203_il2cpp_TypeInfo,
+	&GP_RTM_ParticipantStatus_t204_il2cpp_TypeInfo,
+	&GP_RTM_RoomStatus_t205_il2cpp_TypeInfo,
+	&GP_QuestSortOrder_t206_il2cpp_TypeInfo,
+	&GP_QuestState_t207_il2cpp_TypeInfo,
+	&GP_QuestsSelect_t208_il2cpp_TypeInfo,
+	&GP_TBM_MatchStatus_t209_il2cpp_TypeInfo,
+	&GP_TBM_MatchTurnStatus_t210_il2cpp_TypeInfo,
+	&GP_TBM_MatchesSortOrder_t211_il2cpp_TypeInfo,
+	&FacebookEvents_t212_il2cpp_TypeInfo,
+	&GoogleMobileAdEvents_t213_il2cpp_TypeInfo,
+	&TwitterEvents_t214_il2cpp_TypeInfo,
+	&GoogleMobileAdBanner_t140_il2cpp_TypeInfo,
+	&GoogleMobileAdInterface_t142_il2cpp_TypeInfo,
+	&TwitterManagerInterface_t341_il2cpp_TypeInfo,
+	&AndroidADBanner_t215_il2cpp_TypeInfo,
+	&AndroidActivityResult_t216_il2cpp_TypeInfo,
+	&AndroidGameActivityResult_t217_il2cpp_TypeInfo,
+	&AsyncTask_t218_il2cpp_TypeInfo,
+	&GADBannerIdFactory_t219_il2cpp_TypeInfo,
+	&GPAchievement_t220_il2cpp_TypeInfo,
+	&GPGameRequest_t221_il2cpp_TypeInfo,
+	&GPLeaderBoard_t224_il2cpp_TypeInfo,
+	&GPScoreCollection_t222_il2cpp_TypeInfo,
+	&GP_Invite_t227_il2cpp_TypeInfo,
+	&GP_Participant_t226_il2cpp_TypeInfo,
+	&GP_ParticipantResult_t228_il2cpp_TypeInfo,
+	&GP_RTM_Network_Package_t229_il2cpp_TypeInfo,
+	&GP_RTM_Result_t230_il2cpp_TypeInfo,
+	&GP_RTM_Room_t232_il2cpp_TypeInfo,
+	&GoogleCloudResult_t233_il2cpp_TypeInfo,
+	&GooglePlayConnectionResult_t234_il2cpp_TypeInfo,
+	&GooglePlayGiftRequestResult_t235_il2cpp_TypeInfo,
+	&GooglePlayResult_t236_il2cpp_TypeInfo,
+	&GP_Event_t237_il2cpp_TypeInfo,
+	&GP_Quest_t238_il2cpp_TypeInfo,
+	&GP_GCM_RegistrationResult_t239_il2cpp_TypeInfo,
+	&GP_GamesResult_t240_il2cpp_TypeInfo,
+	&GP_QuestResult_t241_il2cpp_TypeInfo,
+	&GP_SnapshotConflict_t243_il2cpp_TypeInfo,
+	&GP_SpanshotLoadResult_t244_il2cpp_TypeInfo,
+	&AN_InvitationInboxCloseResult_t245_il2cpp_TypeInfo,
+	&GP_DeleteSnapshotResult_t246_il2cpp_TypeInfo,
+	&GP_TBM_CancelMatchResult_t247_il2cpp_TypeInfo,
+	&GP_TBM_LeaveMatchResult_t249_il2cpp_TypeInfo,
+	&GP_TBM_LoadMatchResult_t250_il2cpp_TypeInfo,
+	&GP_TBM_LoadMatchesResult_t252_il2cpp_TypeInfo,
+	&GP_TBM_MatchInitiatedResult_t253_il2cpp_TypeInfo,
+	&GP_TBM_MatchReceivedResult_t254_il2cpp_TypeInfo,
+	&GP_TBM_MatchRemovedResult_t255_il2cpp_TypeInfo,
+	&GP_TBM_UpdateMatchResult_t256_il2cpp_TypeInfo,
+	&GP_Snapshot_t242_il2cpp_TypeInfo,
+	&GP_SnapshotMeta_t257_il2cpp_TypeInfo,
+	&GP_TBM_Match_t248_il2cpp_TypeInfo,
+	&TOKEN_t258_il2cpp_TypeInfo,
+	&Parser_t260_il2cpp_TypeInfo,
+	&Serializer_t262_il2cpp_TypeInfo,
+	&Json_t263_il2cpp_TypeInfo,
+	&PlayServiceUtil_t264_il2cpp_TypeInfo,
+	&SA_Singleton_1_t744_il2cpp_TypeInfo,
+	&U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo,
+	&WWWTextureLoader_t266_il2cpp_TypeInfo,
+	&FBAppRequestActionType_t269_il2cpp_TypeInfo,
+	&FBAppRequestState_t270_il2cpp_TypeInfo,
+	&SPFacebook_t282_il2cpp_TypeInfo,
+	&SPFacebookAnalytics_t284_il2cpp_TypeInfo,
+	&FBAppRequest_t286_il2cpp_TypeInfo,
+	&FBAppRequestResult_t288_il2cpp_TypeInfo,
+	&FBLikeInfo_t289_il2cpp_TypeInfo,
+	&FBObject_t285_il2cpp_TypeInfo,
+	&FBPostResult_t290_il2cpp_TypeInfo,
+	&FBScore_t293_il2cpp_TypeInfo,
+	&FacebookProfileImageSize_t294_il2cpp_TypeInfo,
+	&FacebookUserInfo_t271_il2cpp_TypeInfo,
+	&FBLikesRetrieveTask_t296_il2cpp_TypeInfo,
+	&FBPostingTask_t297_il2cpp_TypeInfo,
+	&FB_APIResult_t298_il2cpp_TypeInfo,
+	&U3CRequestU3Ec__Iterator2_t300_il2cpp_TypeInfo,
+	&FB_GraphAPIRequest_t299_il2cpp_TypeInfo,
+	&InstagramEvents_t303_il2cpp_TypeInfo,
+	&InstagramPostResult_t304_il2cpp_TypeInfo,
+	&AndroidInstagramManager_t306_il2cpp_TypeInfo,
+	&AndroidTwitterManager_t310_il2cpp_TypeInfo,
+	&U3CLoadU3Ec__Iterator3_t314_il2cpp_TypeInfo,
+	&TwitterApplicationOnlyToken_t313_il2cpp_TypeInfo,
+	&TwitterDataCash_t318_il2cpp_TypeInfo,
+	&TWResult_t319_il2cpp_TypeInfo,
+	&TW_APIRequstResult_t322_il2cpp_TypeInfo,
+	&TweetTemplate_t323_il2cpp_TypeInfo,
+	&TwitterStatus_t324_il2cpp_TypeInfo,
+	&TwitterUserInfo_t308_il2cpp_TypeInfo,
+	&TWAPITest_t326_il2cpp_TypeInfo,
+	&U3CRequestU3Ec__Iterator4_t328_il2cpp_TypeInfo,
+	&TW_APIRequest_t327_il2cpp_TypeInfo,
+	&TW_FollowersIdsRequest_t329_il2cpp_TypeInfo,
+	&TW_FriendsIdsRequest_t330_il2cpp_TypeInfo,
+	&U3CRequestU3Ec__Iterator5_t333_il2cpp_TypeInfo,
+	&TW_OAuthAPIRequest_t332_il2cpp_TypeInfo,
+	&TW_SearchTweetsRequest_t338_il2cpp_TypeInfo,
+	&TW_UserTimeLineRequest_t339_il2cpp_TypeInfo,
+	&TW_UsersLookUpRequest_t340_il2cpp_TypeInfo,
+	&TwitterPostingTask_t342_il2cpp_TypeInfo,
+	&GPScore_t343_il2cpp_TypeInfo,
+	&ISDSettings_t344_il2cpp_TypeInfo,
+	&InstagramUseExample_t345_il2cpp_TypeInfo,
+	&U3CPostFBScreenshotU3Ec__Iterator6_t346_il2cpp_TypeInfo,
+	&U3CPostScreenshotU3Ec__Iterator7_t347_il2cpp_TypeInfo,
+	&MSPFacebookUseExample_t353_il2cpp_TypeInfo,
+	&MSPMoreActionsExample_t354_il2cpp_TypeInfo,
+	&U3CPostTWScreenshotU3Ec__Iterator8_t355_il2cpp_TypeInfo,
+	&U3CPostScreenshotU3Ec__Iterator9_t356_il2cpp_TypeInfo,
+	&MSPTwitterUseExample_t357_il2cpp_TypeInfo,
+	&MSP_FacebookAnalyticsExample_t358_il2cpp_TypeInfo,
+	&MSP_FacebookAndroidTurnBasedAndGiftsExample_t359_il2cpp_TypeInfo,
+	&MSPAndroidSocialGate_t360_il2cpp_TypeInfo,
+	&SPInstagram_t361_il2cpp_TypeInfo,
+	&SPShareUtility_t363_il2cpp_TypeInfo,
+	&SPTwitter_t364_il2cpp_TypeInfo,
+	&IOSInstagramManager_t365_il2cpp_TypeInfo,
+	&MSPIOSSocialManager_t367_il2cpp_TypeInfo,
+	&IOSTwitterManager_t368_il2cpp_TypeInfo,
+	&U3CPostScreenshotU3Ec__IteratorA_t371_il2cpp_TypeInfo,
+	&FacebookPostScreenshotTask_t370_il2cpp_TypeInfo,
+	&U3CPostScreenshotU3Ec__IteratorB_t373_il2cpp_TypeInfo,
+	&InstagramPostScreenshotTask_t372_il2cpp_TypeInfo,
+	&U3CPostScreenshotU3Ec__IteratorC_t375_il2cpp_TypeInfo,
+	&TwitterPostScreenshotTask_t374_il2cpp_TypeInfo,
+	&GameControllerExample_t377_il2cpp_TypeInfo,
+	&GameThrive_t378_il2cpp_TypeInfo,
+	&TOKEN_t380_il2cpp_TypeInfo,
+	&Parser_t381_il2cpp_TypeInfo,
+	&Serializer_t382_il2cpp_TypeInfo,
+	&Json_t383_il2cpp_TypeInfo,
+	&LOG_LEVEL_t384_il2cpp_TypeInfo,
+	&NotificationReceived_t387_il2cpp_TypeInfo,
+	&IdsAvailable_t376_il2cpp_TypeInfo,
+	&TagsReceived_t389_il2cpp_TypeInfo,
+	&OneSignal_t379_il2cpp_TypeInfo,
+	&OneSignalPlatform_t390_il2cpp_TypeInfo,
+	&U3CSaveScreenshotU3Ec__IteratorD_t392_il2cpp_TypeInfo,
+	&SA_ScreenShotMaker_t391_il2cpp_TypeInfo,
+	&DefaultPreviewButton_t349_il2cpp_TypeInfo,
+	&SALevelLoader_t396_il2cpp_TypeInfo,
+	&SALoadedSceneOnClick_t398_il2cpp_TypeInfo,
+	&SAOnClickAction_t399_il2cpp_TypeInfo,
+	&SAOpenUrlOnClick_t400_il2cpp_TypeInfo,
+	&SASendMessageOnClick_t401_il2cpp_TypeInfo,
+	&SA_BackButton_t402_il2cpp_TypeInfo,
+	&SA_Label_t351_il2cpp_TypeInfo,
+	&SA_StatusBar_t404_il2cpp_TypeInfo,
+	&SA_Texture_t350_il2cpp_TypeInfo,
+	&PreviewScreenUtil_t405_il2cpp_TypeInfo,
+	&ScreenPlacement_t407_il2cpp_TypeInfo,
+	&ScreenPosition_t408_il2cpp_TypeInfo,
+	&ScreenPlacementExtension_t409_il2cpp_TypeInfo,
+	&ScreenScaler_t410_il2cpp_TypeInfo,
+	&XScaleModifayer_t411_il2cpp_TypeInfo,
+	&AbstractFacebook_t414_il2cpp_TypeInfo,
+	&AppEvents_t415_il2cpp_TypeInfo,
+	&Canvas_t416_il2cpp_TypeInfo,
+	&Android_t417_il2cpp_TypeInfo,
+	&CompiledFacebookLoader_t418_il2cpp_TypeInfo,
+	&FB_t421_il2cpp_TypeInfo,
+	&FBAppEventName_t422_il2cpp_TypeInfo,
+	&FBAppEventParameterName_t423_il2cpp_TypeInfo,
+	&FBAppRequestsFilterGroup_t424_il2cpp_TypeInfo,
+	&FBBuildVersionAttribute_t425_il2cpp_TypeInfo,
+	&IfNotExist_t427_il2cpp_TypeInfo,
+	&FBComponentFactory_t428_il2cpp_TypeInfo,
+	&FBDebug_t429_il2cpp_TypeInfo,
+	&FBResult_t281_il2cpp_TypeInfo,
+	&FBSettings_t430_il2cpp_TypeInfo,
+	&DialogMode_t431_il2cpp_TypeInfo,
+	&OGActionType_t432_il2cpp_TypeInfo,
+	&AndroidFacebook_t434_il2cpp_TypeInfo,
+	&AndroidFacebookLoader_t435_il2cpp_TypeInfo,
+	&CanvasFacebook_t436_il2cpp_TypeInfo,
+	&CanvasFacebookLoader_t437_il2cpp_TypeInfo,
+	&JsBridge_t438_il2cpp_TypeInfo,
+	&EditorFacebook_t439_il2cpp_TypeInfo,
+	&EditorFacebookAccessToken_t440_il2cpp_TypeInfo,
+	&EditorFacebookLoader_t441_il2cpp_TypeInfo,
+	&NativeDict_t442_il2cpp_TypeInfo,
+	&FBInsightsFlushBehavior_t443_il2cpp_TypeInfo,
+	&IOSFacebook_t444_il2cpp_TypeInfo,
+	&IOSFacebookLoader_t445_il2cpp_TypeInfo,
+	&U3CStartU3Ec__IteratorE_t447_il2cpp_TypeInfo,
+	&AsyncRequestString_t446_il2cpp_TypeInfo,
+	&HttpMethod_t448_il2cpp_TypeInfo,
+	&TOKEN_t449_il2cpp_TypeInfo,
+	&Parser_t450_il2cpp_TypeInfo,
+	&Serializer_t451_il2cpp_TypeInfo,
+	&Json_t453_il2cpp_TypeInfo,
+	&GameInstanceState_t454_il2cpp_TypeInfo,
+	&AchievementController_t455_il2cpp_TypeInfo,
+	&AspectRatioPreserve_t456_il2cpp_TypeInfo,
+	&BoostActiveLayout_t460_il2cpp_TypeInfo,
+	&BoostButtonMode_t461_il2cpp_TypeInfo,
+	&U3CTriggerDistortionEffectU3Ec__IteratorF_t463_il2cpp_TypeInfo,
+	&BoostButton_t462_il2cpp_TypeInfo,
+	&BoostButtonLayout_t468_il2cpp_TypeInfo,
+	&BoostType_t469_il2cpp_TypeInfo,
+	&BoostActiveEventHandler_t470_il2cpp_TypeInfo,
+	&U3CWaitThenCleanupU3Ec__Iterator10_t471_il2cpp_TypeInfo,
+	&BoostConfig_t457_il2cpp_TypeInfo,
+	&BoostDesc_t475_il2cpp_TypeInfo,
+	&BuyAndUseBoost_t477_il2cpp_TypeInfo,
+	&BuyBoost_t478_il2cpp_TypeInfo,
+	&CameraController_t480_il2cpp_TypeInfo,
+	&CatBodyHitDetection_t481_il2cpp_TypeInfo,
+	&ConeOfViewRenderer_t484_il2cpp_TypeInfo,
+	&CrossSceneState_t485_il2cpp_TypeInfo,
+	&DeadMouse_t487_il2cpp_TypeInfo,
+	&DebugConfig_t488_il2cpp_TypeInfo,
+	&DebugLogPropagate_t489_il2cpp_TypeInfo,
+	&DestroyByCollision_t491_il2cpp_TypeInfo,
+	&DialogController_t492_il2cpp_TypeInfo,
+	&DistortForEffect_t493_il2cpp_TypeInfo,
+	&EnumAccumulator_1_t747_il2cpp_TypeInfo,
+	&ExplicitMouseDesc_t495_il2cpp_TypeInfo,
+	&FacebookSharing_t496_il2cpp_TypeInfo,
+	&FartPuff_t497_il2cpp_TypeInfo,
+	&FinalScoreController_t498_il2cpp_TypeInfo,
+	&FinalScoreUI_t499_il2cpp_TypeInfo,
+	&GameCenterButtons_t502_il2cpp_TypeInfo,
+	&GameController_t505_il2cpp_TypeInfo,
+	&GameLevelChangedEventHandler_t506_il2cpp_TypeInfo,
+	&GameLevelState_t507_il2cpp_TypeInfo,
+	&GamePhaseType_t508_il2cpp_TypeInfo,
+	&GameInstanceChangedEventHandler_t509_il2cpp_TypeInfo,
+	&GamePhaseChangedEventHandler_t510_il2cpp_TypeInfo,
+	&U3CSetupPendingPhaseU3Ec__Iterator11_t512_il2cpp_TypeInfo,
+	&GamePhaseState_t511_il2cpp_TypeInfo,
+	&GameUI_t500_il2cpp_TypeInfo,
+	&GameUIsType_t514_il2cpp_TypeInfo,
+	&GameUIController_t515_il2cpp_TypeInfo,
+	&U3CCreatePendingInterstitialAdU3Ec__Iterator12_t517_il2cpp_TypeInfo,
+	&GoogleAdController_t516_il2cpp_TypeInfo,
+	&MovementPhase_t518_il2cpp_TypeInfo,
+	&HeadMovement_t519_il2cpp_TypeInfo,
+	&U3CTriggerDistortionEffectU3Ec__Iterator13_t521_il2cpp_TypeInfo,
+	&HoleMeter_t520_il2cpp_TypeInfo,
+	&IOSSharing_t523_il2cpp_TypeInfo,
+	&InputHandler_t525_il2cpp_TypeInfo,
+	&LaunchCountController_t526_il2cpp_TypeInfo,
+	&WaveType_t527_il2cpp_TypeInfo,
+	&LevelDescription_t534_il2cpp_TypeInfo,
+	&LevelConfig_t541_il2cpp_TypeInfo,
+	&LevelEndTitlesLayout_t543_il2cpp_TypeInfo,
+	&MovementPhaseType_t544_il2cpp_TypeInfo,
+	&MouseType_t545_il2cpp_TypeInfo,
+	&MouseWiggleType_t546_il2cpp_TypeInfo,
+	&MouseConfig_t549_il2cpp_TypeInfo,
+	&MouseDesc_t550_il2cpp_TypeInfo,
+	&MouseHoleLocation_t551_il2cpp_TypeInfo,
+	&MousePopChangedEventHandler_t552_il2cpp_TypeInfo,
+	&CapacityChangedEventHandler_t553_il2cpp_TypeInfo,
+	&MouseHole_t522_il2cpp_TypeInfo,
+	&MouseMove_t557_il2cpp_TypeInfo,
+	&MouseSpawnEventHandler_t558_il2cpp_TypeInfo,
+	&MouseSpawnFromData_t504_il2cpp_TypeInfo,
+	&MouseSpawnTracker_t559_il2cpp_TypeInfo,
+	&MouseWiggleDesc_t560_il2cpp_TypeInfo,
+	&MusicButton_t561_il2cpp_TypeInfo,
+	&U3CPlayMusicU3Ec__Iterator14_t564_il2cpp_TypeInfo,
+	&MusicPlayer_t563_il2cpp_TypeInfo,
+	&OnMouseEntersHole_t565_il2cpp_TypeInfo,
+	&ParseAnalyticsController_t566_il2cpp_TypeInfo,
+	&PausePlayToggle_t567_il2cpp_TypeInfo,
+	&PausedOverlay_t568_il2cpp_TypeInfo,
+	&SwipePhase_t569_il2cpp_TypeInfo,
+	&PawController_t490_il2cpp_TypeInfo,
+	&PersistentStorage_t571_il2cpp_TypeInfo,
+	&PlayButtonClickSound_t572_il2cpp_TypeInfo,
+	&PlayLevelHandler_t573_il2cpp_TypeInfo,
+	&BodyMovementType_t574_il2cpp_TypeInfo,
+	&PlayerController_t575_il2cpp_TypeInfo,
+	&ScoreChangedEventHandler_t576_il2cpp_TypeInfo,
+	&TreatsChangedEventHandler_t577_il2cpp_TypeInfo,
+	&BoostsChangedEventHandler_t578_il2cpp_TypeInfo,
+	&PlayerStats_t476_il2cpp_TypeInfo,
+	&QuasiRandomGenerator_1_t748_il2cpp_TypeInfo,
+	&U3CWaitAndShowDialogU3Ec__Iterator15_t580_il2cpp_TypeInfo,
+	&RateMeController_t579_il2cpp_TypeInfo,
+	&RateMeDialog_t581_il2cpp_TypeInfo,
+	&RatingsHelper_t582_il2cpp_TypeInfo,
+	&RestartGameHandler_t583_il2cpp_TypeInfo,
+	&SFXButton_t584_il2cpp_TypeInfo,
+	&SFXType_t585_il2cpp_TypeInfo,
+	&SFXPlayer_t588_il2cpp_TypeInfo,
+	&SFXSilencer_t589_il2cpp_TypeInfo,
+	&SecretUI_t592_il2cpp_TypeInfo,
+	&SizeCamera_t479_il2cpp_TypeInfo,
+	&SlowByCollision_t593_il2cpp_TypeInfo,
+	&U3CDebugScoreAndAchievementU3Ec__Iterator16_t594_il2cpp_TypeInfo,
+	&U3CAuthenticateU3Ec__AnonStorey19_t595_il2cpp_TypeInfo,
+	&U3CRecordAchievementU3Ec__AnonStorey1A_t596_il2cpp_TypeInfo,
+	&SocialHelper_t597_il2cpp_TypeInfo,
+	&SocialMediaButtons_t598_il2cpp_TypeInfo,
+	&SoundMuteChangedEventHandler_t599_il2cpp_TypeInfo,
+	&MusicMuteChangedEventHandler_t600_il2cpp_TypeInfo,
+	&SoundController_t601_il2cpp_TypeInfo,
+	&ThrobForEffect_t554_il2cpp_TypeInfo,
+	&PauseChangedEventHandler_t602_il2cpp_TypeInfo,
+	&TimeController_t603_il2cpp_TypeInfo,
+	&TimedFader_t604_il2cpp_TypeInfo,
+	&TipConfig_t474_il2cpp_TypeInfo,
+	&U3CPlayTipWithPauseU3Ec__Iterator17_t606_il2cpp_TypeInfo,
+	&TipController_t605_il2cpp_TypeInfo,
+	&TipDialog_t607_il2cpp_TypeInfo,
+	&TrackLevel_t608_il2cpp_TypeInfo,
+	&TrackScore_t609_il2cpp_TypeInfo,
+	&TrackTreats_t610_il2cpp_TypeInfo,
+	&TutsPlayerController_t612_il2cpp_TypeInfo,
+	&TweakableParams_t613_il2cpp_TypeInfo,
+	&TweakableSlider_t556_il2cpp_TypeInfo,
+	&TwitterSharing_t614_il2cpp_TypeInfo,
+	&UseBoost_t615_il2cpp_TypeInfo,
+	&U3CLaunchAppOrWebU3Ec__Iterator18_t616_il2cpp_TypeInfo,
+	&Utilities_t617_il2cpp_TypeInfo,
+	&WorldObjectFollower_t619_il2cpp_TypeInfo,
+	&EventHandlerFunction_t620_il2cpp_TypeInfo,
+	&DataEventHandlerFunction_t621_il2cpp_TypeInfo,
+	&InitDelegate_t419_il2cpp_TypeInfo,
+	&FacebookDelegate_t433_il2cpp_TypeInfo,
+	&HideUnityDelegate_t420_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -1588,12 +1600,9 @@ Il2CppAssembly g_AssemblyU2DCSharp_Assembly =
 	&g_AssemblyU2DCSharp_dll_Image,
 	1,
 };
-extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_AttributeGenerators[454];
-static const char* s_StringTable[1499] = 
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_AttributeGenerators[466];
+static const char* s_StringTable[1504] = 
 {
-	"worldCamera",
-	"uxCamera",
-	"worldCameraTopMargin",
 	"status",
 	"lastResponse",
 	"textStyle",
@@ -2648,6 +2657,8 @@ static const char* s_StringTable[1499] =
 	"<>f__switch$map3",
 	"numberFormat",
 	"registeredForEvents",
+	"<instancesFinishedThisSession>k__BackingField",
+	"<instancesFinishedEver>k__BackingField",
 	"sliderPrototype",
 	"registerdForEvents",
 	"boostButtonsDirty",
@@ -2694,6 +2705,9 @@ static const char* s_StringTable[1499] =
 	"boostName",
 	"tipConfig",
 	"playerStats",
+	"worldCamera",
+	"uxCamera",
+	"worldCameraTopMargin",
 	"viewMesh",
 	"viewMaterial",
 	"numTriangles",
@@ -2773,8 +2787,11 @@ static const char* s_StringTable[1499] =
 	"levelEndUIGameObject",
 	"levelPlayUIGameObject",
 	"gameOverUIGameObject",
+	"instancesBetweenInterstitialAds",
+	"waitBeforeAd",
+	"pendingInterstitialAd",
 	"interstitialAdLoaded",
-	"wavesBetweenInterstitial",
+	"adsEnabled",
 	"banner",
 	"STABLE",
 	"MOVING_TO",
@@ -3096,2789 +3113,2800 @@ static const char* s_StringTable[1499] =
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-static const Il2CppFieldDefinition s_FieldTable[2085] = 
+static const Il2CppFieldDefinition s_FieldTable[2096] = 
 {
-	{ 0, 486, offsetof(CameraController_t65, ___worldCamera_2), 0 } ,
-	{ 1, 486, offsetof(CameraController_t65, ___uxCamera_3), 0 } ,
-	{ 2, 487, offsetof(CameraController_t65, ___worldCameraTopMargin_4), 0 } ,
-	{ 3, 492, offsetof(ConsoleBase_t69, ___status_2), 0 } ,
-	{ 4, 492, offsetof(ConsoleBase_t69, ___lastResponse_3), 0 } ,
-	{ 5, 493, offsetof(ConsoleBase_t69, ___textStyle_4), 0 } ,
-	{ 6, 494, offsetof(ConsoleBase_t69, ___lastResponseTexture_5), 0 } ,
-	{ 7, 495, offsetof(ConsoleBase_t69, ___scrollPosition_6), 0 } ,
-	{ 8, 496, offsetof(ConsoleBase_t69, ___buttonHeight_7), 0 } ,
-	{ 9, 496, offsetof(ConsoleBase_t69, ___mainWindowWidth_8), 0 } ,
-	{ 10, 496, offsetof(ConsoleBase_t69, ___mainWindowFullWidth_9), 0 } ,
-	{ 11, 499, offsetof(GameGroupsConsole_t71, ___GamerGroupName_10), 0 } ,
-	{ 12, 499, offsetof(GameGroupsConsole_t71, ___GamerGroupDesc_11), 0 } ,
-	{ 13, 499, offsetof(GameGroupsConsole_t71, ___GamerGroupPrivacy_12), 0 } ,
-	{ 14, 499, offsetof(GameGroupsConsole_t71, ___GamerGroupAdmin_13), 0 } ,
-	{ 15, 499, offsetof(GameGroupsConsole_t71, ___GamerGroupCurrentGroup_14), 0 } ,
-	{ 16, 52, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CtexU3E__2_2), 0 } ,
-	{ 19, 503, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CscreenshotU3E__3_3), 0 } ,
-	{ 20, 504, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CwwwFormU3E__4_4), 0 } ,
-	{ 21, 52, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U24PC_5), 0 } ,
-	{ 22, 66, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U24current_6), 0 } ,
-	{ 23, 505, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t74, ___U3CU3Ef__this_7), 0 } ,
-	{ 24, 499, offsetof(InteractiveConsole_t73, ___FriendSelectorTitle_10), 0 } ,
-	{ 25, 499, offsetof(InteractiveConsole_t73, ___FriendSelectorMessage_11), 0 } ,
-	{ 26, 508, offsetof(InteractiveConsole_t73, ___FriendFilterTypes_12), 0 } ,
-	{ 27, 509, offsetof(InteractiveConsole_t73, ___FriendFilterSelection_13), 0 } ,
-	{ 28, 510, offsetof(InteractiveConsole_t73, ___FriendFilterGroupNames_14), 0 } ,
-	{ 29, 510, offsetof(InteractiveConsole_t73, ___FriendFilterGroupIDs_15), 0 } ,
-	{ 30, 509, offsetof(InteractiveConsole_t73, ___NumFriendFilterGroups_16), 0 } ,
-	{ 31, 499, offsetof(InteractiveConsole_t73, ___FriendSelectorData_17), 0 } ,
-	{ 32, 499, offsetof(InteractiveConsole_t73, ___FriendSelectorExcludeIds_18), 0 } ,
-	{ 33, 499, offsetof(InteractiveConsole_t73, ___FriendSelectorMax_19), 0 } ,
-	{ 34, 499, offsetof(InteractiveConsole_t73, ___DirectRequestTitle_20), 0 } ,
-	{ 35, 499, offsetof(InteractiveConsole_t73, ___DirectRequestMessage_21), 0 } ,
-	{ 36, 79, offsetof(InteractiveConsole_t73, ___DirectRequestTo_22), 0 } ,
-	{ 37, 499, offsetof(InteractiveConsole_t73, ___FeedToId_23), 0 } ,
-	{ 38, 499, offsetof(InteractiveConsole_t73, ___FeedLink_24), 0 } ,
-	{ 39, 499, offsetof(InteractiveConsole_t73, ___FeedLinkName_25), 0 } ,
-	{ 40, 499, offsetof(InteractiveConsole_t73, ___FeedLinkCaption_26), 0 } ,
-	{ 41, 499, offsetof(InteractiveConsole_t73, ___FeedLinkDescription_27), 0 } ,
-	{ 42, 499, offsetof(InteractiveConsole_t73, ___FeedPicture_28), 0 } ,
-	{ 43, 499, offsetof(InteractiveConsole_t73, ___FeedMediaSource_29), 0 } ,
-	{ 44, 499, offsetof(InteractiveConsole_t73, ___FeedActionName_30), 0 } ,
-	{ 45, 499, offsetof(InteractiveConsole_t73, ___FeedActionLink_31), 0 } ,
-	{ 46, 499, offsetof(InteractiveConsole_t73, ___FeedReference_32), 0 } ,
-	{ 47, 511, offsetof(InteractiveConsole_t73, ___IncludeFeedProperties_33), 0 } ,
-	{ 48, 512, offsetof(InteractiveConsole_t73, ___FeedProperties_34), 0 } ,
-	{ 49, 499, offsetof(InteractiveConsole_t73, ___PayProduct_35), 0 } ,
-	{ 50, 499, offsetof(InteractiveConsole_t73, ___ApiQuery_36), 0 } ,
-	{ 51, 511, offsetof(AN_ActivityTemplate_t77, ___IsOpen_2), 0 } ,
-	{ 52, 509, offsetof(AN_ActivityTemplate_t77, ____id_3), 0 } ,
-	{ 53, 516, offsetof(AN_ActivityTemplate_t77, ____isLauncher_4), 0 } ,
-	{ 54, 79, offsetof(AN_ActivityTemplate_t77, ____name_5), 0 } ,
-	{ 55, 519, offsetof(AN_ApplicationTemplate_t80, ____activities_2), 0 } ,
-	{ 56, 521, offsetof(AN_BaseTemplate_t78, ____properties_0), 0 } ,
-	{ 57, 522, offsetof(AN_BaseTemplate_t78, ____values_1), 0 } ,
-	{ 58, 524, offsetof(AN_ManifestTemplate_t84, ____applicationTemplate_2), 0 } ,
-	{ 59, 525, offsetof(AN_ManifestTemplate_t84, ____permissions_3), 0 } ,
-	{ 60, 44, offsetof(AN_Permissions_t85, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 61, 528, 0, 0 } ,
-	{ 62, 528, 0, 0 } ,
-	{ 63, 528, 0, 0 } ,
-	{ 64, 528, 0, 0 } ,
-	{ 65, 528, 0, 0 } ,
-	{ 66, 528, 0, 0 } ,
-	{ 67, 528, 0, 0 } ,
-	{ 68, 528, 0, 0 } ,
-	{ 69, 528, 0, 0 } ,
-	{ 70, 528, 0, 0 } ,
-	{ 71, 528, 0, 0 } ,
-	{ 72, 528, 0, 0 } ,
-	{ 73, 528, 0, 0 } ,
-	{ 74, 528, 0, 0 } ,
-	{ 75, 528, 0, 0 } ,
-	{ 76, 528, 0, 0 } ,
-	{ 77, 528, 0, 0 } ,
-	{ 78, 528, 0, 0 } ,
-	{ 79, 528, 0, 0 } ,
-	{ 80, 528, 0, 0 } ,
-	{ 81, 528, 0, 0 } ,
-	{ 82, 528, 0, 0 } ,
-	{ 83, 528, 0, 0 } ,
-	{ 84, 528, 0, 0 } ,
-	{ 85, 528, 0, 0 } ,
-	{ 86, 528, 0, 0 } ,
-	{ 87, 528, 0, 0 } ,
-	{ 88, 528, 0, 0 } ,
-	{ 89, 528, 0, 0 } ,
-	{ 90, 528, 0, 0 } ,
-	{ 91, 528, 0, 0 } ,
-	{ 92, 528, 0, 0 } ,
-	{ 93, 528, 0, 0 } ,
-	{ 94, 528, 0, 0 } ,
-	{ 95, 528, 0, 0 } ,
-	{ 96, 528, 0, 0 } ,
-	{ 97, 528, 0, 0 } ,
-	{ 98, 528, 0, 0 } ,
-	{ 99, 528, 0, 0 } ,
-	{ 100, 528, 0, 0 } ,
-	{ 101, 528, 0, 0 } ,
-	{ 102, 528, 0, 0 } ,
-	{ 103, 528, 0, 0 } ,
-	{ 104, 528, 0, 0 } ,
-	{ 105, 528, 0, 0 } ,
-	{ 106, 528, 0, 0 } ,
-	{ 107, 528, 0, 0 } ,
-	{ 108, 528, 0, 0 } ,
-	{ 109, 528, 0, 0 } ,
-	{ 110, 528, 0, 0 } ,
-	{ 111, 528, 0, 0 } ,
-	{ 112, 528, 0, 0 } ,
-	{ 113, 528, 0, 0 } ,
-	{ 114, 528, 0, 0 } ,
-	{ 115, 528, 0, 0 } ,
-	{ 116, 528, 0, 0 } ,
-	{ 117, 528, 0, 0 } ,
-	{ 118, 528, 0, 0 } ,
-	{ 119, 528, 0, 0 } ,
-	{ 120, 528, 0, 0 } ,
-	{ 121, 528, 0, 0 } ,
-	{ 122, 528, 0, 0 } ,
-	{ 123, 528, 0, 0 } ,
-	{ 124, 528, 0, 0 } ,
-	{ 125, 528, 0, 0 } ,
-	{ 126, 528, 0, 0 } ,
-	{ 127, 528, 0, 0 } ,
-	{ 128, 528, 0, 0 } ,
-	{ 129, 528, 0, 0 } ,
-	{ 130, 528, 0, 0 } ,
-	{ 131, 528, 0, 0 } ,
-	{ 132, 528, 0, 0 } ,
-	{ 133, 528, 0, 0 } ,
-	{ 134, 528, 0, 0 } ,
-	{ 135, 528, 0, 0 } ,
-	{ 136, 528, 0, 0 } ,
-	{ 137, 528, 0, 0 } ,
-	{ 138, 528, 0, 0 } ,
-	{ 139, 528, 0, 0 } ,
-	{ 140, 528, 0, 0 } ,
-	{ 141, 528, 0, 0 } ,
-	{ 142, 528, 0, 0 } ,
-	{ 143, 528, 0, 0 } ,
-	{ 144, 528, 0, 0 } ,
-	{ 145, 528, 0, 0 } ,
-	{ 146, 528, 0, 0 } ,
-	{ 147, 528, 0, 0 } ,
-	{ 148, 528, 0, 0 } ,
-	{ 149, 528, 0, 0 } ,
-	{ 150, 528, 0, 0 } ,
-	{ 151, 528, 0, 0 } ,
-	{ 152, 528, 0, 0 } ,
-	{ 153, 528, 0, 0 } ,
-	{ 154, 528, 0, 0 } ,
-	{ 155, 528, 0, 0 } ,
-	{ 156, 528, 0, 0 } ,
-	{ 157, 528, 0, 0 } ,
-	{ 158, 528, 0, 0 } ,
-	{ 159, 528, 0, 0 } ,
-	{ 160, 528, 0, 0 } ,
-	{ 161, 528, 0, 0 } ,
-	{ 162, 528, 0, 0 } ,
-	{ 163, 528, 0, 0 } ,
-	{ 164, 528, 0, 0 } ,
-	{ 165, 528, 0, 0 } ,
-	{ 166, 528, 0, 0 } ,
-	{ 167, 528, 0, 0 } ,
-	{ 168, 528, 0, 0 } ,
-	{ 169, 528, 0, 0 } ,
-	{ 170, 528, 0, 0 } ,
-	{ 171, 528, 0, 0 } ,
-	{ 172, 528, 0, 0 } ,
-	{ 173, 528, 0, 0 } ,
-	{ 174, 528, 0, 0 } ,
-	{ 175, 528, 0, 0 } ,
-	{ 176, 528, 0, 0 } ,
-	{ 177, 528, 0, 0 } ,
-	{ 178, 528, 0, 0 } ,
-	{ 179, 528, 0, 0 } ,
-	{ 180, 528, 0, 0 } ,
-	{ 181, 528, 0, 0 } ,
-	{ 182, 528, 0, 0 } ,
-	{ 183, 528, 0, 0 } ,
-	{ 184, 528, 0, 0 } ,
-	{ 185, 528, 0, 0 } ,
-	{ 186, 528, 0, 0 } ,
-	{ 187, 528, 0, 0 } ,
-	{ 188, 528, 0, 0 } ,
-	{ 189, 528, 0, 0 } ,
-	{ 190, 528, 0, 0 } ,
-	{ 191, 528, 0, 0 } ,
-	{ 192, 528, 0, 0 } ,
-	{ 193, 528, 0, 0 } ,
-	{ 194, 528, 0, 0 } ,
-	{ 195, 528, 0, 0 } ,
-	{ 196, 528, 0, 0 } ,
-	{ 197, 528, 0, 0 } ,
-	{ 198, 528, 0, 0 } ,
-	{ 199, 528, 0, 0 } ,
-	{ 200, 528, 0, 0 } ,
-	{ 201, 528, 0, 0 } ,
-	{ 202, 528, 0, 0 } ,
-	{ 203, 528, 0, 0 } ,
-	{ 204, 528, 0, 0 } ,
-	{ 205, 528, 0, 0 } ,
-	{ 206, 528, 0, 0 } ,
-	{ 207, 528, 0, 0 } ,
-	{ 208, 528, 0, 0 } ,
-	{ 209, 528, 0, 0 } ,
-	{ 210, 528, 0, 0 } ,
-	{ 211, 528, 0, 0 } ,
-	{ 51, 511, offsetof(AN_PropertyTemplate_t86, ___IsOpen_2), 0 } ,
-	{ 212, 79, offsetof(AN_PropertyTemplate_t86, ____tag_3), 0 } ,
-	{ 213, 532, offsetof(EventDispatcher_t89, ___listners_2), 0 } ,
-	{ 214, 533, offsetof(EventDispatcher_t89, ___dataListners_3), 0 } ,
-	{ 213, 532, offsetof(EventDispatcherBase_t90, ___listners_0), 0 } ,
-	{ 214, 533, offsetof(EventDispatcherBase_t90, ___dataListners_1), 0 } ,
-	{ 215, 538, 0, 0 } ,
-	{ 216, 538, 0, 0 } ,
-	{ 217, 538, 0, 0 } ,
-	{ 218, 538, 0, 0 } ,
-	{ 219, 538, 0, 0 } ,
-	{ 220, 538, 0, 0 } ,
-	{ 221, 538, 0, 0 } ,
-	{ 222, 538, 0, 0 } ,
-	{ 223, 538, 0, 0 } ,
-	{ 224, 538, 0, 0 } ,
-	{ 225, 538, 0, 0 } ,
-	{ 226, 538, 0, 0 } ,
-	{ 227, 538, 0, 0 } ,
-	{ 228, 538, 0, 0 } ,
-	{ 52, 509, offsetof(CEvent_t93, ____id_0), 0 } ,
-	{ 54, 79, offsetof(CEvent_t93, ____name_1), 0 } ,
-	{ 229, 541, offsetof(CEvent_t93, ____data_2), 0 } ,
-	{ 230, 542, offsetof(CEvent_t93, ____dispatcher_3), 0 } ,
-	{ 231, 516, offsetof(CEvent_t93, ____isStoped_4), 0 } ,
-	{ 232, 516, offsetof(CEvent_t93, ____isLocked_5), 0 } ,
-	{ 233, 543, offsetof(CEvent_t93, ____currentTarget_6), 0 } ,
-	{ 234, 546, offsetof(EventButtonExample_t94_StaticFields, ___instance_4), 0 } ,
-	{ 235, 487, offsetof(EventButtonExample_t94, ___w_5), 0 } ,
-	{ 236, 487, offsetof(EventButtonExample_t94, ___h_6), 0 } ,
-	{ 237, 493, offsetof(ExampleListner_t95, ___style_2), 0 } ,
-	{ 238, 79, offsetof(ExampleListner_t95, ___label_3), 0 } ,
-	{ 239, 509, offsetof(ExampleListner_t95, ___count_4), 0 } ,
-	{ 240, 550, offsetof(AdMobBanner_t97, ___size_2), 0 } ,
-	{ 241, 551, offsetof(AdMobBanner_t97, ___anchor_3), 0 } ,
-	{ 242, 552, offsetof(AdMobBanner_t97_StaticFields, ____registerdBanners_4), 0 } ,
-	{ 237, 558, offsetof(GoogleAdsExample_t101, ___style_2), 0 } ,
-	{ 243, 558, offsetof(GoogleAdsExample_t101, ___style2_3), 0 } ,
-	{ 244, 559, offsetof(GoogleAdsExample_t101, ___banner1_4), 0 } ,
-	{ 245, 559, offsetof(GoogleAdsExample_t101, ___banner2_5), 0 } ,
-	{ 246, 516, offsetof(GoogleAdsExample_t101, ___IsInterstisialsAdReady_6), 0 } ,
-	{ 247, 567, offsetof(GoogleMobileAd_t105_StaticFields, ___controller_0), 0 } ,
-	{ 248, 568, offsetof(GoogleMobileAd_t105_StaticFields, ____IsInited_1), 0 } ,
-	{ 249, 569, offsetof(GoogleMobileAd_t105_StaticFields, ___OnInterstitialLoaded_2), 0 } ,
-	{ 250, 569, offsetof(GoogleMobileAd_t105_StaticFields, ___OnInterstitialFailedLoading_3), 0 } ,
-	{ 251, 569, offsetof(GoogleMobileAd_t105_StaticFields, ___OnInterstitialOpened_4), 0 } ,
-	{ 252, 569, offsetof(GoogleMobileAd_t105_StaticFields, ___OnInterstitialClosed_5), 0 } ,
-	{ 253, 569, offsetof(GoogleMobileAd_t105_StaticFields, ___OnInterstitialLeftApplication_6), 0 } ,
-	{ 254, 570, offsetof(GoogleMobileAd_t105_StaticFields, ___OnAdInAppRequest_7), 0 } ,
-	{ 255, 571, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cache8_8), 8 } ,
-	{ 256, 571, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cache9_9), 9 } ,
-	{ 257, 571, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cacheA_10), 10 } ,
-	{ 258, 571, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cacheB_11), 11 } ,
-	{ 259, 571, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cacheC_12), 12 } ,
-	{ 260, 572, offsetof(GoogleMobileAd_t105_StaticFields, ___U3CU3Ef__amU24cacheD_13), 13 } ,
-	{ 261, 538, 0, 0 } ,
-	{ 262, 538, 0, 0 } ,
-	{ 263, 574, 0, 0 } ,
-	{ 264, 574, 0, 0 } ,
-	{ 265, 574, 0, 0 } ,
-	{ 266, 499, offsetof(GoogleMobileAdSettings_t107, ___IOS_InterstisialsUnitId_7), 0 } ,
-	{ 267, 499, offsetof(GoogleMobileAdSettings_t107, ___IOS_BannersUnitId_8), 0 } ,
-	{ 268, 499, offsetof(GoogleMobileAdSettings_t107, ___Android_InterstisialsUnitId_9), 0 } ,
-	{ 269, 499, offsetof(GoogleMobileAdSettings_t107, ___Android_BannersUnitId_10), 0 } ,
-	{ 270, 499, offsetof(GoogleMobileAdSettings_t107, ___WP8_InterstisialsUnitId_11), 0 } ,
-	{ 271, 499, offsetof(GoogleMobileAdSettings_t107, ___WP8_BannersUnitId_12), 0 } ,
-	{ 272, 511, offsetof(GoogleMobileAdSettings_t107, ___IsIOSSettinsOpened_13), 0 } ,
-	{ 273, 511, offsetof(GoogleMobileAdSettings_t107, ___IsAndroidSettinsOpened_14), 0 } ,
-	{ 274, 511, offsetof(GoogleMobileAdSettings_t107, ___IsWP8SettinsOpened_15), 0 } ,
-	{ 275, 511, offsetof(GoogleMobileAdSettings_t107, ___IsTestSettinsOpened_16), 0 } ,
-	{ 276, 511, offsetof(GoogleMobileAdSettings_t107, ___ShowActions_17), 0 } ,
-	{ 277, 511, offsetof(GoogleMobileAdSettings_t107, ___KeepManifestClean_18), 0 } ,
-	{ 278, 575, offsetof(GoogleMobileAdSettings_t107, ___testDevices_19), 21 } ,
-	{ 234, 576, offsetof(GoogleMobileAdSettings_t107_StaticFields, ___instance_20), 0 } ,
-	{ 52, 509, offsetof(IOSADBanner_t110, ____id_2), 0 } ,
-	{ 279, 579, offsetof(IOSADBanner_t110, ____size_3), 0 } ,
-	{ 280, 580, offsetof(IOSADBanner_t110, ____anchor_4), 0 } ,
-	{ 281, 516, offsetof(IOSADBanner_t110, ____IsLoaded_5), 0 } ,
-	{ 282, 516, offsetof(IOSADBanner_t110, ____IsOnScreen_6), 0 } ,
-	{ 283, 516, offsetof(IOSADBanner_t110, ___firstLoad_7), 0 } ,
-	{ 284, 516, offsetof(IOSADBanner_t110, ____ShowOnLoad_8), 0 } ,
-	{ 285, 516, offsetof(IOSADBanner_t110, ___destroyOnLoad_9), 0 } ,
-	{ 286, 509, offsetof(IOSADBanner_t110, ____width_10), 0 } ,
-	{ 287, 509, offsetof(IOSADBanner_t110, ____height_11), 0 } ,
-	{ 288, 581, offsetof(IOSADBanner_t110, ____OnLoadedAction_12), 0 } ,
-	{ 289, 581, offsetof(IOSADBanner_t110, ____OnFailedLoadingAction_13), 0 } ,
-	{ 290, 581, offsetof(IOSADBanner_t110, ____OnOpenedAction_14), 0 } ,
-	{ 291, 581, offsetof(IOSADBanner_t110, ____OnClosedAction_15), 0 } ,
-	{ 292, 581, offsetof(IOSADBanner_t110, ____OnLeftApplicationAction_16), 0 } ,
-	{ 293, 582, offsetof(IOSADBanner_t110_StaticFields, ___U3CU3Ef__amU24cacheF_17), 22 } ,
-	{ 294, 582, offsetof(IOSADBanner_t110_StaticFields, ___U3CU3Ef__amU24cache10_18), 23 } ,
-	{ 295, 582, offsetof(IOSADBanner_t110_StaticFields, ___U3CU3Ef__amU24cache11_19), 24 } ,
-	{ 296, 582, offsetof(IOSADBanner_t110_StaticFields, ___U3CU3Ef__amU24cache12_20), 25 } ,
-	{ 297, 582, offsetof(IOSADBanner_t110_StaticFields, ___U3CU3Ef__amU24cache13_21), 26 } ,
-	{ 298, 574, 0, 0 } ,
-	{ 248, 516, offsetof(IOSAdMobController_t112, ____IsInited_7), 0 } ,
-	{ 299, 584, offsetof(IOSAdMobController_t112, ____banners_8), 0 } ,
-	{ 300, 79, offsetof(IOSAdMobController_t112, ____BannersUunitId_9), 0 } ,
-	{ 301, 79, offsetof(IOSAdMobController_t112, ____InterstisialUnitId_10), 0 } ,
-	{ 302, 585, offsetof(IOSAdMobController_t112, ____OnInterstitialLoaded_11), 0 } ,
-	{ 303, 585, offsetof(IOSAdMobController_t112, ____OnInterstitialFailedLoading_12), 0 } ,
-	{ 304, 585, offsetof(IOSAdMobController_t112, ____OnInterstitialOpened_13), 0 } ,
-	{ 305, 585, offsetof(IOSAdMobController_t112, ____OnInterstitialClosed_14), 0 } ,
-	{ 306, 585, offsetof(IOSAdMobController_t112, ____OnInterstitialLeftApplication_15), 0 } ,
-	{ 307, 586, offsetof(IOSAdMobController_t112, ____OnAdInAppRequest_16), 0 } ,
-	{ 257, 571, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheA_17), 32 } ,
-	{ 258, 571, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheB_18), 33 } ,
-	{ 259, 571, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheC_19), 34 } ,
-	{ 260, 571, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheD_20), 35 } ,
-	{ 308, 571, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheE_21), 36 } ,
-	{ 293, 572, offsetof(IOSAdMobController_t112_StaticFields, ___U3CU3Ef__amU24cacheF_22), 37 } ,
-	{ 309, 499, offsetof(GADTestDevice_t114, ___Name_0), 0 } ,
-	{ 310, 499, offsetof(GADTestDevice_t114, ___ID_1), 0 } ,
-	{ 51, 511, offsetof(GADTestDevice_t114, ___IsOpen_2), 0 } ,
-	{ 52, 509, offsetof(WP8ADBanner_t115, ____id_2), 0 } ,
-	{ 279, 579, offsetof(WP8ADBanner_t115, ____size_3), 0 } ,
-	{ 280, 580, offsetof(WP8ADBanner_t115, ____anchor_4), 0 } ,
-	{ 281, 516, offsetof(WP8ADBanner_t115, ____IsLoaded_5), 0 } ,
-	{ 282, 516, offsetof(WP8ADBanner_t115, ____IsOnScreen_6), 0 } ,
-	{ 283, 516, offsetof(WP8ADBanner_t115, ___firstLoad_7), 0 } ,
-	{ 284, 516, offsetof(WP8ADBanner_t115, ____ShowOnLoad_8), 0 } ,
-	{ 285, 516, offsetof(WP8ADBanner_t115, ___destroyOnLoad_9), 0 } ,
-	{ 286, 509, offsetof(WP8ADBanner_t115, ____width_10), 0 } ,
-	{ 287, 509, offsetof(WP8ADBanner_t115, ____height_11), 0 } ,
-	{ 288, 581, offsetof(WP8ADBanner_t115, ____OnLoadedAction_12), 0 } ,
-	{ 289, 581, offsetof(WP8ADBanner_t115, ____OnFailedLoadingAction_13), 0 } ,
-	{ 290, 581, offsetof(WP8ADBanner_t115, ____OnOpenedAction_14), 0 } ,
-	{ 291, 581, offsetof(WP8ADBanner_t115, ____OnClosedAction_15), 0 } ,
-	{ 292, 581, offsetof(WP8ADBanner_t115, ____OnLeftApplicationAction_16), 0 } ,
-	{ 293, 582, offsetof(WP8ADBanner_t115_StaticFields, ___U3CU3Ef__amU24cacheF_17), 45 } ,
-	{ 294, 582, offsetof(WP8ADBanner_t115_StaticFields, ___U3CU3Ef__amU24cache10_18), 46 } ,
-	{ 295, 582, offsetof(WP8ADBanner_t115_StaticFields, ___U3CU3Ef__amU24cache11_19), 47 } ,
-	{ 296, 582, offsetof(WP8ADBanner_t115_StaticFields, ___U3CU3Ef__amU24cache12_20), 48 } ,
-	{ 297, 582, offsetof(WP8ADBanner_t115_StaticFields, ___U3CU3Ef__amU24cache13_21), 49 } ,
-	{ 298, 574, 0, 0 } ,
-	{ 248, 516, offsetof(WP8AdMobController_t117, ____IsInited_7), 0 } ,
-	{ 299, 591, offsetof(WP8AdMobController_t117, ____banners_8), 0 } ,
-	{ 300, 79, offsetof(WP8AdMobController_t117, ____BannersUunitId_9), 0 } ,
-	{ 301, 79, offsetof(WP8AdMobController_t117, ____InterstisialUnitId_10), 0 } ,
-	{ 302, 585, offsetof(WP8AdMobController_t117, ____OnInterstitialLoaded_11), 0 } ,
-	{ 303, 585, offsetof(WP8AdMobController_t117, ____OnInterstitialFailedLoading_12), 0 } ,
-	{ 304, 585, offsetof(WP8AdMobController_t117, ____OnInterstitialOpened_13), 0 } ,
-	{ 305, 585, offsetof(WP8AdMobController_t117, ____OnInterstitialClosed_14), 0 } ,
-	{ 306, 585, offsetof(WP8AdMobController_t117, ____OnInterstitialLeftApplication_15), 0 } ,
-	{ 307, 586, offsetof(WP8AdMobController_t117, ____OnAdInAppRequest_16), 0 } ,
-	{ 257, 571, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheA_17), 55 } ,
-	{ 258, 571, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheB_18), 56 } ,
-	{ 259, 571, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheC_19), 57 } ,
-	{ 260, 571, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheD_20), 58 } ,
-	{ 308, 571, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheE_21), 59 } ,
-	{ 293, 572, offsetof(WP8AdMobController_t117_StaticFields, ___U3CU3Ef__amU24cacheF_22), 60 } ,
-	{ 298, 574, 0, 0 } ,
-	{ 248, 516, offsetof(AndroidAdMobController_t120, ____IsInited_7), 0 } ,
-	{ 299, 593, offsetof(AndroidAdMobController_t120, ____banners_8), 0 } ,
-	{ 300, 79, offsetof(AndroidAdMobController_t120, ____BannersUunitId_9), 0 } ,
-	{ 301, 79, offsetof(AndroidAdMobController_t120, ____InterstisialUnitId_10), 0 } ,
-	{ 302, 585, offsetof(AndroidAdMobController_t120, ____OnInterstitialLoaded_11), 0 } ,
-	{ 303, 585, offsetof(AndroidAdMobController_t120, ____OnInterstitialFailedLoading_12), 0 } ,
-	{ 304, 585, offsetof(AndroidAdMobController_t120, ____OnInterstitialOpened_13), 0 } ,
-	{ 305, 585, offsetof(AndroidAdMobController_t120, ____OnInterstitialClosed_14), 0 } ,
-	{ 306, 585, offsetof(AndroidAdMobController_t120, ____OnInterstitialLeftApplication_15), 0 } ,
-	{ 307, 586, offsetof(AndroidAdMobController_t120, ____OnAdInAppRequest_16), 0 } ,
-	{ 257, 571, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheA_17), 68 } ,
-	{ 258, 571, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheB_18), 69 } ,
-	{ 259, 571, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheC_19), 70 } ,
-	{ 260, 571, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheD_20), 71 } ,
-	{ 308, 571, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheE_21), 72 } ,
-	{ 293, 572, offsetof(AndroidAdMobController_t120_StaticFields, ___U3CU3Ef__amU24cacheF_22), 73 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 312, 538, 0, 0 } ,
-	{ 313, 538, 0, 0 } ,
-	{ 314, 538, 0, 0 } ,
-	{ 315, 574, 0, 0 } ,
-	{ 311, 574, 0, 0 } ,
-	{ 261, 538, 0, 0 } ,
-	{ 316, 538, 0, 0 } ,
-	{ 263, 574, 0, 0 } ,
-	{ 264, 574, 0, 0 } ,
-	{ 265, 574, 0, 0 } ,
-	{ 317, 511, offsetof(SocialPlatfromSettings_t139, ___showPermitions_7), 0 } ,
-	{ 276, 511, offsetof(SocialPlatfromSettings_t139, ___ShowActions_8), 0 } ,
-	{ 318, 511, offsetof(SocialPlatfromSettings_t139, ___ShowAPIS_9), 0 } ,
-	{ 319, 630, offsetof(SocialPlatfromSettings_t139, ___fb_scopes_list_10), 0 } ,
-	{ 320, 499, offsetof(SocialPlatfromSettings_t139, ___TWITTER_CONSUMER_KEY_11), 0 } ,
-	{ 321, 499, offsetof(SocialPlatfromSettings_t139, ___TWITTER_CONSUMER_SECRET_12), 0 } ,
-	{ 322, 499, offsetof(SocialPlatfromSettings_t139, ___TWITTER_ACCESS_TOKEN_13), 0 } ,
-	{ 323, 499, offsetof(SocialPlatfromSettings_t139, ___TWITTER_ACCESS_TOKEN_SECRET_14), 0 } ,
-	{ 324, 511, offsetof(SocialPlatfromSettings_t139, ___ShowEditorOauthTestingBlock_15), 0 } ,
-	{ 325, 511, offsetof(SocialPlatfromSettings_t139, ___TwitterAPI_16), 0 } ,
-	{ 326, 511, offsetof(SocialPlatfromSettings_t139, ___NativeSharingAPI_17), 0 } ,
-	{ 327, 511, offsetof(SocialPlatfromSettings_t139, ___InstagramAPI_18), 0 } ,
-	{ 328, 511, offsetof(SocialPlatfromSettings_t139, ___EnableImageSharing_19), 0 } ,
-	{ 277, 511, offsetof(SocialPlatfromSettings_t139, ___KeepManifestClean_20), 0 } ,
-	{ 234, 631, offsetof(SocialPlatfromSettings_t139_StaticFields, ___instance_21), 0 } ,
-	{ 60, 44, offsetof(AdroidActivityResultCodes_t140, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 329, 633, 0, 0 } ,
-	{ 330, 633, 0, 0 } ,
-	{ 331, 633, 0, 0 } ,
-	{ 332, 636, 0, 0 } ,
-	{ 333, 636, 0, 0 } ,
-	{ 334, 636, 0, 0 } ,
-	{ 335, 636, 0, 0 } ,
-	{ 336, 636, 0, 0 } ,
-	{ 337, 636, 0, 0 } ,
-	{ 338, 636, 0, 0 } ,
-	{ 339, 636, 0, 0 } ,
-	{ 340, 636, 0, 0 } ,
-	{ 341, 636, 0, 0 } ,
-	{ 342, 636, 0, 0 } ,
-	{ 343, 636, 0, 0 } ,
-	{ 344, 636, 0, 0 } ,
-	{ 345, 636, 0, 0 } ,
-	{ 346, 636, 0, 0 } ,
-	{ 347, 636, 0, 0 } ,
-	{ 348, 636, 0, 0 } ,
-	{ 349, 636, 0, 0 } ,
-	{ 350, 636, 0, 0 } ,
-	{ 351, 636, 0, 0 } ,
-	{ 352, 636, 0, 0 } ,
-	{ 353, 636, 0, 0 } ,
-	{ 354, 636, 0, 0 } ,
-	{ 355, 636, 0, 0 } ,
-	{ 356, 636, 0, 0 } ,
-	{ 357, 636, 0, 0 } ,
-	{ 358, 636, 0, 0 } ,
-	{ 359, 636, 0, 0 } ,
-	{ 360, 636, 0, 0 } ,
-	{ 361, 636, 0, 0 } ,
-	{ 362, 636, 0, 0 } ,
-	{ 60, 44, offsetof(AndroidMonth_t143, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 363, 641, 0, 0 } ,
-	{ 364, 641, 0, 0 } ,
-	{ 365, 641, 0, 0 } ,
-	{ 366, 641, 0, 0 } ,
-	{ 367, 641, 0, 0 } ,
-	{ 368, 641, 0, 0 } ,
-	{ 369, 641, 0, 0 } ,
-	{ 370, 641, 0, 0 } ,
-	{ 371, 641, 0, 0 } ,
-	{ 372, 641, 0, 0 } ,
-	{ 373, 641, 0, 0 } ,
-	{ 374, 641, 0, 0 } ,
-	{ 375, 636, 0, 0 } ,
-	{ 376, 636, 0, 0 } ,
-	{ 377, 636, 0, 0 } ,
-	{ 378, 636, 0, 0 } ,
-	{ 60, 44, offsetof(GoogleGender_t145, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 379, 645, 0, 0 } ,
-	{ 380, 645, 0, 0 } ,
-	{ 381, 645, 0, 0 } ,
-	{ 340, 636, 0, 0 } ,
-	{ 347, 636, 0, 0 } ,
-	{ 342, 636, 0, 0 } ,
-	{ 341, 636, 0, 0 } ,
-	{ 339, 636, 0, 0 } ,
-	{ 60, 44, offsetof(GADBannerSize_t147, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 382, 649, 0, 0 } ,
-	{ 383, 649, 0, 0 } ,
-	{ 384, 649, 0, 0 } ,
-	{ 385, 649, 0, 0 } ,
-	{ 386, 649, 0, 0 } ,
-	{ 60, 44, offsetof(GADInAppResolution_t148, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 387, 651, 0, 0 } ,
-	{ 388, 651, 0, 0 } ,
-	{ 389, 651, 0, 0 } ,
-	{ 390, 651, 0, 0 } ,
-	{ 60, 44, offsetof(GPAchievementState_t149, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 391, 653, 0, 0 } ,
-	{ 392, 653, 0, 0 } ,
-	{ 393, 653, 0, 0 } ,
-	{ 60, 44, offsetof(GPAchievementType_t150, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 394, 656, 0, 0 } ,
-	{ 395, 656, 0, 0 } ,
-	{ 60, 44, offsetof(GPBoardTimeSpan_t151, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 396, 659, 0, 0 } ,
-	{ 397, 659, 0, 0 } ,
-	{ 398, 659, 0, 0 } ,
-	{ 60, 44, offsetof(GPCollectionType_t152, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 399, 661, 0, 0 } ,
-	{ 400, 661, 0, 0 } ,
-	{ 60, 44, offsetof(GPConnectionState_t153, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 401, 663, 0, 0 } ,
-	{ 402, 663, 0, 0 } ,
-	{ 403, 663, 0, 0 } ,
-	{ 404, 663, 0, 0 } ,
-	{ 60, 44, offsetof(GPGameRequestType_t154, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 405, 666, 0, 0 } ,
-	{ 406, 666, 0, 0 } ,
-	{ 60, 44, offsetof(GPLogLevel_t155, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 359, 669, 0, 0 } ,
-	{ 360, 669, 0, 0 } ,
-	{ 361, 669, 0, 0 } ,
-	{ 362, 669, 0, 0 } ,
-	{ 60, 44, offsetof(GP_AppStateStatusCodes_t156, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 407, 672, 0, 0 } ,
-	{ 408, 672, 0, 0 } ,
-	{ 409, 672, 0, 0 } ,
-	{ 410, 672, 0, 0 } ,
-	{ 411, 672, 0, 0 } ,
-	{ 412, 672, 0, 0 } ,
-	{ 413, 672, 0, 0 } ,
-	{ 414, 672, 0, 0 } ,
-	{ 415, 672, 0, 0 } ,
-	{ 416, 672, 0, 0 } ,
-	{ 417, 672, 0, 0 } ,
-	{ 418, 672, 0, 0 } ,
-	{ 419, 672, 0, 0 } ,
-	{ 420, 672, 0, 0 } ,
-	{ 60, 44, offsetof(GP_ConnectionResultCode_t157, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 421, 674, 0, 0 } ,
-	{ 422, 674, 0, 0 } ,
-	{ 423, 674, 0, 0 } ,
-	{ 424, 674, 0, 0 } ,
-	{ 425, 674, 0, 0 } ,
-	{ 426, 674, 0, 0 } ,
-	{ 427, 674, 0, 0 } ,
-	{ 428, 674, 0, 0 } ,
-	{ 429, 674, 0, 0 } ,
-	{ 430, 674, 0, 0 } ,
-	{ 431, 674, 0, 0 } ,
-	{ 432, 674, 0, 0 } ,
-	{ 433, 674, 0, 0 } ,
-	{ 434, 674, 0, 0 } ,
-	{ 435, 674, 0, 0 } ,
-	{ 436, 674, 0, 0 } ,
-	{ 437, 674, 0, 0 } ,
-	{ 60, 44, offsetof(GP_GamesActivityResultCodes_t158, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 329, 677, 0, 0 } ,
-	{ 330, 677, 0, 0 } ,
-	{ 331, 677, 0, 0 } ,
-	{ 438, 677, 0, 0 } ,
-	{ 439, 677, 0, 0 } ,
-	{ 440, 677, 0, 0 } ,
-	{ 441, 677, 0, 0 } ,
-	{ 442, 677, 0, 0 } ,
-	{ 443, 677, 0, 0 } ,
-	{ 444, 677, 0, 0 } ,
-	{ 445, 677, 0, 0 } ,
-	{ 60, 44, offsetof(GP_GamesStatusCodes_t159, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 407, 680, 0, 0 } ,
-	{ 408, 680, 0, 0 } ,
-	{ 409, 680, 0, 0 } ,
-	{ 410, 680, 0, 0 } ,
-	{ 411, 680, 0, 0 } ,
-	{ 412, 680, 0, 0 } ,
-	{ 413, 680, 0, 0 } ,
-	{ 446, 680, 0, 0 } ,
-	{ 447, 680, 0, 0 } ,
-	{ 448, 680, 0, 0 } ,
-	{ 415, 680, 0, 0 } ,
-	{ 416, 680, 0, 0 } ,
-	{ 449, 680, 0, 0 } ,
-	{ 450, 680, 0, 0 } ,
-	{ 451, 680, 0, 0 } ,
-	{ 452, 680, 0, 0 } ,
-	{ 453, 680, 0, 0 } ,
-	{ 454, 680, 0, 0 } ,
-	{ 455, 680, 0, 0 } ,
-	{ 456, 680, 0, 0 } ,
-	{ 457, 680, 0, 0 } ,
-	{ 458, 680, 0, 0 } ,
-	{ 459, 680, 0, 0 } ,
-	{ 460, 680, 0, 0 } ,
-	{ 461, 680, 0, 0 } ,
-	{ 462, 680, 0, 0 } ,
-	{ 463, 680, 0, 0 } ,
-	{ 464, 680, 0, 0 } ,
-	{ 465, 680, 0, 0 } ,
-	{ 466, 680, 0, 0 } ,
-	{ 467, 680, 0, 0 } ,
-	{ 468, 680, 0, 0 } ,
-	{ 469, 680, 0, 0 } ,
-	{ 470, 680, 0, 0 } ,
-	{ 471, 680, 0, 0 } ,
-	{ 472, 680, 0, 0 } ,
-	{ 473, 680, 0, 0 } ,
-	{ 474, 680, 0, 0 } ,
-	{ 475, 680, 0, 0 } ,
-	{ 60, 44, offsetof(GP_InvitationType_t160, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 476, 682, 0, 0 } ,
-	{ 477, 682, 0, 0 } ,
-	{ 60, 44, offsetof(GP_RTM_MessageType_t162, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 478, 687, 0, 0 } ,
-	{ 479, 687, 0, 0 } ,
-	{ 60, 44, offsetof(GP_RTM_PackageType_t163, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 480, 690, 0, 0 } ,
-	{ 481, 690, 0, 0 } ,
-	{ 60, 44, offsetof(GP_RTM_ParticipantStatus_t164, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 482, 693, 0, 0 } ,
-	{ 483, 693, 0, 0 } ,
-	{ 484, 693, 0, 0 } ,
-	{ 485, 693, 0, 0 } ,
-	{ 486, 693, 0, 0 } ,
-	{ 487, 693, 0, 0 } ,
-	{ 488, 693, 0, 0 } ,
-	{ 60, 44, offsetof(GP_RTM_RoomStatus_t165, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 489, 696, 0, 0 } ,
-	{ 490, 696, 0, 0 } ,
-	{ 491, 696, 0, 0 } ,
-	{ 492, 696, 0, 0 } ,
-	{ 493, 696, 0, 0 } ,
-	{ 60, 44, offsetof(GP_QuestSortOrder_t166, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 494, 699, 0, 0 } ,
-	{ 495, 699, 0, 0 } ,
-	{ 60, 44, offsetof(GP_QuestState_t167, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 496, 702, 0, 0 } ,
-	{ 497, 702, 0, 0 } ,
-	{ 498, 702, 0, 0 } ,
-	{ 499, 702, 0, 0 } ,
-	{ 500, 702, 0, 0 } ,
-	{ 501, 702, 0, 0 } ,
-	{ 60, 44, offsetof(GP_QuestsSelect_t168, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 502, 705, 0, 0 } ,
-	{ 503, 705, 0, 0 } ,
-	{ 504, 705, 0, 0 } ,
-	{ 505, 705, 0, 0 } ,
-	{ 506, 705, 0, 0 } ,
-	{ 507, 705, 0, 0 } ,
-	{ 508, 705, 0, 0 } ,
-	{ 509, 705, 0, 0 } ,
-	{ 60, 44, offsetof(GP_TBM_MatchStatus_t169, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 510, 708, 0, 0 } ,
-	{ 511, 708, 0, 0 } ,
-	{ 512, 708, 0, 0 } ,
-	{ 513, 708, 0, 0 } ,
-	{ 514, 708, 0, 0 } ,
-	{ 60, 44, offsetof(GP_TBM_MatchTurnStatus_t170, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 515, 711, 0, 0 } ,
-	{ 516, 711, 0, 0 } ,
-	{ 517, 711, 0, 0 } ,
-	{ 518, 711, 0, 0 } ,
-	{ 60, 44, offsetof(GP_TBM_MatchesSortOrder_t171, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 519, 714, 0, 0 } ,
-	{ 520, 714, 0, 0 } ,
-	{ 521, 538, 0, 0 } ,
-	{ 522, 538, 0, 0 } ,
-	{ 523, 538, 0, 0 } ,
-	{ 524, 538, 0, 0 } ,
-	{ 525, 538, 0, 0 } ,
-	{ 526, 538, 0, 0 } ,
-	{ 527, 538, 0, 0 } ,
-	{ 528, 538, 0, 0 } ,
-	{ 529, 538, 0, 0 } ,
-	{ 530, 538, 0, 0 } ,
-	{ 531, 538, 0, 0 } ,
-	{ 532, 538, 0, 0 } ,
-	{ 533, 538, 0, 0 } ,
-	{ 534, 538, 0, 0 } ,
-	{ 535, 538, 0, 0 } ,
-	{ 536, 538, 0, 0 } ,
-	{ 537, 538, 0, 0 } ,
-	{ 538, 538, 0, 0 } ,
-	{ 539, 538, 0, 0 } ,
-	{ 540, 538, 0, 0 } ,
-	{ 541, 538, 0, 0 } ,
-	{ 542, 538, 0, 0 } ,
-	{ 543, 538, 0, 0 } ,
-	{ 544, 538, 0, 0 } ,
-	{ 545, 538, 0, 0 } ,
-	{ 546, 538, 0, 0 } ,
-	{ 547, 538, 0, 0 } ,
-	{ 548, 538, 0, 0 } ,
-	{ 549, 538, 0, 0 } ,
-	{ 550, 538, 0, 0 } ,
-	{ 522, 538, 0, 0 } ,
-	{ 523, 538, 0, 0 } ,
-	{ 530, 538, 0, 0 } ,
-	{ 531, 538, 0, 0 } ,
-	{ 526, 538, 0, 0 } ,
-	{ 527, 538, 0, 0 } ,
-	{ 52, 509, offsetof(AndroidADBanner_t175, ____id_2), 0 } ,
-	{ 279, 579, offsetof(AndroidADBanner_t175, ____size_3), 0 } ,
-	{ 280, 580, offsetof(AndroidADBanner_t175, ____anchor_4), 0 } ,
-	{ 281, 516, offsetof(AndroidADBanner_t175, ____IsLoaded_5), 0 } ,
-	{ 282, 516, offsetof(AndroidADBanner_t175, ____IsOnScreen_6), 0 } ,
-	{ 283, 516, offsetof(AndroidADBanner_t175, ___firstLoad_7), 0 } ,
-	{ 285, 516, offsetof(AndroidADBanner_t175, ___destroyOnLoad_8), 0 } ,
-	{ 284, 516, offsetof(AndroidADBanner_t175, ____ShowOnLoad_9), 0 } ,
-	{ 286, 509, offsetof(AndroidADBanner_t175, ____width_10), 0 } ,
-	{ 287, 509, offsetof(AndroidADBanner_t175, ____height_11), 0 } ,
-	{ 288, 581, offsetof(AndroidADBanner_t175, ____OnLoadedAction_12), 0 } ,
-	{ 289, 581, offsetof(AndroidADBanner_t175, ____OnFailedLoadingAction_13), 0 } ,
-	{ 290, 581, offsetof(AndroidADBanner_t175, ____OnOpenedAction_14), 0 } ,
-	{ 291, 581, offsetof(AndroidADBanner_t175, ____OnClosedAction_15), 0 } ,
-	{ 292, 581, offsetof(AndroidADBanner_t175, ____OnLeftApplicationAction_16), 0 } ,
-	{ 293, 582, offsetof(AndroidADBanner_t175_StaticFields, ___U3CU3Ef__amU24cacheF_17), 100 } ,
-	{ 294, 582, offsetof(AndroidADBanner_t175_StaticFields, ___U3CU3Ef__amU24cache10_18), 101 } ,
-	{ 295, 582, offsetof(AndroidADBanner_t175_StaticFields, ___U3CU3Ef__amU24cache11_19), 102 } ,
-	{ 296, 582, offsetof(AndroidADBanner_t175_StaticFields, ___U3CU3Ef__amU24cache12_20), 103 } ,
-	{ 297, 582, offsetof(AndroidADBanner_t175_StaticFields, ___U3CU3Ef__amU24cache13_21), 104 } ,
-	{ 551, 727, offsetof(AndroidActivityResult_t176, ____code_0), 0 } ,
-	{ 552, 496, offsetof(AndroidActivityResult_t176, ____requestId_1), 0 } ,
-	{ 553, 730, offsetof(AndroidGameActivityResult_t177, ___code_0), 0 } ,
-	{ 554, 735, offsetof(GADBannerIdFactory_t179_StaticFields, ____nextId_0), 0 } ,
-	{ 52, 79, offsetof(GPAchievement_t180, ____id_0), 0 } ,
-	{ 54, 79, offsetof(GPAchievement_t180, ____name_1), 0 } ,
-	{ 555, 79, offsetof(GPAchievement_t180, ____description_2), 0 } ,
-	{ 556, 509, offsetof(GPAchievement_t180, ____currentSteps_3), 0 } ,
-	{ 557, 509, offsetof(GPAchievement_t180, ____totalSteps_4), 0 } ,
-	{ 558, 737, offsetof(GPAchievement_t180, ____type_5), 0 } ,
-	{ 559, 738, offsetof(GPAchievement_t180, ____state_6), 0 } ,
-	{ 560, 499, offsetof(GPGameRequest_t181, ___id_0), 0 } ,
-	{ 561, 499, offsetof(GPGameRequest_t181, ___playload_1), 0 } ,
-	{ 562, 741, offsetof(GPGameRequest_t181, ___expirationTimestamp_2), 0 } ,
-	{ 563, 741, offsetof(GPGameRequest_t181, ___creationTimestamp_3), 0 } ,
-	{ 564, 499, offsetof(GPGameRequest_t181, ___sender_4), 0 } ,
-	{ 565, 742, offsetof(GPGameRequest_t181, ___type_5), 0 } ,
-	{ 52, 79, offsetof(GPLeaderBoard_t184, ____id_0), 0 } ,
-	{ 54, 79, offsetof(GPLeaderBoard_t184, ____name_1), 0 } ,
-	{ 566, 745, offsetof(GPLeaderBoard_t184, ___SocsialCollection_2), 0 } ,
-	{ 567, 745, offsetof(GPLeaderBoard_t184, ___GlobalCollection_3), 0 } ,
-	{ 568, 746, offsetof(GPLeaderBoard_t184, ___currentPlayerRank_4), 0 } ,
-	{ 569, 749, offsetof(GPScoreCollection_t182, ___AllTimeScores_0), 0 } ,
-	{ 570, 749, offsetof(GPScoreCollection_t182, ___WeekScores_1), 0 } ,
-	{ 571, 749, offsetof(GPScoreCollection_t182, ___TodayScores_2), 0 } ,
-	{ 572, 499, offsetof(GP_Invite_t187, ___Id_0), 0 } ,
-	{ 573, 741, offsetof(GP_Invite_t187, ___CreationTimestamp_1), 0 } ,
-	{ 574, 751, offsetof(GP_Invite_t187, ___InvitationType_2), 0 } ,
-	{ 575, 752, offsetof(GP_Invite_t187, ___Variant_3), 0 } ,
-	{ 576, 753, offsetof(GP_Invite_t187, ___Participant_4), 0 } ,
-	{ 52, 79, offsetof(GP_Participant_t186, ____id_0), 0 } ,
-	{ 577, 79, offsetof(GP_Participant_t186, ____playerid_1), 0 } ,
-	{ 578, 79, offsetof(GP_Participant_t186, ____HiResImageUrl_2), 0 } ,
-	{ 579, 79, offsetof(GP_Participant_t186, ____IconImageUrl_3), 0 } ,
-	{ 580, 79, offsetof(GP_Participant_t186, ____DisplayName_4), 0 } ,
-	{ 581, 757, offsetof(GP_Participant_t186, ____result_5), 0 } ,
-	{ 582, 758, offsetof(GP_Participant_t186, ____status_6), 0 } ,
-	{ 583, 509, offsetof(GP_ParticipantResult_t188, ____Placing_0), 0 } ,
-	{ 584, 509, offsetof(GP_ParticipantResult_t188, ____Result_1), 0 } ,
-	{ 585, 509, offsetof(GP_ParticipantResult_t188, ____VersionCode_2), 0 } ,
-	{ 586, 79, offsetof(GP_ParticipantResult_t188, ____ParticipantId_3), 0 } ,
-	{ 587, 761, 0, 0 } ,
-	{ 588, 79, offsetof(GP_RTM_Network_Package_t189, ____playerId_1), 0 } ,
-	{ 589, 762, offsetof(GP_RTM_Network_Package_t189, ____buffer_2), 0 } ,
-	{ 582, 765, offsetof(GP_RTM_Result_t190, ____status_0), 0 } ,
-	{ 590, 499, offsetof(GP_RTM_Result_t190, ____roomId_1), 0 } ,
-	{ 560, 499, offsetof(GP_RTM_Room_t192, ___id_0), 0 } ,
-	{ 591, 499, offsetof(GP_RTM_Room_t192, ___creatorId_1), 0 } ,
-	{ 3, 768, offsetof(GP_RTM_Room_t192, ___status_2), 0 } ,
-	{ 563, 741, offsetof(GP_RTM_Room_t192, ___creationTimestamp_3), 0 } ,
-	{ 592, 769, offsetof(GP_RTM_Room_t192, ___participants_4), 0 } ,
-	{ 593, 772, offsetof(GoogleCloudResult_t193, ____response_0), 0 } ,
-	{ 594, 79, offsetof(GoogleCloudResult_t193, ____message_1), 0 } ,
-	{ 595, 509, offsetof(GoogleCloudResult_t193, ____stateKey_2), 0 } ,
-	{ 596, 773, offsetof(GoogleCloudResult_t193, ___stateData_3), 0 } ,
-	{ 597, 773, offsetof(GoogleCloudResult_t193, ___serverConflictData_4), 0 } ,
-	{ 598, 499, offsetof(GoogleCloudResult_t193, ___resolvedVersion_5), 0 } ,
-	{ 553, 776, offsetof(GooglePlayConnectionResult_t194, ___code_0), 0 } ,
-	{ 599, 511, offsetof(GooglePlayConnectionResult_t194, ___HasResolution_1), 0 } ,
-	{ 551, 779, offsetof(GooglePlayGiftRequestResult_t195, ____code_0), 0 } ,
-	{ 593, 782, offsetof(GooglePlayResult_t196, ____response_0), 0 } ,
-	{ 594, 79, offsetof(GooglePlayResult_t196, ____message_1), 0 } ,
-	{ 572, 499, offsetof(GP_Event_t197, ___Id_0), 0 } ,
-	{ 600, 499, offsetof(GP_Event_t197, ___Description_1), 0 } ,
-	{ 601, 499, offsetof(GP_Event_t197, ___IconImageUrl_2), 0 } ,
-	{ 602, 499, offsetof(GP_Event_t197, ___FormattedValue_3), 0 } ,
-	{ 603, 741, offsetof(GP_Event_t197, ___Value_4), 0 } ,
-	{ 604, 785, offsetof(GP_Event_t197, ____icon_5), 0 } ,
-	{ 572, 499, offsetof(GP_Quest_t198, ___Id_0), 0 } ,
-	{ 309, 499, offsetof(GP_Quest_t198, ___Name_1), 0 } ,
-	{ 600, 499, offsetof(GP_Quest_t198, ___Description_2), 0 } ,
-	{ 601, 499, offsetof(GP_Quest_t198, ___IconImageUrl_3), 0 } ,
-	{ 605, 499, offsetof(GP_Quest_t198, ___BannerImageUrl_4), 0 } ,
-	{ 606, 788, offsetof(GP_Quest_t198, ___state_5), 0 } ,
-	{ 607, 741, offsetof(GP_Quest_t198, ___LastUpdatedTimestamp_6), 0 } ,
-	{ 608, 741, offsetof(GP_Quest_t198, ___AcceptedTimestamp_7), 0 } ,
-	{ 609, 741, offsetof(GP_Quest_t198, ___EndTimestamp_8), 0 } ,
-	{ 604, 785, offsetof(GP_Quest_t198, ____icon_9), 0 } ,
-	{ 610, 785, offsetof(GP_Quest_t198, ____banner_10), 0 } ,
-	{ 611, 79, offsetof(GP_GCM_RegistrationResult_t199, ____RegistrationDeviceId_2), 0 } ,
-	{ 612, 499, offsetof(GP_GamesResult_t200, ___leaderboardId_2), 0 } ,
-	{ 613, 499, offsetof(GP_GamesResult_t200, ___achievementId_3), 0 } ,
-	{ 614, 499, offsetof(GP_QuestResult_t201, ___questId_2), 0 } ,
-	{ 615, 499, offsetof(GP_QuestResult_t201, ___reward_3), 0 } ,
-	{ 616, 795, offsetof(GP_QuestResult_t201, ___quest_4), 0 } ,
-	{ 617, 799, offsetof(GP_SnapshotConflict_t203, ____s1_0), 0 } ,
-	{ 618, 799, offsetof(GP_SnapshotConflict_t203, ____s2_1), 0 } ,
-	{ 619, 799, offsetof(GP_SpanshotLoadResult_t204, ____snapshot_2), 0 } ,
-	{ 620, 804, offsetof(AN_InvitationInboxCloseResult_t205, ____resultCode_2), 0 } ,
-	{ 621, 79, offsetof(GP_DeleteSnapshotResult_t206, ____SnapshotId_2), 0 } ,
-	{ 622, 499, offsetof(GP_TBM_CancelMatchResult_t207, ___MatchId_2), 0 } ,
-	{ 623, 811, offsetof(GP_TBM_LeaveMatchResult_t209, ___Match_2), 0 } ,
-	{ 623, 811, offsetof(GP_TBM_LoadMatchResult_t210, ___Match_2), 0 } ,
-	{ 624, 816, offsetof(GP_TBM_LoadMatchesResult_t212, ___LoadedMatches_2), 0 } ,
-	{ 623, 811, offsetof(GP_TBM_MatchInitiatedResult_t213, ___Match_2), 0 } ,
-	{ 625, 822, offsetof(GP_TBM_MatchReceivedResult_t214, ____Match_0), 0 } ,
-	{ 626, 79, offsetof(GP_TBM_MatchRemovedResult_t215, ____MatchId_0), 0 } ,
-	{ 623, 811, offsetof(GP_TBM_UpdateMatchResult_t216, ___Match_2), 0 } ,
-	{ 627, 829, offsetof(GP_Snapshot_t202, ___meta_0), 0 } ,
-	{ 628, 773, offsetof(GP_Snapshot_t202, ___bytes_1), 0 } ,
-	{ 629, 499, offsetof(GP_Snapshot_t202, ___stringData_2), 0 } ,
-	{ 630, 499, offsetof(GP_SnapshotMeta_t217, ___Title_0), 0 } ,
-	{ 600, 499, offsetof(GP_SnapshotMeta_t217, ___Description_1), 0 } ,
-	{ 631, 499, offsetof(GP_SnapshotMeta_t217, ___CoverImageUrl_2), 0 } ,
-	{ 632, 741, offsetof(GP_SnapshotMeta_t217, ___LastModifiedTimestamp_3), 0 } ,
-	{ 633, 741, offsetof(GP_SnapshotMeta_t217, ___TotalPlayedTime_4), 0 } ,
-	{ 572, 499, offsetof(GP_TBM_Match_t208, ___Id_0), 0 } ,
-	{ 634, 499, offsetof(GP_TBM_Match_t208, ___RematchId_1), 0 } ,
-	{ 635, 499, offsetof(GP_TBM_Match_t208, ___CreatorId_2), 0 } ,
-	{ 636, 499, offsetof(GP_TBM_Match_t208, ___LastUpdaterId_3), 0 } ,
-	{ 637, 499, offsetof(GP_TBM_Match_t208, ___PendingParticipantId_4), 0 } ,
-	{ 638, 752, offsetof(GP_TBM_Match_t208, ___MatchNumber_5), 0 } ,
-	{ 600, 499, offsetof(GP_TBM_Match_t208, ___Description_6), 0 } ,
-	{ 639, 752, offsetof(GP_TBM_Match_t208, ___AvailableAutoMatchSlots_7), 0 } ,
-	{ 573, 741, offsetof(GP_TBM_Match_t208, ___CreationTimestamp_8), 0 } ,
-	{ 607, 741, offsetof(GP_TBM_Match_t208, ___LastUpdatedTimestamp_9), 0 } ,
-	{ 640, 832, offsetof(GP_TBM_Match_t208, ___Status_10), 0 } ,
-	{ 641, 833, offsetof(GP_TBM_Match_t208, ___TurnStatus_11), 0 } ,
-	{ 642, 511, offsetof(GP_TBM_Match_t208, ___CanRematch_12), 0 } ,
-	{ 575, 752, offsetof(GP_TBM_Match_t208, ___Variant_13), 0 } ,
-	{ 643, 752, offsetof(GP_TBM_Match_t208, ___Version_14), 0 } ,
-	{ 644, 773, offsetof(GP_TBM_Match_t208, ___Data_15), 0 } ,
-	{ 645, 773, offsetof(GP_TBM_Match_t208, ___PreviousMatchData_16), 0 } ,
-	{ 646, 769, offsetof(GP_TBM_Match_t208, ___Participants_17), 0 } ,
-	{ 60, 44, offsetof(TOKEN_t218, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 647, 835, 0, 0 } ,
-	{ 648, 835, 0, 0 } ,
-	{ 649, 835, 0, 0 } ,
-	{ 650, 835, 0, 0 } ,
-	{ 651, 835, 0, 0 } ,
-	{ 652, 835, 0, 0 } ,
-	{ 653, 835, 0, 0 } ,
-	{ 654, 835, 0, 0 } ,
-	{ 655, 835, 0, 0 } ,
-	{ 656, 835, 0, 0 } ,
-	{ 657, 835, 0, 0 } ,
-	{ 658, 835, 0, 0 } ,
-	{ 659, 574, 0, 0 } ,
-	{ 660, 574, 0, 0 } ,
-	{ 661, 838, offsetof(Parser_t220, ___json_2), 0 } ,
-	{ 662, 839, offsetof(Parser_t220_StaticFields, ___U3CU3Ef__switchU24map0_3), 110 } ,
-	{ 663, 842, offsetof(Serializer_t222, ___builder_0), 0 } ,
-	{ 664, 848, 0, 0 } ,
-	{ 665, 568, 0, 0 } ,
-	{ 666, 852, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t227, ___U3CwwwU3E__0_0), 0 } ,
-	{ 21, 52, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t227, ___U24PC_1), 0 } ,
-	{ 22, 66, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t227, ___U24current_2), 0 } ,
-	{ 23, 853, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t227, ___U3CU3Ef__this_3), 0 } ,
-	{ 667, 79, offsetof(WWWTextureLoader_t226, ____url_2), 0 } ,
-	{ 668, 855, offsetof(WWWTextureLoader_t226, ___OnLoad_3), 0 } ,
-	{ 669, 856, offsetof(WWWTextureLoader_t226_StaticFields, ___U3CU3Ef__amU24cache2_4), 111 } ,
-	{ 60, 44, offsetof(FBAppRequestActionType_t229, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 670, 858, 0, 0 } ,
-	{ 671, 858, 0, 0 } ,
-	{ 672, 858, 0, 0 } ,
-	{ 673, 858, 0, 0 } ,
-	{ 60, 44, offsetof(FBAppRequestState_t230, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 674, 861, 0, 0 } ,
-	{ 675, 861, 0, 0 } ,
-	{ 676, 869, offsetof(SPFacebook_t242, ____userInfo_6), 0 } ,
-	{ 677, 870, offsetof(SPFacebook_t242, ____friends_7), 0 } ,
-	{ 248, 516, offsetof(SPFacebook_t242, ____IsInited_8), 0 } ,
-	{ 678, 871, offsetof(SPFacebook_t242, ____userScores_9), 0 } ,
-	{ 679, 871, offsetof(SPFacebook_t242, ____appScores_10), 0 } ,
-	{ 680, 509, offsetof(SPFacebook_t242, ___lastSubmitedScore_11), 0 } ,
-	{ 681, 872, offsetof(SPFacebook_t242, ____likes_12), 0 } ,
-	{ 682, 873, offsetof(SPFacebook_t242, ____AppRequests_13), 0 } ,
-	{ 683, 874, offsetof(SPFacebook_t242, ___OnInitCompleteAction_14), 0 } ,
-	{ 684, 875, offsetof(SPFacebook_t242, ___OnPostingCompleteAction_15), 0 } ,
-	{ 685, 876, offsetof(SPFacebook_t242, ___OnFocusChangedAction_16), 0 } ,
-	{ 686, 877, offsetof(SPFacebook_t242, ___OnAuthCompleteAction_17), 0 } ,
-	{ 687, 877, offsetof(SPFacebook_t242, ___OnPaymentCompleteAction_18), 0 } ,
-	{ 688, 877, offsetof(SPFacebook_t242, ___OnUserDataRequestCompleteAction_19), 0 } ,
-	{ 689, 877, offsetof(SPFacebook_t242, ___OnFriendsDataRequestCompleteAction_20), 0 } ,
-	{ 690, 878, offsetof(SPFacebook_t242, ___OnAppRequestCompleteAction_21), 0 } ,
-	{ 691, 877, offsetof(SPFacebook_t242, ___OnAppRequestsLoaded_22), 0 } ,
-	{ 692, 879, offsetof(SPFacebook_t242, ___OnAppScoresRequestCompleteAction_23), 0 } ,
-	{ 693, 879, offsetof(SPFacebook_t242, ___OnPlayerScoresRequestCompleteAction_24), 0 } ,
-	{ 694, 879, offsetof(SPFacebook_t242, ___OnSubmitScoreRequestCompleteAction_25), 0 } ,
-	{ 695, 879, offsetof(SPFacebook_t242, ___OnDeleteScoresRequestCompleteAction_26), 0 } ,
-	{ 696, 879, offsetof(SPFacebook_t242, ___OnLikesListLoadedAction_27), 0 } ,
-	{ 697, 516, offsetof(SPFacebook_t242, ___IsLoginRequestSent_28), 0 } ,
-	{ 698, 880, offsetof(SPFacebook_t242, ___LoginCallbackResult_29), 0 } ,
-	{ 699, 571, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache18_30), 119 } ,
-	{ 700, 881, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache19_31), 120 } ,
-	{ 701, 882, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1A_32), 121 } ,
-	{ 702, 883, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1B_33), 122 } ,
-	{ 703, 883, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1C_34), 123 } ,
-	{ 704, 883, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1D_35), 124 } ,
-	{ 705, 883, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1E_36), 125 } ,
-	{ 706, 884, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache1F_37), 126 } ,
-	{ 707, 883, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache20_38), 127 } ,
-	{ 708, 885, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache21_39), 128 } ,
-	{ 709, 885, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache22_40), 129 } ,
-	{ 710, 885, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache23_41), 130 } ,
-	{ 711, 885, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache24_42), 131 } ,
-	{ 712, 885, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__amU24cache25_43), 132 } ,
-	{ 713, 839, offsetof(SPFacebook_t242_StaticFields, ___U3CU3Ef__switchU24map1_44), 133 } ,
-	{ 572, 499, offsetof(FBAppRequest_t246, ___Id_0), 0 } ,
-	{ 714, 499, offsetof(FBAppRequest_t246, ___ApplicationId_1), 0 } ,
-	{ 715, 499, offsetof(FBAppRequest_t246, ___Message_2), 0 } ,
-	{ 716, 891, offsetof(FBAppRequest_t246, ___ActionType_3), 0 } ,
-	{ 717, 892, offsetof(FBAppRequest_t246, ___State_4), 0 } ,
-	{ 718, 499, offsetof(FBAppRequest_t246, ___FromId_5), 0 } ,
-	{ 719, 499, offsetof(FBAppRequest_t246, ___FromName_6), 0 } ,
-	{ 720, 893, offsetof(FBAppRequest_t246, ___CreatedTime_7), 0 } ,
-	{ 721, 499, offsetof(FBAppRequest_t246, ___CreatedTimeString_8), 0 } ,
-	{ 644, 499, offsetof(FBAppRequest_t246, ___Data_9), 0 } ,
-	{ 722, 894, offsetof(FBAppRequest_t246, ___Object_10), 0 } ,
-	{ 723, 877, offsetof(FBAppRequest_t246, ___OnDeleteRequestFinished_11), 0 } ,
-	{ 259, 883, offsetof(FBAppRequest_t246_StaticFields, ___U3CU3Ef__amU24cacheC_12), 148 } ,
-	{ 724, 896, offsetof(FBAppRequestResult_t248, ___Result_0), 0 } ,
-	{ 725, 499, offsetof(FBAppRequestResult_t248, ___ReuqestId_1), 0 } ,
-	{ 726, 630, offsetof(FBAppRequestResult_t248, ___Recipients_2), 0 } ,
-	{ 727, 511, offsetof(FBAppRequestResult_t248, ___IsSucceeded_3), 0 } ,
-	{ 560, 499, offsetof(FBLikeInfo_t249, ___id_0), 0 } ,
-	{ 728, 499, offsetof(FBLikeInfo_t249, ___name_1), 0 } ,
-	{ 729, 499, offsetof(FBLikeInfo_t249, ___category_2), 0 } ,
-	{ 572, 499, offsetof(FBObject_t245, ___Id_0), 0 } ,
-	{ 730, 630, offsetof(FBObject_t245, ___ImageUrls_1), 0 } ,
-	{ 630, 499, offsetof(FBObject_t245, ___Title_2), 0 } ,
-	{ 731, 499, offsetof(FBObject_t245, ___Type_3), 0 } ,
-	{ 720, 893, offsetof(FBObject_t245, ___CreatedTime_4), 0 } ,
-	{ 721, 499, offsetof(FBObject_t245, ___CreatedTimeString_5), 0 } ,
-	{ 584, 880, offsetof(FBPostResult_t250, ____Result_0), 0 } ,
-	{ 732, 79, offsetof(FBPostResult_t250, ____PostId_1), 0 } ,
-	{ 733, 516, offsetof(FBPostResult_t250, ____IsSucceeded_2), 0 } ,
-	{ 734, 499, offsetof(FBScore_t253, ___UserId_0), 0 } ,
-	{ 735, 499, offsetof(FBScore_t253, ___UserName_1), 0 } ,
-	{ 736, 499, offsetof(FBScore_t253, ___AppId_2), 0 } ,
-	{ 737, 499, offsetof(FBScore_t253, ___AppName_3), 0 } ,
-	{ 738, 752, offsetof(FBScore_t253, ___value_4), 0 } ,
-	{ 739, 901, offsetof(FBScore_t253, ___profileImages_5), 0 } ,
-	{ 740, 902, offsetof(FBScore_t253, ___OnProfileImageLoaded_6), 0 } ,
-	{ 741, 903, offsetof(FBScore_t253_StaticFields, ___U3CU3Ef__amU24cache7_7), 150 } ,
-	{ 60, 44, offsetof(FacebookProfileImageSize_t254, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 742, 905, 0, 0 } ,
-	{ 743, 905, 0, 0 } ,
-	{ 744, 905, 0, 0 } ,
-	{ 745, 905, 0, 0 } ,
-	{ 52, 79, offsetof(FacebookUserInfo_t231, ____id_0), 0 } ,
-	{ 54, 79, offsetof(FacebookUserInfo_t231, ____name_1), 0 } ,
-	{ 746, 79, offsetof(FacebookUserInfo_t231, ____first_name_2), 0 } ,
-	{ 747, 79, offsetof(FacebookUserInfo_t231, ____last_name_3), 0 } ,
-	{ 748, 79, offsetof(FacebookUserInfo_t231, ____username_4), 0 } ,
-	{ 749, 79, offsetof(FacebookUserInfo_t231, ____profile_url_5), 0 } ,
-	{ 750, 79, offsetof(FacebookUserInfo_t231, ____email_6), 0 } ,
-	{ 751, 79, offsetof(FacebookUserInfo_t231, ____location_7), 0 } ,
-	{ 752, 79, offsetof(FacebookUserInfo_t231, ____locale_8), 0 } ,
-	{ 753, 79, offsetof(FacebookUserInfo_t231, ____rawJSON_9), 0 } ,
-	{ 754, 907, offsetof(FacebookUserInfo_t231, ____gender_10), 0 } ,
-	{ 739, 901, offsetof(FacebookUserInfo_t231, ___profileImages_11), 0 } ,
-	{ 740, 908, offsetof(FacebookUserInfo_t231, ___OnProfileImageLoaded_12), 0 } ,
-	{ 260, 909, offsetof(FacebookUserInfo_t231_StaticFields, ___U3CU3Ef__amU24cacheD_13), 152 } ,
-	{ 755, 79, offsetof(FBLikesRetrieveTask_t256, ____userId_4), 0 } ,
-	{ 756, 79, offsetof(FBPostingTask_t257, ____toId_4), 0 } ,
-	{ 757, 79, offsetof(FBPostingTask_t257, ____link_5), 0 } ,
-	{ 758, 79, offsetof(FBPostingTask_t257, ____linkName_6), 0 } ,
-	{ 759, 79, offsetof(FBPostingTask_t257, ____linkCaption_7), 0 } ,
-	{ 760, 79, offsetof(FBPostingTask_t257, ____linkDescription_8), 0 } ,
-	{ 761, 79, offsetof(FBPostingTask_t257, ____picture_9), 0 } ,
-	{ 762, 79, offsetof(FBPostingTask_t257, ____actionName_10), 0 } ,
-	{ 763, 79, offsetof(FBPostingTask_t257, ____actionLink_11), 0 } ,
-	{ 764, 79, offsetof(FBPostingTask_t257, ____reference_12), 0 } ,
-	{ 733, 516, offsetof(FB_APIResult_t258, ____IsSucceeded_0), 0 } ,
-	{ 229, 79, offsetof(FB_APIResult_t258, ____data_1), 0 } ,
-	{ 765, 896, offsetof(FB_APIResult_t258, ___Unity_FB_Result_2), 0 } ,
-	{ 666, 852, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U3CwwwU3E__0_0), 0 } ,
-	{ 766, 914, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U3CU24s_34U3E__1_1), 0 } ,
-	{ 767, 915, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U3CkvU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U24current_4), 0 } ,
-	{ 23, 916, offsetof(U3CRequestU3Ec__Iterator2_t260, ___U3CU3Ef__this_5), 0 } ,
-	{ 768, 516, offsetof(FB_GraphAPIRequest_t259, ___IsFirst_4), 0 } ,
-	{ 769, 79, offsetof(FB_GraphAPIRequest_t259, ___GetParams_5), 0 } ,
-	{ 770, 79, offsetof(FB_GraphAPIRequest_t259, ___requestUrl_6), 0 } ,
-	{ 771, 918, offsetof(FB_GraphAPIRequest_t259, ___Headers_7), 0 } ,
-	{ 772, 919, offsetof(FB_GraphAPIRequest_t259, ___form_8), 0 } ,
-	{ 526, 538, 0, 0 } ,
-	{ 527, 538, 0, 0 } ,
-	{ 60, 44, offsetof(InstagramPostResult_t264, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 329, 923, 0, 0 } ,
-	{ 773, 923, 0, 0 } ,
-	{ 774, 923, 0, 0 } ,
-	{ 775, 923, 0, 0 } ,
-	{ 776, 923, 0, 0 } ,
-	{ 684, 925, offsetof(AndroidInstagramManager_t266, ___OnPostingCompleteAction_6), 0 } ,
-	{ 777, 926, offsetof(AndroidInstagramManager_t266_StaticFields, ___U3CU3Ef__amU24cache1_7), 160 } ,
-	{ 778, 516, offsetof(AndroidTwitterManager_t270, ____IsAuthed_6), 0 } ,
-	{ 248, 516, offsetof(AndroidTwitterManager_t270, ____IsInited_7), 0 } ,
-	{ 779, 79, offsetof(AndroidTwitterManager_t270, ____AccessToken_8), 0 } ,
-	{ 780, 79, offsetof(AndroidTwitterManager_t270, ____AccessTokenSecret_9), 0 } ,
-	{ 676, 928, offsetof(AndroidTwitterManager_t270, ____userInfo_10), 0 } ,
-	{ 781, 929, offsetof(AndroidTwitterManager_t270, ___OnTwitterInitedAction_11), 0 } ,
-	{ 686, 929, offsetof(AndroidTwitterManager_t270, ___OnAuthCompleteAction_12), 0 } ,
-	{ 684, 929, offsetof(AndroidTwitterManager_t270, ___OnPostingCompleteAction_13), 0 } ,
-	{ 688, 929, offsetof(AndroidTwitterManager_t270, ___OnUserDataRequestCompleteAction_14), 0 } ,
-	{ 256, 930, offsetof(AndroidTwitterManager_t270_StaticFields, ___U3CU3Ef__amU24cache9_15), 162 } ,
-	{ 257, 930, offsetof(AndroidTwitterManager_t270_StaticFields, ___U3CU3Ef__amU24cacheA_16), 163 } ,
-	{ 258, 930, offsetof(AndroidTwitterManager_t270_StaticFields, ___U3CU3Ef__amU24cacheB_17), 164 } ,
-	{ 259, 930, offsetof(AndroidTwitterManager_t270_StaticFields, ___U3CU3Ef__amU24cacheC_18), 165 } ,
-	{ 782, 932, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CurlU3E__0_0), 0 } ,
-	{ 783, 503, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CplainTextBytesU3E__1_1), 0 } ,
-	{ 784, 932, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CencodedAccessTokenU3E__2_2), 0 } ,
-	{ 785, 504, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CformU3E__3_3), 0 } ,
-	{ 786, 852, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CwwwU3E__4_4), 0 } ,
-	{ 787, 933, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CmapU3E__5_5), 0 } ,
-	{ 21, 52, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U24PC_6), 0 } ,
-	{ 22, 66, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U24current_7), 0 } ,
-	{ 23, 934, offsetof(U3CLoadU3Ec__Iterator3_t274, ___U3CU3Ef__this_8), 0 } ,
-	{ 320, 574, 0, 0 } ,
-	{ 321, 574, 0, 0 } ,
-	{ 788, 574, 0, 0 } ,
-	{ 789, 79, offsetof(TwitterApplicationOnlyToken_t273, ____currentToken_9), 0 } ,
-	{ 771, 918, offsetof(TwitterApplicationOnlyToken_t273, ___Headers_10), 0 } ,
-	{ 790, 937, offsetof(TwitterDataCash_t278_StaticFields, ___tweets_0), 0 } ,
-	{ 791, 938, offsetof(TwitterDataCash_t278_StaticFields, ___users_1), 0 } ,
-	{ 733, 516, offsetof(TWResult_t279, ____IsSucceeded_0), 0 } ,
-	{ 229, 79, offsetof(TWResult_t279, ____data_1), 0 } ,
-	{ 790, 941, offsetof(TW_APIRequstResult_t282, ___tweets_0), 0 } ,
-	{ 791, 942, offsetof(TW_APIRequstResult_t282, ___users_1), 0 } ,
-	{ 792, 630, offsetof(TW_APIRequstResult_t282, ___ids_2), 0 } ,
-	{ 733, 516, offsetof(TW_APIRequstResult_t282, ____IsSucceeded_3), 0 } ,
-	{ 229, 79, offsetof(TW_APIRequstResult_t282, ____data_4), 0 } ,
-	{ 560, 499, offsetof(TweetTemplate_t283, ___id_0), 0 } ,
-	{ 793, 499, offsetof(TweetTemplate_t283, ___user_id_1), 0 } ,
-	{ 794, 499, offsetof(TweetTemplate_t283, ___created_at_2), 0 } ,
-	{ 795, 499, offsetof(TweetTemplate_t283, ___text_3), 0 } ,
-	{ 796, 499, offsetof(TweetTemplate_t283, ___source_4), 0 } ,
-	{ 797, 499, offsetof(TweetTemplate_t283, ___in_reply_to_status_id_5), 0 } ,
-	{ 798, 499, offsetof(TweetTemplate_t283, ___in_reply_to_user_id_6), 0 } ,
-	{ 799, 499, offsetof(TweetTemplate_t283, ___in_reply_to_screen_name_7), 0 } ,
-	{ 800, 499, offsetof(TweetTemplate_t283, ___geo_8), 0 } ,
-	{ 801, 499, offsetof(TweetTemplate_t283, ___place_9), 0 } ,
-	{ 802, 499, offsetof(TweetTemplate_t283, ___lang_10), 0 } ,
-	{ 803, 752, offsetof(TweetTemplate_t283, ___retweet_count_11), 0 } ,
-	{ 804, 752, offsetof(TweetTemplate_t283, ___favorite_count_12), 0 } ,
-	{ 753, 79, offsetof(TwitterStatus_t284, ____rawJSON_0), 0 } ,
-	{ 805, 79, offsetof(TwitterStatus_t284, ____text_1), 0 } ,
-	{ 806, 79, offsetof(TwitterStatus_t284, ____geo_2), 0 } ,
-	{ 807, 538, 0, 0 } ,
-	{ 808, 538, 0, 0 } ,
-	{ 52, 79, offsetof(TwitterUserInfo_t268, ____id_4), 0 } ,
-	{ 555, 79, offsetof(TwitterUserInfo_t268, ____description_5), 0 } ,
-	{ 54, 79, offsetof(TwitterUserInfo_t268, ____name_6), 0 } ,
-	{ 809, 79, offsetof(TwitterUserInfo_t268, ____screen_name_7), 0 } ,
-	{ 751, 79, offsetof(TwitterUserInfo_t268, ____location_8), 0 } ,
-	{ 810, 79, offsetof(TwitterUserInfo_t268, ____lang_9), 0 } ,
-	{ 753, 79, offsetof(TwitterUserInfo_t268, ____rawJSON_10), 0 } ,
-	{ 811, 79, offsetof(TwitterUserInfo_t268, ____profile_image_url_11), 0 } ,
-	{ 812, 79, offsetof(TwitterUserInfo_t268, ____profile_image_url_https_12), 0 } ,
-	{ 813, 79, offsetof(TwitterUserInfo_t268, ____profile_background_image_url_13), 0 } ,
-	{ 814, 79, offsetof(TwitterUserInfo_t268, ____profile_background_image_url_https_14), 0 } ,
-	{ 815, 785, offsetof(TwitterUserInfo_t268, ____profile_image_15), 0 } ,
-	{ 816, 785, offsetof(TwitterUserInfo_t268, ____profile_background_16), 0 } ,
-	{ 817, 947, offsetof(TwitterUserInfo_t268, ____profile_background_color_17), 0 } ,
-	{ 818, 947, offsetof(TwitterUserInfo_t268, ____profile_text_color_18), 0 } ,
-	{ 819, 509, offsetof(TwitterUserInfo_t268, ____friends_count_19), 0 } ,
-	{ 820, 509, offsetof(TwitterUserInfo_t268, ____statuses_count_20), 0 } ,
-	{ 582, 948, offsetof(TwitterUserInfo_t268, ____status_21), 0 } ,
-	{ 666, 852, offsetof(U3CRequestU3Ec__Iterator4_t288, ___U3CwwwU3E__0_0), 0 } ,
-	{ 21, 52, offsetof(U3CRequestU3Ec__Iterator4_t288, ___U24PC_1), 0 } ,
-	{ 22, 66, offsetof(U3CRequestU3Ec__Iterator4_t288, ___U24current_2), 0 } ,
-	{ 23, 952, offsetof(U3CRequestU3Ec__Iterator4_t288, ___U3CU3Ef__this_3), 0 } ,
-	{ 768, 516, offsetof(TW_APIRequest_t287, ___IsFirst_4), 0 } ,
-	{ 769, 79, offsetof(TW_APIRequest_t287, ___GetParams_5), 0 } ,
-	{ 770, 79, offsetof(TW_APIRequest_t287, ___requestUrl_6), 0 } ,
-	{ 771, 918, offsetof(TW_APIRequest_t287, ___Headers_7), 0 } ,
-	{ 821, 958, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CtsU3E__0_0), 0 } ,
-	{ 822, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_consumer_keyU3E__1_1), 0 } ,
-	{ 823, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_tokenU3E__2_2), 0 } ,
-	{ 824, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_signature_methodU3E__3_3), 0 } ,
-	{ 825, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_timestampU3E__4_4), 0 } ,
-	{ 826, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_nonceU3E__5_5), 0 } ,
-	{ 827, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_versionU3E__6_6), 0 } ,
-	{ 828, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CbaseStringU3E__7_7), 0 } ,
-	{ 829, 959, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CU24s_37U3E__8_8), 0 } ,
-	{ 830, 915, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CentryU3E__9_9), 0 } ,
-	{ 831, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CconsumerSecretU3E__10_10), 0 } ,
-	{ 832, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3Coauth_token_secretU3E__11_11), 0 } ,
-	{ 833, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CsigningKeyU3E__12_12), 0 } ,
-	{ 834, 960, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3ChasherU3E__13_13), 0 } ,
-	{ 835, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CsignatureStringU3E__14_14), 0 } ,
-	{ 836, 932, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CauthorizationHeaderParamsU3E__15_15), 0 } ,
-	{ 837, 852, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CwwwU3E__16_16), 0 } ,
-	{ 838, 961, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CresultU3E__17_17), 0 } ,
-	{ 21, 52, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U24PC_18), 0 } ,
-	{ 22, 66, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U24current_19), 0 } ,
-	{ 23, 962, offsetof(U3CRequestU3Ec__Iterator5_t293, ___U3CU3Ef__this_20), 0 } ,
-	{ 839, 964, offsetof(TW_OAuthAPIRequest_t292, ___OnResult_2), 0 } ,
-	{ 768, 516, offsetof(TW_OAuthAPIRequest_t292, ___IsFirst_3), 0 } ,
-	{ 769, 79, offsetof(TW_OAuthAPIRequest_t292, ___GetParams_4), 0 } ,
-	{ 770, 79, offsetof(TW_OAuthAPIRequest_t292, ___requestUrl_5), 0 } ,
-	{ 771, 918, offsetof(TW_OAuthAPIRequest_t292, ___Headers_6), 0 } ,
-	{ 840, 965, offsetof(TW_OAuthAPIRequest_t292, ___requestParams_7), 0 } ,
-	{ 841, 966, offsetof(TW_OAuthAPIRequest_t292_StaticFields, ___U3CU3Ef__amU24cache6_8), 182 } ,
-	{ 582, 79, offsetof(TwitterPostingTask_t302, ____status_4), 0 } ,
-	{ 842, 785, offsetof(TwitterPostingTask_t302, ____texture_5), 0 } ,
-	{ 843, 971, offsetof(TwitterPostingTask_t302, ____controller_6), 0 } ,
-	{ 844, 509, offsetof(GPScore_t303, ____rank_0), 0 } ,
-	{ 845, 973, offsetof(GPScore_t303, ____score_1), 0 } ,
-	{ 588, 79, offsetof(GPScore_t303, ____playerId_2), 0 } ,
-	{ 846, 79, offsetof(GPScore_t303, ____leaderboardId_3), 0 } ,
-	{ 847, 974, offsetof(GPScore_t303, ____collection_4), 0 } ,
-	{ 848, 975, offsetof(GPScore_t303, ____timeSpan_5), 0 } ,
-	{ 261, 538, 0, 0 } ,
-	{ 849, 574, 0, 0 } ,
-	{ 850, 574, 0, 0 } ,
-	{ 851, 574, 0, 0 } ,
-	{ 852, 511, offsetof(ISDSettings_t304, ___IsfwSettingOpen_6), 0 } ,
-	{ 853, 511, offsetof(ISDSettings_t304, ___IsLibSettingOpen_7), 0 } ,
-	{ 854, 511, offsetof(ISDSettings_t304, ___IslinkerSettingOpne_8), 0 } ,
-	{ 855, 511, offsetof(ISDSettings_t304, ___IscompilerSettingsOpen_9), 0 } ,
-	{ 856, 511, offsetof(ISDSettings_t304, ___IsPlistSettingsOpen_10), 0 } ,
-	{ 857, 630, offsetof(ISDSettings_t304, ___frameworks_11), 0 } ,
-	{ 858, 630, offsetof(ISDSettings_t304, ___libraries_12), 0 } ,
-	{ 859, 630, offsetof(ISDSettings_t304, ___compileFlags_13), 0 } ,
-	{ 860, 630, offsetof(ISDSettings_t304, ___linkFlags_14), 0 } ,
-	{ 861, 630, offsetof(ISDSettings_t304, ___plistkeys_15), 0 } ,
-	{ 862, 630, offsetof(ISDSettings_t304, ___plisttags_16), 0 } ,
-	{ 863, 630, offsetof(ISDSettings_t304, ___plistvalues_17), 0 } ,
-	{ 234, 977, offsetof(ISDSettings_t304_StaticFields, ___instance_18), 0 } ,
-	{ 864, 979, offsetof(InstagramUseExample_t305, ___imageForPosting_2), 0 } ,
-	{ 16, 52, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t306, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t306, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t306, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t306, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t306, ___U24current_4), 0 } ,
-	{ 16, 52, offsetof(U3CPostScreenshotU3Ec__Iterator7_t307, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostScreenshotU3Ec__Iterator7_t307, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostScreenshotU3Ec__Iterator7_t307, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostScreenshotU3Ec__Iterator7_t307, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostScreenshotU3Ec__Iterator7_t307, ___U24current_4), 0 } ,
-	{ 865, 568, offsetof(MSPFacebookUseExample_t313_StaticFields, ___IsUserInfoLoaded_2), 0 } ,
-	{ 866, 568, offsetof(MSPFacebookUseExample_t313_StaticFields, ___IsFrindsInfoLoaded_3), 0 } ,
-	{ 867, 568, offsetof(MSPFacebookUseExample_t313_StaticFields, ___IsAuntifivated_4), 0 } ,
-	{ 868, 984, offsetof(MSPFacebookUseExample_t313, ___ConnectionDependedntButtons_5), 0 } ,
-	{ 869, 985, offsetof(MSPFacebookUseExample_t313, ___connectButton_6), 0 } ,
-	{ 870, 986, offsetof(MSPFacebookUseExample_t313, ___avatar_7), 0 } ,
-	{ 871, 987, offsetof(MSPFacebookUseExample_t313, ___Location_8), 0 } ,
-	{ 872, 987, offsetof(MSPFacebookUseExample_t313, ___Language_9), 0 } ,
-	{ 873, 987, offsetof(MSPFacebookUseExample_t313, ___Mail_10), 0 } ,
-	{ 309, 987, offsetof(MSPFacebookUseExample_t313, ___Name_11), 0 } ,
-	{ 874, 987, offsetof(MSPFacebookUseExample_t313, ___f1_12), 0 } ,
-	{ 875, 987, offsetof(MSPFacebookUseExample_t313, ___f2_13), 0 } ,
-	{ 876, 986, offsetof(MSPFacebookUseExample_t313, ___fi1_14), 0 } ,
-	{ 877, 986, offsetof(MSPFacebookUseExample_t313, ___fi2_15), 0 } ,
-	{ 878, 979, offsetof(MSPFacebookUseExample_t313, ___ImageToShare_16), 0 } ,
-	{ 879, 988, offsetof(MSPFacebookUseExample_t313, ___friends_17), 0 } ,
-	{ 880, 509, offsetof(MSPFacebookUseExample_t313, ___startScore_18), 0 } ,
-	{ 881, 79, offsetof(MSPFacebookUseExample_t313, ___UNION_ASSETS_PAGE_ID_19), 0 } ,
-	{ 864, 979, offsetof(MSPMoreActionsExample_t314, ___imageForPosting_2), 0 } ,
-	{ 16, 52, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t315, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t315, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t315, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t315, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t315, ___U24current_4), 0 } ,
-	{ 16, 52, offsetof(U3CPostScreenshotU3Ec__Iterator9_t316, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostScreenshotU3Ec__Iterator9_t316, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostScreenshotU3Ec__Iterator9_t316, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostScreenshotU3Ec__Iterator9_t316, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostScreenshotU3Ec__Iterator9_t316, ___U24current_4), 0 } ,
-	{ 320, 994, offsetof(MSPTwitterUseExample_t317_StaticFields, ___TWITTER_CONSUMER_KEY_2), 0 } ,
-	{ 321, 994, offsetof(MSPTwitterUseExample_t317_StaticFields, ___TWITTER_CONSUMER_SECRET_3), 0 } ,
-	{ 865, 568, offsetof(MSPTwitterUseExample_t317_StaticFields, ___IsUserInfoLoaded_4), 0 } ,
-	{ 867, 568, offsetof(MSPTwitterUseExample_t317_StaticFields, ___IsAuntifivated_5), 0 } ,
-	{ 878, 979, offsetof(MSPTwitterUseExample_t317, ___ImageToShare_6), 0 } ,
-	{ 869, 985, offsetof(MSPTwitterUseExample_t317, ___connectButton_7), 0 } ,
-	{ 870, 986, offsetof(MSPTwitterUseExample_t317, ___avatar_8), 0 } ,
-	{ 871, 987, offsetof(MSPTwitterUseExample_t317, ___Location_9), 0 } ,
-	{ 872, 987, offsetof(MSPTwitterUseExample_t317, ___Language_10), 0 } ,
-	{ 640, 987, offsetof(MSPTwitterUseExample_t317, ___Status_11), 0 } ,
-	{ 309, 987, offsetof(MSPTwitterUseExample_t317, ___Name_12), 0 } ,
-	{ 882, 984, offsetof(MSPTwitterUseExample_t317, ___AuthDependedButtons_13), 0 } ,
-	{ 865, 568, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_StaticFields, ___IsUserInfoLoaded_2), 0 } ,
-	{ 883, 568, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_StaticFields, ___IsAuntificated_3), 0 } ,
-	{ 868, 984, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___ConnectionDependedntButtons_4), 0 } ,
-	{ 869, 985, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___connectButton_5), 0 } ,
-	{ 870, 986, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___avatar_6), 0 } ,
-	{ 871, 987, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___Location_7), 0 } ,
-	{ 872, 987, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___Language_8), 0 } ,
-	{ 873, 987, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___Mail_9), 0 } ,
-	{ 309, 987, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___Name_10), 0 } ,
-	{ 884, 79, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t319, ___BombItemId_11), 0 } ,
-	{ 684, 925, offsetof(SPInstagram_t321, ___OnPostingCompleteAction_6), 0 } ,
-	{ 777, 926, offsetof(SPInstagram_t321_StaticFields, ___U3CU3Ef__amU24cache1_7), 214 } ,
-	{ 664, 1005, offsetof(SPTwitter_t324_StaticFields, ____instance_2), 0 } ,
-	{ 885, 1006, offsetof(SPTwitter_t324_StaticFields, ____twitterGate_3), 0 } ,
-	{ 781, 929, offsetof(SPTwitter_t324, ___OnTwitterInitedAction_4), 0 } ,
-	{ 686, 929, offsetof(SPTwitter_t324, ___OnAuthCompleteAction_5), 0 } ,
-	{ 684, 929, offsetof(SPTwitter_t324, ___OnPostingCompleteAction_6), 0 } ,
-	{ 688, 929, offsetof(SPTwitter_t324, ___OnUserDataRequestCompleteAction_7), 0 } ,
-	{ 841, 930, offsetof(SPTwitter_t324_StaticFields, ___U3CU3Ef__amU24cache6_8), 216 } ,
-	{ 741, 930, offsetof(SPTwitter_t324_StaticFields, ___U3CU3Ef__amU24cache7_9), 217 } ,
-	{ 255, 930, offsetof(SPTwitter_t324_StaticFields, ___U3CU3Ef__amU24cache8_10), 218 } ,
-	{ 256, 930, offsetof(SPTwitter_t324_StaticFields, ___U3CU3Ef__amU24cache9_11), 219 } ,
-	{ 886, 538, 0, 0 } ,
-	{ 887, 538, 0, 0 } ,
-	{ 888, 538, 0, 0 } ,
-	{ 889, 538, 0, 0 } ,
-	{ 664, 1009, offsetof(MSPIOSSocialManager_t327_StaticFields, ____instance_8), 0 } ,
-	{ 890, 761, 0, 0 } ,
-	{ 891, 761, 0, 0 } ,
-	{ 778, 516, offsetof(IOSTwitterManager_t328, ____IsAuthed_8), 0 } ,
-	{ 248, 516, offsetof(IOSTwitterManager_t328, ____IsInited_9), 0 } ,
-	{ 676, 928, offsetof(IOSTwitterManager_t328, ____userInfo_10), 0 } ,
-	{ 781, 929, offsetof(IOSTwitterManager_t328, ___OnTwitterInitedAction_11), 0 } ,
-	{ 686, 929, offsetof(IOSTwitterManager_t328, ___OnAuthCompleteAction_12), 0 } ,
-	{ 684, 929, offsetof(IOSTwitterManager_t328, ___OnPostingCompleteAction_13), 0 } ,
-	{ 688, 929, offsetof(IOSTwitterManager_t328, ___OnUserDataRequestCompleteAction_14), 0 } ,
-	{ 741, 930, offsetof(IOSTwitterManager_t328_StaticFields, ___U3CU3Ef__amU24cache7_15), 224 } ,
-	{ 255, 930, offsetof(IOSTwitterManager_t328_StaticFields, ___U3CU3Ef__amU24cache8_16), 225 } ,
-	{ 256, 930, offsetof(IOSTwitterManager_t328_StaticFields, ___U3CU3Ef__amU24cache9_17), 226 } ,
-	{ 257, 930, offsetof(IOSTwitterManager_t328_StaticFields, ___U3CU3Ef__amU24cacheA_18), 227 } ,
-	{ 16, 52, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U24current_4), 0 } ,
-	{ 23, 1012, offsetof(U3CPostScreenshotU3Ec__IteratorA_t331, ___U3CU3Ef__this_5), 0 } ,
-	{ 795, 79, offsetof(FacebookPostScreenshotTask_t330, ___text_4), 0 } ,
-	{ 16, 52, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U24current_4), 0 } ,
-	{ 23, 1015, offsetof(U3CPostScreenshotU3Ec__IteratorB_t333, ___U3CU3Ef__this_5), 0 } ,
-	{ 892, 925, offsetof(InstagramPostScreenshotTask_t332, ___OnPostScreenshotCompleteAction_4), 0 } ,
-	{ 795, 79, offsetof(InstagramPostScreenshotTask_t332, ___text_5), 0 } ,
-	{ 669, 926, offsetof(InstagramPostScreenshotTask_t332_StaticFields, ___U3CU3Ef__amU24cache2_6), 238 } ,
-	{ 16, 52, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U24current_4), 0 } ,
-	{ 23, 1018, offsetof(U3CPostScreenshotU3Ec__IteratorC_t335, ___U3CU3Ef__this_5), 0 } ,
-	{ 795, 79, offsetof(TwitterPostScreenshotTask_t334, ___text_4), 0 } ,
-	{ 893, 994, offsetof(GameControllerExample_t337_StaticFields, ___extraMessage_2), 0 } ,
-	{ 777, 1021, offsetof(GameControllerExample_t337_StaticFields, ___U3CU3Ef__amU24cache1_3), 252 } ,
-	{ 60, 44, offsetof(TOKEN_t340, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 647, 1025, 0, 0 } ,
-	{ 648, 1025, 0, 0 } ,
-	{ 649, 1025, 0, 0 } ,
-	{ 650, 1025, 0, 0 } ,
-	{ 651, 1025, 0, 0 } ,
-	{ 652, 1025, 0, 0 } ,
-	{ 653, 1025, 0, 0 } ,
-	{ 654, 1025, 0, 0 } ,
-	{ 655, 1025, 0, 0 } ,
-	{ 656, 1025, 0, 0 } ,
-	{ 657, 1025, 0, 0 } ,
-	{ 658, 1025, 0, 0 } ,
-	{ 660, 574, 0, 0 } ,
-	{ 661, 838, offsetof(Parser_t341, ___json_1), 0 } ,
-	{ 894, 839, offsetof(Parser_t341_StaticFields, ___U3CU3Ef__switchU24map2_2), 255 } ,
-	{ 663, 842, offsetof(Serializer_t342, ___builder_0), 0 } ,
-	{ 60, 44, offsetof(LOG_LEVEL_t344, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 647, 1032, 0, 0 } ,
-	{ 895, 1032, 0, 0 } ,
-	{ 362, 1032, 0, 0 } ,
-	{ 896, 1032, 0, 0 } ,
-	{ 360, 1032, 0, 0 } ,
-	{ 897, 1032, 0, 0 } ,
-	{ 359, 1032, 0, 0 } ,
-	{ 898, 574, 0, 0 } ,
-	{ 899, 1047, offsetof(OneSignal_t339_StaticFields, ___idsAvailableDelegate_3), 0 } ,
-	{ 900, 1048, offsetof(OneSignal_t339_StaticFields, ___tagsReceivedDelegate_4), 0 } ,
-	{ 901, 1049, offsetof(OneSignal_t339_StaticFields, ___logLevel_5), 0 } ,
-	{ 902, 1049, offsetof(OneSignal_t339_StaticFields, ___visualLogLevel_6), 0 } ,
-	{ 903, 1050, offsetof(OneSignal_t339_StaticFields, ___oneSignalPlatform_7), 0 } ,
-	{ 904, 568, offsetof(OneSignal_t339_StaticFields, ___initialized_8), 0 } ,
-	{ 905, 1051, offsetof(OneSignal_t339_StaticFields, ___notificationDelegate_9), 0 } ,
-	{ 16, 52, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U3CwidthU3E__0_0), 0 } ,
-	{ 17, 52, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U3CheightU3E__1_1), 0 } ,
-	{ 18, 502, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U3CtexU3E__2_2), 0 } ,
-	{ 21, 52, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U24PC_3), 0 } ,
-	{ 22, 66, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U24current_4), 0 } ,
-	{ 23, 1054, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t352, ___U3CU3Ef__this_5), 0 } ,
-	{ 906, 1056, offsetof(SA_ScreenShotMaker_t351, ___OnScreenshotReady_6), 0 } ,
-	{ 907, 1058, offsetof(DefaultPreviewButton_t309, ___normalTexture_4), 0 } ,
-	{ 908, 1058, offsetof(DefaultPreviewButton_t309, ___pressedTexture_5), 0 } ,
-	{ 909, 1058, offsetof(DefaultPreviewButton_t309, ___disabledTexture_6), 0 } ,
-	{ 910, 1058, offsetof(DefaultPreviewButton_t309, ___selectedTexture_7), 0 } ,
-	{ 911, 1059, offsetof(DefaultPreviewButton_t309, ___normalTex_8), 0 } ,
-	{ 912, 1060, offsetof(DefaultPreviewButton_t309, ___sound_9), 0 } ,
-	{ 913, 1060, offsetof(DefaultPreviewButton_t309, ___disabledsound_10), 0 } ,
-	{ 914, 516, offsetof(DefaultPreviewButton_t309, ___IsDisabled_11), 0 } ,
-	{ 915, 785, offsetof(SALevelLoader_t356, ___bg_6), 0 } ,
-	{ 916, 499, offsetof(SALoadedSceneOnClick_t358, ___levelName_2), 0 } ,
-	{ 917, 499, offsetof(SAOpenUrlOnClick_t360, ___url_2), 0 } ,
-	{ 918, 988, offsetof(SASendMessageOnClick_t361, ___Reciver_2), 0 } ,
-	{ 919, 499, offsetof(SASendMessageOnClick_t361, ___MethodName_3), 0 } ,
-	{ 920, 1071, offsetof(SA_BackButton_t362_StaticFields, ___firstLevel_12), 0 } ,
-	{ 921, 1075, offsetof(SA_StatusBar_t364, ___title_2), 0 } ,
-	{ 922, 1075, offsetof(SA_StatusBar_t364, ___shadow_3), 0 } ,
-	{ 923, 538, 0, 0 } ,
-	{ 664, 1080, offsetof(PreviewScreenUtil_t365_StaticFields, ____instance_5), 0 } ,
-	{ 924, 509, offsetof(PreviewScreenUtil_t365, ___W_6), 0 } ,
-	{ 925, 509, offsetof(PreviewScreenUtil_t365, ___H_7), 0 } ,
-	{ 926, 1082, offsetof(ScreenPlacement_t367, ___position_2), 0 } ,
-	{ 927, 1083, offsetof(ScreenPlacement_t367, ___pixelOffset_3), 0 } ,
-	{ 928, 511, offsetof(ScreenPlacement_t367, ___persents_4), 0 } ,
-	{ 929, 511, offsetof(ScreenPlacement_t367, ___calulateStartOnly_5), 0 } ,
-	{ 930, 1084, offsetof(ScreenPlacement_t367, ___boundsTransform_6), 0 } ,
-	{ 931, 1085, offsetof(ScreenPlacement_t367, ___actualOffset_7), 0 } ,
-	{ 932, 1086, offsetof(ScreenPlacement_t367, ___orinetation_8), 0 } ,
-	{ 60, 44, offsetof(ScreenPosition_t368, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 933, 1089, 0, 0 } ,
-	{ 934, 1089, 0, 0 } ,
-	{ 935, 1089, 0, 0 } ,
-	{ 936, 1089, 0, 0 } ,
-	{ 937, 1089, 0, 0 } ,
-	{ 938, 1089, 0, 0 } ,
-	{ 939, 1089, 0, 0 } ,
-	{ 940, 1089, 0, 0 } ,
-	{ 941, 1089, 0, 0 } ,
-	{ 929, 511, offsetof(ScreenScaler_t370, ___calulateStartOnly_2), 0 } ,
-	{ 942, 487, offsetof(ScreenScaler_t370, ___persentsY_3), 0 } ,
-	{ 943, 1095, offsetof(ScreenScaler_t370, ____scaleFactorY_4), 0 } ,
-	{ 944, 1095, offsetof(ScreenScaler_t370, ____xScaleDiff_5), 0 } ,
-	{ 945, 487, offsetof(XScaleModifayer_t371, ___XMaxSize_2), 0 } ,
-	{ 946, 511, offsetof(XScaleModifayer_t371, ___scaleDownOnly_3), 0 } ,
-	{ 929, 511, offsetof(XScaleModifayer_t371, ___calulateStartOnly_4), 0 } ,
-	{ 947, 538, 0, 0 } ,
-	{ 948, 1104, 0, 0 } ,
-	{ 949, 1105, offsetof(AbstractFacebook_t374, ___isInitialized_4), 0 } ,
-	{ 950, 1105, offsetof(AbstractFacebook_t374, ___isLoggedIn_5), 0 } ,
-	{ 951, 492, offsetof(AbstractFacebook_t374, ___userId_6), 0 } ,
-	{ 952, 492, offsetof(AbstractFacebook_t374, ___accessToken_7), 0 } ,
-	{ 953, 1106, offsetof(AbstractFacebook_t374, ___accessTokenExpiresAt_8), 0 } ,
-	{ 954, 1105, offsetof(AbstractFacebook_t374, ___limitEventUsage_9), 0 } ,
-	{ 955, 1107, offsetof(AbstractFacebook_t374, ___authDelegates_10), 0 } ,
-	{ 956, 509, offsetof(AbstractFacebook_t374, ___nextAsyncId_11), 0 } ,
-	{ 957, 1108, offsetof(AbstractFacebook_t374, ___facebookDelegates_12), 0 } ,
-	{ 958, 1118, offsetof(FB_t381_StaticFields, ___OnInitComplete_2), 0 } ,
-	{ 959, 1119, offsetof(FB_t381_StaticFields, ___OnHideUnity_3), 0 } ,
-	{ 960, 1120, offsetof(FB_t381_StaticFields, ___facebook_4), 0 } ,
-	{ 961, 994, offsetof(FB_t381_StaticFields, ___authResponse_5), 0 } ,
-	{ 962, 568, offsetof(FB_t381_StaticFields, ___isInitCalled_6), 0 } ,
-	{ 963, 994, offsetof(FB_t381_StaticFields, ___appId_7), 0 } ,
-	{ 964, 568, offsetof(FB_t381_StaticFields, ___cookie_8), 0 } ,
-	{ 965, 568, offsetof(FB_t381_StaticFields, ___logging_9), 0 } ,
-	{ 3, 568, offsetof(FB_t381_StaticFields, ___status_10), 0 } ,
-	{ 966, 568, offsetof(FB_t381_StaticFields, ___xfbml_11), 0 } ,
-	{ 967, 568, offsetof(FB_t381_StaticFields, ___frictionlessRequests_12), 0 } ,
-	{ 968, 538, 0, 0 } ,
-	{ 969, 538, 0, 0 } ,
-	{ 970, 538, 0, 0 } ,
-	{ 971, 538, 0, 0 } ,
-	{ 972, 538, 0, 0 } ,
-	{ 973, 538, 0, 0 } ,
-	{ 974, 538, 0, 0 } ,
-	{ 975, 538, 0, 0 } ,
-	{ 976, 538, 0, 0 } ,
-	{ 977, 538, 0, 0 } ,
-	{ 978, 538, 0, 0 } ,
-	{ 979, 538, 0, 0 } ,
-	{ 980, 538, 0, 0 } ,
-	{ 981, 538, 0, 0 } ,
-	{ 982, 538, 0, 0 } ,
-	{ 983, 538, 0, 0 } ,
-	{ 984, 538, 0, 0 } ,
-	{ 600, 538, 0, 0 } ,
-	{ 985, 538, 0, 0 } ,
-	{ 986, 538, 0, 0 } ,
-	{ 987, 538, 0, 0 } ,
-	{ 988, 538, 0, 0 } ,
-	{ 989, 538, 0, 0 } ,
-	{ 990, 538, 0, 0 } ,
-	{ 991, 538, 0, 0 } ,
-	{ 992, 1132, offsetof(FBBuildVersionAttribute_t385, ___buildDate_0), 0 } ,
-	{ 993, 79, offsetof(FBBuildVersionAttribute_t385, ___buildHash_1), 0 } ,
-	{ 994, 79, offsetof(FBBuildVersionAttribute_t385, ___buildVersion_2), 0 } ,
-	{ 995, 79, offsetof(FBBuildVersionAttribute_t385, ___sdkVersion_3), 0 } ,
-	{ 60, 44, offsetof(IfNotExist_t387, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 996, 1136, 0, 0 } ,
-	{ 997, 1136, 0, 0 } ,
-	{ 898, 538, 0, 0 } ,
-	{ 998, 1142, offsetof(FBComponentFactory_t388_StaticFields, ___facebookGameObject_1), 0 } ,
-	{ 999, 516, offsetof(FBResult_t241, ___isWWWWrapper_0), 0 } ,
-	{ 1000, 541, offsetof(FBResult_t241, ___data_1), 0 } ,
-	{ 1001, 79, offsetof(FBResult_t241, ___error_2), 0 } ,
-	{ 1002, 574, 0, 0 } ,
-	{ 1003, 574, 0, 0 } ,
-	{ 1004, 574, 0, 0 } ,
-	{ 234, 1147, offsetof(FBSettings_t390_StaticFields, ___instance_5), 0 } ,
-	{ 1005, 509, offsetof(FBSettings_t390, ___selectedAppIndex_6), 275 } ,
-	{ 1006, 508, offsetof(FBSettings_t390, ___appIds_7), 276 } ,
-	{ 1007, 508, offsetof(FBSettings_t390, ___appLabels_8), 277 } ,
-	{ 964, 516, offsetof(FBSettings_t390, ___cookie_9), 278 } ,
-	{ 965, 516, offsetof(FBSettings_t390, ___logging_10), 279 } ,
-	{ 3, 516, offsetof(FBSettings_t390, ___status_11), 280 } ,
-	{ 966, 516, offsetof(FBSettings_t390, ___xfbml_12), 281 } ,
-	{ 967, 516, offsetof(FBSettings_t390, ___frictionlessRequests_13), 282 } ,
-	{ 1008, 79, offsetof(FBSettings_t390, ___iosURLSuffix_14), 283 } ,
-	{ 60, 44, offsetof(DialogMode_t391, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1009, 1149, 0, 0 } ,
-	{ 1010, 1149, 0, 0 } ,
-	{ 670, 1152, offsetof(OGActionType_t392_StaticFields, ___Send_0), 0 } ,
-	{ 671, 1152, offsetof(OGActionType_t392_StaticFields, ___AskFor_1), 0 } ,
-	{ 672, 1152, offsetof(OGActionType_t392_StaticFields, ___Turn_2), 0 } ,
-	{ 1011, 79, offsetof(OGActionType_t392, ___actionTypeValue_3), 0 } ,
-	{ 1012, 574, 0, 0 } ,
-	{ 1013, 574, 0, 0 } ,
-	{ 1014, 79, offsetof(AndroidFacebook_t394, ___keyHash_15), 0 } ,
-	{ 1015, 1154, offsetof(AndroidFacebook_t394, ___deepLinkDelegate_16), 0 } ,
-	{ 1016, 1155, offsetof(AndroidFacebook_t394, ___onInitComplete_17), 0 } ,
-	{ 1017, 1104, 0, 0 } ,
-	{ 1018, 1104, 0, 0 } ,
-	{ 1019, 1104, 0, 0 } ,
-	{ 1020, 1104, 0, 0 } ,
-	{ 1021, 1104, 0, 0 } ,
-	{ 1022, 1104, 0, 0 } ,
-	{ 1023, 1104, 0, 0 } ,
-	{ 1016, 1155, offsetof(CanvasFacebook_t396, ___onInitComplete_20), 0 } ,
-	{ 959, 1159, offsetof(CanvasFacebook_t396, ___OnHideUnity_21), 0 } ,
-	{ 1024, 79, offsetof(CanvasFacebook_t396, ___integrationMethodJs_22), 0 } ,
-	{ 963, 79, offsetof(CanvasFacebook_t396, ___appId_23), 0 } ,
-	{ 1025, 79, offsetof(CanvasFacebook_t396, ___sdkLocale_24), 0 } ,
-	{ 1026, 516, offsetof(CanvasFacebook_t396, ___sdkDebug_25), 0 } ,
-	{ 1027, 79, offsetof(CanvasFacebook_t396, ___deepLink_26), 0 } ,
-	{ 960, 1163, offsetof(JsBridge_t398, ___facebook_2), 0 } ,
-	{ 1028, 1154, offsetof(EditorFacebook_t399, ___loginCallback_13), 0 } ,
-	{ 1029, 1166, 0, 0 } ,
-	{ 1030, 1095, offsetof(EditorFacebookAccessToken_t400, ___windowHeight_3), 0 } ,
-	{ 952, 79, offsetof(EditorFacebookAccessToken_t400, ___accessToken_4), 0 } ,
-	{ 1031, 516, offsetof(EditorFacebookAccessToken_t400, ___isLoggingIn_5), 0 } ,
-	{ 1032, 558, offsetof(EditorFacebookAccessToken_t400, ___greyButton_6), 0 } ,
-	{ 1033, 752, offsetof(NativeDict_t402, ___numEntries_0), 0 } ,
-	{ 1034, 1170, offsetof(NativeDict_t402, ___keys_1), 0 } ,
-	{ 1035, 1170, offsetof(NativeDict_t402, ___vals_2), 0 } ,
-	{ 60, 44, offsetof(FBInsightsFlushBehavior_t403, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1036, 1172, 0, 0 } ,
-	{ 1037, 1172, 0, 0 } ,
-	{ 1022, 574, 0, 0 } ,
-	{ 1038, 509, offsetof(IOSFacebook_t404, ___dialogMode_14), 0 } ,
-	{ 1039, 1155, offsetof(IOSFacebook_t404, ___externalInitDelegate_15), 0 } ,
-	{ 1015, 1154, offsetof(IOSFacebook_t404, ___deepLinkDelegate_16), 0 } ,
-	{ 1040, 932, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CurlParamsU3E__0_0), 0 } ,
-	{ 1041, 914, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CU24s_77U3E__1_1), 0 } ,
-	{ 1042, 915, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CpairU3E__2_2), 0 } ,
-	{ 1043, 852, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CwwwU3E__3_3), 0 } ,
-	{ 1044, 914, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CU24s_78U3E__4_4), 0 } ,
-	{ 1045, 915, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CpairU3E__5_5), 0 } ,
-	{ 21, 52, offsetof(U3CStartU3Ec__IteratorE_t407, ___U24PC_6), 0 } ,
-	{ 22, 66, offsetof(U3CStartU3Ec__IteratorE_t407, ___U24current_7), 0 } ,
-	{ 23, 1177, offsetof(U3CStartU3Ec__IteratorE_t407, ___U3CU3Ef__this_8), 0 } ,
-	{ 917, 492, offsetof(AsyncRequestString_t406, ___url_2), 0 } ,
-	{ 1046, 1180, offsetof(AsyncRequestString_t406, ___method_3), 0 } ,
-	{ 1047, 522, offsetof(AsyncRequestString_t406, ___formData_4), 0 } ,
-	{ 1048, 1181, offsetof(AsyncRequestString_t406, ___query_5), 0 } ,
-	{ 1049, 1182, offsetof(AsyncRequestString_t406, ___callback_6), 0 } ,
-	{ 1050, 1184, offsetof(HttpMethod_t408_StaticFields, ___getMethod_0), 0 } ,
-	{ 1051, 1184, offsetof(HttpMethod_t408_StaticFields, ___postMethod_1), 0 } ,
-	{ 1052, 1184, offsetof(HttpMethod_t408_StaticFields, ___deleteMethod_2), 0 } ,
-	{ 1053, 79, offsetof(HttpMethod_t408, ___methodValue_3), 0 } ,
-	{ 60, 44, offsetof(TOKEN_t409, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 647, 1186, 0, 0 } ,
-	{ 648, 1186, 0, 0 } ,
-	{ 649, 1186, 0, 0 } ,
-	{ 650, 1186, 0, 0 } ,
-	{ 651, 1186, 0, 0 } ,
-	{ 652, 1186, 0, 0 } ,
-	{ 653, 1186, 0, 0 } ,
-	{ 654, 1186, 0, 0 } ,
-	{ 655, 1186, 0, 0 } ,
-	{ 656, 1186, 0, 0 } ,
-	{ 657, 1186, 0, 0 } ,
-	{ 658, 1186, 0, 0 } ,
-	{ 659, 574, 0, 0 } ,
-	{ 660, 574, 0, 0 } ,
-	{ 661, 838, offsetof(Parser_t410, ___json_2), 0 } ,
-	{ 1054, 839, offsetof(Parser_t410_StaticFields, ___U3CU3Ef__switchU24map3_3), 290 } ,
-	{ 663, 842, offsetof(Serializer_t411, ___builder_0), 0 } ,
-	{ 1055, 1191, offsetof(Json_t413_StaticFields, ___numberFormat_0), 0 } ,
-	{ 1056, 516, offsetof(AchievementController_t414, ___registeredForEvents_2), 0 } ,
-	{ 1057, 988, offsetof(BoostActiveLayout_t419, ___sliderPrototype_2), 0 } ,
-	{ 1058, 516, offsetof(BoostActiveLayout_t419, ___registerdForEvents_3), 0 } ,
-	{ 1059, 516, offsetof(BoostActiveLayout_t419, ___boostButtonsDirty_4), 0 } ,
-	{ 1060, 516, offsetof(BoostActiveLayout_t419, ___treatsTextDirty_5), 0 } ,
-	{ 1061, 516, offsetof(BoostActiveLayout_t419, ___levelTextDirty_6), 0 } ,
-	{ 1062, 1197, offsetof(BoostActiveLayout_t419, ___boostConfig_7), 0 } ,
-	{ 1063, 516, offsetof(BoostActiveLayout_t419, ___started_8), 0 } ,
-	{ 1064, 1198, offsetof(BoostActiveLayout_t419, ___sliderInstance_9), 0 } ,
-	{ 1065, 516, offsetof(BoostActiveLayout_t419, ___sliderDirty_10), 0 } ,
-	{ 1066, 1199, offsetof(BoostActiveLayout_t419, ___containingCanvas_11), 0 } ,
-	{ 60, 44, offsetof(BoostButtonMode_t420, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1067, 1202, 0, 0 } ,
-	{ 1068, 1202, 0, 0 } ,
-	{ 1069, 1202, 0, 0 } ,
-	{ 1070, 1202, 0, 0 } ,
-	{ 21, 52, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t422, ___U24PC_0), 0 } ,
-	{ 22, 66, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t422, ___U24current_1), 0 } ,
-	{ 23, 1205, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t422, ___U3CU3Ef__this_2), 0 } ,
-	{ 1071, 1207, offsetof(BoostButton_t421, ___mode_2), 0 } ,
-	{ 1072, 1208, offsetof(BoostButton_t421, ___button_3), 0 } ,
-	{ 1073, 1209, offsetof(BoostButton_t421, ___buttonText_4), 0 } ,
-	{ 1074, 1209, offsetof(BoostButton_t421, ___countText_5), 0 } ,
-	{ 1075, 1209, offsetof(BoostButton_t421, ___restrictionText_6), 0 } ,
-	{ 1076, 1210, offsetof(BoostButton_t421, ___boostType_7), 0 } ,
-	{ 1077, 509, offsetof(BoostButton_t421, ___priceInTreats_8), 0 } ,
-	{ 1056, 516, offsetof(BoostButton_t421, ___registeredForEvents_9), 0 } ,
-	{ 1078, 516, offsetof(BoostButton_t421, ___buttonDirty_10), 0 } ,
-	{ 1079, 487, offsetof(BoostButtonLayout_t427, ___boostButtonYOffset_2), 0 } ,
-	{ 1080, 988, offsetof(BoostButtonLayout_t427, ___boostButtonPrototype_3), 0 } ,
-	{ 1066, 1199, offsetof(BoostButtonLayout_t427, ___containingCanvas_4), 0 } ,
-	{ 1081, 1212, offsetof(BoostButtonLayout_t427, ___boostButtons_5), 0 } ,
-	{ 1082, 1213, offsetof(BoostButtonLayout_t427, ___boostButtonGameObjects_6), 0 } ,
-	{ 1060, 516, offsetof(BoostButtonLayout_t427, ___treatsTextDirty_7), 0 } ,
-	{ 1061, 516, offsetof(BoostButtonLayout_t427, ___levelTextDirty_8), 0 } ,
-	{ 1063, 516, offsetof(BoostButtonLayout_t427, ___started_9), 0 } ,
-	{ 60, 44, offsetof(BoostType_t428, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1083, 1215, 0, 0 } ,
-	{ 1084, 1215, 0, 0 } ,
-	{ 1085, 1215, 0, 0 } ,
-	{ 1086, 1215, 0, 0 } ,
-	{ 1087, 1215, 0, 0 } ,
-	{ 1070, 1215, 0, 0 } ,
-	{ 1088, 1218, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t430, ___pauseTime_0), 0 } ,
-	{ 21, 52, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t430, ___U24PC_1), 0 } ,
-	{ 22, 66, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t430, ___U24current_2), 0 } ,
-	{ 1089, 1218, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t430, ___U3CU24U3EpauseTime_3), 0 } ,
-	{ 23, 1219, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t430, ___U3CU3Ef__this_4), 0 } ,
-	{ 1090, 1221, offsetof(BoostConfig_t416, ___boostDescs_2), 0 } ,
-	{ 1091, 1222, offsetof(BoostConfig_t416, ___activePause_3), 0 } ,
-	{ 1092, 1095, offsetof(BoostConfig_t416, ___activeBoostStartTime_4), 0 } ,
-	{ 1093, 1095, offsetof(BoostConfig_t416, ___activeBoostEndTime_5), 0 } ,
-	{ 1056, 516, offsetof(BoostConfig_t416, ___registeredForEvents_6), 0 } ,
-	{ 1094, 1223, offsetof(BoostConfig_t416, ___BoostActive_7), 0 } ,
-	{ 1095, 1224, offsetof(BoostConfig_t416_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 297 } ,
-	{ 1096, 1210, offsetof(BoostConfig_t416, ___U3CactiveBoostU3Ek__BackingField_9), 298 } ,
-	{ 1097, 1226, offsetof(BoostDesc_t434, ___buttonSprite_0), 0 } ,
-	{ 1098, 1226, offsetof(BoostDesc_t434, ___introScreenSprite_1), 0 } ,
-	{ 1099, 487, offsetof(BoostDesc_t434, ___effectiveTime_2), 0 } ,
-	{ 1100, 499, offsetof(BoostDesc_t434, ___boostName_3), 0 } ,
-	{ 1101, 1227, offsetof(BoostDesc_t434, ___tipConfig_4), 0 } ,
-	{ 1062, 1197, offsetof(BuyAndUseBoost_t436, ___boostConfig_2), 0 } ,
-	{ 1102, 1229, offsetof(BuyAndUseBoost_t436, ___playerStats_3), 0 } ,
-	{ 1062, 1197, offsetof(BuyBoost_t437, ___boostConfig_2), 0 } ,
-	{ 1102, 1229, offsetof(BuyBoost_t437, ___playerStats_3), 0 } ,
-	{ 1103, 1236, offsetof(ConeOfViewRenderer_t441, ___viewMesh_2), 0 } ,
-	{ 1104, 1237, offsetof(ConeOfViewRenderer_t441, ___viewMaterial_3), 0 } ,
-	{ 1105, 752, offsetof(ConeOfViewRenderer_t441, ___numTriangles_4), 0 } ,
-	{ 1062, 1197, offsetof(ConeOfViewRenderer_t441, ___boostConfig_5), 0 } ,
-	{ 1056, 516, offsetof(ConeOfViewRenderer_t441, ___registeredForEvents_6), 0 } ,
-	{ 1106, 1095, offsetof(ConeOfViewRenderer_t441, ___U3CactualAngleRangeU3Ek__BackingField_7), 309 } ,
-	{ 1107, 511, offsetof(CrossSceneState_t442, ___didWelcome_2), 0 } ,
-	{ 1095, 1240, offsetof(CrossSceneState_t442_StaticFields, ___U3CinstanceU3Ek__BackingField_3), 312 } ,
-	{ 1108, 1242, offsetof(DeadMouse_t444, ___baseSprites_2), 0 } ,
-	{ 1109, 487, offsetof(DeadMouse_t444, ___deadMouseZ_3), 0 } ,
-	{ 1110, 511, offsetof(DebugConfig_t445, ___debugFBShare_2), 0 } ,
-	{ 1111, 511, offsetof(DebugConfig_t445, ___debugTwitterShare_3), 0 } ,
-	{ 1112, 516, offsetof(DebugConfig_t445, ___U3CuseDebugValuesU3Ek__BackingField_4), 315 } ,
-	{ 1095, 1244, offsetof(DebugConfig_t445_StaticFields, ___U3CinstanceU3Ek__BackingField_5), 316 } ,
-	{ 1113, 752, offsetof(DebugLogPropagate_t446, ___foo_2), 0 } ,
-	{ 1114, 1249, offsetof(DestroyByCollision_t448, ___pawController_2), 0 } ,
-	{ 234, 1252, offsetof(DialogController_t449_StaticFields, ___instance_2), 0 } ,
-	{ 1115, 1253, offsetof(DialogController_t449, ___activeDialog_3), 0 } ,
-	{ 1116, 516, offsetof(DistortForEffect_t450, ___distorting_2), 0 } ,
-	{ 1117, 1095, offsetof(DistortForEffect_t450, ___startDistortTime_3), 0 } ,
-	{ 1118, 487, offsetof(DistortForEffect_t450, ___distortPeriod_4), 0 } ,
-	{ 1119, 487, offsetof(DistortForEffect_t450, ___distortScale_5), 0 } ,
-	{ 1120, 1084, offsetof(DistortForEffect_t450, ___thingToScale_6), 0 } ,
-	{ 1121, 1255, offsetof(DistortForEffect_t450, ___originalScale_7), 0 } ,
-	{ 1122, 1259, 0, 0 } ,
-	{ 1123, 1259, 0, 0 } ,
-	{ 1124, 1263, offsetof(ExplicitMouseDesc_t452, ___mouseType_0), 0 } ,
-	{ 1125, 1264, offsetof(ExplicitMouseDesc_t452, ___mouseHoleLocation_1), 0 } ,
-	{ 1126, 511, offsetof(ExplicitMouseDesc_t452, ___isClockwise_2), 0 } ,
-	{ 1127, 752, offsetof(ExplicitMouseDesc_t452, ___track_3), 0 } ,
-	{ 1128, 487, offsetof(ExplicitMouseDesc_t452, ___delayToNextMouse_4), 0 } ,
-	{ 1129, 1265, offsetof(ExplicitMouseDesc_t452, ___U3CwiggleTypeU3Ek__BackingField_5), 321 } ,
-	{ 1130, 1095, offsetof(ExplicitMouseDesc_t452, ___U3CwiggleMagnitudeU3Ek__BackingField_6), 322 } ,
-	{ 1131, 509, offsetof(ExplicitMouseDesc_t452, ___U3CwiggleCyclesU3Ek__BackingField_7), 323 } ,
-	{ 1132, 516, offsetof(ExplicitMouseDesc_t452, ___U3CwiggleClockwiseU3Ek__BackingField_8), 324 } ,
-	{ 1133, 574, 0, 0 } ,
-	{ 1134, 574, 0, 0 } ,
-	{ 1135, 574, 0, 0 } ,
-	{ 234, 1267, offsetof(FacebookSharing_t453_StaticFields, ___instance_5), 0 } ,
-	{ 1136, 509, offsetof(FacebookSharing_t453, ___scoreToShare_6), 0 } ,
-	{ 1137, 979, offsetof(FacebookSharing_t453, ___lazyAngusIcon_7), 0 } ,
-	{ 1138, 1255, offsetof(FartPuff_t454, ___direction_2), 0 } ,
-	{ 1139, 487, offsetof(FartPuff_t454, ___velocity_3), 0 } ,
-	{ 1140, 487, offsetof(FartPuff_t454, ___scaleVelocity_4), 0 } ,
-	{ 1141, 487, offsetof(FartPuff_t454, ___maxRotateDegVeclocity_5), 0 } ,
-	{ 1142, 487, offsetof(FartPuff_t454, ___minRotateDegVeclocity_6), 0 } ,
-	{ 1143, 1095, offsetof(FartPuff_t454, ___rotateDegVelocity_7), 0 } ,
-	{ 1144, 1095, offsetof(FartPuff_t454, ___rotationDeg_8), 0 } ,
-	{ 1145, 1095, offsetof(FartPuff_t454, ___scale_9), 0 } ,
-	{ 1146, 487, offsetof(FartPuff_t454, ___initialScale_10), 0 } ,
-	{ 1147, 1226, offsetof(FartPuff_t454, ___sprite_11), 0 } ,
-	{ 1056, 516, offsetof(FinalScoreController_t455, ___registeredForEvents_2), 0 } ,
-	{ 1148, 1209, offsetof(FinalScoreUI_t456, ___personalBestText_2), 0 } ,
-	{ 1149, 1209, offsetof(FinalScoreUI_t456, ___finalScoreText_3), 0 } ,
-	{ 1063, 516, offsetof(FinalScoreUI_t456, ___started_4), 0 } ,
-	{ 1150, 1274, offsetof(GameCenterButtons_t459, ___leaderBoardButton_2), 0 } ,
-	{ 1151, 1274, offsetof(GameCenterButtons_t459, ___achievementButton_3), 0 } ,
-	{ 1152, 1274, offsetof(GameCenterButtons_t459, ___rateMeButton_4), 0 } ,
-	{ 1153, 1275, offsetof(GameCenterButtons_t459_StaticFields, ___U3CU3Ef__amU24cache3_5), 333 } ,
-	{ 1154, 1275, offsetof(GameCenterButtons_t459_StaticFields, ___U3CU3Ef__amU24cache4_6), 334 } ,
-	{ 1155, 1275, offsetof(GameCenterButtons_t459_StaticFields, ___U3CU3Ef__amU24cache5_7), 335 } ,
-	{ 1156, 487, offsetof(GameController_t462, ___startWait_2), 0 } ,
-	{ 1157, 487, offsetof(GameController_t462, ___minSpawnWait_3), 0 } ,
-	{ 1158, 487, offsetof(GameController_t462, ___maxSpawnWait_4), 0 } ,
-	{ 1159, 1277, offsetof(GameController_t462, ___mouseHoles_5), 0 } ,
-	{ 1160, 1278, offsetof(GameController_t462, ___mouseSpawnFromData_6), 0 } ,
-	{ 1056, 516, offsetof(GameController_t462, ___registeredForEvents_7), 0 } ,
-	{ 1161, 516, offsetof(GameController_t462, ___checkForPhaseChanges_8), 0 } ,
-	{ 1095, 1279, offsetof(GameController_t462_StaticFields, ___U3CinstanceU3Ek__BackingField_9), 339 } ,
-	{ 255, 882, offsetof(GameController_t462_StaticFields, ___U3CU3Ef__amU24cache8_10), 340 } ,
-	{ 1162, 1282, offsetof(GameLevelState_t464, ___GameLevelChanged_2), 0 } ,
-	{ 1163, 509, offsetof(GameLevelState_t464, ___U3CgameLevelU3Ek__BackingField_3), 344 } ,
-	{ 1095, 1283, offsetof(GameLevelState_t464_StaticFields, ___U3CinstanceU3Ek__BackingField_4), 345 } ,
-	{ 60, 44, offsetof(GamePhaseType_t465, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 658, 1285, 0, 0 } ,
-	{ 1164, 1285, 0, 0 } ,
-	{ 1165, 1285, 0, 0 } ,
-	{ 1166, 1285, 0, 0 } ,
-	{ 1167, 1285, 0, 0 } ,
-	{ 1168, 1285, 0, 0 } ,
-	{ 21, 52, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t469, ___U24PC_0), 0 } ,
-	{ 22, 66, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t469, ___U24current_1), 0 } ,
-	{ 23, 1290, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t469, ___U3CU3Ef__this_2), 0 } ,
-	{ 1169, 1292, offsetof(GamePhaseState_t468, ___pendingPhase_2), 0 } ,
-	{ 1170, 1095, offsetof(GamePhaseState_t468, ___pendingPhaseTimeout_3), 0 } ,
-	{ 1171, 487, offsetof(GamePhaseState_t468, ___pendingPause_4), 0 } ,
-	{ 1172, 516, offsetof(GamePhaseState_t468, ___shouldCheckForPhaseTransition_5), 0 } ,
-	{ 1173, 1293, offsetof(GamePhaseState_t468, ___gameUIs_6), 0 } ,
-	{ 1174, 1294, offsetof(GamePhaseState_t468, ___GameInstanceChanged_7), 0 } ,
-	{ 1175, 1295, offsetof(GamePhaseState_t468, ___GamePhaseChanged_8), 0 } ,
-	{ 1176, 1292, offsetof(GamePhaseState_t468, ___U3CgamePhaseU3Ek__BackingField_9), 350 } ,
-	{ 1095, 1296, offsetof(GamePhaseState_t468_StaticFields, ___U3CinstanceU3Ek__BackingField_10), 351 } ,
-	{ 60, 44, offsetof(GameUIsType_t471, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1164, 1299, 0, 0 } ,
-	{ 1166, 1299, 0, 0 } ,
-	{ 1165, 1299, 0, 0 } ,
-	{ 1177, 1299, 0, 0 } ,
-	{ 1070, 1299, 0, 0 } ,
-	{ 1178, 988, offsetof(GameUIController_t472, ___welcomeUIGameObject_2), 0 } ,
-	{ 1179, 988, offsetof(GameUIController_t472, ___levelEndUIGameObject_3), 0 } ,
-	{ 1180, 988, offsetof(GameUIController_t472, ___levelPlayUIGameObject_4), 0 } ,
-	{ 1181, 988, offsetof(GameUIController_t472, ___gameOverUIGameObject_5), 0 } ,
-	{ 1173, 1293, offsetof(GameUIController_t472, ___gameUIs_6), 0 } ,
-	{ 1056, 516, offsetof(GameUIController_t472, ___registeredForEvents_7), 0 } ,
-	{ 1095, 1302, offsetof(GameUIController_t472_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 362 } ,
-	{ 1056, 516, offsetof(GoogleAdController_t473, ___registeredForEvents_2), 0 } ,
-	{ 1182, 516, offsetof(GoogleAdController_t473, ___interstitialAdLoaded_3), 0 } ,
-	{ 1183, 752, offsetof(GoogleAdController_t473, ___wavesBetweenInterstitial_4), 0 } ,
-	{ 1184, 559, offsetof(GoogleAdController_t473, ___banner_5), 0 } ,
-	{ 60, 44, offsetof(MovementPhase_t474, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1185, 1306, 0, 0 } ,
-	{ 1186, 1306, 0, 0 } ,
-	{ 1187, 1306, 0, 0 } ,
-	{ 1188, 1306, 0, 0 } ,
-	{ 1189, 1306, 0, 0 } ,
-	{ 1190, 487, offsetof(HeadMovement_t475, ___moveToSpeedDeg_2), 0 } ,
-	{ 1191, 487, offsetof(HeadMovement_t475, ___moveHomeSpeedDeg_3), 0 } ,
-	{ 1192, 487, offsetof(HeadMovement_t475, ___maxTurnDeg_4), 0 } ,
-	{ 1193, 1310, offsetof(HeadMovement_t475, ___coneOfView_5), 0 } ,
-	{ 1194, 487, offsetof(HeadMovement_t475, ___holdTime_6), 0 } ,
-	{ 1195, 1095, offsetof(HeadMovement_t475, ___targetDeg_7), 0 } ,
-	{ 1196, 1095, offsetof(HeadMovement_t475, ___currentDeg_8), 0 } ,
-	{ 1197, 1311, offsetof(HeadMovement_t475, ___phase_9), 0 } ,
-	{ 1198, 1095, offsetof(HeadMovement_t475, ___phaseStartTime_10), 0 } ,
-	{ 1199, 52, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator12_t477, ___U3CiU3E__0_0), 0 } ,
-	{ 1200, 1313, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator12_t477, ___U3CgoU3E__1_1), 0 } ,
-	{ 21, 52, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator12_t477, ___U24PC_2), 0 } ,
-	{ 22, 66, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator12_t477, ___U24current_3), 0 } ,
-	{ 23, 1314, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator12_t477, ___U3CU3Ef__this_4), 0 } ,
-	{ 1201, 1226, offsetof(HoleMeter_t476, ___emptySprite_2), 0 } ,
-	{ 1202, 1226, offsetof(HoleMeter_t476, ___fullSprite_3), 0 } ,
-	{ 1203, 1316, offsetof(HoleMeter_t476, ___offset_4), 0 } ,
-	{ 1204, 988, offsetof(HoleMeter_t476, ___meterWidgetPrototype_5), 0 } ,
-	{ 1205, 1213, offsetof(HoleMeter_t476, ___meterWidgetGameObjects_6), 0 } ,
-	{ 1206, 1317, offsetof(HoleMeter_t476, ___mouseHole_7), 0 } ,
-	{ 1058, 516, offsetof(HoleMeter_t476, ___registerdForEvents_8), 0 } ,
-	{ 1207, 735, offsetof(InputHandler_t481_StaticFields, ___UserInteractionsLayerBit_2), 0 } ,
-	{ 1208, 735, offsetof(InputHandler_t481_StaticFields, ___UILayerBit_3), 0 } ,
-	{ 0, 1323, offsetof(InputHandler_t481, ___worldCamera_4), 0 } ,
-	{ 1, 1323, offsetof(InputHandler_t481, ___uxCamera_5), 0 } ,
-	{ 1209, 509, offsetof(InputHandler_t481, ___UserInteractionsLayerBitmask_6), 0 } ,
-	{ 1210, 516, offsetof(InputHandler_t481, ___U3CisTouchDeviceU3Ek__BackingField_7), 371 } ,
-	{ 1095, 1324, offsetof(InputHandler_t481_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 372 } ,
-	{ 60, 44, offsetof(WaveType_t483, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1211, 1328, 0, 0 } ,
-	{ 1212, 1328, 0, 0 } ,
-	{ 1213, 1328, 0, 0 } ,
-	{ 1070, 1328, 0, 0 } ,
-	{ 1214, 499, offsetof(LevelDescription_t490, ___specialText_0), 0 } ,
-	{ 1215, 1330, offsetof(LevelDescription_t490, ___explicitMouseDescs_1), 0 } ,
-	{ 1147, 1226, offsetof(LevelDescription_t490, ___sprite_2), 0 } ,
-	{ 1101, 1227, offsetof(LevelDescription_t490, ___tipConfig_3), 0 } ,
-	{ 1216, 487, offsetof(LevelDescription_t490, ___tipPause_4), 0 } ,
-	{ 1217, 1331, offsetof(LevelDescription_t490, ___mouseHolesAccumulator_5), 0 } ,
-	{ 1218, 1332, offsetof(LevelDescription_t490, ___boostsAccumulator_6), 0 } ,
-	{ 1219, 1333, offsetof(LevelDescription_t490, ___wigglesAccumulator_7), 0 } ,
-	{ 1220, 1334, offsetof(LevelDescription_t490, ___mouseTypesAccumulator_8), 0 } ,
-	{ 1221, 1335, offsetof(LevelDescription_t490, ___waveTypesAccumulator_9), 0 } ,
-	{ 1222, 752, offsetof(LevelDescription_t490, ___gameLevel_10), 0 } ,
-	{ 1223, 499, offsetof(LevelDescription_t490, ___previousLevelClearedAchievementID_11), 0 } ,
-	{ 1224, 487, offsetof(LevelConfig_t497, ___paradePause_2), 0 } ,
-	{ 1225, 752, offsetof(LevelConfig_t497, ___minParadeMice_3), 0 } ,
-	{ 1226, 752, offsetof(LevelConfig_t497, ___maxParadeMice_4), 0 } ,
-	{ 1227, 487, offsetof(LevelConfig_t497, ___paradeEndPause_5), 0 } ,
-	{ 1228, 752, offsetof(LevelConfig_t497, ___minDistributedMice_6), 0 } ,
-	{ 1229, 752, offsetof(LevelConfig_t497, ___maxDistributedMice_7), 0 } ,
-	{ 1230, 1338, offsetof(LevelConfig_t497, ___distributedPauseDist_8), 0 } ,
-	{ 1231, 487, offsetof(LevelConfig_t497, ___distributedEndPause_9), 0 } ,
-	{ 1232, 487, offsetof(LevelConfig_t497, ___minSpoutPause_10), 0 } ,
-	{ 1233, 487, offsetof(LevelConfig_t497, ___maxSpoutPause_11), 0 } ,
-	{ 1234, 487, offsetof(LevelConfig_t497, ___spoutEndPause_12), 0 } ,
-	{ 1235, 752, offsetof(LevelConfig_t497, ___minSpoutMice_13), 0 } ,
-	{ 1236, 752, offsetof(LevelConfig_t497, ___maxSpoutMice_14), 0 } ,
-	{ 1237, 752, offsetof(LevelConfig_t497, ___superSpeedMiceLevel_15), 0 } ,
-	{ 1238, 1339, offsetof(LevelConfig_t497, ___mouseHoleGenerator_16), 0 } ,
-	{ 1239, 1340, offsetof(LevelConfig_t497, ___trackGenerator_17), 0 } ,
-	{ 1240, 1341, offsetof(LevelConfig_t497, ___distributedPauseGenerator_18), 0 } ,
-	{ 1241, 1342, offsetof(LevelConfig_t497, ___levelDescMap_19), 0 } ,
-	{ 1242, 1343, offsetof(LevelConfig_t497, ___boostLevelLocks_20), 0 } ,
-	{ 1095, 1344, offsetof(LevelConfig_t497_StaticFields, ___U3CinstanceU3Ek__BackingField_21), 377 } ,
-	{ 1243, 1209, offsetof(LevelEndTitlesLayout_t499, ___waveTitleText_2), 0 } ,
-	{ 1244, 1209, offsetof(LevelEndTitlesLayout_t499, ___waveCountText_3), 0 } ,
-	{ 1245, 1209, offsetof(LevelEndTitlesLayout_t499, ___waveSpecialText_4), 0 } ,
-	{ 1246, 1346, offsetof(LevelEndTitlesLayout_t499, ___waveSpecialImage_5), 0 } ,
-	{ 1058, 516, offsetof(LevelEndTitlesLayout_t499, ___registerdForEvents_6), 0 } ,
-	{ 1247, 1347, offsetof(LevelEndTitlesLayout_t499, ___distortForEffect_7), 0 } ,
-	{ 1063, 516, offsetof(LevelEndTitlesLayout_t499, ___started_8), 0 } ,
-	{ 1248, 516, offsetof(LevelEndTitlesLayout_t499, ___waveDirty_9), 0 } ,
-	{ 60, 44, offsetof(MovementPhaseType_t500, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1249, 1350, 0, 0 } ,
-	{ 1250, 1350, 0, 0 } ,
-	{ 1251, 1350, 0, 0 } ,
-	{ 1252, 1350, 0, 0 } ,
-	{ 1253, 1350, 0, 0 } ,
-	{ 1070, 1350, 0, 0 } ,
-	{ 60, 44, offsetof(MouseType_t501, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1254, 1353, 0, 0 } ,
-	{ 1255, 1353, 0, 0 } ,
-	{ 1256, 1353, 0, 0 } ,
-	{ 1257, 1353, 0, 0 } ,
-	{ 1070, 1353, 0, 0 } ,
-	{ 60, 44, offsetof(MouseWiggleType_t502, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 647, 1355, 0, 0 } ,
-	{ 1258, 1355, 0, 0 } ,
-	{ 1259, 1355, 0, 0 } ,
-	{ 1260, 1355, 0, 0 } ,
-	{ 1070, 1355, 0, 0 } ,
-	{ 1261, 487, offsetof(MouseConfig_t505, ___timeToTurn_2), 0 } ,
-	{ 1262, 487, offsetof(MouseConfig_t505, ___minCirclingRadius_3), 0 } ,
-	{ 1263, 487, offsetof(MouseConfig_t505, ___maxCirclingRadius_4), 0 } ,
-	{ 1264, 487, offsetof(MouseConfig_t505, ___startMouseRadius_5), 0 } ,
-	{ 1265, 487, offsetof(MouseConfig_t505, ___minSpeedM_6), 0 } ,
-	{ 1266, 487, offsetof(MouseConfig_t505, ___maxSpeedM_7), 0 } ,
-	{ 1267, 487, offsetof(MouseConfig_t505, ___minScaleM_8), 0 } ,
-	{ 1268, 487, offsetof(MouseConfig_t505, ___maxScaleM_9), 0 } ,
-	{ 1269, 487, offsetof(MouseConfig_t505, ___superSpeedM_10), 0 } ,
-	{ 1270, 1357, offsetof(MouseConfig_t505, ___poisonedColor_11), 0 } ,
-	{ 1271, 1357, offsetof(MouseConfig_t505, ___fartedUponColor_12), 0 } ,
-	{ 1272, 1316, offsetof(MouseConfig_t505, ___progressBarOffset_13), 0 } ,
-	{ 1273, 988, offsetof(MouseConfig_t505, ___deadMousePrototype_14), 0 } ,
-	{ 1274, 487, offsetof(MouseConfig_t505, ___minBFWiggleMagnitude_15), 0 } ,
-	{ 1275, 487, offsetof(MouseConfig_t505, ___maxBFWiggleMagnitude_16), 0 } ,
-	{ 1276, 752, offsetof(MouseConfig_t505, ___minBFWiggleCycles_17), 0 } ,
-	{ 1277, 752, offsetof(MouseConfig_t505, ___maxBFWiggleCycles_18), 0 } ,
-	{ 1278, 487, offsetof(MouseConfig_t505, ___minSSWiggleMagnitude_19), 0 } ,
-	{ 1279, 487, offsetof(MouseConfig_t505, ___maxSSWiggleMagnitude_20), 0 } ,
-	{ 1280, 752, offsetof(MouseConfig_t505, ___minSSWiggleCycles_21), 0 } ,
-	{ 1281, 752, offsetof(MouseConfig_t505, ___maxSSWiggleCycles_22), 0 } ,
-	{ 1282, 487, offsetof(MouseConfig_t505, ___minRDWiggleMagnitude_23), 0 } ,
-	{ 1283, 487, offsetof(MouseConfig_t505, ___maxRDWiggleMagnitude_24), 0 } ,
-	{ 1284, 752, offsetof(MouseConfig_t505, ___minRDWiggleCycles_25), 0 } ,
-	{ 1285, 752, offsetof(MouseConfig_t505, ___maxRDWiggleCycles_26), 0 } ,
-	{ 1286, 1358, offsetof(MouseConfig_t505, ___mouseDescs_27), 0 } ,
-	{ 1287, 1359, offsetof(MouseConfig_t505, ___mouseWiggleDescs_28), 0 } ,
-	{ 234, 1360, offsetof(MouseConfig_t505_StaticFields, ___instance_29), 0 } ,
-	{ 1288, 1226, offsetof(MouseDesc_t506, ___mouseSprite_0), 0 } ,
-	{ 1098, 1226, offsetof(MouseDesc_t506, ___introScreenSprite_1), 0 } ,
-	{ 1289, 487, offsetof(MouseDesc_t506, ___speed_2), 0 } ,
-	{ 1145, 487, offsetof(MouseDesc_t506, ___scale_3), 0 } ,
-	{ 60, 44, offsetof(MouseHoleLocation_t507, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1290, 1363, 0, 0 } ,
-	{ 1291, 1363, 0, 0 } ,
-	{ 1292, 1363, 0, 0 } ,
-	{ 1293, 1363, 0, 0 } ,
-	{ 1070, 1363, 0, 0 } ,
-	{ 1294, 1316, offsetof(MouseHole_t478, ___meterOffset_2), 0 } ,
-	{ 1125, 1264, offsetof(MouseHole_t478, ___mouseHoleLocation_3), 0 } ,
-	{ 1295, 1367, offsetof(MouseHole_t478_StaticFields, ___angleBetweenHoles_4), 0 } ,
-	{ 1296, 509, offsetof(MouseHole_t478, ___savedMouseCount_5), 0 } ,
-	{ 1297, 1368, offsetof(MouseHole_t478, ___throbForEffect_6), 0 } ,
-	{ 1298, 988, offsetof(MouseHole_t478, ___holeMeterPrototype_7), 0 } ,
-	{ 1299, 1227, offsetof(MouseHole_t478, ___mouseHoleTip_8), 0 } ,
-	{ 1300, 509, offsetof(MouseHole_t478, ___capacity_9), 0 } ,
-	{ 1056, 516, offsetof(MouseHole_t478, ___registeredForEvents_10), 0 } ,
-	{ 1301, 1369, offsetof(MouseHole_t478, ___MousePopChanged_11), 0 } ,
-	{ 1302, 1370, offsetof(MouseHole_t478, ___CapacityChanged_12), 0 } ,
-	{ 1303, 1095, offsetof(MouseMove_t513, ___mouseAngleDeg_2), 0 } ,
-	{ 1304, 1095, offsetof(MouseMove_t513, ___startAngleDeg_3), 0 } ,
-	{ 1305, 1095, offsetof(MouseMove_t513, ___endAngleDeg_4), 0 } ,
-	{ 1306, 1095, offsetof(MouseMove_t513, ___mouseRadius_5), 0 } ,
-	{ 1307, 1095, offsetof(MouseMove_t513, ___circlingRadius_6), 0 } ,
-	{ 1197, 1372, offsetof(MouseMove_t513, ___phase_7), 0 } ,
-	{ 1198, 1095, offsetof(MouseMove_t513, ___phaseStartTime_8), 0 } ,
-	{ 1308, 1095, offsetof(MouseMove_t513, ___baseSpeedM_9), 0 } ,
-	{ 1309, 1095, offsetof(MouseMove_t513, ___actualSpeedM_10), 0 } ,
-	{ 1310, 1373, offsetof(MouseMove_t513, ___spriteRenderer_11), 0 } ,
-	{ 1311, 988, offsetof(MouseMove_t513, ___trackingStatusBarPrototype_12), 0 } ,
-	{ 1126, 516, offsetof(MouseMove_t513, ___isClockwise_13), 0 } ,
-	{ 1312, 1095, offsetof(MouseMove_t513, ___angleAdjustmentWhileRunning_14), 0 } ,
-	{ 1313, 1095, offsetof(MouseMove_t513, ___zeroCenteredAngleAdjustmentWhileRunning_15), 0 } ,
-	{ 1064, 1198, offsetof(MouseMove_t513, ___sliderInstance_16), 0 } ,
-	{ 1314, 1374, offsetof(MouseMove_t513, ___tweakableSlider_17), 0 } ,
-	{ 1315, 1375, offsetof(MouseMove_t513_StaticFields, ___activeMouseCount_18), 0 } ,
-	{ 1316, 1265, offsetof(MouseMove_t513, ___wiggleType_19), 0 } ,
-	{ 1317, 1095, offsetof(MouseMove_t513, ___wiggleMagnitude_20), 0 } ,
-	{ 1318, 1095, offsetof(MouseMove_t513, ___wiggleCycles_21), 0 } ,
-	{ 1319, 516, offsetof(MouseMove_t513, ___wiggleClockwise_22), 0 } ,
-	{ 1320, 487, offsetof(MouseMove_t513, ___minDistanceToManuallyOrient_23), 0 } ,
-	{ 1056, 516, offsetof(MouseMove_t513, ___registeredForEvents_24), 0 } ,
-	{ 1321, 1376, offsetof(MouseMove_t513, ___U3CmouseTypeU3Ek__BackingField_25), 380 } ,
-	{ 1322, 516, offsetof(MouseMove_t513, ___U3CdeadU3Ek__BackingField_26), 381 } ,
-	{ 1323, 516, offsetof(MouseMove_t513, ___U3CisPoisonedU3Ek__BackingField_27), 382 } ,
-	{ 1324, 516, offsetof(MouseMove_t513, ___U3CisFartedUponU3Ek__BackingField_28), 383 } ,
-	{ 1325, 487, offsetof(MouseSpawnFromData_t461, ___initialSpawnDelta_2), 0 } ,
-	{ 234, 1379, offsetof(MouseSpawnFromData_t461_StaticFields, ___instance_3), 0 } ,
-	{ 1326, 487, offsetof(MouseSpawnFromData_t461, ___minRandomDelay_4), 0 } ,
-	{ 1327, 487, offsetof(MouseSpawnFromData_t461, ___maxRandomDelay_5), 0 } ,
-	{ 1328, 1380, offsetof(MouseSpawnFromData_t461, ___miceDesc_6), 0 } ,
-	{ 1329, 1095, offsetof(MouseSpawnFromData_t461, ___nextSpawnTime_7), 0 } ,
-	{ 1330, 988, offsetof(MouseSpawnFromData_t461, ___mousePrototype_8), 0 } ,
-	{ 1056, 516, offsetof(MouseSpawnFromData_t461, ___registeredForEvents_9), 0 } ,
-	{ 1331, 1381, offsetof(MouseSpawnFromData_t461, ___MouseSpawn_10), 0 } ,
-	{ 1332, 509, offsetof(MouseSpawnFromData_t461, ___U3CmiceSpawnedU3Ek__BackingField_11), 392 } ,
-	{ 1056, 516, offsetof(MouseSpawnTracker_t515, ___registeredForEvents_2), 0 } ,
-	{ 1333, 1383, offsetof(MouseSpawnTracker_t515, ___slider_3), 0 } ,
-	{ 1334, 509, offsetof(MouseSpawnTracker_t515, ___miceThisLevel_4), 0 } ,
-	{ 1098, 1226, offsetof(MouseWiggleDesc_t516, ___introScreenSprite_0), 0 } ,
-	{ 1335, 487, offsetof(MouseWiggleDesc_t516, ___minMagnitude_1), 0 } ,
-	{ 1336, 487, offsetof(MouseWiggleDesc_t516, ___maxMagnitude_2), 0 } ,
-	{ 1337, 752, offsetof(MouseWiggleDesc_t516, ___minCycles_3), 0 } ,
-	{ 1338, 752, offsetof(MouseWiggleDesc_t516, ___maxCycles_4), 0 } ,
-	{ 1056, 516, offsetof(MusicButton_t517, ___registeredForEvents_2), 0 } ,
-	{ 1339, 1387, offsetof(MusicButton_t517, ___onSprite_3), 0 } ,
-	{ 1340, 1387, offsetof(MusicButton_t517, ___offSprite_4), 0 } ,
-	{ 1341, 1346, offsetof(MusicButton_t517, ___buttonImage_5), 0 } ,
-	{ 1342, 1390, offsetof(U3CPlayMusicU3Ec__Iterator13_t520, ___music_0), 0 } ,
-	{ 21, 52, offsetof(U3CPlayMusicU3Ec__Iterator13_t520, ___U24PC_1), 0 } ,
-	{ 22, 66, offsetof(U3CPlayMusicU3Ec__Iterator13_t520, ___U24current_2), 0 } ,
-	{ 1343, 1390, offsetof(U3CPlayMusicU3Ec__Iterator13_t520, ___U3CU24U3Emusic_3), 0 } ,
-	{ 23, 1391, offsetof(U3CPlayMusicU3Ec__Iterator13_t520, ___U3CU3Ef__this_4), 0 } ,
-	{ 1056, 516, offsetof(MusicPlayer_t519, ___registeredForEvents_2), 0 } ,
-	{ 1344, 1394, offsetof(MusicPlayer_t519, ___gameMusic_3), 0 } ,
-	{ 1345, 1394, offsetof(MusicPlayer_t519, ___menuMusic_4), 0 } ,
-	{ 1346, 1395, offsetof(MusicPlayer_t519, ___currentMusic_5), 0 } ,
-	{ 1347, 1222, offsetof(MusicPlayer_t519, ___playCuedMusic_6), 0 } ,
-	{ 1206, 1397, offsetof(OnMouseEntersHole_t521, ___mouseHole_2), 0 } ,
-	{ 234, 1402, offsetof(PausedOverlay_t523_StaticFields, ___instance_2), 0 } ,
-	{ 1348, 988, offsetof(PausedOverlay_t523, ___overlay_3), 0 } ,
-	{ 1349, 1274, offsetof(PausedOverlay_t523, ___bigPlayButton_4), 0 } ,
-	{ 1350, 1253, offsetof(PausedOverlay_t523, ___childElement_5), 0 } ,
-	{ 1056, 516, offsetof(PausedOverlay_t523, ___registeredForEvents_6), 0 } ,
-	{ 60, 44, offsetof(SwipePhase_t524, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1351, 1404, 0, 0 } ,
-	{ 1352, 1404, 0, 0 } ,
-	{ 1353, 1404, 0, 0 } ,
-	{ 1354, 1404, 0, 0 } ,
-	{ 1355, 1404, 0, 0 } ,
-	{ 1189, 1404, 0, 0 } ,
-	{ 1356, 1255, offsetof(PawController_t447, ___swipeLocationCat_2), 0 } ,
-	{ 1357, 1407, offsetof(PawController_t447, ___swipePhase_3), 0 } ,
-	{ 1358, 1095, offsetof(PawController_t447, ___pauseStarted_4), 0 } ,
-	{ 1359, 988, offsetof(PawController_t447, ___normalPawSpriteGameObject_5), 0 } ,
-	{ 1360, 988, offsetof(PawController_t447, ___dangerPawSpriteGameObject_6), 0 } ,
-	{ 1361, 988, offsetof(PawController_t447, ___bigPawSpriteGameObject_7), 0 } ,
-	{ 1362, 988, offsetof(PawController_t447, ___bigDangerPawSpriteGameObject_8), 0 } ,
-	{ 1363, 1408, offsetof(PawController_t447, ___normalCollider_9), 0 } ,
-	{ 1364, 1408, offsetof(PawController_t447, ___bigCollider_10), 0 } ,
-	{ 1365, 1095, offsetof(PawController_t447, ___swipeSpeed_11), 0 } ,
-	{ 1366, 509, offsetof(PawController_t447, ___killsThisSwipe_12), 0 } ,
-	{ 1367, 1409, offsetof(PawController_t447, ___gameController_13), 0 } ,
-	{ 1058, 516, offsetof(PawController_t447, ___registerdForEvents_14), 0 } ,
-	{ 1062, 1197, offsetof(PawController_t447, ___boostConfig_15), 0 } ,
-	{ 1368, 1084, offsetof(PawController_t447, ___pawHomeCatTransform_16), 0 } ,
-	{ 1369, 1084, offsetof(PawController_t447, ___shoulderJointCatTransform_17), 0 } ,
-	{ 1370, 1095, offsetof(PawController_t447, ___pawHomeCatTransformMagnitude_18), 0 } ,
-	{ 234, 1411, offsetof(PersistentStorage_t526_StaticFields, ___instance_2), 0 } ,
-	{ 1371, 1071, offsetof(PersistentStorage_t526_StaticFields, ___valueStoreFilePath_3), 0 } ,
-	{ 1372, 81, offsetof(PersistentStorage_t526, ___storedValues_4), 0 } ,
-	{ 60, 44, offsetof(BodyMovementType_t529, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1373, 1417, 0, 0 } ,
-	{ 1374, 1417, 0, 0 } ,
-	{ 1375, 1417, 0, 0 } ,
-	{ 1376, 1420, 0, 0 } ,
-	{ 1377, 988, offsetof(PlayerController_t530, ___rightPawGameObject_3), 0 } ,
-	{ 1378, 988, offsetof(PlayerController_t530, ___leftPawGameObject_4), 0 } ,
-	{ 1193, 1310, offsetof(PlayerController_t530, ___coneOfView_5), 0 } ,
-	{ 1379, 1421, offsetof(PlayerController_t530, ___headMovement_6), 0 } ,
-	{ 1380, 988, offsetof(PlayerController_t530, ___fartPuffPrototype_7), 0 } ,
-	{ 1381, 988, offsetof(PlayerController_t530, ___butthole_8), 0 } ,
-	{ 1382, 1422, offsetof(PlayerController_t530, ___bodyMovement_9), 0 } ,
-	{ 1383, 1095, offsetof(PlayerController_t530, ___targetTurnAngleDegrees_10), 0 } ,
-	{ 1384, 1095, offsetof(PlayerController_t530, ___currentTurnAngleDegrees_11), 0 } ,
-	{ 1385, 1255, offsetof(PlayerController_t530, ___dragAnchorCat_12), 0 } ,
-	{ 1386, 1095, offsetof(PlayerController_t530, ___dragAnchorAngleCat_13), 0 } ,
-	{ 1056, 516, offsetof(PlayerController_t530, ___registeredForEvents_14), 0 } ,
-	{ 1387, 1227, offsetof(PlayerController_t530, ___turningTip_15), 0 } ,
-	{ 1388, 487, offsetof(PlayerController_t530, ___turningTipPause_16), 0 } ,
-	{ 1389, 1095, offsetof(PlayerController_t530, ___lastFartTime_17), 0 } ,
-	{ 1390, 487, offsetof(PlayerController_t530, ___fartPause_18), 0 } ,
-	{ 1095, 1423, offsetof(PlayerController_t530_StaticFields, ___U3CinstanceU3Ek__BackingField_19), 401 } ,
-	{ 1391, 538, 0, 0 } ,
-	{ 1392, 509, offsetof(PlayerStats_t435, ___gameScore_3), 0 } ,
-	{ 1393, 509, offsetof(PlayerStats_t435, ___treatCount_4), 0 } ,
-	{ 1394, 1343, offsetof(PlayerStats_t435, ___availableBoostCount_5), 0 } ,
-	{ 1395, 1343, offsetof(PlayerStats_t435, ___purchasedBoostCount_6), 0 } ,
-	{ 1056, 516, offsetof(PlayerStats_t435, ___registeredForEvents_7), 0 } ,
-	{ 1396, 1428, offsetof(PlayerStats_t435, ___ScoreChanged_8), 0 } ,
-	{ 1397, 1429, offsetof(PlayerStats_t435, ___TreatsChanged_9), 0 } ,
-	{ 1398, 1430, offsetof(PlayerStats_t435, ___BoostsChanged_10), 0 } ,
-	{ 1095, 1431, offsetof(PlayerStats_t435_StaticFields, ___U3CinstanceU3Ek__BackingField_11), 404 } ,
-	{ 1399, 1436, 0, 0 } ,
-	{ 1400, 1437, 0, 0 } ,
-	{ 1401, 752, 0, 0 } ,
-	{ 21, 52, offsetof(U3CWaitAndShowDialogU3Ec__Iterator14_t535, ___U24PC_0), 0 } ,
-	{ 22, 66, offsetof(U3CWaitAndShowDialogU3Ec__Iterator14_t535, ___U24current_1), 0 } ,
-	{ 23, 1440, offsetof(U3CWaitAndShowDialogU3Ec__Iterator14_t535, ___U3CU3Ef__this_2), 0 } ,
-	{ 1402, 752, offsetof(RateMeController_t534, ___launchFrequency_2), 0 } ,
-	{ 1403, 487, offsetof(RateMeController_t534, ___minTimeFrequencySec_3), 0 } ,
-	{ 1404, 988, offsetof(RateMeController_t534, ___rateMeDialogPrototype_4), 0 } ,
-	{ 1405, 487, offsetof(RateMeController_t534, ___waitToShow_5), 0 } ,
-	{ 1406, 499, offsetof(RatingsHelper_t537, ___iosAppID_2), 0 } ,
-	{ 234, 1446, offsetof(RatingsHelper_t537_StaticFields, ___instance_3), 0 } ,
-	{ 1056, 516, offsetof(SFXButton_t539, ___registeredForEvents_2), 0 } ,
-	{ 1407, 1387, offsetof(SFXButton_t539, ___soundOnSprite_3), 0 } ,
-	{ 1408, 1387, offsetof(SFXButton_t539, ___soundOffSprite_4), 0 } ,
-	{ 1341, 1346, offsetof(SFXButton_t539, ___buttonImage_5), 0 } ,
-	{ 60, 44, offsetof(SFXType_t540, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1409, 1452, 0, 0 } ,
-	{ 1410, 1452, 0, 0 } ,
-	{ 1411, 1452, 0, 0 } ,
-	{ 1412, 1452, 0, 0 } ,
-	{ 1413, 1452, 0, 0 } ,
-	{ 1414, 1452, 0, 0 } ,
-	{ 1415, 1452, 0, 0 } ,
-	{ 1416, 1452, 0, 0 } ,
-	{ 1070, 1452, 0, 0 } ,
-	{ 1417, 1455, offsetof(SFXPlayer_t543, ___audioSources_2), 0 } ,
-	{ 1056, 516, offsetof(SFXPlayer_t543, ___registeredForEvents_3), 0 } ,
-	{ 1418, 1456, offsetof(SFXPlayer_t543, ___deadMouseIds_4), 0 } ,
-	{ 1419, 1456, offsetof(SFXPlayer_t543, ___slapIds_5), 0 } ,
-	{ 1095, 1457, offsetof(SFXPlayer_t543_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 413 } ,
-	{ 1056, 516, offsetof(SFXSilencer_t544, ___registeredForEvents_2), 0 } ,
-	{ 1420, 1461, offsetof(SecretUI_t547, ___inputField_2), 0 } ,
-	{ 1421, 1462, offsetof(SecretUI_t547, ___canvasGroup_3), 0 } ,
-	{ 1422, 516, offsetof(SecretUI_t547, ___uiIsVisible_4), 0 } ,
-	{ 234, 1463, offsetof(SecretUI_t547_StaticFields, ___instance_5), 0 } ,
-	{ 1423, 487, offsetof(SizeCamera_t64, ___minWorldAspectRatio_2), 0 } ,
-	{ 1424, 487, offsetof(SizeCamera_t64, ___targetWorldHalfHeight_3), 0 } ,
-	{ 1425, 487, offsetof(SizeCamera_t64, ___screenPixelsTopToIgnore_4), 0 } ,
-	{ 1426, 487, offsetof(SizeCamera_t64, ___screenPixelsBottomToIgnore_5), 0 } ,
-	{ 21, 52, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator15_t549, ___U24PC_0), 0 } ,
-	{ 22, 66, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator15_t549, ___U24current_1), 0 } ,
-	{ 1427, 1470, offsetof(U3CAuthenticateU3Ec__AnonStorey18_t550, ___handler_0), 0 } ,
-	{ 1428, 932, offsetof(U3CRecordAchievementU3Ec__AnonStorey19_t551, ___achievementID_0), 0 } ,
-	{ 1429, 499, offsetof(SocialHelper_t552, ___leaderboardID_2), 0 } ,
-	{ 234, 1473, offsetof(SocialHelper_t552_StaticFields, ___instance_3), 0 } ,
-	{ 1430, 516, offsetof(SocialHelper_t552, ___socialHelperEnabled_4), 0 } ,
-	{ 1153, 882, offsetof(SocialHelper_t552_StaticFields, ___U3CU3Ef__amU24cache3_5), 416 } ,
-	{ 1154, 882, offsetof(SocialHelper_t552_StaticFields, ___U3CU3Ef__amU24cache4_6), 417 } ,
-	{ 1431, 1274, offsetof(SocialMediaButtons_t553, ___fbButton_2), 0 } ,
-	{ 1432, 1274, offsetof(SocialMediaButtons_t553, ___twitterButton_3), 0 } ,
-	{ 669, 1275, offsetof(SocialMediaButtons_t553_StaticFields, ___U3CU3Ef__amU24cache2_4), 429 } ,
-	{ 1153, 1275, offsetof(SocialMediaButtons_t553_StaticFields, ___U3CU3Ef__amU24cache3_5), 430 } ,
-	{ 1433, 538, 0, 0 } ,
-	{ 1434, 538, 0, 0 } ,
-	{ 234, 1478, offsetof(SoundController_t556_StaticFields, ___instance_4), 0 } ,
-	{ 1435, 1479, offsetof(SoundController_t556, ___SoundMuteChanged_5), 0 } ,
-	{ 1436, 1480, offsetof(SoundController_t556, ___MusicMuteChanged_6), 0 } ,
-	{ 1437, 516, offsetof(SoundController_t556, ___U3CsfxMutedU3Ek__BackingField_7), 433 } ,
-	{ 1438, 516, offsetof(SoundController_t556, ___U3CmusicMutedU3Ek__BackingField_8), 434 } ,
-	{ 1439, 516, offsetof(ThrobForEffect_t510, ___throbbing_2), 0 } ,
-	{ 1440, 1095, offsetof(ThrobForEffect_t510, ___startThrobTime_3), 0 } ,
-	{ 1441, 487, offsetof(ThrobForEffect_t510, ___throbPeriod_4), 0 } ,
-	{ 1442, 487, offsetof(ThrobForEffect_t510, ___throbScale_5), 0 } ,
-	{ 1120, 1084, offsetof(ThrobForEffect_t510, ___thingToScale_6), 0 } ,
-	{ 1121, 1255, offsetof(ThrobForEffect_t510, ___originalScale_7), 0 } ,
-	{ 234, 1484, offsetof(TimeController_t558_StaticFields, ___instance_2), 0 } ,
-	{ 1443, 1485, offsetof(TimeController_t558, ___PauseChanged_3), 0 } ,
-	{ 1444, 516, offsetof(TimeController_t558, ___U3CpausedU3Ek__BackingField_4), 439 } ,
-	{ 1445, 487, offsetof(TimedFader_t559, ___staticLifespan_2), 0 } ,
-	{ 1446, 487, offsetof(TimedFader_t559, ___fadingLifespan_3), 0 } ,
-	{ 1310, 1487, offsetof(TimedFader_t559, ___spriteRenderer_4), 0 } ,
-	{ 1447, 1095, offsetof(TimedFader_t559, ___startTime_5), 0 } ,
-	{ 1448, 499, offsetof(TipConfig_t433, ___tipID_0), 0 } ,
-	{ 1449, 499, offsetof(TipConfig_t433, ___tipText_1), 0 } ,
-	{ 1450, 1083, offsetof(TipConfig_t433, ___tipPosition_2), 0 } ,
-	{ 1216, 1218, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___tipPause_0), 0 } ,
-	{ 1101, 1491, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___tipConfig_1), 0 } ,
-	{ 21, 52, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___U24PC_2), 0 } ,
-	{ 22, 66, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___U24current_3), 0 } ,
-	{ 1451, 1218, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___U3CU24U3EtipPause_4), 0 } ,
-	{ 1452, 1491, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___U3CU24U3EtipConfig_5), 0 } ,
-	{ 23, 1492, offsetof(U3CPlayTipWithPauseU3Ec__Iterator16_t561, ___U3CU3Ef__this_6), 0 } ,
-	{ 1056, 516, offsetof(TipController_t560, ___registeredForEvents_2), 0 } ,
-	{ 1453, 988, offsetof(TipController_t560, ___tipDialogPrototype_3), 0 } ,
-	{ 1454, 1222, offsetof(TipController_t560, ___enqueuedTip_4), 0 } ,
-	{ 234, 1494, offsetof(TipController_t560_StaticFields, ___instance_5), 0 } ,
-	{ 1455, 1209, offsetof(TipDialog_t562, ___dialogText_2), 0 } ,
-	{ 1456, 1497, offsetof(TrackLevel_t563, ___levelText_2), 0 } ,
-	{ 1058, 516, offsetof(TrackLevel_t563, ___registerdForEvents_3), 0 } ,
-	{ 1457, 1497, offsetof(TrackScore_t564, ___scoreText_2), 0 } ,
-	{ 1247, 1347, offsetof(TrackScore_t564, ___distortForEffect_3), 0 } ,
-	{ 1102, 1229, offsetof(TrackScore_t564, ___playerStats_4), 0 } ,
-	{ 1058, 516, offsetof(TrackScore_t564, ___registerdForEvents_5), 0 } ,
-	{ 1458, 1497, offsetof(TrackTreats_t565, ___treatsText_2), 0 } ,
-	{ 1247, 1347, offsetof(TrackTreats_t565, ___distortForEffect_3), 0 } ,
-	{ 1102, 1229, offsetof(TrackTreats_t565, ___playerStats_4), 0 } ,
-	{ 1058, 516, offsetof(TrackTreats_t565, ___registerdForEvents_5), 0 } ,
-	{ 1459, 1504, offsetof(TutsPlayerController_t567, ___animator_2), 0 } ,
-	{ 1460, 1420, 0, 0 } ,
-	{ 1461, 1420, 0, 0 } ,
-	{ 1462, 1420, 0, 0 } ,
-	{ 1463, 1420, 0, 0 } ,
-	{ 1464, 636, 0, 0 } ,
-	{ 1465, 1420, 0, 0 } ,
-	{ 1466, 1420, 0, 0 } ,
-	{ 1467, 1420, 0, 0 } ,
-	{ 1468, 1420, 0, 0 } ,
-	{ 1469, 1420, 0, 0 } ,
-	{ 1470, 1420, 0, 0 } ,
-	{ 1471, 636, 0, 0 } ,
-	{ 1472, 636, 0, 0 } ,
-	{ 1473, 636, 0, 0 } ,
-	{ 1474, 636, 0, 0 } ,
-	{ 1475, 636, 0, 0 } ,
-	{ 1476, 636, 0, 0 } ,
-	{ 1477, 636, 0, 0 } ,
-	{ 1478, 1420, 0, 0 } ,
-	{ 1479, 1420, 0, 0 } ,
-	{ 1480, 1420, 0, 0 } ,
-	{ 1481, 1420, 0, 0 } ,
-	{ 1482, 1420, 0, 0 } ,
-	{ 1483, 1346, offsetof(TweakableSlider_t512, ___fill_2), 0 } ,
-	{ 1484, 1346, offsetof(TweakableSlider_t512, ___background_3), 0 } ,
-	{ 1133, 574, 0, 0 } ,
-	{ 1135, 574, 0, 0 } ,
-	{ 234, 1510, offsetof(TwitterSharing_t569_StaticFields, ___instance_4), 0 } ,
-	{ 1137, 979, offsetof(TwitterSharing_t569, ___lazyAngusIcon_5), 0 } ,
-	{ 1062, 1197, offsetof(UseBoost_t570, ___boostConfig_2), 0 } ,
-	{ 1102, 1229, offsetof(UseBoost_t570, ___playerStats_3), 0 } ,
-	{ 1485, 932, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___appURL_0), 0 } ,
-	{ 1486, 932, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___webURL_1), 0 } ,
-	{ 21, 52, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___U24PC_2), 0 } ,
-	{ 22, 66, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___U24current_3), 0 } ,
-	{ 1487, 932, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___U3CU24U3EappURL_4), 0 } ,
-	{ 1488, 932, offsetof(U3CLaunchAppOrWebU3Ec__Iterator17_t571, ___U3CU24U3EwebURL_5), 0 } ,
-	{ 1489, 538, 0, 0 } ,
-	{ 1485, 538, 0, 0 } ,
-	{ 1490, 1519, offsetof(Utilities_t572_StaticFields, ___epoch_2), 0 } ,
-	{ 1491, 1253, offsetof(WorldObjectFollower_t574, ___objectToFollow_2), 0 } ,
-	{ 1492, 1521, offsetof(WorldObjectFollower_t574, ___myRectTransform_3), 0 } ,
-	{ 1493, 1522, offsetof(WorldObjectFollower_t574, ___worldCanvas_4), 0 } ,
-	{ 0, 1523, offsetof(WorldObjectFollower_t574, ___worldCamera_5), 0 } ,
-	{ 1494, 1095, offsetof(WorldObjectFollower_t574, ___canvasWidth_6), 0 } ,
-	{ 1495, 1095, offsetof(WorldObjectFollower_t574, ___canvasHeight_7), 0 } ,
-	{ 1496, 516, offsetof(WorldObjectFollower_t574, ___followeeMoves_8), 0 } ,
-	{ 1497, 516, offsetof(WorldObjectFollower_t574, ___positionDirty_9), 0 } ,
-	{ 1203, 1316, offsetof(WorldObjectFollower_t574, ___offset_10), 0 } ,
-	{ 1498, 487, offsetof(WorldObjectFollower_t574, ___rotation_11), 0 } ,
+	{ 0, 568, offsetof(ConsoleBase_t109, ___status_2), 0 } ,
+	{ 1, 568, offsetof(ConsoleBase_t109, ___lastResponse_3), 0 } ,
+	{ 2, 569, offsetof(ConsoleBase_t109, ___textStyle_4), 0 } ,
+	{ 3, 570, offsetof(ConsoleBase_t109, ___lastResponseTexture_5), 0 } ,
+	{ 4, 571, offsetof(ConsoleBase_t109, ___scrollPosition_6), 0 } ,
+	{ 5, 572, offsetof(ConsoleBase_t109, ___buttonHeight_7), 0 } ,
+	{ 6, 572, offsetof(ConsoleBase_t109, ___mainWindowWidth_8), 0 } ,
+	{ 7, 572, offsetof(ConsoleBase_t109, ___mainWindowFullWidth_9), 0 } ,
+	{ 8, 101, offsetof(GameGroupsConsole_t111, ___GamerGroupName_10), 0 } ,
+	{ 9, 101, offsetof(GameGroupsConsole_t111, ___GamerGroupDesc_11), 0 } ,
+	{ 10, 101, offsetof(GameGroupsConsole_t111, ___GamerGroupPrivacy_12), 0 } ,
+	{ 11, 101, offsetof(GameGroupsConsole_t111, ___GamerGroupAdmin_13), 0 } ,
+	{ 12, 101, offsetof(GameGroupsConsole_t111, ___GamerGroupCurrentGroup_14), 0 } ,
+	{ 13, 137, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CtexU3E__2_2), 0 } ,
+	{ 16, 578, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CscreenshotU3E__3_3), 0 } ,
+	{ 17, 579, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CwwwFormU3E__4_4), 0 } ,
+	{ 18, 137, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U24PC_5), 0 } ,
+	{ 19, 148, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U24current_6), 0 } ,
+	{ 20, 580, offsetof(U3CTakeScreenshotU3Ec__Iterator0_t114, ___U3CU3Ef__this_7), 0 } ,
+	{ 21, 101, offsetof(InteractiveConsole_t113, ___FriendSelectorTitle_10), 0 } ,
+	{ 22, 101, offsetof(InteractiveConsole_t113, ___FriendSelectorMessage_11), 0 } ,
+	{ 23, 583, offsetof(InteractiveConsole_t113, ___FriendFilterTypes_12), 0 } ,
+	{ 24, 110, offsetof(InteractiveConsole_t113, ___FriendFilterSelection_13), 0 } ,
+	{ 25, 584, offsetof(InteractiveConsole_t113, ___FriendFilterGroupNames_14), 0 } ,
+	{ 26, 584, offsetof(InteractiveConsole_t113, ___FriendFilterGroupIDs_15), 0 } ,
+	{ 27, 110, offsetof(InteractiveConsole_t113, ___NumFriendFilterGroups_16), 0 } ,
+	{ 28, 101, offsetof(InteractiveConsole_t113, ___FriendSelectorData_17), 0 } ,
+	{ 29, 101, offsetof(InteractiveConsole_t113, ___FriendSelectorExcludeIds_18), 0 } ,
+	{ 30, 101, offsetof(InteractiveConsole_t113, ___FriendSelectorMax_19), 0 } ,
+	{ 31, 101, offsetof(InteractiveConsole_t113, ___DirectRequestTitle_20), 0 } ,
+	{ 32, 101, offsetof(InteractiveConsole_t113, ___DirectRequestMessage_21), 0 } ,
+	{ 33, 99, offsetof(InteractiveConsole_t113, ___DirectRequestTo_22), 0 } ,
+	{ 34, 101, offsetof(InteractiveConsole_t113, ___FeedToId_23), 0 } ,
+	{ 35, 101, offsetof(InteractiveConsole_t113, ___FeedLink_24), 0 } ,
+	{ 36, 101, offsetof(InteractiveConsole_t113, ___FeedLinkName_25), 0 } ,
+	{ 37, 101, offsetof(InteractiveConsole_t113, ___FeedLinkCaption_26), 0 } ,
+	{ 38, 101, offsetof(InteractiveConsole_t113, ___FeedLinkDescription_27), 0 } ,
+	{ 39, 101, offsetof(InteractiveConsole_t113, ___FeedPicture_28), 0 } ,
+	{ 40, 101, offsetof(InteractiveConsole_t113, ___FeedMediaSource_29), 0 } ,
+	{ 41, 101, offsetof(InteractiveConsole_t113, ___FeedActionName_30), 0 } ,
+	{ 42, 101, offsetof(InteractiveConsole_t113, ___FeedActionLink_31), 0 } ,
+	{ 43, 101, offsetof(InteractiveConsole_t113, ___FeedReference_32), 0 } ,
+	{ 44, 104, offsetof(InteractiveConsole_t113, ___IncludeFeedProperties_33), 0 } ,
+	{ 45, 585, offsetof(InteractiveConsole_t113, ___FeedProperties_34), 0 } ,
+	{ 46, 101, offsetof(InteractiveConsole_t113, ___PayProduct_35), 0 } ,
+	{ 47, 101, offsetof(InteractiveConsole_t113, ___ApiQuery_36), 0 } ,
+	{ 48, 104, offsetof(AN_ActivityTemplate_t117, ___IsOpen_2), 0 } ,
+	{ 49, 110, offsetof(AN_ActivityTemplate_t117, ____id_3), 0 } ,
+	{ 50, 100, offsetof(AN_ActivityTemplate_t117, ____isLauncher_4), 0 } ,
+	{ 51, 99, offsetof(AN_ActivityTemplate_t117, ____name_5), 0 } ,
+	{ 52, 591, offsetof(AN_ApplicationTemplate_t120, ____activities_2), 0 } ,
+	{ 53, 593, offsetof(AN_BaseTemplate_t118, ____properties_0), 0 } ,
+	{ 54, 594, offsetof(AN_BaseTemplate_t118, ____values_1), 0 } ,
+	{ 55, 596, offsetof(AN_ManifestTemplate_t124, ____applicationTemplate_2), 0 } ,
+	{ 56, 597, offsetof(AN_ManifestTemplate_t124, ____permissions_3), 0 } ,
+	{ 57, 90, offsetof(AN_Permissions_t125, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 600, 0, 0 } ,
+	{ 59, 600, 0, 0 } ,
+	{ 60, 600, 0, 0 } ,
+	{ 61, 600, 0, 0 } ,
+	{ 62, 600, 0, 0 } ,
+	{ 63, 600, 0, 0 } ,
+	{ 64, 600, 0, 0 } ,
+	{ 65, 600, 0, 0 } ,
+	{ 66, 600, 0, 0 } ,
+	{ 67, 600, 0, 0 } ,
+	{ 68, 600, 0, 0 } ,
+	{ 69, 600, 0, 0 } ,
+	{ 70, 600, 0, 0 } ,
+	{ 71, 600, 0, 0 } ,
+	{ 72, 600, 0, 0 } ,
+	{ 73, 600, 0, 0 } ,
+	{ 74, 600, 0, 0 } ,
+	{ 75, 600, 0, 0 } ,
+	{ 76, 600, 0, 0 } ,
+	{ 77, 600, 0, 0 } ,
+	{ 78, 600, 0, 0 } ,
+	{ 79, 600, 0, 0 } ,
+	{ 80, 600, 0, 0 } ,
+	{ 81, 600, 0, 0 } ,
+	{ 82, 600, 0, 0 } ,
+	{ 83, 600, 0, 0 } ,
+	{ 84, 600, 0, 0 } ,
+	{ 85, 600, 0, 0 } ,
+	{ 86, 600, 0, 0 } ,
+	{ 87, 600, 0, 0 } ,
+	{ 88, 600, 0, 0 } ,
+	{ 89, 600, 0, 0 } ,
+	{ 90, 600, 0, 0 } ,
+	{ 91, 600, 0, 0 } ,
+	{ 92, 600, 0, 0 } ,
+	{ 93, 600, 0, 0 } ,
+	{ 94, 600, 0, 0 } ,
+	{ 95, 600, 0, 0 } ,
+	{ 96, 600, 0, 0 } ,
+	{ 97, 600, 0, 0 } ,
+	{ 98, 600, 0, 0 } ,
+	{ 99, 600, 0, 0 } ,
+	{ 100, 600, 0, 0 } ,
+	{ 101, 600, 0, 0 } ,
+	{ 102, 600, 0, 0 } ,
+	{ 103, 600, 0, 0 } ,
+	{ 104, 600, 0, 0 } ,
+	{ 105, 600, 0, 0 } ,
+	{ 106, 600, 0, 0 } ,
+	{ 107, 600, 0, 0 } ,
+	{ 108, 600, 0, 0 } ,
+	{ 109, 600, 0, 0 } ,
+	{ 110, 600, 0, 0 } ,
+	{ 111, 600, 0, 0 } ,
+	{ 112, 600, 0, 0 } ,
+	{ 113, 600, 0, 0 } ,
+	{ 114, 600, 0, 0 } ,
+	{ 115, 600, 0, 0 } ,
+	{ 116, 600, 0, 0 } ,
+	{ 117, 600, 0, 0 } ,
+	{ 118, 600, 0, 0 } ,
+	{ 119, 600, 0, 0 } ,
+	{ 120, 600, 0, 0 } ,
+	{ 121, 600, 0, 0 } ,
+	{ 122, 600, 0, 0 } ,
+	{ 123, 600, 0, 0 } ,
+	{ 124, 600, 0, 0 } ,
+	{ 125, 600, 0, 0 } ,
+	{ 126, 600, 0, 0 } ,
+	{ 127, 600, 0, 0 } ,
+	{ 128, 600, 0, 0 } ,
+	{ 129, 600, 0, 0 } ,
+	{ 130, 600, 0, 0 } ,
+	{ 131, 600, 0, 0 } ,
+	{ 132, 600, 0, 0 } ,
+	{ 133, 600, 0, 0 } ,
+	{ 134, 600, 0, 0 } ,
+	{ 135, 600, 0, 0 } ,
+	{ 136, 600, 0, 0 } ,
+	{ 137, 600, 0, 0 } ,
+	{ 138, 600, 0, 0 } ,
+	{ 139, 600, 0, 0 } ,
+	{ 140, 600, 0, 0 } ,
+	{ 141, 600, 0, 0 } ,
+	{ 142, 600, 0, 0 } ,
+	{ 143, 600, 0, 0 } ,
+	{ 144, 600, 0, 0 } ,
+	{ 145, 600, 0, 0 } ,
+	{ 146, 600, 0, 0 } ,
+	{ 147, 600, 0, 0 } ,
+	{ 148, 600, 0, 0 } ,
+	{ 149, 600, 0, 0 } ,
+	{ 150, 600, 0, 0 } ,
+	{ 151, 600, 0, 0 } ,
+	{ 152, 600, 0, 0 } ,
+	{ 153, 600, 0, 0 } ,
+	{ 154, 600, 0, 0 } ,
+	{ 155, 600, 0, 0 } ,
+	{ 156, 600, 0, 0 } ,
+	{ 157, 600, 0, 0 } ,
+	{ 158, 600, 0, 0 } ,
+	{ 159, 600, 0, 0 } ,
+	{ 160, 600, 0, 0 } ,
+	{ 161, 600, 0, 0 } ,
+	{ 162, 600, 0, 0 } ,
+	{ 163, 600, 0, 0 } ,
+	{ 164, 600, 0, 0 } ,
+	{ 165, 600, 0, 0 } ,
+	{ 166, 600, 0, 0 } ,
+	{ 167, 600, 0, 0 } ,
+	{ 168, 600, 0, 0 } ,
+	{ 169, 600, 0, 0 } ,
+	{ 170, 600, 0, 0 } ,
+	{ 171, 600, 0, 0 } ,
+	{ 172, 600, 0, 0 } ,
+	{ 173, 600, 0, 0 } ,
+	{ 174, 600, 0, 0 } ,
+	{ 175, 600, 0, 0 } ,
+	{ 176, 600, 0, 0 } ,
+	{ 177, 600, 0, 0 } ,
+	{ 178, 600, 0, 0 } ,
+	{ 179, 600, 0, 0 } ,
+	{ 180, 600, 0, 0 } ,
+	{ 181, 600, 0, 0 } ,
+	{ 182, 600, 0, 0 } ,
+	{ 183, 600, 0, 0 } ,
+	{ 184, 600, 0, 0 } ,
+	{ 185, 600, 0, 0 } ,
+	{ 186, 600, 0, 0 } ,
+	{ 187, 600, 0, 0 } ,
+	{ 188, 600, 0, 0 } ,
+	{ 189, 600, 0, 0 } ,
+	{ 190, 600, 0, 0 } ,
+	{ 191, 600, 0, 0 } ,
+	{ 192, 600, 0, 0 } ,
+	{ 193, 600, 0, 0 } ,
+	{ 194, 600, 0, 0 } ,
+	{ 195, 600, 0, 0 } ,
+	{ 196, 600, 0, 0 } ,
+	{ 197, 600, 0, 0 } ,
+	{ 198, 600, 0, 0 } ,
+	{ 199, 600, 0, 0 } ,
+	{ 200, 600, 0, 0 } ,
+	{ 201, 600, 0, 0 } ,
+	{ 202, 600, 0, 0 } ,
+	{ 203, 600, 0, 0 } ,
+	{ 204, 600, 0, 0 } ,
+	{ 205, 600, 0, 0 } ,
+	{ 206, 600, 0, 0 } ,
+	{ 207, 600, 0, 0 } ,
+	{ 208, 600, 0, 0 } ,
+	{ 48, 104, offsetof(AN_PropertyTemplate_t126, ___IsOpen_2), 0 } ,
+	{ 209, 99, offsetof(AN_PropertyTemplate_t126, ____tag_3), 0 } ,
+	{ 210, 604, offsetof(EventDispatcher_t129, ___listners_2), 0 } ,
+	{ 211, 605, offsetof(EventDispatcher_t129, ___dataListners_3), 0 } ,
+	{ 210, 604, offsetof(EventDispatcherBase_t130, ___listners_0), 0 } ,
+	{ 211, 605, offsetof(EventDispatcherBase_t130, ___dataListners_1), 0 } ,
+	{ 212, 610, 0, 0 } ,
+	{ 213, 610, 0, 0 } ,
+	{ 214, 610, 0, 0 } ,
+	{ 215, 610, 0, 0 } ,
+	{ 216, 610, 0, 0 } ,
+	{ 217, 610, 0, 0 } ,
+	{ 218, 610, 0, 0 } ,
+	{ 219, 610, 0, 0 } ,
+	{ 220, 610, 0, 0 } ,
+	{ 221, 610, 0, 0 } ,
+	{ 222, 610, 0, 0 } ,
+	{ 223, 610, 0, 0 } ,
+	{ 224, 610, 0, 0 } ,
+	{ 225, 610, 0, 0 } ,
+	{ 49, 110, offsetof(CEvent_t133, ____id_0), 0 } ,
+	{ 51, 99, offsetof(CEvent_t133, ____name_1), 0 } ,
+	{ 226, 613, offsetof(CEvent_t133, ____data_2), 0 } ,
+	{ 227, 614, offsetof(CEvent_t133, ____dispatcher_3), 0 } ,
+	{ 228, 100, offsetof(CEvent_t133, ____isStoped_4), 0 } ,
+	{ 229, 100, offsetof(CEvent_t133, ____isLocked_5), 0 } ,
+	{ 230, 615, offsetof(CEvent_t133, ____currentTarget_6), 0 } ,
+	{ 231, 618, offsetof(EventButtonExample_t134_StaticFields, ___instance_4), 0 } ,
+	{ 232, 619, offsetof(EventButtonExample_t134, ___w_5), 0 } ,
+	{ 233, 619, offsetof(EventButtonExample_t134, ___h_6), 0 } ,
+	{ 234, 569, offsetof(ExampleListner_t135, ___style_2), 0 } ,
+	{ 235, 99, offsetof(ExampleListner_t135, ___label_3), 0 } ,
+	{ 236, 110, offsetof(ExampleListner_t135, ___count_4), 0 } ,
+	{ 237, 623, offsetof(AdMobBanner_t137, ___size_2), 0 } ,
+	{ 238, 624, offsetof(AdMobBanner_t137, ___anchor_3), 0 } ,
+	{ 239, 625, offsetof(AdMobBanner_t137_StaticFields, ____registerdBanners_4), 0 } ,
+	{ 234, 631, offsetof(GoogleAdsExample_t141, ___style_2), 0 } ,
+	{ 240, 631, offsetof(GoogleAdsExample_t141, ___style2_3), 0 } ,
+	{ 241, 632, offsetof(GoogleAdsExample_t141, ___banner1_4), 0 } ,
+	{ 242, 632, offsetof(GoogleAdsExample_t141, ___banner2_5), 0 } ,
+	{ 243, 100, offsetof(GoogleAdsExample_t141, ___IsInterstisialsAdReady_6), 0 } ,
+	{ 244, 640, offsetof(GoogleMobileAd_t145_StaticFields, ___controller_0), 0 } ,
+	{ 245, 641, offsetof(GoogleMobileAd_t145_StaticFields, ____IsInited_1), 0 } ,
+	{ 246, 642, offsetof(GoogleMobileAd_t145_StaticFields, ___OnInterstitialLoaded_2), 0 } ,
+	{ 247, 642, offsetof(GoogleMobileAd_t145_StaticFields, ___OnInterstitialFailedLoading_3), 0 } ,
+	{ 248, 642, offsetof(GoogleMobileAd_t145_StaticFields, ___OnInterstitialOpened_4), 0 } ,
+	{ 249, 642, offsetof(GoogleMobileAd_t145_StaticFields, ___OnInterstitialClosed_5), 0 } ,
+	{ 250, 642, offsetof(GoogleMobileAd_t145_StaticFields, ___OnInterstitialLeftApplication_6), 0 } ,
+	{ 251, 643, offsetof(GoogleMobileAd_t145_StaticFields, ___OnAdInAppRequest_7), 0 } ,
+	{ 252, 644, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cache8_8), 8 } ,
+	{ 253, 644, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cache9_9), 9 } ,
+	{ 254, 644, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cacheA_10), 10 } ,
+	{ 255, 644, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cacheB_11), 11 } ,
+	{ 256, 644, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cacheC_12), 12 } ,
+	{ 257, 645, offsetof(GoogleMobileAd_t145_StaticFields, ___U3CU3Ef__amU24cacheD_13), 13 } ,
+	{ 258, 610, 0, 0 } ,
+	{ 259, 610, 0, 0 } ,
+	{ 260, 647, 0, 0 } ,
+	{ 261, 647, 0, 0 } ,
+	{ 262, 647, 0, 0 } ,
+	{ 263, 101, offsetof(GoogleMobileAdSettings_t147, ___IOS_InterstisialsUnitId_7), 0 } ,
+	{ 264, 101, offsetof(GoogleMobileAdSettings_t147, ___IOS_BannersUnitId_8), 0 } ,
+	{ 265, 101, offsetof(GoogleMobileAdSettings_t147, ___Android_InterstisialsUnitId_9), 0 } ,
+	{ 266, 101, offsetof(GoogleMobileAdSettings_t147, ___Android_BannersUnitId_10), 0 } ,
+	{ 267, 101, offsetof(GoogleMobileAdSettings_t147, ___WP8_InterstisialsUnitId_11), 0 } ,
+	{ 268, 101, offsetof(GoogleMobileAdSettings_t147, ___WP8_BannersUnitId_12), 0 } ,
+	{ 269, 104, offsetof(GoogleMobileAdSettings_t147, ___IsIOSSettinsOpened_13), 0 } ,
+	{ 270, 104, offsetof(GoogleMobileAdSettings_t147, ___IsAndroidSettinsOpened_14), 0 } ,
+	{ 271, 104, offsetof(GoogleMobileAdSettings_t147, ___IsWP8SettinsOpened_15), 0 } ,
+	{ 272, 104, offsetof(GoogleMobileAdSettings_t147, ___IsTestSettinsOpened_16), 0 } ,
+	{ 273, 104, offsetof(GoogleMobileAdSettings_t147, ___ShowActions_17), 0 } ,
+	{ 274, 104, offsetof(GoogleMobileAdSettings_t147, ___KeepManifestClean_18), 0 } ,
+	{ 275, 648, offsetof(GoogleMobileAdSettings_t147, ___testDevices_19), 21 } ,
+	{ 231, 649, offsetof(GoogleMobileAdSettings_t147_StaticFields, ___instance_20), 0 } ,
+	{ 49, 110, offsetof(IOSADBanner_t150, ____id_2), 0 } ,
+	{ 276, 652, offsetof(IOSADBanner_t150, ____size_3), 0 } ,
+	{ 277, 653, offsetof(IOSADBanner_t150, ____anchor_4), 0 } ,
+	{ 278, 100, offsetof(IOSADBanner_t150, ____IsLoaded_5), 0 } ,
+	{ 279, 100, offsetof(IOSADBanner_t150, ____IsOnScreen_6), 0 } ,
+	{ 280, 100, offsetof(IOSADBanner_t150, ___firstLoad_7), 0 } ,
+	{ 281, 100, offsetof(IOSADBanner_t150, ____ShowOnLoad_8), 0 } ,
+	{ 282, 100, offsetof(IOSADBanner_t150, ___destroyOnLoad_9), 0 } ,
+	{ 283, 110, offsetof(IOSADBanner_t150, ____width_10), 0 } ,
+	{ 284, 110, offsetof(IOSADBanner_t150, ____height_11), 0 } ,
+	{ 285, 654, offsetof(IOSADBanner_t150, ____OnLoadedAction_12), 0 } ,
+	{ 286, 654, offsetof(IOSADBanner_t150, ____OnFailedLoadingAction_13), 0 } ,
+	{ 287, 654, offsetof(IOSADBanner_t150, ____OnOpenedAction_14), 0 } ,
+	{ 288, 654, offsetof(IOSADBanner_t150, ____OnClosedAction_15), 0 } ,
+	{ 289, 654, offsetof(IOSADBanner_t150, ____OnLeftApplicationAction_16), 0 } ,
+	{ 290, 655, offsetof(IOSADBanner_t150_StaticFields, ___U3CU3Ef__amU24cacheF_17), 22 } ,
+	{ 291, 655, offsetof(IOSADBanner_t150_StaticFields, ___U3CU3Ef__amU24cache10_18), 23 } ,
+	{ 292, 655, offsetof(IOSADBanner_t150_StaticFields, ___U3CU3Ef__amU24cache11_19), 24 } ,
+	{ 293, 655, offsetof(IOSADBanner_t150_StaticFields, ___U3CU3Ef__amU24cache12_20), 25 } ,
+	{ 294, 655, offsetof(IOSADBanner_t150_StaticFields, ___U3CU3Ef__amU24cache13_21), 26 } ,
+	{ 295, 647, 0, 0 } ,
+	{ 245, 100, offsetof(IOSAdMobController_t152, ____IsInited_7), 0 } ,
+	{ 296, 657, offsetof(IOSAdMobController_t152, ____banners_8), 0 } ,
+	{ 297, 99, offsetof(IOSAdMobController_t152, ____BannersUunitId_9), 0 } ,
+	{ 298, 99, offsetof(IOSAdMobController_t152, ____InterstisialUnitId_10), 0 } ,
+	{ 299, 658, offsetof(IOSAdMobController_t152, ____OnInterstitialLoaded_11), 0 } ,
+	{ 300, 658, offsetof(IOSAdMobController_t152, ____OnInterstitialFailedLoading_12), 0 } ,
+	{ 301, 658, offsetof(IOSAdMobController_t152, ____OnInterstitialOpened_13), 0 } ,
+	{ 302, 658, offsetof(IOSAdMobController_t152, ____OnInterstitialClosed_14), 0 } ,
+	{ 303, 658, offsetof(IOSAdMobController_t152, ____OnInterstitialLeftApplication_15), 0 } ,
+	{ 304, 659, offsetof(IOSAdMobController_t152, ____OnAdInAppRequest_16), 0 } ,
+	{ 254, 644, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheA_17), 32 } ,
+	{ 255, 644, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheB_18), 33 } ,
+	{ 256, 644, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheC_19), 34 } ,
+	{ 257, 644, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheD_20), 35 } ,
+	{ 305, 644, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheE_21), 36 } ,
+	{ 290, 645, offsetof(IOSAdMobController_t152_StaticFields, ___U3CU3Ef__amU24cacheF_22), 37 } ,
+	{ 306, 101, offsetof(GADTestDevice_t154, ___Name_0), 0 } ,
+	{ 307, 101, offsetof(GADTestDevice_t154, ___ID_1), 0 } ,
+	{ 48, 104, offsetof(GADTestDevice_t154, ___IsOpen_2), 0 } ,
+	{ 49, 110, offsetof(WP8ADBanner_t155, ____id_2), 0 } ,
+	{ 276, 652, offsetof(WP8ADBanner_t155, ____size_3), 0 } ,
+	{ 277, 653, offsetof(WP8ADBanner_t155, ____anchor_4), 0 } ,
+	{ 278, 100, offsetof(WP8ADBanner_t155, ____IsLoaded_5), 0 } ,
+	{ 279, 100, offsetof(WP8ADBanner_t155, ____IsOnScreen_6), 0 } ,
+	{ 280, 100, offsetof(WP8ADBanner_t155, ___firstLoad_7), 0 } ,
+	{ 281, 100, offsetof(WP8ADBanner_t155, ____ShowOnLoad_8), 0 } ,
+	{ 282, 100, offsetof(WP8ADBanner_t155, ___destroyOnLoad_9), 0 } ,
+	{ 283, 110, offsetof(WP8ADBanner_t155, ____width_10), 0 } ,
+	{ 284, 110, offsetof(WP8ADBanner_t155, ____height_11), 0 } ,
+	{ 285, 654, offsetof(WP8ADBanner_t155, ____OnLoadedAction_12), 0 } ,
+	{ 286, 654, offsetof(WP8ADBanner_t155, ____OnFailedLoadingAction_13), 0 } ,
+	{ 287, 654, offsetof(WP8ADBanner_t155, ____OnOpenedAction_14), 0 } ,
+	{ 288, 654, offsetof(WP8ADBanner_t155, ____OnClosedAction_15), 0 } ,
+	{ 289, 654, offsetof(WP8ADBanner_t155, ____OnLeftApplicationAction_16), 0 } ,
+	{ 290, 655, offsetof(WP8ADBanner_t155_StaticFields, ___U3CU3Ef__amU24cacheF_17), 45 } ,
+	{ 291, 655, offsetof(WP8ADBanner_t155_StaticFields, ___U3CU3Ef__amU24cache10_18), 46 } ,
+	{ 292, 655, offsetof(WP8ADBanner_t155_StaticFields, ___U3CU3Ef__amU24cache11_19), 47 } ,
+	{ 293, 655, offsetof(WP8ADBanner_t155_StaticFields, ___U3CU3Ef__amU24cache12_20), 48 } ,
+	{ 294, 655, offsetof(WP8ADBanner_t155_StaticFields, ___U3CU3Ef__amU24cache13_21), 49 } ,
+	{ 295, 647, 0, 0 } ,
+	{ 245, 100, offsetof(WP8AdMobController_t157, ____IsInited_7), 0 } ,
+	{ 296, 664, offsetof(WP8AdMobController_t157, ____banners_8), 0 } ,
+	{ 297, 99, offsetof(WP8AdMobController_t157, ____BannersUunitId_9), 0 } ,
+	{ 298, 99, offsetof(WP8AdMobController_t157, ____InterstisialUnitId_10), 0 } ,
+	{ 299, 658, offsetof(WP8AdMobController_t157, ____OnInterstitialLoaded_11), 0 } ,
+	{ 300, 658, offsetof(WP8AdMobController_t157, ____OnInterstitialFailedLoading_12), 0 } ,
+	{ 301, 658, offsetof(WP8AdMobController_t157, ____OnInterstitialOpened_13), 0 } ,
+	{ 302, 658, offsetof(WP8AdMobController_t157, ____OnInterstitialClosed_14), 0 } ,
+	{ 303, 658, offsetof(WP8AdMobController_t157, ____OnInterstitialLeftApplication_15), 0 } ,
+	{ 304, 659, offsetof(WP8AdMobController_t157, ____OnAdInAppRequest_16), 0 } ,
+	{ 254, 644, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheA_17), 55 } ,
+	{ 255, 644, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheB_18), 56 } ,
+	{ 256, 644, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheC_19), 57 } ,
+	{ 257, 644, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheD_20), 58 } ,
+	{ 305, 644, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheE_21), 59 } ,
+	{ 290, 645, offsetof(WP8AdMobController_t157_StaticFields, ___U3CU3Ef__amU24cacheF_22), 60 } ,
+	{ 295, 647, 0, 0 } ,
+	{ 245, 100, offsetof(AndroidAdMobController_t160, ____IsInited_7), 0 } ,
+	{ 296, 666, offsetof(AndroidAdMobController_t160, ____banners_8), 0 } ,
+	{ 297, 99, offsetof(AndroidAdMobController_t160, ____BannersUunitId_9), 0 } ,
+	{ 298, 99, offsetof(AndroidAdMobController_t160, ____InterstisialUnitId_10), 0 } ,
+	{ 299, 658, offsetof(AndroidAdMobController_t160, ____OnInterstitialLoaded_11), 0 } ,
+	{ 300, 658, offsetof(AndroidAdMobController_t160, ____OnInterstitialFailedLoading_12), 0 } ,
+	{ 301, 658, offsetof(AndroidAdMobController_t160, ____OnInterstitialOpened_13), 0 } ,
+	{ 302, 658, offsetof(AndroidAdMobController_t160, ____OnInterstitialClosed_14), 0 } ,
+	{ 303, 658, offsetof(AndroidAdMobController_t160, ____OnInterstitialLeftApplication_15), 0 } ,
+	{ 304, 659, offsetof(AndroidAdMobController_t160, ____OnAdInAppRequest_16), 0 } ,
+	{ 254, 644, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheA_17), 68 } ,
+	{ 255, 644, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheB_18), 69 } ,
+	{ 256, 644, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheC_19), 70 } ,
+	{ 257, 644, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheD_20), 71 } ,
+	{ 305, 644, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheE_21), 72 } ,
+	{ 290, 645, offsetof(AndroidAdMobController_t160_StaticFields, ___U3CU3Ef__amU24cacheF_22), 73 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 309, 610, 0, 0 } ,
+	{ 310, 610, 0, 0 } ,
+	{ 311, 610, 0, 0 } ,
+	{ 312, 647, 0, 0 } ,
+	{ 308, 647, 0, 0 } ,
+	{ 258, 610, 0, 0 } ,
+	{ 313, 610, 0, 0 } ,
+	{ 260, 647, 0, 0 } ,
+	{ 261, 647, 0, 0 } ,
+	{ 262, 647, 0, 0 } ,
+	{ 314, 104, offsetof(SocialPlatfromSettings_t179, ___showPermitions_7), 0 } ,
+	{ 273, 104, offsetof(SocialPlatfromSettings_t179, ___ShowActions_8), 0 } ,
+	{ 315, 104, offsetof(SocialPlatfromSettings_t179, ___ShowAPIS_9), 0 } ,
+	{ 316, 703, offsetof(SocialPlatfromSettings_t179, ___fb_scopes_list_10), 0 } ,
+	{ 317, 101, offsetof(SocialPlatfromSettings_t179, ___TWITTER_CONSUMER_KEY_11), 0 } ,
+	{ 318, 101, offsetof(SocialPlatfromSettings_t179, ___TWITTER_CONSUMER_SECRET_12), 0 } ,
+	{ 319, 101, offsetof(SocialPlatfromSettings_t179, ___TWITTER_ACCESS_TOKEN_13), 0 } ,
+	{ 320, 101, offsetof(SocialPlatfromSettings_t179, ___TWITTER_ACCESS_TOKEN_SECRET_14), 0 } ,
+	{ 321, 104, offsetof(SocialPlatfromSettings_t179, ___ShowEditorOauthTestingBlock_15), 0 } ,
+	{ 322, 104, offsetof(SocialPlatfromSettings_t179, ___TwitterAPI_16), 0 } ,
+	{ 323, 104, offsetof(SocialPlatfromSettings_t179, ___NativeSharingAPI_17), 0 } ,
+	{ 324, 104, offsetof(SocialPlatfromSettings_t179, ___InstagramAPI_18), 0 } ,
+	{ 325, 104, offsetof(SocialPlatfromSettings_t179, ___EnableImageSharing_19), 0 } ,
+	{ 274, 104, offsetof(SocialPlatfromSettings_t179, ___KeepManifestClean_20), 0 } ,
+	{ 231, 704, offsetof(SocialPlatfromSettings_t179_StaticFields, ___instance_21), 0 } ,
+	{ 57, 90, offsetof(AdroidActivityResultCodes_t180, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 326, 706, 0, 0 } ,
+	{ 327, 706, 0, 0 } ,
+	{ 328, 706, 0, 0 } ,
+	{ 329, 709, 0, 0 } ,
+	{ 330, 709, 0, 0 } ,
+	{ 331, 709, 0, 0 } ,
+	{ 332, 709, 0, 0 } ,
+	{ 333, 709, 0, 0 } ,
+	{ 334, 709, 0, 0 } ,
+	{ 335, 709, 0, 0 } ,
+	{ 336, 709, 0, 0 } ,
+	{ 337, 709, 0, 0 } ,
+	{ 338, 709, 0, 0 } ,
+	{ 339, 709, 0, 0 } ,
+	{ 340, 709, 0, 0 } ,
+	{ 341, 709, 0, 0 } ,
+	{ 342, 709, 0, 0 } ,
+	{ 343, 709, 0, 0 } ,
+	{ 344, 709, 0, 0 } ,
+	{ 345, 709, 0, 0 } ,
+	{ 346, 709, 0, 0 } ,
+	{ 347, 709, 0, 0 } ,
+	{ 348, 709, 0, 0 } ,
+	{ 349, 709, 0, 0 } ,
+	{ 350, 709, 0, 0 } ,
+	{ 351, 709, 0, 0 } ,
+	{ 352, 709, 0, 0 } ,
+	{ 353, 709, 0, 0 } ,
+	{ 354, 709, 0, 0 } ,
+	{ 355, 709, 0, 0 } ,
+	{ 356, 709, 0, 0 } ,
+	{ 357, 709, 0, 0 } ,
+	{ 358, 709, 0, 0 } ,
+	{ 359, 709, 0, 0 } ,
+	{ 57, 90, offsetof(AndroidMonth_t183, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 360, 714, 0, 0 } ,
+	{ 361, 714, 0, 0 } ,
+	{ 362, 714, 0, 0 } ,
+	{ 363, 714, 0, 0 } ,
+	{ 364, 714, 0, 0 } ,
+	{ 365, 714, 0, 0 } ,
+	{ 366, 714, 0, 0 } ,
+	{ 367, 714, 0, 0 } ,
+	{ 368, 714, 0, 0 } ,
+	{ 369, 714, 0, 0 } ,
+	{ 370, 714, 0, 0 } ,
+	{ 371, 714, 0, 0 } ,
+	{ 372, 709, 0, 0 } ,
+	{ 373, 709, 0, 0 } ,
+	{ 374, 709, 0, 0 } ,
+	{ 375, 709, 0, 0 } ,
+	{ 57, 90, offsetof(GoogleGender_t185, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 376, 718, 0, 0 } ,
+	{ 377, 718, 0, 0 } ,
+	{ 378, 718, 0, 0 } ,
+	{ 337, 709, 0, 0 } ,
+	{ 344, 709, 0, 0 } ,
+	{ 339, 709, 0, 0 } ,
+	{ 338, 709, 0, 0 } ,
+	{ 336, 709, 0, 0 } ,
+	{ 57, 90, offsetof(GADBannerSize_t187, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 379, 722, 0, 0 } ,
+	{ 380, 722, 0, 0 } ,
+	{ 381, 722, 0, 0 } ,
+	{ 382, 722, 0, 0 } ,
+	{ 383, 722, 0, 0 } ,
+	{ 57, 90, offsetof(GADInAppResolution_t188, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 384, 724, 0, 0 } ,
+	{ 385, 724, 0, 0 } ,
+	{ 386, 724, 0, 0 } ,
+	{ 387, 724, 0, 0 } ,
+	{ 57, 90, offsetof(GPAchievementState_t189, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 388, 726, 0, 0 } ,
+	{ 389, 726, 0, 0 } ,
+	{ 390, 726, 0, 0 } ,
+	{ 57, 90, offsetof(GPAchievementType_t190, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 391, 729, 0, 0 } ,
+	{ 392, 729, 0, 0 } ,
+	{ 57, 90, offsetof(GPBoardTimeSpan_t191, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 393, 732, 0, 0 } ,
+	{ 394, 732, 0, 0 } ,
+	{ 395, 732, 0, 0 } ,
+	{ 57, 90, offsetof(GPCollectionType_t192, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 396, 734, 0, 0 } ,
+	{ 397, 734, 0, 0 } ,
+	{ 57, 90, offsetof(GPConnectionState_t193, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 398, 736, 0, 0 } ,
+	{ 399, 736, 0, 0 } ,
+	{ 400, 736, 0, 0 } ,
+	{ 401, 736, 0, 0 } ,
+	{ 57, 90, offsetof(GPGameRequestType_t194, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 402, 739, 0, 0 } ,
+	{ 403, 739, 0, 0 } ,
+	{ 57, 90, offsetof(GPLogLevel_t195, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 356, 742, 0, 0 } ,
+	{ 357, 742, 0, 0 } ,
+	{ 358, 742, 0, 0 } ,
+	{ 359, 742, 0, 0 } ,
+	{ 57, 90, offsetof(GP_AppStateStatusCodes_t196, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 404, 745, 0, 0 } ,
+	{ 405, 745, 0, 0 } ,
+	{ 406, 745, 0, 0 } ,
+	{ 407, 745, 0, 0 } ,
+	{ 408, 745, 0, 0 } ,
+	{ 409, 745, 0, 0 } ,
+	{ 410, 745, 0, 0 } ,
+	{ 411, 745, 0, 0 } ,
+	{ 412, 745, 0, 0 } ,
+	{ 413, 745, 0, 0 } ,
+	{ 414, 745, 0, 0 } ,
+	{ 415, 745, 0, 0 } ,
+	{ 416, 745, 0, 0 } ,
+	{ 417, 745, 0, 0 } ,
+	{ 57, 90, offsetof(GP_ConnectionResultCode_t197, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 418, 747, 0, 0 } ,
+	{ 419, 747, 0, 0 } ,
+	{ 420, 747, 0, 0 } ,
+	{ 421, 747, 0, 0 } ,
+	{ 422, 747, 0, 0 } ,
+	{ 423, 747, 0, 0 } ,
+	{ 424, 747, 0, 0 } ,
+	{ 425, 747, 0, 0 } ,
+	{ 426, 747, 0, 0 } ,
+	{ 427, 747, 0, 0 } ,
+	{ 428, 747, 0, 0 } ,
+	{ 429, 747, 0, 0 } ,
+	{ 430, 747, 0, 0 } ,
+	{ 431, 747, 0, 0 } ,
+	{ 432, 747, 0, 0 } ,
+	{ 433, 747, 0, 0 } ,
+	{ 434, 747, 0, 0 } ,
+	{ 57, 90, offsetof(GP_GamesActivityResultCodes_t198, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 326, 750, 0, 0 } ,
+	{ 327, 750, 0, 0 } ,
+	{ 328, 750, 0, 0 } ,
+	{ 435, 750, 0, 0 } ,
+	{ 436, 750, 0, 0 } ,
+	{ 437, 750, 0, 0 } ,
+	{ 438, 750, 0, 0 } ,
+	{ 439, 750, 0, 0 } ,
+	{ 440, 750, 0, 0 } ,
+	{ 441, 750, 0, 0 } ,
+	{ 442, 750, 0, 0 } ,
+	{ 57, 90, offsetof(GP_GamesStatusCodes_t199, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 404, 753, 0, 0 } ,
+	{ 405, 753, 0, 0 } ,
+	{ 406, 753, 0, 0 } ,
+	{ 407, 753, 0, 0 } ,
+	{ 408, 753, 0, 0 } ,
+	{ 409, 753, 0, 0 } ,
+	{ 410, 753, 0, 0 } ,
+	{ 443, 753, 0, 0 } ,
+	{ 444, 753, 0, 0 } ,
+	{ 445, 753, 0, 0 } ,
+	{ 412, 753, 0, 0 } ,
+	{ 413, 753, 0, 0 } ,
+	{ 446, 753, 0, 0 } ,
+	{ 447, 753, 0, 0 } ,
+	{ 448, 753, 0, 0 } ,
+	{ 449, 753, 0, 0 } ,
+	{ 450, 753, 0, 0 } ,
+	{ 451, 753, 0, 0 } ,
+	{ 452, 753, 0, 0 } ,
+	{ 453, 753, 0, 0 } ,
+	{ 454, 753, 0, 0 } ,
+	{ 455, 753, 0, 0 } ,
+	{ 456, 753, 0, 0 } ,
+	{ 457, 753, 0, 0 } ,
+	{ 458, 753, 0, 0 } ,
+	{ 459, 753, 0, 0 } ,
+	{ 460, 753, 0, 0 } ,
+	{ 461, 753, 0, 0 } ,
+	{ 462, 753, 0, 0 } ,
+	{ 463, 753, 0, 0 } ,
+	{ 464, 753, 0, 0 } ,
+	{ 465, 753, 0, 0 } ,
+	{ 466, 753, 0, 0 } ,
+	{ 467, 753, 0, 0 } ,
+	{ 468, 753, 0, 0 } ,
+	{ 469, 753, 0, 0 } ,
+	{ 470, 753, 0, 0 } ,
+	{ 471, 753, 0, 0 } ,
+	{ 472, 753, 0, 0 } ,
+	{ 57, 90, offsetof(GP_InvitationType_t200, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 473, 755, 0, 0 } ,
+	{ 474, 755, 0, 0 } ,
+	{ 57, 90, offsetof(GP_RTM_MessageType_t202, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 475, 760, 0, 0 } ,
+	{ 476, 760, 0, 0 } ,
+	{ 57, 90, offsetof(GP_RTM_PackageType_t203, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 477, 763, 0, 0 } ,
+	{ 478, 763, 0, 0 } ,
+	{ 57, 90, offsetof(GP_RTM_ParticipantStatus_t204, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 479, 766, 0, 0 } ,
+	{ 480, 766, 0, 0 } ,
+	{ 481, 766, 0, 0 } ,
+	{ 482, 766, 0, 0 } ,
+	{ 483, 766, 0, 0 } ,
+	{ 484, 766, 0, 0 } ,
+	{ 485, 766, 0, 0 } ,
+	{ 57, 90, offsetof(GP_RTM_RoomStatus_t205, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 486, 769, 0, 0 } ,
+	{ 487, 769, 0, 0 } ,
+	{ 488, 769, 0, 0 } ,
+	{ 489, 769, 0, 0 } ,
+	{ 490, 769, 0, 0 } ,
+	{ 57, 90, offsetof(GP_QuestSortOrder_t206, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 491, 772, 0, 0 } ,
+	{ 492, 772, 0, 0 } ,
+	{ 57, 90, offsetof(GP_QuestState_t207, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 493, 775, 0, 0 } ,
+	{ 494, 775, 0, 0 } ,
+	{ 495, 775, 0, 0 } ,
+	{ 496, 775, 0, 0 } ,
+	{ 497, 775, 0, 0 } ,
+	{ 498, 775, 0, 0 } ,
+	{ 57, 90, offsetof(GP_QuestsSelect_t208, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 499, 778, 0, 0 } ,
+	{ 500, 778, 0, 0 } ,
+	{ 501, 778, 0, 0 } ,
+	{ 502, 778, 0, 0 } ,
+	{ 503, 778, 0, 0 } ,
+	{ 504, 778, 0, 0 } ,
+	{ 505, 778, 0, 0 } ,
+	{ 506, 778, 0, 0 } ,
+	{ 57, 90, offsetof(GP_TBM_MatchStatus_t209, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 507, 781, 0, 0 } ,
+	{ 508, 781, 0, 0 } ,
+	{ 509, 781, 0, 0 } ,
+	{ 510, 781, 0, 0 } ,
+	{ 511, 781, 0, 0 } ,
+	{ 57, 90, offsetof(GP_TBM_MatchTurnStatus_t210, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 512, 784, 0, 0 } ,
+	{ 513, 784, 0, 0 } ,
+	{ 514, 784, 0, 0 } ,
+	{ 515, 784, 0, 0 } ,
+	{ 57, 90, offsetof(GP_TBM_MatchesSortOrder_t211, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 516, 787, 0, 0 } ,
+	{ 517, 787, 0, 0 } ,
+	{ 518, 610, 0, 0 } ,
+	{ 519, 610, 0, 0 } ,
+	{ 520, 610, 0, 0 } ,
+	{ 521, 610, 0, 0 } ,
+	{ 522, 610, 0, 0 } ,
+	{ 523, 610, 0, 0 } ,
+	{ 524, 610, 0, 0 } ,
+	{ 525, 610, 0, 0 } ,
+	{ 526, 610, 0, 0 } ,
+	{ 527, 610, 0, 0 } ,
+	{ 528, 610, 0, 0 } ,
+	{ 529, 610, 0, 0 } ,
+	{ 530, 610, 0, 0 } ,
+	{ 531, 610, 0, 0 } ,
+	{ 532, 610, 0, 0 } ,
+	{ 533, 610, 0, 0 } ,
+	{ 534, 610, 0, 0 } ,
+	{ 535, 610, 0, 0 } ,
+	{ 536, 610, 0, 0 } ,
+	{ 537, 610, 0, 0 } ,
+	{ 538, 610, 0, 0 } ,
+	{ 539, 610, 0, 0 } ,
+	{ 540, 610, 0, 0 } ,
+	{ 541, 610, 0, 0 } ,
+	{ 542, 610, 0, 0 } ,
+	{ 543, 610, 0, 0 } ,
+	{ 544, 610, 0, 0 } ,
+	{ 545, 610, 0, 0 } ,
+	{ 546, 610, 0, 0 } ,
+	{ 547, 610, 0, 0 } ,
+	{ 519, 610, 0, 0 } ,
+	{ 520, 610, 0, 0 } ,
+	{ 527, 610, 0, 0 } ,
+	{ 528, 610, 0, 0 } ,
+	{ 523, 610, 0, 0 } ,
+	{ 524, 610, 0, 0 } ,
+	{ 49, 110, offsetof(AndroidADBanner_t215, ____id_2), 0 } ,
+	{ 276, 652, offsetof(AndroidADBanner_t215, ____size_3), 0 } ,
+	{ 277, 653, offsetof(AndroidADBanner_t215, ____anchor_4), 0 } ,
+	{ 278, 100, offsetof(AndroidADBanner_t215, ____IsLoaded_5), 0 } ,
+	{ 279, 100, offsetof(AndroidADBanner_t215, ____IsOnScreen_6), 0 } ,
+	{ 280, 100, offsetof(AndroidADBanner_t215, ___firstLoad_7), 0 } ,
+	{ 282, 100, offsetof(AndroidADBanner_t215, ___destroyOnLoad_8), 0 } ,
+	{ 281, 100, offsetof(AndroidADBanner_t215, ____ShowOnLoad_9), 0 } ,
+	{ 283, 110, offsetof(AndroidADBanner_t215, ____width_10), 0 } ,
+	{ 284, 110, offsetof(AndroidADBanner_t215, ____height_11), 0 } ,
+	{ 285, 654, offsetof(AndroidADBanner_t215, ____OnLoadedAction_12), 0 } ,
+	{ 286, 654, offsetof(AndroidADBanner_t215, ____OnFailedLoadingAction_13), 0 } ,
+	{ 287, 654, offsetof(AndroidADBanner_t215, ____OnOpenedAction_14), 0 } ,
+	{ 288, 654, offsetof(AndroidADBanner_t215, ____OnClosedAction_15), 0 } ,
+	{ 289, 654, offsetof(AndroidADBanner_t215, ____OnLeftApplicationAction_16), 0 } ,
+	{ 290, 655, offsetof(AndroidADBanner_t215_StaticFields, ___U3CU3Ef__amU24cacheF_17), 100 } ,
+	{ 291, 655, offsetof(AndroidADBanner_t215_StaticFields, ___U3CU3Ef__amU24cache10_18), 101 } ,
+	{ 292, 655, offsetof(AndroidADBanner_t215_StaticFields, ___U3CU3Ef__amU24cache11_19), 102 } ,
+	{ 293, 655, offsetof(AndroidADBanner_t215_StaticFields, ___U3CU3Ef__amU24cache12_20), 103 } ,
+	{ 294, 655, offsetof(AndroidADBanner_t215_StaticFields, ___U3CU3Ef__amU24cache13_21), 104 } ,
+	{ 548, 800, offsetof(AndroidActivityResult_t216, ____code_0), 0 } ,
+	{ 549, 572, offsetof(AndroidActivityResult_t216, ____requestId_1), 0 } ,
+	{ 550, 803, offsetof(AndroidGameActivityResult_t217, ___code_0), 0 } ,
+	{ 551, 808, offsetof(GADBannerIdFactory_t219_StaticFields, ____nextId_0), 0 } ,
+	{ 49, 99, offsetof(GPAchievement_t220, ____id_0), 0 } ,
+	{ 51, 99, offsetof(GPAchievement_t220, ____name_1), 0 } ,
+	{ 552, 99, offsetof(GPAchievement_t220, ____description_2), 0 } ,
+	{ 553, 110, offsetof(GPAchievement_t220, ____currentSteps_3), 0 } ,
+	{ 554, 110, offsetof(GPAchievement_t220, ____totalSteps_4), 0 } ,
+	{ 555, 810, offsetof(GPAchievement_t220, ____type_5), 0 } ,
+	{ 556, 811, offsetof(GPAchievement_t220, ____state_6), 0 } ,
+	{ 557, 101, offsetof(GPGameRequest_t221, ___id_0), 0 } ,
+	{ 558, 101, offsetof(GPGameRequest_t221, ___playload_1), 0 } ,
+	{ 559, 814, offsetof(GPGameRequest_t221, ___expirationTimestamp_2), 0 } ,
+	{ 560, 814, offsetof(GPGameRequest_t221, ___creationTimestamp_3), 0 } ,
+	{ 561, 101, offsetof(GPGameRequest_t221, ___sender_4), 0 } ,
+	{ 562, 815, offsetof(GPGameRequest_t221, ___type_5), 0 } ,
+	{ 49, 99, offsetof(GPLeaderBoard_t224, ____id_0), 0 } ,
+	{ 51, 99, offsetof(GPLeaderBoard_t224, ____name_1), 0 } ,
+	{ 563, 818, offsetof(GPLeaderBoard_t224, ___SocsialCollection_2), 0 } ,
+	{ 564, 818, offsetof(GPLeaderBoard_t224, ___GlobalCollection_3), 0 } ,
+	{ 565, 819, offsetof(GPLeaderBoard_t224, ___currentPlayerRank_4), 0 } ,
+	{ 566, 822, offsetof(GPScoreCollection_t222, ___AllTimeScores_0), 0 } ,
+	{ 567, 822, offsetof(GPScoreCollection_t222, ___WeekScores_1), 0 } ,
+	{ 568, 822, offsetof(GPScoreCollection_t222, ___TodayScores_2), 0 } ,
+	{ 569, 101, offsetof(GP_Invite_t227, ___Id_0), 0 } ,
+	{ 570, 814, offsetof(GP_Invite_t227, ___CreationTimestamp_1), 0 } ,
+	{ 571, 824, offsetof(GP_Invite_t227, ___InvitationType_2), 0 } ,
+	{ 572, 102, offsetof(GP_Invite_t227, ___Variant_3), 0 } ,
+	{ 573, 825, offsetof(GP_Invite_t227, ___Participant_4), 0 } ,
+	{ 49, 99, offsetof(GP_Participant_t226, ____id_0), 0 } ,
+	{ 574, 99, offsetof(GP_Participant_t226, ____playerid_1), 0 } ,
+	{ 575, 99, offsetof(GP_Participant_t226, ____HiResImageUrl_2), 0 } ,
+	{ 576, 99, offsetof(GP_Participant_t226, ____IconImageUrl_3), 0 } ,
+	{ 577, 99, offsetof(GP_Participant_t226, ____DisplayName_4), 0 } ,
+	{ 578, 829, offsetof(GP_Participant_t226, ____result_5), 0 } ,
+	{ 579, 830, offsetof(GP_Participant_t226, ____status_6), 0 } ,
+	{ 580, 110, offsetof(GP_ParticipantResult_t228, ____Placing_0), 0 } ,
+	{ 581, 110, offsetof(GP_ParticipantResult_t228, ____Result_1), 0 } ,
+	{ 582, 110, offsetof(GP_ParticipantResult_t228, ____VersionCode_2), 0 } ,
+	{ 583, 99, offsetof(GP_ParticipantResult_t228, ____ParticipantId_3), 0 } ,
+	{ 584, 833, 0, 0 } ,
+	{ 585, 99, offsetof(GP_RTM_Network_Package_t229, ____playerId_1), 0 } ,
+	{ 586, 834, offsetof(GP_RTM_Network_Package_t229, ____buffer_2), 0 } ,
+	{ 579, 837, offsetof(GP_RTM_Result_t230, ____status_0), 0 } ,
+	{ 587, 101, offsetof(GP_RTM_Result_t230, ____roomId_1), 0 } ,
+	{ 557, 101, offsetof(GP_RTM_Room_t232, ___id_0), 0 } ,
+	{ 588, 101, offsetof(GP_RTM_Room_t232, ___creatorId_1), 0 } ,
+	{ 0, 840, offsetof(GP_RTM_Room_t232, ___status_2), 0 } ,
+	{ 560, 814, offsetof(GP_RTM_Room_t232, ___creationTimestamp_3), 0 } ,
+	{ 589, 841, offsetof(GP_RTM_Room_t232, ___participants_4), 0 } ,
+	{ 590, 844, offsetof(GoogleCloudResult_t233, ____response_0), 0 } ,
+	{ 591, 99, offsetof(GoogleCloudResult_t233, ____message_1), 0 } ,
+	{ 592, 110, offsetof(GoogleCloudResult_t233, ____stateKey_2), 0 } ,
+	{ 593, 845, offsetof(GoogleCloudResult_t233, ___stateData_3), 0 } ,
+	{ 594, 845, offsetof(GoogleCloudResult_t233, ___serverConflictData_4), 0 } ,
+	{ 595, 101, offsetof(GoogleCloudResult_t233, ___resolvedVersion_5), 0 } ,
+	{ 550, 848, offsetof(GooglePlayConnectionResult_t234, ___code_0), 0 } ,
+	{ 596, 104, offsetof(GooglePlayConnectionResult_t234, ___HasResolution_1), 0 } ,
+	{ 548, 851, offsetof(GooglePlayGiftRequestResult_t235, ____code_0), 0 } ,
+	{ 590, 854, offsetof(GooglePlayResult_t236, ____response_0), 0 } ,
+	{ 591, 99, offsetof(GooglePlayResult_t236, ____message_1), 0 } ,
+	{ 569, 101, offsetof(GP_Event_t237, ___Id_0), 0 } ,
+	{ 597, 101, offsetof(GP_Event_t237, ___Description_1), 0 } ,
+	{ 598, 101, offsetof(GP_Event_t237, ___IconImageUrl_2), 0 } ,
+	{ 599, 101, offsetof(GP_Event_t237, ___FormattedValue_3), 0 } ,
+	{ 600, 814, offsetof(GP_Event_t237, ___Value_4), 0 } ,
+	{ 601, 857, offsetof(GP_Event_t237, ____icon_5), 0 } ,
+	{ 569, 101, offsetof(GP_Quest_t238, ___Id_0), 0 } ,
+	{ 306, 101, offsetof(GP_Quest_t238, ___Name_1), 0 } ,
+	{ 597, 101, offsetof(GP_Quest_t238, ___Description_2), 0 } ,
+	{ 598, 101, offsetof(GP_Quest_t238, ___IconImageUrl_3), 0 } ,
+	{ 602, 101, offsetof(GP_Quest_t238, ___BannerImageUrl_4), 0 } ,
+	{ 603, 860, offsetof(GP_Quest_t238, ___state_5), 0 } ,
+	{ 604, 814, offsetof(GP_Quest_t238, ___LastUpdatedTimestamp_6), 0 } ,
+	{ 605, 814, offsetof(GP_Quest_t238, ___AcceptedTimestamp_7), 0 } ,
+	{ 606, 814, offsetof(GP_Quest_t238, ___EndTimestamp_8), 0 } ,
+	{ 601, 857, offsetof(GP_Quest_t238, ____icon_9), 0 } ,
+	{ 607, 857, offsetof(GP_Quest_t238, ____banner_10), 0 } ,
+	{ 608, 99, offsetof(GP_GCM_RegistrationResult_t239, ____RegistrationDeviceId_2), 0 } ,
+	{ 609, 101, offsetof(GP_GamesResult_t240, ___leaderboardId_2), 0 } ,
+	{ 610, 101, offsetof(GP_GamesResult_t240, ___achievementId_3), 0 } ,
+	{ 611, 101, offsetof(GP_QuestResult_t241, ___questId_2), 0 } ,
+	{ 612, 101, offsetof(GP_QuestResult_t241, ___reward_3), 0 } ,
+	{ 613, 867, offsetof(GP_QuestResult_t241, ___quest_4), 0 } ,
+	{ 614, 871, offsetof(GP_SnapshotConflict_t243, ____s1_0), 0 } ,
+	{ 615, 871, offsetof(GP_SnapshotConflict_t243, ____s2_1), 0 } ,
+	{ 616, 871, offsetof(GP_SpanshotLoadResult_t244, ____snapshot_2), 0 } ,
+	{ 617, 876, offsetof(AN_InvitationInboxCloseResult_t245, ____resultCode_2), 0 } ,
+	{ 618, 99, offsetof(GP_DeleteSnapshotResult_t246, ____SnapshotId_2), 0 } ,
+	{ 619, 101, offsetof(GP_TBM_CancelMatchResult_t247, ___MatchId_2), 0 } ,
+	{ 620, 883, offsetof(GP_TBM_LeaveMatchResult_t249, ___Match_2), 0 } ,
+	{ 620, 883, offsetof(GP_TBM_LoadMatchResult_t250, ___Match_2), 0 } ,
+	{ 621, 888, offsetof(GP_TBM_LoadMatchesResult_t252, ___LoadedMatches_2), 0 } ,
+	{ 620, 883, offsetof(GP_TBM_MatchInitiatedResult_t253, ___Match_2), 0 } ,
+	{ 622, 894, offsetof(GP_TBM_MatchReceivedResult_t254, ____Match_0), 0 } ,
+	{ 623, 99, offsetof(GP_TBM_MatchRemovedResult_t255, ____MatchId_0), 0 } ,
+	{ 620, 883, offsetof(GP_TBM_UpdateMatchResult_t256, ___Match_2), 0 } ,
+	{ 624, 901, offsetof(GP_Snapshot_t242, ___meta_0), 0 } ,
+	{ 625, 845, offsetof(GP_Snapshot_t242, ___bytes_1), 0 } ,
+	{ 626, 101, offsetof(GP_Snapshot_t242, ___stringData_2), 0 } ,
+	{ 627, 101, offsetof(GP_SnapshotMeta_t257, ___Title_0), 0 } ,
+	{ 597, 101, offsetof(GP_SnapshotMeta_t257, ___Description_1), 0 } ,
+	{ 628, 101, offsetof(GP_SnapshotMeta_t257, ___CoverImageUrl_2), 0 } ,
+	{ 629, 814, offsetof(GP_SnapshotMeta_t257, ___LastModifiedTimestamp_3), 0 } ,
+	{ 630, 814, offsetof(GP_SnapshotMeta_t257, ___TotalPlayedTime_4), 0 } ,
+	{ 569, 101, offsetof(GP_TBM_Match_t248, ___Id_0), 0 } ,
+	{ 631, 101, offsetof(GP_TBM_Match_t248, ___RematchId_1), 0 } ,
+	{ 632, 101, offsetof(GP_TBM_Match_t248, ___CreatorId_2), 0 } ,
+	{ 633, 101, offsetof(GP_TBM_Match_t248, ___LastUpdaterId_3), 0 } ,
+	{ 634, 101, offsetof(GP_TBM_Match_t248, ___PendingParticipantId_4), 0 } ,
+	{ 635, 102, offsetof(GP_TBM_Match_t248, ___MatchNumber_5), 0 } ,
+	{ 597, 101, offsetof(GP_TBM_Match_t248, ___Description_6), 0 } ,
+	{ 636, 102, offsetof(GP_TBM_Match_t248, ___AvailableAutoMatchSlots_7), 0 } ,
+	{ 570, 814, offsetof(GP_TBM_Match_t248, ___CreationTimestamp_8), 0 } ,
+	{ 604, 814, offsetof(GP_TBM_Match_t248, ___LastUpdatedTimestamp_9), 0 } ,
+	{ 637, 904, offsetof(GP_TBM_Match_t248, ___Status_10), 0 } ,
+	{ 638, 905, offsetof(GP_TBM_Match_t248, ___TurnStatus_11), 0 } ,
+	{ 639, 104, offsetof(GP_TBM_Match_t248, ___CanRematch_12), 0 } ,
+	{ 572, 102, offsetof(GP_TBM_Match_t248, ___Variant_13), 0 } ,
+	{ 640, 102, offsetof(GP_TBM_Match_t248, ___Version_14), 0 } ,
+	{ 641, 845, offsetof(GP_TBM_Match_t248, ___Data_15), 0 } ,
+	{ 642, 845, offsetof(GP_TBM_Match_t248, ___PreviousMatchData_16), 0 } ,
+	{ 643, 841, offsetof(GP_TBM_Match_t248, ___Participants_17), 0 } ,
+	{ 57, 90, offsetof(TOKEN_t258, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 907, 0, 0 } ,
+	{ 645, 907, 0, 0 } ,
+	{ 646, 907, 0, 0 } ,
+	{ 647, 907, 0, 0 } ,
+	{ 648, 907, 0, 0 } ,
+	{ 649, 907, 0, 0 } ,
+	{ 650, 907, 0, 0 } ,
+	{ 651, 907, 0, 0 } ,
+	{ 652, 907, 0, 0 } ,
+	{ 653, 907, 0, 0 } ,
+	{ 654, 907, 0, 0 } ,
+	{ 655, 907, 0, 0 } ,
+	{ 656, 647, 0, 0 } ,
+	{ 657, 647, 0, 0 } ,
+	{ 658, 910, offsetof(Parser_t260, ___json_2), 0 } ,
+	{ 659, 911, offsetof(Parser_t260_StaticFields, ___U3CU3Ef__switchU24map0_3), 110 } ,
+	{ 660, 914, offsetof(Serializer_t262, ___builder_0), 0 } ,
+	{ 661, 920, 0, 0 } ,
+	{ 662, 641, 0, 0 } ,
+	{ 663, 924, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t267, ___U3CwwwU3E__0_0), 0 } ,
+	{ 18, 137, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t267, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t267, ___U24current_2), 0 } ,
+	{ 20, 925, offsetof(U3CLoadCoroutinU3Ec__Iterator1_t267, ___U3CU3Ef__this_3), 0 } ,
+	{ 664, 99, offsetof(WWWTextureLoader_t266, ____url_2), 0 } ,
+	{ 665, 927, offsetof(WWWTextureLoader_t266, ___OnLoad_3), 0 } ,
+	{ 666, 928, offsetof(WWWTextureLoader_t266_StaticFields, ___U3CU3Ef__amU24cache2_4), 111 } ,
+	{ 57, 90, offsetof(FBAppRequestActionType_t269, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 667, 930, 0, 0 } ,
+	{ 668, 930, 0, 0 } ,
+	{ 669, 930, 0, 0 } ,
+	{ 670, 930, 0, 0 } ,
+	{ 57, 90, offsetof(FBAppRequestState_t270, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 671, 933, 0, 0 } ,
+	{ 672, 933, 0, 0 } ,
+	{ 673, 941, offsetof(SPFacebook_t282, ____userInfo_6), 0 } ,
+	{ 674, 942, offsetof(SPFacebook_t282, ____friends_7), 0 } ,
+	{ 245, 100, offsetof(SPFacebook_t282, ____IsInited_8), 0 } ,
+	{ 675, 943, offsetof(SPFacebook_t282, ____userScores_9), 0 } ,
+	{ 676, 943, offsetof(SPFacebook_t282, ____appScores_10), 0 } ,
+	{ 677, 110, offsetof(SPFacebook_t282, ___lastSubmitedScore_11), 0 } ,
+	{ 678, 944, offsetof(SPFacebook_t282, ____likes_12), 0 } ,
+	{ 679, 945, offsetof(SPFacebook_t282, ____AppRequests_13), 0 } ,
+	{ 680, 946, offsetof(SPFacebook_t282, ___OnInitCompleteAction_14), 0 } ,
+	{ 681, 947, offsetof(SPFacebook_t282, ___OnPostingCompleteAction_15), 0 } ,
+	{ 682, 948, offsetof(SPFacebook_t282, ___OnFocusChangedAction_16), 0 } ,
+	{ 683, 949, offsetof(SPFacebook_t282, ___OnAuthCompleteAction_17), 0 } ,
+	{ 684, 949, offsetof(SPFacebook_t282, ___OnPaymentCompleteAction_18), 0 } ,
+	{ 685, 949, offsetof(SPFacebook_t282, ___OnUserDataRequestCompleteAction_19), 0 } ,
+	{ 686, 949, offsetof(SPFacebook_t282, ___OnFriendsDataRequestCompleteAction_20), 0 } ,
+	{ 687, 950, offsetof(SPFacebook_t282, ___OnAppRequestCompleteAction_21), 0 } ,
+	{ 688, 949, offsetof(SPFacebook_t282, ___OnAppRequestsLoaded_22), 0 } ,
+	{ 689, 951, offsetof(SPFacebook_t282, ___OnAppScoresRequestCompleteAction_23), 0 } ,
+	{ 690, 951, offsetof(SPFacebook_t282, ___OnPlayerScoresRequestCompleteAction_24), 0 } ,
+	{ 691, 951, offsetof(SPFacebook_t282, ___OnSubmitScoreRequestCompleteAction_25), 0 } ,
+	{ 692, 951, offsetof(SPFacebook_t282, ___OnDeleteScoresRequestCompleteAction_26), 0 } ,
+	{ 693, 951, offsetof(SPFacebook_t282, ___OnLikesListLoadedAction_27), 0 } ,
+	{ 694, 100, offsetof(SPFacebook_t282, ___IsLoginRequestSent_28), 0 } ,
+	{ 695, 952, offsetof(SPFacebook_t282, ___LoginCallbackResult_29), 0 } ,
+	{ 696, 644, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache18_30), 119 } ,
+	{ 697, 953, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache19_31), 120 } ,
+	{ 698, 954, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1A_32), 121 } ,
+	{ 699, 955, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1B_33), 122 } ,
+	{ 700, 955, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1C_34), 123 } ,
+	{ 701, 955, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1D_35), 124 } ,
+	{ 702, 955, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1E_36), 125 } ,
+	{ 703, 956, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache1F_37), 126 } ,
+	{ 704, 955, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache20_38), 127 } ,
+	{ 705, 957, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache21_39), 128 } ,
+	{ 706, 957, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache22_40), 129 } ,
+	{ 707, 957, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache23_41), 130 } ,
+	{ 708, 957, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache24_42), 131 } ,
+	{ 709, 957, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__amU24cache25_43), 132 } ,
+	{ 710, 911, offsetof(SPFacebook_t282_StaticFields, ___U3CU3Ef__switchU24map1_44), 133 } ,
+	{ 569, 101, offsetof(FBAppRequest_t286, ___Id_0), 0 } ,
+	{ 711, 101, offsetof(FBAppRequest_t286, ___ApplicationId_1), 0 } ,
+	{ 712, 101, offsetof(FBAppRequest_t286, ___Message_2), 0 } ,
+	{ 713, 963, offsetof(FBAppRequest_t286, ___ActionType_3), 0 } ,
+	{ 714, 964, offsetof(FBAppRequest_t286, ___State_4), 0 } ,
+	{ 715, 101, offsetof(FBAppRequest_t286, ___FromId_5), 0 } ,
+	{ 716, 101, offsetof(FBAppRequest_t286, ___FromName_6), 0 } ,
+	{ 717, 965, offsetof(FBAppRequest_t286, ___CreatedTime_7), 0 } ,
+	{ 718, 101, offsetof(FBAppRequest_t286, ___CreatedTimeString_8), 0 } ,
+	{ 641, 101, offsetof(FBAppRequest_t286, ___Data_9), 0 } ,
+	{ 719, 966, offsetof(FBAppRequest_t286, ___Object_10), 0 } ,
+	{ 720, 949, offsetof(FBAppRequest_t286, ___OnDeleteRequestFinished_11), 0 } ,
+	{ 256, 955, offsetof(FBAppRequest_t286_StaticFields, ___U3CU3Ef__amU24cacheC_12), 148 } ,
+	{ 721, 968, offsetof(FBAppRequestResult_t288, ___Result_0), 0 } ,
+	{ 722, 101, offsetof(FBAppRequestResult_t288, ___ReuqestId_1), 0 } ,
+	{ 723, 703, offsetof(FBAppRequestResult_t288, ___Recipients_2), 0 } ,
+	{ 724, 104, offsetof(FBAppRequestResult_t288, ___IsSucceeded_3), 0 } ,
+	{ 557, 101, offsetof(FBLikeInfo_t289, ___id_0), 0 } ,
+	{ 725, 101, offsetof(FBLikeInfo_t289, ___name_1), 0 } ,
+	{ 726, 101, offsetof(FBLikeInfo_t289, ___category_2), 0 } ,
+	{ 569, 101, offsetof(FBObject_t285, ___Id_0), 0 } ,
+	{ 727, 703, offsetof(FBObject_t285, ___ImageUrls_1), 0 } ,
+	{ 627, 101, offsetof(FBObject_t285, ___Title_2), 0 } ,
+	{ 728, 101, offsetof(FBObject_t285, ___Type_3), 0 } ,
+	{ 717, 965, offsetof(FBObject_t285, ___CreatedTime_4), 0 } ,
+	{ 718, 101, offsetof(FBObject_t285, ___CreatedTimeString_5), 0 } ,
+	{ 581, 952, offsetof(FBPostResult_t290, ____Result_0), 0 } ,
+	{ 729, 99, offsetof(FBPostResult_t290, ____PostId_1), 0 } ,
+	{ 730, 100, offsetof(FBPostResult_t290, ____IsSucceeded_2), 0 } ,
+	{ 731, 101, offsetof(FBScore_t293, ___UserId_0), 0 } ,
+	{ 732, 101, offsetof(FBScore_t293, ___UserName_1), 0 } ,
+	{ 733, 101, offsetof(FBScore_t293, ___AppId_2), 0 } ,
+	{ 734, 101, offsetof(FBScore_t293, ___AppName_3), 0 } ,
+	{ 735, 102, offsetof(FBScore_t293, ___value_4), 0 } ,
+	{ 736, 973, offsetof(FBScore_t293, ___profileImages_5), 0 } ,
+	{ 737, 974, offsetof(FBScore_t293, ___OnProfileImageLoaded_6), 0 } ,
+	{ 738, 975, offsetof(FBScore_t293_StaticFields, ___U3CU3Ef__amU24cache7_7), 150 } ,
+	{ 57, 90, offsetof(FacebookProfileImageSize_t294, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 739, 977, 0, 0 } ,
+	{ 740, 977, 0, 0 } ,
+	{ 741, 977, 0, 0 } ,
+	{ 742, 977, 0, 0 } ,
+	{ 49, 99, offsetof(FacebookUserInfo_t271, ____id_0), 0 } ,
+	{ 51, 99, offsetof(FacebookUserInfo_t271, ____name_1), 0 } ,
+	{ 743, 99, offsetof(FacebookUserInfo_t271, ____first_name_2), 0 } ,
+	{ 744, 99, offsetof(FacebookUserInfo_t271, ____last_name_3), 0 } ,
+	{ 745, 99, offsetof(FacebookUserInfo_t271, ____username_4), 0 } ,
+	{ 746, 99, offsetof(FacebookUserInfo_t271, ____profile_url_5), 0 } ,
+	{ 747, 99, offsetof(FacebookUserInfo_t271, ____email_6), 0 } ,
+	{ 748, 99, offsetof(FacebookUserInfo_t271, ____location_7), 0 } ,
+	{ 749, 99, offsetof(FacebookUserInfo_t271, ____locale_8), 0 } ,
+	{ 750, 99, offsetof(FacebookUserInfo_t271, ____rawJSON_9), 0 } ,
+	{ 751, 979, offsetof(FacebookUserInfo_t271, ____gender_10), 0 } ,
+	{ 736, 973, offsetof(FacebookUserInfo_t271, ___profileImages_11), 0 } ,
+	{ 737, 980, offsetof(FacebookUserInfo_t271, ___OnProfileImageLoaded_12), 0 } ,
+	{ 257, 981, offsetof(FacebookUserInfo_t271_StaticFields, ___U3CU3Ef__amU24cacheD_13), 152 } ,
+	{ 752, 99, offsetof(FBLikesRetrieveTask_t296, ____userId_4), 0 } ,
+	{ 753, 99, offsetof(FBPostingTask_t297, ____toId_4), 0 } ,
+	{ 754, 99, offsetof(FBPostingTask_t297, ____link_5), 0 } ,
+	{ 755, 99, offsetof(FBPostingTask_t297, ____linkName_6), 0 } ,
+	{ 756, 99, offsetof(FBPostingTask_t297, ____linkCaption_7), 0 } ,
+	{ 757, 99, offsetof(FBPostingTask_t297, ____linkDescription_8), 0 } ,
+	{ 758, 99, offsetof(FBPostingTask_t297, ____picture_9), 0 } ,
+	{ 759, 99, offsetof(FBPostingTask_t297, ____actionName_10), 0 } ,
+	{ 760, 99, offsetof(FBPostingTask_t297, ____actionLink_11), 0 } ,
+	{ 761, 99, offsetof(FBPostingTask_t297, ____reference_12), 0 } ,
+	{ 730, 100, offsetof(FB_APIResult_t298, ____IsSucceeded_0), 0 } ,
+	{ 226, 99, offsetof(FB_APIResult_t298, ____data_1), 0 } ,
+	{ 762, 968, offsetof(FB_APIResult_t298, ___Unity_FB_Result_2), 0 } ,
+	{ 663, 924, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U3CwwwU3E__0_0), 0 } ,
+	{ 763, 986, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U3CU24s_34U3E__1_1), 0 } ,
+	{ 764, 987, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U3CkvU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U24current_4), 0 } ,
+	{ 20, 988, offsetof(U3CRequestU3Ec__Iterator2_t300, ___U3CU3Ef__this_5), 0 } ,
+	{ 765, 100, offsetof(FB_GraphAPIRequest_t299, ___IsFirst_4), 0 } ,
+	{ 766, 99, offsetof(FB_GraphAPIRequest_t299, ___GetParams_5), 0 } ,
+	{ 767, 99, offsetof(FB_GraphAPIRequest_t299, ___requestUrl_6), 0 } ,
+	{ 768, 990, offsetof(FB_GraphAPIRequest_t299, ___Headers_7), 0 } ,
+	{ 769, 991, offsetof(FB_GraphAPIRequest_t299, ___form_8), 0 } ,
+	{ 523, 610, 0, 0 } ,
+	{ 524, 610, 0, 0 } ,
+	{ 57, 90, offsetof(InstagramPostResult_t304, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 326, 995, 0, 0 } ,
+	{ 770, 995, 0, 0 } ,
+	{ 771, 995, 0, 0 } ,
+	{ 772, 995, 0, 0 } ,
+	{ 773, 995, 0, 0 } ,
+	{ 681, 997, offsetof(AndroidInstagramManager_t306, ___OnPostingCompleteAction_6), 0 } ,
+	{ 774, 998, offsetof(AndroidInstagramManager_t306_StaticFields, ___U3CU3Ef__amU24cache1_7), 160 } ,
+	{ 775, 100, offsetof(AndroidTwitterManager_t310, ____IsAuthed_6), 0 } ,
+	{ 245, 100, offsetof(AndroidTwitterManager_t310, ____IsInited_7), 0 } ,
+	{ 776, 99, offsetof(AndroidTwitterManager_t310, ____AccessToken_8), 0 } ,
+	{ 777, 99, offsetof(AndroidTwitterManager_t310, ____AccessTokenSecret_9), 0 } ,
+	{ 673, 1000, offsetof(AndroidTwitterManager_t310, ____userInfo_10), 0 } ,
+	{ 778, 1001, offsetof(AndroidTwitterManager_t310, ___OnTwitterInitedAction_11), 0 } ,
+	{ 683, 1001, offsetof(AndroidTwitterManager_t310, ___OnAuthCompleteAction_12), 0 } ,
+	{ 681, 1001, offsetof(AndroidTwitterManager_t310, ___OnPostingCompleteAction_13), 0 } ,
+	{ 685, 1001, offsetof(AndroidTwitterManager_t310, ___OnUserDataRequestCompleteAction_14), 0 } ,
+	{ 253, 1002, offsetof(AndroidTwitterManager_t310_StaticFields, ___U3CU3Ef__amU24cache9_15), 162 } ,
+	{ 254, 1002, offsetof(AndroidTwitterManager_t310_StaticFields, ___U3CU3Ef__amU24cacheA_16), 163 } ,
+	{ 255, 1002, offsetof(AndroidTwitterManager_t310_StaticFields, ___U3CU3Ef__amU24cacheB_17), 164 } ,
+	{ 256, 1002, offsetof(AndroidTwitterManager_t310_StaticFields, ___U3CU3Ef__amU24cacheC_18), 165 } ,
+	{ 779, 1004, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CurlU3E__0_0), 0 } ,
+	{ 780, 578, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CplainTextBytesU3E__1_1), 0 } ,
+	{ 781, 1004, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CencodedAccessTokenU3E__2_2), 0 } ,
+	{ 782, 579, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CformU3E__3_3), 0 } ,
+	{ 783, 924, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CwwwU3E__4_4), 0 } ,
+	{ 784, 1005, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CmapU3E__5_5), 0 } ,
+	{ 18, 137, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U24PC_6), 0 } ,
+	{ 19, 148, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U24current_7), 0 } ,
+	{ 20, 1006, offsetof(U3CLoadU3Ec__Iterator3_t314, ___U3CU3Ef__this_8), 0 } ,
+	{ 317, 647, 0, 0 } ,
+	{ 318, 647, 0, 0 } ,
+	{ 785, 647, 0, 0 } ,
+	{ 786, 99, offsetof(TwitterApplicationOnlyToken_t313, ____currentToken_9), 0 } ,
+	{ 768, 990, offsetof(TwitterApplicationOnlyToken_t313, ___Headers_10), 0 } ,
+	{ 787, 1009, offsetof(TwitterDataCash_t318_StaticFields, ___tweets_0), 0 } ,
+	{ 788, 1010, offsetof(TwitterDataCash_t318_StaticFields, ___users_1), 0 } ,
+	{ 730, 100, offsetof(TWResult_t319, ____IsSucceeded_0), 0 } ,
+	{ 226, 99, offsetof(TWResult_t319, ____data_1), 0 } ,
+	{ 787, 1013, offsetof(TW_APIRequstResult_t322, ___tweets_0), 0 } ,
+	{ 788, 1014, offsetof(TW_APIRequstResult_t322, ___users_1), 0 } ,
+	{ 789, 703, offsetof(TW_APIRequstResult_t322, ___ids_2), 0 } ,
+	{ 730, 100, offsetof(TW_APIRequstResult_t322, ____IsSucceeded_3), 0 } ,
+	{ 226, 99, offsetof(TW_APIRequstResult_t322, ____data_4), 0 } ,
+	{ 557, 101, offsetof(TweetTemplate_t323, ___id_0), 0 } ,
+	{ 790, 101, offsetof(TweetTemplate_t323, ___user_id_1), 0 } ,
+	{ 791, 101, offsetof(TweetTemplate_t323, ___created_at_2), 0 } ,
+	{ 792, 101, offsetof(TweetTemplate_t323, ___text_3), 0 } ,
+	{ 793, 101, offsetof(TweetTemplate_t323, ___source_4), 0 } ,
+	{ 794, 101, offsetof(TweetTemplate_t323, ___in_reply_to_status_id_5), 0 } ,
+	{ 795, 101, offsetof(TweetTemplate_t323, ___in_reply_to_user_id_6), 0 } ,
+	{ 796, 101, offsetof(TweetTemplate_t323, ___in_reply_to_screen_name_7), 0 } ,
+	{ 797, 101, offsetof(TweetTemplate_t323, ___geo_8), 0 } ,
+	{ 798, 101, offsetof(TweetTemplate_t323, ___place_9), 0 } ,
+	{ 799, 101, offsetof(TweetTemplate_t323, ___lang_10), 0 } ,
+	{ 800, 102, offsetof(TweetTemplate_t323, ___retweet_count_11), 0 } ,
+	{ 801, 102, offsetof(TweetTemplate_t323, ___favorite_count_12), 0 } ,
+	{ 750, 99, offsetof(TwitterStatus_t324, ____rawJSON_0), 0 } ,
+	{ 802, 99, offsetof(TwitterStatus_t324, ____text_1), 0 } ,
+	{ 803, 99, offsetof(TwitterStatus_t324, ____geo_2), 0 } ,
+	{ 804, 610, 0, 0 } ,
+	{ 805, 610, 0, 0 } ,
+	{ 49, 99, offsetof(TwitterUserInfo_t308, ____id_4), 0 } ,
+	{ 552, 99, offsetof(TwitterUserInfo_t308, ____description_5), 0 } ,
+	{ 51, 99, offsetof(TwitterUserInfo_t308, ____name_6), 0 } ,
+	{ 806, 99, offsetof(TwitterUserInfo_t308, ____screen_name_7), 0 } ,
+	{ 748, 99, offsetof(TwitterUserInfo_t308, ____location_8), 0 } ,
+	{ 807, 99, offsetof(TwitterUserInfo_t308, ____lang_9), 0 } ,
+	{ 750, 99, offsetof(TwitterUserInfo_t308, ____rawJSON_10), 0 } ,
+	{ 808, 99, offsetof(TwitterUserInfo_t308, ____profile_image_url_11), 0 } ,
+	{ 809, 99, offsetof(TwitterUserInfo_t308, ____profile_image_url_https_12), 0 } ,
+	{ 810, 99, offsetof(TwitterUserInfo_t308, ____profile_background_image_url_13), 0 } ,
+	{ 811, 99, offsetof(TwitterUserInfo_t308, ____profile_background_image_url_https_14), 0 } ,
+	{ 812, 857, offsetof(TwitterUserInfo_t308, ____profile_image_15), 0 } ,
+	{ 813, 857, offsetof(TwitterUserInfo_t308, ____profile_background_16), 0 } ,
+	{ 814, 1019, offsetof(TwitterUserInfo_t308, ____profile_background_color_17), 0 } ,
+	{ 815, 1019, offsetof(TwitterUserInfo_t308, ____profile_text_color_18), 0 } ,
+	{ 816, 110, offsetof(TwitterUserInfo_t308, ____friends_count_19), 0 } ,
+	{ 817, 110, offsetof(TwitterUserInfo_t308, ____statuses_count_20), 0 } ,
+	{ 579, 1020, offsetof(TwitterUserInfo_t308, ____status_21), 0 } ,
+	{ 663, 924, offsetof(U3CRequestU3Ec__Iterator4_t328, ___U3CwwwU3E__0_0), 0 } ,
+	{ 18, 137, offsetof(U3CRequestU3Ec__Iterator4_t328, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CRequestU3Ec__Iterator4_t328, ___U24current_2), 0 } ,
+	{ 20, 1024, offsetof(U3CRequestU3Ec__Iterator4_t328, ___U3CU3Ef__this_3), 0 } ,
+	{ 765, 100, offsetof(TW_APIRequest_t327, ___IsFirst_4), 0 } ,
+	{ 766, 99, offsetof(TW_APIRequest_t327, ___GetParams_5), 0 } ,
+	{ 767, 99, offsetof(TW_APIRequest_t327, ___requestUrl_6), 0 } ,
+	{ 768, 990, offsetof(TW_APIRequest_t327, ___Headers_7), 0 } ,
+	{ 818, 1030, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CtsU3E__0_0), 0 } ,
+	{ 819, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_consumer_keyU3E__1_1), 0 } ,
+	{ 820, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_tokenU3E__2_2), 0 } ,
+	{ 821, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_signature_methodU3E__3_3), 0 } ,
+	{ 822, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_timestampU3E__4_4), 0 } ,
+	{ 823, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_nonceU3E__5_5), 0 } ,
+	{ 824, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_versionU3E__6_6), 0 } ,
+	{ 825, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CbaseStringU3E__7_7), 0 } ,
+	{ 826, 1031, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CU24s_37U3E__8_8), 0 } ,
+	{ 827, 987, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CentryU3E__9_9), 0 } ,
+	{ 828, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CconsumerSecretU3E__10_10), 0 } ,
+	{ 829, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3Coauth_token_secretU3E__11_11), 0 } ,
+	{ 830, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CsigningKeyU3E__12_12), 0 } ,
+	{ 831, 1032, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3ChasherU3E__13_13), 0 } ,
+	{ 832, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CsignatureStringU3E__14_14), 0 } ,
+	{ 833, 1004, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CauthorizationHeaderParamsU3E__15_15), 0 } ,
+	{ 834, 924, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CwwwU3E__16_16), 0 } ,
+	{ 835, 1033, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CresultU3E__17_17), 0 } ,
+	{ 18, 137, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U24PC_18), 0 } ,
+	{ 19, 148, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U24current_19), 0 } ,
+	{ 20, 1034, offsetof(U3CRequestU3Ec__Iterator5_t333, ___U3CU3Ef__this_20), 0 } ,
+	{ 836, 1036, offsetof(TW_OAuthAPIRequest_t332, ___OnResult_2), 0 } ,
+	{ 765, 100, offsetof(TW_OAuthAPIRequest_t332, ___IsFirst_3), 0 } ,
+	{ 766, 99, offsetof(TW_OAuthAPIRequest_t332, ___GetParams_4), 0 } ,
+	{ 767, 99, offsetof(TW_OAuthAPIRequest_t332, ___requestUrl_5), 0 } ,
+	{ 768, 990, offsetof(TW_OAuthAPIRequest_t332, ___Headers_6), 0 } ,
+	{ 837, 1037, offsetof(TW_OAuthAPIRequest_t332, ___requestParams_7), 0 } ,
+	{ 838, 1038, offsetof(TW_OAuthAPIRequest_t332_StaticFields, ___U3CU3Ef__amU24cache6_8), 182 } ,
+	{ 579, 99, offsetof(TwitterPostingTask_t342, ____status_4), 0 } ,
+	{ 839, 857, offsetof(TwitterPostingTask_t342, ____texture_5), 0 } ,
+	{ 840, 1043, offsetof(TwitterPostingTask_t342, ____controller_6), 0 } ,
+	{ 841, 110, offsetof(GPScore_t343, ____rank_0), 0 } ,
+	{ 842, 116, offsetof(GPScore_t343, ____score_1), 0 } ,
+	{ 585, 99, offsetof(GPScore_t343, ____playerId_2), 0 } ,
+	{ 843, 99, offsetof(GPScore_t343, ____leaderboardId_3), 0 } ,
+	{ 844, 1045, offsetof(GPScore_t343, ____collection_4), 0 } ,
+	{ 845, 1046, offsetof(GPScore_t343, ____timeSpan_5), 0 } ,
+	{ 258, 610, 0, 0 } ,
+	{ 846, 647, 0, 0 } ,
+	{ 847, 647, 0, 0 } ,
+	{ 848, 647, 0, 0 } ,
+	{ 849, 104, offsetof(ISDSettings_t344, ___IsfwSettingOpen_6), 0 } ,
+	{ 850, 104, offsetof(ISDSettings_t344, ___IsLibSettingOpen_7), 0 } ,
+	{ 851, 104, offsetof(ISDSettings_t344, ___IslinkerSettingOpne_8), 0 } ,
+	{ 852, 104, offsetof(ISDSettings_t344, ___IscompilerSettingsOpen_9), 0 } ,
+	{ 853, 104, offsetof(ISDSettings_t344, ___IsPlistSettingsOpen_10), 0 } ,
+	{ 854, 703, offsetof(ISDSettings_t344, ___frameworks_11), 0 } ,
+	{ 855, 703, offsetof(ISDSettings_t344, ___libraries_12), 0 } ,
+	{ 856, 703, offsetof(ISDSettings_t344, ___compileFlags_13), 0 } ,
+	{ 857, 703, offsetof(ISDSettings_t344, ___linkFlags_14), 0 } ,
+	{ 858, 703, offsetof(ISDSettings_t344, ___plistkeys_15), 0 } ,
+	{ 859, 703, offsetof(ISDSettings_t344, ___plisttags_16), 0 } ,
+	{ 860, 703, offsetof(ISDSettings_t344, ___plistvalues_17), 0 } ,
+	{ 231, 1048, offsetof(ISDSettings_t344_StaticFields, ___instance_18), 0 } ,
+	{ 861, 1050, offsetof(InstagramUseExample_t345, ___imageForPosting_2), 0 } ,
+	{ 13, 137, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t346, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t346, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t346, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t346, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostFBScreenshotU3Ec__Iterator6_t346, ___U24current_4), 0 } ,
+	{ 13, 137, offsetof(U3CPostScreenshotU3Ec__Iterator7_t347, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostScreenshotU3Ec__Iterator7_t347, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostScreenshotU3Ec__Iterator7_t347, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostScreenshotU3Ec__Iterator7_t347, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostScreenshotU3Ec__Iterator7_t347, ___U24current_4), 0 } ,
+	{ 862, 641, offsetof(MSPFacebookUseExample_t353_StaticFields, ___IsUserInfoLoaded_2), 0 } ,
+	{ 863, 641, offsetof(MSPFacebookUseExample_t353_StaticFields, ___IsFrindsInfoLoaded_3), 0 } ,
+	{ 864, 641, offsetof(MSPFacebookUseExample_t353_StaticFields, ___IsAuntifivated_4), 0 } ,
+	{ 865, 1055, offsetof(MSPFacebookUseExample_t353, ___ConnectionDependedntButtons_5), 0 } ,
+	{ 866, 1056, offsetof(MSPFacebookUseExample_t353, ___connectButton_6), 0 } ,
+	{ 867, 1057, offsetof(MSPFacebookUseExample_t353, ___avatar_7), 0 } ,
+	{ 868, 1058, offsetof(MSPFacebookUseExample_t353, ___Location_8), 0 } ,
+	{ 869, 1058, offsetof(MSPFacebookUseExample_t353, ___Language_9), 0 } ,
+	{ 870, 1058, offsetof(MSPFacebookUseExample_t353, ___Mail_10), 0 } ,
+	{ 306, 1058, offsetof(MSPFacebookUseExample_t353, ___Name_11), 0 } ,
+	{ 871, 1058, offsetof(MSPFacebookUseExample_t353, ___f1_12), 0 } ,
+	{ 872, 1058, offsetof(MSPFacebookUseExample_t353, ___f2_13), 0 } ,
+	{ 873, 1057, offsetof(MSPFacebookUseExample_t353, ___fi1_14), 0 } ,
+	{ 874, 1057, offsetof(MSPFacebookUseExample_t353, ___fi2_15), 0 } ,
+	{ 875, 1050, offsetof(MSPFacebookUseExample_t353, ___ImageToShare_16), 0 } ,
+	{ 876, 1059, offsetof(MSPFacebookUseExample_t353, ___friends_17), 0 } ,
+	{ 877, 110, offsetof(MSPFacebookUseExample_t353, ___startScore_18), 0 } ,
+	{ 878, 99, offsetof(MSPFacebookUseExample_t353, ___UNION_ASSETS_PAGE_ID_19), 0 } ,
+	{ 861, 1050, offsetof(MSPMoreActionsExample_t354, ___imageForPosting_2), 0 } ,
+	{ 13, 137, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t355, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t355, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t355, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t355, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostTWScreenshotU3Ec__Iterator8_t355, ___U24current_4), 0 } ,
+	{ 13, 137, offsetof(U3CPostScreenshotU3Ec__Iterator9_t356, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostScreenshotU3Ec__Iterator9_t356, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostScreenshotU3Ec__Iterator9_t356, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostScreenshotU3Ec__Iterator9_t356, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostScreenshotU3Ec__Iterator9_t356, ___U24current_4), 0 } ,
+	{ 317, 1065, offsetof(MSPTwitterUseExample_t357_StaticFields, ___TWITTER_CONSUMER_KEY_2), 0 } ,
+	{ 318, 1065, offsetof(MSPTwitterUseExample_t357_StaticFields, ___TWITTER_CONSUMER_SECRET_3), 0 } ,
+	{ 862, 641, offsetof(MSPTwitterUseExample_t357_StaticFields, ___IsUserInfoLoaded_4), 0 } ,
+	{ 864, 641, offsetof(MSPTwitterUseExample_t357_StaticFields, ___IsAuntifivated_5), 0 } ,
+	{ 875, 1050, offsetof(MSPTwitterUseExample_t357, ___ImageToShare_6), 0 } ,
+	{ 866, 1056, offsetof(MSPTwitterUseExample_t357, ___connectButton_7), 0 } ,
+	{ 867, 1057, offsetof(MSPTwitterUseExample_t357, ___avatar_8), 0 } ,
+	{ 868, 1058, offsetof(MSPTwitterUseExample_t357, ___Location_9), 0 } ,
+	{ 869, 1058, offsetof(MSPTwitterUseExample_t357, ___Language_10), 0 } ,
+	{ 637, 1058, offsetof(MSPTwitterUseExample_t357, ___Status_11), 0 } ,
+	{ 306, 1058, offsetof(MSPTwitterUseExample_t357, ___Name_12), 0 } ,
+	{ 879, 1055, offsetof(MSPTwitterUseExample_t357, ___AuthDependedButtons_13), 0 } ,
+	{ 862, 641, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359_StaticFields, ___IsUserInfoLoaded_2), 0 } ,
+	{ 880, 641, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359_StaticFields, ___IsAuntificated_3), 0 } ,
+	{ 865, 1055, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___ConnectionDependedntButtons_4), 0 } ,
+	{ 866, 1056, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___connectButton_5), 0 } ,
+	{ 867, 1057, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___avatar_6), 0 } ,
+	{ 868, 1058, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___Location_7), 0 } ,
+	{ 869, 1058, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___Language_8), 0 } ,
+	{ 870, 1058, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___Mail_9), 0 } ,
+	{ 306, 1058, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___Name_10), 0 } ,
+	{ 881, 99, offsetof(MSP_FacebookAndroidTurnBasedAndGiftsExample_t359, ___BombItemId_11), 0 } ,
+	{ 681, 997, offsetof(SPInstagram_t361, ___OnPostingCompleteAction_6), 0 } ,
+	{ 774, 998, offsetof(SPInstagram_t361_StaticFields, ___U3CU3Ef__amU24cache1_7), 214 } ,
+	{ 661, 1076, offsetof(SPTwitter_t364_StaticFields, ____instance_2), 0 } ,
+	{ 882, 1077, offsetof(SPTwitter_t364_StaticFields, ____twitterGate_3), 0 } ,
+	{ 778, 1001, offsetof(SPTwitter_t364, ___OnTwitterInitedAction_4), 0 } ,
+	{ 683, 1001, offsetof(SPTwitter_t364, ___OnAuthCompleteAction_5), 0 } ,
+	{ 681, 1001, offsetof(SPTwitter_t364, ___OnPostingCompleteAction_6), 0 } ,
+	{ 685, 1001, offsetof(SPTwitter_t364, ___OnUserDataRequestCompleteAction_7), 0 } ,
+	{ 838, 1002, offsetof(SPTwitter_t364_StaticFields, ___U3CU3Ef__amU24cache6_8), 216 } ,
+	{ 738, 1002, offsetof(SPTwitter_t364_StaticFields, ___U3CU3Ef__amU24cache7_9), 217 } ,
+	{ 252, 1002, offsetof(SPTwitter_t364_StaticFields, ___U3CU3Ef__amU24cache8_10), 218 } ,
+	{ 253, 1002, offsetof(SPTwitter_t364_StaticFields, ___U3CU3Ef__amU24cache9_11), 219 } ,
+	{ 883, 610, 0, 0 } ,
+	{ 884, 610, 0, 0 } ,
+	{ 885, 610, 0, 0 } ,
+	{ 886, 610, 0, 0 } ,
+	{ 661, 1080, offsetof(MSPIOSSocialManager_t367_StaticFields, ____instance_8), 0 } ,
+	{ 887, 833, 0, 0 } ,
+	{ 888, 833, 0, 0 } ,
+	{ 775, 100, offsetof(IOSTwitterManager_t368, ____IsAuthed_8), 0 } ,
+	{ 245, 100, offsetof(IOSTwitterManager_t368, ____IsInited_9), 0 } ,
+	{ 673, 1000, offsetof(IOSTwitterManager_t368, ____userInfo_10), 0 } ,
+	{ 778, 1001, offsetof(IOSTwitterManager_t368, ___OnTwitterInitedAction_11), 0 } ,
+	{ 683, 1001, offsetof(IOSTwitterManager_t368, ___OnAuthCompleteAction_12), 0 } ,
+	{ 681, 1001, offsetof(IOSTwitterManager_t368, ___OnPostingCompleteAction_13), 0 } ,
+	{ 685, 1001, offsetof(IOSTwitterManager_t368, ___OnUserDataRequestCompleteAction_14), 0 } ,
+	{ 738, 1002, offsetof(IOSTwitterManager_t368_StaticFields, ___U3CU3Ef__amU24cache7_15), 224 } ,
+	{ 252, 1002, offsetof(IOSTwitterManager_t368_StaticFields, ___U3CU3Ef__amU24cache8_16), 225 } ,
+	{ 253, 1002, offsetof(IOSTwitterManager_t368_StaticFields, ___U3CU3Ef__amU24cache9_17), 226 } ,
+	{ 254, 1002, offsetof(IOSTwitterManager_t368_StaticFields, ___U3CU3Ef__amU24cacheA_18), 227 } ,
+	{ 13, 137, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U24current_4), 0 } ,
+	{ 20, 1083, offsetof(U3CPostScreenshotU3Ec__IteratorA_t371, ___U3CU3Ef__this_5), 0 } ,
+	{ 792, 99, offsetof(FacebookPostScreenshotTask_t370, ___text_4), 0 } ,
+	{ 13, 137, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U24current_4), 0 } ,
+	{ 20, 1086, offsetof(U3CPostScreenshotU3Ec__IteratorB_t373, ___U3CU3Ef__this_5), 0 } ,
+	{ 889, 997, offsetof(InstagramPostScreenshotTask_t372, ___OnPostScreenshotCompleteAction_4), 0 } ,
+	{ 792, 99, offsetof(InstagramPostScreenshotTask_t372, ___text_5), 0 } ,
+	{ 666, 998, offsetof(InstagramPostScreenshotTask_t372_StaticFields, ___U3CU3Ef__amU24cache2_6), 238 } ,
+	{ 13, 137, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U24current_4), 0 } ,
+	{ 20, 1089, offsetof(U3CPostScreenshotU3Ec__IteratorC_t375, ___U3CU3Ef__this_5), 0 } ,
+	{ 792, 99, offsetof(TwitterPostScreenshotTask_t374, ___text_4), 0 } ,
+	{ 890, 1065, offsetof(GameControllerExample_t377_StaticFields, ___extraMessage_2), 0 } ,
+	{ 774, 1092, offsetof(GameControllerExample_t377_StaticFields, ___U3CU3Ef__amU24cache1_3), 252 } ,
+	{ 57, 90, offsetof(TOKEN_t380, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 1096, 0, 0 } ,
+	{ 645, 1096, 0, 0 } ,
+	{ 646, 1096, 0, 0 } ,
+	{ 647, 1096, 0, 0 } ,
+	{ 648, 1096, 0, 0 } ,
+	{ 649, 1096, 0, 0 } ,
+	{ 650, 1096, 0, 0 } ,
+	{ 651, 1096, 0, 0 } ,
+	{ 652, 1096, 0, 0 } ,
+	{ 653, 1096, 0, 0 } ,
+	{ 654, 1096, 0, 0 } ,
+	{ 655, 1096, 0, 0 } ,
+	{ 657, 647, 0, 0 } ,
+	{ 658, 910, offsetof(Parser_t381, ___json_1), 0 } ,
+	{ 891, 911, offsetof(Parser_t381_StaticFields, ___U3CU3Ef__switchU24map2_2), 255 } ,
+	{ 660, 914, offsetof(Serializer_t382, ___builder_0), 0 } ,
+	{ 57, 90, offsetof(LOG_LEVEL_t384, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 1103, 0, 0 } ,
+	{ 892, 1103, 0, 0 } ,
+	{ 359, 1103, 0, 0 } ,
+	{ 893, 1103, 0, 0 } ,
+	{ 357, 1103, 0, 0 } ,
+	{ 894, 1103, 0, 0 } ,
+	{ 356, 1103, 0, 0 } ,
+	{ 895, 647, 0, 0 } ,
+	{ 896, 1117, offsetof(OneSignal_t379_StaticFields, ___idsAvailableDelegate_3), 0 } ,
+	{ 897, 1118, offsetof(OneSignal_t379_StaticFields, ___tagsReceivedDelegate_4), 0 } ,
+	{ 898, 1119, offsetof(OneSignal_t379_StaticFields, ___logLevel_5), 0 } ,
+	{ 899, 1119, offsetof(OneSignal_t379_StaticFields, ___visualLogLevel_6), 0 } ,
+	{ 900, 1120, offsetof(OneSignal_t379_StaticFields, ___oneSignalPlatform_7), 0 } ,
+	{ 901, 641, offsetof(OneSignal_t379_StaticFields, ___initialized_8), 0 } ,
+	{ 902, 1121, offsetof(OneSignal_t379_StaticFields, ___notificationDelegate_9), 0 } ,
+	{ 13, 137, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U3CwidthU3E__0_0), 0 } ,
+	{ 14, 137, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U3CheightU3E__1_1), 0 } ,
+	{ 15, 577, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U3CtexU3E__2_2), 0 } ,
+	{ 18, 137, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U24PC_3), 0 } ,
+	{ 19, 148, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U24current_4), 0 } ,
+	{ 20, 1124, offsetof(U3CSaveScreenshotU3Ec__IteratorD_t392, ___U3CU3Ef__this_5), 0 } ,
+	{ 903, 1126, offsetof(SA_ScreenShotMaker_t391, ___OnScreenshotReady_6), 0 } ,
+	{ 904, 1128, offsetof(DefaultPreviewButton_t349, ___normalTexture_4), 0 } ,
+	{ 905, 1128, offsetof(DefaultPreviewButton_t349, ___pressedTexture_5), 0 } ,
+	{ 906, 1128, offsetof(DefaultPreviewButton_t349, ___disabledTexture_6), 0 } ,
+	{ 907, 1128, offsetof(DefaultPreviewButton_t349, ___selectedTexture_7), 0 } ,
+	{ 908, 1129, offsetof(DefaultPreviewButton_t349, ___normalTex_8), 0 } ,
+	{ 909, 1130, offsetof(DefaultPreviewButton_t349, ___sound_9), 0 } ,
+	{ 910, 1130, offsetof(DefaultPreviewButton_t349, ___disabledsound_10), 0 } ,
+	{ 911, 100, offsetof(DefaultPreviewButton_t349, ___IsDisabled_11), 0 } ,
+	{ 912, 857, offsetof(SALevelLoader_t396, ___bg_6), 0 } ,
+	{ 913, 101, offsetof(SALoadedSceneOnClick_t398, ___levelName_2), 0 } ,
+	{ 914, 101, offsetof(SAOpenUrlOnClick_t400, ___url_2), 0 } ,
+	{ 915, 1059, offsetof(SASendMessageOnClick_t401, ___Reciver_2), 0 } ,
+	{ 916, 101, offsetof(SASendMessageOnClick_t401, ___MethodName_3), 0 } ,
+	{ 917, 1141, offsetof(SA_BackButton_t402_StaticFields, ___firstLevel_12), 0 } ,
+	{ 918, 1145, offsetof(SA_StatusBar_t404, ___title_2), 0 } ,
+	{ 919, 1145, offsetof(SA_StatusBar_t404, ___shadow_3), 0 } ,
+	{ 920, 610, 0, 0 } ,
+	{ 661, 1150, offsetof(PreviewScreenUtil_t405_StaticFields, ____instance_5), 0 } ,
+	{ 921, 110, offsetof(PreviewScreenUtil_t405, ___W_6), 0 } ,
+	{ 922, 110, offsetof(PreviewScreenUtil_t405, ___H_7), 0 } ,
+	{ 923, 1152, offsetof(ScreenPlacement_t407, ___position_2), 0 } ,
+	{ 924, 1153, offsetof(ScreenPlacement_t407, ___pixelOffset_3), 0 } ,
+	{ 925, 104, offsetof(ScreenPlacement_t407, ___persents_4), 0 } ,
+	{ 926, 104, offsetof(ScreenPlacement_t407, ___calulateStartOnly_5), 0 } ,
+	{ 927, 1154, offsetof(ScreenPlacement_t407, ___boundsTransform_6), 0 } ,
+	{ 928, 1155, offsetof(ScreenPlacement_t407, ___actualOffset_7), 0 } ,
+	{ 929, 1156, offsetof(ScreenPlacement_t407, ___orinetation_8), 0 } ,
+	{ 57, 90, offsetof(ScreenPosition_t408, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 930, 1159, 0, 0 } ,
+	{ 931, 1159, 0, 0 } ,
+	{ 932, 1159, 0, 0 } ,
+	{ 933, 1159, 0, 0 } ,
+	{ 934, 1159, 0, 0 } ,
+	{ 935, 1159, 0, 0 } ,
+	{ 936, 1159, 0, 0 } ,
+	{ 937, 1159, 0, 0 } ,
+	{ 938, 1159, 0, 0 } ,
+	{ 926, 104, offsetof(ScreenScaler_t410, ___calulateStartOnly_2), 0 } ,
+	{ 939, 619, offsetof(ScreenScaler_t410, ___persentsY_3), 0 } ,
+	{ 940, 1165, offsetof(ScreenScaler_t410, ____scaleFactorY_4), 0 } ,
+	{ 941, 1165, offsetof(ScreenScaler_t410, ____xScaleDiff_5), 0 } ,
+	{ 942, 619, offsetof(XScaleModifayer_t411, ___XMaxSize_2), 0 } ,
+	{ 943, 104, offsetof(XScaleModifayer_t411, ___scaleDownOnly_3), 0 } ,
+	{ 926, 104, offsetof(XScaleModifayer_t411, ___calulateStartOnly_4), 0 } ,
+	{ 944, 610, 0, 0 } ,
+	{ 945, 1174, 0, 0 } ,
+	{ 946, 1175, offsetof(AbstractFacebook_t414, ___isInitialized_4), 0 } ,
+	{ 947, 1175, offsetof(AbstractFacebook_t414, ___isLoggedIn_5), 0 } ,
+	{ 948, 568, offsetof(AbstractFacebook_t414, ___userId_6), 0 } ,
+	{ 949, 568, offsetof(AbstractFacebook_t414, ___accessToken_7), 0 } ,
+	{ 950, 1176, offsetof(AbstractFacebook_t414, ___accessTokenExpiresAt_8), 0 } ,
+	{ 951, 1175, offsetof(AbstractFacebook_t414, ___limitEventUsage_9), 0 } ,
+	{ 952, 1177, offsetof(AbstractFacebook_t414, ___authDelegates_10), 0 } ,
+	{ 953, 110, offsetof(AbstractFacebook_t414, ___nextAsyncId_11), 0 } ,
+	{ 954, 1178, offsetof(AbstractFacebook_t414, ___facebookDelegates_12), 0 } ,
+	{ 955, 1188, offsetof(FB_t421_StaticFields, ___OnInitComplete_2), 0 } ,
+	{ 956, 1189, offsetof(FB_t421_StaticFields, ___OnHideUnity_3), 0 } ,
+	{ 957, 1190, offsetof(FB_t421_StaticFields, ___facebook_4), 0 } ,
+	{ 958, 1065, offsetof(FB_t421_StaticFields, ___authResponse_5), 0 } ,
+	{ 959, 641, offsetof(FB_t421_StaticFields, ___isInitCalled_6), 0 } ,
+	{ 960, 1065, offsetof(FB_t421_StaticFields, ___appId_7), 0 } ,
+	{ 961, 641, offsetof(FB_t421_StaticFields, ___cookie_8), 0 } ,
+	{ 962, 641, offsetof(FB_t421_StaticFields, ___logging_9), 0 } ,
+	{ 0, 641, offsetof(FB_t421_StaticFields, ___status_10), 0 } ,
+	{ 963, 641, offsetof(FB_t421_StaticFields, ___xfbml_11), 0 } ,
+	{ 964, 641, offsetof(FB_t421_StaticFields, ___frictionlessRequests_12), 0 } ,
+	{ 965, 610, 0, 0 } ,
+	{ 966, 610, 0, 0 } ,
+	{ 967, 610, 0, 0 } ,
+	{ 968, 610, 0, 0 } ,
+	{ 969, 610, 0, 0 } ,
+	{ 970, 610, 0, 0 } ,
+	{ 971, 610, 0, 0 } ,
+	{ 972, 610, 0, 0 } ,
+	{ 973, 610, 0, 0 } ,
+	{ 974, 610, 0, 0 } ,
+	{ 975, 610, 0, 0 } ,
+	{ 976, 610, 0, 0 } ,
+	{ 977, 610, 0, 0 } ,
+	{ 978, 610, 0, 0 } ,
+	{ 979, 610, 0, 0 } ,
+	{ 980, 610, 0, 0 } ,
+	{ 981, 610, 0, 0 } ,
+	{ 597, 610, 0, 0 } ,
+	{ 982, 610, 0, 0 } ,
+	{ 983, 610, 0, 0 } ,
+	{ 984, 610, 0, 0 } ,
+	{ 985, 610, 0, 0 } ,
+	{ 986, 610, 0, 0 } ,
+	{ 987, 610, 0, 0 } ,
+	{ 988, 610, 0, 0 } ,
+	{ 989, 1202, offsetof(FBBuildVersionAttribute_t425, ___buildDate_0), 0 } ,
+	{ 990, 99, offsetof(FBBuildVersionAttribute_t425, ___buildHash_1), 0 } ,
+	{ 991, 99, offsetof(FBBuildVersionAttribute_t425, ___buildVersion_2), 0 } ,
+	{ 992, 99, offsetof(FBBuildVersionAttribute_t425, ___sdkVersion_3), 0 } ,
+	{ 57, 90, offsetof(IfNotExist_t427, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 993, 1205, 0, 0 } ,
+	{ 994, 1205, 0, 0 } ,
+	{ 895, 610, 0, 0 } ,
+	{ 995, 1211, offsetof(FBComponentFactory_t428_StaticFields, ___facebookGameObject_1), 0 } ,
+	{ 996, 100, offsetof(FBResult_t281, ___isWWWWrapper_0), 0 } ,
+	{ 997, 613, offsetof(FBResult_t281, ___data_1), 0 } ,
+	{ 998, 99, offsetof(FBResult_t281, ___error_2), 0 } ,
+	{ 999, 647, 0, 0 } ,
+	{ 1000, 647, 0, 0 } ,
+	{ 1001, 647, 0, 0 } ,
+	{ 231, 1216, offsetof(FBSettings_t430_StaticFields, ___instance_5), 0 } ,
+	{ 1002, 110, offsetof(FBSettings_t430, ___selectedAppIndex_6), 275 } ,
+	{ 1003, 583, offsetof(FBSettings_t430, ___appIds_7), 276 } ,
+	{ 1004, 583, offsetof(FBSettings_t430, ___appLabels_8), 277 } ,
+	{ 961, 100, offsetof(FBSettings_t430, ___cookie_9), 278 } ,
+	{ 962, 100, offsetof(FBSettings_t430, ___logging_10), 279 } ,
+	{ 0, 100, offsetof(FBSettings_t430, ___status_11), 280 } ,
+	{ 963, 100, offsetof(FBSettings_t430, ___xfbml_12), 281 } ,
+	{ 964, 100, offsetof(FBSettings_t430, ___frictionlessRequests_13), 282 } ,
+	{ 1005, 99, offsetof(FBSettings_t430, ___iosURLSuffix_14), 283 } ,
+	{ 57, 90, offsetof(DialogMode_t431, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1006, 1218, 0, 0 } ,
+	{ 1007, 1218, 0, 0 } ,
+	{ 667, 1221, offsetof(OGActionType_t432_StaticFields, ___Send_0), 0 } ,
+	{ 668, 1221, offsetof(OGActionType_t432_StaticFields, ___AskFor_1), 0 } ,
+	{ 669, 1221, offsetof(OGActionType_t432_StaticFields, ___Turn_2), 0 } ,
+	{ 1008, 99, offsetof(OGActionType_t432, ___actionTypeValue_3), 0 } ,
+	{ 1009, 647, 0, 0 } ,
+	{ 1010, 647, 0, 0 } ,
+	{ 1011, 99, offsetof(AndroidFacebook_t434, ___keyHash_15), 0 } ,
+	{ 1012, 1223, offsetof(AndroidFacebook_t434, ___deepLinkDelegate_16), 0 } ,
+	{ 1013, 1224, offsetof(AndroidFacebook_t434, ___onInitComplete_17), 0 } ,
+	{ 1014, 1174, 0, 0 } ,
+	{ 1015, 1174, 0, 0 } ,
+	{ 1016, 1174, 0, 0 } ,
+	{ 1017, 1174, 0, 0 } ,
+	{ 1018, 1174, 0, 0 } ,
+	{ 1019, 1174, 0, 0 } ,
+	{ 1020, 1174, 0, 0 } ,
+	{ 1013, 1224, offsetof(CanvasFacebook_t436, ___onInitComplete_20), 0 } ,
+	{ 956, 1228, offsetof(CanvasFacebook_t436, ___OnHideUnity_21), 0 } ,
+	{ 1021, 99, offsetof(CanvasFacebook_t436, ___integrationMethodJs_22), 0 } ,
+	{ 960, 99, offsetof(CanvasFacebook_t436, ___appId_23), 0 } ,
+	{ 1022, 99, offsetof(CanvasFacebook_t436, ___sdkLocale_24), 0 } ,
+	{ 1023, 100, offsetof(CanvasFacebook_t436, ___sdkDebug_25), 0 } ,
+	{ 1024, 99, offsetof(CanvasFacebook_t436, ___deepLink_26), 0 } ,
+	{ 957, 1232, offsetof(JsBridge_t438, ___facebook_2), 0 } ,
+	{ 1025, 1223, offsetof(EditorFacebook_t439, ___loginCallback_13), 0 } ,
+	{ 1026, 1235, 0, 0 } ,
+	{ 1027, 1165, offsetof(EditorFacebookAccessToken_t440, ___windowHeight_3), 0 } ,
+	{ 949, 99, offsetof(EditorFacebookAccessToken_t440, ___accessToken_4), 0 } ,
+	{ 1028, 100, offsetof(EditorFacebookAccessToken_t440, ___isLoggingIn_5), 0 } ,
+	{ 1029, 631, offsetof(EditorFacebookAccessToken_t440, ___greyButton_6), 0 } ,
+	{ 1030, 102, offsetof(NativeDict_t442, ___numEntries_0), 0 } ,
+	{ 1031, 1239, offsetof(NativeDict_t442, ___keys_1), 0 } ,
+	{ 1032, 1239, offsetof(NativeDict_t442, ___vals_2), 0 } ,
+	{ 57, 90, offsetof(FBInsightsFlushBehavior_t443, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1033, 1241, 0, 0 } ,
+	{ 1034, 1241, 0, 0 } ,
+	{ 1019, 647, 0, 0 } ,
+	{ 1035, 110, offsetof(IOSFacebook_t444, ___dialogMode_14), 0 } ,
+	{ 1036, 1224, offsetof(IOSFacebook_t444, ___externalInitDelegate_15), 0 } ,
+	{ 1012, 1223, offsetof(IOSFacebook_t444, ___deepLinkDelegate_16), 0 } ,
+	{ 1037, 1004, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CurlParamsU3E__0_0), 0 } ,
+	{ 1038, 986, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CU24s_77U3E__1_1), 0 } ,
+	{ 1039, 987, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CpairU3E__2_2), 0 } ,
+	{ 1040, 924, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CwwwU3E__3_3), 0 } ,
+	{ 1041, 986, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CU24s_78U3E__4_4), 0 } ,
+	{ 1042, 987, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CpairU3E__5_5), 0 } ,
+	{ 18, 137, offsetof(U3CStartU3Ec__IteratorE_t447, ___U24PC_6), 0 } ,
+	{ 19, 148, offsetof(U3CStartU3Ec__IteratorE_t447, ___U24current_7), 0 } ,
+	{ 20, 1246, offsetof(U3CStartU3Ec__IteratorE_t447, ___U3CU3Ef__this_8), 0 } ,
+	{ 914, 568, offsetof(AsyncRequestString_t446, ___url_2), 0 } ,
+	{ 1043, 1249, offsetof(AsyncRequestString_t446, ___method_3), 0 } ,
+	{ 1044, 594, offsetof(AsyncRequestString_t446, ___formData_4), 0 } ,
+	{ 1045, 1250, offsetof(AsyncRequestString_t446, ___query_5), 0 } ,
+	{ 1046, 1251, offsetof(AsyncRequestString_t446, ___callback_6), 0 } ,
+	{ 1047, 1253, offsetof(HttpMethod_t448_StaticFields, ___getMethod_0), 0 } ,
+	{ 1048, 1253, offsetof(HttpMethod_t448_StaticFields, ___postMethod_1), 0 } ,
+	{ 1049, 1253, offsetof(HttpMethod_t448_StaticFields, ___deleteMethod_2), 0 } ,
+	{ 1050, 99, offsetof(HttpMethod_t448, ___methodValue_3), 0 } ,
+	{ 57, 90, offsetof(TOKEN_t449, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 1255, 0, 0 } ,
+	{ 645, 1255, 0, 0 } ,
+	{ 646, 1255, 0, 0 } ,
+	{ 647, 1255, 0, 0 } ,
+	{ 648, 1255, 0, 0 } ,
+	{ 649, 1255, 0, 0 } ,
+	{ 650, 1255, 0, 0 } ,
+	{ 651, 1255, 0, 0 } ,
+	{ 652, 1255, 0, 0 } ,
+	{ 653, 1255, 0, 0 } ,
+	{ 654, 1255, 0, 0 } ,
+	{ 655, 1255, 0, 0 } ,
+	{ 656, 647, 0, 0 } ,
+	{ 657, 647, 0, 0 } ,
+	{ 658, 910, offsetof(Parser_t450, ___json_2), 0 } ,
+	{ 1051, 911, offsetof(Parser_t450_StaticFields, ___U3CU3Ef__switchU24map3_3), 290 } ,
+	{ 660, 914, offsetof(Serializer_t451, ___builder_0), 0 } ,
+	{ 1052, 1260, offsetof(Json_t453_StaticFields, ___numberFormat_0), 0 } ,
+	{ 231, 1262, offsetof(GameInstanceState_t454_StaticFields, ___instance_2), 0 } ,
+	{ 1053, 100, offsetof(GameInstanceState_t454, ___registeredForEvents_3), 0 } ,
+	{ 1054, 110, offsetof(GameInstanceState_t454, ___U3CinstancesFinishedThisSessionU3Ek__BackingField_4), 291 } ,
+	{ 1055, 110, offsetof(GameInstanceState_t454, ___U3CinstancesFinishedEverU3Ek__BackingField_5), 292 } ,
+	{ 1053, 100, offsetof(AchievementController_t455, ___registeredForEvents_2), 0 } ,
+	{ 1056, 1059, offsetof(BoostActiveLayout_t460, ___sliderPrototype_2), 0 } ,
+	{ 1057, 100, offsetof(BoostActiveLayout_t460, ___registerdForEvents_3), 0 } ,
+	{ 1058, 100, offsetof(BoostActiveLayout_t460, ___boostButtonsDirty_4), 0 } ,
+	{ 1059, 100, offsetof(BoostActiveLayout_t460, ___treatsTextDirty_5), 0 } ,
+	{ 1060, 100, offsetof(BoostActiveLayout_t460, ___levelTextDirty_6), 0 } ,
+	{ 1061, 1268, offsetof(BoostActiveLayout_t460, ___boostConfig_7), 0 } ,
+	{ 1062, 100, offsetof(BoostActiveLayout_t460, ___started_8), 0 } ,
+	{ 1063, 1269, offsetof(BoostActiveLayout_t460, ___sliderInstance_9), 0 } ,
+	{ 1064, 100, offsetof(BoostActiveLayout_t460, ___sliderDirty_10), 0 } ,
+	{ 1065, 1270, offsetof(BoostActiveLayout_t460, ___containingCanvas_11), 0 } ,
+	{ 57, 90, offsetof(BoostButtonMode_t461, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1066, 1273, 0, 0 } ,
+	{ 1067, 1273, 0, 0 } ,
+	{ 1068, 1273, 0, 0 } ,
+	{ 1069, 1273, 0, 0 } ,
+	{ 18, 137, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t463, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t463, ___U24current_1), 0 } ,
+	{ 20, 1276, offsetof(U3CTriggerDistortionEffectU3Ec__IteratorF_t463, ___U3CU3Ef__this_2), 0 } ,
+	{ 1070, 1278, offsetof(BoostButton_t462, ___mode_2), 0 } ,
+	{ 1071, 1279, offsetof(BoostButton_t462, ___button_3), 0 } ,
+	{ 1072, 1280, offsetof(BoostButton_t462, ___buttonText_4), 0 } ,
+	{ 1073, 1280, offsetof(BoostButton_t462, ___countText_5), 0 } ,
+	{ 1074, 1280, offsetof(BoostButton_t462, ___restrictionText_6), 0 } ,
+	{ 1075, 1281, offsetof(BoostButton_t462, ___boostType_7), 0 } ,
+	{ 1076, 110, offsetof(BoostButton_t462, ___priceInTreats_8), 0 } ,
+	{ 1053, 100, offsetof(BoostButton_t462, ___registeredForEvents_9), 0 } ,
+	{ 1077, 100, offsetof(BoostButton_t462, ___buttonDirty_10), 0 } ,
+	{ 1078, 619, offsetof(BoostButtonLayout_t468, ___boostButtonYOffset_2), 0 } ,
+	{ 1079, 1059, offsetof(BoostButtonLayout_t468, ___boostButtonPrototype_3), 0 } ,
+	{ 1065, 1270, offsetof(BoostButtonLayout_t468, ___containingCanvas_4), 0 } ,
+	{ 1080, 1283, offsetof(BoostButtonLayout_t468, ___boostButtons_5), 0 } ,
+	{ 1081, 1284, offsetof(BoostButtonLayout_t468, ___boostButtonGameObjects_6), 0 } ,
+	{ 1059, 100, offsetof(BoostButtonLayout_t468, ___treatsTextDirty_7), 0 } ,
+	{ 1060, 100, offsetof(BoostButtonLayout_t468, ___levelTextDirty_8), 0 } ,
+	{ 1062, 100, offsetof(BoostButtonLayout_t468, ___started_9), 0 } ,
+	{ 57, 90, offsetof(BoostType_t469, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1082, 1286, 0, 0 } ,
+	{ 1083, 1286, 0, 0 } ,
+	{ 1084, 1286, 0, 0 } ,
+	{ 1085, 1286, 0, 0 } ,
+	{ 1086, 1286, 0, 0 } ,
+	{ 1069, 1286, 0, 0 } ,
+	{ 1087, 1289, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t471, ___pauseTime_0), 0 } ,
+	{ 18, 137, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t471, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t471, ___U24current_2), 0 } ,
+	{ 1088, 1289, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t471, ___U3CU24U3EpauseTime_3), 0 } ,
+	{ 20, 1290, offsetof(U3CWaitThenCleanupU3Ec__Iterator10_t471, ___U3CU3Ef__this_4), 0 } ,
+	{ 1089, 1292, offsetof(BoostConfig_t457, ___boostDescs_2), 0 } ,
+	{ 1090, 1293, offsetof(BoostConfig_t457, ___activePause_3), 0 } ,
+	{ 1091, 1165, offsetof(BoostConfig_t457, ___activeBoostStartTime_4), 0 } ,
+	{ 1092, 1165, offsetof(BoostConfig_t457, ___activeBoostEndTime_5), 0 } ,
+	{ 1053, 100, offsetof(BoostConfig_t457, ___registeredForEvents_6), 0 } ,
+	{ 1093, 1294, offsetof(BoostConfig_t457, ___BoostActive_7), 0 } ,
+	{ 1094, 1295, offsetof(BoostConfig_t457_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 303 } ,
+	{ 1095, 1281, offsetof(BoostConfig_t457, ___U3CactiveBoostU3Ek__BackingField_9), 304 } ,
+	{ 1096, 1297, offsetof(BoostDesc_t475, ___buttonSprite_0), 0 } ,
+	{ 1097, 1297, offsetof(BoostDesc_t475, ___introScreenSprite_1), 0 } ,
+	{ 1098, 619, offsetof(BoostDesc_t475, ___effectiveTime_2), 0 } ,
+	{ 1099, 101, offsetof(BoostDesc_t475, ___boostName_3), 0 } ,
+	{ 1100, 1298, offsetof(BoostDesc_t475, ___tipConfig_4), 0 } ,
+	{ 1061, 1268, offsetof(BuyAndUseBoost_t477, ___boostConfig_2), 0 } ,
+	{ 1101, 1300, offsetof(BuyAndUseBoost_t477, ___playerStats_3), 0 } ,
+	{ 1061, 1268, offsetof(BuyBoost_t478, ___boostConfig_2), 0 } ,
+	{ 1101, 1300, offsetof(BuyBoost_t478, ___playerStats_3), 0 } ,
+	{ 1102, 1305, offsetof(CameraController_t480, ___worldCamera_2), 0 } ,
+	{ 1103, 1305, offsetof(CameraController_t480, ___uxCamera_3), 0 } ,
+	{ 1104, 619, offsetof(CameraController_t480, ___worldCameraTopMargin_4), 0 } ,
+	{ 1105, 1310, offsetof(ConeOfViewRenderer_t484, ___viewMesh_2), 0 } ,
+	{ 1106, 1311, offsetof(ConeOfViewRenderer_t484, ___viewMaterial_3), 0 } ,
+	{ 1107, 102, offsetof(ConeOfViewRenderer_t484, ___numTriangles_4), 0 } ,
+	{ 1061, 1268, offsetof(ConeOfViewRenderer_t484, ___boostConfig_5), 0 } ,
+	{ 1053, 100, offsetof(ConeOfViewRenderer_t484, ___registeredForEvents_6), 0 } ,
+	{ 1108, 1165, offsetof(ConeOfViewRenderer_t484, ___U3CactualAngleRangeU3Ek__BackingField_7), 315 } ,
+	{ 1109, 104, offsetof(CrossSceneState_t485, ___didWelcome_2), 0 } ,
+	{ 1094, 1314, offsetof(CrossSceneState_t485_StaticFields, ___U3CinstanceU3Ek__BackingField_3), 318 } ,
+	{ 1110, 1316, offsetof(DeadMouse_t487, ___baseSprites_2), 0 } ,
+	{ 1111, 619, offsetof(DeadMouse_t487, ___deadMouseZ_3), 0 } ,
+	{ 1112, 104, offsetof(DebugConfig_t488, ___debugFBShare_2), 0 } ,
+	{ 1113, 104, offsetof(DebugConfig_t488, ___debugTwitterShare_3), 0 } ,
+	{ 1114, 100, offsetof(DebugConfig_t488, ___U3CuseDebugValuesU3Ek__BackingField_4), 321 } ,
+	{ 1094, 1318, offsetof(DebugConfig_t488_StaticFields, ___U3CinstanceU3Ek__BackingField_5), 322 } ,
+	{ 1115, 102, offsetof(DebugLogPropagate_t489, ___foo_2), 0 } ,
+	{ 1116, 1323, offsetof(DestroyByCollision_t491, ___pawController_2), 0 } ,
+	{ 231, 1326, offsetof(DialogController_t492_StaticFields, ___instance_2), 0 } ,
+	{ 1117, 1327, offsetof(DialogController_t492, ___activeDialog_3), 0 } ,
+	{ 1118, 100, offsetof(DistortForEffect_t493, ___distorting_2), 0 } ,
+	{ 1119, 1165, offsetof(DistortForEffect_t493, ___startDistortTime_3), 0 } ,
+	{ 1120, 619, offsetof(DistortForEffect_t493, ___distortPeriod_4), 0 } ,
+	{ 1121, 619, offsetof(DistortForEffect_t493, ___distortScale_5), 0 } ,
+	{ 1122, 1154, offsetof(DistortForEffect_t493, ___thingToScale_6), 0 } ,
+	{ 1123, 1329, offsetof(DistortForEffect_t493, ___originalScale_7), 0 } ,
+	{ 1124, 1333, 0, 0 } ,
+	{ 1125, 1333, 0, 0 } ,
+	{ 1126, 1337, offsetof(ExplicitMouseDesc_t495, ___mouseType_0), 0 } ,
+	{ 1127, 1338, offsetof(ExplicitMouseDesc_t495, ___mouseHoleLocation_1), 0 } ,
+	{ 1128, 104, offsetof(ExplicitMouseDesc_t495, ___isClockwise_2), 0 } ,
+	{ 1129, 102, offsetof(ExplicitMouseDesc_t495, ___track_3), 0 } ,
+	{ 1130, 619, offsetof(ExplicitMouseDesc_t495, ___delayToNextMouse_4), 0 } ,
+	{ 1131, 1339, offsetof(ExplicitMouseDesc_t495, ___U3CwiggleTypeU3Ek__BackingField_5), 327 } ,
+	{ 1132, 1165, offsetof(ExplicitMouseDesc_t495, ___U3CwiggleMagnitudeU3Ek__BackingField_6), 328 } ,
+	{ 1133, 110, offsetof(ExplicitMouseDesc_t495, ___U3CwiggleCyclesU3Ek__BackingField_7), 329 } ,
+	{ 1134, 100, offsetof(ExplicitMouseDesc_t495, ___U3CwiggleClockwiseU3Ek__BackingField_8), 330 } ,
+	{ 1135, 647, 0, 0 } ,
+	{ 1136, 647, 0, 0 } ,
+	{ 1137, 647, 0, 0 } ,
+	{ 231, 1341, offsetof(FacebookSharing_t496_StaticFields, ___instance_5), 0 } ,
+	{ 1138, 110, offsetof(FacebookSharing_t496, ___scoreToShare_6), 0 } ,
+	{ 1139, 1050, offsetof(FacebookSharing_t496, ___lazyAngusIcon_7), 0 } ,
+	{ 1140, 1329, offsetof(FartPuff_t497, ___direction_2), 0 } ,
+	{ 1141, 619, offsetof(FartPuff_t497, ___velocity_3), 0 } ,
+	{ 1142, 619, offsetof(FartPuff_t497, ___scaleVelocity_4), 0 } ,
+	{ 1143, 619, offsetof(FartPuff_t497, ___maxRotateDegVeclocity_5), 0 } ,
+	{ 1144, 619, offsetof(FartPuff_t497, ___minRotateDegVeclocity_6), 0 } ,
+	{ 1145, 1165, offsetof(FartPuff_t497, ___rotateDegVelocity_7), 0 } ,
+	{ 1146, 1165, offsetof(FartPuff_t497, ___rotationDeg_8), 0 } ,
+	{ 1147, 1165, offsetof(FartPuff_t497, ___scale_9), 0 } ,
+	{ 1148, 619, offsetof(FartPuff_t497, ___initialScale_10), 0 } ,
+	{ 1149, 1297, offsetof(FartPuff_t497, ___sprite_11), 0 } ,
+	{ 1053, 100, offsetof(FinalScoreController_t498, ___registeredForEvents_2), 0 } ,
+	{ 1150, 1280, offsetof(FinalScoreUI_t499, ___personalBestText_2), 0 } ,
+	{ 1151, 1280, offsetof(FinalScoreUI_t499, ___finalScoreText_3), 0 } ,
+	{ 1062, 100, offsetof(FinalScoreUI_t499, ___started_4), 0 } ,
+	{ 1152, 1348, offsetof(GameCenterButtons_t502, ___leaderBoardButton_2), 0 } ,
+	{ 1153, 1348, offsetof(GameCenterButtons_t502, ___achievementButton_3), 0 } ,
+	{ 1154, 1348, offsetof(GameCenterButtons_t502, ___rateMeButton_4), 0 } ,
+	{ 1155, 1349, offsetof(GameCenterButtons_t502_StaticFields, ___U3CU3Ef__amU24cache3_5), 339 } ,
+	{ 1156, 1349, offsetof(GameCenterButtons_t502_StaticFields, ___U3CU3Ef__amU24cache4_6), 340 } ,
+	{ 1157, 1349, offsetof(GameCenterButtons_t502_StaticFields, ___U3CU3Ef__amU24cache5_7), 341 } ,
+	{ 1158, 619, offsetof(GameController_t505, ___startWait_2), 0 } ,
+	{ 1159, 619, offsetof(GameController_t505, ___minSpawnWait_3), 0 } ,
+	{ 1160, 619, offsetof(GameController_t505, ___maxSpawnWait_4), 0 } ,
+	{ 1161, 1351, offsetof(GameController_t505, ___mouseHoles_5), 0 } ,
+	{ 1162, 1352, offsetof(GameController_t505, ___mouseSpawnFromData_6), 0 } ,
+	{ 1053, 100, offsetof(GameController_t505, ___registeredForEvents_7), 0 } ,
+	{ 1163, 100, offsetof(GameController_t505, ___checkForPhaseChanges_8), 0 } ,
+	{ 1094, 1353, offsetof(GameController_t505_StaticFields, ___U3CinstanceU3Ek__BackingField_9), 345 } ,
+	{ 252, 954, offsetof(GameController_t505_StaticFields, ___U3CU3Ef__amU24cache8_10), 346 } ,
+	{ 1164, 1356, offsetof(GameLevelState_t507, ___GameLevelChanged_2), 0 } ,
+	{ 1165, 110, offsetof(GameLevelState_t507, ___U3CgameLevelU3Ek__BackingField_3), 350 } ,
+	{ 1094, 1357, offsetof(GameLevelState_t507_StaticFields, ___U3CinstanceU3Ek__BackingField_4), 351 } ,
+	{ 57, 90, offsetof(GamePhaseType_t508, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 655, 1359, 0, 0 } ,
+	{ 1166, 1359, 0, 0 } ,
+	{ 1167, 1359, 0, 0 } ,
+	{ 1168, 1359, 0, 0 } ,
+	{ 1169, 1359, 0, 0 } ,
+	{ 1170, 1359, 0, 0 } ,
+	{ 18, 137, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t512, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t512, ___U24current_1), 0 } ,
+	{ 20, 1364, offsetof(U3CSetupPendingPhaseU3Ec__Iterator11_t512, ___U3CU3Ef__this_2), 0 } ,
+	{ 1171, 1366, offsetof(GamePhaseState_t511, ___pendingPhase_2), 0 } ,
+	{ 1172, 1165, offsetof(GamePhaseState_t511, ___pendingPhaseTimeout_3), 0 } ,
+	{ 1173, 619, offsetof(GamePhaseState_t511, ___pendingPause_4), 0 } ,
+	{ 1174, 100, offsetof(GamePhaseState_t511, ___shouldCheckForPhaseTransition_5), 0 } ,
+	{ 1175, 1367, offsetof(GamePhaseState_t511, ___gameUIs_6), 0 } ,
+	{ 1176, 1368, offsetof(GamePhaseState_t511, ___GameInstanceChanged_7), 0 } ,
+	{ 1177, 1369, offsetof(GamePhaseState_t511, ___GamePhaseChanged_8), 0 } ,
+	{ 1178, 1366, offsetof(GamePhaseState_t511, ___U3CgamePhaseU3Ek__BackingField_9), 356 } ,
+	{ 1094, 1370, offsetof(GamePhaseState_t511_StaticFields, ___U3CinstanceU3Ek__BackingField_10), 357 } ,
+	{ 57, 90, offsetof(GameUIsType_t514, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1166, 1373, 0, 0 } ,
+	{ 1168, 1373, 0, 0 } ,
+	{ 1167, 1373, 0, 0 } ,
+	{ 1179, 1373, 0, 0 } ,
+	{ 1069, 1373, 0, 0 } ,
+	{ 1180, 1059, offsetof(GameUIController_t515, ___welcomeUIGameObject_2), 0 } ,
+	{ 1181, 1059, offsetof(GameUIController_t515, ___levelEndUIGameObject_3), 0 } ,
+	{ 1182, 1059, offsetof(GameUIController_t515, ___levelPlayUIGameObject_4), 0 } ,
+	{ 1183, 1059, offsetof(GameUIController_t515, ___gameOverUIGameObject_5), 0 } ,
+	{ 1175, 1367, offsetof(GameUIController_t515, ___gameUIs_6), 0 } ,
+	{ 1053, 100, offsetof(GameUIController_t515, ___registeredForEvents_7), 0 } ,
+	{ 1094, 1376, offsetof(GameUIController_t515_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 368 } ,
+	{ 18, 137, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator12_t517, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator12_t517, ___U24current_1), 0 } ,
+	{ 20, 1378, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator12_t517, ___U3CU3Ef__this_2), 0 } ,
+	{ 231, 1380, offsetof(GoogleAdController_t516_StaticFields, ___instance_2), 0 } ,
+	{ 1184, 102, offsetof(GoogleAdController_t516, ___instancesBetweenInterstitialAds_3), 0 } ,
+	{ 1185, 619, offsetof(GoogleAdController_t516, ___waitBeforeAd_4), 0 } ,
+	{ 1186, 1293, offsetof(GoogleAdController_t516, ___pendingInterstitialAd_5), 0 } ,
+	{ 1053, 100, offsetof(GoogleAdController_t516, ___registeredForEvents_6), 0 } ,
+	{ 1187, 100, offsetof(GoogleAdController_t516, ___interstitialAdLoaded_7), 0 } ,
+	{ 1188, 100, offsetof(GoogleAdController_t516, ___adsEnabled_8), 0 } ,
+	{ 1189, 632, offsetof(GoogleAdController_t516, ___banner_9), 0 } ,
+	{ 57, 90, offsetof(MovementPhase_t518, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1190, 1382, 0, 0 } ,
+	{ 1191, 1382, 0, 0 } ,
+	{ 1192, 1382, 0, 0 } ,
+	{ 1193, 1382, 0, 0 } ,
+	{ 1194, 1382, 0, 0 } ,
+	{ 1195, 619, offsetof(HeadMovement_t519, ___moveToSpeedDeg_2), 0 } ,
+	{ 1196, 619, offsetof(HeadMovement_t519, ___moveHomeSpeedDeg_3), 0 } ,
+	{ 1197, 619, offsetof(HeadMovement_t519, ___maxTurnDeg_4), 0 } ,
+	{ 1198, 1386, offsetof(HeadMovement_t519, ___coneOfView_5), 0 } ,
+	{ 1199, 619, offsetof(HeadMovement_t519, ___holdTime_6), 0 } ,
+	{ 1200, 1165, offsetof(HeadMovement_t519, ___targetDeg_7), 0 } ,
+	{ 1201, 1165, offsetof(HeadMovement_t519, ___currentDeg_8), 0 } ,
+	{ 1202, 1387, offsetof(HeadMovement_t519, ___phase_9), 0 } ,
+	{ 1203, 1165, offsetof(HeadMovement_t519, ___phaseStartTime_10), 0 } ,
+	{ 1204, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator13_t521, ___U3CiU3E__0_0), 0 } ,
+	{ 1205, 1389, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator13_t521, ___U3CgoU3E__1_1), 0 } ,
+	{ 18, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator13_t521, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator13_t521, ___U24current_3), 0 } ,
+	{ 20, 1390, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator13_t521, ___U3CU3Ef__this_4), 0 } ,
+	{ 1206, 1297, offsetof(HoleMeter_t520, ___emptySprite_2), 0 } ,
+	{ 1207, 1297, offsetof(HoleMeter_t520, ___fullSprite_3), 0 } ,
+	{ 1208, 1392, offsetof(HoleMeter_t520, ___offset_4), 0 } ,
+	{ 1209, 1059, offsetof(HoleMeter_t520, ___meterWidgetPrototype_5), 0 } ,
+	{ 1210, 1284, offsetof(HoleMeter_t520, ___meterWidgetGameObjects_6), 0 } ,
+	{ 1211, 1393, offsetof(HoleMeter_t520, ___mouseHole_7), 0 } ,
+	{ 1057, 100, offsetof(HoleMeter_t520, ___registerdForEvents_8), 0 } ,
+	{ 1212, 808, offsetof(InputHandler_t525_StaticFields, ___UserInteractionsLayerBit_2), 0 } ,
+	{ 1213, 808, offsetof(InputHandler_t525_StaticFields, ___UILayerBit_3), 0 } ,
+	{ 1102, 1399, offsetof(InputHandler_t525, ___worldCamera_4), 0 } ,
+	{ 1103, 1399, offsetof(InputHandler_t525, ___uxCamera_5), 0 } ,
+	{ 1214, 110, offsetof(InputHandler_t525, ___UserInteractionsLayerBitmask_6), 0 } ,
+	{ 1215, 100, offsetof(InputHandler_t525, ___U3CisTouchDeviceU3Ek__BackingField_7), 383 } ,
+	{ 1094, 1400, offsetof(InputHandler_t525_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 384 } ,
+	{ 57, 90, offsetof(WaveType_t527, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1216, 1404, 0, 0 } ,
+	{ 1217, 1404, 0, 0 } ,
+	{ 1218, 1404, 0, 0 } ,
+	{ 1069, 1404, 0, 0 } ,
+	{ 1219, 101, offsetof(LevelDescription_t534, ___specialText_0), 0 } ,
+	{ 1220, 1406, offsetof(LevelDescription_t534, ___explicitMouseDescs_1), 0 } ,
+	{ 1149, 1297, offsetof(LevelDescription_t534, ___sprite_2), 0 } ,
+	{ 1100, 1298, offsetof(LevelDescription_t534, ___tipConfig_3), 0 } ,
+	{ 1221, 619, offsetof(LevelDescription_t534, ___tipPause_4), 0 } ,
+	{ 1222, 1407, offsetof(LevelDescription_t534, ___mouseHolesAccumulator_5), 0 } ,
+	{ 1223, 1408, offsetof(LevelDescription_t534, ___boostsAccumulator_6), 0 } ,
+	{ 1224, 1409, offsetof(LevelDescription_t534, ___wigglesAccumulator_7), 0 } ,
+	{ 1225, 1410, offsetof(LevelDescription_t534, ___mouseTypesAccumulator_8), 0 } ,
+	{ 1226, 1411, offsetof(LevelDescription_t534, ___waveTypesAccumulator_9), 0 } ,
+	{ 1227, 102, offsetof(LevelDescription_t534, ___gameLevel_10), 0 } ,
+	{ 1228, 101, offsetof(LevelDescription_t534, ___previousLevelClearedAchievementID_11), 0 } ,
+	{ 1229, 619, offsetof(LevelConfig_t541, ___paradePause_2), 0 } ,
+	{ 1230, 102, offsetof(LevelConfig_t541, ___minParadeMice_3), 0 } ,
+	{ 1231, 102, offsetof(LevelConfig_t541, ___maxParadeMice_4), 0 } ,
+	{ 1232, 619, offsetof(LevelConfig_t541, ___paradeEndPause_5), 0 } ,
+	{ 1233, 102, offsetof(LevelConfig_t541, ___minDistributedMice_6), 0 } ,
+	{ 1234, 102, offsetof(LevelConfig_t541, ___maxDistributedMice_7), 0 } ,
+	{ 1235, 1414, offsetof(LevelConfig_t541, ___distributedPauseDist_8), 0 } ,
+	{ 1236, 619, offsetof(LevelConfig_t541, ___distributedEndPause_9), 0 } ,
+	{ 1237, 619, offsetof(LevelConfig_t541, ___minSpoutPause_10), 0 } ,
+	{ 1238, 619, offsetof(LevelConfig_t541, ___maxSpoutPause_11), 0 } ,
+	{ 1239, 619, offsetof(LevelConfig_t541, ___spoutEndPause_12), 0 } ,
+	{ 1240, 102, offsetof(LevelConfig_t541, ___minSpoutMice_13), 0 } ,
+	{ 1241, 102, offsetof(LevelConfig_t541, ___maxSpoutMice_14), 0 } ,
+	{ 1242, 102, offsetof(LevelConfig_t541, ___superSpeedMiceLevel_15), 0 } ,
+	{ 1243, 1415, offsetof(LevelConfig_t541, ___mouseHoleGenerator_16), 0 } ,
+	{ 1244, 1416, offsetof(LevelConfig_t541, ___trackGenerator_17), 0 } ,
+	{ 1245, 1417, offsetof(LevelConfig_t541, ___distributedPauseGenerator_18), 0 } ,
+	{ 1246, 1418, offsetof(LevelConfig_t541, ___levelDescMap_19), 0 } ,
+	{ 1247, 1419, offsetof(LevelConfig_t541, ___boostLevelLocks_20), 0 } ,
+	{ 1094, 1420, offsetof(LevelConfig_t541_StaticFields, ___U3CinstanceU3Ek__BackingField_21), 389 } ,
+	{ 1248, 1280, offsetof(LevelEndTitlesLayout_t543, ___waveTitleText_2), 0 } ,
+	{ 1249, 1280, offsetof(LevelEndTitlesLayout_t543, ___waveCountText_3), 0 } ,
+	{ 1250, 1280, offsetof(LevelEndTitlesLayout_t543, ___waveSpecialText_4), 0 } ,
+	{ 1251, 1422, offsetof(LevelEndTitlesLayout_t543, ___waveSpecialImage_5), 0 } ,
+	{ 1057, 100, offsetof(LevelEndTitlesLayout_t543, ___registerdForEvents_6), 0 } ,
+	{ 1252, 1423, offsetof(LevelEndTitlesLayout_t543, ___distortForEffect_7), 0 } ,
+	{ 1062, 100, offsetof(LevelEndTitlesLayout_t543, ___started_8), 0 } ,
+	{ 1253, 100, offsetof(LevelEndTitlesLayout_t543, ___waveDirty_9), 0 } ,
+	{ 57, 90, offsetof(MovementPhaseType_t544, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1254, 1426, 0, 0 } ,
+	{ 1255, 1426, 0, 0 } ,
+	{ 1256, 1426, 0, 0 } ,
+	{ 1257, 1426, 0, 0 } ,
+	{ 1258, 1426, 0, 0 } ,
+	{ 1069, 1426, 0, 0 } ,
+	{ 57, 90, offsetof(MouseType_t545, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1259, 1429, 0, 0 } ,
+	{ 1260, 1429, 0, 0 } ,
+	{ 1261, 1429, 0, 0 } ,
+	{ 1262, 1429, 0, 0 } ,
+	{ 1069, 1429, 0, 0 } ,
+	{ 57, 90, offsetof(MouseWiggleType_t546, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 1431, 0, 0 } ,
+	{ 1263, 1431, 0, 0 } ,
+	{ 1264, 1431, 0, 0 } ,
+	{ 1265, 1431, 0, 0 } ,
+	{ 1069, 1431, 0, 0 } ,
+	{ 1266, 619, offsetof(MouseConfig_t549, ___timeToTurn_2), 0 } ,
+	{ 1267, 619, offsetof(MouseConfig_t549, ___minCirclingRadius_3), 0 } ,
+	{ 1268, 619, offsetof(MouseConfig_t549, ___maxCirclingRadius_4), 0 } ,
+	{ 1269, 619, offsetof(MouseConfig_t549, ___startMouseRadius_5), 0 } ,
+	{ 1270, 619, offsetof(MouseConfig_t549, ___minSpeedM_6), 0 } ,
+	{ 1271, 619, offsetof(MouseConfig_t549, ___maxSpeedM_7), 0 } ,
+	{ 1272, 619, offsetof(MouseConfig_t549, ___minScaleM_8), 0 } ,
+	{ 1273, 619, offsetof(MouseConfig_t549, ___maxScaleM_9), 0 } ,
+	{ 1274, 619, offsetof(MouseConfig_t549, ___superSpeedM_10), 0 } ,
+	{ 1275, 1433, offsetof(MouseConfig_t549, ___poisonedColor_11), 0 } ,
+	{ 1276, 1433, offsetof(MouseConfig_t549, ___fartedUponColor_12), 0 } ,
+	{ 1277, 1392, offsetof(MouseConfig_t549, ___progressBarOffset_13), 0 } ,
+	{ 1278, 1059, offsetof(MouseConfig_t549, ___deadMousePrototype_14), 0 } ,
+	{ 1279, 619, offsetof(MouseConfig_t549, ___minBFWiggleMagnitude_15), 0 } ,
+	{ 1280, 619, offsetof(MouseConfig_t549, ___maxBFWiggleMagnitude_16), 0 } ,
+	{ 1281, 102, offsetof(MouseConfig_t549, ___minBFWiggleCycles_17), 0 } ,
+	{ 1282, 102, offsetof(MouseConfig_t549, ___maxBFWiggleCycles_18), 0 } ,
+	{ 1283, 619, offsetof(MouseConfig_t549, ___minSSWiggleMagnitude_19), 0 } ,
+	{ 1284, 619, offsetof(MouseConfig_t549, ___maxSSWiggleMagnitude_20), 0 } ,
+	{ 1285, 102, offsetof(MouseConfig_t549, ___minSSWiggleCycles_21), 0 } ,
+	{ 1286, 102, offsetof(MouseConfig_t549, ___maxSSWiggleCycles_22), 0 } ,
+	{ 1287, 619, offsetof(MouseConfig_t549, ___minRDWiggleMagnitude_23), 0 } ,
+	{ 1288, 619, offsetof(MouseConfig_t549, ___maxRDWiggleMagnitude_24), 0 } ,
+	{ 1289, 102, offsetof(MouseConfig_t549, ___minRDWiggleCycles_25), 0 } ,
+	{ 1290, 102, offsetof(MouseConfig_t549, ___maxRDWiggleCycles_26), 0 } ,
+	{ 1291, 1434, offsetof(MouseConfig_t549, ___mouseDescs_27), 0 } ,
+	{ 1292, 1435, offsetof(MouseConfig_t549, ___mouseWiggleDescs_28), 0 } ,
+	{ 231, 1436, offsetof(MouseConfig_t549_StaticFields, ___instance_29), 0 } ,
+	{ 1293, 1297, offsetof(MouseDesc_t550, ___mouseSprite_0), 0 } ,
+	{ 1097, 1297, offsetof(MouseDesc_t550, ___introScreenSprite_1), 0 } ,
+	{ 1294, 619, offsetof(MouseDesc_t550, ___speed_2), 0 } ,
+	{ 1147, 619, offsetof(MouseDesc_t550, ___scale_3), 0 } ,
+	{ 57, 90, offsetof(MouseHoleLocation_t551, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1295, 1439, 0, 0 } ,
+	{ 1296, 1439, 0, 0 } ,
+	{ 1297, 1439, 0, 0 } ,
+	{ 1298, 1439, 0, 0 } ,
+	{ 1069, 1439, 0, 0 } ,
+	{ 1299, 1392, offsetof(MouseHole_t522, ___meterOffset_2), 0 } ,
+	{ 1127, 1338, offsetof(MouseHole_t522, ___mouseHoleLocation_3), 0 } ,
+	{ 1300, 1443, offsetof(MouseHole_t522_StaticFields, ___angleBetweenHoles_4), 0 } ,
+	{ 1301, 110, offsetof(MouseHole_t522, ___savedMouseCount_5), 0 } ,
+	{ 1302, 1444, offsetof(MouseHole_t522, ___throbForEffect_6), 0 } ,
+	{ 1303, 1059, offsetof(MouseHole_t522, ___holeMeterPrototype_7), 0 } ,
+	{ 1304, 1298, offsetof(MouseHole_t522, ___mouseHoleTip_8), 0 } ,
+	{ 1305, 110, offsetof(MouseHole_t522, ___capacity_9), 0 } ,
+	{ 1053, 100, offsetof(MouseHole_t522, ___registeredForEvents_10), 0 } ,
+	{ 1306, 1445, offsetof(MouseHole_t522, ___MousePopChanged_11), 0 } ,
+	{ 1307, 1446, offsetof(MouseHole_t522, ___CapacityChanged_12), 0 } ,
+	{ 1308, 1165, offsetof(MouseMove_t557, ___mouseAngleDeg_2), 0 } ,
+	{ 1309, 1165, offsetof(MouseMove_t557, ___startAngleDeg_3), 0 } ,
+	{ 1310, 1165, offsetof(MouseMove_t557, ___endAngleDeg_4), 0 } ,
+	{ 1311, 1165, offsetof(MouseMove_t557, ___mouseRadius_5), 0 } ,
+	{ 1312, 1165, offsetof(MouseMove_t557, ___circlingRadius_6), 0 } ,
+	{ 1202, 1448, offsetof(MouseMove_t557, ___phase_7), 0 } ,
+	{ 1203, 1165, offsetof(MouseMove_t557, ___phaseStartTime_8), 0 } ,
+	{ 1313, 1165, offsetof(MouseMove_t557, ___baseSpeedM_9), 0 } ,
+	{ 1314, 1165, offsetof(MouseMove_t557, ___actualSpeedM_10), 0 } ,
+	{ 1315, 1449, offsetof(MouseMove_t557, ___spriteRenderer_11), 0 } ,
+	{ 1316, 1059, offsetof(MouseMove_t557, ___trackingStatusBarPrototype_12), 0 } ,
+	{ 1128, 100, offsetof(MouseMove_t557, ___isClockwise_13), 0 } ,
+	{ 1317, 1165, offsetof(MouseMove_t557, ___angleAdjustmentWhileRunning_14), 0 } ,
+	{ 1318, 1165, offsetof(MouseMove_t557, ___zeroCenteredAngleAdjustmentWhileRunning_15), 0 } ,
+	{ 1063, 1269, offsetof(MouseMove_t557, ___sliderInstance_16), 0 } ,
+	{ 1319, 1450, offsetof(MouseMove_t557, ___tweakableSlider_17), 0 } ,
+	{ 1320, 1451, offsetof(MouseMove_t557_StaticFields, ___activeMouseCount_18), 0 } ,
+	{ 1321, 1339, offsetof(MouseMove_t557, ___wiggleType_19), 0 } ,
+	{ 1322, 1165, offsetof(MouseMove_t557, ___wiggleMagnitude_20), 0 } ,
+	{ 1323, 1165, offsetof(MouseMove_t557, ___wiggleCycles_21), 0 } ,
+	{ 1324, 100, offsetof(MouseMove_t557, ___wiggleClockwise_22), 0 } ,
+	{ 1325, 619, offsetof(MouseMove_t557, ___minDistanceToManuallyOrient_23), 0 } ,
+	{ 1053, 100, offsetof(MouseMove_t557, ___registeredForEvents_24), 0 } ,
+	{ 1326, 1452, offsetof(MouseMove_t557, ___U3CmouseTypeU3Ek__BackingField_25), 392 } ,
+	{ 1327, 100, offsetof(MouseMove_t557, ___U3CdeadU3Ek__BackingField_26), 393 } ,
+	{ 1328, 100, offsetof(MouseMove_t557, ___U3CisPoisonedU3Ek__BackingField_27), 394 } ,
+	{ 1329, 100, offsetof(MouseMove_t557, ___U3CisFartedUponU3Ek__BackingField_28), 395 } ,
+	{ 1330, 619, offsetof(MouseSpawnFromData_t504, ___initialSpawnDelta_2), 0 } ,
+	{ 231, 1455, offsetof(MouseSpawnFromData_t504_StaticFields, ___instance_3), 0 } ,
+	{ 1331, 619, offsetof(MouseSpawnFromData_t504, ___minRandomDelay_4), 0 } ,
+	{ 1332, 619, offsetof(MouseSpawnFromData_t504, ___maxRandomDelay_5), 0 } ,
+	{ 1333, 1456, offsetof(MouseSpawnFromData_t504, ___miceDesc_6), 0 } ,
+	{ 1334, 1165, offsetof(MouseSpawnFromData_t504, ___nextSpawnTime_7), 0 } ,
+	{ 1335, 1059, offsetof(MouseSpawnFromData_t504, ___mousePrototype_8), 0 } ,
+	{ 1053, 100, offsetof(MouseSpawnFromData_t504, ___registeredForEvents_9), 0 } ,
+	{ 1336, 1457, offsetof(MouseSpawnFromData_t504, ___MouseSpawn_10), 0 } ,
+	{ 1337, 110, offsetof(MouseSpawnFromData_t504, ___U3CmiceSpawnedU3Ek__BackingField_11), 404 } ,
+	{ 1053, 100, offsetof(MouseSpawnTracker_t559, ___registeredForEvents_2), 0 } ,
+	{ 1338, 1459, offsetof(MouseSpawnTracker_t559, ___slider_3), 0 } ,
+	{ 1339, 110, offsetof(MouseSpawnTracker_t559, ___miceThisLevel_4), 0 } ,
+	{ 1097, 1297, offsetof(MouseWiggleDesc_t560, ___introScreenSprite_0), 0 } ,
+	{ 1340, 619, offsetof(MouseWiggleDesc_t560, ___minMagnitude_1), 0 } ,
+	{ 1341, 619, offsetof(MouseWiggleDesc_t560, ___maxMagnitude_2), 0 } ,
+	{ 1342, 102, offsetof(MouseWiggleDesc_t560, ___minCycles_3), 0 } ,
+	{ 1343, 102, offsetof(MouseWiggleDesc_t560, ___maxCycles_4), 0 } ,
+	{ 1053, 100, offsetof(MusicButton_t561, ___registeredForEvents_2), 0 } ,
+	{ 1344, 1463, offsetof(MusicButton_t561, ___onSprite_3), 0 } ,
+	{ 1345, 1463, offsetof(MusicButton_t561, ___offSprite_4), 0 } ,
+	{ 1346, 1422, offsetof(MusicButton_t561, ___buttonImage_5), 0 } ,
+	{ 1347, 1466, offsetof(U3CPlayMusicU3Ec__Iterator14_t564, ___music_0), 0 } ,
+	{ 18, 137, offsetof(U3CPlayMusicU3Ec__Iterator14_t564, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CPlayMusicU3Ec__Iterator14_t564, ___U24current_2), 0 } ,
+	{ 1348, 1466, offsetof(U3CPlayMusicU3Ec__Iterator14_t564, ___U3CU24U3Emusic_3), 0 } ,
+	{ 20, 1467, offsetof(U3CPlayMusicU3Ec__Iterator14_t564, ___U3CU3Ef__this_4), 0 } ,
+	{ 1053, 100, offsetof(MusicPlayer_t563, ___registeredForEvents_2), 0 } ,
+	{ 1349, 1470, offsetof(MusicPlayer_t563, ___gameMusic_3), 0 } ,
+	{ 1350, 1470, offsetof(MusicPlayer_t563, ___menuMusic_4), 0 } ,
+	{ 1351, 1471, offsetof(MusicPlayer_t563, ___currentMusic_5), 0 } ,
+	{ 1352, 1293, offsetof(MusicPlayer_t563, ___playCuedMusic_6), 0 } ,
+	{ 1211, 1473, offsetof(OnMouseEntersHole_t565, ___mouseHole_2), 0 } ,
+	{ 231, 1480, offsetof(PausedOverlay_t568_StaticFields, ___instance_2), 0 } ,
+	{ 1353, 1059, offsetof(PausedOverlay_t568, ___overlay_3), 0 } ,
+	{ 1354, 1348, offsetof(PausedOverlay_t568, ___bigPlayButton_4), 0 } ,
+	{ 1355, 1327, offsetof(PausedOverlay_t568, ___childElement_5), 0 } ,
+	{ 1053, 100, offsetof(PausedOverlay_t568, ___registeredForEvents_6), 0 } ,
+	{ 57, 90, offsetof(SwipePhase_t569, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1356, 1482, 0, 0 } ,
+	{ 1357, 1482, 0, 0 } ,
+	{ 1358, 1482, 0, 0 } ,
+	{ 1359, 1482, 0, 0 } ,
+	{ 1360, 1482, 0, 0 } ,
+	{ 1194, 1482, 0, 0 } ,
+	{ 1361, 1329, offsetof(PawController_t490, ___swipeLocationCat_2), 0 } ,
+	{ 1362, 1485, offsetof(PawController_t490, ___swipePhase_3), 0 } ,
+	{ 1363, 1165, offsetof(PawController_t490, ___pauseStarted_4), 0 } ,
+	{ 1364, 1059, offsetof(PawController_t490, ___normalPawSpriteGameObject_5), 0 } ,
+	{ 1365, 1059, offsetof(PawController_t490, ___dangerPawSpriteGameObject_6), 0 } ,
+	{ 1366, 1059, offsetof(PawController_t490, ___bigPawSpriteGameObject_7), 0 } ,
+	{ 1367, 1059, offsetof(PawController_t490, ___bigDangerPawSpriteGameObject_8), 0 } ,
+	{ 1368, 1486, offsetof(PawController_t490, ___normalCollider_9), 0 } ,
+	{ 1369, 1486, offsetof(PawController_t490, ___bigCollider_10), 0 } ,
+	{ 1370, 1165, offsetof(PawController_t490, ___swipeSpeed_11), 0 } ,
+	{ 1371, 110, offsetof(PawController_t490, ___killsThisSwipe_12), 0 } ,
+	{ 1372, 1487, offsetof(PawController_t490, ___gameController_13), 0 } ,
+	{ 1057, 100, offsetof(PawController_t490, ___registerdForEvents_14), 0 } ,
+	{ 1061, 1268, offsetof(PawController_t490, ___boostConfig_15), 0 } ,
+	{ 1373, 1154, offsetof(PawController_t490, ___pawHomeCatTransform_16), 0 } ,
+	{ 1374, 1154, offsetof(PawController_t490, ___shoulderJointCatTransform_17), 0 } ,
+	{ 1375, 1165, offsetof(PawController_t490, ___pawHomeCatTransformMagnitude_18), 0 } ,
+	{ 231, 1489, offsetof(PersistentStorage_t571_StaticFields, ___instance_2), 0 } ,
+	{ 1376, 1141, offsetof(PersistentStorage_t571_StaticFields, ___valueStoreFilePath_3), 0 } ,
+	{ 1377, 162, offsetof(PersistentStorage_t571, ___storedValues_4), 0 } ,
+	{ 57, 90, offsetof(BodyMovementType_t574, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1378, 1495, 0, 0 } ,
+	{ 1379, 1495, 0, 0 } ,
+	{ 1380, 1495, 0, 0 } ,
+	{ 1381, 1498, 0, 0 } ,
+	{ 1382, 1059, offsetof(PlayerController_t575, ___rightPawGameObject_3), 0 } ,
+	{ 1383, 1059, offsetof(PlayerController_t575, ___leftPawGameObject_4), 0 } ,
+	{ 1198, 1386, offsetof(PlayerController_t575, ___coneOfView_5), 0 } ,
+	{ 1384, 1499, offsetof(PlayerController_t575, ___headMovement_6), 0 } ,
+	{ 1385, 1059, offsetof(PlayerController_t575, ___fartPuffPrototype_7), 0 } ,
+	{ 1386, 1059, offsetof(PlayerController_t575, ___butthole_8), 0 } ,
+	{ 1387, 1500, offsetof(PlayerController_t575, ___bodyMovement_9), 0 } ,
+	{ 1388, 1165, offsetof(PlayerController_t575, ___targetTurnAngleDegrees_10), 0 } ,
+	{ 1389, 1165, offsetof(PlayerController_t575, ___currentTurnAngleDegrees_11), 0 } ,
+	{ 1390, 1329, offsetof(PlayerController_t575, ___dragAnchorCat_12), 0 } ,
+	{ 1391, 1165, offsetof(PlayerController_t575, ___dragAnchorAngleCat_13), 0 } ,
+	{ 1053, 100, offsetof(PlayerController_t575, ___registeredForEvents_14), 0 } ,
+	{ 1392, 1298, offsetof(PlayerController_t575, ___turningTip_15), 0 } ,
+	{ 1393, 619, offsetof(PlayerController_t575, ___turningTipPause_16), 0 } ,
+	{ 1394, 1165, offsetof(PlayerController_t575, ___lastFartTime_17), 0 } ,
+	{ 1395, 619, offsetof(PlayerController_t575, ___fartPause_18), 0 } ,
+	{ 1094, 1501, offsetof(PlayerController_t575_StaticFields, ___U3CinstanceU3Ek__BackingField_19), 413 } ,
+	{ 1396, 610, 0, 0 } ,
+	{ 1397, 110, offsetof(PlayerStats_t476, ___gameScore_3), 0 } ,
+	{ 1398, 110, offsetof(PlayerStats_t476, ___treatCount_4), 0 } ,
+	{ 1399, 1419, offsetof(PlayerStats_t476, ___availableBoostCount_5), 0 } ,
+	{ 1400, 1419, offsetof(PlayerStats_t476, ___purchasedBoostCount_6), 0 } ,
+	{ 1053, 100, offsetof(PlayerStats_t476, ___registeredForEvents_7), 0 } ,
+	{ 1401, 1506, offsetof(PlayerStats_t476, ___ScoreChanged_8), 0 } ,
+	{ 1402, 1507, offsetof(PlayerStats_t476, ___TreatsChanged_9), 0 } ,
+	{ 1403, 1508, offsetof(PlayerStats_t476, ___BoostsChanged_10), 0 } ,
+	{ 1094, 1509, offsetof(PlayerStats_t476_StaticFields, ___U3CinstanceU3Ek__BackingField_11), 416 } ,
+	{ 1404, 1514, 0, 0 } ,
+	{ 1405, 1515, 0, 0 } ,
+	{ 1406, 102, 0, 0 } ,
+	{ 18, 137, offsetof(U3CWaitAndShowDialogU3Ec__Iterator15_t580, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CWaitAndShowDialogU3Ec__Iterator15_t580, ___U24current_1), 0 } ,
+	{ 20, 1518, offsetof(U3CWaitAndShowDialogU3Ec__Iterator15_t580, ___U3CU3Ef__this_2), 0 } ,
+	{ 1407, 102, offsetof(RateMeController_t579, ___launchFrequency_2), 0 } ,
+	{ 1408, 619, offsetof(RateMeController_t579, ___minTimeFrequencySec_3), 0 } ,
+	{ 1409, 1059, offsetof(RateMeController_t579, ___rateMeDialogPrototype_4), 0 } ,
+	{ 1410, 619, offsetof(RateMeController_t579, ___waitToShow_5), 0 } ,
+	{ 1411, 101, offsetof(RatingsHelper_t582, ___iosAppID_2), 0 } ,
+	{ 231, 1524, offsetof(RatingsHelper_t582_StaticFields, ___instance_3), 0 } ,
+	{ 1053, 100, offsetof(SFXButton_t584, ___registeredForEvents_2), 0 } ,
+	{ 1412, 1463, offsetof(SFXButton_t584, ___soundOnSprite_3), 0 } ,
+	{ 1413, 1463, offsetof(SFXButton_t584, ___soundOffSprite_4), 0 } ,
+	{ 1346, 1422, offsetof(SFXButton_t584, ___buttonImage_5), 0 } ,
+	{ 57, 90, offsetof(SFXType_t585, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1414, 1530, 0, 0 } ,
+	{ 1415, 1530, 0, 0 } ,
+	{ 1416, 1530, 0, 0 } ,
+	{ 1417, 1530, 0, 0 } ,
+	{ 1418, 1530, 0, 0 } ,
+	{ 1419, 1530, 0, 0 } ,
+	{ 1420, 1530, 0, 0 } ,
+	{ 1421, 1530, 0, 0 } ,
+	{ 1069, 1530, 0, 0 } ,
+	{ 1422, 1533, offsetof(SFXPlayer_t588, ___audioSources_2), 0 } ,
+	{ 1053, 100, offsetof(SFXPlayer_t588, ___registeredForEvents_3), 0 } ,
+	{ 1423, 1534, offsetof(SFXPlayer_t588, ___deadMouseIds_4), 0 } ,
+	{ 1424, 1534, offsetof(SFXPlayer_t588, ___slapIds_5), 0 } ,
+	{ 1094, 1535, offsetof(SFXPlayer_t588_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 425 } ,
+	{ 1053, 100, offsetof(SFXSilencer_t589, ___registeredForEvents_2), 0 } ,
+	{ 1425, 1539, offsetof(SecretUI_t592, ___inputField_2), 0 } ,
+	{ 1426, 1540, offsetof(SecretUI_t592, ___canvasGroup_3), 0 } ,
+	{ 1427, 100, offsetof(SecretUI_t592, ___uiIsVisible_4), 0 } ,
+	{ 231, 1541, offsetof(SecretUI_t592_StaticFields, ___instance_5), 0 } ,
+	{ 1428, 619, offsetof(SizeCamera_t479, ___minWorldAspectRatio_2), 0 } ,
+	{ 1429, 619, offsetof(SizeCamera_t479, ___targetWorldHalfHeight_3), 0 } ,
+	{ 1430, 619, offsetof(SizeCamera_t479, ___screenPixelsTopToIgnore_4), 0 } ,
+	{ 1431, 619, offsetof(SizeCamera_t479, ___screenPixelsBottomToIgnore_5), 0 } ,
+	{ 18, 137, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator16_t594, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator16_t594, ___U24current_1), 0 } ,
+	{ 1432, 1548, offsetof(U3CAuthenticateU3Ec__AnonStorey19_t595, ___handler_0), 0 } ,
+	{ 1433, 1004, offsetof(U3CRecordAchievementU3Ec__AnonStorey1A_t596, ___achievementID_0), 0 } ,
+	{ 1434, 101, offsetof(SocialHelper_t597, ___leaderboardID_2), 0 } ,
+	{ 231, 1551, offsetof(SocialHelper_t597_StaticFields, ___instance_3), 0 } ,
+	{ 1435, 100, offsetof(SocialHelper_t597, ___socialHelperEnabled_4), 0 } ,
+	{ 1155, 954, offsetof(SocialHelper_t597_StaticFields, ___U3CU3Ef__amU24cache3_5), 428 } ,
+	{ 1156, 954, offsetof(SocialHelper_t597_StaticFields, ___U3CU3Ef__amU24cache4_6), 429 } ,
+	{ 1436, 1348, offsetof(SocialMediaButtons_t598, ___fbButton_2), 0 } ,
+	{ 1437, 1348, offsetof(SocialMediaButtons_t598, ___twitterButton_3), 0 } ,
+	{ 666, 1349, offsetof(SocialMediaButtons_t598_StaticFields, ___U3CU3Ef__amU24cache2_4), 441 } ,
+	{ 1155, 1349, offsetof(SocialMediaButtons_t598_StaticFields, ___U3CU3Ef__amU24cache3_5), 442 } ,
+	{ 1438, 610, 0, 0 } ,
+	{ 1439, 610, 0, 0 } ,
+	{ 231, 1556, offsetof(SoundController_t601_StaticFields, ___instance_4), 0 } ,
+	{ 1440, 1557, offsetof(SoundController_t601, ___SoundMuteChanged_5), 0 } ,
+	{ 1441, 1558, offsetof(SoundController_t601, ___MusicMuteChanged_6), 0 } ,
+	{ 1442, 100, offsetof(SoundController_t601, ___U3CsfxMutedU3Ek__BackingField_7), 445 } ,
+	{ 1443, 100, offsetof(SoundController_t601, ___U3CmusicMutedU3Ek__BackingField_8), 446 } ,
+	{ 1444, 100, offsetof(ThrobForEffect_t554, ___throbbing_2), 0 } ,
+	{ 1445, 1165, offsetof(ThrobForEffect_t554, ___startThrobTime_3), 0 } ,
+	{ 1446, 619, offsetof(ThrobForEffect_t554, ___throbPeriod_4), 0 } ,
+	{ 1447, 619, offsetof(ThrobForEffect_t554, ___throbScale_5), 0 } ,
+	{ 1122, 1154, offsetof(ThrobForEffect_t554, ___thingToScale_6), 0 } ,
+	{ 1123, 1329, offsetof(ThrobForEffect_t554, ___originalScale_7), 0 } ,
+	{ 231, 1562, offsetof(TimeController_t603_StaticFields, ___instance_2), 0 } ,
+	{ 1448, 1563, offsetof(TimeController_t603, ___PauseChanged_3), 0 } ,
+	{ 1449, 100, offsetof(TimeController_t603, ___U3CpausedU3Ek__BackingField_4), 451 } ,
+	{ 1450, 619, offsetof(TimedFader_t604, ___staticLifespan_2), 0 } ,
+	{ 1451, 619, offsetof(TimedFader_t604, ___fadingLifespan_3), 0 } ,
+	{ 1315, 1565, offsetof(TimedFader_t604, ___spriteRenderer_4), 0 } ,
+	{ 1452, 1165, offsetof(TimedFader_t604, ___startTime_5), 0 } ,
+	{ 1453, 101, offsetof(TipConfig_t474, ___tipID_0), 0 } ,
+	{ 1454, 101, offsetof(TipConfig_t474, ___tipText_1), 0 } ,
+	{ 1455, 1153, offsetof(TipConfig_t474, ___tipPosition_2), 0 } ,
+	{ 1221, 1289, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___tipPause_0), 0 } ,
+	{ 1100, 1569, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___tipConfig_1), 0 } ,
+	{ 18, 137, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___U24current_3), 0 } ,
+	{ 1456, 1289, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___U3CU24U3EtipPause_4), 0 } ,
+	{ 1457, 1569, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___U3CU24U3EtipConfig_5), 0 } ,
+	{ 20, 1570, offsetof(U3CPlayTipWithPauseU3Ec__Iterator17_t606, ___U3CU3Ef__this_6), 0 } ,
+	{ 1053, 100, offsetof(TipController_t605, ___registeredForEvents_2), 0 } ,
+	{ 1458, 1059, offsetof(TipController_t605, ___tipDialogPrototype_3), 0 } ,
+	{ 1459, 1293, offsetof(TipController_t605, ___enqueuedTip_4), 0 } ,
+	{ 231, 1572, offsetof(TipController_t605_StaticFields, ___instance_5), 0 } ,
+	{ 1460, 1280, offsetof(TipDialog_t607, ___dialogText_2), 0 } ,
+	{ 1461, 1575, offsetof(TrackLevel_t608, ___levelText_2), 0 } ,
+	{ 1057, 100, offsetof(TrackLevel_t608, ___registerdForEvents_3), 0 } ,
+	{ 1462, 1575, offsetof(TrackScore_t609, ___scoreText_2), 0 } ,
+	{ 1252, 1423, offsetof(TrackScore_t609, ___distortForEffect_3), 0 } ,
+	{ 1101, 1300, offsetof(TrackScore_t609, ___playerStats_4), 0 } ,
+	{ 1057, 100, offsetof(TrackScore_t609, ___registerdForEvents_5), 0 } ,
+	{ 1463, 1575, offsetof(TrackTreats_t610, ___treatsText_2), 0 } ,
+	{ 1252, 1423, offsetof(TrackTreats_t610, ___distortForEffect_3), 0 } ,
+	{ 1101, 1300, offsetof(TrackTreats_t610, ___playerStats_4), 0 } ,
+	{ 1057, 100, offsetof(TrackTreats_t610, ___registerdForEvents_5), 0 } ,
+	{ 1464, 1582, offsetof(TutsPlayerController_t612, ___animator_2), 0 } ,
+	{ 1465, 1498, 0, 0 } ,
+	{ 1466, 1498, 0, 0 } ,
+	{ 1467, 1498, 0, 0 } ,
+	{ 1468, 1498, 0, 0 } ,
+	{ 1469, 709, 0, 0 } ,
+	{ 1470, 1498, 0, 0 } ,
+	{ 1471, 1498, 0, 0 } ,
+	{ 1472, 1498, 0, 0 } ,
+	{ 1473, 1498, 0, 0 } ,
+	{ 1474, 1498, 0, 0 } ,
+	{ 1475, 1498, 0, 0 } ,
+	{ 1476, 709, 0, 0 } ,
+	{ 1477, 709, 0, 0 } ,
+	{ 1478, 709, 0, 0 } ,
+	{ 1479, 709, 0, 0 } ,
+	{ 1480, 709, 0, 0 } ,
+	{ 1481, 709, 0, 0 } ,
+	{ 1482, 709, 0, 0 } ,
+	{ 1483, 1498, 0, 0 } ,
+	{ 1484, 1498, 0, 0 } ,
+	{ 1485, 1498, 0, 0 } ,
+	{ 1486, 1498, 0, 0 } ,
+	{ 1487, 1498, 0, 0 } ,
+	{ 1488, 1422, offsetof(TweakableSlider_t556, ___fill_2), 0 } ,
+	{ 1489, 1422, offsetof(TweakableSlider_t556, ___background_3), 0 } ,
+	{ 1135, 647, 0, 0 } ,
+	{ 1137, 647, 0, 0 } ,
+	{ 231, 1588, offsetof(TwitterSharing_t614_StaticFields, ___instance_4), 0 } ,
+	{ 1139, 1050, offsetof(TwitterSharing_t614, ___lazyAngusIcon_5), 0 } ,
+	{ 1061, 1268, offsetof(UseBoost_t615, ___boostConfig_2), 0 } ,
+	{ 1101, 1300, offsetof(UseBoost_t615, ___playerStats_3), 0 } ,
+	{ 1490, 1004, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___appURL_0), 0 } ,
+	{ 1491, 1004, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___webURL_1), 0 } ,
+	{ 18, 137, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___U24current_3), 0 } ,
+	{ 1492, 1004, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___U3CU24U3EappURL_4), 0 } ,
+	{ 1493, 1004, offsetof(U3CLaunchAppOrWebU3Ec__Iterator18_t616, ___U3CU24U3EwebURL_5), 0 } ,
+	{ 1494, 610, 0, 0 } ,
+	{ 1490, 610, 0, 0 } ,
+	{ 1495, 1597, offsetof(Utilities_t617_StaticFields, ___epoch_2), 0 } ,
+	{ 1496, 1327, offsetof(WorldObjectFollower_t619, ___objectToFollow_2), 0 } ,
+	{ 1497, 1599, offsetof(WorldObjectFollower_t619, ___myRectTransform_3), 0 } ,
+	{ 1498, 1600, offsetof(WorldObjectFollower_t619, ___worldCanvas_4), 0 } ,
+	{ 1102, 1601, offsetof(WorldObjectFollower_t619, ___worldCamera_5), 0 } ,
+	{ 1499, 1165, offsetof(WorldObjectFollower_t619, ___canvasWidth_6), 0 } ,
+	{ 1500, 1165, offsetof(WorldObjectFollower_t619, ___canvasHeight_7), 0 } ,
+	{ 1501, 100, offsetof(WorldObjectFollower_t619, ___followeeMoves_8), 0 } ,
+	{ 1502, 100, offsetof(WorldObjectFollower_t619, ___positionDirty_9), 0 } ,
+	{ 1208, 1392, offsetof(WorldObjectFollower_t619, ___offset_10), 0 } ,
+	{ 1503, 619, offsetof(WorldObjectFollower_t619, ___rotation_11), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
 static const Il2CppFieldDefaultValue s_DefaultValues[690] = 
 {
-	{ 61, 58, 0 },
-	{ 62, 58, 4 },
-	{ 63, 58, 8 },
-	{ 64, 58, 12 },
-	{ 65, 58, 16 },
-	{ 66, 58, 20 },
-	{ 67, 58, 24 },
-	{ 68, 58, 28 },
-	{ 69, 58, 32 },
-	{ 70, 58, 36 },
-	{ 71, 58, 40 },
-	{ 72, 58, 44 },
-	{ 73, 58, 48 },
-	{ 74, 58, 52 },
-	{ 75, 58, 56 },
-	{ 76, 58, 60 },
-	{ 77, 58, 64 },
-	{ 78, 58, 68 },
-	{ 79, 58, 72 },
-	{ 80, 58, 76 },
-	{ 81, 58, 80 },
-	{ 82, 58, 84 },
-	{ 83, 58, 88 },
-	{ 84, 58, 92 },
-	{ 85, 58, 96 },
-	{ 86, 58, 100 },
-	{ 87, 58, 104 },
-	{ 88, 58, 108 },
-	{ 89, 58, 112 },
-	{ 90, 58, 116 },
-	{ 91, 58, 120 },
-	{ 92, 58, 124 },
-	{ 93, 58, 128 },
-	{ 94, 58, 132 },
-	{ 95, 58, 136 },
-	{ 96, 58, 140 },
-	{ 97, 58, 144 },
-	{ 98, 58, 148 },
-	{ 99, 58, 152 },
-	{ 100, 58, 156 },
-	{ 101, 58, 160 },
-	{ 102, 58, 164 },
-	{ 103, 58, 168 },
-	{ 104, 58, 172 },
-	{ 105, 58, 176 },
-	{ 106, 58, 180 },
-	{ 107, 58, 184 },
-	{ 108, 58, 188 },
-	{ 109, 58, 192 },
-	{ 110, 58, 196 },
-	{ 111, 58, 200 },
-	{ 112, 58, 204 },
-	{ 113, 58, 208 },
-	{ 114, 58, 212 },
-	{ 115, 58, 216 },
-	{ 116, 58, 220 },
-	{ 117, 58, 224 },
-	{ 118, 58, 228 },
-	{ 119, 58, 232 },
-	{ 120, 58, 236 },
-	{ 121, 58, 240 },
-	{ 122, 58, 244 },
-	{ 123, 58, 248 },
-	{ 124, 58, 252 },
-	{ 125, 58, 256 },
-	{ 126, 58, 260 },
-	{ 127, 58, 264 },
-	{ 128, 58, 268 },
-	{ 129, 58, 272 },
-	{ 130, 58, 276 },
-	{ 131, 58, 280 },
-	{ 132, 58, 284 },
-	{ 133, 58, 288 },
-	{ 134, 58, 292 },
-	{ 135, 58, 296 },
-	{ 136, 58, 300 },
-	{ 137, 58, 304 },
-	{ 138, 58, 308 },
-	{ 139, 58, 312 },
-	{ 140, 58, 316 },
-	{ 141, 58, 320 },
-	{ 142, 58, 324 },
-	{ 143, 58, 328 },
-	{ 144, 58, 332 },
-	{ 145, 58, 336 },
-	{ 146, 58, 340 },
-	{ 147, 58, 344 },
-	{ 148, 58, 348 },
-	{ 149, 58, 352 },
-	{ 150, 58, 356 },
-	{ 151, 58, 360 },
-	{ 152, 58, 364 },
-	{ 153, 58, 368 },
-	{ 154, 58, 372 },
-	{ 155, 58, 376 },
-	{ 156, 58, 380 },
-	{ 157, 58, 384 },
-	{ 158, 58, 388 },
-	{ 159, 58, 392 },
-	{ 160, 58, 396 },
-	{ 161, 58, 400 },
-	{ 162, 58, 404 },
-	{ 163, 58, 408 },
-	{ 164, 58, 412 },
-	{ 165, 58, 416 },
-	{ 166, 58, 420 },
-	{ 167, 58, 424 },
-	{ 168, 58, 428 },
-	{ 169, 58, 432 },
-	{ 170, 58, 436 },
-	{ 171, 58, 440 },
-	{ 172, 58, 444 },
-	{ 173, 58, 448 },
-	{ 174, 58, 452 },
-	{ 175, 58, 456 },
-	{ 176, 58, 460 },
-	{ 177, 58, 464 },
-	{ 178, 58, 468 },
-	{ 179, 58, 472 },
-	{ 180, 58, 476 },
-	{ 181, 58, 480 },
-	{ 182, 58, 484 },
-	{ 183, 58, 488 },
-	{ 184, 58, 492 },
-	{ 185, 58, 496 },
-	{ 186, 58, 500 },
-	{ 187, 58, 504 },
-	{ 188, 58, 508 },
-	{ 189, 58, 512 },
-	{ 190, 58, 516 },
-	{ 191, 58, 520 },
-	{ 192, 58, 524 },
-	{ 193, 58, 528 },
-	{ 194, 58, 532 },
-	{ 195, 58, 536 },
-	{ 196, 58, 540 },
-	{ 197, 58, 544 },
-	{ 198, 58, 548 },
-	{ 199, 58, 552 },
-	{ 200, 58, 556 },
-	{ 201, 58, 560 },
-	{ 202, 58, 564 },
-	{ 203, 58, 568 },
-	{ 204, 58, 572 },
-	{ 205, 58, 576 },
-	{ 206, 58, 580 },
-	{ 207, 58, 584 },
-	{ 208, 58, 588 },
-	{ 209, 58, 592 },
-	{ 210, 58, 596 },
-	{ 211, 58, 600 },
-	{ 218, 9, 604 },
-	{ 219, 9, 613 },
-	{ 220, 9, 623 },
-	{ 221, 9, 633 },
-	{ 222, 9, 644 },
-	{ 223, 9, 656 },
-	{ 224, 9, 671 },
-	{ 225, 9, 677 },
-	{ 226, 9, 684 },
-	{ 227, 9, 692 },
-	{ 228, 9, 701 },
-	{ 229, 9, 710 },
-	{ 230, 9, 726 },
-	{ 231, 9, 747 },
-	{ 267, 9, 769 },
-	{ 268, 9, 776 },
-	{ 269, 9, 787 },
-	{ 270, 9, 813 },
-	{ 271, 9, 852 },
-	{ 306, 9, 862 },
-	{ 346, 9, 867 },
-	{ 363, 9, 872 },
-	{ 380, 9, 877 },
-	{ 381, 9, 916 },
-	{ 382, 9, 965 },
-	{ 383, 9, 1016 },
-	{ 384, 9, 1063 },
-	{ 385, 9, 1110 },
-	{ 386, 9, 1162 },
-	{ 387, 9, 1209 },
-	{ 388, 9, 1256 },
-	{ 389, 9, 1309 },
-	{ 390, 9, 1351 },
-	{ 391, 9, 1395 },
-	{ 392, 9, 1441 },
-	{ 393, 9, 1507 },
-	{ 394, 9, 1562 },
-	{ 395, 9, 1598 },
-	{ 396, 9, 1603 },
-	{ 397, 9, 1616 },
-	{ 398, 9, 1623 },
-	{ 399, 9, 1681 },
-	{ 400, 9, 1712 },
-	{ 401, 9, 1719 },
-	{ 402, 9, 1728 },
-	{ 403, 9, 1746 },
-	{ 404, 9, 1787 },
-	{ 421, 58, 1797 },
-	{ 422, 58, 1801 },
-	{ 423, 58, 1805 },
-	{ 424, 58, 1809 },
-	{ 425, 58, 1813 },
-	{ 426, 58, 1817 },
-	{ 427, 58, 1821 },
-	{ 428, 58, 1825 },
-	{ 429, 58, 1829 },
-	{ 430, 58, 1833 },
-	{ 431, 58, 1837 },
-	{ 432, 58, 1841 },
-	{ 433, 58, 1845 },
-	{ 434, 58, 1849 },
-	{ 435, 58, 1853 },
-	{ 436, 58, 1857 },
-	{ 437, 58, 1861 },
-	{ 438, 58, 1865 },
-	{ 439, 58, 1869 },
-	{ 440, 58, 1873 },
-	{ 441, 58, 1877 },
-	{ 442, 58, 1881 },
-	{ 443, 58, 1885 },
-	{ 444, 58, 1889 },
-	{ 445, 58, 1893 },
-	{ 446, 58, 1897 },
-	{ 447, 58, 1901 },
-	{ 448, 58, 1905 },
-	{ 449, 58, 1909 },
-	{ 450, 58, 1913 },
-	{ 451, 58, 1917 },
-	{ 452, 58, 1921 },
-	{ 453, 58, 1925 },
-	{ 454, 58, 1929 },
-	{ 456, 58, 1933 },
-	{ 457, 58, 1937 },
-	{ 458, 58, 1941 },
-	{ 459, 58, 1945 },
-	{ 460, 58, 1949 },
-	{ 461, 58, 1953 },
-	{ 462, 58, 1957 },
-	{ 463, 58, 1961 },
-	{ 464, 58, 1965 },
-	{ 465, 58, 1969 },
-	{ 466, 58, 1973 },
-	{ 467, 58, 1977 },
-	{ 468, 58, 1981 },
-	{ 469, 58, 1985 },
-	{ 470, 58, 1989 },
-	{ 471, 58, 1993 },
-	{ 473, 58, 1997 },
-	{ 474, 58, 2001 },
-	{ 475, 58, 2005 },
-	{ 476, 58, 2009 },
-	{ 477, 58, 2013 },
-	{ 478, 58, 2017 },
-	{ 479, 58, 2021 },
-	{ 480, 58, 2025 },
-	{ 482, 58, 2029 },
-	{ 483, 58, 2033 },
-	{ 484, 58, 2037 },
-	{ 485, 58, 2041 },
-	{ 486, 58, 2045 },
-	{ 488, 58, 2049 },
-	{ 489, 58, 2053 },
-	{ 490, 58, 2057 },
-	{ 491, 58, 2061 },
-	{ 493, 58, 2065 },
-	{ 494, 58, 2069 },
-	{ 495, 58, 2073 },
-	{ 497, 58, 2077 },
-	{ 498, 58, 2081 },
-	{ 500, 58, 2085 },
-	{ 501, 58, 2089 },
-	{ 502, 58, 2093 },
-	{ 504, 58, 2097 },
-	{ 505, 58, 2101 },
-	{ 507, 58, 2105 },
-	{ 508, 58, 2109 },
-	{ 509, 58, 2113 },
-	{ 510, 58, 2117 },
-	{ 512, 58, 2121 },
-	{ 513, 58, 2125 },
-	{ 515, 58, 2129 },
-	{ 516, 58, 2133 },
-	{ 517, 58, 2137 },
-	{ 518, 58, 2141 },
-	{ 520, 58, 2145 },
-	{ 521, 58, 2149 },
-	{ 522, 58, 2153 },
-	{ 523, 58, 2157 },
-	{ 524, 58, 2161 },
-	{ 525, 58, 2165 },
-	{ 526, 58, 2169 },
-	{ 527, 58, 2173 },
-	{ 528, 58, 2177 },
-	{ 529, 58, 2181 },
-	{ 530, 58, 2185 },
-	{ 531, 58, 2189 },
-	{ 532, 58, 2193 },
-	{ 533, 58, 2197 },
-	{ 535, 58, 2201 },
-	{ 536, 58, 2205 },
-	{ 537, 58, 2209 },
-	{ 538, 58, 2213 },
-	{ 539, 58, 2217 },
-	{ 540, 58, 2221 },
-	{ 541, 58, 2225 },
-	{ 542, 58, 2229 },
-	{ 543, 58, 2233 },
-	{ 544, 58, 2237 },
-	{ 545, 58, 2241 },
-	{ 546, 58, 2245 },
-	{ 547, 58, 2249 },
-	{ 548, 58, 2253 },
-	{ 549, 58, 2257 },
-	{ 550, 58, 2261 },
-	{ 551, 58, 2265 },
-	{ 553, 58, 2269 },
-	{ 554, 58, 2273 },
-	{ 555, 58, 2277 },
-	{ 556, 58, 2281 },
-	{ 557, 58, 2285 },
-	{ 558, 58, 2289 },
-	{ 559, 58, 2293 },
-	{ 560, 58, 2297 },
-	{ 561, 58, 2301 },
-	{ 562, 58, 2305 },
-	{ 563, 58, 2309 },
-	{ 565, 58, 2313 },
-	{ 566, 58, 2317 },
-	{ 567, 58, 2321 },
-	{ 568, 58, 2325 },
-	{ 569, 58, 2329 },
-	{ 570, 58, 2333 },
-	{ 571, 58, 2337 },
-	{ 572, 58, 2341 },
-	{ 573, 58, 2345 },
-	{ 574, 58, 2349 },
-	{ 575, 58, 2353 },
-	{ 576, 58, 2357 },
-	{ 577, 58, 2361 },
-	{ 578, 58, 2365 },
-	{ 579, 58, 2369 },
-	{ 580, 58, 2373 },
-	{ 581, 58, 2377 },
-	{ 582, 58, 2381 },
-	{ 583, 58, 2385 },
-	{ 584, 58, 2389 },
-	{ 585, 58, 2393 },
-	{ 586, 58, 2397 },
-	{ 587, 58, 2401 },
-	{ 588, 58, 2405 },
-	{ 589, 58, 2409 },
-	{ 590, 58, 2413 },
-	{ 591, 58, 2417 },
-	{ 592, 58, 2421 },
-	{ 593, 58, 2425 },
-	{ 594, 58, 2429 },
-	{ 595, 58, 2433 },
-	{ 596, 58, 2437 },
-	{ 597, 58, 2441 },
-	{ 598, 58, 2445 },
-	{ 599, 58, 2449 },
-	{ 600, 58, 2453 },
-	{ 601, 58, 2457 },
-	{ 602, 58, 2461 },
-	{ 603, 58, 2465 },
-	{ 605, 58, 2469 },
-	{ 606, 58, 2473 },
-	{ 608, 58, 2477 },
-	{ 609, 58, 2481 },
-	{ 611, 58, 2485 },
-	{ 612, 58, 2489 },
-	{ 614, 58, 2493 },
-	{ 615, 58, 2497 },
-	{ 616, 58, 2501 },
-	{ 617, 58, 2505 },
-	{ 618, 58, 2509 },
-	{ 619, 58, 2513 },
-	{ 620, 58, 2517 },
-	{ 622, 58, 2521 },
-	{ 623, 58, 2525 },
-	{ 624, 58, 2529 },
-	{ 625, 58, 2533 },
-	{ 626, 58, 2537 },
-	{ 628, 58, 2541 },
-	{ 629, 58, 2545 },
-	{ 631, 58, 2549 },
-	{ 632, 58, 2553 },
-	{ 633, 58, 2557 },
-	{ 634, 58, 2561 },
-	{ 635, 58, 2565 },
-	{ 636, 58, 2569 },
-	{ 638, 58, 2573 },
-	{ 639, 58, 2577 },
-	{ 640, 58, 2581 },
-	{ 641, 58, 2585 },
-	{ 642, 58, 2589 },
-	{ 643, 58, 2593 },
-	{ 644, 58, 2597 },
-	{ 645, 58, 2601 },
-	{ 647, 58, 2605 },
-	{ 648, 58, 2609 },
-	{ 649, 58, 2613 },
-	{ 650, 58, 2617 },
-	{ 651, 58, 2621 },
-	{ 653, 58, 2625 },
-	{ 654, 58, 2629 },
-	{ 655, 58, 2633 },
-	{ 656, 58, 2637 },
-	{ 658, 58, 2641 },
-	{ 659, 58, 2645 },
-	{ 660, 9, 2649 },
-	{ 661, 9, 2668 },
-	{ 662, 9, 2696 },
-	{ 663, 9, 2721 },
-	{ 664, 9, 2742 },
-	{ 665, 9, 2760 },
-	{ 666, 9, 2778 },
-	{ 667, 9, 2793 },
-	{ 668, 9, 2817 },
-	{ 669, 9, 2839 },
-	{ 670, 9, 2859 },
-	{ 671, 9, 2887 },
-	{ 672, 9, 2910 },
-	{ 673, 9, 2936 },
-	{ 674, 9, 2967 },
-	{ 675, 9, 3001 },
-	{ 676, 9, 3034 },
-	{ 677, 9, 3068 },
-	{ 678, 9, 3089 },
-	{ 679, 9, 3112 },
-	{ 680, 9, 3143 },
-	{ 681, 9, 3166 },
-	{ 682, 9, 3189 },
-	{ 683, 9, 3222 },
-	{ 684, 9, 3251 },
-	{ 685, 9, 3288 },
-	{ 686, 9, 3317 },
-	{ 687, 9, 3346 },
-	{ 688, 9, 3385 },
-	{ 689, 9, 3411 },
-	{ 690, 9, 3429 },
-	{ 691, 9, 3457 },
-	{ 692, 9, 3482 },
-	{ 693, 9, 3502 },
-	{ 694, 9, 3530 },
-	{ 695, 9, 3548 },
-	{ 757, 58, 3563 },
-	{ 841, 58, 3567 },
-	{ 842, 58, 3571 },
-	{ 843, 58, 3575 },
-	{ 844, 58, 3579 },
-	{ 845, 58, 3583 },
-	{ 846, 58, 3587 },
-	{ 847, 58, 3591 },
-	{ 848, 58, 3595 },
-	{ 849, 58, 3599 },
-	{ 850, 58, 3603 },
-	{ 851, 58, 3607 },
-	{ 852, 58, 3611 },
-	{ 853, 9, 3615 },
-	{ 854, 9, 3623 },
-	{ 868, 58, 3638 },
-	{ 869, 58, 3642 },
-	{ 870, 58, 3646 },
-	{ 871, 58, 3650 },
-	{ 873, 58, 3654 },
-	{ 874, 58, 3658 },
-	{ 952, 58, 3662 },
-	{ 953, 58, 3666 },
-	{ 954, 58, 3670 },
-	{ 955, 58, 3674 },
-	{ 994, 9, 3678 },
-	{ 995, 9, 3696 },
-	{ 997, 58, 3711 },
-	{ 998, 58, 3715 },
-	{ 999, 58, 3719 },
-	{ 1000, 58, 3723 },
-	{ 1001, 58, 3727 },
-	{ 1026, 9, 3731 },
-	{ 1027, 9, 3757 },
-	{ 1028, 9, 3802 },
-	{ 1056, 9, 3822 },
-	{ 1057, 9, 3846 },
-	{ 1121, 9, 3875 },
-	{ 1122, 9, 3882 },
-	{ 1123, 9, 3916 },
-	{ 1124, 9, 3939 },
-	{ 1212, 9, 3949 },
-	{ 1213, 9, 3972 },
-	{ 1214, 9, 3996 },
-	{ 1215, 9, 4020 },
-	{ 1217, 58, 4045 },
-	{ 1218, 58, 4049 },
-	{ 1256, 58, 4053 },
-	{ 1257, 58, 4057 },
-	{ 1258, 58, 4061 },
-	{ 1259, 58, 4065 },
-	{ 1260, 58, 4069 },
-	{ 1261, 58, 4073 },
-	{ 1262, 58, 4077 },
-	{ 1263, 58, 4081 },
-	{ 1264, 58, 4085 },
-	{ 1265, 58, 4089 },
-	{ 1266, 58, 4093 },
-	{ 1267, 58, 4097 },
-	{ 1268, 9, 4101 },
-	{ 1273, 58, 4112 },
-	{ 1274, 58, 4116 },
-	{ 1275, 58, 4120 },
-	{ 1276, 58, 4124 },
-	{ 1277, 58, 4128 },
-	{ 1278, 58, 4132 },
-	{ 1279, 58, 4136 },
-	{ 1280, 9, 4140 },
-	{ 1311, 9, 4171 },
-	{ 1323, 58, 4189 },
-	{ 1324, 58, 4193 },
-	{ 1325, 58, 4197 },
-	{ 1326, 58, 4201 },
-	{ 1327, 58, 4205 },
-	{ 1328, 58, 4209 },
-	{ 1329, 58, 4213 },
-	{ 1330, 58, 4217 },
-	{ 1331, 58, 4221 },
-	{ 1339, 9, 4225 },
-	{ 1340, 9, 4255 },
-	{ 1361, 9, 4271 },
-	{ 1362, 9, 4299 },
-	{ 1363, 9, 4325 },
-	{ 1364, 9, 4355 },
-	{ 1365, 9, 4380 },
-	{ 1366, 9, 4409 },
-	{ 1367, 9, 4444 },
-	{ 1368, 9, 4477 },
-	{ 1369, 9, 4509 },
-	{ 1370, 9, 4531 },
-	{ 1371, 9, 4549 },
-	{ 1372, 9, 4569 },
-	{ 1373, 9, 4596 },
-	{ 1374, 9, 4630 },
-	{ 1375, 9, 4656 },
-	{ 1376, 9, 4673 },
-	{ 1377, 9, 4692 },
-	{ 1378, 9, 4707 },
-	{ 1379, 9, 4725 },
-	{ 1380, 9, 4737 },
-	{ 1381, 9, 4760 },
-	{ 1382, 9, 4776 },
-	{ 1383, 9, 4805 },
-	{ 1384, 9, 4831 },
-	{ 1385, 9, 4851 },
-	{ 1391, 58, 4865 },
-	{ 1392, 58, 4869 },
-	{ 1393, 9, 4873 },
-	{ 1398, 9, 4899 },
-	{ 1399, 9, 4919 },
-	{ 1400, 9, 4941 },
-	{ 1412, 58, 4951 },
-	{ 1413, 58, 4955 },
-	{ 1418, 9, 4959 },
-	{ 1419, 9, 4984 },
-	{ 1423, 9, 4999 },
-	{ 1424, 9, 5014 },
-	{ 1425, 9, 5022 },
-	{ 1426, 9, 5029 },
-	{ 1427, 9, 5050 },
-	{ 1428, 9, 5069 },
-	{ 1429, 9, 5091 },
-	{ 1439, 59, 5123 },
-	{ 1448, 58, 5127 },
-	{ 1449, 58, 5131 },
-	{ 1450, 9, 5135 },
-	{ 1473, 58, 5157 },
-	{ 1474, 58, 5161 },
-	{ 1475, 58, 5165 },
-	{ 1476, 58, 5169 },
-	{ 1477, 58, 5173 },
-	{ 1478, 58, 5177 },
-	{ 1479, 58, 5181 },
-	{ 1480, 58, 5185 },
-	{ 1481, 58, 5189 },
-	{ 1482, 58, 5193 },
-	{ 1483, 58, 5197 },
-	{ 1484, 58, 5201 },
-	{ 1485, 9, 5205 },
-	{ 1486, 9, 5213 },
-	{ 1503, 58, 5228 },
-	{ 1504, 58, 5232 },
-	{ 1505, 58, 5236 },
-	{ 1506, 58, 5240 },
-	{ 1528, 58, 5244 },
-	{ 1529, 58, 5248 },
-	{ 1530, 58, 5252 },
-	{ 1531, 58, 5256 },
-	{ 1532, 58, 5260 },
-	{ 1533, 58, 5264 },
-	{ 1591, 9, 5268 },
-	{ 1592, 9, 5307 },
-	{ 1593, 9, 5326 },
-	{ 1630, 58, 5353 },
-	{ 1631, 58, 5357 },
-	{ 1632, 58, 5361 },
-	{ 1633, 58, 5365 },
-	{ 1634, 58, 5369 },
-	{ 1635, 58, 5373 },
-	{ 1649, 58, 5377 },
-	{ 1650, 58, 5381 },
-	{ 1651, 58, 5385 },
-	{ 1652, 58, 5389 },
-	{ 1653, 58, 5393 },
-	{ 1666, 58, 5397 },
-	{ 1667, 58, 5401 },
-	{ 1668, 58, 5405 },
-	{ 1669, 58, 5409 },
-	{ 1670, 58, 5413 },
-	{ 1700, 58, 5417 },
-	{ 1701, 58, 5421 },
-	{ 1702, 58, 5425 },
-	{ 1703, 58, 5429 },
-	{ 1745, 58, 5433 },
-	{ 1746, 58, 5437 },
-	{ 1747, 58, 5441 },
-	{ 1748, 58, 5445 },
-	{ 1749, 58, 5449 },
-	{ 1750, 58, 5453 },
-	{ 1752, 58, 5457 },
-	{ 1753, 58, 5461 },
-	{ 1754, 58, 5465 },
-	{ 1755, 58, 5469 },
-	{ 1756, 58, 5473 },
-	{ 1758, 58, 5477 },
-	{ 1759, 58, 5481 },
-	{ 1760, 58, 5485 },
-	{ 1761, 58, 5489 },
-	{ 1762, 58, 5493 },
-	{ 1796, 58, 5497 },
-	{ 1797, 58, 5501 },
-	{ 1798, 58, 5505 },
-	{ 1799, 58, 5509 },
-	{ 1800, 58, 5513 },
-	{ 1878, 58, 5517 },
-	{ 1879, 58, 5521 },
-	{ 1880, 58, 5525 },
-	{ 1881, 58, 5529 },
-	{ 1882, 58, 5533 },
-	{ 1883, 58, 5537 },
-	{ 1905, 58, 5541 },
-	{ 1906, 58, 5545 },
-	{ 1907, 58, 5549 },
-	{ 1908, 59, 5553 },
-	{ 1926, 9, 5557 },
-	{ 1953, 58, 5570 },
-	{ 1954, 58, 5574 },
-	{ 1955, 58, 5578 },
-	{ 1956, 58, 5582 },
-	{ 1957, 58, 5586 },
-	{ 1958, 58, 5590 },
-	{ 1959, 58, 5594 },
-	{ 1960, 58, 5598 },
-	{ 1961, 58, 5602 },
-	{ 1989, 9, 5606 },
-	{ 1990, 9, 5618 },
-	{ 2035, 59, 5632 },
-	{ 2036, 59, 5636 },
-	{ 2037, 59, 5640 },
-	{ 2038, 59, 5644 },
-	{ 2039, 58, 5648 },
-	{ 2040, 59, 5652 },
-	{ 2041, 59, 5656 },
-	{ 2042, 59, 5660 },
-	{ 2043, 59, 5664 },
-	{ 2044, 59, 5668 },
-	{ 2045, 59, 5672 },
-	{ 2046, 58, 5676 },
-	{ 2047, 58, 5680 },
-	{ 2048, 58, 5684 },
-	{ 2049, 58, 5688 },
-	{ 2050, 58, 5692 },
-	{ 2051, 58, 5696 },
-	{ 2052, 58, 5700 },
-	{ 2053, 59, 5704 },
-	{ 2054, 59, 5708 },
-	{ 2055, 59, 5712 },
-	{ 2056, 59, 5716 },
-	{ 2057, 59, 5720 },
-	{ 2060, 9, 5724 },
-	{ 2061, 9, 5759 },
-	{ 2072, 9, 5777 },
-	{ 2073, 9, 5856 },
+	{ 58, 75, 0 },
+	{ 59, 75, 4 },
+	{ 60, 75, 8 },
+	{ 61, 75, 12 },
+	{ 62, 75, 16 },
+	{ 63, 75, 20 },
+	{ 64, 75, 24 },
+	{ 65, 75, 28 },
+	{ 66, 75, 32 },
+	{ 67, 75, 36 },
+	{ 68, 75, 40 },
+	{ 69, 75, 44 },
+	{ 70, 75, 48 },
+	{ 71, 75, 52 },
+	{ 72, 75, 56 },
+	{ 73, 75, 60 },
+	{ 74, 75, 64 },
+	{ 75, 75, 68 },
+	{ 76, 75, 72 },
+	{ 77, 75, 76 },
+	{ 78, 75, 80 },
+	{ 79, 75, 84 },
+	{ 80, 75, 88 },
+	{ 81, 75, 92 },
+	{ 82, 75, 96 },
+	{ 83, 75, 100 },
+	{ 84, 75, 104 },
+	{ 85, 75, 108 },
+	{ 86, 75, 112 },
+	{ 87, 75, 116 },
+	{ 88, 75, 120 },
+	{ 89, 75, 124 },
+	{ 90, 75, 128 },
+	{ 91, 75, 132 },
+	{ 92, 75, 136 },
+	{ 93, 75, 140 },
+	{ 94, 75, 144 },
+	{ 95, 75, 148 },
+	{ 96, 75, 152 },
+	{ 97, 75, 156 },
+	{ 98, 75, 160 },
+	{ 99, 75, 164 },
+	{ 100, 75, 168 },
+	{ 101, 75, 172 },
+	{ 102, 75, 176 },
+	{ 103, 75, 180 },
+	{ 104, 75, 184 },
+	{ 105, 75, 188 },
+	{ 106, 75, 192 },
+	{ 107, 75, 196 },
+	{ 108, 75, 200 },
+	{ 109, 75, 204 },
+	{ 110, 75, 208 },
+	{ 111, 75, 212 },
+	{ 112, 75, 216 },
+	{ 113, 75, 220 },
+	{ 114, 75, 224 },
+	{ 115, 75, 228 },
+	{ 116, 75, 232 },
+	{ 117, 75, 236 },
+	{ 118, 75, 240 },
+	{ 119, 75, 244 },
+	{ 120, 75, 248 },
+	{ 121, 75, 252 },
+	{ 122, 75, 256 },
+	{ 123, 75, 260 },
+	{ 124, 75, 264 },
+	{ 125, 75, 268 },
+	{ 126, 75, 272 },
+	{ 127, 75, 276 },
+	{ 128, 75, 280 },
+	{ 129, 75, 284 },
+	{ 130, 75, 288 },
+	{ 131, 75, 292 },
+	{ 132, 75, 296 },
+	{ 133, 75, 300 },
+	{ 134, 75, 304 },
+	{ 135, 75, 308 },
+	{ 136, 75, 312 },
+	{ 137, 75, 316 },
+	{ 138, 75, 320 },
+	{ 139, 75, 324 },
+	{ 140, 75, 328 },
+	{ 141, 75, 332 },
+	{ 142, 75, 336 },
+	{ 143, 75, 340 },
+	{ 144, 75, 344 },
+	{ 145, 75, 348 },
+	{ 146, 75, 352 },
+	{ 147, 75, 356 },
+	{ 148, 75, 360 },
+	{ 149, 75, 364 },
+	{ 150, 75, 368 },
+	{ 151, 75, 372 },
+	{ 152, 75, 376 },
+	{ 153, 75, 380 },
+	{ 154, 75, 384 },
+	{ 155, 75, 388 },
+	{ 156, 75, 392 },
+	{ 157, 75, 396 },
+	{ 158, 75, 400 },
+	{ 159, 75, 404 },
+	{ 160, 75, 408 },
+	{ 161, 75, 412 },
+	{ 162, 75, 416 },
+	{ 163, 75, 420 },
+	{ 164, 75, 424 },
+	{ 165, 75, 428 },
+	{ 166, 75, 432 },
+	{ 167, 75, 436 },
+	{ 168, 75, 440 },
+	{ 169, 75, 444 },
+	{ 170, 75, 448 },
+	{ 171, 75, 452 },
+	{ 172, 75, 456 },
+	{ 173, 75, 460 },
+	{ 174, 75, 464 },
+	{ 175, 75, 468 },
+	{ 176, 75, 472 },
+	{ 177, 75, 476 },
+	{ 178, 75, 480 },
+	{ 179, 75, 484 },
+	{ 180, 75, 488 },
+	{ 181, 75, 492 },
+	{ 182, 75, 496 },
+	{ 183, 75, 500 },
+	{ 184, 75, 504 },
+	{ 185, 75, 508 },
+	{ 186, 75, 512 },
+	{ 187, 75, 516 },
+	{ 188, 75, 520 },
+	{ 189, 75, 524 },
+	{ 190, 75, 528 },
+	{ 191, 75, 532 },
+	{ 192, 75, 536 },
+	{ 193, 75, 540 },
+	{ 194, 75, 544 },
+	{ 195, 75, 548 },
+	{ 196, 75, 552 },
+	{ 197, 75, 556 },
+	{ 198, 75, 560 },
+	{ 199, 75, 564 },
+	{ 200, 75, 568 },
+	{ 201, 75, 572 },
+	{ 202, 75, 576 },
+	{ 203, 75, 580 },
+	{ 204, 75, 584 },
+	{ 205, 75, 588 },
+	{ 206, 75, 592 },
+	{ 207, 75, 596 },
+	{ 208, 75, 600 },
+	{ 215, 14, 604 },
+	{ 216, 14, 613 },
+	{ 217, 14, 623 },
+	{ 218, 14, 633 },
+	{ 219, 14, 644 },
+	{ 220, 14, 656 },
+	{ 221, 14, 671 },
+	{ 222, 14, 677 },
+	{ 223, 14, 684 },
+	{ 224, 14, 692 },
+	{ 225, 14, 701 },
+	{ 226, 14, 710 },
+	{ 227, 14, 726 },
+	{ 228, 14, 747 },
+	{ 264, 14, 769 },
+	{ 265, 14, 776 },
+	{ 266, 14, 787 },
+	{ 267, 14, 813 },
+	{ 268, 14, 852 },
+	{ 303, 14, 862 },
+	{ 343, 14, 867 },
+	{ 360, 14, 872 },
+	{ 377, 14, 877 },
+	{ 378, 14, 916 },
+	{ 379, 14, 965 },
+	{ 380, 14, 1016 },
+	{ 381, 14, 1063 },
+	{ 382, 14, 1110 },
+	{ 383, 14, 1162 },
+	{ 384, 14, 1209 },
+	{ 385, 14, 1256 },
+	{ 386, 14, 1309 },
+	{ 387, 14, 1351 },
+	{ 388, 14, 1395 },
+	{ 389, 14, 1441 },
+	{ 390, 14, 1507 },
+	{ 391, 14, 1562 },
+	{ 392, 14, 1598 },
+	{ 393, 14, 1603 },
+	{ 394, 14, 1616 },
+	{ 395, 14, 1623 },
+	{ 396, 14, 1681 },
+	{ 397, 14, 1712 },
+	{ 398, 14, 1719 },
+	{ 399, 14, 1728 },
+	{ 400, 14, 1746 },
+	{ 401, 14, 1787 },
+	{ 418, 75, 1797 },
+	{ 419, 75, 1801 },
+	{ 420, 75, 1805 },
+	{ 421, 75, 1809 },
+	{ 422, 75, 1813 },
+	{ 423, 75, 1817 },
+	{ 424, 75, 1821 },
+	{ 425, 75, 1825 },
+	{ 426, 75, 1829 },
+	{ 427, 75, 1833 },
+	{ 428, 75, 1837 },
+	{ 429, 75, 1841 },
+	{ 430, 75, 1845 },
+	{ 431, 75, 1849 },
+	{ 432, 75, 1853 },
+	{ 433, 75, 1857 },
+	{ 434, 75, 1861 },
+	{ 435, 75, 1865 },
+	{ 436, 75, 1869 },
+	{ 437, 75, 1873 },
+	{ 438, 75, 1877 },
+	{ 439, 75, 1881 },
+	{ 440, 75, 1885 },
+	{ 441, 75, 1889 },
+	{ 442, 75, 1893 },
+	{ 443, 75, 1897 },
+	{ 444, 75, 1901 },
+	{ 445, 75, 1905 },
+	{ 446, 75, 1909 },
+	{ 447, 75, 1913 },
+	{ 448, 75, 1917 },
+	{ 449, 75, 1921 },
+	{ 450, 75, 1925 },
+	{ 451, 75, 1929 },
+	{ 453, 75, 1933 },
+	{ 454, 75, 1937 },
+	{ 455, 75, 1941 },
+	{ 456, 75, 1945 },
+	{ 457, 75, 1949 },
+	{ 458, 75, 1953 },
+	{ 459, 75, 1957 },
+	{ 460, 75, 1961 },
+	{ 461, 75, 1965 },
+	{ 462, 75, 1969 },
+	{ 463, 75, 1973 },
+	{ 464, 75, 1977 },
+	{ 465, 75, 1981 },
+	{ 466, 75, 1985 },
+	{ 467, 75, 1989 },
+	{ 468, 75, 1993 },
+	{ 470, 75, 1997 },
+	{ 471, 75, 2001 },
+	{ 472, 75, 2005 },
+	{ 473, 75, 2009 },
+	{ 474, 75, 2013 },
+	{ 475, 75, 2017 },
+	{ 476, 75, 2021 },
+	{ 477, 75, 2025 },
+	{ 479, 75, 2029 },
+	{ 480, 75, 2033 },
+	{ 481, 75, 2037 },
+	{ 482, 75, 2041 },
+	{ 483, 75, 2045 },
+	{ 485, 75, 2049 },
+	{ 486, 75, 2053 },
+	{ 487, 75, 2057 },
+	{ 488, 75, 2061 },
+	{ 490, 75, 2065 },
+	{ 491, 75, 2069 },
+	{ 492, 75, 2073 },
+	{ 494, 75, 2077 },
+	{ 495, 75, 2081 },
+	{ 497, 75, 2085 },
+	{ 498, 75, 2089 },
+	{ 499, 75, 2093 },
+	{ 501, 75, 2097 },
+	{ 502, 75, 2101 },
+	{ 504, 75, 2105 },
+	{ 505, 75, 2109 },
+	{ 506, 75, 2113 },
+	{ 507, 75, 2117 },
+	{ 509, 75, 2121 },
+	{ 510, 75, 2125 },
+	{ 512, 75, 2129 },
+	{ 513, 75, 2133 },
+	{ 514, 75, 2137 },
+	{ 515, 75, 2141 },
+	{ 517, 75, 2145 },
+	{ 518, 75, 2149 },
+	{ 519, 75, 2153 },
+	{ 520, 75, 2157 },
+	{ 521, 75, 2161 },
+	{ 522, 75, 2165 },
+	{ 523, 75, 2169 },
+	{ 524, 75, 2173 },
+	{ 525, 75, 2177 },
+	{ 526, 75, 2181 },
+	{ 527, 75, 2185 },
+	{ 528, 75, 2189 },
+	{ 529, 75, 2193 },
+	{ 530, 75, 2197 },
+	{ 532, 75, 2201 },
+	{ 533, 75, 2205 },
+	{ 534, 75, 2209 },
+	{ 535, 75, 2213 },
+	{ 536, 75, 2217 },
+	{ 537, 75, 2221 },
+	{ 538, 75, 2225 },
+	{ 539, 75, 2229 },
+	{ 540, 75, 2233 },
+	{ 541, 75, 2237 },
+	{ 542, 75, 2241 },
+	{ 543, 75, 2245 },
+	{ 544, 75, 2249 },
+	{ 545, 75, 2253 },
+	{ 546, 75, 2257 },
+	{ 547, 75, 2261 },
+	{ 548, 75, 2265 },
+	{ 550, 75, 2269 },
+	{ 551, 75, 2273 },
+	{ 552, 75, 2277 },
+	{ 553, 75, 2281 },
+	{ 554, 75, 2285 },
+	{ 555, 75, 2289 },
+	{ 556, 75, 2293 },
+	{ 557, 75, 2297 },
+	{ 558, 75, 2301 },
+	{ 559, 75, 2305 },
+	{ 560, 75, 2309 },
+	{ 562, 75, 2313 },
+	{ 563, 75, 2317 },
+	{ 564, 75, 2321 },
+	{ 565, 75, 2325 },
+	{ 566, 75, 2329 },
+	{ 567, 75, 2333 },
+	{ 568, 75, 2337 },
+	{ 569, 75, 2341 },
+	{ 570, 75, 2345 },
+	{ 571, 75, 2349 },
+	{ 572, 75, 2353 },
+	{ 573, 75, 2357 },
+	{ 574, 75, 2361 },
+	{ 575, 75, 2365 },
+	{ 576, 75, 2369 },
+	{ 577, 75, 2373 },
+	{ 578, 75, 2377 },
+	{ 579, 75, 2381 },
+	{ 580, 75, 2385 },
+	{ 581, 75, 2389 },
+	{ 582, 75, 2393 },
+	{ 583, 75, 2397 },
+	{ 584, 75, 2401 },
+	{ 585, 75, 2405 },
+	{ 586, 75, 2409 },
+	{ 587, 75, 2413 },
+	{ 588, 75, 2417 },
+	{ 589, 75, 2421 },
+	{ 590, 75, 2425 },
+	{ 591, 75, 2429 },
+	{ 592, 75, 2433 },
+	{ 593, 75, 2437 },
+	{ 594, 75, 2441 },
+	{ 595, 75, 2445 },
+	{ 596, 75, 2449 },
+	{ 597, 75, 2453 },
+	{ 598, 75, 2457 },
+	{ 599, 75, 2461 },
+	{ 600, 75, 2465 },
+	{ 602, 75, 2469 },
+	{ 603, 75, 2473 },
+	{ 605, 75, 2477 },
+	{ 606, 75, 2481 },
+	{ 608, 75, 2485 },
+	{ 609, 75, 2489 },
+	{ 611, 75, 2493 },
+	{ 612, 75, 2497 },
+	{ 613, 75, 2501 },
+	{ 614, 75, 2505 },
+	{ 615, 75, 2509 },
+	{ 616, 75, 2513 },
+	{ 617, 75, 2517 },
+	{ 619, 75, 2521 },
+	{ 620, 75, 2525 },
+	{ 621, 75, 2529 },
+	{ 622, 75, 2533 },
+	{ 623, 75, 2537 },
+	{ 625, 75, 2541 },
+	{ 626, 75, 2545 },
+	{ 628, 75, 2549 },
+	{ 629, 75, 2553 },
+	{ 630, 75, 2557 },
+	{ 631, 75, 2561 },
+	{ 632, 75, 2565 },
+	{ 633, 75, 2569 },
+	{ 635, 75, 2573 },
+	{ 636, 75, 2577 },
+	{ 637, 75, 2581 },
+	{ 638, 75, 2585 },
+	{ 639, 75, 2589 },
+	{ 640, 75, 2593 },
+	{ 641, 75, 2597 },
+	{ 642, 75, 2601 },
+	{ 644, 75, 2605 },
+	{ 645, 75, 2609 },
+	{ 646, 75, 2613 },
+	{ 647, 75, 2617 },
+	{ 648, 75, 2621 },
+	{ 650, 75, 2625 },
+	{ 651, 75, 2629 },
+	{ 652, 75, 2633 },
+	{ 653, 75, 2637 },
+	{ 655, 75, 2641 },
+	{ 656, 75, 2645 },
+	{ 657, 14, 2649 },
+	{ 658, 14, 2668 },
+	{ 659, 14, 2696 },
+	{ 660, 14, 2721 },
+	{ 661, 14, 2742 },
+	{ 662, 14, 2760 },
+	{ 663, 14, 2778 },
+	{ 664, 14, 2793 },
+	{ 665, 14, 2817 },
+	{ 666, 14, 2839 },
+	{ 667, 14, 2859 },
+	{ 668, 14, 2887 },
+	{ 669, 14, 2910 },
+	{ 670, 14, 2936 },
+	{ 671, 14, 2967 },
+	{ 672, 14, 3001 },
+	{ 673, 14, 3034 },
+	{ 674, 14, 3068 },
+	{ 675, 14, 3089 },
+	{ 676, 14, 3112 },
+	{ 677, 14, 3143 },
+	{ 678, 14, 3166 },
+	{ 679, 14, 3189 },
+	{ 680, 14, 3222 },
+	{ 681, 14, 3251 },
+	{ 682, 14, 3288 },
+	{ 683, 14, 3317 },
+	{ 684, 14, 3346 },
+	{ 685, 14, 3385 },
+	{ 686, 14, 3411 },
+	{ 687, 14, 3429 },
+	{ 688, 14, 3457 },
+	{ 689, 14, 3482 },
+	{ 690, 14, 3502 },
+	{ 691, 14, 3530 },
+	{ 692, 14, 3548 },
+	{ 754, 75, 3563 },
+	{ 838, 75, 3567 },
+	{ 839, 75, 3571 },
+	{ 840, 75, 3575 },
+	{ 841, 75, 3579 },
+	{ 842, 75, 3583 },
+	{ 843, 75, 3587 },
+	{ 844, 75, 3591 },
+	{ 845, 75, 3595 },
+	{ 846, 75, 3599 },
+	{ 847, 75, 3603 },
+	{ 848, 75, 3607 },
+	{ 849, 75, 3611 },
+	{ 850, 14, 3615 },
+	{ 851, 14, 3623 },
+	{ 865, 75, 3638 },
+	{ 866, 75, 3642 },
+	{ 867, 75, 3646 },
+	{ 868, 75, 3650 },
+	{ 870, 75, 3654 },
+	{ 871, 75, 3658 },
+	{ 949, 75, 3662 },
+	{ 950, 75, 3666 },
+	{ 951, 75, 3670 },
+	{ 952, 75, 3674 },
+	{ 991, 14, 3678 },
+	{ 992, 14, 3696 },
+	{ 994, 75, 3711 },
+	{ 995, 75, 3715 },
+	{ 996, 75, 3719 },
+	{ 997, 75, 3723 },
+	{ 998, 75, 3727 },
+	{ 1023, 14, 3731 },
+	{ 1024, 14, 3757 },
+	{ 1025, 14, 3802 },
+	{ 1053, 14, 3822 },
+	{ 1054, 14, 3846 },
+	{ 1118, 14, 3875 },
+	{ 1119, 14, 3882 },
+	{ 1120, 14, 3916 },
+	{ 1121, 14, 3939 },
+	{ 1209, 14, 3949 },
+	{ 1210, 14, 3972 },
+	{ 1211, 14, 3996 },
+	{ 1212, 14, 4020 },
+	{ 1214, 75, 4045 },
+	{ 1215, 75, 4049 },
+	{ 1253, 75, 4053 },
+	{ 1254, 75, 4057 },
+	{ 1255, 75, 4061 },
+	{ 1256, 75, 4065 },
+	{ 1257, 75, 4069 },
+	{ 1258, 75, 4073 },
+	{ 1259, 75, 4077 },
+	{ 1260, 75, 4081 },
+	{ 1261, 75, 4085 },
+	{ 1262, 75, 4089 },
+	{ 1263, 75, 4093 },
+	{ 1264, 75, 4097 },
+	{ 1265, 14, 4101 },
+	{ 1270, 75, 4112 },
+	{ 1271, 75, 4116 },
+	{ 1272, 75, 4120 },
+	{ 1273, 75, 4124 },
+	{ 1274, 75, 4128 },
+	{ 1275, 75, 4132 },
+	{ 1276, 75, 4136 },
+	{ 1277, 14, 4140 },
+	{ 1308, 14, 4171 },
+	{ 1320, 75, 4189 },
+	{ 1321, 75, 4193 },
+	{ 1322, 75, 4197 },
+	{ 1323, 75, 4201 },
+	{ 1324, 75, 4205 },
+	{ 1325, 75, 4209 },
+	{ 1326, 75, 4213 },
+	{ 1327, 75, 4217 },
+	{ 1328, 75, 4221 },
+	{ 1336, 14, 4225 },
+	{ 1337, 14, 4255 },
+	{ 1358, 14, 4271 },
+	{ 1359, 14, 4299 },
+	{ 1360, 14, 4325 },
+	{ 1361, 14, 4355 },
+	{ 1362, 14, 4380 },
+	{ 1363, 14, 4409 },
+	{ 1364, 14, 4444 },
+	{ 1365, 14, 4477 },
+	{ 1366, 14, 4509 },
+	{ 1367, 14, 4531 },
+	{ 1368, 14, 4549 },
+	{ 1369, 14, 4569 },
+	{ 1370, 14, 4596 },
+	{ 1371, 14, 4630 },
+	{ 1372, 14, 4656 },
+	{ 1373, 14, 4673 },
+	{ 1374, 14, 4692 },
+	{ 1375, 14, 4707 },
+	{ 1376, 14, 4725 },
+	{ 1377, 14, 4737 },
+	{ 1378, 14, 4760 },
+	{ 1379, 14, 4776 },
+	{ 1380, 14, 4805 },
+	{ 1381, 14, 4831 },
+	{ 1382, 14, 4851 },
+	{ 1388, 75, 4865 },
+	{ 1389, 75, 4869 },
+	{ 1390, 14, 4873 },
+	{ 1395, 14, 4899 },
+	{ 1396, 14, 4919 },
+	{ 1397, 14, 4941 },
+	{ 1409, 75, 4951 },
+	{ 1410, 75, 4955 },
+	{ 1415, 14, 4959 },
+	{ 1416, 14, 4984 },
+	{ 1420, 14, 4999 },
+	{ 1421, 14, 5014 },
+	{ 1422, 14, 5022 },
+	{ 1423, 14, 5029 },
+	{ 1424, 14, 5050 },
+	{ 1425, 14, 5069 },
+	{ 1426, 14, 5091 },
+	{ 1436, 66, 5123 },
+	{ 1445, 75, 5127 },
+	{ 1446, 75, 5131 },
+	{ 1447, 14, 5135 },
+	{ 1470, 75, 5157 },
+	{ 1471, 75, 5161 },
+	{ 1472, 75, 5165 },
+	{ 1473, 75, 5169 },
+	{ 1474, 75, 5173 },
+	{ 1475, 75, 5177 },
+	{ 1476, 75, 5181 },
+	{ 1477, 75, 5185 },
+	{ 1478, 75, 5189 },
+	{ 1479, 75, 5193 },
+	{ 1480, 75, 5197 },
+	{ 1481, 75, 5201 },
+	{ 1482, 14, 5205 },
+	{ 1483, 14, 5213 },
+	{ 1504, 75, 5228 },
+	{ 1505, 75, 5232 },
+	{ 1506, 75, 5236 },
+	{ 1507, 75, 5240 },
+	{ 1529, 75, 5244 },
+	{ 1530, 75, 5248 },
+	{ 1531, 75, 5252 },
+	{ 1532, 75, 5256 },
+	{ 1533, 75, 5260 },
+	{ 1534, 75, 5264 },
+	{ 1595, 14, 5268 },
+	{ 1596, 14, 5307 },
+	{ 1597, 14, 5326 },
+	{ 1634, 75, 5353 },
+	{ 1635, 75, 5357 },
+	{ 1636, 75, 5361 },
+	{ 1637, 75, 5365 },
+	{ 1638, 75, 5369 },
+	{ 1639, 75, 5373 },
+	{ 1653, 75, 5377 },
+	{ 1654, 75, 5381 },
+	{ 1655, 75, 5385 },
+	{ 1656, 75, 5389 },
+	{ 1657, 75, 5393 },
+	{ 1677, 75, 5397 },
+	{ 1678, 75, 5401 },
+	{ 1679, 75, 5405 },
+	{ 1680, 75, 5409 },
+	{ 1681, 75, 5413 },
+	{ 1711, 75, 5417 },
+	{ 1712, 75, 5421 },
+	{ 1713, 75, 5425 },
+	{ 1714, 75, 5429 },
+	{ 1756, 75, 5433 },
+	{ 1757, 75, 5437 },
+	{ 1758, 75, 5441 },
+	{ 1759, 75, 5445 },
+	{ 1760, 75, 5449 },
+	{ 1761, 75, 5453 },
+	{ 1763, 75, 5457 },
+	{ 1764, 75, 5461 },
+	{ 1765, 75, 5465 },
+	{ 1766, 75, 5469 },
+	{ 1767, 75, 5473 },
+	{ 1769, 75, 5477 },
+	{ 1770, 75, 5481 },
+	{ 1771, 75, 5485 },
+	{ 1772, 75, 5489 },
+	{ 1773, 75, 5493 },
+	{ 1807, 75, 5497 },
+	{ 1808, 75, 5501 },
+	{ 1809, 75, 5505 },
+	{ 1810, 75, 5509 },
+	{ 1811, 75, 5513 },
+	{ 1889, 75, 5517 },
+	{ 1890, 75, 5521 },
+	{ 1891, 75, 5525 },
+	{ 1892, 75, 5529 },
+	{ 1893, 75, 5533 },
+	{ 1894, 75, 5537 },
+	{ 1916, 75, 5541 },
+	{ 1917, 75, 5545 },
+	{ 1918, 75, 5549 },
+	{ 1919, 66, 5553 },
+	{ 1937, 14, 5557 },
+	{ 1964, 75, 5570 },
+	{ 1965, 75, 5574 },
+	{ 1966, 75, 5578 },
+	{ 1967, 75, 5582 },
+	{ 1968, 75, 5586 },
+	{ 1969, 75, 5590 },
+	{ 1970, 75, 5594 },
+	{ 1971, 75, 5598 },
+	{ 1972, 75, 5602 },
+	{ 2000, 14, 5606 },
+	{ 2001, 14, 5618 },
+	{ 2046, 66, 5632 },
+	{ 2047, 66, 5636 },
+	{ 2048, 66, 5640 },
+	{ 2049, 66, 5644 },
+	{ 2050, 75, 5648 },
+	{ 2051, 66, 5652 },
+	{ 2052, 66, 5656 },
+	{ 2053, 66, 5660 },
+	{ 2054, 66, 5664 },
+	{ 2055, 66, 5668 },
+	{ 2056, 66, 5672 },
+	{ 2057, 75, 5676 },
+	{ 2058, 75, 5680 },
+	{ 2059, 75, 5684 },
+	{ 2060, 75, 5688 },
+	{ 2061, 75, 5692 },
+	{ 2062, 75, 5696 },
+	{ 2063, 75, 5700 },
+	{ 2064, 66, 5704 },
+	{ 2065, 66, 5708 },
+	{ 2066, 66, 5712 },
+	{ 2067, 66, 5716 },
+	{ 2068, 66, 5720 },
+	{ 2071, 14, 5724 },
+	{ 2072, 14, 5759 },
+	{ 2083, 14, 5777 },
+	{ 2084, 14, 5856 },
 };
 static const uint8_t s_DefaultValueDataTable[5885] = 
 {
@@ -11773,17 +11801,17 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	 "Assembly-CSharp.dll" ,
 	&g_AssemblyU2DCSharp_Assembly,
 	g_AssemblyU2DCSharp_Assembly_Types,
-	394,
+	397,
 	NULL,
 	s_StringTable,
-	1499,
+	1504,
 	s_FieldTable,
-	2085,
+	2096,
 	s_DefaultValues,
 	690,
 	s_DefaultValueDataTable,
 	5885,
-	454,
+	466,
 	NULL,
 	g_AssemblyU2DCSharp_Assembly_AttributeGenerators,
 };

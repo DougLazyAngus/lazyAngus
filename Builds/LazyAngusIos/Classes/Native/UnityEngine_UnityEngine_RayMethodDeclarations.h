@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Ray
-struct Ray_t661;
+struct Ray_t705;
 // System.String
 struct String_t;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.Ray::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Ray__ctor_m6294 (Ray_t661 * __this, Vector3_t451  ___origin, Vector3_t451  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Ray__ctor_m8894 (Ray_t705 * __this, Vector3_t494  ___origin, Vector3_t494  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::get_origin()
-extern "C" Vector3_t451  Ray_get_origin_m5243 (Ray_t661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t494  Ray_get_origin_m5531 (Ray_t705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::get_direction()
-extern "C" Vector3_t451  Ray_get_direction_m5244 (Ray_t661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t494  Ray_get_direction_m5532 (Ray_t705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::GetPoint(System.Single)
-extern "C" Vector3_t451  Ray_GetPoint_m5410 (Ray_t661 * __this, float ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t494  Ray_GetPoint_m5698 (Ray_t705 * __this, float ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Ray::ToString()
-extern "C" String_t* Ray_ToString_m6295 (Ray_t661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Ray_ToString_m8895 (Ray_t705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

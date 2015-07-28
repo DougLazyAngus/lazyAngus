@@ -1,38 +1,38 @@
 ﻿#pragma once
 #include <stdint.h>
 // DefaultPreviewButton[]
-struct DefaultPreviewButtonU5BU5D_t308;
+struct DefaultPreviewButtonU5BU5D_t348;
 // DefaultPreviewButton
-struct DefaultPreviewButton_t309;
+struct DefaultPreviewButton_t349;
 // SA_Texture
-struct SA_Texture_t310;
+struct SA_Texture_t350;
 // SA_Label
-struct SA_Label_t311;
+struct SA_Label_t351;
 // System.String
 struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MSP_FacebookAndroidTurnBasedAndGiftsExample
-struct  MSP_FacebookAndroidTurnBasedAndGiftsExample_t319  : public MonoBehaviour_t66
+struct  MSP_FacebookAndroidTurnBasedAndGiftsExample_t359  : public MonoBehaviour_t13
 {
 	// DefaultPreviewButton[] MSP_FacebookAndroidTurnBasedAndGiftsExample::ConnectionDependedntButtons
-	DefaultPreviewButtonU5BU5D_t308* ___ConnectionDependedntButtons_4;
+	DefaultPreviewButtonU5BU5D_t348* ___ConnectionDependedntButtons_4;
 	// DefaultPreviewButton MSP_FacebookAndroidTurnBasedAndGiftsExample::connectButton
-	DefaultPreviewButton_t309 * ___connectButton_5;
+	DefaultPreviewButton_t349 * ___connectButton_5;
 	// SA_Texture MSP_FacebookAndroidTurnBasedAndGiftsExample::avatar
-	SA_Texture_t310 * ___avatar_6;
+	SA_Texture_t350 * ___avatar_6;
 	// SA_Label MSP_FacebookAndroidTurnBasedAndGiftsExample::Location
-	SA_Label_t311 * ___Location_7;
+	SA_Label_t351 * ___Location_7;
 	// SA_Label MSP_FacebookAndroidTurnBasedAndGiftsExample::Language
-	SA_Label_t311 * ___Language_8;
+	SA_Label_t351 * ___Language_8;
 	// SA_Label MSP_FacebookAndroidTurnBasedAndGiftsExample::Mail
-	SA_Label_t311 * ___Mail_9;
+	SA_Label_t351 * ___Mail_9;
 	// SA_Label MSP_FacebookAndroidTurnBasedAndGiftsExample::Name
-	SA_Label_t311 * ___Name_10;
+	SA_Label_t351 * ___Name_10;
 	// System.String MSP_FacebookAndroidTurnBasedAndGiftsExample::BombItemId
 	String_t* ___BombItemId_11;
 };
-struct MSP_FacebookAndroidTurnBasedAndGiftsExample_t319_StaticFields{
+struct MSP_FacebookAndroidTurnBasedAndGiftsExample_t359_StaticFields{
 	// System.Boolean MSP_FacebookAndroidTurnBasedAndGiftsExample::IsUserInfoLoaded
 	bool ___IsUserInfoLoaded_2;
 	// System.Boolean MSP_FacebookAndroidTurnBasedAndGiftsExample::IsAuntificated

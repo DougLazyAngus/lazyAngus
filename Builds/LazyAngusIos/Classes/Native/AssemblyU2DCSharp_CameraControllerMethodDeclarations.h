@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CameraController
-struct CameraController_t65;
+struct CameraController_t480;
 
 // System.Void CameraController::.ctor()
-extern "C" void CameraController__ctor_m254 (CameraController_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraController__ctor_m2624 (CameraController_t480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void CameraController::Start()
-extern "C" void CameraController_Start_m255 (CameraController_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraController_Start_m2625 (CameraController_t480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

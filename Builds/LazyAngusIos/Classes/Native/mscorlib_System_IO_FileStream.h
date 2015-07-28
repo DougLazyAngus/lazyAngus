@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.IO.Stream
@@ -11,7 +11,7 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.IO.FileStream
-struct  FileStream_t32  : public Stream_t24
+struct  FileStream_t62  : public Stream_t51
 {
 	// System.IO.FileAccess System.IO.FileStream::access
 	int32_t ___access_1;
@@ -26,7 +26,7 @@ struct  FileStream_t32  : public Stream_t24
 	// System.Boolean System.IO.FileStream::anonymous
 	bool ___anonymous_6;
 	// System.Byte[] System.IO.FileStream::buf
-	ByteU5BU5D_t36* ___buf_7;
+	ByteU5BU5D_t66* ___buf_7;
 	// System.Int32 System.IO.FileStream::buf_size
 	int32_t ___buf_size_8;
 	// System.Int32 System.IO.FileStream::buf_length

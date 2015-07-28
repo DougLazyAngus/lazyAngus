@@ -3,17 +3,17 @@
 // System.String
 struct String_t;
 // System.String[]
-struct StringU5BU5D_t45;
+struct StringU5BU5D_t75;
 // System.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t2170;
+struct UriSchemeU5BU5D_t4122;
 // System.UriParser
-struct UriParser_t2167;
+struct UriParser_t4119;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t183;
+struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Uri
-struct  Uri_t656  : public Object_t
+struct  Uri_t700  : public Object_t
 {
 	// System.Boolean System.Uri::isUnixFilePath
 	bool ___isUnixFilePath_1;
@@ -40,7 +40,7 @@ struct  Uri_t656  : public Object_t
 	// System.Boolean System.Uri::isAbsoluteUri
 	bool ___isAbsoluteUri_12;
 	// System.String[] System.Uri::segments
-	StringU5BU5D_t45* ___segments_13;
+	StringU5BU5D_t75* ___segments_13;
 	// System.Boolean System.Uri::userEscaped
 	bool ___userEscaped_14;
 	// System.String System.Uri::cachedAbsoluteUri
@@ -52,9 +52,9 @@ struct  Uri_t656  : public Object_t
 	// System.Int32 System.Uri::cachedHashCode
 	int32_t ___cachedHashCode_18;
 	// System.UriParser System.Uri::parser
-	UriParser_t2167 * ___parser_32;
+	UriParser_t4119 * ___parser_32;
 };
-struct Uri_t656_StaticFields{
+struct Uri_t700_StaticFields{
 	// System.String System.Uri::hexUpperChars
 	String_t* ___hexUpperChars_19;
 	// System.String System.Uri::SchemeDelimiter
@@ -80,15 +80,15 @@ struct Uri_t656_StaticFields{
 	// System.String System.Uri::UriSchemeNetTcp
 	String_t* ___UriSchemeNetTcp_30;
 	// System.Uri/UriScheme[] System.Uri::schemes
-	UriSchemeU5BU5D_t2170* ___schemes_31;
+	UriSchemeU5BU5D_t4122* ___schemes_31;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map12
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map12_33;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map12_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map13
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map13_34;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map13_34;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map14
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map14_35;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map14_35;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map15
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map15_36;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map15_36;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map16
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map16_37;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map16_37;
 };

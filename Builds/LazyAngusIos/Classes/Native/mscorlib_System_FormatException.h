@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.FormatException
-struct  FormatException_t1313  : public SystemException_t1628
+struct  FormatException_t2873  : public SystemException_t3173
 {
 };

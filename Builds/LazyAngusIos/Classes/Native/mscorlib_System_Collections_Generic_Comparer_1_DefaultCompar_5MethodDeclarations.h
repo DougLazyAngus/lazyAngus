@@ -4,14 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UILineInfo>
-struct DefaultComparer_t3940;
-// UnityEngine.UILineInfo
-#include "UnityEngine_UnityEngine_UILineInfo.h"
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Byte>
+struct DefaultComparer_t6295;
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UILineInfo>::.ctor()
-extern "C" void DefaultComparer__ctor_m26429_gshared (DefaultComparer_t3940 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m26429(__this, method) (( void (*) (DefaultComparer_t3940 *, const MethodInfo*))DefaultComparer__ctor_m26429_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UILineInfo>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m26430_gshared (DefaultComparer_t3940 * __this, UILineInfo_t968  ___x, UILineInfo_t968  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m26430(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t3940 *, UILineInfo_t968 , UILineInfo_t968 , const MethodInfo*))DefaultComparer_Compare_m26430_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Byte>::.ctor()
+extern "C" void DefaultComparer__ctor_m35020_gshared (DefaultComparer_t6295 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m35020(__this, method) (( void (*) (DefaultComparer_t6295 *, const MethodInfo*))DefaultComparer__ctor_m35020_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Byte>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m35021_gshared (DefaultComparer_t6295 * __this, uint8_t ___x, uint8_t ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m35021(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t6295 *, uint8_t, uint8_t, const MethodInfo*))DefaultComparer_Compare_m35021_gshared)(__this, ___x, ___y, method)

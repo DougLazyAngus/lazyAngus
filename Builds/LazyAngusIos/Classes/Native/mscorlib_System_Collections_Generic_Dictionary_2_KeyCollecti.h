@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator_.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,SimpleJSON.JSONNode>
-struct  Enumerator_t46 
+struct  Enumerator_t76 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,SimpleJSON.JSONNode>::host_enumerator
-	Enumerator_t13  ___host_enumerator_0;
+	Enumerator_t40  ___host_enumerator_0;
 };

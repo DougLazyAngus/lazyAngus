@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.String[]
-struct StringU5BU5D_t45;
+struct StringU5BU5D_t75;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Xml.XmlException
-struct  XmlException_t1627  : public SystemException_t1628
+struct  XmlException_t3172  : public SystemException_t3173
 {
 	// System.Int32 System.Xml.XmlException::lineNumber
 	int32_t ___lineNumber_11;
@@ -18,5 +18,5 @@ struct  XmlException_t1627  : public SystemException_t1628
 	// System.String System.Xml.XmlException::res
 	String_t* ___res_14;
 	// System.String[] System.Xml.XmlException::messages
-	StringU5BU5D_t45* ___messages_15;
+	StringU5BU5D_t75* ___messages_15;
 };

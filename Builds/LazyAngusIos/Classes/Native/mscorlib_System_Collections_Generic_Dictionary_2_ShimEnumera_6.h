@@ -2,11 +2,11 @@
 #include <stdint.h>
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__43.h"
-// System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Int32>
-struct  ShimEnumerator_t4162  : public Object_t
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__51.h"
+// System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Double>
+struct  ShimEnumerator_t7008  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Int32>::host_enumerator
-	Enumerator_t4157  ___host_enumerator_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Double>::host_enumerator
+	Enumerator_t7002  ___host_enumerator_0;
 };

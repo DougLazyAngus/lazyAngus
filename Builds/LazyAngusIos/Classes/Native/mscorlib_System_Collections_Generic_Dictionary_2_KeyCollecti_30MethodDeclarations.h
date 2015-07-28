@@ -4,52 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>
-struct KeyCollection_t3592;
+// System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>
+struct KeyCollection_t5555;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.String,TweetTemplate>
-struct Dictionary_2_t276;
-// System.String
-struct String_t;
-// System.Collections.Generic.IEnumerator`1<System.String>
-struct IEnumerator_1_t4230;
+// System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
+struct Dictionary_2_t291;
+// System.Collections.Generic.IEnumerator`1<FacebookProfileImageSize>
+struct IEnumerator_1_t8787;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
-// System.String[]
-struct StringU5BU5D_t45;
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,TweetTemplate>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_72.h"
+struct IEnumerator_t48;
+// FacebookProfileImageSize[]
+struct FacebookProfileImageSizeU5BU5D_t5550;
+// FacebookProfileImageSize
+#include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<FacebookProfileImageSize,UnityEngine.Texture2D>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_110.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_9MethodDeclarations.h"
-#define KeyCollection__ctor_m21234(__this, ___dictionary, method) (( void (*) (KeyCollection_t3592 *, Dictionary_2_t276 *, const MethodInfo*))KeyCollection__ctor_m17741_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m21235(__this, ___item, method) (( void (*) (KeyCollection_t3592 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m17742_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TKey>.Clear()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m21236(__this, method) (( void (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m17743_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m21237(__this, ___item, method) (( bool (*) (KeyCollection_t3592 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m17744_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m21238(__this, ___item, method) (( bool (*) (KeyCollection_t3592 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m17745_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m21239(__this, method) (( Object_t* (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m17746_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define KeyCollection_System_Collections_ICollection_CopyTo_m21240(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3592 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m17747_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.IEnumerable.GetEnumerator()
-#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m21241(__this, method) (( Object_t * (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m17748_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m21242(__this, method) (( bool (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m17749_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.ICollection.get_IsSynchronized()
-#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m21243(__this, method) (( bool (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m17750_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::System.Collections.ICollection.get_SyncRoot()
-#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m21244(__this, method) (( Object_t * (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m17751_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::CopyTo(TKey[],System.Int32)
-#define KeyCollection_CopyTo_m21245(__this, ___array, ___index, method) (( void (*) (KeyCollection_t3592 *, StringU5BU5D_t45*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m17752_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::GetEnumerator()
-#define KeyCollection_GetEnumerator_m21246(__this, method) (( Enumerator_t4399  (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_GetEnumerator_m17753_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::get_Count()
-#define KeyCollection_get_Count_m21247(__this, method) (( int32_t (*) (KeyCollection_t3592 *, const MethodInfo*))KeyCollection_get_Count_m17754_gshared)(__this, method)
+#define KeyCollection__ctor_m24957(__this, ___dictionary, method) (( void (*) (KeyCollection_t5555 *, Dictionary_2_t291 *, const MethodInfo*))KeyCollection__ctor_m20908_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24958(__this, ___item, method) (( void (*) (KeyCollection_t5555 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m20909_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<TKey>.Clear()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m24959(__this, method) (( void (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m20910_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m24960(__this, ___item, method) (( bool (*) (KeyCollection_t5555 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m20911_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m24961(__this, ___item, method) (( bool (*) (KeyCollection_t5555 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m20912_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m24962(__this, method) (( Object_t* (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m20913_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m24963(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5555 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m20914_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.IEnumerable.GetEnumerator()
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m24964(__this, method) (( Object_t * (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m20915_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m24965(__this, method) (( bool (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m20916_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.ICollection.get_IsSynchronized()
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m24966(__this, method) (( bool (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m20917_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.ICollection.get_SyncRoot()
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m24967(__this, method) (( Object_t * (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m20918_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::CopyTo(TKey[],System.Int32)
+#define KeyCollection_CopyTo_m24968(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5555 *, FacebookProfileImageSizeU5BU5D_t5550*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20919_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::GetEnumerator()
+#define KeyCollection_GetEnumerator_m24969(__this, method) (( Enumerator_t8788  (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_GetEnumerator_m20920_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>::get_Count()
+#define KeyCollection_get_Count_m24970(__this, method) (( int32_t (*) (KeyCollection_t5555 *, const MethodInfo*))KeyCollection_get_Count_m20921_gshared)(__this, method)

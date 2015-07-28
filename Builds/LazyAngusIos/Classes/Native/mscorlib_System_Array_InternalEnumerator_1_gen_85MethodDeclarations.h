@@ -4,27 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>
-struct InternalEnumerator_1_t4163;
+// System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>
+struct InternalEnumerator_1_t8336;
 // System.Object
 struct Object_t;
+// UnityEngine.iOS.LocalNotification
+struct LocalNotification_t2703;
 // System.Array
 struct Array_t;
-// System.Text.RegularExpressions.Mark
-#include "System_System_Text_RegularExpressions_Mark.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m29035_gshared (InternalEnumerator_1_t4163 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m29035(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4163 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m29035_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29036_gshared (InternalEnumerator_1_t4163 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29036(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4163 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29036_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m29037_gshared (InternalEnumerator_1_t4163 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m29037(__this, method) (( void (*) (InternalEnumerator_1_t4163 *, const MethodInfo*))InternalEnumerator_1_Dispose_m29037_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m29038_gshared (InternalEnumerator_1_t4163 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m29038(__this, method) (( bool (*) (InternalEnumerator_1_t4163 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m29038_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Mark>::get_Current()
-extern "C" Mark_t2133  InternalEnumerator_1_get_Current_m29039_gshared (InternalEnumerator_1_t4163 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m29039(__this, method) (( Mark_t2133  (*) (InternalEnumerator_1_t4163 *, const MethodInfo*))InternalEnumerator_1_get_Current_m29039_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m59868(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8336 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20878_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m59869(__this, method) (( void (*) (InternalEnumerator_1_t8336 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20879_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m59870(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8336 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20880_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::Dispose()
+#define InternalEnumerator_1_Dispose_m59871(__this, method) (( void (*) (InternalEnumerator_1_t8336 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20881_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m59872(__this, method) (( bool (*) (InternalEnumerator_1_t8336 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20882_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::get_Current()
+#define InternalEnumerator_1_get_Current_m59873(__this, method) (( LocalNotification_t2703 * (*) (InternalEnumerator_1_t8336 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20883_gshared)(__this, method)

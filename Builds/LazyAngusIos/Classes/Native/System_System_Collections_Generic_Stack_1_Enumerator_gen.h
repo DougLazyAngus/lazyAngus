@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Stack`1<System.Object>
-struct Stack_1_t3367;
+struct Stack_1_t5367;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.Stack`1/Enumerator<System.Object>
-struct  Enumerator_t3369 
+struct  Enumerator_t5368 
 {
 	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<System.Object>::parent
-	Stack_1_t3367 * ___parent_0;
+	Stack_1_t5367 * ___parent_0;
 	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Object>::idx
 	int32_t ___idx_1;
 	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Object>::_version

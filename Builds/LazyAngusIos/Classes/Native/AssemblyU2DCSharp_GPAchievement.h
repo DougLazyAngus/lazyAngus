@@ -9,7 +9,7 @@ struct String_t;
 // GPAchievementState
 #include "AssemblyU2DCSharp_GPAchievementState.h"
 // GPAchievement
-struct  GPAchievement_t180  : public Object_t
+struct  GPAchievement_t220  : public Object_t
 {
 	// System.String GPAchievement::_id
 	String_t* ____id_0;

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.OperatingSystem
-struct OperatingSystem_t2783;
+struct OperatingSystem_t4754;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Environment
-struct  Environment_t2784  : public Object_t
+struct  Environment_t4755  : public Object_t
 {
 };
-struct Environment_t2784_StaticFields{
+struct Environment_t4755_StaticFields{
 	// System.OperatingSystem System.Environment::os
-	OperatingSystem_t2783 * ___os_0;
+	OperatingSystem_t4754 * ___os_0;
 };

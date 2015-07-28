@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.HttpRequestCreator
-struct  HttpRequestCreator_t2038  : public Object_t
+struct  HttpRequestCreator_t3994  : public Object_t
 {
 };

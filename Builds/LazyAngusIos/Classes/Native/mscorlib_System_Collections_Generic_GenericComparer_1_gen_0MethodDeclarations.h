@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>
-struct GenericComparer_1_t2881;
+struct GenericComparer_1_t4849;
 // System.DateTimeOffset
 #include "mscorlib_System_DateTimeOffset.h"
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::.ctor()
-extern "C" void GenericComparer_1__ctor_m16484_gshared (GenericComparer_1_t2881 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m16484(__this, method) (( void (*) (GenericComparer_1_t2881 *, const MethodInfo*))GenericComparer_1__ctor_m16484_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m19854_gshared (GenericComparer_1_t4849 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m19854(__this, method) (( void (*) (GenericComparer_1_t4849 *, const MethodInfo*))GenericComparer_1__ctor_m19854_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m29340_gshared (GenericComparer_1_t2881 * __this, DateTimeOffset_t1328  ___x, DateTimeOffset_t1328  ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m29340(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t2881 *, DateTimeOffset_t1328 , DateTimeOffset_t1328 , const MethodInfo*))GenericComparer_1_Compare_m29340_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m63478_gshared (GenericComparer_1_t4849 * __this, DateTimeOffset_t2887  ___x, DateTimeOffset_t2887  ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m63478(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t4849 *, DateTimeOffset_t2887 , DateTimeOffset_t2887 , const MethodInfo*))GenericComparer_1_Compare_m63478_gshared)(__this, ___x, ___y, method)

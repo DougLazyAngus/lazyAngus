@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Net.WebConnection
-struct WebConnection_t2047;
+struct WebConnection_t4002;
 // System.Net.HttpWebRequest
-struct HttpWebRequest_t1806;
+struct HttpWebRequest_t3802;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t1810;
+struct ManualResetEvent_t3320;
 // System.IO.MemoryStream
-struct MemoryStream_t35;
+struct MemoryStream_t65;
 // System.Object
 struct Object_t;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.Net.WebConnectionStream
-struct  WebConnectionStream_t2043  : public Stream_t24
+struct  WebConnectionStream_t3998  : public Stream_t51
 {
 	// System.Boolean System.Net.WebConnectionStream::isRead
 	bool ___isRead_2;
 	// System.Net.WebConnection System.Net.WebConnectionStream::cnc
-	WebConnection_t2047 * ___cnc_3;
+	WebConnection_t4002 * ___cnc_3;
 	// System.Net.HttpWebRequest System.Net.WebConnectionStream::request
-	HttpWebRequest_t1806 * ___request_4;
+	HttpWebRequest_t3802 * ___request_4;
 	// System.Byte[] System.Net.WebConnectionStream::readBuffer
-	ByteU5BU5D_t36* ___readBuffer_5;
+	ByteU5BU5D_t66* ___readBuffer_5;
 	// System.Int32 System.Net.WebConnectionStream::readBufferOffset
 	int32_t ___readBufferOffset_6;
 	// System.Int32 System.Net.WebConnectionStream::readBufferSize
@@ -42,17 +42,17 @@ struct  WebConnectionStream_t2043  : public Stream_t24
 	// System.Int32 System.Net.WebConnectionStream::pendingWrites
 	int32_t ___pendingWrites_13;
 	// System.Threading.ManualResetEvent System.Net.WebConnectionStream::pending
-	ManualResetEvent_t1810 * ___pending_14;
+	ManualResetEvent_t3320 * ___pending_14;
 	// System.Boolean System.Net.WebConnectionStream::allowBuffering
 	bool ___allowBuffering_15;
 	// System.Boolean System.Net.WebConnectionStream::sendChunked
 	bool ___sendChunked_16;
 	// System.IO.MemoryStream System.Net.WebConnectionStream::writeBuffer
-	MemoryStream_t35 * ___writeBuffer_17;
+	MemoryStream_t65 * ___writeBuffer_17;
 	// System.Boolean System.Net.WebConnectionStream::requestWritten
 	bool ___requestWritten_18;
 	// System.Byte[] System.Net.WebConnectionStream::headers
-	ByteU5BU5D_t36* ___headers_19;
+	ByteU5BU5D_t66* ___headers_19;
 	// System.Boolean System.Net.WebConnectionStream::disposed
 	bool ___disposed_20;
 	// System.Boolean System.Net.WebConnectionStream::headersSent
@@ -70,7 +70,7 @@ struct  WebConnectionStream_t2043  : public Stream_t24
 	// System.Int32 System.Net.WebConnectionStream::write_timeout
 	int32_t ___write_timeout_27;
 };
-struct WebConnectionStream_t2043_StaticFields{
+struct WebConnectionStream_t3998_StaticFields{
 	// System.Byte[] System.Net.WebConnectionStream::crlf
-	ByteU5BU5D_t36* ___crlf_1;
+	ByteU5BU5D_t66* ___crlf_1;
 };

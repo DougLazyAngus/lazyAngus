@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJSON.JSON
-struct JSON_t20;
+struct JSON_t47;
 // SimpleJSON.JSONNode
-struct JSONNode_t2;
+struct JSONNode_t29;
 // System.String
 struct String_t;
 
 // SimpleJSON.JSONNode SimpleJSON.JSON::Parse(System.String)
-extern "C" JSONNode_t2 * JSON_Parse_m159 (Object_t * __this /* static, unused */, String_t* ___aJSON, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" JSONNode_t29 * JSON_Parse_m352 (Object_t * __this /* static, unused */, String_t* ___aJSON, const MethodInfo* method) IL2CPP_METHOD_ATTR;

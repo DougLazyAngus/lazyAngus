@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>
-struct  InternalEnumerator_1_t4114 
+// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.AchievementDescription>
+struct  InternalEnumerator_1_t8299 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::array
+	// System.Array System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.AchievementDescription>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.AchievementDescription>::idx
 	int32_t ___idx_1;
 };

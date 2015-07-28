@@ -5,7 +5,7 @@
 // GP_TBM_MatchesSortOrder
 #include "AssemblyU2DCSharp_GP_TBM_MatchesSortOrder.h"
 // GP_TBM_MatchesSortOrder
-struct  GP_TBM_MatchesSortOrder_t171 
+struct  GP_TBM_MatchesSortOrder_t211 
 {
 	// System.Int32 GP_TBM_MatchesSortOrder::value__
 	int32_t ___value___1;

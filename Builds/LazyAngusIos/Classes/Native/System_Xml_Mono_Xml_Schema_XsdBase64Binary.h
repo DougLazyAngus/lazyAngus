@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
 // Mono.Xml.Schema.XsdBase64Binary
-struct  XsdBase64Binary_t1528  : public XsdString_t1498
+struct  XsdBase64Binary_t3074  : public XsdString_t3044
 {
 };
-struct XsdBase64Binary_t1528_StaticFields{
+struct XsdBase64Binary_t3074_StaticFields{
 	// System.String Mono.Xml.Schema.XsdBase64Binary::ALPHABET
 	String_t* ___ALPHABET_61;
 	// System.Byte[] Mono.Xml.Schema.XsdBase64Binary::decodeTable
-	ByteU5BU5D_t36* ___decodeTable_62;
+	ByteU5BU5D_t66* ___decodeTable_62;
 };

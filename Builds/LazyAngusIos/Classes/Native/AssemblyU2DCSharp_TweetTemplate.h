@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // TweetTemplate
-struct  TweetTemplate_t283  : public Object_t
+struct  TweetTemplate_t323  : public Object_t
 {
 	// System.String TweetTemplate::id
 	String_t* ___id_0;

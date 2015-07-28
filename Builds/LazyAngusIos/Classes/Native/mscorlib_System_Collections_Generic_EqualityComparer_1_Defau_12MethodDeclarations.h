@@ -4,17 +4,15 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Guid>
-struct DefaultComparer_t4219;
-// System.Guid
-#include "mscorlib_System_Guid.h"
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Double>
+struct DefaultComparer_t6676;
 
-// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Guid>::.ctor()
-extern "C" void DefaultComparer__ctor_m29375_gshared (DefaultComparer_t4219 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m29375(__this, method) (( void (*) (DefaultComparer_t4219 *, const MethodInfo*))DefaultComparer__ctor_m29375_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Guid>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m29376_gshared (DefaultComparer_t4219 * __this, Guid_t44  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m29376(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t4219 *, Guid_t44 , const MethodInfo*))DefaultComparer_GetHashCode_m29376_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Guid>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m29377_gshared (DefaultComparer_t4219 * __this, Guid_t44  ___x, Guid_t44  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m29377(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t4219 *, Guid_t44 , Guid_t44 , const MethodInfo*))DefaultComparer_Equals_m29377_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Double>::.ctor()
+extern "C" void DefaultComparer__ctor_m39998_gshared (DefaultComparer_t6676 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m39998(__this, method) (( void (*) (DefaultComparer_t6676 *, const MethodInfo*))DefaultComparer__ctor_m39998_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Double>::GetHashCode(T)
+extern "C" int32_t DefaultComparer_GetHashCode_m39999_gshared (DefaultComparer_t6676 * __this, double ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m39999(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t6676 *, double, const MethodInfo*))DefaultComparer_GetHashCode_m39999_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Double>::Equals(T,T)
+extern "C" bool DefaultComparer_Equals_m40000_gshared (DefaultComparer_t6676 * __this, double ___x, double ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m40000(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t6676 *, double, double, const MethodInfo*))DefaultComparer_Equals_m40000_gshared)(__this, ___x, ___y, method)

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t1570;
+struct DTDObjectModel_t3116;
 // Mono.Xml.DictionaryBase
 #include "System_Xml_Mono_Xml_DictionaryBase.h"
 // Mono.Xml.DTDCollectionBase
-struct  DTDCollectionBase_t1586  : public DictionaryBase_t1581
+struct  DTDCollectionBase_t3131  : public DictionaryBase_t3126
 {
 	// Mono.Xml.DTDObjectModel Mono.Xml.DTDCollectionBase::root
-	DTDObjectModel_t1570 * ___root_5;
+	DTDObjectModel_t3116 * ___root_5;
 };

@@ -5,7 +5,7 @@
 // GP_GamesActivityResultCodes
 #include "AssemblyU2DCSharp_GP_GamesActivityResultCodes.h"
 // AndroidGameActivityResult
-struct  AndroidGameActivityResult_t177  : public Object_t
+struct  AndroidGameActivityResult_t217  : public Object_t
 {
 	// GP_GamesActivityResultCodes AndroidGameActivityResult::code
 	int32_t ___code_0;

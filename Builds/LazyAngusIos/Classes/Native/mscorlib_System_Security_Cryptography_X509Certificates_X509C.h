@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t2385;
+struct X509Certificate_t4359;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct  X509Certificate_t1830  : public Object_t
+struct  X509Certificate_t3825  : public Object_t
 {
 	// Mono.Security.X509.X509Certificate System.Security.Cryptography.X509Certificates.X509Certificate::x509
-	X509Certificate_t2385 * ___x509_0;
+	X509Certificate_t4359 * ___x509_0;
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509Certificate::hideDates
 	bool ___hideDates_1;
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509Certificate::cachedCertificateHash
-	ByteU5BU5D_t36* ___cachedCertificateHash_2;
+	ByteU5BU5D_t66* ___cachedCertificateHash_2;
 	// System.String System.Security.Cryptography.X509Certificates.X509Certificate::issuer_name
 	String_t* ___issuer_name_3;
 	// System.String System.Security.Cryptography.X509Certificates.X509Certificate::subject_name

@@ -2,15 +2,22 @@
 using System.Collections;
 
 public class GoogleAdController : MonoBehaviour {
+	public static GoogleAdController instance;
+
+	public int instancesBetweenInterstitialAds = 3;
+	public float waitBeforeAd = 2f;
+
+	IEnumerator pendingInterstitialAd;
 
 	bool registeredForEvents;
 	bool interstitialAdLoaded = false;
-
-	public int wavesBetweenInterstitial = 5;
+	bool adsEnabled = true;
 
 	GoogleMobileAdBanner banner;
-
+	
 	void Awake() {
+		instance = this;
+
 		GoogleMobileAd.Init ();
 		GoogleMobileAd.AddKeyword("game");
 		banner = GoogleMobileAd.CreateAdBanner(TextAnchor.LowerCenter,
@@ -41,15 +48,14 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void OnInterstisialsOpen() {
-		// Suspend normal operations.
-		TimeController.instance.PauseTime ();
+		// Quiet the music.
+		SoundController.instance.SuppressSounds ();
 	}
 
 	void OnInterstisialsClosed() {
 		interstitialAdLoaded = false;
 		GoogleMobileAd.LoadInterstitialAd ();
-		// Resume.
-		TimeController.instance.UnPauseTime ();
+		SoundController.instance.UnsuppressSounds ();
 	}
 
 	void RegisterForEvents() {
@@ -70,27 +76,55 @@ public class GoogleAdController : MonoBehaviour {
 
 	void OnGamePhaseChanged() {
 		UpdateBanner ();
-		MaybePresentInterstitial ();
+		UpdateInterstialAd ();
 	}
 
-	bool MaybePresentInterstitial() {
-		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_END) {
-			return false;
+	void UpdateInterstialAd() {
+		if (pendingInterstitialAd != null) {
+			StopCoroutine (pendingInterstitialAd);
+			pendingInterstitialAd = null;
 		}
 
-		if ((GameLevelState.instance.gameLevel % wavesBetweenInterstitial) != 0) {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
+			pendingInterstitialAd = CreatePendingInterstitialAd();
+			StartCoroutine(pendingInterstitialAd);
+		}
+	}
+
+	IEnumerator CreatePendingInterstitialAd() {
+		yield return new WaitForSeconds(waitBeforeAd);
+		pendingInterstitialAd = null;
+		TryToShowInterstitialAd ();
+	}
+
+
+	void TryToShowInterstitialAd() {
+		bool shouldShowAd = ShouldShowInterstitialAd ();
+		if (!shouldShowAd) {
+			return;
+		}
+
+		GoogleMobileAd.ShowInterstitialAd ();
+	}
+
+	bool ShouldShowInterstitialAd() {
+		if (GameInstanceState.instance.instancesFinishedThisSession % instancesBetweenInterstitialAds != 0) {
 			return false;
 		}
 
 		if (!interstitialAdLoaded) {
 			return false;
 		}
-
-		GoogleMobileAd.ShowInterstitialAd ();
+		
 		return true;
 	}
 
 	void UpdateBanner() {
+		if (!adsEnabled) {
+			banner.Hide ();
+			return;
+		}
+
 		switch(GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 			banner.Hide ();

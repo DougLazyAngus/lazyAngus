@@ -5,7 +5,7 @@
 // System.Runtime.Remoting.WellKnownObjectMode
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectMode.h"
 // System.Runtime.Remoting.WellKnownObjectMode
-struct  WellKnownObjectMode_t2616 
+struct  WellKnownObjectMode_t4590 
 {
 	// System.Int32 System.Runtime.Remoting.WellKnownObjectMode::value__
 	int32_t ___value___1;

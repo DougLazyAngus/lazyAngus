@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GADInAppResolution
-struct GADInAppResolution_t148;
+struct GADInAppResolution_t188;
 

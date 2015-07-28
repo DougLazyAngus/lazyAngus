@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoCMethod
-struct MonoCMethod_t2516;
+struct MonoCMethod_t4490;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 // System.Reflection.ParameterInfo[]
-struct ParameterInfoU5BU5D_t1333;
+struct ParameterInfoU5BU5D_t1399;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t582;
+struct ObjectU5BU5D_t627;
 // System.Exception
-struct Exception_t27;
+struct Exception_t57;
 // System.Reflection.Binder
-struct Binder_t1340;
+struct Binder_t2895;
 // System.Globalization.CultureInfo
-struct CultureInfo_t667;
+struct CultureInfo_t711;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1301;
+struct SerializationInfo_t2861;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
 // System.Reflection.MethodAttributes
@@ -36,34 +36,34 @@ struct SerializationInfo_t1301;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.MonoCMethod::.ctor()
-extern "C" void MonoCMethod__ctor_m14417 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoCMethod__ctor_m17730 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.MonoCMethod::GetParameters()
-extern "C" ParameterInfoU5BU5D_t1333* MonoCMethod_GetParameters_m14418 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParameterInfoU5BU5D_t1399* MonoCMethod_GetParameters_m17731 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MonoCMethod::InternalInvoke(System.Object,System.Object[],System.Exception&)
-extern "C" Object_t * MonoCMethod_InternalInvoke_m14419 (MonoCMethod_t2516 * __this, Object_t * ___obj, ObjectU5BU5D_t582* ___parameters, Exception_t27 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MonoCMethod_InternalInvoke_m17732 (MonoCMethod_t4490 * __this, Object_t * ___obj, ObjectU5BU5D_t627* ___parameters, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MonoCMethod::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
-extern "C" Object_t * MonoCMethod_Invoke_m14420 (MonoCMethod_t2516 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t1340 * ___binder, ObjectU5BU5D_t582* ___parameters, CultureInfo_t667 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MonoCMethod_Invoke_m17733 (MonoCMethod_t4490 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t2895 * ___binder, ObjectU5BU5D_t627* ___parameters, CultureInfo_t711 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MonoCMethod::Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
-extern "C" Object_t * MonoCMethod_Invoke_m14421 (MonoCMethod_t2516 * __this, int32_t ___invokeAttr, Binder_t1340 * ___binder, ObjectU5BU5D_t582* ___parameters, CultureInfo_t667 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MonoCMethod_Invoke_m17734 (MonoCMethod_t4490 * __this, int32_t ___invokeAttr, Binder_t2895 * ___binder, ObjectU5BU5D_t627* ___parameters, CultureInfo_t711 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.RuntimeMethodHandle System.Reflection.MonoCMethod::get_MethodHandle()
-extern "C" RuntimeMethodHandle_t2810  MonoCMethod_get_MethodHandle_m14422 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RuntimeMethodHandle_t4781  MonoCMethod_get_MethodHandle_m17735 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodAttributes System.Reflection.MonoCMethod::get_Attributes()
-extern "C" int32_t MonoCMethod_get_Attributes_m14423 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoCMethod_get_Attributes_m17736 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.CallingConventions System.Reflection.MonoCMethod::get_CallingConvention()
-extern "C" int32_t MonoCMethod_get_CallingConvention_m14424 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoCMethod_get_CallingConvention_m17737 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoCMethod::get_ReflectedType()
-extern "C" Type_t * MonoCMethod_get_ReflectedType_m14425 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoCMethod_get_ReflectedType_m17738 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoCMethod::get_DeclaringType()
-extern "C" Type_t * MonoCMethod_get_DeclaringType_m14426 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoCMethod_get_DeclaringType_m17739 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.MonoCMethod::get_Name()
-extern "C" String_t* MonoCMethod_get_Name_m14427 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MonoCMethod_get_Name_m17740 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MonoCMethod::IsDefined(System.Type,System.Boolean)
-extern "C" bool MonoCMethod_IsDefined_m14428 (MonoCMethod_t2516 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoCMethod_IsDefined_m17741 (MonoCMethod_t4490 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoCMethod::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t582* MonoCMethod_GetCustomAttributes_m14429 (MonoCMethod_t2516 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t627* MonoCMethod_GetCustomAttributes_m17742 (MonoCMethod_t4490 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoCMethod::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t582* MonoCMethod_GetCustomAttributes_m14430 (MonoCMethod_t2516 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t627* MonoCMethod_GetCustomAttributes_m17743 (MonoCMethod_t4490 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.MonoCMethod::ToString()
-extern "C" String_t* MonoCMethod_ToString_m14431 (MonoCMethod_t2516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MonoCMethod_ToString_m17744 (MonoCMethod_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MonoCMethod::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MonoCMethod_GetObjectData_m14432 (MonoCMethod_t2516 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoCMethod_GetObjectData_m17745 (MonoCMethod_t4490 * __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

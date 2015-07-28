@@ -3,10 +3,10 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__32.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__63.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,UnityEngine.GUIStyle>
-struct  Enumerator_t1311 
+struct  Enumerator_t2871 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,UnityEngine.GUIStyle>::host_enumerator
-	Enumerator_t3908  ___host_enumerator_0;
+	Enumerator_t8327  ___host_enumerator_0;
 };

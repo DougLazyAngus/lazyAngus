@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.HMACSHA512
-struct HMACSHA512_t2663;
+struct HMACSHA512_t4637;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.HMACSHA512::.ctor()
-extern "C" void HMACSHA512__ctor_m15027 (HMACSHA512_t2663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA512__ctor_m18345 (HMACSHA512_t4637 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA512::.ctor(System.Byte[])
-extern "C" void HMACSHA512__ctor_m15028 (HMACSHA512_t2663 * __this, ByteU5BU5D_t36* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA512__ctor_m18346 (HMACSHA512_t4637 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA512::.cctor()
-extern "C" void HMACSHA512__cctor_m15029 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA512__cctor_m18347 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA512::set_ProduceLegacyHmacValues(System.Boolean)
-extern "C" void HMACSHA512_set_ProduceLegacyHmacValues_m15030 (HMACSHA512_t2663 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA512_set_ProduceLegacyHmacValues_m18348 (HMACSHA512_t4637 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

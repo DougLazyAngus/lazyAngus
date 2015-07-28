@@ -5,8 +5,8 @@
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack/Link
 #include "System_System_Text_RegularExpressions_PatternCompiler_Patter.h"
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack
-struct  PatternLinkStack_t2130  : public LinkStack_t2131
+struct  PatternLinkStack_t4082  : public LinkStack_t4083
 {
 	// System.Text.RegularExpressions.PatternCompiler/PatternLinkStack/Link System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::link
-	Link_t2129  ___link_1;
+	Link_t4081  ___link_1;
 };

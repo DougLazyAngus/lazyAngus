@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.BinaryWriter
-struct BinaryWriter_t23;
+struct BinaryWriter_t50;
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t638;
+struct Encoding_t682;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.BinaryWriter
-struct  BinaryWriter_t23  : public Object_t
+struct  BinaryWriter_t50  : public Object_t
 {
 	// System.IO.Stream System.IO.BinaryWriter::OutStream
-	Stream_t24 * ___OutStream_1;
+	Stream_t51 * ___OutStream_1;
 	// System.Text.Encoding System.IO.BinaryWriter::m_encoding
-	Encoding_t638 * ___m_encoding_2;
+	Encoding_t682 * ___m_encoding_2;
 	// System.Byte[] System.IO.BinaryWriter::buffer
-	ByteU5BU5D_t36* ___buffer_3;
+	ByteU5BU5D_t66* ___buffer_3;
 	// System.Boolean System.IO.BinaryWriter::disposed
 	bool ___disposed_4;
 	// System.Byte[] System.IO.BinaryWriter::stringBuffer
-	ByteU5BU5D_t36* ___stringBuffer_5;
+	ByteU5BU5D_t66* ___stringBuffer_5;
 	// System.Int32 System.IO.BinaryWriter::maxCharsPerRound
 	int32_t ___maxCharsPerRound_6;
 };
-struct BinaryWriter_t23_StaticFields{
+struct BinaryWriter_t50_StaticFields{
 	// System.IO.BinaryWriter System.IO.BinaryWriter::Null
-	BinaryWriter_t23 * ___Null_0;
+	BinaryWriter_t50 * ___Null_0;
 };

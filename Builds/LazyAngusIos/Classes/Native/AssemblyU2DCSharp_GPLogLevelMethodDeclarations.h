@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GPLogLevel
-struct GPLogLevel_t155;
+struct GPLogLevel_t195;
 

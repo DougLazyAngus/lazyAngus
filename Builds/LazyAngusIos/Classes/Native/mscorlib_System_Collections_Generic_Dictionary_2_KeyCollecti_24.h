@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,GP_TBM_Match>
-struct Dictionary_2_t211;
+// System.Collections.Generic.Dictionary`2<System.Int32,GPScore>
+struct Dictionary_2_t225;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GP_TBM_Match>
-struct  KeyCollection_t3539  : public Object_t
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,GPScore>
+struct  KeyCollection_t5499  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,GP_TBM_Match>::dictionary
-	Dictionary_2_t211 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,GPScore>::dictionary
+	Dictionary_2_t225 * ___dictionary_0;
 };

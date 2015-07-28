@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ANMiniJSON.Json/Parser/TOKEN
-struct TOKEN_t218;
+struct TOKEN_t258;
 

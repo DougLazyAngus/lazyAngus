@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.AudioSource
-struct  AudioSource_t518  : public Behaviour_t985
+struct  AudioSource_t562  : public Behaviour_t1026
 {
 };

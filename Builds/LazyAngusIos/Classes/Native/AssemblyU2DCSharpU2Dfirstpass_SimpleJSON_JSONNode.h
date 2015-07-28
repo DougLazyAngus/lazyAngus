@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // SimpleJSON.JSONNode
-struct  JSONNode_t2  : public Object_t
+struct  JSONNode_t29  : public Object_t
 {
 };

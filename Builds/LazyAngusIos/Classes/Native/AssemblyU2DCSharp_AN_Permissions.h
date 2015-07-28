@@ -5,7 +5,7 @@
 // AN_Permissions
 #include "AssemblyU2DCSharp_AN_Permissions.h"
 // AN_Permissions
-struct  AN_Permissions_t85 
+struct  AN_Permissions_t125 
 {
 	// System.Int32 AN_Permissions::value__
 	int32_t ___value___1;

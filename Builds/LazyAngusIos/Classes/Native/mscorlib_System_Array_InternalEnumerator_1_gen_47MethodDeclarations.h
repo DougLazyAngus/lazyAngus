@@ -4,24 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>
-struct InternalEnumerator_1_t3904;
+// System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>
+struct InternalEnumerator_1_t6096;
 // System.Object
 struct Object_t;
-// UnityEngine.GUIStyle
-struct GUIStyle_t67;
+// Parse.ParseQuery`1<System.Object>
+struct ParseQuery_1_t1456;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m25831(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3904 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17370_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25832(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3904 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17371_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>::Dispose()
-#define InternalEnumerator_1_Dispose_m25833(__this, method) (( void (*) (InternalEnumerator_1_t3904 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17372_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m25834(__this, method) (( bool (*) (InternalEnumerator_1_t3904 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17373_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.GUIStyle>::get_Current()
-#define InternalEnumerator_1_get_Current_m25835(__this, method) (( GUIStyle_t67 * (*) (InternalEnumerator_1_t3904 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17374_gshared)(__this, method)
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m32406(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6096 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20878_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32407(__this, method) (( void (*) (InternalEnumerator_1_t6096 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20879_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32408(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6096 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20880_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::Dispose()
+#define InternalEnumerator_1_Dispose_m32409(__this, method) (( void (*) (InternalEnumerator_1_t6096 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20881_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m32410(__this, method) (( bool (*) (InternalEnumerator_1_t6096 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20882_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::get_Current()
+#define InternalEnumerator_1_get_Current_m32411(__this, method) (( ParseQuery_1_t1456 * (*) (InternalEnumerator_1_t6096 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20883_gshared)(__this, method)

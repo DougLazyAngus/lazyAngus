@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// System.Collections.Generic.List`1<AN_PropertyTemplate>
-struct List_1_t83;
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate
+struct GetDelegate_t2768;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>
-struct  KeyValuePair_2_t3428 
+// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct  KeyValuePair_2_t2888 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::value
-	List_1_t83 * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::value
+	GetDelegate_t2768 * ___value_1;
 };

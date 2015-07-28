@@ -5,7 +5,7 @@
 // UnityEngine.RuntimePlatform
 #include "UnityEngine_UnityEngine_RuntimePlatform.h"
 // UnityEngine.RuntimePlatform
-struct  RuntimePlatform_t1063 
+struct  RuntimePlatform_t2628 
 {
 	// System.Int32 UnityEngine.RuntimePlatform::value__
 	int32_t ___value___1;

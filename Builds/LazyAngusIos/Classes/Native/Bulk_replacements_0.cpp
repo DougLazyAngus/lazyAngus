@@ -40,7 +40,7 @@
 
 
 // System.Boolean Replacements.MSCompatUnicodeTable::get_IsReady()
-extern "C" bool MSCompatUnicodeTable_get_IsReady_m7481 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" bool MSCompatUnicodeTable_get_IsReady_m10093 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	{
 		return 0;
@@ -67,18 +67,18 @@ extern "C" bool MSCompatUnicodeTable_get_IsReady_m7481 (Object_t * __this /* sta
 
 
 // System.String Replacements.SecurityElement::ToString(System.Object)
-extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" String_t* SecurityElement_ToString_m7482 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method)
+extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
+extern "C" String_t* SecurityElement_ToString_m10094 (Object_t * __this /* static, unused */, Object_t * _____this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotSupportedException_t26_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		NotSupportedException_t56_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m7485(L_0, (String_t*) &_stringLiteral1344, /*hidden argument*/NULL);
+		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1968, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -96,34 +96,34 @@ extern "C" String_t* SecurityElement_ToString_m7482 (Object_t * __this /* static
 
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m7483 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method)
+extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10095 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotSupportedException_t26_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		NotSupportedException_t56_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m7485(L_0, (String_t*) &_stringLiteral1345, /*hidden argument*/NULL);
+		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1969, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern TypeInfo* NotSupportedException_t26_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m7484 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t582* ___activationAttributes, const MethodInfo* method)
+extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m10096 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t627* ___activationAttributes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotSupportedException_t26_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		NotSupportedException_t56_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		NotSupportedException_t26 * L_0 = (NotSupportedException_t26 *)il2cpp_codegen_object_new (NotSupportedException_t26_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m7485(L_0, (String_t*) &_stringLiteral1346, /*hidden argument*/NULL);
+		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1970, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

@@ -5,135 +5,149 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t733;
+struct List_1_t774;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t734;
+struct BaseInputModule_t775;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.EventSystems.BaseInputModule>
-struct IEnumerable_1_t4448;
+struct IEnumerable_1_t8841;
+// UnityEngine.EventSystems.BaseInputModule[]
+struct BaseInputModuleU5BU5D_t5672;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.EventSystems.BaseInputModule>
-struct IEnumerator_1_t4449;
+struct IEnumerator_1_t8842;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.BaseInputModule>
-struct ICollection_1_t4450;
+struct ICollection_1_t8843;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>
-struct ReadOnlyCollection_1_t3704;
-// UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t3702;
+struct ReadOnlyCollection_1_t5674;
 // System.Predicate`1<UnityEngine.EventSystems.BaseInputModule>
-struct Predicate_1_t3705;
+struct Predicate_1_t5675;
 // System.Collections.Generic.IComparer`1<UnityEngine.EventSystems.BaseInputModule>
-struct IComparer_1_t4451;
+struct IComparer_1_t8844;
 // System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>
-struct Comparison_1_t3707;
+struct Comparison_1_t5677;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_27.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_28.h"
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::.ctor()
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen_0MethodDeclarations.h"
-#define List_1__ctor_m5152(__this, method) (( void (*) (List_1_t733 *, const MethodInfo*))List_1__ctor_m3123_gshared)(__this, method)
+#define List_1__ctor_m5440(__this, method) (( void (*) (List_1_t774 *, const MethodInfo*))List_1__ctor_m3419_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m22794(__this, ___collection, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1__ctor_m17404_gshared)(__this, ___collection, method)
+#define List_1__ctor_m26744(__this, ___collection, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1__ctor_m7152_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::.ctor(System.Int32)
-#define List_1__ctor_m22795(__this, ___capacity, method) (( void (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1__ctor_m17406_gshared)(__this, ___capacity, method)
+#define List_1__ctor_m26745(__this, ___capacity, method) (( void (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1__ctor_m21248_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::.ctor(T[],System.Int32)
+#define List_1__ctor_m26746(__this, ___data, ___size, method) (( void (*) (List_1_t774 *, BaseInputModuleU5BU5D_t5672*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::.cctor()
-#define List_1__cctor_m22796(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m17408_gshared)(__this /* static, unused */, method)
+#define List_1__cctor_m26747(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21252_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m22797(__this, method) (( Object_t* (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m7430_gshared)(__this, method)
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m26748(__this, method) (( Object_t* (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10041_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m22798(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t733 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m7413_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_System_Collections_ICollection_CopyTo_m26749(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t774 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10024_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Collections.IEnumerator System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m22799(__this, method) (( Object_t * (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m7409_gshared)(__this, method)
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m26750(__this, method) (( Object_t * (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10020_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m22800(__this, ___item, method) (( int32_t (*) (List_1_t733 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m7418_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Add_m26751(__this, ___item, method) (( int32_t (*) (List_1_t774 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10029_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m22801(__this, ___item, method) (( bool (*) (List_1_t733 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m7420_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Contains_m26752(__this, ___item, method) (( bool (*) (List_1_t774 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10031_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m22802(__this, ___item, method) (( int32_t (*) (List_1_t733 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m7421_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_IndexOf_m26753(__this, ___item, method) (( int32_t (*) (List_1_t774 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10032_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m22803(__this, ___index, ___item, method) (( void (*) (List_1_t733 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m7422_gshared)(__this, ___index, ___item, method)
+#define List_1_System_Collections_IList_Insert_m26754(__this, ___index, ___item, method) (( void (*) (List_1_t774 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10033_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m22804(__this, ___item, method) (( void (*) (List_1_t733 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m7423_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Remove_m26755(__this, ___item, method) (( void (*) (List_1_t774 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10034_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m22805(__this, method) (( bool (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m7425_gshared)(__this, method)
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26756(__this, method) (( bool (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10036_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m22806(__this, method) (( bool (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m7411_gshared)(__this, method)
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m26757(__this, method) (( bool (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10022_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m22807(__this, method) (( Object_t * (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m7412_gshared)(__this, method)
+#define List_1_System_Collections_ICollection_get_SyncRoot_m26758(__this, method) (( Object_t * (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10023_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m22808(__this, method) (( bool (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m7414_gshared)(__this, method)
+#define List_1_System_Collections_IList_get_IsFixedSize_m26759(__this, method) (( bool (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10025_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m22809(__this, method) (( bool (*) (List_1_t733 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m7415_gshared)(__this, method)
+#define List_1_System_Collections_IList_get_IsReadOnly_m26760(__this, method) (( bool (*) (List_1_t774 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10026_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m22810(__this, ___index, method) (( Object_t * (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m7416_gshared)(__this, ___index, method)
+#define List_1_System_Collections_IList_get_Item_m26761(__this, ___index, method) (( Object_t * (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10027_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m22811(__this, ___index, ___value, method) (( void (*) (List_1_t733 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m7417_gshared)(__this, ___index, ___value, method)
+#define List_1_System_Collections_IList_set_Item_m26762(__this, ___index, ___value, method) (( void (*) (List_1_t774 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10028_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Add(T)
-#define List_1_Add_m22812(__this, ___item, method) (( void (*) (List_1_t733 *, BaseInputModule_t734 *, const MethodInfo*))List_1_Add_m7426_gshared)(__this, ___item, method)
+#define List_1_Add_m26763(__this, ___item, method) (( void (*) (List_1_t774 *, BaseInputModule_t775 *, const MethodInfo*))List_1_Add_m10037_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m22813(__this, ___newCount, method) (( void (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m17426_gshared)(__this, ___newCount, method)
+#define List_1_GrowIfNeeded_m26764(__this, ___newCount, method) (( void (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21270_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::CheckRange(System.Int32,System.Int32)
+#define List_1_CheckRange_m26765(__this, ___idx, ___count, method) (( void (*) (List_1_t774 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21272_gshared)(__this, ___idx, ___count, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m22814(__this, ___collection, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1_AddCollection_m17428_gshared)(__this, ___collection, method)
+#define List_1_AddCollection_m26766(__this, ___collection, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21274_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m22815(__this, ___enumerable, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m17430_gshared)(__this, ___enumerable, method)
+#define List_1_AddEnumerable_m26767(__this, ___enumerable, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21276_gshared)(__this, ___enumerable, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m22816(__this, ___collection, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1_AddRange_m17432_gshared)(__this, ___collection, method)
+#define List_1_AddRange_m26768(__this, ___collection, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::AsReadOnly()
-#define List_1_AsReadOnly_m22817(__this, method) (( ReadOnlyCollection_1_t3704 * (*) (List_1_t733 *, const MethodInfo*))List_1_AsReadOnly_m17434_gshared)(__this, method)
+#define List_1_AsReadOnly_m26769(__this, method) (( ReadOnlyCollection_1_t5674 * (*) (List_1_t774 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Clear()
-#define List_1_Clear_m22818(__this, method) (( void (*) (List_1_t733 *, const MethodInfo*))List_1_Clear_m7419_gshared)(__this, method)
+#define List_1_Clear_m26770(__this, method) (( void (*) (List_1_t774 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Contains(T)
-#define List_1_Contains_m22819(__this, ___item, method) (( bool (*) (List_1_t733 *, BaseInputModule_t734 *, const MethodInfo*))List_1_Contains_m7427_gshared)(__this, ___item, method)
+#define List_1_Contains_m26771(__this, ___item, method) (( bool (*) (List_1_t774 *, BaseInputModule_t775 *, const MethodInfo*))List_1_Contains_m10038_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m22820(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t733 *, BaseInputModuleU5BU5D_t3702*, int32_t, const MethodInfo*))List_1_CopyTo_m7428_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m26772(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t774 *, BaseInputModuleU5BU5D_t5672*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Find(System.Predicate`1<T>)
-#define List_1_Find_m22821(__this, ___match, method) (( BaseInputModule_t734 * (*) (List_1_t733 *, Predicate_1_t3705 *, const MethodInfo*))List_1_Find_m17439_gshared)(__this, ___match, method)
+#define List_1_Find_m26773(__this, ___match, method) (( BaseInputModule_t775 * (*) (List_1_t774 *, Predicate_1_t5675 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m22822(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t3705 *, const MethodInfo*))List_1_CheckMatch_m17441_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m26774(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5675 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m22823(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t733 *, int32_t, int32_t, Predicate_1_t3705 *, const MethodInfo*))List_1_GetIndex_m17443_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m26775(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t774 *, int32_t, int32_t, Predicate_1_t5675 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::GetEnumerator()
-#define List_1_GetEnumerator_m22824(__this, method) (( Enumerator_t3706  (*) (List_1_t733 *, const MethodInfo*))List_1_GetEnumerator_m3281_gshared)(__this, method)
+#define List_1_GetEnumerator_m26776(__this, method) (( Enumerator_t5676  (*) (List_1_t774 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::GetRange(System.Int32,System.Int32)
+#define List_1_GetRange_m26777(__this, ___index, ___count, method) (( List_1_t774 * (*) (List_1_t774 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21291_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::IndexOf(T)
-#define List_1_IndexOf_m22825(__this, ___item, method) (( int32_t (*) (List_1_t733 *, BaseInputModule_t734 *, const MethodInfo*))List_1_IndexOf_m7431_gshared)(__this, ___item, method)
+#define List_1_IndexOf_m26778(__this, ___item, method) (( int32_t (*) (List_1_t774 *, BaseInputModule_t775 *, const MethodInfo*))List_1_IndexOf_m10042_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m22826(__this, ___start, ___delta, method) (( void (*) (List_1_t733 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m17446_gshared)(__this, ___start, ___delta, method)
+#define List_1_Shift_m26779(__this, ___start, ___delta, method) (( void (*) (List_1_t774 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21294_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m22827(__this, ___index, method) (( void (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_CheckIndex_m17448_gshared)(__this, ___index, method)
+#define List_1_CheckIndex_m26780(__this, ___index, method) (( void (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21296_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Insert(System.Int32,T)
-#define List_1_Insert_m22828(__this, ___index, ___item, method) (( void (*) (List_1_t733 *, int32_t, BaseInputModule_t734 *, const MethodInfo*))List_1_Insert_m7432_gshared)(__this, ___index, ___item, method)
+#define List_1_Insert_m26781(__this, ___index, ___item, method) (( void (*) (List_1_t774 *, int32_t, BaseInputModule_t775 *, const MethodInfo*))List_1_Insert_m10043_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m22829(__this, ___collection, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m17451_gshared)(__this, ___collection, method)
+#define List_1_CheckCollection_m26782(__this, ___collection, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21299_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertRange_m26783(__this, ___index, ___collection, method) (( void (*) (List_1_t774 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21301_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+#define List_1_InsertCollection_m26784(__this, ___index, ___collection, method) (( void (*) (List_1_t774 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21303_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertEnumeration_m26785(__this, ___index, ___enumerable, method) (( void (*) (List_1_t774 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21305_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Remove(T)
-#define List_1_Remove_m22830(__this, ___item, method) (( bool (*) (List_1_t733 *, BaseInputModule_t734 *, const MethodInfo*))List_1_Remove_m7429_gshared)(__this, ___item, method)
+#define List_1_Remove_m26786(__this, ___item, method) (( bool (*) (List_1_t774 *, BaseInputModule_t775 *, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m22831(__this, ___match, method) (( int32_t (*) (List_1_t733 *, Predicate_1_t3705 *, const MethodInfo*))List_1_RemoveAll_m17454_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m26787(__this, ___match, method) (( int32_t (*) (List_1_t774 *, Predicate_1_t5675 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m22832(__this, ___index, method) (( void (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_RemoveAt_m7424_gshared)(__this, ___index, method)
+#define List_1_RemoveAt_m26788(__this, ___index, method) (( void (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::RemoveRange(System.Int32,System.Int32)
+#define List_1_RemoveRange_m26789(__this, ___index, ___count, method) (( void (*) (List_1_t774 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21311_gshared)(__this, ___index, ___count, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Reverse()
-#define List_1_Reverse_m22833(__this, method) (( void (*) (List_1_t733 *, const MethodInfo*))List_1_Reverse_m17457_gshared)(__this, method)
+#define List_1_Reverse_m26790(__this, method) (( void (*) (List_1_t774 *, const MethodInfo*))List_1_Reverse_m21313_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Sort()
-#define List_1_Sort_m22834(__this, method) (( void (*) (List_1_t733 *, const MethodInfo*))List_1_Sort_m17459_gshared)(__this, method)
+#define List_1_Sort_m26791(__this, method) (( void (*) (List_1_t774 *, const MethodInfo*))List_1_Sort_m21315_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m22835(__this, ___comparer, method) (( void (*) (List_1_t733 *, Object_t*, const MethodInfo*))List_1_Sort_m17461_gshared)(__this, ___comparer, method)
+#define List_1_Sort_m26792(__this, ___comparer, method) (( void (*) (List_1_t774 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m22836(__this, ___comparison, method) (( void (*) (List_1_t733 *, Comparison_1_t3707 *, const MethodInfo*))List_1_Sort_m17463_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m26793(__this, ___comparison, method) (( void (*) (List_1_t774 *, Comparison_1_t5677 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::ToArray()
-#define List_1_ToArray_m22837(__this, method) (( BaseInputModuleU5BU5D_t3702* (*) (List_1_t733 *, const MethodInfo*))List_1_ToArray_m17465_gshared)(__this, method)
+#define List_1_ToArray_m26794(__this, method) (( BaseInputModuleU5BU5D_t5672* (*) (List_1_t774 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::TrimExcess()
-#define List_1_TrimExcess_m22838(__this, method) (( void (*) (List_1_t733 *, const MethodInfo*))List_1_TrimExcess_m17467_gshared)(__this, method)
+#define List_1_TrimExcess_m26795(__this, method) (( void (*) (List_1_t774 *, const MethodInfo*))List_1_TrimExcess_m21323_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::get_Capacity()
-#define List_1_get_Capacity_m22839(__this, method) (( int32_t (*) (List_1_t733 *, const MethodInfo*))List_1_get_Capacity_m17469_gshared)(__this, method)
+#define List_1_get_Capacity_m26796(__this, method) (( int32_t (*) (List_1_t774 *, const MethodInfo*))List_1_get_Capacity_m21325_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m22840(__this, ___value, method) (( void (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_set_Capacity_m17471_gshared)(__this, ___value, method)
+#define List_1_set_Capacity_m26797(__this, ___value, method) (( void (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21327_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::get_Count()
-#define List_1_get_Count_m22841(__this, method) (( int32_t (*) (List_1_t733 *, const MethodInfo*))List_1_get_Count_m7410_gshared)(__this, method)
+#define List_1_get_Count_m26798(__this, method) (( int32_t (*) (List_1_t774 *, const MethodInfo*))List_1_get_Count_m10021_gshared)(__this, method)
 // T System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::get_Item(System.Int32)
-#define List_1_get_Item_m22842(__this, ___index, method) (( BaseInputModule_t734 * (*) (List_1_t733 *, int32_t, const MethodInfo*))List_1_get_Item_m7433_gshared)(__this, ___index, method)
+#define List_1_get_Item_m26799(__this, ___index, method) (( BaseInputModule_t775 * (*) (List_1_t774 *, int32_t, const MethodInfo*))List_1_get_Item_m10044_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::set_Item(System.Int32,T)
-#define List_1_set_Item_m22843(__this, ___index, ___value, method) (( void (*) (List_1_t733 *, int32_t, BaseInputModule_t734 *, const MethodInfo*))List_1_set_Item_m7434_gshared)(__this, ___index, ___value, method)
+#define List_1_set_Item_m26800(__this, ___index, ___value, method) (( void (*) (List_1_t774 *, int32_t, BaseInputModule_t775 *, const MethodInfo*))List_1_set_Item_m10045_gshared)(__this, ___index, ___value, method)

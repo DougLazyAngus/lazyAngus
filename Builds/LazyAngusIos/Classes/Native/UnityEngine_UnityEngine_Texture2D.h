@@ -3,6 +3,6 @@
 // UnityEngine.Texture
 #include "UnityEngine_UnityEngine_Texture.h"
 // UnityEngine.Texture2D
-struct  Texture2D_t68  : public Texture_t354
+struct  Texture2D_t108  : public Texture_t394
 {
 };

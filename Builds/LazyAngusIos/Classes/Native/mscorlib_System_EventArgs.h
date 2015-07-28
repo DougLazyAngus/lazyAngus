@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.EventArgs
-struct EventArgs_t1644;
+struct EventArgs_t1237;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.EventArgs
-struct  EventArgs_t1644  : public Object_t
+struct  EventArgs_t1237  : public Object_t
 {
 };
-struct EventArgs_t1644_StaticFields{
+struct EventArgs_t1237_StaticFields{
 	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t1644 * ___Empty_0;
+	EventArgs_t1237 * ___Empty_0;
 };

@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t68;
+struct Texture2D_t108;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GP_QuestState
 #include "AssemblyU2DCSharp_GP_QuestState.h"
 // GP_Quest
-struct  GP_Quest_t198  : public Object_t
+struct  GP_Quest_t238  : public Object_t
 {
 	// System.String GP_Quest::Id
 	String_t* ___Id_0;
@@ -30,7 +30,7 @@ struct  GP_Quest_t198  : public Object_t
 	// System.Int64 GP_Quest::EndTimestamp
 	int64_t ___EndTimestamp_8;
 	// UnityEngine.Texture2D GP_Quest::_icon
-	Texture2D_t68 * ____icon_9;
+	Texture2D_t108 * ____icon_9;
 	// UnityEngine.Texture2D GP_Quest::_banner
-	Texture2D_t68 * ____banner_10;
+	Texture2D_t108 * ____banner_10;
 };

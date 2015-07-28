@@ -7,10 +7,10 @@ struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Facebook.FBBuildVersionAttribute
-struct  FBBuildVersionAttribute_t385  : public Attribute_t386
+struct  FBBuildVersionAttribute_t425  : public Attribute_t426
 {
 	// System.DateTime Facebook.FBBuildVersionAttribute::buildDate
-	DateTime_t247  ___buildDate_0;
+	DateTime_t287  ___buildDate_0;
 	// System.String Facebook.FBBuildVersionAttribute::buildHash
 	String_t* ___buildHash_1;
 	// System.String Facebook.FBBuildVersionAttribute::buildVersion

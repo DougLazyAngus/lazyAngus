@@ -5,7 +5,7 @@
 // GADBannerSize
 #include "AssemblyU2DCSharp_GADBannerSize.h"
 // GADBannerSize
-struct  GADBannerSize_t147 
+struct  GADBannerSize_t187 
 {
 	// System.Int32 GADBannerSize::value__
 	int32_t ___value___1;

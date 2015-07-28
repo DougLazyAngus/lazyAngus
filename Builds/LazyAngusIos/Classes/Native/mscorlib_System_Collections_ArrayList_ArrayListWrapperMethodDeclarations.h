@@ -5,77 +5,81 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.ArrayList/ArrayListWrapper
-struct ArrayListWrapper_t2404;
+struct ArrayListWrapper_t4378;
 // System.Object
 struct Object_t;
 // System.Collections.ArrayList
-struct ArrayList_t1556;
+struct ArrayList_t3102;
 // System.Collections.ICollection
-struct ICollection_t653;
+struct ICollection_t697;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 // System.Collections.IComparer
-struct IComparer_t1946;
+struct IComparer_t3905;
 // System.Object[]
-struct ObjectU5BU5D_t582;
+struct ObjectU5BU5D_t627;
 // System.Type
 struct Type_t;
 
 // System.Void System.Collections.ArrayList/ArrayListWrapper::.ctor(System.Collections.ArrayList)
-extern "C" void ArrayListWrapper__ctor_m13180 (ArrayListWrapper_t2404 * __this, ArrayList_t1556 * ___innerArrayList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper__ctor_m16476 (ArrayListWrapper_t4378 * __this, ArrayList_t3102 * ___innerArrayList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/ArrayListWrapper::get_Item(System.Int32)
-extern "C" Object_t * ArrayListWrapper_get_Item_m13181 (ArrayListWrapper_t2404 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ArrayListWrapper_get_Item_m16477 (ArrayListWrapper_t4378 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::set_Item(System.Int32,System.Object)
-extern "C" void ArrayListWrapper_set_Item_m13182 (ArrayListWrapper_t2404 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_set_Item_m16478 (ArrayListWrapper_t4378 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.ArrayList/ArrayListWrapper::get_Count()
-extern "C" int32_t ArrayListWrapper_get_Count_m13183 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArrayListWrapper_get_Count_m16479 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.ArrayList/ArrayListWrapper::get_Capacity()
+extern "C" int32_t ArrayListWrapper_get_Capacity_m16480 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.ArrayList/ArrayListWrapper::set_Capacity(System.Int32)
+extern "C" void ArrayListWrapper_set_Capacity_m16481 (ArrayListWrapper_t4378 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsFixedSize()
-extern "C" bool ArrayListWrapper_get_IsFixedSize_m13184 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArrayListWrapper_get_IsFixedSize_m16482 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsReadOnly()
-extern "C" bool ArrayListWrapper_get_IsReadOnly_m13185 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArrayListWrapper_get_IsReadOnly_m16483 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsSynchronized()
-extern "C" bool ArrayListWrapper_get_IsSynchronized_m13186 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArrayListWrapper_get_IsSynchronized_m16484 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/ArrayListWrapper::get_SyncRoot()
-extern "C" Object_t * ArrayListWrapper_get_SyncRoot_m13187 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ArrayListWrapper_get_SyncRoot_m16485 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.ArrayList/ArrayListWrapper::Add(System.Object)
-extern "C" int32_t ArrayListWrapper_Add_m13188 (ArrayListWrapper_t2404 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArrayListWrapper_Add_m16486 (ArrayListWrapper_t4378 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Clear()
-extern "C" void ArrayListWrapper_Clear_m13189 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_Clear_m16487 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::Contains(System.Object)
-extern "C" bool ArrayListWrapper_Contains_m13190 (ArrayListWrapper_t2404 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArrayListWrapper_Contains_m16488 (ArrayListWrapper_t4378 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.ArrayList/ArrayListWrapper::IndexOf(System.Object)
-extern "C" int32_t ArrayListWrapper_IndexOf_m13191 (ArrayListWrapper_t2404 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArrayListWrapper_IndexOf_m16489 (ArrayListWrapper_t4378 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.ArrayList/ArrayListWrapper::IndexOf(System.Object,System.Int32)
-extern "C" int32_t ArrayListWrapper_IndexOf_m13192 (ArrayListWrapper_t2404 * __this, Object_t * ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArrayListWrapper_IndexOf_m16490 (ArrayListWrapper_t4378 * __this, Object_t * ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.ArrayList/ArrayListWrapper::IndexOf(System.Object,System.Int32,System.Int32)
-extern "C" int32_t ArrayListWrapper_IndexOf_m13193 (ArrayListWrapper_t2404 * __this, Object_t * ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArrayListWrapper_IndexOf_m16491 (ArrayListWrapper_t4378 * __this, Object_t * ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Insert(System.Int32,System.Object)
-extern "C" void ArrayListWrapper_Insert_m13194 (ArrayListWrapper_t2404 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_Insert_m16492 (ArrayListWrapper_t4378 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::InsertRange(System.Int32,System.Collections.ICollection)
-extern "C" void ArrayListWrapper_InsertRange_m13195 (ArrayListWrapper_t2404 * __this, int32_t ___index, Object_t * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_InsertRange_m16493 (ArrayListWrapper_t4378 * __this, int32_t ___index, Object_t * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Remove(System.Object)
-extern "C" void ArrayListWrapper_Remove_m13196 (ArrayListWrapper_t2404 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_Remove_m16494 (ArrayListWrapper_t4378 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::RemoveAt(System.Int32)
-extern "C" void ArrayListWrapper_RemoveAt_m13197 (ArrayListWrapper_t2404 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_RemoveAt_m16495 (ArrayListWrapper_t4378 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::CopyTo(System.Array)
-extern "C" void ArrayListWrapper_CopyTo_m13198 (ArrayListWrapper_t2404 * __this, Array_t * ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_CopyTo_m16496 (ArrayListWrapper_t4378 * __this, Array_t * ___array, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::CopyTo(System.Array,System.Int32)
-extern "C" void ArrayListWrapper_CopyTo_m13199 (ArrayListWrapper_t2404 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_CopyTo_m16497 (ArrayListWrapper_t4378 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
-extern "C" void ArrayListWrapper_CopyTo_m13200 (ArrayListWrapper_t2404 * __this, int32_t ___index, Array_t * ___array, int32_t ___arrayIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_CopyTo_m16498 (ArrayListWrapper_t4378 * __this, int32_t ___index, Array_t * ___array, int32_t ___arrayIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Collections.ArrayList/ArrayListWrapper::GetEnumerator()
-extern "C" Object_t * ArrayListWrapper_GetEnumerator_m13201 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ArrayListWrapper_GetEnumerator_m16499 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::AddRange(System.Collections.ICollection)
-extern "C" void ArrayListWrapper_AddRange_m13202 (ArrayListWrapper_t2404 * __this, Object_t * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_AddRange_m16500 (ArrayListWrapper_t4378 * __this, Object_t * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/ArrayListWrapper::Clone()
-extern "C" Object_t * ArrayListWrapper_Clone_m13203 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ArrayListWrapper_Clone_m16501 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Sort()
-extern "C" void ArrayListWrapper_Sort_m13204 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_Sort_m16502 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Sort(System.Collections.IComparer)
-extern "C" void ArrayListWrapper_Sort_m13205 (ArrayListWrapper_t2404 * __this, Object_t * ___comparer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayListWrapper_Sort_m16503 (ArrayListWrapper_t4378 * __this, Object_t * ___comparer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.ArrayList/ArrayListWrapper::ToArray()
-extern "C" ObjectU5BU5D_t582* ArrayListWrapper_ToArray_m13206 (ArrayListWrapper_t2404 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t627* ArrayListWrapper_ToArray_m16504 (ArrayListWrapper_t4378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array System.Collections.ArrayList/ArrayListWrapper::ToArray(System.Type)
-extern "C" Array_t * ArrayListWrapper_ToArray_m13207 (ArrayListWrapper_t2404 * __this, Type_t * ___elementType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Array_t * ArrayListWrapper_ToArray_m16505 (ArrayListWrapper_t4378 * __this, Type_t * ___elementType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

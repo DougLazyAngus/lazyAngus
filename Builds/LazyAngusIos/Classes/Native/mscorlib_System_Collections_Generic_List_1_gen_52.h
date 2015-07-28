@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName[]
-struct StrongNameU5BU5D_t4202;
+// UnityEngine.Networking.Match.MatchDesc[]
+struct MatchDescU5BU5D_t8384;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
-struct  List_1_t2878  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
+struct  List_1_t2749  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_items
-	StrongNameU5BU5D_t4202* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_items
+	MatchDescU5BU5D_t8384* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2878_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::EmptyArray
-	StrongNameU5BU5D_t4202* ___EmptyArray_4;
+struct List_1_t2749_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::EmptyArray
+	MatchDescU5BU5D_t8384* ___EmptyArray_4;
 };

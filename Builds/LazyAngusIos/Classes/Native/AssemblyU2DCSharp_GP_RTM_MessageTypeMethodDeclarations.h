@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_RTM_MessageType
-struct GP_RTM_MessageType_t162;
+struct GP_RTM_MessageType_t202;
 

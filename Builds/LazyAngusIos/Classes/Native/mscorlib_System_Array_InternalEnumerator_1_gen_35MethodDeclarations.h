@@ -4,24 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>
-struct InternalEnumerator_1_t3876;
+// System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>
+struct InternalEnumerator_1_t5862;
 // System.Object
 struct Object_t;
-// UnityEngine.SocialPlatforms.IAchievementDescription
-struct IAchievementDescription_t1365;
 // System.Array
 struct Array_t;
+// System.Collections.Generic.HashSet`1/Link<System.Object>
+#include "System_Core_System_Collections_Generic_HashSet_1_Link_gen.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m25477(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3876 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17370_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25478(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3876 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17371_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>::Dispose()
-#define InternalEnumerator_1_Dispose_m25479(__this, method) (( void (*) (InternalEnumerator_1_t3876 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17372_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m25480(__this, method) (( bool (*) (InternalEnumerator_1_t3876 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17373_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievementDescription>::get_Current()
-#define InternalEnumerator_1_get_Current_m25481(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3876 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17374_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m29743_gshared (InternalEnumerator_1_t5862 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m29743(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5862 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m29743_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m29744_gshared (InternalEnumerator_1_t5862 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m29744(__this, method) (( void (*) (InternalEnumerator_1_t5862 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m29744_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29745_gshared (InternalEnumerator_1_t5862 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29745(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5862 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29745_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m29746_gshared (InternalEnumerator_1_t5862 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m29746(__this, method) (( void (*) (InternalEnumerator_1_t5862 *, const MethodInfo*))InternalEnumerator_1_Dispose_m29746_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m29747_gshared (InternalEnumerator_1_t5862 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m29747(__this, method) (( bool (*) (InternalEnumerator_1_t5862 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m29747_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::get_Current()
+extern "C" Link_t5861  InternalEnumerator_1_get_Current_m29748_gshared (InternalEnumerator_1_t5862 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m29748(__this, method) (( Link_t5861  (*) (InternalEnumerator_1_t5862 *, const MethodInfo*))InternalEnumerator_1_get_Current_m29748_gshared)(__this, method)

@@ -8,23 +8,23 @@ struct String_t;
 typedef String_t Il2CppCodeGenString;
 struct Type_t;
 typedef Type_t Il2CppCodeGenType;
-struct Exception_t27;
-typedef Exception_t27 Il2CppCodeGenException;
-struct Exception_t27;
-typedef Exception_t27 Il2CppCodeGenException;
+struct Exception_t57;
+typedef Exception_t57 Il2CppCodeGenException;
+struct Exception_t57;
+typedef Exception_t57 Il2CppCodeGenException;
 // System.RuntimeTypeHandle
 #include "mscorlib_System_RuntimeTypeHandle.h"
-typedef RuntimeTypeHandle_t2313 Il2CppCodeGenRuntimeTypeHandle;
+typedef RuntimeTypeHandle_t4287 Il2CppCodeGenRuntimeTypeHandle;
 // System.RuntimeFieldHandle
 #include "mscorlib_System_RuntimeFieldHandle.h"
-typedef RuntimeFieldHandle_t2314 Il2CppCodeGenRuntimeFieldHandle;
+typedef RuntimeFieldHandle_t4288 Il2CppCodeGenRuntimeFieldHandle;
 // System.RuntimeArgumentHandle
 #include "mscorlib_System_RuntimeArgumentHandle.h"
-typedef RuntimeArgumentHandle_t2324 Il2CppCodeGenRuntimeArgumentHandle;
+typedef RuntimeArgumentHandle_t4298 Il2CppCodeGenRuntimeArgumentHandle;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
-typedef RuntimeMethodHandle_t2810 Il2CppCodeGenRuntimeMethodHandle;
-struct StringBuilder_t221;
-typedef StringBuilder_t221 Il2CppCodeGenStringBuilder;
-struct MulticastDelegate_t348;
-typedef MulticastDelegate_t348 Il2CppCodeGenMulticastDelegate;
+typedef RuntimeMethodHandle_t4781 Il2CppCodeGenRuntimeMethodHandle;
+struct StringBuilder_t261;
+typedef StringBuilder_t261 Il2CppCodeGenStringBuilder;
+struct MulticastDelegate_t388;
+typedef MulticastDelegate_t388 Il2CppCodeGenMulticastDelegate;

@@ -3,15 +3,15 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t68;
+struct Texture2D_t108;
 // TwitterStatus
-struct TwitterStatus_t284;
+struct TwitterStatus_t324;
 // UnionAssets.FLE.EventDispatcherBase
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventDispatcherBase.h"
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // TwitterUserInfo
-struct  TwitterUserInfo_t268  : public EventDispatcherBase_t90
+struct  TwitterUserInfo_t308  : public EventDispatcherBase_t130
 {
 	// System.String TwitterUserInfo::_id
 	String_t* ____id_4;
@@ -36,17 +36,17 @@ struct  TwitterUserInfo_t268  : public EventDispatcherBase_t90
 	// System.String TwitterUserInfo::_profile_background_image_url_https
 	String_t* ____profile_background_image_url_https_14;
 	// UnityEngine.Texture2D TwitterUserInfo::_profile_image
-	Texture2D_t68 * ____profile_image_15;
+	Texture2D_t108 * ____profile_image_15;
 	// UnityEngine.Texture2D TwitterUserInfo::_profile_background
-	Texture2D_t68 * ____profile_background_16;
+	Texture2D_t108 * ____profile_background_16;
 	// UnityEngine.Color TwitterUserInfo::_profile_background_color
-	Color_t285  ____profile_background_color_17;
+	Color_t325  ____profile_background_color_17;
 	// UnityEngine.Color TwitterUserInfo::_profile_text_color
-	Color_t285  ____profile_text_color_18;
+	Color_t325  ____profile_text_color_18;
 	// System.Int32 TwitterUserInfo::_friends_count
 	int32_t ____friends_count_19;
 	// System.Int32 TwitterUserInfo::_statuses_count
 	int32_t ____statuses_count_20;
 	// TwitterStatus TwitterUserInfo::_status
-	TwitterStatus_t284 * ____status_21;
+	TwitterStatus_t324 * ____status_21;
 };

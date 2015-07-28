@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t581;
-// GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t100;
+// System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
+struct List_1_t625;
+// UnionAssets.FLE.DataEventHandlerFunction
+struct DataEventHandlerFunction_t621;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>
-struct  Enumerator_t3490 
+// System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>
+struct  Enumerator_t5439 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::l
-	List_1_t581 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>::l
+	List_1_t625 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::current
-	Object_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>::current
+	DataEventHandlerFunction_t621 * ___current_3;
 };

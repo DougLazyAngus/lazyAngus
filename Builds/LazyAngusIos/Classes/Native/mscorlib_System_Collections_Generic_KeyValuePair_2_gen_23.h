@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// GP_TBM_Match
-struct GP_TBM_Match_t208;
+// GoogleMobileAdBanner
+struct GoogleMobileAdBanner_t140;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,GP_TBM_Match>
-struct  KeyValuePair_2_t3538 
+// System.Collections.Generic.KeyValuePair`2<System.String,GoogleMobileAdBanner>
+struct  KeyValuePair_2_t5447 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,GP_TBM_Match>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,GoogleMobileAdBanner>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,GP_TBM_Match>::value
-	GP_TBM_Match_t208 * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,GoogleMobileAdBanner>::value
+	Object_t * ___value_1;
 };

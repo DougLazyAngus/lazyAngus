@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Console
-struct Console_t2192;
+struct Console_t4142;
 // System.IO.TextWriter
-struct TextWriter_t1676;
+struct TextWriter_t3220;
 // System.Text.Encoding
-struct Encoding_t638;
+struct Encoding_t682;
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.String
 struct String_t;
 // System.IntPtr
@@ -20,18 +20,18 @@ struct String_t;
 #include "mscorlib_System_IO_FileAccess.h"
 
 // System.Void System.Console::.cctor()
-extern "C" void Console__cctor_m15721 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Console__cctor_m19068 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Console::SetEncodings(System.Text.Encoding,System.Text.Encoding)
-extern "C" void Console_SetEncodings_m15722 (Object_t * __this /* static, unused */, Encoding_t638 * ___inputEncoding, Encoding_t638 * ___outputEncoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Console_SetEncodings_m19069 (Object_t * __this /* static, unused */, Encoding_t682 * ___inputEncoding, Encoding_t682 * ___outputEncoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.TextWriter System.Console::get_Error()
-extern "C" TextWriter_t1676 * Console_get_Error_m11596 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextWriter_t3220 * Console_get_Error_m14810 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream System.Console::Open(System.IntPtr,System.IO.FileAccess,System.Int32)
-extern "C" Stream_t24 * Console_Open_m15723 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t ___access, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t51 * Console_Open_m19070 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t ___access, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream System.Console::OpenStandardError(System.Int32)
-extern "C" Stream_t24 * Console_OpenStandardError_m15724 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t51 * Console_OpenStandardError_m19071 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream System.Console::OpenStandardInput(System.Int32)
-extern "C" Stream_t24 * Console_OpenStandardInput_m15725 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t51 * Console_OpenStandardInput_m19072 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream System.Console::OpenStandardOutput(System.Int32)
-extern "C" Stream_t24 * Console_OpenStandardOutput_m15726 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t51 * Console_OpenStandardOutput_m19073 (Object_t * __this /* static, unused */, int32_t ___bufferSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Console::WriteLine(System.String)
-extern "C" void Console_WriteLine_m11552 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Console_WriteLine_m14773 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -4,62 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>
-struct ValueCollection_t3513;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>
+struct ValueCollection_t5473;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct Dictionary_2_t3506;
-// System.Collections.Generic.IEnumerator`1<System.Int32>
-struct IEnumerator_1_t4261;
+// System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>
+struct Dictionary_2_t159;
+// AndroidADBanner
+struct AndroidADBanner_t215;
+// System.Collections.Generic.IEnumerator`1<AndroidADBanner>
+struct IEnumerator_1_t8719;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
-// System.Int32[]
-struct Int32U5BU5D_t496;
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_21.h"
+struct IEnumerator_t48;
+// AndroidADBanner[]
+struct AndroidADBannerU5BU5D_t5470;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,AndroidADBanner>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_104.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void ValueCollection__ctor_m19799_gshared (ValueCollection_t3513 * __this, Dictionary_2_t3506 * ___dictionary, const MethodInfo* method);
-#define ValueCollection__ctor_m19799(__this, ___dictionary, method) (( void (*) (ValueCollection_t3513 *, Dictionary_2_t3506 *, const MethodInfo*))ValueCollection__ctor_m19799_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m19800_gshared (ValueCollection_t3513 * __this, int32_t ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m19800(__this, ___item, method) (( void (*) (ValueCollection_t3513 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m19800_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TValue>.Clear()
-extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m19801_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m19801(__this, method) (( void (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m19801_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m19802_gshared (ValueCollection_t3513 * __this, int32_t ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m19802(__this, ___item, method) (( bool (*) (ValueCollection_t3513 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m19802_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m19803_gshared (ValueCollection_t3513 * __this, int32_t ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m19803(__this, ___item, method) (( bool (*) (ValueCollection_t3513 *, int32_t, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m19803_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-extern "C" Object_t* ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m19804_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m19804(__this, method) (( Object_t* (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m19804_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void ValueCollection_System_Collections_ICollection_CopyTo_m19805_gshared (ValueCollection_t3513 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_CopyTo_m19805(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3513 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m19805_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * ValueCollection_System_Collections_IEnumerable_GetEnumerator_m19806_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m19806(__this, method) (( Object_t * (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m19806_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m19807_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m19807(__this, method) (( bool (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m19807_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool ValueCollection_System_Collections_ICollection_get_IsSynchronized_m19808_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m19808(__this, method) (( bool (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m19808_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * ValueCollection_System_Collections_ICollection_get_SyncRoot_m19809_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m19809(__this, method) (( Object_t * (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m19809_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::CopyTo(TValue[],System.Int32)
-extern "C" void ValueCollection_CopyTo_m19810_gshared (ValueCollection_t3513 * __this, Int32U5BU5D_t496* ___array, int32_t ___index, const MethodInfo* method);
-#define ValueCollection_CopyTo_m19810(__this, ___array, ___index, method) (( void (*) (ValueCollection_t3513 *, Int32U5BU5D_t496*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m19810_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::GetEnumerator()
-extern "C" Enumerator_t3514  ValueCollection_GetEnumerator_m19811_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_GetEnumerator_m19811(__this, method) (( Enumerator_t3514  (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_GetEnumerator_m19811_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::get_Count()
-extern "C" int32_t ValueCollection_get_Count_m19812_gshared (ValueCollection_t3513 * __this, const MethodInfo* method);
-#define ValueCollection_get_Count_m19812(__this, method) (( int32_t (*) (ValueCollection_t3513 *, const MethodInfo*))ValueCollection_get_Count_m19812_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_5MethodDeclarations.h"
+#define ValueCollection__ctor_m23419(__this, ___dictionary, method) (( void (*) (ValueCollection_t5473 *, Dictionary_2_t159 *, const MethodInfo*))ValueCollection__ctor_m20946_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m23420(__this, ___item, method) (( void (*) (ValueCollection_t5473 *, AndroidADBanner_t215 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m20947_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<TValue>.Clear()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m23421(__this, method) (( void (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m20948_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m23422(__this, ___item, method) (( bool (*) (ValueCollection_t5473 *, AndroidADBanner_t215 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m20949_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m23423(__this, ___item, method) (( bool (*) (ValueCollection_t5473 *, AndroidADBanner_t215 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m20950_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m23424(__this, method) (( Object_t* (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m20951_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ValueCollection_System_Collections_ICollection_CopyTo_m23425(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5473 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m20952_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.IEnumerable.GetEnumerator()
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m23426(__this, method) (( Object_t * (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m20953_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m23427(__this, method) (( bool (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m20954_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.ICollection.get_IsSynchronized()
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m23428(__this, method) (( bool (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m20955_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::System.Collections.ICollection.get_SyncRoot()
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m23429(__this, method) (( Object_t * (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m20956_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::CopyTo(TValue[],System.Int32)
+#define ValueCollection_CopyTo_m23430(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5473 *, AndroidADBannerU5BU5D_t5470*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m20957_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::GetEnumerator()
+#define ValueCollection_GetEnumerator_m23431(__this, method) (( Enumerator_t8720  (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_GetEnumerator_m20958_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::get_Count()
+#define ValueCollection_get_Count_m23432(__this, method) (( int32_t (*) (ValueCollection_t5473 *, const MethodInfo*))ValueCollection_get_Count_m20959_gshared)(__this, method)

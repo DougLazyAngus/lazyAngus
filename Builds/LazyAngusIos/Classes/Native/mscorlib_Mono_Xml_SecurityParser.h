@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.SecurityElement
-struct SecurityElement_t2394;
+struct SecurityElement_t4368;
 // System.Collections.Stack
-struct Stack_t1275;
+struct Stack_t2839;
 // Mono.Xml.SmallXmlParser
 #include "mscorlib_Mono_Xml_SmallXmlParser.h"
 // Mono.Xml.SecurityParser
-struct  SecurityParser_t2395  : public SmallXmlParser_t2396
+struct  SecurityParser_t4369  : public SmallXmlParser_t4370
 {
 	// System.Security.SecurityElement Mono.Xml.SecurityParser::root
-	SecurityElement_t2394 * ___root_13;
+	SecurityElement_t4368 * ___root_13;
 	// System.Security.SecurityElement Mono.Xml.SecurityParser::current
-	SecurityElement_t2394 * ___current_14;
+	SecurityElement_t4368 * ___current_14;
 	// System.Collections.Stack Mono.Xml.SecurityParser::stack
-	Stack_t1275 * ___stack_15;
+	Stack_t2839 * ___stack_15;
 };

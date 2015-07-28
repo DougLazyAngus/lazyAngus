@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // IOSSharing
-struct  IOSSharing_t479  : public MonoBehaviour_t66
+struct  IOSSharing_t523  : public MonoBehaviour_t13
 {
 };

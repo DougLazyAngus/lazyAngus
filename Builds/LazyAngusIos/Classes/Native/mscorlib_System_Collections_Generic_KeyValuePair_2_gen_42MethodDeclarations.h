@@ -4,26 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct KeyValuePair_2_t4015;
-// System.Type
-struct Type_t;
-// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct IDictionary_2_t1295;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
+struct KeyValuePair_2_t6041;
 // System.String
 struct String_t;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>
+struct Task_1_t2378;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::.ctor(TKey,TValue)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m27340(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t4015 *, Type_t *, Object_t*, const MethodInfo*))KeyValuePair_2__ctor_m17725_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::get_Key()
-#define KeyValuePair_2_get_Key_m27341(__this, method) (( Type_t * (*) (KeyValuePair_2_t4015 *, const MethodInfo*))KeyValuePair_2_get_Key_m17726_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m27342(__this, ___value, method) (( void (*) (KeyValuePair_2_t4015 *, Type_t *, const MethodInfo*))KeyValuePair_2_set_Key_m17727_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::get_Value()
-#define KeyValuePair_2_get_Value_m27343(__this, method) (( Object_t* (*) (KeyValuePair_2_t4015 *, const MethodInfo*))KeyValuePair_2_get_Value_m17728_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m27344(__this, ___value, method) (( void (*) (KeyValuePair_2_t4015 *, Object_t*, const MethodInfo*))KeyValuePair_2_set_Value_m17729_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::ToString()
-#define KeyValuePair_2_ToString_m27345(__this, method) (( String_t* (*) (KeyValuePair_2_t4015 *, const MethodInfo*))KeyValuePair_2_ToString_m17730_gshared)(__this, method)
+#define KeyValuePair_2__ctor_m31793(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6041 *, String_t*, Task_1_t2378 *, const MethodInfo*))KeyValuePair_2__ctor_m21581_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::get_Key()
+#define KeyValuePair_2_get_Key_m31794(__this, method) (( String_t* (*) (KeyValuePair_2_t6041 *, const MethodInfo*))KeyValuePair_2_get_Key_m21582_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m31795(__this, ___value, method) (( void (*) (KeyValuePair_2_t6041 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21583_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::get_Value()
+#define KeyValuePair_2_get_Value_m31796(__this, method) (( Task_1_t2378 * (*) (KeyValuePair_2_t6041 *, const MethodInfo*))KeyValuePair_2_get_Value_m21584_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m31797(__this, ___value, method) (( void (*) (KeyValuePair_2_t6041 *, Task_1_t2378 *, const MethodInfo*))KeyValuePair_2_set_Value_m21585_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::ToString()
+#define KeyValuePair_2_ToString_m31798(__this, method) (( String_t* (*) (KeyValuePair_2_t6041 *, const MethodInfo*))KeyValuePair_2_ToString_m21586_gshared)(__this, method)

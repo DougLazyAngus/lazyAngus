@@ -1,20 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t484;
-// ExplicitMouseDesc
-struct ExplicitMouseDesc_t452;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t738;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>
-struct  Enumerator_t3669 
+// System.Collections.Generic.List`1/Enumerator<System.Int32>
+struct  Enumerator_t5624 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::l
-	List_1_t484 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int32>::l
+	List_1_t738 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::current
-	ExplicitMouseDesc_t452 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Int32>::current
+	int32_t ___current_3;
 };

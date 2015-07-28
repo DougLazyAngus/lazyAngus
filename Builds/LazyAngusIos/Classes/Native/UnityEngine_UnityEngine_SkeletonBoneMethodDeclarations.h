@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SkeletonBone
-struct SkeletonBone_t1158;
-struct SkeletonBone_t1158_marshaled;
+struct SkeletonBone_t2726;
+struct SkeletonBone_t2726_marshaled;
 
-void SkeletonBone_t1158_marshal(const SkeletonBone_t1158& unmarshaled, SkeletonBone_t1158_marshaled& marshaled);
-void SkeletonBone_t1158_marshal_back(const SkeletonBone_t1158_marshaled& marshaled, SkeletonBone_t1158& unmarshaled);
-void SkeletonBone_t1158_marshal_cleanup(SkeletonBone_t1158_marshaled& marshaled);
+void SkeletonBone_t2726_marshal(const SkeletonBone_t2726& unmarshaled, SkeletonBone_t2726_marshaled& marshaled);
+void SkeletonBone_t2726_marshal_back(const SkeletonBone_t2726_marshaled& marshaled, SkeletonBone_t2726& unmarshaled);
+void SkeletonBone_t2726_marshal_cleanup(SkeletonBone_t2726_marshaled& marshaled);

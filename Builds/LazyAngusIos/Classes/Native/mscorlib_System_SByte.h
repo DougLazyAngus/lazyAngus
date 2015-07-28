@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.SByte
-struct  SByte_t61 
+struct  SByte_t88 
 {
 	// System.SByte System.SByte::m_value
 	int8_t ___m_value_0;

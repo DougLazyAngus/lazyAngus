@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // FBAppRequestState
-struct FBAppRequestState_t230;
+struct FBAppRequestState_t270;
 

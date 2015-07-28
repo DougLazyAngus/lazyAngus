@@ -1,27 +1,27 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t2115;
+struct FactoryCache_t4067;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t2116;
+struct IMachineFactory_t4068;
 // System.Collections.IDictionary
-struct IDictionary_t585;
+struct IDictionary_t630;
 // System.String[]
-struct StringU5BU5D_t45;
+struct StringU5BU5D_t75;
 // System.Int32[]
-struct Int32U5BU5D_t496;
+struct Int32U5BU5D_t540;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t183;
+struct Dictionary_2_t223;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
-struct Dictionary_2_t2117;
+struct Dictionary_2_t4069;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Regex
-struct  Regex_t1344  : public Object_t
+struct  Regex_t1117  : public Object_t
 {
 	// System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.Regex::machineFactory
 	Object_t * ___machineFactory_1;
@@ -34,23 +34,23 @@ struct  Regex_t1344  : public Object_t
 	// System.Boolean System.Text.RegularExpressions.Regex::refsInitialized
 	bool ___refsInitialized_5;
 	// System.String[] System.Text.RegularExpressions.Regex::group_names
-	StringU5BU5D_t45* ___group_names_6;
+	StringU5BU5D_t75* ___group_names_6;
 	// System.Int32[] System.Text.RegularExpressions.Regex::group_numbers
-	Int32U5BU5D_t496* ___group_numbers_7;
+	Int32U5BU5D_t540* ___group_numbers_7;
 	// System.String System.Text.RegularExpressions.Regex::pattern
 	String_t* ___pattern_8;
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
 	int32_t ___roptions_9;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Text.RegularExpressions.Regex::capnames
-	Dictionary_2_t183 * ___capnames_10;
+	Dictionary_2_t223 * ___capnames_10;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> System.Text.RegularExpressions.Regex::caps
-	Dictionary_2_t2117 * ___caps_11;
+	Dictionary_2_t4069 * ___caps_11;
 	// System.Int32 System.Text.RegularExpressions.Regex::capsize
 	int32_t ___capsize_12;
 	// System.String[] System.Text.RegularExpressions.Regex::capslist
-	StringU5BU5D_t45* ___capslist_13;
+	StringU5BU5D_t75* ___capslist_13;
 };
-struct Regex_t1344_StaticFields{
+struct Regex_t1117_StaticFields{
 	// System.Text.RegularExpressions.FactoryCache System.Text.RegularExpressions.Regex::cache
-	FactoryCache_t2115 * ___cache_0;
+	FactoryCache_t4067 * ___cache_0;
 };

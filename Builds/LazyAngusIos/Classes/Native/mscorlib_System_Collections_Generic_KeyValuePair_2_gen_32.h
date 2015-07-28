@@ -1,14 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Graphic
-struct Graphic_t812;
+// System.String
+struct String_t;
+// Facebook.FacebookDelegate
+struct FacebookDelegate_t433;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct  KeyValuePair_2_t3820 
+// System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>
+struct  KeyValuePair_2_t5607 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::key
-	Graphic_t812 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::value
+	FacebookDelegate_t433 * ___value_1;
 };

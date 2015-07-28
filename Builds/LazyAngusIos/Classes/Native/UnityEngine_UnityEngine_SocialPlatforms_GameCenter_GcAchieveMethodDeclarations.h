@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData
-struct GcAchievementDescriptionData_t1221;
+struct GcAchievementDescriptionData_t2787;
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription
-struct AchievementDescription_t1234;
+struct AchievementDescription_t2800;
 
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::ToAchievementDescription()
-extern "C" AchievementDescription_t1234 * GcAchievementDescriptionData_ToAchievementDescription_m6924 (GcAchievementDescriptionData_t1221 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AchievementDescription_t2800 * GcAchievementDescriptionData_ToAchievementDescription_m9551 (GcAchievementDescriptionData_t2787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
-struct X509BasicConstraintsExtension_t2080;
+struct X509BasicConstraintsExtension_t4033;
 // System.Security.Cryptography.AsnEncodedData
-struct AsnEncodedData_t2073;
+struct AsnEncodedData_t4026;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor()
-extern "C" void X509BasicConstraintsExtension__ctor_m10830 (X509BasicConstraintsExtension_t2080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509BasicConstraintsExtension__ctor_m14044 (X509BasicConstraintsExtension_t4033 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
-extern "C" void X509BasicConstraintsExtension__ctor_m10831 (X509BasicConstraintsExtension_t2080 * __this, AsnEncodedData_t2073 * ___encodedBasicConstraints, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509BasicConstraintsExtension__ctor_m14045 (X509BasicConstraintsExtension_t4033 * __this, AsnEncodedData_t4026 * ___encodedBasicConstraints, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
-extern "C" void X509BasicConstraintsExtension__ctor_m10832 (X509BasicConstraintsExtension_t2080 * __this, bool ___certificateAuthority, bool ___hasPathLengthConstraint, int32_t ___pathLengthConstraint, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509BasicConstraintsExtension__ctor_m14046 (X509BasicConstraintsExtension_t4033 * __this, bool ___certificateAuthority, bool ___hasPathLengthConstraint, int32_t ___pathLengthConstraint, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_CertificateAuthority()
-extern "C" bool X509BasicConstraintsExtension_get_CertificateAuthority_m10833 (X509BasicConstraintsExtension_t2080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509BasicConstraintsExtension_get_CertificateAuthority_m14047 (X509BasicConstraintsExtension_t4033 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_HasPathLengthConstraint()
-extern "C" bool X509BasicConstraintsExtension_get_HasPathLengthConstraint_m10834 (X509BasicConstraintsExtension_t2080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509BasicConstraintsExtension_get_HasPathLengthConstraint_m14048 (X509BasicConstraintsExtension_t4033 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_PathLengthConstraint()
-extern "C" int32_t X509BasicConstraintsExtension_get_PathLengthConstraint_m10835 (X509BasicConstraintsExtension_t2080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509BasicConstraintsExtension_get_PathLengthConstraint_m14049 (X509BasicConstraintsExtension_t4033 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
-extern "C" void X509BasicConstraintsExtension_CopyFrom_m10836 (X509BasicConstraintsExtension_t2080 * __this, AsnEncodedData_t2073 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509BasicConstraintsExtension_CopyFrom_m14050 (X509BasicConstraintsExtension_t4033 * __this, AsnEncodedData_t4026 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Decode(System.Byte[])
-extern "C" int32_t X509BasicConstraintsExtension_Decode_m10837 (X509BasicConstraintsExtension_t2080 * __this, ByteU5BU5D_t36* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509BasicConstraintsExtension_Decode_m14051 (X509BasicConstraintsExtension_t4033 * __this, ByteU5BU5D_t66* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Encode()
-extern "C" ByteU5BU5D_t36* X509BasicConstraintsExtension_Encode_m10838 (X509BasicConstraintsExtension_t2080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* X509BasicConstraintsExtension_Encode_m14052 (X509BasicConstraintsExtension_t4033 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::ToString(System.Boolean)
-extern "C" String_t* X509BasicConstraintsExtension_ToString_m10839 (X509BasicConstraintsExtension_t2080 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509BasicConstraintsExtension_ToString_m14053 (X509BasicConstraintsExtension_t4033 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;

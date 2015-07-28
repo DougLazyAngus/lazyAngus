@@ -5,7 +5,7 @@ struct String_t;
 // ConsoleBase
 #include "AssemblyU2DCSharp_ConsoleBase.h"
 // GameGroupsConsole
-struct  GameGroupsConsole_t71  : public ConsoleBase_t69
+struct  GameGroupsConsole_t111  : public ConsoleBase_t109
 {
 	// System.String GameGroupsConsole::GamerGroupName
 	String_t* ___GamerGroupName_10;

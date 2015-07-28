@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Comparer`1<System.Object>
-#include "mscorlib_System_Collections_Generic_Comparer_1_gen.h"
-// System.Collections.Generic.GenericComparer`1<System.Object>
-struct  GenericComparer_1_t4179  : public Comparer_1_t3378
+// System.Collections.Generic.Comparer`1<System.Byte>
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen_5.h"
+// System.Collections.Generic.GenericComparer`1<System.Byte>
+struct  GenericComparer_1_t6294  : public Comparer_1_t6293
 {
 };

@@ -4,24 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>
-struct InternalEnumerator_1_t4187;
+// System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>
+struct InternalEnumerator_1_t8507;
 // System.Object
 struct Object_t;
-// System.Reflection.Emit.GenericTypeParameterBuilder
-struct GenericTypeParameterBuilder_t2484;
+// System.Xml.XmlTextWriter/XmlNodeInfo
+struct XmlNodeInfo_t3216;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m29150(__this, ___array, method) (( void (*) (InternalEnumerator_1_t4187 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17370_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m29151(__this, method) (( Object_t * (*) (InternalEnumerator_1_t4187 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17371_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::Dispose()
-#define InternalEnumerator_1_Dispose_m29152(__this, method) (( void (*) (InternalEnumerator_1_t4187 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17372_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m29153(__this, method) (( bool (*) (InternalEnumerator_1_t4187 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17373_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::get_Current()
-#define InternalEnumerator_1_get_Current_m29154(__this, method) (( GenericTypeParameterBuilder_t2484 * (*) (InternalEnumerator_1_t4187 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17374_gshared)(__this, method)
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m62232(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8507 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20878_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62233(__this, method) (( void (*) (InternalEnumerator_1_t8507 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20879_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62234(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8507 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20880_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::Dispose()
+#define InternalEnumerator_1_Dispose_m62235(__this, method) (( void (*) (InternalEnumerator_1_t8507 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20881_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m62236(__this, method) (( bool (*) (InternalEnumerator_1_t8507 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20882_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::get_Current()
+#define InternalEnumerator_1_get_Current_m62237(__this, method) (( XmlNodeInfo_t3216 * (*) (InternalEnumerator_1_t8507 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20883_gshared)(__this, method)

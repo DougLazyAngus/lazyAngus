@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.Uri
-struct Uri_t656;
+struct Uri_t700;
 // System.String
 struct String_t;
 // System.Net.FtpWebRequest
-struct FtpWebRequest_t2027;
+struct FtpWebRequest_t3984;
 // System.Net.WebResponse
 #include "System_System_Net_WebResponse.h"
 // System.Net.FtpStatusCode
@@ -15,16 +15,16 @@ struct FtpWebRequest_t2027;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.FtpWebResponse
-struct  FtpWebResponse_t2023  : public WebResponse_t1705
+struct  FtpWebResponse_t3980  : public WebResponse_t3245
 {
 	// System.IO.Stream System.Net.FtpWebResponse::stream
-	Stream_t24 * ___stream_1;
+	Stream_t51 * ___stream_1;
 	// System.Uri System.Net.FtpWebResponse::uri
-	Uri_t656 * ___uri_2;
+	Uri_t700 * ___uri_2;
 	// System.Net.FtpStatusCode System.Net.FtpWebResponse::statusCode
 	int32_t ___statusCode_3;
 	// System.DateTime System.Net.FtpWebResponse::lastModified
-	DateTime_t247  ___lastModified_4;
+	DateTime_t287  ___lastModified_4;
 	// System.String System.Net.FtpWebResponse::bannerMessage
 	String_t* ___bannerMessage_5;
 	// System.String System.Net.FtpWebResponse::welcomeMessage
@@ -38,7 +38,7 @@ struct  FtpWebResponse_t2023  : public WebResponse_t1705
 	// System.Boolean System.Net.FtpWebResponse::disposed
 	bool ___disposed_10;
 	// System.Net.FtpWebRequest System.Net.FtpWebResponse::request
-	FtpWebRequest_t2027 * ___request_11;
+	FtpWebRequest_t3984 * ___request_11;
 	// System.Int64 System.Net.FtpWebResponse::contentLength
 	int64_t ___contentLength_12;
 };

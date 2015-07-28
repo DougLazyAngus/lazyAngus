@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.InputField/InputType
-struct InputType_t829;
+struct InputType_t870;
 

@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>
-struct KeyValuePair_2_t626;
+struct KeyValuePair_2_t671;
 // IOSADBanner
-struct IOSADBanner_t110;
+struct IOSADBanner_t150;
 // System.String
 struct String_t;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m19365(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t626 *, int32_t, IOSADBanner_t110 *, const MethodInfo*))KeyValuePair_2__ctor_m18522_gshared)(__this, ___key, ___value, method)
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_18MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m23139(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t671 *, int32_t, IOSADBanner_t150 *, const MethodInfo*))KeyValuePair_2__ctor_m20884_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::get_Key()
-#define KeyValuePair_2_get_Key_m19366(__this, method) (( int32_t (*) (KeyValuePair_2_t626 *, const MethodInfo*))KeyValuePair_2_get_Key_m18523_gshared)(__this, method)
+#define KeyValuePair_2_get_Key_m23140(__this, method) (( int32_t (*) (KeyValuePair_2_t671 *, const MethodInfo*))KeyValuePair_2_get_Key_m20885_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m19367(__this, ___value, method) (( void (*) (KeyValuePair_2_t626 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m18524_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Key_m23141(__this, ___value, method) (( void (*) (KeyValuePair_2_t671 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m20886_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::get_Value()
-#define KeyValuePair_2_get_Value_m3203(__this, method) (( IOSADBanner_t110 * (*) (KeyValuePair_2_t626 *, const MethodInfo*))KeyValuePair_2_get_Value_m18525_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m3497(__this, method) (( IOSADBanner_t150 * (*) (KeyValuePair_2_t671 *, const MethodInfo*))KeyValuePair_2_get_Value_m20887_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m19368(__this, ___value, method) (( void (*) (KeyValuePair_2_t626 *, IOSADBanner_t110 *, const MethodInfo*))KeyValuePair_2_set_Value_m18526_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Value_m23142(__this, ___value, method) (( void (*) (KeyValuePair_2_t671 *, IOSADBanner_t150 *, const MethodInfo*))KeyValuePair_2_set_Value_m20888_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>::ToString()
-#define KeyValuePair_2_ToString_m19369(__this, method) (( String_t* (*) (KeyValuePair_2_t626 *, const MethodInfo*))KeyValuePair_2_ToString_m18527_gshared)(__this, method)
+#define KeyValuePair_2_ToString_m23143(__this, method) (( String_t* (*) (KeyValuePair_2_t671 *, const MethodInfo*))KeyValuePair_2_ToString_m20889_gshared)(__this, method)

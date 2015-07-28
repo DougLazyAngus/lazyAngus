@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t733;
-// UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t734;
+// System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
+struct List_1_t739;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>
-struct  Enumerator_t3706 
+// MouseHole/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
+// System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>
+struct  Enumerator_t5666 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::l
-	List_1_t733 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::l
+	List_1_t739 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::current
-	BaseInputModule_t734 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::current
+	int32_t ___current_3;
 };

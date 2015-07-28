@@ -3,12 +3,12 @@
 // System.Security.Cryptography.HMAC
 #include "mscorlib_System_Security_Cryptography_HMAC.h"
 // System.Security.Cryptography.HMACSHA384
-struct  HMACSHA384_t2662  : public HMAC_t1869
+struct  HMACSHA384_t4636  : public HMAC_t3863
 {
 	// System.Boolean System.Security.Cryptography.HMACSHA384::legacy
 	bool ___legacy_11;
 };
-struct HMACSHA384_t2662_StaticFields{
+struct HMACSHA384_t4636_StaticFields{
 	// System.Boolean System.Security.Cryptography.HMACSHA384::legacy_mode
 	bool ___legacy_mode_10;
 };

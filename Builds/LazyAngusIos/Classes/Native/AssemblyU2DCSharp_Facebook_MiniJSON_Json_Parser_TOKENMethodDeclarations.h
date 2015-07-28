@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Facebook.MiniJSON.Json/Parser/TOKEN
-struct TOKEN_t409;
+struct TOKEN_t449;
 

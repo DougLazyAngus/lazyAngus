@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.SecurityPermissionFlag
-struct SecurityPermissionFlag_t2694;
+struct SecurityPermissionFlag_t4668;
 

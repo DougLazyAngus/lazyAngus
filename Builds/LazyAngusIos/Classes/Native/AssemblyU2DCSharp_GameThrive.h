@@ -3,6 +3,6 @@
 // OneSignal
 #include "AssemblyU2DCSharp_OneSignal.h"
 // GameThrive
-struct  GameThrive_t338  : public OneSignal_t339
+struct  GameThrive_t378  : public OneSignal_t379
 {
 };

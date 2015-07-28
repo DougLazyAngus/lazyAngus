@@ -5,7 +5,7 @@
 // GP_RTM_RoomStatus
 #include "AssemblyU2DCSharp_GP_RTM_RoomStatus.h"
 // GP_RTM_RoomStatus
-struct  GP_RTM_RoomStatus_t165 
+struct  GP_RTM_RoomStatus_t205 
 {
 	// System.Int32 GP_RTM_RoomStatus::value__
 	int32_t ___value___1;

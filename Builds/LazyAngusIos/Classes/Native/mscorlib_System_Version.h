@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Version
-struct  Version_t2040  : public Object_t
+struct  Version_t1325  : public Object_t
 {
 	// System.Int32 System.Version::_Major
 	int32_t ____Major_1;

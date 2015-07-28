@@ -1,16 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// TweetTemplate
-struct TweetTemplate_t283;
+// GPScore
+struct GPScore_t343;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>
-struct  KeyValuePair_2_t3591 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,GPScore>
+struct  KeyValuePair_2_t5498 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::value
-	TweetTemplate_t283 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,GPScore>::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,GPScore>::value
+	GPScore_t343 * ___value_1;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
-struct List_1_t1163;
+// System.Collections.Generic.List`1<System.WeakReference>
+struct List_1_t5940;
+// System.WeakReference
+struct WeakReference_t2165;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// UnityEngine.UICharInfo
-#include "UnityEngine_UnityEngine_UICharInfo.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
-struct  Enumerator_t3924 
+// System.Collections.Generic.List`1/Enumerator<System.WeakReference>
+struct  Enumerator_t5943 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::l
-	List_1_t1163 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.WeakReference>::l
+	List_1_t5940 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::current
-	UICharInfo_t970  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.WeakReference>::current
+	WeakReference_t2165 * ___current_3;
 };

@@ -5,7 +5,7 @@
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 // BoostConfig/BoostType
-struct  BoostType_t428 
+struct  BoostType_t469 
 {
 	// System.Int32 BoostConfig/BoostType::value__
 	int32_t ___value___1;

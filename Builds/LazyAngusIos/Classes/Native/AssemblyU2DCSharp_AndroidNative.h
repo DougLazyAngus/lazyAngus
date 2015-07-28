@@ -5,6 +5,6 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // AndroidNative
-struct  AndroidNative_t138  : public Object_t
+struct  AndroidNative_t178  : public Object_t
 {
 };

@@ -4,26 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>
-struct KeyValuePair_2_t4153;
+// System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>
+struct KeyValuePair_2_t6164;
+// System.Tuple`2<System.Type,System.String>
+struct Tuple_2_t1440;
 // System.String
 struct String_t;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m28961_gshared (KeyValuePair_2_t4153 * __this, int32_t ___key, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m28961(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t4153 *, int32_t, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m28961_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Key()
-extern "C" int32_t KeyValuePair_2_get_Key_m28962_gshared (KeyValuePair_2_t4153 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m28962(__this, method) (( int32_t (*) (KeyValuePair_2_t4153 *, const MethodInfo*))KeyValuePair_2_get_Key_m28962_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m28963_gshared (KeyValuePair_2_t4153 * __this, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m28963(__this, ___value, method) (( void (*) (KeyValuePair_2_t4153 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m28963_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Value()
-extern "C" int32_t KeyValuePair_2_get_Value_m28964_gshared (KeyValuePair_2_t4153 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m28964(__this, method) (( int32_t (*) (KeyValuePair_2_t4153 *, const MethodInfo*))KeyValuePair_2_get_Value_m28964_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m28965_gshared (KeyValuePair_2_t4153 * __this, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m28965(__this, ___value, method) (( void (*) (KeyValuePair_2_t4153 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m28965_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m28966_gshared (KeyValuePair_2_t4153 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m28966(__this, method) (( String_t* (*) (KeyValuePair_2_t4153 *, const MethodInfo*))KeyValuePair_2_ToString_m28966_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m33377(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6164 *, Tuple_2_t1440 *, String_t*, const MethodInfo*))KeyValuePair_2__ctor_m21581_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::get_Key()
+#define KeyValuePair_2_get_Key_m33378(__this, method) (( Tuple_2_t1440 * (*) (KeyValuePair_2_t6164 *, const MethodInfo*))KeyValuePair_2_get_Key_m21582_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m33379(__this, ___value, method) (( void (*) (KeyValuePair_2_t6164 *, Tuple_2_t1440 *, const MethodInfo*))KeyValuePair_2_set_Key_m21583_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::get_Value()
+#define KeyValuePair_2_get_Value_m33380(__this, method) (( String_t* (*) (KeyValuePair_2_t6164 *, const MethodInfo*))KeyValuePair_2_get_Value_m21584_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m33381(__this, ___value, method) (( void (*) (KeyValuePair_2_t6164 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Value_m21585_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::ToString()
+#define KeyValuePair_2_ToString_m33382(__this, method) (( String_t* (*) (KeyValuePair_2_t6164 *, const MethodInfo*))KeyValuePair_2_ToString_m21586_gshared)(__this, method)

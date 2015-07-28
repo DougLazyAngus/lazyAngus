@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GoogleCloudSlot
-struct GoogleCloudSlot_t144;
+struct GoogleCloudSlot_t184;
 

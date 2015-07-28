@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t804;
+struct Font_t845;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Color
@@ -17,12 +17,12 @@ struct Font_t804;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.TextGenerationSettings
-struct  TextGenerationSettings_t938 
+struct  TextGenerationSettings_t979 
 {
 	// UnityEngine.Font UnityEngine.TextGenerationSettings::font
-	Font_t804 * ___font_0;
+	Font_t845 * ___font_0;
 	// UnityEngine.Color UnityEngine.TextGenerationSettings::color
-	Color_t285  ___color_1;
+	Color_t325  ___color_1;
 	// System.Int32 UnityEngine.TextGenerationSettings::fontSize
 	int32_t ___fontSize_2;
 	// System.Single UnityEngine.TextGenerationSettings::lineSpacing
@@ -48,9 +48,9 @@ struct  TextGenerationSettings_t938
 	// UnityEngine.HorizontalWrapMode UnityEngine.TextGenerationSettings::horizontalOverflow
 	int32_t ___horizontalOverflow_13;
 	// UnityEngine.Vector2 UnityEngine.TextGenerationSettings::generationExtents
-	Vector2_t70  ___generationExtents_14;
+	Vector2_t110  ___generationExtents_14;
 	// UnityEngine.Vector2 UnityEngine.TextGenerationSettings::pivot
-	Vector2_t70  ___pivot_15;
+	Vector2_t110  ___pivot_15;
 	// System.Boolean UnityEngine.TextGenerationSettings::generateOutOfBounds
 	bool ___generateOutOfBounds_16;
 };

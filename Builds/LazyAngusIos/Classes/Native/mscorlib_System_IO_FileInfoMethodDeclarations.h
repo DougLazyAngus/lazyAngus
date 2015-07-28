@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileInfo
-struct FileInfo_t33;
+struct FileInfo_t63;
 // System.String
 struct String_t;
 // System.IO.DirectoryInfo
-struct DirectoryInfo_t34;
+struct DirectoryInfo_t64;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1301;
+struct SerializationInfo_t2861;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.FileInfo::.ctor(System.String)
-extern "C" void FileInfo__ctor_m187 (FileInfo_t33 * __this, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileInfo__ctor_m421 (FileInfo_t63 * __this, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileInfo::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileInfo__ctor_m13735 (FileInfo_t33 * __this, SerializationInfo_t1301 * ___info, StreamingContext_t1302  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileInfo__ctor_m17041 (FileInfo_t63 * __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileInfo::InternalRefresh()
-extern "C" void FileInfo_InternalRefresh_m13736 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileInfo_InternalRefresh_m17042 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.FileInfo::get_Exists()
-extern "C" bool FileInfo_get_Exists_m13737 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FileInfo_get_Exists_m17043 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.FileInfo::get_Name()
-extern "C" String_t* FileInfo_get_Name_m13738 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileInfo_get_Name_m17044 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.FileInfo::get_DirectoryName()
-extern "C" String_t* FileInfo_get_DirectoryName_m13739 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileInfo_get_DirectoryName_m17045 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.DirectoryInfo System.IO.FileInfo::get_Directory()
-extern "C" DirectoryInfo_t34 * FileInfo_get_Directory_m188 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DirectoryInfo_t64 * FileInfo_get_Directory_m422 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.FileInfo::ToString()
-extern "C" String_t* FileInfo_ToString_m13740 (FileInfo_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileInfo_ToString_m17046 (FileInfo_t63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

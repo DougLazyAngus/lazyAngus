@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Action`1<System.Object>
-struct Action_1_t3480;
+// System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>
+struct Action_1_t1413;
 // System.Object
 struct Object_t;
+// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
+struct Task_1_t1328;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Action_1__ctor_m19154_gshared (Action_1_t3480 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Action_1__ctor_m19154(__this, ___object, ___method, method) (( void (*) (Action_1_t3480 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m19154_gshared)(__this, ___object, ___method, method)
-// System.Void System.Action`1<System.Object>::Invoke(T)
-extern "C" void Action_1_Invoke_m19156_gshared (Action_1_t3480 * __this, Object_t * ___obj, const MethodInfo* method);
-#define Action_1_Invoke_m19156(__this, ___obj, method) (( void (*) (Action_1_t3480 *, Object_t *, const MethodInfo*))Action_1_Invoke_m19156_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Action`1<System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Action_1_BeginInvoke_m19158_gshared (Action_1_t3480 * __this, Object_t * ___obj, AsyncCallback_t346 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Action_1_BeginInvoke_m19158(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t3480 *, Object_t *, AsyncCallback_t346 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m19158_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Void System.Action`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void Action_1_EndInvoke_m19160_gshared (Action_1_t3480 * __this, Object_t * ___result, const MethodInfo* method);
-#define Action_1_EndInvoke_m19160(__this, ___result, method) (( void (*) (Action_1_t3480 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m19160_gshared)(__this, ___result, method)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::.ctor(System.Object,System.IntPtr)
+// System.Action`1<System.Object>
+#include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
+#define Action_1__ctor_m7179(__this, ___object, ___method, method) (( void (*) (Action_1_t1413 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22912_gshared)(__this, ___object, ___method, method)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::Invoke(T)
+#define Action_1_Invoke_m31398(__this, ___obj, method) (( void (*) (Action_1_t1413 *, Task_1_t1328 *, const MethodInfo*))Action_1_Invoke_m22914_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Action_1_BeginInvoke_m31399(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1413 *, Task_1_t1328 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22916_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::EndInvoke(System.IAsyncResult)
+#define Action_1_EndInvoke_m31400(__this, ___result, method) (( void (*) (Action_1_t1413 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22918_gshared)(__this, ___result, method)

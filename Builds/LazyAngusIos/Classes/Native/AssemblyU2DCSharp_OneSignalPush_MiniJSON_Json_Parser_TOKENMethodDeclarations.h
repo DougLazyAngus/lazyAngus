@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OneSignalPush.MiniJSON.Json/Parser/TOKEN
-struct TOKEN_t340;
+struct TOKEN_t380;
 

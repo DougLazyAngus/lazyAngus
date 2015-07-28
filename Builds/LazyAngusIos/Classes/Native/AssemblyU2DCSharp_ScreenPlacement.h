@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Transform
-struct Transform_t366;
+struct Transform_t406;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ScreenPosition
@@ -11,20 +11,20 @@ struct Transform_t366;
 // UnityEngine.ScreenOrientation
 #include "UnityEngine_UnityEngine_ScreenOrientation.h"
 // ScreenPlacement
-struct  ScreenPlacement_t367  : public MonoBehaviour_t66
+struct  ScreenPlacement_t407  : public MonoBehaviour_t13
 {
 	// ScreenPosition ScreenPlacement::position
 	int32_t ___position_2;
 	// UnityEngine.Vector2 ScreenPlacement::pixelOffset
-	Vector2_t70  ___pixelOffset_3;
+	Vector2_t110  ___pixelOffset_3;
 	// System.Boolean ScreenPlacement::persents
 	bool ___persents_4;
 	// System.Boolean ScreenPlacement::calulateStartOnly
 	bool ___calulateStartOnly_5;
 	// UnityEngine.Transform ScreenPlacement::boundsTransform
-	Transform_t366 * ___boundsTransform_6;
+	Transform_t406 * ___boundsTransform_6;
 	// UnityEngine.Vector2 ScreenPlacement::actualOffset
-	Vector2_t70  ___actualOffset_7;
+	Vector2_t110  ___actualOffset_7;
 	// UnityEngine.ScreenOrientation ScreenPlacement::orinetation
 	int32_t ___orinetation_8;
 };

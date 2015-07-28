@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // FBLikeInfo
-struct FBLikeInfo_t249;
+struct FBLikeInfo_t289;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>
-struct  KeyValuePair_2_t646 
+struct  KeyValuePair_2_t690 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>::key
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.String,FBLikeInfo>::value
-	FBLikeInfo_t249 * ___value_1;
+	FBLikeInfo_t289 * ___value_1;
 };

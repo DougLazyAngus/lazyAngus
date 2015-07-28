@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type
-struct Type_t;
-// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct IDictionary_2_t1295;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.Collections.DictionaryEntry
-#include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_45.h"
+// System.Int64
+#include "mscorlib_System_Int64.h"
+// System.Byte
+#include "mscorlib_System_Byte.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>,System.Collections.DictionaryEntry>
-struct  Transform_1_t4014  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>>
+struct  Transform_1_t6117  : public MulticastDelegate_t388
 {
 };

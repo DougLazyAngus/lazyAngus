@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<System.Int64>
+// System.Collections.Generic.EqualityComparer`1<System.Byte>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_6.h"
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Int64>
-struct  DefaultComparer_t3959  : public EqualityComparer_1_t3957
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Byte>
+struct  DefaultComparer_t6121  : public EqualityComparer_1_t6119
 {
 };

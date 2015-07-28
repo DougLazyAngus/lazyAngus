@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// UnityEngine.UILineInfo
-#include "UnityEngine_UnityEngine_UILineInfo.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.UILineInfo>
-struct  Comparison_1_t3941  : public MulticastDelegate_t348
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct  Comparison_1_t6016  : public MulticastDelegate_t388
 {
 };

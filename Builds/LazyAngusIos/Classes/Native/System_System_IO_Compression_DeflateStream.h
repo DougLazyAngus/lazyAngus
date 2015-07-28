@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.IO.Compression.DeflateStream/UnmanagedReadOrWrite
-struct UnmanagedReadOrWrite_t1960;
+struct UnmanagedReadOrWrite_t3919;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.Compression.CompressionMode
@@ -15,10 +15,10 @@ struct ByteU5BU5D_t36;
 // System.Runtime.InteropServices.GCHandle
 #include "mscorlib_System_Runtime_InteropServices_GCHandle.h"
 // System.IO.Compression.DeflateStream
-struct  DeflateStream_t1963  : public Stream_t24
+struct  DeflateStream_t3922  : public Stream_t51
 {
 	// System.IO.Stream System.IO.Compression.DeflateStream::base_stream
-	Stream_t24 * ___base_stream_1;
+	Stream_t51 * ___base_stream_1;
 	// System.IO.Compression.CompressionMode System.IO.Compression.DeflateStream::mode
 	int32_t ___mode_2;
 	// System.Boolean System.IO.Compression.DeflateStream::leaveOpen
@@ -26,11 +26,11 @@ struct  DeflateStream_t1963  : public Stream_t24
 	// System.Boolean System.IO.Compression.DeflateStream::disposed
 	bool ___disposed_4;
 	// System.IO.Compression.DeflateStream/UnmanagedReadOrWrite System.IO.Compression.DeflateStream::feeder
-	UnmanagedReadOrWrite_t1960 * ___feeder_5;
+	UnmanagedReadOrWrite_t3919 * ___feeder_5;
 	// System.IntPtr System.IO.Compression.DeflateStream::z_stream
 	IntPtr_t ___z_stream_6;
 	// System.Byte[] System.IO.Compression.DeflateStream::io_buffer
-	ByteU5BU5D_t36* ___io_buffer_7;
+	ByteU5BU5D_t66* ___io_buffer_7;
 	// System.Runtime.InteropServices.GCHandle System.IO.Compression.DeflateStream::data
-	GCHandle_t1964  ___data_8;
+	GCHandle_t3923  ___data_8;
 };

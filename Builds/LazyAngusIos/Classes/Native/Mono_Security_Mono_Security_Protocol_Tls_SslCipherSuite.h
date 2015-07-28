@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // Mono.Security.Protocol.Tls.CipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuite.h"
 // Mono.Security.Protocol.Tls.SslCipherSuite
-struct  SslCipherSuite_t1825  : public CipherSuite_t1789
+struct  SslCipherSuite_t3820  : public CipherSuite_t3785
 {
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::pad1
-	ByteU5BU5D_t36* ___pad1_21;
+	ByteU5BU5D_t66* ___pad1_21;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::pad2
-	ByteU5BU5D_t36* ___pad2_22;
+	ByteU5BU5D_t66* ___pad2_22;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::header
-	ByteU5BU5D_t36* ___header_23;
+	ByteU5BU5D_t66* ___header_23;
 };

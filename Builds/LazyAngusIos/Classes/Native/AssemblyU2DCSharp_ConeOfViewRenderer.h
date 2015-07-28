@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Mesh
-struct Mesh_t439;
+struct Mesh_t482;
 // UnityEngine.Material
-struct Material_t440;
+struct Material_t483;
 // BoostConfig
-struct BoostConfig_t416;
+struct BoostConfig_t457;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ConeOfViewRenderer
-struct  ConeOfViewRenderer_t441  : public MonoBehaviour_t66
+struct  ConeOfViewRenderer_t484  : public MonoBehaviour_t13
 {
 	// UnityEngine.Mesh ConeOfViewRenderer::viewMesh
-	Mesh_t439 * ___viewMesh_2;
+	Mesh_t482 * ___viewMesh_2;
 	// UnityEngine.Material ConeOfViewRenderer::viewMaterial
-	Material_t440 * ___viewMaterial_3;
+	Material_t483 * ___viewMaterial_3;
 	// System.Int32 ConeOfViewRenderer::numTriangles
 	int32_t ___numTriangles_4;
 	// BoostConfig ConeOfViewRenderer::boostConfig
-	BoostConfig_t416 * ___boostConfig_5;
+	BoostConfig_t457 * ___boostConfig_5;
 	// System.Boolean ConeOfViewRenderer::registeredForEvents
 	bool ___registeredForEvents_6;
 	// System.Single ConeOfViewRenderer::<actualAngleRange>k__BackingField

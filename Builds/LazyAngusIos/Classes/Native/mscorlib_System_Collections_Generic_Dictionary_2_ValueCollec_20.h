@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct Dictionary_2_t3506;
+// System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>
+struct Dictionary_2_t159;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>
-struct  ValueCollection_t3513  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>
+struct  ValueCollection_t5473  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>::dictionary
-	Dictionary_2_t3506 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AndroidADBanner>::dictionary
+	Dictionary_2_t159 * ___dictionary_0;
 };

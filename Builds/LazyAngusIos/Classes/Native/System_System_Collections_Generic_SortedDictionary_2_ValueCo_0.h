@@ -7,10 +7,10 @@ struct Object_t;
 // System.Collections.Generic.RBTree/NodeEnumerator
 #include "System_System_Collections_Generic_RBTree_NodeEnumerator.h"
 // System.Collections.Generic.SortedDictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
-struct  Enumerator_t3618 
+struct  Enumerator_t5588 
 {
 	// System.Collections.Generic.RBTree/NodeEnumerator System.Collections.Generic.SortedDictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::host
-	NodeEnumerator_t1938  ___host_0;
+	NodeEnumerator_t3897  ___host_0;
 	// TValue System.Collections.Generic.SortedDictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::current
 	Object_t * ___current_1;
 };

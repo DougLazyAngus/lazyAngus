@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.WWW
-struct  WWW_t225  : public Object_t
+struct  WWW_t265  : public Object_t
 {
 };

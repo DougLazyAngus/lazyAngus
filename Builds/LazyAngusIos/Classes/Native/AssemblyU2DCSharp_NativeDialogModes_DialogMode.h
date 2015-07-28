@@ -5,7 +5,7 @@
 // NativeDialogModes.DialogMode
 #include "AssemblyU2DCSharp_NativeDialogModes_DialogMode.h"
 // NativeDialogModes.DialogMode
-struct  DialogMode_t391 
+struct  DialogMode_t431 
 {
 	// System.Int32 NativeDialogModes.DialogMode::value__
 	int32_t ___value___1;

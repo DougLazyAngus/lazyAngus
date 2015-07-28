@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DebugLogPropagate
-struct  DebugLogPropagate_t446  : public MonoBehaviour_t66
+struct  DebugLogPropagate_t489  : public MonoBehaviour_t13
 {
 	// System.Int32 DebugLogPropagate::foo
 	int32_t ___foo_2;

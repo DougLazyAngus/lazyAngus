@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_QuestState
-struct GP_QuestState_t167;
+struct GP_QuestState_t207;
 

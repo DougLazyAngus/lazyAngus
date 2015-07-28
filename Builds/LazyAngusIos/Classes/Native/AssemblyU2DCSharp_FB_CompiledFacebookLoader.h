@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // FB/CompiledFacebookLoader
-struct  CompiledFacebookLoader_t378  : public MonoBehaviour_t66
+struct  CompiledFacebookLoader_t418  : public MonoBehaviour_t13
 {
 };

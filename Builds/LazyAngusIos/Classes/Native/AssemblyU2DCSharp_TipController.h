@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GameObject
-struct GameObject_t312;
+struct GameObject_t352;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 // TipController
-struct TipController_t560;
+struct TipController_t605;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TipController
-struct  TipController_t560  : public MonoBehaviour_t66
+struct  TipController_t605  : public MonoBehaviour_t13
 {
 	// System.Boolean TipController::registeredForEvents
 	bool ___registeredForEvents_2;
 	// UnityEngine.GameObject TipController::tipDialogPrototype
-	GameObject_t312 * ___tipDialogPrototype_3;
+	GameObject_t352 * ___tipDialogPrototype_3;
 	// System.Collections.IEnumerator TipController::enqueuedTip
 	Object_t * ___enqueuedTip_4;
 };
-struct TipController_t560_StaticFields{
+struct TipController_t605_StaticFields{
 	// TipController TipController::instance
-	TipController_t560 * ___instance_5;
+	TipController_t605 * ___instance_5;
 };

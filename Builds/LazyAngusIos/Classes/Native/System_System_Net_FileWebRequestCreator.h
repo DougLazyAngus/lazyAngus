@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.FileWebRequestCreator
-struct  FileWebRequestCreator_t2022  : public Object_t
+struct  FileWebRequestCreator_t3979  : public Object_t
 {
 };

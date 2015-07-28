@@ -3,26 +3,26 @@
 // System.String
 struct String_t;
 // OneSignal/IdsAvailable
-struct IdsAvailable_t336;
+struct IdsAvailable_t376;
 // OneSignal/TagsReceived
-struct TagsReceived_t349;
+struct TagsReceived_t389;
 // OneSignalPlatform
-struct OneSignalPlatform_t350;
+struct OneSignalPlatform_t390;
 // OneSignal/NotificationReceived
-struct NotificationReceived_t347;
+struct NotificationReceived_t387;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // OneSignal/LOG_LEVEL
 #include "AssemblyU2DCSharp_OneSignal_LOG_LEVEL.h"
 // OneSignal
-struct  OneSignal_t339  : public MonoBehaviour_t66
+struct  OneSignal_t379  : public MonoBehaviour_t13
 {
 };
-struct OneSignal_t339_StaticFields{
+struct OneSignal_t379_StaticFields{
 	// OneSignal/IdsAvailable OneSignal::idsAvailableDelegate
-	IdsAvailable_t336 * ___idsAvailableDelegate_3;
+	IdsAvailable_t376 * ___idsAvailableDelegate_3;
 	// OneSignal/TagsReceived OneSignal::tagsReceivedDelegate
-	TagsReceived_t349 * ___tagsReceivedDelegate_4;
+	TagsReceived_t389 * ___tagsReceivedDelegate_4;
 	// OneSignal/LOG_LEVEL OneSignal::logLevel
 	int32_t ___logLevel_5;
 	// OneSignal/LOG_LEVEL OneSignal::visualLogLevel
@@ -32,5 +32,5 @@ struct OneSignal_t339_StaticFields{
 	// System.Boolean OneSignal::initialized
 	bool ___initialized_8;
 	// OneSignal/NotificationReceived OneSignal::notificationDelegate
-	NotificationReceived_t347 * ___notificationDelegate_9;
+	NotificationReceived_t387 * ___notificationDelegate_9;
 };

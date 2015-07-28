@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.LinkRef
-struct LinkRef_t2127;
+struct LinkRef_t4079;
 
 // System.Void System.Text.RegularExpressions.LinkRef::.ctor()
-extern "C" void LinkRef__ctor_m11132 (LinkRef_t2127 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkRef__ctor_m14352 (LinkRef_t4079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

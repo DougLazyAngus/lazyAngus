@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t1121;
-// System.Byte[]
-struct ByteU5BU5D_t36;
+// System.Collections.Generic.List`1<UnityEngine.RectTransform>
+struct List_1_t937;
+// UnityEngine.RectTransform
+struct RectTransform_t618;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Byte[]>
-struct  Enumerator_t3912 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
+struct  Enumerator_t5839 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Byte[]>::l
-	List_1_t1121 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::l
+	List_1_t937 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Byte[]>::current
-	ByteU5BU5D_t36* ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::current
+	RectTransform_t618 * ___current_3;
 };

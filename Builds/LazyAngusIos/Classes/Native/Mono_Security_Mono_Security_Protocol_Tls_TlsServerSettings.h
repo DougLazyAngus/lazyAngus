@@ -1,36 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t1755;
+struct X509CertificateCollection_t3751;
 // System.Security.Cryptography.RSA
-struct RSA_t1752;
+struct RSA_t3748;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.String[]
-struct StringU5BU5D_t45;
+struct StringU5BU5D_t75;
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
-struct ClientCertificateTypeU5BU5D_t1832;
+struct ClientCertificateTypeU5BU5D_t3827;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.RSAParameters
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
 // Mono.Security.Protocol.Tls.TlsServerSettings
-struct  TlsServerSettings_t1799  : public Object_t
+struct  TlsServerSettings_t3795  : public Object_t
 {
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.Protocol.Tls.TlsServerSettings::certificates
-	X509CertificateCollection_t1755 * ___certificates_0;
+	X509CertificateCollection_t3751 * ___certificates_0;
 	// System.Security.Cryptography.RSA Mono.Security.Protocol.Tls.TlsServerSettings::certificateRSA
-	RSA_t1752 * ___certificateRSA_1;
+	RSA_t3748 * ___certificateRSA_1;
 	// System.Security.Cryptography.RSAParameters Mono.Security.Protocol.Tls.TlsServerSettings::rsaParameters
-	RSAParameters_t1833  ___rsaParameters_2;
+	RSAParameters_t3828  ___rsaParameters_2;
 	// System.Byte[] Mono.Security.Protocol.Tls.TlsServerSettings::signedParams
-	ByteU5BU5D_t36* ___signedParams_3;
+	ByteU5BU5D_t66* ___signedParams_3;
 	// System.String[] Mono.Security.Protocol.Tls.TlsServerSettings::distinguisedNames
-	StringU5BU5D_t45* ___distinguisedNames_4;
+	StringU5BU5D_t75* ___distinguisedNames_4;
 	// System.Boolean Mono.Security.Protocol.Tls.TlsServerSettings::serverKeyExchange
 	bool ___serverKeyExchange_5;
 	// System.Boolean Mono.Security.Protocol.Tls.TlsServerSettings::certificateRequest
 	bool ___certificateRequest_6;
 	// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[] Mono.Security.Protocol.Tls.TlsServerSettings::certificateTypes
-	ClientCertificateTypeU5BU5D_t1832* ___certificateTypes_7;
+	ClientCertificateTypeU5BU5D_t3827* ___certificateTypes_7;
 };

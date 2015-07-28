@@ -4,26 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct KeyValuePair_2_t3785;
-// UnityEngine.Font
-struct Font_t804;
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t953;
+// System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>
+struct KeyValuePair_2_t5561;
 // System.String
 struct String_t;
+// TweetTemplate
+struct TweetTemplate_t323;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::.ctor(TKey,TValue)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m24202(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3785 *, Font_t804 *, List_1_t953 *, const MethodInfo*))KeyValuePair_2__ctor_m17725_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::get_Key()
-#define KeyValuePair_2_get_Key_m24203(__this, method) (( Font_t804 * (*) (KeyValuePair_2_t3785 *, const MethodInfo*))KeyValuePair_2_get_Key_m17726_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m24204(__this, ___value, method) (( void (*) (KeyValuePair_2_t3785 *, Font_t804 *, const MethodInfo*))KeyValuePair_2_set_Key_m17727_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::get_Value()
-#define KeyValuePair_2_get_Value_m24205(__this, method) (( List_1_t953 * (*) (KeyValuePair_2_t3785 *, const MethodInfo*))KeyValuePair_2_get_Value_m17728_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m24206(__this, ___value, method) (( void (*) (KeyValuePair_2_t3785 *, List_1_t953 *, const MethodInfo*))KeyValuePair_2_set_Value_m17729_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::ToString()
-#define KeyValuePair_2_ToString_m24207(__this, method) (( String_t* (*) (KeyValuePair_2_t3785 *, const MethodInfo*))KeyValuePair_2_ToString_m17730_gshared)(__this, method)
+#define KeyValuePair_2__ctor_m25078(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t5561 *, String_t*, TweetTemplate_t323 *, const MethodInfo*))KeyValuePair_2__ctor_m21581_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::get_Key()
+#define KeyValuePair_2_get_Key_m25079(__this, method) (( String_t* (*) (KeyValuePair_2_t5561 *, const MethodInfo*))KeyValuePair_2_get_Key_m21582_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m25080(__this, ___value, method) (( void (*) (KeyValuePair_2_t5561 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21583_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::get_Value()
+#define KeyValuePair_2_get_Value_m25081(__this, method) (( TweetTemplate_t323 * (*) (KeyValuePair_2_t5561 *, const MethodInfo*))KeyValuePair_2_get_Value_m21584_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m25082(__this, ___value, method) (( void (*) (KeyValuePair_2_t5561 *, TweetTemplate_t323 *, const MethodInfo*))KeyValuePair_2_set_Value_m21585_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::ToString()
+#define KeyValuePair_2_ToString_m25083(__this, method) (( String_t* (*) (KeyValuePair_2_t5561 *, const MethodInfo*))KeyValuePair_2_ToString_m21586_gshared)(__this, method)

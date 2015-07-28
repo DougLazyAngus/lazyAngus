@@ -130,3 +130,14 @@ struct InterfaceFuncInvoker5
 		return ((Func)data.methodInfo->method)(data.target, p1, p2, p3, p4, p5, data.methodInfo);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+struct InterfaceFuncInvoker6
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const MethodInfo*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, TypeInfo* declaringInterface, void* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
+	{
+		VirtualInvokeData data = il2cpp::vm::Runtime::GetInterfaceInvokeData (slot, declaringInterface, obj);
+		return ((Func)data.methodInfo->method)(data.target, p1, p2, p3, p4, p5, p6, data.methodInfo);
+	}
+};

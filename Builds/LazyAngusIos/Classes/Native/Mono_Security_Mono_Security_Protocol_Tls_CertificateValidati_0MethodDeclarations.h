@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.CertificateValidationCallback2
-struct CertificateValidationCallback2_t1823;
+struct CertificateValidationCallback2_t3818;
 // System.Object
 struct Object_t;
 // Mono.Security.Protocol.Tls.ValidationResult
-struct ValidationResult_t1821;
+struct ValidationResult_t3816;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t1755;
+struct X509CertificateCollection_t3751;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Mono.Security.Protocol.Tls.CertificateValidationCallback2::.ctor(System.Object,System.IntPtr)
-extern "C" void CertificateValidationCallback2__ctor_m9537 (CertificateValidationCallback2_t1823 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CertificateValidationCallback2__ctor_m12793 (CertificateValidationCallback2_t3818 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::Invoke(Mono.Security.X509.X509CertificateCollection)
-extern "C" ValidationResult_t1821 * CertificateValidationCallback2_Invoke_m9538 (CertificateValidationCallback2_t1823 * __this, X509CertificateCollection_t1755 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" ValidationResult_t1821 * pinvoke_delegate_wrapper_CertificateValidationCallback2_t1823(Il2CppObject* delegate, X509CertificateCollection_t1755 * ___collection);
+extern "C" ValidationResult_t3816 * CertificateValidationCallback2_Invoke_m12794 (CertificateValidationCallback2_t3818 * __this, X509CertificateCollection_t3751 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValidationResult_t3816 * pinvoke_delegate_wrapper_CertificateValidationCallback2_t3818(Il2CppObject* delegate, X509CertificateCollection_t3751 * ___collection);
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::BeginInvoke(Mono.Security.X509.X509CertificateCollection,System.AsyncCallback,System.Object)
-extern "C" Object_t * CertificateValidationCallback2_BeginInvoke_m9539 (CertificateValidationCallback2_t1823 * __this, X509CertificateCollection_t1755 * ___collection, AsyncCallback_t346 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CertificateValidationCallback2_BeginInvoke_m12795 (CertificateValidationCallback2_t3818 * __this, X509CertificateCollection_t3751 * ___collection, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::EndInvoke(System.IAsyncResult)
-extern "C" ValidationResult_t1821 * CertificateValidationCallback2_EndInvoke_m9540 (CertificateValidationCallback2_t1823 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValidationResult_t3816 * CertificateValidationCallback2_EndInvoke_m12796 (CertificateValidationCallback2_t3818 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

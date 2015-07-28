@@ -1,16 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.String
+struct String_t;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>
+struct Task_1_t2378;
+// System.IAsyncResult
+struct IAsyncResult_t385;
+// System.AsyncCallback
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t345;
-// System.AsyncCallback
-struct AsyncCallback_t346;
-// System.UInt64
-#include "mscorlib_System_UInt64.h"
+// System.Collections.DictionaryEntry
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>
-struct  Transform_1_t3992  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>,System.Collections.DictionaryEntry>
+struct  Transform_1_t6040  : public MulticastDelegate_t388
 {
 };

@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Match.ListMatchRequest
-struct ListMatchRequest_t1177;
+struct ListMatchRequest_t2745;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int64>
-struct Dictionary_2_t1170;
+struct Dictionary_2_t2738;
 
 // System.Void UnityEngine.Networking.Match.ListMatchRequest::.ctor()
-extern "C" void ListMatchRequest__ctor_m6757 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchRequest__ctor_m9383 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Networking.Match.ListMatchRequest::get_pageSize()
-extern "C" int32_t ListMatchRequest_get_pageSize_m6758 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ListMatchRequest_get_pageSize_m9384 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ListMatchRequest::set_pageSize(System.Int32)
-extern "C" void ListMatchRequest_set_pageSize_m6759 (ListMatchRequest_t1177 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchRequest_set_pageSize_m9385 (ListMatchRequest_t2745 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Networking.Match.ListMatchRequest::get_pageNum()
-extern "C" int32_t ListMatchRequest_get_pageNum_m6760 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ListMatchRequest_get_pageNum_m9386 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ListMatchRequest::set_pageNum(System.Int32)
-extern "C" void ListMatchRequest_set_pageNum_m6761 (ListMatchRequest_t1177 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchRequest_set_pageNum_m9387 (ListMatchRequest_t2745 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.ListMatchRequest::get_nameFilter()
-extern "C" String_t* ListMatchRequest_get_nameFilter_m6762 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ListMatchRequest_get_nameFilter_m9388 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ListMatchRequest::set_nameFilter(System.String)
-extern "C" void ListMatchRequest_set_nameFilter_m6763 (ListMatchRequest_t1177 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchRequest_set_nameFilter_m9389 (ListMatchRequest_t2745 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int64> UnityEngine.Networking.Match.ListMatchRequest::get_matchAttributeFilterLessThan()
-extern "C" Dictionary_2_t1170 * ListMatchRequest_get_matchAttributeFilterLessThan_m6764 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t2738 * ListMatchRequest_get_matchAttributeFilterLessThan_m9390 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int64> UnityEngine.Networking.Match.ListMatchRequest::get_matchAttributeFilterGreaterThan()
-extern "C" Dictionary_2_t1170 * ListMatchRequest_get_matchAttributeFilterGreaterThan_m6765 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t2738 * ListMatchRequest_get_matchAttributeFilterGreaterThan_m9391 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.ListMatchRequest::ToString()
-extern "C" String_t* ListMatchRequest_ToString_m6766 (ListMatchRequest_t1177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ListMatchRequest_ToString_m9392 (ListMatchRequest_t2745 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

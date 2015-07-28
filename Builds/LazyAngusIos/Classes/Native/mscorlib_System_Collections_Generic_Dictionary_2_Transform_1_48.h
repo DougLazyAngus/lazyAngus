@@ -2,17 +2,17 @@
 #include <stdint.h>
 // System.Object
 struct Object_t;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t629;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.UInt64
-#include "mscorlib_System_UInt64.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Collections.DictionaryEntry>
-struct  Transform_1_t3981  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Collections.Generic.List`1<System.Object>,System.Collections.DictionaryEntry>
+struct  Transform_1_t6077  : public MulticastDelegate_t388
 {
 };

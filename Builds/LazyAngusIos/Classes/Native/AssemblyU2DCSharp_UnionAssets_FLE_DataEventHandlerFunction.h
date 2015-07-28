@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnionAssets.FLE.CEvent
-struct CEvent_t93;
+struct CEvent_t133;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnionAssets.FLE.DataEventHandlerFunction
-struct  DataEventHandlerFunction_t576  : public MulticastDelegate_t348
+struct  DataEventHandlerFunction_t621  : public MulticastDelegate_t388
 {
 };

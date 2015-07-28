@@ -3,7 +3,7 @@
 // System.Runtime.Serialization.BaseFixupRecord
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 // System.Runtime.Serialization.ArrayFixupRecord
-struct  ArrayFixupRecord_t2636  : public BaseFixupRecord_t2635
+struct  ArrayFixupRecord_t4610  : public BaseFixupRecord_t4609
 {
 	// System.Int32 System.Runtime.Serialization.ArrayFixupRecord::_index
 	int32_t ____index_4;

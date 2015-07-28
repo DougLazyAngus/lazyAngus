@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Cryptography.KeyPairPersistence
-struct KeyPairPersistence_t2369;
+struct KeyPairPersistence_t4343;
 // Mono.Security.Cryptography.DSAManaged
-struct DSAManaged_t2368;
+struct DSAManaged_t4342;
 // System.Security.Cryptography.DSA
 #include "mscorlib_System_Security_Cryptography_DSA.h"
 // System.Security.Cryptography.DSACryptoServiceProvider
-struct  DSACryptoServiceProvider_t1870  : public DSA_t1758
+struct  DSACryptoServiceProvider_t3864  : public DSA_t3754
 {
 	// Mono.Security.Cryptography.KeyPairPersistence System.Security.Cryptography.DSACryptoServiceProvider::store
-	KeyPairPersistence_t2369 * ___store_2;
+	KeyPairPersistence_t4343 * ___store_2;
 	// System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::persistKey
 	bool ___persistKey_3;
 	// System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::persisted
@@ -20,9 +20,9 @@ struct  DSACryptoServiceProvider_t1870  : public DSA_t1758
 	// System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::m_disposed
 	bool ___m_disposed_6;
 	// Mono.Security.Cryptography.DSAManaged System.Security.Cryptography.DSACryptoServiceProvider::dsa
-	DSAManaged_t2368 * ___dsa_7;
+	DSAManaged_t4342 * ___dsa_7;
 };
-struct DSACryptoServiceProvider_t1870_StaticFields{
+struct DSACryptoServiceProvider_t3864_StaticFields{
 	// System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::useMachineKeyStore
 	bool ___useMachineKeyStore_8;
 };

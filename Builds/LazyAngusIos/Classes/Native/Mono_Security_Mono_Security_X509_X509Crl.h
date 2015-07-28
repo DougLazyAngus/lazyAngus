@@ -3,42 +3,42 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t1556;
+struct ArrayList_t3102;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t1759;
+struct X509ExtensionCollection_t3755;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t183;
+struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Crl
-struct  X509Crl_t1766  : public Object_t
+struct  X509Crl_t3762  : public Object_t
 {
 	// System.String Mono.Security.X509.X509Crl::issuer
 	String_t* ___issuer_0;
 	// System.Byte Mono.Security.X509.X509Crl::version
 	uint8_t ___version_1;
 	// System.DateTime Mono.Security.X509.X509Crl::thisUpdate
-	DateTime_t247  ___thisUpdate_2;
+	DateTime_t287  ___thisUpdate_2;
 	// System.DateTime Mono.Security.X509.X509Crl::nextUpdate
-	DateTime_t247  ___nextUpdate_3;
+	DateTime_t287  ___nextUpdate_3;
 	// System.Collections.ArrayList Mono.Security.X509.X509Crl::entries
-	ArrayList_t1556 * ___entries_4;
+	ArrayList_t3102 * ___entries_4;
 	// System.String Mono.Security.X509.X509Crl::signatureOID
 	String_t* ___signatureOID_5;
 	// System.Byte[] Mono.Security.X509.X509Crl::signature
-	ByteU5BU5D_t36* ___signature_6;
+	ByteU5BU5D_t66* ___signature_6;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl::extensions
-	X509ExtensionCollection_t1759 * ___extensions_7;
+	X509ExtensionCollection_t3755 * ___extensions_7;
 	// System.Byte[] Mono.Security.X509.X509Crl::encoded
-	ByteU5BU5D_t36* ___encoded_8;
+	ByteU5BU5D_t66* ___encoded_8;
 	// System.Byte[] Mono.Security.X509.X509Crl::hash_value
-	ByteU5BU5D_t36* ___hash_value_9;
+	ByteU5BU5D_t66* ___hash_value_9;
 };
-struct X509Crl_t1766_StaticFields{
+struct X509Crl_t3762_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Crl::<>f__switch$map13
-	Dictionary_2_t183 * ___U3CU3Ef__switchU24map13_10;
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map13_10;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.PKCS7/ContentInfo
-struct ContentInfo_t2390;
+struct ContentInfo_t4364;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.PKCS7/EncryptedData
-struct  EncryptedData_t2391  : public Object_t
+struct  EncryptedData_t4365  : public Object_t
 {
 	// System.Byte Mono.Security.PKCS7/EncryptedData::_version
 	uint8_t ____version_0;
 	// Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::_content
-	ContentInfo_t2390 * ____content_1;
+	ContentInfo_t4364 * ____content_1;
 	// Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::_encryptionAlgorithm
-	ContentInfo_t2390 * ____encryptionAlgorithm_2;
+	ContentInfo_t4364 * ____encryptionAlgorithm_2;
 	// System.Byte[] Mono.Security.PKCS7/EncryptedData::_encrypted
-	ByteU5BU5D_t36* ____encrypted_3;
+	ByteU5BU5D_t66* ____encrypted_3;
 };

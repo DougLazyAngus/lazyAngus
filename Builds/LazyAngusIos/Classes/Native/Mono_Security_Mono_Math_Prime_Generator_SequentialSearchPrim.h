@@ -3,6 +3,6 @@
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
 #include "Mono_Security_Mono_Math_Prime_Generator_PrimeGeneratorBase.h"
 // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
-struct  SequentialSearchPrimeGeneratorBase_t1730  : public PrimeGeneratorBase_t1729
+struct  SequentialSearchPrimeGeneratorBase_t3726  : public PrimeGeneratorBase_t3725
 {
 };

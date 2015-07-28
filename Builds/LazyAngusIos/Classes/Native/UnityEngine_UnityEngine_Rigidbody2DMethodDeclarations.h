@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t1143;
+struct Rigidbody2D_t2711;
 

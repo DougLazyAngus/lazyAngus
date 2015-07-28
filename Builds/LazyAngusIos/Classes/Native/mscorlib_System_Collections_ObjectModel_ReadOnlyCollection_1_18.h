@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Int32>
-struct IList_1_t3655;
+// System.Collections.Generic.IList`1<FBLikeInfo>
+struct IList_1_t5545;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
-struct  ReadOnlyCollection_1_t3656  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<FBLikeInfo>
+struct  ReadOnlyCollection_1_t5546  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<FBLikeInfo>::list
 	Object_t* ___list_0;
 };

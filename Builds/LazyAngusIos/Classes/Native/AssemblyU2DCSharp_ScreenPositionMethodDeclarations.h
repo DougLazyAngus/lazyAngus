@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ScreenPosition
-struct ScreenPosition_t368;
+struct ScreenPosition_t408;
 

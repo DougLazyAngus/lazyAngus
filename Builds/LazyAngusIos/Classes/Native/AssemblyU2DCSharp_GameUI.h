@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GameUI
-struct  GameUI_t457  : public MonoBehaviour_t66
+struct  GameUI_t500  : public MonoBehaviour_t13
 {
 };

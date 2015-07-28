@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.Extensions.NetscapeCertTypeExtension/CertTypes
-struct CertTypes_t1777;
+struct CertTypes_t3773;
 

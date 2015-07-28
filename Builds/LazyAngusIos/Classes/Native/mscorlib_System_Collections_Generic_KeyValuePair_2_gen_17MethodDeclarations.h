@@ -4,24 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>
-struct KeyValuePair_2_t3458;
-// System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t579;
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
+struct KeyValuePair_2_t3322;
 // System.String
 struct String_t;
+// System.DateTime
+#include "mscorlib_System_DateTime.h"
+// System.TimeZoneInfo/TimeType
+#include "System_Core_System_TimeZoneInfo_TimeType.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m18814(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3458 *, int32_t, List_1_t579 *, const MethodInfo*))KeyValuePair_2__ctor_m18522_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::get_Key()
-#define KeyValuePair_2_get_Key_m18815(__this, method) (( int32_t (*) (KeyValuePair_2_t3458 *, const MethodInfo*))KeyValuePair_2_get_Key_m18523_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m18816(__this, ___value, method) (( void (*) (KeyValuePair_2_t3458 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m18524_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::get_Value()
-#define KeyValuePair_2_get_Value_m18817(__this, method) (( List_1_t579 * (*) (KeyValuePair_2_t3458 *, const MethodInfo*))KeyValuePair_2_get_Value_m18525_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m18818(__this, ___value, method) (( void (*) (KeyValuePair_2_t3458 *, List_1_t579 *, const MethodInfo*))KeyValuePair_2_set_Value_m18526_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::ToString()
-#define KeyValuePair_2_ToString_m18819(__this, method) (( String_t* (*) (KeyValuePair_2_t3458 *, const MethodInfo*))KeyValuePair_2_ToString_m18527_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::.ctor(TKey,TValue)
+extern "C" void KeyValuePair_2__ctor_m11542_gshared (KeyValuePair_2_t3322 * __this, DateTime_t287  ___key, TimeType_t3299  ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m11542(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3322 *, DateTime_t287 , TimeType_t3299 , const MethodInfo*))KeyValuePair_2__ctor_m11542_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::get_Key()
+extern "C" DateTime_t287  KeyValuePair_2_get_Key_m11532_gshared (KeyValuePair_2_t3322 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m11532(__this, method) (( DateTime_t287  (*) (KeyValuePair_2_t3322 *, const MethodInfo*))KeyValuePair_2_get_Key_m11532_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::set_Key(TKey)
+extern "C" void KeyValuePair_2_set_Key_m62767_gshared (KeyValuePair_2_t3322 * __this, DateTime_t287  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m62767(__this, ___value, method) (( void (*) (KeyValuePair_2_t3322 *, DateTime_t287 , const MethodInfo*))KeyValuePair_2_set_Key_m62767_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::get_Value()
+extern "C" TimeType_t3299  KeyValuePair_2_get_Value_m11533_gshared (KeyValuePair_2_t3322 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m11533(__this, method) (( TimeType_t3299  (*) (KeyValuePair_2_t3322 *, const MethodInfo*))KeyValuePair_2_get_Value_m11533_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::set_Value(TValue)
+extern "C" void KeyValuePair_2_set_Value_m62768_gshared (KeyValuePair_2_t3322 * __this, TimeType_t3299  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m62768(__this, ___value, method) (( void (*) (KeyValuePair_2_t3322 *, TimeType_t3299 , const MethodInfo*))KeyValuePair_2_set_Value_m62768_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::ToString()
+extern "C" String_t* KeyValuePair_2_ToString_m62769_gshared (KeyValuePair_2_t3322 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m62769(__this, method) (( String_t* (*) (KeyValuePair_2_t3322 *, const MethodInfo*))KeyValuePair_2_ToString_m62769_gshared)(__this, method)

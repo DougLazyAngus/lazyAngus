@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Button
-struct Button_t423;
+struct Button_t464;
 // UnityEngine.UI.Text
-struct Text_t424;
+struct Text_t465;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BoostButton/BoostButtonMode
@@ -11,18 +11,18 @@ struct Text_t424;
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 // BoostButton
-struct  BoostButton_t421  : public MonoBehaviour_t66
+struct  BoostButton_t462  : public MonoBehaviour_t13
 {
 	// BoostButton/BoostButtonMode BoostButton::mode
 	int32_t ___mode_2;
 	// UnityEngine.UI.Button BoostButton::button
-	Button_t423 * ___button_3;
+	Button_t464 * ___button_3;
 	// UnityEngine.UI.Text BoostButton::buttonText
-	Text_t424 * ___buttonText_4;
+	Text_t465 * ___buttonText_4;
 	// UnityEngine.UI.Text BoostButton::countText
-	Text_t424 * ___countText_5;
+	Text_t465 * ___countText_5;
 	// UnityEngine.UI.Text BoostButton::restrictionText
-	Text_t424 * ___restrictionText_6;
+	Text_t465 * ___restrictionText_6;
 	// BoostConfig/BoostType BoostButton::boostType
 	int32_t ___boostType_7;
 	// System.Int32 BoostButton::priceInTreats

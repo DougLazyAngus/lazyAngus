@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Networking.Match.MatchDirectConnectInfo[]
-struct MatchDirectConnectInfoU5BU5D_t3964;
+// System.Action`1<System.Threading.Tasks.Task>[]
+struct Action_1U5BU5D_t8269;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>
-struct  List_1_t1179  : public Object_t
+// System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>
+struct  List_1_t2096  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_items
-	MatchDirectConnectInfoU5BU5D_t3964* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_size
+	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_items
+	Action_1U5BU5D_t8269* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1179_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::EmptyArray
-	MatchDirectConnectInfoU5BU5D_t3964* ___EmptyArray_4;
+struct List_1_t2096_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::EmptyArray
+	Action_1U5BU5D_t8269* ___EmptyArray_4;
 };

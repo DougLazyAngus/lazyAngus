@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t638;
+struct Encoding_t682;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Text.Decoder
-struct Decoder_t1632;
+struct Decoder_t3177;
 // System.Char[]
-struct CharU5BU5D_t608;
+struct CharU5BU5D_t653;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.BinaryReader
-struct  BinaryReader_t25  : public Object_t
+struct  BinaryReader_t52  : public Object_t
 {
 	// System.IO.Stream System.IO.BinaryReader::m_stream
-	Stream_t24 * ___m_stream_0;
+	Stream_t51 * ___m_stream_0;
 	// System.Text.Encoding System.IO.BinaryReader::m_encoding
-	Encoding_t638 * ___m_encoding_1;
+	Encoding_t682 * ___m_encoding_1;
 	// System.Byte[] System.IO.BinaryReader::m_buffer
-	ByteU5BU5D_t36* ___m_buffer_2;
+	ByteU5BU5D_t66* ___m_buffer_2;
 	// System.Text.Decoder System.IO.BinaryReader::decoder
-	Decoder_t1632 * ___decoder_3;
+	Decoder_t3177 * ___decoder_3;
 	// System.Char[] System.IO.BinaryReader::charBuffer
-	CharU5BU5D_t608* ___charBuffer_4;
+	CharU5BU5D_t653* ___charBuffer_4;
 	// System.Boolean System.IO.BinaryReader::m_disposed
 	bool ___m_disposed_5;
 };

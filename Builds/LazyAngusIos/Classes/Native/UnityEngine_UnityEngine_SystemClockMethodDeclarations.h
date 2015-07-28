@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SystemClock
-struct SystemClock_t1255;
+struct SystemClock_t2819;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
 // System.Void UnityEngine.SystemClock::.cctor()
-extern "C" void SystemClock__cctor_m7057 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SystemClock__cctor_m9682 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime UnityEngine.SystemClock::get_now()
-extern "C" DateTime_t247  SystemClock_get_now_m7058 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  SystemClock_get_now_m9683 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

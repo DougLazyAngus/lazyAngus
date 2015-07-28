@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Facebook.FBAppEventParameterName
-struct FBAppEventParameterName_t383;
+struct FBAppEventParameterName_t423;
 
 // System.Void Facebook.FBAppEventParameterName::.ctor()
-extern "C" void FBAppEventParameterName__ctor_m2004 (FBAppEventParameterName_t383 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FBAppEventParameterName__ctor_m2275 (FBAppEventParameterName_t423 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

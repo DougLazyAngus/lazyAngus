@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t1556;
+struct ArrayList_t3102;
 // System.Collections.Hashtable
-struct Hashtable_t1571;
+struct Hashtable_t1268;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Contexts.Context
-struct  Context_t2568  : public Object_t
+struct  Context_t4542  : public Object_t
 {
 	// System.Int32 System.Runtime.Remoting.Contexts.Context::context_id
 	int32_t ___context_id_0;
 	// System.Collections.ArrayList System.Runtime.Remoting.Contexts.Context::context_properties
-	ArrayList_t1556 * ___context_properties_1;
+	ArrayList_t3102 * ___context_properties_1;
 };
-struct Context_t2568_StaticFields{
+struct Context_t4542_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.Contexts.Context::namedSlots
-	Hashtable_t1571 * ___namedSlots_2;
+	Hashtable_t1268 * ___namedSlots_2;
 };

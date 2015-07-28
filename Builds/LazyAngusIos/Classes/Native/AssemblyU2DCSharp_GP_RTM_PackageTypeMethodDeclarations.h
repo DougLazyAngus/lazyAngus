@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_RTM_PackageType
-struct GP_RTM_PackageType_t163;
+struct GP_RTM_PackageType_t203;
 

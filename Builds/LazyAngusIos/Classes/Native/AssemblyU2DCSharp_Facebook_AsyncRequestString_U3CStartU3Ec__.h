@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // UnityEngine.WWW
-struct WWW_t225;
+struct WWW_t265;
 // System.Object
 struct Object_t;
 // Facebook.AsyncRequestString
-struct AsyncRequestString_t406;
+struct AsyncRequestString_t446;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>
@@ -15,24 +15,24 @@ struct AsyncRequestString_t406;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
 // Facebook.AsyncRequestString/<Start>c__IteratorE
-struct  U3CStartU3Ec__IteratorE_t407  : public Object_t
+struct  U3CStartU3Ec__IteratorE_t447  : public Object_t
 {
 	// System.String Facebook.AsyncRequestString/<Start>c__IteratorE::<urlParams>__0
 	String_t* ___U3CurlParamsU3E__0_0;
 	// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String> Facebook.AsyncRequestString/<Start>c__IteratorE::<$s_77>__1
-	Enumerator_t261  ___U3CU24s_77U3E__1_1;
+	Enumerator_t301  ___U3CU24s_77U3E__1_1;
 	// System.Collections.Generic.KeyValuePair`2<System.String,System.String> Facebook.AsyncRequestString/<Start>c__IteratorE::<pair>__2
-	KeyValuePair_2_t262  ___U3CpairU3E__2_2;
+	KeyValuePair_2_t302  ___U3CpairU3E__2_2;
 	// UnityEngine.WWW Facebook.AsyncRequestString/<Start>c__IteratorE::<www>__3
-	WWW_t225 * ___U3CwwwU3E__3_3;
+	WWW_t265 * ___U3CwwwU3E__3_3;
 	// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String> Facebook.AsyncRequestString/<Start>c__IteratorE::<$s_78>__4
-	Enumerator_t261  ___U3CU24s_78U3E__4_4;
+	Enumerator_t301  ___U3CU24s_78U3E__4_4;
 	// System.Collections.Generic.KeyValuePair`2<System.String,System.String> Facebook.AsyncRequestString/<Start>c__IteratorE::<pair>__5
-	KeyValuePair_2_t262  ___U3CpairU3E__5_5;
+	KeyValuePair_2_t302  ___U3CpairU3E__5_5;
 	// System.Int32 Facebook.AsyncRequestString/<Start>c__IteratorE::$PC
 	int32_t ___U24PC_6;
 	// System.Object Facebook.AsyncRequestString/<Start>c__IteratorE::$current
 	Object_t * ___U24current_7;
 	// Facebook.AsyncRequestString Facebook.AsyncRequestString/<Start>c__IteratorE::<>f__this
-	AsyncRequestString_t406 * ___U3CU3Ef__this_8;
+	AsyncRequestString_t446 * ___U3CU3Ef__this_8;
 };

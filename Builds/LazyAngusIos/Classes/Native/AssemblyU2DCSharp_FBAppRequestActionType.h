@@ -5,7 +5,7 @@
 // FBAppRequestActionType
 #include "AssemblyU2DCSharp_FBAppRequestActionType.h"
 // FBAppRequestActionType
-struct  FBAppRequestActionType_t229 
+struct  FBAppRequestActionType_t269 
 {
 	// System.Int32 FBAppRequestActionType::value__
 	int32_t ___value___1;

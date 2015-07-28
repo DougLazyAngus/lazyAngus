@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GamePhaseState/GamePhaseType
-struct GamePhaseType_t465;
+struct GamePhaseType_t508;
 

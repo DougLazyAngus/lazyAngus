@@ -1,4 +1,4 @@
-//Generated on : 7/27/2015 12:59:21 PM
+//Generated on : 7/28/2015 11:29:24 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -961,6 +961,90 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Input
 
+	//Start Registrations for type : UnityEngine.iOS.LocalNotification
+
+		//System.Void UnityEngine.iOS.LocalNotification::Destroy()
+		void Register_UnityEngine_iOS_LocalNotification_Destroy();
+		Register_UnityEngine_iOS_LocalNotification_Destroy();
+
+	//End Registrations for type : UnityEngine.iOS.LocalNotification
+
+	//Start Registrations for type : UnityEngine.iOS.NotificationServices
+
+		//System.Byte[] UnityEngine.iOS.NotificationServices::get_deviceToken()
+		void Register_UnityEngine_iOS_NotificationServices_get_deviceToken();
+		Register_UnityEngine_iOS_NotificationServices_get_deviceToken();
+
+		//System.Int32 UnityEngine.iOS.NotificationServices::get_localNotificationCount()
+		void Register_UnityEngine_iOS_NotificationServices_get_localNotificationCount();
+		Register_UnityEngine_iOS_NotificationServices_get_localNotificationCount();
+
+		//System.Int32 UnityEngine.iOS.NotificationServices::get_remoteNotificationCount()
+		void Register_UnityEngine_iOS_NotificationServices_get_remoteNotificationCount();
+		Register_UnityEngine_iOS_NotificationServices_get_remoteNotificationCount();
+
+		//System.String UnityEngine.iOS.NotificationServices::get_registrationError()
+		void Register_UnityEngine_iOS_NotificationServices_get_registrationError();
+		Register_UnityEngine_iOS_NotificationServices_get_registrationError();
+
+		//System.Void UnityEngine.iOS.NotificationServices::CancelAllLocalNotifications()
+		void Register_UnityEngine_iOS_NotificationServices_CancelAllLocalNotifications();
+		Register_UnityEngine_iOS_NotificationServices_CancelAllLocalNotifications();
+
+		//System.Void UnityEngine.iOS.NotificationServices::CancelLocalNotification(UnityEngine.iOS.LocalNotification)
+		void Register_UnityEngine_iOS_NotificationServices_CancelLocalNotification();
+		Register_UnityEngine_iOS_NotificationServices_CancelLocalNotification();
+
+		//System.Void UnityEngine.iOS.NotificationServices::ClearLocalNotifications()
+		void Register_UnityEngine_iOS_NotificationServices_ClearLocalNotifications();
+		Register_UnityEngine_iOS_NotificationServices_ClearLocalNotifications();
+
+		//System.Void UnityEngine.iOS.NotificationServices::ClearRemoteNotifications()
+		void Register_UnityEngine_iOS_NotificationServices_ClearRemoteNotifications();
+		Register_UnityEngine_iOS_NotificationServices_ClearRemoteNotifications();
+
+		//System.Void UnityEngine.iOS.NotificationServices::PresentLocalNotificationNow(UnityEngine.iOS.LocalNotification)
+		void Register_UnityEngine_iOS_NotificationServices_PresentLocalNotificationNow();
+		Register_UnityEngine_iOS_NotificationServices_PresentLocalNotificationNow();
+
+		//System.Void UnityEngine.iOS.NotificationServices::RegisterForNotifications(UnityEngine.iOS.NotificationType,System.Boolean)
+		void Register_UnityEngine_iOS_NotificationServices_RegisterForNotifications();
+		Register_UnityEngine_iOS_NotificationServices_RegisterForNotifications();
+
+		//System.Void UnityEngine.iOS.NotificationServices::ScheduleLocalNotification(UnityEngine.iOS.LocalNotification)
+		void Register_UnityEngine_iOS_NotificationServices_ScheduleLocalNotification();
+		Register_UnityEngine_iOS_NotificationServices_ScheduleLocalNotification();
+
+		//System.Void UnityEngine.iOS.NotificationServices::UnregisterForRemoteNotifications()
+		void Register_UnityEngine_iOS_NotificationServices_UnregisterForRemoteNotifications();
+		Register_UnityEngine_iOS_NotificationServices_UnregisterForRemoteNotifications();
+
+		//UnityEngine.iOS.LocalNotification UnityEngine.iOS.NotificationServices::GetLocalNotification(System.Int32)
+		void Register_UnityEngine_iOS_NotificationServices_GetLocalNotification();
+		Register_UnityEngine_iOS_NotificationServices_GetLocalNotification();
+
+		//UnityEngine.iOS.LocalNotification[] UnityEngine.iOS.NotificationServices::get_scheduledLocalNotifications()
+		void Register_UnityEngine_iOS_NotificationServices_get_scheduledLocalNotifications();
+		Register_UnityEngine_iOS_NotificationServices_get_scheduledLocalNotifications();
+
+		//UnityEngine.iOS.NotificationType UnityEngine.iOS.NotificationServices::get_enabledNotificationTypes()
+		void Register_UnityEngine_iOS_NotificationServices_get_enabledNotificationTypes();
+		Register_UnityEngine_iOS_NotificationServices_get_enabledNotificationTypes();
+
+		//UnityEngine.iOS.RemoteNotification UnityEngine.iOS.NotificationServices::GetRemoteNotification(System.Int32)
+		void Register_UnityEngine_iOS_NotificationServices_GetRemoteNotification();
+		Register_UnityEngine_iOS_NotificationServices_GetRemoteNotification();
+
+	//End Registrations for type : UnityEngine.iOS.NotificationServices
+
+	//Start Registrations for type : UnityEngine.iOS.RemoteNotification
+
+		//System.Void UnityEngine.iOS.RemoteNotification::Destroy()
+		void Register_UnityEngine_iOS_RemoteNotification_Destroy();
+		Register_UnityEngine_iOS_RemoteNotification_Destroy();
+
+	//End Registrations for type : UnityEngine.iOS.RemoteNotification
+
 	//Start Registrations for type : UnityEngine.LayerMask
 
 		//System.Int32 UnityEngine.LayerMask::NameToLayer(System.String)
@@ -1162,6 +1246,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
 		void Register_UnityEngine_PlayerPrefs_GetString();
 		Register_UnityEngine_PlayerPrefs_GetString();
+
+		//System.Void UnityEngine.PlayerPrefs::Save()
+		void Register_UnityEngine_PlayerPrefs_Save();
+		Register_UnityEngine_PlayerPrefs_Save();
 
 	//End Registrations for type : UnityEngine.PlayerPrefs
 
@@ -1591,6 +1679,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SystemInfo
 
+		//System.String UnityEngine.SystemInfo::get_deviceModel()
+		void Register_UnityEngine_SystemInfo_get_deviceModel();
+		Register_UnityEngine_SystemInfo_get_deviceModel();
+
 		//System.String UnityEngine.SystemInfo::get_deviceUniqueIdentifier()
 		void Register_UnityEngine_SystemInfo_get_deviceUniqueIdentifier();
 		Register_UnityEngine_SystemInfo_get_deviceUniqueIdentifier();
@@ -1878,6 +1970,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Byte[] UnityEngine.WWW::get_bytes()
 		void Register_UnityEngine_WWW_get_bytes();
 		Register_UnityEngine_WWW_get_bytes();
+
+		//System.Single UnityEngine.WWW::get_progress()
+		void Register_UnityEngine_WWW_get_progress();
+		Register_UnityEngine_WWW_get_progress();
 
 		//System.String UnityEngine.WWW::get_error()
 		void Register_UnityEngine_WWW_get_error();

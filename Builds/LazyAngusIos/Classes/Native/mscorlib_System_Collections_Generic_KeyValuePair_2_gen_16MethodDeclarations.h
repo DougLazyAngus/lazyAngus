@@ -4,28 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-struct KeyValuePair_2_t3435;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
+struct KeyValuePair_2_t3129;
 // System.String
 struct String_t;
+// Mono.Xml.DTDNode
+struct DTDNode_t3125;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m18522_gshared (KeyValuePair_2_t3435 * __this, int32_t ___key, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m18522(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3435 *, int32_t, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m18522_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::get_Key()
-extern "C" int32_t KeyValuePair_2_get_Key_m18523_gshared (KeyValuePair_2_t3435 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m18523(__this, method) (( int32_t (*) (KeyValuePair_2_t3435 *, const MethodInfo*))KeyValuePair_2_get_Key_m18523_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m18524_gshared (KeyValuePair_2_t3435 * __this, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m18524(__this, ___value, method) (( void (*) (KeyValuePair_2_t3435 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m18524_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::get_Value()
-extern "C" Object_t * KeyValuePair_2_get_Value_m18525_gshared (KeyValuePair_2_t3435 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m18525(__this, method) (( Object_t * (*) (KeyValuePair_2_t3435 *, const MethodInfo*))KeyValuePair_2_get_Value_m18525_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m18526_gshared (KeyValuePair_2_t3435 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m18526(__this, ___value, method) (( void (*) (KeyValuePair_2_t3435 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m18526_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m18527_gshared (KeyValuePair_2_t3435 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m18527(__this, method) (( String_t* (*) (KeyValuePair_2_t3435 *, const MethodInfo*))KeyValuePair_2_ToString_m18527_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m11124(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3129 *, String_t*, DTDNode_t3125 *, const MethodInfo*))KeyValuePair_2__ctor_m21581_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::get_Key()
+#define KeyValuePair_2_get_Key_m11126(__this, method) (( String_t* (*) (KeyValuePair_2_t3129 *, const MethodInfo*))KeyValuePair_2_get_Key_m21582_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m62136(__this, ___value, method) (( void (*) (KeyValuePair_2_t3129 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21583_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::get_Value()
+#define KeyValuePair_2_get_Value_m11121(__this, method) (( DTDNode_t3125 * (*) (KeyValuePair_2_t3129 *, const MethodInfo*))KeyValuePair_2_get_Value_m21584_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m62137(__this, ___value, method) (( void (*) (KeyValuePair_2_t3129 *, DTDNode_t3125 *, const MethodInfo*))KeyValuePair_2_set_Value_m21585_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::ToString()
+#define KeyValuePair_2_ToString_m62138(__this, method) (( String_t* (*) (KeyValuePair_2_t3129 *, const MethodInfo*))KeyValuePair_2_ToString_m21586_gshared)(__this, method)

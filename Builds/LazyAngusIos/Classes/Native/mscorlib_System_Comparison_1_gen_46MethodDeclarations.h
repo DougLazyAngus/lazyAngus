@@ -4,28 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.UICharInfo>
-struct Comparison_1_t3932;
+// System.Comparison`1<System.Tuple`2<System.Type,System.Type>>
+struct Comparison_1_t5999;
 // System.Object
 struct Object_t;
+// System.Tuple`2<System.Type,System.Type>
+struct Tuple_2_t1382;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// UnityEngine.UICharInfo
-#include "UnityEngine_UnityEngine_UICharInfo.h"
 
-// System.Void System.Comparison`1<UnityEngine.UICharInfo>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m26287_gshared (Comparison_1_t3932 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m26287(__this, ___object, ___method, method) (( void (*) (Comparison_1_t3932 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26287_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.UICharInfo>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m26288_gshared (Comparison_1_t3932 * __this, UICharInfo_t970  ___x, UICharInfo_t970  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m26288(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t3932 *, UICharInfo_t970 , UICharInfo_t970 , const MethodInfo*))Comparison_1_Invoke_m26288_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.UICharInfo>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m26289_gshared (Comparison_1_t3932 * __this, UICharInfo_t970  ___x, UICharInfo_t970  ___y, AsyncCallback_t346 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m26289(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t3932 *, UICharInfo_t970 , UICharInfo_t970 , AsyncCallback_t346 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26289_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.UICharInfo>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m26290_gshared (Comparison_1_t3932 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m26290(__this, ___result, method) (( int32_t (*) (Comparison_1_t3932 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26290_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<System.Tuple`2<System.Type,System.Type>>::.ctor(System.Object,System.IntPtr)
+// System.Comparison`1<System.Object>
+#include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
+#define Comparison_1__ctor_m31261(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5999 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21429_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<System.Tuple`2<System.Type,System.Type>>::Invoke(T,T)
+#define Comparison_1_Invoke_m31262(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5999 *, Tuple_2_t1382 *, Tuple_2_t1382 *, const MethodInfo*))Comparison_1_Invoke_m21430_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<System.Tuple`2<System.Type,System.Type>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m31263(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5999 *, Tuple_2_t1382 *, Tuple_2_t1382 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21431_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<System.Tuple`2<System.Type,System.Type>>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m31264(__this, ___result, method) (( int32_t (*) (Comparison_1_t5999 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21432_gshared)(__this, ___result, method)

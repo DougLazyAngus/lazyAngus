@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.Tuple`2<System.Type,System.Type>
+struct Tuple_2_t1382;
 // System.Type
 struct Type_t;
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t1203;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct  KeyValuePair_2_t4011 
+// System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Type>
+struct  KeyValuePair_2_t6018 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::key
-	Type_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::value
-	ConstructorDelegate_t1203 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Type>::key
+	Tuple_2_t1382 * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Type>::value
+	Type_t * ___value_1;
 };

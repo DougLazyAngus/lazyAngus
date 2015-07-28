@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.UInt64[]
-struct UInt64U5BU5D_t2681;
+struct UInt64U5BU5D_t4655;
 // System.Security.Cryptography.SHA384
 #include "mscorlib_System_Security_Cryptography_SHA384.h"
 // System.Security.Cryptography.SHA384Managed
-struct  SHA384Managed_t2682  : public SHA384_t2680
+struct  SHA384Managed_t4656  : public SHA384_t4654
 {
 	// System.Byte[] System.Security.Cryptography.SHA384Managed::xBuf
-	ByteU5BU5D_t36* ___xBuf_4;
+	ByteU5BU5D_t66* ___xBuf_4;
 	// System.Int32 System.Security.Cryptography.SHA384Managed::xBufOff
 	int32_t ___xBufOff_5;
 	// System.UInt64 System.Security.Cryptography.SHA384Managed::byteCount1
@@ -34,7 +34,7 @@ struct  SHA384Managed_t2682  : public SHA384_t2680
 	// System.UInt64 System.Security.Cryptography.SHA384Managed::H8
 	uint64_t ___H8_15;
 	// System.UInt64[] System.Security.Cryptography.SHA384Managed::W
-	UInt64U5BU5D_t2681* ___W_16;
+	UInt64U5BU5D_t4655* ___W_16;
 	// System.Int32 System.Security.Cryptography.SHA384Managed::wOff
 	int32_t ___wOff_17;
 };

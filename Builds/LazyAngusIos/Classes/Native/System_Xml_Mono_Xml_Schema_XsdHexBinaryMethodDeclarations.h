@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdHexBinary
-struct XsdHexBinary_t1529;
+struct XsdHexBinary_t3075;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdHexBinary::.ctor()
-extern "C" void XsdHexBinary__ctor_m7543 (XsdHexBinary_t1529 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdHexBinary__ctor_m10153 (XsdHexBinary_t3075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdHexBinary::get_TokenizedType()
-extern "C" int32_t XsdHexBinary_get_TokenizedType_m7544 (XsdHexBinary_t1529 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdHexBinary_get_TokenizedType_m10154 (XsdHexBinary_t3075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

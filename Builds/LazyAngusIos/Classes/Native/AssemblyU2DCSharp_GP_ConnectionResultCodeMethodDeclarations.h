@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_ConnectionResultCode
-struct GP_ConnectionResultCode_t157;
+struct GP_ConnectionResultCode_t197;
 

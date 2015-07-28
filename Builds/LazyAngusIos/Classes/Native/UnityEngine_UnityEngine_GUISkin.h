@@ -1,78 +1,78 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t804;
+struct Font_t845;
 // UnityEngine.GUIStyle
-struct GUIStyle_t67;
+struct GUIStyle_t107;
 // UnityEngine.GUIStyle[]
-struct GUIStyleU5BU5D_t1104;
+struct GUIStyleU5BU5D_t2669;
 // UnityEngine.GUISettings
-struct GUISettings_t1102;
+struct GUISettings_t2667;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
-struct Dictionary_2_t1105;
+struct Dictionary_2_t2670;
 // UnityEngine.GUISkin/SkinChangedDelegate
-struct SkinChangedDelegate_t1103;
+struct SkinChangedDelegate_t2668;
 // UnityEngine.GUISkin
-struct GUISkin_t679;
+struct GUISkin_t723;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // UnityEngine.GUISkin
-struct  GUISkin_t679  : public ScriptableObject_t108
+struct  GUISkin_t723  : public ScriptableObject_t148
 {
 	// UnityEngine.Font UnityEngine.GUISkin::m_Font
-	Font_t804 * ___m_Font_2;
+	Font_t845 * ___m_Font_2;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_box
-	GUIStyle_t67 * ___m_box_3;
+	GUIStyle_t107 * ___m_box_3;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_button
-	GUIStyle_t67 * ___m_button_4;
+	GUIStyle_t107 * ___m_button_4;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_toggle
-	GUIStyle_t67 * ___m_toggle_5;
+	GUIStyle_t107 * ___m_toggle_5;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_label
-	GUIStyle_t67 * ___m_label_6;
+	GUIStyle_t107 * ___m_label_6;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_textField
-	GUIStyle_t67 * ___m_textField_7;
+	GUIStyle_t107 * ___m_textField_7;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_textArea
-	GUIStyle_t67 * ___m_textArea_8;
+	GUIStyle_t107 * ___m_textArea_8;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_window
-	GUIStyle_t67 * ___m_window_9;
+	GUIStyle_t107 * ___m_window_9;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalSlider
-	GUIStyle_t67 * ___m_horizontalSlider_10;
+	GUIStyle_t107 * ___m_horizontalSlider_10;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalSliderThumb
-	GUIStyle_t67 * ___m_horizontalSliderThumb_11;
+	GUIStyle_t107 * ___m_horizontalSliderThumb_11;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalSlider
-	GUIStyle_t67 * ___m_verticalSlider_12;
+	GUIStyle_t107 * ___m_verticalSlider_12;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalSliderThumb
-	GUIStyle_t67 * ___m_verticalSliderThumb_13;
+	GUIStyle_t107 * ___m_verticalSliderThumb_13;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalScrollbar
-	GUIStyle_t67 * ___m_horizontalScrollbar_14;
+	GUIStyle_t107 * ___m_horizontalScrollbar_14;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalScrollbarThumb
-	GUIStyle_t67 * ___m_horizontalScrollbarThumb_15;
+	GUIStyle_t107 * ___m_horizontalScrollbarThumb_15;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalScrollbarLeftButton
-	GUIStyle_t67 * ___m_horizontalScrollbarLeftButton_16;
+	GUIStyle_t107 * ___m_horizontalScrollbarLeftButton_16;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_horizontalScrollbarRightButton
-	GUIStyle_t67 * ___m_horizontalScrollbarRightButton_17;
+	GUIStyle_t107 * ___m_horizontalScrollbarRightButton_17;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalScrollbar
-	GUIStyle_t67 * ___m_verticalScrollbar_18;
+	GUIStyle_t107 * ___m_verticalScrollbar_18;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalScrollbarThumb
-	GUIStyle_t67 * ___m_verticalScrollbarThumb_19;
+	GUIStyle_t107 * ___m_verticalScrollbarThumb_19;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalScrollbarUpButton
-	GUIStyle_t67 * ___m_verticalScrollbarUpButton_20;
+	GUIStyle_t107 * ___m_verticalScrollbarUpButton_20;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_verticalScrollbarDownButton
-	GUIStyle_t67 * ___m_verticalScrollbarDownButton_21;
+	GUIStyle_t107 * ___m_verticalScrollbarDownButton_21;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_ScrollView
-	GUIStyle_t67 * ___m_ScrollView_22;
+	GUIStyle_t107 * ___m_ScrollView_22;
 	// UnityEngine.GUIStyle[] UnityEngine.GUISkin::m_CustomStyles
-	GUIStyleU5BU5D_t1104* ___m_CustomStyles_23;
+	GUIStyleU5BU5D_t2669* ___m_CustomStyles_23;
 	// UnityEngine.GUISettings UnityEngine.GUISkin::m_Settings
-	GUISettings_t1102 * ___m_Settings_24;
+	GUISettings_t2667 * ___m_Settings_24;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> UnityEngine.GUISkin::styles
-	Dictionary_2_t1105 * ___styles_26;
+	Dictionary_2_t2670 * ___styles_26;
 };
-struct GUISkin_t679_StaticFields{
+struct GUISkin_t723_StaticFields{
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::ms_Error
-	GUIStyle_t67 * ___ms_Error_25;
+	GUIStyle_t107 * ___ms_Error_25;
 	// UnityEngine.GUISkin/SkinChangedDelegate UnityEngine.GUISkin::m_SkinChanged
-	SkinChangedDelegate_t1103 * ___m_SkinChanged_27;
+	SkinChangedDelegate_t2668 * ___m_SkinChanged_27;
 	// UnityEngine.GUISkin UnityEngine.GUISkin::current
-	GUISkin_t679 * ___current_28;
+	GUISkin_t723 * ___current_28;
 };

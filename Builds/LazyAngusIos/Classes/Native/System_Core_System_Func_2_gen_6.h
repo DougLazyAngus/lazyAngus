@@ -2,13 +2,15 @@
 #include <stdint.h>
 // System.Object
 struct Object_t;
+// System.Threading.Tasks.Task
+struct Task_t1149;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Object,System.Single>
-struct  Func_2_t3871  : public MulticastDelegate_t348
+// System.Func`2<System.Threading.Tasks.Task,System.Object>
+struct  Func_2_t1374  : public MulticastDelegate_t388
 {
 };

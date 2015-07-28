@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// GoogleMobileAdBanner
-struct GoogleMobileAdBanner_t100;
+// System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
+struct List_1_t625;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Int32
+#include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,GoogleMobileAdBanner,System.Collections.DictionaryEntry>
-struct  Transform_1_t3475  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>,System.Collections.DictionaryEntry>
+struct  Transform_1_t5434  : public MulticastDelegate_t388
 {
 };

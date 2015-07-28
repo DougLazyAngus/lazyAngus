@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // FBPostResult
-struct FBPostResult_t250;
+struct FBPostResult_t290;
 // FBResult
-struct FBResult_t241;
+struct FBResult_t281;
 // System.String
 struct String_t;
 
 // System.Void FBPostResult::.ctor(FBResult)
-extern "C" void FBPostResult__ctor_m1290 (FBPostResult_t250 * __this, FBResult_t241 * ___r, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FBPostResult__ctor_m1561 (FBPostResult_t290 * __this, FBResult_t281 * ___r, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // FBResult FBPostResult::get_Result()
-extern "C" FBResult_t241 * FBPostResult_get_Result_m1291 (FBPostResult_t250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FBResult_t281 * FBPostResult_get_Result_m1562 (FBPostResult_t290 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String FBPostResult::get_PostId()
-extern "C" String_t* FBPostResult_get_PostId_m1292 (FBPostResult_t250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FBPostResult_get_PostId_m1563 (FBPostResult_t290 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean FBPostResult::get_IsSucceeded()
-extern "C" bool FBPostResult_get_IsSucceeded_m1293 (FBPostResult_t250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FBPostResult_get_IsSucceeded_m1564 (FBPostResult_t290 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

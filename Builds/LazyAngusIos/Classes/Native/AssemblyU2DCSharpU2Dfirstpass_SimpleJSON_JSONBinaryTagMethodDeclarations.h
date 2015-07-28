@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJSON.JSONBinaryTag
-struct JSONBinaryTag_t1;
+struct JSONBinaryTag_t28;
 

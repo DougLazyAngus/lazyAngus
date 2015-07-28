@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.SHA384
-struct SHA384_t2680;
+struct SHA384_t4654;
 
 // System.Void System.Security.Cryptography.SHA384::.ctor()
-extern "C" void SHA384__ctor_m15186 (SHA384_t2680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384__ctor_m18504 (SHA384_t4654 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

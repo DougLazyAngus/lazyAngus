@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // RateMeController
-struct RateMeController_t534;
+struct RateMeController_t579;
 // System.Collections.IEnumerator
-struct IEnumerator_t21;
+struct IEnumerator_t48;
 
 // System.Void RateMeController::.ctor()
-extern "C" void RateMeController__ctor_m2841 (RateMeController_t534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RateMeController__ctor_m3137 (RateMeController_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void RateMeController::Start()
-extern "C" void RateMeController_Start_m2842 (RateMeController_t534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RateMeController_Start_m3138 (RateMeController_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator RateMeController::WaitAndShowDialog()
-extern "C" Object_t * RateMeController_WaitAndShowDialog_m2843 (RateMeController_t534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RateMeController_WaitAndShowDialog_m3139 (RateMeController_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean RateMeController::MaybeShowRateMeDialog()
-extern "C" bool RateMeController_MaybeShowRateMeDialog_m2844 (RateMeController_t534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RateMeController_MaybeShowRateMeDialog_m3140 (RateMeController_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

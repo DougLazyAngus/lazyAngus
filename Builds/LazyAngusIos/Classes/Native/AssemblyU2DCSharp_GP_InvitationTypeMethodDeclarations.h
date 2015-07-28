@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GP_InvitationType
-struct GP_InvitationType_t160;
+struct GP_InvitationType_t200;
 

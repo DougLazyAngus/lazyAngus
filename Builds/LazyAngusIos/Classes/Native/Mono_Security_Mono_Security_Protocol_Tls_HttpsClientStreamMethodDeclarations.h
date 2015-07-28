@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.HttpsClientStream
-struct HttpsClientStream_t1809;
+struct HttpsClientStream_t3805;
 // System.IO.Stream
-struct Stream_t24;
+struct Stream_t51;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t1829;
+struct X509CertificateCollection_t3824;
 // System.Net.HttpWebRequest
-struct HttpWebRequest_t1806;
+struct HttpWebRequest_t3802;
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t1830;
+struct X509Certificate_t3825;
 // System.Int32[]
-struct Int32U5BU5D_t496;
+struct Int32U5BU5D_t540;
 // System.String
 struct String_t;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t1848;
+struct AsymmetricAlgorithm_t3843;
 
 // System.Void Mono.Security.Protocol.Tls.HttpsClientStream::.ctor(System.IO.Stream,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Net.HttpWebRequest,System.Byte[])
-extern "C" void HttpsClientStream__ctor_m9214 (HttpsClientStream_t1809 * __this, Stream_t24 * ___stream, X509CertificateCollection_t1829 * ___clientCertificates, HttpWebRequest_t1806 * ___request, ByteU5BU5D_t36* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpsClientStream__ctor_m12470 (HttpsClientStream_t3805 * __this, Stream_t51 * ___stream, X509CertificateCollection_t3824 * ___clientCertificates, HttpWebRequest_t3802 * ___request, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.HttpsClientStream::get_TrustFailure()
-extern "C" bool HttpsClientStream_get_TrustFailure_m9215 (HttpsClientStream_t1809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HttpsClientStream_get_TrustFailure_m12471 (HttpsClientStream_t3805 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.HttpsClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool HttpsClientStream_RaiseServerCertificateValidation_m9216 (HttpsClientStream_t1809 * __this, X509Certificate_t1830 * ___certificate, Int32U5BU5D_t496* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HttpsClientStream_RaiseServerCertificateValidation_m12472 (HttpsClientStream_t3805 * __this, X509Certificate_t3825 * ___certificate, Int32U5BU5D_t540* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.HttpsClientStream::<HttpsClientStream>m__0(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" X509Certificate_t1830 * HttpsClientStream_U3CHttpsClientStreamU3Em__0_m9217 (Object_t * __this /* static, unused */, X509CertificateCollection_t1829 * ___clientCerts, X509Certificate_t1830 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t1829 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3825 * HttpsClientStream_U3CHttpsClientStreamU3Em__0_m12473 (Object_t * __this /* static, unused */, X509CertificateCollection_t3824 * ___clientCerts, X509Certificate_t3825 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3824 * ___serverRequestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.HttpsClientStream::<HttpsClientStream>m__1(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern "C" AsymmetricAlgorithm_t1848 * HttpsClientStream_U3CHttpsClientStreamU3Em__1_m9218 (Object_t * __this /* static, unused */, X509Certificate_t1830 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsymmetricAlgorithm_t3843 * HttpsClientStream_U3CHttpsClientStreamU3Em__1_m12474 (Object_t * __this /* static, unused */, X509Certificate_t3825 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;

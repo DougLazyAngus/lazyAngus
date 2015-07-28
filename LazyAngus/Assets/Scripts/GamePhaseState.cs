@@ -14,7 +14,7 @@ public class GamePhaseState : MonoBehaviour {
 	};
 
 	public GamePhaseType gamePhase  { get; private set; }
-	
+
 	private GamePhaseType pendingPhase;
 	private float pendingPhaseTimeout;
 	public float pendingPause = 1f;	

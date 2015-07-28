@@ -5,7 +5,7 @@
 // GP_RTM_MessageType
 #include "AssemblyU2DCSharp_GP_RTM_MessageType.h"
 // GP_RTM_MessageType
-struct  GP_RTM_MessageType_t162 
+struct  GP_RTM_MessageType_t202 
 {
 	// System.Int32 GP_RTM_MessageType::value__
 	int32_t ___value___1;

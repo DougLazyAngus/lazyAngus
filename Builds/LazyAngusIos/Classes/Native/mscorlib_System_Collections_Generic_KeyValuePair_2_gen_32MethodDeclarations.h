@@ -4,24 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct KeyValuePair_2_t3820;
-// UnityEngine.UI.Graphic
-struct Graphic_t812;
+// System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>
+struct KeyValuePair_2_t5607;
 // System.String
 struct String_t;
+// Facebook.FacebookDelegate
+struct FacebookDelegate_t433;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_20MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m24775(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t3820 *, Graphic_t812 *, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m19758_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::get_Key()
-#define KeyValuePair_2_get_Key_m24776(__this, method) (( Graphic_t812 * (*) (KeyValuePair_2_t3820 *, const MethodInfo*))KeyValuePair_2_get_Key_m19759_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m24777(__this, ___value, method) (( void (*) (KeyValuePair_2_t3820 *, Graphic_t812 *, const MethodInfo*))KeyValuePair_2_set_Key_m19760_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::get_Value()
-#define KeyValuePair_2_get_Value_m24778(__this, method) (( int32_t (*) (KeyValuePair_2_t3820 *, const MethodInfo*))KeyValuePair_2_get_Value_m19761_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m24779(__this, ___value, method) (( void (*) (KeyValuePair_2_t3820 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m19762_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::ToString()
-#define KeyValuePair_2_ToString_m24780(__this, method) (( String_t* (*) (KeyValuePair_2_t3820 *, const MethodInfo*))KeyValuePair_2_ToString_m19763_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m25859(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t5607 *, String_t*, FacebookDelegate_t433 *, const MethodInfo*))KeyValuePair_2__ctor_m21581_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::get_Key()
+#define KeyValuePair_2_get_Key_m25860(__this, method) (( String_t* (*) (KeyValuePair_2_t5607 *, const MethodInfo*))KeyValuePair_2_get_Key_m21582_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m25861(__this, ___value, method) (( void (*) (KeyValuePair_2_t5607 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21583_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::get_Value()
+#define KeyValuePair_2_get_Value_m25862(__this, method) (( FacebookDelegate_t433 * (*) (KeyValuePair_2_t5607 *, const MethodInfo*))KeyValuePair_2_get_Value_m21584_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m25863(__this, ___value, method) (( void (*) (KeyValuePair_2_t5607 *, FacebookDelegate_t433 *, const MethodInfo*))KeyValuePair_2_set_Value_m21585_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::ToString()
+#define KeyValuePair_2_ToString_m25864(__this, method) (( String_t* (*) (KeyValuePair_2_t5607 *, const MethodInfo*))KeyValuePair_2_ToString_m21586_gshared)(__this, method)

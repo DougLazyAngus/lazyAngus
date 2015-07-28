@@ -1,31 +1,31 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t36;
+struct ByteU5BU5D_t66;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Security.Cryptography.DSAParameters
-struct  DSAParameters_t1860 
+struct  DSAParameters_t3855 
 {
 	// System.Int32 System.Security.Cryptography.DSAParameters::Counter
 	int32_t ___Counter_0;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::G
-	ByteU5BU5D_t36* ___G_1;
+	ByteU5BU5D_t66* ___G_1;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::J
-	ByteU5BU5D_t36* ___J_2;
+	ByteU5BU5D_t66* ___J_2;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::P
-	ByteU5BU5D_t36* ___P_3;
+	ByteU5BU5D_t66* ___P_3;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::Q
-	ByteU5BU5D_t36* ___Q_4;
+	ByteU5BU5D_t66* ___Q_4;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::Seed
-	ByteU5BU5D_t36* ___Seed_5;
+	ByteU5BU5D_t66* ___Seed_5;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::X
-	ByteU5BU5D_t36* ___X_6;
+	ByteU5BU5D_t66* ___X_6;
 	// System.Byte[] System.Security.Cryptography.DSAParameters::Y
-	ByteU5BU5D_t36* ___Y_7;
+	ByteU5BU5D_t66* ___Y_7;
 };
 // Native definition for marshalling of: System.Security.Cryptography.DSAParameters
-struct DSAParameters_t1860_marshaled
+struct DSAParameters_t3855_marshaled
 {
 	int32_t ___Counter_0;
 	uint8_t* ___G_1;

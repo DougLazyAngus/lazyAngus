@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Int32>
-struct List_1_t696;
+// System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
+struct List_1_t3898;
+// System.Collections.Generic.RBTree/Node
+struct Node_t3894;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Int32>
-struct  Enumerator_t3654 
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>
+struct  Enumerator_t5593 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int32>::l
-	List_1_t696 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::l
+	List_1_t3898 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Int32>::current
-	int32_t ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::current
+	Node_t3894 * ___current_3;
 };

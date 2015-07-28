@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// AN_ActivityTemplate
-struct AN_ActivityTemplate_t77;
+// System.String
+struct String_t;
+// System.Collections.Generic.List`1<AN_PropertyTemplate>
+struct List_1_t123;
 // System.IAsyncResult
-struct IAsyncResult_t345;
+struct IAsyncResult_t385;
 // System.AsyncCallback
-struct AsyncCallback_t346;
+struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Int32
-#include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,AN_ActivityTemplate,System.Collections.DictionaryEntry>
-struct  Transform_1_t3433  : public MulticastDelegate_t348
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>,System.Collections.DictionaryEntry>
+struct  Transform_1_t5409  : public MulticastDelegate_t388
 {
 };
