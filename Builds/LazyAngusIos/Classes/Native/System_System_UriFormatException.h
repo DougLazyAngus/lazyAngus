@@ -3,6 +3,6 @@
 // System.FormatException
 #include "mscorlib_System_FormatException.h"
 // System.UriFormatException
-struct  UriFormatException_t3237  : public FormatException_t2873
+struct  UriFormatException_t3236  : public FormatException_t2872
 {
 };

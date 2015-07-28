@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CCFixed
-struct CCFixed_t4410;
+struct CCFixed_t4409;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.DayOfWeek

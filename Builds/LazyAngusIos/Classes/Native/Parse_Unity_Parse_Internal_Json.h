@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 // System.Text.RegularExpressions.Regex
-struct Regex_t1117;
+struct Regex_t1116;
 // System.Text.RegularExpressions.MatchEvaluator
-struct MatchEvaluator_t1118;
+struct MatchEvaluator_t1117;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.Json
-struct  Json_t1119  : public Object_t
+struct  Json_t1118  : public Object_t
 {
 };
-struct Json_t1119_StaticFields{
+struct Json_t1118_StaticFields{
 	// System.String Parse.Internal.Json::startOfString
 	String_t* ___startOfString_0;
 	// System.Char Parse.Internal.Json::startObject
@@ -30,17 +30,17 @@ struct Json_t1119_StaticFields{
 	// System.Char Parse.Internal.Json::nameSeparator
 	uint16_t ___nameSeparator_6;
 	// System.Char[] Parse.Internal.Json::falseValue
-	CharU5BU5D_t653* ___falseValue_7;
+	CharU5BU5D_t652* ___falseValue_7;
 	// System.Char[] Parse.Internal.Json::trueValue
-	CharU5BU5D_t653* ___trueValue_8;
+	CharU5BU5D_t652* ___trueValue_8;
 	// System.Char[] Parse.Internal.Json::nullValue
-	CharU5BU5D_t653* ___nullValue_9;
+	CharU5BU5D_t652* ___nullValue_9;
 	// System.Text.RegularExpressions.Regex Parse.Internal.Json::numberValue
-	Regex_t1117 * ___numberValue_10;
+	Regex_t1116 * ___numberValue_10;
 	// System.Text.RegularExpressions.Regex Parse.Internal.Json::stringValue
-	Regex_t1117 * ___stringValue_11;
+	Regex_t1116 * ___stringValue_11;
 	// System.Text.RegularExpressions.Regex Parse.Internal.Json::escapePattern
-	Regex_t1117 * ___escapePattern_12;
+	Regex_t1116 * ___escapePattern_12;
 	// System.Text.RegularExpressions.MatchEvaluator Parse.Internal.Json::CS$<>9__CachedAnonymousMethodDelegate1
-	MatchEvaluator_t1118 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_13;
+	MatchEvaluator_t1117 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_13;
 };

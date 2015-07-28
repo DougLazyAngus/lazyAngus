@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.MeshFilter
-struct  MeshFilter_t732  : public Component_t704
+struct  MeshFilter_t731  : public Component_t703
 {
 };

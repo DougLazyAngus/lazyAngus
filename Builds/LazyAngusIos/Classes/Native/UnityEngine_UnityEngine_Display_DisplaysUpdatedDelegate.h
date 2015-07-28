@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Display/DisplaysUpdatedDelegate
-struct  DisplaysUpdatedDelegate_t2692  : public MulticastDelegate_t388
+struct  DisplaysUpdatedDelegate_t2691  : public MulticastDelegate_t388
 {
 };

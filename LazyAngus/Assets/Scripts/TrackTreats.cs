@@ -18,19 +18,19 @@ public class TrackTreats : MonoBehaviour {
 		treatsText = this.gameObject.GetComponent<Text> ();
 		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
 		
-		playerStats.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
+		playerStats.MoneyChanged += new PlayerStats.MoneyChangedEventHandler (DynamicUpdateTreatsText);
 		registerdForEvents = true;
 		SetTreatsText ();
 	}
 	
 	void OnDestroy() {
 		if (registerdForEvents) {
-			playerStats.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (DynamicUpdateTreatsText);
+			playerStats.MoneyChanged -= new PlayerStats.MoneyChangedEventHandler (DynamicUpdateTreatsText);
 		}
 	}
 	
 	void SetTreatsText() {
-		treatsText.text = "$" + playerStats.GetTreats ();
+		treatsText.text = "$" + playerStats.money;
 	}
 	
 	// Update is called once per frame

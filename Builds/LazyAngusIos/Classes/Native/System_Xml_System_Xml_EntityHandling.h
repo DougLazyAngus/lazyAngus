@@ -5,7 +5,7 @@
 // System.Xml.EntityHandling
 #include "System_Xml_System_Xml_EntityHandling.h"
 // System.Xml.EntityHandling
-struct  EntityHandling_t3145 
+struct  EntityHandling_t3144 
 {
 	// System.Int32 System.Xml.EntityHandling::value__
 	int32_t ___value___1;

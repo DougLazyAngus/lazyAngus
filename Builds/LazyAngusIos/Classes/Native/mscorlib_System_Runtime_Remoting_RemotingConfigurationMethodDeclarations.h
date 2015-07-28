@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.RemotingConfiguration
-struct RemotingConfiguration_t4582;
+struct RemotingConfiguration_t4581;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
-struct ActivatedClientTypeEntry_t4574;
+struct ActivatedClientTypeEntry_t4573;
 // System.Type
 struct Type_t;
 
@@ -20,4 +20,4 @@ extern "C" String_t* RemotingConfiguration_get_ApplicationName_m18085 (Object_t 
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ProcessId()
 extern "C" String_t* RemotingConfiguration_get_ProcessId_m18086 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ActivatedClientTypeEntry System.Runtime.Remoting.RemotingConfiguration::IsRemotelyActivatedClientType(System.Type)
-extern "C" ActivatedClientTypeEntry_t4574 * RemotingConfiguration_IsRemotelyActivatedClientType_m18087 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ActivatedClientTypeEntry_t4573 * RemotingConfiguration_IsRemotelyActivatedClientType_m18087 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

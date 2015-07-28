@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t3102;
+struct ArrayList_t3101;
 // System.Runtime.Remoting.Contexts.CrossContextChannel
-struct CrossContextChannel_t4537;
+struct CrossContextChannel_t4536;
 // System.String
 struct String_t;
 // System.Collections.IList
-struct IList_t631;
+struct IList_t630;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Channels.ChannelServices
-struct  ChannelServices_t4538  : public Object_t
+struct  ChannelServices_t4537  : public Object_t
 {
 };
-struct ChannelServices_t4538_StaticFields{
+struct ChannelServices_t4537_StaticFields{
 	// System.Collections.ArrayList System.Runtime.Remoting.Channels.ChannelServices::registeredChannels
-	ArrayList_t3102 * ___registeredChannels_0;
+	ArrayList_t3101 * ___registeredChannels_0;
 	// System.Collections.ArrayList System.Runtime.Remoting.Channels.ChannelServices::delayedClientChannels
-	ArrayList_t3102 * ___delayedClientChannels_1;
+	ArrayList_t3101 * ___delayedClientChannels_1;
 	// System.Runtime.Remoting.Contexts.CrossContextChannel System.Runtime.Remoting.Channels.ChannelServices::_crossContextSink
-	CrossContextChannel_t4537 * ____crossContextSink_2;
+	CrossContextChannel_t4536 * ____crossContextSink_2;
 	// System.String System.Runtime.Remoting.Channels.ChannelServices::CrossContextUrl
 	String_t* ___CrossContextUrl_3;
 	// System.Collections.IList System.Runtime.Remoting.Channels.ChannelServices::oldStartModeTypes

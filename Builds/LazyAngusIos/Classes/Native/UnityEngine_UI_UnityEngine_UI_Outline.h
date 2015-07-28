@@ -3,6 +3,6 @@
 // UnityEngine.UI.Shadow
 #include "UnityEngine_UI_UnityEngine_UI_Shadow.h"
 // UnityEngine.UI.Outline
-struct  Outline_t952  : public Shadow_t953
+struct  Outline_t951  : public Shadow_t952
 {
 };

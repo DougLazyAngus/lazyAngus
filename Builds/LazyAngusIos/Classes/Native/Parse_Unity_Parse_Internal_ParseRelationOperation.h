@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.String>
-struct IList_1_t638;
+struct IList_1_t637;
 // System.String
 struct String_t;
 // System.Func`2<Parse.ParseObject,System.String>
-struct Func_2_t1138;
+struct Func_2_t1137;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.ParseRelationOperation
-struct  ParseRelationOperation_t1139  : public Object_t
+struct  ParseRelationOperation_t1138  : public Object_t
 {
 	// System.Collections.Generic.IList`1<System.String> Parse.Internal.ParseRelationOperation::adds
 	Object_t* ___adds_0;
@@ -18,9 +18,9 @@ struct  ParseRelationOperation_t1139  : public Object_t
 	// System.String Parse.Internal.ParseRelationOperation::targetClassName
 	String_t* ___targetClassName_2;
 };
-struct ParseRelationOperation_t1139_StaticFields{
+struct ParseRelationOperation_t1138_StaticFields{
 	// System.Func`2<Parse.ParseObject,System.String> Parse.Internal.ParseRelationOperation::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t1138 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_3;
+	Func_2_t1137 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_3;
 	// System.Func`2<Parse.ParseObject,System.String> Parse.Internal.ParseRelationOperation::CS$<>9__CachedAnonymousMethodDelegate8
-	Func_2_t1138 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate8_4;
+	Func_2_t1137 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate8_4;
 };

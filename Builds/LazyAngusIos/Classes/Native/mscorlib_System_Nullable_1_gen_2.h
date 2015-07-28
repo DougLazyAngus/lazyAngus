@@ -5,7 +5,7 @@
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Nullable`1<System.DateTime>
-struct  Nullable_1_t1227 
+struct  Nullable_1_t1226 
 {
 	// T System.Nullable`1<System.DateTime>::value
 	DateTime_t287  ___value_0;

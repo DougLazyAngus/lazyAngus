@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>
-struct ReadOnlyCollectionOf_1_t6197;
+struct ReadOnlyCollectionOf_1_t6196;
 
 // System.Void System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>::.cctor()
 extern "C" void ReadOnlyCollectionOf_1__cctor_m33909_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.CompilerServices.IsVolatile
-struct  IsVolatile_t4506  : public Object_t
+struct  IsVolatile_t4505  : public Object_t
 {
 };

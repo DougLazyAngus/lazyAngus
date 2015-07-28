@@ -3,7 +3,7 @@
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 // Mono.Security.X509.Extensions.BasicConstraintsExtension
-struct  BasicConstraintsExtension_t3768  : public X509Extension_t3763
+struct  BasicConstraintsExtension_t3767  : public X509Extension_t3762
 {
 	// System.Boolean Mono.Security.X509.Extensions.BasicConstraintsExtension::cA
 	bool ___cA_3;

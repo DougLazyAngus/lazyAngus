@@ -9,7 +9,7 @@ struct BinaryWriter_t50;
 // System.IO.Stream
 struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t682;
+struct Encoding_t681;
 // System.String
 struct String_t;
 
@@ -18,7 +18,7 @@ extern "C" void BinaryWriter__ctor_m17007 (BinaryWriter_t50 * __this, const Meth
 // System.Void System.IO.BinaryWriter::.ctor(System.IO.Stream)
 extern "C" void BinaryWriter__ctor_m420 (BinaryWriter_t50 * __this, Stream_t51 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::.ctor(System.IO.Stream,System.Text.Encoding)
-extern "C" void BinaryWriter__ctor_m17008 (BinaryWriter_t50 * __this, Stream_t51 * ___output, Encoding_t682 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryWriter__ctor_m17008 (BinaryWriter_t50 * __this, Stream_t51 * ___output, Encoding_t681 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::.cctor()
 extern "C" void BinaryWriter__cctor_m17009 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::System.IDisposable.Dispose()

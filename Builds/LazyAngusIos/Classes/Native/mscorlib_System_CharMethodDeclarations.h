@@ -11,11 +11,11 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t4447;
+struct IFormatProvider_t4446;
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t711;
+struct CultureInfo_t710;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Decimal
@@ -38,7 +38,7 @@ extern "C" uint16_t Char_System_IConvertible_ToChar_m15431 (uint16_t* __this, Ob
 // System.DateTime System.Char::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Char_System_IConvertible_ToDateTime_m15432 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Char::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t688  Char_System_IConvertible_ToDecimal_m15433 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t687  Char_System_IConvertible_ToDecimal_m15433 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Char::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Char_System_IConvertible_ToDouble_m15434 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Char::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -74,17 +74,17 @@ extern "C" int32_t Char_GetUnicodeCategory_m14851 (Object_t * __this /* static, 
 // System.Boolean System.Char::IsDigit(System.Char)
 extern "C" bool Char_IsDigit_m14793 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsLetter(System.Char)
-extern "C" bool Char_IsLetter_m5737 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Char_IsLetter_m5739 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsLetterOrDigit(System.Char)
 extern "C" bool Char_IsLetterOrDigit_m14850 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsLower(System.Char)
-extern "C" bool Char_IsLower_m5738 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Char_IsLower_m5740 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsNumber(System.Char)
 extern "C" bool Char_IsNumber_m15449 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsSurrogate(System.Char)
 extern "C" bool Char_IsSurrogate_m15450 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsUpper(System.Char)
-extern "C" bool Char_IsUpper_m5740 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Char_IsUpper_m5742 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsWhiteSpace(System.Char)
 extern "C" bool Char_IsWhiteSpace_m3687 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsWhiteSpace(System.String,System.Int32)
@@ -94,17 +94,17 @@ extern "C" void Char_CheckParameter_m15451 (Object_t * __this /* static, unused 
 // System.Char System.Char::Parse(System.String)
 extern "C" uint16_t Char_Parse_m15452 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToLower(System.Char)
-extern "C" uint16_t Char_ToLower_m5741 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToLower_m5743 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToLowerInvariant(System.Char)
 extern "C" uint16_t Char_ToLowerInvariant_m15453 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToLower(System.Char,System.Globalization.CultureInfo)
-extern "C" uint16_t Char_ToLower_m15454 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t711 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToLower_m15454 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t710 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpper(System.Char)
-extern "C" uint16_t Char_ToUpper_m5739 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToUpper_m5741 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpperInvariant(System.Char)
 extern "C" uint16_t Char_ToUpperInvariant_m14831 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Char::ToString()
-extern "C" String_t* Char_ToString_m5714 (uint16_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Char_ToString_m5716 (uint16_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Char::ToString(System.IFormatProvider)
 extern "C" String_t* Char_ToString_m15455 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TypeCode System.Char::GetTypeCode()

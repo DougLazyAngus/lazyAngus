@@ -9,7 +9,7 @@ struct MethodInfo_t;
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1142;
+struct TypeU5BU5D_t1141;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
@@ -23,9 +23,9 @@ extern "C" Type_t * MethodInfo_get_ReturnType_m17635 (MethodInfo_t * __this, con
 // System.Reflection.MethodInfo System.Reflection.MethodInfo::GetGenericMethodDefinition()
 extern "C" MethodInfo_t * MethodInfo_GetGenericMethodDefinition_m17636 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[])
-extern "C" MethodInfo_t * MethodInfo_MakeGenericMethod_m17637 (MethodInfo_t * __this, TypeU5BU5D_t1142* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodInfo_MakeGenericMethod_m17637 (MethodInfo_t * __this, TypeU5BU5D_t1141* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.MethodInfo::GetGenericArguments()
-extern "C" TypeU5BU5D_t1142* MethodInfo_GetGenericArguments_m17638 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1141* MethodInfo_GetGenericArguments_m17638 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodInfo::get_IsGenericMethod()
 extern "C" bool MethodInfo_get_IsGenericMethod_m17639 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodInfo::get_IsGenericMethodDefinition()

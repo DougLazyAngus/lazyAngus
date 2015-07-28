@@ -22,6 +22,6 @@ struct SA_ScreenShotMaker_t391;
 // System.Boolean SA_Singleton`1<SA_ScreenShotMaker>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25696(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<SA_ScreenShotMaker>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4205(__this, method) (( void (*) (SA_Singleton_1_t393 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4207(__this, method) (( void (*) (SA_Singleton_1_t393 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<SA_ScreenShotMaker>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4206(__this, method) (( void (*) (SA_Singleton_1_t393 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4208(__this, method) (( void (*) (SA_Singleton_1_t393 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

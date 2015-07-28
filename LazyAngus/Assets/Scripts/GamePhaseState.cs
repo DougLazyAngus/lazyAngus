@@ -21,6 +21,8 @@ public class GamePhaseState : MonoBehaviour {
 	private bool shouldCheckForPhaseTransition = false;
 
 	
+	public int instancesFinishedThisSession { get; private set; }
+	public int instancesFinishedEver  { get; private set; }
 
 	public delegate void GameInstanceChangedEventHandler();
 	public event GameInstanceChangedEventHandler GameInstanceChanged;
@@ -40,6 +42,7 @@ public class GamePhaseState : MonoBehaviour {
 	}
 	
 	void Start() {
+		instancesFinishedEver = PersistentStorage.instance.GetIntValue ("instancesFinishedEver", 0);
 	}
 
 	
@@ -126,7 +129,13 @@ public class GamePhaseState : MonoBehaviour {
 		
 
 		gamePhase = newPhase;
-		
+
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
+			instancesFinishedThisSession += 1;
+			instancesFinishedEver += 1;
+			PersistentStorage.instance.SetIntValue("instancesFinishedEver", instancesFinishedEver);
+		}
+
 		if (newPhase == GamePhaseType.PENDING) {
 			StartCoroutine(SetupPendingPhase ());
 		}

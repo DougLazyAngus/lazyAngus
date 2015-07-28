@@ -3,6 +3,6 @@
 // System.Security.Cryptography.HMAC
 #include "mscorlib_System_Security_Cryptography_HMAC.h"
 // System.Security.Cryptography.HMACSHA256
-struct  HMACSHA256_t4635  : public HMAC_t3863
+struct  HMACSHA256_t4634  : public HMAC_t3862
 {
 };

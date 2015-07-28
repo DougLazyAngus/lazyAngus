@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Random
-struct Random_t2700;
+struct Random_t2699;
 
 // System.Void UnityEngine.Random::set_seed(System.Int32)
 extern "C" void Random_set_seed_m3941 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

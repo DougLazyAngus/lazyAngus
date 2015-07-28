@@ -31,7 +31,7 @@ public class TrackScore : MonoBehaviour {
 	}
 
 	void SetScoreText() {
-		scoreText.text = "Kills: " + playerStats.GetScore ();
+		scoreText.text = "Kills: " + playerStats.gameScore;
 	}
 
 	// Update is called once per frame

@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Boolean[]
-struct BooleanU5BU5D_t4019;
+struct BooleanU5BU5D_t4018;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Reflection.ParameterModifier
-struct  ParameterModifier_t4496 
+struct  ParameterModifier_t4495 
 {
 	// System.Boolean[] System.Reflection.ParameterModifier::_byref
-	BooleanU5BU5D_t4019* ____byref_0;
+	BooleanU5BU5D_t4018* ____byref_0;
 };
 // Native definition for marshalling of: System.Reflection.ParameterModifier
-struct ParameterModifier_t4496_marshaled
+struct ParameterModifier_t4495_marshaled
 {
 	int32_t* ____byref_0;
 };

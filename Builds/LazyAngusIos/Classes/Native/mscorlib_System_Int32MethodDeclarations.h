@@ -7,7 +7,7 @@
 // System.Int32
 struct Int32_t82;
 // System.IFormatProvider
-struct IFormatProvider_t4447;
+struct IFormatProvider_t4446;
 // System.Object
 struct Object_t;
 // System.Type
@@ -36,7 +36,7 @@ extern "C" uint16_t Int32_System_IConvertible_ToChar_m15211 (int32_t* __this, Ob
 // System.DateTime System.Int32::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Int32_System_IConvertible_ToDateTime_m15212 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Int32::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t688  Int32_System_IConvertible_ToDecimal_m15213 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t687  Int32_System_IConvertible_ToDecimal_m15213 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Int32::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Int32_System_IConvertible_ToDouble_m15214 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Int32::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -64,7 +64,7 @@ extern "C" bool Int32_Equals_m15225 (int32_t* __this, Object_t * ___obj, const M
 // System.Int32 System.Int32::GetHashCode()
 extern "C" int32_t Int32_GetHashCode_m9763 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Int32::CompareTo(System.Int32)
-extern "C" int32_t Int32_CompareTo_m5443 (int32_t* __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Int32_CompareTo_m5445 (int32_t* __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Int32::Equals(System.Int32)
 extern "C" bool Int32_Equals_m9765 (int32_t* __this, int32_t ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Int32::ProcessTrailingWhitespace(System.Boolean,System.String,System.Int32,System.Exception&)

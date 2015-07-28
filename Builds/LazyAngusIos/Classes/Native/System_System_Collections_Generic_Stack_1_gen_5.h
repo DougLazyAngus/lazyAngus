@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>[]
-struct List_1U5BU5D_t5764;
+struct List_1U5BU5D_t5763;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct  Stack_1_t5759  : public Object_t
+struct  Stack_1_t5758  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>::_array
-	List_1U5BU5D_t5764* ____array_1;
+	List_1U5BU5D_t5763* ____array_1;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>::_version

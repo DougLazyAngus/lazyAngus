@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UnitySerializationHolder/UnityType
-struct UnityType_t4791;
+struct UnityType_t4790;
 

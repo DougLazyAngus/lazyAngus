@@ -108,7 +108,7 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	bool ShouldShowInterstitialAd() {
-		if (GameInstanceState.instance.instancesFinishedThisSession % instancesBetweenInterstitialAds != 0) {
+		if (GamePhaseState.instance.instancesFinishedThisSession % instancesBetweenInterstitialAds != 0) {
 			return false;
 		}
 

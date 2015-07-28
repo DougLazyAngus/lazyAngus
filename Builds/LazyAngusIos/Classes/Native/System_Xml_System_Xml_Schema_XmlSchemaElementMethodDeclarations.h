@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaElement
-struct XmlSchemaElement_t3094;
+struct XmlSchemaElement_t3093;
 

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t627;
+struct ObjectU5BU5D_t626;
 // UnityEngine.Events.InvokableCall`1<System.Int32>
 #include "UnityEngine_UnityEngine_Events_InvokableCall_1_gen_4.h"
 // UnityEngine.Events.CachedInvokableCall`1<System.Int32>
-struct  CachedInvokableCall_1_t2899  : public InvokableCall_1_t8478
+struct  CachedInvokableCall_1_t2898  : public InvokableCall_1_t8477
 {
 	// System.Object[] UnityEngine.Events.CachedInvokableCall`1<System.Int32>::m_Arg1
-	ObjectU5BU5D_t627* ___m_Arg1_1;
+	ObjectU5BU5D_t626* ___m_Arg1_1;
 };

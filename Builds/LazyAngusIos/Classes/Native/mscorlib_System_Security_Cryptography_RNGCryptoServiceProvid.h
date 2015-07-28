@@ -7,12 +7,12 @@ struct Object_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Security.Cryptography.RNGCryptoServiceProvider
-struct  RNGCryptoServiceProvider_t4645  : public RandomNumberGenerator_t3722
+struct  RNGCryptoServiceProvider_t4644  : public RandomNumberGenerator_t3721
 {
 	// System.IntPtr System.Security.Cryptography.RNGCryptoServiceProvider::_handle
 	IntPtr_t ____handle_1;
 };
-struct RNGCryptoServiceProvider_t4645_StaticFields{
+struct RNGCryptoServiceProvider_t4644_StaticFields{
 	// System.Object System.Security.Cryptography.RNGCryptoServiceProvider::_lock
 	Object_t * ____lock_0;
 };

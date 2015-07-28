@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.Marshal
-struct Marshal_t4138;
+struct Marshal_t4137;
 // System.Array
 struct Array_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
@@ -26,6 +26,6 @@ extern "C" void Marshal_Copy_m14762 (Object_t * __this /* static, unused */, Byt
 // System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Byte[],System.Int32,System.Int32)
 extern "C" void Marshal_Copy_m14765 (Object_t * __this /* static, unused */, IntPtr_t ___source, ByteU5BU5D_t66* ___destination, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Char[],System.Int32,System.Int32)
-extern "C" void Marshal_Copy_m17836 (Object_t * __this /* static, unused */, IntPtr_t ___source, CharU5BU5D_t653* ___destination, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Marshal_Copy_m17836 (Object_t * __this /* static, unused */, IntPtr_t ___source, CharU5BU5D_t652* ___destination, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.InteropServices.Marshal::GetLastWin32Error()
 extern "C" int32_t Marshal_GetLastWin32Error_m14753 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

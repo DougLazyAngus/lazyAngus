@@ -5,7 +5,7 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Int32[]
-struct Int32U5BU5D_t540;
+struct Int32U5BU5D_t539;
 // System.Object
 struct Object_t;
 // System.ValueType
@@ -44,9 +44,9 @@ struct DateTime_t287_StaticFields{
 	// System.String[] System.DateTime::DayMonthShortFormats
 	StringU5BU5D_t75* ___DayMonthShortFormats_20;
 	// System.Int32[] System.DateTime::daysmonth
-	Int32U5BU5D_t540* ___daysmonth_21;
+	Int32U5BU5D_t539* ___daysmonth_21;
 	// System.Int32[] System.DateTime::daysmonthleap
-	Int32U5BU5D_t540* ___daysmonthleap_22;
+	Int32U5BU5D_t539* ___daysmonthleap_22;
 	// System.Object System.DateTime::to_local_time_span_object
 	Object_t * ___to_local_time_span_object_23;
 	// System.Int64 System.DateTime::last_now

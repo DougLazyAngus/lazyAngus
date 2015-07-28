@@ -7,7 +7,7 @@
 // System.DateTime
 struct DateTime_t287;
 // System.IFormatProvider
-struct IFormatProvider_t4447;
+struct IFormatProvider_t4446;
 // System.Object
 struct Object_t;
 // System.Type
@@ -15,7 +15,7 @@ struct Type_t;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Globalization.DateTimeFormatInfo
-struct DateTimeFormatInfo_t4413;
+struct DateTimeFormatInfo_t4412;
 // System.String
 struct String_t;
 // System.Exception
@@ -42,7 +42,7 @@ struct Exception_t57;
 // System.Void System.DateTime::.ctor(System.Int64)
 extern "C" void DateTime__ctor_m19291 (DateTime_t287 * __this, int64_t ___ticks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void DateTime__ctor_m4008 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTime__ctor_m4010 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern "C" void DateTime__ctor_m19292 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, int32_t ___hour, int32_t ___minute, int32_t ___second, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -64,7 +64,7 @@ extern "C" uint16_t DateTime_System_IConvertible_ToChar_m19298 (DateTime_t287 * 
 // System.DateTime System.DateTime::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  DateTime_System_IConvertible_ToDateTime_m19299 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.DateTime::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t688  DateTime_System_IConvertible_ToDecimal_m19300 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t687  DateTime_System_IConvertible_ToDecimal_m19300 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.DateTime::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double DateTime_System_IConvertible_ToDouble_m19301 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.DateTime::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -160,7 +160,7 @@ extern "C" StringU5BU5D_t75* DateTime_GetDateTimeFormats_m19334 (DateTime_t287 *
 // System.String[] System.DateTime::GetDateTimeFormats(System.Char,System.IFormatProvider)
 extern "C" StringU5BU5D_t75* DateTime_GetDateTimeFormats_m19335 (DateTime_t287 * __this, uint16_t ___format, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.DateTime::GetDateTimeFormats(System.Boolean,System.String[],System.Globalization.DateTimeFormatInfo)
-extern "C" StringU5BU5D_t75* DateTime_GetDateTimeFormats_m19336 (DateTime_t287 * __this, bool ___adjustutc, StringU5BU5D_t75* ___patterns, DateTimeFormatInfo_t4413 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* DateTime_GetDateTimeFormats_m19336 (DateTime_t287 * __this, bool ___adjustutc, StringU5BU5D_t75* ___patterns, DateTimeFormatInfo_t4412 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::CheckDateTimeKind(System.DateTimeKind)
 extern "C" void DateTime_CheckDateTimeKind_m19337 (DateTime_t287 * __this, int32_t ___kind, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTime::GetHashCode()
@@ -176,11 +176,11 @@ extern "C" DateTime_t287  DateTime_Parse_m19340 (Object_t * __this /* static, un
 // System.DateTime System.DateTime::Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
 extern "C" DateTime_t287  DateTime_Parse_m19341 (Object_t * __this /* static, unused */, String_t* ___s, Object_t * ___provider, int32_t ___styles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::CoreParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime&,System.DateTimeOffset&,System.Boolean,System.Exception&)
-extern "C" bool DateTime_CoreParse_m19342 (Object_t * __this /* static, unused */, String_t* ___s, Object_t * ___provider, int32_t ___styles, DateTime_t287 * ___result, DateTimeOffset_t2887 * ___dto, bool ___setExceptionOnError, Exception_t57 ** ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime_CoreParse_m19342 (Object_t * __this /* static, unused */, String_t* ___s, Object_t * ___provider, int32_t ___styles, DateTime_t287 * ___result, DateTimeOffset_t2886 * ___dto, bool ___setExceptionOnError, Exception_t57 ** ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTime::ParseExact(System.String,System.String,System.IFormatProvider)
 extern "C" DateTime_t287  DateTime_ParseExact_m3769 (Object_t * __this /* static, unused */, String_t* ___s, String_t* ___format, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.DateTime::YearMonthDayFormats(System.Globalization.DateTimeFormatInfo,System.Boolean,System.Exception&)
-extern "C" StringU5BU5D_t75* DateTime_YearMonthDayFormats_m19343 (Object_t * __this /* static, unused */, DateTimeFormatInfo_t4413 * ___dfi, bool ___setExceptionOnError, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* DateTime_YearMonthDayFormats_m19343 (Object_t * __this /* static, unused */, DateTimeFormatInfo_t4412 * ___dfi, bool ___setExceptionOnError, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTime::_ParseNumber(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32&)
 extern "C" int32_t DateTime__ParseNumber_m19344 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___valuePos, int32_t ___min_digits, int32_t ___digits, bool ___leadingzero, bool ___sloppy_parsing, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTime::_ParseEnum(System.String,System.Int32,System.String[],System.String[],System.Boolean,System.Int32&)
@@ -188,15 +188,15 @@ extern "C" int32_t DateTime__ParseEnum_m19345 (Object_t * __this /* static, unus
 // System.Boolean System.DateTime::_ParseString(System.String,System.Int32,System.Int32,System.String,System.Int32&)
 extern "C" bool DateTime__ParseString_m19346 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___sPos, int32_t ___maxlength, String_t* ___value, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::_ParseAmPm(System.String,System.Int32,System.Int32,System.Globalization.DateTimeFormatInfo,System.Boolean,System.Int32&,System.Int32&)
-extern "C" bool DateTime__ParseAmPm_m19347 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___valuePos, int32_t ___num, DateTimeFormatInfo_t4413 * ___dfi, bool ___exact, int32_t* ___num_parsed, int32_t* ___ampm, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime__ParseAmPm_m19347 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___valuePos, int32_t ___num, DateTimeFormatInfo_t4412 * ___dfi, bool ___exact, int32_t* ___num_parsed, int32_t* ___ampm, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::_ParseTimeSeparator(System.String,System.Int32,System.Globalization.DateTimeFormatInfo,System.Boolean,System.Int32&)
-extern "C" bool DateTime__ParseTimeSeparator_m19348 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___sPos, DateTimeFormatInfo_t4413 * ___dfi, bool ___exact, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime__ParseTimeSeparator_m19348 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___sPos, DateTimeFormatInfo_t4412 * ___dfi, bool ___exact, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::_ParseDateSeparator(System.String,System.Int32,System.Globalization.DateTimeFormatInfo,System.Boolean,System.Int32&)
-extern "C" bool DateTime__ParseDateSeparator_m19349 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___sPos, DateTimeFormatInfo_t4413 * ___dfi, bool ___exact, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime__ParseDateSeparator_m19349 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___sPos, DateTimeFormatInfo_t4412 * ___dfi, bool ___exact, int32_t* ___num_parsed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::IsLetter(System.String,System.Int32)
 extern "C" bool DateTime_IsLetter_m19350 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::_DoParse(System.String,System.String,System.String,System.Boolean,System.DateTime&,System.DateTimeOffset&,System.Globalization.DateTimeFormatInfo,System.Globalization.DateTimeStyles,System.Boolean,System.Boolean&,System.Boolean&)
-extern "C" bool DateTime__DoParse_m19351 (Object_t * __this /* static, unused */, String_t* ___s, String_t* ___firstPart, String_t* ___secondPart, bool ___exact, DateTime_t287 * ___result, DateTimeOffset_t2887 * ___dto, DateTimeFormatInfo_t4413 * ___dfi, int32_t ___style, bool ___firstPartIsDate, bool* ___incompleteFormat, bool* ___longYear, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime__DoParse_m19351 (Object_t * __this /* static, unused */, String_t* ___s, String_t* ___firstPart, String_t* ___secondPart, bool ___exact, DateTime_t287 * ___result, DateTimeOffset_t2886 * ___dto, DateTimeFormatInfo_t4412 * ___dfi, int32_t ___style, bool ___firstPartIsDate, bool* ___incompleteFormat, bool* ___longYear, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTime::ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
 extern "C" DateTime_t287  DateTime_ParseExact_m12814 (Object_t * __this /* static, unused */, String_t* ___s, String_t* ___format, Object_t * ___provider, int32_t ___style, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTime::ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)
@@ -204,7 +204,7 @@ extern "C" DateTime_t287  DateTime_ParseExact_m19352 (Object_t * __this /* stati
 // System.Void System.DateTime::CheckStyle(System.Globalization.DateTimeStyles)
 extern "C" void DateTime_CheckStyle_m19353 (Object_t * __this /* static, unused */, int32_t ___style, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::ParseExact(System.String,System.String[],System.Globalization.DateTimeFormatInfo,System.Globalization.DateTimeStyles,System.DateTime&,System.Boolean,System.Boolean&,System.Boolean,System.Exception&)
-extern "C" bool DateTime_ParseExact_m19354 (Object_t * __this /* static, unused */, String_t* ___s, StringU5BU5D_t75* ___formats, DateTimeFormatInfo_t4413 * ___dfi, int32_t ___style, DateTime_t287 * ___ret, bool ___exact, bool* ___longYear, bool ___setExceptionOnError, Exception_t57 ** ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTime_ParseExact_m19354 (Object_t * __this /* static, unused */, String_t* ___s, StringU5BU5D_t75* ___formats, DateTimeFormatInfo_t4412 * ___dfi, int32_t ___style, DateTime_t287 * ___ret, bool ___exact, bool* ___longYear, bool ___setExceptionOnError, Exception_t57 ** ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTime::Subtract(System.TimeSpan)
 extern "C" DateTime_t287  DateTime_Subtract_m19355 (DateTime_t287 * __this, TimeSpan_t334  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.DateTime::ToFileTime()

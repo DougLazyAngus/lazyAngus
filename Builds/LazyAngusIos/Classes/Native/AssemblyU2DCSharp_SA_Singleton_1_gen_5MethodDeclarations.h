@@ -22,6 +22,6 @@ struct TwitterApplicationOnlyToken_t313;
 // System.Boolean SA_Singleton`1<TwitterApplicationOnlyToken>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25023(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<TwitterApplicationOnlyToken>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4189(__this, method) (( void (*) (SA_Singleton_1_t315 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4191(__this, method) (( void (*) (SA_Singleton_1_t315 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<TwitterApplicationOnlyToken>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4190(__this, method) (( void (*) (SA_Singleton_1_t315 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4192(__this, method) (( void (*) (SA_Singleton_1_t315 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

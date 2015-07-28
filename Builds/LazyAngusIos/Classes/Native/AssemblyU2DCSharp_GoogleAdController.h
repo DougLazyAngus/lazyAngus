@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // GoogleAdController
-struct GoogleAdController_t516;
+struct GoogleAdController_t515;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // GoogleMobileAdBanner
@@ -9,7 +9,7 @@ struct GoogleMobileAdBanner_t140;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GoogleAdController
-struct  GoogleAdController_t516  : public MonoBehaviour_t13
+struct  GoogleAdController_t515  : public MonoBehaviour_t13
 {
 	// System.Int32 GoogleAdController::instancesBetweenInterstitialAds
 	int32_t ___instancesBetweenInterstitialAds_3;
@@ -26,7 +26,7 @@ struct  GoogleAdController_t516  : public MonoBehaviour_t13
 	// GoogleMobileAdBanner GoogleAdController::banner
 	Object_t * ___banner_9;
 };
-struct GoogleAdController_t516_StaticFields{
+struct GoogleAdController_t515_StaticFields{
 	// GoogleAdController GoogleAdController::instance
-	GoogleAdController_t516 * ___instance_2;
+	GoogleAdController_t515 * ___instance_2;
 };

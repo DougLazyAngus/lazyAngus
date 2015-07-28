@@ -5,7 +5,7 @@
 // Mono.Security.X509.Extensions.KeyUsages
 #include "Mono_Security_Mono_Security_X509_Extensions_KeyUsages.h"
 // Mono.Security.X509.Extensions.KeyUsages
-struct  KeyUsages_t3771 
+struct  KeyUsages_t3770 
 {
 	// System.Int32 Mono.Security.X509.Extensions.KeyUsages::value__
 	int32_t ___value___1;

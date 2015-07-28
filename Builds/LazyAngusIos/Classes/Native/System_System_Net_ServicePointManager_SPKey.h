@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t700;
+struct Uri_t699;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.ServicePointManager/SPKey
-struct  SPKey_t4010  : public Object_t
+struct  SPKey_t4009  : public Object_t
 {
 	// System.Uri System.Net.ServicePointManager/SPKey::uri
-	Uri_t700 * ___uri_0;
+	Uri_t699 * ___uri_0;
 	// System.Boolean System.Net.ServicePointManager/SPKey::use_connect
 	bool ___use_connect_1;
 };

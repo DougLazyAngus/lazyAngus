@@ -13,9 +13,9 @@ struct AN_ActivityTemplate_t117;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t622;
+struct XmlDocument_t621;
 // System.Xml.XmlElement
-struct XmlElement_t623;
+struct XmlElement_t622;
 
 // System.Void AN_ApplicationTemplate::.ctor()
 extern "C" void AN_ApplicationTemplate__ctor_m581 (AN_ApplicationTemplate_t120 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -30,6 +30,6 @@ extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetActivityWithName
 // AN_ActivityTemplate AN_ApplicationTemplate::GetLauncherActivity()
 extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetLauncherActivity_m586 (AN_ApplicationTemplate_t120 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_ApplicationTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
-extern "C" void AN_ApplicationTemplate_ToXmlElement_m587 (AN_ApplicationTemplate_t120 * __this, XmlDocument_t622 * ___doc, XmlElement_t623 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_ApplicationTemplate_ToXmlElement_m587 (AN_ApplicationTemplate_t120 * __this, XmlDocument_t621 * ___doc, XmlElement_t622 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate> AN_ApplicationTemplate::get_Activities()
 extern "C" Dictionary_2_t119 * AN_ApplicationTemplate_get_Activities_m588 (AN_ApplicationTemplate_t120 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

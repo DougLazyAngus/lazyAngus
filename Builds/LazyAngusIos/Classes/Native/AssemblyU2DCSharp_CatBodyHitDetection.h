@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // CatBodyHitDetection
-struct  CatBodyHitDetection_t481  : public MonoBehaviour_t13
+struct  CatBodyHitDetection_t480  : public MonoBehaviour_t13
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.EventHandle
-struct EventHandle_t773;
+struct EventHandle_t772;
 

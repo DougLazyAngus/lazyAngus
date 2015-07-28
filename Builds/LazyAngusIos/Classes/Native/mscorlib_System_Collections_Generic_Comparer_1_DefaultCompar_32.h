@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<System.TimeSpan>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_32.h"
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>
-struct  DefaultComparer_t8622  : public Comparer_1_t8621
+struct  DefaultComparer_t8621  : public Comparer_1_t8620
 {
 };

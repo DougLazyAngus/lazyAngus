@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseConfig/MouseWiggleType
-struct MouseWiggleType_t546;
+struct MouseWiggleType_t545;
 

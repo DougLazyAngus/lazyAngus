@@ -5,7 +5,7 @@
 // System.ComponentModel.EditorBrowsableState
 #include "System_System_ComponentModel_EditorBrowsableState.h"
 // System.ComponentModel.EditorBrowsableState
-struct  EditorBrowsableState_t3913 
+struct  EditorBrowsableState_t3912 
 {
 	// System.Int32 System.ComponentModel.EditorBrowsableState::value__
 	int32_t ___value___1;

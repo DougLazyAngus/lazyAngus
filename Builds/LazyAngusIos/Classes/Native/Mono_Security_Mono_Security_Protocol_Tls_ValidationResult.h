@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.ValidationResult
-struct  ValidationResult_t3816  : public Object_t
+struct  ValidationResult_t3815  : public Object_t
 {
 	// System.Boolean Mono.Security.Protocol.Tls.ValidationResult::trusted
 	bool ___trusted_0;

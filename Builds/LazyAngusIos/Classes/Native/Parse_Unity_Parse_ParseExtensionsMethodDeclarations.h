@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseExtensions
-struct ParseExtensions_t1178;
+struct ParseExtensions_t1177;
 

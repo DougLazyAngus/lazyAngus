@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.SimpleJson
-struct SimpleJson_t2764;
+struct SimpleJson_t2763;
 // SimpleJson.IJsonSerializerStrategy
-struct IJsonSerializerStrategy_t2762;
+struct IJsonSerializerStrategy_t2761;
 // SimpleJson.PocoJsonSerializerStrategy
-struct PocoJsonSerializerStrategy_t2763;
+struct PocoJsonSerializerStrategy_t2762;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t758;
+struct IDictionary_2_t757;
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 // SimpleJson.JsonArray
-struct JsonArray_t2760;
+struct JsonArray_t2759;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Collections.IEnumerable
@@ -32,25 +32,25 @@ extern "C" String_t* SimpleJson_SerializeObject_m9468 (Object_t * __this /* stat
 // System.String SimpleJson.SimpleJson::SerializeObject(System.Object)
 extern "C" String_t* SimpleJson_SerializeObject_m9469 (Object_t * __this /* static, unused */, Object_t * ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> SimpleJson.SimpleJson::ParseObject(System.Char[],System.Int32&,System.Boolean&)
-extern "C" Object_t* SimpleJson_ParseObject_m9470 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* SimpleJson_ParseObject_m9470 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.JsonArray SimpleJson.SimpleJson::ParseArray(System.Char[],System.Int32&,System.Boolean&)
-extern "C" JsonArray_t2760 * SimpleJson_ParseArray_m9471 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" JsonArray_t2759 * SimpleJson_ParseArray_m9471 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.SimpleJson::ParseValue(System.Char[],System.Int32&,System.Boolean&)
-extern "C" Object_t * SimpleJson_ParseValue_m9472 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SimpleJson_ParseValue_m9472 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.SimpleJson::ParseString(System.Char[],System.Int32&,System.Boolean&)
-extern "C" String_t* SimpleJson_ParseString_m9473 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SimpleJson_ParseString_m9473 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.SimpleJson::ConvertFromUtf32(System.Int32)
 extern "C" String_t* SimpleJson_ConvertFromUtf32_m9474 (Object_t * __this /* static, unused */, int32_t ___utf32, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.SimpleJson::ParseNumber(System.Char[],System.Int32&,System.Boolean&)
-extern "C" Object_t * SimpleJson_ParseNumber_m9475 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SimpleJson_ParseNumber_m9475 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 SimpleJson.SimpleJson::GetLastIndexOfNumber(System.Char[],System.Int32)
-extern "C" int32_t SimpleJson_GetLastIndexOfNumber_m9476 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SimpleJson_GetLastIndexOfNumber_m9476 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SimpleJson.SimpleJson::EatWhitespace(System.Char[],System.Int32&)
-extern "C" void SimpleJson_EatWhitespace_m9477 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleJson_EatWhitespace_m9477 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 SimpleJson.SimpleJson::LookAhead(System.Char[],System.Int32)
-extern "C" int32_t SimpleJson_LookAhead_m9478 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SimpleJson_LookAhead_m9478 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 SimpleJson.SimpleJson::NextToken(System.Char[],System.Int32&)
-extern "C" int32_t SimpleJson_NextToken_m9479 (Object_t * __this /* static, unused */, CharU5BU5D_t653* ___json, int32_t* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SimpleJson_NextToken_m9479 (Object_t * __this /* static, unused */, CharU5BU5D_t652* ___json, int32_t* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean SimpleJson.SimpleJson::SerializeValue(SimpleJson.IJsonSerializerStrategy,System.Object,System.Text.StringBuilder)
 extern "C" bool SimpleJson_SerializeValue_m9480 (Object_t * __this /* static, unused */, Object_t * ___jsonSerializerStrategy, Object_t * ___value, StringBuilder_t261 * ___builder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean SimpleJson.SimpleJson::SerializeObject(SimpleJson.IJsonSerializerStrategy,System.Collections.IEnumerable,System.Collections.IEnumerable,System.Text.StringBuilder)
@@ -66,4 +66,4 @@ extern "C" bool SimpleJson_IsNumeric_m9485 (Object_t * __this /* static, unused 
 // SimpleJson.IJsonSerializerStrategy SimpleJson.SimpleJson::get_CurrentJsonSerializerStrategy()
 extern "C" Object_t * SimpleJson_get_CurrentJsonSerializerStrategy_m9486 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.PocoJsonSerializerStrategy SimpleJson.SimpleJson::get_PocoJsonSerializerStrategy()
-extern "C" PocoJsonSerializerStrategy_t2763 * SimpleJson_get_PocoJsonSerializerStrategy_m9487 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PocoJsonSerializerStrategy_t2762 * SimpleJson_get_PocoJsonSerializerStrategy_m9487 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

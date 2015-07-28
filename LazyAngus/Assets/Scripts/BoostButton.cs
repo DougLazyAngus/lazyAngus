@@ -43,7 +43,7 @@ public class BoostButton : MonoBehaviour {
 	void RegisterForEvents() {
 		if (!registeredForEvents) {
 			registeredForEvents = true;
-			PlayerStats.instance.TreatsChanged += new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			PlayerStats.instance.MoneyChanged += new PlayerStats.MoneyChangedEventHandler (OnTreatsChanged);
 			PlayerStats.instance.BoostsChanged += new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
 			GameLevelState.instance.GameLevelChanged += new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
 			GamePhaseState.instance.GamePhaseChanged += new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
@@ -53,7 +53,7 @@ public class BoostButton : MonoBehaviour {
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			PlayerStats.instance.TreatsChanged -= new PlayerStats.TreatsChangedEventHandler (OnTreatsChanged);
+			PlayerStats.instance.MoneyChanged -= new PlayerStats.MoneyChangedEventHandler (OnTreatsChanged);
 			PlayerStats.instance.BoostsChanged -= new PlayerStats.BoostsChangedEventHandler (OnBoostsChanged);			
 			GameLevelState.instance.GameLevelChanged -= new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
 			GamePhaseState.instance.GamePhaseChanged -= new GamePhaseState.GamePhaseChangedEventHandler (OnGameLevelChanged);			

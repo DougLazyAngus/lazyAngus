@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct List_1_t2639;
+struct List_1_t2638;
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2641;
+struct GcLeaderboard_t2640;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Enumerator_t2867 
+struct  Enumerator_t2866 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::l
-	List_1_t2639 * ___l_0;
+	List_1_t2638 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::current
-	GcLeaderboard_t2641 * ___current_3;
+	GcLeaderboard_t2640 * ___current_3;
 };

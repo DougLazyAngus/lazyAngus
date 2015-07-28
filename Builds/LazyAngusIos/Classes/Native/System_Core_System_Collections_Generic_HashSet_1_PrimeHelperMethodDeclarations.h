@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>
-struct PrimeHelper_t5863;
+struct PrimeHelper_t5862;
 
 // System.Void System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::.cctor()
 extern "C" void PrimeHelper__cctor_m29749_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);

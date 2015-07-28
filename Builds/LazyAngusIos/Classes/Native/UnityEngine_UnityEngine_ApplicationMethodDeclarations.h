@@ -5,18 +5,18 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Application
-struct Application_t1453;
+struct Application_t1452;
 // System.String
 struct String_t;
 // UnityEngine.Application/LogCallback
 struct LogCallback_t54;
 // UnityEngine.AsyncOperation
-struct AsyncOperation_t2623;
-struct AsyncOperation_t2623_marshaled;
+struct AsyncOperation_t2622;
+struct AsyncOperation_t2622_marshaled;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t627;
+struct ObjectU5BU5D_t626;
 // UnityEngine.RuntimePlatform
 #include "UnityEngine_UnityEngine_RuntimePlatform.h"
 // UnityEngine.LogType
@@ -35,23 +35,23 @@ extern "C" String_t* Application_get_loadedLevelName_m3461 (Object_t * __this /*
 // System.Void UnityEngine.Application::LoadLevel(System.String)
 extern "C" void Application_LoadLevel_m3723 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.AsyncOperation UnityEngine.Application::LoadLevelAsync(System.String,System.Int32,System.Boolean,System.Boolean)
-extern "C" AsyncOperation_t2623 * Application_LoadLevelAsync_m8996 (Object_t * __this /* static, unused */, String_t* ___monoLevelName, int32_t ___index, bool ___additive, bool ___mustCompleteNextFrame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsyncOperation_t2622 * Application_LoadLevelAsync_m8996 (Object_t * __this /* static, unused */, String_t* ___monoLevelName, int32_t ___index, bool ___additive, bool ___mustCompleteNextFrame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Application::get_isPlaying()
-extern "C" bool Application_get_isPlaying_m5747 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Application_get_isPlaying_m5749 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Application::get_isEditor()
-extern "C" bool Application_get_isEditor_m5749 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Application_get_isEditor_m5751 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Application::get_isWebPlayer()
 extern "C" bool Application_get_isWebPlayer_m3772 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 extern "C" int32_t Application_get_platform_m3475 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Application::get_persistentDataPath()
-extern "C" String_t* Application_get_persistentDataPath_m3976 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Application_get_persistentDataPath_m3978 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Application::ObjectToJSString(System.Object)
 extern "C" String_t* Application_ObjectToJSString_m8997 (Object_t * __this /* static, unused */, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application::ExternalCall(System.String,System.Object[])
-extern "C" void Application_ExternalCall_m3773 (Object_t * __this /* static, unused */, String_t* ___functionName, ObjectU5BU5D_t627* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Application_ExternalCall_m3773 (Object_t * __this /* static, unused */, String_t* ___functionName, ObjectU5BU5D_t626* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Application::BuildInvocationForArguments(System.String,System.Object[])
-extern "C" String_t* Application_BuildInvocationForArguments_m8998 (Object_t * __this /* static, unused */, String_t* ___functionName, ObjectU5BU5D_t627* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Application_BuildInvocationForArguments_m8998 (Object_t * __this /* static, unused */, String_t* ___functionName, ObjectU5BU5D_t626* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application::ExternalEval(System.String)
 extern "C" void Application_ExternalEval_m3801 (Object_t * __this /* static, unused */, String_t* ___script, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application::Internal_ExternalCall(System.String)

@@ -13,14 +13,14 @@ struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.Text.Encoding
-struct Encoding_t682;
+struct Encoding_t681;
 
 // System.Void UnityEngine.WWWForm::.ctor()
 extern "C" void WWWForm__ctor_m3409 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.String)
 extern "C" void WWWForm_AddField_m3411 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.String,System.Text.Encoding)
-extern "C" void WWWForm_AddField_m8974 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, Encoding_t682 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddField_m8974 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, Encoding_t681 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.Int32)
 extern "C" void WWWForm_AddField_m8975 (WWWForm_t112 * __this, String_t* ___fieldName, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddBinaryData(System.String,System.Byte[],System.String)

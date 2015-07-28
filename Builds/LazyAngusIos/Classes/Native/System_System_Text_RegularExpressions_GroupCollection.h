@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Group[]
-struct GroupU5BU5D_t4063;
+struct GroupU5BU5D_t4062;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.GroupCollection
-struct  GroupCollection_t1378  : public Object_t
+struct  GroupCollection_t1377  : public Object_t
 {
 	// System.Text.RegularExpressions.Group[] System.Text.RegularExpressions.GroupCollection::list
-	GroupU5BU5D_t4063* ___list_0;
+	GroupU5BU5D_t4062* ___list_0;
 	// System.Int32 System.Text.RegularExpressions.GroupCollection::gap
 	int32_t ___gap_1;
 };

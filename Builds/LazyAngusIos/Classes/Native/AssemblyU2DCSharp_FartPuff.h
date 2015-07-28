@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Sprite
-struct Sprite_t473;
+struct Sprite_t472;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // FartPuff
-struct  FartPuff_t497  : public MonoBehaviour_t13
+struct  FartPuff_t496  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 FartPuff::direction
-	Vector3_t494  ___direction_2;
+	Vector3_t493  ___direction_2;
 	// System.Single FartPuff::velocity
 	float ___velocity_3;
 	// System.Single FartPuff::scaleVelocity
@@ -28,5 +28,5 @@ struct  FartPuff_t497  : public MonoBehaviour_t13
 	// System.Single FartPuff::initialScale
 	float ___initialScale_10;
 	// UnityEngine.Sprite FartPuff::sprite
-	Sprite_t473 * ___sprite_11;
+	Sprite_t472 * ___sprite_11;
 };

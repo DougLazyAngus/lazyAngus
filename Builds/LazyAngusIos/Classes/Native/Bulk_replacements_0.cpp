@@ -78,7 +78,7 @@ extern "C" String_t* SecurityElement_ToString_m10094 (Object_t * __this /* stati
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1968, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1973, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -107,13 +107,13 @@ extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10095 (Object_
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1969, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1974, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m10096 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t627* ___activationAttributes, const MethodInfo* method)
+extern "C" Object_t * RemotingServices_CreateClientProxy_m10096 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t626* ___activationAttributes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -123,7 +123,7 @@ extern "C" Object_t * RemotingServices_CreateClientProxy_m10096 (Object_t * __th
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1970, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10097(L_0, (String_t*) &_stringLiteral1975, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlConvert
-struct XmlConvert_t3163;
+struct XmlConvert_t3162;
 // System.String
 struct String_t;
 

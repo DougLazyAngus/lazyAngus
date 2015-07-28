@@ -1,40 +1,40 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Math.BigInteger
-struct BigInteger_t4335;
+struct BigInteger_t4334;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3722;
+struct RandomNumberGenerator_t3721;
 // Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler
-struct KeyGeneratedEventHandler_t4341;
+struct KeyGeneratedEventHandler_t4340;
 // System.Security.Cryptography.DSA
 #include "mscorlib_System_Security_Cryptography_DSA.h"
 // Mono.Security.Cryptography.DSAManaged
-struct  DSAManaged_t4342  : public DSA_t3754
+struct  DSAManaged_t4341  : public DSA_t3753
 {
 	// System.Boolean Mono.Security.Cryptography.DSAManaged::keypairGenerated
 	bool ___keypairGenerated_2;
 	// System.Boolean Mono.Security.Cryptography.DSAManaged::m_disposed
 	bool ___m_disposed_3;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::p
-	BigInteger_t4335 * ___p_4;
+	BigInteger_t4334 * ___p_4;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::q
-	BigInteger_t4335 * ___q_5;
+	BigInteger_t4334 * ___q_5;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::g
-	BigInteger_t4335 * ___g_6;
+	BigInteger_t4334 * ___g_6;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::x
-	BigInteger_t4335 * ___x_7;
+	BigInteger_t4334 * ___x_7;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::y
-	BigInteger_t4335 * ___y_8;
+	BigInteger_t4334 * ___y_8;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::j
-	BigInteger_t4335 * ___j_9;
+	BigInteger_t4334 * ___j_9;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.DSAManaged::seed
-	BigInteger_t4335 * ___seed_10;
+	BigInteger_t4334 * ___seed_10;
 	// System.Int32 Mono.Security.Cryptography.DSAManaged::counter
 	int32_t ___counter_11;
 	// System.Boolean Mono.Security.Cryptography.DSAManaged::j_missing
 	bool ___j_missing_12;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.DSAManaged::rng
-	RandomNumberGenerator_t3722 * ___rng_13;
+	RandomNumberGenerator_t3721 * ___rng_13;
 	// Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler Mono.Security.Cryptography.DSAManaged::KeyGenerated
-	KeyGeneratedEventHandler_t4341 * ___KeyGenerated_14;
+	KeyGeneratedEventHandler_t4340 * ___KeyGenerated_14;
 };

@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Event
-struct Event_t726;
-struct Event_t726_marshaled;
+struct Event_t725;
+struct Event_t725_marshaled;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -16,6 +16,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp,System.Collections.DictionaryEntry>
-struct  Transform_1_t8466  : public MulticastDelegate_t388
+struct  Transform_1_t8465  : public MulticastDelegate_t388
 {
 };

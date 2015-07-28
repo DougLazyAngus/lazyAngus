@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1317;
+struct IParseFieldOperation_t1316;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.Internal.IParseFieldOperation,System.Collections.DictionaryEntry>
-struct  Transform_1_t6145  : public MulticastDelegate_t388
+struct  Transform_1_t6144  : public MulticastDelegate_t388
 {
 };

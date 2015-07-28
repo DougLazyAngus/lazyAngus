@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Screen
-struct Screen_t2643;
+struct Screen_t2642;
 // UnityEngine.ScreenOrientation
 #include "UnityEngine_UnityEngine_ScreenOrientation.h"
 

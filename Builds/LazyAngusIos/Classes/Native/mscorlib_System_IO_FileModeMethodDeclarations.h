@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileMode
-struct FileMode_t4269;
+struct FileMode_t4268;
 

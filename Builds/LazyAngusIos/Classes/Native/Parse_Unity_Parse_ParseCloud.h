@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseCloud
-struct  ParseCloud_t1171  : public Object_t
+struct  ParseCloud_t1170  : public Object_t
 {
 };

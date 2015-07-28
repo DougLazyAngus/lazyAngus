@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.Networking.Types.NodeID
 #include "UnityEngine_UnityEngine_Networking_Types_NodeID.h"
 // UnityEngine.Networking.Match.MatchDirectConnectInfo
-struct  MatchDirectConnectInfo_t2746  : public ResponseBase_t2735
+struct  MatchDirectConnectInfo_t2745  : public ResponseBase_t2734
 {
 	// UnityEngine.Networking.Types.NodeID UnityEngine.Networking.Match.MatchDirectConnectInfo::<nodeId>k__BackingField
 	uint16_t ___U3CnodeIdU3Ek__BackingField_0;

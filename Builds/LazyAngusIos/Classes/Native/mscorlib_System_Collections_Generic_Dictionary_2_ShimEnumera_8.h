@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__56.h"
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Parse.ParseGeoPoint>
-struct  ShimEnumerator_t7061  : public Object_t
+struct  ShimEnumerator_t7060  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Parse.ParseGeoPoint>::host_enumerator
-	Enumerator_t7055  ___host_enumerator_0;
+	Enumerator_t7054  ___host_enumerator_0;
 };

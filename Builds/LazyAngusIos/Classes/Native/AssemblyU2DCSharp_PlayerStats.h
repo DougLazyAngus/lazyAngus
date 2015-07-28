@@ -3,38 +3,38 @@
 // System.String
 struct String_t;
 // System.Int32[]
-struct Int32U5BU5D_t540;
+struct Int32U5BU5D_t539;
 // PlayerStats/ScoreChangedEventHandler
-struct ScoreChangedEventHandler_t576;
-// PlayerStats/TreatsChangedEventHandler
-struct TreatsChangedEventHandler_t577;
+struct ScoreChangedEventHandler_t575;
+// PlayerStats/MoneyChangedEventHandler
+struct MoneyChangedEventHandler_t576;
 // PlayerStats/BoostsChangedEventHandler
-struct BoostsChangedEventHandler_t578;
+struct BoostsChangedEventHandler_t577;
 // PlayerStats
-struct PlayerStats_t476;
+struct PlayerStats_t475;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerStats
-struct  PlayerStats_t476  : public MonoBehaviour_t13
+struct  PlayerStats_t475  : public MonoBehaviour_t13
 {
-	// System.Int32 PlayerStats::gameScore
-	int32_t ___gameScore_3;
-	// System.Int32 PlayerStats::treatCount
-	int32_t ___treatCount_4;
 	// System.Int32[] PlayerStats::availableBoostCount
-	Int32U5BU5D_t540* ___availableBoostCount_5;
+	Int32U5BU5D_t539* ___availableBoostCount_3;
 	// System.Int32[] PlayerStats::purchasedBoostCount
-	Int32U5BU5D_t540* ___purchasedBoostCount_6;
+	Int32U5BU5D_t539* ___purchasedBoostCount_4;
 	// System.Boolean PlayerStats::registeredForEvents
-	bool ___registeredForEvents_7;
+	bool ___registeredForEvents_5;
 	// PlayerStats/ScoreChangedEventHandler PlayerStats::ScoreChanged
-	ScoreChangedEventHandler_t576 * ___ScoreChanged_8;
-	// PlayerStats/TreatsChangedEventHandler PlayerStats::TreatsChanged
-	TreatsChangedEventHandler_t577 * ___TreatsChanged_9;
+	ScoreChangedEventHandler_t575 * ___ScoreChanged_6;
+	// PlayerStats/MoneyChangedEventHandler PlayerStats::MoneyChanged
+	MoneyChangedEventHandler_t576 * ___MoneyChanged_7;
 	// PlayerStats/BoostsChangedEventHandler PlayerStats::BoostsChanged
-	BoostsChangedEventHandler_t578 * ___BoostsChanged_10;
+	BoostsChangedEventHandler_t577 * ___BoostsChanged_8;
+	// System.Int32 PlayerStats::<gameScore>k__BackingField
+	int32_t ___U3CgameScoreU3Ek__BackingField_9;
+	// System.Int32 PlayerStats::<money>k__BackingField
+	int32_t ___U3CmoneyU3Ek__BackingField_10;
 };
-struct PlayerStats_t476_StaticFields{
+struct PlayerStats_t475_StaticFields{
 	// PlayerStats PlayerStats::<instance>k__BackingField
-	PlayerStats_t476 * ___U3CinstanceU3Ek__BackingField_11;
+	PlayerStats_t475 * ___U3CinstanceU3Ek__BackingField_11;
 };

@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t540;
+struct Int32U5BU5D_t539;
 // System.Collections.Generic.HashSet`1/Link<System.String>[]
-struct LinkU5BU5D_t6008;
+struct LinkU5BU5D_t6007;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t5324;
+struct IEqualityComparer_1_t5323;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2861;
+struct SerializationInfo_t2860;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.HashSet`1<System.String>
-struct  HashSet_1_t1230  : public Object_t
+struct  HashSet_1_t1229  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<System.String>::table
-	Int32U5BU5D_t540* ___table_0;
+	Int32U5BU5D_t539* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.String>::links
-	LinkU5BU5D_t6008* ___links_1;
+	LinkU5BU5D_t6007* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.String>::slots
 	StringU5BU5D_t75* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.String>::touched
@@ -32,7 +32,7 @@ struct  HashSet_1_t1230  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1<System.String>::comparer
 	Object_t* ___comparer_7;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1<System.String>::si
-	SerializationInfo_t2861 * ___si_8;
+	SerializationInfo_t2860 * ___si_8;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.String>::generation
 	int32_t ___generation_9;
 };

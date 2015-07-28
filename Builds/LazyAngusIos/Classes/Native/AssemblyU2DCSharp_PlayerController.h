@@ -3,13 +3,13 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // ConeOfViewRenderer
-struct ConeOfViewRenderer_t484;
+struct ConeOfViewRenderer_t483;
 // HeadMovement
-struct HeadMovement_t519;
+struct HeadMovement_t518;
 // TipConfig
-struct TipConfig_t474;
+struct TipConfig_t473;
 // PlayerController
-struct PlayerController_t575;
+struct PlayerController_t574;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerController/BodyMovementType
@@ -17,16 +17,16 @@ struct PlayerController_t575;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PlayerController
-struct  PlayerController_t575  : public MonoBehaviour_t13
+struct  PlayerController_t574  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
 	GameObject_t352 * ___rightPawGameObject_3;
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
 	GameObject_t352 * ___leftPawGameObject_4;
 	// ConeOfViewRenderer PlayerController::coneOfView
-	ConeOfViewRenderer_t484 * ___coneOfView_5;
+	ConeOfViewRenderer_t483 * ___coneOfView_5;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t519 * ___headMovement_6;
+	HeadMovement_t518 * ___headMovement_6;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
 	GameObject_t352 * ___fartPuffPrototype_7;
 	// UnityEngine.GameObject PlayerController::butthole
@@ -38,13 +38,13 @@ struct  PlayerController_t575  : public MonoBehaviour_t13
 	// System.Single PlayerController::currentTurnAngleDegrees
 	float ___currentTurnAngleDegrees_11;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t494  ___dragAnchorCat_12;
+	Vector3_t493  ___dragAnchorCat_12;
 	// System.Single PlayerController::dragAnchorAngleCat
 	float ___dragAnchorAngleCat_13;
 	// System.Boolean PlayerController::registeredForEvents
 	bool ___registeredForEvents_14;
 	// TipConfig PlayerController::turningTip
-	TipConfig_t474 * ___turningTip_15;
+	TipConfig_t473 * ___turningTip_15;
 	// System.Single PlayerController::turningTipPause
 	float ___turningTipPause_16;
 	// System.Single PlayerController::lastFartTime
@@ -52,7 +52,7 @@ struct  PlayerController_t575  : public MonoBehaviour_t13
 	// System.Single PlayerController::fartPause
 	float ___fartPause_18;
 };
-struct PlayerController_t575_StaticFields{
+struct PlayerController_t574_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t575 * ___U3CinstanceU3Ek__BackingField_19;
+	PlayerController_t574 * ___U3CinstanceU3Ek__BackingField_19;
 };

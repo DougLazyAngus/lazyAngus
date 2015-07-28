@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Path
-struct Path_t2084;
+struct Path_t2083;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 
 // System.Void System.IO.Path::.cctor()
 extern "C" void Path__cctor_m17144 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -34,7 +34,7 @@ extern "C" String_t* Path_GetPathRoot_m17151 (Object_t * __this /* static, unuse
 // System.Boolean System.IO.Path::IsPathRooted(System.String)
 extern "C" bool Path_IsPathRooted_m17152 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] System.IO.Path::GetInvalidPathChars()
-extern "C" CharU5BU5D_t653* Path_GetInvalidPathChars_m17153 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t652* Path_GetInvalidPathChars_m17153 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::GetServerAndShare(System.String)
 extern "C" String_t* Path_GetServerAndShare_m17154 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.Path::SameRoot(System.String,System.String)

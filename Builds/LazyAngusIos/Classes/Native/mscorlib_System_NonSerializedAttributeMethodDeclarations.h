@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.NonSerializedAttribute
-struct NonSerializedAttribute_t4773;
+struct NonSerializedAttribute_t4772;
 
 // System.Void System.NonSerializedAttribute::.ctor()
-extern "C" void NonSerializedAttribute__ctor_m19575 (NonSerializedAttribute_t4773 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonSerializedAttribute__ctor_m19575 (NonSerializedAttribute_t4772 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

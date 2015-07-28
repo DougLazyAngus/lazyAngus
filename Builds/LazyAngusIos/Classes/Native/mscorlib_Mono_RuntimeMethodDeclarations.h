@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Runtime
-struct Runtime_t4374;
+struct Runtime_t4373;
 // System.String
 struct String_t;
 

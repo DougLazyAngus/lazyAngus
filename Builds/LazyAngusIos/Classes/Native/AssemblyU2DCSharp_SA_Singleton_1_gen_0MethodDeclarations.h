@@ -22,6 +22,6 @@ struct WP8AdMobController_t157;
 // System.Boolean SA_Singleton`1<WP8AdMobController>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m22998(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<WP8AdMobController>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4177(__this, method) (( void (*) (SA_Singleton_1_t158 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4179(__this, method) (( void (*) (SA_Singleton_1_t158 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<WP8AdMobController>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4178(__this, method) (( void (*) (SA_Singleton_1_t158 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4180(__this, method) (( void (*) (SA_Singleton_1_t158 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

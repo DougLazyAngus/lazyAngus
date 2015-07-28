@@ -11,25 +11,25 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t651;
+struct IEnumerable_1_t650;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.IEnumerator`1<System.String>
-struct IEnumerator_1_t1401;
+struct IEnumerator_1_t1400;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<System.String>
-struct ICollection_1_t1152;
+struct ICollection_1_t1151;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.String>
-struct ReadOnlyCollection_1_t1389;
+struct ReadOnlyCollection_1_t1388;
 // System.Predicate`1<System.String>
-struct Predicate_1_t5402;
+struct Predicate_1_t5401;
 // System.Collections.Generic.IComparer`1<System.String>
-struct IComparer_1_t5323;
+struct IComparer_1_t5322;
 // System.Comparison`1<System.String>
-struct Comparison_1_t5403;
+struct Comparison_1_t5402;
 // System.Collections.Generic.List`1/Enumerator<System.String>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_2.h"
 
@@ -88,7 +88,7 @@ struct Comparison_1_t5403;
 // System.Void System.Collections.Generic.List`1<System.String>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m21915(__this, ___collection, method) (( void (*) (List_1_t115 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.String>::AsReadOnly()
-#define List_1_AsReadOnly_m21916(__this, method) (( ReadOnlyCollection_1_t1389 * (*) (List_1_t115 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
+#define List_1_AsReadOnly_m21916(__this, method) (( ReadOnlyCollection_1_t1388 * (*) (List_1_t115 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.String>::Clear()
 #define List_1_Clear_m21917(__this, method) (( void (*) (List_1_t115 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.String>::Contains(T)
@@ -96,13 +96,13 @@ struct Comparison_1_t5403;
 // System.Void System.Collections.Generic.List`1<System.String>::CopyTo(T[],System.Int32)
 #define List_1_CopyTo_m21919(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t115 *, StringU5BU5D_t75*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<System.String>::Find(System.Predicate`1<T>)
-#define List_1_Find_m21920(__this, ___match, method) (( String_t* (*) (List_1_t115 *, Predicate_1_t5402 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
+#define List_1_Find_m21920(__this, ___match, method) (( String_t* (*) (List_1_t115 *, Predicate_1_t5401 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.String>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m21921(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5402 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m21921(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5401 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<System.String>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m21922(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t115 *, int32_t, int32_t, Predicate_1_t5402 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m21922(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t115 *, int32_t, int32_t, Predicate_1_t5401 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.String>::GetEnumerator()
-#define List_1_GetEnumerator_m3528(__this, method) (( Enumerator_t678  (*) (List_1_t115 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
+#define List_1_GetEnumerator_m3528(__this, method) (( Enumerator_t677  (*) (List_1_t115 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.String>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m21923(__this, ___index, ___count, method) (( List_1_t115 * (*) (List_1_t115 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21291_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t5403;
 // System.Boolean System.Collections.Generic.List`1<System.String>::Remove(T)
 #define List_1_Remove_m21932(__this, ___item, method) (( bool (*) (List_1_t115 *, String_t*, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<System.String>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m21933(__this, ___match, method) (( int32_t (*) (List_1_t115 *, Predicate_1_t5402 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m21933(__this, ___match, method) (( int32_t (*) (List_1_t115 *, Predicate_1_t5401 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.String>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m21934(__this, ___index, method) (( void (*) (List_1_t115 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.String>::RemoveRange(System.Int32,System.Int32)
@@ -136,7 +136,7 @@ struct Comparison_1_t5403;
 // System.Void System.Collections.Generic.List`1<System.String>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m21938(__this, ___comparer, method) (( void (*) (List_1_t115 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<System.String>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m21939(__this, ___comparison, method) (( void (*) (List_1_t115 *, Comparison_1_t5403 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m21939(__this, ___comparison, method) (( void (*) (List_1_t115 *, Comparison_1_t5402 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<System.String>::ToArray()
 #define List_1_ToArray_m3482(__this, method) (( StringU5BU5D_t75* (*) (List_1_t115 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.String>::TrimExcess()

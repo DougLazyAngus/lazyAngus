@@ -11,7 +11,7 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Diagnostics.StackTrace
-struct StackTrace_t2860;
+struct StackTrace_t2859;
 
 // System.Void UnityEngine.StackTraceUtility::.ctor()
 extern "C" void StackTraceUtility__ctor_m9661 (StackTraceUtility_t55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -30,4 +30,4 @@ extern "C" void StackTraceUtility_ExtractStringFromExceptionInternal_m9666 (Obje
 // System.String UnityEngine.StackTraceUtility::PostprocessStacktrace(System.String,System.Boolean)
 extern "C" String_t* StackTraceUtility_PostprocessStacktrace_m9667 (Object_t * __this /* static, unused */, String_t* ___oldString, bool ___stripEngineInternalInformation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.StackTraceUtility::ExtractFormattedStackTrace(System.Diagnostics.StackTrace)
-extern "C" String_t* StackTraceUtility_ExtractFormattedStackTrace_m9668 (Object_t * __this /* static, unused */, StackTrace_t2860 * ___stackTrace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackTraceUtility_ExtractFormattedStackTrace_m9668 (Object_t * __this /* static, unused */, StackTrace_t2859 * ___stackTrace, const MethodInfo* method) IL2CPP_METHOD_ATTR;

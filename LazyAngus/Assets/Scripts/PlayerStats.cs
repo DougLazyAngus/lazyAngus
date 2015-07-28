@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
 	
-	private int gameScore;
-	private int treatCount;
+	public int gameScore { get; private set; }
+	public int money  {get; private set; }
 
 	private int[] availableBoostCount;
 	private int[] purchasedBoostCount;
@@ -12,8 +12,8 @@ public class PlayerStats : MonoBehaviour {
 	public delegate void ScoreChangedEventHandler();
 	public event ScoreChangedEventHandler ScoreChanged;
 	
-	public delegate void TreatsChangedEventHandler();
-	public event TreatsChangedEventHandler TreatsChanged;
+	public delegate void MoneyChangedEventHandler();
+	public event MoneyChangedEventHandler MoneyChanged;
 	
 	public delegate void BoostsChangedEventHandler();
 	public event BoostsChangedEventHandler BoostsChanged;
@@ -73,7 +73,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public void Reset() {
 		gameScore = 0;
-		treatCount = TweakableParams.GetInitialMoney();
+		money = TweakableParams.GetInitialMoney();
 		
 		purchasedBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
 		availableBoostCount = new int[(int)BoostConfig.BoostType.NUM_TYPES];
@@ -83,8 +83,8 @@ public class PlayerStats : MonoBehaviour {
 			availableBoostCount [i] = TweakableParams.GetInitialBoosts();
 		}
 
-		if (TreatsChanged != null) {
-			TreatsChanged ();
+		if (MoneyChanged != null) {
+			MoneyChanged ();
 		}
 		if (ScoreChanged != null) {
 			ScoreChanged ();
@@ -95,42 +95,34 @@ public class PlayerStats : MonoBehaviour {
 	}
 
 	public bool CanAfford(int price) {
-		return treatCount >= price;
+		return money >= price;
 	}
 
 
-	public void EarnTreats(int earnedTreats){
-		if (earnedTreats == 0) {
+	public void EarnMoney(int earnedMoney){
+		if (earnedMoney == 0) {
 			return;
 		}
-		treatCount += earnedTreats;
-		if (TreatsChanged != null) {
-			TreatsChanged ();
+		money += earnedMoney;
+		if (MoneyChanged != null) {
+			MoneyChanged ();
 		}
 	}
 
-	public void SpendTreats(int spentTreats){
-		if (spentTreats == 0) {
+	public void SpendMoney(int spentMoney){
+		if (spentMoney == 0) {
 			return;
 		}
-		treatCount -= spentTreats;
-		if (treatCount < 0) {
-			treatCount = 0;
+		money -= spentMoney;
+		if (money < 0) {
+			money = 0;
 		}
 
-		if (TreatsChanged != null) {
-			TreatsChanged ();
+		if (MoneyChanged != null) {
+			MoneyChanged ();
 		}
 	}
 
-	public int GetScore() {
-		return gameScore;
-	}
-
-	public int GetTreats() {
-		return treatCount;
-	}
-	
 	public int GetPurchasedBoostCount(BoostConfig.BoostType bType) {
 		int index = (int)bType;
 		return purchasedBoostCount[index];

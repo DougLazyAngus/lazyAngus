@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
-struct ReadOnlyCollection_1_t1124;
+struct ReadOnlyCollection_1_t1123;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.ParseAddUniqueOperation
-struct  ParseAddUniqueOperation_t1129  : public Object_t
+struct  ParseAddUniqueOperation_t1128  : public Object_t
 {
 	// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> Parse.Internal.ParseAddUniqueOperation::objects
-	ReadOnlyCollection_1_t1124 * ___objects_0;
+	ReadOnlyCollection_1_t1123 * ___objects_0;
 };

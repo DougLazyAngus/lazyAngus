@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t937;
+struct List_1_t936;
 // UnityEngine.RectTransform
-struct RectTransform_t618;
+struct RectTransform_t617;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
-struct  Enumerator_t5839 
+struct  Enumerator_t5838 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::l
-	List_1_t937 * ___l_0;
+	List_1_t936 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::current
-	RectTransform_t618 * ___current_3;
+	RectTransform_t617 * ___current_3;
 };

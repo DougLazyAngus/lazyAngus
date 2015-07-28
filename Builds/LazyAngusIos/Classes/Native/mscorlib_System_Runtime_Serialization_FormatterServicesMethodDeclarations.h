@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.FormatterServices
-struct FormatterServices_t4607;
+struct FormatterServices_t4606;
 // System.Object
 struct Object_t;
 // System.Type

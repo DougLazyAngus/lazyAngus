@@ -193,9 +193,9 @@ public class GameController : MonoBehaviour {
 			return;
 		}
 
-		int treatsEarned = (killsPerSwipe - 1) * (killsPerSwipe - 1);
-		if (treatsEarned > 0) {
-			PlayerStats.instance.EarnTreats(treatsEarned);
+		int moneyEarned = (killsPerSwipe - 1) * (killsPerSwipe - 1);
+		if (moneyEarned > 0) {
+			PlayerStats.instance.EarnMoney(moneyEarned);
 		}
 	}
 }

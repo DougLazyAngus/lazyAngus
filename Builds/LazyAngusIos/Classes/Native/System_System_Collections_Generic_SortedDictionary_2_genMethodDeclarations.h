@@ -7,25 +7,25 @@
 // System.Collections.Generic.SortedDictionary`2<System.String,System.String>
 struct SortedDictionary_2_t337;
 // System.Collections.Generic.ICollection`1<System.String>
-struct ICollection_1_t1152;
+struct ICollection_1_t1151;
 // System.Collections.ICollection
-struct ICollection_t697;
+struct ICollection_t696;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.IComparer`1<System.String>
-struct IComparer_1_t5323;
+struct IComparer_1_t5322;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t3902;
+struct IDictionaryEnumerator_t3901;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
-struct IEnumerator_1_t2082;
+struct IEnumerator_1_t2081;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>[]
-struct KeyValuePair_2U5BU5D_t6012;
+struct KeyValuePair_2U5BU5D_t6011;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
 // System.Collections.Generic.SortedDictionary`2/Enumerator<System.String,System.String>
@@ -88,7 +88,7 @@ struct KeyValuePair_2U5BU5D_t6012;
 // System.Boolean System.Collections.Generic.SortedDictionary`2<System.String,System.String>::ContainsValue(TValue)
 #define SortedDictionary_2_ContainsValue_m25486(__this, ___value, method) (( bool (*) (SortedDictionary_2_t337 *, String_t*, const MethodInfo*))SortedDictionary_2_ContainsValue_m25487_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.SortedDictionary`2<System.String,System.String>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define SortedDictionary_2_CopyTo_m25488(__this, ___array, ___arrayIndex, method) (( void (*) (SortedDictionary_2_t337 *, KeyValuePair_2U5BU5D_t6012*, int32_t, const MethodInfo*))SortedDictionary_2_CopyTo_m25489_gshared)(__this, ___array, ___arrayIndex, method)
+#define SortedDictionary_2_CopyTo_m25488(__this, ___array, ___arrayIndex, method) (( void (*) (SortedDictionary_2_t337 *, KeyValuePair_2U5BU5D_t6011*, int32_t, const MethodInfo*))SortedDictionary_2_CopyTo_m25489_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Collections.Generic.SortedDictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.SortedDictionary`2<System.String,System.String>::GetEnumerator()
 #define SortedDictionary_2_GetEnumerator_m3649(__this, method) (( Enumerator_t335  (*) (SortedDictionary_2_t337 *, const MethodInfo*))SortedDictionary_2_GetEnumerator_m25490_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.SortedDictionary`2<System.String,System.String>::Remove(TKey)

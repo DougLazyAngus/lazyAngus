@@ -22,6 +22,6 @@ struct AndroidInstagramManager_t306;
 // System.Boolean SA_Singleton`1<AndroidInstagramManager>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25007(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<AndroidInstagramManager>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4185(__this, method) (( void (*) (SA_Singleton_1_t307 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4187(__this, method) (( void (*) (SA_Singleton_1_t307 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<AndroidInstagramManager>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4186(__this, method) (( void (*) (SA_Singleton_1_t307 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4188(__this, method) (( void (*) (SA_Singleton_1_t307 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

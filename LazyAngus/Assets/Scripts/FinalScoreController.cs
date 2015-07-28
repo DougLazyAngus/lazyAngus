@@ -34,7 +34,7 @@ public class FinalScoreController : MonoBehaviour {
 	
 	void OnGamePhaseChanged() {
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-			SocialHelper.instance.ReportScore (PlayerStats.instance.GetScore ());
+			SocialHelper.instance.ReportScore (PlayerStats.instance.gameScore);
 		}
 	}
 }

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.WellKnownObjectMode
-struct WellKnownObjectMode_t4590;
+struct WellKnownObjectMode_t4589;
 

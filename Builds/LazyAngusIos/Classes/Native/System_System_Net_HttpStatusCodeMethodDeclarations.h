@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.HttpStatusCode
-struct HttpStatusCode_t3995;
+struct HttpStatusCode_t3994;
 

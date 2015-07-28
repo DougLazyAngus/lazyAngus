@@ -9,15 +9,15 @@ struct StringBuilder_t261;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2861;
+struct SerializationInfo_t2860;
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t627;
+struct ObjectU5BU5D_t626;
 // System.IFormatProvider
-struct IFormatProvider_t4447;
+struct IFormatProvider_t4446;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
@@ -30,13 +30,13 @@ extern "C" void StringBuilder__ctor_m3546 (StringBuilder_t261 * __this, const Me
 // System.Void System.Text.StringBuilder::.ctor(System.Int32)
 extern "C" void StringBuilder__ctor_m9819 (StringBuilder_t261 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.StringBuilder::.ctor(System.String)
-extern "C" void StringBuilder__ctor_m5499 (StringBuilder_t261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringBuilder__ctor_m5501 (StringBuilder_t261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.StringBuilder::.ctor(System.String,System.Int32)
 extern "C" void StringBuilder__ctor_m14752 (StringBuilder_t261 * __this, String_t* ___value, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.StringBuilder::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void StringBuilder__ctor_m18800 (StringBuilder_t261 * __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringBuilder__ctor_m18800 (StringBuilder_t261 * __this, SerializationInfo_t2860 * ___info, StreamingContext_t2861  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.StringBuilder::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m18801 (StringBuilder_t261 * __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringBuilder_System_Runtime_Serialization_ISerializable_GetObjectData_m18801 (StringBuilder_t261 * __this, SerializationInfo_t2860 * ___info, StreamingContext_t2861  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.StringBuilder::get_Capacity()
 extern "C" int32_t StringBuilder_get_Capacity_m11152 (StringBuilder_t261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.StringBuilder::set_Capacity(System.Int32)
@@ -60,7 +60,7 @@ extern "C" StringBuilder_t261 * StringBuilder_Replace_m18804 (StringBuilder_t261
 // System.Text.StringBuilder System.Text.StringBuilder::Replace(System.String,System.String,System.Int32,System.Int32)
 extern "C" StringBuilder_t261 * StringBuilder_Replace_m18805 (StringBuilder_t261 * __this, String_t* ___oldValue, String_t* ___newValue, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char[])
-extern "C" StringBuilder_t261 * StringBuilder_Append_m14863 (StringBuilder_t261 * __this, CharU5BU5D_t653* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_Append_m14863 (StringBuilder_t261 * __this, CharU5BU5D_t652* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
 extern "C" StringBuilder_t261 * StringBuilder_Append_m3553 (StringBuilder_t261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Int32)
@@ -74,17 +74,17 @@ extern "C" StringBuilder_t261 * StringBuilder_Append_m3547 (StringBuilder_t261 *
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char,System.Int32)
 extern "C" StringBuilder_t261 * StringBuilder_Append_m18806 (StringBuilder_t261 * __this, uint16_t ___value, int32_t ___repeatCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char[],System.Int32,System.Int32)
-extern "C" StringBuilder_t261 * StringBuilder_Append_m11153 (StringBuilder_t261 * __this, CharU5BU5D_t653* ___value, int32_t ___startIndex, int32_t ___charCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_Append_m11153 (StringBuilder_t261 * __this, CharU5BU5D_t652* ___value, int32_t ___startIndex, int32_t ___charCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String,System.Int32,System.Int32)
 extern "C" StringBuilder_t261 * StringBuilder_Append_m14846 (StringBuilder_t261 * __this, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine()
-extern "C" StringBuilder_t261 * StringBuilder_AppendLine_m5447 (StringBuilder_t261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_AppendLine_m5449 (StringBuilder_t261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine(System.String)
-extern "C" StringBuilder_t261 * StringBuilder_AppendLine_m5446 (StringBuilder_t261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_AppendLine_m5448 (StringBuilder_t261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object[])
-extern "C" StringBuilder_t261 * StringBuilder_AppendFormat_m11496 (StringBuilder_t261 * __this, String_t* ___format, ObjectU5BU5D_t627* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_AppendFormat_m11496 (StringBuilder_t261 * __this, String_t* ___format, ObjectU5BU5D_t626* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.IFormatProvider,System.String,System.Object[])
-extern "C" StringBuilder_t261 * StringBuilder_AppendFormat_m18807 (StringBuilder_t261 * __this, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t627* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * StringBuilder_AppendFormat_m18807 (StringBuilder_t261 * __this, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t626* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)
 extern "C" StringBuilder_t261 * StringBuilder_AppendFormat_m12809 (StringBuilder_t261 * __this, String_t* ___format, Object_t * ___arg0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object)

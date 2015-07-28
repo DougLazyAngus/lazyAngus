@@ -3,6 +3,6 @@
 // System.Security.Cryptography.SignatureDescription
 #include "mscorlib_System_Security_Cryptography_SignatureDescription.h"
 // System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
-struct  RSAPKCS1SHA1SignatureDescription_t4662  : public SignatureDescription_t4660
+struct  RSAPKCS1SHA1SignatureDescription_t4661  : public SignatureDescription_t4659
 {
 };

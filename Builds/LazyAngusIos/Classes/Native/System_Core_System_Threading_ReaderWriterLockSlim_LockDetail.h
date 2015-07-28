@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ReaderWriterLockSlim/LockDetails
-struct  LockDetails_t3293  : public Object_t
+struct  LockDetails_t3292  : public Object_t
 {
 	// System.Int32 System.Threading.ReaderWriterLockSlim/LockDetails::ThreadId
 	int32_t ___ThreadId_0;

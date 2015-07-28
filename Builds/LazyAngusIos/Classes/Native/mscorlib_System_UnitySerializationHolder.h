@@ -7,7 +7,7 @@ struct String_t;
 // System.UnitySerializationHolder/UnityType
 #include "mscorlib_System_UnitySerializationHolder_UnityType.h"
 // System.UnitySerializationHolder
-struct  UnitySerializationHolder_t4792  : public Object_t
+struct  UnitySerializationHolder_t4791  : public Object_t
 {
 	// System.String System.UnitySerializationHolder::_data
 	String_t* ____data_0;

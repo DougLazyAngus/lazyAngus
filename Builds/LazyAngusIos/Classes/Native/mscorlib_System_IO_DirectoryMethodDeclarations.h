@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Directory
-struct Directory_t4423;
+struct Directory_t4422;
 // System.IO.DirectoryInfo
 struct DirectoryInfo_t64;
 // System.String

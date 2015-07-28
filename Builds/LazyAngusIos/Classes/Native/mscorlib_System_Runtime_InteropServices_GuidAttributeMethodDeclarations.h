@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.GuidAttribute
-struct GuidAttribute_t1028;
+struct GuidAttribute_t1027;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.InteropServices.GuidAttribute::.ctor(System.String)
-extern "C" void GuidAttribute__ctor_m5875 (GuidAttribute_t1028 * __this, String_t* ___guid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GuidAttribute__ctor_m5877 (GuidAttribute_t1027 * __this, String_t* ___guid, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // UnityEngine.Networking.Types.NetworkID
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 // UnityEngine.Networking.Types.NetworkID
-struct  NetworkID_t2753 
+struct  NetworkID_t2752 
 {
 	// System.UInt64 UnityEngine.Networking.Types.NetworkID::value__
 	uint64_t ___value___1;

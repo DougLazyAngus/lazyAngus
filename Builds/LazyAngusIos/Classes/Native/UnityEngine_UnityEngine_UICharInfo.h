@@ -5,7 +5,7 @@
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UICharInfo
-struct  UICharInfo_t1011 
+struct  UICharInfo_t1010 
 {
 	// UnityEngine.Vector2 UnityEngine.UICharInfo::cursorPos
 	Vector2_t110  ___cursorPos_0;

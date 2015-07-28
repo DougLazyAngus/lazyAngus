@@ -11,11 +11,11 @@ struct String_t;
 // OneSignal/NotificationReceived
 struct NotificationReceived_t387;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t637;
+struct IDictionary_2_t636;
 // OneSignal/TagsReceived
 struct TagsReceived_t389;
 // System.Collections.Generic.IList`1<System.String>
-struct IList_1_t638;
+struct IList_1_t637;
 // OneSignal/IdsAvailable
 struct IdsAvailable_t376;
 // OneSignal/LOG_LEVEL

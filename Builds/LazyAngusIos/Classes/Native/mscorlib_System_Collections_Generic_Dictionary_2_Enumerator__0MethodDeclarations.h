@@ -26,7 +26,7 @@ struct Dictionary_2_t122;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m21883(__this, method) (( void (*) (Enumerator_t301 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21609_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21884(__this, method) (( DictionaryEntry_t2080  (*) (Enumerator_t301 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21610_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21884(__this, method) (( DictionaryEntry_t2079  (*) (Enumerator_t301 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21610_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::System.Collections.IDictionaryEnumerator.get_Key()
 #define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m21885(__this, method) (( Object_t * (*) (Enumerator_t301 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m21611_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::System.Collections.IDictionaryEnumerator.get_Value()

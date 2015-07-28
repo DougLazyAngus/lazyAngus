@@ -5,7 +5,7 @@
 // BoostButton/BoostButtonMode
 #include "AssemblyU2DCSharp_BoostButton_BoostButtonMode.h"
 // BoostButton/BoostButtonMode
-struct  BoostButtonMode_t461 
+struct  BoostButtonMode_t460 
 {
 	// System.Int32 BoostButton/BoostButtonMode::value__
 	int32_t ___value___1;

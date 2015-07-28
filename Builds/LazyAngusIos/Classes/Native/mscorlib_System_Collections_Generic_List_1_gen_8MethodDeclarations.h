@@ -11,25 +11,25 @@ struct Object_t;
 // GP_Participant
 struct GP_Participant_t226;
 // System.Collections.Generic.IEnumerable`1<GP_Participant>
-struct IEnumerable_1_t8733;
+struct IEnumerable_1_t8732;
 // GP_Participant[]
-struct GP_ParticipantU5BU5D_t5501;
+struct GP_ParticipantU5BU5D_t5500;
 // System.Collections.Generic.IEnumerator`1<GP_Participant>
-struct IEnumerator_1_t8734;
+struct IEnumerator_1_t8733;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<GP_Participant>
-struct ICollection_1_t8735;
+struct ICollection_1_t8734;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<GP_Participant>
-struct ReadOnlyCollection_1_t5503;
+struct ReadOnlyCollection_1_t5502;
 // System.Predicate`1<GP_Participant>
-struct Predicate_1_t5504;
+struct Predicate_1_t5503;
 // System.Collections.Generic.IComparer`1<GP_Participant>
-struct IComparer_1_t8736;
+struct IComparer_1_t8735;
 // System.Comparison`1<GP_Participant>
-struct Comparison_1_t5505;
+struct Comparison_1_t5504;
 // System.Collections.Generic.List`1/Enumerator<GP_Participant>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t5505;
 // System.Void System.Collections.Generic.List`1<GP_Participant>::.ctor(System.Int32)
 #define List_1__ctor_m23874(__this, ___capacity, method) (( void (*) (List_1_t231 *, int32_t, const MethodInfo*))List_1__ctor_m21248_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::.ctor(T[],System.Int32)
-#define List_1__ctor_m23875(__this, ___data, ___size, method) (( void (*) (List_1_t231 *, GP_ParticipantU5BU5D_t5501*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m23875(__this, ___data, ___size, method) (( void (*) (List_1_t231 *, GP_ParticipantU5BU5D_t5500*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::.cctor()
 #define List_1__cctor_m23876(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21252_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<GP_Participant>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t5505;
 // System.Void System.Collections.Generic.List`1<GP_Participant>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m23897(__this, ___collection, method) (( void (*) (List_1_t231 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<GP_Participant>::AsReadOnly()
-#define List_1_AsReadOnly_m23898(__this, method) (( ReadOnlyCollection_1_t5503 * (*) (List_1_t231 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
+#define List_1_AsReadOnly_m23898(__this, method) (( ReadOnlyCollection_1_t5502 * (*) (List_1_t231 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::Clear()
 #define List_1_Clear_m23899(__this, method) (( void (*) (List_1_t231 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<GP_Participant>::Contains(T)
 #define List_1_Contains_m23900(__this, ___item, method) (( bool (*) (List_1_t231 *, GP_Participant_t226 *, const MethodInfo*))List_1_Contains_m10038_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m23901(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t231 *, GP_ParticipantU5BU5D_t5501*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m23901(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t231 *, GP_ParticipantU5BU5D_t5500*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<GP_Participant>::Find(System.Predicate`1<T>)
-#define List_1_Find_m23902(__this, ___match, method) (( GP_Participant_t226 * (*) (List_1_t231 *, Predicate_1_t5504 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
+#define List_1_Find_m23902(__this, ___match, method) (( GP_Participant_t226 * (*) (List_1_t231 *, Predicate_1_t5503 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m23903(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5504 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m23903(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5503 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<GP_Participant>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m23904(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t231 *, int32_t, int32_t, Predicate_1_t5504 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m23904(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t231 *, int32_t, int32_t, Predicate_1_t5503 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<GP_Participant>::GetEnumerator()
-#define List_1_GetEnumerator_m3540(__this, method) (( Enumerator_t681  (*) (List_1_t231 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
+#define List_1_GetEnumerator_m3540(__this, method) (( Enumerator_t680  (*) (List_1_t231 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<GP_Participant>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m23905(__this, ___index, ___count, method) (( List_1_t231 * (*) (List_1_t231 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21291_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<GP_Participant>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t5505;
 // System.Boolean System.Collections.Generic.List`1<GP_Participant>::Remove(T)
 #define List_1_Remove_m23914(__this, ___item, method) (( bool (*) (List_1_t231 *, GP_Participant_t226 *, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<GP_Participant>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m23915(__this, ___match, method) (( int32_t (*) (List_1_t231 *, Predicate_1_t5504 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m23915(__this, ___match, method) (( int32_t (*) (List_1_t231 *, Predicate_1_t5503 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m23916(__this, ___index, method) (( void (*) (List_1_t231 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t5505;
 // System.Void System.Collections.Generic.List`1<GP_Participant>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m23920(__this, ___comparer, method) (( void (*) (List_1_t231 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m23921(__this, ___comparison, method) (( void (*) (List_1_t231 *, Comparison_1_t5505 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m23921(__this, ___comparison, method) (( void (*) (List_1_t231 *, Comparison_1_t5504 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<GP_Participant>::ToArray()
-#define List_1_ToArray_m23922(__this, method) (( GP_ParticipantU5BU5D_t5501* (*) (List_1_t231 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
+#define List_1_ToArray_m23922(__this, method) (( GP_ParticipantU5BU5D_t5500* (*) (List_1_t231 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GP_Participant>::TrimExcess()
 #define List_1_TrimExcess_m23923(__this, method) (( void (*) (List_1_t231 *, const MethodInfo*))List_1_TrimExcess_m21323_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<GP_Participant>::get_Capacity()

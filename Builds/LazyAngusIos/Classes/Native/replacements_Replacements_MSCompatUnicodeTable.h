@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Replacements.MSCompatUnicodeTable
-struct  MSCompatUnicodeTable_t3032  : public Object_t
+struct  MSCompatUnicodeTable_t3031  : public Object_t
 {
 };

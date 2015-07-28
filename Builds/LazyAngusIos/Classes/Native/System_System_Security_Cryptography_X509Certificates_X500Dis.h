@@ -5,7 +5,7 @@ struct String_t;
 // System.Security.Cryptography.AsnEncodedData
 #include "System_System_Security_Cryptography_AsnEncodedData.h"
 // System.Security.Cryptography.X509Certificates.X500DistinguishedName
-struct  X500DistinguishedName_t4031  : public AsnEncodedData_t4026
+struct  X500DistinguishedName_t4030  : public AsnEncodedData_t4025
 {
 	// System.String System.Security.Cryptography.X509Certificates.X500DistinguishedName::name
 	String_t* ___name_3;

@@ -68,7 +68,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 		waveDirty = false;
 		waveTitleText.text = "Wave " + GameLevelState.instance.gameLevel;
-		Debug.Log ("SetWaveViews: level " + GameLevelState.instance.gameLevel);
 
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 		waveCountText.text = ld.explicitMouseDescs.Count + " mice";

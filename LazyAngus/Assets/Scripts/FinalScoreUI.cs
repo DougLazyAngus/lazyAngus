@@ -12,17 +12,14 @@ public class FinalScoreUI : GameUI {
 
 	void Awake() {
 		started = false;
-		Debug.Log ("FinalScoreTracker Awake");
 	}
 
 	void Start() {
-		Debug.Log ("FinalScoreTracker Start");
 		started = true;
 		UpdateView ();
 	}
 
 	void OnEnable() {
-		Debug.Log ("FinalScoreTracker OnEnable");
 		if (started) {
 			UpdateView ();
 		}
@@ -34,7 +31,7 @@ public class FinalScoreUI : GameUI {
 		}
 
 		int personalBest = PlayerStats.instance.GetHighScore ();
-		int finalScore = PlayerStats.instance.GetScore ();
+		int finalScore = PlayerStats.instance.gameScore;
 
 		if (finalScore > personalBest) {
 			PlayerStats.instance.SetHighScore (finalScore);

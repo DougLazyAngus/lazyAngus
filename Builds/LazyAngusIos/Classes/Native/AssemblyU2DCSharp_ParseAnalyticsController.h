@@ -3,6 +3,8 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ParseAnalyticsController
-struct  ParseAnalyticsController_t566  : public MonoBehaviour_t13
+struct  ParseAnalyticsController_t565  : public MonoBehaviour_t13
 {
+	// System.Boolean ParseAnalyticsController::registeredForEvents
+	bool ___registeredForEvents_2;
 };

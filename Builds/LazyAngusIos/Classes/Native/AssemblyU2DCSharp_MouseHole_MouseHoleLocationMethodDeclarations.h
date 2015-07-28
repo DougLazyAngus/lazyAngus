@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseHole/MouseHoleLocation
-struct MouseHoleLocation_t551;
+struct MouseHoleLocation_t550;
 

@@ -7,7 +7,7 @@ struct GP_TBM_Match_t248;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,GP_TBM_Match>
-struct  KeyValuePair_2_t5508 
+struct  KeyValuePair_2_t5507 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,GP_TBM_Match>::key
 	String_t* ___key_0;

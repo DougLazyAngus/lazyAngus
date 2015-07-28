@@ -44,4 +44,4 @@ struct JSONNode_t29;
 // System.Int32 System.Collections.Generic.Stack`1<SimpleJSON.JSONNode>::get_Count()
 #define Stack_1_get_Count_m21224(__this, method) (( int32_t (*) (Stack_1_t61 *, const MethodInfo*))Stack_1_get_Count_m21225_gshared)(__this, method)
 // System.Collections.Generic.Stack`1/Enumerator<T> System.Collections.Generic.Stack`1<SimpleJSON.JSONNode>::GetEnumerator()
-#define Stack_1_GetEnumerator_m21226(__this, method) (( Enumerator_t5369  (*) (Stack_1_t61 *, const MethodInfo*))Stack_1_GetEnumerator_m21227_gshared)(__this, method)
+#define Stack_1_GetEnumerator_m21226(__this, method) (( Enumerator_t5368  (*) (Stack_1_t61 *, const MethodInfo*))Stack_1_GetEnumerator_m21227_gshared)(__this, method)

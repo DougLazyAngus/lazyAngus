@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct BinaryCommon_t4591;
+struct BinaryCommon_t4590;
 // System.Type
 struct Type_t;
 // System.Byte[]

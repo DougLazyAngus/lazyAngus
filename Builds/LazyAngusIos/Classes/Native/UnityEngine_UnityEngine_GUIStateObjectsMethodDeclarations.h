@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUIStateObjects
-struct GUIStateObjects_t2796;
+struct GUIStateObjects_t2795;
 // System.Object
 struct Object_t;
 // System.Type

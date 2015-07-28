@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t2686;
+struct List_1_t2685;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<System.Byte[]>
-struct  Enumerator_t8331 
+struct  Enumerator_t8330 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Byte[]>::l
-	List_1_t2686 * ___l_0;
+	List_1_t2685 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::ver

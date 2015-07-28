@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdNMToken
 #include "System_Xml_Mono_Xml_Schema_XsdNMToken.h"
 // Mono.Xml.Schema.XsdNMTokens
-struct  XsdNMTokens_t3049  : public XsdNMToken_t3048
+struct  XsdNMTokens_t3048  : public XsdNMToken_t3047
 {
 };

@@ -5,7 +5,7 @@ struct IEnumerator_t48;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.SerializationInfoEnumerator
-struct  SerializationInfoEnumerator_t4624  : public Object_t
+struct  SerializationInfoEnumerator_t4623  : public Object_t
 {
 	// System.Collections.IEnumerator System.Runtime.Serialization.SerializationInfoEnumerator::enumerator
 	Object_t * ___enumerator_0;

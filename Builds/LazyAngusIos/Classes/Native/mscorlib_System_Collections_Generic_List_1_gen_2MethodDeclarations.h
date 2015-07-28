@@ -11,25 +11,25 @@ struct Object_t;
 // AN_PropertyTemplate
 struct AN_PropertyTemplate_t126;
 // System.Collections.Generic.IEnumerable`1<AN_PropertyTemplate>
-struct IEnumerable_1_t8654;
+struct IEnumerable_1_t8653;
 // AN_PropertyTemplate[]
-struct AN_PropertyTemplateU5BU5D_t5410;
+struct AN_PropertyTemplateU5BU5D_t5409;
 // System.Collections.Generic.IEnumerator`1<AN_PropertyTemplate>
-struct IEnumerator_1_t8653;
+struct IEnumerator_1_t8652;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<AN_PropertyTemplate>
-struct ICollection_1_t8655;
+struct ICollection_1_t8654;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<AN_PropertyTemplate>
-struct ReadOnlyCollection_1_t5412;
+struct ReadOnlyCollection_1_t5411;
 // System.Predicate`1<AN_PropertyTemplate>
-struct Predicate_1_t5413;
+struct Predicate_1_t5412;
 // System.Collections.Generic.IComparer`1<AN_PropertyTemplate>
-struct IComparer_1_t8656;
+struct IComparer_1_t8655;
 // System.Comparison`1<AN_PropertyTemplate>
-struct Comparison_1_t5414;
+struct Comparison_1_t5413;
 // System.Collections.Generic.List`1/Enumerator<AN_PropertyTemplate>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_0.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t5414;
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::.ctor(System.Int32)
 #define List_1__ctor_m22184(__this, ___capacity, method) (( void (*) (List_1_t123 *, int32_t, const MethodInfo*))List_1__ctor_m21248_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::.ctor(T[],System.Int32)
-#define List_1__ctor_m22185(__this, ___data, ___size, method) (( void (*) (List_1_t123 *, AN_PropertyTemplateU5BU5D_t5410*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m22185(__this, ___data, ___size, method) (( void (*) (List_1_t123 *, AN_PropertyTemplateU5BU5D_t5409*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::.cctor()
 #define List_1__cctor_m22186(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21252_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t5414;
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m22207(__this, ___collection, method) (( void (*) (List_1_t123 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::AsReadOnly()
-#define List_1_AsReadOnly_m22208(__this, method) (( ReadOnlyCollection_1_t5412 * (*) (List_1_t123 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
+#define List_1_AsReadOnly_m22208(__this, method) (( ReadOnlyCollection_1_t5411 * (*) (List_1_t123 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::Clear()
 #define List_1_Clear_m22209(__this, method) (( void (*) (List_1_t123 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<AN_PropertyTemplate>::Contains(T)
 #define List_1_Contains_m22210(__this, ___item, method) (( bool (*) (List_1_t123 *, AN_PropertyTemplate_t126 *, const MethodInfo*))List_1_Contains_m10038_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m22211(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t123 *, AN_PropertyTemplateU5BU5D_t5410*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m22211(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t123 *, AN_PropertyTemplateU5BU5D_t5409*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<AN_PropertyTemplate>::Find(System.Predicate`1<T>)
-#define List_1_Find_m22212(__this, ___match, method) (( AN_PropertyTemplate_t126 * (*) (List_1_t123 *, Predicate_1_t5413 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
+#define List_1_Find_m22212(__this, ___match, method) (( AN_PropertyTemplate_t126 * (*) (List_1_t123 *, Predicate_1_t5412 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m22213(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5413 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m22213(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5412 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m22214(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t123 *, int32_t, int32_t, Predicate_1_t5413 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m22214(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t123 *, int32_t, int32_t, Predicate_1_t5412 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::GetEnumerator()
-#define List_1_GetEnumerator_m3427(__this, method) (( Enumerator_t655  (*) (List_1_t123 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
+#define List_1_GetEnumerator_m3427(__this, method) (( Enumerator_t654  (*) (List_1_t123 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m22215(__this, ___index, ___count, method) (( List_1_t123 * (*) (List_1_t123 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21291_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t5414;
 // System.Boolean System.Collections.Generic.List`1<AN_PropertyTemplate>::Remove(T)
 #define List_1_Remove_m22224(__this, ___item, method) (( bool (*) (List_1_t123 *, AN_PropertyTemplate_t126 *, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m22225(__this, ___match, method) (( int32_t (*) (List_1_t123 *, Predicate_1_t5413 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m22225(__this, ___match, method) (( int32_t (*) (List_1_t123 *, Predicate_1_t5412 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m22226(__this, ___index, method) (( void (*) (List_1_t123 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t5414;
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m22230(__this, ___comparer, method) (( void (*) (List_1_t123 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m22231(__this, ___comparison, method) (( void (*) (List_1_t123 *, Comparison_1_t5414 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m22231(__this, ___comparison, method) (( void (*) (List_1_t123 *, Comparison_1_t5413 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<AN_PropertyTemplate>::ToArray()
-#define List_1_ToArray_m22232(__this, method) (( AN_PropertyTemplateU5BU5D_t5410* (*) (List_1_t123 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
+#define List_1_ToArray_m22232(__this, method) (( AN_PropertyTemplateU5BU5D_t5409* (*) (List_1_t123 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<AN_PropertyTemplate>::TrimExcess()
 #define List_1_TrimExcess_m22233(__this, method) (( void (*) (List_1_t123 *, const MethodInfo*))List_1_TrimExcess_m21323_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::get_Capacity()

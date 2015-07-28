@@ -18,7 +18,7 @@ public class BuyBoost : MonoBehaviour {
 
 		if (playerStats.CanAfford (price)) {
 			playerStats.AddBoost (boostType);
-			playerStats.SpendTreats (price);
+			playerStats.SpendMoney (price);
 
 			playerStats.RemoveBoost (boostType);			
 			boostConfig.ExecuteBoost (boostType);

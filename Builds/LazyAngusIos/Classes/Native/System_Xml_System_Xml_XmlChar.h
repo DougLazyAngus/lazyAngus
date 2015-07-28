@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t653;
+struct CharU5BU5D_t652;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
-struct UInt32U5BU5D_t3160;
+struct UInt32U5BU5D_t3159;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlChar
-struct  XmlChar_t3161  : public Object_t
+struct  XmlChar_t3160  : public Object_t
 {
 };
-struct XmlChar_t3161_StaticFields{
+struct XmlChar_t3160_StaticFields{
 	// System.Char[] System.Xml.XmlChar::WhitespaceChars
-	CharU5BU5D_t653* ___WhitespaceChars_0;
+	CharU5BU5D_t652* ___WhitespaceChars_0;
 	// System.Byte[] System.Xml.XmlChar::firstNamePages
 	ByteU5BU5D_t66* ___firstNamePages_1;
 	// System.Byte[] System.Xml.XmlChar::namePages
 	ByteU5BU5D_t66* ___namePages_2;
 	// System.UInt32[] System.Xml.XmlChar::nameBitmap
-	UInt32U5BU5D_t3160* ___nameBitmap_3;
+	UInt32U5BU5D_t3159* ___nameBitmap_3;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlChar::<>f__switch$map47
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map47_4;
 };

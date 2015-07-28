@@ -11,25 +11,25 @@ struct Object_t;
 // TweetTemplate
 struct TweetTemplate_t323;
 // System.Collections.Generic.IEnumerable`1<TweetTemplate>
-struct IEnumerable_1_t8805;
+struct IEnumerable_1_t8804;
 // TweetTemplate[]
-struct TweetTemplateU5BU5D_t5559;
+struct TweetTemplateU5BU5D_t5558;
 // System.Collections.Generic.IEnumerator`1<TweetTemplate>
-struct IEnumerator_1_t8796;
+struct IEnumerator_1_t8795;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<TweetTemplate>
-struct ICollection_1_t8791;
+struct ICollection_1_t8790;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<TweetTemplate>
-struct ReadOnlyCollection_1_t5572;
+struct ReadOnlyCollection_1_t5571;
 // System.Predicate`1<TweetTemplate>
-struct Predicate_1_t5573;
+struct Predicate_1_t5572;
 // System.Collections.Generic.IComparer`1<TweetTemplate>
-struct IComparer_1_t8806;
+struct IComparer_1_t8805;
 // System.Comparison`1<TweetTemplate>
-struct Comparison_1_t5575;
+struct Comparison_1_t5574;
 // System.Collections.Generic.List`1/Enumerator<TweetTemplate>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_21.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t5575;
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::.ctor(System.Int32)
 #define List_1__ctor_m25229(__this, ___capacity, method) (( void (*) (List_1_t320 *, int32_t, const MethodInfo*))List_1__ctor_m21248_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::.ctor(T[],System.Int32)
-#define List_1__ctor_m25230(__this, ___data, ___size, method) (( void (*) (List_1_t320 *, TweetTemplateU5BU5D_t5559*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m25230(__this, ___data, ___size, method) (( void (*) (List_1_t320 *, TweetTemplateU5BU5D_t5558*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::.cctor()
 #define List_1__cctor_m25231(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21252_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<TweetTemplate>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t5575;
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m25252(__this, ___collection, method) (( void (*) (List_1_t320 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<TweetTemplate>::AsReadOnly()
-#define List_1_AsReadOnly_m25253(__this, method) (( ReadOnlyCollection_1_t5572 * (*) (List_1_t320 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
+#define List_1_AsReadOnly_m25253(__this, method) (( ReadOnlyCollection_1_t5571 * (*) (List_1_t320 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::Clear()
 #define List_1_Clear_m25254(__this, method) (( void (*) (List_1_t320 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<TweetTemplate>::Contains(T)
 #define List_1_Contains_m25255(__this, ___item, method) (( bool (*) (List_1_t320 *, TweetTemplate_t323 *, const MethodInfo*))List_1_Contains_m10038_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m25256(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t320 *, TweetTemplateU5BU5D_t5559*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m25256(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t320 *, TweetTemplateU5BU5D_t5558*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<TweetTemplate>::Find(System.Predicate`1<T>)
-#define List_1_Find_m25257(__this, ___match, method) (( TweetTemplate_t323 * (*) (List_1_t320 *, Predicate_1_t5573 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
+#define List_1_Find_m25257(__this, ___match, method) (( TweetTemplate_t323 * (*) (List_1_t320 *, Predicate_1_t5572 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m25258(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5573 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m25258(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5572 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<TweetTemplate>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m25259(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t320 *, int32_t, int32_t, Predicate_1_t5573 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m25259(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t320 *, int32_t, int32_t, Predicate_1_t5572 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<TweetTemplate>::GetEnumerator()
-#define List_1_GetEnumerator_m25260(__this, method) (( Enumerator_t5574  (*) (List_1_t320 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
+#define List_1_GetEnumerator_m25260(__this, method) (( Enumerator_t5573  (*) (List_1_t320 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<TweetTemplate>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m25261(__this, ___index, ___count, method) (( List_1_t320 * (*) (List_1_t320 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21291_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<TweetTemplate>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t5575;
 // System.Boolean System.Collections.Generic.List`1<TweetTemplate>::Remove(T)
 #define List_1_Remove_m25270(__this, ___item, method) (( bool (*) (List_1_t320 *, TweetTemplate_t323 *, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<TweetTemplate>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m25271(__this, ___match, method) (( int32_t (*) (List_1_t320 *, Predicate_1_t5573 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m25271(__this, ___match, method) (( int32_t (*) (List_1_t320 *, Predicate_1_t5572 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m25272(__this, ___index, method) (( void (*) (List_1_t320 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t5575;
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m25276(__this, ___comparer, method) (( void (*) (List_1_t320 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m25277(__this, ___comparison, method) (( void (*) (List_1_t320 *, Comparison_1_t5575 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m25277(__this, ___comparison, method) (( void (*) (List_1_t320 *, Comparison_1_t5574 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<TweetTemplate>::ToArray()
-#define List_1_ToArray_m25278(__this, method) (( TweetTemplateU5BU5D_t5559* (*) (List_1_t320 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
+#define List_1_ToArray_m25278(__this, method) (( TweetTemplateU5BU5D_t5558* (*) (List_1_t320 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<TweetTemplate>::TrimExcess()
 #define List_1_TrimExcess_m25279(__this, method) (( void (*) (List_1_t320 *, const MethodInfo*))List_1_TrimExcess_m21323_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<TweetTemplate>::get_Capacity()

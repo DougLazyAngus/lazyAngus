@@ -15,7 +15,7 @@ struct Object_t;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.IFormatProvider
-struct IFormatProvider_t4447;
+struct IFormatProvider_t4446;
 // System.Guid
 #include "mscorlib_System_Guid.h"
 

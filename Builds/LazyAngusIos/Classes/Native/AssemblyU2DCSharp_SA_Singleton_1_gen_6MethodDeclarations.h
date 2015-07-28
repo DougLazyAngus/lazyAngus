@@ -22,6 +22,6 @@ struct SPInstagram_t361;
 // System.Boolean SA_Singleton`1<SPInstagram>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25680(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<SPInstagram>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4191(__this, method) (( void (*) (SA_Singleton_1_t362 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4193(__this, method) (( void (*) (SA_Singleton_1_t362 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<SPInstagram>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4192(__this, method) (( void (*) (SA_Singleton_1_t362 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4194(__this, method) (( void (*) (SA_Singleton_1_t362 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

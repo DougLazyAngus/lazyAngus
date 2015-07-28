@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUIUtility
-struct GUIUtility_t2665;
+struct GUIUtility_t2664;
 // System.String
 struct String_t;
 // System.Object
@@ -13,7 +13,7 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // UnityEngine.GUISkin
-struct GUISkin_t723;
+struct GUISkin_t722;
 // System.Exception
 struct Exception_t57;
 // UnityEngine.FocusType
@@ -28,13 +28,13 @@ extern "C" int32_t GUIUtility_GetControlID_m8615 (Object_t * __this /* static, u
 // System.Int32 UnityEngine.GUIUtility::GetControlID(System.Int32,UnityEngine.FocusType)
 extern "C" int32_t GUIUtility_GetControlID_m8616 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GUIUtility::GetControlID(UnityEngine.FocusType,UnityEngine.Rect)
-extern "C" int32_t GUIUtility_GetControlID_m8617 (Object_t * __this /* static, unused */, int32_t ___focus, Rect_t640  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GUIUtility_GetControlID_m8617 (Object_t * __this /* static, unused */, int32_t ___focus, Rect_t639  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GUIUtility::GetControlID(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
-extern "C" int32_t GUIUtility_GetControlID_m8618 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focus, Rect_t640  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GUIUtility_GetControlID_m8618 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focus, Rect_t639  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GUIUtility::Internal_GetNextControlID2(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
-extern "C" int32_t GUIUtility_Internal_GetNextControlID2_m8619 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focusType, Rect_t640  ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GUIUtility_Internal_GetNextControlID2_m8619 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focusType, Rect_t639  ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GUIUtility::INTERNAL_CALL_Internal_GetNextControlID2(System.Int32,UnityEngine.FocusType,UnityEngine.Rect&)
-extern "C" int32_t GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m8620 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focusType, Rect_t640 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m8620 (Object_t * __this /* static, unused */, int32_t ___hint, int32_t ___focusType, Rect_t639 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.GUIUtility::GetStateObject(System.Type,System.Int32)
 extern "C" Object_t * GUIUtility_GetStateObject_m8621 (Object_t * __this /* static, unused */, Type_t * ___t, int32_t ___controlID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GUIUtility::get_hotControl()
@@ -54,9 +54,9 @@ extern "C" String_t* GUIUtility_get_systemCopyBuffer_m8628 (Object_t * __this /*
 // System.Void UnityEngine.GUIUtility::set_systemCopyBuffer(System.String)
 extern "C" void GUIUtility_set_systemCopyBuffer_m8629 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUISkin UnityEngine.GUIUtility::GetDefaultSkin()
-extern "C" GUISkin_t723 * GUIUtility_GetDefaultSkin_m8630 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUISkin_t722 * GUIUtility_GetDefaultSkin_m8630 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUISkin UnityEngine.GUIUtility::Internal_GetDefaultSkin(System.Int32)
-extern "C" GUISkin_t723 * GUIUtility_Internal_GetDefaultSkin_m8631 (Object_t * __this /* static, unused */, int32_t ___skinMode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUISkin_t722 * GUIUtility_Internal_GetDefaultSkin_m8631 (Object_t * __this /* static, unused */, int32_t ___skinMode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIUtility::BeginGUI(System.Int32,System.Int32,System.Int32)
 extern "C" void GUIUtility_BeginGUI_m8632 (Object_t * __this /* static, unused */, int32_t ___skinMode, int32_t ___instanceID, int32_t ___useGUILayout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIUtility::Internal_ExitGUI()

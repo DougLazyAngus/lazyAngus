@@ -13,7 +13,7 @@ struct JSONNode_t29;
 // System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode>
 struct IEnumerable_1_t49;
 // SimpleJSON.JSONNode[]
-struct JSONNodeU5BU5D_t5366;
+struct JSONNodeU5BU5D_t5365;
 // System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode>
 struct IEnumerator_1_t31;
 // System.Array
@@ -21,15 +21,15 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<SimpleJSON.JSONNode>
-struct ICollection_1_t8634;
+struct ICollection_1_t8633;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>
-struct ReadOnlyCollection_1_t5380;
+struct ReadOnlyCollection_1_t5379;
 // System.Predicate`1<SimpleJSON.JSONNode>
-struct Predicate_1_t5381;
+struct Predicate_1_t5380;
 // System.Collections.Generic.IComparer`1<SimpleJSON.JSONNode>
-struct IComparer_1_t8635;
+struct IComparer_1_t8634;
 // System.Comparison`1<SimpleJSON.JSONNode>
-struct Comparison_1_t5382;
+struct Comparison_1_t5381;
 // System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t5382;
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::.ctor(System.Int32)
 #define List_1__ctor_m21247(__this, ___capacity, method) (( void (*) (List_1_t37 *, int32_t, const MethodInfo*))List_1__ctor_m21248_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::.ctor(T[],System.Int32)
-#define List_1__ctor_m21249(__this, ___data, ___size, method) (( void (*) (List_1_t37 *, JSONNodeU5BU5D_t5366*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m21249(__this, ___data, ___size, method) (( void (*) (List_1_t37 *, JSONNodeU5BU5D_t5365*, int32_t, const MethodInfo*))List_1__ctor_m21250_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::.cctor()
 #define List_1__cctor_m21251(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21252_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<SimpleJSON.JSONNode>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,19 +88,19 @@ struct Comparison_1_t5382;
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m21277(__this, ___collection, method) (( void (*) (List_1_t37 *, Object_t*, const MethodInfo*))List_1_AddRange_m21278_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<SimpleJSON.JSONNode>::AsReadOnly()
-#define List_1_AsReadOnly_m21279(__this, method) (( ReadOnlyCollection_1_t5380 * (*) (List_1_t37 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
+#define List_1_AsReadOnly_m21279(__this, method) (( ReadOnlyCollection_1_t5379 * (*) (List_1_t37 *, const MethodInfo*))List_1_AsReadOnly_m21280_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Clear()
 #define List_1_Clear_m21281(__this, method) (( void (*) (List_1_t37 *, const MethodInfo*))List_1_Clear_m10030_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Contains(T)
 #define List_1_Contains_m21282(__this, ___item, method) (( bool (*) (List_1_t37 *, JSONNode_t29 *, const MethodInfo*))List_1_Contains_m10038_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m21283(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t37 *, JSONNodeU5BU5D_t5366*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m21283(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t37 *, JSONNodeU5BU5D_t5365*, int32_t, const MethodInfo*))List_1_CopyTo_m10039_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Find(System.Predicate`1<T>)
-#define List_1_Find_m21284(__this, ___match, method) (( JSONNode_t29 * (*) (List_1_t37 *, Predicate_1_t5381 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
+#define List_1_Find_m21284(__this, ___match, method) (( JSONNode_t29 * (*) (List_1_t37 *, Predicate_1_t5380 *, const MethodInfo*))List_1_Find_m21285_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m21286(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5381 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m21286(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5380 *, const MethodInfo*))List_1_CheckMatch_m21287_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m21288(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t37 *, int32_t, int32_t, Predicate_1_t5381 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m21288(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t37 *, int32_t, int32_t, Predicate_1_t5380 *, const MethodInfo*))List_1_GetIndex_m21289_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<SimpleJSON.JSONNode>::GetEnumerator()
 #define List_1_GetEnumerator_m431(__this, method) (( Enumerator_t35  (*) (List_1_t37 *, const MethodInfo*))List_1_GetEnumerator_m3575_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<SimpleJSON.JSONNode>::GetRange(System.Int32,System.Int32)
@@ -124,7 +124,7 @@ struct Comparison_1_t5382;
 // System.Boolean System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Remove(T)
 #define List_1_Remove_m21306(__this, ___item, method) (( bool (*) (List_1_t37 *, JSONNode_t29 *, const MethodInfo*))List_1_Remove_m10040_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m21307(__this, ___match, method) (( int32_t (*) (List_1_t37 *, Predicate_1_t5381 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m21307(__this, ___match, method) (( int32_t (*) (List_1_t37 *, Predicate_1_t5380 *, const MethodInfo*))List_1_RemoveAll_m21308_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m21309(__this, ___index, method) (( void (*) (List_1_t37 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10035_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t5382;
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m21316(__this, ___comparer, method) (( void (*) (List_1_t37 *, Object_t*, const MethodInfo*))List_1_Sort_m21317_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m21318(__this, ___comparison, method) (( void (*) (List_1_t37 *, Comparison_1_t5382 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m21318(__this, ___comparison, method) (( void (*) (List_1_t37 *, Comparison_1_t5381 *, const MethodInfo*))List_1_Sort_m21319_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<SimpleJSON.JSONNode>::ToArray()
-#define List_1_ToArray_m21320(__this, method) (( JSONNodeU5BU5D_t5366* (*) (List_1_t37 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
+#define List_1_ToArray_m21320(__this, method) (( JSONNodeU5BU5D_t5365* (*) (List_1_t37 *, const MethodInfo*))List_1_ToArray_m21321_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<SimpleJSON.JSONNode>::TrimExcess()
 #define List_1_TrimExcess_m21322(__this, method) (( void (*) (List_1_t37 *, const MethodInfo*))List_1_TrimExcess_m21323_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::get_Capacity()

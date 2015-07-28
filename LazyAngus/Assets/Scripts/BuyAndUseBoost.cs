@@ -22,7 +22,7 @@ public class BuyAndUseBoost : MonoBehaviour {
 		int price = boostConfig.GetCurrentPriceForBoost (boostType);
 		if (playerStats.CanAfford (price)) {
 			playerStats.AddBoost (boostType);
-			playerStats.SpendTreats (price);
+			playerStats.SpendMoney (price);
 		}
 
 		playerStats.RemoveBoost (boostType);		

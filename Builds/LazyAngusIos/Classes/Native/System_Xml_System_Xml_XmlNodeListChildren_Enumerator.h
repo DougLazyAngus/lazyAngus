@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.IHasXmlChildNode
-struct IHasXmlChildNode_t3189;
+struct IHasXmlChildNode_t3188;
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t3155;
+struct XmlLinkedNode_t3154;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNodeListChildren/Enumerator
-struct  Enumerator_t3190  : public Object_t
+struct  Enumerator_t3189  : public Object_t
 {
 	// System.Xml.IHasXmlChildNode System.Xml.XmlNodeListChildren/Enumerator::parent
 	Object_t * ___parent_0;
 	// System.Xml.XmlLinkedNode System.Xml.XmlNodeListChildren/Enumerator::currentChild
-	XmlLinkedNode_t3155 * ___currentChild_1;
+	XmlLinkedNode_t3154 * ___currentChild_1;
 	// System.Boolean System.Xml.XmlNodeListChildren/Enumerator::passedLastNode
 	bool ___passedLastNode_2;
 };

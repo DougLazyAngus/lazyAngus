@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.ClientSessionCache
-struct ClientSessionCache_t3793;
+struct ClientSessionCache_t3792;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.Protocol.Tls.ClientSessionInfo
-struct ClientSessionInfo_t3792;
+struct ClientSessionInfo_t3791;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3783;
+struct Context_t3782;
 
 // System.Void Mono.Security.Protocol.Tls.ClientSessionCache::.cctor()
 extern "C" void ClientSessionCache__cctor_m12402 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -22,8 +22,8 @@ extern "C" void ClientSessionCache_Add_m12403 (Object_t * __this /* static, unus
 // System.Byte[] Mono.Security.Protocol.Tls.ClientSessionCache::FromHost(System.String)
 extern "C" ByteU5BU5D_t66* ClientSessionCache_FromHost_m12404 (Object_t * __this /* static, unused */, String_t* ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ClientSessionInfo Mono.Security.Protocol.Tls.ClientSessionCache::FromContext(Mono.Security.Protocol.Tls.Context,System.Boolean)
-extern "C" ClientSessionInfo_t3792 * ClientSessionCache_FromContext_m12405 (Object_t * __this /* static, unused */, Context_t3783 * ___context, bool ___checkValidity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ClientSessionInfo_t3791 * ClientSessionCache_FromContext_m12405 (Object_t * __this /* static, unused */, Context_t3782 * ___context, bool ___checkValidity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.ClientSessionCache::SetContextInCache(Mono.Security.Protocol.Tls.Context)
-extern "C" bool ClientSessionCache_SetContextInCache_m12406 (Object_t * __this /* static, unused */, Context_t3783 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ClientSessionCache_SetContextInCache_m12406 (Object_t * __this /* static, unused */, Context_t3782 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.ClientSessionCache::SetContextFromCache(Mono.Security.Protocol.Tls.Context)
-extern "C" bool ClientSessionCache_SetContextFromCache_m12407 (Object_t * __this /* static, unused */, Context_t3783 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ClientSessionCache_SetContextFromCache_m12407 (Object_t * __this /* static, unused */, Context_t3782 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

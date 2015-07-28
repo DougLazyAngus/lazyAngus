@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SystemClock
-struct SystemClock_t2819;
+struct SystemClock_t2818;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 

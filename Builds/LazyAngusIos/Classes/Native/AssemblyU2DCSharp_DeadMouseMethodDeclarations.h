@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // DeadMouse
-struct DeadMouse_t487;
+struct DeadMouse_t486;
 // MouseMove
-struct MouseMove_t557;
+struct MouseMove_t556;
 
 // System.Void DeadMouse::.ctor()
-extern "C" void DeadMouse__ctor_m2642 (DeadMouse_t487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouse__ctor_m2631 (DeadMouse_t486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouse::Start()
-extern "C" void DeadMouse_Start_m2643 (DeadMouse_t487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouse_Start_m2632 (DeadMouse_t486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouse::Update()
-extern "C" void DeadMouse_Update_m2644 (DeadMouse_t487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouse_Update_m2633 (DeadMouse_t486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouse::Configure(MouseMove)
-extern "C" void DeadMouse_Configure_m2645 (DeadMouse_t487 * __this, MouseMove_t557 * ___parentMouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouse_Configure_m2634 (DeadMouse_t486 * __this, MouseMove_t556 * ___parentMouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

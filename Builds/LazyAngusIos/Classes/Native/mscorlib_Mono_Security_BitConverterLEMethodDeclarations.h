@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.BitConverterLE
-struct BitConverterLE_t4363;
+struct BitConverterLE_t4362;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 

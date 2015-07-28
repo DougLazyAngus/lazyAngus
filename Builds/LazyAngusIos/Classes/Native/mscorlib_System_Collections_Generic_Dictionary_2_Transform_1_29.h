@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t692;
+struct Dictionary_2_t691;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>,System.Collections.DictionaryEntry>
-struct  Transform_1_t5535  : public MulticastDelegate_t388
+struct  Transform_1_t5534  : public MulticastDelegate_t388
 {
 };

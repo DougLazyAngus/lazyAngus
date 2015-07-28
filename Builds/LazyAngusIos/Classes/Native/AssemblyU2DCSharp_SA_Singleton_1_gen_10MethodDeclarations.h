@@ -22,6 +22,6 @@ struct SALevelLoader_t396;
 // System.Boolean SA_Singleton`1<SALevelLoader>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25705(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<SALevelLoader>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4207(__this, method) (( void (*) (SA_Singleton_1_t397 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4209(__this, method) (( void (*) (SA_Singleton_1_t397 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<SALevelLoader>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4208(__this, method) (( void (*) (SA_Singleton_1_t397 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4210(__this, method) (( void (*) (SA_Singleton_1_t397 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

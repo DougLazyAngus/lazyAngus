@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.CryptoConfig
-struct CryptoConfig_t3858;
+struct CryptoConfig_t3857;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t627;
+struct ObjectU5BU5D_t626;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
@@ -22,7 +22,7 @@ extern "C" void CryptoConfig_Initialize_m18265 (Object_t * __this /* static, unu
 // System.Object System.Security.Cryptography.CryptoConfig::CreateFromName(System.String)
 extern "C" Object_t * CryptoConfig_CreateFromName_m12820 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.CryptoConfig::CreateFromName(System.String,System.Object[])
-extern "C" Object_t * CryptoConfig_CreateFromName_m14845 (Object_t * __this /* static, unused */, String_t* ___name, ObjectU5BU5D_t627* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CryptoConfig_CreateFromName_m14845 (Object_t * __this /* static, unused */, String_t* ___name, ObjectU5BU5D_t626* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.CryptoConfig::MapNameToOID(System.String)
 extern "C" String_t* CryptoConfig_MapNameToOID_m12822 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.CryptoConfig::EncodeOID(System.String)

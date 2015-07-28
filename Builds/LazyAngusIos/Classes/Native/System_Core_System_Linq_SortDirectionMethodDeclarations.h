@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.SortDirection
-struct SortDirection_t3291;
+struct SortDirection_t3290;
 

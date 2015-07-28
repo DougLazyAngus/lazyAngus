@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UriTypeConverter
-struct UriTypeConverter_t4126;
+struct UriTypeConverter_t4125;
 

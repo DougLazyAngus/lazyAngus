@@ -3,6 +3,6 @@
 // Mono.Xml.DTDEntityBase
 #include "System_Xml_Mono_Xml_DTDEntityBase.h"
 // Mono.Xml.DTDParameterEntityDeclaration
-struct  DTDParameterEntityDeclaration_t3140  : public DTDEntityBase_t3137
+struct  DTDParameterEntityDeclaration_t3139  : public DTDEntityBase_t3136
 {
 };

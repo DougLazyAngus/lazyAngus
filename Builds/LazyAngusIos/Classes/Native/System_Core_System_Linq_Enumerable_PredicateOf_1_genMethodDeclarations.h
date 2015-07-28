@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Enumerable/PredicateOf`1<System.Object>
-struct PredicateOf_1_t5868;
+struct PredicateOf_1_t5867;
 // System.Object
 struct Object_t;
 

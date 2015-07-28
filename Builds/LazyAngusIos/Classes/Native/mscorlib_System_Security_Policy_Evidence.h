@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t3102;
+struct ArrayList_t3101;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.Evidence
-struct  Evidence_t4472  : public Object_t
+struct  Evidence_t4471  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Policy.Evidence::hostEvidenceList
-	ArrayList_t3102 * ___hostEvidenceList_0;
+	ArrayList_t3101 * ___hostEvidenceList_0;
 	// System.Collections.ArrayList System.Security.Policy.Evidence::assemblyEvidenceList
-	ArrayList_t3102 * ___assemblyEvidenceList_1;
+	ArrayList_t3101 * ___assemblyEvidenceList_1;
 	// System.Int32 System.Security.Policy.Evidence::_hashCode
 	int32_t ____hashCode_2;
 };

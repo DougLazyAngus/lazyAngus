@@ -7,7 +7,7 @@
 // System.IntPtr
 struct IntPtr_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2861;
+struct SerializationInfo_t2860;
 // System.Object
 struct Object_t;
 // System.String
@@ -26,9 +26,9 @@ extern "C" void IntPtr__ctor_m15688 (IntPtr_t* __this, int64_t ___value, const M
 // System.Void System.IntPtr::.ctor(System.Void*)
 extern "C" void IntPtr__ctor_m14764 (IntPtr_t* __this, void* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IntPtr::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void IntPtr__ctor_m15689 (IntPtr_t* __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntPtr__ctor_m15689 (IntPtr_t* __this, SerializationInfo_t2860 * ___info, StreamingContext_t2861  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IntPtr::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m15690 (IntPtr_t* __this, SerializationInfo_t2861 * ___info, StreamingContext_t2862  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m15690 (IntPtr_t* __this, SerializationInfo_t2860 * ___info, StreamingContext_t2861  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IntPtr::get_Size()
 extern "C" int32_t IntPtr_get_Size_m15691 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IntPtr::Equals(System.Object)

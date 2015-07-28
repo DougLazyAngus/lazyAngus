@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>
-struct  InternalEnumerator_1_t8504 
+struct  InternalEnumerator_1_t8503 
 {
 	// System.Array System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::array
 	Array_t * ___array_0;

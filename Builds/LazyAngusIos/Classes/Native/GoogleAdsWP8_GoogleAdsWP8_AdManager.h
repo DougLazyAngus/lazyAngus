@@ -3,11 +3,11 @@
 // System.Action`1<System.String>
 struct Action_1_t144;
 // GoogleAdsWP8.AdManager
-struct AdManager_t673;
+struct AdManager_t672;
 // System.Object
 #include "mscorlib_System_Object.h"
 // GoogleAdsWP8.AdManager
-struct  AdManager_t673  : public Object_t
+struct  AdManager_t672  : public Object_t
 {
 	// System.Action`1<System.String> GoogleAdsWP8.AdManager::InterstisialOnLoad
 	Action_1_t144 * ___InterstisialOnLoad_0;
@@ -30,7 +30,7 @@ struct  AdManager_t673  : public Object_t
 	// System.Action`1<System.String> GoogleAdsWP8.AdManager::BannerAdLeftApplication
 	Action_1_t144 * ___BannerAdLeftApplication_9;
 };
-struct AdManager_t673_StaticFields{
+struct AdManager_t672_StaticFields{
 	// GoogleAdsWP8.AdManager GoogleAdsWP8.AdManager::_instance
-	AdManager_t673 * ____instance_10;
+	AdManager_t672 * ____instance_10;
 };

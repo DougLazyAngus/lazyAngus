@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.TimeZoneInfo/AdjustmentRule>
-struct IList_1_t8542;
+struct IList_1_t8541;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo/AdjustmentRule>
-struct  ReadOnlyCollection_1_t8543  : public Object_t
+struct  ReadOnlyCollection_1_t8542  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo/AdjustmentRule>::list
 	Object_t* ___list_0;

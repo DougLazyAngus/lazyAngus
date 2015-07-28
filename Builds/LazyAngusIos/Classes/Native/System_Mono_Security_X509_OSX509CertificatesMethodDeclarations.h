@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.OSX509Certificates
-struct OSX509Certificates_t4024;
+struct OSX509Certificates_t4023;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.IntPtr[]
-struct IntPtrU5BU5D_t2847;
+struct IntPtrU5BU5D_t2846;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t3751;
+struct X509CertificateCollection_t3750;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // Mono.Security.X509.OSX509Certificates/SecTrustResult
@@ -36,8 +36,8 @@ extern "C" IntPtr_t OSX509Certificates_CFArrayCreate_m14025 (Object_t * __this /
 // System.IntPtr Mono.Security.X509.OSX509Certificates::MakeCFData(System.Byte[])
 extern "C" IntPtr_t OSX509Certificates_MakeCFData_m14026 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr Mono.Security.X509.OSX509Certificates::FromIntPtrs(System.IntPtr[])
-extern "C" IntPtr_t OSX509Certificates_FromIntPtrs_m14027 (Object_t * __this /* static, unused */, IntPtrU5BU5D_t2847* ___values, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t OSX509Certificates_FromIntPtrs_m14027 (Object_t * __this /* static, unused */, IntPtrU5BU5D_t2846* ___values, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.OSX509Certificates/SecTrustResult Mono.Security.X509.OSX509Certificates::TrustEvaluateSsl(Mono.Security.X509.X509CertificateCollection)
-extern "C" int32_t OSX509Certificates_TrustEvaluateSsl_m14028 (Object_t * __this /* static, unused */, X509CertificateCollection_t3751 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OSX509Certificates_TrustEvaluateSsl_m14028 (Object_t * __this /* static, unused */, X509CertificateCollection_t3750 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.OSX509Certificates/SecTrustResult Mono.Security.X509.OSX509Certificates::_TrustEvaluateSsl(Mono.Security.X509.X509CertificateCollection)
-extern "C" int32_t OSX509Certificates__TrustEvaluateSsl_m14029 (Object_t * __this /* static, unused */, X509CertificateCollection_t3751 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OSX509Certificates__TrustEvaluateSsl_m14029 (Object_t * __this /* static, unused */, X509CertificateCollection_t3750 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;

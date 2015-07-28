@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Scrollbar/Axis
-struct Axis_t893;
+struct Axis_t892;
 

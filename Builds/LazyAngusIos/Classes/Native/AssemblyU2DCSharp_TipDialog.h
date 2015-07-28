@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Text
-struct Text_t465;
+struct Text_t464;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TipDialog
-struct  TipDialog_t607  : public MonoBehaviour_t13
+struct  TipDialog_t606  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text TipDialog::dialogText
-	Text_t465 * ___dialogText_2;
+	Text_t464 * ___dialogText_2;
 };

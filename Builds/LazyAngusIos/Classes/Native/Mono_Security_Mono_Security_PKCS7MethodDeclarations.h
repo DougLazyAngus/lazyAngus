@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.PKCS7
-struct PKCS7_t3732;
+struct PKCS7_t3731;
 

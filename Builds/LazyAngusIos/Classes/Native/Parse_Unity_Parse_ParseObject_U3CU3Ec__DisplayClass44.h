@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject
-struct ParseObject_t1160;
+struct ParseObject_t1159;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseObject/<>c__DisplayClass44
-struct  U3CU3Ec__DisplayClass44_t1210  : public Object_t
+struct  U3CU3Ec__DisplayClass44_t1209  : public Object_t
 {
 	// Parse.ParseObject Parse.ParseObject/<>c__DisplayClass44::<>4__this
-	ParseObject_t1160 * ___U3CU3E4__this_0;
+	ParseObject_t1159 * ___U3CU3E4__this_0;
 	// System.Threading.CancellationToken Parse.ParseObject/<>c__DisplayClass44::cancellationToken
-	CancellationToken_t1102  ___cancellationToken_1;
+	CancellationToken_t1101  ___cancellationToken_1;
 };

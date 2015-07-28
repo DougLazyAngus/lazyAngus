@@ -22,6 +22,6 @@ struct IOSInstagramManager_t365;
 // System.Boolean SA_Singleton`1<IOSInstagramManager>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25689(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m22990_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<IOSInstagramManager>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4193(__this, method) (( void (*) (SA_Singleton_1_t366 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4195(__this, method) (( void (*) (SA_Singleton_1_t366 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m22991_gshared)(__this, method)
 // System.Void SA_Singleton`1<IOSInstagramManager>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4194(__this, method) (( void (*) (SA_Singleton_1_t366 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4196(__this, method) (( void (*) (SA_Singleton_1_t366 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m22992_gshared)(__this, method)

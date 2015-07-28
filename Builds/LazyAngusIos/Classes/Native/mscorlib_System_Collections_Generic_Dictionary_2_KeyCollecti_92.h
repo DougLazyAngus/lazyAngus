@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__72.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
-struct  Enumerator_t8520 
+struct  Enumerator_t8519 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::host_enumerator
-	Enumerator_t8521  ___host_enumerator_0;
+	Enumerator_t8520  ___host_enumerator_0;
 };

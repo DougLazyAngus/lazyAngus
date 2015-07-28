@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Type,System.String>
-struct Tuple_2_t1440;
+struct Tuple_2_t1439;
 // System.String
 struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>
-struct  KeyValuePair_2_t6164 
+struct  KeyValuePair_2_t6163 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::key
-	Tuple_2_t1440 * ___key_0;
+	Tuple_2_t1439 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>::value
 	String_t* ___value_1;
 };

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DateTimeUtils
-struct DateTimeUtils_t4740;
+struct DateTimeUtils_t4739;
 // System.String
 struct String_t;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Globalization.DateTimeFormatInfo
-struct DateTimeFormatInfo_t4413;
+struct DateTimeFormatInfo_t4412;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Nullable`1<System.TimeSpan>
@@ -24,10 +24,10 @@ extern "C" void DateTimeUtils_ZeroPad_m19382 (Object_t * __this /* static, unuse
 // System.Int32 System.DateTimeUtils::ParseQuotedString(System.String,System.Int32,System.Text.StringBuilder)
 extern "C" int32_t DateTimeUtils_ParseQuotedString_m19383 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___pos, StringBuilder_t261 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m19384 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4413 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m19384 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4412 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&,System.Boolean)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m19385 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4413 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m19385 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4412 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m19386 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, String_t* ___format, DateTimeFormatInfo_t4413 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m19386 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, String_t* ___format, DateTimeFormatInfo_t4412 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.Nullable`1<System.TimeSpan>,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m19387 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, Nullable_1_t1235  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t4413 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m19387 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, Nullable_1_t1234  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t4412 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,11 +3,11 @@
 // System.Object
 struct Object_t;
 // BoostConfig
-struct BoostConfig_t457;
+struct BoostConfig_t456;
 // System.Object
 #include "mscorlib_System_Object.h"
 // BoostConfig/<WaitThenCleanup>c__Iterator10
-struct  U3CWaitThenCleanupU3Ec__Iterator10_t471  : public Object_t
+struct  U3CWaitThenCleanupU3Ec__Iterator10_t470  : public Object_t
 {
 	// System.Single BoostConfig/<WaitThenCleanup>c__Iterator10::pauseTime
 	float ___pauseTime_0;
@@ -18,5 +18,5 @@ struct  U3CWaitThenCleanupU3Ec__Iterator10_t471  : public Object_t
 	// System.Single BoostConfig/<WaitThenCleanup>c__Iterator10::<$>pauseTime
 	float ___U3CU24U3EpauseTime_3;
 	// BoostConfig BoostConfig/<WaitThenCleanup>c__Iterator10::<>f__this
-	BoostConfig_t457 * ___U3CU3Ef__this_4;
+	BoostConfig_t456 * ___U3CU3Ef__this_4;
 };

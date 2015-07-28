@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Check
-struct Check_t3288;
+struct Check_t3287;
 // System.Object
 struct Object_t;
 

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.MonoIO
-struct MonoIO_t4437;
+struct MonoIO_t4436;
 // System.Exception
 struct Exception_t57;
 // System.String
@@ -58,7 +58,7 @@ extern "C" bool MonoIO_ExistsFile_m17127 (Object_t * __this /* static, unused */
 // System.Boolean System.IO.MonoIO::ExistsDirectory(System.String,System.IO.MonoIOError&)
 extern "C" bool MonoIO_ExistsDirectory_m17128 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::GetFileStat(System.String,System.IO.MonoIOStat&,System.IO.MonoIOError&)
-extern "C" bool MonoIO_GetFileStat_m17129 (Object_t * __this /* static, unused */, String_t* ___path, MonoIOStat_t4435 * ___stat, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_GetFileStat_m17129 (Object_t * __this /* static, unused */, String_t* ___path, MonoIOStat_t4434 * ___stat, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.IO.MonoIO::Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.FileOptions,System.IO.MonoIOError&)
 extern "C" IntPtr_t MonoIO_Open_m17130 (Object_t * __this /* static, unused */, String_t* ___filename, int32_t ___mode, int32_t ___access, int32_t ___share, int32_t ___options, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::Close(System.IntPtr,System.IO.MonoIOError&)

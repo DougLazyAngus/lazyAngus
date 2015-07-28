@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.UI.InputField/OnValidateInput
-struct  OnValidateInput_t877  : public MulticastDelegate_t388
+struct  OnValidateInput_t876  : public MulticastDelegate_t388
 {
 };

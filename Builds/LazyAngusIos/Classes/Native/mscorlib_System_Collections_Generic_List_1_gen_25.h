@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Transform[]
-struct TransformU5BU5D_t5718;
+struct TransformU5BU5D_t5717;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.Transform>
-struct  List_1_t804  : public Object_t
+struct  List_1_t803  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::_items
-	TransformU5BU5D_t5718* ____items_1;
+	TransformU5BU5D_t5717* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_version
 	int32_t ____version_3;
 };
-struct List_1_t804_StaticFields{
+struct List_1_t803_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::EmptyArray
-	TransformU5BU5D_t5718* ___EmptyArray_4;
+	TransformU5BU5D_t5717* ___EmptyArray_4;
 };

@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t540;
+struct Int32U5BU5D_t539;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5336;
+struct LinkU5BU5D_t5335;
 // UnityEngine.Font[]
-struct FontU5BU5D_t5745;
+struct FontU5BU5D_t5744;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>[]
-struct List_1U5BU5D_t5746;
+struct List_1U5BU5D_t5745;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.Font>
-struct IEqualityComparer_1_t5747;
+struct IEqualityComparer_1_t5746;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2861;
+struct SerializationInfo_t2860;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
-struct Transform_1_t5748;
+struct Transform_1_t5747;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  Dictionary_2_t847  : public Object_t
+struct  Dictionary_2_t846  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::table
-	Int32U5BU5D_t540* ___table_4;
+	Int32U5BU5D_t539* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::linkSlots
-	LinkU5BU5D_t5336* ___linkSlots_5;
+	LinkU5BU5D_t5335* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::keySlots
-	FontU5BU5D_t5745* ___keySlots_6;
+	FontU5BU5D_t5744* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::valueSlots
-	List_1U5BU5D_t5746* ___valueSlots_7;
+	List_1U5BU5D_t5745* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t847  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::serialization_info
-	SerializationInfo_t2861 * ___serialization_info_13;
+	SerializationInfo_t2860 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t847_StaticFields{
+struct Dictionary_2_t846_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::<>f__am$cacheB
-	Transform_1_t5748 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t5747 * ___U3CU3Ef__amU24cacheB_15;
 };
