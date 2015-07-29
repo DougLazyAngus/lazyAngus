@@ -28,23 +28,21 @@ public class PawController : MonoBehaviour {
 	private float swipeSpeed;
 
 	private int killsThisSwipe;
-	private GameController gameController;
 
 	bool registerdForEvents;
-	BoostConfig boostConfig;
 
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
 	float pawHomeCatTransformMagnitude;
+
+	public delegate void MultiKillEventHandler(int numKilled, Vector3 pawPosition);
+	public event MultiKillEventHandler MultiKill;
 
 	void Awake() {
 		registerdForEvents = false;
 	}
 
 	void Start() {
-		gameController = GameController.instance;
-		boostConfig = BoostConfig.instance;
-
 		swipePhase = SwipePhase.SWIPE_NONE;
 
 		swipeSpeed = TweakableParams.baseSwipeSpeed;
@@ -66,13 +64,13 @@ public class PawController : MonoBehaviour {
 	}
 
 	void RegisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+		BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
 
@@ -109,13 +107,13 @@ public class PawController : MonoBehaviour {
 			break;
 		}
 		case SwipePhase.SWIPE_EXTENDED_PAUSE:
-			{
-				float timeNow = Time.time;
+		{
+			float timeNow = Time.time;
 			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
-					SetPhase(SwipePhase.SWIPE_RETRACTING);
-				}
-				break;
+				SetPhase(SwipePhase.SWIPE_RETRACTING);
 			}
+			break;
+		}
 		case SwipePhase.SWIPE_RETRACTING: 
 			if (MovePawTowards (pawHomeCatTransform.localPosition)) {
 				SetPhase(SwipePhase.SWIPE_NONE);
@@ -129,7 +127,9 @@ public class PawController : MonoBehaviour {
 		swipePhase = newPhase;
 
 		if (oldPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-			gameController.LogKillsPerSwipe (killsThisSwipe);
+			if (killsThisSwipe > 1 && MultiKill != null) {
+				MultiKill(killsThisSwipe, transform.position);
+			}
 			killsThisSwipe = 0;
 		}
 
@@ -151,7 +151,7 @@ public class PawController : MonoBehaviour {
 	}
 
 	void UpdatePawState() {
-		if (boostConfig.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			dangerPawSpriteGameObject.SetActive (false);
 			normalCollider.gameObject.SetActive (false);
 

@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour {
 	public MouseHole[] mouseHoles;
 	
 	private MouseSpawnFromData mouseSpawnFromData;
-	
+
 	public static GameController instance { get; private set; }
 	bool registeredForEvents;
 	bool checkForPhaseChanges;
@@ -184,18 +184,5 @@ public class GameController : MonoBehaviour {
 	public void OnMouseKilled(MouseMove mouse) {
 		PlayerStats.instance.IncrementScore ();
 		checkForPhaseChanges = true;
-	}
-
-
-	public void LogKillsPerSwipe(int killsPerSwipe) {
-		// Multiple kills earn you treats.
-		if (killsPerSwipe <= 0) {
-			return;
-		}
-
-		int moneyEarned = (killsPerSwipe - 1) * (killsPerSwipe - 1);
-		if (moneyEarned > 0) {
-			PlayerStats.instance.EarnMoney(moneyEarned);
-		}
 	}
 }
