@@ -5,15 +5,15 @@ struct String_t;
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.MethodBuilder
-struct MethodBuilder_t4458;
+struct MethodBuilder_t4466;
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t4452;
+struct TypeBuilder_t4460;
 // System.Reflection.PropertyInfo
 #include "mscorlib_System_Reflection_PropertyInfo.h"
 // System.Reflection.PropertyAttributes
 #include "mscorlib_System_Reflection_PropertyAttributes.h"
 // System.Reflection.Emit.PropertyBuilder
-struct  PropertyBuilder_t4464  : public PropertyInfo_t
+struct  PropertyBuilder_t4472  : public PropertyInfo_t
 {
 	// System.Reflection.PropertyAttributes System.Reflection.Emit.PropertyBuilder::attrs
 	int32_t ___attrs_0;
@@ -22,9 +22,9 @@ struct  PropertyBuilder_t4464  : public PropertyInfo_t
 	// System.Type System.Reflection.Emit.PropertyBuilder::type
 	Type_t * ___type_2;
 	// System.Reflection.Emit.MethodBuilder System.Reflection.Emit.PropertyBuilder::set_method
-	MethodBuilder_t4458 * ___set_method_3;
+	MethodBuilder_t4466 * ___set_method_3;
 	// System.Reflection.Emit.MethodBuilder System.Reflection.Emit.PropertyBuilder::get_method
-	MethodBuilder_t4458 * ___get_method_4;
+	MethodBuilder_t4466 * ___get_method_4;
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.PropertyBuilder::typeb
-	TypeBuilder_t4452 * ___typeb_5;
+	TypeBuilder_t4460 * ___typeb_5;
 };

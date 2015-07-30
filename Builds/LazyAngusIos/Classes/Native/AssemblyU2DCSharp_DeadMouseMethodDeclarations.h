@@ -7,7 +7,7 @@
 // DeadMouse
 struct DeadMouse_t486;
 // MouseMove
-struct MouseMove_t556;
+struct MouseMove_t488;
 
 // System.Void DeadMouse::.ctor()
 extern "C" void DeadMouse__ctor_m2631 (DeadMouse_t486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -16,4 +16,4 @@ extern "C" void DeadMouse_Start_m2632 (DeadMouse_t486 * __this, const MethodInfo
 // System.Void DeadMouse::Update()
 extern "C" void DeadMouse_Update_m2633 (DeadMouse_t486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouse::Configure(MouseMove)
-extern "C" void DeadMouse_Configure_m2634 (DeadMouse_t486 * __this, MouseMove_t556 * ___parentMouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouse_Configure_m2634 (DeadMouse_t486 * __this, MouseMove_t488 * ___parentMouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

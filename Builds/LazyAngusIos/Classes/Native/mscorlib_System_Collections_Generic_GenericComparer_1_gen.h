@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<System.DateTime>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_13.h"
 // System.Collections.Generic.GenericComparer`1<System.DateTime>
-struct  GenericComparer_1_t4846  : public Comparer_1_t6764
+struct  GenericComparer_1_t4854  : public Comparer_1_t6772
 {
 };

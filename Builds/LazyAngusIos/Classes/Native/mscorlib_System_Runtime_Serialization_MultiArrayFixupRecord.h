@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t539;
+struct Int32U5BU5D_t547;
 // System.Runtime.Serialization.BaseFixupRecord
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 // System.Runtime.Serialization.MultiArrayFixupRecord
-struct  MultiArrayFixupRecord_t4610  : public BaseFixupRecord_t4608
+struct  MultiArrayFixupRecord_t4618  : public BaseFixupRecord_t4616
 {
 	// System.Int32[] System.Runtime.Serialization.MultiArrayFixupRecord::_indices
-	Int32U5BU5D_t539* ____indices_4;
+	Int32U5BU5D_t547* ____indices_4;
 };

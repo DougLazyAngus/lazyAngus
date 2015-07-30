@@ -3,18 +3,18 @@
 // System.Object
 struct Object_t;
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct ThreadSafeDictionaryValueFactory_2_t2877;
+struct ThreadSafeDictionaryValueFactory_2_t2884;
 // System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct Dictionary_2_t8420;
+struct Dictionary_2_t8428;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct  ThreadSafeDictionary_2_t2878  : public Object_t
+struct  ThreadSafeDictionary_2_t2885  : public Object_t
 {
 	// System.Object SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::_lock
 	Object_t * ____lock_0;
 	// SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<TKey,TValue> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::_valueFactory
-	ThreadSafeDictionaryValueFactory_2_t2877 * ____valueFactory_1;
+	ThreadSafeDictionaryValueFactory_2_t2884 * ____valueFactory_1;
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::_dictionary
-	Dictionary_2_t8420 * ____dictionary_2;
+	Dictionary_2_t8428 * ____dictionary_2;
 };

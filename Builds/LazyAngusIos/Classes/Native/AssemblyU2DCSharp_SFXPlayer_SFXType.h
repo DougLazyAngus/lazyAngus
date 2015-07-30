@@ -5,7 +5,7 @@
 // SFXPlayer/SFXType
 #include "AssemblyU2DCSharp_SFXPlayer_SFXType.h"
 // SFXPlayer/SFXType
-struct  SFXType_t584 
+struct  SFXType_t592 
 {
 	// System.Int32 SFXPlayer/SFXType::value__
 	int32_t ___value___1;

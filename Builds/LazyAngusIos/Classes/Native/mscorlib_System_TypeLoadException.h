@@ -5,7 +5,7 @@ struct String_t;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.TypeLoadException
-struct  TypeLoadException_t4745  : public SystemException_t3172
+struct  TypeLoadException_t4753  : public SystemException_t3180
 {
 	// System.String System.TypeLoadException::className
 	String_t* ___className_12;

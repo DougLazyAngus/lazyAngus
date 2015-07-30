@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>
-struct Enumerator_t8544;
+struct Enumerator_t8552;
 // System.Object
 struct Object_t;
 // System.TimeZoneInfo/AdjustmentRule
-struct AdjustmentRule_t3296;
+struct AdjustmentRule_t3304;
 // System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>
-struct List_1_t3305;
+struct List_1_t3313;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m62860(__this, ___l, method) (( void (*) (Enumerator_t8544 *, List_1_t3305 *, const MethodInfo*))Enumerator__ctor_m21331_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m62907(__this, ___l, method) (( void (*) (Enumerator_t8552 *, List_1_t3313 *, const MethodInfo*))Enumerator__ctor_m21378_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m62861(__this, method) (( void (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21332_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m62908(__this, method) (( void (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21379_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m62862(__this, method) (( Object_t * (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21333_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m62909(__this, method) (( Object_t * (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21380_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::Dispose()
-#define Enumerator_Dispose_m62863(__this, method) (( void (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_Dispose_m21334_gshared)(__this, method)
+#define Enumerator_Dispose_m62910(__this, method) (( void (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_Dispose_m21381_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::VerifyState()
-#define Enumerator_VerifyState_m62864(__this, method) (( void (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_VerifyState_m21335_gshared)(__this, method)
+#define Enumerator_VerifyState_m62911(__this, method) (( void (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_VerifyState_m21382_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::MoveNext()
-#define Enumerator_MoveNext_m62865(__this, method) (( bool (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_MoveNext_m3577_gshared)(__this, method)
+#define Enumerator_MoveNext_m62912(__this, method) (( bool (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_MoveNext_m3621_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>::get_Current()
-#define Enumerator_get_Current_m62866(__this, method) (( AdjustmentRule_t3296 * (*) (Enumerator_t8544 *, const MethodInfo*))Enumerator_get_Current_m3576_gshared)(__this, method)
+#define Enumerator_get_Current_m62913(__this, method) (( AdjustmentRule_t3304 * (*) (Enumerator_t8552 *, const MethodInfo*))Enumerator_get_Current_m3620_gshared)(__this, method)

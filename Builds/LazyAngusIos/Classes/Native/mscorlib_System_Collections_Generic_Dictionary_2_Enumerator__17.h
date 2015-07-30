@@ -7,7 +7,7 @@ struct Dictionary_2_t128;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_22.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
-struct  Enumerator_t5443 
+struct  Enumerator_t5451 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::dictionary
 	Dictionary_2_t128 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t5443
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::current
-	KeyValuePair_2_t5440  ___current_3;
+	KeyValuePair_2_t5448  ___current_3;
 };

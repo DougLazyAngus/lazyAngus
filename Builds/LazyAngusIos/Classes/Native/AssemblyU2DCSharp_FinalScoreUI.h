@@ -5,7 +5,7 @@ struct Text_t464;
 // GameUI
 #include "AssemblyU2DCSharp_GameUI.h"
 // FinalScoreUI
-struct  FinalScoreUI_t498  : public GameUI_t499
+struct  FinalScoreUI_t502  : public GameUI_t503
 {
 	// UnityEngine.UI.Text FinalScoreUI::personalBestText
 	Text_t464 * ___personalBestText_2;

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.IPAddress
-struct IPAddress_t4004;
+struct IPAddress_t4012;
 // System.Net.EndPoint
 #include "System_System_Net_EndPoint.h"
 // System.Net.IPEndPoint
-struct  IPEndPoint_t3991  : public EndPoint_t3938
+struct  IPEndPoint_t3999  : public EndPoint_t3946
 {
 	// System.Net.IPAddress System.Net.IPEndPoint::address
-	IPAddress_t4004 * ___address_0;
+	IPAddress_t4012 * ___address_0;
 	// System.Int32 System.Net.IPEndPoint::port
 	int32_t ___port_1;
 };

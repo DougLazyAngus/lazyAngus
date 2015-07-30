@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ObsoleteAttribute
-struct  ObsoleteAttribute_t744  : public Attribute_t426
+struct  ObsoleteAttribute_t751  : public Attribute_t426
 {
 	// System.String System.ObsoleteAttribute::_message
 	String_t* ____message_0;

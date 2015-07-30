@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.RankException
-struct  RankException_t4778  : public SystemException_t3172
+struct  RankException_t4786  : public SystemException_t3180
 {
 };

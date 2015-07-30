@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1267;
+struct Hashtable_t1274;
 // System.Collections.Specialized.NameObjectCollectionBase/_Item
-struct _Item_t3905;
+struct _Item_t3913;
 // System.Collections.ArrayList
-struct ArrayList_t3101;
+struct ArrayList_t3109;
 // System.Collections.IHashCodeProvider
-struct IHashCodeProvider_t3909;
+struct IHashCodeProvider_t3917;
 // System.Collections.IComparer
-struct IComparer_t3904;
+struct IComparer_t3912;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2860;
+struct SerializationInfo_t2867;
 // System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
-struct KeysCollection_t3908;
+struct KeysCollection_t3916;
 // System.Collections.IEqualityComparer
-struct IEqualityComparer_t3910;
+struct IEqualityComparer_t3918;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Specialized.NameObjectCollectionBase
-struct  NameObjectCollectionBase_t3906  : public Object_t
+struct  NameObjectCollectionBase_t3914  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Specialized.NameObjectCollectionBase::m_ItemsContainer
-	Hashtable_t1267 * ___m_ItemsContainer_0;
+	Hashtable_t1274 * ___m_ItemsContainer_0;
 	// System.Collections.Specialized.NameObjectCollectionBase/_Item System.Collections.Specialized.NameObjectCollectionBase::m_NullKeyItem
-	_Item_t3905 * ___m_NullKeyItem_1;
+	_Item_t3913 * ___m_NullKeyItem_1;
 	// System.Collections.ArrayList System.Collections.Specialized.NameObjectCollectionBase::m_ItemsArray
-	ArrayList_t3101 * ___m_ItemsArray_2;
+	ArrayList_t3109 * ___m_ItemsArray_2;
 	// System.Collections.IHashCodeProvider System.Collections.Specialized.NameObjectCollectionBase::m_hashprovider
 	Object_t * ___m_hashprovider_3;
 	// System.Collections.IComparer System.Collections.Specialized.NameObjectCollectionBase::m_comparer
@@ -36,9 +36,9 @@ struct  NameObjectCollectionBase_t3906  : public Object_t
 	// System.Boolean System.Collections.Specialized.NameObjectCollectionBase::m_readonly
 	bool ___m_readonly_6;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Specialized.NameObjectCollectionBase::infoCopy
-	SerializationInfo_t2860 * ___infoCopy_7;
+	SerializationInfo_t2867 * ___infoCopy_7;
 	// System.Collections.Specialized.NameObjectCollectionBase/KeysCollection System.Collections.Specialized.NameObjectCollectionBase::keyscoll
-	KeysCollection_t3908 * ___keyscoll_8;
+	KeysCollection_t3916 * ___keyscoll_8;
 	// System.Collections.IEqualityComparer System.Collections.Specialized.NameObjectCollectionBase::equality_comparer
 	Object_t * ___equality_comparer_9;
 };

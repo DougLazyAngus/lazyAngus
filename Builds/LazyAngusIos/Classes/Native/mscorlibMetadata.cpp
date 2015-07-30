@@ -14,13 +14,13 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t4280_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t4288_il2cpp_TypeInfo;
 // <Module>
 #include "mscorlib_U3CModuleU3E.h"
 extern TypeInfo Object_t_il2cpp_TypeInfo;
 // System.Object
 #include "mscorlib_System_Object.h"
-extern TypeInfo ValueType_t1067_il2cpp_TypeInfo;
+extern TypeInfo ValueType_t1074_il2cpp_TypeInfo;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 extern TypeInfo Attribute_t426_il2cpp_TypeInfo;
@@ -33,60 +33,60 @@ extern TypeInfo Int32_t82_il2cpp_TypeInfo;
 extern TypeInfo IFormattable_t97_il2cpp_TypeInfo;
 extern TypeInfo IConvertible_t98_il2cpp_TypeInfo;
 extern TypeInfo IComparable_t99_il2cpp_TypeInfo;
-extern TypeInfo IComparable_1_t4854_il2cpp_TypeInfo;
-extern TypeInfo SerializableAttribute_t4281_il2cpp_TypeInfo;
+extern TypeInfo IComparable_1_t4862_il2cpp_TypeInfo;
+extern TypeInfo SerializableAttribute_t4289_il2cpp_TypeInfo;
 // System.SerializableAttribute
 #include "mscorlib_System_SerializableAttribute.h"
-extern TypeInfo AttributeUsageAttribute_t745_il2cpp_TypeInfo;
+extern TypeInfo AttributeUsageAttribute_t752_il2cpp_TypeInfo;
 // System.AttributeUsageAttribute
 #include "mscorlib_System_AttributeUsageAttribute.h"
-extern TypeInfo ComVisibleAttribute_t1033_il2cpp_TypeInfo;
+extern TypeInfo ComVisibleAttribute_t1040_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ComVisibleAttribute
 #include "mscorlib_System_Runtime_InteropServices_ComVisibleAttribute.h"
-extern TypeInfo IEquatable_1_t4855_il2cpp_TypeInfo;
+extern TypeInfo IEquatable_1_t4863_il2cpp_TypeInfo;
 extern TypeInfo Int64_t89_il2cpp_TypeInfo;
 // System.Int64
 #include "mscorlib_System_Int64.h"
-extern TypeInfo UInt32_t682_il2cpp_TypeInfo;
+extern TypeInfo UInt32_t690_il2cpp_TypeInfo;
 // System.UInt32
 #include "mscorlib_System_UInt32.h"
-extern TypeInfo CLSCompliantAttribute_t3249_il2cpp_TypeInfo;
+extern TypeInfo CLSCompliantAttribute_t3257_il2cpp_TypeInfo;
 // System.CLSCompliantAttribute
 #include "mscorlib_System_CLSCompliantAttribute.h"
-extern TypeInfo UInt64_t686_il2cpp_TypeInfo;
+extern TypeInfo UInt64_t694_il2cpp_TypeInfo;
 // System.UInt64
 #include "mscorlib_System_UInt64.h"
-extern TypeInfo Byte_t683_il2cpp_TypeInfo;
+extern TypeInfo Byte_t691_il2cpp_TypeInfo;
 // System.Byte
 #include "mscorlib_System_Byte.h"
 extern TypeInfo SByte_t88_il2cpp_TypeInfo;
 // System.SByte
 #include "mscorlib_System_SByte.h"
-extern TypeInfo Int16_t684_il2cpp_TypeInfo;
+extern TypeInfo Int16_t692_il2cpp_TypeInfo;
 // System.Int16
 #include "mscorlib_System_Int16.h"
-extern TypeInfo UInt16_t685_il2cpp_TypeInfo;
+extern TypeInfo UInt16_t693_il2cpp_TypeInfo;
 // System.UInt16
 #include "mscorlib_System_UInt16.h"
 extern TypeInfo IEnumerator_t48_il2cpp_TypeInfo;
 extern TypeInfo IEnumerable_t104_il2cpp_TypeInfo;
 extern TypeInfo IDisposable_t58_il2cpp_TypeInfo;
-extern TypeInfo IEnumerator_1_t4856_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t4864_il2cpp_TypeInfo;
 extern TypeInfo Char_t60_il2cpp_TypeInfo;
 // System.Char
 #include "mscorlib_System_Char.h"
 extern TypeInfo String_t_il2cpp_TypeInfo;
 // System.String
 #include "mscorlib_System_String.h"
-extern TypeInfo ICloneable_t753_il2cpp_TypeInfo;
-extern TypeInfo IEnumerable_1_t4857_il2cpp_TypeInfo;
+extern TypeInfo ICloneable_t760_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4865_il2cpp_TypeInfo;
 extern TypeInfo Single_t87_il2cpp_TypeInfo;
 // System.Single
 #include "mscorlib_System_Single.h"
 extern TypeInfo Double_t90_il2cpp_TypeInfo;
 // System.Double
 #include "mscorlib_System_Double.h"
-extern TypeInfo Decimal_t687_il2cpp_TypeInfo;
+extern TypeInfo Decimal_t695_il2cpp_TypeInfo;
 // System.Decimal
 #include "mscorlib_System_Decimal.h"
 extern TypeInfo Boolean_t59_il2cpp_TypeInfo;
@@ -95,35 +95,35 @@ extern TypeInfo Boolean_t59_il2cpp_TypeInfo;
 extern TypeInfo IntPtr_t_il2cpp_TypeInfo;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-extern TypeInfo ISerializable_t754_il2cpp_TypeInfo;
+extern TypeInfo ISerializable_t761_il2cpp_TypeInfo;
 extern TypeInfo UIntPtr_t_il2cpp_TypeInfo;
 // System.UIntPtr
 #include "mscorlib_System_UIntPtr.h"
 extern TypeInfo MulticastDelegate_t388_il2cpp_TypeInfo;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-extern TypeInfo Delegate_t666_il2cpp_TypeInfo;
+extern TypeInfo Delegate_t674_il2cpp_TypeInfo;
 // System.Delegate
 #include "mscorlib_System_Delegate.h"
 extern TypeInfo Enum_t100_il2cpp_TypeInfo;
 // System.Enum
 #include "mscorlib_System_Enum.h"
-extern TypeInfo InternalEnumerator_1_t4858_il2cpp_TypeInfo;
-extern TypeInfo SimpleEnumerator_t4283_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t4866_il2cpp_TypeInfo;
+extern TypeInfo SimpleEnumerator_t4291_il2cpp_TypeInfo;
 // System.Array/SimpleEnumerator
 #include "mscorlib_System_Array_SimpleEnumerator.h"
-extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t4860_il2cpp_TypeInfo;
-extern TypeInfo ArrayReadOnlyList_1_t4859_il2cpp_TypeInfo;
-extern TypeInfo Swapper_t4284_il2cpp_TypeInfo;
+extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t4868_il2cpp_TypeInfo;
+extern TypeInfo ArrayReadOnlyList_1_t4867_il2cpp_TypeInfo;
+extern TypeInfo Swapper_t4292_il2cpp_TypeInfo;
 // System.Array/Swapper
 #include "mscorlib_System_Array_Swapper.h"
 extern TypeInfo Array_t_il2cpp_TypeInfo;
 // System.Array
 #include "mscorlib_System_Array.h"
-extern TypeInfo ICollection_t696_il2cpp_TypeInfo;
-extern TypeInfo IList_t630_il2cpp_TypeInfo;
-extern TypeInfo IList_1_t4861_il2cpp_TypeInfo;
-extern TypeInfo ICollection_1_t4862_il2cpp_TypeInfo;
+extern TypeInfo ICollection_t704_il2cpp_TypeInfo;
+extern TypeInfo IList_t638_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4869_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4870_il2cpp_TypeInfo;
 extern TypeInfo Void_t85_il2cpp_TypeInfo;
 // System.Void
 #include "mscorlib_System_Void.h"
@@ -133,54 +133,54 @@ extern TypeInfo Type_t_il2cpp_TypeInfo;
 extern TypeInfo MemberInfo_t_il2cpp_TypeInfo;
 // System.Reflection.MemberInfo
 #include "mscorlib_System_Reflection_MemberInfo.h"
-extern TypeInfo ICustomAttributeProvider_t4828_il2cpp_TypeInfo;
-extern TypeInfo _MemberInfo_t4864_il2cpp_TypeInfo;
-extern TypeInfo IReflect_t4865_il2cpp_TypeInfo;
-extern TypeInfo _Type_t4863_il2cpp_TypeInfo;
+extern TypeInfo ICustomAttributeProvider_t4836_il2cpp_TypeInfo;
+extern TypeInfo _MemberInfo_t4872_il2cpp_TypeInfo;
+extern TypeInfo IReflect_t4873_il2cpp_TypeInfo;
+extern TypeInfo _Type_t4871_il2cpp_TypeInfo;
 extern TypeInfo Exception_t57_il2cpp_TypeInfo;
 // System.Exception
 #include "mscorlib_System_Exception.h"
-extern TypeInfo _Exception_t2322_il2cpp_TypeInfo;
-extern TypeInfo RuntimeFieldHandle_t4287_il2cpp_TypeInfo;
+extern TypeInfo _Exception_t2329_il2cpp_TypeInfo;
+extern TypeInfo RuntimeFieldHandle_t4295_il2cpp_TypeInfo;
 // System.RuntimeFieldHandle
 #include "mscorlib_System_RuntimeFieldHandle.h"
-extern TypeInfo RuntimeTypeHandle_t4286_il2cpp_TypeInfo;
+extern TypeInfo RuntimeTypeHandle_t4294_il2cpp_TypeInfo;
 // System.RuntimeTypeHandle
 #include "mscorlib_System_RuntimeTypeHandle.h"
-extern TypeInfo ParamArrayAttribute_t741_il2cpp_TypeInfo;
+extern TypeInfo ParamArrayAttribute_t748_il2cpp_TypeInfo;
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttribute.h"
-extern TypeInfo OutAttribute_t4288_il2cpp_TypeInfo;
+extern TypeInfo OutAttribute_t4296_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.OutAttribute
 #include "mscorlib_System_Runtime_InteropServices_OutAttribute.h"
-extern TypeInfo ObsoleteAttribute_t744_il2cpp_TypeInfo;
+extern TypeInfo ObsoleteAttribute_t751_il2cpp_TypeInfo;
 // System.ObsoleteAttribute
 #include "mscorlib_System_ObsoleteAttribute.h"
-extern TypeInfo DllImportAttribute_t4289_il2cpp_TypeInfo;
+extern TypeInfo DllImportAttribute_t4297_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.DllImportAttribute
 #include "mscorlib_System_Runtime_InteropServices_DllImportAttribute.h"
-extern TypeInfo MarshalAsAttribute_t4290_il2cpp_TypeInfo;
+extern TypeInfo MarshalAsAttribute_t4298_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.MarshalAsAttribute
 #include "mscorlib_System_Runtime_InteropServices_MarshalAsAttribute.h"
-extern TypeInfo InAttribute_t4291_il2cpp_TypeInfo;
+extern TypeInfo InAttribute_t4299_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.InAttribute
 #include "mscorlib_System_Runtime_InteropServices_InAttribute.h"
-extern TypeInfo ConditionalAttribute_t4292_il2cpp_TypeInfo;
+extern TypeInfo ConditionalAttribute_t4300_il2cpp_TypeInfo;
 // System.Diagnostics.ConditionalAttribute
 #include "mscorlib_System_Diagnostics_ConditionalAttribute.h"
-extern TypeInfo GuidAttribute_t1027_il2cpp_TypeInfo;
+extern TypeInfo GuidAttribute_t1034_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.GuidAttribute
 #include "mscorlib_System_Runtime_InteropServices_GuidAttribute.h"
-extern TypeInfo ComImportAttribute_t4293_il2cpp_TypeInfo;
+extern TypeInfo ComImportAttribute_t4301_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ComImportAttribute
 #include "mscorlib_System_Runtime_InteropServices_ComImportAttribute.h"
-extern TypeInfo OptionalAttribute_t4294_il2cpp_TypeInfo;
+extern TypeInfo OptionalAttribute_t4302_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.OptionalAttribute
 #include "mscorlib_System_Runtime_InteropServices_OptionalAttribute.h"
 extern TypeInfo CompilerGeneratedAttribute_t83_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.CompilerGeneratedAttribute
 #include "mscorlib_System_Runtime_CompilerServices_CompilerGeneratedAt.h"
-extern TypeInfo InternalsVisibleToAttribute_t2102_il2cpp_TypeInfo;
+extern TypeInfo InternalsVisibleToAttribute_t2109_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.InternalsVisibleToAttribute
 #include "mscorlib_System_Runtime_CompilerServices_InternalsVisibleToA.h"
 extern TypeInfo RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo;
@@ -192,445 +192,445 @@ extern TypeInfo DebuggerHiddenAttribute_t84_il2cpp_TypeInfo;
 extern TypeInfo DefaultMemberAttribute_t81_il2cpp_TypeInfo;
 // System.Reflection.DefaultMemberAttribute
 #include "mscorlib_System_Reflection_DefaultMemberAttribute.h"
-extern TypeInfo DecimalConstantAttribute_t4295_il2cpp_TypeInfo;
+extern TypeInfo DecimalConstantAttribute_t4303_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.DecimalConstantAttribute
 #include "mscorlib_System_Runtime_CompilerServices_DecimalConstantAttr.h"
-extern TypeInfo FieldOffsetAttribute_t4296_il2cpp_TypeInfo;
+extern TypeInfo FieldOffsetAttribute_t4304_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.FieldOffsetAttribute
 #include "mscorlib_System_Runtime_InteropServices_FieldOffsetAttribute.h"
-extern TypeInfo RuntimeArgumentHandle_t4297_il2cpp_TypeInfo;
+extern TypeInfo RuntimeArgumentHandle_t4305_il2cpp_TypeInfo;
 // System.RuntimeArgumentHandle
 #include "mscorlib_System_RuntimeArgumentHandle.h"
 extern TypeInfo AsyncCallback_t386_il2cpp_TypeInfo;
 // System.AsyncCallback
 #include "mscorlib_System_AsyncCallback.h"
 extern TypeInfo IAsyncResult_t385_il2cpp_TypeInfo;
-extern TypeInfo TypedReference_t4298_il2cpp_TypeInfo;
+extern TypeInfo TypedReference_t4306_il2cpp_TypeInfo;
 // System.TypedReference
 #include "mscorlib_System_TypedReference.h"
-extern TypeInfo ArgIterator_t4299_il2cpp_TypeInfo;
+extern TypeInfo ArgIterator_t4307_il2cpp_TypeInfo;
 // System.ArgIterator
 #include "mscorlib_System_ArgIterator.h"
-extern TypeInfo MarshalByRefObject_t4020_il2cpp_TypeInfo;
+extern TypeInfo MarshalByRefObject_t4028_il2cpp_TypeInfo;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
-extern TypeInfo Nullable_1_t1397_il2cpp_TypeInfo;
-extern TypeInfo RuntimeHelpers_t4301_il2cpp_TypeInfo;
+extern TypeInfo Nullable_1_t1404_il2cpp_TypeInfo;
+extern TypeInfo RuntimeHelpers_t4309_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.RuntimeHelpers
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeHelpers.h"
-extern TypeInfo Locale_t4302_il2cpp_TypeInfo;
+extern TypeInfo Locale_t4310_il2cpp_TypeInfo;
 // Locale
 #include "mscorlib_Locale.h"
-extern TypeInfo MonoTODOAttribute_t4303_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t4311_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "mscorlib_System_MonoTODOAttribute.h"
-extern TypeInfo MonoDocumentationNoteAttribute_t4304_il2cpp_TypeInfo;
+extern TypeInfo MonoDocumentationNoteAttribute_t4312_il2cpp_TypeInfo;
 // System.MonoDocumentationNoteAttribute
 #include "mscorlib_System_MonoDocumentationNoteAttribute.h"
-extern TypeInfo SafeHandleZeroOrMinusOneIsInvalid_t4305_il2cpp_TypeInfo;
+extern TypeInfo SafeHandleZeroOrMinusOneIsInvalid_t4313_il2cpp_TypeInfo;
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 #include "mscorlib_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOn.h"
-extern TypeInfo SafeWaitHandle_t4307_il2cpp_TypeInfo;
+extern TypeInfo SafeWaitHandle_t4315_il2cpp_TypeInfo;
 // Microsoft.Win32.SafeHandles.SafeWaitHandle
 #include "mscorlib_Microsoft_Win32_SafeHandles_SafeWaitHandle.h"
-extern TypeInfo TableRange_t4308_il2cpp_TypeInfo;
+extern TypeInfo TableRange_t4316_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer_TableRa.h"
-extern TypeInfo CodePointIndexer_t4310_il2cpp_TypeInfo;
+extern TypeInfo CodePointIndexer_t4318_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.CodePointIndexer
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer.h"
-extern TypeInfo TailoringInfo_t4311_il2cpp_TypeInfo;
+extern TypeInfo TailoringInfo_t4319_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.TailoringInfo
 #include "mscorlib_Mono_Globalization_Unicode_TailoringInfo.h"
-extern TypeInfo Contraction_t4312_il2cpp_TypeInfo;
+extern TypeInfo Contraction_t4320_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.Contraction
 #include "mscorlib_Mono_Globalization_Unicode_Contraction.h"
-extern TypeInfo ContractionComparer_t4313_il2cpp_TypeInfo;
+extern TypeInfo ContractionComparer_t4321_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.ContractionComparer
 #include "mscorlib_Mono_Globalization_Unicode_ContractionComparer.h"
-extern TypeInfo Level2Map_t4314_il2cpp_TypeInfo;
+extern TypeInfo Level2Map_t4322_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.Level2Map
 #include "mscorlib_Mono_Globalization_Unicode_Level2Map.h"
-extern TypeInfo Level2MapComparer_t4315_il2cpp_TypeInfo;
+extern TypeInfo Level2MapComparer_t4323_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.Level2MapComparer
 #include "mscorlib_Mono_Globalization_Unicode_Level2MapComparer.h"
-extern TypeInfo MSCompatUnicodeTable_t4317_il2cpp_TypeInfo;
+extern TypeInfo MSCompatUnicodeTable_t4325_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.MSCompatUnicodeTable
 #include "mscorlib_Mono_Globalization_Unicode_MSCompatUnicodeTable.h"
-extern TypeInfo MSCompatUnicodeTableUtil_t4318_il2cpp_TypeInfo;
+extern TypeInfo MSCompatUnicodeTableUtil_t4326_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.MSCompatUnicodeTableUtil
 #include "mscorlib_Mono_Globalization_Unicode_MSCompatUnicodeTableUtil.h"
-extern TypeInfo Context_t4319_il2cpp_TypeInfo;
+extern TypeInfo Context_t4327_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SimpleCollator/Context
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_Context.h"
-extern TypeInfo PreviousInfo_t4320_il2cpp_TypeInfo;
+extern TypeInfo PreviousInfo_t4328_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_PreviousI.h"
-extern TypeInfo Escape_t4321_il2cpp_TypeInfo;
+extern TypeInfo Escape_t4329_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SimpleCollator/Escape
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_Escape.h"
-extern TypeInfo ExtenderType_t4322_il2cpp_TypeInfo;
+extern TypeInfo ExtenderType_t4330_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_ExtenderT.h"
-extern TypeInfo SimpleCollator_t4323_il2cpp_TypeInfo;
+extern TypeInfo SimpleCollator_t4331_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SimpleCollator
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator.h"
-extern TypeInfo SortKey_t4327_il2cpp_TypeInfo;
+extern TypeInfo SortKey_t4335_il2cpp_TypeInfo;
 // System.Globalization.SortKey
 #include "mscorlib_System_Globalization_SortKey.h"
-extern TypeInfo SortKeyBuffer_t4328_il2cpp_TypeInfo;
+extern TypeInfo SortKeyBuffer_t4336_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.SortKeyBuffer
 #include "mscorlib_Mono_Globalization_Unicode_SortKeyBuffer.h"
-extern TypeInfo PrimeGeneratorBase_t4329_il2cpp_TypeInfo;
+extern TypeInfo PrimeGeneratorBase_t4337_il2cpp_TypeInfo;
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
 #include "mscorlib_Mono_Math_Prime_Generator_PrimeGeneratorBase.h"
-extern TypeInfo SequentialSearchPrimeGeneratorBase_t4330_il2cpp_TypeInfo;
+extern TypeInfo SequentialSearchPrimeGeneratorBase_t4338_il2cpp_TypeInfo;
 // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
 #include "mscorlib_Mono_Math_Prime_Generator_SequentialSearchPrimeGene.h"
-extern TypeInfo ConfidenceFactor_t4331_il2cpp_TypeInfo;
+extern TypeInfo ConfidenceFactor_t4339_il2cpp_TypeInfo;
 // Mono.Math.Prime.ConfidenceFactor
 #include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
-extern TypeInfo PrimalityTests_t4332_il2cpp_TypeInfo;
+extern TypeInfo PrimalityTests_t4340_il2cpp_TypeInfo;
 // Mono.Math.Prime.PrimalityTests
 #include "mscorlib_Mono_Math_Prime_PrimalityTests.h"
-extern TypeInfo Sign_t4333_il2cpp_TypeInfo;
+extern TypeInfo Sign_t4341_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/Sign
 #include "mscorlib_Mono_Math_BigInteger_Sign.h"
-extern TypeInfo ModulusRing_t4335_il2cpp_TypeInfo;
+extern TypeInfo ModulusRing_t4343_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/ModulusRing
 #include "mscorlib_Mono_Math_BigInteger_ModulusRing.h"
-extern TypeInfo Kernel_t4336_il2cpp_TypeInfo;
+extern TypeInfo Kernel_t4344_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/Kernel
 #include "mscorlib_Mono_Math_BigInteger_Kernel.h"
-extern TypeInfo BigInteger_t4334_il2cpp_TypeInfo;
+extern TypeInfo BigInteger_t4342_il2cpp_TypeInfo;
 // Mono.Math.BigInteger
 #include "mscorlib_Mono_Math_BigInteger.h"
-extern TypeInfo CryptoConvert_t4337_il2cpp_TypeInfo;
+extern TypeInfo CryptoConvert_t4345_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.CryptoConvert
 #include "mscorlib_Mono_Security_Cryptography_CryptoConvert.h"
-extern TypeInfo KeyBuilder_t4338_il2cpp_TypeInfo;
+extern TypeInfo KeyBuilder_t4346_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.KeyBuilder
 #include "mscorlib_Mono_Security_Cryptography_KeyBuilder.h"
-extern TypeInfo BlockProcessor_t4339_il2cpp_TypeInfo;
+extern TypeInfo BlockProcessor_t4347_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.BlockProcessor
 #include "mscorlib_Mono_Security_Cryptography_BlockProcessor.h"
-extern TypeInfo KeyGeneratedEventHandler_t4340_il2cpp_TypeInfo;
+extern TypeInfo KeyGeneratedEventHandler_t4348_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler
 #include "mscorlib_Mono_Security_Cryptography_DSAManaged_KeyGeneratedE.h"
-extern TypeInfo DSAManaged_t4341_il2cpp_TypeInfo;
+extern TypeInfo DSAManaged_t4349_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.DSAManaged
 #include "mscorlib_Mono_Security_Cryptography_DSAManaged.h"
-extern TypeInfo KeyPairPersistence_t4342_il2cpp_TypeInfo;
+extern TypeInfo KeyPairPersistence_t4350_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.KeyPairPersistence
 #include "mscorlib_Mono_Security_Cryptography_KeyPairPersistence.h"
-extern TypeInfo MACAlgorithm_t4343_il2cpp_TypeInfo;
+extern TypeInfo MACAlgorithm_t4351_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.MACAlgorithm
 #include "mscorlib_Mono_Security_Cryptography_MACAlgorithm.h"
-extern TypeInfo PKCS1_t4344_il2cpp_TypeInfo;
+extern TypeInfo PKCS1_t4352_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS1
 #include "mscorlib_Mono_Security_Cryptography_PKCS1.h"
-extern TypeInfo PrivateKeyInfo_t4345_il2cpp_TypeInfo;
+extern TypeInfo PrivateKeyInfo_t4353_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
 #include "mscorlib_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo.h"
-extern TypeInfo EncryptedPrivateKeyInfo_t4346_il2cpp_TypeInfo;
+extern TypeInfo EncryptedPrivateKeyInfo_t4354_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo
 #include "mscorlib_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKe.h"
-extern TypeInfo PKCS8_t4347_il2cpp_TypeInfo;
+extern TypeInfo PKCS8_t4355_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8
 #include "mscorlib_Mono_Security_Cryptography_PKCS8.h"
-extern TypeInfo KeyGeneratedEventHandler_t4348_il2cpp_TypeInfo;
+extern TypeInfo KeyGeneratedEventHandler_t4356_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
 #include "mscorlib_Mono_Security_Cryptography_RSAManaged_KeyGeneratedE.h"
-extern TypeInfo RSAManaged_t4349_il2cpp_TypeInfo;
+extern TypeInfo RSAManaged_t4357_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.RSAManaged
 #include "mscorlib_Mono_Security_Cryptography_RSAManaged.h"
-extern TypeInfo SymmetricTransform_t4350_il2cpp_TypeInfo;
+extern TypeInfo SymmetricTransform_t4358_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.SymmetricTransform
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
-extern TypeInfo SafeBag_t4352_il2cpp_TypeInfo;
+extern TypeInfo SafeBag_t4360_il2cpp_TypeInfo;
 // Mono.Security.X509.SafeBag
 #include "mscorlib_Mono_Security_X509_SafeBag.h"
-extern TypeInfo DeriveBytes_t4353_il2cpp_TypeInfo;
+extern TypeInfo DeriveBytes_t4361_il2cpp_TypeInfo;
 // Mono.Security.X509.PKCS12/DeriveBytes
 #include "mscorlib_Mono_Security_X509_PKCS12_DeriveBytes.h"
-extern TypeInfo PKCS12_t4355_il2cpp_TypeInfo;
+extern TypeInfo PKCS12_t4363_il2cpp_TypeInfo;
 // Mono.Security.X509.PKCS12
 #include "mscorlib_Mono_Security_X509_PKCS12.h"
-extern TypeInfo X501_t4356_il2cpp_TypeInfo;
+extern TypeInfo X501_t4364_il2cpp_TypeInfo;
 // Mono.Security.X509.X501
 #include "mscorlib_Mono_Security_X509_X501.h"
-extern TypeInfo X509Certificate_t4358_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate_t4366_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Certificate
 #include "mscorlib_Mono_Security_X509_X509Certificate.h"
-extern TypeInfo X509CertificateEnumerator_t4359_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateEnumerator_t4367_il2cpp_TypeInfo;
 // Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator
 #include "mscorlib_Mono_Security_X509_X509CertificateCollection_X509Ce.h"
-extern TypeInfo X509CertificateCollection_t4354_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateCollection_t4362_il2cpp_TypeInfo;
 // Mono.Security.X509.X509CertificateCollection
 #include "mscorlib_Mono_Security_X509_X509CertificateCollection.h"
-extern TypeInfo X509Extension_t4360_il2cpp_TypeInfo;
+extern TypeInfo X509Extension_t4368_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Extension
 #include "mscorlib_Mono_Security_X509_X509Extension.h"
-extern TypeInfo X509ExtensionCollection_t4357_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionCollection_t4365_il2cpp_TypeInfo;
 // Mono.Security.X509.X509ExtensionCollection
 #include "mscorlib_Mono_Security_X509_X509ExtensionCollection.h"
-extern TypeInfo ASN1_t4351_il2cpp_TypeInfo;
+extern TypeInfo ASN1_t4359_il2cpp_TypeInfo;
 // Mono.Security.ASN1
 #include "mscorlib_Mono_Security_ASN1.h"
-extern TypeInfo ASN1Convert_t4361_il2cpp_TypeInfo;
+extern TypeInfo ASN1Convert_t4369_il2cpp_TypeInfo;
 // Mono.Security.ASN1Convert
 #include "mscorlib_Mono_Security_ASN1Convert.h"
-extern TypeInfo BitConverterLE_t4362_il2cpp_TypeInfo;
+extern TypeInfo BitConverterLE_t4370_il2cpp_TypeInfo;
 // Mono.Security.BitConverterLE
 #include "mscorlib_Mono_Security_BitConverterLE.h"
-extern TypeInfo ContentInfo_t4363_il2cpp_TypeInfo;
+extern TypeInfo ContentInfo_t4371_il2cpp_TypeInfo;
 // Mono.Security.PKCS7/ContentInfo
 #include "mscorlib_Mono_Security_PKCS7_ContentInfo.h"
-extern TypeInfo EncryptedData_t4364_il2cpp_TypeInfo;
+extern TypeInfo EncryptedData_t4372_il2cpp_TypeInfo;
 // Mono.Security.PKCS7/EncryptedData
 #include "mscorlib_Mono_Security_PKCS7_EncryptedData.h"
-extern TypeInfo PKCS7_t4365_il2cpp_TypeInfo;
+extern TypeInfo PKCS7_t4373_il2cpp_TypeInfo;
 // Mono.Security.PKCS7
 #include "mscorlib_Mono_Security_PKCS7.h"
-extern TypeInfo StrongName_t4366_il2cpp_TypeInfo;
+extern TypeInfo StrongName_t4374_il2cpp_TypeInfo;
 // Mono.Security.StrongName
 #include "mscorlib_Mono_Security_StrongName.h"
-extern TypeInfo SecurityParser_t4368_il2cpp_TypeInfo;
+extern TypeInfo SecurityParser_t4376_il2cpp_TypeInfo;
 // Mono.Xml.SecurityParser
 #include "mscorlib_Mono_Xml_SecurityParser.h"
-extern TypeInfo IContentHandler_t4371_il2cpp_TypeInfo;
-extern TypeInfo IAttrList_t4819_il2cpp_TypeInfo;
-extern TypeInfo AttrListImpl_t4370_il2cpp_TypeInfo;
+extern TypeInfo IContentHandler_t4379_il2cpp_TypeInfo;
+extern TypeInfo IAttrList_t4827_il2cpp_TypeInfo;
+extern TypeInfo AttrListImpl_t4378_il2cpp_TypeInfo;
 // Mono.Xml.SmallXmlParser/AttrListImpl
 #include "mscorlib_Mono_Xml_SmallXmlParser_AttrListImpl.h"
-extern TypeInfo SmallXmlParser_t4369_il2cpp_TypeInfo;
+extern TypeInfo SmallXmlParser_t4377_il2cpp_TypeInfo;
 // Mono.Xml.SmallXmlParser
 #include "mscorlib_Mono_Xml_SmallXmlParser.h"
-extern TypeInfo SmallXmlParserException_t4372_il2cpp_TypeInfo;
+extern TypeInfo SmallXmlParserException_t4380_il2cpp_TypeInfo;
 // Mono.Xml.SmallXmlParserException
 #include "mscorlib_Mono_Xml_SmallXmlParserException.h"
-extern TypeInfo Runtime_t4373_il2cpp_TypeInfo;
+extern TypeInfo Runtime_t4381_il2cpp_TypeInfo;
 // Mono.Runtime
 #include "mscorlib_Mono_Runtime.h"
-extern TypeInfo CollectionDebuggerView_1_t4866_il2cpp_TypeInfo;
-extern TypeInfo CollectionDebuggerView_2_t4867_il2cpp_TypeInfo;
-extern TypeInfo DefaultComparer_t4869_il2cpp_TypeInfo;
-extern TypeInfo Comparer_1_t4868_il2cpp_TypeInfo;
-extern TypeInfo GenericComparer_1_t4870_il2cpp_TypeInfo;
-extern TypeInfo Link_t4374_il2cpp_TypeInfo;
+extern TypeInfo CollectionDebuggerView_1_t4874_il2cpp_TypeInfo;
+extern TypeInfo CollectionDebuggerView_2_t4875_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t4877_il2cpp_TypeInfo;
+extern TypeInfo Comparer_1_t4876_il2cpp_TypeInfo;
+extern TypeInfo GenericComparer_1_t4878_il2cpp_TypeInfo;
+extern TypeInfo Link_t4382_il2cpp_TypeInfo;
 // System.Collections.Generic.Link
 #include "mscorlib_System_Collections_Generic_Link.h"
-extern TypeInfo ShimEnumerator_t4872_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4873_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4875_il2cpp_TypeInfo;
-extern TypeInfo KeyCollection_t4874_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4877_il2cpp_TypeInfo;
-extern TypeInfo ValueCollection_t4876_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t4878_il2cpp_TypeInfo;
-extern TypeInfo Dictionary_2_t4871_il2cpp_TypeInfo;
-extern TypeInfo DefaultComparer_t4880_il2cpp_TypeInfo;
-extern TypeInfo EqualityComparer_1_t4879_il2cpp_TypeInfo;
-extern TypeInfo GenericEqualityComparer_1_t4881_il2cpp_TypeInfo;
-extern TypeInfo IComparer_1_t4882_il2cpp_TypeInfo;
-extern TypeInfo IDictionary_2_t4883_il2cpp_TypeInfo;
-extern TypeInfo IEqualityComparer_1_t4884_il2cpp_TypeInfo;
-extern TypeInfo KeyNotFoundException_t4375_il2cpp_TypeInfo;
+extern TypeInfo ShimEnumerator_t4880_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4881_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4883_il2cpp_TypeInfo;
+extern TypeInfo KeyCollection_t4882_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4885_il2cpp_TypeInfo;
+extern TypeInfo ValueCollection_t4884_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t4886_il2cpp_TypeInfo;
+extern TypeInfo Dictionary_2_t4879_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t4888_il2cpp_TypeInfo;
+extern TypeInfo EqualityComparer_1_t4887_il2cpp_TypeInfo;
+extern TypeInfo GenericEqualityComparer_1_t4889_il2cpp_TypeInfo;
+extern TypeInfo IComparer_1_t4890_il2cpp_TypeInfo;
+extern TypeInfo IDictionary_2_t4891_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t4892_il2cpp_TypeInfo;
+extern TypeInfo KeyNotFoundException_t4383_il2cpp_TypeInfo;
 // System.Collections.Generic.KeyNotFoundException
 #include "mscorlib_System_Collections_Generic_KeyNotFoundException.h"
-extern TypeInfo KeyValuePair_2_t4885_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4887_il2cpp_TypeInfo;
-extern TypeInfo List_1_t4886_il2cpp_TypeInfo;
-extern TypeInfo Collection_1_t4888_il2cpp_TypeInfo;
-extern TypeInfo ReadOnlyCollection_1_t4889_il2cpp_TypeInfo;
-extern TypeInfo SimpleEnumerator_t4376_il2cpp_TypeInfo;
+extern TypeInfo KeyValuePair_2_t4893_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4895_il2cpp_TypeInfo;
+extern TypeInfo List_1_t4894_il2cpp_TypeInfo;
+extern TypeInfo Collection_1_t4896_il2cpp_TypeInfo;
+extern TypeInfo ReadOnlyCollection_1_t4897_il2cpp_TypeInfo;
+extern TypeInfo SimpleEnumerator_t4384_il2cpp_TypeInfo;
 // System.Collections.ArrayList/SimpleEnumerator
 #include "mscorlib_System_Collections_ArrayList_SimpleEnumerator.h"
-extern TypeInfo ArrayListWrapper_t4377_il2cpp_TypeInfo;
+extern TypeInfo ArrayListWrapper_t4385_il2cpp_TypeInfo;
 // System.Collections.ArrayList/ArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_ArrayListWrapper.h"
-extern TypeInfo SynchronizedArrayListWrapper_t4378_il2cpp_TypeInfo;
+extern TypeInfo SynchronizedArrayListWrapper_t4386_il2cpp_TypeInfo;
 // System.Collections.ArrayList/SynchronizedArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_SynchronizedArrayListW.h"
-extern TypeInfo FixedSizeArrayListWrapper_t4379_il2cpp_TypeInfo;
+extern TypeInfo FixedSizeArrayListWrapper_t4387_il2cpp_TypeInfo;
 // System.Collections.ArrayList/FixedSizeArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_FixedSizeArrayListWrap.h"
-extern TypeInfo ReadOnlyArrayListWrapper_t4380_il2cpp_TypeInfo;
+extern TypeInfo ReadOnlyArrayListWrapper_t4388_il2cpp_TypeInfo;
 // System.Collections.ArrayList/ReadOnlyArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_ReadOnlyArrayListWrapp.h"
-extern TypeInfo ArrayList_t3101_il2cpp_TypeInfo;
+extern TypeInfo ArrayList_t3109_il2cpp_TypeInfo;
 // System.Collections.ArrayList
 #include "mscorlib_System_Collections_ArrayList.h"
-extern TypeInfo BitArrayEnumerator_t4381_il2cpp_TypeInfo;
+extern TypeInfo BitArrayEnumerator_t4389_il2cpp_TypeInfo;
 // System.Collections.BitArray/BitArrayEnumerator
 #include "mscorlib_System_Collections_BitArray_BitArrayEnumerator.h"
-extern TypeInfo BitArray_t4114_il2cpp_TypeInfo;
+extern TypeInfo BitArray_t4122_il2cpp_TypeInfo;
 // System.Collections.BitArray
 #include "mscorlib_System_Collections_BitArray.h"
-extern TypeInfo CaseInsensitiveComparer_t4134_il2cpp_TypeInfo;
+extern TypeInfo CaseInsensitiveComparer_t4142_il2cpp_TypeInfo;
 // System.Collections.CaseInsensitiveComparer
 #include "mscorlib_System_Collections_CaseInsensitiveComparer.h"
-extern TypeInfo CaseInsensitiveHashCodeProvider_t4135_il2cpp_TypeInfo;
+extern TypeInfo CaseInsensitiveHashCodeProvider_t4143_il2cpp_TypeInfo;
 // System.Collections.CaseInsensitiveHashCodeProvider
 #include "mscorlib_System_Collections_CaseInsensitiveHashCodeProvider.h"
-extern TypeInfo CollectionBase_t3757_il2cpp_TypeInfo;
+extern TypeInfo CollectionBase_t3765_il2cpp_TypeInfo;
 // System.Collections.CollectionBase
 #include "mscorlib_System_Collections_CollectionBase.h"
-extern TypeInfo CollectionDebuggerView_t4382_il2cpp_TypeInfo;
+extern TypeInfo CollectionDebuggerView_t4390_il2cpp_TypeInfo;
 // System.Collections.CollectionDebuggerView
 #include "mscorlib_System_Collections_CollectionDebuggerView.h"
-extern TypeInfo Comparer_t4383_il2cpp_TypeInfo;
+extern TypeInfo Comparer_t4391_il2cpp_TypeInfo;
 // System.Collections.Comparer
 #include "mscorlib_System_Collections_Comparer.h"
-extern TypeInfo DictionaryEntry_t2079_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEntry_t2086_il2cpp_TypeInfo;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-extern TypeInfo Slot_t4384_il2cpp_TypeInfo;
+extern TypeInfo Slot_t4392_il2cpp_TypeInfo;
 // System.Collections.Hashtable/Slot
 #include "mscorlib_System_Collections_Hashtable_Slot.h"
-extern TypeInfo KeyMarker_t4385_il2cpp_TypeInfo;
+extern TypeInfo KeyMarker_t4393_il2cpp_TypeInfo;
 // System.Collections.Hashtable/KeyMarker
 #include "mscorlib_System_Collections_Hashtable_KeyMarker.h"
-extern TypeInfo EnumeratorMode_t4386_il2cpp_TypeInfo;
+extern TypeInfo EnumeratorMode_t4394_il2cpp_TypeInfo;
 // System.Collections.Hashtable/EnumeratorMode
 #include "mscorlib_System_Collections_Hashtable_EnumeratorMode.h"
-extern TypeInfo Enumerator_t4387_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4395_il2cpp_TypeInfo;
 // System.Collections.Hashtable/Enumerator
 #include "mscorlib_System_Collections_Hashtable_Enumerator.h"
-extern TypeInfo HashKeys_t4388_il2cpp_TypeInfo;
+extern TypeInfo HashKeys_t4396_il2cpp_TypeInfo;
 // System.Collections.Hashtable/HashKeys
 #include "mscorlib_System_Collections_Hashtable_HashKeys.h"
-extern TypeInfo HashValues_t4389_il2cpp_TypeInfo;
+extern TypeInfo HashValues_t4397_il2cpp_TypeInfo;
 // System.Collections.Hashtable/HashValues
 #include "mscorlib_System_Collections_Hashtable_HashValues.h"
-extern TypeInfo SyncHashtable_t4390_il2cpp_TypeInfo;
+extern TypeInfo SyncHashtable_t4398_il2cpp_TypeInfo;
 // System.Collections.Hashtable/SyncHashtable
 #include "mscorlib_System_Collections_Hashtable_SyncHashtable.h"
-extern TypeInfo Hashtable_t1267_il2cpp_TypeInfo;
+extern TypeInfo Hashtable_t1274_il2cpp_TypeInfo;
 // System.Collections.Hashtable
 #include "mscorlib_System_Collections_Hashtable.h"
-extern TypeInfo IComparer_t3904_il2cpp_TypeInfo;
-extern TypeInfo IDictionary_t629_il2cpp_TypeInfo;
-extern TypeInfo IDictionaryEnumerator_t3901_il2cpp_TypeInfo;
-extern TypeInfo IEqualityComparer_t3910_il2cpp_TypeInfo;
-extern TypeInfo IHashCodeProvider_t3909_il2cpp_TypeInfo;
-extern TypeInfo QueueEnumerator_t4392_il2cpp_TypeInfo;
+extern TypeInfo IComparer_t3912_il2cpp_TypeInfo;
+extern TypeInfo IDictionary_t637_il2cpp_TypeInfo;
+extern TypeInfo IDictionaryEnumerator_t3909_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_t3918_il2cpp_TypeInfo;
+extern TypeInfo IHashCodeProvider_t3917_il2cpp_TypeInfo;
+extern TypeInfo QueueEnumerator_t4400_il2cpp_TypeInfo;
 // System.Collections.Queue/QueueEnumerator
 #include "mscorlib_System_Collections_Queue_QueueEnumerator.h"
-extern TypeInfo Queue_t3944_il2cpp_TypeInfo;
+extern TypeInfo Queue_t3952_il2cpp_TypeInfo;
 // System.Collections.Queue
 #include "mscorlib_System_Collections_Queue.h"
-extern TypeInfo Slot_t4393_il2cpp_TypeInfo;
+extern TypeInfo Slot_t4401_il2cpp_TypeInfo;
 // System.Collections.SortedList/Slot
 #include "mscorlib_System_Collections_SortedList_Slot.h"
-extern TypeInfo EnumeratorMode_t4394_il2cpp_TypeInfo;
+extern TypeInfo EnumeratorMode_t4402_il2cpp_TypeInfo;
 // System.Collections.SortedList/EnumeratorMode
 #include "mscorlib_System_Collections_SortedList_EnumeratorMode.h"
-extern TypeInfo Enumerator_t4395_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4403_il2cpp_TypeInfo;
 // System.Collections.SortedList/Enumerator
 #include "mscorlib_System_Collections_SortedList_Enumerator.h"
-extern TypeInfo ListKeys_t4396_il2cpp_TypeInfo;
+extern TypeInfo ListKeys_t4404_il2cpp_TypeInfo;
 // System.Collections.SortedList/ListKeys
 #include "mscorlib_System_Collections_SortedList_ListKeys.h"
-extern TypeInfo SortedList_t4146_il2cpp_TypeInfo;
+extern TypeInfo SortedList_t4154_il2cpp_TypeInfo;
 // System.Collections.SortedList
 #include "mscorlib_System_Collections_SortedList.h"
-extern TypeInfo Enumerator_t4398_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4406_il2cpp_TypeInfo;
 // System.Collections.Stack/Enumerator
 #include "mscorlib_System_Collections_Stack_Enumerator.h"
-extern TypeInfo Stack_t2838_il2cpp_TypeInfo;
+extern TypeInfo Stack_t2845_il2cpp_TypeInfo;
 // System.Collections.Stack
 #include "mscorlib_System_Collections_Stack.h"
-extern TypeInfo AssemblyHashAlgorithm_t4399_il2cpp_TypeInfo;
+extern TypeInfo AssemblyHashAlgorithm_t4407_il2cpp_TypeInfo;
 // System.Configuration.Assemblies.AssemblyHashAlgorithm
 #include "mscorlib_System_Configuration_Assemblies_AssemblyHashAlgorit.h"
-extern TypeInfo AssemblyVersionCompatibility_t4400_il2cpp_TypeInfo;
+extern TypeInfo AssemblyVersionCompatibility_t4408_il2cpp_TypeInfo;
 // System.Configuration.Assemblies.AssemblyVersionCompatibility
 #include "mscorlib_System_Configuration_Assemblies_AssemblyVersionComp.h"
-extern TypeInfo SuppressMessageAttribute_t2911_il2cpp_TypeInfo;
+extern TypeInfo SuppressMessageAttribute_t2918_il2cpp_TypeInfo;
 // System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
 #include "mscorlib_System_Diagnostics_CodeAnalysis_SuppressMessageAttr.h"
-extern TypeInfo DebuggingModes_t4401_il2cpp_TypeInfo;
+extern TypeInfo DebuggingModes_t4409_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggableAttribute/DebuggingModes
 #include "mscorlib_System_Diagnostics_DebuggableAttribute_DebuggingMod.h"
-extern TypeInfo DebuggableAttribute_t2103_il2cpp_TypeInfo;
+extern TypeInfo DebuggableAttribute_t2110_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggableAttribute
 #include "mscorlib_System_Diagnostics_DebuggableAttribute.h"
-extern TypeInfo DebuggerBrowsableAttribute_t2155_il2cpp_TypeInfo;
+extern TypeInfo DebuggerBrowsableAttribute_t2162_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggerBrowsableAttribute
 #include "mscorlib_System_Diagnostics_DebuggerBrowsableAttribute.h"
-extern TypeInfo DebuggerBrowsableState_t4402_il2cpp_TypeInfo;
+extern TypeInfo DebuggerBrowsableState_t4410_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggerBrowsableState
 #include "mscorlib_System_Diagnostics_DebuggerBrowsableState.h"
-extern TypeInfo DebuggerDisplayAttribute_t4403_il2cpp_TypeInfo;
+extern TypeInfo DebuggerDisplayAttribute_t4411_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggerDisplayAttribute
 #include "mscorlib_System_Diagnostics_DebuggerDisplayAttribute.h"
-extern TypeInfo DebuggerStepThroughAttribute_t4404_il2cpp_TypeInfo;
+extern TypeInfo DebuggerStepThroughAttribute_t4412_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggerStepThroughAttribute
 #include "mscorlib_System_Diagnostics_DebuggerStepThroughAttribute.h"
-extern TypeInfo DebuggerTypeProxyAttribute_t4405_il2cpp_TypeInfo;
+extern TypeInfo DebuggerTypeProxyAttribute_t4413_il2cpp_TypeInfo;
 // System.Diagnostics.DebuggerTypeProxyAttribute
 #include "mscorlib_System_Diagnostics_DebuggerTypeProxyAttribute.h"
-extern TypeInfo StackFrame_t2896_il2cpp_TypeInfo;
+extern TypeInfo StackFrame_t2903_il2cpp_TypeInfo;
 // System.Diagnostics.StackFrame
 #include "mscorlib_System_Diagnostics_StackFrame.h"
-extern TypeInfo StackTrace_t2859_il2cpp_TypeInfo;
+extern TypeInfo StackTrace_t2866_il2cpp_TypeInfo;
 // System.Diagnostics.StackTrace
 #include "mscorlib_System_Diagnostics_StackTrace.h"
-extern TypeInfo Calendar_t4407_il2cpp_TypeInfo;
+extern TypeInfo Calendar_t4415_il2cpp_TypeInfo;
 // System.Globalization.Calendar
 #include "mscorlib_System_Globalization_Calendar.h"
-extern TypeInfo CCMath_t4408_il2cpp_TypeInfo;
+extern TypeInfo CCMath_t4416_il2cpp_TypeInfo;
 // System.Globalization.CCMath
 #include "mscorlib_System_Globalization_CCMath.h"
-extern TypeInfo CCFixed_t4409_il2cpp_TypeInfo;
+extern TypeInfo CCFixed_t4417_il2cpp_TypeInfo;
 // System.Globalization.CCFixed
 #include "mscorlib_System_Globalization_CCFixed.h"
-extern TypeInfo CCGregorianCalendar_t4410_il2cpp_TypeInfo;
+extern TypeInfo CCGregorianCalendar_t4418_il2cpp_TypeInfo;
 // System.Globalization.CCGregorianCalendar
 #include "mscorlib_System_Globalization_CCGregorianCalendar.h"
-extern TypeInfo CompareInfo_t3216_il2cpp_TypeInfo;
+extern TypeInfo CompareInfo_t3224_il2cpp_TypeInfo;
 // System.Globalization.CompareInfo
 #include "mscorlib_System_Globalization_CompareInfo.h"
-extern TypeInfo CompareOptions_t4411_il2cpp_TypeInfo;
+extern TypeInfo CompareOptions_t4419_il2cpp_TypeInfo;
 // System.Globalization.CompareOptions
 #include "mscorlib_System_Globalization_CompareOptions.h"
-extern TypeInfo CultureInfo_t710_il2cpp_TypeInfo;
+extern TypeInfo CultureInfo_t718_il2cpp_TypeInfo;
 // System.Globalization.CultureInfo
 #include "mscorlib_System_Globalization_CultureInfo.h"
-extern TypeInfo DateTimeFormatFlags_t4414_il2cpp_TypeInfo;
+extern TypeInfo DateTimeFormatFlags_t4422_il2cpp_TypeInfo;
 // System.Globalization.DateTimeFormatFlags
 #include "mscorlib_System_Globalization_DateTimeFormatFlags.h"
-extern TypeInfo DateTimeFormatInfo_t4412_il2cpp_TypeInfo;
+extern TypeInfo DateTimeFormatInfo_t4420_il2cpp_TypeInfo;
 // System.Globalization.DateTimeFormatInfo
 #include "mscorlib_System_Globalization_DateTimeFormatInfo.h"
-extern TypeInfo DateTimeStyles_t4415_il2cpp_TypeInfo;
+extern TypeInfo DateTimeStyles_t4423_il2cpp_TypeInfo;
 // System.Globalization.DateTimeStyles
 #include "mscorlib_System_Globalization_DateTimeStyles.h"
-extern TypeInfo DaylightTime_t4416_il2cpp_TypeInfo;
+extern TypeInfo DaylightTime_t4424_il2cpp_TypeInfo;
 // System.Globalization.DaylightTime
 #include "mscorlib_System_Globalization_DaylightTime.h"
-extern TypeInfo GregorianCalendar_t4417_il2cpp_TypeInfo;
+extern TypeInfo GregorianCalendar_t4425_il2cpp_TypeInfo;
 // System.Globalization.GregorianCalendar
 #include "mscorlib_System_Globalization_GregorianCalendar.h"
-extern TypeInfo GregorianCalendarTypes_t4418_il2cpp_TypeInfo;
+extern TypeInfo GregorianCalendarTypes_t4426_il2cpp_TypeInfo;
 // System.Globalization.GregorianCalendarTypes
 #include "mscorlib_System_Globalization_GregorianCalendarTypes.h"
 extern TypeInfo NumberFormatInfo_t452_il2cpp_TypeInfo;
 // System.Globalization.NumberFormatInfo
 #include "mscorlib_System_Globalization_NumberFormatInfo.h"
-extern TypeInfo NumberStyles_t4419_il2cpp_TypeInfo;
+extern TypeInfo NumberStyles_t4427_il2cpp_TypeInfo;
 // System.Globalization.NumberStyles
 #include "mscorlib_System_Globalization_NumberStyles.h"
-extern TypeInfo Data_t4420_il2cpp_TypeInfo;
+extern TypeInfo Data_t4428_il2cpp_TypeInfo;
 // System.Globalization.TextInfo/Data
 #include "mscorlib_System_Globalization_TextInfo_Data.h"
-extern TypeInfo TextInfo_t4324_il2cpp_TypeInfo;
+extern TypeInfo TextInfo_t4332_il2cpp_TypeInfo;
 // System.Globalization.TextInfo
 #include "mscorlib_System_Globalization_TextInfo.h"
-extern TypeInfo UnicodeCategory_t4276_il2cpp_TypeInfo;
+extern TypeInfo UnicodeCategory_t4284_il2cpp_TypeInfo;
 // System.Globalization.UnicodeCategory
 #include "mscorlib_System_Globalization_UnicodeCategory.h"
-extern TypeInfo IsolatedStorageException_t4421_il2cpp_TypeInfo;
+extern TypeInfo IsolatedStorageException_t4429_il2cpp_TypeInfo;
 // System.IO.IsolatedStorage.IsolatedStorageException
 #include "mscorlib_System_IO_IsolatedStorage_IsolatedStorageException.h"
 extern TypeInfo BinaryReader_t52_il2cpp_TypeInfo;
@@ -639,277 +639,277 @@ extern TypeInfo BinaryReader_t52_il2cpp_TypeInfo;
 extern TypeInfo BinaryWriter_t50_il2cpp_TypeInfo;
 // System.IO.BinaryWriter
 #include "mscorlib_System_IO_BinaryWriter.h"
-extern TypeInfo Directory_t4422_il2cpp_TypeInfo;
+extern TypeInfo Directory_t4430_il2cpp_TypeInfo;
 // System.IO.Directory
 #include "mscorlib_System_IO_Directory.h"
 extern TypeInfo DirectoryInfo_t64_il2cpp_TypeInfo;
 // System.IO.DirectoryInfo
 #include "mscorlib_System_IO_DirectoryInfo.h"
-extern TypeInfo DirectoryNotFoundException_t4424_il2cpp_TypeInfo;
+extern TypeInfo DirectoryNotFoundException_t4432_il2cpp_TypeInfo;
 // System.IO.DirectoryNotFoundException
 #include "mscorlib_System_IO_DirectoryNotFoundException.h"
-extern TypeInfo EndOfStreamException_t4425_il2cpp_TypeInfo;
+extern TypeInfo EndOfStreamException_t4433_il2cpp_TypeInfo;
 // System.IO.EndOfStreamException
 #include "mscorlib_System_IO_EndOfStreamException.h"
-extern TypeInfo File_t4426_il2cpp_TypeInfo;
+extern TypeInfo File_t4434_il2cpp_TypeInfo;
 // System.IO.File
 #include "mscorlib_System_IO_File.h"
-extern TypeInfo FileAccess_t4143_il2cpp_TypeInfo;
+extern TypeInfo FileAccess_t4151_il2cpp_TypeInfo;
 // System.IO.FileAccess
 #include "mscorlib_System_IO_FileAccess.h"
-extern TypeInfo FileAttributes_t4427_il2cpp_TypeInfo;
+extern TypeInfo FileAttributes_t4435_il2cpp_TypeInfo;
 // System.IO.FileAttributes
 #include "mscorlib_System_IO_FileAttributes.h"
 extern TypeInfo FileInfo_t63_il2cpp_TypeInfo;
 // System.IO.FileInfo
 #include "mscorlib_System_IO_FileInfo.h"
-extern TypeInfo FileLoadException_t4428_il2cpp_TypeInfo;
+extern TypeInfo FileLoadException_t4436_il2cpp_TypeInfo;
 // System.IO.FileLoadException
 #include "mscorlib_System_IO_FileLoadException.h"
-extern TypeInfo FileMode_t4268_il2cpp_TypeInfo;
+extern TypeInfo FileMode_t4276_il2cpp_TypeInfo;
 // System.IO.FileMode
 #include "mscorlib_System_IO_FileMode.h"
-extern TypeInfo FileNotFoundException_t4429_il2cpp_TypeInfo;
+extern TypeInfo FileNotFoundException_t4437_il2cpp_TypeInfo;
 // System.IO.FileNotFoundException
 #include "mscorlib_System_IO_FileNotFoundException.h"
-extern TypeInfo FileOptions_t4430_il2cpp_TypeInfo;
+extern TypeInfo FileOptions_t4438_il2cpp_TypeInfo;
 // System.IO.FileOptions
 #include "mscorlib_System_IO_FileOptions.h"
-extern TypeInfo FileShare_t4269_il2cpp_TypeInfo;
+extern TypeInfo FileShare_t4277_il2cpp_TypeInfo;
 // System.IO.FileShare
 #include "mscorlib_System_IO_FileShare.h"
-extern TypeInfo ReadDelegate_t4431_il2cpp_TypeInfo;
+extern TypeInfo ReadDelegate_t4439_il2cpp_TypeInfo;
 // System.IO.FileStream/ReadDelegate
 #include "mscorlib_System_IO_FileStream_ReadDelegate.h"
-extern TypeInfo WriteDelegate_t4432_il2cpp_TypeInfo;
+extern TypeInfo WriteDelegate_t4440_il2cpp_TypeInfo;
 // System.IO.FileStream/WriteDelegate
 #include "mscorlib_System_IO_FileStream_WriteDelegate.h"
 extern TypeInfo FileStream_t62_il2cpp_TypeInfo;
 // System.IO.FileStream
 #include "mscorlib_System_IO_FileStream.h"
-extern TypeInfo FileStreamAsyncResult_t4433_il2cpp_TypeInfo;
+extern TypeInfo FileStreamAsyncResult_t4441_il2cpp_TypeInfo;
 // System.IO.FileStreamAsyncResult
 #include "mscorlib_System_IO_FileStreamAsyncResult.h"
-extern TypeInfo FileSystemInfo_t4423_il2cpp_TypeInfo;
+extern TypeInfo FileSystemInfo_t4431_il2cpp_TypeInfo;
 // System.IO.FileSystemInfo
 #include "mscorlib_System_IO_FileSystemInfo.h"
-extern TypeInfo IOException_t3882_il2cpp_TypeInfo;
+extern TypeInfo IOException_t3890_il2cpp_TypeInfo;
 // System.IO.IOException
 #include "mscorlib_System_IO_IOException.h"
 extern TypeInfo MemoryStream_t65_il2cpp_TypeInfo;
 // System.IO.MemoryStream
 #include "mscorlib_System_IO_MemoryStream.h"
-extern TypeInfo MonoFileType_t4435_il2cpp_TypeInfo;
+extern TypeInfo MonoFileType_t4443_il2cpp_TypeInfo;
 // System.IO.MonoFileType
 #include "mscorlib_System_IO_MonoFileType.h"
-extern TypeInfo MonoIO_t4436_il2cpp_TypeInfo;
+extern TypeInfo MonoIO_t4444_il2cpp_TypeInfo;
 // System.IO.MonoIO
 #include "mscorlib_System_IO_MonoIO.h"
-extern TypeInfo MonoIOError_t4437_il2cpp_TypeInfo;
+extern TypeInfo MonoIOError_t4445_il2cpp_TypeInfo;
 // System.IO.MonoIOError
 #include "mscorlib_System_IO_MonoIOError.h"
-extern TypeInfo MonoIOStat_t4434_il2cpp_TypeInfo;
+extern TypeInfo MonoIOStat_t4442_il2cpp_TypeInfo;
 // System.IO.MonoIOStat
 #include "mscorlib_System_IO_MonoIOStat.h"
-extern TypeInfo Path_t2083_il2cpp_TypeInfo;
+extern TypeInfo Path_t2090_il2cpp_TypeInfo;
 // System.IO.Path
 #include "mscorlib_System_IO_Path.h"
-extern TypeInfo PathTooLongException_t4438_il2cpp_TypeInfo;
+extern TypeInfo PathTooLongException_t4446_il2cpp_TypeInfo;
 // System.IO.PathTooLongException
 #include "mscorlib_System_IO_PathTooLongException.h"
-extern TypeInfo SearchPattern_t4439_il2cpp_TypeInfo;
+extern TypeInfo SearchPattern_t4447_il2cpp_TypeInfo;
 // System.IO.SearchPattern
 #include "mscorlib_System_IO_SearchPattern.h"
-extern TypeInfo SeekOrigin_t3257_il2cpp_TypeInfo;
+extern TypeInfo SeekOrigin_t3265_il2cpp_TypeInfo;
 // System.IO.SeekOrigin
 #include "mscorlib_System_IO_SeekOrigin.h"
 extern TypeInfo Stream_t51_il2cpp_TypeInfo;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
-extern TypeInfo NullStream_t4440_il2cpp_TypeInfo;
+extern TypeInfo NullStream_t4448_il2cpp_TypeInfo;
 // System.IO.NullStream
 #include "mscorlib_System_IO_NullStream.h"
-extern TypeInfo StreamAsyncResult_t4441_il2cpp_TypeInfo;
+extern TypeInfo StreamAsyncResult_t4449_il2cpp_TypeInfo;
 // System.IO.StreamAsyncResult
 #include "mscorlib_System_IO_StreamAsyncResult.h"
-extern TypeInfo NullStreamReader_t4442_il2cpp_TypeInfo;
+extern TypeInfo NullStreamReader_t4450_il2cpp_TypeInfo;
 // System.IO.StreamReader/NullStreamReader
 #include "mscorlib_System_IO_StreamReader_NullStreamReader.h"
-extern TypeInfo StreamReader_t1098_il2cpp_TypeInfo;
+extern TypeInfo StreamReader_t1105_il2cpp_TypeInfo;
 // System.IO.StreamReader
 #include "mscorlib_System_IO_StreamReader.h"
-extern TypeInfo StreamWriter_t1487_il2cpp_TypeInfo;
+extern TypeInfo StreamWriter_t1494_il2cpp_TypeInfo;
 // System.IO.StreamWriter
 #include "mscorlib_System_IO_StreamWriter.h"
 extern TypeInfo StringReader_t259_il2cpp_TypeInfo;
 // System.IO.StringReader
 #include "mscorlib_System_IO_StringReader.h"
-extern TypeInfo StringWriter_t3220_il2cpp_TypeInfo;
+extern TypeInfo StringWriter_t3228_il2cpp_TypeInfo;
 // System.IO.StringWriter
 #include "mscorlib_System_IO_StringWriter.h"
-extern TypeInfo NullTextReader_t4443_il2cpp_TypeInfo;
+extern TypeInfo NullTextReader_t4451_il2cpp_TypeInfo;
 // System.IO.TextReader/NullTextReader
 #include "mscorlib_System_IO_TextReader_NullTextReader.h"
-extern TypeInfo TextReader_t3177_il2cpp_TypeInfo;
+extern TypeInfo TextReader_t3185_il2cpp_TypeInfo;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
-extern TypeInfo SynchronizedReader_t4444_il2cpp_TypeInfo;
+extern TypeInfo SynchronizedReader_t4452_il2cpp_TypeInfo;
 // System.IO.SynchronizedReader
 #include "mscorlib_System_IO_SynchronizedReader.h"
-extern TypeInfo NullTextWriter_t4445_il2cpp_TypeInfo;
+extern TypeInfo NullTextWriter_t4453_il2cpp_TypeInfo;
 // System.IO.TextWriter/NullTextWriter
 #include "mscorlib_System_IO_TextWriter_NullTextWriter.h"
-extern TypeInfo TextWriter_t3219_il2cpp_TypeInfo;
+extern TypeInfo TextWriter_t3227_il2cpp_TypeInfo;
 // System.IO.TextWriter
 #include "mscorlib_System_IO_TextWriter.h"
-extern TypeInfo SynchronizedWriter_t4447_il2cpp_TypeInfo;
+extern TypeInfo SynchronizedWriter_t4455_il2cpp_TypeInfo;
 // System.IO.SynchronizedWriter
 #include "mscorlib_System_IO_SynchronizedWriter.h"
-extern TypeInfo UnexceptionalStreamReader_t4448_il2cpp_TypeInfo;
+extern TypeInfo UnexceptionalStreamReader_t4456_il2cpp_TypeInfo;
 // System.IO.UnexceptionalStreamReader
 #include "mscorlib_System_IO_UnexceptionalStreamReader.h"
-extern TypeInfo UnexceptionalStreamWriter_t4449_il2cpp_TypeInfo;
+extern TypeInfo UnexceptionalStreamWriter_t4457_il2cpp_TypeInfo;
 // System.IO.UnexceptionalStreamWriter
 #include "mscorlib_System_IO_UnexceptionalStreamWriter.h"
-extern TypeInfo AssemblyBuilder_t4451_il2cpp_TypeInfo;
+extern TypeInfo AssemblyBuilder_t4459_il2cpp_TypeInfo;
 // System.Reflection.Emit.AssemblyBuilder
 #include "mscorlib_System_Reflection_Emit_AssemblyBuilder.h"
-extern TypeInfo ConstructorBuilder_t4454_il2cpp_TypeInfo;
+extern TypeInfo ConstructorBuilder_t4462_il2cpp_TypeInfo;
 // System.Reflection.Emit.ConstructorBuilder
 #include "mscorlib_System_Reflection_Emit_ConstructorBuilder.h"
-extern TypeInfo EnumBuilder_t4455_il2cpp_TypeInfo;
+extern TypeInfo EnumBuilder_t4463_il2cpp_TypeInfo;
 // System.Reflection.Emit.EnumBuilder
 #include "mscorlib_System_Reflection_Emit_EnumBuilder.h"
-extern TypeInfo FieldBuilder_t4457_il2cpp_TypeInfo;
+extern TypeInfo FieldBuilder_t4465_il2cpp_TypeInfo;
 // System.Reflection.Emit.FieldBuilder
 #include "mscorlib_System_Reflection_Emit_FieldBuilder.h"
-extern TypeInfo GenericTypeParameterBuilder_t4459_il2cpp_TypeInfo;
+extern TypeInfo GenericTypeParameterBuilder_t4467_il2cpp_TypeInfo;
 // System.Reflection.Emit.GenericTypeParameterBuilder
 #include "mscorlib_System_Reflection_Emit_GenericTypeParameterBuilder.h"
-extern TypeInfo MethodBuilder_t4458_il2cpp_TypeInfo;
+extern TypeInfo MethodBuilder_t4466_il2cpp_TypeInfo;
 // System.Reflection.Emit.MethodBuilder
 #include "mscorlib_System_Reflection_Emit_MethodBuilder.h"
-extern TypeInfo ModuleBuilder_t4461_il2cpp_TypeInfo;
+extern TypeInfo ModuleBuilder_t4469_il2cpp_TypeInfo;
 // System.Reflection.Emit.ModuleBuilder
 #include "mscorlib_System_Reflection_Emit_ModuleBuilder.h"
-extern TypeInfo ParameterBuilder_t4463_il2cpp_TypeInfo;
+extern TypeInfo ParameterBuilder_t4471_il2cpp_TypeInfo;
 // System.Reflection.Emit.ParameterBuilder
 #include "mscorlib_System_Reflection_Emit_ParameterBuilder.h"
-extern TypeInfo PropertyBuilder_t4464_il2cpp_TypeInfo;
+extern TypeInfo PropertyBuilder_t4472_il2cpp_TypeInfo;
 // System.Reflection.Emit.PropertyBuilder
 #include "mscorlib_System_Reflection_Emit_PropertyBuilder.h"
-extern TypeInfo TypeBuilder_t4452_il2cpp_TypeInfo;
+extern TypeInfo TypeBuilder_t4460_il2cpp_TypeInfo;
 // System.Reflection.Emit.TypeBuilder
 #include "mscorlib_System_Reflection_Emit_TypeBuilder.h"
-extern TypeInfo UnmanagedMarshal_t4456_il2cpp_TypeInfo;
+extern TypeInfo UnmanagedMarshal_t4464_il2cpp_TypeInfo;
 // System.Reflection.Emit.UnmanagedMarshal
 #include "mscorlib_System_Reflection_Emit_UnmanagedMarshal.h"
-extern TypeInfo AmbiguousMatchException_t4469_il2cpp_TypeInfo;
+extern TypeInfo AmbiguousMatchException_t4477_il2cpp_TypeInfo;
 // System.Reflection.AmbiguousMatchException
 #include "mscorlib_System_Reflection_AmbiguousMatchException.h"
-extern TypeInfo ResolveEventHolder_t4470_il2cpp_TypeInfo;
+extern TypeInfo ResolveEventHolder_t4478_il2cpp_TypeInfo;
 // System.Reflection.Assembly/ResolveEventHolder
 #include "mscorlib_System_Reflection_Assembly_ResolveEventHolder.h"
-extern TypeInfo Assembly_t711_il2cpp_TypeInfo;
+extern TypeInfo Assembly_t719_il2cpp_TypeInfo;
 // System.Reflection.Assembly
 #include "mscorlib_System_Reflection_Assembly.h"
-extern TypeInfo AssemblyCompanyAttribute_t1030_il2cpp_TypeInfo;
+extern TypeInfo AssemblyCompanyAttribute_t1037_il2cpp_TypeInfo;
 // System.Reflection.AssemblyCompanyAttribute
 #include "mscorlib_System_Reflection_AssemblyCompanyAttribute.h"
-extern TypeInfo AssemblyConfigurationAttribute_t1029_il2cpp_TypeInfo;
+extern TypeInfo AssemblyConfigurationAttribute_t1036_il2cpp_TypeInfo;
 // System.Reflection.AssemblyConfigurationAttribute
 #include "mscorlib_System_Reflection_AssemblyConfigurationAttribute.h"
-extern TypeInfo AssemblyCopyrightAttribute_t1032_il2cpp_TypeInfo;
+extern TypeInfo AssemblyCopyrightAttribute_t1039_il2cpp_TypeInfo;
 // System.Reflection.AssemblyCopyrightAttribute
 #include "mscorlib_System_Reflection_AssemblyCopyrightAttribute.h"
-extern TypeInfo AssemblyDefaultAliasAttribute_t3248_il2cpp_TypeInfo;
+extern TypeInfo AssemblyDefaultAliasAttribute_t3256_il2cpp_TypeInfo;
 // System.Reflection.AssemblyDefaultAliasAttribute
 #include "mscorlib_System_Reflection_AssemblyDefaultAliasAttribute.h"
-extern TypeInfo AssemblyDelaySignAttribute_t3250_il2cpp_TypeInfo;
+extern TypeInfo AssemblyDelaySignAttribute_t3258_il2cpp_TypeInfo;
 // System.Reflection.AssemblyDelaySignAttribute
 #include "mscorlib_System_Reflection_AssemblyDelaySignAttribute.h"
-extern TypeInfo AssemblyDescriptionAttribute_t1028_il2cpp_TypeInfo;
+extern TypeInfo AssemblyDescriptionAttribute_t1035_il2cpp_TypeInfo;
 // System.Reflection.AssemblyDescriptionAttribute
 #include "mscorlib_System_Reflection_AssemblyDescriptionAttribute.h"
-extern TypeInfo AssemblyFileVersionAttribute_t1035_il2cpp_TypeInfo;
+extern TypeInfo AssemblyFileVersionAttribute_t1042_il2cpp_TypeInfo;
 // System.Reflection.AssemblyFileVersionAttribute
 #include "mscorlib_System_Reflection_AssemblyFileVersionAttribute.h"
-extern TypeInfo AssemblyInformationalVersionAttribute_t3246_il2cpp_TypeInfo;
+extern TypeInfo AssemblyInformationalVersionAttribute_t3254_il2cpp_TypeInfo;
 // System.Reflection.AssemblyInformationalVersionAttribute
 #include "mscorlib_System_Reflection_AssemblyInformationalVersionAttri.h"
-extern TypeInfo AssemblyKeyFileAttribute_t3251_il2cpp_TypeInfo;
+extern TypeInfo AssemblyKeyFileAttribute_t3259_il2cpp_TypeInfo;
 // System.Reflection.AssemblyKeyFileAttribute
 #include "mscorlib_System_Reflection_AssemblyKeyFileAttribute.h"
-extern TypeInfo AssemblyName_t1405_il2cpp_TypeInfo;
+extern TypeInfo AssemblyName_t1412_il2cpp_TypeInfo;
 // System.Reflection.AssemblyName
 #include "mscorlib_System_Reflection_AssemblyName.h"
-extern TypeInfo AssemblyNameFlags_t4474_il2cpp_TypeInfo;
+extern TypeInfo AssemblyNameFlags_t4482_il2cpp_TypeInfo;
 // System.Reflection.AssemblyNameFlags
 #include "mscorlib_System_Reflection_AssemblyNameFlags.h"
-extern TypeInfo AssemblyProductAttribute_t1031_il2cpp_TypeInfo;
+extern TypeInfo AssemblyProductAttribute_t1038_il2cpp_TypeInfo;
 // System.Reflection.AssemblyProductAttribute
 #include "mscorlib_System_Reflection_AssemblyProductAttribute.h"
-extern TypeInfo AssemblyTitleAttribute_t1034_il2cpp_TypeInfo;
+extern TypeInfo AssemblyTitleAttribute_t1041_il2cpp_TypeInfo;
 // System.Reflection.AssemblyTitleAttribute
 #include "mscorlib_System_Reflection_AssemblyTitleAttribute.h"
-extern TypeInfo AssemblyTrademarkAttribute_t1036_il2cpp_TypeInfo;
+extern TypeInfo AssemblyTrademarkAttribute_t1043_il2cpp_TypeInfo;
 // System.Reflection.AssemblyTrademarkAttribute
 #include "mscorlib_System_Reflection_AssemblyTrademarkAttribute.h"
-extern TypeInfo Default_t4475_il2cpp_TypeInfo;
+extern TypeInfo Default_t4483_il2cpp_TypeInfo;
 // System.Reflection.Binder/Default
 #include "mscorlib_System_Reflection_Binder_Default.h"
-extern TypeInfo Binder_t2894_il2cpp_TypeInfo;
+extern TypeInfo Binder_t2901_il2cpp_TypeInfo;
 // System.Reflection.Binder
 #include "mscorlib_System_Reflection_Binder.h"
-extern TypeInfo BindingFlags_t4476_il2cpp_TypeInfo;
+extern TypeInfo BindingFlags_t4484_il2cpp_TypeInfo;
 // System.Reflection.BindingFlags
 #include "mscorlib_System_Reflection_BindingFlags.h"
-extern TypeInfo CallingConventions_t4477_il2cpp_TypeInfo;
+extern TypeInfo CallingConventions_t4485_il2cpp_TypeInfo;
 // System.Reflection.CallingConventions
 #include "mscorlib_System_Reflection_CallingConventions.h"
-extern TypeInfo ConstructorInfo_t1321_il2cpp_TypeInfo;
+extern TypeInfo ConstructorInfo_t1328_il2cpp_TypeInfo;
 // System.Reflection.ConstructorInfo
 #include "mscorlib_System_Reflection_ConstructorInfo.h"
-extern TypeInfo EventAttributes_t4478_il2cpp_TypeInfo;
+extern TypeInfo EventAttributes_t4486_il2cpp_TypeInfo;
 // System.Reflection.EventAttributes
 #include "mscorlib_System_Reflection_EventAttributes.h"
-extern TypeInfo AddEventAdapter_t4479_il2cpp_TypeInfo;
+extern TypeInfo AddEventAdapter_t4487_il2cpp_TypeInfo;
 // System.Reflection.EventInfo/AddEventAdapter
 #include "mscorlib_System_Reflection_EventInfo_AddEventAdapter.h"
 extern TypeInfo EventInfo_t_il2cpp_TypeInfo;
 // System.Reflection.EventInfo
 #include "mscorlib_System_Reflection_EventInfo.h"
-extern TypeInfo FieldAttributes_t4480_il2cpp_TypeInfo;
+extern TypeInfo FieldAttributes_t4488_il2cpp_TypeInfo;
 // System.Reflection.FieldAttributes
 #include "mscorlib_System_Reflection_FieldAttributes.h"
 extern TypeInfo FieldInfo_t_il2cpp_TypeInfo;
 // System.Reflection.FieldInfo
 #include "mscorlib_System_Reflection_FieldInfo.h"
-extern TypeInfo MemberInfoSerializationHolder_t4481_il2cpp_TypeInfo;
+extern TypeInfo MemberInfoSerializationHolder_t4489_il2cpp_TypeInfo;
 // System.Reflection.MemberInfoSerializationHolder
 #include "mscorlib_System_Reflection_MemberInfoSerializationHolder.h"
-extern TypeInfo MemberTypes_t4482_il2cpp_TypeInfo;
+extern TypeInfo MemberTypes_t4490_il2cpp_TypeInfo;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
-extern TypeInfo MethodAttributes_t4483_il2cpp_TypeInfo;
+extern TypeInfo MethodAttributes_t4491_il2cpp_TypeInfo;
 // System.Reflection.MethodAttributes
 #include "mscorlib_System_Reflection_MethodAttributes.h"
-extern TypeInfo MethodBase_t1465_il2cpp_TypeInfo;
+extern TypeInfo MethodBase_t1472_il2cpp_TypeInfo;
 // System.Reflection.MethodBase
 #include "mscorlib_System_Reflection_MethodBase.h"
-extern TypeInfo MethodImplAttributes_t4484_il2cpp_TypeInfo;
+extern TypeInfo MethodImplAttributes_t4492_il2cpp_TypeInfo;
 // System.Reflection.MethodImplAttributes
 #include "mscorlib_System_Reflection_MethodImplAttributes.h"
 extern TypeInfo MethodInfo_t_il2cpp_TypeInfo;
 // System.Reflection.MethodInfo
 #include "mscorlib_System_Reflection_MethodInfo.h"
-extern TypeInfo Missing_t4485_il2cpp_TypeInfo;
+extern TypeInfo Missing_t4493_il2cpp_TypeInfo;
 // System.Reflection.Missing
 #include "mscorlib_System_Reflection_Missing.h"
-extern TypeInfo Module_t4462_il2cpp_TypeInfo;
+extern TypeInfo Module_t4470_il2cpp_TypeInfo;
 // System.Reflection.Module
 #include "mscorlib_System_Reflection_Module.h"
-extern TypeInfo MonoEventInfo_t4487_il2cpp_TypeInfo;
+extern TypeInfo MonoEventInfo_t4495_il2cpp_TypeInfo;
 // System.Reflection.MonoEventInfo
 #include "mscorlib_System_Reflection_MonoEventInfo.h"
 extern TypeInfo MonoEvent_t_il2cpp_TypeInfo;
@@ -921,1350 +921,1350 @@ extern TypeInfo MonoField_t_il2cpp_TypeInfo;
 extern TypeInfo MonoGenericMethod_t_il2cpp_TypeInfo;
 // System.Reflection.MonoGenericMethod
 #include "mscorlib_System_Reflection_MonoGenericMethod.h"
-extern TypeInfo MonoGenericCMethod_t4488_il2cpp_TypeInfo;
+extern TypeInfo MonoGenericCMethod_t4496_il2cpp_TypeInfo;
 // System.Reflection.MonoGenericCMethod
 #include "mscorlib_System_Reflection_MonoGenericCMethod.h"
-extern TypeInfo MonoMethodInfo_t4490_il2cpp_TypeInfo;
+extern TypeInfo MonoMethodInfo_t4498_il2cpp_TypeInfo;
 // System.Reflection.MonoMethodInfo
 #include "mscorlib_System_Reflection_MonoMethodInfo.h"
 extern TypeInfo MonoMethod_t_il2cpp_TypeInfo;
 // System.Reflection.MonoMethod
 #include "mscorlib_System_Reflection_MonoMethod.h"
-extern TypeInfo MonoCMethod_t4489_il2cpp_TypeInfo;
+extern TypeInfo MonoCMethod_t4497_il2cpp_TypeInfo;
 // System.Reflection.MonoCMethod
 #include "mscorlib_System_Reflection_MonoCMethod.h"
-extern TypeInfo MonoPropertyInfo_t4491_il2cpp_TypeInfo;
+extern TypeInfo MonoPropertyInfo_t4499_il2cpp_TypeInfo;
 // System.Reflection.MonoPropertyInfo
 #include "mscorlib_System_Reflection_MonoPropertyInfo.h"
-extern TypeInfo PInfo_t4492_il2cpp_TypeInfo;
+extern TypeInfo PInfo_t4500_il2cpp_TypeInfo;
 // System.Reflection.PInfo
 #include "mscorlib_System_Reflection_PInfo.h"
-extern TypeInfo GetterAdapter_t4493_il2cpp_TypeInfo;
+extern TypeInfo GetterAdapter_t4501_il2cpp_TypeInfo;
 // System.Reflection.MonoProperty/GetterAdapter
 #include "mscorlib_System_Reflection_MonoProperty_GetterAdapter.h"
-extern TypeInfo Getter_2_t4832_il2cpp_TypeInfo;
-extern TypeInfo StaticGetter_1_t4831_il2cpp_TypeInfo;
+extern TypeInfo Getter_2_t4840_il2cpp_TypeInfo;
+extern TypeInfo StaticGetter_1_t4839_il2cpp_TypeInfo;
 extern TypeInfo MonoProperty_t_il2cpp_TypeInfo;
 // System.Reflection.MonoProperty
 #include "mscorlib_System_Reflection_MonoProperty.h"
-extern TypeInfo ParameterAttributes_t4494_il2cpp_TypeInfo;
+extern TypeInfo ParameterAttributes_t4502_il2cpp_TypeInfo;
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
-extern TypeInfo ParameterInfo_t1323_il2cpp_TypeInfo;
+extern TypeInfo ParameterInfo_t1330_il2cpp_TypeInfo;
 // System.Reflection.ParameterInfo
 #include "mscorlib_System_Reflection_ParameterInfo.h"
-extern TypeInfo ParameterModifier_t4495_il2cpp_TypeInfo;
+extern TypeInfo ParameterModifier_t4503_il2cpp_TypeInfo;
 // System.Reflection.ParameterModifier
 #include "mscorlib_System_Reflection_ParameterModifier.h"
-extern TypeInfo Pointer_t4496_il2cpp_TypeInfo;
+extern TypeInfo Pointer_t4504_il2cpp_TypeInfo;
 // System.Reflection.Pointer
 #include "mscorlib_System_Reflection_Pointer.h"
-extern TypeInfo ProcessorArchitecture_t4497_il2cpp_TypeInfo;
+extern TypeInfo ProcessorArchitecture_t4505_il2cpp_TypeInfo;
 // System.Reflection.ProcessorArchitecture
 #include "mscorlib_System_Reflection_ProcessorArchitecture.h"
-extern TypeInfo PropertyAttributes_t4498_il2cpp_TypeInfo;
+extern TypeInfo PropertyAttributes_t4506_il2cpp_TypeInfo;
 // System.Reflection.PropertyAttributes
 #include "mscorlib_System_Reflection_PropertyAttributes.h"
 extern TypeInfo PropertyInfo_t_il2cpp_TypeInfo;
 // System.Reflection.PropertyInfo
 #include "mscorlib_System_Reflection_PropertyInfo.h"
-extern TypeInfo StrongNameKeyPair_t4473_il2cpp_TypeInfo;
+extern TypeInfo StrongNameKeyPair_t4481_il2cpp_TypeInfo;
 // System.Reflection.StrongNameKeyPair
 #include "mscorlib_System_Reflection_StrongNameKeyPair.h"
-extern TypeInfo TargetException_t4499_il2cpp_TypeInfo;
+extern TypeInfo TargetException_t4507_il2cpp_TypeInfo;
 // System.Reflection.TargetException
 #include "mscorlib_System_Reflection_TargetException.h"
-extern TypeInfo TargetInvocationException_t4500_il2cpp_TypeInfo;
+extern TypeInfo TargetInvocationException_t4508_il2cpp_TypeInfo;
 // System.Reflection.TargetInvocationException
 #include "mscorlib_System_Reflection_TargetInvocationException.h"
-extern TypeInfo TargetParameterCountException_t4501_il2cpp_TypeInfo;
+extern TypeInfo TargetParameterCountException_t4509_il2cpp_TypeInfo;
 // System.Reflection.TargetParameterCountException
 #include "mscorlib_System_Reflection_TargetParameterCountException.h"
-extern TypeInfo TypeAttributes_t4502_il2cpp_TypeInfo;
+extern TypeInfo TypeAttributes_t4510_il2cpp_TypeInfo;
 // System.Reflection.TypeAttributes
 #include "mscorlib_System_Reflection_TypeAttributes.h"
-extern TypeInfo NeutralResourcesLanguageAttribute_t3245_il2cpp_TypeInfo;
+extern TypeInfo NeutralResourcesLanguageAttribute_t3253_il2cpp_TypeInfo;
 // System.Resources.NeutralResourcesLanguageAttribute
 #include "mscorlib_System_Resources_NeutralResourcesLanguageAttribute.h"
-extern TypeInfo SatelliteContractVersionAttribute_t3247_il2cpp_TypeInfo;
+extern TypeInfo SatelliteContractVersionAttribute_t3255_il2cpp_TypeInfo;
 // System.Resources.SatelliteContractVersionAttribute
 #include "mscorlib_System_Resources_SatelliteContractVersionAttribute.h"
-extern TypeInfo CompilationRelaxations_t4503_il2cpp_TypeInfo;
+extern TypeInfo CompilationRelaxations_t4511_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.CompilationRelaxations
 #include "mscorlib_System_Runtime_CompilerServices_CompilationRelaxati_0.h"
-extern TypeInfo CompilationRelaxationsAttribute_t2104_il2cpp_TypeInfo;
+extern TypeInfo CompilationRelaxationsAttribute_t2111_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
 #include "mscorlib_System_Runtime_CompilerServices_CompilationRelaxati.h"
-extern TypeInfo DefaultDependencyAttribute_t4504_il2cpp_TypeInfo;
+extern TypeInfo DefaultDependencyAttribute_t4512_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.DefaultDependencyAttribute
 #include "mscorlib_System_Runtime_CompilerServices_DefaultDependencyAt.h"
-extern TypeInfo IsVolatile_t4505_il2cpp_TypeInfo;
+extern TypeInfo IsVolatile_t4513_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.IsVolatile
 #include "mscorlib_System_Runtime_CompilerServices_IsVolatile.h"
-extern TypeInfo LoadHint_t4506_il2cpp_TypeInfo;
+extern TypeInfo LoadHint_t4514_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.LoadHint
 #include "mscorlib_System_Runtime_CompilerServices_LoadHint.h"
-extern TypeInfo StringFreezingAttribute_t4507_il2cpp_TypeInfo;
+extern TypeInfo StringFreezingAttribute_t4515_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.StringFreezingAttribute
 #include "mscorlib_System_Runtime_CompilerServices_StringFreezingAttri.h"
-extern TypeInfo Cer_t4508_il2cpp_TypeInfo;
+extern TypeInfo Cer_t4516_il2cpp_TypeInfo;
 // System.Runtime.ConstrainedExecution.Cer
 #include "mscorlib_System_Runtime_ConstrainedExecution_Cer.h"
-extern TypeInfo Consistency_t4509_il2cpp_TypeInfo;
+extern TypeInfo Consistency_t4517_il2cpp_TypeInfo;
 // System.Runtime.ConstrainedExecution.Consistency
 #include "mscorlib_System_Runtime_ConstrainedExecution_Consistency.h"
-extern TypeInfo CriticalFinalizerObject_t4510_il2cpp_TypeInfo;
+extern TypeInfo CriticalFinalizerObject_t4518_il2cpp_TypeInfo;
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 #include "mscorlib_System_Runtime_ConstrainedExecution_CriticalFinaliz.h"
-extern TypeInfo ReliabilityContractAttribute_t4511_il2cpp_TypeInfo;
+extern TypeInfo ReliabilityContractAttribute_t4519_il2cpp_TypeInfo;
 // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
 #include "mscorlib_System_Runtime_ConstrainedExecution_ReliabilityCont.h"
-extern TypeInfo ActivationArguments_t4512_il2cpp_TypeInfo;
+extern TypeInfo ActivationArguments_t4520_il2cpp_TypeInfo;
 // System.Runtime.Hosting.ActivationArguments
 #include "mscorlib_System_Runtime_Hosting_ActivationArguments.h"
-extern TypeInfo CallingConvention_t4513_il2cpp_TypeInfo;
+extern TypeInfo CallingConvention_t4521_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.CallingConvention
 #include "mscorlib_System_Runtime_InteropServices_CallingConvention.h"
-extern TypeInfo CharSet_t4514_il2cpp_TypeInfo;
+extern TypeInfo CharSet_t4522_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.CharSet
 #include "mscorlib_System_Runtime_InteropServices_CharSet.h"
-extern TypeInfo ClassInterfaceAttribute_t4515_il2cpp_TypeInfo;
+extern TypeInfo ClassInterfaceAttribute_t4523_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ClassInterfaceAttribute
 #include "mscorlib_System_Runtime_InteropServices_ClassInterfaceAttrib.h"
-extern TypeInfo ClassInterfaceType_t4516_il2cpp_TypeInfo;
+extern TypeInfo ClassInterfaceType_t4524_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ClassInterfaceType
 #include "mscorlib_System_Runtime_InteropServices_ClassInterfaceType.h"
-extern TypeInfo ComDefaultInterfaceAttribute_t4517_il2cpp_TypeInfo;
+extern TypeInfo ComDefaultInterfaceAttribute_t4525_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
 #include "mscorlib_System_Runtime_InteropServices_ComDefaultInterfaceA.h"
-extern TypeInfo ComInterfaceType_t4518_il2cpp_TypeInfo;
+extern TypeInfo ComInterfaceType_t4526_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ComInterfaceType
 #include "mscorlib_System_Runtime_InteropServices_ComInterfaceType.h"
-extern TypeInfo DispIdAttribute_t4519_il2cpp_TypeInfo;
+extern TypeInfo DispIdAttribute_t4527_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.DispIdAttribute
 #include "mscorlib_System_Runtime_InteropServices_DispIdAttribute.h"
-extern TypeInfo ExternalException_t3916_il2cpp_TypeInfo;
+extern TypeInfo ExternalException_t3924_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.ExternalException
 #include "mscorlib_System_Runtime_InteropServices_ExternalException.h"
-extern TypeInfo GCHandle_t3922_il2cpp_TypeInfo;
+extern TypeInfo GCHandle_t3930_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.GCHandle
 #include "mscorlib_System_Runtime_InteropServices_GCHandle.h"
-extern TypeInfo GCHandleType_t4520_il2cpp_TypeInfo;
+extern TypeInfo GCHandleType_t4528_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.GCHandleType
 #include "mscorlib_System_Runtime_InteropServices_GCHandleType.h"
-extern TypeInfo InterfaceTypeAttribute_t4521_il2cpp_TypeInfo;
+extern TypeInfo InterfaceTypeAttribute_t4529_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.InterfaceTypeAttribute
 #include "mscorlib_System_Runtime_InteropServices_InterfaceTypeAttribu.h"
-extern TypeInfo Marshal_t4137_il2cpp_TypeInfo;
+extern TypeInfo Marshal_t4145_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.Marshal
 #include "mscorlib_System_Runtime_InteropServices_Marshal.h"
-extern TypeInfo MarshalDirectiveException_t4522_il2cpp_TypeInfo;
+extern TypeInfo MarshalDirectiveException_t4530_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.MarshalDirectiveException
 #include "mscorlib_System_Runtime_InteropServices_MarshalDirectiveExce.h"
-extern TypeInfo PreserveSigAttribute_t4523_il2cpp_TypeInfo;
+extern TypeInfo PreserveSigAttribute_t4531_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.PreserveSigAttribute
 #include "mscorlib_System_Runtime_InteropServices_PreserveSigAttribute.h"
-extern TypeInfo SafeHandle_t4306_il2cpp_TypeInfo;
+extern TypeInfo SafeHandle_t4314_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.SafeHandle
 #include "mscorlib_System_Runtime_InteropServices_SafeHandle.h"
-extern TypeInfo TypeLibImportClassAttribute_t4524_il2cpp_TypeInfo;
+extern TypeInfo TypeLibImportClassAttribute_t4532_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.TypeLibImportClassAttribute
 #include "mscorlib_System_Runtime_InteropServices_TypeLibImportClassAt.h"
-extern TypeInfo TypeLibVersionAttribute_t4525_il2cpp_TypeInfo;
+extern TypeInfo TypeLibVersionAttribute_t4533_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.TypeLibVersionAttribute
 #include "mscorlib_System_Runtime_InteropServices_TypeLibVersionAttrib.h"
-extern TypeInfo UnmanagedFunctionPointerAttribute_t4164_il2cpp_TypeInfo;
+extern TypeInfo UnmanagedFunctionPointerAttribute_t4172_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
 #include "mscorlib_System_Runtime_InteropServices_UnmanagedFunctionPoi.h"
-extern TypeInfo UnmanagedType_t4526_il2cpp_TypeInfo;
+extern TypeInfo UnmanagedType_t4534_il2cpp_TypeInfo;
 // System.Runtime.InteropServices.UnmanagedType
 #include "mscorlib_System_Runtime_InteropServices_UnmanagedType.h"
-extern TypeInfo _Activator_t4909_il2cpp_TypeInfo;
-extern TypeInfo _Assembly_t4899_il2cpp_TypeInfo;
-extern TypeInfo _AssemblyBuilder_t4890_il2cpp_TypeInfo;
-extern TypeInfo _AssemblyName_t4900_il2cpp_TypeInfo;
-extern TypeInfo _ConstructorBuilder_t4891_il2cpp_TypeInfo;
-extern TypeInfo _ConstructorInfo_t4901_il2cpp_TypeInfo;
-extern TypeInfo _EnumBuilder_t4892_il2cpp_TypeInfo;
-extern TypeInfo _EventInfo_t4902_il2cpp_TypeInfo;
-extern TypeInfo _FieldBuilder_t4893_il2cpp_TypeInfo;
-extern TypeInfo _FieldInfo_t4903_il2cpp_TypeInfo;
-extern TypeInfo _MethodBase_t4904_il2cpp_TypeInfo;
-extern TypeInfo _MethodBuilder_t4894_il2cpp_TypeInfo;
-extern TypeInfo _MethodInfo_t4905_il2cpp_TypeInfo;
-extern TypeInfo _Module_t4906_il2cpp_TypeInfo;
-extern TypeInfo _ModuleBuilder_t4895_il2cpp_TypeInfo;
-extern TypeInfo _ParameterBuilder_t4896_il2cpp_TypeInfo;
-extern TypeInfo _ParameterInfo_t4907_il2cpp_TypeInfo;
-extern TypeInfo _PropertyBuilder_t4897_il2cpp_TypeInfo;
-extern TypeInfo _PropertyInfo_t4908_il2cpp_TypeInfo;
-extern TypeInfo _Thread_t4910_il2cpp_TypeInfo;
-extern TypeInfo _TypeBuilder_t4898_il2cpp_TypeInfo;
-extern TypeInfo ActivationServices_t4528_il2cpp_TypeInfo;
+extern TypeInfo _Activator_t4917_il2cpp_TypeInfo;
+extern TypeInfo _Assembly_t4907_il2cpp_TypeInfo;
+extern TypeInfo _AssemblyBuilder_t4898_il2cpp_TypeInfo;
+extern TypeInfo _AssemblyName_t4908_il2cpp_TypeInfo;
+extern TypeInfo _ConstructorBuilder_t4899_il2cpp_TypeInfo;
+extern TypeInfo _ConstructorInfo_t4909_il2cpp_TypeInfo;
+extern TypeInfo _EnumBuilder_t4900_il2cpp_TypeInfo;
+extern TypeInfo _EventInfo_t4910_il2cpp_TypeInfo;
+extern TypeInfo _FieldBuilder_t4901_il2cpp_TypeInfo;
+extern TypeInfo _FieldInfo_t4911_il2cpp_TypeInfo;
+extern TypeInfo _MethodBase_t4912_il2cpp_TypeInfo;
+extern TypeInfo _MethodBuilder_t4902_il2cpp_TypeInfo;
+extern TypeInfo _MethodInfo_t4913_il2cpp_TypeInfo;
+extern TypeInfo _Module_t4914_il2cpp_TypeInfo;
+extern TypeInfo _ModuleBuilder_t4903_il2cpp_TypeInfo;
+extern TypeInfo _ParameterBuilder_t4904_il2cpp_TypeInfo;
+extern TypeInfo _ParameterInfo_t4915_il2cpp_TypeInfo;
+extern TypeInfo _PropertyBuilder_t4905_il2cpp_TypeInfo;
+extern TypeInfo _PropertyInfo_t4916_il2cpp_TypeInfo;
+extern TypeInfo _Thread_t4918_il2cpp_TypeInfo;
+extern TypeInfo _TypeBuilder_t4906_il2cpp_TypeInfo;
+extern TypeInfo ActivationServices_t4536_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ActivationServices
 #include "mscorlib_System_Runtime_Remoting_Activation_ActivationServic.h"
-extern TypeInfo AppDomainLevelActivator_t4529_il2cpp_TypeInfo;
+extern TypeInfo AppDomainLevelActivator_t4537_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.AppDomainLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_AppDomainLevelAc.h"
-extern TypeInfo ConstructionLevelActivator_t4530_il2cpp_TypeInfo;
+extern TypeInfo ConstructionLevelActivator_t4538_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ConstructionLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ConstructionLeve.h"
-extern TypeInfo ContextLevelActivator_t4531_il2cpp_TypeInfo;
+extern TypeInfo ContextLevelActivator_t4539_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ContextLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ContextLevelActi.h"
-extern TypeInfo IActivator_t4527_il2cpp_TypeInfo;
-extern TypeInfo IConstructionCallMessage_t4822_il2cpp_TypeInfo;
-extern TypeInfo RemoteActivator_t4532_il2cpp_TypeInfo;
+extern TypeInfo IActivator_t4535_il2cpp_TypeInfo;
+extern TypeInfo IConstructionCallMessage_t4830_il2cpp_TypeInfo;
+extern TypeInfo RemoteActivator_t4540_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.RemoteActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_RemoteActivator.h"
-extern TypeInfo UrlAttribute_t4533_il2cpp_TypeInfo;
+extern TypeInfo UrlAttribute_t4541_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.UrlAttribute
 #include "mscorlib_System_Runtime_Remoting_Activation_UrlAttribute.h"
-extern TypeInfo ChannelInfo_t4535_il2cpp_TypeInfo;
+extern TypeInfo ChannelInfo_t4543_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ChannelInfo
 #include "mscorlib_System_Runtime_Remoting_ChannelInfo.h"
-extern TypeInfo ChannelServices_t4537_il2cpp_TypeInfo;
+extern TypeInfo ChannelServices_t4545_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.ChannelServices
 #include "mscorlib_System_Runtime_Remoting_Channels_ChannelServices.h"
-extern TypeInfo CrossAppDomainData_t4538_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainData_t4546_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainData
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainData.h"
-extern TypeInfo CrossAppDomainChannel_t4539_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainChannel_t4547_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainChan.h"
-extern TypeInfo CrossAppDomainSink_t4540_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainSink_t4548_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainSink.h"
-extern TypeInfo IChannel_t4823_il2cpp_TypeInfo;
-extern TypeInfo IChannelReceiver_t4835_il2cpp_TypeInfo;
-extern TypeInfo IChannelSender_t4911_il2cpp_TypeInfo;
-extern TypeInfo ISecurableChannel_t4834_il2cpp_TypeInfo;
-extern TypeInfo Context_t4541_il2cpp_TypeInfo;
+extern TypeInfo IChannel_t4831_il2cpp_TypeInfo;
+extern TypeInfo IChannelReceiver_t4843_il2cpp_TypeInfo;
+extern TypeInfo IChannelSender_t4919_il2cpp_TypeInfo;
+extern TypeInfo ISecurableChannel_t4842_il2cpp_TypeInfo;
+extern TypeInfo Context_t4549_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.Context
 #include "mscorlib_System_Runtime_Remoting_Contexts_Context.h"
-extern TypeInfo ContextAttribute_t4534_il2cpp_TypeInfo;
+extern TypeInfo ContextAttribute_t4542_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.ContextAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttribute.h"
-extern TypeInfo CrossContextChannel_t4536_il2cpp_TypeInfo;
+extern TypeInfo CrossContextChannel_t4544_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.CrossContextChannel
 #include "mscorlib_System_Runtime_Remoting_Contexts_CrossContextChanne.h"
-extern TypeInfo IContextAttribute_t4833_il2cpp_TypeInfo;
-extern TypeInfo IContextProperty_t4824_il2cpp_TypeInfo;
-extern TypeInfo IContributeClientContextSink_t4912_il2cpp_TypeInfo;
-extern TypeInfo IContributeServerContextSink_t4913_il2cpp_TypeInfo;
-extern TypeInfo SynchronizationAttribute_t4543_il2cpp_TypeInfo;
+extern TypeInfo IContextAttribute_t4841_il2cpp_TypeInfo;
+extern TypeInfo IContextProperty_t4832_il2cpp_TypeInfo;
+extern TypeInfo IContributeClientContextSink_t4920_il2cpp_TypeInfo;
+extern TypeInfo IContributeServerContextSink_t4921_il2cpp_TypeInfo;
+extern TypeInfo SynchronizationAttribute_t4551_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_SynchronizationAtt.h"
-extern TypeInfo ArgInfoType_t4544_il2cpp_TypeInfo;
+extern TypeInfo ArgInfoType_t4552_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ArgInfoType
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfoType.h"
-extern TypeInfo ArgInfo_t4545_il2cpp_TypeInfo;
+extern TypeInfo ArgInfo_t4553_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ArgInfo
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfo.h"
-extern TypeInfo AsyncResult_t4138_il2cpp_TypeInfo;
+extern TypeInfo AsyncResult_t4146_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.AsyncResult
 #include "mscorlib_System_Runtime_Remoting_Messaging_AsyncResult.h"
-extern TypeInfo ConstructionCall_t4550_il2cpp_TypeInfo;
+extern TypeInfo ConstructionCall_t4558_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ConstructionCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCall.h"
-extern TypeInfo ConstructionCallDictionary_t4552_il2cpp_TypeInfo;
+extern TypeInfo ConstructionCallDictionary_t4560_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCallD.h"
-extern TypeInfo EnvoyTerminatorSink_t4554_il2cpp_TypeInfo;
+extern TypeInfo EnvoyTerminatorSink_t4562_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
 #include "mscorlib_System_Runtime_Remoting_Messaging_EnvoyTerminatorSi.h"
-extern TypeInfo Header_t4555_il2cpp_TypeInfo;
+extern TypeInfo Header_t4563_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.Header
 #include "mscorlib_System_Runtime_Remoting_Messaging_Header.h"
-extern TypeInfo IInternalMessage_t4836_il2cpp_TypeInfo;
-extern TypeInfo IMessage_t4549_il2cpp_TypeInfo;
-extern TypeInfo IMessageCtrl_t4548_il2cpp_TypeInfo;
-extern TypeInfo IMessageSink_t3034_il2cpp_TypeInfo;
-extern TypeInfo IMethodCallMessage_t4826_il2cpp_TypeInfo;
-extern TypeInfo IMethodMessage_t4560_il2cpp_TypeInfo;
-extern TypeInfo IMethodReturnMessage_t4825_il2cpp_TypeInfo;
-extern TypeInfo IRemotingFormatter_t4914_il2cpp_TypeInfo;
-extern TypeInfo ISerializationRootObject_t4915_il2cpp_TypeInfo;
-extern TypeInfo LogicalCallContext_t4557_il2cpp_TypeInfo;
+extern TypeInfo IInternalMessage_t4844_il2cpp_TypeInfo;
+extern TypeInfo IMessage_t4557_il2cpp_TypeInfo;
+extern TypeInfo IMessageCtrl_t4556_il2cpp_TypeInfo;
+extern TypeInfo IMessageSink_t3042_il2cpp_TypeInfo;
+extern TypeInfo IMethodCallMessage_t4834_il2cpp_TypeInfo;
+extern TypeInfo IMethodMessage_t4568_il2cpp_TypeInfo;
+extern TypeInfo IMethodReturnMessage_t4833_il2cpp_TypeInfo;
+extern TypeInfo IRemotingFormatter_t4922_il2cpp_TypeInfo;
+extern TypeInfo ISerializationRootObject_t4923_il2cpp_TypeInfo;
+extern TypeInfo LogicalCallContext_t4565_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 #include "mscorlib_System_Runtime_Remoting_Messaging_LogicalCallContex.h"
-extern TypeInfo CallContextRemotingData_t4556_il2cpp_TypeInfo;
+extern TypeInfo CallContextRemotingData_t4564_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
 #include "mscorlib_System_Runtime_Remoting_Messaging_CallContextRemoti.h"
-extern TypeInfo MethodCall_t4551_il2cpp_TypeInfo;
+extern TypeInfo MethodCall_t4559_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCall.h"
-extern TypeInfo MethodCallDictionary_t4558_il2cpp_TypeInfo;
+extern TypeInfo MethodCallDictionary_t4566_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCallDiction.h"
-extern TypeInfo DictionaryEnumerator_t4559_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEnumerator_t4567_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary_.h"
-extern TypeInfo MethodDictionary_t4553_il2cpp_TypeInfo;
+extern TypeInfo MethodDictionary_t4561_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary.h"
-extern TypeInfo MethodReturnDictionary_t4561_il2cpp_TypeInfo;
+extern TypeInfo MethodReturnDictionary_t4569_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodReturnDicti.h"
-extern TypeInfo MonoMethodMessage_t4547_il2cpp_TypeInfo;
+extern TypeInfo MonoMethodMessage_t4555_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MonoMethodMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_MonoMethodMessage.h"
-extern TypeInfo RemotingSurrogate_t4562_il2cpp_TypeInfo;
+extern TypeInfo RemotingSurrogate_t4570_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.RemotingSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogate.h"
-extern TypeInfo ObjRefSurrogate_t4563_il2cpp_TypeInfo;
+extern TypeInfo ObjRefSurrogate_t4571_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefSurrogate.h"
-extern TypeInfo RemotingSurrogateSelector_t4565_il2cpp_TypeInfo;
+extern TypeInfo RemotingSurrogateSelector_t4573_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogate_0.h"
-extern TypeInfo ReturnMessage_t4566_il2cpp_TypeInfo;
+extern TypeInfo ReturnMessage_t4574_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ReturnMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_ReturnMessage.h"
-extern TypeInfo ProxyAttribute_t4567_il2cpp_TypeInfo;
+extern TypeInfo ProxyAttribute_t4575_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.ProxyAttribute
 #include "mscorlib_System_Runtime_Remoting_Proxies_ProxyAttribute.h"
-extern TypeInfo TransparentProxy_t4569_il2cpp_TypeInfo;
+extern TypeInfo TransparentProxy_t4577_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.TransparentProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_TransparentProxy.h"
-extern TypeInfo RealProxy_t4568_il2cpp_TypeInfo;
+extern TypeInfo RealProxy_t4576_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.RealProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RealProxy.h"
-extern TypeInfo RemotingProxy_t4571_il2cpp_TypeInfo;
+extern TypeInfo RemotingProxy_t4579_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.RemotingProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RemotingProxy.h"
-extern TypeInfo ITrackingHandler_t4838_il2cpp_TypeInfo;
-extern TypeInfo TrackingServices_t4572_il2cpp_TypeInfo;
+extern TypeInfo ITrackingHandler_t4846_il2cpp_TypeInfo;
+extern TypeInfo TrackingServices_t4580_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Services.TrackingServices
 #include "mscorlib_System_Runtime_Remoting_Services_TrackingServices.h"
-extern TypeInfo ActivatedClientTypeEntry_t4573_il2cpp_TypeInfo;
+extern TypeInfo ActivatedClientTypeEntry_t4581_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
 #include "mscorlib_System_Runtime_Remoting_ActivatedClientTypeEntry.h"
-extern TypeInfo EnvoyInfo_t4575_il2cpp_TypeInfo;
+extern TypeInfo EnvoyInfo_t4583_il2cpp_TypeInfo;
 // System.Runtime.Remoting.EnvoyInfo
 #include "mscorlib_System_Runtime_Remoting_EnvoyInfo.h"
-extern TypeInfo IChannelInfo_t4578_il2cpp_TypeInfo;
-extern TypeInfo IEnvoyInfo_t4580_il2cpp_TypeInfo;
-extern TypeInfo IRemotingTypeInfo_t4579_il2cpp_TypeInfo;
-extern TypeInfo Identity_t4570_il2cpp_TypeInfo;
+extern TypeInfo IChannelInfo_t4586_il2cpp_TypeInfo;
+extern TypeInfo IEnvoyInfo_t4588_il2cpp_TypeInfo;
+extern TypeInfo IRemotingTypeInfo_t4587_il2cpp_TypeInfo;
+extern TypeInfo Identity_t4578_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Identity
 #include "mscorlib_System_Runtime_Remoting_Identity.h"
-extern TypeInfo ClientIdentity_t4577_il2cpp_TypeInfo;
+extern TypeInfo ClientIdentity_t4585_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ClientIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientIdentity.h"
-extern TypeInfo ObjRef_t4576_il2cpp_TypeInfo;
+extern TypeInfo ObjRef_t4584_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ObjRef
 #include "mscorlib_System_Runtime_Remoting_ObjRef.h"
-extern TypeInfo RemotingConfiguration_t4581_il2cpp_TypeInfo;
+extern TypeInfo RemotingConfiguration_t4589_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingConfiguration
 #include "mscorlib_System_Runtime_Remoting_RemotingConfiguration.h"
-extern TypeInfo RemotingException_t4582_il2cpp_TypeInfo;
+extern TypeInfo RemotingException_t4590_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingException
 #include "mscorlib_System_Runtime_Remoting_RemotingException.h"
-extern TypeInfo RemotingServices_t4584_il2cpp_TypeInfo;
+extern TypeInfo RemotingServices_t4592_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingServices
 #include "mscorlib_System_Runtime_Remoting_RemotingServices.h"
-extern TypeInfo ServerIdentity_t4300_il2cpp_TypeInfo;
+extern TypeInfo ServerIdentity_t4308_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ServerIdentity
 #include "mscorlib_System_Runtime_Remoting_ServerIdentity.h"
-extern TypeInfo ClientActivatedIdentity_t4585_il2cpp_TypeInfo;
+extern TypeInfo ClientActivatedIdentity_t4593_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ClientActivatedIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientActivatedIdentity.h"
-extern TypeInfo SingletonIdentity_t4586_il2cpp_TypeInfo;
+extern TypeInfo SingletonIdentity_t4594_il2cpp_TypeInfo;
 // System.Runtime.Remoting.SingletonIdentity
 #include "mscorlib_System_Runtime_Remoting_SingletonIdentity.h"
-extern TypeInfo SingleCallIdentity_t4587_il2cpp_TypeInfo;
+extern TypeInfo SingleCallIdentity_t4595_il2cpp_TypeInfo;
 // System.Runtime.Remoting.SingleCallIdentity
 #include "mscorlib_System_Runtime_Remoting_SingleCallIdentity.h"
-extern TypeInfo TypeEntry_t4574_il2cpp_TypeInfo;
+extern TypeInfo TypeEntry_t4582_il2cpp_TypeInfo;
 // System.Runtime.Remoting.TypeEntry
 #include "mscorlib_System_Runtime_Remoting_TypeEntry.h"
-extern TypeInfo TypeInfo_t4588_il2cpp_TypeInfo;
+extern TypeInfo TypeInfo_t4596_il2cpp_TypeInfo;
 // System.Runtime.Remoting.TypeInfo
 #include "mscorlib_System_Runtime_Remoting_TypeInfo.h"
-extern TypeInfo WellKnownObjectMode_t4589_il2cpp_TypeInfo;
+extern TypeInfo WellKnownObjectMode_t4597_il2cpp_TypeInfo;
 // System.Runtime.Remoting.WellKnownObjectMode
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectMode.h"
-extern TypeInfo BinaryCommon_t4590_il2cpp_TypeInfo;
+extern TypeInfo BinaryCommon_t4598_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina.h"
-extern TypeInfo BinaryElement_t4591_il2cpp_TypeInfo;
+extern TypeInfo BinaryElement_t4599_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryElement
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_0.h"
-extern TypeInfo TypeTag_t4592_il2cpp_TypeInfo;
+extern TypeInfo TypeTag_t4600_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.TypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
-extern TypeInfo MethodFlags_t4593_il2cpp_TypeInfo;
+extern TypeInfo MethodFlags_t4601_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Meth.h"
-extern TypeInfo ReturnTypeTag_t4594_il2cpp_TypeInfo;
+extern TypeInfo ReturnTypeTag_t4602_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.ReturnTypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Retu.h"
-extern TypeInfo BinaryFormatter_t4583_il2cpp_TypeInfo;
+extern TypeInfo BinaryFormatter_t4591_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_1.h"
-extern TypeInfo MessageFormatter_t4596_il2cpp_TypeInfo;
+extern TypeInfo MessageFormatter_t4604_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.MessageFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Mess.h"
-extern TypeInfo TypeMetadata_t4598_il2cpp_TypeInfo;
+extern TypeInfo TypeMetadata_t4606_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Obje.h"
-extern TypeInfo ArrayNullFiller_t4599_il2cpp_TypeInfo;
+extern TypeInfo ArrayNullFiller_t4607_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Obje_0.h"
-extern TypeInfo ObjectReader_t4601_il2cpp_TypeInfo;
+extern TypeInfo ObjectReader_t4609_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Obje_1.h"
-extern TypeInfo FormatterAssemblyStyle_t4602_il2cpp_TypeInfo;
+extern TypeInfo FormatterAssemblyStyle_t4610_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
 #include "mscorlib_System_Runtime_Serialization_Formatters_FormatterAs.h"
-extern TypeInfo FormatterTypeStyle_t4603_il2cpp_TypeInfo;
+extern TypeInfo FormatterTypeStyle_t4611_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.FormatterTypeStyle
 #include "mscorlib_System_Runtime_Serialization_Formatters_FormatterTy.h"
-extern TypeInfo TypeFilterLevel_t4604_il2cpp_TypeInfo;
+extern TypeInfo TypeFilterLevel_t4612_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.TypeFilterLevel
 #include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
-extern TypeInfo FormatterConverter_t4605_il2cpp_TypeInfo;
+extern TypeInfo FormatterConverter_t4613_il2cpp_TypeInfo;
 // System.Runtime.Serialization.FormatterConverter
 #include "mscorlib_System_Runtime_Serialization_FormatterConverter.h"
-extern TypeInfo FormatterServices_t4606_il2cpp_TypeInfo;
+extern TypeInfo FormatterServices_t4614_il2cpp_TypeInfo;
 // System.Runtime.Serialization.FormatterServices
 #include "mscorlib_System_Runtime_Serialization_FormatterServices.h"
-extern TypeInfo IDeserializationCallback_t758_il2cpp_TypeInfo;
-extern TypeInfo IFormatter_t4916_il2cpp_TypeInfo;
-extern TypeInfo IFormatterConverter_t4622_il2cpp_TypeInfo;
-extern TypeInfo IObjectReference_t4843_il2cpp_TypeInfo;
-extern TypeInfo ISerializationSurrogate_t4614_il2cpp_TypeInfo;
-extern TypeInfo ISurrogateSelector_t4564_il2cpp_TypeInfo;
-extern TypeInfo ObjectManager_t4600_il2cpp_TypeInfo;
+extern TypeInfo IDeserializationCallback_t765_il2cpp_TypeInfo;
+extern TypeInfo IFormatter_t4924_il2cpp_TypeInfo;
+extern TypeInfo IFormatterConverter_t4630_il2cpp_TypeInfo;
+extern TypeInfo IObjectReference_t4851_il2cpp_TypeInfo;
+extern TypeInfo ISerializationSurrogate_t4622_il2cpp_TypeInfo;
+extern TypeInfo ISurrogateSelector_t4572_il2cpp_TypeInfo;
+extern TypeInfo ObjectManager_t4608_il2cpp_TypeInfo;
 // System.Runtime.Serialization.ObjectManager
 #include "mscorlib_System_Runtime_Serialization_ObjectManager.h"
-extern TypeInfo BaseFixupRecord_t4608_il2cpp_TypeInfo;
+extern TypeInfo BaseFixupRecord_t4616_il2cpp_TypeInfo;
 // System.Runtime.Serialization.BaseFixupRecord
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
-extern TypeInfo ArrayFixupRecord_t4609_il2cpp_TypeInfo;
+extern TypeInfo ArrayFixupRecord_t4617_il2cpp_TypeInfo;
 // System.Runtime.Serialization.ArrayFixupRecord
 #include "mscorlib_System_Runtime_Serialization_ArrayFixupRecord.h"
-extern TypeInfo MultiArrayFixupRecord_t4610_il2cpp_TypeInfo;
+extern TypeInfo MultiArrayFixupRecord_t4618_il2cpp_TypeInfo;
 // System.Runtime.Serialization.MultiArrayFixupRecord
 #include "mscorlib_System_Runtime_Serialization_MultiArrayFixupRecord.h"
-extern TypeInfo FixupRecord_t4611_il2cpp_TypeInfo;
+extern TypeInfo FixupRecord_t4619_il2cpp_TypeInfo;
 // System.Runtime.Serialization.FixupRecord
 #include "mscorlib_System_Runtime_Serialization_FixupRecord.h"
-extern TypeInfo DelayedFixupRecord_t4612_il2cpp_TypeInfo;
+extern TypeInfo DelayedFixupRecord_t4620_il2cpp_TypeInfo;
 // System.Runtime.Serialization.DelayedFixupRecord
 #include "mscorlib_System_Runtime_Serialization_DelayedFixupRecord.h"
-extern TypeInfo ObjectRecordStatus_t4613_il2cpp_TypeInfo;
+extern TypeInfo ObjectRecordStatus_t4621_il2cpp_TypeInfo;
 // System.Runtime.Serialization.ObjectRecordStatus
 #include "mscorlib_System_Runtime_Serialization_ObjectRecordStatus.h"
-extern TypeInfo ObjectRecord_t4607_il2cpp_TypeInfo;
+extern TypeInfo ObjectRecord_t4615_il2cpp_TypeInfo;
 // System.Runtime.Serialization.ObjectRecord
 #include "mscorlib_System_Runtime_Serialization_ObjectRecord.h"
-extern TypeInfo OnDeserializedAttribute_t4615_il2cpp_TypeInfo;
+extern TypeInfo OnDeserializedAttribute_t4623_il2cpp_TypeInfo;
 // System.Runtime.Serialization.OnDeserializedAttribute
 #include "mscorlib_System_Runtime_Serialization_OnDeserializedAttribut.h"
-extern TypeInfo OnDeserializingAttribute_t4616_il2cpp_TypeInfo;
+extern TypeInfo OnDeserializingAttribute_t4624_il2cpp_TypeInfo;
 // System.Runtime.Serialization.OnDeserializingAttribute
 #include "mscorlib_System_Runtime_Serialization_OnDeserializingAttribu.h"
-extern TypeInfo OnSerializedAttribute_t4617_il2cpp_TypeInfo;
+extern TypeInfo OnSerializedAttribute_t4625_il2cpp_TypeInfo;
 // System.Runtime.Serialization.OnSerializedAttribute
 #include "mscorlib_System_Runtime_Serialization_OnSerializedAttribute.h"
-extern TypeInfo OnSerializingAttribute_t4618_il2cpp_TypeInfo;
+extern TypeInfo OnSerializingAttribute_t4626_il2cpp_TypeInfo;
 // System.Runtime.Serialization.OnSerializingAttribute
 #include "mscorlib_System_Runtime_Serialization_OnSerializingAttribute.h"
-extern TypeInfo SerializationBinder_t4595_il2cpp_TypeInfo;
+extern TypeInfo SerializationBinder_t4603_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationBinder
 #include "mscorlib_System_Runtime_Serialization_SerializationBinder.h"
-extern TypeInfo CallbackHandler_t4619_il2cpp_TypeInfo;
+extern TypeInfo CallbackHandler_t4627_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationCallbacks/CallbackHandler
 #include "mscorlib_System_Runtime_Serialization_SerializationCallbacks.h"
-extern TypeInfo SerializationCallbacks_t4620_il2cpp_TypeInfo;
+extern TypeInfo SerializationCallbacks_t4628_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationCallbacks
 #include "mscorlib_System_Runtime_Serialization_SerializationCallbacks_0.h"
-extern TypeInfo SerializationEntry_t4621_il2cpp_TypeInfo;
+extern TypeInfo SerializationEntry_t4629_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationEntry
 #include "mscorlib_System_Runtime_Serialization_SerializationEntry.h"
-extern TypeInfo SerializationException_t4136_il2cpp_TypeInfo;
+extern TypeInfo SerializationException_t4144_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationException
 #include "mscorlib_System_Runtime_Serialization_SerializationException.h"
-extern TypeInfo SerializationInfo_t2860_il2cpp_TypeInfo;
+extern TypeInfo SerializationInfo_t2867_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationInfo
 #include "mscorlib_System_Runtime_Serialization_SerializationInfo.h"
-extern TypeInfo SerializationInfoEnumerator_t4623_il2cpp_TypeInfo;
+extern TypeInfo SerializationInfoEnumerator_t4631_il2cpp_TypeInfo;
 // System.Runtime.Serialization.SerializationInfoEnumerator
 #include "mscorlib_System_Runtime_Serialization_SerializationInfoEnume.h"
-extern TypeInfo StreamingContext_t2861_il2cpp_TypeInfo;
+extern TypeInfo StreamingContext_t2868_il2cpp_TypeInfo;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
-extern TypeInfo StreamingContextStates_t4624_il2cpp_TypeInfo;
+extern TypeInfo StreamingContextStates_t4632_il2cpp_TypeInfo;
 // System.Runtime.Serialization.StreamingContextStates
 #include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
-extern TypeInfo X509Certificate_t3824_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate_t3832_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Certificate
 #include "mscorlib_System_Security_Cryptography_X509Certificates_X509C.h"
-extern TypeInfo X509KeyStorageFlags_t4275_il2cpp_TypeInfo;
+extern TypeInfo X509KeyStorageFlags_t4283_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
 #include "mscorlib_System_Security_Cryptography_X509Certificates_X509K.h"
-extern TypeInfo AsymmetricAlgorithm_t3842_il2cpp_TypeInfo;
+extern TypeInfo AsymmetricAlgorithm_t3850_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_AsymmetricAlgorithm.h"
-extern TypeInfo AsymmetricKeyExchangeFormatter_t4625_il2cpp_TypeInfo;
+extern TypeInfo AsymmetricKeyExchangeFormatter_t4633_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsymmetricKeyExchangeFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricKeyExchangeF.h"
-extern TypeInfo AsymmetricSignatureDeformatter_t3809_il2cpp_TypeInfo;
+extern TypeInfo AsymmetricSignatureDeformatter_t3817_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsymmetricSignatureDeformatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureDef.h"
-extern TypeInfo AsymmetricSignatureFormatter_t3811_il2cpp_TypeInfo;
+extern TypeInfo AsymmetricSignatureFormatter_t3819_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsymmetricSignatureFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
-extern TypeInfo Base64Constants_t4626_il2cpp_TypeInfo;
+extern TypeInfo Base64Constants_t4634_il2cpp_TypeInfo;
 // System.Security.Cryptography.Base64Constants
 #include "mscorlib_System_Security_Cryptography_Base64Constants.h"
-extern TypeInfo CipherMode_t3889_il2cpp_TypeInfo;
+extern TypeInfo CipherMode_t3897_il2cpp_TypeInfo;
 // System.Security.Cryptography.CipherMode
 #include "mscorlib_System_Security_Cryptography_CipherMode.h"
-extern TypeInfo CryptoConfig_t3857_il2cpp_TypeInfo;
+extern TypeInfo CryptoConfig_t3865_il2cpp_TypeInfo;
 // System.Security.Cryptography.CryptoConfig
 #include "mscorlib_System_Security_Cryptography_CryptoConfig.h"
-extern TypeInfo CryptographicException_t3858_il2cpp_TypeInfo;
+extern TypeInfo CryptographicException_t3866_il2cpp_TypeInfo;
 // System.Security.Cryptography.CryptographicException
 #include "mscorlib_System_Security_Cryptography_CryptographicException.h"
-extern TypeInfo CryptographicUnexpectedOperationException_t3870_il2cpp_TypeInfo;
+extern TypeInfo CryptographicUnexpectedOperationException_t3878_il2cpp_TypeInfo;
 // System.Security.Cryptography.CryptographicUnexpectedOperationException
 #include "mscorlib_System_Security_Cryptography_CryptographicUnexpecte.h"
-extern TypeInfo CspParameters_t3859_il2cpp_TypeInfo;
+extern TypeInfo CspParameters_t3867_il2cpp_TypeInfo;
 // System.Security.Cryptography.CspParameters
 #include "mscorlib_System_Security_Cryptography_CspParameters.h"
-extern TypeInfo CspProviderFlags_t4627_il2cpp_TypeInfo;
+extern TypeInfo CspProviderFlags_t4635_il2cpp_TypeInfo;
 // System.Security.Cryptography.CspProviderFlags
 #include "mscorlib_System_Security_Cryptography_CspProviderFlags.h"
-extern TypeInfo DES_t3872_il2cpp_TypeInfo;
+extern TypeInfo DES_t3880_il2cpp_TypeInfo;
 // System.Security.Cryptography.DES
 #include "mscorlib_System_Security_Cryptography_DES.h"
-extern TypeInfo DESTransform_t4629_il2cpp_TypeInfo;
+extern TypeInfo DESTransform_t4637_il2cpp_TypeInfo;
 // System.Security.Cryptography.DESTransform
 #include "mscorlib_System_Security_Cryptography_DESTransform.h"
-extern TypeInfo DESCryptoServiceProvider_t4630_il2cpp_TypeInfo;
+extern TypeInfo DESCryptoServiceProvider_t4638_il2cpp_TypeInfo;
 // System.Security.Cryptography.DESCryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_DESCryptoServiceProvid.h"
-extern TypeInfo DSA_t3753_il2cpp_TypeInfo;
+extern TypeInfo DSA_t3761_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSA
 #include "mscorlib_System_Security_Cryptography_DSA.h"
-extern TypeInfo DSACryptoServiceProvider_t3863_il2cpp_TypeInfo;
+extern TypeInfo DSACryptoServiceProvider_t3871_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSACryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_DSACryptoServiceProvid.h"
-extern TypeInfo DSAParameters_t3854_il2cpp_TypeInfo;
+extern TypeInfo DSAParameters_t3862_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSAParameters
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
-extern TypeInfo DSASignatureDeformatter_t3867_il2cpp_TypeInfo;
+extern TypeInfo DSASignatureDeformatter_t3875_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSASignatureDeformatter
 #include "mscorlib_System_Security_Cryptography_DSASignatureDeformatte.h"
-extern TypeInfo DSASignatureFormatter_t4631_il2cpp_TypeInfo;
+extern TypeInfo DSASignatureFormatter_t4639_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSASignatureFormatter
 #include "mscorlib_System_Security_Cryptography_DSASignatureFormatter.h"
-extern TypeInfo HMAC_t3862_il2cpp_TypeInfo;
+extern TypeInfo HMAC_t3870_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMAC
 #include "mscorlib_System_Security_Cryptography_HMAC.h"
-extern TypeInfo HMACMD5_t4632_il2cpp_TypeInfo;
+extern TypeInfo HMACMD5_t4640_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACMD5
 #include "mscorlib_System_Security_Cryptography_HMACMD5.h"
-extern TypeInfo HMACRIPEMD160_t4633_il2cpp_TypeInfo;
+extern TypeInfo HMACRIPEMD160_t4641_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACRIPEMD160
 #include "mscorlib_System_Security_Cryptography_HMACRIPEMD160.h"
 extern TypeInfo HMACSHA1_t331_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACSHA1
 #include "mscorlib_System_Security_Cryptography_HMACSHA1.h"
-extern TypeInfo HMACSHA256_t4634_il2cpp_TypeInfo;
+extern TypeInfo HMACSHA256_t4642_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACSHA256
 #include "mscorlib_System_Security_Cryptography_HMACSHA256.h"
-extern TypeInfo HMACSHA384_t4635_il2cpp_TypeInfo;
+extern TypeInfo HMACSHA384_t4643_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACSHA384
 #include "mscorlib_System_Security_Cryptography_HMACSHA384.h"
-extern TypeInfo HMACSHA512_t4636_il2cpp_TypeInfo;
+extern TypeInfo HMACSHA512_t4644_il2cpp_TypeInfo;
 // System.Security.Cryptography.HMACSHA512
 #include "mscorlib_System_Security_Cryptography_HMACSHA512.h"
-extern TypeInfo HashAlgorithm_t3737_il2cpp_TypeInfo;
+extern TypeInfo HashAlgorithm_t3745_il2cpp_TypeInfo;
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
-extern TypeInfo ICryptoTransform_t3783_il2cpp_TypeInfo;
-extern TypeInfo ICspAsymmetricAlgorithm_t4917_il2cpp_TypeInfo;
-extern TypeInfo KeySizes_t3861_il2cpp_TypeInfo;
+extern TypeInfo ICryptoTransform_t3791_il2cpp_TypeInfo;
+extern TypeInfo ICspAsymmetricAlgorithm_t4925_il2cpp_TypeInfo;
+extern TypeInfo KeySizes_t3869_il2cpp_TypeInfo;
 // System.Security.Cryptography.KeySizes
 #include "mscorlib_System_Security_Cryptography_KeySizes.h"
-extern TypeInfo KeyedHashAlgorithm_t3776_il2cpp_TypeInfo;
+extern TypeInfo KeyedHashAlgorithm_t3784_il2cpp_TypeInfo;
 // System.Security.Cryptography.KeyedHashAlgorithm
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
-extern TypeInfo MACTripleDES_t4637_il2cpp_TypeInfo;
+extern TypeInfo MACTripleDES_t4645_il2cpp_TypeInfo;
 // System.Security.Cryptography.MACTripleDES
 #include "mscorlib_System_Security_Cryptography_MACTripleDES.h"
-extern TypeInfo MD5_t3864_il2cpp_TypeInfo;
+extern TypeInfo MD5_t3872_il2cpp_TypeInfo;
 // System.Security.Cryptography.MD5
 #include "mscorlib_System_Security_Cryptography_MD5.h"
-extern TypeInfo MD5CryptoServiceProvider_t4638_il2cpp_TypeInfo;
+extern TypeInfo MD5CryptoServiceProvider_t4646_il2cpp_TypeInfo;
 // System.Security.Cryptography.MD5CryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_MD5CryptoServiceProvid.h"
-extern TypeInfo PaddingMode_t4639_il2cpp_TypeInfo;
+extern TypeInfo PaddingMode_t4647_il2cpp_TypeInfo;
 // System.Security.Cryptography.PaddingMode
 #include "mscorlib_System_Security_Cryptography_PaddingMode.h"
-extern TypeInfo RC2_t3873_il2cpp_TypeInfo;
+extern TypeInfo RC2_t3881_il2cpp_TypeInfo;
 // System.Security.Cryptography.RC2
 #include "mscorlib_System_Security_Cryptography_RC2.h"
-extern TypeInfo RC2CryptoServiceProvider_t4640_il2cpp_TypeInfo;
+extern TypeInfo RC2CryptoServiceProvider_t4648_il2cpp_TypeInfo;
 // System.Security.Cryptography.RC2CryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_RC2CryptoServiceProvid.h"
-extern TypeInfo RC2Transform_t4641_il2cpp_TypeInfo;
+extern TypeInfo RC2Transform_t4649_il2cpp_TypeInfo;
 // System.Security.Cryptography.RC2Transform
 #include "mscorlib_System_Security_Cryptography_RC2Transform.h"
-extern TypeInfo RIPEMD160_t4642_il2cpp_TypeInfo;
+extern TypeInfo RIPEMD160_t4650_il2cpp_TypeInfo;
 // System.Security.Cryptography.RIPEMD160
 #include "mscorlib_System_Security_Cryptography_RIPEMD160.h"
-extern TypeInfo RIPEMD160Managed_t4643_il2cpp_TypeInfo;
+extern TypeInfo RIPEMD160Managed_t4651_il2cpp_TypeInfo;
 // System.Security.Cryptography.RIPEMD160Managed
 #include "mscorlib_System_Security_Cryptography_RIPEMD160Managed.h"
-extern TypeInfo RNGCryptoServiceProvider_t4644_il2cpp_TypeInfo;
+extern TypeInfo RNGCryptoServiceProvider_t4652_il2cpp_TypeInfo;
 // System.Security.Cryptography.RNGCryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_RNGCryptoServiceProvid.h"
-extern TypeInfo RSA_t3747_il2cpp_TypeInfo;
+extern TypeInfo RSA_t3755_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSA
 #include "mscorlib_System_Security_Cryptography_RSA.h"
-extern TypeInfo RSACryptoServiceProvider_t3860_il2cpp_TypeInfo;
+extern TypeInfo RSACryptoServiceProvider_t3868_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSACryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_RSACryptoServiceProvid.h"
-extern TypeInfo RSAPKCS1KeyExchangeFormatter_t3884_il2cpp_TypeInfo;
+extern TypeInfo RSAPKCS1KeyExchangeFormatter_t3892_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter
 #include "mscorlib_System_Security_Cryptography_RSAPKCS1KeyExchangeFor.h"
-extern TypeInfo RSAPKCS1SignatureDeformatter_t3868_il2cpp_TypeInfo;
+extern TypeInfo RSAPKCS1SignatureDeformatter_t3876_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSAPKCS1SignatureDeformatter
 #include "mscorlib_System_Security_Cryptography_RSAPKCS1SignatureDefor.h"
-extern TypeInfo RSAPKCS1SignatureFormatter_t4645_il2cpp_TypeInfo;
+extern TypeInfo RSAPKCS1SignatureFormatter_t4653_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSAPKCS1SignatureFormatter
 #include "mscorlib_System_Security_Cryptography_RSAPKCS1SignatureForma.h"
-extern TypeInfo RSAParameters_t3827_il2cpp_TypeInfo;
+extern TypeInfo RSAParameters_t3835_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSAParameters
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
-extern TypeInfo RandomNumberGenerator_t3721_il2cpp_TypeInfo;
+extern TypeInfo RandomNumberGenerator_t3729_il2cpp_TypeInfo;
 // System.Security.Cryptography.RandomNumberGenerator
 #include "mscorlib_System_Security_Cryptography_RandomNumberGenerator.h"
-extern TypeInfo Rijndael_t3875_il2cpp_TypeInfo;
+extern TypeInfo Rijndael_t3883_il2cpp_TypeInfo;
 // System.Security.Cryptography.Rijndael
 #include "mscorlib_System_Security_Cryptography_Rijndael.h"
-extern TypeInfo RijndaelManaged_t4646_il2cpp_TypeInfo;
+extern TypeInfo RijndaelManaged_t4654_il2cpp_TypeInfo;
 // System.Security.Cryptography.RijndaelManaged
 #include "mscorlib_System_Security_Cryptography_RijndaelManaged.h"
-extern TypeInfo RijndaelTransform_t4647_il2cpp_TypeInfo;
+extern TypeInfo RijndaelTransform_t4655_il2cpp_TypeInfo;
 // System.Security.Cryptography.RijndaelTransform
 #include "mscorlib_System_Security_Cryptography_RijndaelTransform.h"
-extern TypeInfo RijndaelManagedTransform_t4648_il2cpp_TypeInfo;
+extern TypeInfo RijndaelManagedTransform_t4656_il2cpp_TypeInfo;
 // System.Security.Cryptography.RijndaelManagedTransform
 #include "mscorlib_System_Security_Cryptography_RijndaelManagedTransfo.h"
-extern TypeInfo SHA1_t3865_il2cpp_TypeInfo;
+extern TypeInfo SHA1_t3873_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA1
 #include "mscorlib_System_Security_Cryptography_SHA1.h"
-extern TypeInfo SHA1Internal_t4649_il2cpp_TypeInfo;
+extern TypeInfo SHA1Internal_t4657_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA1Internal
 #include "mscorlib_System_Security_Cryptography_SHA1Internal.h"
-extern TypeInfo SHA1CryptoServiceProvider_t4650_il2cpp_TypeInfo;
+extern TypeInfo SHA1CryptoServiceProvider_t4658_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA1CryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_SHA1CryptoServiceProvi.h"
-extern TypeInfo SHA1Managed_t4651_il2cpp_TypeInfo;
+extern TypeInfo SHA1Managed_t4659_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA1Managed
 #include "mscorlib_System_Security_Cryptography_SHA1Managed.h"
-extern TypeInfo SHA256_t3866_il2cpp_TypeInfo;
+extern TypeInfo SHA256_t3874_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA256
 #include "mscorlib_System_Security_Cryptography_SHA256.h"
-extern TypeInfo SHA256Managed_t4652_il2cpp_TypeInfo;
+extern TypeInfo SHA256Managed_t4660_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA256Managed
 #include "mscorlib_System_Security_Cryptography_SHA256Managed.h"
-extern TypeInfo SHA384_t4653_il2cpp_TypeInfo;
+extern TypeInfo SHA384_t4661_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA384
 #include "mscorlib_System_Security_Cryptography_SHA384.h"
-extern TypeInfo SHA384Managed_t4655_il2cpp_TypeInfo;
+extern TypeInfo SHA384Managed_t4663_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA384Managed
 #include "mscorlib_System_Security_Cryptography_SHA384Managed.h"
-extern TypeInfo SHA512_t4656_il2cpp_TypeInfo;
+extern TypeInfo SHA512_t4664_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA512
 #include "mscorlib_System_Security_Cryptography_SHA512.h"
-extern TypeInfo SHA512Managed_t4657_il2cpp_TypeInfo;
+extern TypeInfo SHA512Managed_t4665_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHA512Managed
 #include "mscorlib_System_Security_Cryptography_SHA512Managed.h"
-extern TypeInfo SHAConstants_t4658_il2cpp_TypeInfo;
+extern TypeInfo SHAConstants_t4666_il2cpp_TypeInfo;
 // System.Security.Cryptography.SHAConstants
 #include "mscorlib_System_Security_Cryptography_SHAConstants.h"
-extern TypeInfo SignatureDescription_t4659_il2cpp_TypeInfo;
+extern TypeInfo SignatureDescription_t4667_il2cpp_TypeInfo;
 // System.Security.Cryptography.SignatureDescription
 #include "mscorlib_System_Security_Cryptography_SignatureDescription.h"
-extern TypeInfo DSASignatureDescription_t4660_il2cpp_TypeInfo;
+extern TypeInfo DSASignatureDescription_t4668_il2cpp_TypeInfo;
 // System.Security.Cryptography.DSASignatureDescription
 #include "mscorlib_System_Security_Cryptography_DSASignatureDescriptio.h"
-extern TypeInfo RSAPKCS1SHA1SignatureDescription_t4661_il2cpp_TypeInfo;
+extern TypeInfo RSAPKCS1SHA1SignatureDescription_t4669_il2cpp_TypeInfo;
 // System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
 #include "mscorlib_System_Security_Cryptography_RSAPKCS1SHA1SignatureD.h"
-extern TypeInfo SymmetricAlgorithm_t3744_il2cpp_TypeInfo;
+extern TypeInfo SymmetricAlgorithm_t3752_il2cpp_TypeInfo;
 // System.Security.Cryptography.SymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
-extern TypeInfo ToBase64Transform_t4662_il2cpp_TypeInfo;
+extern TypeInfo ToBase64Transform_t4670_il2cpp_TypeInfo;
 // System.Security.Cryptography.ToBase64Transform
 #include "mscorlib_System_Security_Cryptography_ToBase64Transform.h"
-extern TypeInfo TripleDES_t3874_il2cpp_TypeInfo;
+extern TypeInfo TripleDES_t3882_il2cpp_TypeInfo;
 // System.Security.Cryptography.TripleDES
 #include "mscorlib_System_Security_Cryptography_TripleDES.h"
-extern TypeInfo TripleDESCryptoServiceProvider_t4663_il2cpp_TypeInfo;
+extern TypeInfo TripleDESCryptoServiceProvider_t4671_il2cpp_TypeInfo;
 // System.Security.Cryptography.TripleDESCryptoServiceProvider
 #include "mscorlib_System_Security_Cryptography_TripleDESCryptoService.h"
-extern TypeInfo TripleDESTransform_t4664_il2cpp_TypeInfo;
+extern TypeInfo TripleDESTransform_t4672_il2cpp_TypeInfo;
 // System.Security.Cryptography.TripleDESTransform
 #include "mscorlib_System_Security_Cryptography_TripleDESTransform.h"
-extern TypeInfo IBuiltInPermission_t4918_il2cpp_TypeInfo;
-extern TypeInfo IUnrestrictedPermission_t4919_il2cpp_TypeInfo;
-extern TypeInfo SecurityPermission_t4665_il2cpp_TypeInfo;
+extern TypeInfo IBuiltInPermission_t4926_il2cpp_TypeInfo;
+extern TypeInfo IUnrestrictedPermission_t4927_il2cpp_TypeInfo;
+extern TypeInfo SecurityPermission_t4673_il2cpp_TypeInfo;
 // System.Security.Permissions.SecurityPermission
 #include "mscorlib_System_Security_Permissions_SecurityPermission.h"
-extern TypeInfo SecurityPermissionFlag_t4667_il2cpp_TypeInfo;
+extern TypeInfo SecurityPermissionFlag_t4675_il2cpp_TypeInfo;
 // System.Security.Permissions.SecurityPermissionFlag
 #include "mscorlib_System_Security_Permissions_SecurityPermissionFlag.h"
-extern TypeInfo StrongNamePublicKeyBlob_t4668_il2cpp_TypeInfo;
+extern TypeInfo StrongNamePublicKeyBlob_t4676_il2cpp_TypeInfo;
 // System.Security.Permissions.StrongNamePublicKeyBlob
 #include "mscorlib_System_Security_Permissions_StrongNamePublicKeyBlob.h"
-extern TypeInfo ApplicationTrust_t4670_il2cpp_TypeInfo;
+extern TypeInfo ApplicationTrust_t4678_il2cpp_TypeInfo;
 // System.Security.Policy.ApplicationTrust
 #include "mscorlib_System_Security_Policy_ApplicationTrust.h"
-extern TypeInfo EvidenceEnumerator_t4671_il2cpp_TypeInfo;
+extern TypeInfo EvidenceEnumerator_t4679_il2cpp_TypeInfo;
 // System.Security.Policy.Evidence/EvidenceEnumerator
 #include "mscorlib_System_Security_Policy_Evidence_EvidenceEnumerator.h"
-extern TypeInfo Evidence_t4471_il2cpp_TypeInfo;
+extern TypeInfo Evidence_t4479_il2cpp_TypeInfo;
 // System.Security.Policy.Evidence
 #include "mscorlib_System_Security_Policy_Evidence.h"
-extern TypeInfo Hash_t4672_il2cpp_TypeInfo;
+extern TypeInfo Hash_t4680_il2cpp_TypeInfo;
 // System.Security.Policy.Hash
 #include "mscorlib_System_Security_Policy_Hash.h"
-extern TypeInfo IBuiltInEvidence_t4920_il2cpp_TypeInfo;
-extern TypeInfo IIdentityPermissionFactory_t4921_il2cpp_TypeInfo;
-extern TypeInfo StrongName_t4673_il2cpp_TypeInfo;
+extern TypeInfo IBuiltInEvidence_t4928_il2cpp_TypeInfo;
+extern TypeInfo IIdentityPermissionFactory_t4929_il2cpp_TypeInfo;
+extern TypeInfo StrongName_t4681_il2cpp_TypeInfo;
 // System.Security.Policy.StrongName
 #include "mscorlib_System_Security_Policy_StrongName.h"
-extern TypeInfo IIdentity_t4922_il2cpp_TypeInfo;
-extern TypeInfo IPrincipal_t4713_il2cpp_TypeInfo;
-extern TypeInfo PrincipalPolicy_t4674_il2cpp_TypeInfo;
+extern TypeInfo IIdentity_t4930_il2cpp_TypeInfo;
+extern TypeInfo IPrincipal_t4721_il2cpp_TypeInfo;
+extern TypeInfo PrincipalPolicy_t4682_il2cpp_TypeInfo;
 // System.Security.Principal.PrincipalPolicy
 #include "mscorlib_System_Security_Principal_PrincipalPolicy.h"
-extern TypeInfo WindowsAccountType_t4675_il2cpp_TypeInfo;
+extern TypeInfo WindowsAccountType_t4683_il2cpp_TypeInfo;
 // System.Security.Principal.WindowsAccountType
 #include "mscorlib_System_Security_Principal_WindowsAccountType.h"
-extern TypeInfo WindowsIdentity_t4676_il2cpp_TypeInfo;
+extern TypeInfo WindowsIdentity_t4684_il2cpp_TypeInfo;
 // System.Security.Principal.WindowsIdentity
 #include "mscorlib_System_Security_Principal_WindowsIdentity.h"
-extern TypeInfo CodeAccessPermission_t4666_il2cpp_TypeInfo;
+extern TypeInfo CodeAccessPermission_t4674_il2cpp_TypeInfo;
 // System.Security.CodeAccessPermission
 #include "mscorlib_System_Security_CodeAccessPermission.h"
-extern TypeInfo IPermission_t4680_il2cpp_TypeInfo;
-extern TypeInfo ISecurityEncodable_t4923_il2cpp_TypeInfo;
-extern TypeInfo IStackWalk_t4924_il2cpp_TypeInfo;
-extern TypeInfo PermissionSet_t4472_il2cpp_TypeInfo;
+extern TypeInfo IPermission_t4688_il2cpp_TypeInfo;
+extern TypeInfo ISecurityEncodable_t4931_il2cpp_TypeInfo;
+extern TypeInfo IStackWalk_t4932_il2cpp_TypeInfo;
+extern TypeInfo PermissionSet_t4480_il2cpp_TypeInfo;
 // System.Security.PermissionSet
 #include "mscorlib_System_Security_PermissionSet.h"
-extern TypeInfo SecurityContext_t4678_il2cpp_TypeInfo;
+extern TypeInfo SecurityContext_t4686_il2cpp_TypeInfo;
 // System.Security.SecurityContext
 #include "mscorlib_System_Security_SecurityContext.h"
-extern TypeInfo SecurityCriticalAttribute_t2905_il2cpp_TypeInfo;
+extern TypeInfo SecurityCriticalAttribute_t2912_il2cpp_TypeInfo;
 // System.Security.SecurityCriticalAttribute
 #include "mscorlib_System_Security_SecurityCriticalAttribute.h"
-extern TypeInfo SecurityAttribute_t4679_il2cpp_TypeInfo;
+extern TypeInfo SecurityAttribute_t4687_il2cpp_TypeInfo;
 // System.Security.SecurityElement/SecurityAttribute
 #include "mscorlib_System_Security_SecurityElement_SecurityAttribute.h"
-extern TypeInfo SecurityElement_t4367_il2cpp_TypeInfo;
+extern TypeInfo SecurityElement_t4375_il2cpp_TypeInfo;
 // System.Security.SecurityElement
 #include "mscorlib_System_Security_SecurityElement.h"
-extern TypeInfo SecurityException_t4140_il2cpp_TypeInfo;
+extern TypeInfo SecurityException_t4148_il2cpp_TypeInfo;
 // System.Security.SecurityException
 #include "mscorlib_System_Security_SecurityException.h"
-extern TypeInfo RuntimeDeclSecurityEntry_t4681_il2cpp_TypeInfo;
+extern TypeInfo RuntimeDeclSecurityEntry_t4689_il2cpp_TypeInfo;
 // System.Security.RuntimeDeclSecurityEntry
 #include "mscorlib_System_Security_RuntimeDeclSecurityEntry.h"
-extern TypeInfo RuntimeSecurityFrame_t4682_il2cpp_TypeInfo;
+extern TypeInfo RuntimeSecurityFrame_t4690_il2cpp_TypeInfo;
 // System.Security.RuntimeSecurityFrame
 #include "mscorlib_System_Security_RuntimeSecurityFrame.h"
-extern TypeInfo SecurityFrame_t4683_il2cpp_TypeInfo;
+extern TypeInfo SecurityFrame_t4691_il2cpp_TypeInfo;
 // System.Security.SecurityFrame
 #include "mscorlib_System_Security_SecurityFrame.h"
-extern TypeInfo SecurityManager_t4684_il2cpp_TypeInfo;
+extern TypeInfo SecurityManager_t4692_il2cpp_TypeInfo;
 // System.Security.SecurityManager
 #include "mscorlib_System_Security_SecurityManager.h"
-extern TypeInfo SecuritySafeCriticalAttribute_t2904_il2cpp_TypeInfo;
+extern TypeInfo SecuritySafeCriticalAttribute_t2911_il2cpp_TypeInfo;
 // System.Security.SecuritySafeCriticalAttribute
 #include "mscorlib_System_Security_SecuritySafeCriticalAttribute.h"
-extern TypeInfo SuppressUnmanagedCodeSecurityAttribute_t4163_il2cpp_TypeInfo;
+extern TypeInfo SuppressUnmanagedCodeSecurityAttribute_t4171_il2cpp_TypeInfo;
 // System.Security.SuppressUnmanagedCodeSecurityAttribute
 #include "mscorlib_System_Security_SuppressUnmanagedCodeSecurityAttrib.h"
-extern TypeInfo UnverifiableCodeAttribute_t4685_il2cpp_TypeInfo;
+extern TypeInfo UnverifiableCodeAttribute_t4693_il2cpp_TypeInfo;
 // System.Security.UnverifiableCodeAttribute
 #include "mscorlib_System_Security_UnverifiableCodeAttribute.h"
-extern TypeInfo ASCIIEncoding_t698_il2cpp_TypeInfo;
+extern TypeInfo ASCIIEncoding_t706_il2cpp_TypeInfo;
 // System.Text.ASCIIEncoding
 #include "mscorlib_System_Text_ASCIIEncoding.h"
-extern TypeInfo Decoder_t3176_il2cpp_TypeInfo;
+extern TypeInfo Decoder_t3184_il2cpp_TypeInfo;
 // System.Text.Decoder
 #include "mscorlib_System_Text_Decoder.h"
-extern TypeInfo DecoderExceptionFallback_t4688_il2cpp_TypeInfo;
+extern TypeInfo DecoderExceptionFallback_t4696_il2cpp_TypeInfo;
 // System.Text.DecoderExceptionFallback
 #include "mscorlib_System_Text_DecoderExceptionFallback.h"
-extern TypeInfo DecoderExceptionFallbackBuffer_t4689_il2cpp_TypeInfo;
+extern TypeInfo DecoderExceptionFallbackBuffer_t4697_il2cpp_TypeInfo;
 // System.Text.DecoderExceptionFallbackBuffer
 #include "mscorlib_System_Text_DecoderExceptionFallbackBuffer.h"
-extern TypeInfo DecoderFallback_t4686_il2cpp_TypeInfo;
+extern TypeInfo DecoderFallback_t4694_il2cpp_TypeInfo;
 // System.Text.DecoderFallback
 #include "mscorlib_System_Text_DecoderFallback.h"
-extern TypeInfo DecoderFallbackBuffer_t4687_il2cpp_TypeInfo;
+extern TypeInfo DecoderFallbackBuffer_t4695_il2cpp_TypeInfo;
 // System.Text.DecoderFallbackBuffer
 #include "mscorlib_System_Text_DecoderFallbackBuffer.h"
-extern TypeInfo DecoderFallbackException_t4690_il2cpp_TypeInfo;
+extern TypeInfo DecoderFallbackException_t4698_il2cpp_TypeInfo;
 // System.Text.DecoderFallbackException
 #include "mscorlib_System_Text_DecoderFallbackException.h"
-extern TypeInfo DecoderReplacementFallback_t4691_il2cpp_TypeInfo;
+extern TypeInfo DecoderReplacementFallback_t4699_il2cpp_TypeInfo;
 // System.Text.DecoderReplacementFallback
 #include "mscorlib_System_Text_DecoderReplacementFallback.h"
-extern TypeInfo DecoderReplacementFallbackBuffer_t4692_il2cpp_TypeInfo;
+extern TypeInfo DecoderReplacementFallbackBuffer_t4700_il2cpp_TypeInfo;
 // System.Text.DecoderReplacementFallbackBuffer
 #include "mscorlib_System_Text_DecoderReplacementFallbackBuffer.h"
-extern TypeInfo EncoderExceptionFallback_t4693_il2cpp_TypeInfo;
+extern TypeInfo EncoderExceptionFallback_t4701_il2cpp_TypeInfo;
 // System.Text.EncoderExceptionFallback
 #include "mscorlib_System_Text_EncoderExceptionFallback.h"
-extern TypeInfo EncoderExceptionFallbackBuffer_t4695_il2cpp_TypeInfo;
+extern TypeInfo EncoderExceptionFallbackBuffer_t4703_il2cpp_TypeInfo;
 // System.Text.EncoderExceptionFallbackBuffer
 #include "mscorlib_System_Text_EncoderExceptionFallbackBuffer.h"
-extern TypeInfo EncoderFallback_t4694_il2cpp_TypeInfo;
+extern TypeInfo EncoderFallback_t4702_il2cpp_TypeInfo;
 // System.Text.EncoderFallback
 #include "mscorlib_System_Text_EncoderFallback.h"
-extern TypeInfo EncoderFallbackBuffer_t4696_il2cpp_TypeInfo;
+extern TypeInfo EncoderFallbackBuffer_t4704_il2cpp_TypeInfo;
 // System.Text.EncoderFallbackBuffer
 #include "mscorlib_System_Text_EncoderFallbackBuffer.h"
-extern TypeInfo EncoderFallbackException_t4697_il2cpp_TypeInfo;
+extern TypeInfo EncoderFallbackException_t4705_il2cpp_TypeInfo;
 // System.Text.EncoderFallbackException
 #include "mscorlib_System_Text_EncoderFallbackException.h"
-extern TypeInfo EncoderReplacementFallback_t4698_il2cpp_TypeInfo;
+extern TypeInfo EncoderReplacementFallback_t4706_il2cpp_TypeInfo;
 // System.Text.EncoderReplacementFallback
 #include "mscorlib_System_Text_EncoderReplacementFallback.h"
-extern TypeInfo EncoderReplacementFallbackBuffer_t4699_il2cpp_TypeInfo;
+extern TypeInfo EncoderReplacementFallbackBuffer_t4707_il2cpp_TypeInfo;
 // System.Text.EncoderReplacementFallbackBuffer
 #include "mscorlib_System_Text_EncoderReplacementFallbackBuffer.h"
-extern TypeInfo ForwardingDecoder_t4700_il2cpp_TypeInfo;
+extern TypeInfo ForwardingDecoder_t4708_il2cpp_TypeInfo;
 // System.Text.Encoding/ForwardingDecoder
 #include "mscorlib_System_Text_Encoding_ForwardingDecoder.h"
-extern TypeInfo Encoding_t681_il2cpp_TypeInfo;
+extern TypeInfo Encoding_t689_il2cpp_TypeInfo;
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
-extern TypeInfo Latin1Encoding_t4701_il2cpp_TypeInfo;
+extern TypeInfo Latin1Encoding_t4709_il2cpp_TypeInfo;
 // System.Text.Latin1Encoding
 #include "mscorlib_System_Text_Latin1Encoding.h"
 extern TypeInfo StringBuilder_t261_il2cpp_TypeInfo;
 // System.Text.StringBuilder
 #include "mscorlib_System_Text_StringBuilder.h"
-extern TypeInfo UTF32Decoder_t4702_il2cpp_TypeInfo;
+extern TypeInfo UTF32Decoder_t4710_il2cpp_TypeInfo;
 // System.Text.UTF32Encoding/UTF32Decoder
 #include "mscorlib_System_Text_UTF32Encoding_UTF32Decoder.h"
-extern TypeInfo UTF32Encoding_t4703_il2cpp_TypeInfo;
+extern TypeInfo UTF32Encoding_t4711_il2cpp_TypeInfo;
 // System.Text.UTF32Encoding
 #include "mscorlib_System_Text_UTF32Encoding.h"
-extern TypeInfo UTF7Decoder_t4704_il2cpp_TypeInfo;
+extern TypeInfo UTF7Decoder_t4712_il2cpp_TypeInfo;
 // System.Text.UTF7Encoding/UTF7Decoder
 #include "mscorlib_System_Text_UTF7Encoding_UTF7Decoder.h"
-extern TypeInfo UTF7Encoding_t4706_il2cpp_TypeInfo;
+extern TypeInfo UTF7Encoding_t4714_il2cpp_TypeInfo;
 // System.Text.UTF7Encoding
 #include "mscorlib_System_Text_UTF7Encoding.h"
-extern TypeInfo UTF8Decoder_t4707_il2cpp_TypeInfo;
+extern TypeInfo UTF8Decoder_t4715_il2cpp_TypeInfo;
 // System.Text.UTF8Encoding/UTF8Decoder
 #include "mscorlib_System_Text_UTF8Encoding_UTF8Decoder.h"
-extern TypeInfo UTF8Encoding_t3239_il2cpp_TypeInfo;
+extern TypeInfo UTF8Encoding_t3247_il2cpp_TypeInfo;
 // System.Text.UTF8Encoding
 #include "mscorlib_System_Text_UTF8Encoding.h"
-extern TypeInfo UnicodeDecoder_t4708_il2cpp_TypeInfo;
+extern TypeInfo UnicodeDecoder_t4716_il2cpp_TypeInfo;
 // System.Text.UnicodeEncoding/UnicodeDecoder
 #include "mscorlib_System_Text_UnicodeEncoding_UnicodeDecoder.h"
-extern TypeInfo UnicodeEncoding_t4709_il2cpp_TypeInfo;
+extern TypeInfo UnicodeEncoding_t4717_il2cpp_TypeInfo;
 // System.Text.UnicodeEncoding
 #include "mscorlib_System_Text_UnicodeEncoding.h"
-extern TypeInfo AutoResetEvent_t3318_il2cpp_TypeInfo;
+extern TypeInfo AutoResetEvent_t3326_il2cpp_TypeInfo;
 // System.Threading.AutoResetEvent
 #include "mscorlib_System_Threading_AutoResetEvent.h"
-extern TypeInfo CompressedStack_t4677_il2cpp_TypeInfo;
+extern TypeInfo CompressedStack_t4685_il2cpp_TypeInfo;
 // System.Threading.CompressedStack
 #include "mscorlib_System_Threading_CompressedStack.h"
-extern TypeInfo EventResetMode_t4710_il2cpp_TypeInfo;
+extern TypeInfo EventResetMode_t4718_il2cpp_TypeInfo;
 // System.Threading.EventResetMode
 #include "mscorlib_System_Threading_EventResetMode.h"
-extern TypeInfo EventWaitHandle_t3293_il2cpp_TypeInfo;
+extern TypeInfo EventWaitHandle_t3301_il2cpp_TypeInfo;
 // System.Threading.EventWaitHandle
 #include "mscorlib_System_Threading_EventWaitHandle.h"
-extern TypeInfo ExecutionContext_t4546_il2cpp_TypeInfo;
+extern TypeInfo ExecutionContext_t4554_il2cpp_TypeInfo;
 // System.Threading.ExecutionContext
 #include "mscorlib_System_Threading_ExecutionContext.h"
-extern TypeInfo Interlocked_t1368_il2cpp_TypeInfo;
+extern TypeInfo Interlocked_t1375_il2cpp_TypeInfo;
 // System.Threading.Interlocked
 #include "mscorlib_System_Threading_Interlocked.h"
-extern TypeInfo ManualResetEvent_t3319_il2cpp_TypeInfo;
+extern TypeInfo ManualResetEvent_t3327_il2cpp_TypeInfo;
 // System.Threading.ManualResetEvent
 #include "mscorlib_System_Threading_ManualResetEvent.h"
-extern TypeInfo Monitor_t4711_il2cpp_TypeInfo;
+extern TypeInfo Monitor_t4719_il2cpp_TypeInfo;
 // System.Threading.Monitor
 #include "mscorlib_System_Threading_Monitor.h"
-extern TypeInfo Mutex_t4542_il2cpp_TypeInfo;
+extern TypeInfo Mutex_t4550_il2cpp_TypeInfo;
 // System.Threading.Mutex
 #include "mscorlib_System_Threading_Mutex.h"
-extern TypeInfo NativeEventCalls_t4712_il2cpp_TypeInfo;
+extern TypeInfo NativeEventCalls_t4720_il2cpp_TypeInfo;
 // System.Threading.NativeEventCalls
 #include "mscorlib_System_Threading_NativeEventCalls.h"
-extern TypeInfo SynchronizationContext_t1308_il2cpp_TypeInfo;
+extern TypeInfo SynchronizationContext_t1315_il2cpp_TypeInfo;
 // System.Threading.SynchronizationContext
 #include "mscorlib_System_Threading_SynchronizationContext.h"
-extern TypeInfo SynchronizationLockException_t3316_il2cpp_TypeInfo;
+extern TypeInfo SynchronizationLockException_t3324_il2cpp_TypeInfo;
 // System.Threading.SynchronizationLockException
 #include "mscorlib_System_Threading_SynchronizationLockException.h"
-extern TypeInfo Thread_t1401_il2cpp_TypeInfo;
+extern TypeInfo Thread_t1408_il2cpp_TypeInfo;
 // System.Threading.Thread
 #include "mscorlib_System_Threading_Thread.h"
-extern TypeInfo ThreadAbortException_t4139_il2cpp_TypeInfo;
+extern TypeInfo ThreadAbortException_t4147_il2cpp_TypeInfo;
 // System.Threading.ThreadAbortException
 #include "mscorlib_System_Threading_ThreadAbortException.h"
-extern TypeInfo ThreadInterruptedException_t4714_il2cpp_TypeInfo;
+extern TypeInfo ThreadInterruptedException_t4722_il2cpp_TypeInfo;
 // System.Threading.ThreadInterruptedException
 #include "mscorlib_System_Threading_ThreadInterruptedException.h"
-extern TypeInfo ThreadPool_t4715_il2cpp_TypeInfo;
+extern TypeInfo ThreadPool_t4723_il2cpp_TypeInfo;
 // System.Threading.ThreadPool
 #include "mscorlib_System_Threading_ThreadPool.h"
-extern TypeInfo ThreadState_t4716_il2cpp_TypeInfo;
+extern TypeInfo ThreadState_t4724_il2cpp_TypeInfo;
 // System.Threading.ThreadState
 #include "mscorlib_System_Threading_ThreadState.h"
-extern TypeInfo ThreadStateException_t4717_il2cpp_TypeInfo;
+extern TypeInfo ThreadStateException_t4725_il2cpp_TypeInfo;
 // System.Threading.ThreadStateException
 #include "mscorlib_System_Threading_ThreadStateException.h"
-extern TypeInfo TimerComparer_t4718_il2cpp_TypeInfo;
+extern TypeInfo TimerComparer_t4726_il2cpp_TypeInfo;
 // System.Threading.Timer/TimerComparer
 #include "mscorlib_System_Threading_Timer_TimerComparer.h"
-extern TypeInfo Scheduler_t4719_il2cpp_TypeInfo;
+extern TypeInfo Scheduler_t4727_il2cpp_TypeInfo;
 // System.Threading.Timer/Scheduler
 #include "mscorlib_System_Threading_Timer_Scheduler.h"
-extern TypeInfo Timer_t2097_il2cpp_TypeInfo;
+extern TypeInfo Timer_t2104_il2cpp_TypeInfo;
 // System.Threading.Timer
 #include "mscorlib_System_Threading_Timer.h"
-extern TypeInfo WaitHandle_t3855_il2cpp_TypeInfo;
+extern TypeInfo WaitHandle_t3863_il2cpp_TypeInfo;
 // System.Threading.WaitHandle
 #include "mscorlib_System_Threading_WaitHandle.h"
-extern TypeInfo AccessViolationException_t4720_il2cpp_TypeInfo;
+extern TypeInfo AccessViolationException_t4728_il2cpp_TypeInfo;
 // System.AccessViolationException
 #include "mscorlib_System_AccessViolationException.h"
-extern TypeInfo ActivationContext_t4721_il2cpp_TypeInfo;
+extern TypeInfo ActivationContext_t4729_il2cpp_TypeInfo;
 // System.ActivationContext
 #include "mscorlib_System_ActivationContext.h"
-extern TypeInfo Activator_t4722_il2cpp_TypeInfo;
+extern TypeInfo Activator_t4730_il2cpp_TypeInfo;
 // System.Activator
 #include "mscorlib_System_Activator.h"
-extern TypeInfo AppDomain_t2086_il2cpp_TypeInfo;
+extern TypeInfo AppDomain_t2093_il2cpp_TypeInfo;
 // System.AppDomain
 #include "mscorlib_System_AppDomain.h"
-extern TypeInfo AppDomainManager_t4723_il2cpp_TypeInfo;
+extern TypeInfo AppDomainManager_t4731_il2cpp_TypeInfo;
 // System.AppDomainManager
 #include "mscorlib_System_AppDomainManager.h"
-extern TypeInfo AppDomainSetup_t4729_il2cpp_TypeInfo;
+extern TypeInfo AppDomainSetup_t4737_il2cpp_TypeInfo;
 // System.AppDomainSetup
 #include "mscorlib_System_AppDomainSetup.h"
-extern TypeInfo ApplicationException_t3317_il2cpp_TypeInfo;
+extern TypeInfo ApplicationException_t3325_il2cpp_TypeInfo;
 // System.ApplicationException
 #include "mscorlib_System_ApplicationException.h"
-extern TypeInfo ApplicationIdentity_t4724_il2cpp_TypeInfo;
+extern TypeInfo ApplicationIdentity_t4732_il2cpp_TypeInfo;
 // System.ApplicationIdentity
 #include "mscorlib_System_ApplicationIdentity.h"
-extern TypeInfo ArgumentException_t653_il2cpp_TypeInfo;
+extern TypeInfo ArgumentException_t661_il2cpp_TypeInfo;
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
-extern TypeInfo ArgumentNullException_t712_il2cpp_TypeInfo;
+extern TypeInfo ArgumentNullException_t720_il2cpp_TypeInfo;
 // System.ArgumentNullException
 #include "mscorlib_System_ArgumentNullException.h"
-extern TypeInfo ArgumentOutOfRangeException_t1413_il2cpp_TypeInfo;
+extern TypeInfo ArgumentOutOfRangeException_t1420_il2cpp_TypeInfo;
 // System.ArgumentOutOfRangeException
 #include "mscorlib_System_ArgumentOutOfRangeException.h"
-extern TypeInfo ArithmeticException_t3856_il2cpp_TypeInfo;
+extern TypeInfo ArithmeticException_t3864_il2cpp_TypeInfo;
 // System.ArithmeticException
 #include "mscorlib_System_ArithmeticException.h"
-extern TypeInfo ArraySegment_1_t4925_il2cpp_TypeInfo;
-extern TypeInfo ArrayTypeMismatchException_t4730_il2cpp_TypeInfo;
+extern TypeInfo ArraySegment_1_t4933_il2cpp_TypeInfo;
+extern TypeInfo ArrayTypeMismatchException_t4738_il2cpp_TypeInfo;
 // System.ArrayTypeMismatchException
 #include "mscorlib_System_ArrayTypeMismatchException.h"
-extern TypeInfo AssemblyLoadEventArgs_t4731_il2cpp_TypeInfo;
+extern TypeInfo AssemblyLoadEventArgs_t4739_il2cpp_TypeInfo;
 // System.AssemblyLoadEventArgs
 #include "mscorlib_System_AssemblyLoadEventArgs.h"
-extern TypeInfo AttributeTargets_t4732_il2cpp_TypeInfo;
+extern TypeInfo AttributeTargets_t4740_il2cpp_TypeInfo;
 // System.AttributeTargets
 #include "mscorlib_System_AttributeTargets.h"
-extern TypeInfo BitConverter_t3320_il2cpp_TypeInfo;
+extern TypeInfo BitConverter_t3328_il2cpp_TypeInfo;
 // System.BitConverter
 #include "mscorlib_System_BitConverter.h"
-extern TypeInfo Buffer_t4733_il2cpp_TypeInfo;
+extern TypeInfo Buffer_t4741_il2cpp_TypeInfo;
 // System.Buffer
 #include "mscorlib_System_Buffer.h"
-extern TypeInfo CharEnumerator_t4734_il2cpp_TypeInfo;
+extern TypeInfo CharEnumerator_t4742_il2cpp_TypeInfo;
 // System.CharEnumerator
 #include "mscorlib_System_CharEnumerator.h"
-extern TypeInfo Console_t4141_il2cpp_TypeInfo;
+extern TypeInfo Console_t4149_il2cpp_TypeInfo;
 // System.Console
 #include "mscorlib_System_Console.h"
-extern TypeInfo ContextBoundObject_t4735_il2cpp_TypeInfo;
+extern TypeInfo ContextBoundObject_t4743_il2cpp_TypeInfo;
 // System.ContextBoundObject
 #include "mscorlib_System_ContextBoundObject.h"
 extern TypeInfo Convert_t67_il2cpp_TypeInfo;
 // System.Convert
 #include "mscorlib_System_Convert.h"
-extern TypeInfo DBNull_t4736_il2cpp_TypeInfo;
+extern TypeInfo DBNull_t4744_il2cpp_TypeInfo;
 // System.DBNull
 #include "mscorlib_System_DBNull.h"
-extern TypeInfo Which_t4737_il2cpp_TypeInfo;
+extern TypeInfo Which_t4745_il2cpp_TypeInfo;
 // System.DateTime/Which
 #include "mscorlib_System_DateTime_Which.h"
 extern TypeInfo DateTime_t287_il2cpp_TypeInfo;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
-extern TypeInfo DateTimeKind_t4738_il2cpp_TypeInfo;
+extern TypeInfo DateTimeKind_t4746_il2cpp_TypeInfo;
 // System.DateTimeKind
 #include "mscorlib_System_DateTimeKind.h"
-extern TypeInfo DateTimeOffset_t2886_il2cpp_TypeInfo;
+extern TypeInfo DateTimeOffset_t2893_il2cpp_TypeInfo;
 // System.DateTimeOffset
 #include "mscorlib_System_DateTimeOffset.h"
-extern TypeInfo DateTimeUtils_t4739_il2cpp_TypeInfo;
+extern TypeInfo DateTimeUtils_t4747_il2cpp_TypeInfo;
 // System.DateTimeUtils
 #include "mscorlib_System_DateTimeUtils.h"
-extern TypeInfo DayOfWeek_t4740_il2cpp_TypeInfo;
+extern TypeInfo DayOfWeek_t4748_il2cpp_TypeInfo;
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeek.h"
-extern TypeInfo DelegateData_t4282_il2cpp_TypeInfo;
+extern TypeInfo DelegateData_t4290_il2cpp_TypeInfo;
 // System.DelegateData
 #include "mscorlib_System_DelegateData.h"
-extern TypeInfo DelegateEntry_t4741_il2cpp_TypeInfo;
+extern TypeInfo DelegateEntry_t4749_il2cpp_TypeInfo;
 // System.DelegateSerializationHolder/DelegateEntry
 #include "mscorlib_System_DelegateSerializationHolder_DelegateEntry.h"
-extern TypeInfo DelegateSerializationHolder_t4742_il2cpp_TypeInfo;
+extern TypeInfo DelegateSerializationHolder_t4750_il2cpp_TypeInfo;
 // System.DelegateSerializationHolder
 #include "mscorlib_System_DelegateSerializationHolder.h"
-extern TypeInfo DivideByZeroException_t4743_il2cpp_TypeInfo;
+extern TypeInfo DivideByZeroException_t4751_il2cpp_TypeInfo;
 // System.DivideByZeroException
 #include "mscorlib_System_DivideByZeroException.h"
-extern TypeInfo DllNotFoundException_t4744_il2cpp_TypeInfo;
+extern TypeInfo DllNotFoundException_t4752_il2cpp_TypeInfo;
 // System.DllNotFoundException
 #include "mscorlib_System_DllNotFoundException.h"
-extern TypeInfo EntryPointNotFoundException_t4746_il2cpp_TypeInfo;
+extern TypeInfo EntryPointNotFoundException_t4754_il2cpp_TypeInfo;
 // System.EntryPointNotFoundException
 #include "mscorlib_System_EntryPointNotFoundException.h"
-extern TypeInfo SByteComparer_t4747_il2cpp_TypeInfo;
+extern TypeInfo SByteComparer_t4755_il2cpp_TypeInfo;
 // System.MonoEnumInfo/SByteComparer
 #include "mscorlib_System_MonoEnumInfo_SByteComparer.h"
-extern TypeInfo ShortComparer_t4748_il2cpp_TypeInfo;
+extern TypeInfo ShortComparer_t4756_il2cpp_TypeInfo;
 // System.MonoEnumInfo/ShortComparer
 #include "mscorlib_System_MonoEnumInfo_ShortComparer.h"
-extern TypeInfo IntComparer_t4749_il2cpp_TypeInfo;
+extern TypeInfo IntComparer_t4757_il2cpp_TypeInfo;
 // System.MonoEnumInfo/IntComparer
 #include "mscorlib_System_MonoEnumInfo_IntComparer.h"
-extern TypeInfo LongComparer_t4750_il2cpp_TypeInfo;
+extern TypeInfo LongComparer_t4758_il2cpp_TypeInfo;
 // System.MonoEnumInfo/LongComparer
 #include "mscorlib_System_MonoEnumInfo_LongComparer.h"
-extern TypeInfo MonoEnumInfo_t4751_il2cpp_TypeInfo;
+extern TypeInfo MonoEnumInfo_t4759_il2cpp_TypeInfo;
 // System.MonoEnumInfo
 #include "mscorlib_System_MonoEnumInfo.h"
-extern TypeInfo SpecialFolder_t4752_il2cpp_TypeInfo;
+extern TypeInfo SpecialFolder_t4760_il2cpp_TypeInfo;
 // System.Environment/SpecialFolder
 #include "mscorlib_System_Environment_SpecialFolder.h"
-extern TypeInfo Environment_t4754_il2cpp_TypeInfo;
+extern TypeInfo Environment_t4762_il2cpp_TypeInfo;
 // System.Environment
 #include "mscorlib_System_Environment.h"
-extern TypeInfo EventArgs_t1236_il2cpp_TypeInfo;
+extern TypeInfo EventArgs_t1243_il2cpp_TypeInfo;
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
-extern TypeInfo ExecutionEngineException_t4755_il2cpp_TypeInfo;
+extern TypeInfo ExecutionEngineException_t4763_il2cpp_TypeInfo;
 // System.ExecutionEngineException
 #include "mscorlib_System_ExecutionEngineException.h"
-extern TypeInfo FieldAccessException_t4756_il2cpp_TypeInfo;
+extern TypeInfo FieldAccessException_t4764_il2cpp_TypeInfo;
 // System.FieldAccessException
 #include "mscorlib_System_FieldAccessException.h"
-extern TypeInfo FlagsAttribute_t1037_il2cpp_TypeInfo;
+extern TypeInfo FlagsAttribute_t1044_il2cpp_TypeInfo;
 // System.FlagsAttribute
 #include "mscorlib_System_FlagsAttribute.h"
-extern TypeInfo FormatException_t2872_il2cpp_TypeInfo;
+extern TypeInfo FormatException_t2879_il2cpp_TypeInfo;
 // System.FormatException
 #include "mscorlib_System_FormatException.h"
-extern TypeInfo GC_t4758_il2cpp_TypeInfo;
+extern TypeInfo GC_t4766_il2cpp_TypeInfo;
 // System.GC
 #include "mscorlib_System_GC.h"
-extern TypeInfo GuidParser_t4759_il2cpp_TypeInfo;
+extern TypeInfo GuidParser_t4767_il2cpp_TypeInfo;
 // System.Guid/GuidParser
 #include "mscorlib_System_Guid_GuidParser.h"
 extern TypeInfo Guid_t74_il2cpp_TypeInfo;
 // System.Guid
 #include "mscorlib_System_Guid.h"
-extern TypeInfo ICustomFormatter_t4829_il2cpp_TypeInfo;
-extern TypeInfo IFormatProvider_t4446_il2cpp_TypeInfo;
-extern TypeInfo IndexOutOfRangeException_t2871_il2cpp_TypeInfo;
+extern TypeInfo ICustomFormatter_t4837_il2cpp_TypeInfo;
+extern TypeInfo IFormatProvider_t4454_il2cpp_TypeInfo;
+extern TypeInfo IndexOutOfRangeException_t2878_il2cpp_TypeInfo;
 // System.IndexOutOfRangeException
 #include "mscorlib_System_IndexOutOfRangeException.h"
-extern TypeInfo InvalidCastException_t1386_il2cpp_TypeInfo;
+extern TypeInfo InvalidCastException_t1393_il2cpp_TypeInfo;
 // System.InvalidCastException
 #include "mscorlib_System_InvalidCastException.h"
-extern TypeInfo InvalidOperationException_t1369_il2cpp_TypeInfo;
+extern TypeInfo InvalidOperationException_t1376_il2cpp_TypeInfo;
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationException.h"
-extern TypeInfo LoaderOptimization_t4760_il2cpp_TypeInfo;
+extern TypeInfo LoaderOptimization_t4768_il2cpp_TypeInfo;
 // System.LoaderOptimization
 #include "mscorlib_System_LoaderOptimization.h"
-extern TypeInfo Math_t4761_il2cpp_TypeInfo;
+extern TypeInfo Math_t4769_il2cpp_TypeInfo;
 // System.Math
 #include "mscorlib_System_Math.h"
-extern TypeInfo MemberAccessException_t4757_il2cpp_TypeInfo;
+extern TypeInfo MemberAccessException_t4765_il2cpp_TypeInfo;
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
-extern TypeInfo MethodAccessException_t4762_il2cpp_TypeInfo;
+extern TypeInfo MethodAccessException_t4770_il2cpp_TypeInfo;
 // System.MethodAccessException
 #include "mscorlib_System_MethodAccessException.h"
-extern TypeInfo MissingFieldException_t4763_il2cpp_TypeInfo;
+extern TypeInfo MissingFieldException_t4771_il2cpp_TypeInfo;
 // System.MissingFieldException
 #include "mscorlib_System_MissingFieldException.h"
-extern TypeInfo MissingMemberException_t4764_il2cpp_TypeInfo;
+extern TypeInfo MissingMemberException_t4772_il2cpp_TypeInfo;
 // System.MissingMemberException
 #include "mscorlib_System_MissingMemberException.h"
-extern TypeInfo MissingMethodException_t4765_il2cpp_TypeInfo;
+extern TypeInfo MissingMethodException_t4773_il2cpp_TypeInfo;
 // System.MissingMethodException
 #include "mscorlib_System_MissingMethodException.h"
-extern TypeInfo MonoAsyncCall_t4766_il2cpp_TypeInfo;
+extern TypeInfo MonoAsyncCall_t4774_il2cpp_TypeInfo;
 // System.MonoAsyncCall
 #include "mscorlib_System_MonoAsyncCall.h"
-extern TypeInfo AttributeInfo_t4767_il2cpp_TypeInfo;
+extern TypeInfo AttributeInfo_t4775_il2cpp_TypeInfo;
 // System.MonoCustomAttrs/AttributeInfo
 #include "mscorlib_System_MonoCustomAttrs_AttributeInfo.h"
-extern TypeInfo MonoCustomAttrs_t4768_il2cpp_TypeInfo;
+extern TypeInfo MonoCustomAttrs_t4776_il2cpp_TypeInfo;
 // System.MonoCustomAttrs
 #include "mscorlib_System_MonoCustomAttrs.h"
-extern TypeInfo MonoTouchAOTHelper_t4769_il2cpp_TypeInfo;
+extern TypeInfo MonoTouchAOTHelper_t4777_il2cpp_TypeInfo;
 // System.MonoTouchAOTHelper
 #include "mscorlib_System_MonoTouchAOTHelper.h"
-extern TypeInfo MonoTypeInfo_t4770_il2cpp_TypeInfo;
+extern TypeInfo MonoTypeInfo_t4778_il2cpp_TypeInfo;
 // System.MonoTypeInfo
 #include "mscorlib_System_MonoTypeInfo.h"
 extern TypeInfo MonoType_t_il2cpp_TypeInfo;
 // System.MonoType
 #include "mscorlib_System_MonoType.h"
-extern TypeInfo MulticastNotSupportedException_t4771_il2cpp_TypeInfo;
+extern TypeInfo MulticastNotSupportedException_t4779_il2cpp_TypeInfo;
 // System.MulticastNotSupportedException
 #include "mscorlib_System_MulticastNotSupportedException.h"
-extern TypeInfo NonSerializedAttribute_t4772_il2cpp_TypeInfo;
+extern TypeInfo NonSerializedAttribute_t4780_il2cpp_TypeInfo;
 // System.NonSerializedAttribute
 #include "mscorlib_System_NonSerializedAttribute.h"
-extern TypeInfo NotImplementedException_t1380_il2cpp_TypeInfo;
+extern TypeInfo NotImplementedException_t1387_il2cpp_TypeInfo;
 // System.NotImplementedException
 #include "mscorlib_System_NotImplementedException.h"
 extern TypeInfo NotSupportedException_t56_il2cpp_TypeInfo;
 // System.NotSupportedException
 #include "mscorlib_System_NotSupportedException.h"
-extern TypeInfo NullReferenceException_t709_il2cpp_TypeInfo;
+extern TypeInfo NullReferenceException_t717_il2cpp_TypeInfo;
 // System.NullReferenceException
 #include "mscorlib_System_NullReferenceException.h"
-extern TypeInfo CustomInfo_t4773_il2cpp_TypeInfo;
+extern TypeInfo CustomInfo_t4781_il2cpp_TypeInfo;
 // System.NumberFormatter/CustomInfo
 #include "mscorlib_System_NumberFormatter_CustomInfo.h"
-extern TypeInfo NumberFormatter_t4774_il2cpp_TypeInfo;
+extern TypeInfo NumberFormatter_t4782_il2cpp_TypeInfo;
 // System.NumberFormatter
 #include "mscorlib_System_NumberFormatter.h"
-extern TypeInfo ObjectDisposedException_t3238_il2cpp_TypeInfo;
+extern TypeInfo ObjectDisposedException_t3246_il2cpp_TypeInfo;
 // System.ObjectDisposedException
 #include "mscorlib_System_ObjectDisposedException.h"
-extern TypeInfo OperatingSystem_t4753_il2cpp_TypeInfo;
+extern TypeInfo OperatingSystem_t4761_il2cpp_TypeInfo;
 // System.OperatingSystem
 #include "mscorlib_System_OperatingSystem.h"
-extern TypeInfo OperationCanceledException_t2089_il2cpp_TypeInfo;
+extern TypeInfo OperationCanceledException_t2096_il2cpp_TypeInfo;
 // System.OperationCanceledException
 #include "mscorlib_System_OperationCanceledException.h"
-extern TypeInfo OutOfMemoryException_t4775_il2cpp_TypeInfo;
+extern TypeInfo OutOfMemoryException_t4783_il2cpp_TypeInfo;
 // System.OutOfMemoryException
 #include "mscorlib_System_OutOfMemoryException.h"
-extern TypeInfo OverflowException_t4776_il2cpp_TypeInfo;
+extern TypeInfo OverflowException_t4784_il2cpp_TypeInfo;
 // System.OverflowException
 #include "mscorlib_System_OverflowException.h"
-extern TypeInfo PlatformID_t4777_il2cpp_TypeInfo;
+extern TypeInfo PlatformID_t4785_il2cpp_TypeInfo;
 // System.PlatformID
 #include "mscorlib_System_PlatformID.h"
-extern TypeInfo PlatformNotSupportedException_t718_il2cpp_TypeInfo;
+extern TypeInfo PlatformNotSupportedException_t726_il2cpp_TypeInfo;
 // System.PlatformNotSupportedException
 #include "mscorlib_System_PlatformNotSupportedException.h"
-extern TypeInfo Random_t2755_il2cpp_TypeInfo;
+extern TypeInfo Random_t2762_il2cpp_TypeInfo;
 // System.Random
 #include "mscorlib_System_Random.h"
-extern TypeInfo RankException_t4778_il2cpp_TypeInfo;
+extern TypeInfo RankException_t4786_il2cpp_TypeInfo;
 // System.RankException
 #include "mscorlib_System_RankException.h"
-extern TypeInfo ResolveEventArgs_t4779_il2cpp_TypeInfo;
+extern TypeInfo ResolveEventArgs_t4787_il2cpp_TypeInfo;
 // System.ResolveEventArgs
 #include "mscorlib_System_ResolveEventArgs.h"
-extern TypeInfo RuntimeMethodHandle_t4780_il2cpp_TypeInfo;
+extern TypeInfo RuntimeMethodHandle_t4788_il2cpp_TypeInfo;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
-extern TypeInfo StringComparer_t2868_il2cpp_TypeInfo;
+extern TypeInfo StringComparer_t2875_il2cpp_TypeInfo;
 // System.StringComparer
 #include "mscorlib_System_StringComparer.h"
-extern TypeInfo CultureAwareComparer_t4781_il2cpp_TypeInfo;
+extern TypeInfo CultureAwareComparer_t4789_il2cpp_TypeInfo;
 // System.CultureAwareComparer
 #include "mscorlib_System_CultureAwareComparer.h"
-extern TypeInfo OrdinalComparer_t4782_il2cpp_TypeInfo;
+extern TypeInfo OrdinalComparer_t4790_il2cpp_TypeInfo;
 // System.OrdinalComparer
 #include "mscorlib_System_OrdinalComparer.h"
-extern TypeInfo StringComparison_t4783_il2cpp_TypeInfo;
+extern TypeInfo StringComparison_t4791_il2cpp_TypeInfo;
 // System.StringComparison
 #include "mscorlib_System_StringComparison.h"
-extern TypeInfo StringSplitOptions_t4784_il2cpp_TypeInfo;
+extern TypeInfo StringSplitOptions_t4792_il2cpp_TypeInfo;
 // System.StringSplitOptions
 #include "mscorlib_System_StringSplitOptions.h"
-extern TypeInfo SystemException_t3172_il2cpp_TypeInfo;
+extern TypeInfo SystemException_t3180_il2cpp_TypeInfo;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
-extern TypeInfo ThreadStaticAttribute_t2114_il2cpp_TypeInfo;
+extern TypeInfo ThreadStaticAttribute_t2121_il2cpp_TypeInfo;
 // System.ThreadStaticAttribute
 #include "mscorlib_System_ThreadStaticAttribute.h"
 extern TypeInfo TimeSpan_t334_il2cpp_TypeInfo;
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
-extern TypeInfo TimeZone_t4145_il2cpp_TypeInfo;
+extern TypeInfo TimeZone_t4153_il2cpp_TypeInfo;
 // System.TimeZone
 #include "mscorlib_System_TimeZone.h"
-extern TypeInfo CurrentSystemTimeZone_t4785_il2cpp_TypeInfo;
+extern TypeInfo CurrentSystemTimeZone_t4793_il2cpp_TypeInfo;
 // System.CurrentSystemTimeZone
 #include "mscorlib_System_CurrentSystemTimeZone.h"
-extern TypeInfo TypeCode_t4786_il2cpp_TypeInfo;
+extern TypeInfo TypeCode_t4794_il2cpp_TypeInfo;
 // System.TypeCode
 #include "mscorlib_System_TypeCode.h"
-extern TypeInfo TypeInitializationException_t4787_il2cpp_TypeInfo;
+extern TypeInfo TypeInitializationException_t4795_il2cpp_TypeInfo;
 // System.TypeInitializationException
 #include "mscorlib_System_TypeInitializationException.h"
-extern TypeInfo TypeLoadException_t4745_il2cpp_TypeInfo;
+extern TypeInfo TypeLoadException_t4753_il2cpp_TypeInfo;
 // System.TypeLoadException
 #include "mscorlib_System_TypeLoadException.h"
-extern TypeInfo UnauthorizedAccessException_t4788_il2cpp_TypeInfo;
+extern TypeInfo UnauthorizedAccessException_t4796_il2cpp_TypeInfo;
 // System.UnauthorizedAccessException
 #include "mscorlib_System_UnauthorizedAccessException.h"
-extern TypeInfo UnhandledExceptionEventArgs_t4789_il2cpp_TypeInfo;
+extern TypeInfo UnhandledExceptionEventArgs_t4797_il2cpp_TypeInfo;
 // System.UnhandledExceptionEventArgs
 #include "mscorlib_System_UnhandledExceptionEventArgs.h"
-extern TypeInfo UnityType_t4790_il2cpp_TypeInfo;
+extern TypeInfo UnityType_t4798_il2cpp_TypeInfo;
 // System.UnitySerializationHolder/UnityType
 #include "mscorlib_System_UnitySerializationHolder_UnityType.h"
-extern TypeInfo UnitySerializationHolder_t4791_il2cpp_TypeInfo;
+extern TypeInfo UnitySerializationHolder_t4799_il2cpp_TypeInfo;
 // System.UnitySerializationHolder
 #include "mscorlib_System_UnitySerializationHolder.h"
-extern TypeInfo Version_t1324_il2cpp_TypeInfo;
+extern TypeInfo Version_t1331_il2cpp_TypeInfo;
 // System.Version
 #include "mscorlib_System_Version.h"
-extern TypeInfo WeakReference_t2164_il2cpp_TypeInfo;
+extern TypeInfo WeakReference_t2171_il2cpp_TypeInfo;
 // System.WeakReference
 #include "mscorlib_System_WeakReference.h"
-extern TypeInfo PrimalityTest_t4792_il2cpp_TypeInfo;
+extern TypeInfo PrimalityTest_t4800_il2cpp_TypeInfo;
 // Mono.Math.Prime.PrimalityTest
 #include "mscorlib_Mono_Math_Prime_PrimalityTest.h"
-extern TypeInfo MemberFilter_t4285_il2cpp_TypeInfo;
+extern TypeInfo MemberFilter_t4293_il2cpp_TypeInfo;
 // System.Reflection.MemberFilter
 #include "mscorlib_System_Reflection_MemberFilter.h"
-extern TypeInfo TypeFilter_t4486_il2cpp_TypeInfo;
+extern TypeInfo TypeFilter_t4494_il2cpp_TypeInfo;
 // System.Reflection.TypeFilter
 #include "mscorlib_System_Reflection_TypeFilter.h"
-extern TypeInfo HeaderHandler_t4794_il2cpp_TypeInfo;
+extern TypeInfo HeaderHandler_t4802_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.HeaderHandler
 #include "mscorlib_System_Runtime_Remoting_Messaging_HeaderHandler.h"
-extern TypeInfo ParameterizedThreadStart_t2084_il2cpp_TypeInfo;
+extern TypeInfo ParameterizedThreadStart_t2091_il2cpp_TypeInfo;
 // System.Threading.ParameterizedThreadStart
 #include "mscorlib_System_Threading_ParameterizedThreadStart.h"
-extern TypeInfo SendOrPostCallback_t2101_il2cpp_TypeInfo;
+extern TypeInfo SendOrPostCallback_t2108_il2cpp_TypeInfo;
 // System.Threading.SendOrPostCallback
 #include "mscorlib_System_Threading_SendOrPostCallback.h"
-extern TypeInfo ThreadStart_t4144_il2cpp_TypeInfo;
+extern TypeInfo ThreadStart_t4152_il2cpp_TypeInfo;
 // System.Threading.ThreadStart
 #include "mscorlib_System_Threading_ThreadStart.h"
-extern TypeInfo TimerCallback_t2098_il2cpp_TypeInfo;
+extern TypeInfo TimerCallback_t2105_il2cpp_TypeInfo;
 // System.Threading.TimerCallback
 #include "mscorlib_System_Threading_TimerCallback.h"
-extern TypeInfo WaitCallback_t2085_il2cpp_TypeInfo;
+extern TypeInfo WaitCallback_t2092_il2cpp_TypeInfo;
 // System.Threading.WaitCallback
 #include "mscorlib_System_Threading_WaitCallback.h"
-extern TypeInfo Action_1_t4926_il2cpp_TypeInfo;
-extern TypeInfo AppDomainInitializer_t4728_il2cpp_TypeInfo;
+extern TypeInfo Action_1_t4934_il2cpp_TypeInfo;
+extern TypeInfo AppDomainInitializer_t4736_il2cpp_TypeInfo;
 // System.AppDomainInitializer
 #include "mscorlib_System_AppDomainInitializer.h"
-extern TypeInfo AssemblyLoadEventHandler_t4725_il2cpp_TypeInfo;
+extern TypeInfo AssemblyLoadEventHandler_t4733_il2cpp_TypeInfo;
 // System.AssemblyLoadEventHandler
 #include "mscorlib_System_AssemblyLoadEventHandler.h"
-extern TypeInfo Comparison_1_t4927_il2cpp_TypeInfo;
-extern TypeInfo Converter_2_t4928_il2cpp_TypeInfo;
-extern TypeInfo EventHandler_1_t4929_il2cpp_TypeInfo;
-extern TypeInfo EventHandler_t4000_il2cpp_TypeInfo;
+extern TypeInfo Comparison_1_t4935_il2cpp_TypeInfo;
+extern TypeInfo Converter_2_t4936_il2cpp_TypeInfo;
+extern TypeInfo EventHandler_1_t4937_il2cpp_TypeInfo;
+extern TypeInfo EventHandler_t4008_il2cpp_TypeInfo;
 // System.EventHandler
 #include "mscorlib_System_EventHandler.h"
-extern TypeInfo Predicate_1_t4930_il2cpp_TypeInfo;
-extern TypeInfo ResolveEventHandler_t4726_il2cpp_TypeInfo;
+extern TypeInfo Predicate_1_t4938_il2cpp_TypeInfo;
+extern TypeInfo ResolveEventHandler_t4734_il2cpp_TypeInfo;
 // System.ResolveEventHandler
 #include "mscorlib_System_ResolveEventHandler.h"
-extern TypeInfo UnhandledExceptionEventHandler_t4727_il2cpp_TypeInfo;
+extern TypeInfo UnhandledExceptionEventHandler_t4735_il2cpp_TypeInfo;
 // System.UnhandledExceptionEventHandler
 #include "mscorlib_System_UnhandledExceptionEventHandler.h"
-extern TypeInfo U24ArrayTypeU2456_t4795_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2456_t4803_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$56
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245.h"
-extern TypeInfo U24ArrayTypeU2424_t4796_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2424_t4804_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$24
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242.h"
-extern TypeInfo U24ArrayTypeU2416_t4797_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2416_t4805_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$16
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241.h"
-extern TypeInfo U24ArrayTypeU24120_t4798_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24120_t4806_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$120
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_0.h"
-extern TypeInfo U24ArrayTypeU243132_t4799_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU243132_t4807_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$3132
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243.h"
-extern TypeInfo U24ArrayTypeU2420_t4800_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2420_t4808_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$20
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_0.h"
-extern TypeInfo U24ArrayTypeU2432_t4801_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2432_t4809_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$32
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU243_0.h"
-extern TypeInfo U24ArrayTypeU2448_t4802_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2448_t4810_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$48
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU244.h"
-extern TypeInfo U24ArrayTypeU2464_t4803_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2464_t4811_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$64
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246.h"
-extern TypeInfo U24ArrayTypeU2412_t4804_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2412_t4812_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_1.h"
-extern TypeInfo U24ArrayTypeU24136_t4805_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24136_t4813_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$136
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_2.h"
-extern TypeInfo U24ArrayTypeU2472_t4806_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2472_t4814_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$72
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU247.h"
-extern TypeInfo U24ArrayTypeU24124_t4807_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24124_t4815_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$124
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_3.h"
-extern TypeInfo U24ArrayTypeU2496_t4808_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2496_t4816_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$96
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU249.h"
-extern TypeInfo U24ArrayTypeU242048_t4809_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU242048_t4817_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$2048
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_1.h"
-extern TypeInfo U24ArrayTypeU24256_t4810_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24256_t4818_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$256
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU242_2.h"
-extern TypeInfo U24ArrayTypeU241024_t4811_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU241024_t4819_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$1024
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_4.h"
-extern TypeInfo U24ArrayTypeU24640_t4812_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24640_t4820_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$640
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU246_0.h"
-extern TypeInfo U24ArrayTypeU24128_t4813_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24128_t4821_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$128
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU241_5.h"
-extern TypeInfo U24ArrayTypeU2452_t4814_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2452_t4822_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$52
 #include "mscorlib_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU245_0.h"
-extern TypeInfo U3CPrivateImplementationDetailsU3E_t4815_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t4823_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>
 #include "mscorlib_U3CPrivateImplementationDetailsU3E.h"
 #include <map>
@@ -2272,843 +2272,843 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_mscorlib_Assembly_Types[838] = 
 {
-	&U3CModuleU3E_t4280_il2cpp_TypeInfo,
+	&U3CModuleU3E_t4288_il2cpp_TypeInfo,
 	&Object_t_il2cpp_TypeInfo,
-	&ValueType_t1067_il2cpp_TypeInfo,
+	&ValueType_t1074_il2cpp_TypeInfo,
 	&Attribute_t426_il2cpp_TypeInfo,
 	&_Attribute_t86_il2cpp_TypeInfo,
 	&Int32_t82_il2cpp_TypeInfo,
 	&IFormattable_t97_il2cpp_TypeInfo,
 	&IConvertible_t98_il2cpp_TypeInfo,
 	&IComparable_t99_il2cpp_TypeInfo,
-	&IComparable_1_t4854_il2cpp_TypeInfo,
-	&SerializableAttribute_t4281_il2cpp_TypeInfo,
-	&AttributeUsageAttribute_t745_il2cpp_TypeInfo,
-	&ComVisibleAttribute_t1033_il2cpp_TypeInfo,
-	&IEquatable_1_t4855_il2cpp_TypeInfo,
+	&IComparable_1_t4862_il2cpp_TypeInfo,
+	&SerializableAttribute_t4289_il2cpp_TypeInfo,
+	&AttributeUsageAttribute_t752_il2cpp_TypeInfo,
+	&ComVisibleAttribute_t1040_il2cpp_TypeInfo,
+	&IEquatable_1_t4863_il2cpp_TypeInfo,
 	&Int64_t89_il2cpp_TypeInfo,
-	&UInt32_t682_il2cpp_TypeInfo,
-	&CLSCompliantAttribute_t3249_il2cpp_TypeInfo,
-	&UInt64_t686_il2cpp_TypeInfo,
-	&Byte_t683_il2cpp_TypeInfo,
+	&UInt32_t690_il2cpp_TypeInfo,
+	&CLSCompliantAttribute_t3257_il2cpp_TypeInfo,
+	&UInt64_t694_il2cpp_TypeInfo,
+	&Byte_t691_il2cpp_TypeInfo,
 	&SByte_t88_il2cpp_TypeInfo,
-	&Int16_t684_il2cpp_TypeInfo,
-	&UInt16_t685_il2cpp_TypeInfo,
+	&Int16_t692_il2cpp_TypeInfo,
+	&UInt16_t693_il2cpp_TypeInfo,
 	&IEnumerator_t48_il2cpp_TypeInfo,
 	&IEnumerable_t104_il2cpp_TypeInfo,
 	&IDisposable_t58_il2cpp_TypeInfo,
-	&IEnumerator_1_t4856_il2cpp_TypeInfo,
+	&IEnumerator_1_t4864_il2cpp_TypeInfo,
 	&Char_t60_il2cpp_TypeInfo,
 	&String_t_il2cpp_TypeInfo,
-	&ICloneable_t753_il2cpp_TypeInfo,
-	&IEnumerable_1_t4857_il2cpp_TypeInfo,
+	&ICloneable_t760_il2cpp_TypeInfo,
+	&IEnumerable_1_t4865_il2cpp_TypeInfo,
 	&Single_t87_il2cpp_TypeInfo,
 	&Double_t90_il2cpp_TypeInfo,
-	&Decimal_t687_il2cpp_TypeInfo,
+	&Decimal_t695_il2cpp_TypeInfo,
 	&Boolean_t59_il2cpp_TypeInfo,
 	&IntPtr_t_il2cpp_TypeInfo,
-	&ISerializable_t754_il2cpp_TypeInfo,
+	&ISerializable_t761_il2cpp_TypeInfo,
 	&UIntPtr_t_il2cpp_TypeInfo,
 	&MulticastDelegate_t388_il2cpp_TypeInfo,
-	&Delegate_t666_il2cpp_TypeInfo,
+	&Delegate_t674_il2cpp_TypeInfo,
 	&Enum_t100_il2cpp_TypeInfo,
-	&InternalEnumerator_1_t4858_il2cpp_TypeInfo,
-	&SimpleEnumerator_t4283_il2cpp_TypeInfo,
-	&U3CGetEnumeratorU3Ec__Iterator0_t4860_il2cpp_TypeInfo,
-	&ArrayReadOnlyList_1_t4859_il2cpp_TypeInfo,
-	&Swapper_t4284_il2cpp_TypeInfo,
+	&InternalEnumerator_1_t4866_il2cpp_TypeInfo,
+	&SimpleEnumerator_t4291_il2cpp_TypeInfo,
+	&U3CGetEnumeratorU3Ec__Iterator0_t4868_il2cpp_TypeInfo,
+	&ArrayReadOnlyList_1_t4867_il2cpp_TypeInfo,
+	&Swapper_t4292_il2cpp_TypeInfo,
 	&Array_t_il2cpp_TypeInfo,
-	&ICollection_t696_il2cpp_TypeInfo,
-	&IList_t630_il2cpp_TypeInfo,
-	&IList_1_t4861_il2cpp_TypeInfo,
-	&ICollection_1_t4862_il2cpp_TypeInfo,
+	&ICollection_t704_il2cpp_TypeInfo,
+	&IList_t638_il2cpp_TypeInfo,
+	&IList_1_t4869_il2cpp_TypeInfo,
+	&ICollection_1_t4870_il2cpp_TypeInfo,
 	&Void_t85_il2cpp_TypeInfo,
 	&Type_t_il2cpp_TypeInfo,
 	&MemberInfo_t_il2cpp_TypeInfo,
-	&ICustomAttributeProvider_t4828_il2cpp_TypeInfo,
-	&_MemberInfo_t4864_il2cpp_TypeInfo,
-	&IReflect_t4865_il2cpp_TypeInfo,
-	&_Type_t4863_il2cpp_TypeInfo,
+	&ICustomAttributeProvider_t4836_il2cpp_TypeInfo,
+	&_MemberInfo_t4872_il2cpp_TypeInfo,
+	&IReflect_t4873_il2cpp_TypeInfo,
+	&_Type_t4871_il2cpp_TypeInfo,
 	&Exception_t57_il2cpp_TypeInfo,
-	&_Exception_t2322_il2cpp_TypeInfo,
-	&RuntimeFieldHandle_t4287_il2cpp_TypeInfo,
-	&RuntimeTypeHandle_t4286_il2cpp_TypeInfo,
-	&ParamArrayAttribute_t741_il2cpp_TypeInfo,
-	&OutAttribute_t4288_il2cpp_TypeInfo,
-	&ObsoleteAttribute_t744_il2cpp_TypeInfo,
-	&DllImportAttribute_t4289_il2cpp_TypeInfo,
-	&MarshalAsAttribute_t4290_il2cpp_TypeInfo,
-	&InAttribute_t4291_il2cpp_TypeInfo,
-	&ConditionalAttribute_t4292_il2cpp_TypeInfo,
-	&GuidAttribute_t1027_il2cpp_TypeInfo,
-	&ComImportAttribute_t4293_il2cpp_TypeInfo,
-	&OptionalAttribute_t4294_il2cpp_TypeInfo,
+	&_Exception_t2329_il2cpp_TypeInfo,
+	&RuntimeFieldHandle_t4295_il2cpp_TypeInfo,
+	&RuntimeTypeHandle_t4294_il2cpp_TypeInfo,
+	&ParamArrayAttribute_t748_il2cpp_TypeInfo,
+	&OutAttribute_t4296_il2cpp_TypeInfo,
+	&ObsoleteAttribute_t751_il2cpp_TypeInfo,
+	&DllImportAttribute_t4297_il2cpp_TypeInfo,
+	&MarshalAsAttribute_t4298_il2cpp_TypeInfo,
+	&InAttribute_t4299_il2cpp_TypeInfo,
+	&ConditionalAttribute_t4300_il2cpp_TypeInfo,
+	&GuidAttribute_t1034_il2cpp_TypeInfo,
+	&ComImportAttribute_t4301_il2cpp_TypeInfo,
+	&OptionalAttribute_t4302_il2cpp_TypeInfo,
 	&CompilerGeneratedAttribute_t83_il2cpp_TypeInfo,
-	&InternalsVisibleToAttribute_t2102_il2cpp_TypeInfo,
+	&InternalsVisibleToAttribute_t2109_il2cpp_TypeInfo,
 	&RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo,
 	&DebuggerHiddenAttribute_t84_il2cpp_TypeInfo,
 	&DefaultMemberAttribute_t81_il2cpp_TypeInfo,
-	&DecimalConstantAttribute_t4295_il2cpp_TypeInfo,
-	&FieldOffsetAttribute_t4296_il2cpp_TypeInfo,
-	&RuntimeArgumentHandle_t4297_il2cpp_TypeInfo,
+	&DecimalConstantAttribute_t4303_il2cpp_TypeInfo,
+	&FieldOffsetAttribute_t4304_il2cpp_TypeInfo,
+	&RuntimeArgumentHandle_t4305_il2cpp_TypeInfo,
 	&AsyncCallback_t386_il2cpp_TypeInfo,
 	&IAsyncResult_t385_il2cpp_TypeInfo,
-	&TypedReference_t4298_il2cpp_TypeInfo,
-	&ArgIterator_t4299_il2cpp_TypeInfo,
-	&MarshalByRefObject_t4020_il2cpp_TypeInfo,
-	&Nullable_1_t1397_il2cpp_TypeInfo,
-	&RuntimeHelpers_t4301_il2cpp_TypeInfo,
-	&Locale_t4302_il2cpp_TypeInfo,
-	&MonoTODOAttribute_t4303_il2cpp_TypeInfo,
-	&MonoDocumentationNoteAttribute_t4304_il2cpp_TypeInfo,
-	&SafeHandleZeroOrMinusOneIsInvalid_t4305_il2cpp_TypeInfo,
-	&SafeWaitHandle_t4307_il2cpp_TypeInfo,
-	&TableRange_t4308_il2cpp_TypeInfo,
-	&CodePointIndexer_t4310_il2cpp_TypeInfo,
-	&TailoringInfo_t4311_il2cpp_TypeInfo,
-	&Contraction_t4312_il2cpp_TypeInfo,
-	&ContractionComparer_t4313_il2cpp_TypeInfo,
-	&Level2Map_t4314_il2cpp_TypeInfo,
-	&Level2MapComparer_t4315_il2cpp_TypeInfo,
-	&MSCompatUnicodeTable_t4317_il2cpp_TypeInfo,
-	&MSCompatUnicodeTableUtil_t4318_il2cpp_TypeInfo,
-	&Context_t4319_il2cpp_TypeInfo,
-	&PreviousInfo_t4320_il2cpp_TypeInfo,
-	&Escape_t4321_il2cpp_TypeInfo,
-	&ExtenderType_t4322_il2cpp_TypeInfo,
-	&SimpleCollator_t4323_il2cpp_TypeInfo,
-	&SortKey_t4327_il2cpp_TypeInfo,
-	&SortKeyBuffer_t4328_il2cpp_TypeInfo,
-	&PrimeGeneratorBase_t4329_il2cpp_TypeInfo,
-	&SequentialSearchPrimeGeneratorBase_t4330_il2cpp_TypeInfo,
-	&ConfidenceFactor_t4331_il2cpp_TypeInfo,
-	&PrimalityTests_t4332_il2cpp_TypeInfo,
-	&Sign_t4333_il2cpp_TypeInfo,
-	&ModulusRing_t4335_il2cpp_TypeInfo,
-	&Kernel_t4336_il2cpp_TypeInfo,
-	&BigInteger_t4334_il2cpp_TypeInfo,
-	&CryptoConvert_t4337_il2cpp_TypeInfo,
-	&KeyBuilder_t4338_il2cpp_TypeInfo,
-	&BlockProcessor_t4339_il2cpp_TypeInfo,
-	&KeyGeneratedEventHandler_t4340_il2cpp_TypeInfo,
-	&DSAManaged_t4341_il2cpp_TypeInfo,
-	&KeyPairPersistence_t4342_il2cpp_TypeInfo,
-	&MACAlgorithm_t4343_il2cpp_TypeInfo,
-	&PKCS1_t4344_il2cpp_TypeInfo,
-	&PrivateKeyInfo_t4345_il2cpp_TypeInfo,
-	&EncryptedPrivateKeyInfo_t4346_il2cpp_TypeInfo,
-	&PKCS8_t4347_il2cpp_TypeInfo,
+	&TypedReference_t4306_il2cpp_TypeInfo,
+	&ArgIterator_t4307_il2cpp_TypeInfo,
+	&MarshalByRefObject_t4028_il2cpp_TypeInfo,
+	&Nullable_1_t1404_il2cpp_TypeInfo,
+	&RuntimeHelpers_t4309_il2cpp_TypeInfo,
+	&Locale_t4310_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t4311_il2cpp_TypeInfo,
+	&MonoDocumentationNoteAttribute_t4312_il2cpp_TypeInfo,
+	&SafeHandleZeroOrMinusOneIsInvalid_t4313_il2cpp_TypeInfo,
+	&SafeWaitHandle_t4315_il2cpp_TypeInfo,
+	&TableRange_t4316_il2cpp_TypeInfo,
+	&CodePointIndexer_t4318_il2cpp_TypeInfo,
+	&TailoringInfo_t4319_il2cpp_TypeInfo,
+	&Contraction_t4320_il2cpp_TypeInfo,
+	&ContractionComparer_t4321_il2cpp_TypeInfo,
+	&Level2Map_t4322_il2cpp_TypeInfo,
+	&Level2MapComparer_t4323_il2cpp_TypeInfo,
+	&MSCompatUnicodeTable_t4325_il2cpp_TypeInfo,
+	&MSCompatUnicodeTableUtil_t4326_il2cpp_TypeInfo,
+	&Context_t4327_il2cpp_TypeInfo,
+	&PreviousInfo_t4328_il2cpp_TypeInfo,
+	&Escape_t4329_il2cpp_TypeInfo,
+	&ExtenderType_t4330_il2cpp_TypeInfo,
+	&SimpleCollator_t4331_il2cpp_TypeInfo,
+	&SortKey_t4335_il2cpp_TypeInfo,
+	&SortKeyBuffer_t4336_il2cpp_TypeInfo,
+	&PrimeGeneratorBase_t4337_il2cpp_TypeInfo,
+	&SequentialSearchPrimeGeneratorBase_t4338_il2cpp_TypeInfo,
+	&ConfidenceFactor_t4339_il2cpp_TypeInfo,
+	&PrimalityTests_t4340_il2cpp_TypeInfo,
+	&Sign_t4341_il2cpp_TypeInfo,
+	&ModulusRing_t4343_il2cpp_TypeInfo,
+	&Kernel_t4344_il2cpp_TypeInfo,
+	&BigInteger_t4342_il2cpp_TypeInfo,
+	&CryptoConvert_t4345_il2cpp_TypeInfo,
+	&KeyBuilder_t4346_il2cpp_TypeInfo,
+	&BlockProcessor_t4347_il2cpp_TypeInfo,
 	&KeyGeneratedEventHandler_t4348_il2cpp_TypeInfo,
-	&RSAManaged_t4349_il2cpp_TypeInfo,
-	&SymmetricTransform_t4350_il2cpp_TypeInfo,
-	&SafeBag_t4352_il2cpp_TypeInfo,
-	&DeriveBytes_t4353_il2cpp_TypeInfo,
-	&PKCS12_t4355_il2cpp_TypeInfo,
-	&X501_t4356_il2cpp_TypeInfo,
-	&X509Certificate_t4358_il2cpp_TypeInfo,
-	&X509CertificateEnumerator_t4359_il2cpp_TypeInfo,
-	&X509CertificateCollection_t4354_il2cpp_TypeInfo,
-	&X509Extension_t4360_il2cpp_TypeInfo,
-	&X509ExtensionCollection_t4357_il2cpp_TypeInfo,
-	&ASN1_t4351_il2cpp_TypeInfo,
-	&ASN1Convert_t4361_il2cpp_TypeInfo,
-	&BitConverterLE_t4362_il2cpp_TypeInfo,
-	&ContentInfo_t4363_il2cpp_TypeInfo,
-	&EncryptedData_t4364_il2cpp_TypeInfo,
-	&PKCS7_t4365_il2cpp_TypeInfo,
-	&StrongName_t4366_il2cpp_TypeInfo,
-	&SecurityParser_t4368_il2cpp_TypeInfo,
-	&IContentHandler_t4371_il2cpp_TypeInfo,
-	&IAttrList_t4819_il2cpp_TypeInfo,
-	&AttrListImpl_t4370_il2cpp_TypeInfo,
-	&SmallXmlParser_t4369_il2cpp_TypeInfo,
-	&SmallXmlParserException_t4372_il2cpp_TypeInfo,
-	&Runtime_t4373_il2cpp_TypeInfo,
-	&CollectionDebuggerView_1_t4866_il2cpp_TypeInfo,
-	&CollectionDebuggerView_2_t4867_il2cpp_TypeInfo,
-	&DefaultComparer_t4869_il2cpp_TypeInfo,
-	&Comparer_1_t4868_il2cpp_TypeInfo,
-	&GenericComparer_1_t4870_il2cpp_TypeInfo,
-	&Link_t4374_il2cpp_TypeInfo,
-	&ShimEnumerator_t4872_il2cpp_TypeInfo,
-	&Enumerator_t4873_il2cpp_TypeInfo,
-	&Enumerator_t4875_il2cpp_TypeInfo,
-	&KeyCollection_t4874_il2cpp_TypeInfo,
-	&Enumerator_t4877_il2cpp_TypeInfo,
-	&ValueCollection_t4876_il2cpp_TypeInfo,
-	&Transform_1_t4878_il2cpp_TypeInfo,
-	&Dictionary_2_t4871_il2cpp_TypeInfo,
-	&DefaultComparer_t4880_il2cpp_TypeInfo,
-	&EqualityComparer_1_t4879_il2cpp_TypeInfo,
-	&GenericEqualityComparer_1_t4881_il2cpp_TypeInfo,
-	&IComparer_1_t4882_il2cpp_TypeInfo,
-	&IDictionary_2_t4883_il2cpp_TypeInfo,
-	&IEqualityComparer_1_t4884_il2cpp_TypeInfo,
-	&KeyNotFoundException_t4375_il2cpp_TypeInfo,
-	&KeyValuePair_2_t4885_il2cpp_TypeInfo,
-	&Enumerator_t4887_il2cpp_TypeInfo,
-	&List_1_t4886_il2cpp_TypeInfo,
-	&Collection_1_t4888_il2cpp_TypeInfo,
-	&ReadOnlyCollection_1_t4889_il2cpp_TypeInfo,
-	&SimpleEnumerator_t4376_il2cpp_TypeInfo,
-	&ArrayListWrapper_t4377_il2cpp_TypeInfo,
-	&SynchronizedArrayListWrapper_t4378_il2cpp_TypeInfo,
-	&FixedSizeArrayListWrapper_t4379_il2cpp_TypeInfo,
-	&ReadOnlyArrayListWrapper_t4380_il2cpp_TypeInfo,
-	&ArrayList_t3101_il2cpp_TypeInfo,
-	&BitArrayEnumerator_t4381_il2cpp_TypeInfo,
-	&BitArray_t4114_il2cpp_TypeInfo,
-	&CaseInsensitiveComparer_t4134_il2cpp_TypeInfo,
-	&CaseInsensitiveHashCodeProvider_t4135_il2cpp_TypeInfo,
-	&CollectionBase_t3757_il2cpp_TypeInfo,
-	&CollectionDebuggerView_t4382_il2cpp_TypeInfo,
-	&Comparer_t4383_il2cpp_TypeInfo,
-	&DictionaryEntry_t2079_il2cpp_TypeInfo,
-	&Slot_t4384_il2cpp_TypeInfo,
-	&KeyMarker_t4385_il2cpp_TypeInfo,
-	&EnumeratorMode_t4386_il2cpp_TypeInfo,
-	&Enumerator_t4387_il2cpp_TypeInfo,
-	&HashKeys_t4388_il2cpp_TypeInfo,
-	&HashValues_t4389_il2cpp_TypeInfo,
-	&SyncHashtable_t4390_il2cpp_TypeInfo,
-	&Hashtable_t1267_il2cpp_TypeInfo,
-	&IComparer_t3904_il2cpp_TypeInfo,
-	&IDictionary_t629_il2cpp_TypeInfo,
-	&IDictionaryEnumerator_t3901_il2cpp_TypeInfo,
-	&IEqualityComparer_t3910_il2cpp_TypeInfo,
-	&IHashCodeProvider_t3909_il2cpp_TypeInfo,
-	&QueueEnumerator_t4392_il2cpp_TypeInfo,
-	&Queue_t3944_il2cpp_TypeInfo,
-	&Slot_t4393_il2cpp_TypeInfo,
+	&DSAManaged_t4349_il2cpp_TypeInfo,
+	&KeyPairPersistence_t4350_il2cpp_TypeInfo,
+	&MACAlgorithm_t4351_il2cpp_TypeInfo,
+	&PKCS1_t4352_il2cpp_TypeInfo,
+	&PrivateKeyInfo_t4353_il2cpp_TypeInfo,
+	&EncryptedPrivateKeyInfo_t4354_il2cpp_TypeInfo,
+	&PKCS8_t4355_il2cpp_TypeInfo,
+	&KeyGeneratedEventHandler_t4356_il2cpp_TypeInfo,
+	&RSAManaged_t4357_il2cpp_TypeInfo,
+	&SymmetricTransform_t4358_il2cpp_TypeInfo,
+	&SafeBag_t4360_il2cpp_TypeInfo,
+	&DeriveBytes_t4361_il2cpp_TypeInfo,
+	&PKCS12_t4363_il2cpp_TypeInfo,
+	&X501_t4364_il2cpp_TypeInfo,
+	&X509Certificate_t4366_il2cpp_TypeInfo,
+	&X509CertificateEnumerator_t4367_il2cpp_TypeInfo,
+	&X509CertificateCollection_t4362_il2cpp_TypeInfo,
+	&X509Extension_t4368_il2cpp_TypeInfo,
+	&X509ExtensionCollection_t4365_il2cpp_TypeInfo,
+	&ASN1_t4359_il2cpp_TypeInfo,
+	&ASN1Convert_t4369_il2cpp_TypeInfo,
+	&BitConverterLE_t4370_il2cpp_TypeInfo,
+	&ContentInfo_t4371_il2cpp_TypeInfo,
+	&EncryptedData_t4372_il2cpp_TypeInfo,
+	&PKCS7_t4373_il2cpp_TypeInfo,
+	&StrongName_t4374_il2cpp_TypeInfo,
+	&SecurityParser_t4376_il2cpp_TypeInfo,
+	&IContentHandler_t4379_il2cpp_TypeInfo,
+	&IAttrList_t4827_il2cpp_TypeInfo,
+	&AttrListImpl_t4378_il2cpp_TypeInfo,
+	&SmallXmlParser_t4377_il2cpp_TypeInfo,
+	&SmallXmlParserException_t4380_il2cpp_TypeInfo,
+	&Runtime_t4381_il2cpp_TypeInfo,
+	&CollectionDebuggerView_1_t4874_il2cpp_TypeInfo,
+	&CollectionDebuggerView_2_t4875_il2cpp_TypeInfo,
+	&DefaultComparer_t4877_il2cpp_TypeInfo,
+	&Comparer_1_t4876_il2cpp_TypeInfo,
+	&GenericComparer_1_t4878_il2cpp_TypeInfo,
+	&Link_t4382_il2cpp_TypeInfo,
+	&ShimEnumerator_t4880_il2cpp_TypeInfo,
+	&Enumerator_t4881_il2cpp_TypeInfo,
+	&Enumerator_t4883_il2cpp_TypeInfo,
+	&KeyCollection_t4882_il2cpp_TypeInfo,
+	&Enumerator_t4885_il2cpp_TypeInfo,
+	&ValueCollection_t4884_il2cpp_TypeInfo,
+	&Transform_1_t4886_il2cpp_TypeInfo,
+	&Dictionary_2_t4879_il2cpp_TypeInfo,
+	&DefaultComparer_t4888_il2cpp_TypeInfo,
+	&EqualityComparer_1_t4887_il2cpp_TypeInfo,
+	&GenericEqualityComparer_1_t4889_il2cpp_TypeInfo,
+	&IComparer_1_t4890_il2cpp_TypeInfo,
+	&IDictionary_2_t4891_il2cpp_TypeInfo,
+	&IEqualityComparer_1_t4892_il2cpp_TypeInfo,
+	&KeyNotFoundException_t4383_il2cpp_TypeInfo,
+	&KeyValuePair_2_t4893_il2cpp_TypeInfo,
+	&Enumerator_t4895_il2cpp_TypeInfo,
+	&List_1_t4894_il2cpp_TypeInfo,
+	&Collection_1_t4896_il2cpp_TypeInfo,
+	&ReadOnlyCollection_1_t4897_il2cpp_TypeInfo,
+	&SimpleEnumerator_t4384_il2cpp_TypeInfo,
+	&ArrayListWrapper_t4385_il2cpp_TypeInfo,
+	&SynchronizedArrayListWrapper_t4386_il2cpp_TypeInfo,
+	&FixedSizeArrayListWrapper_t4387_il2cpp_TypeInfo,
+	&ReadOnlyArrayListWrapper_t4388_il2cpp_TypeInfo,
+	&ArrayList_t3109_il2cpp_TypeInfo,
+	&BitArrayEnumerator_t4389_il2cpp_TypeInfo,
+	&BitArray_t4122_il2cpp_TypeInfo,
+	&CaseInsensitiveComparer_t4142_il2cpp_TypeInfo,
+	&CaseInsensitiveHashCodeProvider_t4143_il2cpp_TypeInfo,
+	&CollectionBase_t3765_il2cpp_TypeInfo,
+	&CollectionDebuggerView_t4390_il2cpp_TypeInfo,
+	&Comparer_t4391_il2cpp_TypeInfo,
+	&DictionaryEntry_t2086_il2cpp_TypeInfo,
+	&Slot_t4392_il2cpp_TypeInfo,
+	&KeyMarker_t4393_il2cpp_TypeInfo,
 	&EnumeratorMode_t4394_il2cpp_TypeInfo,
 	&Enumerator_t4395_il2cpp_TypeInfo,
-	&ListKeys_t4396_il2cpp_TypeInfo,
-	&SortedList_t4146_il2cpp_TypeInfo,
-	&Enumerator_t4398_il2cpp_TypeInfo,
-	&Stack_t2838_il2cpp_TypeInfo,
-	&AssemblyHashAlgorithm_t4399_il2cpp_TypeInfo,
-	&AssemblyVersionCompatibility_t4400_il2cpp_TypeInfo,
-	&SuppressMessageAttribute_t2911_il2cpp_TypeInfo,
-	&DebuggingModes_t4401_il2cpp_TypeInfo,
-	&DebuggableAttribute_t2103_il2cpp_TypeInfo,
-	&DebuggerBrowsableAttribute_t2155_il2cpp_TypeInfo,
-	&DebuggerBrowsableState_t4402_il2cpp_TypeInfo,
-	&DebuggerDisplayAttribute_t4403_il2cpp_TypeInfo,
-	&DebuggerStepThroughAttribute_t4404_il2cpp_TypeInfo,
-	&DebuggerTypeProxyAttribute_t4405_il2cpp_TypeInfo,
-	&StackFrame_t2896_il2cpp_TypeInfo,
-	&StackTrace_t2859_il2cpp_TypeInfo,
-	&Calendar_t4407_il2cpp_TypeInfo,
-	&CCMath_t4408_il2cpp_TypeInfo,
-	&CCFixed_t4409_il2cpp_TypeInfo,
-	&CCGregorianCalendar_t4410_il2cpp_TypeInfo,
-	&CompareInfo_t3216_il2cpp_TypeInfo,
-	&CompareOptions_t4411_il2cpp_TypeInfo,
-	&CultureInfo_t710_il2cpp_TypeInfo,
-	&DateTimeFormatFlags_t4414_il2cpp_TypeInfo,
-	&DateTimeFormatInfo_t4412_il2cpp_TypeInfo,
-	&DateTimeStyles_t4415_il2cpp_TypeInfo,
-	&DaylightTime_t4416_il2cpp_TypeInfo,
-	&GregorianCalendar_t4417_il2cpp_TypeInfo,
-	&GregorianCalendarTypes_t4418_il2cpp_TypeInfo,
+	&HashKeys_t4396_il2cpp_TypeInfo,
+	&HashValues_t4397_il2cpp_TypeInfo,
+	&SyncHashtable_t4398_il2cpp_TypeInfo,
+	&Hashtable_t1274_il2cpp_TypeInfo,
+	&IComparer_t3912_il2cpp_TypeInfo,
+	&IDictionary_t637_il2cpp_TypeInfo,
+	&IDictionaryEnumerator_t3909_il2cpp_TypeInfo,
+	&IEqualityComparer_t3918_il2cpp_TypeInfo,
+	&IHashCodeProvider_t3917_il2cpp_TypeInfo,
+	&QueueEnumerator_t4400_il2cpp_TypeInfo,
+	&Queue_t3952_il2cpp_TypeInfo,
+	&Slot_t4401_il2cpp_TypeInfo,
+	&EnumeratorMode_t4402_il2cpp_TypeInfo,
+	&Enumerator_t4403_il2cpp_TypeInfo,
+	&ListKeys_t4404_il2cpp_TypeInfo,
+	&SortedList_t4154_il2cpp_TypeInfo,
+	&Enumerator_t4406_il2cpp_TypeInfo,
+	&Stack_t2845_il2cpp_TypeInfo,
+	&AssemblyHashAlgorithm_t4407_il2cpp_TypeInfo,
+	&AssemblyVersionCompatibility_t4408_il2cpp_TypeInfo,
+	&SuppressMessageAttribute_t2918_il2cpp_TypeInfo,
+	&DebuggingModes_t4409_il2cpp_TypeInfo,
+	&DebuggableAttribute_t2110_il2cpp_TypeInfo,
+	&DebuggerBrowsableAttribute_t2162_il2cpp_TypeInfo,
+	&DebuggerBrowsableState_t4410_il2cpp_TypeInfo,
+	&DebuggerDisplayAttribute_t4411_il2cpp_TypeInfo,
+	&DebuggerStepThroughAttribute_t4412_il2cpp_TypeInfo,
+	&DebuggerTypeProxyAttribute_t4413_il2cpp_TypeInfo,
+	&StackFrame_t2903_il2cpp_TypeInfo,
+	&StackTrace_t2866_il2cpp_TypeInfo,
+	&Calendar_t4415_il2cpp_TypeInfo,
+	&CCMath_t4416_il2cpp_TypeInfo,
+	&CCFixed_t4417_il2cpp_TypeInfo,
+	&CCGregorianCalendar_t4418_il2cpp_TypeInfo,
+	&CompareInfo_t3224_il2cpp_TypeInfo,
+	&CompareOptions_t4419_il2cpp_TypeInfo,
+	&CultureInfo_t718_il2cpp_TypeInfo,
+	&DateTimeFormatFlags_t4422_il2cpp_TypeInfo,
+	&DateTimeFormatInfo_t4420_il2cpp_TypeInfo,
+	&DateTimeStyles_t4423_il2cpp_TypeInfo,
+	&DaylightTime_t4424_il2cpp_TypeInfo,
+	&GregorianCalendar_t4425_il2cpp_TypeInfo,
+	&GregorianCalendarTypes_t4426_il2cpp_TypeInfo,
 	&NumberFormatInfo_t452_il2cpp_TypeInfo,
-	&NumberStyles_t4419_il2cpp_TypeInfo,
-	&Data_t4420_il2cpp_TypeInfo,
-	&TextInfo_t4324_il2cpp_TypeInfo,
-	&UnicodeCategory_t4276_il2cpp_TypeInfo,
-	&IsolatedStorageException_t4421_il2cpp_TypeInfo,
+	&NumberStyles_t4427_il2cpp_TypeInfo,
+	&Data_t4428_il2cpp_TypeInfo,
+	&TextInfo_t4332_il2cpp_TypeInfo,
+	&UnicodeCategory_t4284_il2cpp_TypeInfo,
+	&IsolatedStorageException_t4429_il2cpp_TypeInfo,
 	&BinaryReader_t52_il2cpp_TypeInfo,
 	&BinaryWriter_t50_il2cpp_TypeInfo,
-	&Directory_t4422_il2cpp_TypeInfo,
+	&Directory_t4430_il2cpp_TypeInfo,
 	&DirectoryInfo_t64_il2cpp_TypeInfo,
-	&DirectoryNotFoundException_t4424_il2cpp_TypeInfo,
-	&EndOfStreamException_t4425_il2cpp_TypeInfo,
-	&File_t4426_il2cpp_TypeInfo,
-	&FileAccess_t4143_il2cpp_TypeInfo,
-	&FileAttributes_t4427_il2cpp_TypeInfo,
+	&DirectoryNotFoundException_t4432_il2cpp_TypeInfo,
+	&EndOfStreamException_t4433_il2cpp_TypeInfo,
+	&File_t4434_il2cpp_TypeInfo,
+	&FileAccess_t4151_il2cpp_TypeInfo,
+	&FileAttributes_t4435_il2cpp_TypeInfo,
 	&FileInfo_t63_il2cpp_TypeInfo,
-	&FileLoadException_t4428_il2cpp_TypeInfo,
-	&FileMode_t4268_il2cpp_TypeInfo,
-	&FileNotFoundException_t4429_il2cpp_TypeInfo,
-	&FileOptions_t4430_il2cpp_TypeInfo,
-	&FileShare_t4269_il2cpp_TypeInfo,
-	&ReadDelegate_t4431_il2cpp_TypeInfo,
-	&WriteDelegate_t4432_il2cpp_TypeInfo,
+	&FileLoadException_t4436_il2cpp_TypeInfo,
+	&FileMode_t4276_il2cpp_TypeInfo,
+	&FileNotFoundException_t4437_il2cpp_TypeInfo,
+	&FileOptions_t4438_il2cpp_TypeInfo,
+	&FileShare_t4277_il2cpp_TypeInfo,
+	&ReadDelegate_t4439_il2cpp_TypeInfo,
+	&WriteDelegate_t4440_il2cpp_TypeInfo,
 	&FileStream_t62_il2cpp_TypeInfo,
-	&FileStreamAsyncResult_t4433_il2cpp_TypeInfo,
-	&FileSystemInfo_t4423_il2cpp_TypeInfo,
-	&IOException_t3882_il2cpp_TypeInfo,
+	&FileStreamAsyncResult_t4441_il2cpp_TypeInfo,
+	&FileSystemInfo_t4431_il2cpp_TypeInfo,
+	&IOException_t3890_il2cpp_TypeInfo,
 	&MemoryStream_t65_il2cpp_TypeInfo,
-	&MonoFileType_t4435_il2cpp_TypeInfo,
-	&MonoIO_t4436_il2cpp_TypeInfo,
-	&MonoIOError_t4437_il2cpp_TypeInfo,
-	&MonoIOStat_t4434_il2cpp_TypeInfo,
-	&Path_t2083_il2cpp_TypeInfo,
-	&PathTooLongException_t4438_il2cpp_TypeInfo,
-	&SearchPattern_t4439_il2cpp_TypeInfo,
-	&SeekOrigin_t3257_il2cpp_TypeInfo,
+	&MonoFileType_t4443_il2cpp_TypeInfo,
+	&MonoIO_t4444_il2cpp_TypeInfo,
+	&MonoIOError_t4445_il2cpp_TypeInfo,
+	&MonoIOStat_t4442_il2cpp_TypeInfo,
+	&Path_t2090_il2cpp_TypeInfo,
+	&PathTooLongException_t4446_il2cpp_TypeInfo,
+	&SearchPattern_t4447_il2cpp_TypeInfo,
+	&SeekOrigin_t3265_il2cpp_TypeInfo,
 	&Stream_t51_il2cpp_TypeInfo,
-	&NullStream_t4440_il2cpp_TypeInfo,
-	&StreamAsyncResult_t4441_il2cpp_TypeInfo,
-	&NullStreamReader_t4442_il2cpp_TypeInfo,
-	&StreamReader_t1098_il2cpp_TypeInfo,
-	&StreamWriter_t1487_il2cpp_TypeInfo,
+	&NullStream_t4448_il2cpp_TypeInfo,
+	&StreamAsyncResult_t4449_il2cpp_TypeInfo,
+	&NullStreamReader_t4450_il2cpp_TypeInfo,
+	&StreamReader_t1105_il2cpp_TypeInfo,
+	&StreamWriter_t1494_il2cpp_TypeInfo,
 	&StringReader_t259_il2cpp_TypeInfo,
-	&StringWriter_t3220_il2cpp_TypeInfo,
-	&NullTextReader_t4443_il2cpp_TypeInfo,
-	&TextReader_t3177_il2cpp_TypeInfo,
-	&SynchronizedReader_t4444_il2cpp_TypeInfo,
-	&NullTextWriter_t4445_il2cpp_TypeInfo,
-	&TextWriter_t3219_il2cpp_TypeInfo,
-	&SynchronizedWriter_t4447_il2cpp_TypeInfo,
-	&UnexceptionalStreamReader_t4448_il2cpp_TypeInfo,
-	&UnexceptionalStreamWriter_t4449_il2cpp_TypeInfo,
-	&AssemblyBuilder_t4451_il2cpp_TypeInfo,
-	&ConstructorBuilder_t4454_il2cpp_TypeInfo,
-	&EnumBuilder_t4455_il2cpp_TypeInfo,
-	&FieldBuilder_t4457_il2cpp_TypeInfo,
-	&GenericTypeParameterBuilder_t4459_il2cpp_TypeInfo,
-	&MethodBuilder_t4458_il2cpp_TypeInfo,
-	&ModuleBuilder_t4461_il2cpp_TypeInfo,
-	&ParameterBuilder_t4463_il2cpp_TypeInfo,
-	&PropertyBuilder_t4464_il2cpp_TypeInfo,
-	&TypeBuilder_t4452_il2cpp_TypeInfo,
-	&UnmanagedMarshal_t4456_il2cpp_TypeInfo,
-	&AmbiguousMatchException_t4469_il2cpp_TypeInfo,
-	&ResolveEventHolder_t4470_il2cpp_TypeInfo,
-	&Assembly_t711_il2cpp_TypeInfo,
-	&AssemblyCompanyAttribute_t1030_il2cpp_TypeInfo,
-	&AssemblyConfigurationAttribute_t1029_il2cpp_TypeInfo,
-	&AssemblyCopyrightAttribute_t1032_il2cpp_TypeInfo,
-	&AssemblyDefaultAliasAttribute_t3248_il2cpp_TypeInfo,
-	&AssemblyDelaySignAttribute_t3250_il2cpp_TypeInfo,
-	&AssemblyDescriptionAttribute_t1028_il2cpp_TypeInfo,
-	&AssemblyFileVersionAttribute_t1035_il2cpp_TypeInfo,
-	&AssemblyInformationalVersionAttribute_t3246_il2cpp_TypeInfo,
-	&AssemblyKeyFileAttribute_t3251_il2cpp_TypeInfo,
-	&AssemblyName_t1405_il2cpp_TypeInfo,
-	&AssemblyNameFlags_t4474_il2cpp_TypeInfo,
-	&AssemblyProductAttribute_t1031_il2cpp_TypeInfo,
-	&AssemblyTitleAttribute_t1034_il2cpp_TypeInfo,
-	&AssemblyTrademarkAttribute_t1036_il2cpp_TypeInfo,
-	&Default_t4475_il2cpp_TypeInfo,
-	&Binder_t2894_il2cpp_TypeInfo,
-	&BindingFlags_t4476_il2cpp_TypeInfo,
-	&CallingConventions_t4477_il2cpp_TypeInfo,
-	&ConstructorInfo_t1321_il2cpp_TypeInfo,
-	&EventAttributes_t4478_il2cpp_TypeInfo,
-	&AddEventAdapter_t4479_il2cpp_TypeInfo,
+	&StringWriter_t3228_il2cpp_TypeInfo,
+	&NullTextReader_t4451_il2cpp_TypeInfo,
+	&TextReader_t3185_il2cpp_TypeInfo,
+	&SynchronizedReader_t4452_il2cpp_TypeInfo,
+	&NullTextWriter_t4453_il2cpp_TypeInfo,
+	&TextWriter_t3227_il2cpp_TypeInfo,
+	&SynchronizedWriter_t4455_il2cpp_TypeInfo,
+	&UnexceptionalStreamReader_t4456_il2cpp_TypeInfo,
+	&UnexceptionalStreamWriter_t4457_il2cpp_TypeInfo,
+	&AssemblyBuilder_t4459_il2cpp_TypeInfo,
+	&ConstructorBuilder_t4462_il2cpp_TypeInfo,
+	&EnumBuilder_t4463_il2cpp_TypeInfo,
+	&FieldBuilder_t4465_il2cpp_TypeInfo,
+	&GenericTypeParameterBuilder_t4467_il2cpp_TypeInfo,
+	&MethodBuilder_t4466_il2cpp_TypeInfo,
+	&ModuleBuilder_t4469_il2cpp_TypeInfo,
+	&ParameterBuilder_t4471_il2cpp_TypeInfo,
+	&PropertyBuilder_t4472_il2cpp_TypeInfo,
+	&TypeBuilder_t4460_il2cpp_TypeInfo,
+	&UnmanagedMarshal_t4464_il2cpp_TypeInfo,
+	&AmbiguousMatchException_t4477_il2cpp_TypeInfo,
+	&ResolveEventHolder_t4478_il2cpp_TypeInfo,
+	&Assembly_t719_il2cpp_TypeInfo,
+	&AssemblyCompanyAttribute_t1037_il2cpp_TypeInfo,
+	&AssemblyConfigurationAttribute_t1036_il2cpp_TypeInfo,
+	&AssemblyCopyrightAttribute_t1039_il2cpp_TypeInfo,
+	&AssemblyDefaultAliasAttribute_t3256_il2cpp_TypeInfo,
+	&AssemblyDelaySignAttribute_t3258_il2cpp_TypeInfo,
+	&AssemblyDescriptionAttribute_t1035_il2cpp_TypeInfo,
+	&AssemblyFileVersionAttribute_t1042_il2cpp_TypeInfo,
+	&AssemblyInformationalVersionAttribute_t3254_il2cpp_TypeInfo,
+	&AssemblyKeyFileAttribute_t3259_il2cpp_TypeInfo,
+	&AssemblyName_t1412_il2cpp_TypeInfo,
+	&AssemblyNameFlags_t4482_il2cpp_TypeInfo,
+	&AssemblyProductAttribute_t1038_il2cpp_TypeInfo,
+	&AssemblyTitleAttribute_t1041_il2cpp_TypeInfo,
+	&AssemblyTrademarkAttribute_t1043_il2cpp_TypeInfo,
+	&Default_t4483_il2cpp_TypeInfo,
+	&Binder_t2901_il2cpp_TypeInfo,
+	&BindingFlags_t4484_il2cpp_TypeInfo,
+	&CallingConventions_t4485_il2cpp_TypeInfo,
+	&ConstructorInfo_t1328_il2cpp_TypeInfo,
+	&EventAttributes_t4486_il2cpp_TypeInfo,
+	&AddEventAdapter_t4487_il2cpp_TypeInfo,
 	&EventInfo_t_il2cpp_TypeInfo,
-	&FieldAttributes_t4480_il2cpp_TypeInfo,
+	&FieldAttributes_t4488_il2cpp_TypeInfo,
 	&FieldInfo_t_il2cpp_TypeInfo,
-	&MemberInfoSerializationHolder_t4481_il2cpp_TypeInfo,
-	&MemberTypes_t4482_il2cpp_TypeInfo,
-	&MethodAttributes_t4483_il2cpp_TypeInfo,
-	&MethodBase_t1465_il2cpp_TypeInfo,
-	&MethodImplAttributes_t4484_il2cpp_TypeInfo,
+	&MemberInfoSerializationHolder_t4489_il2cpp_TypeInfo,
+	&MemberTypes_t4490_il2cpp_TypeInfo,
+	&MethodAttributes_t4491_il2cpp_TypeInfo,
+	&MethodBase_t1472_il2cpp_TypeInfo,
+	&MethodImplAttributes_t4492_il2cpp_TypeInfo,
 	&MethodInfo_t_il2cpp_TypeInfo,
-	&Missing_t4485_il2cpp_TypeInfo,
-	&Module_t4462_il2cpp_TypeInfo,
-	&MonoEventInfo_t4487_il2cpp_TypeInfo,
+	&Missing_t4493_il2cpp_TypeInfo,
+	&Module_t4470_il2cpp_TypeInfo,
+	&MonoEventInfo_t4495_il2cpp_TypeInfo,
 	&MonoEvent_t_il2cpp_TypeInfo,
 	&MonoField_t_il2cpp_TypeInfo,
 	&MonoGenericMethod_t_il2cpp_TypeInfo,
-	&MonoGenericCMethod_t4488_il2cpp_TypeInfo,
-	&MonoMethodInfo_t4490_il2cpp_TypeInfo,
+	&MonoGenericCMethod_t4496_il2cpp_TypeInfo,
+	&MonoMethodInfo_t4498_il2cpp_TypeInfo,
 	&MonoMethod_t_il2cpp_TypeInfo,
-	&MonoCMethod_t4489_il2cpp_TypeInfo,
-	&MonoPropertyInfo_t4491_il2cpp_TypeInfo,
-	&PInfo_t4492_il2cpp_TypeInfo,
-	&GetterAdapter_t4493_il2cpp_TypeInfo,
-	&Getter_2_t4832_il2cpp_TypeInfo,
-	&StaticGetter_1_t4831_il2cpp_TypeInfo,
+	&MonoCMethod_t4497_il2cpp_TypeInfo,
+	&MonoPropertyInfo_t4499_il2cpp_TypeInfo,
+	&PInfo_t4500_il2cpp_TypeInfo,
+	&GetterAdapter_t4501_il2cpp_TypeInfo,
+	&Getter_2_t4840_il2cpp_TypeInfo,
+	&StaticGetter_1_t4839_il2cpp_TypeInfo,
 	&MonoProperty_t_il2cpp_TypeInfo,
-	&ParameterAttributes_t4494_il2cpp_TypeInfo,
-	&ParameterInfo_t1323_il2cpp_TypeInfo,
-	&ParameterModifier_t4495_il2cpp_TypeInfo,
-	&Pointer_t4496_il2cpp_TypeInfo,
-	&ProcessorArchitecture_t4497_il2cpp_TypeInfo,
-	&PropertyAttributes_t4498_il2cpp_TypeInfo,
+	&ParameterAttributes_t4502_il2cpp_TypeInfo,
+	&ParameterInfo_t1330_il2cpp_TypeInfo,
+	&ParameterModifier_t4503_il2cpp_TypeInfo,
+	&Pointer_t4504_il2cpp_TypeInfo,
+	&ProcessorArchitecture_t4505_il2cpp_TypeInfo,
+	&PropertyAttributes_t4506_il2cpp_TypeInfo,
 	&PropertyInfo_t_il2cpp_TypeInfo,
-	&StrongNameKeyPair_t4473_il2cpp_TypeInfo,
-	&TargetException_t4499_il2cpp_TypeInfo,
-	&TargetInvocationException_t4500_il2cpp_TypeInfo,
-	&TargetParameterCountException_t4501_il2cpp_TypeInfo,
-	&TypeAttributes_t4502_il2cpp_TypeInfo,
-	&NeutralResourcesLanguageAttribute_t3245_il2cpp_TypeInfo,
-	&SatelliteContractVersionAttribute_t3247_il2cpp_TypeInfo,
-	&CompilationRelaxations_t4503_il2cpp_TypeInfo,
-	&CompilationRelaxationsAttribute_t2104_il2cpp_TypeInfo,
-	&DefaultDependencyAttribute_t4504_il2cpp_TypeInfo,
-	&IsVolatile_t4505_il2cpp_TypeInfo,
-	&LoadHint_t4506_il2cpp_TypeInfo,
-	&StringFreezingAttribute_t4507_il2cpp_TypeInfo,
-	&Cer_t4508_il2cpp_TypeInfo,
-	&Consistency_t4509_il2cpp_TypeInfo,
-	&CriticalFinalizerObject_t4510_il2cpp_TypeInfo,
-	&ReliabilityContractAttribute_t4511_il2cpp_TypeInfo,
-	&ActivationArguments_t4512_il2cpp_TypeInfo,
-	&CallingConvention_t4513_il2cpp_TypeInfo,
-	&CharSet_t4514_il2cpp_TypeInfo,
-	&ClassInterfaceAttribute_t4515_il2cpp_TypeInfo,
-	&ClassInterfaceType_t4516_il2cpp_TypeInfo,
-	&ComDefaultInterfaceAttribute_t4517_il2cpp_TypeInfo,
-	&ComInterfaceType_t4518_il2cpp_TypeInfo,
-	&DispIdAttribute_t4519_il2cpp_TypeInfo,
-	&ExternalException_t3916_il2cpp_TypeInfo,
-	&GCHandle_t3922_il2cpp_TypeInfo,
-	&GCHandleType_t4520_il2cpp_TypeInfo,
-	&InterfaceTypeAttribute_t4521_il2cpp_TypeInfo,
-	&Marshal_t4137_il2cpp_TypeInfo,
-	&MarshalDirectiveException_t4522_il2cpp_TypeInfo,
-	&PreserveSigAttribute_t4523_il2cpp_TypeInfo,
-	&SafeHandle_t4306_il2cpp_TypeInfo,
-	&TypeLibImportClassAttribute_t4524_il2cpp_TypeInfo,
-	&TypeLibVersionAttribute_t4525_il2cpp_TypeInfo,
-	&UnmanagedFunctionPointerAttribute_t4164_il2cpp_TypeInfo,
-	&UnmanagedType_t4526_il2cpp_TypeInfo,
-	&_Activator_t4909_il2cpp_TypeInfo,
-	&_Assembly_t4899_il2cpp_TypeInfo,
-	&_AssemblyBuilder_t4890_il2cpp_TypeInfo,
-	&_AssemblyName_t4900_il2cpp_TypeInfo,
-	&_ConstructorBuilder_t4891_il2cpp_TypeInfo,
-	&_ConstructorInfo_t4901_il2cpp_TypeInfo,
-	&_EnumBuilder_t4892_il2cpp_TypeInfo,
-	&_EventInfo_t4902_il2cpp_TypeInfo,
-	&_FieldBuilder_t4893_il2cpp_TypeInfo,
-	&_FieldInfo_t4903_il2cpp_TypeInfo,
-	&_MethodBase_t4904_il2cpp_TypeInfo,
-	&_MethodBuilder_t4894_il2cpp_TypeInfo,
-	&_MethodInfo_t4905_il2cpp_TypeInfo,
-	&_Module_t4906_il2cpp_TypeInfo,
-	&_ModuleBuilder_t4895_il2cpp_TypeInfo,
-	&_ParameterBuilder_t4896_il2cpp_TypeInfo,
-	&_ParameterInfo_t4907_il2cpp_TypeInfo,
-	&_PropertyBuilder_t4897_il2cpp_TypeInfo,
-	&_PropertyInfo_t4908_il2cpp_TypeInfo,
-	&_Thread_t4910_il2cpp_TypeInfo,
-	&_TypeBuilder_t4898_il2cpp_TypeInfo,
-	&ActivationServices_t4528_il2cpp_TypeInfo,
-	&AppDomainLevelActivator_t4529_il2cpp_TypeInfo,
-	&ConstructionLevelActivator_t4530_il2cpp_TypeInfo,
-	&ContextLevelActivator_t4531_il2cpp_TypeInfo,
-	&IActivator_t4527_il2cpp_TypeInfo,
-	&IConstructionCallMessage_t4822_il2cpp_TypeInfo,
-	&RemoteActivator_t4532_il2cpp_TypeInfo,
-	&UrlAttribute_t4533_il2cpp_TypeInfo,
-	&ChannelInfo_t4535_il2cpp_TypeInfo,
-	&ChannelServices_t4537_il2cpp_TypeInfo,
-	&CrossAppDomainData_t4538_il2cpp_TypeInfo,
-	&CrossAppDomainChannel_t4539_il2cpp_TypeInfo,
-	&CrossAppDomainSink_t4540_il2cpp_TypeInfo,
-	&IChannel_t4823_il2cpp_TypeInfo,
-	&IChannelReceiver_t4835_il2cpp_TypeInfo,
-	&IChannelSender_t4911_il2cpp_TypeInfo,
-	&ISecurableChannel_t4834_il2cpp_TypeInfo,
-	&Context_t4541_il2cpp_TypeInfo,
-	&ContextAttribute_t4534_il2cpp_TypeInfo,
-	&CrossContextChannel_t4536_il2cpp_TypeInfo,
-	&IContextAttribute_t4833_il2cpp_TypeInfo,
-	&IContextProperty_t4824_il2cpp_TypeInfo,
-	&IContributeClientContextSink_t4912_il2cpp_TypeInfo,
-	&IContributeServerContextSink_t4913_il2cpp_TypeInfo,
-	&SynchronizationAttribute_t4543_il2cpp_TypeInfo,
-	&ArgInfoType_t4544_il2cpp_TypeInfo,
-	&ArgInfo_t4545_il2cpp_TypeInfo,
-	&AsyncResult_t4138_il2cpp_TypeInfo,
-	&ConstructionCall_t4550_il2cpp_TypeInfo,
-	&ConstructionCallDictionary_t4552_il2cpp_TypeInfo,
-	&EnvoyTerminatorSink_t4554_il2cpp_TypeInfo,
-	&Header_t4555_il2cpp_TypeInfo,
-	&IInternalMessage_t4836_il2cpp_TypeInfo,
-	&IMessage_t4549_il2cpp_TypeInfo,
-	&IMessageCtrl_t4548_il2cpp_TypeInfo,
-	&IMessageSink_t3034_il2cpp_TypeInfo,
-	&IMethodCallMessage_t4826_il2cpp_TypeInfo,
-	&IMethodMessage_t4560_il2cpp_TypeInfo,
-	&IMethodReturnMessage_t4825_il2cpp_TypeInfo,
-	&IRemotingFormatter_t4914_il2cpp_TypeInfo,
-	&ISerializationRootObject_t4915_il2cpp_TypeInfo,
-	&LogicalCallContext_t4557_il2cpp_TypeInfo,
-	&CallContextRemotingData_t4556_il2cpp_TypeInfo,
-	&MethodCall_t4551_il2cpp_TypeInfo,
-	&MethodCallDictionary_t4558_il2cpp_TypeInfo,
-	&DictionaryEnumerator_t4559_il2cpp_TypeInfo,
-	&MethodDictionary_t4553_il2cpp_TypeInfo,
-	&MethodReturnDictionary_t4561_il2cpp_TypeInfo,
-	&MonoMethodMessage_t4547_il2cpp_TypeInfo,
-	&RemotingSurrogate_t4562_il2cpp_TypeInfo,
-	&ObjRefSurrogate_t4563_il2cpp_TypeInfo,
-	&RemotingSurrogateSelector_t4565_il2cpp_TypeInfo,
-	&ReturnMessage_t4566_il2cpp_TypeInfo,
-	&ProxyAttribute_t4567_il2cpp_TypeInfo,
-	&TransparentProxy_t4569_il2cpp_TypeInfo,
-	&RealProxy_t4568_il2cpp_TypeInfo,
-	&RemotingProxy_t4571_il2cpp_TypeInfo,
-	&ITrackingHandler_t4838_il2cpp_TypeInfo,
-	&TrackingServices_t4572_il2cpp_TypeInfo,
-	&ActivatedClientTypeEntry_t4573_il2cpp_TypeInfo,
-	&EnvoyInfo_t4575_il2cpp_TypeInfo,
-	&IChannelInfo_t4578_il2cpp_TypeInfo,
-	&IEnvoyInfo_t4580_il2cpp_TypeInfo,
-	&IRemotingTypeInfo_t4579_il2cpp_TypeInfo,
-	&Identity_t4570_il2cpp_TypeInfo,
-	&ClientIdentity_t4577_il2cpp_TypeInfo,
-	&ObjRef_t4576_il2cpp_TypeInfo,
-	&RemotingConfiguration_t4581_il2cpp_TypeInfo,
-	&RemotingException_t4582_il2cpp_TypeInfo,
-	&RemotingServices_t4584_il2cpp_TypeInfo,
-	&ServerIdentity_t4300_il2cpp_TypeInfo,
-	&ClientActivatedIdentity_t4585_il2cpp_TypeInfo,
-	&SingletonIdentity_t4586_il2cpp_TypeInfo,
-	&SingleCallIdentity_t4587_il2cpp_TypeInfo,
-	&TypeEntry_t4574_il2cpp_TypeInfo,
-	&TypeInfo_t4588_il2cpp_TypeInfo,
-	&WellKnownObjectMode_t4589_il2cpp_TypeInfo,
-	&BinaryCommon_t4590_il2cpp_TypeInfo,
-	&BinaryElement_t4591_il2cpp_TypeInfo,
-	&TypeTag_t4592_il2cpp_TypeInfo,
-	&MethodFlags_t4593_il2cpp_TypeInfo,
-	&ReturnTypeTag_t4594_il2cpp_TypeInfo,
-	&BinaryFormatter_t4583_il2cpp_TypeInfo,
-	&MessageFormatter_t4596_il2cpp_TypeInfo,
-	&TypeMetadata_t4598_il2cpp_TypeInfo,
-	&ArrayNullFiller_t4599_il2cpp_TypeInfo,
-	&ObjectReader_t4601_il2cpp_TypeInfo,
-	&FormatterAssemblyStyle_t4602_il2cpp_TypeInfo,
-	&FormatterTypeStyle_t4603_il2cpp_TypeInfo,
-	&TypeFilterLevel_t4604_il2cpp_TypeInfo,
-	&FormatterConverter_t4605_il2cpp_TypeInfo,
-	&FormatterServices_t4606_il2cpp_TypeInfo,
-	&IDeserializationCallback_t758_il2cpp_TypeInfo,
-	&IFormatter_t4916_il2cpp_TypeInfo,
-	&IFormatterConverter_t4622_il2cpp_TypeInfo,
-	&IObjectReference_t4843_il2cpp_TypeInfo,
-	&ISerializationSurrogate_t4614_il2cpp_TypeInfo,
-	&ISurrogateSelector_t4564_il2cpp_TypeInfo,
-	&ObjectManager_t4600_il2cpp_TypeInfo,
-	&BaseFixupRecord_t4608_il2cpp_TypeInfo,
-	&ArrayFixupRecord_t4609_il2cpp_TypeInfo,
-	&MultiArrayFixupRecord_t4610_il2cpp_TypeInfo,
-	&FixupRecord_t4611_il2cpp_TypeInfo,
-	&DelayedFixupRecord_t4612_il2cpp_TypeInfo,
-	&ObjectRecordStatus_t4613_il2cpp_TypeInfo,
-	&ObjectRecord_t4607_il2cpp_TypeInfo,
-	&OnDeserializedAttribute_t4615_il2cpp_TypeInfo,
-	&OnDeserializingAttribute_t4616_il2cpp_TypeInfo,
-	&OnSerializedAttribute_t4617_il2cpp_TypeInfo,
-	&OnSerializingAttribute_t4618_il2cpp_TypeInfo,
-	&SerializationBinder_t4595_il2cpp_TypeInfo,
-	&CallbackHandler_t4619_il2cpp_TypeInfo,
-	&SerializationCallbacks_t4620_il2cpp_TypeInfo,
-	&SerializationEntry_t4621_il2cpp_TypeInfo,
-	&SerializationException_t4136_il2cpp_TypeInfo,
-	&SerializationInfo_t2860_il2cpp_TypeInfo,
-	&SerializationInfoEnumerator_t4623_il2cpp_TypeInfo,
-	&StreamingContext_t2861_il2cpp_TypeInfo,
-	&StreamingContextStates_t4624_il2cpp_TypeInfo,
-	&X509Certificate_t3824_il2cpp_TypeInfo,
-	&X509KeyStorageFlags_t4275_il2cpp_TypeInfo,
-	&AsymmetricAlgorithm_t3842_il2cpp_TypeInfo,
-	&AsymmetricKeyExchangeFormatter_t4625_il2cpp_TypeInfo,
-	&AsymmetricSignatureDeformatter_t3809_il2cpp_TypeInfo,
-	&AsymmetricSignatureFormatter_t3811_il2cpp_TypeInfo,
-	&Base64Constants_t4626_il2cpp_TypeInfo,
-	&CipherMode_t3889_il2cpp_TypeInfo,
-	&CryptoConfig_t3857_il2cpp_TypeInfo,
-	&CryptographicException_t3858_il2cpp_TypeInfo,
-	&CryptographicUnexpectedOperationException_t3870_il2cpp_TypeInfo,
-	&CspParameters_t3859_il2cpp_TypeInfo,
-	&CspProviderFlags_t4627_il2cpp_TypeInfo,
-	&DES_t3872_il2cpp_TypeInfo,
-	&DESTransform_t4629_il2cpp_TypeInfo,
-	&DESCryptoServiceProvider_t4630_il2cpp_TypeInfo,
-	&DSA_t3753_il2cpp_TypeInfo,
-	&DSACryptoServiceProvider_t3863_il2cpp_TypeInfo,
-	&DSAParameters_t3854_il2cpp_TypeInfo,
-	&DSASignatureDeformatter_t3867_il2cpp_TypeInfo,
-	&DSASignatureFormatter_t4631_il2cpp_TypeInfo,
-	&HMAC_t3862_il2cpp_TypeInfo,
-	&HMACMD5_t4632_il2cpp_TypeInfo,
-	&HMACRIPEMD160_t4633_il2cpp_TypeInfo,
+	&StrongNameKeyPair_t4481_il2cpp_TypeInfo,
+	&TargetException_t4507_il2cpp_TypeInfo,
+	&TargetInvocationException_t4508_il2cpp_TypeInfo,
+	&TargetParameterCountException_t4509_il2cpp_TypeInfo,
+	&TypeAttributes_t4510_il2cpp_TypeInfo,
+	&NeutralResourcesLanguageAttribute_t3253_il2cpp_TypeInfo,
+	&SatelliteContractVersionAttribute_t3255_il2cpp_TypeInfo,
+	&CompilationRelaxations_t4511_il2cpp_TypeInfo,
+	&CompilationRelaxationsAttribute_t2111_il2cpp_TypeInfo,
+	&DefaultDependencyAttribute_t4512_il2cpp_TypeInfo,
+	&IsVolatile_t4513_il2cpp_TypeInfo,
+	&LoadHint_t4514_il2cpp_TypeInfo,
+	&StringFreezingAttribute_t4515_il2cpp_TypeInfo,
+	&Cer_t4516_il2cpp_TypeInfo,
+	&Consistency_t4517_il2cpp_TypeInfo,
+	&CriticalFinalizerObject_t4518_il2cpp_TypeInfo,
+	&ReliabilityContractAttribute_t4519_il2cpp_TypeInfo,
+	&ActivationArguments_t4520_il2cpp_TypeInfo,
+	&CallingConvention_t4521_il2cpp_TypeInfo,
+	&CharSet_t4522_il2cpp_TypeInfo,
+	&ClassInterfaceAttribute_t4523_il2cpp_TypeInfo,
+	&ClassInterfaceType_t4524_il2cpp_TypeInfo,
+	&ComDefaultInterfaceAttribute_t4525_il2cpp_TypeInfo,
+	&ComInterfaceType_t4526_il2cpp_TypeInfo,
+	&DispIdAttribute_t4527_il2cpp_TypeInfo,
+	&ExternalException_t3924_il2cpp_TypeInfo,
+	&GCHandle_t3930_il2cpp_TypeInfo,
+	&GCHandleType_t4528_il2cpp_TypeInfo,
+	&InterfaceTypeAttribute_t4529_il2cpp_TypeInfo,
+	&Marshal_t4145_il2cpp_TypeInfo,
+	&MarshalDirectiveException_t4530_il2cpp_TypeInfo,
+	&PreserveSigAttribute_t4531_il2cpp_TypeInfo,
+	&SafeHandle_t4314_il2cpp_TypeInfo,
+	&TypeLibImportClassAttribute_t4532_il2cpp_TypeInfo,
+	&TypeLibVersionAttribute_t4533_il2cpp_TypeInfo,
+	&UnmanagedFunctionPointerAttribute_t4172_il2cpp_TypeInfo,
+	&UnmanagedType_t4534_il2cpp_TypeInfo,
+	&_Activator_t4917_il2cpp_TypeInfo,
+	&_Assembly_t4907_il2cpp_TypeInfo,
+	&_AssemblyBuilder_t4898_il2cpp_TypeInfo,
+	&_AssemblyName_t4908_il2cpp_TypeInfo,
+	&_ConstructorBuilder_t4899_il2cpp_TypeInfo,
+	&_ConstructorInfo_t4909_il2cpp_TypeInfo,
+	&_EnumBuilder_t4900_il2cpp_TypeInfo,
+	&_EventInfo_t4910_il2cpp_TypeInfo,
+	&_FieldBuilder_t4901_il2cpp_TypeInfo,
+	&_FieldInfo_t4911_il2cpp_TypeInfo,
+	&_MethodBase_t4912_il2cpp_TypeInfo,
+	&_MethodBuilder_t4902_il2cpp_TypeInfo,
+	&_MethodInfo_t4913_il2cpp_TypeInfo,
+	&_Module_t4914_il2cpp_TypeInfo,
+	&_ModuleBuilder_t4903_il2cpp_TypeInfo,
+	&_ParameterBuilder_t4904_il2cpp_TypeInfo,
+	&_ParameterInfo_t4915_il2cpp_TypeInfo,
+	&_PropertyBuilder_t4905_il2cpp_TypeInfo,
+	&_PropertyInfo_t4916_il2cpp_TypeInfo,
+	&_Thread_t4918_il2cpp_TypeInfo,
+	&_TypeBuilder_t4906_il2cpp_TypeInfo,
+	&ActivationServices_t4536_il2cpp_TypeInfo,
+	&AppDomainLevelActivator_t4537_il2cpp_TypeInfo,
+	&ConstructionLevelActivator_t4538_il2cpp_TypeInfo,
+	&ContextLevelActivator_t4539_il2cpp_TypeInfo,
+	&IActivator_t4535_il2cpp_TypeInfo,
+	&IConstructionCallMessage_t4830_il2cpp_TypeInfo,
+	&RemoteActivator_t4540_il2cpp_TypeInfo,
+	&UrlAttribute_t4541_il2cpp_TypeInfo,
+	&ChannelInfo_t4543_il2cpp_TypeInfo,
+	&ChannelServices_t4545_il2cpp_TypeInfo,
+	&CrossAppDomainData_t4546_il2cpp_TypeInfo,
+	&CrossAppDomainChannel_t4547_il2cpp_TypeInfo,
+	&CrossAppDomainSink_t4548_il2cpp_TypeInfo,
+	&IChannel_t4831_il2cpp_TypeInfo,
+	&IChannelReceiver_t4843_il2cpp_TypeInfo,
+	&IChannelSender_t4919_il2cpp_TypeInfo,
+	&ISecurableChannel_t4842_il2cpp_TypeInfo,
+	&Context_t4549_il2cpp_TypeInfo,
+	&ContextAttribute_t4542_il2cpp_TypeInfo,
+	&CrossContextChannel_t4544_il2cpp_TypeInfo,
+	&IContextAttribute_t4841_il2cpp_TypeInfo,
+	&IContextProperty_t4832_il2cpp_TypeInfo,
+	&IContributeClientContextSink_t4920_il2cpp_TypeInfo,
+	&IContributeServerContextSink_t4921_il2cpp_TypeInfo,
+	&SynchronizationAttribute_t4551_il2cpp_TypeInfo,
+	&ArgInfoType_t4552_il2cpp_TypeInfo,
+	&ArgInfo_t4553_il2cpp_TypeInfo,
+	&AsyncResult_t4146_il2cpp_TypeInfo,
+	&ConstructionCall_t4558_il2cpp_TypeInfo,
+	&ConstructionCallDictionary_t4560_il2cpp_TypeInfo,
+	&EnvoyTerminatorSink_t4562_il2cpp_TypeInfo,
+	&Header_t4563_il2cpp_TypeInfo,
+	&IInternalMessage_t4844_il2cpp_TypeInfo,
+	&IMessage_t4557_il2cpp_TypeInfo,
+	&IMessageCtrl_t4556_il2cpp_TypeInfo,
+	&IMessageSink_t3042_il2cpp_TypeInfo,
+	&IMethodCallMessage_t4834_il2cpp_TypeInfo,
+	&IMethodMessage_t4568_il2cpp_TypeInfo,
+	&IMethodReturnMessage_t4833_il2cpp_TypeInfo,
+	&IRemotingFormatter_t4922_il2cpp_TypeInfo,
+	&ISerializationRootObject_t4923_il2cpp_TypeInfo,
+	&LogicalCallContext_t4565_il2cpp_TypeInfo,
+	&CallContextRemotingData_t4564_il2cpp_TypeInfo,
+	&MethodCall_t4559_il2cpp_TypeInfo,
+	&MethodCallDictionary_t4566_il2cpp_TypeInfo,
+	&DictionaryEnumerator_t4567_il2cpp_TypeInfo,
+	&MethodDictionary_t4561_il2cpp_TypeInfo,
+	&MethodReturnDictionary_t4569_il2cpp_TypeInfo,
+	&MonoMethodMessage_t4555_il2cpp_TypeInfo,
+	&RemotingSurrogate_t4570_il2cpp_TypeInfo,
+	&ObjRefSurrogate_t4571_il2cpp_TypeInfo,
+	&RemotingSurrogateSelector_t4573_il2cpp_TypeInfo,
+	&ReturnMessage_t4574_il2cpp_TypeInfo,
+	&ProxyAttribute_t4575_il2cpp_TypeInfo,
+	&TransparentProxy_t4577_il2cpp_TypeInfo,
+	&RealProxy_t4576_il2cpp_TypeInfo,
+	&RemotingProxy_t4579_il2cpp_TypeInfo,
+	&ITrackingHandler_t4846_il2cpp_TypeInfo,
+	&TrackingServices_t4580_il2cpp_TypeInfo,
+	&ActivatedClientTypeEntry_t4581_il2cpp_TypeInfo,
+	&EnvoyInfo_t4583_il2cpp_TypeInfo,
+	&IChannelInfo_t4586_il2cpp_TypeInfo,
+	&IEnvoyInfo_t4588_il2cpp_TypeInfo,
+	&IRemotingTypeInfo_t4587_il2cpp_TypeInfo,
+	&Identity_t4578_il2cpp_TypeInfo,
+	&ClientIdentity_t4585_il2cpp_TypeInfo,
+	&ObjRef_t4584_il2cpp_TypeInfo,
+	&RemotingConfiguration_t4589_il2cpp_TypeInfo,
+	&RemotingException_t4590_il2cpp_TypeInfo,
+	&RemotingServices_t4592_il2cpp_TypeInfo,
+	&ServerIdentity_t4308_il2cpp_TypeInfo,
+	&ClientActivatedIdentity_t4593_il2cpp_TypeInfo,
+	&SingletonIdentity_t4594_il2cpp_TypeInfo,
+	&SingleCallIdentity_t4595_il2cpp_TypeInfo,
+	&TypeEntry_t4582_il2cpp_TypeInfo,
+	&TypeInfo_t4596_il2cpp_TypeInfo,
+	&WellKnownObjectMode_t4597_il2cpp_TypeInfo,
+	&BinaryCommon_t4598_il2cpp_TypeInfo,
+	&BinaryElement_t4599_il2cpp_TypeInfo,
+	&TypeTag_t4600_il2cpp_TypeInfo,
+	&MethodFlags_t4601_il2cpp_TypeInfo,
+	&ReturnTypeTag_t4602_il2cpp_TypeInfo,
+	&BinaryFormatter_t4591_il2cpp_TypeInfo,
+	&MessageFormatter_t4604_il2cpp_TypeInfo,
+	&TypeMetadata_t4606_il2cpp_TypeInfo,
+	&ArrayNullFiller_t4607_il2cpp_TypeInfo,
+	&ObjectReader_t4609_il2cpp_TypeInfo,
+	&FormatterAssemblyStyle_t4610_il2cpp_TypeInfo,
+	&FormatterTypeStyle_t4611_il2cpp_TypeInfo,
+	&TypeFilterLevel_t4612_il2cpp_TypeInfo,
+	&FormatterConverter_t4613_il2cpp_TypeInfo,
+	&FormatterServices_t4614_il2cpp_TypeInfo,
+	&IDeserializationCallback_t765_il2cpp_TypeInfo,
+	&IFormatter_t4924_il2cpp_TypeInfo,
+	&IFormatterConverter_t4630_il2cpp_TypeInfo,
+	&IObjectReference_t4851_il2cpp_TypeInfo,
+	&ISerializationSurrogate_t4622_il2cpp_TypeInfo,
+	&ISurrogateSelector_t4572_il2cpp_TypeInfo,
+	&ObjectManager_t4608_il2cpp_TypeInfo,
+	&BaseFixupRecord_t4616_il2cpp_TypeInfo,
+	&ArrayFixupRecord_t4617_il2cpp_TypeInfo,
+	&MultiArrayFixupRecord_t4618_il2cpp_TypeInfo,
+	&FixupRecord_t4619_il2cpp_TypeInfo,
+	&DelayedFixupRecord_t4620_il2cpp_TypeInfo,
+	&ObjectRecordStatus_t4621_il2cpp_TypeInfo,
+	&ObjectRecord_t4615_il2cpp_TypeInfo,
+	&OnDeserializedAttribute_t4623_il2cpp_TypeInfo,
+	&OnDeserializingAttribute_t4624_il2cpp_TypeInfo,
+	&OnSerializedAttribute_t4625_il2cpp_TypeInfo,
+	&OnSerializingAttribute_t4626_il2cpp_TypeInfo,
+	&SerializationBinder_t4603_il2cpp_TypeInfo,
+	&CallbackHandler_t4627_il2cpp_TypeInfo,
+	&SerializationCallbacks_t4628_il2cpp_TypeInfo,
+	&SerializationEntry_t4629_il2cpp_TypeInfo,
+	&SerializationException_t4144_il2cpp_TypeInfo,
+	&SerializationInfo_t2867_il2cpp_TypeInfo,
+	&SerializationInfoEnumerator_t4631_il2cpp_TypeInfo,
+	&StreamingContext_t2868_il2cpp_TypeInfo,
+	&StreamingContextStates_t4632_il2cpp_TypeInfo,
+	&X509Certificate_t3832_il2cpp_TypeInfo,
+	&X509KeyStorageFlags_t4283_il2cpp_TypeInfo,
+	&AsymmetricAlgorithm_t3850_il2cpp_TypeInfo,
+	&AsymmetricKeyExchangeFormatter_t4633_il2cpp_TypeInfo,
+	&AsymmetricSignatureDeformatter_t3817_il2cpp_TypeInfo,
+	&AsymmetricSignatureFormatter_t3819_il2cpp_TypeInfo,
+	&Base64Constants_t4634_il2cpp_TypeInfo,
+	&CipherMode_t3897_il2cpp_TypeInfo,
+	&CryptoConfig_t3865_il2cpp_TypeInfo,
+	&CryptographicException_t3866_il2cpp_TypeInfo,
+	&CryptographicUnexpectedOperationException_t3878_il2cpp_TypeInfo,
+	&CspParameters_t3867_il2cpp_TypeInfo,
+	&CspProviderFlags_t4635_il2cpp_TypeInfo,
+	&DES_t3880_il2cpp_TypeInfo,
+	&DESTransform_t4637_il2cpp_TypeInfo,
+	&DESCryptoServiceProvider_t4638_il2cpp_TypeInfo,
+	&DSA_t3761_il2cpp_TypeInfo,
+	&DSACryptoServiceProvider_t3871_il2cpp_TypeInfo,
+	&DSAParameters_t3862_il2cpp_TypeInfo,
+	&DSASignatureDeformatter_t3875_il2cpp_TypeInfo,
+	&DSASignatureFormatter_t4639_il2cpp_TypeInfo,
+	&HMAC_t3870_il2cpp_TypeInfo,
+	&HMACMD5_t4640_il2cpp_TypeInfo,
+	&HMACRIPEMD160_t4641_il2cpp_TypeInfo,
 	&HMACSHA1_t331_il2cpp_TypeInfo,
-	&HMACSHA256_t4634_il2cpp_TypeInfo,
-	&HMACSHA384_t4635_il2cpp_TypeInfo,
-	&HMACSHA512_t4636_il2cpp_TypeInfo,
-	&HashAlgorithm_t3737_il2cpp_TypeInfo,
-	&ICryptoTransform_t3783_il2cpp_TypeInfo,
-	&ICspAsymmetricAlgorithm_t4917_il2cpp_TypeInfo,
-	&KeySizes_t3861_il2cpp_TypeInfo,
-	&KeyedHashAlgorithm_t3776_il2cpp_TypeInfo,
-	&MACTripleDES_t4637_il2cpp_TypeInfo,
-	&MD5_t3864_il2cpp_TypeInfo,
-	&MD5CryptoServiceProvider_t4638_il2cpp_TypeInfo,
-	&PaddingMode_t4639_il2cpp_TypeInfo,
-	&RC2_t3873_il2cpp_TypeInfo,
-	&RC2CryptoServiceProvider_t4640_il2cpp_TypeInfo,
-	&RC2Transform_t4641_il2cpp_TypeInfo,
-	&RIPEMD160_t4642_il2cpp_TypeInfo,
-	&RIPEMD160Managed_t4643_il2cpp_TypeInfo,
-	&RNGCryptoServiceProvider_t4644_il2cpp_TypeInfo,
-	&RSA_t3747_il2cpp_TypeInfo,
-	&RSACryptoServiceProvider_t3860_il2cpp_TypeInfo,
-	&RSAPKCS1KeyExchangeFormatter_t3884_il2cpp_TypeInfo,
-	&RSAPKCS1SignatureDeformatter_t3868_il2cpp_TypeInfo,
-	&RSAPKCS1SignatureFormatter_t4645_il2cpp_TypeInfo,
-	&RSAParameters_t3827_il2cpp_TypeInfo,
-	&RandomNumberGenerator_t3721_il2cpp_TypeInfo,
-	&Rijndael_t3875_il2cpp_TypeInfo,
-	&RijndaelManaged_t4646_il2cpp_TypeInfo,
-	&RijndaelTransform_t4647_il2cpp_TypeInfo,
-	&RijndaelManagedTransform_t4648_il2cpp_TypeInfo,
-	&SHA1_t3865_il2cpp_TypeInfo,
-	&SHA1Internal_t4649_il2cpp_TypeInfo,
-	&SHA1CryptoServiceProvider_t4650_il2cpp_TypeInfo,
-	&SHA1Managed_t4651_il2cpp_TypeInfo,
-	&SHA256_t3866_il2cpp_TypeInfo,
-	&SHA256Managed_t4652_il2cpp_TypeInfo,
-	&SHA384_t4653_il2cpp_TypeInfo,
-	&SHA384Managed_t4655_il2cpp_TypeInfo,
-	&SHA512_t4656_il2cpp_TypeInfo,
-	&SHA512Managed_t4657_il2cpp_TypeInfo,
-	&SHAConstants_t4658_il2cpp_TypeInfo,
-	&SignatureDescription_t4659_il2cpp_TypeInfo,
-	&DSASignatureDescription_t4660_il2cpp_TypeInfo,
-	&RSAPKCS1SHA1SignatureDescription_t4661_il2cpp_TypeInfo,
-	&SymmetricAlgorithm_t3744_il2cpp_TypeInfo,
-	&ToBase64Transform_t4662_il2cpp_TypeInfo,
-	&TripleDES_t3874_il2cpp_TypeInfo,
-	&TripleDESCryptoServiceProvider_t4663_il2cpp_TypeInfo,
-	&TripleDESTransform_t4664_il2cpp_TypeInfo,
-	&IBuiltInPermission_t4918_il2cpp_TypeInfo,
-	&IUnrestrictedPermission_t4919_il2cpp_TypeInfo,
-	&SecurityPermission_t4665_il2cpp_TypeInfo,
-	&SecurityPermissionFlag_t4667_il2cpp_TypeInfo,
-	&StrongNamePublicKeyBlob_t4668_il2cpp_TypeInfo,
-	&ApplicationTrust_t4670_il2cpp_TypeInfo,
-	&EvidenceEnumerator_t4671_il2cpp_TypeInfo,
-	&Evidence_t4471_il2cpp_TypeInfo,
-	&Hash_t4672_il2cpp_TypeInfo,
-	&IBuiltInEvidence_t4920_il2cpp_TypeInfo,
-	&IIdentityPermissionFactory_t4921_il2cpp_TypeInfo,
-	&StrongName_t4673_il2cpp_TypeInfo,
-	&IIdentity_t4922_il2cpp_TypeInfo,
-	&IPrincipal_t4713_il2cpp_TypeInfo,
-	&PrincipalPolicy_t4674_il2cpp_TypeInfo,
-	&WindowsAccountType_t4675_il2cpp_TypeInfo,
-	&WindowsIdentity_t4676_il2cpp_TypeInfo,
-	&CodeAccessPermission_t4666_il2cpp_TypeInfo,
-	&IPermission_t4680_il2cpp_TypeInfo,
-	&ISecurityEncodable_t4923_il2cpp_TypeInfo,
-	&IStackWalk_t4924_il2cpp_TypeInfo,
-	&PermissionSet_t4472_il2cpp_TypeInfo,
-	&SecurityContext_t4678_il2cpp_TypeInfo,
-	&SecurityCriticalAttribute_t2905_il2cpp_TypeInfo,
-	&SecurityAttribute_t4679_il2cpp_TypeInfo,
-	&SecurityElement_t4367_il2cpp_TypeInfo,
-	&SecurityException_t4140_il2cpp_TypeInfo,
-	&RuntimeDeclSecurityEntry_t4681_il2cpp_TypeInfo,
-	&RuntimeSecurityFrame_t4682_il2cpp_TypeInfo,
-	&SecurityFrame_t4683_il2cpp_TypeInfo,
-	&SecurityManager_t4684_il2cpp_TypeInfo,
-	&SecuritySafeCriticalAttribute_t2904_il2cpp_TypeInfo,
-	&SuppressUnmanagedCodeSecurityAttribute_t4163_il2cpp_TypeInfo,
-	&UnverifiableCodeAttribute_t4685_il2cpp_TypeInfo,
-	&ASCIIEncoding_t698_il2cpp_TypeInfo,
-	&Decoder_t3176_il2cpp_TypeInfo,
-	&DecoderExceptionFallback_t4688_il2cpp_TypeInfo,
-	&DecoderExceptionFallbackBuffer_t4689_il2cpp_TypeInfo,
-	&DecoderFallback_t4686_il2cpp_TypeInfo,
-	&DecoderFallbackBuffer_t4687_il2cpp_TypeInfo,
-	&DecoderFallbackException_t4690_il2cpp_TypeInfo,
-	&DecoderReplacementFallback_t4691_il2cpp_TypeInfo,
-	&DecoderReplacementFallbackBuffer_t4692_il2cpp_TypeInfo,
-	&EncoderExceptionFallback_t4693_il2cpp_TypeInfo,
-	&EncoderExceptionFallbackBuffer_t4695_il2cpp_TypeInfo,
-	&EncoderFallback_t4694_il2cpp_TypeInfo,
-	&EncoderFallbackBuffer_t4696_il2cpp_TypeInfo,
-	&EncoderFallbackException_t4697_il2cpp_TypeInfo,
-	&EncoderReplacementFallback_t4698_il2cpp_TypeInfo,
-	&EncoderReplacementFallbackBuffer_t4699_il2cpp_TypeInfo,
-	&ForwardingDecoder_t4700_il2cpp_TypeInfo,
-	&Encoding_t681_il2cpp_TypeInfo,
-	&Latin1Encoding_t4701_il2cpp_TypeInfo,
+	&HMACSHA256_t4642_il2cpp_TypeInfo,
+	&HMACSHA384_t4643_il2cpp_TypeInfo,
+	&HMACSHA512_t4644_il2cpp_TypeInfo,
+	&HashAlgorithm_t3745_il2cpp_TypeInfo,
+	&ICryptoTransform_t3791_il2cpp_TypeInfo,
+	&ICspAsymmetricAlgorithm_t4925_il2cpp_TypeInfo,
+	&KeySizes_t3869_il2cpp_TypeInfo,
+	&KeyedHashAlgorithm_t3784_il2cpp_TypeInfo,
+	&MACTripleDES_t4645_il2cpp_TypeInfo,
+	&MD5_t3872_il2cpp_TypeInfo,
+	&MD5CryptoServiceProvider_t4646_il2cpp_TypeInfo,
+	&PaddingMode_t4647_il2cpp_TypeInfo,
+	&RC2_t3881_il2cpp_TypeInfo,
+	&RC2CryptoServiceProvider_t4648_il2cpp_TypeInfo,
+	&RC2Transform_t4649_il2cpp_TypeInfo,
+	&RIPEMD160_t4650_il2cpp_TypeInfo,
+	&RIPEMD160Managed_t4651_il2cpp_TypeInfo,
+	&RNGCryptoServiceProvider_t4652_il2cpp_TypeInfo,
+	&RSA_t3755_il2cpp_TypeInfo,
+	&RSACryptoServiceProvider_t3868_il2cpp_TypeInfo,
+	&RSAPKCS1KeyExchangeFormatter_t3892_il2cpp_TypeInfo,
+	&RSAPKCS1SignatureDeformatter_t3876_il2cpp_TypeInfo,
+	&RSAPKCS1SignatureFormatter_t4653_il2cpp_TypeInfo,
+	&RSAParameters_t3835_il2cpp_TypeInfo,
+	&RandomNumberGenerator_t3729_il2cpp_TypeInfo,
+	&Rijndael_t3883_il2cpp_TypeInfo,
+	&RijndaelManaged_t4654_il2cpp_TypeInfo,
+	&RijndaelTransform_t4655_il2cpp_TypeInfo,
+	&RijndaelManagedTransform_t4656_il2cpp_TypeInfo,
+	&SHA1_t3873_il2cpp_TypeInfo,
+	&SHA1Internal_t4657_il2cpp_TypeInfo,
+	&SHA1CryptoServiceProvider_t4658_il2cpp_TypeInfo,
+	&SHA1Managed_t4659_il2cpp_TypeInfo,
+	&SHA256_t3874_il2cpp_TypeInfo,
+	&SHA256Managed_t4660_il2cpp_TypeInfo,
+	&SHA384_t4661_il2cpp_TypeInfo,
+	&SHA384Managed_t4663_il2cpp_TypeInfo,
+	&SHA512_t4664_il2cpp_TypeInfo,
+	&SHA512Managed_t4665_il2cpp_TypeInfo,
+	&SHAConstants_t4666_il2cpp_TypeInfo,
+	&SignatureDescription_t4667_il2cpp_TypeInfo,
+	&DSASignatureDescription_t4668_il2cpp_TypeInfo,
+	&RSAPKCS1SHA1SignatureDescription_t4669_il2cpp_TypeInfo,
+	&SymmetricAlgorithm_t3752_il2cpp_TypeInfo,
+	&ToBase64Transform_t4670_il2cpp_TypeInfo,
+	&TripleDES_t3882_il2cpp_TypeInfo,
+	&TripleDESCryptoServiceProvider_t4671_il2cpp_TypeInfo,
+	&TripleDESTransform_t4672_il2cpp_TypeInfo,
+	&IBuiltInPermission_t4926_il2cpp_TypeInfo,
+	&IUnrestrictedPermission_t4927_il2cpp_TypeInfo,
+	&SecurityPermission_t4673_il2cpp_TypeInfo,
+	&SecurityPermissionFlag_t4675_il2cpp_TypeInfo,
+	&StrongNamePublicKeyBlob_t4676_il2cpp_TypeInfo,
+	&ApplicationTrust_t4678_il2cpp_TypeInfo,
+	&EvidenceEnumerator_t4679_il2cpp_TypeInfo,
+	&Evidence_t4479_il2cpp_TypeInfo,
+	&Hash_t4680_il2cpp_TypeInfo,
+	&IBuiltInEvidence_t4928_il2cpp_TypeInfo,
+	&IIdentityPermissionFactory_t4929_il2cpp_TypeInfo,
+	&StrongName_t4681_il2cpp_TypeInfo,
+	&IIdentity_t4930_il2cpp_TypeInfo,
+	&IPrincipal_t4721_il2cpp_TypeInfo,
+	&PrincipalPolicy_t4682_il2cpp_TypeInfo,
+	&WindowsAccountType_t4683_il2cpp_TypeInfo,
+	&WindowsIdentity_t4684_il2cpp_TypeInfo,
+	&CodeAccessPermission_t4674_il2cpp_TypeInfo,
+	&IPermission_t4688_il2cpp_TypeInfo,
+	&ISecurityEncodable_t4931_il2cpp_TypeInfo,
+	&IStackWalk_t4932_il2cpp_TypeInfo,
+	&PermissionSet_t4480_il2cpp_TypeInfo,
+	&SecurityContext_t4686_il2cpp_TypeInfo,
+	&SecurityCriticalAttribute_t2912_il2cpp_TypeInfo,
+	&SecurityAttribute_t4687_il2cpp_TypeInfo,
+	&SecurityElement_t4375_il2cpp_TypeInfo,
+	&SecurityException_t4148_il2cpp_TypeInfo,
+	&RuntimeDeclSecurityEntry_t4689_il2cpp_TypeInfo,
+	&RuntimeSecurityFrame_t4690_il2cpp_TypeInfo,
+	&SecurityFrame_t4691_il2cpp_TypeInfo,
+	&SecurityManager_t4692_il2cpp_TypeInfo,
+	&SecuritySafeCriticalAttribute_t2911_il2cpp_TypeInfo,
+	&SuppressUnmanagedCodeSecurityAttribute_t4171_il2cpp_TypeInfo,
+	&UnverifiableCodeAttribute_t4693_il2cpp_TypeInfo,
+	&ASCIIEncoding_t706_il2cpp_TypeInfo,
+	&Decoder_t3184_il2cpp_TypeInfo,
+	&DecoderExceptionFallback_t4696_il2cpp_TypeInfo,
+	&DecoderExceptionFallbackBuffer_t4697_il2cpp_TypeInfo,
+	&DecoderFallback_t4694_il2cpp_TypeInfo,
+	&DecoderFallbackBuffer_t4695_il2cpp_TypeInfo,
+	&DecoderFallbackException_t4698_il2cpp_TypeInfo,
+	&DecoderReplacementFallback_t4699_il2cpp_TypeInfo,
+	&DecoderReplacementFallbackBuffer_t4700_il2cpp_TypeInfo,
+	&EncoderExceptionFallback_t4701_il2cpp_TypeInfo,
+	&EncoderExceptionFallbackBuffer_t4703_il2cpp_TypeInfo,
+	&EncoderFallback_t4702_il2cpp_TypeInfo,
+	&EncoderFallbackBuffer_t4704_il2cpp_TypeInfo,
+	&EncoderFallbackException_t4705_il2cpp_TypeInfo,
+	&EncoderReplacementFallback_t4706_il2cpp_TypeInfo,
+	&EncoderReplacementFallbackBuffer_t4707_il2cpp_TypeInfo,
+	&ForwardingDecoder_t4708_il2cpp_TypeInfo,
+	&Encoding_t689_il2cpp_TypeInfo,
+	&Latin1Encoding_t4709_il2cpp_TypeInfo,
 	&StringBuilder_t261_il2cpp_TypeInfo,
-	&UTF32Decoder_t4702_il2cpp_TypeInfo,
-	&UTF32Encoding_t4703_il2cpp_TypeInfo,
-	&UTF7Decoder_t4704_il2cpp_TypeInfo,
-	&UTF7Encoding_t4706_il2cpp_TypeInfo,
-	&UTF8Decoder_t4707_il2cpp_TypeInfo,
-	&UTF8Encoding_t3239_il2cpp_TypeInfo,
-	&UnicodeDecoder_t4708_il2cpp_TypeInfo,
-	&UnicodeEncoding_t4709_il2cpp_TypeInfo,
-	&AutoResetEvent_t3318_il2cpp_TypeInfo,
-	&CompressedStack_t4677_il2cpp_TypeInfo,
-	&EventResetMode_t4710_il2cpp_TypeInfo,
-	&EventWaitHandle_t3293_il2cpp_TypeInfo,
-	&ExecutionContext_t4546_il2cpp_TypeInfo,
-	&Interlocked_t1368_il2cpp_TypeInfo,
-	&ManualResetEvent_t3319_il2cpp_TypeInfo,
-	&Monitor_t4711_il2cpp_TypeInfo,
-	&Mutex_t4542_il2cpp_TypeInfo,
-	&NativeEventCalls_t4712_il2cpp_TypeInfo,
-	&SynchronizationContext_t1308_il2cpp_TypeInfo,
-	&SynchronizationLockException_t3316_il2cpp_TypeInfo,
-	&Thread_t1401_il2cpp_TypeInfo,
-	&ThreadAbortException_t4139_il2cpp_TypeInfo,
-	&ThreadInterruptedException_t4714_il2cpp_TypeInfo,
-	&ThreadPool_t4715_il2cpp_TypeInfo,
-	&ThreadState_t4716_il2cpp_TypeInfo,
-	&ThreadStateException_t4717_il2cpp_TypeInfo,
-	&TimerComparer_t4718_il2cpp_TypeInfo,
-	&Scheduler_t4719_il2cpp_TypeInfo,
-	&Timer_t2097_il2cpp_TypeInfo,
-	&WaitHandle_t3855_il2cpp_TypeInfo,
-	&AccessViolationException_t4720_il2cpp_TypeInfo,
-	&ActivationContext_t4721_il2cpp_TypeInfo,
-	&Activator_t4722_il2cpp_TypeInfo,
-	&AppDomain_t2086_il2cpp_TypeInfo,
-	&AppDomainManager_t4723_il2cpp_TypeInfo,
-	&AppDomainSetup_t4729_il2cpp_TypeInfo,
-	&ApplicationException_t3317_il2cpp_TypeInfo,
-	&ApplicationIdentity_t4724_il2cpp_TypeInfo,
-	&ArgumentException_t653_il2cpp_TypeInfo,
-	&ArgumentNullException_t712_il2cpp_TypeInfo,
-	&ArgumentOutOfRangeException_t1413_il2cpp_TypeInfo,
-	&ArithmeticException_t3856_il2cpp_TypeInfo,
-	&ArraySegment_1_t4925_il2cpp_TypeInfo,
-	&ArrayTypeMismatchException_t4730_il2cpp_TypeInfo,
-	&AssemblyLoadEventArgs_t4731_il2cpp_TypeInfo,
-	&AttributeTargets_t4732_il2cpp_TypeInfo,
-	&BitConverter_t3320_il2cpp_TypeInfo,
-	&Buffer_t4733_il2cpp_TypeInfo,
-	&CharEnumerator_t4734_il2cpp_TypeInfo,
-	&Console_t4141_il2cpp_TypeInfo,
-	&ContextBoundObject_t4735_il2cpp_TypeInfo,
+	&UTF32Decoder_t4710_il2cpp_TypeInfo,
+	&UTF32Encoding_t4711_il2cpp_TypeInfo,
+	&UTF7Decoder_t4712_il2cpp_TypeInfo,
+	&UTF7Encoding_t4714_il2cpp_TypeInfo,
+	&UTF8Decoder_t4715_il2cpp_TypeInfo,
+	&UTF8Encoding_t3247_il2cpp_TypeInfo,
+	&UnicodeDecoder_t4716_il2cpp_TypeInfo,
+	&UnicodeEncoding_t4717_il2cpp_TypeInfo,
+	&AutoResetEvent_t3326_il2cpp_TypeInfo,
+	&CompressedStack_t4685_il2cpp_TypeInfo,
+	&EventResetMode_t4718_il2cpp_TypeInfo,
+	&EventWaitHandle_t3301_il2cpp_TypeInfo,
+	&ExecutionContext_t4554_il2cpp_TypeInfo,
+	&Interlocked_t1375_il2cpp_TypeInfo,
+	&ManualResetEvent_t3327_il2cpp_TypeInfo,
+	&Monitor_t4719_il2cpp_TypeInfo,
+	&Mutex_t4550_il2cpp_TypeInfo,
+	&NativeEventCalls_t4720_il2cpp_TypeInfo,
+	&SynchronizationContext_t1315_il2cpp_TypeInfo,
+	&SynchronizationLockException_t3324_il2cpp_TypeInfo,
+	&Thread_t1408_il2cpp_TypeInfo,
+	&ThreadAbortException_t4147_il2cpp_TypeInfo,
+	&ThreadInterruptedException_t4722_il2cpp_TypeInfo,
+	&ThreadPool_t4723_il2cpp_TypeInfo,
+	&ThreadState_t4724_il2cpp_TypeInfo,
+	&ThreadStateException_t4725_il2cpp_TypeInfo,
+	&TimerComparer_t4726_il2cpp_TypeInfo,
+	&Scheduler_t4727_il2cpp_TypeInfo,
+	&Timer_t2104_il2cpp_TypeInfo,
+	&WaitHandle_t3863_il2cpp_TypeInfo,
+	&AccessViolationException_t4728_il2cpp_TypeInfo,
+	&ActivationContext_t4729_il2cpp_TypeInfo,
+	&Activator_t4730_il2cpp_TypeInfo,
+	&AppDomain_t2093_il2cpp_TypeInfo,
+	&AppDomainManager_t4731_il2cpp_TypeInfo,
+	&AppDomainSetup_t4737_il2cpp_TypeInfo,
+	&ApplicationException_t3325_il2cpp_TypeInfo,
+	&ApplicationIdentity_t4732_il2cpp_TypeInfo,
+	&ArgumentException_t661_il2cpp_TypeInfo,
+	&ArgumentNullException_t720_il2cpp_TypeInfo,
+	&ArgumentOutOfRangeException_t1420_il2cpp_TypeInfo,
+	&ArithmeticException_t3864_il2cpp_TypeInfo,
+	&ArraySegment_1_t4933_il2cpp_TypeInfo,
+	&ArrayTypeMismatchException_t4738_il2cpp_TypeInfo,
+	&AssemblyLoadEventArgs_t4739_il2cpp_TypeInfo,
+	&AttributeTargets_t4740_il2cpp_TypeInfo,
+	&BitConverter_t3328_il2cpp_TypeInfo,
+	&Buffer_t4741_il2cpp_TypeInfo,
+	&CharEnumerator_t4742_il2cpp_TypeInfo,
+	&Console_t4149_il2cpp_TypeInfo,
+	&ContextBoundObject_t4743_il2cpp_TypeInfo,
 	&Convert_t67_il2cpp_TypeInfo,
-	&DBNull_t4736_il2cpp_TypeInfo,
-	&Which_t4737_il2cpp_TypeInfo,
+	&DBNull_t4744_il2cpp_TypeInfo,
+	&Which_t4745_il2cpp_TypeInfo,
 	&DateTime_t287_il2cpp_TypeInfo,
-	&DateTimeKind_t4738_il2cpp_TypeInfo,
-	&DateTimeOffset_t2886_il2cpp_TypeInfo,
-	&DateTimeUtils_t4739_il2cpp_TypeInfo,
-	&DayOfWeek_t4740_il2cpp_TypeInfo,
-	&DelegateData_t4282_il2cpp_TypeInfo,
-	&DelegateEntry_t4741_il2cpp_TypeInfo,
-	&DelegateSerializationHolder_t4742_il2cpp_TypeInfo,
-	&DivideByZeroException_t4743_il2cpp_TypeInfo,
-	&DllNotFoundException_t4744_il2cpp_TypeInfo,
-	&EntryPointNotFoundException_t4746_il2cpp_TypeInfo,
-	&SByteComparer_t4747_il2cpp_TypeInfo,
-	&ShortComparer_t4748_il2cpp_TypeInfo,
-	&IntComparer_t4749_il2cpp_TypeInfo,
-	&LongComparer_t4750_il2cpp_TypeInfo,
-	&MonoEnumInfo_t4751_il2cpp_TypeInfo,
-	&SpecialFolder_t4752_il2cpp_TypeInfo,
-	&Environment_t4754_il2cpp_TypeInfo,
-	&EventArgs_t1236_il2cpp_TypeInfo,
-	&ExecutionEngineException_t4755_il2cpp_TypeInfo,
-	&FieldAccessException_t4756_il2cpp_TypeInfo,
-	&FlagsAttribute_t1037_il2cpp_TypeInfo,
-	&FormatException_t2872_il2cpp_TypeInfo,
-	&GC_t4758_il2cpp_TypeInfo,
-	&GuidParser_t4759_il2cpp_TypeInfo,
+	&DateTimeKind_t4746_il2cpp_TypeInfo,
+	&DateTimeOffset_t2893_il2cpp_TypeInfo,
+	&DateTimeUtils_t4747_il2cpp_TypeInfo,
+	&DayOfWeek_t4748_il2cpp_TypeInfo,
+	&DelegateData_t4290_il2cpp_TypeInfo,
+	&DelegateEntry_t4749_il2cpp_TypeInfo,
+	&DelegateSerializationHolder_t4750_il2cpp_TypeInfo,
+	&DivideByZeroException_t4751_il2cpp_TypeInfo,
+	&DllNotFoundException_t4752_il2cpp_TypeInfo,
+	&EntryPointNotFoundException_t4754_il2cpp_TypeInfo,
+	&SByteComparer_t4755_il2cpp_TypeInfo,
+	&ShortComparer_t4756_il2cpp_TypeInfo,
+	&IntComparer_t4757_il2cpp_TypeInfo,
+	&LongComparer_t4758_il2cpp_TypeInfo,
+	&MonoEnumInfo_t4759_il2cpp_TypeInfo,
+	&SpecialFolder_t4760_il2cpp_TypeInfo,
+	&Environment_t4762_il2cpp_TypeInfo,
+	&EventArgs_t1243_il2cpp_TypeInfo,
+	&ExecutionEngineException_t4763_il2cpp_TypeInfo,
+	&FieldAccessException_t4764_il2cpp_TypeInfo,
+	&FlagsAttribute_t1044_il2cpp_TypeInfo,
+	&FormatException_t2879_il2cpp_TypeInfo,
+	&GC_t4766_il2cpp_TypeInfo,
+	&GuidParser_t4767_il2cpp_TypeInfo,
 	&Guid_t74_il2cpp_TypeInfo,
-	&ICustomFormatter_t4829_il2cpp_TypeInfo,
-	&IFormatProvider_t4446_il2cpp_TypeInfo,
-	&IndexOutOfRangeException_t2871_il2cpp_TypeInfo,
-	&InvalidCastException_t1386_il2cpp_TypeInfo,
-	&InvalidOperationException_t1369_il2cpp_TypeInfo,
-	&LoaderOptimization_t4760_il2cpp_TypeInfo,
-	&Math_t4761_il2cpp_TypeInfo,
-	&MemberAccessException_t4757_il2cpp_TypeInfo,
-	&MethodAccessException_t4762_il2cpp_TypeInfo,
-	&MissingFieldException_t4763_il2cpp_TypeInfo,
-	&MissingMemberException_t4764_il2cpp_TypeInfo,
-	&MissingMethodException_t4765_il2cpp_TypeInfo,
-	&MonoAsyncCall_t4766_il2cpp_TypeInfo,
-	&AttributeInfo_t4767_il2cpp_TypeInfo,
-	&MonoCustomAttrs_t4768_il2cpp_TypeInfo,
-	&MonoTouchAOTHelper_t4769_il2cpp_TypeInfo,
-	&MonoTypeInfo_t4770_il2cpp_TypeInfo,
+	&ICustomFormatter_t4837_il2cpp_TypeInfo,
+	&IFormatProvider_t4454_il2cpp_TypeInfo,
+	&IndexOutOfRangeException_t2878_il2cpp_TypeInfo,
+	&InvalidCastException_t1393_il2cpp_TypeInfo,
+	&InvalidOperationException_t1376_il2cpp_TypeInfo,
+	&LoaderOptimization_t4768_il2cpp_TypeInfo,
+	&Math_t4769_il2cpp_TypeInfo,
+	&MemberAccessException_t4765_il2cpp_TypeInfo,
+	&MethodAccessException_t4770_il2cpp_TypeInfo,
+	&MissingFieldException_t4771_il2cpp_TypeInfo,
+	&MissingMemberException_t4772_il2cpp_TypeInfo,
+	&MissingMethodException_t4773_il2cpp_TypeInfo,
+	&MonoAsyncCall_t4774_il2cpp_TypeInfo,
+	&AttributeInfo_t4775_il2cpp_TypeInfo,
+	&MonoCustomAttrs_t4776_il2cpp_TypeInfo,
+	&MonoTouchAOTHelper_t4777_il2cpp_TypeInfo,
+	&MonoTypeInfo_t4778_il2cpp_TypeInfo,
 	&MonoType_t_il2cpp_TypeInfo,
-	&MulticastNotSupportedException_t4771_il2cpp_TypeInfo,
-	&NonSerializedAttribute_t4772_il2cpp_TypeInfo,
-	&NotImplementedException_t1380_il2cpp_TypeInfo,
+	&MulticastNotSupportedException_t4779_il2cpp_TypeInfo,
+	&NonSerializedAttribute_t4780_il2cpp_TypeInfo,
+	&NotImplementedException_t1387_il2cpp_TypeInfo,
 	&NotSupportedException_t56_il2cpp_TypeInfo,
-	&NullReferenceException_t709_il2cpp_TypeInfo,
-	&CustomInfo_t4773_il2cpp_TypeInfo,
-	&NumberFormatter_t4774_il2cpp_TypeInfo,
-	&ObjectDisposedException_t3238_il2cpp_TypeInfo,
-	&OperatingSystem_t4753_il2cpp_TypeInfo,
-	&OperationCanceledException_t2089_il2cpp_TypeInfo,
-	&OutOfMemoryException_t4775_il2cpp_TypeInfo,
-	&OverflowException_t4776_il2cpp_TypeInfo,
-	&PlatformID_t4777_il2cpp_TypeInfo,
-	&PlatformNotSupportedException_t718_il2cpp_TypeInfo,
-	&Random_t2755_il2cpp_TypeInfo,
-	&RankException_t4778_il2cpp_TypeInfo,
-	&ResolveEventArgs_t4779_il2cpp_TypeInfo,
-	&RuntimeMethodHandle_t4780_il2cpp_TypeInfo,
-	&StringComparer_t2868_il2cpp_TypeInfo,
-	&CultureAwareComparer_t4781_il2cpp_TypeInfo,
-	&OrdinalComparer_t4782_il2cpp_TypeInfo,
-	&StringComparison_t4783_il2cpp_TypeInfo,
-	&StringSplitOptions_t4784_il2cpp_TypeInfo,
-	&SystemException_t3172_il2cpp_TypeInfo,
-	&ThreadStaticAttribute_t2114_il2cpp_TypeInfo,
+	&NullReferenceException_t717_il2cpp_TypeInfo,
+	&CustomInfo_t4781_il2cpp_TypeInfo,
+	&NumberFormatter_t4782_il2cpp_TypeInfo,
+	&ObjectDisposedException_t3246_il2cpp_TypeInfo,
+	&OperatingSystem_t4761_il2cpp_TypeInfo,
+	&OperationCanceledException_t2096_il2cpp_TypeInfo,
+	&OutOfMemoryException_t4783_il2cpp_TypeInfo,
+	&OverflowException_t4784_il2cpp_TypeInfo,
+	&PlatformID_t4785_il2cpp_TypeInfo,
+	&PlatformNotSupportedException_t726_il2cpp_TypeInfo,
+	&Random_t2762_il2cpp_TypeInfo,
+	&RankException_t4786_il2cpp_TypeInfo,
+	&ResolveEventArgs_t4787_il2cpp_TypeInfo,
+	&RuntimeMethodHandle_t4788_il2cpp_TypeInfo,
+	&StringComparer_t2875_il2cpp_TypeInfo,
+	&CultureAwareComparer_t4789_il2cpp_TypeInfo,
+	&OrdinalComparer_t4790_il2cpp_TypeInfo,
+	&StringComparison_t4791_il2cpp_TypeInfo,
+	&StringSplitOptions_t4792_il2cpp_TypeInfo,
+	&SystemException_t3180_il2cpp_TypeInfo,
+	&ThreadStaticAttribute_t2121_il2cpp_TypeInfo,
 	&TimeSpan_t334_il2cpp_TypeInfo,
-	&TimeZone_t4145_il2cpp_TypeInfo,
-	&CurrentSystemTimeZone_t4785_il2cpp_TypeInfo,
-	&TypeCode_t4786_il2cpp_TypeInfo,
-	&TypeInitializationException_t4787_il2cpp_TypeInfo,
-	&TypeLoadException_t4745_il2cpp_TypeInfo,
-	&UnauthorizedAccessException_t4788_il2cpp_TypeInfo,
-	&UnhandledExceptionEventArgs_t4789_il2cpp_TypeInfo,
-	&UnityType_t4790_il2cpp_TypeInfo,
-	&UnitySerializationHolder_t4791_il2cpp_TypeInfo,
-	&Version_t1324_il2cpp_TypeInfo,
-	&WeakReference_t2164_il2cpp_TypeInfo,
-	&PrimalityTest_t4792_il2cpp_TypeInfo,
-	&MemberFilter_t4285_il2cpp_TypeInfo,
-	&TypeFilter_t4486_il2cpp_TypeInfo,
-	&HeaderHandler_t4794_il2cpp_TypeInfo,
-	&ParameterizedThreadStart_t2084_il2cpp_TypeInfo,
-	&SendOrPostCallback_t2101_il2cpp_TypeInfo,
-	&ThreadStart_t4144_il2cpp_TypeInfo,
-	&TimerCallback_t2098_il2cpp_TypeInfo,
-	&WaitCallback_t2085_il2cpp_TypeInfo,
-	&Action_1_t4926_il2cpp_TypeInfo,
-	&AppDomainInitializer_t4728_il2cpp_TypeInfo,
-	&AssemblyLoadEventHandler_t4725_il2cpp_TypeInfo,
-	&Comparison_1_t4927_il2cpp_TypeInfo,
-	&Converter_2_t4928_il2cpp_TypeInfo,
-	&EventHandler_1_t4929_il2cpp_TypeInfo,
-	&EventHandler_t4000_il2cpp_TypeInfo,
-	&Predicate_1_t4930_il2cpp_TypeInfo,
-	&ResolveEventHandler_t4726_il2cpp_TypeInfo,
-	&UnhandledExceptionEventHandler_t4727_il2cpp_TypeInfo,
-	&U24ArrayTypeU2456_t4795_il2cpp_TypeInfo,
-	&U24ArrayTypeU2424_t4796_il2cpp_TypeInfo,
-	&U24ArrayTypeU2416_t4797_il2cpp_TypeInfo,
-	&U24ArrayTypeU24120_t4798_il2cpp_TypeInfo,
-	&U24ArrayTypeU243132_t4799_il2cpp_TypeInfo,
-	&U24ArrayTypeU2420_t4800_il2cpp_TypeInfo,
-	&U24ArrayTypeU2432_t4801_il2cpp_TypeInfo,
-	&U24ArrayTypeU2448_t4802_il2cpp_TypeInfo,
-	&U24ArrayTypeU2464_t4803_il2cpp_TypeInfo,
-	&U24ArrayTypeU2412_t4804_il2cpp_TypeInfo,
-	&U24ArrayTypeU24136_t4805_il2cpp_TypeInfo,
-	&U24ArrayTypeU2472_t4806_il2cpp_TypeInfo,
-	&U24ArrayTypeU24124_t4807_il2cpp_TypeInfo,
-	&U24ArrayTypeU2496_t4808_il2cpp_TypeInfo,
-	&U24ArrayTypeU242048_t4809_il2cpp_TypeInfo,
-	&U24ArrayTypeU24256_t4810_il2cpp_TypeInfo,
-	&U24ArrayTypeU241024_t4811_il2cpp_TypeInfo,
-	&U24ArrayTypeU24640_t4812_il2cpp_TypeInfo,
-	&U24ArrayTypeU24128_t4813_il2cpp_TypeInfo,
-	&U24ArrayTypeU2452_t4814_il2cpp_TypeInfo,
-	&U3CPrivateImplementationDetailsU3E_t4815_il2cpp_TypeInfo,
+	&TimeZone_t4153_il2cpp_TypeInfo,
+	&CurrentSystemTimeZone_t4793_il2cpp_TypeInfo,
+	&TypeCode_t4794_il2cpp_TypeInfo,
+	&TypeInitializationException_t4795_il2cpp_TypeInfo,
+	&TypeLoadException_t4753_il2cpp_TypeInfo,
+	&UnauthorizedAccessException_t4796_il2cpp_TypeInfo,
+	&UnhandledExceptionEventArgs_t4797_il2cpp_TypeInfo,
+	&UnityType_t4798_il2cpp_TypeInfo,
+	&UnitySerializationHolder_t4799_il2cpp_TypeInfo,
+	&Version_t1331_il2cpp_TypeInfo,
+	&WeakReference_t2171_il2cpp_TypeInfo,
+	&PrimalityTest_t4800_il2cpp_TypeInfo,
+	&MemberFilter_t4293_il2cpp_TypeInfo,
+	&TypeFilter_t4494_il2cpp_TypeInfo,
+	&HeaderHandler_t4802_il2cpp_TypeInfo,
+	&ParameterizedThreadStart_t2091_il2cpp_TypeInfo,
+	&SendOrPostCallback_t2108_il2cpp_TypeInfo,
+	&ThreadStart_t4152_il2cpp_TypeInfo,
+	&TimerCallback_t2105_il2cpp_TypeInfo,
+	&WaitCallback_t2092_il2cpp_TypeInfo,
+	&Action_1_t4934_il2cpp_TypeInfo,
+	&AppDomainInitializer_t4736_il2cpp_TypeInfo,
+	&AssemblyLoadEventHandler_t4733_il2cpp_TypeInfo,
+	&Comparison_1_t4935_il2cpp_TypeInfo,
+	&Converter_2_t4936_il2cpp_TypeInfo,
+	&EventHandler_1_t4937_il2cpp_TypeInfo,
+	&EventHandler_t4008_il2cpp_TypeInfo,
+	&Predicate_1_t4938_il2cpp_TypeInfo,
+	&ResolveEventHandler_t4734_il2cpp_TypeInfo,
+	&UnhandledExceptionEventHandler_t4735_il2cpp_TypeInfo,
+	&U24ArrayTypeU2456_t4803_il2cpp_TypeInfo,
+	&U24ArrayTypeU2424_t4804_il2cpp_TypeInfo,
+	&U24ArrayTypeU2416_t4805_il2cpp_TypeInfo,
+	&U24ArrayTypeU24120_t4806_il2cpp_TypeInfo,
+	&U24ArrayTypeU243132_t4807_il2cpp_TypeInfo,
+	&U24ArrayTypeU2420_t4808_il2cpp_TypeInfo,
+	&U24ArrayTypeU2432_t4809_il2cpp_TypeInfo,
+	&U24ArrayTypeU2448_t4810_il2cpp_TypeInfo,
+	&U24ArrayTypeU2464_t4811_il2cpp_TypeInfo,
+	&U24ArrayTypeU2412_t4812_il2cpp_TypeInfo,
+	&U24ArrayTypeU24136_t4813_il2cpp_TypeInfo,
+	&U24ArrayTypeU2472_t4814_il2cpp_TypeInfo,
+	&U24ArrayTypeU24124_t4815_il2cpp_TypeInfo,
+	&U24ArrayTypeU2496_t4816_il2cpp_TypeInfo,
+	&U24ArrayTypeU242048_t4817_il2cpp_TypeInfo,
+	&U24ArrayTypeU24256_t4818_il2cpp_TypeInfo,
+	&U24ArrayTypeU241024_t4819_il2cpp_TypeInfo,
+	&U24ArrayTypeU24640_t4820_il2cpp_TypeInfo,
+	&U24ArrayTypeU24128_t4821_il2cpp_TypeInfo,
+	&U24ArrayTypeU2452_t4822_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t4823_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -5238,114 +5238,114 @@ static const char* s_StringTable[2109] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[2722] = 
 {
-	{ 0, 708, 0, 0 } ,
-	{ 1, 708, 0, 0 } ,
+	{ 0, 713, 0, 0 } ,
+	{ 1, 713, 0, 0 } ,
 	{ 2, 137, offsetof(Int32_t82, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 3, 8218, offsetof(AttributeUsageAttribute_t745, ___valid_on_0), 0 } ,
-	{ 4, 100, offsetof(AttributeUsageAttribute_t745, ___allow_multiple_1), 0 } ,
-	{ 5, 100, offsetof(AttributeUsageAttribute_t745, ___inherited_2), 0 } ,
-	{ 6, 100, offsetof(ComVisibleAttribute_t1033, ___Visible_0), 0 } ,
-	{ 0, 8225, 0, 0 } ,
-	{ 1, 8225, 0, 0 } ,
-	{ 2, 7426, offsetof(Int64_t89, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 0, 8230, 0, 0 } ,
-	{ 1, 8230, 0, 0 } ,
-	{ 2, 8231, offsetof(UInt32_t682, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 7, 100, offsetof(CLSCompliantAttribute_t3249, ___is_compliant_0), 0 } ,
-	{ 2, 8236, offsetof(UInt64_t686, ___m_value_0) + sizeof(Object_t), 0 } ,
-	{ 1, 8240, 0, 0 } ,
-	{ 0, 8240, 0, 0 } ,
-	{ 2, 8241, offsetof(Byte_t683, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 2, 8246, offsetof(SByte_t88, ___m_value_0) + sizeof(Object_t), 0 } ,
-	{ 2, 8251, offsetof(Int16_t684, ___m_value_0) + sizeof(Object_t), 0 } ,
-	{ 0, 8256, 0, 0 } ,
-	{ 1, 8256, 0, 0 } ,
-	{ 2, 8257, offsetof(UInt16_t685, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 0, 8272, 0, 0 } ,
-	{ 1, 8272, 0, 0 } ,
-	{ 2, 8273, offsetof(Char_t60, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 8, 8274, offsetof(Char_t60_StaticFields, ___category_data_3), 0 } ,
-	{ 9, 8274, offsetof(Char_t60_StaticFields, ___numeric_data_4), 0 } ,
-	{ 10, 8275, offsetof(Char_t60_StaticFields, ___numeric_data_values_5), 0 } ,
-	{ 11, 8276, offsetof(Char_t60_StaticFields, ___to_lower_data_low_6), 0 } ,
-	{ 12, 8276, offsetof(Char_t60_StaticFields, ___to_lower_data_high_7), 0 } ,
-	{ 13, 8276, offsetof(Char_t60_StaticFields, ___to_upper_data_low_8), 0 } ,
-	{ 14, 8276, offsetof(Char_t60_StaticFields, ___to_upper_data_high_9), 0 } ,
-	{ 15, 8282, offsetof(String_t, ___length_0), 0 } ,
-	{ 16, 8283, offsetof(String_t, ___start_char_1), 0 } ,
+	{ 3, 8236, offsetof(AttributeUsageAttribute_t752, ___valid_on_0), 0 } ,
+	{ 4, 100, offsetof(AttributeUsageAttribute_t752, ___allow_multiple_1), 0 } ,
+	{ 5, 100, offsetof(AttributeUsageAttribute_t752, ___inherited_2), 0 } ,
+	{ 6, 100, offsetof(ComVisibleAttribute_t1040, ___Visible_0), 0 } ,
+	{ 0, 8243, 0, 0 } ,
+	{ 1, 8243, 0, 0 } ,
+	{ 2, 7444, offsetof(Int64_t89, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 0, 8248, 0, 0 } ,
+	{ 1, 8248, 0, 0 } ,
+	{ 2, 8249, offsetof(UInt32_t690, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 7, 100, offsetof(CLSCompliantAttribute_t3257, ___is_compliant_0), 0 } ,
+	{ 2, 8254, offsetof(UInt64_t694, ___m_value_0) + sizeof(Object_t), 0 } ,
+	{ 1, 8258, 0, 0 } ,
+	{ 0, 8258, 0, 0 } ,
+	{ 2, 8259, offsetof(Byte_t691, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 2, 8264, offsetof(SByte_t88, ___m_value_0) + sizeof(Object_t), 0 } ,
+	{ 2, 8269, offsetof(Int16_t692, ___m_value_0) + sizeof(Object_t), 0 } ,
+	{ 0, 8274, 0, 0 } ,
+	{ 1, 8274, 0, 0 } ,
+	{ 2, 8275, offsetof(UInt16_t693, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 0, 8290, 0, 0 } ,
+	{ 1, 8290, 0, 0 } ,
+	{ 2, 8291, offsetof(Char_t60, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 8, 8292, offsetof(Char_t60_StaticFields, ___category_data_3), 0 } ,
+	{ 9, 8292, offsetof(Char_t60_StaticFields, ___numeric_data_4), 0 } ,
+	{ 10, 8293, offsetof(Char_t60_StaticFields, ___numeric_data_values_5), 0 } ,
+	{ 11, 8294, offsetof(Char_t60_StaticFields, ___to_lower_data_low_6), 0 } ,
+	{ 12, 8294, offsetof(Char_t60_StaticFields, ___to_lower_data_high_7), 0 } ,
+	{ 13, 8294, offsetof(Char_t60_StaticFields, ___to_upper_data_low_8), 0 } ,
+	{ 14, 8294, offsetof(Char_t60_StaticFields, ___to_upper_data_high_9), 0 } ,
+	{ 15, 8300, offsetof(String_t, ___length_0), 0 } ,
+	{ 16, 8301, offsetof(String_t, ___start_char_1), 0 } ,
 	{ 17, 106, offsetof(String_t_StaticFields, ___Empty_2), 0 } ,
-	{ 18, 2076, offsetof(String_t_StaticFields, ___WhiteChars_3), 0 } ,
-	{ 19, 1495, 0, 0 } ,
-	{ 0, 1495, 0, 0 } ,
-	{ 1, 1495, 0, 0 } ,
-	{ 20, 1495, 0, 0 } ,
-	{ 21, 1495, 0, 0 } ,
-	{ 22, 1495, 0, 0 } ,
-	{ 23, 3706, 0, 0 } ,
-	{ 2, 1286, offsetof(Single_t87, ___m_value_7) + sizeof(Object_t), 0 } ,
-	{ 19, 8294, 0, 0 } ,
-	{ 0, 8294, 0, 0 } ,
-	{ 1, 8294, 0, 0 } ,
-	{ 20, 8294, 0, 0 } ,
-	{ 22, 8294, 0, 0 } ,
-	{ 21, 8294, 0, 0 } ,
-	{ 24, 832, 0, 0 } ,
-	{ 25, 832, 0, 0 } ,
-	{ 26, 832, 0, 0 } ,
-	{ 27, 832, 0, 0 } ,
-	{ 28, 832, 0, 0 } ,
-	{ 29, 832, 0, 0 } ,
-	{ 30, 832, 0, 0 } ,
-	{ 2, 8295, offsetof(Double_t90, ___m_value_13) + sizeof(Object_t), 0 } ,
-	{ 1, 8301, offsetof(Decimal_t687_StaticFields, ___MinValue_0), 69 } ,
-	{ 0, 8301, offsetof(Decimal_t687_StaticFields, ___MaxValue_1), 70 } ,
-	{ 31, 8301, offsetof(Decimal_t687_StaticFields, ___MinusOne_2), 71 } ,
-	{ 32, 8301, offsetof(Decimal_t687_StaticFields, ___One_3), 72 } ,
-	{ 33, 8302, offsetof(Decimal_t687_StaticFields, ___MaxValueDiv10_4), 0 } ,
-	{ 34, 4885, offsetof(Decimal_t687, ___flags_5) + sizeof(Object_t), 0 } ,
-	{ 35, 4885, offsetof(Decimal_t687, ___hi_6) + sizeof(Object_t), 0 } ,
-	{ 36, 4885, offsetof(Decimal_t687, ___lo_7) + sizeof(Object_t), 0 } ,
-	{ 37, 4885, offsetof(Decimal_t687, ___mid_8) + sizeof(Object_t), 0 } ,
+	{ 18, 2094, offsetof(String_t_StaticFields, ___WhiteChars_3), 0 } ,
+	{ 19, 1511, 0, 0 } ,
+	{ 0, 1511, 0, 0 } ,
+	{ 1, 1511, 0, 0 } ,
+	{ 20, 1511, 0, 0 } ,
+	{ 21, 1511, 0, 0 } ,
+	{ 22, 1511, 0, 0 } ,
+	{ 23, 3724, 0, 0 } ,
+	{ 2, 1291, offsetof(Single_t87, ___m_value_7) + sizeof(Object_t), 0 } ,
+	{ 19, 8312, 0, 0 } ,
+	{ 0, 8312, 0, 0 } ,
+	{ 1, 8312, 0, 0 } ,
+	{ 20, 8312, 0, 0 } ,
+	{ 22, 8312, 0, 0 } ,
+	{ 21, 8312, 0, 0 } ,
+	{ 24, 837, 0, 0 } ,
+	{ 25, 837, 0, 0 } ,
+	{ 26, 837, 0, 0 } ,
+	{ 27, 837, 0, 0 } ,
+	{ 28, 837, 0, 0 } ,
+	{ 29, 837, 0, 0 } ,
+	{ 30, 837, 0, 0 } ,
+	{ 2, 8313, offsetof(Double_t90, ___m_value_13) + sizeof(Object_t), 0 } ,
+	{ 1, 8319, offsetof(Decimal_t695_StaticFields, ___MinValue_0), 69 } ,
+	{ 0, 8319, offsetof(Decimal_t695_StaticFields, ___MaxValue_1), 70 } ,
+	{ 31, 8319, offsetof(Decimal_t695_StaticFields, ___MinusOne_2), 71 } ,
+	{ 32, 8319, offsetof(Decimal_t695_StaticFields, ___One_3), 72 } ,
+	{ 33, 8320, offsetof(Decimal_t695_StaticFields, ___MaxValueDiv10_4), 0 } ,
+	{ 34, 4903, offsetof(Decimal_t695, ___flags_5) + sizeof(Object_t), 0 } ,
+	{ 35, 4903, offsetof(Decimal_t695, ___hi_6) + sizeof(Object_t), 0 } ,
+	{ 36, 4903, offsetof(Decimal_t695, ___lo_7) + sizeof(Object_t), 0 } ,
+	{ 37, 4903, offsetof(Decimal_t695, ___mid_8) + sizeof(Object_t), 0 } ,
 	{ 38, 106, offsetof(Boolean_t59_StaticFields, ___FalseString_0), 0 } ,
 	{ 39, 106, offsetof(Boolean_t59_StaticFields, ___TrueString_1), 0 } ,
-	{ 2, 2066, offsetof(Boolean_t59, ___m_value_2) + sizeof(Object_t), 0 } ,
-	{ 2, 8308, offsetof(IntPtr_t, ___m_value_0) + sizeof(Object_t), 0 } ,
-	{ 40, 8309, offsetof(IntPtr_t_StaticFields, ___Zero_1), 0 } ,
-	{ 40, 8312, offsetof(UIntPtr_t_StaticFields, ___Zero_0), 0 } ,
-	{ 41, 8308, offsetof(UIntPtr_t, ____pointer_1) + sizeof(Object_t), 0 } ,
-	{ 42, 8315, offsetof(MulticastDelegate_t388, ___prev_9), 0 } ,
-	{ 43, 8315, offsetof(MulticastDelegate_t388, ___kpm_next_10), 0 } ,
-	{ 44, 4514, offsetof(Delegate_t666, ___method_ptr_0), 0 } ,
-	{ 45, 4514, offsetof(Delegate_t666, ___invoke_impl_1), 0 } ,
-	{ 46, 612, offsetof(Delegate_t666, ___m_target_2), 0 } ,
-	{ 47, 4514, offsetof(Delegate_t666, ___method_3), 0 } ,
-	{ 48, 4514, offsetof(Delegate_t666, ___delegate_trampoline_4), 0 } ,
-	{ 49, 4514, offsetof(Delegate_t666, ___method_code_5), 0 } ,
-	{ 50, 5929, offsetof(Delegate_t666, ___method_info_6), 0 } ,
-	{ 51, 5929, offsetof(Delegate_t666, ___original_method_info_7), 0 } ,
-	{ 52, 8318, offsetof(Delegate_t666, ___data_8), 0 } ,
-	{ 53, 5466, offsetof(Enum_t100_StaticFields, ___split_char_0), 0 } ,
-	{ 54, 8322, 0, 0 } ,
+	{ 2, 2084, offsetof(Boolean_t59, ___m_value_2) + sizeof(Object_t), 0 } ,
+	{ 2, 8326, offsetof(IntPtr_t, ___m_value_0) + sizeof(Object_t), 0 } ,
+	{ 40, 8327, offsetof(IntPtr_t_StaticFields, ___Zero_1), 0 } ,
+	{ 40, 8330, offsetof(UIntPtr_t_StaticFields, ___Zero_0), 0 } ,
+	{ 41, 8326, offsetof(UIntPtr_t, ____pointer_1) + sizeof(Object_t), 0 } ,
+	{ 42, 8333, offsetof(MulticastDelegate_t388, ___prev_9), 0 } ,
+	{ 43, 8333, offsetof(MulticastDelegate_t388, ___kpm_next_10), 0 } ,
+	{ 44, 4532, offsetof(Delegate_t674, ___method_ptr_0), 0 } ,
+	{ 45, 4532, offsetof(Delegate_t674, ___invoke_impl_1), 0 } ,
+	{ 46, 617, offsetof(Delegate_t674, ___m_target_2), 0 } ,
+	{ 47, 4532, offsetof(Delegate_t674, ___method_3), 0 } ,
+	{ 48, 4532, offsetof(Delegate_t674, ___delegate_trampoline_4), 0 } ,
+	{ 49, 4532, offsetof(Delegate_t674, ___method_code_5), 0 } ,
+	{ 50, 5947, offsetof(Delegate_t674, ___method_info_6), 0 } ,
+	{ 51, 5947, offsetof(Delegate_t674, ___original_method_info_7), 0 } ,
+	{ 52, 8336, offsetof(Delegate_t674, ___data_8), 0 } ,
+	{ 53, 5484, offsetof(Enum_t100_StaticFields, ___split_char_0), 0 } ,
+	{ 54, 8340, 0, 0 } ,
 	{ 55, 110, 0, 0 } ,
-	{ 56, 8322, offsetof(SimpleEnumerator_t4283, ___enumeratee_0), 0 } ,
-	{ 57, 110, offsetof(SimpleEnumerator_t4283, ___currentpos_1), 0 } ,
-	{ 15, 110, offsetof(SimpleEnumerator_t4283, ___length_2), 0 } ,
+	{ 56, 8340, offsetof(SimpleEnumerator_t4291, ___enumeratee_0), 0 } ,
+	{ 57, 110, offsetof(SimpleEnumerator_t4291, ___currentpos_1), 0 } ,
+	{ 15, 110, offsetof(SimpleEnumerator_t4291, ___length_2), 0 } ,
 	{ 58, 137, 0, 0 } ,
 	{ 59, 137, 0, 0 } ,
-	{ 60, 8328, 0, 0 } ,
-	{ 61, 8329, 0, 0 } ,
-	{ 54, 8337, 0, 0 } ,
-	{ 62, 8502, 0, 0 } ,
-	{ 63, 8503, offsetof(Type_t, ____impl_1), 0 } ,
-	{ 64, 8504, offsetof(Type_t_StaticFields, ___Delimiter_2), 0 } ,
-	{ 65, 8505, offsetof(Type_t_StaticFields, ___EmptyTypes_3), 0 } ,
-	{ 66, 8506, offsetof(Type_t_StaticFields, ___FilterAttribute_4), 0 } ,
-	{ 67, 8506, offsetof(Type_t_StaticFields, ___FilterName_5), 0 } ,
-	{ 68, 8506, offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6), 0 } ,
-	{ 69, 8507, offsetof(Type_t_StaticFields, ___Missing_7), 0 } ,
-	{ 70, 8515, offsetof(Exception_t57, ___trace_ips_0), 0 } ,
-	{ 71, 3294, offsetof(Exception_t57, ___inner_exception_1), 0 } ,
-	{ 72, 1003, offsetof(Exception_t57, ___message_2), 0 } ,
+	{ 60, 8346, 0, 0 } ,
+	{ 61, 8347, 0, 0 } ,
+	{ 54, 8355, 0, 0 } ,
+	{ 62, 8520, 0, 0 } ,
+	{ 63, 8521, offsetof(Type_t, ____impl_1), 0 } ,
+	{ 64, 8522, offsetof(Type_t_StaticFields, ___Delimiter_2), 0 } ,
+	{ 65, 8523, offsetof(Type_t_StaticFields, ___EmptyTypes_3), 0 } ,
+	{ 66, 8524, offsetof(Type_t_StaticFields, ___FilterAttribute_4), 0 } ,
+	{ 67, 8524, offsetof(Type_t_StaticFields, ___FilterName_5), 0 } ,
+	{ 68, 8524, offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6), 0 } ,
+	{ 69, 8525, offsetof(Type_t_StaticFields, ___Missing_7), 0 } ,
+	{ 70, 8533, offsetof(Exception_t57, ___trace_ips_0), 0 } ,
+	{ 71, 3312, offsetof(Exception_t57, ___inner_exception_1), 0 } ,
+	{ 72, 1008, offsetof(Exception_t57, ___message_2), 0 } ,
 	{ 73, 99, offsetof(Exception_t57, ___help_link_3), 0 } ,
 	{ 74, 99, offsetof(Exception_t57, ___class_name_4), 0 } ,
 	{ 75, 99, offsetof(Exception_t57, ___stack_trace_5), 0 } ,
@@ -5353,677 +5353,677 @@ static const Il2CppFieldDefinition s_FieldTable[2722] =
 	{ 77, 110, offsetof(Exception_t57, ___remote_stack_index_7), 0 } ,
 	{ 78, 137, offsetof(Exception_t57, ___hresult_8), 0 } ,
 	{ 79, 99, offsetof(Exception_t57, ___source_9), 0 } ,
-	{ 80, 7639, offsetof(Exception_t57, ____data_10), 0 } ,
-	{ 81, 4514, offsetof(RuntimeFieldHandle_t4287, ___value_0) + sizeof(Object_t), 0 } ,
-	{ 81, 4514, offsetof(RuntimeTypeHandle_t4286, ___value_0) + sizeof(Object_t), 0 } ,
-	{ 82, 99, offsetof(ObsoleteAttribute_t744, ____message_0), 0 } ,
-	{ 83, 100, offsetof(ObsoleteAttribute_t744, ____error_1), 0 } ,
-	{ 84, 8522, offsetof(DllImportAttribute_t4289, ___CallingConvention_0), 0 } ,
-	{ 85, 8523, offsetof(DllImportAttribute_t4289, ___CharSet_1), 0 } ,
-	{ 86, 99, offsetof(DllImportAttribute_t4289, ___Dll_2), 0 } ,
-	{ 87, 101, offsetof(DllImportAttribute_t4289, ___EntryPoint_3), 0 } ,
-	{ 88, 104, offsetof(DllImportAttribute_t4289, ___ExactSpelling_4), 0 } ,
-	{ 89, 104, offsetof(DllImportAttribute_t4289, ___PreserveSig_5), 0 } ,
-	{ 90, 104, offsetof(DllImportAttribute_t4289, ___SetLastError_6), 0 } ,
-	{ 91, 104, offsetof(DllImportAttribute_t4289, ___BestFitMapping_7), 0 } ,
-	{ 92, 104, offsetof(DllImportAttribute_t4289, ___ThrowOnUnmappableChar_8), 0 } ,
-	{ 93, 8527, offsetof(MarshalAsAttribute_t4290, ___utype_0), 0 } ,
-	{ 94, 8528, offsetof(MarshalAsAttribute_t4290, ___ArraySubType_1), 0 } ,
-	{ 95, 101, offsetof(MarshalAsAttribute_t4290, ___MarshalCookie_2), 0 } ,
-	{ 96, 101, offsetof(MarshalAsAttribute_t4290, ___MarshalType_3), 224 } ,
-	{ 97, 4992, offsetof(MarshalAsAttribute_t4290, ___MarshalTypeRef_4), 225 } ,
-	{ 98, 102, offsetof(MarshalAsAttribute_t4290, ___SizeConst_5), 0 } ,
-	{ 99, 8529, offsetof(MarshalAsAttribute_t4290, ___SizeParamIndex_6), 0 } ,
-	{ 100, 99, offsetof(ConditionalAttribute_t4292, ___myCondition_0), 0 } ,
-	{ 101, 99, offsetof(GuidAttribute_t1027, ___guidValue_0), 0 } ,
-	{ 102, 99, offsetof(InternalsVisibleToAttribute_t2102, ___assemblyName_0), 0 } ,
-	{ 103, 100, offsetof(InternalsVisibleToAttribute_t2102, ___all_visible_1), 0 } ,
+	{ 80, 7657, offsetof(Exception_t57, ____data_10), 0 } ,
+	{ 81, 4532, offsetof(RuntimeFieldHandle_t4295, ___value_0) + sizeof(Object_t), 0 } ,
+	{ 81, 4532, offsetof(RuntimeTypeHandle_t4294, ___value_0) + sizeof(Object_t), 0 } ,
+	{ 82, 99, offsetof(ObsoleteAttribute_t751, ____message_0), 0 } ,
+	{ 83, 100, offsetof(ObsoleteAttribute_t751, ____error_1), 0 } ,
+	{ 84, 8540, offsetof(DllImportAttribute_t4297, ___CallingConvention_0), 0 } ,
+	{ 85, 8541, offsetof(DllImportAttribute_t4297, ___CharSet_1), 0 } ,
+	{ 86, 99, offsetof(DllImportAttribute_t4297, ___Dll_2), 0 } ,
+	{ 87, 101, offsetof(DllImportAttribute_t4297, ___EntryPoint_3), 0 } ,
+	{ 88, 104, offsetof(DllImportAttribute_t4297, ___ExactSpelling_4), 0 } ,
+	{ 89, 104, offsetof(DllImportAttribute_t4297, ___PreserveSig_5), 0 } ,
+	{ 90, 104, offsetof(DllImportAttribute_t4297, ___SetLastError_6), 0 } ,
+	{ 91, 104, offsetof(DllImportAttribute_t4297, ___BestFitMapping_7), 0 } ,
+	{ 92, 104, offsetof(DllImportAttribute_t4297, ___ThrowOnUnmappableChar_8), 0 } ,
+	{ 93, 8545, offsetof(MarshalAsAttribute_t4298, ___utype_0), 0 } ,
+	{ 94, 8546, offsetof(MarshalAsAttribute_t4298, ___ArraySubType_1), 0 } ,
+	{ 95, 101, offsetof(MarshalAsAttribute_t4298, ___MarshalCookie_2), 0 } ,
+	{ 96, 101, offsetof(MarshalAsAttribute_t4298, ___MarshalType_3), 224 } ,
+	{ 97, 5010, offsetof(MarshalAsAttribute_t4298, ___MarshalTypeRef_4), 225 } ,
+	{ 98, 102, offsetof(MarshalAsAttribute_t4298, ___SizeConst_5), 0 } ,
+	{ 99, 8547, offsetof(MarshalAsAttribute_t4298, ___SizeParamIndex_6), 0 } ,
+	{ 100, 99, offsetof(ConditionalAttribute_t4300, ___myCondition_0), 0 } ,
+	{ 101, 99, offsetof(GuidAttribute_t1034, ___guidValue_0), 0 } ,
+	{ 102, 99, offsetof(InternalsVisibleToAttribute_t2109, ___assemblyName_0), 0 } ,
+	{ 103, 100, offsetof(InternalsVisibleToAttribute_t2109, ___all_visible_1), 0 } ,
 	{ 104, 100, offsetof(RuntimeCompatibilityAttribute_t78, ___wrap_non_exception_throws_0), 0 } ,
 	{ 105, 99, offsetof(DefaultMemberAttribute_t81, ___member_name_0), 0 } ,
-	{ 106, 6615, offsetof(DecimalConstantAttribute_t4295, ___scale_0), 0 } ,
-	{ 107, 100, offsetof(DecimalConstantAttribute_t4295, ___sign_1), 0 } ,
-	{ 35, 110, offsetof(DecimalConstantAttribute_t4295, ___hi_2), 0 } ,
-	{ 37, 110, offsetof(DecimalConstantAttribute_t4295, ___mid_3), 0 } ,
-	{ 108, 110, offsetof(DecimalConstantAttribute_t4295, ___low_4), 0 } ,
-	{ 109, 110, offsetof(FieldOffsetAttribute_t4296, ___val_0), 0 } ,
-	{ 110, 4482, offsetof(RuntimeArgumentHandle_t4297, ___args_0) + sizeof(Object_t), 0 } ,
-	{ 111, 8546, offsetof(TypedReference_t4298, ___type_0) + sizeof(Object_t), 0 } ,
-	{ 81, 4514, offsetof(TypedReference_t4298, ___value_1) + sizeof(Object_t), 0 } ,
-	{ 112, 4514, offsetof(TypedReference_t4298, ___klass_2) + sizeof(Object_t), 0 } ,
-	{ 113, 4514, offsetof(ArgIterator_t4299, ___sig_0) + sizeof(Object_t), 0 } ,
-	{ 110, 4514, offsetof(ArgIterator_t4299, ___args_1) + sizeof(Object_t), 0 } ,
-	{ 114, 110, offsetof(ArgIterator_t4299, ___next_arg_2) + sizeof(Object_t), 0 } ,
-	{ 115, 110, offsetof(ArgIterator_t4299, ___num_args_3) + sizeof(Object_t), 0 } ,
-	{ 116, 8549, offsetof(MarshalByRefObject_t4020, ____identity_0), 0 } ,
-	{ 81, 8553, 0, 0 } ,
-	{ 117, 2066, 0, 0 } ,
-	{ 118, 99, offsetof(MonoTODOAttribute_t4303, ___comment_0), 0 } ,
-	{ 119, 5065, offsetof(TableRange_t4308, ___Start_0) + sizeof(Object_t), 0 } ,
-	{ 120, 5065, offsetof(TableRange_t4308, ___End_1) + sizeof(Object_t), 0 } ,
-	{ 121, 5065, offsetof(TableRange_t4308, ___Count_2) + sizeof(Object_t), 0 } ,
-	{ 122, 5065, offsetof(TableRange_t4308, ___IndexStart_3) + sizeof(Object_t), 0 } ,
-	{ 123, 5065, offsetof(TableRange_t4308, ___IndexEnd_4) + sizeof(Object_t), 0 } ,
-	{ 124, 8566, offsetof(CodePointIndexer_t4310, ___ranges_0), 0 } ,
-	{ 125, 5065, offsetof(CodePointIndexer_t4310, ___TotalCount_1), 0 } ,
-	{ 126, 110, offsetof(CodePointIndexer_t4310, ___defaultIndex_2), 0 } ,
-	{ 127, 110, offsetof(CodePointIndexer_t4310, ___defaultCP_3), 0 } ,
-	{ 128, 5065, offsetof(TailoringInfo_t4311, ___LCID_0), 0 } ,
-	{ 129, 5065, offsetof(TailoringInfo_t4311, ___TailoringIndex_1), 0 } ,
-	{ 130, 5065, offsetof(TailoringInfo_t4311, ___TailoringCount_2), 0 } ,
-	{ 131, 6438, offsetof(TailoringInfo_t4311, ___FrenchSort_3), 0 } ,
-	{ 132, 8569, offsetof(Contraction_t4312, ___Source_0), 0 } ,
-	{ 133, 68, offsetof(Contraction_t4312, ___Replacement_1), 0 } ,
-	{ 134, 8570, offsetof(Contraction_t4312, ___SortKey_2), 0 } ,
-	{ 135, 8572, offsetof(ContractionComparer_t4313_StaticFields, ___Instance_0), 0 } ,
-	{ 132, 4628, offsetof(Level2Map_t4314, ___Source_0), 0 } ,
-	{ 136, 4628, offsetof(Level2Map_t4314, ___Replace_1), 0 } ,
-	{ 135, 8575, offsetof(Level2MapComparer_t4315_StaticFields, ___Instance_0), 0 } ,
-	{ 137, 1448, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___MaxExpansionLength_0), 0 } ,
-	{ 138, 8274, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___ignorableFlags_1), 0 } ,
-	{ 139, 8274, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___categories_2), 0 } ,
-	{ 140, 8274, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___level1_3), 0 } ,
-	{ 141, 8274, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___level2_4), 0 } ,
-	{ 142, 8274, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___level3_5), 0 } ,
-	{ 143, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkCHScategory_6), 0 } ,
-	{ 144, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkCHTcategory_7), 0 } ,
-	{ 145, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkJAcategory_8), 0 } ,
-	{ 146, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkKOcategory_9), 0 } ,
-	{ 147, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkCHSlv1_10), 0 } ,
-	{ 148, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkCHTlv1_11), 0 } ,
-	{ 149, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkJAlv1_12), 0 } ,
-	{ 150, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkKOlv1_13), 0 } ,
-	{ 151, 8580, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___cjkKOlv2_14), 0 } ,
-	{ 152, 2076, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___tailoringArr_15), 0 } ,
-	{ 153, 8581, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___tailoringInfos_16), 0 } ,
-	{ 154, 3622, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___forLock_17), 0 } ,
-	{ 155, 8582, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___isReady_18), 0 } ,
-	{ 156, 910, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___U3CU3Ef__switchU24map2_19), 249 } ,
-	{ 157, 910, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___U3CU3Ef__switchU24map3_20), 250 } ,
-	{ 158, 910, offsetof(MSCompatUnicodeTable_t4317_StaticFields, ___U3CU3Ef__switchU24map4_21), 251 } ,
-	{ 159, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Ignorable_0), 0 } ,
-	{ 160, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Category_1), 0 } ,
-	{ 161, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Level1_2), 0 } ,
-	{ 162, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Level2_3), 0 } ,
-	{ 163, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Level3_4), 0 } ,
-	{ 164, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___CjkCHS_5), 0 } ,
-	{ 165, 8584, offsetof(MSCompatUnicodeTableUtil_t4318_StaticFields, ___Cjk_6), 0 } ,
-	{ 166, 8586, offsetof(Context_t4319, ___Option_0) + sizeof(Object_t), 0 } ,
-	{ 167, 8587, offsetof(Context_t4319, ___NeverMatchFlags_1) + sizeof(Object_t), 0 } ,
-	{ 168, 8587, offsetof(Context_t4319, ___AlwaysMatchFlags_2) + sizeof(Object_t), 0 } ,
-	{ 169, 8588, offsetof(Context_t4319, ___Buffer1_3) + sizeof(Object_t), 0 } ,
-	{ 170, 8588, offsetof(Context_t4319, ___Buffer2_4) + sizeof(Object_t), 0 } ,
-	{ 171, 102, offsetof(Context_t4319, ___PrevCode_5) + sizeof(Object_t), 0 } ,
-	{ 172, 8588, offsetof(Context_t4319, ___PrevSortKey_6) + sizeof(Object_t), 0 } ,
-	{ 173, 6438, offsetof(Context_t4319, ___QuickCheckPossible_7) + sizeof(Object_t), 0 } ,
-	{ 174, 102, offsetof(PreviousInfo_t4320, ___Code_0) + sizeof(Object_t), 0 } ,
-	{ 134, 8588, offsetof(PreviousInfo_t4320, ___SortKey_1) + sizeof(Object_t), 0 } ,
-	{ 132, 101, offsetof(Escape_t4321, ___Source_0) + sizeof(Object_t), 0 } ,
-	{ 175, 102, offsetof(Escape_t4321, ___Index_1) + sizeof(Object_t), 0 } ,
-	{ 119, 102, offsetof(Escape_t4321, ___Start_2) + sizeof(Object_t), 0 } ,
-	{ 120, 102, offsetof(Escape_t4321, ___End_3) + sizeof(Object_t), 0 } ,
-	{ 176, 102, offsetof(Escape_t4321, ___Optional_4) + sizeof(Object_t), 0 } ,
-	{ 177, 90, offsetof(ExtenderType_t4322, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 8594, 0, 0 } ,
-	{ 179, 8594, 0, 0 } ,
-	{ 180, 8594, 0, 0 } ,
-	{ 181, 8594, 0, 0 } ,
-	{ 182, 8594, 0, 0 } ,
-	{ 183, 640, offsetof(SimpleCollator_t4323_StaticFields, ___QuickCheckDisabled_0), 0 } ,
-	{ 184, 8597, offsetof(SimpleCollator_t4323_StaticFields, ___invariant_1), 0 } ,
-	{ 185, 8598, offsetof(SimpleCollator_t4323, ___textInfo_2), 0 } ,
-	{ 186, 5072, offsetof(SimpleCollator_t4323, ___frenchSort_3), 0 } ,
-	{ 187, 8599, offsetof(SimpleCollator_t4323, ___cjkCatTable_4), 0 } ,
-	{ 188, 8599, offsetof(SimpleCollator_t4323, ___cjkLv1Table_5), 0 } ,
-	{ 189, 8600, offsetof(SimpleCollator_t4323, ___cjkIndexer_6), 0 } ,
-	{ 190, 8599, offsetof(SimpleCollator_t4323, ___cjkLv2Table_7), 0 } ,
-	{ 191, 8600, offsetof(SimpleCollator_t4323, ___cjkLv2Indexer_8), 0 } ,
-	{ 192, 2245, offsetof(SimpleCollator_t4323, ___lcid_9), 0 } ,
-	{ 193, 8601, offsetof(SimpleCollator_t4323, ___contractions_10), 0 } ,
-	{ 194, 8602, offsetof(SimpleCollator_t4323, ___level2Maps_11), 0 } ,
-	{ 195, 8603, offsetof(SimpleCollator_t4323, ___unsafeFlags_12), 0 } ,
-	{ 79, 71, offsetof(SortKey_t4327, ___source_0), 0 } ,
-	{ 196, 8605, offsetof(SortKey_t4327, ___options_1), 0 } ,
-	{ 197, 8603, offsetof(SortKey_t4327, ___key_2), 0 } ,
-	{ 192, 2245, offsetof(SortKey_t4327, ___lcid_3), 0 } ,
-	{ 198, 110, offsetof(SortKeyBuffer_t4328, ___l1_0), 0 } ,
-	{ 199, 110, offsetof(SortKeyBuffer_t4328, ___l2_1), 0 } ,
-	{ 200, 110, offsetof(SortKeyBuffer_t4328, ___l3_2), 0 } ,
-	{ 201, 110, offsetof(SortKeyBuffer_t4328, ___l4s_3), 0 } ,
-	{ 202, 110, offsetof(SortKeyBuffer_t4328, ___l4t_4), 0 } ,
-	{ 203, 110, offsetof(SortKeyBuffer_t4328, ___l4k_5), 0 } ,
-	{ 204, 110, offsetof(SortKeyBuffer_t4328, ___l4w_6), 0 } ,
-	{ 205, 110, offsetof(SortKeyBuffer_t4328, ___l5_7), 0 } ,
-	{ 206, 833, offsetof(SortKeyBuffer_t4328, ___l1b_8), 0 } ,
-	{ 207, 833, offsetof(SortKeyBuffer_t4328, ___l2b_9), 0 } ,
-	{ 208, 833, offsetof(SortKeyBuffer_t4328, ___l3b_10), 0 } ,
-	{ 209, 833, offsetof(SortKeyBuffer_t4328, ___l4sb_11), 0 } ,
-	{ 210, 833, offsetof(SortKeyBuffer_t4328, ___l4tb_12), 0 } ,
-	{ 211, 833, offsetof(SortKeyBuffer_t4328, ___l4kb_13), 0 } ,
-	{ 212, 833, offsetof(SortKeyBuffer_t4328, ___l4wb_14), 0 } ,
-	{ 213, 833, offsetof(SortKeyBuffer_t4328, ___l5b_15), 0 } ,
-	{ 79, 99, offsetof(SortKeyBuffer_t4328, ___source_16), 0 } ,
-	{ 214, 100, offsetof(SortKeyBuffer_t4328, ___processLevel2_17), 0 } ,
-	{ 186, 100, offsetof(SortKeyBuffer_t4328, ___frenchSort_18), 0 } ,
-	{ 215, 100, offsetof(SortKeyBuffer_t4328, ___frenchSorted_19), 0 } ,
-	{ 192, 110, offsetof(SortKeyBuffer_t4328, ___lcid_20), 0 } ,
-	{ 196, 8608, offsetof(SortKeyBuffer_t4328, ___options_21), 0 } ,
-	{ 177, 90, offsetof(ConfidenceFactor_t4331, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 216, 8613, 0, 0 } ,
-	{ 217, 8613, 0, 0 } ,
-	{ 218, 8613, 0, 0 } ,
-	{ 219, 8613, 0, 0 } ,
-	{ 220, 8613, 0, 0 } ,
-	{ 221, 8613, 0, 0 } ,
-	{ 177, 90, offsetof(Sign_t4333, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 222, 8617, 0, 0 } ,
-	{ 40, 8617, 0, 0 } ,
-	{ 223, 8617, 0, 0 } ,
-	{ 224, 8620, offsetof(ModulusRing_t4335, ___mod_0), 0 } ,
-	{ 225, 8620, offsetof(ModulusRing_t4335, ___constant_1), 0 } ,
-	{ 15, 4885, offsetof(BigInteger_t4334, ___length_0), 0 } ,
-	{ 52, 6602, offsetof(BigInteger_t4334, ___data_1), 0 } ,
-	{ 226, 6603, offsetof(BigInteger_t4334_StaticFields, ___smallPrimes_2), 0 } ,
-	{ 227, 6604, offsetof(BigInteger_t4334_StaticFields, ___rng_3), 0 } ,
-	{ 227, 6604, offsetof(KeyBuilder_t4338_StaticFields, ___rng_0), 0 } ,
-	{ 228, 6717, offsetof(BlockProcessor_t4339, ___transform_0), 0 } ,
-	{ 229, 833, offsetof(BlockProcessor_t4339, ___block_1), 0 } ,
-	{ 230, 110, offsetof(BlockProcessor_t4339, ___blockSize_2), 0 } ,
-	{ 231, 110, offsetof(BlockProcessor_t4339, ___blockCount_3), 0 } ,
-	{ 232, 100, offsetof(DSAManaged_t4341, ___keypairGenerated_2), 0 } ,
-	{ 233, 100, offsetof(DSAManaged_t4341, ___m_disposed_3), 0 } ,
-	{ 234, 8620, offsetof(DSAManaged_t4341, ___p_4), 0 } ,
-	{ 235, 8620, offsetof(DSAManaged_t4341, ___q_5), 0 } ,
-	{ 236, 8620, offsetof(DSAManaged_t4341, ___g_6), 0 } ,
-	{ 237, 8620, offsetof(DSAManaged_t4341, ___x_7), 0 } ,
-	{ 238, 8620, offsetof(DSAManaged_t4341, ___y_8), 0 } ,
-	{ 239, 8620, offsetof(DSAManaged_t4341, ___j_9), 0 } ,
-	{ 240, 8620, offsetof(DSAManaged_t4341, ___seed_10), 0 } ,
-	{ 241, 110, offsetof(DSAManaged_t4341, ___counter_11), 0 } ,
-	{ 242, 100, offsetof(DSAManaged_t4341, ___j_missing_12), 0 } ,
-	{ 227, 6747, offsetof(DSAManaged_t4341, ___rng_13), 0 } ,
-	{ 243, 8630, offsetof(DSAManaged_t4341, ___KeyGenerated_14), 0 } ,
-	{ 244, 640, offsetof(KeyPairPersistence_t4342_StaticFields, ____userPathExists_0), 0 } ,
-	{ 245, 1064, offsetof(KeyPairPersistence_t4342_StaticFields, ____userPath_1), 0 } ,
-	{ 246, 640, offsetof(KeyPairPersistence_t4342_StaticFields, ____machinePathExists_2), 0 } ,
-	{ 247, 1064, offsetof(KeyPairPersistence_t4342_StaticFields, ____machinePath_3), 0 } ,
-	{ 248, 8632, offsetof(KeyPairPersistence_t4342, ____params_4), 0 } ,
-	{ 249, 99, offsetof(KeyPairPersistence_t4342, ____keyvalue_5), 0 } ,
-	{ 250, 99, offsetof(KeyPairPersistence_t4342, ____filename_6), 0 } ,
-	{ 251, 99, offsetof(KeyPairPersistence_t4342, ____container_7), 0 } ,
-	{ 252, 3622, offsetof(KeyPairPersistence_t4342_StaticFields, ___lockobj_8), 0 } ,
-	{ 253, 6716, offsetof(MACAlgorithm_t4343, ___algo_0), 0 } ,
-	{ 254, 6717, offsetof(MACAlgorithm_t4343, ___enc_1), 0 } ,
-	{ 229, 833, offsetof(MACAlgorithm_t4343, ___block_2), 0 } ,
-	{ 230, 110, offsetof(MACAlgorithm_t4343, ___blockSize_3), 0 } ,
-	{ 231, 110, offsetof(MACAlgorithm_t4343, ___blockCount_4), 0 } ,
-	{ 255, 4679, offsetof(PKCS1_t4344_StaticFields, ___emptySHA1_0), 0 } ,
-	{ 256, 4679, offsetof(PKCS1_t4344_StaticFields, ___emptySHA256_1), 0 } ,
-	{ 257, 4679, offsetof(PKCS1_t4344_StaticFields, ___emptySHA384_2), 0 } ,
-	{ 258, 4679, offsetof(PKCS1_t4344_StaticFields, ___emptySHA512_3), 0 } ,
-	{ 259, 110, offsetof(PrivateKeyInfo_t4345, ____version_0), 0 } ,
-	{ 260, 99, offsetof(PrivateKeyInfo_t4345, ____algorithm_1), 0 } ,
-	{ 261, 833, offsetof(PrivateKeyInfo_t4345, ____key_2), 0 } ,
-	{ 262, 5582, offsetof(PrivateKeyInfo_t4345, ____list_3), 0 } ,
-	{ 260, 99, offsetof(EncryptedPrivateKeyInfo_t4346, ____algorithm_0), 0 } ,
-	{ 263, 833, offsetof(EncryptedPrivateKeyInfo_t4346, ____salt_1), 0 } ,
-	{ 264, 110, offsetof(EncryptedPrivateKeyInfo_t4346, ____iterations_2), 0 } ,
-	{ 80, 833, offsetof(EncryptedPrivateKeyInfo_t4346, ____data_3), 0 } ,
-	{ 265, 100, offsetof(RSAManaged_t4349, ___isCRTpossible_2), 0 } ,
-	{ 266, 100, offsetof(RSAManaged_t4349, ___keyBlinding_3), 0 } ,
-	{ 232, 100, offsetof(RSAManaged_t4349, ___keypairGenerated_4), 0 } ,
-	{ 233, 100, offsetof(RSAManaged_t4349, ___m_disposed_5), 0 } ,
-	{ 267, 8620, offsetof(RSAManaged_t4349, ___d_6), 0 } ,
-	{ 234, 8620, offsetof(RSAManaged_t4349, ___p_7), 0 } ,
-	{ 235, 8620, offsetof(RSAManaged_t4349, ___q_8), 0 } ,
-	{ 268, 8620, offsetof(RSAManaged_t4349, ___dp_9), 0 } ,
-	{ 269, 8620, offsetof(RSAManaged_t4349, ___dq_10), 0 } ,
-	{ 270, 8620, offsetof(RSAManaged_t4349, ___qInv_11), 0 } ,
-	{ 271, 8620, offsetof(RSAManaged_t4349, ___n_12), 0 } ,
-	{ 272, 8620, offsetof(RSAManaged_t4349, ___e_13), 0 } ,
-	{ 243, 8641, offsetof(RSAManaged_t4349, ___KeyGenerated_14), 0 } ,
-	{ 253, 8643, offsetof(SymmetricTransform_t4350, ___algo_0), 0 } ,
-	{ 273, 1174, offsetof(SymmetricTransform_t4350, ___encrypt_1), 0 } ,
-	{ 274, 110, offsetof(SymmetricTransform_t4350, ___BlockSizeByte_2), 0 } ,
-	{ 275, 833, offsetof(SymmetricTransform_t4350, ___temp_3), 0 } ,
-	{ 276, 833, offsetof(SymmetricTransform_t4350, ___temp2_4), 0 } ,
-	{ 277, 833, offsetof(SymmetricTransform_t4350, ___workBuff_5), 0 } ,
-	{ 278, 833, offsetof(SymmetricTransform_t4350, ___workout_6), 0 } ,
-	{ 279, 110, offsetof(SymmetricTransform_t4350, ___FeedBackByte_7), 0 } ,
-	{ 280, 110, offsetof(SymmetricTransform_t4350, ___FeedBackIter_8), 0 } ,
-	{ 233, 100, offsetof(SymmetricTransform_t4350, ___m_disposed_9), 0 } ,
-	{ 281, 100, offsetof(SymmetricTransform_t4350, ___lastBlock_10), 0 } ,
-	{ 282, 6747, offsetof(SymmetricTransform_t4350, ____rng_11), 0 } ,
-	{ 283, 99, offsetof(SafeBag_t4352, ____bagOID_0), 0 } ,
-	{ 284, 8646, offsetof(SafeBag_t4352, ____asn1_1), 0 } ,
-	{ 285, 4679, offsetof(DeriveBytes_t4353_StaticFields, ___keyDiversifier_0), 0 } ,
-	{ 286, 4679, offsetof(DeriveBytes_t4353_StaticFields, ___ivDiversifier_1), 0 } ,
-	{ 287, 4679, offsetof(DeriveBytes_t4353_StaticFields, ___macDiversifier_2), 0 } ,
-	{ 288, 99, offsetof(DeriveBytes_t4353, ____hashName_3), 0 } ,
-	{ 264, 110, offsetof(DeriveBytes_t4353, ____iterations_4), 0 } ,
-	{ 289, 833, offsetof(DeriveBytes_t4353, ____password_5), 0 } ,
-	{ 263, 833, offsetof(DeriveBytes_t4353, ____salt_6), 0 } ,
-	{ 290, 807, offsetof(PKCS12_t4355_StaticFields, ___recommendedIterationCount_0), 0 } ,
-	{ 289, 833, offsetof(PKCS12_t4355, ____password_1), 0 } ,
-	{ 291, 5582, offsetof(PKCS12_t4355, ____keyBags_2), 0 } ,
-	{ 292, 5582, offsetof(PKCS12_t4355, ____secretBags_3), 0 } ,
-	{ 293, 8649, offsetof(PKCS12_t4355, ____certs_4), 0 } ,
-	{ 294, 100, offsetof(PKCS12_t4355, ____keyBagsChanged_5), 0 } ,
-	{ 295, 100, offsetof(PKCS12_t4355, ____secretBagsChanged_6), 0 } ,
-	{ 296, 100, offsetof(PKCS12_t4355, ____certsChanged_7), 0 } ,
-	{ 264, 110, offsetof(PKCS12_t4355, ____iterations_8), 0 } ,
-	{ 297, 5582, offsetof(PKCS12_t4355, ____safeBags_9), 0 } ,
-	{ 298, 807, offsetof(PKCS12_t4355_StaticFields, ___password_max_length_10), 0 } ,
-	{ 299, 910, offsetof(PKCS12_t4355_StaticFields, ___U3CU3Ef__switchU24map8_11), 253 } ,
-	{ 300, 910, offsetof(PKCS12_t4355_StaticFields, ___U3CU3Ef__switchU24map9_12), 254 } ,
-	{ 301, 910, offsetof(PKCS12_t4355_StaticFields, ___U3CU3Ef__switchU24mapA_13), 255 } ,
-	{ 302, 910, offsetof(PKCS12_t4355_StaticFields, ___U3CU3Ef__switchU24mapB_14), 256 } ,
-	{ 303, 4679, offsetof(X501_t4356_StaticFields, ___countryName_0), 0 } ,
-	{ 304, 4679, offsetof(X501_t4356_StaticFields, ___organizationName_1), 0 } ,
-	{ 305, 4679, offsetof(X501_t4356_StaticFields, ___organizationalUnitName_2), 0 } ,
-	{ 306, 4679, offsetof(X501_t4356_StaticFields, ___commonName_3), 0 } ,
-	{ 307, 4679, offsetof(X501_t4356_StaticFields, ___localityName_4), 0 } ,
-	{ 308, 4679, offsetof(X501_t4356_StaticFields, ___stateOrProvinceName_5), 0 } ,
-	{ 309, 4679, offsetof(X501_t4356_StaticFields, ___streetAddress_6), 0 } ,
-	{ 310, 4679, offsetof(X501_t4356_StaticFields, ___domainComponent_7), 0 } ,
-	{ 311, 4679, offsetof(X501_t4356_StaticFields, ___userid_8), 0 } ,
-	{ 312, 4679, offsetof(X501_t4356_StaticFields, ___email_9), 0 } ,
-	{ 313, 4679, offsetof(X501_t4356_StaticFields, ___dnQualifier_10), 0 } ,
-	{ 314, 4679, offsetof(X501_t4356_StaticFields, ___title_11), 0 } ,
-	{ 315, 4679, offsetof(X501_t4356_StaticFields, ___surname_12), 0 } ,
-	{ 316, 4679, offsetof(X501_t4356_StaticFields, ___givenName_13), 0 } ,
-	{ 317, 4679, offsetof(X501_t4356_StaticFields, ___initial_14), 0 } ,
-	{ 318, 8646, offsetof(X509Certificate_t4358, ___decoder_0), 0 } ,
-	{ 319, 833, offsetof(X509Certificate_t4358, ___m_encodedcert_1), 0 } ,
-	{ 320, 1201, offsetof(X509Certificate_t4358, ___m_from_2), 0 } ,
-	{ 321, 1201, offsetof(X509Certificate_t4358, ___m_until_3), 0 } ,
-	{ 322, 8646, offsetof(X509Certificate_t4358, ___issuer_4), 0 } ,
-	{ 323, 99, offsetof(X509Certificate_t4358, ___m_issuername_5), 0 } ,
-	{ 324, 99, offsetof(X509Certificate_t4358, ___m_keyalgo_6), 0 } ,
-	{ 325, 833, offsetof(X509Certificate_t4358, ___m_keyalgoparams_7), 0 } ,
-	{ 326, 8646, offsetof(X509Certificate_t4358, ___subject_8), 0 } ,
-	{ 327, 99, offsetof(X509Certificate_t4358, ___m_subject_9), 0 } ,
-	{ 328, 833, offsetof(X509Certificate_t4358, ___m_publickey_10), 0 } ,
-	{ 329, 833, offsetof(X509Certificate_t4358, ___signature_11), 0 } ,
-	{ 330, 99, offsetof(X509Certificate_t4358, ___m_signaturealgo_12), 0 } ,
-	{ 331, 833, offsetof(X509Certificate_t4358, ___m_signaturealgoparams_13), 0 } ,
-	{ 332, 6654, offsetof(X509Certificate_t4358, ____dsa_14), 0 } ,
-	{ 333, 110, offsetof(X509Certificate_t4358, ___version_15), 0 } ,
-	{ 334, 833, offsetof(X509Certificate_t4358, ___serialnumber_16), 0 } ,
-	{ 335, 833, offsetof(X509Certificate_t4358, ___issuerUniqueID_17), 0 } ,
-	{ 336, 833, offsetof(X509Certificate_t4358, ___subjectUniqueID_18), 0 } ,
-	{ 337, 8652, offsetof(X509Certificate_t4358, ___extensions_19), 0 } ,
-	{ 338, 1064, offsetof(X509Certificate_t4358_StaticFields, ___encoding_error_20), 0 } ,
-	{ 339, 1290, offsetof(X509CertificateEnumerator_t4359, ___enumerator_0), 0 } ,
-	{ 340, 567, offsetof(X509Extension_t4360, ___extnOid_0), 0 } ,
-	{ 341, 1174, offsetof(X509Extension_t4360, ___extnCritical_1), 0 } ,
-	{ 342, 8656, offsetof(X509Extension_t4360, ___extnValue_2), 0 } ,
-	{ 343, 100, offsetof(X509ExtensionCollection_t4357, ___readOnly_1), 0 } ,
-	{ 344, 6615, offsetof(ASN1_t4351, ___m_nTag_0), 0 } ,
-	{ 345, 833, offsetof(ASN1_t4351, ___m_aValue_1), 0 } ,
-	{ 346, 5582, offsetof(ASN1_t4351, ___elist_2), 0 } ,
-	{ 347, 99, offsetof(ContentInfo_t4363, ___contentType_0), 0 } ,
-	{ 348, 8646, offsetof(ContentInfo_t4363, ___content_1), 0 } ,
-	{ 259, 6615, offsetof(EncryptedData_t4364, ____version_0), 0 } ,
-	{ 349, 8666, offsetof(EncryptedData_t4364, ____content_1), 0 } ,
-	{ 350, 8666, offsetof(EncryptedData_t4364, ____encryptionAlgorithm_2), 0 } ,
-	{ 351, 833, offsetof(EncryptedData_t4364, ____encrypted_3), 0 } ,
-	{ 352, 6653, offsetof(StrongName_t4366, ___rsa_0), 0 } ,
-	{ 353, 833, offsetof(StrongName_t4366, ___publicKey_1), 0 } ,
-	{ 354, 833, offsetof(StrongName_t4366, ___keyToken_2), 0 } ,
-	{ 355, 99, offsetof(StrongName_t4366, ___tokenAlgorithm_3), 0 } ,
-	{ 356, 3622, offsetof(StrongName_t4366_StaticFields, ___lockObject_4), 0 } ,
-	{ 357, 640, offsetof(StrongName_t4366_StaticFields, ___initialized_5), 0 } ,
-	{ 358, 8670, offsetof(SecurityParser_t4368, ___root_13), 0 } ,
-	{ 359, 8670, offsetof(SecurityParser_t4368, ___current_14), 0 } ,
-	{ 360, 5626, offsetof(SecurityParser_t4368, ___stack_15), 0 } ,
-	{ 361, 5582, offsetof(AttrListImpl_t4370, ___attrNames_0), 0 } ,
-	{ 362, 5582, offsetof(AttrListImpl_t4370, ___attrValues_1), 0 } ,
-	{ 363, 8675, offsetof(SmallXmlParser_t4369, ___handler_0), 0 } ,
-	{ 364, 5777, offsetof(SmallXmlParser_t4369, ___reader_1), 0 } ,
-	{ 365, 5626, offsetof(SmallXmlParser_t4369, ___elementNames_2), 0 } ,
-	{ 366, 5626, offsetof(SmallXmlParser_t4369, ___xmlSpaces_3), 0 } ,
-	{ 367, 99, offsetof(SmallXmlParser_t4369, ___xmlSpace_4), 0 } ,
-	{ 368, 913, offsetof(SmallXmlParser_t4369, ___buffer_5), 0 } ,
-	{ 369, 3527, offsetof(SmallXmlParser_t4369, ___nameBuffer_6), 0 } ,
-	{ 370, 100, offsetof(SmallXmlParser_t4369, ___isWhitespace_7), 0 } ,
-	{ 371, 8676, offsetof(SmallXmlParser_t4369, ___attributes_8), 0 } ,
-	{ 372, 110, offsetof(SmallXmlParser_t4369, ___line_9), 0 } ,
-	{ 373, 110, offsetof(SmallXmlParser_t4369, ___column_10), 0 } ,
-	{ 374, 100, offsetof(SmallXmlParser_t4369, ___resetColumn_11), 0 } ,
-	{ 375, 910, offsetof(SmallXmlParser_t4369_StaticFields, ___U3CU3Ef__switchU24map18_12), 260 } ,
-	{ 372, 110, offsetof(SmallXmlParserException_t4372, ___line_11), 0 } ,
-	{ 373, 110, offsetof(SmallXmlParserException_t4372, ___column_12), 0 } ,
-	{ 376, 8695, 0, 0 } ,
-	{ 377, 102, offsetof(Link_t4374, ___HashCode_0) + sizeof(Object_t), 0 } ,
-	{ 378, 102, offsetof(Link_t4374, ___Next_1) + sizeof(Object_t), 0 } ,
-	{ 379, 8711, 0, 0 } ,
-	{ 380, 8720, 0, 0 } ,
+	{ 106, 6633, offsetof(DecimalConstantAttribute_t4303, ___scale_0), 0 } ,
+	{ 107, 100, offsetof(DecimalConstantAttribute_t4303, ___sign_1), 0 } ,
+	{ 35, 110, offsetof(DecimalConstantAttribute_t4303, ___hi_2), 0 } ,
+	{ 37, 110, offsetof(DecimalConstantAttribute_t4303, ___mid_3), 0 } ,
+	{ 108, 110, offsetof(DecimalConstantAttribute_t4303, ___low_4), 0 } ,
+	{ 109, 110, offsetof(FieldOffsetAttribute_t4304, ___val_0), 0 } ,
+	{ 110, 4500, offsetof(RuntimeArgumentHandle_t4305, ___args_0) + sizeof(Object_t), 0 } ,
+	{ 111, 8564, offsetof(TypedReference_t4306, ___type_0) + sizeof(Object_t), 0 } ,
+	{ 81, 4532, offsetof(TypedReference_t4306, ___value_1) + sizeof(Object_t), 0 } ,
+	{ 112, 4532, offsetof(TypedReference_t4306, ___klass_2) + sizeof(Object_t), 0 } ,
+	{ 113, 4532, offsetof(ArgIterator_t4307, ___sig_0) + sizeof(Object_t), 0 } ,
+	{ 110, 4532, offsetof(ArgIterator_t4307, ___args_1) + sizeof(Object_t), 0 } ,
+	{ 114, 110, offsetof(ArgIterator_t4307, ___next_arg_2) + sizeof(Object_t), 0 } ,
+	{ 115, 110, offsetof(ArgIterator_t4307, ___num_args_3) + sizeof(Object_t), 0 } ,
+	{ 116, 8567, offsetof(MarshalByRefObject_t4028, ____identity_0), 0 } ,
+	{ 81, 8571, 0, 0 } ,
+	{ 117, 2084, 0, 0 } ,
+	{ 118, 99, offsetof(MonoTODOAttribute_t4311, ___comment_0), 0 } ,
+	{ 119, 5083, offsetof(TableRange_t4316, ___Start_0) + sizeof(Object_t), 0 } ,
+	{ 120, 5083, offsetof(TableRange_t4316, ___End_1) + sizeof(Object_t), 0 } ,
+	{ 121, 5083, offsetof(TableRange_t4316, ___Count_2) + sizeof(Object_t), 0 } ,
+	{ 122, 5083, offsetof(TableRange_t4316, ___IndexStart_3) + sizeof(Object_t), 0 } ,
+	{ 123, 5083, offsetof(TableRange_t4316, ___IndexEnd_4) + sizeof(Object_t), 0 } ,
+	{ 124, 8584, offsetof(CodePointIndexer_t4318, ___ranges_0), 0 } ,
+	{ 125, 5083, offsetof(CodePointIndexer_t4318, ___TotalCount_1), 0 } ,
+	{ 126, 110, offsetof(CodePointIndexer_t4318, ___defaultIndex_2), 0 } ,
+	{ 127, 110, offsetof(CodePointIndexer_t4318, ___defaultCP_3), 0 } ,
+	{ 128, 5083, offsetof(TailoringInfo_t4319, ___LCID_0), 0 } ,
+	{ 129, 5083, offsetof(TailoringInfo_t4319, ___TailoringIndex_1), 0 } ,
+	{ 130, 5083, offsetof(TailoringInfo_t4319, ___TailoringCount_2), 0 } ,
+	{ 131, 6456, offsetof(TailoringInfo_t4319, ___FrenchSort_3), 0 } ,
+	{ 132, 8587, offsetof(Contraction_t4320, ___Source_0), 0 } ,
+	{ 133, 68, offsetof(Contraction_t4320, ___Replacement_1), 0 } ,
+	{ 134, 8588, offsetof(Contraction_t4320, ___SortKey_2), 0 } ,
+	{ 135, 8590, offsetof(ContractionComparer_t4321_StaticFields, ___Instance_0), 0 } ,
+	{ 132, 4646, offsetof(Level2Map_t4322, ___Source_0), 0 } ,
+	{ 136, 4646, offsetof(Level2Map_t4322, ___Replace_1), 0 } ,
+	{ 135, 8593, offsetof(Level2MapComparer_t4323_StaticFields, ___Instance_0), 0 } ,
+	{ 137, 1465, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___MaxExpansionLength_0), 0 } ,
+	{ 138, 8292, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___ignorableFlags_1), 0 } ,
+	{ 139, 8292, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___categories_2), 0 } ,
+	{ 140, 8292, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___level1_3), 0 } ,
+	{ 141, 8292, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___level2_4), 0 } ,
+	{ 142, 8292, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___level3_5), 0 } ,
+	{ 143, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkCHScategory_6), 0 } ,
+	{ 144, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkCHTcategory_7), 0 } ,
+	{ 145, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkJAcategory_8), 0 } ,
+	{ 146, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkKOcategory_9), 0 } ,
+	{ 147, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkCHSlv1_10), 0 } ,
+	{ 148, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkCHTlv1_11), 0 } ,
+	{ 149, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkJAlv1_12), 0 } ,
+	{ 150, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkKOlv1_13), 0 } ,
+	{ 151, 8598, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___cjkKOlv2_14), 0 } ,
+	{ 152, 2094, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___tailoringArr_15), 0 } ,
+	{ 153, 8599, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___tailoringInfos_16), 0 } ,
+	{ 154, 3640, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___forLock_17), 0 } ,
+	{ 155, 8600, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___isReady_18), 0 } ,
+	{ 156, 915, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___U3CU3Ef__switchU24map2_19), 249 } ,
+	{ 157, 915, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___U3CU3Ef__switchU24map3_20), 250 } ,
+	{ 158, 915, offsetof(MSCompatUnicodeTable_t4325_StaticFields, ___U3CU3Ef__switchU24map4_21), 251 } ,
+	{ 159, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Ignorable_0), 0 } ,
+	{ 160, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Category_1), 0 } ,
+	{ 161, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Level1_2), 0 } ,
+	{ 162, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Level2_3), 0 } ,
+	{ 163, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Level3_4), 0 } ,
+	{ 164, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___CjkCHS_5), 0 } ,
+	{ 165, 8602, offsetof(MSCompatUnicodeTableUtil_t4326_StaticFields, ___Cjk_6), 0 } ,
+	{ 166, 8604, offsetof(Context_t4327, ___Option_0) + sizeof(Object_t), 0 } ,
+	{ 167, 8605, offsetof(Context_t4327, ___NeverMatchFlags_1) + sizeof(Object_t), 0 } ,
+	{ 168, 8605, offsetof(Context_t4327, ___AlwaysMatchFlags_2) + sizeof(Object_t), 0 } ,
+	{ 169, 8606, offsetof(Context_t4327, ___Buffer1_3) + sizeof(Object_t), 0 } ,
+	{ 170, 8606, offsetof(Context_t4327, ___Buffer2_4) + sizeof(Object_t), 0 } ,
+	{ 171, 102, offsetof(Context_t4327, ___PrevCode_5) + sizeof(Object_t), 0 } ,
+	{ 172, 8606, offsetof(Context_t4327, ___PrevSortKey_6) + sizeof(Object_t), 0 } ,
+	{ 173, 6456, offsetof(Context_t4327, ___QuickCheckPossible_7) + sizeof(Object_t), 0 } ,
+	{ 174, 102, offsetof(PreviousInfo_t4328, ___Code_0) + sizeof(Object_t), 0 } ,
+	{ 134, 8606, offsetof(PreviousInfo_t4328, ___SortKey_1) + sizeof(Object_t), 0 } ,
+	{ 132, 101, offsetof(Escape_t4329, ___Source_0) + sizeof(Object_t), 0 } ,
+	{ 175, 102, offsetof(Escape_t4329, ___Index_1) + sizeof(Object_t), 0 } ,
+	{ 119, 102, offsetof(Escape_t4329, ___Start_2) + sizeof(Object_t), 0 } ,
+	{ 120, 102, offsetof(Escape_t4329, ___End_3) + sizeof(Object_t), 0 } ,
+	{ 176, 102, offsetof(Escape_t4329, ___Optional_4) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(ExtenderType_t4330, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 8612, 0, 0 } ,
+	{ 179, 8612, 0, 0 } ,
+	{ 180, 8612, 0, 0 } ,
+	{ 181, 8612, 0, 0 } ,
+	{ 182, 8612, 0, 0 } ,
+	{ 183, 645, offsetof(SimpleCollator_t4331_StaticFields, ___QuickCheckDisabled_0), 0 } ,
+	{ 184, 8615, offsetof(SimpleCollator_t4331_StaticFields, ___invariant_1), 0 } ,
+	{ 185, 8616, offsetof(SimpleCollator_t4331, ___textInfo_2), 0 } ,
+	{ 186, 5090, offsetof(SimpleCollator_t4331, ___frenchSort_3), 0 } ,
+	{ 187, 8617, offsetof(SimpleCollator_t4331, ___cjkCatTable_4), 0 } ,
+	{ 188, 8617, offsetof(SimpleCollator_t4331, ___cjkLv1Table_5), 0 } ,
+	{ 189, 8618, offsetof(SimpleCollator_t4331, ___cjkIndexer_6), 0 } ,
+	{ 190, 8617, offsetof(SimpleCollator_t4331, ___cjkLv2Table_7), 0 } ,
+	{ 191, 8618, offsetof(SimpleCollator_t4331, ___cjkLv2Indexer_8), 0 } ,
+	{ 192, 2263, offsetof(SimpleCollator_t4331, ___lcid_9), 0 } ,
+	{ 193, 8619, offsetof(SimpleCollator_t4331, ___contractions_10), 0 } ,
+	{ 194, 8620, offsetof(SimpleCollator_t4331, ___level2Maps_11), 0 } ,
+	{ 195, 8621, offsetof(SimpleCollator_t4331, ___unsafeFlags_12), 0 } ,
+	{ 79, 71, offsetof(SortKey_t4335, ___source_0), 0 } ,
+	{ 196, 8623, offsetof(SortKey_t4335, ___options_1), 0 } ,
+	{ 197, 8621, offsetof(SortKey_t4335, ___key_2), 0 } ,
+	{ 192, 2263, offsetof(SortKey_t4335, ___lcid_3), 0 } ,
+	{ 198, 110, offsetof(SortKeyBuffer_t4336, ___l1_0), 0 } ,
+	{ 199, 110, offsetof(SortKeyBuffer_t4336, ___l2_1), 0 } ,
+	{ 200, 110, offsetof(SortKeyBuffer_t4336, ___l3_2), 0 } ,
+	{ 201, 110, offsetof(SortKeyBuffer_t4336, ___l4s_3), 0 } ,
+	{ 202, 110, offsetof(SortKeyBuffer_t4336, ___l4t_4), 0 } ,
+	{ 203, 110, offsetof(SortKeyBuffer_t4336, ___l4k_5), 0 } ,
+	{ 204, 110, offsetof(SortKeyBuffer_t4336, ___l4w_6), 0 } ,
+	{ 205, 110, offsetof(SortKeyBuffer_t4336, ___l5_7), 0 } ,
+	{ 206, 838, offsetof(SortKeyBuffer_t4336, ___l1b_8), 0 } ,
+	{ 207, 838, offsetof(SortKeyBuffer_t4336, ___l2b_9), 0 } ,
+	{ 208, 838, offsetof(SortKeyBuffer_t4336, ___l3b_10), 0 } ,
+	{ 209, 838, offsetof(SortKeyBuffer_t4336, ___l4sb_11), 0 } ,
+	{ 210, 838, offsetof(SortKeyBuffer_t4336, ___l4tb_12), 0 } ,
+	{ 211, 838, offsetof(SortKeyBuffer_t4336, ___l4kb_13), 0 } ,
+	{ 212, 838, offsetof(SortKeyBuffer_t4336, ___l4wb_14), 0 } ,
+	{ 213, 838, offsetof(SortKeyBuffer_t4336, ___l5b_15), 0 } ,
+	{ 79, 99, offsetof(SortKeyBuffer_t4336, ___source_16), 0 } ,
+	{ 214, 100, offsetof(SortKeyBuffer_t4336, ___processLevel2_17), 0 } ,
+	{ 186, 100, offsetof(SortKeyBuffer_t4336, ___frenchSort_18), 0 } ,
+	{ 215, 100, offsetof(SortKeyBuffer_t4336, ___frenchSorted_19), 0 } ,
+	{ 192, 110, offsetof(SortKeyBuffer_t4336, ___lcid_20), 0 } ,
+	{ 196, 8626, offsetof(SortKeyBuffer_t4336, ___options_21), 0 } ,
+	{ 177, 90, offsetof(ConfidenceFactor_t4339, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 216, 8631, 0, 0 } ,
+	{ 217, 8631, 0, 0 } ,
+	{ 218, 8631, 0, 0 } ,
+	{ 219, 8631, 0, 0 } ,
+	{ 220, 8631, 0, 0 } ,
+	{ 221, 8631, 0, 0 } ,
+	{ 177, 90, offsetof(Sign_t4341, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 222, 8635, 0, 0 } ,
+	{ 40, 8635, 0, 0 } ,
+	{ 223, 8635, 0, 0 } ,
+	{ 224, 8638, offsetof(ModulusRing_t4343, ___mod_0), 0 } ,
+	{ 225, 8638, offsetof(ModulusRing_t4343, ___constant_1), 0 } ,
+	{ 15, 4903, offsetof(BigInteger_t4342, ___length_0), 0 } ,
+	{ 52, 6620, offsetof(BigInteger_t4342, ___data_1), 0 } ,
+	{ 226, 6621, offsetof(BigInteger_t4342_StaticFields, ___smallPrimes_2), 0 } ,
+	{ 227, 6622, offsetof(BigInteger_t4342_StaticFields, ___rng_3), 0 } ,
+	{ 227, 6622, offsetof(KeyBuilder_t4346_StaticFields, ___rng_0), 0 } ,
+	{ 228, 6735, offsetof(BlockProcessor_t4347, ___transform_0), 0 } ,
+	{ 229, 838, offsetof(BlockProcessor_t4347, ___block_1), 0 } ,
+	{ 230, 110, offsetof(BlockProcessor_t4347, ___blockSize_2), 0 } ,
+	{ 231, 110, offsetof(BlockProcessor_t4347, ___blockCount_3), 0 } ,
+	{ 232, 100, offsetof(DSAManaged_t4349, ___keypairGenerated_2), 0 } ,
+	{ 233, 100, offsetof(DSAManaged_t4349, ___m_disposed_3), 0 } ,
+	{ 234, 8638, offsetof(DSAManaged_t4349, ___p_4), 0 } ,
+	{ 235, 8638, offsetof(DSAManaged_t4349, ___q_5), 0 } ,
+	{ 236, 8638, offsetof(DSAManaged_t4349, ___g_6), 0 } ,
+	{ 237, 8638, offsetof(DSAManaged_t4349, ___x_7), 0 } ,
+	{ 238, 8638, offsetof(DSAManaged_t4349, ___y_8), 0 } ,
+	{ 239, 8638, offsetof(DSAManaged_t4349, ___j_9), 0 } ,
+	{ 240, 8638, offsetof(DSAManaged_t4349, ___seed_10), 0 } ,
+	{ 241, 110, offsetof(DSAManaged_t4349, ___counter_11), 0 } ,
+	{ 242, 100, offsetof(DSAManaged_t4349, ___j_missing_12), 0 } ,
+	{ 227, 6765, offsetof(DSAManaged_t4349, ___rng_13), 0 } ,
+	{ 243, 8648, offsetof(DSAManaged_t4349, ___KeyGenerated_14), 0 } ,
+	{ 244, 645, offsetof(KeyPairPersistence_t4350_StaticFields, ____userPathExists_0), 0 } ,
+	{ 245, 1069, offsetof(KeyPairPersistence_t4350_StaticFields, ____userPath_1), 0 } ,
+	{ 246, 645, offsetof(KeyPairPersistence_t4350_StaticFields, ____machinePathExists_2), 0 } ,
+	{ 247, 1069, offsetof(KeyPairPersistence_t4350_StaticFields, ____machinePath_3), 0 } ,
+	{ 248, 8650, offsetof(KeyPairPersistence_t4350, ____params_4), 0 } ,
+	{ 249, 99, offsetof(KeyPairPersistence_t4350, ____keyvalue_5), 0 } ,
+	{ 250, 99, offsetof(KeyPairPersistence_t4350, ____filename_6), 0 } ,
+	{ 251, 99, offsetof(KeyPairPersistence_t4350, ____container_7), 0 } ,
+	{ 252, 3640, offsetof(KeyPairPersistence_t4350_StaticFields, ___lockobj_8), 0 } ,
+	{ 253, 6734, offsetof(MACAlgorithm_t4351, ___algo_0), 0 } ,
+	{ 254, 6735, offsetof(MACAlgorithm_t4351, ___enc_1), 0 } ,
+	{ 229, 838, offsetof(MACAlgorithm_t4351, ___block_2), 0 } ,
+	{ 230, 110, offsetof(MACAlgorithm_t4351, ___blockSize_3), 0 } ,
+	{ 231, 110, offsetof(MACAlgorithm_t4351, ___blockCount_4), 0 } ,
+	{ 255, 4697, offsetof(PKCS1_t4352_StaticFields, ___emptySHA1_0), 0 } ,
+	{ 256, 4697, offsetof(PKCS1_t4352_StaticFields, ___emptySHA256_1), 0 } ,
+	{ 257, 4697, offsetof(PKCS1_t4352_StaticFields, ___emptySHA384_2), 0 } ,
+	{ 258, 4697, offsetof(PKCS1_t4352_StaticFields, ___emptySHA512_3), 0 } ,
+	{ 259, 110, offsetof(PrivateKeyInfo_t4353, ____version_0), 0 } ,
+	{ 260, 99, offsetof(PrivateKeyInfo_t4353, ____algorithm_1), 0 } ,
+	{ 261, 838, offsetof(PrivateKeyInfo_t4353, ____key_2), 0 } ,
+	{ 262, 5600, offsetof(PrivateKeyInfo_t4353, ____list_3), 0 } ,
+	{ 260, 99, offsetof(EncryptedPrivateKeyInfo_t4354, ____algorithm_0), 0 } ,
+	{ 263, 838, offsetof(EncryptedPrivateKeyInfo_t4354, ____salt_1), 0 } ,
+	{ 264, 110, offsetof(EncryptedPrivateKeyInfo_t4354, ____iterations_2), 0 } ,
+	{ 80, 838, offsetof(EncryptedPrivateKeyInfo_t4354, ____data_3), 0 } ,
+	{ 265, 100, offsetof(RSAManaged_t4357, ___isCRTpossible_2), 0 } ,
+	{ 266, 100, offsetof(RSAManaged_t4357, ___keyBlinding_3), 0 } ,
+	{ 232, 100, offsetof(RSAManaged_t4357, ___keypairGenerated_4), 0 } ,
+	{ 233, 100, offsetof(RSAManaged_t4357, ___m_disposed_5), 0 } ,
+	{ 267, 8638, offsetof(RSAManaged_t4357, ___d_6), 0 } ,
+	{ 234, 8638, offsetof(RSAManaged_t4357, ___p_7), 0 } ,
+	{ 235, 8638, offsetof(RSAManaged_t4357, ___q_8), 0 } ,
+	{ 268, 8638, offsetof(RSAManaged_t4357, ___dp_9), 0 } ,
+	{ 269, 8638, offsetof(RSAManaged_t4357, ___dq_10), 0 } ,
+	{ 270, 8638, offsetof(RSAManaged_t4357, ___qInv_11), 0 } ,
+	{ 271, 8638, offsetof(RSAManaged_t4357, ___n_12), 0 } ,
+	{ 272, 8638, offsetof(RSAManaged_t4357, ___e_13), 0 } ,
+	{ 243, 8659, offsetof(RSAManaged_t4357, ___KeyGenerated_14), 0 } ,
+	{ 253, 8661, offsetof(SymmetricTransform_t4358, ___algo_0), 0 } ,
+	{ 273, 1179, offsetof(SymmetricTransform_t4358, ___encrypt_1), 0 } ,
+	{ 274, 110, offsetof(SymmetricTransform_t4358, ___BlockSizeByte_2), 0 } ,
+	{ 275, 838, offsetof(SymmetricTransform_t4358, ___temp_3), 0 } ,
+	{ 276, 838, offsetof(SymmetricTransform_t4358, ___temp2_4), 0 } ,
+	{ 277, 838, offsetof(SymmetricTransform_t4358, ___workBuff_5), 0 } ,
+	{ 278, 838, offsetof(SymmetricTransform_t4358, ___workout_6), 0 } ,
+	{ 279, 110, offsetof(SymmetricTransform_t4358, ___FeedBackByte_7), 0 } ,
+	{ 280, 110, offsetof(SymmetricTransform_t4358, ___FeedBackIter_8), 0 } ,
+	{ 233, 100, offsetof(SymmetricTransform_t4358, ___m_disposed_9), 0 } ,
+	{ 281, 100, offsetof(SymmetricTransform_t4358, ___lastBlock_10), 0 } ,
+	{ 282, 6765, offsetof(SymmetricTransform_t4358, ____rng_11), 0 } ,
+	{ 283, 99, offsetof(SafeBag_t4360, ____bagOID_0), 0 } ,
+	{ 284, 8664, offsetof(SafeBag_t4360, ____asn1_1), 0 } ,
+	{ 285, 4697, offsetof(DeriveBytes_t4361_StaticFields, ___keyDiversifier_0), 0 } ,
+	{ 286, 4697, offsetof(DeriveBytes_t4361_StaticFields, ___ivDiversifier_1), 0 } ,
+	{ 287, 4697, offsetof(DeriveBytes_t4361_StaticFields, ___macDiversifier_2), 0 } ,
+	{ 288, 99, offsetof(DeriveBytes_t4361, ____hashName_3), 0 } ,
+	{ 264, 110, offsetof(DeriveBytes_t4361, ____iterations_4), 0 } ,
+	{ 289, 838, offsetof(DeriveBytes_t4361, ____password_5), 0 } ,
+	{ 263, 838, offsetof(DeriveBytes_t4361, ____salt_6), 0 } ,
+	{ 290, 812, offsetof(PKCS12_t4363_StaticFields, ___recommendedIterationCount_0), 0 } ,
+	{ 289, 838, offsetof(PKCS12_t4363, ____password_1), 0 } ,
+	{ 291, 5600, offsetof(PKCS12_t4363, ____keyBags_2), 0 } ,
+	{ 292, 5600, offsetof(PKCS12_t4363, ____secretBags_3), 0 } ,
+	{ 293, 8667, offsetof(PKCS12_t4363, ____certs_4), 0 } ,
+	{ 294, 100, offsetof(PKCS12_t4363, ____keyBagsChanged_5), 0 } ,
+	{ 295, 100, offsetof(PKCS12_t4363, ____secretBagsChanged_6), 0 } ,
+	{ 296, 100, offsetof(PKCS12_t4363, ____certsChanged_7), 0 } ,
+	{ 264, 110, offsetof(PKCS12_t4363, ____iterations_8), 0 } ,
+	{ 297, 5600, offsetof(PKCS12_t4363, ____safeBags_9), 0 } ,
+	{ 298, 812, offsetof(PKCS12_t4363_StaticFields, ___password_max_length_10), 0 } ,
+	{ 299, 915, offsetof(PKCS12_t4363_StaticFields, ___U3CU3Ef__switchU24map8_11), 253 } ,
+	{ 300, 915, offsetof(PKCS12_t4363_StaticFields, ___U3CU3Ef__switchU24map9_12), 254 } ,
+	{ 301, 915, offsetof(PKCS12_t4363_StaticFields, ___U3CU3Ef__switchU24mapA_13), 255 } ,
+	{ 302, 915, offsetof(PKCS12_t4363_StaticFields, ___U3CU3Ef__switchU24mapB_14), 256 } ,
+	{ 303, 4697, offsetof(X501_t4364_StaticFields, ___countryName_0), 0 } ,
+	{ 304, 4697, offsetof(X501_t4364_StaticFields, ___organizationName_1), 0 } ,
+	{ 305, 4697, offsetof(X501_t4364_StaticFields, ___organizationalUnitName_2), 0 } ,
+	{ 306, 4697, offsetof(X501_t4364_StaticFields, ___commonName_3), 0 } ,
+	{ 307, 4697, offsetof(X501_t4364_StaticFields, ___localityName_4), 0 } ,
+	{ 308, 4697, offsetof(X501_t4364_StaticFields, ___stateOrProvinceName_5), 0 } ,
+	{ 309, 4697, offsetof(X501_t4364_StaticFields, ___streetAddress_6), 0 } ,
+	{ 310, 4697, offsetof(X501_t4364_StaticFields, ___domainComponent_7), 0 } ,
+	{ 311, 4697, offsetof(X501_t4364_StaticFields, ___userid_8), 0 } ,
+	{ 312, 4697, offsetof(X501_t4364_StaticFields, ___email_9), 0 } ,
+	{ 313, 4697, offsetof(X501_t4364_StaticFields, ___dnQualifier_10), 0 } ,
+	{ 314, 4697, offsetof(X501_t4364_StaticFields, ___title_11), 0 } ,
+	{ 315, 4697, offsetof(X501_t4364_StaticFields, ___surname_12), 0 } ,
+	{ 316, 4697, offsetof(X501_t4364_StaticFields, ___givenName_13), 0 } ,
+	{ 317, 4697, offsetof(X501_t4364_StaticFields, ___initial_14), 0 } ,
+	{ 318, 8664, offsetof(X509Certificate_t4366, ___decoder_0), 0 } ,
+	{ 319, 838, offsetof(X509Certificate_t4366, ___m_encodedcert_1), 0 } ,
+	{ 320, 1206, offsetof(X509Certificate_t4366, ___m_from_2), 0 } ,
+	{ 321, 1206, offsetof(X509Certificate_t4366, ___m_until_3), 0 } ,
+	{ 322, 8664, offsetof(X509Certificate_t4366, ___issuer_4), 0 } ,
+	{ 323, 99, offsetof(X509Certificate_t4366, ___m_issuername_5), 0 } ,
+	{ 324, 99, offsetof(X509Certificate_t4366, ___m_keyalgo_6), 0 } ,
+	{ 325, 838, offsetof(X509Certificate_t4366, ___m_keyalgoparams_7), 0 } ,
+	{ 326, 8664, offsetof(X509Certificate_t4366, ___subject_8), 0 } ,
+	{ 327, 99, offsetof(X509Certificate_t4366, ___m_subject_9), 0 } ,
+	{ 328, 838, offsetof(X509Certificate_t4366, ___m_publickey_10), 0 } ,
+	{ 329, 838, offsetof(X509Certificate_t4366, ___signature_11), 0 } ,
+	{ 330, 99, offsetof(X509Certificate_t4366, ___m_signaturealgo_12), 0 } ,
+	{ 331, 838, offsetof(X509Certificate_t4366, ___m_signaturealgoparams_13), 0 } ,
+	{ 332, 6672, offsetof(X509Certificate_t4366, ____dsa_14), 0 } ,
+	{ 333, 110, offsetof(X509Certificate_t4366, ___version_15), 0 } ,
+	{ 334, 838, offsetof(X509Certificate_t4366, ___serialnumber_16), 0 } ,
+	{ 335, 838, offsetof(X509Certificate_t4366, ___issuerUniqueID_17), 0 } ,
+	{ 336, 838, offsetof(X509Certificate_t4366, ___subjectUniqueID_18), 0 } ,
+	{ 337, 8670, offsetof(X509Certificate_t4366, ___extensions_19), 0 } ,
+	{ 338, 1069, offsetof(X509Certificate_t4366_StaticFields, ___encoding_error_20), 0 } ,
+	{ 339, 1295, offsetof(X509CertificateEnumerator_t4367, ___enumerator_0), 0 } ,
+	{ 340, 572, offsetof(X509Extension_t4368, ___extnOid_0), 0 } ,
+	{ 341, 1179, offsetof(X509Extension_t4368, ___extnCritical_1), 0 } ,
+	{ 342, 8674, offsetof(X509Extension_t4368, ___extnValue_2), 0 } ,
+	{ 343, 100, offsetof(X509ExtensionCollection_t4365, ___readOnly_1), 0 } ,
+	{ 344, 6633, offsetof(ASN1_t4359, ___m_nTag_0), 0 } ,
+	{ 345, 838, offsetof(ASN1_t4359, ___m_aValue_1), 0 } ,
+	{ 346, 5600, offsetof(ASN1_t4359, ___elist_2), 0 } ,
+	{ 347, 99, offsetof(ContentInfo_t4371, ___contentType_0), 0 } ,
+	{ 348, 8664, offsetof(ContentInfo_t4371, ___content_1), 0 } ,
+	{ 259, 6633, offsetof(EncryptedData_t4372, ____version_0), 0 } ,
+	{ 349, 8684, offsetof(EncryptedData_t4372, ____content_1), 0 } ,
+	{ 350, 8684, offsetof(EncryptedData_t4372, ____encryptionAlgorithm_2), 0 } ,
+	{ 351, 838, offsetof(EncryptedData_t4372, ____encrypted_3), 0 } ,
+	{ 352, 6671, offsetof(StrongName_t4374, ___rsa_0), 0 } ,
+	{ 353, 838, offsetof(StrongName_t4374, ___publicKey_1), 0 } ,
+	{ 354, 838, offsetof(StrongName_t4374, ___keyToken_2), 0 } ,
+	{ 355, 99, offsetof(StrongName_t4374, ___tokenAlgorithm_3), 0 } ,
+	{ 356, 3640, offsetof(StrongName_t4374_StaticFields, ___lockObject_4), 0 } ,
+	{ 357, 645, offsetof(StrongName_t4374_StaticFields, ___initialized_5), 0 } ,
+	{ 358, 8688, offsetof(SecurityParser_t4376, ___root_13), 0 } ,
+	{ 359, 8688, offsetof(SecurityParser_t4376, ___current_14), 0 } ,
+	{ 360, 5644, offsetof(SecurityParser_t4376, ___stack_15), 0 } ,
+	{ 361, 5600, offsetof(AttrListImpl_t4378, ___attrNames_0), 0 } ,
+	{ 362, 5600, offsetof(AttrListImpl_t4378, ___attrValues_1), 0 } ,
+	{ 363, 8693, offsetof(SmallXmlParser_t4377, ___handler_0), 0 } ,
+	{ 364, 5795, offsetof(SmallXmlParser_t4377, ___reader_1), 0 } ,
+	{ 365, 5644, offsetof(SmallXmlParser_t4377, ___elementNames_2), 0 } ,
+	{ 366, 5644, offsetof(SmallXmlParser_t4377, ___xmlSpaces_3), 0 } ,
+	{ 367, 99, offsetof(SmallXmlParser_t4377, ___xmlSpace_4), 0 } ,
+	{ 368, 918, offsetof(SmallXmlParser_t4377, ___buffer_5), 0 } ,
+	{ 369, 3545, offsetof(SmallXmlParser_t4377, ___nameBuffer_6), 0 } ,
+	{ 370, 100, offsetof(SmallXmlParser_t4377, ___isWhitespace_7), 0 } ,
+	{ 371, 8694, offsetof(SmallXmlParser_t4377, ___attributes_8), 0 } ,
+	{ 372, 110, offsetof(SmallXmlParser_t4377, ___line_9), 0 } ,
+	{ 373, 110, offsetof(SmallXmlParser_t4377, ___column_10), 0 } ,
+	{ 374, 100, offsetof(SmallXmlParser_t4377, ___resetColumn_11), 0 } ,
+	{ 375, 915, offsetof(SmallXmlParser_t4377_StaticFields, ___U3CU3Ef__switchU24map18_12), 260 } ,
+	{ 372, 110, offsetof(SmallXmlParserException_t4380, ___line_11), 0 } ,
+	{ 373, 110, offsetof(SmallXmlParserException_t4380, ___column_12), 0 } ,
+	{ 376, 8713, 0, 0 } ,
+	{ 377, 102, offsetof(Link_t4382, ___HashCode_0) + sizeof(Object_t), 0 } ,
+	{ 378, 102, offsetof(Link_t4382, ___Next_1) + sizeof(Object_t), 0 } ,
+	{ 379, 8729, 0, 0 } ,
+	{ 380, 8738, 0, 0 } ,
 	{ 381, 110, 0, 0 } ,
 	{ 382, 110, 0, 0 } ,
-	{ 359, 8721, 0, 0 } ,
-	{ 379, 8728, 0, 0 } ,
-	{ 380, 8739, 0, 0 } ,
-	{ 379, 8747, 0, 0 } ,
-	{ 380, 8758, 0, 0 } ,
-	{ 383, 832, 0, 0 } ,
-	{ 384, 1234, 0, 0 } ,
-	{ 385, 832, 0, 0 } ,
-	{ 386, 832, 0, 0 } ,
-	{ 387, 1416, 0, 0 } ,
-	{ 388, 8787, 0, 0 } ,
-	{ 389, 8788, 0, 0 } ,
-	{ 390, 8789, 0, 0 } ,
+	{ 359, 8739, 0, 0 } ,
+	{ 379, 8746, 0, 0 } ,
+	{ 380, 8757, 0, 0 } ,
+	{ 379, 8765, 0, 0 } ,
+	{ 380, 8776, 0, 0 } ,
+	{ 383, 837, 0, 0 } ,
+	{ 384, 1239, 0, 0 } ,
+	{ 385, 837, 0, 0 } ,
+	{ 386, 837, 0, 0 } ,
+	{ 387, 1431, 0, 0 } ,
+	{ 388, 8805, 0, 0 } ,
+	{ 389, 8806, 0, 0 } ,
+	{ 390, 8807, 0, 0 } ,
 	{ 391, 110, 0, 0 } ,
 	{ 392, 110, 0, 0 } ,
 	{ 393, 110, 0, 0 } ,
 	{ 394, 110, 0, 0 } ,
-	{ 395, 8790, 0, 0 } ,
-	{ 396, 5921, 0, 0 } ,
+	{ 395, 8808, 0, 0 } ,
+	{ 396, 5939, 0, 0 } ,
 	{ 397, 110, 0, 0 } ,
-	{ 398, 8791, 0, 262 } ,
-	{ 376, 8810, 0, 0 } ,
-	{ 197, 8841, 0, 0 } ,
-	{ 81, 8842, 0, 0 } ,
-	{ 399, 8847, 0, 0 } ,
+	{ 398, 8809, 0, 262 } ,
+	{ 376, 8828, 0, 0 } ,
+	{ 197, 8859, 0, 0 } ,
+	{ 81, 8860, 0, 0 } ,
+	{ 399, 8865, 0, 0 } ,
 	{ 381, 110, 0, 0 } ,
 	{ 400, 110, 0, 0 } ,
-	{ 359, 8848, 0, 0 } ,
-	{ 401, 832, 0, 0 } ,
-	{ 402, 8865, 0, 0 } ,
+	{ 359, 8866, 0, 0 } ,
+	{ 401, 837, 0, 0 } ,
+	{ 402, 8883, 0, 0 } ,
 	{ 403, 110, 0, 0 } ,
 	{ 259, 110, 0, 0 } ,
-	{ 404, 8866, 0, 0 } ,
-	{ 405, 8873, 0, 0 } ,
-	{ 406, 612, 0, 0 } ,
-	{ 405, 8883, 0, 0 } ,
-	{ 405, 5582, offsetof(SimpleEnumerator_t4376, ___list_0), 0 } ,
-	{ 407, 110, offsetof(SimpleEnumerator_t4376, ___index_1), 0 } ,
-	{ 333, 110, offsetof(SimpleEnumerator_t4376, ___version_2), 0 } ,
-	{ 408, 612, offsetof(SimpleEnumerator_t4376, ___currentElement_3), 0 } ,
-	{ 409, 3622, offsetof(SimpleEnumerator_t4376_StaticFields, ___endFlag_4), 0 } ,
-	{ 410, 8889, offsetof(ArrayListWrapper_t4377, ___m_InnerArrayList_5), 0 } ,
-	{ 411, 612, offsetof(SynchronizedArrayListWrapper_t4378, ___m_SyncRoot_6), 0 } ,
-	{ 412, 832, 0, 0 } ,
-	{ 403, 110, offsetof(ArrayList_t3101, ____size_1), 0 } ,
-	{ 402, 8896, offsetof(ArrayList_t3101, ____items_2), 0 } ,
-	{ 259, 110, offsetof(ArrayList_t3101, ____version_3), 0 } ,
-	{ 404, 4983, offsetof(ArrayList_t3101_StaticFields, ___EmptyArray_4), 0 } ,
-	{ 413, 7727, offsetof(BitArrayEnumerator_t4381, ____bitArray_0), 0 } ,
-	{ 414, 100, offsetof(BitArrayEnumerator_t4381, ____current_1), 0 } ,
-	{ 415, 110, offsetof(BitArrayEnumerator_t4381, ____index_2), 0 } ,
-	{ 259, 110, offsetof(BitArrayEnumerator_t4381, ____version_3), 0 } ,
-	{ 416, 1416, offsetof(BitArray_t4114, ___m_array_0), 0 } ,
-	{ 417, 110, offsetof(BitArray_t4114, ___m_length_1), 0 } ,
-	{ 259, 110, offsetof(BitArray_t4114, ____version_2), 0 } ,
-	{ 418, 8900, offsetof(CaseInsensitiveComparer_t4134_StaticFields, ___defaultComparer_0), 0 } ,
-	{ 419, 8900, offsetof(CaseInsensitiveComparer_t4134_StaticFields, ___defaultInvariantComparer_1), 0 } ,
-	{ 420, 8901, offsetof(CaseInsensitiveComparer_t4134, ___culture_2), 0 } ,
-	{ 421, 8903, offsetof(CaseInsensitiveHashCodeProvider_t4135_StaticFields, ___singletonInvariant_0), 0 } ,
-	{ 422, 3646, offsetof(CaseInsensitiveHashCodeProvider_t4135_StaticFields, ___sync_1), 0 } ,
-	{ 423, 8904, offsetof(CaseInsensitiveHashCodeProvider_t4135, ___m_text_2), 0 } ,
-	{ 405, 5582, offsetof(CollectionBase_t3757, ___list_0), 0 } ,
-	{ 424, 8908, offsetof(Comparer_t4383_StaticFields, ___Default_0), 0 } ,
-	{ 425, 8908, offsetof(Comparer_t4383_StaticFields, ___DefaultInvariant_1), 0 } ,
-	{ 426, 8909, offsetof(Comparer_t4383, ___m_compareInfo_2), 0 } ,
-	{ 261, 612, offsetof(DictionaryEntry_t2079, ____key_0) + sizeof(Object_t), 0 } ,
-	{ 427, 612, offsetof(DictionaryEntry_t2079, ____value_1) + sizeof(Object_t), 0 } ,
-	{ 197, 148, offsetof(Slot_t4384, ___key_0) + sizeof(Object_t), 0 } ,
-	{ 81, 148, offsetof(Slot_t4384, ___value_1) + sizeof(Object_t), 0 } ,
-	{ 428, 8913, offsetof(KeyMarker_t4385_StaticFields, ___Removed_0), 0 } ,
-	{ 177, 90, offsetof(EnumeratorMode_t4386, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 429, 8915, 0, 0 } ,
-	{ 430, 8915, 0, 0 } ,
-	{ 431, 8915, 0, 0 } ,
-	{ 432, 5572, offsetof(Enumerator_t4387, ___host_0), 0 } ,
-	{ 382, 110, offsetof(Enumerator_t4387, ___stamp_1), 0 } ,
-	{ 433, 110, offsetof(Enumerator_t4387, ___pos_2), 0 } ,
-	{ 434, 110, offsetof(Enumerator_t4387, ___size_3), 0 } ,
-	{ 435, 8918, offsetof(Enumerator_t4387, ___mode_4), 0 } ,
-	{ 436, 612, offsetof(Enumerator_t4387, ___currentKey_5), 0 } ,
-	{ 437, 612, offsetof(Enumerator_t4387, ___currentValue_6), 0 } ,
-	{ 438, 3529, offsetof(Enumerator_t4387_StaticFields, ___xstr_7), 0 } ,
-	{ 432, 5572, offsetof(HashKeys_t4388, ___host_0), 0 } ,
-	{ 432, 5572, offsetof(HashValues_t4389, ___host_0), 0 } ,
-	{ 432, 5572, offsetof(SyncHashtable_t4390, ___host_14), 0 } ,
-	{ 439, 832, 0, 0 } ,
-	{ 440, 110, offsetof(Hashtable_t1267, ___inUse_1), 0 } ,
-	{ 441, 110, offsetof(Hashtable_t1267, ___modificationCount_2), 0 } ,
-	{ 442, 1164, offsetof(Hashtable_t1267, ___loadFactor_3), 0 } ,
-	{ 387, 8923, offsetof(Hashtable_t1267, ___table_4), 0 } ,
-	{ 443, 1416, offsetof(Hashtable_t1267, ___hashes_5), 0 } ,
-	{ 394, 110, offsetof(Hashtable_t1267, ___threshold_6), 0 } ,
-	{ 444, 8924, offsetof(Hashtable_t1267, ___hashKeys_7), 0 } ,
-	{ 445, 8925, offsetof(Hashtable_t1267, ___hashValues_8), 0 } ,
-	{ 446, 7244, offsetof(Hashtable_t1267, ___hcpRef_9), 0 } ,
-	{ 447, 7236, offsetof(Hashtable_t1267, ___comparerRef_10), 0 } ,
-	{ 448, 5921, offsetof(Hashtable_t1267, ___serializationInfo_11), 0 } ,
-	{ 449, 7246, offsetof(Hashtable_t1267, ___equalityComparer_12), 0 } ,
-	{ 450, 5907, offsetof(Hashtable_t1267_StaticFields, ___primeTbl_13), 0 } ,
-	{ 451, 7330, offsetof(QueueEnumerator_t4392, ___queue_0), 0 } ,
-	{ 259, 110, offsetof(QueueEnumerator_t4392, ____version_1), 0 } ,
-	{ 359, 110, offsetof(QueueEnumerator_t4392, ___current_2), 0 } ,
-	{ 452, 8896, offsetof(Queue_t3944, ____array_0), 0 } ,
-	{ 453, 110, offsetof(Queue_t3944, ____head_1), 0 } ,
-	{ 403, 110, offsetof(Queue_t3944, ____size_2), 0 } ,
-	{ 454, 110, offsetof(Queue_t3944, ____tail_3), 0 } ,
-	{ 455, 110, offsetof(Queue_t3944, ____growFactor_4), 0 } ,
-	{ 259, 110, offsetof(Queue_t3944, ____version_5), 0 } ,
-	{ 197, 148, offsetof(Slot_t4393, ___key_0) + sizeof(Object_t), 0 } ,
-	{ 81, 148, offsetof(Slot_t4393, ___value_1) + sizeof(Object_t), 0 } ,
+	{ 404, 8884, 0, 0 } ,
+	{ 405, 8891, 0, 0 } ,
+	{ 406, 617, 0, 0 } ,
+	{ 405, 8901, 0, 0 } ,
+	{ 405, 5600, offsetof(SimpleEnumerator_t4384, ___list_0), 0 } ,
+	{ 407, 110, offsetof(SimpleEnumerator_t4384, ___index_1), 0 } ,
+	{ 333, 110, offsetof(SimpleEnumerator_t4384, ___version_2), 0 } ,
+	{ 408, 617, offsetof(SimpleEnumerator_t4384, ___currentElement_3), 0 } ,
+	{ 409, 3640, offsetof(SimpleEnumerator_t4384_StaticFields, ___endFlag_4), 0 } ,
+	{ 410, 8907, offsetof(ArrayListWrapper_t4385, ___m_InnerArrayList_5), 0 } ,
+	{ 411, 617, offsetof(SynchronizedArrayListWrapper_t4386, ___m_SyncRoot_6), 0 } ,
+	{ 412, 837, 0, 0 } ,
+	{ 403, 110, offsetof(ArrayList_t3109, ____size_1), 0 } ,
+	{ 402, 8914, offsetof(ArrayList_t3109, ____items_2), 0 } ,
+	{ 259, 110, offsetof(ArrayList_t3109, ____version_3), 0 } ,
+	{ 404, 5001, offsetof(ArrayList_t3109_StaticFields, ___EmptyArray_4), 0 } ,
+	{ 413, 7745, offsetof(BitArrayEnumerator_t4389, ____bitArray_0), 0 } ,
+	{ 414, 100, offsetof(BitArrayEnumerator_t4389, ____current_1), 0 } ,
+	{ 415, 110, offsetof(BitArrayEnumerator_t4389, ____index_2), 0 } ,
+	{ 259, 110, offsetof(BitArrayEnumerator_t4389, ____version_3), 0 } ,
+	{ 416, 1431, offsetof(BitArray_t4122, ___m_array_0), 0 } ,
+	{ 417, 110, offsetof(BitArray_t4122, ___m_length_1), 0 } ,
+	{ 259, 110, offsetof(BitArray_t4122, ____version_2), 0 } ,
+	{ 418, 8918, offsetof(CaseInsensitiveComparer_t4142_StaticFields, ___defaultComparer_0), 0 } ,
+	{ 419, 8918, offsetof(CaseInsensitiveComparer_t4142_StaticFields, ___defaultInvariantComparer_1), 0 } ,
+	{ 420, 8919, offsetof(CaseInsensitiveComparer_t4142, ___culture_2), 0 } ,
+	{ 421, 8921, offsetof(CaseInsensitiveHashCodeProvider_t4143_StaticFields, ___singletonInvariant_0), 0 } ,
+	{ 422, 3664, offsetof(CaseInsensitiveHashCodeProvider_t4143_StaticFields, ___sync_1), 0 } ,
+	{ 423, 8922, offsetof(CaseInsensitiveHashCodeProvider_t4143, ___m_text_2), 0 } ,
+	{ 405, 5600, offsetof(CollectionBase_t3765, ___list_0), 0 } ,
+	{ 424, 8926, offsetof(Comparer_t4391_StaticFields, ___Default_0), 0 } ,
+	{ 425, 8926, offsetof(Comparer_t4391_StaticFields, ___DefaultInvariant_1), 0 } ,
+	{ 426, 8927, offsetof(Comparer_t4391, ___m_compareInfo_2), 0 } ,
+	{ 261, 617, offsetof(DictionaryEntry_t2086, ____key_0) + sizeof(Object_t), 0 } ,
+	{ 427, 617, offsetof(DictionaryEntry_t2086, ____value_1) + sizeof(Object_t), 0 } ,
+	{ 197, 148, offsetof(Slot_t4392, ___key_0) + sizeof(Object_t), 0 } ,
+	{ 81, 148, offsetof(Slot_t4392, ___value_1) + sizeof(Object_t), 0 } ,
+	{ 428, 8931, offsetof(KeyMarker_t4393_StaticFields, ___Removed_0), 0 } ,
 	{ 177, 90, offsetof(EnumeratorMode_t4394, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 429, 8935, 0, 0 } ,
-	{ 430, 8935, 0, 0 } ,
-	{ 431, 8935, 0, 0 } ,
-	{ 432, 8937, offsetof(Enumerator_t4395, ___host_0), 0 } ,
+	{ 429, 8933, 0, 0 } ,
+	{ 430, 8933, 0, 0 } ,
+	{ 431, 8933, 0, 0 } ,
+	{ 432, 5590, offsetof(Enumerator_t4395, ___host_0), 0 } ,
 	{ 382, 110, offsetof(Enumerator_t4395, ___stamp_1), 0 } ,
 	{ 433, 110, offsetof(Enumerator_t4395, ___pos_2), 0 } ,
 	{ 434, 110, offsetof(Enumerator_t4395, ___size_3), 0 } ,
-	{ 435, 8938, offsetof(Enumerator_t4395, ___mode_4), 0 } ,
-	{ 436, 612, offsetof(Enumerator_t4395, ___currentKey_5), 0 } ,
-	{ 437, 612, offsetof(Enumerator_t4395, ___currentValue_6), 0 } ,
-	{ 456, 100, offsetof(Enumerator_t4395, ___invalid_7), 0 } ,
-	{ 438, 3529, offsetof(Enumerator_t4395_StaticFields, ___xstr_8), 0 } ,
-	{ 432, 8937, offsetof(ListKeys_t4396, ___host_0), 0 } ,
-	{ 383, 6730, offsetof(SortedList_t4146_StaticFields, ___INITIAL_SIZE_0), 0 } ,
-	{ 440, 110, offsetof(SortedList_t4146, ___inUse_1), 0 } ,
-	{ 441, 110, offsetof(SortedList_t4146, ___modificationCount_2), 0 } ,
-	{ 387, 8941, offsetof(SortedList_t4146, ___table_3), 0 } ,
-	{ 457, 7236, offsetof(SortedList_t4146, ___comparer_4), 0 } ,
-	{ 458, 110, offsetof(SortedList_t4146, ___defaultCapacity_5), 0 } ,
-	{ 360, 5626, offsetof(Enumerator_t4398, ___stack_0), 0 } ,
-	{ 459, 110, offsetof(Enumerator_t4398, ___modCount_1), 0 } ,
-	{ 359, 110, offsetof(Enumerator_t4398, ___current_2), 0 } ,
-	{ 460, 8896, offsetof(Stack_t2838, ___contents_0), 0 } ,
-	{ 359, 110, offsetof(Stack_t2838, ___current_1), 0 } ,
-	{ 393, 110, offsetof(Stack_t2838, ___count_2), 0 } ,
-	{ 461, 110, offsetof(Stack_t2838, ___capacity_3), 0 } ,
-	{ 459, 110, offsetof(Stack_t2838, ___modCount_4), 0 } ,
-	{ 177, 90, offsetof(AssemblyHashAlgorithm_t4399, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 8945, 0, 0 } ,
-	{ 462, 8945, 0, 0 } ,
-	{ 463, 8945, 0, 0 } ,
-	{ 177, 90, offsetof(AssemblyVersionCompatibility_t4400, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 464, 8947, 0, 0 } ,
-	{ 465, 8947, 0, 0 } ,
-	{ 466, 8947, 0, 0 } ,
-	{ 467, 99, offsetof(SuppressMessageAttribute_t2911, ___category_0), 0 } ,
-	{ 468, 99, offsetof(SuppressMessageAttribute_t2911, ___checkId_1), 0 } ,
-	{ 469, 99, offsetof(SuppressMessageAttribute_t2911, ___justification_2), 0 } ,
-	{ 177, 90, offsetof(DebuggingModes_t4401, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 8950, 0, 0 } ,
-	{ 424, 8950, 0, 0 } ,
-	{ 470, 8950, 0, 0 } ,
-	{ 471, 8950, 0, 0 } ,
-	{ 472, 8950, 0, 0 } ,
-	{ 473, 100, offsetof(DebuggableAttribute_t2103, ___JITTrackingEnabledFlag_0), 0 } ,
-	{ 474, 100, offsetof(DebuggableAttribute_t2103, ___JITOptimizerDisabledFlag_1), 0 } ,
-	{ 475, 8953, offsetof(DebuggableAttribute_t2103, ___debuggingModes_2), 0 } ,
-	{ 476, 8956, offsetof(DebuggerBrowsableAttribute_t2155, ___state_0), 0 } ,
-	{ 177, 90, offsetof(DebuggerBrowsableState_t4402, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 477, 8958, 0, 0 } ,
-	{ 478, 8958, 0, 0 } ,
-	{ 479, 8958, 0, 0 } ,
-	{ 81, 99, offsetof(DebuggerDisplayAttribute_t4403, ___value_0), 0 } ,
-	{ 111, 99, offsetof(DebuggerDisplayAttribute_t4403, ___type_1), 0 } ,
-	{ 480, 99, offsetof(DebuggerDisplayAttribute_t4403, ___name_2), 0 } ,
-	{ 481, 99, offsetof(DebuggerTypeProxyAttribute_t4405, ___proxy_type_name_0), 0 } ,
-	{ 482, 708, 0, 0 } ,
-	{ 483, 110, offsetof(StackFrame_t2896, ___ilOffset_1), 0 } ,
-	{ 484, 110, offsetof(StackFrame_t2896, ___nativeOffset_2), 0 } ,
-	{ 485, 8964, offsetof(StackFrame_t2896, ___methodBase_3), 0 } ,
-	{ 486, 99, offsetof(StackFrame_t2896, ___fileName_4), 0 } ,
-	{ 487, 110, offsetof(StackFrame_t2896, ___lineNumber_5), 0 } ,
-	{ 488, 110, offsetof(StackFrame_t2896, ___columnNumber_6), 0 } ,
-	{ 489, 99, offsetof(StackFrame_t2896, ___internalMethodName_7), 0 } ,
-	{ 490, 708, 0, 0 } ,
-	{ 491, 8966, offsetof(StackTrace_t2859, ___frames_1), 0 } ,
-	{ 492, 100, offsetof(StackTrace_t2859, ___debug_info_2), 0 } ,
-	{ 493, 2005, offsetof(Calendar_t4407, ___m_isReadOnly_0), 0 } ,
-	{ 494, 8969, offsetof(Calendar_t4407, ___twoDigitYearMax_1), 0 } ,
-	{ 495, 8970, offsetof(Calendar_t4407, ___M_AbbrEraNames_2), 0 } ,
-	{ 496, 8970, offsetof(Calendar_t4407, ___M_EraNames_3), 0 } ,
-	{ 497, 6425, offsetof(CompareInfo_t3216_StaticFields, ___useManagedCollation_0), 0 } ,
-	{ 420, 110, offsetof(CompareInfo_t3216, ___culture_1), 0 } ,
-	{ 498, 8979, offsetof(CompareInfo_t3216, ___icu_name_2), 0 } ,
-	{ 499, 8980, offsetof(CompareInfo_t3216, ___collator_3), 0 } ,
-	{ 500, 6732, offsetof(CompareInfo_t3216_StaticFields, ___collators_4), 0 } ,
-	{ 501, 8981, offsetof(CompareInfo_t3216_StaticFields, ___monitor_5), 0 } ,
-	{ 177, 90, offsetof(CompareOptions_t4411, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 8983, 0, 0 } ,
-	{ 502, 8983, 0, 0 } ,
-	{ 503, 8983, 0, 0 } ,
-	{ 504, 8983, 0, 0 } ,
-	{ 505, 8983, 0, 0 } ,
-	{ 506, 8983, 0, 0 } ,
-	{ 507, 8983, 0, 0 } ,
-	{ 508, 8983, 0, 0 } ,
-	{ 509, 8983, 0, 0 } ,
-	{ 510, 832, 0, 0 } ,
-	{ 511, 832, 0, 0 } ,
-	{ 512, 832, 0, 0 } ,
-	{ 513, 832, 0, 0 } ,
-	{ 514, 5790, offsetof(CultureInfo_t710_StaticFields, ___invariant_culture_info_4), 0 } ,
-	{ 515, 3622, offsetof(CultureInfo_t710_StaticFields, ___shared_table_lock_5), 0 } ,
-	{ 516, 4578, offsetof(CultureInfo_t710_StaticFields, ___BootstrapCultureID_6), 0 } ,
-	{ 493, 100, offsetof(CultureInfo_t710, ___m_isReadOnly_7), 0 } ,
-	{ 517, 110, offsetof(CultureInfo_t710, ___cultureID_8), 0 } ,
-	{ 518, 8282, offsetof(CultureInfo_t710, ___parent_lcid_9), 0 } ,
-	{ 519, 8282, offsetof(CultureInfo_t710, ___specific_lcid_10), 0 } ,
-	{ 520, 8282, offsetof(CultureInfo_t710, ___datetime_index_11), 0 } ,
-	{ 521, 8282, offsetof(CultureInfo_t710, ___number_index_12), 0 } ,
-	{ 522, 100, offsetof(CultureInfo_t710, ___m_useUserOverride_13), 0 } ,
-	{ 523, 8985, offsetof(CultureInfo_t710, ___numInfo_14), 0 } ,
-	{ 524, 8986, offsetof(CultureInfo_t710, ___dateTimeInfo_15), 0 } ,
-	{ 185, 8904, offsetof(CultureInfo_t710, ___textInfo_16), 0 } ,
-	{ 525, 99, offsetof(CultureInfo_t710, ___m_name_17), 0 } ,
-	{ 526, 8979, offsetof(CultureInfo_t710, ___displayname_18), 0 } ,
-	{ 527, 8979, offsetof(CultureInfo_t710, ___englishname_19), 0 } ,
-	{ 528, 8979, offsetof(CultureInfo_t710, ___nativename_20), 0 } ,
-	{ 529, 8979, offsetof(CultureInfo_t710, ___iso3lang_21), 0 } ,
-	{ 530, 8979, offsetof(CultureInfo_t710, ___iso2lang_22), 0 } ,
-	{ 498, 8979, offsetof(CultureInfo_t710, ___icu_name_23), 0 } ,
-	{ 531, 8979, offsetof(CultureInfo_t710, ___win3lang_24), 0 } ,
-	{ 532, 8979, offsetof(CultureInfo_t710, ___territory_25), 0 } ,
-	{ 533, 8909, offsetof(CultureInfo_t710, ___compareInfo_26), 0 } ,
-	{ 534, 8987, offsetof(CultureInfo_t710, ___calendar_data_27), 0 } ,
-	{ 535, 8988, offsetof(CultureInfo_t710, ___textinfo_data_28), 0 } ,
-	{ 536, 8989, offsetof(CultureInfo_t710, ___optional_calendars_29), 0 } ,
-	{ 537, 8990, offsetof(CultureInfo_t710, ___parent_culture_30), 0 } ,
-	{ 538, 110, offsetof(CultureInfo_t710, ___m_dataItem_31), 0 } ,
-	{ 539, 8991, offsetof(CultureInfo_t710, ___calendar_32), 0 } ,
-	{ 540, 2005, offsetof(CultureInfo_t710, ___constructed_33), 0 } ,
-	{ 541, 8992, offsetof(CultureInfo_t710, ___cached_serialized_form_34), 0 } ,
-	{ 542, 3529, offsetof(CultureInfo_t710_StaticFields, ___MSG_READONLY_35), 0 } ,
-	{ 543, 6732, offsetof(CultureInfo_t710_StaticFields, ___shared_by_number_36), 0 } ,
-	{ 544, 6732, offsetof(CultureInfo_t710_StaticFields, ___shared_by_name_37), 0 } ,
-	{ 545, 910, offsetof(CultureInfo_t710_StaticFields, ___U3CU3Ef__switchU24map19_38), 321 } ,
-	{ 546, 910, offsetof(CultureInfo_t710_StaticFields, ___U3CU3Ef__switchU24map1A_39), 322 } ,
-	{ 177, 90, offsetof(DateTimeFormatFlags_t4414, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 547, 8994, 0, 0 } ,
-	{ 548, 8994, 0, 0 } ,
-	{ 549, 8994, 0, 0 } ,
-	{ 550, 8994, 0, 0 } ,
-	{ 551, 8994, 0, 0 } ,
-	{ 552, 646, 0, 0 } ,
-	{ 542, 3529, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___MSG_READONLY_1), 0 } ,
-	{ 553, 3529, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___MSG_ARRAYSIZE_MONTH_2), 0 } ,
-	{ 554, 3529, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___MSG_ARRAYSIZE_DAY_3), 0 } ,
-	{ 555, 4948, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___INVARIANT_ABBREVIATED_DAY_NAMES_4), 0 } ,
-	{ 556, 4948, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___INVARIANT_DAY_NAMES_5), 0 } ,
-	{ 557, 4948, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___INVARIANT_ABBREVIATED_MONTH_NAMES_6), 0 } ,
-	{ 558, 4948, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___INVARIANT_MONTH_NAMES_7), 0 } ,
-	{ 559, 4948, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___INVARIANT_SHORT_DAY_NAMES_8), 0 } ,
-	{ 560, 8997, offsetof(DateTimeFormatInfo_t4412_StaticFields, ___theInvariantDateTimeFormatInfo_9), 0 } ,
-	{ 493, 100, offsetof(DateTimeFormatInfo_t4412, ___m_isReadOnly_10), 0 } ,
-	{ 561, 99, offsetof(DateTimeFormatInfo_t4412, ___amDesignator_11), 0 } ,
-	{ 562, 99, offsetof(DateTimeFormatInfo_t4412, ___pmDesignator_12), 0 } ,
-	{ 563, 99, offsetof(DateTimeFormatInfo_t4412, ___dateSeparator_13), 0 } ,
-	{ 564, 99, offsetof(DateTimeFormatInfo_t4412, ___timeSeparator_14), 0 } ,
-	{ 565, 99, offsetof(DateTimeFormatInfo_t4412, ___shortDatePattern_15), 0 } ,
-	{ 566, 99, offsetof(DateTimeFormatInfo_t4412, ___longDatePattern_16), 0 } ,
-	{ 567, 99, offsetof(DateTimeFormatInfo_t4412, ___shortTimePattern_17), 0 } ,
-	{ 568, 99, offsetof(DateTimeFormatInfo_t4412, ___longTimePattern_18), 0 } ,
-	{ 569, 99, offsetof(DateTimeFormatInfo_t4412, ___monthDayPattern_19), 0 } ,
-	{ 570, 99, offsetof(DateTimeFormatInfo_t4412, ___yearMonthPattern_20), 0 } ,
-	{ 571, 99, offsetof(DateTimeFormatInfo_t4412, ___fullDateTimePattern_21), 0 } ,
-	{ 572, 99, offsetof(DateTimeFormatInfo_t4412, ____RFC1123Pattern_22), 0 } ,
-	{ 573, 99, offsetof(DateTimeFormatInfo_t4412, ____SortableDateTimePattern_23), 0 } ,
-	{ 574, 99, offsetof(DateTimeFormatInfo_t4412, ____UniversalSortableDateTimePattern_24), 0 } ,
-	{ 575, 110, offsetof(DateTimeFormatInfo_t4412, ___firstDayOfWeek_25), 0 } ,
-	{ 539, 8991, offsetof(DateTimeFormatInfo_t4412, ___calendar_26), 0 } ,
-	{ 576, 110, offsetof(DateTimeFormatInfo_t4412, ___calendarWeekRule_27), 0 } ,
-	{ 577, 582, offsetof(DateTimeFormatInfo_t4412, ___abbreviatedDayNames_28), 0 } ,
-	{ 578, 582, offsetof(DateTimeFormatInfo_t4412, ___dayNames_29), 0 } ,
-	{ 579, 582, offsetof(DateTimeFormatInfo_t4412, ___monthNames_30), 0 } ,
-	{ 580, 582, offsetof(DateTimeFormatInfo_t4412, ___abbreviatedMonthNames_31), 0 } ,
-	{ 581, 582, offsetof(DateTimeFormatInfo_t4412, ___allShortDatePatterns_32), 0 } ,
-	{ 582, 582, offsetof(DateTimeFormatInfo_t4412, ___allLongDatePatterns_33), 0 } ,
-	{ 583, 582, offsetof(DateTimeFormatInfo_t4412, ___allShortTimePatterns_34), 0 } ,
-	{ 584, 582, offsetof(DateTimeFormatInfo_t4412, ___allLongTimePatterns_35), 0 } ,
-	{ 585, 582, offsetof(DateTimeFormatInfo_t4412, ___monthDayPatterns_36), 0 } ,
-	{ 586, 582, offsetof(DateTimeFormatInfo_t4412, ___yearMonthPatterns_37), 0 } ,
-	{ 587, 582, offsetof(DateTimeFormatInfo_t4412, ___shortDayNames_38), 0 } ,
-	{ 588, 110, offsetof(DateTimeFormatInfo_t4412, ___nDataItem_39), 0 } ,
-	{ 522, 100, offsetof(DateTimeFormatInfo_t4412, ___m_useUserOverride_40), 0 } ,
-	{ 589, 100, offsetof(DateTimeFormatInfo_t4412, ___m_isDefaultCalendar_41), 0 } ,
-	{ 590, 110, offsetof(DateTimeFormatInfo_t4412, ___CultureID_42), 0 } ,
-	{ 591, 100, offsetof(DateTimeFormatInfo_t4412, ___bUseCalendarInfo_43), 0 } ,
-	{ 592, 99, offsetof(DateTimeFormatInfo_t4412, ___generalShortTimePattern_44), 0 } ,
-	{ 593, 99, offsetof(DateTimeFormatInfo_t4412, ___generalLongTimePattern_45), 0 } ,
-	{ 594, 582, offsetof(DateTimeFormatInfo_t4412, ___m_eraNames_46), 0 } ,
-	{ 595, 582, offsetof(DateTimeFormatInfo_t4412, ___m_abbrevEraNames_47), 0 } ,
-	{ 596, 582, offsetof(DateTimeFormatInfo_t4412, ___m_abbrevEnglishEraNames_48), 0 } ,
-	{ 597, 582, offsetof(DateTimeFormatInfo_t4412, ___m_dateWords_49), 0 } ,
-	{ 598, 1416, offsetof(DateTimeFormatInfo_t4412, ___optionalCalendars_50), 0 } ,
-	{ 599, 582, offsetof(DateTimeFormatInfo_t4412, ___m_superShortDayNames_51), 0 } ,
-	{ 600, 582, offsetof(DateTimeFormatInfo_t4412, ___genitiveMonthNames_52), 0 } ,
-	{ 601, 582, offsetof(DateTimeFormatInfo_t4412, ___m_genitiveAbbreviatedMonthNames_53), 0 } ,
-	{ 602, 582, offsetof(DateTimeFormatInfo_t4412, ___leapYearMonthNames_54), 0 } ,
-	{ 603, 8998, offsetof(DateTimeFormatInfo_t4412, ___formatFlags_55), 0 } ,
-	{ 525, 99, offsetof(DateTimeFormatInfo_t4412, ___m_name_56), 0 } ,
-	{ 604, 582, offsetof(DateTimeFormatInfo_t4412, ___all_date_time_patterns_57), 0 } ,
-	{ 177, 90, offsetof(DateTimeStyles_t4415, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9000, 0, 0 } ,
-	{ 605, 9000, 0, 0 } ,
-	{ 606, 9000, 0, 0 } ,
-	{ 607, 9000, 0, 0 } ,
-	{ 608, 9000, 0, 0 } ,
-	{ 609, 9000, 0, 0 } ,
-	{ 610, 9000, 0, 0 } ,
-	{ 611, 9000, 0, 0 } ,
-	{ 612, 9000, 0, 0 } ,
-	{ 613, 9000, 0, 0 } ,
-	{ 614, 1201, offsetof(DaylightTime_t4416, ___m_start_0), 0 } ,
-	{ 615, 1201, offsetof(DaylightTime_t4416, ___m_end_1), 0 } ,
-	{ 616, 6431, offsetof(DaylightTime_t4416, ___m_delta_2), 0 } ,
-	{ 617, 9005, offsetof(GregorianCalendar_t4417, ___m_type_4), 0 } ,
-	{ 177, 90, offsetof(GregorianCalendarTypes_t4418, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 618, 9007, 0, 0 } ,
-	{ 619, 9007, 0, 0 } ,
-	{ 620, 9007, 0, 0 } ,
-	{ 621, 9007, 0, 0 } ,
-	{ 622, 9007, 0, 0 } ,
-	{ 623, 9007, 0, 0 } ,
+	{ 435, 8936, offsetof(Enumerator_t4395, ___mode_4), 0 } ,
+	{ 436, 617, offsetof(Enumerator_t4395, ___currentKey_5), 0 } ,
+	{ 437, 617, offsetof(Enumerator_t4395, ___currentValue_6), 0 } ,
+	{ 438, 3547, offsetof(Enumerator_t4395_StaticFields, ___xstr_7), 0 } ,
+	{ 432, 5590, offsetof(HashKeys_t4396, ___host_0), 0 } ,
+	{ 432, 5590, offsetof(HashValues_t4397, ___host_0), 0 } ,
+	{ 432, 5590, offsetof(SyncHashtable_t4398, ___host_14), 0 } ,
+	{ 439, 837, 0, 0 } ,
+	{ 440, 110, offsetof(Hashtable_t1274, ___inUse_1), 0 } ,
+	{ 441, 110, offsetof(Hashtable_t1274, ___modificationCount_2), 0 } ,
+	{ 442, 1169, offsetof(Hashtable_t1274, ___loadFactor_3), 0 } ,
+	{ 387, 8941, offsetof(Hashtable_t1274, ___table_4), 0 } ,
+	{ 443, 1431, offsetof(Hashtable_t1274, ___hashes_5), 0 } ,
+	{ 394, 110, offsetof(Hashtable_t1274, ___threshold_6), 0 } ,
+	{ 444, 8942, offsetof(Hashtable_t1274, ___hashKeys_7), 0 } ,
+	{ 445, 8943, offsetof(Hashtable_t1274, ___hashValues_8), 0 } ,
+	{ 446, 7262, offsetof(Hashtable_t1274, ___hcpRef_9), 0 } ,
+	{ 447, 7254, offsetof(Hashtable_t1274, ___comparerRef_10), 0 } ,
+	{ 448, 5939, offsetof(Hashtable_t1274, ___serializationInfo_11), 0 } ,
+	{ 449, 7264, offsetof(Hashtable_t1274, ___equalityComparer_12), 0 } ,
+	{ 450, 5925, offsetof(Hashtable_t1274_StaticFields, ___primeTbl_13), 0 } ,
+	{ 451, 7348, offsetof(QueueEnumerator_t4400, ___queue_0), 0 } ,
+	{ 259, 110, offsetof(QueueEnumerator_t4400, ____version_1), 0 } ,
+	{ 359, 110, offsetof(QueueEnumerator_t4400, ___current_2), 0 } ,
+	{ 452, 8914, offsetof(Queue_t3952, ____array_0), 0 } ,
+	{ 453, 110, offsetof(Queue_t3952, ____head_1), 0 } ,
+	{ 403, 110, offsetof(Queue_t3952, ____size_2), 0 } ,
+	{ 454, 110, offsetof(Queue_t3952, ____tail_3), 0 } ,
+	{ 455, 110, offsetof(Queue_t3952, ____growFactor_4), 0 } ,
+	{ 259, 110, offsetof(Queue_t3952, ____version_5), 0 } ,
+	{ 197, 148, offsetof(Slot_t4401, ___key_0) + sizeof(Object_t), 0 } ,
+	{ 81, 148, offsetof(Slot_t4401, ___value_1) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(EnumeratorMode_t4402, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 429, 8953, 0, 0 } ,
+	{ 430, 8953, 0, 0 } ,
+	{ 431, 8953, 0, 0 } ,
+	{ 432, 8955, offsetof(Enumerator_t4403, ___host_0), 0 } ,
+	{ 382, 110, offsetof(Enumerator_t4403, ___stamp_1), 0 } ,
+	{ 433, 110, offsetof(Enumerator_t4403, ___pos_2), 0 } ,
+	{ 434, 110, offsetof(Enumerator_t4403, ___size_3), 0 } ,
+	{ 435, 8956, offsetof(Enumerator_t4403, ___mode_4), 0 } ,
+	{ 436, 617, offsetof(Enumerator_t4403, ___currentKey_5), 0 } ,
+	{ 437, 617, offsetof(Enumerator_t4403, ___currentValue_6), 0 } ,
+	{ 456, 100, offsetof(Enumerator_t4403, ___invalid_7), 0 } ,
+	{ 438, 3547, offsetof(Enumerator_t4403_StaticFields, ___xstr_8), 0 } ,
+	{ 432, 8955, offsetof(ListKeys_t4404, ___host_0), 0 } ,
+	{ 383, 6748, offsetof(SortedList_t4154_StaticFields, ___INITIAL_SIZE_0), 0 } ,
+	{ 440, 110, offsetof(SortedList_t4154, ___inUse_1), 0 } ,
+	{ 441, 110, offsetof(SortedList_t4154, ___modificationCount_2), 0 } ,
+	{ 387, 8959, offsetof(SortedList_t4154, ___table_3), 0 } ,
+	{ 457, 7254, offsetof(SortedList_t4154, ___comparer_4), 0 } ,
+	{ 458, 110, offsetof(SortedList_t4154, ___defaultCapacity_5), 0 } ,
+	{ 360, 5644, offsetof(Enumerator_t4406, ___stack_0), 0 } ,
+	{ 459, 110, offsetof(Enumerator_t4406, ___modCount_1), 0 } ,
+	{ 359, 110, offsetof(Enumerator_t4406, ___current_2), 0 } ,
+	{ 460, 8914, offsetof(Stack_t2845, ___contents_0), 0 } ,
+	{ 359, 110, offsetof(Stack_t2845, ___current_1), 0 } ,
+	{ 393, 110, offsetof(Stack_t2845, ___count_2), 0 } ,
+	{ 461, 110, offsetof(Stack_t2845, ___capacity_3), 0 } ,
+	{ 459, 110, offsetof(Stack_t2845, ___modCount_4), 0 } ,
+	{ 177, 90, offsetof(AssemblyHashAlgorithm_t4407, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 8963, 0, 0 } ,
+	{ 462, 8963, 0, 0 } ,
+	{ 463, 8963, 0, 0 } ,
+	{ 177, 90, offsetof(AssemblyVersionCompatibility_t4408, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 464, 8965, 0, 0 } ,
+	{ 465, 8965, 0, 0 } ,
+	{ 466, 8965, 0, 0 } ,
+	{ 467, 99, offsetof(SuppressMessageAttribute_t2918, ___category_0), 0 } ,
+	{ 468, 99, offsetof(SuppressMessageAttribute_t2918, ___checkId_1), 0 } ,
+	{ 469, 99, offsetof(SuppressMessageAttribute_t2918, ___justification_2), 0 } ,
+	{ 177, 90, offsetof(DebuggingModes_t4409, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 8968, 0, 0 } ,
+	{ 424, 8968, 0, 0 } ,
+	{ 470, 8968, 0, 0 } ,
+	{ 471, 8968, 0, 0 } ,
+	{ 472, 8968, 0, 0 } ,
+	{ 473, 100, offsetof(DebuggableAttribute_t2110, ___JITTrackingEnabledFlag_0), 0 } ,
+	{ 474, 100, offsetof(DebuggableAttribute_t2110, ___JITOptimizerDisabledFlag_1), 0 } ,
+	{ 475, 8971, offsetof(DebuggableAttribute_t2110, ___debuggingModes_2), 0 } ,
+	{ 476, 8974, offsetof(DebuggerBrowsableAttribute_t2162, ___state_0), 0 } ,
+	{ 177, 90, offsetof(DebuggerBrowsableState_t4410, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 477, 8976, 0, 0 } ,
+	{ 478, 8976, 0, 0 } ,
+	{ 479, 8976, 0, 0 } ,
+	{ 81, 99, offsetof(DebuggerDisplayAttribute_t4411, ___value_0), 0 } ,
+	{ 111, 99, offsetof(DebuggerDisplayAttribute_t4411, ___type_1), 0 } ,
+	{ 480, 99, offsetof(DebuggerDisplayAttribute_t4411, ___name_2), 0 } ,
+	{ 481, 99, offsetof(DebuggerTypeProxyAttribute_t4413, ___proxy_type_name_0), 0 } ,
+	{ 482, 713, 0, 0 } ,
+	{ 483, 110, offsetof(StackFrame_t2903, ___ilOffset_1), 0 } ,
+	{ 484, 110, offsetof(StackFrame_t2903, ___nativeOffset_2), 0 } ,
+	{ 485, 8982, offsetof(StackFrame_t2903, ___methodBase_3), 0 } ,
+	{ 486, 99, offsetof(StackFrame_t2903, ___fileName_4), 0 } ,
+	{ 487, 110, offsetof(StackFrame_t2903, ___lineNumber_5), 0 } ,
+	{ 488, 110, offsetof(StackFrame_t2903, ___columnNumber_6), 0 } ,
+	{ 489, 99, offsetof(StackFrame_t2903, ___internalMethodName_7), 0 } ,
+	{ 490, 713, 0, 0 } ,
+	{ 491, 8984, offsetof(StackTrace_t2866, ___frames_1), 0 } ,
+	{ 492, 100, offsetof(StackTrace_t2866, ___debug_info_2), 0 } ,
+	{ 493, 2023, offsetof(Calendar_t4415, ___m_isReadOnly_0), 0 } ,
+	{ 494, 8987, offsetof(Calendar_t4415, ___twoDigitYearMax_1), 0 } ,
+	{ 495, 8988, offsetof(Calendar_t4415, ___M_AbbrEraNames_2), 0 } ,
+	{ 496, 8988, offsetof(Calendar_t4415, ___M_EraNames_3), 0 } ,
+	{ 497, 6443, offsetof(CompareInfo_t3224_StaticFields, ___useManagedCollation_0), 0 } ,
+	{ 420, 110, offsetof(CompareInfo_t3224, ___culture_1), 0 } ,
+	{ 498, 8997, offsetof(CompareInfo_t3224, ___icu_name_2), 0 } ,
+	{ 499, 8998, offsetof(CompareInfo_t3224, ___collator_3), 0 } ,
+	{ 500, 6750, offsetof(CompareInfo_t3224_StaticFields, ___collators_4), 0 } ,
+	{ 501, 8999, offsetof(CompareInfo_t3224_StaticFields, ___monitor_5), 0 } ,
+	{ 177, 90, offsetof(CompareOptions_t4419, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9001, 0, 0 } ,
+	{ 502, 9001, 0, 0 } ,
+	{ 503, 9001, 0, 0 } ,
+	{ 504, 9001, 0, 0 } ,
+	{ 505, 9001, 0, 0 } ,
+	{ 506, 9001, 0, 0 } ,
+	{ 507, 9001, 0, 0 } ,
+	{ 508, 9001, 0, 0 } ,
+	{ 509, 9001, 0, 0 } ,
+	{ 510, 837, 0, 0 } ,
+	{ 511, 837, 0, 0 } ,
+	{ 512, 837, 0, 0 } ,
+	{ 513, 837, 0, 0 } ,
+	{ 514, 5808, offsetof(CultureInfo_t718_StaticFields, ___invariant_culture_info_4), 0 } ,
+	{ 515, 3640, offsetof(CultureInfo_t718_StaticFields, ___shared_table_lock_5), 0 } ,
+	{ 516, 4596, offsetof(CultureInfo_t718_StaticFields, ___BootstrapCultureID_6), 0 } ,
+	{ 493, 100, offsetof(CultureInfo_t718, ___m_isReadOnly_7), 0 } ,
+	{ 517, 110, offsetof(CultureInfo_t718, ___cultureID_8), 0 } ,
+	{ 518, 8300, offsetof(CultureInfo_t718, ___parent_lcid_9), 0 } ,
+	{ 519, 8300, offsetof(CultureInfo_t718, ___specific_lcid_10), 0 } ,
+	{ 520, 8300, offsetof(CultureInfo_t718, ___datetime_index_11), 0 } ,
+	{ 521, 8300, offsetof(CultureInfo_t718, ___number_index_12), 0 } ,
+	{ 522, 100, offsetof(CultureInfo_t718, ___m_useUserOverride_13), 0 } ,
+	{ 523, 9003, offsetof(CultureInfo_t718, ___numInfo_14), 0 } ,
+	{ 524, 9004, offsetof(CultureInfo_t718, ___dateTimeInfo_15), 0 } ,
+	{ 185, 8922, offsetof(CultureInfo_t718, ___textInfo_16), 0 } ,
+	{ 525, 99, offsetof(CultureInfo_t718, ___m_name_17), 0 } ,
+	{ 526, 8997, offsetof(CultureInfo_t718, ___displayname_18), 0 } ,
+	{ 527, 8997, offsetof(CultureInfo_t718, ___englishname_19), 0 } ,
+	{ 528, 8997, offsetof(CultureInfo_t718, ___nativename_20), 0 } ,
+	{ 529, 8997, offsetof(CultureInfo_t718, ___iso3lang_21), 0 } ,
+	{ 530, 8997, offsetof(CultureInfo_t718, ___iso2lang_22), 0 } ,
+	{ 498, 8997, offsetof(CultureInfo_t718, ___icu_name_23), 0 } ,
+	{ 531, 8997, offsetof(CultureInfo_t718, ___win3lang_24), 0 } ,
+	{ 532, 8997, offsetof(CultureInfo_t718, ___territory_25), 0 } ,
+	{ 533, 8927, offsetof(CultureInfo_t718, ___compareInfo_26), 0 } ,
+	{ 534, 9005, offsetof(CultureInfo_t718, ___calendar_data_27), 0 } ,
+	{ 535, 9006, offsetof(CultureInfo_t718, ___textinfo_data_28), 0 } ,
+	{ 536, 9007, offsetof(CultureInfo_t718, ___optional_calendars_29), 0 } ,
+	{ 537, 9008, offsetof(CultureInfo_t718, ___parent_culture_30), 0 } ,
+	{ 538, 110, offsetof(CultureInfo_t718, ___m_dataItem_31), 0 } ,
+	{ 539, 9009, offsetof(CultureInfo_t718, ___calendar_32), 0 } ,
+	{ 540, 2023, offsetof(CultureInfo_t718, ___constructed_33), 0 } ,
+	{ 541, 9010, offsetof(CultureInfo_t718, ___cached_serialized_form_34), 0 } ,
+	{ 542, 3547, offsetof(CultureInfo_t718_StaticFields, ___MSG_READONLY_35), 0 } ,
+	{ 543, 6750, offsetof(CultureInfo_t718_StaticFields, ___shared_by_number_36), 0 } ,
+	{ 544, 6750, offsetof(CultureInfo_t718_StaticFields, ___shared_by_name_37), 0 } ,
+	{ 545, 915, offsetof(CultureInfo_t718_StaticFields, ___U3CU3Ef__switchU24map19_38), 321 } ,
+	{ 546, 915, offsetof(CultureInfo_t718_StaticFields, ___U3CU3Ef__switchU24map1A_39), 322 } ,
+	{ 177, 90, offsetof(DateTimeFormatFlags_t4422, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 547, 9012, 0, 0 } ,
+	{ 548, 9012, 0, 0 } ,
+	{ 549, 9012, 0, 0 } ,
+	{ 550, 9012, 0, 0 } ,
+	{ 551, 9012, 0, 0 } ,
+	{ 552, 651, 0, 0 } ,
+	{ 542, 3547, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___MSG_READONLY_1), 0 } ,
+	{ 553, 3547, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___MSG_ARRAYSIZE_MONTH_2), 0 } ,
+	{ 554, 3547, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___MSG_ARRAYSIZE_DAY_3), 0 } ,
+	{ 555, 4966, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___INVARIANT_ABBREVIATED_DAY_NAMES_4), 0 } ,
+	{ 556, 4966, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___INVARIANT_DAY_NAMES_5), 0 } ,
+	{ 557, 4966, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___INVARIANT_ABBREVIATED_MONTH_NAMES_6), 0 } ,
+	{ 558, 4966, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___INVARIANT_MONTH_NAMES_7), 0 } ,
+	{ 559, 4966, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___INVARIANT_SHORT_DAY_NAMES_8), 0 } ,
+	{ 560, 9015, offsetof(DateTimeFormatInfo_t4420_StaticFields, ___theInvariantDateTimeFormatInfo_9), 0 } ,
+	{ 493, 100, offsetof(DateTimeFormatInfo_t4420, ___m_isReadOnly_10), 0 } ,
+	{ 561, 99, offsetof(DateTimeFormatInfo_t4420, ___amDesignator_11), 0 } ,
+	{ 562, 99, offsetof(DateTimeFormatInfo_t4420, ___pmDesignator_12), 0 } ,
+	{ 563, 99, offsetof(DateTimeFormatInfo_t4420, ___dateSeparator_13), 0 } ,
+	{ 564, 99, offsetof(DateTimeFormatInfo_t4420, ___timeSeparator_14), 0 } ,
+	{ 565, 99, offsetof(DateTimeFormatInfo_t4420, ___shortDatePattern_15), 0 } ,
+	{ 566, 99, offsetof(DateTimeFormatInfo_t4420, ___longDatePattern_16), 0 } ,
+	{ 567, 99, offsetof(DateTimeFormatInfo_t4420, ___shortTimePattern_17), 0 } ,
+	{ 568, 99, offsetof(DateTimeFormatInfo_t4420, ___longTimePattern_18), 0 } ,
+	{ 569, 99, offsetof(DateTimeFormatInfo_t4420, ___monthDayPattern_19), 0 } ,
+	{ 570, 99, offsetof(DateTimeFormatInfo_t4420, ___yearMonthPattern_20), 0 } ,
+	{ 571, 99, offsetof(DateTimeFormatInfo_t4420, ___fullDateTimePattern_21), 0 } ,
+	{ 572, 99, offsetof(DateTimeFormatInfo_t4420, ____RFC1123Pattern_22), 0 } ,
+	{ 573, 99, offsetof(DateTimeFormatInfo_t4420, ____SortableDateTimePattern_23), 0 } ,
+	{ 574, 99, offsetof(DateTimeFormatInfo_t4420, ____UniversalSortableDateTimePattern_24), 0 } ,
+	{ 575, 110, offsetof(DateTimeFormatInfo_t4420, ___firstDayOfWeek_25), 0 } ,
+	{ 539, 9009, offsetof(DateTimeFormatInfo_t4420, ___calendar_26), 0 } ,
+	{ 576, 110, offsetof(DateTimeFormatInfo_t4420, ___calendarWeekRule_27), 0 } ,
+	{ 577, 587, offsetof(DateTimeFormatInfo_t4420, ___abbreviatedDayNames_28), 0 } ,
+	{ 578, 587, offsetof(DateTimeFormatInfo_t4420, ___dayNames_29), 0 } ,
+	{ 579, 587, offsetof(DateTimeFormatInfo_t4420, ___monthNames_30), 0 } ,
+	{ 580, 587, offsetof(DateTimeFormatInfo_t4420, ___abbreviatedMonthNames_31), 0 } ,
+	{ 581, 587, offsetof(DateTimeFormatInfo_t4420, ___allShortDatePatterns_32), 0 } ,
+	{ 582, 587, offsetof(DateTimeFormatInfo_t4420, ___allLongDatePatterns_33), 0 } ,
+	{ 583, 587, offsetof(DateTimeFormatInfo_t4420, ___allShortTimePatterns_34), 0 } ,
+	{ 584, 587, offsetof(DateTimeFormatInfo_t4420, ___allLongTimePatterns_35), 0 } ,
+	{ 585, 587, offsetof(DateTimeFormatInfo_t4420, ___monthDayPatterns_36), 0 } ,
+	{ 586, 587, offsetof(DateTimeFormatInfo_t4420, ___yearMonthPatterns_37), 0 } ,
+	{ 587, 587, offsetof(DateTimeFormatInfo_t4420, ___shortDayNames_38), 0 } ,
+	{ 588, 110, offsetof(DateTimeFormatInfo_t4420, ___nDataItem_39), 0 } ,
+	{ 522, 100, offsetof(DateTimeFormatInfo_t4420, ___m_useUserOverride_40), 0 } ,
+	{ 589, 100, offsetof(DateTimeFormatInfo_t4420, ___m_isDefaultCalendar_41), 0 } ,
+	{ 590, 110, offsetof(DateTimeFormatInfo_t4420, ___CultureID_42), 0 } ,
+	{ 591, 100, offsetof(DateTimeFormatInfo_t4420, ___bUseCalendarInfo_43), 0 } ,
+	{ 592, 99, offsetof(DateTimeFormatInfo_t4420, ___generalShortTimePattern_44), 0 } ,
+	{ 593, 99, offsetof(DateTimeFormatInfo_t4420, ___generalLongTimePattern_45), 0 } ,
+	{ 594, 587, offsetof(DateTimeFormatInfo_t4420, ___m_eraNames_46), 0 } ,
+	{ 595, 587, offsetof(DateTimeFormatInfo_t4420, ___m_abbrevEraNames_47), 0 } ,
+	{ 596, 587, offsetof(DateTimeFormatInfo_t4420, ___m_abbrevEnglishEraNames_48), 0 } ,
+	{ 597, 587, offsetof(DateTimeFormatInfo_t4420, ___m_dateWords_49), 0 } ,
+	{ 598, 1431, offsetof(DateTimeFormatInfo_t4420, ___optionalCalendars_50), 0 } ,
+	{ 599, 587, offsetof(DateTimeFormatInfo_t4420, ___m_superShortDayNames_51), 0 } ,
+	{ 600, 587, offsetof(DateTimeFormatInfo_t4420, ___genitiveMonthNames_52), 0 } ,
+	{ 601, 587, offsetof(DateTimeFormatInfo_t4420, ___m_genitiveAbbreviatedMonthNames_53), 0 } ,
+	{ 602, 587, offsetof(DateTimeFormatInfo_t4420, ___leapYearMonthNames_54), 0 } ,
+	{ 603, 9016, offsetof(DateTimeFormatInfo_t4420, ___formatFlags_55), 0 } ,
+	{ 525, 99, offsetof(DateTimeFormatInfo_t4420, ___m_name_56), 0 } ,
+	{ 604, 587, offsetof(DateTimeFormatInfo_t4420, ___all_date_time_patterns_57), 0 } ,
+	{ 177, 90, offsetof(DateTimeStyles_t4423, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9018, 0, 0 } ,
+	{ 605, 9018, 0, 0 } ,
+	{ 606, 9018, 0, 0 } ,
+	{ 607, 9018, 0, 0 } ,
+	{ 608, 9018, 0, 0 } ,
+	{ 609, 9018, 0, 0 } ,
+	{ 610, 9018, 0, 0 } ,
+	{ 611, 9018, 0, 0 } ,
+	{ 612, 9018, 0, 0 } ,
+	{ 613, 9018, 0, 0 } ,
+	{ 614, 1206, offsetof(DaylightTime_t4424, ___m_start_0), 0 } ,
+	{ 615, 1206, offsetof(DaylightTime_t4424, ___m_end_1), 0 } ,
+	{ 616, 6449, offsetof(DaylightTime_t4424, ___m_delta_2), 0 } ,
+	{ 617, 9023, offsetof(GregorianCalendar_t4425, ___m_type_4), 0 } ,
+	{ 177, 90, offsetof(GregorianCalendarTypes_t4426, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 618, 9025, 0, 0 } ,
+	{ 619, 9025, 0, 0 } ,
+	{ 620, 9025, 0, 0 } ,
+	{ 621, 9025, 0, 0 } ,
+	{ 622, 9025, 0, 0 } ,
+	{ 623, 9025, 0, 0 } ,
 	{ 624, 100, offsetof(NumberFormatInfo_t452, ___isReadOnly_0), 0 } ,
 	{ 625, 99, offsetof(NumberFormatInfo_t452, ___decimalFormats_1), 0 } ,
 	{ 626, 99, offsetof(NumberFormatInfo_t452, ___currencyFormats_2), 0 } ,
@@ -6033,7 +6033,7 @@ static const Il2CppFieldDefinition s_FieldTable[2722] =
 	{ 630, 110, offsetof(NumberFormatInfo_t452, ___currencyDecimalDigits_6), 0 } ,
 	{ 631, 99, offsetof(NumberFormatInfo_t452, ___currencyDecimalSeparator_7), 0 } ,
 	{ 632, 99, offsetof(NumberFormatInfo_t452, ___currencyGroupSeparator_8), 0 } ,
-	{ 633, 1416, offsetof(NumberFormatInfo_t452, ___currencyGroupSizes_9), 0 } ,
+	{ 633, 1431, offsetof(NumberFormatInfo_t452, ___currencyGroupSizes_9), 0 } ,
 	{ 634, 110, offsetof(NumberFormatInfo_t452, ___currencyNegativePattern_10), 0 } ,
 	{ 635, 110, offsetof(NumberFormatInfo_t452, ___currencyPositivePattern_11), 0 } ,
 	{ 636, 99, offsetof(NumberFormatInfo_t452, ___currencySymbol_12), 0 } ,
@@ -6043,12 +6043,12 @@ static const Il2CppFieldDefinition s_FieldTable[2722] =
 	{ 640, 110, offsetof(NumberFormatInfo_t452, ___numberDecimalDigits_16), 0 } ,
 	{ 641, 99, offsetof(NumberFormatInfo_t452, ___numberDecimalSeparator_17), 0 } ,
 	{ 642, 99, offsetof(NumberFormatInfo_t452, ___numberGroupSeparator_18), 0 } ,
-	{ 643, 1416, offsetof(NumberFormatInfo_t452, ___numberGroupSizes_19), 0 } ,
+	{ 643, 1431, offsetof(NumberFormatInfo_t452, ___numberGroupSizes_19), 0 } ,
 	{ 644, 110, offsetof(NumberFormatInfo_t452, ___numberNegativePattern_20), 0 } ,
 	{ 645, 110, offsetof(NumberFormatInfo_t452, ___percentDecimalDigits_21), 0 } ,
 	{ 646, 99, offsetof(NumberFormatInfo_t452, ___percentDecimalSeparator_22), 0 } ,
 	{ 647, 99, offsetof(NumberFormatInfo_t452, ___percentGroupSeparator_23), 0 } ,
-	{ 648, 1416, offsetof(NumberFormatInfo_t452, ___percentGroupSizes_24), 0 } ,
+	{ 648, 1431, offsetof(NumberFormatInfo_t452, ___percentGroupSizes_24), 0 } ,
 	{ 649, 110, offsetof(NumberFormatInfo_t452, ___percentNegativePattern_25), 0 } ,
 	{ 650, 110, offsetof(NumberFormatInfo_t452, ___percentPositivePattern_26), 0 } ,
 	{ 651, 99, offsetof(NumberFormatInfo_t452, ___percentSymbol_27), 0 } ,
@@ -6060,1906 +6060,1906 @@ static const Il2CppFieldDefinition s_FieldTable[2722] =
 	{ 522, 100, offsetof(NumberFormatInfo_t452, ___m_useUserOverride_33), 0 } ,
 	{ 656, 100, offsetof(NumberFormatInfo_t452, ___validForParseAsNumber_34), 0 } ,
 	{ 657, 100, offsetof(NumberFormatInfo_t452, ___validForParseAsCurrency_35), 0 } ,
-	{ 658, 582, offsetof(NumberFormatInfo_t452, ___nativeDigits_36), 0 } ,
+	{ 658, 587, offsetof(NumberFormatInfo_t452, ___nativeDigits_36), 0 } ,
 	{ 659, 110, offsetof(NumberFormatInfo_t452, ___digitSubstitution_37), 0 } ,
-	{ 660, 4948, offsetof(NumberFormatInfo_t452_StaticFields, ___invariantNativeDigits_38), 0 } ,
-	{ 177, 90, offsetof(NumberStyles_t4419, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9010, 0, 0 } ,
-	{ 605, 9010, 0, 0 } ,
-	{ 606, 9010, 0, 0 } ,
-	{ 661, 9010, 0, 0 } ,
-	{ 662, 9010, 0, 0 } ,
-	{ 663, 9010, 0, 0 } ,
-	{ 664, 9010, 0, 0 } ,
-	{ 665, 9010, 0, 0 } ,
-	{ 666, 9010, 0, 0 } ,
-	{ 667, 9010, 0, 0 } ,
-	{ 668, 9010, 0, 0 } ,
-	{ 669, 9010, 0, 0 } ,
-	{ 670, 9010, 0, 0 } ,
-	{ 671, 9010, 0, 0 } ,
-	{ 672, 9010, 0, 0 } ,
-	{ 673, 9010, 0, 0 } ,
-	{ 674, 9010, 0, 0 } ,
-	{ 675, 102, offsetof(Data_t4420, ___ansi_0) + sizeof(Object_t), 0 } ,
-	{ 676, 102, offsetof(Data_t4420, ___ebcdic_1) + sizeof(Object_t), 0 } ,
-	{ 677, 102, offsetof(Data_t4420, ___mac_2) + sizeof(Object_t), 0 } ,
-	{ 678, 102, offsetof(Data_t4420, ___oem_3) + sizeof(Object_t), 0 } ,
-	{ 679, 4628, offsetof(Data_t4420, ___list_sep_4) + sizeof(Object_t), 0 } ,
-	{ 493, 100, offsetof(TextInfo_t4324, ___m_isReadOnly_0), 0 } ,
-	{ 680, 99, offsetof(TextInfo_t4324, ___customCultureName_1), 0 } ,
-	{ 681, 110, offsetof(TextInfo_t4324, ___m_win32LangID_2), 0 } ,
-	{ 682, 9013, offsetof(TextInfo_t4324, ___ci_3), 0 } ,
-	{ 683, 9014, offsetof(TextInfo_t4324, ___handleDotI_4), 0 } ,
-	{ 52, 9015, offsetof(TextInfo_t4324, ___data_5), 0 } ,
-	{ 177, 90, offsetof(UnicodeCategory_t4276, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 684, 9017, 0, 0 } ,
-	{ 685, 9017, 0, 0 } ,
-	{ 686, 9017, 0, 0 } ,
-	{ 687, 9017, 0, 0 } ,
-	{ 688, 9017, 0, 0 } ,
-	{ 689, 9017, 0, 0 } ,
-	{ 690, 9017, 0, 0 } ,
-	{ 691, 9017, 0, 0 } ,
-	{ 692, 9017, 0, 0 } ,
-	{ 693, 9017, 0, 0 } ,
-	{ 694, 9017, 0, 0 } ,
-	{ 695, 9017, 0, 0 } ,
-	{ 696, 9017, 0, 0 } ,
-	{ 697, 9017, 0, 0 } ,
-	{ 698, 9017, 0, 0 } ,
-	{ 699, 9017, 0, 0 } ,
-	{ 700, 9017, 0, 0 } ,
-	{ 701, 9017, 0, 0 } ,
-	{ 702, 9017, 0, 0 } ,
-	{ 703, 9017, 0, 0 } ,
-	{ 704, 9017, 0, 0 } ,
-	{ 705, 9017, 0, 0 } ,
-	{ 706, 9017, 0, 0 } ,
-	{ 707, 9017, 0, 0 } ,
-	{ 708, 9017, 0, 0 } ,
-	{ 709, 9017, 0, 0 } ,
-	{ 710, 9017, 0, 0 } ,
-	{ 711, 9017, 0, 0 } ,
-	{ 712, 9017, 0, 0 } ,
-	{ 713, 9017, 0, 0 } ,
-	{ 714, 3703, offsetof(BinaryReader_t52, ___m_stream_0), 0 } ,
-	{ 715, 5693, offsetof(BinaryReader_t52, ___m_encoding_1), 0 } ,
-	{ 716, 833, offsetof(BinaryReader_t52, ___m_buffer_2), 0 } ,
-	{ 318, 5694, offsetof(BinaryReader_t52, ___decoder_3), 0 } ,
-	{ 717, 3527, offsetof(BinaryReader_t52, ___charBuffer_4), 0 } ,
+	{ 660, 4966, offsetof(NumberFormatInfo_t452_StaticFields, ___invariantNativeDigits_38), 0 } ,
+	{ 177, 90, offsetof(NumberStyles_t4427, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9028, 0, 0 } ,
+	{ 605, 9028, 0, 0 } ,
+	{ 606, 9028, 0, 0 } ,
+	{ 661, 9028, 0, 0 } ,
+	{ 662, 9028, 0, 0 } ,
+	{ 663, 9028, 0, 0 } ,
+	{ 664, 9028, 0, 0 } ,
+	{ 665, 9028, 0, 0 } ,
+	{ 666, 9028, 0, 0 } ,
+	{ 667, 9028, 0, 0 } ,
+	{ 668, 9028, 0, 0 } ,
+	{ 669, 9028, 0, 0 } ,
+	{ 670, 9028, 0, 0 } ,
+	{ 671, 9028, 0, 0 } ,
+	{ 672, 9028, 0, 0 } ,
+	{ 673, 9028, 0, 0 } ,
+	{ 674, 9028, 0, 0 } ,
+	{ 675, 102, offsetof(Data_t4428, ___ansi_0) + sizeof(Object_t), 0 } ,
+	{ 676, 102, offsetof(Data_t4428, ___ebcdic_1) + sizeof(Object_t), 0 } ,
+	{ 677, 102, offsetof(Data_t4428, ___mac_2) + sizeof(Object_t), 0 } ,
+	{ 678, 102, offsetof(Data_t4428, ___oem_3) + sizeof(Object_t), 0 } ,
+	{ 679, 4646, offsetof(Data_t4428, ___list_sep_4) + sizeof(Object_t), 0 } ,
+	{ 493, 100, offsetof(TextInfo_t4332, ___m_isReadOnly_0), 0 } ,
+	{ 680, 99, offsetof(TextInfo_t4332, ___customCultureName_1), 0 } ,
+	{ 681, 110, offsetof(TextInfo_t4332, ___m_win32LangID_2), 0 } ,
+	{ 682, 9031, offsetof(TextInfo_t4332, ___ci_3), 0 } ,
+	{ 683, 9032, offsetof(TextInfo_t4332, ___handleDotI_4), 0 } ,
+	{ 52, 9033, offsetof(TextInfo_t4332, ___data_5), 0 } ,
+	{ 177, 90, offsetof(UnicodeCategory_t4284, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 684, 9035, 0, 0 } ,
+	{ 685, 9035, 0, 0 } ,
+	{ 686, 9035, 0, 0 } ,
+	{ 687, 9035, 0, 0 } ,
+	{ 688, 9035, 0, 0 } ,
+	{ 689, 9035, 0, 0 } ,
+	{ 690, 9035, 0, 0 } ,
+	{ 691, 9035, 0, 0 } ,
+	{ 692, 9035, 0, 0 } ,
+	{ 693, 9035, 0, 0 } ,
+	{ 694, 9035, 0, 0 } ,
+	{ 695, 9035, 0, 0 } ,
+	{ 696, 9035, 0, 0 } ,
+	{ 697, 9035, 0, 0 } ,
+	{ 698, 9035, 0, 0 } ,
+	{ 699, 9035, 0, 0 } ,
+	{ 700, 9035, 0, 0 } ,
+	{ 701, 9035, 0, 0 } ,
+	{ 702, 9035, 0, 0 } ,
+	{ 703, 9035, 0, 0 } ,
+	{ 704, 9035, 0, 0 } ,
+	{ 705, 9035, 0, 0 } ,
+	{ 706, 9035, 0, 0 } ,
+	{ 707, 9035, 0, 0 } ,
+	{ 708, 9035, 0, 0 } ,
+	{ 709, 9035, 0, 0 } ,
+	{ 710, 9035, 0, 0 } ,
+	{ 711, 9035, 0, 0 } ,
+	{ 712, 9035, 0, 0 } ,
+	{ 713, 9035, 0, 0 } ,
+	{ 714, 3721, offsetof(BinaryReader_t52, ___m_stream_0), 0 } ,
+	{ 715, 5711, offsetof(BinaryReader_t52, ___m_encoding_1), 0 } ,
+	{ 716, 838, offsetof(BinaryReader_t52, ___m_buffer_2), 0 } ,
+	{ 318, 5712, offsetof(BinaryReader_t52, ___decoder_3), 0 } ,
+	{ 717, 3545, offsetof(BinaryReader_t52, ___charBuffer_4), 0 } ,
 	{ 233, 100, offsetof(BinaryReader_t52, ___m_disposed_5), 0 } ,
-	{ 718, 9021, offsetof(BinaryWriter_t50_StaticFields, ___Null_0), 0 } ,
-	{ 719, 6768, offsetof(BinaryWriter_t50, ___OutStream_1), 0 } ,
-	{ 715, 5693, offsetof(BinaryWriter_t50, ___m_encoding_2), 0 } ,
-	{ 368, 833, offsetof(BinaryWriter_t50, ___buffer_3), 0 } ,
+	{ 718, 9039, offsetof(BinaryWriter_t50_StaticFields, ___Null_0), 0 } ,
+	{ 719, 6786, offsetof(BinaryWriter_t50, ___OutStream_1), 0 } ,
+	{ 715, 5711, offsetof(BinaryWriter_t50, ___m_encoding_2), 0 } ,
+	{ 368, 838, offsetof(BinaryWriter_t50, ___buffer_3), 0 } ,
 	{ 720, 100, offsetof(BinaryWriter_t50, ___disposed_4), 0 } ,
-	{ 721, 833, offsetof(BinaryWriter_t50, ___stringBuffer_5), 0 } ,
+	{ 721, 838, offsetof(BinaryWriter_t50, ___stringBuffer_5), 0 } ,
 	{ 722, 110, offsetof(BinaryWriter_t50, ___maxCharsPerRound_6), 0 } ,
 	{ 359, 99, offsetof(DirectoryInfo_t64, ___current_5), 0 } ,
 	{ 723, 99, offsetof(DirectoryInfo_t64, ___parent_6), 0 } ,
-	{ 177, 90, offsetof(FileAccess_t4143, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 724, 9032, 0, 0 } ,
-	{ 725, 9032, 0, 0 } ,
-	{ 726, 9032, 0, 0 } ,
-	{ 177, 90, offsetof(FileAttributes_t4427, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 727, 9034, 0, 0 } ,
-	{ 728, 9034, 0, 0 } ,
-	{ 729, 9034, 0, 0 } ,
-	{ 730, 9034, 0, 0 } ,
-	{ 731, 9034, 0, 0 } ,
-	{ 732, 9034, 0, 0 } ,
-	{ 733, 9034, 0, 0 } ,
-	{ 734, 9034, 0, 0 } ,
-	{ 735, 9034, 0, 0 } ,
-	{ 736, 9034, 0, 0 } ,
-	{ 737, 9034, 0, 0 } ,
-	{ 738, 9034, 0, 0 } ,
-	{ 739, 9034, 0, 0 } ,
-	{ 740, 9034, 0, 0 } ,
+	{ 177, 90, offsetof(FileAccess_t4151, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 724, 9050, 0, 0 } ,
+	{ 725, 9050, 0, 0 } ,
+	{ 726, 9050, 0, 0 } ,
+	{ 177, 90, offsetof(FileAttributes_t4435, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 727, 9052, 0, 0 } ,
+	{ 728, 9052, 0, 0 } ,
+	{ 729, 9052, 0, 0 } ,
+	{ 730, 9052, 0, 0 } ,
+	{ 731, 9052, 0, 0 } ,
+	{ 732, 9052, 0, 0 } ,
+	{ 733, 9052, 0, 0 } ,
+	{ 734, 9052, 0, 0 } ,
+	{ 735, 9052, 0, 0 } ,
+	{ 736, 9052, 0, 0 } ,
+	{ 737, 9052, 0, 0 } ,
+	{ 738, 9052, 0, 0 } ,
+	{ 739, 9052, 0, 0 } ,
+	{ 740, 9052, 0, 0 } ,
 	{ 741, 100, offsetof(FileInfo_t63, ___exists_5), 0 } ,
-	{ 742, 99, offsetof(FileLoadException_t4428, ___msg_11), 0 } ,
-	{ 486, 99, offsetof(FileLoadException_t4428, ___fileName_12), 0 } ,
-	{ 743, 99, offsetof(FileLoadException_t4428, ___fusionLog_13), 0 } ,
-	{ 177, 90, offsetof(FileMode_t4268, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 744, 9038, 0, 0 } ,
-	{ 745, 9038, 0, 0 } ,
-	{ 746, 9038, 0, 0 } ,
-	{ 747, 9038, 0, 0 } ,
-	{ 748, 9038, 0, 0 } ,
-	{ 749, 9038, 0, 0 } ,
-	{ 486, 99, offsetof(FileNotFoundException_t4429, ___fileName_11), 0 } ,
-	{ 743, 99, offsetof(FileNotFoundException_t4429, ___fusionLog_12), 0 } ,
-	{ 177, 90, offsetof(FileOptions_t4430, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9041, 0, 0 } ,
-	{ 731, 9041, 0, 0 } ,
-	{ 750, 9041, 0, 0 } ,
-	{ 751, 9041, 0, 0 } ,
-	{ 752, 9041, 0, 0 } ,
-	{ 753, 9041, 0, 0 } ,
-	{ 754, 9041, 0, 0 } ,
-	{ 177, 90, offsetof(FileShare_t4269, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9044, 0, 0 } ,
-	{ 724, 9044, 0, 0 } ,
-	{ 725, 9044, 0, 0 } ,
-	{ 726, 9044, 0, 0 } ,
-	{ 755, 9044, 0, 0 } ,
-	{ 756, 9044, 0, 0 } ,
-	{ 757, 7296, offsetof(FileStream_t62, ___access_1), 0 } ,
+	{ 742, 99, offsetof(FileLoadException_t4436, ___msg_11), 0 } ,
+	{ 486, 99, offsetof(FileLoadException_t4436, ___fileName_12), 0 } ,
+	{ 743, 99, offsetof(FileLoadException_t4436, ___fusionLog_13), 0 } ,
+	{ 177, 90, offsetof(FileMode_t4276, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 744, 9056, 0, 0 } ,
+	{ 745, 9056, 0, 0 } ,
+	{ 746, 9056, 0, 0 } ,
+	{ 747, 9056, 0, 0 } ,
+	{ 748, 9056, 0, 0 } ,
+	{ 749, 9056, 0, 0 } ,
+	{ 486, 99, offsetof(FileNotFoundException_t4437, ___fileName_11), 0 } ,
+	{ 743, 99, offsetof(FileNotFoundException_t4437, ___fusionLog_12), 0 } ,
+	{ 177, 90, offsetof(FileOptions_t4438, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9059, 0, 0 } ,
+	{ 731, 9059, 0, 0 } ,
+	{ 750, 9059, 0, 0 } ,
+	{ 751, 9059, 0, 0 } ,
+	{ 752, 9059, 0, 0 } ,
+	{ 753, 9059, 0, 0 } ,
+	{ 754, 9059, 0, 0 } ,
+	{ 177, 90, offsetof(FileShare_t4277, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9062, 0, 0 } ,
+	{ 724, 9062, 0, 0 } ,
+	{ 725, 9062, 0, 0 } ,
+	{ 726, 9062, 0, 0 } ,
+	{ 755, 9062, 0, 0 } ,
+	{ 756, 9062, 0, 0 } ,
+	{ 757, 7314, offsetof(FileStream_t62, ___access_1), 0 } ,
 	{ 758, 100, offsetof(FileStream_t62, ___owner_2), 0 } ,
 	{ 759, 100, offsetof(FileStream_t62, ___async_3), 0 } ,
 	{ 760, 100, offsetof(FileStream_t62, ___canseek_4), 0 } ,
 	{ 761, 116, offsetof(FileStream_t62, ___append_startpos_5), 0 } ,
 	{ 762, 100, offsetof(FileStream_t62, ___anonymous_6), 0 } ,
-	{ 763, 833, offsetof(FileStream_t62, ___buf_7), 0 } ,
+	{ 763, 838, offsetof(FileStream_t62, ___buf_7), 0 } ,
 	{ 764, 110, offsetof(FileStream_t62, ___buf_size_8), 0 } ,
 	{ 765, 110, offsetof(FileStream_t62, ___buf_length_9), 0 } ,
 	{ 766, 110, offsetof(FileStream_t62, ___buf_offset_10), 0 } ,
 	{ 767, 100, offsetof(FileStream_t62, ___buf_dirty_11), 0 } ,
 	{ 768, 116, offsetof(FileStream_t62, ___buf_start_12), 0 } ,
 	{ 480, 99, offsetof(FileStream_t62, ___name_13), 0 } ,
-	{ 769, 4514, offsetof(FileStream_t62, ___handle_14), 0 } ,
-	{ 476, 612, offsetof(FileStreamAsyncResult_t4433, ___state_0), 0 } ,
-	{ 770, 100, offsetof(FileStreamAsyncResult_t4433, ___completed_1), 0 } ,
-	{ 771, 6763, offsetof(FileStreamAsyncResult_t4433, ___wh_2), 0 } ,
-	{ 772, 6762, offsetof(FileStreamAsyncResult_t4433, ___cb_3), 0 } ,
-	{ 121, 102, offsetof(FileStreamAsyncResult_t4433, ___Count_4), 0 } ,
-	{ 773, 102, offsetof(FileStreamAsyncResult_t4433, ___OriginalCount_5), 0 } ,
-	{ 774, 102, offsetof(FileStreamAsyncResult_t4433, ___BytesRead_6), 0 } ,
-	{ 775, 6762, offsetof(FileStreamAsyncResult_t4433, ___realcb_7), 0 } ,
-	{ 776, 567, offsetof(FileSystemInfo_t4423, ___FullPath_1), 0 } ,
-	{ 777, 567, offsetof(FileSystemInfo_t4423, ___OriginalPath_2), 0 } ,
-	{ 778, 9050, offsetof(FileSystemInfo_t4423, ___stat_3), 0 } ,
-	{ 779, 2066, offsetof(FileSystemInfo_t4423, ___valid_4), 0 } ,
+	{ 769, 4532, offsetof(FileStream_t62, ___handle_14), 0 } ,
+	{ 476, 617, offsetof(FileStreamAsyncResult_t4441, ___state_0), 0 } ,
+	{ 770, 100, offsetof(FileStreamAsyncResult_t4441, ___completed_1), 0 } ,
+	{ 771, 6781, offsetof(FileStreamAsyncResult_t4441, ___wh_2), 0 } ,
+	{ 772, 6780, offsetof(FileStreamAsyncResult_t4441, ___cb_3), 0 } ,
+	{ 121, 102, offsetof(FileStreamAsyncResult_t4441, ___Count_4), 0 } ,
+	{ 773, 102, offsetof(FileStreamAsyncResult_t4441, ___OriginalCount_5), 0 } ,
+	{ 774, 102, offsetof(FileStreamAsyncResult_t4441, ___BytesRead_6), 0 } ,
+	{ 775, 6780, offsetof(FileStreamAsyncResult_t4441, ___realcb_7), 0 } ,
+	{ 776, 572, offsetof(FileSystemInfo_t4431, ___FullPath_1), 0 } ,
+	{ 777, 572, offsetof(FileSystemInfo_t4431, ___OriginalPath_2), 0 } ,
+	{ 778, 9068, offsetof(FileSystemInfo_t4431, ___stat_3), 0 } ,
+	{ 779, 2084, offsetof(FileSystemInfo_t4431, ___valid_4), 0 } ,
 	{ 780, 100, offsetof(MemoryStream_t65, ___canWrite_1), 0 } ,
 	{ 781, 100, offsetof(MemoryStream_t65, ___allowGetBuffer_2), 0 } ,
 	{ 461, 110, offsetof(MemoryStream_t65, ___capacity_3), 0 } ,
 	{ 15, 110, offsetof(MemoryStream_t65, ___length_4), 0 } ,
-	{ 782, 833, offsetof(MemoryStream_t65, ___internalBuffer_5), 0 } ,
+	{ 782, 838, offsetof(MemoryStream_t65, ___internalBuffer_5), 0 } ,
 	{ 783, 110, offsetof(MemoryStream_t65, ___initialIndex_6), 0 } ,
 	{ 784, 100, offsetof(MemoryStream_t65, ___expandable_7), 0 } ,
 	{ 785, 100, offsetof(MemoryStream_t65, ___streamClosed_8), 0 } ,
 	{ 786, 110, offsetof(MemoryStream_t65, ___position_9), 0 } ,
 	{ 787, 110, offsetof(MemoryStream_t65, ___dirty_bytes_10), 0 } ,
-	{ 177, 90, offsetof(MonoFileType_t4435, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 788, 9054, 0, 0 } ,
-	{ 789, 9054, 0, 0 } ,
-	{ 790, 9054, 0, 0 } ,
-	{ 791, 9054, 0, 0 } ,
-	{ 792, 9054, 0, 0 } ,
-	{ 793, 9060, offsetof(MonoIO_t4436_StaticFields, ___InvalidFileAttributes_0), 0 } ,
-	{ 794, 8309, offsetof(MonoIO_t4436_StaticFields, ___InvalidHandle_1), 0 } ,
-	{ 177, 90, offsetof(MonoIOError_t4437, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 795, 9062, 0, 0 } ,
-	{ 796, 9062, 0, 0 } ,
-	{ 797, 9062, 0, 0 } ,
-	{ 798, 9062, 0, 0 } ,
-	{ 799, 9062, 0, 0 } ,
-	{ 800, 9062, 0, 0 } ,
-	{ 801, 9062, 0, 0 } ,
-	{ 802, 9062, 0, 0 } ,
-	{ 803, 9062, 0, 0 } ,
-	{ 804, 9062, 0, 0 } ,
-	{ 805, 9062, 0, 0 } ,
-	{ 806, 9062, 0, 0 } ,
-	{ 807, 9062, 0, 0 } ,
-	{ 808, 9062, 0, 0 } ,
-	{ 809, 9062, 0, 0 } ,
-	{ 810, 9062, 0, 0 } ,
-	{ 811, 9062, 0, 0 } ,
-	{ 812, 9062, 0, 0 } ,
-	{ 813, 9062, 0, 0 } ,
-	{ 814, 9062, 0, 0 } ,
-	{ 815, 9062, 0, 0 } ,
-	{ 816, 9062, 0, 0 } ,
-	{ 817, 9062, 0, 0 } ,
-	{ 818, 9062, 0, 0 } ,
-	{ 819, 101, offsetof(MonoIOStat_t4434, ___Name_0) + sizeof(Object_t), 0 } ,
-	{ 820, 9064, offsetof(MonoIOStat_t4434, ___Attributes_1) + sizeof(Object_t), 0 } ,
-	{ 821, 813, offsetof(MonoIOStat_t4434, ___Length_2) + sizeof(Object_t), 0 } ,
-	{ 822, 813, offsetof(MonoIOStat_t4434, ___CreationTime_3) + sizeof(Object_t), 0 } ,
-	{ 823, 813, offsetof(MonoIOStat_t4434, ___LastAccessTime_4) + sizeof(Object_t), 0 } ,
-	{ 824, 813, offsetof(MonoIOStat_t4434, ___LastWriteTime_5) + sizeof(Object_t), 0 } ,
-	{ 825, 5662, offsetof(Path_t2083_StaticFields, ___InvalidPathChars_0), 361 } ,
-	{ 826, 8504, offsetof(Path_t2083_StaticFields, ___AltDirectorySeparatorChar_1), 0 } ,
-	{ 827, 8504, offsetof(Path_t2083_StaticFields, ___DirectorySeparatorChar_2), 0 } ,
-	{ 828, 8504, offsetof(Path_t2083_StaticFields, ___PathSeparator_3), 0 } ,
-	{ 829, 3623, offsetof(Path_t2083_StaticFields, ___DirectorySeparatorStr_4), 0 } ,
-	{ 830, 8504, offsetof(Path_t2083_StaticFields, ___VolumeSeparatorChar_5), 0 } ,
-	{ 831, 9066, offsetof(Path_t2083_StaticFields, ___PathSeparatorChars_6), 0 } ,
-	{ 832, 6425, offsetof(Path_t2083_StaticFields, ___dirEqualsVolume_7), 0 } ,
-	{ 833, 9066, offsetof(SearchPattern_t4439_StaticFields, ___WildcardChars_0), 0 } ,
-	{ 834, 9066, offsetof(SearchPattern_t4439_StaticFields, ___InvalidChars_1), 0 } ,
-	{ 177, 90, offsetof(SeekOrigin_t3257, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 835, 9070, 0, 0 } ,
-	{ 836, 9070, 0, 0 } ,
-	{ 120, 9070, 0, 0 } ,
-	{ 718, 9072, offsetof(Stream_t51_StaticFields, ___Null_0), 0 } ,
-	{ 476, 612, offsetof(StreamAsyncResult_t4441, ___state_0), 0 } ,
-	{ 770, 100, offsetof(StreamAsyncResult_t4441, ___completed_1), 0 } ,
-	{ 837, 100, offsetof(StreamAsyncResult_t4441, ___done_2), 0 } ,
-	{ 838, 3294, offsetof(StreamAsyncResult_t4441, ___exc_3), 0 } ,
-	{ 839, 110, offsetof(StreamAsyncResult_t4441, ___nbytes_4), 0 } ,
-	{ 771, 6763, offsetof(StreamAsyncResult_t4441, ___wh_5), 0 } ,
-	{ 840, 833, offsetof(StreamReader_t1098, ___input_buffer_1), 0 } ,
-	{ 841, 3527, offsetof(StreamReader_t1098, ___decoded_buffer_2), 0 } ,
-	{ 842, 110, offsetof(StreamReader_t1098, ___decoded_count_3), 0 } ,
-	{ 433, 110, offsetof(StreamReader_t1098, ___pos_4), 0 } ,
-	{ 843, 110, offsetof(StreamReader_t1098, ___buffer_size_5), 0 } ,
-	{ 844, 110, offsetof(StreamReader_t1098, ___do_checks_6), 0 } ,
-	{ 845, 5693, offsetof(StreamReader_t1098, ___encoding_7), 0 } ,
-	{ 318, 5694, offsetof(StreamReader_t1098, ___decoder_8), 0 } ,
-	{ 846, 3703, offsetof(StreamReader_t1098, ___base_stream_9), 0 } ,
-	{ 847, 100, offsetof(StreamReader_t1098, ___mayBlock_10), 0 } ,
-	{ 848, 913, offsetof(StreamReader_t1098, ___line_builder_11), 0 } ,
-	{ 718, 9076, offsetof(StreamReader_t1098_StaticFields, ___Null_12), 0 } ,
-	{ 849, 100, offsetof(StreamReader_t1098, ___foundCR_13), 0 } ,
-	{ 850, 5693, offsetof(StreamWriter_t1487, ___internalEncoding_3), 0 } ,
-	{ 851, 3703, offsetof(StreamWriter_t1487, ___internalStream_4), 0 } ,
-	{ 852, 100, offsetof(StreamWriter_t1487, ___iflush_5), 0 } ,
-	{ 853, 833, offsetof(StreamWriter_t1487, ___byte_buf_6), 0 } ,
-	{ 854, 110, offsetof(StreamWriter_t1487, ___byte_pos_7), 0 } ,
-	{ 855, 3527, offsetof(StreamWriter_t1487, ___decode_buf_8), 0 } ,
-	{ 856, 110, offsetof(StreamWriter_t1487, ___decode_pos_9), 0 } ,
-	{ 857, 100, offsetof(StreamWriter_t1487, ___DisposedAlready_10), 0 } ,
-	{ 858, 100, offsetof(StreamWriter_t1487, ___preamble_done_11), 0 } ,
-	{ 718, 9078, offsetof(StreamWriter_t1487_StaticFields, ___Null_12), 0 } ,
+	{ 177, 90, offsetof(MonoFileType_t4443, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 788, 9072, 0, 0 } ,
+	{ 789, 9072, 0, 0 } ,
+	{ 790, 9072, 0, 0 } ,
+	{ 791, 9072, 0, 0 } ,
+	{ 792, 9072, 0, 0 } ,
+	{ 793, 9078, offsetof(MonoIO_t4444_StaticFields, ___InvalidFileAttributes_0), 0 } ,
+	{ 794, 8327, offsetof(MonoIO_t4444_StaticFields, ___InvalidHandle_1), 0 } ,
+	{ 177, 90, offsetof(MonoIOError_t4445, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 795, 9080, 0, 0 } ,
+	{ 796, 9080, 0, 0 } ,
+	{ 797, 9080, 0, 0 } ,
+	{ 798, 9080, 0, 0 } ,
+	{ 799, 9080, 0, 0 } ,
+	{ 800, 9080, 0, 0 } ,
+	{ 801, 9080, 0, 0 } ,
+	{ 802, 9080, 0, 0 } ,
+	{ 803, 9080, 0, 0 } ,
+	{ 804, 9080, 0, 0 } ,
+	{ 805, 9080, 0, 0 } ,
+	{ 806, 9080, 0, 0 } ,
+	{ 807, 9080, 0, 0 } ,
+	{ 808, 9080, 0, 0 } ,
+	{ 809, 9080, 0, 0 } ,
+	{ 810, 9080, 0, 0 } ,
+	{ 811, 9080, 0, 0 } ,
+	{ 812, 9080, 0, 0 } ,
+	{ 813, 9080, 0, 0 } ,
+	{ 814, 9080, 0, 0 } ,
+	{ 815, 9080, 0, 0 } ,
+	{ 816, 9080, 0, 0 } ,
+	{ 817, 9080, 0, 0 } ,
+	{ 818, 9080, 0, 0 } ,
+	{ 819, 101, offsetof(MonoIOStat_t4442, ___Name_0) + sizeof(Object_t), 0 } ,
+	{ 820, 9082, offsetof(MonoIOStat_t4442, ___Attributes_1) + sizeof(Object_t), 0 } ,
+	{ 821, 818, offsetof(MonoIOStat_t4442, ___Length_2) + sizeof(Object_t), 0 } ,
+	{ 822, 818, offsetof(MonoIOStat_t4442, ___CreationTime_3) + sizeof(Object_t), 0 } ,
+	{ 823, 818, offsetof(MonoIOStat_t4442, ___LastAccessTime_4) + sizeof(Object_t), 0 } ,
+	{ 824, 818, offsetof(MonoIOStat_t4442, ___LastWriteTime_5) + sizeof(Object_t), 0 } ,
+	{ 825, 5680, offsetof(Path_t2090_StaticFields, ___InvalidPathChars_0), 361 } ,
+	{ 826, 8522, offsetof(Path_t2090_StaticFields, ___AltDirectorySeparatorChar_1), 0 } ,
+	{ 827, 8522, offsetof(Path_t2090_StaticFields, ___DirectorySeparatorChar_2), 0 } ,
+	{ 828, 8522, offsetof(Path_t2090_StaticFields, ___PathSeparator_3), 0 } ,
+	{ 829, 3641, offsetof(Path_t2090_StaticFields, ___DirectorySeparatorStr_4), 0 } ,
+	{ 830, 8522, offsetof(Path_t2090_StaticFields, ___VolumeSeparatorChar_5), 0 } ,
+	{ 831, 9084, offsetof(Path_t2090_StaticFields, ___PathSeparatorChars_6), 0 } ,
+	{ 832, 6443, offsetof(Path_t2090_StaticFields, ___dirEqualsVolume_7), 0 } ,
+	{ 833, 9084, offsetof(SearchPattern_t4447_StaticFields, ___WildcardChars_0), 0 } ,
+	{ 834, 9084, offsetof(SearchPattern_t4447_StaticFields, ___InvalidChars_1), 0 } ,
+	{ 177, 90, offsetof(SeekOrigin_t3265, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 835, 9088, 0, 0 } ,
+	{ 836, 9088, 0, 0 } ,
+	{ 120, 9088, 0, 0 } ,
+	{ 718, 9090, offsetof(Stream_t51_StaticFields, ___Null_0), 0 } ,
+	{ 476, 617, offsetof(StreamAsyncResult_t4449, ___state_0), 0 } ,
+	{ 770, 100, offsetof(StreamAsyncResult_t4449, ___completed_1), 0 } ,
+	{ 837, 100, offsetof(StreamAsyncResult_t4449, ___done_2), 0 } ,
+	{ 838, 3312, offsetof(StreamAsyncResult_t4449, ___exc_3), 0 } ,
+	{ 839, 110, offsetof(StreamAsyncResult_t4449, ___nbytes_4), 0 } ,
+	{ 771, 6781, offsetof(StreamAsyncResult_t4449, ___wh_5), 0 } ,
+	{ 840, 838, offsetof(StreamReader_t1105, ___input_buffer_1), 0 } ,
+	{ 841, 3545, offsetof(StreamReader_t1105, ___decoded_buffer_2), 0 } ,
+	{ 842, 110, offsetof(StreamReader_t1105, ___decoded_count_3), 0 } ,
+	{ 433, 110, offsetof(StreamReader_t1105, ___pos_4), 0 } ,
+	{ 843, 110, offsetof(StreamReader_t1105, ___buffer_size_5), 0 } ,
+	{ 844, 110, offsetof(StreamReader_t1105, ___do_checks_6), 0 } ,
+	{ 845, 5711, offsetof(StreamReader_t1105, ___encoding_7), 0 } ,
+	{ 318, 5712, offsetof(StreamReader_t1105, ___decoder_8), 0 } ,
+	{ 846, 3721, offsetof(StreamReader_t1105, ___base_stream_9), 0 } ,
+	{ 847, 100, offsetof(StreamReader_t1105, ___mayBlock_10), 0 } ,
+	{ 848, 918, offsetof(StreamReader_t1105, ___line_builder_11), 0 } ,
+	{ 718, 9094, offsetof(StreamReader_t1105_StaticFields, ___Null_12), 0 } ,
+	{ 849, 100, offsetof(StreamReader_t1105, ___foundCR_13), 0 } ,
+	{ 850, 5711, offsetof(StreamWriter_t1494, ___internalEncoding_3), 0 } ,
+	{ 851, 3721, offsetof(StreamWriter_t1494, ___internalStream_4), 0 } ,
+	{ 852, 100, offsetof(StreamWriter_t1494, ___iflush_5), 0 } ,
+	{ 853, 838, offsetof(StreamWriter_t1494, ___byte_buf_6), 0 } ,
+	{ 854, 110, offsetof(StreamWriter_t1494, ___byte_pos_7), 0 } ,
+	{ 855, 3545, offsetof(StreamWriter_t1494, ___decode_buf_8), 0 } ,
+	{ 856, 110, offsetof(StreamWriter_t1494, ___decode_pos_9), 0 } ,
+	{ 857, 100, offsetof(StreamWriter_t1494, ___DisposedAlready_10), 0 } ,
+	{ 858, 100, offsetof(StreamWriter_t1494, ___preamble_done_11), 0 } ,
+	{ 718, 9096, offsetof(StreamWriter_t1494_StaticFields, ___Null_12), 0 } ,
 	{ 79, 99, offsetof(StringReader_t259, ___source_1), 0 } ,
 	{ 859, 110, offsetof(StringReader_t259, ___nextChar_2), 0 } ,
 	{ 860, 110, offsetof(StringReader_t259, ___sourceLength_3), 0 } ,
-	{ 861, 913, offsetof(StringWriter_t3220, ___internalString_3), 0 } ,
-	{ 720, 100, offsetof(StringWriter_t3220, ___disposed_4), 0 } ,
-	{ 718, 9083, offsetof(TextReader_t3177_StaticFields, ___Null_0), 0 } ,
-	{ 364, 5777, offsetof(SynchronizedReader_t4444, ___reader_1), 0 } ,
-	{ 862, 9087, offsetof(TextWriter_t3219, ___CoreNewLine_0), 0 } ,
-	{ 863, 9088, offsetof(TextWriter_t3219, ___internalFormatProvider_1), 0 } ,
-	{ 718, 9089, offsetof(TextWriter_t3219_StaticFields, ___Null_2), 0 } ,
-	{ 864, 5798, offsetof(SynchronizedWriter_t4447, ___writer_3), 0 } ,
-	{ 865, 100, offsetof(SynchronizedWriter_t4447, ___neverClose_4), 0 } ,
-	{ 866, 7511, offsetof(UnexceptionalStreamReader_t4448_StaticFields, ___newline_14), 0 } ,
-	{ 867, 9092, offsetof(UnexceptionalStreamReader_t4448_StaticFields, ___newlineChar_15), 0 } ,
-	{ 868, 9095, offsetof(AssemblyBuilder_t4451, ___modules_10), 0 } ,
-	{ 869, 4459, offsetof(AssemblyBuilder_t4451, ___corlib_value_type_11), 0 } ,
-	{ 870, 4459, offsetof(AssemblyBuilder_t4451, ___corlib_enum_type_12), 0 } ,
-	{ 871, 9096, offsetof(AssemblyBuilder_t4451, ___sn_13), 0 } ,
-	{ 872, 5072, offsetof(AssemblyBuilder_t4451, ___is_compiler_context_14), 0 } ,
-	{ 873, 9099, offsetof(ConstructorBuilder_t4454, ___parameters_2), 0 } ,
-	{ 874, 9100, offsetof(ConstructorBuilder_t4454, ___attrs_3), 0 } ,
-	{ 875, 9101, offsetof(ConstructorBuilder_t4454, ___call_conv_4), 0 } ,
-	{ 111, 9102, offsetof(ConstructorBuilder_t4454, ___type_5), 0 } ,
-	{ 876, 9103, offsetof(ConstructorBuilder_t4454, ___pinfo_6), 0 } ,
-	{ 877, 9102, offsetof(EnumBuilder_t4455, ____tb_8), 0 } ,
-	{ 878, 5560, offsetof(EnumBuilder_t4455, ____underlyingType_9), 0 } ,
-	{ 874, 9108, offsetof(FieldBuilder_t4457, ___attrs_0), 0 } ,
-	{ 111, 5560, offsetof(FieldBuilder_t4457, ___type_1), 0 } ,
-	{ 480, 99, offsetof(FieldBuilder_t4457, ___name_2), 0 } ,
-	{ 879, 9109, offsetof(FieldBuilder_t4457, ___typeb_3), 0 } ,
-	{ 880, 9110, offsetof(FieldBuilder_t4457, ___marshal_info_4), 0 } ,
-	{ 881, 9102, offsetof(GenericTypeParameterBuilder_t4459, ___tbuilder_8), 0 } ,
-	{ 882, 9112, offsetof(GenericTypeParameterBuilder_t4459, ___mbuilder_9), 0 } ,
-	{ 480, 99, offsetof(GenericTypeParameterBuilder_t4459, ___name_10), 0 } ,
-	{ 883, 5560, offsetof(GenericTypeParameterBuilder_t4459, ___base_type_11), 0 } ,
-	{ 884, 5560, offsetof(MethodBuilder_t4458, ___rtype_0), 0 } ,
-	{ 873, 9099, offsetof(MethodBuilder_t4458, ___parameters_1), 0 } ,
-	{ 874, 9100, offsetof(MethodBuilder_t4458, ___attrs_2), 0 } ,
-	{ 480, 99, offsetof(MethodBuilder_t4458, ___name_3), 0 } ,
-	{ 111, 9102, offsetof(MethodBuilder_t4458, ___type_4), 0 } ,
-	{ 876, 9103, offsetof(MethodBuilder_t4458, ___pinfo_5), 0 } ,
-	{ 875, 9101, offsetof(MethodBuilder_t4458, ___call_conv_6), 0 } ,
-	{ 885, 9115, offsetof(MethodBuilder_t4458, ___generic_params_7), 0 } ,
-	{ 886, 9117, offsetof(ModuleBuilder_t4461, ___assemblyb_10), 0 } ,
-	{ 887, 2076, offsetof(ModuleBuilder_t4461_StaticFields, ___type_modifiers_11), 0 } ,
-	{ 480, 99, offsetof(ParameterBuilder_t4463, ___name_0), 0 } ,
-	{ 874, 9119, offsetof(ParameterBuilder_t4463, ___attrs_1), 0 } ,
-	{ 786, 110, offsetof(ParameterBuilder_t4463, ___position_2), 0 } ,
-	{ 874, 9122, offsetof(PropertyBuilder_t4464, ___attrs_0), 0 } ,
-	{ 480, 99, offsetof(PropertyBuilder_t4464, ___name_1), 0 } ,
-	{ 111, 5560, offsetof(PropertyBuilder_t4464, ___type_2), 0 } ,
-	{ 888, 9112, offsetof(PropertyBuilder_t4464, ___set_method_3), 0 } ,
-	{ 889, 9112, offsetof(PropertyBuilder_t4464, ___get_method_4), 0 } ,
-	{ 879, 9109, offsetof(PropertyBuilder_t4464, ___typeb_5), 0 } ,
-	{ 890, 99, offsetof(TypeBuilder_t4452, ___tname_8), 0 } ,
-	{ 891, 99, offsetof(TypeBuilder_t4452, ___nspace_9), 0 } ,
-	{ 723, 5560, offsetof(TypeBuilder_t4452, ___parent_10), 0 } ,
-	{ 892, 5560, offsetof(TypeBuilder_t4452, ___nesting_type_11), 0 } ,
-	{ 893, 9099, offsetof(TypeBuilder_t4452, ___interfaces_12), 0 } ,
-	{ 894, 9124, offsetof(TypeBuilder_t4452, ___methods_13), 0 } ,
-	{ 895, 9125, offsetof(TypeBuilder_t4452, ___ctors_14), 0 } ,
-	{ 896, 9126, offsetof(TypeBuilder_t4452, ___properties_15), 0 } ,
-	{ 897, 9127, offsetof(TypeBuilder_t4452, ___fields_16), 0 } ,
-	{ 874, 9128, offsetof(TypeBuilder_t4452, ___attrs_17), 0 } ,
-	{ 898, 9129, offsetof(TypeBuilder_t4452, ___pmodule_18), 0 } ,
-	{ 885, 9130, offsetof(TypeBuilder_t4452, ___generic_params_19), 0 } ,
-	{ 899, 5560, offsetof(TypeBuilder_t4452, ___created_20), 0 } ,
-	{ 900, 99, offsetof(TypeBuilder_t4452, ___fullname_21), 0 } ,
-	{ 901, 5560, offsetof(TypeBuilder_t4452, ___underlying_type_22), 0 } ,
-	{ 393, 110, offsetof(UnmanagedMarshal_t4456, ___count_0), 0 } ,
-	{ 902, 8527, offsetof(UnmanagedMarshal_t4456, ___t_1), 0 } ,
-	{ 903, 8527, offsetof(UnmanagedMarshal_t4456, ___tbase_2), 0 } ,
-	{ 904, 99, offsetof(UnmanagedMarshal_t4456, ___guid_3), 0 } ,
-	{ 905, 99, offsetof(UnmanagedMarshal_t4456, ___mcookie_4), 0 } ,
-	{ 906, 99, offsetof(UnmanagedMarshal_t4456, ___marshaltype_5), 0 } ,
-	{ 907, 5560, offsetof(UnmanagedMarshal_t4456, ___marshaltyperef_6), 0 } ,
-	{ 908, 110, offsetof(UnmanagedMarshal_t4456, ___param_num_7), 0 } ,
-	{ 909, 100, offsetof(UnmanagedMarshal_t4456, ___has_size_8), 0 } ,
-	{ 910, 4514, offsetof(Assembly_t711, ____mono_assembly_0), 0 } ,
-	{ 911, 9136, offsetof(Assembly_t711, ___resolve_event_holder_1), 0 } ,
-	{ 912, 9137, offsetof(Assembly_t711, ____evidence_2), 0 } ,
-	{ 913, 9138, offsetof(Assembly_t711, ____minimum_3), 0 } ,
-	{ 914, 9138, offsetof(Assembly_t711, ____optional_4), 0 } ,
-	{ 915, 9138, offsetof(Assembly_t711, ____refuse_5), 0 } ,
-	{ 916, 9139, offsetof(Assembly_t711, ____granted_6), 0 } ,
-	{ 917, 9139, offsetof(Assembly_t711, ____denied_7), 0 } ,
-	{ 918, 100, offsetof(Assembly_t711, ___fromByteArray_8), 0 } ,
-	{ 102, 99, offsetof(Assembly_t711, ___assemblyName_9), 0 } ,
-	{ 480, 99, offsetof(AssemblyCompanyAttribute_t1030, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyConfigurationAttribute_t1029, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyCopyrightAttribute_t1032, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyDefaultAliasAttribute_t3248, ___name_0), 0 } ,
-	{ 919, 100, offsetof(AssemblyDelaySignAttribute_t3250, ___delay_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyDescriptionAttribute_t1028, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyFileVersionAttribute_t1035, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyInformationalVersionAttribute_t3246, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyKeyFileAttribute_t3251, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyName_t1405, ___name_0), 0 } ,
-	{ 920, 99, offsetof(AssemblyName_t1405, ___codebase_1), 0 } ,
-	{ 921, 110, offsetof(AssemblyName_t1405, ___major_2), 0 } ,
-	{ 922, 110, offsetof(AssemblyName_t1405, ___minor_3), 0 } ,
-	{ 923, 110, offsetof(AssemblyName_t1405, ___build_4), 0 } ,
-	{ 924, 110, offsetof(AssemblyName_t1405, ___revision_5), 0 } ,
-	{ 925, 8901, offsetof(AssemblyName_t1405, ___cultureinfo_6), 0 } ,
-	{ 34, 9150, offsetof(AssemblyName_t1405, ___flags_7), 0 } ,
-	{ 926, 9151, offsetof(AssemblyName_t1405, ___hashalg_8), 0 } ,
-	{ 927, 9152, offsetof(AssemblyName_t1405, ___keypair_9), 0 } ,
-	{ 353, 833, offsetof(AssemblyName_t1405, ___publicKey_10), 0 } ,
-	{ 354, 833, offsetof(AssemblyName_t1405, ___keyToken_11), 0 } ,
-	{ 928, 9153, offsetof(AssemblyName_t1405, ___versioncompat_12), 0 } ,
-	{ 333, 7438, offsetof(AssemblyName_t1405, ___version_13), 0 } ,
-	{ 929, 9154, offsetof(AssemblyName_t1405, ___processor_architecture_14), 0 } ,
-	{ 177, 90, offsetof(AssemblyNameFlags_t4474, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9156, 0, 0 } ,
-	{ 930, 9156, 0, 0 } ,
-	{ 931, 9156, 0, 0 } ,
-	{ 932, 9156, 0, 0 } ,
-	{ 933, 9156, 0, 0 } ,
-	{ 480, 99, offsetof(AssemblyProductAttribute_t1031, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyTitleAttribute_t1034, ___name_0), 0 } ,
-	{ 480, 99, offsetof(AssemblyTrademarkAttribute_t1036, ___name_0), 0 } ,
-	{ 934, 9163, offsetof(Binder_t2894_StaticFields, ___default_binder_0), 0 } ,
-	{ 177, 90, offsetof(BindingFlags_t4476, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 424, 9165, 0, 0 } ,
-	{ 502, 9165, 0, 0 } ,
-	{ 935, 9165, 0, 0 } ,
-	{ 135, 9165, 0, 0 } ,
-	{ 936, 9165, 0, 0 } ,
-	{ 937, 9165, 0, 0 } ,
-	{ 938, 9165, 0, 0 } ,
-	{ 939, 9165, 0, 0 } ,
-	{ 940, 9165, 0, 0 } ,
-	{ 941, 9165, 0, 0 } ,
-	{ 942, 9165, 0, 0 } ,
-	{ 943, 9165, 0, 0 } ,
-	{ 944, 9165, 0, 0 } ,
-	{ 945, 9165, 0, 0 } ,
-	{ 946, 9165, 0, 0 } ,
-	{ 947, 9165, 0, 0 } ,
-	{ 948, 9165, 0, 0 } ,
-	{ 949, 9165, 0, 0 } ,
-	{ 950, 9165, 0, 0 } ,
-	{ 951, 9165, 0, 0 } ,
-	{ 177, 90, offsetof(CallingConventions_t4477, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 952, 9167, 0, 0 } ,
-	{ 953, 9167, 0, 0 } ,
-	{ 674, 9167, 0, 0 } ,
-	{ 954, 9167, 0, 0 } ,
-	{ 955, 9167, 0, 0 } ,
-	{ 956, 106, offsetof(ConstructorInfo_t1321_StaticFields, ___ConstructorName_0), 421 } ,
-	{ 957, 106, offsetof(ConstructorInfo_t1321_StaticFields, ___TypeConstructorName_1), 422 } ,
-	{ 177, 90, offsetof(EventAttributes_t4478, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9170, 0, 0 } ,
-	{ 958, 9170, 0, 0 } ,
-	{ 959, 9170, 0, 0 } ,
-	{ 960, 9170, 0, 0 } ,
-	{ 961, 9175, offsetof(EventInfo_t, ___cached_add_event_0), 0 } ,
-	{ 177, 90, offsetof(FieldAttributes_t4480, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 962, 9177, 0, 0 } ,
-	{ 963, 9177, 0, 0 } ,
-	{ 964, 9177, 0, 0 } ,
-	{ 965, 9177, 0, 0 } ,
-	{ 966, 9177, 0, 0 } ,
-	{ 967, 9177, 0, 0 } ,
-	{ 968, 9177, 0, 0 } ,
-	{ 937, 9177, 0, 0 } ,
-	{ 936, 9177, 0, 0 } ,
-	{ 969, 9177, 0, 0 } ,
-	{ 970, 9177, 0, 0 } ,
-	{ 971, 9177, 0, 0 } ,
-	{ 972, 9177, 0, 0 } ,
-	{ 958, 9177, 0, 0 } ,
-	{ 960, 9177, 0, 0 } ,
-	{ 973, 9177, 0, 0 } ,
-	{ 974, 9177, 0, 0 } ,
-	{ 975, 9177, 0, 0 } ,
-	{ 959, 9177, 0, 0 } ,
-	{ 976, 71, offsetof(MemberInfoSerializationHolder_t4481, ____memberName_0), 0 } ,
-	{ 977, 71, offsetof(MemberInfoSerializationHolder_t4481, ____memberSignature_1), 0 } ,
-	{ 978, 9180, offsetof(MemberInfoSerializationHolder_t4481, ____memberType_2), 0 } ,
-	{ 979, 9181, offsetof(MemberInfoSerializationHolder_t4481, ____reflectedType_3), 0 } ,
-	{ 980, 9182, offsetof(MemberInfoSerializationHolder_t4481, ____genericArguments_4), 0 } ,
-	{ 177, 90, offsetof(MemberTypes_t4482, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 981, 9184, 0, 0 } ,
-	{ 982, 9184, 0, 0 } ,
-	{ 983, 9184, 0, 0 } ,
-	{ 984, 9184, 0, 0 } ,
-	{ 985, 9184, 0, 0 } ,
-	{ 986, 9184, 0, 0 } ,
-	{ 987, 9184, 0, 0 } ,
-	{ 988, 9184, 0, 0 } ,
-	{ 989, 9184, 0, 0 } ,
-	{ 177, 90, offsetof(MethodAttributes_t4483, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 990, 9186, 0, 0 } ,
-	{ 963, 9186, 0, 0 } ,
-	{ 964, 9186, 0, 0 } ,
-	{ 965, 9186, 0, 0 } ,
-	{ 966, 9186, 0, 0 } ,
-	{ 967, 9186, 0, 0 } ,
-	{ 968, 9186, 0, 0 } ,
-	{ 937, 9186, 0, 0 } ,
-	{ 936, 9186, 0, 0 } ,
-	{ 991, 9186, 0, 0 } ,
-	{ 992, 9186, 0, 0 } ,
-	{ 993, 9186, 0, 0 } ,
-	{ 994, 9186, 0, 0 } ,
-	{ 995, 9186, 0, 0 } ,
-	{ 996, 9186, 0, 0 } ,
-	{ 997, 9186, 0, 0 } ,
-	{ 998, 9186, 0, 0 } ,
-	{ 958, 9186, 0, 0 } ,
-	{ 974, 9186, 0, 0 } ,
-	{ 999, 9186, 0, 0 } ,
-	{ 960, 9186, 0, 0 } ,
-	{ 959, 9186, 0, 0 } ,
-	{ 1000, 9186, 0, 0 } ,
-	{ 1001, 9186, 0, 0 } ,
-	{ 177, 90, offsetof(MethodImplAttributes_t4484, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1002, 9189, 0, 0 } ,
-	{ 1003, 9189, 0, 0 } ,
-	{ 1004, 9189, 0, 0 } ,
-	{ 1005, 9189, 0, 0 } ,
-	{ 1006, 9189, 0, 0 } ,
-	{ 1007, 9189, 0, 0 } ,
-	{ 1008, 9189, 0, 0 } ,
-	{ 1009, 9189, 0, 0 } ,
-	{ 1010, 9189, 0, 0 } ,
-	{ 89, 9189, 0, 0 } ,
-	{ 1011, 9189, 0, 0 } ,
-	{ 1012, 9189, 0, 0 } ,
-	{ 1013, 9189, 0, 0 } ,
-	{ 1014, 9189, 0, 0 } ,
-	{ 1015, 9193, offsetof(Missing_t4485_StaticFields, ___Value_0), 0 } ,
-	{ 1016, 9195, 0, 0 } ,
-	{ 1017, 9196, offsetof(Module_t4462_StaticFields, ___FilterTypeName_1), 0 } ,
-	{ 1018, 9196, offsetof(Module_t4462_StaticFields, ___FilterTypeNameIgnoreCase_2), 0 } ,
-	{ 63, 4514, offsetof(Module_t4462, ____impl_3), 0 } ,
-	{ 1019, 9197, offsetof(Module_t4462, ___assembly_4), 0 } ,
-	{ 1020, 1003, offsetof(Module_t4462, ___fqname_5), 0 } ,
-	{ 480, 1003, offsetof(Module_t4462, ___name_6), 0 } ,
-	{ 1021, 1003, offsetof(Module_t4462, ___scopename_7), 0 } ,
-	{ 1022, 2066, offsetof(Module_t4462, ___is_resource_8), 0 } ,
-	{ 1023, 137, offsetof(Module_t4462, ___token_9), 0 } ,
-	{ 1024, 4992, offsetof(MonoEventInfo_t4487, ___declaring_type_0) + sizeof(Object_t), 0 } ,
-	{ 1025, 4992, offsetof(MonoEventInfo_t4487, ___reflected_type_1) + sizeof(Object_t), 0 } ,
-	{ 480, 101, offsetof(MonoEventInfo_t4487, ___name_2) + sizeof(Object_t), 0 } ,
-	{ 1026, 3971, offsetof(MonoEventInfo_t4487, ___add_method_3) + sizeof(Object_t), 0 } ,
-	{ 1027, 3971, offsetof(MonoEventInfo_t4487, ___remove_method_4) + sizeof(Object_t), 0 } ,
-	{ 1028, 3971, offsetof(MonoEventInfo_t4487, ___raise_method_5) + sizeof(Object_t), 0 } ,
-	{ 874, 9202, offsetof(MonoEventInfo_t4487, ___attrs_6) + sizeof(Object_t), 0 } ,
-	{ 1029, 9203, offsetof(MonoEventInfo_t4487, ___other_methods_7) + sizeof(Object_t), 0 } ,
-	{ 112, 4514, offsetof(MonoEvent_t, ___klass_1), 0 } ,
-	{ 769, 4514, offsetof(MonoEvent_t, ___handle_2), 0 } ,
-	{ 112, 4482, offsetof(MonoField_t, ___klass_0), 0 } ,
-	{ 1030, 9206, offsetof(MonoField_t, ___fhandle_1), 0 } ,
+	{ 861, 918, offsetof(StringWriter_t3228, ___internalString_3), 0 } ,
+	{ 720, 100, offsetof(StringWriter_t3228, ___disposed_4), 0 } ,
+	{ 718, 9101, offsetof(TextReader_t3185_StaticFields, ___Null_0), 0 } ,
+	{ 364, 5795, offsetof(SynchronizedReader_t4452, ___reader_1), 0 } ,
+	{ 862, 9105, offsetof(TextWriter_t3227, ___CoreNewLine_0), 0 } ,
+	{ 863, 9106, offsetof(TextWriter_t3227, ___internalFormatProvider_1), 0 } ,
+	{ 718, 9107, offsetof(TextWriter_t3227_StaticFields, ___Null_2), 0 } ,
+	{ 864, 5816, offsetof(SynchronizedWriter_t4455, ___writer_3), 0 } ,
+	{ 865, 100, offsetof(SynchronizedWriter_t4455, ___neverClose_4), 0 } ,
+	{ 866, 7529, offsetof(UnexceptionalStreamReader_t4456_StaticFields, ___newline_14), 0 } ,
+	{ 867, 9110, offsetof(UnexceptionalStreamReader_t4456_StaticFields, ___newlineChar_15), 0 } ,
+	{ 868, 9113, offsetof(AssemblyBuilder_t4459, ___modules_10), 0 } ,
+	{ 869, 4477, offsetof(AssemblyBuilder_t4459, ___corlib_value_type_11), 0 } ,
+	{ 870, 4477, offsetof(AssemblyBuilder_t4459, ___corlib_enum_type_12), 0 } ,
+	{ 871, 9114, offsetof(AssemblyBuilder_t4459, ___sn_13), 0 } ,
+	{ 872, 5090, offsetof(AssemblyBuilder_t4459, ___is_compiler_context_14), 0 } ,
+	{ 873, 9117, offsetof(ConstructorBuilder_t4462, ___parameters_2), 0 } ,
+	{ 874, 9118, offsetof(ConstructorBuilder_t4462, ___attrs_3), 0 } ,
+	{ 875, 9119, offsetof(ConstructorBuilder_t4462, ___call_conv_4), 0 } ,
+	{ 111, 9120, offsetof(ConstructorBuilder_t4462, ___type_5), 0 } ,
+	{ 876, 9121, offsetof(ConstructorBuilder_t4462, ___pinfo_6), 0 } ,
+	{ 877, 9120, offsetof(EnumBuilder_t4463, ____tb_8), 0 } ,
+	{ 878, 5578, offsetof(EnumBuilder_t4463, ____underlyingType_9), 0 } ,
+	{ 874, 9126, offsetof(FieldBuilder_t4465, ___attrs_0), 0 } ,
+	{ 111, 5578, offsetof(FieldBuilder_t4465, ___type_1), 0 } ,
+	{ 480, 99, offsetof(FieldBuilder_t4465, ___name_2), 0 } ,
+	{ 879, 9127, offsetof(FieldBuilder_t4465, ___typeb_3), 0 } ,
+	{ 880, 9128, offsetof(FieldBuilder_t4465, ___marshal_info_4), 0 } ,
+	{ 881, 9120, offsetof(GenericTypeParameterBuilder_t4467, ___tbuilder_8), 0 } ,
+	{ 882, 9130, offsetof(GenericTypeParameterBuilder_t4467, ___mbuilder_9), 0 } ,
+	{ 480, 99, offsetof(GenericTypeParameterBuilder_t4467, ___name_10), 0 } ,
+	{ 883, 5578, offsetof(GenericTypeParameterBuilder_t4467, ___base_type_11), 0 } ,
+	{ 884, 5578, offsetof(MethodBuilder_t4466, ___rtype_0), 0 } ,
+	{ 873, 9117, offsetof(MethodBuilder_t4466, ___parameters_1), 0 } ,
+	{ 874, 9118, offsetof(MethodBuilder_t4466, ___attrs_2), 0 } ,
+	{ 480, 99, offsetof(MethodBuilder_t4466, ___name_3), 0 } ,
+	{ 111, 9120, offsetof(MethodBuilder_t4466, ___type_4), 0 } ,
+	{ 876, 9121, offsetof(MethodBuilder_t4466, ___pinfo_5), 0 } ,
+	{ 875, 9119, offsetof(MethodBuilder_t4466, ___call_conv_6), 0 } ,
+	{ 885, 9133, offsetof(MethodBuilder_t4466, ___generic_params_7), 0 } ,
+	{ 886, 9135, offsetof(ModuleBuilder_t4469, ___assemblyb_10), 0 } ,
+	{ 887, 2094, offsetof(ModuleBuilder_t4469_StaticFields, ___type_modifiers_11), 0 } ,
+	{ 480, 99, offsetof(ParameterBuilder_t4471, ___name_0), 0 } ,
+	{ 874, 9137, offsetof(ParameterBuilder_t4471, ___attrs_1), 0 } ,
+	{ 786, 110, offsetof(ParameterBuilder_t4471, ___position_2), 0 } ,
+	{ 874, 9140, offsetof(PropertyBuilder_t4472, ___attrs_0), 0 } ,
+	{ 480, 99, offsetof(PropertyBuilder_t4472, ___name_1), 0 } ,
+	{ 111, 5578, offsetof(PropertyBuilder_t4472, ___type_2), 0 } ,
+	{ 888, 9130, offsetof(PropertyBuilder_t4472, ___set_method_3), 0 } ,
+	{ 889, 9130, offsetof(PropertyBuilder_t4472, ___get_method_4), 0 } ,
+	{ 879, 9127, offsetof(PropertyBuilder_t4472, ___typeb_5), 0 } ,
+	{ 890, 99, offsetof(TypeBuilder_t4460, ___tname_8), 0 } ,
+	{ 891, 99, offsetof(TypeBuilder_t4460, ___nspace_9), 0 } ,
+	{ 723, 5578, offsetof(TypeBuilder_t4460, ___parent_10), 0 } ,
+	{ 892, 5578, offsetof(TypeBuilder_t4460, ___nesting_type_11), 0 } ,
+	{ 893, 9117, offsetof(TypeBuilder_t4460, ___interfaces_12), 0 } ,
+	{ 894, 9142, offsetof(TypeBuilder_t4460, ___methods_13), 0 } ,
+	{ 895, 9143, offsetof(TypeBuilder_t4460, ___ctors_14), 0 } ,
+	{ 896, 9144, offsetof(TypeBuilder_t4460, ___properties_15), 0 } ,
+	{ 897, 9145, offsetof(TypeBuilder_t4460, ___fields_16), 0 } ,
+	{ 874, 9146, offsetof(TypeBuilder_t4460, ___attrs_17), 0 } ,
+	{ 898, 9147, offsetof(TypeBuilder_t4460, ___pmodule_18), 0 } ,
+	{ 885, 9148, offsetof(TypeBuilder_t4460, ___generic_params_19), 0 } ,
+	{ 899, 5578, offsetof(TypeBuilder_t4460, ___created_20), 0 } ,
+	{ 900, 99, offsetof(TypeBuilder_t4460, ___fullname_21), 0 } ,
+	{ 901, 5578, offsetof(TypeBuilder_t4460, ___underlying_type_22), 0 } ,
+	{ 393, 110, offsetof(UnmanagedMarshal_t4464, ___count_0), 0 } ,
+	{ 902, 8545, offsetof(UnmanagedMarshal_t4464, ___t_1), 0 } ,
+	{ 903, 8545, offsetof(UnmanagedMarshal_t4464, ___tbase_2), 0 } ,
+	{ 904, 99, offsetof(UnmanagedMarshal_t4464, ___guid_3), 0 } ,
+	{ 905, 99, offsetof(UnmanagedMarshal_t4464, ___mcookie_4), 0 } ,
+	{ 906, 99, offsetof(UnmanagedMarshal_t4464, ___marshaltype_5), 0 } ,
+	{ 907, 5578, offsetof(UnmanagedMarshal_t4464, ___marshaltyperef_6), 0 } ,
+	{ 908, 110, offsetof(UnmanagedMarshal_t4464, ___param_num_7), 0 } ,
+	{ 909, 100, offsetof(UnmanagedMarshal_t4464, ___has_size_8), 0 } ,
+	{ 910, 4532, offsetof(Assembly_t719, ____mono_assembly_0), 0 } ,
+	{ 911, 9154, offsetof(Assembly_t719, ___resolve_event_holder_1), 0 } ,
+	{ 912, 9155, offsetof(Assembly_t719, ____evidence_2), 0 } ,
+	{ 913, 9156, offsetof(Assembly_t719, ____minimum_3), 0 } ,
+	{ 914, 9156, offsetof(Assembly_t719, ____optional_4), 0 } ,
+	{ 915, 9156, offsetof(Assembly_t719, ____refuse_5), 0 } ,
+	{ 916, 9157, offsetof(Assembly_t719, ____granted_6), 0 } ,
+	{ 917, 9157, offsetof(Assembly_t719, ____denied_7), 0 } ,
+	{ 918, 100, offsetof(Assembly_t719, ___fromByteArray_8), 0 } ,
+	{ 102, 99, offsetof(Assembly_t719, ___assemblyName_9), 0 } ,
+	{ 480, 99, offsetof(AssemblyCompanyAttribute_t1037, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyConfigurationAttribute_t1036, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyCopyrightAttribute_t1039, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyDefaultAliasAttribute_t3256, ___name_0), 0 } ,
+	{ 919, 100, offsetof(AssemblyDelaySignAttribute_t3258, ___delay_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyDescriptionAttribute_t1035, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyFileVersionAttribute_t1042, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyInformationalVersionAttribute_t3254, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyKeyFileAttribute_t3259, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyName_t1412, ___name_0), 0 } ,
+	{ 920, 99, offsetof(AssemblyName_t1412, ___codebase_1), 0 } ,
+	{ 921, 110, offsetof(AssemblyName_t1412, ___major_2), 0 } ,
+	{ 922, 110, offsetof(AssemblyName_t1412, ___minor_3), 0 } ,
+	{ 923, 110, offsetof(AssemblyName_t1412, ___build_4), 0 } ,
+	{ 924, 110, offsetof(AssemblyName_t1412, ___revision_5), 0 } ,
+	{ 925, 8919, offsetof(AssemblyName_t1412, ___cultureinfo_6), 0 } ,
+	{ 34, 9168, offsetof(AssemblyName_t1412, ___flags_7), 0 } ,
+	{ 926, 9169, offsetof(AssemblyName_t1412, ___hashalg_8), 0 } ,
+	{ 927, 9170, offsetof(AssemblyName_t1412, ___keypair_9), 0 } ,
+	{ 353, 838, offsetof(AssemblyName_t1412, ___publicKey_10), 0 } ,
+	{ 354, 838, offsetof(AssemblyName_t1412, ___keyToken_11), 0 } ,
+	{ 928, 9171, offsetof(AssemblyName_t1412, ___versioncompat_12), 0 } ,
+	{ 333, 7456, offsetof(AssemblyName_t1412, ___version_13), 0 } ,
+	{ 929, 9172, offsetof(AssemblyName_t1412, ___processor_architecture_14), 0 } ,
+	{ 177, 90, offsetof(AssemblyNameFlags_t4482, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9174, 0, 0 } ,
+	{ 930, 9174, 0, 0 } ,
+	{ 931, 9174, 0, 0 } ,
+	{ 932, 9174, 0, 0 } ,
+	{ 933, 9174, 0, 0 } ,
+	{ 480, 99, offsetof(AssemblyProductAttribute_t1038, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyTitleAttribute_t1041, ___name_0), 0 } ,
+	{ 480, 99, offsetof(AssemblyTrademarkAttribute_t1043, ___name_0), 0 } ,
+	{ 934, 9181, offsetof(Binder_t2901_StaticFields, ___default_binder_0), 0 } ,
+	{ 177, 90, offsetof(BindingFlags_t4484, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 424, 9183, 0, 0 } ,
+	{ 502, 9183, 0, 0 } ,
+	{ 935, 9183, 0, 0 } ,
+	{ 135, 9183, 0, 0 } ,
+	{ 936, 9183, 0, 0 } ,
+	{ 937, 9183, 0, 0 } ,
+	{ 938, 9183, 0, 0 } ,
+	{ 939, 9183, 0, 0 } ,
+	{ 940, 9183, 0, 0 } ,
+	{ 941, 9183, 0, 0 } ,
+	{ 942, 9183, 0, 0 } ,
+	{ 943, 9183, 0, 0 } ,
+	{ 944, 9183, 0, 0 } ,
+	{ 945, 9183, 0, 0 } ,
+	{ 946, 9183, 0, 0 } ,
+	{ 947, 9183, 0, 0 } ,
+	{ 948, 9183, 0, 0 } ,
+	{ 949, 9183, 0, 0 } ,
+	{ 950, 9183, 0, 0 } ,
+	{ 951, 9183, 0, 0 } ,
+	{ 177, 90, offsetof(CallingConventions_t4485, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 952, 9185, 0, 0 } ,
+	{ 953, 9185, 0, 0 } ,
+	{ 674, 9185, 0, 0 } ,
+	{ 954, 9185, 0, 0 } ,
+	{ 955, 9185, 0, 0 } ,
+	{ 956, 106, offsetof(ConstructorInfo_t1328_StaticFields, ___ConstructorName_0), 421 } ,
+	{ 957, 106, offsetof(ConstructorInfo_t1328_StaticFields, ___TypeConstructorName_1), 422 } ,
+	{ 177, 90, offsetof(EventAttributes_t4486, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9188, 0, 0 } ,
+	{ 958, 9188, 0, 0 } ,
+	{ 959, 9188, 0, 0 } ,
+	{ 960, 9188, 0, 0 } ,
+	{ 961, 9193, offsetof(EventInfo_t, ___cached_add_event_0), 0 } ,
+	{ 177, 90, offsetof(FieldAttributes_t4488, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 962, 9195, 0, 0 } ,
+	{ 963, 9195, 0, 0 } ,
+	{ 964, 9195, 0, 0 } ,
+	{ 965, 9195, 0, 0 } ,
+	{ 966, 9195, 0, 0 } ,
+	{ 967, 9195, 0, 0 } ,
+	{ 968, 9195, 0, 0 } ,
+	{ 937, 9195, 0, 0 } ,
+	{ 936, 9195, 0, 0 } ,
+	{ 969, 9195, 0, 0 } ,
+	{ 970, 9195, 0, 0 } ,
+	{ 971, 9195, 0, 0 } ,
+	{ 972, 9195, 0, 0 } ,
+	{ 958, 9195, 0, 0 } ,
+	{ 960, 9195, 0, 0 } ,
+	{ 973, 9195, 0, 0 } ,
+	{ 974, 9195, 0, 0 } ,
+	{ 975, 9195, 0, 0 } ,
+	{ 959, 9195, 0, 0 } ,
+	{ 976, 71, offsetof(MemberInfoSerializationHolder_t4489, ____memberName_0), 0 } ,
+	{ 977, 71, offsetof(MemberInfoSerializationHolder_t4489, ____memberSignature_1), 0 } ,
+	{ 978, 9198, offsetof(MemberInfoSerializationHolder_t4489, ____memberType_2), 0 } ,
+	{ 979, 9199, offsetof(MemberInfoSerializationHolder_t4489, ____reflectedType_3), 0 } ,
+	{ 980, 9200, offsetof(MemberInfoSerializationHolder_t4489, ____genericArguments_4), 0 } ,
+	{ 177, 90, offsetof(MemberTypes_t4490, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 981, 9202, 0, 0 } ,
+	{ 982, 9202, 0, 0 } ,
+	{ 983, 9202, 0, 0 } ,
+	{ 984, 9202, 0, 0 } ,
+	{ 985, 9202, 0, 0 } ,
+	{ 986, 9202, 0, 0 } ,
+	{ 987, 9202, 0, 0 } ,
+	{ 988, 9202, 0, 0 } ,
+	{ 989, 9202, 0, 0 } ,
+	{ 177, 90, offsetof(MethodAttributes_t4491, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 990, 9204, 0, 0 } ,
+	{ 963, 9204, 0, 0 } ,
+	{ 964, 9204, 0, 0 } ,
+	{ 965, 9204, 0, 0 } ,
+	{ 966, 9204, 0, 0 } ,
+	{ 967, 9204, 0, 0 } ,
+	{ 968, 9204, 0, 0 } ,
+	{ 937, 9204, 0, 0 } ,
+	{ 936, 9204, 0, 0 } ,
+	{ 991, 9204, 0, 0 } ,
+	{ 992, 9204, 0, 0 } ,
+	{ 993, 9204, 0, 0 } ,
+	{ 994, 9204, 0, 0 } ,
+	{ 995, 9204, 0, 0 } ,
+	{ 996, 9204, 0, 0 } ,
+	{ 997, 9204, 0, 0 } ,
+	{ 998, 9204, 0, 0 } ,
+	{ 958, 9204, 0, 0 } ,
+	{ 974, 9204, 0, 0 } ,
+	{ 999, 9204, 0, 0 } ,
+	{ 960, 9204, 0, 0 } ,
+	{ 959, 9204, 0, 0 } ,
+	{ 1000, 9204, 0, 0 } ,
+	{ 1001, 9204, 0, 0 } ,
+	{ 177, 90, offsetof(MethodImplAttributes_t4492, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1002, 9207, 0, 0 } ,
+	{ 1003, 9207, 0, 0 } ,
+	{ 1004, 9207, 0, 0 } ,
+	{ 1005, 9207, 0, 0 } ,
+	{ 1006, 9207, 0, 0 } ,
+	{ 1007, 9207, 0, 0 } ,
+	{ 1008, 9207, 0, 0 } ,
+	{ 1009, 9207, 0, 0 } ,
+	{ 1010, 9207, 0, 0 } ,
+	{ 89, 9207, 0, 0 } ,
+	{ 1011, 9207, 0, 0 } ,
+	{ 1012, 9207, 0, 0 } ,
+	{ 1013, 9207, 0, 0 } ,
+	{ 1014, 9207, 0, 0 } ,
+	{ 1015, 9211, offsetof(Missing_t4493_StaticFields, ___Value_0), 0 } ,
+	{ 1016, 9213, 0, 0 } ,
+	{ 1017, 9214, offsetof(Module_t4470_StaticFields, ___FilterTypeName_1), 0 } ,
+	{ 1018, 9214, offsetof(Module_t4470_StaticFields, ___FilterTypeNameIgnoreCase_2), 0 } ,
+	{ 63, 4532, offsetof(Module_t4470, ____impl_3), 0 } ,
+	{ 1019, 9215, offsetof(Module_t4470, ___assembly_4), 0 } ,
+	{ 1020, 1008, offsetof(Module_t4470, ___fqname_5), 0 } ,
+	{ 480, 1008, offsetof(Module_t4470, ___name_6), 0 } ,
+	{ 1021, 1008, offsetof(Module_t4470, ___scopename_7), 0 } ,
+	{ 1022, 2084, offsetof(Module_t4470, ___is_resource_8), 0 } ,
+	{ 1023, 137, offsetof(Module_t4470, ___token_9), 0 } ,
+	{ 1024, 5010, offsetof(MonoEventInfo_t4495, ___declaring_type_0) + sizeof(Object_t), 0 } ,
+	{ 1025, 5010, offsetof(MonoEventInfo_t4495, ___reflected_type_1) + sizeof(Object_t), 0 } ,
+	{ 480, 101, offsetof(MonoEventInfo_t4495, ___name_2) + sizeof(Object_t), 0 } ,
+	{ 1026, 3989, offsetof(MonoEventInfo_t4495, ___add_method_3) + sizeof(Object_t), 0 } ,
+	{ 1027, 3989, offsetof(MonoEventInfo_t4495, ___remove_method_4) + sizeof(Object_t), 0 } ,
+	{ 1028, 3989, offsetof(MonoEventInfo_t4495, ___raise_method_5) + sizeof(Object_t), 0 } ,
+	{ 874, 9220, offsetof(MonoEventInfo_t4495, ___attrs_6) + sizeof(Object_t), 0 } ,
+	{ 1029, 9221, offsetof(MonoEventInfo_t4495, ___other_methods_7) + sizeof(Object_t), 0 } ,
+	{ 112, 4532, offsetof(MonoEvent_t, ___klass_1), 0 } ,
+	{ 769, 4532, offsetof(MonoEvent_t, ___handle_2), 0 } ,
+	{ 112, 4500, offsetof(MonoField_t, ___klass_0), 0 } ,
+	{ 1030, 9224, offsetof(MonoField_t, ___fhandle_1), 0 } ,
 	{ 480, 99, offsetof(MonoField_t, ___name_2), 0 } ,
-	{ 111, 5560, offsetof(MonoField_t, ___type_3), 0 } ,
-	{ 874, 9108, offsetof(MonoField_t, ___attrs_4), 0 } ,
-	{ 723, 5560, offsetof(MonoMethodInfo_t4490, ___parent_0) + sizeof(Object_t), 0 } ,
-	{ 1031, 5560, offsetof(MonoMethodInfo_t4490, ___ret_1) + sizeof(Object_t), 0 } ,
-	{ 874, 9215, offsetof(MonoMethodInfo_t4490, ___attrs_2) + sizeof(Object_t), 0 } ,
-	{ 1032, 9216, offsetof(MonoMethodInfo_t4490, ___iattrs_3) + sizeof(Object_t), 0 } ,
-	{ 1033, 9101, offsetof(MonoMethodInfo_t4490, ___callconv_4) + sizeof(Object_t), 0 } ,
-	{ 1034, 4482, offsetof(MonoMethod_t, ___mhandle_0), 0 } ,
+	{ 111, 5578, offsetof(MonoField_t, ___type_3), 0 } ,
+	{ 874, 9126, offsetof(MonoField_t, ___attrs_4), 0 } ,
+	{ 723, 5578, offsetof(MonoMethodInfo_t4498, ___parent_0) + sizeof(Object_t), 0 } ,
+	{ 1031, 5578, offsetof(MonoMethodInfo_t4498, ___ret_1) + sizeof(Object_t), 0 } ,
+	{ 874, 9233, offsetof(MonoMethodInfo_t4498, ___attrs_2) + sizeof(Object_t), 0 } ,
+	{ 1032, 9234, offsetof(MonoMethodInfo_t4498, ___iattrs_3) + sizeof(Object_t), 0 } ,
+	{ 1033, 9119, offsetof(MonoMethodInfo_t4498, ___callconv_4) + sizeof(Object_t), 0 } ,
+	{ 1034, 4500, offsetof(MonoMethod_t, ___mhandle_0), 0 } ,
 	{ 480, 99, offsetof(MonoMethod_t, ___name_1), 0 } ,
-	{ 1035, 5560, offsetof(MonoMethod_t, ___reftype_2), 0 } ,
-	{ 1034, 4482, offsetof(MonoCMethod_t4489, ___mhandle_2), 0 } ,
-	{ 480, 99, offsetof(MonoCMethod_t4489, ___name_3), 0 } ,
-	{ 1035, 5560, offsetof(MonoCMethod_t4489, ___reftype_4), 0 } ,
-	{ 723, 4992, offsetof(MonoPropertyInfo_t4491, ___parent_0) + sizeof(Object_t), 0 } ,
-	{ 480, 101, offsetof(MonoPropertyInfo_t4491, ___name_1) + sizeof(Object_t), 0 } ,
-	{ 889, 3971, offsetof(MonoPropertyInfo_t4491, ___get_method_2) + sizeof(Object_t), 0 } ,
-	{ 888, 3971, offsetof(MonoPropertyInfo_t4491, ___set_method_3) + sizeof(Object_t), 0 } ,
-	{ 874, 9223, offsetof(MonoPropertyInfo_t4491, ___attrs_4) + sizeof(Object_t), 0 } ,
-	{ 177, 90, offsetof(PInfo_t4492, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 820, 9224, 0, 0 } ,
-	{ 1036, 9224, 0, 0 } ,
-	{ 1037, 9224, 0, 0 } ,
-	{ 1038, 9224, 0, 0 } ,
-	{ 1039, 9224, 0, 0 } ,
-	{ 819, 9224, 0, 0 } ,
-	{ 112, 4482, offsetof(MonoProperty_t, ___klass_0), 0 } ,
-	{ 1040, 4482, offsetof(MonoProperty_t, ___prop_1), 0 } ,
-	{ 1041, 9237, offsetof(MonoProperty_t, ___info_2), 0 } ,
-	{ 1042, 9238, offsetof(MonoProperty_t, ___cached_3), 0 } ,
-	{ 1043, 9239, offsetof(MonoProperty_t, ___cached_getter_4), 0 } ,
-	{ 177, 90, offsetof(ParameterAttributes_t4494, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9241, 0, 0 } ,
-	{ 1044, 9241, 0, 0 } ,
-	{ 1045, 9241, 0, 0 } ,
-	{ 1046, 9241, 0, 0 } ,
-	{ 1047, 9241, 0, 0 } ,
-	{ 176, 9241, 0, 0 } ,
-	{ 959, 9241, 0, 0 } ,
-	{ 975, 9241, 0, 0 } ,
-	{ 973, 9241, 0, 0 } ,
-	{ 1048, 9241, 0, 0 } ,
-	{ 1049, 9241, 0, 0 } ,
-	{ 1050, 9244, offsetof(ParameterInfo_t1323, ___ClassImpl_0), 0 } ,
-	{ 1051, 9245, offsetof(ParameterInfo_t1323, ___DefaultValueImpl_1), 0 } ,
-	{ 1052, 9246, offsetof(ParameterInfo_t1323, ___MemberImpl_2), 0 } ,
-	{ 1053, 567, offsetof(ParameterInfo_t1323, ___NameImpl_3), 0 } ,
-	{ 1054, 571, offsetof(ParameterInfo_t1323, ___PositionImpl_4), 0 } ,
-	{ 1055, 9247, offsetof(ParameterInfo_t1323, ___AttrsImpl_5), 0 } ,
-	{ 1056, 9110, offsetof(ParameterInfo_t1323, ___marshalAs_6), 0 } ,
-	{ 1057, 9249, offsetof(ParameterModifier_t4495, ____byref_0) + sizeof(Object_t), 0 } ,
-	{ 52, 8308, offsetof(Pointer_t4496, ___data_0), 0 } ,
-	{ 111, 5560, offsetof(Pointer_t4496, ___type_1), 0 } ,
-	{ 177, 90, offsetof(ProcessorArchitecture_t4497, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9253, 0, 0 } ,
-	{ 1058, 9253, 0, 0 } ,
-	{ 1059, 9253, 0, 0 } ,
-	{ 1060, 9253, 0, 0 } ,
-	{ 1061, 9253, 0, 0 } ,
-	{ 177, 90, offsetof(PropertyAttributes_t4498, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9256, 0, 0 } ,
-	{ 958, 9256, 0, 0 } ,
-	{ 959, 9256, 0, 0 } ,
-	{ 960, 9256, 0, 0 } ,
-	{ 975, 9256, 0, 0 } ,
-	{ 1062, 9256, 0, 0 } ,
-	{ 1048, 9256, 0, 0 } ,
-	{ 1049, 9256, 0, 0 } ,
-	{ 1063, 833, offsetof(StrongNameKeyPair_t4473, ____publicKey_0), 0 } ,
-	{ 1064, 99, offsetof(StrongNameKeyPair_t4473, ____keyPairContainer_1), 0 } ,
-	{ 1065, 100, offsetof(StrongNameKeyPair_t4473, ____keyPairExported_2), 0 } ,
-	{ 1066, 833, offsetof(StrongNameKeyPair_t4473, ____keyPairArray_3), 0 } ,
-	{ 177, 90, offsetof(TypeAttributes_t4502, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1067, 9263, 0, 0 } ,
-	{ 1068, 9263, 0, 0 } ,
-	{ 937, 9263, 0, 0 } ,
-	{ 1069, 9263, 0, 0 } ,
-	{ 1070, 9263, 0, 0 } ,
-	{ 1071, 9263, 0, 0 } ,
-	{ 1072, 9263, 0, 0 } ,
-	{ 1073, 9263, 0, 0 } ,
-	{ 1074, 9263, 0, 0 } ,
-	{ 1075, 9263, 0, 0 } ,
-	{ 1076, 9263, 0, 0 } ,
-	{ 1077, 9263, 0, 0 } ,
-	{ 1078, 9263, 0, 0 } ,
-	{ 1079, 9263, 0, 0 } ,
-	{ 1080, 9263, 0, 0 } ,
-	{ 1081, 9263, 0, 0 } ,
-	{ 998, 9263, 0, 0 } ,
-	{ 1082, 9263, 0, 0 } ,
-	{ 958, 9263, 0, 0 } ,
-	{ 1083, 9263, 0, 0 } ,
-	{ 1084, 9263, 0, 0 } ,
-	{ 1085, 9263, 0, 0 } ,
-	{ 1086, 9263, 0, 0 } ,
-	{ 1087, 9263, 0, 0 } ,
-	{ 1088, 9263, 0, 0 } ,
-	{ 1089, 9263, 0, 0 } ,
-	{ 959, 9263, 0, 0 } ,
-	{ 960, 9263, 0, 0 } ,
-	{ 1000, 9263, 0, 0 } ,
-	{ 1090, 9263, 0, 0 } ,
-	{ 1091, 9263, 0, 0 } ,
-	{ 420, 99, offsetof(NeutralResourcesLanguageAttribute_t3245, ___culture_0), 0 } ,
-	{ 400, 7438, offsetof(SatelliteContractVersionAttribute_t3247, ___ver_0), 0 } ,
-	{ 177, 90, offsetof(CompilationRelaxations_t4503, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1092, 9267, 0, 0 } ,
-	{ 1093, 110, offsetof(CompilationRelaxationsAttribute_t2104, ___relax_0), 0 } ,
-	{ 1094, 9272, offsetof(DefaultDependencyAttribute_t4504, ___hint_0), 0 } ,
-	{ 177, 90, offsetof(LoadHint_t4506, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 424, 9276, 0, 0 } ,
-	{ 1095, 9276, 0, 0 } ,
-	{ 1096, 9276, 0, 0 } ,
-	{ 177, 90, offsetof(Cer_t4508, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9279, 0, 0 } ,
-	{ 1097, 9279, 0, 0 } ,
-	{ 1098, 9279, 0, 0 } ,
-	{ 177, 90, offsetof(Consistency_t4509, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1099, 9282, 0, 0 } ,
-	{ 1100, 9282, 0, 0 } ,
-	{ 1101, 9282, 0, 0 } ,
-	{ 1102, 9282, 0, 0 } ,
-	{ 1103, 9287, offsetof(ReliabilityContractAttribute_t4511, ___consistency_0), 0 } ,
-	{ 1104, 9288, offsetof(ReliabilityContractAttribute_t4511, ___cer_1), 0 } ,
-	{ 177, 90, offsetof(CallingConvention_t4513, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1105, 9292, 0, 0 } ,
-	{ 1106, 9292, 0, 0 } ,
-	{ 1107, 9292, 0, 0 } ,
-	{ 1108, 9292, 0, 0 } ,
-	{ 1109, 9292, 0, 0 } ,
-	{ 177, 90, offsetof(CharSet_t4514, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9295, 0, 0 } ,
-	{ 1110, 9295, 0, 0 } ,
-	{ 1111, 9295, 0, 0 } ,
-	{ 1112, 9295, 0, 0 } ,
-	{ 1113, 9299, offsetof(ClassInterfaceAttribute_t4515, ___ciType_0), 0 } ,
-	{ 177, 90, offsetof(ClassInterfaceType_t4516, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9301, 0, 0 } ,
-	{ 1114, 9301, 0, 0 } ,
-	{ 1115, 9301, 0, 0 } ,
-	{ 1116, 5560, offsetof(ComDefaultInterfaceAttribute_t4517, ____type_0), 0 } ,
-	{ 177, 90, offsetof(ComInterfaceType_t4518, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1117, 9304, 0, 0 } ,
-	{ 1118, 9304, 0, 0 } ,
-	{ 1119, 9304, 0, 0 } ,
-	{ 1120, 110, offsetof(DispIdAttribute_t4519, ___id_0), 0 } ,
-	{ 769, 110, offsetof(GCHandle_t3922, ___handle_0) + sizeof(Object_t), 0 } ,
-	{ 177, 90, offsetof(GCHandleType_t4520, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1121, 9311, 0, 0 } ,
-	{ 1122, 9311, 0, 0 } ,
-	{ 733, 9311, 0, 0 } ,
-	{ 1123, 9311, 0, 0 } ,
-	{ 1124, 9313, offsetof(InterfaceTypeAttribute_t4521, ___intType_0), 0 } ,
-	{ 1125, 9315, offsetof(Marshal_t4137_StaticFields, ___SystemMaxDBCSCharSize_0), 0 } ,
-	{ 1126, 9315, offsetof(Marshal_t4137_StaticFields, ___SystemDefaultCharSize_1), 0 } ,
-	{ 1127, 832, 0, 0 } ,
-	{ 769, 9320, offsetof(SafeHandle_t4306, ___handle_0), 0 } ,
-	{ 1128, 4514, offsetof(SafeHandle_t4306, ___invalid_handle_value_1), 0 } ,
-	{ 1129, 110, offsetof(SafeHandle_t4306, ___refcount_2), 0 } ,
-	{ 1130, 100, offsetof(SafeHandle_t4306, ___owns_handle_3), 0 } ,
-	{ 1131, 99, offsetof(TypeLibImportClassAttribute_t4524, ____importClass_0), 0 } ,
-	{ 921, 110, offsetof(TypeLibVersionAttribute_t4525, ___major_0), 0 } ,
-	{ 922, 110, offsetof(TypeLibVersionAttribute_t4525, ___minor_1), 0 } ,
-	{ 875, 9324, offsetof(UnmanagedFunctionPointerAttribute_t4164, ___call_conv_0), 0 } ,
-	{ 177, 90, offsetof(UnmanagedType_t4526, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1132, 9326, 0, 0 } ,
-	{ 1133, 9326, 0, 0 } ,
-	{ 1134, 9326, 0, 0 } ,
-	{ 1135, 9326, 0, 0 } ,
-	{ 1136, 9326, 0, 0 } ,
-	{ 1137, 9326, 0, 0 } ,
-	{ 1138, 9326, 0, 0 } ,
-	{ 1139, 9326, 0, 0 } ,
-	{ 1140, 9326, 0, 0 } ,
-	{ 1141, 9326, 0, 0 } ,
-	{ 1142, 9326, 0, 0 } ,
-	{ 673, 9326, 0, 0 } ,
-	{ 1143, 9326, 0, 0 } ,
-	{ 1144, 9326, 0, 0 } ,
-	{ 1145, 9326, 0, 0 } ,
-	{ 1146, 9326, 0, 0 } ,
-	{ 1147, 9326, 0, 0 } ,
-	{ 1148, 9326, 0, 0 } ,
-	{ 1149, 9326, 0, 0 } ,
-	{ 1150, 9326, 0, 0 } ,
-	{ 1081, 9326, 0, 0 } ,
-	{ 1151, 9326, 0, 0 } ,
-	{ 1152, 9326, 0, 0 } ,
-	{ 1153, 9326, 0, 0 } ,
-	{ 1154, 9326, 0, 0 } ,
-	{ 1155, 9326, 0, 0 } ,
-	{ 1156, 9326, 0, 0 } ,
-	{ 1157, 9326, 0, 0 } ,
-	{ 1158, 9326, 0, 0 } ,
-	{ 1159, 9326, 0, 0 } ,
-	{ 1160, 9326, 0, 0 } ,
-	{ 1161, 9326, 0, 0 } ,
-	{ 1162, 9326, 0, 0 } ,
-	{ 1163, 9326, 0, 0 } ,
-	{ 1164, 9326, 0, 0 } ,
-	{ 1165, 9349, offsetof(ActivationServices_t4528_StaticFields, ____constructionActivator_0), 0 } ,
-	{ 1166, 99, offsetof(AppDomainLevelActivator_t4529, ____activationUrl_0), 0 } ,
-	{ 1167, 9351, offsetof(AppDomainLevelActivator_t4529, ____next_1), 0 } ,
-	{ 1168, 9351, offsetof(ContextLevelActivator_t4531, ___m_NextActivator_0), 0 } ,
-	{ 1169, 99, offsetof(UrlAttribute_t4533, ___url_1), 0 } ,
-	{ 1170, 8896, offsetof(ChannelInfo_t4535, ___channelData_0), 0 } ,
-	{ 1171, 7350, offsetof(ChannelServices_t4537_StaticFields, ___registeredChannels_0), 0 } ,
-	{ 1172, 7350, offsetof(ChannelServices_t4537_StaticFields, ___delayedClientChannels_1), 0 } ,
-	{ 1173, 9362, offsetof(ChannelServices_t4537_StaticFields, ____crossContextSink_2), 0 } ,
-	{ 1174, 9363, offsetof(ChannelServices_t4537_StaticFields, ___CrossContextUrl_3), 0 } ,
-	{ 1175, 9364, offsetof(ChannelServices_t4537_StaticFields, ___oldStartModeTypes_4), 0 } ,
-	{ 1176, 612, offsetof(CrossAppDomainData_t4538, ____ContextID_0), 0 } ,
-	{ 1177, 110, offsetof(CrossAppDomainData_t4538, ____DomainID_1), 0 } ,
-	{ 1178, 99, offsetof(CrossAppDomainData_t4538, ____processGuid_2), 0 } ,
-	{ 1179, 3622, offsetof(CrossAppDomainChannel_t4539_StaticFields, ___s_lock_0), 0 } ,
-	{ 1180, 6732, offsetof(CrossAppDomainSink_t4540_StaticFields, ___s_sinks_0), 0 } ,
-	{ 1181, 7335, offsetof(CrossAppDomainSink_t4540_StaticFields, ___processMessageMethod_1), 0 } ,
-	{ 1182, 110, offsetof(CrossAppDomainSink_t4540, ____domainID_2), 0 } ,
-	{ 1183, 110, offsetof(Context_t4541, ___context_id_0), 0 } ,
-	{ 1184, 5582, offsetof(Context_t4541, ___context_properties_1), 0 } ,
-	{ 1185, 6732, offsetof(Context_t4541_StaticFields, ___namedSlots_2), 0 } ,
-	{ 1186, 567, offsetof(ContextAttribute_t4534, ___AttributeName_0), 0 } ,
-	{ 1187, 100, offsetof(SynchronizationAttribute_t4543, ____bReEntrant_1), 0 } ,
-	{ 1188, 110, offsetof(SynchronizationAttribute_t4543, ____flavor_2), 0 } ,
-	{ 1189, 8282, offsetof(SynchronizationAttribute_t4543, ____lockCount_3), 0 } ,
-	{ 1190, 9383, offsetof(SynchronizationAttribute_t4543, ____mutex_4), 0 } ,
-	{ 1191, 9384, offsetof(SynchronizationAttribute_t4543, ____ownerThread_5), 0 } ,
-	{ 177, 5086, offsetof(ArgInfoType_t4544, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1044, 9386, 0, 0 } ,
-	{ 1045, 9386, 0, 0 } ,
-	{ 1192, 1416, offsetof(ArgInfo_t4545, ____paramMap_0), 0 } ,
-	{ 1193, 110, offsetof(ArgInfo_t4545, ____inoutArgCount_1), 0 } ,
-	{ 1194, 8964, offsetof(ArgInfo_t4545, ____method_2), 0 } ,
-	{ 1195, 612, offsetof(AsyncResult_t4138, ___async_state_0), 0 } ,
-	{ 769, 7310, offsetof(AsyncResult_t4138, ___handle_1), 0 } ,
-	{ 1196, 612, offsetof(AsyncResult_t4138, ___async_delegate_2), 0 } ,
-	{ 52, 4514, offsetof(AsyncResult_t4138, ___data_3), 0 } ,
-	{ 1197, 612, offsetof(AsyncResult_t4138, ___object_data_4), 0 } ,
-	{ 1198, 100, offsetof(AsyncResult_t4138, ___sync_completed_5), 0 } ,
-	{ 770, 100, offsetof(AsyncResult_t4138, ___completed_6), 0 } ,
-	{ 1199, 100, offsetof(AsyncResult_t4138, ___endinvoke_called_7), 0 } ,
-	{ 1200, 612, offsetof(AsyncResult_t4138, ___async_callback_8), 0 } ,
-	{ 359, 9392, offsetof(AsyncResult_t4138, ___current_9), 0 } ,
-	{ 1201, 9392, offsetof(AsyncResult_t4138, ___original_10), 0 } ,
-	{ 1202, 110, offsetof(AsyncResult_t4138, ___gchandle_11), 0 } ,
-	{ 1203, 9393, offsetof(AsyncResult_t4138, ___call_message_12), 0 } ,
-	{ 1204, 9394, offsetof(AsyncResult_t4138, ___message_ctrl_13), 0 } ,
-	{ 1205, 9395, offsetof(AsyncResult_t4138, ___reply_message_14), 0 } ,
-	{ 1206, 9351, offsetof(ConstructionCall_t4550, ____activator_11), 0 } ,
-	{ 1207, 8896, offsetof(ConstructionCall_t4550, ____activationAttributes_12), 0 } ,
-	{ 1208, 7695, offsetof(ConstructionCall_t4550, ____contextProperties_13), 0 } ,
-	{ 1209, 5560, offsetof(ConstructionCall_t4550, ____activationType_14), 0 } ,
-	{ 1210, 99, offsetof(ConstructionCall_t4550, ____activationTypeName_15), 0 } ,
-	{ 1211, 100, offsetof(ConstructionCall_t4550, ____isContextOk_16), 0 } ,
-	{ 1212, 910, offsetof(ConstructionCall_t4550_StaticFields, ___U3CU3Ef__switchU24map20_17), 542 } ,
-	{ 1213, 9399, offsetof(ConstructionCallDictionary_t4552_StaticFields, ___InternalKeys_6), 0 } ,
-	{ 1214, 910, offsetof(ConstructionCallDictionary_t4552_StaticFields, ___U3CU3Ef__switchU24map23_7), 543 } ,
-	{ 1215, 910, offsetof(ConstructionCallDictionary_t4552_StaticFields, ___U3CU3Ef__switchU24map24_8), 544 } ,
-	{ 135, 9401, offsetof(EnvoyTerminatorSink_t4554_StaticFields, ___Instance_0), 0 } ,
-	{ 1216, 101, offsetof(Header_t4555, ___HeaderNamespace_0), 0 } ,
-	{ 1217, 104, offsetof(Header_t4555, ___MustUnderstand_1), 0 } ,
-	{ 819, 101, offsetof(Header_t4555, ___Name_2), 0 } ,
-	{ 1015, 614, offsetof(Header_t4555, ___Value_3), 0 } ,
-	{ 80, 5572, offsetof(LogicalCallContext_t4557, ____data_0), 0 } ,
-	{ 1218, 9415, offsetof(LogicalCallContext_t4557, ____remotingData_1), 0 } ,
-	{ 1219, 99, offsetof(MethodCall_t4551, ____uri_0), 0 } ,
-	{ 1220, 99, offsetof(MethodCall_t4551, ____typeName_1), 0 } ,
-	{ 1221, 99, offsetof(MethodCall_t4551, ____methodName_2), 0 } ,
-	{ 1222, 8896, offsetof(MethodCall_t4551, ____args_3), 0 } ,
-	{ 1223, 9418, offsetof(MethodCall_t4551, ____methodSignature_4), 0 } ,
-	{ 1224, 8964, offsetof(MethodCall_t4551, ____methodBase_5), 0 } ,
-	{ 1225, 9419, offsetof(MethodCall_t4551, ____callContext_6), 0 } ,
-	{ 980, 9418, offsetof(MethodCall_t4551, ____genericArguments_7), 0 } ,
-	{ 1226, 9420, offsetof(MethodCall_t4551, ___ExternalProperties_8), 0 } ,
-	{ 1227, 9420, offsetof(MethodCall_t4551, ___InternalProperties_9), 0 } ,
-	{ 1228, 910, offsetof(MethodCall_t4551_StaticFields, ___U3CU3Ef__switchU24map1F_10), 555 } ,
-	{ 1213, 9399, offsetof(MethodCallDictionary_t4558_StaticFields, ___InternalKeys_6), 0 } ,
-	{ 1229, 9423, offsetof(DictionaryEnumerator_t4559, ____methodDictionary_0), 0 } ,
-	{ 1230, 7232, offsetof(DictionaryEnumerator_t4559, ____hashtableEnum_1), 0 } ,
-	{ 1231, 110, offsetof(DictionaryEnumerator_t4559, ____posMethod_2), 0 } ,
-	{ 1232, 7639, offsetof(MethodDictionary_t4553, ____internalProperties_0), 0 } ,
-	{ 82, 9425, offsetof(MethodDictionary_t4553, ____message_1), 0 } ,
-	{ 1233, 582, offsetof(MethodDictionary_t4553, ____methodKeys_2), 0 } ,
-	{ 1234, 100, offsetof(MethodDictionary_t4553, ____ownProperties_3), 0 } ,
-	{ 1235, 910, offsetof(MethodDictionary_t4553_StaticFields, ___U3CU3Ef__switchU24map21_4), 557 } ,
-	{ 1236, 910, offsetof(MethodDictionary_t4553_StaticFields, ___U3CU3Ef__switchU24map22_5), 558 } ,
-	{ 1237, 9399, offsetof(MethodReturnDictionary_t4561_StaticFields, ___InternalReturnKeys_6), 0 } ,
-	{ 1238, 9399, offsetof(MethodReturnDictionary_t4561_StaticFields, ___InternalExceptionKeys_7), 0 } ,
-	{ 47, 9428, offsetof(MonoMethodMessage_t4547, ___method_0), 0 } ,
-	{ 110, 8896, offsetof(MonoMethodMessage_t4547, ___args_1), 0 } ,
-	{ 1239, 833, offsetof(MonoMethodMessage_t4547, ___arg_types_2), 0 } ,
-	{ 1240, 9429, offsetof(MonoMethodMessage_t4547, ___ctx_3), 0 } ,
-	{ 1241, 614, offsetof(MonoMethodMessage_t4547, ___rval_4), 0 } ,
-	{ 838, 9430, offsetof(MonoMethodMessage_t4547, ___exc_5), 0 } ,
-	{ 1242, 99, offsetof(MonoMethodMessage_t4547, ___uri_6), 0 } ,
-	{ 1243, 9418, offsetof(MonoMethodMessage_t4547, ___methodSignature_7), 0 } ,
-	{ 1244, 7495, offsetof(RemotingSurrogateSelector_t4565_StaticFields, ___s_cachedTypeObjRef_0), 0 } ,
-	{ 1245, 9435, offsetof(RemotingSurrogateSelector_t4565_StaticFields, ____objRefSurrogate_1), 0 } ,
-	{ 1246, 9436, offsetof(RemotingSurrogateSelector_t4565_StaticFields, ____objRemotingSurrogate_2), 0 } ,
-	{ 1167, 9437, offsetof(RemotingSurrogateSelector_t4565, ____next_3), 0 } ,
-	{ 1247, 8896, offsetof(ReturnMessage_t4566, ____outArgs_0), 0 } ,
-	{ 1222, 8896, offsetof(ReturnMessage_t4566, ____args_1), 0 } ,
-	{ 1248, 110, offsetof(ReturnMessage_t4566, ____outArgsCount_2), 0 } ,
-	{ 1249, 9419, offsetof(ReturnMessage_t4566, ____callCtx_3), 0 } ,
-	{ 1250, 612, offsetof(ReturnMessage_t4566, ____returnValue_4), 0 } ,
-	{ 1219, 99, offsetof(ReturnMessage_t4566, ____uri_5), 0 } ,
-	{ 1251, 3294, offsetof(ReturnMessage_t4566, ____exception_6), 0 } ,
-	{ 1224, 8964, offsetof(ReturnMessage_t4566, ____methodBase_7), 0 } ,
-	{ 1221, 99, offsetof(ReturnMessage_t4566, ____methodName_8), 0 } ,
-	{ 1223, 9418, offsetof(ReturnMessage_t4566, ____methodSignature_9), 0 } ,
-	{ 1220, 99, offsetof(ReturnMessage_t4566, ____typeName_10), 0 } ,
-	{ 1252, 9439, offsetof(ReturnMessage_t4566, ____properties_11), 0 } ,
-	{ 1253, 9440, offsetof(ReturnMessage_t4566, ____inArgInfo_12), 0 } ,
-	{ 1254, 9444, offsetof(TransparentProxy_t4569, ____rp_0), 0 } ,
-	{ 1255, 5560, offsetof(RealProxy_t4568, ___class_to_proxy_0), 0 } ,
-	{ 1256, 110, offsetof(RealProxy_t4568, ____targetDomainId_1), 0 } ,
-	{ 1257, 1003, offsetof(RealProxy_t4568, ____targetUri_2), 0 } ,
-	{ 1258, 9446, offsetof(RealProxy_t4568, ____objectIdentity_3), 0 } ,
-	{ 1259, 612, offsetof(RealProxy_t4568, ____objTP_4), 0 } ,
-	{ 1260, 7335, offsetof(RemotingProxy_t4571_StaticFields, ____cache_GetTypeMethod_5), 0 } ,
-	{ 1261, 7335, offsetof(RemotingProxy_t4571_StaticFields, ____cache_GetHashCodeMethod_6), 0 } ,
-	{ 1262, 9448, offsetof(RemotingProxy_t4571, ____sink_7), 0 } ,
-	{ 1263, 100, offsetof(RemotingProxy_t4571, ____hasEnvoySink_8), 0 } ,
-	{ 1264, 9449, offsetof(RemotingProxy_t4571, ____ctorCall_9), 0 } ,
-	{ 1265, 7350, offsetof(TrackingServices_t4572_StaticFields, ____handlers_0), 0 } ,
-	{ 1266, 99, offsetof(ActivatedClientTypeEntry_t4573, ___applicationUrl_2), 0 } ,
-	{ 1267, 5560, offsetof(ActivatedClientTypeEntry_t4573, ___obj_type_3), 0 } ,
-	{ 1268, 9448, offsetof(EnvoyInfo_t4575, ___envoySinks_0), 0 } ,
-	{ 1269, 567, offsetof(Identity_t4570, ____objectUri_0), 0 } ,
-	{ 1270, 9460, offsetof(Identity_t4570, ____channelSink_1), 0 } ,
-	{ 1271, 9460, offsetof(Identity_t4570, ____envoySink_2), 0 } ,
-	{ 1272, 9461, offsetof(Identity_t4570, ____objRef_3), 0 } ,
-	{ 1273, 100, offsetof(Identity_t4570, ____disposed_4), 0 } ,
-	{ 1274, 3275, offsetof(ClientIdentity_t4577, ____proxyReference_5), 0 } ,
-	{ 1275, 9464, offsetof(ObjRef_t4576, ___channel_info_0), 0 } ,
-	{ 1242, 99, offsetof(ObjRef_t4576, ___uri_1), 0 } ,
-	{ 1276, 9465, offsetof(ObjRef_t4576, ___typeInfo_2), 0 } ,
-	{ 1277, 9466, offsetof(ObjRef_t4576, ___envoyInfo_3), 0 } ,
-	{ 34, 110, offsetof(ObjRef_t4576, ___flags_4), 0 } ,
-	{ 1278, 5560, offsetof(ObjRef_t4576, ____serverType_5), 0 } ,
-	{ 1279, 807, offsetof(ObjRef_t4576_StaticFields, ___MarshalledObjectRef_6), 0 } ,
-	{ 1280, 807, offsetof(ObjRef_t4576_StaticFields, ___WellKnowObjectRef_7), 0 } ,
-	{ 1281, 910, offsetof(ObjRef_t4576_StaticFields, ___U3CU3Ef__switchU24map26_8), 572 } ,
-	{ 1282, 1064, offsetof(RemotingConfiguration_t4581_StaticFields, ___applicationID_0), 0 } ,
-	{ 1283, 1064, offsetof(RemotingConfiguration_t4581_StaticFields, ___applicationName_1), 0 } ,
-	{ 1284, 1064, offsetof(RemotingConfiguration_t4581_StaticFields, ___processGuid_2), 0 } ,
-	{ 1285, 640, offsetof(RemotingConfiguration_t4581_StaticFields, ___defaultConfigRead_3), 0 } ,
-	{ 1286, 640, offsetof(RemotingConfiguration_t4581_StaticFields, ___defaultDelayedConfigRead_4), 0 } ,
-	{ 1287, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___wellKnownClientEntries_5), 0 } ,
-	{ 1288, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___activatedClientEntries_6), 0 } ,
-	{ 1289, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___wellKnownServiceEntries_7), 0 } ,
-	{ 1290, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___activatedServiceEntries_8), 0 } ,
-	{ 1291, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___channelTemplates_9), 0 } ,
-	{ 1292, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___clientProviderTemplates_10), 0 } ,
-	{ 1293, 6732, offsetof(RemotingConfiguration_t4581_StaticFields, ___serverProviderTemplates_11), 0 } ,
-	{ 1294, 6732, offsetof(RemotingServices_t4584_StaticFields, ___uri_hash_0), 0 } ,
-	{ 1295, 9471, offsetof(RemotingServices_t4584_StaticFields, ____serializationFormatter_1), 0 } ,
-	{ 1296, 9471, offsetof(RemotingServices_t4584_StaticFields, ____deserializationFormatter_2), 0 } ,
-	{ 1297, 9363, offsetof(RemotingServices_t4584_StaticFields, ___app_id_3), 0 } ,
-	{ 1298, 807, offsetof(RemotingServices_t4584_StaticFields, ___next_id_4), 0 } ,
-	{ 1299, 9472, offsetof(RemotingServices_t4584_StaticFields, ___methodBindings_5), 0 } ,
-	{ 1300, 9473, offsetof(RemotingServices_t4584_StaticFields, ___FieldSetterMethod_6), 0 } ,
-	{ 1301, 9473, offsetof(RemotingServices_t4584_StaticFields, ___FieldGetterMethod_7), 0 } ,
-	{ 1302, 9244, offsetof(ServerIdentity_t4300, ____objectType_5), 0 } ,
-	{ 1303, 9475, offsetof(ServerIdentity_t4300, ____serverObject_6), 0 } ,
-	{ 1304, 9476, offsetof(ServerIdentity_t4300, ____context_7), 0 } ,
-	{ 1305, 99, offsetof(TypeEntry_t4574, ___assembly_name_0), 0 } ,
-	{ 1306, 99, offsetof(TypeEntry_t4574, ___type_name_1), 0 } ,
-	{ 1307, 99, offsetof(TypeInfo_t4588, ___serverType_0), 0 } ,
-	{ 1308, 582, offsetof(TypeInfo_t4588, ___serverHierarchy_1), 0 } ,
-	{ 1309, 582, offsetof(TypeInfo_t4588, ___interfacesImplemented_2), 0 } ,
-	{ 177, 90, offsetof(WellKnownObjectMode_t4589, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1310, 9483, 0, 0 } ,
-	{ 1311, 9483, 0, 0 } ,
-	{ 1312, 6709, offsetof(BinaryCommon_t4590_StaticFields, ___BinaryHeader_0), 0 } ,
-	{ 1313, 9485, offsetof(BinaryCommon_t4590_StaticFields, ____typeCodesToType_1), 0 } ,
-	{ 1314, 4679, offsetof(BinaryCommon_t4590_StaticFields, ____typeCodeMap_2), 0 } ,
-	{ 1315, 4638, offsetof(BinaryCommon_t4590_StaticFields, ___UseReflectionSerialization_3), 0 } ,
-	{ 177, 5086, offsetof(BinaryElement_t4591, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1316, 9487, 0, 0 } ,
-	{ 1317, 9487, 0, 0 } ,
-	{ 1318, 9487, 0, 0 } ,
-	{ 1319, 9487, 0, 0 } ,
-	{ 1320, 9487, 0, 0 } ,
-	{ 1321, 9487, 0, 0 } ,
-	{ 1322, 9487, 0, 0 } ,
-	{ 1323, 9487, 0, 0 } ,
-	{ 1324, 9487, 0, 0 } ,
-	{ 1325, 9487, 0, 0 } ,
-	{ 1326, 9487, 0, 0 } ,
-	{ 120, 9487, 0, 0 } ,
-	{ 966, 9487, 0, 0 } ,
-	{ 1327, 9487, 0, 0 } ,
-	{ 1328, 9487, 0, 0 } ,
-	{ 1329, 9487, 0, 0 } ,
-	{ 1330, 9487, 0, 0 } ,
-	{ 1331, 9487, 0, 0 } ,
-	{ 984, 9487, 0, 0 } ,
-	{ 1332, 9487, 0, 0 } ,
-	{ 1333, 9487, 0, 0 } ,
-	{ 1334, 9487, 0, 0 } ,
-	{ 1335, 9487, 0, 0 } ,
-	{ 177, 5086, offsetof(TypeTag_t4592, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1336, 9489, 0, 0 } ,
-	{ 1322, 9489, 0, 0 } ,
-	{ 1337, 9489, 0, 0 } ,
-	{ 1338, 9489, 0, 0 } ,
-	{ 1339, 9489, 0, 0 } ,
-	{ 1330, 9489, 0, 0 } ,
-	{ 1331, 9489, 0, 0 } ,
-	{ 1329, 9489, 0, 0 } ,
-	{ 177, 90, offsetof(MethodFlags_t4593, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1340, 9491, 0, 0 } ,
-	{ 1341, 9491, 0, 0 } ,
-	{ 1342, 9491, 0, 0 } ,
-	{ 1343, 9491, 0, 0 } ,
-	{ 1344, 9491, 0, 0 } ,
-	{ 1345, 9491, 0, 0 } ,
-	{ 1346, 9491, 0, 0 } ,
-	{ 1347, 9491, 0, 0 } ,
-	{ 1348, 9491, 0, 0 } ,
-	{ 1349, 9491, 0, 0 } ,
-	{ 177, 5086, offsetof(ReturnTypeTag_t4594, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 718, 9494, 0, 0 } ,
-	{ 1336, 9494, 0, 0 } ,
-	{ 1337, 9494, 0, 0 } ,
-	{ 1350, 9494, 0, 0 } ,
-	{ 1351, 9501, offsetof(BinaryFormatter_t4583, ___assembly_format_0), 0 } ,
-	{ 1352, 9502, offsetof(BinaryFormatter_t4583, ___binder_1), 0 } ,
-	{ 1353, 9503, offsetof(BinaryFormatter_t4583, ___context_2), 0 } ,
-	{ 1354, 9437, offsetof(BinaryFormatter_t4583, ___surrogate_selector_3), 0 } ,
-	{ 1355, 9504, offsetof(BinaryFormatter_t4583, ___type_format_4), 0 } ,
-	{ 1356, 9505, offsetof(BinaryFormatter_t4583, ___filter_level_5), 0 } ,
-	{ 1357, 9506, offsetof(BinaryFormatter_t4583_StaticFields, ___U3CDefaultSurrogateSelectorU3Ek__BackingField_6), 582 } ,
-	{ 1358, 4992, offsetof(TypeMetadata_t4598, ___Type_0), 0 } ,
-	{ 1359, 3563, offsetof(TypeMetadata_t4598, ___MemberTypes_1), 0 } ,
-	{ 1360, 1238, offsetof(TypeMetadata_t4598, ___MemberNames_2), 0 } ,
-	{ 1361, 9510, offsetof(TypeMetadata_t4598, ___MemberInfos_3), 0 } ,
-	{ 1362, 102, offsetof(TypeMetadata_t4598, ___FieldCount_4), 0 } ,
-	{ 1363, 104, offsetof(TypeMetadata_t4598, ___NeedsSerializationInfo_5), 0 } ,
-	{ 1364, 102, offsetof(ArrayNullFiller_t4599, ___NullCount_0), 0 } ,
-	{ 1365, 9437, offsetof(ObjectReader_t4601, ____surrogateSelector_0), 0 } ,
-	{ 1304, 9503, offsetof(ObjectReader_t4601, ____context_1), 0 } ,
-	{ 1366, 9502, offsetof(ObjectReader_t4601, ____binder_2), 0 } ,
-	{ 1367, 9505, offsetof(ObjectReader_t4601, ____filterLevel_3), 0 } ,
-	{ 1368, 9515, offsetof(ObjectReader_t4601, ____manager_4), 0 } ,
-	{ 1369, 5572, offsetof(ObjectReader_t4601, ____registeredAssemblies_5), 0 } ,
-	{ 1370, 5572, offsetof(ObjectReader_t4601, ____typeMetadataCache_6), 0 } ,
-	{ 1371, 612, offsetof(ObjectReader_t4601, ____lastObject_7), 0 } ,
-	{ 1372, 116, offsetof(ObjectReader_t4601, ____lastObjectID_8), 0 } ,
-	{ 1373, 116, offsetof(ObjectReader_t4601, ____rootObjectID_9), 0 } ,
-	{ 1374, 833, offsetof(ObjectReader_t4601, ___arrayBuffer_10), 0 } ,
-	{ 1375, 110, offsetof(ObjectReader_t4601, ___ArrayBufferLength_11), 0 } ,
-	{ 177, 90, offsetof(FormatterAssemblyStyle_t4602, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 179, 9517, 0, 0 } ,
-	{ 1376, 9517, 0, 0 } ,
-	{ 177, 90, offsetof(FormatterTypeStyle_t4603, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1377, 9519, 0, 0 } ,
-	{ 1378, 9519, 0, 0 } ,
-	{ 1379, 9519, 0, 0 } ,
-	{ 177, 90, offsetof(TypeFilterLevel_t4604, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 217, 9522, 0, 0 } ,
-	{ 1376, 9522, 0, 0 } ,
-	{ 1380, 9534, offsetof(ObjectManager_t4600, ____objectRecordChain_0), 0 } ,
-	{ 1381, 9534, offsetof(ObjectManager_t4600, ____lastObjectRecord_1), 0 } ,
-	{ 1382, 5582, offsetof(ObjectManager_t4600, ____deserializedRecords_2), 0 } ,
-	{ 1383, 5582, offsetof(ObjectManager_t4600, ____onDeserializedCallbackRecords_3), 0 } ,
-	{ 1384, 5572, offsetof(ObjectManager_t4600, ____objectRecords_4), 0 } ,
-	{ 1385, 100, offsetof(ObjectManager_t4600, ____finalFixup_5), 0 } ,
-	{ 1386, 9437, offsetof(ObjectManager_t4600, ____selector_6), 0 } ,
-	{ 1304, 9503, offsetof(ObjectManager_t4600, ____context_7), 0 } ,
-	{ 1387, 110, offsetof(ObjectManager_t4600, ____registeredObjectsCount_8), 0 } ,
-	{ 1388, 9536, offsetof(BaseFixupRecord_t4608, ___ObjectToBeFixed_0), 0 } ,
-	{ 1389, 9536, offsetof(BaseFixupRecord_t4608, ___ObjectRequired_1), 0 } ,
-	{ 1390, 9537, offsetof(BaseFixupRecord_t4608, ___NextSameContainer_2), 0 } ,
-	{ 1391, 9537, offsetof(BaseFixupRecord_t4608, ___NextSameRequired_3), 0 } ,
-	{ 415, 110, offsetof(ArrayFixupRecord_t4609, ____index_4), 0 } ,
-	{ 1392, 1416, offsetof(MultiArrayFixupRecord_t4610, ____indices_4), 0 } ,
-	{ 1393, 9541, offsetof(FixupRecord_t4611, ____member_4), 0 } ,
-	{ 976, 101, offsetof(DelayedFixupRecord_t4612, ____memberName_4), 0 } ,
-	{ 177, 5086, offsetof(ObjectRecordStatus_t4613, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1394, 9544, 0, 0 } ,
-	{ 1395, 9544, 0, 0 } ,
-	{ 1396, 9544, 0, 0 } ,
-	{ 1397, 9544, 0, 0 } ,
-	{ 1398, 9547, offsetof(ObjectRecord_t4607, ___Status_0), 0 } ,
-	{ 1399, 614, offsetof(ObjectRecord_t4607, ___OriginalObject_1), 0 } ,
-	{ 1400, 614, offsetof(ObjectRecord_t4607, ___ObjectInstance_2), 0 } ,
-	{ 1401, 813, offsetof(ObjectRecord_t4607, ___ObjectID_3), 0 } ,
-	{ 1402, 9548, offsetof(ObjectRecord_t4607, ___Info_4), 0 } ,
-	{ 1403, 813, offsetof(ObjectRecord_t4607, ___IdOfContainingObj_5), 0 } ,
-	{ 700, 9549, offsetof(ObjectRecord_t4607, ___Surrogate_6), 0 } ,
-	{ 1404, 9550, offsetof(ObjectRecord_t4607, ___SurrogateSelector_7), 0 } ,
-	{ 1405, 9541, offsetof(ObjectRecord_t4607, ___Member_8), 0 } ,
-	{ 1406, 1330, offsetof(ObjectRecord_t4607, ___ArrayIndex_9), 0 } ,
-	{ 1407, 9537, offsetof(ObjectRecord_t4607, ___FixupChainAsContainer_10), 0 } ,
-	{ 1408, 9537, offsetof(ObjectRecord_t4607, ___FixupChainAsRequired_11), 0 } ,
-	{ 378, 9551, offsetof(ObjectRecord_t4607, ___Next_12), 0 } ,
-	{ 1409, 9559, offsetof(SerializationCallbacks_t4620, ___onSerializingList_0), 0 } ,
-	{ 1410, 9559, offsetof(SerializationCallbacks_t4620, ___onSerializedList_1), 0 } ,
-	{ 1411, 9559, offsetof(SerializationCallbacks_t4620, ___onDeserializingList_2), 0 } ,
-	{ 1412, 9559, offsetof(SerializationCallbacks_t4620, ___onDeserializedList_3), 0 } ,
-	{ 1413, 6732, offsetof(SerializationCallbacks_t4620_StaticFields, ___cache_4), 0 } ,
-	{ 1414, 3622, offsetof(SerializationCallbacks_t4620_StaticFields, ___cache_lock_5), 0 } ,
-	{ 480, 99, offsetof(SerializationEntry_t4621, ___name_0) + sizeof(Object_t), 0 } ,
-	{ 1415, 5560, offsetof(SerializationEntry_t4621, ___objectType_1) + sizeof(Object_t), 0 } ,
-	{ 81, 612, offsetof(SerializationEntry_t4621, ___value_2) + sizeof(Object_t), 0 } ,
-	{ 1416, 5572, offsetof(SerializationInfo_t2860, ___serialized_0), 0 } ,
-	{ 1417, 5582, offsetof(SerializationInfo_t2860, ___values_1), 0 } ,
-	{ 102, 99, offsetof(SerializationInfo_t2860, ___assemblyName_2), 0 } ,
-	{ 1418, 99, offsetof(SerializationInfo_t2860, ___fullTypeName_3), 0 } ,
-	{ 1419, 9563, offsetof(SerializationInfo_t2860, ___converter_4), 0 } ,
-	{ 339, 1290, offsetof(SerializationInfoEnumerator_t4623, ___enumerator_0), 0 } ,
-	{ 476, 9567, offsetof(StreamingContext_t2861, ___state_0) + sizeof(Object_t), 0 } ,
-	{ 1420, 612, offsetof(StreamingContext_t2861, ___additional_1) + sizeof(Object_t), 0 } ,
-	{ 177, 90, offsetof(StreamingContextStates_t4624, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1421, 9569, 0, 0 } ,
-	{ 1422, 9569, 0, 0 } ,
-	{ 1423, 9569, 0, 0 } ,
-	{ 1424, 9569, 0, 0 } ,
-	{ 1425, 9569, 0, 0 } ,
-	{ 1426, 9569, 0, 0 } ,
-	{ 1427, 9569, 0, 0 } ,
-	{ 1428, 9569, 0, 0 } ,
-	{ 989, 9569, 0, 0 } ,
-	{ 1429, 9571, offsetof(X509Certificate_t3824, ___x509_0), 0 } ,
-	{ 1430, 100, offsetof(X509Certificate_t3824, ___hideDates_1), 0 } ,
-	{ 1431, 833, offsetof(X509Certificate_t3824, ___cachedCertificateHash_2), 0 } ,
-	{ 1432, 99, offsetof(X509Certificate_t3824, ___issuer_name_3), 0 } ,
-	{ 1433, 99, offsetof(X509Certificate_t3824, ___subject_name_4), 0 } ,
-	{ 177, 90, offsetof(X509KeyStorageFlags_t4275, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1434, 9573, 0, 0 } ,
-	{ 1435, 9573, 0, 0 } ,
-	{ 1436, 9573, 0, 0 } ,
-	{ 1437, 9573, 0, 0 } ,
-	{ 1438, 9573, 0, 0 } ,
-	{ 1439, 9573, 0, 0 } ,
-	{ 1440, 571, offsetof(AsymmetricAlgorithm_t3842, ___KeySizeValue_0), 0 } ,
-	{ 1441, 9575, offsetof(AsymmetricAlgorithm_t3842, ___LegalKeySizesValue_1), 0 } ,
-	{ 1442, 9581, offsetof(Base64Constants_t4626_StaticFields, ___EncodeTable_0), 0 } ,
-	{ 1443, 9581, offsetof(Base64Constants_t4626_StaticFields, ___DecodeTable_1), 0 } ,
-	{ 177, 90, offsetof(CipherMode_t3889, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1444, 9583, 0, 0 } ,
-	{ 1445, 9583, 0, 0 } ,
-	{ 1446, 9583, 0, 0 } ,
-	{ 1447, 9583, 0, 0 } ,
-	{ 1448, 9583, 0, 0 } ,
-	{ 356, 3622, offsetof(CryptoConfig_t3857_StaticFields, ___lockObject_0), 0 } ,
-	{ 1449, 6732, offsetof(CryptoConfig_t3857_StaticFields, ___algorithms_1), 0 } ,
-	{ 1450, 6732, offsetof(CryptoConfig_t3857_StaticFields, ___oid_2), 0 } ,
-	{ 1451, 9589, offsetof(CspParameters_t3859, ____Flags_0), 0 } ,
-	{ 1452, 101, offsetof(CspParameters_t3859, ___KeyContainerName_1), 0 } ,
-	{ 1453, 102, offsetof(CspParameters_t3859, ___KeyNumber_2), 0 } ,
-	{ 1454, 101, offsetof(CspParameters_t3859, ___ProviderName_3), 0 } ,
-	{ 1455, 102, offsetof(CspParameters_t3859, ___ProviderType_4), 0 } ,
-	{ 177, 90, offsetof(CspProviderFlags_t4627, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1456, 9591, 0, 0 } ,
-	{ 1457, 9591, 0, 0 } ,
-	{ 1458, 9591, 0, 0 } ,
-	{ 1459, 9591, 0, 0 } ,
-	{ 1460, 9591, 0, 0 } ,
-	{ 1461, 9591, 0, 0 } ,
-	{ 1462, 9591, 0, 0 } ,
-	{ 1463, 9591, 0, 0 } ,
-	{ 1464, 9593, offsetof(DES_t3872_StaticFields, ___weakKeys_10), 0 } ,
-	{ 1465, 9593, offsetof(DES_t3872_StaticFields, ___semiWeakKeys_11), 0 } ,
-	{ 1466, 9595, offsetof(DESTransform_t4629_StaticFields, ___KEY_BIT_SIZE_12), 0 } ,
-	{ 1467, 9595, offsetof(DESTransform_t4629_StaticFields, ___KEY_BYTE_SIZE_13), 0 } ,
-	{ 1468, 9595, offsetof(DESTransform_t4629_StaticFields, ___BLOCK_BIT_SIZE_14), 0 } ,
-	{ 1469, 9595, offsetof(DESTransform_t4629_StaticFields, ___BLOCK_BYTE_SIZE_15), 0 } ,
-	{ 1470, 833, offsetof(DESTransform_t4629, ___keySchedule_16), 0 } ,
-	{ 1471, 833, offsetof(DESTransform_t4629, ___byteBuff_17), 0 } ,
-	{ 1472, 6602, offsetof(DESTransform_t4629, ___dwordBuff_18), 0 } ,
-	{ 1473, 5664, offsetof(DESTransform_t4629_StaticFields, ___spBoxes_19), 0 } ,
-	{ 1474, 5663, offsetof(DESTransform_t4629_StaticFields, ___PC1_20), 0 } ,
-	{ 1475, 5663, offsetof(DESTransform_t4629_StaticFields, ___leftRotTotal_21), 0 } ,
-	{ 1476, 5663, offsetof(DESTransform_t4629_StaticFields, ___PC2_22), 0 } ,
-	{ 1477, 6603, offsetof(DESTransform_t4629_StaticFields, ___ipTab_23), 0 } ,
-	{ 1478, 6603, offsetof(DESTransform_t4629_StaticFields, ___fpTab_24), 0 } ,
-	{ 1479, 9600, offsetof(DSACryptoServiceProvider_t3863, ___store_2), 0 } ,
-	{ 1480, 100, offsetof(DSACryptoServiceProvider_t3863, ___persistKey_3), 0 } ,
-	{ 1481, 100, offsetof(DSACryptoServiceProvider_t3863, ___persisted_4), 0 } ,
-	{ 1482, 100, offsetof(DSACryptoServiceProvider_t3863, ___privateKeyExportable_5), 0 } ,
-	{ 233, 100, offsetof(DSACryptoServiceProvider_t3863, ___m_disposed_6), 0 } ,
-	{ 1483, 9601, offsetof(DSACryptoServiceProvider_t3863, ___dsa_7), 0 } ,
-	{ 1484, 640, offsetof(DSACryptoServiceProvider_t3863_StaticFields, ___useMachineKeyStore_8), 0 } ,
-	{ 1485, 102, offsetof(DSAParameters_t3854, ___Counter_0) + sizeof(Object_t), 0 } ,
-	{ 1486, 844, offsetof(DSAParameters_t3854, ___G_1) + sizeof(Object_t), 0 } ,
-	{ 1487, 844, offsetof(DSAParameters_t3854, ___J_2) + sizeof(Object_t), 0 } ,
-	{ 1488, 844, offsetof(DSAParameters_t3854, ___P_3) + sizeof(Object_t), 0 } ,
-	{ 1489, 844, offsetof(DSAParameters_t3854, ___Q_4) + sizeof(Object_t), 0 } ,
-	{ 1490, 844, offsetof(DSAParameters_t3854, ___Seed_5) + sizeof(Object_t), 0 } ,
-	{ 1491, 9604, offsetof(DSAParameters_t3854, ___X_6) + sizeof(Object_t), 0 } ,
-	{ 1492, 844, offsetof(DSAParameters_t3854, ___Y_7) + sizeof(Object_t), 0 } ,
-	{ 1483, 6654, offsetof(DSASignatureDeformatter_t3867, ___dsa_0), 0 } ,
-	{ 1483, 6654, offsetof(DSASignatureFormatter_t4631, ___dsa_0), 0 } ,
-	{ 1273, 100, offsetof(HMAC_t3862, ____disposed_5), 0 } ,
-	{ 288, 99, offsetof(HMAC_t3862, ____hashName_6), 0 } ,
-	{ 1493, 6689, offsetof(HMAC_t3862, ____algo_7), 0 } ,
-	{ 1494, 9609, offsetof(HMAC_t3862, ____block_8), 0 } ,
-	{ 1495, 110, offsetof(HMAC_t3862, ____blockSizeValue_9), 0 } ,
-	{ 1496, 640, offsetof(HMACSHA384_t4635_StaticFields, ___legacy_mode_10), 0 } ,
-	{ 1497, 100, offsetof(HMACSHA384_t4635, ___legacy_11), 0 } ,
-	{ 1496, 640, offsetof(HMACSHA512_t4636_StaticFields, ___legacy_mode_10), 0 } ,
-	{ 1497, 100, offsetof(HMACSHA512_t4636, ___legacy_11), 0 } ,
-	{ 1498, 9620, offsetof(HashAlgorithm_t3737, ___HashValue_0), 0 } ,
-	{ 1499, 571, offsetof(HashAlgorithm_t3737, ___HashSizeValue_1), 0 } ,
-	{ 1500, 571, offsetof(HashAlgorithm_t3737, ___State_2), 0 } ,
-	{ 720, 100, offsetof(HashAlgorithm_t3737, ___disposed_3), 0 } ,
-	{ 1501, 110, offsetof(KeySizes_t3861, ____maxSize_0), 0 } ,
-	{ 1502, 110, offsetof(KeySizes_t3861, ____minSize_1), 0 } ,
-	{ 1503, 110, offsetof(KeySizes_t3861, ____skipSize_2), 0 } ,
-	{ 1504, 9625, offsetof(KeyedHashAlgorithm_t3776, ___KeyValue_4), 0 } ,
-	{ 1505, 9627, offsetof(MACTripleDES_t4637, ___tdes_5), 0 } ,
-	{ 677, 9628, offsetof(MACTripleDES_t4637, ___mac_6), 0 } ,
-	{ 233, 100, offsetof(MACTripleDES_t4637, ___m_disposed_7), 0 } ,
-	{ 1506, 6602, offsetof(MD5CryptoServiceProvider_t4638, ____H_4), 0 } ,
-	{ 1507, 6602, offsetof(MD5CryptoServiceProvider_t4638, ___buff_5), 0 } ,
-	{ 393, 6745, offsetof(MD5CryptoServiceProvider_t4638, ___count_6), 0 } ,
-	{ 1508, 833, offsetof(MD5CryptoServiceProvider_t4638, ____ProcessingBuffer_7), 0 } ,
-	{ 1509, 110, offsetof(MD5CryptoServiceProvider_t4638, ____ProcessingBufferCount_8), 0 } ,
-	{ 1510, 5664, offsetof(MD5CryptoServiceProvider_t4638_StaticFields, ___K_9), 0 } ,
-	{ 177, 90, offsetof(PaddingMode_t4639, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 9633, 0, 0 } ,
-	{ 1511, 9633, 0, 0 } ,
-	{ 1512, 9633, 0, 0 } ,
-	{ 1513, 9633, 0, 0 } ,
-	{ 1514, 9633, 0, 0 } ,
-	{ 1515, 571, offsetof(RC2_t3873, ___EffectiveKeySizeValue_10), 0 } ,
-	{ 1516, 9638, offsetof(RC2Transform_t4641, ___R0_12), 0 } ,
-	{ 1517, 9638, offsetof(RC2Transform_t4641, ___R1_13), 0 } ,
-	{ 1518, 9638, offsetof(RC2Transform_t4641, ___R2_14), 0 } ,
-	{ 1519, 9638, offsetof(RC2Transform_t4641, ___R3_15), 0 } ,
-	{ 1510, 7455, offsetof(RC2Transform_t4641, ___K_16), 0 } ,
-	{ 239, 110, offsetof(RC2Transform_t4641, ___j_17), 0 } ,
-	{ 1520, 5663, offsetof(RC2Transform_t4641_StaticFields, ___pitable_18), 0 } ,
-	{ 1508, 833, offsetof(RIPEMD160Managed_t4643, ____ProcessingBuffer_4), 0 } ,
-	{ 1521, 6602, offsetof(RIPEMD160Managed_t4643, ____X_5), 0 } ,
-	{ 1522, 6602, offsetof(RIPEMD160Managed_t4643, ____HashValue_6), 0 } ,
-	{ 1523, 6745, offsetof(RIPEMD160Managed_t4643, ____Length_7), 0 } ,
-	{ 1509, 110, offsetof(RIPEMD160Managed_t4643, ____ProcessingBufferCount_8), 0 } ,
-	{ 1524, 3622, offsetof(RNGCryptoServiceProvider_t4644_StaticFields, ____lock_0), 0 } ,
-	{ 1525, 4514, offsetof(RNGCryptoServiceProvider_t4644, ____handle_1), 0 } ,
-	{ 1479, 9600, offsetof(RSACryptoServiceProvider_t3860, ___store_2), 0 } ,
-	{ 1480, 100, offsetof(RSACryptoServiceProvider_t3860, ___persistKey_3), 0 } ,
-	{ 1481, 100, offsetof(RSACryptoServiceProvider_t3860, ___persisted_4), 0 } ,
-	{ 1482, 100, offsetof(RSACryptoServiceProvider_t3860, ___privateKeyExportable_5), 0 } ,
-	{ 233, 100, offsetof(RSACryptoServiceProvider_t3860, ___m_disposed_6), 0 } ,
-	{ 352, 9646, offsetof(RSACryptoServiceProvider_t3860, ___rsa_7), 0 } ,
-	{ 1484, 640, offsetof(RSACryptoServiceProvider_t3860_StaticFields, ___useMachineKeyStore_8), 0 } ,
-	{ 352, 6653, offsetof(RSAPKCS1KeyExchangeFormatter_t3884, ___rsa_0), 0 } ,
-	{ 1526, 6747, offsetof(RSAPKCS1KeyExchangeFormatter_t3884, ___random_1), 0 } ,
-	{ 352, 6653, offsetof(RSAPKCS1SignatureDeformatter_t3868, ___rsa_0), 0 } ,
-	{ 1527, 99, offsetof(RSAPKCS1SignatureDeformatter_t3868, ___hashName_1), 0 } ,
-	{ 352, 6653, offsetof(RSAPKCS1SignatureFormatter_t4645, ___rsa_0), 0 } ,
-	{ 1528, 6689, offsetof(RSAPKCS1SignatureFormatter_t4645, ___hash_1), 0 } ,
-	{ 1488, 9604, offsetof(RSAParameters_t3827, ___P_0) + sizeof(Object_t), 0 } ,
-	{ 1489, 9604, offsetof(RSAParameters_t3827, ___Q_1) + sizeof(Object_t), 0 } ,
-	{ 1529, 9604, offsetof(RSAParameters_t3827, ___D_2) + sizeof(Object_t), 0 } ,
-	{ 1530, 9604, offsetof(RSAParameters_t3827, ___DP_3) + sizeof(Object_t), 0 } ,
-	{ 1531, 9604, offsetof(RSAParameters_t3827, ___DQ_4) + sizeof(Object_t), 0 } ,
-	{ 1532, 9604, offsetof(RSAParameters_t3827, ___InverseQ_5) + sizeof(Object_t), 0 } ,
-	{ 1533, 844, offsetof(RSAParameters_t3827, ___Modulus_6) + sizeof(Object_t), 0 } ,
-	{ 1534, 844, offsetof(RSAParameters_t3827, ___Exponent_7) + sizeof(Object_t), 0 } ,
-	{ 1535, 6602, offsetof(RijndaelTransform_t4647, ___expandedKey_12), 0 } ,
-	{ 1536, 110, offsetof(RijndaelTransform_t4647, ___Nb_13), 0 } ,
-	{ 1537, 110, offsetof(RijndaelTransform_t4647, ___Nk_14), 0 } ,
-	{ 1538, 110, offsetof(RijndaelTransform_t4647, ___Nr_15), 0 } ,
-	{ 1539, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___Rcon_16), 0 } ,
-	{ 1540, 5663, offsetof(RijndaelTransform_t4647_StaticFields, ___SBox_17), 0 } ,
-	{ 1541, 5663, offsetof(RijndaelTransform_t4647_StaticFields, ___iSBox_18), 0 } ,
-	{ 1542, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___T0_19), 0 } ,
-	{ 1543, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___T1_20), 0 } ,
-	{ 1544, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___T2_21), 0 } ,
-	{ 1545, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___T3_22), 0 } ,
-	{ 1546, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___iT0_23), 0 } ,
-	{ 1547, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___iT1_24), 0 } ,
-	{ 1548, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___iT2_25), 0 } ,
-	{ 1549, 5664, offsetof(RijndaelTransform_t4647_StaticFields, ___iT3_26), 0 } ,
-	{ 1550, 9658, offsetof(RijndaelManagedTransform_t4648, ____st_0), 0 } ,
-	{ 1551, 110, offsetof(RijndaelManagedTransform_t4648, ____bs_1), 0 } ,
-	{ 1506, 6602, offsetof(SHA1Internal_t4649, ____H_0), 0 } ,
-	{ 393, 6745, offsetof(SHA1Internal_t4649, ___count_1), 0 } ,
-	{ 1508, 833, offsetof(SHA1Internal_t4649, ____ProcessingBuffer_2), 0 } ,
-	{ 1509, 110, offsetof(SHA1Internal_t4649, ____ProcessingBufferCount_3), 0 } ,
-	{ 1507, 6602, offsetof(SHA1Internal_t4649, ___buff_4), 0 } ,
-	{ 1552, 9662, offsetof(SHA1CryptoServiceProvider_t4650, ___sha_4), 0 } ,
-	{ 1552, 9662, offsetof(SHA1Managed_t4651, ___sha_4), 0 } ,
-	{ 1506, 6602, offsetof(SHA256Managed_t4652, ____H_4), 0 } ,
-	{ 393, 6745, offsetof(SHA256Managed_t4652, ___count_5), 0 } ,
-	{ 1508, 833, offsetof(SHA256Managed_t4652, ____ProcessingBuffer_6), 0 } ,
-	{ 1509, 110, offsetof(SHA256Managed_t4652, ____ProcessingBufferCount_7), 0 } ,
-	{ 1507, 6602, offsetof(SHA256Managed_t4652, ___buff_8), 0 } ,
-	{ 1553, 833, offsetof(SHA384Managed_t4655, ___xBuf_4), 0 } ,
-	{ 1554, 110, offsetof(SHA384Managed_t4655, ___xBufOff_5), 0 } ,
-	{ 1555, 6745, offsetof(SHA384Managed_t4655, ___byteCount1_6), 0 } ,
-	{ 1556, 6745, offsetof(SHA384Managed_t4655, ___byteCount2_7), 0 } ,
-	{ 1557, 6745, offsetof(SHA384Managed_t4655, ___H1_8), 0 } ,
-	{ 1558, 6745, offsetof(SHA384Managed_t4655, ___H2_9), 0 } ,
-	{ 1559, 6745, offsetof(SHA384Managed_t4655, ___H3_10), 0 } ,
-	{ 1560, 6745, offsetof(SHA384Managed_t4655, ___H4_11), 0 } ,
-	{ 1561, 6745, offsetof(SHA384Managed_t4655, ___H5_12), 0 } ,
-	{ 1562, 6745, offsetof(SHA384Managed_t4655, ___H6_13), 0 } ,
-	{ 1563, 6745, offsetof(SHA384Managed_t4655, ___H7_14), 0 } ,
-	{ 1564, 6745, offsetof(SHA384Managed_t4655, ___H8_15), 0 } ,
-	{ 1565, 9672, offsetof(SHA384Managed_t4655, ___W_16), 0 } ,
-	{ 1566, 110, offsetof(SHA384Managed_t4655, ___wOff_17), 0 } ,
-	{ 1553, 833, offsetof(SHA512Managed_t4657, ___xBuf_4), 0 } ,
-	{ 1554, 110, offsetof(SHA512Managed_t4657, ___xBufOff_5), 0 } ,
-	{ 1555, 6745, offsetof(SHA512Managed_t4657, ___byteCount1_6), 0 } ,
-	{ 1556, 6745, offsetof(SHA512Managed_t4657, ___byteCount2_7), 0 } ,
-	{ 1557, 6745, offsetof(SHA512Managed_t4657, ___H1_8), 0 } ,
-	{ 1558, 6745, offsetof(SHA512Managed_t4657, ___H2_9), 0 } ,
-	{ 1559, 6745, offsetof(SHA512Managed_t4657, ___H3_10), 0 } ,
-	{ 1560, 6745, offsetof(SHA512Managed_t4657, ___H4_11), 0 } ,
-	{ 1561, 6745, offsetof(SHA512Managed_t4657, ___H5_12), 0 } ,
-	{ 1562, 6745, offsetof(SHA512Managed_t4657, ___H6_13), 0 } ,
-	{ 1563, 6745, offsetof(SHA512Managed_t4657, ___H7_14), 0 } ,
-	{ 1564, 6745, offsetof(SHA512Managed_t4657, ___H8_15), 0 } ,
-	{ 1565, 9672, offsetof(SHA512Managed_t4657, ___W_16), 0 } ,
-	{ 1566, 110, offsetof(SHA512Managed_t4657, ___wOff_17), 0 } ,
-	{ 1567, 9679, offsetof(SHAConstants_t4658_StaticFields, ___K1_0), 0 } ,
-	{ 1568, 9680, offsetof(SHAConstants_t4658_StaticFields, ___K2_1), 0 } ,
-	{ 1569, 99, offsetof(SignatureDescription_t4659, ____DeformatterAlgorithm_0), 0 } ,
-	{ 1570, 99, offsetof(SignatureDescription_t4659, ____DigestAlgorithm_1), 0 } ,
-	{ 1571, 99, offsetof(SignatureDescription_t4659, ____FormatterAlgorithm_2), 0 } ,
-	{ 1572, 99, offsetof(SignatureDescription_t4659, ____KeyAlgorithm_3), 0 } ,
-	{ 1573, 571, offsetof(SymmetricAlgorithm_t3744, ___BlockSizeValue_0), 0 } ,
-	{ 1574, 9625, offsetof(SymmetricAlgorithm_t3744, ___IVValue_1), 0 } ,
-	{ 1440, 571, offsetof(SymmetricAlgorithm_t3744, ___KeySizeValue_2), 0 } ,
-	{ 1504, 9625, offsetof(SymmetricAlgorithm_t3744, ___KeyValue_3), 0 } ,
-	{ 1575, 9575, offsetof(SymmetricAlgorithm_t3744, ___LegalBlockSizesValue_4), 0 } ,
-	{ 1441, 9575, offsetof(SymmetricAlgorithm_t3744, ___LegalKeySizesValue_5), 0 } ,
-	{ 1576, 571, offsetof(SymmetricAlgorithm_t3744, ___FeedbackSizeValue_6), 0 } ,
-	{ 1577, 9688, offsetof(SymmetricAlgorithm_t3744, ___ModeValue_7), 0 } ,
-	{ 1578, 9689, offsetof(SymmetricAlgorithm_t3744, ___PaddingValue_8), 0 } ,
-	{ 233, 100, offsetof(SymmetricAlgorithm_t3744, ___m_disposed_9), 0 } ,
-	{ 233, 100, offsetof(ToBase64Transform_t4662, ___m_disposed_0), 0 } ,
-	{ 1579, 9696, offsetof(TripleDESTransform_t4664, ___E1_12), 0 } ,
-	{ 1580, 9696, offsetof(TripleDESTransform_t4664, ___D2_13), 0 } ,
-	{ 1581, 9696, offsetof(TripleDESTransform_t4664, ___E3_14), 0 } ,
-	{ 1582, 9696, offsetof(TripleDESTransform_t4664, ___D1_15), 0 } ,
-	{ 1583, 9696, offsetof(TripleDESTransform_t4664, ___E2_16), 0 } ,
-	{ 1584, 9696, offsetof(TripleDESTransform_t4664, ___D3_17), 0 } ,
-	{ 34, 9703, offsetof(SecurityPermission_t4665, ___flags_0), 0 } ,
-	{ 177, 90, offsetof(SecurityPermissionFlag_t4667, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1459, 9707, 0, 0 } ,
-	{ 1585, 9707, 0, 0 } ,
-	{ 1586, 9707, 0, 0 } ,
-	{ 1587, 9707, 0, 0 } ,
-	{ 1588, 9707, 0, 0 } ,
-	{ 1589, 9707, 0, 0 } ,
-	{ 1590, 9707, 0, 0 } ,
-	{ 1591, 9707, 0, 0 } ,
-	{ 1592, 9707, 0, 0 } ,
-	{ 1593, 9707, 0, 0 } ,
-	{ 1594, 9707, 0, 0 } ,
-	{ 1595, 9707, 0, 0 } ,
-	{ 1596, 9707, 0, 0 } ,
-	{ 1597, 9707, 0, 0 } ,
-	{ 1598, 9707, 0, 0 } ,
-	{ 1599, 9707, 0, 0 } ,
-	{ 1600, 577, offsetof(StrongNamePublicKeyBlob_t4668, ___pubkey_0), 0 } ,
-	{ 1601, 9710, offsetof(ApplicationTrust_t4670, ___fullTrustAssemblies_0), 0 } ,
-	{ 1602, 1290, offsetof(EvidenceEnumerator_t4671, ___currentEnum_0), 0 } ,
-	{ 1603, 1290, offsetof(EvidenceEnumerator_t4671, ___hostEnum_1), 0 } ,
-	{ 1604, 1290, offsetof(EvidenceEnumerator_t4671, ___assemblyEnum_2), 0 } ,
-	{ 1605, 5582, offsetof(Evidence_t4471, ___hostEvidenceList_0), 0 } ,
-	{ 1606, 5582, offsetof(Evidence_t4471, ___assemblyEvidenceList_1), 0 } ,
-	{ 1607, 110, offsetof(Evidence_t4471, ____hashCode_2), 0 } ,
-	{ 1019, 9715, offsetof(Hash_t4672, ___assembly_0), 0 } ,
-	{ 52, 833, offsetof(Hash_t4672, ___data_1), 0 } ,
-	{ 1608, 9721, offsetof(StrongName_t4673, ___publickey_0), 0 } ,
-	{ 480, 99, offsetof(StrongName_t4673, ___name_1), 0 } ,
-	{ 333, 7438, offsetof(StrongName_t4673, ___version_2), 0 } ,
-	{ 177, 90, offsetof(PrincipalPolicy_t4674, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1609, 9727, 0, 0 } ,
-	{ 1610, 9727, 0, 0 } ,
-	{ 1611, 9727, 0, 0 } ,
-	{ 177, 90, offsetof(WindowsAccountType_t4675, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 733, 9730, 0, 0 } ,
-	{ 1612, 9730, 0, 0 } ,
-	{ 739, 9730, 0, 0 } ,
-	{ 1613, 9730, 0, 0 } ,
-	{ 1614, 4514, offsetof(WindowsIdentity_t4676, ____token_0), 0 } ,
-	{ 1116, 99, offsetof(WindowsIdentity_t4676, ____type_1), 0 } ,
-	{ 1615, 9732, offsetof(WindowsIdentity_t4676, ____account_2), 0 } ,
-	{ 1616, 100, offsetof(WindowsIdentity_t4676, ____authenticated_3), 0 } ,
-	{ 1617, 99, offsetof(WindowsIdentity_t4676, ____name_4), 0 } ,
-	{ 1618, 5921, offsetof(WindowsIdentity_t4676, ____info_5), 0 } ,
-	{ 1619, 7527, offsetof(WindowsIdentity_t4676_StaticFields, ___invalidWindows_6), 0 } ,
-	{ 1620, 100, offsetof(PermissionSet_t4472, ___U3CDeclarativeSecurityU3Ek__BackingField_0), 704 } ,
-	{ 1621, 100, offsetof(SecurityContext_t4678, ____capture_0), 0 } ,
-	{ 1622, 4514, offsetof(SecurityContext_t4678, ____winid_1), 0 } ,
-	{ 1623, 9739, offsetof(SecurityContext_t4678, ____stack_2), 0 } ,
-	{ 1624, 100, offsetof(SecurityContext_t4678, ____suppressFlow_3), 0 } ,
-	{ 1617, 99, offsetof(SecurityAttribute_t4679, ____name_0), 0 } ,
-	{ 427, 99, offsetof(SecurityAttribute_t4679, ____value_1), 0 } ,
-	{ 1625, 99, offsetof(SecurityElement_t4367, ___text_0), 0 } ,
-	{ 1626, 99, offsetof(SecurityElement_t4367, ___tag_1), 0 } ,
-	{ 371, 5582, offsetof(SecurityElement_t4367, ___attributes_2), 0 } ,
-	{ 1627, 5582, offsetof(SecurityElement_t4367, ___children_3), 0 } ,
-	{ 1628, 2076, offsetof(SecurityElement_t4367_StaticFields, ___invalid_tag_chars_4), 0 } ,
-	{ 1629, 2076, offsetof(SecurityElement_t4367_StaticFields, ___invalid_text_chars_5), 0 } ,
-	{ 1630, 2076, offsetof(SecurityElement_t4367_StaticFields, ___invalid_attr_name_chars_6), 0 } ,
-	{ 1631, 2076, offsetof(SecurityElement_t4367_StaticFields, ___invalid_attr_value_chars_7), 0 } ,
-	{ 1632, 2076, offsetof(SecurityElement_t4367_StaticFields, ___invalid_chars_8), 0 } ,
-	{ 1633, 99, offsetof(SecurityException_t4140, ___permissionState_11), 0 } ,
-	{ 1634, 5560, offsetof(SecurityException_t4140, ___permissionType_12), 0 } ,
-	{ 916, 99, offsetof(SecurityException_t4140, ____granted_13), 0 } ,
-	{ 1635, 99, offsetof(SecurityException_t4140, ____refused_14), 0 } ,
-	{ 1636, 612, offsetof(SecurityException_t4140, ____demanded_15), 0 } ,
-	{ 1637, 9744, offsetof(SecurityException_t4140, ____firstperm_16), 0 } ,
-	{ 1194, 5929, offsetof(SecurityException_t4140, ____method_17), 0 } ,
-	{ 912, 9137, offsetof(SecurityException_t4140, ____evidence_18), 0 } ,
-	{ 1638, 4604, offsetof(RuntimeDeclSecurityEntry_t4681, ___blob_0) + sizeof(Object_t), 0 } ,
-	{ 434, 102, offsetof(RuntimeDeclSecurityEntry_t4681, ___size_1) + sizeof(Object_t), 0 } ,
-	{ 407, 102, offsetof(RuntimeDeclSecurityEntry_t4681, ___index_2) + sizeof(Object_t), 0 } ,
-	{ 1639, 9748, offsetof(RuntimeSecurityFrame_t4682, ___domain_0), 0 } ,
-	{ 47, 3971, offsetof(RuntimeSecurityFrame_t4682, ___method_1), 0 } ,
-	{ 1640, 9749, offsetof(RuntimeSecurityFrame_t4682, ___assert_2), 0 } ,
-	{ 1641, 9749, offsetof(RuntimeSecurityFrame_t4682, ___deny_3), 0 } ,
-	{ 1642, 9749, offsetof(RuntimeSecurityFrame_t4682, ___permitonly_4), 0 } ,
-	{ 1643, 9751, offsetof(SecurityFrame_t4683, ____domain_0) + sizeof(Object_t), 0 } ,
-	{ 1194, 5929, offsetof(SecurityFrame_t4683, ____method_1) + sizeof(Object_t), 0 } ,
-	{ 1644, 9139, offsetof(SecurityFrame_t4683, ____assert_2) + sizeof(Object_t), 0 } ,
-	{ 1645, 9139, offsetof(SecurityFrame_t4683, ____deny_3) + sizeof(Object_t), 0 } ,
-	{ 1646, 9139, offsetof(SecurityFrame_t4683, ____permitonly_4) + sizeof(Object_t), 0 } ,
-	{ 1647, 3622, offsetof(SecurityManager_t4684_StaticFields, ____lockObject_0), 0 } ,
-	{ 1648, 6732, offsetof(SecurityManager_t4684_StaticFields, ____declsecCache_1), 0 } ,
-	{ 1649, 9753, offsetof(SecurityManager_t4684_StaticFields, ____execution_2), 0 } ,
-	{ 1650, 9765, offsetof(Decoder_t3176, ___fallback_0), 0 } ,
-	{ 1651, 9766, offsetof(Decoder_t3176, ___fallback_buffer_1), 0 } ,
-	{ 1652, 9770, offsetof(DecoderFallback_t4686_StaticFields, ___exception_fallback_0), 0 } ,
-	{ 1653, 9770, offsetof(DecoderFallback_t4686_StaticFields, ___replacement_fallback_1), 0 } ,
-	{ 1654, 9770, offsetof(DecoderFallback_t4686_StaticFields, ___standard_safe_fallback_2), 0 } ,
-	{ 1655, 833, offsetof(DecoderFallbackException_t4690, ___bytes_unknown_13), 0 } ,
-	{ 407, 110, offsetof(DecoderFallbackException_t4690, ___index_14), 0 } ,
-	{ 1656, 99, offsetof(DecoderReplacementFallback_t4691, ___replacement_3), 0 } ,
-	{ 1657, 100, offsetof(DecoderReplacementFallbackBuffer_t4692, ___fallback_assigned_0), 0 } ,
-	{ 359, 110, offsetof(DecoderReplacementFallbackBuffer_t4692, ___current_1), 0 } ,
-	{ 1656, 99, offsetof(DecoderReplacementFallbackBuffer_t4692, ___replacement_2), 0 } ,
-	{ 1652, 9777, offsetof(EncoderFallback_t4694_StaticFields, ___exception_fallback_0), 0 } ,
-	{ 1653, 9777, offsetof(EncoderFallback_t4694_StaticFields, ___replacement_fallback_1), 0 } ,
-	{ 1654, 9777, offsetof(EncoderFallback_t4694_StaticFields, ___standard_safe_fallback_2), 0 } ,
-	{ 1658, 2081, offsetof(EncoderFallbackException_t4697, ___char_unknown_13), 0 } ,
-	{ 1659, 2081, offsetof(EncoderFallbackException_t4697, ___char_unknown_high_14), 0 } ,
-	{ 1660, 2081, offsetof(EncoderFallbackException_t4697, ___char_unknown_low_15), 0 } ,
-	{ 407, 110, offsetof(EncoderFallbackException_t4697, ___index_16), 0 } ,
-	{ 1656, 99, offsetof(EncoderReplacementFallback_t4698, ___replacement_3), 0 } ,
-	{ 1656, 99, offsetof(EncoderReplacementFallbackBuffer_t4699, ___replacement_0), 0 } ,
-	{ 359, 110, offsetof(EncoderReplacementFallbackBuffer_t4699, ___current_1), 0 } ,
-	{ 1657, 100, offsetof(EncoderReplacementFallbackBuffer_t4699, ___fallback_assigned_2), 0 } ,
-	{ 845, 5693, offsetof(ForwardingDecoder_t4700, ___encoding_2), 0 } ,
-	{ 1661, 137, offsetof(Encoding_t681, ___codePage_0), 0 } ,
-	{ 1662, 137, offsetof(Encoding_t681, ___windows_code_page_1), 0 } ,
-	{ 1663, 100, offsetof(Encoding_t681, ___is_readonly_2), 0 } ,
-	{ 1664, 9765, offsetof(Encoding_t681, ___decoder_fallback_3), 0 } ,
-	{ 1665, 9783, offsetof(Encoding_t681, ___encoder_fallback_4), 0 } ,
-	{ 1666, 9784, offsetof(Encoding_t681_StaticFields, ___i18nAssembly_5), 0 } ,
-	{ 1667, 640, offsetof(Encoding_t681_StaticFields, ___i18nDisabled_6), 0 } ,
-	{ 1668, 4983, offsetof(Encoding_t681_StaticFields, ___encodings_7), 0 } ,
-	{ 1669, 1003, offsetof(Encoding_t681, ___body_name_8), 0 } ,
-	{ 1670, 1003, offsetof(Encoding_t681, ___encoding_name_9), 0 } ,
-	{ 1671, 1003, offsetof(Encoding_t681, ___header_name_10), 0 } ,
-	{ 1672, 2066, offsetof(Encoding_t681, ___is_mail_news_display_11), 0 } ,
-	{ 1673, 2066, offsetof(Encoding_t681, ___is_mail_news_save_12), 0 } ,
-	{ 1674, 2066, offsetof(Encoding_t681, ___is_browser_save_13), 0 } ,
-	{ 1675, 2066, offsetof(Encoding_t681, ___is_browser_display_14), 0 } ,
-	{ 1676, 1003, offsetof(Encoding_t681, ___web_name_15), 0 } ,
-	{ 1677, 9785, offsetof(Encoding_t681_StaticFields, ___asciiEncoding_16), 0 } ,
-	{ 1678, 9785, offsetof(Encoding_t681_StaticFields, ___bigEndianEncoding_17), 0 } ,
-	{ 1679, 9785, offsetof(Encoding_t681_StaticFields, ___defaultEncoding_18), 0 } ,
-	{ 1680, 9785, offsetof(Encoding_t681_StaticFields, ___utf7Encoding_19), 0 } ,
-	{ 1681, 9785, offsetof(Encoding_t681_StaticFields, ___utf8EncodingWithMarkers_20), 0 } ,
-	{ 1682, 9785, offsetof(Encoding_t681_StaticFields, ___utf8EncodingWithoutMarkers_21), 0 } ,
-	{ 1683, 9785, offsetof(Encoding_t681_StaticFields, ___unicodeEncoding_22), 0 } ,
-	{ 1684, 9785, offsetof(Encoding_t681_StaticFields, ___isoLatin1Encoding_23), 0 } ,
-	{ 1685, 9785, offsetof(Encoding_t681_StaticFields, ___utf8EncodingUnsafe_24), 0 } ,
-	{ 1686, 9785, offsetof(Encoding_t681_StaticFields, ___utf32Encoding_25), 0 } ,
-	{ 1687, 9785, offsetof(Encoding_t681_StaticFields, ___bigEndianUTF32Encoding_26), 0 } ,
-	{ 252, 3646, offsetof(Encoding_t681_StaticFields, ___lockobj_27), 0 } ,
-	{ 1688, 832, 0, 0 } ,
+	{ 1035, 5578, offsetof(MonoMethod_t, ___reftype_2), 0 } ,
+	{ 1034, 4500, offsetof(MonoCMethod_t4497, ___mhandle_2), 0 } ,
+	{ 480, 99, offsetof(MonoCMethod_t4497, ___name_3), 0 } ,
+	{ 1035, 5578, offsetof(MonoCMethod_t4497, ___reftype_4), 0 } ,
+	{ 723, 5010, offsetof(MonoPropertyInfo_t4499, ___parent_0) + sizeof(Object_t), 0 } ,
+	{ 480, 101, offsetof(MonoPropertyInfo_t4499, ___name_1) + sizeof(Object_t), 0 } ,
+	{ 889, 3989, offsetof(MonoPropertyInfo_t4499, ___get_method_2) + sizeof(Object_t), 0 } ,
+	{ 888, 3989, offsetof(MonoPropertyInfo_t4499, ___set_method_3) + sizeof(Object_t), 0 } ,
+	{ 874, 9241, offsetof(MonoPropertyInfo_t4499, ___attrs_4) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(PInfo_t4500, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 820, 9242, 0, 0 } ,
+	{ 1036, 9242, 0, 0 } ,
+	{ 1037, 9242, 0, 0 } ,
+	{ 1038, 9242, 0, 0 } ,
+	{ 1039, 9242, 0, 0 } ,
+	{ 819, 9242, 0, 0 } ,
+	{ 112, 4500, offsetof(MonoProperty_t, ___klass_0), 0 } ,
+	{ 1040, 4500, offsetof(MonoProperty_t, ___prop_1), 0 } ,
+	{ 1041, 9255, offsetof(MonoProperty_t, ___info_2), 0 } ,
+	{ 1042, 9256, offsetof(MonoProperty_t, ___cached_3), 0 } ,
+	{ 1043, 9257, offsetof(MonoProperty_t, ___cached_getter_4), 0 } ,
+	{ 177, 90, offsetof(ParameterAttributes_t4502, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9259, 0, 0 } ,
+	{ 1044, 9259, 0, 0 } ,
+	{ 1045, 9259, 0, 0 } ,
+	{ 1046, 9259, 0, 0 } ,
+	{ 1047, 9259, 0, 0 } ,
+	{ 176, 9259, 0, 0 } ,
+	{ 959, 9259, 0, 0 } ,
+	{ 975, 9259, 0, 0 } ,
+	{ 973, 9259, 0, 0 } ,
+	{ 1048, 9259, 0, 0 } ,
+	{ 1049, 9259, 0, 0 } ,
+	{ 1050, 9262, offsetof(ParameterInfo_t1330, ___ClassImpl_0), 0 } ,
+	{ 1051, 9263, offsetof(ParameterInfo_t1330, ___DefaultValueImpl_1), 0 } ,
+	{ 1052, 9264, offsetof(ParameterInfo_t1330, ___MemberImpl_2), 0 } ,
+	{ 1053, 572, offsetof(ParameterInfo_t1330, ___NameImpl_3), 0 } ,
+	{ 1054, 576, offsetof(ParameterInfo_t1330, ___PositionImpl_4), 0 } ,
+	{ 1055, 9265, offsetof(ParameterInfo_t1330, ___AttrsImpl_5), 0 } ,
+	{ 1056, 9128, offsetof(ParameterInfo_t1330, ___marshalAs_6), 0 } ,
+	{ 1057, 9267, offsetof(ParameterModifier_t4503, ____byref_0) + sizeof(Object_t), 0 } ,
+	{ 52, 8326, offsetof(Pointer_t4504, ___data_0), 0 } ,
+	{ 111, 5578, offsetof(Pointer_t4504, ___type_1), 0 } ,
+	{ 177, 90, offsetof(ProcessorArchitecture_t4505, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9271, 0, 0 } ,
+	{ 1058, 9271, 0, 0 } ,
+	{ 1059, 9271, 0, 0 } ,
+	{ 1060, 9271, 0, 0 } ,
+	{ 1061, 9271, 0, 0 } ,
+	{ 177, 90, offsetof(PropertyAttributes_t4506, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9274, 0, 0 } ,
+	{ 958, 9274, 0, 0 } ,
+	{ 959, 9274, 0, 0 } ,
+	{ 960, 9274, 0, 0 } ,
+	{ 975, 9274, 0, 0 } ,
+	{ 1062, 9274, 0, 0 } ,
+	{ 1048, 9274, 0, 0 } ,
+	{ 1049, 9274, 0, 0 } ,
+	{ 1063, 838, offsetof(StrongNameKeyPair_t4481, ____publicKey_0), 0 } ,
+	{ 1064, 99, offsetof(StrongNameKeyPair_t4481, ____keyPairContainer_1), 0 } ,
+	{ 1065, 100, offsetof(StrongNameKeyPair_t4481, ____keyPairExported_2), 0 } ,
+	{ 1066, 838, offsetof(StrongNameKeyPair_t4481, ____keyPairArray_3), 0 } ,
+	{ 177, 90, offsetof(TypeAttributes_t4510, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1067, 9281, 0, 0 } ,
+	{ 1068, 9281, 0, 0 } ,
+	{ 937, 9281, 0, 0 } ,
+	{ 1069, 9281, 0, 0 } ,
+	{ 1070, 9281, 0, 0 } ,
+	{ 1071, 9281, 0, 0 } ,
+	{ 1072, 9281, 0, 0 } ,
+	{ 1073, 9281, 0, 0 } ,
+	{ 1074, 9281, 0, 0 } ,
+	{ 1075, 9281, 0, 0 } ,
+	{ 1076, 9281, 0, 0 } ,
+	{ 1077, 9281, 0, 0 } ,
+	{ 1078, 9281, 0, 0 } ,
+	{ 1079, 9281, 0, 0 } ,
+	{ 1080, 9281, 0, 0 } ,
+	{ 1081, 9281, 0, 0 } ,
+	{ 998, 9281, 0, 0 } ,
+	{ 1082, 9281, 0, 0 } ,
+	{ 958, 9281, 0, 0 } ,
+	{ 1083, 9281, 0, 0 } ,
+	{ 1084, 9281, 0, 0 } ,
+	{ 1085, 9281, 0, 0 } ,
+	{ 1086, 9281, 0, 0 } ,
+	{ 1087, 9281, 0, 0 } ,
+	{ 1088, 9281, 0, 0 } ,
+	{ 1089, 9281, 0, 0 } ,
+	{ 959, 9281, 0, 0 } ,
+	{ 960, 9281, 0, 0 } ,
+	{ 1000, 9281, 0, 0 } ,
+	{ 1090, 9281, 0, 0 } ,
+	{ 1091, 9281, 0, 0 } ,
+	{ 420, 99, offsetof(NeutralResourcesLanguageAttribute_t3253, ___culture_0), 0 } ,
+	{ 400, 7456, offsetof(SatelliteContractVersionAttribute_t3255, ___ver_0), 0 } ,
+	{ 177, 90, offsetof(CompilationRelaxations_t4511, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1092, 9285, 0, 0 } ,
+	{ 1093, 110, offsetof(CompilationRelaxationsAttribute_t2111, ___relax_0), 0 } ,
+	{ 1094, 9290, offsetof(DefaultDependencyAttribute_t4512, ___hint_0), 0 } ,
+	{ 177, 90, offsetof(LoadHint_t4514, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 424, 9294, 0, 0 } ,
+	{ 1095, 9294, 0, 0 } ,
+	{ 1096, 9294, 0, 0 } ,
+	{ 177, 90, offsetof(Cer_t4516, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9297, 0, 0 } ,
+	{ 1097, 9297, 0, 0 } ,
+	{ 1098, 9297, 0, 0 } ,
+	{ 177, 90, offsetof(Consistency_t4517, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1099, 9300, 0, 0 } ,
+	{ 1100, 9300, 0, 0 } ,
+	{ 1101, 9300, 0, 0 } ,
+	{ 1102, 9300, 0, 0 } ,
+	{ 1103, 9305, offsetof(ReliabilityContractAttribute_t4519, ___consistency_0), 0 } ,
+	{ 1104, 9306, offsetof(ReliabilityContractAttribute_t4519, ___cer_1), 0 } ,
+	{ 177, 90, offsetof(CallingConvention_t4521, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1105, 9310, 0, 0 } ,
+	{ 1106, 9310, 0, 0 } ,
+	{ 1107, 9310, 0, 0 } ,
+	{ 1108, 9310, 0, 0 } ,
+	{ 1109, 9310, 0, 0 } ,
+	{ 177, 90, offsetof(CharSet_t4522, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9313, 0, 0 } ,
+	{ 1110, 9313, 0, 0 } ,
+	{ 1111, 9313, 0, 0 } ,
+	{ 1112, 9313, 0, 0 } ,
+	{ 1113, 9317, offsetof(ClassInterfaceAttribute_t4523, ___ciType_0), 0 } ,
+	{ 177, 90, offsetof(ClassInterfaceType_t4524, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9319, 0, 0 } ,
+	{ 1114, 9319, 0, 0 } ,
+	{ 1115, 9319, 0, 0 } ,
+	{ 1116, 5578, offsetof(ComDefaultInterfaceAttribute_t4525, ____type_0), 0 } ,
+	{ 177, 90, offsetof(ComInterfaceType_t4526, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1117, 9322, 0, 0 } ,
+	{ 1118, 9322, 0, 0 } ,
+	{ 1119, 9322, 0, 0 } ,
+	{ 1120, 110, offsetof(DispIdAttribute_t4527, ___id_0), 0 } ,
+	{ 769, 110, offsetof(GCHandle_t3930, ___handle_0) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(GCHandleType_t4528, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1121, 9329, 0, 0 } ,
+	{ 1122, 9329, 0, 0 } ,
+	{ 733, 9329, 0, 0 } ,
+	{ 1123, 9329, 0, 0 } ,
+	{ 1124, 9331, offsetof(InterfaceTypeAttribute_t4529, ___intType_0), 0 } ,
+	{ 1125, 9333, offsetof(Marshal_t4145_StaticFields, ___SystemMaxDBCSCharSize_0), 0 } ,
+	{ 1126, 9333, offsetof(Marshal_t4145_StaticFields, ___SystemDefaultCharSize_1), 0 } ,
+	{ 1127, 837, 0, 0 } ,
+	{ 769, 9338, offsetof(SafeHandle_t4314, ___handle_0), 0 } ,
+	{ 1128, 4532, offsetof(SafeHandle_t4314, ___invalid_handle_value_1), 0 } ,
+	{ 1129, 110, offsetof(SafeHandle_t4314, ___refcount_2), 0 } ,
+	{ 1130, 100, offsetof(SafeHandle_t4314, ___owns_handle_3), 0 } ,
+	{ 1131, 99, offsetof(TypeLibImportClassAttribute_t4532, ____importClass_0), 0 } ,
+	{ 921, 110, offsetof(TypeLibVersionAttribute_t4533, ___major_0), 0 } ,
+	{ 922, 110, offsetof(TypeLibVersionAttribute_t4533, ___minor_1), 0 } ,
+	{ 875, 9342, offsetof(UnmanagedFunctionPointerAttribute_t4172, ___call_conv_0), 0 } ,
+	{ 177, 90, offsetof(UnmanagedType_t4534, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1132, 9344, 0, 0 } ,
+	{ 1133, 9344, 0, 0 } ,
+	{ 1134, 9344, 0, 0 } ,
+	{ 1135, 9344, 0, 0 } ,
+	{ 1136, 9344, 0, 0 } ,
+	{ 1137, 9344, 0, 0 } ,
+	{ 1138, 9344, 0, 0 } ,
+	{ 1139, 9344, 0, 0 } ,
+	{ 1140, 9344, 0, 0 } ,
+	{ 1141, 9344, 0, 0 } ,
+	{ 1142, 9344, 0, 0 } ,
+	{ 673, 9344, 0, 0 } ,
+	{ 1143, 9344, 0, 0 } ,
+	{ 1144, 9344, 0, 0 } ,
+	{ 1145, 9344, 0, 0 } ,
+	{ 1146, 9344, 0, 0 } ,
+	{ 1147, 9344, 0, 0 } ,
+	{ 1148, 9344, 0, 0 } ,
+	{ 1149, 9344, 0, 0 } ,
+	{ 1150, 9344, 0, 0 } ,
+	{ 1081, 9344, 0, 0 } ,
+	{ 1151, 9344, 0, 0 } ,
+	{ 1152, 9344, 0, 0 } ,
+	{ 1153, 9344, 0, 0 } ,
+	{ 1154, 9344, 0, 0 } ,
+	{ 1155, 9344, 0, 0 } ,
+	{ 1156, 9344, 0, 0 } ,
+	{ 1157, 9344, 0, 0 } ,
+	{ 1158, 9344, 0, 0 } ,
+	{ 1159, 9344, 0, 0 } ,
+	{ 1160, 9344, 0, 0 } ,
+	{ 1161, 9344, 0, 0 } ,
+	{ 1162, 9344, 0, 0 } ,
+	{ 1163, 9344, 0, 0 } ,
+	{ 1164, 9344, 0, 0 } ,
+	{ 1165, 9367, offsetof(ActivationServices_t4536_StaticFields, ____constructionActivator_0), 0 } ,
+	{ 1166, 99, offsetof(AppDomainLevelActivator_t4537, ____activationUrl_0), 0 } ,
+	{ 1167, 9369, offsetof(AppDomainLevelActivator_t4537, ____next_1), 0 } ,
+	{ 1168, 9369, offsetof(ContextLevelActivator_t4539, ___m_NextActivator_0), 0 } ,
+	{ 1169, 99, offsetof(UrlAttribute_t4541, ___url_1), 0 } ,
+	{ 1170, 8914, offsetof(ChannelInfo_t4543, ___channelData_0), 0 } ,
+	{ 1171, 7368, offsetof(ChannelServices_t4545_StaticFields, ___registeredChannels_0), 0 } ,
+	{ 1172, 7368, offsetof(ChannelServices_t4545_StaticFields, ___delayedClientChannels_1), 0 } ,
+	{ 1173, 9380, offsetof(ChannelServices_t4545_StaticFields, ____crossContextSink_2), 0 } ,
+	{ 1174, 9381, offsetof(ChannelServices_t4545_StaticFields, ___CrossContextUrl_3), 0 } ,
+	{ 1175, 9382, offsetof(ChannelServices_t4545_StaticFields, ___oldStartModeTypes_4), 0 } ,
+	{ 1176, 617, offsetof(CrossAppDomainData_t4546, ____ContextID_0), 0 } ,
+	{ 1177, 110, offsetof(CrossAppDomainData_t4546, ____DomainID_1), 0 } ,
+	{ 1178, 99, offsetof(CrossAppDomainData_t4546, ____processGuid_2), 0 } ,
+	{ 1179, 3640, offsetof(CrossAppDomainChannel_t4547_StaticFields, ___s_lock_0), 0 } ,
+	{ 1180, 6750, offsetof(CrossAppDomainSink_t4548_StaticFields, ___s_sinks_0), 0 } ,
+	{ 1181, 7353, offsetof(CrossAppDomainSink_t4548_StaticFields, ___processMessageMethod_1), 0 } ,
+	{ 1182, 110, offsetof(CrossAppDomainSink_t4548, ____domainID_2), 0 } ,
+	{ 1183, 110, offsetof(Context_t4549, ___context_id_0), 0 } ,
+	{ 1184, 5600, offsetof(Context_t4549, ___context_properties_1), 0 } ,
+	{ 1185, 6750, offsetof(Context_t4549_StaticFields, ___namedSlots_2), 0 } ,
+	{ 1186, 572, offsetof(ContextAttribute_t4542, ___AttributeName_0), 0 } ,
+	{ 1187, 100, offsetof(SynchronizationAttribute_t4551, ____bReEntrant_1), 0 } ,
+	{ 1188, 110, offsetof(SynchronizationAttribute_t4551, ____flavor_2), 0 } ,
+	{ 1189, 8300, offsetof(SynchronizationAttribute_t4551, ____lockCount_3), 0 } ,
+	{ 1190, 9401, offsetof(SynchronizationAttribute_t4551, ____mutex_4), 0 } ,
+	{ 1191, 9402, offsetof(SynchronizationAttribute_t4551, ____ownerThread_5), 0 } ,
+	{ 177, 5104, offsetof(ArgInfoType_t4552, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1044, 9404, 0, 0 } ,
+	{ 1045, 9404, 0, 0 } ,
+	{ 1192, 1431, offsetof(ArgInfo_t4553, ____paramMap_0), 0 } ,
+	{ 1193, 110, offsetof(ArgInfo_t4553, ____inoutArgCount_1), 0 } ,
+	{ 1194, 8982, offsetof(ArgInfo_t4553, ____method_2), 0 } ,
+	{ 1195, 617, offsetof(AsyncResult_t4146, ___async_state_0), 0 } ,
+	{ 769, 7328, offsetof(AsyncResult_t4146, ___handle_1), 0 } ,
+	{ 1196, 617, offsetof(AsyncResult_t4146, ___async_delegate_2), 0 } ,
+	{ 52, 4532, offsetof(AsyncResult_t4146, ___data_3), 0 } ,
+	{ 1197, 617, offsetof(AsyncResult_t4146, ___object_data_4), 0 } ,
+	{ 1198, 100, offsetof(AsyncResult_t4146, ___sync_completed_5), 0 } ,
+	{ 770, 100, offsetof(AsyncResult_t4146, ___completed_6), 0 } ,
+	{ 1199, 100, offsetof(AsyncResult_t4146, ___endinvoke_called_7), 0 } ,
+	{ 1200, 617, offsetof(AsyncResult_t4146, ___async_callback_8), 0 } ,
+	{ 359, 9410, offsetof(AsyncResult_t4146, ___current_9), 0 } ,
+	{ 1201, 9410, offsetof(AsyncResult_t4146, ___original_10), 0 } ,
+	{ 1202, 110, offsetof(AsyncResult_t4146, ___gchandle_11), 0 } ,
+	{ 1203, 9411, offsetof(AsyncResult_t4146, ___call_message_12), 0 } ,
+	{ 1204, 9412, offsetof(AsyncResult_t4146, ___message_ctrl_13), 0 } ,
+	{ 1205, 9413, offsetof(AsyncResult_t4146, ___reply_message_14), 0 } ,
+	{ 1206, 9369, offsetof(ConstructionCall_t4558, ____activator_11), 0 } ,
+	{ 1207, 8914, offsetof(ConstructionCall_t4558, ____activationAttributes_12), 0 } ,
+	{ 1208, 7713, offsetof(ConstructionCall_t4558, ____contextProperties_13), 0 } ,
+	{ 1209, 5578, offsetof(ConstructionCall_t4558, ____activationType_14), 0 } ,
+	{ 1210, 99, offsetof(ConstructionCall_t4558, ____activationTypeName_15), 0 } ,
+	{ 1211, 100, offsetof(ConstructionCall_t4558, ____isContextOk_16), 0 } ,
+	{ 1212, 915, offsetof(ConstructionCall_t4558_StaticFields, ___U3CU3Ef__switchU24map20_17), 542 } ,
+	{ 1213, 9417, offsetof(ConstructionCallDictionary_t4560_StaticFields, ___InternalKeys_6), 0 } ,
+	{ 1214, 915, offsetof(ConstructionCallDictionary_t4560_StaticFields, ___U3CU3Ef__switchU24map23_7), 543 } ,
+	{ 1215, 915, offsetof(ConstructionCallDictionary_t4560_StaticFields, ___U3CU3Ef__switchU24map24_8), 544 } ,
+	{ 135, 9419, offsetof(EnvoyTerminatorSink_t4562_StaticFields, ___Instance_0), 0 } ,
+	{ 1216, 101, offsetof(Header_t4563, ___HeaderNamespace_0), 0 } ,
+	{ 1217, 104, offsetof(Header_t4563, ___MustUnderstand_1), 0 } ,
+	{ 819, 101, offsetof(Header_t4563, ___Name_2), 0 } ,
+	{ 1015, 619, offsetof(Header_t4563, ___Value_3), 0 } ,
+	{ 80, 5590, offsetof(LogicalCallContext_t4565, ____data_0), 0 } ,
+	{ 1218, 9433, offsetof(LogicalCallContext_t4565, ____remotingData_1), 0 } ,
+	{ 1219, 99, offsetof(MethodCall_t4559, ____uri_0), 0 } ,
+	{ 1220, 99, offsetof(MethodCall_t4559, ____typeName_1), 0 } ,
+	{ 1221, 99, offsetof(MethodCall_t4559, ____methodName_2), 0 } ,
+	{ 1222, 8914, offsetof(MethodCall_t4559, ____args_3), 0 } ,
+	{ 1223, 9436, offsetof(MethodCall_t4559, ____methodSignature_4), 0 } ,
+	{ 1224, 8982, offsetof(MethodCall_t4559, ____methodBase_5), 0 } ,
+	{ 1225, 9437, offsetof(MethodCall_t4559, ____callContext_6), 0 } ,
+	{ 980, 9436, offsetof(MethodCall_t4559, ____genericArguments_7), 0 } ,
+	{ 1226, 9438, offsetof(MethodCall_t4559, ___ExternalProperties_8), 0 } ,
+	{ 1227, 9438, offsetof(MethodCall_t4559, ___InternalProperties_9), 0 } ,
+	{ 1228, 915, offsetof(MethodCall_t4559_StaticFields, ___U3CU3Ef__switchU24map1F_10), 555 } ,
+	{ 1213, 9417, offsetof(MethodCallDictionary_t4566_StaticFields, ___InternalKeys_6), 0 } ,
+	{ 1229, 9441, offsetof(DictionaryEnumerator_t4567, ____methodDictionary_0), 0 } ,
+	{ 1230, 7250, offsetof(DictionaryEnumerator_t4567, ____hashtableEnum_1), 0 } ,
+	{ 1231, 110, offsetof(DictionaryEnumerator_t4567, ____posMethod_2), 0 } ,
+	{ 1232, 7657, offsetof(MethodDictionary_t4561, ____internalProperties_0), 0 } ,
+	{ 82, 9443, offsetof(MethodDictionary_t4561, ____message_1), 0 } ,
+	{ 1233, 587, offsetof(MethodDictionary_t4561, ____methodKeys_2), 0 } ,
+	{ 1234, 100, offsetof(MethodDictionary_t4561, ____ownProperties_3), 0 } ,
+	{ 1235, 915, offsetof(MethodDictionary_t4561_StaticFields, ___U3CU3Ef__switchU24map21_4), 557 } ,
+	{ 1236, 915, offsetof(MethodDictionary_t4561_StaticFields, ___U3CU3Ef__switchU24map22_5), 558 } ,
+	{ 1237, 9417, offsetof(MethodReturnDictionary_t4569_StaticFields, ___InternalReturnKeys_6), 0 } ,
+	{ 1238, 9417, offsetof(MethodReturnDictionary_t4569_StaticFields, ___InternalExceptionKeys_7), 0 } ,
+	{ 47, 9446, offsetof(MonoMethodMessage_t4555, ___method_0), 0 } ,
+	{ 110, 8914, offsetof(MonoMethodMessage_t4555, ___args_1), 0 } ,
+	{ 1239, 838, offsetof(MonoMethodMessage_t4555, ___arg_types_2), 0 } ,
+	{ 1240, 9447, offsetof(MonoMethodMessage_t4555, ___ctx_3), 0 } ,
+	{ 1241, 619, offsetof(MonoMethodMessage_t4555, ___rval_4), 0 } ,
+	{ 838, 9448, offsetof(MonoMethodMessage_t4555, ___exc_5), 0 } ,
+	{ 1242, 99, offsetof(MonoMethodMessage_t4555, ___uri_6), 0 } ,
+	{ 1243, 9436, offsetof(MonoMethodMessage_t4555, ___methodSignature_7), 0 } ,
+	{ 1244, 7513, offsetof(RemotingSurrogateSelector_t4573_StaticFields, ___s_cachedTypeObjRef_0), 0 } ,
+	{ 1245, 9453, offsetof(RemotingSurrogateSelector_t4573_StaticFields, ____objRefSurrogate_1), 0 } ,
+	{ 1246, 9454, offsetof(RemotingSurrogateSelector_t4573_StaticFields, ____objRemotingSurrogate_2), 0 } ,
+	{ 1167, 9455, offsetof(RemotingSurrogateSelector_t4573, ____next_3), 0 } ,
+	{ 1247, 8914, offsetof(ReturnMessage_t4574, ____outArgs_0), 0 } ,
+	{ 1222, 8914, offsetof(ReturnMessage_t4574, ____args_1), 0 } ,
+	{ 1248, 110, offsetof(ReturnMessage_t4574, ____outArgsCount_2), 0 } ,
+	{ 1249, 9437, offsetof(ReturnMessage_t4574, ____callCtx_3), 0 } ,
+	{ 1250, 617, offsetof(ReturnMessage_t4574, ____returnValue_4), 0 } ,
+	{ 1219, 99, offsetof(ReturnMessage_t4574, ____uri_5), 0 } ,
+	{ 1251, 3312, offsetof(ReturnMessage_t4574, ____exception_6), 0 } ,
+	{ 1224, 8982, offsetof(ReturnMessage_t4574, ____methodBase_7), 0 } ,
+	{ 1221, 99, offsetof(ReturnMessage_t4574, ____methodName_8), 0 } ,
+	{ 1223, 9436, offsetof(ReturnMessage_t4574, ____methodSignature_9), 0 } ,
+	{ 1220, 99, offsetof(ReturnMessage_t4574, ____typeName_10), 0 } ,
+	{ 1252, 9457, offsetof(ReturnMessage_t4574, ____properties_11), 0 } ,
+	{ 1253, 9458, offsetof(ReturnMessage_t4574, ____inArgInfo_12), 0 } ,
+	{ 1254, 9462, offsetof(TransparentProxy_t4577, ____rp_0), 0 } ,
+	{ 1255, 5578, offsetof(RealProxy_t4576, ___class_to_proxy_0), 0 } ,
+	{ 1256, 110, offsetof(RealProxy_t4576, ____targetDomainId_1), 0 } ,
+	{ 1257, 1008, offsetof(RealProxy_t4576, ____targetUri_2), 0 } ,
+	{ 1258, 9464, offsetof(RealProxy_t4576, ____objectIdentity_3), 0 } ,
+	{ 1259, 617, offsetof(RealProxy_t4576, ____objTP_4), 0 } ,
+	{ 1260, 7353, offsetof(RemotingProxy_t4579_StaticFields, ____cache_GetTypeMethod_5), 0 } ,
+	{ 1261, 7353, offsetof(RemotingProxy_t4579_StaticFields, ____cache_GetHashCodeMethod_6), 0 } ,
+	{ 1262, 9466, offsetof(RemotingProxy_t4579, ____sink_7), 0 } ,
+	{ 1263, 100, offsetof(RemotingProxy_t4579, ____hasEnvoySink_8), 0 } ,
+	{ 1264, 9467, offsetof(RemotingProxy_t4579, ____ctorCall_9), 0 } ,
+	{ 1265, 7368, offsetof(TrackingServices_t4580_StaticFields, ____handlers_0), 0 } ,
+	{ 1266, 99, offsetof(ActivatedClientTypeEntry_t4581, ___applicationUrl_2), 0 } ,
+	{ 1267, 5578, offsetof(ActivatedClientTypeEntry_t4581, ___obj_type_3), 0 } ,
+	{ 1268, 9466, offsetof(EnvoyInfo_t4583, ___envoySinks_0), 0 } ,
+	{ 1269, 572, offsetof(Identity_t4578, ____objectUri_0), 0 } ,
+	{ 1270, 9478, offsetof(Identity_t4578, ____channelSink_1), 0 } ,
+	{ 1271, 9478, offsetof(Identity_t4578, ____envoySink_2), 0 } ,
+	{ 1272, 9479, offsetof(Identity_t4578, ____objRef_3), 0 } ,
+	{ 1273, 100, offsetof(Identity_t4578, ____disposed_4), 0 } ,
+	{ 1274, 3293, offsetof(ClientIdentity_t4585, ____proxyReference_5), 0 } ,
+	{ 1275, 9482, offsetof(ObjRef_t4584, ___channel_info_0), 0 } ,
+	{ 1242, 99, offsetof(ObjRef_t4584, ___uri_1), 0 } ,
+	{ 1276, 9483, offsetof(ObjRef_t4584, ___typeInfo_2), 0 } ,
+	{ 1277, 9484, offsetof(ObjRef_t4584, ___envoyInfo_3), 0 } ,
+	{ 34, 110, offsetof(ObjRef_t4584, ___flags_4), 0 } ,
+	{ 1278, 5578, offsetof(ObjRef_t4584, ____serverType_5), 0 } ,
+	{ 1279, 812, offsetof(ObjRef_t4584_StaticFields, ___MarshalledObjectRef_6), 0 } ,
+	{ 1280, 812, offsetof(ObjRef_t4584_StaticFields, ___WellKnowObjectRef_7), 0 } ,
+	{ 1281, 915, offsetof(ObjRef_t4584_StaticFields, ___U3CU3Ef__switchU24map26_8), 572 } ,
+	{ 1282, 1069, offsetof(RemotingConfiguration_t4589_StaticFields, ___applicationID_0), 0 } ,
+	{ 1283, 1069, offsetof(RemotingConfiguration_t4589_StaticFields, ___applicationName_1), 0 } ,
+	{ 1284, 1069, offsetof(RemotingConfiguration_t4589_StaticFields, ___processGuid_2), 0 } ,
+	{ 1285, 645, offsetof(RemotingConfiguration_t4589_StaticFields, ___defaultConfigRead_3), 0 } ,
+	{ 1286, 645, offsetof(RemotingConfiguration_t4589_StaticFields, ___defaultDelayedConfigRead_4), 0 } ,
+	{ 1287, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___wellKnownClientEntries_5), 0 } ,
+	{ 1288, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___activatedClientEntries_6), 0 } ,
+	{ 1289, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___wellKnownServiceEntries_7), 0 } ,
+	{ 1290, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___activatedServiceEntries_8), 0 } ,
+	{ 1291, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___channelTemplates_9), 0 } ,
+	{ 1292, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___clientProviderTemplates_10), 0 } ,
+	{ 1293, 6750, offsetof(RemotingConfiguration_t4589_StaticFields, ___serverProviderTemplates_11), 0 } ,
+	{ 1294, 6750, offsetof(RemotingServices_t4592_StaticFields, ___uri_hash_0), 0 } ,
+	{ 1295, 9489, offsetof(RemotingServices_t4592_StaticFields, ____serializationFormatter_1), 0 } ,
+	{ 1296, 9489, offsetof(RemotingServices_t4592_StaticFields, ____deserializationFormatter_2), 0 } ,
+	{ 1297, 9381, offsetof(RemotingServices_t4592_StaticFields, ___app_id_3), 0 } ,
+	{ 1298, 812, offsetof(RemotingServices_t4592_StaticFields, ___next_id_4), 0 } ,
+	{ 1299, 9490, offsetof(RemotingServices_t4592_StaticFields, ___methodBindings_5), 0 } ,
+	{ 1300, 9491, offsetof(RemotingServices_t4592_StaticFields, ___FieldSetterMethod_6), 0 } ,
+	{ 1301, 9491, offsetof(RemotingServices_t4592_StaticFields, ___FieldGetterMethod_7), 0 } ,
+	{ 1302, 9262, offsetof(ServerIdentity_t4308, ____objectType_5), 0 } ,
+	{ 1303, 9493, offsetof(ServerIdentity_t4308, ____serverObject_6), 0 } ,
+	{ 1304, 9494, offsetof(ServerIdentity_t4308, ____context_7), 0 } ,
+	{ 1305, 99, offsetof(TypeEntry_t4582, ___assembly_name_0), 0 } ,
+	{ 1306, 99, offsetof(TypeEntry_t4582, ___type_name_1), 0 } ,
+	{ 1307, 99, offsetof(TypeInfo_t4596, ___serverType_0), 0 } ,
+	{ 1308, 587, offsetof(TypeInfo_t4596, ___serverHierarchy_1), 0 } ,
+	{ 1309, 587, offsetof(TypeInfo_t4596, ___interfacesImplemented_2), 0 } ,
+	{ 177, 90, offsetof(WellKnownObjectMode_t4597, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1310, 9501, 0, 0 } ,
+	{ 1311, 9501, 0, 0 } ,
+	{ 1312, 6727, offsetof(BinaryCommon_t4598_StaticFields, ___BinaryHeader_0), 0 } ,
+	{ 1313, 9503, offsetof(BinaryCommon_t4598_StaticFields, ____typeCodesToType_1), 0 } ,
+	{ 1314, 4697, offsetof(BinaryCommon_t4598_StaticFields, ____typeCodeMap_2), 0 } ,
+	{ 1315, 4656, offsetof(BinaryCommon_t4598_StaticFields, ___UseReflectionSerialization_3), 0 } ,
+	{ 177, 5104, offsetof(BinaryElement_t4599, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1316, 9505, 0, 0 } ,
+	{ 1317, 9505, 0, 0 } ,
+	{ 1318, 9505, 0, 0 } ,
+	{ 1319, 9505, 0, 0 } ,
+	{ 1320, 9505, 0, 0 } ,
+	{ 1321, 9505, 0, 0 } ,
+	{ 1322, 9505, 0, 0 } ,
+	{ 1323, 9505, 0, 0 } ,
+	{ 1324, 9505, 0, 0 } ,
+	{ 1325, 9505, 0, 0 } ,
+	{ 1326, 9505, 0, 0 } ,
+	{ 120, 9505, 0, 0 } ,
+	{ 966, 9505, 0, 0 } ,
+	{ 1327, 9505, 0, 0 } ,
+	{ 1328, 9505, 0, 0 } ,
+	{ 1329, 9505, 0, 0 } ,
+	{ 1330, 9505, 0, 0 } ,
+	{ 1331, 9505, 0, 0 } ,
+	{ 984, 9505, 0, 0 } ,
+	{ 1332, 9505, 0, 0 } ,
+	{ 1333, 9505, 0, 0 } ,
+	{ 1334, 9505, 0, 0 } ,
+	{ 1335, 9505, 0, 0 } ,
+	{ 177, 5104, offsetof(TypeTag_t4600, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1336, 9507, 0, 0 } ,
+	{ 1322, 9507, 0, 0 } ,
+	{ 1337, 9507, 0, 0 } ,
+	{ 1338, 9507, 0, 0 } ,
+	{ 1339, 9507, 0, 0 } ,
+	{ 1330, 9507, 0, 0 } ,
+	{ 1331, 9507, 0, 0 } ,
+	{ 1329, 9507, 0, 0 } ,
+	{ 177, 90, offsetof(MethodFlags_t4601, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1340, 9509, 0, 0 } ,
+	{ 1341, 9509, 0, 0 } ,
+	{ 1342, 9509, 0, 0 } ,
+	{ 1343, 9509, 0, 0 } ,
+	{ 1344, 9509, 0, 0 } ,
+	{ 1345, 9509, 0, 0 } ,
+	{ 1346, 9509, 0, 0 } ,
+	{ 1347, 9509, 0, 0 } ,
+	{ 1348, 9509, 0, 0 } ,
+	{ 1349, 9509, 0, 0 } ,
+	{ 177, 5104, offsetof(ReturnTypeTag_t4602, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 718, 9512, 0, 0 } ,
+	{ 1336, 9512, 0, 0 } ,
+	{ 1337, 9512, 0, 0 } ,
+	{ 1350, 9512, 0, 0 } ,
+	{ 1351, 9519, offsetof(BinaryFormatter_t4591, ___assembly_format_0), 0 } ,
+	{ 1352, 9520, offsetof(BinaryFormatter_t4591, ___binder_1), 0 } ,
+	{ 1353, 9521, offsetof(BinaryFormatter_t4591, ___context_2), 0 } ,
+	{ 1354, 9455, offsetof(BinaryFormatter_t4591, ___surrogate_selector_3), 0 } ,
+	{ 1355, 9522, offsetof(BinaryFormatter_t4591, ___type_format_4), 0 } ,
+	{ 1356, 9523, offsetof(BinaryFormatter_t4591, ___filter_level_5), 0 } ,
+	{ 1357, 9524, offsetof(BinaryFormatter_t4591_StaticFields, ___U3CDefaultSurrogateSelectorU3Ek__BackingField_6), 582 } ,
+	{ 1358, 5010, offsetof(TypeMetadata_t4606, ___Type_0), 0 } ,
+	{ 1359, 3581, offsetof(TypeMetadata_t4606, ___MemberTypes_1), 0 } ,
+	{ 1360, 1243, offsetof(TypeMetadata_t4606, ___MemberNames_2), 0 } ,
+	{ 1361, 9528, offsetof(TypeMetadata_t4606, ___MemberInfos_3), 0 } ,
+	{ 1362, 102, offsetof(TypeMetadata_t4606, ___FieldCount_4), 0 } ,
+	{ 1363, 104, offsetof(TypeMetadata_t4606, ___NeedsSerializationInfo_5), 0 } ,
+	{ 1364, 102, offsetof(ArrayNullFiller_t4607, ___NullCount_0), 0 } ,
+	{ 1365, 9455, offsetof(ObjectReader_t4609, ____surrogateSelector_0), 0 } ,
+	{ 1304, 9521, offsetof(ObjectReader_t4609, ____context_1), 0 } ,
+	{ 1366, 9520, offsetof(ObjectReader_t4609, ____binder_2), 0 } ,
+	{ 1367, 9523, offsetof(ObjectReader_t4609, ____filterLevel_3), 0 } ,
+	{ 1368, 9533, offsetof(ObjectReader_t4609, ____manager_4), 0 } ,
+	{ 1369, 5590, offsetof(ObjectReader_t4609, ____registeredAssemblies_5), 0 } ,
+	{ 1370, 5590, offsetof(ObjectReader_t4609, ____typeMetadataCache_6), 0 } ,
+	{ 1371, 617, offsetof(ObjectReader_t4609, ____lastObject_7), 0 } ,
+	{ 1372, 116, offsetof(ObjectReader_t4609, ____lastObjectID_8), 0 } ,
+	{ 1373, 116, offsetof(ObjectReader_t4609, ____rootObjectID_9), 0 } ,
+	{ 1374, 838, offsetof(ObjectReader_t4609, ___arrayBuffer_10), 0 } ,
+	{ 1375, 110, offsetof(ObjectReader_t4609, ___ArrayBufferLength_11), 0 } ,
+	{ 177, 90, offsetof(FormatterAssemblyStyle_t4610, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 179, 9535, 0, 0 } ,
+	{ 1376, 9535, 0, 0 } ,
+	{ 177, 90, offsetof(FormatterTypeStyle_t4611, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1377, 9537, 0, 0 } ,
+	{ 1378, 9537, 0, 0 } ,
+	{ 1379, 9537, 0, 0 } ,
+	{ 177, 90, offsetof(TypeFilterLevel_t4612, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 217, 9540, 0, 0 } ,
+	{ 1376, 9540, 0, 0 } ,
+	{ 1380, 9552, offsetof(ObjectManager_t4608, ____objectRecordChain_0), 0 } ,
+	{ 1381, 9552, offsetof(ObjectManager_t4608, ____lastObjectRecord_1), 0 } ,
+	{ 1382, 5600, offsetof(ObjectManager_t4608, ____deserializedRecords_2), 0 } ,
+	{ 1383, 5600, offsetof(ObjectManager_t4608, ____onDeserializedCallbackRecords_3), 0 } ,
+	{ 1384, 5590, offsetof(ObjectManager_t4608, ____objectRecords_4), 0 } ,
+	{ 1385, 100, offsetof(ObjectManager_t4608, ____finalFixup_5), 0 } ,
+	{ 1386, 9455, offsetof(ObjectManager_t4608, ____selector_6), 0 } ,
+	{ 1304, 9521, offsetof(ObjectManager_t4608, ____context_7), 0 } ,
+	{ 1387, 110, offsetof(ObjectManager_t4608, ____registeredObjectsCount_8), 0 } ,
+	{ 1388, 9554, offsetof(BaseFixupRecord_t4616, ___ObjectToBeFixed_0), 0 } ,
+	{ 1389, 9554, offsetof(BaseFixupRecord_t4616, ___ObjectRequired_1), 0 } ,
+	{ 1390, 9555, offsetof(BaseFixupRecord_t4616, ___NextSameContainer_2), 0 } ,
+	{ 1391, 9555, offsetof(BaseFixupRecord_t4616, ___NextSameRequired_3), 0 } ,
+	{ 415, 110, offsetof(ArrayFixupRecord_t4617, ____index_4), 0 } ,
+	{ 1392, 1431, offsetof(MultiArrayFixupRecord_t4618, ____indices_4), 0 } ,
+	{ 1393, 9559, offsetof(FixupRecord_t4619, ____member_4), 0 } ,
+	{ 976, 101, offsetof(DelayedFixupRecord_t4620, ____memberName_4), 0 } ,
+	{ 177, 5104, offsetof(ObjectRecordStatus_t4621, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1394, 9562, 0, 0 } ,
+	{ 1395, 9562, 0, 0 } ,
+	{ 1396, 9562, 0, 0 } ,
+	{ 1397, 9562, 0, 0 } ,
+	{ 1398, 9565, offsetof(ObjectRecord_t4615, ___Status_0), 0 } ,
+	{ 1399, 619, offsetof(ObjectRecord_t4615, ___OriginalObject_1), 0 } ,
+	{ 1400, 619, offsetof(ObjectRecord_t4615, ___ObjectInstance_2), 0 } ,
+	{ 1401, 818, offsetof(ObjectRecord_t4615, ___ObjectID_3), 0 } ,
+	{ 1402, 9566, offsetof(ObjectRecord_t4615, ___Info_4), 0 } ,
+	{ 1403, 818, offsetof(ObjectRecord_t4615, ___IdOfContainingObj_5), 0 } ,
+	{ 700, 9567, offsetof(ObjectRecord_t4615, ___Surrogate_6), 0 } ,
+	{ 1404, 9568, offsetof(ObjectRecord_t4615, ___SurrogateSelector_7), 0 } ,
+	{ 1405, 9559, offsetof(ObjectRecord_t4615, ___Member_8), 0 } ,
+	{ 1406, 1341, offsetof(ObjectRecord_t4615, ___ArrayIndex_9), 0 } ,
+	{ 1407, 9555, offsetof(ObjectRecord_t4615, ___FixupChainAsContainer_10), 0 } ,
+	{ 1408, 9555, offsetof(ObjectRecord_t4615, ___FixupChainAsRequired_11), 0 } ,
+	{ 378, 9569, offsetof(ObjectRecord_t4615, ___Next_12), 0 } ,
+	{ 1409, 9577, offsetof(SerializationCallbacks_t4628, ___onSerializingList_0), 0 } ,
+	{ 1410, 9577, offsetof(SerializationCallbacks_t4628, ___onSerializedList_1), 0 } ,
+	{ 1411, 9577, offsetof(SerializationCallbacks_t4628, ___onDeserializingList_2), 0 } ,
+	{ 1412, 9577, offsetof(SerializationCallbacks_t4628, ___onDeserializedList_3), 0 } ,
+	{ 1413, 6750, offsetof(SerializationCallbacks_t4628_StaticFields, ___cache_4), 0 } ,
+	{ 1414, 3640, offsetof(SerializationCallbacks_t4628_StaticFields, ___cache_lock_5), 0 } ,
+	{ 480, 99, offsetof(SerializationEntry_t4629, ___name_0) + sizeof(Object_t), 0 } ,
+	{ 1415, 5578, offsetof(SerializationEntry_t4629, ___objectType_1) + sizeof(Object_t), 0 } ,
+	{ 81, 617, offsetof(SerializationEntry_t4629, ___value_2) + sizeof(Object_t), 0 } ,
+	{ 1416, 5590, offsetof(SerializationInfo_t2867, ___serialized_0), 0 } ,
+	{ 1417, 5600, offsetof(SerializationInfo_t2867, ___values_1), 0 } ,
+	{ 102, 99, offsetof(SerializationInfo_t2867, ___assemblyName_2), 0 } ,
+	{ 1418, 99, offsetof(SerializationInfo_t2867, ___fullTypeName_3), 0 } ,
+	{ 1419, 9581, offsetof(SerializationInfo_t2867, ___converter_4), 0 } ,
+	{ 339, 1295, offsetof(SerializationInfoEnumerator_t4631, ___enumerator_0), 0 } ,
+	{ 476, 9585, offsetof(StreamingContext_t2868, ___state_0) + sizeof(Object_t), 0 } ,
+	{ 1420, 617, offsetof(StreamingContext_t2868, ___additional_1) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(StreamingContextStates_t4632, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1421, 9587, 0, 0 } ,
+	{ 1422, 9587, 0, 0 } ,
+	{ 1423, 9587, 0, 0 } ,
+	{ 1424, 9587, 0, 0 } ,
+	{ 1425, 9587, 0, 0 } ,
+	{ 1426, 9587, 0, 0 } ,
+	{ 1427, 9587, 0, 0 } ,
+	{ 1428, 9587, 0, 0 } ,
+	{ 989, 9587, 0, 0 } ,
+	{ 1429, 9589, offsetof(X509Certificate_t3832, ___x509_0), 0 } ,
+	{ 1430, 100, offsetof(X509Certificate_t3832, ___hideDates_1), 0 } ,
+	{ 1431, 838, offsetof(X509Certificate_t3832, ___cachedCertificateHash_2), 0 } ,
+	{ 1432, 99, offsetof(X509Certificate_t3832, ___issuer_name_3), 0 } ,
+	{ 1433, 99, offsetof(X509Certificate_t3832, ___subject_name_4), 0 } ,
+	{ 177, 90, offsetof(X509KeyStorageFlags_t4283, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1434, 9591, 0, 0 } ,
+	{ 1435, 9591, 0, 0 } ,
+	{ 1436, 9591, 0, 0 } ,
+	{ 1437, 9591, 0, 0 } ,
+	{ 1438, 9591, 0, 0 } ,
+	{ 1439, 9591, 0, 0 } ,
+	{ 1440, 576, offsetof(AsymmetricAlgorithm_t3850, ___KeySizeValue_0), 0 } ,
+	{ 1441, 9593, offsetof(AsymmetricAlgorithm_t3850, ___LegalKeySizesValue_1), 0 } ,
+	{ 1442, 9599, offsetof(Base64Constants_t4634_StaticFields, ___EncodeTable_0), 0 } ,
+	{ 1443, 9599, offsetof(Base64Constants_t4634_StaticFields, ___DecodeTable_1), 0 } ,
+	{ 177, 90, offsetof(CipherMode_t3897, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1444, 9601, 0, 0 } ,
+	{ 1445, 9601, 0, 0 } ,
+	{ 1446, 9601, 0, 0 } ,
+	{ 1447, 9601, 0, 0 } ,
+	{ 1448, 9601, 0, 0 } ,
+	{ 356, 3640, offsetof(CryptoConfig_t3865_StaticFields, ___lockObject_0), 0 } ,
+	{ 1449, 6750, offsetof(CryptoConfig_t3865_StaticFields, ___algorithms_1), 0 } ,
+	{ 1450, 6750, offsetof(CryptoConfig_t3865_StaticFields, ___oid_2), 0 } ,
+	{ 1451, 9607, offsetof(CspParameters_t3867, ____Flags_0), 0 } ,
+	{ 1452, 101, offsetof(CspParameters_t3867, ___KeyContainerName_1), 0 } ,
+	{ 1453, 102, offsetof(CspParameters_t3867, ___KeyNumber_2), 0 } ,
+	{ 1454, 101, offsetof(CspParameters_t3867, ___ProviderName_3), 0 } ,
+	{ 1455, 102, offsetof(CspParameters_t3867, ___ProviderType_4), 0 } ,
+	{ 177, 90, offsetof(CspProviderFlags_t4635, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1456, 9609, 0, 0 } ,
+	{ 1457, 9609, 0, 0 } ,
+	{ 1458, 9609, 0, 0 } ,
+	{ 1459, 9609, 0, 0 } ,
+	{ 1460, 9609, 0, 0 } ,
+	{ 1461, 9609, 0, 0 } ,
+	{ 1462, 9609, 0, 0 } ,
+	{ 1463, 9609, 0, 0 } ,
+	{ 1464, 9611, offsetof(DES_t3880_StaticFields, ___weakKeys_10), 0 } ,
+	{ 1465, 9611, offsetof(DES_t3880_StaticFields, ___semiWeakKeys_11), 0 } ,
+	{ 1466, 9613, offsetof(DESTransform_t4637_StaticFields, ___KEY_BIT_SIZE_12), 0 } ,
+	{ 1467, 9613, offsetof(DESTransform_t4637_StaticFields, ___KEY_BYTE_SIZE_13), 0 } ,
+	{ 1468, 9613, offsetof(DESTransform_t4637_StaticFields, ___BLOCK_BIT_SIZE_14), 0 } ,
+	{ 1469, 9613, offsetof(DESTransform_t4637_StaticFields, ___BLOCK_BYTE_SIZE_15), 0 } ,
+	{ 1470, 838, offsetof(DESTransform_t4637, ___keySchedule_16), 0 } ,
+	{ 1471, 838, offsetof(DESTransform_t4637, ___byteBuff_17), 0 } ,
+	{ 1472, 6620, offsetof(DESTransform_t4637, ___dwordBuff_18), 0 } ,
+	{ 1473, 5682, offsetof(DESTransform_t4637_StaticFields, ___spBoxes_19), 0 } ,
+	{ 1474, 5681, offsetof(DESTransform_t4637_StaticFields, ___PC1_20), 0 } ,
+	{ 1475, 5681, offsetof(DESTransform_t4637_StaticFields, ___leftRotTotal_21), 0 } ,
+	{ 1476, 5681, offsetof(DESTransform_t4637_StaticFields, ___PC2_22), 0 } ,
+	{ 1477, 6621, offsetof(DESTransform_t4637_StaticFields, ___ipTab_23), 0 } ,
+	{ 1478, 6621, offsetof(DESTransform_t4637_StaticFields, ___fpTab_24), 0 } ,
+	{ 1479, 9618, offsetof(DSACryptoServiceProvider_t3871, ___store_2), 0 } ,
+	{ 1480, 100, offsetof(DSACryptoServiceProvider_t3871, ___persistKey_3), 0 } ,
+	{ 1481, 100, offsetof(DSACryptoServiceProvider_t3871, ___persisted_4), 0 } ,
+	{ 1482, 100, offsetof(DSACryptoServiceProvider_t3871, ___privateKeyExportable_5), 0 } ,
+	{ 233, 100, offsetof(DSACryptoServiceProvider_t3871, ___m_disposed_6), 0 } ,
+	{ 1483, 9619, offsetof(DSACryptoServiceProvider_t3871, ___dsa_7), 0 } ,
+	{ 1484, 645, offsetof(DSACryptoServiceProvider_t3871_StaticFields, ___useMachineKeyStore_8), 0 } ,
+	{ 1485, 102, offsetof(DSAParameters_t3862, ___Counter_0) + sizeof(Object_t), 0 } ,
+	{ 1486, 849, offsetof(DSAParameters_t3862, ___G_1) + sizeof(Object_t), 0 } ,
+	{ 1487, 849, offsetof(DSAParameters_t3862, ___J_2) + sizeof(Object_t), 0 } ,
+	{ 1488, 849, offsetof(DSAParameters_t3862, ___P_3) + sizeof(Object_t), 0 } ,
+	{ 1489, 849, offsetof(DSAParameters_t3862, ___Q_4) + sizeof(Object_t), 0 } ,
+	{ 1490, 849, offsetof(DSAParameters_t3862, ___Seed_5) + sizeof(Object_t), 0 } ,
+	{ 1491, 9622, offsetof(DSAParameters_t3862, ___X_6) + sizeof(Object_t), 0 } ,
+	{ 1492, 849, offsetof(DSAParameters_t3862, ___Y_7) + sizeof(Object_t), 0 } ,
+	{ 1483, 6672, offsetof(DSASignatureDeformatter_t3875, ___dsa_0), 0 } ,
+	{ 1483, 6672, offsetof(DSASignatureFormatter_t4639, ___dsa_0), 0 } ,
+	{ 1273, 100, offsetof(HMAC_t3870, ____disposed_5), 0 } ,
+	{ 288, 99, offsetof(HMAC_t3870, ____hashName_6), 0 } ,
+	{ 1493, 6707, offsetof(HMAC_t3870, ____algo_7), 0 } ,
+	{ 1494, 9627, offsetof(HMAC_t3870, ____block_8), 0 } ,
+	{ 1495, 110, offsetof(HMAC_t3870, ____blockSizeValue_9), 0 } ,
+	{ 1496, 645, offsetof(HMACSHA384_t4643_StaticFields, ___legacy_mode_10), 0 } ,
+	{ 1497, 100, offsetof(HMACSHA384_t4643, ___legacy_11), 0 } ,
+	{ 1496, 645, offsetof(HMACSHA512_t4644_StaticFields, ___legacy_mode_10), 0 } ,
+	{ 1497, 100, offsetof(HMACSHA512_t4644, ___legacy_11), 0 } ,
+	{ 1498, 9638, offsetof(HashAlgorithm_t3745, ___HashValue_0), 0 } ,
+	{ 1499, 576, offsetof(HashAlgorithm_t3745, ___HashSizeValue_1), 0 } ,
+	{ 1500, 576, offsetof(HashAlgorithm_t3745, ___State_2), 0 } ,
+	{ 720, 100, offsetof(HashAlgorithm_t3745, ___disposed_3), 0 } ,
+	{ 1501, 110, offsetof(KeySizes_t3869, ____maxSize_0), 0 } ,
+	{ 1502, 110, offsetof(KeySizes_t3869, ____minSize_1), 0 } ,
+	{ 1503, 110, offsetof(KeySizes_t3869, ____skipSize_2), 0 } ,
+	{ 1504, 9643, offsetof(KeyedHashAlgorithm_t3784, ___KeyValue_4), 0 } ,
+	{ 1505, 9645, offsetof(MACTripleDES_t4645, ___tdes_5), 0 } ,
+	{ 677, 9646, offsetof(MACTripleDES_t4645, ___mac_6), 0 } ,
+	{ 233, 100, offsetof(MACTripleDES_t4645, ___m_disposed_7), 0 } ,
+	{ 1506, 6620, offsetof(MD5CryptoServiceProvider_t4646, ____H_4), 0 } ,
+	{ 1507, 6620, offsetof(MD5CryptoServiceProvider_t4646, ___buff_5), 0 } ,
+	{ 393, 6763, offsetof(MD5CryptoServiceProvider_t4646, ___count_6), 0 } ,
+	{ 1508, 838, offsetof(MD5CryptoServiceProvider_t4646, ____ProcessingBuffer_7), 0 } ,
+	{ 1509, 110, offsetof(MD5CryptoServiceProvider_t4646, ____ProcessingBufferCount_8), 0 } ,
+	{ 1510, 5682, offsetof(MD5CryptoServiceProvider_t4646_StaticFields, ___K_9), 0 } ,
+	{ 177, 90, offsetof(PaddingMode_t4647, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 9651, 0, 0 } ,
+	{ 1511, 9651, 0, 0 } ,
+	{ 1512, 9651, 0, 0 } ,
+	{ 1513, 9651, 0, 0 } ,
+	{ 1514, 9651, 0, 0 } ,
+	{ 1515, 576, offsetof(RC2_t3881, ___EffectiveKeySizeValue_10), 0 } ,
+	{ 1516, 9656, offsetof(RC2Transform_t4649, ___R0_12), 0 } ,
+	{ 1517, 9656, offsetof(RC2Transform_t4649, ___R1_13), 0 } ,
+	{ 1518, 9656, offsetof(RC2Transform_t4649, ___R2_14), 0 } ,
+	{ 1519, 9656, offsetof(RC2Transform_t4649, ___R3_15), 0 } ,
+	{ 1510, 7473, offsetof(RC2Transform_t4649, ___K_16), 0 } ,
+	{ 239, 110, offsetof(RC2Transform_t4649, ___j_17), 0 } ,
+	{ 1520, 5681, offsetof(RC2Transform_t4649_StaticFields, ___pitable_18), 0 } ,
+	{ 1508, 838, offsetof(RIPEMD160Managed_t4651, ____ProcessingBuffer_4), 0 } ,
+	{ 1521, 6620, offsetof(RIPEMD160Managed_t4651, ____X_5), 0 } ,
+	{ 1522, 6620, offsetof(RIPEMD160Managed_t4651, ____HashValue_6), 0 } ,
+	{ 1523, 6763, offsetof(RIPEMD160Managed_t4651, ____Length_7), 0 } ,
+	{ 1509, 110, offsetof(RIPEMD160Managed_t4651, ____ProcessingBufferCount_8), 0 } ,
+	{ 1524, 3640, offsetof(RNGCryptoServiceProvider_t4652_StaticFields, ____lock_0), 0 } ,
+	{ 1525, 4532, offsetof(RNGCryptoServiceProvider_t4652, ____handle_1), 0 } ,
+	{ 1479, 9618, offsetof(RSACryptoServiceProvider_t3868, ___store_2), 0 } ,
+	{ 1480, 100, offsetof(RSACryptoServiceProvider_t3868, ___persistKey_3), 0 } ,
+	{ 1481, 100, offsetof(RSACryptoServiceProvider_t3868, ___persisted_4), 0 } ,
+	{ 1482, 100, offsetof(RSACryptoServiceProvider_t3868, ___privateKeyExportable_5), 0 } ,
+	{ 233, 100, offsetof(RSACryptoServiceProvider_t3868, ___m_disposed_6), 0 } ,
+	{ 352, 9664, offsetof(RSACryptoServiceProvider_t3868, ___rsa_7), 0 } ,
+	{ 1484, 645, offsetof(RSACryptoServiceProvider_t3868_StaticFields, ___useMachineKeyStore_8), 0 } ,
+	{ 352, 6671, offsetof(RSAPKCS1KeyExchangeFormatter_t3892, ___rsa_0), 0 } ,
+	{ 1526, 6765, offsetof(RSAPKCS1KeyExchangeFormatter_t3892, ___random_1), 0 } ,
+	{ 352, 6671, offsetof(RSAPKCS1SignatureDeformatter_t3876, ___rsa_0), 0 } ,
+	{ 1527, 99, offsetof(RSAPKCS1SignatureDeformatter_t3876, ___hashName_1), 0 } ,
+	{ 352, 6671, offsetof(RSAPKCS1SignatureFormatter_t4653, ___rsa_0), 0 } ,
+	{ 1528, 6707, offsetof(RSAPKCS1SignatureFormatter_t4653, ___hash_1), 0 } ,
+	{ 1488, 9622, offsetof(RSAParameters_t3835, ___P_0) + sizeof(Object_t), 0 } ,
+	{ 1489, 9622, offsetof(RSAParameters_t3835, ___Q_1) + sizeof(Object_t), 0 } ,
+	{ 1529, 9622, offsetof(RSAParameters_t3835, ___D_2) + sizeof(Object_t), 0 } ,
+	{ 1530, 9622, offsetof(RSAParameters_t3835, ___DP_3) + sizeof(Object_t), 0 } ,
+	{ 1531, 9622, offsetof(RSAParameters_t3835, ___DQ_4) + sizeof(Object_t), 0 } ,
+	{ 1532, 9622, offsetof(RSAParameters_t3835, ___InverseQ_5) + sizeof(Object_t), 0 } ,
+	{ 1533, 849, offsetof(RSAParameters_t3835, ___Modulus_6) + sizeof(Object_t), 0 } ,
+	{ 1534, 849, offsetof(RSAParameters_t3835, ___Exponent_7) + sizeof(Object_t), 0 } ,
+	{ 1535, 6620, offsetof(RijndaelTransform_t4655, ___expandedKey_12), 0 } ,
+	{ 1536, 110, offsetof(RijndaelTransform_t4655, ___Nb_13), 0 } ,
+	{ 1537, 110, offsetof(RijndaelTransform_t4655, ___Nk_14), 0 } ,
+	{ 1538, 110, offsetof(RijndaelTransform_t4655, ___Nr_15), 0 } ,
+	{ 1539, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___Rcon_16), 0 } ,
+	{ 1540, 5681, offsetof(RijndaelTransform_t4655_StaticFields, ___SBox_17), 0 } ,
+	{ 1541, 5681, offsetof(RijndaelTransform_t4655_StaticFields, ___iSBox_18), 0 } ,
+	{ 1542, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___T0_19), 0 } ,
+	{ 1543, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___T1_20), 0 } ,
+	{ 1544, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___T2_21), 0 } ,
+	{ 1545, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___T3_22), 0 } ,
+	{ 1546, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___iT0_23), 0 } ,
+	{ 1547, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___iT1_24), 0 } ,
+	{ 1548, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___iT2_25), 0 } ,
+	{ 1549, 5682, offsetof(RijndaelTransform_t4655_StaticFields, ___iT3_26), 0 } ,
+	{ 1550, 9676, offsetof(RijndaelManagedTransform_t4656, ____st_0), 0 } ,
+	{ 1551, 110, offsetof(RijndaelManagedTransform_t4656, ____bs_1), 0 } ,
+	{ 1506, 6620, offsetof(SHA1Internal_t4657, ____H_0), 0 } ,
+	{ 393, 6763, offsetof(SHA1Internal_t4657, ___count_1), 0 } ,
+	{ 1508, 838, offsetof(SHA1Internal_t4657, ____ProcessingBuffer_2), 0 } ,
+	{ 1509, 110, offsetof(SHA1Internal_t4657, ____ProcessingBufferCount_3), 0 } ,
+	{ 1507, 6620, offsetof(SHA1Internal_t4657, ___buff_4), 0 } ,
+	{ 1552, 9680, offsetof(SHA1CryptoServiceProvider_t4658, ___sha_4), 0 } ,
+	{ 1552, 9680, offsetof(SHA1Managed_t4659, ___sha_4), 0 } ,
+	{ 1506, 6620, offsetof(SHA256Managed_t4660, ____H_4), 0 } ,
+	{ 393, 6763, offsetof(SHA256Managed_t4660, ___count_5), 0 } ,
+	{ 1508, 838, offsetof(SHA256Managed_t4660, ____ProcessingBuffer_6), 0 } ,
+	{ 1509, 110, offsetof(SHA256Managed_t4660, ____ProcessingBufferCount_7), 0 } ,
+	{ 1507, 6620, offsetof(SHA256Managed_t4660, ___buff_8), 0 } ,
+	{ 1553, 838, offsetof(SHA384Managed_t4663, ___xBuf_4), 0 } ,
+	{ 1554, 110, offsetof(SHA384Managed_t4663, ___xBufOff_5), 0 } ,
+	{ 1555, 6763, offsetof(SHA384Managed_t4663, ___byteCount1_6), 0 } ,
+	{ 1556, 6763, offsetof(SHA384Managed_t4663, ___byteCount2_7), 0 } ,
+	{ 1557, 6763, offsetof(SHA384Managed_t4663, ___H1_8), 0 } ,
+	{ 1558, 6763, offsetof(SHA384Managed_t4663, ___H2_9), 0 } ,
+	{ 1559, 6763, offsetof(SHA384Managed_t4663, ___H3_10), 0 } ,
+	{ 1560, 6763, offsetof(SHA384Managed_t4663, ___H4_11), 0 } ,
+	{ 1561, 6763, offsetof(SHA384Managed_t4663, ___H5_12), 0 } ,
+	{ 1562, 6763, offsetof(SHA384Managed_t4663, ___H6_13), 0 } ,
+	{ 1563, 6763, offsetof(SHA384Managed_t4663, ___H7_14), 0 } ,
+	{ 1564, 6763, offsetof(SHA384Managed_t4663, ___H8_15), 0 } ,
+	{ 1565, 9690, offsetof(SHA384Managed_t4663, ___W_16), 0 } ,
+	{ 1566, 110, offsetof(SHA384Managed_t4663, ___wOff_17), 0 } ,
+	{ 1553, 838, offsetof(SHA512Managed_t4665, ___xBuf_4), 0 } ,
+	{ 1554, 110, offsetof(SHA512Managed_t4665, ___xBufOff_5), 0 } ,
+	{ 1555, 6763, offsetof(SHA512Managed_t4665, ___byteCount1_6), 0 } ,
+	{ 1556, 6763, offsetof(SHA512Managed_t4665, ___byteCount2_7), 0 } ,
+	{ 1557, 6763, offsetof(SHA512Managed_t4665, ___H1_8), 0 } ,
+	{ 1558, 6763, offsetof(SHA512Managed_t4665, ___H2_9), 0 } ,
+	{ 1559, 6763, offsetof(SHA512Managed_t4665, ___H3_10), 0 } ,
+	{ 1560, 6763, offsetof(SHA512Managed_t4665, ___H4_11), 0 } ,
+	{ 1561, 6763, offsetof(SHA512Managed_t4665, ___H5_12), 0 } ,
+	{ 1562, 6763, offsetof(SHA512Managed_t4665, ___H6_13), 0 } ,
+	{ 1563, 6763, offsetof(SHA512Managed_t4665, ___H7_14), 0 } ,
+	{ 1564, 6763, offsetof(SHA512Managed_t4665, ___H8_15), 0 } ,
+	{ 1565, 9690, offsetof(SHA512Managed_t4665, ___W_16), 0 } ,
+	{ 1566, 110, offsetof(SHA512Managed_t4665, ___wOff_17), 0 } ,
+	{ 1567, 9697, offsetof(SHAConstants_t4666_StaticFields, ___K1_0), 0 } ,
+	{ 1568, 9698, offsetof(SHAConstants_t4666_StaticFields, ___K2_1), 0 } ,
+	{ 1569, 99, offsetof(SignatureDescription_t4667, ____DeformatterAlgorithm_0), 0 } ,
+	{ 1570, 99, offsetof(SignatureDescription_t4667, ____DigestAlgorithm_1), 0 } ,
+	{ 1571, 99, offsetof(SignatureDescription_t4667, ____FormatterAlgorithm_2), 0 } ,
+	{ 1572, 99, offsetof(SignatureDescription_t4667, ____KeyAlgorithm_3), 0 } ,
+	{ 1573, 576, offsetof(SymmetricAlgorithm_t3752, ___BlockSizeValue_0), 0 } ,
+	{ 1574, 9643, offsetof(SymmetricAlgorithm_t3752, ___IVValue_1), 0 } ,
+	{ 1440, 576, offsetof(SymmetricAlgorithm_t3752, ___KeySizeValue_2), 0 } ,
+	{ 1504, 9643, offsetof(SymmetricAlgorithm_t3752, ___KeyValue_3), 0 } ,
+	{ 1575, 9593, offsetof(SymmetricAlgorithm_t3752, ___LegalBlockSizesValue_4), 0 } ,
+	{ 1441, 9593, offsetof(SymmetricAlgorithm_t3752, ___LegalKeySizesValue_5), 0 } ,
+	{ 1576, 576, offsetof(SymmetricAlgorithm_t3752, ___FeedbackSizeValue_6), 0 } ,
+	{ 1577, 9706, offsetof(SymmetricAlgorithm_t3752, ___ModeValue_7), 0 } ,
+	{ 1578, 9707, offsetof(SymmetricAlgorithm_t3752, ___PaddingValue_8), 0 } ,
+	{ 233, 100, offsetof(SymmetricAlgorithm_t3752, ___m_disposed_9), 0 } ,
+	{ 233, 100, offsetof(ToBase64Transform_t4670, ___m_disposed_0), 0 } ,
+	{ 1579, 9714, offsetof(TripleDESTransform_t4672, ___E1_12), 0 } ,
+	{ 1580, 9714, offsetof(TripleDESTransform_t4672, ___D2_13), 0 } ,
+	{ 1581, 9714, offsetof(TripleDESTransform_t4672, ___E3_14), 0 } ,
+	{ 1582, 9714, offsetof(TripleDESTransform_t4672, ___D1_15), 0 } ,
+	{ 1583, 9714, offsetof(TripleDESTransform_t4672, ___E2_16), 0 } ,
+	{ 1584, 9714, offsetof(TripleDESTransform_t4672, ___D3_17), 0 } ,
+	{ 34, 9721, offsetof(SecurityPermission_t4673, ___flags_0), 0 } ,
+	{ 177, 90, offsetof(SecurityPermissionFlag_t4675, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1459, 9725, 0, 0 } ,
+	{ 1585, 9725, 0, 0 } ,
+	{ 1586, 9725, 0, 0 } ,
+	{ 1587, 9725, 0, 0 } ,
+	{ 1588, 9725, 0, 0 } ,
+	{ 1589, 9725, 0, 0 } ,
+	{ 1590, 9725, 0, 0 } ,
+	{ 1591, 9725, 0, 0 } ,
+	{ 1592, 9725, 0, 0 } ,
+	{ 1593, 9725, 0, 0 } ,
+	{ 1594, 9725, 0, 0 } ,
+	{ 1595, 9725, 0, 0 } ,
+	{ 1596, 9725, 0, 0 } ,
+	{ 1597, 9725, 0, 0 } ,
+	{ 1598, 9725, 0, 0 } ,
+	{ 1599, 9725, 0, 0 } ,
+	{ 1600, 582, offsetof(StrongNamePublicKeyBlob_t4676, ___pubkey_0), 0 } ,
+	{ 1601, 9728, offsetof(ApplicationTrust_t4678, ___fullTrustAssemblies_0), 0 } ,
+	{ 1602, 1295, offsetof(EvidenceEnumerator_t4679, ___currentEnum_0), 0 } ,
+	{ 1603, 1295, offsetof(EvidenceEnumerator_t4679, ___hostEnum_1), 0 } ,
+	{ 1604, 1295, offsetof(EvidenceEnumerator_t4679, ___assemblyEnum_2), 0 } ,
+	{ 1605, 5600, offsetof(Evidence_t4479, ___hostEvidenceList_0), 0 } ,
+	{ 1606, 5600, offsetof(Evidence_t4479, ___assemblyEvidenceList_1), 0 } ,
+	{ 1607, 110, offsetof(Evidence_t4479, ____hashCode_2), 0 } ,
+	{ 1019, 9733, offsetof(Hash_t4680, ___assembly_0), 0 } ,
+	{ 52, 838, offsetof(Hash_t4680, ___data_1), 0 } ,
+	{ 1608, 9739, offsetof(StrongName_t4681, ___publickey_0), 0 } ,
+	{ 480, 99, offsetof(StrongName_t4681, ___name_1), 0 } ,
+	{ 333, 7456, offsetof(StrongName_t4681, ___version_2), 0 } ,
+	{ 177, 90, offsetof(PrincipalPolicy_t4682, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1609, 9745, 0, 0 } ,
+	{ 1610, 9745, 0, 0 } ,
+	{ 1611, 9745, 0, 0 } ,
+	{ 177, 90, offsetof(WindowsAccountType_t4683, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 733, 9748, 0, 0 } ,
+	{ 1612, 9748, 0, 0 } ,
+	{ 739, 9748, 0, 0 } ,
+	{ 1613, 9748, 0, 0 } ,
+	{ 1614, 4532, offsetof(WindowsIdentity_t4684, ____token_0), 0 } ,
+	{ 1116, 99, offsetof(WindowsIdentity_t4684, ____type_1), 0 } ,
+	{ 1615, 9750, offsetof(WindowsIdentity_t4684, ____account_2), 0 } ,
+	{ 1616, 100, offsetof(WindowsIdentity_t4684, ____authenticated_3), 0 } ,
+	{ 1617, 99, offsetof(WindowsIdentity_t4684, ____name_4), 0 } ,
+	{ 1618, 5939, offsetof(WindowsIdentity_t4684, ____info_5), 0 } ,
+	{ 1619, 7545, offsetof(WindowsIdentity_t4684_StaticFields, ___invalidWindows_6), 0 } ,
+	{ 1620, 100, offsetof(PermissionSet_t4480, ___U3CDeclarativeSecurityU3Ek__BackingField_0), 704 } ,
+	{ 1621, 100, offsetof(SecurityContext_t4686, ____capture_0), 0 } ,
+	{ 1622, 4532, offsetof(SecurityContext_t4686, ____winid_1), 0 } ,
+	{ 1623, 9757, offsetof(SecurityContext_t4686, ____stack_2), 0 } ,
+	{ 1624, 100, offsetof(SecurityContext_t4686, ____suppressFlow_3), 0 } ,
+	{ 1617, 99, offsetof(SecurityAttribute_t4687, ____name_0), 0 } ,
+	{ 427, 99, offsetof(SecurityAttribute_t4687, ____value_1), 0 } ,
+	{ 1625, 99, offsetof(SecurityElement_t4375, ___text_0), 0 } ,
+	{ 1626, 99, offsetof(SecurityElement_t4375, ___tag_1), 0 } ,
+	{ 371, 5600, offsetof(SecurityElement_t4375, ___attributes_2), 0 } ,
+	{ 1627, 5600, offsetof(SecurityElement_t4375, ___children_3), 0 } ,
+	{ 1628, 2094, offsetof(SecurityElement_t4375_StaticFields, ___invalid_tag_chars_4), 0 } ,
+	{ 1629, 2094, offsetof(SecurityElement_t4375_StaticFields, ___invalid_text_chars_5), 0 } ,
+	{ 1630, 2094, offsetof(SecurityElement_t4375_StaticFields, ___invalid_attr_name_chars_6), 0 } ,
+	{ 1631, 2094, offsetof(SecurityElement_t4375_StaticFields, ___invalid_attr_value_chars_7), 0 } ,
+	{ 1632, 2094, offsetof(SecurityElement_t4375_StaticFields, ___invalid_chars_8), 0 } ,
+	{ 1633, 99, offsetof(SecurityException_t4148, ___permissionState_11), 0 } ,
+	{ 1634, 5578, offsetof(SecurityException_t4148, ___permissionType_12), 0 } ,
+	{ 916, 99, offsetof(SecurityException_t4148, ____granted_13), 0 } ,
+	{ 1635, 99, offsetof(SecurityException_t4148, ____refused_14), 0 } ,
+	{ 1636, 617, offsetof(SecurityException_t4148, ____demanded_15), 0 } ,
+	{ 1637, 9762, offsetof(SecurityException_t4148, ____firstperm_16), 0 } ,
+	{ 1194, 5947, offsetof(SecurityException_t4148, ____method_17), 0 } ,
+	{ 912, 9155, offsetof(SecurityException_t4148, ____evidence_18), 0 } ,
+	{ 1638, 4622, offsetof(RuntimeDeclSecurityEntry_t4689, ___blob_0) + sizeof(Object_t), 0 } ,
+	{ 434, 102, offsetof(RuntimeDeclSecurityEntry_t4689, ___size_1) + sizeof(Object_t), 0 } ,
+	{ 407, 102, offsetof(RuntimeDeclSecurityEntry_t4689, ___index_2) + sizeof(Object_t), 0 } ,
+	{ 1639, 9766, offsetof(RuntimeSecurityFrame_t4690, ___domain_0), 0 } ,
+	{ 47, 3989, offsetof(RuntimeSecurityFrame_t4690, ___method_1), 0 } ,
+	{ 1640, 9767, offsetof(RuntimeSecurityFrame_t4690, ___assert_2), 0 } ,
+	{ 1641, 9767, offsetof(RuntimeSecurityFrame_t4690, ___deny_3), 0 } ,
+	{ 1642, 9767, offsetof(RuntimeSecurityFrame_t4690, ___permitonly_4), 0 } ,
+	{ 1643, 9769, offsetof(SecurityFrame_t4691, ____domain_0) + sizeof(Object_t), 0 } ,
+	{ 1194, 5947, offsetof(SecurityFrame_t4691, ____method_1) + sizeof(Object_t), 0 } ,
+	{ 1644, 9157, offsetof(SecurityFrame_t4691, ____assert_2) + sizeof(Object_t), 0 } ,
+	{ 1645, 9157, offsetof(SecurityFrame_t4691, ____deny_3) + sizeof(Object_t), 0 } ,
+	{ 1646, 9157, offsetof(SecurityFrame_t4691, ____permitonly_4) + sizeof(Object_t), 0 } ,
+	{ 1647, 3640, offsetof(SecurityManager_t4692_StaticFields, ____lockObject_0), 0 } ,
+	{ 1648, 6750, offsetof(SecurityManager_t4692_StaticFields, ____declsecCache_1), 0 } ,
+	{ 1649, 9771, offsetof(SecurityManager_t4692_StaticFields, ____execution_2), 0 } ,
+	{ 1650, 9783, offsetof(Decoder_t3184, ___fallback_0), 0 } ,
+	{ 1651, 9784, offsetof(Decoder_t3184, ___fallback_buffer_1), 0 } ,
+	{ 1652, 9788, offsetof(DecoderFallback_t4694_StaticFields, ___exception_fallback_0), 0 } ,
+	{ 1653, 9788, offsetof(DecoderFallback_t4694_StaticFields, ___replacement_fallback_1), 0 } ,
+	{ 1654, 9788, offsetof(DecoderFallback_t4694_StaticFields, ___standard_safe_fallback_2), 0 } ,
+	{ 1655, 838, offsetof(DecoderFallbackException_t4698, ___bytes_unknown_13), 0 } ,
+	{ 407, 110, offsetof(DecoderFallbackException_t4698, ___index_14), 0 } ,
+	{ 1656, 99, offsetof(DecoderReplacementFallback_t4699, ___replacement_3), 0 } ,
+	{ 1657, 100, offsetof(DecoderReplacementFallbackBuffer_t4700, ___fallback_assigned_0), 0 } ,
+	{ 359, 110, offsetof(DecoderReplacementFallbackBuffer_t4700, ___current_1), 0 } ,
+	{ 1656, 99, offsetof(DecoderReplacementFallbackBuffer_t4700, ___replacement_2), 0 } ,
+	{ 1652, 9795, offsetof(EncoderFallback_t4702_StaticFields, ___exception_fallback_0), 0 } ,
+	{ 1653, 9795, offsetof(EncoderFallback_t4702_StaticFields, ___replacement_fallback_1), 0 } ,
+	{ 1654, 9795, offsetof(EncoderFallback_t4702_StaticFields, ___standard_safe_fallback_2), 0 } ,
+	{ 1658, 2099, offsetof(EncoderFallbackException_t4705, ___char_unknown_13), 0 } ,
+	{ 1659, 2099, offsetof(EncoderFallbackException_t4705, ___char_unknown_high_14), 0 } ,
+	{ 1660, 2099, offsetof(EncoderFallbackException_t4705, ___char_unknown_low_15), 0 } ,
+	{ 407, 110, offsetof(EncoderFallbackException_t4705, ___index_16), 0 } ,
+	{ 1656, 99, offsetof(EncoderReplacementFallback_t4706, ___replacement_3), 0 } ,
+	{ 1656, 99, offsetof(EncoderReplacementFallbackBuffer_t4707, ___replacement_0), 0 } ,
+	{ 359, 110, offsetof(EncoderReplacementFallbackBuffer_t4707, ___current_1), 0 } ,
+	{ 1657, 100, offsetof(EncoderReplacementFallbackBuffer_t4707, ___fallback_assigned_2), 0 } ,
+	{ 845, 5711, offsetof(ForwardingDecoder_t4708, ___encoding_2), 0 } ,
+	{ 1661, 137, offsetof(Encoding_t689, ___codePage_0), 0 } ,
+	{ 1662, 137, offsetof(Encoding_t689, ___windows_code_page_1), 0 } ,
+	{ 1663, 100, offsetof(Encoding_t689, ___is_readonly_2), 0 } ,
+	{ 1664, 9783, offsetof(Encoding_t689, ___decoder_fallback_3), 0 } ,
+	{ 1665, 9801, offsetof(Encoding_t689, ___encoder_fallback_4), 0 } ,
+	{ 1666, 9802, offsetof(Encoding_t689_StaticFields, ___i18nAssembly_5), 0 } ,
+	{ 1667, 645, offsetof(Encoding_t689_StaticFields, ___i18nDisabled_6), 0 } ,
+	{ 1668, 5001, offsetof(Encoding_t689_StaticFields, ___encodings_7), 0 } ,
+	{ 1669, 1008, offsetof(Encoding_t689, ___body_name_8), 0 } ,
+	{ 1670, 1008, offsetof(Encoding_t689, ___encoding_name_9), 0 } ,
+	{ 1671, 1008, offsetof(Encoding_t689, ___header_name_10), 0 } ,
+	{ 1672, 2084, offsetof(Encoding_t689, ___is_mail_news_display_11), 0 } ,
+	{ 1673, 2084, offsetof(Encoding_t689, ___is_mail_news_save_12), 0 } ,
+	{ 1674, 2084, offsetof(Encoding_t689, ___is_browser_save_13), 0 } ,
+	{ 1675, 2084, offsetof(Encoding_t689, ___is_browser_display_14), 0 } ,
+	{ 1676, 1008, offsetof(Encoding_t689, ___web_name_15), 0 } ,
+	{ 1677, 9803, offsetof(Encoding_t689_StaticFields, ___asciiEncoding_16), 0 } ,
+	{ 1678, 9803, offsetof(Encoding_t689_StaticFields, ___bigEndianEncoding_17), 0 } ,
+	{ 1679, 9803, offsetof(Encoding_t689_StaticFields, ___defaultEncoding_18), 0 } ,
+	{ 1680, 9803, offsetof(Encoding_t689_StaticFields, ___utf7Encoding_19), 0 } ,
+	{ 1681, 9803, offsetof(Encoding_t689_StaticFields, ___utf8EncodingWithMarkers_20), 0 } ,
+	{ 1682, 9803, offsetof(Encoding_t689_StaticFields, ___utf8EncodingWithoutMarkers_21), 0 } ,
+	{ 1683, 9803, offsetof(Encoding_t689_StaticFields, ___unicodeEncoding_22), 0 } ,
+	{ 1684, 9803, offsetof(Encoding_t689_StaticFields, ___isoLatin1Encoding_23), 0 } ,
+	{ 1685, 9803, offsetof(Encoding_t689_StaticFields, ___utf8EncodingUnsafe_24), 0 } ,
+	{ 1686, 9803, offsetof(Encoding_t689_StaticFields, ___utf32Encoding_25), 0 } ,
+	{ 1687, 9803, offsetof(Encoding_t689_StaticFields, ___bigEndianUTF32Encoding_26), 0 } ,
+	{ 252, 3664, offsetof(Encoding_t689_StaticFields, ___lockobj_27), 0 } ,
+	{ 1688, 837, 0, 0 } ,
 	{ 1689, 110, offsetof(StringBuilder_t261, ____length_1), 0 } ,
 	{ 1690, 99, offsetof(StringBuilder_t261, ____str_2), 0 } ,
 	{ 1691, 99, offsetof(StringBuilder_t261, ____cached_str_3), 0 } ,
 	{ 1692, 110, offsetof(StringBuilder_t261, ____maxCapacity_4), 0 } ,
-	{ 1693, 100, offsetof(UTF32Decoder_t4702, ___bigEndian_2), 0 } ,
-	{ 1694, 110, offsetof(UTF32Decoder_t4702, ___leftOverByte_3), 0 } ,
-	{ 1695, 110, offsetof(UTF32Decoder_t4702, ___leftOverLength_4), 0 } ,
-	{ 1693, 100, offsetof(UTF32Encoding_t4703, ___bigEndian_28), 0 } ,
-	{ 1696, 100, offsetof(UTF32Encoding_t4703, ___byteOrderMark_29), 0 } ,
-	{ 1697, 110, offsetof(UTF7Decoder_t4704, ___leftOver_2), 0 } ,
-	{ 1698, 100, offsetof(UTF7Encoding_t4706, ___allowOptionals_28), 0 } ,
-	{ 1699, 5663, offsetof(UTF7Encoding_t4706_StaticFields, ___encodingRules_29), 0 } ,
-	{ 1700, 9791, offsetof(UTF7Encoding_t4706_StaticFields, ___base64Values_30), 0 } ,
-	{ 1701, 4885, offsetof(UTF8Decoder_t4707, ___leftOverBits_2), 0 } ,
-	{ 1702, 4885, offsetof(UTF8Decoder_t4707, ___leftOverCount_3), 0 } ,
-	{ 1703, 100, offsetof(UTF8Encoding_t3239, ___emitIdentifier_28), 0 } ,
-	{ 1693, 100, offsetof(UnicodeDecoder_t4708, ___bigEndian_2), 0 } ,
-	{ 1694, 110, offsetof(UnicodeDecoder_t4708, ___leftOverByte_3), 0 } ,
-	{ 1693, 100, offsetof(UnicodeEncoding_t4709, ___bigEndian_28), 0 } ,
-	{ 1696, 100, offsetof(UnicodeEncoding_t4709, ___byteOrderMark_29), 0 } ,
-	{ 262, 5582, offsetof(CompressedStack_t4677, ____list_0), 0 } ,
-	{ 177, 90, offsetof(EventResetMode_t4710, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1704, 9799, 0, 0 } ,
-	{ 1705, 9799, 0, 0 } ,
-	{ 1706, 9802, offsetof(ExecutionContext_t4546, ____sc_0), 0 } ,
-	{ 1624, 100, offsetof(ExecutionContext_t4546, ____suppressFlow_1), 0 } ,
-	{ 1621, 100, offsetof(ExecutionContext_t4546, ____capture_2), 0 } ,
-	{ 1707, 4229, THREAD_STATIC_FIELD_OFFSET, 772 } ,
-	{ 1708, 110, offsetof(Thread_t1401, ___lock_thread_id_0), 0 } ,
-	{ 1709, 4514, offsetof(Thread_t1401, ___system_thread_handle_1), 0 } ,
-	{ 1710, 612, offsetof(Thread_t1401, ___cached_culture_info_2), 0 } ,
-	{ 1711, 4514, offsetof(Thread_t1401, ___unused0_3), 0 } ,
-	{ 1712, 100, offsetof(Thread_t1401, ___threadpool_thread_4), 0 } ,
-	{ 480, 4514, offsetof(Thread_t1401, ___name_5), 0 } ,
-	{ 1713, 110, offsetof(Thread_t1401, ___name_len_6), 0 } ,
-	{ 476, 9817, offsetof(Thread_t1401, ___state_7), 0 } ,
-	{ 1714, 612, offsetof(Thread_t1401, ___abort_exc_8), 0 } ,
-	{ 1715, 110, offsetof(Thread_t1401, ___abort_state_handle_9), 0 } ,
-	{ 1716, 116, offsetof(Thread_t1401, ___thread_id_10), 0 } ,
-	{ 1717, 4514, offsetof(Thread_t1401, ___start_notify_11), 0 } ,
-	{ 1718, 4514, offsetof(Thread_t1401, ___stack_ptr_12), 0 } ,
-	{ 1719, 9818, offsetof(Thread_t1401, ___static_data_13), 0 } ,
-	{ 1720, 4514, offsetof(Thread_t1401, ___jit_data_14), 0 } ,
-	{ 1721, 4514, offsetof(Thread_t1401, ___lock_data_15), 0 } ,
-	{ 1722, 612, offsetof(Thread_t1401, ___current_appcontext_16), 0 } ,
-	{ 1723, 110, offsetof(Thread_t1401, ___stack_size_17), 0 } ,
-	{ 1724, 612, offsetof(Thread_t1401, ___start_obj_18), 0 } ,
-	{ 1725, 4514, offsetof(Thread_t1401, ___appdomain_refs_19), 0 } ,
-	{ 1726, 110, offsetof(Thread_t1401, ___interruption_requested_20), 0 } ,
-	{ 1727, 4514, offsetof(Thread_t1401, ___suspend_event_21), 0 } ,
-	{ 1728, 4514, offsetof(Thread_t1401, ___suspended_event_22), 0 } ,
-	{ 1729, 4514, offsetof(Thread_t1401, ___resume_event_23), 0 } ,
-	{ 1730, 4514, offsetof(Thread_t1401, ___synch_cs_24), 0 } ,
-	{ 1731, 4514, offsetof(Thread_t1401, ___serialized_culture_info_25), 0 } ,
-	{ 1732, 110, offsetof(Thread_t1401, ___serialized_culture_info_len_26), 0 } ,
-	{ 1733, 4514, offsetof(Thread_t1401, ___serialized_ui_culture_info_27), 0 } ,
-	{ 1734, 110, offsetof(Thread_t1401, ___serialized_ui_culture_info_len_28), 0 } ,
-	{ 1735, 100, offsetof(Thread_t1401, ___thread_dump_requested_29), 0 } ,
-	{ 1736, 4514, offsetof(Thread_t1401, ___end_stack_30), 0 } ,
-	{ 1737, 100, offsetof(Thread_t1401, ___thread_interrupt_requested_31), 0 } ,
-	{ 1738, 6615, offsetof(Thread_t1401, ___apartment_state_32), 0 } ,
-	{ 1739, 110, offsetof(Thread_t1401, ___critical_region_level_33), 0 } ,
-	{ 1740, 110, offsetof(Thread_t1401, ___small_id_34), 0 } ,
-	{ 1741, 4514, offsetof(Thread_t1401, ___manage_callback_35), 0 } ,
-	{ 1742, 612, offsetof(Thread_t1401, ___pending_exception_36), 0 } ,
-	{ 1743, 9392, offsetof(Thread_t1401, ___ec_to_set_37), 0 } ,
-	{ 1744, 4514, offsetof(Thread_t1401, ___interrupt_on_stop_38), 0 } ,
-	{ 1745, 4514, offsetof(Thread_t1401, ___unused3_39), 0 } ,
-	{ 1746, 4514, offsetof(Thread_t1401, ___unused4_40), 0 } ,
-	{ 1747, 4514, offsetof(Thread_t1401, ___unused5_41), 0 } ,
-	{ 1748, 4514, offsetof(Thread_t1401, ___unused6_42), 0 } ,
-	{ 1749, 9819, THREAD_STATIC_FIELD_OFFSET, 775 } ,
-	{ 1750, 9820, THREAD_STATIC_FIELD_OFFSET, 776 } ,
-	{ 1751, 8315, offsetof(Thread_t1401, ___threadstart_45), 0 } ,
-	{ 1752, 110, offsetof(Thread_t1401, ___managed_id_46), 0 } ,
-	{ 1753, 9821, offsetof(Thread_t1401, ____principal_47), 0 } ,
-	{ 1754, 6732, offsetof(Thread_t1401_StaticFields, ___datastorehash_48), 0 } ,
-	{ 1755, 3622, offsetof(Thread_t1401_StaticFields, ___datastore_lock_49), 0 } ,
-	{ 1756, 100, offsetof(Thread_t1401, ___in_currentculture_50), 0 } ,
-	{ 1757, 3622, offsetof(Thread_t1401_StaticFields, ___culture_lock_51), 0 } ,
-	{ 177, 90, offsetof(ThreadState_t4716, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1758, 9828, 0, 0 } ,
-	{ 1759, 9828, 0, 0 } ,
-	{ 1760, 9828, 0, 0 } ,
-	{ 1761, 9828, 0, 0 } ,
-	{ 1762, 9828, 0, 0 } ,
-	{ 1763, 9828, 0, 0 } ,
-	{ 1764, 9828, 0, 0 } ,
-	{ 1765, 9828, 0, 0 } ,
-	{ 1766, 9828, 0, 0 } ,
-	{ 1767, 9828, 0, 0 } ,
-	{ 1768, 9833, offsetof(Scheduler_t4719_StaticFields, ___instance_0), 0 } ,
-	{ 405, 8937, offsetof(Scheduler_t4719, ___list_1), 0 } ,
-	{ 1769, 9833, offsetof(Timer_t2097_StaticFields, ___scheduler_1), 0 } ,
-	{ 1770, 9835, offsetof(Timer_t2097, ___callback_2), 0 } ,
-	{ 476, 612, offsetof(Timer_t2097, ___state_3), 0 } ,
-	{ 1771, 116, offsetof(Timer_t2097, ___due_time_ms_4), 0 } ,
-	{ 1772, 116, offsetof(Timer_t2097, ___period_ms_5), 0 } ,
-	{ 1773, 116, offsetof(Timer_t2097, ___next_run_6), 0 } ,
-	{ 720, 100, offsetof(Timer_t2097, ___disposed_7), 0 } ,
-	{ 1774, 708, 0, 0 } ,
-	{ 1775, 9837, offsetof(WaitHandle_t3855, ___safe_wait_handle_2), 0 } ,
-	{ 794, 9838, offsetof(WaitHandle_t3855_StaticFields, ___InvalidHandle_3), 0 } ,
-	{ 720, 100, offsetof(WaitHandle_t3855, ___disposed_4), 0 } ,
-	{ 1273, 100, offsetof(ActivationContext_t4721, ____disposed_0), 0 } ,
-	{ 1776, 4514, offsetof(AppDomain_t2086, ____mono_app_domain_1), 0 } ,
-	{ 1777, 1064, offsetof(AppDomain_t2086_StaticFields, ____process_guid_2), 0 } ,
-	{ 1778, 6732, THREAD_STATIC_FIELD_OFFSET, 798 } ,
-	{ 1779, 6732, THREAD_STATIC_FIELD_OFFSET, 799 } ,
-	{ 1780, 6732, THREAD_STATIC_FIELD_OFFSET, 800 } ,
-	{ 912, 9137, offsetof(AppDomain_t2086, ____evidence_6), 0 } ,
-	{ 916, 9139, offsetof(AppDomain_t2086, ____granted_7), 0 } ,
-	{ 1781, 9845, offsetof(AppDomain_t2086, ____principalPolicy_8), 0 } ,
-	{ 1753, 9846, THREAD_STATIC_FIELD_OFFSET, 801 } ,
-	{ 1782, 9847, offsetof(AppDomain_t2086_StaticFields, ___default_domain_10), 0 } ,
-	{ 1783, 9848, offsetof(AppDomain_t2086, ____domain_manager_11), 0 } ,
-	{ 1784, 9849, offsetof(AppDomain_t2086, ____activation_12), 0 } ,
-	{ 1785, 9850, offsetof(AppDomain_t2086, ____applicationIdentity_13), 0 } ,
-	{ 1786, 9851, offsetof(AppDomain_t2086, ___AssemblyLoad_14), 0 } ,
-	{ 1787, 9852, offsetof(AppDomain_t2086, ___AssemblyResolve_15), 0 } ,
-	{ 1788, 7442, offsetof(AppDomain_t2086, ___DomainUnload_16), 0 } ,
-	{ 1789, 7442, offsetof(AppDomain_t2086, ___ProcessExit_17), 0 } ,
-	{ 1790, 9852, offsetof(AppDomain_t2086, ___ResourceResolve_18), 0 } ,
-	{ 1791, 9852, offsetof(AppDomain_t2086, ___TypeResolve_19), 0 } ,
-	{ 1792, 9853, offsetof(AppDomain_t2086, ___UnhandledException_20), 0 } ,
-	{ 1793, 9852, offsetof(AppDomain_t2086, ___ReflectionOnlyAssemblyResolve_21), 0 } ,
-	{ 1794, 99, offsetof(AppDomainSetup_t4729, ___application_base_0), 0 } ,
-	{ 1795, 99, offsetof(AppDomainSetup_t4729, ___application_name_1), 0 } ,
-	{ 1796, 99, offsetof(AppDomainSetup_t4729, ___cache_path_2), 0 } ,
-	{ 1797, 99, offsetof(AppDomainSetup_t4729, ___configuration_file_3), 0 } ,
-	{ 1798, 99, offsetof(AppDomainSetup_t4729, ___dynamic_base_4), 0 } ,
-	{ 1799, 99, offsetof(AppDomainSetup_t4729, ___license_file_5), 0 } ,
-	{ 1800, 99, offsetof(AppDomainSetup_t4729, ___private_bin_path_6), 0 } ,
-	{ 1801, 99, offsetof(AppDomainSetup_t4729, ___private_bin_path_probe_7), 0 } ,
-	{ 1802, 99, offsetof(AppDomainSetup_t4729, ___shadow_copy_directories_8), 0 } ,
-	{ 1803, 99, offsetof(AppDomainSetup_t4729, ___shadow_copy_files_9), 0 } ,
-	{ 1804, 100, offsetof(AppDomainSetup_t4729, ___publisher_policy_10), 0 } ,
-	{ 1805, 100, offsetof(AppDomainSetup_t4729, ___path_changed_11), 0 } ,
-	{ 1806, 9857, offsetof(AppDomainSetup_t4729, ___loader_optimization_12), 0 } ,
-	{ 1807, 100, offsetof(AppDomainSetup_t4729, ___disallow_binding_redirects_13), 0 } ,
-	{ 1808, 100, offsetof(AppDomainSetup_t4729, ___disallow_code_downloads_14), 0 } ,
-	{ 1809, 9858, offsetof(AppDomainSetup_t4729, ____activationArguments_15), 0 } ,
-	{ 1810, 9859, offsetof(AppDomainSetup_t4729, ___domain_initializer_16), 0 } ,
-	{ 1811, 9860, offsetof(AppDomainSetup_t4729, ___application_trust_17), 0 } ,
-	{ 1812, 582, offsetof(AppDomainSetup_t4729, ___domain_initializer_args_18), 0 } ,
-	{ 1813, 8670, offsetof(AppDomainSetup_t4729, ___application_trust_xml_19), 0 } ,
-	{ 1814, 100, offsetof(AppDomainSetup_t4729, ___disallow_appbase_probe_20), 0 } ,
-	{ 1815, 833, offsetof(AppDomainSetup_t4729, ___configuration_bytes_21), 0 } ,
-	{ 1816, 99, offsetof(ApplicationIdentity_t4724, ____fullName_0), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1818, 99, offsetof(ArgumentException_t653, ___param_name_12), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1819, 612, offsetof(ArgumentOutOfRangeException_t1413, ___actual_value_13), 0 } ,
-	{ 54, 9873, 0, 0 } ,
+	{ 1693, 100, offsetof(UTF32Decoder_t4710, ___bigEndian_2), 0 } ,
+	{ 1694, 110, offsetof(UTF32Decoder_t4710, ___leftOverByte_3), 0 } ,
+	{ 1695, 110, offsetof(UTF32Decoder_t4710, ___leftOverLength_4), 0 } ,
+	{ 1693, 100, offsetof(UTF32Encoding_t4711, ___bigEndian_28), 0 } ,
+	{ 1696, 100, offsetof(UTF32Encoding_t4711, ___byteOrderMark_29), 0 } ,
+	{ 1697, 110, offsetof(UTF7Decoder_t4712, ___leftOver_2), 0 } ,
+	{ 1698, 100, offsetof(UTF7Encoding_t4714, ___allowOptionals_28), 0 } ,
+	{ 1699, 5681, offsetof(UTF7Encoding_t4714_StaticFields, ___encodingRules_29), 0 } ,
+	{ 1700, 9809, offsetof(UTF7Encoding_t4714_StaticFields, ___base64Values_30), 0 } ,
+	{ 1701, 4903, offsetof(UTF8Decoder_t4715, ___leftOverBits_2), 0 } ,
+	{ 1702, 4903, offsetof(UTF8Decoder_t4715, ___leftOverCount_3), 0 } ,
+	{ 1703, 100, offsetof(UTF8Encoding_t3247, ___emitIdentifier_28), 0 } ,
+	{ 1693, 100, offsetof(UnicodeDecoder_t4716, ___bigEndian_2), 0 } ,
+	{ 1694, 110, offsetof(UnicodeDecoder_t4716, ___leftOverByte_3), 0 } ,
+	{ 1693, 100, offsetof(UnicodeEncoding_t4717, ___bigEndian_28), 0 } ,
+	{ 1696, 100, offsetof(UnicodeEncoding_t4717, ___byteOrderMark_29), 0 } ,
+	{ 262, 5600, offsetof(CompressedStack_t4685, ____list_0), 0 } ,
+	{ 177, 90, offsetof(EventResetMode_t4718, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1704, 9817, 0, 0 } ,
+	{ 1705, 9817, 0, 0 } ,
+	{ 1706, 9820, offsetof(ExecutionContext_t4554, ____sc_0), 0 } ,
+	{ 1624, 100, offsetof(ExecutionContext_t4554, ____suppressFlow_1), 0 } ,
+	{ 1621, 100, offsetof(ExecutionContext_t4554, ____capture_2), 0 } ,
+	{ 1707, 4247, THREAD_STATIC_FIELD_OFFSET, 772 } ,
+	{ 1708, 110, offsetof(Thread_t1408, ___lock_thread_id_0), 0 } ,
+	{ 1709, 4532, offsetof(Thread_t1408, ___system_thread_handle_1), 0 } ,
+	{ 1710, 617, offsetof(Thread_t1408, ___cached_culture_info_2), 0 } ,
+	{ 1711, 4532, offsetof(Thread_t1408, ___unused0_3), 0 } ,
+	{ 1712, 100, offsetof(Thread_t1408, ___threadpool_thread_4), 0 } ,
+	{ 480, 4532, offsetof(Thread_t1408, ___name_5), 0 } ,
+	{ 1713, 110, offsetof(Thread_t1408, ___name_len_6), 0 } ,
+	{ 476, 9835, offsetof(Thread_t1408, ___state_7), 0 } ,
+	{ 1714, 617, offsetof(Thread_t1408, ___abort_exc_8), 0 } ,
+	{ 1715, 110, offsetof(Thread_t1408, ___abort_state_handle_9), 0 } ,
+	{ 1716, 116, offsetof(Thread_t1408, ___thread_id_10), 0 } ,
+	{ 1717, 4532, offsetof(Thread_t1408, ___start_notify_11), 0 } ,
+	{ 1718, 4532, offsetof(Thread_t1408, ___stack_ptr_12), 0 } ,
+	{ 1719, 9836, offsetof(Thread_t1408, ___static_data_13), 0 } ,
+	{ 1720, 4532, offsetof(Thread_t1408, ___jit_data_14), 0 } ,
+	{ 1721, 4532, offsetof(Thread_t1408, ___lock_data_15), 0 } ,
+	{ 1722, 617, offsetof(Thread_t1408, ___current_appcontext_16), 0 } ,
+	{ 1723, 110, offsetof(Thread_t1408, ___stack_size_17), 0 } ,
+	{ 1724, 617, offsetof(Thread_t1408, ___start_obj_18), 0 } ,
+	{ 1725, 4532, offsetof(Thread_t1408, ___appdomain_refs_19), 0 } ,
+	{ 1726, 110, offsetof(Thread_t1408, ___interruption_requested_20), 0 } ,
+	{ 1727, 4532, offsetof(Thread_t1408, ___suspend_event_21), 0 } ,
+	{ 1728, 4532, offsetof(Thread_t1408, ___suspended_event_22), 0 } ,
+	{ 1729, 4532, offsetof(Thread_t1408, ___resume_event_23), 0 } ,
+	{ 1730, 4532, offsetof(Thread_t1408, ___synch_cs_24), 0 } ,
+	{ 1731, 4532, offsetof(Thread_t1408, ___serialized_culture_info_25), 0 } ,
+	{ 1732, 110, offsetof(Thread_t1408, ___serialized_culture_info_len_26), 0 } ,
+	{ 1733, 4532, offsetof(Thread_t1408, ___serialized_ui_culture_info_27), 0 } ,
+	{ 1734, 110, offsetof(Thread_t1408, ___serialized_ui_culture_info_len_28), 0 } ,
+	{ 1735, 100, offsetof(Thread_t1408, ___thread_dump_requested_29), 0 } ,
+	{ 1736, 4532, offsetof(Thread_t1408, ___end_stack_30), 0 } ,
+	{ 1737, 100, offsetof(Thread_t1408, ___thread_interrupt_requested_31), 0 } ,
+	{ 1738, 6633, offsetof(Thread_t1408, ___apartment_state_32), 0 } ,
+	{ 1739, 110, offsetof(Thread_t1408, ___critical_region_level_33), 0 } ,
+	{ 1740, 110, offsetof(Thread_t1408, ___small_id_34), 0 } ,
+	{ 1741, 4532, offsetof(Thread_t1408, ___manage_callback_35), 0 } ,
+	{ 1742, 617, offsetof(Thread_t1408, ___pending_exception_36), 0 } ,
+	{ 1743, 9410, offsetof(Thread_t1408, ___ec_to_set_37), 0 } ,
+	{ 1744, 4532, offsetof(Thread_t1408, ___interrupt_on_stop_38), 0 } ,
+	{ 1745, 4532, offsetof(Thread_t1408, ___unused3_39), 0 } ,
+	{ 1746, 4532, offsetof(Thread_t1408, ___unused4_40), 0 } ,
+	{ 1747, 4532, offsetof(Thread_t1408, ___unused5_41), 0 } ,
+	{ 1748, 4532, offsetof(Thread_t1408, ___unused6_42), 0 } ,
+	{ 1749, 9837, THREAD_STATIC_FIELD_OFFSET, 775 } ,
+	{ 1750, 9838, THREAD_STATIC_FIELD_OFFSET, 776 } ,
+	{ 1751, 8333, offsetof(Thread_t1408, ___threadstart_45), 0 } ,
+	{ 1752, 110, offsetof(Thread_t1408, ___managed_id_46), 0 } ,
+	{ 1753, 9839, offsetof(Thread_t1408, ____principal_47), 0 } ,
+	{ 1754, 6750, offsetof(Thread_t1408_StaticFields, ___datastorehash_48), 0 } ,
+	{ 1755, 3640, offsetof(Thread_t1408_StaticFields, ___datastore_lock_49), 0 } ,
+	{ 1756, 100, offsetof(Thread_t1408, ___in_currentculture_50), 0 } ,
+	{ 1757, 3640, offsetof(Thread_t1408_StaticFields, ___culture_lock_51), 0 } ,
+	{ 177, 90, offsetof(ThreadState_t4724, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1758, 9846, 0, 0 } ,
+	{ 1759, 9846, 0, 0 } ,
+	{ 1760, 9846, 0, 0 } ,
+	{ 1761, 9846, 0, 0 } ,
+	{ 1762, 9846, 0, 0 } ,
+	{ 1763, 9846, 0, 0 } ,
+	{ 1764, 9846, 0, 0 } ,
+	{ 1765, 9846, 0, 0 } ,
+	{ 1766, 9846, 0, 0 } ,
+	{ 1767, 9846, 0, 0 } ,
+	{ 1768, 9851, offsetof(Scheduler_t4727_StaticFields, ___instance_0), 0 } ,
+	{ 405, 8955, offsetof(Scheduler_t4727, ___list_1), 0 } ,
+	{ 1769, 9851, offsetof(Timer_t2104_StaticFields, ___scheduler_1), 0 } ,
+	{ 1770, 9853, offsetof(Timer_t2104, ___callback_2), 0 } ,
+	{ 476, 617, offsetof(Timer_t2104, ___state_3), 0 } ,
+	{ 1771, 116, offsetof(Timer_t2104, ___due_time_ms_4), 0 } ,
+	{ 1772, 116, offsetof(Timer_t2104, ___period_ms_5), 0 } ,
+	{ 1773, 116, offsetof(Timer_t2104, ___next_run_6), 0 } ,
+	{ 720, 100, offsetof(Timer_t2104, ___disposed_7), 0 } ,
+	{ 1774, 713, 0, 0 } ,
+	{ 1775, 9855, offsetof(WaitHandle_t3863, ___safe_wait_handle_2), 0 } ,
+	{ 794, 9856, offsetof(WaitHandle_t3863_StaticFields, ___InvalidHandle_3), 0 } ,
+	{ 720, 100, offsetof(WaitHandle_t3863, ___disposed_4), 0 } ,
+	{ 1273, 100, offsetof(ActivationContext_t4729, ____disposed_0), 0 } ,
+	{ 1776, 4532, offsetof(AppDomain_t2093, ____mono_app_domain_1), 0 } ,
+	{ 1777, 1069, offsetof(AppDomain_t2093_StaticFields, ____process_guid_2), 0 } ,
+	{ 1778, 6750, THREAD_STATIC_FIELD_OFFSET, 798 } ,
+	{ 1779, 6750, THREAD_STATIC_FIELD_OFFSET, 799 } ,
+	{ 1780, 6750, THREAD_STATIC_FIELD_OFFSET, 800 } ,
+	{ 912, 9155, offsetof(AppDomain_t2093, ____evidence_6), 0 } ,
+	{ 916, 9157, offsetof(AppDomain_t2093, ____granted_7), 0 } ,
+	{ 1781, 9863, offsetof(AppDomain_t2093, ____principalPolicy_8), 0 } ,
+	{ 1753, 9864, THREAD_STATIC_FIELD_OFFSET, 801 } ,
+	{ 1782, 9865, offsetof(AppDomain_t2093_StaticFields, ___default_domain_10), 0 } ,
+	{ 1783, 9866, offsetof(AppDomain_t2093, ____domain_manager_11), 0 } ,
+	{ 1784, 9867, offsetof(AppDomain_t2093, ____activation_12), 0 } ,
+	{ 1785, 9868, offsetof(AppDomain_t2093, ____applicationIdentity_13), 0 } ,
+	{ 1786, 9869, offsetof(AppDomain_t2093, ___AssemblyLoad_14), 0 } ,
+	{ 1787, 9870, offsetof(AppDomain_t2093, ___AssemblyResolve_15), 0 } ,
+	{ 1788, 7460, offsetof(AppDomain_t2093, ___DomainUnload_16), 0 } ,
+	{ 1789, 7460, offsetof(AppDomain_t2093, ___ProcessExit_17), 0 } ,
+	{ 1790, 9870, offsetof(AppDomain_t2093, ___ResourceResolve_18), 0 } ,
+	{ 1791, 9870, offsetof(AppDomain_t2093, ___TypeResolve_19), 0 } ,
+	{ 1792, 9871, offsetof(AppDomain_t2093, ___UnhandledException_20), 0 } ,
+	{ 1793, 9870, offsetof(AppDomain_t2093, ___ReflectionOnlyAssemblyResolve_21), 0 } ,
+	{ 1794, 99, offsetof(AppDomainSetup_t4737, ___application_base_0), 0 } ,
+	{ 1795, 99, offsetof(AppDomainSetup_t4737, ___application_name_1), 0 } ,
+	{ 1796, 99, offsetof(AppDomainSetup_t4737, ___cache_path_2), 0 } ,
+	{ 1797, 99, offsetof(AppDomainSetup_t4737, ___configuration_file_3), 0 } ,
+	{ 1798, 99, offsetof(AppDomainSetup_t4737, ___dynamic_base_4), 0 } ,
+	{ 1799, 99, offsetof(AppDomainSetup_t4737, ___license_file_5), 0 } ,
+	{ 1800, 99, offsetof(AppDomainSetup_t4737, ___private_bin_path_6), 0 } ,
+	{ 1801, 99, offsetof(AppDomainSetup_t4737, ___private_bin_path_probe_7), 0 } ,
+	{ 1802, 99, offsetof(AppDomainSetup_t4737, ___shadow_copy_directories_8), 0 } ,
+	{ 1803, 99, offsetof(AppDomainSetup_t4737, ___shadow_copy_files_9), 0 } ,
+	{ 1804, 100, offsetof(AppDomainSetup_t4737, ___publisher_policy_10), 0 } ,
+	{ 1805, 100, offsetof(AppDomainSetup_t4737, ___path_changed_11), 0 } ,
+	{ 1806, 9875, offsetof(AppDomainSetup_t4737, ___loader_optimization_12), 0 } ,
+	{ 1807, 100, offsetof(AppDomainSetup_t4737, ___disallow_binding_redirects_13), 0 } ,
+	{ 1808, 100, offsetof(AppDomainSetup_t4737, ___disallow_code_downloads_14), 0 } ,
+	{ 1809, 9876, offsetof(AppDomainSetup_t4737, ____activationArguments_15), 0 } ,
+	{ 1810, 9877, offsetof(AppDomainSetup_t4737, ___domain_initializer_16), 0 } ,
+	{ 1811, 9878, offsetof(AppDomainSetup_t4737, ___application_trust_17), 0 } ,
+	{ 1812, 587, offsetof(AppDomainSetup_t4737, ___domain_initializer_args_18), 0 } ,
+	{ 1813, 8688, offsetof(AppDomainSetup_t4737, ___application_trust_xml_19), 0 } ,
+	{ 1814, 100, offsetof(AppDomainSetup_t4737, ___disallow_appbase_probe_20), 0 } ,
+	{ 1815, 838, offsetof(AppDomainSetup_t4737, ___configuration_bytes_21), 0 } ,
+	{ 1816, 99, offsetof(ApplicationIdentity_t4732, ____fullName_0), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1818, 99, offsetof(ArgumentException_t661, ___param_name_12), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1819, 617, offsetof(ArgumentOutOfRangeException_t1420, ___actual_value_13), 0 } ,
+	{ 54, 9891, 0, 0 } ,
 	{ 1820, 110, 0, 0 } ,
 	{ 393, 110, 0, 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 177, 90, offsetof(AttributeTargets_t4732, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 966, 9879, 0, 0 } ,
-	{ 1821, 9879, 0, 0 } ,
-	{ 1080, 9879, 0, 0 } ,
-	{ 1150, 9879, 0, 0 } ,
-	{ 1822, 9879, 0, 0 } ,
-	{ 981, 9879, 0, 0 } ,
-	{ 984, 9879, 0, 0 } ,
-	{ 985, 9879, 0, 0 } ,
-	{ 983, 9879, 0, 0 } ,
-	{ 982, 9879, 0, 0 } ,
-	{ 1081, 9879, 0, 0 } ,
-	{ 1823, 9879, 0, 0 } ,
-	{ 1824, 9879, 0, 0 } ,
-	{ 1825, 9879, 0, 0 } ,
-	{ 1826, 9879, 0, 0 } ,
-	{ 989, 9879, 0, 0 } ,
-	{ 1827, 6425, offsetof(BitConverter_t3320_StaticFields, ___SwappedWordsInDouble_0), 0 } ,
-	{ 1828, 8582, offsetof(BitConverter_t3320_StaticFields, ___IsLittleEndian_1), 0 } ,
-	{ 1829, 99, offsetof(CharEnumerator_t4734, ___str_0), 0 } ,
-	{ 407, 110, offsetof(CharEnumerator_t4734, ___index_1), 0 } ,
-	{ 15, 110, offsetof(CharEnumerator_t4734, ___length_2), 0 } ,
-	{ 1830, 9885, offsetof(Console_t4141_StaticFields, ___stdout_0), 0 } ,
-	{ 1831, 9886, offsetof(Console_t4141_StaticFields, ___stderr_1), 0 } ,
-	{ 1832, 9887, offsetof(Console_t4141_StaticFields, ___stdin_2), 0 } ,
-	{ 1833, 9785, offsetof(Console_t4141_StaticFields, ___inputEncoding_3), 0 } ,
-	{ 1834, 9785, offsetof(Console_t4141_StaticFields, ___outputEncoding_4), 0 } ,
-	{ 1835, 8507, offsetof(Convert_t67_StaticFields, ___DBNull_0), 0 } ,
-	{ 1836, 5672, offsetof(Convert_t67_StaticFields, ___conversionTable_1), 0 } ,
-	{ 1015, 9891, offsetof(DBNull_t4736_StaticFields, ___Value_0), 0 } ,
-	{ 177, 90, offsetof(Which_t4737, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1837, 9893, 0, 0 } ,
-	{ 1838, 9893, 0, 0 } ,
-	{ 1839, 9893, 0, 0 } ,
-	{ 1840, 9893, 0, 0 } ,
-	{ 1841, 832, 0, 0 } ,
-	{ 1842, 832, 0, 0 } ,
-	{ 1843, 832, 0, 0 } ,
-	{ 1844, 9899, 0, 0 } ,
-	{ 1845, 9899, 0, 0 } ,
-	{ 1846, 9900, 0, 0 } ,
-	{ 1847, 9899, 0, 0 } ,
-	{ 1848, 3706, 0, 0 } ,
-	{ 1849, 3706, 0, 0 } ,
-	{ 1850, 646, 0, 0 } ,
-	{ 1851, 6431, offsetof(DateTime_t287, ___ticks_10) + sizeof(Object_t), 0 } ,
-	{ 1852, 9901, offsetof(DateTime_t287, ___kind_11) + sizeof(Object_t), 0 } ,
-	{ 0, 9902, offsetof(DateTime_t287_StaticFields, ___MaxValue_12), 0 } ,
-	{ 1, 9902, offsetof(DateTime_t287_StaticFields, ___MinValue_13), 0 } ,
-	{ 1853, 4948, offsetof(DateTime_t287_StaticFields, ___ParseTimeFormats_14), 0 } ,
-	{ 1854, 4948, offsetof(DateTime_t287_StaticFields, ___ParseYearDayMonthFormats_15), 0 } ,
-	{ 1855, 4948, offsetof(DateTime_t287_StaticFields, ___ParseYearMonthDayFormats_16), 0 } ,
-	{ 1856, 4948, offsetof(DateTime_t287_StaticFields, ___ParseDayMonthYearFormats_17), 0 } ,
-	{ 1857, 4948, offsetof(DateTime_t287_StaticFields, ___ParseMonthDayYearFormats_18), 0 } ,
-	{ 1858, 4948, offsetof(DateTime_t287_StaticFields, ___MonthDayShortFormats_19), 0 } ,
-	{ 1859, 4948, offsetof(DateTime_t287_StaticFields, ___DayMonthShortFormats_20), 0 } ,
-	{ 1860, 5907, offsetof(DateTime_t287_StaticFields, ___daysmonth_21), 0 } ,
-	{ 1861, 5907, offsetof(DateTime_t287_StaticFields, ___daysmonthleap_22), 0 } ,
-	{ 1862, 3622, offsetof(DateTime_t287_StaticFields, ___to_local_time_span_object_23), 0 } ,
-	{ 1863, 3362, offsetof(DateTime_t287_StaticFields, ___last_now_24), 0 } ,
-	{ 177, 90, offsetof(DateTimeKind_t4738, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1864, 9906, 0, 0 } ,
-	{ 1865, 9906, 0, 0 } ,
-	{ 1866, 9906, 0, 0 } ,
-	{ 0, 9908, offsetof(DateTimeOffset_t2886_StaticFields, ___MaxValue_0), 0 } ,
-	{ 1, 9908, offsetof(DateTimeOffset_t2886_StaticFields, ___MinValue_1), 0 } ,
-	{ 1867, 1201, offsetof(DateTimeOffset_t2886, ___dt_2) + sizeof(Object_t), 0 } ,
-	{ 1868, 6431, offsetof(DateTimeOffset_t2886, ___utc_offset_3) + sizeof(Object_t), 0 } ,
-	{ 177, 90, offsetof(DayOfWeek_t4740, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1869, 9914, 0, 0 } ,
-	{ 1870, 9914, 0, 0 } ,
-	{ 1871, 9914, 0, 0 } ,
-	{ 1872, 9914, 0, 0 } ,
-	{ 1873, 9914, 0, 0 } ,
-	{ 1874, 9914, 0, 0 } ,
-	{ 1875, 9914, 0, 0 } ,
-	{ 1876, 4992, offsetof(DelegateData_t4282, ___target_type_0), 0 } ,
-	{ 1877, 101, offsetof(DelegateData_t4282, ___method_name_1), 0 } ,
-	{ 111, 99, offsetof(DelegateEntry_t4741, ___type_0), 0 } ,
-	{ 1019, 99, offsetof(DelegateEntry_t4741, ___assembly_1), 0 } ,
-	{ 1878, 614, offsetof(DelegateEntry_t4741, ___target_2), 0 } ,
-	{ 1879, 99, offsetof(DelegateEntry_t4741, ___targetTypeAssembly_3), 0 } ,
-	{ 1880, 99, offsetof(DelegateEntry_t4741, ___targetTypeName_4), 0 } ,
-	{ 1881, 99, offsetof(DelegateEntry_t4741, ___methodName_5), 0 } ,
-	{ 1882, 9918, offsetof(DelegateEntry_t4741, ___delegateEntry_6), 0 } ,
-	{ 1883, 9920, offsetof(DelegateSerializationHolder_t4742, ____delegate_0), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 93, 4459, offsetof(MonoEnumInfo_t4751, ___utype_0) + sizeof(Object_t), 0 } ,
-	{ 1417, 9936, offsetof(MonoEnumInfo_t4751, ___values_1) + sizeof(Object_t), 0 } ,
-	{ 1884, 9937, offsetof(MonoEnumInfo_t4751, ___names_2) + sizeof(Object_t), 0 } ,
-	{ 1885, 9938, offsetof(MonoEnumInfo_t4751, ___name_hash_3) + sizeof(Object_t), 0 } ,
-	{ 1413, 6732, THREAD_STATIC_FIELD_OFFSET, 926 } ,
-	{ 1886, 6732, offsetof(MonoEnumInfo_t4751_StaticFields, ___global_cache_5), 0 } ,
-	{ 1887, 3622, offsetof(MonoEnumInfo_t4751_StaticFields, ___global_cache_monitor_6), 0 } ,
-	{ 1888, 9939, offsetof(MonoEnumInfo_t4751_StaticFields, ___sbyte_comparer_7), 0 } ,
-	{ 1889, 9940, offsetof(MonoEnumInfo_t4751_StaticFields, ___short_comparer_8), 0 } ,
-	{ 1890, 9941, offsetof(MonoEnumInfo_t4751_StaticFields, ___int_comparer_9), 0 } ,
-	{ 1891, 9942, offsetof(MonoEnumInfo_t4751_StaticFields, ___long_comparer_10), 0 } ,
-	{ 177, 90, offsetof(SpecialFolder_t4752, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1892, 9944, 0, 0 } ,
-	{ 1893, 9944, 0, 0 } ,
-	{ 1894, 9944, 0, 0 } ,
-	{ 1895, 9944, 0, 0 } ,
-	{ 1896, 9944, 0, 0 } ,
-	{ 1897, 9944, 0, 0 } ,
-	{ 1898, 9944, 0, 0 } ,
-	{ 1899, 9944, 0, 0 } ,
-	{ 1900, 9944, 0, 0 } ,
-	{ 1901, 9944, 0, 0 } ,
-	{ 1902, 9944, 0, 0 } ,
-	{ 1903, 9944, 0, 0 } ,
-	{ 1904, 9944, 0, 0 } ,
-	{ 1905, 9944, 0, 0 } ,
-	{ 1906, 9944, 0, 0 } ,
-	{ 1907, 9944, 0, 0 } ,
-	{ 1908, 9944, 0, 0 } ,
-	{ 1909, 9944, 0, 0 } ,
-	{ 1910, 9944, 0, 0 } ,
-	{ 739, 9944, 0, 0 } ,
-	{ 1911, 9944, 0, 0 } ,
-	{ 1912, 9944, 0, 0 } ,
-	{ 1913, 9944, 0, 0 } ,
-	{ 1914, 9947, offsetof(Environment_t4754_StaticFields, ___os_0), 0 } ,
-	{ 17, 9949, offsetof(EventArgs_t1236_StaticFields, ___Empty_0), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1915, 99, offsetof(GuidParser_t4759, ____src_0), 0 } ,
-	{ 1689, 110, offsetof(GuidParser_t4759, ____length_1), 0 } ,
-	{ 1916, 110, offsetof(GuidParser_t4759, ____cur_2), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 177, 90, offsetof(AttributeTargets_t4740, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 966, 9897, 0, 0 } ,
+	{ 1821, 9897, 0, 0 } ,
+	{ 1080, 9897, 0, 0 } ,
+	{ 1150, 9897, 0, 0 } ,
+	{ 1822, 9897, 0, 0 } ,
+	{ 981, 9897, 0, 0 } ,
+	{ 984, 9897, 0, 0 } ,
+	{ 985, 9897, 0, 0 } ,
+	{ 983, 9897, 0, 0 } ,
+	{ 982, 9897, 0, 0 } ,
+	{ 1081, 9897, 0, 0 } ,
+	{ 1823, 9897, 0, 0 } ,
+	{ 1824, 9897, 0, 0 } ,
+	{ 1825, 9897, 0, 0 } ,
+	{ 1826, 9897, 0, 0 } ,
+	{ 989, 9897, 0, 0 } ,
+	{ 1827, 6443, offsetof(BitConverter_t3328_StaticFields, ___SwappedWordsInDouble_0), 0 } ,
+	{ 1828, 8600, offsetof(BitConverter_t3328_StaticFields, ___IsLittleEndian_1), 0 } ,
+	{ 1829, 99, offsetof(CharEnumerator_t4742, ___str_0), 0 } ,
+	{ 407, 110, offsetof(CharEnumerator_t4742, ___index_1), 0 } ,
+	{ 15, 110, offsetof(CharEnumerator_t4742, ___length_2), 0 } ,
+	{ 1830, 9903, offsetof(Console_t4149_StaticFields, ___stdout_0), 0 } ,
+	{ 1831, 9904, offsetof(Console_t4149_StaticFields, ___stderr_1), 0 } ,
+	{ 1832, 9905, offsetof(Console_t4149_StaticFields, ___stdin_2), 0 } ,
+	{ 1833, 9803, offsetof(Console_t4149_StaticFields, ___inputEncoding_3), 0 } ,
+	{ 1834, 9803, offsetof(Console_t4149_StaticFields, ___outputEncoding_4), 0 } ,
+	{ 1835, 8525, offsetof(Convert_t67_StaticFields, ___DBNull_0), 0 } ,
+	{ 1836, 5690, offsetof(Convert_t67_StaticFields, ___conversionTable_1), 0 } ,
+	{ 1015, 9909, offsetof(DBNull_t4744_StaticFields, ___Value_0), 0 } ,
+	{ 177, 90, offsetof(Which_t4745, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1837, 9911, 0, 0 } ,
+	{ 1838, 9911, 0, 0 } ,
+	{ 1839, 9911, 0, 0 } ,
+	{ 1840, 9911, 0, 0 } ,
+	{ 1841, 837, 0, 0 } ,
+	{ 1842, 837, 0, 0 } ,
+	{ 1843, 837, 0, 0 } ,
+	{ 1844, 9917, 0, 0 } ,
+	{ 1845, 9917, 0, 0 } ,
+	{ 1846, 9918, 0, 0 } ,
+	{ 1847, 9917, 0, 0 } ,
+	{ 1848, 3724, 0, 0 } ,
+	{ 1849, 3724, 0, 0 } ,
+	{ 1850, 651, 0, 0 } ,
+	{ 1851, 6449, offsetof(DateTime_t287, ___ticks_10) + sizeof(Object_t), 0 } ,
+	{ 1852, 9919, offsetof(DateTime_t287, ___kind_11) + sizeof(Object_t), 0 } ,
+	{ 0, 9920, offsetof(DateTime_t287_StaticFields, ___MaxValue_12), 0 } ,
+	{ 1, 9920, offsetof(DateTime_t287_StaticFields, ___MinValue_13), 0 } ,
+	{ 1853, 4966, offsetof(DateTime_t287_StaticFields, ___ParseTimeFormats_14), 0 } ,
+	{ 1854, 4966, offsetof(DateTime_t287_StaticFields, ___ParseYearDayMonthFormats_15), 0 } ,
+	{ 1855, 4966, offsetof(DateTime_t287_StaticFields, ___ParseYearMonthDayFormats_16), 0 } ,
+	{ 1856, 4966, offsetof(DateTime_t287_StaticFields, ___ParseDayMonthYearFormats_17), 0 } ,
+	{ 1857, 4966, offsetof(DateTime_t287_StaticFields, ___ParseMonthDayYearFormats_18), 0 } ,
+	{ 1858, 4966, offsetof(DateTime_t287_StaticFields, ___MonthDayShortFormats_19), 0 } ,
+	{ 1859, 4966, offsetof(DateTime_t287_StaticFields, ___DayMonthShortFormats_20), 0 } ,
+	{ 1860, 5925, offsetof(DateTime_t287_StaticFields, ___daysmonth_21), 0 } ,
+	{ 1861, 5925, offsetof(DateTime_t287_StaticFields, ___daysmonthleap_22), 0 } ,
+	{ 1862, 3640, offsetof(DateTime_t287_StaticFields, ___to_local_time_span_object_23), 0 } ,
+	{ 1863, 3380, offsetof(DateTime_t287_StaticFields, ___last_now_24), 0 } ,
+	{ 177, 90, offsetof(DateTimeKind_t4746, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1864, 9924, 0, 0 } ,
+	{ 1865, 9924, 0, 0 } ,
+	{ 1866, 9924, 0, 0 } ,
+	{ 0, 9926, offsetof(DateTimeOffset_t2893_StaticFields, ___MaxValue_0), 0 } ,
+	{ 1, 9926, offsetof(DateTimeOffset_t2893_StaticFields, ___MinValue_1), 0 } ,
+	{ 1867, 1206, offsetof(DateTimeOffset_t2893, ___dt_2) + sizeof(Object_t), 0 } ,
+	{ 1868, 6449, offsetof(DateTimeOffset_t2893, ___utc_offset_3) + sizeof(Object_t), 0 } ,
+	{ 177, 90, offsetof(DayOfWeek_t4748, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1869, 9932, 0, 0 } ,
+	{ 1870, 9932, 0, 0 } ,
+	{ 1871, 9932, 0, 0 } ,
+	{ 1872, 9932, 0, 0 } ,
+	{ 1873, 9932, 0, 0 } ,
+	{ 1874, 9932, 0, 0 } ,
+	{ 1875, 9932, 0, 0 } ,
+	{ 1876, 5010, offsetof(DelegateData_t4290, ___target_type_0), 0 } ,
+	{ 1877, 101, offsetof(DelegateData_t4290, ___method_name_1), 0 } ,
+	{ 111, 99, offsetof(DelegateEntry_t4749, ___type_0), 0 } ,
+	{ 1019, 99, offsetof(DelegateEntry_t4749, ___assembly_1), 0 } ,
+	{ 1878, 619, offsetof(DelegateEntry_t4749, ___target_2), 0 } ,
+	{ 1879, 99, offsetof(DelegateEntry_t4749, ___targetTypeAssembly_3), 0 } ,
+	{ 1880, 99, offsetof(DelegateEntry_t4749, ___targetTypeName_4), 0 } ,
+	{ 1881, 99, offsetof(DelegateEntry_t4749, ___methodName_5), 0 } ,
+	{ 1882, 9936, offsetof(DelegateEntry_t4749, ___delegateEntry_6), 0 } ,
+	{ 1883, 9938, offsetof(DelegateSerializationHolder_t4750, ____delegate_0), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 93, 4477, offsetof(MonoEnumInfo_t4759, ___utype_0) + sizeof(Object_t), 0 } ,
+	{ 1417, 9954, offsetof(MonoEnumInfo_t4759, ___values_1) + sizeof(Object_t), 0 } ,
+	{ 1884, 9955, offsetof(MonoEnumInfo_t4759, ___names_2) + sizeof(Object_t), 0 } ,
+	{ 1885, 9956, offsetof(MonoEnumInfo_t4759, ___name_hash_3) + sizeof(Object_t), 0 } ,
+	{ 1413, 6750, THREAD_STATIC_FIELD_OFFSET, 926 } ,
+	{ 1886, 6750, offsetof(MonoEnumInfo_t4759_StaticFields, ___global_cache_5), 0 } ,
+	{ 1887, 3640, offsetof(MonoEnumInfo_t4759_StaticFields, ___global_cache_monitor_6), 0 } ,
+	{ 1888, 9957, offsetof(MonoEnumInfo_t4759_StaticFields, ___sbyte_comparer_7), 0 } ,
+	{ 1889, 9958, offsetof(MonoEnumInfo_t4759_StaticFields, ___short_comparer_8), 0 } ,
+	{ 1890, 9959, offsetof(MonoEnumInfo_t4759_StaticFields, ___int_comparer_9), 0 } ,
+	{ 1891, 9960, offsetof(MonoEnumInfo_t4759_StaticFields, ___long_comparer_10), 0 } ,
+	{ 177, 90, offsetof(SpecialFolder_t4760, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1892, 9962, 0, 0 } ,
+	{ 1893, 9962, 0, 0 } ,
+	{ 1894, 9962, 0, 0 } ,
+	{ 1895, 9962, 0, 0 } ,
+	{ 1896, 9962, 0, 0 } ,
+	{ 1897, 9962, 0, 0 } ,
+	{ 1898, 9962, 0, 0 } ,
+	{ 1899, 9962, 0, 0 } ,
+	{ 1900, 9962, 0, 0 } ,
+	{ 1901, 9962, 0, 0 } ,
+	{ 1902, 9962, 0, 0 } ,
+	{ 1903, 9962, 0, 0 } ,
+	{ 1904, 9962, 0, 0 } ,
+	{ 1905, 9962, 0, 0 } ,
+	{ 1906, 9962, 0, 0 } ,
+	{ 1907, 9962, 0, 0 } ,
+	{ 1908, 9962, 0, 0 } ,
+	{ 1909, 9962, 0, 0 } ,
+	{ 1910, 9962, 0, 0 } ,
+	{ 739, 9962, 0, 0 } ,
+	{ 1911, 9962, 0, 0 } ,
+	{ 1912, 9962, 0, 0 } ,
+	{ 1913, 9962, 0, 0 } ,
+	{ 1914, 9965, offsetof(Environment_t4762_StaticFields, ___os_0), 0 } ,
+	{ 17, 9967, offsetof(EventArgs_t1243_StaticFields, ___Empty_0), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1915, 99, offsetof(GuidParser_t4767, ____src_0), 0 } ,
+	{ 1689, 110, offsetof(GuidParser_t4767, ____length_1), 0 } ,
+	{ 1916, 110, offsetof(GuidParser_t4767, ____cur_2), 0 } ,
 	{ 1917, 110, offsetof(Guid_t74, ____a_0) + sizeof(Object_t), 0 } ,
-	{ 1918, 6710, offsetof(Guid_t74, ____b_1) + sizeof(Object_t), 0 } ,
-	{ 1919, 6710, offsetof(Guid_t74, ____c_2) + sizeof(Object_t), 0 } ,
-	{ 1920, 6615, offsetof(Guid_t74, ____d_3) + sizeof(Object_t), 0 } ,
-	{ 1921, 6615, offsetof(Guid_t74, ____e_4) + sizeof(Object_t), 0 } ,
-	{ 1922, 6615, offsetof(Guid_t74, ____f_5) + sizeof(Object_t), 0 } ,
-	{ 1923, 6615, offsetof(Guid_t74, ____g_6) + sizeof(Object_t), 0 } ,
-	{ 1924, 6615, offsetof(Guid_t74, ____h_7) + sizeof(Object_t), 0 } ,
-	{ 1925, 6615, offsetof(Guid_t74, ____i_8) + sizeof(Object_t), 0 } ,
-	{ 1926, 6615, offsetof(Guid_t74, ____j_9) + sizeof(Object_t), 0 } ,
-	{ 1927, 6615, offsetof(Guid_t74, ____k_10) + sizeof(Object_t), 0 } ,
-	{ 17, 9959, offsetof(Guid_t74_StaticFields, ___Empty_11), 0 } ,
-	{ 1928, 3622, offsetof(Guid_t74_StaticFields, ____rngAccess_12), 0 } ,
-	{ 282, 6604, offsetof(Guid_t74_StaticFields, ____rng_13), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 177, 90, offsetof(LoaderOptimization_t4760, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1929, 9968, 0, 0 } ,
-	{ 1930, 9968, 0, 0 } ,
-	{ 1931, 9968, 0, 0 } ,
-	{ 1932, 9968, 0, 0 } ,
-	{ 1933, 9968, 0, 942 } ,
-	{ 1934, 9968, 0, 943 } ,
-	{ 1935, 567, offsetof(MissingMemberException_t4764, ___ClassName_11), 0 } ,
-	{ 1936, 567, offsetof(MissingMemberException_t4764, ___MemberName_12), 0 } ,
-	{ 1937, 9625, offsetof(MissingMemberException_t4764, ___Signature_13), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 742, 612, offsetof(MonoAsyncCall_t4766, ___msg_0), 0 } ,
-	{ 1938, 4514, offsetof(MonoAsyncCall_t4766, ___cb_method_1), 0 } ,
-	{ 1939, 612, offsetof(MonoAsyncCall_t4766, ___cb_target_2), 0 } ,
-	{ 476, 612, offsetof(MonoAsyncCall_t4766, ___state_3), 0 } ,
-	{ 1940, 612, offsetof(MonoAsyncCall_t4766, ___res_4), 0 } ,
-	{ 1941, 612, offsetof(MonoAsyncCall_t4766, ___out_args_5), 0 } ,
-	{ 1942, 116, offsetof(MonoAsyncCall_t4766, ___wait_event_6), 0 } ,
-	{ 1943, 9981, offsetof(AttributeInfo_t4767, ____usage_0), 0 } ,
-	{ 1944, 110, offsetof(AttributeInfo_t4767, ____inheritanceLevel_1), 0 } ,
-	{ 1945, 9784, offsetof(MonoCustomAttrs_t4768_StaticFields, ___corlib_0), 0 } ,
-	{ 1946, 9983, offsetof(MonoCustomAttrs_t4768_StaticFields, ___AttributeUsageType_1), 0 } ,
-	{ 1947, 9984, offsetof(MonoCustomAttrs_t4768_StaticFields, ___DefaultAttributeUsage_2), 0 } ,
-	{ 1948, 4580, offsetof(MonoTouchAOTHelper_t4769_StaticFields, ___FalseFlag_0), 0 } ,
-	{ 1949, 101, offsetof(MonoTypeInfo_t4770, ___full_name_0), 0 } ,
-	{ 1950, 9987, offsetof(MonoTypeInfo_t4770, ___default_ctor_1), 0 } ,
-	{ 1951, 9989, offsetof(MonoType_t, ___type_info_8), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1952, 104, offsetof(CustomInfo_t4773, ___UseGroup_0), 0 } ,
-	{ 1953, 102, offsetof(CustomInfo_t4773, ___DecimalDigits_1), 0 } ,
-	{ 1954, 102, offsetof(CustomInfo_t4773, ___DecimalPointPos_2), 0 } ,
-	{ 1955, 102, offsetof(CustomInfo_t4773, ___DecimalTailSharpDigits_3), 0 } ,
-	{ 1956, 102, offsetof(CustomInfo_t4773, ___IntegerDigits_4), 0 } ,
-	{ 1957, 102, offsetof(CustomInfo_t4773, ___IntegerHeadSharpDigits_5), 0 } ,
-	{ 1958, 102, offsetof(CustomInfo_t4773, ___IntegerHeadPos_6), 0 } ,
-	{ 1959, 104, offsetof(CustomInfo_t4773, ___UseExponent_7), 0 } ,
-	{ 1960, 102, offsetof(CustomInfo_t4773, ___ExponentDigits_8), 0 } ,
-	{ 1961, 102, offsetof(CustomInfo_t4773, ___ExponentTailSharpDigits_9), 0 } ,
-	{ 1962, 104, offsetof(CustomInfo_t4773, ___ExponentNegativeSignOnly_10), 0 } ,
-	{ 1963, 102, offsetof(CustomInfo_t4773, ___DividePlaces_11), 0 } ,
-	{ 1964, 102, offsetof(CustomInfo_t4773, ___Percents_12), 0 } ,
-	{ 1965, 102, offsetof(CustomInfo_t4773, ___Permilles_13), 0 } ,
-	{ 1966, 10004, offsetof(NumberFormatter_t4774_StaticFields, ___MantissaBitsTable_0), 0 } ,
-	{ 1967, 10005, offsetof(NumberFormatter_t4774_StaticFields, ___TensExponentTable_1), 0 } ,
-	{ 1968, 10006, offsetof(NumberFormatter_t4774_StaticFields, ___DigitLowerTable_2), 0 } ,
-	{ 1969, 10006, offsetof(NumberFormatter_t4774_StaticFields, ___DigitUpperTable_3), 0 } ,
-	{ 1970, 10007, offsetof(NumberFormatter_t4774_StaticFields, ___TenPowersList_4), 0 } ,
-	{ 1971, 10005, offsetof(NumberFormatter_t4774_StaticFields, ___DecHexDigits_5), 0 } ,
-	{ 1972, 6426, offsetof(NumberFormatter_t4774, ____thread_6), 0 } ,
-	{ 1973, 10008, offsetof(NumberFormatter_t4774, ____nfi_7), 0 } ,
-	{ 1974, 100, offsetof(NumberFormatter_t4774, ____NaN_8), 0 } ,
-	{ 1975, 100, offsetof(NumberFormatter_t4774, ____infinity_9), 0 } ,
-	{ 1976, 100, offsetof(NumberFormatter_t4774, ____isCustomFormat_10), 0 } ,
-	{ 1977, 100, offsetof(NumberFormatter_t4774, ____specifierIsUpper_11), 0 } ,
-	{ 1978, 100, offsetof(NumberFormatter_t4774, ____positive_12), 0 } ,
-	{ 1979, 2081, offsetof(NumberFormatter_t4774, ____specifier_13), 0 } ,
-	{ 1980, 110, offsetof(NumberFormatter_t4774, ____precision_14), 0 } ,
-	{ 1981, 110, offsetof(NumberFormatter_t4774, ____defPrecision_15), 0 } ,
-	{ 1982, 110, offsetof(NumberFormatter_t4774, ____digitsLen_16), 0 } ,
-	{ 1983, 110, offsetof(NumberFormatter_t4774, ____offset_17), 0 } ,
-	{ 1984, 110, offsetof(NumberFormatter_t4774, ____decPointPos_18), 0 } ,
-	{ 1985, 4885, offsetof(NumberFormatter_t4774, ____val1_19), 0 } ,
-	{ 1986, 4885, offsetof(NumberFormatter_t4774, ____val2_20), 0 } ,
-	{ 1987, 4885, offsetof(NumberFormatter_t4774, ____val3_21), 0 } ,
-	{ 1988, 4885, offsetof(NumberFormatter_t4774, ____val4_22), 0 } ,
-	{ 1989, 3527, offsetof(NumberFormatter_t4774, ____cbuf_23), 0 } ,
-	{ 1990, 110, offsetof(NumberFormatter_t4774, ____ind_24), 0 } ,
-	{ 1991, 10009, THREAD_STATIC_FIELD_OFFSET, 958 } ,
-	{ 1992, 99, offsetof(ObjectDisposedException_t3238, ___obj_name_12), 0 } ,
-	{ 742, 99, offsetof(ObjectDisposedException_t3238, ___msg_13), 0 } ,
-	{ 1993, 10012, offsetof(OperatingSystem_t4753, ____platform_0), 0 } ,
-	{ 259, 7438, offsetof(OperatingSystem_t4753, ____version_1), 0 } ,
-	{ 1994, 99, offsetof(OperatingSystem_t4753, ____servicePack_2), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 177, 90, offsetof(PlatformID_t4777, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1995, 10018, 0, 0 } ,
-	{ 1996, 10018, 0, 0 } ,
-	{ 1997, 10018, 0, 0 } ,
-	{ 1998, 10018, 0, 0 } ,
-	{ 1999, 10018, 0, 0 } ,
-	{ 2000, 10018, 0, 0 } ,
-	{ 2001, 10018, 0, 0 } ,
-	{ 2002, 110, offsetof(Random_t2755, ___inext_0), 0 } ,
-	{ 2003, 110, offsetof(Random_t2755, ___inextp_1), 0 } ,
-	{ 2004, 1416, offsetof(Random_t2755, ___SeedArray_2), 0 } ,
-	{ 81, 4514, offsetof(RuntimeMethodHandle_t4780, ___value_0) + sizeof(Object_t), 0 } ,
-	{ 2005, 10026, offsetof(StringComparer_t2868_StaticFields, ___invariantCultureIgnoreCase_0), 0 } ,
-	{ 2006, 10026, offsetof(StringComparer_t2868_StaticFields, ___invariantCulture_1), 0 } ,
-	{ 2007, 10026, offsetof(StringComparer_t2868_StaticFields, ___ordinalIgnoreCase_2), 0 } ,
-	{ 2008, 10026, offsetof(StringComparer_t2868_StaticFields, ___ordinal_3), 0 } ,
-	{ 2009, 5072, offsetof(CultureAwareComparer_t4781, ____ignoreCase_4), 0 } ,
-	{ 2010, 10030, offsetof(CultureAwareComparer_t4781, ____compareInfo_5), 0 } ,
-	{ 2009, 5072, offsetof(OrdinalComparer_t4782, ____ignoreCase_4), 0 } ,
-	{ 177, 90, offsetof(StringComparison_t4783, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 2011, 10033, 0, 0 } ,
-	{ 2012, 10033, 0, 0 } ,
-	{ 2013, 10033, 0, 0 } ,
-	{ 2014, 10033, 0, 0 } ,
-	{ 508, 10033, 0, 0 } ,
-	{ 509, 10033, 0, 0 } ,
-	{ 177, 90, offsetof(StringSplitOptions_t4784, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 178, 10035, 0, 0 } ,
-	{ 2015, 10035, 0, 0 } ,
-	{ 2016, 8225, 0, 0 } ,
-	{ 2017, 8225, 0, 0 } ,
-	{ 2018, 8225, 0, 0 } ,
-	{ 2019, 8225, 0, 0 } ,
-	{ 2020, 8225, 0, 0 } ,
-	{ 0, 10039, offsetof(TimeSpan_t334_StaticFields, ___MaxValue_5), 0 } ,
-	{ 1, 10039, offsetof(TimeSpan_t334_StaticFields, ___MinValue_6), 0 } ,
-	{ 40, 10039, offsetof(TimeSpan_t334_StaticFields, ___Zero_7), 0 } ,
+	{ 1918, 6728, offsetof(Guid_t74, ____b_1) + sizeof(Object_t), 0 } ,
+	{ 1919, 6728, offsetof(Guid_t74, ____c_2) + sizeof(Object_t), 0 } ,
+	{ 1920, 6633, offsetof(Guid_t74, ____d_3) + sizeof(Object_t), 0 } ,
+	{ 1921, 6633, offsetof(Guid_t74, ____e_4) + sizeof(Object_t), 0 } ,
+	{ 1922, 6633, offsetof(Guid_t74, ____f_5) + sizeof(Object_t), 0 } ,
+	{ 1923, 6633, offsetof(Guid_t74, ____g_6) + sizeof(Object_t), 0 } ,
+	{ 1924, 6633, offsetof(Guid_t74, ____h_7) + sizeof(Object_t), 0 } ,
+	{ 1925, 6633, offsetof(Guid_t74, ____i_8) + sizeof(Object_t), 0 } ,
+	{ 1926, 6633, offsetof(Guid_t74, ____j_9) + sizeof(Object_t), 0 } ,
+	{ 1927, 6633, offsetof(Guid_t74, ____k_10) + sizeof(Object_t), 0 } ,
+	{ 17, 9977, offsetof(Guid_t74_StaticFields, ___Empty_11), 0 } ,
+	{ 1928, 3640, offsetof(Guid_t74_StaticFields, ____rngAccess_12), 0 } ,
+	{ 282, 6622, offsetof(Guid_t74_StaticFields, ____rng_13), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 177, 90, offsetof(LoaderOptimization_t4768, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1929, 9986, 0, 0 } ,
+	{ 1930, 9986, 0, 0 } ,
+	{ 1931, 9986, 0, 0 } ,
+	{ 1932, 9986, 0, 0 } ,
+	{ 1933, 9986, 0, 942 } ,
+	{ 1934, 9986, 0, 943 } ,
+	{ 1935, 572, offsetof(MissingMemberException_t4772, ___ClassName_11), 0 } ,
+	{ 1936, 572, offsetof(MissingMemberException_t4772, ___MemberName_12), 0 } ,
+	{ 1937, 9643, offsetof(MissingMemberException_t4772, ___Signature_13), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 742, 617, offsetof(MonoAsyncCall_t4774, ___msg_0), 0 } ,
+	{ 1938, 4532, offsetof(MonoAsyncCall_t4774, ___cb_method_1), 0 } ,
+	{ 1939, 617, offsetof(MonoAsyncCall_t4774, ___cb_target_2), 0 } ,
+	{ 476, 617, offsetof(MonoAsyncCall_t4774, ___state_3), 0 } ,
+	{ 1940, 617, offsetof(MonoAsyncCall_t4774, ___res_4), 0 } ,
+	{ 1941, 617, offsetof(MonoAsyncCall_t4774, ___out_args_5), 0 } ,
+	{ 1942, 116, offsetof(MonoAsyncCall_t4774, ___wait_event_6), 0 } ,
+	{ 1943, 9999, offsetof(AttributeInfo_t4775, ____usage_0), 0 } ,
+	{ 1944, 110, offsetof(AttributeInfo_t4775, ____inheritanceLevel_1), 0 } ,
+	{ 1945, 9802, offsetof(MonoCustomAttrs_t4776_StaticFields, ___corlib_0), 0 } ,
+	{ 1946, 10001, offsetof(MonoCustomAttrs_t4776_StaticFields, ___AttributeUsageType_1), 0 } ,
+	{ 1947, 10002, offsetof(MonoCustomAttrs_t4776_StaticFields, ___DefaultAttributeUsage_2), 0 } ,
+	{ 1948, 4598, offsetof(MonoTouchAOTHelper_t4777_StaticFields, ___FalseFlag_0), 0 } ,
+	{ 1949, 101, offsetof(MonoTypeInfo_t4778, ___full_name_0), 0 } ,
+	{ 1950, 10005, offsetof(MonoTypeInfo_t4778, ___default_ctor_1), 0 } ,
+	{ 1951, 10007, offsetof(MonoType_t, ___type_info_8), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1952, 104, offsetof(CustomInfo_t4781, ___UseGroup_0), 0 } ,
+	{ 1953, 102, offsetof(CustomInfo_t4781, ___DecimalDigits_1), 0 } ,
+	{ 1954, 102, offsetof(CustomInfo_t4781, ___DecimalPointPos_2), 0 } ,
+	{ 1955, 102, offsetof(CustomInfo_t4781, ___DecimalTailSharpDigits_3), 0 } ,
+	{ 1956, 102, offsetof(CustomInfo_t4781, ___IntegerDigits_4), 0 } ,
+	{ 1957, 102, offsetof(CustomInfo_t4781, ___IntegerHeadSharpDigits_5), 0 } ,
+	{ 1958, 102, offsetof(CustomInfo_t4781, ___IntegerHeadPos_6), 0 } ,
+	{ 1959, 104, offsetof(CustomInfo_t4781, ___UseExponent_7), 0 } ,
+	{ 1960, 102, offsetof(CustomInfo_t4781, ___ExponentDigits_8), 0 } ,
+	{ 1961, 102, offsetof(CustomInfo_t4781, ___ExponentTailSharpDigits_9), 0 } ,
+	{ 1962, 104, offsetof(CustomInfo_t4781, ___ExponentNegativeSignOnly_10), 0 } ,
+	{ 1963, 102, offsetof(CustomInfo_t4781, ___DividePlaces_11), 0 } ,
+	{ 1964, 102, offsetof(CustomInfo_t4781, ___Percents_12), 0 } ,
+	{ 1965, 102, offsetof(CustomInfo_t4781, ___Permilles_13), 0 } ,
+	{ 1966, 10022, offsetof(NumberFormatter_t4782_StaticFields, ___MantissaBitsTable_0), 0 } ,
+	{ 1967, 10023, offsetof(NumberFormatter_t4782_StaticFields, ___TensExponentTable_1), 0 } ,
+	{ 1968, 10024, offsetof(NumberFormatter_t4782_StaticFields, ___DigitLowerTable_2), 0 } ,
+	{ 1969, 10024, offsetof(NumberFormatter_t4782_StaticFields, ___DigitUpperTable_3), 0 } ,
+	{ 1970, 10025, offsetof(NumberFormatter_t4782_StaticFields, ___TenPowersList_4), 0 } ,
+	{ 1971, 10023, offsetof(NumberFormatter_t4782_StaticFields, ___DecHexDigits_5), 0 } ,
+	{ 1972, 6444, offsetof(NumberFormatter_t4782, ____thread_6), 0 } ,
+	{ 1973, 10026, offsetof(NumberFormatter_t4782, ____nfi_7), 0 } ,
+	{ 1974, 100, offsetof(NumberFormatter_t4782, ____NaN_8), 0 } ,
+	{ 1975, 100, offsetof(NumberFormatter_t4782, ____infinity_9), 0 } ,
+	{ 1976, 100, offsetof(NumberFormatter_t4782, ____isCustomFormat_10), 0 } ,
+	{ 1977, 100, offsetof(NumberFormatter_t4782, ____specifierIsUpper_11), 0 } ,
+	{ 1978, 100, offsetof(NumberFormatter_t4782, ____positive_12), 0 } ,
+	{ 1979, 2099, offsetof(NumberFormatter_t4782, ____specifier_13), 0 } ,
+	{ 1980, 110, offsetof(NumberFormatter_t4782, ____precision_14), 0 } ,
+	{ 1981, 110, offsetof(NumberFormatter_t4782, ____defPrecision_15), 0 } ,
+	{ 1982, 110, offsetof(NumberFormatter_t4782, ____digitsLen_16), 0 } ,
+	{ 1983, 110, offsetof(NumberFormatter_t4782, ____offset_17), 0 } ,
+	{ 1984, 110, offsetof(NumberFormatter_t4782, ____decPointPos_18), 0 } ,
+	{ 1985, 4903, offsetof(NumberFormatter_t4782, ____val1_19), 0 } ,
+	{ 1986, 4903, offsetof(NumberFormatter_t4782, ____val2_20), 0 } ,
+	{ 1987, 4903, offsetof(NumberFormatter_t4782, ____val3_21), 0 } ,
+	{ 1988, 4903, offsetof(NumberFormatter_t4782, ____val4_22), 0 } ,
+	{ 1989, 3545, offsetof(NumberFormatter_t4782, ____cbuf_23), 0 } ,
+	{ 1990, 110, offsetof(NumberFormatter_t4782, ____ind_24), 0 } ,
+	{ 1991, 10027, THREAD_STATIC_FIELD_OFFSET, 958 } ,
+	{ 1992, 99, offsetof(ObjectDisposedException_t3246, ___obj_name_12), 0 } ,
+	{ 742, 99, offsetof(ObjectDisposedException_t3246, ___msg_13), 0 } ,
+	{ 1993, 10030, offsetof(OperatingSystem_t4761, ____platform_0), 0 } ,
+	{ 259, 7456, offsetof(OperatingSystem_t4761, ____version_1), 0 } ,
+	{ 1994, 99, offsetof(OperatingSystem_t4761, ____servicePack_2), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 177, 90, offsetof(PlatformID_t4785, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1995, 10036, 0, 0 } ,
+	{ 1996, 10036, 0, 0 } ,
+	{ 1997, 10036, 0, 0 } ,
+	{ 1998, 10036, 0, 0 } ,
+	{ 1999, 10036, 0, 0 } ,
+	{ 2000, 10036, 0, 0 } ,
+	{ 2001, 10036, 0, 0 } ,
+	{ 2002, 110, offsetof(Random_t2762, ___inext_0), 0 } ,
+	{ 2003, 110, offsetof(Random_t2762, ___inextp_1), 0 } ,
+	{ 2004, 1431, offsetof(Random_t2762, ___SeedArray_2), 0 } ,
+	{ 81, 4532, offsetof(RuntimeMethodHandle_t4788, ___value_0) + sizeof(Object_t), 0 } ,
+	{ 2005, 10044, offsetof(StringComparer_t2875_StaticFields, ___invariantCultureIgnoreCase_0), 0 } ,
+	{ 2006, 10044, offsetof(StringComparer_t2875_StaticFields, ___invariantCulture_1), 0 } ,
+	{ 2007, 10044, offsetof(StringComparer_t2875_StaticFields, ___ordinalIgnoreCase_2), 0 } ,
+	{ 2008, 10044, offsetof(StringComparer_t2875_StaticFields, ___ordinal_3), 0 } ,
+	{ 2009, 5090, offsetof(CultureAwareComparer_t4789, ____ignoreCase_4), 0 } ,
+	{ 2010, 10048, offsetof(CultureAwareComparer_t4789, ____compareInfo_5), 0 } ,
+	{ 2009, 5090, offsetof(OrdinalComparer_t4790, ____ignoreCase_4), 0 } ,
+	{ 177, 90, offsetof(StringComparison_t4791, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 2011, 10051, 0, 0 } ,
+	{ 2012, 10051, 0, 0 } ,
+	{ 2013, 10051, 0, 0 } ,
+	{ 2014, 10051, 0, 0 } ,
+	{ 508, 10051, 0, 0 } ,
+	{ 509, 10051, 0, 0 } ,
+	{ 177, 90, offsetof(StringSplitOptions_t4792, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 178, 10053, 0, 0 } ,
+	{ 2015, 10053, 0, 0 } ,
+	{ 2016, 8243, 0, 0 } ,
+	{ 2017, 8243, 0, 0 } ,
+	{ 2018, 8243, 0, 0 } ,
+	{ 2019, 8243, 0, 0 } ,
+	{ 2020, 8243, 0, 0 } ,
+	{ 0, 10057, offsetof(TimeSpan_t334_StaticFields, ___MaxValue_5), 0 } ,
+	{ 1, 10057, offsetof(TimeSpan_t334_StaticFields, ___MinValue_6), 0 } ,
+	{ 40, 10057, offsetof(TimeSpan_t334_StaticFields, ___Zero_7), 0 } ,
 	{ 2021, 116, offsetof(TimeSpan_t334, ____ticks_8) + sizeof(Object_t), 0 } ,
-	{ 2022, 10043, offsetof(TimeZone_t4145_StaticFields, ___currentTimeZone_0), 0 } ,
-	{ 2023, 99, offsetof(CurrentSystemTimeZone_t4785, ___m_standardName_1), 0 } ,
-	{ 2024, 99, offsetof(CurrentSystemTimeZone_t4785, ___m_daylightName_2), 0 } ,
-	{ 2025, 5572, offsetof(CurrentSystemTimeZone_t4785, ___m_CachedDaylightChanges_3), 0 } ,
-	{ 2026, 116, offsetof(CurrentSystemTimeZone_t4785, ___m_ticksOffset_4), 0 } ,
-	{ 2027, 10046, offsetof(CurrentSystemTimeZone_t4785, ___utcOffsetWithOutDLS_5), 0 } ,
-	{ 2028, 10046, offsetof(CurrentSystemTimeZone_t4785, ___utcOffsetWithDLS_6), 0 } ,
-	{ 2029, 807, offsetof(CurrentSystemTimeZone_t4785_StaticFields, ___this_year_7), 0 } ,
-	{ 2030, 10047, offsetof(CurrentSystemTimeZone_t4785_StaticFields, ___this_year_dlt_8), 0 } ,
-	{ 177, 90, offsetof(TypeCode_t4786, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 17, 10049, 0, 0 } ,
-	{ 2031, 10049, 0, 0 } ,
-	{ 1835, 10049, 0, 0 } ,
-	{ 2032, 10049, 0, 0 } ,
-	{ 790, 10049, 0, 0 } ,
-	{ 2033, 10049, 0, 0 } ,
-	{ 2034, 10049, 0, 0 } ,
-	{ 2035, 10049, 0, 0 } ,
-	{ 2036, 10049, 0, 0 } ,
-	{ 2037, 10049, 0, 0 } ,
-	{ 2038, 10049, 0, 0 } ,
-	{ 2039, 10049, 0, 0 } ,
-	{ 2040, 10049, 0, 0 } ,
-	{ 2041, 10049, 0, 0 } ,
-	{ 2042, 10049, 0, 0 } ,
-	{ 2043, 10049, 0, 0 } ,
-	{ 2044, 10049, 0, 0 } ,
-	{ 1322, 10049, 0, 0 } ,
-	{ 1306, 99, offsetof(TypeInitializationException_t4787, ___type_name_11), 0 } ,
-	{ 1817, 832, 0, 0 } ,
-	{ 2045, 99, offsetof(TypeLoadException_t4745, ___className_12), 0 } ,
-	{ 102, 99, offsetof(TypeLoadException_t4745, ___assemblyName_13), 0 } ,
-	{ 2046, 612, offsetof(UnhandledExceptionEventArgs_t4789, ___exception_1), 0 } ,
-	{ 2047, 100, offsetof(UnhandledExceptionEventArgs_t4789, ___m_isTerminating_2), 0 } ,
-	{ 177, 5086, offsetof(UnityType_t4790, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1835, 10057, 0, 0 } ,
-	{ 1358, 10057, 0, 0 } ,
-	{ 1821, 10057, 0, 0 } ,
-	{ 966, 10057, 0, 0 } ,
-	{ 80, 99, offsetof(UnitySerializationHolder_t4791, ____data_0), 0 } ,
-	{ 2048, 10060, offsetof(UnitySerializationHolder_t4791, ____unityType_1), 0 } ,
-	{ 2049, 99, offsetof(UnitySerializationHolder_t4791, ____assemblyName_2), 0 } ,
-	{ 2050, 832, 0, 0 } ,
-	{ 2051, 110, offsetof(Version_t1324, ____Major_1), 0 } ,
-	{ 2052, 110, offsetof(Version_t1324, ____Minor_2), 0 } ,
-	{ 2053, 110, offsetof(Version_t1324, ____Build_3), 0 } ,
-	{ 2054, 110, offsetof(Version_t1324, ____Revision_4), 0 } ,
-	{ 2055, 100, offsetof(WeakReference_t2164, ___isLongReference_0), 0 } ,
-	{ 2056, 7272, offsetof(WeakReference_t2164, ___gcHandle_1), 0 } ,
-	{ 2057, 10140, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D0_0), 0 } ,
-	{ 2058, 10141, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D1_1), 0 } ,
-	{ 2059, 10141, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D2_2), 0 } ,
-	{ 2060, 10141, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D3_3), 0 } ,
-	{ 2061, 10141, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D4_4), 0 } ,
-	{ 2062, 10142, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D5_5), 0 } ,
-	{ 2063, 10142, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D6_6), 0 } ,
-	{ 2064, 10143, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D15_7), 0 } ,
-	{ 2065, 10144, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D16_8), 0 } ,
-	{ 2066, 10145, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D17_9), 0 } ,
-	{ 2067, 10146, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D18_10), 0 } ,
-	{ 2068, 10147, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D19_11), 0 } ,
-	{ 2069, 10147, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D20_12), 0 } ,
-	{ 2070, 10147, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D21_13), 0 } ,
-	{ 2071, 10147, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D22_14), 0 } ,
-	{ 2072, 10148, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D23_15), 0 } ,
-	{ 2073, 10148, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D24_16), 0 } ,
-	{ 2074, 10148, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D25_17), 0 } ,
-	{ 2075, 10142, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D26_18), 0 } ,
-	{ 2076, 10149, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D27_19), 0 } ,
-	{ 2077, 10150, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D30_20), 0 } ,
-	{ 2078, 10144, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D32_21), 0 } ,
-	{ 2079, 10147, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D33_22), 0 } ,
-	{ 2080, 10151, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D34_23), 0 } ,
-	{ 2081, 10145, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D35_24), 0 } ,
-	{ 2082, 10152, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D36_25), 0 } ,
-	{ 2083, 10153, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D37_26), 0 } ,
-	{ 2084, 10140, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D38_27), 0 } ,
-	{ 2085, 10142, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D39_28), 0 } ,
-	{ 2086, 10146, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D40_29), 0 } ,
-	{ 2087, 10153, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D41_30), 0 } ,
-	{ 2088, 10153, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D42_31), 0 } ,
-	{ 2089, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D43_32), 0 } ,
-	{ 2090, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D44_33), 0 } ,
-	{ 2091, 10155, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D45_34), 0 } ,
-	{ 2092, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D46_35), 0 } ,
-	{ 2093, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D47_36), 0 } ,
-	{ 2094, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D48_37), 0 } ,
-	{ 2095, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D49_38), 0 } ,
-	{ 2096, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D50_39), 0 } ,
-	{ 2097, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D51_40), 0 } ,
-	{ 2098, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D52_41), 0 } ,
-	{ 2099, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D53_42), 0 } ,
-	{ 2100, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D54_43), 0 } ,
-	{ 2101, 10156, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D55_44), 0 } ,
-	{ 2102, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D56_45), 0 } ,
-	{ 2103, 10157, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D57_46), 0 } ,
-	{ 2104, 10148, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D60_47), 0 } ,
-	{ 2105, 10158, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D62_48), 0 } ,
-	{ 2106, 10154, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D63_49), 0 } ,
-	{ 2107, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D64_50), 0 } ,
-	{ 2108, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4815_StaticFields, ___U24U24fieldU2D65_51), 0 } ,
+	{ 2022, 10061, offsetof(TimeZone_t4153_StaticFields, ___currentTimeZone_0), 0 } ,
+	{ 2023, 99, offsetof(CurrentSystemTimeZone_t4793, ___m_standardName_1), 0 } ,
+	{ 2024, 99, offsetof(CurrentSystemTimeZone_t4793, ___m_daylightName_2), 0 } ,
+	{ 2025, 5590, offsetof(CurrentSystemTimeZone_t4793, ___m_CachedDaylightChanges_3), 0 } ,
+	{ 2026, 116, offsetof(CurrentSystemTimeZone_t4793, ___m_ticksOffset_4), 0 } ,
+	{ 2027, 10064, offsetof(CurrentSystemTimeZone_t4793, ___utcOffsetWithOutDLS_5), 0 } ,
+	{ 2028, 10064, offsetof(CurrentSystemTimeZone_t4793, ___utcOffsetWithDLS_6), 0 } ,
+	{ 2029, 812, offsetof(CurrentSystemTimeZone_t4793_StaticFields, ___this_year_7), 0 } ,
+	{ 2030, 10065, offsetof(CurrentSystemTimeZone_t4793_StaticFields, ___this_year_dlt_8), 0 } ,
+	{ 177, 90, offsetof(TypeCode_t4794, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 17, 10067, 0, 0 } ,
+	{ 2031, 10067, 0, 0 } ,
+	{ 1835, 10067, 0, 0 } ,
+	{ 2032, 10067, 0, 0 } ,
+	{ 790, 10067, 0, 0 } ,
+	{ 2033, 10067, 0, 0 } ,
+	{ 2034, 10067, 0, 0 } ,
+	{ 2035, 10067, 0, 0 } ,
+	{ 2036, 10067, 0, 0 } ,
+	{ 2037, 10067, 0, 0 } ,
+	{ 2038, 10067, 0, 0 } ,
+	{ 2039, 10067, 0, 0 } ,
+	{ 2040, 10067, 0, 0 } ,
+	{ 2041, 10067, 0, 0 } ,
+	{ 2042, 10067, 0, 0 } ,
+	{ 2043, 10067, 0, 0 } ,
+	{ 2044, 10067, 0, 0 } ,
+	{ 1322, 10067, 0, 0 } ,
+	{ 1306, 99, offsetof(TypeInitializationException_t4795, ___type_name_11), 0 } ,
+	{ 1817, 837, 0, 0 } ,
+	{ 2045, 99, offsetof(TypeLoadException_t4753, ___className_12), 0 } ,
+	{ 102, 99, offsetof(TypeLoadException_t4753, ___assemblyName_13), 0 } ,
+	{ 2046, 617, offsetof(UnhandledExceptionEventArgs_t4797, ___exception_1), 0 } ,
+	{ 2047, 100, offsetof(UnhandledExceptionEventArgs_t4797, ___m_isTerminating_2), 0 } ,
+	{ 177, 5104, offsetof(UnityType_t4798, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1835, 10075, 0, 0 } ,
+	{ 1358, 10075, 0, 0 } ,
+	{ 1821, 10075, 0, 0 } ,
+	{ 966, 10075, 0, 0 } ,
+	{ 80, 99, offsetof(UnitySerializationHolder_t4799, ____data_0), 0 } ,
+	{ 2048, 10078, offsetof(UnitySerializationHolder_t4799, ____unityType_1), 0 } ,
+	{ 2049, 99, offsetof(UnitySerializationHolder_t4799, ____assemblyName_2), 0 } ,
+	{ 2050, 837, 0, 0 } ,
+	{ 2051, 110, offsetof(Version_t1331, ____Major_1), 0 } ,
+	{ 2052, 110, offsetof(Version_t1331, ____Minor_2), 0 } ,
+	{ 2053, 110, offsetof(Version_t1331, ____Build_3), 0 } ,
+	{ 2054, 110, offsetof(Version_t1331, ____Revision_4), 0 } ,
+	{ 2055, 100, offsetof(WeakReference_t2171, ___isLongReference_0), 0 } ,
+	{ 2056, 7290, offsetof(WeakReference_t2171, ___gcHandle_1), 0 } ,
+	{ 2057, 10158, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D0_0), 0 } ,
+	{ 2058, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D1_1), 0 } ,
+	{ 2059, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D2_2), 0 } ,
+	{ 2060, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D3_3), 0 } ,
+	{ 2061, 10159, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D4_4), 0 } ,
+	{ 2062, 10160, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D5_5), 0 } ,
+	{ 2063, 10160, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D6_6), 0 } ,
+	{ 2064, 10161, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D15_7), 0 } ,
+	{ 2065, 10162, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D16_8), 0 } ,
+	{ 2066, 10163, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D17_9), 0 } ,
+	{ 2067, 10164, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D18_10), 0 } ,
+	{ 2068, 10165, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D19_11), 0 } ,
+	{ 2069, 10165, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D20_12), 0 } ,
+	{ 2070, 10165, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D21_13), 0 } ,
+	{ 2071, 10165, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D22_14), 0 } ,
+	{ 2072, 10166, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D23_15), 0 } ,
+	{ 2073, 10166, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D24_16), 0 } ,
+	{ 2074, 10166, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D25_17), 0 } ,
+	{ 2075, 10160, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D26_18), 0 } ,
+	{ 2076, 10167, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D27_19), 0 } ,
+	{ 2077, 10168, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D30_20), 0 } ,
+	{ 2078, 10162, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D32_21), 0 } ,
+	{ 2079, 10165, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D33_22), 0 } ,
+	{ 2080, 10169, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D34_23), 0 } ,
+	{ 2081, 10163, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D35_24), 0 } ,
+	{ 2082, 10170, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D36_25), 0 } ,
+	{ 2083, 10171, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D37_26), 0 } ,
+	{ 2084, 10158, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D38_27), 0 } ,
+	{ 2085, 10160, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D39_28), 0 } ,
+	{ 2086, 10164, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D40_29), 0 } ,
+	{ 2087, 10171, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D41_30), 0 } ,
+	{ 2088, 10171, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D42_31), 0 } ,
+	{ 2089, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D43_32), 0 } ,
+	{ 2090, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D44_33), 0 } ,
+	{ 2091, 10173, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D45_34), 0 } ,
+	{ 2092, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D46_35), 0 } ,
+	{ 2093, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D47_36), 0 } ,
+	{ 2094, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D48_37), 0 } ,
+	{ 2095, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D49_38), 0 } ,
+	{ 2096, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D50_39), 0 } ,
+	{ 2097, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D51_40), 0 } ,
+	{ 2098, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D52_41), 0 } ,
+	{ 2099, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D53_42), 0 } ,
+	{ 2100, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D54_43), 0 } ,
+	{ 2101, 10174, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D55_44), 0 } ,
+	{ 2102, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D56_45), 0 } ,
+	{ 2103, 10175, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D57_46), 0 } ,
+	{ 2104, 10166, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D60_47), 0 } ,
+	{ 2105, 10176, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D62_48), 0 } ,
+	{ 2106, 10172, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D63_49), 0 } ,
+	{ 2107, 10177, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D64_50), 0 } ,
+	{ 2108, 10177, offsetof(U3CPrivateImplementationDetailsU3E_t4823_StaticFields, ___U24U24fieldU2D65_51), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -8676,58 +8676,58 @@ static const Il2CppFieldDefaultValue s_DefaultValues[762] =
 	{ 2658, 255, 2849 },
 	{ 2659, 255, 2850 },
 	{ 2663, 75, 2851 },
-	{ 2670, 10100, 2855 },
-	{ 2671, 10102, 2911 },
-	{ 2672, 10102, 2935 },
-	{ 2673, 10102, 2959 },
-	{ 2674, 10102, 2983 },
-	{ 2675, 10104, 3007 },
-	{ 2676, 10104, 3023 },
-	{ 2677, 10108, 3039 },
-	{ 2678, 10110, 6171 },
-	{ 2679, 10112, 6191 },
-	{ 2680, 10114, 6223 },
-	{ 2681, 10116, 6271 },
-	{ 2682, 10116, 6335 },
-	{ 2683, 10116, 6399 },
-	{ 2684, 10116, 6463 },
-	{ 2685, 10118, 6527 },
-	{ 2686, 10118, 6539 },
-	{ 2687, 10118, 6551 },
-	{ 2688, 10104, 6563 },
-	{ 2689, 10120, 6579 },
-	{ 2690, 10122, 6715 },
-	{ 2691, 10110, 6787 },
-	{ 2692, 10116, 6807 },
-	{ 2693, 10124, 6871 },
-	{ 2694, 10112, 6995 },
-	{ 2695, 10126, 7027 },
-	{ 2696, 10128, 7123 },
-	{ 2697, 10100, 9171 },
-	{ 2698, 10104, 9227 },
-	{ 2699, 10114, 9243 },
-	{ 2700, 10128, 9291 },
-	{ 2701, 10128, 11339 },
-	{ 2702, 10130, 13387 },
-	{ 2703, 10130, 13643 },
-	{ 2704, 10106, 13899 },
-	{ 2705, 10130, 14019 },
-	{ 2706, 10130, 14275 },
-	{ 2707, 10132, 14531 },
-	{ 2708, 10132, 15555 },
-	{ 2709, 10132, 16579 },
-	{ 2710, 10132, 17603 },
-	{ 2711, 10132, 18627 },
-	{ 2712, 10132, 19651 },
-	{ 2713, 10132, 20675 },
-	{ 2714, 10132, 21699 },
-	{ 2715, 10130, 22723 },
-	{ 2716, 10134, 22979 },
-	{ 2717, 10118, 23619 },
-	{ 2718, 10136, 23631 },
-	{ 2719, 10130, 23759 },
-	{ 2720, 10138, 24015 },
-	{ 2721, 10138, 24067 },
+	{ 2670, 10118, 2855 },
+	{ 2671, 10120, 2911 },
+	{ 2672, 10120, 2935 },
+	{ 2673, 10120, 2959 },
+	{ 2674, 10120, 2983 },
+	{ 2675, 10122, 3007 },
+	{ 2676, 10122, 3023 },
+	{ 2677, 10126, 3039 },
+	{ 2678, 10128, 6171 },
+	{ 2679, 10130, 6191 },
+	{ 2680, 10132, 6223 },
+	{ 2681, 10134, 6271 },
+	{ 2682, 10134, 6335 },
+	{ 2683, 10134, 6399 },
+	{ 2684, 10134, 6463 },
+	{ 2685, 10136, 6527 },
+	{ 2686, 10136, 6539 },
+	{ 2687, 10136, 6551 },
+	{ 2688, 10122, 6563 },
+	{ 2689, 10138, 6579 },
+	{ 2690, 10140, 6715 },
+	{ 2691, 10128, 6787 },
+	{ 2692, 10134, 6807 },
+	{ 2693, 10142, 6871 },
+	{ 2694, 10130, 6995 },
+	{ 2695, 10144, 7027 },
+	{ 2696, 10146, 7123 },
+	{ 2697, 10118, 9171 },
+	{ 2698, 10122, 9227 },
+	{ 2699, 10132, 9243 },
+	{ 2700, 10146, 9291 },
+	{ 2701, 10146, 11339 },
+	{ 2702, 10148, 13387 },
+	{ 2703, 10148, 13643 },
+	{ 2704, 10124, 13899 },
+	{ 2705, 10148, 14019 },
+	{ 2706, 10148, 14275 },
+	{ 2707, 10150, 14531 },
+	{ 2708, 10150, 15555 },
+	{ 2709, 10150, 16579 },
+	{ 2710, 10150, 17603 },
+	{ 2711, 10150, 18627 },
+	{ 2712, 10150, 19651 },
+	{ 2713, 10150, 20675 },
+	{ 2714, 10150, 21699 },
+	{ 2715, 10148, 22723 },
+	{ 2716, 10152, 22979 },
+	{ 2717, 10136, 23619 },
+	{ 2718, 10154, 23631 },
+	{ 2719, 10148, 23759 },
+	{ 2720, 10156, 24015 },
+	{ 2721, 10156, 24067 },
 };
 static const uint8_t s_DefaultValueDataTable[24119] = 
 {

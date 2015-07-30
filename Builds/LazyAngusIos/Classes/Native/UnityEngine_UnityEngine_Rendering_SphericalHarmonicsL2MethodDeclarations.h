@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Rendering.SphericalHarmonicsL2
-struct SphericalHarmonicsL2_t2683;
+struct SphericalHarmonicsL2_t2690;
 // System.Object
 struct Object_t;
 // UnityEngine.Rendering.SphericalHarmonicsL2
@@ -16,38 +16,38 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::Clear()
-extern "C" void SphericalHarmonicsL2_Clear_m8941 (SphericalHarmonicsL2_t2683 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_Clear_m8987 (SphericalHarmonicsL2_t2690 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::ClearInternal(UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_ClearInternal_m8942 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_ClearInternal_m8988 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_ClearInternal(UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_ClearInternal_m8943 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_ClearInternal_m8989 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddAmbientLight(UnityEngine.Color)
-extern "C" void SphericalHarmonicsL2_AddAmbientLight_m8944 (SphericalHarmonicsL2_t2683 * __this, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddAmbientLight_m8990 (SphericalHarmonicsL2_t2690 * __this, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddAmbientLightInternal(UnityEngine.Color,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_AddAmbientLightInternal_m8945 (Object_t * __this /* static, unused */, Color_t325  ___color, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddAmbientLightInternal_m8991 (Object_t * __this /* static, unused */, Color_t325  ___color, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_AddAmbientLightInternal(UnityEngine.Color&,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddAmbientLightInternal_m8946 (Object_t * __this /* static, unused */, Color_t325 * ___color, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddAmbientLightInternal_m8992 (Object_t * __this /* static, unused */, Color_t325 * ___color, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddDirectionalLight(UnityEngine.Vector3,UnityEngine.Color,System.Single)
-extern "C" void SphericalHarmonicsL2_AddDirectionalLight_m8947 (SphericalHarmonicsL2_t2683 * __this, Vector3_t493  ___direction, Color_t325  ___color, float ___intensity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddDirectionalLight_m8993 (SphericalHarmonicsL2_t2690 * __this, Vector3_t497  ___direction, Color_t325  ___color, float ___intensity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddDirectionalLightInternal(UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_AddDirectionalLightInternal_m8948 (Object_t * __this /* static, unused */, Vector3_t493  ___direction, Color_t325  ___color, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddDirectionalLightInternal_m8994 (Object_t * __this /* static, unused */, Vector3_t497  ___direction, Color_t325  ___color, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_AddDirectionalLightInternal(UnityEngine.Vector3&,UnityEngine.Color&,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddDirectionalLightInternal_m8949 (Object_t * __this /* static, unused */, Vector3_t493 * ___direction, Color_t325 * ___color, SphericalHarmonicsL2_t2683 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddDirectionalLightInternal_m8995 (Object_t * __this /* static, unused */, Vector3_t497 * ___direction, Color_t325 * ___color, SphericalHarmonicsL2_t2690 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rendering.SphericalHarmonicsL2::get_Item(System.Int32,System.Int32)
-extern "C" float SphericalHarmonicsL2_get_Item_m8950 (SphericalHarmonicsL2_t2683 * __this, int32_t ___rgb, int32_t ___coefficient, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SphericalHarmonicsL2_get_Item_m8996 (SphericalHarmonicsL2_t2690 * __this, int32_t ___rgb, int32_t ___coefficient, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::set_Item(System.Int32,System.Int32,System.Single)
-extern "C" void SphericalHarmonicsL2_set_Item_m8951 (SphericalHarmonicsL2_t2683 * __this, int32_t ___rgb, int32_t ___coefficient, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_set_Item_m8997 (SphericalHarmonicsL2_t2690 * __this, int32_t ___rgb, int32_t ___coefficient, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Rendering.SphericalHarmonicsL2::GetHashCode()
-extern "C" int32_t SphericalHarmonicsL2_GetHashCode_m8952 (SphericalHarmonicsL2_t2683 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SphericalHarmonicsL2_GetHashCode_m8998 (SphericalHarmonicsL2_t2690 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rendering.SphericalHarmonicsL2::Equals(System.Object)
-extern "C" bool SphericalHarmonicsL2_Equals_m8953 (SphericalHarmonicsL2_t2683 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SphericalHarmonicsL2_Equals_m8999 (SphericalHarmonicsL2_t2690 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rendering.SphericalHarmonicsL2 UnityEngine.Rendering.SphericalHarmonicsL2::op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2,System.Single)
-extern "C" SphericalHarmonicsL2_t2683  SphericalHarmonicsL2_op_Multiply_m8954 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683  ___lhs, float ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SphericalHarmonicsL2_t2690  SphericalHarmonicsL2_op_Multiply_m9000 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690  ___lhs, float ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rendering.SphericalHarmonicsL2 UnityEngine.Rendering.SphericalHarmonicsL2::op_Multiply(System.Single,UnityEngine.Rendering.SphericalHarmonicsL2)
-extern "C" SphericalHarmonicsL2_t2683  SphericalHarmonicsL2_op_Multiply_m8955 (Object_t * __this /* static, unused */, float ___lhs, SphericalHarmonicsL2_t2683  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SphericalHarmonicsL2_t2690  SphericalHarmonicsL2_op_Multiply_m9001 (Object_t * __this /* static, unused */, float ___lhs, SphericalHarmonicsL2_t2690  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rendering.SphericalHarmonicsL2 UnityEngine.Rendering.SphericalHarmonicsL2::op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2,UnityEngine.Rendering.SphericalHarmonicsL2)
-extern "C" SphericalHarmonicsL2_t2683  SphericalHarmonicsL2_op_Addition_m8956 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683  ___lhs, SphericalHarmonicsL2_t2683  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SphericalHarmonicsL2_t2690  SphericalHarmonicsL2_op_Addition_m9002 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690  ___lhs, SphericalHarmonicsL2_t2690  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rendering.SphericalHarmonicsL2::op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2,UnityEngine.Rendering.SphericalHarmonicsL2)
-extern "C" bool SphericalHarmonicsL2_op_Equality_m8957 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683  ___lhs, SphericalHarmonicsL2_t2683  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SphericalHarmonicsL2_op_Equality_m9003 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690  ___lhs, SphericalHarmonicsL2_t2690  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rendering.SphericalHarmonicsL2::op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2,UnityEngine.Rendering.SphericalHarmonicsL2)
-extern "C" bool SphericalHarmonicsL2_op_Inequality_m8958 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2683  ___lhs, SphericalHarmonicsL2_t2683  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SphericalHarmonicsL2_op_Inequality_m9004 (Object_t * __this /* static, unused */, SphericalHarmonicsL2_t2690  ___lhs, SphericalHarmonicsL2_t2690  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

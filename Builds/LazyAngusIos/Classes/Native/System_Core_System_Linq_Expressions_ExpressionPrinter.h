@@ -5,7 +5,7 @@ struct StringBuilder_t261;
 // System.Linq.Expressions.ExpressionVisitor
 #include "System_Core_System_Linq_Expressions_ExpressionVisitor.h"
 // System.Linq.Expressions.ExpressionPrinter
-struct  ExpressionPrinter_t3267  : public ExpressionVisitor_t3268
+struct  ExpressionPrinter_t3275  : public ExpressionVisitor_t3276
 {
 	// System.Text.StringBuilder System.Linq.Expressions.ExpressionPrinter::builder
 	StringBuilder_t261 * ___builder_0;

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.Contraction
-struct Contraction_t4312;
+struct Contraction_t4320;
 // System.Char[]
-struct CharU5BU5D_t652;
+struct CharU5BU5D_t660;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Globalization.Unicode.Contraction::.ctor(System.Char[],System.String,System.Byte[])
-extern "C" void Contraction__ctor_m15985 (Contraction_t4312 * __this, CharU5BU5D_t652* ___source, String_t* ___replacement, ByteU5BU5D_t66* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Contraction__ctor_m16032 (Contraction_t4320 * __this, CharU5BU5D_t660* ___source, String_t* ___replacement, ByteU5BU5D_t66* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Toggle/ToggleEvent
-struct ToggleEvent_t913;
+struct ToggleEvent_t920;
 
 // System.Void UnityEngine.UI.Toggle/ToggleEvent::.ctor()
-extern "C" void ToggleEvent__ctor_m5180 (ToggleEvent_t913 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ToggleEvent__ctor_m5227 (ToggleEvent_t920 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

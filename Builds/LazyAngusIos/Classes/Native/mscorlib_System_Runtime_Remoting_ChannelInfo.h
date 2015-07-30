@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t626;
+struct ObjectU5BU5D_t634;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ChannelInfo
-struct  ChannelInfo_t4535  : public Object_t
+struct  ChannelInfo_t4543  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.ChannelInfo::channelData
-	ObjectU5BU5D_t626* ___channelData_0;
+	ObjectU5BU5D_t634* ___channelData_0;
 };

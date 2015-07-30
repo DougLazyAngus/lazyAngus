@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.IPEndPoint
-struct IPEndPoint_t3991;
+struct IPEndPoint_t3999;
 // System.Net.ServicePoint
-struct ServicePoint_t3876;
+struct ServicePoint_t3884;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.BindIPEndPoint
-struct  BindIPEndPoint_t4008  : public MulticastDelegate_t388
+struct  BindIPEndPoint_t4016  : public MulticastDelegate_t388
 {
 };

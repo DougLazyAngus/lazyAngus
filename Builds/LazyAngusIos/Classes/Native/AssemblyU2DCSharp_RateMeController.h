@@ -5,7 +5,7 @@ struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // RateMeController
-struct  RateMeController_t578  : public MonoBehaviour_t13
+struct  RateMeController_t586  : public MonoBehaviour_t13
 {
 	// System.Int32 RateMeController::launchFrequency
 	int32_t ___launchFrequency_2;

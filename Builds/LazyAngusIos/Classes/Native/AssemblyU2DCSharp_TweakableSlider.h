@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Image
-struct Image_t541;
+struct Image_t549;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TweakableSlider
-struct  TweakableSlider_t555  : public MonoBehaviour_t13
+struct  TweakableSlider_t564  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Image TweakableSlider::fill
-	Image_t541 * ___fill_2;
+	Image_t549 * ___fill_2;
 	// UnityEngine.UI.Image TweakableSlider::background
-	Image_t541 * ___background_3;
+	Image_t549 * ___background_3;
 };

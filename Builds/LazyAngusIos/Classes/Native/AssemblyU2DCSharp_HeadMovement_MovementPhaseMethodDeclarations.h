@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // HeadMovement/MovementPhase
-struct MovementPhase_t517;
+struct MovementPhase_t525;
 

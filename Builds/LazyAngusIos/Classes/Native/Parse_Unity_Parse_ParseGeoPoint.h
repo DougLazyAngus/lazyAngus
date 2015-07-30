@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // Parse.ParseGeoPoint
-struct  ParseGeoPoint_t1185 
+struct  ParseGeoPoint_t1192 
 {
 	// System.Double Parse.ParseGeoPoint::latitude
 	double ___latitude_0;

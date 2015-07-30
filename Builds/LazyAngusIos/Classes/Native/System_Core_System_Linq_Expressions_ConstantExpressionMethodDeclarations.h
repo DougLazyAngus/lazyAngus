@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.ConstantExpression
-struct ConstantExpression_t1466;
+struct ConstantExpression_t1473;
 // System.Object
 struct Object_t;
 // System.Type
 struct Type_t;
 
 // System.Void System.Linq.Expressions.ConstantExpression::.ctor(System.Object,System.Type)
-extern "C" void ConstantExpression__ctor_m11306 (ConstantExpression_t1466 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstantExpression__ctor_m11353 (ConstantExpression_t1473 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Linq.Expressions.ConstantExpression::get_Value()
-extern "C" Object_t * ConstantExpression_get_Value_m11307 (ConstantExpression_t1466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstantExpression_get_Value_m11354 (ConstantExpression_t1473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

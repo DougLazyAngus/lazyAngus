@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.DateTime>
-struct List_1_t6757;
+struct List_1_t6765;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Collections.Generic.List`1/Enumerator<System.DateTime>
-struct  Enumerator_t6758 
+struct  Enumerator_t6766 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.DateTime>::l
-	List_1_t6757 * ___l_0;
+	List_1_t6765 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::ver

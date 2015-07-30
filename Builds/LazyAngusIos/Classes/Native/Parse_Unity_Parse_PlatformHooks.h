@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t757;
+struct IDictionary_2_t764;
 // System.String
 struct String_t;
 // System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t1215;
+struct ReaderWriterLockSlim_t1222;
 // System.Collections.Generic.Queue`1<System.Action>
-struct Queue_1_t1273;
+struct Queue_1_t1280;
 // System.Action
 struct Action_t143;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>>
-struct Func_2_t1274;
+struct Func_2_t1281;
 // System.Func`2<System.Reflection.MethodInfo,System.Boolean>
-struct Func_2_t1275;
+struct Func_2_t1282;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.PlatformHooks
-struct  PlatformHooks_t1276  : public Object_t
+struct  PlatformHooks_t1283  : public Object_t
 {
 	// System.String Parse.PlatformHooks::osVersion
 	String_t* ___osVersion_2;
 };
-struct PlatformHooks_t1276_StaticFields{
+struct PlatformHooks_t1283_StaticFields{
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.PlatformHooks::settings
 	Object_t* ___settings_0;
 	// System.String Parse.PlatformHooks::settingsPath
@@ -32,9 +32,9 @@ struct PlatformHooks_t1276_StaticFields{
 	// System.Boolean Parse.PlatformHooks::isWebPlayer
 	bool ___isWebPlayer_4;
 	// System.Threading.ReaderWriterLockSlim Parse.PlatformHooks::dispatchQueueLock
-	ReaderWriterLockSlim_t1215 * ___dispatchQueueLock_5;
+	ReaderWriterLockSlim_t1222 * ___dispatchQueueLock_5;
 	// System.Collections.Generic.Queue`1<System.Action> Parse.PlatformHooks::dispatchQueue
-	Queue_1_t1273 * ___dispatchQueue_6;
+	Queue_1_t1280 * ___dispatchQueue_6;
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate10
 	Action_t143 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_7;
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate11
@@ -66,9 +66,9 @@ struct PlatformHooks_t1276_StaticFields{
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1e
 	Action_t143 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_21;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate37
-	Func_2_t1274 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_22;
+	Func_2_t1281 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_22;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate48
-	Func_2_t1275 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_23;
+	Func_2_t1282 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_23;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate49
-	Func_2_t1275 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_24;
+	Func_2_t1282 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_24;
 };

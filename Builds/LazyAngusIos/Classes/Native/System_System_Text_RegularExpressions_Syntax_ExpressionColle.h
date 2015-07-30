@@ -3,6 +3,6 @@
 // System.Collections.CollectionBase
 #include "mscorlib_System_Collections_CollectionBase.h"
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct  ExpressionCollection_t4097  : public CollectionBase_t3757
+struct  ExpressionCollection_t4105  : public CollectionBase_t3765
 {
 };

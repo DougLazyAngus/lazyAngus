@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.ListDictionary/DictionaryNode
-struct DictionaryNode_t3899;
+struct DictionaryNode_t3907;
 // System.Collections.IComparer
-struct IComparer_t3904;
+struct IComparer_t3912;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Specialized.ListDictionary
-struct  ListDictionary_t3113  : public Object_t
+struct  ListDictionary_t3121  : public Object_t
 {
 	// System.Int32 System.Collections.Specialized.ListDictionary::count
 	int32_t ___count_0;
 	// System.Int32 System.Collections.Specialized.ListDictionary::version
 	int32_t ___version_1;
 	// System.Collections.Specialized.ListDictionary/DictionaryNode System.Collections.Specialized.ListDictionary::head
-	DictionaryNode_t3899 * ___head_2;
+	DictionaryNode_t3907 * ___head_2;
 	// System.Collections.IComparer System.Collections.Specialized.ListDictionary::comparer
 	Object_t * ___comparer_3;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.WaitForFixedUpdate
-struct WaitForFixedUpdate_t2630;
+struct WaitForFixedUpdate_t2637;
 
 // System.Void UnityEngine.WaitForFixedUpdate::.ctor()
-extern "C" void WaitForFixedUpdate__ctor_m8379 (WaitForFixedUpdate_t2630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitForFixedUpdate__ctor_m8425 (WaitForFixedUpdate_t2637 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

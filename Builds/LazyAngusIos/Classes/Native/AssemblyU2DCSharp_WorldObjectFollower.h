@@ -3,36 +3,24 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.RectTransform
-struct RectTransform_t617;
-// UnityEngine.Canvas
-struct Canvas_t458;
-// UnityEngine.Camera
-struct Camera_t523;
-// UnityEngine.MonoBehaviour
-#include "UnityEngine_UnityEngine_MonoBehaviour.h"
+struct RectTransform_t504;
+// WorldRelativeGUIElement
+#include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // WorldObjectFollower
-struct  WorldObjectFollower_t618  : public MonoBehaviour_t13
+struct  WorldObjectFollower_t626  : public WorldRelativeGUIElement_t507
 {
 	// UnityEngine.GameObject WorldObjectFollower::objectToFollow
-	GameObject_t352 * ___objectToFollow_2;
+	GameObject_t352 * ___objectToFollow_7;
 	// UnityEngine.RectTransform WorldObjectFollower::myRectTransform
-	RectTransform_t617 * ___myRectTransform_3;
-	// UnityEngine.Canvas WorldObjectFollower::worldCanvas
-	Canvas_t458 * ___worldCanvas_4;
-	// UnityEngine.Camera WorldObjectFollower::worldCamera
-	Camera_t523 * ___worldCamera_5;
-	// System.Single WorldObjectFollower::canvasWidth
-	float ___canvasWidth_6;
-	// System.Single WorldObjectFollower::canvasHeight
-	float ___canvasHeight_7;
+	RectTransform_t504 * ___myRectTransform_8;
 	// System.Boolean WorldObjectFollower::followeeMoves
-	bool ___followeeMoves_8;
+	bool ___followeeMoves_9;
 	// System.Boolean WorldObjectFollower::positionDirty
-	bool ___positionDirty_9;
+	bool ___positionDirty_10;
 	// UnityEngine.Vector3 WorldObjectFollower::offset
-	Vector3_t493  ___offset_10;
+	Vector3_t497  ___offset_11;
 	// System.Single WorldObjectFollower::rotation
-	float ___rotation_11;
+	float ___rotation_12;
 };

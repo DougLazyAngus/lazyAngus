@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Graphic
-struct Graphic_t852;
+struct Graphic_t859;
 // UnityEngine.UI.ToggleGroup
-struct ToggleGroup_t915;
+struct ToggleGroup_t922;
 // UnityEngine.UI.Toggle/ToggleEvent
-struct ToggleEvent_t913;
+struct ToggleEvent_t920;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 // UnityEngine.UI.Toggle/ToggleTransition
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransition.h"
 // UnityEngine.UI.Toggle
-struct  Toggle_t916  : public Selectable_t837
+struct  Toggle_t923  : public Selectable_t844
 {
 	// UnityEngine.UI.Toggle/ToggleTransition UnityEngine.UI.Toggle::toggleTransition
 	int32_t ___toggleTransition_16;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Toggle::graphic
-	Graphic_t852 * ___graphic_17;
+	Graphic_t859 * ___graphic_17;
 	// UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::m_Group
-	ToggleGroup_t915 * ___m_Group_18;
+	ToggleGroup_t922 * ___m_Group_18;
 	// UnityEngine.UI.Toggle/ToggleEvent UnityEngine.UI.Toggle::onValueChanged
-	ToggleEvent_t913 * ___onValueChanged_19;
+	ToggleEvent_t920 * ___onValueChanged_19;
 	// System.Boolean UnityEngine.UI.Toggle::m_IsOn
 	bool ___m_IsOn_20;
 };

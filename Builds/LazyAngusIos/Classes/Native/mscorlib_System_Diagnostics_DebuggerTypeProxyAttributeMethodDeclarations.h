@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.DebuggerTypeProxyAttribute
-struct DebuggerTypeProxyAttribute_t4405;
+struct DebuggerTypeProxyAttribute_t4413;
 // System.Type
 struct Type_t;
 
 // System.Void System.Diagnostics.DebuggerTypeProxyAttribute::.ctor(System.Type)
-extern "C" void DebuggerTypeProxyAttribute__ctor_m16777 (DebuggerTypeProxyAttribute_t4405 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerTypeProxyAttribute__ctor_m16824 (DebuggerTypeProxyAttribute_t4413 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Sprites.DataUtility
-struct DataUtility_t2684;
+struct DataUtility_t2691;
 // UnityEngine.Sprite
 struct Sprite_t472;
 // UnityEngine.Vector4
@@ -14,12 +14,12 @@ struct Sprite_t472;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetInnerUV(UnityEngine.Sprite)
-extern "C" Vector4_t976  DataUtility_GetInnerUV_m5644 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t983  DataUtility_GetInnerUV_m5690 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetOuterUV(UnityEngine.Sprite)
-extern "C" Vector4_t976  DataUtility_GetOuterUV_m5643 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t983  DataUtility_GetOuterUV_m5689 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetPadding(UnityEngine.Sprite)
-extern "C" Vector4_t976  DataUtility_GetPadding_m5636 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t983  DataUtility_GetPadding_m5682 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Sprites.DataUtility::GetMinSize(UnityEngine.Sprite)
-extern "C" Vector2_t110  DataUtility_GetMinSize_m5654 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  DataUtility_GetMinSize_m5700 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Sprites.DataUtility::Internal_GetMinSize(UnityEngine.Sprite,UnityEngine.Vector2&)
-extern "C" void DataUtility_Internal_GetMinSize_m8961 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, Vector2_t110 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DataUtility_Internal_GetMinSize_m9007 (Object_t * __this /* static, unused */, Sprite_t472 * ___sprite, Vector2_t110 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ComVisibleAttribute
-struct ComVisibleAttribute_t1033;
+struct ComVisibleAttribute_t1040;
 
 // System.Void System.Runtime.InteropServices.ComVisibleAttribute::.ctor(System.Boolean)
-extern "C" void ComVisibleAttribute__ctor_m5883 (ComVisibleAttribute_t1033 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComVisibleAttribute__ctor_m5929 (ComVisibleAttribute_t1040 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;

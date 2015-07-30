@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Exception[]
-struct ExceptionU5BU5D_t8250;
+struct ExceptionU5BU5D_t8258;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Exception>
-struct  List_1_t2087  : public Object_t
+struct  List_1_t2094  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Exception>::_items
-	ExceptionU5BU5D_t8250* ____items_1;
+	ExceptionU5BU5D_t8258* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2087_StaticFields{
+struct List_1_t2094_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Exception>::EmptyArray
-	ExceptionU5BU5D_t8250* ___EmptyArray_4;
+	ExceptionU5BU5D_t8258* ___EmptyArray_4;
 };

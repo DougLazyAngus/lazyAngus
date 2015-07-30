@@ -7,7 +7,7 @@ struct StringU5BU5D_t75;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Xml.XmlException
-struct  XmlException_t3171  : public SystemException_t3172
+struct  XmlException_t3179  : public SystemException_t3180
 {
 	// System.Int32 System.Xml.XmlException::lineNumber
 	int32_t ___lineNumber_11;

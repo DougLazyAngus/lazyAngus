@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OnMouseEntersHole
-struct OnMouseEntersHole_t564;
+struct OnMouseEntersHole_t572;
 // UnityEngine.Collider2D
-struct Collider2D_t569;
+struct Collider2D_t577;
 
 // System.Void OnMouseEntersHole::.ctor()
-extern "C" void OnMouseEntersHole__ctor_m3014 (OnMouseEntersHole_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OnMouseEntersHole__ctor_m3045 (OnMouseEntersHole_t572 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void OnMouseEntersHole::OnTriggerEnter2D(UnityEngine.Collider2D)
-extern "C" void OnMouseEntersHole_OnTriggerEnter2D_m3015 (OnMouseEntersHole_t564 * __this, Collider2D_t569 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OnMouseEntersHole_OnTriggerEnter2D_m3046 (OnMouseEntersHole_t572 * __this, Collider2D_t577 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;

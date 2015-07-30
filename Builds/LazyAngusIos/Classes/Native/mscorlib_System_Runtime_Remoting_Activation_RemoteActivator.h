@@ -3,6 +3,6 @@
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.Runtime.Remoting.Activation.RemoteActivator
-struct  RemoteActivator_t4532  : public MarshalByRefObject_t4020
+struct  RemoteActivator_t4540  : public MarshalByRefObject_t4028
 {
 };

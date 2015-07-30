@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ExecuteInEditMode
-struct ExecuteInEditMode_t1047;
+struct ExecuteInEditMode_t1054;
 
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
-extern "C" void ExecuteInEditMode__ctor_m5942 (ExecuteInEditMode_t1047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteInEditMode__ctor_m5988 (ExecuteInEditMode_t1054 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

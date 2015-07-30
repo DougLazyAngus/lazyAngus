@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SpaceAttribute
-struct SpaceAttribute_t1049;
+struct SpaceAttribute_t1056;
 
 // System.Void UnityEngine.SpaceAttribute::.ctor(System.Single)
-extern "C" void SpaceAttribute__ctor_m5947 (SpaceAttribute_t1049 * __this, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpaceAttribute__ctor_m5993 (SpaceAttribute_t1056 * __this, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;

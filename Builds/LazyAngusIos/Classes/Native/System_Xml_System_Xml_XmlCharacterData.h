@@ -5,7 +5,7 @@ struct String_t;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlCharacterData
-struct  XmlCharacterData_t3158  : public XmlLinkedNode_t3154
+struct  XmlCharacterData_t3166  : public XmlLinkedNode_t3162
 {
 	// System.String System.Xml.XmlCharacterData::data
 	String_t* ___data_6;

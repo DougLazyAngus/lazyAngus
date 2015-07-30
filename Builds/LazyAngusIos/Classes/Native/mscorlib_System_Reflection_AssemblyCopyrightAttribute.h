@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Reflection.AssemblyCopyrightAttribute
-struct  AssemblyCopyrightAttribute_t1032  : public Attribute_t426
+struct  AssemblyCopyrightAttribute_t1039  : public Attribute_t426
 {
 	// System.String System.Reflection.AssemblyCopyrightAttribute::name
 	String_t* ___name_0;

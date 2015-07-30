@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FileWebRequest/FileWebStream
-struct FileWebStream_t3974;
+struct FileWebStream_t3982;
 // System.Net.FileWebRequest
-struct FileWebRequest_t3973;
+struct FileWebRequest_t3981;
 // System.IO.FileMode
 #include "mscorlib_System_IO_FileMode.h"
 // System.IO.FileAccess
@@ -16,6 +16,6 @@ struct FileWebRequest_t3973;
 #include "mscorlib_System_IO_FileShare.h"
 
 // System.Void System.Net.FileWebRequest/FileWebStream::.ctor(System.Net.FileWebRequest,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-extern "C" void FileWebStream__ctor_m13479 (FileWebStream_t3974 * __this, FileWebRequest_t3973 * ___webRequest, int32_t ___mode, int32_t ___access, int32_t ___share, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebStream__ctor_m13526 (FileWebStream_t3982 * __this, FileWebRequest_t3981 * ___webRequest, int32_t ___mode, int32_t ___access, int32_t ___share, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest/FileWebStream::Close()
-extern "C" void FileWebStream_Close_m13480 (FileWebStream_t3974 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebStream_Close_m13527 (FileWebStream_t3982 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

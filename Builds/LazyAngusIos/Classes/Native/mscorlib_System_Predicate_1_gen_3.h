@@ -9,6 +9,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<System.Object>
-struct  Predicate_1_t5371  : public MulticastDelegate_t388
+struct  Predicate_1_t5379  : public MulticastDelegate_t388
 {
 };

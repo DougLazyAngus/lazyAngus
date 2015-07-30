@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.TlsClientSettings
-struct TlsClientSettings_t3795;
+struct TlsClientSettings_t3803;
 // System.String
 struct String_t;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t3823;
+struct X509CertificateCollection_t3831;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3824;
+struct X509Certificate_t3832;
 
 // System.Void Mono.Security.Protocol.Tls.TlsClientSettings::.ctor()
-extern "C" void TlsClientSettings__ctor_m12662 (TlsClientSettings_t3795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientSettings__ctor_m12709 (TlsClientSettings_t3803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.Protocol.Tls.TlsClientSettings::get_TargetHost()
-extern "C" String_t* TlsClientSettings_get_TargetHost_m12663 (TlsClientSettings_t3795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TlsClientSettings_get_TargetHost_m12710 (TlsClientSettings_t3803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsClientSettings::set_TargetHost(System.String)
-extern "C" void TlsClientSettings_set_TargetHost_m12664 (TlsClientSettings_t3795 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientSettings_set_TargetHost_m12711 (TlsClientSettings_t3803 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection Mono.Security.Protocol.Tls.TlsClientSettings::get_Certificates()
-extern "C" X509CertificateCollection_t3823 * TlsClientSettings_get_Certificates_m12665 (TlsClientSettings_t3795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509CertificateCollection_t3831 * TlsClientSettings_get_Certificates_m12712 (TlsClientSettings_t3803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsClientSettings::set_Certificates(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" void TlsClientSettings_set_Certificates_m12666 (TlsClientSettings_t3795 * __this, X509CertificateCollection_t3823 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientSettings_set_Certificates_m12713 (TlsClientSettings_t3803 * __this, X509CertificateCollection_t3831 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.TlsClientSettings::get_ClientCertificate()
-extern "C" X509Certificate_t3824 * TlsClientSettings_get_ClientCertificate_m12667 (TlsClientSettings_t3795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3832 * TlsClientSettings_get_ClientCertificate_m12714 (TlsClientSettings_t3803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsClientSettings::set_ClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate)
-extern "C" void TlsClientSettings_set_ClientCertificate_m12668 (TlsClientSettings_t3795 * __this, X509Certificate_t3824 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientSettings_set_ClientCertificate_m12715 (TlsClientSettings_t3803 * __this, X509Certificate_t3832 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsClientSettings::UpdateCertificateRSA()
-extern "C" void TlsClientSettings_UpdateCertificateRSA_m12669 (TlsClientSettings_t3795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientSettings_UpdateCertificateRSA_m12716 (TlsClientSettings_t3803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

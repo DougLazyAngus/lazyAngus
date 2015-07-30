@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SerializeField
-struct SerializeField_t742;
+struct SerializeField_t749;
 
 // System.Void UnityEngine.SerializeField::.ctor()
-extern "C" void SerializeField__ctor_m4042 (SerializeField_t742 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializeField__ctor_m4089 (SerializeField_t749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

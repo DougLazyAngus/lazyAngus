@@ -14,367 +14,367 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3715_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3723_il2cpp_TypeInfo;
 // <Module>
 #include "Mono_Security_U3CModuleU3E.h"
-extern TypeInfo Locale_t3716_il2cpp_TypeInfo;
+extern TypeInfo Locale_t3724_il2cpp_TypeInfo;
 // Locale
 #include "Mono_Security_Locale.h"
-extern TypeInfo Sign_t3717_il2cpp_TypeInfo;
+extern TypeInfo Sign_t3725_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/Sign
 #include "Mono_Security_Mono_Math_BigInteger_Sign.h"
-extern TypeInfo ModulusRing_t3719_il2cpp_TypeInfo;
+extern TypeInfo ModulusRing_t3727_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/ModulusRing
 #include "Mono_Security_Mono_Math_BigInteger_ModulusRing.h"
-extern TypeInfo Kernel_t3720_il2cpp_TypeInfo;
+extern TypeInfo Kernel_t3728_il2cpp_TypeInfo;
 // Mono.Math.BigInteger/Kernel
 #include "Mono_Security_Mono_Math_BigInteger_Kernel.h"
-extern TypeInfo BigInteger_t3718_il2cpp_TypeInfo;
+extern TypeInfo BigInteger_t3726_il2cpp_TypeInfo;
 // Mono.Math.BigInteger
 #include "Mono_Security_Mono_Math_BigInteger.h"
-extern TypeInfo ConfidenceFactor_t3722_il2cpp_TypeInfo;
+extern TypeInfo ConfidenceFactor_t3730_il2cpp_TypeInfo;
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
-extern TypeInfo PrimalityTests_t3723_il2cpp_TypeInfo;
+extern TypeInfo PrimalityTests_t3731_il2cpp_TypeInfo;
 // Mono.Math.Prime.PrimalityTests
 #include "Mono_Security_Mono_Math_Prime_PrimalityTests.h"
-extern TypeInfo PrimeGeneratorBase_t3724_il2cpp_TypeInfo;
+extern TypeInfo PrimeGeneratorBase_t3732_il2cpp_TypeInfo;
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
 #include "Mono_Security_Mono_Math_Prime_Generator_PrimeGeneratorBase.h"
-extern TypeInfo SequentialSearchPrimeGeneratorBase_t3725_il2cpp_TypeInfo;
+extern TypeInfo SequentialSearchPrimeGeneratorBase_t3733_il2cpp_TypeInfo;
 // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
 #include "Mono_Security_Mono_Math_Prime_Generator_SequentialSearchPrim.h"
-extern TypeInfo ASN1_t3726_il2cpp_TypeInfo;
+extern TypeInfo ASN1_t3734_il2cpp_TypeInfo;
 // Mono.Security.ASN1
 #include "Mono_Security_Mono_Security_ASN1.h"
-extern TypeInfo ASN1Convert_t3727_il2cpp_TypeInfo;
+extern TypeInfo ASN1Convert_t3735_il2cpp_TypeInfo;
 // Mono.Security.ASN1Convert
 #include "Mono_Security_Mono_Security_ASN1Convert.h"
-extern TypeInfo BitConverterLE_t3728_il2cpp_TypeInfo;
+extern TypeInfo BitConverterLE_t3736_il2cpp_TypeInfo;
 // Mono.Security.BitConverterLE
 #include "Mono_Security_Mono_Security_BitConverterLE.h"
-extern TypeInfo ContentInfo_t3729_il2cpp_TypeInfo;
+extern TypeInfo ContentInfo_t3737_il2cpp_TypeInfo;
 // Mono.Security.PKCS7/ContentInfo
 #include "Mono_Security_Mono_Security_PKCS7_ContentInfo.h"
-extern TypeInfo EncryptedData_t3730_il2cpp_TypeInfo;
+extern TypeInfo EncryptedData_t3738_il2cpp_TypeInfo;
 // Mono.Security.PKCS7/EncryptedData
 #include "Mono_Security_Mono_Security_PKCS7_EncryptedData.h"
-extern TypeInfo PKCS7_t3731_il2cpp_TypeInfo;
+extern TypeInfo PKCS7_t3739_il2cpp_TypeInfo;
 // Mono.Security.PKCS7
 #include "Mono_Security_Mono_Security_PKCS7.h"
-extern TypeInfo ARC4Managed_t3732_il2cpp_TypeInfo;
+extern TypeInfo ARC4Managed_t3740_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.ARC4Managed
 #include "Mono_Security_Mono_Security_Cryptography_ARC4Managed.h"
-extern TypeInfo CryptoConvert_t3734_il2cpp_TypeInfo;
+extern TypeInfo CryptoConvert_t3742_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.CryptoConvert
 #include "Mono_Security_Mono_Security_Cryptography_CryptoConvert.h"
-extern TypeInfo KeyBuilder_t3735_il2cpp_TypeInfo;
+extern TypeInfo KeyBuilder_t3743_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.KeyBuilder
 #include "Mono_Security_Mono_Security_Cryptography_KeyBuilder.h"
-extern TypeInfo MD2_t3736_il2cpp_TypeInfo;
+extern TypeInfo MD2_t3744_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.MD2
 #include "Mono_Security_Mono_Security_Cryptography_MD2.h"
-extern TypeInfo MD2Managed_t3738_il2cpp_TypeInfo;
+extern TypeInfo MD2Managed_t3746_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.MD2Managed
 #include "Mono_Security_Mono_Security_Cryptography_MD2Managed.h"
-extern TypeInfo PKCS1_t3739_il2cpp_TypeInfo;
+extern TypeInfo PKCS1_t3747_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS1
 #include "Mono_Security_Mono_Security_Cryptography_PKCS1.h"
-extern TypeInfo PrivateKeyInfo_t3740_il2cpp_TypeInfo;
+extern TypeInfo PrivateKeyInfo_t3748_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
 #include "Mono_Security_Mono_Security_Cryptography_PKCS8_PrivateKeyInf.h"
-extern TypeInfo EncryptedPrivateKeyInfo_t3741_il2cpp_TypeInfo;
+extern TypeInfo EncryptedPrivateKeyInfo_t3749_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo
 #include "Mono_Security_Mono_Security_Cryptography_PKCS8_EncryptedPriv.h"
-extern TypeInfo PKCS8_t3742_il2cpp_TypeInfo;
+extern TypeInfo PKCS8_t3750_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.PKCS8
 #include "Mono_Security_Mono_Security_Cryptography_PKCS8.h"
-extern TypeInfo RC4_t3733_il2cpp_TypeInfo;
+extern TypeInfo RC4_t3741_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.RC4
 #include "Mono_Security_Mono_Security_Cryptography_RC4.h"
-extern TypeInfo KeyGeneratedEventHandler_t3745_il2cpp_TypeInfo;
+extern TypeInfo KeyGeneratedEventHandler_t3753_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
 #include "Mono_Security_Mono_Security_Cryptography_RSAManaged_KeyGener.h"
-extern TypeInfo RSAManaged_t3746_il2cpp_TypeInfo;
+extern TypeInfo RSAManaged_t3754_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.RSAManaged
 #include "Mono_Security_Mono_Security_Cryptography_RSAManaged.h"
-extern TypeInfo SafeBag_t3748_il2cpp_TypeInfo;
+extern TypeInfo SafeBag_t3756_il2cpp_TypeInfo;
 // Mono.Security.X509.SafeBag
 #include "Mono_Security_Mono_Security_X509_SafeBag.h"
-extern TypeInfo DeriveBytes_t3749_il2cpp_TypeInfo;
+extern TypeInfo DeriveBytes_t3757_il2cpp_TypeInfo;
 // Mono.Security.X509.PKCS12/DeriveBytes
 #include "Mono_Security_Mono_Security_X509_PKCS12_DeriveBytes.h"
-extern TypeInfo PKCS12_t3751_il2cpp_TypeInfo;
+extern TypeInfo PKCS12_t3759_il2cpp_TypeInfo;
 // Mono.Security.X509.PKCS12
 #include "Mono_Security_Mono_Security_X509_PKCS12.h"
-extern TypeInfo X501_t3752_il2cpp_TypeInfo;
+extern TypeInfo X501_t3760_il2cpp_TypeInfo;
 // Mono.Security.X509.X501
 #include "Mono_Security_Mono_Security_X509_X501.h"
-extern TypeInfo X509Certificate_t3755_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate_t3763_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Certificate
 #include "Mono_Security_Mono_Security_X509_X509Certificate.h"
-extern TypeInfo X509CertificateEnumerator_t3756_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateEnumerator_t3764_il2cpp_TypeInfo;
 // Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator
 #include "Mono_Security_Mono_Security_X509_X509CertificateCollection_X.h"
-extern TypeInfo X509CertificateCollection_t3750_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateCollection_t3758_il2cpp_TypeInfo;
 // Mono.Security.X509.X509CertificateCollection
 #include "Mono_Security_Mono_Security_X509_X509CertificateCollection.h"
-extern TypeInfo X509Chain_t3758_il2cpp_TypeInfo;
+extern TypeInfo X509Chain_t3766_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Chain
 #include "Mono_Security_Mono_Security_X509_X509Chain.h"
-extern TypeInfo X509ChainStatusFlags_t3759_il2cpp_TypeInfo;
+extern TypeInfo X509ChainStatusFlags_t3767_il2cpp_TypeInfo;
 // Mono.Security.X509.X509ChainStatusFlags
 #include "Mono_Security_Mono_Security_X509_X509ChainStatusFlags.h"
-extern TypeInfo X509CrlEntry_t3760_il2cpp_TypeInfo;
+extern TypeInfo X509CrlEntry_t3768_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Crl/X509CrlEntry
 #include "Mono_Security_Mono_Security_X509_X509Crl_X509CrlEntry.h"
-extern TypeInfo X509Crl_t3761_il2cpp_TypeInfo;
+extern TypeInfo X509Crl_t3769_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Crl
 #include "Mono_Security_Mono_Security_X509_X509Crl.h"
-extern TypeInfo X509Extension_t3762_il2cpp_TypeInfo;
+extern TypeInfo X509Extension_t3770_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
-extern TypeInfo X509ExtensionCollection_t3754_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionCollection_t3762_il2cpp_TypeInfo;
 // Mono.Security.X509.X509ExtensionCollection
 #include "Mono_Security_Mono_Security_X509_X509ExtensionCollection.h"
-extern TypeInfo X509Store_t3763_il2cpp_TypeInfo;
+extern TypeInfo X509Store_t3771_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Store
 #include "Mono_Security_Mono_Security_X509_X509Store.h"
-extern TypeInfo X509StoreManager_t3765_il2cpp_TypeInfo;
+extern TypeInfo X509StoreManager_t3773_il2cpp_TypeInfo;
 // Mono.Security.X509.X509StoreManager
 #include "Mono_Security_Mono_Security_X509_X509StoreManager.h"
-extern TypeInfo X509Stores_t3764_il2cpp_TypeInfo;
+extern TypeInfo X509Stores_t3772_il2cpp_TypeInfo;
 // Mono.Security.X509.X509Stores
 #include "Mono_Security_Mono_Security_X509_X509Stores.h"
-extern TypeInfo AuthorityKeyIdentifierExtension_t3766_il2cpp_TypeInfo;
+extern TypeInfo AuthorityKeyIdentifierExtension_t3774_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_AuthorityKeyIden.h"
-extern TypeInfo BasicConstraintsExtension_t3767_il2cpp_TypeInfo;
+extern TypeInfo BasicConstraintsExtension_t3775_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.BasicConstraintsExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_BasicConstraints.h"
-extern TypeInfo ExtendedKeyUsageExtension_t3768_il2cpp_TypeInfo;
+extern TypeInfo ExtendedKeyUsageExtension_t3776_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.ExtendedKeyUsageExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_ExtendedKeyUsage.h"
-extern TypeInfo GeneralNames_t3769_il2cpp_TypeInfo;
+extern TypeInfo GeneralNames_t3777_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.GeneralNames
 #include "Mono_Security_Mono_Security_X509_Extensions_GeneralNames.h"
-extern TypeInfo KeyUsages_t3770_il2cpp_TypeInfo;
+extern TypeInfo KeyUsages_t3778_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.KeyUsages
 #include "Mono_Security_Mono_Security_X509_Extensions_KeyUsages.h"
-extern TypeInfo KeyUsageExtension_t3771_il2cpp_TypeInfo;
+extern TypeInfo KeyUsageExtension_t3779_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.KeyUsageExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_KeyUsageExtensio.h"
-extern TypeInfo CertTypes_t3772_il2cpp_TypeInfo;
+extern TypeInfo CertTypes_t3780_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.NetscapeCertTypeExtension/CertTypes
 #include "Mono_Security_Mono_Security_X509_Extensions_NetscapeCertType.h"
-extern TypeInfo NetscapeCertTypeExtension_t3773_il2cpp_TypeInfo;
+extern TypeInfo NetscapeCertTypeExtension_t3781_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.NetscapeCertTypeExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_NetscapeCertType_0.h"
-extern TypeInfo SubjectAltNameExtension_t3774_il2cpp_TypeInfo;
+extern TypeInfo SubjectAltNameExtension_t3782_il2cpp_TypeInfo;
 // Mono.Security.X509.Extensions.SubjectAltNameExtension
 #include "Mono_Security_Mono_Security_X509_Extensions_SubjectAltNameEx.h"
-extern TypeInfo HMAC_t3775_il2cpp_TypeInfo;
+extern TypeInfo HMAC_t3783_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.HMAC
 #include "Mono_Security_Mono_Security_Cryptography_HMAC.h"
-extern TypeInfo MD5SHA1_t3777_il2cpp_TypeInfo;
+extern TypeInfo MD5SHA1_t3785_il2cpp_TypeInfo;
 // Mono.Security.Cryptography.MD5SHA1
 #include "Mono_Security_Mono_Security_Cryptography_MD5SHA1.h"
-extern TypeInfo AlertLevel_t3778_il2cpp_TypeInfo;
+extern TypeInfo AlertLevel_t3786_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.AlertLevel
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertLevel.h"
-extern TypeInfo AlertDescription_t3779_il2cpp_TypeInfo;
+extern TypeInfo AlertDescription_t3787_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.AlertDescription
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertDescription.h"
-extern TypeInfo Alert_t3780_il2cpp_TypeInfo;
+extern TypeInfo Alert_t3788_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Alert
 #include "Mono_Security_Mono_Security_Protocol_Tls_Alert.h"
-extern TypeInfo CipherAlgorithmType_t3781_il2cpp_TypeInfo;
+extern TypeInfo CipherAlgorithmType_t3789_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CipherAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherAlgorithmType.h"
-extern TypeInfo CipherSuite_t3784_il2cpp_TypeInfo;
+extern TypeInfo CipherSuite_t3792_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuite.h"
-extern TypeInfo CipherSuiteCollection_t3785_il2cpp_TypeInfo;
+extern TypeInfo CipherSuiteCollection_t3793_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuiteCollecti.h"
-extern TypeInfo CipherSuiteFactory_t3786_il2cpp_TypeInfo;
+extern TypeInfo CipherSuiteFactory_t3794_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CipherSuiteFactory
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuiteFactory.h"
-extern TypeInfo ClientContext_t3788_il2cpp_TypeInfo;
+extern TypeInfo ClientContext_t3796_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ClientContext
 #include "Mono_Security_Mono_Security_Protocol_Tls_ClientContext.h"
-extern TypeInfo ClientRecordProtocol_t3789_il2cpp_TypeInfo;
+extern TypeInfo ClientRecordProtocol_t3797_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ClientRecordProtocol
 #include "Mono_Security_Mono_Security_Protocol_Tls_ClientRecordProtoco.h"
-extern TypeInfo ClientSessionInfo_t3791_il2cpp_TypeInfo;
+extern TypeInfo ClientSessionInfo_t3799_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ClientSessionInfo
 #include "Mono_Security_Mono_Security_Protocol_Tls_ClientSessionInfo.h"
-extern TypeInfo ClientSessionCache_t3792_il2cpp_TypeInfo;
+extern TypeInfo ClientSessionCache_t3800_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ClientSessionCache
 #include "Mono_Security_Mono_Security_Protocol_Tls_ClientSessionCache.h"
-extern TypeInfo ContentType_t3793_il2cpp_TypeInfo;
+extern TypeInfo ContentType_t3801_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ContentType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ContentType.h"
-extern TypeInfo Context_t3782_il2cpp_TypeInfo;
+extern TypeInfo Context_t3790_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Context
 #include "Mono_Security_Mono_Security_Protocol_Tls_Context.h"
-extern TypeInfo ExchangeAlgorithmType_t3798_il2cpp_TypeInfo;
+extern TypeInfo ExchangeAlgorithmType_t3806_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ExchangeAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ExchangeAlgorithmTy.h"
-extern TypeInfo HandshakeState_t3799_il2cpp_TypeInfo;
+extern TypeInfo HandshakeState_t3807_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.HandshakeState
 #include "Mono_Security_Mono_Security_Protocol_Tls_HandshakeState.h"
-extern TypeInfo HashAlgorithmType_t3800_il2cpp_TypeInfo;
+extern TypeInfo HashAlgorithmType_t3808_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.HashAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_HashAlgorithmType.h"
-extern TypeInfo HttpsClientStream_t3804_il2cpp_TypeInfo;
+extern TypeInfo HttpsClientStream_t3812_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.HttpsClientStream
 #include "Mono_Security_Mono_Security_Protocol_Tls_HttpsClientStream.h"
-extern TypeInfo ReceiveRecordAsyncResult_t3805_il2cpp_TypeInfo;
+extern TypeInfo ReceiveRecordAsyncResult_t3813_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult
 #include "Mono_Security_Mono_Security_Protocol_Tls_RecordProtocol_Rece.h"
-extern TypeInfo SendRecordAsyncResult_t3807_il2cpp_TypeInfo;
+extern TypeInfo SendRecordAsyncResult_t3815_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult
 #include "Mono_Security_Mono_Security_Protocol_Tls_RecordProtocol_Send.h"
-extern TypeInfo RecordProtocol_t3790_il2cpp_TypeInfo;
+extern TypeInfo RecordProtocol_t3798_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.RecordProtocol
 #include "Mono_Security_Mono_Security_Protocol_Tls_RecordProtocol.h"
-extern TypeInfo RSASslSignatureDeformatter_t3808_il2cpp_TypeInfo;
+extern TypeInfo RSASslSignatureDeformatter_t3816_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.RSASslSignatureDeformatter
 #include "Mono_Security_Mono_Security_Protocol_Tls_RSASslSignatureDefo.h"
-extern TypeInfo RSASslSignatureFormatter_t3810_il2cpp_TypeInfo;
+extern TypeInfo RSASslSignatureFormatter_t3818_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.RSASslSignatureFormatter
 #include "Mono_Security_Mono_Security_Protocol_Tls_RSASslSignatureForm.h"
-extern TypeInfo SecurityCompressionType_t3812_il2cpp_TypeInfo;
+extern TypeInfo SecurityCompressionType_t3820_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SecurityCompressionType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityCompression.h"
-extern TypeInfo SecurityParameters_t3796_il2cpp_TypeInfo;
+extern TypeInfo SecurityParameters_t3804_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SecurityParameters
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityParameters.h"
-extern TypeInfo SecurityProtocolType_t3813_il2cpp_TypeInfo;
+extern TypeInfo SecurityProtocolType_t3821_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SecurityProtocolType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
-extern TypeInfo ServerContext_t3814_il2cpp_TypeInfo;
+extern TypeInfo ServerContext_t3822_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ServerContext
 #include "Mono_Security_Mono_Security_Protocol_Tls_ServerContext.h"
-extern TypeInfo ValidationResult_t3815_il2cpp_TypeInfo;
+extern TypeInfo ValidationResult_t3823_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.ValidationResult
 #include "Mono_Security_Mono_Security_Protocol_Tls_ValidationResult.h"
-extern TypeInfo SslClientStream_t3787_il2cpp_TypeInfo;
+extern TypeInfo SslClientStream_t3795_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslClientStream
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslClientStream.h"
-extern TypeInfo SslCipherSuite_t3819_il2cpp_TypeInfo;
+extern TypeInfo SslCipherSuite_t3827_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslCipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslCipherSuite.h"
-extern TypeInfo SslHandshakeHash_t3820_il2cpp_TypeInfo;
+extern TypeInfo SslHandshakeHash_t3828_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslHandshakeHash
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslHandshakeHash.h"
-extern TypeInfo InternalAsyncResult_t3821_il2cpp_TypeInfo;
+extern TypeInfo InternalAsyncResult_t3829_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslStreamBase/InternalAsyncResult
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslStreamBase_Inter.h"
-extern TypeInfo SslStreamBase_t3818_il2cpp_TypeInfo;
+extern TypeInfo SslStreamBase_t3826_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslStreamBase
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslStreamBase.h"
-extern TypeInfo TlsCipherSuite_t3822_il2cpp_TypeInfo;
+extern TypeInfo TlsCipherSuite_t3830_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsCipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsCipherSuite.h"
-extern TypeInfo TlsClientSettings_t3795_il2cpp_TypeInfo;
+extern TypeInfo TlsClientSettings_t3803_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsClientSettings
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsClientSettings.h"
-extern TypeInfo TlsException_t3825_il2cpp_TypeInfo;
+extern TypeInfo TlsException_t3833_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsException
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsException.h"
-extern TypeInfo TlsServerSettings_t3794_il2cpp_TypeInfo;
+extern TypeInfo TlsServerSettings_t3802_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsServerSettings
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsServerSettings.h"
-extern TypeInfo TlsStream_t3797_il2cpp_TypeInfo;
+extern TypeInfo TlsStream_t3805_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsStream
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsStream.h"
-extern TypeInfo ClientCertificateType_t3828_il2cpp_TypeInfo;
+extern TypeInfo ClientCertificateType_t3836_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_ClientCer.h"
-extern TypeInfo HandshakeMessage_t3806_il2cpp_TypeInfo;
+extern TypeInfo HandshakeMessage_t3814_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
-extern TypeInfo HandshakeType_t3829_il2cpp_TypeInfo;
+extern TypeInfo HandshakeType_t3837_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeType
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake.h"
-extern TypeInfo TlsClientCertificate_t3830_il2cpp_TypeInfo;
+extern TypeInfo TlsClientCertificate_t3838_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl.h"
-extern TypeInfo TlsClientCertificateVerify_t3831_il2cpp_TypeInfo;
+extern TypeInfo TlsClientCertificateVerify_t3839_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificateVerify
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_0.h"
-extern TypeInfo TlsClientFinished_t3832_il2cpp_TypeInfo;
+extern TypeInfo TlsClientFinished_t3840_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_1.h"
-extern TypeInfo TlsClientHello_t3833_il2cpp_TypeInfo;
+extern TypeInfo TlsClientHello_t3841_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_2.h"
-extern TypeInfo TlsClientKeyExchange_t3834_il2cpp_TypeInfo;
+extern TypeInfo TlsClientKeyExchange_t3842_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_3.h"
-extern TypeInfo TlsServerCertificate_t3835_il2cpp_TypeInfo;
+extern TypeInfo TlsServerCertificate_t3843_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_4.h"
-extern TypeInfo TlsServerCertificateRequest_t3836_il2cpp_TypeInfo;
+extern TypeInfo TlsServerCertificateRequest_t3844_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_5.h"
-extern TypeInfo TlsServerFinished_t3837_il2cpp_TypeInfo;
+extern TypeInfo TlsServerFinished_t3845_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_6.h"
-extern TypeInfo TlsServerHello_t3838_il2cpp_TypeInfo;
+extern TypeInfo TlsServerHello_t3846_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_7.h"
-extern TypeInfo TlsServerHelloDone_t3839_il2cpp_TypeInfo;
+extern TypeInfo TlsServerHelloDone_t3847_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_8.h"
-extern TypeInfo TlsServerKeyExchange_t3840_il2cpp_TypeInfo;
+extern TypeInfo TlsServerKeyExchange_t3848_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Client_Tl_9.h"
-extern TypeInfo PrimalityTest_t3841_il2cpp_TypeInfo;
+extern TypeInfo PrimalityTest_t3849_il2cpp_TypeInfo;
 // Mono.Math.Prime.PrimalityTest
 #include "Mono_Security_Mono_Math_Prime_PrimalityTest.h"
-extern TypeInfo CertificateValidationCallback_t3816_il2cpp_TypeInfo;
+extern TypeInfo CertificateValidationCallback_t3824_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CertificateValidationCallback
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateValidati.h"
-extern TypeInfo CertificateValidationCallback2_t3817_il2cpp_TypeInfo;
+extern TypeInfo CertificateValidationCallback2_t3825_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CertificateValidationCallback2
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateValidati_0.h"
-extern TypeInfo CertificateSelectionCallback_t3802_il2cpp_TypeInfo;
+extern TypeInfo CertificateSelectionCallback_t3810_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CertificateSelectionCallback
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateSelectio.h"
-extern TypeInfo PrivateKeySelectionCallback_t3803_il2cpp_TypeInfo;
+extern TypeInfo PrivateKeySelectionCallback_t3811_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.PrivateKeySelectionCallback
 #include "Mono_Security_Mono_Security_Protocol_Tls_PrivateKeySelection.h"
-extern TypeInfo U24ArrayTypeU243132_t3843_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU243132_t3851_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$3132
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp.h"
-extern TypeInfo U24ArrayTypeU24256_t3844_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24256_t3852_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$256
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_0.h"
-extern TypeInfo U24ArrayTypeU2420_t3845_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2420_t3853_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$20
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_1.h"
-extern TypeInfo U24ArrayTypeU2432_t3846_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2432_t3854_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$32
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_2.h"
-extern TypeInfo U24ArrayTypeU2448_t3847_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2448_t3855_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$48
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_3.h"
-extern TypeInfo U24ArrayTypeU2464_t3848_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2464_t3856_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$64
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_4.h"
-extern TypeInfo U24ArrayTypeU2412_t3849_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2412_t3857_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_5.h"
-extern TypeInfo U24ArrayTypeU2416_t3850_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2416_t3858_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$16
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_6.h"
-extern TypeInfo U24ArrayTypeU244_t3851_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU244_t3859_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$4
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp_7.h"
-extern TypeInfo U3CPrivateImplementationDetailsU3E_t3852_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t3860_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E.h"
 #include <map>
@@ -382,127 +382,127 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_Mono_Security_Assembly_Types[122] = 
 {
-	&U3CModuleU3E_t3715_il2cpp_TypeInfo,
-	&Locale_t3716_il2cpp_TypeInfo,
-	&Sign_t3717_il2cpp_TypeInfo,
-	&ModulusRing_t3719_il2cpp_TypeInfo,
-	&Kernel_t3720_il2cpp_TypeInfo,
-	&BigInteger_t3718_il2cpp_TypeInfo,
-	&ConfidenceFactor_t3722_il2cpp_TypeInfo,
-	&PrimalityTests_t3723_il2cpp_TypeInfo,
-	&PrimeGeneratorBase_t3724_il2cpp_TypeInfo,
-	&SequentialSearchPrimeGeneratorBase_t3725_il2cpp_TypeInfo,
-	&ASN1_t3726_il2cpp_TypeInfo,
-	&ASN1Convert_t3727_il2cpp_TypeInfo,
-	&BitConverterLE_t3728_il2cpp_TypeInfo,
-	&ContentInfo_t3729_il2cpp_TypeInfo,
-	&EncryptedData_t3730_il2cpp_TypeInfo,
-	&PKCS7_t3731_il2cpp_TypeInfo,
-	&ARC4Managed_t3732_il2cpp_TypeInfo,
-	&CryptoConvert_t3734_il2cpp_TypeInfo,
-	&KeyBuilder_t3735_il2cpp_TypeInfo,
-	&MD2_t3736_il2cpp_TypeInfo,
-	&MD2Managed_t3738_il2cpp_TypeInfo,
-	&PKCS1_t3739_il2cpp_TypeInfo,
-	&PrivateKeyInfo_t3740_il2cpp_TypeInfo,
-	&EncryptedPrivateKeyInfo_t3741_il2cpp_TypeInfo,
-	&PKCS8_t3742_il2cpp_TypeInfo,
-	&RC4_t3733_il2cpp_TypeInfo,
-	&KeyGeneratedEventHandler_t3745_il2cpp_TypeInfo,
-	&RSAManaged_t3746_il2cpp_TypeInfo,
-	&SafeBag_t3748_il2cpp_TypeInfo,
-	&DeriveBytes_t3749_il2cpp_TypeInfo,
-	&PKCS12_t3751_il2cpp_TypeInfo,
-	&X501_t3752_il2cpp_TypeInfo,
-	&X509Certificate_t3755_il2cpp_TypeInfo,
-	&X509CertificateEnumerator_t3756_il2cpp_TypeInfo,
-	&X509CertificateCollection_t3750_il2cpp_TypeInfo,
-	&X509Chain_t3758_il2cpp_TypeInfo,
-	&X509ChainStatusFlags_t3759_il2cpp_TypeInfo,
-	&X509CrlEntry_t3760_il2cpp_TypeInfo,
-	&X509Crl_t3761_il2cpp_TypeInfo,
-	&X509Extension_t3762_il2cpp_TypeInfo,
-	&X509ExtensionCollection_t3754_il2cpp_TypeInfo,
-	&X509Store_t3763_il2cpp_TypeInfo,
-	&X509StoreManager_t3765_il2cpp_TypeInfo,
-	&X509Stores_t3764_il2cpp_TypeInfo,
-	&AuthorityKeyIdentifierExtension_t3766_il2cpp_TypeInfo,
-	&BasicConstraintsExtension_t3767_il2cpp_TypeInfo,
-	&ExtendedKeyUsageExtension_t3768_il2cpp_TypeInfo,
-	&GeneralNames_t3769_il2cpp_TypeInfo,
-	&KeyUsages_t3770_il2cpp_TypeInfo,
-	&KeyUsageExtension_t3771_il2cpp_TypeInfo,
-	&CertTypes_t3772_il2cpp_TypeInfo,
-	&NetscapeCertTypeExtension_t3773_il2cpp_TypeInfo,
-	&SubjectAltNameExtension_t3774_il2cpp_TypeInfo,
-	&HMAC_t3775_il2cpp_TypeInfo,
-	&MD5SHA1_t3777_il2cpp_TypeInfo,
-	&AlertLevel_t3778_il2cpp_TypeInfo,
-	&AlertDescription_t3779_il2cpp_TypeInfo,
-	&Alert_t3780_il2cpp_TypeInfo,
-	&CipherAlgorithmType_t3781_il2cpp_TypeInfo,
-	&CipherSuite_t3784_il2cpp_TypeInfo,
-	&CipherSuiteCollection_t3785_il2cpp_TypeInfo,
-	&CipherSuiteFactory_t3786_il2cpp_TypeInfo,
-	&ClientContext_t3788_il2cpp_TypeInfo,
-	&ClientRecordProtocol_t3789_il2cpp_TypeInfo,
-	&ClientSessionInfo_t3791_il2cpp_TypeInfo,
-	&ClientSessionCache_t3792_il2cpp_TypeInfo,
-	&ContentType_t3793_il2cpp_TypeInfo,
-	&Context_t3782_il2cpp_TypeInfo,
-	&ExchangeAlgorithmType_t3798_il2cpp_TypeInfo,
-	&HandshakeState_t3799_il2cpp_TypeInfo,
-	&HashAlgorithmType_t3800_il2cpp_TypeInfo,
-	&HttpsClientStream_t3804_il2cpp_TypeInfo,
-	&ReceiveRecordAsyncResult_t3805_il2cpp_TypeInfo,
-	&SendRecordAsyncResult_t3807_il2cpp_TypeInfo,
-	&RecordProtocol_t3790_il2cpp_TypeInfo,
-	&RSASslSignatureDeformatter_t3808_il2cpp_TypeInfo,
-	&RSASslSignatureFormatter_t3810_il2cpp_TypeInfo,
-	&SecurityCompressionType_t3812_il2cpp_TypeInfo,
-	&SecurityParameters_t3796_il2cpp_TypeInfo,
-	&SecurityProtocolType_t3813_il2cpp_TypeInfo,
-	&ServerContext_t3814_il2cpp_TypeInfo,
-	&ValidationResult_t3815_il2cpp_TypeInfo,
-	&SslClientStream_t3787_il2cpp_TypeInfo,
-	&SslCipherSuite_t3819_il2cpp_TypeInfo,
-	&SslHandshakeHash_t3820_il2cpp_TypeInfo,
-	&InternalAsyncResult_t3821_il2cpp_TypeInfo,
-	&SslStreamBase_t3818_il2cpp_TypeInfo,
-	&TlsCipherSuite_t3822_il2cpp_TypeInfo,
-	&TlsClientSettings_t3795_il2cpp_TypeInfo,
-	&TlsException_t3825_il2cpp_TypeInfo,
-	&TlsServerSettings_t3794_il2cpp_TypeInfo,
-	&TlsStream_t3797_il2cpp_TypeInfo,
-	&ClientCertificateType_t3828_il2cpp_TypeInfo,
-	&HandshakeMessage_t3806_il2cpp_TypeInfo,
-	&HandshakeType_t3829_il2cpp_TypeInfo,
-	&TlsClientCertificate_t3830_il2cpp_TypeInfo,
-	&TlsClientCertificateVerify_t3831_il2cpp_TypeInfo,
-	&TlsClientFinished_t3832_il2cpp_TypeInfo,
-	&TlsClientHello_t3833_il2cpp_TypeInfo,
-	&TlsClientKeyExchange_t3834_il2cpp_TypeInfo,
-	&TlsServerCertificate_t3835_il2cpp_TypeInfo,
-	&TlsServerCertificateRequest_t3836_il2cpp_TypeInfo,
-	&TlsServerFinished_t3837_il2cpp_TypeInfo,
-	&TlsServerHello_t3838_il2cpp_TypeInfo,
-	&TlsServerHelloDone_t3839_il2cpp_TypeInfo,
-	&TlsServerKeyExchange_t3840_il2cpp_TypeInfo,
-	&PrimalityTest_t3841_il2cpp_TypeInfo,
-	&CertificateValidationCallback_t3816_il2cpp_TypeInfo,
-	&CertificateValidationCallback2_t3817_il2cpp_TypeInfo,
-	&CertificateSelectionCallback_t3802_il2cpp_TypeInfo,
-	&PrivateKeySelectionCallback_t3803_il2cpp_TypeInfo,
-	&U24ArrayTypeU243132_t3843_il2cpp_TypeInfo,
-	&U24ArrayTypeU24256_t3844_il2cpp_TypeInfo,
-	&U24ArrayTypeU2420_t3845_il2cpp_TypeInfo,
-	&U24ArrayTypeU2432_t3846_il2cpp_TypeInfo,
-	&U24ArrayTypeU2448_t3847_il2cpp_TypeInfo,
-	&U24ArrayTypeU2464_t3848_il2cpp_TypeInfo,
-	&U24ArrayTypeU2412_t3849_il2cpp_TypeInfo,
-	&U24ArrayTypeU2416_t3850_il2cpp_TypeInfo,
-	&U24ArrayTypeU244_t3851_il2cpp_TypeInfo,
-	&U3CPrivateImplementationDetailsU3E_t3852_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3723_il2cpp_TypeInfo,
+	&Locale_t3724_il2cpp_TypeInfo,
+	&Sign_t3725_il2cpp_TypeInfo,
+	&ModulusRing_t3727_il2cpp_TypeInfo,
+	&Kernel_t3728_il2cpp_TypeInfo,
+	&BigInteger_t3726_il2cpp_TypeInfo,
+	&ConfidenceFactor_t3730_il2cpp_TypeInfo,
+	&PrimalityTests_t3731_il2cpp_TypeInfo,
+	&PrimeGeneratorBase_t3732_il2cpp_TypeInfo,
+	&SequentialSearchPrimeGeneratorBase_t3733_il2cpp_TypeInfo,
+	&ASN1_t3734_il2cpp_TypeInfo,
+	&ASN1Convert_t3735_il2cpp_TypeInfo,
+	&BitConverterLE_t3736_il2cpp_TypeInfo,
+	&ContentInfo_t3737_il2cpp_TypeInfo,
+	&EncryptedData_t3738_il2cpp_TypeInfo,
+	&PKCS7_t3739_il2cpp_TypeInfo,
+	&ARC4Managed_t3740_il2cpp_TypeInfo,
+	&CryptoConvert_t3742_il2cpp_TypeInfo,
+	&KeyBuilder_t3743_il2cpp_TypeInfo,
+	&MD2_t3744_il2cpp_TypeInfo,
+	&MD2Managed_t3746_il2cpp_TypeInfo,
+	&PKCS1_t3747_il2cpp_TypeInfo,
+	&PrivateKeyInfo_t3748_il2cpp_TypeInfo,
+	&EncryptedPrivateKeyInfo_t3749_il2cpp_TypeInfo,
+	&PKCS8_t3750_il2cpp_TypeInfo,
+	&RC4_t3741_il2cpp_TypeInfo,
+	&KeyGeneratedEventHandler_t3753_il2cpp_TypeInfo,
+	&RSAManaged_t3754_il2cpp_TypeInfo,
+	&SafeBag_t3756_il2cpp_TypeInfo,
+	&DeriveBytes_t3757_il2cpp_TypeInfo,
+	&PKCS12_t3759_il2cpp_TypeInfo,
+	&X501_t3760_il2cpp_TypeInfo,
+	&X509Certificate_t3763_il2cpp_TypeInfo,
+	&X509CertificateEnumerator_t3764_il2cpp_TypeInfo,
+	&X509CertificateCollection_t3758_il2cpp_TypeInfo,
+	&X509Chain_t3766_il2cpp_TypeInfo,
+	&X509ChainStatusFlags_t3767_il2cpp_TypeInfo,
+	&X509CrlEntry_t3768_il2cpp_TypeInfo,
+	&X509Crl_t3769_il2cpp_TypeInfo,
+	&X509Extension_t3770_il2cpp_TypeInfo,
+	&X509ExtensionCollection_t3762_il2cpp_TypeInfo,
+	&X509Store_t3771_il2cpp_TypeInfo,
+	&X509StoreManager_t3773_il2cpp_TypeInfo,
+	&X509Stores_t3772_il2cpp_TypeInfo,
+	&AuthorityKeyIdentifierExtension_t3774_il2cpp_TypeInfo,
+	&BasicConstraintsExtension_t3775_il2cpp_TypeInfo,
+	&ExtendedKeyUsageExtension_t3776_il2cpp_TypeInfo,
+	&GeneralNames_t3777_il2cpp_TypeInfo,
+	&KeyUsages_t3778_il2cpp_TypeInfo,
+	&KeyUsageExtension_t3779_il2cpp_TypeInfo,
+	&CertTypes_t3780_il2cpp_TypeInfo,
+	&NetscapeCertTypeExtension_t3781_il2cpp_TypeInfo,
+	&SubjectAltNameExtension_t3782_il2cpp_TypeInfo,
+	&HMAC_t3783_il2cpp_TypeInfo,
+	&MD5SHA1_t3785_il2cpp_TypeInfo,
+	&AlertLevel_t3786_il2cpp_TypeInfo,
+	&AlertDescription_t3787_il2cpp_TypeInfo,
+	&Alert_t3788_il2cpp_TypeInfo,
+	&CipherAlgorithmType_t3789_il2cpp_TypeInfo,
+	&CipherSuite_t3792_il2cpp_TypeInfo,
+	&CipherSuiteCollection_t3793_il2cpp_TypeInfo,
+	&CipherSuiteFactory_t3794_il2cpp_TypeInfo,
+	&ClientContext_t3796_il2cpp_TypeInfo,
+	&ClientRecordProtocol_t3797_il2cpp_TypeInfo,
+	&ClientSessionInfo_t3799_il2cpp_TypeInfo,
+	&ClientSessionCache_t3800_il2cpp_TypeInfo,
+	&ContentType_t3801_il2cpp_TypeInfo,
+	&Context_t3790_il2cpp_TypeInfo,
+	&ExchangeAlgorithmType_t3806_il2cpp_TypeInfo,
+	&HandshakeState_t3807_il2cpp_TypeInfo,
+	&HashAlgorithmType_t3808_il2cpp_TypeInfo,
+	&HttpsClientStream_t3812_il2cpp_TypeInfo,
+	&ReceiveRecordAsyncResult_t3813_il2cpp_TypeInfo,
+	&SendRecordAsyncResult_t3815_il2cpp_TypeInfo,
+	&RecordProtocol_t3798_il2cpp_TypeInfo,
+	&RSASslSignatureDeformatter_t3816_il2cpp_TypeInfo,
+	&RSASslSignatureFormatter_t3818_il2cpp_TypeInfo,
+	&SecurityCompressionType_t3820_il2cpp_TypeInfo,
+	&SecurityParameters_t3804_il2cpp_TypeInfo,
+	&SecurityProtocolType_t3821_il2cpp_TypeInfo,
+	&ServerContext_t3822_il2cpp_TypeInfo,
+	&ValidationResult_t3823_il2cpp_TypeInfo,
+	&SslClientStream_t3795_il2cpp_TypeInfo,
+	&SslCipherSuite_t3827_il2cpp_TypeInfo,
+	&SslHandshakeHash_t3828_il2cpp_TypeInfo,
+	&InternalAsyncResult_t3829_il2cpp_TypeInfo,
+	&SslStreamBase_t3826_il2cpp_TypeInfo,
+	&TlsCipherSuite_t3830_il2cpp_TypeInfo,
+	&TlsClientSettings_t3803_il2cpp_TypeInfo,
+	&TlsException_t3833_il2cpp_TypeInfo,
+	&TlsServerSettings_t3802_il2cpp_TypeInfo,
+	&TlsStream_t3805_il2cpp_TypeInfo,
+	&ClientCertificateType_t3836_il2cpp_TypeInfo,
+	&HandshakeMessage_t3814_il2cpp_TypeInfo,
+	&HandshakeType_t3837_il2cpp_TypeInfo,
+	&TlsClientCertificate_t3838_il2cpp_TypeInfo,
+	&TlsClientCertificateVerify_t3839_il2cpp_TypeInfo,
+	&TlsClientFinished_t3840_il2cpp_TypeInfo,
+	&TlsClientHello_t3841_il2cpp_TypeInfo,
+	&TlsClientKeyExchange_t3842_il2cpp_TypeInfo,
+	&TlsServerCertificate_t3843_il2cpp_TypeInfo,
+	&TlsServerCertificateRequest_t3844_il2cpp_TypeInfo,
+	&TlsServerFinished_t3845_il2cpp_TypeInfo,
+	&TlsServerHello_t3846_il2cpp_TypeInfo,
+	&TlsServerHelloDone_t3847_il2cpp_TypeInfo,
+	&TlsServerKeyExchange_t3848_il2cpp_TypeInfo,
+	&PrimalityTest_t3849_il2cpp_TypeInfo,
+	&CertificateValidationCallback_t3824_il2cpp_TypeInfo,
+	&CertificateValidationCallback2_t3825_il2cpp_TypeInfo,
+	&CertificateSelectionCallback_t3810_il2cpp_TypeInfo,
+	&PrivateKeySelectionCallback_t3811_il2cpp_TypeInfo,
+	&U24ArrayTypeU243132_t3851_il2cpp_TypeInfo,
+	&U24ArrayTypeU24256_t3852_il2cpp_TypeInfo,
+	&U24ArrayTypeU2420_t3853_il2cpp_TypeInfo,
+	&U24ArrayTypeU2432_t3854_il2cpp_TypeInfo,
+	&U24ArrayTypeU2448_t3855_il2cpp_TypeInfo,
+	&U24ArrayTypeU2464_t3856_il2cpp_TypeInfo,
+	&U24ArrayTypeU2412_t3857_il2cpp_TypeInfo,
+	&U24ArrayTypeU2416_t3858_il2cpp_TypeInfo,
+	&U24ArrayTypeU244_t3859_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t3860_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
@@ -923,490 +923,490 @@ static const char* s_StringTable[400] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[484] = 
 {
-	{ 0, 90, offsetof(Sign_t3717, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1, 6594, 0, 0 } ,
-	{ 2, 6594, 0, 0 } ,
-	{ 3, 6594, 0, 0 } ,
-	{ 4, 6597, offsetof(ModulusRing_t3719, ___mod_0), 0 } ,
-	{ 5, 6597, offsetof(ModulusRing_t3719, ___constant_1), 0 } ,
-	{ 6, 4885, offsetof(BigInteger_t3718, ___length_0), 0 } ,
-	{ 7, 6602, offsetof(BigInteger_t3718, ___data_1), 0 } ,
-	{ 8, 6603, offsetof(BigInteger_t3718_StaticFields, ___smallPrimes_2), 0 } ,
-	{ 9, 6604, offsetof(BigInteger_t3718_StaticFields, ___rng_3), 0 } ,
-	{ 0, 90, offsetof(ConfidenceFactor_t3722, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 10, 6606, 0, 0 } ,
-	{ 11, 6606, 0, 0 } ,
-	{ 12, 6606, 0, 0 } ,
-	{ 13, 6606, 0, 0 } ,
-	{ 14, 6606, 0, 0 } ,
-	{ 15, 6606, 0, 0 } ,
-	{ 16, 6615, offsetof(ASN1_t3726, ___m_nTag_0), 0 } ,
-	{ 17, 833, offsetof(ASN1_t3726, ___m_aValue_1), 0 } ,
-	{ 18, 5582, offsetof(ASN1_t3726, ___elist_2), 0 } ,
-	{ 19, 99, offsetof(ContentInfo_t3729, ___contentType_0), 0 } ,
-	{ 20, 6622, offsetof(ContentInfo_t3729, ___content_1), 0 } ,
-	{ 21, 6615, offsetof(EncryptedData_t3730, ____version_0), 0 } ,
-	{ 22, 6625, offsetof(EncryptedData_t3730, ____content_1), 0 } ,
-	{ 23, 6625, offsetof(EncryptedData_t3730, ____encryptionAlgorithm_2), 0 } ,
-	{ 24, 833, offsetof(EncryptedData_t3730, ____encrypted_3), 0 } ,
-	{ 25, 833, offsetof(ARC4Managed_t3732, ___key_12), 0 } ,
-	{ 26, 833, offsetof(ARC4Managed_t3732, ___state_13), 0 } ,
-	{ 27, 6615, offsetof(ARC4Managed_t3732, ___x_14), 0 } ,
-	{ 28, 6615, offsetof(ARC4Managed_t3732, ___y_15), 0 } ,
-	{ 29, 100, offsetof(ARC4Managed_t3732, ___m_disposed_16), 0 } ,
-	{ 9, 6604, offsetof(KeyBuilder_t3735_StaticFields, ___rng_0), 0 } ,
-	{ 26, 833, offsetof(MD2Managed_t3738, ___state_4), 0 } ,
-	{ 30, 833, offsetof(MD2Managed_t3738, ___checksum_5), 0 } ,
-	{ 31, 833, offsetof(MD2Managed_t3738, ___buffer_6), 0 } ,
-	{ 32, 110, offsetof(MD2Managed_t3738, ___count_7), 0 } ,
-	{ 27, 833, offsetof(MD2Managed_t3738, ___x_8), 0 } ,
-	{ 33, 5663, offsetof(MD2Managed_t3738_StaticFields, ___PI_SUBST_9), 0 } ,
-	{ 34, 4679, offsetof(PKCS1_t3739_StaticFields, ___emptySHA1_0), 0 } ,
-	{ 35, 4679, offsetof(PKCS1_t3739_StaticFields, ___emptySHA256_1), 0 } ,
-	{ 36, 4679, offsetof(PKCS1_t3739_StaticFields, ___emptySHA384_2), 0 } ,
-	{ 37, 4679, offsetof(PKCS1_t3739_StaticFields, ___emptySHA512_3), 0 } ,
-	{ 21, 110, offsetof(PrivateKeyInfo_t3740, ____version_0), 0 } ,
-	{ 38, 99, offsetof(PrivateKeyInfo_t3740, ____algorithm_1), 0 } ,
-	{ 39, 833, offsetof(PrivateKeyInfo_t3740, ____key_2), 0 } ,
-	{ 40, 5582, offsetof(PrivateKeyInfo_t3740, ____list_3), 0 } ,
-	{ 38, 99, offsetof(EncryptedPrivateKeyInfo_t3741, ____algorithm_0), 0 } ,
-	{ 41, 833, offsetof(EncryptedPrivateKeyInfo_t3741, ____salt_1), 0 } ,
-	{ 42, 110, offsetof(EncryptedPrivateKeyInfo_t3741, ____iterations_2), 0 } ,
-	{ 43, 833, offsetof(EncryptedPrivateKeyInfo_t3741, ____data_3), 0 } ,
-	{ 44, 6640, offsetof(RC4_t3733_StaticFields, ___s_legalBlockSizes_10), 0 } ,
-	{ 45, 6640, offsetof(RC4_t3733_StaticFields, ___s_legalKeySizes_11), 0 } ,
-	{ 46, 100, offsetof(RSAManaged_t3746, ___isCRTpossible_2), 0 } ,
-	{ 47, 100, offsetof(RSAManaged_t3746, ___keyBlinding_3), 0 } ,
-	{ 48, 100, offsetof(RSAManaged_t3746, ___keypairGenerated_4), 0 } ,
-	{ 29, 100, offsetof(RSAManaged_t3746, ___m_disposed_5), 0 } ,
-	{ 49, 6597, offsetof(RSAManaged_t3746, ___d_6), 0 } ,
-	{ 50, 6597, offsetof(RSAManaged_t3746, ___p_7), 0 } ,
-	{ 51, 6597, offsetof(RSAManaged_t3746, ___q_8), 0 } ,
-	{ 52, 6597, offsetof(RSAManaged_t3746, ___dp_9), 0 } ,
-	{ 53, 6597, offsetof(RSAManaged_t3746, ___dq_10), 0 } ,
-	{ 54, 6597, offsetof(RSAManaged_t3746, ___qInv_11), 0 } ,
-	{ 55, 6597, offsetof(RSAManaged_t3746, ___n_12), 0 } ,
-	{ 56, 6597, offsetof(RSAManaged_t3746, ___e_13), 0 } ,
-	{ 57, 6645, offsetof(RSAManaged_t3746, ___KeyGenerated_14), 0 } ,
-	{ 58, 99, offsetof(SafeBag_t3748, ____bagOID_0), 0 } ,
-	{ 59, 6622, offsetof(SafeBag_t3748, ____asn1_1), 0 } ,
-	{ 60, 4679, offsetof(DeriveBytes_t3749_StaticFields, ___keyDiversifier_0), 0 } ,
-	{ 61, 4679, offsetof(DeriveBytes_t3749_StaticFields, ___ivDiversifier_1), 0 } ,
-	{ 62, 4679, offsetof(DeriveBytes_t3749_StaticFields, ___macDiversifier_2), 0 } ,
-	{ 63, 99, offsetof(DeriveBytes_t3749, ____hashName_3), 0 } ,
-	{ 42, 110, offsetof(DeriveBytes_t3749, ____iterations_4), 0 } ,
-	{ 64, 833, offsetof(DeriveBytes_t3749, ____password_5), 0 } ,
-	{ 41, 833, offsetof(DeriveBytes_t3749, ____salt_6), 0 } ,
-	{ 65, 807, offsetof(PKCS12_t3751_StaticFields, ___recommendedIterationCount_0), 0 } ,
-	{ 64, 833, offsetof(PKCS12_t3751, ____password_1), 0 } ,
-	{ 66, 5582, offsetof(PKCS12_t3751, ____keyBags_2), 0 } ,
-	{ 67, 5582, offsetof(PKCS12_t3751, ____secretBags_3), 0 } ,
-	{ 68, 6649, offsetof(PKCS12_t3751, ____certs_4), 0 } ,
-	{ 69, 100, offsetof(PKCS12_t3751, ____keyBagsChanged_5), 0 } ,
-	{ 70, 100, offsetof(PKCS12_t3751, ____secretBagsChanged_6), 0 } ,
-	{ 71, 100, offsetof(PKCS12_t3751, ____certsChanged_7), 0 } ,
-	{ 42, 110, offsetof(PKCS12_t3751, ____iterations_8), 0 } ,
-	{ 72, 5582, offsetof(PKCS12_t3751, ____safeBags_9), 0 } ,
-	{ 73, 807, offsetof(PKCS12_t3751_StaticFields, ___password_max_length_10), 0 } ,
-	{ 74, 910, offsetof(PKCS12_t3751_StaticFields, ___U3CU3Ef__switchU24map5_11), 15 } ,
-	{ 75, 910, offsetof(PKCS12_t3751_StaticFields, ___U3CU3Ef__switchU24map6_12), 16 } ,
-	{ 76, 910, offsetof(PKCS12_t3751_StaticFields, ___U3CU3Ef__switchU24map7_13), 17 } ,
-	{ 77, 910, offsetof(PKCS12_t3751_StaticFields, ___U3CU3Ef__switchU24map8_14), 18 } ,
-	{ 78, 4679, offsetof(X501_t3752_StaticFields, ___countryName_0), 0 } ,
-	{ 79, 4679, offsetof(X501_t3752_StaticFields, ___organizationName_1), 0 } ,
-	{ 80, 4679, offsetof(X501_t3752_StaticFields, ___organizationalUnitName_2), 0 } ,
-	{ 81, 4679, offsetof(X501_t3752_StaticFields, ___commonName_3), 0 } ,
-	{ 82, 4679, offsetof(X501_t3752_StaticFields, ___localityName_4), 0 } ,
-	{ 83, 4679, offsetof(X501_t3752_StaticFields, ___stateOrProvinceName_5), 0 } ,
-	{ 84, 4679, offsetof(X501_t3752_StaticFields, ___streetAddress_6), 0 } ,
-	{ 85, 4679, offsetof(X501_t3752_StaticFields, ___domainComponent_7), 0 } ,
-	{ 86, 4679, offsetof(X501_t3752_StaticFields, ___userid_8), 0 } ,
-	{ 87, 4679, offsetof(X501_t3752_StaticFields, ___email_9), 0 } ,
-	{ 88, 4679, offsetof(X501_t3752_StaticFields, ___dnQualifier_10), 0 } ,
-	{ 89, 4679, offsetof(X501_t3752_StaticFields, ___title_11), 0 } ,
-	{ 90, 4679, offsetof(X501_t3752_StaticFields, ___surname_12), 0 } ,
-	{ 91, 4679, offsetof(X501_t3752_StaticFields, ___givenName_13), 0 } ,
-	{ 92, 4679, offsetof(X501_t3752_StaticFields, ___initial_14), 0 } ,
-	{ 93, 6622, offsetof(X509Certificate_t3755, ___decoder_0), 0 } ,
-	{ 94, 833, offsetof(X509Certificate_t3755, ___m_encodedcert_1), 0 } ,
-	{ 95, 1201, offsetof(X509Certificate_t3755, ___m_from_2), 0 } ,
-	{ 96, 1201, offsetof(X509Certificate_t3755, ___m_until_3), 0 } ,
-	{ 97, 6622, offsetof(X509Certificate_t3755, ___issuer_4), 0 } ,
-	{ 98, 99, offsetof(X509Certificate_t3755, ___m_issuername_5), 0 } ,
-	{ 99, 99, offsetof(X509Certificate_t3755, ___m_keyalgo_6), 0 } ,
-	{ 100, 833, offsetof(X509Certificate_t3755, ___m_keyalgoparams_7), 0 } ,
-	{ 101, 6622, offsetof(X509Certificate_t3755, ___subject_8), 0 } ,
-	{ 102, 99, offsetof(X509Certificate_t3755, ___m_subject_9), 0 } ,
-	{ 103, 833, offsetof(X509Certificate_t3755, ___m_publickey_10), 0 } ,
-	{ 104, 833, offsetof(X509Certificate_t3755, ___signature_11), 0 } ,
-	{ 105, 99, offsetof(X509Certificate_t3755, ___m_signaturealgo_12), 0 } ,
-	{ 106, 833, offsetof(X509Certificate_t3755, ___m_signaturealgoparams_13), 0 } ,
-	{ 107, 833, offsetof(X509Certificate_t3755, ___certhash_14), 0 } ,
-	{ 108, 6653, offsetof(X509Certificate_t3755, ____rsa_15), 0 } ,
-	{ 109, 6654, offsetof(X509Certificate_t3755, ____dsa_16), 0 } ,
-	{ 110, 110, offsetof(X509Certificate_t3755, ___version_17), 0 } ,
-	{ 111, 833, offsetof(X509Certificate_t3755, ___serialnumber_18), 0 } ,
-	{ 112, 833, offsetof(X509Certificate_t3755, ___issuerUniqueID_19), 0 } ,
-	{ 113, 833, offsetof(X509Certificate_t3755, ___subjectUniqueID_20), 0 } ,
-	{ 114, 6655, offsetof(X509Certificate_t3755, ___extensions_21), 0 } ,
-	{ 115, 1064, offsetof(X509Certificate_t3755_StaticFields, ___encoding_error_22), 0 } ,
-	{ 116, 910, offsetof(X509Certificate_t3755_StaticFields, ___U3CU3Ef__switchU24mapF_23), 19 } ,
-	{ 117, 910, offsetof(X509Certificate_t3755_StaticFields, ___U3CU3Ef__switchU24map10_24), 20 } ,
-	{ 118, 910, offsetof(X509Certificate_t3755_StaticFields, ___U3CU3Ef__switchU24map11_25), 21 } ,
-	{ 119, 1290, offsetof(X509CertificateEnumerator_t3756, ___enumerator_0), 0 } ,
-	{ 120, 6649, offsetof(X509Chain_t3758, ___roots_0), 0 } ,
-	{ 121, 6649, offsetof(X509Chain_t3758, ___certs_1), 0 } ,
-	{ 122, 6661, offsetof(X509Chain_t3758, ____root_2), 0 } ,
-	{ 123, 6649, offsetof(X509Chain_t3758, ____chain_3), 0 } ,
-	{ 124, 6662, offsetof(X509Chain_t3758, ____status_4), 0 } ,
-	{ 0, 90, offsetof(X509ChainStatusFlags_t3759, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 125, 6664, 0, 0 } ,
-	{ 126, 6664, 0, 0 } ,
-	{ 127, 6664, 0, 0 } ,
-	{ 128, 6664, 0, 0 } ,
-	{ 129, 6664, 0, 0 } ,
-	{ 130, 6664, 0, 0 } ,
-	{ 131, 6664, 0, 0 } ,
-	{ 132, 833, offsetof(X509CrlEntry_t3760, ___sn_0), 0 } ,
-	{ 133, 1201, offsetof(X509CrlEntry_t3760, ___revocationDate_1), 0 } ,
-	{ 114, 6655, offsetof(X509CrlEntry_t3760, ___extensions_2), 0 } ,
-	{ 97, 99, offsetof(X509Crl_t3761, ___issuer_0), 0 } ,
-	{ 110, 6615, offsetof(X509Crl_t3761, ___version_1), 0 } ,
-	{ 134, 1201, offsetof(X509Crl_t3761, ___thisUpdate_2), 0 } ,
-	{ 135, 1201, offsetof(X509Crl_t3761, ___nextUpdate_3), 0 } ,
-	{ 136, 5582, offsetof(X509Crl_t3761, ___entries_4), 0 } ,
-	{ 137, 99, offsetof(X509Crl_t3761, ___signatureOID_5), 0 } ,
-	{ 104, 833, offsetof(X509Crl_t3761, ___signature_6), 0 } ,
-	{ 114, 6655, offsetof(X509Crl_t3761, ___extensions_7), 0 } ,
-	{ 138, 833, offsetof(X509Crl_t3761, ___encoded_8), 0 } ,
-	{ 139, 833, offsetof(X509Crl_t3761, ___hash_value_9), 0 } ,
-	{ 140, 910, offsetof(X509Crl_t3761_StaticFields, ___U3CU3Ef__switchU24map13_10), 25 } ,
-	{ 141, 567, offsetof(X509Extension_t3762, ___extnOid_0), 0 } ,
-	{ 142, 1174, offsetof(X509Extension_t3762, ___extnCritical_1), 0 } ,
-	{ 143, 6668, offsetof(X509Extension_t3762, ___extnValue_2), 0 } ,
-	{ 144, 100, offsetof(X509ExtensionCollection_t3754, ___readOnly_1), 0 } ,
-	{ 145, 99, offsetof(X509Store_t3763, ____storePath_0), 0 } ,
-	{ 146, 6649, offsetof(X509Store_t3763, ____certificates_1), 0 } ,
-	{ 147, 5582, offsetof(X509Store_t3763, ____crls_2), 0 } ,
-	{ 148, 100, offsetof(X509Store_t3763, ____crl_3), 0 } ,
-	{ 149, 6672, offsetof(X509StoreManager_t3765_StaticFields, ____userStore_0), 0 } ,
-	{ 150, 6672, offsetof(X509StoreManager_t3765_StaticFields, ____machineStore_1), 0 } ,
-	{ 145, 99, offsetof(X509Stores_t3764, ____storePath_0), 0 } ,
-	{ 151, 6674, offsetof(X509Stores_t3764, ____trusted_1), 0 } ,
-	{ 152, 833, offsetof(AuthorityKeyIdentifierExtension_t3766, ___aki_3), 0 } ,
-	{ 153, 100, offsetof(BasicConstraintsExtension_t3767, ___cA_3), 0 } ,
-	{ 154, 110, offsetof(BasicConstraintsExtension_t3767, ___pathLenConstraint_4), 0 } ,
-	{ 155, 5582, offsetof(ExtendedKeyUsageExtension_t3768, ___keyPurpose_3), 0 } ,
-	{ 156, 910, offsetof(ExtendedKeyUsageExtension_t3768_StaticFields, ___U3CU3Ef__switchU24map14_4), 27 } ,
-	{ 157, 5582, offsetof(GeneralNames_t3769, ___rfc822Name_0), 0 } ,
-	{ 158, 5582, offsetof(GeneralNames_t3769, ___dnsName_1), 0 } ,
-	{ 159, 5582, offsetof(GeneralNames_t3769, ___directoryNames_2), 0 } ,
-	{ 160, 5582, offsetof(GeneralNames_t3769, ___uris_3), 0 } ,
-	{ 161, 5582, offsetof(GeneralNames_t3769, ___ipAddr_4), 0 } ,
-	{ 0, 90, offsetof(KeyUsages_t3770, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 162, 6681, 0, 0 } ,
-	{ 163, 6681, 0, 0 } ,
-	{ 164, 6681, 0, 0 } ,
-	{ 165, 6681, 0, 0 } ,
-	{ 166, 6681, 0, 0 } ,
-	{ 167, 6681, 0, 0 } ,
-	{ 168, 6681, 0, 0 } ,
-	{ 169, 6681, 0, 0 } ,
-	{ 170, 6681, 0, 0 } ,
-	{ 171, 6681, 0, 0 } ,
-	{ 172, 110, offsetof(KeyUsageExtension_t3771, ___kubits_3), 0 } ,
-	{ 0, 90, offsetof(CertTypes_t3772, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 173, 6684, 0, 0 } ,
-	{ 174, 6684, 0, 0 } ,
-	{ 175, 6684, 0, 0 } ,
-	{ 176, 6684, 0, 0 } ,
-	{ 177, 6684, 0, 0 } ,
-	{ 178, 6684, 0, 0 } ,
-	{ 179, 6684, 0, 0 } ,
-	{ 180, 110, offsetof(NetscapeCertTypeExtension_t3773, ___ctbits_3), 0 } ,
-	{ 181, 6687, offsetof(SubjectAltNameExtension_t3774, ____names_3), 0 } ,
-	{ 182, 6689, offsetof(HMAC_t3775, ___hash_5), 0 } ,
-	{ 183, 100, offsetof(HMAC_t3775, ___hashing_6), 0 } ,
-	{ 184, 833, offsetof(HMAC_t3775, ___innerPad_7), 0 } ,
-	{ 185, 833, offsetof(HMAC_t3775, ___outerPad_8), 0 } ,
-	{ 186, 6689, offsetof(MD5SHA1_t3777, ___md5_4), 0 } ,
-	{ 187, 6689, offsetof(MD5SHA1_t3777, ___sha_5), 0 } ,
-	{ 183, 100, offsetof(MD5SHA1_t3777, ___hashing_6), 0 } ,
-	{ 0, 5086, offsetof(AlertLevel_t3778, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 188, 6693, 0, 0 } ,
-	{ 189, 6693, 0, 0 } ,
-	{ 0, 5086, offsetof(AlertDescription_t3779, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 190, 6696, 0, 0 } ,
-	{ 191, 6696, 0, 0 } ,
-	{ 192, 6696, 0, 0 } ,
-	{ 193, 6696, 0, 0 } ,
-	{ 194, 6696, 0, 0 } ,
-	{ 195, 6696, 0, 0 } ,
-	{ 196, 6696, 0, 0 } ,
-	{ 197, 6696, 0, 0 } ,
-	{ 198, 6696, 0, 0 } ,
-	{ 199, 6696, 0, 0 } ,
-	{ 200, 6696, 0, 0 } ,
-	{ 201, 6696, 0, 0 } ,
-	{ 202, 6696, 0, 0 } ,
-	{ 203, 6696, 0, 0 } ,
-	{ 204, 6696, 0, 0 } ,
-	{ 205, 6696, 0, 0 } ,
-	{ 206, 6696, 0, 0 } ,
-	{ 207, 6696, 0, 0 } ,
-	{ 208, 6696, 0, 0 } ,
-	{ 209, 6696, 0, 0 } ,
-	{ 210, 6696, 0, 0 } ,
-	{ 211, 6696, 0, 0 } ,
-	{ 212, 6696, 0, 0 } ,
-	{ 213, 6696, 0, 0 } ,
-	{ 214, 6699, offsetof(Alert_t3780, ___level_0), 0 } ,
-	{ 215, 6700, offsetof(Alert_t3780, ___description_1), 0 } ,
-	{ 0, 90, offsetof(CipherAlgorithmType_t3781, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 216, 6702, 0, 0 } ,
-	{ 217, 6702, 0, 0 } ,
-	{ 218, 6702, 0, 0 } ,
-	{ 219, 6702, 0, 0 } ,
-	{ 220, 6702, 0, 0 } ,
-	{ 221, 6702, 0, 0 } ,
-	{ 222, 6702, 0, 0 } ,
-	{ 223, 6709, offsetof(CipherSuite_t3784_StaticFields, ___EmptyArray_0), 0 } ,
-	{ 224, 6710, offsetof(CipherSuite_t3784, ___code_1), 0 } ,
-	{ 225, 99, offsetof(CipherSuite_t3784, ___name_2), 0 } ,
-	{ 226, 6711, offsetof(CipherSuite_t3784, ___cipherAlgorithmType_3), 0 } ,
-	{ 227, 6712, offsetof(CipherSuite_t3784, ___hashAlgorithmType_4), 0 } ,
-	{ 228, 6713, offsetof(CipherSuite_t3784, ___exchangeAlgorithmType_5), 0 } ,
-	{ 229, 100, offsetof(CipherSuite_t3784, ___isExportable_6), 0 } ,
-	{ 230, 6714, offsetof(CipherSuite_t3784, ___cipherMode_7), 0 } ,
-	{ 231, 6615, offsetof(CipherSuite_t3784, ___keyMaterialSize_8), 0 } ,
-	{ 232, 110, offsetof(CipherSuite_t3784, ___keyBlockSize_9), 0 } ,
-	{ 233, 6615, offsetof(CipherSuite_t3784, ___expandedKeyMaterialSize_10), 0 } ,
-	{ 234, 6710, offsetof(CipherSuite_t3784, ___effectiveKeyBits_11), 0 } ,
-	{ 235, 6615, offsetof(CipherSuite_t3784, ___ivSize_12), 0 } ,
-	{ 236, 6615, offsetof(CipherSuite_t3784, ___blockSize_13), 0 } ,
-	{ 237, 6715, offsetof(CipherSuite_t3784, ___context_14), 0 } ,
-	{ 238, 6716, offsetof(CipherSuite_t3784, ___encryptionAlgorithm_15), 0 } ,
-	{ 239, 6717, offsetof(CipherSuite_t3784, ___encryptionCipher_16), 0 } ,
-	{ 240, 6716, offsetof(CipherSuite_t3784, ___decryptionAlgorithm_17), 0 } ,
-	{ 241, 6717, offsetof(CipherSuite_t3784, ___decryptionCipher_18), 0 } ,
-	{ 242, 6718, offsetof(CipherSuite_t3784, ___clientHMAC_19), 0 } ,
-	{ 243, 6718, offsetof(CipherSuite_t3784, ___serverHMAC_20), 0 } ,
-	{ 244, 5582, offsetof(CipherSuiteCollection_t3785, ___cipherSuites_0), 0 } ,
-	{ 245, 6721, offsetof(CipherSuiteCollection_t3785, ___protocol_1), 0 } ,
-	{ 246, 6726, offsetof(ClientContext_t3788, ___sslStream_30), 0 } ,
-	{ 247, 6710, offsetof(ClientContext_t3788, ___clientHelloProtocol_31), 0 } ,
-	{ 248, 6730, offsetof(ClientSessionInfo_t3791_StaticFields, ___ValidityInterval_0), 0 } ,
-	{ 249, 100, offsetof(ClientSessionInfo_t3791, ___disposed_1), 0 } ,
-	{ 250, 1201, offsetof(ClientSessionInfo_t3791, ___validuntil_2), 0 } ,
-	{ 251, 99, offsetof(ClientSessionInfo_t3791, ___host_3), 0 } ,
-	{ 252, 833, offsetof(ClientSessionInfo_t3791, ___sid_4), 0 } ,
-	{ 253, 833, offsetof(ClientSessionInfo_t3791, ___masterSecret_5), 0 } ,
-	{ 254, 6732, offsetof(ClientSessionCache_t3792_StaticFields, ___cache_0), 0 } ,
-	{ 255, 3622, offsetof(ClientSessionCache_t3792_StaticFields, ___locker_1), 0 } ,
-	{ 0, 5086, offsetof(ContentType_t3793, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 256, 6734, 0, 0 } ,
-	{ 257, 6734, 0, 0 } ,
-	{ 258, 6734, 0, 0 } ,
-	{ 259, 6734, 0, 0 } ,
-	{ 260, 6721, offsetof(Context_t3782, ___securityProtocol_0), 0 } ,
-	{ 261, 833, offsetof(Context_t3782, ___sessionId_1), 0 } ,
-	{ 262, 6738, offsetof(Context_t3782, ___compressionMethod_2), 0 } ,
-	{ 263, 6739, offsetof(Context_t3782, ___serverSettings_3), 0 } ,
-	{ 264, 6740, offsetof(Context_t3782, ___clientSettings_4), 0 } ,
-	{ 265, 6741, offsetof(Context_t3782, ___current_5), 0 } ,
-	{ 266, 6741, offsetof(Context_t3782, ___negotiating_6), 0 } ,
-	{ 267, 6741, offsetof(Context_t3782, ___read_7), 0 } ,
-	{ 268, 6741, offsetof(Context_t3782, ___write_8), 0 } ,
-	{ 269, 6742, offsetof(Context_t3782, ___supportedCiphers_9), 0 } ,
-	{ 270, 6743, offsetof(Context_t3782, ___lastHandshakeMsg_10), 0 } ,
-	{ 271, 6744, offsetof(Context_t3782, ___handshakeState_11), 0 } ,
-	{ 272, 100, offsetof(Context_t3782, ___abbreviatedHandshake_12), 0 } ,
-	{ 273, 100, offsetof(Context_t3782, ___receivedConnectionEnd_13), 0 } ,
-	{ 274, 100, offsetof(Context_t3782, ___sentConnectionEnd_14), 0 } ,
-	{ 275, 100, offsetof(Context_t3782, ___protocolNegotiated_15), 0 } ,
-	{ 276, 6745, offsetof(Context_t3782, ___writeSequenceNumber_16), 0 } ,
-	{ 277, 6745, offsetof(Context_t3782, ___readSequenceNumber_17), 0 } ,
-	{ 278, 833, offsetof(Context_t3782, ___clientRandom_18), 0 } ,
-	{ 279, 833, offsetof(Context_t3782, ___serverRandom_19), 0 } ,
-	{ 280, 833, offsetof(Context_t3782, ___randomCS_20), 0 } ,
-	{ 281, 833, offsetof(Context_t3782, ___randomSC_21), 0 } ,
-	{ 253, 833, offsetof(Context_t3782, ___masterSecret_22), 0 } ,
-	{ 282, 833, offsetof(Context_t3782, ___clientWriteKey_23), 0 } ,
-	{ 283, 833, offsetof(Context_t3782, ___serverWriteKey_24), 0 } ,
-	{ 284, 833, offsetof(Context_t3782, ___clientWriteIV_25), 0 } ,
-	{ 285, 833, offsetof(Context_t3782, ___serverWriteIV_26), 0 } ,
-	{ 286, 6746, offsetof(Context_t3782, ___handshakeMessages_27), 0 } ,
-	{ 287, 6747, offsetof(Context_t3782, ___random_28), 0 } ,
-	{ 288, 6748, offsetof(Context_t3782, ___recordProtocol_29), 0 } ,
-	{ 0, 90, offsetof(ExchangeAlgorithmType_t3798, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 289, 6750, 0, 0 } ,
-	{ 290, 6750, 0, 0 } ,
-	{ 217, 6750, 0, 0 } ,
-	{ 291, 6750, 0, 0 } ,
-	{ 292, 6750, 0, 0 } ,
-	{ 0, 90, offsetof(HandshakeState_t3799, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 217, 6752, 0, 0 } ,
-	{ 293, 6752, 0, 0 } ,
-	{ 294, 6752, 0, 0 } ,
-	{ 0, 90, offsetof(HashAlgorithmType_t3800, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 295, 6754, 0, 0 } ,
-	{ 217, 6754, 0, 0 } ,
-	{ 296, 6754, 0, 0 } ,
-	{ 297, 6757, offsetof(HttpsClientStream_t3804, ____request_20), 0 } ,
-	{ 124, 110, offsetof(HttpsClientStream_t3804, ____status_21), 0 } ,
-	{ 298, 6758, offsetof(HttpsClientStream_t3804_StaticFields, ___U3CU3Ef__amU24cache2_22), 31 } ,
-	{ 299, 6759, offsetof(HttpsClientStream_t3804_StaticFields, ___U3CU3Ef__amU24cache3_23), 32 } ,
-	{ 255, 612, offsetof(ReceiveRecordAsyncResult_t3805, ___locker_0), 0 } ,
-	{ 300, 6762, offsetof(ReceiveRecordAsyncResult_t3805, ____userCallback_1), 0 } ,
-	{ 301, 612, offsetof(ReceiveRecordAsyncResult_t3805, ____userState_2), 0 } ,
-	{ 302, 3294, offsetof(ReceiveRecordAsyncResult_t3805, ____asyncException_3), 0 } ,
-	{ 303, 6763, offsetof(ReceiveRecordAsyncResult_t3805, ___handle_4), 0 } ,
-	{ 304, 833, offsetof(ReceiveRecordAsyncResult_t3805, ____resultingBuffer_5), 0 } ,
-	{ 305, 3703, offsetof(ReceiveRecordAsyncResult_t3805, ____record_6), 0 } ,
-	{ 306, 100, offsetof(ReceiveRecordAsyncResult_t3805, ___completed_7), 0 } ,
-	{ 307, 833, offsetof(ReceiveRecordAsyncResult_t3805, ____initialBuffer_8), 0 } ,
-	{ 255, 612, offsetof(SendRecordAsyncResult_t3807, ___locker_0), 0 } ,
-	{ 300, 6762, offsetof(SendRecordAsyncResult_t3807, ____userCallback_1), 0 } ,
-	{ 301, 612, offsetof(SendRecordAsyncResult_t3807, ____userState_2), 0 } ,
-	{ 302, 3294, offsetof(SendRecordAsyncResult_t3807, ____asyncException_3), 0 } ,
-	{ 303, 6763, offsetof(SendRecordAsyncResult_t3807, ___handle_4), 0 } ,
-	{ 308, 6765, offsetof(SendRecordAsyncResult_t3807, ____message_5), 0 } ,
-	{ 306, 100, offsetof(SendRecordAsyncResult_t3807, ___completed_6), 0 } ,
-	{ 309, 6767, offsetof(RecordProtocol_t3790_StaticFields, ___record_processing_0), 0 } ,
-	{ 310, 6768, offsetof(RecordProtocol_t3790, ___innerStream_1), 0 } ,
-	{ 237, 6769, offsetof(RecordProtocol_t3790, ___context_2), 0 } ,
-	{ 25, 6653, offsetof(RSASslSignatureDeformatter_t3808, ___key_0), 0 } ,
-	{ 182, 6689, offsetof(RSASslSignatureDeformatter_t3808, ___hash_1), 0 } ,
-	{ 311, 910, offsetof(RSASslSignatureDeformatter_t3808_StaticFields, ___U3CU3Ef__switchU24map15_2), 35 } ,
-	{ 25, 6653, offsetof(RSASslSignatureFormatter_t3810, ___key_0), 0 } ,
-	{ 182, 6689, offsetof(RSASslSignatureFormatter_t3810, ___hash_1), 0 } ,
-	{ 312, 910, offsetof(RSASslSignatureFormatter_t3810_StaticFields, ___U3CU3Ef__switchU24map16_2), 36 } ,
-	{ 0, 90, offsetof(SecurityCompressionType_t3812, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 217, 6775, 0, 0 } ,
-	{ 313, 6775, 0, 0 } ,
-	{ 314, 6777, offsetof(SecurityParameters_t3796, ___cipher_0), 0 } ,
-	{ 315, 833, offsetof(SecurityParameters_t3796, ___clientWriteMAC_1), 0 } ,
-	{ 316, 833, offsetof(SecurityParameters_t3796, ___serverWriteMAC_2), 0 } ,
-	{ 0, 90, offsetof(SecurityProtocolType_t3813, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 317, 6779, 0, 0 } ,
-	{ 318, 6779, 0, 0 } ,
-	{ 319, 6779, 0, 0 } ,
-	{ 320, 6779, 0, 0 } ,
-	{ 321, 100, offsetof(ValidationResult_t3815, ___trusted_0), 0 } ,
-	{ 322, 100, offsetof(ValidationResult_t3815, ___user_denied_1), 0 } ,
-	{ 323, 110, offsetof(ValidationResult_t3815, ___error_code_2), 0 } ,
-	{ 324, 6784, offsetof(SslClientStream_t3787, ___ServerCertValidation_16), 0 } ,
-	{ 325, 6785, offsetof(SslClientStream_t3787, ___ClientCertSelection_17), 0 } ,
-	{ 326, 6786, offsetof(SslClientStream_t3787, ___PrivateKeySelection_18), 0 } ,
-	{ 327, 6787, offsetof(SslClientStream_t3787, ___ServerCertValidation2_19), 0 } ,
-	{ 328, 833, offsetof(SslCipherSuite_t3819, ___pad1_21), 0 } ,
-	{ 329, 833, offsetof(SslCipherSuite_t3819, ___pad2_22), 0 } ,
-	{ 330, 833, offsetof(SslCipherSuite_t3819, ___header_23), 0 } ,
-	{ 186, 6689, offsetof(SslHandshakeHash_t3820, ___md5_4), 0 } ,
-	{ 187, 6689, offsetof(SslHandshakeHash_t3820, ___sha_5), 0 } ,
-	{ 183, 100, offsetof(SslHandshakeHash_t3820, ___hashing_6), 0 } ,
-	{ 331, 833, offsetof(SslHandshakeHash_t3820, ___secret_7), 0 } ,
-	{ 332, 833, offsetof(SslHandshakeHash_t3820, ___innerPadMD5_8), 0 } ,
-	{ 333, 833, offsetof(SslHandshakeHash_t3820, ___outerPadMD5_9), 0 } ,
-	{ 334, 833, offsetof(SslHandshakeHash_t3820, ___innerPadSHA_10), 0 } ,
-	{ 335, 833, offsetof(SslHandshakeHash_t3820, ___outerPadSHA_11), 0 } ,
-	{ 255, 612, offsetof(InternalAsyncResult_t3821, ___locker_0), 0 } ,
-	{ 300, 6762, offsetof(InternalAsyncResult_t3821, ____userCallback_1), 0 } ,
-	{ 301, 612, offsetof(InternalAsyncResult_t3821, ____userState_2), 0 } ,
-	{ 302, 3294, offsetof(InternalAsyncResult_t3821, ____asyncException_3), 0 } ,
-	{ 303, 6763, offsetof(InternalAsyncResult_t3821, ___handle_4), 0 } ,
-	{ 306, 100, offsetof(InternalAsyncResult_t3821, ___completed_5), 0 } ,
-	{ 336, 110, offsetof(InternalAsyncResult_t3821, ____bytesRead_6), 0 } ,
-	{ 337, 100, offsetof(InternalAsyncResult_t3821, ____fromWrite_7), 0 } ,
-	{ 338, 100, offsetof(InternalAsyncResult_t3821, ____proceedAfterHandshake_8), 0 } ,
-	{ 339, 833, offsetof(InternalAsyncResult_t3821, ____buffer_9), 0 } ,
-	{ 340, 110, offsetof(InternalAsyncResult_t3821, ____offset_10), 0 } ,
-	{ 341, 110, offsetof(InternalAsyncResult_t3821, ____count_11), 0 } ,
-	{ 342, 832, 0, 0 } ,
-	{ 309, 6767, offsetof(SslStreamBase_t3818_StaticFields, ___record_processing_2), 0 } ,
-	{ 310, 6792, offsetof(SslStreamBase_t3818, ___innerStream_3), 0 } ,
-	{ 343, 6793, offsetof(SslStreamBase_t3818, ___inputBuffer_4), 0 } ,
-	{ 237, 6794, offsetof(SslStreamBase_t3818, ___context_5), 0 } ,
-	{ 245, 6795, offsetof(SslStreamBase_t3818, ___protocol_6), 0 } ,
-	{ 344, 2066, offsetof(SslStreamBase_t3818, ___ownsStream_7), 0 } ,
-	{ 249, 100, offsetof(SslStreamBase_t3818, ___disposed_8), 0 } ,
-	{ 345, 100, offsetof(SslStreamBase_t3818, ___checkCertRevocationStatus_9), 0 } ,
-	{ 346, 612, offsetof(SslStreamBase_t3818, ___negotiate_10), 0 } ,
-	{ 267, 612, offsetof(SslStreamBase_t3818, ___read_11), 0 } ,
-	{ 268, 612, offsetof(SslStreamBase_t3818, ___write_12), 0 } ,
-	{ 347, 6763, offsetof(SslStreamBase_t3818, ___negotiationComplete_13), 0 } ,
-	{ 348, 833, offsetof(SslStreamBase_t3818, ___recbuf_14), 0 } ,
-	{ 349, 6796, offsetof(SslStreamBase_t3818, ___recordStream_15), 0 } ,
-	{ 330, 833, offsetof(TlsCipherSuite_t3822, ___header_21), 0 } ,
-	{ 350, 612, offsetof(TlsCipherSuite_t3822, ___headerLock_22), 0 } ,
-	{ 351, 99, offsetof(TlsClientSettings_t3795, ___targetHost_0), 0 } ,
-	{ 352, 6799, offsetof(TlsClientSettings_t3795, ___certificates_1), 0 } ,
-	{ 353, 6800, offsetof(TlsClientSettings_t3795, ___clientCertificate_2), 0 } ,
-	{ 354, 6801, offsetof(TlsClientSettings_t3795, ___certificateRSA_3), 0 } ,
-	{ 355, 6803, offsetof(TlsException_t3825, ___alert_11), 0 } ,
-	{ 352, 6649, offsetof(TlsServerSettings_t3794, ___certificates_0), 0 } ,
-	{ 354, 6653, offsetof(TlsServerSettings_t3794, ___certificateRSA_1), 0 } ,
-	{ 356, 6805, offsetof(TlsServerSettings_t3794, ___rsaParameters_2), 0 } ,
-	{ 357, 833, offsetof(TlsServerSettings_t3794, ___signedParams_3), 0 } ,
-	{ 358, 582, offsetof(TlsServerSettings_t3794, ___distinguisedNames_4), 0 } ,
-	{ 359, 100, offsetof(TlsServerSettings_t3794, ___serverKeyExchange_5), 0 } ,
-	{ 360, 100, offsetof(TlsServerSettings_t3794, ___certificateRequest_6), 0 } ,
-	{ 361, 6806, offsetof(TlsServerSettings_t3794, ___certificateTypes_7), 0 } ,
-	{ 362, 100, offsetof(TlsStream_t3797, ___canRead_1), 0 } ,
-	{ 363, 100, offsetof(TlsStream_t3797, ___canWrite_2), 0 } ,
-	{ 31, 6796, offsetof(TlsStream_t3797, ___buffer_3), 0 } ,
-	{ 364, 833, offsetof(TlsStream_t3797, ___temp_4), 0 } ,
-	{ 0, 90, offsetof(ClientCertificateType_t3828, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 365, 6809, 0, 0 } ,
-	{ 366, 6809, 0, 0 } ,
-	{ 367, 6809, 0, 0 } ,
-	{ 368, 6809, 0, 0 } ,
-	{ 369, 6809, 0, 0 } ,
-	{ 237, 6715, offsetof(HandshakeMessage_t3806, ___context_5), 0 } ,
-	{ 370, 6743, offsetof(HandshakeMessage_t3806, ___handshakeType_6), 0 } ,
-	{ 19, 6811, offsetof(HandshakeMessage_t3806, ___contentType_7), 0 } ,
-	{ 254, 833, offsetof(HandshakeMessage_t3806, ___cache_8), 0 } ,
-	{ 0, 5086, offsetof(HandshakeType_t3829, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 371, 6813, 0, 0 } ,
-	{ 372, 6813, 0, 0 } ,
-	{ 373, 6813, 0, 0 } ,
-	{ 374, 6813, 0, 0 } ,
-	{ 375, 6813, 0, 0 } ,
-	{ 376, 6813, 0, 0 } ,
-	{ 377, 6813, 0, 0 } ,
-	{ 378, 6813, 0, 0 } ,
-	{ 379, 6813, 0, 0 } ,
-	{ 294, 6813, 0, 0 } ,
-	{ 217, 6813, 0, 0 } ,
-	{ 380, 100, offsetof(TlsClientCertificate_t3830, ___clientCertSelected_9), 0 } ,
-	{ 381, 6800, offsetof(TlsClientCertificate_t3830, ___clientCert_10), 0 } ,
-	{ 382, 4679, offsetof(TlsClientFinished_t3832_StaticFields, ___Ssl3Marker_9), 0 } ,
-	{ 287, 833, offsetof(TlsClientHello_t3833, ___random_9), 0 } ,
-	{ 352, 6649, offsetof(TlsServerCertificate_t3835, ___certificates_9), 0 } ,
-	{ 361, 6806, offsetof(TlsServerCertificateRequest_t3836, ___certificateTypes_9), 0 } ,
-	{ 358, 582, offsetof(TlsServerCertificateRequest_t3836, ___distinguisedNames_10), 0 } ,
-	{ 382, 4679, offsetof(TlsServerFinished_t3837_StaticFields, ___Ssl3Marker_9), 0 } ,
-	{ 262, 6738, offsetof(TlsServerHello_t3838, ___compressionMethod_9), 0 } ,
-	{ 287, 833, offsetof(TlsServerHello_t3838, ___random_10), 0 } ,
-	{ 261, 833, offsetof(TlsServerHello_t3838, ___sessionId_11), 0 } ,
-	{ 383, 6777, offsetof(TlsServerHello_t3838, ___cipherSuite_12), 0 } ,
-	{ 384, 6805, offsetof(TlsServerKeyExchange_t3840, ___rsaParams_9), 0 } ,
-	{ 357, 833, offsetof(TlsServerKeyExchange_t3840, ___signedParams_10), 0 } ,
-	{ 385, 6849, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D0_0), 0 } ,
-	{ 386, 6850, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D5_1), 0 } ,
-	{ 387, 6851, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D6_2), 0 } ,
-	{ 388, 6852, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D7_3), 0 } ,
-	{ 389, 6853, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D8_4), 0 } ,
-	{ 390, 6854, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D9_5), 0 } ,
-	{ 391, 6854, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D11_6), 0 } ,
-	{ 392, 6854, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D12_7), 0 } ,
-	{ 393, 6854, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D13_8), 0 } ,
-	{ 394, 6855, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D14_9), 0 } ,
-	{ 395, 6855, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D15_10), 0 } ,
-	{ 396, 6855, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D16_11), 0 } ,
-	{ 397, 6856, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D17_12), 0 } ,
-	{ 398, 6857, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D21_13), 0 } ,
-	{ 399, 6857, offsetof(U3CPrivateImplementationDetailsU3E_t3852_StaticFields, ___U24U24fieldU2D22_14), 0 } ,
+	{ 0, 90, offsetof(Sign_t3725, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1, 6612, 0, 0 } ,
+	{ 2, 6612, 0, 0 } ,
+	{ 3, 6612, 0, 0 } ,
+	{ 4, 6615, offsetof(ModulusRing_t3727, ___mod_0), 0 } ,
+	{ 5, 6615, offsetof(ModulusRing_t3727, ___constant_1), 0 } ,
+	{ 6, 4903, offsetof(BigInteger_t3726, ___length_0), 0 } ,
+	{ 7, 6620, offsetof(BigInteger_t3726, ___data_1), 0 } ,
+	{ 8, 6621, offsetof(BigInteger_t3726_StaticFields, ___smallPrimes_2), 0 } ,
+	{ 9, 6622, offsetof(BigInteger_t3726_StaticFields, ___rng_3), 0 } ,
+	{ 0, 90, offsetof(ConfidenceFactor_t3730, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 10, 6624, 0, 0 } ,
+	{ 11, 6624, 0, 0 } ,
+	{ 12, 6624, 0, 0 } ,
+	{ 13, 6624, 0, 0 } ,
+	{ 14, 6624, 0, 0 } ,
+	{ 15, 6624, 0, 0 } ,
+	{ 16, 6633, offsetof(ASN1_t3734, ___m_nTag_0), 0 } ,
+	{ 17, 838, offsetof(ASN1_t3734, ___m_aValue_1), 0 } ,
+	{ 18, 5600, offsetof(ASN1_t3734, ___elist_2), 0 } ,
+	{ 19, 99, offsetof(ContentInfo_t3737, ___contentType_0), 0 } ,
+	{ 20, 6640, offsetof(ContentInfo_t3737, ___content_1), 0 } ,
+	{ 21, 6633, offsetof(EncryptedData_t3738, ____version_0), 0 } ,
+	{ 22, 6643, offsetof(EncryptedData_t3738, ____content_1), 0 } ,
+	{ 23, 6643, offsetof(EncryptedData_t3738, ____encryptionAlgorithm_2), 0 } ,
+	{ 24, 838, offsetof(EncryptedData_t3738, ____encrypted_3), 0 } ,
+	{ 25, 838, offsetof(ARC4Managed_t3740, ___key_12), 0 } ,
+	{ 26, 838, offsetof(ARC4Managed_t3740, ___state_13), 0 } ,
+	{ 27, 6633, offsetof(ARC4Managed_t3740, ___x_14), 0 } ,
+	{ 28, 6633, offsetof(ARC4Managed_t3740, ___y_15), 0 } ,
+	{ 29, 100, offsetof(ARC4Managed_t3740, ___m_disposed_16), 0 } ,
+	{ 9, 6622, offsetof(KeyBuilder_t3743_StaticFields, ___rng_0), 0 } ,
+	{ 26, 838, offsetof(MD2Managed_t3746, ___state_4), 0 } ,
+	{ 30, 838, offsetof(MD2Managed_t3746, ___checksum_5), 0 } ,
+	{ 31, 838, offsetof(MD2Managed_t3746, ___buffer_6), 0 } ,
+	{ 32, 110, offsetof(MD2Managed_t3746, ___count_7), 0 } ,
+	{ 27, 838, offsetof(MD2Managed_t3746, ___x_8), 0 } ,
+	{ 33, 5681, offsetof(MD2Managed_t3746_StaticFields, ___PI_SUBST_9), 0 } ,
+	{ 34, 4697, offsetof(PKCS1_t3747_StaticFields, ___emptySHA1_0), 0 } ,
+	{ 35, 4697, offsetof(PKCS1_t3747_StaticFields, ___emptySHA256_1), 0 } ,
+	{ 36, 4697, offsetof(PKCS1_t3747_StaticFields, ___emptySHA384_2), 0 } ,
+	{ 37, 4697, offsetof(PKCS1_t3747_StaticFields, ___emptySHA512_3), 0 } ,
+	{ 21, 110, offsetof(PrivateKeyInfo_t3748, ____version_0), 0 } ,
+	{ 38, 99, offsetof(PrivateKeyInfo_t3748, ____algorithm_1), 0 } ,
+	{ 39, 838, offsetof(PrivateKeyInfo_t3748, ____key_2), 0 } ,
+	{ 40, 5600, offsetof(PrivateKeyInfo_t3748, ____list_3), 0 } ,
+	{ 38, 99, offsetof(EncryptedPrivateKeyInfo_t3749, ____algorithm_0), 0 } ,
+	{ 41, 838, offsetof(EncryptedPrivateKeyInfo_t3749, ____salt_1), 0 } ,
+	{ 42, 110, offsetof(EncryptedPrivateKeyInfo_t3749, ____iterations_2), 0 } ,
+	{ 43, 838, offsetof(EncryptedPrivateKeyInfo_t3749, ____data_3), 0 } ,
+	{ 44, 6658, offsetof(RC4_t3741_StaticFields, ___s_legalBlockSizes_10), 0 } ,
+	{ 45, 6658, offsetof(RC4_t3741_StaticFields, ___s_legalKeySizes_11), 0 } ,
+	{ 46, 100, offsetof(RSAManaged_t3754, ___isCRTpossible_2), 0 } ,
+	{ 47, 100, offsetof(RSAManaged_t3754, ___keyBlinding_3), 0 } ,
+	{ 48, 100, offsetof(RSAManaged_t3754, ___keypairGenerated_4), 0 } ,
+	{ 29, 100, offsetof(RSAManaged_t3754, ___m_disposed_5), 0 } ,
+	{ 49, 6615, offsetof(RSAManaged_t3754, ___d_6), 0 } ,
+	{ 50, 6615, offsetof(RSAManaged_t3754, ___p_7), 0 } ,
+	{ 51, 6615, offsetof(RSAManaged_t3754, ___q_8), 0 } ,
+	{ 52, 6615, offsetof(RSAManaged_t3754, ___dp_9), 0 } ,
+	{ 53, 6615, offsetof(RSAManaged_t3754, ___dq_10), 0 } ,
+	{ 54, 6615, offsetof(RSAManaged_t3754, ___qInv_11), 0 } ,
+	{ 55, 6615, offsetof(RSAManaged_t3754, ___n_12), 0 } ,
+	{ 56, 6615, offsetof(RSAManaged_t3754, ___e_13), 0 } ,
+	{ 57, 6663, offsetof(RSAManaged_t3754, ___KeyGenerated_14), 0 } ,
+	{ 58, 99, offsetof(SafeBag_t3756, ____bagOID_0), 0 } ,
+	{ 59, 6640, offsetof(SafeBag_t3756, ____asn1_1), 0 } ,
+	{ 60, 4697, offsetof(DeriveBytes_t3757_StaticFields, ___keyDiversifier_0), 0 } ,
+	{ 61, 4697, offsetof(DeriveBytes_t3757_StaticFields, ___ivDiversifier_1), 0 } ,
+	{ 62, 4697, offsetof(DeriveBytes_t3757_StaticFields, ___macDiversifier_2), 0 } ,
+	{ 63, 99, offsetof(DeriveBytes_t3757, ____hashName_3), 0 } ,
+	{ 42, 110, offsetof(DeriveBytes_t3757, ____iterations_4), 0 } ,
+	{ 64, 838, offsetof(DeriveBytes_t3757, ____password_5), 0 } ,
+	{ 41, 838, offsetof(DeriveBytes_t3757, ____salt_6), 0 } ,
+	{ 65, 812, offsetof(PKCS12_t3759_StaticFields, ___recommendedIterationCount_0), 0 } ,
+	{ 64, 838, offsetof(PKCS12_t3759, ____password_1), 0 } ,
+	{ 66, 5600, offsetof(PKCS12_t3759, ____keyBags_2), 0 } ,
+	{ 67, 5600, offsetof(PKCS12_t3759, ____secretBags_3), 0 } ,
+	{ 68, 6667, offsetof(PKCS12_t3759, ____certs_4), 0 } ,
+	{ 69, 100, offsetof(PKCS12_t3759, ____keyBagsChanged_5), 0 } ,
+	{ 70, 100, offsetof(PKCS12_t3759, ____secretBagsChanged_6), 0 } ,
+	{ 71, 100, offsetof(PKCS12_t3759, ____certsChanged_7), 0 } ,
+	{ 42, 110, offsetof(PKCS12_t3759, ____iterations_8), 0 } ,
+	{ 72, 5600, offsetof(PKCS12_t3759, ____safeBags_9), 0 } ,
+	{ 73, 812, offsetof(PKCS12_t3759_StaticFields, ___password_max_length_10), 0 } ,
+	{ 74, 915, offsetof(PKCS12_t3759_StaticFields, ___U3CU3Ef__switchU24map5_11), 15 } ,
+	{ 75, 915, offsetof(PKCS12_t3759_StaticFields, ___U3CU3Ef__switchU24map6_12), 16 } ,
+	{ 76, 915, offsetof(PKCS12_t3759_StaticFields, ___U3CU3Ef__switchU24map7_13), 17 } ,
+	{ 77, 915, offsetof(PKCS12_t3759_StaticFields, ___U3CU3Ef__switchU24map8_14), 18 } ,
+	{ 78, 4697, offsetof(X501_t3760_StaticFields, ___countryName_0), 0 } ,
+	{ 79, 4697, offsetof(X501_t3760_StaticFields, ___organizationName_1), 0 } ,
+	{ 80, 4697, offsetof(X501_t3760_StaticFields, ___organizationalUnitName_2), 0 } ,
+	{ 81, 4697, offsetof(X501_t3760_StaticFields, ___commonName_3), 0 } ,
+	{ 82, 4697, offsetof(X501_t3760_StaticFields, ___localityName_4), 0 } ,
+	{ 83, 4697, offsetof(X501_t3760_StaticFields, ___stateOrProvinceName_5), 0 } ,
+	{ 84, 4697, offsetof(X501_t3760_StaticFields, ___streetAddress_6), 0 } ,
+	{ 85, 4697, offsetof(X501_t3760_StaticFields, ___domainComponent_7), 0 } ,
+	{ 86, 4697, offsetof(X501_t3760_StaticFields, ___userid_8), 0 } ,
+	{ 87, 4697, offsetof(X501_t3760_StaticFields, ___email_9), 0 } ,
+	{ 88, 4697, offsetof(X501_t3760_StaticFields, ___dnQualifier_10), 0 } ,
+	{ 89, 4697, offsetof(X501_t3760_StaticFields, ___title_11), 0 } ,
+	{ 90, 4697, offsetof(X501_t3760_StaticFields, ___surname_12), 0 } ,
+	{ 91, 4697, offsetof(X501_t3760_StaticFields, ___givenName_13), 0 } ,
+	{ 92, 4697, offsetof(X501_t3760_StaticFields, ___initial_14), 0 } ,
+	{ 93, 6640, offsetof(X509Certificate_t3763, ___decoder_0), 0 } ,
+	{ 94, 838, offsetof(X509Certificate_t3763, ___m_encodedcert_1), 0 } ,
+	{ 95, 1206, offsetof(X509Certificate_t3763, ___m_from_2), 0 } ,
+	{ 96, 1206, offsetof(X509Certificate_t3763, ___m_until_3), 0 } ,
+	{ 97, 6640, offsetof(X509Certificate_t3763, ___issuer_4), 0 } ,
+	{ 98, 99, offsetof(X509Certificate_t3763, ___m_issuername_5), 0 } ,
+	{ 99, 99, offsetof(X509Certificate_t3763, ___m_keyalgo_6), 0 } ,
+	{ 100, 838, offsetof(X509Certificate_t3763, ___m_keyalgoparams_7), 0 } ,
+	{ 101, 6640, offsetof(X509Certificate_t3763, ___subject_8), 0 } ,
+	{ 102, 99, offsetof(X509Certificate_t3763, ___m_subject_9), 0 } ,
+	{ 103, 838, offsetof(X509Certificate_t3763, ___m_publickey_10), 0 } ,
+	{ 104, 838, offsetof(X509Certificate_t3763, ___signature_11), 0 } ,
+	{ 105, 99, offsetof(X509Certificate_t3763, ___m_signaturealgo_12), 0 } ,
+	{ 106, 838, offsetof(X509Certificate_t3763, ___m_signaturealgoparams_13), 0 } ,
+	{ 107, 838, offsetof(X509Certificate_t3763, ___certhash_14), 0 } ,
+	{ 108, 6671, offsetof(X509Certificate_t3763, ____rsa_15), 0 } ,
+	{ 109, 6672, offsetof(X509Certificate_t3763, ____dsa_16), 0 } ,
+	{ 110, 110, offsetof(X509Certificate_t3763, ___version_17), 0 } ,
+	{ 111, 838, offsetof(X509Certificate_t3763, ___serialnumber_18), 0 } ,
+	{ 112, 838, offsetof(X509Certificate_t3763, ___issuerUniqueID_19), 0 } ,
+	{ 113, 838, offsetof(X509Certificate_t3763, ___subjectUniqueID_20), 0 } ,
+	{ 114, 6673, offsetof(X509Certificate_t3763, ___extensions_21), 0 } ,
+	{ 115, 1069, offsetof(X509Certificate_t3763_StaticFields, ___encoding_error_22), 0 } ,
+	{ 116, 915, offsetof(X509Certificate_t3763_StaticFields, ___U3CU3Ef__switchU24mapF_23), 19 } ,
+	{ 117, 915, offsetof(X509Certificate_t3763_StaticFields, ___U3CU3Ef__switchU24map10_24), 20 } ,
+	{ 118, 915, offsetof(X509Certificate_t3763_StaticFields, ___U3CU3Ef__switchU24map11_25), 21 } ,
+	{ 119, 1295, offsetof(X509CertificateEnumerator_t3764, ___enumerator_0), 0 } ,
+	{ 120, 6667, offsetof(X509Chain_t3766, ___roots_0), 0 } ,
+	{ 121, 6667, offsetof(X509Chain_t3766, ___certs_1), 0 } ,
+	{ 122, 6679, offsetof(X509Chain_t3766, ____root_2), 0 } ,
+	{ 123, 6667, offsetof(X509Chain_t3766, ____chain_3), 0 } ,
+	{ 124, 6680, offsetof(X509Chain_t3766, ____status_4), 0 } ,
+	{ 0, 90, offsetof(X509ChainStatusFlags_t3767, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 125, 6682, 0, 0 } ,
+	{ 126, 6682, 0, 0 } ,
+	{ 127, 6682, 0, 0 } ,
+	{ 128, 6682, 0, 0 } ,
+	{ 129, 6682, 0, 0 } ,
+	{ 130, 6682, 0, 0 } ,
+	{ 131, 6682, 0, 0 } ,
+	{ 132, 838, offsetof(X509CrlEntry_t3768, ___sn_0), 0 } ,
+	{ 133, 1206, offsetof(X509CrlEntry_t3768, ___revocationDate_1), 0 } ,
+	{ 114, 6673, offsetof(X509CrlEntry_t3768, ___extensions_2), 0 } ,
+	{ 97, 99, offsetof(X509Crl_t3769, ___issuer_0), 0 } ,
+	{ 110, 6633, offsetof(X509Crl_t3769, ___version_1), 0 } ,
+	{ 134, 1206, offsetof(X509Crl_t3769, ___thisUpdate_2), 0 } ,
+	{ 135, 1206, offsetof(X509Crl_t3769, ___nextUpdate_3), 0 } ,
+	{ 136, 5600, offsetof(X509Crl_t3769, ___entries_4), 0 } ,
+	{ 137, 99, offsetof(X509Crl_t3769, ___signatureOID_5), 0 } ,
+	{ 104, 838, offsetof(X509Crl_t3769, ___signature_6), 0 } ,
+	{ 114, 6673, offsetof(X509Crl_t3769, ___extensions_7), 0 } ,
+	{ 138, 838, offsetof(X509Crl_t3769, ___encoded_8), 0 } ,
+	{ 139, 838, offsetof(X509Crl_t3769, ___hash_value_9), 0 } ,
+	{ 140, 915, offsetof(X509Crl_t3769_StaticFields, ___U3CU3Ef__switchU24map13_10), 25 } ,
+	{ 141, 572, offsetof(X509Extension_t3770, ___extnOid_0), 0 } ,
+	{ 142, 1179, offsetof(X509Extension_t3770, ___extnCritical_1), 0 } ,
+	{ 143, 6686, offsetof(X509Extension_t3770, ___extnValue_2), 0 } ,
+	{ 144, 100, offsetof(X509ExtensionCollection_t3762, ___readOnly_1), 0 } ,
+	{ 145, 99, offsetof(X509Store_t3771, ____storePath_0), 0 } ,
+	{ 146, 6667, offsetof(X509Store_t3771, ____certificates_1), 0 } ,
+	{ 147, 5600, offsetof(X509Store_t3771, ____crls_2), 0 } ,
+	{ 148, 100, offsetof(X509Store_t3771, ____crl_3), 0 } ,
+	{ 149, 6690, offsetof(X509StoreManager_t3773_StaticFields, ____userStore_0), 0 } ,
+	{ 150, 6690, offsetof(X509StoreManager_t3773_StaticFields, ____machineStore_1), 0 } ,
+	{ 145, 99, offsetof(X509Stores_t3772, ____storePath_0), 0 } ,
+	{ 151, 6692, offsetof(X509Stores_t3772, ____trusted_1), 0 } ,
+	{ 152, 838, offsetof(AuthorityKeyIdentifierExtension_t3774, ___aki_3), 0 } ,
+	{ 153, 100, offsetof(BasicConstraintsExtension_t3775, ___cA_3), 0 } ,
+	{ 154, 110, offsetof(BasicConstraintsExtension_t3775, ___pathLenConstraint_4), 0 } ,
+	{ 155, 5600, offsetof(ExtendedKeyUsageExtension_t3776, ___keyPurpose_3), 0 } ,
+	{ 156, 915, offsetof(ExtendedKeyUsageExtension_t3776_StaticFields, ___U3CU3Ef__switchU24map14_4), 27 } ,
+	{ 157, 5600, offsetof(GeneralNames_t3777, ___rfc822Name_0), 0 } ,
+	{ 158, 5600, offsetof(GeneralNames_t3777, ___dnsName_1), 0 } ,
+	{ 159, 5600, offsetof(GeneralNames_t3777, ___directoryNames_2), 0 } ,
+	{ 160, 5600, offsetof(GeneralNames_t3777, ___uris_3), 0 } ,
+	{ 161, 5600, offsetof(GeneralNames_t3777, ___ipAddr_4), 0 } ,
+	{ 0, 90, offsetof(KeyUsages_t3778, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 162, 6699, 0, 0 } ,
+	{ 163, 6699, 0, 0 } ,
+	{ 164, 6699, 0, 0 } ,
+	{ 165, 6699, 0, 0 } ,
+	{ 166, 6699, 0, 0 } ,
+	{ 167, 6699, 0, 0 } ,
+	{ 168, 6699, 0, 0 } ,
+	{ 169, 6699, 0, 0 } ,
+	{ 170, 6699, 0, 0 } ,
+	{ 171, 6699, 0, 0 } ,
+	{ 172, 110, offsetof(KeyUsageExtension_t3779, ___kubits_3), 0 } ,
+	{ 0, 90, offsetof(CertTypes_t3780, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 173, 6702, 0, 0 } ,
+	{ 174, 6702, 0, 0 } ,
+	{ 175, 6702, 0, 0 } ,
+	{ 176, 6702, 0, 0 } ,
+	{ 177, 6702, 0, 0 } ,
+	{ 178, 6702, 0, 0 } ,
+	{ 179, 6702, 0, 0 } ,
+	{ 180, 110, offsetof(NetscapeCertTypeExtension_t3781, ___ctbits_3), 0 } ,
+	{ 181, 6705, offsetof(SubjectAltNameExtension_t3782, ____names_3), 0 } ,
+	{ 182, 6707, offsetof(HMAC_t3783, ___hash_5), 0 } ,
+	{ 183, 100, offsetof(HMAC_t3783, ___hashing_6), 0 } ,
+	{ 184, 838, offsetof(HMAC_t3783, ___innerPad_7), 0 } ,
+	{ 185, 838, offsetof(HMAC_t3783, ___outerPad_8), 0 } ,
+	{ 186, 6707, offsetof(MD5SHA1_t3785, ___md5_4), 0 } ,
+	{ 187, 6707, offsetof(MD5SHA1_t3785, ___sha_5), 0 } ,
+	{ 183, 100, offsetof(MD5SHA1_t3785, ___hashing_6), 0 } ,
+	{ 0, 5104, offsetof(AlertLevel_t3786, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 188, 6711, 0, 0 } ,
+	{ 189, 6711, 0, 0 } ,
+	{ 0, 5104, offsetof(AlertDescription_t3787, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 190, 6714, 0, 0 } ,
+	{ 191, 6714, 0, 0 } ,
+	{ 192, 6714, 0, 0 } ,
+	{ 193, 6714, 0, 0 } ,
+	{ 194, 6714, 0, 0 } ,
+	{ 195, 6714, 0, 0 } ,
+	{ 196, 6714, 0, 0 } ,
+	{ 197, 6714, 0, 0 } ,
+	{ 198, 6714, 0, 0 } ,
+	{ 199, 6714, 0, 0 } ,
+	{ 200, 6714, 0, 0 } ,
+	{ 201, 6714, 0, 0 } ,
+	{ 202, 6714, 0, 0 } ,
+	{ 203, 6714, 0, 0 } ,
+	{ 204, 6714, 0, 0 } ,
+	{ 205, 6714, 0, 0 } ,
+	{ 206, 6714, 0, 0 } ,
+	{ 207, 6714, 0, 0 } ,
+	{ 208, 6714, 0, 0 } ,
+	{ 209, 6714, 0, 0 } ,
+	{ 210, 6714, 0, 0 } ,
+	{ 211, 6714, 0, 0 } ,
+	{ 212, 6714, 0, 0 } ,
+	{ 213, 6714, 0, 0 } ,
+	{ 214, 6717, offsetof(Alert_t3788, ___level_0), 0 } ,
+	{ 215, 6718, offsetof(Alert_t3788, ___description_1), 0 } ,
+	{ 0, 90, offsetof(CipherAlgorithmType_t3789, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 216, 6720, 0, 0 } ,
+	{ 217, 6720, 0, 0 } ,
+	{ 218, 6720, 0, 0 } ,
+	{ 219, 6720, 0, 0 } ,
+	{ 220, 6720, 0, 0 } ,
+	{ 221, 6720, 0, 0 } ,
+	{ 222, 6720, 0, 0 } ,
+	{ 223, 6727, offsetof(CipherSuite_t3792_StaticFields, ___EmptyArray_0), 0 } ,
+	{ 224, 6728, offsetof(CipherSuite_t3792, ___code_1), 0 } ,
+	{ 225, 99, offsetof(CipherSuite_t3792, ___name_2), 0 } ,
+	{ 226, 6729, offsetof(CipherSuite_t3792, ___cipherAlgorithmType_3), 0 } ,
+	{ 227, 6730, offsetof(CipherSuite_t3792, ___hashAlgorithmType_4), 0 } ,
+	{ 228, 6731, offsetof(CipherSuite_t3792, ___exchangeAlgorithmType_5), 0 } ,
+	{ 229, 100, offsetof(CipherSuite_t3792, ___isExportable_6), 0 } ,
+	{ 230, 6732, offsetof(CipherSuite_t3792, ___cipherMode_7), 0 } ,
+	{ 231, 6633, offsetof(CipherSuite_t3792, ___keyMaterialSize_8), 0 } ,
+	{ 232, 110, offsetof(CipherSuite_t3792, ___keyBlockSize_9), 0 } ,
+	{ 233, 6633, offsetof(CipherSuite_t3792, ___expandedKeyMaterialSize_10), 0 } ,
+	{ 234, 6728, offsetof(CipherSuite_t3792, ___effectiveKeyBits_11), 0 } ,
+	{ 235, 6633, offsetof(CipherSuite_t3792, ___ivSize_12), 0 } ,
+	{ 236, 6633, offsetof(CipherSuite_t3792, ___blockSize_13), 0 } ,
+	{ 237, 6733, offsetof(CipherSuite_t3792, ___context_14), 0 } ,
+	{ 238, 6734, offsetof(CipherSuite_t3792, ___encryptionAlgorithm_15), 0 } ,
+	{ 239, 6735, offsetof(CipherSuite_t3792, ___encryptionCipher_16), 0 } ,
+	{ 240, 6734, offsetof(CipherSuite_t3792, ___decryptionAlgorithm_17), 0 } ,
+	{ 241, 6735, offsetof(CipherSuite_t3792, ___decryptionCipher_18), 0 } ,
+	{ 242, 6736, offsetof(CipherSuite_t3792, ___clientHMAC_19), 0 } ,
+	{ 243, 6736, offsetof(CipherSuite_t3792, ___serverHMAC_20), 0 } ,
+	{ 244, 5600, offsetof(CipherSuiteCollection_t3793, ___cipherSuites_0), 0 } ,
+	{ 245, 6739, offsetof(CipherSuiteCollection_t3793, ___protocol_1), 0 } ,
+	{ 246, 6744, offsetof(ClientContext_t3796, ___sslStream_30), 0 } ,
+	{ 247, 6728, offsetof(ClientContext_t3796, ___clientHelloProtocol_31), 0 } ,
+	{ 248, 6748, offsetof(ClientSessionInfo_t3799_StaticFields, ___ValidityInterval_0), 0 } ,
+	{ 249, 100, offsetof(ClientSessionInfo_t3799, ___disposed_1), 0 } ,
+	{ 250, 1206, offsetof(ClientSessionInfo_t3799, ___validuntil_2), 0 } ,
+	{ 251, 99, offsetof(ClientSessionInfo_t3799, ___host_3), 0 } ,
+	{ 252, 838, offsetof(ClientSessionInfo_t3799, ___sid_4), 0 } ,
+	{ 253, 838, offsetof(ClientSessionInfo_t3799, ___masterSecret_5), 0 } ,
+	{ 254, 6750, offsetof(ClientSessionCache_t3800_StaticFields, ___cache_0), 0 } ,
+	{ 255, 3640, offsetof(ClientSessionCache_t3800_StaticFields, ___locker_1), 0 } ,
+	{ 0, 5104, offsetof(ContentType_t3801, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 256, 6752, 0, 0 } ,
+	{ 257, 6752, 0, 0 } ,
+	{ 258, 6752, 0, 0 } ,
+	{ 259, 6752, 0, 0 } ,
+	{ 260, 6739, offsetof(Context_t3790, ___securityProtocol_0), 0 } ,
+	{ 261, 838, offsetof(Context_t3790, ___sessionId_1), 0 } ,
+	{ 262, 6756, offsetof(Context_t3790, ___compressionMethod_2), 0 } ,
+	{ 263, 6757, offsetof(Context_t3790, ___serverSettings_3), 0 } ,
+	{ 264, 6758, offsetof(Context_t3790, ___clientSettings_4), 0 } ,
+	{ 265, 6759, offsetof(Context_t3790, ___current_5), 0 } ,
+	{ 266, 6759, offsetof(Context_t3790, ___negotiating_6), 0 } ,
+	{ 267, 6759, offsetof(Context_t3790, ___read_7), 0 } ,
+	{ 268, 6759, offsetof(Context_t3790, ___write_8), 0 } ,
+	{ 269, 6760, offsetof(Context_t3790, ___supportedCiphers_9), 0 } ,
+	{ 270, 6761, offsetof(Context_t3790, ___lastHandshakeMsg_10), 0 } ,
+	{ 271, 6762, offsetof(Context_t3790, ___handshakeState_11), 0 } ,
+	{ 272, 100, offsetof(Context_t3790, ___abbreviatedHandshake_12), 0 } ,
+	{ 273, 100, offsetof(Context_t3790, ___receivedConnectionEnd_13), 0 } ,
+	{ 274, 100, offsetof(Context_t3790, ___sentConnectionEnd_14), 0 } ,
+	{ 275, 100, offsetof(Context_t3790, ___protocolNegotiated_15), 0 } ,
+	{ 276, 6763, offsetof(Context_t3790, ___writeSequenceNumber_16), 0 } ,
+	{ 277, 6763, offsetof(Context_t3790, ___readSequenceNumber_17), 0 } ,
+	{ 278, 838, offsetof(Context_t3790, ___clientRandom_18), 0 } ,
+	{ 279, 838, offsetof(Context_t3790, ___serverRandom_19), 0 } ,
+	{ 280, 838, offsetof(Context_t3790, ___randomCS_20), 0 } ,
+	{ 281, 838, offsetof(Context_t3790, ___randomSC_21), 0 } ,
+	{ 253, 838, offsetof(Context_t3790, ___masterSecret_22), 0 } ,
+	{ 282, 838, offsetof(Context_t3790, ___clientWriteKey_23), 0 } ,
+	{ 283, 838, offsetof(Context_t3790, ___serverWriteKey_24), 0 } ,
+	{ 284, 838, offsetof(Context_t3790, ___clientWriteIV_25), 0 } ,
+	{ 285, 838, offsetof(Context_t3790, ___serverWriteIV_26), 0 } ,
+	{ 286, 6764, offsetof(Context_t3790, ___handshakeMessages_27), 0 } ,
+	{ 287, 6765, offsetof(Context_t3790, ___random_28), 0 } ,
+	{ 288, 6766, offsetof(Context_t3790, ___recordProtocol_29), 0 } ,
+	{ 0, 90, offsetof(ExchangeAlgorithmType_t3806, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 289, 6768, 0, 0 } ,
+	{ 290, 6768, 0, 0 } ,
+	{ 217, 6768, 0, 0 } ,
+	{ 291, 6768, 0, 0 } ,
+	{ 292, 6768, 0, 0 } ,
+	{ 0, 90, offsetof(HandshakeState_t3807, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 217, 6770, 0, 0 } ,
+	{ 293, 6770, 0, 0 } ,
+	{ 294, 6770, 0, 0 } ,
+	{ 0, 90, offsetof(HashAlgorithmType_t3808, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 295, 6772, 0, 0 } ,
+	{ 217, 6772, 0, 0 } ,
+	{ 296, 6772, 0, 0 } ,
+	{ 297, 6775, offsetof(HttpsClientStream_t3812, ____request_20), 0 } ,
+	{ 124, 110, offsetof(HttpsClientStream_t3812, ____status_21), 0 } ,
+	{ 298, 6776, offsetof(HttpsClientStream_t3812_StaticFields, ___U3CU3Ef__amU24cache2_22), 31 } ,
+	{ 299, 6777, offsetof(HttpsClientStream_t3812_StaticFields, ___U3CU3Ef__amU24cache3_23), 32 } ,
+	{ 255, 617, offsetof(ReceiveRecordAsyncResult_t3813, ___locker_0), 0 } ,
+	{ 300, 6780, offsetof(ReceiveRecordAsyncResult_t3813, ____userCallback_1), 0 } ,
+	{ 301, 617, offsetof(ReceiveRecordAsyncResult_t3813, ____userState_2), 0 } ,
+	{ 302, 3312, offsetof(ReceiveRecordAsyncResult_t3813, ____asyncException_3), 0 } ,
+	{ 303, 6781, offsetof(ReceiveRecordAsyncResult_t3813, ___handle_4), 0 } ,
+	{ 304, 838, offsetof(ReceiveRecordAsyncResult_t3813, ____resultingBuffer_5), 0 } ,
+	{ 305, 3721, offsetof(ReceiveRecordAsyncResult_t3813, ____record_6), 0 } ,
+	{ 306, 100, offsetof(ReceiveRecordAsyncResult_t3813, ___completed_7), 0 } ,
+	{ 307, 838, offsetof(ReceiveRecordAsyncResult_t3813, ____initialBuffer_8), 0 } ,
+	{ 255, 617, offsetof(SendRecordAsyncResult_t3815, ___locker_0), 0 } ,
+	{ 300, 6780, offsetof(SendRecordAsyncResult_t3815, ____userCallback_1), 0 } ,
+	{ 301, 617, offsetof(SendRecordAsyncResult_t3815, ____userState_2), 0 } ,
+	{ 302, 3312, offsetof(SendRecordAsyncResult_t3815, ____asyncException_3), 0 } ,
+	{ 303, 6781, offsetof(SendRecordAsyncResult_t3815, ___handle_4), 0 } ,
+	{ 308, 6783, offsetof(SendRecordAsyncResult_t3815, ____message_5), 0 } ,
+	{ 306, 100, offsetof(SendRecordAsyncResult_t3815, ___completed_6), 0 } ,
+	{ 309, 6785, offsetof(RecordProtocol_t3798_StaticFields, ___record_processing_0), 0 } ,
+	{ 310, 6786, offsetof(RecordProtocol_t3798, ___innerStream_1), 0 } ,
+	{ 237, 6787, offsetof(RecordProtocol_t3798, ___context_2), 0 } ,
+	{ 25, 6671, offsetof(RSASslSignatureDeformatter_t3816, ___key_0), 0 } ,
+	{ 182, 6707, offsetof(RSASslSignatureDeformatter_t3816, ___hash_1), 0 } ,
+	{ 311, 915, offsetof(RSASslSignatureDeformatter_t3816_StaticFields, ___U3CU3Ef__switchU24map15_2), 35 } ,
+	{ 25, 6671, offsetof(RSASslSignatureFormatter_t3818, ___key_0), 0 } ,
+	{ 182, 6707, offsetof(RSASslSignatureFormatter_t3818, ___hash_1), 0 } ,
+	{ 312, 915, offsetof(RSASslSignatureFormatter_t3818_StaticFields, ___U3CU3Ef__switchU24map16_2), 36 } ,
+	{ 0, 90, offsetof(SecurityCompressionType_t3820, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 217, 6793, 0, 0 } ,
+	{ 313, 6793, 0, 0 } ,
+	{ 314, 6795, offsetof(SecurityParameters_t3804, ___cipher_0), 0 } ,
+	{ 315, 838, offsetof(SecurityParameters_t3804, ___clientWriteMAC_1), 0 } ,
+	{ 316, 838, offsetof(SecurityParameters_t3804, ___serverWriteMAC_2), 0 } ,
+	{ 0, 90, offsetof(SecurityProtocolType_t3821, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 317, 6797, 0, 0 } ,
+	{ 318, 6797, 0, 0 } ,
+	{ 319, 6797, 0, 0 } ,
+	{ 320, 6797, 0, 0 } ,
+	{ 321, 100, offsetof(ValidationResult_t3823, ___trusted_0), 0 } ,
+	{ 322, 100, offsetof(ValidationResult_t3823, ___user_denied_1), 0 } ,
+	{ 323, 110, offsetof(ValidationResult_t3823, ___error_code_2), 0 } ,
+	{ 324, 6802, offsetof(SslClientStream_t3795, ___ServerCertValidation_16), 0 } ,
+	{ 325, 6803, offsetof(SslClientStream_t3795, ___ClientCertSelection_17), 0 } ,
+	{ 326, 6804, offsetof(SslClientStream_t3795, ___PrivateKeySelection_18), 0 } ,
+	{ 327, 6805, offsetof(SslClientStream_t3795, ___ServerCertValidation2_19), 0 } ,
+	{ 328, 838, offsetof(SslCipherSuite_t3827, ___pad1_21), 0 } ,
+	{ 329, 838, offsetof(SslCipherSuite_t3827, ___pad2_22), 0 } ,
+	{ 330, 838, offsetof(SslCipherSuite_t3827, ___header_23), 0 } ,
+	{ 186, 6707, offsetof(SslHandshakeHash_t3828, ___md5_4), 0 } ,
+	{ 187, 6707, offsetof(SslHandshakeHash_t3828, ___sha_5), 0 } ,
+	{ 183, 100, offsetof(SslHandshakeHash_t3828, ___hashing_6), 0 } ,
+	{ 331, 838, offsetof(SslHandshakeHash_t3828, ___secret_7), 0 } ,
+	{ 332, 838, offsetof(SslHandshakeHash_t3828, ___innerPadMD5_8), 0 } ,
+	{ 333, 838, offsetof(SslHandshakeHash_t3828, ___outerPadMD5_9), 0 } ,
+	{ 334, 838, offsetof(SslHandshakeHash_t3828, ___innerPadSHA_10), 0 } ,
+	{ 335, 838, offsetof(SslHandshakeHash_t3828, ___outerPadSHA_11), 0 } ,
+	{ 255, 617, offsetof(InternalAsyncResult_t3829, ___locker_0), 0 } ,
+	{ 300, 6780, offsetof(InternalAsyncResult_t3829, ____userCallback_1), 0 } ,
+	{ 301, 617, offsetof(InternalAsyncResult_t3829, ____userState_2), 0 } ,
+	{ 302, 3312, offsetof(InternalAsyncResult_t3829, ____asyncException_3), 0 } ,
+	{ 303, 6781, offsetof(InternalAsyncResult_t3829, ___handle_4), 0 } ,
+	{ 306, 100, offsetof(InternalAsyncResult_t3829, ___completed_5), 0 } ,
+	{ 336, 110, offsetof(InternalAsyncResult_t3829, ____bytesRead_6), 0 } ,
+	{ 337, 100, offsetof(InternalAsyncResult_t3829, ____fromWrite_7), 0 } ,
+	{ 338, 100, offsetof(InternalAsyncResult_t3829, ____proceedAfterHandshake_8), 0 } ,
+	{ 339, 838, offsetof(InternalAsyncResult_t3829, ____buffer_9), 0 } ,
+	{ 340, 110, offsetof(InternalAsyncResult_t3829, ____offset_10), 0 } ,
+	{ 341, 110, offsetof(InternalAsyncResult_t3829, ____count_11), 0 } ,
+	{ 342, 837, 0, 0 } ,
+	{ 309, 6785, offsetof(SslStreamBase_t3826_StaticFields, ___record_processing_2), 0 } ,
+	{ 310, 6810, offsetof(SslStreamBase_t3826, ___innerStream_3), 0 } ,
+	{ 343, 6811, offsetof(SslStreamBase_t3826, ___inputBuffer_4), 0 } ,
+	{ 237, 6812, offsetof(SslStreamBase_t3826, ___context_5), 0 } ,
+	{ 245, 6813, offsetof(SslStreamBase_t3826, ___protocol_6), 0 } ,
+	{ 344, 2084, offsetof(SslStreamBase_t3826, ___ownsStream_7), 0 } ,
+	{ 249, 100, offsetof(SslStreamBase_t3826, ___disposed_8), 0 } ,
+	{ 345, 100, offsetof(SslStreamBase_t3826, ___checkCertRevocationStatus_9), 0 } ,
+	{ 346, 617, offsetof(SslStreamBase_t3826, ___negotiate_10), 0 } ,
+	{ 267, 617, offsetof(SslStreamBase_t3826, ___read_11), 0 } ,
+	{ 268, 617, offsetof(SslStreamBase_t3826, ___write_12), 0 } ,
+	{ 347, 6781, offsetof(SslStreamBase_t3826, ___negotiationComplete_13), 0 } ,
+	{ 348, 838, offsetof(SslStreamBase_t3826, ___recbuf_14), 0 } ,
+	{ 349, 6814, offsetof(SslStreamBase_t3826, ___recordStream_15), 0 } ,
+	{ 330, 838, offsetof(TlsCipherSuite_t3830, ___header_21), 0 } ,
+	{ 350, 617, offsetof(TlsCipherSuite_t3830, ___headerLock_22), 0 } ,
+	{ 351, 99, offsetof(TlsClientSettings_t3803, ___targetHost_0), 0 } ,
+	{ 352, 6817, offsetof(TlsClientSettings_t3803, ___certificates_1), 0 } ,
+	{ 353, 6818, offsetof(TlsClientSettings_t3803, ___clientCertificate_2), 0 } ,
+	{ 354, 6819, offsetof(TlsClientSettings_t3803, ___certificateRSA_3), 0 } ,
+	{ 355, 6821, offsetof(TlsException_t3833, ___alert_11), 0 } ,
+	{ 352, 6667, offsetof(TlsServerSettings_t3802, ___certificates_0), 0 } ,
+	{ 354, 6671, offsetof(TlsServerSettings_t3802, ___certificateRSA_1), 0 } ,
+	{ 356, 6823, offsetof(TlsServerSettings_t3802, ___rsaParameters_2), 0 } ,
+	{ 357, 838, offsetof(TlsServerSettings_t3802, ___signedParams_3), 0 } ,
+	{ 358, 587, offsetof(TlsServerSettings_t3802, ___distinguisedNames_4), 0 } ,
+	{ 359, 100, offsetof(TlsServerSettings_t3802, ___serverKeyExchange_5), 0 } ,
+	{ 360, 100, offsetof(TlsServerSettings_t3802, ___certificateRequest_6), 0 } ,
+	{ 361, 6824, offsetof(TlsServerSettings_t3802, ___certificateTypes_7), 0 } ,
+	{ 362, 100, offsetof(TlsStream_t3805, ___canRead_1), 0 } ,
+	{ 363, 100, offsetof(TlsStream_t3805, ___canWrite_2), 0 } ,
+	{ 31, 6814, offsetof(TlsStream_t3805, ___buffer_3), 0 } ,
+	{ 364, 838, offsetof(TlsStream_t3805, ___temp_4), 0 } ,
+	{ 0, 90, offsetof(ClientCertificateType_t3836, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 365, 6827, 0, 0 } ,
+	{ 366, 6827, 0, 0 } ,
+	{ 367, 6827, 0, 0 } ,
+	{ 368, 6827, 0, 0 } ,
+	{ 369, 6827, 0, 0 } ,
+	{ 237, 6733, offsetof(HandshakeMessage_t3814, ___context_5), 0 } ,
+	{ 370, 6761, offsetof(HandshakeMessage_t3814, ___handshakeType_6), 0 } ,
+	{ 19, 6829, offsetof(HandshakeMessage_t3814, ___contentType_7), 0 } ,
+	{ 254, 838, offsetof(HandshakeMessage_t3814, ___cache_8), 0 } ,
+	{ 0, 5104, offsetof(HandshakeType_t3837, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 371, 6831, 0, 0 } ,
+	{ 372, 6831, 0, 0 } ,
+	{ 373, 6831, 0, 0 } ,
+	{ 374, 6831, 0, 0 } ,
+	{ 375, 6831, 0, 0 } ,
+	{ 376, 6831, 0, 0 } ,
+	{ 377, 6831, 0, 0 } ,
+	{ 378, 6831, 0, 0 } ,
+	{ 379, 6831, 0, 0 } ,
+	{ 294, 6831, 0, 0 } ,
+	{ 217, 6831, 0, 0 } ,
+	{ 380, 100, offsetof(TlsClientCertificate_t3838, ___clientCertSelected_9), 0 } ,
+	{ 381, 6818, offsetof(TlsClientCertificate_t3838, ___clientCert_10), 0 } ,
+	{ 382, 4697, offsetof(TlsClientFinished_t3840_StaticFields, ___Ssl3Marker_9), 0 } ,
+	{ 287, 838, offsetof(TlsClientHello_t3841, ___random_9), 0 } ,
+	{ 352, 6667, offsetof(TlsServerCertificate_t3843, ___certificates_9), 0 } ,
+	{ 361, 6824, offsetof(TlsServerCertificateRequest_t3844, ___certificateTypes_9), 0 } ,
+	{ 358, 587, offsetof(TlsServerCertificateRequest_t3844, ___distinguisedNames_10), 0 } ,
+	{ 382, 4697, offsetof(TlsServerFinished_t3845_StaticFields, ___Ssl3Marker_9), 0 } ,
+	{ 262, 6756, offsetof(TlsServerHello_t3846, ___compressionMethod_9), 0 } ,
+	{ 287, 838, offsetof(TlsServerHello_t3846, ___random_10), 0 } ,
+	{ 261, 838, offsetof(TlsServerHello_t3846, ___sessionId_11), 0 } ,
+	{ 383, 6795, offsetof(TlsServerHello_t3846, ___cipherSuite_12), 0 } ,
+	{ 384, 6823, offsetof(TlsServerKeyExchange_t3848, ___rsaParams_9), 0 } ,
+	{ 357, 838, offsetof(TlsServerKeyExchange_t3848, ___signedParams_10), 0 } ,
+	{ 385, 6867, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D0_0), 0 } ,
+	{ 386, 6868, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D5_1), 0 } ,
+	{ 387, 6869, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D6_2), 0 } ,
+	{ 388, 6870, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D7_3), 0 } ,
+	{ 389, 6871, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D8_4), 0 } ,
+	{ 390, 6872, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D9_5), 0 } ,
+	{ 391, 6872, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D11_6), 0 } ,
+	{ 392, 6872, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D12_7), 0 } ,
+	{ 393, 6872, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D13_8), 0 } ,
+	{ 394, 6873, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D14_9), 0 } ,
+	{ 395, 6873, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D15_10), 0 } ,
+	{ 396, 6873, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D16_11), 0 } ,
+	{ 397, 6874, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D17_12), 0 } ,
+	{ 398, 6875, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D21_13), 0 } ,
+	{ 399, 6875, offsetof(U3CPrivateImplementationDetailsU3E_t3860_StaticFields, ___U24U24fieldU2D22_14), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -1517,21 +1517,21 @@ static const Il2CppFieldDefaultValue s_DefaultValues[119] =
 	{ 452, 255, 290 },
 	{ 453, 255, 291 },
 	{ 454, 255, 292 },
-	{ 469, 6831, 293 },
-	{ 470, 6833, 3425 },
-	{ 471, 6835, 3681 },
-	{ 472, 6837, 3701 },
-	{ 473, 6839, 3733 },
-	{ 474, 6841, 3781 },
-	{ 475, 6841, 3845 },
-	{ 476, 6841, 3909 },
-	{ 477, 6841, 3973 },
-	{ 478, 6843, 4037 },
-	{ 479, 6843, 4049 },
-	{ 480, 6843, 4061 },
-	{ 481, 6845, 4073 },
-	{ 482, 6847, 4089 },
-	{ 483, 6847, 4093 },
+	{ 469, 6849, 293 },
+	{ 470, 6851, 3425 },
+	{ 471, 6853, 3681 },
+	{ 472, 6855, 3701 },
+	{ 473, 6857, 3733 },
+	{ 474, 6859, 3781 },
+	{ 475, 6859, 3845 },
+	{ 476, 6859, 3909 },
+	{ 477, 6859, 3973 },
+	{ 478, 6861, 4037 },
+	{ 479, 6861, 4049 },
+	{ 480, 6861, 4061 },
+	{ 481, 6863, 4073 },
+	{ 482, 6865, 4089 },
+	{ 483, 6865, 4093 },
 };
 static const uint8_t s_DefaultValueDataTable[4097] = 
 {

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUIElement
-struct GUIElement_t2645;
+struct GUIElement_t2652;
 

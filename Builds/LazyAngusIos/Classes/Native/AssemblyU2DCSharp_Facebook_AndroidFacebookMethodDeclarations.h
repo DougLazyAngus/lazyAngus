@@ -19,7 +19,7 @@ struct OGActionType_t432;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t628;
+struct List_1_t636;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
 struct Dictionary_2_t116;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
@@ -64,7 +64,7 @@ extern "C" void AndroidFacebook_Logout_m2341 (AndroidFacebook_t434 * __this, con
 // System.Void Facebook.AndroidFacebook::OnLogoutComplete(System.String)
 extern "C" void AndroidFacebook_OnLogoutComplete_m2342 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void AndroidFacebook_AppRequest_m2343 (AndroidFacebook_t434 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t628 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t634  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidFacebook_AppRequest_m2343 (AndroidFacebook_t434 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t636 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t642  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::OnAppRequestsComplete(System.String)
 extern "C" void AndroidFacebook_OnAppRequestsComplete_m2344 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::FeedRequest(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
@@ -72,7 +72,7 @@ extern "C" void AndroidFacebook_FeedRequest_m2345 (AndroidFacebook_t434 * __this
 // System.Void Facebook.AndroidFacebook::OnFeedRequestComplete(System.String)
 extern "C" void AndroidFacebook_OnFeedRequestComplete_m2346 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void AndroidFacebook_Pay_m2347 (AndroidFacebook_t434 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t634  ___quantityMin, Nullable_1_t634  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidFacebook_Pay_m2347 (AndroidFacebook_t434 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t642  ___quantityMin, Nullable_1_t642  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern "C" void AndroidFacebook_GameGroupCreate_m2348 (AndroidFacebook_t434 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
@@ -82,7 +82,7 @@ extern "C" void AndroidFacebook_GetDeepLink_m2350 (AndroidFacebook_t434 * __this
 // System.Void Facebook.AndroidFacebook::OnGetDeepLinkComplete(System.String)
 extern "C" void AndroidFacebook_OnGetDeepLinkComplete_m2351 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void AndroidFacebook_AppEventsLogEvent_m2352 (AndroidFacebook_t434 * __this, String_t* ___logEvent, Nullable_1_t635  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidFacebook_AppEventsLogEvent_m2352 (AndroidFacebook_t434 * __this, String_t* ___logEvent, Nullable_1_t643  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern "C" void AndroidFacebook_AppEventsLogPurchase_m2353 (AndroidFacebook_t434 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AndroidFacebook::PublishInstall(System.String,Facebook.FacebookDelegate)

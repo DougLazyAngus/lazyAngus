@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t651;
+struct IEnumerable_1_t659;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object
@@ -9,7 +9,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateConcatIterator>c__Iterator1`1<System.Object>
-struct  U3CCreateConcatIteratorU3Ec__Iterator1_1_t5985  : public Object_t
+struct  U3CCreateConcatIteratorU3Ec__Iterator1_1_t5993  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateConcatIterator>c__Iterator1`1<System.Object>::first
 	Object_t* ___first_0;

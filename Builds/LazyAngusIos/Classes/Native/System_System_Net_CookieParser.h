@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.CookieParser
-struct  CookieParser_t4002  : public Object_t
+struct  CookieParser_t4010  : public Object_t
 {
 	// System.String System.Net.CookieParser::header
 	String_t* ___header_0;

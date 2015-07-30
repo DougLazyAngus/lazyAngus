@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.AssemblyIsEditorAssembly
-struct  AssemblyIsEditorAssembly_t2784  : public Attribute_t426
+struct  AssemblyIsEditorAssembly_t2791  : public Attribute_t426
 {
 };

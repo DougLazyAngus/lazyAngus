@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject
-struct ParseObject_t1159;
+struct ParseObject_t1166;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseRelationBase/<>c__DisplayClass1
-struct  U3CU3Ec__DisplayClass1_t1237  : public Object_t
+struct  U3CU3Ec__DisplayClass1_t1244  : public Object_t
 {
 	// Parse.ParseObject Parse.ParseRelationBase/<>c__DisplayClass1::parent
-	ParseObject_t1159 * ___parent_0;
+	ParseObject_t1166 * ___parent_0;
 	// System.String Parse.ParseRelationBase/<>c__DisplayClass1::key
 	String_t* ___key_1;
 	// System.String Parse.ParseRelationBase/<>c__DisplayClass1::targetClassName

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileAccess
-struct FileAccess_t4143;
+struct FileAccess_t4151;
 

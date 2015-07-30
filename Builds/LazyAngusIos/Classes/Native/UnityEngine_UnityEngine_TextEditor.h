@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.TouchScreenKeyboard
-struct TouchScreenKeyboard_t879;
+struct TouchScreenKeyboard_t886;
 // UnityEngine.GUIContent
-struct GUIContent_t724;
+struct GUIContent_t732;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t2821;
+struct Dictionary_2_t2828;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Rect
@@ -19,10 +19,10 @@ struct Dictionary_2_t2821;
 // UnityEngine.TextEditor/DblClickSnapping
 #include "UnityEngine_UnityEngine_TextEditor_DblClickSnapping.h"
 // UnityEngine.TextEditor
-struct  TextEditor_t1006  : public Object_t
+struct  TextEditor_t1013  : public Object_t
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.TextEditor::keyboardOnScreen
-	TouchScreenKeyboard_t879 * ___keyboardOnScreen_0;
+	TouchScreenKeyboard_t886 * ___keyboardOnScreen_0;
 	// System.Int32 UnityEngine.TextEditor::pos
 	int32_t ___pos_1;
 	// System.Int32 UnityEngine.TextEditor::selectPos
@@ -30,11 +30,11 @@ struct  TextEditor_t1006  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::controlID
 	int32_t ___controlID_3;
 	// UnityEngine.GUIContent UnityEngine.TextEditor::content
-	GUIContent_t724 * ___content_4;
+	GUIContent_t732 * ___content_4;
 	// UnityEngine.GUIStyle UnityEngine.TextEditor::style
 	GUIStyle_t107 * ___style_5;
 	// UnityEngine.Rect UnityEngine.TextEditor::position
-	Rect_t639  ___position_6;
+	Rect_t647  ___position_6;
 	// System.Boolean UnityEngine.TextEditor::multiline
 	bool ___multiline_7;
 	// System.Boolean UnityEngine.TextEditor::hasHorizontalCursorPos
@@ -68,7 +68,7 @@ struct  TextEditor_t1006  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::oldSelectPos
 	int32_t ___oldSelectPos_22;
 };
-struct TextEditor_t1006_StaticFields{
+struct TextEditor_t1013_StaticFields{
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp> UnityEngine.TextEditor::s_Keyactions
-	Dictionary_2_t2821 * ___s_Keyactions_23;
+	Dictionary_2_t2828 * ___s_Keyactions_23;
 };

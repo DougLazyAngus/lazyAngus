@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.CancellationTokenRegistration
-struct CancellationTokenRegistration_t1280;
+struct CancellationTokenRegistration_t1287;
 // System.Threading.CancellationTokenSource
-struct CancellationTokenSource_t1279;
+struct CancellationTokenSource_t1286;
 // System.Action
 struct Action_t143;
 
 // System.Void System.Threading.CancellationTokenRegistration::.ctor(System.Threading.CancellationTokenSource,System.Action)
-extern "C" void CancellationTokenRegistration__ctor_m6900 (CancellationTokenRegistration_t1280 * __this, CancellationTokenSource_t1279 * ___source, Action_t143 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CancellationTokenRegistration__ctor_m6946 (CancellationTokenRegistration_t1287 * __this, CancellationTokenSource_t1286 * ___source, Action_t143 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.CancellationTokenRegistration::Dispose()
-extern "C" void CancellationTokenRegistration_Dispose_m6901 (CancellationTokenRegistration_t1280 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CancellationTokenRegistration_Dispose_m6947 (CancellationTokenRegistration_t1287 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

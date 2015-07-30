@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1316;
+struct IParseFieldOperation_t1323;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>
-struct  KeyValuePair_2_t1342 
+struct  KeyValuePair_2_t1349 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>::key
 	String_t* ___key_0;

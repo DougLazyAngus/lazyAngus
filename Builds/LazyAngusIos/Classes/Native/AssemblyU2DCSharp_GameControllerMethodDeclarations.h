@@ -5,51 +5,49 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GameController
-struct GameController_t504;
+struct GameController_t512;
 // MouseHole
-struct MouseHole_t521;
+struct MouseHole_t529;
 // MouseMove
-struct MouseMove_t556;
+struct MouseMove_t488;
 
 // System.Void GameController::.ctor()
-extern "C" void GameController__ctor_m2703 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController__ctor_m2728 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // GameController GameController::get_instance()
-extern "C" GameController_t504 * GameController_get_instance_m2704 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameController_t512 * GameController_get_instance_m2729 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::set_instance(GameController)
-extern "C" void GameController_set_instance_m2705 (Object_t * __this /* static, unused */, GameController_t504 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_set_instance_m2730 (Object_t * __this /* static, unused */, GameController_t512 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::Awake()
-extern "C" void GameController_Awake_m2706 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_Awake_m2731 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::Start()
-extern "C" void GameController_Start_m2707 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_Start_m2732 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::Update()
-extern "C" void GameController_Update_m2708 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_Update_m2733 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnDestroy()
-extern "C" void GameController_OnDestroy_m2709 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnDestroy_m2734 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::RegisterForEvents()
-extern "C" void GameController_RegisterForEvents_m2710 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_RegisterForEvents_m2735 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::UnregisterForEvents()
-extern "C" void GameController_UnregisterForEvents_m2711 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_UnregisterForEvents_m2736 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::RestartGame()
-extern "C" void GameController_RestartGame_m2712 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_RestartGame_m2737 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnGameInstanceChanged()
-extern "C" void GameController_OnGameInstanceChanged_m2713 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnGameInstanceChanged_m2738 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnGamePhaseChanged()
-extern "C" void GameController_OnGamePhaseChanged_m2714 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnGamePhaseChanged_m2739 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::MaybeIncrementMouseHoleCapacity()
-extern "C" void GameController_MaybeIncrementMouseHoleCapacity_m2715 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_MaybeIncrementMouseHoleCapacity_m2740 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::EnqueueMiceForLevel()
-extern "C" void GameController_EnqueueMiceForLevel_m2716 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_EnqueueMiceForLevel_m2741 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseHole GameController::FindDoomedMouseHole()
-extern "C" MouseHole_t521 * GameController_FindDoomedMouseHole_m2717 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MouseHole_t529 * GameController_FindDoomedMouseHole_m2742 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseExit(MouseMove)
-extern "C" void GameController_OnMouseExit_m2718 (GameController_t504 * __this, MouseMove_t556 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnMouseExit_m2743 (GameController_t512 * __this, MouseMove_t488 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForGameEnd()
-extern "C" bool GameController_CheckForGameEnd_m2719 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GameController_CheckForGameEnd_m2744 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForLevelEnd()
-extern "C" bool GameController_CheckForLevelEnd_m2720 (GameController_t504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GameController_CheckForLevelEnd_m2745 (GameController_t512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseKilled(MouseMove)
-extern "C" void GameController_OnMouseKilled_m2721 (GameController_t504 * __this, MouseMove_t556 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameController::LogKillsPerSwipe(System.Int32)
-extern "C" void GameController_LogKillsPerSwipe_m2722 (GameController_t504 * __this, int32_t ___killsPerSwipe, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_OnMouseKilled_m2746 (GameController_t512 * __this, MouseMove_t488 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::<Start>m__4D(System.Boolean)
-extern "C" void GameController_U3CStartU3Em__4D_m2723 (Object_t * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameController_U3CStartU3Em__4D_m2747 (Object_t * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;

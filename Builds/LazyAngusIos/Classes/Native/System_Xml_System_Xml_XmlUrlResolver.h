@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.ICredentials
-struct ICredentials_t3225;
+struct ICredentials_t3233;
 // System.Xml.XmlResolver
 #include "System_Xml_System_Xml_XmlResolver.h"
 // System.Xml.XmlUrlResolver
-struct  XmlUrlResolver_t3226  : public XmlResolver_t3122
+struct  XmlUrlResolver_t3234  : public XmlResolver_t3130
 {
 	// System.Net.ICredentials System.Xml.XmlUrlResolver::credential
 	Object_t * ___credential_0;

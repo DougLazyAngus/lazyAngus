@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.SpriteState
-struct SpriteState_t904;
+struct SpriteState_t911;
 // UnityEngine.Sprite
 struct Sprite_t472;
 
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_highlightedSprite()
-extern "C" Sprite_t472 * SpriteState_get_highlightedSprite_m5124 (SpriteState_t904 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t472 * SpriteState_get_highlightedSprite_m5171 (SpriteState_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_highlightedSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_highlightedSprite_m5125 (SpriteState_t904 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_highlightedSprite_m5172 (SpriteState_t911 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_pressedSprite()
-extern "C" Sprite_t472 * SpriteState_get_pressedSprite_m5126 (SpriteState_t904 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t472 * SpriteState_get_pressedSprite_m5173 (SpriteState_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_pressedSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_pressedSprite_m5127 (SpriteState_t904 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_pressedSprite_m5174 (SpriteState_t911 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_disabledSprite()
-extern "C" Sprite_t472 * SpriteState_get_disabledSprite_m5128 (SpriteState_t904 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t472 * SpriteState_get_disabledSprite_m5175 (SpriteState_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_disabledSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_disabledSprite_m5129 (SpriteState_t904 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_disabledSprite_m5176 (SpriteState_t911 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

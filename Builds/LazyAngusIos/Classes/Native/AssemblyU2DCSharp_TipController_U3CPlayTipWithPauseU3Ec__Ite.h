@@ -5,11 +5,11 @@ struct TipConfig_t473;
 // System.Object
 struct Object_t;
 // TipController
-struct TipController_t604;
+struct TipController_t613;
 // System.Object
 #include "mscorlib_System_Object.h"
 // TipController/<PlayTipWithPause>c__Iterator17
-struct  U3CPlayTipWithPauseU3Ec__Iterator17_t605  : public Object_t
+struct  U3CPlayTipWithPauseU3Ec__Iterator17_t614  : public Object_t
 {
 	// System.Single TipController/<PlayTipWithPause>c__Iterator17::tipPause
 	float ___tipPause_0;
@@ -24,5 +24,5 @@ struct  U3CPlayTipWithPauseU3Ec__Iterator17_t605  : public Object_t
 	// TipConfig TipController/<PlayTipWithPause>c__Iterator17::<$>tipConfig
 	TipConfig_t473 * ___U3CU24U3EtipConfig_5;
 	// TipController TipController/<PlayTipWithPause>c__Iterator17::<>f__this
-	TipController_t604 * ___U3CU3Ef__this_6;
+	TipController_t613 * ___U3CU3Ef__this_6;
 };

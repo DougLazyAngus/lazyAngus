@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.WhitespaceHandling
-struct WhitespaceHandling_t3151;
+struct WhitespaceHandling_t3159;
 

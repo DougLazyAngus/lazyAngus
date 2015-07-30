@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.RawImage
-struct RawImage_t888;
+struct RawImage_t895;
 // UnityEngine.Texture
 struct Texture_t394;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t883;
+struct List_1_t890;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // System.Void UnityEngine.UI.RawImage::.ctor()
-extern "C" void RawImage__ctor_m4910 (RawImage_t888 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RawImage__ctor_m4957 (RawImage_t895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.UI.RawImage::get_mainTexture()
-extern "C" Texture_t394 * RawImage_get_mainTexture_m4911 (RawImage_t888 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture_t394 * RawImage_get_mainTexture_m4958 (RawImage_t895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.UI.RawImage::get_texture()
-extern "C" Texture_t394 * RawImage_get_texture_m4912 (RawImage_t888 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture_t394 * RawImage_get_texture_m4959 (RawImage_t895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RawImage::set_texture(UnityEngine.Texture)
-extern "C" void RawImage_set_texture_m4913 (RawImage_t888 * __this, Texture_t394 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RawImage_set_texture_m4960 (RawImage_t895 * __this, Texture_t394 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.UI.RawImage::get_uvRect()
-extern "C" Rect_t639  RawImage_get_uvRect_m4914 (RawImage_t888 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t647  RawImage_get_uvRect_m4961 (RawImage_t895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RawImage::set_uvRect(UnityEngine.Rect)
-extern "C" void RawImage_set_uvRect_m4915 (RawImage_t888 * __this, Rect_t639  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RawImage_set_uvRect_m4962 (RawImage_t895 * __this, Rect_t647  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RawImage::SetNativeSize()
-extern "C" void RawImage_SetNativeSize_m4916 (RawImage_t888 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RawImage_SetNativeSize_m4963 (RawImage_t895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RawImage::OnFillVBO(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void RawImage_OnFillVBO_m4917 (RawImage_t888 * __this, List_1_t883 * ___vbo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RawImage_OnFillVBO_m4964 (RawImage_t895 * __this, List_1_t890 * ___vbo, const MethodInfo* method) IL2CPP_METHOD_ATTR;

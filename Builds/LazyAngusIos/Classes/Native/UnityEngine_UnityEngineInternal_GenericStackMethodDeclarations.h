@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngineInternal.GenericStack
-struct GenericStack_t2651;
+struct GenericStack_t2658;
 
 // System.Void UnityEngineInternal.GenericStack::.ctor()
-extern "C" void GenericStack__ctor_m9755 (GenericStack_t2651 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GenericStack__ctor_m9801 (GenericStack_t2658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

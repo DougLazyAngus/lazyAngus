@@ -3,11 +3,11 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t651;
+struct IEnumerable_1_t659;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Grouping`2<System.Object,System.Object>
-struct  Grouping_2_t6079  : public Object_t
+struct  Grouping_2_t6087  : public Object_t
 {
 	// K System.Linq.Grouping`2<System.Object,System.Object>::key
 	Object_t * ___key_0;

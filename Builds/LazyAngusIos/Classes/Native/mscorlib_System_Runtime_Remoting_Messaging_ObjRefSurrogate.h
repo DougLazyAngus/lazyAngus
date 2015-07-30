@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
-struct  ObjRefSurrogate_t4563  : public Object_t
+struct  ObjRefSurrogate_t4571  : public Object_t
 {
 };

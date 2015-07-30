@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.EncoderReplacementFallbackBuffer
-struct EncoderReplacementFallbackBuffer_t4699;
+struct EncoderReplacementFallbackBuffer_t4707;
 // System.Text.EncoderReplacementFallback
-struct EncoderReplacementFallback_t4698;
+struct EncoderReplacementFallback_t4706;
 
 // System.Void System.Text.EncoderReplacementFallbackBuffer::.ctor(System.Text.EncoderReplacementFallback)
-extern "C" void EncoderReplacementFallbackBuffer__ctor_m18741 (EncoderReplacementFallbackBuffer_t4699 * __this, EncoderReplacementFallback_t4698 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderReplacementFallbackBuffer__ctor_m18788 (EncoderReplacementFallbackBuffer_t4707 * __this, EncoderReplacementFallback_t4706 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.EncoderReplacementFallbackBuffer::get_Remaining()
-extern "C" int32_t EncoderReplacementFallbackBuffer_get_Remaining_m18742 (EncoderReplacementFallbackBuffer_t4699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EncoderReplacementFallbackBuffer_get_Remaining_m18789 (EncoderReplacementFallbackBuffer_t4707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Char,System.Int32)
-extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18743 (EncoderReplacementFallbackBuffer_t4699 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18790 (EncoderReplacementFallbackBuffer_t4707 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Char,System.Char,System.Int32)
-extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18744 (EncoderReplacementFallbackBuffer_t4699 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18791 (EncoderReplacementFallbackBuffer_t4707 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderReplacementFallbackBuffer::Fallback(System.Int32)
-extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18745 (EncoderReplacementFallbackBuffer_t4699 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderReplacementFallbackBuffer_Fallback_m18792 (EncoderReplacementFallbackBuffer_t4707 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Text.EncoderReplacementFallbackBuffer::GetNextChar()
-extern "C" uint16_t EncoderReplacementFallbackBuffer_GetNextChar_m18746 (EncoderReplacementFallbackBuffer_t4699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t EncoderReplacementFallbackBuffer_GetNextChar_m18793 (EncoderReplacementFallbackBuffer_t4707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

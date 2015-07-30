@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.SimpleCollator/Escape
-struct Escape_t4321;
-struct Escape_t4321_marshaled;
+struct Escape_t4329;
+struct Escape_t4329_marshaled;
 
-void Escape_t4321_marshal(const Escape_t4321& unmarshaled, Escape_t4321_marshaled& marshaled);
-void Escape_t4321_marshal_back(const Escape_t4321_marshaled& marshaled, Escape_t4321& unmarshaled);
-void Escape_t4321_marshal_cleanup(Escape_t4321_marshaled& marshaled);
+void Escape_t4329_marshal(const Escape_t4329& unmarshaled, Escape_t4329_marshaled& marshaled);
+void Escape_t4329_marshal_back(const Escape_t4329_marshaled& marshaled, Escape_t4329& unmarshaled);
+void Escape_t4329_marshal_cleanup(Escape_t4329_marshaled& marshaled);

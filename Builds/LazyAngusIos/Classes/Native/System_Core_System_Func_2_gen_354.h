@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
-struct Dictionary_2_t1437;
+struct Dictionary_2_t1444;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>
-struct  Func_2_t6965  : public MulticastDelegate_t388
+struct  Func_2_t6973  : public MulticastDelegate_t388
 {
 };

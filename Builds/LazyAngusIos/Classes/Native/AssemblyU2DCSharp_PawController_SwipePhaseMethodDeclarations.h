@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PawController/SwipePhase
-struct SwipePhase_t568;
+struct SwipePhase_t576;
 

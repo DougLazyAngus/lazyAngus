@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>
-struct  InternalEnumerator_1_t6056 
+struct  InternalEnumerator_1_t6064 
 {
 	// System.Array System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::array
 	Array_t * ___array_0;

@@ -14,12 +14,12 @@ struct Texture2D_t108;
 #include "UnityEngine_UnityEngine_Vector4.h"
 
 // UnityEngine.Rect UnityEngine.Sprite::get_rect()
-extern "C" Rect_t639  Sprite_get_rect_m5637 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t647  Sprite_get_rect_m5683 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Sprite::get_pixelsPerUnit()
-extern "C" float Sprite_get_pixelsPerUnit_m5633 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Sprite_get_pixelsPerUnit_m5679 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture2D UnityEngine.Sprite::get_texture()
-extern "C" Texture2D_t108 * Sprite_get_texture_m5630 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture2D_t108 * Sprite_get_texture_m5676 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.Sprite::get_textureRect()
-extern "C" Rect_t639  Sprite_get_textureRect_m5656 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t647  Sprite_get_textureRect_m5702 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Sprite::get_border()
-extern "C" Vector4_t976  Sprite_get_border_m5631 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t983  Sprite_get_border_m5677 (Sprite_t472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

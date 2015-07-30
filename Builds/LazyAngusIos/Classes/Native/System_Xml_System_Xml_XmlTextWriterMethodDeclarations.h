@@ -5,95 +5,95 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlTextWriter
-struct XmlTextWriter_t3222;
+struct XmlTextWriter_t3230;
 // System.String
 struct String_t;
 // System.IO.TextWriter
-struct TextWriter_t3219;
+struct TextWriter_t3227;
 // System.Char[]
-struct CharU5BU5D_t652;
+struct CharU5BU5D_t660;
 // System.Exception
 struct Exception_t57;
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
 
 // System.Void System.Xml.XmlTextWriter::.ctor(System.IO.TextWriter)
-extern "C" void XmlTextWriter__ctor_m11052 (XmlTextWriter_t3222 * __this, TextWriter_t3219 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter__ctor_m11099 (XmlTextWriter_t3230 * __this, TextWriter_t3227 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::.cctor()
-extern "C" void XmlTextWriter__cctor_m11053 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter__cctor_m11100 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::Initialize(System.IO.TextWriter)
-extern "C" void XmlTextWriter_Initialize_m11054 (XmlTextWriter_t3222 * __this, TextWriter_t3219 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_Initialize_m11101 (XmlTextWriter_t3230 * __this, TextWriter_t3227 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlTextWriter::get_XmlLang()
-extern "C" String_t* XmlTextWriter_get_XmlLang_m11055 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlTextWriter_get_XmlLang_m11102 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlSpace System.Xml.XmlTextWriter::get_XmlSpace()
-extern "C" int32_t XmlTextWriter_get_XmlSpace_m11056 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlTextWriter_get_XmlSpace_m11103 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlTextWriter::LookupPrefix(System.String)
-extern "C" String_t* XmlTextWriter_LookupPrefix_m11057 (XmlTextWriter_t3222 * __this, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlTextWriter_LookupPrefix_m11104 (XmlTextWriter_t3230 * __this, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::Close()
-extern "C" void XmlTextWriter_Close_m11058 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_Close_m11105 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteStartDocumentCore(System.Boolean,System.Boolean)
-extern "C" void XmlTextWriter_WriteStartDocumentCore_m11059 (XmlTextWriter_t3222 * __this, bool ___outputStd, bool ___standalone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteStartDocumentCore_m11106 (XmlTextWriter_t3230 * __this, bool ___outputStd, bool ___standalone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteDocType(System.String,System.String,System.String,System.String)
-extern "C" void XmlTextWriter_WriteDocType_m11060 (XmlTextWriter_t3222 * __this, String_t* ___name, String_t* ___pubid, String_t* ___sysid, String_t* ___subset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteDocType_m11107 (XmlTextWriter_t3230 * __this, String_t* ___name, String_t* ___pubid, String_t* ___sysid, String_t* ___subset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteStartElement(System.String,System.String,System.String)
-extern "C" void XmlTextWriter_WriteStartElement_m11061 (XmlTextWriter_t3222 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteStartElement_m11108 (XmlTextWriter_t3230 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::CloseStartElement()
-extern "C" void XmlTextWriter_CloseStartElement_m11062 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_CloseStartElement_m11109 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::CloseStartElementCore()
-extern "C" void XmlTextWriter_CloseStartElementCore_m11063 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_CloseStartElementCore_m11110 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEndElement()
-extern "C" void XmlTextWriter_WriteEndElement_m11064 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEndElement_m11111 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteFullEndElement()
-extern "C" void XmlTextWriter_WriteFullEndElement_m11065 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteFullEndElement_m11112 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEndElementCore(System.Boolean)
-extern "C" void XmlTextWriter_WriteEndElementCore_m11066 (XmlTextWriter_t3222 * __this, bool ___full, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEndElementCore_m11113 (XmlTextWriter_t3230 * __this, bool ___full, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteStartAttribute(System.String,System.String,System.String)
-extern "C" void XmlTextWriter_WriteStartAttribute_m11067 (XmlTextWriter_t3222 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteStartAttribute_m11114 (XmlTextWriter_t3230 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlTextWriter::DetermineAttributePrefix(System.String,System.String,System.String)
-extern "C" String_t* XmlTextWriter_DetermineAttributePrefix_m11068 (XmlTextWriter_t3222 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlTextWriter_DetermineAttributePrefix_m11115 (XmlTextWriter_t3230 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlTextWriter::MockupPrefix(System.String,System.Boolean)
-extern "C" String_t* XmlTextWriter_MockupPrefix_m11069 (XmlTextWriter_t3222 * __this, String_t* ___ns, bool ___skipLookup, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlTextWriter_MockupPrefix_m11116 (XmlTextWriter_t3230 * __this, String_t* ___ns, bool ___skipLookup, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEndAttribute()
-extern "C" void XmlTextWriter_WriteEndAttribute_m11070 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEndAttribute_m11117 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteComment(System.String)
-extern "C" void XmlTextWriter_WriteComment_m11071 (XmlTextWriter_t3222 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteComment_m11118 (XmlTextWriter_t3230 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteProcessingInstruction(System.String,System.String)
-extern "C" void XmlTextWriter_WriteProcessingInstruction_m11072 (XmlTextWriter_t3222 * __this, String_t* ___name, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteProcessingInstruction_m11119 (XmlTextWriter_t3230 * __this, String_t* ___name, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteWhitespace(System.String)
-extern "C" void XmlTextWriter_WriteWhitespace_m11073 (XmlTextWriter_t3222 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteWhitespace_m11120 (XmlTextWriter_t3230 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteCData(System.String)
-extern "C" void XmlTextWriter_WriteCData_m11074 (XmlTextWriter_t3222 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteCData_m11121 (XmlTextWriter_t3230 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteString(System.String)
-extern "C" void XmlTextWriter_WriteString_m11075 (XmlTextWriter_t3222 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteString_m11122 (XmlTextWriter_t3230 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEntityRef(System.String)
-extern "C" void XmlTextWriter_WriteEntityRef_m11076 (XmlTextWriter_t3222 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEntityRef_m11123 (XmlTextWriter_t3230 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteIndent()
-extern "C" void XmlTextWriter_WriteIndent_m11077 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteIndent_m11124 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteIndentEndElement()
-extern "C" void XmlTextWriter_WriteIndentEndElement_m11078 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteIndentEndElement_m11125 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteIndentAttribute()
-extern "C" void XmlTextWriter_WriteIndentAttribute_m11079 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteIndentAttribute_m11126 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlTextWriter::WriteIndentCore(System.Int32,System.Boolean)
-extern "C" bool XmlTextWriter_WriteIndentCore_m11080 (XmlTextWriter_t3222 * __this, int32_t ___nestFix, bool ___attribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlTextWriter_WriteIndentCore_m11127 (XmlTextWriter_t3230 * __this, int32_t ___nestFix, bool ___attribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::OutputAutoStartDocument()
-extern "C" void XmlTextWriter_OutputAutoStartDocument_m11081 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_OutputAutoStartDocument_m11128 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::ShiftStateTopLevel(System.String,System.Boolean,System.Boolean,System.Boolean)
-extern "C" void XmlTextWriter_ShiftStateTopLevel_m11082 (XmlTextWriter_t3222 * __this, String_t* ___occured, bool ___allowAttribute, bool ___dontCheckXmlDecl, bool ___isCharacter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_ShiftStateTopLevel_m11129 (XmlTextWriter_t3230 * __this, String_t* ___occured, bool ___allowAttribute, bool ___dontCheckXmlDecl, bool ___isCharacter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::CheckMixedContentState()
-extern "C" void XmlTextWriter_CheckMixedContentState_m11083 (XmlTextWriter_t3222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_CheckMixedContentState_m11130 (XmlTextWriter_t3230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::ShiftStateContent(System.String,System.Boolean)
-extern "C" void XmlTextWriter_ShiftStateContent_m11084 (XmlTextWriter_t3222 * __this, String_t* ___occured, bool ___allowAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_ShiftStateContent_m11131 (XmlTextWriter_t3230 * __this, String_t* ___occured, bool ___allowAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEscapedString(System.String,System.Boolean)
-extern "C" void XmlTextWriter_WriteEscapedString_m11085 (XmlTextWriter_t3222 * __this, String_t* ___text, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEscapedString_m11132 (XmlTextWriter_t3230 * __this, String_t* ___text, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteCheckedString(System.String)
-extern "C" void XmlTextWriter_WriteCheckedString_m11086 (XmlTextWriter_t3222 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteCheckedString_m11133 (XmlTextWriter_t3230 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteCheckedBuffer(System.Char[],System.Int32,System.Int32)
-extern "C" void XmlTextWriter_WriteCheckedBuffer_m11087 (XmlTextWriter_t3222 * __this, CharU5BU5D_t652* ___text, int32_t ___idx, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteCheckedBuffer_m11134 (XmlTextWriter_t3230 * __this, CharU5BU5D_t660* ___text, int32_t ___idx, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEscapedBuffer(System.Char[],System.Int32,System.Int32,System.Boolean)
-extern "C" void XmlTextWriter_WriteEscapedBuffer_m11088 (XmlTextWriter_t3222 * __this, CharU5BU5D_t652* ___text, int32_t ___index, int32_t ___length, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEscapedBuffer_m11135 (XmlTextWriter_t3230 * __this, CharU5BU5D_t660* ___text, int32_t ___index, int32_t ___length, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Xml.XmlTextWriter::ArgumentError(System.String)
-extern "C" Exception_t57 * XmlTextWriter_ArgumentError_m11089 (XmlTextWriter_t3222 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * XmlTextWriter_ArgumentError_m11136 (XmlTextWriter_t3230 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Xml.XmlTextWriter::InvalidOperation(System.String)
-extern "C" Exception_t57 * XmlTextWriter_InvalidOperation_m11090 (XmlTextWriter_t3222 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * XmlTextWriter_InvalidOperation_m11137 (XmlTextWriter_t3230 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Xml.XmlTextWriter::StateError(System.String)
-extern "C" Exception_t57 * XmlTextWriter_StateError_m11091 (XmlTextWriter_t3222 * __this, String_t* ___occured, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * XmlTextWriter_StateError_m11138 (XmlTextWriter_t3230 * __this, String_t* ___occured, const MethodInfo* method) IL2CPP_METHOD_ATTR;

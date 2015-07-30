@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct Dictionary_2_t858;
+struct Dictionary_2_t865;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_35.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  Enumerator_t5788 
+struct  Enumerator_t5796 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::dictionary
-	Dictionary_2_t858 * ___dictionary_0;
+	Dictionary_2_t865 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::current
-	KeyValuePair_2_t5785  ___current_3;
+	KeyValuePair_2_t5793  ___current_3;
 };

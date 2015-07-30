@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>[]
-struct Tuple_2U5BU5D_t5911;
+struct Tuple_2U5BU5D_t5919;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  List_1_t5912  : public Object_t
+struct  List_1_t5920  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_items
-	Tuple_2U5BU5D_t5911* ____items_1;
+	Tuple_2U5BU5D_t5919* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t5912_StaticFields{
+struct List_1_t5920_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::EmptyArray
-	Tuple_2U5BU5D_t5911* ___EmptyArray_4;
+	Tuple_2U5BU5D_t5919* ___EmptyArray_4;
 };

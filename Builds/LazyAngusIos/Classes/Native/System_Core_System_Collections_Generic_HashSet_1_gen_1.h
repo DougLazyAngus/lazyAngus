@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t539;
+struct Int32U5BU5D_t547;
 // System.Collections.Generic.HashSet`1/Link<Parse.ParseObject>[]
-struct LinkU5BU5D_t6155;
+struct LinkU5BU5D_t6163;
 // Parse.ParseObject[]
-struct ParseObjectU5BU5D_t1389;
+struct ParseObjectU5BU5D_t1396;
 // System.Collections.Generic.IEqualityComparer`1<Parse.ParseObject>
-struct IEqualityComparer_1_t6157;
+struct IEqualityComparer_1_t6165;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2860;
+struct SerializationInfo_t2867;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.HashSet`1<Parse.ParseObject>
-struct  HashSet_1_t1207  : public Object_t
+struct  HashSet_1_t1214  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::table
-	Int32U5BU5D_t539* ___table_0;
+	Int32U5BU5D_t547* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::links
-	LinkU5BU5D_t6155* ___links_1;
+	LinkU5BU5D_t6163* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::slots
-	ParseObjectU5BU5D_t1389* ___slots_2;
+	ParseObjectU5BU5D_t1396* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<Parse.ParseObject>::touched
 	int32_t ___touched_3;
 	// System.Int32 System.Collections.Generic.HashSet`1<Parse.ParseObject>::empty_slot
@@ -32,7 +32,7 @@ struct  HashSet_1_t1207  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1<Parse.ParseObject>::comparer
 	Object_t* ___comparer_7;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1<Parse.ParseObject>::si
-	SerializationInfo_t2860 * ___si_8;
+	SerializationInfo_t2867 * ___si_8;
 	// System.Int32 System.Collections.Generic.HashSet`1<Parse.ParseObject>::generation
 	int32_t ___generation_9;
 };

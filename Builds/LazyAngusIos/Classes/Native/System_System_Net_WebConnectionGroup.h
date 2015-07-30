@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.ServicePoint
-struct ServicePoint_t3876;
+struct ServicePoint_t3884;
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t3101;
+struct ArrayList_t3109;
 // System.Random
-struct Random_t2755;
+struct Random_t2762;
 // System.Collections.Queue
-struct Queue_t3944;
+struct Queue_t3952;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebConnectionGroup
-struct  WebConnectionGroup_t4015  : public Object_t
+struct  WebConnectionGroup_t4023  : public Object_t
 {
 	// System.Net.ServicePoint System.Net.WebConnectionGroup::sPoint
-	ServicePoint_t3876 * ___sPoint_0;
+	ServicePoint_t3884 * ___sPoint_0;
 	// System.String System.Net.WebConnectionGroup::name
 	String_t* ___name_1;
 	// System.Collections.ArrayList System.Net.WebConnectionGroup::connections
-	ArrayList_t3101 * ___connections_2;
+	ArrayList_t3109 * ___connections_2;
 	// System.Random System.Net.WebConnectionGroup::rnd
-	Random_t2755 * ___rnd_3;
+	Random_t2762 * ___rnd_3;
 	// System.Collections.Queue System.Net.WebConnectionGroup::queue
-	Queue_t3944 * ___queue_4;
+	Queue_t3952 * ___queue_4;
 };

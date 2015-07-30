@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.MonoIO
-struct MonoIO_t4436;
+struct MonoIO_t4444;
 // System.Exception
 struct Exception_t57;
 // System.String
@@ -36,54 +36,54 @@ struct ByteU5BU5D_t66;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.IO.MonoIO::.cctor()
-extern "C" void MonoIO__cctor_m17118 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoIO__cctor_m17165 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.IO.MonoIO::GetException(System.IO.MonoIOError)
-extern "C" Exception_t57 * MonoIO_GetException_m17119 (Object_t * __this /* static, unused */, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * MonoIO_GetException_m17166 (Object_t * __this /* static, unused */, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.IO.MonoIO::GetException(System.String,System.IO.MonoIOError)
-extern "C" Exception_t57 * MonoIO_GetException_m17120 (Object_t * __this /* static, unused */, String_t* ___path, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * MonoIO_GetException_m17167 (Object_t * __this /* static, unused */, String_t* ___path, int32_t ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::CreateDirectory(System.String,System.IO.MonoIOError&)
-extern "C" bool MonoIO_CreateDirectory_m17121 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_CreateDirectory_m17168 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.IO.MonoIO::GetFileSystemEntries(System.String,System.String,System.Int32,System.Int32,System.IO.MonoIOError&)
-extern "C" StringU5BU5D_t75* MonoIO_GetFileSystemEntries_m17122 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___path_with_pattern, int32_t ___attrs, int32_t ___mask, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* MonoIO_GetFileSystemEntries_m17169 (Object_t * __this /* static, unused */, String_t* ___path, String_t* ___path_with_pattern, int32_t ___attrs, int32_t ___mask, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.MonoIO::GetCurrentDirectory(System.IO.MonoIOError&)
-extern "C" String_t* MonoIO_GetCurrentDirectory_m17123 (Object_t * __this /* static, unused */, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MonoIO_GetCurrentDirectory_m17170 (Object_t * __this /* static, unused */, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::DeleteFile(System.String,System.IO.MonoIOError&)
-extern "C" bool MonoIO_DeleteFile_m17124 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_DeleteFile_m17171 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.FileAttributes System.IO.MonoIO::GetFileAttributes(System.String,System.IO.MonoIOError&)
-extern "C" int32_t MonoIO_GetFileAttributes_m17125 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoIO_GetFileAttributes_m17172 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.MonoFileType System.IO.MonoIO::GetFileType(System.IntPtr,System.IO.MonoIOError&)
-extern "C" int32_t MonoIO_GetFileType_m17126 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoIO_GetFileType_m17173 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::ExistsFile(System.String,System.IO.MonoIOError&)
-extern "C" bool MonoIO_ExistsFile_m17127 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_ExistsFile_m17174 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::ExistsDirectory(System.String,System.IO.MonoIOError&)
-extern "C" bool MonoIO_ExistsDirectory_m17128 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_ExistsDirectory_m17175 (Object_t * __this /* static, unused */, String_t* ___path, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::GetFileStat(System.String,System.IO.MonoIOStat&,System.IO.MonoIOError&)
-extern "C" bool MonoIO_GetFileStat_m17129 (Object_t * __this /* static, unused */, String_t* ___path, MonoIOStat_t4434 * ___stat, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_GetFileStat_m17176 (Object_t * __this /* static, unused */, String_t* ___path, MonoIOStat_t4442 * ___stat, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.IO.MonoIO::Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.FileOptions,System.IO.MonoIOError&)
-extern "C" IntPtr_t MonoIO_Open_m17130 (Object_t * __this /* static, unused */, String_t* ___filename, int32_t ___mode, int32_t ___access, int32_t ___share, int32_t ___options, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t MonoIO_Open_m17177 (Object_t * __this /* static, unused */, String_t* ___filename, int32_t ___mode, int32_t ___access, int32_t ___share, int32_t ___options, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::Close(System.IntPtr,System.IO.MonoIOError&)
-extern "C" bool MonoIO_Close_m17131 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_Close_m17178 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.MonoIO::Read(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.IO.MonoIOError&)
-extern "C" int32_t MonoIO_Read_m17132 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___dest, int32_t ___dest_offset, int32_t ___count, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoIO_Read_m17179 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___dest, int32_t ___dest_offset, int32_t ___count, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.MonoIO::Write(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.IO.MonoIOError&)
-extern "C" int32_t MonoIO_Write_m17133 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___src, int32_t ___src_offset, int32_t ___count, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoIO_Write_m17180 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___src, int32_t ___src_offset, int32_t ___count, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.MonoIO::Seek(System.IntPtr,System.Int64,System.IO.SeekOrigin,System.IO.MonoIOError&)
-extern "C" int64_t MonoIO_Seek_m17134 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int64_t ___offset, int32_t ___origin, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t MonoIO_Seek_m17181 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int64_t ___offset, int32_t ___origin, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.MonoIO::GetLength(System.IntPtr,System.IO.MonoIOError&)
-extern "C" int64_t MonoIO_GetLength_m17135 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t MonoIO_GetLength_m17182 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MonoIO::SetLength(System.IntPtr,System.Int64,System.IO.MonoIOError&)
-extern "C" bool MonoIO_SetLength_m17136 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int64_t ___length, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoIO_SetLength_m17183 (Object_t * __this /* static, unused */, IntPtr_t ___handle, int64_t ___length, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.IO.MonoIO::get_ConsoleOutput()
-extern "C" IntPtr_t MonoIO_get_ConsoleOutput_m17137 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t MonoIO_get_ConsoleOutput_m17184 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.IO.MonoIO::get_ConsoleInput()
-extern "C" IntPtr_t MonoIO_get_ConsoleInput_m17138 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t MonoIO_get_ConsoleInput_m17185 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.IO.MonoIO::get_ConsoleError()
-extern "C" IntPtr_t MonoIO_get_ConsoleError_m17139 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t MonoIO_get_ConsoleError_m17186 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.IO.MonoIO::get_VolumeSeparatorChar()
-extern "C" uint16_t MonoIO_get_VolumeSeparatorChar_m17140 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t MonoIO_get_VolumeSeparatorChar_m17187 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.IO.MonoIO::get_DirectorySeparatorChar()
-extern "C" uint16_t MonoIO_get_DirectorySeparatorChar_m17141 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t MonoIO_get_DirectorySeparatorChar_m17188 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.IO.MonoIO::get_AltDirectorySeparatorChar()
-extern "C" uint16_t MonoIO_get_AltDirectorySeparatorChar_m17142 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t MonoIO_get_AltDirectorySeparatorChar_m17189 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.IO.MonoIO::get_PathSeparator()
-extern "C" uint16_t MonoIO_get_PathSeparator_m17143 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t MonoIO_get_PathSeparator_m17190 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

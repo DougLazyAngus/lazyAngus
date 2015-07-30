@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // <>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>>
-struct U3CU3Ef__AnonymousType1_2_t1317;
+struct U3CU3Ef__AnonymousType1_2_t1324;
 // <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>
-struct U3CU3Ef__AnonymousType0_2_t1322;
+struct U3CU3Ef__AnonymousType0_2_t1329;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,<>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>>>
-struct  Func_2_t1144  : public MulticastDelegate_t388
+struct  Func_2_t1151  : public MulticastDelegate_t388
 {
 };

@@ -19,13 +19,9 @@
 			<method name="Play"/>
 		</type>
 		<type fullname="RateMeDialog">
-			<method name="RemindMeLater"/>
 			<method name="RateThis"/>
+			<method name="RemindMeLater"/>
 			<method name="NoThanks"/>
-		</type>
-		<type fullname="PlayLevelHandler">
-			<method name="Play"/>
-			<method name="Play"/>
 		</type>
 		<type fullname="SoundController">
 			<method name="ToggleSoundsMuted"/>
@@ -33,6 +29,10 @@
 		</type>
 		<type fullname="RestartGameHandler">
 			<method name="RestartGame"/>
+		</type>
+		<type fullname="PlayLevelHandler">
+			<method name="Play"/>
+			<method name="Play"/>
 		</type>
 		<type fullname="PausePlayToggle">
 			<method name="TogglePausePlay"/>

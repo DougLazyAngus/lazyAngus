@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseObject/<>c__DisplayClass1c
-struct U3CU3Ec__DisplayClass1c_t1193;
+struct U3CU3Ec__DisplayClass1c_t1200;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1327;
+struct Task_1_t1334;
 // System.Threading.Tasks.Task
-struct Task_t1148;
+struct Task_t1155;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass1c::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1c__ctor_m6457 (U3CU3Ec__DisplayClass1c_t1193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1c__ctor_m6503 (U3CU3Ec__DisplayClass1c_t1200 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseObject/<>c__DisplayClass1c::<FetchAsyncInternal>b__1a(System.Threading.Tasks.Task)
-extern "C" Task_1_t1327 * U3CU3Ec__DisplayClass1c_U3CFetchAsyncInternalU3Eb__1a_m6458 (U3CU3Ec__DisplayClass1c_t1193 * __this, Task_t1148 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1334 * U3CU3Ec__DisplayClass1c_U3CFetchAsyncInternalU3Eb__1a_m6504 (U3CU3Ec__DisplayClass1c_t1200 * __this, Task_t1155 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

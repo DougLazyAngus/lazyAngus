@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable/KeyMarker
-struct KeyMarker_t4385;
+struct KeyMarker_t4393;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Hashtable/KeyMarker
-struct  KeyMarker_t4385  : public Object_t
+struct  KeyMarker_t4393  : public Object_t
 {
 };
-struct KeyMarker_t4385_StaticFields{
+struct KeyMarker_t4393_StaticFields{
 	// System.Collections.Hashtable/KeyMarker System.Collections.Hashtable/KeyMarker::Removed
-	KeyMarker_t4385 * ___Removed_0;
+	KeyMarker_t4393 * ___Removed_0;
 };

@@ -5,7 +5,7 @@ struct Object_t;
 // System.Collections.ArrayList/ArrayListWrapper
 #include "mscorlib_System_Collections_ArrayList_ArrayListWrapper.h"
 // System.Collections.ArrayList/SynchronizedArrayListWrapper
-struct  SynchronizedArrayListWrapper_t4378  : public ArrayListWrapper_t4377
+struct  SynchronizedArrayListWrapper_t4386  : public ArrayListWrapper_t4385
 {
 	// System.Object System.Collections.ArrayList/SynchronizedArrayListWrapper::m_SyncRoot
 	Object_t * ___m_SyncRoot_6;

@@ -13,7 +13,7 @@ struct Canvas_t458;
 // UnityEngine.UI.CanvasScaler/Unit
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
 // UnityEngine.UI.CanvasScaler
-struct  CanvasScaler_t925  : public UIBehaviour_t778
+struct  CanvasScaler_t932  : public UIBehaviour_t785
 {
 	// UnityEngine.UI.CanvasScaler/ScaleMode UnityEngine.UI.CanvasScaler::m_UiScaleMode
 	int32_t ___m_UiScaleMode_3;

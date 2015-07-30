@@ -1,4 +1,4 @@
-//Generated on : 7/28/2015 12:35:26 PM
+//Generated on : 7/30/2015 3:09:27 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -258,10 +258,6 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Vector3 UnityEngine.Camera::INTERNAL_CALL_WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3&)
 		void Register_UnityEngine_Camera_INTERNAL_CALL_WorldToScreenPoint();
 		Register_UnityEngine_Camera_INTERNAL_CALL_WorldToScreenPoint();
-
-		//UnityEngine.Vector3 UnityEngine.Camera::INTERNAL_CALL_WorldToViewportPoint(UnityEngine.Camera,UnityEngine.Vector3&)
-		void Register_UnityEngine_Camera_INTERNAL_CALL_WorldToViewportPoint();
-		Register_UnityEngine_Camera_INTERNAL_CALL_WorldToViewportPoint();
 
 	//End Registrations for type : UnityEngine.Camera
 
@@ -1194,6 +1190,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Object_INTERNAL_CALL_Internal_InstantiateSingle();
 		Register_UnityEngine_Object_INTERNAL_CALL_Internal_InstantiateSingle();
+
+		//UnityEngine.Object UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)
+		void Register_UnityEngine_Object_Internal_CloneSingle();
+		Register_UnityEngine_Object_Internal_CloneSingle();
 
 		//UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type)
 		void Register_UnityEngine_Object_FindObjectsOfType();

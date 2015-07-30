@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Link
-struct Link_t4374;
+struct Link_t4382;
 

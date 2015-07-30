@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.Calendar
-struct Calendar_t4407;
+struct Calendar_t4415;
 // System.Int32[]
-struct Int32U5BU5D_t539;
+struct Int32U5BU5D_t547;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.DateTime
@@ -16,14 +16,14 @@ struct StringU5BU5D_t75;
 #include "mscorlib_System_DayOfWeek.h"
 
 // System.Void System.Globalization.Calendar::.ctor()
-extern "C" void Calendar__ctor_m16797 (Calendar_t4407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Calendar__ctor_m16844 (Calendar_t4415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.Calendar::get_Eras()
 // System.Void System.Globalization.Calendar::CheckReadOnly()
-extern "C" void Calendar_CheckReadOnly_m16798 (Calendar_t4407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Calendar_CheckReadOnly_m16845 (Calendar_t4415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.Calendar::GetDayOfMonth(System.DateTime)
 // System.DayOfWeek System.Globalization.Calendar::GetDayOfWeek(System.DateTime)
 // System.Int32 System.Globalization.Calendar::GetEra(System.DateTime)
 // System.Int32 System.Globalization.Calendar::GetMonth(System.DateTime)
 // System.Int32 System.Globalization.Calendar::GetYear(System.DateTime)
 // System.String[] System.Globalization.Calendar::get_EraNames()
-extern "C" StringU5BU5D_t75* Calendar_get_EraNames_m16799 (Calendar_t4407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* Calendar_get_EraNames_m16846 (Calendar_t4415 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

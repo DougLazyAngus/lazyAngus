@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Position
-struct Position_t4072;
+struct Position_t4080;
 

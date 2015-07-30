@@ -5,7 +5,7 @@ struct Dictionary_2_t128;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
-struct  ValueCollection_t5442  : public Object_t
+struct  ValueCollection_t5450  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::dictionary
 	Dictionary_2_t128 * ___dictionary_0;

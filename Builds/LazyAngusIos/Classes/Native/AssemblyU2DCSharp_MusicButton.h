@@ -3,11 +3,11 @@
 // UnityEngine.Sprite
 struct Sprite_t472;
 // UnityEngine.UI.Image
-struct Image_t541;
+struct Image_t549;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MusicButton
-struct  MusicButton_t560  : public MonoBehaviour_t13
+struct  MusicButton_t568  : public MonoBehaviour_t13
 {
 	// System.Boolean MusicButton::registeredForEvents
 	bool ___registeredForEvents_2;
@@ -16,5 +16,5 @@ struct  MusicButton_t560  : public MonoBehaviour_t13
 	// UnityEngine.Sprite MusicButton::offSprite
 	Sprite_t472 * ___offSprite_4;
 	// UnityEngine.UI.Image MusicButton::buttonImage
-	Image_t541 * ___buttonImage_5;
+	Image_t549 * ___buttonImage_5;
 };

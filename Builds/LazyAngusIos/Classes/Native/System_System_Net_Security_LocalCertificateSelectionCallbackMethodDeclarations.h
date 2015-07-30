@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Security.LocalCertificateSelectionCallback
-struct LocalCertificateSelectionCallback_t3929;
+struct LocalCertificateSelectionCallback_t3937;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3824;
+struct X509Certificate_t3832;
 // System.String
 struct String_t;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t3823;
+struct X509CertificateCollection_t3831;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.IAsyncResult
@@ -24,14 +24,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Net.Security.LocalCertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void LocalCertificateSelectionCallback__ctor_m14714 (LocalCertificateSelectionCallback_t3929 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalCertificateSelectionCallback__ctor_m14761 (LocalCertificateSelectionCallback_t3937 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Security.LocalCertificateSelectionCallback::Invoke(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
-extern "C" X509Certificate_t3824 * LocalCertificateSelectionCallback_Invoke_m14715 (LocalCertificateSelectionCallback_t3929 * __this, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3823 * ___localCertificates, X509Certificate_t3824 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3832 * LocalCertificateSelectionCallback_Invoke_m14762 (LocalCertificateSelectionCallback_t3937 * __this, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3831 * ___localCertificates, X509Certificate_t3832 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String
 #include "mscorlib_System_String.h"
 #include "mscorlib_ArrayTypes.h"
-extern "C" X509Certificate_t3824 * pinvoke_delegate_wrapper_LocalCertificateSelectionCallback_t3929(Il2CppObject* delegate, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3823 * ___localCertificates, X509Certificate_t3824 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers);
+extern "C" X509Certificate_t3832 * pinvoke_delegate_wrapper_LocalCertificateSelectionCallback_t3937(Il2CppObject* delegate, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3831 * ___localCertificates, X509Certificate_t3832 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers);
 // System.IAsyncResult System.Net.Security.LocalCertificateSelectionCallback::BeginInvoke(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.AsyncCallback,System.Object)
-extern "C" Object_t * LocalCertificateSelectionCallback_BeginInvoke_m14716 (LocalCertificateSelectionCallback_t3929 * __this, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3823 * ___localCertificates, X509Certificate_t3824 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * LocalCertificateSelectionCallback_BeginInvoke_m14763 (LocalCertificateSelectionCallback_t3937 * __this, Object_t * ___sender, String_t* ___targetHost, X509CertificateCollection_t3831 * ___localCertificates, X509Certificate_t3832 * ___remoteCertificate, StringU5BU5D_t75* ___acceptableIssuers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Security.LocalCertificateSelectionCallback::EndInvoke(System.IAsyncResult)
-extern "C" X509Certificate_t3824 * LocalCertificateSelectionCallback_EndInvoke_m14717 (LocalCertificateSelectionCallback_t3929 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3832 * LocalCertificateSelectionCallback_EndInvoke_m14764 (LocalCertificateSelectionCallback_t3937 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

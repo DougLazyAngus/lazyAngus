@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaDerivationMethod
-struct  XmlSchemaDerivationMethod_t3092 
+struct  XmlSchemaDerivationMethod_t3100 
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaDerivationMethod::value__
 	int32_t ___value___1;

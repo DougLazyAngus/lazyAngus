@@ -5,35 +5,35 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.ColorBlock
-struct ColorBlock_t843;
+struct ColorBlock_t850;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.UI.ColorBlock
 #include "UnityEngine_UI_UnityEngine_UI_ColorBlock.h"
 
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_normalColor()
-extern "C" Color_t325  ColorBlock_get_normalColor_m4587 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  ColorBlock_get_normalColor_m4634 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_normalColor(UnityEngine.Color)
-extern "C" void ColorBlock_set_normalColor_m4588 (ColorBlock_t843 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_normalColor_m4635 (ColorBlock_t850 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_highlightedColor()
-extern "C" Color_t325  ColorBlock_get_highlightedColor_m4589 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  ColorBlock_get_highlightedColor_m4636 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_highlightedColor(UnityEngine.Color)
-extern "C" void ColorBlock_set_highlightedColor_m4590 (ColorBlock_t843 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_highlightedColor_m4637 (ColorBlock_t850 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_pressedColor()
-extern "C" Color_t325  ColorBlock_get_pressedColor_m4591 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  ColorBlock_get_pressedColor_m4638 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_pressedColor(UnityEngine.Color)
-extern "C" void ColorBlock_set_pressedColor_m4592 (ColorBlock_t843 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_pressedColor_m4639 (ColorBlock_t850 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_disabledColor()
-extern "C" Color_t325  ColorBlock_get_disabledColor_m4593 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  ColorBlock_get_disabledColor_m4640 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_disabledColor(UnityEngine.Color)
-extern "C" void ColorBlock_set_disabledColor_m4594 (ColorBlock_t843 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_disabledColor_m4641 (ColorBlock_t850 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.ColorBlock::get_colorMultiplier()
-extern "C" float ColorBlock_get_colorMultiplier_m4595 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float ColorBlock_get_colorMultiplier_m4642 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_colorMultiplier(System.Single)
-extern "C" void ColorBlock_set_colorMultiplier_m4596 (ColorBlock_t843 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_colorMultiplier_m4643 (ColorBlock_t850 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.ColorBlock::get_fadeDuration()
-extern "C" float ColorBlock_get_fadeDuration_m4597 (ColorBlock_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float ColorBlock_get_fadeDuration_m4644 (ColorBlock_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ColorBlock::set_fadeDuration(System.Single)
-extern "C" void ColorBlock_set_fadeDuration_m4598 (ColorBlock_t843 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorBlock_set_fadeDuration_m4645 (ColorBlock_t850 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.ColorBlock UnityEngine.UI.ColorBlock::get_defaultColorBlock()
-extern "C" ColorBlock_t843  ColorBlock_get_defaultColorBlock_m4599 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ColorBlock_t850  ColorBlock_get_defaultColorBlock_m4646 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

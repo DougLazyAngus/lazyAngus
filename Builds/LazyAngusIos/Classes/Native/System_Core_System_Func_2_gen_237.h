@@ -9,6 +9,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Object,System.Double>
-struct  Func_2_t6667  : public MulticastDelegate_t388
+struct  Func_2_t6675  : public MulticastDelegate_t388
 {
 };

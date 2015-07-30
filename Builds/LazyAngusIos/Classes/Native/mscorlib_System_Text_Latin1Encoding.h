@@ -3,6 +3,6 @@
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.Latin1Encoding
-struct  Latin1Encoding_t4701  : public Encoding_t681
+struct  Latin1Encoding_t4709  : public Encoding_t689
 {
 };

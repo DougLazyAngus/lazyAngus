@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
-struct ObjRefSurrogate_t4563;
+struct ObjRefSurrogate_t4571;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2860;
+struct SerializationInfo_t2867;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t4564;
+struct ISurrogateSelector_t4572;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.Messaging.ObjRefSurrogate::.ctor()
-extern "C" void ObjRefSurrogate__ctor_m18013 (ObjRefSurrogate_t4563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRefSurrogate__ctor_m18060 (ObjRefSurrogate_t4571 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.ObjRefSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
-extern "C" Object_t * ObjRefSurrogate_SetObjectData_m18014 (ObjRefSurrogate_t4563 * __this, Object_t * ___obj, SerializationInfo_t2860 * ___si, StreamingContext_t2861  ___sc, Object_t * ___selector, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjRefSurrogate_SetObjectData_m18061 (ObjRefSurrogate_t4571 * __this, Object_t * ___obj, SerializationInfo_t2867 * ___si, StreamingContext_t2868  ___sc, Object_t * ___selector, const MethodInfo* method) IL2CPP_METHOD_ATTR;

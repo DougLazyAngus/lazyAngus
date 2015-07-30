@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct List_1_t782;
+struct List_1_t789;
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t781;
+struct Entry_t788;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Enumerator_t5712 
+struct  Enumerator_t5720 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::l
-	List_1_t782 * ___l_0;
+	List_1_t789 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::current
-	Entry_t781 * ___current_3;
+	Entry_t788 * ___current_3;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CanvasScaler/ScreenMatchMode
-struct ScreenMatchMode_t923;
+struct ScreenMatchMode_t930;
 

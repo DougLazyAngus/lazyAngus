@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Action`1<System.Uri>
-struct Action_1_t1108;
+struct Action_1_t1115;
 // System.Object
 struct Object_t;
 // System.Uri
-struct Uri_t699;
+struct Uri_t707;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<System.Uri>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m30593(__this, ___object, ___method, method) (( void (*) (Action_1_t1108 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22912_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m30640(__this, ___object, ___method, method) (( void (*) (Action_1_t1115 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22959_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Uri>::Invoke(T)
-#define Action_1_Invoke_m30594(__this, ___obj, method) (( void (*) (Action_1_t1108 *, Uri_t699 *, const MethodInfo*))Action_1_Invoke_m22914_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m30641(__this, ___obj, method) (( void (*) (Action_1_t1115 *, Uri_t707 *, const MethodInfo*))Action_1_Invoke_m22961_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Uri>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m30595(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1108 *, Uri_t699 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22916_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m30642(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1115 *, Uri_t707 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22963_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Uri>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m30596(__this, ___result, method) (( void (*) (Action_1_t1108 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22918_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m30643(__this, ___result, method) (( void (*) (Action_1_t1115 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22965_gshared)(__this, ___result, method)

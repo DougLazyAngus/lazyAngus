@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.EventHandler`1<System.Object>
-struct EventHandler_1_t5915;
+struct EventHandler_1_t5923;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void EventHandler_1__ctor_m30302_gshared (EventHandler_1_t5915 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define EventHandler_1__ctor_m30302(__this, ___object, ___method, method) (( void (*) (EventHandler_1_t5915 *, Object_t *, IntPtr_t, const MethodInfo*))EventHandler_1__ctor_m30302_gshared)(__this, ___object, ___method, method)
+extern "C" void EventHandler_1__ctor_m30349_gshared (EventHandler_1_t5923 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define EventHandler_1__ctor_m30349(__this, ___object, ___method, method) (( void (*) (EventHandler_1_t5923 *, Object_t *, IntPtr_t, const MethodInfo*))EventHandler_1__ctor_m30349_gshared)(__this, ___object, ___method, method)
 // System.Void System.EventHandler`1<System.Object>::Invoke(System.Object,TEventArgs)
-extern "C" void EventHandler_1_Invoke_m30303_gshared (EventHandler_1_t5915 * __this, Object_t * ___sender, Object_t * ___e, const MethodInfo* method);
-#define EventHandler_1_Invoke_m30303(__this, ___sender, ___e, method) (( void (*) (EventHandler_1_t5915 *, Object_t *, Object_t *, const MethodInfo*))EventHandler_1_Invoke_m30303_gshared)(__this, ___sender, ___e, method)
+extern "C" void EventHandler_1_Invoke_m30350_gshared (EventHandler_1_t5923 * __this, Object_t * ___sender, Object_t * ___e, const MethodInfo* method);
+#define EventHandler_1_Invoke_m30350(__this, ___sender, ___e, method) (( void (*) (EventHandler_1_t5923 *, Object_t *, Object_t *, const MethodInfo*))EventHandler_1_Invoke_m30350_gshared)(__this, ___sender, ___e, method)
 // System.IAsyncResult System.EventHandler`1<System.Object>::BeginInvoke(System.Object,TEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * EventHandler_1_BeginInvoke_m30304_gshared (EventHandler_1_t5915 * __this, Object_t * ___sender, Object_t * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define EventHandler_1_BeginInvoke_m30304(__this, ___sender, ___e, ___callback, ___object, method) (( Object_t * (*) (EventHandler_1_t5915 *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventHandler_1_BeginInvoke_m30304_gshared)(__this, ___sender, ___e, ___callback, ___object, method)
+extern "C" Object_t * EventHandler_1_BeginInvoke_m30351_gshared (EventHandler_1_t5923 * __this, Object_t * ___sender, Object_t * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define EventHandler_1_BeginInvoke_m30351(__this, ___sender, ___e, ___callback, ___object, method) (( Object_t * (*) (EventHandler_1_t5923 *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventHandler_1_BeginInvoke_m30351_gshared)(__this, ___sender, ___e, ___callback, ___object, method)
 // System.Void System.EventHandler`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void EventHandler_1_EndInvoke_m30305_gshared (EventHandler_1_t5915 * __this, Object_t * ___result, const MethodInfo* method);
-#define EventHandler_1_EndInvoke_m30305(__this, ___result, method) (( void (*) (EventHandler_1_t5915 *, Object_t *, const MethodInfo*))EventHandler_1_EndInvoke_m30305_gshared)(__this, ___result, method)
+extern "C" void EventHandler_1_EndInvoke_m30352_gshared (EventHandler_1_t5923 * __this, Object_t * ___result, const MethodInfo* method);
+#define EventHandler_1_EndInvoke_m30352(__this, ___result, method) (( void (*) (EventHandler_1_t5923 *, Object_t *, const MethodInfo*))EventHandler_1_EndInvoke_m30352_gshared)(__this, ___result, method)

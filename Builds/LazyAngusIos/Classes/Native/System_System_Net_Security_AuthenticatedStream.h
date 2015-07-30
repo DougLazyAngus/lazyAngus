@@ -5,7 +5,7 @@ struct Stream_t51;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.Net.Security.AuthenticatedStream
-struct  AuthenticatedStream_t3924  : public Stream_t51
+struct  AuthenticatedStream_t3932  : public Stream_t51
 {
 	// System.IO.Stream System.Net.Security.AuthenticatedStream::innerStream
 	Stream_t51 * ___innerStream_1;

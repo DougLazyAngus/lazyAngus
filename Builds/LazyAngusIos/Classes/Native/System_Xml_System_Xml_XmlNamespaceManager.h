@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNamespaceManager/NsDecl[]
-struct NsDeclU5BU5D_t3180;
+struct NsDeclU5BU5D_t3188;
 // System.Xml.XmlNamespaceManager/NsScope[]
-struct NsScopeU5BU5D_t3181;
+struct NsScopeU5BU5D_t3189;
 // System.String
 struct String_t;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3123;
+struct XmlNameTable_t3131;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNamespaceManager
-struct  XmlNamespaceManager_t3182  : public Object_t
+struct  XmlNamespaceManager_t3190  : public Object_t
 {
 	// System.Xml.XmlNamespaceManager/NsDecl[] System.Xml.XmlNamespaceManager::decls
-	NsDeclU5BU5D_t3180* ___decls_0;
+	NsDeclU5BU5D_t3188* ___decls_0;
 	// System.Int32 System.Xml.XmlNamespaceManager::declPos
 	int32_t ___declPos_1;
 	// System.Xml.XmlNamespaceManager/NsScope[] System.Xml.XmlNamespaceManager::scopes
-	NsScopeU5BU5D_t3181* ___scopes_2;
+	NsScopeU5BU5D_t3189* ___scopes_2;
 	// System.Int32 System.Xml.XmlNamespaceManager::scopePos
 	int32_t ___scopePos_3;
 	// System.String System.Xml.XmlNamespaceManager::defaultNamespace
@@ -28,11 +28,11 @@ struct  XmlNamespaceManager_t3182  : public Object_t
 	// System.Int32 System.Xml.XmlNamespaceManager::count
 	int32_t ___count_5;
 	// System.Xml.XmlNameTable System.Xml.XmlNamespaceManager::nameTable
-	XmlNameTable_t3123 * ___nameTable_6;
+	XmlNameTable_t3131 * ___nameTable_6;
 	// System.Boolean System.Xml.XmlNamespaceManager::internalAtomizedNames
 	bool ___internalAtomizedNames_7;
 };
-struct XmlNamespaceManager_t3182_StaticFields{
+struct XmlNamespaceManager_t3190_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNamespaceManager::<>f__switch$map28
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map28_8;
 };

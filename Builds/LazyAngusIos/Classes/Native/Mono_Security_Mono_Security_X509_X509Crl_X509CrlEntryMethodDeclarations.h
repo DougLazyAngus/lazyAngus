@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509Crl/X509CrlEntry
-struct X509CrlEntry_t3760;
+struct X509CrlEntry_t3768;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t3754;
+struct X509ExtensionCollection_t3762;
 // Mono.Security.ASN1
-struct ASN1_t3726;
+struct ASN1_t3734;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
 // System.Void Mono.Security.X509.X509Crl/X509CrlEntry::.ctor(Mono.Security.ASN1)
-extern "C" void X509CrlEntry__ctor_m12217 (X509CrlEntry_t3760 * __this, ASN1_t3726 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509CrlEntry__ctor_m12264 (X509CrlEntry_t3768 * __this, ASN1_t3734 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.X509Crl/X509CrlEntry::get_SerialNumber()
-extern "C" ByteU5BU5D_t66* X509CrlEntry_get_SerialNumber_m12218 (X509CrlEntry_t3760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* X509CrlEntry_get_SerialNumber_m12265 (X509CrlEntry_t3768 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime Mono.Security.X509.X509Crl/X509CrlEntry::get_RevocationDate()
-extern "C" DateTime_t287  X509CrlEntry_get_RevocationDate_m12219 (X509CrlEntry_t3760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  X509CrlEntry_get_RevocationDate_m12266 (X509CrlEntry_t3768 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl/X509CrlEntry::get_Extensions()
-extern "C" X509ExtensionCollection_t3754 * X509CrlEntry_get_Extensions_m12220 (X509CrlEntry_t3760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ExtensionCollection_t3762 * X509CrlEntry_get_Extensions_m12267 (X509CrlEntry_t3768 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

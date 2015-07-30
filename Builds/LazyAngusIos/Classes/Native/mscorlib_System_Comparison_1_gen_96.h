@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.UICharInfo>
-struct  Comparison_1_t8352  : public MulticastDelegate_t388
+struct  Comparison_1_t8360  : public MulticastDelegate_t388
 {
 };

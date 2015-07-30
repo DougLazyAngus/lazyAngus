@@ -7,10 +7,10 @@ struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Utilities
-struct  Utilities_t616  : public Object_t
+struct  Utilities_t625  : public Object_t
 {
 };
-struct Utilities_t616_StaticFields{
+struct Utilities_t625_StaticFields{
 	// System.DateTime Utilities::epoch
 	DateTime_t287  ___epoch_2;
 };

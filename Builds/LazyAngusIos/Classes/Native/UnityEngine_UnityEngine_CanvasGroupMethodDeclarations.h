@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t590;
+struct CanvasGroup_t599;
 // UnityEngine.Camera
-struct Camera_t523;
+struct Camera_t531;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)
-extern "C" void CanvasGroup_set_alpha_m3992 (CanvasGroup_t590 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasGroup_set_alpha_m4042 (CanvasGroup_t599 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_interactable()
-extern "C" bool CanvasGroup_get_interactable_m5795 (CanvasGroup_t590 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_interactable_m5841 (CanvasGroup_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_blocksRaycasts()
-extern "C" bool CanvasGroup_get_blocksRaycasts_m9294 (CanvasGroup_t590 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_blocksRaycasts_m9340 (CanvasGroup_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_ignoreParentGroups()
-extern "C" bool CanvasGroup_get_ignoreParentGroups_m5592 (CanvasGroup_t590 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_ignoreParentGroups_m5639 (CanvasGroup_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" bool CanvasGroup_IsRaycastLocationValid_m9295 (CanvasGroup_t590 * __this, Vector2_t110  ___sp, Camera_t523 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_IsRaycastLocationValid_m9341 (CanvasGroup_t599 * __this, Vector2_t110  ___sp, Camera_t531 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;

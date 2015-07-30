@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Utilities/<LaunchAppOrWeb>c__Iterator18
-struct  U3CLaunchAppOrWebU3Ec__Iterator18_t615  : public Object_t
+struct  U3CLaunchAppOrWebU3Ec__Iterator18_t624  : public Object_t
 {
 	// System.String Utilities/<LaunchAppOrWeb>c__Iterator18::appURL
 	String_t* ___appURL_0;

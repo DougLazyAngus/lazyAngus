@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // FBLikeInfo[]
-struct FBLikeInfoU5BU5D_t5535;
+struct FBLikeInfoU5BU5D_t5543;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<FBLikeInfo>
-struct  List_1_t633  : public Object_t
+struct  List_1_t641  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<FBLikeInfo>::_items
-	FBLikeInfoU5BU5D_t5535* ____items_1;
+	FBLikeInfoU5BU5D_t5543* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<FBLikeInfo>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<FBLikeInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t633_StaticFields{
+struct List_1_t641_StaticFields{
 	// T[] System.Collections.Generic.List`1<FBLikeInfo>::EmptyArray
-	FBLikeInfoU5BU5D_t5535* ___EmptyArray_4;
+	FBLikeInfoU5BU5D_t5543* ___EmptyArray_4;
 };

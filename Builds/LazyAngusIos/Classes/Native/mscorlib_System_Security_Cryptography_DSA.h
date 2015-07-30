@@ -3,6 +3,6 @@
 // System.Security.Cryptography.AsymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_AsymmetricAlgorithm.h"
 // System.Security.Cryptography.DSA
-struct  DSA_t3753  : public AsymmetricAlgorithm_t3842
+struct  DSA_t3761  : public AsymmetricAlgorithm_t3850
 {
 };

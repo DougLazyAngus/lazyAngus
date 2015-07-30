@@ -5,7 +5,7 @@
 // System.Reflection.BindingFlags
 #include "mscorlib_System_Reflection_BindingFlags.h"
 // System.Reflection.BindingFlags
-struct  BindingFlags_t4476 
+struct  BindingFlags_t4484 
 {
 	// System.Int32 System.Reflection.BindingFlags::value__
 	int32_t ___value___1;

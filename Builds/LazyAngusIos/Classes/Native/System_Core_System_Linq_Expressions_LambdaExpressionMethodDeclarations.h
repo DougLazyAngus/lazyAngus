@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.LambdaExpression
-struct LambdaExpression_t3261;
+struct LambdaExpression_t3269;
 // System.Linq.Expressions.Expression
-struct Expression_t1460;
+struct Expression_t1467;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>
-struct ReadOnlyCollection_1_t3260;
+struct ReadOnlyCollection_1_t3268;
 // System.Type
 struct Type_t;
 
 // System.Void System.Linq.Expressions.LambdaExpression::.ctor(System.Type,System.Linq.Expressions.Expression,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>)
-extern "C" void LambdaExpression__ctor_m11284 (LambdaExpression_t3261 * __this, Type_t * ___delegateType, Expression_t1460 * ___body, ReadOnlyCollection_1_t3260 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LambdaExpression__ctor_m11331 (LambdaExpression_t3269 * __this, Type_t * ___delegateType, Expression_t1467 * ___body, ReadOnlyCollection_1_t3268 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.LambdaExpression::get_Body()
-extern "C" Expression_t1460 * LambdaExpression_get_Body_m7365 (LambdaExpression_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1467 * LambdaExpression_get_Body_m7411 (LambdaExpression_t3269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> System.Linq.Expressions.LambdaExpression::get_Parameters()
-extern "C" ReadOnlyCollection_1_t3260 * LambdaExpression_get_Parameters_m11285 (LambdaExpression_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3268 * LambdaExpression_get_Parameters_m11332 (LambdaExpression_t3269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

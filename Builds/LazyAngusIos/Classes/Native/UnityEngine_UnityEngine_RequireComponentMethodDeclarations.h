@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RequireComponent
-struct RequireComponent_t1042;
+struct RequireComponent_t1049;
 // System.Type
 struct Type_t;
 
 // System.Void UnityEngine.RequireComponent::.ctor(System.Type)
-extern "C" void RequireComponent__ctor_m5919 (RequireComponent_t1042 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequireComponent__ctor_m5965 (RequireComponent_t1049 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

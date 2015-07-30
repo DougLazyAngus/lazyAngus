@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>
-struct Func_4_t8288;
+struct Func_4_t8296;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1<System.Object>
-struct  U3CU3Ec__DisplayClass10_1_t8290  : public Object_t
+struct  U3CU3Ec__DisplayClass10_1_t8298  : public Object_t
 {
 	// System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult> System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1<System.Object>::beginMethod
-	Func_4_t8288 * ___beginMethod_0;
+	Func_4_t8296 * ___beginMethod_0;
 	// TArg1 System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1<System.Object>::arg1
 	Object_t * ___arg1_1;
 	// System.Object System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1<System.Object>::state

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Image/OriginVertical
-struct OriginVertical_t862;
+struct OriginVertical_t869;
 

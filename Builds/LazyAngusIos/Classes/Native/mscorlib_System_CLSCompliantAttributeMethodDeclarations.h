@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.CLSCompliantAttribute
-struct CLSCompliantAttribute_t3249;
+struct CLSCompliantAttribute_t3257;
 
 // System.Void System.CLSCompliantAttribute::.ctor(System.Boolean)
-extern "C" void CLSCompliantAttribute__ctor_m11186 (CLSCompliantAttribute_t3249 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CLSCompliantAttribute__ctor_m11233 (CLSCompliantAttribute_t3257 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;

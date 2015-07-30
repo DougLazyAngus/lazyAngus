@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.AccessViolationException
-struct AccessViolationException_t4720;
+struct AccessViolationException_t4728;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2860;
+struct SerializationInfo_t2867;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.AccessViolationException::.ctor()
-extern "C" void AccessViolationException__ctor_m19005 (AccessViolationException_t4720 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AccessViolationException__ctor_m19052 (AccessViolationException_t4728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.AccessViolationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void AccessViolationException__ctor_m19006 (AccessViolationException_t4720 * __this, SerializationInfo_t2860 * ___info, StreamingContext_t2861  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AccessViolationException__ctor_m19053 (AccessViolationException_t4728 * __this, SerializationInfo_t2867 * ___info, StreamingContext_t2868  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

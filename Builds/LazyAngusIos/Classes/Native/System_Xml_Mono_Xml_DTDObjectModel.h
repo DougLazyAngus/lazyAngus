@@ -1,52 +1,52 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDAutomataFactory
-struct DTDAutomataFactory_t3116;
+struct DTDAutomataFactory_t3124;
 // Mono.Xml.DTDElementDeclarationCollection
-struct DTDElementDeclarationCollection_t3117;
+struct DTDElementDeclarationCollection_t3125;
 // Mono.Xml.DTDAttListDeclarationCollection
-struct DTDAttListDeclarationCollection_t3118;
+struct DTDAttListDeclarationCollection_t3126;
 // Mono.Xml.DTDParameterEntityDeclarationCollection
-struct DTDParameterEntityDeclarationCollection_t3119;
+struct DTDParameterEntityDeclarationCollection_t3127;
 // Mono.Xml.DTDEntityDeclarationCollection
-struct DTDEntityDeclarationCollection_t3120;
+struct DTDEntityDeclarationCollection_t3128;
 // Mono.Xml.DTDNotationDeclarationCollection
-struct DTDNotationDeclarationCollection_t3121;
+struct DTDNotationDeclarationCollection_t3129;
 // System.Collections.ArrayList
-struct ArrayList_t3101;
+struct ArrayList_t3109;
 // System.Xml.XmlResolver
-struct XmlResolver_t3122;
+struct XmlResolver_t3130;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3123;
+struct XmlNameTable_t3131;
 // System.Collections.Hashtable
-struct Hashtable_t1267;
+struct Hashtable_t1274;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.DTDObjectModel
-struct  DTDObjectModel_t3115  : public Object_t
+struct  DTDObjectModel_t3123  : public Object_t
 {
 	// Mono.Xml.DTDAutomataFactory Mono.Xml.DTDObjectModel::factory
-	DTDAutomataFactory_t3116 * ___factory_0;
+	DTDAutomataFactory_t3124 * ___factory_0;
 	// Mono.Xml.DTDElementDeclarationCollection Mono.Xml.DTDObjectModel::elementDecls
-	DTDElementDeclarationCollection_t3117 * ___elementDecls_1;
+	DTDElementDeclarationCollection_t3125 * ___elementDecls_1;
 	// Mono.Xml.DTDAttListDeclarationCollection Mono.Xml.DTDObjectModel::attListDecls
-	DTDAttListDeclarationCollection_t3118 * ___attListDecls_2;
+	DTDAttListDeclarationCollection_t3126 * ___attListDecls_2;
 	// Mono.Xml.DTDParameterEntityDeclarationCollection Mono.Xml.DTDObjectModel::peDecls
-	DTDParameterEntityDeclarationCollection_t3119 * ___peDecls_3;
+	DTDParameterEntityDeclarationCollection_t3127 * ___peDecls_3;
 	// Mono.Xml.DTDEntityDeclarationCollection Mono.Xml.DTDObjectModel::entityDecls
-	DTDEntityDeclarationCollection_t3120 * ___entityDecls_4;
+	DTDEntityDeclarationCollection_t3128 * ___entityDecls_4;
 	// Mono.Xml.DTDNotationDeclarationCollection Mono.Xml.DTDObjectModel::notationDecls
-	DTDNotationDeclarationCollection_t3121 * ___notationDecls_5;
+	DTDNotationDeclarationCollection_t3129 * ___notationDecls_5;
 	// System.Collections.ArrayList Mono.Xml.DTDObjectModel::validationErrors
-	ArrayList_t3101 * ___validationErrors_6;
+	ArrayList_t3109 * ___validationErrors_6;
 	// System.Xml.XmlResolver Mono.Xml.DTDObjectModel::resolver
-	XmlResolver_t3122 * ___resolver_7;
+	XmlResolver_t3130 * ___resolver_7;
 	// System.Xml.XmlNameTable Mono.Xml.DTDObjectModel::nameTable
-	XmlNameTable_t3123 * ___nameTable_8;
+	XmlNameTable_t3131 * ___nameTable_8;
 	// System.Collections.Hashtable Mono.Xml.DTDObjectModel::externalResources
-	Hashtable_t1267 * ___externalResources_9;
+	Hashtable_t1274 * ___externalResources_9;
 	// System.String Mono.Xml.DTDObjectModel::baseURI
 	String_t* ___baseURI_10;
 	// System.String Mono.Xml.DTDObjectModel::name

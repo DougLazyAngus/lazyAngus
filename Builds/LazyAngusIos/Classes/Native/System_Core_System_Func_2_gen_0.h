@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Toggle
-struct Toggle_t916;
+struct Toggle_t923;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
-struct  Func_2_t919  : public MulticastDelegate_t388
+struct  Func_2_t926  : public MulticastDelegate_t388
 {
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Version
-struct Version_t1324;
+struct Version_t1331;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.HttpVersion
-struct  HttpVersion_t3995  : public Object_t
+struct  HttpVersion_t4003  : public Object_t
 {
 };
-struct HttpVersion_t3995_StaticFields{
+struct HttpVersion_t4003_StaticFields{
 	// System.Version System.Net.HttpVersion::Version10
-	Version_t1324 * ___Version10_0;
+	Version_t1331 * ___Version10_0;
 	// System.Version System.Net.HttpVersion::Version11
-	Version_t1324 * ___Version11_1;
+	Version_t1331 * ___Version11_1;
 };

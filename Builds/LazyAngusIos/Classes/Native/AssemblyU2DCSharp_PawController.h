@@ -3,11 +3,7 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Collider2D
-struct Collider2D_t569;
-// GameController
-struct GameController_t504;
-// BoostConfig
-struct BoostConfig_t456;
+struct Collider2D_t577;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.MonoBehaviour
@@ -17,10 +13,10 @@ struct Transform_t406;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController
-struct  PawController_t489  : public MonoBehaviour_t13
+struct  PawController_t493  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 PawController::swipeLocationCat
-	Vector3_t493  ___swipeLocationCat_2;
+	Vector3_t497  ___swipeLocationCat_2;
 	// PawController/SwipePhase PawController::swipePhase
 	int32_t ___swipePhase_3;
 	// System.Single PawController::pauseStarted
@@ -34,23 +30,19 @@ struct  PawController_t489  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PawController::bigDangerPawSpriteGameObject
 	GameObject_t352 * ___bigDangerPawSpriteGameObject_8;
 	// UnityEngine.Collider2D PawController::normalCollider
-	Collider2D_t569 * ___normalCollider_9;
+	Collider2D_t577 * ___normalCollider_9;
 	// UnityEngine.Collider2D PawController::bigCollider
-	Collider2D_t569 * ___bigCollider_10;
+	Collider2D_t577 * ___bigCollider_10;
 	// System.Single PawController::swipeSpeed
 	float ___swipeSpeed_11;
 	// System.Int32 PawController::killsThisSwipe
 	int32_t ___killsThisSwipe_12;
-	// GameController PawController::gameController
-	GameController_t504 * ___gameController_13;
 	// System.Boolean PawController::registerdForEvents
-	bool ___registerdForEvents_14;
-	// BoostConfig PawController::boostConfig
-	BoostConfig_t456 * ___boostConfig_15;
+	bool ___registerdForEvents_13;
 	// UnityEngine.Transform PawController::pawHomeCatTransform
-	Transform_t406 * ___pawHomeCatTransform_16;
+	Transform_t406 * ___pawHomeCatTransform_14;
 	// UnityEngine.Transform PawController::shoulderJointCatTransform
-	Transform_t406 * ___shoulderJointCatTransform_17;
+	Transform_t406 * ___shoulderJointCatTransform_15;
 	// System.Single PawController::pawHomeCatTransformMagnitude
-	float ___pawHomeCatTransformMagnitude_18;
+	float ___pawHomeCatTransformMagnitude_16;
 };

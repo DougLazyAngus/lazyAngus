@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>
-struct  IdentityEqualityComparer_1_t1445  : public Object_t
+struct  IdentityEqualityComparer_1_t1452  : public Object_t
 {
 };

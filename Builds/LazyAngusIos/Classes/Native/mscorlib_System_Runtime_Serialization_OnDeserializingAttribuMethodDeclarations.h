@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.OnDeserializingAttribute
-struct OnDeserializingAttribute_t4616;
+struct OnDeserializingAttribute_t4624;
 

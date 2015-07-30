@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.ConformanceLevel
-struct ConformanceLevel_t3114;
+struct ConformanceLevel_t3122;
 

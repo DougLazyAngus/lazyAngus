@@ -7,15 +7,15 @@
 // UnityEngine.Mesh
 struct Mesh_t481;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t732;
+struct Vector3U5BU5D_t505;
 // System.Int32[]
-struct Int32U5BU5D_t539;
+struct Int32U5BU5D_t547;
 
 // System.Void UnityEngine.Mesh::.ctor()
-extern "C" void Mesh__ctor_m3876 (Mesh_t481 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mesh__ctor_m3920 (Mesh_t481 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::Internal_Create(UnityEngine.Mesh)
-extern "C" void Mesh_Internal_Create_m8457 (Object_t * __this /* static, unused */, Mesh_t481 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mesh_Internal_Create_m8503 (Object_t * __this /* static, unused */, Mesh_t481 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::set_vertices(UnityEngine.Vector3[])
-extern "C" void Mesh_set_vertices_m3878 (Mesh_t481 * __this, Vector3U5BU5D_t732* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mesh_set_vertices_m3922 (Mesh_t481 * __this, Vector3U5BU5D_t505* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::set_triangles(System.Int32[])
-extern "C" void Mesh_set_triangles_m3879 (Mesh_t481 * __this, Int32U5BU5D_t539* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mesh_set_triangles_m3923 (Mesh_t481 * __this, Int32U5BU5D_t547* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

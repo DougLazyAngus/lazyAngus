@@ -37,7 +37,11 @@ public class TwitterSharing : MonoBehaviour {
 		
 		message = message + " " + Utilities.appURL + " #LazyAngus";
 		string appURL = AppLaunch + "?text=" + WWW.EscapeURL (message);
-		
+
+		// OK the appURL For twitter doesn't seem to handle '+', maybe it wants 
+		// %20?
+		appURL = appURL.Replace ("+", "%20");
+
 		StartCoroutine (Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
-struct EventFunction_1_t983;
+struct EventFunction_1_t990;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t775;
+struct BaseEventData_t782;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void EventFunction_1__ctor_m26849_gshared (EventFunction_1_t983 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define EventFunction_1__ctor_m26849(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t983 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m26849_gshared)(__this, ___object, ___method, method)
+extern "C" void EventFunction_1__ctor_m26896_gshared (EventFunction_1_t990 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define EventFunction_1__ctor_m26896(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t990 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m26896_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
-extern "C" void EventFunction_1_Invoke_m26851_gshared (EventFunction_1_t983 * __this, Object_t * ___handler, BaseEventData_t775 * ___eventData, const MethodInfo* method);
-#define EventFunction_1_Invoke_m26851(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t983 *, Object_t *, BaseEventData_t775 *, const MethodInfo*))EventFunction_1_Invoke_m26851_gshared)(__this, ___handler, ___eventData, method)
+extern "C" void EventFunction_1_Invoke_m26898_gshared (EventFunction_1_t990 * __this, Object_t * ___handler, BaseEventData_t782 * ___eventData, const MethodInfo* method);
+#define EventFunction_1_Invoke_m26898(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t990 *, Object_t *, BaseEventData_t782 *, const MethodInfo*))EventFunction_1_Invoke_m26898_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)
-extern "C" Object_t * EventFunction_1_BeginInvoke_m26853_gshared (EventFunction_1_t983 * __this, Object_t * ___handler, BaseEventData_t775 * ___eventData, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define EventFunction_1_BeginInvoke_m26853(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t983 *, Object_t *, BaseEventData_t775 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m26853_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
+extern "C" Object_t * EventFunction_1_BeginInvoke_m26900_gshared (EventFunction_1_t990 * __this, Object_t * ___handler, BaseEventData_t782 * ___eventData, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define EventFunction_1_BeginInvoke_m26900(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t990 *, Object_t *, BaseEventData_t782 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m26900_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void EventFunction_1_EndInvoke_m26855_gshared (EventFunction_1_t983 * __this, Object_t * ___result, const MethodInfo* method);
-#define EventFunction_1_EndInvoke_m26855(__this, ___result, method) (( void (*) (EventFunction_1_t983 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m26855_gshared)(__this, ___result, method)
+extern "C" void EventFunction_1_EndInvoke_m26902_gshared (EventFunction_1_t990 * __this, Object_t * ___result, const MethodInfo* method);
+#define EventFunction_1_EndInvoke_m26902(__this, ___result, method) (( void (*) (EventFunction_1_t990 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m26902_gshared)(__this, ___result, method)

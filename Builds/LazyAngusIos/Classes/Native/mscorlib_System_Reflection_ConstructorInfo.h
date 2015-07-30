@@ -5,10 +5,10 @@ struct String_t;
 // System.Reflection.MethodBase
 #include "mscorlib_System_Reflection_MethodBase.h"
 // System.Reflection.ConstructorInfo
-struct  ConstructorInfo_t1321  : public MethodBase_t1465
+struct  ConstructorInfo_t1328  : public MethodBase_t1472
 {
 };
-struct ConstructorInfo_t1321_StaticFields{
+struct ConstructorInfo_t1328_StaticFields{
 	// System.String System.Reflection.ConstructorInfo::ConstructorName
 	String_t* ___ConstructorName_0;
 	// System.String System.Reflection.ConstructorInfo::TypeConstructorName

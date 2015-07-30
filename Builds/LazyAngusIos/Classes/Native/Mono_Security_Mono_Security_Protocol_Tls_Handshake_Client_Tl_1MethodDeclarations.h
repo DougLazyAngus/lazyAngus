@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished
-struct TlsClientFinished_t3832;
+struct TlsClientFinished_t3840;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3782;
+struct Context_t3790;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::.ctor(Mono.Security.Protocol.Tls.Context)
-extern "C" void TlsClientFinished__ctor_m12741 (TlsClientFinished_t3832 * __this, Context_t3782 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished__ctor_m12788 (TlsClientFinished_t3840 * __this, Context_t3790 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::.cctor()
-extern "C" void TlsClientFinished__cctor_m12742 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished__cctor_m12789 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::Update()
-extern "C" void TlsClientFinished_Update_m12743 (TlsClientFinished_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_Update_m12790 (TlsClientFinished_t3840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::ProcessAsSsl3()
-extern "C" void TlsClientFinished_ProcessAsSsl3_m12744 (TlsClientFinished_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_ProcessAsSsl3_m12791 (TlsClientFinished_t3840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::ProcessAsTls1()
-extern "C" void TlsClientFinished_ProcessAsTls1_m12745 (TlsClientFinished_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_ProcessAsTls1_m12792 (TlsClientFinished_t3840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

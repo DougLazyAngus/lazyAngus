@@ -5,7 +5,7 @@
 // System.Net.Sockets.SocketOptionLevel
 #include "System_System_Net_Sockets_SocketOptionLevel.h"
 // System.Net.Sockets.SocketOptionLevel
-struct  SocketOptionLevel_t3948 
+struct  SocketOptionLevel_t3956 
 {
 	// System.Int32 System.Net.Sockets.SocketOptionLevel::value__
 	int32_t ___value___1;

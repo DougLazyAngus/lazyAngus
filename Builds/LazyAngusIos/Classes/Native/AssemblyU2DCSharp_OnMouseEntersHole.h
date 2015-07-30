@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseHole
-struct MouseHole_t521;
+struct MouseHole_t529;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // OnMouseEntersHole
-struct  OnMouseEntersHole_t564  : public MonoBehaviour_t13
+struct  OnMouseEntersHole_t572  : public MonoBehaviour_t13
 {
 	// MouseHole OnMouseEntersHole::mouseHole
-	MouseHole_t521 * ___mouseHole_2;
+	MouseHole_t529 * ___mouseHole_2;
 };

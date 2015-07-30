@@ -4852,7 +4852,7 @@ extern const MethodInfo Parser_ParseObject_m1417_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t628_0_0_0;
+extern const Il2CppType List_1_t636_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<System.Object> ANMiniJSON.Json/Parser::ParseArray()
 extern const MethodInfo Parser_ParseArray_m1418_MethodInfo = 
@@ -4860,7 +4860,7 @@ extern const MethodInfo Parser_ParseArray_m1418_MethodInfo =
 	"ParseArray"/* name */
 	, (methodPointerType)&Parser_ParseArray_m1418/* method */
 	, &Parser_t260_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t628_0_0_0/* return_type */
+	, &List_1_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5346,11 +5346,11 @@ extern const MethodInfo Serializer_SerializeValue_m1430_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t629_0_0_0;
-extern const Il2CppType IDictionary_t629_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
 static const ParameterInfo Serializer_t262_Serializer_SerializeObject_m1431_ParameterInfos[] = 
 {
-	{"obj", 0, 134218564, 0, &IDictionary_t629_0_0_0},
+	{"obj", 0, 134218564, 0, &IDictionary_t637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ANMiniJSON.Json/Serializer::SerializeObject(System.Collections.IDictionary)
@@ -5375,11 +5375,11 @@ extern const MethodInfo Serializer_SerializeObject_m1431_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IList_t630_0_0_0;
-extern const Il2CppType IList_t630_0_0_0;
+extern const Il2CppType IList_t638_0_0_0;
+extern const Il2CppType IList_t638_0_0_0;
 static const ParameterInfo Serializer_t262_Serializer_SerializeArray_m1432_ParameterInfos[] = 
 {
-	{"anArray", 0, 134218565, 0, &IList_t630_0_0_0},
+	{"anArray", 0, 134218565, 0, &IList_t638_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ANMiniJSON.Json/Serializer::SerializeArray(System.Collections.IList)
@@ -5868,24 +5868,24 @@ TypeInfo PlayServiceUtil_t264_il2cpp_TypeInfo =
 
 };
 // Metadata Definition SA_Singleton`1
-extern TypeInfo SA_Singleton_1_t743_il2cpp_TypeInfo;
-extern const Il2CppGenericContainer SA_Singleton_1_t743_Il2CppGenericContainer;
-extern TypeInfo SA_Singleton_1_t743_gp_T_0_il2cpp_TypeInfo;
-static const Il2CppType* SA_Singleton_1_t743_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+extern TypeInfo SA_Singleton_1_t750_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer SA_Singleton_1_t750_Il2CppGenericContainer;
+extern TypeInfo SA_Singleton_1_t750_gp_T_0_il2cpp_TypeInfo;
+static const Il2CppType* SA_Singleton_1_t750_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &MonoBehaviour_t13_0_0_0 /* UnityEngine.MonoBehaviour */, 
  NULL };
-extern const Il2CppGenericParameter SA_Singleton_1_t743_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SA_Singleton_1_t743_Il2CppGenericContainer, SA_Singleton_1_t743_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
-static const Il2CppGenericParameter* SA_Singleton_1_t743_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter SA_Singleton_1_t750_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SA_Singleton_1_t750_Il2CppGenericContainer, SA_Singleton_1_t750_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
+static const Il2CppGenericParameter* SA_Singleton_1_t750_Il2CppGenericParametersArray[1] = 
 {
-	&SA_Singleton_1_t743_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&SA_Singleton_1_t750_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const Il2CppGenericContainer SA_Singleton_1_t743_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SA_Singleton_1_t743_il2cpp_TypeInfo, 1, 0, SA_Singleton_1_t743_Il2CppGenericParametersArray };
+extern const Il2CppGenericContainer SA_Singleton_1_t750_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SA_Singleton_1_t750_il2cpp_TypeInfo, 1, 0, SA_Singleton_1_t750_Il2CppGenericParametersArray };
 // System.Void SA_Singleton`1::.ctor()
-extern const MethodInfo SA_Singleton_1__ctor_m4121_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__ctor_m4168_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -5903,11 +5903,11 @@ extern const MethodInfo SA_Singleton_1__ctor_m4121_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::.cctor()
-extern const MethodInfo SA_Singleton_1__cctor_m4122_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__cctor_m4169_MethodInfo = 
 {
 	".cctor"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -5924,14 +5924,14 @@ extern const MethodInfo SA_Singleton_1__cctor_m4122_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SA_Singleton_1_t743_gp_0_0_0_0;
+extern const Il2CppType SA_Singleton_1_t750_gp_0_0_0_0;
 // T SA_Singleton`1::get_instance()
-extern const MethodInfo SA_Singleton_1_get_instance_m4123_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_instance_m4170_MethodInfo = 
 {
 	"get_instance"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
-	, &SA_Singleton_1_t743_gp_0_0_0_0/* return_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5948,11 +5948,11 @@ extern const MethodInfo SA_Singleton_1_get_instance_m4123_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_HasInstance()
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m4124_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m4171_MethodInfo = 
 {
 	"get_HasInstance"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -5970,11 +5970,11 @@ extern const MethodInfo SA_Singleton_1_get_HasInstance_m4124_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_IsDestroyed()
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4125_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4172_MethodInfo = 
 {
 	"get_IsDestroyed"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -5992,11 +5992,11 @@ extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4125_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnDestroy()
-extern const MethodInfo SA_Singleton_1_OnDestroy_m4126_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnDestroy_m4173_MethodInfo = 
 {
 	"OnDestroy"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -6014,11 +6014,11 @@ extern const MethodInfo SA_Singleton_1_OnDestroy_m4126_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnApplicationQuit()
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4127_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4174_MethodInfo = 
 {
 	"OnApplicationQuit"/* name */
 	, NULL/* method */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* declaring_type */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
@@ -6035,55 +6035,55 @@ extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4127_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SA_Singleton_1_t743_MethodInfos[] =
+static const MethodInfo* SA_Singleton_1_t750_MethodInfos[] =
 {
-	&SA_Singleton_1__ctor_m4121_MethodInfo,
-	&SA_Singleton_1__cctor_m4122_MethodInfo,
-	&SA_Singleton_1_get_instance_m4123_MethodInfo,
-	&SA_Singleton_1_get_HasInstance_m4124_MethodInfo,
-	&SA_Singleton_1_get_IsDestroyed_m4125_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4126_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m4127_MethodInfo,
+	&SA_Singleton_1__ctor_m4168_MethodInfo,
+	&SA_Singleton_1__cctor_m4169_MethodInfo,
+	&SA_Singleton_1_get_instance_m4170_MethodInfo,
+	&SA_Singleton_1_get_HasInstance_m4171_MethodInfo,
+	&SA_Singleton_1_get_IsDestroyed_m4172_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m4173_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m4174_MethodInfo,
 	NULL
 };
-extern const MethodInfo SA_Singleton_1_get_instance_m4123_MethodInfo;
-static const PropertyInfo SA_Singleton_1_t743____instance_PropertyInfo = 
+extern const MethodInfo SA_Singleton_1_get_instance_m4170_MethodInfo;
+static const PropertyInfo SA_Singleton_1_t750____instance_PropertyInfo = 
 {
-	&SA_Singleton_1_t743_il2cpp_TypeInfo/* parent */
+	&SA_Singleton_1_t750_il2cpp_TypeInfo/* parent */
 	, "instance"/* name */
-	, &SA_Singleton_1_get_instance_m4123_MethodInfo/* get */
+	, &SA_Singleton_1_get_instance_m4170_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m4124_MethodInfo;
-static const PropertyInfo SA_Singleton_1_t743____HasInstance_PropertyInfo = 
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m4171_MethodInfo;
+static const PropertyInfo SA_Singleton_1_t750____HasInstance_PropertyInfo = 
 {
-	&SA_Singleton_1_t743_il2cpp_TypeInfo/* parent */
+	&SA_Singleton_1_t750_il2cpp_TypeInfo/* parent */
 	, "HasInstance"/* name */
-	, &SA_Singleton_1_get_HasInstance_m4124_MethodInfo/* get */
+	, &SA_Singleton_1_get_HasInstance_m4171_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4125_MethodInfo;
-static const PropertyInfo SA_Singleton_1_t743____IsDestroyed_PropertyInfo = 
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4172_MethodInfo;
+static const PropertyInfo SA_Singleton_1_t750____IsDestroyed_PropertyInfo = 
 {
-	&SA_Singleton_1_t743_il2cpp_TypeInfo/* parent */
+	&SA_Singleton_1_t750_il2cpp_TypeInfo/* parent */
 	, "IsDestroyed"/* name */
-	, &SA_Singleton_1_get_IsDestroyed_m4125_MethodInfo/* get */
+	, &SA_Singleton_1_get_IsDestroyed_m4172_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* SA_Singleton_1_t743_PropertyInfos[] =
+static const PropertyInfo* SA_Singleton_1_t750_PropertyInfos[] =
 {
-	&SA_Singleton_1_t743____instance_PropertyInfo,
-	&SA_Singleton_1_t743____HasInstance_PropertyInfo,
-	&SA_Singleton_1_t743____IsDestroyed_PropertyInfo,
+	&SA_Singleton_1_t750____instance_PropertyInfo,
+	&SA_Singleton_1_t750____HasInstance_PropertyInfo,
+	&SA_Singleton_1_t750____IsDestroyed_PropertyInfo,
 	NULL
 };
 extern const MethodInfo EventDispatcher_addEventListener_m627_MethodInfo;
@@ -6103,9 +6103,9 @@ extern const MethodInfo EventDispatcher_dispatch_m646_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m643_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m644_MethodInfo;
 extern const MethodInfo EventDispatcher_clearEvents_m648_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnDestroy_m4126_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4127_MethodInfo;
-static const Il2CppMethodReference SA_Singleton_1_t743_VTable[] =
+extern const MethodInfo SA_Singleton_1_OnDestroy_m4173_MethodInfo;
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4174_MethodInfo;
+static const Il2CppMethodReference SA_Singleton_1_t750_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -6128,10 +6128,10 @@ static const Il2CppMethodReference SA_Singleton_1_t743_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4126_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m4127_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m4173_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m4174_MethodInfo,
 };
-static bool SA_Singleton_1_t743_VTableIsGenericMethod[] =
+static bool SA_Singleton_1_t750_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6158,58 +6158,58 @@ static bool SA_Singleton_1_t743_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IDispatcher_t132_0_0_0;
-static Il2CppInterfaceOffsetPair SA_Singleton_1_t743_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SA_Singleton_1_t750_InterfacesOffsets[] = 
 {
 	{ &IDispatcher_t132_0_0_0, 4},
 };
-extern const Il2CppType SA_Singleton_1_t752_0_0_0;
-extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t751_m4183_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m4184_GenericMethod;
-static Il2CppRGCTXDefinition SA_Singleton_1_t743_RGCTXData[6] = 
+extern const Il2CppType SA_Singleton_1_t759_0_0_0;
+extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t758_m4230_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m4231_GenericMethod;
+static Il2CppRGCTXDefinition SA_Singleton_1_t750_RGCTXData[6] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t752_0_0_0 }/* Static */,
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t743_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&SA_Singleton_1_t743_gp_0_0_0_0 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t751_m4183_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m4184_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t759_0_0_0 }/* Static */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t750_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&SA_Singleton_1_t750_gp_0_0_0_0 }/* Type */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t758_m4230_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m4231_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType SA_Singleton_1_t743_0_0_0;
-extern const Il2CppType SA_Singleton_1_t743_1_0_0;
+extern const Il2CppType SA_Singleton_1_t750_0_0_0;
+extern const Il2CppType SA_Singleton_1_t750_1_0_0;
 extern const Il2CppType EventDispatcher_t129_0_0_0;
-struct SA_Singleton_1_t743;
-const Il2CppTypeDefinitionMetadata SA_Singleton_1_t743_DefinitionMetadata = 
+struct SA_Singleton_1_t750;
+const Il2CppTypeDefinitionMetadata SA_Singleton_1_t750_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, SA_Singleton_1_t743_InterfacesOffsets/* interfaceOffsets */
+	, SA_Singleton_1_t750_InterfacesOffsets/* interfaceOffsets */
 	, &EventDispatcher_t129_0_0_0/* parent */
-	, SA_Singleton_1_t743_VTable/* vtableMethods */
-	, SA_Singleton_1_t743_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, SA_Singleton_1_t743_RGCTXData/* rgctxDefinition */
+	, SA_Singleton_1_t750_VTable/* vtableMethods */
+	, SA_Singleton_1_t750_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SA_Singleton_1_t750_RGCTXData/* rgctxDefinition */
 	, 855/* fieldStart */
 
 };
-TypeInfo SA_Singleton_1_t743_il2cpp_TypeInfo = 
+TypeInfo SA_Singleton_1_t750_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SA_Singleton`1"/* name */
 	, ""/* namespaze */
-	, SA_Singleton_1_t743_MethodInfos/* methods */
-	, SA_Singleton_1_t743_PropertyInfos/* properties */
+	, SA_Singleton_1_t750_MethodInfos/* methods */
+	, SA_Singleton_1_t750_PropertyInfos/* properties */
 	, NULL/* events */
-	, &SA_Singleton_1_t743_il2cpp_TypeInfo/* element_class */
+	, &SA_Singleton_1_t750_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SA_Singleton_1_t743_0_0_0/* byval_arg */
-	, &SA_Singleton_1_t743_1_0_0/* this_arg */
-	, &SA_Singleton_1_t743_DefinitionMetadata/* definitionMetadata */
+	, &SA_Singleton_1_t750_0_0_0/* byval_arg */
+	, &SA_Singleton_1_t750_1_0_0/* this_arg */
+	, &SA_Singleton_1_t750_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
-	, &SA_Singleton_1_t743_Il2CppGenericContainer/* generic_container */
+	, &SA_Singleton_1_t750_Il2CppGenericContainer/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
@@ -7739,10 +7739,10 @@ extern const MethodInfo SPFacebook_AppRequest_m1471_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType OGActionType_t432_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType List_1_t628_0_0_4112;
+extern const Il2CppType List_1_t636_0_0_4112;
 extern const Il2CppType StringU5BU5D_t75_0_0_4112;
-extern const Il2CppType Nullable_1_t634_0_0_4112;
-extern const Il2CppType Nullable_1_t634_0_0_0;
+extern const Il2CppType Nullable_1_t642_0_0_4112;
+extern const Il2CppType Nullable_1_t642_0_0_0;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 static const ParameterInfo SPFacebook_t282_SPFacebook_AppRequest_m1472_ParameterInfos[] = 
@@ -7750,13 +7750,13 @@ static const ParameterInfo SPFacebook_t282_SPFacebook_AppRequest_m1472_Parameter
 	{"message", 0, 134218623, 0, &String_t_0_0_0},
 	{"actionType", 1, 134218624, 0, &OGActionType_t432_0_0_0},
 	{"objectId", 2, 134218625, 0, &String_t_0_0_0},
-	{"filters", 3, 134218626, 0, &List_1_t628_0_0_4112},
+	{"filters", 3, 134218626, 0, &List_1_t636_0_0_4112},
 	{"excludeIds", 4, 134218627, 0, &StringU5BU5D_t75_0_0_4112},
-	{"maxRecipients", 5, 134218628, 0, &Nullable_1_t634_0_0_4112},
+	{"maxRecipients", 5, 134218628, 0, &Nullable_1_t642_0_0_4112},
 	{"data", 6, 134218629, 0, &String_t_0_0_4112},
 	{"title", 7, 134218630, 0, &String_t_0_0_4112},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t634_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t642_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String)
 extern const MethodInfo SPFacebook_AppRequest_m1472_MethodInfo = 
 {
@@ -7764,7 +7764,7 @@ extern const MethodInfo SPFacebook_AppRequest_m1472_MethodInfo =
 	, (methodPointerType)&SPFacebook_AppRequest_m1472/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t634_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t642_Object_t_Object_t/* invoker_method */
 	, SPFacebook_t282_SPFacebook_AppRequest_m1472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -7781,22 +7781,22 @@ extern const MethodInfo SPFacebook_AppRequest_m1472_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_4112;
-extern const Il2CppType List_1_t628_0_0_4112;
+extern const Il2CppType List_1_t636_0_0_4112;
 extern const Il2CppType StringU5BU5D_t75_0_0_4112;
-extern const Il2CppType Nullable_1_t634_0_0_4112;
+extern const Il2CppType Nullable_1_t642_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 static const ParameterInfo SPFacebook_t282_SPFacebook_AppRequest_m1473_ParameterInfos[] = 
 {
 	{"message", 0, 134218631, 0, &String_t_0_0_0},
 	{"to", 1, 134218632, 0, &StringU5BU5D_t75_0_0_4112},
-	{"filters", 2, 134218633, 0, &List_1_t628_0_0_4112},
+	{"filters", 2, 134218633, 0, &List_1_t636_0_0_4112},
 	{"excludeIds", 3, 134218634, 0, &StringU5BU5D_t75_0_0_4112},
-	{"maxRecipients", 4, 134218635, 0, &Nullable_1_t634_0_0_4112},
+	{"maxRecipients", 4, 134218635, 0, &Nullable_1_t642_0_0_4112},
 	{"data", 5, 134218636, 0, &String_t_0_0_4112},
 	{"title", 6, 134218637, 0, &String_t_0_0_4112},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Nullable_1_t634_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Nullable_1_t642_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPFacebook::AppRequest(System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String)
 extern const MethodInfo SPFacebook_AppRequest_m1473_MethodInfo = 
 {
@@ -7804,7 +7804,7 @@ extern const MethodInfo SPFacebook_AppRequest_m1473_MethodInfo =
 	, (methodPointerType)&SPFacebook_AppRequest_m1473/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Nullable_1_t634_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Nullable_1_t642_Object_t_Object_t/* invoker_method */
 	, SPFacebook_t282_SPFacebook_AppRequest_m1473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -8081,8 +8081,8 @@ extern const MethodInfo SPFacebook_Pay_m1483_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType Int32_t82_0_0_4112;
-extern const Il2CppType Nullable_1_t634_0_0_4112;
-extern const Il2CppType Nullable_1_t634_0_0_4112;
+extern const Il2CppType Nullable_1_t642_0_0_4112;
+extern const Il2CppType Nullable_1_t642_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
@@ -8091,13 +8091,13 @@ static const ParameterInfo SPFacebook_t282_SPFacebook_Pay_m1484_ParameterInfos[]
 	{"product", 0, 134218645, 0, &String_t_0_0_0},
 	{"action", 1, 134218646, 0, &String_t_0_0_4112},
 	{"quantity", 2, 134218647, 0, &Int32_t82_0_0_4112},
-	{"quantityMin", 3, 134218648, 0, &Nullable_1_t634_0_0_4112},
-	{"quantityMax", 4, 134218649, 0, &Nullable_1_t634_0_0_4112},
+	{"quantityMin", 3, 134218648, 0, &Nullable_1_t642_0_0_4112},
+	{"quantityMax", 4, 134218649, 0, &Nullable_1_t642_0_0_4112},
 	{"requestId", 5, 134218650, 0, &String_t_0_0_4112},
 	{"pricepointId", 6, 134218651, 0, &String_t_0_0_4112},
 	{"testCurrency", 7, 134218652, 0, &String_t_0_0_4112},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t634_Nullable_1_t634_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t642_Nullable_1_t642_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String)
 extern const MethodInfo SPFacebook_Pay_m1484_MethodInfo = 
 {
@@ -8105,7 +8105,7 @@ extern const MethodInfo SPFacebook_Pay_m1484_MethodInfo =
 	, (methodPointerType)&SPFacebook_Pay_m1484/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t634_Nullable_1_t634_Object_t_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t642_Nullable_1_t642_Object_t_Object_t_Object_t/* invoker_method */
 	, SPFacebook_t282_SPFacebook_Pay_m1484_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -8238,7 +8238,7 @@ static const ParameterInfo SPFacebook_t282_SPFacebook_GerUserLikesList_m1489_Par
 {
 	{"userId", 0, 134218657, 0, &String_t_0_0_0},
 };
-extern const Il2CppType List_1_t633_0_0_0;
+extern const Il2CppType List_1_t641_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<FBLikeInfo> SPFacebook::GerUserLikesList(System.String)
 extern const MethodInfo SPFacebook_GerUserLikesList_m1489_MethodInfo = 
@@ -8246,7 +8246,7 @@ extern const MethodInfo SPFacebook_GerUserLikesList_m1489_MethodInfo =
 	"GerUserLikesList"/* name */
 	, (methodPointerType)&SPFacebook_GerUserLikesList_m1489/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t633_0_0_0/* return_type */
+	, &List_1_t641_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, SPFacebook_t282_SPFacebook_GerUserLikesList_m1489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8455,7 +8455,7 @@ extern const MethodInfo SPFacebook_get_friendsIds_m1497_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t631_0_0_0;
+extern const Il2CppType List_1_t639_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<FacebookUserInfo> SPFacebook::get_friendsList()
 extern const MethodInfo SPFacebook_get_friendsList_m1498_MethodInfo = 
@@ -8463,7 +8463,7 @@ extern const MethodInfo SPFacebook_get_friendsList_m1498_MethodInfo =
 	"get_friendsList"/* name */
 	, (methodPointerType)&SPFacebook_get_friendsList_m1498/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t631_0_0_0/* return_type */
+	, &List_1_t639_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8526,7 +8526,7 @@ extern const MethodInfo SPFacebook_get_appScores_m1500_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t632_0_0_0;
+extern const Il2CppType List_1_t640_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<FBScore> SPFacebook::get_applicationScoreList()
 extern const MethodInfo SPFacebook_get_applicationScoreList_m1501_MethodInfo = 
@@ -8534,7 +8534,7 @@ extern const MethodInfo SPFacebook_get_applicationScoreList_m1501_MethodInfo =
 	"get_applicationScoreList"/* name */
 	, (methodPointerType)&SPFacebook_get_applicationScoreList_m1501/* method */
 	, &SPFacebook_t282_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t632_0_0_0/* return_type */
+	, &List_1_t640_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9723,8 +9723,8 @@ static const PropertyInfo* SPFacebook_t282_PropertyInfos[] =
 	&SPFacebook_t282____AppRequests_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4185_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4186_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4232_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4233_GenericMethod;
 static const Il2CppMethodReference SPFacebook_t282_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -9748,8 +9748,8 @@ static const Il2CppMethodReference SPFacebook_t282_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4185_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4186_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4232_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4233_GenericMethod,
 };
 static bool SPFacebook_t282_VTableIsGenericMethod[] =
 {
@@ -10266,16 +10266,16 @@ extern const MethodInfo SPFacebookAnalytics_UnlockedAchievement_m1548_MethodInfo
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Nullable_1_t635_0_0_4112;
-extern const Il2CppType Nullable_1_t635_0_0_0;
+extern const Il2CppType Nullable_1_t643_0_0_4112;
+extern const Il2CppType Nullable_1_t643_0_0_0;
 extern const Il2CppType Dictionary_2_t312_0_0_4112;
 static const ParameterInfo SPFacebookAnalytics_t284_SPFacebookAnalytics_LogEvent_m1549_ParameterInfos[] = 
 {
 	{"logEvent", 0, 134218712, 0, &String_t_0_0_0},
-	{"valueToSum", 1, 134218713, 0, &Nullable_1_t635_0_0_4112},
+	{"valueToSum", 1, 134218713, 0, &Nullable_1_t643_0_0_4112},
 	{"parameters", 2, 134218714, 0, &Dictionary_2_t312_0_0_4112},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Nullable_1_t635_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Nullable_1_t643_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPFacebookAnalytics::LogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern const MethodInfo SPFacebookAnalytics_LogEvent_m1549_MethodInfo = 
 {
@@ -10283,7 +10283,7 @@ extern const MethodInfo SPFacebookAnalytics_LogEvent_m1549_MethodInfo =
 	, (methodPointerType)&SPFacebookAnalytics_LogEvent_m1549/* method */
 	, &SPFacebookAnalytics_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Nullable_1_t635_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Nullable_1_t643_Object_t/* invoker_method */
 	, SPFacebookAnalytics_t284_SPFacebookAnalytics_LogEvent_m1549_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -11915,10 +11915,10 @@ extern const MethodInfo FacebookUserInfo__ctor_m1576_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t629_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
 static const ParameterInfo FacebookUserInfo_t271_FacebookUserInfo__ctor_m1577_ParameterInfos[] = 
 {
-	{"JSON", 0, 134218734, 0, &IDictionary_t629_0_0_0},
+	{"JSON", 0, 134218734, 0, &IDictionary_t637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void FacebookUserInfo::.ctor(System.Collections.IDictionary)
@@ -12000,10 +12000,10 @@ extern const MethodInfo FacebookUserInfo_remove_OnProfileImageLoaded_m1579_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t629_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
 static const ParameterInfo FacebookUserInfo_t271_FacebookUserInfo_InitializeData_m1580_ParameterInfos[] = 
 {
-	{"JSON", 0, 134218737, 0, &IDictionary_t629_0_0_0},
+	{"JSON", 0, 134218737, 0, &IDictionary_t637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void FacebookUserInfo::InitializeData(System.Collections.IDictionary)
@@ -14696,8 +14696,8 @@ static const MethodInfo* AndroidInstagramManager_t306_MethodInfos[] =
 	&AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1636_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4187_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4188_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4234_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4235_GenericMethod;
 static const Il2CppMethodReference AndroidInstagramManager_t306_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -14721,8 +14721,8 @@ static const Il2CppMethodReference AndroidInstagramManager_t306_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4187_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4188_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4234_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4235_GenericMethod,
 };
 static bool AndroidInstagramManager_t306_VTableIsGenericMethod[] =
 {
@@ -15641,8 +15641,8 @@ static const PropertyInfo* AndroidTwitterManager_t310_PropertyInfos[] =
 	&AndroidTwitterManager_t310____AccessTokenSecret_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4189_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4190_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4236_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4237_GenericMethod;
 extern const MethodInfo AndroidTwitterManager_Init_m1639_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_Init_m1640_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_AuthenticateUser_m1641_MethodInfo;
@@ -15675,8 +15675,8 @@ static const Il2CppMethodReference AndroidTwitterManager_t310_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4189_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4190_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4236_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4237_GenericMethod,
 	&AndroidTwitterManager_Init_m1639_MethodInfo,
 	&AndroidTwitterManager_Init_m1640_MethodInfo,
 	&AndroidTwitterManager_AuthenticateUser_m1641_MethodInfo,
@@ -16254,8 +16254,8 @@ static const Il2CppType* TwitterApplicationOnlyToken_t313_il2cpp_TypeInfo__neste
 {
 	&U3CLoadU3Ec__Iterator3_t314_0_0_0,
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4191_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4192_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4238_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4239_GenericMethod;
 static const Il2CppMethodReference TwitterApplicationOnlyToken_t313_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -16279,8 +16279,8 @@ static const Il2CppMethodReference TwitterApplicationOnlyToken_t313_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4191_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4192_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4238_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4239_GenericMethod,
 };
 static bool TwitterApplicationOnlyToken_t313_VTableIsGenericMethod[] =
 {
@@ -17146,10 +17146,10 @@ TypeInfo TweetTemplate_t323_il2cpp_TypeInfo =
 extern TypeInfo TwitterStatus_t324_il2cpp_TypeInfo;
 // TwitterStatus
 #include "AssemblyU2DCSharp_TwitterStatusMethodDeclarations.h"
-extern const Il2CppType IDictionary_t629_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
 static const ParameterInfo TwitterStatus_t324_TwitterStatus__ctor_m1688_ParameterInfos[] = 
 {
-	{"JSON", 0, 134218790, 0, &IDictionary_t629_0_0_0},
+	{"JSON", 0, 134218790, 0, &IDictionary_t637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void TwitterStatus::.ctor(System.Collections.IDictionary)
@@ -17410,10 +17410,10 @@ extern const MethodInfo TwitterUserInfo__ctor_m1692_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t629_0_0_0;
+extern const Il2CppType IDictionary_t637_0_0_0;
 static const ParameterInfo TwitterUserInfo_t308_TwitterUserInfo__ctor_m1693_ParameterInfos[] = 
 {
-	{"JSON", 0, 134218792, 0, &IDictionary_t629_0_0_0},
+	{"JSON", 0, 134218792, 0, &IDictionary_t637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void TwitterUserInfo::.ctor(System.Collections.IDictionary)
@@ -19004,20 +19004,20 @@ extern const MethodInfo TW_APIRequest_Request_m1731_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TW_APIRequest_t327_TW_APIRequest_OnResult_m4128_ParameterInfos[] = 
+static const ParameterInfo TW_APIRequest_t327_TW_APIRequest_OnResult_m4175_ParameterInfos[] = 
 {
 	{"data", 0, 134218802, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void TW_APIRequest::OnResult(System.String)
-extern const MethodInfo TW_APIRequest_OnResult_m4128_MethodInfo = 
+extern const MethodInfo TW_APIRequest_OnResult_m4175_MethodInfo = 
 {
 	"OnResult"/* name */
 	, NULL/* method */
 	, &TW_APIRequest_t327_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TW_APIRequest_t327_TW_APIRequest_OnResult_m4128_ParameterInfos/* parameters */
+	, TW_APIRequest_t327_TW_APIRequest_OnResult_m4175_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -19062,7 +19062,7 @@ static const MethodInfo* TW_APIRequest_t327_MethodInfos[] =
 	&TW_APIRequest_AddParam_m1729_MethodInfo,
 	&TW_APIRequest_SetUrl_m1730_MethodInfo,
 	&TW_APIRequest_Request_m1731_MethodInfo,
-	&TW_APIRequest_OnResult_m4128_MethodInfo,
+	&TW_APIRequest_OnResult_m4175_MethodInfo,
 	&TW_APIRequest_OnTokenLoaded_m1732_MethodInfo,
 	NULL
 };
@@ -26930,8 +26930,8 @@ static const MethodInfo* SPInstagram_t361_MethodInfos[] =
 	&SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1934_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4193_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4194_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4240_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4241_GenericMethod;
 static const Il2CppMethodReference SPInstagram_t361_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -26955,8 +26955,8 @@ static const Il2CppMethodReference SPInstagram_t361_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4193_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4194_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4240_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4241_GenericMethod,
 };
 static bool SPInstagram_t361_VTableIsGenericMethod[] =
 {
@@ -27838,12 +27838,12 @@ extern const MethodInfo SPTwitter_get_userInfo_m1959_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t619_0_0_0;
-extern const Il2CppType EventHandlerFunction_t619_0_0_0;
+extern const Il2CppType EventHandlerFunction_t627_0_0_0;
+extern const Il2CppType EventHandlerFunction_t627_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_addEventListener_m1960_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218893, 0, &String_t_0_0_0},
-	{"handler", 1, 134218894, 0, &EventHandlerFunction_t619_0_0_0},
+	{"handler", 1, 134218894, 0, &EventHandlerFunction_t627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -27869,12 +27869,12 @@ extern const MethodInfo SPTwitter_addEventListener_m1960_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t620_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t620_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t628_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t628_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_addEventListener_m1961_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218895, 0, &String_t_0_0_0},
-	{"handler", 1, 134218896, 0, &DataEventHandlerFunction_t620_0_0_0},
+	{"handler", 1, 134218896, 0, &DataEventHandlerFunction_t628_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -27900,11 +27900,11 @@ extern const MethodInfo SPTwitter_addEventListener_m1961_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t619_0_0_0;
+extern const Il2CppType EventHandlerFunction_t627_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_addEventListener_m1962_ParameterInfos[] = 
 {
 	{"eventID", 0, 134218897, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134218898, 0, &EventHandlerFunction_t619_0_0_0},
+	{"handler", 1, 134218898, 0, &EventHandlerFunction_t627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -27930,11 +27930,11 @@ extern const MethodInfo SPTwitter_addEventListener_m1962_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t620_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t628_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_addEventListener_m1963_ParameterInfos[] = 
 {
 	{"eventID", 0, 134218899, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134218900, 0, &DataEventHandlerFunction_t620_0_0_0},
+	{"handler", 1, 134218900, 0, &DataEventHandlerFunction_t628_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -27960,11 +27960,11 @@ extern const MethodInfo SPTwitter_addEventListener_m1963_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t619_0_0_0;
+extern const Il2CppType EventHandlerFunction_t627_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_removeEventListener_m1964_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218901, 0, &String_t_0_0_0},
-	{"handler", 1, 134218902, 0, &EventHandlerFunction_t619_0_0_0},
+	{"handler", 1, 134218902, 0, &EventHandlerFunction_t627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -27990,11 +27990,11 @@ extern const MethodInfo SPTwitter_removeEventListener_m1964_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t620_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t628_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_removeEventListener_m1965_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218903, 0, &String_t_0_0_0},
-	{"handler", 1, 134218904, 0, &DataEventHandlerFunction_t620_0_0_0},
+	{"handler", 1, 134218904, 0, &DataEventHandlerFunction_t628_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -28020,11 +28020,11 @@ extern const MethodInfo SPTwitter_removeEventListener_m1965_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t619_0_0_0;
+extern const Il2CppType EventHandlerFunction_t627_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_removeEventListener_m1966_ParameterInfos[] = 
 {
 	{"eventID", 0, 134218905, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134218906, 0, &EventHandlerFunction_t619_0_0_0},
+	{"handler", 1, 134218906, 0, &EventHandlerFunction_t627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -28050,11 +28050,11 @@ extern const MethodInfo SPTwitter_removeEventListener_m1966_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t620_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t628_0_0_0;
 static const ParameterInfo SPTwitter_t364_SPTwitter_removeEventListener_m1967_ParameterInfos[] = 
 {
 	{"eventID", 0, 134218907, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134218908, 0, &DataEventHandlerFunction_t620_0_0_0},
+	{"handler", 1, 134218908, 0, &DataEventHandlerFunction_t628_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SPTwitter::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -29035,8 +29035,8 @@ static const MethodInfo* IOSInstagramManager_t365_MethodInfos[] =
 	&IOSInstagramManager_OnPostFailed_m1991_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4195_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4196_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4242_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4243_GenericMethod;
 static const Il2CppMethodReference IOSInstagramManager_t365_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -29060,8 +29060,8 @@ static const Il2CppMethodReference IOSInstagramManager_t365_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4195_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4196_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4242_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4243_GenericMethod,
 };
 static bool IOSInstagramManager_t365_VTableIsGenericMethod[] =
 {
@@ -30790,8 +30790,8 @@ static const PropertyInfo* IOSTwitterManager_t368_PropertyInfos[] =
 	&IOSTwitterManager_t368____userInfo_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4197_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4198_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4244_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4245_GenericMethod;
 extern const MethodInfo IOSTwitterManager_Init_m2022_MethodInfo;
 extern const MethodInfo IOSTwitterManager_Init_m2021_MethodInfo;
 extern const MethodInfo IOSTwitterManager_AuthenticateUser_m2023_MethodInfo;
@@ -30824,8 +30824,8 @@ static const Il2CppMethodReference IOSTwitterManager_t368_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4197_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4198_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4244_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4245_GenericMethod,
 	&IOSTwitterManager_Init_m2022_MethodInfo,
 	&IOSTwitterManager_Init_m2021_MethodInfo,
 	&IOSTwitterManager_AuthenticateUser_m2023_MethodInfo,

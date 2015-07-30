@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlSignificantWhitespace
-struct XmlSignificantWhitespace_t3201;
+struct XmlSignificantWhitespace_t3209;
 // System.String
 struct String_t;
 // System.Xml.XmlNode
-struct XmlNode_t659;
+struct XmlNode_t667;
 // System.Xml.XmlDocument
-struct XmlDocument_t621;
+struct XmlDocument_t629;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlSignificantWhitespace::.ctor(System.String,System.Xml.XmlDocument)
-extern "C" void XmlSignificantWhitespace__ctor_m10855 (XmlSignificantWhitespace_t3201 * __this, String_t* ___strData, XmlDocument_t621 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSignificantWhitespace__ctor_m10902 (XmlSignificantWhitespace_t3209 * __this, String_t* ___strData, XmlDocument_t629 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlSignificantWhitespace::get_LocalName()
-extern "C" String_t* XmlSignificantWhitespace_get_LocalName_m10856 (XmlSignificantWhitespace_t3201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlSignificantWhitespace_get_LocalName_m10903 (XmlSignificantWhitespace_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlSignificantWhitespace::get_Name()
-extern "C" String_t* XmlSignificantWhitespace_get_Name_m10857 (XmlSignificantWhitespace_t3201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlSignificantWhitespace_get_Name_m10904 (XmlSignificantWhitespace_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlSignificantWhitespace::get_NodeType()
-extern "C" int32_t XmlSignificantWhitespace_get_NodeType_m10858 (XmlSignificantWhitespace_t3201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlSignificantWhitespace_get_NodeType_m10905 (XmlSignificantWhitespace_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlSignificantWhitespace::get_Value()
-extern "C" String_t* XmlSignificantWhitespace_get_Value_m10859 (XmlSignificantWhitespace_t3201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlSignificantWhitespace_get_Value_m10906 (XmlSignificantWhitespace_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlSignificantWhitespace::set_Value(System.String)
-extern "C" void XmlSignificantWhitespace_set_Value_m10860 (XmlSignificantWhitespace_t3201 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSignificantWhitespace_set_Value_m10907 (XmlSignificantWhitespace_t3209 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::get_ParentNode()
-extern "C" XmlNode_t659 * XmlSignificantWhitespace_get_ParentNode_m10861 (XmlSignificantWhitespace_t3201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlSignificantWhitespace_get_ParentNode_m10908 (XmlSignificantWhitespace_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::CloneNode(System.Boolean)
-extern "C" XmlNode_t659 * XmlSignificantWhitespace_CloneNode_m10862 (XmlSignificantWhitespace_t3201 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlSignificantWhitespace_CloneNode_m10909 (XmlSignificantWhitespace_t3209 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

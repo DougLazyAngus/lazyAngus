@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t4351;
+struct ASN1_t4359;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.PKCS7/ContentInfo
-struct  ContentInfo_t4363  : public Object_t
+struct  ContentInfo_t4371  : public Object_t
 {
 	// System.String Mono.Security.PKCS7/ContentInfo::contentType
 	String_t* ___contentType_0;
 	// Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::content
-	ASN1_t4351 * ___content_1;
+	ASN1_t4359 * ___content_1;
 };
