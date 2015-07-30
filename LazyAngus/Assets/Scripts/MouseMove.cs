@@ -43,7 +43,7 @@ public class MouseMove : MonoBehaviour
 	private bool wiggleClockwise = false;
 
 	public float minDistanceToManuallyOrient = 0.01f;
-
+	
 	bool registeredForEvents;
 
 	void Awake ()

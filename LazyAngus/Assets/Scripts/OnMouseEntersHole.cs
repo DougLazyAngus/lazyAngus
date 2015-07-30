@@ -20,7 +20,9 @@ public class OnMouseEntersHole : MonoBehaviour {
 
 		if (mouseMove.isPoisoned) {
 			mouseHole.ClearNMice(TweakableParams.miceKilledPerPoison);
-			mouseMove.OnKilled ();
+
+			// This mouse is considered dead.
+			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
 		} else {
 			mouseHole.SaveMouse (mouseMove);
 		}

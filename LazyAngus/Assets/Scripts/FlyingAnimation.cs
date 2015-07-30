@@ -1,14 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FlyingAnimation : MonoBehaviour {
-	public float flyingTime = 0.5;
-
-	Canvas worldCanvas;
-	Camera worldCamera;
-	float canvasWidth;
-	float canvasHeight;
-
+public class FlyingAnimation : WorldRelativeGUIElement {
 	RectTransform myRectTransform;
 
 	Vector3[] points;
@@ -18,8 +11,6 @@ public class FlyingAnimation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		myRectTransform = GetComponent<RectTransform> ();
-		running = false;
 	}
 	
 	// Update is called once per frame
@@ -30,43 +21,64 @@ public class FlyingAnimation : MonoBehaviour {
 
 		float timeNow = Time.time;
 		float timeElapsed = timeNow - startTime;
-		if (timeElapsed >= flyingTime) {
-			Object.Destroy (this);
+		if (timeElapsed >= TweakableParams.flyingAnimationTime) {
+			Object.Destroy (gameObject);
 			return;
 		}
 
-		float scaledTime = timeElapsed / flyingTime;
+		float scaledTime = timeElapsed / TweakableParams.flyingAnimationTime;
 		float[] coefficients = Utilities.GetBlendingCoefficients (scaledTime, points.Length);
-		
+
+		Vector3 result = new Vector3 (0, 0, 0);
+		for (int i = 0; i < points.Length; i++) {
+			result += coefficients[i] * points[i];
+		}
+
+		myRectTransform.anchoredPosition3D = result;
+
+		float scale = Mathf.Sin (Mathf.PI * scaledTime);
+		scale = TweakableParams.flyingAnimationMinScale + 
+			(1 - TweakableParams.flyingAnimationMinScale) * scale;
+
+		myRectTransform.localScale = new Vector3 (scale, scale, 0);
 	}
 
 	public void Configure(Vector3 worldStartPosition, 
-	               GameObject canvasTarget) {
-		GameObject canvasGameObject = GameObject.FindWithTag ("WorldObjectCanvas");
-		gameObject.transform.SetParent (canvasGameObject.transform, false);
-		
-		// We assume we are using a canvas with "Screen Space - Camera" render mode.
-		// Get that camera.
-		worldCanvas = canvasGameObject.GetComponent<Canvas> ();
-		worldCamera = worldCanvas.worldCamera;
+	                      GameObject canvasTarget) {
+		GameObject levelPlayCanvasGameObject = GameObject.FindWithTag ("LevelPlayCanvas");
+		SetParentCanvasGameObject (levelPlayCanvasGameObject);
 
-		Rect pixelRect = worldCanvas.pixelRect;
-		canvasWidth = pixelRect.width / worldCanvas.scaleFactor;
-		canvasHeight = pixelRect.height / worldCanvas.scaleFactor;
+		CreatePoints (worldStartPosition, canvasTarget);
 
-		// World to view pos: 0, 0 to 1, 1.
-		Vector3 viewPos = worldCamera.WorldToViewportPoint(worldStartPosition);
-		
-		// We want to convert that to canvas units, where the rect is 
-		// (-canvasWidth/2, -canvasHeight/2) to 
-		// (canvasWidth/2, canvasHeight/2);
-		float canvasUnitsX = (viewPos.x - 0.5f) * canvasWidth;
-		float canvasUnitsY = (viewPos.y - 0.5f) * canvasHeight;
-		myRectTransform.localPosition = new Vector3(canvasUnitsX, canvasUnitsY, 0f) + offset;
+		myRectTransform = GetComponent<RectTransform> ();
+		running = false;
 	}
 
 	public void Run() {
 		startTime = Time.time;
 		running = true;
+	}
+
+	void CreatePoints(Vector3 worldStartPosition, 
+	                  GameObject canvasTarget) {
+		points = new Vector3[3];
+		
+		points [0] = WorldPositionToParentCanvasPosition (worldStartPosition);
+
+		GameObject levelPlayCanvasGameObject = GameObject.FindWithTag ("LevelPlayCanvas");
+		Canvas levelPlayCanvas = levelPlayCanvasGameObject.GetComponent<Canvas> ();
+		Camera levelPlayCamera = levelPlayCanvas.worldCamera;
+
+		Vector3 otherCanvasPosition =  ConvertToParentCanvasPosition (levelPlayCamera, 
+		                                                      canvasTarget.transform.position);
+
+		points [2] = otherCanvasPosition;
+
+		// Some random point between them.
+		float coefficient1 = Random.Range (0.1f, 0.4f);
+		float coefficient2 = Random.Range (0.1f, 0.4f);
+		points [1] = new Vector3 ((1f - coefficient1) * points [0].x + coefficient1 * points [2].x,
+		                          (1f - coefficient2) * points [0].y + coefficient2 * points [2].y,
+		                          0);
 	}
 }

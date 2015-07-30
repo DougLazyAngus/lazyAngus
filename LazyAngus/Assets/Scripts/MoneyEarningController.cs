@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class MoneyEarningController : MonoBehaviour {
-	public PawController leftPaw;
-	public PawController rightPaw;
 	public GameObject moneyEffectPrototype;
 	public GameObject moneyDisplay;
 
@@ -23,18 +21,14 @@ public class MoneyEarningController : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
-		leftPaw.MultiKill +=
-			new PawController.MultiKillEventHandler (OnMultiKill);
-		rightPaw.MultiKill +=
-			new PawController.MultiKillEventHandler (OnMultiKill);
+		DeadMouseRelay.instance.MultiKill +=
+			new DeadMouseRelay.MultiKillEventHandler (OnMultiKill);
 	}
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			leftPaw.MultiKill -=
-				new PawController.MultiKillEventHandler (OnMultiKill);
-			rightPaw.MultiKill -=
-				new PawController.MultiKillEventHandler (OnMultiKill);
+			DeadMouseRelay.instance.MultiKill -=
+				new DeadMouseRelay.MultiKillEventHandler (OnMultiKill);
 		}
 	}
 
@@ -46,6 +40,7 @@ public class MoneyEarningController : MonoBehaviour {
 		int moneyEarned = (numKilled - 1) * (numKilled - 1);
 
 		PlayerStats.instance.EarnMoney(moneyEarned);
+
 		MakeMoneyEffect(moneyEarned, pawPosition);
 	}
 

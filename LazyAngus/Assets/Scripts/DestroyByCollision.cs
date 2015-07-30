@@ -4,7 +4,6 @@ using System.Collections;
 public class DestroyByCollision : MonoBehaviour {
 	public PawController pawController;
 
-
 	void OnTriggerEnter2D(Collider2D other) {
 		HandleCollision (other);
 	}
@@ -29,9 +28,8 @@ public class DestroyByCollision : MonoBehaviour {
 				mouseMove.SetPoisoned();
 			}
 		} else {
-			mouseMove.OnKilled ();
-			pawController.CountKill (mouseMove);
-			GameController.instance.OnMouseKilled (mouseMove);
+			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
+			pawController.CountKill();
 		}
 	}
 }

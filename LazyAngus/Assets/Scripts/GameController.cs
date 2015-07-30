@@ -71,6 +71,8 @@ public class GameController : MonoBehaviour {
 			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		GamePhaseState.instance.GameInstanceChanged += 
 			new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
+		DeadMouseRelay.instance.MouseKill += 
+			new DeadMouseRelay.MouseKillEventHandler (OnMouseKilled);
 	}
 	
 	void UnregisterForEvents() {
@@ -79,6 +81,8 @@ public class GameController : MonoBehaviour {
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			GamePhaseState.instance.GameInstanceChanged -= 
 				new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
+			DeadMouseRelay.instance.MouseKill -= 
+				new DeadMouseRelay.MouseKillEventHandler (OnMouseKilled);
 		}
 	}
 	
@@ -181,8 +185,8 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	public void OnMouseKilled(MouseMove mouse) {
-		PlayerStats.instance.IncrementScore ();
+	void OnMouseKilled(MouseMove mouse) {
+		// Maybe time to change phases...
 		checkForPhaseChanges = true;
 	}
 }

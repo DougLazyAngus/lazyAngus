@@ -34,9 +34,8 @@ public class TrackScore : MonoBehaviour {
 		scoreText.text = "Kills: " + playerStats.gameScore;
 	}
 
-	// Update is called once per frame
 	void DynamicUpdateScoreText () {
 		SetScoreText ();
-		distortForEffect.Distort ();
+		distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime);
 	}
 }

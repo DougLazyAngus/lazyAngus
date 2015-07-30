@@ -35,9 +35,6 @@ public class PawController : MonoBehaviour {
 	public Transform shoulderJointCatTransform;
 	float pawHomeCatTransformMagnitude;
 
-	public delegate void MultiKillEventHandler(int numKilled, Vector3 pawPosition);
-	public event MultiKillEventHandler MultiKill;
-
 	void Awake() {
 		registerdForEvents = false;
 	}
@@ -127,8 +124,9 @@ public class PawController : MonoBehaviour {
 		swipePhase = newPhase;
 
 		if (oldPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-			if (killsThisSwipe > 1 && MultiKill != null) {
-				MultiKill(killsThisSwipe, transform.position);
+			if (killsThisSwipe > 1) {
+				DeadMouseRelay.instance.HandleMultiKill(killsThisSwipe, 
+				                                        transform.position);
 			}
 			killsThisSwipe = 0;
 		}
@@ -184,11 +182,6 @@ public class PawController : MonoBehaviour {
 	}
 
 	bool MovePawTowards(Vector3 targetLocationCat) {
-		int foo = 5;
-		if (TimeController.instance.paused) {
-			foo = foo * foo;
-		}
-
 		targetLocationCat.z = 0.0f;
 		// This should never be closer to the cat than the home pos itself.  If so, just 
 		// ignore.
@@ -239,7 +232,7 @@ public class PawController : MonoBehaviour {
 		SetPhase(SwipePhase.SWIPE_RETRACTING);
 	}
 
-	public void CountKill(MouseMove mouseMove) {
+	public void CountKill() {
 		killsThisSwipe += 1;
 	}
 }

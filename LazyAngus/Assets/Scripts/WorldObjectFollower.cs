@@ -2,13 +2,19 @@
 using System.Collections;
 
 public class WorldObjectFollower : WorldRelativeGUIElement {
-	private GameObject objectToFollow;
-	private RectTransform myRectTransform;
-	
+	GameObject objectToFollow;
+	RectTransform myRectTransform;
+	bool followeeMoves;
+	bool positionDirty;
+
 	public Vector3 offset = new Vector3(0, 0, 0);
 	public float rotation = 0;
 	
 	void Start() {
+		// Parented by 'world' canvas.
+		GameObject worldCanvasGameObject = GameObject.FindWithTag ("WorldObjectCanvas");
+		SetParentCanvasGameObject (worldCanvasGameObject);
+
 		myRectTransform = gameObject.GetComponent <RectTransform> ();
 	}
 	  
@@ -32,7 +38,8 @@ public class WorldObjectFollower : WorldRelativeGUIElement {
 	}
 
 	public void ResetPosition() {
-		Vector3 canvasPosition = WorldPositionToCanvasPosition(objectToFollow.transform.position);
+		Vector3 canvasPosition = WorldPositionToParentCanvasPosition(
+			objectToFollow.transform.position);
 
 		myRectTransform.localPosition = canvasPosition + offset;
 	}

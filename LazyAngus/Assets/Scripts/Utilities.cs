@@ -185,6 +185,27 @@ public class Utilities
 		System.TimeSpan t = System.DateTime.UtcNow - epoch;
 		return (float)t.TotalSeconds;	
 	}
+
+
+	public static float[] GetBlendingCoefficients (float t, int numPoints) {
+		float[] retVal = new float [numPoints];
+
+		float[] values = new float [numPoints];
+		for (int i = 0; i < numPoints; i++) {
+			values[i] = (float)i/(float)(numPoints-1);
+		}
+
+		for (int i = 0; i < numPoints; i++) {
+			float coefficient = 1f;
+			for (int j = 0; j < numPoints; j++) {
+				if (j != i) {
+					coefficient *= (t - values[j])/(values[i] - values[j]);
+				}
+			}
+			retVal[i] = coefficient;
+		}
+		return retVal;
+	}
 }
 
 

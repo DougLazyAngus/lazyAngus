@@ -36,6 +36,6 @@ public class TrackTreats : MonoBehaviour {
 	// Update is called once per frame
 	void DynamicUpdateTreatsText () {
 		SetTreatsText ();
-		distortForEffect.Distort ();
+		distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime);
 	}
 }

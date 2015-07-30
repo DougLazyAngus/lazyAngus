@@ -21,12 +21,16 @@ public class DistortForEffect : MonoBehaviour {
 		originalScale = thingToScale.localScale;
 	}
 
-	public void Distort() {
+	public void DistortWithDelay(float delay) {
 		if (distorting) {
 			return;
 		}
-		startDistortTime = Time.time;
+		startDistortTime = Time.time + delay;
 		distorting = true;
+	}
+
+	public void Distort() {
+		DistortWithDelay (0f);
 	}
 
 	public void Cancel() {
@@ -36,7 +40,7 @@ public class DistortForEffect : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!distorting) {  
+		if (!distorting || Time.time < startDistortTime) {  
 			return;
 		}
 
