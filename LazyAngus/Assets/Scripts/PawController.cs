@@ -44,12 +44,8 @@ public class PawController : MonoBehaviour {
 
 		swipeSpeed = TweakableParams.baseSwipeSpeed;
 
-		Vector3 localHomePos = pawHomeCatTransform.position;
-		localHomePos.z = 0f;
-		pawHomeCatTransform.position = localHomePos;
-		pawHomeCatTransformMagnitude = pawHomeCatTransform.position.magnitude;
-
 		transform.localPosition = pawHomeCatTransform.localPosition;
+		pawHomeCatTransformMagnitude = pawHomeCatTransform.localPosition.magnitude;
 
 		RegisterForEvents ();
 		UpdatePawState ();
@@ -151,6 +147,7 @@ public class PawController : MonoBehaviour {
 	void UpdatePawState() {
 		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			dangerPawArtGameObject.SetActive (false);
+			normalPawArtGameObject.SetActive (false);
 			normalCollider.gameObject.SetActive (false);
 
 			bigCollider.gameObject.SetActive (true);
@@ -173,9 +170,11 @@ public class PawController : MonoBehaviour {
 			
 			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
 				dangerPawArtGameObject.SetActive (true);
+				normalPawArtGameObject.SetActive (false);
 				normalCollider.isTrigger = true;
 			} else {
 				dangerPawArtGameObject.SetActive (false);
+				normalPawArtGameObject.SetActive (true);
 				normalCollider.isTrigger = false;
 			}
 		}

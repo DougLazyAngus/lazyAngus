@@ -75,19 +75,19 @@ public class MouseConfig : MonoBehaviour
 		mouseDescs = new MouseDesc[(int)MouseType.NUM_TYPES];
 
 		mouseDescs [(int)MouseType.SLOW] = new MouseDesc ("mouse.01", 
-		                                                  "mouse.intro.01", 
+		                                                  "mouse_01", 
 		                                                  minSpeedM, 
 		                                                  minScaleM);
 		mouseDescs [(int)MouseType.MEDIUM] = new MouseDesc ("mouse.02", 
-		                                                    "mouse.intro.02", 
+		                                                    "mouse_02", 
 		                                                    (minSpeedM + maxSpeedM) / 2, 
 		                                                    (minScaleM + maxScaleM) / 2);
 		mouseDescs [(int)MouseType.FAST] = new MouseDesc ("mouse.03", 
-		                                                  "mouse.intro.03", 
+		                                                  "mouse_03", 
 		                                                  maxSpeedM, 
 		                                                  maxScaleM);
 		mouseDescs [(int)MouseType.SUPERFAST] = new MouseDesc ("mouse.04", 
-		                                                       "mouse.intro.04", 
+		                                                       "mouse_04", 
 		                                                       superSpeedM, 
 		                                                       minScaleM);
 	}

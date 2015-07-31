@@ -2,9 +2,8 @@
 using System.Collections;
 
 public class DeadMouse : MonoBehaviour {
-	public Sprite[] baseSprites;
+	public float zIndex;
 
-	public float deadMouseZ = -1.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -19,12 +18,14 @@ public class DeadMouse : MonoBehaviour {
 	}
 
 	public void Configure(MouseMove parentMouse) {
-		int typeAsIndex = (int)parentMouse.mouseType;
+		MouseDesc md = MouseConfig.instance.GetMouseDesc (parentMouse.mouseType);
 
 		SpriteRenderer sr = GetComponent<SpriteRenderer> ();
-		sr.sprite = baseSprites [typeAsIndex];
+		sr.sprite = md.deadMouseSprite;
 		Vector3 tmpP = parentMouse.gameObject.transform.position;
-		tmpP.z = deadMouseZ;
+		// + = farther from camera.
+		// This should be under mice.
+		tmpP.z = zIndex;
 
 		transform.position = tmpP;
 		transform.rotation = parentMouse.gameObject.transform.rotation;
