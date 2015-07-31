@@ -2,8 +2,9 @@
 using System.Collections;
 
 public class MouseDesc {
-	public Sprite mouseSprite;
+	public Sprite deprecated_mouseSprite;
 	public Sprite introScreenSprite;
+	public Material mouseMaterial;
 
 	public float speed;
 	public float scale;
@@ -15,7 +16,10 @@ public class MouseDesc {
 		string path;
 
 		path = "Textures/Mice/" + imageName;
-		this.mouseSprite = Resources.Load<UnityEngine.Sprite>(path);
+		this.deprecated_mouseSprite = Resources.Load<UnityEngine.Sprite>(path);
+
+		path = "Textures/Mice/Materials/" + imageName;
+		this.mouseMaterial = Resources.Load<UnityEngine.Material>(path);
 
 		path = "Textures/MiceIntros/" + introScreenImageName;
 		this.introScreenSprite = Resources.Load<UnityEngine.Sprite>(path);

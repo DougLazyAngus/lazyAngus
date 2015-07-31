@@ -6,9 +6,9 @@ public class MouseMove : MonoBehaviour
 {
 	public static int activeMouseCount = 0;
 
+	public Renderer mouseRenderer;
 	public MouseConfig.MouseType mouseType { get; private set; }
 	public bool dead { get; private set; }
-	public SpriteRenderer spriteRenderer;
 	public GameObject trackingStatusBarPrototype;
 	public bool isPoisoned { get; private set; }
 	public bool isFartedUpon { get; private set; }
@@ -104,13 +104,13 @@ public class MouseMove : MonoBehaviour
 	public void OnFartedUpon ()
 	{
 		actualSpeedM = baseSpeedM * TweakableParams.fartSlothMultiplier;
-		spriteRenderer.color = MouseConfig.instance.fartedUponColor;
+		mouseRenderer.material.color = MouseConfig.instance.fartedUponColor;
 	}
 
 	public void SetPoisoned ()
 	{
 		isPoisoned = true;
-		spriteRenderer.color = MouseConfig.instance.poisonedColor;
+		mouseRenderer.material.color = MouseConfig.instance.poisonedColor;
 	}
 	
 	void MakeSlider ()
@@ -356,7 +356,9 @@ public class MouseMove : MonoBehaviour
 		scaleVector *= md.scale;
 		transform.localScale = scaleVector;
 
-		spriteRenderer.sprite = md.mouseSprite;
+		Material [] materials = new Material[1];
+		materials [0] = md.mouseMaterial;
+		mouseRenderer.materials = materials;
 	}
 
 	public MouseConfig.MovementPhaseType GetMousePhase ()

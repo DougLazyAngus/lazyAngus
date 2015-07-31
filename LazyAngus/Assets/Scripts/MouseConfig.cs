@@ -123,9 +123,9 @@ public class MouseConfig : MonoBehaviour
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
 	}
 	
-	public Sprite GetSpriteForMouseType (MouseType mt)
+	public Sprite deprecated_GetSpriteForMouseType (MouseType mt)
 	{
-		return mouseDescs [(int)mt].mouseSprite;
+		return mouseDescs [(int)mt].deprecated_mouseSprite;
 	}
 	
 	public Sprite GetIntroSpriteForMouseType (MouseType mt)
