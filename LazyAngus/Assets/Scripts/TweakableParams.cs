@@ -18,7 +18,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float baseSwipeSpeed = 7.0f;	
 	public const float swipeInitialPause = 0.1f;
 	public const float swipeExtendedPause = 0.1f;
-	public const float swipeRadius = 4.1f;
+	public const float swipeRadius = 4.6f;
 
 	// Player view params.
 	public const float baseSwipeAngleRange = 90.0f;

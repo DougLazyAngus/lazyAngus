@@ -16,11 +16,11 @@ public class PawController : MonoBehaviour {
 	private SwipePhase swipePhase;
 	private float pauseStarted;
 
-	public GameObject normalPawSpriteGameObject;
-	public GameObject dangerPawSpriteGameObject;
+	public GameObject normalPawArtGameObject;
+	public GameObject dangerPawArtGameObject;
 
-	public GameObject bigPawSpriteGameObject;
-	public GameObject bigDangerPawSpriteGameObject;
+	public GameObject bigPawArtGameObject;
+	public GameObject bigDangerPawArtGameObject;
 
 	public Collider2D normalCollider;
 	public Collider2D bigCollider;
@@ -150,32 +150,32 @@ public class PawController : MonoBehaviour {
 
 	void UpdatePawState() {
 		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
-			dangerPawSpriteGameObject.SetActive (false);
+			dangerPawArtGameObject.SetActive (false);
 			normalCollider.gameObject.SetActive (false);
 
 			bigCollider.gameObject.SetActive (true);
 
 			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-				bigDangerPawSpriteGameObject.SetActive (true);
-				bigPawSpriteGameObject.SetActive (false);
+				bigDangerPawArtGameObject.SetActive (true);
+				bigPawArtGameObject.SetActive (false);
 				bigCollider.isTrigger = true;
 			} else {
-				bigDangerPawSpriteGameObject.SetActive (false);
-				bigPawSpriteGameObject.SetActive (true);
+				bigDangerPawArtGameObject.SetActive (false);
+				bigPawArtGameObject.SetActive (true);
 				bigCollider.isTrigger = false;
 			}
 		} else {
-			bigDangerPawSpriteGameObject.SetActive (false);
-			bigPawSpriteGameObject.SetActive (false);
+			bigDangerPawArtGameObject.SetActive (false);
+			bigPawArtGameObject.SetActive (false);
 			bigCollider.gameObject.SetActive (false);
 			
 			normalCollider.gameObject.SetActive (true);
 			
 			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
-				dangerPawSpriteGameObject.SetActive (true);
+				dangerPawArtGameObject.SetActive (true);
 				normalCollider.isTrigger = true;
 			} else {
-				dangerPawSpriteGameObject.SetActive (false);
+				dangerPawArtGameObject.SetActive (false);
 				normalCollider.isTrigger = false;
 			}
 		}

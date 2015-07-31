@@ -4,45 +4,43 @@ using UnityEngine.UI;
 
 public class MouseMove : MonoBehaviour
 {
-	private float mouseAngleDeg;
-
-	private float startAngleDeg;
-	private float endAngleDeg;
-	private float mouseRadius;
-	private float circlingRadius;
-
-	private MouseConfig.MovementPhaseType phase;
-	private float phaseStartTime;
-
-	public MouseConfig.MouseType mouseType { get; private set; }
-
-	private float baseSpeedM;
-	private float actualSpeedM;
-	public SpriteRenderer spriteRenderer;
-	
-	public bool dead { get; private set; }
-
-	public GameObject trackingStatusBarPrototype;
-	private bool isClockwise;
-	private float angleAdjustmentWhileRunning;
-	private float zeroCenteredAngleAdjustmentWhileRunning;
-
-	private Slider sliderInstance;
-	private TweakableSlider tweakableSlider;
 	public static int activeMouseCount = 0;
 
+	public MouseConfig.MouseType mouseType { get; private set; }
+	public bool dead { get; private set; }
+	public SpriteRenderer spriteRenderer;
+	public GameObject trackingStatusBarPrototype;
 	public bool isPoisoned { get; private set; }
-
 	public bool isFartedUpon { get; private set; }
+	public float minDistanceToManuallyOrient = 0.01f;
 
-	private MouseConfig.MouseWiggleType wiggleType = 
+	float mouseAngleDeg;
+
+	float startAngleDeg;
+	float endAngleDeg;
+	float mouseRadius;
+	float circlingRadius;
+
+	MouseConfig.MovementPhaseType phase;
+	float phaseStartTime;
+
+
+	float baseSpeedM;
+	float actualSpeedM;
+	
+	bool isClockwise;
+	float angleAdjustmentWhileRunning;
+	float zeroCenteredAngleAdjustmentWhileRunning;
+
+	Slider sliderInstance;
+	TweakableSlider tweakableSlider;
+
+	MouseConfig.MouseWiggleType wiggleType = 
 		MouseConfig.MouseWiggleType.NONE;
 
-	private float wiggleMagnitude = 0;
-	private float wiggleCycles = 1;
-	private bool wiggleClockwise = false;
-
-	public float minDistanceToManuallyOrient = 0.01f;
+	float wiggleMagnitude = 0;
+	float wiggleCycles = 1;
+	bool wiggleClockwise = false;
 	
 	bool registeredForEvents;
 

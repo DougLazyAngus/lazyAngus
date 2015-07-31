@@ -21,8 +21,6 @@ public class GameController : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		checkForPhaseChanges = false;
-
-		Physics2D.IgnoreLayerCollision (8, 9, true);	
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
 	}
 
