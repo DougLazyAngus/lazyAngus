@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Text
-struct Text_t464;
+struct Text_t462;
 // UnityEngine.UI.Image
-struct Image_t549;
+struct Image_t463;
 // DistortForEffect
-struct DistortForEffect_t496;
+struct DistortForEffect_t494;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // LevelEndTitlesLayout
-struct  LevelEndTitlesLayout_t550  : public MonoBehaviour_t13
+struct  LevelEndTitlesLayout_t549  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text LevelEndTitlesLayout::waveTitleText
-	Text_t464 * ___waveTitleText_2;
+	Text_t462 * ___waveTitleText_2;
 	// UnityEngine.UI.Text LevelEndTitlesLayout::waveCountText
-	Text_t464 * ___waveCountText_3;
+	Text_t462 * ___waveCountText_3;
 	// UnityEngine.UI.Text LevelEndTitlesLayout::waveSpecialText
-	Text_t464 * ___waveSpecialText_4;
+	Text_t462 * ___waveSpecialText_4;
 	// UnityEngine.UI.Image LevelEndTitlesLayout::waveSpecialImage
-	Image_t549 * ___waveSpecialImage_5;
+	Image_t463 * ___waveSpecialImage_5;
 	// System.Boolean LevelEndTitlesLayout::registerdForEvents
 	bool ___registerdForEvents_6;
 	// DistortForEffect LevelEndTitlesLayout::distortForEffect
-	DistortForEffect_t496 * ___distortForEffect_7;
+	DistortForEffect_t494 * ___distortForEffect_7;
 	// System.Boolean LevelEndTitlesLayout::started
 	bool ___started_8;
 	// System.Boolean LevelEndTitlesLayout::waveDirty

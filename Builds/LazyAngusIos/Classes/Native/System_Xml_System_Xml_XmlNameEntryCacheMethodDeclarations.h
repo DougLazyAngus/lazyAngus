@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNameEntryCache
-struct XmlNameEntryCache_t3173;
+struct XmlNameEntryCache_t3175;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3131;
+struct XmlNameTable_t3133;
 // System.String
 struct String_t;
 // System.Xml.XmlNameEntry
-struct XmlNameEntry_t3161;
+struct XmlNameEntry_t3163;
 
 // System.Void System.Xml.XmlNameEntryCache::.ctor(System.Xml.XmlNameTable)
-extern "C" void XmlNameEntryCache__ctor_m10723 (XmlNameEntryCache_t3173 * __this, XmlNameTable_t3131 * ___nameTable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNameEntryCache__ctor_m10739 (XmlNameEntryCache_t3175 * __this, XmlNameTable_t3133 * ___nameTable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlNameEntryCache::GetAtomizedPrefixedName(System.String,System.String)
-extern "C" String_t* XmlNameEntryCache_GetAtomizedPrefixedName_m10724 (XmlNameEntryCache_t3173 * __this, String_t* ___prefix, String_t* ___local, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlNameEntryCache_GetAtomizedPrefixedName_m10740 (XmlNameEntryCache_t3175 * __this, String_t* ___prefix, String_t* ___local, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNameEntry System.Xml.XmlNameEntryCache::Add(System.String,System.String,System.String,System.Boolean)
-extern "C" XmlNameEntry_t3161 * XmlNameEntryCache_Add_m10725 (XmlNameEntryCache_t3173 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, bool ___atomic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNameEntry_t3163 * XmlNameEntryCache_Add_m10741 (XmlNameEntryCache_t3175 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, bool ___atomic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNameEntry System.Xml.XmlNameEntryCache::GetInternal(System.String,System.String,System.String,System.Boolean)
-extern "C" XmlNameEntry_t3161 * XmlNameEntryCache_GetInternal_m10726 (XmlNameEntryCache_t3173 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, bool ___atomic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNameEntry_t3163 * XmlNameEntryCache_GetInternal_m10742 (XmlNameEntryCache_t3175 * __this, String_t* ___prefix, String_t* ___local, String_t* ___ns, bool ___atomic, const MethodInfo* method) IL2CPP_METHOD_ATTR;

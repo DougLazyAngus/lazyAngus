@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // Parse.ParseGeoDistance
-struct  ParseGeoDistance_t1191 
+struct  ParseGeoDistance_t1193 
 {
 	// System.Double Parse.ParseGeoDistance::<Radians>k__BackingField
 	double ___U3CRadiansU3Ek__BackingField_2;

@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdName
 #include "System_Xml_Mono_Xml_Schema_XsdName.h"
 // Mono.Xml.Schema.XsdNCName
-struct  XsdNCName_t3058  : public XsdName_t3057
+struct  XsdNCName_t3060  : public XsdName_t3059
 {
 };

@@ -7,10 +7,10 @@ struct StringU5BU5D_t75;
 // System.Globalization.DateTimeStyles
 #include "mscorlib_System_Globalization_DateTimeStyles.h"
 // System.Xml.XmlConvert
-struct  XmlConvert_t3170  : public Object_t
+struct  XmlConvert_t3172  : public Object_t
 {
 };
-struct XmlConvert_t3170_StaticFields{
+struct XmlConvert_t3172_StaticFields{
 	// System.String[] System.Xml.XmlConvert::datetimeFormats
 	StringU5BU5D_t75* ___datetimeFormats_0;
 	// System.String[] System.Xml.XmlConvert::defaultDateTimeFormats

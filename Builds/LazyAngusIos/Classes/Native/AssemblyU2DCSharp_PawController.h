@@ -13,22 +13,22 @@ struct Transform_t406;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController
-struct  PawController_t493  : public MonoBehaviour_t13
+struct  PawController_t491  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 PawController::swipeLocationCat
-	Vector3_t497  ___swipeLocationCat_2;
+	Vector3_t495  ___swipeLocationCat_2;
 	// PawController/SwipePhase PawController::swipePhase
 	int32_t ___swipePhase_3;
 	// System.Single PawController::pauseStarted
 	float ___pauseStarted_4;
-	// UnityEngine.GameObject PawController::normalPawSpriteGameObject
-	GameObject_t352 * ___normalPawSpriteGameObject_5;
-	// UnityEngine.GameObject PawController::dangerPawSpriteGameObject
-	GameObject_t352 * ___dangerPawSpriteGameObject_6;
-	// UnityEngine.GameObject PawController::bigPawSpriteGameObject
-	GameObject_t352 * ___bigPawSpriteGameObject_7;
-	// UnityEngine.GameObject PawController::bigDangerPawSpriteGameObject
-	GameObject_t352 * ___bigDangerPawSpriteGameObject_8;
+	// UnityEngine.GameObject PawController::normalPawArtGameObject
+	GameObject_t352 * ___normalPawArtGameObject_5;
+	// UnityEngine.GameObject PawController::dangerPawArtGameObject
+	GameObject_t352 * ___dangerPawArtGameObject_6;
+	// UnityEngine.GameObject PawController::bigPawArtGameObject
+	GameObject_t352 * ___bigPawArtGameObject_7;
+	// UnityEngine.GameObject PawController::bigDangerPawArtGameObject
+	GameObject_t352 * ___bigDangerPawArtGameObject_8;
 	// UnityEngine.Collider2D PawController::normalCollider
 	Collider2D_t577 * ___normalCollider_9;
 	// UnityEngine.Collider2D PawController::bigCollider

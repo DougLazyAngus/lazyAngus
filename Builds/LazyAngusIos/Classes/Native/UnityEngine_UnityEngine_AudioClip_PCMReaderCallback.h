@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioClip/PCMReaderCallback
-struct  PCMReaderCallback_t2720  : public MulticastDelegate_t388
+struct  PCMReaderCallback_t2722  : public MulticastDelegate_t388
 {
 };

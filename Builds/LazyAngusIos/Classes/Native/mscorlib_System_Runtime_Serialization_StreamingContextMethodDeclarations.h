@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t2868;
+struct StreamingContext_t2870;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContextStates
 #include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
 
 // System.Void System.Runtime.Serialization.StreamingContext::.ctor(System.Runtime.Serialization.StreamingContextStates)
-extern "C" void StreamingContext__ctor_m18298 (StreamingContext_t2868 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamingContext__ctor_m18314 (StreamingContext_t2870 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.StreamingContext::.ctor(System.Runtime.Serialization.StreamingContextStates,System.Object)
-extern "C" void StreamingContext__ctor_m18299 (StreamingContext_t2868 * __this, int32_t ___state, Object_t * ___additional, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamingContext__ctor_m18315 (StreamingContext_t2870 * __this, int32_t ___state, Object_t * ___additional, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::get_State()
-extern "C" int32_t StreamingContext_get_State_m18300 (StreamingContext_t2868 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StreamingContext_get_State_m18316 (StreamingContext_t2870 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.StreamingContext::Equals(System.Object)
-extern "C" bool StreamingContext_Equals_m18301 (StreamingContext_t2868 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StreamingContext_Equals_m18317 (StreamingContext_t2870 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Serialization.StreamingContext::GetHashCode()
-extern "C" int32_t StreamingContext_GetHashCode_m18302 (StreamingContext_t2868 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StreamingContext_GetHashCode_m18318 (StreamingContext_t2870 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ILayoutElement
-struct ILayoutElement_t988;
+struct ILayoutElement_t990;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>
-struct  Func_2_t947  : public MulticastDelegate_t388
+struct  Func_2_t949  : public MulticastDelegate_t388
 {
 };

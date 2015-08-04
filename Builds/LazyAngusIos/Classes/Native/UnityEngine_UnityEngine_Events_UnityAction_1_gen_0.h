@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Events.UnityAction`1<UnityEngine.Color>
-struct  UnityAction_1_t980  : public MulticastDelegate_t388
+struct  UnityAction_1_t982  : public MulticastDelegate_t388
 {
 };

@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // Mono.Xml.DTDNode
-struct DTDNode_t3132;
+struct DTDNode_t3134;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
-struct  KeyValuePair_2_t3136 
+struct  KeyValuePair_2_t3138 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::key
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::value
-	DTDNode_t3132 * ___value_1;
+	DTDNode_t3134 * ___value_1;
 };

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.OperationCanceledException
-struct OperationCanceledException_t2096;
+struct OperationCanceledException_t2098;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2867;
+struct SerializationInfo_t2869;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OperationCanceledException::.ctor()
-extern "C" void OperationCanceledException__ctor_m7524 (OperationCanceledException_t2096 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperationCanceledException__ctor_m7537 (OperationCanceledException_t2098 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OperationCanceledException__ctor_m19731 (OperationCanceledException_t2096 * __this, SerializationInfo_t2867 * ___info, StreamingContext_t2868  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperationCanceledException__ctor_m19747 (OperationCanceledException_t2098 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

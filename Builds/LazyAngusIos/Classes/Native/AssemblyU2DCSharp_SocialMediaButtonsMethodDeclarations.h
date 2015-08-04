@@ -8,10 +8,10 @@
 struct SocialMediaButtons_t606;
 
 // System.Void SocialMediaButtons::.ctor()
-extern "C" void SocialMediaButtons__ctor_m3259 (SocialMediaButtons_t606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons__ctor_m3267 (SocialMediaButtons_t606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialMediaButtons::Start()
-extern "C" void SocialMediaButtons_Start_m3260 (SocialMediaButtons_t606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons_Start_m3268 (SocialMediaButtons_t606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialMediaButtons::<Start>m__53()
-extern "C" void SocialMediaButtons_U3CStartU3Em__53_m3261 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons_U3CStartU3Em__53_m3269 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialMediaButtons::<Start>m__54()
-extern "C" void SocialMediaButtons_U3CStartU3Em__54_m3262 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons_U3CStartU3Em__54_m3270 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

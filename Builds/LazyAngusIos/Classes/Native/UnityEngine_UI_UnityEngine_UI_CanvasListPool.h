@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Canvas>>
-struct ObjectPool_1_t951;
+struct ObjectPool_1_t953;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Canvas>>
-struct UnityAction_1_t952;
+struct UnityAction_1_t954;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.CanvasListPool
-struct  CanvasListPool_t953  : public Object_t
+struct  CanvasListPool_t955  : public Object_t
 {
 };
-struct CanvasListPool_t953_StaticFields{
+struct CanvasListPool_t955_StaticFields{
 	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Canvas>> UnityEngine.UI.CanvasListPool::s_CanvasListPool
-	ObjectPool_1_t951 * ___s_CanvasListPool_0;
+	ObjectPool_1_t953 * ___s_CanvasListPool_0;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Canvas>> UnityEngine.UI.CanvasListPool::<>f__am$cache1
-	UnityAction_1_t952 * ___U3CU3Ef__amU24cache1_1;
+	UnityAction_1_t954 * ___U3CU3Ef__amU24cache1_1;
 };

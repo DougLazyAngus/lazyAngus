@@ -24,7 +24,6 @@ public class GoogleAdController : MonoBehaviour {
 		                                       GADBannerSize.SMART_BANNER);
 		banner.Hide ();
 		banner.ShowOnLoad = false;
-		Debug.Log ("Banner Hide 01");
 
 		GoogleMobileAd.OnInterstitialLoaded += OnInterstisialsLoaded;
 		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;

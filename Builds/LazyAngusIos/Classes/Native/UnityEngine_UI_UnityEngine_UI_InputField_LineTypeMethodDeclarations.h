@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.InputField/LineType
-struct LineType_t878;
+struct LineType_t880;
 

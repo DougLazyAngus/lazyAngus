@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.TimeZoneInfo/AdjustmentRule
-struct AdjustmentRule_t3304;
+struct AdjustmentRule_t3306;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<System.TimeZoneInfo/AdjustmentRule>
-struct  Predicate_1_t8551  : public MulticastDelegate_t388
+struct  Predicate_1_t8553  : public MulticastDelegate_t388
 {
 };

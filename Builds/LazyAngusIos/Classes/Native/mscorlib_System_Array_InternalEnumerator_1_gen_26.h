@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<MouseWiggleDesc>
-struct  InternalEnumerator_1_t5676 
+// System.Array/InternalEnumerator`1<UnityEngine.Material>
+struct  InternalEnumerator_1_t5678 
 {
-	// System.Array System.Array/InternalEnumerator`1<MouseWiggleDesc>::array
+	// System.Array System.Array/InternalEnumerator`1<UnityEngine.Material>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<MouseWiggleDesc>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.Material>::idx
 	int32_t ___idx_1;
 };

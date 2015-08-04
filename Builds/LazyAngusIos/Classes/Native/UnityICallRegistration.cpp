@@ -1,4 +1,4 @@
-//Generated on : 7/30/2015 3:09:27 PM
+//Generated on : 8/4/2015 1:53:35 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -1059,6 +1059,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_HasProperty();
 		Register_UnityEngine_Material_HasProperty();
 
+		//System.Void UnityEngine.Material::INTERNAL_CALL_SetColor(UnityEngine.Material,System.Int32,UnityEngine.Color&)
+		void Register_UnityEngine_Material_INTERNAL_CALL_SetColor();
+		Register_UnityEngine_Material_INTERNAL_CALL_SetColor();
+
 		//System.Void UnityEngine.Material::Internal_CreateWithMaterial(UnityEngine.Material,UnityEngine.Material)
 		void Register_UnityEngine_Material_Internal_CreateWithMaterial();
 		Register_UnityEngine_Material_Internal_CreateWithMaterial();
@@ -1426,6 +1430,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Renderer::set_material(UnityEngine.Material)
 		void Register_UnityEngine_Renderer_set_material();
 		Register_UnityEngine_Renderer_set_material();
+
+		//System.Void UnityEngine.Renderer::set_materials(UnityEngine.Material[])
+		void Register_UnityEngine_Renderer_set_materials();
+		Register_UnityEngine_Renderer_set_materials();
 
 		//UnityEngine.Bounds UnityEngine.Renderer::get_bounds()
 		void Register_UnityEngine_Renderer_get_bounds();
@@ -1818,6 +1826,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_deltaTime()
 		void Register_UnityEngine_Time_get_deltaTime();
 		Register_UnityEngine_Time_get_deltaTime();
+
+		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
+		void Register_UnityEngine_Time_get_realtimeSinceStartup();
+		Register_UnityEngine_Time_get_realtimeSinceStartup();
 
 		//System.Single UnityEngine.Time::get_time()
 		void Register_UnityEngine_Time_get_time();

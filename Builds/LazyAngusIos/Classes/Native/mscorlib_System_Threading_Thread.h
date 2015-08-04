@@ -3,15 +3,15 @@
 // System.Object
 struct Object_t;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t4554;
+struct ExecutionContext_t4556;
 // System.Object[]
-struct ObjectU5BU5D_t634;
+struct ObjectU5BU5D_t636;
 // System.MulticastDelegate
 struct MulticastDelegate_t388;
 // System.Security.Principal.IPrincipal
-struct IPrincipal_t4721;
+struct IPrincipal_t4723;
 // System.Collections.Hashtable
-struct Hashtable_t1274;
+struct Hashtable_t1276;
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 #include "mscorlib_System_Runtime_ConstrainedExecution_CriticalFinaliz.h"
 // System.IntPtr
@@ -23,7 +23,7 @@ struct Hashtable_t1274;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 // System.Threading.Thread
-struct  Thread_t1408  : public CriticalFinalizerObject_t4518
+struct  Thread_t1410  : public CriticalFinalizerObject_t4520
 {
 	// System.Int32 System.Threading.Thread::lock_thread_id
 	int32_t ___lock_thread_id_0;
@@ -100,7 +100,7 @@ struct  Thread_t1408  : public CriticalFinalizerObject_t4518
 	// System.Object System.Threading.Thread::pending_exception
 	Object_t * ___pending_exception_36;
 	// System.Threading.ExecutionContext System.Threading.Thread::ec_to_set
-	ExecutionContext_t4554 * ___ec_to_set_37;
+	ExecutionContext_t4556 * ___ec_to_set_37;
 	// System.IntPtr System.Threading.Thread::interrupt_on_stop
 	IntPtr_t ___interrupt_on_stop_38;
 	// System.IntPtr System.Threading.Thread::unused3
@@ -120,17 +120,17 @@ struct  Thread_t1408  : public CriticalFinalizerObject_t4518
 	// System.Boolean System.Threading.Thread::in_currentculture
 	bool ___in_currentculture_50;
 };
-struct Thread_t1408_StaticFields{
+struct Thread_t1410_StaticFields{
 	// System.Collections.Hashtable System.Threading.Thread::datastorehash
-	Hashtable_t1274 * ___datastorehash_48;
+	Hashtable_t1276 * ___datastorehash_48;
 	// System.Object System.Threading.Thread::datastore_lock
 	Object_t * ___datastore_lock_49;
 	// System.Object System.Threading.Thread::culture_lock
 	Object_t * ___culture_lock_51;
 };
-struct Thread_t1408_ThreadStaticFields{
+struct Thread_t1410_ThreadStaticFields{
 	// System.Object[] System.Threading.Thread::local_slots
-	ObjectU5BU5D_t634* ___local_slots_43;
+	ObjectU5BU5D_t636* ___local_slots_43;
 	// System.Threading.ExecutionContext System.Threading.Thread::_ec
-	ExecutionContext_t4554 * ____ec_44;
+	ExecutionContext_t4556 * ____ec_44;
 };

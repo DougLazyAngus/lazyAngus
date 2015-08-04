@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Reflection.ParameterInfo,System.Type>
-struct Func_2_t1153;
+struct Func_2_t1155;
 // System.Object
 struct Object_t;
 // System.Type
 struct Type_t;
 // System.Reflection.ParameterInfo
-struct ParameterInfo_t1330;
+struct ParameterInfo_t1332;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Reflection.ParameterInfo,System.Type>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m7157(__this, ___object, ___method, method) (( void (*) (Func_2_t1153 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7197_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m7170(__this, ___object, ___method, method) (( void (*) (Func_2_t1155 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Reflection.ParameterInfo,System.Type>::Invoke(T)
-#define Func_2_Invoke_m31373(__this, ___arg1, method) (( Type_t * (*) (Func_2_t1153 *, ParameterInfo_t1330 *, const MethodInfo*))Func_2_Invoke_m30027_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m31389(__this, ___arg1, method) (( Type_t * (*) (Func_2_t1155 *, ParameterInfo_t1332 *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Reflection.ParameterInfo,System.Type>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m31374(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1153 *, ParameterInfo_t1330 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30029_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m31390(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1155 *, ParameterInfo_t1332 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Reflection.ParameterInfo,System.Type>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m31375(__this, ___result, method) (( Type_t * (*) (Func_2_t1153 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30031_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m31391(__this, ___result, method) (( Type_t * (*) (Func_2_t1155 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)

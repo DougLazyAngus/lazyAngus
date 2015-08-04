@@ -5,9 +5,9 @@ struct String_t;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
 struct List_1_t535;
 // UnityEngine.Sprite
-struct Sprite_t472;
+struct Sprite_t471;
 // TipConfig
-struct TipConfig_t473;
+struct TipConfig_t472;
 // EnumAccumulator`1<MouseHole/MouseHoleLocation>
 struct EnumAccumulator_1_t536;
 // EnumAccumulator`1<BoostConfig/BoostType>
@@ -28,9 +28,9 @@ struct  LevelDescription_t541  : public Object_t
 	// System.Collections.Generic.List`1<ExplicitMouseDesc> LevelDescription::explicitMouseDescs
 	List_1_t535 * ___explicitMouseDescs_1;
 	// UnityEngine.Sprite LevelDescription::sprite
-	Sprite_t472 * ___sprite_2;
+	Sprite_t471 * ___sprite_2;
 	// TipConfig LevelDescription::tipConfig
-	TipConfig_t473 * ___tipConfig_3;
+	TipConfig_t472 * ___tipConfig_3;
 	// System.Single LevelDescription::tipPause
 	float ___tipPause_4;
 	// EnumAccumulator`1<MouseHole/MouseHoleLocation> LevelDescription::mouseHolesAccumulator

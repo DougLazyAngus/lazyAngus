@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Expressions.ExpressionVisitor
-struct  ExpressionVisitor_t3276  : public Object_t
+struct  ExpressionVisitor_t3278  : public Object_t
 {
 };

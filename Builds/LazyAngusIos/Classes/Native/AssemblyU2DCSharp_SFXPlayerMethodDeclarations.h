@@ -14,30 +14,30 @@ struct SFXTypeU5BU5D_t594;
 #include "AssemblyU2DCSharp_SFXPlayer_SFXType.h"
 
 // System.Void SFXPlayer::.ctor()
-extern "C" void SFXPlayer__ctor_m3192 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer__ctor_m3200 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SFXPlayer SFXPlayer::get_instance()
-extern "C" SFXPlayer_t595 * SFXPlayer_get_instance_m3193 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SFXPlayer_t595 * SFXPlayer_get_instance_m3201 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::set_instance(SFXPlayer)
-extern "C" void SFXPlayer_set_instance_m3194 (Object_t * __this /* static, unused */, SFXPlayer_t595 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_set_instance_m3202 (Object_t * __this /* static, unused */, SFXPlayer_t595 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::Awake()
-extern "C" void SFXPlayer_Awake_m3195 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_Awake_m3203 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::LoadAudioSources()
-extern "C" void SFXPlayer_LoadAudioSources_m3196 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_LoadAudioSources_m3204 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::LoadAudioSource(SFXPlayer/SFXType,System.String)
-extern "C" void SFXPlayer_LoadAudioSource_m3197 (SFXPlayer_t595 * __this, int32_t ___type, String_t* ___resourceName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_LoadAudioSource_m3205 (SFXPlayer_t595 * __this, int32_t ___type, String_t* ___resourceName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::Play(SFXPlayer/SFXType)
-extern "C" void SFXPlayer_Play_m3198 (SFXPlayer_t595 * __this, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_Play_m3206 (SFXPlayer_t595 * __this, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::PlayDelayed(SFXPlayer/SFXType,System.Single)
-extern "C" void SFXPlayer_PlayDelayed_m3199 (SFXPlayer_t595 * __this, int32_t ___type, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_PlayDelayed_m3207 (SFXPlayer_t595 * __this, int32_t ___type, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::PlayRandom(SFXPlayer/SFXType[],System.Single)
-extern "C" void SFXPlayer_PlayRandom_m3200 (SFXPlayer_t595 * __this, SFXTypeU5BU5D_t594* ___types, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_PlayRandom_m3208 (SFXPlayer_t595 * __this, SFXTypeU5BU5D_t594* ___types, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::Start()
-extern "C" void SFXPlayer_Start_m3201 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_Start_m3209 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::OnDestroy()
-extern "C" void SFXPlayer_OnDestroy_m3202 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_OnDestroy_m3210 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::RegisterForEvents()
-extern "C" void SFXPlayer_RegisterForEvents_m3203 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_RegisterForEvents_m3211 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::UnregisterForEvents()
-extern "C" void SFXPlayer_UnregisterForEvents_m3204 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_UnregisterForEvents_m3212 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SFXPlayer::OnSoundMuteChanged()
-extern "C" void SFXPlayer_OnSoundMuteChanged_m3205 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SFXPlayer_OnSoundMuteChanged_m3213 (SFXPlayer_t595 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

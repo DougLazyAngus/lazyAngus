@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Object,System.DateTime>
-struct Func_2_t6763;
+struct Func_2_t6765;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Func`2<System.Object,System.DateTime>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m40971_gshared (Func_2_t6763 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m40971(__this, ___object, ___method, method) (( void (*) (Func_2_t6763 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m40971_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m40987_gshared (Func_2_t6765 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m40987(__this, ___object, ___method, method) (( void (*) (Func_2_t6765 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m40987_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,System.DateTime>::Invoke(T)
-extern "C" DateTime_t287  Func_2_Invoke_m40972_gshared (Func_2_t6763 * __this, Object_t * ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m40972(__this, ___arg1, method) (( DateTime_t287  (*) (Func_2_t6763 *, Object_t *, const MethodInfo*))Func_2_Invoke_m40972_gshared)(__this, ___arg1, method)
+extern "C" DateTime_t287  Func_2_Invoke_m40988_gshared (Func_2_t6765 * __this, Object_t * ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m40988(__this, ___arg1, method) (( DateTime_t287  (*) (Func_2_t6765 *, Object_t *, const MethodInfo*))Func_2_Invoke_m40988_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Object,System.DateTime>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m40973_gshared (Func_2_t6763 * __this, Object_t * ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m40973(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6763 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m40973_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m40989_gshared (Func_2_t6765 * __this, Object_t * ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m40989(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6765 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m40989_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Object,System.DateTime>::EndInvoke(System.IAsyncResult)
-extern "C" DateTime_t287  Func_2_EndInvoke_m40974_gshared (Func_2_t6763 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m40974(__this, ___result, method) (( DateTime_t287  (*) (Func_2_t6763 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m40974_gshared)(__this, ___result, method)
+extern "C" DateTime_t287  Func_2_EndInvoke_m40990_gshared (Func_2_t6765 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m40990(__this, ___result, method) (( DateTime_t287  (*) (Func_2_t6765 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m40990_gshared)(__this, ___result, method)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseSpawnFromData
-struct MouseSpawnFromData_t511;
+struct MouseSpawnFromData_t509;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
 struct List_1_t535;
 // UnityEngine.GameObject
@@ -11,7 +11,7 @@ struct MouseSpawnEventHandler_t565;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnFromData
-struct  MouseSpawnFromData_t511  : public MonoBehaviour_t13
+struct  MouseSpawnFromData_t509  : public MonoBehaviour_t13
 {
 	// System.Single MouseSpawnFromData::initialSpawnDelta
 	float ___initialSpawnDelta_2;
@@ -32,7 +32,7 @@ struct  MouseSpawnFromData_t511  : public MonoBehaviour_t13
 	// System.Int32 MouseSpawnFromData::<miceSpawned>k__BackingField
 	int32_t ___U3CmiceSpawnedU3Ek__BackingField_11;
 };
-struct MouseSpawnFromData_t511_StaticFields{
+struct MouseSpawnFromData_t509_StaticFields{
 	// MouseSpawnFromData MouseSpawnFromData::instance
-	MouseSpawnFromData_t511 * ___instance_3;
+	MouseSpawnFromData_t509 * ___instance_3;
 };

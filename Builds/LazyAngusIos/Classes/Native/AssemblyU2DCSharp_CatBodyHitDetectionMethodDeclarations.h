@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CatBodyHitDetection
-struct CatBodyHitDetection_t480;
+struct CatBodyHitDetection_t479;
 
 // System.Void CatBodyHitDetection::.ctor()
-extern "C" void CatBodyHitDetection__ctor_m2615 (CatBodyHitDetection_t480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CatBodyHitDetection__ctor_m2611 (CatBodyHitDetection_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void CatBodyHitDetection::OnMouseDown()
-extern "C" void CatBodyHitDetection_OnMouseDown_m2616 (CatBodyHitDetection_t480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CatBodyHitDetection_OnMouseDown_m2612 (CatBodyHitDetection_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

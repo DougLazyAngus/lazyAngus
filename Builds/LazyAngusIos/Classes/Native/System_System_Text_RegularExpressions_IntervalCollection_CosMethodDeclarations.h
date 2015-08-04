@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.IntervalCollection/CostDelegate
-struct CostDelegate_t4101;
+struct CostDelegate_t4103;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,13 +18,13 @@ struct AsyncCallback_t386;
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.IntervalCollection/CostDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void CostDelegate__ctor_m14514 (CostDelegate_t4101 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CostDelegate__ctor_m14530 (CostDelegate_t4103 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::Invoke(System.Text.RegularExpressions.Interval)
-extern "C" double CostDelegate_Invoke_m14515 (CostDelegate_t4101 * __this, Interval_t4099  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double CostDelegate_Invoke_m14531 (CostDelegate_t4103 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_IntervalMethodDeclarations.h"
-extern "C" double pinvoke_delegate_wrapper_CostDelegate_t4101(Il2CppObject* delegate, Interval_t4099  ___i);
+extern "C" double pinvoke_delegate_wrapper_CostDelegate_t4103(Il2CppObject* delegate, Interval_t4101  ___i);
 // System.IAsyncResult System.Text.RegularExpressions.IntervalCollection/CostDelegate::BeginInvoke(System.Text.RegularExpressions.Interval,System.AsyncCallback,System.Object)
-extern "C" Object_t * CostDelegate_BeginInvoke_m14516 (CostDelegate_t4101 * __this, Interval_t4099  ___i, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CostDelegate_BeginInvoke_m14532 (CostDelegate_t4103 * __this, Interval_t4101  ___i, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::EndInvoke(System.IAsyncResult)
-extern "C" double CostDelegate_EndInvoke_m14517 (CostDelegate_t4101 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double CostDelegate_EndInvoke_m14533 (CostDelegate_t4103 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

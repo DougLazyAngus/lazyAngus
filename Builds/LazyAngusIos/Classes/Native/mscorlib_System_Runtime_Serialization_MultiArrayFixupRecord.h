@@ -5,7 +5,7 @@ struct Int32U5BU5D_t547;
 // System.Runtime.Serialization.BaseFixupRecord
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 // System.Runtime.Serialization.MultiArrayFixupRecord
-struct  MultiArrayFixupRecord_t4618  : public BaseFixupRecord_t4616
+struct  MultiArrayFixupRecord_t4620  : public BaseFixupRecord_t4618
 {
 	// System.Int32[] System.Runtime.Serialization.MultiArrayFixupRecord::_indices
 	Int32U5BU5D_t547* ____indices_4;

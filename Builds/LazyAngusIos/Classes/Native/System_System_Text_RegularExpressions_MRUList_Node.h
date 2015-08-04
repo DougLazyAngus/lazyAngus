@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.MRUList/Node
-struct Node_t4083;
+struct Node_t4085;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.MRUList/Node
-struct  Node_t4083  : public Object_t
+struct  Node_t4085  : public Object_t
 {
 	// System.Object System.Text.RegularExpressions.MRUList/Node::value
 	Object_t * ___value_0;
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList/Node::previous
-	Node_t4083 * ___previous_1;
+	Node_t4085 * ___previous_1;
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList/Node::next
-	Node_t4083 * ___next_2;
+	Node_t4085 * ___next_2;
 };

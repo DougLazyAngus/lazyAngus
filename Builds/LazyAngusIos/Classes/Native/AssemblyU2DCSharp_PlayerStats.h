@@ -11,11 +11,11 @@ struct MoneyChangedEventHandler_t584;
 // PlayerStats/BoostsChangedEventHandler
 struct BoostsChangedEventHandler_t585;
 // PlayerStats
-struct PlayerStats_t475;
+struct PlayerStats_t474;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerStats
-struct  PlayerStats_t475  : public MonoBehaviour_t13
+struct  PlayerStats_t474  : public MonoBehaviour_t13
 {
 	// System.Int32[] PlayerStats::availableBoostCount
 	Int32U5BU5D_t547* ___availableBoostCount_3;
@@ -34,7 +34,7 @@ struct  PlayerStats_t475  : public MonoBehaviour_t13
 	// System.Int32 PlayerStats::<money>k__BackingField
 	int32_t ___U3CmoneyU3Ek__BackingField_10;
 };
-struct PlayerStats_t475_StaticFields{
+struct PlayerStats_t474_StaticFields{
 	// PlayerStats PlayerStats::<instance>k__BackingField
-	PlayerStats_t475 * ___U3CinstanceU3Ek__BackingField_11;
+	PlayerStats_t474 * ___U3CinstanceU3Ek__BackingField_11;
 };

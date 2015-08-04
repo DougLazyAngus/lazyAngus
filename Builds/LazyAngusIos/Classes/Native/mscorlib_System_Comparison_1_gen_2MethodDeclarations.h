@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnityEngine.UI.Graphic>
-struct Comparison_1_t862;
+struct Comparison_1_t864;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Graphic
-struct Graphic_t859;
+struct Graphic_t861;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<UnityEngine.UI.Graphic>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m5663(__this, ___object, ___method, method) (( void (*) (Comparison_1_t862 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21476_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m5676(__this, ___object, ___method, method) (( void (*) (Comparison_1_t864 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Graphic>::Invoke(T,T)
-#define Comparison_1_Invoke_m28717(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t862 *, Graphic_t859 *, Graphic_t859 *, const MethodInfo*))Comparison_1_Invoke_m21477_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m28733(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t864 *, Graphic_t861 *, Graphic_t861 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.UI.Graphic>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m28718(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t862 *, Graphic_t859 *, Graphic_t859 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21478_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m28734(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t864 *, Graphic_t861 *, Graphic_t861 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Graphic>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m28719(__this, ___result, method) (( int32_t (*) (Comparison_1_t862 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21479_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m28735(__this, ___result, method) (( int32_t (*) (Comparison_1_t864 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)

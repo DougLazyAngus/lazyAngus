@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>
-struct Func_2_t6044;
+struct Func_2_t6046;
 // System.Object
 struct Object_t;
 // <>f__AnonymousType6`2<System.Object,Parse.ParseObject>
-struct U3CU3Ef__AnonymousType6_2_t6052;
+struct U3CU3Ef__AnonymousType6_2_t6054;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m31908(__this, ___object, ___method, method) (( void (*) (Func_2_t6044 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7197_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m31924(__this, ___object, ___method, method) (( void (*) (Func_2_t6046 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::Invoke(T)
-#define Func_2_Invoke_m31909(__this, ___arg1, method) (( U3CU3Ef__AnonymousType6_2_t6052 * (*) (Func_2_t6044 *, U3CU3Ef__AnonymousType6_2_t6052 *, const MethodInfo*))Func_2_Invoke_m30027_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m31925(__this, ___arg1, method) (( U3CU3Ef__AnonymousType6_2_t6054 * (*) (Func_2_t6046 *, U3CU3Ef__AnonymousType6_2_t6054 *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m31910(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6044 *, U3CU3Ef__AnonymousType6_2_t6052 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30029_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m31926(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6046 *, U3CU3Ef__AnonymousType6_2_t6054 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m31911(__this, ___result, method) (( U3CU3Ef__AnonymousType6_2_t6052 * (*) (Func_2_t6044 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30031_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m31927(__this, ___result, method) (( U3CU3Ef__AnonymousType6_2_t6054 * (*) (Func_2_t6046 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)

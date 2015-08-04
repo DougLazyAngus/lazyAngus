@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>
-struct Dictionary_2_t7053;
+struct Dictionary_2_t7055;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_60.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseGeoPoint>
-struct  Enumerator_t7057 
+struct  Enumerator_t7059 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseGeoPoint>::dictionary
-	Dictionary_2_t7053 * ___dictionary_0;
+	Dictionary_2_t7055 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseGeoPoint>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseGeoPoint>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseGeoPoint>::current
-	KeyValuePair_2_t7054  ___current_3;
+	KeyValuePair_2_t7056  ___current_3;
 };

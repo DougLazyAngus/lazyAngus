@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Types.SourceID
-struct SourceID_t2758;
+struct SourceID_t2760;
 

@@ -20,5 +20,5 @@ struct  ThrobForEffect_t562  : public MonoBehaviour_t13
 	// UnityEngine.Transform ThrobForEffect::thingToScale
 	Transform_t406 * ___thingToScale_6;
 	// UnityEngine.Vector3 ThrobForEffect::originalScale
-	Vector3_t497  ___originalScale_7;
+	Vector3_t495  ___originalScale_7;
 };

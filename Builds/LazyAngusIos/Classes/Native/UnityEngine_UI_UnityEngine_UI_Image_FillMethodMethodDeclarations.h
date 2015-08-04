@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Image/FillMethod
-struct FillMethod_t867;
+struct FillMethod_t869;
 

@@ -5,7 +5,7 @@
 // System.Threading.Tasks.TaskContinuationOptions
 #include "Parse_Unity_System_Threading_Tasks_TaskContinuationOptions.h"
 // System.Threading.Tasks.TaskContinuationOptions
-struct  TaskContinuationOptions_t1302 
+struct  TaskContinuationOptions_t1304 
 {
 	// System.Int32 System.Threading.Tasks.TaskContinuationOptions::value__
 	int32_t ___value___1;

@@ -3,14 +3,14 @@
 // System.Action
 struct Action_t143;
 // System.Threading.CancellationTokenSource
-struct CancellationTokenSource_t1286;
+struct CancellationTokenSource_t1288;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Threading.CancellationTokenRegistration
-struct  CancellationTokenRegistration_t1287 
+struct  CancellationTokenRegistration_t1289 
 {
 	// System.Action System.Threading.CancellationTokenRegistration::action
 	Action_t143 * ___action_0;
 	// System.Threading.CancellationTokenSource System.Threading.CancellationTokenRegistration::source
-	CancellationTokenSource_t1286 * ___source_1;
+	CancellationTokenSource_t1288 * ___source_1;
 };

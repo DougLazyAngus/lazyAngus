@@ -6,12 +6,10 @@ struct GameObject_t352;
 struct BoostConfig_t456;
 // UnityEngine.UI.Slider
 struct Slider_t457;
-// UnityEngine.Canvas
-struct Canvas_t458;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BoostActiveLayout
-struct  BoostActiveLayout_t459  : public MonoBehaviour_t13
+struct  BoostActiveLayout_t458  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject BoostActiveLayout::sliderPrototype
 	GameObject_t352 * ___sliderPrototype_2;
@@ -31,6 +29,4 @@ struct  BoostActiveLayout_t459  : public MonoBehaviour_t13
 	Slider_t457 * ___sliderInstance_9;
 	// System.Boolean BoostActiveLayout::sliderDirty
 	bool ___sliderDirty_10;
-	// UnityEngine.Canvas BoostActiveLayout::containingCanvas
-	Canvas_t458 * ___containingCanvas_11;
 };

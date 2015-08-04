@@ -40,7 +40,7 @@ struct  MouseConfig_t557  : public MonoBehaviour_t13
 	// UnityEngine.Color MouseConfig::fartedUponColor
 	Color_t325  ___fartedUponColor_12;
 	// UnityEngine.Vector3 MouseConfig::progressBarOffset
-	Vector3_t497  ___progressBarOffset_13;
+	Vector3_t495  ___progressBarOffset_13;
 	// UnityEngine.GameObject MouseConfig::deadMousePrototype
 	GameObject_t352 * ___deadMousePrototype_14;
 	// System.Single MouseConfig::minBFWiggleMagnitude

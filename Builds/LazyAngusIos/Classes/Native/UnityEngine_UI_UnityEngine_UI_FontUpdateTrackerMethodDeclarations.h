@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.FontUpdateTracker
-struct FontUpdateTracker_t854;
+struct FontUpdateTracker_t856;
 // UnityEngine.UI.Text
-struct Text_t464;
+struct Text_t462;
 // UnityEngine.Font
-struct Font_t851;
+struct Font_t853;
 
 // System.Void UnityEngine.UI.FontUpdateTracker::.cctor()
-extern "C" void FontUpdateTracker__cctor_m4673 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker__cctor_m4686 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::TrackText(UnityEngine.UI.Text)
-extern "C" void FontUpdateTracker_TrackText_m4674 (Object_t * __this /* static, unused */, Text_t464 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_TrackText_m4687 (Object_t * __this /* static, unused */, Text_t462 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::RebuildForFont(UnityEngine.Font)
-extern "C" void FontUpdateTracker_RebuildForFont_m4675 (Object_t * __this /* static, unused */, Font_t851 * ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_RebuildForFont_m4688 (Object_t * __this /* static, unused */, Font_t853 * ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::UntrackText(UnityEngine.UI.Text)
-extern "C" void FontUpdateTracker_UntrackText_m4676 (Object_t * __this /* static, unused */, Text_t464 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_UntrackText_m4689 (Object_t * __this /* static, unused */, Text_t462 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -7,10 +7,10 @@
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 // System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>
-struct  Enumerator_t5603 
+struct  Enumerator_t5605 
 {
 	// System.Collections.Generic.RBTree/NodeEnumerator System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>::host
-	NodeEnumerator_t3904  ___host_0;
+	NodeEnumerator_t3906  ___host_0;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>::current
 	KeyValuePair_2_t70  ___current_1;
 };

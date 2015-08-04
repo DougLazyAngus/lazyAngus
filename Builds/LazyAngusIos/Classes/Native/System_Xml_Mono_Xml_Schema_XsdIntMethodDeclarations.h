@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdInt
-struct XsdInt_t3068;
+struct XsdInt_t3070;
 
 // System.Void Mono.Xml.Schema.XsdInt::.ctor()
-extern "C" void XsdInt__ctor_m10185 (XsdInt_t3068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdInt__ctor_m10201 (XsdInt_t3070 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

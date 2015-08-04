@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>
-struct Enumerator_t684;
+struct Enumerator_t685;
 // System.Object
 struct Object_t;
 // AndroidADBanner
@@ -20,30 +20,30 @@ struct Dictionary_2_t159;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__12MethodDeclarations.h"
-#define Enumerator__ctor_m23387(__this, ___dictionary, method) (( void (*) (Enumerator_t684 *, Dictionary_2_t159 *, const MethodInfo*))Enumerator__ctor_m20975_gshared)(__this, ___dictionary, method)
+#define Enumerator__ctor_m23403(__this, ___dictionary, method) (( void (*) (Enumerator_t685 *, Dictionary_2_t159 *, const MethodInfo*))Enumerator__ctor_m20991_gshared)(__this, ___dictionary, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m23388(__this, method) (( Object_t * (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m20976_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m23404(__this, method) (( Object_t * (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m20992_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m23389(__this, method) (( void (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m20977_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m23405(__this, method) (( void (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m20993_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m23390(__this, method) (( DictionaryEntry_t2086  (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m20978_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m23406(__this, method) (( DictionaryEntry_t2088  (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m20994_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m23391(__this, method) (( Object_t * (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m20979_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m23407(__this, method) (( Object_t * (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m20995_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m23392(__this, method) (( Object_t * (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m20980_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m23408(__this, method) (( Object_t * (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m20996_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::MoveNext()
-#define Enumerator_MoveNext_m3568(__this, method) (( bool (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_MoveNext_m20981_gshared)(__this, method)
+#define Enumerator_MoveNext_m3576(__this, method) (( bool (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_MoveNext_m20997_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::get_Current()
-#define Enumerator_get_Current_m3566(__this, method) (( KeyValuePair_2_t683  (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_get_Current_m20982_gshared)(__this, method)
+#define Enumerator_get_Current_m3574(__this, method) (( KeyValuePair_2_t684  (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_get_Current_m20998_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m23393(__this, method) (( int32_t (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_get_CurrentKey_m20983_gshared)(__this, method)
+#define Enumerator_get_CurrentKey_m23409(__this, method) (( int32_t (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_get_CurrentKey_m20999_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m23394(__this, method) (( AndroidADBanner_t215 * (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_get_CurrentValue_m20984_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m23410(__this, method) (( AndroidADBanner_t215 * (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_get_CurrentValue_m21000_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::Reset()
-#define Enumerator_Reset_m23395(__this, method) (( void (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_Reset_m20985_gshared)(__this, method)
+#define Enumerator_Reset_m23411(__this, method) (( void (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_Reset_m21001_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::VerifyState()
-#define Enumerator_VerifyState_m23396(__this, method) (( void (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_VerifyState_m20986_gshared)(__this, method)
+#define Enumerator_VerifyState_m23412(__this, method) (( void (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_VerifyState_m21002_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m23397(__this, method) (( void (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_VerifyCurrent_m20987_gshared)(__this, method)
+#define Enumerator_VerifyCurrent_m23413(__this, method) (( void (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_VerifyCurrent_m21003_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,AndroidADBanner>::Dispose()
-#define Enumerator_Dispose_m23398(__this, method) (( void (*) (Enumerator_t684 *, const MethodInfo*))Enumerator_Dispose_m20988_gshared)(__this, method)
+#define Enumerator_Dispose_m23414(__this, method) (( void (*) (Enumerator_t685 *, const MethodInfo*))Enumerator_Dispose_m21004_gshared)(__this, method)

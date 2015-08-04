@@ -5,7 +5,7 @@ struct ThrobForEffect_t562;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // TipConfig
-struct TipConfig_t473;
+struct TipConfig_t472;
 // MouseHole/MousePopChangedEventHandler
 struct MousePopChangedEventHandler_t560;
 // MouseHole/CapacityChangedEventHandler
@@ -17,10 +17,10 @@ struct CapacityChangedEventHandler_t561;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t529  : public MonoBehaviour_t13
+struct  MouseHole_t528  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
-	Vector3_t497  ___meterOffset_2;
+	Vector3_t495  ___meterOffset_2;
 	// MouseHole/MouseHoleLocation MouseHole::mouseHoleLocation
 	int32_t ___mouseHoleLocation_3;
 	// System.Int32 MouseHole::savedMouseCount
@@ -30,7 +30,7 @@ struct  MouseHole_t529  : public MonoBehaviour_t13
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
 	GameObject_t352 * ___holeMeterPrototype_7;
 	// TipConfig MouseHole::mouseHoleTip
-	TipConfig_t473 * ___mouseHoleTip_8;
+	TipConfig_t472 * ___mouseHoleTip_8;
 	// System.Int32 MouseHole::capacity
 	int32_t ___capacity_9;
 	// System.Boolean MouseHole::registeredForEvents
@@ -40,7 +40,7 @@ struct  MouseHole_t529  : public MonoBehaviour_t13
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
 	CapacityChangedEventHandler_t561 * ___CapacityChanged_12;
 };
-struct MouseHole_t529_StaticFields{
+struct MouseHole_t528_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
 	float ___angleBetweenHoles_4;
 };

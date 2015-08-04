@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // TipConfig
-struct  TipConfig_t473  : public Object_t
+struct  TipConfig_t472  : public Object_t
 {
 	// System.String TipConfig::tipID
 	String_t* ___tipID_0;

@@ -5,20 +5,20 @@ struct GameObject_t352;
 // System.Object
 struct Object_t;
 // HoleMeter
-struct HoleMeter_t527;
+struct HoleMeter_t526;
 // System.Object
 #include "mscorlib_System_Object.h"
-// HoleMeter/<TriggerDistortionEffect>c__Iterator13
-struct  U3CTriggerDistortionEffectU3Ec__Iterator13_t528  : public Object_t
+// HoleMeter/<TriggerDistortionEffect>c__Iterator14
+struct  U3CTriggerDistortionEffectU3Ec__Iterator14_t527  : public Object_t
 {
-	// System.Int32 HoleMeter/<TriggerDistortionEffect>c__Iterator13::<i>__0
+	// System.Int32 HoleMeter/<TriggerDistortionEffect>c__Iterator14::<i>__0
 	int32_t ___U3CiU3E__0_0;
-	// UnityEngine.GameObject HoleMeter/<TriggerDistortionEffect>c__Iterator13::<go>__1
+	// UnityEngine.GameObject HoleMeter/<TriggerDistortionEffect>c__Iterator14::<go>__1
 	GameObject_t352 * ___U3CgoU3E__1_1;
-	// System.Int32 HoleMeter/<TriggerDistortionEffect>c__Iterator13::$PC
+	// System.Int32 HoleMeter/<TriggerDistortionEffect>c__Iterator14::$PC
 	int32_t ___U24PC_2;
-	// System.Object HoleMeter/<TriggerDistortionEffect>c__Iterator13::$current
+	// System.Object HoleMeter/<TriggerDistortionEffect>c__Iterator14::$current
 	Object_t * ___U24current_3;
-	// HoleMeter HoleMeter/<TriggerDistortionEffect>c__Iterator13::<>f__this
-	HoleMeter_t527 * ___U3CU3Ef__this_4;
+	// HoleMeter HoleMeter/<TriggerDistortionEffect>c__Iterator14::<>f__this
+	HoleMeter_t526 * ___U3CU3Ef__this_4;
 };

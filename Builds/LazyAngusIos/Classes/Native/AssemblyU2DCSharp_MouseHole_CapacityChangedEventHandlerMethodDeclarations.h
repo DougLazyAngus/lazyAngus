@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void MouseHole/CapacityChangedEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void CapacityChangedEventHandler__ctor_m2932 (CapacityChangedEventHandler_t561 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapacityChangedEventHandler__ctor_m2940 (CapacityChangedEventHandler_t561 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseHole/CapacityChangedEventHandler::Invoke()
-extern "C" void CapacityChangedEventHandler_Invoke_m2933 (CapacityChangedEventHandler_t561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapacityChangedEventHandler_Invoke_m2941 (CapacityChangedEventHandler_t561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_CapacityChangedEventHandler_t561(Il2CppObject* delegate);
 // System.IAsyncResult MouseHole/CapacityChangedEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * CapacityChangedEventHandler_BeginInvoke_m2934 (CapacityChangedEventHandler_t561 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CapacityChangedEventHandler_BeginInvoke_m2942 (CapacityChangedEventHandler_t561 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseHole/CapacityChangedEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void CapacityChangedEventHandler_EndInvoke_m2935 (CapacityChangedEventHandler_t561 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapacityChangedEventHandler_EndInvoke_m2943 (CapacityChangedEventHandler_t561 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

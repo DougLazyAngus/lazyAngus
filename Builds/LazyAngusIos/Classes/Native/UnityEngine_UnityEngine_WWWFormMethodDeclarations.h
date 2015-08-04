@@ -13,21 +13,21 @@ struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 
 // System.Void UnityEngine.WWWForm::.ctor()
-extern "C" void WWWForm__ctor_m3453 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm__ctor_m3461 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.String)
-extern "C" void WWWForm_AddField_m3455 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddField_m3463 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.String,System.Text.Encoding)
-extern "C" void WWWForm_AddField_m9020 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, Encoding_t689 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddField_m9036 (WWWForm_t112 * __this, String_t* ___fieldName, String_t* ___value, Encoding_t690 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddField(System.String,System.Int32)
-extern "C" void WWWForm_AddField_m9021 (WWWForm_t112 * __this, String_t* ___fieldName, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddField_m9037 (WWWForm_t112 * __this, String_t* ___fieldName, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddBinaryData(System.String,System.Byte[],System.String)
-extern "C" void WWWForm_AddBinaryData_m3454 (WWWForm_t112 * __this, String_t* ___fieldName, ByteU5BU5D_t66* ___contents, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddBinaryData_m3462 (WWWForm_t112 * __this, String_t* ___fieldName, ByteU5BU5D_t66* ___contents, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.WWWForm::AddBinaryData(System.String,System.Byte[],System.String,System.String)
-extern "C" void WWWForm_AddBinaryData_m9022 (WWWForm_t112 * __this, String_t* ___fieldName, ByteU5BU5D_t66* ___contents, String_t* ___fileName, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WWWForm_AddBinaryData_m9038 (WWWForm_t112 * __this, String_t* ___fieldName, ByteU5BU5D_t66* ___contents, String_t* ___fileName, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWWForm::get_headers()
-extern "C" Dictionary_2_t122 * WWWForm_get_headers_m9023 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t122 * WWWForm_get_headers_m9039 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] UnityEngine.WWWForm::get_data()
-extern "C" ByteU5BU5D_t66* WWWForm_get_data_m3653 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* WWWForm_get_data_m3661 (WWWForm_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

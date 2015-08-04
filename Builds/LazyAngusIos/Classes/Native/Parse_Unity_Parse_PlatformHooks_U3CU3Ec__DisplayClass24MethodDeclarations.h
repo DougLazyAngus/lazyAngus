@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.PlatformHooks/<>c__DisplayClass24
-struct U3CU3Ec__DisplayClass24_t1269;
+struct U3CU3Ec__DisplayClass24_t1271;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t764;
+struct IDictionary_2_t766;
 
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::.ctor()
-extern "C" void U3CU3Ec__DisplayClass24__ctor_m6866 (U3CU3Ec__DisplayClass24_t1269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass24__ctor_m6879 (U3CU3Ec__DisplayClass24_t1271 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::<RegisterDeviceTokenRequest>b__22()
-extern "C" void U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m6867 (U3CU3Ec__DisplayClass24_t1269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m6880 (U3CU3Ec__DisplayClass24_t1271 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::<RegisterDeviceTokenRequest>b__23(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" void U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m6868 (Object_t * __this /* static, unused */, Object_t* ___payload, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m6881 (Object_t * __this /* static, unused */, Object_t* ___payload, const MethodInfo* method) IL2CPP_METHOD_ATTR;

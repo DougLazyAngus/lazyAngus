@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.ConstrainedExecution.Cer
-struct Cer_t4516;
+struct Cer_t4518;
 

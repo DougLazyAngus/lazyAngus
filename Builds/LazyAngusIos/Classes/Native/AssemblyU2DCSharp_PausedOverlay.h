@@ -5,7 +5,7 @@ struct PausedOverlay_t575;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.UI.Button
-struct Button_t463;
+struct Button_t461;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PausedOverlay
@@ -14,7 +14,7 @@ struct  PausedOverlay_t575  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PausedOverlay::overlay
 	GameObject_t352 * ___overlay_3;
 	// UnityEngine.UI.Button PausedOverlay::bigPlayButton
-	Button_t463 * ___bigPlayButton_4;
+	Button_t461 * ___bigPlayButton_4;
 	// UnityEngine.GameObject PausedOverlay::childElement
 	GameObject_t352 * ___childElement_5;
 	// System.Boolean PausedOverlay::registeredForEvents

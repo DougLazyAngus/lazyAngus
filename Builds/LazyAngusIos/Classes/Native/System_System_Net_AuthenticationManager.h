@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t3109;
+struct ArrayList_t3111;
 // System.Object
 struct Object_t;
 // System.Net.ICredentialPolicy
-struct ICredentialPolicy_t3960;
+struct ICredentialPolicy_t3962;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.AuthenticationManager
-struct  AuthenticationManager_t3961  : public Object_t
+struct  AuthenticationManager_t3963  : public Object_t
 {
 };
-struct AuthenticationManager_t3961_StaticFields{
+struct AuthenticationManager_t3963_StaticFields{
 	// System.Collections.ArrayList System.Net.AuthenticationManager::modules
-	ArrayList_t3109 * ___modules_0;
+	ArrayList_t3111 * ___modules_0;
 	// System.Object System.Net.AuthenticationManager::locker
 	Object_t * ___locker_1;
 	// System.Net.ICredentialPolicy System.Net.AuthenticationManager::credential_policy

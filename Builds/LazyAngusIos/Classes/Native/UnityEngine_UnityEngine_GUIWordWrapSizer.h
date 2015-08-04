@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUIContent
-struct GUIContent_t732;
+struct GUIContent_t733;
 // UnityEngine.GUILayoutEntry
 #include "UnityEngine_UnityEngine_GUILayoutEntry.h"
 // UnityEngine.GUIWordWrapSizer
-struct  GUIWordWrapSizer_t2667  : public GUILayoutEntry_t2663
+struct  GUIWordWrapSizer_t2669  : public GUILayoutEntry_t2665
 {
 	// UnityEngine.GUIContent UnityEngine.GUIWordWrapSizer::content
-	GUIContent_t732 * ___content_10;
+	GUIContent_t733 * ___content_10;
 	// System.Single UnityEngine.GUIWordWrapSizer::forcedMinHeight
 	float ___forcedMinHeight_11;
 	// System.Single UnityEngine.GUIWordWrapSizer::forcedMaxHeight

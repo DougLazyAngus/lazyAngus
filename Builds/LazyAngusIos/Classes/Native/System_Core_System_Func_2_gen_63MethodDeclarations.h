@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>
-struct Func_2_t5921;
+struct Func_2_t5923;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task
-struct Task_t1155;
+struct Task_t1157;
 // System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>
-struct Tuple_2_t2313;
+struct Tuple_2_t2315;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m30337(__this, ___object, ___method, method) (( void (*) (Func_2_t5921 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7197_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m30353(__this, ___object, ___method, method) (( void (*) (Func_2_t5923 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::Invoke(T)
-#define Func_2_Invoke_m30338(__this, ___arg1, method) (( Task_t1155 * (*) (Func_2_t5921 *, Tuple_2_t2313 *, const MethodInfo*))Func_2_Invoke_m30027_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m30354(__this, ___arg1, method) (( Task_t1157 * (*) (Func_2_t5923 *, Tuple_2_t2315 *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m30339(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t5921 *, Tuple_2_t2313 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30029_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m30355(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t5923 *, Tuple_2_t2315 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m30340(__this, ___result, method) (( Task_t1155 * (*) (Func_2_t5921 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30031_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m30356(__this, ___result, method) (( Task_t1157 * (*) (Func_2_t5923 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)

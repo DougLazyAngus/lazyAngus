@@ -3,6 +3,6 @@
 // UnityEngine.UI.BaseVertexEffect
 #include "UnityEngine_UI_UnityEngine_UI_BaseVertexEffect.h"
 // UnityEngine.UI.PositionAsUV1
-struct  PositionAsUV1_t960  : public BaseVertexEffect_t957
+struct  PositionAsUV1_t962  : public BaseVertexEffect_t959
 {
 };

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct Comparison_1_t5447;
+struct Comparison_1_t5449;
 // System.Object
 struct Object_t;
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t628;
+struct DataEventHandlerFunction_t630;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m22801(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5447 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21476_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m22817(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5449 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>::Invoke(T,T)
-#define Comparison_1_Invoke_m22802(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5447 *, DataEventHandlerFunction_t628 *, DataEventHandlerFunction_t628 *, const MethodInfo*))Comparison_1_Invoke_m21477_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m22818(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5449 *, DataEventHandlerFunction_t630 *, DataEventHandlerFunction_t630 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m22803(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5447 *, DataEventHandlerFunction_t628 *, DataEventHandlerFunction_t628 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21478_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m22819(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5449 *, DataEventHandlerFunction_t630 *, DataEventHandlerFunction_t630 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m22804(__this, ___result, method) (( int32_t (*) (Comparison_1_t5447 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21479_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m22820(__this, ___result, method) (( int32_t (*) (Comparison_1_t5449 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)

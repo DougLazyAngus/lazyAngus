@@ -7,7 +7,7 @@ struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 // <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
-struct  U3CU3Ef__AnonymousType2_2_t6029  : public Object_t
+struct  U3CU3Ef__AnonymousType2_2_t6031  : public Object_t
 {
 	// <pair>j__TPar <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>::<pair>i__Field
 	KeyValuePair_2_t70  ___U3CpairU3Ei__Field_0;

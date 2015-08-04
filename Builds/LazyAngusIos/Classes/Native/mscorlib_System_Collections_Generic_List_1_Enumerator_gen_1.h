@@ -7,7 +7,7 @@ struct GADTestDevice_t154;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<GADTestDevice>
-struct  Enumerator_t676 
+struct  Enumerator_t677 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GADTestDevice>::l
 	List_1_t146 * ___l_0;

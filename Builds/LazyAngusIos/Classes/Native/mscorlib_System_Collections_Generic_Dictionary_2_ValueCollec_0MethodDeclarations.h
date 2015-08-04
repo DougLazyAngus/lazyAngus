@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Enumerator_t992;
+struct Enumerator_t994;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t822;
+struct PointerEventData_t824;
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Dictionary_2_t828;
+struct Dictionary_2_t830;
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_6MethodDeclarations.h"
-#define Enumerator__ctor_m27860(__this, ___host, method) (( void (*) (Enumerator_t992 *, Dictionary_2_t828 *, const MethodInfo*))Enumerator__ctor_m21007_gshared)(__this, ___host, method)
+#define Enumerator__ctor_m27876(__this, ___host, method) (( void (*) (Enumerator_t994 *, Dictionary_2_t830 *, const MethodInfo*))Enumerator__ctor_m21023_gshared)(__this, ___host, method)
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m27861(__this, method) (( Object_t * (*) (Enumerator_t992 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21008_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m27877(__this, method) (( Object_t * (*) (Enumerator_t994 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21024_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m27862(__this, method) (( void (*) (Enumerator_t992 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21009_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m27878(__this, method) (( void (*) (Enumerator_t994 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21025_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::Dispose()
-#define Enumerator_Dispose_m27863(__this, method) (( void (*) (Enumerator_t992 *, const MethodInfo*))Enumerator_Dispose_m21010_gshared)(__this, method)
+#define Enumerator_Dispose_m27879(__this, method) (( void (*) (Enumerator_t994 *, const MethodInfo*))Enumerator_Dispose_m21026_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::MoveNext()
-#define Enumerator_MoveNext_m5547(__this, method) (( bool (*) (Enumerator_t992 *, const MethodInfo*))Enumerator_MoveNext_m21011_gshared)(__this, method)
+#define Enumerator_MoveNext_m5560(__this, method) (( bool (*) (Enumerator_t994 *, const MethodInfo*))Enumerator_MoveNext_m21027_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>::get_Current()
-#define Enumerator_get_Current_m5546(__this, method) (( PointerEventData_t822 * (*) (Enumerator_t992 *, const MethodInfo*))Enumerator_get_Current_m21012_gshared)(__this, method)
+#define Enumerator_get_Current_m5559(__this, method) (( PointerEventData_t824 * (*) (Enumerator_t994 *, const MethodInfo*))Enumerator_get_Current_m21028_gshared)(__this, method)

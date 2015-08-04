@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DateTimeOffset
-struct DateTimeOffset_t2893;
+struct DateTimeOffset_t2895;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2867;
+struct SerializationInfo_t2869;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.IFormatProvider
-struct IFormatProvider_t4454;
+struct IFormatProvider_t4456;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.TimeSpan
@@ -24,38 +24,38 @@ struct IFormatProvider_t4454;
 #include "mscorlib_System_DateTimeOffset.h"
 
 // System.Void System.DateTimeOffset::.ctor(System.DateTime)
-extern "C" void DateTimeOffset__ctor_m19412 (DateTimeOffset_t2893 * __this, DateTime_t287  ___dateTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset__ctor_m19428 (DateTimeOffset_t2895 * __this, DateTime_t287  ___dateTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::.ctor(System.DateTime,System.TimeSpan)
-extern "C" void DateTimeOffset__ctor_m19413 (DateTimeOffset_t2893 * __this, DateTime_t287  ___dateTime, TimeSpan_t334  ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset__ctor_m19429 (DateTimeOffset_t2895 * __this, DateTime_t287  ___dateTime, TimeSpan_t334  ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::.ctor(System.Int64,System.TimeSpan)
-extern "C" void DateTimeOffset__ctor_m19414 (DateTimeOffset_t2893 * __this, int64_t ___ticks, TimeSpan_t334  ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset__ctor_m19430 (DateTimeOffset_t2895 * __this, int64_t ___ticks, TimeSpan_t334  ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DateTimeOffset__ctor_m19415 (DateTimeOffset_t2893 * __this, SerializationInfo_t2867 * ___info, StreamingContext_t2868  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset__ctor_m19431 (DateTimeOffset_t2895 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::.cctor()
-extern "C" void DateTimeOffset__cctor_m19416 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset__cctor_m19432 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTimeOffset::System.IComparable.CompareTo(System.Object)
-extern "C" int32_t DateTimeOffset_System_IComparable_CompareTo_m19417 (DateTimeOffset_t2893 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeOffset_System_IComparable_CompareTo_m19433 (DateTimeOffset_t2895 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m19418 (DateTimeOffset_t2893 * __this, SerializationInfo_t2867 * ___info, StreamingContext_t2868  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m19434 (DateTimeOffset_t2895 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeOffset::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern "C" void DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m19419 (DateTimeOffset_t2893 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m19435 (DateTimeOffset_t2895 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTimeOffset::CompareTo(System.DateTimeOffset)
-extern "C" int32_t DateTimeOffset_CompareTo_m19420 (DateTimeOffset_t2893 * __this, DateTimeOffset_t2893  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeOffset_CompareTo_m19436 (DateTimeOffset_t2895 * __this, DateTimeOffset_t2895  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTimeOffset::Equals(System.DateTimeOffset)
-extern "C" bool DateTimeOffset_Equals_m19421 (DateTimeOffset_t2893 * __this, DateTimeOffset_t2893  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTimeOffset_Equals_m19437 (DateTimeOffset_t2895 * __this, DateTimeOffset_t2895  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTimeOffset::Equals(System.Object)
-extern "C" bool DateTimeOffset_Equals_m19422 (DateTimeOffset_t2893 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DateTimeOffset_Equals_m19438 (DateTimeOffset_t2895 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTimeOffset::GetHashCode()
-extern "C" int32_t DateTimeOffset_GetHashCode_m19423 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeOffset_GetHashCode_m19439 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeOffset::ToString()
-extern "C" String_t* DateTimeOffset_ToString_m19424 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeOffset_ToString_m19440 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeOffset::ToString(System.String,System.IFormatProvider)
-extern "C" String_t* DateTimeOffset_ToString_m9889 (DateTimeOffset_t2893 * __this, String_t* ___format, Object_t * ___formatProvider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeOffset_ToString_m9905 (DateTimeOffset_t2895 * __this, String_t* ___format, Object_t * ___formatProvider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTimeOffset System.DateTimeOffset::ToUniversalTime()
-extern "C" DateTimeOffset_t2893  DateTimeOffset_ToUniversalTime_m9888 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTimeOffset_t2895  DateTimeOffset_ToUniversalTime_m9904 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTimeOffset::get_DateTime()
-extern "C" DateTime_t287  DateTimeOffset_get_DateTime_m19425 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  DateTimeOffset_get_DateTime_m19441 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeSpan System.DateTimeOffset::get_Offset()
-extern "C" TimeSpan_t334  DateTimeOffset_get_Offset_m19426 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeSpan_t334  DateTimeOffset_get_Offset_m19442 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTimeOffset::get_UtcDateTime()
-extern "C" DateTime_t287  DateTimeOffset_get_UtcDateTime_m19427 (DateTimeOffset_t2893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  DateTimeOffset_get_UtcDateTime_m19443 (DateTimeOffset_t2895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdDouble
-struct  XsdDouble_t3080  : public XsdAnySimpleType_t3047
+struct  XsdDouble_t3082  : public XsdAnySimpleType_t3049
 {
 };

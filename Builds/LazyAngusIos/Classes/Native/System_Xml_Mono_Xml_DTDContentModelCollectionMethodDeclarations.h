@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDContentModelCollection
-struct DTDContentModelCollection_t3139;
+struct DTDContentModelCollection_t3141;
 // Mono.Xml.DTDContentModel
-struct DTDContentModel_t3140;
+struct DTDContentModel_t3142;
 
 // System.Void Mono.Xml.DTDContentModelCollection::.ctor()
-extern "C" void DTDContentModelCollection__ctor_m10325 (DTDContentModelCollection_t3139 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDContentModelCollection__ctor_m10341 (DTDContentModelCollection_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDContentModel Mono.Xml.DTDContentModelCollection::get_Item(System.Int32)
-extern "C" DTDContentModel_t3140 * DTDContentModelCollection_get_Item_m10326 (DTDContentModelCollection_t3139 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDContentModel_t3142 * DTDContentModelCollection_get_Item_m10342 (DTDContentModelCollection_t3141 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.DTDContentModelCollection::get_Count()
-extern "C" int32_t DTDContentModelCollection_get_Count_m10327 (DTDContentModelCollection_t3139 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DTDContentModelCollection_get_Count_m10343 (DTDContentModelCollection_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDContentModelCollection::Add(Mono.Xml.DTDContentModel)
-extern "C" void DTDContentModelCollection_Add_m10328 (DTDContentModelCollection_t3139 * __this, DTDContentModel_t3140 * ___model, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDContentModelCollection_Add_m10344 (DTDContentModelCollection_t3141 * __this, DTDContentModel_t3142 * ___model, const MethodInfo* method) IL2CPP_METHOD_ATTR;

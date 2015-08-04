@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Byte,System.Int16>
-struct Func_2_t6412;
+struct Func_2_t6414;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`2<System.Byte,System.Int16>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m36518_gshared (Func_2_t6412 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m36518(__this, ___object, ___method, method) (( void (*) (Func_2_t6412 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m36518_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m36534_gshared (Func_2_t6414 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m36534(__this, ___object, ___method, method) (( void (*) (Func_2_t6414 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m36534_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Byte,System.Int16>::Invoke(T)
-extern "C" int16_t Func_2_Invoke_m36519_gshared (Func_2_t6412 * __this, uint8_t ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m36519(__this, ___arg1, method) (( int16_t (*) (Func_2_t6412 *, uint8_t, const MethodInfo*))Func_2_Invoke_m36519_gshared)(__this, ___arg1, method)
+extern "C" int16_t Func_2_Invoke_m36535_gshared (Func_2_t6414 * __this, uint8_t ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m36535(__this, ___arg1, method) (( int16_t (*) (Func_2_t6414 *, uint8_t, const MethodInfo*))Func_2_Invoke_m36535_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Byte,System.Int16>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m36520_gshared (Func_2_t6412 * __this, uint8_t ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m36520(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6412 *, uint8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m36520_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m36536_gshared (Func_2_t6414 * __this, uint8_t ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m36536(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6414 *, uint8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m36536_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Byte,System.Int16>::EndInvoke(System.IAsyncResult)
-extern "C" int16_t Func_2_EndInvoke_m36521_gshared (Func_2_t6412 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m36521(__this, ___result, method) (( int16_t (*) (Func_2_t6412 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m36521_gshared)(__this, ___result, method)
+extern "C" int16_t Func_2_EndInvoke_m36537_gshared (Func_2_t6414 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m36537(__this, ___result, method) (( int16_t (*) (Func_2_t6414 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m36537_gshared)(__this, ___result, method)

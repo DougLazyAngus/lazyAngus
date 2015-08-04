@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // Parse.ParseClassNameAttribute
-struct  ParseClassNameAttribute_t1163  : public Attribute_t426
+struct  ParseClassNameAttribute_t1165  : public Attribute_t426
 {
 	// System.String Parse.ParseClassNameAttribute::<ClassName>k__BackingField
 	String_t* ___U3CClassNameU3Ek__BackingField_0;

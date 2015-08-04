@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseUser/<>c__DisplayClass7
-struct U3CU3Ec__DisplayClass7_t1253;
+struct U3CU3Ec__DisplayClass7_t1255;
 // Parse.ParseUser
-struct ParseUser_t1251;
+struct ParseUser_t1253;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1334;
+struct Task_1_t1336;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass7::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7__ctor_m6754 (U3CU3Ec__DisplayClass7_t1253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass7__ctor_m6767 (U3CU3Ec__DisplayClass7_t1255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseUser Parse.ParseUser/<>c__DisplayClass7::<LogInAsync>b__6(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern "C" ParseUser_t1251 * U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m6755 (U3CU3Ec__DisplayClass7_t1253 * __this, Task_1_t1334 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseUser_t1253 * U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m6768 (U3CU3Ec__DisplayClass7_t1255 * __this, Task_1_t1336 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

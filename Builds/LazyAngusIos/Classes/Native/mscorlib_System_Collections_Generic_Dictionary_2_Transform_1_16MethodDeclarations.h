@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>
-struct Transform_1_t5470;
+struct Transform_1_t5472;
 // System.Object
 struct Object_t;
 // IOSADBanner
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_1MethodDeclarations.h"
-#define Transform_1__ctor_m23252(__this, ___object, ___method, method) (( void (*) (Transform_1_t5470 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m21017_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m23268(__this, ___object, ___method, method) (( void (*) (Transform_1_t5472 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m21033_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m23253(__this, ___key, ___value, method) (( DictionaryEntry_t2086  (*) (Transform_1_t5470 *, int32_t, IOSADBanner_t150 *, const MethodInfo*))Transform_1_Invoke_m21018_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m23269(__this, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Transform_1_t5472 *, int32_t, IOSADBanner_t150 *, const MethodInfo*))Transform_1_Invoke_m21034_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m23254(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t5470 *, int32_t, IOSADBanner_t150 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m21019_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m23270(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t5472 *, int32_t, IOSADBanner_t150 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m21035_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m23255(__this, ___result, method) (( DictionaryEntry_t2086  (*) (Transform_1_t5470 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m21020_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m23271(__this, ___result, method) (( DictionaryEntry_t2088  (*) (Transform_1_t5472 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m21036_gshared)(__this, ___result, method)

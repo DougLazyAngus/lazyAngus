@@ -3,11 +3,11 @@
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
 struct List_1_t535;
 // ExplicitMouseDesc
-struct ExplicitMouseDesc_t498;
+struct ExplicitMouseDesc_t496;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>
-struct  Enumerator_t5647 
+struct  Enumerator_t5648 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::l
 	List_1_t535 * ___l_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t5647
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::current
-	ExplicitMouseDesc_t498 * ___current_3;
+	ExplicitMouseDesc_t496 * ___current_3;
 };

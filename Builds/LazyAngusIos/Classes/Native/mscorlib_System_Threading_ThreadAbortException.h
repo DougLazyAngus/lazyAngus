@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Threading.ThreadAbortException
-struct  ThreadAbortException_t4147  : public SystemException_t3180
+struct  ThreadAbortException_t4149  : public SystemException_t3182
 {
 };

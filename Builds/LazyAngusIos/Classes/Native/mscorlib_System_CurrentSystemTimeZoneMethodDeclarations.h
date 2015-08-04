@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.CurrentSystemTimeZone
-struct CurrentSystemTimeZone_t4793;
+struct CurrentSystemTimeZone_t4795;
 // System.Object
 struct Object_t;
 // System.Int64[]
-struct Int64U5BU5D_t4824;
+struct Int64U5BU5D_t4826;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Globalization.DaylightTime
-struct DaylightTime_t4424;
+struct DaylightTime_t4426;
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.CurrentSystemTimeZone::.ctor()
-extern "C" void CurrentSystemTimeZone__ctor_m19797 (CurrentSystemTimeZone_t4793 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CurrentSystemTimeZone__ctor_m19813 (CurrentSystemTimeZone_t4795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CurrentSystemTimeZone::.ctor(System.Int64)
-extern "C" void CurrentSystemTimeZone__ctor_m19798 (CurrentSystemTimeZone_t4793 * __this, int64_t ___lnow, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CurrentSystemTimeZone__ctor_m19814 (CurrentSystemTimeZone_t4795 * __this, int64_t ___lnow, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CurrentSystemTimeZone::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern "C" void CurrentSystemTimeZone_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m19799 (CurrentSystemTimeZone_t4793 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CurrentSystemTimeZone_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m19815 (CurrentSystemTimeZone_t4795 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.CurrentSystemTimeZone::GetTimeZoneData(System.Int32,System.Int64[]&,System.String[]&)
-extern "C" bool CurrentSystemTimeZone_GetTimeZoneData_m19800 (Object_t * __this /* static, unused */, int32_t ___year, Int64U5BU5D_t4824** ___data, StringU5BU5D_t75** ___names, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CurrentSystemTimeZone_GetTimeZoneData_m19816 (Object_t * __this /* static, unused */, int32_t ___year, Int64U5BU5D_t4826** ___data, StringU5BU5D_t75** ___names, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.DaylightTime System.CurrentSystemTimeZone::GetDaylightChanges(System.Int32)
-extern "C" DaylightTime_t4424 * CurrentSystemTimeZone_GetDaylightChanges_m19801 (CurrentSystemTimeZone_t4793 * __this, int32_t ___year, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DaylightTime_t4426 * CurrentSystemTimeZone_GetDaylightChanges_m19817 (CurrentSystemTimeZone_t4795 * __this, int32_t ___year, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeSpan System.CurrentSystemTimeZone::GetUtcOffset(System.DateTime)
-extern "C" TimeSpan_t334  CurrentSystemTimeZone_GetUtcOffset_m19802 (CurrentSystemTimeZone_t4793 * __this, DateTime_t287  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeSpan_t334  CurrentSystemTimeZone_GetUtcOffset_m19818 (CurrentSystemTimeZone_t4795 * __this, DateTime_t287  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CurrentSystemTimeZone::OnDeserialization(System.Globalization.DaylightTime)
-extern "C" void CurrentSystemTimeZone_OnDeserialization_m19803 (CurrentSystemTimeZone_t4793 * __this, DaylightTime_t4424 * ___dlt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CurrentSystemTimeZone_OnDeserialization_m19819 (CurrentSystemTimeZone_t4795 * __this, DaylightTime_t4426 * ___dlt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.DaylightTime System.CurrentSystemTimeZone::GetDaylightTimeFromData(System.Int64[])
-extern "C" DaylightTime_t4424 * CurrentSystemTimeZone_GetDaylightTimeFromData_m19804 (CurrentSystemTimeZone_t4793 * __this, Int64U5BU5D_t4824* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DaylightTime_t4426 * CurrentSystemTimeZone_GetDaylightTimeFromData_m19820 (CurrentSystemTimeZone_t4795 * __this, Int64U5BU5D_t4826* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

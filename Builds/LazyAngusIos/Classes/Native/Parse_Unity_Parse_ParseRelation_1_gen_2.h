@@ -3,6 +3,6 @@
 // Parse.ParseRelationBase
 #include "Parse_Unity_Parse_ParseRelationBase.h"
 // Parse.ParseRelation`1<System.Object>
-struct  ParseRelation_1_t1465  : public ParseRelationBase_t1245
+struct  ParseRelation_1_t1467  : public ParseRelationBase_t1247
 {
 };

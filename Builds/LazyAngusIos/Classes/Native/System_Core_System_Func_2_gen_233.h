@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.UInt64,System.Char>
-struct  Func_2_t6671  : public MulticastDelegate_t388
+struct  Func_2_t6673  : public MulticastDelegate_t388
 {
 };

@@ -5,10 +5,10 @@
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // UnityEngine.SystemClock
-struct  SystemClock_t2825  : public Object_t
+struct  SystemClock_t2827  : public Object_t
 {
 };
-struct SystemClock_t2825_StaticFields{
+struct SystemClock_t2827_StaticFields{
 	// System.DateTime UnityEngine.SystemClock::s_Epoch
 	DateTime_t287  ___s_Epoch_0;
 };

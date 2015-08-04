@@ -8,10 +8,10 @@
 struct ThrobForEffect_t562;
 
 // System.Void ThrobForEffect::.ctor()
-extern "C" void ThrobForEffect__ctor_m3286 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect__ctor_m3294 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::Start()
-extern "C" void ThrobForEffect_Start_m3287 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_Start_m3295 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::SetThrobbing(System.Boolean)
-extern "C" void ThrobForEffect_SetThrobbing_m3288 (ThrobForEffect_t562 * __this, bool ___throbbing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_SetThrobbing_m3296 (ThrobForEffect_t562 * __this, bool ___throbbing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::Update()
-extern "C" void ThrobForEffect_Update_m3289 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_Update_m3297 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

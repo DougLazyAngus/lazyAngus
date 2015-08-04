@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // DeadMouseRelay
-struct DeadMouseRelay_t490;
+struct DeadMouseRelay_t488;
 // DeadMouseRelay/MultiKillEventHandler
-struct MultiKillEventHandler_t487;
+struct MultiKillEventHandler_t485;
 // DeadMouseRelay/MouseKillEventHandler
-struct MouseKillEventHandler_t489;
+struct MouseKillEventHandler_t487;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DeadMouseRelay
-struct  DeadMouseRelay_t490  : public MonoBehaviour_t13
+struct  DeadMouseRelay_t488  : public MonoBehaviour_t13
 {
 	// DeadMouseRelay/MultiKillEventHandler DeadMouseRelay::MultiKill
-	MultiKillEventHandler_t487 * ___MultiKill_3;
+	MultiKillEventHandler_t485 * ___MultiKill_3;
 	// DeadMouseRelay/MouseKillEventHandler DeadMouseRelay::MouseKill
-	MouseKillEventHandler_t489 * ___MouseKill_4;
+	MouseKillEventHandler_t487 * ___MouseKill_4;
 };
-struct DeadMouseRelay_t490_StaticFields{
+struct DeadMouseRelay_t488_StaticFields{
 	// DeadMouseRelay DeadMouseRelay::instance
-	DeadMouseRelay_t490 * ___instance_2;
+	DeadMouseRelay_t488 * ___instance_2;
 };

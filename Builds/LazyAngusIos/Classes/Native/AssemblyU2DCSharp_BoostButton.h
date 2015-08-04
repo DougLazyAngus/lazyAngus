@@ -1,34 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Button
-struct Button_t463;
+struct Button_t461;
 // UnityEngine.UI.Text
-struct Text_t464;
+struct Text_t462;
+// UnityEngine.UI.Image
+struct Image_t463;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
-// BoostButton/BoostButtonMode
-#include "AssemblyU2DCSharp_BoostButton_BoostButtonMode.h"
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 // BoostButton
-struct  BoostButton_t461  : public MonoBehaviour_t13
+struct  BoostButton_t459  : public MonoBehaviour_t13
 {
-	// BoostButton/BoostButtonMode BoostButton::mode
-	int32_t ___mode_2;
 	// UnityEngine.UI.Button BoostButton::button
-	Button_t463 * ___button_3;
-	// UnityEngine.UI.Text BoostButton::buttonText
-	Text_t464 * ___buttonText_4;
-	// UnityEngine.UI.Text BoostButton::countText
-	Text_t464 * ___countText_5;
-	// UnityEngine.UI.Text BoostButton::restrictionText
-	Text_t464 * ___restrictionText_6;
+	Button_t461 * ___button_2;
+	// UnityEngine.UI.Text BoostButton::levelLockText
+	Text_t462 * ___levelLockText_3;
+	// UnityEngine.UI.Image BoostButton::levelLockImage
+	Image_t463 * ___levelLockImage_4;
+	// UnityEngine.UI.Text BoostButton::costText
+	Text_t462 * ___costText_5;
 	// BoostConfig/BoostType BoostButton::boostType
-	int32_t ___boostType_7;
+	int32_t ___boostType_6;
 	// System.Int32 BoostButton::priceInTreats
-	int32_t ___priceInTreats_8;
+	int32_t ___priceInTreats_7;
 	// System.Boolean BoostButton::registeredForEvents
-	bool ___registeredForEvents_9;
+	bool ___registeredForEvents_8;
 	// System.Boolean BoostButton::buttonDirty
-	bool ___buttonDirty_10;
+	bool ___buttonDirty_9;
 };

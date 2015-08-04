@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509Store
-struct X509Store_t4050;
+struct X509Store_t4052;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct X509Certificate2Collection_t4043;
+struct X509Certificate2Collection_t4045;
 // Mono.Security.X509.X509Stores
-struct X509Stores_t3772;
+struct X509Stores_t3774;
 // Mono.Security.X509.X509Store
-struct X509Store_t3771;
+struct X509Store_t3773;
 // System.Security.Cryptography.X509Certificates.StoreName
 #include "System_System_Security_Cryptography_X509Certificates_StoreNa.h"
 // System.Security.Cryptography.X509Certificates.StoreLocation
@@ -20,14 +20,14 @@ struct X509Store_t3771;
 #include "System_System_Security_Cryptography_X509Certificates_OpenFla.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation)
-extern "C" void X509Store__ctor_m14247 (X509Store_t4050 * __this, int32_t ___storeName, int32_t ___storeLocation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Store__ctor_m14263 (X509Store_t4052 * __this, int32_t ___storeName, int32_t ___storeLocation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection System.Security.Cryptography.X509Certificates.X509Store::get_Certificates()
-extern "C" X509Certificate2Collection_t4043 * X509Store_get_Certificates_m14248 (X509Store_t4050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2Collection_t4045 * X509Store_get_Certificates_m14264 (X509Store_t4052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Stores System.Security.Cryptography.X509Certificates.X509Store::get_Factory()
-extern "C" X509Stores_t3772 * X509Store_get_Factory_m14249 (X509Store_t4050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Stores_t3774 * X509Store_get_Factory_m14265 (X509Store_t4052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Store System.Security.Cryptography.X509Certificates.X509Store::get_Store()
-extern "C" X509Store_t3771 * X509Store_get_Store_m14250 (X509Store_t4050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t3773 * X509Store_get_Store_m14266 (X509Store_t4052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Store::Close()
-extern "C" void X509Store_Close_m14251 (X509Store_t4050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Store_Close_m14267 (X509Store_t4052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Store::Open(System.Security.Cryptography.X509Certificates.OpenFlags)
-extern "C" void X509Store_Open_m14252 (X509Store_t4050 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Store_Open_m14268 (X509Store_t4052 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;

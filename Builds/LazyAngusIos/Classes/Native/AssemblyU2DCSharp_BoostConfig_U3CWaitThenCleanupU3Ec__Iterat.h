@@ -7,7 +7,7 @@ struct BoostConfig_t456;
 // System.Object
 #include "mscorlib_System_Object.h"
 // BoostConfig/<WaitThenCleanup>c__Iterator10
-struct  U3CWaitThenCleanupU3Ec__Iterator10_t470  : public Object_t
+struct  U3CWaitThenCleanupU3Ec__Iterator10_t469  : public Object_t
 {
 	// System.Single BoostConfig/<WaitThenCleanup>c__Iterator10::pauseTime
 	float ___pauseTime_0;

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3745;
+struct HashAlgorithm_t3747;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Security.Cryptography.KeyedHashAlgorithm
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
 // Mono.Security.Cryptography.HMAC
-struct  HMAC_t3783  : public KeyedHashAlgorithm_t3784
+struct  HMAC_t3785  : public KeyedHashAlgorithm_t3786
 {
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.HMAC::hash
-	HashAlgorithm_t3745 * ___hash_5;
+	HashAlgorithm_t3747 * ___hash_5;
 	// System.Boolean Mono.Security.Cryptography.HMAC::hashing
 	bool ___hashing_6;
 	// System.Byte[] Mono.Security.Cryptography.HMAC::innerPad

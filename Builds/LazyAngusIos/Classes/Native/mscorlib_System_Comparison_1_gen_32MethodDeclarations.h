@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<UnityEngine.GameObject>
-struct Comparison_1_t5734;
+struct Comparison_1_t5736;
 // System.Object
 struct Object_t;
 // UnityEngine.GameObject
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<UnityEngine.GameObject>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m27762(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5734 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21476_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m27778(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5736 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.GameObject>::Invoke(T,T)
-#define Comparison_1_Invoke_m27763(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5734 *, GameObject_t352 *, GameObject_t352 *, const MethodInfo*))Comparison_1_Invoke_m21477_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m27779(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5736 *, GameObject_t352 *, GameObject_t352 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.GameObject>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m27764(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5734 *, GameObject_t352 *, GameObject_t352 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21478_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m27780(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5736 *, GameObject_t352 *, GameObject_t352 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.GameObject>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m27765(__this, ___result, method) (( int32_t (*) (Comparison_1_t5734 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21479_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m27781(__this, ___result, method) (( int32_t (*) (Comparison_1_t5736 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)

@@ -9,11 +9,11 @@ struct BinaryReader_t52;
 // System.IO.Stream
 struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.String
 struct String_t;
 // System.Decimal
@@ -22,50 +22,50 @@ struct String_t;
 // System.Void System.IO.BinaryReader::.ctor(System.IO.Stream)
 extern "C" void BinaryReader__ctor_m427 (BinaryReader_t52 * __this, Stream_t51 * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryReader::.ctor(System.IO.Stream,System.Text.Encoding)
-extern "C" void BinaryReader__ctor_m17030 (BinaryReader_t52 * __this, Stream_t51 * ___input, Encoding_t689 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryReader__ctor_m17046 (BinaryReader_t52 * __this, Stream_t51 * ___input, Encoding_t690 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryReader::System.IDisposable.Dispose()
-extern "C" void BinaryReader_System_IDisposable_Dispose_m17031 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryReader_System_IDisposable_Dispose_m17047 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryReader::Dispose(System.Boolean)
-extern "C" void BinaryReader_Dispose_m17032 (BinaryReader_t52 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryReader_Dispose_m17048 (BinaryReader_t52 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryReader::FillBuffer(System.Int32)
-extern "C" void BinaryReader_FillBuffer_m17033 (BinaryReader_t52 * __this, int32_t ___numBytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryReader_FillBuffer_m17049 (BinaryReader_t52 * __this, int32_t ___numBytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::Read()
-extern "C" int32_t BinaryReader_Read_m17034 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_Read_m17050 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t BinaryReader_Read_m17035 (BinaryReader_t52 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_Read_m17051 (BinaryReader_t52 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t BinaryReader_Read_m17036 (BinaryReader_t52 * __this, CharU5BU5D_t660* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_Read_m17052 (BinaryReader_t52 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::ReadCharBytes(System.Char[],System.Int32,System.Int32,System.Int32&)
-extern "C" int32_t BinaryReader_ReadCharBytes_m17037 (BinaryReader_t52 * __this, CharU5BU5D_t660* ___buffer, int32_t ___index, int32_t ___count, int32_t* ___bytes_read, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_ReadCharBytes_m17053 (BinaryReader_t52 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, int32_t* ___bytes_read, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::Read7BitEncodedInt()
-extern "C" int32_t BinaryReader_Read7BitEncodedInt_m17038 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_Read7BitEncodedInt_m17054 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.BinaryReader::ReadBoolean()
-extern "C" bool BinaryReader_ReadBoolean_m17039 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BinaryReader_ReadBoolean_m17055 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.IO.BinaryReader::ReadByte()
-extern "C" uint8_t BinaryReader_ReadByte_m17040 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t BinaryReader_ReadByte_m17056 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.IO.BinaryReader::ReadChar()
-extern "C" uint16_t BinaryReader_ReadChar_m17041 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t BinaryReader_ReadChar_m17057 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.IO.BinaryReader::ReadDecimal()
-extern "C" Decimal_t695  BinaryReader_ReadDecimal_m17042 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  BinaryReader_ReadDecimal_m17058 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.IO.BinaryReader::ReadDouble()
-extern "C" double BinaryReader_ReadDouble_m17043 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double BinaryReader_ReadDouble_m17059 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.IO.BinaryReader::ReadInt16()
-extern "C" int16_t BinaryReader_ReadInt16_m17044 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t BinaryReader_ReadInt16_m17060 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.BinaryReader::ReadInt32()
-extern "C" int32_t BinaryReader_ReadInt32_m17045 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BinaryReader_ReadInt32_m17061 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.BinaryReader::ReadInt64()
-extern "C" int64_t BinaryReader_ReadInt64_m17046 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t BinaryReader_ReadInt64_m17062 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.IO.BinaryReader::ReadSByte()
-extern "C" int8_t BinaryReader_ReadSByte_m17047 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t BinaryReader_ReadSByte_m17063 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.BinaryReader::ReadString()
-extern "C" String_t* BinaryReader_ReadString_m17048 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BinaryReader_ReadString_m17064 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.IO.BinaryReader::ReadSingle()
-extern "C" float BinaryReader_ReadSingle_m17049 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float BinaryReader_ReadSingle_m17065 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.IO.BinaryReader::ReadUInt16()
-extern "C" uint16_t BinaryReader_ReadUInt16_m17050 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t BinaryReader_ReadUInt16_m17066 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.IO.BinaryReader::ReadUInt32()
-extern "C" uint32_t BinaryReader_ReadUInt32_m17051 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t BinaryReader_ReadUInt32_m17067 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.IO.BinaryReader::ReadUInt64()
-extern "C" uint64_t BinaryReader_ReadUInt64_m17052 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t BinaryReader_ReadUInt64_m17068 (BinaryReader_t52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryReader::CheckBuffer(System.Int32)
-extern "C" void BinaryReader_CheckBuffer_m17053 (BinaryReader_t52 * __this, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryReader_CheckBuffer_m17069 (BinaryReader_t52 * __this, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;

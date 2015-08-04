@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-struct SafeHandleZeroOrMinusOneIsInvalid_t4313;
+struct SafeHandleZeroOrMinusOneIsInvalid_t4315;
 
 // System.Void Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean)
-extern "C" void SafeHandleZeroOrMinusOneIsInvalid__ctor_m16024 (SafeHandleZeroOrMinusOneIsInvalid_t4313 * __this, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandleZeroOrMinusOneIsInvalid__ctor_m16040 (SafeHandleZeroOrMinusOneIsInvalid_t4315 * __this, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::get_IsInvalid()
-extern "C" bool SafeHandleZeroOrMinusOneIsInvalid_get_IsInvalid_m16025 (SafeHandleZeroOrMinusOneIsInvalid_t4313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SafeHandleZeroOrMinusOneIsInvalid_get_IsInvalid_m16041 (SafeHandleZeroOrMinusOneIsInvalid_t4315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

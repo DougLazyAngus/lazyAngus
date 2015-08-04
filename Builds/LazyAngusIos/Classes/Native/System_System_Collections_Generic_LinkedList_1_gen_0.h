@@ -3,13 +3,13 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct LinkedListNode_1_t5903;
+struct LinkedListNode_1_t5905;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2867;
+struct SerializationInfo_t2869;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  LinkedList_1_t5902  : public Object_t
+struct  LinkedList_1_t5904  : public Object_t
 {
 	// System.UInt32 System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::count
 	uint32_t ___count_0;
@@ -18,7 +18,7 @@ struct  LinkedList_1_t5902  : public Object_t
 	// System.Object System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::syncRoot
 	Object_t * ___syncRoot_2;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::first
-	LinkedListNode_1_t5903 * ___first_3;
+	LinkedListNode_1_t5905 * ___first_3;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::si
-	SerializationInfo_t2867 * ___si_4;
+	SerializationInfo_t2869 * ___si_4;
 };

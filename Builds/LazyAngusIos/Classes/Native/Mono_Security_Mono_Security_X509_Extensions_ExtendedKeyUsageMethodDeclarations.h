@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.Extensions.ExtendedKeyUsageExtension
-struct ExtendedKeyUsageExtension_t3776;
+struct ExtendedKeyUsageExtension_t3778;
 // System.Collections.ArrayList
-struct ArrayList_t3109;
+struct ArrayList_t3111;
 // Mono.Security.X509.X509Extension
-struct X509Extension_t3770;
+struct X509Extension_t3772;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void ExtendedKeyUsageExtension__ctor_m12321 (ExtendedKeyUsageExtension_t3776 * __this, X509Extension_t3770 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtendedKeyUsageExtension__ctor_m12337 (ExtendedKeyUsageExtension_t3778 * __this, X509Extension_t3772 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::Decode()
-extern "C" void ExtendedKeyUsageExtension_Decode_m12322 (ExtendedKeyUsageExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtendedKeyUsageExtension_Decode_m12338 (ExtendedKeyUsageExtension_t3778 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::Encode()
-extern "C" void ExtendedKeyUsageExtension_Encode_m12323 (ExtendedKeyUsageExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtendedKeyUsageExtension_Encode_m12339 (ExtendedKeyUsageExtension_t3778 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::get_KeyPurpose()
-extern "C" ArrayList_t3109 * ExtendedKeyUsageExtension_get_KeyPurpose_m12324 (ExtendedKeyUsageExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t3111 * ExtendedKeyUsageExtension_get_KeyPurpose_m12340 (ExtendedKeyUsageExtension_t3778 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.ExtendedKeyUsageExtension::ToString()
-extern "C" String_t* ExtendedKeyUsageExtension_ToString_m12325 (ExtendedKeyUsageExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ExtendedKeyUsageExtension_ToString_m12341 (ExtendedKeyUsageExtension_t3778 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

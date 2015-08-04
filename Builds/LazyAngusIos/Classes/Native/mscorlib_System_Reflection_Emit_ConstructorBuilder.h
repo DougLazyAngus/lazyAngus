@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Type[]
-struct TypeU5BU5D_t1148;
+struct TypeU5BU5D_t1150;
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t4460;
+struct TypeBuilder_t4462;
 // System.Reflection.Emit.ParameterBuilder[]
-struct ParameterBuilderU5BU5D_t4461;
+struct ParameterBuilderU5BU5D_t4463;
 // System.Reflection.ConstructorInfo
 #include "mscorlib_System_Reflection_ConstructorInfo.h"
 // System.Reflection.MethodAttributes
@@ -13,16 +13,16 @@ struct ParameterBuilderU5BU5D_t4461;
 // System.Reflection.CallingConventions
 #include "mscorlib_System_Reflection_CallingConventions.h"
 // System.Reflection.Emit.ConstructorBuilder
-struct  ConstructorBuilder_t4462  : public ConstructorInfo_t1328
+struct  ConstructorBuilder_t4464  : public ConstructorInfo_t1330
 {
 	// System.Type[] System.Reflection.Emit.ConstructorBuilder::parameters
-	TypeU5BU5D_t1148* ___parameters_2;
+	TypeU5BU5D_t1150* ___parameters_2;
 	// System.Reflection.MethodAttributes System.Reflection.Emit.ConstructorBuilder::attrs
 	int32_t ___attrs_3;
 	// System.Reflection.CallingConventions System.Reflection.Emit.ConstructorBuilder::call_conv
 	int32_t ___call_conv_4;
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.ConstructorBuilder::type
-	TypeBuilder_t4460 * ___type_5;
+	TypeBuilder_t4462 * ___type_5;
 	// System.Reflection.Emit.ParameterBuilder[] System.Reflection.Emit.ConstructorBuilder::pinfo
-	ParameterBuilderU5BU5D_t4461* ___pinfo_6;
+	ParameterBuilderU5BU5D_t4463* ___pinfo_6;
 };

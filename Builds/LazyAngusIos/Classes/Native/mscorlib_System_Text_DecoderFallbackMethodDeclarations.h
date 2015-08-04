@@ -5,18 +5,18 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.DecoderFallback
-struct DecoderFallback_t4694;
+struct DecoderFallback_t4696;
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t4695;
+struct DecoderFallbackBuffer_t4697;
 
 // System.Void System.Text.DecoderFallback::.ctor()
-extern "C" void DecoderFallback__ctor_m18742 (DecoderFallback_t4694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallback__ctor_m18758 (DecoderFallback_t4696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.DecoderFallback::.cctor()
-extern "C" void DecoderFallback__cctor_m18743 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallback__cctor_m18759 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_ExceptionFallback()
-extern "C" DecoderFallback_t4694 * DecoderFallback_get_ExceptionFallback_m18744 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DecoderFallback_t4696 * DecoderFallback_get_ExceptionFallback_m18760 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_ReplacementFallback()
-extern "C" DecoderFallback_t4694 * DecoderFallback_get_ReplacementFallback_m18745 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DecoderFallback_t4696 * DecoderFallback_get_ReplacementFallback_m18761 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallback System.Text.DecoderFallback::get_StandardSafeFallback()
-extern "C" DecoderFallback_t4694 * DecoderFallback_get_StandardSafeFallback_m18746 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DecoderFallback_t4696 * DecoderFallback_get_StandardSafeFallback_m18762 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer()

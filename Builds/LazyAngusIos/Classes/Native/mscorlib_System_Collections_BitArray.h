@@ -5,7 +5,7 @@ struct Int32U5BU5D_t547;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.BitArray
-struct  BitArray_t4122  : public Object_t
+struct  BitArray_t4124  : public Object_t
 {
 	// System.Int32[] System.Collections.BitArray::m_array
 	Int32U5BU5D_t547* ___m_array_0;

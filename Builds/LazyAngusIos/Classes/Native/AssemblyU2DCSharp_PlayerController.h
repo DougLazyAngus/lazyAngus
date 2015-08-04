@@ -3,11 +3,11 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // ConeOfViewRenderer
-struct ConeOfViewRenderer_t483;
+struct ConeOfViewRenderer_t482;
 // HeadMovement
-struct HeadMovement_t526;
+struct HeadMovement_t525;
 // TipConfig
-struct TipConfig_t473;
+struct TipConfig_t472;
 // PlayerController
 struct PlayerController_t582;
 // UnityEngine.MonoBehaviour
@@ -24,9 +24,9 @@ struct  PlayerController_t582  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
 	GameObject_t352 * ___leftPawGameObject_4;
 	// ConeOfViewRenderer PlayerController::coneOfView
-	ConeOfViewRenderer_t483 * ___coneOfView_5;
+	ConeOfViewRenderer_t482 * ___coneOfView_5;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t526 * ___headMovement_6;
+	HeadMovement_t525 * ___headMovement_6;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
 	GameObject_t352 * ___fartPuffPrototype_7;
 	// UnityEngine.GameObject PlayerController::butthole
@@ -38,13 +38,13 @@ struct  PlayerController_t582  : public MonoBehaviour_t13
 	// System.Single PlayerController::currentTurnAngleDegrees
 	float ___currentTurnAngleDegrees_11;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t497  ___dragAnchorCat_12;
+	Vector3_t495  ___dragAnchorCat_12;
 	// System.Single PlayerController::dragAnchorAngleCat
 	float ___dragAnchorAngleCat_13;
 	// System.Boolean PlayerController::registeredForEvents
 	bool ___registeredForEvents_14;
 	// TipConfig PlayerController::turningTip
-	TipConfig_t473 * ___turningTip_15;
+	TipConfig_t472 * ___turningTip_15;
 	// System.Single PlayerController::turningTipPause
 	float ___turningTipPause_16;
 	// System.Single PlayerController::lastFartTime

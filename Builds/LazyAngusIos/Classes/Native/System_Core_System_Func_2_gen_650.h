@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Int16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
-struct  Func_2_t7849  : public MulticastDelegate_t388
+struct  Func_2_t7851  : public MulticastDelegate_t388
 {
 };

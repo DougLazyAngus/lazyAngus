@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextAnchor
-struct TextAnchor_t756;
+struct TextAnchor_t758;
 

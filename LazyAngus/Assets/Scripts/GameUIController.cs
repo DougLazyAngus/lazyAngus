@@ -41,12 +41,21 @@ public class GameUIController : MonoBehaviour {
 		gameOverUIGameObject.SetActive (false);
 		
 		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <LevelPlayUI>();
 		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
 		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
 
 		RegisterForEvents ();	
 		OnGamePhaseChanged ();
+
+		StartCoroutine (ConfirmUIsSetup ());
+	}
+
+	IEnumerator ConfirmUIsSetup() {
+		yield return new WaitForSeconds (0f);
+		for (int i = 0; i < gameUIs.Length; i++) {
+			gameUIs[i].ConfirmLayoutComplete();
+		}
 	}
 	
 	void OnDestroy() {
@@ -71,6 +80,8 @@ public class GameUIController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
+		Debug.Log("05.001  " + Time.realtimeSinceStartup);
+
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME: {
 			if (DebugConfig.instance.useDebugValues) {
@@ -97,6 +108,7 @@ public class GameUIController : MonoBehaviour {
 			SetActiveUI(GameUIsType.GAME_END);
 			break;
 		}		
+		Debug.Log("05.002  " + Time.realtimeSinceStartup);
 	}
 
 	public void SetActiveUI(GameUIsType uiType) {

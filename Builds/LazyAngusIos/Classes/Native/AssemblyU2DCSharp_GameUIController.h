@@ -3,13 +3,13 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // GameUI[]
-struct GameUIU5BU5D_t520;
+struct GameUIU5BU5D_t518;
 // GameUIController
-struct GameUIController_t522;
+struct GameUIController_t520;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GameUIController
-struct  GameUIController_t522  : public MonoBehaviour_t13
+struct  GameUIController_t520  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject GameUIController::welcomeUIGameObject
 	GameObject_t352 * ___welcomeUIGameObject_2;
@@ -20,11 +20,11 @@ struct  GameUIController_t522  : public MonoBehaviour_t13
 	// UnityEngine.GameObject GameUIController::gameOverUIGameObject
 	GameObject_t352 * ___gameOverUIGameObject_5;
 	// GameUI[] GameUIController::gameUIs
-	GameUIU5BU5D_t520* ___gameUIs_6;
+	GameUIU5BU5D_t518* ___gameUIs_6;
 	// System.Boolean GameUIController::registeredForEvents
 	bool ___registeredForEvents_7;
 };
-struct GameUIController_t522_StaticFields{
+struct GameUIController_t520_StaticFields{
 	// GameUIController GameUIController::<instance>k__BackingField
-	GameUIController_t522 * ___U3CinstanceU3Ek__BackingField_8;
+	GameUIController_t520 * ___U3CinstanceU3Ek__BackingField_8;
 };

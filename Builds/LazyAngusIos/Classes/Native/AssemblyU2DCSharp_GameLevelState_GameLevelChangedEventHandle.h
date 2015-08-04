@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // GameLevelState/GameLevelChangedEventHandler
-struct  GameLevelChangedEventHandler_t513  : public MulticastDelegate_t388
+struct  GameLevelChangedEventHandler_t511  : public MulticastDelegate_t388
 {
 };

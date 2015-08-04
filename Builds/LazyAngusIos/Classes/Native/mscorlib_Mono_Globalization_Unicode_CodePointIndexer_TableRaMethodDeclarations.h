@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange
-struct TableRange_t4316;
+struct TableRange_t4318;
 
 // System.Void Mono.Globalization.Unicode.CodePointIndexer/TableRange::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void TableRange__ctor_m16028 (TableRange_t4316 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TableRange__ctor_m16044 (TableRange_t4318 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;

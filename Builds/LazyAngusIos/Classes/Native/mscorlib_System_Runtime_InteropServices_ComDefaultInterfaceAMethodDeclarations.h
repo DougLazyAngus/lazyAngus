@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
-struct ComDefaultInterfaceAttribute_t4525;
+struct ComDefaultInterfaceAttribute_t4527;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.InteropServices.ComDefaultInterfaceAttribute::.ctor(System.Type)
-extern "C" void ComDefaultInterfaceAttribute__ctor_m17864 (ComDefaultInterfaceAttribute_t4525 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComDefaultInterfaceAttribute__ctor_m17880 (ComDefaultInterfaceAttribute_t4527 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,45 +13,21 @@ public class BoostButtonLayout : MonoBehaviour {
   
 	private bool treatsTextDirty;
 	private bool levelTextDirty;
-
-	bool started = false;
-	IEnumerator pendingCreation;
-
+	
 	void Awake() {
-		started = false;
 		boostButtons = null;
-		pendingCreation = null;
 	}
-
-	void Start () {
-		started = true;
-		MaybeCreateButtons ();
-	}
-
-	void OnEnable() {
-		MaybeCreateButtons ();
-	}
-
-	void OnDisable() {
-		if (pendingCreation != null) {
-			pendingCreation = null;
+	
+	public void ConfirmLayoutComplete() {
+		if (boostButtons == null) {
+			Debug.Log("01.001  " + Time.realtimeSinceStartup);
+			AddBoostButtons ();
+			Debug.Log("01.002  " + Time.realtimeSinceStartup);
+			LayoutBoostButtons ();
+			Debug.Log("01.003  " + Time.realtimeSinceStartup);
+			RefreshBoostButtons ();
+			Debug.Log("01.004  " + Time.realtimeSinceStartup);
 		}
-	}
-
-
-	void MaybeCreateButtons() {
-		if (started && enabled && boostButtons == null && pendingCreation == null) {
-			pendingCreation = WaitThenSetup();
-			StartCoroutine(pendingCreation);
-		}
-	}
-
-	IEnumerator WaitThenSetup() {
-		Debug.Log ("Hi there");
-		yield return new WaitForSeconds(0.001f);
-		AddBoostButtons ();
-		LayoutBoostButtons ();
-		RefreshBoostButtons ();
 	}
 
 	void AddBoostButtons() {

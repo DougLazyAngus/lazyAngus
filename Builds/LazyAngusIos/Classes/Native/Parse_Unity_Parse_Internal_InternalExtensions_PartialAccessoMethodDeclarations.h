@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>
-struct PartialAccessor_1_t1237;
+struct PartialAccessor_1_t1239;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task
-struct Task_t1155;
+struct Task_t1157;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
 // Parse.Internal.InternalExtensions/PartialAccessor`1<System.Object>
 #include "Parse_Unity_Parse_Internal_InternalExtensions_PartialAccesso_0MethodDeclarations.h"
-#define PartialAccessor_1__ctor_m7385(__this, ___object, ___method, method) (( void (*) (PartialAccessor_1_t1237 *, Object_t *, IntPtr_t, const MethodInfo*))PartialAccessor_1__ctor_m31015_gshared)(__this, ___object, ___method, method)
+#define PartialAccessor_1__ctor_m7398(__this, ___object, ___method, method) (( void (*) (PartialAccessor_1_t1239 *, Object_t *, IntPtr_t, const MethodInfo*))PartialAccessor_1__ctor_m31031_gshared)(__this, ___object, ___method, method)
 // System.Void Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::Invoke(T&)
-#define PartialAccessor_1_Invoke_m31023(__this, ___arg, method) (( void (*) (PartialAccessor_1_t1237 *, Task_t1155 **, const MethodInfo*))PartialAccessor_1_Invoke_m31016_gshared)(__this, ___arg, method)
+#define PartialAccessor_1_Invoke_m31039(__this, ___arg, method) (( void (*) (PartialAccessor_1_t1239 *, Task_t1157 **, const MethodInfo*))PartialAccessor_1_Invoke_m31032_gshared)(__this, ___arg, method)
 // System.IAsyncResult Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::BeginInvoke(T&,System.AsyncCallback,System.Object)
-#define PartialAccessor_1_BeginInvoke_m31024(__this, ___arg, ___callback, ___object, method) (( Object_t * (*) (PartialAccessor_1_t1237 *, Task_t1155 **, AsyncCallback_t386 *, Object_t *, const MethodInfo*))PartialAccessor_1_BeginInvoke_m31017_gshared)(__this, ___arg, ___callback, ___object, method)
+#define PartialAccessor_1_BeginInvoke_m31040(__this, ___arg, ___callback, ___object, method) (( Object_t * (*) (PartialAccessor_1_t1239 *, Task_t1157 **, AsyncCallback_t386 *, Object_t *, const MethodInfo*))PartialAccessor_1_BeginInvoke_m31033_gshared)(__this, ___arg, ___callback, ___object, method)
 // System.Void Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::EndInvoke(T&,System.IAsyncResult)
-#define PartialAccessor_1_EndInvoke_m31025(__this, ___arg, ___result, method) (( void (*) (PartialAccessor_1_t1237 *, Task_t1155 **, Object_t *, const MethodInfo*))PartialAccessor_1_EndInvoke_m31018_gshared)(__this, ___arg, ___result, method)
+#define PartialAccessor_1_EndInvoke_m31041(__this, ___arg, ___result, method) (( void (*) (PartialAccessor_1_t1239 *, Task_t1157 **, Object_t *, const MethodInfo*))PartialAccessor_1_EndInvoke_m31034_gshared)(__this, ___arg, ___result, method)

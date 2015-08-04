@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>
-struct ValueCollection_t5570;
+struct ValueCollection_t5572;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,TweetTemplate>
@@ -13,43 +13,43 @@ struct Dictionary_2_t316;
 // TweetTemplate
 struct TweetTemplate_t323;
 // System.Collections.Generic.IEnumerator`1<TweetTemplate>
-struct IEnumerator_1_t8803;
+struct IEnumerator_1_t8805;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // TweetTemplate[]
-struct TweetTemplateU5BU5D_t5566;
+struct TweetTemplateU5BU5D_t5568;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,TweetTemplate>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_113.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_8MethodDeclarations.h"
-#define ValueCollection__ctor_m25145(__this, ___dictionary, method) (( void (*) (ValueCollection_t5570 *, Dictionary_2_t316 *, const MethodInfo*))ValueCollection__ctor_m21672_gshared)(__this, ___dictionary, method)
+#define ValueCollection__ctor_m25161(__this, ___dictionary, method) (( void (*) (ValueCollection_t5572 *, Dictionary_2_t316 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m25146(__this, ___item, method) (( void (*) (ValueCollection_t5570 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21673_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m25162(__this, ___item, method) (( void (*) (ValueCollection_t5572 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m25147(__this, method) (( void (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21674_gshared)(__this, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m25163(__this, method) (( void (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21690_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m25148(__this, ___item, method) (( bool (*) (ValueCollection_t5570 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21675_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m25164(__this, ___item, method) (( bool (*) (ValueCollection_t5572 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21691_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m25149(__this, ___item, method) (( bool (*) (ValueCollection_t5570 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21676_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m25165(__this, ___item, method) (( bool (*) (ValueCollection_t5572 *, TweetTemplate_t323 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21692_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m25150(__this, method) (( Object_t* (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21677_gshared)(__this, method)
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m25166(__this, method) (( Object_t* (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21693_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m25151(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5570 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m21678_gshared)(__this, ___array, ___index, method)
+#define ValueCollection_System_Collections_ICollection_CopyTo_m25167(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5572 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m21694_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m25152(__this, method) (( Object_t * (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m21679_gshared)(__this, method)
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m25168(__this, method) (( Object_t * (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m21695_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m25153(__this, method) (( bool (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m21680_gshared)(__this, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m25169(__this, method) (( bool (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m21696_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m25154(__this, method) (( bool (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m21681_gshared)(__this, method)
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m25170(__this, method) (( bool (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m21697_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m25155(__this, method) (( Object_t * (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m21682_gshared)(__this, method)
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m25171(__this, method) (( Object_t * (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m21698_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m25156(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5570 *, TweetTemplateU5BU5D_t5566*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m21683_gshared)(__this, ___array, ___index, method)
+#define ValueCollection_CopyTo_m25172(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5572 *, TweetTemplateU5BU5D_t5568*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m21699_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m25157(__this, method) (( Enumerator_t8804  (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_GetEnumerator_m21684_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m25173(__this, method) (( Enumerator_t8806  (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_GetEnumerator_m21700_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,TweetTemplate>::get_Count()
-#define ValueCollection_get_Count_m25158(__this, method) (( int32_t (*) (ValueCollection_t5570 *, const MethodInfo*))ValueCollection_get_Count_m21685_gshared)(__this, method)
+#define ValueCollection_get_Count_m25174(__this, method) (( int32_t (*) (ValueCollection_t5572 *, const MethodInfo*))ValueCollection_get_Count_m21701_gshared)(__this, method)

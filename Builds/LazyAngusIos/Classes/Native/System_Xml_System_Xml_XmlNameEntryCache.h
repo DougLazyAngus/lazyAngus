@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1274;
+struct Hashtable_t1276;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3131;
+struct XmlNameTable_t3133;
 // System.Xml.XmlNameEntry
-struct XmlNameEntry_t3161;
+struct XmlNameEntry_t3163;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNameEntryCache
-struct  XmlNameEntryCache_t3173  : public Object_t
+struct  XmlNameEntryCache_t3175  : public Object_t
 {
 	// System.Collections.Hashtable System.Xml.XmlNameEntryCache::table
-	Hashtable_t1274 * ___table_0;
+	Hashtable_t1276 * ___table_0;
 	// System.Xml.XmlNameTable System.Xml.XmlNameEntryCache::nameTable
-	XmlNameTable_t3131 * ___nameTable_1;
+	XmlNameTable_t3133 * ___nameTable_1;
 	// System.Xml.XmlNameEntry System.Xml.XmlNameEntryCache::dummy
-	XmlNameEntry_t3161 * ___dummy_2;
+	XmlNameEntry_t3163 * ___dummy_2;
 	// System.Char[] System.Xml.XmlNameEntryCache::cacheBuffer
-	CharU5BU5D_t660* ___cacheBuffer_3;
+	CharU5BU5D_t661* ___cacheBuffer_3;
 };

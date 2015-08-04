@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.GenericUriParser
-struct GenericUriParser_t4127;
+struct GenericUriParser_t4129;
 

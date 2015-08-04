@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Principal.WindowsAccountType
-struct WindowsAccountType_t4683;
+struct WindowsAccountType_t4685;
 

@@ -5,61 +5,61 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.SmallXmlParser
-struct SmallXmlParser_t4377;
+struct SmallXmlParser_t4379;
 // System.Exception
 struct Exception_t57;
 // System.String
 struct String_t;
 // System.IO.TextReader
-struct TextReader_t3185;
+struct TextReader_t3187;
 // Mono.Xml.SmallXmlParser/IContentHandler
-struct IContentHandler_t4379;
+struct IContentHandler_t4381;
 // Mono.Xml.SmallXmlParser/AttrListImpl
-struct AttrListImpl_t4378;
+struct AttrListImpl_t4380;
 
 // System.Void Mono.Xml.SmallXmlParser::.ctor()
-extern "C" void SmallXmlParser__ctor_m16491 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser__ctor_m16507 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception Mono.Xml.SmallXmlParser::Error(System.String)
-extern "C" Exception_t57 * SmallXmlParser_Error_m16492 (SmallXmlParser_t4377 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * SmallXmlParser_Error_m16508 (SmallXmlParser_t4379 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception Mono.Xml.SmallXmlParser::UnexpectedEndError()
-extern "C" Exception_t57 * SmallXmlParser_UnexpectedEndError_m16493 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * SmallXmlParser_UnexpectedEndError_m16509 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.SmallXmlParser::IsNameChar(System.Char,System.Boolean)
-extern "C" bool SmallXmlParser_IsNameChar_m16494 (SmallXmlParser_t4377 * __this, uint16_t ___c, bool ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SmallXmlParser_IsNameChar_m16510 (SmallXmlParser_t4379 * __this, uint16_t ___c, bool ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.SmallXmlParser::IsWhitespace(System.Int32)
-extern "C" bool SmallXmlParser_IsWhitespace_m16495 (SmallXmlParser_t4377 * __this, int32_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SmallXmlParser_IsWhitespace_m16511 (SmallXmlParser_t4379 * __this, int32_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::SkipWhitespaces()
-extern "C" void SmallXmlParser_SkipWhitespaces_m16496 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_SkipWhitespaces_m16512 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::HandleWhitespaces()
-extern "C" void SmallXmlParser_HandleWhitespaces_m16497 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_HandleWhitespaces_m16513 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::SkipWhitespaces(System.Boolean)
-extern "C" void SmallXmlParser_SkipWhitespaces_m16498 (SmallXmlParser_t4377 * __this, bool ___expected, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_SkipWhitespaces_m16514 (SmallXmlParser_t4379 * __this, bool ___expected, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.SmallXmlParser::Peek()
-extern "C" int32_t SmallXmlParser_Peek_m16499 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SmallXmlParser_Peek_m16515 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.SmallXmlParser::Read()
-extern "C" int32_t SmallXmlParser_Read_m16500 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SmallXmlParser_Read_m16516 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::Expect(System.Int32)
-extern "C" void SmallXmlParser_Expect_m16501 (SmallXmlParser_t4377 * __this, int32_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_Expect_m16517 (SmallXmlParser_t4379 * __this, int32_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.SmallXmlParser::ReadUntil(System.Char,System.Boolean)
-extern "C" String_t* SmallXmlParser_ReadUntil_m16502 (SmallXmlParser_t4377 * __this, uint16_t ___until, bool ___handleReferences, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SmallXmlParser_ReadUntil_m16518 (SmallXmlParser_t4379 * __this, uint16_t ___until, bool ___handleReferences, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.SmallXmlParser::ReadName()
-extern "C" String_t* SmallXmlParser_ReadName_m16503 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SmallXmlParser_ReadName_m16519 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::Parse(System.IO.TextReader,Mono.Xml.SmallXmlParser/IContentHandler)
-extern "C" void SmallXmlParser_Parse_m16504 (SmallXmlParser_t4377 * __this, TextReader_t3185 * ___input, Object_t * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_Parse_m16520 (SmallXmlParser_t4379 * __this, TextReader_t3187 * ___input, Object_t * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::Cleanup()
-extern "C" void SmallXmlParser_Cleanup_m16505 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_Cleanup_m16521 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadContent()
-extern "C" void SmallXmlParser_ReadContent_m16506 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadContent_m16522 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::HandleBufferedContent()
-extern "C" void SmallXmlParser_HandleBufferedContent_m16507 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_HandleBufferedContent_m16523 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadCharacters()
-extern "C" void SmallXmlParser_ReadCharacters_m16508 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadCharacters_m16524 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadReference()
-extern "C" void SmallXmlParser_ReadReference_m16509 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadReference_m16525 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.SmallXmlParser::ReadCharacterReference()
-extern "C" int32_t SmallXmlParser_ReadCharacterReference_m16510 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SmallXmlParser_ReadCharacterReference_m16526 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadAttribute(Mono.Xml.SmallXmlParser/AttrListImpl)
-extern "C" void SmallXmlParser_ReadAttribute_m16511 (SmallXmlParser_t4377 * __this, AttrListImpl_t4378 * ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadAttribute_m16527 (SmallXmlParser_t4379 * __this, AttrListImpl_t4380 * ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadCDATASection()
-extern "C" void SmallXmlParser_ReadCDATASection_m16512 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadCDATASection_m16528 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser::ReadComment()
-extern "C" void SmallXmlParser_ReadComment_m16513 (SmallXmlParser_t4377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParser_ReadComment_m16529 (SmallXmlParser_t4379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
