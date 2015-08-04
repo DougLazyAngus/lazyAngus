@@ -7,35 +7,53 @@ using System.Collections.Generic;
 public class BoostButtonLayout : MonoBehaviour {
 	public float boostButtonYOffset;
 	public GameObject boostButtonPrototype;
-	public Canvas containingCanvas;
 
 	private List<BoostButton> boostButtons;
 	private GameObject[] boostButtonGameObjects;
   
 	private bool treatsTextDirty;
 	private bool levelTextDirty;
-	
-	private bool started;
-	
+
+	bool started = false;
+	IEnumerator pendingCreation;
+
 	void Awake() {
 		started = false;
+		boostButtons = null;
+		pendingCreation = null;
 	}
 
 	void Start () {
-		AddBoostButtons ();
-		LayoutBoostButtons ();
-
-		RefreshBoostButtons ();
-
 		started = true;
+		MaybeCreateButtons ();
 	}
 
 	void OnEnable() {
-		if (!started) {
-			return;
+		MaybeCreateButtons ();
+	}
+
+	void OnDisable() {
+		if (pendingCreation != null) {
+			pendingCreation = null;
 		}
 	}
-	
+
+
+	void MaybeCreateButtons() {
+		if (started && enabled && boostButtons == null && pendingCreation == null) {
+			pendingCreation = WaitThenSetup();
+			StartCoroutine(pendingCreation);
+		}
+	}
+
+	IEnumerator WaitThenSetup() {
+		Debug.Log ("Hi there");
+		yield return new WaitForSeconds(0.001f);
+		AddBoostButtons ();
+		LayoutBoostButtons ();
+		RefreshBoostButtons ();
+	}
+
 	void AddBoostButtons() {
 		boostButtons = new List<BoostButton> ();
 		boostButtonGameObjects = new GameObject[(int)BoostConfig.BoostType.NUM_TYPES];
@@ -58,7 +76,8 @@ public class BoostButtonLayout : MonoBehaviour {
 	}
 	
 	void LayoutBoostButtons() {
-		float containingWidth = containingCanvas.pixelRect.width / containingCanvas.scaleFactor;
+		RectTransform rt = gameObject.GetComponent<RectTransform> ();
+		float containingWidth = rt.rect.width;
 		Utilities.SpaceHorizontally (containingWidth, 
 		                             boostButtonGameObjects, 
 		                             boostButtonYOffset);

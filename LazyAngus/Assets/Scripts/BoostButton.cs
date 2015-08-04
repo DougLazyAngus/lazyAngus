@@ -15,8 +15,6 @@ public class BoostButton : MonoBehaviour {
 	public BoostButtonMode mode;
 
 	private Button button;
-	public Text buttonText;
-	public Text countText;
 	public Text restrictionText;
 
 
@@ -72,10 +70,6 @@ public class BoostButton : MonoBehaviour {
 
 		Image image = gameObject.GetComponent<Image> ();
 		image.sprite = BoostConfig.instance.GetButtonImageForType (boostType);
-
-		buttonText.text = BoostConfig.instance.GetTitleForType (boostType);
-
-		RefreshButton ();
 	} 
 
 	public void RefreshButton() {
@@ -94,8 +88,6 @@ public class BoostButton : MonoBehaviour {
 
 	public void RefreshForBuyAndUse() {
 		restrictionText.gameObject.SetActive(true);
-		buttonText.gameObject.SetActive(false);
-		countText.gameObject.SetActive(false);
 
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 		int gameLevel = GameLevelState.instance.gameLevel;
@@ -103,7 +95,6 @@ public class BoostButton : MonoBehaviour {
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
 			button.interactable = false;
-			countText.text = "";
 		} else {
 			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
 			restrictionText.text = "$ " + priceInTreats;
@@ -121,8 +112,6 @@ public class BoostButton : MonoBehaviour {
 
 	public void RefreshForBuy() {
 		restrictionText.gameObject.SetActive(true);
-		buttonText.gameObject.SetActive(true);
-		countText.gameObject.SetActive(true);
 
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 		int gameLevel = GameLevelState.instance.gameLevel;
@@ -130,30 +119,23 @@ public class BoostButton : MonoBehaviour {
 		if (gameLevel < levelLock) {
 			restrictionText.text = "Wave " + levelLock;
 			button.interactable = false;
-			countText.text = "";
 		} else {
 			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
 			button.interactable = PlayerStats.instance.CanAfford (priceInTreats);
 			restrictionText.text = "$ " + priceInTreats;
-			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 		}
 	}
 
 	public void RefreshForUse() {
 		restrictionText.gameObject.SetActive(false);
-		buttonText.gameObject.SetActive(false);
-		countText.gameObject.SetActive(true);
 
 		if (PlayerStats.instance.GetAvailableBoostCount(boostType) > 0) {
 			button.gameObject.SetActive (true);
-			countText.gameObject.SetActive (true);
-			countText.text = "x " + PlayerStats.instance.GetAvailableBoostCount(boostType);
 
 			button.interactable = (!BoostConfig.instance.IsBoostActive() && 
 			                       GamePhaseState.instance.IsPlaying());
 		} else {
 			button.gameObject.SetActive (false);
-			countText.gameObject.SetActive (false);
 		}
 	}
 

@@ -20,8 +20,7 @@ public class BoostActiveLayout : MonoBehaviour {
 	
 	private Slider sliderInstance;
 	private bool sliderDirty;
-	public Canvas containingCanvas;
-	
+
 	void Awake() {
 		registerdForEvents = false;
 		sliderDirty = false;
