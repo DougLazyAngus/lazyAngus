@@ -4,18 +4,10 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class BoostButton : MonoBehaviour {
-	public enum BoostButtonMode {
-		BOOST_BUTTON_MODE_USE = 0,
-		BOOST_BUTTON_MODE_BUY,
-		BOOST_BUTTON_MODE_BUY_AND_USE,
-
-		NUM_TYPES,
-	}
-
-	public BoostButtonMode mode;
-
 	private Button button;
-	public Text restrictionText;
+	public Text levelLockText;
+	public Image levelLockImage;
+	public Text costText;
 
 
 	private BoostConfig.BoostType boostType;
@@ -72,72 +64,40 @@ public class BoostButton : MonoBehaviour {
 		image.sprite = BoostConfig.instance.GetButtonImageForType (boostType);
 	} 
 
-	public void RefreshButton() {
-		switch (mode) {
-		case BoostButtonMode.BOOST_BUTTON_MODE_BUY:
-			RefreshForBuy ();
-			break;
-		case BoostButtonMode.BOOST_BUTTON_MODE_USE:
-			RefreshForUse ();
-			break;
-		default:
-			RefreshForBuyAndUse ();
-			break;
-		}
-	}
 
-	public void RefreshForBuyAndUse() {
-		restrictionText.gameObject.SetActive(true);
+	public void RefreshButton() {
+		levelLockText.gameObject.SetActive(true);
 
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 		int gameLevel = GameLevelState.instance.gameLevel;
 		
 		if (gameLevel < levelLock) {
-			restrictionText.text = "Wave " + levelLock;
+			levelLockText.gameObject.SetActive(true);
+			levelLockImage.gameObject.SetActive (true);
+			costText.gameObject.SetActive (false);
+
+			levelLockText.text = "Wave " + levelLock;
 			button.interactable = false;
 		} else {
+			levelLockText.gameObject.SetActive(false);
+			levelLockImage.gameObject.SetActive (false);
+			costText.gameObject.SetActive (true);
+
 			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
-			restrictionText.text = "$ " + priceInTreats;
+
+			costText.text = "$ " + priceInTreats;
+
 			button.interactable = (PlayerStats.instance.CanAfford (priceInTreats) && 
 			                       !BoostConfig.instance.IsBoostActive () && 
 			                       GamePhaseState.instance.IsPlaying());
-		}
-
-		if (!button.interactable) {
-			restrictionText.fontStyle = FontStyle.Italic;
-		} else {
-			restrictionText.fontStyle = FontStyle.Normal;
-		}
-	}
-
-	public void RefreshForBuy() {
-		restrictionText.gameObject.SetActive(true);
-
-		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
-		int gameLevel = GameLevelState.instance.gameLevel;
-
-		if (gameLevel < levelLock) {
-			restrictionText.text = "Wave " + levelLock;
-			button.interactable = false;
-		} else {
-			priceInTreats = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
-			button.interactable = PlayerStats.instance.CanAfford (priceInTreats);
-			restrictionText.text = "$ " + priceInTreats;
+			if (!button.interactable) {
+				costText.fontStyle = FontStyle.Italic;
+			} else {
+				costText.fontStyle = FontStyle.Normal;
+			}
 		}
 	}
 
-	public void RefreshForUse() {
-		restrictionText.gameObject.SetActive(false);
-
-		if (PlayerStats.instance.GetAvailableBoostCount(boostType) > 0) {
-			button.gameObject.SetActive (true);
-
-			button.interactable = (!BoostConfig.instance.IsBoostActive() && 
-			                       GamePhaseState.instance.IsPlaying());
-		} else {
-			button.gameObject.SetActive (false);
-		}
-	}
 
 	public BoostConfig.BoostType GetBoostType() {
 		return boostType;
