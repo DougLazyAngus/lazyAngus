@@ -5,14 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3133;
+struct XmlNameTable_t3135;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t661;
+struct CharU5BU5D_t663;
 
 // System.Void System.Xml.XmlNameTable::.ctor()
-extern "C" void XmlNameTable__ctor_m10743 (XmlNameTable_t3133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNameTable__ctor_m10758 (XmlNameTable_t3135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlNameTable::Add(System.String)
 // System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32)
 // System.String System.Xml.XmlNameTable::Get(System.String)

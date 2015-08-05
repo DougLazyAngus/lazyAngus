@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.MemberBindingType
-struct MemberBindingType_t3287;
+struct MemberBindingType_t3289;
 

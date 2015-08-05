@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.InAttribute
-struct InAttribute_t4301;
+struct InAttribute_t4303;
 
 // System.Void System.Runtime.InteropServices.InAttribute::.ctor()
-extern "C" void InAttribute__ctor_m16018 (InAttribute_t4301 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InAttribute__ctor_m16033 (InAttribute_t4303 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

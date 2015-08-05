@@ -5,35 +5,35 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>
-struct Dictionary_2_t7061;
+struct Dictionary_2_t7063;
 // System.Collections.Generic.ICollection`1<System.Object>
-struct ICollection_1_t1170;
+struct ICollection_1_t1172;
 // System.Collections.Generic.ICollection`1<Parse.ParseGeoPoint>
-struct ICollection_1_t9118;
+struct ICollection_1_t9120;
 // System.Collections.ICollection
-struct ICollection_t705;
+struct ICollection_t707;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.ParseGeoPoint>
-struct KeyCollection_t7062;
+struct KeyCollection_t7064;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,Parse.ParseGeoPoint>
-struct ValueCollection_t7066;
+struct ValueCollection_t7068;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1134;
+struct IEqualityComparer_1_t1136;
 // System.Collections.Generic.IDictionary`2<System.Object,Parse.ParseGeoPoint>
-struct IDictionary_2_t9235;
+struct IDictionary_2_t9237;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
+struct SerializationInfo_t2871;
 // System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>[]
-struct KeyValuePair_2U5BU5D_t7928;
+struct KeyValuePair_2U5BU5D_t7930;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
-struct IEnumerator_1_t7921;
+struct IEnumerator_1_t7923;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t3911;
+struct IDictionaryEnumerator_t3913;
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.Runtime.Serialization.StreamingContext
@@ -46,155 +46,155 @@ struct IDictionaryEnumerator_t3911;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor()
-extern "C" void Dictionary_2__ctor_m44884_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2__ctor_m44884(__this, method) (( void (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2__ctor_m44884_gshared)(__this, method)
+extern "C" void Dictionary_2__ctor_m44899_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2__ctor_m44899(__this, method) (( void (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2__ctor_m44899_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-extern "C" void Dictionary_2__ctor_m44886_gshared (Dictionary_2_t7061 * __this, Object_t* ___comparer, const MethodInfo* method);
-#define Dictionary_2__ctor_m44886(__this, ___comparer, method) (( void (*) (Dictionary_2_t7061 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44886_gshared)(__this, ___comparer, method)
+extern "C" void Dictionary_2__ctor_m44901_gshared (Dictionary_2_t7063 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define Dictionary_2__ctor_m44901(__this, ___comparer, method) (( void (*) (Dictionary_2_t7063 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44901_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-extern "C" void Dictionary_2__ctor_m44888_gshared (Dictionary_2_t7061 * __this, Object_t* ___dictionary, const MethodInfo* method);
-#define Dictionary_2__ctor_m44888(__this, ___dictionary, method) (( void (*) (Dictionary_2_t7061 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44888_gshared)(__this, ___dictionary, method)
+extern "C" void Dictionary_2__ctor_m44903_gshared (Dictionary_2_t7063 * __this, Object_t* ___dictionary, const MethodInfo* method);
+#define Dictionary_2__ctor_m44903(__this, ___dictionary, method) (( void (*) (Dictionary_2_t7063 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44903_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Int32)
-extern "C" void Dictionary_2__ctor_m44890_gshared (Dictionary_2_t7061 * __this, int32_t ___capacity, const MethodInfo* method);
-#define Dictionary_2__ctor_m44890(__this, ___capacity, method) (( void (*) (Dictionary_2_t7061 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m44890_gshared)(__this, ___capacity, method)
+extern "C" void Dictionary_2__ctor_m44905_gshared (Dictionary_2_t7063 * __this, int32_t ___capacity, const MethodInfo* method);
+#define Dictionary_2__ctor_m44905(__this, ___capacity, method) (( void (*) (Dictionary_2_t7063 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m44905_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-extern "C" void Dictionary_2__ctor_m44892_gshared (Dictionary_2_t7061 * __this, Object_t* ___dictionary, Object_t* ___comparer, const MethodInfo* method);
-#define Dictionary_2__ctor_m44892(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t7061 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44892_gshared)(__this, ___dictionary, ___comparer, method)
+extern "C" void Dictionary_2__ctor_m44907_gshared (Dictionary_2_t7063 * __this, Object_t* ___dictionary, Object_t* ___comparer, const MethodInfo* method);
+#define Dictionary_2__ctor_m44907(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t7063 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m44907_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Dictionary_2__ctor_m44894_gshared (Dictionary_2_t7061 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method);
-#define Dictionary_2__ctor_m44894(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t7061 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2__ctor_m44894_gshared)(__this, ___info, ___context, method)
+extern "C" void Dictionary_2__ctor_m44909_gshared (Dictionary_2_t7063 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method);
+#define Dictionary_2__ctor_m44909(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t7063 *, SerializationInfo_t2871 *, StreamingContext_t2872 , const MethodInfo*))Dictionary_2__ctor_m44909_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44896_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44896(__this, method) (( Object_t* (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44896_gshared)(__this, method)
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44911_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44911(__this, method) (( Object_t* (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m44911_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44898_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44898(__this, method) (( Object_t* (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44898_gshared)(__this, method)
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44913_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44913(__this, method) (( Object_t* (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m44913_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.get_Keys()
-extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Keys_m44900_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m44900(__this, method) (( Object_t * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m44900_gshared)(__this, method)
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Keys_m44915_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m44915(__this, method) (( Object_t * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m44915_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.get_Item(System.Object)
-extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Item_m44902_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m44902(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m44902_gshared)(__this, ___key, method)
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Item_m44917_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m44917(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m44917_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-extern "C" void Dictionary_2_System_Collections_IDictionary_set_Item_m44904_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m44904(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m44904_gshared)(__this, ___key, ___value, method)
+extern "C" void Dictionary_2_System_Collections_IDictionary_set_Item_m44919_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m44919(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m44919_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.Add(System.Object,System.Object)
-extern "C" void Dictionary_2_System_Collections_IDictionary_Add_m44906_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_Add_m44906(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m44906_gshared)(__this, ___key, ___value, method)
+extern "C" void Dictionary_2_System_Collections_IDictionary_Add_m44921_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Add_m44921(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m44921_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.Contains(System.Object)
-extern "C" bool Dictionary_2_System_Collections_IDictionary_Contains_m44908_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_Contains_m44908(__this, ___key, method) (( bool (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m44908_gshared)(__this, ___key, method)
+extern "C" bool Dictionary_2_System_Collections_IDictionary_Contains_m44923_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Contains_m44923(__this, ___key, method) (( bool (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m44923_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.Remove(System.Object)
-extern "C" void Dictionary_2_System_Collections_IDictionary_Remove_m44910_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_Remove_m44910(__this, ___key, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m44910_gshared)(__this, ___key, method)
+extern "C" void Dictionary_2_System_Collections_IDictionary_Remove_m44925_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Remove_m44925(__this, ___key, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m44925_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44912_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44912(__this, method) (( bool (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44912_gshared)(__this, method)
+extern "C" bool Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44927_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44927(__this, method) (( bool (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m44927_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44914_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44914(__this, method) (( Object_t * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44914_gshared)(__this, method)
+extern "C" Object_t * Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44929_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44929(__this, method) (( Object_t * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m44929_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44916_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44916(__this, method) (( bool (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44916_gshared)(__this, method)
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44931_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44931(__this, method) (( bool (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m44931_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44918_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2_t6954  ___keyValuePair, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44918(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t7061 *, KeyValuePair_2_t6954 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44918_gshared)(__this, ___keyValuePair, method)
+extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44933_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2_t6956  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44933(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t7063 *, KeyValuePair_2_t6956 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m44933_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44920_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2_t6954  ___keyValuePair, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44920(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t7061 *, KeyValuePair_2_t6954 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44920_gshared)(__this, ___keyValuePair, method)
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44935_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2_t6956  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44935(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t7063 *, KeyValuePair_2_t6956 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m44935_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44922_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2U5BU5D_t7928* ___array, int32_t ___index, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44922(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7061 *, KeyValuePair_2U5BU5D_t7928*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44922_gshared)(__this, ___array, ___index, method)
+extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44937_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2U5BU5D_t7930* ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44937(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7063 *, KeyValuePair_2U5BU5D_t7930*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m44937_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44924_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2_t6954  ___keyValuePair, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44924(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t7061 *, KeyValuePair_2_t6954 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44924_gshared)(__this, ___keyValuePair, method)
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44939_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2_t6956  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44939(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t7063 *, KeyValuePair_2_t6956 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m44939_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void Dictionary_2_System_Collections_ICollection_CopyTo_m44926_gshared (Dictionary_2_t7061 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m44926(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7061 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m44926_gshared)(__this, ___array, ___index, method)
+extern "C" void Dictionary_2_System_Collections_ICollection_CopyTo_m44941_gshared (Dictionary_2_t7063 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m44941(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7063 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m44941_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44928_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44928(__this, method) (( Object_t * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44928_gshared)(__this, method)
+extern "C" Object_t * Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44943_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44943(__this, method) (( Object_t * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m44943_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-extern "C" Object_t* Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44930_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44930(__this, method) (( Object_t* (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44930_gshared)(__this, method)
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44945_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44945(__this, method) (( Object_t* (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44945_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::System.Collections.IDictionary.GetEnumerator()
-extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44932_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44932(__this, method) (( Object_t * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44932_gshared)(__this, method)
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44947_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44947(__this, method) (( Object_t * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m44947_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::get_Count()
-extern "C" int32_t Dictionary_2_get_Count_m44934_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_get_Count_m44934(__this, method) (( int32_t (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_get_Count_m44934_gshared)(__this, method)
+extern "C" int32_t Dictionary_2_get_Count_m44949_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Count_m44949(__this, method) (( int32_t (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_get_Count_m44949_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::get_Item(TKey)
-extern "C" ParseGeoPoint_t1194  Dictionary_2_get_Item_m44936_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_get_Item_m44936(__this, ___key, method) (( ParseGeoPoint_t1194  (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_get_Item_m44936_gshared)(__this, ___key, method)
+extern "C" ParseGeoPoint_t1196  Dictionary_2_get_Item_m44951_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_get_Item_m44951(__this, ___key, method) (( ParseGeoPoint_t1196  (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_get_Item_m44951_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::set_Item(TKey,TValue)
-extern "C" void Dictionary_2_set_Item_m44938_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_set_Item_m44938(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_set_Item_m44938_gshared)(__this, ___key, ___value, method)
+extern "C" void Dictionary_2_set_Item_m44953_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_set_Item_m44953(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_set_Item_m44953_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-extern "C" void Dictionary_2_Init_m44940_gshared (Dictionary_2_t7061 * __this, int32_t ___capacity, Object_t* ___hcp, const MethodInfo* method);
-#define Dictionary_2_Init_m44940(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t7061 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m44940_gshared)(__this, ___capacity, ___hcp, method)
+extern "C" void Dictionary_2_Init_m44955_gshared (Dictionary_2_t7063 * __this, int32_t ___capacity, Object_t* ___hcp, const MethodInfo* method);
+#define Dictionary_2_Init_m44955(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t7063 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m44955_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::InitArrays(System.Int32)
-extern "C" void Dictionary_2_InitArrays_m44942_gshared (Dictionary_2_t7061 * __this, int32_t ___size, const MethodInfo* method);
-#define Dictionary_2_InitArrays_m44942(__this, ___size, method) (( void (*) (Dictionary_2_t7061 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m44942_gshared)(__this, ___size, method)
+extern "C" void Dictionary_2_InitArrays_m44957_gshared (Dictionary_2_t7063 * __this, int32_t ___size, const MethodInfo* method);
+#define Dictionary_2_InitArrays_m44957(__this, ___size, method) (( void (*) (Dictionary_2_t7063 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m44957_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::CopyToCheck(System.Array,System.Int32)
-extern "C" void Dictionary_2_CopyToCheck_m44944_gshared (Dictionary_2_t7061 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define Dictionary_2_CopyToCheck_m44944(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7061 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m44944_gshared)(__this, ___array, ___index, method)
+extern "C" void Dictionary_2_CopyToCheck_m44959_gshared (Dictionary_2_t7063 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_CopyToCheck_m44959(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7063 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m44959_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::make_pair(TKey,TValue)
-extern "C" KeyValuePair_2_t6954  Dictionary_2_make_pair_m44946_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_make_pair_m44946(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6954  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_make_pair_m44946_gshared)(__this /* static, unused */, ___key, ___value, method)
+extern "C" KeyValuePair_2_t6956  Dictionary_2_make_pair_m44961_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_make_pair_m44961(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6956  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_make_pair_m44961_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::pick_key(TKey,TValue)
-extern "C" Object_t * Dictionary_2_pick_key_m44948_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_pick_key_m44948(__this /* static, unused */, ___key, ___value, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_pick_key_m44948_gshared)(__this /* static, unused */, ___key, ___value, method)
+extern "C" Object_t * Dictionary_2_pick_key_m44963_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_pick_key_m44963(__this /* static, unused */, ___key, ___value, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_pick_key_m44963_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::pick_value(TKey,TValue)
-extern "C" ParseGeoPoint_t1194  Dictionary_2_pick_value_m44950_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_pick_value_m44950(__this /* static, unused */, ___key, ___value, method) (( ParseGeoPoint_t1194  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_pick_value_m44950_gshared)(__this /* static, unused */, ___key, ___value, method)
+extern "C" ParseGeoPoint_t1196  Dictionary_2_pick_value_m44965_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_pick_value_m44965(__this /* static, unused */, ___key, ___value, method) (( ParseGeoPoint_t1196  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_pick_value_m44965_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-extern "C" void Dictionary_2_CopyTo_m44952_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2U5BU5D_t7928* ___array, int32_t ___index, const MethodInfo* method);
-#define Dictionary_2_CopyTo_m44952(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7061 *, KeyValuePair_2U5BU5D_t7928*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m44952_gshared)(__this, ___array, ___index, method)
+extern "C" void Dictionary_2_CopyTo_m44967_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2U5BU5D_t7930* ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_CopyTo_m44967(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t7063 *, KeyValuePair_2U5BU5D_t7930*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m44967_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::Resize()
-extern "C" void Dictionary_2_Resize_m44954_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_Resize_m44954(__this, method) (( void (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_Resize_m44954_gshared)(__this, method)
+extern "C" void Dictionary_2_Resize_m44969_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_Resize_m44969(__this, method) (( void (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_Resize_m44969_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::Add(TKey,TValue)
-extern "C" void Dictionary_2_Add_m44956_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_Add_m44956(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_Add_m44956_gshared)(__this, ___key, ___value, method)
+extern "C" void Dictionary_2_Add_m44971_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_Add_m44971(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_Add_m44971_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::Clear()
-extern "C" void Dictionary_2_Clear_m44958_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_Clear_m44958(__this, method) (( void (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_Clear_m44958_gshared)(__this, method)
+extern "C" void Dictionary_2_Clear_m44973_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_Clear_m44973(__this, method) (( void (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_Clear_m44973_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::ContainsKey(TKey)
-extern "C" bool Dictionary_2_ContainsKey_m44960_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_ContainsKey_m44960(__this, ___key, method) (( bool (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_ContainsKey_m44960_gshared)(__this, ___key, method)
+extern "C" bool Dictionary_2_ContainsKey_m44975_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_ContainsKey_m44975(__this, ___key, method) (( bool (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_ContainsKey_m44975_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::ContainsValue(TValue)
-extern "C" bool Dictionary_2_ContainsValue_m44962_gshared (Dictionary_2_t7061 * __this, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_ContainsValue_m44962(__this, ___value, method) (( bool (*) (Dictionary_2_t7061 *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_ContainsValue_m44962_gshared)(__this, ___value, method)
+extern "C" bool Dictionary_2_ContainsValue_m44977_gshared (Dictionary_2_t7063 * __this, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_ContainsValue_m44977(__this, ___value, method) (( bool (*) (Dictionary_2_t7063 *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_ContainsValue_m44977_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Dictionary_2_GetObjectData_m44964_gshared (Dictionary_2_t7061 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method);
-#define Dictionary_2_GetObjectData_m44964(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t7061 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2_GetObjectData_m44964_gshared)(__this, ___info, ___context, method)
+extern "C" void Dictionary_2_GetObjectData_m44979_gshared (Dictionary_2_t7063 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method);
+#define Dictionary_2_GetObjectData_m44979(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t7063 *, SerializationInfo_t2871 *, StreamingContext_t2872 , const MethodInfo*))Dictionary_2_GetObjectData_m44979_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::OnDeserialization(System.Object)
-extern "C" void Dictionary_2_OnDeserialization_m44966_gshared (Dictionary_2_t7061 * __this, Object_t * ___sender, const MethodInfo* method);
-#define Dictionary_2_OnDeserialization_m44966(__this, ___sender, method) (( void (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m44966_gshared)(__this, ___sender, method)
+extern "C" void Dictionary_2_OnDeserialization_m44981_gshared (Dictionary_2_t7063 * __this, Object_t * ___sender, const MethodInfo* method);
+#define Dictionary_2_OnDeserialization_m44981(__this, ___sender, method) (( void (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m44981_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::Remove(TKey)
-extern "C" bool Dictionary_2_Remove_m44968_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_Remove_m44968(__this, ___key, method) (( bool (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_Remove_m44968_gshared)(__this, ___key, method)
+extern "C" bool Dictionary_2_Remove_m44983_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_Remove_m44983(__this, ___key, method) (( bool (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_Remove_m44983_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::TryGetValue(TKey,TValue&)
-extern "C" bool Dictionary_2_TryGetValue_m44970_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, ParseGeoPoint_t1194 * ___value, const MethodInfo* method);
-#define Dictionary_2_TryGetValue_m44970(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t7061 *, Object_t *, ParseGeoPoint_t1194 *, const MethodInfo*))Dictionary_2_TryGetValue_m44970_gshared)(__this, ___key, ___value, method)
+extern "C" bool Dictionary_2_TryGetValue_m44985_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, ParseGeoPoint_t1196 * ___value, const MethodInfo* method);
+#define Dictionary_2_TryGetValue_m44985(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t7063 *, Object_t *, ParseGeoPoint_t1196 *, const MethodInfo*))Dictionary_2_TryGetValue_m44985_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::get_Keys()
-extern "C" KeyCollection_t7062 * Dictionary_2_get_Keys_m44972_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_get_Keys_m44972(__this, method) (( KeyCollection_t7062 * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_get_Keys_m44972_gshared)(__this, method)
+extern "C" KeyCollection_t7064 * Dictionary_2_get_Keys_m44987_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Keys_m44987(__this, method) (( KeyCollection_t7064 * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_get_Keys_m44987_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::get_Values()
-extern "C" ValueCollection_t7066 * Dictionary_2_get_Values_m44974_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_get_Values_m44974(__this, method) (( ValueCollection_t7066 * (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_get_Values_m44974_gshared)(__this, method)
+extern "C" ValueCollection_t7068 * Dictionary_2_get_Values_m44989_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Values_m44989(__this, method) (( ValueCollection_t7068 * (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_get_Values_m44989_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::ToTKey(System.Object)
-extern "C" Object_t * Dictionary_2_ToTKey_m44976_gshared (Dictionary_2_t7061 * __this, Object_t * ___key, const MethodInfo* method);
-#define Dictionary_2_ToTKey_m44976(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m44976_gshared)(__this, ___key, method)
+extern "C" Object_t * Dictionary_2_ToTKey_m44991_gshared (Dictionary_2_t7063 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_ToTKey_m44991(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m44991_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::ToTValue(System.Object)
-extern "C" ParseGeoPoint_t1194  Dictionary_2_ToTValue_m44978_gshared (Dictionary_2_t7061 * __this, Object_t * ___value, const MethodInfo* method);
-#define Dictionary_2_ToTValue_m44978(__this, ___value, method) (( ParseGeoPoint_t1194  (*) (Dictionary_2_t7061 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m44978_gshared)(__this, ___value, method)
+extern "C" ParseGeoPoint_t1196  Dictionary_2_ToTValue_m44993_gshared (Dictionary_2_t7063 * __this, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_ToTValue_m44993(__this, ___value, method) (( ParseGeoPoint_t1196  (*) (Dictionary_2_t7063 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m44993_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool Dictionary_2_ContainsKeyValuePair_m44980_gshared (Dictionary_2_t7061 * __this, KeyValuePair_2_t6954  ___pair, const MethodInfo* method);
-#define Dictionary_2_ContainsKeyValuePair_m44980(__this, ___pair, method) (( bool (*) (Dictionary_2_t7061 *, KeyValuePair_2_t6954 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m44980_gshared)(__this, ___pair, method)
+extern "C" bool Dictionary_2_ContainsKeyValuePair_m44995_gshared (Dictionary_2_t7063 * __this, KeyValuePair_2_t6956  ___pair, const MethodInfo* method);
+#define Dictionary_2_ContainsKeyValuePair_m44995(__this, ___pair, method) (( bool (*) (Dictionary_2_t7063 *, KeyValuePair_2_t6956 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m44995_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::GetEnumerator()
-extern "C" Enumerator_t7064  Dictionary_2_GetEnumerator_m44982_gshared (Dictionary_2_t7061 * __this, const MethodInfo* method);
-#define Dictionary_2_GetEnumerator_m44982(__this, method) (( Enumerator_t7064  (*) (Dictionary_2_t7061 *, const MethodInfo*))Dictionary_2_GetEnumerator_m44982_gshared)(__this, method)
+extern "C" Enumerator_t7066  Dictionary_2_GetEnumerator_m44997_gshared (Dictionary_2_t7063 * __this, const MethodInfo* method);
+#define Dictionary_2_GetEnumerator_m44997(__this, method) (( Enumerator_t7066  (*) (Dictionary_2_t7063 *, const MethodInfo*))Dictionary_2_GetEnumerator_m44997_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Object,Parse.ParseGeoPoint>::<CopyTo>m__0(TKey,TValue)
-extern "C" DictionaryEntry_t2088  Dictionary_2_U3CCopyToU3Em__0_m44984_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1194  ___value, const MethodInfo* method);
-#define Dictionary_2_U3CCopyToU3Em__0_m44984(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1194 , const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m44984_gshared)(__this /* static, unused */, ___key, ___value, method)
+extern "C" DictionaryEntry_t2090  Dictionary_2_U3CCopyToU3Em__0_m44999_gshared (Object_t * __this /* static, unused */, Object_t * ___key, ParseGeoPoint_t1196  ___value, const MethodInfo* method);
+#define Dictionary_2_U3CCopyToU3Em__0_m44999(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2090  (*) (Object_t * /* static, unused */, Object_t *, ParseGeoPoint_t1196 , const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m44999_gshared)(__this /* static, unused */, ___key, ___value, method)

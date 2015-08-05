@@ -3,6 +3,6 @@
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone
-struct  TlsServerHelloDone_t3849  : public HandshakeMessage_t3816
+struct  TlsServerHelloDone_t3851  : public HandshakeMessage_t3818
 {
 };

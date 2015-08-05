@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>
-struct InternalEnumerator_1_t8610;
+struct InternalEnumerator_1_t8612;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Services.ITrackingHandler
-struct ITrackingHandler_t4848;
+struct ITrackingHandler_t4850;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m63397(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8610 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m63412(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8612 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20956_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63398(__this, method) (( void (*) (InternalEnumerator_1_t8610 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63413(__this, method) (( void (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20957_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63399(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8610 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63414(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20958_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::Dispose()
-#define InternalEnumerator_1_Dispose_m63400(__this, method) (( void (*) (InternalEnumerator_1_t8610 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m63415(__this, method) (( void (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20959_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m63401(__this, method) (( bool (*) (InternalEnumerator_1_t8610 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m63416(__this, method) (( bool (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20960_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Runtime.Remoting.Services.ITrackingHandler>::get_Current()
-#define InternalEnumerator_1_get_Current_m63402(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8610 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m63417(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20961_gshared)(__this, method)

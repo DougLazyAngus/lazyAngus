@@ -44,7 +44,7 @@ public class MusicPlayer : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		UpdateAllMusic ();
+	// 	UpdateAllMusic ();
 	}
 
 	void OnMusicMuteChanged() {

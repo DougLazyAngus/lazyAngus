@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Font/FontTextureRebuildCallback
-struct FontTextureRebuildCallback_t2738;
+struct FontTextureRebuildCallback_t2740;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void FontTextureRebuildCallback__ctor_m9324 (FontTextureRebuildCallback_t2738 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontTextureRebuildCallback__ctor_m9339 (FontTextureRebuildCallback_t2740 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke()
-extern "C" void FontTextureRebuildCallback_Invoke_m9325 (FontTextureRebuildCallback_t2738 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_FontTextureRebuildCallback_t2738(Il2CppObject* delegate);
+extern "C" void FontTextureRebuildCallback_Invoke_m9340 (FontTextureRebuildCallback_t2740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_FontTextureRebuildCallback_t2740(Il2CppObject* delegate);
 // System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * FontTextureRebuildCallback_BeginInvoke_m9326 (FontTextureRebuildCallback_t2738 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FontTextureRebuildCallback_BeginInvoke_m9341 (FontTextureRebuildCallback_t2740 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Font/FontTextureRebuildCallback::EndInvoke(System.IAsyncResult)
-extern "C" void FontTextureRebuildCallback_EndInvoke_m9327 (FontTextureRebuildCallback_t2738 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontTextureRebuildCallback_EndInvoke_m9342 (FontTextureRebuildCallback_t2740 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

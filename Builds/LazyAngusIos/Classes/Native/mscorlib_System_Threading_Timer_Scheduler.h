@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Timer/Scheduler
-struct Scheduler_t4729;
+struct Scheduler_t4731;
 // System.Collections.SortedList
-struct SortedList_t4156;
+struct SortedList_t4158;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Timer/Scheduler
-struct  Scheduler_t4729  : public Object_t
+struct  Scheduler_t4731  : public Object_t
 {
 	// System.Collections.SortedList System.Threading.Timer/Scheduler::list
-	SortedList_t4156 * ___list_1;
+	SortedList_t4158 * ___list_1;
 };
-struct Scheduler_t4729_StaticFields{
+struct Scheduler_t4731_StaticFields{
 	// System.Threading.Timer/Scheduler System.Threading.Timer/Scheduler::instance
-	Scheduler_t4729 * ___instance_0;
+	Scheduler_t4731 * ___instance_0;
 };

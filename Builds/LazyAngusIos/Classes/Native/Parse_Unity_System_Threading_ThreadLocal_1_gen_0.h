@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.Int64,System.Int32>
-struct IDictionary_2_t8264;
+struct IDictionary_2_t8266;
 // System.Collections.Generic.IList`1<System.WeakReference>
-struct IList_1_t5928;
+struct IList_1_t5930;
 // System.Func`1<System.Int32>
-struct Func_1_t1303;
+struct Func_1_t1305;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ThreadLocal`1<System.Int32>
-struct  ThreadLocal_1_t1300  : public Object_t
+struct  ThreadLocal_1_t1302  : public Object_t
 {
 	// System.Boolean System.Threading.ThreadLocal`1<System.Int32>::disposed
 	bool ___disposed_3;
 	// System.Int64 System.Threading.ThreadLocal`1<System.Int32>::id
 	int64_t ___id_4;
 	// System.Func`1<T> System.Threading.ThreadLocal`1<System.Int32>::valueFactory
-	Func_1_t1303 * ___valueFactory_5;
+	Func_1_t1305 * ___valueFactory_5;
 };
-struct ThreadLocal_1_t1300_StaticFields{
+struct ThreadLocal_1_t1302_StaticFields{
 	// System.Int64 System.Threading.ThreadLocal`1<System.Int32>::lastId
 	int64_t ___lastId_0;
 	// System.Collections.Generic.IList`1<System.WeakReference> System.Threading.ThreadLocal`1<System.Int32>::allDataDictionaries
 	Object_t* ___allDataDictionaries_2;
 	// System.Func`1<T> System.Threading.ThreadLocal`1<System.Int32>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_1_t1303 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_6;
+	Func_1_t1305 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_6;
 };
-struct ThreadLocal_1_t1300_ThreadStaticFields{
+struct ThreadLocal_1_t1302_ThreadStaticFields{
 	// System.Collections.Generic.IDictionary`2<System.Int64,T> System.Threading.ThreadLocal`1<System.Int32>::threadLocalData
 	Object_t* ___threadLocalData_1;
 };

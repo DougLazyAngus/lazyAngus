@@ -13,7 +13,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_t312;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t638;
+struct List_1_t640;
 // ANMiniJSON.Json/Parser/TOKEN
 #include "AssemblyU2DCSharp_ANMiniJSON_Json_Parser_TOKEN.h"
 
@@ -26,7 +26,7 @@ extern "C" void Parser_Dispose_m1416 (Parser_t260 * __this, const MethodInfo* me
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> ANMiniJSON.Json/Parser::ParseObject()
 extern "C" Dictionary_2_t312 * Parser_ParseObject_m1417 (Parser_t260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.Object> ANMiniJSON.Json/Parser::ParseArray()
-extern "C" List_1_t638 * Parser_ParseArray_m1418 (Parser_t260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t640 * Parser_ParseArray_m1418 (Parser_t260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object ANMiniJSON.Json/Parser::ParseValue()
 extern "C" Object_t * Parser_ParseValue_m1419 (Parser_t260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object ANMiniJSON.Json/Parser::ParseByToken(ANMiniJSON.Json/Parser/TOKEN)

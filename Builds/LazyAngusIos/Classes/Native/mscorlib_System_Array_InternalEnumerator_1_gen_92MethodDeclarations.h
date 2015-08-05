@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>
-struct InternalEnumerator_1_t8462;
+struct InternalEnumerator_1_t8464;
 // System.Object
 struct Object_t;
 // UnityEngine.ExecuteInEditMode
-struct ExecuteInEditMode_t1056;
+struct ExecuteInEditMode_t1058;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m61674(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8462 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m61689(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8464 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20956_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61675(__this, method) (( void (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61690(__this, method) (( void (*) (InternalEnumerator_1_t8464 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20957_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61676(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61691(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8464 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20958_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::Dispose()
-#define InternalEnumerator_1_Dispose_m61677(__this, method) (( void (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m61692(__this, method) (( void (*) (InternalEnumerator_1_t8464 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20959_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m61678(__this, method) (( bool (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m61693(__this, method) (( bool (*) (InternalEnumerator_1_t8464 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20960_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::get_Current()
-#define InternalEnumerator_1_get_Current_m61679(__this, method) (( ExecuteInEditMode_t1056 * (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m61694(__this, method) (( ExecuteInEditMode_t1058 * (*) (InternalEnumerator_1_t8464 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20961_gshared)(__this, method)

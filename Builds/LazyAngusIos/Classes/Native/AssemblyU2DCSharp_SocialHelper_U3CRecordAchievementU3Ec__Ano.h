@@ -4,9 +4,9 @@
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
-// SocialHelper/<RecordAchievement>c__AnonStorey1B
-struct  U3CRecordAchievementU3Ec__AnonStorey1B_t604  : public Object_t
+// SocialHelper/<RecordAchievement>c__AnonStorey1D
+struct  U3CRecordAchievementU3Ec__AnonStorey1D_t606  : public Object_t
 {
-	// System.String SocialHelper/<RecordAchievement>c__AnonStorey1B::achievementID
+	// System.String SocialHelper/<RecordAchievement>c__AnonStorey1D::achievementID
 	String_t* ___achievementID_0;
 };

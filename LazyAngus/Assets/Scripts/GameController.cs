@@ -93,6 +93,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
+		/*
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 			{
@@ -111,6 +112,7 @@ public class GameController : MonoBehaviour {
 				break;
 			}
 		}
+		*/
 	}
 
 	void MaybeIncrementMouseHoleCapacity() {
@@ -125,19 +127,11 @@ public class GameController : MonoBehaviour {
 		mouseSpawnFromData.Clear ();
 
 		// A few by hand, then just programmatic.
+		Debug.Log ("07.001 " + Time.realtimeSinceStartup);
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
+		Debug.Log ("07.002 " + Time.realtimeSinceStartup);
 		mouseSpawnFromData.AddMice (ld.explicitMouseDescs);
-
-		/*
-		int[] miceByType = lc.GetMiceByTypeForLevel (gameLevel);
-		float[] timeRanges = lc.GetTimeRanges (gameLevel);
-
-
-		mouseSpawnFromData.ConfigureWithData (explicitMice,
-		                                      gameLevel, 
-		                                      miceByType, 
-		                                      timeRanges); 
-		                                      */
+		Debug.Log ("07.003 " + Time.realtimeSinceStartup);
 	}
 
 	MouseHole FindDoomedMouseHole() {

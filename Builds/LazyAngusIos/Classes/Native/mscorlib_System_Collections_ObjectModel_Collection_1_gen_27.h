@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<UnityEngine.UICharInfo>
-struct IList_1_t1020;
+struct IList_1_t1022;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.Collection`1<UnityEngine.UICharInfo>
-struct  Collection_1_t8356  : public Object_t
+struct  Collection_1_t8358  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<UnityEngine.UICharInfo>::list
 	Object_t* ___list_0;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XdtUntypedAtomic
-struct XdtUntypedAtomic_t3052;
+struct XdtUntypedAtomic_t3054;
 
 // System.Void Mono.Xml.Schema.XdtUntypedAtomic::.ctor()
-extern "C" void XdtUntypedAtomic__ctor_m10168 (XdtUntypedAtomic_t3052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtUntypedAtomic__ctor_m10183 (XdtUntypedAtomic_t3054 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

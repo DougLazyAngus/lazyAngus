@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Char,System.Boolean>
-struct Func_2_t6340;
+struct Func_2_t6342;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Char,System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.UInt16,System.Byte>
 #include "System_Core_System_Func_2_gen_117MethodDeclarations.h"
-#define Func_2__ctor_m35572(__this, ___object, ___method, method) (( void (*) (Func_2_t6340 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m35313_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m35587(__this, ___object, ___method, method) (( void (*) (Func_2_t6342 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m35328_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Char,System.Boolean>::Invoke(T)
-#define Func_2_Invoke_m35573(__this, ___arg1, method) (( bool (*) (Func_2_t6340 *, uint16_t, const MethodInfo*))Func_2_Invoke_m35314_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m35588(__this, ___arg1, method) (( bool (*) (Func_2_t6342 *, uint16_t, const MethodInfo*))Func_2_Invoke_m35329_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Char,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m35574(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6340 *, uint16_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35315_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m35589(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6342 *, uint16_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35330_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Char,System.Boolean>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m35575(__this, ___result, method) (( bool (*) (Func_2_t6340 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35316_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m35590(__this, ___result, method) (( bool (*) (Func_2_t6342 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35331_gshared)(__this, ___result, method)

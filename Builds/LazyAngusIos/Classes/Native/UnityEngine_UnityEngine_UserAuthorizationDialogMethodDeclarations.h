@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UserAuthorizationDialog
-struct UserAuthorizationDialog_t2842;
+struct UserAuthorizationDialog_t2844;
 
 // System.Void UnityEngine.UserAuthorizationDialog::.ctor()
-extern "C" void UserAuthorizationDialog__ctor_m9805 (UserAuthorizationDialog_t2842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserAuthorizationDialog__ctor_m9820 (UserAuthorizationDialog_t2844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UserAuthorizationDialog::Start()
-extern "C" void UserAuthorizationDialog_Start_m9806 (UserAuthorizationDialog_t2842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserAuthorizationDialog_Start_m9821 (UserAuthorizationDialog_t2844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UserAuthorizationDialog::OnGUI()
-extern "C" void UserAuthorizationDialog_OnGUI_m9807 (UserAuthorizationDialog_t2842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserAuthorizationDialog_OnGUI_m9822 (UserAuthorizationDialog_t2844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UserAuthorizationDialog::DoUserAuthorizationDialog(System.Int32)
-extern "C" void UserAuthorizationDialog_DoUserAuthorizationDialog_m9808 (UserAuthorizationDialog_t2842 * __this, int32_t ___windowID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserAuthorizationDialog_DoUserAuthorizationDialog_m9823 (UserAuthorizationDialog_t2844 * __this, int32_t ___windowID, const MethodInfo* method) IL2CPP_METHOD_ATTR;

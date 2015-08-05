@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3747;
+struct HashAlgorithm_t3749;
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // Mono.Security.Cryptography.MD5SHA1
-struct  MD5SHA1_t3787  : public HashAlgorithm_t3747
+struct  MD5SHA1_t3789  : public HashAlgorithm_t3749
 {
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.MD5SHA1::md5
-	HashAlgorithm_t3747 * ___md5_4;
+	HashAlgorithm_t3749 * ___md5_4;
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.MD5SHA1::sha
-	HashAlgorithm_t3747 * ___sha_5;
+	HashAlgorithm_t3749 * ___sha_5;
 	// System.Boolean Mono.Security.Cryptography.MD5SHA1::hashing
 	bool ___hashing_6;
 };

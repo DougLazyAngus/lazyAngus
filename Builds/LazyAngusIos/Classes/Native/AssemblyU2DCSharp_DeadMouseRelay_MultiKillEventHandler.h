@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // DeadMouseRelay/MultiKillEventHandler
-struct  MultiKillEventHandler_t485  : public MulticastDelegate_t388
+struct  MultiKillEventHandler_t486  : public MulticastDelegate_t388
 {
 };

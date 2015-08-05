@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextureFormat
-struct TextureFormat_t2801;
+struct TextureFormat_t2803;
 

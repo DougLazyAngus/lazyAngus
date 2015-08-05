@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.DecoderFallbackException
-struct DecoderFallbackException_t4700;
+struct DecoderFallbackException_t4702;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Text.DecoderFallbackException::.ctor()
-extern "C" void DecoderFallbackException__ctor_m18765 (DecoderFallbackException_t4700 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackException__ctor_m18780 (DecoderFallbackException_t4702 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.DecoderFallbackException::.ctor(System.String)
-extern "C" void DecoderFallbackException__ctor_m18766 (DecoderFallbackException_t4700 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackException__ctor_m18781 (DecoderFallbackException_t4702 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.DecoderFallbackException::.ctor(System.String,System.Byte[],System.Int32)
-extern "C" void DecoderFallbackException__ctor_m18767 (DecoderFallbackException_t4700 * __this, String_t* ___message, ByteU5BU5D_t66* ___bytesUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackException__ctor_m18782 (DecoderFallbackException_t4702 * __this, String_t* ___message, ByteU5BU5D_t66* ___bytesUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;

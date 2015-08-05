@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1
-struct U3CU3Ec__DisplayClass1_t1316;
+struct U3CU3Ec__DisplayClass1_t1318;
 // System.Object
 struct Object_t;
 
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1__ctor_m7016 (U3CU3Ec__DisplayClass1_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1__ctor_m7031 (U3CU3Ec__DisplayClass1_t1318 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::<Post>b__0(System.Object)
-extern "C" void U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7017 (U3CU3Ec__DisplayClass1_t1316 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7032 (U3CU3Ec__DisplayClass1_t1318 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;

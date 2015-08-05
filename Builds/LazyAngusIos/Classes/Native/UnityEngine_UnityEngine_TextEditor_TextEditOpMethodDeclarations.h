@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextEditor/TextEditOp
-struct TextEditOp_t2829;
+struct TextEditOp_t2831;
 

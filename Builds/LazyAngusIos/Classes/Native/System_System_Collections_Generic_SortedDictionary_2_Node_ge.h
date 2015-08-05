@@ -5,7 +5,7 @@ struct Object_t;
 // System.Collections.Generic.RBTree/Node
 #include "System_System_Collections_Generic_RBTree_Node.h"
 // System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>
-struct  Node_t5595  : public Node_t3903
+struct  Node_t5597  : public Node_t3905
 {
 	// TKey System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::key
 	Object_t * ___key_5;

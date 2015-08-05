@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t816;
+struct List_1_t818;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.EventSystems.RaycasterManager
-struct  RaycasterManager_t817  : public Object_t
+struct  RaycasterManager_t819  : public Object_t
 {
 };
-struct RaycasterManager_t817_StaticFields{
+struct RaycasterManager_t819_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> UnityEngine.EventSystems.RaycasterManager::s_Raycasters
-	List_1_t816 * ___s_Raycasters_0;
+	List_1_t818 * ___s_Raycasters_0;
 };

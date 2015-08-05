@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.Reference
-struct Reference_t4122;
+struct Reference_t4124;
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t4112;
+struct CapturingGroup_t4114;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4143;
+struct ICompiler_t4145;
 
 // System.Void System.Text.RegularExpressions.Syntax.Reference::.ctor(System.Boolean)
-extern "C" void Reference__ctor_m14668 (Reference_t4122 * __this, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Reference__ctor_m14683 (Reference_t4124 * __this, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.CapturingGroup System.Text.RegularExpressions.Syntax.Reference::get_CapturingGroup()
-extern "C" CapturingGroup_t4112 * Reference_get_CapturingGroup_m14669 (Reference_t4122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CapturingGroup_t4114 * Reference_get_CapturingGroup_m14684 (Reference_t4124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Reference::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern "C" void Reference_set_CapturingGroup_m14670 (Reference_t4122 * __this, CapturingGroup_t4112 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Reference_set_CapturingGroup_m14685 (Reference_t4124 * __this, CapturingGroup_t4114 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::get_IgnoreCase()
-extern "C" bool Reference_get_IgnoreCase_m14671 (Reference_t4122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Reference_get_IgnoreCase_m14686 (Reference_t4124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Reference::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Reference_Compile_m14672 (Reference_t4122 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Reference_Compile_m14687 (Reference_t4124 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Reference::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Reference_GetWidth_m14673 (Reference_t4122 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Reference_GetWidth_m14688 (Reference_t4124 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::IsComplex()
-extern "C" bool Reference_IsComplex_m14674 (Reference_t4122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Reference_IsComplex_m14689 (Reference_t4124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

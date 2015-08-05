@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.HorizontalLayoutGroup
-struct HorizontalLayoutGroup_t942;
+struct HorizontalLayoutGroup_t944;
 
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::.ctor()
-extern "C" void HorizontalLayoutGroup__ctor_m5348 (HorizontalLayoutGroup_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup__ctor_m5363 (HorizontalLayoutGroup_t944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputHorizontal()
-extern "C" void HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5349 (HorizontalLayoutGroup_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5364 (HorizontalLayoutGroup_t944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputVertical()
-extern "C" void HorizontalLayoutGroup_CalculateLayoutInputVertical_m5350 (HorizontalLayoutGroup_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_CalculateLayoutInputVertical_m5365 (HorizontalLayoutGroup_t944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutHorizontal()
-extern "C" void HorizontalLayoutGroup_SetLayoutHorizontal_m5351 (HorizontalLayoutGroup_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_SetLayoutHorizontal_m5366 (HorizontalLayoutGroup_t944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutVertical()
-extern "C" void HorizontalLayoutGroup_SetLayoutVertical_m5352 (HorizontalLayoutGroup_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_SetLayoutVertical_m5367 (HorizontalLayoutGroup_t944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

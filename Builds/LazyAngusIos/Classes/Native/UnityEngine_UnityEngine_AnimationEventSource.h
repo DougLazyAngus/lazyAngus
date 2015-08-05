@@ -5,7 +5,7 @@
 // UnityEngine.AnimationEventSource
 #include "UnityEngine_UnityEngine_AnimationEventSource.h"
 // UnityEngine.AnimationEventSource
-struct  AnimationEventSource_t2725 
+struct  AnimationEventSource_t2727 
 {
 	// System.Int32 UnityEngine.AnimationEventSource::value__
 	int32_t ___value___1;

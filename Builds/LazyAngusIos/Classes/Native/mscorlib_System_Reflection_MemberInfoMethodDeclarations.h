@@ -11,20 +11,20 @@ struct Type_t;
 // System.String
 struct String_t;
 // System.Reflection.Module
-struct Module_t4472;
+struct Module_t4474;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t638;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
 // System.Void System.Reflection.MemberInfo::.ctor()
-extern "C" void MemberInfo__ctor_m16000 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfo__ctor_m16015 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MemberInfo::get_DeclaringType()
 // System.Reflection.MemberTypes System.Reflection.MemberInfo::get_MemberType()
 // System.String System.Reflection.MemberInfo::get_Name()
 // System.Type System.Reflection.MemberInfo::get_ReflectedType()
 // System.Reflection.Module System.Reflection.MemberInfo::get_Module()
-extern "C" Module_t4472 * MemberInfo_get_Module_m16001 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Module_t4474 * MemberInfo_get_Module_m16016 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MemberInfo::IsDefined(System.Type,System.Boolean)
 // System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean)
 // System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Type,System.Boolean)

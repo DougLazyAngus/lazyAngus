@@ -5,7 +5,7 @@
 // System.Net.FtpStatusCode
 #include "System_System_Net_FtpStatusCode.h"
 // System.Net.FtpStatusCode
-struct  FtpStatusCode_t3997 
+struct  FtpStatusCode_t3999 
 {
 	// System.Int32 System.Net.FtpStatusCode::value__
 	int32_t ___value___1;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.LoaderOptimization
-struct LoaderOptimization_t4770;
+struct LoaderOptimization_t4772;
 

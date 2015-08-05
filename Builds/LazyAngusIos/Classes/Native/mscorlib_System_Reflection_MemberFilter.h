@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Reflection.MemberFilter
-struct  MemberFilter_t4295  : public MulticastDelegate_t388
+struct  MemberFilter_t4297  : public MulticastDelegate_t388
 {
 };

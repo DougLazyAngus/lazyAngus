@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlTextWriter/XmlNodeInfo
-struct XmlNodeInfo_t3225;
+struct XmlNodeInfo_t3227;
 
 // System.Void System.Xml.XmlTextWriter/XmlNodeInfo::.ctor()
-extern "C" void XmlNodeInfo__ctor_m11111 (XmlNodeInfo_t3225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNodeInfo__ctor_m11126 (XmlNodeInfo_t3227 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

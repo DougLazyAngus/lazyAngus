@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.OverflowException
-struct OverflowException_t4786;
+struct OverflowException_t4788;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
+struct SerializationInfo_t2871;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OverflowException::.ctor()
-extern "C" void OverflowException__ctor_m19750 (OverflowException_t4786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OverflowException__ctor_m19765 (OverflowException_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OverflowException::.ctor(System.String)
-extern "C" void OverflowException__ctor_m19751 (OverflowException_t4786 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OverflowException__ctor_m19766 (OverflowException_t4788 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OverflowException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OverflowException__ctor_m19752 (OverflowException_t4786 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OverflowException__ctor_m19767 (OverflowException_t4788 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.StencilMaterial/MatEntry[]
-struct MatEntryU5BU5D_t5827;
+struct MatEntryU5BU5D_t5829;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  List_1_t919  : public Object_t
+struct  List_1_t921  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
-	MatEntryU5BU5D_t5827* ____items_1;
+	MatEntryU5BU5D_t5829* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
 	int32_t ____version_3;
 };
-struct List_1_t919_StaticFields{
+struct List_1_t921_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
-	MatEntryU5BU5D_t5827* ___EmptyArray_4;
+	MatEntryU5BU5D_t5829* ___EmptyArray_4;
 };

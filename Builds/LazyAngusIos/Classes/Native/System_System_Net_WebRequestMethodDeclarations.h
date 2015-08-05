@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.WebRequest
-struct WebRequest_t3253;
+struct WebRequest_t3255;
 // System.Net.ICredentials
-struct ICredentials_t3235;
+struct ICredentials_t3237;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t3969;
+struct WebHeaderCollection_t3971;
 // System.String
 struct String_t;
 // System.Net.IWebProxy
-struct IWebProxy_t3986;
+struct IWebProxy_t3988;
 // System.Uri
-struct Uri_t708;
+struct Uri_t710;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
+struct SerializationInfo_t2871;
 // System.Exception
 struct Exception_t57;
 // System.IAsyncResult
@@ -27,57 +27,57 @@ struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Net.WebResponse
-struct WebResponse_t3254;
+struct WebResponse_t3256;
 // System.Net.IWebRequestCreate
-struct IWebRequestCreate_t4142;
+struct IWebRequestCreate_t4144;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.WebRequest::.ctor()
-extern "C" void WebRequest__ctor_m14050 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest__ctor_m14065 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebRequest__ctor_m14051 (WebRequest_t3253 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest__ctor_m14066 (WebRequest_t3255 * __this, SerializationInfo_t2871 * ___serializationInfo, StreamingContext_t2872  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::.cctor()
-extern "C" void WebRequest__cctor_m14052 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest__cctor_m14067 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m14053 (WebRequest_t3253 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m14068 (WebRequest_t3255 * __this, SerializationInfo_t2871 * ___serializationInfo, StreamingContext_t2872  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::AddDynamicPrefix(System.String,System.String)
-extern "C" void WebRequest_AddDynamicPrefix_m14054 (Object_t * __this /* static, unused */, String_t* ___protocol, String_t* ___implementor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_AddDynamicPrefix_m14069 (Object_t * __this /* static, unused */, String_t* ___protocol, String_t* ___implementor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Net.WebRequest::GetMustImplement()
-extern "C" Exception_t57 * WebRequest_GetMustImplement_m14055 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * WebRequest_GetMustImplement_m14070 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.WebRequest::get_ContentLength()
-extern "C" int64_t WebRequest_get_ContentLength_m14056 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t WebRequest_get_ContentLength_m14071 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ICredentials System.Net.WebRequest::get_Credentials()
-extern "C" Object_t * WebRequest_get_Credentials_m14057 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_get_Credentials_m14072 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::set_Credentials(System.Net.ICredentials)
-extern "C" void WebRequest_set_Credentials_m14058 (WebRequest_t3253 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_set_Credentials_m14073 (WebRequest_t3255 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebHeaderCollection System.Net.WebRequest::get_Headers()
-extern "C" WebHeaderCollection_t3969 * WebRequest_get_Headers_m14059 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebHeaderCollection_t3971 * WebRequest_get_Headers_m14074 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.WebRequest::get_Method()
-extern "C" String_t* WebRequest_get_Method_m14060 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebRequest_get_Method_m14075 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.WebRequest::get_Proxy()
-extern "C" Object_t * WebRequest_get_Proxy_m14061 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_get_Proxy_m14076 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.WebRequest::get_RequestUri()
-extern "C" Uri_t708 * WebRequest_get_RequestUri_m14062 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t710 * WebRequest_get_RequestUri_m14077 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.WebRequest::get_DefaultWebProxy()
-extern "C" Object_t * WebRequest_get_DefaultWebProxy_m14063 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_get_DefaultWebProxy_m14078 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.WebRequest::GetDefaultWebProxy()
-extern "C" Object_t * WebRequest_GetDefaultWebProxy_m14064 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_GetDefaultWebProxy_m14079 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::Abort()
-extern "C" void WebRequest_Abort_m14065 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_Abort_m14080 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object)
-extern "C" Object_t * WebRequest_BeginGetResponse_m14066 (WebRequest_t3253 * __this, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_BeginGetResponse_m14081 (WebRequest_t3255 * __this, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.WebRequest::Create(System.Uri)
-extern "C" WebRequest_t3253 * WebRequest_Create_m11244 (Object_t * __this /* static, unused */, Uri_t708 * ___requestUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t3255 * WebRequest_Create_m11259 (Object_t * __this /* static, unused */, Uri_t710 * ___requestUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult)
-extern "C" WebResponse_t3254 * WebRequest_EndGetResponse_m14067 (WebRequest_t3253 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3256 * WebRequest_EndGetResponse_m14082 (WebRequest_t3255 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.WebRequest::GetResponse()
-extern "C" WebResponse_t3254 * WebRequest_GetResponse_m14068 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3256 * WebRequest_GetResponse_m14083 (WebRequest_t3255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebRequest_GetObjectData_m14069 (WebRequest_t3253 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_GetObjectData_m14084 (WebRequest_t3255 * __this, SerializationInfo_t2871 * ___serializationInfo, StreamingContext_t2872  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebRequestCreate System.Net.WebRequest::GetCreator(System.String)
-extern "C" Object_t * WebRequest_GetCreator_m14070 (Object_t * __this /* static, unused */, String_t* ___prefix, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebRequest_GetCreator_m14085 (Object_t * __this /* static, unused */, String_t* ___prefix, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebRequest::AddPrefix(System.String,System.Type)
-extern "C" void WebRequest_AddPrefix_m14071 (Object_t * __this /* static, unused */, String_t* ___prefix, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebRequest_AddPrefix_m14086 (Object_t * __this /* static, unused */, String_t* ___prefix, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Selectable/Transition
-struct Transition_t909;
+struct Transition_t911;
 

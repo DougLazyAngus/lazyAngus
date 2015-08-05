@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RijndaelTransform
-struct RijndaelTransform_t4657;
+struct RijndaelTransform_t4659;
 // System.Security.Cryptography.Rijndael
-struct Rijndael_t3885;
+struct Rijndael_t3887;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
-struct UInt32U5BU5D_t3169;
+struct UInt32U5BU5D_t3171;
 
 // System.Void System.Security.Cryptography.RijndaelTransform::.ctor(System.Security.Cryptography.Rijndael,System.Boolean,System.Byte[],System.Byte[])
-extern "C" void RijndaelTransform__ctor_m18521 (RijndaelTransform_t4657 * __this, Rijndael_t3885 * ___algo, bool ___encryption, ByteU5BU5D_t66* ___key, ByteU5BU5D_t66* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform__ctor_m18536 (RijndaelTransform_t4659 * __this, Rijndael_t3887 * ___algo, bool ___encryption, ByteU5BU5D_t66* ___key, ByteU5BU5D_t66* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::.cctor()
-extern "C" void RijndaelTransform__cctor_m18522 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform__cctor_m18537 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Clear()
-extern "C" void RijndaelTransform_Clear_m18523 (RijndaelTransform_t4657 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Clear_m18538 (RijndaelTransform_t4659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::ECB(System.Byte[],System.Byte[])
-extern "C" void RijndaelTransform_ECB_m18524 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___input, ByteU5BU5D_t66* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_ECB_m18539 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___input, ByteU5BU5D_t66* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Security.Cryptography.RijndaelTransform::SubByte(System.UInt32)
-extern "C" uint32_t RijndaelTransform_SubByte_m18525 (RijndaelTransform_t4657 * __this, uint32_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t RijndaelTransform_SubByte_m18540 (RijndaelTransform_t4659 * __this, uint32_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Encrypt128(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Encrypt128_m18526 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Encrypt128_m18541 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Encrypt192(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Encrypt192_m18527 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Encrypt192_m18542 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Encrypt256(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Encrypt256_m18528 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Encrypt256_m18543 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Decrypt128(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Decrypt128_m18529 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Decrypt128_m18544 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Decrypt192(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Decrypt192_m18530 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Decrypt192_m18545 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelTransform::Decrypt256(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void RijndaelTransform_Decrypt256_m18531 (RijndaelTransform_t4657 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3169* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelTransform_Decrypt256_m18546 (RijndaelTransform_t4659 * __this, ByteU5BU5D_t66* ___indata, ByteU5BU5D_t66* ___outdata, UInt32U5BU5D_t3171* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

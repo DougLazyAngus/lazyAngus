@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.InternalsVisibleToAttribute
-struct InternalsVisibleToAttribute_t2111;
+struct InternalsVisibleToAttribute_t2113;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.CompilerServices.InternalsVisibleToAttribute::.ctor(System.String)
-extern "C" void InternalsVisibleToAttribute__ctor_m7585 (InternalsVisibleToAttribute_t2111 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InternalsVisibleToAttribute__ctor_m7600 (InternalsVisibleToAttribute_t2113 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

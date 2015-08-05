@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.InvokableCall
-struct InvokableCall_t2834;
+struct InvokableCall_t2836;
 // System.Object
 struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // UnityEngine.Events.UnityAction
-struct UnityAction_t506;
+struct UnityAction_t507;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t638;
 
 // System.Void UnityEngine.Events.InvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall__ctor_m9775 (InvokableCall_t2834 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCall__ctor_m9790 (InvokableCall_t2836 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCall::.ctor(UnityEngine.Events.UnityAction)
-extern "C" void InvokableCall__ctor_m9776 (InvokableCall_t2834 * __this, UnityAction_t506 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCall__ctor_m9791 (InvokableCall_t2836 * __this, UnityAction_t507 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCall::Invoke(System.Object[])
-extern "C" void InvokableCall_Invoke_m9777 (InvokableCall_t2834 * __this, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCall_Invoke_m9792 (InvokableCall_t2836 * __this, ObjectU5BU5D_t638* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Events.InvokableCall::Find(System.Object,System.Reflection.MethodInfo)
-extern "C" bool InvokableCall_Find_m9778 (InvokableCall_t2834 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InvokableCall_Find_m9793 (InvokableCall_t2836 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;

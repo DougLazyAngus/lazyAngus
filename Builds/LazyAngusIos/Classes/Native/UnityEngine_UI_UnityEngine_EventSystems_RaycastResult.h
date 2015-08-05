@@ -3,18 +3,18 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t818;
+struct BaseRaycaster_t820;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.EventSystems.RaycastResult
-struct  RaycastResult_t819 
+struct  RaycastResult_t821 
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
 	GameObject_t352 * ___m_GameObject_0;
 	// UnityEngine.EventSystems.BaseRaycaster UnityEngine.EventSystems.RaycastResult::module
-	BaseRaycaster_t818 * ___module_1;
+	BaseRaycaster_t820 * ___module_1;
 	// System.Single UnityEngine.EventSystems.RaycastResult::distance
 	float ___distance_2;
 	// System.Single UnityEngine.EventSystems.RaycastResult::index
@@ -26,7 +26,7 @@ struct  RaycastResult_t819
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
 	int32_t ___sortingOrder_6;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t495  ___worldPosition_7;
+	Vector3_t496  ___worldPosition_7;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t495  ___worldNormal_8;
+	Vector3_t496  ___worldNormal_8;
 };

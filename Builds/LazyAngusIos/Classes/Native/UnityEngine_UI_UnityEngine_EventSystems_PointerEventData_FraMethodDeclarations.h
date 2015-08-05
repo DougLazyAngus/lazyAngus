@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.PointerEventData/FramePressState
-struct FramePressState_t822;
+struct FramePressState_t824;
 

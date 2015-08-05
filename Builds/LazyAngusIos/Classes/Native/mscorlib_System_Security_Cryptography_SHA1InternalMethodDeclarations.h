@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.SHA1Internal
-struct SHA1Internal_t4659;
+struct SHA1Internal_t4661;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
-struct UInt32U5BU5D_t3169;
+struct UInt32U5BU5D_t3171;
 
 // System.Void System.Security.Cryptography.SHA1Internal::.ctor()
-extern "C" void SHA1Internal__ctor_m18539 (SHA1Internal_t4659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal__ctor_m18554 (SHA1Internal_t4661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA1Internal_HashCore_m18540 (SHA1Internal_t4659 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_HashCore_m18555 (SHA1Internal_t4661 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.SHA1Internal::HashFinal()
-extern "C" ByteU5BU5D_t66* SHA1Internal_HashFinal_m18541 (SHA1Internal_t4659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* SHA1Internal_HashFinal_m18556 (SHA1Internal_t4661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::Initialize()
-extern "C" void SHA1Internal_Initialize_m18542 (SHA1Internal_t4659 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_Initialize_m18557 (SHA1Internal_t4661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::ProcessBlock(System.Byte[],System.UInt32)
-extern "C" void SHA1Internal_ProcessBlock_m18543 (SHA1Internal_t4659 * __this, ByteU5BU5D_t66* ___inputBuffer, uint32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_ProcessBlock_m18558 (SHA1Internal_t4661 * __this, ByteU5BU5D_t66* ___inputBuffer, uint32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::InitialiseBuff(System.UInt32[],System.Byte[],System.UInt32)
-extern "C" void SHA1Internal_InitialiseBuff_m18544 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3169* ___buff, ByteU5BU5D_t66* ___input, uint32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_InitialiseBuff_m18559 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3171* ___buff, ByteU5BU5D_t66* ___input, uint32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::FillBuff(System.UInt32[])
-extern "C" void SHA1Internal_FillBuff_m18545 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3169* ___buff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_FillBuff_m18560 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3171* ___buff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::ProcessFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA1Internal_ProcessFinalBlock_m18546 (SHA1Internal_t4659 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_ProcessFinalBlock_m18561 (SHA1Internal_t4661 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1Internal::AddLength(System.UInt64,System.Byte[],System.Int32)
-extern "C" void SHA1Internal_AddLength_m18547 (SHA1Internal_t4659 * __this, uint64_t ___length, ByteU5BU5D_t66* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1Internal_AddLength_m18562 (SHA1Internal_t4661 * __this, uint64_t ___length, ByteU5BU5D_t66* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;

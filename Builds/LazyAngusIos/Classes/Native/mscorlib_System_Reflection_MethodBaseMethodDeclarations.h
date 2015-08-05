@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MethodBase
-struct MethodBase_t1474;
+struct MethodBase_t1476;
 // System.Reflection.ParameterInfo[]
-struct ParameterInfoU5BU5D_t1407;
+struct ParameterInfoU5BU5D_t1409;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t638;
 // System.Reflection.Binder
-struct Binder_t2903;
+struct Binder_t2905;
 // System.Globalization.CultureInfo
-struct CultureInfo_t719;
+struct CultureInfo_t721;
 // System.Type[]
-struct TypeU5BU5D_t1150;
+struct TypeU5BU5D_t1152;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
 // System.Reflection.MethodAttributes
@@ -30,34 +30,34 @@ struct TypeU5BU5D_t1150;
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
 // System.Void System.Reflection.MethodBase::.ctor()
-extern "C" void MethodBase__ctor_m17683 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodBase__ctor_m17698 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Reflection.MethodBase::GetMethodFromHandleNoGenericCheck(System.RuntimeMethodHandle)
-extern "C" MethodBase_t1474 * MethodBase_GetMethodFromHandleNoGenericCheck_m17684 (Object_t * __this /* static, unused */, RuntimeMethodHandle_t4790  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1476 * MethodBase_GetMethodFromHandleNoGenericCheck_m17699 (Object_t * __this /* static, unused */, RuntimeMethodHandle_t4792  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Reflection.MethodBase::GetMethodFromIntPtr(System.IntPtr,System.IntPtr)
-extern "C" MethodBase_t1474 * MethodBase_GetMethodFromIntPtr_m17685 (Object_t * __this /* static, unused */, IntPtr_t ___handle, IntPtr_t ___declaringType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1476 * MethodBase_GetMethodFromIntPtr_m17700 (Object_t * __this /* static, unused */, IntPtr_t ___handle, IntPtr_t ___declaringType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Reflection.MethodBase::GetMethodFromHandle(System.RuntimeMethodHandle)
-extern "C" MethodBase_t1474 * MethodBase_GetMethodFromHandle_m7419 (Object_t * __this /* static, unused */, RuntimeMethodHandle_t4790  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1476 * MethodBase_GetMethodFromHandle_m7434 (Object_t * __this /* static, unused */, RuntimeMethodHandle_t4792  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Reflection.MethodBase::GetMethodFromHandleInternalType(System.IntPtr,System.IntPtr)
-extern "C" MethodBase_t1474 * MethodBase_GetMethodFromHandleInternalType_m17686 (Object_t * __this /* static, unused */, IntPtr_t ___method_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1476 * MethodBase_GetMethodFromHandleInternalType_m17701 (Object_t * __this /* static, unused */, IntPtr_t ___method_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters()
 // System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Object[])
-extern "C" Object_t * MethodBase_Invoke_m17687 (MethodBase_t1474 * __this, Object_t * ___obj, ObjectU5BU5D_t636* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodBase_Invoke_m17702 (MethodBase_t1476 * __this, Object_t * ___obj, ObjectU5BU5D_t638* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 // System.RuntimeMethodHandle System.Reflection.MethodBase::get_MethodHandle()
 // System.Reflection.MethodAttributes System.Reflection.MethodBase::get_Attributes()
 // System.Reflection.CallingConventions System.Reflection.MethodBase::get_CallingConvention()
-extern "C" int32_t MethodBase_get_CallingConvention_m17688 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodBase_get_CallingConvention_m17703 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_IsPublic()
-extern "C" bool MethodBase_get_IsPublic_m17689 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_IsPublic_m17704 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_IsStatic()
-extern "C" bool MethodBase_get_IsStatic_m17690 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_IsStatic_m17705 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_IsVirtual()
-extern "C" bool MethodBase_get_IsVirtual_m17691 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_IsVirtual_m17706 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.MethodBase::GetGenericArguments()
-extern "C" TypeU5BU5D_t1150* MethodBase_GetGenericArguments_m17692 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1152* MethodBase_GetGenericArguments_m17707 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_ContainsGenericParameters()
-extern "C" bool MethodBase_get_ContainsGenericParameters_m17693 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_ContainsGenericParameters_m17708 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_IsGenericMethodDefinition()
-extern "C" bool MethodBase_get_IsGenericMethodDefinition_m17694 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_IsGenericMethodDefinition_m17709 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodBase::get_IsGenericMethod()
-extern "C" bool MethodBase_get_IsGenericMethod_m17695 (MethodBase_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBase_get_IsGenericMethod_m17710 (MethodBase_t1476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

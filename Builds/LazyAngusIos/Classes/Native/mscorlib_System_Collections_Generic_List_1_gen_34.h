@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.CanvasGroup[]
-struct CanvasGroupU5BU5D_t5821;
+struct CanvasGroupU5BU5D_t5823;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct  List_1_t912  : public Object_t
+struct  List_1_t914  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_items
-	CanvasGroupU5BU5D_t5821* ____items_1;
+	CanvasGroupU5BU5D_t5823* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_version
 	int32_t ____version_3;
 };
-struct List_1_t912_StaticFields{
+struct List_1_t914_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::EmptyArray
-	CanvasGroupU5BU5D_t5821* ___EmptyArray_4;
+	CanvasGroupU5BU5D_t5823* ___EmptyArray_4;
 };

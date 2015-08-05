@@ -1,19 +1,19 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t660;
+struct IEnumerable_1_t662;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object
 struct Object_t;
 // System.Func`2<System.Object,Parse.ParseGeoPoint>
-struct Func_2_t6785;
+struct Func_2_t6787;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>
-struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6786  : public Object_t
+struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6788  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::source
 	Object_t* ___source_0;
@@ -22,13 +22,13 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6786  : public Object_t
 	// TSource System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::<element>__1
 	Object_t * ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::selector
-	Func_2_t6785 * ___selector_3;
+	Func_2_t6787 * ___selector_3;
 	// System.Int32 System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::$PC
 	int32_t ___U24PC_4;
 	// TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::$current
-	ParseGeoPoint_t1194  ___U24current_5;
+	ParseGeoPoint_t1196  ___U24current_5;
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Object,Parse.ParseGeoPoint>::<$>selector
-	Func_2_t6785 * ___U3CU24U3Eselector_7;
+	Func_2_t6787 * ___U3CU24U3Eselector_7;
 };

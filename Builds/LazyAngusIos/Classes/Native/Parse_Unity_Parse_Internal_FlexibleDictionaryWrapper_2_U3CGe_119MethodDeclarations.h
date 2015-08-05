@@ -5,30 +5,30 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>
-struct U3CGetEnumeratorU3Ed__4_t7883;
+struct U3CGetEnumeratorU3Ed__4_t7885;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_56.h"
 
 // System.Boolean Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::MoveNext()
-extern "C" bool U3CGetEnumeratorU3Ed__4_MoveNext_m54597_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_MoveNext_m54597(__this, method) (( bool (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_MoveNext_m54597_gshared)(__this, method)
+extern "C" bool U3CGetEnumeratorU3Ed__4_MoveNext_m54612_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_MoveNext_m54612(__this, method) (( bool (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_MoveNext_m54612_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,TOut>>.get_Current()
-extern "C" KeyValuePair_2_t6983  U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54598_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54598(__this, method) (( KeyValuePair_2_t6983  (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54598_gshared)(__this, method)
+extern "C" KeyValuePair_2_t6985  U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54613_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54613(__this, method) (( KeyValuePair_2_t6985  (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CTOutU3EU3E_get_Current_m54613_gshared)(__this, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::System.Collections.IEnumerator.Reset()
-extern "C" void U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54599_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54599(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54599_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54614_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54614(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_Reset_m54614_gshared)(__this, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::System.IDisposable.Dispose()
-extern "C" void U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54600_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54600(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54600_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54615_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54615(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_IDisposable_Dispose_m54615_gshared)(__this, method)
 // System.Object Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54601_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54601(__this, method) (( Object_t * (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54601_gshared)(__this, method)
+extern "C" Object_t * U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54616_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54616(__this, method) (( Object_t * (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_System_Collections_IEnumerator_get_Current_m54616_gshared)(__this, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::.ctor(System.Int32)
-extern "C" void U3CGetEnumeratorU3Ed__4__ctor_m54602_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, int32_t ___U3CU3E1__state, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4__ctor_m54602(__this, ___U3CU3E1__state, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7883 *, int32_t, const MethodInfo*))U3CGetEnumeratorU3Ed__4__ctor_m54602_gshared)(__this, ___U3CU3E1__state, method)
+extern "C" void U3CGetEnumeratorU3Ed__4__ctor_m54617_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, int32_t ___U3CU3E1__state, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4__ctor_m54617(__this, ___U3CU3E1__state, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7885 *, int32_t, const MethodInfo*))U3CGetEnumeratorU3Ed__4__ctor_m54617_gshared)(__this, ___U3CU3E1__state, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Single,System.Single>::<>m__Finally7()
-extern "C" void U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54603_gshared (U3CGetEnumeratorU3Ed__4_t7883 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54603(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7883 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54603_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54618_gshared (U3CGetEnumeratorU3Ed__4_t7885 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54618(__this, method) (( void (*) (U3CGetEnumeratorU3Ed__4_t7885 *, const MethodInfo*))U3CGetEnumeratorU3Ed__4_U3CU3Em__Finally7_m54618_gshared)(__this, method)

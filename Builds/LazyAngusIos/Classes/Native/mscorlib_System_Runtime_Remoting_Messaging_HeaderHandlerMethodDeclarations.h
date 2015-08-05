@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.HeaderHandler
-struct HeaderHandler_t4804;
+struct HeaderHandler_t4806;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Messaging.Header[]
-struct HeaderU5BU5D_t4803;
+struct HeaderU5BU5D_t4805;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Runtime.Remoting.Messaging.HeaderHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void HeaderHandler__ctor_m19873 (HeaderHandler_t4804 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeaderHandler__ctor_m19888 (HeaderHandler_t4806 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.HeaderHandler::Invoke(System.Runtime.Remoting.Messaging.Header[])
-extern "C" Object_t * HeaderHandler_Invoke_m19874 (HeaderHandler_t4804 * __this, HeaderU5BU5D_t4803* ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" Object_t * pinvoke_delegate_wrapper_HeaderHandler_t4804(Il2CppObject* delegate, HeaderU5BU5D_t4803* ___headers);
+extern "C" Object_t * HeaderHandler_Invoke_m19889 (HeaderHandler_t4806 * __this, HeaderU5BU5D_t4805* ___headers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * pinvoke_delegate_wrapper_HeaderHandler_t4806(Il2CppObject* delegate, HeaderU5BU5D_t4805* ___headers);
 // System.IAsyncResult System.Runtime.Remoting.Messaging.HeaderHandler::BeginInvoke(System.Runtime.Remoting.Messaging.Header[],System.AsyncCallback,System.Object)
-extern "C" Object_t * HeaderHandler_BeginInvoke_m19875 (HeaderHandler_t4804 * __this, HeaderU5BU5D_t4803* ___headers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HeaderHandler_BeginInvoke_m19890 (HeaderHandler_t4806 * __this, HeaderU5BU5D_t4805* ___headers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.HeaderHandler::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * HeaderHandler_EndInvoke_m19876 (HeaderHandler_t4804 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HeaderHandler_EndInvoke_m19891 (HeaderHandler_t4806 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

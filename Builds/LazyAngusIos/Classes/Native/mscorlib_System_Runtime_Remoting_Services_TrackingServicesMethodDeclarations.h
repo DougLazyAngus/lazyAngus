@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Services.TrackingServices
-struct TrackingServices_t4582;
+struct TrackingServices_t4584;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t4586;
+struct ObjRef_t4588;
 
 // System.Void System.Runtime.Remoting.Services.TrackingServices::.cctor()
-extern "C" void TrackingServices__cctor_m18113 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackingServices__cctor_m18128 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Services.TrackingServices::NotifyUnmarshaledObject(System.Object,System.Runtime.Remoting.ObjRef)
-extern "C" void TrackingServices_NotifyUnmarshaledObject_m18114 (Object_t * __this /* static, unused */, Object_t * ___obj, ObjRef_t4586 * ___or, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackingServices_NotifyUnmarshaledObject_m18129 (Object_t * __this /* static, unused */, Object_t * ___obj, ObjRef_t4588 * ___or, const MethodInfo* method) IL2CPP_METHOD_ATTR;

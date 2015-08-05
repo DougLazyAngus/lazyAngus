@@ -5,7 +5,7 @@
 // UnityEngine.iOS.NotificationType
 #include "UnityEngine_UnityEngine_iOS_NotificationType.h"
 // UnityEngine.iOS.NotificationType
-struct  NotificationType_t2713 
+struct  NotificationType_t2715 
 {
 	// System.Int32 UnityEngine.iOS.NotificationType::value__
 	int32_t ___value___1;

@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // ThrobForEffect
-struct ThrobForEffect_t562;
+struct ThrobForEffect_t564;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // TipConfig
-struct TipConfig_t472;
+struct TipConfig_t473;
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t560;
+struct MousePopChangedEventHandler_t562;
 // MouseHole/CapacityChangedEventHandler
-struct CapacityChangedEventHandler_t561;
+struct CapacityChangedEventHandler_t563;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -17,30 +17,30 @@ struct CapacityChangedEventHandler_t561;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t528  : public MonoBehaviour_t13
+struct  MouseHole_t530  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
-	Vector3_t495  ___meterOffset_2;
+	Vector3_t496  ___meterOffset_2;
 	// MouseHole/MouseHoleLocation MouseHole::mouseHoleLocation
 	int32_t ___mouseHoleLocation_3;
 	// System.Int32 MouseHole::savedMouseCount
 	int32_t ___savedMouseCount_5;
 	// ThrobForEffect MouseHole::throbForEffect
-	ThrobForEffect_t562 * ___throbForEffect_6;
+	ThrobForEffect_t564 * ___throbForEffect_6;
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
 	GameObject_t352 * ___holeMeterPrototype_7;
 	// TipConfig MouseHole::mouseHoleTip
-	TipConfig_t472 * ___mouseHoleTip_8;
+	TipConfig_t473 * ___mouseHoleTip_8;
 	// System.Int32 MouseHole::capacity
 	int32_t ___capacity_9;
 	// System.Boolean MouseHole::registeredForEvents
 	bool ___registeredForEvents_10;
 	// MouseHole/MousePopChangedEventHandler MouseHole::MousePopChanged
-	MousePopChangedEventHandler_t560 * ___MousePopChanged_11;
+	MousePopChangedEventHandler_t562 * ___MousePopChanged_11;
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
-	CapacityChangedEventHandler_t561 * ___CapacityChanged_12;
+	CapacityChangedEventHandler_t563 * ___CapacityChanged_12;
 };
-struct MouseHole_t528_StaticFields{
+struct MouseHole_t530_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
 	float ___angleBetweenHoles_4;
 };

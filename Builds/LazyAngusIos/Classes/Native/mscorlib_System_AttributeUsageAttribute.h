@@ -5,7 +5,7 @@
 // System.AttributeTargets
 #include "mscorlib_System_AttributeTargets.h"
 // System.AttributeUsageAttribute
-struct  AttributeUsageAttribute_t754  : public Attribute_t426
+struct  AttributeUsageAttribute_t756  : public Attribute_t426
 {
 	// System.AttributeTargets System.AttributeUsageAttribute::valid_on
 	int32_t ___valid_on_0;

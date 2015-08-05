@@ -48,19 +48,18 @@ public class GameUIController : MonoBehaviour {
 		RegisterForEvents ();	
 		OnGamePhaseChanged ();
 
-		StartCoroutine (ConfirmUIsSetup ());
+		StartCoroutine (ConfirmComplete ());
 	}
 
-	IEnumerator ConfirmUIsSetup() {
+	IEnumerator ConfirmComplete() {
 		yield return new WaitForSeconds (0f);
 		for (int i = 0; i < gameUIs.Length; i++) {
-			gameUIs[i].ConfirmLayoutComplete();
+			gameUIs [i].ConfirmLayoutComplete ();
 		}
 	}
 	
 	void OnDestroy() {
-		UnregisterForEvents ();
-		
+		UnregisterForEvents ();		
 	}
 	
 	void RegisterForEvents() {

@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<System.DateTime>
-struct IList_1_t6758;
+struct IList_1_t6760;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Collections.Generic.IList`1<System.DateTime>,System.Object>
-struct  Func_2_t6830  : public MulticastDelegate_t388
+struct  Func_2_t6832  : public MulticastDelegate_t388
 {
 };

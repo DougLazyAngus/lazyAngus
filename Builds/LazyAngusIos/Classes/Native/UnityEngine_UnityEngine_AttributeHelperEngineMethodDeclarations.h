@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AttributeHelperEngine
-struct AttributeHelperEngine_t2790;
+struct AttributeHelperEngine_t2792;
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1150;
+struct TypeU5BU5D_t1152;
 
 // System.Void UnityEngine.AttributeHelperEngine::.cctor()
-extern "C" void AttributeHelperEngine__cctor_m9602 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AttributeHelperEngine__cctor_m9617 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type UnityEngine.AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion(System.Type)
-extern "C" Type_t * AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9603 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9618 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] UnityEngine.AttributeHelperEngine::GetRequiredComponents(System.Type)
-extern "C" TypeU5BU5D_t1150* AttributeHelperEngine_GetRequiredComponents_m9604 (Object_t * __this /* static, unused */, Type_t * ___klass, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1152* AttributeHelperEngine_GetRequiredComponents_m9619 (Object_t * __this /* static, unused */, Type_t * ___klass, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AttributeHelperEngine::CheckIsEditorScript(System.Type)
-extern "C" bool AttributeHelperEngine_CheckIsEditorScript_m9605 (Object_t * __this /* static, unused */, Type_t * ___klass, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AttributeHelperEngine_CheckIsEditorScript_m9620 (Object_t * __this /* static, unused */, Type_t * ___klass, const MethodInfo* method) IL2CPP_METHOD_ATTR;

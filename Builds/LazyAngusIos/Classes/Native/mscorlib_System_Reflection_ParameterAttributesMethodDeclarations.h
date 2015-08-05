@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.ParameterAttributes
-struct ParameterAttributes_t4504;
+struct ParameterAttributes_t4506;
 

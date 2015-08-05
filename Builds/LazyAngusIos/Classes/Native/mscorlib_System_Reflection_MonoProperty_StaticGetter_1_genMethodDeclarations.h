@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoProperty/StaticGetter`1<System.Object>
-struct StaticGetter_1_t8608;
+struct StaticGetter_1_t8610;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.MonoProperty/StaticGetter`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void StaticGetter_1__ctor_m63387_gshared (StaticGetter_1_t8608 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define StaticGetter_1__ctor_m63387(__this, ___object, ___method, method) (( void (*) (StaticGetter_1_t8608 *, Object_t *, IntPtr_t, const MethodInfo*))StaticGetter_1__ctor_m63387_gshared)(__this, ___object, ___method, method)
+extern "C" void StaticGetter_1__ctor_m63402_gshared (StaticGetter_1_t8610 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define StaticGetter_1__ctor_m63402(__this, ___object, ___method, method) (( void (*) (StaticGetter_1_t8610 *, Object_t *, IntPtr_t, const MethodInfo*))StaticGetter_1__ctor_m63402_gshared)(__this, ___object, ___method, method)
 // R System.Reflection.MonoProperty/StaticGetter`1<System.Object>::Invoke()
-extern "C" Object_t * StaticGetter_1_Invoke_m63388_gshared (StaticGetter_1_t8608 * __this, const MethodInfo* method);
-#define StaticGetter_1_Invoke_m63388(__this, method) (( Object_t * (*) (StaticGetter_1_t8608 *, const MethodInfo*))StaticGetter_1_Invoke_m63388_gshared)(__this, method)
+extern "C" Object_t * StaticGetter_1_Invoke_m63403_gshared (StaticGetter_1_t8610 * __this, const MethodInfo* method);
+#define StaticGetter_1_Invoke_m63403(__this, method) (( Object_t * (*) (StaticGetter_1_t8610 *, const MethodInfo*))StaticGetter_1_Invoke_m63403_gshared)(__this, method)
 // System.IAsyncResult System.Reflection.MonoProperty/StaticGetter`1<System.Object>::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * StaticGetter_1_BeginInvoke_m63389_gshared (StaticGetter_1_t8608 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define StaticGetter_1_BeginInvoke_m63389(__this, ___callback, ___object, method) (( Object_t * (*) (StaticGetter_1_t8608 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))StaticGetter_1_BeginInvoke_m63389_gshared)(__this, ___callback, ___object, method)
+extern "C" Object_t * StaticGetter_1_BeginInvoke_m63404_gshared (StaticGetter_1_t8610 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define StaticGetter_1_BeginInvoke_m63404(__this, ___callback, ___object, method) (( Object_t * (*) (StaticGetter_1_t8610 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))StaticGetter_1_BeginInvoke_m63404_gshared)(__this, ___callback, ___object, method)
 // R System.Reflection.MonoProperty/StaticGetter`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * StaticGetter_1_EndInvoke_m63390_gshared (StaticGetter_1_t8608 * __this, Object_t * ___result, const MethodInfo* method);
-#define StaticGetter_1_EndInvoke_m63390(__this, ___result, method) (( Object_t * (*) (StaticGetter_1_t8608 *, Object_t *, const MethodInfo*))StaticGetter_1_EndInvoke_m63390_gshared)(__this, ___result, method)
+extern "C" Object_t * StaticGetter_1_EndInvoke_m63405_gshared (StaticGetter_1_t8610 * __this, Object_t * ___result, const MethodInfo* method);
+#define StaticGetter_1_EndInvoke_m63405(__this, ___result, method) (( Object_t * (*) (StaticGetter_1_t8610 *, Object_t *, const MethodInfo*))StaticGetter_1_EndInvoke_m63405_gshared)(__this, ___result, method)

@@ -5,11 +5,11 @@ struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Collections.ArrayList
-struct ArrayList_t3111;
+struct ArrayList_t3113;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
-struct  PrivateKeyInfo_t3750  : public Object_t
+struct  PrivateKeyInfo_t3752  : public Object_t
 {
 	// System.Int32 Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::_version
 	int32_t ____version_0;
@@ -18,5 +18,5 @@ struct  PrivateKeyInfo_t3750  : public Object_t
 	// System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::_key
 	ByteU5BU5D_t66* ____key_2;
 	// System.Collections.ArrayList Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::_list
-	ArrayList_t3111 * ____list_3;
+	ArrayList_t3113 * ____list_3;
 };

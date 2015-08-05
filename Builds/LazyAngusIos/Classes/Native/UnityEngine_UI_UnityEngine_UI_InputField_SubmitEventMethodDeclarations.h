@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.InputField/SubmitEvent
-struct SubmitEvent_t881;
+struct SubmitEvent_t883;
 
 // System.Void UnityEngine.UI.InputField/SubmitEvent::.ctor()
-extern "C" void SubmitEvent__ctor_m4804 (SubmitEvent_t881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SubmitEvent__ctor_m4819 (SubmitEvent_t883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__12.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>
-struct  Enumerator_t5360 
+struct  Enumerator_t5362 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::host_enumerator
-	Enumerator_t5357  ___host_enumerator_0;
+	Enumerator_t5359  ___host_enumerator_0;
 };

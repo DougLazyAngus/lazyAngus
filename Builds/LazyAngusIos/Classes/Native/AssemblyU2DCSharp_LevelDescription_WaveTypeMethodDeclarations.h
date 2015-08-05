@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // LevelDescription/WaveType
-struct WaveType_t534;
+struct WaveType_t536;
 

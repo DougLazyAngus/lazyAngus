@@ -5,7 +5,7 @@
 // System.Net.DecompressionMethods
 #include "System_System_Net_DecompressionMethods.h"
 // System.Net.DecompressionMethods
-struct  DecompressionMethods_t3977 
+struct  DecompressionMethods_t3979 
 {
 	// System.Int32 System.Net.DecompressionMethods::value__
 	int32_t ___value___1;

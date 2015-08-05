@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.AsnDecodeStatus
-struct AsnDecodeStatus_t4067;
+struct AsnDecodeStatus_t4069;
 

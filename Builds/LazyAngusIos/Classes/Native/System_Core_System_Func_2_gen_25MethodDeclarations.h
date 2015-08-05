@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Int32,<>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>
-struct Func_2_t1427;
+struct Func_2_t1429;
 // System.Object
 struct Object_t;
 // <>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct U3CU3Ef__AnonymousType4_3_t1340;
+struct U3CU3Ef__AnonymousType4_3_t1342;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Int32,<>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Int32,System.Object>
 #include "System_Core_System_Func_2_gen_90MethodDeclarations.h"
-#define Func_2__ctor_m7260(__this, ___object, ___method, method) (( void (*) (Func_2_t1427 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m33823_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m7275(__this, ___object, ___method, method) (( void (*) (Func_2_t1429 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m33838_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Int32,<>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>::Invoke(T)
-#define Func_2_Invoke_m33824(__this, ___arg1, method) (( U3CU3Ef__AnonymousType4_3_t1340 * (*) (Func_2_t1427 *, int32_t, const MethodInfo*))Func_2_Invoke_m33825_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m33839(__this, ___arg1, method) (( U3CU3Ef__AnonymousType4_3_t1342 * (*) (Func_2_t1429 *, int32_t, const MethodInfo*))Func_2_Invoke_m33840_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Int32,<>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m33826(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1427 *, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m33827_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m33841(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1429 *, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m33842_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Int32,<>f__AnonymousType4`3<Parse.ParseObject,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m33828(__this, ___result, method) (( U3CU3Ef__AnonymousType4_3_t1340 * (*) (Func_2_t1427 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m33829_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m33843(__this, ___result, method) (( U3CU3Ef__AnonymousType4_3_t1342 * (*) (Func_2_t1429 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m33844_gshared)(__this, ___result, method)

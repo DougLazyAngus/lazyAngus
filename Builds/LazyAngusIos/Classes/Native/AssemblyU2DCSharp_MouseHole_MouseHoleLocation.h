@@ -5,7 +5,7 @@
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole/MouseHoleLocation
-struct  MouseHoleLocation_t559 
+struct  MouseHoleLocation_t561 
 {
 	// System.Int32 MouseHole/MouseHoleLocation::value__
 	int32_t ___value___1;

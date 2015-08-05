@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>
-struct KeyValuePair_2_t6945;
+struct KeyValuePair_2_t6947;
 // System.Object
 struct Object_t;
 // System.String
@@ -14,20 +14,20 @@ struct String_t;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m43426_gshared (KeyValuePair_2_t6945 * __this, Object_t * ___key, DateTime_t287  ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m43426(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6945 *, Object_t *, DateTime_t287 , const MethodInfo*))KeyValuePair_2__ctor_m43426_gshared)(__this, ___key, ___value, method)
+extern "C" void KeyValuePair_2__ctor_m43441_gshared (KeyValuePair_2_t6947 * __this, Object_t * ___key, DateTime_t287  ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m43441(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6947 *, Object_t *, DateTime_t287 , const MethodInfo*))KeyValuePair_2__ctor_m43441_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::get_Key()
-extern "C" Object_t * KeyValuePair_2_get_Key_m43427_gshared (KeyValuePair_2_t6945 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m43427(__this, method) (( Object_t * (*) (KeyValuePair_2_t6945 *, const MethodInfo*))KeyValuePair_2_get_Key_m43427_gshared)(__this, method)
+extern "C" Object_t * KeyValuePair_2_get_Key_m43442_gshared (KeyValuePair_2_t6947 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m43442(__this, method) (( Object_t * (*) (KeyValuePair_2_t6947 *, const MethodInfo*))KeyValuePair_2_get_Key_m43442_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m43428_gshared (KeyValuePair_2_t6945 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m43428(__this, ___value, method) (( void (*) (KeyValuePair_2_t6945 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m43428_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Key_m43443_gshared (KeyValuePair_2_t6947 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m43443(__this, ___value, method) (( void (*) (KeyValuePair_2_t6947 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m43443_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::get_Value()
-extern "C" DateTime_t287  KeyValuePair_2_get_Value_m43429_gshared (KeyValuePair_2_t6945 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m43429(__this, method) (( DateTime_t287  (*) (KeyValuePair_2_t6945 *, const MethodInfo*))KeyValuePair_2_get_Value_m43429_gshared)(__this, method)
+extern "C" DateTime_t287  KeyValuePair_2_get_Value_m43444_gshared (KeyValuePair_2_t6947 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m43444(__this, method) (( DateTime_t287  (*) (KeyValuePair_2_t6947 *, const MethodInfo*))KeyValuePair_2_get_Value_m43444_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m43430_gshared (KeyValuePair_2_t6945 * __this, DateTime_t287  ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m43430(__this, ___value, method) (( void (*) (KeyValuePair_2_t6945 *, DateTime_t287 , const MethodInfo*))KeyValuePair_2_set_Value_m43430_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Value_m43445_gshared (KeyValuePair_2_t6947 * __this, DateTime_t287  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m43445(__this, ___value, method) (( void (*) (KeyValuePair_2_t6947 *, DateTime_t287 , const MethodInfo*))KeyValuePair_2_set_Value_m43445_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m43431_gshared (KeyValuePair_2_t6945 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m43431(__this, method) (( String_t* (*) (KeyValuePair_2_t6945 *, const MethodInfo*))KeyValuePair_2_ToString_m43431_gshared)(__this, method)
+extern "C" String_t* KeyValuePair_2_ToString_m43446_gshared (KeyValuePair_2_t6947 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m43446(__this, method) (( String_t* (*) (KeyValuePair_2_t6947 *, const MethodInfo*))KeyValuePair_2_ToString_m43446_gshared)(__this, method)

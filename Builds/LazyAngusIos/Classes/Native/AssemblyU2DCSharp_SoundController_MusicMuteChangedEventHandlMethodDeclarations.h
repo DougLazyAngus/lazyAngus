@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SoundController/MusicMuteChangedEventHandler
-struct MusicMuteChangedEventHandler_t608;
+struct MusicMuteChangedEventHandler_t610;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void SoundController/MusicMuteChangedEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void MusicMuteChangedEventHandler__ctor_m3275 (MusicMuteChangedEventHandler_t608 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MusicMuteChangedEventHandler__ctor_m3290 (MusicMuteChangedEventHandler_t610 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SoundController/MusicMuteChangedEventHandler::Invoke()
-extern "C" void MusicMuteChangedEventHandler_Invoke_m3276 (MusicMuteChangedEventHandler_t608 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_MusicMuteChangedEventHandler_t608(Il2CppObject* delegate);
+extern "C" void MusicMuteChangedEventHandler_Invoke_m3291 (MusicMuteChangedEventHandler_t610 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_MusicMuteChangedEventHandler_t610(Il2CppObject* delegate);
 // System.IAsyncResult SoundController/MusicMuteChangedEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * MusicMuteChangedEventHandler_BeginInvoke_m3277 (MusicMuteChangedEventHandler_t608 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MusicMuteChangedEventHandler_BeginInvoke_m3292 (MusicMuteChangedEventHandler_t610 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SoundController/MusicMuteChangedEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void MusicMuteChangedEventHandler_EndInvoke_m3278 (MusicMuteChangedEventHandler_t608 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MusicMuteChangedEventHandler_EndInvoke_m3293 (MusicMuteChangedEventHandler_t610 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

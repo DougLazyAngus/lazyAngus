@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUILayoutOption
-struct GUILayoutOption_t652;
+struct GUILayoutOption_t654;
 // System.Object
 struct Object_t;
 // UnityEngine.GUILayoutOption/Type
 #include "UnityEngine_UnityEngine_GUILayoutOption_Type.h"
 
 // System.Void UnityEngine.GUILayoutOption::.ctor(UnityEngine.GUILayoutOption/Type,System.Object)
-extern "C" void GUILayoutOption__ctor_m8672 (GUILayoutOption_t652 * __this, int32_t ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUILayoutOption__ctor_m8687 (GUILayoutOption_t654 * __this, int32_t ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

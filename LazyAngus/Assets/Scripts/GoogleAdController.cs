@@ -74,8 +74,8 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		UpdateBanner ();
-		UpdateInterstialAd ();
+		// UpdateBanner ();
+		// UpdateInterstialAd ();
 	}
 
 	void UpdateInterstialAd() {
@@ -132,10 +132,15 @@ public class GoogleAdController : MonoBehaviour {
 			banner.Hide ();
 			break;
 		default:
-			banner.Show();
-			banner.Refresh();
+			StartCoroutine (RefreshInSeparateThread());
 			break;
 		}	
+	}
+
+	IEnumerator RefreshInSeparateThread() {
+		yield return new WaitForSeconds (0f);
+		// banner.Show();
+		// banner.Refresh();
 	}
 
 	public static float GetBannerHeight() {

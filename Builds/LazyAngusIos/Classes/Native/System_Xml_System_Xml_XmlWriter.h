@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlWriter
-struct  XmlWriter_t3233  : public Object_t
+struct  XmlWriter_t3235  : public Object_t
 {
 };

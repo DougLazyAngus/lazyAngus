@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t502;
+struct RectTransform_t503;
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t916;
+struct SliderEvent_t918;
 // UnityEngine.UI.Image
 struct Image_t463;
 // UnityEngine.Transform
@@ -17,12 +17,12 @@ struct Transform_t406;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.Slider
-struct  Slider_t457  : public Selectable_t846
+struct  Slider_t457  : public Selectable_t848
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillRect
-	RectTransform_t502 * ___m_FillRect_16;
+	RectTransform_t503 * ___m_FillRect_16;
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_HandleRect
-	RectTransform_t502 * ___m_HandleRect_17;
+	RectTransform_t503 * ___m_HandleRect_17;
 	// UnityEngine.UI.Slider/Direction UnityEngine.UI.Slider::m_Direction
 	int32_t ___m_Direction_18;
 	// System.Single UnityEngine.UI.Slider::m_MinValue
@@ -34,19 +34,19 @@ struct  Slider_t457  : public Selectable_t846
 	// System.Single UnityEngine.UI.Slider::m_Value
 	float ___m_Value_22;
 	// UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::m_OnValueChanged
-	SliderEvent_t916 * ___m_OnValueChanged_23;
+	SliderEvent_t918 * ___m_OnValueChanged_23;
 	// UnityEngine.UI.Image UnityEngine.UI.Slider::m_FillImage
 	Image_t463 * ___m_FillImage_24;
 	// UnityEngine.Transform UnityEngine.UI.Slider::m_FillTransform
 	Transform_t406 * ___m_FillTransform_25;
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillContainerRect
-	RectTransform_t502 * ___m_FillContainerRect_26;
+	RectTransform_t503 * ___m_FillContainerRect_26;
 	// UnityEngine.Transform UnityEngine.UI.Slider::m_HandleTransform
 	Transform_t406 * ___m_HandleTransform_27;
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_HandleContainerRect
-	RectTransform_t502 * ___m_HandleContainerRect_28;
+	RectTransform_t503 * ___m_HandleContainerRect_28;
 	// UnityEngine.Vector2 UnityEngine.UI.Slider::m_Offset
 	Vector2_t110  ___m_Offset_29;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.Slider::m_Tracker
-	DrivenRectTransformTracker_t904  ___m_Tracker_30;
+	DrivenRectTransformTracker_t906  ___m_Tracker_30;
 };

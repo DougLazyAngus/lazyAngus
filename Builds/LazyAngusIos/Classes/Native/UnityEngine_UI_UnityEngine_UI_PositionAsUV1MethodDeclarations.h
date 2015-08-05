@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.PositionAsUV1
-struct PositionAsUV1_t962;
+struct PositionAsUV1_t964;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t892;
+struct List_1_t894;
 
 // System.Void UnityEngine.UI.PositionAsUV1::.ctor()
-extern "C" void PositionAsUV1__ctor_m5486 (PositionAsUV1_t962 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAsUV1__ctor_m5501 (PositionAsUV1_t964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.PositionAsUV1::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void PositionAsUV1_ModifyVertices_m5487 (PositionAsUV1_t962 * __this, List_1_t892 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAsUV1_ModifyVertices_m5502 (PositionAsUV1_t964 * __this, List_1_t894 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;

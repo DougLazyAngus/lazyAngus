@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t530;
+struct Camera_t532;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Camera/CameraCallback
-struct  CameraCallback_t2698  : public MulticastDelegate_t388
+struct  CameraCallback_t2700  : public MulticastDelegate_t388
 {
 };

@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.IO.IOException
-struct  IOException_t3892  : public SystemException_t3182
+struct  IOException_t3894  : public SystemException_t3184
 {
 };

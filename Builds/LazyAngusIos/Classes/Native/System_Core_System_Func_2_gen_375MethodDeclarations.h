@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>
-struct Func_2_t7091;
+struct Func_2_t7093;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>
-struct Dictionary_2_t7093;
+struct Dictionary_2_t7095;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m45445(__this, ___object, ___method, method) (( void (*) (Func_2_t7091 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m45460(__this, ___object, ___method, method) (( void (*) (Func_2_t7093 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7225_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>::Invoke(T)
-#define Func_2_Invoke_m45446(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7091 *, Dictionary_2_t7093 *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m45461(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7093 *, Dictionary_2_t7095 *, const MethodInfo*))Func_2_Invoke_m30058_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m45447(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7091 *, Dictionary_2_t7093 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m45462(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7093 *, Dictionary_2_t7095 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30060_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m45448(__this, ___result, method) (( Object_t * (*) (Func_2_t7091 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m45463(__this, ___result, method) (( Object_t * (*) (Func_2_t7093 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30062_gshared)(__this, ___result, method)

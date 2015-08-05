@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.EndPoint
-struct EndPoint_t3948;
+struct EndPoint_t3950;
 // System.Net.SocketAddress
-struct SocketAddress_t4021;
+struct SocketAddress_t4023;
 // System.Exception
 struct Exception_t57;
 // System.Net.Sockets.AddressFamily
 #include "System_System_Net_Sockets_AddressFamily.h"
 
 // System.Void System.Net.EndPoint::.ctor()
-extern "C" void EndPoint__ctor_m13537 (EndPoint_t3948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EndPoint__ctor_m13552 (EndPoint_t3950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.AddressFamily System.Net.EndPoint::get_AddressFamily()
-extern "C" int32_t EndPoint_get_AddressFamily_m13538 (EndPoint_t3948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EndPoint_get_AddressFamily_m13553 (EndPoint_t3950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.EndPoint System.Net.EndPoint::Create(System.Net.SocketAddress)
-extern "C" EndPoint_t3948 * EndPoint_Create_m13539 (EndPoint_t3948 * __this, SocketAddress_t4021 * ___address, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" EndPoint_t3950 * EndPoint_Create_m13554 (EndPoint_t3950 * __this, SocketAddress_t4023 * ___address, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.SocketAddress System.Net.EndPoint::Serialize()
-extern "C" SocketAddress_t4021 * EndPoint_Serialize_m13540 (EndPoint_t3948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SocketAddress_t4023 * EndPoint_Serialize_m13555 (EndPoint_t3950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Net.EndPoint::NotImplemented()
-extern "C" Exception_t57 * EndPoint_NotImplemented_m13541 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * EndPoint_NotImplemented_m13556 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

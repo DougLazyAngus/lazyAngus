@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t629;
+struct EventHandlerFunction_t631;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnionAssets.FLE.EventHandlerFunction::.ctor(System.Object,System.IntPtr)
-extern "C" void EventHandlerFunction__ctor_m3397 (EventHandlerFunction_t629 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventHandlerFunction__ctor_m3412 (EventHandlerFunction_t631 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventHandlerFunction::Invoke()
-extern "C" void EventHandlerFunction_Invoke_m3398 (EventHandlerFunction_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_EventHandlerFunction_t629(Il2CppObject* delegate);
+extern "C" void EventHandlerFunction_Invoke_m3413 (EventHandlerFunction_t631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_EventHandlerFunction_t631(Il2CppObject* delegate);
 // System.IAsyncResult UnionAssets.FLE.EventHandlerFunction::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * EventHandlerFunction_BeginInvoke_m3399 (EventHandlerFunction_t629 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EventHandlerFunction_BeginInvoke_m3414 (EventHandlerFunction_t631 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventHandlerFunction::EndInvoke(System.IAsyncResult)
-extern "C" void EventHandlerFunction_EndInvoke_m3400 (EventHandlerFunction_t629 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventHandlerFunction_EndInvoke_m3415 (EventHandlerFunction_t631 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

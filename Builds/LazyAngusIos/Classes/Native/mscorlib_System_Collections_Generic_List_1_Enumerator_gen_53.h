@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct List_1_t1208;
+struct List_1_t1210;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
-struct IDictionary_2_t1199;
+struct IDictionary_2_t1201;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct  Enumerator_t6194 
+struct  Enumerator_t6196 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::l
-	List_1_t1208 * ___l_0;
+	List_1_t1210 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::ver

@@ -95,10 +95,12 @@ public class MouseMove : MonoBehaviour
 
 	void OnGamePhaseChanged ()
 	{
+		/*
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY && 
 		    GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
 			Object.Destroy (gameObject);
 		}
+		*/
 	}
 
 	public void OnFartedUpon ()

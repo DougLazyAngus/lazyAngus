@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Collider2D
-struct Collider2D_t577;
+struct Collider2D_t579;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.RaycastHit2D
-struct  RaycastHit2D_t999 
+struct  RaycastHit2D_t1001 
 {
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
 	Vector2_t110  ___m_Centroid_0;
@@ -20,5 +20,5 @@ struct  RaycastHit2D_t999
 	// System.Single UnityEngine.RaycastHit2D::m_Fraction
 	float ___m_Fraction_4;
 	// UnityEngine.Collider2D UnityEngine.RaycastHit2D::m_Collider
-	Collider2D_t577 * ___m_Collider_5;
+	Collider2D_t579 * ___m_Collider_5;
 };

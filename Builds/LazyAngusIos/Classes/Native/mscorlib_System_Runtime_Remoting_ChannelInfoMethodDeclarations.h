@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.ChannelInfo
-struct ChannelInfo_t4545;
+struct ChannelInfo_t4547;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t638;
 
 // System.Void System.Runtime.Remoting.ChannelInfo::.ctor()
-extern "C" void ChannelInfo__ctor_m17926 (ChannelInfo_t4545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChannelInfo__ctor_m17941 (ChannelInfo_t4547 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.ChannelInfo::get_ChannelData()
-extern "C" ObjectU5BU5D_t636* ChannelInfo_get_ChannelData_m17927 (ChannelInfo_t4545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t638* ChannelInfo_get_ChannelData_m17942 (ChannelInfo_t4547 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

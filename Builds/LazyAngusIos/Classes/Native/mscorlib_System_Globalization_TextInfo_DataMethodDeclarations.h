@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.TextInfo/Data
-struct Data_t4430;
+struct Data_t4432;
 

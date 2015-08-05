@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.UInt16>
-struct IDictionary_2_t7140;
+struct IDictionary_2_t7142;
 // System.Func`2<System.UInt16,System.UInt64>
-struct Func_2_t6642;
+struct Func_2_t6644;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>
-struct Func_2_t7712;
+struct Func_2_t7714;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2<System.UInt64,System.UInt16>
-struct  FlexibleDictionaryWrapper_2_t1921  : public Object_t
+struct  FlexibleDictionaryWrapper_2_t1923  : public Object_t
 {
 	// System.Collections.Generic.IDictionary`2<System.String,TIn> Parse.Internal.FlexibleDictionaryWrapper`2<System.UInt64,System.UInt16>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleDictionaryWrapper_2_t1921_StaticFields{
+struct FlexibleDictionaryWrapper_2_t1923_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.UInt64,System.UInt16>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t6642 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6644 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,TIn>,System.Collections.Generic.KeyValuePair`2<System.String,TOut>> Parse.Internal.FlexibleDictionaryWrapper`2<System.UInt64,System.UInt16>::CS$<>9__CachedAnonymousMethodDelegate3
-	Func_2_t7712 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
+	Func_2_t7714 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
 };

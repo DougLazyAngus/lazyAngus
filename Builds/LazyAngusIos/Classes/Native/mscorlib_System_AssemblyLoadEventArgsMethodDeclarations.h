@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.AssemblyLoadEventArgs
-struct AssemblyLoadEventArgs_t4741;
+struct AssemblyLoadEventArgs_t4743;
 

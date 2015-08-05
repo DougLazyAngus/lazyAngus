@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdDuration
 #include "System_Xml_Mono_Xml_Schema_XsdDuration.h"
 // Mono.Xml.Schema.XdtDayTimeDuration
-struct  XdtDayTimeDuration_t3089  : public XsdDuration_t3088
+struct  XdtDayTimeDuration_t3091  : public XsdDuration_t3090
 {
 };

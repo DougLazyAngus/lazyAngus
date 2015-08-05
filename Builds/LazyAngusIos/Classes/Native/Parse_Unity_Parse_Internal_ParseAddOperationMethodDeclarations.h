@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.ParseAddOperation
-struct ParseAddOperation_t1133;
+struct ParseAddOperation_t1135;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t660;
+struct IEnumerable_1_t662;
 // System.Object
 struct Object_t;
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1325;
+struct IParseFieldOperation_t1327;
 // Parse.ParseObject
-struct ParseObject_t1168;
+struct ParseObject_t1170;
 // System.String
 struct String_t;
 
 // System.Void Parse.Internal.ParseAddOperation::.ctor(System.Collections.Generic.IEnumerable`1<System.Object>)
-extern "C" void ParseAddOperation__ctor_m6200 (ParseAddOperation_t1133 * __this, Object_t* ___objects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseAddOperation__ctor_m6215 (ParseAddOperation_t1135 * __this, Object_t* ___objects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseAddOperation::Encode()
-extern "C" Object_t * ParseAddOperation_Encode_m6201 (ParseAddOperation_t1133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_Encode_m6216 (ParseAddOperation_t1135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.Internal.IParseFieldOperation Parse.Internal.ParseAddOperation::MergeWithPrevious(Parse.Internal.IParseFieldOperation)
-extern "C" Object_t * ParseAddOperation_MergeWithPrevious_m6202 (ParseAddOperation_t1133 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_MergeWithPrevious_m6217 (ParseAddOperation_t1135 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseAddOperation::Apply(System.Object,Parse.ParseObject,System.String)
-extern "C" Object_t * ParseAddOperation_Apply_m6203 (ParseAddOperation_t1133 * __this, Object_t * ___oldValue, ParseObject_t1168 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_Apply_m6218 (ParseAddOperation_t1135 * __this, Object_t * ___oldValue, ParseObject_t1170 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Object> Parse.Internal.ParseAddOperation::get_Objects()
-extern "C" Object_t* ParseAddOperation_get_Objects_m6204 (ParseAddOperation_t1133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParseAddOperation_get_Objects_m6219 (ParseAddOperation_t1135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

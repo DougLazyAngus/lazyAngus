@@ -3,7 +3,7 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Collider2D
-struct Collider2D_t577;
+struct Collider2D_t579;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.MonoBehaviour
@@ -13,10 +13,10 @@ struct Transform_t406;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController
-struct  PawController_t491  : public MonoBehaviour_t13
+struct  PawController_t492  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 PawController::swipeLocationCat
-	Vector3_t495  ___swipeLocationCat_2;
+	Vector3_t496  ___swipeLocationCat_2;
 	// PawController/SwipePhase PawController::swipePhase
 	int32_t ___swipePhase_3;
 	// System.Single PawController::pauseStarted
@@ -30,9 +30,9 @@ struct  PawController_t491  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PawController::bigDangerPawArtGameObject
 	GameObject_t352 * ___bigDangerPawArtGameObject_8;
 	// UnityEngine.Collider2D PawController::normalCollider
-	Collider2D_t577 * ___normalCollider_9;
+	Collider2D_t579 * ___normalCollider_9;
 	// UnityEngine.Collider2D PawController::bigCollider
-	Collider2D_t577 * ___bigCollider_10;
+	Collider2D_t579 * ___bigCollider_10;
 	// System.Single PawController::swipeSpeed
 	float ___swipeSpeed_11;
 	// System.Int32 PawController::killsThisSwipe

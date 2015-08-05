@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Action`1<UnityEngine.SocialPlatforms.IScore[]>
-struct Action_1_t2642;
+struct Action_1_t2644;
 // System.Object
 struct Object_t;
 // UnityEngine.SocialPlatforms.IScore[]
-struct IScoreU5BU5D_t2811;
+struct IScoreU5BU5D_t2813;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m59331(__this, ___object, ___method, method) (( void (*) (Action_1_t2642 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22975_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m59346(__this, ___object, ___method, method) (( void (*) (Action_1_t2644 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22990_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::Invoke(T)
-#define Action_1_Invoke_m59332(__this, ___obj, method) (( void (*) (Action_1_t2642 *, IScoreU5BU5D_t2811*, const MethodInfo*))Action_1_Invoke_m22977_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m59347(__this, ___obj, method) (( void (*) (Action_1_t2644 *, IScoreU5BU5D_t2813*, const MethodInfo*))Action_1_Invoke_m22992_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m59333(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t2642 *, IScoreU5BU5D_t2811*, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22979_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m59348(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t2644 *, IScoreU5BU5D_t2813*, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22994_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m59334(__this, ___result, method) (( void (*) (Action_1_t2642 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22981_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m59349(__this, ___result, method) (( void (*) (Action_1_t2644 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22996_gshared)(__this, ___result, method)

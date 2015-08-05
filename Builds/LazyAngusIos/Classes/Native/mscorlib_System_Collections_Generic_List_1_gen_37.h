@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t5844;
+struct RectTransformU5BU5D_t5846;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct  List_1_t945  : public Object_t
+struct  List_1_t947  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
-	RectTransformU5BU5D_t5844* ____items_1;
+	RectTransformU5BU5D_t5846* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
 	int32_t ____version_3;
 };
-struct List_1_t945_StaticFields{
+struct List_1_t947_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
-	RectTransformU5BU5D_t5844* ___EmptyArray_4;
+	RectTransformU5BU5D_t5846* ___EmptyArray_4;
 };

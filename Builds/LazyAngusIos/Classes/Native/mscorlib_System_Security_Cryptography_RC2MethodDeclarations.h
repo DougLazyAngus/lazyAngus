@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RC2
-struct RC2_t3883;
+struct RC2_t3885;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.RC2::.ctor()
-extern "C" void RC2__ctor_m18439 (RC2_t3883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2__ctor_m18454 (RC2_t3885 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RC2 System.Security.Cryptography.RC2::Create()
-extern "C" RC2_t3883 * RC2_Create_m12926 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RC2_t3885 * RC2_Create_m12941 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RC2 System.Security.Cryptography.RC2::Create(System.String)
-extern "C" RC2_t3883 * RC2_Create_m18440 (Object_t * __this /* static, unused */, String_t* ___AlgName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RC2_t3885 * RC2_Create_m18455 (Object_t * __this /* static, unused */, String_t* ___AlgName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RC2::get_EffectiveKeySize()
-extern "C" int32_t RC2_get_EffectiveKeySize_m18441 (RC2_t3883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RC2_get_EffectiveKeySize_m18456 (RC2_t3885 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RC2::get_KeySize()
-extern "C" int32_t RC2_get_KeySize_m18442 (RC2_t3883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RC2_get_KeySize_m18457 (RC2_t3885 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RC2::set_KeySize(System.Int32)
-extern "C" void RC2_set_KeySize_m18443 (RC2_t3883 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2_set_KeySize_m18458 (RC2_t3885 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

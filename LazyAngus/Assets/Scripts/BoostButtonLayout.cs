@@ -20,14 +20,20 @@ public class BoostButtonLayout : MonoBehaviour {
 	
 	public void ConfirmLayoutComplete() {
 		if (boostButtons == null) {
-			Debug.Log("01.001  " + Time.realtimeSinceStartup);
-			AddBoostButtons ();
-			Debug.Log("01.002  " + Time.realtimeSinceStartup);
-			LayoutBoostButtons ();
-			Debug.Log("01.003  " + Time.realtimeSinceStartup);
-			RefreshBoostButtons ();
-			Debug.Log("01.004  " + Time.realtimeSinceStartup);
+			// StartCoroutine (DelayThenLayout ());
+			DoLayout();
 		}
+	}
+
+	IEnumerator DelayThenLayout() {
+		yield return new WaitForSeconds (0f);
+		DoLayout ();
+	}
+
+	void DoLayout() {
+		AddBoostButtons ();
+		LayoutBoostButtons ();
+		RefreshBoostButtons ();
 	}
 
 	void AddBoostButtons() {

@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNodeList
-struct XmlNodeList_t3194;
+struct XmlNodeList_t3196;
 // System.Xml.XmlNode
-struct XmlNode_t668;
+struct XmlNode_t670;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 
 // System.Void System.Xml.XmlNodeList::.ctor()
-extern "C" void XmlNodeList__ctor_m10818 (XmlNodeList_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNodeList__ctor_m10833 (XmlNodeList_t3196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlNodeList::get_Count()
 // System.Xml.XmlNode System.Xml.XmlNodeList::get_ItemOf(System.Int32)
-extern "C" XmlNode_t668 * XmlNodeList_get_ItemOf_m10819 (XmlNodeList_t3194 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t670 * XmlNodeList_get_ItemOf_m10834 (XmlNodeList_t3196 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Xml.XmlNodeList::GetEnumerator()
 // System.Xml.XmlNode System.Xml.XmlNodeList::Item(System.Int32)

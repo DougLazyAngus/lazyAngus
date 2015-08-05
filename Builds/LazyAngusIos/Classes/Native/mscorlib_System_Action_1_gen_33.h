@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.Expressions.Expression
-struct Expression_t1469;
+struct Expression_t1471;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<System.Linq.Expressions.Expression>
-struct  Action_1_t3325  : public MulticastDelegate_t388
+struct  Action_1_t3327  : public MulticastDelegate_t388
 {
 };

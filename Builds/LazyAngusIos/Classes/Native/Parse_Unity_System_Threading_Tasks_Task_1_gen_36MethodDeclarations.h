@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>
-struct Task_1_t6202;
+struct Task_1_t6204;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>
-struct IEnumerable_1_t6203;
+struct IEnumerable_1_t6205;
 // System.Threading.Tasks.Task
-struct Task_t1157;
+struct Task_t1159;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>>
-struct Action_1_t9085;
+struct Action_1_t9087;
 // System.AggregateException
-struct AggregateException_t1287;
+struct AggregateException_t1289;
 
 // System.Void System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::.ctor()
 // System.Threading.Tasks.Task`1<System.Object>
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
-#define Task_1__ctor_m33909(__this, method) (( void (*) (Task_1_t6202 *, const MethodInfo*))Task_1__ctor_m29853_gshared)(__this, method)
+#define Task_1__ctor_m33924(__this, method) (( void (*) (Task_1_t6204 *, const MethodInfo*))Task_1__ctor_m29868_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::get_Result()
-#define Task_1_get_Result_m33910(__this, method) (( Object_t* (*) (Task_1_t6202 *, const MethodInfo*))Task_1_get_Result_m29854_gshared)(__this, method)
+#define Task_1_get_Result_m33925(__this, method) (( Object_t* (*) (Task_1_t6204 *, const MethodInfo*))Task_1_get_Result_m29869_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-#define Task_1_ContinueWith_m33911(__this, ___continuation, method) (( Task_t1157 * (*) (Task_1_t6202 *, Action_1_t9085 *, const MethodInfo*))Task_1_ContinueWith_m29856_gshared)(__this, ___continuation, method)
+#define Task_1_ContinueWith_m33926(__this, ___continuation, method) (( Task_t1159 * (*) (Task_1_t6204 *, Action_1_t9087 *, const MethodInfo*))Task_1_ContinueWith_m29871_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::RunContinuations()
-#define Task_1_RunContinuations_m33912(__this, method) (( void (*) (Task_1_t6202 *, const MethodInfo*))Task_1_RunContinuations_m29858_gshared)(__this, method)
+#define Task_1_RunContinuations_m33927(__this, method) (( void (*) (Task_1_t6204 *, const MethodInfo*))Task_1_RunContinuations_m29873_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::TrySetResult(T)
-#define Task_1_TrySetResult_m33913(__this, ___result, method) (( bool (*) (Task_1_t6202 *, Object_t*, const MethodInfo*))Task_1_TrySetResult_m29860_gshared)(__this, ___result, method)
+#define Task_1_TrySetResult_m33928(__this, ___result, method) (( bool (*) (Task_1_t6204 *, Object_t*, const MethodInfo*))Task_1_TrySetResult_m29875_gshared)(__this, ___result, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::TrySetCanceled()
-#define Task_1_TrySetCanceled_m33914(__this, method) (( bool (*) (Task_1_t6202 *, const MethodInfo*))Task_1_TrySetCanceled_m29862_gshared)(__this, method)
+#define Task_1_TrySetCanceled_m33929(__this, method) (( bool (*) (Task_1_t6204 *, const MethodInfo*))Task_1_TrySetCanceled_m29877_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseInstallation>>::TrySetException(System.AggregateException)
-#define Task_1_TrySetException_m33915(__this, ___exception, method) (( bool (*) (Task_1_t6202 *, AggregateException_t1287 *, const MethodInfo*))Task_1_TrySetException_m29864_gshared)(__this, ___exception, method)
+#define Task_1_TrySetException_m33930(__this, ___exception, method) (( bool (*) (Task_1_t6204 *, AggregateException_t1289 *, const MethodInfo*))Task_1_TrySetException_m29879_gshared)(__this, ___exception, method)

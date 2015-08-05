@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Image/Type
-struct Type_t868;
+struct Type_t870;
 
