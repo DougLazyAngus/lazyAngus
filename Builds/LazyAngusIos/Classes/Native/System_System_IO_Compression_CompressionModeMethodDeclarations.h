@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Compression.CompressionMode
-struct CompressionMode_t3929;
+struct CompressionMode_t3928;
 

@@ -5,12 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ResourceRequest
-struct ResourceRequest_t2691;
+struct ResourceRequest_t2690;
 // UnityEngine.Object
-struct Object_t654;
-struct Object_t654_marshaled;
+struct Object_t653;
+struct Object_t653_marshaled;
 
 // System.Void UnityEngine.ResourceRequest::.ctor()
-extern "C" void ResourceRequest__ctor_m8998 (ResourceRequest_t2691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceRequest__ctor_m8993 (ResourceRequest_t2690 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.ResourceRequest::get_asset()
-extern "C" Object_t654 * ResourceRequest_get_asset_m8999 (ResourceRequest_t2691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t653 * ResourceRequest_get_asset_m8994 (ResourceRequest_t2690 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

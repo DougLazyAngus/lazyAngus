@@ -5,7 +5,7 @@ struct IEnumerator_t48;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
-struct  X509ExtensionEnumerator_t4059  : public Object_t
+struct  X509ExtensionEnumerator_t4058  : public Object_t
 {
 	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::enumerator
 	Object_t * ___enumerator_0;

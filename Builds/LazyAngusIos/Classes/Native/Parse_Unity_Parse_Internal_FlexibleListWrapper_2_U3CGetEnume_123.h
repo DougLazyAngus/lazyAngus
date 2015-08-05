@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.Internal.FlexibleListWrapper`2<Parse.ParseGeoPoint,System.Object>
-struct FlexibleListWrapper_2_t1688;
+struct FlexibleListWrapper_2_t1687;
 // System.Object
 struct Object_t;
 // System.Collections.IEnumerator
@@ -13,14 +13,14 @@ struct IDisposable_t58;
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 // Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>
-struct  U3CGetEnumeratorU3Ed__2_t6800  : public Object_t
+struct  U3CGetEnumeratorU3Ed__2_t6799  : public Object_t
 {
 	// TOut Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<>2__current
-	ParseGeoPoint_t1196  ___U3CU3E2__current_0;
+	ParseGeoPoint_t1195  ___U3CU3E2__current_0;
 	// System.Int32 Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<>1__state
 	int32_t ___U3CU3E1__state_1;
 	// Parse.Internal.FlexibleListWrapper`2<TOut,TIn> Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<>4__this
-	FlexibleListWrapper_2_t1688 * ___U3CU3E4__this_2;
+	FlexibleListWrapper_2_t1687 * ___U3CU3E4__this_2;
 	// System.Object Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<item>5__3
 	Object_t * ___U3CitemU3E5__3_3;
 	// System.Collections.IEnumerator Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<>7__wrap4

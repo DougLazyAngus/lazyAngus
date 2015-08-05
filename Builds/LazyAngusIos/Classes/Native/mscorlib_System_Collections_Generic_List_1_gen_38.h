@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Type,System.Type>[]
-struct Tuple_2U5BU5D_t5999;
+struct Tuple_2U5BU5D_t5998;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Tuple`2<System.Type,System.Type>>
-struct  List_1_t1393  : public Object_t
+struct  List_1_t1392  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Type,System.Type>>::_items
-	Tuple_2U5BU5D_t5999* ____items_1;
+	Tuple_2U5BU5D_t5998* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Type,System.Type>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Type,System.Type>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1393_StaticFields{
+struct List_1_t1392_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Type,System.Type>>::EmptyArray
-	Tuple_2U5BU5D_t5999* ___EmptyArray_4;
+	Tuple_2U5BU5D_t5998* ___EmptyArray_4;
 };

@@ -5,18 +5,18 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t4110;
+struct Expression_t4109;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4145;
+struct ICompiler_t4144;
 // System.Text.RegularExpressions.Syntax.AnchorInfo
-struct AnchorInfo_t4128;
+struct AnchorInfo_t4127;
 
 // System.Void System.Text.RegularExpressions.Syntax.Expression::.ctor()
-extern "C" void Expression__ctor_m14609 (Expression_t4110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Expression__ctor_m14604 (Expression_t4109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
 // System.Void System.Text.RegularExpressions.Syntax.Expression::GetWidth(System.Int32&,System.Int32&)
 // System.Int32 System.Text.RegularExpressions.Syntax.Expression::GetFixedWidth()
-extern "C" int32_t Expression_GetFixedWidth_m14610 (Expression_t4110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Expression_GetFixedWidth_m14605 (Expression_t4109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean)
-extern "C" AnchorInfo_t4128 * Expression_GetAnchorInfo_m14611 (Expression_t4110 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AnchorInfo_t4127 * Expression_GetAnchorInfo_m14606 (Expression_t4109 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex()

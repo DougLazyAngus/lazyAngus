@@ -5,55 +5,55 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t1226;
+struct ReaderWriterLockSlim_t1225;
 // System.Threading.EventWaitHandle
-struct EventWaitHandle_t3305;
+struct EventWaitHandle_t3304;
 // System.Threading.ReaderWriterLockSlim/LockDetails
-struct LockDetails_t3304;
+struct LockDetails_t3303;
 
 // System.Void System.Threading.ReaderWriterLockSlim::.ctor()
-extern "C" void ReaderWriterLockSlim__ctor_m7381 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim__ctor_m7376 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::.cctor()
-extern "C" void ReaderWriterLockSlim__cctor_m11494 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim__cctor_m11489 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::EnterReadLock()
-extern "C" void ReaderWriterLockSlim_EnterReadLock_m7368 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_EnterReadLock_m7363 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::TryEnterReadLock(System.Int32)
-extern "C" bool ReaderWriterLockSlim_TryEnterReadLock_m11495 (ReaderWriterLockSlim_t1226 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_TryEnterReadLock_m11490 (ReaderWriterLockSlim_t1225 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::ExitReadLock()
-extern "C" void ReaderWriterLockSlim_ExitReadLock_m7369 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_ExitReadLock_m7364 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::EnterWriteLock()
-extern "C" void ReaderWriterLockSlim_EnterWriteLock_m7371 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_EnterWriteLock_m7366 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::TryEnterWriteLock(System.Int32)
-extern "C" bool ReaderWriterLockSlim_TryEnterWriteLock_m11496 (ReaderWriterLockSlim_t1226 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_TryEnterWriteLock_m11491 (ReaderWriterLockSlim_t1225 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::ExitWriteLock()
-extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7372 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7367 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::EnterUpgradeableReadLock()
-extern "C" void ReaderWriterLockSlim_EnterUpgradeableReadLock_m7370 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_EnterUpgradeableReadLock_m7365 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::TryEnterUpgradeableReadLock(System.Int32)
-extern "C" bool ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11497 (ReaderWriterLockSlim_t1226 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11492 (ReaderWriterLockSlim_t1225 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::ExitUpgradeableReadLock()
-extern "C" void ReaderWriterLockSlim_ExitUpgradeableReadLock_m7373 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_ExitUpgradeableReadLock_m7368 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::Dispose()
-extern "C" void ReaderWriterLockSlim_Dispose_m11498 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_Dispose_m11493 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::get_IsWriteLockHeld()
-extern "C" bool ReaderWriterLockSlim_get_IsWriteLockHeld_m7529 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_get_IsWriteLockHeld_m7524 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld()
-extern "C" bool ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11499 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11494 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.ReaderWriterLockSlim::get_RecursiveUpgradeCount()
-extern "C" int32_t ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11500 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11495 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.ReaderWriterLockSlim::get_RecursiveWriteCount()
-extern "C" int32_t ReaderWriterLockSlim_get_RecursiveWriteCount_m11501 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ReaderWriterLockSlim_get_RecursiveWriteCount_m11496 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::EnterMyLock()
-extern "C" void ReaderWriterLockSlim_EnterMyLock_m11502 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_EnterMyLock_m11497 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::EnterMyLockSpin()
-extern "C" void ReaderWriterLockSlim_EnterMyLockSpin_m11503 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_EnterMyLockSpin_m11498 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::ExitMyLock()
-extern "C" void ReaderWriterLockSlim_ExitMyLock_m11504 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_ExitMyLock_m11499 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters()
-extern "C" void ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11505 (ReaderWriterLockSlim_t1226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11500 (ReaderWriterLockSlim_t1225 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ReaderWriterLockSlim::LazyCreateEvent(System.Threading.EventWaitHandle&,System.Boolean)
-extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11506 (ReaderWriterLockSlim_t1226 * __this, EventWaitHandle_t3305 ** ___waitEvent, bool ___makeAutoResetEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11501 (ReaderWriterLockSlim_t1225 * __this, EventWaitHandle_t3304 ** ___waitEvent, bool ___makeAutoResetEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ReaderWriterLockSlim::WaitOnEvent(System.Threading.EventWaitHandle,System.UInt32&,System.Int32)
-extern "C" bool ReaderWriterLockSlim_WaitOnEvent_m11507 (ReaderWriterLockSlim_t1226 * __this, EventWaitHandle_t3305 * ___waitEvent, uint32_t* ___numWaiters, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReaderWriterLockSlim_WaitOnEvent_m11502 (ReaderWriterLockSlim_t1225 * __this, EventWaitHandle_t3304 * ___waitEvent, uint32_t* ___numWaiters, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.ReaderWriterLockSlim/LockDetails System.Threading.ReaderWriterLockSlim::GetReadLockDetails(System.Int32,System.Boolean)
-extern "C" LockDetails_t3304 * ReaderWriterLockSlim_GetReadLockDetails_m11508 (ReaderWriterLockSlim_t1226 * __this, int32_t ___threadId, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" LockDetails_t3303 * ReaderWriterLockSlim_GetReadLockDetails_m11503 (ReaderWriterLockSlim_t1225 * __this, int32_t ___threadId, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;

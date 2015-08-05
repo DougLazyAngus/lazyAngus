@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DictionaryBase
-struct DictionaryBase_t3137;
+struct DictionaryBase_t3136;
 // System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode>
-struct IEnumerable_1_t3246;
+struct IEnumerable_1_t3245;
 
 // System.Void Mono.Xml.DictionaryBase::.ctor()
-extern "C" void DictionaryBase__ctor_m10329 (DictionaryBase_t3137 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryBase__ctor_m10324 (DictionaryBase_t3136 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase::get_Values()
-extern "C" Object_t* DictionaryBase_get_Values_m10330 (DictionaryBase_t3137 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* DictionaryBase_get_Values_m10325 (DictionaryBase_t3136 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

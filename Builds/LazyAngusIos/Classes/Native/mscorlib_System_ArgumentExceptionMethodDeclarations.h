@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ArgumentException
-struct ArgumentException_t663;
+struct ArgumentException_t662;
 // System.String
 struct String_t;
 // System.Exception
 struct Exception_t57;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2871;
+struct SerializationInfo_t2870;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ArgumentException::.ctor()
-extern "C" void ArgumentException__ctor_m11237 (ArgumentException_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m11232 (ArgumentException_t662 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String)
-extern "C" void ArgumentException__ctor_m3841 (ArgumentException_t663 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m3837 (ArgumentException_t662 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String,System.Exception)
-extern "C" void ArgumentException__ctor_m14919 (ArgumentException_t663 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m14914 (ArgumentException_t662 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
-extern "C" void ArgumentException__ctor_m3486 (ArgumentException_t663 * __this, String_t* ___message, String_t* ___paramName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m3482 (ArgumentException_t662 * __this, String_t* ___message, String_t* ___paramName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String,System.String,System.Exception)
-extern "C" void ArgumentException__ctor_m19106 (ArgumentException_t663 * __this, String_t* ___message, String_t* ___paramName, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m19101 (ArgumentException_t662 * __this, String_t* ___message, String_t* ___paramName, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArgumentException__ctor_m19107 (ArgumentException_t663 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException__ctor_m19102 (ArgumentException_t662 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ArgumentException::get_ParamName()
-extern "C" String_t* ArgumentException_get_ParamName_m19108 (ArgumentException_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ArgumentException_get_ParamName_m19103 (ArgumentException_t662 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ArgumentException::get_Message()
-extern "C" String_t* ArgumentException_get_Message_m19109 (ArgumentException_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ArgumentException_get_Message_m19104 (ArgumentException_t662 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArgumentException_GetObjectData_m19110 (ArgumentException_t663 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentException_GetObjectData_m19105 (ArgumentException_t662 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

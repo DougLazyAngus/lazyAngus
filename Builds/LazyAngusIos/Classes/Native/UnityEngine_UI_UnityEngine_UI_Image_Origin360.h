@@ -5,7 +5,7 @@
 // UnityEngine.UI.Image/Origin360
 #include "UnityEngine_UI_UnityEngine_UI_Image_Origin360.h"
 // UnityEngine.UI.Image/Origin360
-struct  Origin360_t875 
+struct  Origin360_t874 
 {
 	// System.Int32 UnityEngine.UI.Image/Origin360::value__
 	int32_t ___value___1;

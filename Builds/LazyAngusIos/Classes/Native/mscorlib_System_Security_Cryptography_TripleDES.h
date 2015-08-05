@@ -3,6 +3,6 @@
 // System.Security.Cryptography.SymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 // System.Security.Cryptography.TripleDES
-struct  TripleDES_t3886  : public SymmetricAlgorithm_t3756
+struct  TripleDES_t3885  : public SymmetricAlgorithm_t3755
 {
 };

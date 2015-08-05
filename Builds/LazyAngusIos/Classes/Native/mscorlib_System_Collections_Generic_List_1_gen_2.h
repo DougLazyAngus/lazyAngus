@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // AN_PropertyTemplate[]
-struct AN_PropertyTemplateU5BU5D_t5421;
+struct AN_PropertyTemplateU5BU5D_t5420;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<AN_PropertyTemplate>
 struct  List_1_t123  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<AN_PropertyTemplate>::_items
-	AN_PropertyTemplateU5BU5D_t5421* ____items_1;
+	AN_PropertyTemplateU5BU5D_t5420* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::_version
@@ -16,5 +16,5 @@ struct  List_1_t123  : public Object_t
 };
 struct List_1_t123_StaticFields{
 	// T[] System.Collections.Generic.List`1<AN_PropertyTemplate>::EmptyArray
-	AN_PropertyTemplateU5BU5D_t5421* ___EmptyArray_4;
+	AN_PropertyTemplateU5BU5D_t5420* ___EmptyArray_4;
 };

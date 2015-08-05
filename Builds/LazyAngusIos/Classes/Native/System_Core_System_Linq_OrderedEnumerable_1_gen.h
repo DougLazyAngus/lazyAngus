@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t661;
+struct IEnumerable_1_t660;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.OrderedEnumerable`1<System.Object>
-struct  OrderedEnumerable_1_t5991  : public Object_t
+struct  OrderedEnumerable_1_t5990  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1<System.Object>::source
 	Object_t* ___source_0;

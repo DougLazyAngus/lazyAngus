@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.SynchronizedReader
-struct SynchronizedReader_t4456;
+struct SynchronizedReader_t4455;
 // System.IO.TextReader
-struct TextReader_t3189;
+struct TextReader_t3188;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t662;
+struct CharU5BU5D_t661;
 
 // System.Void System.IO.SynchronizedReader::.ctor(System.IO.TextReader)
-extern "C" void SynchronizedReader__ctor_m17333 (SynchronizedReader_t4456 * __this, TextReader_t3189 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizedReader__ctor_m17328 (SynchronizedReader_t4455 * __this, TextReader_t3188 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.SynchronizedReader::Close()
-extern "C" void SynchronizedReader_Close_m17334 (SynchronizedReader_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizedReader_Close_m17329 (SynchronizedReader_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Peek()
-extern "C" int32_t SynchronizedReader_Peek_m17335 (SynchronizedReader_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Peek_m17330 (SynchronizedReader_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.SynchronizedReader::ReadLine()
-extern "C" String_t* SynchronizedReader_ReadLine_m17336 (SynchronizedReader_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SynchronizedReader_ReadLine_m17331 (SynchronizedReader_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.SynchronizedReader::ReadToEnd()
-extern "C" String_t* SynchronizedReader_ReadToEnd_m17337 (SynchronizedReader_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SynchronizedReader_ReadToEnd_m17332 (SynchronizedReader_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Read()
-extern "C" int32_t SynchronizedReader_Read_m17338 (SynchronizedReader_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Read_m17333 (SynchronizedReader_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t SynchronizedReader_Read_m17339 (SynchronizedReader_t4456 * __this, CharU5BU5D_t662* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SynchronizedReader_Read_m17334 (SynchronizedReader_t4455 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Hashtable/KeyMarker
-struct KeyMarker_t4397;
+struct KeyMarker_t4396;
 
 // System.Void System.Collections.Hashtable/KeyMarker::.ctor()
-extern "C" void KeyMarker__ctor_m16693 (KeyMarker_t4397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyMarker__ctor_m16688 (KeyMarker_t4396 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/KeyMarker::.cctor()
-extern "C" void KeyMarker__cctor_m16694 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyMarker__cctor_m16689 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

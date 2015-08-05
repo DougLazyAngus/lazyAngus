@@ -7,7 +7,7 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Globalization.DaylightTime
-struct  DaylightTime_t4428  : public Object_t
+struct  DaylightTime_t4427  : public Object_t
 {
 	// System.DateTime System.Globalization.DaylightTime::m_start
 	DateTime_t287  ___m_start_0;

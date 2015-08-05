@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.FtpWebRequest
-struct FtpWebRequest_t3995;
+struct FtpWebRequest_t3994;
 // System.IO.Stream
 struct Stream_t51;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.Net.FtpDataStream
-struct  FtpDataStream_t3996  : public Stream_t51
+struct  FtpDataStream_t3995  : public Stream_t51
 {
 	// System.Net.FtpWebRequest System.Net.FtpDataStream::request
-	FtpWebRequest_t3995 * ___request_1;
+	FtpWebRequest_t3994 * ___request_1;
 	// System.IO.Stream System.Net.FtpDataStream::networkStream
 	Stream_t51 * ___networkStream_2;
 	// System.Boolean System.Net.FtpDataStream::disposed

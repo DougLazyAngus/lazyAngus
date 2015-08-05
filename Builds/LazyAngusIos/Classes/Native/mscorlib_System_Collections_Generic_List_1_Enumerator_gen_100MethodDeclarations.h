@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>
-struct Enumerator_t8399;
+struct Enumerator_t8398;
 // System.Object
 struct Object_t;
 // UnityEngine.Networking.Match.MatchDesc
-struct MatchDesc_t2758;
+struct MatchDesc_t2757;
 // System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
-struct List_1_t2759;
+struct List_1_t2758;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m60787(__this, ___l, method) (( void (*) (Enumerator_t8399 *, List_1_t2759 *, const MethodInfo*))Enumerator__ctor_m21406_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m60782(__this, ___l, method) (( void (*) (Enumerator_t8398 *, List_1_t2758 *, const MethodInfo*))Enumerator__ctor_m21401_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m60788(__this, method) (( void (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21407_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m60783(__this, method) (( void (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21402_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m60789(__this, method) (( Object_t * (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21408_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m60784(__this, method) (( Object_t * (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21403_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::Dispose()
-#define Enumerator_Dispose_m60790(__this, method) (( void (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_Dispose_m21409_gshared)(__this, method)
+#define Enumerator_Dispose_m60785(__this, method) (( void (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_Dispose_m21404_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::VerifyState()
-#define Enumerator_VerifyState_m60791(__this, method) (( void (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_VerifyState_m21410_gshared)(__this, method)
+#define Enumerator_VerifyState_m60786(__this, method) (( void (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_VerifyState_m21405_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::MoveNext()
-#define Enumerator_MoveNext_m60792(__this, method) (( bool (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_MoveNext_m3643_gshared)(__this, method)
+#define Enumerator_MoveNext_m60787(__this, method) (( bool (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_MoveNext_m3639_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::get_Current()
-#define Enumerator_get_Current_m60793(__this, method) (( MatchDesc_t2758 * (*) (Enumerator_t8399 *, const MethodInfo*))Enumerator_get_Current_m3642_gshared)(__this, method)
+#define Enumerator_get_Current_m60788(__this, method) (( MatchDesc_t2757 * (*) (Enumerator_t8398 *, const MethodInfo*))Enumerator_get_Current_m3638_gshared)(__this, method)

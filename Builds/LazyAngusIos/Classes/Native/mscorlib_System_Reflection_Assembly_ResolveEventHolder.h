@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.Assembly/ResolveEventHolder
-struct  ResolveEventHolder_t4482  : public Object_t
+struct  ResolveEventHolder_t4481  : public Object_t
 {
 };

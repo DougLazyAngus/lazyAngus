@@ -5,7 +5,7 @@ struct Object_t;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Object>
-struct  Task_1_t1344  : public Task_t1159
+struct  Task_1_t1343  : public Task_t1158
 {
 	// T System.Threading.Tasks.Task`1<System.Object>::result
 	Object_t * ___result_9;

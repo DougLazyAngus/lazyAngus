@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera/CameraCallback
-struct CameraCallback_t2700;
+struct CameraCallback_t2699;
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.Camera
-struct  Camera_t532  : public Behaviour_t1036
+struct  Camera_t532  : public Behaviour_t1035
 {
 };
 struct Camera_t532_StaticFields{
 	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
-	CameraCallback_t2700 * ___onPreCull_2;
+	CameraCallback_t2699 * ___onPreCull_2;
 	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
-	CameraCallback_t2700 * ___onPreRender_3;
+	CameraCallback_t2699 * ___onPreRender_3;
 	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
-	CameraCallback_t2700 * ___onPostRender_4;
+	CameraCallback_t2699 * ___onPostRender_4;
 };

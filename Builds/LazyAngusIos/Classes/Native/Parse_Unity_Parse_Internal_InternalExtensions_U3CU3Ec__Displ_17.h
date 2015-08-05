@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Func`2<System.Threading.Tasks.Task,System.UInt32>
-struct Func_2_t8207;
+struct Func_2_t8206;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.UInt32>
-struct  U3CU3Ec__DisplayClass7_1_t8208  : public Object_t
+struct  U3CU3Ec__DisplayClass7_1_t8207  : public Object_t
 {
 	// System.Func`2<System.Threading.Tasks.Task,TResult> Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.UInt32>::continuation
-	Func_2_t8207 * ___continuation_0;
+	Func_2_t8206 * ___continuation_0;
 };

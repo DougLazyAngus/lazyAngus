@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Identity
-struct Identity_t4582;
+struct Identity_t4581;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t3046;
+struct IMessageSink_t3045;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t4588;
+struct ObjRef_t4587;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.Identity::.ctor(System.String)
-extern "C" void Identity__ctor_m18133 (Identity_t4582 * __this, String_t* ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Identity__ctor_m18128 (Identity_t4581 * __this, String_t* ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.Identity::CreateObjRef(System.Type)
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Identity::get_ChannelSink()
-extern "C" Object_t * Identity_get_ChannelSink_m18134 (Identity_t4582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Identity_get_ChannelSink_m18129 (Identity_t4581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Identity::set_ChannelSink(System.Runtime.Remoting.Messaging.IMessageSink)
-extern "C" void Identity_set_ChannelSink_m18135 (Identity_t4582 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Identity_set_ChannelSink_m18130 (Identity_t4581 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Identity::get_ObjectUri()
-extern "C" String_t* Identity_get_ObjectUri_m18136 (Identity_t4582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Identity_get_ObjectUri_m18131 (Identity_t4581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Identity::get_Disposed()
-extern "C" bool Identity_get_Disposed_m18137 (Identity_t4582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Identity_get_Disposed_m18132 (Identity_t4581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Identity::set_Disposed(System.Boolean)
-extern "C" void Identity_set_Disposed_m18138 (Identity_t4582 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Identity_set_Disposed_m18133 (Identity_t4581 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

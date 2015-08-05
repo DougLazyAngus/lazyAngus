@@ -3,6 +3,6 @@
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.EventSystems.BaseRaycaster
-struct  BaseRaycaster_t819  : public UIBehaviour_t788
+struct  BaseRaycaster_t818  : public UIBehaviour_t787
 {
 };

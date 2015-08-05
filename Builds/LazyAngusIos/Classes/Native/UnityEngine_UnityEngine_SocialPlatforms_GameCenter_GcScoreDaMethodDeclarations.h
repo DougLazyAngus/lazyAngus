@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.GameCenter.GcScoreData
-struct GcScoreData_t2799;
-struct GcScoreData_t2799_marshaled;
+struct GcScoreData_t2798;
+struct GcScoreData_t2798_marshaled;
 // UnityEngine.SocialPlatforms.Impl.Score
-struct Score_t2811;
+struct Score_t2810;
 
 // UnityEngine.SocialPlatforms.Impl.Score UnityEngine.SocialPlatforms.GameCenter.GcScoreData::ToScore()
-extern "C" Score_t2811 * GcScoreData_ToScore_m9627 (GcScoreData_t2799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void GcScoreData_t2799_marshal(const GcScoreData_t2799& unmarshaled, GcScoreData_t2799_marshaled& marshaled);
-void GcScoreData_t2799_marshal_back(const GcScoreData_t2799_marshaled& marshaled, GcScoreData_t2799& unmarshaled);
-void GcScoreData_t2799_marshal_cleanup(GcScoreData_t2799_marshaled& marshaled);
+extern "C" Score_t2810 * GcScoreData_ToScore_m9622 (GcScoreData_t2798 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void GcScoreData_t2798_marshal(const GcScoreData_t2798& unmarshaled, GcScoreData_t2798_marshaled& marshaled);
+void GcScoreData_t2798_marshal_back(const GcScoreData_t2798_marshaled& marshaled, GcScoreData_t2798& unmarshaled);
+void GcScoreData_t2798_marshal_cleanup(GcScoreData_t2798_marshaled& marshaled);

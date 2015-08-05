@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDAttributeDefinition
-struct DTDAttributeDefinition_t3146;
+struct DTDAttributeDefinition_t3145;
 // System.String
 struct String_t;
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3052;
+struct XmlSchemaDatatype_t3051;
 
 // System.String Mono.Xml.DTDAttributeDefinition::get_Name()
-extern "C" String_t* DTDAttributeDefinition_get_Name_m10374 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDAttributeDefinition_get_Name_m10369 (DTDAttributeDefinition_t3145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaDatatype Mono.Xml.DTDAttributeDefinition::get_Datatype()
-extern "C" XmlSchemaDatatype_t3052 * DTDAttributeDefinition_get_Datatype_m10375 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaDatatype_t3051 * DTDAttributeDefinition_get_Datatype_m10370 (DTDAttributeDefinition_t3145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDAttributeDefinition::get_DefaultValue()
-extern "C" String_t* DTDAttributeDefinition_get_DefaultValue_m10376 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDAttributeDefinition_get_DefaultValue_m10371 (DTDAttributeDefinition_t3145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDAttributeDefinition::get_UnresolvedDefaultValue()
-extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10377 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10372 (DTDAttributeDefinition_t3145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDAttributeDefinition::ComputeDefaultValue()
-extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10378 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10373 (DTDAttributeDefinition_t3145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -23,8 +23,8 @@ struct  LevelEndTitlesLayout_t551  : public MonoBehaviour_t13
 	bool ___registerdForEvents_6;
 	// DistortForEffect LevelEndTitlesLayout::distortForEffect
 	DistortForEffect_t495 * ___distortForEffect_7;
-	// System.Boolean LevelEndTitlesLayout::started
-	bool ___started_8;
 	// System.Boolean LevelEndTitlesLayout::waveDirty
-	bool ___waveDirty_9;
+	bool ___waveDirty_8;
+	// System.Boolean LevelEndTitlesLayout::started
+	bool ___started_9;
 };

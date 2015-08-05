@@ -3,7 +3,7 @@
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // System.Text.EncoderFallbackException
-struct  EncoderFallbackException_t4709  : public ArgumentException_t663
+struct  EncoderFallbackException_t4708  : public ArgumentException_t662
 {
 	// System.Char System.Text.EncoderFallbackException::char_unknown
 	uint16_t ___char_unknown_13;

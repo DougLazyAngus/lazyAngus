@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.InputField/CharacterValidation
-struct CharacterValidation_t880;
+struct CharacterValidation_t879;
 

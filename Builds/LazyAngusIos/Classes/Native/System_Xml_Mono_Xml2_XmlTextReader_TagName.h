@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // Mono.Xml2.XmlTextReader/TagName
-struct  TagName_t3219 
+struct  TagName_t3218 
 {
 	// System.String Mono.Xml2.XmlTextReader/TagName::Name
 	String_t* ___Name_0;
@@ -15,7 +15,7 @@ struct  TagName_t3219
 	String_t* ___Prefix_2;
 };
 // Native definition for marshalling of: Mono.Xml2.XmlTextReader/TagName
-struct TagName_t3219_marshaled
+struct TagName_t3218_marshaled
 {
 	char* ___Name_0;
 	char* ___LocalName_1;

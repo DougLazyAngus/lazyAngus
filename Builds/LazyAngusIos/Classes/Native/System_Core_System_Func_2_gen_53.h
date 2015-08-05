@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.AggregateException
-struct AggregateException_t1289;
+struct AggregateException_t1288;
 // System.Threading.Tasks.Task
-struct Task_t1159;
+struct Task_t1158;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Threading.Tasks.Task,System.AggregateException>
-struct  Func_2_t1296  : public MulticastDelegate_t388
+struct  Func_2_t1295  : public MulticastDelegate_t388
 {
 };

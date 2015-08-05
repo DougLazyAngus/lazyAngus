@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.SimpleCollator/Context
-struct Context_t4331;
-struct Context_t4331_marshaled;
+struct Context_t4330;
+struct Context_t4330_marshaled;
 // System.Globalization.CompareOptions
 #include "mscorlib_System_Globalization_CompareOptions.h"
 
 // System.Void Mono.Globalization.Unicode.SimpleCollator/Context::.ctor(System.Globalization.CompareOptions,System.Byte*,System.Byte*,System.Byte*,System.Byte*,System.Byte*,System.Boolean)
-extern "C" void Context__ctor_m16089 (Context_t4331 * __this, int32_t ___opt, uint8_t* ___alwaysMatchFlags, uint8_t* ___neverMatchFlags, uint8_t* ___buffer1, uint8_t* ___buffer2, uint8_t* ___prev1, bool ___quickCheckPossible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void Context_t4331_marshal(const Context_t4331& unmarshaled, Context_t4331_marshaled& marshaled);
-void Context_t4331_marshal_back(const Context_t4331_marshaled& marshaled, Context_t4331& unmarshaled);
-void Context_t4331_marshal_cleanup(Context_t4331_marshaled& marshaled);
+extern "C" void Context__ctor_m16084 (Context_t4330 * __this, int32_t ___opt, uint8_t* ___alwaysMatchFlags, uint8_t* ___neverMatchFlags, uint8_t* ___buffer1, uint8_t* ___buffer2, uint8_t* ___prev1, bool ___quickCheckPossible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void Context_t4330_marshal(const Context_t4330& unmarshaled, Context_t4330_marshaled& marshaled);
+void Context_t4330_marshal_back(const Context_t4330_marshaled& marshaled, Context_t4330& unmarshaled);
+void Context_t4330_marshal_cleanup(Context_t4330_marshaled& marshaled);

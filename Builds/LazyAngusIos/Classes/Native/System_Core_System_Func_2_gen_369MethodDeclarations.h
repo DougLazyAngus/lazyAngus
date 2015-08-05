@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>,System.Object>
-struct Func_2_t7055;
+struct Func_2_t7054;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>
-struct Dictionary_2_t7057;
+struct Dictionary_2_t7056;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>,System.Object>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m44997(__this, ___object, ___method, method) (( void (*) (Func_2_t7055 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7222_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m44992(__this, ___object, ___method, method) (( void (*) (Func_2_t7054 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7217_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>,System.Object>::Invoke(T)
-#define Func_2_Invoke_m44998(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7055 *, Dictionary_2_t7057 *, const MethodInfo*))Func_2_Invoke_m30055_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m44993(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7054 *, Dictionary_2_t7056 *, const MethodInfo*))Func_2_Invoke_m30050_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>,System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m44999(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7055 *, Dictionary_2_t7057 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30057_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m44994(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7054 *, Dictionary_2_t7056 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30052_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>,System.Object>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m45000(__this, ___result, method) (( Object_t * (*) (Func_2_t7055 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30059_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m44995(__this, ___result, method) (( Object_t * (*) (Func_2_t7054 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30054_gshared)(__this, ___result, method)

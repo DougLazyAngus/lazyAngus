@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Microsoft.Win32.SafeHandles.SafeWaitHandle
-struct SafeWaitHandle_t4319;
+struct SafeWaitHandle_t4318;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Microsoft.Win32.SafeHandles.SafeWaitHandle::.ctor(System.IntPtr,System.Boolean)
-extern "C" void SafeWaitHandle__ctor_m16054 (SafeWaitHandle_t4319 * __this, IntPtr_t ___existingHandle, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeWaitHandle__ctor_m16049 (SafeWaitHandle_t4318 * __this, IntPtr_t ___existingHandle, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Microsoft.Win32.SafeHandles.SafeWaitHandle::ReleaseHandle()
-extern "C" bool SafeWaitHandle_ReleaseHandle_m16055 (SafeWaitHandle_t4319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SafeWaitHandle_ReleaseHandle_m16050 (SafeWaitHandle_t4318 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

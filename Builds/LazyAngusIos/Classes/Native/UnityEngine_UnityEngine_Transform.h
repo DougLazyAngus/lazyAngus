@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Transform
-struct  Transform_t406  : public Component_t713
+struct  Transform_t406  : public Component_t712
 {
 };

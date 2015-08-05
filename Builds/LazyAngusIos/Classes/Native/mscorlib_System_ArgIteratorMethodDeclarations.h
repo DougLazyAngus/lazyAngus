@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ArgIterator
-struct ArgIterator_t4311;
+struct ArgIterator_t4310;
 // System.Object
 struct Object_t;
 
 // System.Boolean System.ArgIterator::Equals(System.Object)
-extern "C" bool ArgIterator_Equals_m16042 (ArgIterator_t4311 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArgIterator_Equals_m16037 (ArgIterator_t4310 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ArgIterator::GetHashCode()
-extern "C" int32_t ArgIterator_GetHashCode_m16043 (ArgIterator_t4311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArgIterator_GetHashCode_m16038 (ArgIterator_t4310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

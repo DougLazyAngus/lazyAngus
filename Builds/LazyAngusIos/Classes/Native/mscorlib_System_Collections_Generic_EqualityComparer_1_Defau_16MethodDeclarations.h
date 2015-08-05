@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct DefaultComparer_t7298;
+struct DefaultComparer_t7297;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_66.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::.ctor()
-extern "C" void DefaultComparer__ctor_m47483_gshared (DefaultComparer_t7298 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m47483(__this, method) (( void (*) (DefaultComparer_t7298 *, const MethodInfo*))DefaultComparer__ctor_m47483_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m47478_gshared (DefaultComparer_t7297 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m47478(__this, method) (( void (*) (DefaultComparer_t7297 *, const MethodInfo*))DefaultComparer__ctor_m47478_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m47484_gshared (DefaultComparer_t7298 * __this, KeyValuePair_2_t7122  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m47484(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t7298 *, KeyValuePair_2_t7122 , const MethodInfo*))DefaultComparer_GetHashCode_m47484_gshared)(__this, ___obj, method)
+extern "C" int32_t DefaultComparer_GetHashCode_m47479_gshared (DefaultComparer_t7297 * __this, KeyValuePair_2_t7121  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m47479(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t7297 *, KeyValuePair_2_t7121 , const MethodInfo*))DefaultComparer_GetHashCode_m47479_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m47485_gshared (DefaultComparer_t7298 * __this, KeyValuePair_2_t7122  ___x, KeyValuePair_2_t7122  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m47485(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t7298 *, KeyValuePair_2_t7122 , KeyValuePair_2_t7122 , const MethodInfo*))DefaultComparer_Equals_m47485_gshared)(__this, ___x, ___y, method)
+extern "C" bool DefaultComparer_Equals_m47480_gshared (DefaultComparer_t7297 * __this, KeyValuePair_2_t7121  ___x, KeyValuePair_2_t7121  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m47480(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t7297 *, KeyValuePair_2_t7121 , KeyValuePair_2_t7121 , const MethodInfo*))DefaultComparer_Equals_m47480_gshared)(__this, ___x, ___y, method)

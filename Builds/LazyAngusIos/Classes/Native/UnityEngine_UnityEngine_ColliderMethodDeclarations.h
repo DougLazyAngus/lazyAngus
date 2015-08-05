@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Collider
-struct Collider_t716;
+struct Collider_t715;
 // UnityEngine.Rigidbody
-struct Rigidbody_t2719;
+struct Rigidbody_t2718;
 
 // System.Void UnityEngine.Collider::set_enabled(System.Boolean)
-extern "C" void Collider_set_enabled_m3795 (Collider_t716 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Collider_set_enabled_m3791 (Collider_t715 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
-extern "C" Rigidbody_t2719 * Collider_get_attachedRigidbody_m9237 (Collider_t716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rigidbody_t2718 * Collider_get_attachedRigidbody_m9232 (Collider_t715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

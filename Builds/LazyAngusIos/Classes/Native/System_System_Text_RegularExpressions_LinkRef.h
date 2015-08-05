@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.LinkRef
-struct  LinkRef_t4090  : public Object_t
+struct  LinkRef_t4089  : public Object_t
 {
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.StringFreezingAttribute
-struct StringFreezingAttribute_t4519;
+struct StringFreezingAttribute_t4518;
 
 // System.Void System.Runtime.CompilerServices.StringFreezingAttribute::.ctor()
-extern "C" void StringFreezingAttribute__ctor_m17887 (StringFreezingAttribute_t4519 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringFreezingAttribute__ctor_m17882 (StringFreezingAttribute_t4518 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Regex/Adapter
-struct Adapter_t4077;
+struct Adapter_t4076;
 // System.Text.RegularExpressions.MatchEvaluator
-struct MatchEvaluator_t1128;
+struct MatchEvaluator_t1127;
 // System.Text.RegularExpressions.Match
-struct Match_t1325;
+struct Match_t1324;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 
 // System.Void System.Text.RegularExpressions.Regex/Adapter::.ctor(System.Text.RegularExpressions.MatchEvaluator)
-extern "C" void Adapter__ctor_m14385 (Adapter_t4077 * __this, MatchEvaluator_t1128 * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Adapter__ctor_m14380 (Adapter_t4076 * __this, MatchEvaluator_t1127 * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Regex/Adapter::Evaluate(System.Text.RegularExpressions.Match,System.Text.StringBuilder)
-extern "C" void Adapter_Evaluate_m14386 (Adapter_t4077 * __this, Match_t1325 * ___m, StringBuilder_t261 * ___sb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Adapter_Evaluate_m14381 (Adapter_t4076 * __this, Match_t1324 * ___m, StringBuilder_t261 * ___sb, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct ReapplyDrivenProperties_t1033;
+struct ReapplyDrivenProperties_t1032;
 // UnityEngine.Transform
 #include "UnityEngine_UnityEngine_Transform.h"
 // UnityEngine.RectTransform
@@ -10,5 +10,5 @@ struct  RectTransform_t503  : public Transform_t406
 };
 struct RectTransform_t503_StaticFields{
 	// UnityEngine.RectTransform/ReapplyDrivenProperties UnityEngine.RectTransform::reapplyDrivenProperties
-	ReapplyDrivenProperties_t1033 * ___reapplyDrivenProperties_2;
+	ReapplyDrivenProperties_t1032 * ___reapplyDrivenProperties_2;
 };

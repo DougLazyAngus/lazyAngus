@@ -7,7 +7,7 @@ struct List_1_t123;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>
-struct  KeyValuePair_2_t5426 
+struct  KeyValuePair_2_t5425 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::key
 	String_t* ___key_0;

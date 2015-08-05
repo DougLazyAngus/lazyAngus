@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t3109;
+struct XmlSchemaSimpleType_t3108;
 // System.Xml.Schema.XmlSchemaAttribute
-struct XmlSchemaAttribute_t3103;
+struct XmlSchemaAttribute_t3102;
 // System.Xml.Schema.XmlSchemaElement
-struct XmlSchemaElement_t3105;
+struct XmlSchemaElement_t3104;
 // System.Xml.Schema.XmlSchemaType
-struct XmlSchemaType_t3110;
+struct XmlSchemaType_t3109;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Schema.XmlSchemaValidity
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
 // System.Xml.Schema.XmlSchemaInfo
-struct  XmlSchemaInfo_t3111  : public Object_t
+struct  XmlSchemaInfo_t3110  : public Object_t
 {
 	// System.Boolean System.Xml.Schema.XmlSchemaInfo::isDefault
 	bool ___isDefault_0;
 	// System.Boolean System.Xml.Schema.XmlSchemaInfo::isNil
 	bool ___isNil_1;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::memberType
-	XmlSchemaSimpleType_t3109 * ___memberType_2;
+	XmlSchemaSimpleType_t3108 * ___memberType_2;
 	// System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::attr
-	XmlSchemaAttribute_t3103 * ___attr_3;
+	XmlSchemaAttribute_t3102 * ___attr_3;
 	// System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::elem
-	XmlSchemaElement_t3105 * ___elem_4;
+	XmlSchemaElement_t3104 * ___elem_4;
 	// System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::type
-	XmlSchemaType_t3110 * ___type_5;
+	XmlSchemaType_t3109 * ___type_5;
 	// System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::validity
 	int32_t ___validity_6;
 };

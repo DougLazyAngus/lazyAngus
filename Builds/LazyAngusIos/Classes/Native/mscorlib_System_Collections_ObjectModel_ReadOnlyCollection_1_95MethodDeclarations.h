@@ -5,81 +5,81 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct ReadOnlyCollection_1_t8314;
+struct ReadOnlyCollection_1_t8313;
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2651;
+struct GcLeaderboard_t2650;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct IList_1_t8313;
+struct IList_1_t8312;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
-struct GcLeaderboardU5BU5D_t8312;
+struct GcLeaderboardU5BU5D_t8311;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct IEnumerator_1_t9490;
+struct IEnumerator_1_t9489;
 
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::.ctor(System.Collections.Generic.IList`1<T>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
-#define ReadOnlyCollection_1__ctor_m59431(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t8314 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7124_gshared)(__this, ___list, method)
+#define ReadOnlyCollection_1__ctor_m59426(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t8313 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7119_gshared)(__this, ___list, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m59432(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t8314 *, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21411_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m59427(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t8313 *, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21406_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.ICollection<T>.Clear()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m59433(__this, method) (( void (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21412_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m59428(__this, method) (( void (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21407_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m59434(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21413_gshared)(__this, ___index, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m59429(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21408_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m59435(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21414_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m59430(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21409_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m59436(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21415_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m59431(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21410_gshared)(__this, ___index, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m59437(__this, ___index, method) (( GcLeaderboard_t2651 * (*) (ReadOnlyCollection_1_t8314 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21416_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m59432(__this, ___index, method) (( GcLeaderboard_t2650 * (*) (ReadOnlyCollection_1_t8313 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21411_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m59438(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21417_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m59433(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21412_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m59439(__this, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21418_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m59434(__this, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21413_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m59440(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t8314 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m21419_gshared)(__this, ___array, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m59435(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t8313 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m21414_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IEnumerable.GetEnumerator()
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m59441(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m21420_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m59436(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m21415_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.Add(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m59442(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8314 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m21421_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m59437(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8313 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m21416_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.Clear()
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m59443(__this, method) (( void (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m21422_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m59438(__this, method) (( void (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m21417_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.Contains(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m59444(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m21423_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m59439(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m21418_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.IndexOf(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m59445(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8314 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m21424_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m59440(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8313 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m21419_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m59446(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m21425_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m59441(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m21420_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.Remove(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m59447(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t8314 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m21426_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m59442(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t8313 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m21421_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m59448(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m21427_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m59443(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m21422_gshared)(__this, ___index, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.ICollection.get_IsSynchronized()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m59449(__this, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m21428_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m59444(__this, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m21423_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.ICollection.get_SyncRoot()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m59450(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m21429_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m59445(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m21424_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.get_IsFixedSize()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m59451(__this, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m21430_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m59446(__this, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m21425_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m59452(__this, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m21431_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m59447(__this, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m21426_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m59453(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t8314 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m21432_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m59448(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t8313 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m21427_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m59454(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8314 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21433_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m59449(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t8313 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21428_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m59455(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t8314 *, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21434_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_Contains_m59450(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t8313 *, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21429_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::CopyTo(T[],System.Int32)
-#define ReadOnlyCollection_1_CopyTo_m59456(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t8314 *, GcLeaderboardU5BU5D_t8312*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21435_gshared)(__this, ___array, ___index, method)
+#define ReadOnlyCollection_1_CopyTo_m59451(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t8313 *, GcLeaderboardU5BU5D_t8311*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21430_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::GetEnumerator()
-#define ReadOnlyCollection_1_GetEnumerator_m59457(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21436_gshared)(__this, method)
+#define ReadOnlyCollection_1_GetEnumerator_m59452(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21431_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m59458(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8314 *, GcLeaderboard_t2651 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21437_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_IndexOf_m59453(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t8313 *, GcLeaderboard_t2650 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21432_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::get_Count()
-#define ReadOnlyCollection_1_get_Count_m59459(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t8314 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21438_gshared)(__this, method)
+#define ReadOnlyCollection_1_get_Count_m59454(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t8313 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21433_gshared)(__this, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m59460(__this, ___index, method) (( GcLeaderboard_t2651 * (*) (ReadOnlyCollection_1_t8314 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21439_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_get_Item_m59455(__this, ___index, method) (( GcLeaderboard_t2650 * (*) (ReadOnlyCollection_1_t8313 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21434_gshared)(__this, ___index, method)

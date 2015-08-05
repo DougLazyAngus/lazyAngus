@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.OutAttribute
-struct OutAttribute_t4300;
+struct OutAttribute_t4299;
 
 // System.Void System.Runtime.InteropServices.OutAttribute::.ctor()
-extern "C" void OutAttribute__ctor_m16026 (OutAttribute_t4300 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OutAttribute__ctor_m16021 (OutAttribute_t4299 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

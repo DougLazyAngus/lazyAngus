@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Physics
-struct Physics_t2718;
+struct Physics_t2717;
 // UnityEngine.RaycastHit[]
-struct RaycastHitU5BU5D_t1001;
+struct RaycastHitU5BU5D_t1000;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.RaycastHit
@@ -16,18 +16,18 @@ struct RaycastHitU5BU5D_t1001;
 #include "UnityEngine_UnityEngine_Ray.h"
 
 // System.Boolean UnityEngine.Physics::Internal_Raycast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32)
-extern "C" bool Physics_Internal_Raycast_m9232 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, RaycastHit_t715 * ___hitInfo, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Physics_Internal_Raycast_m9227 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, RaycastHit_t714 * ___hitInfo, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.RaycastHit&,System.Single,System.Int32)
-extern "C" bool Physics_INTERNAL_CALL_Internal_Raycast_m9233 (Object_t * __this /* static, unused */, Vector3_t496 * ___origin, Vector3_t496 * ___direction, RaycastHit_t715 * ___hitInfo, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Physics_INTERNAL_CALL_Internal_Raycast_m9228 (Object_t * __this /* static, unused */, Vector3_t496 * ___origin, Vector3_t496 * ___direction, RaycastHit_t714 * ___hitInfo, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32)
-extern "C" bool Physics_Raycast_m9234 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, RaycastHit_t715 * ___hitInfo, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Physics_Raycast_m9229 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, RaycastHit_t714 * ___hitInfo, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
-extern "C" bool Physics_Raycast_m3783 (Object_t * __this /* static, unused */, Ray_t714  ___ray, RaycastHit_t715 * ___hitInfo, float ___maxDistance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Physics_Raycast_m3779 (Object_t * __this /* static, unused */, Ray_t713  ___ray, RaycastHit_t714 * ___hitInfo, float ___maxDistance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32)
-extern "C" bool Physics_Raycast_m5681 (Object_t * __this /* static, unused */, Ray_t714  ___ray, RaycastHit_t715 * ___hitInfo, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Physics_Raycast_m5676 (Object_t * __this /* static, unused */, Ray_t713  ___ray, RaycastHit_t714 * ___hitInfo, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit[] UnityEngine.Physics::RaycastAll(UnityEngine.Ray,System.Single,System.Int32)
-extern "C" RaycastHitU5BU5D_t1001* Physics_RaycastAll_m5619 (Object_t * __this /* static, unused */, Ray_t714  ___ray, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHitU5BU5D_t1000* Physics_RaycastAll_m5614 (Object_t * __this /* static, unused */, Ray_t713  ___ray, float ___maxDistance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit[] UnityEngine.Physics::RaycastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
-extern "C" RaycastHitU5BU5D_t1001* Physics_RaycastAll_m9235 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHitU5BU5D_t1000* Physics_RaycastAll_m9230 (Object_t * __this /* static, unused */, Vector3_t496  ___origin, Vector3_t496  ___direction, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit[] UnityEngine.Physics::INTERNAL_CALL_RaycastAll(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32)
-extern "C" RaycastHitU5BU5D_t1001* Physics_INTERNAL_CALL_RaycastAll_m9236 (Object_t * __this /* static, unused */, Vector3_t496 * ___origin, Vector3_t496 * ___direction, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHitU5BU5D_t1000* Physics_INTERNAL_CALL_RaycastAll_m9231 (Object_t * __this /* static, unused */, Vector3_t496 * ___origin, Vector3_t496 * ___direction, float ___maxDistance, int32_t ___layermask, const MethodInfo* method) IL2CPP_METHOD_ATTR;

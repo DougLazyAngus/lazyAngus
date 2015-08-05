@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.HashSet`1<System.String>
-struct HashSet_1_t1240;
+struct HashSet_1_t1239;
 // System.String
 struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<System.String>
-struct  Enumerator_t6021 
+struct  Enumerator_t6020 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<System.String>::hashset
-	HashSet_1_t1240 * ___hashset_0;
+	HashSet_1_t1239 * ___hashset_0;
 	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.String>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.String>::stamp

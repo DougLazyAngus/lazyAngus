@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.SynchronizationContext
-struct SynchronizationContext_t1319;
+struct SynchronizationContext_t1318;
 // System.Threading.SendOrPostCallback
-struct SendOrPostCallback_t2112;
+struct SendOrPostCallback_t2111;
 // System.Object
 struct Object_t;
 
 // System.Void System.Threading.SynchronizationContext::.ctor()
-extern "C" void SynchronizationContext__ctor_m7596 (SynchronizationContext_t1319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationContext__ctor_m7591 (SynchronizationContext_t1318 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.SynchronizationContext System.Threading.SynchronizationContext::get_Current()
-extern "C" SynchronizationContext_t1319 * SynchronizationContext_get_Current_m7595 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SynchronizationContext_t1318 * SynchronizationContext_get_Current_m7590 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationContext::Post(System.Threading.SendOrPostCallback,System.Object)
-extern "C" void SynchronizationContext_Post_m19015 (SynchronizationContext_t1319 * __this, SendOrPostCallback_t2112 * ___d, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationContext_Post_m19010 (SynchronizationContext_t1318 * __this, SendOrPostCallback_t2111 * ___d, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

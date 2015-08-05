@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Group
-struct Group_t1386;
+struct Group_t1385;
 // System.Text.RegularExpressions.CaptureCollection
-struct CaptureCollection_t1389;
+struct CaptureCollection_t1388;
 // System.String
 struct String_t;
 
 // System.Void System.Text.RegularExpressions.Group::.ctor(System.String,System.Int32,System.Int32,System.Int32)
-extern "C" void Group__ctor_m14353 (Group_t1386 * __this, String_t* ___text, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m14348 (Group_t1385 * __this, String_t* ___text, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.ctor(System.String,System.Int32,System.Int32)
-extern "C" void Group__ctor_m14354 (Group_t1386 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m14349 (Group_t1385 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.ctor()
-extern "C" void Group__ctor_m14355 (Group_t1386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m14350 (Group_t1385 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.cctor()
-extern "C" void Group__cctor_m14356 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__cctor_m14351 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.CaptureCollection System.Text.RegularExpressions.Group::get_Captures()
-extern "C" CaptureCollection_t1389 * Group_get_Captures_m7097 (Group_t1386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CaptureCollection_t1388 * Group_get_Captures_m7092 (Group_t1385 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Group::get_Success()
-extern "C" bool Group_get_Success_m7104 (Group_t1386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Group_get_Success_m7099 (Group_t1385 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

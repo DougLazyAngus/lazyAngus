@@ -7,23 +7,23 @@
 // UnityEngine.Animator
 struct Animator_t620;
 // UnityEngine.RuntimeAnimatorController
-struct RuntimeAnimatorController_t1027;
+struct RuntimeAnimatorController_t1026;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.Animator::SetInteger(System.String,System.Int32)
-extern "C" void Animator_SetInteger_m4081 (Animator_t620 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_SetInteger_m4075 (Animator_t620 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetTrigger(System.String)
-extern "C" void Animator_SetTrigger_m5876 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_SetTrigger_m5871 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::ResetTrigger(System.String)
-extern "C" void Animator_ResetTrigger_m5875 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_ResetTrigger_m5870 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RuntimeAnimatorController UnityEngine.Animator::get_runtimeAnimatorController()
-extern "C" RuntimeAnimatorController_t1027 * Animator_get_runtimeAnimatorController_m5874 (Animator_t620 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RuntimeAnimatorController_t1026 * Animator_get_runtimeAnimatorController_m5869 (Animator_t620 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Animator::StringToHash(System.String)
-extern "C" int32_t Animator_StringToHash_m9312 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Animator_StringToHash_m9307 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetIntegerString(System.String,System.Int32)
-extern "C" void Animator_SetIntegerString_m9313 (Animator_t620 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_SetIntegerString_m9308 (Animator_t620 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetTriggerString(System.String)
-extern "C" void Animator_SetTriggerString_m9314 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_SetTriggerString_m9309 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::ResetTriggerString(System.String)
-extern "C" void Animator_ResetTriggerString_m9315 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Animator_ResetTriggerString_m9310 (Animator_t620 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

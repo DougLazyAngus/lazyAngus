@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.GraphicRegistry
-struct GraphicRegistry_t867;
+struct GraphicRegistry_t866;
 // UnityEngine.Canvas
-struct Canvas_t629;
+struct Canvas_t628;
 // UnityEngine.UI.Graphic
-struct Graphic_t862;
+struct Graphic_t861;
 // System.Collections.Generic.IList`1<UnityEngine.UI.Graphic>
-struct IList_1_t985;
+struct IList_1_t984;
 
 // System.Void UnityEngine.UI.GraphicRegistry::.ctor()
-extern "C" void GraphicRegistry__ctor_m4762 (GraphicRegistry_t867 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GraphicRegistry__ctor_m4756 (GraphicRegistry_t866 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.GraphicRegistry::.cctor()
-extern "C" void GraphicRegistry__cctor_m4763 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GraphicRegistry__cctor_m4757 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.GraphicRegistry UnityEngine.UI.GraphicRegistry::get_instance()
-extern "C" GraphicRegistry_t867 * GraphicRegistry_get_instance_m4764 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GraphicRegistry_t866 * GraphicRegistry_get_instance_m4758 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.GraphicRegistry::RegisterGraphicForCanvas(UnityEngine.Canvas,UnityEngine.UI.Graphic)
-extern "C" void GraphicRegistry_RegisterGraphicForCanvas_m4765 (Object_t * __this /* static, unused */, Canvas_t629 * ___c, Graphic_t862 * ___graphic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GraphicRegistry_RegisterGraphicForCanvas_m4759 (Object_t * __this /* static, unused */, Canvas_t628 * ___c, Graphic_t861 * ___graphic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.GraphicRegistry::UnregisterGraphicForCanvas(UnityEngine.Canvas,UnityEngine.UI.Graphic)
-extern "C" void GraphicRegistry_UnregisterGraphicForCanvas_m4766 (Object_t * __this /* static, unused */, Canvas_t629 * ___c, Graphic_t862 * ___graphic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GraphicRegistry_UnregisterGraphicForCanvas_m4760 (Object_t * __this /* static, unused */, Canvas_t628 * ___c, Graphic_t861 * ___graphic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRegistry::GetGraphicsForCanvas(UnityEngine.Canvas)
-extern "C" Object_t* GraphicRegistry_GetGraphicsForCanvas_m4767 (Object_t * __this /* static, unused */, Canvas_t629 * ___canvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* GraphicRegistry_GetGraphicsForCanvas_m4761 (Object_t * __this /* static, unused */, Canvas_t628 * ___canvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;

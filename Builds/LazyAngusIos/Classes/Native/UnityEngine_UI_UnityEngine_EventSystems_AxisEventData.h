@@ -7,7 +7,7 @@
 // UnityEngine.EventSystems.MoveDirection
 #include "UnityEngine_UI_UnityEngine_EventSystems_MoveDirection.h"
 // UnityEngine.EventSystems.AxisEventData
-struct  AxisEventData_t821  : public BaseEventData_t785
+struct  AxisEventData_t820  : public BaseEventData_t784
 {
 	// UnityEngine.Vector2 UnityEngine.EventSystems.AxisEventData::<moveVector>k__BackingField
 	Vector2_t110  ___U3CmoveVectorU3Ek__BackingField_2;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
-struct UnmanagedFunctionPointerAttribute_t4176;
+struct UnmanagedFunctionPointerAttribute_t4175;
 // System.Runtime.InteropServices.CallingConvention
 #include "mscorlib_System_Runtime_InteropServices_CallingConvention.h"
 
 // System.Void System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute::.ctor(System.Runtime.InteropServices.CallingConvention)
-extern "C" void UnmanagedFunctionPointerAttribute__ctor_m15114 (UnmanagedFunctionPointerAttribute_t4176 * __this, int32_t ___callingConvention, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedFunctionPointerAttribute__ctor_m15109 (UnmanagedFunctionPointerAttribute_t4175 * __this, int32_t ___callingConvention, const MethodInfo* method) IL2CPP_METHOD_ATTR;

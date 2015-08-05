@@ -5,7 +5,7 @@ struct String_t;
 // System.Runtime.Remoting.Contexts.ContextAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttribute.h"
 // System.Runtime.Remoting.Activation.UrlAttribute
-struct  UrlAttribute_t4545  : public ContextAttribute_t4546
+struct  UrlAttribute_t4544  : public ContextAttribute_t4545
 {
 	// System.String System.Runtime.Remoting.Activation.UrlAttribute::url
 	String_t* ___url_1;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
-struct XmlSchemaSimpleTypeContent_t3114;
+struct XmlSchemaSimpleTypeContent_t3113;
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
-extern "C" void XmlSchemaSimpleTypeContent__ctor_m10272 (XmlSchemaSimpleTypeContent_t3114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleTypeContent__ctor_m10267 (XmlSchemaSimpleTypeContent_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

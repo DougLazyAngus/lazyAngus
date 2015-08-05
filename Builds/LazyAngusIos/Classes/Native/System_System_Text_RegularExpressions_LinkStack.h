@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Stack
-struct Stack_t2849;
+struct Stack_t2848;
 // System.Text.RegularExpressions.LinkRef
 #include "System_System_Text_RegularExpressions_LinkRef.h"
 // System.Text.RegularExpressions.LinkStack
-struct  LinkStack_t4094  : public LinkRef_t4090
+struct  LinkStack_t4093  : public LinkRef_t4089
 {
 	// System.Collections.Stack System.Text.RegularExpressions.LinkStack::stack
-	Stack_t2849 * ___stack_0;
+	Stack_t2848 * ___stack_0;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.IL2CPPStructAlignmentAttribute
-struct IL2CPPStructAlignmentAttribute_t2788;
+struct IL2CPPStructAlignmentAttribute_t2787;
 
 // System.Void UnityEngine.IL2CPPStructAlignmentAttribute::.ctor()
-extern "C" void IL2CPPStructAlignmentAttribute__ctor_m9613 (IL2CPPStructAlignmentAttribute_t2788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IL2CPPStructAlignmentAttribute__ctor_m9608 (IL2CPPStructAlignmentAttribute_t2787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

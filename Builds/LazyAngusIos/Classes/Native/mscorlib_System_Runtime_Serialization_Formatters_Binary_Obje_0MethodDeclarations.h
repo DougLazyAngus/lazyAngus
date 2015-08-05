@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller
-struct ArrayNullFiller_t4611;
+struct ArrayNullFiller_t4610;
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller::.ctor(System.Int32)
-extern "C" void ArrayNullFiller__ctor_m18216 (ArrayNullFiller_t4611 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayNullFiller__ctor_m18211 (ArrayNullFiller_t4610 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

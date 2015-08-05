@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.TargetParameterCountException
-struct TargetParameterCountException_t4513;
+struct TargetParameterCountException_t4512;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2871;
+struct SerializationInfo_t2870;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.TargetParameterCountException::.ctor()
-extern "C" void TargetParameterCountException__ctor_m17883 (TargetParameterCountException_t4513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetParameterCountException__ctor_m17878 (TargetParameterCountException_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetParameterCountException::.ctor(System.String)
-extern "C" void TargetParameterCountException__ctor_m17884 (TargetParameterCountException_t4513 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetParameterCountException__ctor_m17879 (TargetParameterCountException_t4512 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetParameterCountException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TargetParameterCountException__ctor_m17885 (TargetParameterCountException_t4513 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetParameterCountException__ctor_m17880 (TargetParameterCountException_t4512 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

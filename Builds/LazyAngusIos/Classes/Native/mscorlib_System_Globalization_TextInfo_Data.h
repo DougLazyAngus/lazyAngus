@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Globalization.TextInfo/Data
-struct  Data_t4432 
+struct  Data_t4431 
 {
 	// System.Int32 System.Globalization.TextInfo/Data::ansi
 	int32_t ___ansi_0;

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
-struct  PrimeGeneratorBase_t3736  : public Object_t
+struct  PrimeGeneratorBase_t3735  : public Object_t
 {
 };

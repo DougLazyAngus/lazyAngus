@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
-struct Comparison_1_t7941;
+struct Comparison_1_t7940;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_55.h"
 
 // System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m55282_gshared (Comparison_1_t7941 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m55282(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7941 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m55282_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m55277_gshared (Comparison_1_t7940 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m55277(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7940 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m55277_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m55283_gshared (Comparison_1_t7941 * __this, KeyValuePair_2_t6956  ___x, KeyValuePair_2_t6956  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m55283(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7941 *, KeyValuePair_2_t6956 , KeyValuePair_2_t6956 , const MethodInfo*))Comparison_1_Invoke_m55283_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m55278_gshared (Comparison_1_t7940 * __this, KeyValuePair_2_t6955  ___x, KeyValuePair_2_t6955  ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m55278(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7940 *, KeyValuePair_2_t6955 , KeyValuePair_2_t6955 , const MethodInfo*))Comparison_1_Invoke_m55278_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m55284_gshared (Comparison_1_t7941 * __this, KeyValuePair_2_t6956  ___x, KeyValuePair_2_t6956  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m55284(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7941 *, KeyValuePair_2_t6956 , KeyValuePair_2_t6956 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m55284_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m55279_gshared (Comparison_1_t7940 * __this, KeyValuePair_2_t6955  ___x, KeyValuePair_2_t6955  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m55279(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7940 *, KeyValuePair_2_t6955 , KeyValuePair_2_t6955 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m55279_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m55285_gshared (Comparison_1_t7941 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m55285(__this, ___result, method) (( int32_t (*) (Comparison_1_t7941 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m55285_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m55280_gshared (Comparison_1_t7940 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m55280(__this, ___result, method) (( int32_t (*) (Comparison_1_t7940 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m55280_gshared)(__this, ___result, method)

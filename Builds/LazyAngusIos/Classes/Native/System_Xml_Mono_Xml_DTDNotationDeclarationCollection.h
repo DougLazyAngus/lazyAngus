@@ -3,6 +3,6 @@
 // Mono.Xml.DTDCollectionBase
 #include "System_Xml_Mono_Xml_DTDCollectionBase.h"
 // Mono.Xml.DTDNotationDeclarationCollection
-struct  DTDNotationDeclarationCollection_t3133  : public DTDCollectionBase_t3142
+struct  DTDNotationDeclarationCollection_t3132  : public DTDCollectionBase_t3141
 {
 };

@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<Facebook.FBBuildVersionAttribute>
-struct  InternalEnumerator_1_t5622 
+struct  InternalEnumerator_1_t5621 
 {
 	// System.Array System.Array/InternalEnumerator`1<Facebook.FBBuildVersionAttribute>::array
 	Array_t * ___array_0;

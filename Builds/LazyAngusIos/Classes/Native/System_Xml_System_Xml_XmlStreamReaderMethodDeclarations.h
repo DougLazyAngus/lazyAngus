@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlStreamReader
-struct XmlStreamReader_t3186;
+struct XmlStreamReader_t3185;
 // System.Xml.XmlInputStream
-struct XmlInputStream_t3185;
+struct XmlInputStream_t3184;
 // System.IO.Stream
 struct Stream_t51;
 // System.Char[]
-struct CharU5BU5D_t662;
+struct CharU5BU5D_t661;
 
 // System.Void System.Xml.XmlStreamReader::.ctor(System.Xml.XmlInputStream)
-extern "C" void XmlStreamReader__ctor_m10703 (XmlStreamReader_t3186 * __this, XmlInputStream_t3185 * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlStreamReader__ctor_m10698 (XmlStreamReader_t3185 * __this, XmlInputStream_t3184 * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlStreamReader::.ctor(System.IO.Stream)
-extern "C" void XmlStreamReader__ctor_m10704 (XmlStreamReader_t3186 * __this, Stream_t51 * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlStreamReader__ctor_m10699 (XmlStreamReader_t3185 * __this, Stream_t51 * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlStreamReader::.cctor()
-extern "C" void XmlStreamReader__cctor_m10705 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlStreamReader__cctor_m10700 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlStreamReader::Close()
-extern "C" void XmlStreamReader_Close_m10706 (XmlStreamReader_t3186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlStreamReader_Close_m10701 (XmlStreamReader_t3185 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlStreamReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t XmlStreamReader_Read_m10707 (XmlStreamReader_t3186 * __this, CharU5BU5D_t662* ___dest_buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlStreamReader_Read_m10702 (XmlStreamReader_t3185 * __this, CharU5BU5D_t661* ___dest_buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlStreamReader::Dispose(System.Boolean)
-extern "C" void XmlStreamReader_Dispose_m10708 (XmlStreamReader_t3186 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlStreamReader_Dispose_m10703 (XmlStreamReader_t3185 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,45 +5,45 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.BigInteger/Kernel
-struct Kernel_t4348;
+struct Kernel_t4347;
 // Mono.Math.BigInteger
-struct BigInteger_t4346;
+struct BigInteger_t4345;
 // Mono.Math.BigInteger[]
-struct BigIntegerU5BU5D_t4830;
+struct BigIntegerU5BU5D_t4829;
 // System.UInt32[]
-struct UInt32U5BU5D_t3171;
+struct UInt32U5BU5D_t3170;
 // Mono.Math.BigInteger/Sign
 #include "mscorlib_Mono_Math_BigInteger_Sign.h"
 
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::AddSameSign(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" BigInteger_t4346 * Kernel_AddSameSign_m16181 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi1, BigInteger_t4346 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_AddSameSign_m16176 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi1, BigInteger_t4345 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::Subtract(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" BigInteger_t4346 * Kernel_Subtract_m16182 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___big, BigInteger_t4346 * ___small, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_Subtract_m16177 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___big, BigInteger_t4345 * ___small, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Math.BigInteger/Kernel::MinusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" void Kernel_MinusEq_m16183 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___big, BigInteger_t4346 * ___small, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Kernel_MinusEq_m16178 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___big, BigInteger_t4345 * ___small, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Math.BigInteger/Kernel::PlusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" void Kernel_PlusEq_m16184 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi1, BigInteger_t4346 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Kernel_PlusEq_m16179 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi1, BigInteger_t4345 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger/Sign Mono.Math.BigInteger/Kernel::Compare(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" int32_t Kernel_Compare_m16185 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi1, BigInteger_t4346 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Kernel_Compare_m16180 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi1, BigInteger_t4345 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
-extern "C" uint32_t Kernel_SingleByteDivideInPlace_m16186 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Kernel_SingleByteDivideInPlace_m16181 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
-extern "C" uint32_t Kernel_DwordMod_m16187 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Kernel_DwordMod_m16182 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::DwordDivMod(Mono.Math.BigInteger,System.UInt32)
-extern "C" BigIntegerU5BU5D_t4830* Kernel_DwordDivMod_m16188 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigIntegerU5BU5D_t4829* Kernel_DwordDivMod_m16183 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___n, uint32_t ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::multiByteDivide(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" BigIntegerU5BU5D_t4830* Kernel_multiByteDivide_m16189 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi1, BigInteger_t4346 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigIntegerU5BU5D_t4829* Kernel_multiByteDivide_m16184 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi1, BigInteger_t4345 * ___bi2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::LeftShift(Mono.Math.BigInteger,System.Int32)
-extern "C" BigInteger_t4346 * Kernel_LeftShift_m16190 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_LeftShift_m16185 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::RightShift(Mono.Math.BigInteger,System.Int32)
-extern "C" BigInteger_t4346 * Kernel_RightShift_m16191 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_RightShift_m16186 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::MultiplyByDword(Mono.Math.BigInteger,System.UInt32)
-extern "C" BigInteger_t4346 * Kernel_MultiplyByDword_m16192 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, uint32_t ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_MultiplyByDword_m16187 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___n, uint32_t ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
-extern "C" void Kernel_Multiply_m16193 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3171* ___x, uint32_t ___xOffset, uint32_t ___xLen, UInt32U5BU5D_t3171* ___y, uint32_t ___yOffset, uint32_t ___yLen, UInt32U5BU5D_t3171* ___d, uint32_t ___dOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Kernel_Multiply_m16188 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3170* ___x, uint32_t ___xOffset, uint32_t ___xLen, UInt32U5BU5D_t3170* ___y, uint32_t ___yOffset, uint32_t ___yLen, UInt32U5BU5D_t3170* ___d, uint32_t ___dOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Math.BigInteger/Kernel::MultiplyMod2p32pmod(System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32)
-extern "C" void Kernel_MultiplyMod2p32pmod_m16194 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3171* ___x, int32_t ___xOffset, int32_t ___xLen, UInt32U5BU5D_t3171* ___y, int32_t ___yOffest, int32_t ___yLen, UInt32U5BU5D_t3171* ___d, int32_t ___dOffset, int32_t ___mod, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Kernel_MultiplyMod2p32pmod_m16189 (Object_t * __this /* static, unused */, UInt32U5BU5D_t3170* ___x, int32_t ___xOffset, int32_t ___xLen, UInt32U5BU5D_t3170* ___y, int32_t ___yOffest, int32_t ___yLen, UInt32U5BU5D_t3170* ___d, int32_t ___dOffset, int32_t ___mod, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
-extern "C" uint32_t Kernel_modInverse_m16195 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, uint32_t ___modulus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Kernel_modInverse_m16190 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi, uint32_t ___modulus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern "C" BigInteger_t4346 * Kernel_modInverse_m16196 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, BigInteger_t4346 * ___modulus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BigInteger_t4345 * Kernel_modInverse_m16191 (Object_t * __this /* static, unused */, BigInteger_t4345 * ___bi, BigInteger_t4345 * ___modulus, const MethodInfo* method) IL2CPP_METHOD_ATTR;

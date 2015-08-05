@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.EventAttributes
-struct EventAttributes_t4490;
+struct EventAttributes_t4489;
 

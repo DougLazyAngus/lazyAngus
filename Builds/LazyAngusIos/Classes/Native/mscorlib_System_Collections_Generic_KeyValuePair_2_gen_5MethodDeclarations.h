@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>
-struct KeyValuePair_2_t685;
+struct KeyValuePair_2_t684;
 // AndroidADBanner
 struct AndroidADBanner_t215;
 // System.String
@@ -14,14 +14,14 @@ struct String_t;
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_18MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m23410(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t685 *, int32_t, AndroidADBanner_t215 *, const MethodInfo*))KeyValuePair_2__ctor_m20959_gshared)(__this, ___key, ___value, method)
+#define KeyValuePair_2__ctor_m23405(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t684 *, int32_t, AndroidADBanner_t215 *, const MethodInfo*))KeyValuePair_2__ctor_m20954_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::get_Key()
-#define KeyValuePair_2_get_Key_m23411(__this, method) (( int32_t (*) (KeyValuePair_2_t685 *, const MethodInfo*))KeyValuePair_2_get_Key_m20960_gshared)(__this, method)
+#define KeyValuePair_2_get_Key_m23406(__this, method) (( int32_t (*) (KeyValuePair_2_t684 *, const MethodInfo*))KeyValuePair_2_get_Key_m20955_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m23412(__this, ___value, method) (( void (*) (KeyValuePair_2_t685 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m20961_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Key_m23407(__this, ___value, method) (( void (*) (KeyValuePair_2_t684 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m20956_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::get_Value()
-#define KeyValuePair_2_get_Value_m3589(__this, method) (( AndroidADBanner_t215 * (*) (KeyValuePair_2_t685 *, const MethodInfo*))KeyValuePair_2_get_Value_m20962_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m3585(__this, method) (( AndroidADBanner_t215 * (*) (KeyValuePair_2_t684 *, const MethodInfo*))KeyValuePair_2_get_Value_m20957_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m23413(__this, ___value, method) (( void (*) (KeyValuePair_2_t685 *, AndroidADBanner_t215 *, const MethodInfo*))KeyValuePair_2_set_Value_m20963_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Value_m23408(__this, ___value, method) (( void (*) (KeyValuePair_2_t684 *, AndroidADBanner_t215 *, const MethodInfo*))KeyValuePair_2_set_Value_m20958_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::ToString()
-#define KeyValuePair_2_ToString_m23414(__this, method) (( String_t* (*) (KeyValuePair_2_t685 *, const MethodInfo*))KeyValuePair_2_ToString_m20964_gshared)(__this, method)
+#define KeyValuePair_2_ToString_m23409(__this, method) (( String_t* (*) (KeyValuePair_2_t684 *, const MethodInfo*))KeyValuePair_2_ToString_m20959_gshared)(__this, method)

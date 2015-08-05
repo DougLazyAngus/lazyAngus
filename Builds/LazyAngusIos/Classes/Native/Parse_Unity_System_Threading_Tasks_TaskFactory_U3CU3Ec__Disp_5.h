@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Tasks.TaskCompletionSource`1<System.Int32>
-struct TaskCompletionSource_1_t1294;
+struct TaskCompletionSource_1_t1293;
 // System.Func`1<System.Int32>
-struct Func_1_t1305;
+struct Func_1_t1304;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Int32>
-struct  U3CU3Ec__DisplayClass1_1_t8289  : public Object_t
+struct  U3CU3Ec__DisplayClass1_1_t8288  : public Object_t
 {
 	// System.Threading.Tasks.TaskCompletionSource`1<T> System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Int32>::tcs
-	TaskCompletionSource_1_t1294 * ___tcs_0;
+	TaskCompletionSource_1_t1293 * ___tcs_0;
 	// System.Func`1<T> System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Int32>::func
-	Func_1_t1305 * ___func_1;
+	Func_1_t1304 * ___func_1;
 };

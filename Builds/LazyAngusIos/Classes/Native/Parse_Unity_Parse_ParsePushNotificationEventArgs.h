@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t767;
+struct IDictionary_2_t766;
 // System.String
 struct String_t;
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // Parse.ParsePushNotificationEventArgs
-struct  ParsePushNotificationEventArgs_t1246  : public EventArgs_t1247
+struct  ParsePushNotificationEventArgs_t1245  : public EventArgs_t1246
 {
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePushNotificationEventArgs::<Payload>k__BackingField
 	Object_t* ___U3CPayloadU3Ek__BackingField_1;

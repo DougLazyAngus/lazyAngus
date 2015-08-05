@@ -3,15 +3,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5347;
+struct LinkU5BU5D_t5346;
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>[]
-struct List_1U5BU5D_t5432;
+struct List_1U5BU5D_t5431;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5348;
+struct IEqualityComparer_1_t5347;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2871;
+struct SerializationInfo_t2870;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>,System.Collections.DictionaryEntry>
-struct Transform_1_t5433;
+struct Transform_1_t5432;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>
@@ -20,11 +20,11 @@ struct  Dictionary_2_t127  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::table
 	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::linkSlots
-	LinkU5BU5D_t5347* ___linkSlots_5;
+	LinkU5BU5D_t5346* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::keySlots
 	Int32U5BU5D_t549* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::valueSlots
-	List_1U5BU5D_t5432* ___valueSlots_7;
+	List_1U5BU5D_t5431* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::emptySlot
@@ -36,11 +36,11 @@ struct  Dictionary_2_t127  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::serialization_info
-	SerializationInfo_t2871 * ___serialization_info_13;
+	SerializationInfo_t2870 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::generation
 	int32_t ___generation_14;
 };
 struct Dictionary_2_t127_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::<>f__am$cacheB
-	Transform_1_t5433 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t5432 * ___U3CU3Ef__amU24cacheB_15;
 };

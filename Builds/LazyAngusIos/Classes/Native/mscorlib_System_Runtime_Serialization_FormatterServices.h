@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.FormatterServices
-struct  FormatterServices_t4618  : public Object_t
+struct  FormatterServices_t4617  : public Object_t
 {
 };

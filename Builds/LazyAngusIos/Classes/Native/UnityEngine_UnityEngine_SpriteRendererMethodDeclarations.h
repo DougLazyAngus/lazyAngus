@@ -12,10 +12,10 @@ struct Sprite_t472;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
-extern "C" void SpriteRenderer_set_sprite_m3946 (SpriteRenderer_t612 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteRenderer_set_sprite_m3942 (SpriteRenderer_t612 * __this, Sprite_t472 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SpriteRenderer::SetSprite_INTERNAL(UnityEngine.Sprite)
-extern "C" void SpriteRenderer_SetSprite_INTERNAL_m9033 (SpriteRenderer_t612 * __this, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteRenderer_SetSprite_INTERNAL_m9028 (SpriteRenderer_t612 * __this, Sprite_t472 * ___sprite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SpriteRenderer::INTERNAL_set_color(UnityEngine.Color&)
-extern "C" void SpriteRenderer_INTERNAL_set_color_m9034 (SpriteRenderer_t612 * __this, Color_t325 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteRenderer_INTERNAL_set_color_m9029 (SpriteRenderer_t612 * __this, Color_t325 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SpriteRenderer::set_color(UnityEngine.Color)
-extern "C" void SpriteRenderer_set_color_m4074 (SpriteRenderer_t612 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteRenderer_set_color_m4068 (SpriteRenderer_t612 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

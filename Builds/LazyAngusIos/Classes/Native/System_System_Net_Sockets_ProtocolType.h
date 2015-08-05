@@ -5,7 +5,7 @@
 // System.Net.Sockets.ProtocolType
 #include "System_System_Net_Sockets_ProtocolType.h"
 // System.Net.Sockets.ProtocolType
-struct  ProtocolType_t3947 
+struct  ProtocolType_t3946 
 {
 	// System.Int32 System.Net.Sockets.ProtocolType::value__
 	int32_t ___value___1;

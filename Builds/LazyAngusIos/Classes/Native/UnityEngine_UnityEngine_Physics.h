@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Physics
-struct  Physics_t2718  : public Object_t
+struct  Physics_t2717  : public Object_t
 {
 };

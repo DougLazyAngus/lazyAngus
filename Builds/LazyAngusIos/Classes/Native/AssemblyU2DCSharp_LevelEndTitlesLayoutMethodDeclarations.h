@@ -13,10 +13,10 @@ extern "C" void LevelEndTitlesLayout__ctor_m2922 (LevelEndTitlesLayout_t551 * __
 extern "C" void LevelEndTitlesLayout_Awake_m2923 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LevelEndTitlesLayout::Start()
 extern "C" void LevelEndTitlesLayout_Start_m2924 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void LevelEndTitlesLayout::OnDestroy()
-extern "C" void LevelEndTitlesLayout_OnDestroy_m2925 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LevelEndTitlesLayout::OnEnable()
-extern "C" void LevelEndTitlesLayout_OnEnable_m2926 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LevelEndTitlesLayout_OnEnable_m2925 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void LevelEndTitlesLayout::OnDestroy()
+extern "C" void LevelEndTitlesLayout_OnDestroy_m2926 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LevelEndTitlesLayout::RegisterForEvents()
 extern "C" void LevelEndTitlesLayout_RegisterForEvents_m2927 (LevelEndTitlesLayout_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LevelEndTitlesLayout::UnregisterForEvents()

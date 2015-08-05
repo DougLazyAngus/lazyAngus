@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.GUILayer
-struct  GUILayer_t2657  : public Behaviour_t1036
+struct  GUILayer_t2656  : public Behaviour_t1035
 {
 };

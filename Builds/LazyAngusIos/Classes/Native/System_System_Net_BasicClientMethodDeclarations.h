@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.BasicClient
-struct BasicClient_t3968;
+struct BasicClient_t3967;
 // System.String
 struct String_t;
 // System.Net.Authorization
-struct Authorization_t3967;
+struct Authorization_t3966;
 // System.Net.WebRequest
-struct WebRequest_t3255;
+struct WebRequest_t3254;
 // System.Net.ICredentials
-struct ICredentials_t3237;
+struct ICredentials_t3236;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Net.BasicClient::.ctor()
-extern "C" void BasicClient__ctor_m13417 (BasicClient_t3968 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicClient__ctor_m13412 (BasicClient_t3967 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.BasicClient::Authenticate(System.String,System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t3967 * BasicClient_Authenticate_m13418 (BasicClient_t3968 * __this, String_t* ___challenge, WebRequest_t3255 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t3966 * BasicClient_Authenticate_m13413 (BasicClient_t3967 * __this, String_t* ___challenge, WebRequest_t3254 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Net.BasicClient::GetBytes(System.String)
-extern "C" ByteU5BU5D_t66* BasicClient_GetBytes_m13419 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BasicClient_GetBytes_m13414 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.BasicClient::InternalAuthenticate(System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t3967 * BasicClient_InternalAuthenticate_m13420 (Object_t * __this /* static, unused */, WebRequest_t3255 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t3966 * BasicClient_InternalAuthenticate_m13415 (Object_t * __this /* static, unused */, WebRequest_t3254 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.BasicClient::PreAuthenticate(System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t3967 * BasicClient_PreAuthenticate_m13421 (BasicClient_t3968 * __this, WebRequest_t3255 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t3966 * BasicClient_PreAuthenticate_m13416 (BasicClient_t3967 * __this, WebRequest_t3254 * ___webRequest, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.BasicClient::get_AuthenticationType()
-extern "C" String_t* BasicClient_get_AuthenticationType_m13422 (BasicClient_t3968 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BasicClient_get_AuthenticationType_m13417 (BasicClient_t3967 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

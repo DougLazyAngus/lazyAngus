@@ -3,7 +3,7 @@
 // UnityEngine.Camera
 struct Camera_t532;
 // UnityEngine.Canvas
-struct Canvas_t629;
+struct Canvas_t628;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // WorldRelativeGUIElement
@@ -12,7 +12,7 @@ struct  WorldRelativeGUIElement_t506  : public MonoBehaviour_t13
 	// UnityEngine.Camera WorldRelativeGUIElement::worldCamera
 	Camera_t532 * ___worldCamera_2;
 	// UnityEngine.Canvas WorldRelativeGUIElement::parentCanvas
-	Canvas_t629 * ___parentCanvas_3;
+	Canvas_t628 * ___parentCanvas_3;
 	// UnityEngine.Camera WorldRelativeGUIElement::parentCamera
 	Camera_t532 * ___parentCamera_4;
 	// System.Single WorldRelativeGUIElement::parentCanvasWidth

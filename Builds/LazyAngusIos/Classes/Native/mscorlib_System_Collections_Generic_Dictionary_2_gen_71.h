@@ -3,30 +3,30 @@
 // System.Int32[]
 struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5347;
+struct LinkU5BU5D_t5346;
 // System.Type[]
-struct TypeU5BU5D_t1152;
+struct TypeU5BU5D_t1151;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate[]
-struct ConstructorDelegateU5BU5D_t8429;
+struct ConstructorDelegateU5BU5D_t8428;
 // System.Collections.Generic.IEqualityComparer`1<System.Type>
-struct IEqualityComparer_1_t6186;
+struct IEqualityComparer_1_t6185;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2871;
+struct SerializationInfo_t2870;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate,System.Collections.DictionaryEntry>
-struct Transform_1_t8430;
+struct Transform_1_t8429;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct  Dictionary_2_t8427  : public Object_t
+struct  Dictionary_2_t8426  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::table
 	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::linkSlots
-	LinkU5BU5D_t5347* ___linkSlots_5;
+	LinkU5BU5D_t5346* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::keySlots
-	TypeU5BU5D_t1152* ___keySlots_6;
+	TypeU5BU5D_t1151* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::valueSlots
-	ConstructorDelegateU5BU5D_t8429* ___valueSlots_7;
+	ConstructorDelegateU5BU5D_t8428* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t8427  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::serialization_info
-	SerializationInfo_t2871 * ___serialization_info_13;
+	SerializationInfo_t2870 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t8427_StaticFields{
+struct Dictionary_2_t8426_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::<>f__am$cacheB
-	Transform_1_t8430 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t8429 * ___U3CU3Ef__amU24cacheB_15;
 };

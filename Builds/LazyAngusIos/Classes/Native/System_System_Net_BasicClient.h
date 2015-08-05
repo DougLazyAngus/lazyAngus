@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.BasicClient
-struct  BasicClient_t3968  : public Object_t
+struct  BasicClient_t3967  : public Object_t
 {
 };

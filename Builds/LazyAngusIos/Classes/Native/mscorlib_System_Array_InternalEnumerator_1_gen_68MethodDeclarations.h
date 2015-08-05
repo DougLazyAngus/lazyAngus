@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.AggregateException>
-struct InternalEnumerator_1_t8290;
+struct InternalEnumerator_1_t8289;
 // System.Object
 struct Object_t;
 // System.AggregateException
-struct AggregateException_t1289;
+struct AggregateException_t1288;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.AggregateException>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m59250(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8290 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20953_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m59245(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8289 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20948_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.AggregateException>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m59251(__this, method) (( void (*) (InternalEnumerator_1_t8290 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20954_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m59246(__this, method) (( void (*) (InternalEnumerator_1_t8289 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20949_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.AggregateException>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m59252(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8290 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20955_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m59247(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8289 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20950_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.AggregateException>::Dispose()
-#define InternalEnumerator_1_Dispose_m59253(__this, method) (( void (*) (InternalEnumerator_1_t8290 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20956_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m59248(__this, method) (( void (*) (InternalEnumerator_1_t8289 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20951_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.AggregateException>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m59254(__this, method) (( bool (*) (InternalEnumerator_1_t8290 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20957_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m59249(__this, method) (( bool (*) (InternalEnumerator_1_t8289 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20952_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.AggregateException>::get_Current()
-#define InternalEnumerator_1_get_Current_m59255(__this, method) (( AggregateException_t1289 * (*) (InternalEnumerator_1_t8290 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20958_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m59250(__this, method) (( AggregateException_t1288 * (*) (InternalEnumerator_1_t8289 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20953_gshared)(__this, method)

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.GC
-struct GC_t4770;
+struct GC_t4769;
 // System.Object
 struct Object_t;
 
 // System.Void System.GC::SuppressFinalize(System.Object)
-extern "C" void GC_SuppressFinalize_m12892 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GC_SuppressFinalize_m12887 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

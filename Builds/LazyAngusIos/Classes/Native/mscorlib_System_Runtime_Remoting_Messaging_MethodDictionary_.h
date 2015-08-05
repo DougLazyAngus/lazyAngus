@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Messaging.MethodDictionary
-struct MethodDictionary_t4565;
+struct MethodDictionary_t4564;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t3913;
+struct IDictionaryEnumerator_t3912;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
-struct  DictionaryEnumerator_t4571  : public Object_t
+struct  DictionaryEnumerator_t4570  : public Object_t
 {
 	// System.Runtime.Remoting.Messaging.MethodDictionary System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_methodDictionary
-	MethodDictionary_t4565 * ____methodDictionary_0;
+	MethodDictionary_t4564 * ____methodDictionary_0;
 	// System.Collections.IDictionaryEnumerator System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_hashtableEnum
 	Object_t * ____hashtableEnum_1;
 	// System.Int32 System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_posMethod

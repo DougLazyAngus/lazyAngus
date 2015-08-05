@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Missing
-struct Missing_t4497;
+struct Missing_t4496;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.Missing
-struct  Missing_t4497  : public Object_t
+struct  Missing_t4496  : public Object_t
 {
 };
-struct Missing_t4497_StaticFields{
+struct Missing_t4496_StaticFields{
 	// System.Reflection.Missing System.Reflection.Missing::Value
-	Missing_t4497 * ___Value_0;
+	Missing_t4496 * ___Value_0;
 };

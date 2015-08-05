@@ -396,7 +396,7 @@ extern TypeInfo Json_t263_il2cpp_TypeInfo;
 extern TypeInfo PlayServiceUtil_t264_il2cpp_TypeInfo;
 // PlayServiceUtil
 #include "AssemblyU2DCSharp_PlayServiceUtil.h"
-extern TypeInfo SA_Singleton_1_t753_il2cpp_TypeInfo;
+extern TypeInfo SA_Singleton_1_t752_il2cpp_TypeInfo;
 extern TypeInfo U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo;
 // WWWTextureLoader/<LoadCoroutin>c__Iterator1
 #include "AssemblyU2DCSharp_WWWTextureLoader_U3CLoadCoroutinU3Ec__Iter.h"
@@ -875,7 +875,7 @@ extern TypeInfo DialogController_t494_il2cpp_TypeInfo;
 extern TypeInfo DistortForEffect_t495_il2cpp_TypeInfo;
 // DistortForEffect
 #include "AssemblyU2DCSharp_DistortForEffect.h"
-extern TypeInfo EnumAccumulator_1_t756_il2cpp_TypeInfo;
+extern TypeInfo EnumAccumulator_1_t755_il2cpp_TypeInfo;
 extern TypeInfo ExplicitMouseDesc_t497_il2cpp_TypeInfo;
 // ExplicitMouseDesc
 #include "AssemblyU2DCSharp_ExplicitMouseDesc.h"
@@ -1077,7 +1077,7 @@ extern TypeInfo BoostsChangedEventHandler_t586_il2cpp_TypeInfo;
 extern TypeInfo PlayerStats_t475_il2cpp_TypeInfo;
 // PlayerStats
 #include "AssemblyU2DCSharp_PlayerStats.h"
-extern TypeInfo QuasiRandomGenerator_1_t757_il2cpp_TypeInfo;
+extern TypeInfo QuasiRandomGenerator_1_t756_il2cpp_TypeInfo;
 extern TypeInfo U3CWaitAndShowDialogU3Ec__Iterator18_t588_il2cpp_TypeInfo;
 // RateMeController/<WaitAndShowDialog>c__Iterator18
 #include "AssemblyU2DCSharp_RateMeController_U3CWaitAndShowDialogU3Ec_.h"
@@ -1195,19 +1195,16 @@ extern TypeInfo U3CLaunchAppOrWebU3Ec__Iterator1B_t625_il2cpp_TypeInfo;
 extern TypeInfo Utilities_t626_il2cpp_TypeInfo;
 // Utilities
 #include "AssemblyU2DCSharp_Utilities.h"
-extern TypeInfo WelcomeUI_t627_il2cpp_TypeInfo;
-// WelcomeUI
-#include "AssemblyU2DCSharp_WelcomeUI.h"
-extern TypeInfo WorldObjectFollower_t628_il2cpp_TypeInfo;
+extern TypeInfo WorldObjectFollower_t627_il2cpp_TypeInfo;
 // WorldObjectFollower
 #include "AssemblyU2DCSharp_WorldObjectFollower.h"
 extern TypeInfo WorldRelativeGUIElement_t506_il2cpp_TypeInfo;
 // WorldRelativeGUIElement
 #include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
-extern TypeInfo EventHandlerFunction_t630_il2cpp_TypeInfo;
+extern TypeInfo EventHandlerFunction_t629_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventHandlerFunction.h"
-extern TypeInfo DataEventHandlerFunction_t631_il2cpp_TypeInfo;
+extern TypeInfo DataEventHandlerFunction_t630_il2cpp_TypeInfo;
 // UnionAssets.FLE.DataEventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_DataEventHandlerFunction.h"
 extern TypeInfo InitDelegate_t419_il2cpp_TypeInfo;
@@ -1222,7 +1219,7 @@ extern TypeInfo HideUnityDelegate_t420_il2cpp_TypeInfo;
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[408] = 
+TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[407] = 
 {
 	&U3CModuleU3E_t106_il2cpp_TypeInfo,
 	&ConsoleBase_t109_il2cpp_TypeInfo,
@@ -1354,7 +1351,7 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[408] =
 	&Serializer_t262_il2cpp_TypeInfo,
 	&Json_t263_il2cpp_TypeInfo,
 	&PlayServiceUtil_t264_il2cpp_TypeInfo,
-	&SA_Singleton_1_t753_il2cpp_TypeInfo,
+	&SA_Singleton_1_t752_il2cpp_TypeInfo,
 	&U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo,
 	&WWWTextureLoader_t266_il2cpp_TypeInfo,
 	&FBAppRequestActionType_t269_il2cpp_TypeInfo,
@@ -1515,7 +1512,7 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[408] =
 	&DestroyByCollision_t493_il2cpp_TypeInfo,
 	&DialogController_t494_il2cpp_TypeInfo,
 	&DistortForEffect_t495_il2cpp_TypeInfo,
-	&EnumAccumulator_1_t756_il2cpp_TypeInfo,
+	&EnumAccumulator_1_t755_il2cpp_TypeInfo,
 	&ExplicitMouseDesc_t497_il2cpp_TypeInfo,
 	&FacebookSharing_t498_il2cpp_TypeInfo,
 	&FartPuff_t499_il2cpp_TypeInfo,
@@ -1583,7 +1580,7 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[408] =
 	&MoneyChangedEventHandler_t585_il2cpp_TypeInfo,
 	&BoostsChangedEventHandler_t586_il2cpp_TypeInfo,
 	&PlayerStats_t475_il2cpp_TypeInfo,
-	&QuasiRandomGenerator_1_t757_il2cpp_TypeInfo,
+	&QuasiRandomGenerator_1_t756_il2cpp_TypeInfo,
 	&U3CWaitAndShowDialogU3Ec__Iterator18_t588_il2cpp_TypeInfo,
 	&RateMeController_t587_il2cpp_TypeInfo,
 	&RateMeDialog_t589_il2cpp_TypeInfo,
@@ -1623,11 +1620,10 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[408] =
 	&UseBoost_t624_il2cpp_TypeInfo,
 	&U3CLaunchAppOrWebU3Ec__Iterator1B_t625_il2cpp_TypeInfo,
 	&Utilities_t626_il2cpp_TypeInfo,
-	&WelcomeUI_t627_il2cpp_TypeInfo,
-	&WorldObjectFollower_t628_il2cpp_TypeInfo,
+	&WorldObjectFollower_t627_il2cpp_TypeInfo,
 	&WorldRelativeGUIElement_t506_il2cpp_TypeInfo,
-	&EventHandlerFunction_t630_il2cpp_TypeInfo,
-	&DataEventHandlerFunction_t631_il2cpp_TypeInfo,
+	&EventHandlerFunction_t629_il2cpp_TypeInfo,
+	&DataEventHandlerFunction_t630_il2cpp_TypeInfo,
 	&InitDelegate_t419_il2cpp_TypeInfo,
 	&FacebookDelegate_t433_il2cpp_TypeInfo,
 	&HideUnityDelegate_t420_il2cpp_TypeInfo,
@@ -3164,7 +3160,7 @@ static const char* s_StringTable[1515] =
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-static const Il2CppFieldDefinition s_FieldTable[2114] = 
+static const Il2CppFieldDefinition s_FieldTable[2113] = 
 {
 	{ 0, 576, offsetof(ConsoleBase_t109, ___status_2), 0 } ,
 	{ 1, 576, offsetof(ConsoleBase_t109, ___lastResponse_3), 0 } ,
@@ -4926,8 +4922,8 @@ static const Il2CppFieldDefinition s_FieldTable[2114] =
 	{ 1255, 1282, offsetof(LevelEndTitlesLayout_t551, ___waveSpecialImage_5), 0 } ,
 	{ 1055, 100, offsetof(LevelEndTitlesLayout_t551, ___registerdForEvents_6), 0 } ,
 	{ 1256, 1440, offsetof(LevelEndTitlesLayout_t551, ___distortForEffect_7), 0 } ,
-	{ 1060, 100, offsetof(LevelEndTitlesLayout_t551, ___started_8), 0 } ,
-	{ 1257, 100, offsetof(LevelEndTitlesLayout_t551, ___waveDirty_9), 0 } ,
+	{ 1257, 100, offsetof(LevelEndTitlesLayout_t551, ___waveDirty_8), 0 } ,
+	{ 1060, 100, offsetof(LevelEndTitlesLayout_t551, ___started_9), 0 } ,
 	{ 1258, 1067, offsetof(MoneyEarningController_t552, ___moneyEffectPrototype_2), 0 } ,
 	{ 1259, 1067, offsetof(MoneyEarningController_t552, ___moneyDisplay_3), 0 } ,
 	{ 1053, 100, offsetof(MoneyEarningController_t552, ___registeredForEvents_4), 0 } ,
@@ -5268,16 +5264,15 @@ static const Il2CppFieldDefinition s_FieldTable[2114] =
 	{ 1505, 618, 0, 0 } ,
 	{ 1501, 618, 0, 0 } ,
 	{ 1506, 1616, offsetof(Utilities_t626_StaticFields, ___epoch_2), 0 } ,
-	{ 1500, 1282, offsetof(WelcomeUI_t627, ___background_2), 0 } ,
-	{ 1507, 1336, offsetof(WorldObjectFollower_t628, ___objectToFollow_7), 0 } ,
-	{ 1147, 1357, offsetof(WorldObjectFollower_t628, ___myRectTransform_8), 0 } ,
-	{ 1508, 100, offsetof(WorldObjectFollower_t628, ___followeeMoves_9), 0 } ,
-	{ 1509, 100, offsetof(WorldObjectFollower_t628, ___positionDirty_10), 0 } ,
-	{ 1208, 1408, offsetof(WorldObjectFollower_t628, ___offset_11), 0 } ,
-	{ 1510, 627, offsetof(WorldObjectFollower_t628, ___rotation_12), 0 } ,
-	{ 1095, 1621, offsetof(WorldRelativeGUIElement_t506, ___worldCamera_2), 0 } ,
-	{ 1511, 1622, offsetof(WorldRelativeGUIElement_t506, ___parentCanvas_3), 0 } ,
-	{ 1512, 1621, offsetof(WorldRelativeGUIElement_t506, ___parentCamera_4), 0 } ,
+	{ 1507, 1336, offsetof(WorldObjectFollower_t627, ___objectToFollow_7), 0 } ,
+	{ 1147, 1357, offsetof(WorldObjectFollower_t627, ___myRectTransform_8), 0 } ,
+	{ 1508, 100, offsetof(WorldObjectFollower_t627, ___followeeMoves_9), 0 } ,
+	{ 1509, 100, offsetof(WorldObjectFollower_t627, ___positionDirty_10), 0 } ,
+	{ 1208, 1408, offsetof(WorldObjectFollower_t627, ___offset_11), 0 } ,
+	{ 1510, 627, offsetof(WorldObjectFollower_t627, ___rotation_12), 0 } ,
+	{ 1095, 1619, offsetof(WorldRelativeGUIElement_t506, ___worldCamera_2), 0 } ,
+	{ 1511, 1620, offsetof(WorldRelativeGUIElement_t506, ___parentCanvas_3), 0 } ,
+	{ 1512, 1619, offsetof(WorldRelativeGUIElement_t506, ___parentCamera_4), 0 } ,
 	{ 1513, 1173, offsetof(WorldRelativeGUIElement_t506, ___parentCanvasWidth_5), 0 } ,
 	{ 1514, 1173, offsetof(WorldRelativeGUIElement_t506, ___parentCanvasHeight_6), 0 } ,
 };
@@ -11900,12 +11895,12 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	 "Assembly-CSharp.dll" ,
 	&g_AssemblyU2DCSharp_Assembly,
 	g_AssemblyU2DCSharp_Assembly_Types,
-	407,
+	406,
 	NULL,
 	s_StringTable,
 	1515,
 	s_FieldTable,
-	2114,
+	2113,
 	s_DefaultValues,
 	691,
 	s_DefaultValueDataTable,

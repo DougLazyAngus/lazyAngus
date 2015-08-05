@@ -3,6 +3,6 @@
 // System.IO.IOException
 #include "mscorlib_System_IO_IOException.h"
 // System.IO.PathTooLongException
-struct  PathTooLongException_t4450  : public IOException_t3894
+struct  PathTooLongException_t4449  : public IOException_t3893
 {
 };

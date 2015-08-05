@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XdtYearMonthDuration
-struct XdtYearMonthDuration_t3092;
+struct XdtYearMonthDuration_t3091;
 
 // System.Void Mono.Xml.Schema.XdtYearMonthDuration::.ctor()
-extern "C" void XdtYearMonthDuration__ctor_m10239 (XdtYearMonthDuration_t3092 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtYearMonthDuration__ctor_m10234 (XdtYearMonthDuration_t3091 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

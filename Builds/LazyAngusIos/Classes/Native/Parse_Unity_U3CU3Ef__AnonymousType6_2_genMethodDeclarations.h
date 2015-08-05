@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // <>f__AnonymousType6`2<System.Object,Parse.ParseObject>
-struct U3CU3Ef__AnonymousType6_2_t6056;
+struct U3CU3Ef__AnonymousType6_2_t6055;
 // System.Object
 struct Object_t;
 // Parse.ParseObject
-struct ParseObject_t1170;
+struct ParseObject_t1169;
 // System.String
 struct String_t;
 
 // System.Void <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::.ctor(<obj>j__TPar,<result>j__TPar)
 // <>f__AnonymousType6`2<System.Object,System.Object>
 #include "Parse_Unity_U3CU3Ef__AnonymousType6_2_gen_0MethodDeclarations.h"
-#define U3CU3Ef__AnonymousType6_2__ctor_m31920(__this, ___obj, ___result, method) (( void (*) (U3CU3Ef__AnonymousType6_2_t6056 *, Object_t *, ParseObject_t1170 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2__ctor_m31921_gshared)(__this, ___obj, ___result, method)
+#define U3CU3Ef__AnonymousType6_2__ctor_m31915(__this, ___obj, ___result, method) (( void (*) (U3CU3Ef__AnonymousType6_2_t6055 *, Object_t *, ParseObject_t1169 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2__ctor_m31916_gshared)(__this, ___obj, ___result, method)
 // <obj>j__TPar <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::get_obj()
-#define U3CU3Ef__AnonymousType6_2_get_obj_m31922(__this, method) (( Object_t * (*) (U3CU3Ef__AnonymousType6_2_t6056 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_get_obj_m31923_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType6_2_get_obj_m31917(__this, method) (( Object_t * (*) (U3CU3Ef__AnonymousType6_2_t6055 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_get_obj_m31918_gshared)(__this, method)
 // <result>j__TPar <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::get_result()
-#define U3CU3Ef__AnonymousType6_2_get_result_m31924(__this, method) (( ParseObject_t1170 * (*) (U3CU3Ef__AnonymousType6_2_t6056 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_get_result_m31925_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType6_2_get_result_m31919(__this, method) (( ParseObject_t1169 * (*) (U3CU3Ef__AnonymousType6_2_t6055 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_get_result_m31920_gshared)(__this, method)
 // System.String <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::ToString()
-#define U3CU3Ef__AnonymousType6_2_ToString_m31926(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType6_2_t6056 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_ToString_m31927_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType6_2_ToString_m31921(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType6_2_t6055 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_ToString_m31922_gshared)(__this, method)
 // System.Boolean <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::Equals(System.Object)
-#define U3CU3Ef__AnonymousType6_2_Equals_m31928(__this, ___value, method) (( bool (*) (U3CU3Ef__AnonymousType6_2_t6056 *, Object_t *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_Equals_m31929_gshared)(__this, ___value, method)
+#define U3CU3Ef__AnonymousType6_2_Equals_m31923(__this, ___value, method) (( bool (*) (U3CU3Ef__AnonymousType6_2_t6055 *, Object_t *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_Equals_m31924_gshared)(__this, ___value, method)
 // System.Int32 <>f__AnonymousType6`2<System.Object,Parse.ParseObject>::GetHashCode()
-#define U3CU3Ef__AnonymousType6_2_GetHashCode_m31930(__this, method) (( int32_t (*) (U3CU3Ef__AnonymousType6_2_t6056 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_GetHashCode_m31931_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType6_2_GetHashCode_m31925(__this, method) (( int32_t (*) (U3CU3Ef__AnonymousType6_2_t6055 *, const MethodInfo*))U3CU3Ef__AnonymousType6_2_GetHashCode_m31926_gshared)(__this, method)

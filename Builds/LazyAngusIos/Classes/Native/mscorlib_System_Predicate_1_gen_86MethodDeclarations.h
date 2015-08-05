@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>
-struct Predicate_1_t7906;
+struct Predicate_1_t7905;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_54.h"
 
 // System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m54882_gshared (Predicate_1_t7906 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m54882(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7906 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m54882_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m54877_gshared (Predicate_1_t7905 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m54877(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7905 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m54877_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m54883_gshared (Predicate_1_t7906 * __this, KeyValuePair_2_t6947  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m54883(__this, ___obj, method) (( bool (*) (Predicate_1_t7906 *, KeyValuePair_2_t6947 , const MethodInfo*))Predicate_1_Invoke_m54883_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m54878_gshared (Predicate_1_t7905 * __this, KeyValuePair_2_t6946  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m54878(__this, ___obj, method) (( bool (*) (Predicate_1_t7905 *, KeyValuePair_2_t6946 , const MethodInfo*))Predicate_1_Invoke_m54878_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m54884_gshared (Predicate_1_t7906 * __this, KeyValuePair_2_t6947  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m54884(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7906 *, KeyValuePair_2_t6947 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m54884_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m54879_gshared (Predicate_1_t7905 * __this, KeyValuePair_2_t6946  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m54879(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7905 *, KeyValuePair_2_t6946 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m54879_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m54885_gshared (Predicate_1_t7906 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m54885(__this, ___result, method) (( bool (*) (Predicate_1_t7906 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m54885_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m54880_gshared (Predicate_1_t7905 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m54880(__this, ___result, method) (( bool (*) (Predicate_1_t7905 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m54880_gshared)(__this, ___result, method)

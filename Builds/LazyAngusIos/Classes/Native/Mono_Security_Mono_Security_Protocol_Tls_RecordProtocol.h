@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3331;
+struct ManualResetEvent_t3330;
 // System.IO.Stream
 struct Stream_t51;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3794;
+struct Context_t3793;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.RecordProtocol
-struct  RecordProtocol_t3802  : public Object_t
+struct  RecordProtocol_t3801  : public Object_t
 {
 	// System.IO.Stream Mono.Security.Protocol.Tls.RecordProtocol::innerStream
 	Stream_t51 * ___innerStream_1;
 	// Mono.Security.Protocol.Tls.Context Mono.Security.Protocol.Tls.RecordProtocol::context
-	Context_t3794 * ___context_2;
+	Context_t3793 * ___context_2;
 };
-struct RecordProtocol_t3802_StaticFields{
+struct RecordProtocol_t3801_StaticFields{
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.RecordProtocol::record_processing
-	ManualResetEvent_t3331 * ___record_processing_0;
+	ManualResetEvent_t3330 * ___record_processing_0;
 };

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t637;
+struct ObjectU5BU5D_t636;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SimpleJson.Reflection.ReflectionUtils
-struct  ReflectionUtils_t2786  : public Object_t
+struct  ReflectionUtils_t2785  : public Object_t
 {
 };
-struct ReflectionUtils_t2786_StaticFields{
+struct ReflectionUtils_t2785_StaticFields{
 	// System.Object[] SimpleJson.Reflection.ReflectionUtils::EmptyObjects
-	ObjectU5BU5D_t637* ___EmptyObjects_0;
+	ObjectU5BU5D_t636* ___EmptyObjects_0;
 };

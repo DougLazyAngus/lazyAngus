@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UriPartial
-struct UriPartial_t4136;
+struct UriPartial_t4135;
 

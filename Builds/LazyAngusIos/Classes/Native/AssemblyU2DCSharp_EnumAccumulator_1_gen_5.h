@@ -5,7 +5,7 @@ struct Int32U5BU5D_t549;
 // System.Object
 #include "mscorlib_System_Object.h"
 // EnumAccumulator`1<System.Int32>
-struct  EnumAccumulator_1_t5645  : public Object_t
+struct  EnumAccumulator_1_t5644  : public Object_t
 {
 	// System.Int32[] EnumAccumulator`1<System.Int32>::newCount
 	Int32U5BU5D_t549* ___newCount_0;

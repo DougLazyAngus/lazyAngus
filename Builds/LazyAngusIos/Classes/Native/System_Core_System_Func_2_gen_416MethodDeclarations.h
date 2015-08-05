@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
-struct Func_2_t7250;
+struct Func_2_t7249;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>
 #include "System_Core_System_Func_2_gen_415MethodDeclarations.h"
-#define Func_2__ctor_m46833(__this, ___object, ___method, method) (( void (*) (Func_2_t7250 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m46811_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m46828(__this, ___object, ___method, method) (( void (*) (Func_2_t7249 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m46806_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>::Invoke(T)
-#define Func_2_Invoke_m46834(__this, ___arg1, method) (( KeyValuePair_2_t6145  (*) (Func_2_t7250 *, KeyValuePair_2_t7146 , const MethodInfo*))Func_2_Invoke_m46813_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m46829(__this, ___arg1, method) (( KeyValuePair_2_t6144  (*) (Func_2_t7249 *, KeyValuePair_2_t7145 , const MethodInfo*))Func_2_Invoke_m46808_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m46835(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7250 *, KeyValuePair_2_t7146 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m46815_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m46830(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7249 *, KeyValuePair_2_t7145 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m46810_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m46836(__this, ___result, method) (( KeyValuePair_2_t6145  (*) (Func_2_t7250 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m46817_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m46831(__this, ___result, method) (( KeyValuePair_2_t6144  (*) (Func_2_t7249 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m46812_gshared)(__this, ___result, method)

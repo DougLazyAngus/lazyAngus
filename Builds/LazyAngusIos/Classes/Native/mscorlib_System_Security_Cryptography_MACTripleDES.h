@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.TripleDES
-struct TripleDES_t3886;
+struct TripleDES_t3885;
 // Mono.Security.Cryptography.MACAlgorithm
-struct MACAlgorithm_t4355;
+struct MACAlgorithm_t4354;
 // System.Security.Cryptography.KeyedHashAlgorithm
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
 // System.Security.Cryptography.MACTripleDES
-struct  MACTripleDES_t4649  : public KeyedHashAlgorithm_t3788
+struct  MACTripleDES_t4648  : public KeyedHashAlgorithm_t3787
 {
 	// System.Security.Cryptography.TripleDES System.Security.Cryptography.MACTripleDES::tdes
-	TripleDES_t3886 * ___tdes_5;
+	TripleDES_t3885 * ___tdes_5;
 	// Mono.Security.Cryptography.MACAlgorithm System.Security.Cryptography.MACTripleDES::mac
-	MACAlgorithm_t4355 * ___mac_6;
+	MACAlgorithm_t4354 * ___mac_6;
 	// System.Boolean System.Security.Cryptography.MACTripleDES::m_disposed
 	bool ___m_disposed_7;
 };

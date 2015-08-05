@@ -5,7 +5,7 @@ struct Int32U5BU5D_t549;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Random
-struct  Random_t2766  : public Object_t
+struct  Random_t2765  : public Object_t
 {
 	// System.Int32 System.Random::inext
 	int32_t ___inext_0;

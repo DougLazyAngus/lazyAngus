@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
-struct List_1_t3909;
+struct List_1_t3908;
 // System.Collections.Generic.RBTree/Node
-struct Node_t3905;
+struct Node_t3904;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>
-struct  Enumerator_t5604 
+struct  Enumerator_t5603 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::l
-	List_1_t3909 * ___l_0;
+	List_1_t3908 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>::current
-	Node_t3905 * ___current_3;
+	Node_t3904 * ___current_3;
 };

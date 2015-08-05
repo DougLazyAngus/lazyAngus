@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GradientColorKey
-struct GradientColorKey_t2658;
+struct GradientColorKey_t2657;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.GradientColorKey::.ctor(UnityEngine.Color,System.Single)
-extern "C" void GradientColorKey__ctor_m8564 (GradientColorKey_t2658 * __this, Color_t325  ___col, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GradientColorKey__ctor_m8559 (GradientColorKey_t2657 * __this, Color_t325  ___col, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

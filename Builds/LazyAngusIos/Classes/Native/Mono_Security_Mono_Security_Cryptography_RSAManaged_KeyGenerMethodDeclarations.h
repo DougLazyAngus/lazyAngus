@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
-struct KeyGeneratedEventHandler_t3757;
+struct KeyGeneratedEventHandler_t3756;
 // System.Object
 struct Object_t;
 // System.EventArgs
-struct EventArgs_t1247;
+struct EventArgs_t1246;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void KeyGeneratedEventHandler__ctor_m12177 (KeyGeneratedEventHandler_t3757 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyGeneratedEventHandler__ctor_m12172 (KeyGeneratedEventHandler_t3756 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::Invoke(System.Object,System.EventArgs)
-extern "C" void KeyGeneratedEventHandler_Invoke_m12178 (KeyGeneratedEventHandler_t3757 * __this, Object_t * ___sender, EventArgs_t1247 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t3757(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1247 * ___e);
+extern "C" void KeyGeneratedEventHandler_Invoke_m12173 (KeyGeneratedEventHandler_t3756 * __this, Object_t * ___sender, EventArgs_t1246 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t3756(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1246 * ___e);
 // System.IAsyncResult Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * KeyGeneratedEventHandler_BeginInvoke_m12179 (KeyGeneratedEventHandler_t3757 * __this, Object_t * ___sender, EventArgs_t1247 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * KeyGeneratedEventHandler_BeginInvoke_m12174 (KeyGeneratedEventHandler_t3756 * __this, Object_t * ___sender, EventArgs_t1246 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void KeyGeneratedEventHandler_EndInvoke_m12180 (KeyGeneratedEventHandler_t3757 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyGeneratedEventHandler_EndInvoke_m12175 (KeyGeneratedEventHandler_t3756 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

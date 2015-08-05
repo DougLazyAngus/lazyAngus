@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.WebConnectionData
-struct WebConnectionData_t4026;
+struct WebConnectionData_t4025;
 
 // System.Void System.Net.WebConnectionData::.ctor()
-extern "C" void WebConnectionData__ctor_m13963 (WebConnectionData_t4026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebConnectionData__ctor_m13958 (WebConnectionData_t4025 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

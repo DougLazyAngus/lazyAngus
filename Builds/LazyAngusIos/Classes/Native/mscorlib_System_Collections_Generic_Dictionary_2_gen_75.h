@@ -3,30 +3,30 @@
 // System.Int32[]
 struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5347;
+struct LinkU5BU5D_t5346;
 // UnityEngine.Event[]
-struct EventU5BU5D_t8474;
+struct EventU5BU5D_t8473;
 // UnityEngine.TextEditor/TextEditOp[]
-struct TextEditOpU5BU5D_t8475;
+struct TextEditOpU5BU5D_t8474;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.Event>
-struct IEqualityComparer_1_t8476;
+struct IEqualityComparer_1_t8475;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2871;
+struct SerializationInfo_t2870;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp,System.Collections.DictionaryEntry>
-struct Transform_1_t8477;
+struct Transform_1_t8476;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  Dictionary_2_t2832  : public Object_t
+struct  Dictionary_2_t2831  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::table
 	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::linkSlots
-	LinkU5BU5D_t5347* ___linkSlots_5;
+	LinkU5BU5D_t5346* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::keySlots
-	EventU5BU5D_t8474* ___keySlots_6;
+	EventU5BU5D_t8473* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::valueSlots
-	TextEditOpU5BU5D_t8475* ___valueSlots_7;
+	TextEditOpU5BU5D_t8474* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t2832  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::serialization_info
-	SerializationInfo_t2871 * ___serialization_info_13;
+	SerializationInfo_t2870 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t2832_StaticFields{
+struct Dictionary_2_t2831_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::<>f__am$cacheB
-	Transform_1_t8477 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t8476 * ___U3CU3Ef__amU24cacheB_15;
 };

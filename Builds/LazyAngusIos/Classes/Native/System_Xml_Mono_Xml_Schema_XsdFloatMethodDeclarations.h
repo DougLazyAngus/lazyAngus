@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdFloat
-struct XsdFloat_t3083;
+struct XsdFloat_t3082;
 
 // System.Void Mono.Xml.Schema.XsdFloat::.ctor()
-extern "C" void XsdFloat__ctor_m10224 (XsdFloat_t3083 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdFloat__ctor_m10219 (XsdFloat_t3082 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

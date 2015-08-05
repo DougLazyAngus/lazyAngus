@@ -3,6 +3,6 @@
 // UnityEngine.YieldInstruction
 #include "UnityEngine_UnityEngine_YieldInstruction.h"
 // UnityEngine.WaitForFixedUpdate
-struct  WaitForFixedUpdate_t2641  : public YieldInstruction_t2640
+struct  WaitForFixedUpdate_t2640  : public YieldInstruction_t2639
 {
 };

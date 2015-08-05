@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
-struct ClientCertificateTypeU5BU5D_t3838;
+struct ClientCertificateTypeU5BU5D_t3837;
 // System.String[]
 struct StringU5BU5D_t75;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest
-struct  TlsServerCertificateRequest_t3848  : public HandshakeMessage_t3818
+struct  TlsServerCertificateRequest_t3847  : public HandshakeMessage_t3817
 {
 	// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::certificateTypes
-	ClientCertificateTypeU5BU5D_t3838* ___certificateTypes_9;
+	ClientCertificateTypeU5BU5D_t3837* ___certificateTypes_9;
 	// System.String[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::distinguisedNames
 	StringU5BU5D_t75* ___distinguisedNames_10;
 };

@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaType
-struct XmlSchemaType_t3110;
+struct XmlSchemaType_t3109;
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3052;
+struct XmlSchemaDatatype_t3051;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3115;
+struct XmlQualifiedName_t3114;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaAnnotated
@@ -13,18 +13,18 @@ struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaType
-struct  XmlSchemaType_t3110  : public XmlSchemaAnnotated_t3101
+struct  XmlSchemaType_t3109  : public XmlSchemaAnnotated_t3100
 {
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaType::final
 	int32_t ___final_3;
 	// System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaType::BaseXmlSchemaTypeInternal
-	XmlSchemaType_t3110 * ___BaseXmlSchemaTypeInternal_4;
+	XmlSchemaType_t3109 * ___BaseXmlSchemaTypeInternal_4;
 	// System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaType::DatatypeInternal
-	XmlSchemaDatatype_t3052 * ___DatatypeInternal_5;
+	XmlSchemaDatatype_t3051 * ___DatatypeInternal_5;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::QNameInternal
-	XmlQualifiedName_t3115 * ___QNameInternal_6;
+	XmlQualifiedName_t3114 * ___QNameInternal_6;
 };
-struct XmlSchemaType_t3110_StaticFields{
+struct XmlSchemaType_t3109_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaType::<>f__switch$map2E
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2E_7;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaType::<>f__switch$map2F

@@ -20,11 +20,11 @@ extern "C" void PreviewScreenUtil__ctor_m2190 (PreviewScreenUtil_t405 * __this, 
 // System.Void PreviewScreenUtil::.cctor()
 extern "C" void PreviewScreenUtil__cctor_m2191 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean PreviewScreenUtil::isInScreenRect(UnityEngine.Rect,UnityEngine.Vector2)
-extern "C" bool PreviewScreenUtil_isInScreenRect_m2192 (Object_t * __this /* static, unused */, Rect_t649  ___rect, Vector2_t110  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PreviewScreenUtil_isInScreenRect_m2192 (Object_t * __this /* static, unused */, Rect_t648  ___rect, Vector2_t110  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect PreviewScreenUtil::getObjectBounds(UnityEngine.GameObject)
-extern "C" Rect_t649  PreviewScreenUtil_getObjectBounds_m2193 (Object_t * __this /* static, unused */, GameObject_t352 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t648  PreviewScreenUtil_getObjectBounds_m2193 (Object_t * __this /* static, unused */, GameObject_t352 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect PreviewScreenUtil::getRendererBounds(UnityEngine.Renderer)
-extern "C" Rect_t649  PreviewScreenUtil_getRendererBounds_m2194 (Object_t * __this /* static, unused */, Renderer_t564 * ___renderer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t648  PreviewScreenUtil_getRendererBounds_m2194 (Object_t * __this /* static, unused */, Renderer_t564 * ___renderer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PreviewScreenUtil::Awake()
 extern "C" void PreviewScreenUtil_Awake_m2195 (PreviewScreenUtil_t405 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PreviewScreenUtil::FixedUpdate()

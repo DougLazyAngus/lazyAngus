@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.MemberExpression
-struct MemberExpression_t1478;
+struct MemberExpression_t1477;
 // System.Linq.Expressions.Expression
-struct Expression_t1471;
+struct Expression_t1470;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Type
 struct Type_t;
 
 // System.Void System.Linq.Expressions.MemberExpression::.ctor(System.Linq.Expressions.Expression,System.Reflection.MemberInfo,System.Type)
-extern "C" void MemberExpression__ctor_m11456 (MemberExpression_t1478 * __this, Expression_t1471 * ___expression, MemberInfo_t * ___member, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberExpression__ctor_m11451 (MemberExpression_t1477 * __this, Expression_t1470 * ___expression, MemberInfo_t * ___member, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.MemberExpression::get_Expression()
-extern "C" Expression_t1471 * MemberExpression_get_Expression_m11457 (MemberExpression_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1470 * MemberExpression_get_Expression_m11452 (MemberExpression_t1477 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberInfo System.Linq.Expressions.MemberExpression::get_Member()
-extern "C" MemberInfo_t * MemberExpression_get_Member_m11458 (MemberExpression_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MemberInfo_t * MemberExpression_get_Member_m11453 (MemberExpression_t1477 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

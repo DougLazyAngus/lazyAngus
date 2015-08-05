@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.Prime.PrimalityTest
-struct PrimalityTest_t3853;
+struct PrimalityTest_t3852;
 // System.Object
 struct Object_t;
 // Mono.Math.BigInteger
-struct BigInteger_t3730;
+struct BigInteger_t3729;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,11 +20,11 @@ struct AsyncCallback_t386;
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern "C" void PrimalityTest__ctor_m12860 (PrimalityTest_t3853 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrimalityTest__ctor_m12855 (PrimalityTest_t3852 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTest_Invoke_m12861 (PrimalityTest_t3853 * __this, BigInteger_t3730 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t3853(Il2CppObject* delegate, BigInteger_t3730 * ___bi, int32_t ___confidence);
+extern "C" bool PrimalityTest_Invoke_m12856 (PrimalityTest_t3852 * __this, BigInteger_t3729 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t3852(Il2CppObject* delegate, BigInteger_t3729 * ___bi, int32_t ___confidence);
 // System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern "C" Object_t * PrimalityTest_BeginInvoke_m12862 (PrimalityTest_t3853 * __this, BigInteger_t3730 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PrimalityTest_BeginInvoke_m12857 (PrimalityTest_t3852 * __this, BigInteger_t3729 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern "C" bool PrimalityTest_EndInvoke_m12863 (PrimalityTest_t3853 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTest_EndInvoke_m12858 (PrimalityTest_t3852 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

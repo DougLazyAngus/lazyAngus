@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AssetBundleCreateRequest
-struct AssetBundleCreateRequest_t2632;
+struct AssetBundleCreateRequest_t2631;
 // UnityEngine.AssetBundle
-struct AssetBundle_t2634;
+struct AssetBundle_t2633;
 
 // System.Void UnityEngine.AssetBundleCreateRequest::.ctor()
-extern "C" void AssetBundleCreateRequest__ctor_m8435 (AssetBundleCreateRequest_t2632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleCreateRequest__ctor_m8430 (AssetBundleCreateRequest_t2631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
-extern "C" AssetBundle_t2634 * AssetBundleCreateRequest_get_assetBundle_m8436 (AssetBundleCreateRequest_t2632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AssetBundle_t2633 * AssetBundleCreateRequest_get_assetBundle_m8431 (AssetBundleCreateRequest_t2631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks()
-extern "C" void AssetBundleCreateRequest_DisableCompatibilityChecks_m8437 (AssetBundleCreateRequest_t2632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleCreateRequest_DisableCompatibilityChecks_m8432 (AssetBundleCreateRequest_t2631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

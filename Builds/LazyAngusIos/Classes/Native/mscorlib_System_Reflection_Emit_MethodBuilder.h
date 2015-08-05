@@ -3,15 +3,15 @@
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1152;
+struct TypeU5BU5D_t1151;
 // System.String
 struct String_t;
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t4464;
+struct TypeBuilder_t4463;
 // System.Reflection.Emit.ParameterBuilder[]
-struct ParameterBuilderU5BU5D_t4465;
+struct ParameterBuilderU5BU5D_t4464;
 // System.Reflection.Emit.GenericTypeParameterBuilder[]
-struct GenericTypeParameterBuilderU5BU5D_t4472;
+struct GenericTypeParameterBuilderU5BU5D_t4471;
 // System.Reflection.MethodInfo
 #include "mscorlib_System_Reflection_MethodInfo.h"
 // System.Reflection.MethodAttributes
@@ -19,22 +19,22 @@ struct GenericTypeParameterBuilderU5BU5D_t4472;
 // System.Reflection.CallingConventions
 #include "mscorlib_System_Reflection_CallingConventions.h"
 // System.Reflection.Emit.MethodBuilder
-struct  MethodBuilder_t4470  : public MethodInfo_t
+struct  MethodBuilder_t4469  : public MethodInfo_t
 {
 	// System.Type System.Reflection.Emit.MethodBuilder::rtype
 	Type_t * ___rtype_0;
 	// System.Type[] System.Reflection.Emit.MethodBuilder::parameters
-	TypeU5BU5D_t1152* ___parameters_1;
+	TypeU5BU5D_t1151* ___parameters_1;
 	// System.Reflection.MethodAttributes System.Reflection.Emit.MethodBuilder::attrs
 	int32_t ___attrs_2;
 	// System.String System.Reflection.Emit.MethodBuilder::name
 	String_t* ___name_3;
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.MethodBuilder::type
-	TypeBuilder_t4464 * ___type_4;
+	TypeBuilder_t4463 * ___type_4;
 	// System.Reflection.Emit.ParameterBuilder[] System.Reflection.Emit.MethodBuilder::pinfo
-	ParameterBuilderU5BU5D_t4465* ___pinfo_5;
+	ParameterBuilderU5BU5D_t4464* ___pinfo_5;
 	// System.Reflection.CallingConventions System.Reflection.Emit.MethodBuilder::call_conv
 	int32_t ___call_conv_6;
 	// System.Reflection.Emit.GenericTypeParameterBuilder[] System.Reflection.Emit.MethodBuilder::generic_params
-	GenericTypeParameterBuilderU5BU5D_t4472* ___generic_params_7;
+	GenericTypeParameterBuilderU5BU5D_t4471* ___generic_params_7;
 };

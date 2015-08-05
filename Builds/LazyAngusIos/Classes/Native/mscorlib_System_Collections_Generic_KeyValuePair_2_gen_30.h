@@ -7,7 +7,7 @@ struct TweetTemplate_t323;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>
-struct  KeyValuePair_2_t5572 
+struct  KeyValuePair_2_t5571 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,TweetTemplate>::key
 	String_t* ___key_0;

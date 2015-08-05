@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct EqualityComparer_1_t5709;
+struct EqualityComparer_1_t5708;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.RaycastResult
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m27305_gshared (EqualityComparer_1_t5709 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m27305(__this, method) (( void (*) (EqualityComparer_1_t5709 *, const MethodInfo*))EqualityComparer_1__ctor_m27305_gshared)(__this, method)
+extern "C" void EqualityComparer_1__ctor_m27300_gshared (EqualityComparer_1_t5708 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m27300(__this, method) (( void (*) (EqualityComparer_1_t5708 *, const MethodInfo*))EqualityComparer_1__ctor_m27300_gshared)(__this, method)
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m27306_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m27306(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m27306_gshared)(__this /* static, unused */, method)
+extern "C" void EqualityComparer_1__cctor_m27301_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m27301(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m27301_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27307_gshared (EqualityComparer_1_t5709 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27307(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t5709 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27307_gshared)(__this, ___obj, method)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27302_gshared (EqualityComparer_1_t5708 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27302(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t5708 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m27302_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27308_gshared (EqualityComparer_1_t5709 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27308(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t5709 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27308_gshared)(__this, ___x, ___y, method)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27303_gshared (EqualityComparer_1_t5708 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27303(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t5708 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m27303_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::GetHashCode(T)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::Equals(T,T)
 // System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::get_Default()
-extern "C" EqualityComparer_1_t5709 * EqualityComparer_1_get_Default_m27309_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m27309(__this /* static, unused */, method) (( EqualityComparer_1_t5709 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m27309_gshared)(__this /* static, unused */, method)
+extern "C" EqualityComparer_1_t5708 * EqualityComparer_1_get_Default_m27304_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m27304(__this /* static, unused */, method) (( EqualityComparer_1_t5708 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m27304_gshared)(__this /* static, unused */, method)

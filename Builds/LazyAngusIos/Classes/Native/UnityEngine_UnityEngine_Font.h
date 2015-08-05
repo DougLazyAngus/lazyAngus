@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Action`1<UnityEngine.Font>
-struct Action_1_t1004;
+struct Action_1_t1003;
 // UnityEngine.Font/FontTextureRebuildCallback
-struct FontTextureRebuildCallback_t2740;
+struct FontTextureRebuildCallback_t2739;
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Font
-struct  Font_t854  : public Object_t654
+struct  Font_t853  : public Object_t653
 {
 	// UnityEngine.Font/FontTextureRebuildCallback UnityEngine.Font::m_FontTextureRebuildCallback
-	FontTextureRebuildCallback_t2740 * ___m_FontTextureRebuildCallback_3;
+	FontTextureRebuildCallback_t2739 * ___m_FontTextureRebuildCallback_3;
 };
-struct Font_t854_StaticFields{
+struct Font_t853_StaticFields{
 	// System.Action`1<UnityEngine.Font> UnityEngine.Font::textureRebuilt
-	Action_1_t1004 * ___textureRebuilt_2;
+	Action_1_t1003 * ___textureRebuilt_2;
 };

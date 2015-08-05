@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1327;
+struct IParseFieldOperation_t1326;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,Parse.Internal.IParseFieldOperation>
-struct  Func_2_t1233  : public MulticastDelegate_t388
+struct  Func_2_t1232  : public MulticastDelegate_t388
 {
 };

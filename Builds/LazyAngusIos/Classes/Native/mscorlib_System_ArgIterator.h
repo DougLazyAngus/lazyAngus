@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.ArgIterator
-struct  ArgIterator_t4311 
+struct  ArgIterator_t4310 
 {
 	// System.IntPtr System.ArgIterator::sig
 	IntPtr_t ___sig_0;

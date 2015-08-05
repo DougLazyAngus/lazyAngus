@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityAction`1<System.Single>
-struct UnityAction_1_t1025;
+struct UnityAction_1_t1024;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m5835_gshared (UnityAction_1_t1025 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m5835(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1025 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5835_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_1__ctor_m5830_gshared (UnityAction_1_t1024 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_1__ctor_m5830(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1024 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5830_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::Invoke(T0)
-extern "C" void UnityAction_1_Invoke_m29053_gshared (UnityAction_1_t1025 * __this, float ___arg0, const MethodInfo* method);
-#define UnityAction_1_Invoke_m29053(__this, ___arg0, method) (( void (*) (UnityAction_1_t1025 *, float, const MethodInfo*))UnityAction_1_Invoke_m29053_gshared)(__this, ___arg0, method)
+extern "C" void UnityAction_1_Invoke_m29048_gshared (UnityAction_1_t1024 * __this, float ___arg0, const MethodInfo* method);
+#define UnityAction_1_Invoke_m29048(__this, ___arg0, method) (( void (*) (UnityAction_1_t1024 *, float, const MethodInfo*))UnityAction_1_Invoke_m29048_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Single>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_1_BeginInvoke_m29054_gshared (UnityAction_1_t1025 * __this, float ___arg0, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAction_1_BeginInvoke_m29054(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t1025 *, float, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m29054_gshared)(__this, ___arg0, ___callback, ___object, method)
+extern "C" Object_t * UnityAction_1_BeginInvoke_m29049_gshared (UnityAction_1_t1024 * __this, float ___arg0, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define UnityAction_1_BeginInvoke_m29049(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t1024 *, float, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m29049_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_1_EndInvoke_m29055_gshared (UnityAction_1_t1025 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAction_1_EndInvoke_m29055(__this, ___result, method) (( void (*) (UnityAction_1_t1025 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m29055_gshared)(__this, ___result, method)
+extern "C" void UnityAction_1_EndInvoke_m29050_gshared (UnityAction_1_t1024 * __this, Object_t * ___result, const MethodInfo* method);
+#define UnityAction_1_EndInvoke_m29050(__this, ___result, method) (( void (*) (UnityAction_1_t1024 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m29050_gshared)(__this, ___result, method)

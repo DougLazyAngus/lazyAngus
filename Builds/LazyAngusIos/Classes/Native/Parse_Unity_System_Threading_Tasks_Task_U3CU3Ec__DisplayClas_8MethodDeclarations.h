@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Int32>
-struct U3CU3Ec__DisplayClass5_t8286;
+struct U3CU3Ec__DisplayClass5_t8285;
 
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Int32>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass5__ctor_m59227_gshared (U3CU3Ec__DisplayClass5_t8286 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass5__ctor_m59227(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t8286 *, const MethodInfo*))U3CU3Ec__DisplayClass5__ctor_m59227_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass5__ctor_m59222_gshared (U3CU3Ec__DisplayClass5_t8285 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass5__ctor_m59222(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t8285 *, const MethodInfo*))U3CU3Ec__DisplayClass5__ctor_m59222_gshared)(__this, method)
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Int32>::<ContinueWith>b__2()
-extern "C" void U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59228_gshared (U3CU3Ec__DisplayClass5_t8286 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59228(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t8286 *, const MethodInfo*))U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59228_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59223_gshared (U3CU3Ec__DisplayClass5_t8285 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59223(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t8285 *, const MethodInfo*))U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m59223_gshared)(__this, method)

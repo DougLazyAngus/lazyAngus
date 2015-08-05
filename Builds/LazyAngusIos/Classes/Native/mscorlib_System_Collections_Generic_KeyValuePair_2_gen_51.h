@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // Parse.Internal.IParseAuthenticationProvider
-struct IParseAuthenticationProvider_t1362;
+struct IParseAuthenticationProvider_t1361;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>
-struct  KeyValuePair_2_t6228 
+struct  KeyValuePair_2_t6227 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::key
 	String_t* ___key_0;

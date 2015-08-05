@@ -5,7 +5,7 @@ struct String_t;
 // UnityEngine.Networking.Match.ResponseBase
 #include "UnityEngine_UnityEngine_Networking_Match_ResponseBase.h"
 // UnityEngine.Networking.Match.Response
-struct  Response_t2746  : public ResponseBase_t2745
+struct  Response_t2745  : public ResponseBase_t2744
 {
 	// System.Boolean UnityEngine.Networking.Match.Response::<success>k__BackingField
 	bool ___U3CsuccessU3Ek__BackingField_0;

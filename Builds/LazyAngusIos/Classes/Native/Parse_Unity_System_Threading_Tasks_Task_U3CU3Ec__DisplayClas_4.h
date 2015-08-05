@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-struct TaskCompletionSource_1_t1281;
+struct TaskCompletionSource_1_t1280;
 // System.Func`2<System.Threading.Tasks.Task,System.Object>
-struct Func_2_t1384;
+struct Func_2_t1383;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationTokenRegistration
 #include "Parse_Unity_System_Threading_CancellationTokenRegistration.h"
 // System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>
-struct  U3CU3Ec__DisplayClass3_1_t5899  : public Object_t
+struct  U3CU3Ec__DisplayClass3_1_t5898  : public Object_t
 {
 	// System.Threading.Tasks.TaskCompletionSource`1<T> System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>::tcs
-	TaskCompletionSource_1_t1281 * ___tcs_0;
+	TaskCompletionSource_1_t1280 * ___tcs_0;
 	// System.Threading.CancellationTokenRegistration System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>::cancellation
-	CancellationTokenRegistration_t1291  ___cancellation_1;
+	CancellationTokenRegistration_t1290  ___cancellation_1;
 	// System.Func`2<System.Threading.Tasks.Task,T> System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>::continuation
-	Func_2_t1384 * ___continuation_2;
+	Func_2_t1383 * ___continuation_2;
 };

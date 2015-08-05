@@ -3,9 +3,9 @@
 // UnityEngine.RectTransform
 struct RectTransform_t503;
 // UnityEngine.UI.Scrollbar
-struct Scrollbar_t903;
+struct Scrollbar_t902;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
-struct ScrollRectEvent_t907;
+struct ScrollRectEvent_t906;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t504;
 // UnityEngine.EventSystems.UIBehaviour
@@ -17,7 +17,7 @@ struct Vector3U5BU5D_t504;
 // UnityEngine.Bounds
 #include "UnityEngine_UnityEngine_Bounds.h"
 // UnityEngine.UI.ScrollRect
-struct  ScrollRect_t909  : public UIBehaviour_t788
+struct  ScrollRect_t908  : public UIBehaviour_t787
 {
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_Content
 	RectTransform_t503 * ___m_Content_2;
@@ -36,11 +36,11 @@ struct  ScrollRect_t909  : public UIBehaviour_t788
 	// System.Single UnityEngine.UI.ScrollRect::m_ScrollSensitivity
 	float ___m_ScrollSensitivity_9;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::m_HorizontalScrollbar
-	Scrollbar_t903 * ___m_HorizontalScrollbar_10;
+	Scrollbar_t902 * ___m_HorizontalScrollbar_10;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::m_VerticalScrollbar
-	Scrollbar_t903 * ___m_VerticalScrollbar_11;
+	Scrollbar_t902 * ___m_VerticalScrollbar_11;
 	// UnityEngine.UI.ScrollRect/ScrollRectEvent UnityEngine.UI.ScrollRect::m_OnValueChanged
-	ScrollRectEvent_t907 * ___m_OnValueChanged_12;
+	ScrollRectEvent_t906 * ___m_OnValueChanged_12;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_PointerStartLocalCursor
 	Vector2_t110  ___m_PointerStartLocalCursor_13;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_ContentStartPosition
@@ -48,9 +48,9 @@ struct  ScrollRect_t909  : public UIBehaviour_t788
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_ViewRect
 	RectTransform_t503 * ___m_ViewRect_15;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_ContentBounds
-	Bounds_t717  ___m_ContentBounds_16;
+	Bounds_t716  ___m_ContentBounds_16;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_ViewBounds
-	Bounds_t717  ___m_ViewBounds_17;
+	Bounds_t716  ___m_ViewBounds_17;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_Velocity
 	Vector2_t110  ___m_Velocity_18;
 	// System.Boolean UnityEngine.UI.ScrollRect::m_Dragging
@@ -58,9 +58,9 @@ struct  ScrollRect_t909  : public UIBehaviour_t788
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_PrevPosition
 	Vector2_t110  ___m_PrevPosition_20;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_PrevContentBounds
-	Bounds_t717  ___m_PrevContentBounds_21;
+	Bounds_t716  ___m_PrevContentBounds_21;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_PrevViewBounds
-	Bounds_t717  ___m_PrevViewBounds_22;
+	Bounds_t716  ___m_PrevViewBounds_22;
 	// System.Boolean UnityEngine.UI.ScrollRect::m_HasRebuiltLayout
 	bool ___m_HasRebuiltLayout_23;
 	// UnityEngine.Vector3[] UnityEngine.UI.ScrollRect::m_Corners

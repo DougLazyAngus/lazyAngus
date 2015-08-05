@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNameTable
-struct  XmlNameTable_t3135  : public Object_t
+struct  XmlNameTable_t3134  : public Object_t
 {
 };

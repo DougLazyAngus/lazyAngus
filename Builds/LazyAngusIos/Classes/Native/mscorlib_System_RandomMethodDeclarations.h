@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Random
-struct Random_t2766;
+struct Random_t2765;
 
 // System.Void System.Random::.ctor()
-extern "C" void Random__ctor_m14893 (Random_t2766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Random__ctor_m14888 (Random_t2765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Random::.ctor(System.Int32)
-extern "C" void Random__ctor_m9883 (Random_t2766 * __this, int32_t ___Seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Random__ctor_m9878 (Random_t2765 * __this, int32_t ___Seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Random::Sample()
-extern "C" double Random_Sample_m19767 (Random_t2766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Random_Sample_m19762 (Random_t2765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Random::Next(System.Int32,System.Int32)
-extern "C" int32_t Random_Next_m19768 (Random_t2766 * __this, int32_t ___minValue, int32_t ___maxValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Random_Next_m19763 (Random_t2765 * __this, int32_t ___minValue, int32_t ___maxValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

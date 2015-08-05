@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.BackslashNumber
-struct BackslashNumber_t4125;
+struct BackslashNumber_t4124;
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t1278;
+struct Hashtable_t1277;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4145;
+struct ICompiler_t4144;
 
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::.ctor(System.Boolean,System.Boolean)
-extern "C" void BackslashNumber__ctor_m14687 (BackslashNumber_t4125 * __this, bool ___ignore, bool ___ecma, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BackslashNumber__ctor_m14682 (BackslashNumber_t4124 * __this, bool ___ignore, bool ___ecma, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.BackslashNumber::ResolveReference(System.String,System.Collections.Hashtable)
-extern "C" bool BackslashNumber_ResolveReference_m14688 (BackslashNumber_t4125 * __this, String_t* ___num_str, Hashtable_t1278 * ___groups, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BackslashNumber_ResolveReference_m14683 (BackslashNumber_t4124 * __this, String_t* ___num_str, Hashtable_t1277 * ___groups, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void BackslashNumber_Compile_m14689 (BackslashNumber_t4125 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BackslashNumber_Compile_m14684 (BackslashNumber_t4124 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

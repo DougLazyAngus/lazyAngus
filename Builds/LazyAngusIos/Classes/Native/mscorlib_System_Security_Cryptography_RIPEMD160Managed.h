@@ -3,18 +3,18 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
-struct UInt32U5BU5D_t3171;
+struct UInt32U5BU5D_t3170;
 // System.Security.Cryptography.RIPEMD160
 #include "mscorlib_System_Security_Cryptography_RIPEMD160.h"
 // System.Security.Cryptography.RIPEMD160Managed
-struct  RIPEMD160Managed_t4655  : public RIPEMD160_t4654
+struct  RIPEMD160Managed_t4654  : public RIPEMD160_t4653
 {
 	// System.Byte[] System.Security.Cryptography.RIPEMD160Managed::_ProcessingBuffer
 	ByteU5BU5D_t66* ____ProcessingBuffer_4;
 	// System.UInt32[] System.Security.Cryptography.RIPEMD160Managed::_X
-	UInt32U5BU5D_t3171* ____X_5;
+	UInt32U5BU5D_t3170* ____X_5;
 	// System.UInt32[] System.Security.Cryptography.RIPEMD160Managed::_HashValue
-	UInt32U5BU5D_t3171* ____HashValue_6;
+	UInt32U5BU5D_t3170* ____HashValue_6;
 	// System.UInt64 System.Security.Cryptography.RIPEMD160Managed::_Length
 	uint64_t ____Length_7;
 	// System.Int32 System.Security.Cryptography.RIPEMD160Managed::_ProcessingBufferCount

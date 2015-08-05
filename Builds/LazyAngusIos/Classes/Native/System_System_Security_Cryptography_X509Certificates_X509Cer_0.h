@@ -1,44 +1,44 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.X509Certificates.X509ExtensionCollection
-struct X509ExtensionCollection_t4046;
+struct X509ExtensionCollection_t4045;
 // System.String
 struct String_t;
 // System.Security.Cryptography.X509Certificates.PublicKey
-struct PublicKey_t4039;
+struct PublicKey_t4038;
 // System.Security.Cryptography.X509Certificates.X500DistinguishedName
-struct X500DistinguishedName_t4042;
+struct X500DistinguishedName_t4041;
 // System.Security.Cryptography.Oid
-struct Oid_t4038;
+struct Oid_t4037;
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t3767;
+struct X509Certificate_t3766;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Security.Cryptography.X509Certificates.X509Certificate
 #include "mscorlib_System_Security_Cryptography_X509Certificates_X509C.h"
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-struct  X509Certificate2_t3890  : public X509Certificate_t3836
+struct  X509Certificate2_t3889  : public X509Certificate_t3835
 {
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509Certificate2::_archived
 	bool ____archived_5;
 	// System.Security.Cryptography.X509Certificates.X509ExtensionCollection System.Security.Cryptography.X509Certificates.X509Certificate2::_extensions
-	X509ExtensionCollection_t4046 * ____extensions_6;
+	X509ExtensionCollection_t4045 * ____extensions_6;
 	// System.String System.Security.Cryptography.X509Certificates.X509Certificate2::_name
 	String_t* ____name_7;
 	// System.String System.Security.Cryptography.X509Certificates.X509Certificate2::_serial
 	String_t* ____serial_8;
 	// System.Security.Cryptography.X509Certificates.PublicKey System.Security.Cryptography.X509Certificates.X509Certificate2::_publicKey
-	PublicKey_t4039 * ____publicKey_9;
+	PublicKey_t4038 * ____publicKey_9;
 	// System.Security.Cryptography.X509Certificates.X500DistinguishedName System.Security.Cryptography.X509Certificates.X509Certificate2::issuer_name
-	X500DistinguishedName_t4042 * ___issuer_name_10;
+	X500DistinguishedName_t4041 * ___issuer_name_10;
 	// System.Security.Cryptography.X509Certificates.X500DistinguishedName System.Security.Cryptography.X509Certificates.X509Certificate2::subject_name
-	X500DistinguishedName_t4042 * ___subject_name_11;
+	X500DistinguishedName_t4041 * ___subject_name_11;
 	// System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.X509Certificate2::signature_algorithm
-	Oid_t4038 * ___signature_algorithm_12;
+	Oid_t4037 * ___signature_algorithm_12;
 	// Mono.Security.X509.X509Certificate System.Security.Cryptography.X509Certificates.X509Certificate2::_cert
-	X509Certificate_t3767 * ____cert_13;
+	X509Certificate_t3766 * ____cert_13;
 };
-struct X509Certificate2_t3890_StaticFields{
+struct X509Certificate2_t3889_StaticFields{
 	// System.String System.Security.Cryptography.X509Certificates.X509Certificate2::empty_error
 	String_t* ___empty_error_14;
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509Certificate2::commonName

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Activator
-struct  Activator_t4734  : public Object_t
+struct  Activator_t4733  : public Object_t
 {
 };

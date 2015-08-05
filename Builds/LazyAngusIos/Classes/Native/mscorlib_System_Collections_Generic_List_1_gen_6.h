@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // GoogleMobileAdBanner[]
-struct GoogleMobileAdBannerU5BU5D_t5456;
+struct GoogleMobileAdBannerU5BU5D_t5455;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct  List_1_t636  : public Object_t
+struct  List_1_t635  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<GoogleMobileAdBanner>::_items
-	GoogleMobileAdBannerU5BU5D_t5456* ____items_1;
+	GoogleMobileAdBannerU5BU5D_t5455* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<GoogleMobileAdBanner>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<GoogleMobileAdBanner>::_version
 	int32_t ____version_3;
 };
-struct List_1_t636_StaticFields{
+struct List_1_t635_StaticFields{
 	// T[] System.Collections.Generic.List`1<GoogleMobileAdBanner>::EmptyArray
-	GoogleMobileAdBannerU5BU5D_t5456* ___EmptyArray_4;
+	GoogleMobileAdBannerU5BU5D_t5455* ___EmptyArray_4;
 };

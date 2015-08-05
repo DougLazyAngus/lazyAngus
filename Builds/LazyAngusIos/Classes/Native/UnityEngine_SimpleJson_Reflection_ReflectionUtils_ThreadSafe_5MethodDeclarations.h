@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>
-struct ThreadSafeDictionaryValueFactory_2_t8426;
+struct ThreadSafeDictionaryValueFactory_2_t8425;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void ThreadSafeDictionaryValueFactory_2__ctor_m61083_gshared (ThreadSafeDictionaryValueFactory_2_t8426 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define ThreadSafeDictionaryValueFactory_2__ctor_m61083(__this, ___object, ___method, method) (( void (*) (ThreadSafeDictionaryValueFactory_2_t8426 *, Object_t *, IntPtr_t, const MethodInfo*))ThreadSafeDictionaryValueFactory_2__ctor_m61083_gshared)(__this, ___object, ___method, method)
+extern "C" void ThreadSafeDictionaryValueFactory_2__ctor_m61078_gshared (ThreadSafeDictionaryValueFactory_2_t8425 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define ThreadSafeDictionaryValueFactory_2__ctor_m61078(__this, ___object, ___method, method) (( void (*) (ThreadSafeDictionaryValueFactory_2_t8425 *, Object_t *, IntPtr_t, const MethodInfo*))ThreadSafeDictionaryValueFactory_2__ctor_m61078_gshared)(__this, ___object, ___method, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>::Invoke(TKey)
-extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_Invoke_m61085_gshared (ThreadSafeDictionaryValueFactory_2_t8426 * __this, Object_t * ___key, const MethodInfo* method);
-#define ThreadSafeDictionaryValueFactory_2_Invoke_m61085(__this, ___key, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8426 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_Invoke_m61085_gshared)(__this, ___key, method)
+extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_Invoke_m61080_gshared (ThreadSafeDictionaryValueFactory_2_t8425 * __this, Object_t * ___key, const MethodInfo* method);
+#define ThreadSafeDictionaryValueFactory_2_Invoke_m61080(__this, ___key, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8425 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_Invoke_m61080_gshared)(__this, ___key, method)
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>::BeginInvoke(TKey,System.AsyncCallback,System.Object)
-extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61087_gshared (ThreadSafeDictionaryValueFactory_2_t8426 * __this, Object_t * ___key, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61087(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8426 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61087_gshared)(__this, ___key, ___callback, ___object, method)
+extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61082_gshared (ThreadSafeDictionaryValueFactory_2_t8425 * __this, Object_t * ___key, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61082(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8425 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61082_gshared)(__this, ___key, ___callback, ___object, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_EndInvoke_m61089_gshared (ThreadSafeDictionaryValueFactory_2_t8426 * __this, Object_t * ___result, const MethodInfo* method);
-#define ThreadSafeDictionaryValueFactory_2_EndInvoke_m61089(__this, ___result, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8426 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_EndInvoke_m61089_gshared)(__this, ___result, method)
+extern "C" Object_t * ThreadSafeDictionaryValueFactory_2_EndInvoke_m61084_gshared (ThreadSafeDictionaryValueFactory_2_t8425 * __this, Object_t * ___result, const MethodInfo* method);
+#define ThreadSafeDictionaryValueFactory_2_EndInvoke_m61084(__this, ___result, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t8425 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_EndInvoke_m61084_gshared)(__this, ___result, method)

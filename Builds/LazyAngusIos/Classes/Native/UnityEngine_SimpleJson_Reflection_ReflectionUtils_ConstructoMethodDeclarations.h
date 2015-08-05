@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t2780;
+struct ConstructorDelegate_t2779;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t637;
+struct ObjectU5BU5D_t636;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void ConstructorDelegate__ctor_m9580 (ConstructorDelegate_t2780 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructorDelegate__ctor_m9575 (ConstructorDelegate_t2779 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::Invoke(System.Object[])
-extern "C" Object_t * ConstructorDelegate_Invoke_m9581 (ConstructorDelegate_t2780 * __this, ObjectU5BU5D_t637* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructorDelegate_Invoke_m9576 (ConstructorDelegate_t2779 * __this, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #include "mscorlib_ArrayTypes.h"
 // System.Object
 #include "mscorlib_System_Object.h"
-extern "C" Object_t * pinvoke_delegate_wrapper_ConstructorDelegate_t2780(Il2CppObject* delegate, ObjectU5BU5D_t637* ___args);
+extern "C" Object_t * pinvoke_delegate_wrapper_ConstructorDelegate_t2779(Il2CppObject* delegate, ObjectU5BU5D_t636* ___args);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
-extern "C" Object_t * ConstructorDelegate_BeginInvoke_m9582 (ConstructorDelegate_t2780 * __this, ObjectU5BU5D_t637* ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructorDelegate_BeginInvoke_m9577 (ConstructorDelegate_t2779 * __this, ObjectU5BU5D_t636* ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * ConstructorDelegate_EndInvoke_m9583 (ConstructorDelegate_t2780 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructorDelegate_EndInvoke_m9578 (ConstructorDelegate_t2779 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

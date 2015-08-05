@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlDocumentFragment
-struct XmlDocumentFragment_t3179;
+struct XmlDocumentFragment_t3178;
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t3166;
+struct XmlLinkedNode_t3165;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t632;
+struct XmlDocument_t631;
 // System.Xml.XmlNode
-struct XmlNode_t669;
+struct XmlNode_t668;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlDocumentFragment::.ctor(System.Xml.XmlDocument)
-extern "C" void XmlDocumentFragment__ctor_m10625 (XmlDocumentFragment_t3179 * __this, XmlDocument_t632 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocumentFragment__ctor_m10620 (XmlDocumentFragment_t3178 * __this, XmlDocument_t631 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlLinkedNode System.Xml.XmlDocumentFragment::System.Xml.IHasXmlChildNode.get_LastLinkedChild()
-extern "C" XmlLinkedNode_t3166 * XmlDocumentFragment_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10626 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlLinkedNode_t3165 * XmlDocumentFragment_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10621 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocumentFragment::System.Xml.IHasXmlChildNode.set_LastLinkedChild(System.Xml.XmlLinkedNode)
-extern "C" void XmlDocumentFragment_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10627 (XmlDocumentFragment_t3179 * __this, XmlLinkedNode_t3166 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocumentFragment_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10622 (XmlDocumentFragment_t3178 * __this, XmlLinkedNode_t3165 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocumentFragment::get_LocalName()
-extern "C" String_t* XmlDocumentFragment_get_LocalName_m10628 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocumentFragment_get_LocalName_m10623 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocumentFragment::get_Name()
-extern "C" String_t* XmlDocumentFragment_get_Name_m10629 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocumentFragment_get_Name_m10624 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlDocumentFragment::get_NodeType()
-extern "C" int32_t XmlDocumentFragment_get_NodeType_m10630 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlDocumentFragment_get_NodeType_m10625 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocument System.Xml.XmlDocumentFragment::get_OwnerDocument()
-extern "C" XmlDocument_t632 * XmlDocumentFragment_get_OwnerDocument_m10631 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocument_t631 * XmlDocumentFragment_get_OwnerDocument_m10626 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocumentFragment::get_ParentNode()
-extern "C" XmlNode_t669 * XmlDocumentFragment_get_ParentNode_m10632 (XmlDocumentFragment_t3179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * XmlDocumentFragment_get_ParentNode_m10627 (XmlDocumentFragment_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocumentFragment::CloneNode(System.Boolean)
-extern "C" XmlNode_t669 * XmlDocumentFragment_CloneNode_m10633 (XmlDocumentFragment_t3179 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * XmlDocumentFragment_CloneNode_m10628 (XmlDocumentFragment_t3178 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

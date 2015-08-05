@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.ParseRole>
-struct IDictionary_2_t6973;
+struct IDictionary_2_t6972;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IDictionary`2<System.String,Parse.ParseRole>>
-struct  KeyValuePair_2_t8110 
+struct  KeyValuePair_2_t8109 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IDictionary`2<System.String,Parse.ParseRole>>::key
 	String_t* ___key_0;

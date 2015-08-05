@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Threading.ThreadStateException
-struct  ThreadStateException_t4729  : public SystemException_t3184
+struct  ThreadStateException_t4728  : public SystemException_t3183
 {
 };

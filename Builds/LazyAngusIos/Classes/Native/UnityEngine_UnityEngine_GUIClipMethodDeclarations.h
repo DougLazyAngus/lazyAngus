@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUIClip
-struct GUIClip_t2676;
+struct GUIClip_t2675;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Void UnityEngine.GUIClip::Push(UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean)
-extern "C" void GUIClip_Push_m8711 (Object_t * __this /* static, unused */, Rect_t649  ___screenRect, Vector2_t110  ___scrollOffset, Vector2_t110  ___renderOffset, bool ___resetOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIClip_Push_m8706 (Object_t * __this /* static, unused */, Rect_t648  ___screenRect, Vector2_t110  ___scrollOffset, Vector2_t110  ___renderOffset, bool ___resetOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIClip::INTERNAL_CALL_Push(UnityEngine.Rect&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Boolean)
-extern "C" void GUIClip_INTERNAL_CALL_Push_m8712 (Object_t * __this /* static, unused */, Rect_t649 * ___screenRect, Vector2_t110 * ___scrollOffset, Vector2_t110 * ___renderOffset, bool ___resetOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIClip_INTERNAL_CALL_Push_m8707 (Object_t * __this /* static, unused */, Rect_t648 * ___screenRect, Vector2_t110 * ___scrollOffset, Vector2_t110 * ___renderOffset, bool ___resetOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIClip::Pop()
-extern "C" void GUIClip_Pop_m8713 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIClip_Pop_m8708 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

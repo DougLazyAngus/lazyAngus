@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.HybridDictionary
-struct HybridDictionary_t3910;
+struct HybridDictionary_t3909;
 // System.Net.ICertificatePolicy
-struct ICertificatePolicy_t3892;
+struct ICertificatePolicy_t3891;
 // System.Net.Security.RemoteCertificateValidationCallback
-struct RemoteCertificateValidationCallback_t3889;
+struct RemoteCertificateValidationCallback_t3888;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.SecurityProtocolType
 #include "System_System_Net_SecurityProtocolType.h"
 // System.Net.ServicePointManager
-struct  ServicePointManager_t3881  : public Object_t
+struct  ServicePointManager_t3880  : public Object_t
 {
 };
-struct ServicePointManager_t3881_StaticFields{
+struct ServicePointManager_t3880_StaticFields{
 	// System.Collections.Specialized.HybridDictionary System.Net.ServicePointManager::servicePoints
-	HybridDictionary_t3910 * ___servicePoints_0;
+	HybridDictionary_t3909 * ___servicePoints_0;
 	// System.Net.ICertificatePolicy System.Net.ServicePointManager::policy
 	Object_t * ___policy_1;
 	// System.Int32 System.Net.ServicePointManager::defaultConnectionLimit
@@ -34,5 +34,5 @@ struct ServicePointManager_t3881_StaticFields{
 	// System.Boolean System.Net.ServicePointManager::useNagle
 	bool ___useNagle_8;
 	// System.Net.Security.RemoteCertificateValidationCallback System.Net.ServicePointManager::server_cert_cb
-	RemoteCertificateValidationCallback_t3889 * ___server_cert_cb_9;
+	RemoteCertificateValidationCallback_t3888 * ___server_cert_cb_9;
 };
