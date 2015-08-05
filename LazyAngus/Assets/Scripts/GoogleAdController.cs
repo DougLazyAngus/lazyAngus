@@ -150,8 +150,6 @@ public class GoogleAdController : MonoBehaviour {
 		// Logic from 
 		// https://developers.google.com/admob/android/banner#smart
 		float screenHeight = Screen.height;
-		Debug.Log ("screenHeight = " + Screen.height);
-		Debug.Log ("dpi = " + Screen.dpi);
 
 		if (screenHeight < 400) {
 			return 32;

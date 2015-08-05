@@ -87,7 +87,7 @@ public class InputHandler : MonoBehaviour {
 	public bool IsPointInWorldCameraScreenSpace(Vector3 clickPosition) {
 		if (worldCamera == null) {
 			worldCamera = Camera.main;
-			GameObject uxCameraObject = GameObject.FindGameObjectWithTag("UXCanvas");
+			GameObject uxCameraObject = GameObject.FindGameObjectWithTag("ScalingUXCanvas");
 			uxCamera = uxCameraObject.GetComponent<Camera>();
 			
 			

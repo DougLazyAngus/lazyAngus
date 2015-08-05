@@ -120,8 +120,6 @@ public class GamePhaseState : MonoBehaviour {
 	//------------------------------------
 	
 	public void TransitionToPhase(GamePhaseType newPhase) {
-		Debug.Log("06.001  " + Time.realtimeSinceStartup);
-
 		if (!IsLegalTransition (gamePhase, newPhase)) {
 			// FIXME(dbanks)
 			// Throw an error.
@@ -144,8 +142,6 @@ public class GamePhaseState : MonoBehaviour {
 		if (GamePhaseChanged != null) {
 			GamePhaseChanged ();
 		}
-
-		Debug.Log("06.002  " + Time.realtimeSinceStartup);
 	}
 
 }

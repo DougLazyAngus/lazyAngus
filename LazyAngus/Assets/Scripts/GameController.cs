@@ -128,11 +128,8 @@ public class GameController : MonoBehaviour {
 		mouseSpawnFromData.Clear ();
 
 		// A few by hand, then just programmatic.
-		Debug.Log ("07.001 " + Time.realtimeSinceStartup);
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
-		Debug.Log ("07.002 " + Time.realtimeSinceStartup);
 		mouseSpawnFromData.AddMice (ld.explicitMouseDescs);
-		Debug.Log ("07.003 " + Time.realtimeSinceStartup);
 	}
 
 	MouseHole FindDoomedMouseHole() {

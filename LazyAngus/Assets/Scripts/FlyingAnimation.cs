@@ -45,7 +45,7 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 
 	public void Configure(Vector3 worldStartPosition, 
 	                      GameObject canvasTarget) {
-		GameObject uxCanvasGameObject = GameObject.FindWithTag ("UXCanvas");
+		GameObject uxCanvasGameObject = GameObject.FindWithTag ("ScalingUXCanvas");
 		SetParentCanvasGameObject (uxCanvasGameObject);
 
 		CreatePoints (worldStartPosition, canvasTarget);
@@ -65,7 +65,7 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 		
 		points [0] = WorldPositionToParentCanvasPosition (worldStartPosition);
 
-		GameObject uxCanvasGameObject = GameObject.FindWithTag ("UXCanvas");
+		GameObject uxCanvasGameObject = GameObject.FindWithTag ("ScalingUXCanvas");
 		Canvas uxCanvas = uxCanvasGameObject.GetComponent<Canvas> ();
 		Camera uxCamera = uxCanvas.worldCamera;
 
