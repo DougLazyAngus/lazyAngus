@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t631;
+struct EventHandlerFunction_t630;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

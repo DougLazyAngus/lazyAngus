@@ -7,7 +7,7 @@ struct Material_t482;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MouseDesc
-struct  MouseDesc_t560  : public Object_t
+struct  MouseDesc_t559  : public Object_t
 {
 	// UnityEngine.Sprite MouseDesc::deprecated_mouseSprite
 	Sprite_t472 * ___deprecated_mouseSprite_0;

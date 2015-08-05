@@ -12,6 +12,6 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MethodAccessException::.ctor()
-extern "C" void MethodAccessException__ctor_m19563 (MethodAccessException_t4774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodAccessException__ctor_m19560 (MethodAccessException_t4774 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MethodAccessException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MethodAccessException__ctor_m19564 (MethodAccessException_t4774 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodAccessException__ctor_m19561 (MethodAccessException_t4774 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

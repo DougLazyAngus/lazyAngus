@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Component
-struct Component_t714;
+struct Component_t713;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

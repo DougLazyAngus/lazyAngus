@@ -20,74 +20,74 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Quaternion.h"
 
 // System.Single UnityEngine.Matrix4x4::get_Item(System.Int32,System.Int32)
-extern "C" float Matrix4x4_get_Item_m8899 (Matrix4x4_t1026 * __this, int32_t ___row, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Matrix4x4_get_Item_m8896 (Matrix4x4_t1026 * __this, int32_t ___row, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::set_Item(System.Int32,System.Int32,System.Single)
-extern "C" void Matrix4x4_set_Item_m8900 (Matrix4x4_t1026 * __this, int32_t ___row, int32_t ___column, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_set_Item_m8897 (Matrix4x4_t1026 * __this, int32_t ___row, int32_t ___column, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Matrix4x4::get_Item(System.Int32)
-extern "C" float Matrix4x4_get_Item_m8901 (Matrix4x4_t1026 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Matrix4x4_get_Item_m8898 (Matrix4x4_t1026 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::set_Item(System.Int32,System.Single)
-extern "C" void Matrix4x4_set_Item_m8902 (Matrix4x4_t1026 * __this, int32_t ___index, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_set_Item_m8899 (Matrix4x4_t1026 * __this, int32_t ___index, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Matrix4x4::GetHashCode()
-extern "C" int32_t Matrix4x4_GetHashCode_m8903 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Matrix4x4_GetHashCode_m8900 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::Equals(System.Object)
-extern "C" bool Matrix4x4_Equals_m8904 (Matrix4x4_t1026 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_Equals_m8901 (Matrix4x4_t1026 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Inverse(UnityEngine.Matrix4x4)
-extern "C" Matrix4x4_t1026  Matrix4x4_Inverse_m8905 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_Inverse_m8902 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&)
-extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_Inverse_m8906 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_Inverse_m8903 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Transpose(UnityEngine.Matrix4x4)
-extern "C" Matrix4x4_t1026  Matrix4x4_Transpose_m8907 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_Transpose_m8904 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::INTERNAL_CALL_Transpose(UnityEngine.Matrix4x4&)
-extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_Transpose_m8908 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_Transpose_m8905 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___m, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::Invert(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4&)
-extern "C" bool Matrix4x4_Invert_m8909 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___inMatrix, Matrix4x4_t1026 * ___dest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_Invert_m8906 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___inMatrix, Matrix4x4_t1026 * ___dest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::INTERNAL_CALL_Invert(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
-extern "C" bool Matrix4x4_INTERNAL_CALL_Invert_m8910 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___inMatrix, Matrix4x4_t1026 * ___dest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_INTERNAL_CALL_Invert_m8907 (Object_t * __this /* static, unused */, Matrix4x4_t1026 * ___inMatrix, Matrix4x4_t1026 * ___dest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_inverse()
-extern "C" Matrix4x4_t1026  Matrix4x4_get_inverse_m8911 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_get_inverse_m8908 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_transpose()
-extern "C" Matrix4x4_t1026  Matrix4x4_get_transpose_m8912 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_get_transpose_m8909 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::get_isIdentity()
-extern "C" bool Matrix4x4_get_isIdentity_m8913 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_get_isIdentity_m8910 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
-extern "C" Vector4_t987  Matrix4x4_GetColumn_m8914 (Matrix4x4_t1026 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t986  Matrix4x4_GetColumn_m8911 (Matrix4x4_t1026 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Matrix4x4::GetRow(System.Int32)
-extern "C" Vector4_t987  Matrix4x4_GetRow_m8915 (Matrix4x4_t1026 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t986  Matrix4x4_GetRow_m8912 (Matrix4x4_t1026 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::SetColumn(System.Int32,UnityEngine.Vector4)
-extern "C" void Matrix4x4_SetColumn_m8916 (Matrix4x4_t1026 * __this, int32_t ___i, Vector4_t987  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_SetColumn_m8913 (Matrix4x4_t1026 * __this, int32_t ___i, Vector4_t986  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::SetRow(System.Int32,UnityEngine.Vector4)
-extern "C" void Matrix4x4_SetRow_m8917 (Matrix4x4_t1026 * __this, int32_t ___i, Vector4_t987  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_SetRow_m8914 (Matrix4x4_t1026 * __this, int32_t ___i, Vector4_t986  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyPoint_m8918 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t496  Matrix4x4_MultiplyPoint_m8915 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyPoint3x4_m5856 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t496  Matrix4x4_MultiplyPoint3x4_m5853 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyVector(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyVector_m8919 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t496  Matrix4x4_MultiplyVector_m8916 (Matrix4x4_t1026 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Scale(UnityEngine.Vector3)
-extern "C" Matrix4x4_t1026  Matrix4x4_Scale_m8920 (Object_t * __this /* static, unused */, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_Scale_m8917 (Object_t * __this /* static, unused */, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_zero()
-extern "C" Matrix4x4_t1026  Matrix4x4_get_zero_m8921 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_get_zero_m8918 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_identity()
-extern "C" Matrix4x4_t1026  Matrix4x4_get_identity_m8922 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_get_identity_m8919 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::SetTRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-extern "C" void Matrix4x4_SetTRS_m8923 (Matrix4x4_t1026 * __this, Vector3_t496  ___pos, Quaternion_t737  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_SetTRS_m8920 (Matrix4x4_t1026 * __this, Vector3_t496  ___pos, Quaternion_t736  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-extern "C" Matrix4x4_t1026  Matrix4x4_TRS_m8924 (Object_t * __this /* static, unused */, Vector3_t496  ___pos, Quaternion_t737  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_TRS_m8921 (Object_t * __this /* static, unused */, Vector3_t496  ___pos, Quaternion_t736  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::INTERNAL_CALL_TRS(UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
-extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_TRS_m8925 (Object_t * __this /* static, unused */, Vector3_t496 * ___pos, Quaternion_t737 * ___q, Vector3_t496 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_INTERNAL_CALL_TRS_m8922 (Object_t * __this /* static, unused */, Vector3_t496 * ___pos, Quaternion_t736 * ___q, Vector3_t496 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Matrix4x4::ToString()
-extern "C" String_t* Matrix4x4_ToString_m8926 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Matrix4x4_ToString_m8923 (Matrix4x4_t1026 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Matrix4x4::ToString(System.String)
-extern "C" String_t* Matrix4x4_ToString_m8927 (Matrix4x4_t1026 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Matrix4x4_ToString_m8924 (Matrix4x4_t1026 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Ortho(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-extern "C" Matrix4x4_t1026  Matrix4x4_Ortho_m8928 (Object_t * __this /* static, unused */, float ___left, float ___right, float ___bottom, float ___top, float ___zNear, float ___zFar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_Ortho_m8925 (Object_t * __this /* static, unused */, float ___left, float ___right, float ___bottom, float ___top, float ___zNear, float ___zFar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Perspective(System.Single,System.Single,System.Single,System.Single)
-extern "C" Matrix4x4_t1026  Matrix4x4_Perspective_m8929 (Object_t * __this /* static, unused */, float ___fov, float ___aspect, float ___zNear, float ___zFar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_Perspective_m8926 (Object_t * __this /* static, unused */, float ___fov, float ___aspect, float ___zNear, float ___zFar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
-extern "C" Matrix4x4_t1026  Matrix4x4_op_Multiply_m8930 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1026  Matrix4x4_op_Multiply_m8927 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Matrix4x4::op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Vector4)
-extern "C" Vector4_t987  Matrix4x4_op_Multiply_m8931 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Vector4_t987  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t986  Matrix4x4_op_Multiply_m8928 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Vector4_t986  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::op_Equality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
-extern "C" bool Matrix4x4_op_Equality_m8932 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_op_Equality_m8929 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Matrix4x4::op_Inequality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
-extern "C" bool Matrix4x4_op_Inequality_m8933 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Matrix4x4_op_Inequality_m8930 (Object_t * __this /* static, unused */, Matrix4x4_t1026  ___lhs, Matrix4x4_t1026  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

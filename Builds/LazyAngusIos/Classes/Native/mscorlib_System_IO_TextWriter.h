@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.IFormatProvider
 struct IFormatProvider_t4458;
 // System.IO.TextWriter
@@ -12,7 +12,7 @@ struct TextWriter_t3231;
 struct  TextWriter_t3231  : public Object_t
 {
 	// System.Char[] System.IO.TextWriter::CoreNewLine
-	CharU5BU5D_t663* ___CoreNewLine_0;
+	CharU5BU5D_t662* ___CoreNewLine_0;
 	// System.IFormatProvider System.IO.TextWriter::internalFormatProvider
 	Object_t * ___internalFormatProvider_1;
 };

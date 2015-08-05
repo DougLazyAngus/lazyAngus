@@ -11,7 +11,7 @@ struct String_t;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // Mono.Xml.SmallXmlParser/AttrListImpl
 struct AttrListImpl_t4382;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -34,7 +34,7 @@ struct  SmallXmlParser_t4381  : public Object_t
 	// System.Text.StringBuilder Mono.Xml.SmallXmlParser::buffer
 	StringBuilder_t261 * ___buffer_5;
 	// System.Char[] Mono.Xml.SmallXmlParser::nameBuffer
-	CharU5BU5D_t663* ___nameBuffer_6;
+	CharU5BU5D_t662* ___nameBuffer_6;
 	// System.Boolean Mono.Xml.SmallXmlParser::isWhitespace
 	bool ___isWhitespace_7;
 	// Mono.Xml.SmallXmlParser/AttrListImpl Mono.Xml.SmallXmlParser::attributes

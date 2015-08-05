@@ -18,20 +18,20 @@ struct String_t;
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor()
-extern "C" void X509KeyUsageExtension__ctor_m14269 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509KeyUsageExtension__ctor_m14266 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
-extern "C" void X509KeyUsageExtension__ctor_m14270 (X509KeyUsageExtension_t4061 * __this, AsnEncodedData_t4037 * ___encodedKeyUsage, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509KeyUsageExtension__ctor_m14267 (X509KeyUsageExtension_t4061 * __this, AsnEncodedData_t4037 * ___encodedKeyUsage, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean)
-extern "C" void X509KeyUsageExtension__ctor_m14271 (X509KeyUsageExtension_t4061 * __this, int32_t ___keyUsages, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509KeyUsageExtension__ctor_m14268 (X509KeyUsageExtension_t4061 * __this, int32_t ___keyUsages, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::get_KeyUsages()
-extern "C" int32_t X509KeyUsageExtension_get_KeyUsages_m14272 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509KeyUsageExtension_get_KeyUsages_m14269 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
-extern "C" void X509KeyUsageExtension_CopyFrom_m14273 (X509KeyUsageExtension_t4061 * __this, AsnEncodedData_t4037 * ___encodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509KeyUsageExtension_CopyFrom_m14270 (X509KeyUsageExtension_t4061 * __this, AsnEncodedData_t4037 * ___encodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags)
-extern "C" int32_t X509KeyUsageExtension_GetValidFlags_m14274 (X509KeyUsageExtension_t4061 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509KeyUsageExtension_GetValidFlags_m14271 (X509KeyUsageExtension_t4061 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Decode(System.Byte[])
-extern "C" int32_t X509KeyUsageExtension_Decode_m14275 (X509KeyUsageExtension_t4061 * __this, ByteU5BU5D_t66* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509KeyUsageExtension_Decode_m14272 (X509KeyUsageExtension_t4061 * __this, ByteU5BU5D_t66* ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Encode()
-extern "C" ByteU5BU5D_t66* X509KeyUsageExtension_Encode_m14276 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* X509KeyUsageExtension_Encode_m14273 (X509KeyUsageExtension_t4061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::ToString(System.Boolean)
-extern "C" String_t* X509KeyUsageExtension_ToString_m14277 (X509KeyUsageExtension_t4061 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509KeyUsageExtension_ToString_m14274 (X509KeyUsageExtension_t4061 * __this, bool ___multiLine, const MethodInfo* method) IL2CPP_METHOD_ATTR;

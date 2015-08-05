@@ -3,9 +3,9 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Text.Encoding
-struct Encoding_t692;
+struct Encoding_t691;
 // System.Text.Decoder
 struct Decoder_t3188;
 // System.IO.Stream
@@ -20,7 +20,7 @@ struct  NonBlockingStreamReader_t3187  : public TextReader_t3189
 	// System.Byte[] System.Xml.NonBlockingStreamReader::input_buffer
 	ByteU5BU5D_t66* ___input_buffer_1;
 	// System.Char[] System.Xml.NonBlockingStreamReader::decoded_buffer
-	CharU5BU5D_t663* ___decoded_buffer_2;
+	CharU5BU5D_t662* ___decoded_buffer_2;
 	// System.Int32 System.Xml.NonBlockingStreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.Xml.NonBlockingStreamReader::pos
@@ -28,7 +28,7 @@ struct  NonBlockingStreamReader_t3187  : public TextReader_t3189
 	// System.Int32 System.Xml.NonBlockingStreamReader::buffer_size
 	int32_t ___buffer_size_5;
 	// System.Text.Encoding System.Xml.NonBlockingStreamReader::encoding
-	Encoding_t692 * ___encoding_6;
+	Encoding_t691 * ___encoding_6;
 	// System.Text.Decoder System.Xml.NonBlockingStreamReader::decoder
 	Decoder_t3188 * ___decoder_7;
 	// System.IO.Stream System.Xml.NonBlockingStreamReader::base_stream

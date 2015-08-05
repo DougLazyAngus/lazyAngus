@@ -42,10 +42,10 @@
 
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m10177 (MonoTODOAttribute_t3049 * __this, const MethodInfo* method)
+extern "C" void MonoTODOAttribute__ctor_m10174 (MonoTODOAttribute_t3049 * __this, const MethodInfo* method)
 {
 	{
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -80,34 +80,34 @@ extern "C" void MonoTODOAttribute__ctor_m10177 (MonoTODOAttribute_t3049 * __this
 
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.ctor()
 extern TypeInfo* XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var;
-extern "C" void XsdAnySimpleType__ctor_m10178 (XsdAnySimpleType_t3051 * __this, const MethodInfo* method)
+extern "C" void XsdAnySimpleType__ctor_m10175 (XsdAnySimpleType_t3051 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
-		XmlSchemaDatatype__ctor_m10256(__this, /*hidden argument*/NULL);
+		XmlSchemaDatatype__ctor_m10253(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.cctor()
-extern TypeInfo* CharU5BU5D_t663_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t662_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdAnySimpleType__cctor_m10179 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XsdAnySimpleType__cctor_m10176 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t663_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		CharU5BU5D_t662_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CharU5BU5D_t663* L_0 = ((CharU5BU5D_t663*)SZArrayNew(CharU5BU5D_t663_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t662* L_0 = ((CharU5BU5D_t662*)SZArrayNew(CharU5BU5D_t662_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_0, 0)) = (uint16_t)((int32_t)32);
@@ -117,19 +117,19 @@ extern "C" void XsdAnySimpleType__cctor_m10179 (Object_t * __this /* static, unu
 		((XsdAnySimpleType_t3051_StaticFields*)XsdAnySimpleType_t3051_il2cpp_TypeInfo_var->static_fields)->___durationAllowedFacets_59 = ((int32_t)1016);
 		((XsdAnySimpleType_t3051_StaticFields*)XsdAnySimpleType_t3051_il2cpp_TypeInfo_var->static_fields)->___stringAllowedFacets_60 = ((int32_t)63);
 		XsdAnySimpleType_t3051 * L_1 = (XsdAnySimpleType_t3051 *)il2cpp_codegen_object_new (XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(L_1, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(L_1, /*hidden argument*/NULL);
 		((XsdAnySimpleType_t3051_StaticFields*)XsdAnySimpleType_t3051_il2cpp_TypeInfo_var->static_fields)->___instance_55 = L_1;
 		return;
 	}
 }
 // Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::get_Instance()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" XsdAnySimpleType_t3051 * XsdAnySimpleType_get_Instance_m10180 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" XsdAnySimpleType_t3051 * XsdAnySimpleType_get_Instance_m10177 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -139,7 +139,7 @@ extern "C" XsdAnySimpleType_t3051 * XsdAnySimpleType_get_Instance_m10180 (Object
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnySimpleType::get_TokenizedType()
-extern "C" int32_t XsdAnySimpleType_get_TokenizedType_m10181 (XsdAnySimpleType_t3051 * __this, const MethodInfo* method)
+extern "C" int32_t XsdAnySimpleType_get_TokenizedType_m10178 (XsdAnySimpleType_t3051 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(((int32_t)12));
@@ -157,17 +157,17 @@ extern "C" int32_t XsdAnySimpleType_get_TokenizedType_m10181 (XsdAnySimpleType_t
 
 // System.Void Mono.Xml.Schema.XdtAnyAtomicType::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XdtAnyAtomicType__ctor_m10182 (XdtAnyAtomicType_t3053 * __this, const MethodInfo* method)
+extern "C" void XdtAnyAtomicType__ctor_m10179 (XdtAnyAtomicType_t3053 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -182,10 +182,10 @@ extern "C" void XdtAnyAtomicType__ctor_m10182 (XdtAnyAtomicType_t3053 * __this, 
 
 
 // System.Void Mono.Xml.Schema.XdtUntypedAtomic::.ctor()
-extern "C" void XdtUntypedAtomic__ctor_m10183 (XdtUntypedAtomic_t3054 * __this, const MethodInfo* method)
+extern "C" void XdtUntypedAtomic__ctor_m10180 (XdtUntypedAtomic_t3054 * __this, const MethodInfo* method)
 {
 	{
-		XdtAnyAtomicType__ctor_m10182(__this, /*hidden argument*/NULL);
+		XdtAnyAtomicType__ctor_m10179(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -201,22 +201,22 @@ extern "C" void XdtUntypedAtomic__ctor_m10183 (XdtUntypedAtomic_t3054 * __this, 
 
 // System.Void Mono.Xml.Schema.XsdString::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdString__ctor_m10184 (XsdString_t3055 * __this, const MethodInfo* method)
+extern "C" void XsdString__ctor_m10181 (XsdString_t3055 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdString::get_TokenizedType()
-extern "C" int32_t XsdString_get_TokenizedType_m10185 (XsdString_t3055 * __this, const MethodInfo* method)
+extern "C" int32_t XsdString_get_TokenizedType_m10182 (XsdString_t3055 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -235,16 +235,16 @@ extern "C" int32_t XsdString_get_TokenizedType_m10185 (XsdString_t3055 * __this,
 
 
 // System.Void Mono.Xml.Schema.XsdNormalizedString::.ctor()
-extern "C" void XsdNormalizedString__ctor_m10186 (XsdNormalizedString_t3056 * __this, const MethodInfo* method)
+extern "C" void XsdNormalizedString__ctor_m10183 (XsdNormalizedString_t3056 * __this, const MethodInfo* method)
 {
 	{
-		XsdString__ctor_m10184(__this, /*hidden argument*/NULL);
+		XsdString__ctor_m10181(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 1;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNormalizedString::get_TokenizedType()
-extern "C" int32_t XsdNormalizedString_get_TokenizedType_m10187 (XsdNormalizedString_t3056 * __this, const MethodInfo* method)
+extern "C" int32_t XsdNormalizedString_get_TokenizedType_m10184 (XsdNormalizedString_t3056 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -261,16 +261,16 @@ extern "C" int32_t XsdNormalizedString_get_TokenizedType_m10187 (XsdNormalizedSt
 
 
 // System.Void Mono.Xml.Schema.XsdToken::.ctor()
-extern "C" void XsdToken__ctor_m10188 (XsdToken_t3057 * __this, const MethodInfo* method)
+extern "C" void XsdToken__ctor_m10185 (XsdToken_t3057 * __this, const MethodInfo* method)
 {
 	{
-		XsdNormalizedString__ctor_m10186(__this, /*hidden argument*/NULL);
+		XsdNormalizedString__ctor_m10183(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdToken::get_TokenizedType()
-extern "C" int32_t XsdToken_get_TokenizedType_m10189 (XsdToken_t3057 * __this, const MethodInfo* method)
+extern "C" int32_t XsdToken_get_TokenizedType_m10186 (XsdToken_t3057 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -287,15 +287,15 @@ extern "C" int32_t XsdToken_get_TokenizedType_m10189 (XsdToken_t3057 * __this, c
 
 
 // System.Void Mono.Xml.Schema.XsdLanguage::.ctor()
-extern "C" void XsdLanguage__ctor_m10190 (XsdLanguage_t3058 * __this, const MethodInfo* method)
+extern "C" void XsdLanguage__ctor_m10187 (XsdLanguage_t3058 * __this, const MethodInfo* method)
 {
 	{
-		XsdToken__ctor_m10188(__this, /*hidden argument*/NULL);
+		XsdToken__ctor_m10185(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdLanguage::get_TokenizedType()
-extern "C" int32_t XsdLanguage_get_TokenizedType_m10191 (XsdLanguage_t3058 * __this, const MethodInfo* method)
+extern "C" int32_t XsdLanguage_get_TokenizedType_m10188 (XsdLanguage_t3058 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -312,15 +312,15 @@ extern "C" int32_t XsdLanguage_get_TokenizedType_m10191 (XsdLanguage_t3058 * __t
 
 
 // System.Void Mono.Xml.Schema.XsdNMToken::.ctor()
-extern "C" void XsdNMToken__ctor_m10192 (XsdNMToken_t3059 * __this, const MethodInfo* method)
+extern "C" void XsdNMToken__ctor_m10189 (XsdNMToken_t3059 * __this, const MethodInfo* method)
 {
 	{
-		XsdToken__ctor_m10188(__this, /*hidden argument*/NULL);
+		XsdToken__ctor_m10185(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMToken::get_TokenizedType()
-extern "C" int32_t XsdNMToken_get_TokenizedType_m10193 (XsdNMToken_t3059 * __this, const MethodInfo* method)
+extern "C" int32_t XsdNMToken_get_TokenizedType_m10190 (XsdNMToken_t3059 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(6);
@@ -337,15 +337,15 @@ extern "C" int32_t XsdNMToken_get_TokenizedType_m10193 (XsdNMToken_t3059 * __thi
 
 
 // System.Void Mono.Xml.Schema.XsdNMTokens::.ctor()
-extern "C" void XsdNMTokens__ctor_m10194 (XsdNMTokens_t3060 * __this, const MethodInfo* method)
+extern "C" void XsdNMTokens__ctor_m10191 (XsdNMTokens_t3060 * __this, const MethodInfo* method)
 {
 	{
-		XsdNMToken__ctor_m10192(__this, /*hidden argument*/NULL);
+		XsdNMToken__ctor_m10189(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMTokens::get_TokenizedType()
-extern "C" int32_t XsdNMTokens_get_TokenizedType_m10195 (XsdNMTokens_t3060 * __this, const MethodInfo* method)
+extern "C" int32_t XsdNMTokens_get_TokenizedType_m10192 (XsdNMTokens_t3060 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(7);
@@ -362,15 +362,15 @@ extern "C" int32_t XsdNMTokens_get_TokenizedType_m10195 (XsdNMTokens_t3060 * __t
 
 
 // System.Void Mono.Xml.Schema.XsdName::.ctor()
-extern "C" void XsdName__ctor_m10196 (XsdName_t3061 * __this, const MethodInfo* method)
+extern "C" void XsdName__ctor_m10193 (XsdName_t3061 * __this, const MethodInfo* method)
 {
 	{
-		XsdToken__ctor_m10188(__this, /*hidden argument*/NULL);
+		XsdToken__ctor_m10185(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdName::get_TokenizedType()
-extern "C" int32_t XsdName_get_TokenizedType_m10197 (XsdName_t3061 * __this, const MethodInfo* method)
+extern "C" int32_t XsdName_get_TokenizedType_m10194 (XsdName_t3061 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -387,15 +387,15 @@ extern "C" int32_t XsdName_get_TokenizedType_m10197 (XsdName_t3061 * __this, con
 
 
 // System.Void Mono.Xml.Schema.XsdNCName::.ctor()
-extern "C" void XsdNCName__ctor_m10198 (XsdNCName_t3062 * __this, const MethodInfo* method)
+extern "C" void XsdNCName__ctor_m10195 (XsdNCName_t3062 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNCName::get_TokenizedType()
-extern "C" int32_t XsdNCName_get_TokenizedType_m10199 (XsdNCName_t3062 * __this, const MethodInfo* method)
+extern "C" int32_t XsdNCName_get_TokenizedType_m10196 (XsdNCName_t3062 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(((int32_t)11));
@@ -412,15 +412,15 @@ extern "C" int32_t XsdNCName_get_TokenizedType_m10199 (XsdNCName_t3062 * __this,
 
 
 // System.Void Mono.Xml.Schema.XsdID::.ctor()
-extern "C" void XsdID__ctor_m10200 (XsdID_t3063 * __this, const MethodInfo* method)
+extern "C" void XsdID__ctor_m10197 (XsdID_t3063 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdID::get_TokenizedType()
-extern "C" int32_t XsdID_get_TokenizedType_m10201 (XsdID_t3063 * __this, const MethodInfo* method)
+extern "C" int32_t XsdID_get_TokenizedType_m10198 (XsdID_t3063 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(1);
@@ -437,15 +437,15 @@ extern "C" int32_t XsdID_get_TokenizedType_m10201 (XsdID_t3063 * __this, const M
 
 
 // System.Void Mono.Xml.Schema.XsdIDRef::.ctor()
-extern "C" void XsdIDRef__ctor_m10202 (XsdIDRef_t3064 * __this, const MethodInfo* method)
+extern "C" void XsdIDRef__ctor_m10199 (XsdIDRef_t3064 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRef::get_TokenizedType()
-extern "C" int32_t XsdIDRef_get_TokenizedType_m10203 (XsdIDRef_t3064 * __this, const MethodInfo* method)
+extern "C" int32_t XsdIDRef_get_TokenizedType_m10200 (XsdIDRef_t3064 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(2);
@@ -462,15 +462,15 @@ extern "C" int32_t XsdIDRef_get_TokenizedType_m10203 (XsdIDRef_t3064 * __this, c
 
 
 // System.Void Mono.Xml.Schema.XsdIDRefs::.ctor()
-extern "C" void XsdIDRefs__ctor_m10204 (XsdIDRefs_t3065 * __this, const MethodInfo* method)
+extern "C" void XsdIDRefs__ctor_m10201 (XsdIDRefs_t3065 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRefs::get_TokenizedType()
-extern "C" int32_t XsdIDRefs_get_TokenizedType_m10205 (XsdIDRefs_t3065 * __this, const MethodInfo* method)
+extern "C" int32_t XsdIDRefs_get_TokenizedType_m10202 (XsdIDRefs_t3065 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(3);
@@ -487,15 +487,15 @@ extern "C" int32_t XsdIDRefs_get_TokenizedType_m10205 (XsdIDRefs_t3065 * __this,
 
 
 // System.Void Mono.Xml.Schema.XsdEntity::.ctor()
-extern "C" void XsdEntity__ctor_m10206 (XsdEntity_t3066 * __this, const MethodInfo* method)
+extern "C" void XsdEntity__ctor_m10203 (XsdEntity_t3066 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntity::get_TokenizedType()
-extern "C" int32_t XsdEntity_get_TokenizedType_m10207 (XsdEntity_t3066 * __this, const MethodInfo* method)
+extern "C" int32_t XsdEntity_get_TokenizedType_m10204 (XsdEntity_t3066 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(4);
@@ -512,15 +512,15 @@ extern "C" int32_t XsdEntity_get_TokenizedType_m10207 (XsdEntity_t3066 * __this,
 
 
 // System.Void Mono.Xml.Schema.XsdEntities::.ctor()
-extern "C" void XsdEntities__ctor_m10208 (XsdEntities_t3067 * __this, const MethodInfo* method)
+extern "C" void XsdEntities__ctor_m10205 (XsdEntities_t3067 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntities::get_TokenizedType()
-extern "C" int32_t XsdEntities_get_TokenizedType_m10209 (XsdEntities_t3067 * __this, const MethodInfo* method)
+extern "C" int32_t XsdEntities_get_TokenizedType_m10206 (XsdEntities_t3067 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(5);
@@ -538,22 +538,22 @@ extern "C" int32_t XsdEntities_get_TokenizedType_m10209 (XsdEntities_t3067 * __t
 
 // System.Void Mono.Xml.Schema.XsdNotation::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdNotation__ctor_m10210 (XsdNotation_t3068 * __this, const MethodInfo* method)
+extern "C" void XsdNotation__ctor_m10207 (XsdNotation_t3068 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNotation::get_TokenizedType()
-extern "C" int32_t XsdNotation_get_TokenizedType_m10211 (XsdNotation_t3068 * __this, const MethodInfo* method)
+extern "C" int32_t XsdNotation_get_TokenizedType_m10208 (XsdNotation_t3068 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(8);
@@ -571,23 +571,23 @@ extern "C" int32_t XsdNotation_get_TokenizedType_m10211 (XsdNotation_t3068 * __t
 
 // System.Void Mono.Xml.Schema.XsdDecimal::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdDecimal__ctor_m10212 (XsdDecimal_t3069 * __this, const MethodInfo* method)
+extern "C" void XsdDecimal__ctor_m10209 (XsdDecimal_t3069 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDecimal::get_TokenizedType()
-extern "C" int32_t XsdDecimal_get_TokenizedType_m10213 (XsdDecimal_t3069 * __this, const MethodInfo* method)
+extern "C" int32_t XsdDecimal_get_TokenizedType_m10210 (XsdDecimal_t3069 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(((int32_t)12));
@@ -604,10 +604,10 @@ extern "C" int32_t XsdDecimal_get_TokenizedType_m10213 (XsdDecimal_t3069 * __thi
 
 
 // System.Void Mono.Xml.Schema.XsdInteger::.ctor()
-extern "C" void XsdInteger__ctor_m10214 (XsdInteger_t3070 * __this, const MethodInfo* method)
+extern "C" void XsdInteger__ctor_m10211 (XsdInteger_t3070 * __this, const MethodInfo* method)
 {
 	{
-		XsdDecimal__ctor_m10212(__this, /*hidden argument*/NULL);
+		XsdDecimal__ctor_m10209(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -622,10 +622,10 @@ extern "C" void XsdInteger__ctor_m10214 (XsdInteger_t3070 * __this, const Method
 
 
 // System.Void Mono.Xml.Schema.XsdLong::.ctor()
-extern "C" void XsdLong__ctor_m10215 (XsdLong_t3071 * __this, const MethodInfo* method)
+extern "C" void XsdLong__ctor_m10212 (XsdLong_t3071 * __this, const MethodInfo* method)
 {
 	{
-		XsdInteger__ctor_m10214(__this, /*hidden argument*/NULL);
+		XsdInteger__ctor_m10211(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -640,10 +640,10 @@ extern "C" void XsdLong__ctor_m10215 (XsdLong_t3071 * __this, const MethodInfo* 
 
 
 // System.Void Mono.Xml.Schema.XsdInt::.ctor()
-extern "C" void XsdInt__ctor_m10216 (XsdInt_t3072 * __this, const MethodInfo* method)
+extern "C" void XsdInt__ctor_m10213 (XsdInt_t3072 * __this, const MethodInfo* method)
 {
 	{
-		XsdLong__ctor_m10215(__this, /*hidden argument*/NULL);
+		XsdLong__ctor_m10212(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -658,10 +658,10 @@ extern "C" void XsdInt__ctor_m10216 (XsdInt_t3072 * __this, const MethodInfo* me
 
 
 // System.Void Mono.Xml.Schema.XsdShort::.ctor()
-extern "C" void XsdShort__ctor_m10217 (XsdShort_t3073 * __this, const MethodInfo* method)
+extern "C" void XsdShort__ctor_m10214 (XsdShort_t3073 * __this, const MethodInfo* method)
 {
 	{
-		XsdInt__ctor_m10216(__this, /*hidden argument*/NULL);
+		XsdInt__ctor_m10213(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -676,10 +676,10 @@ extern "C" void XsdShort__ctor_m10217 (XsdShort_t3073 * __this, const MethodInfo
 
 
 // System.Void Mono.Xml.Schema.XsdByte::.ctor()
-extern "C" void XsdByte__ctor_m10218 (XsdByte_t3074 * __this, const MethodInfo* method)
+extern "C" void XsdByte__ctor_m10215 (XsdByte_t3074 * __this, const MethodInfo* method)
 {
 	{
-		XsdShort__ctor_m10217(__this, /*hidden argument*/NULL);
+		XsdShort__ctor_m10214(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -694,10 +694,10 @@ extern "C" void XsdByte__ctor_m10218 (XsdByte_t3074 * __this, const MethodInfo* 
 
 
 // System.Void Mono.Xml.Schema.XsdNonNegativeInteger::.ctor()
-extern "C" void XsdNonNegativeInteger__ctor_m10219 (XsdNonNegativeInteger_t3075 * __this, const MethodInfo* method)
+extern "C" void XsdNonNegativeInteger__ctor_m10216 (XsdNonNegativeInteger_t3075 * __this, const MethodInfo* method)
 {
 	{
-		XsdInteger__ctor_m10214(__this, /*hidden argument*/NULL);
+		XsdInteger__ctor_m10211(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -712,10 +712,10 @@ extern "C" void XsdNonNegativeInteger__ctor_m10219 (XsdNonNegativeInteger_t3075 
 
 
 // System.Void Mono.Xml.Schema.XsdUnsignedLong::.ctor()
-extern "C" void XsdUnsignedLong__ctor_m10220 (XsdUnsignedLong_t3076 * __this, const MethodInfo* method)
+extern "C" void XsdUnsignedLong__ctor_m10217 (XsdUnsignedLong_t3076 * __this, const MethodInfo* method)
 {
 	{
-		XsdNonNegativeInteger__ctor_m10219(__this, /*hidden argument*/NULL);
+		XsdNonNegativeInteger__ctor_m10216(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -730,10 +730,10 @@ extern "C" void XsdUnsignedLong__ctor_m10220 (XsdUnsignedLong_t3076 * __this, co
 
 
 // System.Void Mono.Xml.Schema.XsdUnsignedInt::.ctor()
-extern "C" void XsdUnsignedInt__ctor_m10221 (XsdUnsignedInt_t3077 * __this, const MethodInfo* method)
+extern "C" void XsdUnsignedInt__ctor_m10218 (XsdUnsignedInt_t3077 * __this, const MethodInfo* method)
 {
 	{
-		XsdUnsignedLong__ctor_m10220(__this, /*hidden argument*/NULL);
+		XsdUnsignedLong__ctor_m10217(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -748,10 +748,10 @@ extern "C" void XsdUnsignedInt__ctor_m10221 (XsdUnsignedInt_t3077 * __this, cons
 
 
 // System.Void Mono.Xml.Schema.XsdUnsignedShort::.ctor()
-extern "C" void XsdUnsignedShort__ctor_m10222 (XsdUnsignedShort_t3078 * __this, const MethodInfo* method)
+extern "C" void XsdUnsignedShort__ctor_m10219 (XsdUnsignedShort_t3078 * __this, const MethodInfo* method)
 {
 	{
-		XsdUnsignedInt__ctor_m10221(__this, /*hidden argument*/NULL);
+		XsdUnsignedInt__ctor_m10218(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -766,10 +766,10 @@ extern "C" void XsdUnsignedShort__ctor_m10222 (XsdUnsignedShort_t3078 * __this, 
 
 
 // System.Void Mono.Xml.Schema.XsdUnsignedByte::.ctor()
-extern "C" void XsdUnsignedByte__ctor_m10223 (XsdUnsignedByte_t3079 * __this, const MethodInfo* method)
+extern "C" void XsdUnsignedByte__ctor_m10220 (XsdUnsignedByte_t3079 * __this, const MethodInfo* method)
 {
 	{
-		XsdUnsignedShort__ctor_m10222(__this, /*hidden argument*/NULL);
+		XsdUnsignedShort__ctor_m10219(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -784,10 +784,10 @@ extern "C" void XsdUnsignedByte__ctor_m10223 (XsdUnsignedByte_t3079 * __this, co
 
 
 // System.Void Mono.Xml.Schema.XsdPositiveInteger::.ctor()
-extern "C" void XsdPositiveInteger__ctor_m10224 (XsdPositiveInteger_t3080 * __this, const MethodInfo* method)
+extern "C" void XsdPositiveInteger__ctor_m10221 (XsdPositiveInteger_t3080 * __this, const MethodInfo* method)
 {
 	{
-		XsdNonNegativeInteger__ctor_m10219(__this, /*hidden argument*/NULL);
+		XsdNonNegativeInteger__ctor_m10216(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -802,10 +802,10 @@ extern "C" void XsdPositiveInteger__ctor_m10224 (XsdPositiveInteger_t3080 * __th
 
 
 // System.Void Mono.Xml.Schema.XsdNonPositiveInteger::.ctor()
-extern "C" void XsdNonPositiveInteger__ctor_m10225 (XsdNonPositiveInteger_t3081 * __this, const MethodInfo* method)
+extern "C" void XsdNonPositiveInteger__ctor_m10222 (XsdNonPositiveInteger_t3081 * __this, const MethodInfo* method)
 {
 	{
-		XsdInteger__ctor_m10214(__this, /*hidden argument*/NULL);
+		XsdInteger__ctor_m10211(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -820,10 +820,10 @@ extern "C" void XsdNonPositiveInteger__ctor_m10225 (XsdNonPositiveInteger_t3081 
 
 
 // System.Void Mono.Xml.Schema.XsdNegativeInteger::.ctor()
-extern "C" void XsdNegativeInteger__ctor_m10226 (XsdNegativeInteger_t3082 * __this, const MethodInfo* method)
+extern "C" void XsdNegativeInteger__ctor_m10223 (XsdNegativeInteger_t3082 * __this, const MethodInfo* method)
 {
 	{
-		XsdNonPositiveInteger__ctor_m10225(__this, /*hidden argument*/NULL);
+		XsdNonPositiveInteger__ctor_m10222(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -839,17 +839,17 @@ extern "C" void XsdNegativeInteger__ctor_m10226 (XsdNegativeInteger_t3082 * __th
 
 // System.Void Mono.Xml.Schema.XsdFloat::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdFloat__ctor_m10227 (XsdFloat_t3083 * __this, const MethodInfo* method)
+extern "C" void XsdFloat__ctor_m10224 (XsdFloat_t3083 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -866,17 +866,17 @@ extern "C" void XsdFloat__ctor_m10227 (XsdFloat_t3083 * __this, const MethodInfo
 
 // System.Void Mono.Xml.Schema.XsdDouble::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdDouble__ctor_m10228 (XsdDouble_t3084 * __this, const MethodInfo* method)
+extern "C" void XsdDouble__ctor_m10225 (XsdDouble_t3084 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -900,22 +900,22 @@ extern "C" void XsdDouble__ctor_m10228 (XsdDouble_t3084 * __this, const MethodIn
 
 
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.ctor()
-extern "C" void XsdBase64Binary__ctor_m10229 (XsdBase64Binary_t3085 * __this, const MethodInfo* method)
+extern "C" void XsdBase64Binary__ctor_m10226 (XsdBase64Binary_t3085 * __this, const MethodInfo* method)
 {
 	{
-		XsdString__ctor_m10184(__this, /*hidden argument*/NULL);
+		XsdString__ctor_m10181(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.cctor()
 extern TypeInfo* XsdBase64Binary_t3085_il2cpp_TypeInfo_var;
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" void XsdBase64Binary__cctor_m10230 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XsdBase64Binary__cctor_m10227 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdBase64Binary_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
+		XsdBase64Binary_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -924,7 +924,7 @@ extern "C" void XsdBase64Binary__cctor_m10230 (Object_t * __this /* static, unus
 	int32_t V_2 = 0;
 	uint16_t V_3 = 0x0;
 	{
-		((XsdBase64Binary_t3085_StaticFields*)XsdBase64Binary_t3085_il2cpp_TypeInfo_var->static_fields)->___ALPHABET_61 = (String_t*) &_stringLiteral1986;
+		((XsdBase64Binary_t3085_StaticFields*)XsdBase64Binary_t3085_il2cpp_TypeInfo_var->static_fields)->___ALPHABET_61 = (String_t*) &_stringLiteral1988;
 		String_t* L_0 = ((XsdBase64Binary_t3085_StaticFields*)XsdBase64Binary_t3085_il2cpp_TypeInfo_var->static_fields)->___ALPHABET_61;
 		NullCheck(L_0);
 		int32_t L_1 = String_get_Length_m410(L_0, /*hidden argument*/NULL);
@@ -1002,23 +1002,23 @@ IL_0065:
 
 // System.Void Mono.Xml.Schema.XsdHexBinary::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdHexBinary__ctor_m10231 (XsdHexBinary_t3086 * __this, const MethodInfo* method)
+extern "C" void XsdHexBinary__ctor_m10228 (XsdHexBinary_t3086 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdHexBinary::get_TokenizedType()
-extern "C" int32_t XsdHexBinary_get_TokenizedType_m10232 (XsdHexBinary_t3086 * __this, const MethodInfo* method)
+extern "C" int32_t XsdHexBinary_get_TokenizedType_m10229 (XsdHexBinary_t3086 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(((int32_t)12));
@@ -1035,15 +1035,15 @@ extern "C" int32_t XsdHexBinary_get_TokenizedType_m10232 (XsdHexBinary_t3086 * _
 
 
 // System.Void Mono.Xml.Schema.XsdQName::.ctor()
-extern "C" void XsdQName__ctor_m10233 (XsdQName_t3087 * __this, const MethodInfo* method)
+extern "C" void XsdQName__ctor_m10230 (XsdQName_t3087 * __this, const MethodInfo* method)
 {
 	{
-		XsdName__ctor_m10196(__this, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdQName::get_TokenizedType()
-extern "C" int32_t XsdQName_get_TokenizedType_m10234 (XsdQName_t3087 * __this, const MethodInfo* method)
+extern "C" int32_t XsdQName_get_TokenizedType_m10231 (XsdQName_t3087 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(((int32_t)10));
@@ -1067,29 +1067,29 @@ extern "C" int32_t XsdQName_get_TokenizedType_m10234 (XsdQName_t3087 * __this, c
 
 // System.Void Mono.Xml.Schema.XsdBoolean::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdBoolean__ctor_m10235 (XsdBoolean_t3088 * __this, const MethodInfo* method)
+extern "C" void XsdBoolean__ctor_m10232 (XsdBoolean_t3088 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdBoolean::get_TokenizedType()
 extern TypeInfo* XmlSchemaUtil_t3119_il2cpp_TypeInfo_var;
-extern "C" int32_t XsdBoolean_get_TokenizedType_m10236 (XsdBoolean_t3088 * __this, const MethodInfo* method)
+extern "C" int32_t XsdBoolean_get_TokenizedType_m10233 (XsdBoolean_t3088 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaUtil_t3119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5254);
+		XmlSchemaUtil_t3119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1120,15 +1120,15 @@ IL_000d:
 
 
 // System.Void Mono.Xml.Schema.XsdAnyURI::.ctor()
-extern "C" void XsdAnyURI__ctor_m10237 (XsdAnyURI_t3089 * __this, const MethodInfo* method)
+extern "C" void XsdAnyURI__ctor_m10234 (XsdAnyURI_t3089 * __this, const MethodInfo* method)
 {
 	{
-		XsdString__ctor_m10184(__this, /*hidden argument*/NULL);
+		XsdString__ctor_m10181(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnyURI::get_TokenizedType()
-extern "C" int32_t XsdAnyURI_get_TokenizedType_m10238 (XsdAnyURI_t3089 * __this, const MethodInfo* method)
+extern "C" int32_t XsdAnyURI_get_TokenizedType_m10235 (XsdAnyURI_t3089 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -1146,23 +1146,23 @@ extern "C" int32_t XsdAnyURI_get_TokenizedType_m10238 (XsdAnyURI_t3089 * __this,
 
 // System.Void Mono.Xml.Schema.XsdDuration::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdDuration__ctor_m10239 (XsdDuration_t3090 * __this, const MethodInfo* method)
+extern "C" void XsdDuration__ctor_m10236 (XsdDuration_t3090 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDuration::get_TokenizedType()
-extern "C" int32_t XsdDuration_get_TokenizedType_m10240 (XsdDuration_t3090 * __this, const MethodInfo* method)
+extern "C" int32_t XsdDuration_get_TokenizedType_m10237 (XsdDuration_t3090 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -1179,10 +1179,10 @@ extern "C" int32_t XsdDuration_get_TokenizedType_m10240 (XsdDuration_t3090 * __t
 
 
 // System.Void Mono.Xml.Schema.XdtDayTimeDuration::.ctor()
-extern "C" void XdtDayTimeDuration__ctor_m10241 (XdtDayTimeDuration_t3091 * __this, const MethodInfo* method)
+extern "C" void XdtDayTimeDuration__ctor_m10238 (XdtDayTimeDuration_t3091 * __this, const MethodInfo* method)
 {
 	{
-		XsdDuration__ctor_m10239(__this, /*hidden argument*/NULL);
+		XsdDuration__ctor_m10236(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1197,10 +1197,10 @@ extern "C" void XdtDayTimeDuration__ctor_m10241 (XdtDayTimeDuration_t3091 * __th
 
 
 // System.Void Mono.Xml.Schema.XdtYearMonthDuration::.ctor()
-extern "C" void XdtYearMonthDuration__ctor_m10242 (XdtYearMonthDuration_t3092 * __this, const MethodInfo* method)
+extern "C" void XdtYearMonthDuration__ctor_m10239 (XdtYearMonthDuration_t3092 * __this, const MethodInfo* method)
 {
 	{
-		XsdDuration__ctor_m10239(__this, /*hidden argument*/NULL);
+		XsdDuration__ctor_m10236(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1216,23 +1216,23 @@ extern "C" void XdtYearMonthDuration__ctor_m10242 (XdtYearMonthDuration_t3092 * 
 
 // System.Void Mono.Xml.Schema.XsdDateTime::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdDateTime__ctor_m10243 (XsdDateTime_t3093 * __this, const MethodInfo* method)
+extern "C" void XsdDateTime__ctor_m10240 (XsdDateTime_t3093 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDateTime::get_TokenizedType()
-extern "C" int32_t XsdDateTime_get_TokenizedType_m10244 (XsdDateTime_t3093 * __this, const MethodInfo* method)
+extern "C" int32_t XsdDateTime_get_TokenizedType_m10241 (XsdDateTime_t3093 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -1250,23 +1250,23 @@ extern "C" int32_t XsdDateTime_get_TokenizedType_m10244 (XsdDateTime_t3093 * __t
 
 // System.Void Mono.Xml.Schema.XsdDate::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdDate__ctor_m10245 (XsdDate_t3094 * __this, const MethodInfo* method)
+extern "C" void XsdDate__ctor_m10242 (XsdDate_t3094 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDate::get_TokenizedType()
-extern "C" int32_t XsdDate_get_TokenizedType_m10246 (XsdDate_t3094 * __this, const MethodInfo* method)
+extern "C" int32_t XsdDate_get_TokenizedType_m10243 (XsdDate_t3094 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -1284,17 +1284,17 @@ extern "C" int32_t XsdDate_get_TokenizedType_m10246 (XsdDate_t3094 * __this, con
 
 // System.Void Mono.Xml.Schema.XsdTime::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdTime__ctor_m10247 (XsdTime_t3095 * __this, const MethodInfo* method)
+extern "C" void XsdTime__ctor_m10244 (XsdTime_t3095 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1302,142 +1302,142 @@ extern "C" void XsdTime__ctor_m10247 (XsdTime_t3095 * __this, const MethodInfo* 
 // System.Void Mono.Xml.Schema.XsdTime::.cctor()
 extern TypeInfo* StringU5BU5D_t75_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdTime_t3095_il2cpp_TypeInfo_var;
-extern "C" void XsdTime__cctor_m10248 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XsdTime__cctor_m10245 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
-		XsdTime_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5255);
+		XsdTime_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		StringU5BU5D_t75* L_0 = ((StringU5BU5D_t75*)SZArrayNew(StringU5BU5D_t75_il2cpp_TypeInfo_var, ((int32_t)24)));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
-		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral1987);
-		*((String_t**)(String_t**)SZArrayLdElema(L_0, 0)) = (String_t*)(String_t*) &_stringLiteral1987;
+		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral1989);
+		*((String_t**)(String_t**)SZArrayLdElema(L_0, 0)) = (String_t*)(String_t*) &_stringLiteral1989;
 		StringU5BU5D_t75* L_1 = L_0;
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
-		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral1988);
-		*((String_t**)(String_t**)SZArrayLdElema(L_1, 1)) = (String_t*)(String_t*) &_stringLiteral1988;
+		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral1990);
+		*((String_t**)(String_t**)SZArrayLdElema(L_1, 1)) = (String_t*)(String_t*) &_stringLiteral1990;
 		StringU5BU5D_t75* L_2 = L_1;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 2);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1989);
-		*((String_t**)(String_t**)SZArrayLdElema(L_2, 2)) = (String_t*)(String_t*) &_stringLiteral1989;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1991);
+		*((String_t**)(String_t**)SZArrayLdElema(L_2, 2)) = (String_t*)(String_t*) &_stringLiteral1991;
 		StringU5BU5D_t75* L_3 = L_2;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 3);
-		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral1990);
-		*((String_t**)(String_t**)SZArrayLdElema(L_3, 3)) = (String_t*)(String_t*) &_stringLiteral1990;
+		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral1992);
+		*((String_t**)(String_t**)SZArrayLdElema(L_3, 3)) = (String_t*)(String_t*) &_stringLiteral1992;
 		StringU5BU5D_t75* L_4 = L_3;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 4);
-		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral1991);
-		*((String_t**)(String_t**)SZArrayLdElema(L_4, 4)) = (String_t*)(String_t*) &_stringLiteral1991;
+		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral1993);
+		*((String_t**)(String_t**)SZArrayLdElema(L_4, 4)) = (String_t*)(String_t*) &_stringLiteral1993;
 		StringU5BU5D_t75* L_5 = L_4;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 5);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1992);
-		*((String_t**)(String_t**)SZArrayLdElema(L_5, 5)) = (String_t*)(String_t*) &_stringLiteral1992;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1994);
+		*((String_t**)(String_t**)SZArrayLdElema(L_5, 5)) = (String_t*)(String_t*) &_stringLiteral1994;
 		StringU5BU5D_t75* L_6 = L_5;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 6);
-		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral1993);
-		*((String_t**)(String_t**)SZArrayLdElema(L_6, 6)) = (String_t*)(String_t*) &_stringLiteral1993;
+		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral1995);
+		*((String_t**)(String_t**)SZArrayLdElema(L_6, 6)) = (String_t*)(String_t*) &_stringLiteral1995;
 		StringU5BU5D_t75* L_7 = L_6;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 7);
-		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral1994);
-		*((String_t**)(String_t**)SZArrayLdElema(L_7, 7)) = (String_t*)(String_t*) &_stringLiteral1994;
+		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral1996);
+		*((String_t**)(String_t**)SZArrayLdElema(L_7, 7)) = (String_t*)(String_t*) &_stringLiteral1996;
 		StringU5BU5D_t75* L_8 = L_7;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 8);
-		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral1995);
-		*((String_t**)(String_t**)SZArrayLdElema(L_8, 8)) = (String_t*)(String_t*) &_stringLiteral1995;
+		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral1997);
+		*((String_t**)(String_t**)SZArrayLdElema(L_8, 8)) = (String_t*)(String_t*) &_stringLiteral1997;
 		StringU5BU5D_t75* L_9 = L_8;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, ((int32_t)9));
-		ArrayElementTypeCheck (L_9, (String_t*) &_stringLiteral1996);
-		*((String_t**)(String_t**)SZArrayLdElema(L_9, ((int32_t)9))) = (String_t*)(String_t*) &_stringLiteral1996;
+		ArrayElementTypeCheck (L_9, (String_t*) &_stringLiteral1998);
+		*((String_t**)(String_t**)SZArrayLdElema(L_9, ((int32_t)9))) = (String_t*)(String_t*) &_stringLiteral1998;
 		StringU5BU5D_t75* L_10 = L_9;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, ((int32_t)10));
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral1997);
-		*((String_t**)(String_t**)SZArrayLdElema(L_10, ((int32_t)10))) = (String_t*)(String_t*) &_stringLiteral1997;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral1999);
+		*((String_t**)(String_t**)SZArrayLdElema(L_10, ((int32_t)10))) = (String_t*)(String_t*) &_stringLiteral1999;
 		StringU5BU5D_t75* L_11 = L_10;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, ((int32_t)11));
-		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral1998);
-		*((String_t**)(String_t**)SZArrayLdElema(L_11, ((int32_t)11))) = (String_t*)(String_t*) &_stringLiteral1998;
+		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral2000);
+		*((String_t**)(String_t**)SZArrayLdElema(L_11, ((int32_t)11))) = (String_t*)(String_t*) &_stringLiteral2000;
 		StringU5BU5D_t75* L_12 = L_11;
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, ((int32_t)12));
-		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral1999);
-		*((String_t**)(String_t**)SZArrayLdElema(L_12, ((int32_t)12))) = (String_t*)(String_t*) &_stringLiteral1999;
+		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral2001);
+		*((String_t**)(String_t**)SZArrayLdElema(L_12, ((int32_t)12))) = (String_t*)(String_t*) &_stringLiteral2001;
 		StringU5BU5D_t75* L_13 = L_12;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, ((int32_t)13));
-		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral2000);
-		*((String_t**)(String_t**)SZArrayLdElema(L_13, ((int32_t)13))) = (String_t*)(String_t*) &_stringLiteral2000;
+		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral2002);
+		*((String_t**)(String_t**)SZArrayLdElema(L_13, ((int32_t)13))) = (String_t*)(String_t*) &_stringLiteral2002;
 		StringU5BU5D_t75* L_14 = L_13;
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, ((int32_t)14));
-		ArrayElementTypeCheck (L_14, (String_t*) &_stringLiteral2001);
-		*((String_t**)(String_t**)SZArrayLdElema(L_14, ((int32_t)14))) = (String_t*)(String_t*) &_stringLiteral2001;
+		ArrayElementTypeCheck (L_14, (String_t*) &_stringLiteral2003);
+		*((String_t**)(String_t**)SZArrayLdElema(L_14, ((int32_t)14))) = (String_t*)(String_t*) &_stringLiteral2003;
 		StringU5BU5D_t75* L_15 = L_14;
 		NullCheck(L_15);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, ((int32_t)15));
-		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral2002);
-		*((String_t**)(String_t**)SZArrayLdElema(L_15, ((int32_t)15))) = (String_t*)(String_t*) &_stringLiteral2002;
+		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral2004);
+		*((String_t**)(String_t**)SZArrayLdElema(L_15, ((int32_t)15))) = (String_t*)(String_t*) &_stringLiteral2004;
 		StringU5BU5D_t75* L_16 = L_15;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, ((int32_t)16));
-		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral2003);
-		*((String_t**)(String_t**)SZArrayLdElema(L_16, ((int32_t)16))) = (String_t*)(String_t*) &_stringLiteral2003;
+		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral2005);
+		*((String_t**)(String_t**)SZArrayLdElema(L_16, ((int32_t)16))) = (String_t*)(String_t*) &_stringLiteral2005;
 		StringU5BU5D_t75* L_17 = L_16;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, ((int32_t)17));
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral2004);
-		*((String_t**)(String_t**)SZArrayLdElema(L_17, ((int32_t)17))) = (String_t*)(String_t*) &_stringLiteral2004;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral2006);
+		*((String_t**)(String_t**)SZArrayLdElema(L_17, ((int32_t)17))) = (String_t*)(String_t*) &_stringLiteral2006;
 		StringU5BU5D_t75* L_18 = L_17;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, ((int32_t)18));
-		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral2005);
-		*((String_t**)(String_t**)SZArrayLdElema(L_18, ((int32_t)18))) = (String_t*)(String_t*) &_stringLiteral2005;
+		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral2007);
+		*((String_t**)(String_t**)SZArrayLdElema(L_18, ((int32_t)18))) = (String_t*)(String_t*) &_stringLiteral2007;
 		StringU5BU5D_t75* L_19 = L_18;
 		NullCheck(L_19);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, ((int32_t)19));
-		ArrayElementTypeCheck (L_19, (String_t*) &_stringLiteral2006);
-		*((String_t**)(String_t**)SZArrayLdElema(L_19, ((int32_t)19))) = (String_t*)(String_t*) &_stringLiteral2006;
+		ArrayElementTypeCheck (L_19, (String_t*) &_stringLiteral2008);
+		*((String_t**)(String_t**)SZArrayLdElema(L_19, ((int32_t)19))) = (String_t*)(String_t*) &_stringLiteral2008;
 		StringU5BU5D_t75* L_20 = L_19;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, ((int32_t)20));
-		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral2007);
-		*((String_t**)(String_t**)SZArrayLdElema(L_20, ((int32_t)20))) = (String_t*)(String_t*) &_stringLiteral2007;
+		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral2009);
+		*((String_t**)(String_t**)SZArrayLdElema(L_20, ((int32_t)20))) = (String_t*)(String_t*) &_stringLiteral2009;
 		StringU5BU5D_t75* L_21 = L_20;
 		NullCheck(L_21);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, ((int32_t)21));
-		ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral2008);
-		*((String_t**)(String_t**)SZArrayLdElema(L_21, ((int32_t)21))) = (String_t*)(String_t*) &_stringLiteral2008;
+		ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral2010);
+		*((String_t**)(String_t**)SZArrayLdElema(L_21, ((int32_t)21))) = (String_t*)(String_t*) &_stringLiteral2010;
 		StringU5BU5D_t75* L_22 = L_21;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, ((int32_t)22));
-		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral2009);
-		*((String_t**)(String_t**)SZArrayLdElema(L_22, ((int32_t)22))) = (String_t*)(String_t*) &_stringLiteral2009;
+		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral2011);
+		*((String_t**)(String_t**)SZArrayLdElema(L_22, ((int32_t)22))) = (String_t*)(String_t*) &_stringLiteral2011;
 		StringU5BU5D_t75* L_23 = L_22;
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, ((int32_t)23));
-		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral2010);
-		*((String_t**)(String_t**)SZArrayLdElema(L_23, ((int32_t)23))) = (String_t*)(String_t*) &_stringLiteral2010;
+		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral2012);
+		*((String_t**)(String_t**)SZArrayLdElema(L_23, ((int32_t)23))) = (String_t*)(String_t*) &_stringLiteral2012;
 		((XsdTime_t3095_StaticFields*)XsdTime_t3095_il2cpp_TypeInfo_var->static_fields)->___timeFormats_61 = L_23;
 		return;
 	}
 }
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdTime::get_TokenizedType()
-extern "C" int32_t XsdTime_get_TokenizedType_m10249 (XsdTime_t3095 * __this, const MethodInfo* method)
+extern "C" int32_t XsdTime_get_TokenizedType_m10246 (XsdTime_t3095 * __this, const MethodInfo* method)
 {
 	{
 		return (int32_t)(0);
@@ -1455,17 +1455,17 @@ extern "C" int32_t XsdTime_get_TokenizedType_m10249 (XsdTime_t3095 * __this, con
 
 // System.Void Mono.Xml.Schema.XsdGYearMonth::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdGYearMonth__ctor_m10250 (XsdGYearMonth_t3096 * __this, const MethodInfo* method)
+extern "C" void XsdGYearMonth__ctor_m10247 (XsdGYearMonth_t3096 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1482,17 +1482,17 @@ extern "C" void XsdGYearMonth__ctor_m10250 (XsdGYearMonth_t3096 * __this, const 
 
 // System.Void Mono.Xml.Schema.XsdGMonthDay::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdGMonthDay__ctor_m10251 (XsdGMonthDay_t3097 * __this, const MethodInfo* method)
+extern "C" void XsdGMonthDay__ctor_m10248 (XsdGMonthDay_t3097 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1509,17 +1509,17 @@ extern "C" void XsdGMonthDay__ctor_m10251 (XsdGMonthDay_t3097 * __this, const Me
 
 // System.Void Mono.Xml.Schema.XsdGYear::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdGYear__ctor_m10252 (XsdGYear_t3098 * __this, const MethodInfo* method)
+extern "C" void XsdGYear__ctor_m10249 (XsdGYear_t3098 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1536,17 +1536,17 @@ extern "C" void XsdGYear__ctor_m10252 (XsdGYear_t3098 * __this, const MethodInfo
 
 // System.Void Mono.Xml.Schema.XsdGMonth::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdGMonth__ctor_m10253 (XsdGMonth_t3099 * __this, const MethodInfo* method)
+extern "C" void XsdGMonth__ctor_m10250 (XsdGMonth_t3099 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1563,17 +1563,17 @@ extern "C" void XsdGMonth__ctor_m10253 (XsdGMonth_t3099 * __this, const MethodIn
 
 // System.Void Mono.Xml.Schema.XsdGDay::.ctor()
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
-extern "C" void XsdGDay__ctor_m10254 (XsdGDay_t3100 * __this, const MethodInfo* method)
+extern "C" void XsdGDay__ctor_m10251 (XsdGDay_t3100 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType__ctor_m10178(__this, /*hidden argument*/NULL);
+		XsdAnySimpleType__ctor_m10175(__this, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052 *)__this)->___WhitespaceValue_0 = 2;
 		return;
 	}
@@ -1591,10 +1591,10 @@ extern "C" void XsdGDay__ctor_m10254 (XsdGDay_t3100 * __this, const MethodInfo* 
 
 
 // System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
-extern "C" void XmlSchemaAnnotated__ctor_m10255 (XmlSchemaAnnotated_t3101 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaAnnotated__ctor_m10252 (XmlSchemaAnnotated_t3101 * __this, const MethodInfo* method)
 {
 	{
-		XmlSchemaObject__ctor_m10269(__this, /*hidden argument*/NULL);
+		XmlSchemaObject__ctor_m10266(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1640,7 +1640,7 @@ extern "C" void XmlSchemaAnnotated__ctor_m10255 (XmlSchemaAnnotated_t3101 * __th
 
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaDatatype__ctor_m10256 (XmlSchemaDatatype_t3052 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaDatatype__ctor_m10253 (XmlSchemaDatatype_t3052 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1650,14 +1650,14 @@ extern "C" void XmlSchemaDatatype__ctor_m10256 (XmlSchemaDatatype_t3052 * __this
 	}
 	{
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3613(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3612(L_0, /*hidden argument*/NULL);
 		__this->___sb_2 = L_0;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.cctor()
-extern TypeInfo* CharU5BU5D_t663_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t662_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdAnySimpleType_t3051_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdString_t3055_il2cpp_TypeInfo_var;
@@ -1709,215 +1709,215 @@ extern TypeInfo* XdtUntypedAtomic_t3054_il2cpp_TypeInfo_var;
 extern TypeInfo* XdtDayTimeDuration_t3091_il2cpp_TypeInfo_var;
 extern TypeInfo* XdtYearMonthDuration_t3092_il2cpp_TypeInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3244____U24U24fieldU2D23_0_FieldInfo_var;
-extern "C" void XmlSchemaDatatype__cctor_m10257 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XmlSchemaDatatype__cctor_m10254 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t663_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
-		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
-		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
-		XsdString_t3055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5256);
-		XsdNormalizedString_t3056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5257);
-		XsdToken_t3057_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5258);
-		XsdLanguage_t3058_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5259);
-		XsdNMToken_t3059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5260);
-		XsdNMTokens_t3060_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5261);
-		XsdName_t3061_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5262);
-		XsdNCName_t3062_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5263);
-		XsdID_t3063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5264);
-		XsdIDRef_t3064_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5265);
-		XsdIDRefs_t3065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5266);
-		XsdEntity_t3066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5267);
-		XsdEntities_t3067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5268);
-		XsdNotation_t3068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5269);
-		XsdDecimal_t3069_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5270);
-		XsdInteger_t3070_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5271);
-		XsdLong_t3071_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5272);
-		XsdInt_t3072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5273);
-		XsdShort_t3073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5274);
-		XsdByte_t3074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5275);
-		XsdNonNegativeInteger_t3075_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5276);
-		XsdPositiveInteger_t3080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5277);
-		XsdUnsignedLong_t3076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5278);
-		XsdUnsignedInt_t3077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5279);
-		XsdUnsignedShort_t3078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5280);
-		XsdUnsignedByte_t3079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5281);
-		XsdNonPositiveInteger_t3081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5282);
-		XsdNegativeInteger_t3082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5283);
-		XsdFloat_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5284);
-		XsdDouble_t3084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5285);
-		XsdBase64Binary_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
-		XsdBoolean_t3088_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5286);
-		XsdAnyURI_t3089_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5287);
-		XsdDuration_t3090_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5288);
-		XsdDateTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5289);
-		XsdDate_t3094_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5290);
-		XsdTime_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5255);
-		XsdHexBinary_t3086_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5291);
-		XsdQName_t3087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5292);
-		XsdGYearMonth_t3096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5293);
-		XsdGMonthDay_t3097_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5294);
-		XsdGYear_t3098_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5295);
-		XsdGMonth_t3099_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5296);
-		XsdGDay_t3100_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5297);
-		XdtAnyAtomicType_t3053_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5298);
-		XdtUntypedAtomic_t3054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5299);
-		XdtDayTimeDuration_t3091_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
-		XdtYearMonthDuration_t3092_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
-		U3CPrivateImplementationDetailsU3E_t3244____U24U24fieldU2D23_0_FieldInfo_var = il2cpp_codegen_field_info_from_index(5302, 0);
+		CharU5BU5D_t662_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
+		XsdAnySimpleType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
+		XsdString_t3055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5254);
+		XsdNormalizedString_t3056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5255);
+		XsdToken_t3057_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5256);
+		XsdLanguage_t3058_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5257);
+		XsdNMToken_t3059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5258);
+		XsdNMTokens_t3060_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5259);
+		XsdName_t3061_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5260);
+		XsdNCName_t3062_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5261);
+		XsdID_t3063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5262);
+		XsdIDRef_t3064_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5263);
+		XsdIDRefs_t3065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5264);
+		XsdEntity_t3066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5265);
+		XsdEntities_t3067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5266);
+		XsdNotation_t3068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5267);
+		XsdDecimal_t3069_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5268);
+		XsdInteger_t3070_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5269);
+		XsdLong_t3071_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5270);
+		XsdInt_t3072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5271);
+		XsdShort_t3073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5272);
+		XsdByte_t3074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5273);
+		XsdNonNegativeInteger_t3075_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5274);
+		XsdPositiveInteger_t3080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5275);
+		XsdUnsignedLong_t3076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5276);
+		XsdUnsignedInt_t3077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5277);
+		XsdUnsignedShort_t3078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5278);
+		XsdUnsignedByte_t3079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5279);
+		XsdNonPositiveInteger_t3081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5280);
+		XsdNegativeInteger_t3082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5281);
+		XsdFloat_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5282);
+		XsdDouble_t3084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5283);
+		XsdBase64Binary_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XsdBoolean_t3088_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5284);
+		XsdAnyURI_t3089_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5285);
+		XsdDuration_t3090_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5286);
+		XsdDateTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5287);
+		XsdDate_t3094_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5288);
+		XsdTime_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
+		XsdHexBinary_t3086_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5289);
+		XsdQName_t3087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5290);
+		XsdGYearMonth_t3096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5291);
+		XsdGMonthDay_t3097_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5292);
+		XsdGYear_t3098_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5293);
+		XsdGMonth_t3099_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5294);
+		XsdGDay_t3100_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5295);
+		XdtAnyAtomicType_t3053_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5296);
+		XdtUntypedAtomic_t3054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5297);
+		XdtDayTimeDuration_t3091_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5298);
+		XdtYearMonthDuration_t3092_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5299);
+		U3CPrivateImplementationDetailsU3E_t3244____U24U24fieldU2D23_0_FieldInfo_var = il2cpp_codegen_field_info_from_index(5300, 0);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CharU5BU5D_t663* L_0 = ((CharU5BU5D_t663*)SZArrayNew(CharU5BU5D_t663_il2cpp_TypeInfo_var, 4));
-		RuntimeHelpers_InitializeArray_m11193(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3244____U24U24fieldU2D23_0_FieldInfo_var), /*hidden argument*/NULL);
+		CharU5BU5D_t662* L_0 = ((CharU5BU5D_t662*)SZArrayNew(CharU5BU5D_t662_il2cpp_TypeInfo_var, 4));
+		RuntimeHelpers_InitializeArray_m11190(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3244____U24U24fieldU2D23_0_FieldInfo_var), /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___wsChars_1 = L_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3051_il2cpp_TypeInfo_var);
-		XsdAnySimpleType_t3051 * L_1 = XsdAnySimpleType_get_Instance_m10180(NULL /*static, unused*/, /*hidden argument*/NULL);
+		XsdAnySimpleType_t3051 * L_1 = XsdAnySimpleType_get_Instance_m10177(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeAnySimpleType_3 = L_1;
 		XsdString_t3055 * L_2 = (XsdString_t3055 *)il2cpp_codegen_object_new (XsdString_t3055_il2cpp_TypeInfo_var);
-		XsdString__ctor_m10184(L_2, /*hidden argument*/NULL);
+		XsdString__ctor_m10181(L_2, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeString_4 = L_2;
 		XsdNormalizedString_t3056 * L_3 = (XsdNormalizedString_t3056 *)il2cpp_codegen_object_new (XsdNormalizedString_t3056_il2cpp_TypeInfo_var);
-		XsdNormalizedString__ctor_m10186(L_3, /*hidden argument*/NULL);
+		XsdNormalizedString__ctor_m10183(L_3, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNormalizedString_5 = L_3;
 		XsdToken_t3057 * L_4 = (XsdToken_t3057 *)il2cpp_codegen_object_new (XsdToken_t3057_il2cpp_TypeInfo_var);
-		XsdToken__ctor_m10188(L_4, /*hidden argument*/NULL);
+		XsdToken__ctor_m10185(L_4, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeToken_6 = L_4;
 		XsdLanguage_t3058 * L_5 = (XsdLanguage_t3058 *)il2cpp_codegen_object_new (XsdLanguage_t3058_il2cpp_TypeInfo_var);
-		XsdLanguage__ctor_m10190(L_5, /*hidden argument*/NULL);
+		XsdLanguage__ctor_m10187(L_5, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeLanguage_7 = L_5;
 		XsdNMToken_t3059 * L_6 = (XsdNMToken_t3059 *)il2cpp_codegen_object_new (XsdNMToken_t3059_il2cpp_TypeInfo_var);
-		XsdNMToken__ctor_m10192(L_6, /*hidden argument*/NULL);
+		XsdNMToken__ctor_m10189(L_6, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNMToken_8 = L_6;
 		XsdNMTokens_t3060 * L_7 = (XsdNMTokens_t3060 *)il2cpp_codegen_object_new (XsdNMTokens_t3060_il2cpp_TypeInfo_var);
-		XsdNMTokens__ctor_m10194(L_7, /*hidden argument*/NULL);
+		XsdNMTokens__ctor_m10191(L_7, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNMTokens_9 = L_7;
 		XsdName_t3061 * L_8 = (XsdName_t3061 *)il2cpp_codegen_object_new (XsdName_t3061_il2cpp_TypeInfo_var);
-		XsdName__ctor_m10196(L_8, /*hidden argument*/NULL);
+		XsdName__ctor_m10193(L_8, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeName_10 = L_8;
 		XsdNCName_t3062 * L_9 = (XsdNCName_t3062 *)il2cpp_codegen_object_new (XsdNCName_t3062_il2cpp_TypeInfo_var);
-		XsdNCName__ctor_m10198(L_9, /*hidden argument*/NULL);
+		XsdNCName__ctor_m10195(L_9, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNCName_11 = L_9;
 		XsdID_t3063 * L_10 = (XsdID_t3063 *)il2cpp_codegen_object_new (XsdID_t3063_il2cpp_TypeInfo_var);
-		XsdID__ctor_m10200(L_10, /*hidden argument*/NULL);
+		XsdID__ctor_m10197(L_10, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeID_12 = L_10;
 		XsdIDRef_t3064 * L_11 = (XsdIDRef_t3064 *)il2cpp_codegen_object_new (XsdIDRef_t3064_il2cpp_TypeInfo_var);
-		XsdIDRef__ctor_m10202(L_11, /*hidden argument*/NULL);
+		XsdIDRef__ctor_m10199(L_11, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeIDRef_13 = L_11;
 		XsdIDRefs_t3065 * L_12 = (XsdIDRefs_t3065 *)il2cpp_codegen_object_new (XsdIDRefs_t3065_il2cpp_TypeInfo_var);
-		XsdIDRefs__ctor_m10204(L_12, /*hidden argument*/NULL);
+		XsdIDRefs__ctor_m10201(L_12, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeIDRefs_14 = L_12;
 		XsdEntity_t3066 * L_13 = (XsdEntity_t3066 *)il2cpp_codegen_object_new (XsdEntity_t3066_il2cpp_TypeInfo_var);
-		XsdEntity__ctor_m10206(L_13, /*hidden argument*/NULL);
+		XsdEntity__ctor_m10203(L_13, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeEntity_15 = L_13;
 		XsdEntities_t3067 * L_14 = (XsdEntities_t3067 *)il2cpp_codegen_object_new (XsdEntities_t3067_il2cpp_TypeInfo_var);
-		XsdEntities__ctor_m10208(L_14, /*hidden argument*/NULL);
+		XsdEntities__ctor_m10205(L_14, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeEntities_16 = L_14;
 		XsdNotation_t3068 * L_15 = (XsdNotation_t3068 *)il2cpp_codegen_object_new (XsdNotation_t3068_il2cpp_TypeInfo_var);
-		XsdNotation__ctor_m10210(L_15, /*hidden argument*/NULL);
+		XsdNotation__ctor_m10207(L_15, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNotation_17 = L_15;
 		XsdDecimal_t3069 * L_16 = (XsdDecimal_t3069 *)il2cpp_codegen_object_new (XsdDecimal_t3069_il2cpp_TypeInfo_var);
-		XsdDecimal__ctor_m10212(L_16, /*hidden argument*/NULL);
+		XsdDecimal__ctor_m10209(L_16, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDecimal_18 = L_16;
 		XsdInteger_t3070 * L_17 = (XsdInteger_t3070 *)il2cpp_codegen_object_new (XsdInteger_t3070_il2cpp_TypeInfo_var);
-		XsdInteger__ctor_m10214(L_17, /*hidden argument*/NULL);
+		XsdInteger__ctor_m10211(L_17, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeInteger_19 = L_17;
 		XsdLong_t3071 * L_18 = (XsdLong_t3071 *)il2cpp_codegen_object_new (XsdLong_t3071_il2cpp_TypeInfo_var);
-		XsdLong__ctor_m10215(L_18, /*hidden argument*/NULL);
+		XsdLong__ctor_m10212(L_18, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeLong_20 = L_18;
 		XsdInt_t3072 * L_19 = (XsdInt_t3072 *)il2cpp_codegen_object_new (XsdInt_t3072_il2cpp_TypeInfo_var);
-		XsdInt__ctor_m10216(L_19, /*hidden argument*/NULL);
+		XsdInt__ctor_m10213(L_19, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeInt_21 = L_19;
 		XsdShort_t3073 * L_20 = (XsdShort_t3073 *)il2cpp_codegen_object_new (XsdShort_t3073_il2cpp_TypeInfo_var);
-		XsdShort__ctor_m10217(L_20, /*hidden argument*/NULL);
+		XsdShort__ctor_m10214(L_20, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeShort_22 = L_20;
 		XsdByte_t3074 * L_21 = (XsdByte_t3074 *)il2cpp_codegen_object_new (XsdByte_t3074_il2cpp_TypeInfo_var);
-		XsdByte__ctor_m10218(L_21, /*hidden argument*/NULL);
+		XsdByte__ctor_m10215(L_21, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeByte_23 = L_21;
 		XsdNonNegativeInteger_t3075 * L_22 = (XsdNonNegativeInteger_t3075 *)il2cpp_codegen_object_new (XsdNonNegativeInteger_t3075_il2cpp_TypeInfo_var);
-		XsdNonNegativeInteger__ctor_m10219(L_22, /*hidden argument*/NULL);
+		XsdNonNegativeInteger__ctor_m10216(L_22, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNonNegativeInteger_24 = L_22;
 		XsdPositiveInteger_t3080 * L_23 = (XsdPositiveInteger_t3080 *)il2cpp_codegen_object_new (XsdPositiveInteger_t3080_il2cpp_TypeInfo_var);
-		XsdPositiveInteger__ctor_m10224(L_23, /*hidden argument*/NULL);
+		XsdPositiveInteger__ctor_m10221(L_23, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypePositiveInteger_25 = L_23;
 		XsdUnsignedLong_t3076 * L_24 = (XsdUnsignedLong_t3076 *)il2cpp_codegen_object_new (XsdUnsignedLong_t3076_il2cpp_TypeInfo_var);
-		XsdUnsignedLong__ctor_m10220(L_24, /*hidden argument*/NULL);
+		XsdUnsignedLong__ctor_m10217(L_24, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeUnsignedLong_26 = L_24;
 		XsdUnsignedInt_t3077 * L_25 = (XsdUnsignedInt_t3077 *)il2cpp_codegen_object_new (XsdUnsignedInt_t3077_il2cpp_TypeInfo_var);
-		XsdUnsignedInt__ctor_m10221(L_25, /*hidden argument*/NULL);
+		XsdUnsignedInt__ctor_m10218(L_25, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeUnsignedInt_27 = L_25;
 		XsdUnsignedShort_t3078 * L_26 = (XsdUnsignedShort_t3078 *)il2cpp_codegen_object_new (XsdUnsignedShort_t3078_il2cpp_TypeInfo_var);
-		XsdUnsignedShort__ctor_m10222(L_26, /*hidden argument*/NULL);
+		XsdUnsignedShort__ctor_m10219(L_26, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeUnsignedShort_28 = L_26;
 		XsdUnsignedByte_t3079 * L_27 = (XsdUnsignedByte_t3079 *)il2cpp_codegen_object_new (XsdUnsignedByte_t3079_il2cpp_TypeInfo_var);
-		XsdUnsignedByte__ctor_m10223(L_27, /*hidden argument*/NULL);
+		XsdUnsignedByte__ctor_m10220(L_27, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeUnsignedByte_29 = L_27;
 		XsdNonPositiveInteger_t3081 * L_28 = (XsdNonPositiveInteger_t3081 *)il2cpp_codegen_object_new (XsdNonPositiveInteger_t3081_il2cpp_TypeInfo_var);
-		XsdNonPositiveInteger__ctor_m10225(L_28, /*hidden argument*/NULL);
+		XsdNonPositiveInteger__ctor_m10222(L_28, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNonPositiveInteger_30 = L_28;
 		XsdNegativeInteger_t3082 * L_29 = (XsdNegativeInteger_t3082 *)il2cpp_codegen_object_new (XsdNegativeInteger_t3082_il2cpp_TypeInfo_var);
-		XsdNegativeInteger__ctor_m10226(L_29, /*hidden argument*/NULL);
+		XsdNegativeInteger__ctor_m10223(L_29, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeNegativeInteger_31 = L_29;
 		XsdFloat_t3083 * L_30 = (XsdFloat_t3083 *)il2cpp_codegen_object_new (XsdFloat_t3083_il2cpp_TypeInfo_var);
-		XsdFloat__ctor_m10227(L_30, /*hidden argument*/NULL);
+		XsdFloat__ctor_m10224(L_30, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeFloat_32 = L_30;
 		XsdDouble_t3084 * L_31 = (XsdDouble_t3084 *)il2cpp_codegen_object_new (XsdDouble_t3084_il2cpp_TypeInfo_var);
-		XsdDouble__ctor_m10228(L_31, /*hidden argument*/NULL);
+		XsdDouble__ctor_m10225(L_31, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDouble_33 = L_31;
 		XsdBase64Binary_t3085 * L_32 = (XsdBase64Binary_t3085 *)il2cpp_codegen_object_new (XsdBase64Binary_t3085_il2cpp_TypeInfo_var);
-		XsdBase64Binary__ctor_m10229(L_32, /*hidden argument*/NULL);
+		XsdBase64Binary__ctor_m10226(L_32, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeBase64Binary_34 = L_32;
 		XsdBoolean_t3088 * L_33 = (XsdBoolean_t3088 *)il2cpp_codegen_object_new (XsdBoolean_t3088_il2cpp_TypeInfo_var);
-		XsdBoolean__ctor_m10235(L_33, /*hidden argument*/NULL);
+		XsdBoolean__ctor_m10232(L_33, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeBoolean_35 = L_33;
 		XsdAnyURI_t3089 * L_34 = (XsdAnyURI_t3089 *)il2cpp_codegen_object_new (XsdAnyURI_t3089_il2cpp_TypeInfo_var);
-		XsdAnyURI__ctor_m10237(L_34, /*hidden argument*/NULL);
+		XsdAnyURI__ctor_m10234(L_34, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeAnyURI_36 = L_34;
 		XsdDuration_t3090 * L_35 = (XsdDuration_t3090 *)il2cpp_codegen_object_new (XsdDuration_t3090_il2cpp_TypeInfo_var);
-		XsdDuration__ctor_m10239(L_35, /*hidden argument*/NULL);
+		XsdDuration__ctor_m10236(L_35, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDuration_37 = L_35;
 		XsdDateTime_t3093 * L_36 = (XsdDateTime_t3093 *)il2cpp_codegen_object_new (XsdDateTime_t3093_il2cpp_TypeInfo_var);
-		XsdDateTime__ctor_m10243(L_36, /*hidden argument*/NULL);
+		XsdDateTime__ctor_m10240(L_36, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDateTime_38 = L_36;
 		XsdDate_t3094 * L_37 = (XsdDate_t3094 *)il2cpp_codegen_object_new (XsdDate_t3094_il2cpp_TypeInfo_var);
-		XsdDate__ctor_m10245(L_37, /*hidden argument*/NULL);
+		XsdDate__ctor_m10242(L_37, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDate_39 = L_37;
 		XsdTime_t3095 * L_38 = (XsdTime_t3095 *)il2cpp_codegen_object_new (XsdTime_t3095_il2cpp_TypeInfo_var);
-		XsdTime__ctor_m10247(L_38, /*hidden argument*/NULL);
+		XsdTime__ctor_m10244(L_38, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeTime_40 = L_38;
 		XsdHexBinary_t3086 * L_39 = (XsdHexBinary_t3086 *)il2cpp_codegen_object_new (XsdHexBinary_t3086_il2cpp_TypeInfo_var);
-		XsdHexBinary__ctor_m10231(L_39, /*hidden argument*/NULL);
+		XsdHexBinary__ctor_m10228(L_39, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeHexBinary_41 = L_39;
 		XsdQName_t3087 * L_40 = (XsdQName_t3087 *)il2cpp_codegen_object_new (XsdQName_t3087_il2cpp_TypeInfo_var);
-		XsdQName__ctor_m10233(L_40, /*hidden argument*/NULL);
+		XsdQName__ctor_m10230(L_40, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeQName_42 = L_40;
 		XsdGYearMonth_t3096 * L_41 = (XsdGYearMonth_t3096 *)il2cpp_codegen_object_new (XsdGYearMonth_t3096_il2cpp_TypeInfo_var);
-		XsdGYearMonth__ctor_m10250(L_41, /*hidden argument*/NULL);
+		XsdGYearMonth__ctor_m10247(L_41, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeGYearMonth_43 = L_41;
 		XsdGMonthDay_t3097 * L_42 = (XsdGMonthDay_t3097 *)il2cpp_codegen_object_new (XsdGMonthDay_t3097_il2cpp_TypeInfo_var);
-		XsdGMonthDay__ctor_m10251(L_42, /*hidden argument*/NULL);
+		XsdGMonthDay__ctor_m10248(L_42, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeGMonthDay_44 = L_42;
 		XsdGYear_t3098 * L_43 = (XsdGYear_t3098 *)il2cpp_codegen_object_new (XsdGYear_t3098_il2cpp_TypeInfo_var);
-		XsdGYear__ctor_m10252(L_43, /*hidden argument*/NULL);
+		XsdGYear__ctor_m10249(L_43, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeGYear_45 = L_43;
 		XsdGMonth_t3099 * L_44 = (XsdGMonth_t3099 *)il2cpp_codegen_object_new (XsdGMonth_t3099_il2cpp_TypeInfo_var);
-		XsdGMonth__ctor_m10253(L_44, /*hidden argument*/NULL);
+		XsdGMonth__ctor_m10250(L_44, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeGMonth_46 = L_44;
 		XsdGDay_t3100 * L_45 = (XsdGDay_t3100 *)il2cpp_codegen_object_new (XsdGDay_t3100_il2cpp_TypeInfo_var);
-		XsdGDay__ctor_m10254(L_45, /*hidden argument*/NULL);
+		XsdGDay__ctor_m10251(L_45, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeGDay_47 = L_45;
 		XdtAnyAtomicType_t3053 * L_46 = (XdtAnyAtomicType_t3053 *)il2cpp_codegen_object_new (XdtAnyAtomicType_t3053_il2cpp_TypeInfo_var);
-		XdtAnyAtomicType__ctor_m10182(L_46, /*hidden argument*/NULL);
+		XdtAnyAtomicType__ctor_m10179(L_46, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeAnyAtomicType_48 = L_46;
 		XdtUntypedAtomic_t3054 * L_47 = (XdtUntypedAtomic_t3054 *)il2cpp_codegen_object_new (XdtUntypedAtomic_t3054_il2cpp_TypeInfo_var);
-		XdtUntypedAtomic__ctor_m10183(L_47, /*hidden argument*/NULL);
+		XdtUntypedAtomic__ctor_m10180(L_47, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeUntypedAtomic_49 = L_47;
 		XdtDayTimeDuration_t3091 * L_48 = (XdtDayTimeDuration_t3091 *)il2cpp_codegen_object_new (XdtDayTimeDuration_t3091_il2cpp_TypeInfo_var);
-		XdtDayTimeDuration__ctor_m10241(L_48, /*hidden argument*/NULL);
+		XdtDayTimeDuration__ctor_m10238(L_48, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeDayTimeDuration_50 = L_48;
 		XdtYearMonthDuration_t3092 * L_49 = (XdtYearMonthDuration_t3092 *)il2cpp_codegen_object_new (XdtYearMonthDuration_t3092_il2cpp_TypeInfo_var);
-		XdtYearMonthDuration__ctor_m10242(L_49, /*hidden argument*/NULL);
+		XdtYearMonthDuration__ctor_m10239(L_49, /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___datatypeYearMonthDuration_51 = L_49;
 		return;
 	}
@@ -1925,38 +1925,38 @@ extern "C" void XmlSchemaDatatype__cctor_m10257 (Object_t * __this /* static, un
 // System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.Xml.XmlQualifiedName)
 extern TypeInfo* XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var;
-extern "C" XmlSchemaDatatype_t3052 * XmlSchemaDatatype_FromName_m10258 (Object_t * __this /* static, unused */, XmlQualifiedName_t3115 * ___qname, const MethodInfo* method)
+extern "C" XmlSchemaDatatype_t3052 * XmlSchemaDatatype_FromName_m10255 (Object_t * __this /* static, unused */, XmlQualifiedName_t3115 * ___qname, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		XmlQualifiedName_t3115 * L_0 = ___qname;
 		NullCheck(L_0);
-		String_t* L_1 = XmlQualifiedName_get_Name_m10902(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = XmlQualifiedName_get_Name_m10899(L_0, /*hidden argument*/NULL);
 		XmlQualifiedName_t3115 * L_2 = ___qname;
 		NullCheck(L_2);
-		String_t* L_3 = XmlQualifiedName_get_Namespace_m10903(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = XmlQualifiedName_get_Namespace_m10900(L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
-		XmlSchemaDatatype_t3052 * L_4 = XmlSchemaDatatype_FromName_m10259(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		XmlSchemaDatatype_t3052 * L_4 = XmlSchemaDatatype_FromName_m10256(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.String,System.String)
 extern TypeInfo* XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3619_MethodInfo_var;
-extern "C" XmlSchemaDatatype_t3052 * XmlSchemaDatatype_FromName_m10259 (Object_t * __this /* static, unused */, String_t* ___localName, String_t* ___ns, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3618_MethodInfo_var;
+extern "C" XmlSchemaDatatype_t3052 * XmlSchemaDatatype_FromName_m10256 (Object_t * __this /* static, unused */, String_t* ___localName, String_t* ___ns, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		Dictionary_2__ctor_m3619_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
+		Dictionary_2__ctor_m3618_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -1983,14 +1983,14 @@ extern "C" XmlSchemaDatatype_t3052 * XmlSchemaDatatype_FromName_m10259 (Object_t
 	}
 	{
 		Dictionary_2_t223 * L_3 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3619(L_3, 2, /*hidden argument*/Dictionary_2__ctor_m3619_MethodInfo_var);
+		Dictionary_2__ctor_m3618(L_3, 2, /*hidden argument*/Dictionary_2__ctor_m3618_MethodInfo_var);
 		V_1 = L_3;
 		Dictionary_2_t223 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2011, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2013, 0);
 		Dictionary_2_t223 * L_5 = V_1;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2012, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2014, 1);
 		Dictionary_2_t223 * L_6 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2B_53 = L_6;
@@ -2051,20 +2051,20 @@ IL_0060:
 	}
 	{
 		Dictionary_2_t223 * L_15 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3619(L_15, 4, /*hidden argument*/Dictionary_2__ctor_m3619_MethodInfo_var);
+		Dictionary_2__ctor_m3618(L_15, 4, /*hidden argument*/Dictionary_2__ctor_m3618_MethodInfo_var);
 		V_1 = L_15;
 		Dictionary_2_t223 * L_16 = V_1;
 		NullCheck(L_16);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral2013, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral2015, 0);
 		Dictionary_2_t223 * L_17 = V_1;
 		NullCheck(L_17);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral2014, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral2016, 1);
 		Dictionary_2_t223 * L_18 = V_1;
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral2015, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral2017, 2);
 		Dictionary_2_t223 * L_19 = V_1;
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral2016, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral2018, 3);
 		Dictionary_2_t223 * L_20 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2A_52 = L_20;
@@ -2163,143 +2163,143 @@ IL_00f9:
 	}
 	{
 		Dictionary_2_t223 * L_32 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3619(L_32, ((int32_t)45), /*hidden argument*/Dictionary_2__ctor_m3619_MethodInfo_var);
+		Dictionary_2__ctor_m3618(L_32, ((int32_t)45), /*hidden argument*/Dictionary_2__ctor_m3618_MethodInfo_var);
 		V_1 = L_32;
 		Dictionary_2_t223 * L_33 = V_1;
 		NullCheck(L_33);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral2017, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral2019, 0);
 		Dictionary_2_t223 * L_34 = V_1;
 		NullCheck(L_34);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2018, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2020, 1);
 		Dictionary_2_t223 * L_35 = V_1;
 		NullCheck(L_35);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2019, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2021, 2);
 		Dictionary_2_t223 * L_36 = V_1;
 		NullCheck(L_36);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral1197, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral1199, 3);
 		Dictionary_2_t223 * L_37 = V_1;
 		NullCheck(L_37);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral2020, 4);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral2022, 4);
 		Dictionary_2_t223 * L_38 = V_1;
 		NullCheck(L_38);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral2021, 5);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral2023, 5);
 		Dictionary_2_t223 * L_39 = V_1;
 		NullCheck(L_39);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral2022, 6);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral2024, 6);
 		Dictionary_2_t223 * L_40 = V_1;
 		NullCheck(L_40);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral1650, 7);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral1652, 7);
 		Dictionary_2_t223 * L_41 = V_1;
 		NullCheck(L_41);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral2023, 8);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral2025, 8);
 		Dictionary_2_t223 * L_42 = V_1;
 		NullCheck(L_42);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral2024, ((int32_t)9));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral2026, ((int32_t)9));
 		Dictionary_2_t223 * L_43 = V_1;
 		NullCheck(L_43);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral2025, ((int32_t)10));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral2027, ((int32_t)10));
 		Dictionary_2_t223 * L_44 = V_1;
 		NullCheck(L_44);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral2026, ((int32_t)11));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral2028, ((int32_t)11));
 		Dictionary_2_t223 * L_45 = V_1;
 		NullCheck(L_45);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral2027, ((int32_t)12));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral2029, ((int32_t)12));
 		Dictionary_2_t223 * L_46 = V_1;
 		NullCheck(L_46);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral2028, ((int32_t)13));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral2030, ((int32_t)13));
 		Dictionary_2_t223 * L_47 = V_1;
 		NullCheck(L_47);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral2029, ((int32_t)14));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral2031, ((int32_t)14));
 		Dictionary_2_t223 * L_48 = V_1;
 		NullCheck(L_48);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral2030, ((int32_t)15));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral2032, ((int32_t)15));
 		Dictionary_2_t223 * L_49 = V_1;
 		NullCheck(L_49);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral2031, ((int32_t)16));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral2033, ((int32_t)16));
 		Dictionary_2_t223 * L_50 = V_1;
 		NullCheck(L_50);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral2032, ((int32_t)17));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral2034, ((int32_t)17));
 		Dictionary_2_t223 * L_51 = V_1;
 		NullCheck(L_51);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral2033, ((int32_t)18));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral2035, ((int32_t)18));
 		Dictionary_2_t223 * L_52 = V_1;
 		NullCheck(L_52);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral2034, ((int32_t)19));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral2036, ((int32_t)19));
 		Dictionary_2_t223 * L_53 = V_1;
 		NullCheck(L_53);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral2035, ((int32_t)20));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral2037, ((int32_t)20));
 		Dictionary_2_t223 * L_54 = V_1;
 		NullCheck(L_54);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral2036, ((int32_t)21));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral2038, ((int32_t)21));
 		Dictionary_2_t223 * L_55 = V_1;
 		NullCheck(L_55);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral2037, ((int32_t)22));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral2039, ((int32_t)22));
 		Dictionary_2_t223 * L_56 = V_1;
 		NullCheck(L_56);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral2038, ((int32_t)23));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral2040, ((int32_t)23));
 		Dictionary_2_t223 * L_57 = V_1;
 		NullCheck(L_57);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral2039, ((int32_t)24));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral2041, ((int32_t)24));
 		Dictionary_2_t223 * L_58 = V_1;
 		NullCheck(L_58);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral2040, ((int32_t)25));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral2042, ((int32_t)25));
 		Dictionary_2_t223 * L_59 = V_1;
 		NullCheck(L_59);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral2041, ((int32_t)26));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral2043, ((int32_t)26));
 		Dictionary_2_t223 * L_60 = V_1;
 		NullCheck(L_60);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral2042, ((int32_t)27));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral2044, ((int32_t)27));
 		Dictionary_2_t223 * L_61 = V_1;
 		NullCheck(L_61);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2043, ((int32_t)28));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2045, ((int32_t)28));
 		Dictionary_2_t223 * L_62 = V_1;
 		NullCheck(L_62);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2044, ((int32_t)29));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2046, ((int32_t)29));
 		Dictionary_2_t223 * L_63 = V_1;
 		NullCheck(L_63);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral2045, ((int32_t)30));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral2047, ((int32_t)30));
 		Dictionary_2_t223 * L_64 = V_1;
 		NullCheck(L_64);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral2046, ((int32_t)31));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral2048, ((int32_t)31));
 		Dictionary_2_t223 * L_65 = V_1;
 		NullCheck(L_65);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral2047, ((int32_t)32));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral2049, ((int32_t)32));
 		Dictionary_2_t223 * L_66 = V_1;
 		NullCheck(L_66);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral2048, ((int32_t)33));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral2050, ((int32_t)33));
 		Dictionary_2_t223 * L_67 = V_1;
 		NullCheck(L_67);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral2049, ((int32_t)34));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral2051, ((int32_t)34));
 		Dictionary_2_t223 * L_68 = V_1;
 		NullCheck(L_68);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral2050, ((int32_t)35));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral2052, ((int32_t)35));
 		Dictionary_2_t223 * L_69 = V_1;
 		NullCheck(L_69);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral2051, ((int32_t)36));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral2053, ((int32_t)36));
 		Dictionary_2_t223 * L_70 = V_1;
 		NullCheck(L_70);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral2052, ((int32_t)37));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral2054, ((int32_t)37));
 		Dictionary_2_t223 * L_71 = V_1;
 		NullCheck(L_71);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral2053, ((int32_t)38));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral2055, ((int32_t)38));
 		Dictionary_2_t223 * L_72 = V_1;
 		NullCheck(L_72);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral2054, ((int32_t)39));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral2056, ((int32_t)39));
 		Dictionary_2_t223 * L_73 = V_1;
 		NullCheck(L_73);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral2055, ((int32_t)40));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral2057, ((int32_t)40));
 		Dictionary_2_t223 * L_74 = V_1;
 		NullCheck(L_74);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_74, (String_t*) &_stringLiteral2056, ((int32_t)41));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_74, (String_t*) &_stringLiteral2058, ((int32_t)41));
 		Dictionary_2_t223 * L_75 = V_1;
 		NullCheck(L_75);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_75, (String_t*) &_stringLiteral2057, ((int32_t)42));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_75, (String_t*) &_stringLiteral2059, ((int32_t)42));
 		Dictionary_2_t223 * L_76 = V_1;
 		NullCheck(L_76);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_76, (String_t*) &_stringLiteral2058, ((int32_t)43));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_76, (String_t*) &_stringLiteral2060, ((int32_t)43));
 		Dictionary_2_t223 * L_77 = V_1;
 		NullCheck(L_77);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_77, (String_t*) &_stringLiteral2059, ((int32_t)44));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_77, (String_t*) &_stringLiteral2061, ((int32_t)44));
 		Dictionary_2_t223 * L_78 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
 		((XmlSchemaDatatype_t3052_StaticFields*)XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2C_54 = L_78;
@@ -2864,12 +2864,12 @@ IL_0538:
 
 // System.Void System.Xml.Schema.XmlSchemaFacet::.cctor()
 extern TypeInfo* XmlSchemaFacet_t3108_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaFacet__cctor_m10260 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XmlSchemaFacet__cctor_m10257 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaFacet_t3108_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
+		XmlSchemaFacet_t3108_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2895,12 +2895,12 @@ extern "C" void XmlSchemaFacet__cctor_m10260 (Object_t * __this /* static, unuse
 
 // System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.IXmlSchemaInfo)
 extern TypeInfo* IXmlSchemaInfo_t3167_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaInfo__ctor_m10261 (XmlSchemaInfo_t3111 * __this, Object_t * ___info, const MethodInfo* method)
+extern "C" void XmlSchemaInfo__ctor_m10258 (XmlSchemaInfo_t3111 * __this, Object_t * ___info, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IXmlSchemaInfo_t3167_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
+		IXmlSchemaInfo_t3167_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2937,7 +2937,7 @@ extern "C" void XmlSchemaInfo__ctor_m10261 (XmlSchemaInfo_t3111 * __this, Object
 	}
 }
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
-extern "C" bool XmlSchemaInfo_get_IsDefault_m10262 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" bool XmlSchemaInfo_get_IsDefault_m10259 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isDefault_0);
@@ -2945,7 +2945,7 @@ extern "C" bool XmlSchemaInfo_get_IsDefault_m10262 (XmlSchemaInfo_t3111 * __this
 	}
 }
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
-extern "C" bool XmlSchemaInfo_get_IsNil_m10263 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" bool XmlSchemaInfo_get_IsNil_m10260 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isNil_1);
@@ -2953,7 +2953,7 @@ extern "C" bool XmlSchemaInfo_get_IsNil_m10263 (XmlSchemaInfo_t3111 * __this, co
 	}
 }
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
-extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaInfo_get_MemberType_m10264 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaInfo_get_MemberType_m10261 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		XmlSchemaSimpleType_t3109 * L_0 = (__this->___memberType_2);
@@ -2961,7 +2961,7 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaInfo_get_MemberType_m10264 (XmlS
 	}
 }
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
-extern "C" XmlSchemaAttribute_t3103 * XmlSchemaInfo_get_SchemaAttribute_m10265 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" XmlSchemaAttribute_t3103 * XmlSchemaInfo_get_SchemaAttribute_m10262 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		XmlSchemaAttribute_t3103 * L_0 = (__this->___attr_3);
@@ -2969,7 +2969,7 @@ extern "C" XmlSchemaAttribute_t3103 * XmlSchemaInfo_get_SchemaAttribute_m10265 (
 	}
 }
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
-extern "C" XmlSchemaElement_t3105 * XmlSchemaInfo_get_SchemaElement_m10266 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" XmlSchemaElement_t3105 * XmlSchemaInfo_get_SchemaElement_m10263 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		XmlSchemaElement_t3105 * L_0 = (__this->___elem_4);
@@ -2977,7 +2977,7 @@ extern "C" XmlSchemaElement_t3105 * XmlSchemaInfo_get_SchemaElement_m10266 (XmlS
 	}
 }
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
-extern "C" XmlSchemaType_t3110 * XmlSchemaInfo_get_SchemaType_m10267 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" XmlSchemaType_t3110 * XmlSchemaInfo_get_SchemaType_m10264 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		XmlSchemaType_t3110 * L_0 = (__this->___type_5);
@@ -2985,7 +2985,7 @@ extern "C" XmlSchemaType_t3110 * XmlSchemaInfo_get_SchemaType_m10267 (XmlSchemaI
 	}
 }
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
-extern "C" int32_t XmlSchemaInfo_get_Validity_m10268 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
+extern "C" int32_t XmlSchemaInfo_get_Validity_m10265 (XmlSchemaInfo_t3111 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___validity_6);
@@ -3013,19 +3013,19 @@ extern "C" int32_t XmlSchemaInfo_get_Validity_m10268 (XmlSchemaInfo_t3111 * __th
 // System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
 extern TypeInfo* XmlSerializerNamespaces_t3112_il2cpp_TypeInfo_var;
 extern TypeInfo* Guid_t74_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaObject__ctor_m10269 (XmlSchemaObject_t3102 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaObject__ctor_m10266 (XmlSchemaObject_t3102 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSerializerNamespaces_t3112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5305);
+		XmlSerializerNamespaces_t3112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
 		Guid_t74_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(46);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		XmlSerializerNamespaces_t3112 * L_0 = (XmlSerializerNamespaces_t3112 *)il2cpp_codegen_object_new (XmlSerializerNamespaces_t3112_il2cpp_TypeInfo_var);
-		XmlSerializerNamespaces__ctor_m10290(L_0, /*hidden argument*/NULL);
+		XmlSerializerNamespaces__ctor_m10287(L_0, /*hidden argument*/NULL);
 		__this->___namespaces_0 = L_0;
 		__this->___unhandledAttributeList_1 = (ArrayList_t3113 *)NULL;
 		IL2CPP_RUNTIME_CLASS_INIT(Guid_t74_il2cpp_TypeInfo_var);
@@ -3061,11 +3061,11 @@ extern "C" void XmlSchemaObject__ctor_m10269 (XmlSchemaObject_t3102 * __this, co
 
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
-extern "C" void XmlSchemaSimpleType__ctor_m10270 (XmlSchemaSimpleType_t3109 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleType__ctor_m10267 (XmlSchemaSimpleType_t3109 * __this, const MethodInfo* method)
 {
 	{
 		__this->___islocal_11 = 1;
-		XmlSchemaType__ctor_m10280(__this, /*hidden argument*/NULL);
+		XmlSchemaType__ctor_m10277(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3073,14 +3073,14 @@ extern "C" void XmlSchemaSimpleType__ctor_m10270 (XmlSchemaSimpleType_t3109 * __
 extern TypeInfo* XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlQualifiedName_t3115_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaSimpleType__cctor_m10271 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleType__cctor_m10268 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
-		XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5307);
-		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
+		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
+		XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5305);
+		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
 		s_Il2CppMethodIntialized = true;
 	}
 	XmlSchemaSimpleType_t3109 * V_0 = {0};
@@ -3088,20 +3088,20 @@ extern "C" void XmlSchemaSimpleType__cctor_m10271 (Object_t * __this /* static, 
 	XmlSchemaSimpleTypeList_t3116 * V_2 = {0};
 	{
 		XmlSchemaSimpleType_t3109 * L_0 = (XmlSchemaSimpleType_t3109 *)il2cpp_codegen_object_new (XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType__ctor_m10270(L_0, /*hidden argument*/NULL);
+		XmlSchemaSimpleType__ctor_m10267(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		XmlSchemaSimpleTypeList_t3116 * L_1 = (XmlSchemaSimpleTypeList_t3116 *)il2cpp_codegen_object_new (XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleTypeList__ctor_m10276(L_1, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList__ctor_m10273(L_1, /*hidden argument*/NULL);
 		V_1 = L_1;
 		XmlSchemaSimpleTypeList_t3116 * L_2 = V_1;
 		XmlQualifiedName_t3115 * L_3 = (XmlQualifiedName_t3115 *)il2cpp_codegen_object_new (XmlQualifiedName_t3115_il2cpp_TypeInfo_var);
-		XmlQualifiedName__ctor_m10900(L_3, (String_t*) &_stringLiteral2048, (String_t*) &_stringLiteral2011, /*hidden argument*/NULL);
+		XmlQualifiedName__ctor_m10897(L_3, (String_t*) &_stringLiteral2050, (String_t*) &_stringLiteral2013, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		XmlSchemaSimpleTypeList_set_ItemTypeName_m10277(L_2, L_3, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList_set_ItemTypeName_m10274(L_2, L_3, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_4 = V_0;
 		XmlSchemaSimpleTypeList_t3116 * L_5 = V_1;
 		NullCheck(L_4);
-		XmlSchemaSimpleType_set_Content_m10274(L_4, L_5, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_set_Content_m10271(L_4, L_5, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_6 = V_0;
 		NullCheck(L_6);
 		((XmlSchemaType_t3110 *)L_6)->___BaseXmlSchemaTypeInternal_4 = (XmlSchemaType_t3110 *)NULL;
@@ -3110,158 +3110,158 @@ extern "C" void XmlSchemaSimpleType__cctor_m10271 (Object_t * __this /* static, 
 		L_7->___variety_12 = 8;
 		XmlSchemaSimpleType_t3109 * L_8 = V_0;
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___schemaLocationType_9 = L_8;
-		XmlSchemaSimpleType_t3109 * L_9 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2017, (String_t*)NULL, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_9 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2019, (String_t*)NULL, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsAnySimpleType_13 = L_9;
-		XmlSchemaSimpleType_t3109 * L_10 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2018, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_10 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2020, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsString_14 = L_10;
-		XmlSchemaSimpleType_t3109 * L_11 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2047, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_11 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2049, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsBoolean_15 = L_11;
-		XmlSchemaSimpleType_t3109 * L_12 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2030, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_12 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2032, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsDecimal_16 = L_12;
-		XmlSchemaSimpleType_t3109 * L_13 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2044, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_13 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2046, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsFloat_17 = L_13;
-		XmlSchemaSimpleType_t3109 * L_14 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2045, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_14 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2047, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsDouble_18 = L_14;
-		XmlSchemaSimpleType_t3109 * L_15 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2049, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_15 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2051, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsDuration_19 = L_15;
-		XmlSchemaSimpleType_t3109 * L_16 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2050, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_16 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2052, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsDateTime_20 = L_16;
-		XmlSchemaSimpleType_t3109 * L_17 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2052, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_17 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2054, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsTime_21 = L_17;
-		XmlSchemaSimpleType_t3109 * L_18 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2051, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_18 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2053, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsDate_22 = L_18;
-		XmlSchemaSimpleType_t3109 * L_19 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2055, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_19 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2057, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsGYearMonth_23 = L_19;
-		XmlSchemaSimpleType_t3109 * L_20 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2057, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_20 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2059, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsGYear_24 = L_20;
-		XmlSchemaSimpleType_t3109 * L_21 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2056, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_21 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2058, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsGMonthDay_25 = L_21;
-		XmlSchemaSimpleType_t3109 * L_22 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2059, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_22 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2061, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsGDay_26 = L_22;
-		XmlSchemaSimpleType_t3109 * L_23 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2058, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_23 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2060, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsGMonth_27 = L_23;
-		XmlSchemaSimpleType_t3109 * L_24 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2053, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_24 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2055, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsHexBinary_28 = L_24;
-		XmlSchemaSimpleType_t3109 * L_25 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2046, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_25 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2048, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsBase64Binary_29 = L_25;
-		XmlSchemaSimpleType_t3109 * L_26 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2048, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_26 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2050, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsAnyUri_30 = L_26;
-		XmlSchemaSimpleType_t3109 * L_27 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2054, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_27 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2056, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsQName_31 = L_27;
-		XmlSchemaSimpleType_t3109 * L_28 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2029, (String_t*) &_stringLiteral2017, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_28 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2031, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNotation_32 = L_28;
-		XmlSchemaSimpleType_t3109 * L_29 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2019, (String_t*) &_stringLiteral2018, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_29 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2021, (String_t*) &_stringLiteral2020, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNormalizedString_33 = L_29;
-		XmlSchemaSimpleType_t3109 * L_30 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral1197, (String_t*) &_stringLiteral2019, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_30 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral1199, (String_t*) &_stringLiteral2021, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsToken_34 = L_30;
-		XmlSchemaSimpleType_t3109 * L_31 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2020, (String_t*) &_stringLiteral1197, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_31 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2022, (String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsLanguage_35 = L_31;
-		XmlSchemaSimpleType_t3109 * L_32 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2021, (String_t*) &_stringLiteral1197, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_32 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2023, (String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNMToken_36 = L_32;
-		XmlSchemaSimpleType_t3109 * L_33 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral1650, (String_t*) &_stringLiteral1197, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_33 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral1652, (String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsName_38 = L_33;
-		XmlSchemaSimpleType_t3109 * L_34 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2023, (String_t*) &_stringLiteral1650, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_34 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2025, (String_t*) &_stringLiteral1652, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNCName_39 = L_34;
-		XmlSchemaSimpleType_t3109 * L_35 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2024, (String_t*) &_stringLiteral2023, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_35 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2026, (String_t*) &_stringLiteral2025, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsID_40 = L_35;
-		XmlSchemaSimpleType_t3109 * L_36 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2025, (String_t*) &_stringLiteral2023, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_36 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2027, (String_t*) &_stringLiteral2025, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsIDRef_41 = L_36;
-		XmlSchemaSimpleType_t3109 * L_37 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2027, (String_t*) &_stringLiteral2023, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_37 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2029, (String_t*) &_stringLiteral2025, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsEntity_43 = L_37;
-		XmlSchemaSimpleType_t3109 * L_38 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2031, (String_t*) &_stringLiteral2030, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_38 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2033, (String_t*) &_stringLiteral2032, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsInteger_45 = L_38;
-		XmlSchemaSimpleType_t3109 * L_39 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2036, (String_t*) &_stringLiteral2031, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_39 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2038, (String_t*) &_stringLiteral2033, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNonPositiveInteger_46 = L_39;
-		XmlSchemaSimpleType_t3109 * L_40 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2037, (String_t*) &_stringLiteral2036, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_40 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2039, (String_t*) &_stringLiteral2038, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNegativeInteger_47 = L_40;
-		XmlSchemaSimpleType_t3109 * L_41 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2032, (String_t*) &_stringLiteral2031, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_41 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2034, (String_t*) &_stringLiteral2033, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsLong_48 = L_41;
-		XmlSchemaSimpleType_t3109 * L_42 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2033, (String_t*) &_stringLiteral2032, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_42 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2035, (String_t*) &_stringLiteral2034, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsInt_49 = L_42;
-		XmlSchemaSimpleType_t3109 * L_43 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2034, (String_t*) &_stringLiteral2033, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_43 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2036, (String_t*) &_stringLiteral2035, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsShort_50 = L_43;
-		XmlSchemaSimpleType_t3109 * L_44 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2035, (String_t*) &_stringLiteral2034, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_44 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2037, (String_t*) &_stringLiteral2036, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsByte_51 = L_44;
-		XmlSchemaSimpleType_t3109 * L_45 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2038, (String_t*) &_stringLiteral2031, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_45 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2040, (String_t*) &_stringLiteral2033, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNonNegativeInteger_52 = L_45;
-		XmlSchemaSimpleType_t3109 * L_46 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2039, (String_t*) &_stringLiteral2038, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_46 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2041, (String_t*) &_stringLiteral2040, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsUnsignedLong_53 = L_46;
-		XmlSchemaSimpleType_t3109 * L_47 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2040, (String_t*) &_stringLiteral2039, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_47 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2042, (String_t*) &_stringLiteral2041, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsUnsignedInt_54 = L_47;
-		XmlSchemaSimpleType_t3109 * L_48 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2041, (String_t*) &_stringLiteral2040, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_48 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2043, (String_t*) &_stringLiteral2042, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsUnsignedShort_55 = L_48;
-		XmlSchemaSimpleType_t3109 * L_49 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2042, (String_t*) &_stringLiteral2041, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_49 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2044, (String_t*) &_stringLiteral2043, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsUnsignedByte_56 = L_49;
-		XmlSchemaSimpleType_t3109 * L_50 = XmlSchemaSimpleType_BuildSchemaType_m10272(NULL /*static, unused*/, (String_t*) &_stringLiteral2043, (String_t*) &_stringLiteral2038, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_50 = XmlSchemaSimpleType_BuildSchemaType_m10269(NULL /*static, unused*/, (String_t*) &_stringLiteral2045, (String_t*) &_stringLiteral2040, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsPositiveInteger_57 = L_50;
-		XmlSchemaSimpleType_t3109 * L_51 = XmlSchemaSimpleType_BuildSchemaType_m10273(NULL /*static, unused*/, (String_t*) &_stringLiteral2013, (String_t*) &_stringLiteral2017, 1, 0, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_51 = XmlSchemaSimpleType_BuildSchemaType_m10270(NULL /*static, unused*/, (String_t*) &_stringLiteral2015, (String_t*) &_stringLiteral2019, 1, 0, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XdtAnyAtomicType_59 = L_51;
-		XmlSchemaSimpleType_t3109 * L_52 = XmlSchemaSimpleType_BuildSchemaType_m10273(NULL /*static, unused*/, (String_t*) &_stringLiteral2014, (String_t*) &_stringLiteral2013, 1, 1, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_52 = XmlSchemaSimpleType_BuildSchemaType_m10270(NULL /*static, unused*/, (String_t*) &_stringLiteral2016, (String_t*) &_stringLiteral2015, 1, 1, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XdtUntypedAtomic_58 = L_52;
-		XmlSchemaSimpleType_t3109 * L_53 = XmlSchemaSimpleType_BuildSchemaType_m10273(NULL /*static, unused*/, (String_t*) &_stringLiteral2015, (String_t*) &_stringLiteral2049, 1, 0, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_53 = XmlSchemaSimpleType_BuildSchemaType_m10270(NULL /*static, unused*/, (String_t*) &_stringLiteral2017, (String_t*) &_stringLiteral2051, 1, 0, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XdtDayTimeDuration_61 = L_53;
-		XmlSchemaSimpleType_t3109 * L_54 = XmlSchemaSimpleType_BuildSchemaType_m10273(NULL /*static, unused*/, (String_t*) &_stringLiteral2016, (String_t*) &_stringLiteral2049, 1, 0, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_54 = XmlSchemaSimpleType_BuildSchemaType_m10270(NULL /*static, unused*/, (String_t*) &_stringLiteral2018, (String_t*) &_stringLiteral2051, 1, 0, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XdtYearMonthDuration_60 = L_54;
 		XmlSchemaSimpleType_t3109 * L_55 = (XmlSchemaSimpleType_t3109 *)il2cpp_codegen_object_new (XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType__ctor_m10270(L_55, /*hidden argument*/NULL);
+		XmlSchemaSimpleType__ctor_m10267(L_55, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsIDRefs_42 = L_55;
 		XmlSchemaSimpleTypeList_t3116 * L_56 = (XmlSchemaSimpleTypeList_t3116 *)il2cpp_codegen_object_new (XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleTypeList__ctor_m10276(L_56, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList__ctor_m10273(L_56, /*hidden argument*/NULL);
 		V_2 = L_56;
 		XmlSchemaSimpleTypeList_t3116 * L_57 = V_2;
 		XmlSchemaSimpleType_t3109 * L_58 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsIDRef_41;
 		NullCheck(L_57);
-		XmlSchemaSimpleTypeList_set_ItemType_m10278(L_57, L_58, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList_set_ItemType_m10275(L_57, L_58, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_59 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsIDRefs_42;
 		XmlSchemaSimpleTypeList_t3116 * L_60 = V_2;
 		NullCheck(L_59);
-		XmlSchemaSimpleType_set_Content_m10274(L_59, L_60, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_set_Content_m10271(L_59, L_60, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_61 = (XmlSchemaSimpleType_t3109 *)il2cpp_codegen_object_new (XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType__ctor_m10270(L_61, /*hidden argument*/NULL);
+		XmlSchemaSimpleType__ctor_m10267(L_61, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsEntities_44 = L_61;
 		XmlSchemaSimpleTypeList_t3116 * L_62 = (XmlSchemaSimpleTypeList_t3116 *)il2cpp_codegen_object_new (XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleTypeList__ctor_m10276(L_62, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList__ctor_m10273(L_62, /*hidden argument*/NULL);
 		V_2 = L_62;
 		XmlSchemaSimpleTypeList_t3116 * L_63 = V_2;
 		XmlSchemaSimpleType_t3109 * L_64 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsEntity_43;
 		NullCheck(L_63);
-		XmlSchemaSimpleTypeList_set_ItemType_m10278(L_63, L_64, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList_set_ItemType_m10275(L_63, L_64, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_65 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsEntities_44;
 		XmlSchemaSimpleTypeList_t3116 * L_66 = V_2;
 		NullCheck(L_65);
-		XmlSchemaSimpleType_set_Content_m10274(L_65, L_66, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_set_Content_m10271(L_65, L_66, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_67 = (XmlSchemaSimpleType_t3109 *)il2cpp_codegen_object_new (XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType__ctor_m10270(L_67, /*hidden argument*/NULL);
+		XmlSchemaSimpleType__ctor_m10267(L_67, /*hidden argument*/NULL);
 		((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNMTokens_37 = L_67;
 		XmlSchemaSimpleTypeList_t3116 * L_68 = (XmlSchemaSimpleTypeList_t3116 *)il2cpp_codegen_object_new (XmlSchemaSimpleTypeList_t3116_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleTypeList__ctor_m10276(L_68, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList__ctor_m10273(L_68, /*hidden argument*/NULL);
 		V_2 = L_68;
 		XmlSchemaSimpleTypeList_t3116 * L_69 = V_2;
 		XmlSchemaSimpleType_t3109 * L_70 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNMToken_36;
 		NullCheck(L_69);
-		XmlSchemaSimpleTypeList_set_ItemType_m10278(L_69, L_70, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList_set_ItemType_m10275(L_69, L_70, /*hidden argument*/NULL);
 		XmlSchemaSimpleType_t3109 * L_71 = ((XmlSchemaSimpleType_t3109_StaticFields*)XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var->static_fields)->___XsNMTokens_37;
 		XmlSchemaSimpleTypeList_t3116 * L_72 = V_2;
 		NullCheck(L_71);
-		XmlSchemaSimpleType_set_Content_m10274(L_71, L_72, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_set_Content_m10271(L_71, L_72, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String)
 extern TypeInfo* XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var;
-extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m10272 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, const MethodInfo* method)
+extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m10269 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
+		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
 		String_t* L_1 = ___baseName;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType_t3109 * L_2 = XmlSchemaSimpleType_BuildSchemaType_m10273(NULL /*static, unused*/, L_0, L_1, 0, 0, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_2 = XmlSchemaSimpleType_BuildSchemaType_m10270(NULL /*static, unused*/, L_0, L_1, 0, 0, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -3269,14 +3269,14 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m1027
 extern TypeInfo* XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlQualifiedName_t3115_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var;
-extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m10273 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, bool ___xdt, bool ___baseXdt, const MethodInfo* method)
+extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m10270 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___baseName, bool ___xdt, bool ___baseXdt, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
-		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
-		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
+		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
+		XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -3292,13 +3292,13 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaSimpleType_BuildSchemaType_m1027
 		}
 	}
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2012;
+		G_B3_0 = (String_t*) &_stringLiteral2014;
 		goto IL_0015;
 	}
 
 IL_0010:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2011;
+		G_B3_0 = (String_t*) &_stringLiteral2013;
 	}
 
 IL_0015:
@@ -3311,26 +3311,26 @@ IL_0015:
 		}
 	}
 	{
-		G_B6_0 = (String_t*) &_stringLiteral2012;
+		G_B6_0 = (String_t*) &_stringLiteral2014;
 		goto IL_002b;
 	}
 
 IL_0026:
 	{
-		G_B6_0 = (String_t*) &_stringLiteral2011;
+		G_B6_0 = (String_t*) &_stringLiteral2013;
 	}
 
 IL_002b:
 	{
 		V_1 = G_B6_0;
 		XmlSchemaSimpleType_t3109 * L_2 = (XmlSchemaSimpleType_t3109 *)il2cpp_codegen_object_new (XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var);
-		XmlSchemaSimpleType__ctor_m10270(L_2, /*hidden argument*/NULL);
+		XmlSchemaSimpleType__ctor_m10267(L_2, /*hidden argument*/NULL);
 		V_2 = L_2;
 		XmlSchemaSimpleType_t3109 * L_3 = V_2;
 		String_t* L_4 = ___name;
 		String_t* L_5 = V_0;
 		XmlQualifiedName_t3115 * L_6 = (XmlQualifiedName_t3115 *)il2cpp_codegen_object_new (XmlQualifiedName_t3115_il2cpp_TypeInfo_var);
-		XmlQualifiedName__ctor_m10900(L_6, L_4, L_5, /*hidden argument*/NULL);
+		XmlQualifiedName__ctor_m10897(L_6, L_4, L_5, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		((XmlSchemaType_t3110 *)L_3)->___QNameInternal_6 = L_6;
 		String_t* L_7 = ___baseName;
@@ -3344,8 +3344,8 @@ IL_002b:
 		String_t* L_9 = ___baseName;
 		String_t* L_10 = V_1;
 		XmlQualifiedName_t3115 * L_11 = (XmlQualifiedName_t3115 *)il2cpp_codegen_object_new (XmlQualifiedName_t3115_il2cpp_TypeInfo_var);
-		XmlQualifiedName__ctor_m10900(L_11, L_9, L_10, /*hidden argument*/NULL);
-		XmlSchemaSimpleType_t3109 * L_12 = XmlSchemaType_GetBuiltInSimpleType_m10282(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		XmlQualifiedName__ctor_m10897(L_11, L_9, L_10, /*hidden argument*/NULL);
+		XmlSchemaSimpleType_t3109 * L_12 = XmlSchemaType_GetBuiltInSimpleType_m10279(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		((XmlSchemaType_t3110 *)L_8)->___BaseXmlSchemaTypeInternal_4 = L_12;
 	}
@@ -3355,9 +3355,9 @@ IL_0057:
 		XmlSchemaSimpleType_t3109 * L_13 = V_2;
 		XmlSchemaSimpleType_t3109 * L_14 = V_2;
 		NullCheck(L_14);
-		XmlQualifiedName_t3115 * L_15 = XmlSchemaType_get_QualifiedName_m10281(L_14, /*hidden argument*/NULL);
+		XmlQualifiedName_t3115 * L_15 = XmlSchemaType_get_QualifiedName_m10278(L_14, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlSchemaDatatype_t3052_il2cpp_TypeInfo_var);
-		XmlSchemaDatatype_t3052 * L_16 = XmlSchemaDatatype_FromName_m10258(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		XmlSchemaDatatype_t3052 * L_16 = XmlSchemaDatatype_FromName_m10255(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		((XmlSchemaType_t3110 *)L_13)->___DatatypeInternal_5 = L_16;
 		XmlSchemaSimpleType_t3109 * L_17 = V_2;
@@ -3365,7 +3365,7 @@ IL_0057:
 	}
 }
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
-extern "C" void XmlSchemaSimpleType_set_Content_m10274 (XmlSchemaSimpleType_t3109 * __this, XmlSchemaSimpleTypeContent_t3114 * ___value, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleType_set_Content_m10271 (XmlSchemaSimpleType_t3109 * __this, XmlSchemaSimpleTypeContent_t3114 * ___value, const MethodInfo* method)
 {
 	{
 		XmlSchemaSimpleTypeContent_t3114 * L_0 = ___value;
@@ -3382,10 +3382,10 @@ extern "C" void XmlSchemaSimpleType_set_Content_m10274 (XmlSchemaSimpleType_t310
 
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
-extern "C" void XmlSchemaSimpleTypeContent__ctor_m10275 (XmlSchemaSimpleTypeContent_t3114 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleTypeContent__ctor_m10272 (XmlSchemaSimpleTypeContent_t3114 * __this, const MethodInfo* method)
 {
 	{
-		XmlSchemaAnnotated__ctor_m10255(__this, /*hidden argument*/NULL);
+		XmlSchemaAnnotated__ctor_m10252(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3397,24 +3397,24 @@ extern "C" void XmlSchemaSimpleTypeContent__ctor_m10275 (XmlSchemaSimpleTypeCont
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::.ctor()
 extern TypeInfo* XmlQualifiedName_t3115_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaSimpleTypeList__ctor_m10276 (XmlSchemaSimpleTypeList_t3116 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleTypeList__ctor_m10273 (XmlSchemaSimpleTypeList_t3116 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
+		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		XmlSchemaSimpleTypeContent__ctor_m10275(__this, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeContent__ctor_m10272(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlQualifiedName_t3115_il2cpp_TypeInfo_var);
 		XmlQualifiedName_t3115 * L_0 = ((XmlQualifiedName_t3115_StaticFields*)XmlQualifiedName_t3115_il2cpp_TypeInfo_var->static_fields)->___Empty_0;
-		XmlSchemaSimpleTypeList_set_ItemTypeName_m10277(__this, L_0, /*hidden argument*/NULL);
+		XmlSchemaSimpleTypeList_set_ItemTypeName_m10274(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemTypeName(System.Xml.XmlQualifiedName)
-extern "C" void XmlSchemaSimpleTypeList_set_ItemTypeName_m10277 (XmlSchemaSimpleTypeList_t3116 * __this, XmlQualifiedName_t3115 * ___value, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleTypeList_set_ItemTypeName_m10274 (XmlSchemaSimpleTypeList_t3116 * __this, XmlQualifiedName_t3115 * ___value, const MethodInfo* method)
 {
 	{
 		XmlQualifiedName_t3115 * L_0 = ___value;
@@ -3423,7 +3423,7 @@ extern "C" void XmlSchemaSimpleTypeList_set_ItemTypeName_m10277 (XmlSchemaSimple
 	}
 }
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemType(System.Xml.Schema.XmlSchemaSimpleType)
-extern "C" void XmlSchemaSimpleTypeList_set_ItemType_m10278 (XmlSchemaSimpleTypeList_t3116 * __this, XmlSchemaSimpleType_t3109 * ___value, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleTypeList_set_ItemType_m10275 (XmlSchemaSimpleTypeList_t3116 * __this, XmlSchemaSimpleType_t3109 * ___value, const MethodInfo* method)
 {
 	{
 		XmlSchemaSimpleType_t3109 * L_0 = ___value;
@@ -3445,12 +3445,12 @@ extern "C" void XmlSchemaSimpleTypeList_set_ItemType_m10278 (XmlSchemaSimpleType
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.cctor()
 extern TypeInfo* XmlSchemaSimpleTypeRestriction_t3117_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m10279 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m10276 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleTypeRestriction_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5309);
+		XmlSchemaSimpleTypeRestriction_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5307);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3477,16 +3477,16 @@ extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m10279 (Object_t * __this 
 
 // System.Void System.Xml.Schema.XmlSchemaType::.ctor()
 extern TypeInfo* XmlQualifiedName_t3115_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaType__ctor_m10280 (XmlSchemaType_t3110 * __this, const MethodInfo* method)
+extern "C" void XmlSchemaType__ctor_m10277 (XmlSchemaType_t3110 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
+		XmlQualifiedName_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		XmlSchemaAnnotated__ctor_m10255(__this, /*hidden argument*/NULL);
+		XmlSchemaAnnotated__ctor_m10252(__this, /*hidden argument*/NULL);
 		__this->___final_3 = ((int32_t)256);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlQualifiedName_t3115_il2cpp_TypeInfo_var);
 		XmlQualifiedName_t3115 * L_0 = ((XmlQualifiedName_t3115_StaticFields*)XmlQualifiedName_t3115_il2cpp_TypeInfo_var->static_fields)->___Empty_0;
@@ -3495,7 +3495,7 @@ extern "C" void XmlSchemaType__ctor_m10280 (XmlSchemaType_t3110 * __this, const 
 	}
 }
 // System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::get_QualifiedName()
-extern "C" XmlQualifiedName_t3115 * XmlSchemaType_get_QualifiedName_m10281 (XmlSchemaType_t3110 * __this, const MethodInfo* method)
+extern "C" XmlQualifiedName_t3115 * XmlSchemaType_get_QualifiedName_m10278 (XmlSchemaType_t3110 * __this, const MethodInfo* method)
 {
 	{
 		XmlQualifiedName_t3115 * L_0 = (__this->___QNameInternal_6);
@@ -3507,17 +3507,17 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaType_t3110_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3619_MethodInfo_var;
-extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaType_GetBuiltInSimpleType_m10282 (Object_t * __this /* static, unused */, XmlQualifiedName_t3115 * ___qualifiedName, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3618_MethodInfo_var;
+extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaType_GetBuiltInSimpleType_m10279 (Object_t * __this /* static, unused */, XmlQualifiedName_t3115 * ___qualifiedName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlSchemaType_t3110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5310);
+		XmlSchemaType_t3110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
-		Dictionary_2__ctor_m3619_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
+		XmlSchemaSimpleType_t3109_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
+		Dictionary_2__ctor_m3618_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -3526,9 +3526,9 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaType_GetBuiltInSimpleType_m10282
 	{
 		XmlQualifiedName_t3115 * L_0 = ___qualifiedName;
 		NullCheck(L_0);
-		String_t* L_1 = XmlQualifiedName_get_Namespace_m10903(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = XmlQualifiedName_get_Namespace_m10900(L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_op_Equality_m456(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2012, /*hidden argument*/NULL);
+		bool L_2 = String_op_Equality_m456(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2014, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_00b0;
@@ -3537,7 +3537,7 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaType_GetBuiltInSimpleType_m10282
 	{
 		XmlQualifiedName_t3115 * L_3 = ___qualifiedName;
 		NullCheck(L_3);
-		String_t* L_4 = XmlQualifiedName_get_Name_m10902(L_3, /*hidden argument*/NULL);
+		String_t* L_4 = XmlQualifiedName_get_Name_m10899(L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		String_t* L_5 = V_0;
 		if (!L_5)
@@ -3554,20 +3554,20 @@ extern "C" XmlSchemaSimpleType_t3109 * XmlSchemaType_GetBuiltInSimpleType_m10282
 	}
 	{
 		Dictionary_2_t223 * L_7 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3619(L_7, 4, /*hidden argument*/Dictionary_2__ctor_m3619_MethodInfo_var);
+		Dictionary_2__ctor_m3618(L_7, 4, /*hidden argument*/Dictionary_2__ctor_m3618_MethodInfo_var);
 		V_1 = L_7;
 		Dictionary_2_t223 * L_8 = V_1;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, (String_t*) &_stringLiteral2014, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, (String_t*) &_stringLiteral2016, 0);
 		Dictionary_2_t223 * L_9 = V_1;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, (String_t*) &_stringLiteral2013, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, (String_t*) &_stringLiteral2015, 1);
 		Dictionary_2_t223 * L_10 = V_1;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral2016, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral2018, 2);
 		Dictionary_2_t223 * L_11 = V_1;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral2015, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral2017, 3);
 		Dictionary_2_t223 * L_12 = V_1;
 		((XmlSchemaType_t3110_StaticFields*)XmlSchemaType_t3110_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2E_7 = L_12;
 	}
@@ -3643,9 +3643,9 @@ IL_00b0:
 	{
 		XmlQualifiedName_t3115 * L_21 = ___qualifiedName;
 		NullCheck(L_21);
-		String_t* L_22 = XmlQualifiedName_get_Namespace_m10903(L_21, /*hidden argument*/NULL);
+		String_t* L_22 = XmlQualifiedName_get_Namespace_m10900(L_21, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_23 = String_op_Inequality_m415(NULL /*static, unused*/, L_22, (String_t*) &_stringLiteral2011, /*hidden argument*/NULL);
+		bool L_23 = String_op_Inequality_m415(NULL /*static, unused*/, L_22, (String_t*) &_stringLiteral2013, /*hidden argument*/NULL);
 		if (!L_23)
 		{
 			goto IL_00c7;
@@ -3659,7 +3659,7 @@ IL_00c7:
 	{
 		XmlQualifiedName_t3115 * L_24 = ___qualifiedName;
 		NullCheck(L_24);
-		String_t* L_25 = XmlQualifiedName_get_Name_m10902(L_24, /*hidden argument*/NULL);
+		String_t* L_25 = XmlQualifiedName_get_Name_m10899(L_24, /*hidden argument*/NULL);
 		V_0 = L_25;
 		String_t* L_26 = V_0;
 		if (!L_26)
@@ -3676,143 +3676,143 @@ IL_00c7:
 	}
 	{
 		Dictionary_2_t223 * L_28 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3619(L_28, ((int32_t)45), /*hidden argument*/Dictionary_2__ctor_m3619_MethodInfo_var);
+		Dictionary_2__ctor_m3618(L_28, ((int32_t)45), /*hidden argument*/Dictionary_2__ctor_m3618_MethodInfo_var);
 		V_1 = L_28;
 		Dictionary_2_t223 * L_29 = V_1;
 		NullCheck(L_29);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_29, (String_t*) &_stringLiteral2017, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_29, (String_t*) &_stringLiteral2019, 0);
 		Dictionary_2_t223 * L_30 = V_1;
 		NullCheck(L_30);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_30, (String_t*) &_stringLiteral2018, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_30, (String_t*) &_stringLiteral2020, 1);
 		Dictionary_2_t223 * L_31 = V_1;
 		NullCheck(L_31);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_31, (String_t*) &_stringLiteral2047, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_31, (String_t*) &_stringLiteral2049, 2);
 		Dictionary_2_t223 * L_32 = V_1;
 		NullCheck(L_32);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_32, (String_t*) &_stringLiteral2030, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_32, (String_t*) &_stringLiteral2032, 3);
 		Dictionary_2_t223 * L_33 = V_1;
 		NullCheck(L_33);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral2044, 4);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral2046, 4);
 		Dictionary_2_t223 * L_34 = V_1;
 		NullCheck(L_34);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2045, 5);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2047, 5);
 		Dictionary_2_t223 * L_35 = V_1;
 		NullCheck(L_35);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2049, 6);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2051, 6);
 		Dictionary_2_t223 * L_36 = V_1;
 		NullCheck(L_36);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral2050, 7);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral2052, 7);
 		Dictionary_2_t223 * L_37 = V_1;
 		NullCheck(L_37);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral2052, 8);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral2054, 8);
 		Dictionary_2_t223 * L_38 = V_1;
 		NullCheck(L_38);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral2051, ((int32_t)9));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral2053, ((int32_t)9));
 		Dictionary_2_t223 * L_39 = V_1;
 		NullCheck(L_39);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral2055, ((int32_t)10));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral2057, ((int32_t)10));
 		Dictionary_2_t223 * L_40 = V_1;
 		NullCheck(L_40);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral2057, ((int32_t)11));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral2059, ((int32_t)11));
 		Dictionary_2_t223 * L_41 = V_1;
 		NullCheck(L_41);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral2056, ((int32_t)12));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral2058, ((int32_t)12));
 		Dictionary_2_t223 * L_42 = V_1;
 		NullCheck(L_42);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral2059, ((int32_t)13));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral2061, ((int32_t)13));
 		Dictionary_2_t223 * L_43 = V_1;
 		NullCheck(L_43);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral2058, ((int32_t)14));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral2060, ((int32_t)14));
 		Dictionary_2_t223 * L_44 = V_1;
 		NullCheck(L_44);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral2053, ((int32_t)15));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral2055, ((int32_t)15));
 		Dictionary_2_t223 * L_45 = V_1;
 		NullCheck(L_45);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral2046, ((int32_t)16));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral2048, ((int32_t)16));
 		Dictionary_2_t223 * L_46 = V_1;
 		NullCheck(L_46);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral2048, ((int32_t)17));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral2050, ((int32_t)17));
 		Dictionary_2_t223 * L_47 = V_1;
 		NullCheck(L_47);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral2054, ((int32_t)18));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral2056, ((int32_t)18));
 		Dictionary_2_t223 * L_48 = V_1;
 		NullCheck(L_48);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral2029, ((int32_t)19));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral2031, ((int32_t)19));
 		Dictionary_2_t223 * L_49 = V_1;
 		NullCheck(L_49);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral2019, ((int32_t)20));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral2021, ((int32_t)20));
 		Dictionary_2_t223 * L_50 = V_1;
 		NullCheck(L_50);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral1197, ((int32_t)21));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral1199, ((int32_t)21));
 		Dictionary_2_t223 * L_51 = V_1;
 		NullCheck(L_51);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral2020, ((int32_t)22));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral2022, ((int32_t)22));
 		Dictionary_2_t223 * L_52 = V_1;
 		NullCheck(L_52);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral2021, ((int32_t)23));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral2023, ((int32_t)23));
 		Dictionary_2_t223 * L_53 = V_1;
 		NullCheck(L_53);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral2022, ((int32_t)24));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral2024, ((int32_t)24));
 		Dictionary_2_t223 * L_54 = V_1;
 		NullCheck(L_54);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral1650, ((int32_t)25));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral1652, ((int32_t)25));
 		Dictionary_2_t223 * L_55 = V_1;
 		NullCheck(L_55);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral2023, ((int32_t)26));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral2025, ((int32_t)26));
 		Dictionary_2_t223 * L_56 = V_1;
 		NullCheck(L_56);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral2024, ((int32_t)27));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral2026, ((int32_t)27));
 		Dictionary_2_t223 * L_57 = V_1;
 		NullCheck(L_57);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral2025, ((int32_t)28));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral2027, ((int32_t)28));
 		Dictionary_2_t223 * L_58 = V_1;
 		NullCheck(L_58);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral2026, ((int32_t)29));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral2028, ((int32_t)29));
 		Dictionary_2_t223 * L_59 = V_1;
 		NullCheck(L_59);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral2027, ((int32_t)30));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral2029, ((int32_t)30));
 		Dictionary_2_t223 * L_60 = V_1;
 		NullCheck(L_60);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral2028, ((int32_t)31));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral2030, ((int32_t)31));
 		Dictionary_2_t223 * L_61 = V_1;
 		NullCheck(L_61);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2031, ((int32_t)32));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2033, ((int32_t)32));
 		Dictionary_2_t223 * L_62 = V_1;
 		NullCheck(L_62);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2036, ((int32_t)33));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2038, ((int32_t)33));
 		Dictionary_2_t223 * L_63 = V_1;
 		NullCheck(L_63);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral2037, ((int32_t)34));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral2039, ((int32_t)34));
 		Dictionary_2_t223 * L_64 = V_1;
 		NullCheck(L_64);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral2032, ((int32_t)35));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral2034, ((int32_t)35));
 		Dictionary_2_t223 * L_65 = V_1;
 		NullCheck(L_65);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral2033, ((int32_t)36));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral2035, ((int32_t)36));
 		Dictionary_2_t223 * L_66 = V_1;
 		NullCheck(L_66);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral2034, ((int32_t)37));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral2036, ((int32_t)37));
 		Dictionary_2_t223 * L_67 = V_1;
 		NullCheck(L_67);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral2035, ((int32_t)38));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral2037, ((int32_t)38));
 		Dictionary_2_t223 * L_68 = V_1;
 		NullCheck(L_68);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral2038, ((int32_t)39));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral2040, ((int32_t)39));
 		Dictionary_2_t223 * L_69 = V_1;
 		NullCheck(L_69);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral2043, ((int32_t)40));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral2045, ((int32_t)40));
 		Dictionary_2_t223 * L_70 = V_1;
 		NullCheck(L_70);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral2039, ((int32_t)41));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral2041, ((int32_t)41));
 		Dictionary_2_t223 * L_71 = V_1;
 		NullCheck(L_71);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral2040, ((int32_t)42));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral2042, ((int32_t)42));
 		Dictionary_2_t223 * L_72 = V_1;
 		NullCheck(L_72);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral2041, ((int32_t)43));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral2043, ((int32_t)43));
 		Dictionary_2_t223 * L_73 = V_1;
 		NullCheck(L_73);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral2042, ((int32_t)44));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral2044, ((int32_t)44));
 		Dictionary_2_t223 * L_74 = V_1;
 		((XmlSchemaType_t3110_StaticFields*)XmlSchemaType_t3110_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2F_8 = L_74;
 	}
@@ -4346,19 +4346,19 @@ IL_050b:
 // System.Void System.Xml.Schema.XmlSchemaUtil::.cctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaUtil_t3119_il2cpp_TypeInfo_var;
-extern "C" void XmlSchemaUtil__cctor_m10283 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void XmlSchemaUtil__cctor_m10280 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlSchemaUtil_t3119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5254);
+		XmlSchemaUtil_t3119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Environment_GetEnvironmentVariable_m11194(NULL /*static, unused*/, (String_t*) &_stringLiteral2060, /*hidden argument*/NULL);
+		String_t* L_0 = Environment_GetEnvironmentVariable_m11191(NULL /*static, unused*/, (String_t*) &_stringLiteral2062, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_op_Equality_m456(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2061, /*hidden argument*/NULL);
+		bool L_1 = String_op_Equality_m456(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2063, /*hidden argument*/NULL);
 		((XmlSchemaUtil_t3119_StaticFields*)XmlSchemaUtil_t3119_il2cpp_TypeInfo_var->static_fields)->___StrictMsCompliant_3 = L_1;
 		((XmlSchemaUtil_t3119_StaticFields*)XmlSchemaUtil_t3119_il2cpp_TypeInfo_var->static_fields)->___FinalAllowed_0 = 6;
 		int32_t L_2 = ((XmlSchemaUtil_t3119_StaticFields*)XmlSchemaUtil_t3119_il2cpp_TypeInfo_var->static_fields)->___FinalAllowed_0;
@@ -4387,10 +4387,10 @@ extern "C" void XmlSchemaUtil__cctor_m10283 (Object_t * __this /* static, unused
 
 
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
-extern "C" void XmlAttributeAttribute__ctor_m10284 (XmlAttributeAttribute_t3121 * __this, String_t* ___attributeName, const MethodInfo* method)
+extern "C" void XmlAttributeAttribute__ctor_m10281 (XmlAttributeAttribute_t3121 * __this, String_t* ___attributeName, const MethodInfo* method)
 {
 	{
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___attributeName;
 		__this->___attributeName_0 = L_0;
 		return;
@@ -4409,22 +4409,22 @@ extern "C" void XmlAttributeAttribute__ctor_m10284 (XmlAttributeAttribute_t3121 
 
 
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String)
-extern "C" void XmlElementAttribute__ctor_m10285 (XmlElementAttribute_t3122 * __this, String_t* ___elementName, const MethodInfo* method)
+extern "C" void XmlElementAttribute__ctor_m10282 (XmlElementAttribute_t3122 * __this, String_t* ___elementName, const MethodInfo* method)
 {
 	{
 		__this->___order_2 = (-1);
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___elementName;
 		__this->___elementName_0 = L_0;
 		return;
 	}
 }
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
-extern "C" void XmlElementAttribute__ctor_m10286 (XmlElementAttribute_t3122 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method)
+extern "C" void XmlElementAttribute__ctor_m10283 (XmlElementAttribute_t3122 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		__this->___order_2 = (-1);
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___elementName;
 		__this->___elementName_0 = L_0;
 		Type_t * L_1 = ___type;
@@ -4433,7 +4433,7 @@ extern "C" void XmlElementAttribute__ctor_m10286 (XmlElementAttribute_t3122 * __
 	}
 }
 // System.Void System.Xml.Serialization.XmlElementAttribute::set_Type(System.Type)
-extern "C" void XmlElementAttribute_set_Type_m10287 (XmlElementAttribute_t3122 * __this, Type_t * ___value, const MethodInfo* method)
+extern "C" void XmlElementAttribute_set_Type_m10284 (XmlElementAttribute_t3122 * __this, Type_t * ___value, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___value;
@@ -4452,10 +4452,10 @@ extern "C" void XmlElementAttribute_set_Type_m10287 (XmlElementAttribute_t3122 *
 
 
 // System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
-extern "C" void XmlEnumAttribute__ctor_m10288 (XmlEnumAttribute_t3123 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" void XmlEnumAttribute__ctor_m10285 (XmlEnumAttribute_t3123 * __this, String_t* ___name, const MethodInfo* method)
 {
 	{
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___name;
 		__this->___name_0 = L_0;
 		return;
@@ -4472,10 +4472,10 @@ extern "C" void XmlEnumAttribute__ctor_m10288 (XmlEnumAttribute_t3123 * __this, 
 
 
 // System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
-extern "C" void XmlIgnoreAttribute__ctor_m10289 (XmlIgnoreAttribute_t3124 * __this, const MethodInfo* method)
+extern "C" void XmlIgnoreAttribute__ctor_m10286 (XmlIgnoreAttribute_t3124 * __this, const MethodInfo* method)
 {
 	{
-		Attribute__ctor_m3834(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3833(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4491,18 +4491,18 @@ extern "C" void XmlIgnoreAttribute__ctor_m10289 (XmlIgnoreAttribute_t3124 * __th
 
 // System.Void System.Xml.Serialization.XmlSerializerNamespaces::.ctor()
 extern TypeInfo* ListDictionary_t3125_il2cpp_TypeInfo_var;
-extern "C" void XmlSerializerNamespaces__ctor_m10290 (XmlSerializerNamespaces_t3112 * __this, const MethodInfo* method)
+extern "C" void XmlSerializerNamespaces__ctor_m10287 (XmlSerializerNamespaces_t3112 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ListDictionary_t3125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5311);
+		ListDictionary_t3125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5309);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		ListDictionary_t3125 * L_0 = (ListDictionary_t3125 *)il2cpp_codegen_object_new (ListDictionary_t3125_il2cpp_TypeInfo_var);
-		ListDictionary__ctor_m11195(L_0, /*hidden argument*/NULL);
+		ListDictionary__ctor_m11192(L_0, /*hidden argument*/NULL);
 		__this->___namespaces_0 = L_0;
 		return;
 	}
@@ -4535,20 +4535,20 @@ extern "C" void XmlSerializerNamespaces__ctor_m10290 (XmlSerializerNamespaces_t3
 
 // System.Void Mono.Xml.DTDAutomataFactory::.ctor(Mono.Xml.DTDObjectModel)
 extern TypeInfo* Hashtable_t1278_il2cpp_TypeInfo_var;
-extern "C" void DTDAutomataFactory__ctor_m10291 (DTDAutomataFactory_t3128 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDAutomataFactory__ctor_m10288 (DTDAutomataFactory_t3128 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3239);
+		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3237);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Hashtable_t1278 * L_0 = (Hashtable_t1278 *)il2cpp_codegen_object_new (Hashtable_t1278_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m7529(L_0, /*hidden argument*/NULL);
+		Hashtable__ctor_m7526(L_0, /*hidden argument*/NULL);
 		__this->___choiceTable_1 = L_0;
 		Hashtable_t1278 * L_1 = (Hashtable_t1278 *)il2cpp_codegen_object_new (Hashtable_t1278_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m7529(L_1, /*hidden argument*/NULL);
+		Hashtable__ctor_m7526(L_1, /*hidden argument*/NULL);
 		__this->___sequenceTable_2 = L_1;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_2 = ___root;
@@ -4637,19 +4637,19 @@ extern TypeInfo* DTDNotationDeclarationCollection_t3133_il2cpp_TypeInfo_var;
 extern TypeInfo* DTDAutomataFactory_t3128_il2cpp_TypeInfo_var;
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
 extern TypeInfo* Hashtable_t1278_il2cpp_TypeInfo_var;
-extern "C" void DTDObjectModel__ctor_m10292 (DTDObjectModel_t3127 * __this, XmlNameTable_t3135 * ___nameTable, const MethodInfo* method)
+extern "C" void DTDObjectModel__ctor_m10289 (DTDObjectModel_t3127 * __this, XmlNameTable_t3135 * ___nameTable, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDElementDeclarationCollection_t3129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
-		DTDAttListDeclarationCollection_t3130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
-		DTDEntityDeclarationCollection_t3132_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
-		DTDParameterEntityDeclarationCollection_t3131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
-		DTDNotationDeclarationCollection_t3133_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
-		DTDAutomataFactory_t3128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
-		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3239);
+		DTDElementDeclarationCollection_t3129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5310);
+		DTDAttListDeclarationCollection_t3130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5311);
+		DTDEntityDeclarationCollection_t3132_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		DTDParameterEntityDeclarationCollection_t3131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		DTDNotationDeclarationCollection_t3133_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
+		DTDAutomataFactory_t3128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
+		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3237);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4657,34 +4657,34 @@ extern "C" void DTDObjectModel__ctor_m10292 (DTDObjectModel_t3127 * __this, XmlN
 		XmlNameTable_t3135 * L_0 = ___nameTable;
 		__this->___nameTable_8 = L_0;
 		DTDElementDeclarationCollection_t3129 * L_1 = (DTDElementDeclarationCollection_t3129 *)il2cpp_codegen_object_new (DTDElementDeclarationCollection_t3129_il2cpp_TypeInfo_var);
-		DTDElementDeclarationCollection__ctor_m10339(L_1, __this, /*hidden argument*/NULL);
+		DTDElementDeclarationCollection__ctor_m10336(L_1, __this, /*hidden argument*/NULL);
 		__this->___elementDecls_1 = L_1;
 		DTDAttListDeclarationCollection_t3130 * L_2 = (DTDAttListDeclarationCollection_t3130 *)il2cpp_codegen_object_new (DTDAttListDeclarationCollection_t3130_il2cpp_TypeInfo_var);
-		DTDAttListDeclarationCollection__ctor_m10341(L_2, __this, /*hidden argument*/NULL);
+		DTDAttListDeclarationCollection__ctor_m10338(L_2, __this, /*hidden argument*/NULL);
 		__this->___attListDecls_2 = L_2;
 		DTDEntityDeclarationCollection_t3132 * L_3 = (DTDEntityDeclarationCollection_t3132 *)il2cpp_codegen_object_new (DTDEntityDeclarationCollection_t3132_il2cpp_TypeInfo_var);
-		DTDEntityDeclarationCollection__ctor_m10344(L_3, __this, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection__ctor_m10341(L_3, __this, /*hidden argument*/NULL);
 		__this->___entityDecls_4 = L_3;
 		DTDParameterEntityDeclarationCollection_t3131 * L_4 = (DTDParameterEntityDeclarationCollection_t3131 *)il2cpp_codegen_object_new (DTDParameterEntityDeclarationCollection_t3131_il2cpp_TypeInfo_var);
-		DTDParameterEntityDeclarationCollection__ctor_m10424(L_4, __this, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection__ctor_m10421(L_4, __this, /*hidden argument*/NULL);
 		__this->___peDecls_3 = L_4;
 		DTDNotationDeclarationCollection_t3133 * L_5 = (DTDNotationDeclarationCollection_t3133 *)il2cpp_codegen_object_new (DTDNotationDeclarationCollection_t3133_il2cpp_TypeInfo_var);
-		DTDNotationDeclarationCollection__ctor_m10347(L_5, __this, /*hidden argument*/NULL);
+		DTDNotationDeclarationCollection__ctor_m10344(L_5, __this, /*hidden argument*/NULL);
 		__this->___notationDecls_5 = L_5;
 		DTDAutomataFactory_t3128 * L_6 = (DTDAutomataFactory_t3128 *)il2cpp_codegen_object_new (DTDAutomataFactory_t3128_il2cpp_TypeInfo_var);
-		DTDAutomataFactory__ctor_m10291(L_6, __this, /*hidden argument*/NULL);
+		DTDAutomataFactory__ctor_m10288(L_6, __this, /*hidden argument*/NULL);
 		__this->___factory_0 = L_6;
 		ArrayList_t3113 * L_7 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_7, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_7, /*hidden argument*/NULL);
 		__this->___validationErrors_6 = L_7;
 		Hashtable_t1278 * L_8 = (Hashtable_t1278 *)il2cpp_codegen_object_new (Hashtable_t1278_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m7529(L_8, /*hidden argument*/NULL);
+		Hashtable__ctor_m7526(L_8, /*hidden argument*/NULL);
 		__this->___externalResources_9 = L_8;
 		return;
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::get_BaseURI()
-extern "C" String_t* DTDObjectModel_get_BaseURI_m10293 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_get_BaseURI_m10290 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___baseURI_10);
@@ -4692,7 +4692,7 @@ extern "C" String_t* DTDObjectModel_get_BaseURI_m10293 (DTDObjectModel_t3127 * _
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_BaseURI(System.String)
-extern "C" void DTDObjectModel_set_BaseURI_m10294 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_BaseURI_m10291 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -4701,7 +4701,7 @@ extern "C" void DTDObjectModel_set_BaseURI_m10294 (DTDObjectModel_t3127 * __this
 	}
 }
 // System.Boolean Mono.Xml.DTDObjectModel::get_IsStandalone()
-extern "C" bool DTDObjectModel_get_IsStandalone_m10295 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" bool DTDObjectModel_get_IsStandalone_m10292 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isStandalone_16);
@@ -4709,7 +4709,7 @@ extern "C" bool DTDObjectModel_get_IsStandalone_m10295 (DTDObjectModel_t3127 * _
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_IsStandalone(System.Boolean)
-extern "C" void DTDObjectModel_set_IsStandalone_m10296 (DTDObjectModel_t3127 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_IsStandalone_m10293 (DTDObjectModel_t3127 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -4718,7 +4718,7 @@ extern "C" void DTDObjectModel_set_IsStandalone_m10296 (DTDObjectModel_t3127 * _
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::get_Name()
-extern "C" String_t* DTDObjectModel_get_Name_m10297 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_get_Name_m10294 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_11);
@@ -4726,7 +4726,7 @@ extern "C" String_t* DTDObjectModel_get_Name_m10297 (DTDObjectModel_t3127 * __th
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_Name(System.String)
-extern "C" void DTDObjectModel_set_Name_m10298 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_Name_m10295 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -4735,7 +4735,7 @@ extern "C" void DTDObjectModel_set_Name_m10298 (DTDObjectModel_t3127 * __this, S
 	}
 }
 // System.Xml.XmlNameTable Mono.Xml.DTDObjectModel::get_NameTable()
-extern "C" XmlNameTable_t3135 * DTDObjectModel_get_NameTable_m10299 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" XmlNameTable_t3135 * DTDObjectModel_get_NameTable_m10296 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		XmlNameTable_t3135 * L_0 = (__this->___nameTable_8);
@@ -4743,7 +4743,7 @@ extern "C" XmlNameTable_t3135 * DTDObjectModel_get_NameTable_m10299 (DTDObjectMo
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::get_PublicId()
-extern "C" String_t* DTDObjectModel_get_PublicId_m10300 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_get_PublicId_m10297 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___publicId_12);
@@ -4751,7 +4751,7 @@ extern "C" String_t* DTDObjectModel_get_PublicId_m10300 (DTDObjectModel_t3127 * 
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_PublicId(System.String)
-extern "C" void DTDObjectModel_set_PublicId_m10301 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_PublicId_m10298 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -4760,7 +4760,7 @@ extern "C" void DTDObjectModel_set_PublicId_m10301 (DTDObjectModel_t3127 * __thi
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::get_SystemId()
-extern "C" String_t* DTDObjectModel_get_SystemId_m10302 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_get_SystemId_m10299 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___systemId_13);
@@ -4768,7 +4768,7 @@ extern "C" String_t* DTDObjectModel_get_SystemId_m10302 (DTDObjectModel_t3127 * 
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_SystemId(System.String)
-extern "C" void DTDObjectModel_set_SystemId_m10303 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_SystemId_m10300 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -4777,7 +4777,7 @@ extern "C" void DTDObjectModel_set_SystemId_m10303 (DTDObjectModel_t3127 * __thi
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::get_InternalSubset()
-extern "C" String_t* DTDObjectModel_get_InternalSubset_m10304 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_get_InternalSubset_m10301 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___intSubset_14);
@@ -4785,7 +4785,7 @@ extern "C" String_t* DTDObjectModel_get_InternalSubset_m10304 (DTDObjectModel_t3
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_InternalSubset(System.String)
-extern "C" void DTDObjectModel_set_InternalSubset_m10305 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_InternalSubset_m10302 (DTDObjectModel_t3127 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -4794,7 +4794,7 @@ extern "C" void DTDObjectModel_set_InternalSubset_m10305 (DTDObjectModel_t3127 *
 	}
 }
 // System.Boolean Mono.Xml.DTDObjectModel::get_InternalSubsetHasPEReference()
-extern "C" bool DTDObjectModel_get_InternalSubsetHasPEReference_m10306 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" bool DTDObjectModel_get_InternalSubsetHasPEReference_m10303 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___intSubsetHasPERef_15);
@@ -4802,7 +4802,7 @@ extern "C" bool DTDObjectModel_get_InternalSubsetHasPEReference_m10306 (DTDObjec
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_InternalSubsetHasPEReference(System.Boolean)
-extern "C" void DTDObjectModel_set_InternalSubsetHasPEReference_m10307 (DTDObjectModel_t3127 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_InternalSubsetHasPEReference_m10304 (DTDObjectModel_t3127 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -4811,7 +4811,7 @@ extern "C" void DTDObjectModel_set_InternalSubsetHasPEReference_m10307 (DTDObjec
 	}
 }
 // System.Int32 Mono.Xml.DTDObjectModel::get_LineNumber()
-extern "C" int32_t DTDObjectModel_get_LineNumber_m10308 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" int32_t DTDObjectModel_get_LineNumber_m10305 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___lineNumber_17);
@@ -4819,7 +4819,7 @@ extern "C" int32_t DTDObjectModel_get_LineNumber_m10308 (DTDObjectModel_t3127 * 
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_LineNumber(System.Int32)
-extern "C" void DTDObjectModel_set_LineNumber_m10309 (DTDObjectModel_t3127 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_LineNumber_m10306 (DTDObjectModel_t3127 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -4828,7 +4828,7 @@ extern "C" void DTDObjectModel_set_LineNumber_m10309 (DTDObjectModel_t3127 * __t
 	}
 }
 // System.Int32 Mono.Xml.DTDObjectModel::get_LinePosition()
-extern "C" int32_t DTDObjectModel_get_LinePosition_m10310 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" int32_t DTDObjectModel_get_LinePosition_m10307 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___linePosition_18);
@@ -4836,7 +4836,7 @@ extern "C" int32_t DTDObjectModel_get_LinePosition_m10310 (DTDObjectModel_t3127 
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_LinePosition(System.Int32)
-extern "C" void DTDObjectModel_set_LinePosition_m10311 (DTDObjectModel_t3127 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_LinePosition_m10308 (DTDObjectModel_t3127 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -4847,21 +4847,21 @@ extern "C" void DTDObjectModel_set_LinePosition_m10311 (DTDObjectModel_t3127 * _
 // System.String Mono.Xml.DTDObjectModel::ResolveEntity(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDObjectModel_ResolveEntity_m10312 (DTDObjectModel_t3127 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_ResolveEntity_m10309 (DTDObjectModel_t3127 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3149 * V_0 = {0};
 	{
-		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10318(__this, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10315(__this, /*hidden argument*/NULL);
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10345(L_0, L_1, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10342(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		DTDEntityDeclaration_t3149 * L_3 = V_0;
 		if (L_3)
@@ -4872,25 +4872,25 @@ extern "C" String_t* DTDObjectModel_ResolveEntity_m10312 (DTDObjectModel_t3127 *
 	{
 		String_t* L_4 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2062, L_4, /*hidden argument*/NULL);
-		int32_t L_6 = DTDObjectModel_get_LineNumber_m10308(__this, /*hidden argument*/NULL);
-		int32_t L_7 = DTDObjectModel_get_LinePosition_m10310(__this, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2064, L_4, /*hidden argument*/NULL);
+		int32_t L_6 = DTDObjectModel_get_LineNumber_m10305(__this, /*hidden argument*/NULL);
+		int32_t L_7 = DTDObjectModel_get_LinePosition_m10307(__this, /*hidden argument*/NULL);
 		XmlException_t3183 * L_8 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10698(L_8, L_5, (Exception_t57 *)NULL, L_6, L_7, /*hidden argument*/NULL);
-		DTDObjectModel_AddError_m10321(__this, L_8, /*hidden argument*/NULL);
-		return (String_t*) &_stringLiteral1300;
+		XmlException__ctor_m10695(L_8, L_5, (Exception_t57 *)NULL, L_6, L_7, /*hidden argument*/NULL);
+		DTDObjectModel_AddError_m10318(__this, L_8, /*hidden argument*/NULL);
+		return (String_t*) &_stringLiteral1302;
 	}
 
 IL_003c:
 	{
 		DTDEntityDeclaration_t3149 * L_9 = V_0;
 		NullCheck(L_9);
-		String_t* L_10 = DTDEntityDeclaration_get_EntityValue_m10411(L_9, /*hidden argument*/NULL);
+		String_t* L_10 = DTDEntityDeclaration_get_EntityValue_m10408(L_9, /*hidden argument*/NULL);
 		return L_10;
 	}
 }
 // System.Xml.XmlResolver Mono.Xml.DTDObjectModel::get_Resolver()
-extern "C" XmlResolver_t3134 * DTDObjectModel_get_Resolver_m10313 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" XmlResolver_t3134 * DTDObjectModel_get_Resolver_m10310 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		XmlResolver_t3134 * L_0 = (__this->___resolver_7);
@@ -4898,7 +4898,7 @@ extern "C" XmlResolver_t3134 * DTDObjectModel_get_Resolver_m10313 (DTDObjectMode
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::set_XmlResolver(System.Xml.XmlResolver)
-extern "C" void DTDObjectModel_set_XmlResolver_m10314 (DTDObjectModel_t3127 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method)
+extern "C" void DTDObjectModel_set_XmlResolver_m10311 (DTDObjectModel_t3127 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method)
 {
 	{
 		XmlResolver_t3134 * L_0 = ___value;
@@ -4907,7 +4907,7 @@ extern "C" void DTDObjectModel_set_XmlResolver_m10314 (DTDObjectModel_t3127 * __
 	}
 }
 // System.Collections.Hashtable Mono.Xml.DTDObjectModel::get_ExternalResources()
-extern "C" Hashtable_t1278 * DTDObjectModel_get_ExternalResources_m10315 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" Hashtable_t1278 * DTDObjectModel_get_ExternalResources_m10312 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		Hashtable_t1278 * L_0 = (__this->___externalResources_9);
@@ -4915,7 +4915,7 @@ extern "C" Hashtable_t1278 * DTDObjectModel_get_ExternalResources_m10315 (DTDObj
 	}
 }
 // Mono.Xml.DTDElementDeclarationCollection Mono.Xml.DTDObjectModel::get_ElementDecls()
-extern "C" DTDElementDeclarationCollection_t3129 * DTDObjectModel_get_ElementDecls_m10316 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" DTDElementDeclarationCollection_t3129 * DTDObjectModel_get_ElementDecls_m10313 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		DTDElementDeclarationCollection_t3129 * L_0 = (__this->___elementDecls_1);
@@ -4923,7 +4923,7 @@ extern "C" DTDElementDeclarationCollection_t3129 * DTDObjectModel_get_ElementDec
 	}
 }
 // Mono.Xml.DTDAttListDeclarationCollection Mono.Xml.DTDObjectModel::get_AttListDecls()
-extern "C" DTDAttListDeclarationCollection_t3130 * DTDObjectModel_get_AttListDecls_m10317 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" DTDAttListDeclarationCollection_t3130 * DTDObjectModel_get_AttListDecls_m10314 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		DTDAttListDeclarationCollection_t3130 * L_0 = (__this->___attListDecls_2);
@@ -4931,7 +4931,7 @@ extern "C" DTDAttListDeclarationCollection_t3130 * DTDObjectModel_get_AttListDec
 	}
 }
 // Mono.Xml.DTDEntityDeclarationCollection Mono.Xml.DTDObjectModel::get_EntityDecls()
-extern "C" DTDEntityDeclarationCollection_t3132 * DTDObjectModel_get_EntityDecls_m10318 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" DTDEntityDeclarationCollection_t3132 * DTDObjectModel_get_EntityDecls_m10315 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		DTDEntityDeclarationCollection_t3132 * L_0 = (__this->___entityDecls_4);
@@ -4939,7 +4939,7 @@ extern "C" DTDEntityDeclarationCollection_t3132 * DTDObjectModel_get_EntityDecls
 	}
 }
 // Mono.Xml.DTDParameterEntityDeclarationCollection Mono.Xml.DTDObjectModel::get_PEDecls()
-extern "C" DTDParameterEntityDeclarationCollection_t3131 * DTDObjectModel_get_PEDecls_m10319 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" DTDParameterEntityDeclarationCollection_t3131 * DTDObjectModel_get_PEDecls_m10316 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		DTDParameterEntityDeclarationCollection_t3131 * L_0 = (__this->___peDecls_3);
@@ -4947,7 +4947,7 @@ extern "C" DTDParameterEntityDeclarationCollection_t3131 * DTDObjectModel_get_PE
 	}
 }
 // Mono.Xml.DTDNotationDeclarationCollection Mono.Xml.DTDObjectModel::get_NotationDecls()
-extern "C" DTDNotationDeclarationCollection_t3133 * DTDObjectModel_get_NotationDecls_m10320 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
+extern "C" DTDNotationDeclarationCollection_t3133 * DTDObjectModel_get_NotationDecls_m10317 (DTDObjectModel_t3127 * __this, const MethodInfo* method)
 {
 	{
 		DTDNotationDeclarationCollection_t3133 * L_0 = (__this->___notationDecls_5);
@@ -4955,7 +4955,7 @@ extern "C" DTDNotationDeclarationCollection_t3133 * DTDObjectModel_get_NotationD
 	}
 }
 // System.Void Mono.Xml.DTDObjectModel::AddError(System.Xml.XmlException)
-extern "C" void DTDObjectModel_AddError_m10321 (DTDObjectModel_t3127 * __this, XmlException_t3183 * ___ex, const MethodInfo* method)
+extern "C" void DTDObjectModel_AddError_m10318 (DTDObjectModel_t3127 * __this, XmlException_t3183 * ___ex, const MethodInfo* method)
 {
 	{
 		ArrayList_t3113 * L_0 = (__this->___validationErrors_6);
@@ -4966,14 +4966,14 @@ extern "C" void DTDObjectModel_AddError_m10321 (DTDObjectModel_t3127 * __this, X
 	}
 }
 // System.String Mono.Xml.DTDObjectModel::GenerateEntityAttributeText(System.String)
-extern "C" String_t* DTDObjectModel_GenerateEntityAttributeText_m10322 (DTDObjectModel_t3127 * __this, String_t* ___entityName, const MethodInfo* method)
+extern "C" String_t* DTDObjectModel_GenerateEntityAttributeText_m10319 (DTDObjectModel_t3127 * __this, String_t* ___entityName, const MethodInfo* method)
 {
 	DTDEntityDeclaration_t3149 * V_0 = {0};
 	{
-		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10318(__this, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10315(__this, /*hidden argument*/NULL);
 		String_t* L_1 = ___entityName;
 		NullCheck(L_0);
-		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10345(L_0, L_1, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10342(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		DTDEntityDeclaration_t3149 * L_3 = V_0;
 		if (L_3)
@@ -4989,39 +4989,39 @@ IL_0015:
 	{
 		DTDEntityDeclaration_t3149 * L_4 = V_0;
 		NullCheck(L_4);
-		String_t* L_5 = DTDEntityDeclaration_get_EntityValue_m10411(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = DTDEntityDeclaration_get_EntityValue_m10408(L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // Mono.Xml2.XmlTextReader Mono.Xml.DTDObjectModel::GenerateEntityContentReader(System.String,System.Xml.XmlParserContext)
 extern const Il2CppType* Stream_t51_0_0_0_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t710_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t709_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Stream_t51_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlTextReader_t3216_il2cpp_TypeInfo_var;
-extern "C" XmlTextReader_t3216 * DTDObjectModel_GenerateEntityContentReader_m10323 (DTDObjectModel_t3127 * __this, String_t* ___entityName, XmlParserContext_t3205 * ___context, const MethodInfo* method)
+extern "C" XmlTextReader_t3216 * DTDObjectModel_GenerateEntityContentReader_m10320 (DTDObjectModel_t3127 * __this, String_t* ___entityName, XmlParserContext_t3205 * ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Stream_t51_0_0_0_var = il2cpp_codegen_type_from_index(143);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Uri_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		Uri_t709_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
-		XmlTextReader_t3216_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5320);
+		XmlTextReader_t3216_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3149 * V_0 = {0};
-	Uri_t710 * V_1 = {0};
+	Uri_t709 * V_1 = {0};
 	Stream_t51 * V_2 = {0};
-	Uri_t710 * G_B6_0 = {0};
+	Uri_t709 * G_B6_0 = {0};
 	{
-		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10318(__this, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_0 = DTDObjectModel_get_EntityDecls_m10315(__this, /*hidden argument*/NULL);
 		String_t* L_1 = ___entityName;
 		NullCheck(L_0);
-		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10345(L_0, L_1, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_2 = DTDEntityDeclarationCollection_get_Item_m10342(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		DTDEntityDeclaration_t3149 * L_3 = V_0;
 		if (L_3)
@@ -5037,7 +5037,7 @@ IL_0015:
 	{
 		DTDEntityDeclaration_t3149 * L_4 = V_0;
 		NullCheck(L_4);
-		String_t* L_5 = DTDEntityBase_get_SystemId_m10398(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = DTDEntityBase_get_SystemId_m10395(L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_007e;
@@ -5056,7 +5056,7 @@ IL_0015:
 		}
 	}
 	{
-		G_B6_0 = ((Uri_t710 *)(NULL));
+		G_B6_0 = ((Uri_t709 *)(NULL));
 		goto IL_0046;
 	}
 
@@ -5065,8 +5065,8 @@ IL_003b:
 		DTDEntityDeclaration_t3149 * L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_10);
-		Uri_t710 * L_12 = (Uri_t710 *)il2cpp_codegen_object_new (Uri_t710_il2cpp_TypeInfo_var);
-		Uri__ctor_m7221(L_12, L_11, /*hidden argument*/NULL);
+		Uri_t709 * L_12 = (Uri_t709 *)il2cpp_codegen_object_new (Uri_t709_il2cpp_TypeInfo_var);
+		Uri__ctor_m7218(L_12, L_11, /*hidden argument*/NULL);
 		G_B6_0 = L_12;
 	}
 
@@ -5075,21 +5075,21 @@ IL_0046:
 		V_1 = G_B6_0;
 		XmlResolver_t3134 * L_13 = (__this->___resolver_7);
 		XmlResolver_t3134 * L_14 = (__this->___resolver_7);
-		Uri_t710 * L_15 = V_1;
+		Uri_t709 * L_15 = V_1;
 		DTDEntityDeclaration_t3149 * L_16 = V_0;
 		NullCheck(L_16);
-		String_t* L_17 = DTDEntityBase_get_SystemId_m10398(L_16, /*hidden argument*/NULL);
+		String_t* L_17 = DTDEntityBase_get_SystemId_m10395(L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Uri_t710 * L_18 = (Uri_t710 *)VirtFuncInvoker2< Uri_t710 *, Uri_t710 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_14, L_15, L_17);
+		Uri_t709 * L_18 = (Uri_t709 *)VirtFuncInvoker2< Uri_t709 *, Uri_t709 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_14, L_15, L_17);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_19 = Type_GetTypeFromHandle_m3831(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
+		Type_t * L_19 = Type_GetTypeFromHandle_m3830(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Object_t * L_20 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t710 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_13, L_18, (String_t*)NULL, L_19);
+		Object_t * L_20 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t709 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_13, L_18, (String_t*)NULL, L_19);
 		V_2 = ((Stream_t51 *)IsInst(L_20, Stream_t51_il2cpp_TypeInfo_var));
 		Stream_t51 * L_21 = V_2;
 		XmlParserContext_t3205 * L_22 = ___context;
 		XmlTextReader_t3216 * L_23 = (XmlTextReader_t3216 *)il2cpp_codegen_object_new (XmlTextReader_t3216_il2cpp_TypeInfo_var);
-		XmlTextReader__ctor_m10965(L_23, L_21, 1, L_22, /*hidden argument*/NULL);
+		XmlTextReader__ctor_m10962(L_23, L_21, 1, L_22, /*hidden argument*/NULL);
 		return L_23;
 	}
 
@@ -5097,10 +5097,10 @@ IL_007e:
 	{
 		DTDEntityDeclaration_t3149 * L_24 = V_0;
 		NullCheck(L_24);
-		String_t* L_25 = DTDEntityDeclaration_get_EntityValue_m10411(L_24, /*hidden argument*/NULL);
+		String_t* L_25 = DTDEntityDeclaration_get_EntityValue_m10408(L_24, /*hidden argument*/NULL);
 		XmlParserContext_t3205 * L_26 = ___context;
 		XmlTextReader_t3216 * L_27 = (XmlTextReader_t3216 *)il2cpp_codegen_object_new (XmlTextReader_t3216_il2cpp_TypeInfo_var);
-		XmlTextReader__ctor_m10968(L_27, L_25, 1, L_26, /*hidden argument*/NULL);
+		XmlTextReader__ctor_m10965(L_27, L_25, 1, L_26, /*hidden argument*/NULL);
 		return L_27;
 	}
 }
@@ -5135,7 +5135,7 @@ IL_007e:
 
 
 // System.Void Mono.Xml.DictionaryBase/<>c__Iterator3::.ctor()
-extern "C" void U3CU3Ec__Iterator3__ctor_m10324 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" void U3CU3Ec__Iterator3__ctor_m10321 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -5143,7 +5143,7 @@ extern "C" void U3CU3Ec__Iterator3__ctor_m10324 (U3CU3Ec__Iterator3_t3138 * __th
 	}
 }
 // Mono.Xml.DTDNode Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.Generic.IEnumerator<Mono.Xml.DTDNode>.get_Current()
-extern "C" DTDNode_t3136 * U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m10325 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" DTDNode_t3136 * U3CU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CMono_Xml_DTDNodeU3E_get_Current_m10322 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	{
 		DTDNode_t3136 * L_0 = (__this->___U24current_3);
@@ -5151,7 +5151,7 @@ extern "C" DTDNode_t3136 * U3CU3Ec__Iterator3_System_Collections_Generic_IEnumer
 	}
 }
 // System.Object Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m10326 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m10323 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	{
 		DTDNode_t3136 * L_0 = (__this->___U24current_3);
@@ -5159,7 +5159,7 @@ extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerator_get_Curr
 	}
 }
 // System.Collections.IEnumerator Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m10327 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m10324 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	{
 		Object_t* L_0 = (Object_t*)VirtFuncInvoker0< Object_t* >::Invoke(4 /* System.Collections.Generic.IEnumerator`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.Generic.IEnumerable<Mono.Xml.DTDNode>.GetEnumerator() */, __this);
@@ -5168,12 +5168,12 @@ extern "C" Object_t * U3CU3Ec__Iterator3_System_Collections_IEnumerable_GetEnume
 }
 // System.Collections.Generic.IEnumerator`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase/<>c__Iterator3::System.Collections.Generic.IEnumerable<Mono.Xml.DTDNode>.GetEnumerator()
 extern TypeInfo* U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var;
-extern "C" Object_t* U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m10328 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" Object_t* U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CMono_Xml_DTDNodeU3E_GetEnumerator_m10325 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		s_Il2CppMethodIntialized = true;
 	}
 	U3CU3Ec__Iterator3_t3138 * V_0 = {0};
@@ -5192,7 +5192,7 @@ extern "C" Object_t* U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3
 IL_0014:
 	{
 		U3CU3Ec__Iterator3_t3138 * L_2 = (U3CU3Ec__Iterator3_t3138 *)il2cpp_codegen_object_new (U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var);
-		U3CU3Ec__Iterator3__ctor_m10324(L_2, /*hidden argument*/NULL);
+		U3CU3Ec__Iterator3__ctor_m10321(L_2, /*hidden argument*/NULL);
 		V_0 = L_2;
 		U3CU3Ec__Iterator3_t3138 * L_3 = V_0;
 		DictionaryBase_t3137 * L_4 = (__this->___U3CU3Ef__this_4);
@@ -5205,21 +5205,21 @@ IL_0014:
 // System.Boolean Mono.Xml.DictionaryBase/<>c__Iterator3::MoveNext()
 extern TypeInfo* Enumerator_t3139_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m11197_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m11198_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m11199_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m11200_MethodInfo_var;
-extern "C" bool U3CU3Ec__Iterator3_MoveNext_m10329 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern const MethodInfo* List_1_GetEnumerator_m11194_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m11195_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m11196_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m11197_MethodInfo_var;
+extern "C" bool U3CU3Ec__Iterator3_MoveNext_m10326 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
-		Enumerator_get_Current_m11198_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485150);
-		KeyValuePair_2_get_Value_m11199_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485151);
-		Enumerator_MoveNext_m11200_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485152);
+		List_1_GetEnumerator_m11194_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
+		Enumerator_get_Current_m11195_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
+		KeyValuePair_2_get_Value_m11196_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485150);
+		Enumerator_MoveNext_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485151);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -5254,7 +5254,7 @@ IL_0023:
 	{
 		DictionaryBase_t3137 * L_2 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_2);
-		Enumerator_t3139  L_3 = List_1_GetEnumerator_m11197(L_2, /*hidden argument*/List_1_GetEnumerator_m11197_MethodInfo_var);
+		Enumerator_t3139  L_3 = List_1_GetEnumerator_m11194(L_2, /*hidden argument*/List_1_GetEnumerator_m11194_MethodInfo_var);
 		__this->___U3CU24s_431U3E__0_0 = L_3;
 		V_0 = ((int32_t)-3);
 	}
@@ -5278,10 +5278,10 @@ IL_0043:
 IL_0048:
 		{
 			Enumerator_t3139 * L_5 = &(__this->___U3CU24s_431U3E__0_0);
-			KeyValuePair_2_t3140  L_6 = Enumerator_get_Current_m11198(L_5, /*hidden argument*/Enumerator_get_Current_m11198_MethodInfo_var);
+			KeyValuePair_2_t3140  L_6 = Enumerator_get_Current_m11195(L_5, /*hidden argument*/Enumerator_get_Current_m11195_MethodInfo_var);
 			__this->___U3CpU3E__1_1 = L_6;
 			KeyValuePair_2_t3140 * L_7 = &(__this->___U3CpU3E__1_1);
-			DTDNode_t3136 * L_8 = KeyValuePair_2_get_Value_m11199(L_7, /*hidden argument*/KeyValuePair_2_get_Value_m11199_MethodInfo_var);
+			DTDNode_t3136 * L_8 = KeyValuePair_2_get_Value_m11196(L_7, /*hidden argument*/KeyValuePair_2_get_Value_m11196_MethodInfo_var);
 			__this->___U24current_3 = L_8;
 			__this->___U24PC_2 = 1;
 			V_1 = 1;
@@ -5291,7 +5291,7 @@ IL_0048:
 IL_0078:
 		{
 			Enumerator_t3139 * L_9 = &(__this->___U3CU24s_431U3E__0_0);
-			bool L_10 = Enumerator_MoveNext_m11200(L_9, /*hidden argument*/Enumerator_MoveNext_m11200_MethodInfo_var);
+			bool L_10 = Enumerator_MoveNext_m11197(L_9, /*hidden argument*/Enumerator_MoveNext_m11197_MethodInfo_var);
 			if (L_10)
 			{
 				goto IL_0048;
@@ -5360,12 +5360,12 @@ IL_00ab:
 // System.Void Mono.Xml.DictionaryBase/<>c__Iterator3::Dispose()
 extern TypeInfo* Enumerator_t3139_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern "C" void U3CU3Ec__Iterator3_Dispose_m10330 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" void U3CU3Ec__Iterator3_Dispose_m10327 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5427,7 +5427,7 @@ IL_0037:
 }
 // System.Void Mono.Xml.DictionaryBase/<>c__Iterator3::Reset()
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" void U3CU3Ec__Iterator3_Reset_m10331 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
+extern "C" void U3CU3Ec__Iterator3_Reset_m10328 (U3CU3Ec__Iterator3_t3138 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5451,36 +5451,36 @@ extern "C" void U3CU3Ec__Iterator3_Reset_m10331 (U3CU3Ec__Iterator3_t3138 * __th
 
 // System.Void Mono.Xml.DictionaryBase::.ctor()
 extern TypeInfo* List_1_t3141_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m11201_MethodInfo_var;
-extern "C" void DictionaryBase__ctor_m10332 (DictionaryBase_t3137 * __this, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m11198_MethodInfo_var;
+extern "C" void DictionaryBase__ctor_m10329 (DictionaryBase_t3137 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t3141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
-		List_1__ctor_m11201_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485153);
+		List_1_t3141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
+		List_1__ctor_m11198_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485152);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(List_1_t3141_il2cpp_TypeInfo_var);
-		List_1__ctor_m11201(__this, /*hidden argument*/List_1__ctor_m11201_MethodInfo_var);
+		List_1__ctor_m11198(__this, /*hidden argument*/List_1__ctor_m11198_MethodInfo_var);
 		return;
 	}
 }
 // System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase::get_Values()
 extern TypeInfo* U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var;
-extern "C" Object_t* DictionaryBase_get_Values_m10333 (DictionaryBase_t3137 * __this, const MethodInfo* method)
+extern "C" Object_t* DictionaryBase_get_Values_m10330 (DictionaryBase_t3137 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		s_Il2CppMethodIntialized = true;
 	}
 	U3CU3Ec__Iterator3_t3138 * V_0 = {0};
 	{
 		U3CU3Ec__Iterator3_t3138 * L_0 = (U3CU3Ec__Iterator3_t3138 *)il2cpp_codegen_object_new (U3CU3Ec__Iterator3_t3138_il2cpp_TypeInfo_var);
-		U3CU3Ec__Iterator3__ctor_m10324(L_0, /*hidden argument*/NULL);
+		U3CU3Ec__Iterator3__ctor_m10321(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		U3CU3Ec__Iterator3_t3138 * L_1 = V_0;
 		NullCheck(L_1);
@@ -5505,17 +5505,17 @@ extern "C" Object_t* DictionaryBase_get_Values_m10333 (DictionaryBase_t3137 * __
 
 
 // System.Void Mono.Xml.DTDCollectionBase::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDCollectionBase__ctor_m10334 (DTDCollectionBase_t3142 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDCollectionBase__ctor_m10331 (DTDCollectionBase_t3142 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
-		DictionaryBase__ctor_m10332(__this, /*hidden argument*/NULL);
+		DictionaryBase__ctor_m10329(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_0 = ___root;
 		__this->___root_5 = L_0;
 		return;
 	}
 }
 // Mono.Xml.DTDObjectModel Mono.Xml.DTDCollectionBase::get_Root()
-extern "C" DTDObjectModel_t3127 * DTDCollectionBase_get_Root_m10335 (DTDCollectionBase_t3142 * __this, const MethodInfo* method)
+extern "C" DTDObjectModel_t3127 * DTDCollectionBase_get_Root_m10332 (DTDCollectionBase_t3142 * __this, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___root_5);
@@ -5523,23 +5523,23 @@ extern "C" DTDObjectModel_t3127 * DTDCollectionBase_get_Root_m10335 (DTDCollecti
 	}
 }
 // System.Void Mono.Xml.DTDCollectionBase::BaseAdd(System.String,Mono.Xml.DTDNode)
-extern const MethodInfo* KeyValuePair_2__ctor_m11202_MethodInfo_var;
-extern const MethodInfo* List_1_Add_m11203_MethodInfo_var;
-extern "C" void DTDCollectionBase_BaseAdd_m10336 (DTDCollectionBase_t3142 * __this, String_t* ___name, DTDNode_t3136 * ___value, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2__ctor_m11199_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m11200_MethodInfo_var;
+extern "C" void DTDCollectionBase_BaseAdd_m10333 (DTDCollectionBase_t3142 * __this, String_t* ___name, DTDNode_t3136 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		KeyValuePair_2__ctor_m11202_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485154);
-		List_1_Add_m11203_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485155);
+		KeyValuePair_2__ctor_m11199_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485153);
+		List_1_Add_m11200_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485154);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
 		DTDNode_t3136 * L_1 = ___value;
 		KeyValuePair_2_t3140  L_2 = {0};
-		KeyValuePair_2__ctor_m11202(&L_2, L_0, L_1, /*hidden argument*/KeyValuePair_2__ctor_m11202_MethodInfo_var);
-		List_1_Add_m11203(__this, L_2, /*hidden argument*/List_1_Add_m11203_MethodInfo_var);
+		KeyValuePair_2__ctor_m11199(&L_2, L_0, L_1, /*hidden argument*/KeyValuePair_2__ctor_m11199_MethodInfo_var);
+		List_1_Add_m11200(__this, L_2, /*hidden argument*/List_1_Add_m11200_MethodInfo_var);
 		return;
 	}
 }
@@ -5547,22 +5547,22 @@ extern "C" void DTDCollectionBase_BaseAdd_m10336 (DTDCollectionBase_t3142 * __th
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t3139_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m11197_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m11198_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m11204_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m11200_MethodInfo_var;
-extern "C" bool DTDCollectionBase_Contains_m10337 (DTDCollectionBase_t3142 * __this, String_t* ___key, const MethodInfo* method)
+extern const MethodInfo* List_1_GetEnumerator_m11194_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m11195_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m11201_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m11197_MethodInfo_var;
+extern "C" bool DTDCollectionBase_Contains_m10334 (DTDCollectionBase_t3142 * __this, String_t* ___key, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
-		Enumerator_get_Current_m11198_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485150);
-		KeyValuePair_2_get_Key_m11204_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485156);
-		Enumerator_MoveNext_m11200_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485152);
+		List_1_GetEnumerator_m11194_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
+		Enumerator_get_Current_m11195_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
+		KeyValuePair_2_get_Key_m11201_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485155);
+		Enumerator_MoveNext_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485151);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t3140  V_0 = {0};
@@ -5575,7 +5575,7 @@ extern "C" bool DTDCollectionBase_Contains_m10337 (DTDCollectionBase_t3142 * __t
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Enumerator_t3139  L_0 = List_1_GetEnumerator_m11197(__this, /*hidden argument*/List_1_GetEnumerator_m11197_MethodInfo_var);
+		Enumerator_t3139  L_0 = List_1_GetEnumerator_m11194(__this, /*hidden argument*/List_1_GetEnumerator_m11194_MethodInfo_var);
 		V_1 = L_0;
 	}
 
@@ -5588,9 +5588,9 @@ IL_0007:
 
 IL_000c:
 		{
-			KeyValuePair_2_t3140  L_1 = Enumerator_get_Current_m11198((&V_1), /*hidden argument*/Enumerator_get_Current_m11198_MethodInfo_var);
+			KeyValuePair_2_t3140  L_1 = Enumerator_get_Current_m11195((&V_1), /*hidden argument*/Enumerator_get_Current_m11195_MethodInfo_var);
 			V_0 = L_1;
-			String_t* L_2 = KeyValuePair_2_get_Key_m11204((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m11204_MethodInfo_var);
+			String_t* L_2 = KeyValuePair_2_get_Key_m11201((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m11201_MethodInfo_var);
 			String_t* L_3 = ___key;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			bool L_4 = String_op_Equality_m456(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
@@ -5608,7 +5608,7 @@ IL_0026:
 
 IL_002d:
 		{
-			bool L_5 = Enumerator_MoveNext_m11200((&V_1), /*hidden argument*/Enumerator_MoveNext_m11200_MethodInfo_var);
+			bool L_5 = Enumerator_MoveNext_m11197((&V_1), /*hidden argument*/Enumerator_MoveNext_m11197_MethodInfo_var);
 			if (L_5)
 			{
 				goto IL_000c;
@@ -5657,24 +5657,24 @@ IL_004c:
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t3139_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m11197_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m11198_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m11204_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m11199_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m11200_MethodInfo_var;
-extern "C" Object_t * DTDCollectionBase_BaseGet_m10338 (DTDCollectionBase_t3142 * __this, String_t* ___name, const MethodInfo* method)
+extern const MethodInfo* List_1_GetEnumerator_m11194_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m11195_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m11201_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m11196_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m11197_MethodInfo_var;
+extern "C" Object_t * DTDCollectionBase_BaseGet_m10335 (DTDCollectionBase_t3142 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		Enumerator_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
-		Enumerator_get_Current_m11198_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485150);
-		KeyValuePair_2_get_Key_m11204_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485156);
-		KeyValuePair_2_get_Value_m11199_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485151);
-		Enumerator_MoveNext_m11200_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485152);
+		List_1_GetEnumerator_m11194_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
+		Enumerator_get_Current_m11195_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
+		KeyValuePair_2_get_Key_m11201_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485155);
+		KeyValuePair_2_get_Value_m11196_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485150);
+		Enumerator_MoveNext_m11197_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485151);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t3140  V_0 = {0};
@@ -5687,7 +5687,7 @@ extern "C" Object_t * DTDCollectionBase_BaseGet_m10338 (DTDCollectionBase_t3142 
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Enumerator_t3139  L_0 = List_1_GetEnumerator_m11197(__this, /*hidden argument*/List_1_GetEnumerator_m11197_MethodInfo_var);
+		Enumerator_t3139  L_0 = List_1_GetEnumerator_m11194(__this, /*hidden argument*/List_1_GetEnumerator_m11194_MethodInfo_var);
 		V_1 = L_0;
 	}
 
@@ -5700,9 +5700,9 @@ IL_0007:
 
 IL_000c:
 		{
-			KeyValuePair_2_t3140  L_1 = Enumerator_get_Current_m11198((&V_1), /*hidden argument*/Enumerator_get_Current_m11198_MethodInfo_var);
+			KeyValuePair_2_t3140  L_1 = Enumerator_get_Current_m11195((&V_1), /*hidden argument*/Enumerator_get_Current_m11195_MethodInfo_var);
 			V_0 = L_1;
-			String_t* L_2 = KeyValuePair_2_get_Key_m11204((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m11204_MethodInfo_var);
+			String_t* L_2 = KeyValuePair_2_get_Key_m11201((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m11201_MethodInfo_var);
 			String_t* L_3 = ___name;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			bool L_4 = String_op_Equality_m456(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
@@ -5714,14 +5714,14 @@ IL_000c:
 
 IL_0026:
 		{
-			DTDNode_t3136 * L_5 = KeyValuePair_2_get_Value_m11199((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m11199_MethodInfo_var);
+			DTDNode_t3136 * L_5 = KeyValuePair_2_get_Value_m11196((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m11196_MethodInfo_var);
 			V_2 = L_5;
 			IL2CPP_LEAVE(0x52, FINALLY_0044);
 		}
 
 IL_0033:
 		{
-			bool L_6 = Enumerator_MoveNext_m11200((&V_1), /*hidden argument*/Enumerator_MoveNext_m11200_MethodInfo_var);
+			bool L_6 = Enumerator_MoveNext_m11197((&V_1), /*hidden argument*/Enumerator_MoveNext_m11197_MethodInfo_var);
 			if (L_6)
 			{
 				goto IL_000c;
@@ -5775,55 +5775,55 @@ IL_0052:
 
 
 // System.Void Mono.Xml.DTDElementDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDElementDeclarationCollection__ctor_m10339 (DTDElementDeclarationCollection_t3129 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDElementDeclarationCollection__ctor_m10336 (DTDElementDeclarationCollection_t3129 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDCollectionBase__ctor_m10334(__this, L_0, /*hidden argument*/NULL);
+		DTDCollectionBase__ctor_m10331(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Xml.DTDElementDeclarationCollection::Add(System.String,Mono.Xml.DTDElementDeclaration)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" void DTDElementDeclarationCollection_Add_m10340 (DTDElementDeclarationCollection_t3129 * __this, String_t* ___name, DTDElementDeclaration_t3145 * ___decl, const MethodInfo* method)
+extern "C" void DTDElementDeclarationCollection_Add_m10337 (DTDElementDeclarationCollection_t3129 * __this, String_t* ___name, DTDElementDeclaration_t3145 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
-		bool L_1 = DTDCollectionBase_Contains_m10337(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = DTDCollectionBase_Contains_m10334(__this, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0029;
 		}
 	}
 	{
-		DTDObjectModel_t3127 * L_2 = DTDCollectionBase_get_Root_m10335(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_2 = DTDCollectionBase_get_Root_m10332(__this, /*hidden argument*/NULL);
 		String_t* L_3 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2063, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2065, L_3, /*hidden argument*/NULL);
 		XmlException_t3183 * L_5 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10693(L_5, L_4, (Exception_t57 *)NULL, /*hidden argument*/NULL);
+		XmlException__ctor_m10690(L_5, L_4, (Exception_t57 *)NULL, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		DTDObjectModel_AddError_m10321(L_2, L_5, /*hidden argument*/NULL);
+		DTDObjectModel_AddError_m10318(L_2, L_5, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0029:
 	{
 		DTDElementDeclaration_t3145 * L_6 = ___decl;
-		DTDObjectModel_t3127 * L_7 = DTDCollectionBase_get_Root_m10335(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_7 = DTDCollectionBase_get_Root_m10332(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		DTDNode_SetRoot_m10367(L_6, L_7, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_6, L_7, /*hidden argument*/NULL);
 		String_t* L_8 = ___name;
 		DTDElementDeclaration_t3145 * L_9 = ___decl;
-		DTDCollectionBase_BaseAdd_m10336(__this, L_8, L_9, /*hidden argument*/NULL);
+		DTDCollectionBase_BaseAdd_m10333(__this, L_8, L_9, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5842,27 +5842,27 @@ IL_0029:
 
 
 // System.Void Mono.Xml.DTDAttListDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDAttListDeclarationCollection__ctor_m10341 (DTDAttListDeclarationCollection_t3130 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDAttListDeclarationCollection__ctor_m10338 (DTDAttListDeclarationCollection_t3130 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDCollectionBase__ctor_m10334(__this, L_0, /*hidden argument*/NULL);
+		DTDCollectionBase__ctor_m10331(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // Mono.Xml.DTDAttListDeclaration Mono.Xml.DTDAttListDeclarationCollection::get_Item(System.String)
 extern TypeInfo* DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var;
-extern "C" DTDAttListDeclaration_t3147 * DTDAttListDeclarationCollection_get_Item_m10342 (DTDAttListDeclarationCollection_t3130 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" DTDAttListDeclaration_t3147 * DTDAttListDeclarationCollection_get_Item_m10339 (DTDAttListDeclarationCollection_t3130 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
+		DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
-		Object_t * L_1 = DTDCollectionBase_BaseGet_m10338(__this, L_0, /*hidden argument*/NULL);
+		Object_t * L_1 = DTDCollectionBase_BaseGet_m10335(__this, L_0, /*hidden argument*/NULL);
 		return ((DTDAttListDeclaration_t3147 *)IsInst(L_1, DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var));
 	}
 }
@@ -5871,14 +5871,14 @@ extern TypeInfo* IEnumerable_t104_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t48_il2cpp_TypeInfo_var;
 extern TypeInfo* DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern "C" void DTDAttListDeclarationCollection_Add_m10343 (DTDAttListDeclarationCollection_t3130 * __this, String_t* ___name, DTDAttListDeclaration_t3147 * ___decl, const MethodInfo* method)
+extern "C" void DTDAttListDeclarationCollection_Add_m10340 (DTDAttListDeclarationCollection_t3130 * __this, String_t* ___name, DTDAttListDeclaration_t3147 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		IEnumerable_t104_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(139);
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
-		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
+		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5894,7 +5894,7 @@ extern "C" void DTDAttListDeclarationCollection_Add_m10343 (DTDAttListDeclaratio
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		String_t* L_0 = ___name;
-		DTDAttListDeclaration_t3147 * L_1 = DTDAttListDeclarationCollection_get_Item_m10342(__this, L_0, /*hidden argument*/NULL);
+		DTDAttListDeclaration_t3147 * L_1 = DTDAttListDeclarationCollection_get_Item_m10339(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		DTDAttListDeclaration_t3147 * L_2 = V_0;
 		if (!L_2)
@@ -5905,7 +5905,7 @@ extern "C" void DTDAttListDeclarationCollection_Add_m10343 (DTDAttListDeclaratio
 	{
 		DTDAttListDeclaration_t3147 * L_3 = ___decl;
 		NullCheck(L_3);
-		Object_t * L_4 = DTDAttListDeclaration_get_Definitions_m10389(L_3, /*hidden argument*/NULL);
+		Object_t * L_4 = DTDAttListDeclaration_get_Definitions_m10386(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t104_il2cpp_TypeInfo_var, L_4);
 		V_2 = L_5;
@@ -5927,9 +5927,9 @@ IL_001f:
 			DTDAttListDeclaration_t3147 * L_8 = ___decl;
 			DTDAttributeDefinition_t3146 * L_9 = V_1;
 			NullCheck(L_9);
-			String_t* L_10 = DTDAttributeDefinition_get_Name_m10377(L_9, /*hidden argument*/NULL);
+			String_t* L_10 = DTDAttributeDefinition_get_Name_m10374(L_9, /*hidden argument*/NULL);
 			NullCheck(L_8);
-			DTDAttributeDefinition_t3146 * L_11 = DTDAttListDeclaration_Get_m10388(L_8, L_10, /*hidden argument*/NULL);
+			DTDAttributeDefinition_t3146 * L_11 = DTDAttListDeclaration_Get_m10385(L_8, L_10, /*hidden argument*/NULL);
 			if (L_11)
 			{
 				goto IL_0043;
@@ -5941,7 +5941,7 @@ IL_003c:
 			DTDAttListDeclaration_t3147 * L_12 = V_0;
 			DTDAttributeDefinition_t3146 * L_13 = V_1;
 			NullCheck(L_12);
-			DTDAttListDeclaration_Add_m10390(L_12, L_13, /*hidden argument*/NULL);
+			DTDAttListDeclaration_Add_m10387(L_12, L_13, /*hidden argument*/NULL);
 		}
 
 IL_0043:
@@ -6005,12 +6005,12 @@ IL_0065:
 IL_006a:
 	{
 		DTDAttListDeclaration_t3147 * L_19 = ___decl;
-		DTDObjectModel_t3127 * L_20 = DTDCollectionBase_get_Root_m10335(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_20 = DTDCollectionBase_get_Root_m10332(__this, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		DTDNode_SetRoot_m10367(L_19, L_20, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_19, L_20, /*hidden argument*/NULL);
 		String_t* L_21 = ___name;
 		DTDAttListDeclaration_t3147 * L_22 = ___decl;
-		DTDCollectionBase_BaseAdd_m10336(__this, L_21, L_22, /*hidden argument*/NULL);
+		DTDCollectionBase_BaseAdd_m10333(__this, L_21, L_22, /*hidden argument*/NULL);
 	}
 
 IL_007e:
@@ -6029,45 +6029,45 @@ IL_007e:
 
 
 // System.Void Mono.Xml.DTDEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDEntityDeclarationCollection__ctor_m10344 (DTDEntityDeclarationCollection_t3132 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDEntityDeclarationCollection__ctor_m10341 (DTDEntityDeclarationCollection_t3132 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDCollectionBase__ctor_m10334(__this, L_0, /*hidden argument*/NULL);
+		DTDCollectionBase__ctor_m10331(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // Mono.Xml.DTDEntityDeclaration Mono.Xml.DTDEntityDeclarationCollection::get_Item(System.String)
 extern TypeInfo* DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var;
-extern "C" DTDEntityDeclaration_t3149 * DTDEntityDeclarationCollection_get_Item_m10345 (DTDEntityDeclarationCollection_t3132 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" DTDEntityDeclaration_t3149 * DTDEntityDeclarationCollection_get_Item_m10342 (DTDEntityDeclarationCollection_t3132 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
-		Object_t * L_1 = DTDCollectionBase_BaseGet_m10338(__this, L_0, /*hidden argument*/NULL);
+		Object_t * L_1 = DTDCollectionBase_BaseGet_m10335(__this, L_0, /*hidden argument*/NULL);
 		return ((DTDEntityDeclaration_t3149 *)IsInst(L_1, DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var));
 	}
 }
 // System.Void Mono.Xml.DTDEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDEntityDeclaration)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t1380_il2cpp_TypeInfo_var;
-extern "C" void DTDEntityDeclarationCollection_Add_m10346 (DTDEntityDeclarationCollection_t3132 * __this, String_t* ___name, DTDEntityDeclaration_t3149 * ___decl, const MethodInfo* method)
+extern "C" void DTDEntityDeclarationCollection_Add_m10343 (DTDEntityDeclarationCollection_t3132 * __this, String_t* ___name, DTDEntityDeclaration_t3149 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2351);
+		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2349);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
-		bool L_1 = DTDCollectionBase_Contains_m10337(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = DTDCollectionBase_Contains_m10334(__this, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -6076,21 +6076,21 @@ extern "C" void DTDEntityDeclarationCollection_Add_m10346 (DTDEntityDeclarationC
 	{
 		String_t* L_2 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2064, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2066, L_2, /*hidden argument*/NULL);
 		InvalidOperationException_t1380 * L_4 = (InvalidOperationException_t1380 *)il2cpp_codegen_object_new (InvalidOperationException_t1380_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m7081(L_4, L_3, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m7078(L_4, L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_001d:
 	{
 		DTDEntityDeclaration_t3149 * L_5 = ___decl;
-		DTDObjectModel_t3127 * L_6 = DTDCollectionBase_get_Root_m10335(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_6 = DTDCollectionBase_get_Root_m10332(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		DTDNode_SetRoot_m10367(L_5, L_6, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_5, L_6, /*hidden argument*/NULL);
 		String_t* L_7 = ___name;
 		DTDEntityDeclaration_t3149 * L_8 = ___decl;
-		DTDCollectionBase_BaseAdd_m10336(__this, L_7, L_8, /*hidden argument*/NULL);
+		DTDCollectionBase_BaseAdd_m10333(__this, L_7, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6103,29 +6103,29 @@ IL_001d:
 
 
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDNotationDeclarationCollection__ctor_m10347 (DTDNotationDeclarationCollection_t3133 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDNotationDeclarationCollection__ctor_m10344 (DTDNotationDeclarationCollection_t3133 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDCollectionBase__ctor_m10334(__this, L_0, /*hidden argument*/NULL);
+		DTDCollectionBase__ctor_m10331(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclarationCollection::Add(System.String,Mono.Xml.DTDNotationDeclaration)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t1380_il2cpp_TypeInfo_var;
-extern "C" void DTDNotationDeclarationCollection_Add_m10348 (DTDNotationDeclarationCollection_t3133 * __this, String_t* ___name, DTDNotationDeclaration_t3150 * ___decl, const MethodInfo* method)
+extern "C" void DTDNotationDeclarationCollection_Add_m10345 (DTDNotationDeclarationCollection_t3133 * __this, String_t* ___name, DTDNotationDeclaration_t3150 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2351);
+		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2349);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___name;
-		bool L_1 = DTDCollectionBase_Contains_m10337(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = DTDCollectionBase_Contains_m10334(__this, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -6134,21 +6134,21 @@ extern "C" void DTDNotationDeclarationCollection_Add_m10348 (DTDNotationDeclarat
 	{
 		String_t* L_2 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2065, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2067, L_2, /*hidden argument*/NULL);
 		InvalidOperationException_t1380 * L_4 = (InvalidOperationException_t1380 *)il2cpp_codegen_object_new (InvalidOperationException_t1380_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m7081(L_4, L_3, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m7078(L_4, L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_001d:
 	{
 		DTDNotationDeclaration_t3150 * L_5 = ___decl;
-		DTDObjectModel_t3127 * L_6 = DTDCollectionBase_get_Root_m10335(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_6 = DTDCollectionBase_get_Root_m10332(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		DTDNode_SetRoot_m10367(L_5, L_6, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_5, L_6, /*hidden argument*/NULL);
 		String_t* L_7 = ___name;
 		DTDNotationDeclaration_t3150 * L_8 = ___decl;
-		DTDCollectionBase_BaseAdd_m10336(__this, L_7, L_8, /*hidden argument*/NULL);
+		DTDCollectionBase_BaseAdd_m10333(__this, L_7, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6172,19 +6172,19 @@ IL_001d:
 
 // System.Void Mono.Xml.DTDContentModel::.ctor(Mono.Xml.DTDObjectModel,System.String)
 extern TypeInfo* DTDContentModelCollection_t3143_il2cpp_TypeInfo_var;
-extern "C" void DTDContentModel__ctor_m10349 (DTDContentModel_t3144 * __this, DTDObjectModel_t3127 * ___root, String_t* ___ownerElementName, const MethodInfo* method)
+extern "C" void DTDContentModel__ctor_m10346 (DTDContentModel_t3144 * __this, DTDObjectModel_t3127 * ___root, String_t* ___ownerElementName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModelCollection_t3143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
+		DTDContentModelCollection_t3143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		DTDContentModelCollection_t3143 * L_0 = (DTDContentModelCollection_t3143 *)il2cpp_codegen_object_new (DTDContentModelCollection_t3143_il2cpp_TypeInfo_var);
-		DTDContentModelCollection__ctor_m10356(L_0, /*hidden argument*/NULL);
+		DTDContentModelCollection__ctor_m10353(L_0, /*hidden argument*/NULL);
 		__this->___childModels_9 = L_0;
-		DTDNode__ctor_m10360(__this, /*hidden argument*/NULL);
+		DTDNode__ctor_m10357(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_1 = ___root;
 		__this->___root_5 = L_1;
 		String_t* L_2 = ___ownerElementName;
@@ -6193,7 +6193,7 @@ extern "C" void DTDContentModel__ctor_m10349 (DTDContentModel_t3144 * __this, DT
 	}
 }
 // Mono.Xml.DTDContentModelCollection Mono.Xml.DTDContentModel::get_ChildModels()
-extern "C" DTDContentModelCollection_t3143 * DTDContentModel_get_ChildModels_m10350 (DTDContentModel_t3144 * __this, const MethodInfo* method)
+extern "C" DTDContentModelCollection_t3143 * DTDContentModel_get_ChildModels_m10347 (DTDContentModel_t3144 * __this, const MethodInfo* method)
 {
 	{
 		DTDContentModelCollection_t3143 * L_0 = (__this->___childModels_9);
@@ -6201,7 +6201,7 @@ extern "C" DTDContentModelCollection_t3143 * DTDContentModel_get_ChildModels_m10
 	}
 }
 // System.String Mono.Xml.DTDContentModel::get_ElementName()
-extern "C" String_t* DTDContentModel_get_ElementName_m10351 (DTDContentModel_t3144 * __this, const MethodInfo* method)
+extern "C" String_t* DTDContentModel_get_ElementName_m10348 (DTDContentModel_t3144 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___elementName_7);
@@ -6209,7 +6209,7 @@ extern "C" String_t* DTDContentModel_get_ElementName_m10351 (DTDContentModel_t31
 	}
 }
 // System.Void Mono.Xml.DTDContentModel::set_ElementName(System.String)
-extern "C" void DTDContentModel_set_ElementName_m10352 (DTDContentModel_t3144 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDContentModel_set_ElementName_m10349 (DTDContentModel_t3144 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -6218,7 +6218,7 @@ extern "C" void DTDContentModel_set_ElementName_m10352 (DTDContentModel_t3144 * 
 	}
 }
 // System.Void Mono.Xml.DTDContentModel::set_Occurence(Mono.Xml.DTDOccurence)
-extern "C" void DTDContentModel_set_Occurence_m10353 (DTDContentModel_t3144 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void DTDContentModel_set_Occurence_m10350 (DTDContentModel_t3144 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -6227,7 +6227,7 @@ extern "C" void DTDContentModel_set_Occurence_m10353 (DTDContentModel_t3144 * __
 	}
 }
 // Mono.Xml.DTDContentOrderType Mono.Xml.DTDContentModel::get_OrderType()
-extern "C" int32_t DTDContentModel_get_OrderType_m10354 (DTDContentModel_t3144 * __this, const MethodInfo* method)
+extern "C" int32_t DTDContentModel_get_OrderType_m10351 (DTDContentModel_t3144 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___orderType_8);
@@ -6235,7 +6235,7 @@ extern "C" int32_t DTDContentModel_get_OrderType_m10354 (DTDContentModel_t3144 *
 	}
 }
 // System.Void Mono.Xml.DTDContentModel::set_OrderType(Mono.Xml.DTDContentOrderType)
-extern "C" void DTDContentModel_set_OrderType_m10355 (DTDContentModel_t3144 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void DTDContentModel_set_OrderType_m10352 (DTDContentModel_t3144 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -6251,17 +6251,17 @@ extern "C" void DTDContentModel_set_OrderType_m10355 (DTDContentModel_t3144 * __
 
 // System.Void Mono.Xml.DTDContentModelCollection::.ctor()
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
-extern "C" void DTDContentModelCollection__ctor_m10356 (DTDContentModelCollection_t3143 * __this, const MethodInfo* method)
+extern "C" void DTDContentModelCollection__ctor_m10353 (DTDContentModelCollection_t3143 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ArrayList_t3113 * L_0 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_0, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_0, /*hidden argument*/NULL);
 		__this->___contentModel_0 = L_0;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		return;
@@ -6269,12 +6269,12 @@ extern "C" void DTDContentModelCollection__ctor_m10356 (DTDContentModelCollectio
 }
 // Mono.Xml.DTDContentModel Mono.Xml.DTDContentModelCollection::get_Item(System.Int32)
 extern TypeInfo* DTDContentModel_t3144_il2cpp_TypeInfo_var;
-extern "C" DTDContentModel_t3144 * DTDContentModelCollection_get_Item_m10357 (DTDContentModelCollection_t3143 * __this, int32_t ___i, const MethodInfo* method)
+extern "C" DTDContentModel_t3144 * DTDContentModelCollection_get_Item_m10354 (DTDContentModelCollection_t3143 * __this, int32_t ___i, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
+		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6286,7 +6286,7 @@ extern "C" DTDContentModel_t3144 * DTDContentModelCollection_get_Item_m10357 (DT
 	}
 }
 // System.Int32 Mono.Xml.DTDContentModelCollection::get_Count()
-extern "C" int32_t DTDContentModelCollection_get_Count_m10358 (DTDContentModelCollection_t3143 * __this, const MethodInfo* method)
+extern "C" int32_t DTDContentModelCollection_get_Count_m10355 (DTDContentModelCollection_t3143 * __this, const MethodInfo* method)
 {
 	{
 		ArrayList_t3113 * L_0 = (__this->___contentModel_0);
@@ -6296,7 +6296,7 @@ extern "C" int32_t DTDContentModelCollection_get_Count_m10358 (DTDContentModelCo
 	}
 }
 // System.Void Mono.Xml.DTDContentModelCollection::Add(Mono.Xml.DTDContentModel)
-extern "C" void DTDContentModelCollection_Add_m10359 (DTDContentModelCollection_t3143 * __this, DTDContentModel_t3144 * ___model, const MethodInfo* method)
+extern "C" void DTDContentModelCollection_Add_m10356 (DTDContentModelCollection_t3143 * __this, DTDContentModel_t3144 * ___model, const MethodInfo* method)
 {
 	{
 		ArrayList_t3113 * L_0 = (__this->___contentModel_0);
@@ -6313,7 +6313,7 @@ extern "C" void DTDContentModelCollection_Add_m10359 (DTDContentModelCollection_
 
 
 // System.Void Mono.Xml.DTDNode::.ctor()
-extern "C" void DTDNode__ctor_m10360 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" void DTDNode__ctor_m10357 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -6321,7 +6321,7 @@ extern "C" void DTDNode__ctor_m10360 (DTDNode_t3136 * __this, const MethodInfo* 
 	}
 }
 // System.String Mono.Xml.DTDNode::get_BaseURI()
-extern "C" String_t* DTDNode_get_BaseURI_m10361 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNode_get_BaseURI_m10358 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___baseURI_2);
@@ -6329,7 +6329,7 @@ extern "C" String_t* DTDNode_get_BaseURI_m10361 (DTDNode_t3136 * __this, const M
 	}
 }
 // System.Void Mono.Xml.DTDNode::set_BaseURI(System.String)
-extern "C" void DTDNode_set_BaseURI_m10362 (DTDNode_t3136 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNode_set_BaseURI_m10359 (DTDNode_t3136 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -6338,7 +6338,7 @@ extern "C" void DTDNode_set_BaseURI_m10362 (DTDNode_t3136 * __this, String_t* __
 	}
 }
 // System.Boolean Mono.Xml.DTDNode::get_IsInternalSubset()
-extern "C" bool DTDNode_get_IsInternalSubset_m10363 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" bool DTDNode_get_IsInternalSubset_m10360 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isInternalSubset_1);
@@ -6346,7 +6346,7 @@ extern "C" bool DTDNode_get_IsInternalSubset_m10363 (DTDNode_t3136 * __this, con
 	}
 }
 // System.Void Mono.Xml.DTDNode::set_IsInternalSubset(System.Boolean)
-extern "C" void DTDNode_set_IsInternalSubset_m10364 (DTDNode_t3136 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDNode_set_IsInternalSubset_m10361 (DTDNode_t3136 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -6355,7 +6355,7 @@ extern "C" void DTDNode_set_IsInternalSubset_m10364 (DTDNode_t3136 * __this, boo
 	}
 }
 // System.Int32 Mono.Xml.DTDNode::get_LineNumber()
-extern "C" int32_t DTDNode_get_LineNumber_m10365 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" int32_t DTDNode_get_LineNumber_m10362 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___lineNumber_3);
@@ -6363,7 +6363,7 @@ extern "C" int32_t DTDNode_get_LineNumber_m10365 (DTDNode_t3136 * __this, const 
 	}
 }
 // System.Int32 Mono.Xml.DTDNode::get_LinePosition()
-extern "C" int32_t DTDNode_get_LinePosition_m10366 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" int32_t DTDNode_get_LinePosition_m10363 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___linePosition_4);
@@ -6371,7 +6371,7 @@ extern "C" int32_t DTDNode_get_LinePosition_m10366 (DTDNode_t3136 * __this, cons
 	}
 }
 // System.Void Mono.Xml.DTDNode::SetRoot(Mono.Xml.DTDObjectModel)
-extern "C" void DTDNode_SetRoot_m10367 (DTDNode_t3136 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDNode_SetRoot_m10364 (DTDNode_t3136 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
@@ -6385,7 +6385,7 @@ extern "C" void DTDNode_SetRoot_m10367 (DTDNode_t3136 * __this, DTDObjectModel_t
 	{
 		DTDObjectModel_t3127 * L_2 = ___root;
 		NullCheck(L_2);
-		String_t* L_3 = DTDObjectModel_get_BaseURI_m10293(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = DTDObjectModel_get_BaseURI_m10290(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< String_t* >::Invoke(7 /* System.Void Mono.Xml.DTDNode::set_BaseURI(System.String) */, __this, L_3);
 	}
 
@@ -6395,7 +6395,7 @@ IL_001e:
 	}
 }
 // Mono.Xml.DTDObjectModel Mono.Xml.DTDNode::get_Root()
-extern "C" DTDObjectModel_t3127 * DTDNode_get_Root_m10368 (DTDNode_t3136 * __this, const MethodInfo* method)
+extern "C" DTDObjectModel_t3127 * DTDNode_get_Root_m10365 (DTDNode_t3136 * __this, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___root_0);
@@ -6404,19 +6404,19 @@ extern "C" DTDObjectModel_t3127 * DTDNode_get_Root_m10368 (DTDNode_t3136 * __thi
 }
 // System.Xml.XmlException Mono.Xml.DTDNode::NotWFError(System.String)
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" XmlException_t3183 * DTDNode_NotWFError_m10369 (DTDNode_t3136 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" XmlException_t3183 * DTDNode_NotWFError_m10366 (DTDNode_t3136 * __this, String_t* ___message, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, __this);
 		String_t* L_1 = ___message;
 		XmlException_t3183 * L_2 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_2, __this, L_0, L_1, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_2, __this, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -6429,17 +6429,17 @@ extern "C" XmlException_t3183 * DTDNode_NotWFError_m10369 (DTDNode_t3136 * __thi
 
 
 // System.Void Mono.Xml.DTDElementDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDElementDeclaration__ctor_m10370 (DTDElementDeclaration_t3145 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDElementDeclaration__ctor_m10367 (DTDElementDeclaration_t3145 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
-		DTDNode__ctor_m10360(__this, /*hidden argument*/NULL);
+		DTDNode__ctor_m10357(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_0 = ___root;
 		__this->___root_5 = L_0;
 		return;
 	}
 }
 // System.String Mono.Xml.DTDElementDeclaration::get_Name()
-extern "C" String_t* DTDElementDeclaration_get_Name_m10371 (DTDElementDeclaration_t3145 * __this, const MethodInfo* method)
+extern "C" String_t* DTDElementDeclaration_get_Name_m10368 (DTDElementDeclaration_t3145 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_7);
@@ -6447,7 +6447,7 @@ extern "C" String_t* DTDElementDeclaration_get_Name_m10371 (DTDElementDeclaratio
 	}
 }
 // System.Void Mono.Xml.DTDElementDeclaration::set_Name(System.String)
-extern "C" void DTDElementDeclaration_set_Name_m10372 (DTDElementDeclaration_t3145 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDElementDeclaration_set_Name_m10369 (DTDElementDeclaration_t3145 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -6456,7 +6456,7 @@ extern "C" void DTDElementDeclaration_set_Name_m10372 (DTDElementDeclaration_t31
 	}
 }
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsEmpty(System.Boolean)
-extern "C" void DTDElementDeclaration_set_IsEmpty_m10373 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDElementDeclaration_set_IsEmpty_m10370 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -6465,7 +6465,7 @@ extern "C" void DTDElementDeclaration_set_IsEmpty_m10373 (DTDElementDeclaration_
 	}
 }
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsAny(System.Boolean)
-extern "C" void DTDElementDeclaration_set_IsAny_m10374 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDElementDeclaration_set_IsAny_m10371 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -6474,7 +6474,7 @@ extern "C" void DTDElementDeclaration_set_IsAny_m10374 (DTDElementDeclaration_t3
 	}
 }
 // System.Void Mono.Xml.DTDElementDeclaration::set_IsMixedContent(System.Boolean)
-extern "C" void DTDElementDeclaration_set_IsMixedContent_m10375 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDElementDeclaration_set_IsMixedContent_m10372 (DTDElementDeclaration_t3145 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -6484,12 +6484,12 @@ extern "C" void DTDElementDeclaration_set_IsMixedContent_m10375 (DTDElementDecla
 }
 // Mono.Xml.DTDContentModel Mono.Xml.DTDElementDeclaration::get_ContentModel()
 extern TypeInfo* DTDContentModel_t3144_il2cpp_TypeInfo_var;
-extern "C" DTDContentModel_t3144 * DTDElementDeclaration_get_ContentModel_m10376 (DTDElementDeclaration_t3145 * __this, const MethodInfo* method)
+extern "C" DTDContentModel_t3144 * DTDElementDeclaration_get_ContentModel_m10373 (DTDElementDeclaration_t3145 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
+		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6501,9 +6501,9 @@ extern "C" DTDContentModel_t3144 * DTDElementDeclaration_get_ContentModel_m10376
 	}
 	{
 		DTDObjectModel_t3127 * L_1 = (__this->___root_5);
-		String_t* L_2 = DTDElementDeclaration_get_Name_m10371(__this, /*hidden argument*/NULL);
+		String_t* L_2 = DTDElementDeclaration_get_Name_m10368(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_3 = (DTDContentModel_t3144 *)il2cpp_codegen_object_new (DTDContentModel_t3144_il2cpp_TypeInfo_var);
-		DTDContentModel__ctor_m10349(L_3, L_1, L_2, /*hidden argument*/NULL);
+		DTDContentModel__ctor_m10346(L_3, L_1, L_2, /*hidden argument*/NULL);
 		__this->___contentModel_6 = L_3;
 	}
 
@@ -6528,7 +6528,7 @@ IL_0022:
 
 
 // System.String Mono.Xml.DTDAttributeDefinition::get_Name()
-extern "C" String_t* DTDAttributeDefinition_get_Name_m10377 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
+extern "C" String_t* DTDAttributeDefinition_get_Name_m10374 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_5);
@@ -6536,7 +6536,7 @@ extern "C" String_t* DTDAttributeDefinition_get_Name_m10377 (DTDAttributeDefinit
 	}
 }
 // System.Xml.Schema.XmlSchemaDatatype Mono.Xml.DTDAttributeDefinition::get_Datatype()
-extern "C" XmlSchemaDatatype_t3052 * DTDAttributeDefinition_get_Datatype_m10378 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
+extern "C" XmlSchemaDatatype_t3052 * DTDAttributeDefinition_get_Datatype_m10375 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
 {
 	{
 		XmlSchemaDatatype_t3052 * L_0 = (__this->___datatype_6);
@@ -6544,7 +6544,7 @@ extern "C" XmlSchemaDatatype_t3052 * DTDAttributeDefinition_get_Datatype_m10378 
 	}
 }
 // System.String Mono.Xml.DTDAttributeDefinition::get_DefaultValue()
-extern "C" String_t* DTDAttributeDefinition_get_DefaultValue_m10379 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
+extern "C" String_t* DTDAttributeDefinition_get_DefaultValue_m10376 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___resolvedDefaultValue_8);
@@ -6554,7 +6554,7 @@ extern "C" String_t* DTDAttributeDefinition_get_DefaultValue_m10379 (DTDAttribut
 		}
 	}
 	{
-		String_t* L_1 = DTDAttributeDefinition_ComputeDefaultValue_m10381(__this, /*hidden argument*/NULL);
+		String_t* L_1 = DTDAttributeDefinition_ComputeDefaultValue_m10378(__this, /*hidden argument*/NULL);
 		__this->___resolvedDefaultValue_8 = L_1;
 	}
 
@@ -6565,7 +6565,7 @@ IL_0017:
 	}
 }
 // System.String Mono.Xml.DTDAttributeDefinition::get_UnresolvedDefaultValue()
-extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10380 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
+extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10377 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___unresolvedDefault_7);
@@ -6574,16 +6574,16 @@ extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10380 (D
 }
 // System.String Mono.Xml.DTDAttributeDefinition::ComputeDefaultValue()
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t721_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t720_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10381 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
+extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10378 (DTDAttributeDefinition_t3146 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
-		CultureInfo_t721_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		CultureInfo_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	StringBuilder_t261 * V_0 = {0};
@@ -6598,7 +6598,7 @@ extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10381 (DTDAttri
 	int32_t V_9 = 0;
 	String_t* V_10 = {0};
 	{
-		String_t* L_0 = DTDAttributeDefinition_get_UnresolvedDefaultValue_m10380(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDAttributeDefinition_get_UnresolvedDefaultValue_m10377(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000d;
@@ -6611,11 +6611,11 @@ extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10381 (DTDAttri
 IL_000d:
 	{
 		StringBuilder_t261 * L_1 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3613(L_1, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3612(L_1, /*hidden argument*/NULL);
 		V_0 = L_1;
 		V_1 = 0;
 		V_2 = 0;
-		String_t* L_2 = DTDAttributeDefinition_get_UnresolvedDefaultValue_m10380(__this, /*hidden argument*/NULL);
+		String_t* L_2 = DTDAttributeDefinition_get_UnresolvedDefaultValue_m10377(__this, /*hidden argument*/NULL);
 		V_3 = L_2;
 		goto IL_0102;
 	}
@@ -6625,7 +6625,7 @@ IL_0023:
 		String_t* L_3 = V_3;
 		int32_t L_4 = V_2;
 		NullCheck(L_3);
-		int32_t L_5 = String_IndexOf_m9862(L_3, ((int32_t)59), L_4, /*hidden argument*/NULL);
+		int32_t L_5 = String_IndexOf_m9859(L_3, ((int32_t)59), L_4, /*hidden argument*/NULL);
 		V_4 = L_5;
 		String_t* L_6 = V_3;
 		int32_t L_7 = V_2;
@@ -6687,11 +6687,11 @@ IL_008f:
 		StringBuilder_t261 * L_25 = V_0;
 		String_t* L_26 = V_7;
 		int32_t L_27 = V_6;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_28 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_29 = Int32_Parse_m11205(NULL /*static, unused*/, L_26, L_27, L_28, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_28 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_29 = Int32_Parse_m11202(NULL /*static, unused*/, L_26, L_27, L_28, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		StringBuilder_Append_m3614(L_25, (((uint16_t)L_29)), /*hidden argument*/NULL);
+		StringBuilder_Append_m3613(L_25, (((uint16_t)L_29)), /*hidden argument*/NULL);
 		goto IL_00fd;
 	}
 
@@ -6704,7 +6704,7 @@ IL_00aa:
 		NullCheck(L_31);
 		String_t* L_34 = String_Substring_m418(L_31, L_32, ((int32_t)((int32_t)L_33-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		StringBuilder_Append_m3620(L_30, L_34, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_30, L_34, /*hidden argument*/NULL);
 		String_t* L_35 = V_3;
 		int32_t L_36 = V_2;
 		int32_t L_37 = V_4;
@@ -6713,7 +6713,7 @@ IL_00aa:
 		V_8 = L_38;
 		String_t* L_39 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		int32_t L_40 = XmlChar_GetPredefinedEntity_m10542(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		int32_t L_40 = XmlChar_GetPredefinedEntity_m10539(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 		V_9 = L_40;
 		int32_t L_41 = V_9;
 		if ((((int32_t)L_41) < ((int32_t)0)))
@@ -6725,19 +6725,19 @@ IL_00aa:
 		StringBuilder_t261 * L_42 = V_0;
 		int32_t L_43 = V_9;
 		NullCheck(L_42);
-		StringBuilder_Append_m11206(L_42, L_43, /*hidden argument*/NULL);
+		StringBuilder_Append_m11203(L_42, L_43, /*hidden argument*/NULL);
 		goto IL_00fd;
 	}
 
 IL_00e9:
 	{
 		StringBuilder_t261 * L_44 = V_0;
-		DTDObjectModel_t3127 * L_45 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_45 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		String_t* L_46 = V_8;
 		NullCheck(L_45);
-		String_t* L_47 = DTDObjectModel_ResolveEntity_m10312(L_45, L_46, /*hidden argument*/NULL);
+		String_t* L_47 = DTDObjectModel_ResolveEntity_m10309(L_45, L_46, /*hidden argument*/NULL);
 		NullCheck(L_44);
-		StringBuilder_Append_m3620(L_44, L_47, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_44, L_47, /*hidden argument*/NULL);
 	}
 
 IL_00fd:
@@ -6751,7 +6751,7 @@ IL_0102:
 		String_t* L_49 = V_3;
 		int32_t L_50 = V_1;
 		NullCheck(L_49);
-		int32_t L_51 = String_IndexOf_m9862(L_49, ((int32_t)38), L_50, /*hidden argument*/NULL);
+		int32_t L_51 = String_IndexOf_m9859(L_49, ((int32_t)38), L_50, /*hidden argument*/NULL);
 		int32_t L_52 = L_51;
 		V_2 = L_52;
 		if ((((int32_t)L_52) >= ((int32_t)0)))
@@ -6764,19 +6764,19 @@ IL_0102:
 		String_t* L_54 = V_3;
 		int32_t L_55 = V_1;
 		NullCheck(L_54);
-		String_t* L_56 = String_Substring_m3895(L_54, L_55, /*hidden argument*/NULL);
+		String_t* L_56 = String_Substring_m3894(L_54, L_55, /*hidden argument*/NULL);
 		NullCheck(L_53);
-		StringBuilder_Append_m3620(L_53, L_56, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_53, L_56, /*hidden argument*/NULL);
 		StringBuilder_t261 * L_57 = V_0;
 		StringBuilder_t261 * L_58 = V_0;
 		NullCheck(L_58);
-		int32_t L_59 = StringBuilder_get_Length_m7109(L_58, /*hidden argument*/NULL);
+		int32_t L_59 = StringBuilder_get_Length_m7106(L_58, /*hidden argument*/NULL);
 		NullCheck(L_57);
-		String_t* L_60 = StringBuilder_ToString_m11207(L_57, 1, ((int32_t)((int32_t)L_59-(int32_t)2)), /*hidden argument*/NULL);
+		String_t* L_60 = StringBuilder_ToString_m11204(L_57, 1, ((int32_t)((int32_t)L_59-(int32_t)2)), /*hidden argument*/NULL);
 		V_10 = L_60;
 		StringBuilder_t261 * L_61 = V_0;
 		NullCheck(L_61);
-		StringBuilder_set_Length_m11208(L_61, 0, /*hidden argument*/NULL);
+		StringBuilder_set_Length_m11205(L_61, 0, /*hidden argument*/NULL);
 		String_t* L_62 = V_10;
 		return L_62;
 	}
@@ -6790,30 +6790,30 @@ IL_0102:
 // System.Void Mono.Xml.DTDAttListDeclaration::.ctor(Mono.Xml.DTDObjectModel)
 extern TypeInfo* Hashtable_t1278_il2cpp_TypeInfo_var;
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
-extern "C" void DTDAttListDeclaration__ctor_m10382 (DTDAttListDeclaration_t3147 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDAttListDeclaration__ctor_m10379 (DTDAttListDeclaration_t3147 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3239);
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3237);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Hashtable_t1278 * L_0 = (Hashtable_t1278 *)il2cpp_codegen_object_new (Hashtable_t1278_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m7529(L_0, /*hidden argument*/NULL);
+		Hashtable__ctor_m7526(L_0, /*hidden argument*/NULL);
 		__this->___attributeOrders_6 = L_0;
 		ArrayList_t3113 * L_1 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_1, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_1, /*hidden argument*/NULL);
 		__this->___attributes_7 = L_1;
-		DTDNode__ctor_m10360(__this, /*hidden argument*/NULL);
+		DTDNode__ctor_m10357(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_2 = ___root;
-		DTDNode_SetRoot_m10367(__this, L_2, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(__this, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String Mono.Xml.DTDAttListDeclaration::get_Name()
-extern "C" String_t* DTDAttListDeclaration_get_Name_m10383 (DTDAttListDeclaration_t3147 * __this, const MethodInfo* method)
+extern "C" String_t* DTDAttListDeclaration_get_Name_m10380 (DTDAttListDeclaration_t3147 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_5);
@@ -6821,7 +6821,7 @@ extern "C" String_t* DTDAttListDeclaration_get_Name_m10383 (DTDAttListDeclaratio
 	}
 }
 // System.Void Mono.Xml.DTDAttListDeclaration::set_Name(System.String)
-extern "C" void DTDAttListDeclaration_set_Name_m10384 (DTDAttListDeclaration_t3147 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDAttListDeclaration_set_Name_m10381 (DTDAttListDeclaration_t3147 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -6830,31 +6830,31 @@ extern "C" void DTDAttListDeclaration_set_Name_m10384 (DTDAttListDeclaration_t31
 	}
 }
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::get_Item(System.Int32)
-extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_get_Item_m10385 (DTDAttListDeclaration_t3147 * __this, int32_t ___i, const MethodInfo* method)
+extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_get_Item_m10382 (DTDAttListDeclaration_t3147 * __this, int32_t ___i, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___i;
-		DTDAttributeDefinition_t3146 * L_1 = DTDAttListDeclaration_Get_m10387(__this, L_0, /*hidden argument*/NULL);
+		DTDAttributeDefinition_t3146 * L_1 = DTDAttListDeclaration_Get_m10384(__this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::get_Item(System.String)
-extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_get_Item_m10386 (DTDAttListDeclaration_t3147 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_get_Item_m10383 (DTDAttListDeclaration_t3147 * __this, String_t* ___name, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___name;
-		DTDAttributeDefinition_t3146 * L_1 = DTDAttListDeclaration_Get_m10388(__this, L_0, /*hidden argument*/NULL);
+		DTDAttributeDefinition_t3146 * L_1 = DTDAttListDeclaration_Get_m10385(__this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::Get(System.Int32)
 extern TypeInfo* DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var;
-extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_Get_m10387 (DTDAttListDeclaration_t3147 * __this, int32_t ___i, const MethodInfo* method)
+extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_Get_m10384 (DTDAttListDeclaration_t3147 * __this, int32_t ___i, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
+		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6868,13 +6868,13 @@ extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_Get_m10387 (DTDA
 // Mono.Xml.DTDAttributeDefinition Mono.Xml.DTDAttListDeclaration::Get(System.String)
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var;
-extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_Get_m10388 (DTDAttListDeclaration_t3147 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" DTDAttributeDefinition_t3146 * DTDAttListDeclaration_Get_m10385 (DTDAttListDeclaration_t3147 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
-		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
+		DTDAttributeDefinition_t3146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
@@ -6904,7 +6904,7 @@ IL_002a:
 	}
 }
 // System.Collections.IList Mono.Xml.DTDAttListDeclaration::get_Definitions()
-extern "C" Object_t * DTDAttListDeclaration_get_Definitions_m10389 (DTDAttListDeclaration_t3147 * __this, const MethodInfo* method)
+extern "C" Object_t * DTDAttListDeclaration_get_Definitions_m10386 (DTDAttListDeclaration_t3147 * __this, const MethodInfo* method)
 {
 	{
 		ArrayList_t3113 * L_0 = (__this->___attributes_7);
@@ -6915,13 +6915,13 @@ extern "C" Object_t * DTDAttListDeclaration_get_Definitions_m10389 (DTDAttListDe
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t1380_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern "C" void DTDAttListDeclaration_Add_m10390 (DTDAttListDeclaration_t3147 * __this, DTDAttributeDefinition_t3146 * ___def, const MethodInfo* method)
+extern "C" void DTDAttListDeclaration_Add_m10387 (DTDAttListDeclaration_t3147 * __this, DTDAttributeDefinition_t3146 * ___def, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2351);
+		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2349);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -6929,7 +6929,7 @@ extern "C" void DTDAttListDeclaration_Add_m10390 (DTDAttListDeclaration_t3147 * 
 		Hashtable_t1278 * L_0 = (__this->___attributeOrders_6);
 		DTDAttributeDefinition_t3146 * L_1 = ___def;
 		NullCheck(L_1);
-		String_t* L_2 = DTDAttributeDefinition_get_Name_m10377(L_1, /*hidden argument*/NULL);
+		String_t* L_2 = DTDAttributeDefinition_get_Name_m10374(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_2);
 		if (!L_3)
@@ -6940,25 +6940,25 @@ extern "C" void DTDAttListDeclaration_Add_m10390 (DTDAttListDeclaration_t3147 * 
 	{
 		DTDAttributeDefinition_t3146 * L_4 = ___def;
 		NullCheck(L_4);
-		String_t* L_5 = DTDAttributeDefinition_get_Name_m10377(L_4, /*hidden argument*/NULL);
-		String_t* L_6 = DTDAttListDeclaration_get_Name_m10383(__this, /*hidden argument*/NULL);
+		String_t* L_5 = DTDAttributeDefinition_get_Name_m10374(L_4, /*hidden argument*/NULL);
+		String_t* L_6 = DTDAttListDeclaration_get_Name_m10380(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m3832(NULL /*static, unused*/, (String_t*) &_stringLiteral2066, L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m3831(NULL /*static, unused*/, (String_t*) &_stringLiteral2068, L_5, L_6, /*hidden argument*/NULL);
 		InvalidOperationException_t1380 * L_8 = (InvalidOperationException_t1380 *)il2cpp_codegen_object_new (InvalidOperationException_t1380_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m7081(L_8, L_7, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m7078(L_8, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
 IL_0032:
 	{
 		DTDAttributeDefinition_t3146 * L_9 = ___def;
-		DTDObjectModel_t3127 * L_10 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_10 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		DTDNode_SetRoot_m10367(L_9, L_10, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_9, L_10, /*hidden argument*/NULL);
 		Hashtable_t1278 * L_11 = (__this->___attributeOrders_6);
 		DTDAttributeDefinition_t3146 * L_12 = ___def;
 		NullCheck(L_12);
-		String_t* L_13 = DTDAttributeDefinition_get_Name_m10377(L_12, /*hidden argument*/NULL);
+		String_t* L_13 = DTDAttributeDefinition_get_Name_m10374(L_12, /*hidden argument*/NULL);
 		ArrayList_t3113 * L_14 = (__this->___attributes_7);
 		NullCheck(L_14);
 		int32_t L_15 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_14);
@@ -6988,17 +6988,17 @@ IL_0032:
 
 
 // System.Void Mono.Xml.DTDEntityBase::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDEntityBase__ctor_m10391 (DTDEntityBase_t3148 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDEntityBase__ctor_m10388 (DTDEntityBase_t3148 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
-		DTDNode__ctor_m10360(__this, /*hidden argument*/NULL);
+		DTDNode__ctor_m10357(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDNode_SetRoot_m10367(__this, L_0, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Boolean Mono.Xml.DTDEntityBase::get_IsInvalid()
-extern "C" bool DTDEntityBase_get_IsInvalid_m10392 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" bool DTDEntityBase_get_IsInvalid_m10389 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isInvalid_12);
@@ -7006,7 +7006,7 @@ extern "C" bool DTDEntityBase_get_IsInvalid_m10392 (DTDEntityBase_t3148 * __this
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_LoadFailed(System.Boolean)
-extern "C" void DTDEntityBase_set_LoadFailed_m10393 (DTDEntityBase_t3148 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_LoadFailed_m10390 (DTDEntityBase_t3148 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -7015,7 +7015,7 @@ extern "C" void DTDEntityBase_set_LoadFailed_m10393 (DTDEntityBase_t3148 * __thi
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_Name()
-extern "C" String_t* DTDEntityBase_get_Name_m10394 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_Name_m10391 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_5);
@@ -7023,7 +7023,7 @@ extern "C" String_t* DTDEntityBase_get_Name_m10394 (DTDEntityBase_t3148 * __this
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_Name(System.String)
-extern "C" void DTDEntityBase_set_Name_m10395 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_Name_m10392 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7032,7 +7032,7 @@ extern "C" void DTDEntityBase_set_Name_m10395 (DTDEntityBase_t3148 * __this, Str
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_PublicId()
-extern "C" String_t* DTDEntityBase_get_PublicId_m10396 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_PublicId_m10393 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___publicId_6);
@@ -7040,7 +7040,7 @@ extern "C" String_t* DTDEntityBase_get_PublicId_m10396 (DTDEntityBase_t3148 * __
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_PublicId(System.String)
-extern "C" void DTDEntityBase_set_PublicId_m10397 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_PublicId_m10394 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7049,7 +7049,7 @@ extern "C" void DTDEntityBase_set_PublicId_m10397 (DTDEntityBase_t3148 * __this,
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_SystemId()
-extern "C" String_t* DTDEntityBase_get_SystemId_m10398 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_SystemId_m10395 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___systemId_7);
@@ -7057,7 +7057,7 @@ extern "C" String_t* DTDEntityBase_get_SystemId_m10398 (DTDEntityBase_t3148 * __
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_SystemId(System.String)
-extern "C" void DTDEntityBase_set_SystemId_m10399 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_SystemId_m10396 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7066,7 +7066,7 @@ extern "C" void DTDEntityBase_set_SystemId_m10399 (DTDEntityBase_t3148 * __this,
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_LiteralEntityValue()
-extern "C" String_t* DTDEntityBase_get_LiteralEntityValue_m10400 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_LiteralEntityValue_m10397 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___literalValue_8);
@@ -7074,7 +7074,7 @@ extern "C" String_t* DTDEntityBase_get_LiteralEntityValue_m10400 (DTDEntityBase_
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_LiteralEntityValue(System.String)
-extern "C" void DTDEntityBase_set_LiteralEntityValue_m10401 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_LiteralEntityValue_m10398 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7083,7 +7083,7 @@ extern "C" void DTDEntityBase_set_LiteralEntityValue_m10401 (DTDEntityBase_t3148
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_ReplacementText()
-extern "C" String_t* DTDEntityBase_get_ReplacementText_m10402 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_ReplacementText_m10399 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___replacementText_9);
@@ -7091,7 +7091,7 @@ extern "C" String_t* DTDEntityBase_get_ReplacementText_m10402 (DTDEntityBase_t31
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_ReplacementText(System.String)
-extern "C" void DTDEntityBase_set_ReplacementText_m10403 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_ReplacementText_m10400 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7100,7 +7100,7 @@ extern "C" void DTDEntityBase_set_ReplacementText_m10403 (DTDEntityBase_t3148 * 
 	}
 }
 // System.Void Mono.Xml.DTDEntityBase::set_XmlResolver(System.Xml.XmlResolver)
-extern "C" void DTDEntityBase_set_XmlResolver_m10404 (DTDEntityBase_t3148 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method)
+extern "C" void DTDEntityBase_set_XmlResolver_m10401 (DTDEntityBase_t3148 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method)
 {
 	{
 		XmlResolver_t3134 * L_0 = ___value;
@@ -7109,20 +7109,20 @@ extern "C" void DTDEntityBase_set_XmlResolver_m10404 (DTDEntityBase_t3148 * __th
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_ActualUri()
-extern TypeInfo* Uri_t710_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t709_il2cpp_TypeInfo_var;
 extern TypeInfo* UriFormatException_t3248_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDEntityBase_get_ActualUri_m10405 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityBase_get_ActualUri_m10402 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
-		UriFormatException_t3248_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
+		Uri_t709_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		UriFormatException_t3248_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
-	Uri_t710 * V_0 = {0};
+	Uri_t709 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -7148,14 +7148,14 @@ extern "C" String_t* DTDEntityBase_get_ActualUri_m10405 (DTDEntityBase_t3148 * _
 		}
 	}
 	{
-		String_t* L_2 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_2 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0031;
 		}
 	}
 	{
-		String_t* L_3 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_3 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		int32_t L_4 = String_get_Length_m410(L_3, /*hidden argument*/NULL);
 		if (L_4)
@@ -7173,7 +7173,7 @@ IL_0031:
 
 IL_0042:
 	{
-		V_0 = (Uri_t710 *)NULL;
+		V_0 = (Uri_t709 *)NULL;
 	}
 
 IL_0044:
@@ -7201,8 +7201,8 @@ IL_004f:
 IL_0060:
 		{
 			String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, __this);
-			Uri_t710 * L_10 = (Uri_t710 *)il2cpp_codegen_object_new (Uri_t710_il2cpp_TypeInfo_var);
-			Uri__ctor_m7221(L_10, L_9, /*hidden argument*/NULL);
+			Uri_t709 * L_10 = (Uri_t709 *)il2cpp_codegen_object_new (Uri_t709_il2cpp_TypeInfo_var);
+			Uri__ctor_m7218(L_10, L_9, /*hidden argument*/NULL);
 			V_0 = L_10;
 		}
 
@@ -7227,14 +7227,14 @@ CATCH_0071:
 IL_0077:
 	{
 		XmlResolver_t3134 * L_11 = (__this->___resolver_14);
-		Uri_t710 * L_12 = V_0;
-		String_t* L_13 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		Uri_t709 * L_12 = V_0;
+		String_t* L_13 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Uri_t710 * L_14 = (Uri_t710 *)VirtFuncInvoker2< Uri_t710 *, Uri_t710 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_11, L_12, L_13);
+		Uri_t709 * L_14 = (Uri_t709 *)VirtFuncInvoker2< Uri_t709 *, Uri_t709 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_11, L_12, L_13);
 		__this->___absUri_11 = L_14;
-		Uri_t710 * L_15 = (__this->___absUri_11);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t710_il2cpp_TypeInfo_var);
-		bool L_16 = Uri_op_Inequality_m11209(NULL /*static, unused*/, L_15, (Uri_t710 *)NULL, /*hidden argument*/NULL);
+		Uri_t709 * L_15 = (__this->___absUri_11);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t709_il2cpp_TypeInfo_var);
+		bool L_16 = Uri_op_Inequality_m11206(NULL /*static, unused*/, L_15, (Uri_t709 *)NULL, /*hidden argument*/NULL);
 		G_B12_0 = __this;
 		if (!L_16)
 		{
@@ -7243,7 +7243,7 @@ IL_0077:
 		}
 	}
 	{
-		Uri_t710 * L_17 = (__this->___absUri_11);
+		Uri_t709 * L_17 = (__this->___absUri_11);
 		NullCheck(L_17);
 		String_t* L_18 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_17);
 		G_B14_0 = L_18;
@@ -7279,7 +7279,7 @@ extern TypeInfo* Stream_t51_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlTextReader_t3216_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t1380_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t57_il2cpp_TypeInfo_var;
-extern "C" void DTDEntityBase_Resolve_m10406 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
+extern "C" void DTDEntityBase_Resolve_m10403 (DTDEntityBase_t3148 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7288,8 +7288,8 @@ extern "C" void DTDEntityBase_Resolve_m10406 (DTDEntityBase_t3148 * __this, cons
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
-		XmlTextReader_t3216_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5320);
-		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2351);
+		XmlTextReader_t3216_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		InvalidOperationException_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2349);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -7302,7 +7302,7 @@ extern "C" void DTDEntityBase_Resolve_m10406 (DTDEntityBase_t3148 * __this, cons
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		String_t* L_0 = DTDEntityBase_get_ActualUri_m10405(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDEntityBase_get_ActualUri_m10402(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		bool L_2 = String_op_Equality_m456(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
@@ -7312,19 +7312,19 @@ extern "C" void DTDEntityBase_Resolve_m10406 (DTDEntityBase_t3148 * __this, cons
 		}
 	}
 	{
-		DTDEntityBase_set_LoadFailed_m10393(__this, 1, /*hidden argument*/NULL);
+		DTDEntityBase_set_LoadFailed_m10390(__this, 1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		DTDEntityBase_set_LiteralEntityValue_m10401(__this, L_3, /*hidden argument*/NULL);
+		DTDEntityBase_set_LiteralEntityValue_m10398(__this, L_3, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0028:
 	{
-		DTDObjectModel_t3127 * L_4 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_4 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Hashtable_t1278 * L_5 = DTDObjectModel_get_ExternalResources_m10315(L_4, /*hidden argument*/NULL);
-		String_t* L_6 = DTDEntityBase_get_ActualUri_m10405(__this, /*hidden argument*/NULL);
+		Hashtable_t1278 * L_5 = DTDObjectModel_get_ExternalResources_m10312(L_4, /*hidden argument*/NULL);
+		String_t* L_6 = DTDEntityBase_get_ActualUri_m10402(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.Hashtable::ContainsKey(System.Object) */, L_5, L_6);
 		if (!L_7)
@@ -7333,13 +7333,13 @@ IL_0028:
 		}
 	}
 	{
-		DTDObjectModel_t3127 * L_8 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_8 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Hashtable_t1278 * L_9 = DTDObjectModel_get_ExternalResources_m10315(L_8, /*hidden argument*/NULL);
-		String_t* L_10 = DTDEntityBase_get_ActualUri_m10405(__this, /*hidden argument*/NULL);
+		Hashtable_t1278 * L_9 = DTDObjectModel_get_ExternalResources_m10312(L_8, /*hidden argument*/NULL);
+		String_t* L_10 = DTDEntityBase_get_ActualUri_m10402(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		Object_t * L_11 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_9, L_10);
-		DTDEntityBase_set_LiteralEntityValue_m10401(__this, ((String_t*)Castclass(L_11, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		DTDEntityBase_set_LiteralEntityValue_m10398(__this, ((String_t*)Castclass(L_11, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 	}
 
 IL_0064:
@@ -7354,36 +7354,36 @@ IL_0066:
 		{ // begin try (depth: 2)
 			{
 				XmlResolver_t3134 * L_12 = (__this->___resolver_14);
-				Uri_t710 * L_13 = (__this->___absUri_11);
+				Uri_t709 * L_13 = (__this->___absUri_11);
 				IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-				Type_t * L_14 = Type_GetTypeFromHandle_m3831(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
+				Type_t * L_14 = Type_GetTypeFromHandle_m3830(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 				NullCheck(L_12);
-				Object_t * L_15 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t710 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_12, L_13, (String_t*)NULL, L_14);
+				Object_t * L_15 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t709 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_12, L_13, (String_t*)NULL, L_14);
 				V_0 = ((Stream_t51 *)IsInst(L_15, Stream_t51_il2cpp_TypeInfo_var));
-				String_t* L_16 = DTDEntityBase_get_ActualUri_m10405(__this, /*hidden argument*/NULL);
+				String_t* L_16 = DTDEntityBase_get_ActualUri_m10402(__this, /*hidden argument*/NULL);
 				Stream_t51 * L_17 = V_0;
-				DTDObjectModel_t3127 * L_18 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+				DTDObjectModel_t3127 * L_18 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 				NullCheck(L_18);
-				XmlNameTable_t3135 * L_19 = DTDObjectModel_get_NameTable_m10299(L_18, /*hidden argument*/NULL);
+				XmlNameTable_t3135 * L_19 = DTDObjectModel_get_NameTable_m10296(L_18, /*hidden argument*/NULL);
 				XmlTextReader_t3216 * L_20 = (XmlTextReader_t3216 *)il2cpp_codegen_object_new (XmlTextReader_t3216_il2cpp_TypeInfo_var);
-				XmlTextReader__ctor_m10966(L_20, L_16, L_17, L_19, /*hidden argument*/NULL);
+				XmlTextReader__ctor_m10963(L_20, L_16, L_17, L_19, /*hidden argument*/NULL);
 				V_1 = L_20;
 				XmlTextReader_t3216 * L_21 = V_1;
 				NullCheck(L_21);
-				TextReader_t3189 * L_22 = XmlTextReader_GetRemainder_m11002(L_21, /*hidden argument*/NULL);
+				TextReader_t3189 * L_22 = XmlTextReader_GetRemainder_m10999(L_21, /*hidden argument*/NULL);
 				NullCheck(L_22);
 				String_t* L_23 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.IO.TextReader::ReadToEnd() */, L_22);
-				DTDEntityBase_set_LiteralEntityValue_m10401(__this, L_23, /*hidden argument*/NULL);
-				DTDObjectModel_t3127 * L_24 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+				DTDEntityBase_set_LiteralEntityValue_m10398(__this, L_23, /*hidden argument*/NULL);
+				DTDObjectModel_t3127 * L_24 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 				NullCheck(L_24);
-				Hashtable_t1278 * L_25 = DTDObjectModel_get_ExternalResources_m10315(L_24, /*hidden argument*/NULL);
-				String_t* L_26 = DTDEntityBase_get_ActualUri_m10405(__this, /*hidden argument*/NULL);
-				String_t* L_27 = DTDEntityBase_get_LiteralEntityValue_m10400(__this, /*hidden argument*/NULL);
+				Hashtable_t1278 * L_25 = DTDObjectModel_get_ExternalResources_m10312(L_24, /*hidden argument*/NULL);
+				String_t* L_26 = DTDEntityBase_get_ActualUri_m10402(__this, /*hidden argument*/NULL);
+				String_t* L_27 = DTDEntityBase_get_LiteralEntityValue_m10397(__this, /*hidden argument*/NULL);
 				NullCheck(L_25);
 				VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_25, L_26, L_27);
-				DTDObjectModel_t3127 * L_28 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+				DTDObjectModel_t3127 * L_28 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 				NullCheck(L_28);
-				Hashtable_t1278 * L_29 = DTDObjectModel_get_ExternalResources_m10315(L_28, /*hidden argument*/NULL);
+				Hashtable_t1278 * L_29 = DTDObjectModel_get_ExternalResources_m10312(L_28, /*hidden argument*/NULL);
 				NullCheck(L_29);
 				int32_t L_30 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_29);
 				if ((((int32_t)L_30) <= ((int32_t)((int32_t)256))))
@@ -7395,7 +7395,7 @@ IL_0066:
 IL_00e7:
 			{
 				InvalidOperationException_t1380 * L_31 = (InvalidOperationException_t1380 *)il2cpp_codegen_object_new (InvalidOperationException_t1380_il2cpp_TypeInfo_var);
-				InvalidOperationException__ctor_m7081(L_31, (String_t*) &_stringLiteral2067, /*hidden argument*/NULL);
+				InvalidOperationException__ctor_m7078(L_31, (String_t*) &_stringLiteral2069, /*hidden argument*/NULL);
 				il2cpp_codegen_raise_exception(L_31);
 			}
 
@@ -7416,8 +7416,8 @@ CATCH_00f7:
 		{ // begin catch(System.Exception)
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_32 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-			DTDEntityBase_set_LiteralEntityValue_m10401(__this, L_32, /*hidden argument*/NULL);
-			DTDEntityBase_set_LoadFailed_m10393(__this, 1, /*hidden argument*/NULL);
+			DTDEntityBase_set_LiteralEntityValue_m10398(__this, L_32, /*hidden argument*/NULL);
+			DTDEntityBase_set_LoadFailed_m10390(__this, 1, /*hidden argument*/NULL);
 			IL2CPP_LEAVE(0x11C, FINALLY_010f);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -7468,25 +7468,25 @@ IL_011c:
 
 // System.Void Mono.Xml.DTDEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
-extern "C" void DTDEntityDeclaration__ctor_m10407 (DTDEntityDeclaration_t3149 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDEntityDeclaration__ctor_m10404 (DTDEntityDeclaration_t3149 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ArrayList_t3113 * L_0 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_0, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_0, /*hidden argument*/NULL);
 		__this->___ReferencingEntities_17 = L_0;
 		DTDObjectModel_t3127 * L_1 = ___root;
-		DTDEntityBase__ctor_m10391(__this, L_1, /*hidden argument*/NULL);
+		DTDEntityBase__ctor_m10388(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String Mono.Xml.DTDEntityDeclaration::get_NotationName()
-extern "C" String_t* DTDEntityDeclaration_get_NotationName_m10408 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityDeclaration_get_NotationName_m10405 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___notationName_16);
@@ -7494,7 +7494,7 @@ extern "C" String_t* DTDEntityDeclaration_get_NotationName_m10408 (DTDEntityDecl
 	}
 }
 // System.Void Mono.Xml.DTDEntityDeclaration::set_NotationName(System.String)
-extern "C" void DTDEntityDeclaration_set_NotationName_m10409 (DTDEntityDeclaration_t3149 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDEntityDeclaration_set_NotationName_m10406 (DTDEntityDeclaration_t3149 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -7504,12 +7504,12 @@ extern "C" void DTDEntityDeclaration_set_NotationName_m10409 (DTDEntityDeclarati
 }
 // System.Boolean Mono.Xml.DTDEntityDeclaration::get_HasExternalReference()
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
-extern "C" bool DTDEntityDeclaration_get_HasExternalReference_m10410 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
+extern "C" bool DTDEntityDeclaration_get_HasExternalReference_m10407 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7521,8 +7521,8 @@ extern "C" bool DTDEntityDeclaration_get_HasExternalReference_m10410 (DTDEntityD
 	}
 	{
 		ArrayList_t3113 * L_1 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_1, /*hidden argument*/NULL);
-		DTDEntityDeclaration_ScanEntityValue_m10412(__this, L_1, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_1, /*hidden argument*/NULL);
+		DTDEntityDeclaration_ScanEntityValue_m10409(__this, L_1, /*hidden argument*/NULL);
 	}
 
 IL_0016:
@@ -7534,17 +7534,17 @@ IL_0016:
 // System.String Mono.Xml.DTDEntityDeclaration::get_EntityValue()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArrayList_t3113_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDEntityDeclaration_get_EntityValue_m10411 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
+extern "C" String_t* DTDEntityDeclaration_get_EntityValue_m10408 (DTDEntityDeclaration_t3149 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = DTDEntityBase_get_IsInvalid_m10392(__this, /*hidden argument*/NULL);
+		bool L_0 = DTDEntityBase_get_IsInvalid_m10389(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0011;
@@ -7558,21 +7558,21 @@ extern "C" String_t* DTDEntityDeclaration_get_EntityValue_m10411 (DTDEntityDecla
 
 IL_0011:
 	{
-		String_t* L_2 = DTDEntityBase_get_PublicId_m10396(__this, /*hidden argument*/NULL);
+		String_t* L_2 = DTDEntityBase_get_PublicId_m10393(__this, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_0038;
 		}
 	}
 	{
-		String_t* L_3 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_3 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0038;
 		}
 	}
 	{
-		String_t* L_4 = DTDEntityBase_get_LiteralEntityValue_m10400(__this, /*hidden argument*/NULL);
+		String_t* L_4 = DTDEntityBase_get_LiteralEntityValue_m10397(__this, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_0038;
@@ -7593,7 +7593,7 @@ IL_0038:
 		}
 	}
 	{
-		String_t* L_7 = DTDEntityDeclaration_get_NotationName_m10408(__this, /*hidden argument*/NULL);
+		String_t* L_7 = DTDEntityDeclaration_get_NotationName_m10405(__this, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_005e;
@@ -7608,14 +7608,14 @@ IL_0038:
 
 IL_005e:
 	{
-		String_t* L_9 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_9 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_007e;
 		}
 	}
 	{
-		String_t* L_10 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_10 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_11 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		bool L_12 = String_op_Equality_m456(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
@@ -7627,7 +7627,7 @@ IL_005e:
 
 IL_007e:
 	{
-		String_t* L_13 = DTDEntityBase_get_ReplacementText_m10402(__this, /*hidden argument*/NULL);
+		String_t* L_13 = DTDEntityBase_get_ReplacementText_m10399(__this, /*hidden argument*/NULL);
 		__this->___entityValue_15 = L_13;
 		String_t* L_14 = (__this->___entityValue_15);
 		if (L_14)
@@ -7648,15 +7648,15 @@ IL_00a0:
 
 IL_00a5:
 	{
-		String_t* L_16 = DTDEntityBase_get_ReplacementText_m10402(__this, /*hidden argument*/NULL);
+		String_t* L_16 = DTDEntityBase_get_ReplacementText_m10399(__this, /*hidden argument*/NULL);
 		__this->___entityValue_15 = L_16;
 	}
 
 IL_00b1:
 	{
 		ArrayList_t3113 * L_17 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_17, /*hidden argument*/NULL);
-		DTDEntityDeclaration_ScanEntityValue_m10412(__this, L_17, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_17, /*hidden argument*/NULL);
+		DTDEntityDeclaration_ScanEntityValue_m10409(__this, L_17, /*hidden argument*/NULL);
 	}
 
 IL_00bc:
@@ -7671,7 +7671,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" void DTDEntityDeclaration_ScanEntityValue_m10412 (DTDEntityDeclaration_t3149 * __this, ArrayList_t3113 * ___refs, const MethodInfo* method)
+extern "C" void DTDEntityDeclaration_ScanEntityValue_m10409 (DTDEntityDeclaration_t3149 * __this, ArrayList_t3113 * ___refs, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7679,8 +7679,8 @@ extern "C" void DTDEntityDeclaration_ScanEntityValue_m10412 (DTDEntityDeclaratio
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -7703,9 +7703,9 @@ extern "C" void DTDEntityDeclaration_ScanEntityValue_m10412 (DTDEntityDeclaratio
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		String_t* L_0 = DTDEntityDeclaration_get_EntityValue_m10411(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDEntityDeclaration_get_EntityValue_m10408(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		String_t* L_1 = DTDEntityBase_get_SystemId_m10398(__this, /*hidden argument*/NULL);
+		String_t* L_1 = DTDEntityBase_get_SystemId_m10395(__this, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -7724,7 +7724,7 @@ IL_0019:
 		}
 	}
 	{
-		XmlException_t3183 * L_3 = DTDNode_NotWFError_m10369(__this, (String_t*) &_stringLiteral2068, /*hidden argument*/NULL);
+		XmlException_t3183 * L_3 = DTDNode_NotWFError_m10366(__this, (String_t*) &_stringLiteral2070, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -7770,10 +7770,10 @@ IL_004e:
 IL_006b:
 		{
 			String_t* L_12 = V_1;
-			String_t* L_13 = DTDEntityBase_get_Name_m10394(__this, /*hidden argument*/NULL);
+			String_t* L_13 = DTDEntityBase_get_Name_m10391(__this, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_14 = String_Format_m3832(NULL /*static, unused*/, (String_t*) &_stringLiteral2069, L_12, L_13, /*hidden argument*/NULL);
-			XmlException_t3183 * L_15 = DTDNode_NotWFError_m10369(__this, L_14, /*hidden argument*/NULL);
+			String_t* L_14 = String_Format_m3831(NULL /*static, unused*/, (String_t*) &_stringLiteral2071, L_12, L_13, /*hidden argument*/NULL);
+			XmlException_t3183 * L_15 = DTDNode_NotWFError_m10366(__this, L_14, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_15);
 		}
 
@@ -7908,7 +7908,7 @@ IL_00fa:
 		}
 	}
 	{
-		XmlException_t3183 * L_37 = DTDNode_NotWFError_m10369(__this, (String_t*) &_stringLiteral2070, /*hidden argument*/NULL);
+		XmlException_t3183 * L_37 = DTDNode_NotWFError_m10366(__this, (String_t*) &_stringLiteral2072, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_37);
 	}
 
@@ -7930,7 +7930,7 @@ IL_0135:
 	{
 		String_t* L_40 = V_6;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		int32_t L_41 = XmlChar_GetPredefinedEntity_m10542(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
+		int32_t L_41 = XmlChar_GetPredefinedEntity_m10539(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 		if ((((int32_t)L_41) < ((int32_t)0)))
 		{
 			goto IL_0147;
@@ -7946,12 +7946,12 @@ IL_0147:
 		String_t* L_43 = V_6;
 		NullCheck(L_42);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_42, L_43);
-		DTDObjectModel_t3127 * L_44 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_44 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		NullCheck(L_44);
-		DTDEntityDeclarationCollection_t3132 * L_45 = DTDObjectModel_get_EntityDecls_m10318(L_44, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_45 = DTDObjectModel_get_EntityDecls_m10315(L_44, /*hidden argument*/NULL);
 		String_t* L_46 = V_6;
 		NullCheck(L_45);
-		DTDEntityDeclaration_t3149 * L_47 = DTDEntityDeclarationCollection_get_Item_m10345(L_45, L_46, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_47 = DTDEntityDeclarationCollection_get_Item_m10342(L_45, L_46, /*hidden argument*/NULL);
 		V_7 = L_47;
 		DTDEntityDeclaration_t3149 * L_48 = V_7;
 		if (!L_48)
@@ -7962,7 +7962,7 @@ IL_0147:
 	{
 		DTDEntityDeclaration_t3149 * L_49 = V_7;
 		NullCheck(L_49);
-		String_t* L_50 = DTDEntityBase_get_SystemId_m10398(L_49, /*hidden argument*/NULL);
+		String_t* L_50 = DTDEntityBase_get_SystemId_m10395(L_49, /*hidden argument*/NULL);
 		if (!L_50)
 		{
 			goto IL_0183;
@@ -7975,13 +7975,13 @@ IL_0147:
 IL_0183:
 	{
 		ArrayList_t3113 * L_51 = ___refs;
-		String_t* L_52 = DTDEntityBase_get_Name_m10394(__this, /*hidden argument*/NULL);
+		String_t* L_52 = DTDEntityBase_get_Name_m10391(__this, /*hidden argument*/NULL);
 		NullCheck(L_51);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_51, L_52);
 		DTDEntityDeclaration_t3149 * L_53 = V_7;
 		ArrayList_t3113 * L_54 = ___refs;
 		NullCheck(L_53);
-		DTDEntityDeclaration_ScanEntityValue_m10412(L_53, L_54, /*hidden argument*/NULL);
+		DTDEntityDeclaration_ScanEntityValue_m10409(L_53, L_54, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_55 = V_7;
 		NullCheck(L_55);
 		ArrayList_t3113 * L_56 = (L_55->___ReferencingEntities_17);
@@ -8065,7 +8065,7 @@ IL_01e6:
 IL_01ee:
 	{
 		ArrayList_t3113 * L_67 = ___refs;
-		String_t* L_68 = DTDEntityBase_get_Name_m10394(__this, /*hidden argument*/NULL);
+		String_t* L_68 = DTDEntityBase_get_Name_m10391(__this, /*hidden argument*/NULL);
 		NullCheck(L_67);
 		VirtActionInvoker1< Object_t * >::Invoke(37 /* System.Void System.Collections.ArrayList::Remove(System.Object) */, L_67, L_68);
 		String_t* L_69 = V_0;
@@ -8074,15 +8074,15 @@ IL_01ee:
 		NullCheck(L_71);
 		int32_t L_72 = String_get_Length_m410(L_71, /*hidden argument*/NULL);
 		NullCheck(L_69);
-		String_t* L_73 = String_Remove_m5789(L_69, ((int32_t)((int32_t)L_70-(int32_t)1)), ((int32_t)((int32_t)L_72+(int32_t)2)), /*hidden argument*/NULL);
+		String_t* L_73 = String_Remove_m5786(L_69, ((int32_t)((int32_t)L_70-(int32_t)1)), ((int32_t)((int32_t)L_72+(int32_t)2)), /*hidden argument*/NULL);
 		V_0 = L_73;
 		String_t* L_74 = V_0;
 		int32_t L_75 = V_4;
 		DTDEntityDeclaration_t3149 * L_76 = V_7;
 		NullCheck(L_76);
-		String_t* L_77 = DTDEntityDeclaration_get_EntityValue_m10411(L_76, /*hidden argument*/NULL);
+		String_t* L_77 = DTDEntityDeclaration_get_EntityValue_m10408(L_76, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		String_t* L_78 = String_Insert_m5791(L_74, ((int32_t)((int32_t)L_75-(int32_t)1)), L_77, /*hidden argument*/NULL);
+		String_t* L_78 = String_Insert_m5788(L_74, ((int32_t)((int32_t)L_75-(int32_t)1)), L_77, /*hidden argument*/NULL);
 		V_0 = L_78;
 		int32_t L_79 = V_5;
 		String_t* L_80 = V_6;
@@ -8124,12 +8124,12 @@ IL_0243:
 		}
 	}
 	{
-		DTDObjectModel_t3127 * L_88 = DTDNode_get_Root_m10368(__this, /*hidden argument*/NULL);
+		DTDObjectModel_t3127 * L_88 = DTDNode_get_Root_m10365(__this, /*hidden argument*/NULL);
 		String_t* L_89 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, __this);
 		XmlException_t3183 * L_90 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_90, __this, L_89, (String_t*) &_stringLiteral2071, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_90, __this, L_89, (String_t*) &_stringLiteral2073, /*hidden argument*/NULL);
 		NullCheck(L_88);
-		DTDObjectModel_AddError_m10321(L_88, L_90, /*hidden argument*/NULL);
+		DTDObjectModel_AddError_m10318(L_88, L_90, /*hidden argument*/NULL);
 	}
 
 IL_026e:
@@ -8148,17 +8148,17 @@ IL_026e:
 
 
 // System.Void Mono.Xml.DTDNotationDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDNotationDeclaration__ctor_m10413 (DTDNotationDeclaration_t3150 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration__ctor_m10410 (DTDNotationDeclaration_t3150 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
-		DTDNode__ctor_m10360(__this, /*hidden argument*/NULL);
+		DTDNode__ctor_m10357(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDNode_SetRoot_m10367(__this, L_0, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String Mono.Xml.DTDNotationDeclaration::get_Name()
-extern "C" String_t* DTDNotationDeclaration_get_Name_m10414 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNotationDeclaration_get_Name_m10411 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_5);
@@ -8166,7 +8166,7 @@ extern "C" String_t* DTDNotationDeclaration_get_Name_m10414 (DTDNotationDeclarat
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Name(System.String)
-extern "C" void DTDNotationDeclaration_set_Name_m10415 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration_set_Name_m10412 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -8175,7 +8175,7 @@ extern "C" void DTDNotationDeclaration_set_Name_m10415 (DTDNotationDeclaration_t
 	}
 }
 // System.String Mono.Xml.DTDNotationDeclaration::get_PublicId()
-extern "C" String_t* DTDNotationDeclaration_get_PublicId_m10416 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNotationDeclaration_get_PublicId_m10413 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___publicId_8);
@@ -8183,7 +8183,7 @@ extern "C" String_t* DTDNotationDeclaration_get_PublicId_m10416 (DTDNotationDecl
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclaration::set_PublicId(System.String)
-extern "C" void DTDNotationDeclaration_set_PublicId_m10417 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration_set_PublicId_m10414 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -8192,7 +8192,7 @@ extern "C" void DTDNotationDeclaration_set_PublicId_m10417 (DTDNotationDeclarati
 	}
 }
 // System.String Mono.Xml.DTDNotationDeclaration::get_SystemId()
-extern "C" String_t* DTDNotationDeclaration_get_SystemId_m10418 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNotationDeclaration_get_SystemId_m10415 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___systemId_9);
@@ -8200,7 +8200,7 @@ extern "C" String_t* DTDNotationDeclaration_get_SystemId_m10418 (DTDNotationDecl
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclaration::set_SystemId(System.String)
-extern "C" void DTDNotationDeclaration_set_SystemId_m10419 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration_set_SystemId_m10416 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -8209,7 +8209,7 @@ extern "C" void DTDNotationDeclaration_set_SystemId_m10419 (DTDNotationDeclarati
 	}
 }
 // System.String Mono.Xml.DTDNotationDeclaration::get_LocalName()
-extern "C" String_t* DTDNotationDeclaration_get_LocalName_m10420 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNotationDeclaration_get_LocalName_m10417 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___localName_6);
@@ -8217,7 +8217,7 @@ extern "C" String_t* DTDNotationDeclaration_get_LocalName_m10420 (DTDNotationDec
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclaration::set_LocalName(System.String)
-extern "C" void DTDNotationDeclaration_set_LocalName_m10421 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration_set_LocalName_m10418 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -8226,7 +8226,7 @@ extern "C" void DTDNotationDeclaration_set_LocalName_m10421 (DTDNotationDeclarat
 	}
 }
 // System.String Mono.Xml.DTDNotationDeclaration::get_Prefix()
-extern "C" String_t* DTDNotationDeclaration_get_Prefix_m10422 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
+extern "C" String_t* DTDNotationDeclaration_get_Prefix_m10419 (DTDNotationDeclaration_t3150 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___prefix_7);
@@ -8234,7 +8234,7 @@ extern "C" String_t* DTDNotationDeclaration_get_Prefix_m10422 (DTDNotationDeclar
 	}
 }
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Prefix(System.String)
-extern "C" void DTDNotationDeclaration_set_Prefix_m10423 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void DTDNotationDeclaration_set_Prefix_m10420 (DTDNotationDeclaration_t3150 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -8252,17 +8252,17 @@ extern "C" void DTDNotationDeclaration_set_Prefix_m10423 (DTDNotationDeclaration
 
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
 extern TypeInfo* Hashtable_t1278_il2cpp_TypeInfo_var;
-extern "C" void DTDParameterEntityDeclarationCollection__ctor_m10424 (DTDParameterEntityDeclarationCollection_t3131 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDParameterEntityDeclarationCollection__ctor_m10421 (DTDParameterEntityDeclarationCollection_t3131 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3239);
+		Hashtable_t1278_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3237);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Hashtable_t1278 * L_0 = (Hashtable_t1278 *)il2cpp_codegen_object_new (Hashtable_t1278_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m7529(L_0, /*hidden argument*/NULL);
+		Hashtable__ctor_m7526(L_0, /*hidden argument*/NULL);
 		__this->___peDecls_0 = L_0;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_1 = ___root;
@@ -8272,12 +8272,12 @@ extern "C" void DTDParameterEntityDeclarationCollection__ctor_m10424 (DTDParamet
 }
 // Mono.Xml.DTDParameterEntityDeclaration Mono.Xml.DTDParameterEntityDeclarationCollection::get_Item(System.String)
 extern TypeInfo* DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var;
-extern "C" DTDParameterEntityDeclaration_t3151 * DTDParameterEntityDeclarationCollection_get_Item_m10425 (DTDParameterEntityDeclarationCollection_t3131 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" DTDParameterEntityDeclaration_t3151 * DTDParameterEntityDeclarationCollection_get_Item_m10422 (DTDParameterEntityDeclarationCollection_t3131 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5333);
+		DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8289,7 +8289,7 @@ extern "C" DTDParameterEntityDeclaration_t3151 * DTDParameterEntityDeclarationCo
 	}
 }
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDParameterEntityDeclaration)
-extern "C" void DTDParameterEntityDeclarationCollection_Add_m10426 (DTDParameterEntityDeclarationCollection_t3131 * __this, String_t* ___name, DTDParameterEntityDeclaration_t3151 * ___decl, const MethodInfo* method)
+extern "C" void DTDParameterEntityDeclarationCollection_Add_m10423 (DTDParameterEntityDeclarationCollection_t3131 * __this, String_t* ___name, DTDParameterEntityDeclaration_t3151 * ___decl, const MethodInfo* method)
 {
 	{
 		Hashtable_t1278 * L_0 = (__this->___peDecls_0);
@@ -8310,7 +8310,7 @@ IL_0012:
 		DTDParameterEntityDeclaration_t3151 * L_3 = ___decl;
 		DTDObjectModel_t3127 * L_4 = (__this->___root_1);
 		NullCheck(L_3);
-		DTDNode_SetRoot_m10367(L_3, L_4, /*hidden argument*/NULL);
+		DTDNode_SetRoot_m10364(L_3, L_4, /*hidden argument*/NULL);
 		Hashtable_t1278 * L_5 = (__this->___peDecls_0);
 		String_t* L_6 = ___name;
 		DTDParameterEntityDeclaration_t3151 * L_7 = ___decl;
@@ -8328,11 +8328,11 @@ IL_0012:
 
 
 // System.Void Mono.Xml.DTDParameterEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDParameterEntityDeclaration__ctor_m10427 (DTDParameterEntityDeclaration_t3151 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
+extern "C" void DTDParameterEntityDeclaration__ctor_m10424 (DTDParameterEntityDeclaration_t3151 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = ___root;
-		DTDEntityBase__ctor_m10391(__this, L_0, /*hidden argument*/NULL);
+		DTDEntityBase__ctor_m10388(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8407,7 +8407,7 @@ extern "C" void DTDParameterEntityDeclaration__ctor_m10427 (DTDParameterEntityDe
 
 
 // System.Void System.Xml.DTDReader::.ctor(Mono.Xml.DTDObjectModel,System.Int32,System.Int32)
-extern "C" void DTDReader__ctor_m10428 (DTDReader_t3155 * __this, DTDObjectModel_t3127 * ___dtd, int32_t ___startLineNumber, int32_t ___startLinePosition, const MethodInfo* method)
+extern "C" void DTDReader__ctor_m10425 (DTDReader_t3155 * __this, DTDObjectModel_t3127 * ___dtd, int32_t ___startLineNumber, int32_t ___startLinePosition, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -8417,22 +8417,22 @@ extern "C" void DTDReader__ctor_m10428 (DTDReader_t3155 * __this, DTDObjectModel
 		__this->___currentLinkedNodeLineNumber_6 = L_1;
 		int32_t L_2 = ___startLinePosition;
 		__this->___currentLinkedNodeLinePosition_7 = L_2;
-		DTDReader_Init_m10435(__this, /*hidden argument*/NULL);
+		DTDReader_Init_m10432(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String System.Xml.DTDReader::get_BaseURI()
-extern "C" String_t* DTDReader_get_BaseURI_m10429 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" String_t* DTDReader_get_BaseURI_m10426 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		String_t* L_1 = XmlParserInput_get_BaseURI_m10883(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = XmlParserInput_get_BaseURI_m10880(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Boolean System.Xml.DTDReader::get_Normalization()
-extern "C" bool DTDReader_get_Normalization_m10430 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" bool DTDReader_get_Normalization_m10427 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___normalization_9);
@@ -8440,7 +8440,7 @@ extern "C" bool DTDReader_get_Normalization_m10430 (DTDReader_t3155 * __this, co
 	}
 }
 // System.Void System.Xml.DTDReader::set_Normalization(System.Boolean)
-extern "C" void DTDReader_set_Normalization_m10431 (DTDReader_t3155 * __this, bool ___value, const MethodInfo* method)
+extern "C" void DTDReader_set_Normalization_m10428 (DTDReader_t3155 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -8449,66 +8449,66 @@ extern "C" void DTDReader_set_Normalization_m10431 (DTDReader_t3155 * __this, bo
 	}
 }
 // System.Int32 System.Xml.DTDReader::get_LineNumber()
-extern "C" int32_t DTDReader_get_LineNumber_m10432 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" int32_t DTDReader_get_LineNumber_m10429 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		int32_t L_1 = XmlParserInput_get_LineNumber_m10885(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = XmlParserInput_get_LineNumber_m10882(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Int32 System.Xml.DTDReader::get_LinePosition()
-extern "C" int32_t DTDReader_get_LinePosition_m10433 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" int32_t DTDReader_get_LinePosition_m10430 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		int32_t L_1 = XmlParserInput_get_LinePosition_m10886(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = XmlParserInput_get_LinePosition_m10883(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Xml.XmlException System.Xml.DTDReader::NotWFError(System.String)
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" XmlException_t3183 * DTDReader_NotWFError_m10434 (DTDReader_t3155 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" XmlException_t3183 * DTDReader_NotWFError_m10431 (DTDReader_t3155 * __this, String_t* ___message, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = DTDReader_get_BaseURI_m10429(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDReader_get_BaseURI_m10426(__this, /*hidden argument*/NULL);
 		String_t* L_1 = ___message;
 		XmlException_t3183 * L_2 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_2, __this, L_0, L_1, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_2, __this, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void System.Xml.DTDReader::Init()
 extern TypeInfo* Stack_t2849_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t663_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t662_il2cpp_TypeInfo_var;
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_Init_m10435 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_Init_m10432 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Stack_t2849_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5215);
-		CharU5BU5D_t663_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Stack_t2849_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5213);
+		CharU5BU5D_t662_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Stack_t2849 * L_0 = (Stack_t2849 *)il2cpp_codegen_object_new (Stack_t2849_il2cpp_TypeInfo_var);
-		Stack__ctor_m9958(L_0, /*hidden argument*/NULL);
+		Stack__ctor_m9955(L_0, /*hidden argument*/NULL);
 		__this->___parserInputStack_1 = L_0;
-		__this->___nameBuffer_2 = ((CharU5BU5D_t663*)SZArrayNew(CharU5BU5D_t663_il2cpp_TypeInfo_var, ((int32_t)256)));
+		__this->___nameBuffer_2 = ((CharU5BU5D_t662*)SZArrayNew(CharU5BU5D_t662_il2cpp_TypeInfo_var, ((int32_t)256)));
 		__this->___nameLength_3 = 0;
 		__this->___nameCapacity_4 = ((int32_t)256);
 		StringBuilder_t261 * L_1 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m9896(L_1, ((int32_t)512), /*hidden argument*/NULL);
+		StringBuilder__ctor_m9893(L_1, ((int32_t)512), /*hidden argument*/NULL);
 		__this->___valueBuffer_5 = L_1;
 		return;
 	}
@@ -8523,18 +8523,18 @@ extern TypeInfo* IEnumerator_1_t3245_il2cpp_TypeInfo_var;
 extern TypeInfo* DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t48_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern "C" DTDObjectModel_t3127 * DTDReader_GenerateDTDObjectModel_m10436 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDObjectModel_t3127 * DTDReader_GenerateDTDObjectModel_m10433 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringReader_t259_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(264);
-		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
+		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
-		IEnumerable_1_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5335);
-		IEnumerator_1_t3245_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5336);
-		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		ArrayList_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
+		IEnumerable_1_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5333);
+		IEnumerator_1_t3245_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
+		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
@@ -8558,7 +8558,7 @@ extern "C" DTDObjectModel_t3127 * DTDReader_GenerateDTDObjectModel_m10436 (DTDRe
 		V_0 = L_1;
 		DTDObjectModel_t3127 * L_2 = (__this->___DTD_13);
 		NullCheck(L_2);
-		String_t* L_3 = DTDObjectModel_get_InternalSubset_m10304(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = DTDObjectModel_get_InternalSubset_m10301(L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_00e4;
@@ -8567,7 +8567,7 @@ extern "C" DTDObjectModel_t3127 * DTDReader_GenerateDTDObjectModel_m10436 (DTDRe
 	{
 		DTDObjectModel_t3127 * L_4 = (__this->___DTD_13);
 		NullCheck(L_4);
-		String_t* L_5 = DTDObjectModel_get_InternalSubset_m10304(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = DTDObjectModel_get_InternalSubset_m10301(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		int32_t L_6 = String_get_Length_m410(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) <= ((int32_t)0)))
@@ -8581,27 +8581,27 @@ extern "C" DTDObjectModel_t3127 * DTDReader_GenerateDTDObjectModel_m10436 (DTDRe
 		V_2 = L_7;
 		DTDObjectModel_t3127 * L_8 = (__this->___DTD_13);
 		NullCheck(L_8);
-		String_t* L_9 = DTDObjectModel_get_InternalSubset_m10304(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = DTDObjectModel_get_InternalSubset_m10301(L_8, /*hidden argument*/NULL);
 		StringReader_t259 * L_10 = (StringReader_t259 *)il2cpp_codegen_object_new (StringReader_t259_il2cpp_TypeInfo_var);
-		StringReader__ctor_m3612(L_10, L_9, /*hidden argument*/NULL);
+		StringReader__ctor_m3611(L_10, L_9, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_11 = (__this->___DTD_13);
 		NullCheck(L_11);
-		String_t* L_12 = DTDObjectModel_get_BaseURI_m10293(L_11, /*hidden argument*/NULL);
+		String_t* L_12 = DTDObjectModel_get_BaseURI_m10290(L_11, /*hidden argument*/NULL);
 		int32_t L_13 = (__this->___currentLinkedNodeLineNumber_6);
 		int32_t L_14 = (__this->___currentLinkedNodeLinePosition_7);
 		XmlParserInput_t3154 * L_15 = (XmlParserInput_t3154 *)il2cpp_codegen_object_new (XmlParserInput_t3154_il2cpp_TypeInfo_var);
-		XmlParserInput__ctor_m10877(L_15, L_10, L_12, L_13, L_14, /*hidden argument*/NULL);
+		XmlParserInput__ctor_m10874(L_15, L_10, L_12, L_13, L_14, /*hidden argument*/NULL);
 		__this->___currentInput_0 = L_15;
 		XmlParserInput_t3154 * L_16 = (__this->___currentInput_0);
 		NullCheck(L_16);
-		XmlParserInput_set_AllowTextDecl_m10888(L_16, 0, /*hidden argument*/NULL);
+		XmlParserInput_set_AllowTextDecl_m10885(L_16, 0, /*hidden argument*/NULL);
 	}
 
 IL_007e:
 	{
-		bool L_17 = DTDReader_ProcessDTDSubset_m10437(__this, /*hidden argument*/NULL);
+		bool L_17 = DTDReader_ProcessDTDSubset_m10434(__this, /*hidden argument*/NULL);
 		V_1 = L_17;
-		int32_t L_18 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_18 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_18) == ((uint32_t)(-1)))))
 		{
 			goto IL_00a8;
@@ -8617,7 +8617,7 @@ IL_007e:
 		}
 	}
 	{
-		DTDReader_PopParserInput_m10479(__this, /*hidden argument*/NULL);
+		DTDReader_PopParserInput_m10476(__this, /*hidden argument*/NULL);
 	}
 
 IL_00a8:
@@ -8646,7 +8646,7 @@ IL_00a8:
 		}
 	}
 	{
-		XmlException_t3183 * L_26 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2072, /*hidden argument*/NULL);
+		XmlException_t3183 * L_26 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2074, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_26);
 	}
 
@@ -8661,7 +8661,7 @@ IL_00e4:
 	{
 		DTDObjectModel_t3127 * L_28 = (__this->___DTD_13);
 		NullCheck(L_28);
-		String_t* L_29 = DTDObjectModel_get_SystemId_m10302(L_28, /*hidden argument*/NULL);
+		String_t* L_29 = DTDObjectModel_get_SystemId_m10299(L_28, /*hidden argument*/NULL);
 		if (!L_29)
 		{
 			goto IL_018f;
@@ -8670,7 +8670,7 @@ IL_00e4:
 	{
 		DTDObjectModel_t3127 * L_30 = (__this->___DTD_13);
 		NullCheck(L_30);
-		String_t* L_31 = DTDObjectModel_get_SystemId_m10302(L_30, /*hidden argument*/NULL);
+		String_t* L_31 = DTDObjectModel_get_SystemId_m10299(L_30, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_32 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		bool L_33 = String_op_Inequality_m415(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
@@ -8682,7 +8682,7 @@ IL_00e4:
 	{
 		DTDObjectModel_t3127 * L_34 = (__this->___DTD_13);
 		NullCheck(L_34);
-		XmlResolver_t3134 * L_35 = DTDObjectModel_get_Resolver_m10313(L_34, /*hidden argument*/NULL);
+		XmlResolver_t3134 * L_35 = DTDObjectModel_get_Resolver_m10310(L_34, /*hidden argument*/NULL);
 		if (!L_35)
 		{
 			goto IL_018f;
@@ -8691,15 +8691,15 @@ IL_00e4:
 	{
 		DTDObjectModel_t3127 * L_36 = (__this->___DTD_13);
 		NullCheck(L_36);
-		String_t* L_37 = DTDObjectModel_get_SystemId_m10302(L_36, /*hidden argument*/NULL);
-		DTDReader_PushParserInput_m10478(__this, L_37, /*hidden argument*/NULL);
+		String_t* L_37 = DTDObjectModel_get_SystemId_m10299(L_36, /*hidden argument*/NULL);
+		DTDReader_PushParserInput_m10475(__this, L_37, /*hidden argument*/NULL);
 	}
 
 IL_012f:
 	{
-		bool L_38 = DTDReader_ProcessDTDSubset_m10437(__this, /*hidden argument*/NULL);
+		bool L_38 = DTDReader_ProcessDTDSubset_m10434(__this, /*hidden argument*/NULL);
 		V_1 = L_38;
-		int32_t L_39 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_39 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_39) == ((uint32_t)(-1)))))
 		{
 			goto IL_0159;
@@ -8715,7 +8715,7 @@ IL_012f:
 		}
 	}
 	{
-		DTDReader_PopParserInput_m10479(__this, /*hidden argument*/NULL);
+		DTDReader_PopParserInput_m10476(__this, /*hidden argument*/NULL);
 	}
 
 IL_0159:
@@ -8744,25 +8744,25 @@ IL_0159:
 		}
 	}
 	{
-		XmlException_t3183 * L_47 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2072, /*hidden argument*/NULL);
+		XmlException_t3183 * L_47 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2074, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_47);
 	}
 
 IL_0189:
 	{
-		DTDReader_PopParserInput_m10479(__this, /*hidden argument*/NULL);
+		DTDReader_PopParserInput_m10476(__this, /*hidden argument*/NULL);
 	}
 
 IL_018f:
 	{
 		ArrayList_t3113 * L_48 = (ArrayList_t3113 *)il2cpp_codegen_object_new (ArrayList_t3113_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11196(L_48, /*hidden argument*/NULL);
+		ArrayList__ctor_m11193(L_48, /*hidden argument*/NULL);
 		V_3 = L_48;
 		DTDObjectModel_t3127 * L_49 = (__this->___DTD_13);
 		NullCheck(L_49);
-		DTDEntityDeclarationCollection_t3132 * L_50 = DTDObjectModel_get_EntityDecls_m10318(L_49, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_50 = DTDObjectModel_get_EntityDecls_m10315(L_49, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		Object_t* L_51 = DictionaryBase_get_Values_m10333(L_50, /*hidden argument*/NULL);
+		Object_t* L_51 = DictionaryBase_get_Values_m10330(L_50, /*hidden argument*/NULL);
 		NullCheck(L_51);
 		Object_t* L_52 = (Object_t*)InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode>::GetEnumerator() */, IEnumerable_1_t3246_il2cpp_TypeInfo_var, L_51);
 		V_5 = L_52;
@@ -8783,7 +8783,7 @@ IL_01b1:
 			V_4 = ((DTDEntityDeclaration_t3149 *)Castclass(L_54, DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var));
 			DTDEntityDeclaration_t3149 * L_55 = V_4;
 			NullCheck(L_55);
-			String_t* L_56 = DTDEntityDeclaration_get_NotationName_m10408(L_55, /*hidden argument*/NULL);
+			String_t* L_56 = DTDEntityDeclaration_get_NotationName_m10405(L_55, /*hidden argument*/NULL);
 			if (!L_56)
 			{
 				goto IL_01d9;
@@ -8795,7 +8795,7 @@ IL_01cb:
 			DTDEntityDeclaration_t3149 * L_57 = V_4;
 			ArrayList_t3113 * L_58 = V_3;
 			NullCheck(L_57);
-			DTDEntityDeclaration_ScanEntityValue_m10412(L_57, L_58, /*hidden argument*/NULL);
+			DTDEntityDeclaration_ScanEntityValue_m10409(L_57, L_58, /*hidden argument*/NULL);
 			ArrayList_t3113 * L_59 = V_3;
 			NullCheck(L_59);
 			VirtActionInvoker0::Invoke(30 /* System.Void System.Collections.ArrayList::Clear() */, L_59);
@@ -8856,7 +8856,7 @@ IL_01f7:
 	{
 		DTDObjectModel_t3127 * L_64 = (__this->___DTD_13);
 		NullCheck(L_64);
-		Hashtable_t1278 * L_65 = DTDObjectModel_get_ExternalResources_m10315(L_64, /*hidden argument*/NULL);
+		Hashtable_t1278 * L_65 = DTDObjectModel_get_ExternalResources_m10312(L_64, /*hidden argument*/NULL);
 		NullCheck(L_65);
 		VirtActionInvoker0::Invoke(27 /* System.Void System.Collections.Hashtable::Clear() */, L_65);
 		DTDObjectModel_t3127 * L_66 = (__this->___DTD_13);
@@ -8867,7 +8867,7 @@ IL_01f7:
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern "C" bool DTDReader_ProcessDTDSubset_m10437 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" bool DTDReader_ProcessDTDSubset_m10434 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8884,8 +8884,8 @@ extern "C" bool DTDReader_ProcessDTDSubset_m10437 (DTDReader_t3155 * __this, con
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		V_4 = L_1;
@@ -8936,16 +8936,16 @@ IL_003b:
 	{
 		DTDObjectModel_t3127 * L_7 = (__this->___DTD_13);
 		NullCheck(L_7);
-		DTDObjectModel_set_InternalSubsetHasPEReference_m10307(L_7, 1, /*hidden argument*/NULL);
+		DTDObjectModel_set_InternalSubsetHasPEReference_m10304(L_7, 1, /*hidden argument*/NULL);
 	}
 
 IL_0052:
 	{
-		String_t* L_8 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_8 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		V_1 = L_8;
-		DTDReader_Expect_m10463(__this, ((int32_t)59), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)59), /*hidden argument*/NULL);
 		String_t* L_9 = V_1;
-		DTDParameterEntityDeclaration_t3151 * L_10 = DTDReader_GetPEDecl_m10449(__this, L_9, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration_t3151 * L_10 = DTDReader_GetPEDecl_m10446(__this, L_9, /*hidden argument*/NULL);
 		V_2 = L_10;
 		DTDParameterEntityDeclaration_t3151 * L_11 = V_2;
 		if (L_11)
@@ -8962,33 +8962,33 @@ IL_0074:
 		XmlParserInput_t3154 * L_12 = (__this->___currentInput_0);
 		DTDParameterEntityDeclaration_t3151 * L_13 = V_2;
 		NullCheck(L_12);
-		XmlParserInput_PushPEBuffer_m10879(L_12, L_13, /*hidden argument*/NULL);
+		XmlParserInput_PushPEBuffer_m10876(L_12, L_13, /*hidden argument*/NULL);
 		goto IL_008c;
 	}
 
 IL_0085:
 	{
-		DTDReader_ProcessDTDSubset_m10437(__this, /*hidden argument*/NULL);
+		DTDReader_ProcessDTDSubset_m10434(__this, /*hidden argument*/NULL);
 	}
 
 IL_008c:
 	{
 		XmlParserInput_t3154 * L_14 = (__this->___currentInput_0);
 		NullCheck(L_14);
-		bool L_15 = XmlParserInput_get_HasPEBuffer_m10884(L_14, /*hidden argument*/NULL);
+		bool L_15 = XmlParserInput_get_HasPEBuffer_m10881(L_14, /*hidden argument*/NULL);
 		if (L_15)
 		{
 			goto IL_0085;
 		}
 	}
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_016a;
 	}
 
 IL_00a8:
 	{
-		int32_t L_16 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_16 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_3 = L_16;
 		int32_t L_17 = V_3;
 		V_5 = L_17;
@@ -9018,19 +9018,19 @@ IL_00a8:
 
 IL_00d1:
 	{
-		DTDReader_ReadProcessingInstruction_m10470(__this, /*hidden argument*/NULL);
+		DTDReader_ReadProcessingInstruction_m10467(__this, /*hidden argument*/NULL);
 		goto IL_010b;
 	}
 
 IL_00dc:
 	{
-		DTDReader_CompileDeclaration_m10438(__this, /*hidden argument*/NULL);
+		DTDReader_CompileDeclaration_m10435(__this, /*hidden argument*/NULL);
 		goto IL_010b;
 	}
 
 IL_00e7:
 	{
-		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2073, /*hidden argument*/NULL);
+		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2075, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
@@ -9040,8 +9040,8 @@ IL_00f3:
 		uint16_t L_23 = (((uint16_t)L_22));
 		Object_t * L_24 = Box(Char_t60_il2cpp_TypeInfo_var, &L_23);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Concat_m409(NULL /*static, unused*/, (String_t*) &_stringLiteral2074, L_24, /*hidden argument*/NULL);
-		XmlException_t3183 * L_26 = DTDReader_NotWFError_m10434(__this, L_25, /*hidden argument*/NULL);
+		String_t* L_25 = String_Concat_m409(NULL /*static, unused*/, (String_t*) &_stringLiteral2076, L_24, /*hidden argument*/NULL);
+		XmlException_t3183 * L_26 = DTDReader_NotWFError_m10431(__this, L_25, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_26);
 	}
 
@@ -9059,16 +9059,16 @@ IL_0110:
 		}
 	}
 	{
-		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2075, /*hidden argument*/NULL);
+		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2077, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 
 IL_0127:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2076, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2078, /*hidden argument*/NULL);
 		int32_t L_29 = (__this->___dtdIncludeSect_8);
 		__this->___dtdIncludeSect_8 = ((int32_t)((int32_t)L_29-(int32_t)1));
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_016a;
 	}
 
@@ -9081,8 +9081,8 @@ IL_014c:
 		uint16_t L_34 = (((uint16_t)L_33));
 		Object_t * L_35 = Box(Char_t60_il2cpp_TypeInfo_var, &L_34);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_36 = String_Format_m3832(NULL /*static, unused*/, (String_t*) &_stringLiteral2077, L_32, L_35, /*hidden argument*/NULL);
-		XmlException_t3183 * L_37 = DTDReader_NotWFError_m10434(__this, L_36, /*hidden argument*/NULL);
+		String_t* L_36 = String_Format_m3831(NULL /*static, unused*/, (String_t*) &_stringLiteral2079, L_32, L_35, /*hidden argument*/NULL);
+		XmlException_t3183 * L_37 = DTDReader_NotWFError_m10431(__this, L_36, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_37);
 	}
 
@@ -9090,18 +9090,18 @@ IL_016a:
 	{
 		XmlParserInput_t3154 * L_38 = (__this->___currentInput_0);
 		NullCheck(L_38);
-		XmlParserInput_set_AllowTextDecl_m10888(L_38, 0, /*hidden argument*/NULL);
+		XmlParserInput_set_AllowTextDecl_m10885(L_38, 0, /*hidden argument*/NULL);
 		return 1;
 	}
 }
 // System.Void System.Xml.DTDReader::CompileDeclaration()
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_CompileDeclaration_m10438 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_CompileDeclaration_m10435 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3149 * V_0 = {0};
@@ -9111,7 +9111,7 @@ extern "C" void DTDReader_CompileDeclaration_m10438 (DTDReader_t3155 * __this, c
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_4 = L_0;
 		int32_t L_1 = V_4;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)45))))
@@ -9153,14 +9153,14 @@ extern "C" void DTDReader_CompileDeclaration_m10438 (DTDReader_t3155 * __this, c
 
 IL_003a:
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)45), /*hidden argument*/NULL);
-		DTDReader_ReadComment_m10469(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)45), /*hidden argument*/NULL);
+		DTDReader_ReadComment_m10466(__this, /*hidden argument*/NULL);
 		goto IL_024a;
 	}
 
 IL_004d:
 	{
-		int32_t L_6 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_6 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_5 = L_6;
 		int32_t L_7 = V_5;
 		if (((int32_t)((int32_t)L_7-(int32_t)((int32_t)76))) == 0)
@@ -9182,58 +9182,58 @@ IL_004d:
 
 IL_0070:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2078, /*hidden argument*/NULL);
-		bool L_8 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2080, /*hidden argument*/NULL);
+		bool L_8 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0092;
 		}
 	}
 	{
-		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2079, /*hidden argument*/NULL);
+		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2081, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
 IL_0092:
 	{
-		int32_t L_10 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_10 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_00ef;
 		}
 	}
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		bool L_11 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		bool L_11 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_11)
 		{
 			goto IL_00bc;
 		}
 	}
 	{
-		DTDReader_ExpandPERef_m10452(__this, /*hidden argument*/NULL);
+		DTDReader_ExpandPERef_m10449(__this, /*hidden argument*/NULL);
 		goto IL_0092;
 	}
 
 IL_00bc:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_12 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_12 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_13 = XmlChar_IsNameChar_m10538(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		bool L_13 = XmlChar_IsNameChar_m10535(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		if (!L_13)
 		{
 			goto IL_00de;
 		}
 	}
 	{
-		DTDReader_ReadParameterEntityDecl_m10444(__this, /*hidden argument*/NULL);
+		DTDReader_ReadParameterEntityDecl_m10441(__this, /*hidden argument*/NULL);
 		goto IL_00ea;
 	}
 
 IL_00de:
 	{
-		XmlException_t3183 * L_14 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2080, /*hidden argument*/NULL);
+		XmlException_t3183 * L_14 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2082, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -9244,16 +9244,16 @@ IL_00ea:
 
 IL_00ef:
 	{
-		DTDEntityDeclaration_t3149 * L_15 = DTDReader_ReadEntityDecl_m10453(__this, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_15 = DTDReader_ReadEntityDecl_m10450(__this, /*hidden argument*/NULL);
 		V_0 = L_15;
 		DTDObjectModel_t3127 * L_16 = (__this->___DTD_13);
 		NullCheck(L_16);
-		DTDEntityDeclarationCollection_t3132 * L_17 = DTDObjectModel_get_EntityDecls_m10318(L_16, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_17 = DTDObjectModel_get_EntityDecls_m10315(L_16, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_18 = V_0;
 		NullCheck(L_18);
-		String_t* L_19 = DTDEntityBase_get_Name_m10394(L_18, /*hidden argument*/NULL);
+		String_t* L_19 = DTDEntityBase_get_Name_m10391(L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		DTDEntityDeclaration_t3149 * L_20 = DTDEntityDeclarationCollection_get_Item_m10345(L_17, L_19, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_20 = DTDEntityDeclarationCollection_get_Item_m10342(L_17, L_19, /*hidden argument*/NULL);
 		if (L_20)
 		{
 			goto IL_0128;
@@ -9262,13 +9262,13 @@ IL_00ef:
 	{
 		DTDObjectModel_t3127 * L_21 = (__this->___DTD_13);
 		NullCheck(L_21);
-		DTDEntityDeclarationCollection_t3132 * L_22 = DTDObjectModel_get_EntityDecls_m10318(L_21, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_22 = DTDObjectModel_get_EntityDecls_m10315(L_21, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_23 = V_0;
 		NullCheck(L_23);
-		String_t* L_24 = DTDEntityBase_get_Name_m10394(L_23, /*hidden argument*/NULL);
+		String_t* L_24 = DTDEntityBase_get_Name_m10391(L_23, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_25 = V_0;
 		NullCheck(L_22);
-		DTDEntityDeclarationCollection_Add_m10346(L_22, L_24, L_25, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_Add_m10343(L_22, L_24, L_25, /*hidden argument*/NULL);
 	}
 
 IL_0128:
@@ -9278,24 +9278,24 @@ IL_0128:
 
 IL_012d:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2081, /*hidden argument*/NULL);
-		DTDElementDeclaration_t3145 * L_26 = DTDReader_ReadElementDecl_m10440(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2083, /*hidden argument*/NULL);
+		DTDElementDeclaration_t3145 * L_26 = DTDReader_ReadElementDecl_m10437(__this, /*hidden argument*/NULL);
 		V_1 = L_26;
 		DTDObjectModel_t3127 * L_27 = (__this->___DTD_13);
 		NullCheck(L_27);
-		DTDElementDeclarationCollection_t3129 * L_28 = DTDObjectModel_get_ElementDecls_m10316(L_27, /*hidden argument*/NULL);
+		DTDElementDeclarationCollection_t3129 * L_28 = DTDObjectModel_get_ElementDecls_m10313(L_27, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_29 = V_1;
 		NullCheck(L_29);
-		String_t* L_30 = DTDElementDeclaration_get_Name_m10371(L_29, /*hidden argument*/NULL);
+		String_t* L_30 = DTDElementDeclaration_get_Name_m10368(L_29, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_31 = V_1;
 		NullCheck(L_28);
-		DTDElementDeclarationCollection_Add_m10340(L_28, L_30, L_31, /*hidden argument*/NULL);
+		DTDElementDeclarationCollection_Add_m10337(L_28, L_30, L_31, /*hidden argument*/NULL);
 		goto IL_0167;
 	}
 
 IL_015b:
 	{
-		XmlException_t3183 * L_32 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2082, /*hidden argument*/NULL);
+		XmlException_t3183 * L_32 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2084, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_32);
 	}
 
@@ -9306,44 +9306,44 @@ IL_0167:
 
 IL_016c:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2083, /*hidden argument*/NULL);
-		DTDAttListDeclaration_t3147 * L_33 = DTDReader_ReadAttListDecl_m10455(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2085, /*hidden argument*/NULL);
+		DTDAttListDeclaration_t3147 * L_33 = DTDReader_ReadAttListDecl_m10452(__this, /*hidden argument*/NULL);
 		V_2 = L_33;
 		DTDObjectModel_t3127 * L_34 = (__this->___DTD_13);
 		NullCheck(L_34);
-		DTDAttListDeclarationCollection_t3130 * L_35 = DTDObjectModel_get_AttListDecls_m10317(L_34, /*hidden argument*/NULL);
+		DTDAttListDeclarationCollection_t3130 * L_35 = DTDObjectModel_get_AttListDecls_m10314(L_34, /*hidden argument*/NULL);
 		DTDAttListDeclaration_t3147 * L_36 = V_2;
 		NullCheck(L_36);
-		String_t* L_37 = DTDAttListDeclaration_get_Name_m10383(L_36, /*hidden argument*/NULL);
+		String_t* L_37 = DTDAttListDeclaration_get_Name_m10380(L_36, /*hidden argument*/NULL);
 		DTDAttListDeclaration_t3147 * L_38 = V_2;
 		NullCheck(L_35);
-		DTDAttListDeclarationCollection_Add_m10343(L_35, L_37, L_38, /*hidden argument*/NULL);
+		DTDAttListDeclarationCollection_Add_m10340(L_35, L_37, L_38, /*hidden argument*/NULL);
 		goto IL_024a;
 	}
 
 IL_019a:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2084, /*hidden argument*/NULL);
-		DTDNotationDeclaration_t3150 * L_39 = DTDReader_ReadNotationDecl_m10457(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2086, /*hidden argument*/NULL);
+		DTDNotationDeclaration_t3150 * L_39 = DTDReader_ReadNotationDecl_m10454(__this, /*hidden argument*/NULL);
 		V_3 = L_39;
 		DTDObjectModel_t3127 * L_40 = (__this->___DTD_13);
 		NullCheck(L_40);
-		DTDNotationDeclarationCollection_t3133 * L_41 = DTDObjectModel_get_NotationDecls_m10320(L_40, /*hidden argument*/NULL);
+		DTDNotationDeclarationCollection_t3133 * L_41 = DTDObjectModel_get_NotationDecls_m10317(L_40, /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_42 = V_3;
 		NullCheck(L_42);
-		String_t* L_43 = DTDNotationDeclaration_get_Name_m10414(L_42, /*hidden argument*/NULL);
+		String_t* L_43 = DTDNotationDeclaration_get_Name_m10411(L_42, /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_44 = V_3;
 		NullCheck(L_41);
-		DTDNotationDeclarationCollection_Add_m10348(L_41, L_43, L_44, /*hidden argument*/NULL);
+		DTDNotationDeclarationCollection_Add_m10345(L_41, L_43, L_44, /*hidden argument*/NULL);
 		goto IL_024a;
 	}
 
 IL_01c8:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, ((int32_t)73), /*hidden argument*/NULL);
-		int32_t L_45 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)73), /*hidden argument*/NULL);
+		int32_t L_45 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_5 = L_45;
 		int32_t L_46 = V_5;
 		if ((((int32_t)L_46) == ((int32_t)((int32_t)71))))
@@ -9364,8 +9364,8 @@ IL_01c8:
 
 IL_01fd:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2085, /*hidden argument*/NULL);
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)91), /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2087, /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)91), /*hidden argument*/NULL);
 		int32_t L_48 = (__this->___dtdIncludeSect_8);
 		__this->___dtdIncludeSect_8 = ((int32_t)((int32_t)L_48+(int32_t)1));
 		goto IL_0239;
@@ -9373,8 +9373,8 @@ IL_01fd:
 
 IL_0223:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2086, /*hidden argument*/NULL);
-		DTDReader_ReadIgnoreSect_m10439(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2088, /*hidden argument*/NULL);
+		DTDReader_ReadIgnoreSect_m10436(__this, /*hidden argument*/NULL);
 		goto IL_0239;
 	}
 
@@ -9385,7 +9385,7 @@ IL_0239:
 
 IL_023e:
 	{
-		XmlException_t3183 * L_49 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2087, /*hidden argument*/NULL);
+		XmlException_t3183 * L_49 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2089, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_49);
 	}
 
@@ -9395,19 +9395,19 @@ IL_024a:
 	}
 }
 // System.Void System.Xml.DTDReader::ReadIgnoreSect()
-extern "C" void DTDReader_ReadIgnoreSect_m10439 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ReadIgnoreSect_m10436 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)91), /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)91), /*hidden argument*/NULL);
 		V_0 = 1;
 		goto IL_00b4;
 	}
 
 IL_000f:
 	{
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_0;
 		int32_t L_1 = V_1;
 		if ((((int32_t)L_1) == ((int32_t)(-1))))
@@ -9435,13 +9435,13 @@ IL_000f:
 
 IL_0032:
 	{
-		XmlException_t3183 * L_4 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2088, /*hidden argument*/NULL);
+		XmlException_t3183 * L_4 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2090, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_003e:
 	{
-		int32_t L_5 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_5 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_5) == ((int32_t)((int32_t)33))))
 		{
 			goto IL_0050;
@@ -9453,8 +9453,8 @@ IL_003e:
 
 IL_0050:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		int32_t L_6 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		int32_t L_6 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) == ((int32_t)((int32_t)91))))
 		{
 			goto IL_0069;
@@ -9466,7 +9466,7 @@ IL_0050:
 
 IL_0069:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
 		goto IL_00b4;
@@ -9474,7 +9474,7 @@ IL_0069:
 
 IL_0079:
 	{
-		int32_t L_8 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_8 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) == ((int32_t)((int32_t)93))))
 		{
 			goto IL_008b;
@@ -9486,8 +9486,8 @@ IL_0079:
 
 IL_008b:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		int32_t L_9 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		int32_t L_9 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_9) == ((int32_t)((int32_t)62))))
 		{
 			goto IL_00a4;
@@ -9499,7 +9499,7 @@ IL_008b:
 
 IL_00a4:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)((int32_t)L_10-(int32_t)1));
 		goto IL_00b4;
@@ -9521,7 +9521,7 @@ IL_00b4:
 		}
 	}
 	{
-		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2089, /*hidden argument*/NULL);
+		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2091, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -9532,73 +9532,73 @@ IL_00cd:
 }
 // Mono.Xml.DTDElementDeclaration System.Xml.DTDReader::ReadElementDecl()
 extern TypeInfo* DTDElementDeclaration_t3145_il2cpp_TypeInfo_var;
-extern "C" DTDElementDeclaration_t3145 * DTDReader_ReadElementDecl_m10440 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDElementDeclaration_t3145 * DTDReader_ReadElementDecl_m10437 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDElementDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5337);
+		DTDElementDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5335);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDElementDeclaration_t3145 * V_0 = {0};
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		DTDElementDeclaration_t3145 * L_1 = (DTDElementDeclaration_t3145 *)il2cpp_codegen_object_new (DTDElementDeclaration_t3145_il2cpp_TypeInfo_var);
-		DTDElementDeclaration__ctor_m10370(L_1, L_0, /*hidden argument*/NULL);
+		DTDElementDeclaration__ctor_m10367(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		DTDElementDeclaration_t3145 * L_2 = V_0;
 		bool L_3 = (__this->___processingInternalSubset_10);
 		NullCheck(L_2);
-		DTDNode_set_IsInternalSubset_m10364(L_2, L_3, /*hidden argument*/NULL);
-		bool L_4 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDNode_set_IsInternalSubset_m10361(L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2090, /*hidden argument*/NULL);
+		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2092, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
 IL_002f:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_6 = V_0;
-		String_t* L_7 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_7 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		DTDElementDeclaration_set_Name_m10372(L_6, L_7, /*hidden argument*/NULL);
-		bool L_8 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDElementDeclaration_set_Name_m10369(L_6, L_7, /*hidden argument*/NULL);
+		bool L_8 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0059;
 		}
 	}
 	{
-		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2091, /*hidden argument*/NULL);
+		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2093, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
 IL_0059:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_10 = V_0;
-		DTDReader_ReadContentSpec_m10441(__this, L_10, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, ((int32_t)62), /*hidden argument*/NULL);
+		DTDReader_ReadContentSpec_m10438(__this, L_10, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)62), /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_11 = V_0;
 		return L_11;
 	}
 }
 // System.Void System.Xml.DTDReader::ReadContentSpec(Mono.Xml.DTDElementDeclaration)
 extern TypeInfo* DTDContentModel_t3144_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadContentSpec_m10441 (DTDReader_t3155 * __this, DTDElementDeclaration_t3145 * ___decl, const MethodInfo* method)
+extern "C" void DTDReader_ReadContentSpec_m10438 (DTDReader_t3155 * __this, DTDElementDeclaration_t3145 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
+		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDContentModel_t3144 * V_0 = {0};
@@ -9606,8 +9606,8 @@ extern "C" void DTDReader_ReadContentSpec_m10441 (DTDReader_t3155 * __this, DTDE
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_2 = L_0;
 		int32_t L_1 = V_2;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)40))))
@@ -9637,8 +9637,8 @@ IL_002b:
 	{
 		DTDElementDeclaration_t3145 * L_4 = ___decl;
 		NullCheck(L_4);
-		DTDElementDeclaration_set_IsEmpty_m10373(L_4, 1, /*hidden argument*/NULL);
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2092, /*hidden argument*/NULL);
+		DTDElementDeclaration_set_IsEmpty_m10370(L_4, 1, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2094, /*hidden argument*/NULL);
 		goto IL_02db;
 	}
 
@@ -9646,8 +9646,8 @@ IL_0042:
 	{
 		DTDElementDeclaration_t3145 * L_5 = ___decl;
 		NullCheck(L_5);
-		DTDElementDeclaration_set_IsAny_m10374(L_5, 1, /*hidden argument*/NULL);
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2093, /*hidden argument*/NULL);
+		DTDElementDeclaration_set_IsAny_m10371(L_5, 1, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2095, /*hidden argument*/NULL);
 		goto IL_02db;
 	}
 
@@ -9655,11 +9655,11 @@ IL_0059:
 	{
 		DTDElementDeclaration_t3145 * L_6 = ___decl;
 		NullCheck(L_6);
-		DTDContentModel_t3144 * L_7 = DTDElementDeclaration_get_ContentModel_m10376(L_6, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_7 = DTDElementDeclaration_get_ContentModel_m10373(L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_8 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_8 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)35)))))
 		{
 			goto IL_016a;
@@ -9668,93 +9668,93 @@ IL_0059:
 	{
 		DTDElementDeclaration_t3145 * L_9 = ___decl;
 		NullCheck(L_9);
-		DTDElementDeclaration_set_IsMixedContent_m10375(L_9, 1, /*hidden argument*/NULL);
+		DTDElementDeclaration_set_IsMixedContent_m10372(L_9, 1, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_10 = V_0;
 		NullCheck(L_10);
-		DTDContentModel_set_Occurence_m10353(L_10, 2, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_10, 2, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_11 = V_0;
 		NullCheck(L_11);
-		DTDContentModel_set_OrderType_m10355(L_11, 2, /*hidden argument*/NULL);
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2094, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_OrderType_m10352(L_11, 2, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2096, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		goto IL_011d;
 	}
 
 IL_00ae:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_12 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_12 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_00ce;
 		}
 	}
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		goto IL_011d;
 	}
 
 IL_00ce:
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)124), /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)124), /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_13 = (__this->___DTD_13);
 		DTDElementDeclaration_t3145 * L_14 = ___decl;
 		NullCheck(L_14);
-		String_t* L_15 = DTDElementDeclaration_get_Name_m10371(L_14, /*hidden argument*/NULL);
+		String_t* L_15 = DTDElementDeclaration_get_Name_m10368(L_14, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_16 = (DTDContentModel_t3144 *)il2cpp_codegen_object_new (DTDContentModel_t3144_il2cpp_TypeInfo_var);
-		DTDContentModel__ctor_m10349(L_16, L_13, L_15, /*hidden argument*/NULL);
+		DTDContentModel__ctor_m10346(L_16, L_13, L_15, /*hidden argument*/NULL);
 		V_1 = L_16;
 		DTDContentModel_t3144 * L_17 = V_1;
-		String_t* L_18 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_18 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		DTDContentModel_set_ElementName_m10352(L_17, L_18, /*hidden argument*/NULL);
+		DTDContentModel_set_ElementName_m10349(L_17, L_18, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_19 = V_0;
 		NullCheck(L_19);
-		DTDContentModelCollection_t3143 * L_20 = DTDContentModel_get_ChildModels_m10350(L_19, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_20 = DTDContentModel_get_ChildModels_m10347(L_19, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_21 = V_1;
-		DTDReader_AddContentModel_m10443(__this, L_20, L_21, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_AddContentModel_m10440(__this, L_20, L_21, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 	}
 
 IL_011d:
 	{
-		int32_t L_22 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_22 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_00ae;
 		}
 	}
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)41), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)41), /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_23 = V_0;
 		NullCheck(L_23);
-		DTDContentModelCollection_t3143 * L_24 = DTDContentModel_get_ChildModels_m10350(L_23, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_24 = DTDContentModel_get_ChildModels_m10347(L_23, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		int32_t L_25 = DTDContentModelCollection_get_Count_m10358(L_24, /*hidden argument*/NULL);
+		int32_t L_25 = DTDContentModelCollection_get_Count_m10355(L_24, /*hidden argument*/NULL);
 		if ((((int32_t)L_25) <= ((int32_t)0)))
 		{
 			goto IL_0150;
 		}
 	}
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)42), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)42), /*hidden argument*/NULL);
 		goto IL_0165;
 	}
 
 IL_0150:
 	{
-		int32_t L_26 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_26 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_26) == ((uint32_t)((int32_t)42)))))
 		{
 			goto IL_0165;
 		}
 	}
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)42), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)42), /*hidden argument*/NULL);
 	}
 
 IL_0165:
@@ -9766,30 +9766,30 @@ IL_016a:
 	{
 		DTDContentModel_t3144 * L_27 = V_0;
 		NullCheck(L_27);
-		DTDContentModelCollection_t3143 * L_28 = DTDContentModel_get_ChildModels_m10350(L_27, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_28 = DTDContentModel_get_ChildModels_m10347(L_27, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_29 = ___decl;
-		DTDContentModel_t3144 * L_30 = DTDReader_ReadCP_m10442(__this, L_29, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_30 = DTDReader_ReadCP_m10439(__this, L_29, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		DTDContentModelCollection_Add_m10359(L_28, L_30, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModelCollection_Add_m10356(L_28, L_30, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_0183:
 	{
-		int32_t L_31 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_31 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_31) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_019c;
 		}
 	}
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		goto IL_0252;
 	}
 
 IL_019c:
 	{
-		int32_t L_32 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_32 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)124)))))
 		{
 			goto IL_01f5;
@@ -9798,14 +9798,14 @@ IL_019c:
 	{
 		DTDContentModel_t3144 * L_33 = V_0;
 		NullCheck(L_33);
-		int32_t L_34 = DTDContentModel_get_OrderType_m10354(L_33, /*hidden argument*/NULL);
+		int32_t L_34 = DTDContentModel_get_OrderType_m10351(L_33, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_34) == ((uint32_t)1))))
 		{
 			goto IL_01c1;
 		}
 	}
 	{
-		XmlException_t3183 * L_35 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2095, /*hidden argument*/NULL);
+		XmlException_t3183 * L_35 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2097, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_35);
 	}
 
@@ -9813,22 +9813,22 @@ IL_01c1:
 	{
 		DTDContentModel_t3144 * L_36 = V_0;
 		NullCheck(L_36);
-		DTDContentModel_set_OrderType_m10355(L_36, 2, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_OrderType_m10352(L_36, 2, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_37 = V_0;
 		NullCheck(L_37);
-		DTDContentModelCollection_t3143 * L_38 = DTDContentModel_get_ChildModels_m10350(L_37, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_38 = DTDContentModel_get_ChildModels_m10347(L_37, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_39 = ___decl;
-		DTDContentModel_t3144 * L_40 = DTDReader_ReadCP_m10442(__this, L_39, /*hidden argument*/NULL);
-		DTDReader_AddContentModel_m10443(__this, L_38, L_40, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_40 = DTDReader_ReadCP_m10439(__this, L_39, /*hidden argument*/NULL);
+		DTDReader_AddContentModel_m10440(__this, L_38, L_40, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_0252;
 	}
 
 IL_01f5:
 	{
-		int32_t L_41 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_41 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_41) == ((uint32_t)((int32_t)44)))))
 		{
 			goto IL_024d;
@@ -9837,14 +9837,14 @@ IL_01f5:
 	{
 		DTDContentModel_t3144 * L_42 = V_0;
 		NullCheck(L_42);
-		int32_t L_43 = DTDContentModel_get_OrderType_m10354(L_42, /*hidden argument*/NULL);
+		int32_t L_43 = DTDContentModel_get_OrderType_m10351(L_42, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_43) == ((uint32_t)2))))
 		{
 			goto IL_021a;
 		}
 	}
 	{
-		XmlException_t3183 * L_44 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2096, /*hidden argument*/NULL);
+		XmlException_t3183 * L_44 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2098, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_44);
 	}
 
@@ -9852,17 +9852,17 @@ IL_021a:
 	{
 		DTDContentModel_t3144 * L_45 = V_0;
 		NullCheck(L_45);
-		DTDContentModel_set_OrderType_m10355(L_45, 1, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_OrderType_m10352(L_45, 1, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_46 = V_0;
 		NullCheck(L_46);
-		DTDContentModelCollection_t3143 * L_47 = DTDContentModel_get_ChildModels_m10350(L_46, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_47 = DTDContentModel_get_ChildModels_m10347(L_46, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_48 = ___decl;
-		DTDContentModel_t3144 * L_49 = DTDReader_ReadCP_m10442(__this, L_48, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_49 = DTDReader_ReadCP_m10439(__this, L_48, /*hidden argument*/NULL);
 		NullCheck(L_47);
-		DTDContentModelCollection_Add_m10359(L_47, L_49, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModelCollection_Add_m10356(L_47, L_49, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_0252;
 	}
 
@@ -9878,8 +9878,8 @@ IL_0252:
 
 IL_0257:
 	{
-		DTDReader_Expect_m10463(__this, ((int32_t)41), /*hidden argument*/NULL);
-		int32_t L_50 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)41), /*hidden argument*/NULL);
+		int32_t L_50 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		V_3 = L_50;
 		int32_t L_51 = V_3;
 		if ((((int32_t)L_51) == ((int32_t)((int32_t)42))))
@@ -9909,8 +9909,8 @@ IL_0283:
 	{
 		DTDContentModel_t3144 * L_54 = V_0;
 		NullCheck(L_54);
-		DTDContentModel_set_Occurence_m10353(L_54, 1, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_54, 1, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_02bc;
 	}
 
@@ -9918,8 +9918,8 @@ IL_0296:
 	{
 		DTDContentModel_t3144 * L_55 = V_0;
 		NullCheck(L_55);
-		DTDContentModel_set_Occurence_m10353(L_55, 2, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_55, 2, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_02bc;
 	}
 
@@ -9927,25 +9927,25 @@ IL_02a9:
 	{
 		DTDContentModel_t3144 * L_56 = V_0;
 		NullCheck(L_56);
-		DTDContentModel_set_Occurence_m10353(L_56, 3, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_56, 3, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_02bc;
 	}
 
 IL_02bc:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_02c3:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_02db;
 	}
 
 IL_02cf:
 	{
-		XmlException_t3183 * L_57 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2097, /*hidden argument*/NULL);
+		XmlException_t3183 * L_57 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2099, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_57);
 	}
 
@@ -9956,20 +9956,20 @@ IL_02db:
 }
 // Mono.Xml.DTDContentModel System.Xml.DTDReader::ReadCP(Mono.Xml.DTDElementDeclaration)
 extern TypeInfo* DTDContentModel_t3144_il2cpp_TypeInfo_var;
-extern "C" DTDContentModel_t3144 * DTDReader_ReadCP_m10442 (DTDReader_t3155 * __this, DTDElementDeclaration_t3145 * ___elem, const MethodInfo* method)
+extern "C" DTDContentModel_t3144 * DTDReader_ReadCP_m10439 (DTDReader_t3155 * __this, DTDElementDeclaration_t3145 * ___elem, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
+		DTDContentModel_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDContentModel_t3144 * V_0 = {0};
 	int32_t V_1 = 0;
 	{
 		V_0 = (DTDContentModel_t3144 *)NULL;
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)40)))))
 		{
 			goto IL_0130;
@@ -9979,38 +9979,38 @@ extern "C" DTDContentModel_t3144 * DTDReader_ReadCP_m10442 (DTDReader_t3155 * __
 		DTDObjectModel_t3127 * L_1 = (__this->___DTD_13);
 		DTDElementDeclaration_t3145 * L_2 = ___elem;
 		NullCheck(L_2);
-		String_t* L_3 = DTDElementDeclaration_get_Name_m10371(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = DTDElementDeclaration_get_Name_m10368(L_2, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_4 = (DTDContentModel_t3144 *)il2cpp_codegen_object_new (DTDContentModel_t3144_il2cpp_TypeInfo_var);
-		DTDContentModel__ctor_m10349(L_4, L_1, L_3, /*hidden argument*/NULL);
+		DTDContentModel__ctor_m10346(L_4, L_1, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_5 = V_0;
 		NullCheck(L_5);
-		DTDContentModelCollection_t3143 * L_6 = DTDContentModel_get_ChildModels_m10350(L_5, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_6 = DTDContentModel_get_ChildModels_m10347(L_5, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_7 = ___elem;
-		DTDContentModel_t3144 * L_8 = DTDReader_ReadCP_m10442(__this, L_7, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_8 = DTDReader_ReadCP_m10439(__this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		DTDContentModelCollection_Add_m10359(L_6, L_8, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModelCollection_Add_m10356(L_6, L_8, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_004f:
 	{
-		int32_t L_9 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_9 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_0068;
 		}
 	}
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		goto IL_011e;
 	}
 
 IL_0068:
 	{
-		int32_t L_10 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_10 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)124)))))
 		{
 			goto IL_00c1;
@@ -10019,14 +10019,14 @@ IL_0068:
 	{
 		DTDContentModel_t3144 * L_11 = V_0;
 		NullCheck(L_11);
-		int32_t L_12 = DTDContentModel_get_OrderType_m10354(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = DTDContentModel_get_OrderType_m10351(L_11, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
 		{
 			goto IL_008d;
 		}
 	}
 	{
-		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2095, /*hidden argument*/NULL);
+		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2097, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -10034,22 +10034,22 @@ IL_008d:
 	{
 		DTDContentModel_t3144 * L_14 = V_0;
 		NullCheck(L_14);
-		DTDContentModel_set_OrderType_m10355(L_14, 2, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_OrderType_m10352(L_14, 2, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_15 = V_0;
 		NullCheck(L_15);
-		DTDContentModelCollection_t3143 * L_16 = DTDContentModel_get_ChildModels_m10350(L_15, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_16 = DTDContentModel_get_ChildModels_m10347(L_15, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_17 = ___elem;
-		DTDContentModel_t3144 * L_18 = DTDReader_ReadCP_m10442(__this, L_17, /*hidden argument*/NULL);
-		DTDReader_AddContentModel_m10443(__this, L_16, L_18, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_18 = DTDReader_ReadCP_m10439(__this, L_17, /*hidden argument*/NULL);
+		DTDReader_AddContentModel_m10440(__this, L_16, L_18, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_011e;
 	}
 
 IL_00c1:
 	{
-		int32_t L_19 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_19 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_19) == ((uint32_t)((int32_t)44)))))
 		{
 			goto IL_0119;
@@ -10058,14 +10058,14 @@ IL_00c1:
 	{
 		DTDContentModel_t3144 * L_20 = V_0;
 		NullCheck(L_20);
-		int32_t L_21 = DTDContentModel_get_OrderType_m10354(L_20, /*hidden argument*/NULL);
+		int32_t L_21 = DTDContentModel_get_OrderType_m10351(L_20, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_21) == ((uint32_t)2))))
 		{
 			goto IL_00e6;
 		}
 	}
 	{
-		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2096, /*hidden argument*/NULL);
+		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2098, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
@@ -10073,17 +10073,17 @@ IL_00e6:
 	{
 		DTDContentModel_t3144 * L_23 = V_0;
 		NullCheck(L_23);
-		DTDContentModel_set_OrderType_m10355(L_23, 1, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_OrderType_m10352(L_23, 1, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_24 = V_0;
 		NullCheck(L_24);
-		DTDContentModelCollection_t3143 * L_25 = DTDContentModel_get_ChildModels_m10350(L_24, /*hidden argument*/NULL);
+		DTDContentModelCollection_t3143 * L_25 = DTDContentModel_get_ChildModels_m10347(L_24, /*hidden argument*/NULL);
 		DTDElementDeclaration_t3145 * L_26 = ___elem;
-		DTDContentModel_t3144 * L_27 = DTDReader_ReadCP_m10442(__this, L_26, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_27 = DTDReader_ReadCP_m10439(__this, L_26, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		DTDContentModelCollection_Add_m10359(L_25, L_27, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDContentModelCollection_Add_m10356(L_25, L_27, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_011e;
 	}
 
@@ -10099,29 +10099,29 @@ IL_011e:
 
 IL_0123:
 	{
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)41), /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)41), /*hidden argument*/NULL);
 		goto IL_0155;
 	}
 
 IL_0130:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_28 = (__this->___DTD_13);
 		DTDElementDeclaration_t3145 * L_29 = ___elem;
 		NullCheck(L_29);
-		String_t* L_30 = DTDElementDeclaration_get_Name_m10371(L_29, /*hidden argument*/NULL);
+		String_t* L_30 = DTDElementDeclaration_get_Name_m10368(L_29, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_31 = (DTDContentModel_t3144 *)il2cpp_codegen_object_new (DTDContentModel_t3144_il2cpp_TypeInfo_var);
-		DTDContentModel__ctor_m10349(L_31, L_28, L_30, /*hidden argument*/NULL);
+		DTDContentModel__ctor_m10346(L_31, L_28, L_30, /*hidden argument*/NULL);
 		V_0 = L_31;
 		DTDContentModel_t3144 * L_32 = V_0;
-		String_t* L_33 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_33 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		DTDContentModel_set_ElementName_m10352(L_32, L_33, /*hidden argument*/NULL);
+		DTDContentModel_set_ElementName_m10349(L_32, L_33, /*hidden argument*/NULL);
 	}
 
 IL_0155:
 	{
-		int32_t L_34 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_34 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		V_1 = L_34;
 		int32_t L_35 = V_1;
 		if ((((int32_t)L_35) == ((int32_t)((int32_t)42))))
@@ -10151,8 +10151,8 @@ IL_0179:
 	{
 		DTDContentModel_t3144 * L_38 = V_0;
 		NullCheck(L_38);
-		DTDContentModel_set_Occurence_m10353(L_38, 1, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_38, 1, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_01b2;
 	}
 
@@ -10160,8 +10160,8 @@ IL_018c:
 	{
 		DTDContentModel_t3144 * L_39 = V_0;
 		NullCheck(L_39);
-		DTDContentModel_set_Occurence_m10353(L_39, 2, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_39, 2, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_01b2;
 	}
 
@@ -10169,8 +10169,8 @@ IL_019f:
 	{
 		DTDContentModel_t3144 * L_40 = V_0;
 		NullCheck(L_40);
-		DTDContentModel_set_Occurence_m10353(L_40, 3, /*hidden argument*/NULL);
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDContentModel_set_Occurence_m10350(L_40, 3, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_01b2;
 	}
 
@@ -10183,20 +10183,20 @@ IL_01b2:
 // System.Void System.Xml.DTDReader::AddContentModel(Mono.Xml.DTDContentModelCollection,Mono.Xml.DTDContentModel)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_AddContentModel_m10443 (DTDReader_t3155 * __this, DTDContentModelCollection_t3143 * ___cmc, DTDContentModel_t3144 * ___cm, const MethodInfo* method)
+extern "C" void DTDReader_AddContentModel_m10440 (DTDReader_t3155 * __this, DTDContentModelCollection_t3143 * ___cmc, DTDContentModel_t3144 * ___cm, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	{
 		DTDContentModel_t3144 * L_0 = ___cm;
 		NullCheck(L_0);
-		String_t* L_1 = DTDContentModel_get_ElementName_m10351(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = DTDContentModel_get_ElementName_m10348(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0063;
@@ -10212,12 +10212,12 @@ IL_0012:
 		DTDContentModelCollection_t3143 * L_2 = ___cmc;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
-		DTDContentModel_t3144 * L_4 = DTDContentModelCollection_get_Item_m10357(L_2, L_3, /*hidden argument*/NULL);
+		DTDContentModel_t3144 * L_4 = DTDContentModelCollection_get_Item_m10354(L_2, L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		String_t* L_5 = DTDContentModel_get_ElementName_m10351(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = DTDContentModel_get_ElementName_m10348(L_4, /*hidden argument*/NULL);
 		DTDContentModel_t3144 * L_6 = ___cm;
 		NullCheck(L_6);
-		String_t* L_7 = DTDContentModel_get_ElementName_m10351(L_6, /*hidden argument*/NULL);
+		String_t* L_7 = DTDContentModel_get_ElementName_m10348(L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_8 = String_op_Equality_m456(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
 		if (!L_8)
@@ -10228,10 +10228,10 @@ IL_0012:
 	{
 		int32_t L_9 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Xml.DTDReader::get_LineNumber() */, __this);
 		int32_t L_10 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Xml.DTDReader::get_LinePosition() */, __this);
-		String_t* L_11 = DTDReader_get_BaseURI_m10429(__this, /*hidden argument*/NULL);
+		String_t* L_11 = DTDReader_get_BaseURI_m10426(__this, /*hidden argument*/NULL);
 		XmlException_t3183 * L_12 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10699(L_12, (String_t*) &_stringLiteral2098, L_9, L_10, NULL, L_11, (Exception_t57 *)NULL, /*hidden argument*/NULL);
-		DTDReader_HandleError_m10480(__this, L_12, /*hidden argument*/NULL);
+		XmlException__ctor_m10696(L_12, (String_t*) &_stringLiteral2100, L_9, L_10, NULL, L_11, (Exception_t57 *)NULL, /*hidden argument*/NULL);
+		DTDReader_HandleError_m10477(__this, L_12, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -10246,7 +10246,7 @@ IL_0057:
 		int32_t L_14 = V_0;
 		DTDContentModelCollection_t3143 * L_15 = ___cmc;
 		NullCheck(L_15);
-		int32_t L_16 = DTDContentModelCollection_get_Count_m10358(L_15, /*hidden argument*/NULL);
+		int32_t L_16 = DTDContentModelCollection_get_Count_m10355(L_15, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
 		{
 			goto IL_0012;
@@ -10258,20 +10258,20 @@ IL_0063:
 		DTDContentModelCollection_t3143 * L_17 = ___cmc;
 		DTDContentModel_t3144 * L_18 = ___cm;
 		NullCheck(L_17);
-		DTDContentModelCollection_Add_m10359(L_17, L_18, /*hidden argument*/NULL);
+		DTDContentModelCollection_Add_m10356(L_17, L_18, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Xml.DTDReader::ReadParameterEntityDecl()
 extern TypeInfo* DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadParameterEntityDecl_m10444 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ReadParameterEntityDecl_m10441 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5333);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDParameterEntityDeclaration_t3151 * V_0 = {0};
@@ -10282,43 +10282,43 @@ extern "C" void DTDReader_ReadParameterEntityDecl_m10444 (DTDReader_t3155 * __th
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		DTDParameterEntityDeclaration_t3151 * L_1 = (DTDParameterEntityDeclaration_t3151 *)il2cpp_codegen_object_new (DTDParameterEntityDeclaration_t3151_il2cpp_TypeInfo_var);
-		DTDParameterEntityDeclaration__ctor_m10427(L_1, L_0, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration__ctor_m10424(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		DTDParameterEntityDeclaration_t3151 * L_2 = V_0;
-		String_t* L_3 = DTDReader_get_BaseURI_m10429(__this, /*hidden argument*/NULL);
+		String_t* L_3 = DTDReader_get_BaseURI_m10426(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		VirtActionInvoker1< String_t* >::Invoke(7 /* System.Void Mono.Xml.DTDNode::set_BaseURI(System.String) */, L_2, L_3);
 		DTDParameterEntityDeclaration_t3151 * L_4 = V_0;
 		DTDObjectModel_t3127 * L_5 = (__this->___DTD_13);
 		NullCheck(L_5);
-		XmlResolver_t3134 * L_6 = DTDObjectModel_get_Resolver_m10313(L_5, /*hidden argument*/NULL);
+		XmlResolver_t3134 * L_6 = DTDObjectModel_get_Resolver_m10310(L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		DTDEntityBase_set_XmlResolver_m10404(L_4, L_6, /*hidden argument*/NULL);
+		DTDEntityBase_set_XmlResolver_m10401(L_4, L_6, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_7 = V_0;
-		String_t* L_8 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_8 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		DTDEntityBase_set_Name_m10395(L_7, L_8, /*hidden argument*/NULL);
-		bool L_9 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_Name_m10392(L_7, L_8, /*hidden argument*/NULL);
+		bool L_9 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_004c;
 		}
 	}
 	{
-		XmlException_t3183 * L_10 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2099, /*hidden argument*/NULL);
+		XmlException_t3183 * L_10 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2101, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
 IL_004c:
 	{
-		int32_t L_11 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_11 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_11) == ((int32_t)((int32_t)83))))
 		{
 			goto IL_0066;
 		}
 	}
 	{
-		int32_t L_12 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_12 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)80)))))
 		{
 			goto IL_009d;
@@ -10327,28 +10327,28 @@ IL_004c:
 
 IL_0066:
 	{
-		DTDReader_ReadExternalID_m10458(__this, /*hidden argument*/NULL);
+		DTDReader_ReadExternalID_m10455(__this, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_13 = V_0;
 		String_t* L_14 = (__this->___cachedPublicId_11);
 		NullCheck(L_13);
-		DTDEntityBase_set_PublicId_m10397(L_13, L_14, /*hidden argument*/NULL);
+		DTDEntityBase_set_PublicId_m10394(L_13, L_14, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_15 = V_0;
 		String_t* L_16 = (__this->___cachedSystemId_12);
 		NullCheck(L_15);
-		DTDEntityBase_set_SystemId_m10399(L_15, L_16, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_SystemId_m10396(L_15, L_16, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_17 = V_0;
 		NullCheck(L_17);
-		DTDEntityBase_Resolve_m10406(L_17, /*hidden argument*/NULL);
+		DTDEntityBase_Resolve_m10403(L_17, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_18 = V_0;
-		DTDReader_ResolveExternalEntityReplacementText_m10445(__this, L_18, /*hidden argument*/NULL);
+		DTDReader_ResolveExternalEntityReplacementText_m10442(__this, L_18, /*hidden argument*/NULL);
 		goto IL_0183;
 	}
 
 IL_009d:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_19 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_19 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_19;
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) == ((int32_t)((int32_t)39))))
@@ -10364,20 +10364,20 @@ IL_009d:
 		}
 	}
 	{
-		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2100, /*hidden argument*/NULL);
+		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
 IL_00c7:
 	{
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		V_2 = 1;
 		goto IL_0164;
 	}
 
 IL_00d4:
 	{
-		int32_t L_23 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_23 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_3 = L_23;
 		int32_t L_24 = V_3;
 		V_4 = L_24;
@@ -10407,7 +10407,7 @@ IL_00d4:
 
 IL_00fd:
 	{
-		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2101, /*hidden argument*/NULL);
+		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2103, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 
@@ -10426,7 +10426,7 @@ IL_0109:
 
 IL_0118:
 	{
-		DTDReader_AppendValueChar_m10475(__this, ((int32_t)34), /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, ((int32_t)34), /*hidden argument*/NULL);
 	}
 
 IL_0120:
@@ -10449,7 +10449,7 @@ IL_0125:
 
 IL_0134:
 	{
-		DTDReader_AppendValueChar_m10475(__this, ((int32_t)39), /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, ((int32_t)39), /*hidden argument*/NULL);
 	}
 
 IL_013c:
@@ -10461,21 +10461,21 @@ IL_0141:
 	{
 		int32_t L_31 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_32 = XmlChar_IsInvalid_m10535(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		bool L_32 = XmlChar_IsInvalid_m10532(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_0158;
 		}
 	}
 	{
-		XmlException_t3183 * L_33 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
+		XmlException_t3183 * L_33 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2104, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_33);
 	}
 
 IL_0158:
 	{
 		int32_t L_34 = V_3;
-		DTDReader_AppendValueChar_m10475(__this, L_34, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_34, /*hidden argument*/NULL);
 		goto IL_0164;
 	}
 
@@ -10489,25 +10489,25 @@ IL_0164:
 	}
 	{
 		DTDParameterEntityDeclaration_t3151 * L_36 = V_0;
-		String_t* L_37 = DTDReader_CreateValueString_m10476(__this, /*hidden argument*/NULL);
+		String_t* L_37 = DTDReader_CreateValueString_m10473(__this, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		DTDEntityBase_set_LiteralEntityValue_m10401(L_36, L_37, /*hidden argument*/NULL);
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_LiteralEntityValue_m10398(L_36, L_37, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_38 = V_0;
-		DTDReader_ResolveInternalEntityReplacementText_m10446(__this, L_38, /*hidden argument*/NULL);
+		DTDReader_ResolveInternalEntityReplacementText_m10443(__this, L_38, /*hidden argument*/NULL);
 	}
 
 IL_0183:
 	{
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)62), /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)62), /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_39 = (__this->___DTD_13);
 		NullCheck(L_39);
-		DTDParameterEntityDeclarationCollection_t3131 * L_40 = DTDObjectModel_get_PEDecls_m10319(L_39, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection_t3131 * L_40 = DTDObjectModel_get_PEDecls_m10316(L_39, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_41 = V_0;
 		NullCheck(L_41);
-		String_t* L_42 = DTDEntityBase_get_Name_m10394(L_41, /*hidden argument*/NULL);
+		String_t* L_42 = DTDEntityBase_get_Name_m10391(L_41, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		DTDParameterEntityDeclaration_t3151 * L_43 = DTDParameterEntityDeclarationCollection_get_Item_m10425(L_40, L_42, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration_t3151 * L_43 = DTDParameterEntityDeclarationCollection_get_Item_m10422(L_40, L_42, /*hidden argument*/NULL);
 		if (L_43)
 		{
 			goto IL_01bd;
@@ -10516,13 +10516,13 @@ IL_0183:
 	{
 		DTDObjectModel_t3127 * L_44 = (__this->___DTD_13);
 		NullCheck(L_44);
-		DTDParameterEntityDeclarationCollection_t3131 * L_45 = DTDObjectModel_get_PEDecls_m10319(L_44, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection_t3131 * L_45 = DTDObjectModel_get_PEDecls_m10316(L_44, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_46 = V_0;
 		NullCheck(L_46);
-		String_t* L_47 = DTDEntityBase_get_Name_m10394(L_46, /*hidden argument*/NULL);
+		String_t* L_47 = DTDEntityBase_get_Name_m10391(L_46, /*hidden argument*/NULL);
 		DTDParameterEntityDeclaration_t3151 * L_48 = V_0;
 		NullCheck(L_45);
-		DTDParameterEntityDeclarationCollection_Add_m10426(L_45, L_47, L_48, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection_Add_m10423(L_45, L_47, L_48, /*hidden argument*/NULL);
 	}
 
 IL_01bd:
@@ -10534,13 +10534,13 @@ IL_01bd:
 extern TypeInfo* XmlTextReader_t3225_il2cpp_TypeInfo_var;
 extern TypeInfo* DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var;
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___decl, const MethodInfo* method)
+extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10442 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlTextReader_t3225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5338);
-		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		XmlTextReader_t3225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5336);
+		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -10549,7 +10549,7 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader
 	{
 		DTDEntityBase_t3148 * L_0 = ___decl;
 		NullCheck(L_0);
-		String_t* L_1 = DTDEntityBase_get_SystemId_m10398(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = DTDEntityBase_get_SystemId_m10395(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_00b3;
@@ -10558,7 +10558,7 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader
 	{
 		DTDEntityBase_t3148 * L_2 = ___decl;
 		NullCheck(L_2);
-		String_t* L_3 = DTDEntityBase_get_SystemId_m10398(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = DTDEntityBase_get_SystemId_m10395(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		int32_t L_4 = String_get_Length_m410(L_3, /*hidden argument*/NULL);
 		if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -10569,13 +10569,13 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader
 	{
 		DTDEntityBase_t3148 * L_5 = ___decl;
 		NullCheck(L_5);
-		String_t* L_6 = DTDEntityBase_get_LiteralEntityValue_m10400(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = DTDEntityBase_get_LiteralEntityValue_m10397(L_5, /*hidden argument*/NULL);
 		XmlTextReader_t3225 * L_7 = (XmlTextReader_t3225 *)il2cpp_codegen_object_new (XmlTextReader_t3225_il2cpp_TypeInfo_var);
-		XmlTextReader__ctor_m11076(L_7, L_6, 1, (XmlParserContext_t3205 *)NULL, /*hidden argument*/NULL);
+		XmlTextReader__ctor_m11073(L_7, L_6, 1, (XmlParserContext_t3205 *)NULL, /*hidden argument*/NULL);
 		V_0 = L_7;
 		XmlTextReader_t3225 * L_8 = V_0;
 		NullCheck(L_8);
-		XmlTextReader_SkipTextDeclaration_m11112(L_8, /*hidden argument*/NULL);
+		XmlTextReader_SkipTextDeclaration_m11109(L_8, /*hidden argument*/NULL);
 		DTDEntityBase_t3148 * L_9 = ___decl;
 		if (!((DTDEntityDeclaration_t3149 *)IsInst(L_9, DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var)))
 		{
@@ -10585,12 +10585,12 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader
 	{
 		DTDObjectModel_t3127 * L_10 = (__this->___DTD_13);
 		NullCheck(L_10);
-		DTDEntityDeclarationCollection_t3132 * L_11 = DTDObjectModel_get_EntityDecls_m10318(L_10, /*hidden argument*/NULL);
+		DTDEntityDeclarationCollection_t3132 * L_11 = DTDObjectModel_get_EntityDecls_m10315(L_10, /*hidden argument*/NULL);
 		DTDEntityBase_t3148 * L_12 = ___decl;
 		NullCheck(L_12);
-		String_t* L_13 = DTDEntityBase_get_Name_m10394(L_12, /*hidden argument*/NULL);
+		String_t* L_13 = DTDEntityBase_get_Name_m10391(L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		DTDEntityDeclaration_t3149 * L_14 = DTDEntityDeclarationCollection_get_Item_m10345(L_11, L_13, /*hidden argument*/NULL);
+		DTDEntityDeclaration_t3149 * L_14 = DTDEntityDeclarationCollection_get_Item_m10342(L_11, L_13, /*hidden argument*/NULL);
 		if (L_14)
 		{
 			goto IL_009d;
@@ -10598,12 +10598,12 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10445 (DTDReader
 	}
 	{
 		StringBuilder_t261 * L_15 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3613(L_15, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3612(L_15, /*hidden argument*/NULL);
 		V_1 = L_15;
 		XmlTextReader_t3225 * L_16 = V_0;
-		bool L_17 = DTDReader_get_Normalization_m10430(__this, /*hidden argument*/NULL);
+		bool L_17 = DTDReader_get_Normalization_m10427(__this, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		XmlTextReader_set_Normalization_m11108(L_16, L_17, /*hidden argument*/NULL);
+		XmlTextReader_set_Normalization_m11105(L_16, L_17, /*hidden argument*/NULL);
 		XmlTextReader_t3225 * L_18 = V_0;
 		NullCheck(L_18);
 		VirtFuncInvoker0< bool >::Invoke(33 /* System.Boolean System.Xml.XmlTextReader::Read() */, L_18);
@@ -10617,7 +10617,7 @@ IL_0074:
 		NullCheck(L_20);
 		String_t* L_21 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(35 /* System.String System.Xml.XmlReader::ReadOuterXml() */, L_20);
 		NullCheck(L_19);
-		StringBuilder_Append_m3620(L_19, L_21, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_19, L_21, /*hidden argument*/NULL);
 	}
 
 IL_0081:
@@ -10636,7 +10636,7 @@ IL_0081:
 		NullCheck(L_25);
 		String_t* L_26 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Text.StringBuilder::ToString() */, L_25);
 		NullCheck(L_24);
-		DTDEntityBase_set_ReplacementText_m10403(L_24, L_26, /*hidden argument*/NULL);
+		DTDEntityBase_set_ReplacementText_m10400(L_24, L_26, /*hidden argument*/NULL);
 		goto IL_00ae;
 	}
 
@@ -10645,11 +10645,11 @@ IL_009d:
 		DTDEntityBase_t3148 * L_27 = ___decl;
 		XmlTextReader_t3225 * L_28 = V_0;
 		NullCheck(L_28);
-		TextReader_t3189 * L_29 = XmlTextReader_GetRemainder_m11125(L_28, /*hidden argument*/NULL);
+		TextReader_t3189 * L_29 = XmlTextReader_GetRemainder_m11122(L_28, /*hidden argument*/NULL);
 		NullCheck(L_29);
 		String_t* L_30 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.IO.TextReader::ReadToEnd() */, L_29);
 		NullCheck(L_27);
-		DTDEntityBase_set_ReplacementText_m10403(L_27, L_30, /*hidden argument*/NULL);
+		DTDEntityBase_set_ReplacementText_m10400(L_27, L_30, /*hidden argument*/NULL);
 	}
 
 IL_00ae:
@@ -10662,9 +10662,9 @@ IL_00b3:
 		DTDEntityBase_t3148 * L_31 = ___decl;
 		DTDEntityBase_t3148 * L_32 = ___decl;
 		NullCheck(L_32);
-		String_t* L_33 = DTDEntityBase_get_LiteralEntityValue_m10400(L_32, /*hidden argument*/NULL);
+		String_t* L_33 = DTDEntityBase_get_LiteralEntityValue_m10397(L_32, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		DTDEntityBase_set_ReplacementText_m10403(L_31, L_33, /*hidden argument*/NULL);
+		DTDEntityBase_set_ReplacementText_m10400(L_31, L_33, /*hidden argument*/NULL);
 	}
 
 IL_00bf:
@@ -10676,13 +10676,13 @@ IL_00bf:
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ResolveInternalEntityReplacementText_m10446 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___decl, const MethodInfo* method)
+extern "C" void DTDReader_ResolveInternalEntityReplacementText_m10443 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -10696,13 +10696,13 @@ extern "C" void DTDReader_ResolveInternalEntityReplacementText_m10446 (DTDReader
 	{
 		DTDEntityBase_t3148 * L_0 = ___decl;
 		NullCheck(L_0);
-		String_t* L_1 = DTDEntityBase_get_LiteralEntityValue_m10400(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = DTDEntityBase_get_LiteralEntityValue_m10397(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		String_t* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3 = String_get_Length_m410(L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		V_2 = 0;
 		goto IL_0185;
 	}
@@ -10741,7 +10741,7 @@ IL_0040:
 		String_t* L_11 = V_0;
 		int32_t L_12 = V_2;
 		NullCheck(L_11);
-		int32_t L_13 = String_IndexOf_m9862(L_11, ((int32_t)59), L_12, /*hidden argument*/NULL);
+		int32_t L_13 = String_IndexOf_m9859(L_11, ((int32_t)59), L_12, /*hidden argument*/NULL);
 		V_4 = L_13;
 		int32_t L_14 = V_4;
 		int32_t L_15 = V_2;
@@ -10756,7 +10756,7 @@ IL_0040:
 		NullCheck(L_17);
 		String_t* L_18 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_17);
 		XmlException_t3183 * L_19 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_19, L_16, L_18, (String_t*) &_stringLiteral2103, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_19, L_16, L_18, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -10777,18 +10777,18 @@ IL_006b:
 		DTDEntityBase_t3148 * L_24 = ___decl;
 		String_t* L_25 = V_0;
 		int32_t L_26 = V_4;
-		int32_t L_27 = DTDReader_GetCharacterReference_m10447(__this, L_24, L_25, (&V_2), L_26, /*hidden argument*/NULL);
+		int32_t L_27 = DTDReader_GetCharacterReference_m10444(__this, L_24, L_25, (&V_2), L_26, /*hidden argument*/NULL);
 		V_3 = L_27;
 		int32_t L_28 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_29 = XmlChar_IsInvalid_m10535(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		bool L_29 = XmlChar_IsInvalid_m10532(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		if (!L_29)
 		{
 			goto IL_00a1;
 		}
 	}
 	{
-		XmlException_t3183 * L_30 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
+		XmlException_t3183 * L_30 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2104, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_30);
 	}
 
@@ -10808,7 +10808,7 @@ IL_00a6:
 		V_5 = L_35;
 		String_t* L_36 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_37 = XmlChar_IsName_m10539(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		bool L_37 = XmlChar_IsName_m10536(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		if (L_37)
 		{
 			goto IL_00d2;
@@ -10817,19 +10817,19 @@ IL_00a6:
 	{
 		String_t* L_38 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2104, L_38, /*hidden argument*/NULL);
-		XmlException_t3183 * L_40 = DTDReader_NotWFError_m10434(__this, L_39, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2106, L_38, /*hidden argument*/NULL);
+		XmlException_t3183 * L_40 = DTDReader_NotWFError_m10431(__this, L_39, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_40);
 	}
 
 IL_00d2:
 	{
-		DTDReader_AppendValueChar_m10475(__this, ((int32_t)38), /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, ((int32_t)38), /*hidden argument*/NULL);
 		StringBuilder_t261 * L_41 = (__this->___valueBuffer_5);
 		String_t* L_42 = V_5;
 		NullCheck(L_41);
-		StringBuilder_Append_m3620(L_41, L_42, /*hidden argument*/NULL);
-		DTDReader_AppendValueChar_m10475(__this, ((int32_t)59), /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_41, L_42, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, ((int32_t)59), /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		V_2 = L_43;
 		goto IL_0181;
@@ -10839,7 +10839,7 @@ IL_00f8:
 	{
 		int32_t L_44 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_45 = XmlChar_IsInvalid_m10535(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
+		bool L_45 = XmlChar_IsInvalid_m10532(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
 		if (!L_45)
 		{
 			goto IL_0115;
@@ -10851,14 +10851,14 @@ IL_00f8:
 		NullCheck(L_47);
 		String_t* L_48 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_47);
 		XmlException_t3183 * L_49 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_49, L_46, L_48, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_49, L_46, L_48, (String_t*) &_stringLiteral2107, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_49);
 	}
 
 IL_0115:
 	{
 		int32_t L_50 = V_3;
-		DTDReader_AppendValueChar_m10475(__this, L_50, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_50, /*hidden argument*/NULL);
 		goto IL_0181;
 	}
 
@@ -10869,7 +10869,7 @@ IL_0121:
 		String_t* L_52 = V_0;
 		int32_t L_53 = V_2;
 		NullCheck(L_52);
-		int32_t L_54 = String_IndexOf_m9862(L_52, ((int32_t)59), L_53, /*hidden argument*/NULL);
+		int32_t L_54 = String_IndexOf_m9859(L_52, ((int32_t)59), L_53, /*hidden argument*/NULL);
 		V_4 = L_54;
 		int32_t L_55 = V_4;
 		int32_t L_56 = V_2;
@@ -10884,7 +10884,7 @@ IL_0121:
 		NullCheck(L_58);
 		String_t* L_59 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_58);
 		XmlException_t3183 * L_60 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_60, L_57, L_59, (String_t*) &_stringLiteral2103, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_60, L_57, L_59, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_60);
 	}
 
@@ -10899,9 +10899,9 @@ IL_014c:
 		V_5 = L_65;
 		StringBuilder_t261 * L_66 = (__this->___valueBuffer_5);
 		String_t* L_67 = V_5;
-		String_t* L_68 = DTDReader_GetPEValue_m10448(__this, L_67, /*hidden argument*/NULL);
+		String_t* L_68 = DTDReader_GetPEValue_m10445(__this, L_67, /*hidden argument*/NULL);
 		NullCheck(L_66);
-		StringBuilder_Append_m3620(L_66, L_68, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_66, L_68, /*hidden argument*/NULL);
 		int32_t L_69 = V_4;
 		V_2 = L_69;
 		goto IL_0181;
@@ -10910,7 +10910,7 @@ IL_014c:
 IL_0175:
 	{
 		int32_t L_70 = V_3;
-		DTDReader_AppendValueChar_m10475(__this, L_70, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_70, /*hidden argument*/NULL);
 		goto IL_0181;
 	}
 
@@ -10931,25 +10931,25 @@ IL_0185:
 	}
 	{
 		DTDEntityBase_t3148 * L_74 = ___decl;
-		String_t* L_75 = DTDReader_CreateValueString_m10476(__this, /*hidden argument*/NULL);
+		String_t* L_75 = DTDReader_CreateValueString_m10473(__this, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		DTDEntityBase_set_ReplacementText_m10403(L_74, L_75, /*hidden argument*/NULL);
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_ReplacementText_m10400(L_74, L_75, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Int32 System.Xml.DTDReader::GetCharacterReference(Mono.Xml.DTDEntityBase,System.String,System.Int32&,System.Int32)
-extern TypeInfo* CultureInfo_t721_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t720_il2cpp_TypeInfo_var;
 extern TypeInfo* FormatException_t2883_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" int32_t DTDReader_GetCharacterReference_m10447 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___li, String_t* ___value, int32_t* ___index, int32_t ___end, const MethodInfo* method)
+extern "C" int32_t DTDReader_GetCharacterReference_m10444 (DTDReader_t3155 * __this, DTDEntityBase_t3148 * ___li, String_t* ___value, int32_t* ___index, int32_t ___end, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t721_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		FormatException_t2883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4376);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		CultureInfo_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		FormatException_t2883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4374);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10980,9 +10980,9 @@ IL_0011:
 		int32_t* L_6 = ___index;
 		NullCheck(L_3);
 		String_t* L_7 = String_Substring_m418(L_3, ((int32_t)((int32_t)(*((int32_t*)L_4))+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_5-(int32_t)(*((int32_t*)L_6))))-(int32_t)1)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_8 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_9 = Int32_Parse_m11205(NULL /*static, unused*/, L_7, ((int32_t)515), L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_8 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_9 = Int32_Parse_m11202(NULL /*static, unused*/, L_7, ((int32_t)515), L_8, /*hidden argument*/NULL);
 		V_0 = L_9;
 		goto IL_004f;
 	} // end try (depth: 1)
@@ -11001,7 +11001,7 @@ CATCH_0037:
 		NullCheck(L_11);
 		String_t* L_12 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_11);
 		XmlException_t3183 * L_13 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_13, L_10, L_12, (String_t*) &_stringLiteral2106, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_13, L_10, L_12, (String_t*) &_stringLiteral2108, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 		goto IL_004f;
 	} // end catch (depth: 1)
@@ -11020,9 +11020,9 @@ IL_0054:
 		int32_t* L_17 = ___index;
 		NullCheck(L_14);
 		String_t* L_18 = String_Substring_m418(L_14, (*((int32_t*)L_15)), ((int32_t)((int32_t)L_16-(int32_t)(*((int32_t*)L_17)))), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_19 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_20 = Int32_Parse_m11210(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_19 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Int32_Parse_m11207(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
 		V_0 = L_20;
 		goto IL_0089;
 	} // end try (depth: 1)
@@ -11041,7 +11041,7 @@ CATCH_0071:
 		NullCheck(L_22);
 		String_t* L_23 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_22);
 		XmlException_t3183 * L_24 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10696(L_24, L_21, L_23, (String_t*) &_stringLiteral2106, /*hidden argument*/NULL);
+		XmlException__ctor_m10693(L_24, L_21, L_23, (String_t*) &_stringLiteral2108, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 		goto IL_0089;
 	} // end catch (depth: 1)
@@ -11057,7 +11057,7 @@ IL_0089:
 }
 // System.String System.Xml.DTDReader::GetPEValue(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDReader_GetPEValue_m10448 (DTDReader_t3155 * __this, String_t* ___peName, const MethodInfo* method)
+extern "C" String_t* DTDReader_GetPEValue_m10445 (DTDReader_t3155 * __this, String_t* ___peName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -11069,7 +11069,7 @@ extern "C" String_t* DTDReader_GetPEValue_m10448 (DTDReader_t3155 * __this, Stri
 	String_t* G_B3_0 = {0};
 	{
 		String_t* L_0 = ___peName;
-		DTDParameterEntityDeclaration_t3151 * L_1 = DTDReader_GetPEDecl_m10449(__this, L_0, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration_t3151 * L_1 = DTDReader_GetPEDecl_m10446(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		DTDParameterEntityDeclaration_t3151 * L_2 = V_0;
 		if (!L_2)
@@ -11080,7 +11080,7 @@ extern "C" String_t* DTDReader_GetPEValue_m10448 (DTDReader_t3155 * __this, Stri
 	{
 		DTDParameterEntityDeclaration_t3151 * L_3 = V_0;
 		NullCheck(L_3);
-		String_t* L_4 = DTDEntityBase_get_ReplacementText_m10402(L_3, /*hidden argument*/NULL);
+		String_t* L_4 = DTDEntityBase_get_ReplacementText_m10399(L_3, /*hidden argument*/NULL);
 		G_B3_0 = L_4;
 		goto IL_001e;
 	}
@@ -11100,23 +11100,23 @@ IL_001e:
 // Mono.Xml.DTDParameterEntityDeclaration System.Xml.DTDReader::GetPEDecl(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" DTDParameterEntityDeclaration_t3151 * DTDReader_GetPEDecl_m10449 (DTDReader_t3155 * __this, String_t* ___peName, const MethodInfo* method)
+extern "C" DTDParameterEntityDeclaration_t3151 * DTDReader_GetPEDecl_m10446 (DTDReader_t3155 * __this, String_t* ___peName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDParameterEntityDeclaration_t3151 * V_0 = {0};
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		NullCheck(L_0);
-		DTDParameterEntityDeclarationCollection_t3131 * L_1 = DTDObjectModel_get_PEDecls_m10319(L_0, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection_t3131 * L_1 = DTDObjectModel_get_PEDecls_m10316(L_0, /*hidden argument*/NULL);
 		String_t* L_2 = ___peName;
 		NullCheck(L_1);
-		DTDParameterEntityDeclaration_t3151 * L_3 = DTDParameterEntityDeclarationCollection_get_Item_m10425(L_1, L_2, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration_t3151 * L_3 = DTDParameterEntityDeclarationCollection_get_Item_m10422(L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		DTDParameterEntityDeclaration_t3151 * L_4 = V_0;
 		if (!L_4)
@@ -11127,7 +11127,7 @@ extern "C" DTDParameterEntityDeclaration_t3151 * DTDReader_GetPEDecl_m10449 (DTD
 	{
 		DTDParameterEntityDeclaration_t3151 * L_5 = V_0;
 		NullCheck(L_5);
-		bool L_6 = DTDNode_get_IsInternalSubset_m10363(L_5, /*hidden argument*/NULL);
+		bool L_6 = DTDNode_get_IsInternalSubset_m10360(L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_003a;
@@ -11136,8 +11136,8 @@ extern "C" DTDParameterEntityDeclaration_t3151 * DTDReader_GetPEDecl_m10449 (DTD
 	{
 		String_t* L_7 = ___peName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2107, L_7, (String_t*) &_stringLiteral1175, /*hidden argument*/NULL);
-		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10434(__this, L_8, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2109, L_7, (String_t*) &_stringLiteral1177, /*hidden argument*/NULL);
+		XmlException_t3183 * L_9 = DTDReader_NotWFError_m10431(__this, L_8, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
@@ -11151,7 +11151,7 @@ IL_003c:
 	{
 		DTDObjectModel_t3127 * L_11 = (__this->___DTD_13);
 		NullCheck(L_11);
-		String_t* L_12 = DTDObjectModel_get_SystemId_m10302(L_11, /*hidden argument*/NULL);
+		String_t* L_12 = DTDObjectModel_get_SystemId_m10299(L_11, /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_005c;
@@ -11160,7 +11160,7 @@ IL_003c:
 	{
 		DTDObjectModel_t3127 * L_13 = (__this->___DTD_13);
 		NullCheck(L_13);
-		bool L_14 = DTDObjectModel_get_InternalSubsetHasPEReference_m10306(L_13, /*hidden argument*/NULL);
+		bool L_14 = DTDObjectModel_get_InternalSubsetHasPEReference_m10303(L_13, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_006c;
@@ -11171,7 +11171,7 @@ IL_005c:
 	{
 		DTDObjectModel_t3127 * L_15 = (__this->___DTD_13);
 		NullCheck(L_15);
-		bool L_16 = DTDObjectModel_get_IsStandalone_m10295(L_15, /*hidden argument*/NULL);
+		bool L_16 = DTDObjectModel_get_IsStandalone_m10292(L_15, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_007e;
@@ -11182,8 +11182,8 @@ IL_006c:
 	{
 		String_t* L_17 = ___peName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2108, L_17, /*hidden argument*/NULL);
-		XmlException_t3183 * L_19 = DTDReader_NotWFError_m10434(__this, L_18, /*hidden argument*/NULL);
+		String_t* L_18 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2110, L_17, /*hidden argument*/NULL);
+		XmlException_t3183 * L_19 = DTDReader_NotWFError_m10431(__this, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -11191,18 +11191,18 @@ IL_007e:
 	{
 		String_t* L_20 = ___peName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2109, L_20, (String_t*) &_stringLiteral2110, /*hidden argument*/NULL);
+		String_t* L_21 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2111, L_20, (String_t*) &_stringLiteral2112, /*hidden argument*/NULL);
 		XmlException_t3183 * L_22 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10693(L_22, L_21, (Exception_t57 *)NULL, /*hidden argument*/NULL);
-		DTDReader_HandleError_m10480(__this, L_22, /*hidden argument*/NULL);
+		XmlException__ctor_m10690(L_22, L_21, (Exception_t57 *)NULL, /*hidden argument*/NULL);
+		DTDReader_HandleError_m10477(__this, L_22, /*hidden argument*/NULL);
 		return (DTDParameterEntityDeclaration_t3151 *)NULL;
 	}
 }
 // System.Boolean System.Xml.DTDReader::TryExpandPERef()
-extern "C" bool DTDReader_TryExpandPERef_m10450 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" bool DTDReader_TryExpandPERef_m10447 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_0) == ((int32_t)((int32_t)37))))
 		{
 			goto IL_000f;
@@ -11219,13 +11219,13 @@ IL_000f:
 
 IL_0014:
 	{
-		DTDReader_TryExpandPERefSpaceKeep_m10451(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERefSpaceKeep_m10448(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_0022:
 	{
-		int32_t L_1 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_1 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)37))))
 		{
 			goto IL_0014;
@@ -11236,10 +11236,10 @@ IL_0022:
 	}
 }
 // System.Boolean System.Xml.DTDReader::TryExpandPERefSpaceKeep()
-extern "C" bool DTDReader_TryExpandPERefSpaceKeep_m10451 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" bool DTDReader_TryExpandPERefSpaceKeep_m10448 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_0033;
@@ -11253,14 +11253,14 @@ extern "C" bool DTDReader_TryExpandPERefSpaceKeep_m10451 (DTDReader_t3155 * __th
 		}
 	}
 	{
-		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2111, /*hidden argument*/NULL);
+		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2113, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
 IL_0024:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_ExpandPERef_m10452(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_ExpandPERef_m10449(__this, /*hidden argument*/NULL);
 		return 1;
 	}
 
@@ -11272,27 +11272,27 @@ IL_0033:
 // System.Void System.Xml.DTDReader::ExpandPERef()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ExpandPERef_m10452 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ExpandPERef_m10449 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	DTDParameterEntityDeclaration_t3151 * V_1 = {0};
 	{
-		String_t* L_0 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		DTDReader_Expect_m10463(__this, ((int32_t)59), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)59), /*hidden argument*/NULL);
 		DTDObjectModel_t3127 * L_1 = (__this->___DTD_13);
 		NullCheck(L_1);
-		DTDParameterEntityDeclarationCollection_t3131 * L_2 = DTDObjectModel_get_PEDecls_m10319(L_1, /*hidden argument*/NULL);
+		DTDParameterEntityDeclarationCollection_t3131 * L_2 = DTDObjectModel_get_PEDecls_m10316(L_1, /*hidden argument*/NULL);
 		String_t* L_3 = V_0;
 		NullCheck(L_2);
-		DTDParameterEntityDeclaration_t3151 * L_4 = DTDParameterEntityDeclarationCollection_get_Item_m10425(L_2, L_3, /*hidden argument*/NULL);
+		DTDParameterEntityDeclaration_t3151 * L_4 = DTDParameterEntityDeclarationCollection_get_Item_m10422(L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		DTDParameterEntityDeclaration_t3151 * L_5 = V_1;
 		if (L_5)
@@ -11303,10 +11303,10 @@ extern "C" void DTDReader_ExpandPERef_m10452 (DTDReader_t3155 * __this, const Me
 	{
 		String_t* L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2109, L_6, (String_t*) &_stringLiteral2110, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2111, L_6, (String_t*) &_stringLiteral2112, /*hidden argument*/NULL);
 		XmlException_t3183 * L_8 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10693(L_8, L_7, (Exception_t57 *)NULL, /*hidden argument*/NULL);
-		DTDReader_HandleError_m10480(__this, L_8, /*hidden argument*/NULL);
+		XmlException__ctor_m10690(L_8, L_7, (Exception_t57 *)NULL, /*hidden argument*/NULL);
+		DTDReader_HandleError_m10477(__this, L_8, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -11315,19 +11315,19 @@ IL_0044:
 		XmlParserInput_t3154 * L_9 = (__this->___currentInput_0);
 		DTDParameterEntityDeclaration_t3151 * L_10 = V_1;
 		NullCheck(L_9);
-		XmlParserInput_PushPEBuffer_m10879(L_9, L_10, /*hidden argument*/NULL);
+		XmlParserInput_PushPEBuffer_m10876(L_9, L_10, /*hidden argument*/NULL);
 		return;
 	}
 }
 // Mono.Xml.DTDEntityDeclaration System.Xml.DTDReader::ReadEntityDecl()
 extern TypeInfo* DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" DTDEntityDeclaration_t3149 * DTDReader_ReadEntityDecl_m10453 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDEntityDeclaration_t3149 * DTDReader_ReadEntityDecl_m10450 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -11335,49 +11335,49 @@ extern "C" DTDEntityDeclaration_t3149 * DTDReader_ReadEntityDecl_m10453 (DTDRead
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		DTDEntityDeclaration_t3149 * L_1 = (DTDEntityDeclaration_t3149 *)il2cpp_codegen_object_new (DTDEntityDeclaration_t3149_il2cpp_TypeInfo_var);
-		DTDEntityDeclaration__ctor_m10407(L_1, L_0, /*hidden argument*/NULL);
+		DTDEntityDeclaration__ctor_m10404(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		DTDEntityDeclaration_t3149 * L_2 = V_0;
-		String_t* L_3 = DTDReader_get_BaseURI_m10429(__this, /*hidden argument*/NULL);
+		String_t* L_3 = DTDReader_get_BaseURI_m10426(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		VirtActionInvoker1< String_t* >::Invoke(7 /* System.Void Mono.Xml.DTDNode::set_BaseURI(System.String) */, L_2, L_3);
 		DTDEntityDeclaration_t3149 * L_4 = V_0;
 		DTDObjectModel_t3127 * L_5 = (__this->___DTD_13);
 		NullCheck(L_5);
-		XmlResolver_t3134 * L_6 = DTDObjectModel_get_Resolver_m10313(L_5, /*hidden argument*/NULL);
+		XmlResolver_t3134 * L_6 = DTDObjectModel_get_Resolver_m10310(L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		DTDEntityBase_set_XmlResolver_m10404(L_4, L_6, /*hidden argument*/NULL);
+		DTDEntityBase_set_XmlResolver_m10401(L_4, L_6, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_7 = V_0;
 		bool L_8 = (__this->___processingInternalSubset_10);
 		NullCheck(L_7);
-		DTDNode_set_IsInternalSubset_m10364(L_7, L_8, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDNode_set_IsInternalSubset_m10361(L_7, L_8, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_9 = V_0;
-		String_t* L_10 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_10 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		DTDEntityBase_set_Name_m10395(L_9, L_10, /*hidden argument*/NULL);
-		bool L_11 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_Name_m10392(L_9, L_10, /*hidden argument*/NULL);
+		bool L_11 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_11)
 		{
 			goto IL_005f;
 		}
 	}
 	{
-		XmlException_t3183 * L_12 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2112, /*hidden argument*/NULL);
+		XmlException_t3183 * L_12 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2114, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
 IL_005f:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		int32_t L_13 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		int32_t L_13 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_13) == ((int32_t)((int32_t)83))))
 		{
 			goto IL_0080;
 		}
 	}
 	{
-		int32_t L_14 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_14 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)80)))))
 		{
 			goto IL_011c;
@@ -11386,54 +11386,54 @@ IL_005f:
 
 IL_0080:
 	{
-		DTDReader_ReadExternalID_m10458(__this, /*hidden argument*/NULL);
+		DTDReader_ReadExternalID_m10455(__this, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_15 = V_0;
 		String_t* L_16 = (__this->___cachedPublicId_11);
 		NullCheck(L_15);
-		DTDEntityBase_set_PublicId_m10397(L_15, L_16, /*hidden argument*/NULL);
+		DTDEntityBase_set_PublicId_m10394(L_15, L_16, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_17 = V_0;
 		String_t* L_18 = (__this->___cachedSystemId_12);
 		NullCheck(L_17);
-		DTDEntityBase_set_SystemId_m10399(L_17, L_18, /*hidden argument*/NULL);
-		bool L_19 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDEntityBase_set_SystemId_m10396(L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_00e4;
 		}
 	}
 	{
-		int32_t L_20 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_20 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)78)))))
 		{
 			goto IL_00e4;
 		}
 	}
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2113, /*hidden argument*/NULL);
-		bool L_21 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2115, /*hidden argument*/NULL);
+		bool L_21 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_21)
 		{
 			goto IL_00d8;
 		}
 	}
 	{
-		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2114, /*hidden argument*/NULL);
+		XmlException_t3183 * L_22 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2116, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
 IL_00d8:
 	{
 		DTDEntityDeclaration_t3149 * L_23 = V_0;
-		String_t* L_24 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_24 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		DTDEntityDeclaration_set_NotationName_m10409(L_23, L_24, /*hidden argument*/NULL);
+		DTDEntityDeclaration_set_NotationName_m10406(L_23, L_24, /*hidden argument*/NULL);
 	}
 
 IL_00e4:
 	{
 		DTDEntityDeclaration_t3149 * L_25 = V_0;
 		NullCheck(L_25);
-		String_t* L_26 = DTDEntityDeclaration_get_NotationName_m10408(L_25, /*hidden argument*/NULL);
+		String_t* L_26 = DTDEntityDeclaration_get_NotationName_m10405(L_25, /*hidden argument*/NULL);
 		if (L_26)
 		{
 			goto IL_0101;
@@ -11442,9 +11442,9 @@ IL_00e4:
 	{
 		DTDEntityDeclaration_t3149 * L_27 = V_0;
 		NullCheck(L_27);
-		DTDEntityBase_Resolve_m10406(L_27, /*hidden argument*/NULL);
+		DTDEntityBase_Resolve_m10403(L_27, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_28 = V_0;
-		DTDReader_ResolveExternalEntityReplacementText_m10445(__this, L_28, /*hidden argument*/NULL);
+		DTDReader_ResolveExternalEntityReplacementText_m10442(__this, L_28, /*hidden argument*/NULL);
 		goto IL_0117;
 	}
 
@@ -11454,11 +11454,11 @@ IL_0101:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_30 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_29);
-		DTDEntityBase_set_LiteralEntityValue_m10401(L_29, L_30, /*hidden argument*/NULL);
+		DTDEntityBase_set_LiteralEntityValue_m10398(L_29, L_30, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_31 = V_0;
 		String_t* L_32 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_31);
-		DTDEntityBase_set_ReplacementText_m10403(L_31, L_32, /*hidden argument*/NULL);
+		DTDEntityBase_set_ReplacementText_m10400(L_31, L_32, /*hidden argument*/NULL);
 	}
 
 IL_0117:
@@ -11469,16 +11469,16 @@ IL_0117:
 IL_011c:
 	{
 		DTDEntityDeclaration_t3149 * L_33 = V_0;
-		DTDReader_ReadEntityValueDecl_m10454(__this, L_33, /*hidden argument*/NULL);
+		DTDReader_ReadEntityValueDecl_m10451(__this, L_33, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_34 = V_0;
-		DTDReader_ResolveInternalEntityReplacementText_m10446(__this, L_34, /*hidden argument*/NULL);
+		DTDReader_ResolveInternalEntityReplacementText_m10443(__this, L_34, /*hidden argument*/NULL);
 	}
 
 IL_012a:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, ((int32_t)62), /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)62), /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_35 = V_0;
 		return L_35;
 	}
@@ -11486,13 +11486,13 @@ IL_012a:
 // System.Void System.Xml.DTDReader::ReadEntityValueDecl(Mono.Xml.DTDEntityDeclaration)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadEntityValueDecl_m10454 (DTDReader_t3155 * __this, DTDEntityDeclaration_t3149 * ___decl, const MethodInfo* method)
+extern "C" void DTDReader_ReadEntityValueDecl_m10451 (DTDReader_t3155 * __this, DTDEntityDeclaration_t3149 * ___decl, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -11501,8 +11501,8 @@ extern "C" void DTDReader_ReadEntityValueDecl_m10454 (DTDReader_t3155 * __this, 
 	String_t* V_3 = {0};
 	int32_t V_4 = 0;
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)39))))
@@ -11518,19 +11518,19 @@ extern "C" void DTDReader_ReadEntityValueDecl_m10454 (DTDReader_t3155 * __this, 
 		}
 	}
 	{
-		XmlException_t3183 * L_3 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2100, /*hidden argument*/NULL);
+		XmlException_t3183 * L_3 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_002a:
 	{
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		goto IL_00d3;
 	}
 
 IL_0035:
 	{
-		int32_t L_4 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_4 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		V_4 = L_5;
@@ -11553,12 +11553,12 @@ IL_0035:
 
 IL_0055:
 	{
-		String_t* L_8 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_8 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		V_2 = L_8;
-		DTDReader_Expect_m10463(__this, ((int32_t)59), /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)59), /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_9 = ___decl;
 		NullCheck(L_9);
-		bool L_10 = DTDNode_get_IsInternalSubset_m10363(L_9, /*hidden argument*/NULL);
+		bool L_10 = DTDNode_get_IsInternalSubset_m10360(L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0081;
@@ -11567,8 +11567,8 @@ IL_0055:
 	{
 		String_t* L_11 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2115, L_11, /*hidden argument*/NULL);
-		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10434(__this, L_12, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2117, L_11, /*hidden argument*/NULL);
+		XmlException_t3183 * L_13 = DTDReader_NotWFError_m10431(__this, L_12, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -11576,15 +11576,15 @@ IL_0081:
 	{
 		StringBuilder_t261 * L_14 = (__this->___valueBuffer_5);
 		String_t* L_15 = V_2;
-		String_t* L_16 = DTDReader_GetPEValue_m10448(__this, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = DTDReader_GetPEValue_m10445(__this, L_15, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		StringBuilder_Append_m3620(L_14, L_16, /*hidden argument*/NULL);
+		StringBuilder_Append_m3619(L_14, L_16, /*hidden argument*/NULL);
 		goto IL_00d3;
 	}
 
 IL_0099:
 	{
-		XmlException_t3183 * L_17 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2116, /*hidden argument*/NULL);
+		XmlException_t3183 * L_17 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2118, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_17);
 	}
 
@@ -11599,27 +11599,27 @@ IL_00a5:
 	{
 		int32_t L_19 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_20 = XmlChar_IsInvalid_m10535(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		bool L_20 = XmlChar_IsInvalid_m10532(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00c7;
 		}
 	}
 	{
-		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
+		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2107, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
 IL_00c7:
 	{
 		int32_t L_22 = V_1;
-		DTDReader_AppendValueChar_m10475(__this, L_22, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_22, /*hidden argument*/NULL);
 		goto IL_00d3;
 	}
 
 IL_00d3:
 	{
-		int32_t L_23 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_23 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		int32_t L_24 = V_0;
 		if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
 		{
@@ -11627,32 +11627,32 @@ IL_00d3:
 		}
 	}
 	{
-		String_t* L_25 = DTDReader_CreateValueString_m10476(__this, /*hidden argument*/NULL);
+		String_t* L_25 = DTDReader_CreateValueString_m10473(__this, /*hidden argument*/NULL);
 		V_3 = L_25;
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		int32_t L_26 = V_0;
-		DTDReader_Expect_m10463(__this, L_26, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, L_26, /*hidden argument*/NULL);
 		DTDEntityDeclaration_t3149 * L_27 = ___decl;
 		String_t* L_28 = V_3;
 		NullCheck(L_27);
-		DTDEntityBase_set_LiteralEntityValue_m10401(L_27, L_28, /*hidden argument*/NULL);
+		DTDEntityBase_set_LiteralEntityValue_m10398(L_27, L_28, /*hidden argument*/NULL);
 		return;
 	}
 }
 // Mono.Xml.DTDAttListDeclaration System.Xml.DTDReader::ReadAttListDecl()
 extern TypeInfo* DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern TypeInfo* ICollection_t707_il2cpp_TypeInfo_var;
+extern TypeInfo* ICollection_t706_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" DTDAttListDeclaration_t3147 * DTDReader_ReadAttListDecl_m10455 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDAttListDeclaration_t3147 * DTDReader_ReadAttListDecl_m10452 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
-		ICollection_t707_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(310);
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
+		ICollection_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(310);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -11661,29 +11661,29 @@ extern "C" DTDAttListDeclaration_t3147 * DTDReader_ReadAttListDecl_m10455 (DTDRe
 	int32_t V_3 = 0;
 	DTDAttributeDefinition_t3146 * V_4 = {0};
 	{
-		DTDReader_TryExpandPERefSpaceKeep_m10451(__this, /*hidden argument*/NULL);
-		bool L_0 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERefSpaceKeep_m10448(__this, /*hidden argument*/NULL);
+		bool L_0 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		XmlException_t3183 * L_1 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2117, /*hidden argument*/NULL);
+		XmlException_t3183 * L_1 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2119, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_001e:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		String_t* L_2 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		String_t* L_2 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		V_0 = L_2;
 		DTDObjectModel_t3127 * L_3 = (__this->___DTD_13);
 		NullCheck(L_3);
-		DTDAttListDeclarationCollection_t3130 * L_4 = DTDObjectModel_get_AttListDecls_m10317(L_3, /*hidden argument*/NULL);
+		DTDAttListDeclarationCollection_t3130 * L_4 = DTDObjectModel_get_AttListDecls_m10314(L_3, /*hidden argument*/NULL);
 		String_t* L_5 = V_0;
 		NullCheck(L_4);
-		DTDAttListDeclaration_t3147 * L_6 = DTDAttListDeclarationCollection_get_Item_m10342(L_4, L_5, /*hidden argument*/NULL);
+		DTDAttListDeclaration_t3147 * L_6 = DTDAttListDeclarationCollection_get_Item_m10339(L_4, L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
 		DTDAttListDeclaration_t3147 * L_7 = V_1;
 		if (L_7)
@@ -11694,7 +11694,7 @@ IL_001e:
 	{
 		DTDObjectModel_t3127 * L_8 = (__this->___DTD_13);
 		DTDAttListDeclaration_t3147 * L_9 = (DTDAttListDeclaration_t3147 *)il2cpp_codegen_object_new (DTDAttListDeclaration_t3147_il2cpp_TypeInfo_var);
-		DTDAttListDeclaration__ctor_m10382(L_9, L_8, /*hidden argument*/NULL);
+		DTDAttListDeclaration__ctor_m10379(L_9, L_8, /*hidden argument*/NULL);
 		V_1 = L_9;
 	}
 
@@ -11703,42 +11703,42 @@ IL_0050:
 		DTDAttListDeclaration_t3147 * L_10 = V_1;
 		bool L_11 = (__this->___processingInternalSubset_10);
 		NullCheck(L_10);
-		DTDNode_set_IsInternalSubset_m10364(L_10, L_11, /*hidden argument*/NULL);
+		DTDNode_set_IsInternalSubset_m10361(L_10, L_11, /*hidden argument*/NULL);
 		DTDAttListDeclaration_t3147 * L_12 = V_1;
 		String_t* L_13 = V_0;
 		NullCheck(L_12);
-		DTDAttListDeclaration_set_Name_m10384(L_12, L_13, /*hidden argument*/NULL);
-		bool L_14 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDAttListDeclaration_set_Name_m10381(L_12, L_13, /*hidden argument*/NULL);
+		bool L_14 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_14)
 		{
 			goto IL_0087;
 		}
 	}
 	{
-		int32_t L_15 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_15 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_15) == ((int32_t)((int32_t)62))))
 		{
 			goto IL_0087;
 		}
 	}
 	{
-		XmlException_t3183 * L_16 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2118, /*hidden argument*/NULL);
+		XmlException_t3183 * L_16 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2120, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	}
 
 IL_0087:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		goto IL_0131;
 	}
 
 IL_0093:
 	{
-		DTDAttributeDefinition_t3146 * L_17 = DTDReader_ReadAttributeDefinition_m10456(__this, /*hidden argument*/NULL);
+		DTDAttributeDefinition_t3146 * L_17 = DTDReader_ReadAttributeDefinition_m10453(__this, /*hidden argument*/NULL);
 		V_2 = L_17;
 		DTDAttributeDefinition_t3146 * L_18 = V_2;
 		NullCheck(L_18);
-		XmlSchemaDatatype_t3052 * L_19 = DTDAttributeDefinition_get_Datatype_m10378(L_18, /*hidden argument*/NULL);
+		XmlSchemaDatatype_t3052 * L_19 = DTDAttributeDefinition_get_Datatype_m10375(L_18, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		int32_t L_20 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType() */, L_19);
 		if ((!(((uint32_t)L_20) == ((uint32_t)1))))
@@ -11756,11 +11756,11 @@ IL_00b2:
 		DTDAttListDeclaration_t3147 * L_21 = V_1;
 		int32_t L_22 = V_3;
 		NullCheck(L_21);
-		DTDAttributeDefinition_t3146 * L_23 = DTDAttListDeclaration_get_Item_m10385(L_21, L_22, /*hidden argument*/NULL);
+		DTDAttributeDefinition_t3146 * L_23 = DTDAttListDeclaration_get_Item_m10382(L_21, L_22, /*hidden argument*/NULL);
 		V_4 = L_23;
 		DTDAttributeDefinition_t3146 * L_24 = V_4;
 		NullCheck(L_24);
-		XmlSchemaDatatype_t3052 * L_25 = DTDAttributeDefinition_get_Datatype_m10378(L_24, /*hidden argument*/NULL);
+		XmlSchemaDatatype_t3052 * L_25 = DTDAttributeDefinition_get_Datatype_m10375(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		int32_t L_26 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType() */, L_25);
 		if ((!(((uint32_t)L_26) == ((uint32_t)1))))
@@ -11779,8 +11779,8 @@ IL_00b2:
 		NullCheck(L_31);
 		String_t* L_32 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_31);
 		XmlException_t3183 * L_33 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10699(L_33, (String_t*) &_stringLiteral2119, L_28, L_30, NULL, L_32, (Exception_t57 *)NULL, /*hidden argument*/NULL);
-		DTDReader_HandleError_m10480(__this, L_33, /*hidden argument*/NULL);
+		XmlException__ctor_m10696(L_33, (String_t*) &_stringLiteral2121, L_28, L_30, NULL, L_32, (Exception_t57 *)NULL, /*hidden argument*/NULL);
+		DTDReader_HandleError_m10477(__this, L_33, /*hidden argument*/NULL);
 		goto IL_010b;
 	}
 
@@ -11795,9 +11795,9 @@ IL_00fa:
 		int32_t L_35 = V_3;
 		DTDAttListDeclaration_t3147 * L_36 = V_1;
 		NullCheck(L_36);
-		Object_t * L_37 = DTDAttListDeclaration_get_Definitions_m10389(L_36, /*hidden argument*/NULL);
+		Object_t * L_37 = DTDAttListDeclaration_get_Definitions_m10386(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		int32_t L_38 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t707_il2cpp_TypeInfo_var, L_37);
+		int32_t L_38 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t706_il2cpp_TypeInfo_var, L_37);
 		if ((((int32_t)L_35) < ((int32_t)L_38)))
 		{
 			goto IL_00b2;
@@ -11809,9 +11809,9 @@ IL_010b:
 		DTDAttListDeclaration_t3147 * L_39 = V_1;
 		DTDAttributeDefinition_t3146 * L_40 = V_2;
 		NullCheck(L_40);
-		String_t* L_41 = DTDAttributeDefinition_get_Name_m10377(L_40, /*hidden argument*/NULL);
+		String_t* L_41 = DTDAttributeDefinition_get_Name_m10374(L_40, /*hidden argument*/NULL);
 		NullCheck(L_39);
-		DTDAttributeDefinition_t3146 * L_42 = DTDAttListDeclaration_get_Item_m10386(L_39, L_41, /*hidden argument*/NULL);
+		DTDAttributeDefinition_t3146 * L_42 = DTDAttListDeclaration_get_Item_m10383(L_39, L_41, /*hidden argument*/NULL);
 		if (L_42)
 		{
 			goto IL_0123;
@@ -11821,58 +11821,58 @@ IL_010b:
 		DTDAttListDeclaration_t3147 * L_43 = V_1;
 		DTDAttributeDefinition_t3146 * L_44 = V_2;
 		NullCheck(L_43);
-		DTDAttListDeclaration_Add_m10390(L_43, L_44, /*hidden argument*/NULL);
+		DTDAttListDeclaration_Add_m10387(L_43, L_44, /*hidden argument*/NULL);
 	}
 
 IL_0123:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 	}
 
 IL_0131:
 	{
-		int32_t L_45 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_45 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_46 = XmlChar_IsNameChar_m10538(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+		bool L_46 = XmlChar_IsNameChar_m10535(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
 		if (L_46)
 		{
 			goto IL_0093;
 		}
 	}
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, ((int32_t)62), /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)62), /*hidden argument*/NULL);
 		DTDAttListDeclaration_t3147 * L_47 = V_1;
 		return L_47;
 	}
 }
 // Mono.Xml.DTDAttributeDefinition System.Xml.DTDReader::ReadAttributeDefinition()
 extern TypeInfo* NotImplementedException_t1391_il2cpp_TypeInfo_var;
-extern "C" DTDAttributeDefinition_t3146 * DTDReader_ReadAttributeDefinition_m10456 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDAttributeDefinition_t3146 * DTDReader_ReadAttributeDefinition_m10453 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotImplementedException_t1391_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2382);
+		NotImplementedException_t1391_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2380);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		NotImplementedException_t1391 * L_0 = (NotImplementedException_t1391 *)il2cpp_codegen_object_new (NotImplementedException_t1391_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7133(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7130(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // Mono.Xml.DTDNotationDeclaration System.Xml.DTDReader::ReadNotationDecl()
 extern TypeInfo* DTDNotationDeclaration_t3150_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" DTDNotationDeclaration_t3150 * DTDReader_ReadNotationDecl_m10457 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" DTDNotationDeclaration_t3150 * DTDReader_ReadNotationDecl_m10454 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDNotationDeclaration_t3150_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5339);
+		DTDNotationDeclaration_t3150_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5337);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -11881,39 +11881,39 @@ extern "C" DTDNotationDeclaration_t3150 * DTDReader_ReadNotationDecl_m10457 (DTD
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		DTDNotationDeclaration_t3150 * L_1 = (DTDNotationDeclaration_t3150 *)il2cpp_codegen_object_new (DTDNotationDeclaration_t3150_il2cpp_TypeInfo_var);
-		DTDNotationDeclaration__ctor_m10413(L_1, L_0, /*hidden argument*/NULL);
+		DTDNotationDeclaration__ctor_m10410(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		bool L_2 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		bool L_2 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_0023;
 		}
 	}
 	{
-		XmlException_t3183 * L_3 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2120, /*hidden argument*/NULL);
+		XmlException_t3183 * L_3 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2122, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0023:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_4 = V_0;
-		String_t* L_5 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_5 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		DTDNotationDeclaration_set_Name_m10415(L_4, L_5, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_Name_m10412(L_4, L_5, /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_6);
-		DTDNotationDeclaration_set_Prefix_m10423(L_6, L_7, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_Prefix_m10420(L_6, L_7, /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_8 = V_0;
 		DTDNotationDeclaration_t3150 * L_9 = V_0;
 		NullCheck(L_9);
-		String_t* L_10 = DTDNotationDeclaration_get_Name_m10414(L_9, /*hidden argument*/NULL);
+		String_t* L_10 = DTDNotationDeclaration_get_Name_m10411(L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		DTDNotationDeclaration_set_LocalName_m10421(L_8, L_10, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_11 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_LocalName_m10418(L_8, L_10, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_11 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_11) == ((uint32_t)((int32_t)80)))))
 		{
 			goto IL_00b9;
@@ -11921,19 +11921,19 @@ IL_0023:
 	}
 	{
 		DTDNotationDeclaration_t3150 * L_12 = V_0;
-		String_t* L_13 = DTDReader_ReadPubidLiteral_m10460(__this, /*hidden argument*/NULL);
+		String_t* L_13 = DTDReader_ReadPubidLiteral_m10457(__this, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		DTDNotationDeclaration_set_PublicId_m10417(L_12, L_13, /*hidden argument*/NULL);
-		bool L_14 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_PublicId_m10414(L_12, L_13, /*hidden argument*/NULL);
+		bool L_14 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		V_1 = L_14;
-		int32_t L_15 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_15 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_15) == ((int32_t)((int32_t)39))))
 		{
 			goto IL_008e;
 		}
 	}
 	{
-		int32_t L_16 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_16 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_16) == ((uint32_t)((int32_t)34)))))
 		{
 			goto IL_00b4;
@@ -11949,17 +11949,17 @@ IL_008e:
 		}
 	}
 	{
-		XmlException_t3183 * L_18 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2121, /*hidden argument*/NULL);
+		XmlException_t3183 * L_18 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2123, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_18);
 	}
 
 IL_00a0:
 	{
 		DTDNotationDeclaration_t3150 * L_19 = V_0;
-		String_t* L_20 = DTDReader_ReadSystemLiteral_m10459(__this, 0, /*hidden argument*/NULL);
+		String_t* L_20 = DTDReader_ReadSystemLiteral_m10456(__this, 0, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		DTDNotationDeclaration_set_SystemId_m10419(L_19, L_20, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_SystemId_m10416(L_19, L_20, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_00b4:
@@ -11969,7 +11969,7 @@ IL_00b4:
 
 IL_00b9:
 	{
-		int32_t L_21 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_21 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_21) == ((uint32_t)((int32_t)83)))))
 		{
 			goto IL_00da;
@@ -11977,17 +11977,17 @@ IL_00b9:
 	}
 	{
 		DTDNotationDeclaration_t3150 * L_22 = V_0;
-		String_t* L_23 = DTDReader_ReadSystemLiteral_m10459(__this, 1, /*hidden argument*/NULL);
+		String_t* L_23 = DTDReader_ReadSystemLiteral_m10456(__this, 1, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		DTDNotationDeclaration_set_SystemId_m10419(L_22, L_23, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDNotationDeclaration_set_SystemId_m10416(L_22, L_23, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_00da:
 	{
 		DTDNotationDeclaration_t3150 * L_24 = V_0;
 		NullCheck(L_24);
-		String_t* L_25 = DTDNotationDeclaration_get_PublicId_m10416(L_24, /*hidden argument*/NULL);
+		String_t* L_25 = DTDNotationDeclaration_get_PublicId_m10413(L_24, /*hidden argument*/NULL);
 		if (L_25)
 		{
 			goto IL_00fc;
@@ -11996,31 +11996,31 @@ IL_00da:
 	{
 		DTDNotationDeclaration_t3150 * L_26 = V_0;
 		NullCheck(L_26);
-		String_t* L_27 = DTDNotationDeclaration_get_SystemId_m10418(L_26, /*hidden argument*/NULL);
+		String_t* L_27 = DTDNotationDeclaration_get_SystemId_m10415(L_26, /*hidden argument*/NULL);
 		if (L_27)
 		{
 			goto IL_00fc;
 		}
 	}
 	{
-		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2122, /*hidden argument*/NULL);
+		XmlException_t3183 * L_28 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2124, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 
 IL_00fc:
 	{
-		DTDReader_TryExpandPERef_m10450(__this, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, ((int32_t)62), /*hidden argument*/NULL);
+		DTDReader_TryExpandPERef_m10447(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, ((int32_t)62), /*hidden argument*/NULL);
 		DTDNotationDeclaration_t3150 * L_29 = V_0;
 		return L_29;
 	}
 }
 // System.Void System.Xml.DTDReader::ReadExternalID()
-extern "C" void DTDReader_ReadExternalID_m10458 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ReadExternalID_m10455 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)((int32_t)80))) == 0)
@@ -12046,29 +12046,29 @@ extern "C" void DTDReader_ReadExternalID_m10458 (DTDReader_t3155 * __this, const
 
 IL_0025:
 	{
-		String_t* L_2 = DTDReader_ReadSystemLiteral_m10459(__this, 1, /*hidden argument*/NULL);
+		String_t* L_2 = DTDReader_ReadSystemLiteral_m10456(__this, 1, /*hidden argument*/NULL);
 		__this->___cachedSystemId_12 = L_2;
 		goto IL_006c;
 	}
 
 IL_0037:
 	{
-		String_t* L_3 = DTDReader_ReadPubidLiteral_m10460(__this, /*hidden argument*/NULL);
+		String_t* L_3 = DTDReader_ReadPubidLiteral_m10457(__this, /*hidden argument*/NULL);
 		__this->___cachedPublicId_11 = L_3;
-		bool L_4 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		bool L_4 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_005a;
 		}
 	}
 	{
-		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2123, /*hidden argument*/NULL);
+		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2125, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
 IL_005a:
 	{
-		String_t* L_6 = DTDReader_ReadSystemLiteral_m10459(__this, 0, /*hidden argument*/NULL);
+		String_t* L_6 = DTDReader_ReadSystemLiteral_m10456(__this, 0, /*hidden argument*/NULL);
 		__this->___cachedSystemId_12 = L_6;
 		goto IL_006c;
 	}
@@ -12079,7 +12079,7 @@ IL_006c:
 	}
 }
 // System.String System.Xml.DTDReader::ReadSystemLiteral(System.Boolean)
-extern "C" String_t* DTDReader_ReadSystemLiteral_m10459 (DTDReader_t3155 * __this, bool ___expectSYSTEM, const MethodInfo* method)
+extern "C" String_t* DTDReader_ReadSystemLiteral_m10456 (DTDReader_t3155 * __this, bool ___expectSYSTEM, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -12091,15 +12091,15 @@ extern "C" String_t* DTDReader_ReadSystemLiteral_m10459 (DTDReader_t3155 * __thi
 		}
 	}
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2124, /*hidden argument*/NULL);
-		bool L_1 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2126, /*hidden argument*/NULL);
+		bool L_1 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0028;
 		}
 	}
 	{
-		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2125, /*hidden argument*/NULL);
+		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2127, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -12110,21 +12110,21 @@ IL_0028:
 
 IL_002d:
 	{
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 	}
 
 IL_0034:
 	{
-		int32_t L_3 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_3 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_3;
 		V_1 = 0;
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		goto IL_0070;
 	}
 
 IL_0048:
 	{
-		int32_t L_4 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_4 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		if ((((int32_t)L_5) >= ((int32_t)0)))
@@ -12133,7 +12133,7 @@ IL_0048:
 		}
 	}
 	{
-		XmlException_t3183 * L_6 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2126, /*hidden argument*/NULL);
+		XmlException_t3183 * L_6 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2128, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -12148,7 +12148,7 @@ IL_0062:
 	}
 	{
 		int32_t L_9 = V_1;
-		DTDReader_AppendValueChar_m10475(__this, L_9, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_9, /*hidden argument*/NULL);
 	}
 
 IL_0070:
@@ -12161,7 +12161,7 @@ IL_0070:
 		}
 	}
 	{
-		String_t* L_12 = DTDReader_CreateValueString_m10476(__this, /*hidden argument*/NULL);
+		String_t* L_12 = DTDReader_CreateValueString_m10473(__this, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -12169,12 +12169,12 @@ IL_0070:
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDReader_ReadPubidLiteral_m10460 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" String_t* DTDReader_ReadPubidLiteral_m10457 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
@@ -12182,30 +12182,30 @@ extern "C" String_t* DTDReader_ReadPubidLiteral_m10460 (DTDReader_t3155 * __this
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2127, /*hidden argument*/NULL);
-		bool L_0 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2129, /*hidden argument*/NULL);
+		bool L_0 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0022;
 		}
 	}
 	{
-		XmlException_t3183 * L_1 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2128, /*hidden argument*/NULL);
+		XmlException_t3183 * L_1 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2130, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0022:
 	{
-		int32_t L_2 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_2 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_2;
 		V_1 = 0;
-		DTDReader_ClearValueBuffer_m10477(__this, /*hidden argument*/NULL);
+		DTDReader_ClearValueBuffer_m10474(__this, /*hidden argument*/NULL);
 		goto IL_0088;
 	}
 
 IL_0036:
 	{
-		int32_t L_3 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_3 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_3;
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_4) >= ((int32_t)0)))
@@ -12214,7 +12214,7 @@ IL_0036:
 		}
 	}
 	{
-		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2126, /*hidden argument*/NULL);
+		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2128, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -12230,7 +12230,7 @@ IL_0050:
 	{
 		int32_t L_8 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_9 = XmlChar_IsPubidChar_m10540(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		bool L_9 = XmlChar_IsPubidChar_m10537(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_007a;
@@ -12241,8 +12241,8 @@ IL_0050:
 		uint16_t L_11 = (((uint16_t)L_10));
 		Object_t * L_12 = Box(Char_t60_il2cpp_TypeInfo_var, &L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m3883(NULL /*static, unused*/, (String_t*) &_stringLiteral2129, L_12, /*hidden argument*/NULL);
-		XmlException_t3183 * L_14 = DTDReader_NotWFError_m10434(__this, L_13, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m3882(NULL /*static, unused*/, (String_t*) &_stringLiteral2131, L_12, /*hidden argument*/NULL);
+		XmlException_t3183 * L_14 = DTDReader_NotWFError_m10431(__this, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -12257,7 +12257,7 @@ IL_007a:
 	}
 	{
 		int32_t L_17 = V_1;
-		DTDReader_AppendValueChar_m10475(__this, L_17, /*hidden argument*/NULL);
+		DTDReader_AppendValueChar_m10472(__this, L_17, /*hidden argument*/NULL);
 	}
 
 IL_0088:
@@ -12270,15 +12270,15 @@ IL_0088:
 		}
 	}
 	{
-		String_t* L_20 = DTDReader_CreateValueString_m10476(__this, /*hidden argument*/NULL);
+		String_t* L_20 = DTDReader_CreateValueString_m10473(__this, /*hidden argument*/NULL);
 		return L_20;
 	}
 }
 // System.String System.Xml.DTDReader::ReadName()
-extern "C" String_t* DTDReader_ReadName_m10461 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" String_t* DTDReader_ReadName_m10458 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = DTDReader_ReadNameOrNmToken_m10462(__this, 0, /*hidden argument*/NULL);
+		String_t* L_0 = DTDReader_ReadNameOrNmToken_m10459(__this, 0, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -12287,12 +12287,12 @@ extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* DTDReader_ReadNameOrNmToken_m10462 (DTDReader_t3155 * __this, bool ___isNameToken, const MethodInfo* method)
+extern "C" String_t* DTDReader_ReadNameOrNmToken_m10459 (DTDReader_t3155 * __this, bool ___isNameToken, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12300,7 +12300,7 @@ extern "C" String_t* DTDReader_ReadNameOrNmToken_m10462 (DTDReader_t3155 * __thi
 	}
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		bool L_1 = ___isNameToken;
 		if (!L_1)
@@ -12311,7 +12311,7 @@ extern "C" String_t* DTDReader_ReadNameOrNmToken_m10462 (DTDReader_t3155 * __thi
 	{
 		int32_t L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_3 = XmlChar_IsNameChar_m10538(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = XmlChar_IsNameChar_m10535(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0036;
@@ -12325,8 +12325,8 @@ extern "C" String_t* DTDReader_ReadNameOrNmToken_m10462 (DTDReader_t3155 * __thi
 		uint16_t L_8 = (((uint16_t)L_7));
 		Object_t * L_9 = Box(Char_t60_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m3832(NULL /*static, unused*/, (String_t*) &_stringLiteral2130, L_6, L_9, /*hidden argument*/NULL);
-		XmlException_t3183 * L_11 = DTDReader_NotWFError_m10434(__this, L_10, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m3831(NULL /*static, unused*/, (String_t*) &_stringLiteral2132, L_6, L_9, /*hidden argument*/NULL);
+		XmlException_t3183 * L_11 = DTDReader_NotWFError_m10431(__this, L_10, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -12339,7 +12339,7 @@ IL_003b:
 	{
 		int32_t L_12 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_13 = XmlChar_IsFirstNameChar_m10534(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		bool L_13 = XmlChar_IsFirstNameChar_m10531(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_0064;
@@ -12353,53 +12353,53 @@ IL_003b:
 		uint16_t L_18 = (((uint16_t)L_17));
 		Object_t * L_19 = Box(Char_t60_il2cpp_TypeInfo_var, &L_18);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m3832(NULL /*static, unused*/, (String_t*) &_stringLiteral2131, L_16, L_19, /*hidden argument*/NULL);
-		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10434(__this, L_20, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m3831(NULL /*static, unused*/, (String_t*) &_stringLiteral2133, L_16, L_19, /*hidden argument*/NULL);
+		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10431(__this, L_20, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
 IL_0064:
 	{
 		__this->___nameLength_3 = 0;
-		int32_t L_22 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_AppendNameChar_m10472(__this, L_22, /*hidden argument*/NULL);
+		int32_t L_22 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_AppendNameChar_m10469(__this, L_22, /*hidden argument*/NULL);
 		goto IL_0088;
 	}
 
 IL_007c:
 	{
-		int32_t L_23 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_AppendNameChar_m10472(__this, L_23, /*hidden argument*/NULL);
+		int32_t L_23 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_AppendNameChar_m10469(__this, L_23, /*hidden argument*/NULL);
 	}
 
 IL_0088:
 	{
-		int32_t L_24 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_24 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_25 = XmlChar_IsNameChar_m10538(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		bool L_25 = XmlChar_IsNameChar_m10535(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		if (L_25)
 		{
 			goto IL_007c;
 		}
 	}
 	{
-		String_t* L_26 = DTDReader_CreateNameString_m10474(__this, /*hidden argument*/NULL);
+		String_t* L_26 = DTDReader_CreateNameString_m10471(__this, /*hidden argument*/NULL);
 		return L_26;
 	}
 }
 // System.Void System.Xml.DTDReader::Expect(System.Int32)
-extern TypeInfo* CultureInfo_t721_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t638_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t720_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t637_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___expected, const MethodInfo* method)
+extern "C" void DTDReader_Expect_m10460 (DTDReader_t3155 * __this, int32_t ___expected, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t721_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		ObjectU5BU5D_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
+		CultureInfo_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		ObjectU5BU5D_t637_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12407,7 +12407,7 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 	}
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		int32_t L_2 = ___expected;
@@ -12417,9 +12417,9 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_3 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
-		ObjectU5BU5D_t638* L_4 = ((ObjectU5BU5D_t638*)SZArrayNew(ObjectU5BU5D_t638_il2cpp_TypeInfo_var, 4));
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_3 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t637* L_4 = ((ObjectU5BU5D_t637*)SZArrayNew(ObjectU5BU5D_t637_il2cpp_TypeInfo_var, 4));
 		int32_t L_5 = ___expected;
 		uint16_t L_6 = (((uint16_t)L_5));
 		Object_t * L_7 = Box(Char_t60_il2cpp_TypeInfo_var, &L_6);
@@ -12427,7 +12427,7 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		ArrayElementTypeCheck (L_4, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)L_7;
-		ObjectU5BU5D_t638* L_8 = L_4;
+		ObjectU5BU5D_t637* L_8 = L_4;
 		int32_t L_9 = ___expected;
 		int32_t L_10 = L_9;
 		Object_t * L_11 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_10);
@@ -12435,7 +12435,7 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 1);
 		ArrayElementTypeCheck (L_8, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_11;
-		ObjectU5BU5D_t638* L_12 = L_8;
+		ObjectU5BU5D_t637* L_12 = L_8;
 		int32_t L_13 = V_0;
 		uint16_t L_14 = (((uint16_t)L_13));
 		Object_t * L_15 = Box(Char_t60_il2cpp_TypeInfo_var, &L_14);
@@ -12443,7 +12443,7 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 2);
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 2)) = (Object_t *)L_15;
-		ObjectU5BU5D_t638* L_16 = L_12;
+		ObjectU5BU5D_t637* L_16 = L_12;
 		int32_t L_17 = V_0;
 		int32_t L_18 = L_17;
 		Object_t * L_19 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_18);
@@ -12452,8 +12452,8 @@ extern "C" void DTDReader_Expect_m10463 (DTDReader_t3155 * __this, int32_t ___ex
 		ArrayElementTypeCheck (L_16, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 3)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m11211(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral2132, L_16, /*hidden argument*/NULL);
-		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10434(__this, L_20, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m11208(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral2134, L_16, /*hidden argument*/NULL);
+		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10431(__this, L_20, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
@@ -12463,7 +12463,7 @@ IL_0050:
 	}
 }
 // System.Void System.Xml.DTDReader::Expect(System.String)
-extern "C" void DTDReader_Expect_m10464 (DTDReader_t3155 * __this, String_t* ___expected, const MethodInfo* method)
+extern "C" void DTDReader_Expect_m10461 (DTDReader_t3155 * __this, String_t* ___expected, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -12482,7 +12482,7 @@ IL_000e:
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		uint16_t L_4 = String_get_Chars_m407(L_2, L_3, /*hidden argument*/NULL);
-		DTDReader_Expect_m10463(__this, L_4, /*hidden argument*/NULL);
+		DTDReader_Expect_m10460(__this, L_4, /*hidden argument*/NULL);
 		int32_t L_5 = V_1;
 		V_1 = ((int32_t)((int32_t)L_5+(int32_t)1));
 	}
@@ -12502,19 +12502,19 @@ IL_001f:
 }
 // System.Void System.Xml.DTDReader::ExpectAfterWhitespace(System.Char)
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t721_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t638_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t720_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t637_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ExpectAfterWhitespace_m10465 (DTDReader_t3155 * __this, uint16_t ___c, const MethodInfo* method)
+extern "C" void DTDReader_ExpectAfterWhitespace_m10462 (DTDReader_t3155 * __this, uint16_t ___c, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
-		CultureInfo_t721_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		ObjectU5BU5D_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
+		CultureInfo_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		ObjectU5BU5D_t637_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12524,11 +12524,11 @@ extern "C" void DTDReader_ExpectAfterWhitespace_m10465 (DTDReader_t3155 * __this
 
 IL_0000:
 	{
-		int32_t L_0 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_2 = XmlChar_IsWhitespace_m10531(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		bool L_2 = XmlChar_IsWhitespace_m10528(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0017;
@@ -12548,9 +12548,9 @@ IL_0017:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_5 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
-		ObjectU5BU5D_t638* L_6 = ((ObjectU5BU5D_t638*)SZArrayNew(ObjectU5BU5D_t638_il2cpp_TypeInfo_var, 3));
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_5 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t637* L_6 = ((ObjectU5BU5D_t637*)SZArrayNew(ObjectU5BU5D_t637_il2cpp_TypeInfo_var, 3));
 		uint16_t L_7 = ___c;
 		uint16_t L_8 = L_7;
 		Object_t * L_9 = Box(Char_t60_il2cpp_TypeInfo_var, &L_8);
@@ -12558,7 +12558,7 @@ IL_0017:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)L_9;
-		ObjectU5BU5D_t638* L_10 = L_6;
+		ObjectU5BU5D_t637* L_10 = L_6;
 		int32_t L_11 = V_0;
 		uint16_t L_12 = (((uint16_t)L_11));
 		Object_t * L_13 = Box(Char_t60_il2cpp_TypeInfo_var, &L_12);
@@ -12566,7 +12566,7 @@ IL_0017:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 1);
 		ArrayElementTypeCheck (L_10, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 1)) = (Object_t *)L_13;
-		ObjectU5BU5D_t638* L_14 = L_10;
+		ObjectU5BU5D_t637* L_14 = L_10;
 		int32_t L_15 = V_0;
 		int32_t L_16 = L_15;
 		Object_t * L_17 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_16);
@@ -12575,8 +12575,8 @@ IL_0017:
 		ArrayElementTypeCheck (L_14, L_17);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 2)) = (Object_t *)L_17;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Format_m11211(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2133, L_14, /*hidden argument*/NULL);
-		XmlException_t3183 * L_19 = DTDReader_NotWFError_m10434(__this, L_18, /*hidden argument*/NULL);
+		String_t* L_18 = String_Format_m11208(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2135, L_14, /*hidden argument*/NULL);
+		XmlException_t3183 * L_19 = DTDReader_NotWFError_m10431(__this, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -12593,33 +12593,33 @@ IL_0060:
 }
 // System.Boolean System.Xml.DTDReader::SkipWhitespace()
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" bool DTDReader_SkipWhitespace_m10466 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" bool DTDReader_SkipWhitespace_m10463 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	{
-		int32_t L_0 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_0 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_1 = XmlChar_IsWhitespace_m10531(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = XmlChar_IsWhitespace_m10528(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_0018;
 	}
 
 IL_0011:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 	}
 
 IL_0018:
 	{
-		int32_t L_2 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_2 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_3 = XmlChar_IsWhitespace_m10531(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = XmlChar_IsWhitespace_m10528(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0011;
@@ -12631,46 +12631,46 @@ IL_0018:
 	}
 }
 // System.Int32 System.Xml.DTDReader::PeekChar()
-extern "C" int32_t DTDReader_PeekChar_m10467 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" int32_t DTDReader_PeekChar_m10464 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		int32_t L_1 = XmlParserInput_PeekChar_m10881(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = XmlParserInput_PeekChar_m10878(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Int32 System.Xml.DTDReader::ReadChar()
-extern "C" int32_t DTDReader_ReadChar_m10468 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" int32_t DTDReader_ReadChar_m10465 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		int32_t L_1 = XmlParserInput_ReadChar_m10882(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = XmlParserInput_ReadChar_m10879(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Xml.DTDReader::ReadComment()
 extern TypeInfo* XmlChar_t3172_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadComment_m10469 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ReadComment_m10466 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		XmlChar_t3172_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		XmlParserInput_set_AllowTextDecl_m10888(L_0, 0, /*hidden argument*/NULL);
+		XmlParserInput_set_AllowTextDecl_m10885(L_0, 0, /*hidden argument*/NULL);
 		goto IL_0070;
 	}
 
 IL_0011:
 	{
-		int32_t L_1 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_1 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)45)))))
@@ -12679,28 +12679,28 @@ IL_0011:
 		}
 	}
 	{
-		int32_t L_3 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_3 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)((int32_t)45)))))
 		{
 			goto IL_0059;
 		}
 	}
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		int32_t L_4 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		int32_t L_4 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)62))))
 		{
 			goto IL_004d;
 		}
 	}
 	{
-		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2134, /*hidden argument*/NULL);
+		XmlException_t3183 * L_5 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2136, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
 IL_004d:
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_007c;
 	}
 
@@ -12708,20 +12708,20 @@ IL_0059:
 	{
 		int32_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlChar_t3172_il2cpp_TypeInfo_var);
-		bool L_7 = XmlChar_IsInvalid_m10535(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		bool L_7 = XmlChar_IsInvalid_m10532(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0070;
 		}
 	}
 	{
-		XmlException_t3183 * L_8 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2135, /*hidden argument*/NULL);
+		XmlException_t3183 * L_8 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2137, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
 IL_0070:
 	{
-		int32_t L_9 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_9 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_9) == ((uint32_t)(-1)))))
 		{
 			goto IL_0011;
@@ -12735,50 +12735,50 @@ IL_007c:
 }
 // System.Void System.Xml.DTDReader::ReadProcessingInstruction()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t721_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadProcessingInstruction_m10470 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern TypeInfo* CultureInfo_t720_il2cpp_TypeInfo_var;
+extern "C" void DTDReader_ReadProcessingInstruction_m10467 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		CultureInfo_t721_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		CultureInfo_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	int32_t V_1 = 0;
 	{
-		String_t* L_0 = DTDReader_ReadName_m10461(__this, /*hidden argument*/NULL);
+		String_t* L_0 = DTDReader_ReadName_m10458(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		String_t* L_1 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_op_Equality_m456(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2136, /*hidden argument*/NULL);
+		bool L_2 = String_op_Equality_m456(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2138, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		DTDReader_ReadTextDeclaration_m10471(__this, /*hidden argument*/NULL);
+		DTDReader_ReadTextDeclaration_m10468(__this, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_001e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t721_il2cpp_TypeInfo_var);
-		CultureInfo_t721 * L_3 = CultureInfo_get_InvariantCulture_m3835(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t720_il2cpp_TypeInfo_var);
+		CultureInfo_t720 * L_3 = CultureInfo_get_InvariantCulture_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		CompareInfo_t3228 * L_4 = (CompareInfo_t3228 *)VirtFuncInvoker0< CompareInfo_t3228 * >::Invoke(9 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_3);
 		String_t* L_5 = V_0;
 		NullCheck(L_4);
-		int32_t L_6 = (int32_t)VirtFuncInvoker3< int32_t, String_t*, String_t*, int32_t >::Invoke(6 /* System.Int32 System.Globalization.CompareInfo::Compare(System.String,System.String,System.Globalization.CompareOptions) */, L_4, L_5, (String_t*) &_stringLiteral2136, 1);
+		int32_t L_6 = (int32_t)VirtFuncInvoker3< int32_t, String_t*, String_t*, int32_t >::Invoke(6 /* System.Int32 System.Globalization.CompareInfo::Compare(System.String,System.String,System.Globalization.CompareOptions) */, L_4, L_5, (String_t*) &_stringLiteral2138, 1);
 		if (L_6)
 		{
 			goto IL_0045;
 		}
 	}
 	{
-		XmlException_t3183 * L_7 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2137, /*hidden argument*/NULL);
+		XmlException_t3183 * L_7 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2139, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -12786,22 +12786,22 @@ IL_0045:
 	{
 		XmlParserInput_t3154 * L_8 = (__this->___currentInput_0);
 		NullCheck(L_8);
-		XmlParserInput_set_AllowTextDecl_m10888(L_8, 0, /*hidden argument*/NULL);
-		bool L_9 = DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		XmlParserInput_set_AllowTextDecl_m10885(L_8, 0, /*hidden argument*/NULL);
+		bool L_9 = DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_0075;
 		}
 	}
 	{
-		int32_t L_10 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_10 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_10) == ((int32_t)((int32_t)63))))
 		{
 			goto IL_0075;
 		}
 	}
 	{
-		XmlException_t3183 * L_11 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2138, /*hidden argument*/NULL);
+		XmlException_t3183 * L_11 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2140, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -12812,7 +12812,7 @@ IL_0075:
 
 IL_007a:
 	{
-		int32_t L_12 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_12 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_1 = L_12;
 		int32_t L_13 = V_1;
 		if ((!(((uint32_t)L_13) == ((uint32_t)((int32_t)63)))))
@@ -12821,20 +12821,20 @@ IL_007a:
 		}
 	}
 	{
-		int32_t L_14 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_14 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)62)))))
 		{
 			goto IL_00a2;
 		}
 	}
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		goto IL_00ae;
 	}
 
 IL_00a2:
 	{
-		int32_t L_15 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_15 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_15) == ((uint32_t)(-1)))))
 		{
 			goto IL_007a;
@@ -12847,33 +12847,33 @@ IL_00ae:
 	}
 }
 // System.Void System.Xml.DTDReader::ReadTextDeclaration()
-extern TypeInfo* CharU5BU5D_t663_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t662_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_ReadTextDeclaration_m10471 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ReadTextDeclaration_m10468 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t663_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		CharU5BU5D_t662_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	CharU5BU5D_t663* V_1 = {0};
+	CharU5BU5D_t662* V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		bool L_1 = XmlParserInput_get_AllowTextDecl_m10887(L_0, /*hidden argument*/NULL);
+		bool L_1 = XmlParserInput_get_AllowTextDecl_m10884(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2139, /*hidden argument*/NULL);
+		XmlException_t3183 * L_2 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2141, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -12881,21 +12881,21 @@ IL_001c:
 	{
 		XmlParserInput_t3154 * L_3 = (__this->___currentInput_0);
 		NullCheck(L_3);
-		XmlParserInput_set_AllowTextDecl_m10888(L_3, 0, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_4 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		XmlParserInput_set_AllowTextDecl_m10885(L_3, 0, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_4 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)118)))))
 		{
 			goto IL_0111;
 		}
 	}
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral880, /*hidden argument*/NULL);
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)61), /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_5 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral880, /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)61), /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_5 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_0 = L_5;
-		V_1 = ((CharU5BU5D_t663*)SZArrayNew(CharU5BU5D_t663_il2cpp_TypeInfo_var, 3));
+		V_1 = ((CharU5BU5D_t662*)SZArrayNew(CharU5BU5D_t662_il2cpp_TypeInfo_var, 3));
 		V_2 = 0;
 		int32_t L_6 = V_0;
 		V_4 = L_6;
@@ -12923,14 +12923,14 @@ IL_0080:
 
 IL_0085:
 	{
-		int32_t L_9 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_9 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_9) == ((uint32_t)(-1)))))
 		{
 			goto IL_009d;
 		}
 	}
 	{
-		XmlException_t3183 * L_10 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2140, /*hidden argument*/NULL);
+		XmlException_t3183 * L_10 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2142, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -12943,15 +12943,15 @@ IL_009d:
 		}
 	}
 	{
-		XmlException_t3183 * L_12 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2141, /*hidden argument*/NULL);
+		XmlException_t3183 * L_12 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2143, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
 IL_00b0:
 	{
-		CharU5BU5D_t663* L_13 = V_1;
+		CharU5BU5D_t662* L_13 = V_1;
 		int32_t L_14 = V_2;
-		int32_t L_15 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_15 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_13, L_14)) = (uint16_t)(((uint16_t)L_15));
@@ -12964,9 +12964,9 @@ IL_00b0:
 		}
 	}
 	{
-		CharU5BU5D_t663* L_18 = V_1;
+		CharU5BU5D_t662* L_18 = V_1;
 		String_t* L_19 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
-		L_19 = String_CreateString_m3755(L_19, L_18, /*hidden argument*/NULL);
+		L_19 = String_CreateString_m3754(L_19, L_18, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_20 = String_op_Inequality_m415(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral645, /*hidden argument*/NULL);
 		if (!L_20)
@@ -12975,13 +12975,13 @@ IL_00b0:
 		}
 	}
 	{
-		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2141, /*hidden argument*/NULL);
+		XmlException_t3183 * L_21 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2143, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
 IL_00e6:
 	{
-		int32_t L_22 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_22 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		int32_t L_23 = V_0;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -12989,30 +12989,30 @@ IL_00e6:
 		}
 	}
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_0111;
 	}
 
 IL_0105:
 	{
-		XmlException_t3183 * L_24 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2140, /*hidden argument*/NULL);
+		XmlException_t3183 * L_24 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2142, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
 IL_0111:
 	{
-		int32_t L_25 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_25 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_25) == ((uint32_t)((int32_t)101)))))
 		{
 			goto IL_01a6;
 		}
 	}
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2142, /*hidden argument*/NULL);
-		DTDReader_ExpectAfterWhitespace_m10465(__this, ((int32_t)61), /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
-		int32_t L_26 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2144, /*hidden argument*/NULL);
+		DTDReader_ExpectAfterWhitespace_m10462(__this, ((int32_t)61), /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
+		int32_t L_26 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		V_3 = L_26;
 		int32_t L_27 = V_3;
 		V_4 = L_27;
@@ -13040,20 +13040,20 @@ IL_0159:
 
 IL_015e:
 	{
-		int32_t L_30 = DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
+		int32_t L_30 = DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_30) == ((uint32_t)(-1)))))
 		{
 			goto IL_0176;
 		}
 	}
 	{
-		XmlException_t3183 * L_31 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2143, /*hidden argument*/NULL);
+		XmlException_t3183 * L_31 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2145, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_31);
 	}
 
 IL_0176:
 	{
-		int32_t L_32 = DTDReader_PeekChar_m10467(__this, /*hidden argument*/NULL);
+		int32_t L_32 = DTDReader_PeekChar_m10464(__this, /*hidden argument*/NULL);
 		int32_t L_33 = V_3;
 		if ((!(((uint32_t)L_32) == ((uint32_t)L_33))))
 		{
@@ -13061,14 +13061,14 @@ IL_0176:
 		}
 	}
 	{
-		DTDReader_ReadChar_m10468(__this, /*hidden argument*/NULL);
-		DTDReader_SkipWhitespace_m10466(__this, /*hidden argument*/NULL);
+		DTDReader_ReadChar_m10465(__this, /*hidden argument*/NULL);
+		DTDReader_SkipWhitespace_m10463(__this, /*hidden argument*/NULL);
 		goto IL_01a1;
 	}
 
 IL_0195:
 	{
-		XmlException_t3183 * L_34 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2143, /*hidden argument*/NULL);
+		XmlException_t3183 * L_34 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2145, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_34);
 	}
 
@@ -13079,22 +13079,22 @@ IL_01a1:
 
 IL_01a6:
 	{
-		XmlException_t3183 * L_35 = DTDReader_NotWFError_m10434(__this, (String_t*) &_stringLiteral2144, /*hidden argument*/NULL);
+		XmlException_t3183 * L_35 = DTDReader_NotWFError_m10431(__this, (String_t*) &_stringLiteral2146, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_35);
 	}
 
 IL_01b2:
 	{
-		DTDReader_Expect_m10464(__this, (String_t*) &_stringLiteral2145, /*hidden argument*/NULL);
+		DTDReader_Expect_m10461(__this, (String_t*) &_stringLiteral2147, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Xml.DTDReader::AppendNameChar(System.Int32)
-extern "C" void DTDReader_AppendNameChar_m10472 (DTDReader_t3155 * __this, int32_t ___ch, const MethodInfo* method)
+extern "C" void DTDReader_AppendNameChar_m10469 (DTDReader_t3155 * __this, int32_t ___ch, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		DTDReader_CheckNameCapacity_m10473(__this, /*hidden argument*/NULL);
+		DTDReader_CheckNameCapacity_m10470(__this, /*hidden argument*/NULL);
 		int32_t L_0 = ___ch;
 		if ((((int32_t)L_0) >= ((int32_t)((int32_t)65535))))
 		{
@@ -13102,7 +13102,7 @@ extern "C" void DTDReader_AppendNameChar_m10472 (DTDReader_t3155 * __this, int32
 		}
 	}
 	{
-		CharU5BU5D_t663* L_1 = (__this->___nameBuffer_2);
+		CharU5BU5D_t662* L_1 = (__this->___nameBuffer_2);
 		int32_t L_2 = (__this->___nameLength_3);
 		int32_t L_3 = L_2;
 		V_0 = L_3;
@@ -13117,7 +13117,7 @@ extern "C" void DTDReader_AppendNameChar_m10472 (DTDReader_t3155 * __this, int32
 
 IL_0030:
 	{
-		CharU5BU5D_t663* L_6 = (__this->___nameBuffer_2);
+		CharU5BU5D_t662* L_6 = (__this->___nameBuffer_2);
 		int32_t L_7 = (__this->___nameLength_3);
 		int32_t L_8 = L_7;
 		V_0 = L_8;
@@ -13127,8 +13127,8 @@ IL_0030:
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_9);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_6, L_9)) = (uint16_t)(((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_10/(int32_t)((int32_t)65536)))+(int32_t)((int32_t)55296)))-(int32_t)1))));
-		DTDReader_CheckNameCapacity_m10473(__this, /*hidden argument*/NULL);
-		CharU5BU5D_t663* L_11 = (__this->___nameBuffer_2);
+		DTDReader_CheckNameCapacity_m10470(__this, /*hidden argument*/NULL);
+		CharU5BU5D_t662* L_11 = (__this->___nameBuffer_2);
 		int32_t L_12 = (__this->___nameLength_3);
 		int32_t L_13 = L_12;
 		V_0 = L_13;
@@ -13146,16 +13146,16 @@ IL_0084:
 	}
 }
 // System.Void System.Xml.DTDReader::CheckNameCapacity()
-extern TypeInfo* CharU5BU5D_t663_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_CheckNameCapacity_m10473 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern TypeInfo* CharU5BU5D_t662_il2cpp_TypeInfo_var;
+extern "C" void DTDReader_CheckNameCapacity_m10470 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t663_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		CharU5BU5D_t662_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		s_Il2CppMethodIntialized = true;
 	}
-	CharU5BU5D_t663* V_0 = {0};
+	CharU5BU5D_t662* V_0 = {0};
 	{
 		int32_t L_0 = (__this->___nameLength_3);
 		int32_t L_1 = (__this->___nameCapacity_4);
@@ -13167,14 +13167,14 @@ extern "C" void DTDReader_CheckNameCapacity_m10473 (DTDReader_t3155 * __this, co
 	{
 		int32_t L_2 = (__this->___nameCapacity_4);
 		__this->___nameCapacity_4 = ((int32_t)((int32_t)L_2*(int32_t)2));
-		CharU5BU5D_t663* L_3 = (__this->___nameBuffer_2);
+		CharU5BU5D_t662* L_3 = (__this->___nameBuffer_2);
 		V_0 = L_3;
 		int32_t L_4 = (__this->___nameCapacity_4);
-		__this->___nameBuffer_2 = ((CharU5BU5D_t663*)SZArrayNew(CharU5BU5D_t663_il2cpp_TypeInfo_var, L_4));
-		CharU5BU5D_t663* L_5 = V_0;
-		CharU5BU5D_t663* L_6 = (__this->___nameBuffer_2);
+		__this->___nameBuffer_2 = ((CharU5BU5D_t662*)SZArrayNew(CharU5BU5D_t662_il2cpp_TypeInfo_var, L_4));
+		CharU5BU5D_t662* L_5 = V_0;
+		CharU5BU5D_t662* L_6 = (__this->___nameBuffer_2);
 		int32_t L_7 = (__this->___nameLength_3);
-		Array_Copy_m11212(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, (Array_t *)(Array_t *)L_6, L_7, /*hidden argument*/NULL);
+		Array_Copy_m11209(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, (Array_t *)(Array_t *)L_6, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0049:
@@ -13183,27 +13183,27 @@ IL_0049:
 	}
 }
 // System.String System.Xml.DTDReader::CreateNameString()
-extern "C" String_t* DTDReader_CreateNameString_m10474 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" String_t* DTDReader_CreateNameString_m10471 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		NullCheck(L_0);
-		XmlNameTable_t3135 * L_1 = DTDObjectModel_get_NameTable_m10299(L_0, /*hidden argument*/NULL);
-		CharU5BU5D_t663* L_2 = (__this->___nameBuffer_2);
+		XmlNameTable_t3135 * L_1 = DTDObjectModel_get_NameTable_m10296(L_0, /*hidden argument*/NULL);
+		CharU5BU5D_t662* L_2 = (__this->___nameBuffer_2);
 		int32_t L_3 = (__this->___nameLength_3);
 		NullCheck(L_1);
-		String_t* L_4 = (String_t*)VirtFuncInvoker3< String_t*, CharU5BU5D_t663*, int32_t, int32_t >::Invoke(5 /* System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32) */, L_1, L_2, 0, L_3);
+		String_t* L_4 = (String_t*)VirtFuncInvoker3< String_t*, CharU5BU5D_t662*, int32_t, int32_t >::Invoke(5 /* System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32) */, L_1, L_2, 0, L_3);
 		return L_4;
 	}
 }
 // System.Void System.Xml.DTDReader::AppendValueChar(System.Int32)
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_AppendValueChar_m10475 (DTDReader_t3155 * __this, int32_t ___ch, const MethodInfo* method)
+extern "C" void DTDReader_AppendValueChar_m10472 (DTDReader_t3155 * __this, int32_t ___ch, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -13218,7 +13218,7 @@ extern "C" void DTDReader_AppendValueChar_m10475 (DTDReader_t3155 * __this, int3
 		StringBuilder_t261 * L_1 = (__this->___valueBuffer_5);
 		int32_t L_2 = ___ch;
 		NullCheck(L_1);
-		StringBuilder_Append_m3614(L_1, (((uint16_t)L_2)), /*hidden argument*/NULL);
+		StringBuilder_Append_m3613(L_1, (((uint16_t)L_2)), /*hidden argument*/NULL);
 		return;
 	}
 
@@ -13234,7 +13234,7 @@ IL_001a:
 		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Xml.DTDReader::get_LineNumber() */, __this);
 		int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Xml.DTDReader::get_LinePosition() */, __this);
 		XmlException_t3183 * L_6 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-		XmlException__ctor_m10698(L_6, (String_t*) &_stringLiteral2146, (Exception_t57 *)NULL, L_4, L_5, /*hidden argument*/NULL);
+		XmlException__ctor_m10695(L_6, (String_t*) &_stringLiteral2148, (Exception_t57 *)NULL, L_4, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -13245,16 +13245,16 @@ IL_003d:
 		StringBuilder_t261 * L_8 = (__this->___valueBuffer_5);
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
-		StringBuilder_Append_m3614(L_8, (((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_9>>(int32_t)((int32_t)10)))+(int32_t)((int32_t)55296))))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3613(L_8, (((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_9>>(int32_t)((int32_t)10)))+(int32_t)((int32_t)55296))))), /*hidden argument*/NULL);
 		StringBuilder_t261 * L_10 = (__this->___valueBuffer_5);
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
-		StringBuilder_Append_m3614(L_10, (((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_11&(int32_t)((int32_t)1023)))+(int32_t)((int32_t)56320))))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3613(L_10, (((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_11&(int32_t)((int32_t)1023)))+(int32_t)((int32_t)56320))))), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String System.Xml.DTDReader::CreateValueString()
-extern "C" String_t* DTDReader_CreateValueString_m10476 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" String_t* DTDReader_CreateValueString_m10473 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		StringBuilder_t261 * L_0 = (__this->___valueBuffer_5);
@@ -13264,18 +13264,18 @@ extern "C" String_t* DTDReader_CreateValueString_m10476 (DTDReader_t3155 * __thi
 	}
 }
 // System.Void System.Xml.DTDReader::ClearValueBuffer()
-extern "C" void DTDReader_ClearValueBuffer_m10477 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_ClearValueBuffer_m10474 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	{
 		StringBuilder_t261 * L_0 = (__this->___valueBuffer_5);
 		NullCheck(L_0);
-		StringBuilder_set_Length_m11208(L_0, 0, /*hidden argument*/NULL);
+		StringBuilder_set_Length_m11205(L_0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Xml.DTDReader::PushParserInput(System.String)
 extern const Il2CppType* Stream_t51_0_0_0_var;
-extern TypeInfo* Uri_t710_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t709_il2cpp_TypeInfo_var;
 extern TypeInfo* UriFormatException_t3248_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlParserInput_t3154_il2cpp_TypeInfo_var;
@@ -13287,31 +13287,31 @@ extern TypeInfo* XmlStreamReader_t3186_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t57_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3183_il2cpp_TypeInfo_var;
 extern TypeInfo* StringReader_t259_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_PushParserInput_m10478 (DTDReader_t3155 * __this, String_t* ___url, const MethodInfo* method)
+extern "C" void DTDReader_PushParserInput_m10475 (DTDReader_t3155 * __this, String_t* ___url, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Stream_t51_0_0_0_var = il2cpp_codegen_type_from_index(143);
-		Uri_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
-		UriFormatException_t3248_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
+		Uri_t709_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		UriFormatException_t3248_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
+		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
 		MemoryStream_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(32);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
-		XmlStreamReader_t3186_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5340);
+		XmlStreamReader_t3186_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5338);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
-		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		XmlException_t3183_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5317);
 		StringReader_t259_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(264);
 		s_Il2CppMethodIntialized = true;
 	}
-	Uri_t710 * V_0 = {0};
-	Uri_t710 * V_1 = {0};
+	Uri_t709 * V_0 = {0};
+	Uri_t709 * V_1 = {0};
 	String_t* V_2 = {0};
 	XmlParserInput_t3154 * V_3 = {0};
-	ObjectU5BU5D_t638* V_4 = {0};
+	ObjectU5BU5D_t637* V_4 = {0};
 	int32_t V_5 = 0;
 	Stream_t51 * V_6 = {0};
 	MemoryStream_t65 * V_7 = {0};
@@ -13327,13 +13327,13 @@ extern "C" void DTDReader_PushParserInput_m10478 (DTDReader_t3155 * __this, Stri
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
-	Uri_t710 * G_B10_0 = {0};
+	Uri_t709 * G_B10_0 = {0};
 	String_t* G_B13_0 = {0};
 	int32_t G_B27_0 = 0;
 	int32_t G_B30_0 = 0;
 	String_t* G_B33_0 = {0};
 	{
-		V_0 = (Uri_t710 *)NULL;
+		V_0 = (Uri_t709 *)NULL;
 	}
 
 IL_0002:
@@ -13342,7 +13342,7 @@ IL_0002:
 		{
 			DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 			NullCheck(L_0);
-			String_t* L_1 = DTDObjectModel_get_BaseURI_m10293(L_0, /*hidden argument*/NULL);
+			String_t* L_1 = DTDObjectModel_get_BaseURI_m10290(L_0, /*hidden argument*/NULL);
 			if (!L_1)
 			{
 				goto IL_0039;
@@ -13353,7 +13353,7 @@ IL_0012:
 		{
 			DTDObjectModel_t3127 * L_2 = (__this->___DTD_13);
 			NullCheck(L_2);
-			String_t* L_3 = DTDObjectModel_get_BaseURI_m10293(L_2, /*hidden argument*/NULL);
+			String_t* L_3 = DTDObjectModel_get_BaseURI_m10290(L_2, /*hidden argument*/NULL);
 			NullCheck(L_3);
 			int32_t L_4 = String_get_Length_m410(L_3, /*hidden argument*/NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -13366,9 +13366,9 @@ IL_0028:
 		{
 			DTDObjectModel_t3127 * L_5 = (__this->___DTD_13);
 			NullCheck(L_5);
-			String_t* L_6 = DTDObjectModel_get_BaseURI_m10293(L_5, /*hidden argument*/NULL);
-			Uri_t710 * L_7 = (Uri_t710 *)il2cpp_codegen_object_new (Uri_t710_il2cpp_TypeInfo_var);
-			Uri__ctor_m7221(L_7, L_6, /*hidden argument*/NULL);
+			String_t* L_6 = DTDObjectModel_get_BaseURI_m10290(L_5, /*hidden argument*/NULL);
+			Uri_t709 * L_7 = (Uri_t709 *)il2cpp_codegen_object_new (Uri_t709_il2cpp_TypeInfo_var);
+			Uri__ctor_m7218(L_7, L_6, /*hidden argument*/NULL);
 			V_0 = L_7;
 		}
 
@@ -13410,34 +13410,34 @@ IL_0044:
 	{
 		DTDObjectModel_t3127 * L_11 = (__this->___DTD_13);
 		NullCheck(L_11);
-		XmlResolver_t3134 * L_12 = DTDObjectModel_get_Resolver_m10313(L_11, /*hidden argument*/NULL);
-		Uri_t710 * L_13 = V_0;
+		XmlResolver_t3134 * L_12 = DTDObjectModel_get_Resolver_m10310(L_11, /*hidden argument*/NULL);
+		Uri_t709 * L_13 = V_0;
 		String_t* L_14 = ___url;
 		NullCheck(L_12);
-		Uri_t710 * L_15 = (Uri_t710 *)VirtFuncInvoker2< Uri_t710 *, Uri_t710 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_12, L_13, L_14);
+		Uri_t709 * L_15 = (Uri_t709 *)VirtFuncInvoker2< Uri_t709 *, Uri_t709 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_12, L_13, L_14);
 		G_B10_0 = L_15;
 		goto IL_006e;
 	}
 
 IL_006d:
 	{
-		Uri_t710 * L_16 = V_0;
+		Uri_t709 * L_16 = V_0;
 		G_B10_0 = L_16;
 	}
 
 IL_006e:
 	{
 		V_1 = G_B10_0;
-		Uri_t710 * L_17 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t710_il2cpp_TypeInfo_var);
-		bool L_18 = Uri_op_Inequality_m11209(NULL /*static, unused*/, L_17, (Uri_t710 *)NULL, /*hidden argument*/NULL);
+		Uri_t709 * L_17 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t709_il2cpp_TypeInfo_var);
+		bool L_18 = Uri_op_Inequality_m11206(NULL /*static, unused*/, L_17, (Uri_t709 *)NULL, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_0086;
 		}
 	}
 	{
-		Uri_t710 * L_19 = V_1;
+		Uri_t709 * L_19 = V_1;
 		NullCheck(L_19);
 		String_t* L_20 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_19);
 		G_B13_0 = L_20;
@@ -13456,7 +13456,7 @@ IL_008b:
 		V_2 = G_B13_0;
 		Stack_t2849 * L_22 = (__this->___parserInputStack_1);
 		NullCheck(L_22);
-		ObjectU5BU5D_t638* L_23 = (ObjectU5BU5D_t638*)VirtFuncInvoker0< ObjectU5BU5D_t638* >::Invoke(19 /* System.Object[] System.Collections.Stack::ToArray() */, L_22);
+		ObjectU5BU5D_t637* L_23 = (ObjectU5BU5D_t637*)VirtFuncInvoker0< ObjectU5BU5D_t637* >::Invoke(19 /* System.Object[] System.Collections.Stack::ToArray() */, L_22);
 		V_4 = L_23;
 		V_5 = 0;
 		goto IL_00d5;
@@ -13464,7 +13464,7 @@ IL_008b:
 
 IL_00a1:
 	{
-		ObjectU5BU5D_t638* L_24 = V_4;
+		ObjectU5BU5D_t637* L_24 = V_4;
 		int32_t L_25 = V_5;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, L_25);
@@ -13472,7 +13472,7 @@ IL_00a1:
 		V_3 = ((XmlParserInput_t3154 *)Castclass((*(Object_t **)(Object_t **)SZArrayLdElema(L_24, L_26)), XmlParserInput_t3154_il2cpp_TypeInfo_var));
 		XmlParserInput_t3154 * L_27 = V_3;
 		NullCheck(L_27);
-		String_t* L_28 = XmlParserInput_get_BaseURI_m10883(L_27, /*hidden argument*/NULL);
+		String_t* L_28 = XmlParserInput_get_BaseURI_m10880(L_27, /*hidden argument*/NULL);
 		String_t* L_29 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_30 = String_op_Equality_m456(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
@@ -13484,8 +13484,8 @@ IL_00a1:
 	{
 		String_t* L_31 = ___url;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_32 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral2147, L_31, /*hidden argument*/NULL);
-		XmlException_t3183 * L_33 = DTDReader_NotWFError_m10434(__this, L_32, /*hidden argument*/NULL);
+		String_t* L_32 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral2149, L_31, /*hidden argument*/NULL);
+		XmlException_t3183 * L_33 = DTDReader_NotWFError_m10431(__this, L_32, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_33);
 	}
 
@@ -13498,7 +13498,7 @@ IL_00cf:
 IL_00d5:
 	{
 		int32_t L_35 = V_5;
-		ObjectU5BU5D_t638* L_36 = V_4;
+		ObjectU5BU5D_t637* L_36 = V_4;
 		NullCheck(L_36);
 		if ((((int32_t)L_35) < ((int32_t)(((int32_t)(((Array_t *)L_36)->max_length))))))
 		{
@@ -13522,12 +13522,12 @@ IL_00fb:
 		{
 			DTDObjectModel_t3127 * L_40 = (__this->___DTD_13);
 			NullCheck(L_40);
-			XmlResolver_t3134 * L_41 = DTDObjectModel_get_Resolver_m10313(L_40, /*hidden argument*/NULL);
-			Uri_t710 * L_42 = V_1;
+			XmlResolver_t3134 * L_41 = DTDObjectModel_get_Resolver_m10310(L_40, /*hidden argument*/NULL);
+			Uri_t709 * L_42 = V_1;
 			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-			Type_t * L_43 = Type_GetTypeFromHandle_m3831(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
+			Type_t * L_43 = Type_GetTypeFromHandle_m3830(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 			NullCheck(L_41);
-			Object_t * L_44 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t710 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_41, L_42, (String_t*)NULL, L_43);
+			Object_t * L_44 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t709 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_41, L_42, (String_t*)NULL, L_43);
 			V_6 = ((Stream_t51 *)IsInst(L_44, Stream_t51_il2cpp_TypeInfo_var));
 			V_9 = ((ByteU5BU5D_t66*)SZArrayNew(ByteU5BU5D_t66_il2cpp_TypeInfo_var, ((int32_t)4096)));
 		}
@@ -13563,10 +13563,10 @@ IL_014e:
 			VirtActionInvoker1< int64_t >::Invoke(10 /* System.Void System.IO.MemoryStream::set_Position(System.Int64) */, L_54, (((int64_t)0)));
 			MemoryStream_t65 * L_55 = V_7;
 			XmlStreamReader_t3186 * L_56 = (XmlStreamReader_t3186 *)il2cpp_codegen_object_new (XmlStreamReader_t3186_il2cpp_TypeInfo_var);
-			XmlStreamReader__ctor_m10707(L_56, L_55, /*hidden argument*/NULL);
+			XmlStreamReader__ctor_m10704(L_56, L_55, /*hidden argument*/NULL);
 			String_t* L_57 = V_2;
 			XmlParserInput_t3154 * L_58 = (XmlParserInput_t3154 *)il2cpp_codegen_object_new (XmlParserInput_t3154_il2cpp_TypeInfo_var);
-			XmlParserInput__ctor_m10876(L_58, L_56, L_57, /*hidden argument*/NULL);
+			XmlParserInput__ctor_m10873(L_58, L_56, L_57, /*hidden argument*/NULL);
 			__this->___currentInput_0 = L_58;
 			goto IL_0223;
 		}
@@ -13616,7 +13616,7 @@ IL_0197:
 		{
 			XmlParserInput_t3154 * L_62 = (__this->___currentInput_0);
 			NullCheck(L_62);
-			int32_t L_63 = XmlParserInput_get_LineNumber_m10885(L_62, /*hidden argument*/NULL);
+			int32_t L_63 = XmlParserInput_get_LineNumber_m10882(L_62, /*hidden argument*/NULL);
 			G_B27_0 = L_63;
 		}
 
@@ -13640,7 +13640,7 @@ IL_01b5:
 		{
 			XmlParserInput_t3154 * L_65 = (__this->___currentInput_0);
 			NullCheck(L_65);
-			int32_t L_66 = XmlParserInput_get_LinePosition_m10886(L_65, /*hidden argument*/NULL);
+			int32_t L_66 = XmlParserInput_get_LinePosition_m10883(L_65, /*hidden argument*/NULL);
 			G_B30_0 = L_66;
 		}
 
@@ -13666,7 +13666,7 @@ IL_01d7:
 		{
 			XmlParserInput_t3154 * L_69 = (__this->___currentInput_0);
 			NullCheck(L_69);
-			String_t* L_70 = XmlParserInput_get_BaseURI_m10883(L_69, /*hidden argument*/NULL);
+			String_t* L_70 = XmlParserInput_get_BaseURI_m10880(L_69, /*hidden argument*/NULL);
 			G_B33_0 = L_70;
 		}
 
@@ -13675,20 +13675,20 @@ IL_01e2:
 			V_13 = G_B33_0;
 			String_t* L_71 = ___url;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_72 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2148, L_71, (String_t*) &_stringLiteral2149, /*hidden argument*/NULL);
+			String_t* L_72 = String_Concat_m455(NULL /*static, unused*/, (String_t*) &_stringLiteral2150, L_71, (String_t*) &_stringLiteral2151, /*hidden argument*/NULL);
 			int32_t L_73 = V_11;
 			int32_t L_74 = V_12;
 			String_t* L_75 = V_13;
 			Exception_t57 * L_76 = V_10;
 			XmlException_t3183 * L_77 = (XmlException_t3183 *)il2cpp_codegen_object_new (XmlException_t3183_il2cpp_TypeInfo_var);
-			XmlException__ctor_m10699(L_77, L_72, L_73, L_74, NULL, L_75, L_76, /*hidden argument*/NULL);
-			DTDReader_HandleError_m10480(__this, L_77, /*hidden argument*/NULL);
+			XmlException__ctor_m10696(L_77, L_72, L_73, L_74, NULL, L_75, L_76, /*hidden argument*/NULL);
+			DTDReader_HandleError_m10477(__this, L_77, /*hidden argument*/NULL);
 			String_t* L_78 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 			StringReader_t259 * L_79 = (StringReader_t259 *)il2cpp_codegen_object_new (StringReader_t259_il2cpp_TypeInfo_var);
-			StringReader__ctor_m3612(L_79, L_78, /*hidden argument*/NULL);
+			StringReader__ctor_m3611(L_79, L_78, /*hidden argument*/NULL);
 			String_t* L_80 = V_2;
 			XmlParserInput_t3154 * L_81 = (XmlParserInput_t3154 *)il2cpp_codegen_object_new (XmlParserInput_t3154_il2cpp_TypeInfo_var);
-			XmlParserInput__ctor_m10876(L_81, L_79, L_80, /*hidden argument*/NULL);
+			XmlParserInput__ctor_m10873(L_81, L_79, L_80, /*hidden argument*/NULL);
 			__this->___currentInput_0 = L_81;
 			goto IL_0223;
 		}
@@ -13701,18 +13701,18 @@ IL_0223:
 }
 // System.Void System.Xml.DTDReader::PopParserInput()
 extern TypeInfo* XmlParserInput_t3154_il2cpp_TypeInfo_var;
-extern "C" void DTDReader_PopParserInput_m10479 (DTDReader_t3155 * __this, const MethodInfo* method)
+extern "C" void DTDReader_PopParserInput_m10476 (DTDReader_t3155 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
+		XmlParserInput_t3154_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		XmlParserInput_t3154 * L_0 = (__this->___currentInput_0);
 		NullCheck(L_0);
-		XmlParserInput_Close_m10878(L_0, /*hidden argument*/NULL);
+		XmlParserInput_Close_m10875(L_0, /*hidden argument*/NULL);
 		Stack_t2849 * L_1 = (__this->___parserInputStack_1);
 		NullCheck(L_1);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(17 /* System.Object System.Collections.Stack::Pop() */, L_1);
@@ -13721,13 +13721,13 @@ extern "C" void DTDReader_PopParserInput_m10479 (DTDReader_t3155 * __this, const
 	}
 }
 // System.Void System.Xml.DTDReader::HandleError(System.Xml.XmlException)
-extern "C" void DTDReader_HandleError_m10480 (DTDReader_t3155 * __this, XmlException_t3183 * ___ex, const MethodInfo* method)
+extern "C" void DTDReader_HandleError_m10477 (DTDReader_t3155 * __this, XmlException_t3183 * ___ex, const MethodInfo* method)
 {
 	{
 		DTDObjectModel_t3127 * L_0 = (__this->___DTD_13);
 		XmlException_t3183 * L_1 = ___ex;
 		NullCheck(L_0);
-		DTDObjectModel_AddError_m10321(L_0, L_1, /*hidden argument*/NULL);
+		DTDObjectModel_AddError_m10318(L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }

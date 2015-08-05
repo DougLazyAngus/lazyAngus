@@ -10,6 +10,6 @@ struct HMACRIPEMD160_t4645;
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.HMACRIPEMD160::.ctor()
-extern "C" void HMACRIPEMD160__ctor_m18414 (HMACRIPEMD160_t4645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACRIPEMD160__ctor_m18411 (HMACRIPEMD160_t4645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACRIPEMD160::.ctor(System.Byte[])
-extern "C" void HMACRIPEMD160__ctor_m18415 (HMACRIPEMD160_t4645 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACRIPEMD160__ctor_m18412 (HMACRIPEMD160_t4645 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

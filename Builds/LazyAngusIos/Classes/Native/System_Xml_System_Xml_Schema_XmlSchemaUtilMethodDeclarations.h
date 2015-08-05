@@ -8,4 +8,4 @@
 struct XmlSchemaUtil_t3119;
 
 // System.Void System.Xml.Schema.XmlSchemaUtil::.cctor()
-extern "C" void XmlSchemaUtil__cctor_m10283 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaUtil__cctor_m10280 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

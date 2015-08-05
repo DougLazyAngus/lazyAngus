@@ -7,7 +7,7 @@ struct CrossContextChannel_t4548;
 // System.String
 struct String_t;
 // System.Collections.IList
-struct IList_t642;
+struct IList_t641;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Channels.ChannelServices

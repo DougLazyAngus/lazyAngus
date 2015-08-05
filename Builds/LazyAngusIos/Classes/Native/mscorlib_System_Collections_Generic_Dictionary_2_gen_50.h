@@ -7,7 +7,7 @@ struct LinkU5BU5D_t5347;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>[]
 struct ReferenceU5BU5D_t5860;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Collections.Generic.IEqualityComparer`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>
 struct IEqualityComparer_1_t5861;
 // System.Runtime.Serialization.SerializationInfo
@@ -26,7 +26,7 @@ struct  Dictionary_2_t5863  : public Object_t
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::keySlots
 	ReferenceU5BU5D_t5860* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::valueSlots
-	ObjectU5BU5D_t638* ___valueSlots_7;
+	ObjectU5BU5D_t637* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::emptySlot

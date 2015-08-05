@@ -8,4 +8,4 @@
 struct XsdUnsignedInt_t3077;
 
 // System.Void Mono.Xml.Schema.XsdUnsignedInt::.ctor()
-extern "C" void XsdUnsignedInt__ctor_m10221 (XsdUnsignedInt_t3077 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdUnsignedInt__ctor_m10218 (XsdUnsignedInt_t3077 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -21,10 +21,10 @@ struct List_1_t2649;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform
-struct  GameCenterPlatform_t750  : public Object_t
+struct  GameCenterPlatform_t749  : public Object_t
 {
 };
-struct GameCenterPlatform_t750_StaticFields{
+struct GameCenterPlatform_t749_StaticFields{
 	// System.Action`1<System.Boolean> UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::s_AuthenticateCallback
 	Action_1_t277 * ___s_AuthenticateCallback_0;
 	// System.Action`1<System.Boolean> UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::s_FriendsCallback

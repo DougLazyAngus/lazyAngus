@@ -5,7 +5,7 @@ struct ButtonStateU5BU5D_t5742;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  List_1_t830  : public Object_t
+struct  List_1_t829  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_items
 	ButtonStateU5BU5D_t5742* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t830  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_version
 	int32_t ____version_3;
 };
-struct List_1_t830_StaticFields{
+struct List_1_t829_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::EmptyArray
 	ButtonStateU5BU5D_t5742* ___EmptyArray_4;
 };

@@ -12,18 +12,18 @@ struct X509Certificate_t3836;
 struct Context_t3794;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::.ctor(Mono.Security.Protocol.Tls.Context)
-extern "C" void TlsClientCertificate__ctor_m12805 (TlsClientCertificate_t3842 * __this, Context_t3794 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate__ctor_m12802 (TlsClientCertificate_t3842 * __this, Context_t3794 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::get_ClientCertificate()
-extern "C" X509Certificate_t3836 * TlsClientCertificate_get_ClientCertificate_m12806 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3836 * TlsClientCertificate_get_ClientCertificate_m12803 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::Update()
-extern "C" void TlsClientCertificate_Update_m12807 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate_Update_m12804 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::GetClientCertificate()
-extern "C" void TlsClientCertificate_GetClientCertificate_m12808 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate_GetClientCertificate_m12805 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::SendCertificates()
-extern "C" void TlsClientCertificate_SendCertificates_m12809 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate_SendCertificates_m12806 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::ProcessAsSsl3()
-extern "C" void TlsClientCertificate_ProcessAsSsl3_m12810 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate_ProcessAsSsl3_m12807 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::ProcessAsTls1()
-extern "C" void TlsClientCertificate_ProcessAsTls1_m12811 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientCertificate_ProcessAsTls1_m12808 (TlsClientCertificate_t3842 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificate::FindParentCertificate(System.Security.Cryptography.X509Certificates.X509Certificate)
-extern "C" X509Certificate_t3836 * TlsClientCertificate_FindParentCertificate_m12812 (TlsClientCertificate_t3842 * __this, X509Certificate_t3836 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t3836 * TlsClientCertificate_FindParentCertificate_m12809 (TlsClientCertificate_t3842 * __this, X509Certificate_t3836 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;

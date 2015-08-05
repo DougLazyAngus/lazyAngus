@@ -14,8 +14,8 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.TargetException::.ctor()
-extern "C" void TargetException__ctor_m17881 (TargetException_t4511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetException__ctor_m17878 (TargetException_t4511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetException::.ctor(System.String)
-extern "C" void TargetException__ctor_m17882 (TargetException_t4511 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetException__ctor_m17879 (TargetException_t4511 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TargetException__ctor_m17883 (TargetException_t4511 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetException__ctor_m17880 (TargetException_t4511 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

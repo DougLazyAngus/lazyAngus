@@ -16,10 +16,10 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void UnityEngine.UnityException::.ctor()
-extern "C" void UnityException__ctor_m9746 (UnityException_t1015 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityException__ctor_m9743 (UnityException_t1015 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UnityException::.ctor(System.String)
-extern "C" void UnityException__ctor_m9747 (UnityException_t1015 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityException__ctor_m9744 (UnityException_t1015 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UnityException::.ctor(System.String,System.Exception)
-extern "C" void UnityException__ctor_m9748 (UnityException_t1015 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityException__ctor_m9745 (UnityException_t1015 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UnityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnityException__ctor_m9749 (UnityException_t1015 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityException__ctor_m9746 (UnityException_t1015 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

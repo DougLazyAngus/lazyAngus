@@ -10,4 +10,4 @@ struct AssemblyDescriptionAttribute_t1039;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyDescriptionAttribute::.ctor(System.String)
-extern "C" void AssemblyDescriptionAttribute__ctor_m5952 (AssemblyDescriptionAttribute_t1039 * __this, String_t* ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDescriptionAttribute__ctor_m5949 (AssemblyDescriptionAttribute_t1039 * __this, String_t* ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;

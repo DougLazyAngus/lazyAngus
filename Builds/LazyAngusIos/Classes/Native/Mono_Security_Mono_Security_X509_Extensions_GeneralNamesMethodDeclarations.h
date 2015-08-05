@@ -14,10 +14,10 @@ struct ASN1_t3738;
 struct String_t;
 
 // System.Void Mono.Security.X509.Extensions.GeneralNames::.ctor(Mono.Security.ASN1)
-extern "C" void GeneralNames__ctor_m12357 (GeneralNames_t3781 * __this, ASN1_t3738 * ___sequence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GeneralNames__ctor_m12354 (GeneralNames_t3781 * __this, ASN1_t3738 * ___sequence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] Mono.Security.X509.Extensions.GeneralNames::get_DNSNames()
-extern "C" StringU5BU5D_t75* GeneralNames_get_DNSNames_m12358 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* GeneralNames_get_DNSNames_m12355 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] Mono.Security.X509.Extensions.GeneralNames::get_IPAddresses()
-extern "C" StringU5BU5D_t75* GeneralNames_get_IPAddresses_m12359 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* GeneralNames_get_IPAddresses_m12356 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.GeneralNames::ToString()
-extern "C" String_t* GeneralNames_ToString_m12360 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GeneralNames_ToString_m12357 (GeneralNames_t3781 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

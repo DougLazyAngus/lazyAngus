@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Toggle
-struct Toggle_t927;
+struct Toggle_t926;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

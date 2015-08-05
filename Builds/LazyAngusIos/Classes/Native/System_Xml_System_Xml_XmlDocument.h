@@ -23,7 +23,7 @@ struct XmlNodeChangedEventHandler_t3178;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlDocument
-struct  XmlDocument_t633  : public XmlNode_t670
+struct  XmlDocument_t632  : public XmlNode_t669
 {
 	// System.Boolean System.Xml.XmlDocument::optimal_create_element
 	bool ___optimal_create_element_6;
@@ -62,7 +62,7 @@ struct  XmlDocument_t633  : public XmlNode_t670
 	// System.Xml.XmlNodeChangedEventHandler System.Xml.XmlDocument::NodeRemoving
 	XmlNodeChangedEventHandler_t3178 * ___NodeRemoving_23;
 };
-struct XmlDocument_t633_StaticFields{
+struct XmlDocument_t632_StaticFields{
 	// System.Type[] System.Xml.XmlDocument::optimal_create_types
 	TypeU5BU5D_t1152* ___optimal_create_types_5;
 };

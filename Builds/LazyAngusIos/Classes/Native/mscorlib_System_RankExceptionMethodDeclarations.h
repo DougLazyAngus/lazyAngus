@@ -14,8 +14,8 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.RankException::.ctor()
-extern "C" void RankException__ctor_m19772 (RankException_t4790 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m19769 (RankException_t4790 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.RankException::.ctor(System.String)
-extern "C" void RankException__ctor_m19773 (RankException_t4790 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m19770 (RankException_t4790 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.RankException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void RankException__ctor_m19774 (RankException_t4790 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m19771 (RankException_t4790 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

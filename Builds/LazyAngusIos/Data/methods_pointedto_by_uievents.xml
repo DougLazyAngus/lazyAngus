@@ -23,6 +23,10 @@
 			<method name="RemindMeLater"/>
 			<method name="NoThanks"/>
 		</type>
+		<type fullname="SecretUI">
+			<method name="ToggleVisibility"/>
+			<method name="ToggleVisibility"/>
+		</type>
 		<type fullname="SoundController">
 			<method name="ToggleSoundsMuted"/>
 			<method name="ToggleMusicMuted"/>

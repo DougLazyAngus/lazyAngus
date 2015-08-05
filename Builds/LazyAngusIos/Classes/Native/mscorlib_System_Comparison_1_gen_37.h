@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Selectable
-struct Selectable_t848;
+struct Selectable_t847;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

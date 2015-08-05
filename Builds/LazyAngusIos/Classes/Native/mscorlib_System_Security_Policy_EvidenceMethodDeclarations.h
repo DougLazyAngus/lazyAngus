@@ -16,22 +16,22 @@ struct Array_t;
 struct IEnumerator_t48;
 
 // System.Void System.Security.Policy.Evidence::.ctor()
-extern "C" void Evidence__ctor_m18661 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Evidence__ctor_m18658 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.Evidence::get_Count()
-extern "C" int32_t Evidence_get_Count_m18662 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Evidence_get_Count_m18659 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.Evidence::get_IsSynchronized()
-extern "C" bool Evidence_get_IsSynchronized_m18663 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Evidence_get_IsSynchronized_m18660 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Policy.Evidence::get_SyncRoot()
-extern "C" Object_t * Evidence_get_SyncRoot_m18664 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Evidence_get_SyncRoot_m18661 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Security.Policy.Evidence::get_HostEvidenceList()
-extern "C" ArrayList_t3113 * Evidence_get_HostEvidenceList_m18665 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t3113 * Evidence_get_HostEvidenceList_m18662 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Security.Policy.Evidence::get_AssemblyEvidenceList()
-extern "C" ArrayList_t3113 * Evidence_get_AssemblyEvidenceList_m18666 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t3113 * Evidence_get_AssemblyEvidenceList_m18663 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.Evidence::CopyTo(System.Array,System.Int32)
-extern "C" void Evidence_CopyTo_m18667 (Evidence_t4483 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Evidence_CopyTo_m18664 (Evidence_t4483 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.Evidence::Equals(System.Object)
-extern "C" bool Evidence_Equals_m18668 (Evidence_t4483 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Evidence_Equals_m18665 (Evidence_t4483 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Security.Policy.Evidence::GetEnumerator()
-extern "C" Object_t * Evidence_GetEnumerator_m18669 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Evidence_GetEnumerator_m18666 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.Evidence::GetHashCode()
-extern "C" int32_t Evidence_GetHashCode_m18670 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Evidence_GetHashCode_m18667 (Evidence_t4483 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

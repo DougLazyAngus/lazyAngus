@@ -7,7 +7,7 @@ struct Exception_t57;
 // System.String
 struct String_t;
 // System.Collections.IDictionary
-struct IDictionary_t641;
+struct IDictionary_t640;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Exception

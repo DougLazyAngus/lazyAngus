@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.SByte>>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m58433(__this, ___object, ___method, method) (( void (*) (Action_1_t8166 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22990_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m58430(__this, ___object, ___method, method) (( void (*) (Action_1_t8166 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m22987_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.SByte>>::Invoke(T)
-#define Action_1_Invoke_m58434(__this, ___obj, method) (( void (*) (Action_1_t8166 *, Task_1_t1502 *, const MethodInfo*))Action_1_Invoke_m22992_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m58431(__this, ___obj, method) (( void (*) (Action_1_t8166 *, Task_1_t1502 *, const MethodInfo*))Action_1_Invoke_m22989_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Threading.Tasks.Task`1<System.SByte>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m58435(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t8166 *, Task_1_t1502 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22994_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m58432(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t8166 *, Task_1_t1502 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m22991_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.SByte>>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m58436(__this, ___result, method) (( void (*) (Action_1_t8166 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22996_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m58433(__this, ___result, method) (( void (*) (Action_1_t8166 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m22993_gshared)(__this, ___result, method)

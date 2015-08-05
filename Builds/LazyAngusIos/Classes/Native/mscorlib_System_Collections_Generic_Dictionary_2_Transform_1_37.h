@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t855;
+struct Font_t854;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t1004;
+struct List_1_t1003;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

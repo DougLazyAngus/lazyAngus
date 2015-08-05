@@ -26,30 +26,30 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.ObjectManager::.ctor(System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext)
-extern "C" void ObjectManager__ctor_m18257 (ObjectManager_t4612 * __this, Object_t * ___selector, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager__ctor_m18254 (ObjectManager_t4612 * __this, Object_t * ___selector, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::DoFixups()
-extern "C" void ObjectManager_DoFixups_m18258 (ObjectManager_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_DoFixups_m18255 (ObjectManager_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::GetObjectRecord(System.Int64)
-extern "C" ObjectRecord_t4619 * ObjectManager_GetObjectRecord_m18259 (ObjectManager_t4612 * __this, int64_t ___objectID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectRecord_t4619 * ObjectManager_GetObjectRecord_m18256 (ObjectManager_t4612 * __this, int64_t ___objectID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.ObjectManager::GetObject(System.Int64)
-extern "C" Object_t * ObjectManager_GetObject_m18260 (ObjectManager_t4612 * __this, int64_t ___objectID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjectManager_GetObject_m18257 (ObjectManager_t4612 * __this, int64_t ___objectID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RaiseDeserializationEvent()
-extern "C" void ObjectManager_RaiseDeserializationEvent_m18261 (ObjectManager_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RaiseDeserializationEvent_m18258 (ObjectManager_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RaiseOnDeserializingEvent(System.Object)
-extern "C" void ObjectManager_RaiseOnDeserializingEvent_m18262 (ObjectManager_t4612 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RaiseOnDeserializingEvent_m18259 (ObjectManager_t4612 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RaiseOnDeserializedEvent(System.Object)
-extern "C" void ObjectManager_RaiseOnDeserializedEvent_m18263 (ObjectManager_t4612 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RaiseOnDeserializedEvent_m18260 (ObjectManager_t4612 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::AddFixup(System.Runtime.Serialization.BaseFixupRecord)
-extern "C" void ObjectManager_AddFixup_m18264 (ObjectManager_t4612 * __this, BaseFixupRecord_t4620 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_AddFixup_m18261 (ObjectManager_t4612 * __this, BaseFixupRecord_t4620 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RecordArrayElementFixup(System.Int64,System.Int32,System.Int64)
-extern "C" void ObjectManager_RecordArrayElementFixup_m18265 (ObjectManager_t4612 * __this, int64_t ___arrayToBeFixed, int32_t ___index, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RecordArrayElementFixup_m18262 (ObjectManager_t4612 * __this, int64_t ___arrayToBeFixed, int32_t ___index, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RecordArrayElementFixup(System.Int64,System.Int32[],System.Int64)
-extern "C" void ObjectManager_RecordArrayElementFixup_m18266 (ObjectManager_t4612 * __this, int64_t ___arrayToBeFixed, Int32U5BU5D_t549* ___indices, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RecordArrayElementFixup_m18263 (ObjectManager_t4612 * __this, int64_t ___arrayToBeFixed, Int32U5BU5D_t549* ___indices, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RecordDelayedFixup(System.Int64,System.String,System.Int64)
-extern "C" void ObjectManager_RecordDelayedFixup_m18267 (ObjectManager_t4612 * __this, int64_t ___objectToBeFixed, String_t* ___memberName, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RecordDelayedFixup_m18264 (ObjectManager_t4612 * __this, int64_t ___objectToBeFixed, String_t* ___memberName, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RecordFixup(System.Int64,System.Reflection.MemberInfo,System.Int64)
-extern "C" void ObjectManager_RecordFixup_m18268 (ObjectManager_t4612 * __this, int64_t ___objectToBeFixed, MemberInfo_t * ___member, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RecordFixup_m18265 (ObjectManager_t4612 * __this, int64_t ___objectToBeFixed, MemberInfo_t * ___member, int64_t ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RegisterObjectInternal(System.Object,System.Runtime.Serialization.ObjectRecord)
-extern "C" void ObjectManager_RegisterObjectInternal_m18269 (ObjectManager_t4612 * __this, Object_t * ___obj, ObjectRecord_t4619 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RegisterObjectInternal_m18266 (ObjectManager_t4612 * __this, Object_t * ___obj, ObjectRecord_t4619 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[])
-extern "C" void ObjectManager_RegisterObject_m18270 (ObjectManager_t4612 * __this, Object_t * ___obj, int64_t ___objectID, SerializationInfo_t2871 * ___info, int64_t ___idOfContainingObj, MemberInfo_t * ___member, Int32U5BU5D_t549* ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectManager_RegisterObject_m18267 (ObjectManager_t4612 * __this, Object_t * ___obj, int64_t ___objectID, SerializationInfo_t2871 * ___info, int64_t ___idOfContainingObj, MemberInfo_t * ___member, Int32U5BU5D_t549* ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

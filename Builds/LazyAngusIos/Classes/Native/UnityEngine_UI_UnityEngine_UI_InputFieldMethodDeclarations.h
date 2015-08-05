@@ -7,32 +7,32 @@
 // UnityEngine.UI.InputField
 struct InputField_t600;
 // UnityEngine.TextGenerator
-struct TextGenerator_t893;
+struct TextGenerator_t892;
 // System.String
 struct String_t;
 // UnityEngine.UI.Text
 struct Text_t462;
 // UnityEngine.UI.Graphic
-struct Graphic_t863;
+struct Graphic_t862;
 // UnityEngine.UI.InputField/SubmitEvent
-struct SubmitEvent_t883;
+struct SubmitEvent_t882;
 // UnityEngine.UI.InputField/OnChangeEvent
-struct OnChangeEvent_t885;
+struct OnChangeEvent_t884;
 // UnityEngine.UI.InputField/OnValidateInput
-struct OnValidateInput_t887;
+struct OnValidateInput_t886;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t826;
+struct PointerEventData_t825;
 // UnityEngine.Event
-struct Event_t736;
-struct Event_t736_marshaled;
+struct Event_t735;
+struct Event_t735_marshaled;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t786;
+struct BaseEventData_t785;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t894;
+struct List_1_t893;
 // UnityEngine.UI.InputField/ContentType[]
-struct ContentTypeU5BU5D_t988;
+struct ContentTypeU5BU5D_t987;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.Color
@@ -57,252 +57,252 @@ struct Transform_t406;
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
 
 // System.Void UnityEngine.UI.InputField::.ctor()
-extern "C" void InputField__ctor_m4837 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField__ctor_m4833 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::.cctor()
-extern "C" void InputField__cctor_m4838 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField__cctor_m4834 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextGenerator UnityEngine.UI.InputField::get_cachedInputTextGenerator()
-extern "C" TextGenerator_t893 * InputField_get_cachedInputTextGenerator_m4839 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextGenerator_t892 * InputField_get_cachedInputTextGenerator_m4835 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_shouldHideMobileInput(System.Boolean)
-extern "C" void InputField_set_shouldHideMobileInput_m4840 (InputField_t600 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_shouldHideMobileInput_m4836 (InputField_t600 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::get_shouldHideMobileInput()
-extern "C" bool InputField_get_shouldHideMobileInput_m4841 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_get_shouldHideMobileInput_m4837 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.InputField::get_text()
-extern "C" String_t* InputField_get_text_m4069 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* InputField_get_text_m4066 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_text(System.String)
-extern "C" void InputField_set_text_m4070 (InputField_t600 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_text_m4838 (InputField_t600 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::get_isFocused()
-extern "C" bool InputField_get_isFocused_m4068 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_get_isFocused_m4839 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.InputField::get_caretBlinkRate()
-extern "C" float InputField_get_caretBlinkRate_m4842 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float InputField_get_caretBlinkRate_m4840 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_caretBlinkRate(System.Single)
-extern "C" void InputField_set_caretBlinkRate_m4843 (InputField_t600 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_caretBlinkRate_m4841 (InputField_t600 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Text UnityEngine.UI.InputField::get_textComponent()
-extern "C" Text_t462 * InputField_get_textComponent_m4844 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Text_t462 * InputField_get_textComponent_m4842 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_textComponent(UnityEngine.UI.Text)
-extern "C" void InputField_set_textComponent_m4845 (InputField_t600 * __this, Text_t462 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_textComponent_m4843 (InputField_t600 * __this, Text_t462 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Graphic UnityEngine.UI.InputField::get_placeholder()
-extern "C" Graphic_t863 * InputField_get_placeholder_m4846 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Graphic_t862 * InputField_get_placeholder_m4844 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_placeholder(UnityEngine.UI.Graphic)
-extern "C" void InputField_set_placeholder_m4847 (InputField_t600 * __this, Graphic_t863 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_placeholder_m4845 (InputField_t600 * __this, Graphic_t862 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.UI.InputField::get_selectionColor()
-extern "C" Color_t325  InputField_get_selectionColor_m4848 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  InputField_get_selectionColor_m4846 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_selectionColor(UnityEngine.Color)
-extern "C" void InputField_set_selectionColor_m4849 (InputField_t600 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_selectionColor_m4847 (InputField_t600 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/SubmitEvent UnityEngine.UI.InputField::get_onEndEdit()
-extern "C" SubmitEvent_t883 * InputField_get_onEndEdit_m4850 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SubmitEvent_t882 * InputField_get_onEndEdit_m4848 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_onEndEdit(UnityEngine.UI.InputField/SubmitEvent)
-extern "C" void InputField_set_onEndEdit_m4851 (InputField_t600 * __this, SubmitEvent_t883 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_onEndEdit_m4849 (InputField_t600 * __this, SubmitEvent_t882 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/OnChangeEvent UnityEngine.UI.InputField::get_onValueChange()
-extern "C" OnChangeEvent_t885 * InputField_get_onValueChange_m4852 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" OnChangeEvent_t884 * InputField_get_onValueChange_m4850 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_onValueChange(UnityEngine.UI.InputField/OnChangeEvent)
-extern "C" void InputField_set_onValueChange_m4853 (InputField_t600 * __this, OnChangeEvent_t885 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_onValueChange_m4851 (InputField_t600 * __this, OnChangeEvent_t884 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/OnValidateInput UnityEngine.UI.InputField::get_onValidateInput()
-extern "C" OnValidateInput_t887 * InputField_get_onValidateInput_m4854 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" OnValidateInput_t886 * InputField_get_onValidateInput_m4852 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_onValidateInput(UnityEngine.UI.InputField/OnValidateInput)
-extern "C" void InputField_set_onValidateInput_m4855 (InputField_t600 * __this, OnValidateInput_t887 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_onValidateInput_m4853 (InputField_t600 * __this, OnValidateInput_t886 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_characterLimit()
-extern "C" int32_t InputField_get_characterLimit_m4856 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_characterLimit_m4854 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_characterLimit(System.Int32)
-extern "C" void InputField_set_characterLimit_m4857 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_characterLimit_m4855 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/ContentType UnityEngine.UI.InputField::get_contentType()
-extern "C" int32_t InputField_get_contentType_m4858 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_contentType_m4856 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_contentType(UnityEngine.UI.InputField/ContentType)
-extern "C" void InputField_set_contentType_m4859 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_contentType_m4857 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/LineType UnityEngine.UI.InputField::get_lineType()
-extern "C" int32_t InputField_get_lineType_m4860 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_lineType_m4858 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_lineType(UnityEngine.UI.InputField/LineType)
-extern "C" void InputField_set_lineType_m4861 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_lineType_m4859 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/InputType UnityEngine.UI.InputField::get_inputType()
-extern "C" int32_t InputField_get_inputType_m4862 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_inputType_m4860 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_inputType(UnityEngine.UI.InputField/InputType)
-extern "C" void InputField_set_inputType_m4863 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_inputType_m4861 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchScreenKeyboardType UnityEngine.UI.InputField::get_keyboardType()
-extern "C" int32_t InputField_get_keyboardType_m4864 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_keyboardType_m4862 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_keyboardType(UnityEngine.TouchScreenKeyboardType)
-extern "C" void InputField_set_keyboardType_m4865 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_keyboardType_m4863 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/CharacterValidation UnityEngine.UI.InputField::get_characterValidation()
-extern "C" int32_t InputField_get_characterValidation_m4866 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_characterValidation_m4864 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_characterValidation(UnityEngine.UI.InputField/CharacterValidation)
-extern "C" void InputField_set_characterValidation_m4867 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_characterValidation_m4865 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::get_multiLine()
-extern "C" bool InputField_get_multiLine_m4868 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_get_multiLine_m4866 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char UnityEngine.UI.InputField::get_asteriskChar()
-extern "C" uint16_t InputField_get_asteriskChar_m4869 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t InputField_get_asteriskChar_m4867 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_asteriskChar(System.Char)
-extern "C" void InputField_set_asteriskChar_m4870 (InputField_t600 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_asteriskChar_m4868 (InputField_t600 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::get_wasCanceled()
-extern "C" bool InputField_get_wasCanceled_m4871 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_get_wasCanceled_m4869 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::ClampPos(System.Int32&)
-extern "C" void InputField_ClampPos_m4872 (InputField_t600 * __this, int32_t* ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_ClampPos_m4870 (InputField_t600 * __this, int32_t* ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_caretPositionInternal()
-extern "C" int32_t InputField_get_caretPositionInternal_m4873 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_caretPositionInternal_m4871 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_caretPositionInternal(System.Int32)
-extern "C" void InputField_set_caretPositionInternal_m4874 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_caretPositionInternal_m4872 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_caretSelectPositionInternal()
-extern "C" int32_t InputField_get_caretSelectPositionInternal_m4875 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_caretSelectPositionInternal_m4873 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_caretSelectPositionInternal(System.Int32)
-extern "C" void InputField_set_caretSelectPositionInternal_m4876 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_caretSelectPositionInternal_m4874 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::get_hasSelection()
-extern "C" bool InputField_get_hasSelection_m4877 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_get_hasSelection_m4875 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_caretPosition()
-extern "C" int32_t InputField_get_caretPosition_m4878 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_caretPosition_m4876 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_caretPosition(System.Int32)
-extern "C" void InputField_set_caretPosition_m4879 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_caretPosition_m4877 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_selectionAnchorPosition()
-extern "C" int32_t InputField_get_selectionAnchorPosition_m4880 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_selectionAnchorPosition_m4878 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_selectionAnchorPosition(System.Int32)
-extern "C" void InputField_set_selectionAnchorPosition_m4881 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_selectionAnchorPosition_m4879 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::get_selectionFocusPosition()
-extern "C" int32_t InputField_get_selectionFocusPosition_m4882 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_get_selectionFocusPosition_m4880 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_selectionFocusPosition(System.Int32)
-extern "C" void InputField_set_selectionFocusPosition_m4883 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_selectionFocusPosition_m4881 (InputField_t600 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnEnable()
-extern "C" void InputField_OnEnable_m4884 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnEnable_m4882 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnDisable()
-extern "C" void InputField_OnDisable_m4885 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnDisable_m4883 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator UnityEngine.UI.InputField::CaretBlink()
-extern "C" Object_t * InputField_CaretBlink_m4886 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * InputField_CaretBlink_m4884 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SetCaretVisible()
-extern "C" void InputField_SetCaretVisible_m4887 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SetCaretVisible_m4885 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SetCaretActive()
-extern "C" void InputField_SetCaretActive_m4888 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SetCaretActive_m4886 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnFocus()
-extern "C" void InputField_OnFocus_m4889 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnFocus_m4887 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SelectAll()
-extern "C" void InputField_SelectAll_m4890 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SelectAll_m4888 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveTextEnd(System.Boolean)
-extern "C" void InputField_MoveTextEnd_m4891 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveTextEnd_m4889 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveTextStart(System.Boolean)
-extern "C" void InputField_MoveTextStart_m4892 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveTextStart_m4890 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.InputField::get_clipboard()
-extern "C" String_t* InputField_get_clipboard_m4893 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* InputField_get_clipboard_m4891 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::set_clipboard(System.String)
-extern "C" void InputField_set_clipboard_m4894 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_set_clipboard_m4892 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::InPlaceEditing()
-extern "C" bool InputField_InPlaceEditing_m4895 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_InPlaceEditing_m4893 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::LateUpdate()
-extern "C" void InputField_LateUpdate_m4896 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_LateUpdate_m4894 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.UI.InputField::ScreenToLocal(UnityEngine.Vector2)
-extern "C" Vector2_t110  InputField_ScreenToLocal_m4897 (InputField_t600 * __this, Vector2_t110  ___screen, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  InputField_ScreenToLocal_m4895 (InputField_t600 * __this, Vector2_t110  ___screen, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::GetUnclampedCharacterLineFromPosition(UnityEngine.Vector2,UnityEngine.TextGenerator)
-extern "C" int32_t InputField_GetUnclampedCharacterLineFromPosition_m4898 (InputField_t600 * __this, Vector2_t110  ___pos, TextGenerator_t893 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_GetUnclampedCharacterLineFromPosition_m4896 (InputField_t600 * __this, Vector2_t110  ___pos, TextGenerator_t892 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::GetCharacterIndexFromPosition(UnityEngine.Vector2)
-extern "C" int32_t InputField_GetCharacterIndexFromPosition_m4899 (InputField_t600 * __this, Vector2_t110  ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_GetCharacterIndexFromPosition_m4897 (InputField_t600 * __this, Vector2_t110  ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::MayDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" bool InputField_MayDrag_m4900 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_MayDrag_m4898 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void InputField_OnBeginDrag_m4901 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnBeginDrag_m4899 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void InputField_OnDrag_m4902 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnDrag_m4900 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator UnityEngine.UI.InputField::MouseDragOutsideRect(UnityEngine.EventSystems.PointerEventData)
-extern "C" Object_t * InputField_MouseDragOutsideRect_m4903 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * InputField_MouseDragOutsideRect_m4901 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void InputField_OnEndDrag_m4904 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnEndDrag_m4902 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern "C" void InputField_OnPointerDown_m4905 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnPointerDown_m4903 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.InputField/EditState UnityEngine.UI.InputField::KeyPressed(UnityEngine.Event)
-extern "C" int32_t InputField_KeyPressed_m4906 (InputField_t600 * __this, Event_t736 * ___evt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_KeyPressed_m4904 (InputField_t600 * __this, Event_t735 * ___evt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::IsValidChar(System.Char)
-extern "C" bool InputField_IsValidChar_m4907 (InputField_t600 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_IsValidChar_m4905 (InputField_t600 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::ProcessEvent(UnityEngine.Event)
-extern "C" void InputField_ProcessEvent_m4908 (InputField_t600 * __this, Event_t736 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_ProcessEvent_m4906 (InputField_t600 * __this, Event_t735 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnUpdateSelected(UnityEngine.EventSystems.BaseEventData)
-extern "C" void InputField_OnUpdateSelected_m4909 (InputField_t600 * __this, BaseEventData_t786 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnUpdateSelected_m4907 (InputField_t600 * __this, BaseEventData_t785 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.InputField::GetSelectedString()
-extern "C" String_t* InputField_GetSelectedString_m4910 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* InputField_GetSelectedString_m4908 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::FindtNextWordBegin()
-extern "C" int32_t InputField_FindtNextWordBegin_m4911 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_FindtNextWordBegin_m4909 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveRight(System.Boolean,System.Boolean)
-extern "C" void InputField_MoveRight_m4912 (InputField_t600 * __this, bool ___shift, bool ___ctrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveRight_m4910 (InputField_t600 * __this, bool ___shift, bool ___ctrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::FindtPrevWordBegin()
-extern "C" int32_t InputField_FindtPrevWordBegin_m4913 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_FindtPrevWordBegin_m4911 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveLeft(System.Boolean,System.Boolean)
-extern "C" void InputField_MoveLeft_m4914 (InputField_t600 * __this, bool ___shift, bool ___ctrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveLeft_m4912 (InputField_t600 * __this, bool ___shift, bool ___ctrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::DetermineCharacterLine(System.Int32,UnityEngine.TextGenerator)
-extern "C" int32_t InputField_DetermineCharacterLine_m4915 (InputField_t600 * __this, int32_t ___charPos, TextGenerator_t893 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_DetermineCharacterLine_m4913 (InputField_t600 * __this, int32_t ___charPos, TextGenerator_t892 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::LineUpCharacterPosition(System.Int32,System.Boolean)
-extern "C" int32_t InputField_LineUpCharacterPosition_m4916 (InputField_t600 * __this, int32_t ___originalPos, bool ___goToFirstChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_LineUpCharacterPosition_m4914 (InputField_t600 * __this, int32_t ___originalPos, bool ___goToFirstChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::LineDownCharacterPosition(System.Int32,System.Boolean)
-extern "C" int32_t InputField_LineDownCharacterPosition_m4917 (InputField_t600 * __this, int32_t ___originalPos, bool ___goToLastChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_LineDownCharacterPosition_m4915 (InputField_t600 * __this, int32_t ___originalPos, bool ___goToLastChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveDown(System.Boolean)
-extern "C" void InputField_MoveDown_m4918 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveDown_m4916 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveDown(System.Boolean,System.Boolean)
-extern "C" void InputField_MoveDown_m4919 (InputField_t600 * __this, bool ___shift, bool ___goToLastChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveDown_m4917 (InputField_t600 * __this, bool ___shift, bool ___goToLastChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveUp(System.Boolean)
-extern "C" void InputField_MoveUp_m4920 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveUp_m4918 (InputField_t600 * __this, bool ___shift, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MoveUp(System.Boolean,System.Boolean)
-extern "C" void InputField_MoveUp_m4921 (InputField_t600 * __this, bool ___shift, bool ___goToFirstChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MoveUp_m4919 (InputField_t600 * __this, bool ___shift, bool ___goToFirstChar, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Delete()
-extern "C" void InputField_Delete_m4922 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Delete_m4920 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::ForwardSpace()
-extern "C" void InputField_ForwardSpace_m4923 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_ForwardSpace_m4921 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Backspace()
-extern "C" void InputField_Backspace_m4924 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Backspace_m4922 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Insert(System.Char)
-extern "C" void InputField_Insert_m4925 (InputField_t600 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Insert_m4923 (InputField_t600 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SendOnValueChangedAndUpdateLabel()
-extern "C" void InputField_SendOnValueChangedAndUpdateLabel_m4926 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SendOnValueChangedAndUpdateLabel_m4924 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SendOnValueChanged()
-extern "C" void InputField_SendOnValueChanged_m4927 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SendOnValueChanged_m4925 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SendOnSubmit()
-extern "C" void InputField_SendOnSubmit_m4928 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SendOnSubmit_m4926 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Append(System.String)
-extern "C" void InputField_Append_m4929 (InputField_t600 * __this, String_t* ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Append_m4927 (InputField_t600 * __this, String_t* ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Append(System.Char)
-extern "C" void InputField_Append_m4930 (InputField_t600 * __this, uint16_t ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Append_m4928 (InputField_t600 * __this, uint16_t ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::UpdateLabel()
-extern "C" void InputField_UpdateLabel_m4931 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_UpdateLabel_m4929 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::IsSelectionVisible()
-extern "C" bool InputField_IsSelectionVisible_m4932 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_IsSelectionVisible_m4930 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::GetLineStartPosition(UnityEngine.TextGenerator,System.Int32)
-extern "C" int32_t InputField_GetLineStartPosition_m4933 (Object_t * __this /* static, unused */, TextGenerator_t893 * ___gen, int32_t ___line, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_GetLineStartPosition_m4931 (Object_t * __this /* static, unused */, TextGenerator_t892 * ___gen, int32_t ___line, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.InputField::GetLineEndPosition(UnityEngine.TextGenerator,System.Int32)
-extern "C" int32_t InputField_GetLineEndPosition_m4934 (Object_t * __this /* static, unused */, TextGenerator_t893 * ___gen, int32_t ___line, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InputField_GetLineEndPosition_m4932 (Object_t * __this /* static, unused */, TextGenerator_t892 * ___gen, int32_t ___line, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SetDrawRangeToContainCaretPosition(UnityEngine.TextGenerator,System.Int32,System.Int32&,System.Int32&)
-extern "C" void InputField_SetDrawRangeToContainCaretPosition_m4935 (InputField_t600 * __this, TextGenerator_t893 * ___gen, int32_t ___caretPos, int32_t* ___drawStart, int32_t* ___drawEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SetDrawRangeToContainCaretPosition_m4933 (InputField_t600 * __this, TextGenerator_t892 * ___gen, int32_t ___caretPos, int32_t* ___drawStart, int32_t* ___drawEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::MarkGeometryAsDirty()
-extern "C" void InputField_MarkGeometryAsDirty_m4936 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_MarkGeometryAsDirty_m4934 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern "C" void InputField_Rebuild_m4937 (InputField_t600 * __this, int32_t ___update, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_Rebuild_m4935 (InputField_t600 * __this, int32_t ___update, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::UpdateGeometry()
-extern "C" void InputField_UpdateGeometry_m4938 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_UpdateGeometry_m4936 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::AssignPositioningIfNeeded()
-extern "C" void InputField_AssignPositioningIfNeeded_m4939 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_AssignPositioningIfNeeded_m4937 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnFillVBO(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void InputField_OnFillVBO_m4940 (InputField_t600 * __this, List_1_t894 * ___vbo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnFillVBO_m4938 (InputField_t600 * __this, List_1_t893 * ___vbo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::GenerateCursor(System.Collections.Generic.List`1<UnityEngine.UIVertex>,UnityEngine.Vector2)
-extern "C" void InputField_GenerateCursor_m4941 (InputField_t600 * __this, List_1_t894 * ___vbo, Vector2_t110  ___roundingOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_GenerateCursor_m4939 (InputField_t600 * __this, List_1_t893 * ___vbo, Vector2_t110  ___roundingOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::CreateCursorVerts()
-extern "C" void InputField_CreateCursorVerts_m4942 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_CreateCursorVerts_m4940 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.InputField::SumLineHeights(System.Int32,UnityEngine.TextGenerator)
-extern "C" float InputField_SumLineHeights_m4943 (InputField_t600 * __this, int32_t ___endLine, TextGenerator_t893 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float InputField_SumLineHeights_m4941 (InputField_t600 * __this, int32_t ___endLine, TextGenerator_t892 * ___generator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::GenerateHightlight(System.Collections.Generic.List`1<UnityEngine.UIVertex>,UnityEngine.Vector2)
-extern "C" void InputField_GenerateHightlight_m4944 (InputField_t600 * __this, List_1_t894 * ___vbo, Vector2_t110  ___roundingOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_GenerateHightlight_m4942 (InputField_t600 * __this, List_1_t893 * ___vbo, Vector2_t110  ___roundingOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char UnityEngine.UI.InputField::Validate(System.String,System.Int32,System.Char)
-extern "C" uint16_t InputField_Validate_m4945 (InputField_t600 * __this, String_t* ___text, int32_t ___pos, uint16_t ___ch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t InputField_Validate_m4943 (InputField_t600 * __this, String_t* ___text, int32_t ___pos, uint16_t ___ch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::ActivateInputField()
-extern "C" void InputField_ActivateInputField_m4946 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_ActivateInputField_m4944 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::ActivateInputFieldInternal()
-extern "C" void InputField_ActivateInputFieldInternal_m4947 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_ActivateInputFieldInternal_m4945 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnSelect(UnityEngine.EventSystems.BaseEventData)
-extern "C" void InputField_OnSelect_m4948 (InputField_t600 * __this, BaseEventData_t786 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnSelect_m4946 (InputField_t600 * __this, BaseEventData_t785 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-extern "C" void InputField_OnPointerClick_m4949 (InputField_t600 * __this, PointerEventData_t826 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnPointerClick_m4947 (InputField_t600 * __this, PointerEventData_t825 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::DeactivateInputField()
-extern "C" void InputField_DeactivateInputField_m4950 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_DeactivateInputField_m4948 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnDeselect(UnityEngine.EventSystems.BaseEventData)
-extern "C" void InputField_OnDeselect_m4951 (InputField_t600 * __this, BaseEventData_t786 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnDeselect_m4949 (InputField_t600 * __this, BaseEventData_t785 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::OnSubmit(UnityEngine.EventSystems.BaseEventData)
-extern "C" void InputField_OnSubmit_m4952 (InputField_t600 * __this, BaseEventData_t786 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_OnSubmit_m4950 (InputField_t600 * __this, BaseEventData_t785 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::EnforceContentType()
-extern "C" void InputField_EnforceContentType_m4953 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_EnforceContentType_m4951 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SetToCustomIfContentTypeIsNot(UnityEngine.UI.InputField/ContentType[])
-extern "C" void InputField_SetToCustomIfContentTypeIsNot_m4954 (InputField_t600 * __this, ContentTypeU5BU5D_t988* ___allowedContentTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SetToCustomIfContentTypeIsNot_m4952 (InputField_t600 * __this, ContentTypeU5BU5D_t987* ___allowedContentTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::SetToCustom()
-extern "C" void InputField_SetToCustom_m4955 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_SetToCustom_m4953 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField::DoStateTransition(UnityEngine.UI.Selectable/SelectionState,System.Boolean)
-extern "C" void InputField_DoStateTransition_m4956 (InputField_t600 * __this, int32_t ___state, bool ___instant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InputField_DoStateTransition_m4954 (InputField_t600 * __this, int32_t ___state, bool ___instant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern "C" bool InputField_UnityEngine_UI_ICanvasElement_IsDestroyed_m4957 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool InputField_UnityEngine_UI_ICanvasElement_IsDestroyed_m4955 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.UI.InputField::UnityEngine.UI.ICanvasElement.get_transform()
-extern "C" Transform_t406 * InputField_UnityEngine_UI_ICanvasElement_get_transform_m4958 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Transform_t406 * InputField_UnityEngine_UI_ICanvasElement_get_transform_m4956 (InputField_t600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct AssemblyFileVersionAttribute_t1046;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyFileVersionAttribute::.ctor(System.String)
-extern "C" void AssemblyFileVersionAttribute__ctor_m5959 (AssemblyFileVersionAttribute_t1046 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyFileVersionAttribute__ctor_m5956 (AssemblyFileVersionAttribute_t1046 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

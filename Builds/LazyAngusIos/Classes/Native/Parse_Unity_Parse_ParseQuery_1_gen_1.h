@@ -30,9 +30,9 @@ struct  ParseQuery_1_t1466  : public Object_t
 	// System.Collections.ObjectModel.ReadOnlyCollection`1<System.String> Parse.ParseQuery`1<System.Object>::selectedKeys
 	ReadOnlyCollection_1_t1399 * ___selectedKeys_4;
 	// System.Nullable`1<System.Int32> Parse.ParseQuery`1<System.Object>::skip
-	Nullable_1_t646  ___skip_5;
+	Nullable_1_t645  ___skip_5;
 	// System.Nullable`1<System.Int32> Parse.ParseQuery`1<System.Object>::limit
-	Nullable_1_t646  ___limit_6;
+	Nullable_1_t645  ___limit_6;
 };
 struct ParseQuery_1_t1466_StaticFields{
 	// System.Func`2<System.Threading.Tasks.Task`1<T>,T> Parse.ParseQuery`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate37

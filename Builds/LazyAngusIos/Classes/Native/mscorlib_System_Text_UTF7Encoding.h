@@ -7,7 +7,7 @@ struct SByteU5BU5D_t4717;
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.UTF7Encoding
-struct  UTF7Encoding_t4718  : public Encoding_t692
+struct  UTF7Encoding_t4718  : public Encoding_t691
 {
 	// System.Boolean System.Text.UTF7Encoding::allowOptionals
 	bool ___allowOptionals_28;

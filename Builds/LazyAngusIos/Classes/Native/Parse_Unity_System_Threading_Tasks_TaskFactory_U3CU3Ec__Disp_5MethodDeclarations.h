@@ -8,8 +8,8 @@
 struct U3CU3Ec__DisplayClass1_1_t8289;
 
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Int32>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1_1__ctor_m59248_gshared (U3CU3Ec__DisplayClass1_1_t8289 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_1__ctor_m59248(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t8289 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1__ctor_m59248_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_1__ctor_m59245_gshared (U3CU3Ec__DisplayClass1_1_t8289 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_1__ctor_m59245(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t8289 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1__ctor_m59245_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Int32>::<StartNew>b__0()
-extern "C" void U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59249_gshared (U3CU3Ec__DisplayClass1_1_t8289 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59249(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t8289 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59249_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59246_gshared (U3CU3Ec__DisplayClass1_1_t8289 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59246(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t8289 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m59246_gshared)(__this, method)

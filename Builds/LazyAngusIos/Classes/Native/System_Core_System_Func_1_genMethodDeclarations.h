@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<System.String>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_6MethodDeclarations.h"
-#define Func_1__ctor_m7049(__this, ___object, ___method, method) (( void (*) (Func_1_t1371 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m29892_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m7046(__this, ___object, ___method, method) (( void (*) (Func_1_t1371 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m29889_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<System.String>::Invoke()
-#define Func_1_Invoke_m29893(__this, method) (( String_t* (*) (Func_1_t1371 *, const MethodInfo*))Func_1_Invoke_m29894_gshared)(__this, method)
+#define Func_1_Invoke_m29890(__this, method) (( String_t* (*) (Func_1_t1371 *, const MethodInfo*))Func_1_Invoke_m29891_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<System.String>::BeginInvoke(System.AsyncCallback,System.Object)
-#define Func_1_BeginInvoke_m29895(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1371 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m29896_gshared)(__this, ___callback, ___object, method)
+#define Func_1_BeginInvoke_m29892(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1371 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m29893_gshared)(__this, ___callback, ___object, method)
 // TResult System.Func`1<System.String>::EndInvoke(System.IAsyncResult)
-#define Func_1_EndInvoke_m29897(__this, ___result, method) (( String_t* (*) (Func_1_t1371 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m29898_gshared)(__this, ___result, method)
+#define Func_1_EndInvoke_m29894(__this, ___result, method) (( String_t* (*) (Func_1_t1371 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m29895_gshared)(__this, ___result, method)

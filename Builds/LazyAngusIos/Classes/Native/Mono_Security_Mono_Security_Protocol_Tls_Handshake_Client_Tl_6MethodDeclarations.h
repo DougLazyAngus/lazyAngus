@@ -12,12 +12,12 @@ struct Context_t3794;
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerFinished__ctor_m12845 (TlsServerFinished_t3849 * __this, Context_t3794 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished__ctor_m12842 (TlsServerFinished_t3849 * __this, Context_t3794 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.cctor()
-extern "C" void TlsServerFinished__cctor_m12846 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished__cctor_m12843 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::Update()
-extern "C" void TlsServerFinished_Update_m12847 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_Update_m12844 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsSsl3()
-extern "C" void TlsServerFinished_ProcessAsSsl3_m12848 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_ProcessAsSsl3_m12845 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsTls1()
-extern "C" void TlsServerFinished_ProcessAsTls1_m12849 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerFinished_ProcessAsTls1_m12846 (TlsServerFinished_t3849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

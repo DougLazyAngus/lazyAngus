@@ -8,4 +8,4 @@
 struct MonoTODOAttribute_t3274;
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m11377 (MonoTODOAttribute_t3274 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m11374 (MonoTODOAttribute_t3274 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

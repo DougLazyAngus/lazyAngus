@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "UnityEngine_UnityEngine_UILineInfo.h"
 
 // System.Void System.Comparison`1<UnityEngine.UILineInfo>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m60366_gshared (Comparison_1_t8373 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m60366(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8373 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m60366_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m60363_gshared (Comparison_1_t8373 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m60363(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8373 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m60363_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.UILineInfo>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m60367_gshared (Comparison_1_t8373 * __this, UILineInfo_t1019  ___x, UILineInfo_t1019  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m60367(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8373 *, UILineInfo_t1019 , UILineInfo_t1019 , const MethodInfo*))Comparison_1_Invoke_m60367_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m60364_gshared (Comparison_1_t8373 * __this, UILineInfo_t1019  ___x, UILineInfo_t1019  ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m60364(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8373 *, UILineInfo_t1019 , UILineInfo_t1019 , const MethodInfo*))Comparison_1_Invoke_m60364_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.UILineInfo>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m60368_gshared (Comparison_1_t8373 * __this, UILineInfo_t1019  ___x, UILineInfo_t1019  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m60368(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8373 *, UILineInfo_t1019 , UILineInfo_t1019 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m60368_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m60365_gshared (Comparison_1_t8373 * __this, UILineInfo_t1019  ___x, UILineInfo_t1019  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m60365(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8373 *, UILineInfo_t1019 , UILineInfo_t1019 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m60365_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.UILineInfo>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m60369_gshared (Comparison_1_t8373 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m60369(__this, ___result, method) (( int32_t (*) (Comparison_1_t8373 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m60369_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m60366_gshared (Comparison_1_t8373 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m60366(__this, ___result, method) (( int32_t (*) (Comparison_1_t8373 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m60366_gshared)(__this, ___result, method)

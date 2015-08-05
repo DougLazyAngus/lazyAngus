@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t985;
+struct ICanvasElement_t984;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

@@ -24,44 +24,44 @@ struct String_t;
 #include "mscorlib_System_Decimal.h"
 
 // System.Void System.DBNull::.ctor()
-extern "C" void DBNull__ctor_m19348 (DBNull_t4748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DBNull__ctor_m19345 (DBNull_t4748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DBNull::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DBNull__ctor_m19349 (DBNull_t4748 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DBNull__ctor_m19346 (DBNull_t4748 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DBNull::.cctor()
-extern "C" void DBNull__cctor_m19350 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DBNull__cctor_m19347 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DBNull::System.IConvertible.ToBoolean(System.IFormatProvider)
-extern "C" bool DBNull_System_IConvertible_ToBoolean_m19351 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DBNull_System_IConvertible_ToBoolean_m19348 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.DBNull::System.IConvertible.ToByte(System.IFormatProvider)
-extern "C" uint8_t DBNull_System_IConvertible_ToByte_m19352 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t DBNull_System_IConvertible_ToByte_m19349 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.DBNull::System.IConvertible.ToChar(System.IFormatProvider)
-extern "C" uint16_t DBNull_System_IConvertible_ToChar_m19353 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t DBNull_System_IConvertible_ToChar_m19350 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DBNull::System.IConvertible.ToDateTime(System.IFormatProvider)
-extern "C" DateTime_t287  DBNull_System_IConvertible_ToDateTime_m19354 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  DBNull_System_IConvertible_ToDateTime_m19351 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.DBNull::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t698  DBNull_System_IConvertible_ToDecimal_m19355 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t697  DBNull_System_IConvertible_ToDecimal_m19352 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.DBNull::System.IConvertible.ToDouble(System.IFormatProvider)
-extern "C" double DBNull_System_IConvertible_ToDouble_m19356 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double DBNull_System_IConvertible_ToDouble_m19353 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.DBNull::System.IConvertible.ToInt16(System.IFormatProvider)
-extern "C" int16_t DBNull_System_IConvertible_ToInt16_m19357 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t DBNull_System_IConvertible_ToInt16_m19354 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DBNull::System.IConvertible.ToInt32(System.IFormatProvider)
-extern "C" int32_t DBNull_System_IConvertible_ToInt32_m19358 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DBNull_System_IConvertible_ToInt32_m19355 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.DBNull::System.IConvertible.ToInt64(System.IFormatProvider)
-extern "C" int64_t DBNull_System_IConvertible_ToInt64_m19359 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t DBNull_System_IConvertible_ToInt64_m19356 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.DBNull::System.IConvertible.ToSByte(System.IFormatProvider)
-extern "C" int8_t DBNull_System_IConvertible_ToSByte_m19360 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t DBNull_System_IConvertible_ToSByte_m19357 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.DBNull::System.IConvertible.ToSingle(System.IFormatProvider)
-extern "C" float DBNull_System_IConvertible_ToSingle_m19361 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float DBNull_System_IConvertible_ToSingle_m19358 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.DBNull::System.IConvertible.ToType(System.Type,System.IFormatProvider)
-extern "C" Object_t * DBNull_System_IConvertible_ToType_m19362 (DBNull_t4748 * __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DBNull_System_IConvertible_ToType_m19359 (DBNull_t4748 * __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.DBNull::System.IConvertible.ToUInt16(System.IFormatProvider)
-extern "C" uint16_t DBNull_System_IConvertible_ToUInt16_m19363 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t DBNull_System_IConvertible_ToUInt16_m19360 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.DBNull::System.IConvertible.ToUInt32(System.IFormatProvider)
-extern "C" uint32_t DBNull_System_IConvertible_ToUInt32_m19364 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t DBNull_System_IConvertible_ToUInt32_m19361 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.DBNull::System.IConvertible.ToUInt64(System.IFormatProvider)
-extern "C" uint64_t DBNull_System_IConvertible_ToUInt64_m19365 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t DBNull_System_IConvertible_ToUInt64_m19362 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DBNull::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DBNull_GetObjectData_m19366 (DBNull_t4748 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DBNull_GetObjectData_m19363 (DBNull_t4748 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DBNull::ToString()
-extern "C" String_t* DBNull_ToString_m19367 (DBNull_t4748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DBNull_ToString_m19364 (DBNull_t4748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DBNull::ToString(System.IFormatProvider)
-extern "C" String_t* DBNull_ToString_m19368 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DBNull_ToString_m19365 (DBNull_t4748 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;

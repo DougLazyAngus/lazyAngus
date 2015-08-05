@@ -14,12 +14,12 @@ struct Task_t1159;
 struct ParseObject_t1170;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32::.ctor()
-extern "C" void U3CU3Ec__DisplayClass32__ctor_m6544 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass32__ctor_m6541 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Boolean> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32::<DeepSaveAsync>b__23()
-extern "C" Task_1_t1320 * U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__23_m6545 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1320 * U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__23_m6542 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32::<DeepSaveAsync>b__24()
-extern "C" Task_t1159 * U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__24_m6546 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1159 * U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__24_m6543 (U3CU3Ec__DisplayClass32_t1207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32::<DeepSaveAsync>b__25(Parse.ParseObject)
-extern "C" bool U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__25_m6547 (Object_t * __this /* static, unused */, ParseObject_t1170 * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__25_m6544 (Object_t * __this /* static, unused */, ParseObject_t1170 * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32::<DeepSaveAsync>b__26(Parse.ParseObject)
-extern "C" bool U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__26_m6548 (Object_t * __this /* static, unused */, ParseObject_t1170 * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClass32_U3CDeepSaveAsyncU3Eb__26_m6545 (Object_t * __this /* static, unused */, ParseObject_t1170 * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;

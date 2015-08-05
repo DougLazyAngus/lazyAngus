@@ -7,7 +7,7 @@ struct ParseConfig_t1184;
 // Parse.Internal.TaskQueue
 struct TaskQueue_t1160;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseConfig>
 struct Func_2_t1185;
 // System.Object

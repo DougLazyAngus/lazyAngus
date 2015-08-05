@@ -5,7 +5,7 @@ struct FacebookUserInfoU5BU5D_t5523;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<FacebookUserInfo>
-struct  List_1_t643  : public Object_t
+struct  List_1_t642  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<FacebookUserInfo>::_items
 	FacebookUserInfoU5BU5D_t5523* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t643  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<FacebookUserInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t643_StaticFields{
+struct List_1_t642_StaticFields{
 	// T[] System.Collections.Generic.List`1<FacebookUserInfo>::EmptyArray
 	FacebookUserInfoU5BU5D_t5523* ___EmptyArray_4;
 };

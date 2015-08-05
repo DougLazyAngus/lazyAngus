@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.AxisEventData
-struct AxisEventData_t822;
+struct AxisEventData_t821;
 // UnityEngine.EventSystems.EventSystem
-struct EventSystem_t788;
+struct EventSystem_t787;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.EventSystems.MoveDirection
 #include "UnityEngine_UI_UnityEngine_EventSystems_MoveDirection.h"
 
 // System.Void UnityEngine.EventSystems.AxisEventData::.ctor(UnityEngine.EventSystems.EventSystem)
-extern "C" void AxisEventData__ctor_m4446 (AxisEventData_t822 * __this, EventSystem_t788 * ___eventSystem, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AxisEventData__ctor_m4442 (AxisEventData_t821 * __this, EventSystem_t787 * ___eventSystem, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.EventSystems.AxisEventData::get_moveVector()
-extern "C" Vector2_t110  AxisEventData_get_moveVector_m4447 (AxisEventData_t822 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  AxisEventData_get_moveVector_m4443 (AxisEventData_t821 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.AxisEventData::set_moveVector(UnityEngine.Vector2)
-extern "C" void AxisEventData_set_moveVector_m4448 (AxisEventData_t822 * __this, Vector2_t110  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AxisEventData_set_moveVector_m4444 (AxisEventData_t821 * __this, Vector2_t110  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.MoveDirection UnityEngine.EventSystems.AxisEventData::get_moveDir()
-extern "C" int32_t AxisEventData_get_moveDir_m4449 (AxisEventData_t822 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AxisEventData_get_moveDir_m4445 (AxisEventData_t821 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.AxisEventData::set_moveDir(UnityEngine.EventSystems.MoveDirection)
-extern "C" void AxisEventData_set_moveDir_m4450 (AxisEventData_t822 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AxisEventData_set_moveDir_m4446 (AxisEventData_t821 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

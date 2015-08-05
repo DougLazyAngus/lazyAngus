@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.Transform>
-struct List_1_t814;
+struct List_1_t813;
 // UnityEngine.Transform
 struct Transform_t406;
 // System.ValueType
@@ -10,7 +10,7 @@ struct Transform_t406;
 struct  Enumerator_t5732 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::l
-	List_1_t814 * ___l_0;
+	List_1_t813 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::ver

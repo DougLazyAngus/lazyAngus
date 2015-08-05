@@ -5,11 +5,11 @@ struct String_t;
 // System.Int32[]
 struct Int32U5BU5D_t549;
 // PlayerStats/ScoreChangedEventHandler
-struct ScoreChangedEventHandler_t585;
+struct ScoreChangedEventHandler_t584;
 // PlayerStats/MoneyChangedEventHandler
-struct MoneyChangedEventHandler_t586;
+struct MoneyChangedEventHandler_t585;
 // PlayerStats/BoostsChangedEventHandler
-struct BoostsChangedEventHandler_t587;
+struct BoostsChangedEventHandler_t586;
 // PlayerStats
 struct PlayerStats_t475;
 // UnityEngine.MonoBehaviour
@@ -24,11 +24,11 @@ struct  PlayerStats_t475  : public MonoBehaviour_t13
 	// System.Boolean PlayerStats::registeredForEvents
 	bool ___registeredForEvents_5;
 	// PlayerStats/ScoreChangedEventHandler PlayerStats::ScoreChanged
-	ScoreChangedEventHandler_t585 * ___ScoreChanged_6;
+	ScoreChangedEventHandler_t584 * ___ScoreChanged_6;
 	// PlayerStats/MoneyChangedEventHandler PlayerStats::MoneyChanged
-	MoneyChangedEventHandler_t586 * ___MoneyChanged_7;
+	MoneyChangedEventHandler_t585 * ___MoneyChanged_7;
 	// PlayerStats/BoostsChangedEventHandler PlayerStats::BoostsChanged
-	BoostsChangedEventHandler_t587 * ___BoostsChanged_8;
+	BoostsChangedEventHandler_t586 * ___BoostsChanged_8;
 	// System.Int32 PlayerStats::<gameScore>k__BackingField
 	int32_t ___U3CgameScoreU3Ek__BackingField_9;
 	// System.Int32 PlayerStats::<money>k__BackingField

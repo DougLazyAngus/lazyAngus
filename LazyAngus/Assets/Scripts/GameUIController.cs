@@ -11,7 +11,6 @@ public class GameUIController : MonoBehaviour {
 	public enum GameUIsType {
 		WELCOME,
 		LEVEL_END,
-		LEVEL_PLAY,
 		GAME_END,
 
 		NUM_TYPES,
@@ -19,7 +18,6 @@ public class GameUIController : MonoBehaviour {
 	
 	public GameObject welcomeUIGameObject;
 	public GameObject levelEndUIGameObject;
-	public GameObject levelPlayUIGameObject;
 	public GameObject gameOverUIGameObject;
 
 	public static GameUIController instance { get; private set; }
@@ -36,12 +34,10 @@ public class GameUIController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		welcomeUIGameObject.SetActive (false);
-		levelPlayUIGameObject.SetActive (false);
 		levelEndUIGameObject.SetActive (false);
 		gameOverUIGameObject.SetActive (false);
 		
 		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <LevelPlayUI>();
 		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
 		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
 
@@ -78,8 +74,15 @@ public class GameUIController : MonoBehaviour {
 		}
 	}
 
-	void OnGamePhaseChanged() {
-		Debug.Log("05.001  " + Time.realtimeSinceStartup);
+	// Public just for debug purposes.
+	public void OnGamePhaseChanged() {
+		if (!registeredForEvents) {
+			return;
+		}
+
+		if (DebugConfig.instance.DebugFlagSet (4)) {
+			return;
+		}
 
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME: {
@@ -94,10 +97,10 @@ public class GameUIController : MonoBehaviour {
 			break;
 		}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			SetActiveUI(GameUIsType.LEVEL_PLAY);
+			SetActiveUI(GameUIsType.NUM_TYPES);
 			break;
 		case GamePhaseState.GamePhaseType.PENDING:
-			SetActiveUI(GameUIsType.LEVEL_PLAY);
+			SetActiveUI(GameUIsType.NUM_TYPES);
 			break;
 		case GamePhaseState.GamePhaseType.LEVEL_END: {
 			SetActiveUI(GameUIsType.LEVEL_END);
@@ -107,7 +110,6 @@ public class GameUIController : MonoBehaviour {
 			SetActiveUI(GameUIsType.GAME_END);
 			break;
 		}		
-		Debug.Log("05.002  " + Time.realtimeSinceStartup);
 	}
 
 	public void SetActiveUI(GameUIsType uiType) {

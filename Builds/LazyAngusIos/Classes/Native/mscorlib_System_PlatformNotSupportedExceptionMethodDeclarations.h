@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.PlatformNotSupportedException
-struct PlatformNotSupportedException_t729;
+struct PlatformNotSupportedException_t728;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -14,8 +14,8 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.PlatformNotSupportedException::.ctor()
-extern "C" void PlatformNotSupportedException__ctor_m19768 (PlatformNotSupportedException_t729 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlatformNotSupportedException__ctor_m19765 (PlatformNotSupportedException_t728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.PlatformNotSupportedException::.ctor(System.String)
-extern "C" void PlatformNotSupportedException__ctor_m3856 (PlatformNotSupportedException_t729 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlatformNotSupportedException__ctor_m3855 (PlatformNotSupportedException_t728 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.PlatformNotSupportedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void PlatformNotSupportedException__ctor_m19769 (PlatformNotSupportedException_t729 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlatformNotSupportedException__ctor_m19766 (PlatformNotSupportedException_t728 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

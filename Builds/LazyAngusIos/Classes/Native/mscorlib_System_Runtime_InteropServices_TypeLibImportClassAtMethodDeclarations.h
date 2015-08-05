@@ -10,4 +10,4 @@ struct TypeLibImportClassAttribute_t4536;
 struct Type_t;
 
 // System.Void System.Runtime.InteropServices.TypeLibImportClassAttribute::.ctor(System.Type)
-extern "C" void TypeLibImportClassAttribute__ctor_m17927 (TypeLibImportClassAttribute_t4536 * __this, Type_t * ___importClass, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLibImportClassAttribute__ctor_m17924 (TypeLibImportClassAttribute_t4536 * __this, Type_t * ___importClass, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -12,10 +12,10 @@ struct BigInteger_t4346;
 #include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" int32_t PrimalityTests_GetSPPRounds_m16174 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimalityTests_GetSPPRounds_m16171 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::Test(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_Test_m16175 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_Test_m16172 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_RabinMillerTest_m16176 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_RabinMillerTest_m16173 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::SmallPrimeSppTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_SmallPrimeSppTest_m16177 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_SmallPrimeSppTest_m16174 (Object_t * __this /* static, unused */, BigInteger_t4346 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<FBScore>
-struct List_1_t644;
+struct List_1_t643;
 // FBScore
 struct FBScore_t293;
 // System.ValueType
@@ -10,7 +10,7 @@ struct FBScore_t293;
 struct  Enumerator_t5538 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FBScore>::l
-	List_1_t644 * ___l_0;
+	List_1_t643 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBScore>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBScore>::ver

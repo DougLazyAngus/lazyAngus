@@ -13,7 +13,7 @@ struct ReaderWriterLockSlim_t1226;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
 struct LinkedList_1_t1227;
 // System.Collections.Generic.IDictionary`2<System.String,System.Boolean>

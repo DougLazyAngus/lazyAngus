@@ -11,10 +11,10 @@ struct GUIStyle_t107;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.GUILayoutUtility
-struct  GUILayoutUtility_t656  : public Object_t
+struct  GUILayoutUtility_t655  : public Object_t
 {
 };
-struct GUILayoutUtility_t656_StaticFields{
+struct GUILayoutUtility_t655_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::storedLayouts
 	Dictionary_2_t2666 * ___storedLayouts_0;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::storedWindows
@@ -22,7 +22,7 @@ struct GUILayoutUtility_t656_StaticFields{
 	// UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::current
 	LayoutCache_t2665 * ___current_2;
 	// UnityEngine.Rect UnityEngine.GUILayoutUtility::kDummyRect
-	Rect_t650  ___kDummyRect_3;
+	Rect_t649  ___kDummyRect_3;
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutUtility::s_SpaceStyle
 	GUIStyle_t107 * ___s_SpaceStyle_4;
 };

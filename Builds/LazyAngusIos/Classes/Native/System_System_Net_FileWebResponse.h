@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.IO.FileStream
 struct FileStream_t62;
 // System.Net.WebHeaderCollection
@@ -12,7 +12,7 @@ struct WebHeaderCollection_t3971;
 struct  FileWebResponse_t3989  : public WebResponse_t3256
 {
 	// System.Uri System.Net.FileWebResponse::responseUri
-	Uri_t710 * ___responseUri_1;
+	Uri_t709 * ___responseUri_1;
 	// System.IO.FileStream System.Net.FileWebResponse::fileStream
 	FileStream_t62 * ___fileStream_2;
 	// System.Int64 System.Net.FileWebResponse::contentLength

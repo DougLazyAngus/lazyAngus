@@ -10,8 +10,8 @@ struct SecurityAttribute_t4691;
 struct String_t;
 
 // System.Void System.Security.SecurityElement/SecurityAttribute::.ctor(System.String,System.String)
-extern "C" void SecurityAttribute__ctor_m18704 (SecurityAttribute_t4691 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityAttribute__ctor_m18701 (SecurityAttribute_t4691 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityElement/SecurityAttribute::get_Name()
-extern "C" String_t* SecurityAttribute_get_Name_m18705 (SecurityAttribute_t4691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityAttribute_get_Name_m18702 (SecurityAttribute_t4691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityElement/SecurityAttribute::get_Value()
-extern "C" String_t* SecurityAttribute_get_Value_m18706 (SecurityAttribute_t4691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityAttribute_get_Value_m18703 (SecurityAttribute_t4691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

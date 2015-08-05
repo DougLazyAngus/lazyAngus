@@ -20,24 +20,24 @@ struct X509ChainElementEnumerator_t4055;
 struct X509Certificate2_t3890;
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::.ctor()
-extern "C" void X509ChainElementCollection__ctor_m14216 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementCollection__ctor_m14213 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void X509ChainElementCollection_System_Collections_ICollection_CopyTo_m14217 (X509ChainElementCollection_t4049 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementCollection_System_Collections_ICollection_CopyTo_m14214 (X509ChainElementCollection_t4049 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509ChainElementCollection::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * X509ChainElementCollection_System_Collections_IEnumerable_GetEnumerator_m14218 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ChainElementCollection_System_Collections_IEnumerable_GetEnumerator_m14215 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509ChainElementCollection::get_Count()
-extern "C" int32_t X509ChainElementCollection_get_Count_m14219 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainElementCollection_get_Count_m14216 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509ChainElementCollection::get_IsSynchronized()
-extern "C" bool X509ChainElementCollection_get_IsSynchronized_m14220 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509ChainElementCollection_get_IsSynchronized_m14217 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainElement System.Security.Cryptography.X509Certificates.X509ChainElementCollection::get_Item(System.Int32)
-extern "C" X509ChainElement_t4053 * X509ChainElementCollection_get_Item_m14221 (X509ChainElementCollection_t4049 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ChainElement_t4053 * X509ChainElementCollection_get_Item_m14218 (X509ChainElementCollection_t4049 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.X509Certificates.X509ChainElementCollection::get_SyncRoot()
-extern "C" Object_t * X509ChainElementCollection_get_SyncRoot_m14222 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ChainElementCollection_get_SyncRoot_m14219 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator System.Security.Cryptography.X509Certificates.X509ChainElementCollection::GetEnumerator()
-extern "C" X509ChainElementEnumerator_t4055 * X509ChainElementCollection_GetEnumerator_m14223 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ChainElementEnumerator_t4055 * X509ChainElementCollection_GetEnumerator_m14220 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" void X509ChainElementCollection_Add_m14224 (X509ChainElementCollection_t4049 * __this, X509Certificate2_t3890 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementCollection_Add_m14221 (X509ChainElementCollection_t4049 * __this, X509Certificate2_t3890 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::Clear()
-extern "C" void X509ChainElementCollection_Clear_m14225 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementCollection_Clear_m14222 (X509ChainElementCollection_t4049 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509ChainElementCollection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool X509ChainElementCollection_Contains_m14226 (X509ChainElementCollection_t4049 * __this, X509Certificate2_t3890 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509ChainElementCollection_Contains_m14223 (X509ChainElementCollection_t4049 * __this, X509Certificate2_t3890 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct Func_2_t1176;
 // System.Collections.Generic.IComparer`1<System.Object>
 struct IComparer_1_t5606;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Linq.SortContext`1<System.Object>
 #include "System_Core_System_Linq_SortContext_1_gen.h"
 // System.Linq.SortSequenceContext`2<System.Object,System.Object>
@@ -16,5 +16,5 @@ struct  SortSequenceContext_2_t5994  : public SortContext_1_t5993
 	// System.Collections.Generic.IComparer`1<TKey> System.Linq.SortSequenceContext`2<System.Object,System.Object>::comparer
 	Object_t* ___comparer_3;
 	// TKey[] System.Linq.SortSequenceContext`2<System.Object,System.Object>::keys
-	ObjectU5BU5D_t638* ___keys_4;
+	ObjectU5BU5D_t637* ___keys_4;
 };

@@ -5,7 +5,7 @@ struct Int32U5BU5D_t549;
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
 struct LinkU5BU5D_t5871;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t1136;
 // System.Runtime.Serialization.SerializationInfo
@@ -20,7 +20,7 @@ struct  HashSet_1_t1418  : public Object_t
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.Object>::links
 	LinkU5BU5D_t5871* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.Object>::slots
-	ObjectU5BU5D_t638* ___slots_2;
+	ObjectU5BU5D_t637* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::touched
 	int32_t ___touched_3;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::empty_slot

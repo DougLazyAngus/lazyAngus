@@ -5,7 +5,7 @@ struct Image_t463;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TweakableSlider
-struct  TweakableSlider_t566  : public MonoBehaviour_t13
+struct  TweakableSlider_t565  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Image TweakableSlider::fill
 	Image_t463 * ___fill_2;

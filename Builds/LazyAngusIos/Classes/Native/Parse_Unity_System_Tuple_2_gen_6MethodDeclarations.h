@@ -10,23 +10,23 @@ struct Tuple_2_t5912;
 struct Object_t;
 
 // T1 System.Tuple`2<System.Object,System.Object>::get_Item1()
-extern "C" Object_t * Tuple_2_get_Item1_m30169_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
-#define Tuple_2_get_Item1_m30169(__this, method) (( Object_t * (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_get_Item1_m30169_gshared)(__this, method)
+extern "C" Object_t * Tuple_2_get_Item1_m30166_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
+#define Tuple_2_get_Item1_m30166(__this, method) (( Object_t * (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_get_Item1_m30166_gshared)(__this, method)
 // System.Void System.Tuple`2<System.Object,System.Object>::set_Item1(T1)
-extern "C" void Tuple_2_set_Item1_m30171_gshared (Tuple_2_t5912 * __this, Object_t * ___value, const MethodInfo* method);
-#define Tuple_2_set_Item1_m30171(__this, ___value, method) (( void (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_set_Item1_m30171_gshared)(__this, ___value, method)
+extern "C" void Tuple_2_set_Item1_m30168_gshared (Tuple_2_t5912 * __this, Object_t * ___value, const MethodInfo* method);
+#define Tuple_2_set_Item1_m30168(__this, ___value, method) (( void (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_set_Item1_m30168_gshared)(__this, ___value, method)
 // T2 System.Tuple`2<System.Object,System.Object>::get_Item2()
-extern "C" Object_t * Tuple_2_get_Item2_m30173_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
-#define Tuple_2_get_Item2_m30173(__this, method) (( Object_t * (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_get_Item2_m30173_gshared)(__this, method)
+extern "C" Object_t * Tuple_2_get_Item2_m30170_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
+#define Tuple_2_get_Item2_m30170(__this, method) (( Object_t * (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_get_Item2_m30170_gshared)(__this, method)
 // System.Void System.Tuple`2<System.Object,System.Object>::set_Item2(T2)
-extern "C" void Tuple_2_set_Item2_m30175_gshared (Tuple_2_t5912 * __this, Object_t * ___value, const MethodInfo* method);
-#define Tuple_2_set_Item2_m30175(__this, ___value, method) (( void (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_set_Item2_m30175_gshared)(__this, ___value, method)
+extern "C" void Tuple_2_set_Item2_m30172_gshared (Tuple_2_t5912 * __this, Object_t * ___value, const MethodInfo* method);
+#define Tuple_2_set_Item2_m30172(__this, ___value, method) (( void (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_set_Item2_m30172_gshared)(__this, ___value, method)
 // System.Void System.Tuple`2<System.Object,System.Object>::.ctor(T1,T2)
-extern "C" void Tuple_2__ctor_m30177_gshared (Tuple_2_t5912 * __this, Object_t * ___item1, Object_t * ___item2, const MethodInfo* method);
-#define Tuple_2__ctor_m30177(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t5912 *, Object_t *, Object_t *, const MethodInfo*))Tuple_2__ctor_m30177_gshared)(__this, ___item1, ___item2, method)
+extern "C" void Tuple_2__ctor_m30174_gshared (Tuple_2_t5912 * __this, Object_t * ___item1, Object_t * ___item2, const MethodInfo* method);
+#define Tuple_2__ctor_m30174(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t5912 *, Object_t *, Object_t *, const MethodInfo*))Tuple_2__ctor_m30174_gshared)(__this, ___item1, ___item2, method)
 // System.Boolean System.Tuple`2<System.Object,System.Object>::Equals(System.Object)
-extern "C" bool Tuple_2_Equals_m30179_gshared (Tuple_2_t5912 * __this, Object_t * ___obj, const MethodInfo* method);
-#define Tuple_2_Equals_m30179(__this, ___obj, method) (( bool (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_Equals_m30179_gshared)(__this, ___obj, method)
+extern "C" bool Tuple_2_Equals_m30176_gshared (Tuple_2_t5912 * __this, Object_t * ___obj, const MethodInfo* method);
+#define Tuple_2_Equals_m30176(__this, ___obj, method) (( bool (*) (Tuple_2_t5912 *, Object_t *, const MethodInfo*))Tuple_2_Equals_m30176_gshared)(__this, ___obj, method)
 // System.Int32 System.Tuple`2<System.Object,System.Object>::GetHashCode()
-extern "C" int32_t Tuple_2_GetHashCode_m30181_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
-#define Tuple_2_GetHashCode_m30181(__this, method) (( int32_t (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_GetHashCode_m30181_gshared)(__this, method)
+extern "C" int32_t Tuple_2_GetHashCode_m30178_gshared (Tuple_2_t5912 * __this, const MethodInfo* method);
+#define Tuple_2_GetHashCode_m30178(__this, method) (( int32_t (*) (Tuple_2_t5912 *, const MethodInfo*))Tuple_2_GetHashCode_m30178_gshared)(__this, method)

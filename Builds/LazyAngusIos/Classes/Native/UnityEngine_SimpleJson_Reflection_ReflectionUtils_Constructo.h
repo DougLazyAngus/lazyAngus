@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

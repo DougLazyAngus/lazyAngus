@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Threading.Tasks.Task
 struct Task_t1159;
 // System.IAsyncResult

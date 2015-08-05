@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionary
-struct IDictionary_t641;
+struct IDictionary_t640;
 // System.UInt16[]
 struct UInt16U5BU5D_t4015;
 // System.String[]

@@ -16,12 +16,12 @@ struct AsyncCallback_t386;
 struct IAsyncResult_t385;
 
 // System.Void System.IO.FileStreamAsyncResult::.ctor(System.AsyncCallback,System.Object)
-extern "C" void FileStreamAsyncResult__ctor_m17160 (FileStreamAsyncResult_t4445 * __this, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileStreamAsyncResult__ctor_m17157 (FileStreamAsyncResult_t4445 * __this, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStreamAsyncResult::CBWrapper(System.IAsyncResult)
-extern "C" void FileStreamAsyncResult_CBWrapper_m17161 (Object_t * __this /* static, unused */, Object_t * ___ares, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileStreamAsyncResult_CBWrapper_m17158 (Object_t * __this /* static, unused */, Object_t * ___ares, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.IO.FileStreamAsyncResult::get_AsyncState()
-extern "C" Object_t * FileStreamAsyncResult_get_AsyncState_m17162 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FileStreamAsyncResult_get_AsyncState_m17159 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.WaitHandle System.IO.FileStreamAsyncResult::get_AsyncWaitHandle()
-extern "C" WaitHandle_t3867 * FileStreamAsyncResult_get_AsyncWaitHandle_m17163 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WaitHandle_t3867 * FileStreamAsyncResult_get_AsyncWaitHandle_m17160 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.FileStreamAsyncResult::get_IsCompleted()
-extern "C" bool FileStreamAsyncResult_get_IsCompleted_m17164 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FileStreamAsyncResult_get_IsCompleted_m17161 (FileStreamAsyncResult_t4445 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

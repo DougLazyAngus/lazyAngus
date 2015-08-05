@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass2_t1199;
 struct ParseObject_t1170;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass2::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2__ctor_m6522 (U3CU3Ec__DisplayClass2_t1199 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2__ctor_m6519 (U3CU3Ec__DisplayClass2_t1199 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseObject Parse.ParseObject/<>c__DisplayClass2::<GetFactory>b__0()
-extern "C" ParseObject_t1170 * U3CU3Ec__DisplayClass2_U3CGetFactoryU3Eb__0_m6523 (U3CU3Ec__DisplayClass2_t1199 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseObject_t1170 * U3CU3Ec__DisplayClass2_U3CGetFactoryU3Eb__0_m6520 (U3CU3Ec__DisplayClass2_t1199 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

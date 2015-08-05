@@ -17,7 +17,7 @@ struct Transform_1_t5794;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  Dictionary_2_t869  : public Object_t
+struct  Dictionary_2_t868  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::table
 	Int32U5BU5D_t549* ___table_4;
@@ -42,7 +42,7 @@ struct  Dictionary_2_t869  : public Object_t
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t869_StaticFields{
+struct Dictionary_2_t868_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::<>f__am$cacheB
 	Transform_1_t5794 * ___U3CU3Ef__amU24cacheB_15;
 };

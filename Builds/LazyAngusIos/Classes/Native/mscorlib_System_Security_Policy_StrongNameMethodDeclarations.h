@@ -16,14 +16,14 @@ struct Version_t1335;
 struct Object_t;
 
 // System.String System.Security.Policy.StrongName::get_Name()
-extern "C" String_t* StrongName_get_Name_m18676 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongName_get_Name_m18673 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Permissions.StrongNamePublicKeyBlob System.Security.Policy.StrongName::get_PublicKey()
-extern "C" StrongNamePublicKeyBlob_t4680 * StrongName_get_PublicKey_m18677 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StrongNamePublicKeyBlob_t4680 * StrongName_get_PublicKey_m18674 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Version System.Security.Policy.StrongName::get_Version()
-extern "C" Version_t1335 * StrongName_get_Version_m18678 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Version_t1335 * StrongName_get_Version_m18675 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.StrongName::Equals(System.Object)
-extern "C" bool StrongName_Equals_m18679 (StrongName_t4685 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StrongName_Equals_m18676 (StrongName_t4685 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.StrongName::GetHashCode()
-extern "C" int32_t StrongName_GetHashCode_m18680 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StrongName_GetHashCode_m18677 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Policy.StrongName::ToString()
-extern "C" String_t* StrongName_ToString_m18681 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongName_ToString_m18678 (StrongName_t4685 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,9 +5,9 @@ struct Object_t;
 // Parse.ParseQuery`1<Parse.ParseInstallation>
 struct ParseQuery_1_t1242;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t661;
+struct IEnumerable_1_t660;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.String
 struct String_t;
 // Parse.Internal.SynchronizedEventHandler`1<Parse.ParsePushNotificationEventArgs>

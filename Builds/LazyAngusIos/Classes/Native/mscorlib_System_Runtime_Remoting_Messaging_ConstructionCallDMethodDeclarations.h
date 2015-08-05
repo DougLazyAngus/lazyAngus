@@ -14,10 +14,10 @@ struct Object_t;
 struct String_t;
 
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" void ConstructionCallDictionary__ctor_m18011 (ConstructionCallDictionary_t4564 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary__ctor_m18008 (ConstructionCallDictionary_t4564 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.cctor()
-extern "C" void ConstructionCallDictionary__cctor_m18012 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary__cctor_m18009 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.ConstructionCallDictionary::GetMethodProperty(System.String)
-extern "C" Object_t * ConstructionCallDictionary_GetMethodProperty_m18013 (ConstructionCallDictionary_t4564 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructionCallDictionary_GetMethodProperty_m18010 (ConstructionCallDictionary_t4564 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::SetMethodProperty(System.String,System.Object)
-extern "C" void ConstructionCallDictionary_SetMethodProperty_m18014 (ConstructionCallDictionary_t4564 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCallDictionary_SetMethodProperty_m18011 (ConstructionCallDictionary_t4564 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

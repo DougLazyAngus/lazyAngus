@@ -24,11 +24,8 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void Start () {
 		waveDirty = false;
-
 		RegisterForEvents ();
-
 		started = true;
-		SetWaveViews ();
 	}
 
 	void OnDestroy() {

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t983;
+struct List_1_t982;
 // UnityEngine.EventSystems.IEventSystemHandler
 struct IEventSystemHandler_t1049;
 // System.ValueType
@@ -10,7 +10,7 @@ struct IEventSystemHandler_t1049;
 struct  Enumerator_t5692 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
-	List_1_t983 * ___l_0;
+	List_1_t982 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::ver

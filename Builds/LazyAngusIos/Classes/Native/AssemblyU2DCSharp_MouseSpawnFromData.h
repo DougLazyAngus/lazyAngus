@@ -7,7 +7,7 @@ struct List_1_t537;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // MouseSpawnFromData/MouseSpawnEventHandler
-struct MouseSpawnEventHandler_t567;
+struct MouseSpawnEventHandler_t566;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnFromData
@@ -28,7 +28,7 @@ struct  MouseSpawnFromData_t510  : public MonoBehaviour_t13
 	// System.Boolean MouseSpawnFromData::registeredForEvents
 	bool ___registeredForEvents_9;
 	// MouseSpawnFromData/MouseSpawnEventHandler MouseSpawnFromData::MouseSpawn
-	MouseSpawnEventHandler_t567 * ___MouseSpawn_10;
+	MouseSpawnEventHandler_t566 * ___MouseSpawn_10;
 	// System.Int32 MouseSpawnFromData::<miceSpawned>k__BackingField
 	int32_t ___U3CmiceSpawnedU3Ek__BackingField_11;
 };

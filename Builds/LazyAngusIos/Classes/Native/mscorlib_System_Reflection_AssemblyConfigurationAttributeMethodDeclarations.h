@@ -10,4 +10,4 @@ struct AssemblyConfigurationAttribute_t1040;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
-extern "C" void AssemblyConfigurationAttribute__ctor_m5953 (AssemblyConfigurationAttribute_t1040 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyConfigurationAttribute__ctor_m5950 (AssemblyConfigurationAttribute_t1040 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;

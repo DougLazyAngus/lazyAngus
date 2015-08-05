@@ -130,7 +130,7 @@ struct  FacebookDelegateU5BU5D_t5612  : public Array_t
 };
 // Facebook.FBBuildVersionAttribute[]
 // Facebook.FBBuildVersionAttribute[]
-struct  FBBuildVersionAttributeU5BU5D_t651  : public Array_t
+struct  FBBuildVersionAttributeU5BU5D_t650  : public Array_t
 {
 };
 // BoostButton[]
@@ -145,7 +145,7 @@ struct  BoostDescU5BU5D_t471  : public Array_t
 };
 // SFXPlayer/SFXType[]
 // SFXPlayer/SFXType[]
-struct  SFXTypeU5BU5D_t596  : public Array_t
+struct  SFXTypeU5BU5D_t595  : public Array_t
 {
 };
 // MouseHole[]
@@ -177,11 +177,11 @@ struct  LevelDescriptionU5BU5D_t5667  : public Array_t
 };
 // MouseDesc[]
 // MouseDesc[]
-struct  MouseDescU5BU5D_t557  : public Array_t
+struct  MouseDescU5BU5D_t556  : public Array_t
 {
 };
 // MouseWiggleDesc[]
 // MouseWiggleDesc[]
-struct  MouseWiggleDescU5BU5D_t558  : public Array_t
+struct  MouseWiggleDescU5BU5D_t557  : public Array_t
 {
 };

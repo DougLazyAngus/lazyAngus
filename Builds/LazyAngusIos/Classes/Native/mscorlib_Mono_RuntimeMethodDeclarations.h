@@ -10,4 +10,4 @@ struct Runtime_t4385;
 struct String_t;
 
 // System.String Mono.Runtime::GetDisplayName()
-extern "C" String_t* Runtime_GetDisplayName_m16546 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Runtime_GetDisplayName_m16543 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

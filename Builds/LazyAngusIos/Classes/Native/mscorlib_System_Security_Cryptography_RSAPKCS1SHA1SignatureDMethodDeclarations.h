@@ -8,4 +8,4 @@
 struct RSAPKCS1SHA1SignatureDescription_t4673;
 
 // System.Void System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription::.ctor()
-extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m18620 (RSAPKCS1SHA1SignatureDescription_t4673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m18617 (RSAPKCS1SHA1SignatureDescription_t4673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

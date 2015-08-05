@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>,System.Object>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m45317(__this, ___object, ___method, method) (( void (*) (Func_2_t7084 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7225_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m45314(__this, ___object, ___method, method) (( void (*) (Func_2_t7084 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7222_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>,System.Object>::Invoke(T)
-#define Func_2_Invoke_m45318(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7084 *, Dictionary_2_t7086 *, const MethodInfo*))Func_2_Invoke_m30058_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m45315(__this, ___arg1, method) (( Object_t * (*) (Func_2_t7084 *, Dictionary_2_t7086 *, const MethodInfo*))Func_2_Invoke_m30055_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>,System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m45319(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7084 *, Dictionary_2_t7086 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30060_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m45316(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7084 *, Dictionary_2_t7086 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30057_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>,System.Object>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m45320(__this, ___result, method) (( Object_t * (*) (Func_2_t7084 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30062_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m45317(__this, ___result, method) (( Object_t * (*) (Func_2_t7084 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30059_gshared)(__this, ___result, method)

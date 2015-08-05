@@ -10,8 +10,8 @@ struct GenericComparer_1_t4858;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.DateTime>::.ctor()
-extern "C" void GenericComparer_1__ctor_m19930_gshared (GenericComparer_1_t4858 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m19930(__this, method) (( void (*) (GenericComparer_1_t4858 *, const MethodInfo*))GenericComparer_1__ctor_m19930_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m19927_gshared (GenericComparer_1_t4858 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m19927(__this, method) (( void (*) (GenericComparer_1_t4858 *, const MethodInfo*))GenericComparer_1__ctor_m19927_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.DateTime>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m41163_gshared (GenericComparer_1_t4858 * __this, DateTime_t287  ___x, DateTime_t287  ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m41163(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t4858 *, DateTime_t287 , DateTime_t287 , const MethodInfo*))GenericComparer_1_Compare_m41163_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m41160_gshared (GenericComparer_1_t4858 * __this, DateTime_t287  ___x, DateTime_t287  ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m41160(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t4858 *, DateTime_t287 , DateTime_t287 , const MethodInfo*))GenericComparer_1_Compare_m41160_gshared)(__this, ___x, ___y, method)

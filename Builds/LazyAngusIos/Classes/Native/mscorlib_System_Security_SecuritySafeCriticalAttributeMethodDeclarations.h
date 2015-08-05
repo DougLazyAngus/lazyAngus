@@ -8,4 +8,4 @@
 struct SecuritySafeCriticalAttribute_t2915;
 
 // System.Void System.Security.SecuritySafeCriticalAttribute::.ctor()
-extern "C" void SecuritySafeCriticalAttribute__ctor_m9960 (SecuritySafeCriticalAttribute_t2915 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecuritySafeCriticalAttribute__ctor_m9957 (SecuritySafeCriticalAttribute_t2915 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

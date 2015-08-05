@@ -9,11 +9,11 @@ struct StringUtil_t3229;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 
 // System.Void System.Xml.XmlTextWriter/StringUtil::.cctor()
-extern "C" void StringUtil__cctor_m11127 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringUtil__cctor_m11124 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlTextWriter/StringUtil::IndexOf(System.String,System.String)
-extern "C" int32_t StringUtil_IndexOf_m11128 (Object_t * __this /* static, unused */, String_t* ___src, String_t* ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StringUtil_IndexOf_m11125 (Object_t * __this /* static, unused */, String_t* ___src, String_t* ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlTextWriter/StringUtil::Format(System.String,System.Object[])
-extern "C" String_t* StringUtil_Format_m11129 (Object_t * __this /* static, unused */, String_t* ___format, ObjectU5BU5D_t638* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StringUtil_Format_m11126 (Object_t * __this /* static, unused */, String_t* ___format, ObjectU5BU5D_t637* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

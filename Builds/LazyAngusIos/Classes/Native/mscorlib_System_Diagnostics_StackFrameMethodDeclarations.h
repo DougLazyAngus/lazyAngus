@@ -12,24 +12,24 @@ struct MethodBase_t1476;
 struct String_t;
 
 // System.Void System.Diagnostics.StackFrame::.ctor()
-extern "C" void StackFrame__ctor_m16856 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackFrame__ctor_m16853 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackFrame::.ctor(System.Int32,System.Boolean)
-extern "C" void StackFrame__ctor_m16857 (StackFrame_t2907 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackFrame__ctor_m16854 (StackFrame_t2907 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Diagnostics.StackFrame::get_frame_info(System.Int32,System.Boolean,System.Reflection.MethodBase&,System.Int32&,System.Int32&,System.String&,System.Int32&,System.Int32&)
-extern "C" bool StackFrame_get_frame_info_m16858 (Object_t * __this /* static, unused */, int32_t ___skip, bool ___needFileInfo, MethodBase_t1476 ** ___method, int32_t* ___iloffset, int32_t* ___native_offset, String_t** ___file, int32_t* ___line, int32_t* ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StackFrame_get_frame_info_m16855 (Object_t * __this /* static, unused */, int32_t ___skip, bool ___needFileInfo, MethodBase_t1476 ** ___method, int32_t* ___iloffset, int32_t* ___native_offset, String_t** ___file, int32_t* ___line, int32_t* ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Diagnostics.StackFrame::GetFileLineNumber()
-extern "C" int32_t StackFrame_GetFileLineNumber_m16859 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StackFrame_GetFileLineNumber_m16856 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Diagnostics.StackFrame::GetFileName()
-extern "C" String_t* StackFrame_GetFileName_m16860 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackFrame_GetFileName_m16857 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Diagnostics.StackFrame::GetSecureFileName()
-extern "C" String_t* StackFrame_GetSecureFileName_m16861 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackFrame_GetSecureFileName_m16858 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Diagnostics.StackFrame::GetILOffset()
-extern "C" int32_t StackFrame_GetILOffset_m16862 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StackFrame_GetILOffset_m16859 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Diagnostics.StackFrame::GetMethod()
-extern "C" MethodBase_t1476 * StackFrame_GetMethod_m16863 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1476 * StackFrame_GetMethod_m16860 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Diagnostics.StackFrame::GetNativeOffset()
-extern "C" int32_t StackFrame_GetNativeOffset_m16864 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StackFrame_GetNativeOffset_m16861 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Diagnostics.StackFrame::GetInternalMethodName()
-extern "C" String_t* StackFrame_GetInternalMethodName_m16865 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackFrame_GetInternalMethodName_m16862 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Diagnostics.StackFrame::ToString()
-extern "C" String_t* StackFrame_ToString_m16866 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackFrame_ToString_m16863 (StackFrame_t2907 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

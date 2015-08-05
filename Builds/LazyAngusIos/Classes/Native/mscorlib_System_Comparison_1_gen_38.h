@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t601;
+struct CanvasGroup_t1008;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

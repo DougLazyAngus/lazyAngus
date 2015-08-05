@@ -8,4 +8,4 @@
 struct ArrayNullFiller_t4611;
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller::.ctor(System.Int32)
-extern "C" void ArrayNullFiller__ctor_m18219 (ArrayNullFiller_t4611 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayNullFiller__ctor_m18216 (ArrayNullFiller_t4611 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

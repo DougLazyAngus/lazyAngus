@@ -64,14 +64,13 @@ public class BoostConfig : MonoBehaviour {
 	}
 	
 	void OnGamePhaseChanged() {
+		if (DebugConfig.instance.DebugFlagSet (1)) {
+			return;
+		}
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
 			CancelBoosts ();
 		}
 	}
-
-
-
-
 
 	void LoadBoostDescs() {
 		boostDescs = new BoostDesc[(int)BoostType.NUM_TYPES];

@@ -5,7 +5,7 @@ struct IEqualityComparer_1_t1136;
 // System.Collections.Generic.HashSet`1<System.Object>
 struct HashSet_1_t1418;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t662;
+struct IEnumerable_1_t661;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object

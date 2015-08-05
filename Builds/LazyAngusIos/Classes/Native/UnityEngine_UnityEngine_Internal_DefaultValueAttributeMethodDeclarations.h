@@ -12,10 +12,10 @@ struct Object_t;
 struct String_t;
 
 // System.Void UnityEngine.Internal.DefaultValueAttribute::.ctor(System.String)
-extern "C" void DefaultValueAttribute__ctor_m9824 (DefaultValueAttribute_t2845 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultValueAttribute__ctor_m9821 (DefaultValueAttribute_t2845 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.Internal.DefaultValueAttribute::get_Value()
-extern "C" Object_t * DefaultValueAttribute_get_Value_m9825 (DefaultValueAttribute_t2845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DefaultValueAttribute_get_Value_m9822 (DefaultValueAttribute_t2845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Internal.DefaultValueAttribute::Equals(System.Object)
-extern "C" bool DefaultValueAttribute_Equals_m9826 (DefaultValueAttribute_t2845 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DefaultValueAttribute_Equals_m9823 (DefaultValueAttribute_t2845 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Internal.DefaultValueAttribute::GetHashCode()
-extern "C" int32_t DefaultValueAttribute_GetHashCode_m9827 (DefaultValueAttribute_t2845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DefaultValueAttribute_GetHashCode_m9824 (DefaultValueAttribute_t2845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

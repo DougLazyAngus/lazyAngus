@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.String
 struct String_t;
 // System.Net.ServicePoint
@@ -38,7 +38,7 @@ struct Dictionary_2_t223;
 struct  FtpWebRequest_t3995  : public WebRequest_t3255
 {
 	// System.Uri System.Net.FtpWebRequest::requestUri
-	Uri_t710 * ___requestUri_6;
+	Uri_t709 * ___requestUri_6;
 	// System.String System.Net.FtpWebRequest::file_name
 	String_t* ___file_name_7;
 	// System.Net.ServicePoint System.Net.FtpWebRequest::servicePoint

@@ -14,34 +14,34 @@ struct XmlResolver_t3134;
 struct DTDObjectModel_t3127;
 
 // System.Void Mono.Xml.DTDEntityBase::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDEntityBase__ctor_m10391 (DTDEntityBase_t3148 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase__ctor_m10388 (DTDEntityBase_t3148 * __this, DTDObjectModel_t3127 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.DTDEntityBase::get_IsInvalid()
-extern "C" bool DTDEntityBase_get_IsInvalid_m10392 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DTDEntityBase_get_IsInvalid_m10389 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_LoadFailed(System.Boolean)
-extern "C" void DTDEntityBase_set_LoadFailed_m10393 (DTDEntityBase_t3148 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_LoadFailed_m10390 (DTDEntityBase_t3148 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_Name()
-extern "C" String_t* DTDEntityBase_get_Name_m10394 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_Name_m10391 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_Name(System.String)
-extern "C" void DTDEntityBase_set_Name_m10395 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_Name_m10392 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_PublicId()
-extern "C" String_t* DTDEntityBase_get_PublicId_m10396 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_PublicId_m10393 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_PublicId(System.String)
-extern "C" void DTDEntityBase_set_PublicId_m10397 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_PublicId_m10394 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_SystemId()
-extern "C" String_t* DTDEntityBase_get_SystemId_m10398 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_SystemId_m10395 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_SystemId(System.String)
-extern "C" void DTDEntityBase_set_SystemId_m10399 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_SystemId_m10396 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_LiteralEntityValue()
-extern "C" String_t* DTDEntityBase_get_LiteralEntityValue_m10400 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_LiteralEntityValue_m10397 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_LiteralEntityValue(System.String)
-extern "C" void DTDEntityBase_set_LiteralEntityValue_m10401 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_LiteralEntityValue_m10398 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_ReplacementText()
-extern "C" String_t* DTDEntityBase_get_ReplacementText_m10402 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_ReplacementText_m10399 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_ReplacementText(System.String)
-extern "C" void DTDEntityBase_set_ReplacementText_m10403 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_ReplacementText_m10400 (DTDEntityBase_t3148 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::set_XmlResolver(System.Xml.XmlResolver)
-extern "C" void DTDEntityBase_set_XmlResolver_m10404 (DTDEntityBase_t3148 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_set_XmlResolver_m10401 (DTDEntityBase_t3148 * __this, XmlResolver_t3134 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDEntityBase::get_ActualUri()
-extern "C" String_t* DTDEntityBase_get_ActualUri_m10405 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDEntityBase_get_ActualUri_m10402 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDEntityBase::Resolve()
-extern "C" void DTDEntityBase_Resolve_m10406 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDEntityBase_Resolve_m10403 (DTDEntityBase_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,8 +14,8 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.PathTooLongException::.ctor()
-extern "C" void PathTooLongException__ctor_m17235 (PathTooLongException_t4450 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PathTooLongException__ctor_m17232 (PathTooLongException_t4450 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.PathTooLongException::.ctor(System.String)
-extern "C" void PathTooLongException__ctor_m17236 (PathTooLongException_t4450 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PathTooLongException__ctor_m17233 (PathTooLongException_t4450 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.PathTooLongException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void PathTooLongException__ctor_m17237 (PathTooLongException_t4450 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PathTooLongException__ctor_m17234 (PathTooLongException_t4450 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

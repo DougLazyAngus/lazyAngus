@@ -14,8 +14,8 @@ struct String_t;
 #include "System_Core_System_Linq_Expressions_MemberBindingType.h"
 
 // System.Linq.Expressions.MemberBindingType System.Linq.Expressions.MemberBinding::get_BindingType()
-extern "C" int32_t MemberBinding_get_BindingType_m11456 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MemberBinding_get_BindingType_m11453 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberInfo System.Linq.Expressions.MemberBinding::get_Member()
-extern "C" MemberInfo_t * MemberBinding_get_Member_m11457 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MemberInfo_t * MemberBinding_get_Member_m11454 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Linq.Expressions.MemberBinding::ToString()
-extern "C" String_t* MemberBinding_ToString_m11458 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MemberBinding_ToString_m11455 (MemberBinding_t3288 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,4 +8,4 @@
 struct XmlSchemaSimpleTypeContent_t3114;
 
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
-extern "C" void XmlSchemaSimpleTypeContent__ctor_m10275 (XmlSchemaSimpleTypeContent_t3114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaSimpleTypeContent__ctor_m10272 (XmlSchemaSimpleTypeContent_t3114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct CultureInfo_t721;
+struct CultureInfo_t720;
 // System.Object
 struct Object_t;
 // System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile)
@@ -17,7 +17,7 @@ struct CompareInfo_t3228;
 // System.Globalization.Calendar[]
 struct CalendarU5BU5D_t4425;
 // System.Globalization.CultureInfo
-struct CultureInfo_t721;
+struct CultureInfo_t720;
 // System.Globalization.Calendar
 struct Calendar_t4419;
 // System.Byte[]
@@ -31,7 +31,7 @@ struct Dictionary_2_t223;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.Globalization.CultureInfo
-struct  CultureInfo_t721  : public Object_t
+struct  CultureInfo_t720  : public Object_t
 {
 	// System.Boolean System.Globalization.CultureInfo::m_isReadOnly
 	bool ___m_isReadOnly_7;
@@ -80,7 +80,7 @@ struct  CultureInfo_t721  : public Object_t
 	// System.Globalization.Calendar[] System.Globalization.CultureInfo::optional_calendars
 	CalendarU5BU5D_t4425* ___optional_calendars_29;
 	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
-	CultureInfo_t721 * ___parent_culture_30;
+	CultureInfo_t720 * ___parent_culture_30;
 	// System.Int32 System.Globalization.CultureInfo::m_dataItem
 	int32_t ___m_dataItem_31;
 	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
@@ -90,9 +90,9 @@ struct  CultureInfo_t721  : public Object_t
 	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form
 	ByteU5BU5D_t66* ___cached_serialized_form_34;
 };
-struct CultureInfo_t721_StaticFields{
+struct CultureInfo_t720_StaticFields{
 	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
-	CultureInfo_t721 * ___invariant_culture_info_4;
+	CultureInfo_t720 * ___invariant_culture_info_4;
 	// System.Object System.Globalization.CultureInfo::shared_table_lock
 	Object_t * ___shared_table_lock_5;
 	// System.Int32 System.Globalization.CultureInfo::BootstrapCultureID

@@ -12,6 +12,6 @@ struct ReadOnlyCollection_1_t3277;
 struct ReadOnlyCollection_1_t3295;
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.NewExpression::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3277 * NewExpression_get_Arguments_m11470 (NewExpression_t3284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3277 * NewExpression_get_Arguments_m11467 (NewExpression_t3284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo> System.Linq.Expressions.NewExpression::get_Members()
-extern "C" ReadOnlyCollection_1_t3295 * NewExpression_get_Members_m11471 (NewExpression_t3284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3295 * NewExpression_get_Members_m11468 (NewExpression_t3284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

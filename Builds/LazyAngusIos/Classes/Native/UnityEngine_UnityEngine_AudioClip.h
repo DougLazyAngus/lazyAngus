@@ -7,7 +7,7 @@ struct PCMSetPositionCallback_t2725;
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.AudioClip
-struct  AudioClip_t395  : public Object_t655
+struct  AudioClip_t395  : public Object_t654
 {
 	// UnityEngine.AudioClip/PCMReaderCallback UnityEngine.AudioClip::m_PCMReaderCallback
 	PCMReaderCallback_t2724 * ___m_PCMReaderCallback_2;

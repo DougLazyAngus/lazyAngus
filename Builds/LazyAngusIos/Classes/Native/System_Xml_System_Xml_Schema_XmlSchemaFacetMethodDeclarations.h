@@ -8,4 +8,4 @@
 struct XmlSchemaFacet_t3108;
 
 // System.Void System.Xml.Schema.XmlSchemaFacet::.cctor()
-extern "C" void XmlSchemaFacet__cctor_m10260 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaFacet__cctor_m10257 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

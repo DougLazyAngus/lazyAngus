@@ -9,8 +9,8 @@ struct SliderHandler_t2826;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // UnityEngine.Event
-struct Event_t736;
-struct Event_t736_marshaled;
+struct Event_t735;
+struct Event_t735_marshaled;
 // UnityEngine.SliderState
 struct SliderState_t2825;
 // UnityEngine.Rect
@@ -19,56 +19,56 @@ struct SliderState_t2825;
 #include "UnityEngine_UnityEngine_EventType.h"
 
 // System.Void UnityEngine.SliderHandler::.ctor(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32)
-extern "C" void SliderHandler__ctor_m9711 (SliderHandler_t2826 * __this, Rect_t650  ___position, float ___currentValue, float ___size, float ___start, float ___end, GUIStyle_t107 * ___slider, GUIStyle_t107 * ___thumb, bool ___horiz, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderHandler__ctor_m9708 (SliderHandler_t2826 * __this, Rect_t649  ___position, float ___currentValue, float ___size, float ___start, float ___end, GUIStyle_t107 * ___slider, GUIStyle_t107 * ___thumb, bool ___horiz, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::Handle()
-extern "C" float SliderHandler_Handle_m9712 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_Handle_m9709 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::OnMouseDown()
-extern "C" float SliderHandler_OnMouseDown_m9713 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_OnMouseDown_m9710 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::OnMouseDrag()
-extern "C" float SliderHandler_OnMouseDrag_m9714 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_OnMouseDrag_m9711 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::OnMouseUp()
-extern "C" float SliderHandler_OnMouseUp_m9715 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_OnMouseUp_m9712 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::OnRepaint()
-extern "C" float SliderHandler_OnRepaint_m9716 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_OnRepaint_m9713 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventType UnityEngine.SliderHandler::CurrentEventType()
-extern "C" int32_t SliderHandler_CurrentEventType_m9717 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SliderHandler_CurrentEventType_m9714 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.SliderHandler::CurrentScrollTroughSide()
-extern "C" int32_t SliderHandler_CurrentScrollTroughSide_m9718 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SliderHandler_CurrentScrollTroughSide_m9715 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SliderHandler::IsEmptySlider()
-extern "C" bool SliderHandler_IsEmptySlider_m9719 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SliderHandler_IsEmptySlider_m9716 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SliderHandler::SupportsPageMovements()
-extern "C" bool SliderHandler_SupportsPageMovements_m9720 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SliderHandler_SupportsPageMovements_m9717 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::PageMovementValue()
-extern "C" float SliderHandler_PageMovementValue_m9721 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_PageMovementValue_m9718 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::PageUpMovementBound()
-extern "C" float SliderHandler_PageUpMovementBound_m9722 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_PageUpMovementBound_m9719 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Event UnityEngine.SliderHandler::CurrentEvent()
-extern "C" Event_t736 * SliderHandler_CurrentEvent_m9723 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Event_t735 * SliderHandler_CurrentEvent_m9720 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::ValueForCurrentMousePosition()
-extern "C" float SliderHandler_ValueForCurrentMousePosition_m9724 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_ValueForCurrentMousePosition_m9721 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::Clamp(System.Single)
-extern "C" float SliderHandler_Clamp_m9725 (SliderHandler_t2826 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_Clamp_m9722 (SliderHandler_t2826 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.SliderHandler::ThumbSelectionRect()
-extern "C" Rect_t650  SliderHandler_ThumbSelectionRect_m9726 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t649  SliderHandler_ThumbSelectionRect_m9723 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SliderHandler::StartDraggingWithValue(System.Single)
-extern "C" void SliderHandler_StartDraggingWithValue_m9727 (SliderHandler_t2826 * __this, float ___dragStartValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderHandler_StartDraggingWithValue_m9724 (SliderHandler_t2826 * __this, float ___dragStartValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SliderState UnityEngine.SliderHandler::SliderState()
-extern "C" SliderState_t2825 * SliderHandler_SliderState_m9728 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SliderState_t2825 * SliderHandler_SliderState_m9725 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.SliderHandler::ThumbRect()
-extern "C" Rect_t650  SliderHandler_ThumbRect_m9729 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t649  SliderHandler_ThumbRect_m9726 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.SliderHandler::VerticalThumbRect()
-extern "C" Rect_t650  SliderHandler_VerticalThumbRect_m9730 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t649  SliderHandler_VerticalThumbRect_m9727 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.SliderHandler::HorizontalThumbRect()
-extern "C" Rect_t650  SliderHandler_HorizontalThumbRect_m9731 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t649  SliderHandler_HorizontalThumbRect_m9728 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::ClampedCurrentValue()
-extern "C" float SliderHandler_ClampedCurrentValue_m9732 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_ClampedCurrentValue_m9729 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::MousePosition()
-extern "C" float SliderHandler_MousePosition_m9733 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_MousePosition_m9730 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::ValuesPerPixel()
-extern "C" float SliderHandler_ValuesPerPixel_m9734 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_ValuesPerPixel_m9731 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::ThumbSize()
-extern "C" float SliderHandler_ThumbSize_m9735 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_ThumbSize_m9732 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::MaxValue()
-extern "C" float SliderHandler_MaxValue_m9736 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_MaxValue_m9733 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.SliderHandler::MinValue()
-extern "C" float SliderHandler_MinValue_m9737 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float SliderHandler_MinValue_m9734 (SliderHandler_t2826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

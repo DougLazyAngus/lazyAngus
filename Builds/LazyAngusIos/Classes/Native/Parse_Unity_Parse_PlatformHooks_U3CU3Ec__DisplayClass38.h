@@ -9,7 +9,7 @@ struct Hashtable_t1278;
 // System.IDisposable
 struct IDisposable_t58;
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.String
 struct String_t;
 // System.IProgress`1<Parse.ParseUploadProgressEventArgs>
@@ -30,7 +30,7 @@ struct  U3CU3Ec__DisplayClass38_t1275  : public Object_t
 	// System.IDisposable Parse.PlatformHooks/<>c__DisplayClass38::toDisposeAfterReading
 	Object_t * ___toDisposeAfterReading_3;
 	// System.Uri Parse.PlatformHooks/<>c__DisplayClass38::uri
-	Uri_t710 * ___uri_4;
+	Uri_t709 * ___uri_4;
 	// System.String Parse.PlatformHooks/<>c__DisplayClass38::method
 	String_t* ___method_5;
 	// System.IProgress`1<Parse.ParseUploadProgressEventArgs> Parse.PlatformHooks/<>c__DisplayClass38::progress

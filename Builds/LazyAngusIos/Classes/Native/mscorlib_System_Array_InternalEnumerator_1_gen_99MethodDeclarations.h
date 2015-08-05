@@ -14,20 +14,20 @@ struct Array_t;
 #include "System_Xml_System_Xml_XmlNamespaceManager_NsScope.h"
 
 // System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m62278_gshared (InternalEnumerator_1_t8514 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m62278(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8514 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m62278_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m62275_gshared (InternalEnumerator_1_t8514 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m62275(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8514 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m62275_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62279_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62279(__this, method) (( void (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62279_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62276_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62276(__this, method) (( void (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62276_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62280_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62280(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62280_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62277_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62277(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62277_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m62281_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m62281(__this, method) (( void (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_Dispose_m62281_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m62278_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m62278(__this, method) (( void (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_Dispose_m62278_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m62282_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m62282(__this, method) (( bool (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m62282_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m62279_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m62279(__this, method) (( bool (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m62279_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::get_Current()
-extern "C" NsScope_t3191  InternalEnumerator_1_get_Current_m62283_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m62283(__this, method) (( NsScope_t3191  (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_get_Current_m62283_gshared)(__this, method)
+extern "C" NsScope_t3191  InternalEnumerator_1_get_Current_m62280_gshared (InternalEnumerator_1_t8514 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m62280(__this, method) (( NsScope_t3191  (*) (InternalEnumerator_1_t8514 *, const MethodInfo*))InternalEnumerator_1_get_Current_m62280_gshared)(__this, method)

@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t702;
+struct Dictionary_2_t701;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

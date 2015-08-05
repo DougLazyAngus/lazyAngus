@@ -12,6 +12,6 @@ struct NewExpression_t3284;
 struct ReadOnlyCollection_1_t3285;
 
 // System.Linq.Expressions.NewExpression System.Linq.Expressions.ListInitExpression::get_NewExpression()
-extern "C" NewExpression_t3284 * ListInitExpression_get_NewExpression_m11453 (ListInitExpression_t3286 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NewExpression_t3284 * ListInitExpression_get_NewExpression_m11450 (ListInitExpression_t3286 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> System.Linq.Expressions.ListInitExpression::get_Initializers()
-extern "C" ReadOnlyCollection_1_t3285 * ListInitExpression_get_Initializers_m11454 (ListInitExpression_t3286 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3285 * ListInitExpression_get_Initializers_m11451 (ListInitExpression_t3286 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

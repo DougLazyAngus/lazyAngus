@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t786;
+struct BaseEventData_t785;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

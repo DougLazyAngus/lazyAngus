@@ -5,7 +5,7 @@
 // System.Decimal
 #include "mscorlib_System_Decimal.h"
 // System.Decimal
-struct  Decimal_t698 
+struct  Decimal_t697 
 {
 	// System.UInt32 System.Decimal::flags
 	uint32_t ___flags_5;
@@ -16,15 +16,15 @@ struct  Decimal_t698
 	// System.UInt32 System.Decimal::mid
 	uint32_t ___mid_8;
 };
-struct Decimal_t698_StaticFields{
+struct Decimal_t697_StaticFields{
 	// System.Decimal System.Decimal::MinValue
-	Decimal_t698  ___MinValue_0;
+	Decimal_t697  ___MinValue_0;
 	// System.Decimal System.Decimal::MaxValue
-	Decimal_t698  ___MaxValue_1;
+	Decimal_t697  ___MaxValue_1;
 	// System.Decimal System.Decimal::MinusOne
-	Decimal_t698  ___MinusOne_2;
+	Decimal_t697  ___MinusOne_2;
 	// System.Decimal System.Decimal::One
-	Decimal_t698  ___One_3;
+	Decimal_t697  ___One_3;
 	// System.Decimal System.Decimal::MaxValueDiv10
-	Decimal_t698  ___MaxValueDiv10_4;
+	Decimal_t697  ___MaxValueDiv10_4;
 };

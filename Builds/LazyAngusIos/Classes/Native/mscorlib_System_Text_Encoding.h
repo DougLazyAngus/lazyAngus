@@ -5,19 +5,19 @@ struct DecoderFallback_t4698;
 // System.Text.EncoderFallback
 struct EncoderFallback_t4706;
 // System.Reflection.Assembly
-struct Assembly_t722;
+struct Assembly_t721;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.String
 struct String_t;
 // System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile)
-struct Encoding_t692;
+struct Encoding_t691;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.Encoding
-struct  Encoding_t692  : public Object_t
+struct  Encoding_t691  : public Object_t
 {
 	// System.Int32 System.Text.Encoding::codePage
 	int32_t ___codePage_0;
@@ -46,35 +46,35 @@ struct  Encoding_t692  : public Object_t
 	// System.String System.Text.Encoding::web_name
 	String_t* ___web_name_15;
 };
-struct Encoding_t692_StaticFields{
+struct Encoding_t691_StaticFields{
 	// System.Reflection.Assembly System.Text.Encoding::i18nAssembly
-	Assembly_t722 * ___i18nAssembly_5;
+	Assembly_t721 * ___i18nAssembly_5;
 	// System.Boolean System.Text.Encoding::i18nDisabled
 	bool ___i18nDisabled_6;
 	// System.Object[] System.Text.Encoding::encodings
-	ObjectU5BU5D_t638* ___encodings_7;
+	ObjectU5BU5D_t637* ___encodings_7;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
-	Encoding_t692 * ___asciiEncoding_16;
+	Encoding_t691 * ___asciiEncoding_16;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianEncoding
-	Encoding_t692 * ___bigEndianEncoding_17;
+	Encoding_t691 * ___bigEndianEncoding_17;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
-	Encoding_t692 * ___defaultEncoding_18;
+	Encoding_t691 * ___defaultEncoding_18;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
-	Encoding_t692 * ___utf7Encoding_19;
+	Encoding_t691 * ___utf7Encoding_19;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8EncodingWithMarkers
-	Encoding_t692 * ___utf8EncodingWithMarkers_20;
+	Encoding_t691 * ___utf8EncodingWithMarkers_20;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8EncodingWithoutMarkers
-	Encoding_t692 * ___utf8EncodingWithoutMarkers_21;
+	Encoding_t691 * ___utf8EncodingWithoutMarkers_21;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
-	Encoding_t692 * ___unicodeEncoding_22;
+	Encoding_t691 * ___unicodeEncoding_22;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::isoLatin1Encoding
-	Encoding_t692 * ___isoLatin1Encoding_23;
+	Encoding_t691 * ___isoLatin1Encoding_23;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8EncodingUnsafe
-	Encoding_t692 * ___utf8EncodingUnsafe_24;
+	Encoding_t691 * ___utf8EncodingUnsafe_24;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
-	Encoding_t692 * ___utf32Encoding_25;
+	Encoding_t691 * ___utf32Encoding_25;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUTF32Encoding
-	Encoding_t692 * ___bigEndianUTF32Encoding_26;
+	Encoding_t691 * ___bigEndianUTF32Encoding_26;
 	// System.Object System.Text.Encoding::lockobj
 	Object_t * ___lockobj_27;
 };

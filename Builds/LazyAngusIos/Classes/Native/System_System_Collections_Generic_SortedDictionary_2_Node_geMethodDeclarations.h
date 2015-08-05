@@ -16,17 +16,17 @@ struct Node_t3905;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::.ctor(TKey)
-extern "C" void Node__ctor_m25597_gshared (Node_t5597 * __this, Object_t * ___key, const MethodInfo* method);
-#define Node__ctor_m25597(__this, ___key, method) (( void (*) (Node_t5597 *, Object_t *, const MethodInfo*))Node__ctor_m25597_gshared)(__this, ___key, method)
+extern "C" void Node__ctor_m25594_gshared (Node_t5597 * __this, Object_t * ___key, const MethodInfo* method);
+#define Node__ctor_m25594(__this, ___key, method) (( void (*) (Node_t5597 *, Object_t *, const MethodInfo*))Node__ctor_m25594_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::.ctor(TKey,TValue)
-extern "C" void Node__ctor_m25598_gshared (Node_t5597 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
-#define Node__ctor_m25598(__this, ___key, ___value, method) (( void (*) (Node_t5597 *, Object_t *, Object_t *, const MethodInfo*))Node__ctor_m25598_gshared)(__this, ___key, ___value, method)
+extern "C" void Node__ctor_m25595_gshared (Node_t5597 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define Node__ctor_m25595(__this, ___key, ___value, method) (( void (*) (Node_t5597 *, Object_t *, Object_t *, const MethodInfo*))Node__ctor_m25595_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::SwapValue(System.Collections.Generic.RBTree/Node)
-extern "C" void Node_SwapValue_m25599_gshared (Node_t5597 * __this, Node_t3905 * ___other, const MethodInfo* method);
-#define Node_SwapValue_m25599(__this, ___other, method) (( void (*) (Node_t5597 *, Node_t3905 *, const MethodInfo*))Node_SwapValue_m25599_gshared)(__this, ___other, method)
+extern "C" void Node_SwapValue_m25596_gshared (Node_t5597 * __this, Node_t3905 * ___other, const MethodInfo* method);
+#define Node_SwapValue_m25596(__this, ___other, method) (( void (*) (Node_t5597 *, Node_t3905 *, const MethodInfo*))Node_SwapValue_m25596_gshared)(__this, ___other, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::AsKV()
-extern "C" KeyValuePair_2_t70  Node_AsKV_m25600_gshared (Node_t5597 * __this, const MethodInfo* method);
-#define Node_AsKV_m25600(__this, method) (( KeyValuePair_2_t70  (*) (Node_t5597 *, const MethodInfo*))Node_AsKV_m25600_gshared)(__this, method)
+extern "C" KeyValuePair_2_t70  Node_AsKV_m25597_gshared (Node_t5597 * __this, const MethodInfo* method);
+#define Node_AsKV_m25597(__this, method) (( KeyValuePair_2_t70  (*) (Node_t5597 *, const MethodInfo*))Node_AsKV_m25597_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::AsDE()
-extern "C" DictionaryEntry_t2090  Node_AsDE_m25601_gshared (Node_t5597 * __this, const MethodInfo* method);
-#define Node_AsDE_m25601(__this, method) (( DictionaryEntry_t2090  (*) (Node_t5597 *, const MethodInfo*))Node_AsDE_m25601_gshared)(__this, method)
+extern "C" DictionaryEntry_t2090  Node_AsDE_m25598_gshared (Node_t5597 * __this, const MethodInfo* method);
+#define Node_AsDE_m25598(__this, method) (( DictionaryEntry_t2090  (*) (Node_t5597 *, const MethodInfo*))Node_AsDE_m25598_gshared)(__this, method)

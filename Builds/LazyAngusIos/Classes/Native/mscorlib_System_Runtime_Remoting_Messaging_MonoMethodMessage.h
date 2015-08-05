@@ -3,7 +3,7 @@
 // System.Reflection.MonoMethod
 struct MonoMethod_t;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
@@ -24,7 +24,7 @@ struct  MonoMethodMessage_t4559  : public Object_t
 	// System.Reflection.MonoMethod System.Runtime.Remoting.Messaging.MonoMethodMessage::method
 	MonoMethod_t * ___method_0;
 	// System.Object[] System.Runtime.Remoting.Messaging.MonoMethodMessage::args
-	ObjectU5BU5D_t638* ___args_1;
+	ObjectU5BU5D_t637* ___args_1;
 	// System.Byte[] System.Runtime.Remoting.Messaging.MonoMethodMessage::arg_types
 	ByteU5BU5D_t66* ___arg_types_2;
 	// System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MonoMethodMessage::ctx

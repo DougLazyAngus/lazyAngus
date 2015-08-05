@@ -9,7 +9,7 @@ struct StrongName_t4378;
 // System.Reflection.Assembly
 #include "mscorlib_System_Reflection_Assembly.h"
 // System.Reflection.Emit.AssemblyBuilder
-struct  AssemblyBuilder_t4463  : public Assembly_t722
+struct  AssemblyBuilder_t4463  : public Assembly_t721
 {
 	// System.Reflection.Emit.ModuleBuilder[] System.Reflection.Emit.AssemblyBuilder::modules
 	ModuleBuilderU5BU5D_t4462* ___modules_10;

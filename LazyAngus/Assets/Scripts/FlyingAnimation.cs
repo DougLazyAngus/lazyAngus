@@ -45,8 +45,8 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 
 	public void Configure(Vector3 worldStartPosition, 
 	                      GameObject canvasTarget) {
-		GameObject levelPlayCanvasGameObject = GameObject.FindWithTag ("LevelPlayCanvas");
-		SetParentCanvasGameObject (levelPlayCanvasGameObject);
+		GameObject uxCanvasGameObject = GameObject.FindWithTag ("UXCanvas");
+		SetParentCanvasGameObject (uxCanvasGameObject);
 
 		CreatePoints (worldStartPosition, canvasTarget);
 
@@ -65,12 +65,12 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 		
 		points [0] = WorldPositionToParentCanvasPosition (worldStartPosition);
 
-		GameObject levelPlayCanvasGameObject = GameObject.FindWithTag ("LevelPlayCanvas");
-		Canvas levelPlayCanvas = levelPlayCanvasGameObject.GetComponent<Canvas> ();
-		Camera levelPlayCamera = levelPlayCanvas.worldCamera;
+		GameObject uxCanvasGameObject = GameObject.FindWithTag ("UXCanvas");
+		Canvas uxCanvas = uxCanvasGameObject.GetComponent<Canvas> ();
+		Camera uxCamera = uxCanvas.worldCamera;
 
-		Vector3 otherCanvasPosition =  ConvertToParentCanvasPosition (levelPlayCamera, 
-		                                                      canvasTarget.transform.position);
+		Vector3 otherCanvasPosition =  ConvertToParentCanvasPosition (uxCamera, 
+		                                                              canvasTarget.transform.position);
 
 		points [2] = otherCanvasPosition;
 

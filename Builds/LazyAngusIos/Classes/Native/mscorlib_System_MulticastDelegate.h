@@ -5,7 +5,7 @@ struct MulticastDelegate_t388;
 // System.Delegate
 #include "mscorlib_System_Delegate.h"
 // System.MulticastDelegate
-struct  MulticastDelegate_t388  : public Delegate_t677
+struct  MulticastDelegate_t388  : public Delegate_t676
 {
 	// System.MulticastDelegate System.MulticastDelegate::prev
 	MulticastDelegate_t388 * ___prev_9;

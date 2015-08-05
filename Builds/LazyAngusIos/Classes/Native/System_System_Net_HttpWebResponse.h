@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.Net.WebHeaderCollection
 struct WebHeaderCollection_t3971;
 // System.Net.CookieCollection
@@ -26,7 +26,7 @@ struct Dictionary_2_t223;
 struct  HttpWebResponse_t4010  : public WebResponse_t3256
 {
 	// System.Uri System.Net.HttpWebResponse::uri
-	Uri_t710 * ___uri_1;
+	Uri_t709 * ___uri_1;
 	// System.Net.WebHeaderCollection System.Net.HttpWebResponse::webHeaders
 	WebHeaderCollection_t3971 * ___webHeaders_2;
 	// System.Net.CookieCollection System.Net.HttpWebResponse::cookieCollection

@@ -5,7 +5,7 @@ struct TextU5BU5D_t5760;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct  List_1_t1004  : public Object_t
+struct  List_1_t1003  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::_items
 	TextU5BU5D_t5760* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t1004  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1004_StaticFields{
+struct List_1_t1003_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::EmptyArray
 	TextU5BU5D_t5760* ___EmptyArray_4;
 };

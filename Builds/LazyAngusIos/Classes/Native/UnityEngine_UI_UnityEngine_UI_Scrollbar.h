@@ -3,10 +3,10 @@
 // UnityEngine.RectTransform
 struct RectTransform_t503;
 // UnityEngine.UI.Scrollbar/ScrollEvent
-struct ScrollEvent_t901;
+struct ScrollEvent_t900;
 // UnityEngine.Coroutine
-struct Coroutine_t895;
-struct Coroutine_t895_marshaled;
+struct Coroutine_t894;
+struct Coroutine_t894_marshaled;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 // UnityEngine.UI.Scrollbar/Direction
@@ -16,7 +16,7 @@ struct Coroutine_t895_marshaled;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.Scrollbar
-struct  Scrollbar_t904  : public Selectable_t848
+struct  Scrollbar_t903  : public Selectable_t847
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Scrollbar::m_HandleRect
 	RectTransform_t503 * ___m_HandleRect_16;
@@ -29,15 +29,15 @@ struct  Scrollbar_t904  : public Selectable_t848
 	// System.Int32 UnityEngine.UI.Scrollbar::m_NumberOfSteps
 	int32_t ___m_NumberOfSteps_20;
 	// UnityEngine.UI.Scrollbar/ScrollEvent UnityEngine.UI.Scrollbar::m_OnValueChanged
-	ScrollEvent_t901 * ___m_OnValueChanged_21;
+	ScrollEvent_t900 * ___m_OnValueChanged_21;
 	// UnityEngine.RectTransform UnityEngine.UI.Scrollbar::m_ContainerRect
 	RectTransform_t503 * ___m_ContainerRect_22;
 	// UnityEngine.Vector2 UnityEngine.UI.Scrollbar::m_Offset
 	Vector2_t110  ___m_Offset_23;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.Scrollbar::m_Tracker
-	DrivenRectTransformTracker_t906  ___m_Tracker_24;
+	DrivenRectTransformTracker_t905  ___m_Tracker_24;
 	// UnityEngine.Coroutine UnityEngine.UI.Scrollbar::m_PointerDownRepeat
-	Coroutine_t895 * ___m_PointerDownRepeat_25;
+	Coroutine_t894 * ___m_PointerDownRepeat_25;
 	// System.Boolean UnityEngine.UI.Scrollbar::isPointerDownAndNotDragging
 	bool ___isPointerDownAndNotDragging_26;
 };

@@ -9,17 +9,17 @@ struct NameTable_t3159;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 
 // System.Void System.Xml.NameTable::.ctor()
-extern "C" void NameTable__ctor_m10482 (NameTable_t3159 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NameTable__ctor_m10479 (NameTable_t3159 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Add(System.Char[],System.Int32,System.Int32)
-extern "C" String_t* NameTable_Add_m10483 (NameTable_t3159 * __this, CharU5BU5D_t663* ___key, int32_t ___start, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NameTable_Add_m10480 (NameTable_t3159 * __this, CharU5BU5D_t662* ___key, int32_t ___start, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Add(System.String)
-extern "C" String_t* NameTable_Add_m10484 (NameTable_t3159 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NameTable_Add_m10481 (NameTable_t3159 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Get(System.String)
-extern "C" String_t* NameTable_Get_m10485 (NameTable_t3159 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NameTable_Get_m10482 (NameTable_t3159 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::AddEntry(System.String,System.Int32)
-extern "C" String_t* NameTable_AddEntry_m10486 (NameTable_t3159 * __this, String_t* ___str, int32_t ___hash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NameTable_AddEntry_m10483 (NameTable_t3159 * __this, String_t* ___str, int32_t ___hash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.NameTable::StrEqArray(System.String,System.Char[],System.Int32)
-extern "C" bool NameTable_StrEqArray_m10487 (Object_t * __this /* static, unused */, String_t* ___str, CharU5BU5D_t663* ___str2, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NameTable_StrEqArray_m10484 (Object_t * __this /* static, unused */, String_t* ___str, CharU5BU5D_t662* ___str2, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;

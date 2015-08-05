@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t820;
+struct BaseRaycaster_t819;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

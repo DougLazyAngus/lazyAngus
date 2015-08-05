@@ -5,7 +5,7 @@ struct Thread_t1412;
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t452;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.NumberFormatter
 struct NumberFormatter_t4786;
 // System.Object
@@ -48,7 +48,7 @@ struct  NumberFormatter_t4786  : public Object_t
 	// System.UInt32 System.NumberFormatter::_val4
 	uint32_t ____val4_22;
 	// System.Char[] System.NumberFormatter::_cbuf
-	CharU5BU5D_t663* ____cbuf_23;
+	CharU5BU5D_t662* ____cbuf_23;
 	// System.Int32 System.NumberFormatter::_ind
 	int32_t ____ind_24;
 };

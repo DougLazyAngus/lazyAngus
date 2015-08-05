@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.Collections.ArrayList
 struct ArrayList_t3113;
 // System.Net.ICredentials
@@ -12,7 +12,7 @@ struct ICredentials_t3237;
 struct  WebProxy_t4031  : public Object_t
 {
 	// System.Uri System.Net.WebProxy::address
-	Uri_t710 * ___address_0;
+	Uri_t709 * ___address_0;
 	// System.Boolean System.Net.WebProxy::bypassOnLocal
 	bool ___bypassOnLocal_1;
 	// System.Collections.ArrayList System.Net.WebProxy::bypassList

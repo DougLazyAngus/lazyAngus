@@ -8,4 +8,4 @@
 struct XsdGYear_t3098;
 
 // System.Void Mono.Xml.Schema.XsdGYear::.ctor()
-extern "C" void XsdGYear__ctor_m10252 (XsdGYear_t3098 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdGYear__ctor_m10249 (XsdGYear_t3098 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

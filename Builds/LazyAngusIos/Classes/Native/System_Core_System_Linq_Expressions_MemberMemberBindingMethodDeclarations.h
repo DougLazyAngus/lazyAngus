@@ -10,4 +10,4 @@ struct MemberMemberBinding_t3293;
 struct ReadOnlyCollection_1_t3290;
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> System.Linq.Expressions.MemberMemberBinding::get_Bindings()
-extern "C" ReadOnlyCollection_1_t3290 * MemberMemberBinding_get_Bindings_m11465 (MemberMemberBinding_t3293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3290 * MemberMemberBinding_get_Bindings_m11462 (MemberMemberBinding_t3293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

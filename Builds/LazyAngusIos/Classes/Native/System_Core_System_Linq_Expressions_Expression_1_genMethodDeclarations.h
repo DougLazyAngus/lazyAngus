@@ -14,4 +14,4 @@ struct ReadOnlyCollection_1_t3272;
 // System.Void System.Linq.Expressions.Expression`1<System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>>::.ctor(System.Linq.Expressions.Expression,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>)
 // System.Linq.Expressions.Expression`1<System.Object>
 #include "System_Core_System_Linq_Expressions_Expression_1_gen_0MethodDeclarations.h"
-#define Expression_1__ctor_m33940(__this, ___body, ___parameters, method) (( void (*) (Expression_1_t1472 *, Expression_t1471 *, ReadOnlyCollection_1_t3272 *, const MethodInfo*))Expression_1__ctor_m33941_gshared)(__this, ___body, ___parameters, method)
+#define Expression_1__ctor_m33937(__this, ___body, ___parameters, method) (( void (*) (Expression_1_t1472 *, Expression_t1471 *, ReadOnlyCollection_1_t3272 *, const MethodInfo*))Expression_1__ctor_m33938_gshared)(__this, ___body, ___parameters, method)

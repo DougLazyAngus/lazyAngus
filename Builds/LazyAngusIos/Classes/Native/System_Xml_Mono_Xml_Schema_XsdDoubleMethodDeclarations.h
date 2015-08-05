@@ -8,4 +8,4 @@
 struct XsdDouble_t3084;
 
 // System.Void Mono.Xml.Schema.XsdDouble::.ctor()
-extern "C" void XsdDouble__ctor_m10228 (XsdDouble_t3084 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdDouble__ctor_m10225 (XsdDouble_t3084 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

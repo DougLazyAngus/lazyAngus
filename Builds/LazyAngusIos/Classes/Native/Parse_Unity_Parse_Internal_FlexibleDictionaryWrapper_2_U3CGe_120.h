@@ -14,7 +14,7 @@ struct IEnumerator_1_t7893;
 struct  U3CGetEnumeratorU3Ed__4_t7894  : public Object_t
 {
 	// System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,System.DateTime>::<>2__current
-	KeyValuePair_2_t730  ___U3CU3E2__current_0;
+	KeyValuePair_2_t729  ___U3CU3E2__current_0;
 	// System.Int32 Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,System.DateTime>::<>1__state
 	int32_t ___U3CU3E1__state_1;
 	// Parse.Internal.FlexibleDictionaryWrapper`2<TOut,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,System.DateTime>::<>4__this

@@ -30,10 +30,9 @@ public class GamePhaseState : MonoBehaviour {
 
 	public delegate void GamePhaseChangedEventHandler();
 	public event GamePhaseChangedEventHandler GamePhaseChanged;
-	
 
 	public static GamePhaseState instance { get; private set; }
-	
+
 	GameUI [] gameUIs;
 	
 	void Awake() {
@@ -145,6 +144,7 @@ public class GamePhaseState : MonoBehaviour {
 		if (GamePhaseChanged != null) {
 			GamePhaseChanged ();
 		}
+
 		Debug.Log("06.002  " + Time.realtimeSinceStartup);
 	}
 

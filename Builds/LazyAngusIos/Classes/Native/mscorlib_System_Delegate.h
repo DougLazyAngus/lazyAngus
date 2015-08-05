@@ -11,7 +11,7 @@ struct DelegateData_t4294;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Delegate
-struct  Delegate_t677  : public Object_t
+struct  Delegate_t676  : public Object_t
 {
 	// System.IntPtr System.Delegate::method_ptr
 	void (*___method_ptr_0)();

@@ -16,17 +16,17 @@ struct String_t;
 struct Object_t;
 
 // System.Void Parse.ParseRelation`1<System.Object>::.ctor(Parse.ParseObject,System.String)
-extern "C" void ParseRelation_1__ctor_m33180_gshared (ParseRelation_1_t1469 * __this, ParseObject_t1170 * ___parent, String_t* ___key, const MethodInfo* method);
-#define ParseRelation_1__ctor_m33180(__this, ___parent, ___key, method) (( void (*) (ParseRelation_1_t1469 *, ParseObject_t1170 *, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33180_gshared)(__this, ___parent, ___key, method)
+extern "C" void ParseRelation_1__ctor_m33177_gshared (ParseRelation_1_t1469 * __this, ParseObject_t1170 * ___parent, String_t* ___key, const MethodInfo* method);
+#define ParseRelation_1__ctor_m33177(__this, ___parent, ___key, method) (( void (*) (ParseRelation_1_t1469 *, ParseObject_t1170 *, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33177_gshared)(__this, ___parent, ___key, method)
 // System.Void Parse.ParseRelation`1<System.Object>::.ctor(Parse.ParseObject,System.String,System.String)
-extern "C" void ParseRelation_1__ctor_m33181_gshared (ParseRelation_1_t1469 * __this, ParseObject_t1170 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method);
-#define ParseRelation_1__ctor_m33181(__this, ___parent, ___key, ___targetClassName, method) (( void (*) (ParseRelation_1_t1469 *, ParseObject_t1170 *, String_t*, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33181_gshared)(__this, ___parent, ___key, ___targetClassName, method)
+extern "C" void ParseRelation_1__ctor_m33178_gshared (ParseRelation_1_t1469 * __this, ParseObject_t1170 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method);
+#define ParseRelation_1__ctor_m33178(__this, ___parent, ___key, ___targetClassName, method) (( void (*) (ParseRelation_1_t1469 *, ParseObject_t1170 *, String_t*, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33178_gshared)(__this, ___parent, ___key, ___targetClassName, method)
 // System.Void Parse.ParseRelation`1<System.Object>::Add(T)
-extern "C" void ParseRelation_1_Add_m33182_gshared (ParseRelation_1_t1469 * __this, Object_t * ___obj, const MethodInfo* method);
-#define ParseRelation_1_Add_m33182(__this, ___obj, method) (( void (*) (ParseRelation_1_t1469 *, Object_t *, const MethodInfo*))ParseRelation_1_Add_m33182_gshared)(__this, ___obj, method)
+extern "C" void ParseRelation_1_Add_m33179_gshared (ParseRelation_1_t1469 * __this, Object_t * ___obj, const MethodInfo* method);
+#define ParseRelation_1_Add_m33179(__this, ___obj, method) (( void (*) (ParseRelation_1_t1469 *, Object_t *, const MethodInfo*))ParseRelation_1_Add_m33179_gshared)(__this, ___obj, method)
 // System.Void Parse.ParseRelation`1<System.Object>::Remove(T)
-extern "C" void ParseRelation_1_Remove_m33183_gshared (ParseRelation_1_t1469 * __this, Object_t * ___obj, const MethodInfo* method);
-#define ParseRelation_1_Remove_m33183(__this, ___obj, method) (( void (*) (ParseRelation_1_t1469 *, Object_t *, const MethodInfo*))ParseRelation_1_Remove_m33183_gshared)(__this, ___obj, method)
+extern "C" void ParseRelation_1_Remove_m33180_gshared (ParseRelation_1_t1469 * __this, Object_t * ___obj, const MethodInfo* method);
+#define ParseRelation_1_Remove_m33180(__this, ___obj, method) (( void (*) (ParseRelation_1_t1469 *, Object_t *, const MethodInfo*))ParseRelation_1_Remove_m33180_gshared)(__this, ___obj, method)
 // Parse.ParseQuery`1<T> Parse.ParseRelation`1<System.Object>::get_Query()
-extern "C" ParseQuery_1_t1466 * ParseRelation_1_get_Query_m33184_gshared (ParseRelation_1_t1469 * __this, const MethodInfo* method);
-#define ParseRelation_1_get_Query_m33184(__this, method) (( ParseQuery_1_t1466 * (*) (ParseRelation_1_t1469 *, const MethodInfo*))ParseRelation_1_get_Query_m33184_gshared)(__this, method)
+extern "C" ParseQuery_1_t1466 * ParseRelation_1_get_Query_m33181_gshared (ParseRelation_1_t1469 * __this, const MethodInfo* method);
+#define ParseRelation_1_get_Query_m33181(__this, method) (( ParseQuery_1_t1466 * (*) (ParseRelation_1_t1469 *, const MethodInfo*))ParseRelation_1_get_Query_m33181_gshared)(__this, method)

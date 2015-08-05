@@ -10,4 +10,4 @@ struct FormerlySerializedAsAttribute_t1051;
 struct String_t;
 
 // System.Void UnityEngine.Serialization.FormerlySerializedAsAttribute::.ctor(System.String)
-extern "C" void FormerlySerializedAsAttribute__ctor_m5980 (FormerlySerializedAsAttribute_t1051 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormerlySerializedAsAttribute__ctor_m5977 (FormerlySerializedAsAttribute_t1051 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

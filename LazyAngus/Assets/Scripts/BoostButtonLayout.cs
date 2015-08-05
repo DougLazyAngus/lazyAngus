@@ -17,12 +17,10 @@ public class BoostButtonLayout : MonoBehaviour {
 	void Awake() {
 		boostButtons = null;
 	}
-	
-	public void ConfirmLayoutComplete() {
-		if (boostButtons == null) {
-			// StartCoroutine (DelayThenLayout ());
-			DoLayout();
-		}
+
+
+	void Start() {
+		StartCoroutine (DelayThenLayout ());
 	}
 
 	IEnumerator DelayThenLayout() {

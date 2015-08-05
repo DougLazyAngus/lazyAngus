@@ -18,13 +18,13 @@ struct AsyncCallback_t386;
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.IntervalCollection/CostDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void CostDelegate__ctor_m14545 (CostDelegate_t4105 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CostDelegate__ctor_m14542 (CostDelegate_t4105 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::Invoke(System.Text.RegularExpressions.Interval)
-extern "C" double CostDelegate_Invoke_m14546 (CostDelegate_t4105 * __this, Interval_t4103  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double CostDelegate_Invoke_m14543 (CostDelegate_t4105 * __this, Interval_t4103  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_IntervalMethodDeclarations.h"
 extern "C" double pinvoke_delegate_wrapper_CostDelegate_t4105(Il2CppObject* delegate, Interval_t4103  ___i);
 // System.IAsyncResult System.Text.RegularExpressions.IntervalCollection/CostDelegate::BeginInvoke(System.Text.RegularExpressions.Interval,System.AsyncCallback,System.Object)
-extern "C" Object_t * CostDelegate_BeginInvoke_m14547 (CostDelegate_t4105 * __this, Interval_t4103  ___i, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CostDelegate_BeginInvoke_m14544 (CostDelegate_t4105 * __this, Interval_t4103  ___i, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::EndInvoke(System.IAsyncResult)
-extern "C" double CostDelegate_EndInvoke_m14548 (CostDelegate_t4105 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double CostDelegate_EndInvoke_m14545 (CostDelegate_t4105 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

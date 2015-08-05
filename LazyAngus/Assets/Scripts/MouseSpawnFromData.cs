@@ -50,13 +50,14 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 
 	void OnPhaseChanged() {
-		/*
+		if (DebugConfig.instance.DebugFlagSet (7)) {
+			return;
+		}
 		if (GamePhaseState.instance.IsPlaying ()) {
 			nextSpawnTime = Time.time + initialSpawnDelta;
 		} else { 
 			Clear ();
 		}
-		*/
 	}
 
 	// Update is called once per frame

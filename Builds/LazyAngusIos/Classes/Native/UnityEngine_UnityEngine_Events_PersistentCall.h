@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Object
-struct Object_t655;
-struct Object_t655_marshaled;
+struct Object_t654;
+struct Object_t654_marshaled;
 // System.String
 struct String_t;
 // UnityEngine.Events.ArgumentCache
@@ -17,7 +17,7 @@ struct ArgumentCache_t2834;
 struct  PersistentCall_t2838  : public Object_t
 {
 	// UnityEngine.Object UnityEngine.Events.PersistentCall::m_Target
-	Object_t655 * ___m_Target_0;
+	Object_t654 * ___m_Target_0;
 	// System.String UnityEngine.Events.PersistentCall::m_MethodName
 	String_t* ___m_MethodName_1;
 	// UnityEngine.Events.PersistentListenerMode UnityEngine.Events.PersistentCall::m_Mode

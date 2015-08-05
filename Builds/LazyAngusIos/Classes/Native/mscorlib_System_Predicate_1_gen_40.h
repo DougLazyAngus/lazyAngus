@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t920;
+struct MatEntry_t919;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

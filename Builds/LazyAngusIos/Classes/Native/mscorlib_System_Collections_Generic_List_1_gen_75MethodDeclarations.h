@@ -32,176 +32,176 @@ struct Comparison_1_t6541;
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_58.h"
 
 // System.Void System.Collections.Generic.List`1<System.UInt32>::.ctor()
-extern "C" void List_1__ctor_m37939_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1__ctor_m37939(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1__ctor_m37939_gshared)(__this, method)
+extern "C" void List_1__ctor_m37936_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1__ctor_m37936(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1__ctor_m37936_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1__ctor_m37940_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
-#define List_1__ctor_m37940(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1__ctor_m37940_gshared)(__this, ___collection, method)
+extern "C" void List_1__ctor_m37937_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1__ctor_m37937(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1__ctor_m37937_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::.ctor(System.Int32)
-extern "C" void List_1__ctor_m37941_gshared (List_1_t6530 * __this, int32_t ___capacity, const MethodInfo* method);
-#define List_1__ctor_m37941(__this, ___capacity, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1__ctor_m37941_gshared)(__this, ___capacity, method)
+extern "C" void List_1__ctor_m37938_gshared (List_1_t6530 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m37938(__this, ___capacity, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1__ctor_m37938_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::.ctor(T[],System.Int32)
-extern "C" void List_1__ctor_m37942_gshared (List_1_t6530 * __this, UInt32U5BU5D_t3171* ___data, int32_t ___size, const MethodInfo* method);
-#define List_1__ctor_m37942(__this, ___data, ___size, method) (( void (*) (List_1_t6530 *, UInt32U5BU5D_t3171*, int32_t, const MethodInfo*))List_1__ctor_m37942_gshared)(__this, ___data, ___size, method)
+extern "C" void List_1__ctor_m37939_gshared (List_1_t6530 * __this, UInt32U5BU5D_t3171* ___data, int32_t ___size, const MethodInfo* method);
+#define List_1__ctor_m37939(__this, ___data, ___size, method) (( void (*) (List_1_t6530 *, UInt32U5BU5D_t3171*, int32_t, const MethodInfo*))List_1__ctor_m37939_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::.cctor()
-extern "C" void List_1__cctor_m37943_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define List_1__cctor_m37943(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m37943_gshared)(__this /* static, unused */, method)
+extern "C" void List_1__cctor_m37940_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define List_1__cctor_m37940(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m37940_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.UInt32>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-extern "C" Object_t* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37944_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37944(__this, method) (( Object_t* (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37944_gshared)(__this, method)
+extern "C" Object_t* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37941_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37941(__this, method) (( Object_t* (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m37941_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void List_1_System_Collections_ICollection_CopyTo_m37945_gshared (List_1_t6530 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define List_1_System_Collections_ICollection_CopyTo_m37945(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t6530 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m37945_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void List_1_System_Collections_ICollection_CopyTo_m37942_gshared (List_1_t6530 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_CopyTo_m37942(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t6530 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m37942_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Collections.IEnumerator System.Collections.Generic.List`1<System.UInt32>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * List_1_System_Collections_IEnumerable_GetEnumerator_m37946_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m37946(__this, method) (( Object_t * (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m37946_gshared)(__this, method)
+extern "C" Object_t * List_1_System_Collections_IEnumerable_GetEnumerator_m37943_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m37943(__this, method) (( Object_t * (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m37943_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.Add(System.Object)
-extern "C" int32_t List_1_System_Collections_IList_Add_m37947_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
-#define List_1_System_Collections_IList_Add_m37947(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m37947_gshared)(__this, ___item, method)
+extern "C" int32_t List_1_System_Collections_IList_Add_m37944_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Add_m37944(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m37944_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.Contains(System.Object)
-extern "C" bool List_1_System_Collections_IList_Contains_m37948_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
-#define List_1_System_Collections_IList_Contains_m37948(__this, ___item, method) (( bool (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m37948_gshared)(__this, ___item, method)
+extern "C" bool List_1_System_Collections_IList_Contains_m37945_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Contains_m37945(__this, ___item, method) (( bool (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m37945_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t List_1_System_Collections_IList_IndexOf_m37949_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
-#define List_1_System_Collections_IList_IndexOf_m37949(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m37949_gshared)(__this, ___item, method)
+extern "C" int32_t List_1_System_Collections_IList_IndexOf_m37946_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_IndexOf_m37946(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m37946_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void List_1_System_Collections_IList_Insert_m37950_gshared (List_1_t6530 * __this, int32_t ___index, Object_t * ___item, const MethodInfo* method);
-#define List_1_System_Collections_IList_Insert_m37950(__this, ___index, ___item, method) (( void (*) (List_1_t6530 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m37950_gshared)(__this, ___index, ___item, method)
+extern "C" void List_1_System_Collections_IList_Insert_m37947_gshared (List_1_t6530 * __this, int32_t ___index, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Insert_m37947(__this, ___index, ___item, method) (( void (*) (List_1_t6530 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m37947_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.Remove(System.Object)
-extern "C" void List_1_System_Collections_IList_Remove_m37951_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
-#define List_1_System_Collections_IList_Remove_m37951(__this, ___item, method) (( void (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m37951_gshared)(__this, ___item, method)
+extern "C" void List_1_System_Collections_IList_Remove_m37948_gshared (List_1_t6530 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Remove_m37948(__this, ___item, method) (( void (*) (List_1_t6530 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m37948_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C" bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37952_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37952(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37952_gshared)(__this, method)
+extern "C" bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37949_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37949(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m37949_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool List_1_System_Collections_ICollection_get_IsSynchronized_m37953_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m37953(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m37953_gshared)(__this, method)
+extern "C" bool List_1_System_Collections_ICollection_get_IsSynchronized_m37950_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m37950(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m37950_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<System.UInt32>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * List_1_System_Collections_ICollection_get_SyncRoot_m37954_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_ICollection_get_SyncRoot_m37954(__this, method) (( Object_t * (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m37954_gshared)(__this, method)
+extern "C" Object_t * List_1_System_Collections_ICollection_get_SyncRoot_m37951_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_SyncRoot_m37951(__this, method) (( Object_t * (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m37951_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.get_IsFixedSize()
-extern "C" bool List_1_System_Collections_IList_get_IsFixedSize_m37955_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_IList_get_IsFixedSize_m37955(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m37955_gshared)(__this, method)
+extern "C" bool List_1_System_Collections_IList_get_IsFixedSize_m37952_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsFixedSize_m37952(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m37952_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.get_IsReadOnly()
-extern "C" bool List_1_System_Collections_IList_get_IsReadOnly_m37956_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_System_Collections_IList_get_IsReadOnly_m37956(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m37956_gshared)(__this, method)
+extern "C" bool List_1_System_Collections_IList_get_IsReadOnly_m37953_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsReadOnly_m37953(__this, method) (( bool (*) (List_1_t6530 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m37953_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * List_1_System_Collections_IList_get_Item_m37957_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
-#define List_1_System_Collections_IList_get_Item_m37957(__this, ___index, method) (( Object_t * (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m37957_gshared)(__this, ___index, method)
+extern "C" Object_t * List_1_System_Collections_IList_get_Item_m37954_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_Item_m37954(__this, ___index, method) (( Object_t * (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m37954_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void List_1_System_Collections_IList_set_Item_m37958_gshared (List_1_t6530 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define List_1_System_Collections_IList_set_Item_m37958(__this, ___index, ___value, method) (( void (*) (List_1_t6530 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m37958_gshared)(__this, ___index, ___value, method)
+extern "C" void List_1_System_Collections_IList_set_Item_m37955_gshared (List_1_t6530 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define List_1_System_Collections_IList_set_Item_m37955(__this, ___index, ___value, method) (( void (*) (List_1_t6530 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m37955_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Add(T)
-extern "C" void List_1_Add_m37959_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
-#define List_1_Add_m37959(__this, ___item, method) (( void (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Add_m37959_gshared)(__this, ___item, method)
+extern "C" void List_1_Add_m37956_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
+#define List_1_Add_m37956(__this, ___item, method) (( void (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Add_m37956_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::GrowIfNeeded(System.Int32)
-extern "C" void List_1_GrowIfNeeded_m37960_gshared (List_1_t6530 * __this, int32_t ___newCount, const MethodInfo* method);
-#define List_1_GrowIfNeeded_m37960(__this, ___newCount, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m37960_gshared)(__this, ___newCount, method)
+extern "C" void List_1_GrowIfNeeded_m37957_gshared (List_1_t6530 * __this, int32_t ___newCount, const MethodInfo* method);
+#define List_1_GrowIfNeeded_m37957(__this, ___newCount, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m37957_gshared)(__this, ___newCount, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::CheckRange(System.Int32,System.Int32)
-extern "C" void List_1_CheckRange_m37961_gshared (List_1_t6530 * __this, int32_t ___idx, int32_t ___count, const MethodInfo* method);
-#define List_1_CheckRange_m37961(__this, ___idx, ___count, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m37961_gshared)(__this, ___idx, ___count, method)
+extern "C" void List_1_CheckRange_m37958_gshared (List_1_t6530 * __this, int32_t ___idx, int32_t ___count, const MethodInfo* method);
+#define List_1_CheckRange_m37958(__this, ___idx, ___count, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m37958_gshared)(__this, ___idx, ___count, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-extern "C" void List_1_AddCollection_m37962_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
-#define List_1_AddCollection_m37962(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddCollection_m37962_gshared)(__this, ___collection, method)
+extern "C" void List_1_AddCollection_m37959_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddCollection_m37959(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddCollection_m37959_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1_AddEnumerable_m37963_gshared (List_1_t6530 * __this, Object_t* ___enumerable, const MethodInfo* method);
-#define List_1_AddEnumerable_m37963(__this, ___enumerable, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m37963_gshared)(__this, ___enumerable, method)
+extern "C" void List_1_AddEnumerable_m37960_gshared (List_1_t6530 * __this, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_AddEnumerable_m37960(__this, ___enumerable, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m37960_gshared)(__this, ___enumerable, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1_AddRange_m37964_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
-#define List_1_AddRange_m37964(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddRange_m37964_gshared)(__this, ___collection, method)
+extern "C" void List_1_AddRange_m37961_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddRange_m37961(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_AddRange_m37961_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.UInt32>::AsReadOnly()
-extern "C" ReadOnlyCollection_1_t6532 * List_1_AsReadOnly_m37965_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_AsReadOnly_m37965(__this, method) (( ReadOnlyCollection_1_t6532 * (*) (List_1_t6530 *, const MethodInfo*))List_1_AsReadOnly_m37965_gshared)(__this, method)
+extern "C" ReadOnlyCollection_1_t6532 * List_1_AsReadOnly_m37962_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_AsReadOnly_m37962(__this, method) (( ReadOnlyCollection_1_t6532 * (*) (List_1_t6530 *, const MethodInfo*))List_1_AsReadOnly_m37962_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Clear()
-extern "C" void List_1_Clear_m37966_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_Clear_m37966(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Clear_m37966_gshared)(__this, method)
+extern "C" void List_1_Clear_m37963_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_Clear_m37963(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Clear_m37963_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::Contains(T)
-extern "C" bool List_1_Contains_m37967_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
-#define List_1_Contains_m37967(__this, ___item, method) (( bool (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Contains_m37967_gshared)(__this, ___item, method)
+extern "C" bool List_1_Contains_m37964_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
+#define List_1_Contains_m37964(__this, ___item, method) (( bool (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Contains_m37964_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::CopyTo(T[],System.Int32)
-extern "C" void List_1_CopyTo_m37968_gshared (List_1_t6530 * __this, UInt32U5BU5D_t3171* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define List_1_CopyTo_m37968(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t6530 *, UInt32U5BU5D_t3171*, int32_t, const MethodInfo*))List_1_CopyTo_m37968_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void List_1_CopyTo_m37965_gshared (List_1_t6530 * __this, UInt32U5BU5D_t3171* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_CopyTo_m37965(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t6530 *, UInt32U5BU5D_t3171*, int32_t, const MethodInfo*))List_1_CopyTo_m37965_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<System.UInt32>::Find(System.Predicate`1<T>)
-extern "C" uint32_t List_1_Find_m37969_gshared (List_1_t6530 * __this, Predicate_1_t6537 * ___match, const MethodInfo* method);
-#define List_1_Find_m37969(__this, ___match, method) (( uint32_t (*) (List_1_t6530 *, Predicate_1_t6537 *, const MethodInfo*))List_1_Find_m37969_gshared)(__this, ___match, method)
+extern "C" uint32_t List_1_Find_m37966_gshared (List_1_t6530 * __this, Predicate_1_t6537 * ___match, const MethodInfo* method);
+#define List_1_Find_m37966(__this, ___match, method) (( uint32_t (*) (List_1_t6530 *, Predicate_1_t6537 *, const MethodInfo*))List_1_Find_m37966_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::CheckMatch(System.Predicate`1<T>)
-extern "C" void List_1_CheckMatch_m37970_gshared (Object_t * __this /* static, unused */, Predicate_1_t6537 * ___match, const MethodInfo* method);
-#define List_1_CheckMatch_m37970(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6537 *, const MethodInfo*))List_1_CheckMatch_m37970_gshared)(__this /* static, unused */, ___match, method)
+extern "C" void List_1_CheckMatch_m37967_gshared (Object_t * __this /* static, unused */, Predicate_1_t6537 * ___match, const MethodInfo* method);
+#define List_1_CheckMatch_m37967(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6537 *, const MethodInfo*))List_1_CheckMatch_m37967_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-extern "C" int32_t List_1_GetIndex_m37971_gshared (List_1_t6530 * __this, int32_t ___startIndex, int32_t ___count, Predicate_1_t6537 * ___match, const MethodInfo* method);
-#define List_1_GetIndex_m37971(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t6530 *, int32_t, int32_t, Predicate_1_t6537 *, const MethodInfo*))List_1_GetIndex_m37971_gshared)(__this, ___startIndex, ___count, ___match, method)
+extern "C" int32_t List_1_GetIndex_m37968_gshared (List_1_t6530 * __this, int32_t ___startIndex, int32_t ___count, Predicate_1_t6537 * ___match, const MethodInfo* method);
+#define List_1_GetIndex_m37968(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t6530 *, int32_t, int32_t, Predicate_1_t6537 *, const MethodInfo*))List_1_GetIndex_m37968_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.UInt32>::GetEnumerator()
-extern "C" Enumerator_t6531  List_1_GetEnumerator_m37972_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_GetEnumerator_m37972(__this, method) (( Enumerator_t6531  (*) (List_1_t6530 *, const MethodInfo*))List_1_GetEnumerator_m37972_gshared)(__this, method)
+extern "C" Enumerator_t6531  List_1_GetEnumerator_m37969_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_GetEnumerator_m37969(__this, method) (( Enumerator_t6531  (*) (List_1_t6530 *, const MethodInfo*))List_1_GetEnumerator_m37969_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.UInt32>::GetRange(System.Int32,System.Int32)
-extern "C" List_1_t6530 * List_1_GetRange_m37973_gshared (List_1_t6530 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
-#define List_1_GetRange_m37973(__this, ___index, ___count, method) (( List_1_t6530 * (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m37973_gshared)(__this, ___index, ___count, method)
+extern "C" List_1_t6530 * List_1_GetRange_m37970_gshared (List_1_t6530 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_GetRange_m37970(__this, ___index, ___count, method) (( List_1_t6530 * (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m37970_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::IndexOf(T)
-extern "C" int32_t List_1_IndexOf_m37974_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
-#define List_1_IndexOf_m37974(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_IndexOf_m37974_gshared)(__this, ___item, method)
+extern "C" int32_t List_1_IndexOf_m37971_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
+#define List_1_IndexOf_m37971(__this, ___item, method) (( int32_t (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_IndexOf_m37971_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Shift(System.Int32,System.Int32)
-extern "C" void List_1_Shift_m37975_gshared (List_1_t6530 * __this, int32_t ___start, int32_t ___delta, const MethodInfo* method);
-#define List_1_Shift_m37975(__this, ___start, ___delta, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m37975_gshared)(__this, ___start, ___delta, method)
+extern "C" void List_1_Shift_m37972_gshared (List_1_t6530 * __this, int32_t ___start, int32_t ___delta, const MethodInfo* method);
+#define List_1_Shift_m37972(__this, ___start, ___delta, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m37972_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::CheckIndex(System.Int32)
-extern "C" void List_1_CheckIndex_m37976_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
-#define List_1_CheckIndex_m37976(__this, ___index, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_CheckIndex_m37976_gshared)(__this, ___index, method)
+extern "C" void List_1_CheckIndex_m37973_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_CheckIndex_m37973(__this, ___index, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_CheckIndex_m37973_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Insert(System.Int32,T)
-extern "C" void List_1_Insert_m37977_gshared (List_1_t6530 * __this, int32_t ___index, uint32_t ___item, const MethodInfo* method);
-#define List_1_Insert_m37977(__this, ___index, ___item, method) (( void (*) (List_1_t6530 *, int32_t, uint32_t, const MethodInfo*))List_1_Insert_m37977_gshared)(__this, ___index, ___item, method)
+extern "C" void List_1_Insert_m37974_gshared (List_1_t6530 * __this, int32_t ___index, uint32_t ___item, const MethodInfo* method);
+#define List_1_Insert_m37974(__this, ___index, ___item, method) (( void (*) (List_1_t6530 *, int32_t, uint32_t, const MethodInfo*))List_1_Insert_m37974_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1_CheckCollection_m37978_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
-#define List_1_CheckCollection_m37978(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m37978_gshared)(__this, ___collection, method)
+extern "C" void List_1_CheckCollection_m37975_gshared (List_1_t6530 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_CheckCollection_m37975(__this, ___collection, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m37975_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1_InsertRange_m37979_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
-#define List_1_InsertRange_m37979(__this, ___index, ___collection, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m37979_gshared)(__this, ___index, ___collection, method)
+extern "C" void List_1_InsertRange_m37976_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertRange_m37976(__this, ___index, ___collection, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m37976_gshared)(__this, ___index, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-extern "C" void List_1_InsertCollection_m37980_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
-#define List_1_InsertCollection_m37980(__this, ___index, ___collection, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m37980_gshared)(__this, ___index, ___collection, method)
+extern "C" void List_1_InsertCollection_m37977_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertCollection_m37977(__this, ___index, ___collection, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m37977_gshared)(__this, ___index, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void List_1_InsertEnumeration_m37981_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___enumerable, const MethodInfo* method);
-#define List_1_InsertEnumeration_m37981(__this, ___index, ___enumerable, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m37981_gshared)(__this, ___index, ___enumerable, method)
+extern "C" void List_1_InsertEnumeration_m37978_gshared (List_1_t6530 * __this, int32_t ___index, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_InsertEnumeration_m37978(__this, ___index, ___enumerable, method) (( void (*) (List_1_t6530 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m37978_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<System.UInt32>::Remove(T)
-extern "C" bool List_1_Remove_m37982_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
-#define List_1_Remove_m37982(__this, ___item, method) (( bool (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Remove_m37982_gshared)(__this, ___item, method)
+extern "C" bool List_1_Remove_m37979_gshared (List_1_t6530 * __this, uint32_t ___item, const MethodInfo* method);
+#define List_1_Remove_m37979(__this, ___item, method) (( bool (*) (List_1_t6530 *, uint32_t, const MethodInfo*))List_1_Remove_m37979_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::RemoveAll(System.Predicate`1<T>)
-extern "C" int32_t List_1_RemoveAll_m37983_gshared (List_1_t6530 * __this, Predicate_1_t6537 * ___match, const MethodInfo* method);
-#define List_1_RemoveAll_m37983(__this, ___match, method) (( int32_t (*) (List_1_t6530 *, Predicate_1_t6537 *, const MethodInfo*))List_1_RemoveAll_m37983_gshared)(__this, ___match, method)
+extern "C" int32_t List_1_RemoveAll_m37980_gshared (List_1_t6530 * __this, Predicate_1_t6537 * ___match, const MethodInfo* method);
+#define List_1_RemoveAll_m37980(__this, ___match, method) (( int32_t (*) (List_1_t6530 *, Predicate_1_t6537 *, const MethodInfo*))List_1_RemoveAll_m37980_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::RemoveAt(System.Int32)
-extern "C" void List_1_RemoveAt_m37984_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
-#define List_1_RemoveAt_m37984(__this, ___index, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_RemoveAt_m37984_gshared)(__this, ___index, method)
+extern "C" void List_1_RemoveAt_m37981_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_RemoveAt_m37981(__this, ___index, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_RemoveAt_m37981_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::RemoveRange(System.Int32,System.Int32)
-extern "C" void List_1_RemoveRange_m37985_gshared (List_1_t6530 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
-#define List_1_RemoveRange_m37985(__this, ___index, ___count, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m37985_gshared)(__this, ___index, ___count, method)
+extern "C" void List_1_RemoveRange_m37982_gshared (List_1_t6530 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_RemoveRange_m37982(__this, ___index, ___count, method) (( void (*) (List_1_t6530 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m37982_gshared)(__this, ___index, ___count, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Reverse()
-extern "C" void List_1_Reverse_m37986_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_Reverse_m37986(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Reverse_m37986_gshared)(__this, method)
+extern "C" void List_1_Reverse_m37983_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_Reverse_m37983(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Reverse_m37983_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Sort()
-extern "C" void List_1_Sort_m37987_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_Sort_m37987(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Sort_m37987_gshared)(__this, method)
+extern "C" void List_1_Sort_m37984_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_Sort_m37984(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_Sort_m37984_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Sort(System.Collections.Generic.IComparer`1<T>)
-extern "C" void List_1_Sort_m37988_gshared (List_1_t6530 * __this, Object_t* ___comparer, const MethodInfo* method);
-#define List_1_Sort_m37988(__this, ___comparer, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_Sort_m37988_gshared)(__this, ___comparer, method)
+extern "C" void List_1_Sort_m37985_gshared (List_1_t6530 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define List_1_Sort_m37985(__this, ___comparer, method) (( void (*) (List_1_t6530 *, Object_t*, const MethodInfo*))List_1_Sort_m37985_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::Sort(System.Comparison`1<T>)
-extern "C" void List_1_Sort_m37989_gshared (List_1_t6530 * __this, Comparison_1_t6541 * ___comparison, const MethodInfo* method);
-#define List_1_Sort_m37989(__this, ___comparison, method) (( void (*) (List_1_t6530 *, Comparison_1_t6541 *, const MethodInfo*))List_1_Sort_m37989_gshared)(__this, ___comparison, method)
+extern "C" void List_1_Sort_m37986_gshared (List_1_t6530 * __this, Comparison_1_t6541 * ___comparison, const MethodInfo* method);
+#define List_1_Sort_m37986(__this, ___comparison, method) (( void (*) (List_1_t6530 *, Comparison_1_t6541 *, const MethodInfo*))List_1_Sort_m37986_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<System.UInt32>::ToArray()
-extern "C" UInt32U5BU5D_t3171* List_1_ToArray_m37990_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_ToArray_m37990(__this, method) (( UInt32U5BU5D_t3171* (*) (List_1_t6530 *, const MethodInfo*))List_1_ToArray_m37990_gshared)(__this, method)
+extern "C" UInt32U5BU5D_t3171* List_1_ToArray_m37987_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_ToArray_m37987(__this, method) (( UInt32U5BU5D_t3171* (*) (List_1_t6530 *, const MethodInfo*))List_1_ToArray_m37987_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::TrimExcess()
-extern "C" void List_1_TrimExcess_m37991_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_TrimExcess_m37991(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_TrimExcess_m37991_gshared)(__this, method)
+extern "C" void List_1_TrimExcess_m37988_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_TrimExcess_m37988(__this, method) (( void (*) (List_1_t6530 *, const MethodInfo*))List_1_TrimExcess_m37988_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::get_Capacity()
-extern "C" int32_t List_1_get_Capacity_m37992_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_get_Capacity_m37992(__this, method) (( int32_t (*) (List_1_t6530 *, const MethodInfo*))List_1_get_Capacity_m37992_gshared)(__this, method)
+extern "C" int32_t List_1_get_Capacity_m37989_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_get_Capacity_m37989(__this, method) (( int32_t (*) (List_1_t6530 *, const MethodInfo*))List_1_get_Capacity_m37989_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::set_Capacity(System.Int32)
-extern "C" void List_1_set_Capacity_m37993_gshared (List_1_t6530 * __this, int32_t ___value, const MethodInfo* method);
-#define List_1_set_Capacity_m37993(__this, ___value, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_set_Capacity_m37993_gshared)(__this, ___value, method)
+extern "C" void List_1_set_Capacity_m37990_gshared (List_1_t6530 * __this, int32_t ___value, const MethodInfo* method);
+#define List_1_set_Capacity_m37990(__this, ___value, method) (( void (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_set_Capacity_m37990_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::get_Count()
-extern "C" int32_t List_1_get_Count_m37994_gshared (List_1_t6530 * __this, const MethodInfo* method);
-#define List_1_get_Count_m37994(__this, method) (( int32_t (*) (List_1_t6530 *, const MethodInfo*))List_1_get_Count_m37994_gshared)(__this, method)
+extern "C" int32_t List_1_get_Count_m37991_gshared (List_1_t6530 * __this, const MethodInfo* method);
+#define List_1_get_Count_m37991(__this, method) (( int32_t (*) (List_1_t6530 *, const MethodInfo*))List_1_get_Count_m37991_gshared)(__this, method)
 // T System.Collections.Generic.List`1<System.UInt32>::get_Item(System.Int32)
-extern "C" uint32_t List_1_get_Item_m37995_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
-#define List_1_get_Item_m37995(__this, ___index, method) (( uint32_t (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_get_Item_m37995_gshared)(__this, ___index, method)
+extern "C" uint32_t List_1_get_Item_m37992_gshared (List_1_t6530 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_get_Item_m37992(__this, ___index, method) (( uint32_t (*) (List_1_t6530 *, int32_t, const MethodInfo*))List_1_get_Item_m37992_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.UInt32>::set_Item(System.Int32,T)
-extern "C" void List_1_set_Item_m37996_gshared (List_1_t6530 * __this, int32_t ___index, uint32_t ___value, const MethodInfo* method);
-#define List_1_set_Item_m37996(__this, ___index, ___value, method) (( void (*) (List_1_t6530 *, int32_t, uint32_t, const MethodInfo*))List_1_set_Item_m37996_gshared)(__this, ___index, ___value, method)
+extern "C" void List_1_set_Item_m37993_gshared (List_1_t6530 * __this, int32_t ___index, uint32_t ___value, const MethodInfo* method);
+#define List_1_set_Item_m37993(__this, ___index, ___value, method) (( void (*) (List_1_t6530 *, int32_t, uint32_t, const MethodInfo*))List_1_set_Item_m37993_gshared)(__this, ___index, ___value, method)

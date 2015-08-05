@@ -10,4 +10,4 @@ struct NewArrayExpression_t3294;
 struct ReadOnlyCollection_1_t3277;
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.NewArrayExpression::get_Expressions()
-extern "C" ReadOnlyCollection_1_t3277 * NewArrayExpression_get_Expressions_m11469 (NewArrayExpression_t3294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3277 * NewArrayExpression_get_Expressions_m11466 (NewArrayExpression_t3294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

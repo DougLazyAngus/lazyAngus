@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t722;
+struct Assembly_t721;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Object
@@ -10,7 +10,7 @@ struct ByteU5BU5D_t66;
 struct  Hash_t4684  : public Object_t
 {
 	// System.Reflection.Assembly System.Security.Policy.Hash::assembly
-	Assembly_t722 * ___assembly_0;
+	Assembly_t721 * ___assembly_0;
 	// System.Byte[] System.Security.Policy.Hash::data
 	ByteU5BU5D_t66* ___data_1;
 };

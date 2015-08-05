@@ -24,22 +24,22 @@ struct X509Certificate_t3767;
 #include "System_System_Net_Security_SslPolicyErrors.h"
 
 // System.Void System.Net.ServicePointManager/ChainValidationHelper::.ctor(System.Object)
-extern "C" void ChainValidationHelper__ctor_m13878 (ChainValidationHelper_t4022 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChainValidationHelper__ctor_m13875 (ChainValidationHelper_t4022 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.ServicePointManager/ChainValidationHelper::.cctor()
-extern "C" void ChainValidationHelper__cctor_m13879 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChainValidationHelper__cctor_m13876 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.ServicePointManager/ChainValidationHelper::get_Host()
-extern "C" String_t* ChainValidationHelper_get_Host_m13880 (ChainValidationHelper_t4022 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ChainValidationHelper_get_Host_m13877 (ChainValidationHelper_t4022 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult System.Net.ServicePointManager/ChainValidationHelper::ValidateChain(Mono.Security.X509.X509CertificateCollection)
-extern "C" ValidationResult_t3827 * ChainValidationHelper_ValidateChain_m13881 (ChainValidationHelper_t4022 * __this, X509CertificateCollection_t3762 * ___certs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValidationResult_t3827 * ChainValidationHelper_ValidateChain_m13878 (ChainValidationHelper_t4022 * __this, X509CertificateCollection_t3762 * ___certs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.ServicePointManager/ChainValidationHelper::GetStatusFromChain(System.Security.Cryptography.X509Certificates.X509Chain)
-extern "C" int32_t ChainValidationHelper_GetStatusFromChain_m13882 (Object_t * __this /* static, unused */, X509Chain_t3891 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ChainValidationHelper_GetStatusFromChain_m13879 (Object_t * __this /* static, unused */, X509Chain_t3891 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Security.SslPolicyErrors System.Net.ServicePointManager/ChainValidationHelper::GetErrorsFromChain(System.Security.Cryptography.X509Certificates.X509Chain)
-extern "C" int32_t ChainValidationHelper_GetErrorsFromChain_m13883 (Object_t * __this /* static, unused */, X509Chain_t3891 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ChainValidationHelper_GetErrorsFromChain_m13880 (Object_t * __this /* static, unused */, X509Chain_t3891 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/ChainValidationHelper::CheckCertificateUsage(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool ChainValidationHelper_CheckCertificateUsage_m13884 (Object_t * __this /* static, unused */, X509Certificate2_t3890 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ChainValidationHelper_CheckCertificateUsage_m13881 (Object_t * __this /* static, unused */, X509Certificate2_t3890 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/ChainValidationHelper::CheckServerIdentity(Mono.Security.X509.X509Certificate,System.String)
-extern "C" bool ChainValidationHelper_CheckServerIdentity_m13885 (Object_t * __this /* static, unused */, X509Certificate_t3767 * ___cert, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ChainValidationHelper_CheckServerIdentity_m13882 (Object_t * __this /* static, unused */, X509Certificate_t3767 * ___cert, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/ChainValidationHelper::CheckDomainName(System.String,System.String)
-extern "C" bool ChainValidationHelper_CheckDomainName_m13886 (Object_t * __this /* static, unused */, String_t* ___subjectName, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ChainValidationHelper_CheckDomainName_m13883 (Object_t * __this /* static, unused */, String_t* ___subjectName, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/ChainValidationHelper::Match(System.String,System.String)
-extern "C" bool ChainValidationHelper_Match_m13887 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ChainValidationHelper_Match_m13884 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;

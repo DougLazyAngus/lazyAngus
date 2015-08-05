@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Toggle/ToggleTransition
-struct ToggleTransition_t923;
+struct ToggleTransition_t922;
 

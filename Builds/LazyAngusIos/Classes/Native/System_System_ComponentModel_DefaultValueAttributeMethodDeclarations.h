@@ -10,10 +10,10 @@ struct DefaultValueAttribute_t2918;
 struct Object_t;
 
 // System.Void System.ComponentModel.DefaultValueAttribute::.ctor(System.Object)
-extern "C" void DefaultValueAttribute__ctor_m9982 (DefaultValueAttribute_t2918 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultValueAttribute__ctor_m9979 (DefaultValueAttribute_t2918 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.ComponentModel.DefaultValueAttribute::get_Value()
-extern "C" Object_t * DefaultValueAttribute_get_Value_m13174 (DefaultValueAttribute_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DefaultValueAttribute_get_Value_m13171 (DefaultValueAttribute_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ComponentModel.DefaultValueAttribute::Equals(System.Object)
-extern "C" bool DefaultValueAttribute_Equals_m13175 (DefaultValueAttribute_t2918 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DefaultValueAttribute_Equals_m13172 (DefaultValueAttribute_t2918 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ComponentModel.DefaultValueAttribute::GetHashCode()
-extern "C" int32_t DefaultValueAttribute_GetHashCode_m13176 (DefaultValueAttribute_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DefaultValueAttribute_GetHashCode_m13173 (DefaultValueAttribute_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

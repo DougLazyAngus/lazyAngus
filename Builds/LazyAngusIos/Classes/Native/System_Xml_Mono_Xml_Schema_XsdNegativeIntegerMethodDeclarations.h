@@ -8,4 +8,4 @@
 struct XsdNegativeInteger_t3082;
 
 // System.Void Mono.Xml.Schema.XsdNegativeInteger::.ctor()
-extern "C" void XsdNegativeInteger__ctor_m10226 (XsdNegativeInteger_t3082 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNegativeInteger__ctor_m10223 (XsdNegativeInteger_t3082 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t792;
+struct Entry_t791;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

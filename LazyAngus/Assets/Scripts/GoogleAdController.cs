@@ -74,8 +74,11 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		// UpdateBanner ();
-		// UpdateInterstialAd ();
+		if (DebugConfig.instance.DebugFlagSet (5)) {
+			return;
+		}
+		UpdateBanner ();
+		UpdateInterstialAd ();
 	}
 
 	void UpdateInterstialAd() {

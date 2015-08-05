@@ -9,7 +9,7 @@ struct Predicate_1_t5832;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t920;
+struct MatEntry_t919;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m29365(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5832 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21479_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m29362(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5832 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21476_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>::Invoke(T)
-#define Predicate_1_Invoke_m29366(__this, ___obj, method) (( bool (*) (Predicate_1_t5832 *, MatEntry_t920 *, const MethodInfo*))Predicate_1_Invoke_m21480_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m29363(__this, ___obj, method) (( bool (*) (Predicate_1_t5832 *, MatEntry_t919 *, const MethodInfo*))Predicate_1_Invoke_m21477_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m29367(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5832 *, MatEntry_t920 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21481_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m29364(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5832 *, MatEntry_t919 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21478_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m29368(__this, ___result, method) (( bool (*) (Predicate_1_t5832 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21482_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m29365(__this, ___result, method) (( bool (*) (Predicate_1_t5832 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21479_gshared)(__this, ___result, method)

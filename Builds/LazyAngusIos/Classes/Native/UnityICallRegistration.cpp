@@ -1,4 +1,4 @@
-//Generated on : 8/4/2015 3:57:32 PM
+//Generated on : 8/5/2015 12:48:05 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -334,10 +334,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.CanvasGroup::get_interactable()
 		void Register_UnityEngine_CanvasGroup_get_interactable();
 		Register_UnityEngine_CanvasGroup_get_interactable();
-
-		//System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)
-		void Register_UnityEngine_CanvasGroup_set_alpha();
-		Register_UnityEngine_CanvasGroup_set_alpha();
 
 	//End Registrations for type : UnityEngine.CanvasGroup
 

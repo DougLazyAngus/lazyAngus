@@ -10,8 +10,8 @@ struct ConditionalExpression_t3276;
 struct Expression_t1471;
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_Test()
-extern "C" Expression_t1471 * ConditionalExpression_get_Test_m11381 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1471 * ConditionalExpression_get_Test_m11378 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_IfTrue()
-extern "C" Expression_t1471 * ConditionalExpression_get_IfTrue_m11382 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1471 * ConditionalExpression_get_IfTrue_m11379 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_IfFalse()
-extern "C" Expression_t1471 * ConditionalExpression_get_IfFalse_m11383 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1471 * ConditionalExpression_get_IfFalse_m11380 (ConditionalExpression_t3276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

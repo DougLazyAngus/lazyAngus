@@ -10,4 +10,4 @@ struct AssemblyKeyFileAttribute_t3263;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyKeyFileAttribute::.ctor(System.String)
-extern "C" void AssemblyKeyFileAttribute__ctor_m11267 (AssemblyKeyFileAttribute_t3263 * __this, String_t* ___keyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyKeyFileAttribute__ctor_m11264 (AssemblyKeyFileAttribute_t3263 * __this, String_t* ___keyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
@@ -16,7 +16,7 @@ struct  XmlChar_t3172  : public Object_t
 };
 struct XmlChar_t3172_StaticFields{
 	// System.Char[] System.Xml.XmlChar::WhitespaceChars
-	CharU5BU5D_t663* ___WhitespaceChars_0;
+	CharU5BU5D_t662* ___WhitespaceChars_0;
 	// System.Byte[] System.Xml.XmlChar::firstNamePages
 	ByteU5BU5D_t66* ___firstNamePages_1;
 	// System.Byte[] System.Xml.XmlChar::namePages

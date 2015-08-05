@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Delegate
-struct Delegate_t677;
+struct Delegate_t676;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

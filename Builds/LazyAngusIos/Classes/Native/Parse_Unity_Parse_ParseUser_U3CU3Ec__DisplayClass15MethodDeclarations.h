@@ -8,6 +8,6 @@
 struct U3CU3Ec__DisplayClass15_t1260;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass15::.ctor()
-extern "C" void U3CU3Ec__DisplayClass15__ctor_m6788 (U3CU3Ec__DisplayClass15_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass15__ctor_m6785 (U3CU3Ec__DisplayClass15_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseUser/<>c__DisplayClass15::<SaveCurrentUserAsync>b__14()
-extern "C" void U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m6789 (U3CU3Ec__DisplayClass15_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m6786 (U3CU3Ec__DisplayClass15_t1260 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

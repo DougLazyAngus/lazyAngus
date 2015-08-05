@@ -12,16 +12,16 @@ struct String_t;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64)
-extern "C" void Score__ctor_m9678 (Score_t2811 * __this, String_t* ___leaderboardID, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Score__ctor_m9675 (Score_t2811 * __this, String_t* ___leaderboardID, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64,System.String,System.DateTime,System.String,System.Int32)
-extern "C" void Score__ctor_m9679 (Score_t2811 * __this, String_t* ___leaderboardID, int64_t ___value, String_t* ___userID, DateTime_t287  ___date, String_t* ___formattedValue, int32_t ___rank, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Score__ctor_m9676 (Score_t2811 * __this, String_t* ___leaderboardID, int64_t ___value, String_t* ___userID, DateTime_t287  ___date, String_t* ___formattedValue, int32_t ___rank, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.Score::ToString()
-extern "C" String_t* Score_ToString_m9680 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Score_ToString_m9677 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID()
-extern "C" String_t* Score_get_leaderboardID_m9681 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Score_get_leaderboardID_m9678 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::set_leaderboardID(System.String)
-extern "C" void Score_set_leaderboardID_m9682 (Score_t2811 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Score_set_leaderboardID_m9679 (Score_t2811 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 UnityEngine.SocialPlatforms.Impl.Score::get_value()
-extern "C" int64_t Score_get_value_m9683 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Score_get_value_m9680 (Score_t2811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::set_value(System.Int64)
-extern "C" void Score_set_value_m9684 (Score_t2811 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Score_set_value_m9681 (Score_t2811 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

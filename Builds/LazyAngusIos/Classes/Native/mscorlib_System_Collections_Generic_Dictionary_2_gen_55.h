@@ -5,7 +5,7 @@ struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5347;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
@@ -24,7 +24,7 @@ struct  Dictionary_2_t6135  : public Object_t
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,System.Byte>::linkSlots
 	LinkU5BU5D_t5347* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,System.Byte>::keySlots
-	ObjectU5BU5D_t638* ___keySlots_6;
+	ObjectU5BU5D_t637* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,System.Byte>::valueSlots
 	ByteU5BU5D_t66* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Byte>::touchedSlots

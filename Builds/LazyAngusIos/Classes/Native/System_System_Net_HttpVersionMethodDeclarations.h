@@ -8,4 +8,4 @@
 struct HttpVersion_t4007;
 
 // System.Void System.Net.HttpVersion::.cctor()
-extern "C" void HttpVersion__cctor_m13714 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpVersion__cctor_m13711 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

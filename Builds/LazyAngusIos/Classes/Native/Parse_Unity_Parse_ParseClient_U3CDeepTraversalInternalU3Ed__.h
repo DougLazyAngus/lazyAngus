@@ -7,9 +7,9 @@ struct ICollection_1_t1172;
 // System.Collections.IEnumerable
 struct IEnumerable_t104;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t662;
+struct IEnumerable_1_t661;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.IDisposable

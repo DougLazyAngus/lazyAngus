@@ -8,4 +8,4 @@
 struct XsdUnsignedLong_t3076;
 
 // System.Void Mono.Xml.Schema.XsdUnsignedLong::.ctor()
-extern "C" void XsdUnsignedLong__ctor_m10220 (XsdUnsignedLong_t3076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdUnsignedLong__ctor_m10217 (XsdUnsignedLong_t3076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

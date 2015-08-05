@@ -10,4 +10,4 @@ struct GeneratedCodeAttribute_t2921;
 struct String_t;
 
 // System.Void System.CodeDom.Compiler.GeneratedCodeAttribute::.ctor(System.String,System.String)
-extern "C" void GeneratedCodeAttribute__ctor_m9994 (GeneratedCodeAttribute_t2921 * __this, String_t* ___tool, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GeneratedCodeAttribute__ctor_m9991 (GeneratedCodeAttribute_t2921 * __this, String_t* ___tool, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

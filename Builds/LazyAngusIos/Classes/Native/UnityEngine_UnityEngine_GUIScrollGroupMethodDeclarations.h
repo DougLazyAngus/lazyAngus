@@ -8,12 +8,12 @@
 struct GUIScrollGroup_t2669;
 
 // System.Void UnityEngine.GUIScrollGroup::.ctor()
-extern "C" void GUIScrollGroup__ctor_m8676 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIScrollGroup__ctor_m8673 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIScrollGroup::CalcWidth()
-extern "C" void GUIScrollGroup_CalcWidth_m8677 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIScrollGroup_CalcWidth_m8674 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIScrollGroup::SetHorizontal(System.Single,System.Single)
-extern "C" void GUIScrollGroup_SetHorizontal_m8678 (GUIScrollGroup_t2669 * __this, float ___x, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIScrollGroup_SetHorizontal_m8675 (GUIScrollGroup_t2669 * __this, float ___x, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIScrollGroup::CalcHeight()
-extern "C" void GUIScrollGroup_CalcHeight_m8679 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIScrollGroup_CalcHeight_m8676 (GUIScrollGroup_t2669 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIScrollGroup::SetVertical(System.Single,System.Single)
-extern "C" void GUIScrollGroup_SetVertical_m8680 (GUIScrollGroup_t2669 * __this, float ___y, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIScrollGroup_SetVertical_m8677 (GUIScrollGroup_t2669 * __this, float ___y, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;

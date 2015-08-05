@@ -21,3 +21,5 @@ extern "C" void DebugConfig_set_instance_m2661 (Object_t * __this /* static, unu
 extern "C" void DebugConfig_Awake_m2662 (DebugConfig_t490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DebugConfig::Start()
 extern "C" void DebugConfig_Start_m2663 (DebugConfig_t490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean DebugConfig::DebugFlagSet(System.Int32)
+extern "C" bool DebugConfig_DebugFlagSet_m2664 (DebugConfig_t490 * __this, int32_t ___debugFlag, const MethodInfo* method) IL2CPP_METHOD_ATTR;

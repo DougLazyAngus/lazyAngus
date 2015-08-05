@@ -3,7 +3,7 @@
 #include "mscorlib_System_Array.h"
 // UnityEngine.GUILayoutOption[]
 // UnityEngine.GUILayoutOption[]
-struct  GUILayoutOptionU5BU5D_t653  : public Array_t
+struct  GUILayoutOptionU5BU5D_t652  : public Array_t
 {
 };
 // UnityEngine.Texture2D[]
@@ -33,7 +33,7 @@ struct  ObjectU5BU5D_t2850  : public Array_t
 };
 // UnityEngine.TextMesh[]
 // UnityEngine.TextMesh[]
-struct  TextMeshU5BU5D_t713  : public Array_t
+struct  TextMeshU5BU5D_t712  : public Array_t
 {
 };
 // UnityEngine.GameObject[]
@@ -48,12 +48,12 @@ struct  Vector3U5BU5D_t504  : public Array_t
 };
 // UnityEngine.Material[]
 // UnityEngine.Material[]
-struct  MaterialU5BU5D_t749  : public Array_t
+struct  MaterialU5BU5D_t748  : public Array_t
 {
 };
 // UnityEngine.AudioSource[]
 // UnityEngine.AudioSource[]
-struct  AudioSourceU5BU5D_t595  : public Array_t
+struct  AudioSourceU5BU5D_t594  : public Array_t
 {
 };
 // UnityEngine.Transform[]
@@ -63,12 +63,12 @@ struct  TransformU5BU5D_t5729  : public Array_t
 };
 // UnityEngine.RaycastHit2D[]
 // UnityEngine.RaycastHit2D[]
-struct  RaycastHit2DU5BU5D_t1000  : public Array_t
+struct  RaycastHit2DU5BU5D_t999  : public Array_t
 {
 };
 // UnityEngine.RaycastHit[]
 // UnityEngine.RaycastHit[]
-struct  RaycastHitU5BU5D_t1002  : public Array_t
+struct  RaycastHitU5BU5D_t1001  : public Array_t
 {
 };
 // UnityEngine.Font[]
@@ -80,10 +80,10 @@ struct FontU5BU5D_t5756_StaticFields{
 };
 // UnityEngine.UIVertex[]
 // UnityEngine.UIVertex[]
-struct  UIVertexU5BU5D_t891  : public Array_t
+struct  UIVertexU5BU5D_t890  : public Array_t
 {
 };
-struct UIVertexU5BU5D_t891_StaticFields{
+struct UIVertexU5BU5D_t890_StaticFields{
 };
 // UnityEngine.Canvas[]
 // UnityEngine.Canvas[]
@@ -94,7 +94,7 @@ struct CanvasU5BU5D_t5782_StaticFields{
 };
 // UnityEngine.Vector2[]
 // UnityEngine.Vector2[]
-struct  Vector2U5BU5D_t877  : public Array_t
+struct  Vector2U5BU5D_t876  : public Array_t
 {
 };
 // UnityEngine.UILineInfo[]

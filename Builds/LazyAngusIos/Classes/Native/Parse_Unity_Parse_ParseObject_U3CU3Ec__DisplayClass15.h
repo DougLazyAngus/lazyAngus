@@ -5,7 +5,7 @@ struct Tuple_2_t1200;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
 struct IDictionary_2_t1201;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.String
 struct String_t;
 // Parse.ParseObject

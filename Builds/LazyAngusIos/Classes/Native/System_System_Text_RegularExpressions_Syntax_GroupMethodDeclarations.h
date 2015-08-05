@@ -14,12 +14,12 @@ struct ICompiler_t4145;
 struct AnchorInfo_t4128;
 
 // System.Void System.Text.RegularExpressions.Syntax.Group::.ctor()
-extern "C" void Group__ctor_m14619 (Group_t4112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m14616 (Group_t4112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Group::AppendExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Group_AppendExpression_m14620 (Group_t4112 * __this, Expression_t4110 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group_AppendExpression_m14617 (Group_t4112 * __this, Expression_t4110 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Group::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Group_Compile_m14621 (Group_t4112 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group_Compile_m14618 (Group_t4112 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Group::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Group_GetWidth_m14622 (Group_t4112 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group_GetWidth_m14619 (Group_t4112 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Group::GetAnchorInfo(System.Boolean)
-extern "C" AnchorInfo_t4128 * Group_GetAnchorInfo_m14623 (Group_t4112 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AnchorInfo_t4128 * Group_GetAnchorInfo_m14620 (Group_t4112 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

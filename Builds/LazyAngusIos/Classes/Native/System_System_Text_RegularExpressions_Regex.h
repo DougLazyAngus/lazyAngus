@@ -5,7 +5,7 @@ struct FactoryCache_t4078;
 // System.Text.RegularExpressions.IMachineFactory
 struct IMachineFactory_t4079;
 // System.Collections.IDictionary
-struct IDictionary_t641;
+struct IDictionary_t640;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Int32[]

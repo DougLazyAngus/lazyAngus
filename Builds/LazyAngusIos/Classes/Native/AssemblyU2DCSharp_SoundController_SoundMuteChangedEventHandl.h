@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SoundController/SoundMuteChangedEventHandler
-struct  SoundMuteChangedEventHandler_t609  : public MulticastDelegate_t388
+struct  SoundMuteChangedEventHandler_t607  : public MulticastDelegate_t388
 {
 };

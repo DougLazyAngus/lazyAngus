@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t768;
+struct IDictionary_2_t767;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

@@ -3,9 +3,9 @@
 // System.Xml.XmlNode/EmptyNodeList
 struct EmptyNodeList_t3195;
 // System.Xml.XmlDocument
-struct XmlDocument_t633;
+struct XmlDocument_t632;
 // System.Xml.XmlNode
-struct XmlNode_t670;
+struct XmlNode_t669;
 // System.Xml.XmlNodeListChildren
 struct XmlNodeListChildren_t3197;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -13,16 +13,16 @@ struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNode
-struct  XmlNode_t670  : public Object_t
+struct  XmlNode_t669  : public Object_t
 {
 	// System.Xml.XmlDocument System.Xml.XmlNode::ownerDocument
-	XmlDocument_t633 * ___ownerDocument_1;
+	XmlDocument_t632 * ___ownerDocument_1;
 	// System.Xml.XmlNode System.Xml.XmlNode::parentNode
-	XmlNode_t670 * ___parentNode_2;
+	XmlNode_t669 * ___parentNode_2;
 	// System.Xml.XmlNodeListChildren System.Xml.XmlNode::childNodes
 	XmlNodeListChildren_t3197 * ___childNodes_3;
 };
-struct XmlNode_t670_StaticFields{
+struct XmlNode_t669_StaticFields{
 	// System.Xml.XmlNode/EmptyNodeList System.Xml.XmlNode::emptyList
 	EmptyNodeList_t3195 * ___emptyList_0;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNode::<>f__switch$map44

@@ -8,4 +8,4 @@
 struct AutoResetEvent_t3330;
 
 // System.Void System.Threading.AutoResetEvent::.ctor(System.Boolean)
-extern "C" void AutoResetEvent__ctor_m11589 (AutoResetEvent_t3330 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AutoResetEvent__ctor_m11586 (AutoResetEvent_t3330 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;

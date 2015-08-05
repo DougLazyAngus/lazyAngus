@@ -10,6 +10,6 @@ struct XsdDecimal_t3069;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdDecimal::.ctor()
-extern "C" void XsdDecimal__ctor_m10212 (XsdDecimal_t3069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdDecimal__ctor_m10209 (XsdDecimal_t3069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDecimal::get_TokenizedType()
-extern "C" int32_t XsdDecimal_get_TokenizedType_m10213 (XsdDecimal_t3069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdDecimal_get_TokenizedType_m10210 (XsdDecimal_t3069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

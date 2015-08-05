@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PlayButtonClickSound
-struct PlayButtonClickSound_t581;
+struct PlayButtonClickSound_t580;
 
 // System.Void PlayButtonClickSound::.ctor()
-extern "C" void PlayButtonClickSound__ctor_m3119 (PlayButtonClickSound_t581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayButtonClickSound__ctor_m3118 (PlayButtonClickSound_t580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayButtonClickSound::Play()
-extern "C" void PlayButtonClickSound_Play_m3120 (PlayButtonClickSound_t581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayButtonClickSound_Play_m3119 (PlayButtonClickSound_t580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

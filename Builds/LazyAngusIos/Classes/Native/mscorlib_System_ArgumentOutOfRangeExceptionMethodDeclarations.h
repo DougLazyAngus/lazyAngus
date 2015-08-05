@@ -16,16 +16,16 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ArgumentOutOfRangeException::.ctor()
-extern "C" void ArgumentOutOfRangeException__ctor_m11242 (ArgumentOutOfRangeException_t1424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException__ctor_m11239 (ArgumentOutOfRangeException_t1424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
-extern "C" void ArgumentOutOfRangeException__ctor_m11213 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException__ctor_m11210 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
-extern "C" void ArgumentOutOfRangeException__ctor_m7257 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException__ctor_m7254 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.Object,System.String)
-extern "C" void ArgumentOutOfRangeException__ctor_m19115 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, Object_t * ___actualValue, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException__ctor_m19112 (ArgumentOutOfRangeException_t1424 * __this, String_t* ___paramName, Object_t * ___actualValue, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArgumentOutOfRangeException__ctor_m19116 (ArgumentOutOfRangeException_t1424 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException__ctor_m19113 (ArgumentOutOfRangeException_t1424 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ArgumentOutOfRangeException::get_Message()
-extern "C" String_t* ArgumentOutOfRangeException_get_Message_m19117 (ArgumentOutOfRangeException_t1424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ArgumentOutOfRangeException_get_Message_m19114 (ArgumentOutOfRangeException_t1424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArgumentOutOfRangeException_GetObjectData_m19118 (ArgumentOutOfRangeException_t1424 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentOutOfRangeException_GetObjectData_m19115 (ArgumentOutOfRangeException_t1424 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

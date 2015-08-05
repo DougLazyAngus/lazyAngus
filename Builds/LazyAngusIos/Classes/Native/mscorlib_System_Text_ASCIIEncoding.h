@@ -3,6 +3,6 @@
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.ASCIIEncoding
-struct  ASCIIEncoding_t709  : public Encoding_t692
+struct  ASCIIEncoding_t708  : public Encoding_t691
 {
 };

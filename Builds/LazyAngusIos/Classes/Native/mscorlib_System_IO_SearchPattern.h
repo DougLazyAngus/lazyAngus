@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.SearchPattern
@@ -10,7 +10,7 @@ struct  SearchPattern_t4451  : public Object_t
 };
 struct SearchPattern_t4451_StaticFields{
 	// System.Char[] System.IO.SearchPattern::WildcardChars
-	CharU5BU5D_t663* ___WildcardChars_0;
+	CharU5BU5D_t662* ___WildcardChars_0;
 	// System.Char[] System.IO.SearchPattern::InvalidChars
-	CharU5BU5D_t663* ___InvalidChars_1;
+	CharU5BU5D_t662* ___InvalidChars_1;
 };

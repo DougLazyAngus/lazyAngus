@@ -12,8 +12,8 @@ struct String_t;
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
 // System.Void UnityEngine.SendMouseEvents/HitInfo::SendMessage(System.String)
-extern "C" void HitInfo_SendMessage_m9700 (HitInfo_t2815 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HitInfo_SendMessage_m9697 (HitInfo_t2815 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::Compare(UnityEngine.SendMouseEvents/HitInfo,UnityEngine.SendMouseEvents/HitInfo)
-extern "C" bool HitInfo_Compare_m9701 (Object_t * __this /* static, unused */, HitInfo_t2815  ___lhs, HitInfo_t2815  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HitInfo_Compare_m9698 (Object_t * __this /* static, unused */, HitInfo_t2815  ___lhs, HitInfo_t2815  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::op_Implicit(UnityEngine.SendMouseEvents/HitInfo)
-extern "C" bool HitInfo_op_Implicit_m9702 (Object_t * __this /* static, unused */, HitInfo_t2815  ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HitInfo_op_Implicit_m9699 (Object_t * __this /* static, unused */, HitInfo_t2815  ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;

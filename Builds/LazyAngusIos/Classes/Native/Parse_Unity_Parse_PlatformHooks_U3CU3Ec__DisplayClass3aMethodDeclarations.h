@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass3a_t1279;
 struct Task_1_t1322;
 
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3a::.ctor()
-extern "C" void U3CU3Ec__DisplayClass3a__ctor_m6907 (U3CU3Ec__DisplayClass3a_t1279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass3a__ctor_m6904 (U3CU3Ec__DisplayClass3a_t1279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3a::<RequestAsync>b__2d(System.Threading.Tasks.Task`1<System.String>)
-extern "C" void U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m6908 (U3CU3Ec__DisplayClass3a_t1279 * __this, Task_1_t1322 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m6905 (U3CU3Ec__DisplayClass3a_t1279 * __this, Task_1_t1322 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

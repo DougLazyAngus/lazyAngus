@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t640;
+struct List_1_t639;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

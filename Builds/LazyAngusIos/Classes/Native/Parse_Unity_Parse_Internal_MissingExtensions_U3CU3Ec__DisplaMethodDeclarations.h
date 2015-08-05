@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass1_t1110;
 struct String_t;
 
 // System.Void Parse.Internal.MissingExtensions/<>c__DisplayClass1::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1__ctor_m6133 (U3CU3Ec__DisplayClass1_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1__ctor_m6130 (U3CU3Ec__DisplayClass1_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.Internal.MissingExtensions/<>c__DisplayClass1::<ReadToEndAsync>b__0()
-extern "C" String_t* U3CU3Ec__DisplayClass1_U3CReadToEndAsyncU3Eb__0_m6134 (U3CU3Ec__DisplayClass1_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* U3CU3Ec__DisplayClass1_U3CReadToEndAsyncU3Eb__0_m6131 (U3CU3Ec__DisplayClass1_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

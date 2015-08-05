@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUISkin
-struct GUISkin_t733;
+struct GUISkin_t732;
 // UnityEngineInternal.GenericStack
 struct GenericStack_t2662;
 // System.Object
@@ -11,10 +11,10 @@ struct GenericStack_t2662;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // UnityEngine.GUI
-struct  GUI_t657  : public Object_t
+struct  GUI_t656  : public Object_t
 {
 };
-struct GUI_t657_StaticFields{
+struct GUI_t656_StaticFields{
 	// System.Single UnityEngine.GUI::scrollStepSize
 	float ___scrollStepSize_0;
 	// System.Int32 UnityEngine.GUI::scrollControlID
@@ -22,9 +22,9 @@ struct GUI_t657_StaticFields{
 	// System.Int32 UnityEngine.GUI::hotTextField
 	int32_t ___hotTextField_2;
 	// UnityEngine.GUISkin UnityEngine.GUI::s_Skin
-	GUISkin_t733 * ___s_Skin_3;
+	GUISkin_t732 * ___s_Skin_3;
 	// UnityEngine.Rect UnityEngine.GUI::s_ToolTipRect
-	Rect_t650  ___s_ToolTipRect_4;
+	Rect_t649  ___s_ToolTipRect_4;
 	// System.Int32 UnityEngine.GUI::boxHash
 	int32_t ___boxHash_5;
 	// System.Int32 UnityEngine.GUI::repeatButtonHash

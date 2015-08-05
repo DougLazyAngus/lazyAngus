@@ -16,7 +16,7 @@ struct  SkeletonBone_t2736
 	// UnityEngine.Vector3 UnityEngine.SkeletonBone::position
 	Vector3_t496  ___position_1;
 	// UnityEngine.Quaternion UnityEngine.SkeletonBone::rotation
-	Quaternion_t737  ___rotation_2;
+	Quaternion_t736  ___rotation_2;
 	// UnityEngine.Vector3 UnityEngine.SkeletonBone::scale
 	Vector3_t496  ___scale_3;
 	// System.Int32 UnityEngine.SkeletonBone::transformModified
@@ -27,7 +27,7 @@ struct SkeletonBone_t2736_marshaled
 {
 	char* ___name_0;
 	Vector3_t496  ___position_1;
-	Quaternion_t737  ___rotation_2;
+	Quaternion_t736  ___rotation_2;
 	Vector3_t496  ___scale_3;
 	int32_t ___transformModified_4;
 };

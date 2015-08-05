@@ -10,11 +10,11 @@ struct U3CU3Ec__DisplayClass1b_1_t8295;
 struct IAsyncResult_t385;
 
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1b_1__ctor_m59271_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1b_1__ctor_m59271(__this, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1__ctor_m59271_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1b_1__ctor_m59268_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1b_1__ctor_m59268(__this, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1__ctor_m59268_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1<System.Object>::<FromAsync>b__18()
-extern "C" void U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59272_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59272(__this, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59272_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59269_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59269(__this, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m59269_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1<System.Object>::<FromAsync>b__19(System.IAsyncResult)
-extern "C" void U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59273_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, Object_t * ___result, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59273(__this, ___result, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59273_gshared)(__this, ___result, method)
+extern "C" void U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59270_gshared (U3CU3Ec__DisplayClass1b_1_t8295 * __this, Object_t * ___result, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59270(__this, ___result, method) (( void (*) (U3CU3Ec__DisplayClass1b_1_t8295 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m59270_gshared)(__this, ___result, method)

@@ -62,7 +62,7 @@ struct  IndexedSet_1U5BU5D_t5792  : public Array_t
 };
 // UnityEngine.UI.InputField/ContentType[]
 // UnityEngine.UI.InputField/ContentType[]
-struct  ContentTypeU5BU5D_t988  : public Array_t
+struct  ContentTypeU5BU5D_t987  : public Array_t
 {
 };
 // UnityEngine.UI.Selectable[]

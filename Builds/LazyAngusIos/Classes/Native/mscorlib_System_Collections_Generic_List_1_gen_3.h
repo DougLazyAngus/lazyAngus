@@ -5,7 +5,7 @@ struct EventHandlerFunctionU5BU5D_t5434;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct  List_1_t635  : public Object_t
+struct  List_1_t634  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>::_items
 	EventHandlerFunctionU5BU5D_t5434* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t635  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>::_version
 	int32_t ____version_3;
 };
-struct List_1_t635_StaticFields{
+struct List_1_t634_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>::EmptyArray
 	EventHandlerFunctionU5BU5D_t5434* ___EmptyArray_4;
 };

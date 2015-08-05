@@ -5,7 +5,7 @@ struct MouseHoleLocationU5BU5D_t5653;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
-struct  List_1_t748  : public Object_t
+struct  List_1_t747  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::_items
 	MouseHoleLocationU5BU5D_t5653* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t748  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::_version
 	int32_t ____version_3;
 };
-struct List_1_t748_StaticFields{
+struct List_1_t747_StaticFields{
 	// T[] System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::EmptyArray
 	MouseHoleLocationU5BU5D_t5653* ___EmptyArray_4;
 };

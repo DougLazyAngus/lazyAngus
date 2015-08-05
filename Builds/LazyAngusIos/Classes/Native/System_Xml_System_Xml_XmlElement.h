@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlAttributeCollection
-struct XmlAttributeCollection_t676;
+struct XmlAttributeCollection_t675;
 // System.Xml.XmlNameEntry
 struct XmlNameEntry_t3165;
 // System.Xml.XmlLinkedNode
@@ -11,10 +11,10 @@ struct IXmlSchemaInfo_t3167;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlElement
-struct  XmlElement_t634  : public XmlLinkedNode_t3166
+struct  XmlElement_t633  : public XmlLinkedNode_t3166
 {
 	// System.Xml.XmlAttributeCollection System.Xml.XmlElement::attributes
-	XmlAttributeCollection_t676 * ___attributes_6;
+	XmlAttributeCollection_t675 * ___attributes_6;
 	// System.Xml.XmlNameEntry System.Xml.XmlElement::name
 	XmlNameEntry_t3165 * ___name_7;
 	// System.Xml.XmlLinkedNode System.Xml.XmlElement::lastLinkedChild

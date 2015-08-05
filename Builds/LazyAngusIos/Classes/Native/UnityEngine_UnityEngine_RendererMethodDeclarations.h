@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Renderer
-struct Renderer_t565;
+struct Renderer_t564;
 // UnityEngine.Material
 struct Material_t482;
 // UnityEngine.Material[]
-struct MaterialU5BU5D_t749;
+struct MaterialU5BU5D_t748;
 // UnityEngine.Bounds
 #include "UnityEngine_UnityEngine_Bounds.h"
 
 // System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
-extern "C" void Renderer_set_enabled_m3795 (Renderer_t565 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Renderer_set_enabled_m3794 (Renderer_t564 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.Renderer::get_material()
-extern "C" Material_t482 * Renderer_get_material_m3774 (Renderer_t565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t482 * Renderer_get_material_m3773 (Renderer_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Renderer::set_material(UnityEngine.Material)
-extern "C" void Renderer_set_material_m3776 (Renderer_t565 * __this, Material_t482 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Renderer_set_material_m3775 (Renderer_t564 * __this, Material_t482 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Renderer::set_materials(UnityEngine.Material[])
-extern "C" void Renderer_set_materials_m4044 (Renderer_t565 * __this, MaterialU5BU5D_t749* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Renderer_set_materials_m4042 (Renderer_t564 * __this, MaterialU5BU5D_t748* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Bounds UnityEngine.Renderer::get_bounds()
-extern "C" Bounds_t718  Renderer_get_bounds_m3804 (Renderer_t565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Bounds_t717  Renderer_get_bounds_m3803 (Renderer_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Renderer::get_sortingLayerID()
-extern "C" int32_t Renderer_get_sortingLayerID_m5616 (Renderer_t565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingLayerID_m5613 (Renderer_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Renderer::get_sortingOrder()
-extern "C" int32_t Renderer_get_sortingOrder_m5617 (Renderer_t565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingOrder_m5614 (Renderer_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,8 +10,8 @@ struct IntComparer_t4761;
 struct Object_t;
 
 // System.Void System.MonoEnumInfo/IntComparer::.ctor()
-extern "C" void IntComparer__ctor_m19484 (IntComparer_t4761 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntComparer__ctor_m19481 (IntComparer_t4761 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/IntComparer::Compare(System.Object,System.Object)
-extern "C" int32_t IntComparer_Compare_m19485 (IntComparer_t4761 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntComparer_Compare_m19482 (IntComparer_t4761 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/IntComparer::Compare(System.Int32,System.Int32)
-extern "C" int32_t IntComparer_Compare_m19486 (IntComparer_t4761 * __this, int32_t ___ix, int32_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntComparer_Compare_m19483 (IntComparer_t4761 * __this, int32_t ___ix, int32_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;

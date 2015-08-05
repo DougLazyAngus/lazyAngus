@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.Int32[]
 struct Int32U5BU5D_t549;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
@@ -18,7 +18,7 @@ struct  Cookie_t3973  : public Object_t
 	// System.String System.Net.Cookie::comment
 	String_t* ___comment_0;
 	// System.Uri System.Net.Cookie::commentUri
-	Uri_t710 * ___commentUri_1;
+	Uri_t709 * ___commentUri_1;
 	// System.Boolean System.Net.Cookie::discard
 	bool ___discard_2;
 	// System.String System.Net.Cookie::domain
@@ -48,9 +48,9 @@ struct  Cookie_t3973  : public Object_t
 };
 struct Cookie_t3973_StaticFields{
 	// System.Char[] System.Net.Cookie::reservedCharsName
-	CharU5BU5D_t663* ___reservedCharsName_14;
+	CharU5BU5D_t662* ___reservedCharsName_14;
 	// System.Char[] System.Net.Cookie::portSeparators
-	CharU5BU5D_t663* ___portSeparators_15;
+	CharU5BU5D_t662* ___portSeparators_15;
 	// System.String System.Net.Cookie::tspecials
 	String_t* ___tspecials_16;
 };

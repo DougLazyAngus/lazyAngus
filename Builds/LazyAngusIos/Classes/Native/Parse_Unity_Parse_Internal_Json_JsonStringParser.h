@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.Json/JsonStringParser
@@ -14,5 +14,5 @@ struct  JsonStringParser_t1126  : public Object_t
 	// System.String Parse.Internal.Json/JsonStringParser::<Input>k__BackingField
 	String_t* ___U3CInputU3Ek__BackingField_1;
 	// System.Char[] Parse.Internal.Json/JsonStringParser::<InputAsArray>k__BackingField
-	CharU5BU5D_t663* ___U3CInputAsArrayU3Ek__BackingField_2;
+	CharU5BU5D_t662* ___U3CInputAsArrayU3Ek__BackingField_2;
 };

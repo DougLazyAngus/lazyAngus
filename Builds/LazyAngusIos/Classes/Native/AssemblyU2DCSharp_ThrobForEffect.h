@@ -7,7 +7,7 @@ struct Transform_t406;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // ThrobForEffect
-struct  ThrobForEffect_t564  : public MonoBehaviour_t13
+struct  ThrobForEffect_t563  : public MonoBehaviour_t13
 {
 	// System.Boolean ThrobForEffect::throbbing
 	bool ___throbbing_2;

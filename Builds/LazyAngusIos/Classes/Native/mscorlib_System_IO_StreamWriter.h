@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t692;
+struct Encoding_t691;
 // System.IO.Stream
 struct Stream_t51;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.IO.StreamWriter
 struct StreamWriter_t1498;
 // System.IO.TextWriter
@@ -16,7 +16,7 @@ struct StreamWriter_t1498;
 struct  StreamWriter_t1498  : public TextWriter_t3231
 {
 	// System.Text.Encoding System.IO.StreamWriter::internalEncoding
-	Encoding_t692 * ___internalEncoding_3;
+	Encoding_t691 * ___internalEncoding_3;
 	// System.IO.Stream System.IO.StreamWriter::internalStream
 	Stream_t51 * ___internalStream_4;
 	// System.Boolean System.IO.StreamWriter::iflush
@@ -26,7 +26,7 @@ struct  StreamWriter_t1498  : public TextWriter_t3231
 	// System.Int32 System.IO.StreamWriter::byte_pos
 	int32_t ___byte_pos_7;
 	// System.Char[] System.IO.StreamWriter::decode_buf
-	CharU5BU5D_t663* ___decode_buf_8;
+	CharU5BU5D_t662* ___decode_buf_8;
 	// System.Int32 System.IO.StreamWriter::decode_pos
 	int32_t ___decode_pos_9;
 	// System.Boolean System.IO.StreamWriter::DisposedAlready

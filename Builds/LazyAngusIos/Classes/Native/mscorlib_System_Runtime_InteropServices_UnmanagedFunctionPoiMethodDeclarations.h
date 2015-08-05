@@ -10,4 +10,4 @@ struct UnmanagedFunctionPointerAttribute_t4176;
 #include "mscorlib_System_Runtime_InteropServices_CallingConvention.h"
 
 // System.Void System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute::.ctor(System.Runtime.InteropServices.CallingConvention)
-extern "C" void UnmanagedFunctionPointerAttribute__ctor_m15117 (UnmanagedFunctionPointerAttribute_t4176 * __this, int32_t ___callingConvention, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedFunctionPointerAttribute__ctor_m15114 (UnmanagedFunctionPointerAttribute_t4176 * __this, int32_t ___callingConvention, const MethodInfo* method) IL2CPP_METHOD_ATTR;

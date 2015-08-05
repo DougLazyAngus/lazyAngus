@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayLevelHandler
-struct  PlayLevelHandler_t582  : public MonoBehaviour_t13
+struct  PlayLevelHandler_t581  : public MonoBehaviour_t13
 {
 };

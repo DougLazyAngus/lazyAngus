@@ -10,6 +10,6 @@ struct XsdHexBinary_t3086;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdHexBinary::.ctor()
-extern "C" void XsdHexBinary__ctor_m10231 (XsdHexBinary_t3086 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdHexBinary__ctor_m10228 (XsdHexBinary_t3086 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdHexBinary::get_TokenizedType()
-extern "C" int32_t XsdHexBinary_get_TokenizedType_m10232 (XsdHexBinary_t3086 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdHexBinary_get_TokenizedType_m10229 (XsdHexBinary_t3086 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

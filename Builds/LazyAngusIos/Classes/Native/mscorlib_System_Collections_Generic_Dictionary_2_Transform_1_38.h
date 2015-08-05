@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Graphic
-struct Graphic_t863;
+struct Graphic_t862;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

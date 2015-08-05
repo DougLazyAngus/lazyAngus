@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
+// SecretUI
+struct SecretUI_t599;
+// UnityEngine.GameObject
+struct GameObject_t352;
 // UnityEngine.UI.InputField
 struct InputField_t600;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t601;
-// SecretUI
-struct SecretUI_t602;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SecretUI
-struct  SecretUI_t602  : public MonoBehaviour_t13
+struct  SecretUI_t599  : public MonoBehaviour_t13
 {
-	// UnityEngine.UI.InputField SecretUI::inputField
-	InputField_t600 * ___inputField_2;
-	// UnityEngine.CanvasGroup SecretUI::canvasGroup
-	CanvasGroup_t601 * ___canvasGroup_3;
-	// System.Boolean SecretUI::uiIsVisible
-	bool ___uiIsVisible_4;
+	// UnityEngine.GameObject SecretUI::inputs
+	GameObject_t352 * ___inputs_3;
+	// UnityEngine.UI.InputField SecretUI::levelInputField
+	InputField_t600 * ___levelInputField_4;
+	// UnityEngine.UI.InputField SecretUI::debugFlagsInputField
+	InputField_t600 * ___debugFlagsInputField_5;
 };
-struct SecretUI_t602_StaticFields{
+struct SecretUI_t599_StaticFields{
 	// SecretUI SecretUI::instance
-	SecretUI_t602 * ___instance_5;
+	SecretUI_t599 * ___instance_2;
 };

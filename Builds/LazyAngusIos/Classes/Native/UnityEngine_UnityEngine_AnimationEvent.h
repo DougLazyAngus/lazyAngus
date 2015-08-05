@@ -3,8 +3,8 @@
 // System.String
 struct String_t;
 // UnityEngine.Object
-struct Object_t655;
-struct Object_t655_marshaled;
+struct Object_t654;
+struct Object_t654_marshaled;
 // UnityEngine.AnimationState
 struct AnimationState_t2728;
 // System.Object
@@ -25,7 +25,7 @@ struct  AnimationEvent_t2729  : public Object_t
 	// System.String UnityEngine.AnimationEvent::m_StringParameter
 	String_t* ___m_StringParameter_2;
 	// UnityEngine.Object UnityEngine.AnimationEvent::m_ObjectReferenceParameter
-	Object_t655 * ___m_ObjectReferenceParameter_3;
+	Object_t654 * ___m_ObjectReferenceParameter_3;
 	// System.Single UnityEngine.AnimationEvent::m_FloatParameter
 	float ___m_FloatParameter_4;
 	// System.Int32 UnityEngine.AnimationEvent::m_IntParameter

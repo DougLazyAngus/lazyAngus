@@ -7,7 +7,7 @@ struct XmlNameTable_t3135;
 // System.Xml.XmlNameEntry
 struct XmlNameEntry_t3165;
 // System.Char[]
-struct CharU5BU5D_t663;
+struct CharU5BU5D_t662;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNameEntryCache
@@ -20,5 +20,5 @@ struct  XmlNameEntryCache_t3177  : public Object_t
 	// System.Xml.XmlNameEntry System.Xml.XmlNameEntryCache::dummy
 	XmlNameEntry_t3165 * ___dummy_2;
 	// System.Char[] System.Xml.XmlNameEntryCache::cacheBuffer
-	CharU5BU5D_t663* ___cacheBuffer_3;
+	CharU5BU5D_t662* ___cacheBuffer_3;
 };

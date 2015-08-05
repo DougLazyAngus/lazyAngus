@@ -11,7 +11,7 @@ struct IPlatformHooks_t1174;
 // System.Collections.Generic.Dictionary`2<System.Tuple`2<System.Type,System.Type>,System.Type>
 struct Dictionary_2_t1175;
 // System.Uri
-struct Uri_t710;
+struct Uri_t709;
 // System.Func`2<System.Object,System.Object>
 struct Func_2_t1176;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>>
@@ -44,7 +44,7 @@ struct ParseClient_t1179_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Tuple`2<System.Type,System.Type>,System.Type> Parse.ParseClient::interfaceLookupCache
 	Dictionary_2_t1175 * ___interfaceLookupCache_7;
 	// System.Uri Parse.ParseClient::<HostName>k__BackingField
-	Uri_t710 * ___U3CHostNameU3Ek__BackingField_8;
+	Uri_t709 * ___U3CHostNameU3Ek__BackingField_8;
 	// System.String Parse.ParseClient::<MasterKey>k__BackingField
 	String_t* ___U3CMasterKeyU3Ek__BackingField_9;
 	// System.String Parse.ParseClient::<ApplicationId>k__BackingField

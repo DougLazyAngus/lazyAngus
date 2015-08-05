@@ -10,6 +10,6 @@ struct CompilationRelaxationsAttribute_t2115;
 #include "mscorlib_System_Runtime_CompilerServices_CompilationRelaxati_0.h"
 
 // System.Void System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(System.Int32)
-extern "C" void CompilationRelaxationsAttribute__ctor_m7602 (CompilationRelaxationsAttribute_t2115 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompilationRelaxationsAttribute__ctor_m7599 (CompilationRelaxationsAttribute_t2115 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(System.Runtime.CompilerServices.CompilationRelaxations)
-extern "C" void CompilationRelaxationsAttribute__ctor_m11265 (CompilationRelaxationsAttribute_t2115 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompilationRelaxationsAttribute__ctor_m11262 (CompilationRelaxationsAttribute_t2115 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;

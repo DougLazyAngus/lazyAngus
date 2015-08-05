@@ -9,19 +9,19 @@ struct XmlComment_t3173;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t633;
+struct XmlDocument_t632;
 // System.Xml.XmlNode
-struct XmlNode_t670;
+struct XmlNode_t669;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlComment::.ctor(System.String,System.Xml.XmlDocument)
-extern "C" void XmlComment__ctor_m10549 (XmlComment_t3173 * __this, String_t* ___comment, XmlDocument_t633 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlComment__ctor_m10546 (XmlComment_t3173 * __this, String_t* ___comment, XmlDocument_t632 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlComment::get_LocalName()
-extern "C" String_t* XmlComment_get_LocalName_m10550 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlComment_get_LocalName_m10547 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlComment::get_Name()
-extern "C" String_t* XmlComment_get_Name_m10551 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlComment_get_Name_m10548 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlComment::get_NodeType()
-extern "C" int32_t XmlComment_get_NodeType_m10552 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlComment_get_NodeType_m10549 (XmlComment_t3173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlComment::CloneNode(System.Boolean)
-extern "C" XmlNode_t670 * XmlComment_CloneNode_m10553 (XmlComment_t3173 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlComment_CloneNode_m10550 (XmlComment_t3173 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

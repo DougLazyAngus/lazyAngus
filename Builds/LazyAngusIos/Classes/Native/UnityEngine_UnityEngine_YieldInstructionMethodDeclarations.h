@@ -9,7 +9,7 @@ struct YieldInstruction_t2640;
 struct YieldInstruction_t2640_marshaled;
 
 // System.Void UnityEngine.YieldInstruction::.ctor()
-extern "C" void YieldInstruction__ctor_m9191 (YieldInstruction_t2640 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void YieldInstruction__ctor_m9188 (YieldInstruction_t2640 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 void YieldInstruction_t2640_marshal(const YieldInstruction_t2640& unmarshaled, YieldInstruction_t2640_marshaled& marshaled);
 void YieldInstruction_t2640_marshal_back(const YieldInstruction_t2640_marshaled& marshaled, YieldInstruction_t2640& unmarshaled);
 void YieldInstruction_t2640_marshal_cleanup(YieldInstruction_t2640_marshaled& marshaled);

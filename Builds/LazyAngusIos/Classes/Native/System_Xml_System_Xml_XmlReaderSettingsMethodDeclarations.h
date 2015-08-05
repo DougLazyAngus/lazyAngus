@@ -10,6 +10,6 @@ struct XmlReaderSettings_t3209;
 #include "System_Xml_System_Xml_ConformanceLevel.h"
 
 // System.Boolean System.Xml.XmlReaderSettings::get_CheckCharacters()
-extern "C" bool XmlReaderSettings_get_CheckCharacters_m10928 (XmlReaderSettings_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlReaderSettings_get_CheckCharacters_m10925 (XmlReaderSettings_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.ConformanceLevel System.Xml.XmlReaderSettings::get_ConformanceLevel()
-extern "C" int32_t XmlReaderSettings_get_ConformanceLevel_m10929 (XmlReaderSettings_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlReaderSettings_get_ConformanceLevel_m10926 (XmlReaderSettings_t3209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

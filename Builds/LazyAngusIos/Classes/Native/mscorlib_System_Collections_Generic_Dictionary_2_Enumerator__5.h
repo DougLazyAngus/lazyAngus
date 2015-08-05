@@ -7,7 +7,7 @@ struct Dictionary_2_t272;
 // System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_6.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,FacebookUserInfo>
-struct  Enumerator_t704 
+struct  Enumerator_t703 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FacebookUserInfo>::dictionary
 	Dictionary_2_t272 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t704
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,FacebookUserInfo>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,FacebookUserInfo>::current
-	KeyValuePair_2_t703  ___current_3;
+	KeyValuePair_2_t702  ___current_3;
 };

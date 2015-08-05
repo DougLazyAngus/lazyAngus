@@ -12,8 +12,8 @@ struct Expression_t1471;
 struct LambdaExpression_t3273;
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.BinaryExpression::get_Left()
-extern "C" Expression_t1471 * BinaryExpression_get_Left_m11378 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1471 * BinaryExpression_get_Left_m11375 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.BinaryExpression::get_Right()
-extern "C" Expression_t1471 * BinaryExpression_get_Right_m11379 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1471 * BinaryExpression_get_Right_m11376 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.LambdaExpression System.Linq.Expressions.BinaryExpression::get_Conversion()
-extern "C" LambdaExpression_t3273 * BinaryExpression_get_Conversion_m11380 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" LambdaExpression_t3273 * BinaryExpression_get_Conversion_m11377 (BinaryExpression_t3275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

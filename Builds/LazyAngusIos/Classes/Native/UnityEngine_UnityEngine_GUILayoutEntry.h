@@ -18,7 +18,7 @@ struct  GUILayoutEntry_t2667  : public Object_t
 	// System.Single UnityEngine.GUILayoutEntry::maxHeight
 	float ___maxHeight_3;
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::rect
-	Rect_t650  ___rect_4;
+	Rect_t649  ___rect_4;
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchWidth
 	int32_t ___stretchWidth_5;
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchHeight
@@ -28,7 +28,7 @@ struct  GUILayoutEntry_t2667  : public Object_t
 };
 struct GUILayoutEntry_t2667_StaticFields{
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::kDummyRect
-	Rect_t650  ___kDummyRect_8;
+	Rect_t649  ___kDummyRect_8;
 	// System.Int32 UnityEngine.GUILayoutEntry::indent
 	int32_t ___indent_9;
 };

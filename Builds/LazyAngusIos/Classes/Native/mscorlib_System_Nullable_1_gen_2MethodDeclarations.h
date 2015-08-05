@@ -16,26 +16,26 @@ struct String_t;
 #include "mscorlib_System_Nullable_1_gen_2.h"
 
 // System.Void System.Nullable`1<System.DateTime>::.ctor(T)
-extern "C" void Nullable_1__ctor_m7351_gshared (Nullable_1_t1237 * __this, DateTime_t287  ___value, const MethodInfo* method);
-#define Nullable_1__ctor_m7351(__this, ___value, method) (( void (*) (Nullable_1_t1237 *, DateTime_t287 , const MethodInfo*))Nullable_1__ctor_m7351_gshared)(__this, ___value, method)
+extern "C" void Nullable_1__ctor_m7348_gshared (Nullable_1_t1237 * __this, DateTime_t287  ___value, const MethodInfo* method);
+#define Nullable_1__ctor_m7348(__this, ___value, method) (( void (*) (Nullable_1_t1237 *, DateTime_t287 , const MethodInfo*))Nullable_1__ctor_m7348_gshared)(__this, ___value, method)
 // System.Boolean System.Nullable`1<System.DateTime>::get_HasValue()
-extern "C" bool Nullable_1_get_HasValue_m7352_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
-#define Nullable_1_get_HasValue_m7352(__this, method) (( bool (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_get_HasValue_m7352_gshared)(__this, method)
+extern "C" bool Nullable_1_get_HasValue_m7349_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
+#define Nullable_1_get_HasValue_m7349(__this, method) (( bool (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_get_HasValue_m7349_gshared)(__this, method)
 // T System.Nullable`1<System.DateTime>::get_Value()
-extern "C" DateTime_t287  Nullable_1_get_Value_m7403_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
-#define Nullable_1_get_Value_m7403(__this, method) (( DateTime_t287  (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_get_Value_m7403_gshared)(__this, method)
+extern "C" DateTime_t287  Nullable_1_get_Value_m7400_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
+#define Nullable_1_get_Value_m7400(__this, method) (( DateTime_t287  (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_get_Value_m7400_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.DateTime>::Equals(System.Object)
-extern "C" bool Nullable_1_Equals_m32536_gshared (Nullable_1_t1237 * __this, Object_t * ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m32536(__this, ___other, method) (( bool (*) (Nullable_1_t1237 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m32536_gshared)(__this, ___other, method)
+extern "C" bool Nullable_1_Equals_m32533_gshared (Nullable_1_t1237 * __this, Object_t * ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m32533(__this, ___other, method) (( bool (*) (Nullable_1_t1237 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m32533_gshared)(__this, ___other, method)
 // System.Boolean System.Nullable`1<System.DateTime>::Equals(System.Nullable`1<T>)
-extern "C" bool Nullable_1_Equals_m32537_gshared (Nullable_1_t1237 * __this, Nullable_1_t1237  ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m32537(__this, ___other, method) (( bool (*) (Nullable_1_t1237 *, Nullable_1_t1237 , const MethodInfo*))Nullable_1_Equals_m32537_gshared)(__this, ___other, method)
+extern "C" bool Nullable_1_Equals_m32534_gshared (Nullable_1_t1237 * __this, Nullable_1_t1237  ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m32534(__this, ___other, method) (( bool (*) (Nullable_1_t1237 *, Nullable_1_t1237 , const MethodInfo*))Nullable_1_Equals_m32534_gshared)(__this, ___other, method)
 // System.Int32 System.Nullable`1<System.DateTime>::GetHashCode()
-extern "C" int32_t Nullable_1_GetHashCode_m32538_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
-#define Nullable_1_GetHashCode_m32538(__this, method) (( int32_t (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_GetHashCode_m32538_gshared)(__this, method)
+extern "C" int32_t Nullable_1_GetHashCode_m32535_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
+#define Nullable_1_GetHashCode_m32535(__this, method) (( int32_t (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_GetHashCode_m32535_gshared)(__this, method)
 // T System.Nullable`1<System.DateTime>::GetValueOrDefault()
-extern "C" DateTime_t287  Nullable_1_GetValueOrDefault_m32539_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
-#define Nullable_1_GetValueOrDefault_m32539(__this, method) (( DateTime_t287  (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m32539_gshared)(__this, method)
+extern "C" DateTime_t287  Nullable_1_GetValueOrDefault_m32536_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
+#define Nullable_1_GetValueOrDefault_m32536(__this, method) (( DateTime_t287  (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m32536_gshared)(__this, method)
 // System.String System.Nullable`1<System.DateTime>::ToString()
-extern "C" String_t* Nullable_1_ToString_m32540_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
-#define Nullable_1_ToString_m32540(__this, method) (( String_t* (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_ToString_m32540_gshared)(__this, method)
+extern "C" String_t* Nullable_1_ToString_m32537_gshared (Nullable_1_t1237 * __this, const MethodInfo* method);
+#define Nullable_1_ToString_m32537(__this, method) (( String_t* (*) (Nullable_1_t1237 *, const MethodInfo*))Nullable_1_ToString_m32537_gshared)(__this, method)

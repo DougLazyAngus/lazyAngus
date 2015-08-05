@@ -3,7 +3,7 @@
 // System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>
 struct ConditionalWeakTable_2_t1130;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t662;
+struct IEnumerable_1_t661;
 // System.Func`2<System.Object,System.IComparable>
 struct Func_2_t1131;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>

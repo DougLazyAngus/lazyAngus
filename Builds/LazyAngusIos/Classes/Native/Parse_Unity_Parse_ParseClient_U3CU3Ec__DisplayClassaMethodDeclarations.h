@@ -12,6 +12,6 @@ struct Tuple_2_t1200;
 struct Task_1_t1323;
 
 // System.Void Parse.ParseClient/<>c__DisplayClassa::.ctor()
-extern "C" void U3CU3Ec__DisplayClassa__ctor_m6394 (U3CU3Ec__DisplayClassa_t1169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassa__ctor_m6391 (U3CU3Ec__DisplayClassa_t1169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>> Parse.ParseClient/<>c__DisplayClassa::<UploadAsync>b__9(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>)
-extern "C" Tuple_2_t1200 * U3CU3Ec__DisplayClassa_U3CUploadAsyncU3Eb__9_m6395 (U3CU3Ec__DisplayClassa_t1169 * __this, Task_1_t1323 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Tuple_2_t1200 * U3CU3Ec__DisplayClassa_U3CUploadAsyncU3Eb__9_m6392 (U3CU3Ec__DisplayClassa_t1169 * __this, Task_1_t1323 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

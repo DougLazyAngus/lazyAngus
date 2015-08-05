@@ -17,8 +17,8 @@ struct BoostButton_t459;
 extern "C" void BoostButtonLayout__ctor_m2565 (BoostButtonLayout_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButtonLayout::Awake()
 extern "C" void BoostButtonLayout_Awake_m2566 (BoostButtonLayout_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void BoostButtonLayout::ConfirmLayoutComplete()
-extern "C" void BoostButtonLayout_ConfirmLayoutComplete_m2567 (BoostButtonLayout_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void BoostButtonLayout::Start()
+extern "C" void BoostButtonLayout_Start_m2567 (BoostButtonLayout_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator BoostButtonLayout::DelayThenLayout()
 extern "C" Object_t * BoostButtonLayout_DelayThenLayout_m2568 (BoostButtonLayout_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButtonLayout::DoLayout()

@@ -8,4 +8,4 @@
 struct XsdPositiveInteger_t3080;
 
 // System.Void Mono.Xml.Schema.XsdPositiveInteger::.ctor()
-extern "C" void XsdPositiveInteger__ctor_m10224 (XsdPositiveInteger_t3080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdPositiveInteger__ctor_m10221 (XsdPositiveInteger_t3080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

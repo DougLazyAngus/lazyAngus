@@ -10,12 +10,12 @@ struct FartPuff_t499;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void FartPuff::.ctor()
-extern "C" void FartPuff__ctor_m2704 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FartPuff__ctor_m2705 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FartPuff::Awake()
-extern "C" void FartPuff_Awake_m2705 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FartPuff_Awake_m2706 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FartPuff::Start()
-extern "C" void FartPuff_Start_m2706 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FartPuff_Start_m2707 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FartPuff::Update()
-extern "C" void FartPuff_Update_m2707 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FartPuff_Update_m2708 (FartPuff_t499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FartPuff::SetDirection(UnityEngine.Vector3)
-extern "C" void FartPuff_SetDirection_m2708 (FartPuff_t499 * __this, Vector3_t496  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FartPuff_SetDirection_m2709 (FartPuff_t499 * __this, Vector3_t496  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,10 +14,10 @@ struct SerializationInfo_t2871;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MissingFieldException::.ctor()
-extern "C" void MissingFieldException__ctor_m19565 (MissingFieldException_t4775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingFieldException__ctor_m19562 (MissingFieldException_t4775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingFieldException::.ctor(System.String)
-extern "C" void MissingFieldException__ctor_m19566 (MissingFieldException_t4775 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingFieldException__ctor_m19563 (MissingFieldException_t4775 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingFieldException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingFieldException__ctor_m19567 (MissingFieldException_t4775 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingFieldException__ctor_m19564 (MissingFieldException_t4775 * __this, SerializationInfo_t2871 * ___info, StreamingContext_t2872  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MissingFieldException::get_Message()
-extern "C" String_t* MissingFieldException_get_Message_m19568 (MissingFieldException_t4775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MissingFieldException_get_Message_m19565 (MissingFieldException_t4775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

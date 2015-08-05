@@ -9,7 +9,7 @@ struct HeadMovement_t527;
 // TipConfig
 struct TipConfig_t473;
 // PlayerController
-struct PlayerController_t584;
+struct PlayerController_t583;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayerController/BodyMovementType
@@ -17,7 +17,7 @@ struct PlayerController_t584;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PlayerController
-struct  PlayerController_t584  : public MonoBehaviour_t13
+struct  PlayerController_t583  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
 	GameObject_t352 * ___rightPawGameObject_3;
@@ -52,7 +52,7 @@ struct  PlayerController_t584  : public MonoBehaviour_t13
 	// System.Single PlayerController::fartPause
 	float ___fartPause_18;
 };
-struct PlayerController_t584_StaticFields{
+struct PlayerController_t583_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t584 * ___U3CinstanceU3Ek__BackingField_19;
+	PlayerController_t583 * ___U3CinstanceU3Ek__BackingField_19;
 };

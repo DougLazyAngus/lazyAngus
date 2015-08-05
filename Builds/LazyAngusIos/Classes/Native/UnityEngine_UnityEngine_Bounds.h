@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Bounds
-struct  Bounds_t718 
+struct  Bounds_t717 
 {
 	// UnityEngine.Vector3 UnityEngine.Bounds::m_Center
 	Vector3_t496  ___m_Center_0;

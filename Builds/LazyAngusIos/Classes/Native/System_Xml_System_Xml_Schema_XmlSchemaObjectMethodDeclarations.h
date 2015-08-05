@@ -8,4 +8,4 @@
 struct XmlSchemaObject_t3102;
 
 // System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
-extern "C" void XmlSchemaObject__ctor_m10269 (XmlSchemaObject_t3102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaObject__ctor_m10266 (XmlSchemaObject_t3102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

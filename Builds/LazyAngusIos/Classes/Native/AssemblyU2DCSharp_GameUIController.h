@@ -15,16 +15,14 @@ struct  GameUIController_t521  : public MonoBehaviour_t13
 	GameObject_t352 * ___welcomeUIGameObject_2;
 	// UnityEngine.GameObject GameUIController::levelEndUIGameObject
 	GameObject_t352 * ___levelEndUIGameObject_3;
-	// UnityEngine.GameObject GameUIController::levelPlayUIGameObject
-	GameObject_t352 * ___levelPlayUIGameObject_4;
 	// UnityEngine.GameObject GameUIController::gameOverUIGameObject
-	GameObject_t352 * ___gameOverUIGameObject_5;
+	GameObject_t352 * ___gameOverUIGameObject_4;
 	// GameUI[] GameUIController::gameUIs
-	GameUIU5BU5D_t519* ___gameUIs_6;
+	GameUIU5BU5D_t519* ___gameUIs_5;
 	// System.Boolean GameUIController::registeredForEvents
-	bool ___registeredForEvents_7;
+	bool ___registeredForEvents_6;
 };
 struct GameUIController_t521_StaticFields{
 	// GameUIController GameUIController::<instance>k__BackingField
-	GameUIController_t521 * ___U3CinstanceU3Ek__BackingField_8;
+	GameUIController_t521 * ___U3CinstanceU3Ek__BackingField_7;
 };

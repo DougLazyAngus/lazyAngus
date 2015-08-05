@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t894;
+struct List_1_t893;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.UIVertex
@@ -10,11 +10,11 @@ struct List_1_t894;
 struct  Enumerator_t5773 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::l
-	List_1_t894 * ___l_0;
+	List_1_t893 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::current
-	UIVertex_t892  ___current_3;
+	UIVertex_t891  ___current_3;
 };

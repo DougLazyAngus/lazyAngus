@@ -5,7 +5,7 @@ struct Object_t;
 // System.Threading.ExecutionContext
 struct ExecutionContext_t4558;
 // System.Object[]
-struct ObjectU5BU5D_t638;
+struct ObjectU5BU5D_t637;
 // System.MulticastDelegate
 struct MulticastDelegate_t388;
 // System.Security.Principal.IPrincipal
@@ -130,7 +130,7 @@ struct Thread_t1412_StaticFields{
 };
 struct Thread_t1412_ThreadStaticFields{
 	// System.Object[] System.Threading.Thread::local_slots
-	ObjectU5BU5D_t638* ___local_slots_43;
+	ObjectU5BU5D_t637* ___local_slots_43;
 	// System.Threading.ExecutionContext System.Threading.Thread::_ec
 	ExecutionContext_t4558 * ____ec_44;
 };

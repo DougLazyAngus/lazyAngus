@@ -8,4 +8,4 @@
 struct ComVisibleAttribute_t1044;
 
 // System.Void System.Runtime.InteropServices.ComVisibleAttribute::.ctor(System.Boolean)
-extern "C" void ComVisibleAttribute__ctor_m5957 (ComVisibleAttribute_t1044 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComVisibleAttribute__ctor_m5954 (ComVisibleAttribute_t1044 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -33,10 +33,11 @@ public class FinalScoreController : MonoBehaviour {
 	}
 	
 	void OnGamePhaseChanged() {
-		/*
+		if (DebugConfig.instance.DebugFlagSet (2)) {
+			return;
+		}
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
 			SocialHelper.instance.ReportScore (PlayerStats.instance.gameScore);
 		}
-		*/
 	}
 }

@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.Boolean>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_4.h"
 // UnityEngine.UI.Toggle/ToggleEvent
-struct  ToggleEvent_t924  : public UnityEvent_1_t925
+struct  ToggleEvent_t923  : public UnityEvent_1_t924
 {
 };

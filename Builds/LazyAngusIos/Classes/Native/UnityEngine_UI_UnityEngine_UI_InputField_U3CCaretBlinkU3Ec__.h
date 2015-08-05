@@ -7,7 +7,7 @@ struct InputField_t600;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.InputField/<CaretBlink>c__Iterator2
-struct  U3CCaretBlinkU3Ec__Iterator2_t888  : public Object_t
+struct  U3CCaretBlinkU3Ec__Iterator2_t887  : public Object_t
 {
 	// System.Single UnityEngine.UI.InputField/<CaretBlink>c__Iterator2::<blinkPeriod>__0
 	float ___U3CblinkPeriodU3E__0_0;

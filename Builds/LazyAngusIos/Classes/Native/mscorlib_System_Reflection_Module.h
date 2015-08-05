@@ -3,7 +3,7 @@
 // System.Reflection.TypeFilter
 struct TypeFilter_t4498;
 // System.Reflection.Assembly
-struct Assembly_t722;
+struct Assembly_t721;
 // System.String
 struct String_t;
 // System.Object
@@ -18,7 +18,7 @@ struct  Module_t4474  : public Object_t
 	// System.IntPtr System.Reflection.Module::_impl
 	IntPtr_t ____impl_3;
 	// System.Reflection.Assembly System.Reflection.Module::assembly
-	Assembly_t722 * ___assembly_4;
+	Assembly_t721 * ___assembly_4;
 	// System.String System.Reflection.Module::fqname
 	String_t* ___fqname_5;
 	// System.String System.Reflection.Module::name

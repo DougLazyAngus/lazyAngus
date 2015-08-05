@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlDocument
-struct XmlDocument_t633;
+struct XmlDocument_t632;
 // System.Xml.XmlLinkedNode
 struct XmlLinkedNode_t3166;
 // System.String
 struct String_t;
 // System.Xml.XmlElement
-struct XmlElement_t634;
+struct XmlElement_t633;
 // System.Xml.XmlDocumentType
 struct XmlDocumentType_t3180;
 // System.Xml.XmlNameEntryCache
@@ -21,13 +21,13 @@ struct XmlNameTable_t3135;
 // System.Xml.XmlResolver
 struct XmlResolver_t3134;
 // System.Xml.XmlNode
-struct XmlNode_t670;
+struct XmlNode_t669;
 // System.Xml.Schema.IXmlSchemaInfo
 struct IXmlSchemaInfo_t3167;
 // System.Xml.XmlImplementation
 struct XmlImplementation_t3176;
 // System.Xml.XmlAttribute
-struct XmlAttribute_t674;
+struct XmlAttribute_t673;
 // System.Xml.XmlCDataSection
 struct XmlCDataSection_t3169;
 // System.Xml.XmlComment
@@ -56,120 +56,120 @@ struct XmlReader_t3210;
 #include "System_Xml_System_Xml_XmlSpace.h"
 
 // System.Void System.Xml.XmlDocument::.ctor()
-extern "C" void XmlDocument__ctor_m10571 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument__ctor_m10568 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::.ctor(System.Xml.XmlImplementation)
-extern "C" void XmlDocument__ctor_m10572 (XmlDocument_t633 * __this, XmlImplementation_t3176 * ___imp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument__ctor_m10569 (XmlDocument_t632 * __this, XmlImplementation_t3176 * ___imp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::.ctor(System.Xml.XmlImplementation,System.Xml.XmlNameTable)
-extern "C" void XmlDocument__ctor_m10573 (XmlDocument_t633 * __this, XmlImplementation_t3176 * ___impl, XmlNameTable_t3135 * ___nt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument__ctor_m10570 (XmlDocument_t632 * __this, XmlImplementation_t3176 * ___impl, XmlNameTable_t3135 * ___nt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::.cctor()
-extern "C" void XmlDocument__cctor_m10574 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument__cctor_m10571 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlLinkedNode System.Xml.XmlDocument::System.Xml.IHasXmlChildNode.get_LastLinkedChild()
-extern "C" XmlLinkedNode_t3166 * XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10575 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlLinkedNode_t3166 * XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10572 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::System.Xml.IHasXmlChildNode.set_LastLinkedChild(System.Xml.XmlLinkedNode)
-extern "C" void XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10576 (XmlDocument_t633 * __this, XmlLinkedNode_t3166 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10573 (XmlDocument_t632 * __this, XmlLinkedNode_t3166 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocument::get_BaseURI()
-extern "C" String_t* XmlDocument_get_BaseURI_m10577 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocument_get_BaseURI_m10574 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlDocument::get_DocumentElement()
-extern "C" XmlElement_t634 * XmlDocument_get_DocumentElement_m10578 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t633 * XmlDocument_get_DocumentElement_m10575 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocumentType System.Xml.XmlDocument::get_DocumentType()
-extern "C" XmlDocumentType_t3180 * XmlDocument_get_DocumentType_m10579 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocumentType_t3180 * XmlDocument_get_DocumentType_m10576 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlDocument::get_IsReadOnly()
-extern "C" bool XmlDocument_get_IsReadOnly_m10580 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlDocument_get_IsReadOnly_m10577 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocument::get_LocalName()
-extern "C" String_t* XmlDocument_get_LocalName_m10581 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocument_get_LocalName_m10578 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocument::get_Name()
-extern "C" String_t* XmlDocument_get_Name_m10582 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocument_get_Name_m10579 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNameEntryCache System.Xml.XmlDocument::get_NameCache()
-extern "C" XmlNameEntryCache_t3177 * XmlDocument_get_NameCache_m10583 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNameEntryCache_t3177 * XmlDocument_get_NameCache_m10580 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNameTable System.Xml.XmlDocument::get_NameTable()
-extern "C" XmlNameTable_t3135 * XmlDocument_get_NameTable_m10584 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNameTable_t3135 * XmlDocument_get_NameTable_m10581 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlDocument::get_NodeType()
-extern "C" int32_t XmlDocument_get_NodeType_m10585 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlDocument_get_NodeType_m10582 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocument System.Xml.XmlDocument::get_OwnerDocument()
-extern "C" XmlDocument_t633 * XmlDocument_get_OwnerDocument_m10586 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocument_t632 * XmlDocument_get_OwnerDocument_m10583 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlDocument::get_PreserveWhitespace()
-extern "C" bool XmlDocument_get_PreserveWhitespace_m10587 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlDocument_get_PreserveWhitespace_m10584 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlResolver System.Xml.XmlDocument::get_Resolver()
-extern "C" XmlResolver_t3134 * XmlDocument_get_Resolver_m10588 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlResolver_t3134 * XmlDocument_get_Resolver_m10585 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocument::get_XmlLang()
-extern "C" String_t* XmlDocument_get_XmlLang_m10589 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocument_get_XmlLang_m10586 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlSpace System.Xml.XmlDocument::get_XmlSpace()
-extern "C" int32_t XmlDocument_get_XmlSpace_m10590 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlDocument_get_XmlSpace_m10587 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocument::get_ParentNode()
-extern "C" XmlNode_t670 * XmlDocument_get_ParentNode_m10591 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlDocument_get_ParentNode_m10588 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::set_SchemaInfo(System.Xml.Schema.IXmlSchemaInfo)
-extern "C" void XmlDocument_set_SchemaInfo_m10592 (XmlDocument_t633 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_set_SchemaInfo_m10589 (XmlDocument_t632 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::AddIdenticalAttribute(System.Xml.XmlAttribute)
-extern "C" void XmlDocument_AddIdenticalAttribute_m10593 (XmlDocument_t633 * __this, XmlAttribute_t674 * ___attr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_AddIdenticalAttribute_m10590 (XmlDocument_t632 * __this, XmlAttribute_t673 * ___attr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocument::CloneNode(System.Boolean)
-extern "C" XmlNode_t670 * XmlDocument_CloneNode_m10594 (XmlDocument_t633 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlDocument_CloneNode_m10591 (XmlDocument_t632 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlDocument::CreateAttribute(System.String)
-extern "C" XmlAttribute_t674 * XmlDocument_CreateAttribute_m3517 (XmlDocument_t633 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t673 * XmlDocument_CreateAttribute_m3516 (XmlDocument_t632 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlDocument::CreateAttribute(System.String,System.String,System.String)
-extern "C" XmlAttribute_t674 * XmlDocument_CreateAttribute_m10595 (XmlDocument_t633 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t673 * XmlDocument_CreateAttribute_m10592 (XmlDocument_t632 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlDocument::CreateAttribute(System.String,System.String,System.String,System.Boolean,System.Boolean)
-extern "C" XmlAttribute_t674 * XmlDocument_CreateAttribute_m10596 (XmlDocument_t633 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, bool ___atomizedNames, bool ___checkNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t673 * XmlDocument_CreateAttribute_m10593 (XmlDocument_t632 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, bool ___atomizedNames, bool ___checkNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlCDataSection System.Xml.XmlDocument::CreateCDataSection(System.String)
-extern "C" XmlCDataSection_t3169 * XmlDocument_CreateCDataSection_m10597 (XmlDocument_t633 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlCDataSection_t3169 * XmlDocument_CreateCDataSection_m10594 (XmlDocument_t632 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlComment System.Xml.XmlDocument::CreateComment(System.String)
-extern "C" XmlComment_t3173 * XmlDocument_CreateComment_m10598 (XmlDocument_t633 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlComment_t3173 * XmlDocument_CreateComment_m10595 (XmlDocument_t632 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocumentFragment System.Xml.XmlDocument::CreateDocumentFragment()
-extern "C" XmlDocumentFragment_t3179 * XmlDocument_CreateDocumentFragment_m10599 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocumentFragment_t3179 * XmlDocument_CreateDocumentFragment_m10596 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocumentType System.Xml.XmlDocument::CreateDocumentType(System.String,System.String,System.String,System.String)
-extern "C" XmlDocumentType_t3180 * XmlDocument_CreateDocumentType_m10600 (XmlDocument_t633 * __this, String_t* ___name, String_t* ___publicId, String_t* ___systemId, String_t* ___internalSubset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocumentType_t3180 * XmlDocument_CreateDocumentType_m10597 (XmlDocument_t632 * __this, String_t* ___name, String_t* ___publicId, String_t* ___systemId, String_t* ___internalSubset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocumentType System.Xml.XmlDocument::CreateDocumentType(Mono.Xml.DTDObjectModel)
-extern "C" XmlDocumentType_t3180 * XmlDocument_CreateDocumentType_m10601 (XmlDocument_t633 * __this, DTDObjectModel_t3127 * ___dtd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocumentType_t3180 * XmlDocument_CreateDocumentType_m10598 (XmlDocument_t632 * __this, DTDObjectModel_t3127 * ___dtd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String)
-extern "C" XmlElement_t634 * XmlDocument_CreateElement_m3505 (XmlDocument_t633 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t633 * XmlDocument_CreateElement_m3504 (XmlDocument_t632 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String,System.String)
-extern "C" XmlElement_t634 * XmlDocument_CreateElement_m10602 (XmlDocument_t633 * __this, String_t* ___qualifiedName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t633 * XmlDocument_CreateElement_m10599 (XmlDocument_t632 * __this, String_t* ___qualifiedName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String,System.String,System.String)
-extern "C" XmlElement_t634 * XmlDocument_CreateElement_m10603 (XmlDocument_t633 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t633 * XmlDocument_CreateElement_m10600 (XmlDocument_t632 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String,System.String,System.String,System.Boolean)
-extern "C" XmlElement_t634 * XmlDocument_CreateElement_m10604 (XmlDocument_t633 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, bool ___nameAtomized, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t633 * XmlDocument_CreateElement_m10601 (XmlDocument_t632 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, bool ___nameAtomized, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlEntityReference System.Xml.XmlDocument::CreateEntityReference(System.String)
-extern "C" XmlEntityReference_t3182 * XmlDocument_CreateEntityReference_m10605 (XmlDocument_t633 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlEntityReference_t3182 * XmlDocument_CreateEntityReference_m10602 (XmlDocument_t632 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlProcessingInstruction System.Xml.XmlDocument::CreateProcessingInstruction(System.String,System.String)
-extern "C" XmlProcessingInstruction_t3207 * XmlDocument_CreateProcessingInstruction_m10606 (XmlDocument_t633 * __this, String_t* ___target, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlProcessingInstruction_t3207 * XmlDocument_CreateProcessingInstruction_m10603 (XmlDocument_t632 * __this, String_t* ___target, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlSignificantWhitespace System.Xml.XmlDocument::CreateSignificantWhitespace(System.String)
-extern "C" XmlSignificantWhitespace_t3213 * XmlDocument_CreateSignificantWhitespace_m10607 (XmlDocument_t633 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSignificantWhitespace_t3213 * XmlDocument_CreateSignificantWhitespace_m10604 (XmlDocument_t632 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlText System.Xml.XmlDocument::CreateTextNode(System.String)
-extern "C" XmlText_t3215 * XmlDocument_CreateTextNode_m10608 (XmlDocument_t633 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlText_t3215 * XmlDocument_CreateTextNode_m10605 (XmlDocument_t632 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlWhitespace System.Xml.XmlDocument::CreateWhitespace(System.String)
-extern "C" XmlWhitespace_t3239 * XmlDocument_CreateWhitespace_m10609 (XmlDocument_t633 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlWhitespace_t3239 * XmlDocument_CreateWhitespace_m10606 (XmlDocument_t632 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDeclaration System.Xml.XmlDocument::CreateXmlDeclaration(System.String,System.String,System.String)
-extern "C" XmlDeclaration_t3175 * XmlDocument_CreateXmlDeclaration_m10610 (XmlDocument_t633 * __this, String_t* ___version, String_t* ___encoding, String_t* ___standalone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDeclaration_t3175 * XmlDocument_CreateXmlDeclaration_m10607 (XmlDocument_t632 * __this, String_t* ___version, String_t* ___encoding, String_t* ___standalone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlDocument::GetIdenticalAttribute(System.String)
-extern "C" XmlAttribute_t674 * XmlDocument_GetIdenticalAttribute_m10611 (XmlDocument_t633 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t673 * XmlDocument_GetIdenticalAttribute_m10608 (XmlDocument_t632 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocument::ImportNode(System.Xml.XmlNode,System.Boolean)
-extern "C" XmlNode_t670 * XmlDocument_ImportNode_m10612 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlDocument_ImportNode_m10609 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeChanged(System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String)
-extern "C" void XmlDocument_onNodeChanged_m10613 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___parent, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeChanged_m10610 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___parent, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeChanging(System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String)
-extern "C" void XmlDocument_onNodeChanging_m10614 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___parent, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeChanging_m10611 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___parent, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeInserted(System.Xml.XmlNode,System.Xml.XmlNode)
-extern "C" void XmlDocument_onNodeInserted_m10615 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___newParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeInserted_m10612 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___newParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeInserting(System.Xml.XmlNode,System.Xml.XmlNode)
-extern "C" void XmlDocument_onNodeInserting_m10616 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___newParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeInserting_m10613 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___newParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeRemoved(System.Xml.XmlNode,System.Xml.XmlNode)
-extern "C" void XmlDocument_onNodeRemoved_m10617 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___oldParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeRemoved_m10614 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___oldParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::onNodeRemoving(System.Xml.XmlNode,System.Xml.XmlNode)
-extern "C" void XmlDocument_onNodeRemoving_m10618 (XmlDocument_t633 * __this, XmlNode_t670 * ___node, XmlNode_t670 * ___oldParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_onNodeRemoving_m10615 (XmlDocument_t632 * __this, XmlNode_t669 * ___node, XmlNode_t669 * ___oldParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::ParseName(System.String,System.String&,System.String&)
-extern "C" void XmlDocument_ParseName_m10619 (XmlDocument_t633 * __this, String_t* ___name, String_t** ___prefix, String_t** ___localName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_ParseName_m10616 (XmlDocument_t632 * __this, String_t* ___name, String_t** ___prefix, String_t** ___localName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlDocument::ReadAttributeNode(System.Xml.XmlReader)
-extern "C" XmlAttribute_t674 * XmlDocument_ReadAttributeNode_m10620 (XmlDocument_t633 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t673 * XmlDocument_ReadAttributeNode_m10617 (XmlDocument_t632 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::ReadAttributeNodeValue(System.Xml.XmlReader,System.Xml.XmlAttribute)
-extern "C" void XmlDocument_ReadAttributeNodeValue_m10621 (XmlDocument_t633 * __this, XmlReader_t3210 * ___reader, XmlAttribute_t674 * ___attribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_ReadAttributeNodeValue_m10618 (XmlDocument_t632 * __this, XmlReader_t3210 * ___reader, XmlAttribute_t673 * ___attribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocument::ReadNode(System.Xml.XmlReader)
-extern "C" XmlNode_t670 * XmlDocument_ReadNode_m10622 (XmlDocument_t633 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlDocument_ReadNode_m10619 (XmlDocument_t632 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlDocument::ReadNodeCore(System.Xml.XmlReader)
-extern "C" XmlNode_t670 * XmlDocument_ReadNodeCore_m10623 (XmlDocument_t633 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t669 * XmlDocument_ReadNodeCore_m10620 (XmlDocument_t632 * __this, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlDocument::MakeReaderErrorMessage(System.String,System.Xml.XmlReader)
-extern "C" String_t* XmlDocument_MakeReaderErrorMessage_m10624 (XmlDocument_t633 * __this, String_t* ___message, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlDocument_MakeReaderErrorMessage_m10621 (XmlDocument_t632 * __this, String_t* ___message, XmlReader_t3210 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::RemoveIdenticalAttribute(System.String)
-extern "C" void XmlDocument_RemoveIdenticalAttribute_m10625 (XmlDocument_t633 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_RemoveIdenticalAttribute_m10622 (XmlDocument_t632 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::AddDefaultNameTableKeys()
-extern "C" void XmlDocument_AddDefaultNameTableKeys_m10626 (XmlDocument_t633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_AddDefaultNameTableKeys_m10623 (XmlDocument_t632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlDocument::CheckIdTableUpdate(System.Xml.XmlAttribute,System.String,System.String)
-extern "C" void XmlDocument_CheckIdTableUpdate_m10627 (XmlDocument_t633 * __this, XmlAttribute_t674 * ___attr, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlDocument_CheckIdTableUpdate_m10624 (XmlDocument_t632 * __this, XmlAttribute_t673 * ___attr, String_t* ___oldValue, String_t* ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

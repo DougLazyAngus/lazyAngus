@@ -12,15 +12,15 @@ struct Object_t;
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::.ctor()
-extern "C" void Comparer_1__ctor_m27320_gshared (Comparer_1_t5712 * __this, const MethodInfo* method);
-#define Comparer_1__ctor_m27320(__this, method) (( void (*) (Comparer_1_t5712 *, const MethodInfo*))Comparer_1__ctor_m27320_gshared)(__this, method)
+extern "C" void Comparer_1__ctor_m27317_gshared (Comparer_1_t5712 * __this, const MethodInfo* method);
+#define Comparer_1__ctor_m27317(__this, method) (( void (*) (Comparer_1_t5712 *, const MethodInfo*))Comparer_1__ctor_m27317_gshared)(__this, method)
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::.cctor()
-extern "C" void Comparer_1__cctor_m27321_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1__cctor_m27321(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m27321_gshared)(__this /* static, unused */, method)
+extern "C" void Comparer_1__cctor_m27318_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1__cctor_m27318(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m27318_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IComparer.Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m27322_gshared (Comparer_1_t5712 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define Comparer_1_System_Collections_IComparer_Compare_m27322(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t5712 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m27322_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m27319_gshared (Comparer_1_t5712 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define Comparer_1_System_Collections_IComparer_Compare_m27319(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t5712 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m27319_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::Compare(T,T)
 // System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::get_Default()
-extern "C" Comparer_1_t5712 * Comparer_1_get_Default_m27323_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1_get_Default_m27323(__this /* static, unused */, method) (( Comparer_1_t5712 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m27323_gshared)(__this /* static, unused */, method)
+extern "C" Comparer_1_t5712 * Comparer_1_get_Default_m27320_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1_get_Default_m27320(__this /* static, unused */, method) (( Comparer_1_t5712 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m27320_gshared)(__this /* static, unused */, method)
