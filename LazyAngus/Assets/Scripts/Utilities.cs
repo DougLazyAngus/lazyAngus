@@ -206,6 +206,15 @@ public class Utilities
 		}
 		return retVal;
 	}
+
+	public static int ParseIntWithDefault(string text, int defaultValue) {
+		int value;
+		if (int.TryParse (text, out value)) {
+			return value;
+		} else {
+			return defaultValue;
+		}
+	}
 }
 
 
