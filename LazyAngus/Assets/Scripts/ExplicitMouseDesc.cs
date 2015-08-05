@@ -30,14 +30,14 @@ public class ExplicitMouseDesc
 	public int wiggleCycles { get; private set; }
 	public bool wiggleClockwise { get; private set; }
 
-	public ExplicitMouseDesc(float pause,
+	public ExplicitMouseDesc(float delayToNextMouse,
 	                         bool isClockwise, 
 	                         MouseHole.MouseHoleLocation location, 
 	                         MouseConfig.MouseType mType, 
 	                         int track,
 	                         MouseConfig.MouseWiggleType wType = MouseConfig.MouseWiggleType.NONE)
 	{
-		this.delayToNextMouse = pause;
+		this.delayToNextMouse = delayToNextMouse;
 		this.isClockwise = isClockwise;
 		this.mouseHoleLocation = location;
 		this.mouseType = mType;

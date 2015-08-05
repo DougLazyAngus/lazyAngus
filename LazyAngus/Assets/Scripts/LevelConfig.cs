@@ -36,6 +36,8 @@ public class LevelDescription
 
 	public string previousLevelClearedAchievementID;
 
+	
+	public const string mouseHoleIntroSpritePath = "Textures/MouseHole/cheese";
 
 	public LevelDescription ()
 	{
@@ -127,14 +129,14 @@ public class LevelConfig : MonoBehaviour
 	}
 	
 	private void AddExplicitMouseDesc (ref List<ExplicitMouseDesc> retVal, 
-	                                   float pause,
+	                                   float delayToNextMouse,
 	                                   bool isClockwise, 
 				                       MouseHole.MouseHoleLocation location, 
 				                       MouseConfig.MouseType mType, 
 				                       int track,
 	                                   MouseConfig.MouseWiggleType wType = MouseConfig.MouseWiggleType.NONE)
 	{
-		ExplicitMouseDesc emd = new ExplicitMouseDesc (pause, 
+		ExplicitMouseDesc emd = new ExplicitMouseDesc (delayToNextMouse, 
 		                                               isClockwise, 
 		                                               location, 
 		                                               mType, 
@@ -298,7 +300,7 @@ public class LevelConfig : MonoBehaviour
 				                      1);	
 		} else if (--glCounter == 0) {
 			ld.specialText = "The mouse holes are growing!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
@@ -317,15 +319,15 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.3f, false, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 		} else if (--glCounter == 0) {
@@ -542,7 +544,7 @@ public class LevelConfig : MonoBehaviour
 			                      1);	
 		} else if (--glCounter == 0) {
 			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
 
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
@@ -662,7 +664,7 @@ public class LevelConfig : MonoBehaviour
 
 		} else if (--glCounter == 0) {
 			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
@@ -758,7 +760,7 @@ public class LevelConfig : MonoBehaviour
 
 		} else if (--glCounter == 0) {
 			ld.specialText = "One mouse hole is growing!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");			
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
 
 		} else if (--glCounter == 0) {
@@ -824,7 +826,7 @@ public class LevelConfig : MonoBehaviour
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
 		} else if (--glCounter == 0) {
 			ld.specialText = "Another mouse hole expands!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");			
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
 
 		} else if (--glCounter == 0) {
@@ -892,12 +894,12 @@ public class LevelConfig : MonoBehaviour
 
 		} else if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");			
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
 
 		} else if (--glCounter == 0) {
 			ld.specialText = "A little more room for mice!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> ("Textures/cheese");			
+			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
 				
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
 		} else {

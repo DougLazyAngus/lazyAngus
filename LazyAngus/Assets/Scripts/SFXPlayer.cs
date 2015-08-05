@@ -83,6 +83,9 @@ public class SFXPlayer : MonoBehaviour {
 
 
 	public void PlayRandom(SFXType[] types, float delay = 0) {
+		if (SoundController.instance.sfxMuted) {
+			return;
+		}
 		int index = Random.Range (0, types.Length);
 		AudioSource asource = audioSources[(int)types[index]];
 		asource.PlayDelayed(delay);
