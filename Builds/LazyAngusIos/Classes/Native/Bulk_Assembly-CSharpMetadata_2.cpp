@@ -29305,7 +29305,7 @@ extern const Il2CppType MouseWiggleType_t555_0_0_4112;
 extern const Il2CppType MouseWiggleType_t555_0_0_0;
 static const ParameterInfo ExplicitMouseDesc_t497_ExplicitMouseDesc__ctor_m2685_ParameterInfos[] = 
 {
-	{"pause", 0, 134219739, 0, &Single_t87_0_0_0},
+	{"delayToNextMouse", 0, 134219739, 0, &Single_t87_0_0_0},
 	{"isClockwise", 1, 134219740, 0, &Boolean_t59_0_0_0},
 	{"location", 2, 134219741, 0, &MouseHoleLocation_t560_0_0_0},
 	{"mType", 3, 134219742, 0, &MouseType_t554_0_0_0},

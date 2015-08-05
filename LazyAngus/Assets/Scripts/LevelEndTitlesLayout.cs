@@ -12,30 +12,27 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	private bool registerdForEvents;
 	private DistortForEffect distortForEffect;
-
-	private bool started;
-
+	
 	private bool waveDirty;
+	bool started;
 
 	void Awake() {
-		started = false;
 		registerdForEvents = false;
+		waveDirty = false;
 	}
 
 	void Start () {
-		waveDirty = false;
 		RegisterForEvents ();
 		started = true;
+	}
+
+	void OnEnable() {
+		waveDirty = true;
 	}
 
 	void OnDestroy() {
 		UnregisterForEvents ();
 	}
-
-	void OnEnable() {
-		SetWaveViews ();
-	}
-
 
 	void RegisterForEvents() {
 		GameLevelState.instance.GameLevelChanged += new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
@@ -57,9 +54,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void SetWaveViews() {
 		if (!started) {
-			return;
-		}
-		if (!enabled) {
 			return;
 		}
 

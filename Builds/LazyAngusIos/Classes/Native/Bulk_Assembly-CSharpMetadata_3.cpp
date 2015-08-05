@@ -6776,7 +6776,7 @@ TypeInfo LevelDescription_t543_il2cpp_TypeInfo =
 	, false/* is_blittable */
 	, 1/* method_count */
 	, 0/* property_count */
-	, 12/* field_count */
+	, 13/* field_count */
 	, 0/* event_count */
 	, 1/* nested_type_count */
 	, 4/* vtable_count */
@@ -7005,7 +7005,7 @@ extern const Il2CppType MouseWiggleType_t555_0_0_0;
 static const ParameterInfo LevelConfig_t550_LevelConfig_AddExplicitMouseDesc_m2906_ParameterInfos[] = 
 {
 	{"retVal", 0, 134219817, 0, &List_1_t537_1_0_0},
-	{"pause", 1, 134219818, 0, &Single_t87_0_0_0},
+	{"delayToNextMouse", 1, 134219818, 0, &Single_t87_0_0_0},
 	{"isClockwise", 2, 134219819, 0, &Boolean_t59_0_0_0},
 	{"location", 3, 134219820, 0, &MouseHoleLocation_t560_0_0_0},
 	{"mType", 4, 134219821, 0, &MouseType_t554_0_0_0},
@@ -7508,7 +7508,7 @@ const Il2CppTypeDefinitionMetadata LevelConfig_t550_DefinitionMetadata =
 	, LevelConfig_t550_VTable/* vtableMethods */
 	, LevelConfig_t550_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1733/* fieldStart */
+	, 1734/* fieldStart */
 
 };
 TypeInfo LevelConfig_t550_il2cpp_TypeInfo = 
@@ -7843,7 +7843,7 @@ const Il2CppTypeDefinitionMetadata LevelEndTitlesLayout_t551_DefinitionMetadata 
 	, LevelEndTitlesLayout_t551_VTable/* vtableMethods */
 	, LevelEndTitlesLayout_t551_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1753/* fieldStart */
+	, 1754/* fieldStart */
 
 };
 TypeInfo LevelEndTitlesLayout_t551_il2cpp_TypeInfo = 
@@ -8120,7 +8120,7 @@ const Il2CppTypeDefinitionMetadata MoneyEarningController_t552_DefinitionMetadat
 	, MoneyEarningController_t552_VTable/* vtableMethods */
 	, MoneyEarningController_t552_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1761/* fieldStart */
+	, 1762/* fieldStart */
 
 };
 TypeInfo MoneyEarningController_t552_il2cpp_TypeInfo = 
@@ -8260,7 +8260,7 @@ const Il2CppTypeDefinitionMetadata MovementPhaseType_t553_DefinitionMetadata =
 	, MovementPhaseType_t553_VTable/* vtableMethods */
 	, MovementPhaseType_t553_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1764/* fieldStart */
+	, 1765/* fieldStart */
 
 };
 TypeInfo MovementPhaseType_t553_il2cpp_TypeInfo = 
@@ -8397,7 +8397,7 @@ const Il2CppTypeDefinitionMetadata MouseType_t554_DefinitionMetadata =
 	, MouseType_t554_VTable/* vtableMethods */
 	, MouseType_t554_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1771/* fieldStart */
+	, 1772/* fieldStart */
 
 };
 TypeInfo MouseType_t554_il2cpp_TypeInfo = 
@@ -8534,7 +8534,7 @@ const Il2CppTypeDefinitionMetadata MouseWiggleType_t555_DefinitionMetadata =
 	, MouseWiggleType_t555_VTable/* vtableMethods */
 	, MouseWiggleType_t555_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1777/* fieldStart */
+	, 1778/* fieldStart */
 
 };
 TypeInfo MouseWiggleType_t555_il2cpp_TypeInfo = 
@@ -8901,7 +8901,7 @@ const Il2CppTypeDefinitionMetadata MouseConfig_t558_DefinitionMetadata =
 	, MouseConfig_t558_VTable/* vtableMethods */
 	, MouseConfig_t558_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1783/* fieldStart */
+	, 1784/* fieldStart */
 
 };
 TypeInfo MouseConfig_t558_il2cpp_TypeInfo = 
@@ -9031,7 +9031,7 @@ const Il2CppTypeDefinitionMetadata MouseDesc_t559_DefinitionMetadata =
 	, MouseDesc_t559_VTable/* vtableMethods */
 	, MouseDesc_t559_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1811/* fieldStart */
+	, 1812/* fieldStart */
 
 };
 TypeInfo MouseDesc_t559_il2cpp_TypeInfo = 
@@ -9169,7 +9169,7 @@ const Il2CppTypeDefinitionMetadata MouseHoleLocation_t560_DefinitionMetadata =
 	, MouseHoleLocation_t560_VTable/* vtableMethods */
 	, MouseHoleLocation_t560_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1817/* fieldStart */
+	, 1818/* fieldStart */
 
 };
 TypeInfo MouseHoleLocation_t560_il2cpp_TypeInfo = 
@@ -10371,7 +10371,7 @@ const Il2CppTypeDefinitionMetadata MouseHole_t530_DefinitionMetadata =
 	, MouseHole_t530_VTable/* vtableMethods */
 	, MouseHole_t530_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1823/* fieldStart */
+	, 1824/* fieldStart */
 
 };
 TypeInfo MouseHole_t530_il2cpp_TypeInfo = 
@@ -11346,7 +11346,7 @@ const Il2CppTypeDefinitionMetadata MouseMove_t487_DefinitionMetadata =
 	, MouseMove_t487_VTable/* vtableMethods */
 	, MouseMove_t487_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1834/* fieldStart */
+	, 1835/* fieldStart */
 
 };
 TypeInfo MouseMove_t487_il2cpp_TypeInfo = 
@@ -12158,7 +12158,7 @@ const Il2CppTypeDefinitionMetadata MouseSpawnFromData_t510_DefinitionMetadata =
 	, MouseSpawnFromData_t510_VTable/* vtableMethods */
 	, MouseSpawnFromData_t510_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1861/* fieldStart */
+	, 1862/* fieldStart */
 
 };
 TypeInfo MouseSpawnFromData_t510_il2cpp_TypeInfo = 
@@ -12469,7 +12469,7 @@ const Il2CppTypeDefinitionMetadata MouseSpawnTracker_t567_DefinitionMetadata =
 	, MouseSpawnTracker_t567_VTable/* vtableMethods */
 	, MouseSpawnTracker_t567_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1871/* fieldStart */
+	, 1872/* fieldStart */
 
 };
 TypeInfo MouseSpawnTracker_t567_il2cpp_TypeInfo = 
@@ -12600,7 +12600,7 @@ const Il2CppTypeDefinitionMetadata MouseWiggleDesc_t568_DefinitionMetadata =
 	, MouseWiggleDesc_t568_VTable/* vtableMethods */
 	, MouseWiggleDesc_t568_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1874/* fieldStart */
+	, 1875/* fieldStart */
 
 };
 TypeInfo MouseWiggleDesc_t568_il2cpp_TypeInfo = 
@@ -12887,7 +12887,7 @@ const Il2CppTypeDefinitionMetadata MusicButton_t569_DefinitionMetadata =
 	, MusicButton_t569_VTable/* vtableMethods */
 	, MusicButton_t569_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1879/* fieldStart */
+	, 1880/* fieldStart */
 
 };
 TypeInfo MusicButton_t569_il2cpp_TypeInfo = 
@@ -13181,7 +13181,7 @@ const Il2CppTypeDefinitionMetadata U3CPlayMusicU3Ec__Iterator17_t572_DefinitionM
 	, U3CPlayMusicU3Ec__Iterator17_t572_VTable/* vtableMethods */
 	, U3CPlayMusicU3Ec__Iterator17_t572_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1883/* fieldStart */
+	, 1884/* fieldStart */
 
 };
 TypeInfo U3CPlayMusicU3Ec__Iterator17_t572_il2cpp_TypeInfo = 
@@ -13500,7 +13500,7 @@ const Il2CppTypeDefinitionMetadata MusicPlayer_t571_DefinitionMetadata =
 	, MusicPlayer_t571_VTable/* vtableMethods */
 	, MusicPlayer_t571_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1888/* fieldStart */
+	, 1889/* fieldStart */
 
 };
 TypeInfo MusicPlayer_t571_il2cpp_TypeInfo = 
@@ -13648,7 +13648,7 @@ const Il2CppTypeDefinitionMetadata OnMouseEntersHole_t573_DefinitionMetadata =
 	, OnMouseEntersHole_t573_VTable/* vtableMethods */
 	, OnMouseEntersHole_t573_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1893/* fieldStart */
+	, 1894/* fieldStart */
 
 };
 TypeInfo OnMouseEntersHole_t573_il2cpp_TypeInfo = 
@@ -13942,7 +13942,7 @@ const Il2CppTypeDefinitionMetadata ParseAnalyticsController_t574_DefinitionMetad
 	, ParseAnalyticsController_t574_VTable/* vtableMethods */
 	, ParseAnalyticsController_t574_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1894/* fieldStart */
+	, 1895/* fieldStart */
 
 };
 TypeInfo ParseAnalyticsController_t574_il2cpp_TypeInfo = 
@@ -14402,7 +14402,7 @@ const Il2CppTypeDefinitionMetadata PausedOverlay_t576_DefinitionMetadata =
 	, PausedOverlay_t576_VTable/* vtableMethods */
 	, PausedOverlay_t576_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1895/* fieldStart */
+	, 1896/* fieldStart */
 
 };
 TypeInfo PausedOverlay_t576_il2cpp_TypeInfo = 
@@ -14542,7 +14542,7 @@ const Il2CppTypeDefinitionMetadata SwipePhase_t577_DefinitionMetadata =
 	, SwipePhase_t577_VTable/* vtableMethods */
 	, SwipePhase_t577_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1900/* fieldStart */
+	, 1901/* fieldStart */
 
 };
 TypeInfo SwipePhase_t577_il2cpp_TypeInfo = 
@@ -15045,7 +15045,7 @@ const Il2CppTypeDefinitionMetadata PawController_t492_DefinitionMetadata =
 	, PawController_t492_VTable/* vtableMethods */
 	, PawController_t492_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1907/* fieldStart */
+	, 1908/* fieldStart */
 
 };
 TypeInfo PawController_t492_il2cpp_TypeInfo = 
@@ -15535,7 +15535,7 @@ const Il2CppTypeDefinitionMetadata PersistentStorage_t579_DefinitionMetadata =
 	, PersistentStorage_t579_VTable/* vtableMethods */
 	, PersistentStorage_t579_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1922/* fieldStart */
+	, 1923/* fieldStart */
 
 };
 TypeInfo PersistentStorage_t579_il2cpp_TypeInfo = 
@@ -15961,7 +15961,7 @@ const Il2CppTypeDefinitionMetadata BodyMovementType_t582_DefinitionMetadata =
 	, BodyMovementType_t582_VTable/* vtableMethods */
 	, BodyMovementType_t582_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1925/* fieldStart */
+	, 1926/* fieldStart */
 
 };
 TypeInfo BodyMovementType_t582_il2cpp_TypeInfo = 
@@ -16559,7 +16559,7 @@ const Il2CppTypeDefinitionMetadata PlayerController_t583_DefinitionMetadata =
 	, PlayerController_t583_VTable/* vtableMethods */
 	, PlayerController_t583_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1929/* fieldStart */
+	, 1930/* fieldStart */
 
 };
 TypeInfo PlayerController_t583_il2cpp_TypeInfo = 
@@ -18276,7 +18276,7 @@ const Il2CppTypeDefinitionMetadata PlayerStats_t475_DefinitionMetadata =
 	, PlayerStats_t475_VTable/* vtableMethods */
 	, PlayerStats_t475_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1947/* fieldStart */
+	, 1948/* fieldStart */
 
 };
 TypeInfo PlayerStats_t475_il2cpp_TypeInfo = 
@@ -18526,7 +18526,7 @@ const Il2CppTypeDefinitionMetadata QuasiRandomGenerator_1_t757_DefinitionMetadat
 	, QuasiRandomGenerator_1_t757_VTable/* vtableMethods */
 	, QuasiRandomGenerator_1_t757_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, QuasiRandomGenerator_1_t757_RGCTXData/* rgctxDefinition */
-	, 1957/* fieldStart */
+	, 1958/* fieldStart */
 
 };
 TypeInfo QuasiRandomGenerator_1_t757_il2cpp_TypeInfo = 
@@ -18820,7 +18820,7 @@ const Il2CppTypeDefinitionMetadata U3CWaitAndShowDialogU3Ec__Iterator18_t588_Def
 	, U3CWaitAndShowDialogU3Ec__Iterator18_t588_VTable/* vtableMethods */
 	, U3CWaitAndShowDialogU3Ec__Iterator18_t588_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1960/* fieldStart */
+	, 1961/* fieldStart */
 
 };
 TypeInfo U3CWaitAndShowDialogU3Ec__Iterator18_t588_il2cpp_TypeInfo = 
@@ -19013,7 +19013,7 @@ const Il2CppTypeDefinitionMetadata RateMeController_t587_DefinitionMetadata =
 	, RateMeController_t587_VTable/* vtableMethods */
 	, RateMeController_t587_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1963/* fieldStart */
+	, 1964/* fieldStart */
 
 };
 TypeInfo RateMeController_t587_il2cpp_TypeInfo = 
@@ -19443,7 +19443,7 @@ const Il2CppTypeDefinitionMetadata RatingsHelper_t590_DefinitionMetadata =
 	, RatingsHelper_t590_VTable/* vtableMethods */
 	, RatingsHelper_t590_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1967/* fieldStart */
+	, 1968/* fieldStart */
 
 };
 TypeInfo RatingsHelper_t590_il2cpp_TypeInfo = 
@@ -19873,7 +19873,7 @@ const Il2CppTypeDefinitionMetadata SFXButton_t592_DefinitionMetadata =
 	, SFXButton_t592_VTable/* vtableMethods */
 	, SFXButton_t592_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1969/* fieldStart */
+	, 1970/* fieldStart */
 
 };
 TypeInfo SFXButton_t592_il2cpp_TypeInfo = 
@@ -20013,7 +20013,7 @@ const Il2CppTypeDefinitionMetadata SFXType_t593_DefinitionMetadata =
 	, SFXType_t593_VTable/* vtableMethods */
 	, SFXType_t593_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1973/* fieldStart */
+	, 1974/* fieldStart */
 
 };
 TypeInfo SFXType_t593_il2cpp_TypeInfo = 
@@ -20495,7 +20495,7 @@ const Il2CppTypeDefinitionMetadata SFXPlayer_t596_DefinitionMetadata =
 	, SFXPlayer_t596_VTable/* vtableMethods */
 	, SFXPlayer_t596_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1983/* fieldStart */
+	, 1984/* fieldStart */
 
 };
 TypeInfo SFXPlayer_t596_il2cpp_TypeInfo = 
@@ -20758,7 +20758,7 @@ const Il2CppTypeDefinitionMetadata SFXSilencer_t597_DefinitionMetadata =
 	, SFXSilencer_t597_VTable/* vtableMethods */
 	, SFXSilencer_t597_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1988/* fieldStart */
+	, 1989/* fieldStart */
 
 };
 TypeInfo SFXSilencer_t597_il2cpp_TypeInfo = 
@@ -21031,7 +21031,7 @@ const Il2CppTypeDefinitionMetadata ScoreController_t598_DefinitionMetadata =
 	, ScoreController_t598_VTable/* vtableMethods */
 	, ScoreController_t598_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1989/* fieldStart */
+	, 1990/* fieldStart */
 
 };
 TypeInfo ScoreController_t598_il2cpp_TypeInfo = 
@@ -21222,7 +21222,7 @@ const Il2CppTypeDefinitionMetadata SecretUI_t599_DefinitionMetadata =
 	, SecretUI_t599_VTable/* vtableMethods */
 	, SecretUI_t599_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1992/* fieldStart */
+	, 1993/* fieldStart */
 
 };
 TypeInfo SecretUI_t599_il2cpp_TypeInfo = 
@@ -21365,7 +21365,7 @@ const Il2CppTypeDefinitionMetadata SizeCamera_t478_DefinitionMetadata =
 	, SizeCamera_t478_VTable/* vtableMethods */
 	, SizeCamera_t478_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1996/* fieldStart */
+	, 1997/* fieldStart */
 
 };
 TypeInfo SizeCamera_t478_il2cpp_TypeInfo = 
@@ -21865,7 +21865,7 @@ const Il2CppTypeDefinitionMetadata U3CDebugScoreAndAchievementU3Ec__Iterator19_t
 	, U3CDebugScoreAndAchievementU3Ec__Iterator19_t602_VTable/* vtableMethods */
 	, U3CDebugScoreAndAchievementU3Ec__Iterator19_t602_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2000/* fieldStart */
+	, 2001/* fieldStart */
 
 };
 TypeInfo U3CDebugScoreAndAchievementU3Ec__Iterator19_t602_il2cpp_TypeInfo = 
@@ -22013,7 +22013,7 @@ const Il2CppTypeDefinitionMetadata U3CAuthenticateU3Ec__AnonStorey1C_t603_Defini
 	, U3CAuthenticateU3Ec__AnonStorey1C_t603_VTable/* vtableMethods */
 	, U3CAuthenticateU3Ec__AnonStorey1C_t603_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2002/* fieldStart */
+	, 2003/* fieldStart */
 
 };
 TypeInfo U3CAuthenticateU3Ec__AnonStorey1C_t603_il2cpp_TypeInfo = 
@@ -22161,7 +22161,7 @@ const Il2CppTypeDefinitionMetadata U3CRecordAchievementU3Ec__AnonStorey1D_t604_D
 	, U3CRecordAchievementU3Ec__AnonStorey1D_t604_VTable/* vtableMethods */
 	, U3CRecordAchievementU3Ec__AnonStorey1D_t604_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2003/* fieldStart */
+	, 2004/* fieldStart */
 
 };
 TypeInfo U3CRecordAchievementU3Ec__AnonStorey1D_t604_il2cpp_TypeInfo = 
@@ -22656,7 +22656,7 @@ const Il2CppTypeDefinitionMetadata SocialHelper_t605_DefinitionMetadata =
 	, SocialHelper_t605_VTable/* vtableMethods */
 	, SocialHelper_t605_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2004/* fieldStart */
+	, 2005/* fieldStart */
 
 };
 TypeInfo SocialHelper_t605_il2cpp_TypeInfo = 
@@ -22847,7 +22847,7 @@ const Il2CppTypeDefinitionMetadata SocialMediaButtons_t606_DefinitionMetadata =
 	, SocialMediaButtons_t606_VTable/* vtableMethods */
 	, SocialMediaButtons_t606_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2009/* fieldStart */
+	, 2010/* fieldStart */
 
 };
 TypeInfo SocialMediaButtons_t606_il2cpp_TypeInfo = 
@@ -23877,7 +23877,7 @@ const Il2CppTypeDefinitionMetadata SoundController_t609_DefinitionMetadata =
 	, SoundController_t609_VTable/* vtableMethods */
 	, SoundController_t609_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2013/* fieldStart */
+	, 2014/* fieldStart */
 
 };
 TypeInfo SoundController_t609_il2cpp_TypeInfo = 
@@ -24073,7 +24073,7 @@ const Il2CppTypeDefinitionMetadata ThrobForEffect_t563_DefinitionMetadata =
 	, ThrobForEffect_t563_VTable/* vtableMethods */
 	, ThrobForEffect_t563_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2020/* fieldStart */
+	, 2021/* fieldStart */
 
 };
 TypeInfo ThrobForEffect_t563_il2cpp_TypeInfo = 
@@ -24653,7 +24653,7 @@ const Il2CppTypeDefinitionMetadata TimeController_t611_DefinitionMetadata =
 	, TimeController_t611_VTable/* vtableMethods */
 	, TimeController_t611_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2026/* fieldStart */
+	, 2027/* fieldStart */
 
 };
 TypeInfo TimeController_t611_il2cpp_TypeInfo = 
@@ -24820,7 +24820,7 @@ const Il2CppTypeDefinitionMetadata TimedFader_t613_DefinitionMetadata =
 	, TimedFader_t613_VTable/* vtableMethods */
 	, TimedFader_t613_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2029/* fieldStart */
+	, 2030/* fieldStart */
 
 };
 TypeInfo TimedFader_t613_il2cpp_TypeInfo = 
@@ -24979,7 +24979,7 @@ const Il2CppTypeDefinitionMetadata TipConfig_t473_DefinitionMetadata =
 	, TipConfig_t473_VTable/* vtableMethods */
 	, TipConfig_t473_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2033/* fieldStart */
+	, 2034/* fieldStart */
 
 };
 TypeInfo TipConfig_t473_il2cpp_TypeInfo = 
@@ -25273,7 +25273,7 @@ const Il2CppTypeDefinitionMetadata U3CPlayTipWithPauseU3Ec__Iterator1A_t615_Defi
 	, U3CPlayTipWithPauseU3Ec__Iterator1A_t615_VTable/* vtableMethods */
 	, U3CPlayTipWithPauseU3Ec__Iterator1A_t615_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2036/* fieldStart */
+	, 2037/* fieldStart */
 
 };
 TypeInfo U3CPlayTipWithPauseU3Ec__Iterator1A_t615_il2cpp_TypeInfo = 
@@ -25677,7 +25677,7 @@ const Il2CppTypeDefinitionMetadata TipController_t614_DefinitionMetadata =
 	, TipController_t614_VTable/* vtableMethods */
 	, TipController_t614_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2043/* fieldStart */
+	, 2044/* fieldStart */
 
 };
 TypeInfo TipController_t614_il2cpp_TypeInfo = 
@@ -25851,7 +25851,7 @@ const Il2CppTypeDefinitionMetadata TipDialog_t616_DefinitionMetadata =
 	, TipDialog_t616_VTable/* vtableMethods */
 	, TipDialog_t616_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2047/* fieldStart */
+	, 2048/* fieldStart */
 
 };
 TypeInfo TipDialog_t616_il2cpp_TypeInfo = 
@@ -26042,7 +26042,7 @@ const Il2CppTypeDefinitionMetadata TrackLevel_t617_DefinitionMetadata =
 	, TrackLevel_t617_VTable/* vtableMethods */
 	, TrackLevel_t617_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2048/* fieldStart */
+	, 2049/* fieldStart */
 
 };
 TypeInfo TrackLevel_t617_il2cpp_TypeInfo = 
@@ -26257,7 +26257,7 @@ const Il2CppTypeDefinitionMetadata TrackScore_t618_DefinitionMetadata =
 	, TrackScore_t618_VTable/* vtableMethods */
 	, TrackScore_t618_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2050/* fieldStart */
+	, 2051/* fieldStart */
 
 };
 TypeInfo TrackScore_t618_il2cpp_TypeInfo = 
@@ -26472,7 +26472,7 @@ const Il2CppTypeDefinitionMetadata TrackTreats_t619_DefinitionMetadata =
 	, TrackTreats_t619_VTable/* vtableMethods */
 	, TrackTreats_t619_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2054/* fieldStart */
+	, 2055/* fieldStart */
 
 };
 TypeInfo TrackTreats_t619_il2cpp_TypeInfo = 
@@ -26639,7 +26639,7 @@ const Il2CppTypeDefinitionMetadata TutsPlayerController_t621_DefinitionMetadata 
 	, TutsPlayerController_t621_VTable/* vtableMethods */
 	, TutsPlayerController_t621_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2058/* fieldStart */
+	, 2059/* fieldStart */
 
 };
 TypeInfo TutsPlayerController_t621_il2cpp_TypeInfo = 
@@ -26830,7 +26830,7 @@ const Il2CppTypeDefinitionMetadata TweakableParams_t622_DefinitionMetadata =
 	, TweakableParams_t622_VTable/* vtableMethods */
 	, TweakableParams_t622_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2059/* fieldStart */
+	, 2060/* fieldStart */
 
 };
 TypeInfo TweakableParams_t622_il2cpp_TypeInfo = 
@@ -26949,7 +26949,7 @@ const Il2CppTypeDefinitionMetadata TweakableSlider_t565_DefinitionMetadata =
 	, TweakableSlider_t565_VTable/* vtableMethods */
 	, TweakableSlider_t565_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2084/* fieldStart */
+	, 2085/* fieldStart */
 
 };
 TypeInfo TweakableSlider_t565_il2cpp_TypeInfo = 
@@ -27179,7 +27179,7 @@ const Il2CppTypeDefinitionMetadata TwitterSharing_t623_DefinitionMetadata =
 	, TwitterSharing_t623_VTable/* vtableMethods */
 	, TwitterSharing_t623_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2086/* fieldStart */
+	, 2087/* fieldStart */
 
 };
 TypeInfo TwitterSharing_t623_il2cpp_TypeInfo = 
@@ -27346,7 +27346,7 @@ const Il2CppTypeDefinitionMetadata UseBoost_t624_DefinitionMetadata =
 	, UseBoost_t624_VTable/* vtableMethods */
 	, UseBoost_t624_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2090/* fieldStart */
+	, 2091/* fieldStart */
 
 };
 TypeInfo UseBoost_t624_il2cpp_TypeInfo = 
@@ -27640,7 +27640,7 @@ const Il2CppTypeDefinitionMetadata U3CLaunchAppOrWebU3Ec__Iterator1B_t625_Defini
 	, U3CLaunchAppOrWebU3Ec__Iterator1B_t625_VTable/* vtableMethods */
 	, U3CLaunchAppOrWebU3Ec__Iterator1B_t625_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2092/* fieldStart */
+	, 2093/* fieldStart */
 
 };
 TypeInfo U3CLaunchAppOrWebU3Ec__Iterator1B_t625_il2cpp_TypeInfo = 
@@ -28295,7 +28295,7 @@ const Il2CppTypeDefinitionMetadata Utilities_t626_DefinitionMetadata =
 	, Utilities_t626_VTable/* vtableMethods */
 	, Utilities_t626_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2098/* fieldStart */
+	, 2099/* fieldStart */
 
 };
 TypeInfo Utilities_t626_il2cpp_TypeInfo = 
@@ -28496,7 +28496,7 @@ const Il2CppTypeDefinitionMetadata WelcomeUI_t627_DefinitionMetadata =
 	, WelcomeUI_t627_VTable/* vtableMethods */
 	, WelcomeUI_t627_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2101/* fieldStart */
+	, 2102/* fieldStart */
 
 };
 TypeInfo WelcomeUI_t627_il2cpp_TypeInfo = 

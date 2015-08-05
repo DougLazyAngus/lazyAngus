@@ -16882,7 +16882,7 @@ extern "C" void AchievementController_OnGameLevelChanged_m2520 (AchievementContr
 		V_0 = L_1;
 		LevelDescription_t543 * L_2 = V_0;
 		NullCheck(L_2);
-		String_t* L_3 = (L_2->___previousLevelClearedAchievementID_11);
+		String_t* L_3 = (L_2->___previousLevelClearedAchievementID_12);
 		if (!L_3)
 		{
 			goto IL_0026;
@@ -16892,7 +16892,7 @@ extern "C" void AchievementController_OnGameLevelChanged_m2520 (AchievementContr
 		SocialHelper_t605 * L_4 = ((SocialHelper_t605_StaticFields*)SocialHelper_t605_il2cpp_TypeInfo_var->static_fields)->___instance_3;
 		LevelDescription_t543 * L_5 = V_0;
 		NullCheck(L_5);
-		String_t* L_6 = (L_5->___previousLevelClearedAchievementID_11);
+		String_t* L_6 = (L_5->___previousLevelClearedAchievementID_12);
 		NullCheck(L_4);
 		SocialHelper_RecordAchievement_m3269(L_4, L_6, /*hidden argument*/NULL);
 	}
@@ -21259,11 +21259,11 @@ IL_0090:
 
 
 // System.Void ExplicitMouseDesc::.ctor(System.Single,System.Boolean,MouseHole/MouseHoleLocation,MouseConfig/MouseType,System.Int32,MouseConfig/MouseWiggleType)
-extern "C" void ExplicitMouseDesc__ctor_m2685 (ExplicitMouseDesc_t497 * __this, float ___pause, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method)
+extern "C" void ExplicitMouseDesc__ctor_m2685 (ExplicitMouseDesc_t497 * __this, float ___delayToNextMouse, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		float L_0 = ___pause;
+		float L_0 = ___delayToNextMouse;
 		__this->___delayToNextMouse_4 = L_0;
 		bool L_1 = ___isClockwise;
 		__this->___isClockwise_2 = L_1;
@@ -23091,7 +23091,7 @@ extern "C" void GameController_MaybeIncrementMouseHoleCapacity_m2745 (GameContro
 		V_0 = L_3;
 		LevelDescription_t543 * L_4 = V_0;
 		NullCheck(L_4);
-		EnumAccumulator_1_t538 * L_5 = (L_4->___mouseHolesAccumulator_5);
+		EnumAccumulator_1_t538 * L_5 = (L_4->___mouseHolesAccumulator_6);
 		V_1 = L_5;
 		V_2 = 0;
 		goto IL_003c;
@@ -23171,7 +23171,7 @@ extern "C" void GameController_EnqueueMiceForLevel_m2746 (GameController_t511 * 
 		MouseSpawnFromData_t510 * L_13 = (__this->___mouseSpawnFromData_6);
 		LevelDescription_t543 * L_14 = V_0;
 		NullCheck(L_14);
-		List_1_t537 * L_15 = (L_14->___explicitMouseDescs_1);
+		List_1_t537 * L_15 = (L_14->___explicitMouseDescs_2);
 		NullCheck(L_13);
 		MouseSpawnFromData_AddMice_m3033(L_13, L_15, /*hidden argument*/NULL);
 		float L_16 = Time_get_realtimeSinceStartup_m3970(NULL /*static, unused*/, /*hidden argument*/NULL);

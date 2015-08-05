@@ -40,7 +40,7 @@ extern "C" int32_t LevelConfig_GetLevelLockInfoForBoost_m2904 (LevelConfig_t550 
 // System.Int32 LevelConfig::GetLevelLock(BoostConfig/BoostType)
 extern "C" int32_t LevelConfig_GetLevelLock_m2905 (LevelConfig_t550 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LevelConfig::AddExplicitMouseDesc(System.Collections.Generic.List`1<ExplicitMouseDesc>&,System.Single,System.Boolean,MouseHole/MouseHoleLocation,MouseConfig/MouseType,System.Int32,MouseConfig/MouseWiggleType)
-extern "C" void LevelConfig_AddExplicitMouseDesc_m2906 (LevelConfig_t550 * __this, List_1_t537 ** ___retVal, float ___pause, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LevelConfig_AddExplicitMouseDesc_m2906 (LevelConfig_t550 * __this, List_1_t537 ** ___retVal, float ___delayToNextMouse, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LevelDescription LevelConfig::GetCurrentLevelDescription()
 extern "C" LevelDescription_t543 * LevelConfig_GetCurrentLevelDescription_m2907 (LevelConfig_t550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LevelDescription LevelConfig::GetLevelDescription(System.Int32)

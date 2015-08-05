@@ -14,7 +14,7 @@ struct ExplicitMouseDesc_t497;
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 
 // System.Void ExplicitMouseDesc::.ctor(System.Single,System.Boolean,MouseHole/MouseHoleLocation,MouseConfig/MouseType,System.Int32,MouseConfig/MouseWiggleType)
-extern "C" void ExplicitMouseDesc__ctor_m2685 (ExplicitMouseDesc_t497 * __this, float ___pause, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExplicitMouseDesc__ctor_m2685 (ExplicitMouseDesc_t497 * __this, float ___delayToNextMouse, bool ___isClockwise, int32_t ___location, int32_t ___mType, int32_t ___track, int32_t ___wType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseConfig/MouseWiggleType ExplicitMouseDesc::get_wiggleType()
 extern "C" int32_t ExplicitMouseDesc_get_wiggleType_m2686 (ExplicitMouseDesc_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExplicitMouseDesc::set_wiggleType(MouseConfig/MouseWiggleType)

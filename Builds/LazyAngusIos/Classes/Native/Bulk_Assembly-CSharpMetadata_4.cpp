@@ -178,7 +178,7 @@ const Il2CppTypeDefinitionMetadata WorldObjectFollower_t628_DefinitionMetadata =
 	, WorldObjectFollower_t628_VTable/* vtableMethods */
 	, WorldObjectFollower_t628_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2102/* fieldStart */
+	, 2103/* fieldStart */
 
 };
 TypeInfo WorldObjectFollower_t628_il2cpp_TypeInfo = 
@@ -411,7 +411,7 @@ const Il2CppTypeDefinitionMetadata WorldRelativeGUIElement_t506_DefinitionMetada
 	, WorldRelativeGUIElement_t506_VTable/* vtableMethods */
 	, WorldRelativeGUIElement_t506_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 2108/* fieldStart */
+	, 2109/* fieldStart */
 
 };
 TypeInfo WorldRelativeGUIElement_t506_il2cpp_TypeInfo = 
