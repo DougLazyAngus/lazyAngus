@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UInt32
-struct UInt32_t691;
+struct UInt32_t690;
 // System.IFormatProvider
-struct IFormatProvider_t4457;
+struct IFormatProvider_t4456;
 // System.Object
 struct Object_t;
 // System.Type
@@ -24,64 +24,64 @@ struct Exception_t57;
 #include "mscorlib_System_Globalization_NumberStyles.h"
 
 // System.Boolean System.UInt32::System.IConvertible.ToBoolean(System.IFormatProvider)
-extern "C" bool UInt32_System_IConvertible_ToBoolean_m15337 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_System_IConvertible_ToBoolean_m15330 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.UInt32::System.IConvertible.ToByte(System.IFormatProvider)
-extern "C" uint8_t UInt32_System_IConvertible_ToByte_m15338 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t UInt32_System_IConvertible_ToByte_m15331 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.UInt32::System.IConvertible.ToChar(System.IFormatProvider)
-extern "C" uint16_t UInt32_System_IConvertible_ToChar_m15339 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t UInt32_System_IConvertible_ToChar_m15332 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.UInt32::System.IConvertible.ToDateTime(System.IFormatProvider)
-extern "C" DateTime_t287  UInt32_System_IConvertible_ToDateTime_m15340 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  UInt32_System_IConvertible_ToDateTime_m15333 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.UInt32::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t696  UInt32_System_IConvertible_ToDecimal_m15341 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t695  UInt32_System_IConvertible_ToDecimal_m15334 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.UInt32::System.IConvertible.ToDouble(System.IFormatProvider)
-extern "C" double UInt32_System_IConvertible_ToDouble_m15342 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double UInt32_System_IConvertible_ToDouble_m15335 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.UInt32::System.IConvertible.ToInt16(System.IFormatProvider)
-extern "C" int16_t UInt32_System_IConvertible_ToInt16_m15343 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t UInt32_System_IConvertible_ToInt16_m15336 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UInt32::System.IConvertible.ToInt32(System.IFormatProvider)
-extern "C" int32_t UInt32_System_IConvertible_ToInt32_m15344 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UInt32_System_IConvertible_ToInt32_m15337 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.UInt32::System.IConvertible.ToInt64(System.IFormatProvider)
-extern "C" int64_t UInt32_System_IConvertible_ToInt64_m15345 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t UInt32_System_IConvertible_ToInt64_m15338 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.UInt32::System.IConvertible.ToSByte(System.IFormatProvider)
-extern "C" int8_t UInt32_System_IConvertible_ToSByte_m15346 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t UInt32_System_IConvertible_ToSByte_m15339 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.UInt32::System.IConvertible.ToSingle(System.IFormatProvider)
-extern "C" float UInt32_System_IConvertible_ToSingle_m15347 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float UInt32_System_IConvertible_ToSingle_m15340 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.UInt32::System.IConvertible.ToType(System.Type,System.IFormatProvider)
-extern "C" Object_t * UInt32_System_IConvertible_ToType_m15348 (uint32_t* __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * UInt32_System_IConvertible_ToType_m15341 (uint32_t* __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.UInt32::System.IConvertible.ToUInt16(System.IFormatProvider)
-extern "C" uint16_t UInt32_System_IConvertible_ToUInt16_m15349 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t UInt32_System_IConvertible_ToUInt16_m15342 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::System.IConvertible.ToUInt32(System.IFormatProvider)
-extern "C" uint32_t UInt32_System_IConvertible_ToUInt32_m15350 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UInt32_System_IConvertible_ToUInt32_m15343 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.UInt32::System.IConvertible.ToUInt64(System.IFormatProvider)
-extern "C" uint64_t UInt32_System_IConvertible_ToUInt64_m15351 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t UInt32_System_IConvertible_ToUInt64_m15344 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UInt32::CompareTo(System.Object)
-extern "C" int32_t UInt32_CompareTo_m15352 (uint32_t* __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UInt32_CompareTo_m15345 (uint32_t* __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::Equals(System.Object)
-extern "C" bool UInt32_Equals_m15353 (uint32_t* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_Equals_m15346 (uint32_t* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UInt32::GetHashCode()
-extern "C" int32_t UInt32_GetHashCode_m15354 (uint32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UInt32_GetHashCode_m15347 (uint32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UInt32::CompareTo(System.UInt32)
-extern "C" int32_t UInt32_CompareTo_m15355 (uint32_t* __this, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UInt32_CompareTo_m15348 (uint32_t* __this, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::Equals(System.UInt32)
-extern "C" bool UInt32_Equals_m15356 (uint32_t* __this, uint32_t ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_Equals_m15349 (uint32_t* __this, uint32_t ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::Parse(System.String,System.Boolean,System.UInt32&,System.Exception&)
-extern "C" bool UInt32_Parse_m15357 (Object_t * __this /* static, unused */, String_t* ___s, bool ___tryParse, uint32_t* ___result, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_Parse_m15350 (Object_t * __this /* static, unused */, String_t* ___s, bool ___tryParse, uint32_t* ___result, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Boolean,System.UInt32&,System.Exception&)
-extern "C" bool UInt32_Parse_m15358 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, bool ___tryParse, uint32_t* ___result, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_Parse_m15351 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, bool ___tryParse, uint32_t* ___result, Exception_t57 ** ___exc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::Parse(System.String)
-extern "C" uint32_t UInt32_Parse_m14874 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UInt32_Parse_m14867 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
-extern "C" uint32_t UInt32_Parse_m15359 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UInt32_Parse_m15352 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::Parse(System.String,System.IFormatProvider)
-extern "C" uint32_t UInt32_Parse_m15360 (Object_t * __this /* static, unused */, String_t* ___s, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t UInt32_Parse_m15353 (Object_t * __this /* static, unused */, String_t* ___s, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::TryParse(System.String,System.UInt32&)
-extern "C" bool UInt32_TryParse_m14929 (Object_t * __this /* static, unused */, String_t* ___s, uint32_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_TryParse_m14922 (Object_t * __this /* static, unused */, String_t* ___s, uint32_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32&)
-extern "C" bool UInt32_TryParse_m9890 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, uint32_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UInt32_TryParse_m9883 (Object_t * __this /* static, unused */, String_t* ___s, int32_t ___style, Object_t * ___provider, uint32_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.UInt32::ToString()
-extern "C" String_t* UInt32_ToString_m9886 (uint32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UInt32_ToString_m9879 (uint32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.UInt32::ToString(System.IFormatProvider)
-extern "C" String_t* UInt32_ToString_m9896 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UInt32_ToString_m9889 (uint32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.UInt32::ToString(System.String)
-extern "C" String_t* UInt32_ToString_m15361 (uint32_t* __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UInt32_ToString_m15354 (uint32_t* __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.UInt32::ToString(System.String,System.IFormatProvider)
-extern "C" String_t* UInt32_ToString_m15362 (uint32_t* __this, String_t* ___format, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UInt32_ToString_m15355 (uint32_t* __this, String_t* ___format, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;

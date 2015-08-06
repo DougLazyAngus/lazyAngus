@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
-struct Dictionary_2_t2804;
+struct Dictionary_2_t2803;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.GUIStateObjects
-struct  GUIStateObjects_t2805  : public Object_t
+struct  GUIStateObjects_t2804  : public Object_t
 {
 };
-struct GUIStateObjects_t2805_StaticFields{
+struct GUIStateObjects_t2804_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Object> UnityEngine.GUIStateObjects::s_StateCache
-	Dictionary_2_t2804 * ___s_StateCache_0;
+	Dictionary_2_t2803 * ___s_StateCache_0;
 };

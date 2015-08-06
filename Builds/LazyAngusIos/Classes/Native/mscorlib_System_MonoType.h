@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.MonoTypeInfo
-struct MonoTypeInfo_t4781;
+struct MonoTypeInfo_t4780;
 // System.Type
 #include "mscorlib_System_Type.h"
 // System.MonoType
 struct  MonoType_t  : public Type_t
 {
 	// System.MonoTypeInfo System.MonoType::type_info
-	MonoTypeInfo_t4781 * ___type_info_8;
+	MonoTypeInfo_t4780 * ___type_info_8;
 };

@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.TextWriter/NullTextWriter
-struct NullTextWriter_t4456;
+struct NullTextWriter_t4455;
 // System.Text.Encoding
-struct Encoding_t690;
+struct Encoding_t689;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t661;
+struct CharU5BU5D_t660;
 
 // System.Void System.IO.TextWriter/NullTextWriter::.ctor()
-extern "C" void NullTextWriter__ctor_m17335 (NullTextWriter_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextWriter__ctor_m17328 (NullTextWriter_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Encoding System.IO.TextWriter/NullTextWriter::get_Encoding()
-extern "C" Encoding_t690 * NullTextWriter_get_Encoding_m17336 (NullTextWriter_t4456 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Encoding_t689 * NullTextWriter_get_Encoding_m17329 (NullTextWriter_t4455 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter/NullTextWriter::Write(System.String)
-extern "C" void NullTextWriter_Write_m17337 (NullTextWriter_t4456 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextWriter_Write_m17330 (NullTextWriter_t4455 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter/NullTextWriter::Write(System.Char)
-extern "C" void NullTextWriter_Write_m17338 (NullTextWriter_t4456 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextWriter_Write_m17331 (NullTextWriter_t4455 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter/NullTextWriter::Write(System.Char[],System.Int32,System.Int32)
-extern "C" void NullTextWriter_Write_m17339 (NullTextWriter_t4456 * __this, CharU5BU5D_t661* ___value, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextWriter_Write_m17332 (NullTextWriter_t4455 * __this, CharU5BU5D_t660* ___value, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

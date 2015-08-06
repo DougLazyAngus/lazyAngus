@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.OutAttribute
-struct  OutAttribute_t4299  : public Attribute_t426
+struct  OutAttribute_t4298  : public Attribute_t426
 {
 };

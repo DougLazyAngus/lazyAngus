@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct  ReapplyDrivenProperties_t1032  : public MulticastDelegate_t388
+struct  ReapplyDrivenProperties_t1031  : public MulticastDelegate_t388
 {
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Principal.WindowsIdentity
-struct WindowsIdentity_t4687;
+struct WindowsIdentity_t4686;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2870;
+struct SerializationInfo_t2869;
 // System.Object
 struct Object_t;
 // System.String
@@ -18,16 +18,16 @@ struct String_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Security.Principal.WindowsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WindowsIdentity__ctor_m18674 (WindowsIdentity_t4687 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowsIdentity__ctor_m18667 (WindowsIdentity_t4686 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Principal.WindowsIdentity::.cctor()
-extern "C" void WindowsIdentity__cctor_m18675 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowsIdentity__cctor_m18668 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Principal.WindowsIdentity::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern "C" void WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m18676 (WindowsIdentity_t4687 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowsIdentity_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m18669 (WindowsIdentity_t4686 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Principal.WindowsIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m18677 (WindowsIdentity_t4687 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowsIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m18670 (WindowsIdentity_t4686 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Principal.WindowsIdentity::Dispose()
-extern "C" void WindowsIdentity_Dispose_m18678 (WindowsIdentity_t4687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WindowsIdentity_Dispose_m18671 (WindowsIdentity_t4686 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Security.Principal.WindowsIdentity::GetCurrentToken()
-extern "C" IntPtr_t WindowsIdentity_GetCurrentToken_m18679 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t WindowsIdentity_GetCurrentToken_m18672 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Principal.WindowsIdentity::GetTokenName(System.IntPtr)
-extern "C" String_t* WindowsIdentity_GetTokenName_m18680 (Object_t * __this /* static, unused */, IntPtr_t ___token, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WindowsIdentity_GetTokenName_m18673 (Object_t * __this /* static, unused */, IntPtr_t ___token, const MethodInfo* method) IL2CPP_METHOD_ATTR;

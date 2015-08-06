@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.ExecutionEngineException
-struct  ExecutionEngineException_t4766  : public SystemException_t3183
+struct  ExecutionEngineException_t4765  : public SystemException_t3182
 {
 };

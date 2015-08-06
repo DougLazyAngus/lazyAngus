@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
-struct ColorTweenCallback_t840;
+struct ColorTweenCallback_t839;
 
 // System.Void UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback::.ctor()
-extern "C" void ColorTweenCallback__ctor_m4596 (ColorTweenCallback_t840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorTweenCallback__ctor_m4589 (ColorTweenCallback_t839 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

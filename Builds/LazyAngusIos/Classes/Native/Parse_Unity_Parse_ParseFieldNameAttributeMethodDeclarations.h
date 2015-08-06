@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseFieldNameAttribute
-struct ParseFieldNameAttribute_t1189;
+struct ParseFieldNameAttribute_t1188;
 // System.String
 struct String_t;
 
 // System.Void Parse.ParseFieldNameAttribute::.ctor(System.String)
-extern "C" void ParseFieldNameAttribute__ctor_m6469 (ParseFieldNameAttribute_t1189 * __this, String_t* ___fieldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFieldNameAttribute__ctor_m6462 (ParseFieldNameAttribute_t1188 * __this, String_t* ___fieldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseFieldNameAttribute::get_FieldName()
-extern "C" String_t* ParseFieldNameAttribute_get_FieldName_m6470 (ParseFieldNameAttribute_t1189 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseFieldNameAttribute_get_FieldName_m6463 (ParseFieldNameAttribute_t1188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFieldNameAttribute::set_FieldName(System.String)
-extern "C" void ParseFieldNameAttribute_set_FieldName_m6471 (ParseFieldNameAttribute_t1189 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFieldNameAttribute_set_FieldName_m6464 (ParseFieldNameAttribute_t1188 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
-struct MouseButtonEventData_t826;
+struct MouseButtonEventData_t825;
 
 // System.Void UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::.ctor()
-extern "C" void MouseButtonEventData__ctor_m4521 (MouseButtonEventData_t826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseButtonEventData__ctor_m4514 (MouseButtonEventData_t825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::PressedThisFrame()
-extern "C" bool MouseButtonEventData_PressedThisFrame_m4522 (MouseButtonEventData_t826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseButtonEventData_PressedThisFrame_m4515 (MouseButtonEventData_t825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::ReleasedThisFrame()
-extern "C" bool MouseButtonEventData_ReleasedThisFrame_m4523 (MouseButtonEventData_t826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseButtonEventData_ReleasedThisFrame_m4516 (MouseButtonEventData_t825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

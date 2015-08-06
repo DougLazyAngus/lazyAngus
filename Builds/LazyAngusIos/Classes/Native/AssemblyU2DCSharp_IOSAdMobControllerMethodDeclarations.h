@@ -7,7 +7,7 @@
 // IOSAdMobController
 struct IOSAdMobController_t152;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t635;
+struct List_1_t634;
 // System.String
 struct String_t;
 // System.Action
@@ -100,7 +100,7 @@ extern "C" void IOSAdMobController_ShowInterstitialAd_m851 (IOSAdMobController_t
 // GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32)
 extern "C" Object_t * IOSAdMobController_GetBanner_m852 (IOSAdMobController_t152 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner> IOSAdMobController::get_banners()
-extern "C" List_1_t635 * IOSAdMobController_get_banners_m853 (IOSAdMobController_t152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t634 * IOSAdMobController_get_banners_m853 (IOSAdMobController_t152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean IOSAdMobController::get_IsInited()
 extern "C" bool IOSAdMobController_get_IsInited_m854 (IOSAdMobController_t152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String IOSAdMobController::get_BannersUunitId()

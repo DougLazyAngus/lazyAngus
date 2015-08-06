@@ -135,16 +135,12 @@ public class GoogleAdController : MonoBehaviour {
 			banner.Hide ();
 			break;
 		default:
-			StartCoroutine (RefreshInSeparateThread());
+			banner.Show ();
+			banner.Refresh ();
 			break;
 		}	
 	}
 
-	IEnumerator RefreshInSeparateThread() {
-		yield return new WaitForSeconds (0f);
-		// banner.Show();
-		// banner.Refresh();
-	}
 
 	public static float GetBannerHeight() {
 		// Logic from 

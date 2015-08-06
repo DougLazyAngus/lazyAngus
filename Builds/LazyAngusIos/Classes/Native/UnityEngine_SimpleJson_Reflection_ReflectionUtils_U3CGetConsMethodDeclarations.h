@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/<GetConstructorByReflection>c__AnonStorey1
-struct U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2780;
+struct U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2779;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t635;
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetConstructorByReflection>c__AnonStorey1::.ctor()
-extern "C" void U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9579 (U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2780 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9572 (U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/<GetConstructorByReflection>c__AnonStorey1::<>m__0(System.Object[])
-extern "C" Object_t * U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9580 (U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2780 * __this, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9573 (U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2779 * __this, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

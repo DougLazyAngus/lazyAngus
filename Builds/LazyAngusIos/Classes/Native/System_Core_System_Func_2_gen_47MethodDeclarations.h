@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Threading.Tasks.Task,Parse.ParseUser>
-struct Func_2_t1487;
+struct Func_2_t1486;
 // System.Object
 struct Object_t;
 // Parse.ParseUser
-struct ParseUser_t1254;
+struct ParseUser_t1253;
 // System.Threading.Tasks.Task
-struct Task_t1158;
+struct Task_t1157;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Threading.Tasks.Task,Parse.ParseUser>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m7476(__this, ___object, ___method, method) (( void (*) (Func_2_t1487 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7217_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m7469(__this, ___object, ___method, method) (( void (*) (Func_2_t1486 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Threading.Tasks.Task,Parse.ParseUser>::Invoke(T)
-#define Func_2_Invoke_m34351(__this, ___arg1, method) (( ParseUser_t1254 * (*) (Func_2_t1487 *, Task_t1158 *, const MethodInfo*))Func_2_Invoke_m30050_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m34344(__this, ___arg1, method) (( ParseUser_t1253 * (*) (Func_2_t1486 *, Task_t1157 *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Threading.Tasks.Task,Parse.ParseUser>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m34352(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1487 *, Task_t1158 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30052_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m34345(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1486 *, Task_t1157 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Threading.Tasks.Task,Parse.ParseUser>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m34353(__this, ___result, method) (( ParseUser_t1254 * (*) (Func_2_t1487 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30054_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m34346(__this, ___result, method) (( ParseUser_t1253 * (*) (Func_2_t1486 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)

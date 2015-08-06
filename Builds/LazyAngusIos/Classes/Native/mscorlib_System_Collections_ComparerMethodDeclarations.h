@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Comparer
-struct Comparer_t4394;
+struct Comparer_t4393;
 // System.Globalization.CultureInfo
-struct CultureInfo_t719;
+struct CultureInfo_t718;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2870;
+struct SerializationInfo_t2869;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Collections.Comparer::.ctor()
-extern "C" void Comparer__ctor_m16683 (Comparer_t4394 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Comparer__ctor_m16676 (Comparer_t4393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Comparer::.ctor(System.Globalization.CultureInfo)
-extern "C" void Comparer__ctor_m16684 (Comparer_t4394 * __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Comparer__ctor_m16677 (Comparer_t4393 * __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Comparer::.cctor()
-extern "C" void Comparer__cctor_m16685 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Comparer__cctor_m16678 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Comparer::Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_Compare_m16686 (Comparer_t4394 * __this, Object_t * ___a, Object_t * ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Comparer_Compare_m16679 (Comparer_t4393 * __this, Object_t * ___a, Object_t * ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Comparer::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Comparer_GetObjectData_m16687 (Comparer_t4394 * __this, SerializationInfo_t2870 * ___info, StreamingContext_t2871  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Comparer_GetObjectData_m16680 (Comparer_t4393 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

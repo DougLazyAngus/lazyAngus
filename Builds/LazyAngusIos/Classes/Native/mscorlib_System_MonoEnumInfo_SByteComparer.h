@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoEnumInfo/SByteComparer
-struct  SByteComparer_t4758  : public Object_t
+struct  SByteComparer_t4757  : public Object_t
 {
 };

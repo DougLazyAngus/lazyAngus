@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.WaitCallback
-struct WaitCallback_t2095;
+struct WaitCallback_t2094;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.WaitCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void WaitCallback__ctor_m7533 (WaitCallback_t2095 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitCallback__ctor_m7526 (WaitCallback_t2094 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitCallback::Invoke(System.Object)
-extern "C" void WaitCallback_Invoke_m19896 (WaitCallback_t2095 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_WaitCallback_t2095(Il2CppObject* delegate, Object_t * ___state);
+extern "C" void WaitCallback_Invoke_m19889 (WaitCallback_t2094 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_WaitCallback_t2094(Il2CppObject* delegate, Object_t * ___state);
 // System.IAsyncResult System.Threading.WaitCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * WaitCallback_BeginInvoke_m19897 (WaitCallback_t2095 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WaitCallback_BeginInvoke_m19890 (WaitCallback_t2094 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitCallback::EndInvoke(System.IAsyncResult)
-extern "C" void WaitCallback_EndInvoke_m19898 (WaitCallback_t2095 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitCallback_EndInvoke_m19891 (WaitCallback_t2094 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

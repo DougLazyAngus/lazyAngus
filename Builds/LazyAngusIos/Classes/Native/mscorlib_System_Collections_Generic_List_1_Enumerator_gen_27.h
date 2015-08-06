@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
-struct List_1_t746;
+struct List_1_t745;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>
-struct  Enumerator_t5675 
+struct  Enumerator_t5674 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::l
-	List_1_t746 * ___l_0;
+	List_1_t745 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::ver

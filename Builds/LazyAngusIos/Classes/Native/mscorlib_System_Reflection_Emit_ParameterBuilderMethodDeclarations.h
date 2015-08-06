@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.ParameterBuilder
-struct ParameterBuilder_t4474;
+struct ParameterBuilder_t4473;
 // System.String
 struct String_t;
 
 // System.Int32 System.Reflection.Emit.ParameterBuilder::get_Attributes()
-extern "C" int32_t ParameterBuilder_get_Attributes_m17528 (ParameterBuilder_t4474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ParameterBuilder_get_Attributes_m17521 (ParameterBuilder_t4473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.ParameterBuilder::get_Name()
-extern "C" String_t* ParameterBuilder_get_Name_m17529 (ParameterBuilder_t4474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParameterBuilder_get_Name_m17522 (ParameterBuilder_t4473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.ParameterBuilder::get_Position()
-extern "C" int32_t ParameterBuilder_get_Position_m17530 (ParameterBuilder_t4474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ParameterBuilder_get_Position_m17523 (ParameterBuilder_t4473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

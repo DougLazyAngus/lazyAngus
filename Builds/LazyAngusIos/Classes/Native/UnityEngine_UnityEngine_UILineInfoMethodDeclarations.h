@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UILineInfo
-struct UILineInfo_t1018;
+struct UILineInfo_t1017;
 

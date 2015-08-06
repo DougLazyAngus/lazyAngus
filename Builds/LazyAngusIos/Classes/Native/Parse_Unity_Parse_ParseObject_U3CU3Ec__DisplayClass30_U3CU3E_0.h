@@ -1,34 +1,34 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36
-struct U3CU3Ec__DisplayClass36_t1205;
+struct U3CU3Ec__DisplayClass36_t1204;
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32
-struct U3CU3Ec__DisplayClass32_t1206;
+struct U3CU3Ec__DisplayClass32_t1205;
 // Parse.ParseObject/<>c__DisplayClass30
-struct U3CU3Ec__DisplayClass30_t1207;
+struct U3CU3Ec__DisplayClass30_t1206;
 // System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct List_1_t1209;
+struct List_1_t1208;
 // System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,<>f__AnonymousType3`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>>
-struct Func_3_t1210;
+struct Func_3_t1209;
 // System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>>
-struct Func_3_t1211;
+struct Func_3_t1210;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a
-struct  U3CU3Ec__DisplayClass3a_t1204  : public Object_t
+struct  U3CU3Ec__DisplayClass3a_t1203  : public Object_t
 {
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::CS$<>8__locals37
-	U3CU3Ec__DisplayClass36_t1205 * ___CSU24U3CU3E8__locals37_0;
+	U3CU3Ec__DisplayClass36_t1204 * ___CSU24U3CU3E8__locals37_0;
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::CS$<>8__locals33
-	U3CU3Ec__DisplayClass32_t1206 * ___CSU24U3CU3E8__locals33_1;
+	U3CU3Ec__DisplayClass32_t1205 * ___CSU24U3CU3E8__locals33_1;
 	// Parse.ParseObject/<>c__DisplayClass30 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::CS$<>8__locals31
-	U3CU3Ec__DisplayClass30_t1207 * ___CSU24U3CU3E8__locals31_2;
+	U3CU3Ec__DisplayClass30_t1206 * ___CSU24U3CU3E8__locals31_2;
 	// System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::operations
-	List_1_t1209 * ___operations_3;
+	List_1_t1208 * ___operations_3;
 };
-struct U3CU3Ec__DisplayClass3a_t1204_StaticFields{
+struct U3CU3Ec__DisplayClass3a_t1203_StaticFields{
 	// System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,<>f__AnonymousType3`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::CS$<>9__CachedAnonymousMethodDelegate3c
-	Func_3_t1210 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3c_4;
+	Func_3_t1209 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3c_4;
 	// System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::CS$<>9__CachedAnonymousMethodDelegate3f
-	Func_3_t1211 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3f_5;
+	Func_3_t1210 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3f_5;
 };

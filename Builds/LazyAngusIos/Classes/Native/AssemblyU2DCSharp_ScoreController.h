@@ -5,7 +5,7 @@ struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ScoreController
-struct  ScoreController_t598  : public MonoBehaviour_t13
+struct  ScoreController_t597  : public MonoBehaviour_t13
 {
 	// System.Boolean ScoreController::registeredForEvents
 	bool ___registeredForEvents_2;

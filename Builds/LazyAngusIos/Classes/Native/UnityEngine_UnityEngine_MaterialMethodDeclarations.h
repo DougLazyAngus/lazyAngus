@@ -14,36 +14,36 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Material::.ctor(UnityEngine.Material)
-extern "C" void Material__ctor_m3770 (Material_t482 * __this, Material_t482 * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material__ctor_m3763 (Material_t482 * __this, Material_t482 * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_color(UnityEngine.Color)
-extern "C" void Material_set_color_m4028 (Material_t482 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_set_color_m4021 (Material_t482 * __this, Color_t325  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::get_mainTexture()
-extern "C" Texture_t394 * Material_get_mainTexture_m3794 (Material_t482 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture_t394 * Material_get_mainTexture_m3787 (Material_t482 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
-extern "C" void Material_set_mainTexture_m3772 (Material_t482 * __this, Texture_t394 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_set_mainTexture_m3765 (Material_t482 * __this, Texture_t394 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetColor(System.String,UnityEngine.Color)
-extern "C" void Material_SetColor_m8999 (Material_t482 * __this, String_t* ___propertyName, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetColor_m8992 (Material_t482 * __this, String_t* ___propertyName, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetColor(System.Int32,UnityEngine.Color)
-extern "C" void Material_SetColor_m9000 (Material_t482 * __this, int32_t ___nameID, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetColor_m8993 (Material_t482 * __this, int32_t ___nameID, Color_t325  ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::INTERNAL_CALL_SetColor(UnityEngine.Material,System.Int32,UnityEngine.Color&)
-extern "C" void Material_INTERNAL_CALL_SetColor_m9001 (Object_t * __this /* static, unused */, Material_t482 * ___self, int32_t ___nameID, Color_t325 * ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_INTERNAL_CALL_SetColor_m8994 (Object_t * __this /* static, unused */, Material_t482 * ___self, int32_t ___nameID, Color_t325 * ___color, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetTexture(System.String,UnityEngine.Texture)
-extern "C" void Material_SetTexture_m9002 (Material_t482 * __this, String_t* ___propertyName, Texture_t394 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetTexture_m8995 (Material_t482 * __this, String_t* ___propertyName, Texture_t394 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetTexture(System.Int32,UnityEngine.Texture)
-extern "C" void Material_SetTexture_m9003 (Material_t482 * __this, int32_t ___nameID, Texture_t394 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetTexture_m8996 (Material_t482 * __this, int32_t ___nameID, Texture_t394 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::GetTexture(System.String)
-extern "C" Texture_t394 * Material_GetTexture_m9004 (Material_t482 * __this, String_t* ___propertyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture_t394 * Material_GetTexture_m8997 (Material_t482 * __this, String_t* ___propertyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::GetTexture(System.Int32)
-extern "C" Texture_t394 * Material_GetTexture_m9005 (Material_t482 * __this, int32_t ___nameID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture_t394 * Material_GetTexture_m8998 (Material_t482 * __this, int32_t ___nameID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetFloat(System.String,System.Single)
-extern "C" void Material_SetFloat_m9006 (Material_t482 * __this, String_t* ___propertyName, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetFloat_m8999 (Material_t482 * __this, String_t* ___propertyName, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetFloat(System.Int32,System.Single)
-extern "C" void Material_SetFloat_m9007 (Material_t482 * __this, int32_t ___nameID, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetFloat_m9000 (Material_t482 * __this, int32_t ___nameID, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetInt(System.String,System.Int32)
-extern "C" void Material_SetInt_m5878 (Material_t482 * __this, String_t* ___propertyName, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_SetInt_m5871 (Material_t482 * __this, String_t* ___propertyName, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Material::HasProperty(System.String)
-extern "C" bool Material_HasProperty_m5875 (Material_t482 * __this, String_t* ___propertyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Material_HasProperty_m5868 (Material_t482 * __this, String_t* ___propertyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Material::HasProperty(System.Int32)
-extern "C" bool Material_HasProperty_m9008 (Material_t482 * __this, int32_t ___nameID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Material_HasProperty_m9001 (Material_t482 * __this, int32_t ___nameID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::Internal_CreateWithMaterial(UnityEngine.Material,UnityEngine.Material)
-extern "C" void Material_Internal_CreateWithMaterial_m9009 (Object_t * __this /* static, unused */, Material_t482 * ___mono, Material_t482 * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Material_Internal_CreateWithMaterial_m9002 (Object_t * __this /* static, unused */, Material_t482 * ___mono, Material_t482 * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.EventArgs
-struct EventArgs_t1246;
+struct EventArgs_t1245;
 
 // System.Void System.EventArgs::.ctor()
-extern "C" void EventArgs__ctor_m7421 (EventArgs_t1246 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__ctor_m7414 (EventArgs_t1245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.EventArgs::.cctor()
-extern "C" void EventArgs__cctor_m19496 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__cctor_m19489 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

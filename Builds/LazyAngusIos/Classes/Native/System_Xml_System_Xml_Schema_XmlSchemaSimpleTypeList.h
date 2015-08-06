@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t3108;
+struct XmlSchemaSimpleType_t3107;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3114;
+struct XmlQualifiedName_t3113;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContent.h"
 // System.Xml.Schema.XmlSchemaSimpleTypeList
-struct  XmlSchemaSimpleTypeList_t3115  : public XmlSchemaSimpleTypeContent_t3113
+struct  XmlSchemaSimpleTypeList_t3114  : public XmlSchemaSimpleTypeContent_t3112
 {
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleTypeList::itemType
-	XmlSchemaSimpleType_t3108 * ___itemType_3;
+	XmlSchemaSimpleType_t3107 * ___itemType_3;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaSimpleTypeList::itemTypeName
-	XmlQualifiedName_t3114 * ___itemTypeName_4;
+	XmlQualifiedName_t3113 * ___itemTypeName_4;
 };

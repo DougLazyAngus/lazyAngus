@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Events.BaseInvokableCall[]
-struct BaseInvokableCallU5BU5D_t8498;
+struct BaseInvokableCallU5BU5D_t8497;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct  List_1_t2840  : public Object_t
+struct  List_1_t2839  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_items
-	BaseInvokableCallU5BU5D_t8498* ____items_1;
+	BaseInvokableCallU5BU5D_t8497* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2840_StaticFields{
+struct List_1_t2839_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::EmptyArray
-	BaseInvokableCallU5BU5D_t8498* ___EmptyArray_4;
+	BaseInvokableCallU5BU5D_t8497* ___EmptyArray_4;
 };

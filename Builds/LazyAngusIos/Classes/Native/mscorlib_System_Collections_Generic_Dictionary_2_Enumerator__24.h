@@ -7,7 +7,7 @@ struct Dictionary_2_t291;
 // System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_29.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct  Enumerator_t5567 
+struct  Enumerator_t5566 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<FacebookProfileImageSize,UnityEngine.Texture2D>::dictionary
 	Dictionary_2_t291 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t5567
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<FacebookProfileImageSize,UnityEngine.Texture2D>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<FacebookProfileImageSize,UnityEngine.Texture2D>::current
-	KeyValuePair_2_t5564  ___current_3;
+	KeyValuePair_2_t5563  ___current_3;
 };

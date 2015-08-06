@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdNCName
-struct XsdNCName_t3061;
+struct XsdNCName_t3060;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdNCName::.ctor()
-extern "C" void XsdNCName__ctor_m10190 (XsdNCName_t3061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNCName__ctor_m10183 (XsdNCName_t3060 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNCName::get_TokenizedType()
-extern "C" int32_t XsdNCName_get_TokenizedType_m10191 (XsdNCName_t3061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdNCName_get_TokenizedType_m10184 (XsdNCName_t3060 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

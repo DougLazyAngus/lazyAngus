@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Net.Cookie>
-struct IList_1_t4142;
+struct IList_1_t4141;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>
-struct  ReadOnlyCollection_1_t8567  : public Object_t
+struct  ReadOnlyCollection_1_t8566  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::list
 	Object_t* ___list_0;

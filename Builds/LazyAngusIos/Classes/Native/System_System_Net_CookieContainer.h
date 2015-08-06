@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.CookieCollection
-struct CookieCollection_t3975;
+struct CookieCollection_t3974;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.CookieContainer
-struct  CookieContainer_t3976  : public Object_t
+struct  CookieContainer_t3975  : public Object_t
 {
 	// System.Int32 System.Net.CookieContainer::capacity
 	int32_t ___capacity_0;
@@ -14,5 +14,5 @@ struct  CookieContainer_t3976  : public Object_t
 	// System.Int32 System.Net.CookieContainer::maxCookieSize
 	int32_t ___maxCookieSize_2;
 	// System.Net.CookieCollection System.Net.CookieContainer::cookies
-	CookieCollection_t3975 * ___cookies_3;
+	CookieCollection_t3974 * ___cookies_3;
 };

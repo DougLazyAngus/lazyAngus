@@ -8,6 +8,6 @@
 struct SizeCamera_t478;
 
 // System.Void SizeCamera::.ctor()
-extern "C" void SizeCamera__ctor_m3245 (SizeCamera_t478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera__ctor_m3238 (SizeCamera_t478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SizeCamera::Configure()
-extern "C" void SizeCamera_Configure_m3246 (SizeCamera_t478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera_Configure_m3239 (SizeCamera_t478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

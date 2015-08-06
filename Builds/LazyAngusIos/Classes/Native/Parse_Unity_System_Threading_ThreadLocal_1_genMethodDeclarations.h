@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadLocal`1<System.Boolean>
-struct ThreadLocal_1_t1229;
+struct ThreadLocal_1_t1228;
 // System.Collections.Generic.IDictionary`2<System.Int64,System.Boolean>
-struct IDictionary_2_t6112;
+struct IDictionary_2_t6111;
 // System.Func`1<System.Boolean>
-struct Func_1_t1235;
+struct Func_1_t1234;
 
 // System.Collections.Generic.IDictionary`2<System.Int64,T> System.Threading.ThreadLocal`1<System.Boolean>::get_ThreadLocalData()
 // System.Threading.ThreadLocal`1<System.Byte>
 #include "Parse_Unity_System_Threading_ThreadLocal_1_gen_2MethodDeclarations.h"
-#define ThreadLocal_1_get_ThreadLocalData_m32551(__this /* static, unused */, method) (( Object_t* (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1_get_ThreadLocalData_m32552_gshared)(__this /* static, unused */, method)
+#define ThreadLocal_1_get_ThreadLocalData_m32544(__this /* static, unused */, method) (( Object_t* (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1_get_ThreadLocalData_m32545_gshared)(__this /* static, unused */, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::.ctor()
-#define ThreadLocal_1__ctor_m32553(__this, method) (( void (*) (ThreadLocal_1_t1229 *, const MethodInfo*))ThreadLocal_1__ctor_m32554_gshared)(__this, method)
+#define ThreadLocal_1__ctor_m32546(__this, method) (( void (*) (ThreadLocal_1_t1228 *, const MethodInfo*))ThreadLocal_1__ctor_m32547_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::.ctor(System.Func`1<T>)
-#define ThreadLocal_1__ctor_m7378(__this, ___valueFactory, method) (( void (*) (ThreadLocal_1_t1229 *, Func_1_t1235 *, const MethodInfo*))ThreadLocal_1__ctor_m32555_gshared)(__this, ___valueFactory, method)
+#define ThreadLocal_1__ctor_m7371(__this, ___valueFactory, method) (( void (*) (ThreadLocal_1_t1228 *, Func_1_t1234 *, const MethodInfo*))ThreadLocal_1__ctor_m32548_gshared)(__this, ___valueFactory, method)
 // T System.Threading.ThreadLocal`1<System.Boolean>::get_Value()
-#define ThreadLocal_1_get_Value_m7327(__this, method) (( bool (*) (ThreadLocal_1_t1229 *, const MethodInfo*))ThreadLocal_1_get_Value_m32556_gshared)(__this, method)
+#define ThreadLocal_1_get_Value_m7320(__this, method) (( bool (*) (ThreadLocal_1_t1228 *, const MethodInfo*))ThreadLocal_1_get_Value_m32549_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::set_Value(T)
-#define ThreadLocal_1_set_Value_m7328(__this, ___value, method) (( void (*) (ThreadLocal_1_t1229 *, bool, const MethodInfo*))ThreadLocal_1_set_Value_m32557_gshared)(__this, ___value, method)
+#define ThreadLocal_1_set_Value_m7321(__this, ___value, method) (( void (*) (ThreadLocal_1_t1228 *, bool, const MethodInfo*))ThreadLocal_1_set_Value_m32550_gshared)(__this, ___value, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::Finalize()
-#define ThreadLocal_1_Finalize_m32558(__this, method) (( void (*) (ThreadLocal_1_t1229 *, const MethodInfo*))ThreadLocal_1_Finalize_m32559_gshared)(__this, method)
+#define ThreadLocal_1_Finalize_m32551(__this, method) (( void (*) (ThreadLocal_1_t1228 *, const MethodInfo*))ThreadLocal_1_Finalize_m32552_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::CheckDisposed()
-#define ThreadLocal_1_CheckDisposed_m32560(__this, method) (( void (*) (ThreadLocal_1_t1229 *, const MethodInfo*))ThreadLocal_1_CheckDisposed_m32561_gshared)(__this, method)
+#define ThreadLocal_1_CheckDisposed_m32553(__this, method) (( void (*) (ThreadLocal_1_t1228 *, const MethodInfo*))ThreadLocal_1_CheckDisposed_m32554_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::Dispose()
-#define ThreadLocal_1_Dispose_m32562(__this, method) (( void (*) (ThreadLocal_1_t1229 *, const MethodInfo*))ThreadLocal_1_Dispose_m32563_gshared)(__this, method)
+#define ThreadLocal_1_Dispose_m32555(__this, method) (( void (*) (ThreadLocal_1_t1228 *, const MethodInfo*))ThreadLocal_1_Dispose_m32556_gshared)(__this, method)
 // T System.Threading.ThreadLocal`1<System.Boolean>::<.ctor>b__0()
-#define ThreadLocal_1_U3C_ctorU3Eb__0_m32564(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1_U3C_ctorU3Eb__0_m32565_gshared)(__this /* static, unused */, method)
+#define ThreadLocal_1_U3C_ctorU3Eb__0_m32557(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1_U3C_ctorU3Eb__0_m32558_gshared)(__this /* static, unused */, method)
 // System.Void System.Threading.ThreadLocal`1<System.Boolean>::.cctor()
-#define ThreadLocal_1__cctor_m32566(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1__cctor_m32567_gshared)(__this /* static, unused */, method)
+#define ThreadLocal_1__cctor_m32559(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ThreadLocal_1__cctor_m32560_gshared)(__this /* static, unused */, method)

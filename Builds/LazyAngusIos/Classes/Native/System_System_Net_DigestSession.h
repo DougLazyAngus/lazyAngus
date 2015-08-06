@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3732;
+struct RandomNumberGenerator_t3731;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3748;
+struct HashAlgorithm_t3747;
 // System.Net.DigestHeaderParser
-struct DigestHeaderParser_t3980;
+struct DigestHeaderParser_t3979;
 // System.String
 struct String_t;
 // System.Object
@@ -13,20 +13,20 @@ struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.DigestSession
-struct  DigestSession_t3981  : public Object_t
+struct  DigestSession_t3980  : public Object_t
 {
 	// System.DateTime System.Net.DigestSession::lastUse
 	DateTime_t287  ___lastUse_1;
 	// System.Int32 System.Net.DigestSession::_nc
 	int32_t ____nc_2;
 	// System.Security.Cryptography.HashAlgorithm System.Net.DigestSession::hash
-	HashAlgorithm_t3748 * ___hash_3;
+	HashAlgorithm_t3747 * ___hash_3;
 	// System.Net.DigestHeaderParser System.Net.DigestSession::parser
-	DigestHeaderParser_t3980 * ___parser_4;
+	DigestHeaderParser_t3979 * ___parser_4;
 	// System.String System.Net.DigestSession::_cnonce
 	String_t* ____cnonce_5;
 };
-struct DigestSession_t3981_StaticFields{
+struct DigestSession_t3980_StaticFields{
 	// System.Security.Cryptography.RandomNumberGenerator System.Net.DigestSession::rng
-	RandomNumberGenerator_t3732 * ___rng_0;
+	RandomNumberGenerator_t3731 * ___rng_0;
 };

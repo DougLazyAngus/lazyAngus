@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>
-struct Transform_1_t6123;
+struct Transform_1_t6122;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m32665_gshared (Transform_1_t6123 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m32665(__this, ___object, ___method, method) (( void (*) (Transform_1_t6123 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m32665_gshared)(__this, ___object, ___method, method)
+extern "C" void Transform_1__ctor_m32658_gshared (Transform_1_t6122 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m32658(__this, ___object, ___method, method) (( void (*) (Transform_1_t6122 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m32658_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>::Invoke(TKey,TValue)
-extern "C" int64_t Transform_1_Invoke_m32666_gshared (Transform_1_t6123 * __this, int64_t ___key, uint8_t ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m32666(__this, ___key, ___value, method) (( int64_t (*) (Transform_1_t6123 *, int64_t, uint8_t, const MethodInfo*))Transform_1_Invoke_m32666_gshared)(__this, ___key, ___value, method)
+extern "C" int64_t Transform_1_Invoke_m32659_gshared (Transform_1_t6122 * __this, int64_t ___key, uint8_t ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m32659(__this, ___key, ___value, method) (( int64_t (*) (Transform_1_t6122 *, int64_t, uint8_t, const MethodInfo*))Transform_1_Invoke_m32659_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m32667_gshared (Transform_1_t6123 * __this, int64_t ___key, uint8_t ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m32667(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6123 *, int64_t, uint8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m32667_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+extern "C" Object_t * Transform_1_BeginInvoke_m32660_gshared (Transform_1_t6122 * __this, int64_t ___key, uint8_t ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m32660(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6122 *, int64_t, uint8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m32660_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>::EndInvoke(System.IAsyncResult)
-extern "C" int64_t Transform_1_EndInvoke_m32668_gshared (Transform_1_t6123 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m32668(__this, ___result, method) (( int64_t (*) (Transform_1_t6123 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m32668_gshared)(__this, ___result, method)
+extern "C" int64_t Transform_1_EndInvoke_m32661_gshared (Transform_1_t6122 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m32661(__this, ___result, method) (( int64_t (*) (Transform_1_t6122 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m32661_gshared)(__this, ___result, method)

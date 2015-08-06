@@ -9,7 +9,7 @@ struct PlayerStats_t475;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TrackScore
-struct  TrackScore_t618  : public MonoBehaviour_t13
+struct  TrackScore_t617  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text TrackScore::scoreText
 	Text_t462 * ___scoreText_2;

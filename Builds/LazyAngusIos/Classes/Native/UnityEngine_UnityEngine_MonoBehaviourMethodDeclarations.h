@@ -9,8 +9,8 @@ struct MonoBehaviour_t13;
 // System.String
 struct String_t;
 // UnityEngine.Coroutine
-struct Coroutine_t893;
-struct Coroutine_t893_marshaled;
+struct Coroutine_t892;
+struct Coroutine_t892_marshaled;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object
@@ -19,20 +19,20 @@ struct Object_t;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 extern "C" void MonoBehaviour__ctor_m379 (MonoBehaviour_t13 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
-extern "C" void MonoBehaviour_Invoke_m3783 (MonoBehaviour_t13 * __this, String_t* ___methodName, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_Invoke_m3776 (MonoBehaviour_t13 * __this, String_t* ___methodName, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::CancelInvoke(System.String)
-extern "C" void MonoBehaviour_CancelInvoke_m3782 (MonoBehaviour_t13 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_CancelInvoke_m3775 (MonoBehaviour_t13 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-extern "C" Coroutine_t893 * MonoBehaviour_StartCoroutine_m3487 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t892 * MonoBehaviour_StartCoroutine_m3480 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine_Auto(System.Collections.IEnumerator)
-extern "C" Coroutine_t893 * MonoBehaviour_StartCoroutine_Auto_m9131 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t892 * MonoBehaviour_StartCoroutine_Auto_m9124 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.Collections.IEnumerator)
-extern "C" void MonoBehaviour_StopCoroutine_m3931 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_m3924 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_m5820 (MonoBehaviour_t13 * __this, Coroutine_t893 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_m5813 (MonoBehaviour_t13 * __this, Coroutine_t892 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)
-extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m9132 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m9125 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_Auto_m9133 (MonoBehaviour_t13 * __this, Coroutine_t893 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_Auto_m9126 (MonoBehaviour_t13 * __this, Coroutine_t892 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::print(System.Object)
-extern "C" void MonoBehaviour_print_m3744 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_print_m3737 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;

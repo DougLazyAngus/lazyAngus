@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ReaderWriterLockSlim/LockDetails
-struct LockDetails_t3303;
+struct LockDetails_t3302;
 
 // System.Void System.Threading.ReaderWriterLockSlim/LockDetails::.ctor()
-extern "C" void LockDetails__ctor_m11488 (LockDetails_t3303 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockDetails__ctor_m11481 (LockDetails_t3302 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

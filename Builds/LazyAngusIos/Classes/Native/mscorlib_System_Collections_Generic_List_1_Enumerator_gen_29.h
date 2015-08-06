@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t981;
+struct List_1_t980;
 // UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t1048;
+struct IEventSystemHandler_t1047;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Enumerator_t5691 
+struct  Enumerator_t5690 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
-	List_1_t981 * ___l_0;
+	List_1_t980 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::ver

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Events.UnityAction`1<System.Int32>
-struct UnityAction_1_t8489;
+struct UnityAction_1_t8488;
 // UnityEngine.Events.BaseInvokableCall
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall.h"
 // UnityEngine.Events.InvokableCall`1<System.Int32>
-struct  InvokableCall_1_t8488  : public BaseInvokableCall_t2834
+struct  InvokableCall_1_t8487  : public BaseInvokableCall_t2833
 {
 	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1<System.Int32>::Delegate
-	UnityAction_1_t8489 * ___Delegate_0;
+	UnityAction_1_t8488 * ___Delegate_0;
 };

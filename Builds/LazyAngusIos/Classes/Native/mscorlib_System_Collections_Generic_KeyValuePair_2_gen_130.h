@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int64,System.Int32>
-struct  KeyValuePair_2_t8266 
+struct  KeyValuePair_2_t8265 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int64,System.Int32>::key
 	int64_t ___key_0;

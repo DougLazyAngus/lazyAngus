@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.TimerCallback
-struct TimerCallback_t2108;
+struct TimerCallback_t2107;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.TimerCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void TimerCallback__ctor_m7568 (TimerCallback_t2108 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerCallback__ctor_m7561 (TimerCallback_t2107 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.TimerCallback::Invoke(System.Object)
-extern "C" void TimerCallback_Invoke_m19893 (TimerCallback_t2108 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_TimerCallback_t2108(Il2CppObject* delegate, Object_t * ___state);
+extern "C" void TimerCallback_Invoke_m19886 (TimerCallback_t2107 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_TimerCallback_t2107(Il2CppObject* delegate, Object_t * ___state);
 // System.IAsyncResult System.Threading.TimerCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * TimerCallback_BeginInvoke_m19894 (TimerCallback_t2108 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TimerCallback_BeginInvoke_m19887 (TimerCallback_t2107 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.TimerCallback::EndInvoke(System.IAsyncResult)
-extern "C" void TimerCallback_EndInvoke_m19895 (TimerCallback_t2108 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerCallback_EndInvoke_m19888 (TimerCallback_t2107 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

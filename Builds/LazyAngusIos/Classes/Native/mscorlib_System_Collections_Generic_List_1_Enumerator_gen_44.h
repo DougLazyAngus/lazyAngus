@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct List_1_t926;
+struct List_1_t925;
 // UnityEngine.UI.Toggle
-struct Toggle_t925;
+struct Toggle_t924;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
-struct  Enumerator_t5841 
+struct  Enumerator_t5840 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::l
-	List_1_t926 * ___l_0;
+	List_1_t925 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::current
-	Toggle_t925 * ___current_3;
+	Toggle_t924 * ___current_3;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // TimeController
-struct TimeController_t611;
+struct TimeController_t610;
 // TimeController/PauseChangedEventHandler
-struct PauseChangedEventHandler_t610;
+struct PauseChangedEventHandler_t609;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TimeController
-struct  TimeController_t611  : public MonoBehaviour_t13
+struct  TimeController_t610  : public MonoBehaviour_t13
 {
 	// TimeController/PauseChangedEventHandler TimeController::PauseChanged
-	PauseChangedEventHandler_t610 * ___PauseChanged_3;
+	PauseChangedEventHandler_t609 * ___PauseChanged_3;
 	// System.Boolean TimeController::<paused>k__BackingField
 	bool ___U3CpausedU3Ek__BackingField_4;
 };
-struct TimeController_t611_StaticFields{
+struct TimeController_t610_StaticFields{
 	// TimeController TimeController::instance
-	TimeController_t611 * ___instance_2;
+	TimeController_t610 * ___instance_2;
 };

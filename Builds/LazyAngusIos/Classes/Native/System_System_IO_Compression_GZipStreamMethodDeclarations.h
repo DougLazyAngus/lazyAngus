@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Compression.GZipStream
-struct GZipStream_t3934;
+struct GZipStream_t3933;
 // System.IO.Stream
 struct Stream_t51;
 // System.Byte[]
@@ -22,38 +22,38 @@ struct Object_t;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.IO.Compression.GZipStream::.ctor(System.IO.Stream,System.IO.Compression.CompressionMode)
-extern "C" void GZipStream__ctor_m13227 (GZipStream_t3934 * __this, Stream_t51 * ___compressedStream, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream__ctor_m13220 (GZipStream_t3933 * __this, Stream_t51 * ___compressedStream, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::.ctor(System.IO.Stream,System.IO.Compression.CompressionMode,System.Boolean)
-extern "C" void GZipStream__ctor_m13228 (GZipStream_t3934 * __this, Stream_t51 * ___compressedStream, int32_t ___mode, bool ___leaveOpen, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream__ctor_m13221 (GZipStream_t3933 * __this, Stream_t51 * ___compressedStream, int32_t ___mode, bool ___leaveOpen, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::Dispose(System.Boolean)
-extern "C" void GZipStream_Dispose_m13229 (GZipStream_t3934 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_Dispose_m13222 (GZipStream_t3933 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Compression.GZipStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t GZipStream_Read_m13230 (GZipStream_t3934 * __this, ByteU5BU5D_t66* ___dest, int32_t ___dest_offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GZipStream_Read_m13223 (GZipStream_t3933 * __this, ByteU5BU5D_t66* ___dest, int32_t ___dest_offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void GZipStream_Write_m13231 (GZipStream_t3934 * __this, ByteU5BU5D_t66* ___src, int32_t ___src_offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_Write_m13224 (GZipStream_t3933 * __this, ByteU5BU5D_t66* ___src, int32_t ___src_offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::Flush()
-extern "C" void GZipStream_Flush_m13232 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_Flush_m13225 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.Compression.GZipStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t GZipStream_Seek_m13233 (GZipStream_t3934 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t GZipStream_Seek_m13226 (GZipStream_t3933 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::SetLength(System.Int64)
-extern "C" void GZipStream_SetLength_m13234 (GZipStream_t3934 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_SetLength_m13227 (GZipStream_t3933 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.IO.Compression.GZipStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * GZipStream_BeginRead_m13235 (GZipStream_t3934 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___cback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GZipStream_BeginRead_m13228 (GZipStream_t3933 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___cback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.IO.Compression.GZipStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * GZipStream_BeginWrite_m13236 (GZipStream_t3934 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___cback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GZipStream_BeginWrite_m13229 (GZipStream_t3933 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___cback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Compression.GZipStream::EndRead(System.IAsyncResult)
-extern "C" int32_t GZipStream_EndRead_m13237 (GZipStream_t3934 * __this, Object_t * ___async_result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GZipStream_EndRead_m13230 (GZipStream_t3933 * __this, Object_t * ___async_result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::EndWrite(System.IAsyncResult)
-extern "C" void GZipStream_EndWrite_m13238 (GZipStream_t3934 * __this, Object_t * ___async_result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_EndWrite_m13231 (GZipStream_t3933 * __this, Object_t * ___async_result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.Compression.GZipStream::get_CanRead()
-extern "C" bool GZipStream_get_CanRead_m13239 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GZipStream_get_CanRead_m13232 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.Compression.GZipStream::get_CanSeek()
-extern "C" bool GZipStream_get_CanSeek_m13240 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GZipStream_get_CanSeek_m13233 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.Compression.GZipStream::get_CanWrite()
-extern "C" bool GZipStream_get_CanWrite_m13241 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GZipStream_get_CanWrite_m13234 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.Compression.GZipStream::get_Length()
-extern "C" int64_t GZipStream_get_Length_m13242 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t GZipStream_get_Length_m13235 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.Compression.GZipStream::get_Position()
-extern "C" int64_t GZipStream_get_Position_m13243 (GZipStream_t3934 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t GZipStream_get_Position_m13236 (GZipStream_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.GZipStream::set_Position(System.Int64)
-extern "C" void GZipStream_set_Position_m13244 (GZipStream_t3934 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GZipStream_set_Position_m13237 (GZipStream_t3933 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

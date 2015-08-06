@@ -5,10 +5,10 @@ struct StringU5BU5D_t75;
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdTime
-struct  XsdTime_t3094  : public XsdAnySimpleType_t3050
+struct  XsdTime_t3093  : public XsdAnySimpleType_t3049
 {
 };
-struct XsdTime_t3094_StaticFields{
+struct XsdTime_t3093_StaticFields{
 	// System.String[] Mono.Xml.Schema.XsdTime::timeFormats
 	StringU5BU5D_t75* ___timeFormats_61;
 };

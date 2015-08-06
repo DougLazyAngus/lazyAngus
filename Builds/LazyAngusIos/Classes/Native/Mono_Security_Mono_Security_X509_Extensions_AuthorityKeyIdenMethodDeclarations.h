@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
-struct AuthorityKeyIdentifierExtension_t3777;
+struct AuthorityKeyIdentifierExtension_t3776;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.X509.X509Extension
-struct X509Extension_t3773;
+struct X509Extension_t3772;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void AuthorityKeyIdentifierExtension__ctor_m12335 (AuthorityKeyIdentifierExtension_t3777 * __this, X509Extension_t3773 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthorityKeyIdentifierExtension__ctor_m12328 (AuthorityKeyIdentifierExtension_t3776 * __this, X509Extension_t3772 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::Decode()
-extern "C" void AuthorityKeyIdentifierExtension_Decode_m12336 (AuthorityKeyIdentifierExtension_t3777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthorityKeyIdentifierExtension_Decode_m12329 (AuthorityKeyIdentifierExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::get_Identifier()
-extern "C" ByteU5BU5D_t66* AuthorityKeyIdentifierExtension_get_Identifier_m12337 (AuthorityKeyIdentifierExtension_t3777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* AuthorityKeyIdentifierExtension_get_Identifier_m12330 (AuthorityKeyIdentifierExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::ToString()
-extern "C" String_t* AuthorityKeyIdentifierExtension_ToString_m12338 (AuthorityKeyIdentifierExtension_t3777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AuthorityKeyIdentifierExtension_ToString_m12331 (AuthorityKeyIdentifierExtension_t3776 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

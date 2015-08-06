@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.MethodCallExpression
-struct MethodCallExpression_t1478;
+struct MethodCallExpression_t1477;
 // System.Linq.Expressions.Expression
-struct Expression_t1470;
+struct Expression_t1469;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>
-struct ReadOnlyCollection_1_t3276;
+struct ReadOnlyCollection_1_t3275;
 
 // System.Void System.Linq.Expressions.MethodCallExpression::.ctor(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>)
-extern "C" void MethodCallExpression__ctor_m11458 (MethodCallExpression_t1478 * __this, Expression_t1470 * ___obj, MethodInfo_t * ___method, ReadOnlyCollection_1_t3276 * ___arguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodCallExpression__ctor_m11451 (MethodCallExpression_t1477 * __this, Expression_t1469 * ___obj, MethodInfo_t * ___method, ReadOnlyCollection_1_t3275 * ___arguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Linq.Expressions.Expression System.Linq.Expressions.MethodCallExpression::get_Object()
-extern "C" Expression_t1470 * MethodCallExpression_get_Object_m11459 (MethodCallExpression_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1469 * MethodCallExpression_get_Object_m11452 (MethodCallExpression_t1477 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Linq.Expressions.MethodCallExpression::get_Method()
-extern "C" MethodInfo_t * MethodCallExpression_get_Method_m7432 (MethodCallExpression_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodCallExpression_get_Method_m7425 (MethodCallExpression_t1477 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.MethodCallExpression::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3276 * MethodCallExpression_get_Arguments_m11460 (MethodCallExpression_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3275 * MethodCallExpression_get_Arguments_m11453 (MethodCallExpression_t1477 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ThrobForEffect
-struct ThrobForEffect_t563;
+struct ThrobForEffect_t562;
 
 // System.Void ThrobForEffect::.ctor()
-extern "C" void ThrobForEffect__ctor_m3303 (ThrobForEffect_t563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect__ctor_m3296 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::Start()
-extern "C" void ThrobForEffect_Start_m3304 (ThrobForEffect_t563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_Start_m3297 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::SetThrobbing(System.Boolean)
-extern "C" void ThrobForEffect_SetThrobbing_m3305 (ThrobForEffect_t563 * __this, bool ___throbbing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_SetThrobbing_m3298 (ThrobForEffect_t562 * __this, bool ___throbbing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThrobForEffect::Update()
-extern "C" void ThrobForEffect_Update_m3306 (ThrobForEffect_t563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThrobForEffect_Update_m3299 (ThrobForEffect_t562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

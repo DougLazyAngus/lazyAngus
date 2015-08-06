@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct GetDelegate_t2777;
+struct GetDelegate_t2776;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate,System.Collections.DictionaryEntry>
-struct  Transform_1_t8440  : public MulticastDelegate_t388
+struct  Transform_1_t8439  : public MulticastDelegate_t388
 {
 };

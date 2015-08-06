@@ -9,7 +9,7 @@ struct DistortForEffect_t495;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // LevelEndTitlesLayout
-struct  LevelEndTitlesLayout_t551  : public MonoBehaviour_t13
+struct  LevelEndTitlesLayout_t550  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text LevelEndTitlesLayout::waveTitleText
 	Text_t462 * ___waveTitleText_2;

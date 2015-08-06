@@ -9,12 +9,12 @@ struct AN_GMSGeneralProxy_t166;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t635;
 
 // System.Void AN_GMSGeneralProxy::.ctor()
 extern "C" void AN_GMSGeneralProxy__ctor_m1068 (AN_GMSGeneralProxy_t166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGeneralProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GMSGeneralProxy_CallActivityFunction_m1069 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSGeneralProxy_CallActivityFunction_m1069 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGeneralProxy::loadGoogleAccountNames()
 extern "C" void AN_GMSGeneralProxy_loadGoogleAccountNames_m1070 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGeneralProxy::clearDefaultAccount()

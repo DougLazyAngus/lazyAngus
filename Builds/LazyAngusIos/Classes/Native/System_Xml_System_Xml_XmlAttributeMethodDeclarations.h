@@ -5,71 +5,71 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlAttribute
-struct XmlAttribute_t672;
+struct XmlAttribute_t671;
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t3165;
+struct XmlLinkedNode_t3164;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t631;
+struct XmlDocument_t630;
 // System.Xml.XmlElement
-struct XmlElement_t632;
+struct XmlElement_t631;
 // System.Xml.XmlNode
-struct XmlNode_t668;
+struct XmlNode_t667;
 // System.Xml.Schema.IXmlSchemaInfo
-struct IXmlSchemaInfo_t3166;
+struct IXmlSchemaInfo_t3165;
 // Mono.Xml.DTDAttributeDefinition
-struct DTDAttributeDefinition_t3145;
+struct DTDAttributeDefinition_t3144;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
 
 // System.Void System.Xml.XmlAttribute::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument,System.Boolean,System.Boolean)
-extern "C" void XmlAttribute__ctor_m10480 (XmlAttribute_t672 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, XmlDocument_t631 * ___doc, bool ___atomizedNames, bool ___checkNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttribute__ctor_m10473 (XmlAttribute_t671 * __this, String_t* ___prefix, String_t* ___localName, String_t* ___namespaceURI, XmlDocument_t630 * ___doc, bool ___atomizedNames, bool ___checkNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlLinkedNode System.Xml.XmlAttribute::System.Xml.IHasXmlChildNode.get_LastLinkedChild()
-extern "C" XmlLinkedNode_t3165 * XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10481 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlLinkedNode_t3164 * XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10474 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttribute::System.Xml.IHasXmlChildNode.set_LastLinkedChild(System.Xml.XmlLinkedNode)
-extern "C" void XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10482 (XmlAttribute_t672 * __this, XmlLinkedNode_t3165 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475 (XmlAttribute_t671 * __this, XmlLinkedNode_t3164 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_BaseURI()
-extern "C" String_t* XmlAttribute_get_BaseURI_m10483 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_BaseURI_m10476 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_LocalName()
-extern "C" String_t* XmlAttribute_get_LocalName_m10484 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_LocalName_m10477 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_Name()
-extern "C" String_t* XmlAttribute_get_Name_m10485 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_Name_m10478 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_NamespaceURI()
-extern "C" String_t* XmlAttribute_get_NamespaceURI_m10486 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_NamespaceURI_m10479 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlAttribute::get_NodeType()
-extern "C" int32_t XmlAttribute_get_NodeType_m10487 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlAttribute_get_NodeType_m10480 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlDocument System.Xml.XmlAttribute::get_OwnerDocument()
-extern "C" XmlDocument_t631 * XmlAttribute_get_OwnerDocument_m10488 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlDocument_t630 * XmlAttribute_get_OwnerDocument_m10481 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlElement System.Xml.XmlAttribute::get_OwnerElement()
-extern "C" XmlElement_t632 * XmlAttribute_get_OwnerElement_m10489 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlElement_t631 * XmlAttribute_get_OwnerElement_m10482 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttribute::get_ParentNode()
-extern "C" XmlNode_t668 * XmlAttribute_get_ParentNode_m10490 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlAttribute_get_ParentNode_m10483 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_Prefix()
-extern "C" String_t* XmlAttribute_get_Prefix_m10491 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_Prefix_m10484 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttribute::set_SchemaInfo(System.Xml.Schema.IXmlSchemaInfo)
-extern "C" void XmlAttribute_set_SchemaInfo_m10492 (XmlAttribute_t672 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttribute_set_SchemaInfo_m10485 (XmlAttribute_t671 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlAttribute::get_Specified()
-extern "C" bool XmlAttribute_get_Specified_m10493 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlAttribute_get_Specified_m10486 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_Value()
-extern "C" String_t* XmlAttribute_get_Value_m10494 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_Value_m10487 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttribute::set_Value(System.String)
-extern "C" void XmlAttribute_set_Value_m10495 (XmlAttribute_t672 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttribute_set_Value_m10488 (XmlAttribute_t671 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlAttribute::get_XmlLang()
-extern "C" String_t* XmlAttribute_get_XmlLang_m10496 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttribute_get_XmlLang_m10489 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlSpace System.Xml.XmlAttribute::get_XmlSpace()
-extern "C" int32_t XmlAttribute_get_XmlSpace_m10497 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlAttribute_get_XmlSpace_m10490 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttribute::AppendChild(System.Xml.XmlNode)
-extern "C" XmlNode_t668 * XmlAttribute_AppendChild_m10498 (XmlAttribute_t672 * __this, XmlNode_t668 * ___child, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlAttribute_AppendChild_m10491 (XmlAttribute_t671 * __this, XmlNode_t667 * ___child, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttribute::InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
-extern "C" XmlNode_t668 * XmlAttribute_InsertBefore_m10499 (XmlAttribute_t672 * __this, XmlNode_t668 * ___newChild, XmlNode_t668 * ___refChild, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlAttribute_InsertBefore_m10492 (XmlAttribute_t671 * __this, XmlNode_t667 * ___newChild, XmlNode_t667 * ___refChild, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttribute::RemoveChild(System.Xml.XmlNode)
-extern "C" XmlNode_t668 * XmlAttribute_RemoveChild_m10500 (XmlAttribute_t672 * __this, XmlNode_t668 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlAttribute_RemoveChild_m10493 (XmlAttribute_t671 * __this, XmlNode_t667 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttribute::CloneNode(System.Boolean)
-extern "C" XmlNode_t668 * XmlAttribute_CloneNode_m10501 (XmlAttribute_t672 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t667 * XmlAttribute_CloneNode_m10494 (XmlAttribute_t671 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttribute::SetDefault()
-extern "C" void XmlAttribute_SetDefault_m10502 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttribute_SetDefault_m10495 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDAttributeDefinition System.Xml.XmlAttribute::GetAttributeDefinition()
-extern "C" DTDAttributeDefinition_t3145 * XmlAttribute_GetAttributeDefinition_m10503 (XmlAttribute_t672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDAttributeDefinition_t3144 * XmlAttribute_GetAttributeDefinition_m10496 (XmlAttribute_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // System.Net.HttpStatusCode
 #include "System_System_Net_HttpStatusCode.h"
 // System.Net.HttpStatusCode
-struct  HttpStatusCode_t4005 
+struct  HttpStatusCode_t4004 
 {
 	// System.Int32 System.Net.HttpStatusCode::value__
 	int32_t ___value___1;

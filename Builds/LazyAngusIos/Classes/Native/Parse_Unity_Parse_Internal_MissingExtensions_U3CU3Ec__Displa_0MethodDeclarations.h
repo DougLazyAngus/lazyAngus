@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.MissingExtensions/<>c__DisplayClass7
-struct U3CU3Ec__DisplayClass7_t1110;
+struct U3CU3Ec__DisplayClass7_t1109;
 // System.Threading.Tasks.Task`1<System.Boolean>
-struct Task_1_t1319;
+struct Task_1_t1318;
 // System.Threading.Tasks.Task
-struct Task_t1158;
+struct Task_t1157;
 // System.Threading.Tasks.Task`1<System.Int32>
-struct Task_1_t1320;
+struct Task_1_t1319;
 
 // System.Void Parse.Internal.MissingExtensions/<>c__DisplayClass7::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7__ctor_m6127 (U3CU3Ec__DisplayClass7_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass7__ctor_m6120 (U3CU3Ec__DisplayClass7_t1109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Boolean> Parse.Internal.MissingExtensions/<>c__DisplayClass7::<CopyToAsync>b__3()
-extern "C" Task_1_t1319 * U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__3_m6128 (U3CU3Ec__DisplayClass7_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1318 * U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__3_m6121 (U3CU3Ec__DisplayClass7_t1109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.Internal.MissingExtensions/<>c__DisplayClass7::<CopyToAsync>b__5()
-extern "C" Task_t1158 * U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__5_m6129 (U3CU3Ec__DisplayClass7_t1110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1157 * U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__5_m6122 (U3CU3Ec__DisplayClass7_t1109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.Internal.MissingExtensions/<>c__DisplayClass7::<CopyToAsync>b__4(System.Threading.Tasks.Task`1<System.Int32>)
-extern "C" bool U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__4_m6130 (U3CU3Ec__DisplayClass7_t1110 * __this, Task_1_t1320 * ___readTask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__4_m6123 (U3CU3Ec__DisplayClass7_t1109 * __this, Task_1_t1319 * ___readTask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.MissingExtensions/<>c__DisplayClass7::<CopyToAsync>b__6(System.Threading.Tasks.Task)
-extern "C" void U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__6_m6131 (U3CU3Ec__DisplayClass7_t1110 * __this, Task_t1158 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass7_U3CCopyToAsyncU3Eb__6_m6124 (U3CU3Ec__DisplayClass7_t1109 * __this, Task_t1157 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

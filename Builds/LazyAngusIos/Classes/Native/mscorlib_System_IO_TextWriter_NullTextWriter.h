@@ -3,6 +3,6 @@
 // System.IO.TextWriter
 #include "mscorlib_System_IO_TextWriter.h"
 // System.IO.TextWriter/NullTextWriter
-struct  NullTextWriter_t4456  : public TextWriter_t3230
+struct  NullTextWriter_t4455  : public TextWriter_t3229
 {
 };

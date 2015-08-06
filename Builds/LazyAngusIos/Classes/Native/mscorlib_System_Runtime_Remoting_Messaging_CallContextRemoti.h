@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct  CallContextRemotingData_t4567  : public Object_t
+struct  CallContextRemotingData_t4566  : public Object_t
 {
 };

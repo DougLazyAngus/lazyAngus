@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // RatingsHelper
-struct RatingsHelper_t590;
+struct RatingsHelper_t589;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // RatingsHelper
-struct  RatingsHelper_t590  : public MonoBehaviour_t13
+struct  RatingsHelper_t589  : public MonoBehaviour_t13
 {
 	// System.String RatingsHelper::iosAppID
 	String_t* ___iosAppID_2;
 };
-struct RatingsHelper_t590_StaticFields{
+struct RatingsHelper_t589_StaticFields{
 	// RatingsHelper RatingsHelper::instance
-	RatingsHelper_t590 * ___instance_3;
+	RatingsHelper_t589 * ___instance_3;
 };

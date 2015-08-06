@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct Dictionary_2_t855;
+struct Dictionary_2_t854;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.FontUpdateTracker
-struct  FontUpdateTracker_t856  : public Object_t
+struct  FontUpdateTracker_t855  : public Object_t
 {
 };
-struct FontUpdateTracker_t856_StaticFields{
+struct FontUpdateTracker_t855_StaticFields{
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>> UnityEngine.UI.FontUpdateTracker::m_Tracked
-	Dictionary_2_t855 * ___m_Tracked_0;
+	Dictionary_2_t854 * ___m_Tracked_0;
 };

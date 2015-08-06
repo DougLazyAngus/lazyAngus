@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Security.SslPolicyErrors
-struct SslPolicyErrors_t3937;
+struct SslPolicyErrors_t3936;
 

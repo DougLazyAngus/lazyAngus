@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.Impl.Leaderboard
-struct Leaderboard_t2649;
+struct Leaderboard_t2648;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct  GcLeaderboard_t2650  : public Object_t
+struct  GcLeaderboard_t2649  : public Object_t
 {
 	// System.IntPtr UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::m_InternalLeaderboard
 	IntPtr_t ___m_InternalLeaderboard_0;
 	// UnityEngine.SocialPlatforms.Impl.Leaderboard UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::m_GenericLeaderboard
-	Leaderboard_t2649 * ___m_GenericLeaderboard_1;
+	Leaderboard_t2648 * ___m_GenericLeaderboard_1;
 };

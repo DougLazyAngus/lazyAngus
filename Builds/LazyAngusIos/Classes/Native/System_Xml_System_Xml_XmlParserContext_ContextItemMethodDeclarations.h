@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlParserContext/ContextItem
-struct ContextItem_t3203;
+struct ContextItem_t3202;
 
 // System.Void System.Xml.XmlParserContext/ContextItem::.ctor()
-extern "C" void ContextItem__ctor_m10841 (ContextItem_t3203 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextItem__ctor_m10834 (ContextItem_t3202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.VerticalWrapMode
-struct VerticalWrapMode_t1085;
+struct VerticalWrapMode_t1084;
 

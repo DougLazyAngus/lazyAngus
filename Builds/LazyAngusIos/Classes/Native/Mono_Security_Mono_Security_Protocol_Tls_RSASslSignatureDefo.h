@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RSA
-struct RSA_t3758;
+struct RSA_t3757;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3748;
+struct HashAlgorithm_t3747;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Security.Cryptography.AsymmetricSignatureDeformatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureDef.h"
 // Mono.Security.Protocol.Tls.RSASslSignatureDeformatter
-struct  RSASslSignatureDeformatter_t3819  : public AsymmetricSignatureDeformatter_t3820
+struct  RSASslSignatureDeformatter_t3818  : public AsymmetricSignatureDeformatter_t3819
 {
 	// System.Security.Cryptography.RSA Mono.Security.Protocol.Tls.RSASslSignatureDeformatter::key
-	RSA_t3758 * ___key_0;
+	RSA_t3757 * ___key_0;
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Protocol.Tls.RSASslSignatureDeformatter::hash
-	HashAlgorithm_t3748 * ___hash_1;
+	HashAlgorithm_t3747 * ___hash_1;
 };
-struct RSASslSignatureDeformatter_t3819_StaticFields{
+struct RSASslSignatureDeformatter_t3818_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.Protocol.Tls.RSASslSignatureDeformatter::<>f__switch$map15
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map15_2;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>
-struct List_1_t7616;
+struct List_1_t7615;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_74.h"
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>
-struct  Enumerator_t7617 
+struct  Enumerator_t7616 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::l
-	List_1_t7616 * ___l_0;
+	List_1_t7615 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::current
-	KeyValuePair_2_t7172  ___current_3;
+	KeyValuePair_2_t7171  ___current_3;
 };

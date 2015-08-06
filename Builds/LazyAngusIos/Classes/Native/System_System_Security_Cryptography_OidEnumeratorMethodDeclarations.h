@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.OidEnumerator
-struct OidEnumerator_t4069;
+struct OidEnumerator_t4068;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.OidCollection
-struct OidCollection_t4055;
+struct OidCollection_t4054;
 
 // System.Void System.Security.Cryptography.OidEnumerator::.ctor(System.Security.Cryptography.OidCollection)
-extern "C" void OidEnumerator__ctor_m14323 (OidEnumerator_t4069 * __this, OidCollection_t4055 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OidEnumerator__ctor_m14316 (OidEnumerator_t4068 * __this, OidCollection_t4054 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.OidEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * OidEnumerator_System_Collections_IEnumerator_get_Current_m14324 (OidEnumerator_t4069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * OidEnumerator_System_Collections_IEnumerator_get_Current_m14317 (OidEnumerator_t4068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.OidEnumerator::MoveNext()
-extern "C" bool OidEnumerator_MoveNext_m14325 (OidEnumerator_t4069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool OidEnumerator_MoveNext_m14318 (OidEnumerator_t4068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.OidEnumerator::Reset()
-extern "C" void OidEnumerator_Reset_m14326 (OidEnumerator_t4069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OidEnumerator_Reset_m14319 (OidEnumerator_t4068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

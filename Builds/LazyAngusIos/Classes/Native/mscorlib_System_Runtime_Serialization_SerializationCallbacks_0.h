@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t3112;
+struct ArrayList_t3111;
 // System.Collections.Hashtable
-struct Hashtable_t1277;
+struct Hashtable_t1276;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.SerializationCallbacks
-struct  SerializationCallbacks_t4631  : public Object_t
+struct  SerializationCallbacks_t4630  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Serialization.SerializationCallbacks::onSerializingList
-	ArrayList_t3112 * ___onSerializingList_0;
+	ArrayList_t3111 * ___onSerializingList_0;
 	// System.Collections.ArrayList System.Runtime.Serialization.SerializationCallbacks::onSerializedList
-	ArrayList_t3112 * ___onSerializedList_1;
+	ArrayList_t3111 * ___onSerializedList_1;
 	// System.Collections.ArrayList System.Runtime.Serialization.SerializationCallbacks::onDeserializingList
-	ArrayList_t3112 * ___onDeserializingList_2;
+	ArrayList_t3111 * ___onDeserializingList_2;
 	// System.Collections.ArrayList System.Runtime.Serialization.SerializationCallbacks::onDeserializedList
-	ArrayList_t3112 * ___onDeserializedList_3;
+	ArrayList_t3111 * ___onDeserializedList_3;
 };
-struct SerializationCallbacks_t4631_StaticFields{
+struct SerializationCallbacks_t4630_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Serialization.SerializationCallbacks::cache
-	Hashtable_t1277 * ___cache_4;
+	Hashtable_t1276 * ___cache_4;
 	// System.Object System.Runtime.Serialization.SerializationCallbacks::cache_lock
 	Object_t * ___cache_lock_5;
 };

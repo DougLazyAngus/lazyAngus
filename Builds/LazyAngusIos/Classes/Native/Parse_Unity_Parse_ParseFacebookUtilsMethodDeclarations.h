@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseFacebookUtils
-struct ParseFacebookUtils_t1188;
+struct ParseFacebookUtils_t1187;
 // System.String
 struct String_t;
 // System.Threading.Tasks.Task`1<Parse.ParseUser>
-struct Task_1_t1340;
+struct Task_1_t1339;
 // System.Threading.Tasks.Task
-struct Task_t1158;
+struct Task_t1157;
 // Parse.ParseUser
-struct ParseUser_t1254;
+struct ParseUser_t1253;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.String Parse.ParseFacebookUtils::get_AccessToken()
-extern "C" String_t* ParseFacebookUtils_get_AccessToken_m6459 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseFacebookUtils_get_AccessToken_m6452 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFacebookUtils::Initialize()
-extern "C" void ParseFacebookUtils_Initialize_m6460 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFacebookUtils_Initialize_m6453 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseFacebookUtils::LogInAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
-extern "C" Task_1_t1340 * ParseFacebookUtils_LogInAsync_m6461 (Object_t * __this /* static, unused */, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, CancellationToken_t1111  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1339 * ParseFacebookUtils_LogInAsync_m6454 (Object_t * __this /* static, unused */, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseFacebookUtils::LogInAsync(System.String,System.String,System.DateTime)
-extern "C" Task_1_t1340 * ParseFacebookUtils_LogInAsync_m6462 (Object_t * __this /* static, unused */, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1339 * ParseFacebookUtils_LogInAsync_m6455 (Object_t * __this /* static, unused */, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFacebookUtils::LinkAsync(Parse.ParseUser,System.String,System.String,System.DateTime,System.Threading.CancellationToken)
-extern "C" Task_t1158 * ParseFacebookUtils_LinkAsync_m6463 (Object_t * __this /* static, unused */, ParseUser_t1254 * ___user, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, CancellationToken_t1111  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1157 * ParseFacebookUtils_LinkAsync_m6456 (Object_t * __this /* static, unused */, ParseUser_t1253 * ___user, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFacebookUtils::LinkAsync(Parse.ParseUser,System.String,System.String,System.DateTime)
-extern "C" Task_t1158 * ParseFacebookUtils_LinkAsync_m6464 (Object_t * __this /* static, unused */, ParseUser_t1254 * ___user, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1157 * ParseFacebookUtils_LinkAsync_m6457 (Object_t * __this /* static, unused */, ParseUser_t1253 * ___user, String_t* ___facebookId, String_t* ___accessToken, DateTime_t287  ___expiration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseFacebookUtils::IsLinked(Parse.ParseUser)
-extern "C" bool ParseFacebookUtils_IsLinked_m6465 (Object_t * __this /* static, unused */, ParseUser_t1254 * ___user, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParseFacebookUtils_IsLinked_m6458 (Object_t * __this /* static, unused */, ParseUser_t1253 * ___user, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFacebookUtils::UnlinkAsync(Parse.ParseUser,System.Threading.CancellationToken)
-extern "C" Task_t1158 * ParseFacebookUtils_UnlinkAsync_m6466 (Object_t * __this /* static, unused */, ParseUser_t1254 * ___user, CancellationToken_t1111  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1157 * ParseFacebookUtils_UnlinkAsync_m6459 (Object_t * __this /* static, unused */, ParseUser_t1253 * ___user, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFacebookUtils::UnlinkAsync(Parse.ParseUser)
-extern "C" Task_t1158 * ParseFacebookUtils_UnlinkAsync_m6467 (Object_t * __this /* static, unused */, ParseUser_t1254 * ___user, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1157 * ParseFacebookUtils_UnlinkAsync_m6460 (Object_t * __this /* static, unused */, ParseUser_t1253 * ___user, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFacebookUtils::.cctor()
-extern "C" void ParseFacebookUtils__cctor_m6468 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFacebookUtils__cctor_m6461 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -9,7 +9,7 @@ struct RectTransform_t503;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.AspectRatioFitter
-struct  AspectRatioFitter_t930  : public UIBehaviour_t787
+struct  AspectRatioFitter_t929  : public UIBehaviour_t786
 {
 	// UnityEngine.UI.AspectRatioFitter/AspectMode UnityEngine.UI.AspectRatioFitter::m_AspectMode
 	int32_t ___m_AspectMode_2;
@@ -18,5 +18,5 @@ struct  AspectRatioFitter_t930  : public UIBehaviour_t787
 	// UnityEngine.RectTransform UnityEngine.UI.AspectRatioFitter::m_Rect
 	RectTransform_t503 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.AspectRatioFitter::m_Tracker
-	DrivenRectTransformTracker_t904  ___m_Tracker_5;
+	DrivenRectTransformTracker_t903  ___m_Tracker_5;
 };

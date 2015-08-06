@@ -7,7 +7,7 @@
 // GameController
 struct GameController_t511;
 // MouseHole
-struct MouseHole_t530;
+struct MouseHole_t529;
 // MouseMove
 struct MouseMove_t487;
 
@@ -40,7 +40,7 @@ extern "C" void GameController_MaybeIncrementMouseHoleCapacity_m2745 (GameContro
 // System.Void GameController::EnqueueMiceForLevel()
 extern "C" void GameController_EnqueueMiceForLevel_m2746 (GameController_t511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseHole GameController::FindDoomedMouseHole()
-extern "C" MouseHole_t530 * GameController_FindDoomedMouseHole_m2747 (GameController_t511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MouseHole_t529 * GameController_FindDoomedMouseHole_m2747 (GameController_t511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseExit(MouseMove)
 extern "C" void GameController_OnMouseExit_m2748 (GameController_t511 * __this, MouseMove_t487 * ___mouse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForGameEnd()

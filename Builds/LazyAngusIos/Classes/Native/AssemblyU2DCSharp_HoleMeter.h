@@ -7,13 +7,13 @@ struct GameObject_t352;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_t467;
 // MouseHole
-struct MouseHole_t530;
+struct MouseHole_t529;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // HoleMeter
-struct  HoleMeter_t528  : public MonoBehaviour_t13
+struct  HoleMeter_t527  : public MonoBehaviour_t13
 {
 	// UnityEngine.Sprite HoleMeter::emptySprite
 	Sprite_t472 * ___emptySprite_2;
@@ -26,7 +26,7 @@ struct  HoleMeter_t528  : public MonoBehaviour_t13
 	// UnityEngine.GameObject[] HoleMeter::meterWidgetGameObjects
 	GameObjectU5BU5D_t467* ___meterWidgetGameObjects_6;
 	// MouseHole HoleMeter::mouseHole
-	MouseHole_t530 * ___mouseHole_7;
+	MouseHole_t529 * ___mouseHole_7;
 	// System.Boolean HoleMeter::registerdForEvents
 	bool ___registerdForEvents_8;
 };

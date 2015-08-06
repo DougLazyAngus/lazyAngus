@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.RegularExpression
-struct RegularExpression_t4112;
+struct RegularExpression_t4111;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4144;
+struct ICompiler_t4143;
 
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::.ctor()
-extern "C" void RegularExpression__ctor_m14616 (RegularExpression_t4112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression__ctor_m14609 (RegularExpression_t4111 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::set_GroupCount(System.Int32)
-extern "C" void RegularExpression_set_GroupCount_m14617 (RegularExpression_t4112 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression_set_GroupCount_m14610 (RegularExpression_t4111 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void RegularExpression_Compile_m14618 (RegularExpression_t4112 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RegularExpression_Compile_m14611 (RegularExpression_t4111 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

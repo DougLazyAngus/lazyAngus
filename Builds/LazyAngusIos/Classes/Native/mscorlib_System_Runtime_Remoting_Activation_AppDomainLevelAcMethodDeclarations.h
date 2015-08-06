@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Activation.AppDomainLevelActivator
-struct AppDomainLevelActivator_t4540;
+struct AppDomainLevelActivator_t4539;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t4538;
+struct IActivator_t4537;
 
 // System.Void System.Runtime.Remoting.Activation.AppDomainLevelActivator::.ctor(System.String,System.Runtime.Remoting.Activation.IActivator)
-extern "C" void AppDomainLevelActivator__ctor_m17925 (AppDomainLevelActivator_t4540 * __this, String_t* ___activationUrl, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainLevelActivator__ctor_m17918 (AppDomainLevelActivator_t4539 * __this, String_t* ___activationUrl, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

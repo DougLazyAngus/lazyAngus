@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // LevelDescription
-struct LevelDescription_t543;
+struct LevelDescription_t542;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,LevelDescription,System.Collections.DictionaryEntry>
-struct  Transform_1_t5667  : public MulticastDelegate_t388
+struct  Transform_1_t5666  : public MulticastDelegate_t388
 {
 };

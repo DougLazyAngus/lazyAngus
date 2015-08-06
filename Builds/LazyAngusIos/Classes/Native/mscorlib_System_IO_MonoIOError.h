@@ -5,7 +5,7 @@
 // System.IO.MonoIOError
 #include "mscorlib_System_IO_MonoIOError.h"
 // System.IO.MonoIOError
-struct  MonoIOError_t4448 
+struct  MonoIOError_t4447 
 {
 	// System.Int32 System.IO.MonoIOError::value__
 	int32_t ___value___1;

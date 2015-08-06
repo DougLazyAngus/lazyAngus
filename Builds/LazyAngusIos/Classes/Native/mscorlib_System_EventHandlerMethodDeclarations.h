@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.EventHandler
-struct EventHandler_t4011;
+struct EventHandler_t4010;
 // System.Object
 struct Object_t;
 // System.EventArgs
-struct EventArgs_t1246;
+struct EventArgs_t1245;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.EventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void EventHandler__ctor_m14882 (EventHandler_t4011 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventHandler__ctor_m14875 (EventHandler_t4010 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.EventHandler::Invoke(System.Object,System.EventArgs)
-extern "C" void EventHandler_Invoke_m19907 (EventHandler_t4011 * __this, Object_t * ___sender, EventArgs_t1246 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_EventHandler_t4011(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1246 * ___e);
+extern "C" void EventHandler_Invoke_m19900 (EventHandler_t4010 * __this, Object_t * ___sender, EventArgs_t1245 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_EventHandler_t4010(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1245 * ___e);
 // System.IAsyncResult System.EventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * EventHandler_BeginInvoke_m19908 (EventHandler_t4011 * __this, Object_t * ___sender, EventArgs_t1246 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EventHandler_BeginInvoke_m19901 (EventHandler_t4010 * __this, Object_t * ___sender, EventArgs_t1245 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.EventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void EventHandler_EndInvoke_m19909 (EventHandler_t4011 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventHandler_EndInvoke_m19902 (EventHandler_t4010 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

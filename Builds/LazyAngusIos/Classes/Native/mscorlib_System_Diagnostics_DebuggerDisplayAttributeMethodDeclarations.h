@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.DebuggerDisplayAttribute
-struct DebuggerDisplayAttribute_t4414;
+struct DebuggerDisplayAttribute_t4413;
 // System.String
 struct String_t;
 
 // System.Void System.Diagnostics.DebuggerDisplayAttribute::.ctor(System.String)
-extern "C" void DebuggerDisplayAttribute__ctor_m16844 (DebuggerDisplayAttribute_t4414 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerDisplayAttribute__ctor_m16837 (DebuggerDisplayAttribute_t4413 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.DebuggerDisplayAttribute::set_Name(System.String)
-extern "C" void DebuggerDisplayAttribute_set_Name_m16845 (DebuggerDisplayAttribute_t4414 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerDisplayAttribute_set_Name_m16838 (DebuggerDisplayAttribute_t4413 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
