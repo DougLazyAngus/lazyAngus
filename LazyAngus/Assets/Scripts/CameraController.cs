@@ -9,7 +9,6 @@ public class CameraController : MonoBehaviour {
 	public SizeCamera worldCamera;
 	public SizeCamera uxCamera;
 	public CanvasScaler constantUXCanvas;
-	public RectTransform footer;
 
 	public float actualHUDPixelHeight = 180f;
 	public float minHUDAspectRatio = 2.5f;
@@ -21,10 +20,8 @@ public class CameraController : MonoBehaviour {
 		uxCamera.screenPixelsTopToIgnore = 0f;
 		uxCamera.Configure ();
 
-
 		float footerHeight = GoogleAdController.GetBannerHeight ();
 		worldCamera.screenPixelsBottomToIgnore = footerHeight;
-		footer.sizeDelta = new Vector2( footer.rect.width, footerHeight);
 
 		float screenHeightPixels = Screen.height;
 		float screenWidthPixels = Screen.width;
