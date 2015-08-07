@@ -37,13 +37,13 @@ public class MouseConfig : MonoBehaviour
 	public float minCirclingRadius = 3.3f;
 	public float maxCirclingRadius = 3.9f;
 	public float startMouseRadius = 5.5f;
-	public float minSpeedM = 1.4f;
-	public float maxSpeedM = 2.6f;
-	public float minScaleM = 1.0f;
-	public float maxScaleM = 1.26f;
-	public float superSpeedM = 4.0f;
+
+	public float[] speeds;
+	public float[] scales;
+
 	public Color poisonedColor;
 	public Color fartedUponColor;
+
 	public Vector3 progressBarOffset;
 	public GameObject deadMousePrototype;
 	public float minBFWiggleMagnitude = 0.15f;
@@ -76,20 +76,20 @@ public class MouseConfig : MonoBehaviour
 
 		mouseDescs [(int)MouseType.SLOW] = new MouseDesc ("mouse.01", 
 		                                                  "mouse_01", 
-		                                                  minSpeedM, 
-		                                                  minScaleM);
+		                                                  speeds[(int)MouseType.SLOW], 
+		                                                  scales[(int)MouseType.SLOW]);
 		mouseDescs [(int)MouseType.MEDIUM] = new MouseDesc ("mouse.02", 
 		                                                    "mouse_02", 
-		                                                    (minSpeedM + maxSpeedM) / 2, 
-		                                                    (minScaleM + maxScaleM) / 2);
+		                                                    speeds[(int)MouseType.MEDIUM], 
+		                                                    scales[(int)MouseType.MEDIUM]);
 		mouseDescs [(int)MouseType.FAST] = new MouseDesc ("mouse.03", 
 		                                                  "mouse_03", 
-		                                                  maxSpeedM, 
-		                                                  maxScaleM);
+		                                                  speeds[(int)MouseType.FAST], 
+		                                                  scales[(int)MouseType.FAST]);
 		mouseDescs [(int)MouseType.SUPERFAST] = new MouseDesc ("mouse.04", 
 		                                                       "mouse_04", 
-		                                                       superSpeedM, 
-		                                                       minScaleM);
+		                                                       speeds[(int)MouseType.SUPERFAST], 
+		                                                       scales[(int)MouseType.SUPERFAST]);
 	}
 
 	void LoadMouseWiggleDescs ()
